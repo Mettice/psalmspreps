@@ -1,9 +1,63 @@
 {
-  "_note": "Sources for Form 2 Computer Science (Batch S2-1, Term 1). Computed answers use the rules named here.",
-  "hardware": {"ref": "Computer hardware: input, output, processing and storage devices (standard ICT textbooks)", "supports": "Classification of devices; CPU parts (control unit, ALU, registers), GHz; RAM volatile, ROM non-volatile; secondary storage types.", "checked": "Standard content; item banks authored: please check."},
-  "artificial-intelligence": {"ref": "Introductory descriptions of artificial intelligence and machine learning (e.g. UNESCO guidance on AI in education, 2023); good practice for prompts", "supports": "What AI is; machine learning from data; everyday applications; ethical issues (bias, privacy, misinformation and deepfakes, jobs, over-reliance); responsible use; parts of a good prompt.", "checked": "Authored for Form 2 from general knowledge: please check that the level and examples suit the pupils."},
-  "problem-solving": {"ref": "Problem-solving steps (understand, plan, carry out, check), decomposition, algorithms, pseudocode and flowchart symbols, tracing", "supports": "The order of the steps; flowchart symbols (oval, parallelogram, rectangle, diamond, arrows); traced outputs computed by code (traceAdd, traceDouble).", "checked": "Standard content; traces computed by code."},
-  "system-software": {"ref": "Operating systems, utility software and device drivers", "supports": "Functions of an OS; examples (Windows, macOS, Linux, Android, iOS); GUI and CLI; utilities (antivirus, firewall, backup, clean-up, compression, defragmenter); drivers.", "checked": "Standard content: please check."},
-  "number-systems": {"ref": "Binary, octal, decimal and hexadecimal; bits and bytes; ASCII (A = 65, a = 97, 0 = 48, space = 32) and Unicode", "supports": "Place values and conversions (computed by toBase, fromBase, placeSum, divSteps, bits8, toHex); ASCII codes computed from the character (asciiOf); 2ⁿ values with n bits.", "checked": "Standard; values computed by code and tested."},
-  "units": {"ref": "Units of time and of storage (1 byte = 8 bits; 1 KB = 1024 bytes, the school convention)", "supports": "Conversions computed by convertUnit (time) and storageConvert (storage).", "checked": "Computed by code. The 1024 convention is a decision to confirm with the teacher (TR-T05)."}
+ "_note": "Sources for Form 2 Computer Science (Batches S2-1 and S2-2, Terms 1 and 2). Computed answers use the rules named here.",
+ "hardware": {
+  "ref": "Computer hardware: input, output, processing and storage devices (standard ICT textbooks)",
+  "supports": "Classification of devices; CPU parts (control unit, ALU, registers), GHz; RAM volatile, ROM non-volatile; secondary storage types.",
+  "checked": "Standard content; item banks authored: please check."
+ },
+ "artificial-intelligence": {
+  "ref": "Introductory descriptions of artificial intelligence and machine learning (e.g. UNESCO guidance on AI in education, 2023); good practice for prompts",
+  "supports": "What AI is; machine learning from data; everyday applications; ethical issues (bias, privacy, misinformation and deepfakes, jobs, over-reliance); responsible use; parts of a good prompt.",
+  "checked": "Authored for Form 2 from general knowledge: please check that the level and examples suit the pupils."
+ },
+ "problem-solving": {
+  "ref": "Problem-solving steps (understand, plan, carry out, check), decomposition, algorithms, pseudocode and flowchart symbols, tracing",
+  "supports": "The order of the steps; flowchart symbols (oval, parallelogram, rectangle, diamond, arrows); traced outputs computed by code (traceAdd, traceDouble).",
+  "checked": "Standard content; traces computed by code."
+ },
+ "system-software": {
+  "ref": "Operating systems, utility software and device drivers",
+  "supports": "Functions of an OS; examples (Windows, macOS, Linux, Android, iOS); GUI and CLI; utilities (antivirus, firewall, backup, clean-up, compression, defragmenter); drivers.",
+  "checked": "Standard content: please check."
+ },
+ "number-systems": {
+  "ref": "Binary, octal, decimal and hexadecimal; bits and bytes; ASCII (A = 65, a = 97, 0 = 48, space = 32) and Unicode",
+  "supports": "Place values and conversions (computed by toBase, fromBase, placeSum, divSteps, bits8, toHex); ASCII codes computed from the character (asciiOf); 2ⁿ values with n bits.",
+  "checked": "Standard; values computed by code and tested."
+ },
+ "units": {
+  "ref": "Units of time and of storage (1 byte = 8 bits; 1 KB = 1024 bytes, the school convention)",
+  "supports": "Conversions computed by convertUnit (time) and storageConvert (storage).",
+  "checked": "Computed by code. The 1024 convention is a decision to confirm with the teacher (TR-T05)."
+ },
+ "internet": {
+  "ref": "Accessing the internet and using a web browser",
+  "supports": "Devices, connections (mobile data, Wi-Fi, fibre), ISPs (MTN, Orange, Camtel, Nexttel), data units (MB, GB; 1 GB = 1000 MB as used in bundle questions), Mbps; browser parts, URLs, https, .cm, search engines and checking sources.",
+  "checked": "General knowledge: please check the ISP names."
+ },
+ "assistive-tech": {
+  "ref": "Assistive technologies for visual, hearing, physical and learning impairments",
+  "supports": "Screen readers (NVDA, JAWS, TalkBack), magnifiers, Braille displays, captions, speech recognition, on-screen keyboards, eye-tracking, sticky keys.",
+  "checked": "Standard content."
+ },
+ "block-programming": {
+  "ref": "Block programming (Scratch): events, sequences, loops, variables, conditions, operators, debugging",
+  "supports": "x after a loop = start + step × repeats (traceAdd); if/else outcomes (traceIf); a regular polygon needs turns of 360 ÷ sides.",
+  "checked": "Computed by code and tested."
+ },
+ "digital-identity": {
+  "ref": "Digital identity and digital footprints: authentication, strong passwords, two-step verification, active and passive footprints, managing footprints",
+  "supports": "Password advice (long, mixed characters), scam awareness, privacy settings.",
+  "checked": "Standard online-safety advice."
+ },
+ "iot-cloud": {
+  "ref": "Cloud computing, sensors, embedded systems and the Internet of Things",
+  "supports": "Cloud services and their advantages and disadvantages; sensor types and uses; microcontroller, sensors and actuators; IoT data flow.",
+  "checked": "Standard content."
+ },
+ "office-software": {
+  "ref": "Spreadsheet, presentation and desktop publishing software",
+  "supports": "Cell addresses, ranges, formulas, SUM, AVERAGE, relative references when copying; slide design rules (about 6 lines, at least 24-point text); DTP frames, templates, orientation, poster content.",
+  "checked": "Arithmetic computed by the engine; design guidelines are common advice."
+ }
 }

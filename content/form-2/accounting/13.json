@@ -1,0 +1,443 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "a2-13",
+   "name": "The OHADA accounting system: definition, objectives and structure"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "OHADA (Organisation pour l'Harmonisation en Afrique du Droit des Affaires, the Organisation for the Harmonisation of Business Law in Africa) was created by a treaty signed in Port Louis in 1993. It has 17 member states, including Cameroon.\nIts accounting system, SYSCOHADA (revised in 2017), gives all member states the same accounting rules.\nObjectives: common rules so that accounts can be compared; reliable information for owners, banks, the State and investors; easier trade and investment between member states; legal security for businesses.\nDomain: it applies to businesses (traders, companies, cooperatives) in member states.\nStructure: accounts are arranged in classes numbered 1 to 9.\n• Classes 1–5: balance sheet accounts.\n• Classes 6–8: income statement (management) accounts.\n• Class 9: commitments and cost (analytical) accounts.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a trader in Douala and a trader in Dakar"
+  },
+  "problem": "Why does OHADA help {x}?",
+  "steps": [
+   "Both countries are OHADA members and use the same accounting rules (SYSCOHADA).",
+   "Their accounts can be read and compared in the same way by banks and partners."
+  ],
+  "answer": "They use the same accounting rules, so their accounts are comparable.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "OHADA harmonises business law in its member states; its accounting system is SYSCOHADA.",
+    "vars": {},
+    "example": [
+     "Cameroon is a member.",
+     "The treaty was signed in Port Louis in {1993}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-13-what"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Its objectives are common rules, comparable and reliable accounts, and easier trade and investment.",
+    "vars": {},
+    "example": [
+     "Banks can compare accounts.",
+     "Investors trust the information."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-13-obj"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "Accounts are grouped in classes {1} to {9}: classes {1}–{5} for the balance sheet, {6}–{8} for the income statement.",
+    "vars": {},
+    "example": [
+     "Class {9}: commitments and cost accounts.",
+     "Each class has a number."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-13-classes-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ohada"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which classes are balance sheet accounts?",
+         "r": "classes 1 to 5",
+         "w": [
+          "classes 6 to 8",
+          "class 9 only",
+          "classes 7 and 8 only"
+         ],
+         "e": [
+          "Those are income statement accounts.",
+          "Class 9 is commitments and costs.",
+          "Those are income statement accounts."
+         ],
+         "y": "Classes 1–5."
+        },
+        {
+         "q": "Which classes are income statement (management) accounts?",
+         "r": "classes 6 to 8",
+         "w": [
+          "classes 1 to 5",
+          "class 9",
+          "class 1 only"
+         ],
+         "e": [
+          "Those are balance sheet accounts.",
+          "That is commitments and costs.",
+          "That is a balance sheet class."
+         ],
+         "y": "Expenses and income."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-13-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is SYSCOHADA?",
+       "r": "the accounting system of the OHADA member states",
+       "w": [
+        "a bank in Yaoundé",
+        "a type of tax",
+        "a computer program only"
+       ],
+       "e": [
+        "It is a system of rules.",
+        "It is not a tax.",
+        "It is a set of rules, not a program."
+       ],
+       "y": "The common accounting system."
+      },
+      {
+       "q": "Is Cameroon a member of OHADA?",
+       "r": "Yes",
+       "w": [
+        "No",
+        "Only the North West",
+        "Only Douala"
+       ],
+       "e": [
+        "Cameroon is a member.",
+        "The whole country is a member.",
+        "The whole country is a member."
+       ],
+       "y": "Cameroon is one of the member states."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-13-obj",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an objective of OHADA accounting?",
+       "r": "common rules so that accounts can be compared",
+       "w": [
+        "each business inventing its own rules",
+        "hiding information from banks",
+        "stopping trade between countries"
+       ],
+       "e": [
+        "That is the opposite.",
+        "It gives reliable information.",
+        "It makes trade easier."
+       ],
+       "y": "Harmonised rules."
+      },
+      {
+       "q": "Who uses accounting information from businesses?",
+       "r": "owners, banks, the State and investors",
+       "w": [
+        "nobody",
+        "only the cleaner",
+        "only competitors' children"
+       ],
+       "e": [
+        "Many people use it.",
+        "That is not true.",
+        "That is not true."
+       ],
+       "y": "Users of accounts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-13-classes",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which classes are balance sheet accounts?",
+       "r": "classes 1 to 5",
+       "w": [
+        "classes 6 to 8",
+        "class 9 only",
+        "classes 7 and 8 only"
+       ],
+       "e": [
+        "Those are income statement accounts.",
+        "Class 9 is commitments and costs.",
+        "Those are income statement accounts."
+       ],
+       "y": "Classes 1–5."
+      },
+      {
+       "q": "Which classes are income statement (management) accounts?",
+       "r": "classes 6 to 8",
+       "w": [
+        "classes 1 to 5",
+        "class 9",
+        "class 1 only"
+       ],
+       "e": [
+        "Those are balance sheet accounts.",
+        "That is commitments and costs.",
+        "That is a balance sheet class."
+       ],
+       "y": "Expenses and income."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "OHADA harmonises business law.",
+      "truth": "true"
+     },
+     {
+      "text": "Cameroon is an OHADA member.",
+      "truth": "true"
+     },
+     {
+      "text": "Classes 1–5 are balance sheet accounts.",
+      "truth": "true"
+     },
+     {
+      "text": "SYSCOHADA was revised in 2017.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Each OHADA country uses completely different accounting rules.",
+      "truth": "false",
+      "explain": "They use the same rules (SYSCOHADA)."
+     },
+     {
+      "text": "Classes 6–8 are balance sheet accounts.",
+      "truth": "false",
+      "explain": "They are income statement accounts."
+     },
+     {
+      "text": "OHADA accounts are numbered in classes 1 to 20.",
+      "truth": "false",
+      "explain": "Classes are numbered 1 to 9."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

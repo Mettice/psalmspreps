@@ -1,0 +1,473 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-32",
+   "name": "Kitchen accidents: notion and types"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A kitchen accident is an unexpected event in the kitchen that causes injury or damage.\nTypes:\n• burns (from flames, hot pots, hot oil) and scalds (from boiling water or steam);\n• cuts (knives, broken glass, tin lids);\n• falls (wet or oily floors, objects on the floor, climbing on chairs);\n• electric shocks (wet hands, damaged wires);\n• fires (hot oil, gas leaks, cloth near flames);\n• poisoning (cleaning chemicals, spoiled food, kerosene in drink bottles);\n• suffocation from smoke or carbon monoxide; gas explosions.\nYoung children and old people are most at risk.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "boiling water spills on a child's arm"
+  },
+  "problem": "What type of accident is it when {x}?",
+  "steps": [
+   "Boiling water or steam causes a scald.",
+   "Dry heat or flames cause a burn."
+  ],
+  "answer": "A scald.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "A kitchen accident is an unexpected event in the kitchen that causes injury or damage.",
+    "vars": {},
+    "example": [
+     "Cutting a finger.",
+     "Slipping on a wet floor."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-32-what"
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "Burns come from dry heat; scalds come from hot liquids or steam.",
+    "vars": {},
+    "example": [
+     "Touching a hot pot: a burn.",
+     "Steam from a kettle: a scald."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-32-burn"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "Other accidents are cuts, falls, electric shocks, fires and poisoning.",
+    "vars": {},
+    "example": [
+     "Kerosene in a drink bottle can poison a child.",
+     "Wet hands on a socket: a shock."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-32-types-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-safety"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What can cause an electric shock in the kitchen?",
+         "r": "touching a socket with wet hands",
+         "w": [
+          "using a wooden spoon",
+          "washing vegetables",
+          "drinking water"
+         ],
+         "e": [
+          "Wood does not conduct.",
+          "That is safe.",
+          "That is safe."
+         ],
+         "y": "Water conducts electricity."
+        },
+        {
+         "q": "What can cause a kitchen fire?",
+         "r": "hot oil left unattended",
+         "w": [
+          "cold water in a jug",
+          "a closed fridge",
+          "a clean floor"
+         ],
+         "e": [
+          "That is safe.",
+          "That is safe.",
+          "That is safe."
+         ],
+         "y": "Overheated oil catches fire."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-32-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-safety"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a kitchen accident?",
+       "r": "an unexpected event in the kitchen causing injury or damage",
+       "w": [
+        "a meal cooked well",
+        "a clean kitchen",
+        "a new recipe"
+       ],
+       "e": [
+        "That is not an accident.",
+        "That is not an accident.",
+        "That is not an accident."
+       ],
+       "y": "It is unexpected and harmful."
+      },
+      {
+       "q": "Who is most at risk of kitchen accidents?",
+       "r": "young children and old people",
+       "w": [
+        "only adults aged 30",
+        "only cooks in hotels",
+        "nobody"
+       ],
+       "e": [
+        "Everyone can have accidents.",
+        "Everyone can.",
+        "Accidents happen."
+       ],
+       "y": "They move less safely."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-32-burn",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-safety"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Steam from a pot burns a cook's hand.",
+       "r": "a scald",
+       "w": [
+        "a cut",
+        "a fall",
+        "an electric shock"
+       ],
+       "e": [
+        "No sharp object.",
+        "No slip.",
+        "No electricity."
+       ],
+       "y": "Steam and hot liquids scald."
+      },
+      {
+       "q": "A girl touches the hot handle of a frying pan.",
+       "r": "a burn",
+       "w": [
+        "a scald",
+        "poisoning",
+        "a cut"
+       ],
+       "e": [
+        "No liquid.",
+        "Nothing swallowed.",
+        "No blade."
+       ],
+       "y": "Dry heat burns."
+      },
+      {
+       "q": "A boy slips on spilled oil.",
+       "r": "a fall",
+       "w": [
+        "a burn",
+        "poisoning",
+        "a scald"
+       ],
+       "e": [
+        "No heat.",
+        "Nothing swallowed.",
+        "No hot liquid."
+       ],
+       "y": "He slipped and fell."
+      },
+      {
+       "q": "A child drinks kerosene from a soda bottle.",
+       "r": "poisoning",
+       "w": [
+        "a cut",
+        "a fall",
+        "a burn"
+       ],
+       "e": [
+        "No blade.",
+        "No slip.",
+        "No heat."
+       ],
+       "y": "Swallowing a harmful substance."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of accident is it? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-32-types",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-safety"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What can cause an electric shock in the kitchen?",
+       "r": "touching a socket with wet hands",
+       "w": [
+        "using a wooden spoon",
+        "washing vegetables",
+        "drinking water"
+       ],
+       "e": [
+        "Wood does not conduct.",
+        "That is safe.",
+        "That is safe."
+       ],
+       "y": "Water conducts electricity."
+      },
+      {
+       "q": "What can cause a kitchen fire?",
+       "r": "hot oil left unattended",
+       "w": [
+        "cold water in a jug",
+        "a closed fridge",
+        "a clean floor"
+       ],
+       "e": [
+        "That is safe.",
+        "That is safe.",
+        "That is safe."
+       ],
+       "y": "Overheated oil catches fire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-32-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-safety"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Steam causes scalds.",
+      "truth": "true"
+     },
+     {
+      "text": "Wet floors cause falls.",
+      "truth": "true"
+     },
+     {
+      "text": "Damaged wires can give shocks.",
+      "truth": "true"
+     },
+     {
+      "text": "Hot oil can catch fire.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A scald is caused by a knife.",
+      "truth": "false",
+      "explain": "A knife causes cuts; hot liquids scald."
+     },
+     {
+      "text": "Kitchen accidents only happen to adults.",
+      "truth": "false",
+      "explain": "Children and old people are most at risk."
+     },
+     {
+      "text": "Kerosene in a drink bottle is safe.",
+      "truth": "false",
+      "explain": "A child may drink it: poisoning."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

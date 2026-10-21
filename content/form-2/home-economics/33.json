@@ -1,0 +1,445 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [
+  32
+ ],
+ "skills": [
+  {
+   "id": "h2-33",
+   "name": "Kitchen accidents: causes and prevention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Causes: carelessness and hurry; poor lighting; wet or oily floors; pot handles sticking out over the cooker; blunt or badly stored knives; children playing in the kitchen; damaged wires and wet hands; gas leaks; chemicals in food bottles; loose clothes near flames.\nPrevention:\n• turn pot handles inwards; use oven gloves;\n• wipe spills at once; keep the floor clear;\n• keep knives sharp, store them safely, cut away from the body;\n• keep children away from the cooker; store chemicals and medicines high and labelled, never in food bottles;\n• dry hands before touching switches; repair damaged wires;\n• never leave hot oil alone; turn off gas; keep a fire blanket or sand;\n• good lighting and ventilation; a first aid box.\nFirst aid for a small burn or scald: cool it under clean running water for about 20 minutes; do not apply oil or toothpaste.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a small burn on the hand"
+  },
+  "problem": "What first aid should be given for {x}?",
+  "steps": [
+   "Cool the burn under clean running water for about {20} minutes.",
+   "Cover it loosely with a clean cloth; do not put oil, butter or toothpaste on it."
+  ],
+  "answer": "Cool with running water for about {20} minutes and cover loosely.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c33-1",
+    "status": "draft",
+    "idea": "Accidents are caused by carelessness, wet floors, pot handles sticking out, damaged wires and children in the kitchen.",
+    "vars": {},
+    "example": [
+     "Hurrying causes cuts.",
+     "Oil on the floor causes falls."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-33-cause"
+    }
+   },
+   {
+    "id": "c33-2",
+    "status": "draft",
+    "idea": "Prevent accidents: turn handles in, wipe spills, store knives and chemicals safely, dry hands.",
+    "vars": {},
+    "example": [
+     "Use oven gloves.",
+     "Label chemicals."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-33-prevent"
+    }
+   },
+   {
+    "id": "c33-3",
+    "status": "draft",
+    "idea": "Cool a burn under running water for about {20} minutes; do not put oil or toothpaste on it.",
+    "vars": {},
+    "example": [
+     "Cover loosely with a clean cloth.",
+     "Serious burns need a doctor."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-33-aid-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-safety"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is the correct first aid for a small scald?",
+         "r": "cool it under clean running water",
+         "w": [
+          "rub palm oil on it",
+          "put toothpaste on it",
+          "burst the blisters"
+         ],
+         "e": [
+          "Oil keeps the heat in.",
+          "It does not help and can cause infection.",
+          "That causes infection."
+         ],
+         "y": "Cool water stops the burning."
+        },
+        {
+         "q": "What should you do if hot oil in a pan catches fire?",
+         "r": "turn off the heat and cover the pan with a lid or fire blanket",
+         "w": [
+          "pour water on it",
+          "carry the pan outside",
+          "fan the flames"
+         ],
+         "e": [
+          "Water makes burning oil explode.",
+          "You may spill it and be burnt.",
+          "That feeds the fire."
+         ],
+         "y": "Cutting off air puts it out."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-33-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-safety"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a cause of kitchen accidents?",
+       "r": "pot handles sticking out over the edge of the cooker",
+       "w": [
+        "good lighting",
+        "a first aid box",
+        "a clean, dry floor"
+       ],
+       "e": [
+        "Good lighting prevents accidents.",
+        "That helps after an accident.",
+        "That prevents falls."
+       ],
+       "y": "Someone can knock the pot over."
+      },
+      {
+       "q": "Why should children not play in the kitchen?",
+       "r": "They can be burnt, scalded or cut.",
+       "w": [
+        "They make the food sweeter.",
+        "They clean the floor.",
+        "There is no danger."
+       ],
+       "e": [
+        "That is not true.",
+        "That is not the reason.",
+        "There are many dangers."
+       ],
+       "y": "Kitchens have heat and sharp tools."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-33-prevent",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-safety"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How can falls in the kitchen be prevented?",
+       "r": "by wiping spills at once",
+       "w": [
+        "by putting oil on the floor",
+        "by working in the dark",
+        "by running in the kitchen"
+       ],
+       "e": [
+        "That causes falls.",
+        "That causes accidents.",
+        "That causes falls."
+       ],
+       "y": "A dry floor prevents slipping."
+      },
+      {
+       "q": "Where should kitchen chemicals be stored?",
+       "r": "high up, labelled, away from food",
+       "w": [
+        "in empty soda bottles",
+        "next to the food",
+        "on the floor"
+       ],
+       "e": [
+        "Someone may drink them.",
+        "They can contaminate food.",
+        "Children can reach them."
+       ],
+       "y": "Prevent poisoning."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-33-aid",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-safety"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the correct first aid for a small scald?",
+       "r": "cool it under clean running water",
+       "w": [
+        "rub palm oil on it",
+        "put toothpaste on it",
+        "burst the blisters"
+       ],
+       "e": [
+        "Oil keeps the heat in.",
+        "It does not help and can cause infection.",
+        "That causes infection."
+       ],
+       "y": "Cool water stops the burning."
+      },
+      {
+       "q": "What should you do if hot oil in a pan catches fire?",
+       "r": "turn off the heat and cover the pan with a lid or fire blanket",
+       "w": [
+        "pour water on it",
+        "carry the pan outside",
+        "fan the flames"
+       ],
+       "e": [
+        "Water makes burning oil explode.",
+        "You may spill it and be burnt.",
+        "That feeds the fire."
+       ],
+       "y": "Cutting off air puts it out."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-33-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-safety"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Turn pot handles inwards.",
+      "truth": "true"
+     },
+     {
+      "text": "Use oven gloves.",
+      "truth": "true"
+     },
+     {
+      "text": "Dry your hands before touching switches.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep a first aid box in the kitchen.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Pour water on burning oil.",
+      "truth": "false",
+      "explain": "Water makes burning oil explode; cover it."
+     },
+     {
+      "text": "Store kerosene in drink bottles.",
+      "truth": "false",
+      "explain": "Someone may drink it."
+     },
+     {
+      "text": "Put toothpaste on a burn.",
+      "truth": "false",
+      "explain": "Cool it with running water instead."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

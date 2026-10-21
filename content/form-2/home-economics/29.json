@@ -1,0 +1,395 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "h2-29",
+   "name": "Labour-saving equipment: parts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Knowing the parts helps to use and care for equipment.\nPressure cooker: the pan (body), the lid with a rubber gasket (sealing ring), the safety valve, the weight or pressure regulator on the vent pipe, and the handles.\nBlender: the motor base with speed buttons, the jug (goblet) with measurement marks, the blades at the bottom, the lid and the filler cap.\nVacuum flask: the outer case, a double-walled glass or steel inner container with a vacuum between the walls, silvered (shiny) surfaces, the stopper and the cup.\nMicrowave oven: the door with a window and safety lock, the turntable (glass plate), the control panel and timer.\nMixer: the motor, speed control, the beaters (whisks) and the bowl.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "the rubber gasket of a pressure cooker"
+  },
+  "problem": "What is the job of {t}?",
+  "steps": [
+   "It fits round the edge of the lid.",
+   "It seals the lid so steam cannot escape and the pressure can build up."
+  ],
+  "answer": "It seals the lid to keep the steam and pressure in.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "A pressure cooker has a lid with a rubber gasket, a safety valve and a weight on the vent.",
+    "vars": {},
+    "example": [
+     "The gasket seals the lid.",
+     "The safety valve lets out steam if the pressure is too high."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-29-pc"
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "A blender has a motor base, a jug with blades and a lid.",
+    "vars": {},
+    "example": [
+     "The blades are at the bottom of the jug.",
+     "The speed buttons are on the base."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-29-bl"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "A vacuum flask has a double wall with a vacuum between, shiny surfaces and a stopper.",
+    "vars": {},
+    "example": [
+     "The vacuum stops conduction and convection.",
+     "The shiny walls reduce radiation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-29-fl-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "labour-saving"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is between the two walls of a vacuum flask?",
+         "r": "a vacuum (almost no air)",
+         "w": [
+          "water",
+          "sand",
+          "cotton wool"
+         ],
+         "e": [
+          "Water would carry heat.",
+          "Sand would carry heat.",
+          "That is not used."
+         ],
+         "y": "No air means little heat transfer."
+        },
+        {
+         "q": "Why are the inner walls of a vacuum flask shiny?",
+         "r": "to reflect heat radiation",
+         "w": [
+          "to look pretty only",
+          "to absorb more heat",
+          "to make it lighter"
+         ],
+         "e": [
+          "They have a job.",
+          "Shiny surfaces reflect.",
+          "That is not why."
+         ],
+         "y": "Shiny walls reduce radiation."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-29-pc",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "prompt": "Match each part of a pressure cooker to its job.",
+   "pool": [
+    {
+     "left": "gasket (sealing ring)",
+     "right": "seals the lid"
+    },
+    {
+     "left": "safety valve",
+     "right": "lets out steam if the pressure is too high"
+    },
+    {
+     "left": "weight (regulator)",
+     "right": "controls the pressure"
+    },
+    {
+     "left": "handles",
+     "right": "lift and lock the lid safely"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-29-bl",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where are the blades of a blender?",
+       "r": "at the bottom of the jug",
+       "w": [
+        "on the lid",
+        "in the plug",
+        "on the outside of the base"
+       ],
+       "e": [
+        "The lid closes the jug.",
+        "The plug connects to power.",
+        "The base holds the motor."
+       ],
+       "y": "The blades spin at the bottom."
+      },
+      {
+       "q": "Which part of a microwave oven turns the food round?",
+       "r": "the turntable",
+       "w": [
+        "the door",
+        "the timer",
+        "the plug"
+       ],
+       "e": [
+        "The door closes the oven.",
+        "The timer sets the time.",
+        "The plug brings power."
+       ],
+       "y": "The turntable heats food evenly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-29-fl",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is between the two walls of a vacuum flask?",
+       "r": "a vacuum (almost no air)",
+       "w": [
+        "water",
+        "sand",
+        "cotton wool"
+       ],
+       "e": [
+        "Water would carry heat.",
+        "Sand would carry heat.",
+        "That is not used."
+       ],
+       "y": "No air means little heat transfer."
+      },
+      {
+       "q": "Why are the inner walls of a vacuum flask shiny?",
+       "r": "to reflect heat radiation",
+       "w": [
+        "to look pretty only",
+        "to absorb more heat",
+        "to make it lighter"
+       ],
+       "e": [
+        "They have a job.",
+        "Shiny surfaces reflect.",
+        "That is not why."
+       ],
+       "y": "Shiny walls reduce radiation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-29-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The gasket seals a pressure cooker's lid.",
+      "truth": "true"
+     },
+     {
+      "text": "A blender's motor is in the base.",
+      "truth": "true"
+     },
+     {
+      "text": "A flask has a stopper.",
+      "truth": "true"
+     },
+     {
+      "text": "A mixer has beaters.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The safety valve makes the pressure higher.",
+      "truth": "false",
+      "explain": "It lets out steam if the pressure is too high."
+     },
+     {
+      "text": "A vacuum flask is filled with air between its walls.",
+      "truth": "false",
+      "explain": "There is a vacuum between the walls."
+     },
+     {
+      "text": "The blades of a blender are on its plug.",
+      "truth": "false",
+      "explain": "They are at the bottom of the jug."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

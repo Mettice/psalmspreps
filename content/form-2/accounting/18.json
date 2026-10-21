@@ -1,0 +1,385 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "a2-18",
+   "name": "The content of classes 7 and 8"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Class 7: income of ordinary activities:\n• 70 sales (701 sales of goods, 702 sales of finished products, 706 services sold), 71 operating subsidies, 72 own production of fixed assets, 73 change in stocks of products, 75 other income, 77 financial income (interest received), 79 reversals.\nClass 8: other (extraordinary, HAO) expenses and income:\n• 81 book value of fixed assets sold, 82 proceeds from the sale of fixed assets, 83 HAO expenses (fines, losses from disasters), 84 HAO income (gifts, compensation), 85 HAO provisions, 86 HAO reversals, 87 workers' share of profit, 88 balancing subsidies, 89 income tax.\nThe difference between income (7, plus HAO income in 8) and expenses (6, plus HAO expenses in 8) gives the net result: a profit if income is greater, a loss if expenses are greater.\nResult = total income − total expenses.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "i": 850000,
+   "e": 620000
+  },
+  "problem": "A shop's total income is {i} FCFA and its total expenses are {e} FCFA. Find the result.",
+  "steps": [
+   "Result = total income − total expenses.",
+   "{i} − {e} = {i - e} FCFA; income is greater, so it is a profit."
+  ],
+  "answer": "A profit of {i - e} FCFA.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "Class {7} holds income of ordinary activities: sales, services sold, financial income.",
+    "vars": {},
+    "example": [
+     "{701} Sales of goods.",
+     "{706} Services sold."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-18-c7"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "Class {8} holds extraordinary (HAO) items: sale of fixed assets, fines, disaster losses, income tax.",
+    "vars": {},
+    "example": [
+     "{82} Proceeds from sale of fixed assets.",
+     "{89} Income tax."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-18-c8"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "Result = total income − total expenses: a profit if positive, a loss if negative.",
+    "vars": {},
+    "example": [
+     "Income {500000}, expenses {400000}: profit {100000}.",
+     "Expenses greater: a loss."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-18-result-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada"
+     ],
+     "vars": {
+      "i": {
+       "int": [
+        300000,
+        900000
+       ],
+       "step": 50000
+      },
+      "e": {
+       "int": [
+        200000,
+        800000
+       ],
+       "step": 50000
+      }
+     },
+     "prompt": "A business has total income of {i} FCFA and total expenses of {e} FCFA. What is the result? (A loss is negative.)",
+     "answer": "i - e",
+     "misconceptions": [
+      {
+       "id": "swap",
+       "wrong": "e - i",
+       "explain": "Subtract the expenses from the income."
+      }
+     ],
+     "solution": [
+      "Result = total income − total expenses.",
+      "{i} − {e} = {answer} FCFA."
+     ],
+     "where": "i != e",
+     "unit": "FCFA",
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-18-c7",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "goods sold to customers",
+       "r": "701 Sales of goods",
+       "w": [
+        "601 Purchases of goods",
+        "411 Customers",
+        "822 Proceeds from sale of fixed assets"
+       ],
+       "e": [
+        "That is an expense.",
+        "That records the debt, not the income.",
+        "That is for fixed assets."
+       ],
+       "y": "Sales are ordinary income."
+      },
+      {
+       "q": "repair services sold by a garage",
+       "r": "706 Services sold",
+       "w": [
+        "701 Sales of goods",
+        "605 Other purchases",
+        "245 Transport equipment"
+       ],
+       "e": [
+        "Services are not goods.",
+        "That is an expense.",
+        "That is a fixed asset."
+       ],
+       "y": "706 is for services."
+      },
+      {
+       "q": "interest received from the bank",
+       "r": "77 Financial income",
+       "w": [
+        "67 Financial expenses",
+        "701 Sales",
+        "521 Banks"
+       ],
+       "e": [
+        "That is interest paid.",
+        "That is not a sale.",
+        "That is the bank balance."
+       ],
+       "y": "Interest received is financial income."
+      }
+     ]
+    }
+   },
+   "prompt": "Which account is used for {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-18-c8",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which class is the money received from selling an old van recorded?",
+       "r": "class 8 (account 82)",
+       "w": [
+        "class 7 (account 701)",
+        "class 2 only",
+        "class 5 only"
+       ],
+       "e": [
+        "It is not an ordinary sale.",
+        "The asset leaves class 2; the proceeds go to 82.",
+        "The cash goes to class 5, but the income is in 82."
+       ],
+       "y": "Proceeds from sale of fixed assets: 82."
+      },
+      {
+       "q": "Which account records income tax on profit?",
+       "r": "89",
+       "w": [
+        "701",
+        "411",
+        "571"
+       ],
+       "e": [
+        "That is sales.",
+        "That is customers.",
+        "That is cash."
+       ],
+       "y": "89 Income tax."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-18-result",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      300000,
+      900000
+     ],
+     "step": 50000
+    },
+    "e": {
+     "int": [
+      200000,
+      800000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "A business has total income of {i} FCFA and total expenses of {e} FCFA. What is the result? (A loss is negative.)",
+   "answer": "i - e",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "e - i",
+     "explain": "Subtract the expenses from the income."
+    }
+   ],
+   "solution": [
+    "Result = total income − total expenses.",
+    "{i} − {e} = {answer} FCFA."
+   ],
+   "where": "i != e",
+   "unit": "FCFA",
+   "signed": true
+  },
+  {
+   "id": "a2-18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "701 Sales of goods is in class 7.",
+      "truth": "true"
+     },
+     {
+      "text": "Proceeds from selling a fixed asset go to 82.",
+      "truth": "true"
+     },
+     {
+      "text": "Income tax is in class 8.",
+      "truth": "true"
+     },
+     {
+      "text": "Result = income − expenses.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Sales of goods are recorded in class 6.",
+      "truth": "false",
+      "explain": "Class 6 is expenses; sales are class 7."
+     },
+     {
+      "text": "A profit happens when expenses are greater than income.",
+      "truth": "false",
+      "explain": "That is a loss."
+     },
+     {
+      "text": "The sale of an old van is recorded in 701 Sales of goods.",
+      "truth": "false",
+      "explain": "It is extraordinary: 82."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

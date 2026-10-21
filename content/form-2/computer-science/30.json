@@ -1,0 +1,432 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "s2-30",
+   "name": "Types of digital footprint"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A digital footprint is the trail of data you leave when you use the internet. It can last for a very long time and be seen by others (schools, employers).\nTypes:\n• Active footprint: data you share on purpose: posts, photos, comments, messages, filling in online forms, reviews.\n• Passive footprint: data collected without you actively sharing it: websites visited, your location, cookies, your IP address, search history, which adverts you click.\nA footprint can be positive (good school work, kind comments, a useful blog) or negative (rude posts, embarrassing photos, cyberbullying).\nOnce something is online, it is hard to delete: others may have copied or shared it.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a website records the pages you visit"
+  },
+  "problem": "Is it an active or a passive footprint when {x}? Why?",
+  "steps": [
+   "You did not choose to share this information.",
+   "It was collected automatically while you browsed."
+  ],
+  "answer": "A passive footprint.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "A digital footprint is the trail of data you leave online.",
+    "vars": {},
+    "example": [
+     "Posts, photos and searches.",
+     "It can last a long time."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-30-what"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "An active footprint is shared on purpose; a passive footprint is collected without you sharing it.",
+    "vars": {},
+    "example": [
+     "Posting a photo: active.",
+     "Cookies and location: passive."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-30-type"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "A footprint can be positive or negative, and it is hard to delete.",
+    "vars": {},
+    "example": [
+     "Kind comments help your reputation.",
+     "Others may copy rude posts."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-30-good-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "digital-identity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which builds a positive digital footprint?",
+         "r": "sharing good school projects and kind comments",
+         "w": [
+          "posting rude jokes about classmates",
+          "sharing embarrassing photos of friends",
+          "spreading rumours"
+         ],
+         "e": [
+          "That is negative.",
+          "That is negative and hurtful.",
+          "That is negative."
+         ],
+         "y": "Positive content helps your reputation."
+        },
+        {
+         "q": "Why is it hard to delete something once it is posted?",
+         "r": "Others may have copied or shared it.",
+         "w": [
+          "The internet has no delete button.",
+          "Computers never forget passwords.",
+          "It is always easy."
+         ],
+         "e": [
+          "You can delete your copy.",
+          "That is not the reason.",
+          "It is often hard."
+         ],
+         "y": "Copies spread."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-30-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a digital footprint?",
+       "r": "the trail of data you leave online",
+       "w": [
+        "a mark on the keyboard",
+        "a computer virus",
+        "a shoe for computers"
+       ],
+       "e": [
+        "It is not physical.",
+        "It is not harmful software.",
+        "It is data."
+       ],
+       "y": "Everything you do online leaves data."
+      },
+      {
+       "q": "Who might look at your digital footprint in future?",
+       "r": "schools and employers",
+       "w": [
+        "nobody ever",
+        "only your cat",
+        "only the computer's fan"
+       ],
+       "e": [
+        "Many people can see it.",
+        "That is not serious.",
+        "That is not true."
+       ],
+       "y": "It can affect your future."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-30-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "f": "Posting a photo on Facebook.",
+       "a": "active"
+      },
+      {
+       "f": "A website saving cookies on your phone.",
+       "a": "passive"
+      },
+      {
+       "f": "Writing a comment under a video.",
+       "a": "active"
+      },
+      {
+       "f": "An app recording your location.",
+       "a": "passive"
+      },
+      {
+       "f": "Filling in an online form.",
+       "a": "active"
+      },
+      {
+       "f": "Your search history being stored.",
+       "a": "passive"
+      }
+     ]
+    }
+   },
+   "prompt": "Is this an active or a passive footprint? {X.f}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'active' ? 'passive' : 'active'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "not a footprint",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Ask: did you choose to share it?"
+    },
+    {
+     "id": "none",
+     "explain": "All of these leave data online."
+    }
+   ],
+   "solution": [
+    "Active: shared on purpose. Passive: collected without you sharing it.",
+    "So it is {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "s2-30-good",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which builds a positive digital footprint?",
+       "r": "sharing good school projects and kind comments",
+       "w": [
+        "posting rude jokes about classmates",
+        "sharing embarrassing photos of friends",
+        "spreading rumours"
+       ],
+       "e": [
+        "That is negative.",
+        "That is negative and hurtful.",
+        "That is negative."
+       ],
+       "y": "Positive content helps your reputation."
+      },
+      {
+       "q": "Why is it hard to delete something once it is posted?",
+       "r": "Others may have copied or shared it.",
+       "w": [
+        "The internet has no delete button.",
+        "Computers never forget passwords.",
+        "It is always easy."
+       ],
+       "e": [
+        "You can delete your copy.",
+        "That is not the reason.",
+        "It is often hard."
+       ],
+       "y": "Copies spread."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Posting a photo creates an active footprint.",
+      "truth": "true"
+     },
+     {
+      "text": "Cookies create a passive footprint.",
+      "truth": "true"
+     },
+     {
+      "text": "Footprints can last a long time.",
+      "truth": "true"
+     },
+     {
+      "text": "Kind comments build a good footprint.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Deleting a post removes every copy from the internet.",
+      "truth": "false",
+      "explain": "Others may have copied it."
+     },
+     {
+      "text": "A passive footprint is only what you post on purpose.",
+      "truth": "false",
+      "explain": "That is an active footprint."
+     },
+     {
+      "text": "Your digital footprint can never affect your future.",
+      "truth": "false",
+      "explain": "Schools and employers may see it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

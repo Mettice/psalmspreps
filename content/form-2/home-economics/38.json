@@ -1,0 +1,475 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 38,
+ "language": "en",
+ "prerequisites": [
+  37
+ ],
+ "skills": [
+  {
+   "id": "h2-38",
+   "name": "Moist methods of cooking"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Moist methods cook food in water, another liquid or steam.\n• Boiling: in water at 100 °C, bubbling (yams, rice, eggs, plantain).\n• Simmering: just below boiling, gentle bubbles (soups, sauces).\n• Stewing: slowly in a little liquid in a covered pot (meat stew, ndolé).\n• Steaming: in the steam from boiling water (koki, moi-moi, bobolo, fish in leaves).\n• Poaching: gently in liquid below boiling (eggs, fish).\n• Braising: browning first, then cooking slowly in a little liquid.\nAdvantages: food does not burn easily; tough meat becomes tender; little fat is used, so it is healthy; the liquid can be eaten as soup; steaming keeps more nutrients.\nDisadvantages: vitamins B and C and minerals dissolve into the water (lost if it is thrown away); long cooking can make food soft and tasteless; it takes time and fuel.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "vegetables boiled for a long time in a lot of water"
+  },
+  "problem": "What happens to the nutrients of {v}?",
+  "steps": [
+   "Vitamins B and C and minerals dissolve into the cooking water.",
+   "Long heating destroys vitamin C, and the water is often thrown away."
+  ],
+  "answer": "Many vitamins and minerals are lost.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c38-1",
+    "status": "draft",
+    "idea": "Moist methods use water or steam: boiling, simmering, stewing, steaming, poaching, braising.",
+    "vars": {},
+    "example": [
+     "Boiling: water bubbling at {100} °C.",
+     "Simmering: just below boiling."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-38-types"
+    }
+   },
+   {
+    "id": "c38-2",
+    "status": "draft",
+    "idea": "Advantages: little fat, food does not burn easily, tough meat becomes tender.",
+    "vars": {},
+    "example": [
+     "Stewing tenderises meat.",
+     "Steaming keeps nutrients."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-38-good"
+    }
+   },
+   {
+    "id": "c38-3",
+    "status": "draft",
+    "idea": "Disadvantage: vitamins and minerals dissolve into the water and can be lost.",
+    "vars": {},
+    "example": [
+     "Use little water.",
+     "Use the cooking water in soups."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-38-bad-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cooking-methods"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How can nutrient loss in boiling be reduced?",
+         "r": "use little water and use it in soups",
+         "w": [
+          "use a lot of water and throw it away",
+          "boil for hours",
+          "add soda to the water"
+         ],
+         "e": [
+          "That loses nutrients.",
+          "That destroys vitamins.",
+          "Soda destroys vitamins."
+         ],
+         "y": "Keep the dissolved nutrients."
+        },
+        {
+         "q": "Which is a disadvantage of moist methods?",
+         "r": "Vitamins dissolve into the water.",
+         "w": [
+          "They use a lot of fat.",
+          "Food burns easily.",
+          "Meat becomes tough."
+         ],
+         "e": [
+          "They use little fat.",
+          "Food does not burn easily.",
+          "Meat becomes tender."
+         ],
+         "y": "Water-soluble vitamins are lost."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-38-types",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Cooking in water bubbling at 100 °C.",
+       "r": "boiling",
+       "w": [
+        "steaming",
+        "poaching",
+        "frying"
+       ],
+       "e": [
+        "Steaming uses steam only.",
+        "Poaching is below boiling.",
+        "Frying uses fat."
+       ],
+       "y": "Bubbling water at 100 °C."
+      },
+      {
+       "q": "Cooking moi-moi in leaves over boiling water.",
+       "r": "steaming",
+       "w": [
+        "boiling",
+        "roasting",
+        "grilling"
+       ],
+       "e": [
+        "The food is not in the water.",
+        "That is dry.",
+        "That is dry."
+       ],
+       "y": "The steam cooks it."
+      },
+      {
+       "q": "Cooking meat slowly in a little liquid in a covered pot.",
+       "r": "stewing",
+       "w": [
+        "baking",
+        "toasting",
+        "poaching an egg"
+       ],
+       "e": [
+        "That is dry.",
+        "That is dry.",
+        "That is a different method."
+       ],
+       "y": "Slow cooking in liquid."
+      },
+      {
+       "q": "Cooking an egg gently in water just below boiling.",
+       "r": "poaching",
+       "w": [
+        "frying",
+        "grilling",
+        "baking"
+       ],
+       "e": [
+        "That uses fat.",
+        "That uses dry heat.",
+        "That uses an oven."
+       ],
+       "y": "Gentle liquid below boiling."
+      }
+     ]
+    }
+   },
+   "prompt": "Which moist method is it? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-38-good",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of moist methods?",
+       "r": "Little or no fat is used.",
+       "w": [
+        "All vitamins are kept.",
+        "Food cooks in seconds.",
+        "Food always becomes crisp."
+       ],
+       "e": [
+        "Some vitamins are lost.",
+        "Moist methods take time.",
+        "Crisp food is from dry methods."
+       ],
+       "y": "Healthy, low-fat cooking."
+      },
+      {
+       "q": "Which moist method keeps the most nutrients?",
+       "r": "steaming",
+       "w": [
+        "long boiling",
+        "boiling in lots of water",
+        "stewing for hours"
+       ],
+       "e": [
+        "Long boiling loses vitamins.",
+        "Lots of water dissolves nutrients.",
+        "Long cooking destroys vitamins."
+       ],
+       "y": "Food does not sit in the water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-38-bad",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How can nutrient loss in boiling be reduced?",
+       "r": "use little water and use it in soups",
+       "w": [
+        "use a lot of water and throw it away",
+        "boil for hours",
+        "add soda to the water"
+       ],
+       "e": [
+        "That loses nutrients.",
+        "That destroys vitamins.",
+        "Soda destroys vitamins."
+       ],
+       "y": "Keep the dissolved nutrients."
+      },
+      {
+       "q": "Which is a disadvantage of moist methods?",
+       "r": "Vitamins dissolve into the water.",
+       "w": [
+        "They use a lot of fat.",
+        "Food burns easily.",
+        "Meat becomes tough."
+       ],
+       "e": [
+        "They use little fat.",
+        "Food does not burn easily.",
+        "Meat becomes tender."
+       ],
+       "y": "Water-soluble vitamins are lost."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-38-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Steaming keeps nutrients.",
+      "truth": "true"
+     },
+     {
+      "text": "Stewing tenderises meat.",
+      "truth": "true"
+     },
+     {
+      "text": "Simmering is just below boiling.",
+      "truth": "true"
+     },
+     {
+      "text": "Moist methods use little fat.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Poaching is cooking in hot oil.",
+      "truth": "false",
+      "explain": "Poaching is gentle cooking in liquid."
+     },
+     {
+      "text": "Boiling in lots of water keeps all the vitamins.",
+      "truth": "false",
+      "explain": "Vitamins dissolve into the water."
+     },
+     {
+      "text": "Moist methods make food crisp and brown.",
+      "truth": "false",
+      "explain": "Dry methods make food crisp and brown."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,429 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-29",
+   "name": "Digital identity"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A digital identity is all the information about a person that exists online: usernames, e-mail addresses, profiles and photos on social media, phone numbers, passwords, posts, likes and comments.\nOnline accounts are protected by authentication: a username and a password, a PIN, a fingerprint or face recognition, or a code sent by SMS (two-step verification).\nA strong password is long (at least 8–12 characters) and mixes capital and small letters, numbers and symbols; it is not a name or a birthday, and it is never shared.\nRisks: identity theft (someone pretends to be you), hacked accounts, scams (fake messages asking for codes or mobile money PINs), cyberbullying.\nProtect your identity: strong, different passwords; two-step verification; never share PINs or codes; check privacy settings; think before posting.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "ayuk2010"
+  },
+  "problem": "Is “{p}” a strong password? How can it be improved?",
+  "steps": [
+   "It uses a name and a year that others can guess, and has no capitals or symbols.",
+   "A better one is long and mixed, for example “Mango!Rain{7}Blue”."
+  ],
+  "answer": "No: use a long mix of capital and small letters, numbers and symbols.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "A digital identity is all the information about a person online.",
+    "vars": {},
+    "example": [
+     "Usernames, profiles, photos, posts.",
+     "Your phone number and e-mail."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-29-what"
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "A strong password is long and mixes capitals, small letters, numbers and symbols.",
+    "vars": {},
+    "example": [
+     "Not your name or birthday.",
+     "Never share it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-29-pass"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "Protect your identity: two-step verification, never share codes or PINs, check privacy settings.",
+    "vars": {},
+    "example": [
+     "A real bank never asks for your PIN.",
+     "Scammers send fake messages."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-29-protect-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "digital-identity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "You get an SMS: “You have won! Send your mobile money PIN to claim.” What should you do?",
+         "r": "Ignore it and never share your PIN.",
+         "w": [
+          "Send the PIN quickly.",
+          "Forward it to friends.",
+          "Reply with your password."
+         ],
+         "e": [
+          "It is a scam.",
+          "That spreads the scam.",
+          "Never share passwords."
+         ],
+         "y": "Real companies never ask for your PIN."
+        },
+        {
+         "q": "What is two-step verification?",
+         "r": "a second check, like a code sent by SMS, after the password",
+         "w": [
+          "typing the password twice",
+          "using two phones",
+          "having two accounts"
+         ],
+         "e": [
+          "That is not it.",
+          "That is not it.",
+          "That is not it."
+         ],
+         "y": "A second proof of identity."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-29-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is part of a person's digital identity?",
+       "r": "their social media profile",
+       "w": [
+        "their shoe size kept in a drawer",
+        "their house's paint colour",
+        "their bicycle"
+       ],
+       "e": [
+        "That is not online.",
+        "That is not online.",
+        "That is not online."
+       ],
+       "y": "Online information about you."
+      },
+      {
+       "q": "What is identity theft?",
+       "r": "someone pretending to be you using your information",
+       "w": [
+        "forgetting your password",
+        "buying a new phone",
+        "changing your profile photo"
+       ],
+       "e": [
+        "That is not theft.",
+        "That is not theft.",
+        "That is not theft."
+       ],
+       "y": "Your identity is stolen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-29-pass",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "T3a!Mango#River",
+       "w": [
+        "password",
+        "123456",
+        "bih2011"
+       ]
+      },
+      {
+       "r": "Blue$Sky7Rain!",
+       "w": [
+        "qwerty",
+        "ndi",
+        "11112222"
+       ]
+      },
+      {
+       "r": "Ok@pi9_Lion22",
+       "w": [
+        "abc",
+        "myname",
+        "2010"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Which is the strongest password?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "weak"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "weak"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "weak"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "weak",
+     "explain": "That is short or easy to guess."
+    }
+   ],
+   "solution": [
+    "A strong password is long and mixes capitals, small letters, numbers and symbols.",
+    "So {answer} is strongest."
+   ]
+  },
+  {
+   "id": "s2-29-protect",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "You get an SMS: “You have won! Send your mobile money PIN to claim.” What should you do?",
+       "r": "Ignore it and never share your PIN.",
+       "w": [
+        "Send the PIN quickly.",
+        "Forward it to friends.",
+        "Reply with your password."
+       ],
+       "e": [
+        "It is a scam.",
+        "That spreads the scam.",
+        "Never share passwords."
+       ],
+       "y": "Real companies never ask for your PIN."
+      },
+      {
+       "q": "What is two-step verification?",
+       "r": "a second check, like a code sent by SMS, after the password",
+       "w": [
+        "typing the password twice",
+        "using two phones",
+        "having two accounts"
+       ],
+       "e": [
+        "That is not it.",
+        "That is not it.",
+        "That is not it."
+       ],
+       "y": "A second proof of identity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-29-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "prompt": "Which advice is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Use strong passwords.",
+      "truth": "true"
+     },
+     {
+      "text": "Turn on two-step verification.",
+      "truth": "true"
+     },
+     {
+      "text": "Check privacy settings.",
+      "truth": "true"
+     },
+     {
+      "text": "Think before posting.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Use your birthday as a password so you remember it.",
+      "truth": "false",
+      "explain": "Birthdays are easy to guess."
+     },
+     {
+      "text": "Share your password with your best friend.",
+      "truth": "false",
+      "explain": "Never share passwords."
+     },
+     {
+      "text": "Use the same password for every account.",
+      "truth": "false",
+      "explain": "If one is hacked, all are at risk."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

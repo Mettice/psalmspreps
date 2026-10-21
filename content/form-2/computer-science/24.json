@@ -1,0 +1,458 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-24",
+   "name": "Assistive technologies"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Assistive technologies are devices and software that help people with disabilities use computers and live more independently.\n• Visual impairment: screen readers that read text aloud (NVDA, JAWS, TalkBack), screen magnifiers, Braille displays and embossers, high-contrast settings, large-key keyboards.\n• Hearing impairment: captions and subtitles, hearing aids, visual alerts, video calls for sign language.\n• Physical (mobility) impairment: speech recognition (voice typing), on-screen keyboards, trackballs, head pointers, eye-tracking, switches, sticky keys.\n• Learning and speech difficulties: text-to-speech, word prediction, speech-generating devices.\nBenefits: equal access to education and jobs, independence, communication, inclusion.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "a pupil who is blind"
+  },
+  "problem": "Which assistive technology can help {p} to use a computer?",
+  "steps": [
+   "A screen reader reads the text on the screen aloud.",
+   "A Braille display shows the text as raised dots to read by touch."
+  ],
+  "answer": "A screen reader and a Braille display.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "Assistive technologies help people with disabilities use computers and live independently.",
+    "vars": {},
+    "example": [
+     "Screen readers for the blind.",
+     "Captions for the deaf."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-24-what"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "For visual impairment: screen readers, magnifiers, Braille displays.",
+    "vars": {},
+    "example": [
+     "NVDA is a free screen reader.",
+     "Magnifiers enlarge the screen."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-24-vis"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "For physical impairment: voice typing, on-screen keyboards, eye-tracking, switches.",
+    "vars": {},
+    "example": [
+     "Speak instead of typing.",
+     "Sticky keys help one-hand typing."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-24-phys-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "assistive-tech"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which tool helps a person who cannot use their hands to type?",
+         "r": "speech recognition (voice typing)",
+         "w": [
+          "a Braille display",
+          "captions",
+          "a screen magnifier"
+         ],
+         "e": [
+          "That is for the blind.",
+          "That is for the deaf.",
+          "That is for poor sight."
+         ],
+         "y": "Speak and the computer types."
+        },
+        {
+         "q": "What do sticky keys do?",
+         "r": "let key combinations be pressed one key at a time",
+         "w": [
+          "glue the keyboard",
+          "make the keys bigger",
+          "read text aloud"
+         ],
+         "e": [
+          "That is not it.",
+          "That is a large-key keyboard.",
+          "That is a screen reader."
+         ],
+         "y": "Useful for one-hand typing."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-24-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "assistive-tech"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are assistive technologies?",
+       "r": "tools that help people with disabilities use technology",
+       "w": [
+        "games for fun only",
+        "viruses",
+        "very old computers"
+       ],
+       "e": [
+        "They have a special purpose.",
+        "They are helpful, not harmful.",
+        "They can be modern."
+       ],
+       "y": "They give equal access."
+      },
+      {
+       "q": "Which is a benefit of assistive technology?",
+       "r": "equal access to education and jobs",
+       "w": [
+        "more viruses",
+        "fewer computers",
+        "less communication"
+       ],
+       "e": [
+        "That is not a benefit.",
+        "That is not true.",
+        "It improves communication."
+       ],
+       "y": "Inclusion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-24-vis",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "assistive-tech"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a blind person to hear what is on the screen",
+       "r": "a screen reader",
+       "w": [
+        "captions",
+        "a trackball",
+        "a webcam"
+       ],
+       "e": [
+        "Captions are for the deaf.",
+        "A trackball is for movement.",
+        "A webcam takes video."
+       ],
+       "y": "It reads text aloud."
+      },
+      {
+       "q": "a deaf person to follow a video",
+       "r": "captions (subtitles)",
+       "w": [
+        "a screen reader",
+        "speakers",
+        "a microphone"
+       ],
+       "e": [
+        "That gives sound.",
+        "They give sound.",
+        "That records sound."
+       ],
+       "y": "Captions show the words."
+      },
+      {
+       "q": "a person with poor sight to see small text",
+       "r": "a screen magnifier",
+       "w": [
+        "a microphone",
+        "a scanner",
+        "sticky keys"
+       ],
+       "e": [
+        "That records sound.",
+        "That copies paper.",
+        "That helps typing."
+       ],
+       "y": "It enlarges the screen."
+      }
+     ]
+    }
+   },
+   "prompt": "Which assistive technology helps {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-24-phys",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "assistive-tech"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which tool helps a person who cannot use their hands to type?",
+       "r": "speech recognition (voice typing)",
+       "w": [
+        "a Braille display",
+        "captions",
+        "a screen magnifier"
+       ],
+       "e": [
+        "That is for the blind.",
+        "That is for the deaf.",
+        "That is for poor sight."
+       ],
+       "y": "Speak and the computer types."
+      },
+      {
+       "q": "What do sticky keys do?",
+       "r": "let key combinations be pressed one key at a time",
+       "w": [
+        "glue the keyboard",
+        "make the keys bigger",
+        "read text aloud"
+       ],
+       "e": [
+        "That is not it.",
+        "That is a large-key keyboard.",
+        "That is a screen reader."
+       ],
+       "y": "Useful for one-hand typing."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-24-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "assistive-tech"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Screen readers help blind users.",
+      "truth": "true"
+     },
+     {
+      "text": "Captions help deaf users.",
+      "truth": "true"
+     },
+     {
+      "text": "Voice typing helps people who cannot type.",
+      "truth": "true"
+     },
+     {
+      "text": "Braille displays use raised dots.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Captions are used by blind people to hear the screen.",
+      "truth": "false",
+      "explain": "Captions are text for deaf people; screen readers help the blind."
+     },
+     {
+      "text": "Assistive technology is only for old people.",
+      "truth": "false",
+      "explain": "It helps people with disabilities of any age."
+     },
+     {
+      "text": "A screen magnifier makes text smaller.",
+      "truth": "false",
+      "explain": "It enlarges text."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

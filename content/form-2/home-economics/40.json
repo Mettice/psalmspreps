@@ -1,0 +1,475 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 40,
+ "language": "en",
+ "prerequisites": [
+  37
+ ],
+ "skills": [
+  {
+   "id": "h2-40",
+   "name": "Heat transfer: conduction"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Heat moves from hot places to cooler places in three ways: conduction, convection and radiation.\nConduction is the transfer of heat through a solid, from particle to particle, without the solid moving. The hot particles vibrate faster and pass the energy to their neighbours.\nGood conductors let heat pass easily: metals (copper, aluminium, iron, steel). Poor conductors (insulators) do not: wood, plastic, cloth, air, clay.\nExamples in the kitchen: heat passing through the base of a pot from the fire to the food; frying, where the pan conducts heat to the food; a metal spoon in hot soup getting hot.\nAdvantages: metal pots heat food quickly and evenly.\nDisadvantages: metal handles get hot and burn the hands; heat is lost through thin walls. That is why pot handles are made of wood or plastic, and oven gloves are used.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a metal spoon left in a pot of hot soup gets hot, but a wooden spoon does not"
+  },
+  "problem": "Explain why {x}.",
+  "steps": [
+   "Metal is a good conductor: heat passes along it quickly by conduction.",
+   "Wood is a poor conductor (an insulator), so little heat reaches the handle."
+  ],
+  "answer": "Metal conducts heat well; wood does not.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c40-1",
+    "status": "draft",
+    "idea": "Conduction is the transfer of heat through a solid, from particle to particle.",
+    "vars": {},
+    "example": [
+     "Heat passes through the base of a pot.",
+     "The pot itself does not move."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-40-what"
+    }
+   },
+   {
+    "id": "c40-2",
+    "status": "draft",
+    "idea": "Metals are good conductors; wood, plastic, cloth and air are poor conductors (insulators).",
+    "vars": {},
+    "example": [
+     "Aluminium pots heat quickly.",
+     "Wooden handles stay cool."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-40-cond"
+    }
+   },
+   {
+    "id": "c40-3",
+    "status": "draft",
+    "idea": "Pot handles are made of wood or plastic, and oven gloves are used, because metal handles get hot.",
+    "vars": {},
+    "example": [
+     "A hot metal handle can burn you.",
+     "Oven gloves are made of thick cloth."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-40-use-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "heat-transfer"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are pot handles often made of wood or plastic?",
+         "r": "They are poor conductors, so they do not get hot.",
+         "w": [
+          "They are good conductors.",
+          "They are heavier than metal.",
+          "They cook food faster."
+         ],
+         "e": [
+          "They are poor conductors.",
+          "That is not the reason.",
+          "The handle does not cook food."
+         ],
+         "y": "Insulating handles prevent burns."
+        },
+        {
+         "q": "Why are cooking pots usually made of metal?",
+         "r": "Metal conducts heat quickly to the food.",
+         "w": [
+          "Metal is an insulator.",
+          "Metal keeps food cold.",
+          "Metal does not get hot."
+         ],
+         "e": [
+          "Metal is a conductor.",
+          "It heats food.",
+          "It gets hot."
+         ],
+         "y": "Good conductors cook food quickly."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-40-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is conduction?",
+       "r": "the transfer of heat through a solid from particle to particle",
+       "w": [
+        "the movement of hot liquid upwards",
+        "heat travelling as rays through space",
+        "the cooling of food in a fridge"
+       ],
+       "e": [
+        "That is convection.",
+        "That is radiation.",
+        "That is not conduction."
+       ],
+       "y": "Particles pass on their vibration."
+      },
+      {
+       "q": "Which is an example of conduction in the kitchen?",
+       "r": "heat passing through the base of a pot to the food",
+       "w": [
+        "hot air rising in an oven",
+        "the sun warming a pot of water",
+        "steam rising from soup"
+       ],
+       "e": [
+        "That is convection.",
+        "That is radiation.",
+        "That is evaporation and convection."
+       ],
+       "y": "The solid base conducts the heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-40-cond",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "aluminium",
+       "r": "a good conductor",
+       "w": [
+        "a poor conductor",
+        "neither",
+        "an insulator"
+       ],
+       "e": [
+        "Metals conduct well.",
+        "It conducts heat.",
+        "Insulators are poor conductors."
+       ],
+       "y": "Metals are good conductors."
+      },
+      {
+       "q": "wood",
+       "r": "a poor conductor (an insulator)",
+       "w": [
+        "a good conductor",
+        "the best conductor",
+        "a metal"
+       ],
+       "e": [
+        "Wood conducts poorly.",
+        "Metals conduct best.",
+        "Wood is not a metal."
+       ],
+       "y": "That is why handles are wooden."
+      },
+      {
+       "q": "copper",
+       "r": "a good conductor",
+       "w": [
+        "a poor conductor",
+        "an insulator",
+        "neither"
+       ],
+       "e": [
+        "Copper conducts very well.",
+        "It conducts well.",
+        "It conducts heat."
+       ],
+       "y": "Copper is one of the best conductors."
+      },
+      {
+       "q": "plastic",
+       "r": "a poor conductor (an insulator)",
+       "w": [
+        "a good conductor",
+        "a metal",
+        "the best conductor"
+       ],
+       "e": [
+        "Plastic conducts poorly.",
+        "Plastic is not a metal.",
+        "Metals conduct best."
+       ],
+       "y": "Plastic handles stay cool."
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.q} a good or a poor conductor of heat?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-40-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are pot handles often made of wood or plastic?",
+       "r": "They are poor conductors, so they do not get hot.",
+       "w": [
+        "They are good conductors.",
+        "They are heavier than metal.",
+        "They cook food faster."
+       ],
+       "e": [
+        "They are poor conductors.",
+        "That is not the reason.",
+        "The handle does not cook food."
+       ],
+       "y": "Insulating handles prevent burns."
+      },
+      {
+       "q": "Why are cooking pots usually made of metal?",
+       "r": "Metal conducts heat quickly to the food.",
+       "w": [
+        "Metal is an insulator.",
+        "Metal keeps food cold.",
+        "Metal does not get hot."
+       ],
+       "e": [
+        "Metal is a conductor.",
+        "It heats food.",
+        "It gets hot."
+       ],
+       "y": "Good conductors cook food quickly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-40-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Metals are good conductors.",
+      "truth": "true"
+     },
+     {
+      "text": "Wood is an insulator.",
+      "truth": "true"
+     },
+     {
+      "text": "Conduction happens in solids.",
+      "truth": "true"
+     },
+     {
+      "text": "Oven gloves protect the hands.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A wooden spoon gets hot faster than a metal spoon.",
+      "truth": "false",
+      "explain": "Metal conducts heat faster."
+     },
+     {
+      "text": "In conduction the hot solid moves to carry the heat.",
+      "truth": "false",
+      "explain": "The particles pass on energy; the solid does not move."
+     },
+     {
+      "text": "Plastic is a good conductor of heat.",
+      "truth": "false",
+      "explain": "Plastic is a poor conductor."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

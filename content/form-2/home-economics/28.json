@@ -1,0 +1,475 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "h2-28",
+   "name": "Labour-saving equipment: types"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Labour-saving equipment are appliances that reduce the time and effort needed for kitchen work.\n• Microwave oven: heats, cooks and defrosts food quickly.\n• Pressure cooker: cooks food (beans, tough meat, corn chaff) much faster than an ordinary pot.\n• Blender (liquidiser): blends, purées and grinds (tomatoes, pepper, juice, egusi).\n• Mixer: beats, whisks and mixes (cakes, eggs, dough).\n• Vacuum flask: keeps food or drinks hot or cold for many hours.\n• Others: food processor, electric kettle, toaster, rice cooker, electric grinder, kitchen scale.\nMost use electricity; the pressure cooker and vacuum flask do not.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "a pressure cooker"
+  },
+  "problem": "How does {t} save labour when cooking dry beans?",
+  "steps": [
+   "Beans take hours in an ordinary pot.",
+   "A pressure cooker cooks them in a fraction of the time, saving fuel and effort."
+  ],
+  "answer": "It cooks the beans much faster, saving time and fuel.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c28-1",
+    "status": "draft",
+    "idea": "Labour-saving equipment reduce the time and effort of kitchen work.",
+    "vars": {},
+    "example": [
+     "A blender grinds pepper in seconds.",
+     "A mixer beats cake mixture."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-28-what"
+    }
+   },
+   {
+    "id": "c28-2",
+    "status": "draft",
+    "idea": "A microwave heats food quickly; a pressure cooker cooks tough foods fast.",
+    "vars": {},
+    "example": [
+     "Microwave: reheating rice.",
+     "Pressure cooker: beans and tough meat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-28-cook"
+    }
+   },
+   {
+    "id": "c28-3",
+    "status": "draft",
+    "idea": "A vacuum flask keeps food or drinks hot or cold for many hours.",
+    "vars": {},
+    "example": [
+     "Hot tea for a journey.",
+     "Cold water at school."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-28-flask-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "labour-saving"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A pupil wants cold water at school all day. Which equipment helps?",
+         "r": "a vacuum flask",
+         "w": [
+          "a pressure cooker",
+          "a microwave",
+          "a toaster"
+         ],
+         "e": [
+          "It cooks.",
+          "It heats.",
+          "It browns bread."
+         ],
+         "y": "The flask keeps it cold."
+        },
+        {
+         "q": "Which is an advantage of labour-saving equipment?",
+         "r": "saves time and energy for other work",
+         "w": [
+          "always free to buy",
+          "never breaks",
+          "needs no care"
+         ],
+         "e": [
+          "They cost money.",
+          "They can break.",
+          "They need care."
+         ],
+         "y": "Work is done faster."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-28-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "to grind tomatoes and pepper quickly",
+       "r": "a blender",
+       "w": [
+        "a vacuum flask",
+        "a toaster",
+        "a fridge"
+       ],
+       "e": [
+        "It keeps drinks hot.",
+        "It browns bread.",
+        "It cools food."
+       ],
+       "y": "A blender purées and grinds."
+      },
+      {
+       "q": "to beat eggs and sugar for a cake",
+       "r": "a mixer",
+       "w": [
+        "a pressure cooker",
+        "a vacuum flask",
+        "a freezer"
+       ],
+       "e": [
+        "It cooks food.",
+        "It keeps drinks hot.",
+        "It freezes food."
+       ],
+       "y": "A mixer beats and whisks."
+      },
+      {
+       "q": "to cook dry beans quickly",
+       "r": "a pressure cooker",
+       "w": [
+        "a blender",
+        "a mixer",
+        "a vacuum flask"
+       ],
+       "e": [
+        "It grinds.",
+        "It beats.",
+        "It keeps hot."
+       ],
+       "y": "High pressure cooks faster."
+      },
+      {
+       "q": "to reheat a plate of rice in two minutes",
+       "r": "a microwave oven",
+       "w": [
+        "a freezer",
+        "a mixer",
+        "a vacuum flask"
+       ],
+       "e": [
+        "It freezes.",
+        "It beats.",
+        "It keeps, but does not heat."
+       ],
+       "y": "Microwaves heat food quickly."
+      }
+     ]
+    }
+   },
+   "prompt": "Which equipment is best {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-28-cook",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is labour-saving equipment?",
+       "r": "equipment that reduces the time and effort of work",
+       "w": [
+        "equipment that makes work harder",
+        "only very old tools",
+        "food that is ready to eat"
+       ],
+       "e": [
+        "It makes work easier.",
+        "Most are modern.",
+        "It is equipment, not food."
+       ],
+       "y": "It saves labour."
+      },
+      {
+       "q": "Which labour-saving equipment needs no electricity?",
+       "r": "a vacuum flask",
+       "w": [
+        "a microwave oven",
+        "a blender",
+        "an electric mixer"
+       ],
+       "e": [
+        "It needs electricity.",
+        "It needs electricity.",
+        "It needs electricity."
+       ],
+       "y": "A flask insulates."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-28-flask",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A pupil wants cold water at school all day. Which equipment helps?",
+       "r": "a vacuum flask",
+       "w": [
+        "a pressure cooker",
+        "a microwave",
+        "a toaster"
+       ],
+       "e": [
+        "It cooks.",
+        "It heats.",
+        "It browns bread."
+       ],
+       "y": "The flask keeps it cold."
+      },
+      {
+       "q": "Which is an advantage of labour-saving equipment?",
+       "r": "saves time and energy for other work",
+       "w": [
+        "always free to buy",
+        "never breaks",
+        "needs no care"
+       ],
+       "e": [
+        "They cost money.",
+        "They can break.",
+        "They need care."
+       ],
+       "y": "Work is done faster."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-28-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A blender grinds pepper.",
+      "truth": "true"
+     },
+     {
+      "text": "A mixer beats eggs.",
+      "truth": "true"
+     },
+     {
+      "text": "A vacuum flask keeps tea hot.",
+      "truth": "true"
+     },
+     {
+      "text": "A pressure cooker cooks beans faster.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A vacuum flask is used to cook beans.",
+      "truth": "false",
+      "explain": "It only keeps food hot or cold."
+     },
+     {
+      "text": "A microwave oven keeps food frozen.",
+      "truth": "false",
+      "explain": "It heats food; a freezer freezes."
+     },
+     {
+      "text": "Labour-saving equipment makes kitchen work slower.",
+      "truth": "false",
+      "explain": "It saves time and effort."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

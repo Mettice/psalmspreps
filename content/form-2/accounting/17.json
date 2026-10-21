@@ -1,0 +1,490 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "a2-17",
+   "name": "The content of classes 4, 5 and 6"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Class 4: third-party accounts, people and organisations the business deals with on credit:\n• 40 suppliers (401 suppliers of goods), 41 customers (411), 42 staff (422 salaries due), 43 social security (CNPS in Cameroon), 44 the State (taxes, VAT), 47 other debtors and creditors.\nClass 5: treasury accounts, money available at once:\n• 52 banks (521), 53 financial institutions (post office), 55 electronic money (mobile money), 57 cash in hand (571).\nClass 6: expenses of ordinary activities:\n• 60 purchases (601 purchases of goods, 605 other purchases: water, electricity), 61 transport, 62 and 63 external services (rent, repairs, insurance, advertising), 64 taxes, 65 other expenses, 66 staff expenses (661 salaries), 67 financial expenses (interest), 68 depreciation.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "goods bought on credit from a supplier"
+  },
+  "problem": "Which accounts are used for {x}?",
+  "steps": [
+   "Buying goods is an expense: {601} Purchases of goods (class {6}).",
+   "The amount owed to the supplier is a third-party account: {401} Suppliers (class {4})."
+  ],
+  "answer": "{601} Purchases of goods and {401} Suppliers.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "Class {4} holds third parties: suppliers, customers, staff, social security and the State.",
+    "vars": {},
+    "example": [
+     "{401} Suppliers.",
+     "{411} Customers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-17-c4"
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "Class {5} holds treasury: bank, post office and cash.",
+    "vars": {},
+    "example": [
+     "{521} Banks.",
+     "{571} Cash in hand."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-17-c5"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "Class {6} holds expenses of ordinary activities: purchases, transport, rent, salaries, interest.",
+    "vars": {},
+    "example": [
+     "{601} Purchases of goods.",
+     "{661} Staff salaries."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-17-c6-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ohada"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "paying the electricity bill",
+         "r": "605 Other purchases (water, electricity)",
+         "w": [
+          "701 Sales",
+          "231 Buildings",
+          "411 Customers"
+         ],
+         "e": [
+          "That is income.",
+          "That is a fixed asset.",
+          "That is a third party."
+         ],
+         "y": "Electricity is an ordinary expense."
+        },
+        {
+         "q": "paying workers' salaries",
+         "r": "661 Staff salaries",
+         "w": [
+          "422 Staff: salaries due",
+          "706 Services sold",
+          "101 Capital"
+         ],
+         "e": [
+          "That is the amount owed, not the expense.",
+          "That is income.",
+          "That is a resource."
+         ],
+         "y": "Salaries are a staff expense."
+        },
+        {
+         "q": "buying goods to resell",
+         "r": "601 Purchases of goods",
+         "w": [
+          "311 Goods in stock",
+          "245 Transport equipment",
+          "701 Sales"
+         ],
+         "e": [
+          "Stock is recorded at inventory.",
+          "That is a fixed asset.",
+          "That is income."
+         ],
+         "y": "Purchases are expenses."
+        }
+       ]
+      }
+     },
+     "prompt": "Which account is used for {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-17-c4",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a customer who will pay later",
+       "r": "411 Customers",
+       "w": [
+        "401 Suppliers",
+        "571 Cash",
+        "701 Sales"
+       ],
+       "e": [
+        "Suppliers are owed money by us.",
+        "No cash was received yet.",
+        "Sales record the income, not the debt."
+       ],
+       "y": "The customer owes the business."
+      },
+      {
+       "q": "a supplier the business must pay",
+       "r": "401 Suppliers",
+       "w": [
+        "411 Customers",
+        "521 Banks",
+        "101 Capital"
+       ],
+       "e": [
+        "Customers owe us.",
+        "That is money in the bank.",
+        "That is the owner's capital."
+       ],
+       "y": "We owe the supplier."
+      },
+      {
+       "q": "salaries owed to workers at the end of the month",
+       "r": "422 Staff: salaries due",
+       "w": [
+        "661 Staff salaries",
+        "571 Cash",
+        "311 Goods"
+       ],
+       "e": [
+        "661 is the expense; 422 is the amount owed.",
+        "Not yet paid.",
+        "That is stock."
+       ],
+       "y": "The amount owed to staff."
+      }
+     ]
+    }
+   },
+   "prompt": "Which account is used for {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-17-c5",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which class is money in the bank?",
+       "r": "class 5",
+       "w": [
+        "class 4",
+        "class 1",
+        "class 7"
+       ],
+       "e": [
+        "Class 4 is third parties.",
+        "Class 1 is resources.",
+        "Class 7 is income."
+       ],
+       "y": "521 Banks: treasury."
+      },
+      {
+       "q": "Which account records cash in hand?",
+       "r": "571",
+       "w": [
+        "521",
+        "411",
+        "601"
+       ],
+       "e": [
+        "521 is the bank.",
+        "411 is customers.",
+        "601 is purchases."
+       ],
+       "y": "571 Cash in hand."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-17-c6",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "paying the electricity bill",
+       "r": "605 Other purchases (water, electricity)",
+       "w": [
+        "701 Sales",
+        "231 Buildings",
+        "411 Customers"
+       ],
+       "e": [
+        "That is income.",
+        "That is a fixed asset.",
+        "That is a third party."
+       ],
+       "y": "Electricity is an ordinary expense."
+      },
+      {
+       "q": "paying workers' salaries",
+       "r": "661 Staff salaries",
+       "w": [
+        "422 Staff: salaries due",
+        "706 Services sold",
+        "101 Capital"
+       ],
+       "e": [
+        "That is the amount owed, not the expense.",
+        "That is income.",
+        "That is a resource."
+       ],
+       "y": "Salaries are a staff expense."
+      },
+      {
+       "q": "buying goods to resell",
+       "r": "601 Purchases of goods",
+       "w": [
+        "311 Goods in stock",
+        "245 Transport equipment",
+        "701 Sales"
+       ],
+       "e": [
+        "Stock is recorded at inventory.",
+        "That is a fixed asset.",
+        "That is income."
+       ],
+       "y": "Purchases are expenses."
+      }
+     ]
+    }
+   },
+   "prompt": "Which account is used for {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "401 Suppliers is in class 4.",
+      "truth": "true"
+     },
+     {
+      "text": "571 Cash is in class 5.",
+      "truth": "true"
+     },
+     {
+      "text": "601 Purchases is in class 6.",
+      "truth": "true"
+     },
+     {
+      "text": "661 Salaries is an expense.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "411 Customers is a treasury account in class 5.",
+      "truth": "false",
+      "explain": "It is a third-party account in class 4."
+     },
+     {
+      "text": "Money in the bank is recorded in class 6.",
+      "truth": "false",
+      "explain": "It is treasury: class 5 (521)."
+     },
+     {
+      "text": "Paying rent is recorded in class 7.",
+      "truth": "false",
+      "explain": "It is an expense: class 6."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,473 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-33",
+   "name": "Types of sensors"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A sensor is a device that detects a change in the environment (a physical quantity) and turns it into a signal a computer can use.\nTypes:\n• temperature sensor (thermistor): fridges, air conditioners, thermometers;\n• light sensor (LDR): street lights that switch on at night, phone screen brightness;\n• motion (infrared, PIR) sensor: automatic doors, security alarms, lights in corridors;\n• sound sensor (microphone): voice assistants, clap switches;\n• pressure / touch sensor: touchscreens, weighing scales, car seat-belt alarms;\n• humidity and moisture sensors: weather stations, smart irrigation of farms;\n• gas and smoke sensors: smoke alarms, gas leak detectors;\n• proximity sensor: phone screen turns off near the ear; parking sensors;\n• GPS (position) and accelerometer: maps, step counters, screen rotation.\nMany sensors in phones: camera, microphone, fingerprint, GPS, accelerometer, light, proximity.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a street light switches on by itself at night"
+  },
+  "problem": "Which sensor makes {x}?",
+  "steps": [
+   "The light sensor detects that the light level has fallen.",
+   "The controller then switches the lamp on."
+  ],
+  "answer": "A light sensor.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c33-1",
+    "status": "draft",
+    "idea": "A sensor detects a change in the environment and turns it into a signal.",
+    "vars": {},
+    "example": [
+     "Temperature, light, motion, sound.",
+     "The computer reads the signal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-33-what"
+    }
+   },
+   {
+    "id": "c33-2",
+    "status": "draft",
+    "idea": "Each sensor measures one quantity: temperature, light, motion, pressure, moisture, gas.",
+    "vars": {},
+    "example": [
+     "A smoke alarm has a smoke sensor.",
+     "An automatic door has a motion sensor."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-33-type"
+    }
+   },
+   {
+    "id": "c33-3",
+    "status": "draft",
+    "idea": "Phones contain many sensors: GPS, accelerometer, fingerprint, light and proximity.",
+    "vars": {},
+    "example": [
+     "GPS finds your position.",
+     "The accelerometer rotates the screen."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-33-phone-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "iot-cloud"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which phone sensor finds your position on a map?",
+         "r": "GPS",
+         "w": [
+          "the microphone",
+          "the light sensor",
+          "the fingerprint sensor"
+         ],
+         "e": [
+          "It records sound.",
+          "It measures light.",
+          "It reads fingerprints."
+         ],
+         "y": "GPS uses satellites."
+        },
+        {
+         "q": "Why does a phone screen turn off when you hold it to your ear?",
+         "r": "The proximity sensor detects that something is close.",
+         "w": [
+          "The battery is empty.",
+          "The GPS is lost.",
+          "The microphone is off."
+         ],
+         "e": [
+          "That is not why.",
+          "That is not why.",
+          "That is not why."
+         ],
+         "y": "It stops your cheek pressing buttons."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-33-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a sensor?",
+       "r": "a device that detects a change and turns it into a signal",
+       "w": [
+        "a printer",
+        "a speaker",
+        "a type of software only"
+       ],
+       "e": [
+        "A printer is output.",
+        "A speaker is output.",
+        "A sensor is a device."
+       ],
+       "y": "It detects the environment."
+      },
+      {
+       "q": "Is a sensor an input or an output device?",
+       "r": "an input device",
+       "w": [
+        "an output device",
+        "a storage device",
+        "a processor"
+       ],
+       "e": [
+        "It sends data in.",
+        "It does not store.",
+        "It does not process."
+       ],
+       "y": "It gives data to the computer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-33-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "an automatic door that opens when someone comes near",
+       "r": "a motion (infrared) sensor",
+       "w": [
+        "a temperature sensor",
+        "a sound sensor",
+        "a moisture sensor"
+       ],
+       "e": [
+        "It does not measure heat.",
+        "It does not listen.",
+        "It does not measure water."
+       ],
+       "y": "It detects movement."
+      },
+      {
+       "q": "a smoke alarm",
+       "r": "a smoke (gas) sensor",
+       "w": [
+        "a light sensor",
+        "a pressure sensor",
+        "a GPS"
+       ],
+       "e": [
+        "It does not detect light.",
+        "It does not detect weight.",
+        "It does not find position."
+       ],
+       "y": "It detects smoke."
+      },
+      {
+       "q": "a fridge that keeps a set temperature",
+       "r": "a temperature sensor",
+       "w": [
+        "a light sensor",
+        "a motion sensor",
+        "a microphone"
+       ],
+       "e": [
+        "Light does not matter.",
+        "Movement does not matter.",
+        "Sound does not matter."
+       ],
+       "y": "It measures temperature."
+      },
+      {
+       "q": "a smart irrigation system on a farm",
+       "r": "a soil moisture sensor",
+       "w": [
+        "a smoke sensor",
+        "a fingerprint sensor",
+        "a light sensor only"
+       ],
+       "e": [
+        "No smoke is measured.",
+        "No fingers.",
+        "It measures water in the soil."
+       ],
+       "y": "It waters when the soil is dry."
+      }
+     ]
+    }
+   },
+   "prompt": "Which sensor is used in {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-33-phone",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which phone sensor finds your position on a map?",
+       "r": "GPS",
+       "w": [
+        "the microphone",
+        "the light sensor",
+        "the fingerprint sensor"
+       ],
+       "e": [
+        "It records sound.",
+        "It measures light.",
+        "It reads fingerprints."
+       ],
+       "y": "GPS uses satellites."
+      },
+      {
+       "q": "Why does a phone screen turn off when you hold it to your ear?",
+       "r": "The proximity sensor detects that something is close.",
+       "w": [
+        "The battery is empty.",
+        "The GPS is lost.",
+        "The microphone is off."
+       ],
+       "e": [
+        "That is not why.",
+        "That is not why.",
+        "That is not why."
+       ],
+       "y": "It stops your cheek pressing buttons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-33-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A light sensor can switch on street lights.",
+      "truth": "true"
+     },
+     {
+      "text": "A smoke alarm uses a smoke sensor.",
+      "truth": "true"
+     },
+     {
+      "text": "GPS finds position.",
+      "truth": "true"
+     },
+     {
+      "text": "Touchscreens sense pressure or touch.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A sensor is an output device.",
+      "truth": "false",
+      "explain": "It is an input device."
+     },
+     {
+      "text": "A temperature sensor opens automatic doors.",
+      "truth": "false",
+      "explain": "A motion sensor does."
+     },
+     {
+      "text": "An accelerometer measures the light level.",
+      "truth": "false",
+      "explain": "It measures movement and tilt."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

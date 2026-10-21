@@ -1,0 +1,425 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "h2-27",
+   "name": "Large equipment: parts, choice and care"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Parts of a refrigerator: the cabinet, the door with a rubber seal (gasket), the freezer box, shelves, the vegetable drawer, door racks, the thermostat (temperature control) and, at the back, the condenser coils.\nParts of a cooker: burners (rings), control knobs, the oven with shelves, the grill and the oven door.\nPoints to consider when choosing: the needs and size of the family; the space in the kitchen; the fuel or power available (gas, electricity, kerosene); energy saving; the price; safety; guarantee and after-sales service.\nCare:\n• fridge: defrost and clean regularly, keep the door closed, do not put hot food inside, leave space at the back for air;\n• cooker: wipe spills at once, clean burners, check gas pipes and turn off the gas after use;\n• unplug before cleaning electrical equipment.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "hot food is put straight into the fridge"
+  },
+  "problem": "Why is it bad if {x}?",
+  "steps": [
+   "The hot food warms the inside of the fridge.",
+   "The fridge must work harder, using more electricity, and other food may spoil."
+  ],
+  "answer": "It wastes electricity and warms the other food.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "A fridge has a door seal, shelves, a freezer box, a thermostat and condenser coils at the back.",
+    "vars": {},
+    "example": [
+     "The seal keeps cold air in.",
+     "The thermostat sets the temperature."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-27-parts"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "Choose large equipment for the family size, kitchen space, fuel available, energy saving, price and guarantee.",
+    "vars": {},
+    "example": [
+     "No electricity: choose a gas cooker.",
+     "A big family needs a bigger fridge."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-27-choose"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "Defrost and clean the fridge; wipe cooker spills; turn off gas; unplug before cleaning.",
+    "vars": {},
+    "example": [
+     "Do not put hot food in the fridge.",
+     "Check the gas pipe for leaks."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-27-care-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-equipment"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What should be done before cleaning an electric cooker?",
+         "r": "Unplug it or switch it off at the mains.",
+         "w": [
+          "Turn it on high.",
+          "Pour water on the hot rings.",
+          "Nothing."
+         ],
+         "e": [
+          "That is dangerous.",
+          "That can cause shocks and burns.",
+          "Electricity is dangerous."
+         ],
+         "y": "Avoid electric shock."
+        },
+        {
+         "q": "Why should space be left behind a fridge?",
+         "r": "so air can flow and carry heat away from the coils",
+         "w": [
+          "to store brooms",
+          "to hide food",
+          "to make it colder by sunlight"
+         ],
+         "e": [
+          "That is not why.",
+          "That is not why.",
+          "Sunlight warms it."
+         ],
+         "y": "The coils give out heat."
+        },
+        {
+         "q": "What should you do after cooking with a gas cooker?",
+         "r": "turn off the gas at the cylinder",
+         "w": [
+          "leave the gas on",
+          "light another match",
+          "cover the cylinder with cloth"
+         ],
+         "e": [
+          "Leaking gas can explode.",
+          "That is dangerous.",
+          "That does not stop leaks."
+         ],
+         "y": "Prevent gas leaks."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-27-parts",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "prompt": "Match each part of a refrigerator to its job.",
+   "pool": [
+    {
+     "left": "door seal",
+     "right": "keeps the cold air inside"
+    },
+    {
+     "left": "thermostat",
+     "right": "controls the temperature"
+    },
+    {
+     "left": "freezer box",
+     "right": "makes ice and freezes food"
+    },
+    {
+     "left": "vegetable drawer",
+     "right": "keeps fruit and vegetables fresh"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-27-choose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A family in a village has no electricity. Which cooker should they choose?",
+       "r": "a gas or kerosene cooker",
+       "w": [
+        "an electric cooker",
+        "a microwave oven",
+        "an electric oven"
+       ],
+       "e": [
+        "It needs electricity.",
+        "It needs electricity.",
+        "It needs electricity."
+       ],
+       "y": "Choose the fuel that is available."
+      },
+      {
+       "q": "Why is a guarantee important when buying a fridge?",
+       "r": "It will be repaired or replaced if it breaks early.",
+       "w": [
+        "It makes the fridge colder.",
+        "It lowers the price of food.",
+        "It is not important."
+       ],
+       "e": [
+        "It does not change cooling.",
+        "It does not.",
+        "It protects your money."
+       ],
+       "y": "A guarantee protects the buyer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-27-care",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What should be done before cleaning an electric cooker?",
+       "r": "Unplug it or switch it off at the mains.",
+       "w": [
+        "Turn it on high.",
+        "Pour water on the hot rings.",
+        "Nothing."
+       ],
+       "e": [
+        "That is dangerous.",
+        "That can cause shocks and burns.",
+        "Electricity is dangerous."
+       ],
+       "y": "Avoid electric shock."
+      },
+      {
+       "q": "Why should space be left behind a fridge?",
+       "r": "so air can flow and carry heat away from the coils",
+       "w": [
+        "to store brooms",
+        "to hide food",
+        "to make it colder by sunlight"
+       ],
+       "e": [
+        "That is not why.",
+        "That is not why.",
+        "Sunlight warms it."
+       ],
+       "y": "The coils give out heat."
+      },
+      {
+       "q": "What should you do after cooking with a gas cooker?",
+       "r": "turn off the gas at the cylinder",
+       "w": [
+        "leave the gas on",
+        "light another match",
+        "cover the cylinder with cloth"
+       ],
+       "e": [
+        "Leaking gas can explode.",
+        "That is dangerous.",
+        "That does not stop leaks."
+       ],
+       "y": "Prevent gas leaks."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-27-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Defrost the fridge regularly.",
+      "truth": "true"
+     },
+     {
+      "text": "Wipe spills on the cooker at once.",
+      "truth": "true"
+     },
+     {
+      "text": "Unplug before cleaning.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep the fridge door closed.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Put hot food straight into the fridge.",
+      "truth": "false",
+      "explain": "Cool it first."
+     },
+     {
+      "text": "Leave the gas on after cooking.",
+      "truth": "false",
+      "explain": "Turn it off to prevent leaks."
+     },
+     {
+      "text": "Push the fridge tight against the wall.",
+      "truth": "false",
+      "explain": "Leave space for air at the back."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,423 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 44,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-44",
+   "name": "Kwashiorkor and marasmus: causes and signs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Kwashiorkor and marasmus are forms of protein-energy malnutrition, common in young children.\nKwashiorkor is caused by a lack of protein in the diet, often when a child is weaned from breast milk onto starchy foods only (cassava, pap, plantain).\nSigns: swollen feet, legs and face (oedema); a swollen belly; thin arms; hair that turns reddish, thin and falls out; peeling skin with patches; miserable, apathetic behaviour; poor growth.\nMarasmus is caused by a severe lack of energy foods and protein: too little food of every kind (famine, poverty, long diarrhoea).\nSigns: very thin, “skin and bones”; wrinkled skin like an old person; sunken eyes; very low weight for age; no swelling; often hungry and irritable.\nBoth weaken the body's defences, so infections are frequent and can be deadly.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": "a two-year-old weaned onto pap only, with swollen feet and reddish hair"
+  },
+  "problem": "Which deficiency disease does {c} probably have, and why?",
+  "steps": [
+   "Swollen feet (oedema) and reddish hair are signs of kwashiorkor.",
+   "Pap is mostly starch; the child lacks protein."
+  ],
+  "answer": "Kwashiorkor, from a lack of protein.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c44-1",
+    "status": "draft",
+    "idea": "Kwashiorkor is caused by a lack of protein; marasmus by a lack of food of every kind.",
+    "vars": {},
+    "example": [
+     "A child weaned onto starchy foods only.",
+     "Marasmus in famine."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-44-cause"
+    }
+   },
+   {
+    "id": "c44-2",
+    "status": "draft",
+    "idea": "Signs of kwashiorkor: swollen feet and belly, reddish thin hair, peeling skin, misery.",
+    "vars": {},
+    "example": [
+     "The swelling is oedema.",
+     "The child does not grow well."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-44-kwash"
+    }
+   },
+   {
+    "id": "c44-3",
+    "status": "draft",
+    "idea": "Signs of marasmus: very thin, wrinkled skin, sunken eyes, no swelling.",
+    "vars": {},
+    "example": [
+     "“Skin and bones”.",
+     "Very low weight for age."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-44-maras-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "deficiency-diseases"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "swollen feet, reddish hair, peeling skin",
+         "a": "kwashiorkor",
+         "y": "Swelling and hair changes point to a lack of protein."
+        },
+        {
+         "s": "very thin, wrinkled skin, sunken eyes, no swelling",
+         "a": "marasmus",
+         "y": "Wasting without swelling points to a lack of all foods."
+        },
+        {
+         "s": "a swollen belly, thin arms and a miserable look after weaning onto cassava only",
+         "a": "kwashiorkor",
+         "y": "Starchy weaning foods lack protein."
+        },
+        {
+         "s": "skin and bones, always hungry, very low weight",
+         "a": "marasmus",
+         "y": "Severe lack of food of every kind."
+        }
+       ]
+      }
+     },
+     "prompt": "A child shows these signs: {X.s}. Which disease is it most likely to be?",
+     "correct": "{X.a}",
+     "distractors": [
+      {
+       "text": "{X.a == 'kwashiorkor' ? 'marasmus' : 'kwashiorkor'}",
+       "misconception": "swap"
+      },
+      {
+       "text": "goitre",
+       "misconception": "goitre"
+      },
+      {
+       "text": "night blindness",
+       "misconception": "night"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "swap",
+       "explain": "Kwashiorkor shows swelling and hair changes; marasmus shows wasting without swelling."
+      },
+      {
+       "id": "goitre",
+       "explain": "Goitre is a swollen neck from lack of iodine."
+      },
+      {
+       "id": "night",
+       "explain": "Night blindness is poor sight in dim light from lack of vitamin A."
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So it is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-44-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What causes kwashiorkor?",
+       "r": "a lack of protein",
+       "w": [
+        "too much protein",
+        "a lack of iodine",
+        "too much sugar"
+       ],
+       "e": [
+        "Protein prevents it.",
+        "That causes goitre.",
+        "That causes tooth decay and obesity."
+       ],
+       "y": "Diets of starchy foods only."
+      },
+      {
+       "q": "What causes marasmus?",
+       "r": "a severe lack of food of every kind",
+       "w": [
+        "a lack of vitamin A only",
+        "too much fat",
+        "too much protein"
+       ],
+       "e": [
+        "That causes night blindness.",
+        "That causes obesity.",
+        "That does not cause it."
+       ],
+       "y": "Too little energy and protein."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-44-kwash",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a sign of kwashiorkor?",
+       "r": "swollen feet and belly",
+       "w": [
+        "very thin with no swelling",
+        "swollen neck",
+        "bleeding gums"
+       ],
+       "e": [
+        "That is marasmus.",
+        "That is goitre.",
+        "That is scurvy."
+       ],
+       "y": "Oedema is typical of kwashiorkor."
+      },
+      {
+       "q": "What happens to the hair of a child with kwashiorkor?",
+       "r": "It becomes thin and reddish and falls out.",
+       "w": [
+        "It becomes thick and black.",
+        "It grows very fast.",
+        "Nothing changes."
+       ],
+       "e": [
+        "That is healthy hair.",
+        "That is not a sign.",
+        "Hair changes."
+       ],
+       "y": "Lack of protein affects hair."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-44-maras",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "swollen feet, reddish hair, peeling skin",
+       "a": "kwashiorkor",
+       "y": "Swelling and hair changes point to a lack of protein."
+      },
+      {
+       "s": "very thin, wrinkled skin, sunken eyes, no swelling",
+       "a": "marasmus",
+       "y": "Wasting without swelling points to a lack of all foods."
+      },
+      {
+       "s": "a swollen belly, thin arms and a miserable look after weaning onto cassava only",
+       "a": "kwashiorkor",
+       "y": "Starchy weaning foods lack protein."
+      },
+      {
+       "s": "skin and bones, always hungry, very low weight",
+       "a": "marasmus",
+       "y": "Severe lack of food of every kind."
+      }
+     ]
+    }
+   },
+   "prompt": "A child shows these signs: {X.s}. Which disease is it most likely to be?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'kwashiorkor' ? 'marasmus' : 'kwashiorkor'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "goitre",
+     "misconception": "goitre"
+    },
+    {
+     "text": "night blindness",
+     "misconception": "night"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Kwashiorkor shows swelling and hair changes; marasmus shows wasting without swelling."
+    },
+    {
+     "id": "goitre",
+     "explain": "Goitre is a swollen neck from lack of iodine."
+    },
+    {
+     "id": "night",
+     "explain": "Night blindness is poor sight in dim light from lack of vitamin A."
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So it is {answer}."
+   ]
+  },
+  {
+   "id": "h2-44-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Kwashiorkor is caused by a lack of protein.",
+      "truth": "true"
+     },
+     {
+      "text": "Marasmus causes severe thinness.",
+      "truth": "true"
+     },
+     {
+      "text": "Both are common in young children.",
+      "truth": "true"
+     },
+     {
+      "text": "Both weaken the body against infection.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Marasmus causes swollen feet.",
+      "truth": "false",
+      "explain": "Swelling is a sign of kwashiorkor; marasmus shows wasting."
+     },
+     {
+      "text": "Kwashiorkor is caused by eating too many beans.",
+      "truth": "false",
+      "explain": "Beans give protein, which prevents it."
+     },
+     {
+      "text": "A child with kwashiorkor has thick black hair.",
+      "truth": "false",
+      "explain": "The hair becomes thin and reddish."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

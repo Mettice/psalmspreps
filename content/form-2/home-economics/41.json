@@ -1,0 +1,394 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 41,
+ "language": "en",
+ "prerequisites": [
+  40
+ ],
+ "skills": [
+  {
+   "id": "h2-41",
+   "name": "Heat transfer: convection"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Convection is the transfer of heat through liquids and gases (fluids) by the movement of the fluid itself.\nHow it happens: the fluid near the heat becomes warm, expands and becomes less dense (lighter), so it rises. Cooler, denser fluid sinks to take its place and is heated in turn. This circular movement is a convection current.\nIn a pot of water on a fire, the water at the bottom is heated, rises, and cooler water from the top sinks; soon all the water is hot.\nConvection cannot happen in solids, because their particles cannot move from place to place.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "the water at the bottom of a pot is heated"
+  },
+  "problem": "Describe what happens when {x}.",
+  "steps": [
+   "The heated water expands, becomes less dense and rises.",
+   "Cooler water sinks to the bottom, is heated and rises too: a convection current forms."
+  ],
+  "answer": "A convection current carries the heat through all the water.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c41-1",
+    "status": "draft",
+    "idea": "Convection is the transfer of heat through liquids and gases by the movement of the fluid.",
+    "vars": {},
+    "example": [
+     "Hot water rises in a pot.",
+     "Hot air rises from a fire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-41-what"
+    }
+   },
+   {
+    "id": "c41-2",
+    "status": "draft",
+    "idea": "Warm fluid expands, becomes less dense and rises; cool fluid sinks: a convection current.",
+    "vars": {},
+    "example": [
+     "The current goes round and round.",
+     "Soon all the water is hot."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-41-current"
+    }
+   },
+   {
+    "id": "c41-3",
+    "status": "draft",
+    "idea": "Convection happens only in liquids and gases, not in solids.",
+    "vars": {},
+    "example": [
+     "Solid particles cannot move from place to place.",
+     "Solids heat by conduction."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-41-solid-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "heat-transfer"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does warm water rise?",
+         "r": "It expands and becomes less dense than the cold water.",
+         "w": [
+          "It becomes heavier.",
+          "It turns to ice.",
+          "It is pulled by the lid."
+         ],
+         "e": [
+          "It becomes lighter for its size.",
+          "It is warm, not frozen.",
+          "The lid does not pull it."
+         ],
+         "y": "Less dense fluid floats up."
+        },
+        {
+         "q": "Why can convection not happen in a metal spoon?",
+         "r": "The particles of a solid cannot move from place to place.",
+         "w": [
+          "Metal is an insulator.",
+          "Spoons are too small.",
+          "Metal is a gas."
+         ],
+         "e": [
+          "Metal is a conductor.",
+          "Size is not the reason.",
+          "Metal is a solid."
+         ],
+         "y": "Solids heat by conduction."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-41-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which states of matter does convection happen?",
+       "r": "liquids and gases",
+       "w": [
+        "solids only",
+        "solids and liquids only",
+        "none"
+       ],
+       "e": [
+        "Solids heat by conduction.",
+        "It happens in gases too, not solids.",
+        "It happens in fluids."
+       ],
+       "y": "Fluids can flow."
+      },
+      {
+       "q": "What is a convection current?",
+       "r": "the circular movement of a fluid as warm parts rise and cool parts sink",
+       "w": [
+        "an electric current",
+        "a river current",
+        "heat rays from the sun"
+       ],
+       "e": [
+        "It is not electricity.",
+        "It is not a river.",
+        "That is radiation."
+       ],
+       "y": "The fluid moves round, carrying heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-41-current",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "prompt": "Put the steps of a convection current in a pot of water in order.",
+   "items": [
+    {
+     "text": "The water at the bottom is heated"
+    },
+    {
+     "text": "It expands and becomes less dense"
+    },
+    {
+     "text": "The warm water rises"
+    },
+    {
+     "text": "Cooler water sinks to take its place"
+    },
+    {
+     "text": "The cooler water is heated in turn"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "h2-41-solid",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does warm water rise?",
+       "r": "It expands and becomes less dense than the cold water.",
+       "w": [
+        "It becomes heavier.",
+        "It turns to ice.",
+        "It is pulled by the lid."
+       ],
+       "e": [
+        "It becomes lighter for its size.",
+        "It is warm, not frozen.",
+        "The lid does not pull it."
+       ],
+       "y": "Less dense fluid floats up."
+      },
+      {
+       "q": "Why can convection not happen in a metal spoon?",
+       "r": "The particles of a solid cannot move from place to place.",
+       "w": [
+        "Metal is an insulator.",
+        "Spoons are too small.",
+        "Metal is a gas."
+       ],
+       "e": [
+        "Metal is a conductor.",
+        "Size is not the reason.",
+        "Metal is a solid."
+       ],
+       "y": "Solids heat by conduction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-41-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Warm air rises.",
+      "truth": "true"
+     },
+     {
+      "text": "Cool water sinks.",
+      "truth": "true"
+     },
+     {
+      "text": "Convection happens in liquids.",
+      "truth": "true"
+     },
+     {
+      "text": "A convection current goes round.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Convection happens in solids.",
+      "truth": "false",
+      "explain": "It happens only in liquids and gases."
+     },
+     {
+      "text": "Warm water sinks to the bottom of the pot.",
+      "truth": "false",
+      "explain": "Warm water rises."
+     },
+     {
+      "text": "Convection needs the fluid to stay still.",
+      "truth": "false",
+      "explain": "The fluid moves to carry heat."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

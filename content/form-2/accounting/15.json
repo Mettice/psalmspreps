@@ -1,0 +1,428 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "a2-15",
+   "name": "Ordinary and extraordinary activities; parallelism of accounts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ordinary activities are the normal, regular operations of a business: buying and selling goods, producing, paying salaries, rent, transport, electricity, receiving interest. They are recorded in classes 6 (expenses) and 7 (income).\nExtraordinary activities (in OHADA: “HAO”, outside ordinary activities) are unusual events that do not happen regularly: selling a fixed asset (an old van or building), receiving a gift or subsidy for equipment, paying a fine or penalty, losses from a fire or flood. They are recorded in class 8.\nParallelism (alignment) of accounts: the expense and income accounts are numbered to match each other, so related accounts are easy to find:\n• 60 Purchases ↔ 70 Sales;\n• 65 Other expenses ↔ 75 Other income;\n• 67 Financial expenses ↔ 77 Financial income;\n• 81 Book value of fixed assets sold ↔ 82 Proceeds from sale of fixed assets;\n• 83 Extraordinary (HAO) expenses ↔ 84 Extraordinary (HAO) income.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a shop sells its old delivery van"
+  },
+  "problem": "Is it an ordinary or an extraordinary activity when {x}? In which class is it recorded?",
+  "steps": [
+   "The shop's normal business is buying and selling goods, not vans.",
+   "Selling a fixed asset is unusual: an extraordinary (HAO) activity."
+  ],
+  "answer": "Extraordinary; class {8} (accounts {81} and {82}).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "Ordinary activities are the normal, regular operations; they go in classes {6} and {7}.",
+    "vars": {},
+    "example": [
+     "Buying and selling goods.",
+     "Paying salaries."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-15-ord"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Extraordinary (HAO) activities are unusual events; they go in class {8}.",
+    "vars": {},
+    "example": [
+     "Selling an old van.",
+     "A loss from a fire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-15-hao"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Parallelism: expense and income accounts match, for example {60} Purchases and {70} Sales.",
+    "vars": {},
+    "example": [
+     "{67} Financial expenses, {77} Financial income.",
+     "{81} and {82} for fixed assets sold."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-15-par-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "e": "60 Purchases",
+         "r": "70 Sales",
+         "w": [
+          "77 Financial income",
+          "82 Proceeds from sale of fixed assets",
+          "40 Suppliers"
+         ]
+        },
+        {
+         "e": "67 Financial expenses",
+         "r": "77 Financial income",
+         "w": [
+          "70 Sales",
+          "84 Extraordinary income",
+          "57 Cash"
+         ]
+        },
+        {
+         "e": "81 Book value of fixed assets sold",
+         "r": "82 Proceeds from sale of fixed assets",
+         "w": [
+          "70 Sales",
+          "77 Financial income",
+          "24 Equipment"
+         ]
+        },
+        {
+         "e": "83 Extraordinary (HAO) expenses",
+         "r": "84 Extraordinary (HAO) income",
+         "w": [
+          "70 Sales",
+          "75 Other income",
+          "41 Customers"
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "By parallelism, which income account matches expense account {X.e}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "par"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "par"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "par"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "par",
+       "explain": "Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84."
+      }
+     ],
+     "solution": [
+      "Expense and income accounts are numbered to match each other.",
+      "So {X.e} matches {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-15-ord",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "f": "Selling goods to customers.",
+       "a": "ordinary"
+      },
+      {
+       "f": "Selling an old building.",
+       "a": "extraordinary"
+      },
+      {
+       "f": "Paying the monthly electricity bill.",
+       "a": "ordinary"
+      },
+      {
+       "f": "Losing goods in a fire.",
+       "a": "extraordinary"
+      },
+      {
+       "f": "Paying staff salaries.",
+       "a": "ordinary"
+      },
+      {
+       "f": "Paying a fine to the tax office.",
+       "a": "extraordinary"
+      }
+     ]
+    }
+   },
+   "prompt": "Is this an ordinary or an extraordinary activity for a shop? {X.f}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'ordinary' ? 'extraordinary' : 'ordinary'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "not an activity of the business",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Ask: does this happen regularly in the normal business?"
+    },
+    {
+     "id": "none",
+     "explain": "It is an activity of the business."
+    }
+   ],
+   "solution": [
+    "Ordinary activities are the normal, regular operations; extraordinary ones are unusual.",
+    "So it is {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "a2-15-hao",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which class are extraordinary (HAO) activities recorded?",
+       "r": "class 8",
+       "w": [
+        "class 6",
+        "class 7",
+        "class 2"
+       ],
+       "e": [
+        "Class 6 is ordinary expenses.",
+        "Class 7 is ordinary income.",
+        "Class 2 is fixed assets."
+       ],
+       "y": "Class 8: other expenses and income."
+      },
+      {
+       "q": "What does HAO mean?",
+       "r": "outside ordinary activities",
+       "w": [
+        "a bank account",
+        "a type of stock",
+        "the owner's capital"
+       ],
+       "e": [
+        "That is class 5.",
+        "That is class 3.",
+        "That is class 1."
+       ],
+       "y": "Hors Activités Ordinaires."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-15-par",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "e": "60 Purchases",
+       "r": "70 Sales",
+       "w": [
+        "77 Financial income",
+        "82 Proceeds from sale of fixed assets",
+        "40 Suppliers"
+       ]
+      },
+      {
+       "e": "67 Financial expenses",
+       "r": "77 Financial income",
+       "w": [
+        "70 Sales",
+        "84 Extraordinary income",
+        "57 Cash"
+       ]
+      },
+      {
+       "e": "81 Book value of fixed assets sold",
+       "r": "82 Proceeds from sale of fixed assets",
+       "w": [
+        "70 Sales",
+        "77 Financial income",
+        "24 Equipment"
+       ]
+      },
+      {
+       "e": "83 Extraordinary (HAO) expenses",
+       "r": "84 Extraordinary (HAO) income",
+       "w": [
+        "70 Sales",
+        "75 Other income",
+        "41 Customers"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "By parallelism, which income account matches expense account {X.e}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "par"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "par"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "par"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "par",
+     "explain": "Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84."
+    }
+   ],
+   "solution": [
+    "Expense and income accounts are numbered to match each other.",
+    "So {X.e} matches {answer}."
+   ]
+  },
+  {
+   "id": "a2-15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Selling goods is an ordinary activity.",
+      "truth": "true"
+     },
+     {
+      "text": "Selling an old van is extraordinary.",
+      "truth": "true"
+     },
+     {
+      "text": "60 Purchases matches 70 Sales.",
+      "truth": "true"
+     },
+     {
+      "text": "Class 8 records HAO items.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Paying monthly salaries is an extraordinary activity.",
+      "truth": "false",
+      "explain": "It is regular: ordinary."
+     },
+     {
+      "text": "A loss from a flood is recorded in class 7.",
+      "truth": "false",
+      "explain": "It is extraordinary: class 8."
+     },
+     {
+      "text": "67 Financial expenses matches 70 Sales.",
+      "truth": "false",
+      "explain": "It matches 77 Financial income."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

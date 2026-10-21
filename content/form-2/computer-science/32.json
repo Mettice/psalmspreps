@@ -1,0 +1,445 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "s2-32",
+   "name": "Introduction to cloud computing"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cloud computing is using computing services (storage, software, processing power) over the internet, on servers in large data centres, instead of only on your own device.\nExamples: storing files on Google Drive, OneDrive, Dropbox or iCloud; using Gmail; editing Google Docs online; watching videos on YouTube; backing up phone photos.\nTypes of service: storage (keep files), software as a service (use programs in a browser), platforms and infrastructure for businesses.\nAdvantages: access files from any device anywhere; automatic backup; easy sharing and working together; no need for a big hard disk; often free for small amounts.\nDisadvantages: needs an internet connection; uses data; privacy and security risks if the account is hacked; you depend on the company; large storage costs money.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a pupil saves a project on Google Drive"
+  },
+  "problem": "Give one advantage and one disadvantage when {x}.",
+  "steps": [
+   "Advantage: the project can be opened from any phone or computer, and it is not lost if the laptop breaks.",
+   "Disadvantage: an internet connection (and data) is needed to open it."
+  ],
+  "answer": "Access anywhere and a safe backup; but it needs the internet.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "Cloud computing is using storage and software over the internet, on servers in data centres.",
+    "vars": {},
+    "example": [
+     "Google Drive stores files.",
+     "Gmail is a cloud service."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-32-what"
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "Advantages: access anywhere, backup, sharing, no big hard disk needed.",
+    "vars": {},
+    "example": [
+     "Open files on any device.",
+     "Work on a document together."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-32-good"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "Disadvantages: needs the internet, uses data, and has privacy risks.",
+    "vars": {},
+    "example": [
+     "No connection, no files.",
+     "Use a strong password."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-32-bad-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "iot-cloud"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a disadvantage of cloud computing?",
+         "r": "You need an internet connection.",
+         "w": [
+          "Files can be shared easily.",
+          "Files are backed up.",
+          "You can work from anywhere."
+         ],
+         "e": [
+          "That is an advantage.",
+          "That is an advantage.",
+          "That is an advantage."
+         ],
+         "y": "No connection, no access."
+        },
+        {
+         "q": "How can you protect your cloud account?",
+         "r": "use a strong password and two-step verification",
+         "w": [
+          "share your password",
+          "use 1234 as password",
+          "post your login online"
+         ],
+         "e": [
+          "Never share it.",
+          "That is weak.",
+          "That is dangerous."
+         ],
+         "y": "Strong security protects the files."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-32-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is cloud computing?",
+       "r": "using storage and software over the internet",
+       "w": [
+        "computing in the sky with planes",
+        "a computer made of clouds",
+        "using only a USB key"
+       ],
+       "e": [
+        "The cloud is a name for servers.",
+        "Clouds are not computers.",
+        "A USB key is local storage."
+       ],
+       "y": "Services on remote servers."
+      },
+      {
+       "q": "Which is a cloud storage service?",
+       "r": "Google Drive",
+       "w": [
+        "a USB flash drive",
+        "a CD",
+        "a printer"
+       ],
+       "e": [
+        "That is local storage.",
+        "That is local storage.",
+        "That is an output device."
+       ],
+       "y": "Files are kept online."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-32-good",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of cloud storage?",
+       "r": "Files can be opened from any device with internet.",
+       "w": [
+        "It works without internet.",
+        "It never needs a password.",
+        "It is always unlimited and free."
+       ],
+       "e": [
+        "It needs internet.",
+        "Passwords protect it.",
+        "Large storage costs money."
+       ],
+       "y": "Access anywhere."
+      },
+      {
+       "q": "Why is the cloud good for backup?",
+       "r": "Files are safe even if your device is lost or broken.",
+       "w": [
+        "It deletes old files.",
+        "It stops viruses for ever.",
+        "It makes phones heavier."
+       ],
+       "e": [
+        "It keeps them.",
+        "That is not guaranteed.",
+        "That is not true."
+       ],
+       "y": "A copy is kept online."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-32-bad",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a disadvantage of cloud computing?",
+       "r": "You need an internet connection.",
+       "w": [
+        "Files can be shared easily.",
+        "Files are backed up.",
+        "You can work from anywhere."
+       ],
+       "e": [
+        "That is an advantage.",
+        "That is an advantage.",
+        "That is an advantage."
+       ],
+       "y": "No connection, no access."
+      },
+      {
+       "q": "How can you protect your cloud account?",
+       "r": "use a strong password and two-step verification",
+       "w": [
+        "share your password",
+        "use 1234 as password",
+        "post your login online"
+       ],
+       "e": [
+        "Never share it.",
+        "That is weak.",
+        "That is dangerous."
+       ],
+       "y": "Strong security protects the files."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-32-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Gmail is a cloud service.",
+      "truth": "true"
+     },
+     {
+      "text": "Cloud files can be shared.",
+      "truth": "true"
+     },
+     {
+      "text": "The cloud needs the internet.",
+      "truth": "true"
+     },
+     {
+      "text": "Data centres hold the servers.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cloud storage works without any internet connection.",
+      "truth": "false",
+      "explain": "It needs the internet."
+     },
+     {
+      "text": "A USB key is cloud storage.",
+      "truth": "false",
+      "explain": "It is local storage."
+     },
+     {
+      "text": "Cloud accounts can never be hacked.",
+      "truth": "false",
+      "explain": "They can; protect them with strong passwords."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

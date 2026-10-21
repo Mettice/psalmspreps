@@ -1,0 +1,441 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 37,
+ "language": "en",
+ "prerequisites": [
+  36
+ ],
+ "skills": [
+  {
+   "id": "s2-37",
+   "name": "Using a spreadsheet to solve problems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Spreadsheets solve everyday problems: class marks and averages, a shopping list with costs, a budget, sales records, a timetable.\nSteps:\n1. Type headings (labels) in the first row: Item, Quantity, Unit price, Total.\n2. Enter the data.\n3. Enter a formula in the first Total cell, for example =B{2}*C{2}.\n4. Copy (fill) the formula down: it changes automatically to =B{3}*C{3}, =B{4}*C{4} (relative references).\n5. Use =SUM(D{2}:D{6}) for the grand total.\n6. Format the cells (currency FCFA, bold headings), sort the data, and make a chart (column, bar, pie, line).\nWhen data changes, the results update automatically.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "q": 4,
+   "p": 250
+  },
+  "problem": "In a shopping sheet, B{2} (quantity) is {q} and C{2} (unit price) is {p} FCFA. What formula goes in D{2}, and what is the total?",
+  "steps": [
+   "Total = quantity × unit price, so D{2} has =B{2}*C{2}.",
+   "{q} × {p} = {q * p} FCFA."
+  ],
+  "answer": "=B{2}*C{2}, giving {q * p} FCFA.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c37-1",
+    "status": "draft",
+    "idea": "Plan a sheet with headings, data and formulas.",
+    "vars": {},
+    "example": [
+     "Item, Quantity, Unit price, Total.",
+     "Formulas in the Total column."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-37-plan"
+    }
+   },
+   {
+    "id": "c37-2",
+    "status": "draft",
+    "idea": "When a formula is copied down, its references change: =B{2}*C{2} becomes =B{3}*C{3}.",
+    "vars": {},
+    "example": [
+     "These are relative references.",
+     "Fill down with the fill handle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-37-copy-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "office-software"
+     ],
+     "vars": {
+      "r": {
+       "int": [
+        2,
+        5
+       ]
+      },
+      "s": {
+       "expr": "r + 1"
+      }
+     },
+     "prompt": "The formula =B{r}*C{r} in D{r} is copied down to D{s}. What does it become?",
+     "correct": "=B{s}*C{s}",
+     "distractors": [
+      {
+       "text": "=B{r}*C{r}",
+       "misconception": "same"
+      },
+      {
+       "text": "=B{r}*C{s}",
+       "misconception": "half"
+      },
+      {
+       "text": "=C{s}*D{s}",
+       "misconception": "shift"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "same",
+       "explain": "Relative references change when copied."
+      },
+      {
+       "id": "half",
+       "explain": "Both references change row."
+      },
+      {
+       "id": "shift",
+       "explain": "Copying down changes rows, not columns."
+      }
+     ],
+     "solution": [
+      "Copying down changes the row numbers by the same amount.",
+      "So it becomes {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c37-3",
+    "status": "draft",
+    "idea": "Results update automatically when the data changes; charts show the data as pictures.",
+    "vars": {},
+    "example": [
+     "Change a price and the total changes.",
+     "A pie chart shows parts of a whole."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-37-chart-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "office-software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which chart best shows how a family budget is shared out between food, rent and school?",
+         "r": "a pie chart",
+         "w": [
+          "a line chart",
+          "no chart",
+          "a scatter of random dots"
+         ],
+         "e": [
+          "A line shows change over time.",
+          "A chart helps.",
+          "That is not suitable."
+         ],
+         "y": "A pie shows parts of a whole."
+        },
+        {
+         "q": "Which chart best shows a pupil's marks rising over five tests?",
+         "r": "a line chart",
+         "w": [
+          "a pie chart",
+          "a table of contents",
+          "a photo"
+         ],
+         "e": [
+          "A pie shows parts of a whole.",
+          "That is not a chart.",
+          "That is not a chart."
+         ],
+         "y": "A line shows change over time."
+        },
+        {
+         "q": "A price in C3 is changed. What happens to the total in D3 (=B3*C3)?",
+         "r": "It updates automatically.",
+         "w": [
+          "It stays the same.",
+          "It is deleted.",
+          "It must be retyped."
+         ],
+         "e": [
+          "Formulas recalculate.",
+          "It is not deleted.",
+          "No need to retype."
+         ],
+         "y": "Spreadsheets recalculate."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-37-plan",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "prompt": "Put the steps of making a shopping sheet in order.",
+   "items": [
+    {
+     "text": "Type the headings"
+    },
+    {
+     "text": "Enter the data"
+    },
+    {
+     "text": "Enter the formula for the first total"
+    },
+    {
+     "text": "Copy the formula down"
+    },
+    {
+     "text": "Use SUM for the grand total"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "s2-37-copy",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "s": {
+     "expr": "r + 1"
+    }
+   },
+   "prompt": "The formula =B{r}*C{r} in D{r} is copied down to D{s}. What does it become?",
+   "correct": "=B{s}*C{s}",
+   "distractors": [
+    {
+     "text": "=B{r}*C{r}",
+     "misconception": "same"
+    },
+    {
+     "text": "=B{r}*C{s}",
+     "misconception": "half"
+    },
+    {
+     "text": "=C{s}*D{s}",
+     "misconception": "shift"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "same",
+     "explain": "Relative references change when copied."
+    },
+    {
+     "id": "half",
+     "explain": "Both references change row."
+    },
+    {
+     "id": "shift",
+     "explain": "Copying down changes rows, not columns."
+    }
+   ],
+   "solution": [
+    "Copying down changes the row numbers by the same amount.",
+    "So it becomes {answer}."
+   ]
+  },
+  {
+   "id": "s2-37-total",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "q": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "p": {
+     "pick": [
+      100,
+      150,
+      200,
+      250,
+      500,
+      1000
+     ]
+    }
+   },
+   "prompt": "A shopping sheet has quantity {q} in B{2} and unit price {p} FCFA in C{2}. D{2} contains =B{2}*C{2}. What does D{2} show?",
+   "answer": "q * p",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "q + p",
+     "explain": "* means multiply."
+    }
+   ],
+   "solution": [
+    "=B{2}*C{2} multiplies quantity by price.",
+    "{q} × {p} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "s2-37-chart",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which chart best shows how a family budget is shared out between food, rent and school?",
+       "r": "a pie chart",
+       "w": [
+        "a line chart",
+        "no chart",
+        "a scatter of random dots"
+       ],
+       "e": [
+        "A line shows change over time.",
+        "A chart helps.",
+        "That is not suitable."
+       ],
+       "y": "A pie shows parts of a whole."
+      },
+      {
+       "q": "Which chart best shows a pupil's marks rising over five tests?",
+       "r": "a line chart",
+       "w": [
+        "a pie chart",
+        "a table of contents",
+        "a photo"
+       ],
+       "e": [
+        "A pie shows parts of a whole.",
+        "That is not a chart.",
+        "That is not a chart."
+       ],
+       "y": "A line shows change over time."
+      },
+      {
+       "q": "A price in C3 is changed. What happens to the total in D3 (=B3*C3)?",
+       "r": "It updates automatically.",
+       "w": [
+        "It stays the same.",
+        "It is deleted.",
+        "It must be retyped."
+       ],
+       "e": [
+        "Formulas recalculate.",
+        "It is not deleted.",
+        "No need to retype."
+       ],
+       "y": "Spreadsheets recalculate."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

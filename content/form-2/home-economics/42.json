@@ -1,0 +1,445 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 42,
+ "language": "en",
+ "prerequisites": [
+  41
+ ],
+ "skills": [
+  {
+   "id": "h2-42",
+   "name": "Convection: examples, advantages and disadvantages"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Examples of convection in the kitchen and home:\n• boiling water, soups and sauces in a pot;\n• deep frying: hot oil circulates around the food;\n• an oven: hot air rises to the top, so the top shelf is the hottest;\n• smoke and hot air rising from a fire, through a chimney or kitchen roof;\n• a refrigerator: the cold freezer box is at the top, so cold air sinks and cools the food below;\n• ventilation: hot, stale air leaves through high openings and cool air enters below.\nAdvantages: liquids and air are heated evenly; ovens and pots cook food all round; good ventilation removes smoke and heat.\nDisadvantages: heat is lost upwards from uncovered pots (cover pots to save fuel); food on the top shelf of an oven may burn; smoke spreads through a closed kitchen.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "the freezer box is at the top of a refrigerator"
+  },
+  "problem": "Explain why {x}.",
+  "steps": [
+   "The air cooled by the freezer box becomes denser and sinks.",
+   "It flows down over the food, and warmer air rises to be cooled: a convection current."
+  ],
+  "answer": "Cold air sinks and cools all the food below.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c42-1",
+    "status": "draft",
+    "idea": "Examples of convection: boiling water, deep frying, hot air in an oven, smoke rising from a fire.",
+    "vars": {},
+    "example": [
+     "Hot air rises in an oven.",
+     "Oil circulates in deep frying."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-42-ex"
+    }
+   },
+   {
+    "id": "c42-2",
+    "status": "draft",
+    "idea": "In an oven the top shelf is hottest; in a fridge the freezer box is at the top.",
+    "vars": {},
+    "example": [
+     "Hot air rises.",
+     "Cold air sinks."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-42-oven"
+    }
+   },
+   {
+    "id": "c42-3",
+    "status": "draft",
+    "idea": "Convection heats liquids evenly, but heat escapes upwards from open pots: cover them.",
+    "vars": {},
+    "example": [
+     "A lid saves fuel.",
+     "High windows let hot air out."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-42-pro-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "heat-transfer"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should a pot be covered when boiling water?",
+         "r": "to stop heat escaping upwards and save fuel",
+         "w": [
+          "to make the water cold",
+          "to stop conduction",
+          "to make the water rise"
+         ],
+         "e": [
+          "It keeps it hot.",
+          "The base still conducts.",
+          "That is not the reason."
+         ],
+         "y": "Less heat is lost from the top."
+        },
+        {
+         "q": "Why are kitchen windows placed high on the wall?",
+         "r": "so hot air and smoke can escape",
+         "w": [
+          "so cold air can be trapped",
+          "to stop light coming in",
+          "for decoration only"
+         ],
+         "e": [
+          "That is not the aim.",
+          "They let light in.",
+          "They have a job."
+         ],
+         "y": "Hot air rises and leaves through high openings."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-42-ex",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an example of convection?",
+       "r": "hot air rising in an oven",
+       "w": [
+        "a metal spoon getting hot in soup",
+        "the sun warming your face",
+        "a pot handle getting hot"
+       ],
+       "e": [
+        "That is conduction.",
+        "That is radiation.",
+        "That is conduction."
+       ],
+       "y": "Air moves to carry heat."
+      },
+      {
+       "q": "Why does smoke rise from a kitchen fire?",
+       "r": "Hot air and smoke are less dense and rise.",
+       "w": [
+        "Smoke is heavier than air.",
+        "The roof pulls it.",
+        "Smoke is a solid."
+       ],
+       "e": [
+        "Hot smoke is less dense.",
+        "Nothing pulls it.",
+        "Smoke is a gas with particles."
+       ],
+       "y": "Convection carries it up."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-42-oven",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which shelf of an oven is the hottest?",
+       "r": "the top shelf",
+       "w": [
+        "the bottom shelf",
+        "they are all the same",
+        "the door"
+       ],
+       "e": [
+        "Hot air rises to the top.",
+        "Convection makes the top hotter.",
+        "The door is not a shelf."
+       ],
+       "y": "Hot air rises."
+      },
+      {
+       "q": "Why is the freezer box at the top of a fridge?",
+       "r": "Cold air sinks and cools the food below.",
+       "w": [
+        "Cold air rises.",
+        "It is easier to open.",
+        "To keep it warm."
+       ],
+       "e": [
+        "Cold air sinks.",
+        "That is not the reason.",
+        "It is meant to be cold."
+       ],
+       "y": "Convection spreads the cold."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-42-pro",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should a pot be covered when boiling water?",
+       "r": "to stop heat escaping upwards and save fuel",
+       "w": [
+        "to make the water cold",
+        "to stop conduction",
+        "to make the water rise"
+       ],
+       "e": [
+        "It keeps it hot.",
+        "The base still conducts.",
+        "That is not the reason."
+       ],
+       "y": "Less heat is lost from the top."
+      },
+      {
+       "q": "Why are kitchen windows placed high on the wall?",
+       "r": "so hot air and smoke can escape",
+       "w": [
+        "so cold air can be trapped",
+        "to stop light coming in",
+        "for decoration only"
+       ],
+       "e": [
+        "That is not the aim.",
+        "They let light in.",
+        "They have a job."
+       ],
+       "y": "Hot air rises and leaves through high openings."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-42-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Hot oil circulates in deep frying.",
+      "truth": "true"
+     },
+     {
+      "text": "Covering pots saves fuel.",
+      "truth": "true"
+     },
+     {
+      "text": "Cold air sinks in a fridge.",
+      "truth": "true"
+     },
+     {
+      "text": "Smoke rises from a fire.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The bottom shelf of an oven is always the hottest.",
+      "truth": "false",
+      "explain": "Hot air rises, so the top is hottest."
+     },
+     {
+      "text": "Covering a pot makes it boil more slowly.",
+      "truth": "false",
+      "explain": "A lid keeps the heat in, so it boils faster."
+     },
+     {
+      "text": "A metal spoon heating in soup is convection.",
+      "truth": "false",
+      "explain": "That is conduction."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

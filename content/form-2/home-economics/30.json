@@ -1,0 +1,445 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "h2-30",
+   "name": "Labour-saving equipment: how they work"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Principles (how they work):\n• Pressure cooker: the sealed lid traps steam, so the pressure rises. At higher pressure water boils at a higher temperature (about 120 °C instead of 100 °C), so food cooks faster.\n• Microwave oven: microwaves make the water molecules in food vibrate, producing heat inside the food.\n• Vacuum flask: the vacuum stops heat moving by conduction and convection; the shiny walls reflect radiation; the stopper stops evaporation and convection at the top.\n• Blender and mixer: an electric motor turns blades or beaters at high speed.\nUses:\n• saving time, fuel and effort;\n• helping working parents prepare meals quickly;\n• keeping food hot for school or work (flask).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "beans cook faster in a pressure cooker"
+  },
+  "problem": "Explain why {x}.",
+  "steps": [
+   "The sealed lid traps the steam, so the pressure inside rises.",
+   "At higher pressure water boils at about {120} °C, hotter than {100} °C, so the beans cook faster."
+  ],
+  "answer": "The higher pressure raises the boiling point, so the food cooks at a higher temperature.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "In a pressure cooker, trapped steam raises the pressure and the boiling point, so food cooks faster.",
+    "vars": {},
+    "example": [
+     "Water boils at about {120} °C inside.",
+     "Open pots boil at {100} °C."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-30-pc"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "Microwaves make water molecules in the food vibrate, heating the food from inside.",
+    "vars": {},
+    "example": [
+     "Food with water heats well.",
+     "Never put metal in a microwave."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-30-mw"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "A vacuum flask stops conduction and convection with its vacuum and reflects radiation with shiny walls.",
+    "vars": {},
+    "example": [
+     "Keeps tea hot.",
+     "Keeps juice cold."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-30-fl-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "labour-saving"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How does the vacuum in a flask keep tea hot?",
+         "r": "It stops heat escaping by conduction and convection.",
+         "w": [
+          "It heats the tea.",
+          "It adds steam.",
+          "It cools the tea."
+         ],
+         "e": [
+          "It does not heat.",
+          "It adds nothing.",
+          "It keeps it hot."
+         ],
+         "y": "Heat cannot pass through a vacuum by those ways."
+        },
+        {
+         "q": "What does the stopper of a vacuum flask prevent?",
+         "r": "heat loss by convection and evaporation at the top",
+         "w": [
+          "the tea from being sweet",
+          "radiation from the sides",
+          "the flask from standing up"
+         ],
+         "e": [
+          "It does not affect taste.",
+          "The shiny walls stop radiation.",
+          "That is not its job."
+         ],
+         "y": "The stopper closes the top."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-30-pc",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does food cook faster in a pressure cooker?",
+       "r": "Water boils at a higher temperature under pressure.",
+       "w": [
+        "The food becomes smaller.",
+        "It uses cold water.",
+        "The lid adds heat."
+       ],
+       "e": [
+        "Size does not change.",
+        "The water is boiling.",
+        "The lid traps steam."
+       ],
+       "y": "Higher pressure, higher boiling point."
+      },
+      {
+       "q": "About what temperature does water boil at inside a pressure cooker?",
+       "r": "about 120 °C",
+       "w": [
+        "about 50 °C",
+        "about 100 °C",
+        "about 0 °C"
+       ],
+       "e": [
+        "That is too low.",
+        "That is in an open pot.",
+        "That is freezing."
+       ],
+       "y": "The pressure raises the boiling point."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-30-mw",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does a microwave oven heat food?",
+       "r": "Microwaves make the water molecules in the food vibrate.",
+       "w": [
+        "A flame burns under the food.",
+        "Hot coals heat it.",
+        "Ice melts on it."
+       ],
+       "e": [
+        "There is no flame.",
+        "There are no coals.",
+        "There is no ice."
+       ],
+       "y": "The vibrating molecules make heat."
+      },
+      {
+       "q": "What should never be put in a microwave oven?",
+       "r": "metal pots and foil",
+       "w": [
+        "a glass bowl",
+        "a microwave-safe plate",
+        "a cup of water"
+       ],
+       "e": [
+        "Glass is safe.",
+        "That is safe.",
+        "That is safe."
+       ],
+       "y": "Metal causes sparks."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-30-fl",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does the vacuum in a flask keep tea hot?",
+       "r": "It stops heat escaping by conduction and convection.",
+       "w": [
+        "It heats the tea.",
+        "It adds steam.",
+        "It cools the tea."
+       ],
+       "e": [
+        "It does not heat.",
+        "It adds nothing.",
+        "It keeps it hot."
+       ],
+       "y": "Heat cannot pass through a vacuum by those ways."
+      },
+      {
+       "q": "What does the stopper of a vacuum flask prevent?",
+       "r": "heat loss by convection and evaporation at the top",
+       "w": [
+        "the tea from being sweet",
+        "radiation from the sides",
+        "the flask from standing up"
+       ],
+       "e": [
+        "It does not affect taste.",
+        "The shiny walls stop radiation.",
+        "That is not its job."
+       ],
+       "y": "The stopper closes the top."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Pressure raises the boiling point of water.",
+      "truth": "true"
+     },
+     {
+      "text": "Microwaves heat the water in food.",
+      "truth": "true"
+     },
+     {
+      "text": "Shiny walls reflect radiation.",
+      "truth": "true"
+     },
+     {
+      "text": "A blender uses an electric motor.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A vacuum flask works by heating its contents.",
+      "truth": "false",
+      "explain": "It only reduces heat loss or gain."
+     },
+     {
+      "text": "Water always boils at 100 °C even in a pressure cooker.",
+      "truth": "false",
+      "explain": "In a pressure cooker it boils at about 120 °C."
+     },
+     {
+      "text": "Metal pots are best in a microwave oven.",
+      "truth": "false",
+      "explain": "Metal causes sparks."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

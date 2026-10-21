@@ -1,0 +1,436 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 37,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-37",
+   "name": "Reasons for cooking; classification of cooking methods"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Reasons for cooking food:\n• to kill germs and parasites, making food safe;\n• to make food easier to chew and digest (starch softens, meat becomes tender);\n• to improve flavour, smell, colour and appearance;\n• to give variety to meals;\n• to preserve food for a short time;\n• to remove some poisons (cassava, some beans).\nCooking methods are classified by how heat reaches the food:\n• moist methods use water or steam: boiling, simmering, stewing, steaming, poaching, braising;\n• dry methods use dry heat or fat: baking, roasting, grilling (broiling), toasting, frying (shallow and deep);\n• microwave cooking.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "koki steamed in leaves"
+  },
+  "problem": "Is {m} a moist or a dry method? Why?",
+  "steps": [
+   "Steaming cooks food with the steam from boiling water.",
+   "Steam is moist heat."
+  ],
+  "answer": "A moist method.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c37-1",
+    "status": "draft",
+    "idea": "Food is cooked to make it safe, easier to digest, tastier and more varied.",
+    "vars": {},
+    "example": [
+     "Cooking kills germs in meat.",
+     "Cooked rice is soft."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-37-why"
+    }
+   },
+   {
+    "id": "c37-2",
+    "status": "draft",
+    "idea": "Moist methods use water or steam: boiling, stewing, steaming, poaching.",
+    "vars": {},
+    "example": [
+     "Boiled yams.",
+     "Steamed koki."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-37-moist"
+    }
+   },
+   {
+    "id": "c37-3",
+    "status": "draft",
+    "idea": "Dry methods use dry heat or fat: baking, roasting, grilling, frying.",
+    "vars": {},
+    "example": [
+     "Roasted plantain.",
+     "Fried puff-puff."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-37-dry-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cooking-methods"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which of these is a dry method of cooking?",
+         "r": "grilling",
+         "w": [
+          "boiling",
+          "poaching",
+          "stewing"
+         ],
+         "e": [
+          "It uses water.",
+          "It uses liquid.",
+          "It uses liquid."
+         ],
+         "y": "Grilling uses direct dry heat."
+        },
+        {
+         "q": "Why is frying classed as a dry method?",
+         "r": "It uses hot fat, not water.",
+         "w": [
+          "It uses steam.",
+          "It uses boiling water.",
+          "It uses ice."
+         ],
+         "e": [
+          "No steam.",
+          "No water.",
+          "No ice."
+         ],
+         "y": "Fat, not water, carries the heat."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-37-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a reason for cooking food?",
+       "r": "to kill germs",
+       "w": [
+        "to add germs",
+        "to make food harder to digest",
+        "to remove all taste"
+       ],
+       "e": [
+        "Cooking kills germs.",
+        "It makes it easier.",
+        "It improves taste."
+       ],
+       "y": "Heat kills germs."
+      },
+      {
+       "q": "Why is bitter cassava cooked or processed?",
+       "r": "to remove its poison",
+       "w": [
+        "to make it raw",
+        "to add cyanide",
+        "to make it grow"
+       ],
+       "e": [
+        "Cooking is the opposite.",
+        "It removes cyanide.",
+        "Cooked food does not grow."
+       ],
+       "y": "Processing removes cyanide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-37-moist",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "m": "boiling yams",
+       "a": "a moist method",
+       "y": "Yams are cooked in water."
+      },
+      {
+       "m": "roasting plantain",
+       "a": "a dry method",
+       "y": "Plantain is cooked over dry heat."
+      },
+      {
+       "m": "steaming moi-moi",
+       "a": "a moist method",
+       "y": "It is cooked in steam."
+      },
+      {
+       "m": "frying puff-puff",
+       "a": "a dry method",
+       "y": "It is cooked in hot fat."
+      },
+      {
+       "m": "baking bread",
+       "a": "a dry method",
+       "y": "It is cooked by dry heat in an oven."
+      },
+      {
+       "m": "stewing meat",
+       "a": "a moist method",
+       "y": "It is cooked slowly in liquid."
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.m} a moist or a dry method of cooking?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'a moist method' ? 'a dry method' : 'a moist method'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "not a cooking method",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Ask: is water or steam used (moist), or dry heat or fat (dry)?"
+    },
+    {
+     "id": "none",
+     "explain": "It is a cooking method."
+    }
+   ],
+   "solution": [
+    "Moist methods use water or steam; dry methods use dry heat or fat.",
+    "{X.y} So it is {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "h2-37-dry",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is a dry method of cooking?",
+       "r": "grilling",
+       "w": [
+        "boiling",
+        "poaching",
+        "stewing"
+       ],
+       "e": [
+        "It uses water.",
+        "It uses liquid.",
+        "It uses liquid."
+       ],
+       "y": "Grilling uses direct dry heat."
+      },
+      {
+       "q": "Why is frying classed as a dry method?",
+       "r": "It uses hot fat, not water.",
+       "w": [
+        "It uses steam.",
+        "It uses boiling water.",
+        "It uses ice."
+       ],
+       "e": [
+        "No steam.",
+        "No water.",
+        "No ice."
+       ],
+       "y": "Fat, not water, carries the heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-37-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cooking kills germs.",
+      "truth": "true"
+     },
+     {
+      "text": "Steaming is a moist method.",
+      "truth": "true"
+     },
+     {
+      "text": "Baking is a dry method.",
+      "truth": "true"
+     },
+     {
+      "text": "Cooking improves flavour.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Frying is a moist method.",
+      "truth": "false",
+      "explain": "Frying uses fat: a dry method."
+     },
+     {
+      "text": "Cooking makes food harder to digest.",
+      "truth": "false",
+      "explain": "It makes food easier to digest."
+     },
+     {
+      "text": "Boiling is a dry method.",
+      "truth": "false",
+      "explain": "Boiling uses water: a moist method."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

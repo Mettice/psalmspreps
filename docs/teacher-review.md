@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-213 P1 items: 211 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+221 P1 items: 219 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -241,6 +241,14 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-I10 | Form 2 History: dates | open |
 | TR-I11 | Form 2 History: African states | open |
 | TR-I12 | Form 2 History: arts and contacts | open |
+| TR-U10 | Form 2 Home Economics: equipment diagrams | open |
+| TR-U11 | Form 2 Home Economics: equipment and safety | open |
+| TR-U12 | Form 2 Home Economics: cooking and deficiencies | open |
+| TR-T10 | Form 2 Computer Science: internet and software | open |
+| TR-T11 | Form 2 Computer Science: practical work | open |
+| TR-T12 | Form 2 Computer Science: safety and IoT | open |
+| TR-X10 | Form 2 Accounting: SYSCOHADA accounts | open |
+| TR-X11 | Form 2 Accounting: OHADA and parallelism | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -906,3 +914,29 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 - [ ] **TR-I10 [P1] Dates:** the event table (Kirina 1235, Mansa Musa's pilgrimage 1324, Timbuktu 1468, Wouri 1472, Elmina 1482, Diogo Cão 1483, Malindi 1498, Charlemagne 800, First Crusade 1096, Black Death 1347, Tondibi 1591) and the reign dates in the notes; several are approximate. *Location:* rows 11–21.
 - [ ] **TR-I11 [P1] African states:** Mali, Kanem-Bornu (Njimi, Ngazargamu, Idris Alooma), Kongo (Afonso I, Mbwila), Great Zimbabwe; the decline factors. *Location:* rows 11–14, 17.
 - [ ] **TR-I12 [P1] Arts and contacts:** Nok, Igbo-Ukwu, Ife, Benin, Foumban casting, the lost-wax method; trans-Saharan and Indian Ocean trade, monsoon months, Fernando Pó and Rio dos Camarões, the Duala middlemen; feudalism and the Renaissance. *Location:* rows 15–16, 18–21.
+
+## U (Term 2). Home Economics Form 2, Batch H2-2 (Term 2, rows 24–33 and 36–46), added 2026-10-21 (form-2 branch)
+
+21 lessons: small and large kitchen equipment, labour-saving equipment (types, parts, principles, choice and care), kitchen accidents and first aid, kitchen waste, reasons for cooking and moist and dry methods, heat transfer (conduction, convection, radiation), kwashiorkor and marasmus, night blindness. Integration and remediation rows (34, 35, 47, 48) are not lessons. Reviewer: a Home Economics teacher.
+
+### P1
+- [ ] **TR-U10 [P1] Diagram lessons without drawings:** rows 24, 27 and 29 ask for diagrams of equipment; the lessons name and match the parts (knife, saucepan, fridge, cooker, pressure cooker, blender, vacuum flask, microwave) but have no drawings yet. Please say whether drawings are needed. *Location:* rows 24, 27, 29.
+- [ ] **TR-U11 [P1] Equipment facts and safety:** fridge 0–5 °C, freezer about −18 °C, pressure cooker about 120 °C and two-thirds full, mains 220 V; first aid: cool a burn under running water about 20 minutes, cover burning oil, never water. *Location:* rows 26–33.
+- [ ] **TR-U12 [P1] Cooking and deficiency diseases:** moist and dry methods; heat transfer examples; signs of kwashiorkor, marasmus and night blindness; six months of exclusive breastfeeding; vitamin A foods. *Location:* rows 37–46.
+
+## T (Term 2). Computer Science Form 2, Batch S2-2 (Term 2, rows 21, 22, 24, 26, 27, 29–34, 36–40), added 2026-10-21 (form-2 branch)
+
+16 lessons: accessing the internet, browsers, assistive technologies, block programming (loops, variables, conditions), digital identity and footprints, cloud computing, sensors, embedded systems and IoT, spreadsheets, presentation and desktop publishing software. Integration rows (23, 25, 28, 35, 41) are not lessons. Computed parts: data bundle days, loop and if/else tracing, polygon turns, SUM, AVERAGE and products in a spreadsheet. Reviewer: a Computer Science teacher.
+
+### P1
+- [ ] **TR-T10 [P1] Internet and software names:** ISPs (MTN, Orange, Camtel, Nexttel), 1 GB = 1000 MB in bundle questions, browsers, search engines; Scratch block names; Excel/Calc/Sheets, PowerPoint/Impress, Publisher/Scribus/Canva. *Location:* rows 21, 22, 26, 27, 36–40.
+- [ ] **TR-T11 [P1] Practical work:** the block-programming and office lessons are taught without a computer in the app; please say which practical tasks the teacher should add in the lab. *Location:* rows 26, 27, 36–40.
+- [ ] **TR-T12 [P1] Online safety and IoT:** password and scam advice, active and passive footprints, sensor examples, embedded systems and IoT data flow. *Location:* rows 29–34.
+
+## X (Term 2). Accounting Form 2, Batch A2-2 (Term 2, rows 13–18), added 2026-10-21 (form-2 branch)
+
+6 lessons: OHADA and SYSCOHADA (definition, objectives, structure), classes and codification, ordinary and HAO activities and parallelism, the content of classes 1–3, 4–6 and 7–8. Row 19 (remedial activities) is not a lesson. Computed parts: the class and main account from an account number, and the result = income − expenses. Reviewer: an Accounting teacher.
+
+### P1
+- [ ] **TR-X10 [P1] SYSCOHADA account numbers and names:** the account table in the questions (101, 162, 223, 231, 2441, 245, 311, 321, 401, 411, 422, 521, 571, 601, 605, 661, 701, 706, 812, 822) and the lists in the notes (classes 1–8, 55 electronic money, 83–89); please check against the official revised chart (2017). *Location:* rows 14, 16–18.
+- [ ] **TR-X11 [P1] OHADA facts and parallelism:** Port Louis treaty 1993, 17 member states; classes 1–5 balance sheet, 6–8 income statement, 9 commitments and costs; the pairs 60/70, 65/75, 67/77, 81/82, 83/84. *Location:* rows 13, 15.

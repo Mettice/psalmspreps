@@ -1,0 +1,473 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 38,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-38",
+   "name": "Presentation and desktop publishing software"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Presentation software (Microsoft PowerPoint, LibreOffice Impress, Google Slides) makes slide shows to present ideas to an audience.\n• A presentation is made of slides; each slide can hold text, pictures, charts, sound and video.\n• Layouts and themes (designs) give slides a consistent look.\n• Transitions are effects between slides; animations move objects on a slide.\n• Views: normal, slide sorter, slide show; speaker notes help the presenter.\nDesktop publishing (DTP) software (Microsoft Publisher, Scribus, Canva) designs printed documents with careful page layout: posters, flyers, brochures, newsletters, cards, certificates.\n• It uses frames (text boxes and picture boxes) that can be placed anywhere on the page, columns, templates, and master pages.\nA word processor is mainly for typing text; DTP gives more control over layout.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a poster for the school's sports day"
+  },
+  "problem": "Which kind of software is best to design {x}? Why?",
+  "steps": [
+   "A poster needs pictures and text placed freely on the page.",
+   "Desktop publishing software uses frames and templates for page layout."
+  ],
+  "answer": "Desktop publishing software.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c38-1",
+    "status": "draft",
+    "idea": "Presentation software makes slide shows: PowerPoint, Impress, Google Slides.",
+    "vars": {},
+    "example": [
+     "Slides hold text, pictures and charts.",
+     "Used to present to an audience."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-38-pres"
+    }
+   },
+   {
+    "id": "c38-2",
+    "status": "draft",
+    "idea": "Transitions are effects between slides; animations move objects on a slide.",
+    "vars": {},
+    "example": [
+     "A fade between slides.",
+     "A title that flies in."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-38-effects"
+    }
+   },
+   {
+    "id": "c38-3",
+    "status": "draft",
+    "idea": "Desktop publishing software designs posters, flyers and newsletters with frames and templates.",
+    "vars": {},
+    "example": [
+     "Publisher, Scribus, Canva.",
+     "Place text and pictures freely."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-38-dtp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "office-software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "a school newsletter with columns and pictures",
+         "r": "desktop publishing software",
+         "w": [
+          "a spreadsheet",
+          "a web browser",
+          "a calculator"
+         ],
+         "e": [
+          "That is for calculations.",
+          "That opens web pages.",
+          "That calculates."
+         ],
+         "y": "DTP lays out pages."
+        },
+        {
+         "q": "a talk to the class with slides",
+         "r": "presentation software",
+         "w": [
+          "desktop publishing software",
+          "a spreadsheet",
+          "a database"
+         ],
+         "e": [
+          "DTP is for printed pages.",
+          "That is for calculations.",
+          "That stores records."
+         ],
+         "y": "Slides for an audience."
+        },
+        {
+         "q": "calculating the class average marks",
+         "r": "a spreadsheet",
+         "w": [
+          "presentation software",
+          "desktop publishing software",
+          "a paint program"
+         ],
+         "e": [
+          "Slides do not calculate.",
+          "DTP lays out pages.",
+          "That draws."
+         ],
+         "y": "Spreadsheets calculate."
+        }
+       ]
+      }
+     },
+     "prompt": "Which software is best for {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-38-pres",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is presentation software?",
+       "r": "Microsoft PowerPoint",
+       "w": [
+        "Microsoft Excel",
+        "Google Chrome",
+        "Windows Explorer"
+       ],
+       "e": [
+        "That is a spreadsheet.",
+        "That is a browser.",
+        "That is a file manager."
+       ],
+       "y": "PowerPoint makes slides."
+      },
+      {
+       "q": "What is one page of a presentation called?",
+       "r": "a slide",
+       "w": [
+        "a cell",
+        "a frame only",
+        "a tab"
+       ],
+       "e": [
+        "Cells are in spreadsheets.",
+        "Frames are in DTP.",
+        "Tabs are in browsers."
+       ],
+       "y": "Presentations are made of slides."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-38-effects",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a transition?",
+       "r": "an effect when moving from one slide to the next",
+       "w": [
+        "a picture on a slide",
+        "the speaker's notes",
+        "the file name"
+       ],
+       "e": [
+        "That is an image.",
+        "Notes are for the speaker.",
+        "That is not it."
+       ],
+       "y": "Between slides."
+      },
+      {
+       "q": "What is an animation in a presentation?",
+       "r": "an effect that moves an object on a slide",
+       "w": [
+        "a new slide",
+        "a spelling check",
+        "printing"
+       ],
+       "e": [
+        "That is adding a slide.",
+        "That checks words.",
+        "That is printing."
+       ],
+       "y": "Objects fly in, fade or spin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-38-dtp",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a school newsletter with columns and pictures",
+       "r": "desktop publishing software",
+       "w": [
+        "a spreadsheet",
+        "a web browser",
+        "a calculator"
+       ],
+       "e": [
+        "That is for calculations.",
+        "That opens web pages.",
+        "That calculates."
+       ],
+       "y": "DTP lays out pages."
+      },
+      {
+       "q": "a talk to the class with slides",
+       "r": "presentation software",
+       "w": [
+        "desktop publishing software",
+        "a spreadsheet",
+        "a database"
+       ],
+       "e": [
+        "DTP is for printed pages.",
+        "That is for calculations.",
+        "That stores records."
+       ],
+       "y": "Slides for an audience."
+      },
+      {
+       "q": "calculating the class average marks",
+       "r": "a spreadsheet",
+       "w": [
+        "presentation software",
+        "desktop publishing software",
+        "a paint program"
+       ],
+       "e": [
+        "Slides do not calculate.",
+        "DTP lays out pages.",
+        "That draws."
+       ],
+       "y": "Spreadsheets calculate."
+      }
+     ]
+    }
+   },
+   "prompt": "Which software is best for {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-38-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Presentations are made of slides.",
+      "truth": "true"
+     },
+     {
+      "text": "Publisher is DTP software.",
+      "truth": "true"
+     },
+     {
+      "text": "Transitions happen between slides.",
+      "truth": "true"
+     },
+     {
+      "text": "DTP uses frames.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Excel is the best software for making a poster.",
+      "truth": "false",
+      "explain": "Use desktop publishing software."
+     },
+     {
+      "text": "An animation is the effect between two slides.",
+      "truth": "false",
+      "explain": "That is a transition; animations move objects on a slide."
+     },
+     {
+      "text": "A presentation cannot contain pictures.",
+      "truth": "false",
+      "explain": "Slides can hold pictures, charts and video."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,473 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 36,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-36",
+   "name": "Kitchen waste: types, generation and sorting"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Kitchen waste is everything thrown away from the kitchen.\nTypes:\n• food (organic, biodegradable) waste: peels of cassava, plantain and yams, leftover food, bones, eggshells, tea leaves;\n• packaging: plastic bags and bottles, tins, glass jars, paper and cartons;\n• liquid waste: dirty water from washing, used cooking oil;\n• others: ash, broken plates, old sponges.\nWaste is generated (produced) when food is prepared, cooked, served and eaten, and when packaged goods are opened.\nSorting: separate waste at the source into different bins: biodegradable (for compost or animal feed), plastics, glass, metal and paper (for reuse or recycling), and other waste.\nGood habits: buy only what you need, cook the right amount, reuse containers, compost peels, never pour oil down the sink (it blocks pipes), cover bins and empty them often.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "w": "plantain peels, a plastic bottle and a glass jar"
+  },
+  "problem": "Sort {w} into the right bins.",
+  "steps": [
+   "Plantain peels are biodegradable: compost or animal feed.",
+   "The plastic bottle and glass jar do not rot: reuse or recycle them, in separate bins."
+  ],
+  "answer": "Peels: biodegradable bin; bottle: plastic bin; jar: glass bin.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c36-1",
+    "status": "draft",
+    "idea": "Kitchen waste includes food waste, packaging, liquid waste and others such as ash.",
+    "vars": {},
+    "example": [
+     "Peels and leftovers are food waste.",
+     "Tins and bottles are packaging."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-36-type"
+    }
+   },
+   {
+    "id": "c36-2",
+    "status": "draft",
+    "idea": "Sort waste at the source: biodegradable, plastic, glass, metal, paper.",
+    "vars": {},
+    "example": [
+     "Peels go to compost.",
+     "Bottles can be reused."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-36-sort"
+    }
+   },
+   {
+    "id": "c36-3",
+    "status": "draft",
+    "idea": "Reduce waste: buy and cook only what is needed, reuse containers, never pour oil down the sink.",
+    "vars": {},
+    "example": [
+     "Leftovers can be stored and eaten later.",
+     "Oil blocks the pipes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-36-reduce-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-waste"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should used cooking oil not be poured down the sink?",
+         "r": "It blocks the pipes.",
+         "w": [
+          "It cleans the pipes.",
+          "It turns into water.",
+          "It makes the sink shine."
+         ],
+         "e": [
+          "It sticks and blocks.",
+          "It does not.",
+          "It does not."
+         ],
+         "y": "Oil hardens in pipes."
+        },
+        {
+         "q": "Which habit reduces kitchen waste?",
+         "r": "cooking only the amount needed",
+         "w": [
+          "buying more than needed",
+          "throwing away leftovers every day",
+          "using a new bag every time"
+         ],
+         "e": [
+          "That makes waste.",
+          "That makes waste.",
+          "That makes waste."
+         ],
+         "y": "Less is thrown away."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-36-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-waste"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "cassava peels",
+       "r": "food (biodegradable) waste",
+       "w": [
+        "packaging",
+        "liquid waste",
+        "glass waste"
+       ],
+       "e": [
+        "It is not a wrapper.",
+        "It is solid.",
+        "It is plant matter."
+       ],
+       "y": "Peels rot."
+      },
+      {
+       "q": "an empty tin of tomato paste",
+       "r": "packaging (metal)",
+       "w": [
+        "food waste",
+        "liquid waste",
+        "ash"
+       ],
+       "e": [
+        "It does not rot.",
+        "It is solid.",
+        "It is not from a fire."
+       ],
+       "y": "Tins are metal packaging."
+      },
+      {
+       "q": "dirty washing-up water",
+       "r": "liquid waste",
+       "w": [
+        "packaging",
+        "food waste",
+        "glass waste"
+       ],
+       "e": [
+        "It is not a wrapper.",
+        "It is water.",
+        "It is liquid."
+       ],
+       "y": "Waste water from the kitchen."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of kitchen waste is {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-36-sort",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-waste"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "eggshells and tea leaves",
+       "r": "the biodegradable bin (compost)",
+       "w": [
+        "the glass bin",
+        "the metal bin",
+        "the plastic bin"
+       ],
+       "e": [
+        "They are not glass.",
+        "They are not metal.",
+        "They are not plastic."
+       ],
+       "y": "They rot and make compost."
+      },
+      {
+       "q": "a broken plastic bucket",
+       "r": "the plastic bin",
+       "w": [
+        "the compost bin",
+        "the glass bin",
+        "the metal bin"
+       ],
+       "e": [
+        "Plastic does not rot.",
+        "It is not glass.",
+        "It is not metal."
+       ],
+       "y": "Plastic can be recycled."
+      },
+      {
+       "q": "an empty jam jar",
+       "r": "the glass bin",
+       "w": [
+        "the compost bin",
+        "the plastic bin",
+        "the paper bin"
+       ],
+       "e": [
+        "Glass does not rot.",
+        "It is not plastic.",
+        "It is not paper."
+       ],
+       "y": "Glass can be reused or recycled."
+      }
+     ]
+    }
+   },
+   "prompt": "Into which bin should {X.q} go?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-36-reduce",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-waste"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should used cooking oil not be poured down the sink?",
+       "r": "It blocks the pipes.",
+       "w": [
+        "It cleans the pipes.",
+        "It turns into water.",
+        "It makes the sink shine."
+       ],
+       "e": [
+        "It sticks and blocks.",
+        "It does not.",
+        "It does not."
+       ],
+       "y": "Oil hardens in pipes."
+      },
+      {
+       "q": "Which habit reduces kitchen waste?",
+       "r": "cooking only the amount needed",
+       "w": [
+        "buying more than needed",
+        "throwing away leftovers every day",
+        "using a new bag every time"
+       ],
+       "e": [
+        "That makes waste.",
+        "That makes waste.",
+        "That makes waste."
+       ],
+       "y": "Less is thrown away."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-36-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-waste"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Peels can be composted.",
+      "truth": "true"
+     },
+     {
+      "text": "Glass jars can be reused.",
+      "truth": "true"
+     },
+     {
+      "text": "Waste should be sorted at the source.",
+      "truth": "true"
+     },
+     {
+      "text": "Bins should be covered.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plastic bottles are biodegradable.",
+      "truth": "false",
+      "explain": "Plastic does not rot."
+     },
+     {
+      "text": "Pour used oil down the sink.",
+      "truth": "false",
+      "explain": "It blocks the pipes."
+     },
+     {
+      "text": "Mix all waste in one open bin.",
+      "truth": "false",
+      "explain": "Sort waste and cover the bins."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

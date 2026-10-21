@@ -1,0 +1,475 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "a2-16",
+   "name": "The content of classes 1, 2 and 3"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Class 1: durable (long-term) resources, the money that finances the business for a long time:\n• 10 capital (101 share capital, 103 personal capital of a sole trader), 11 reserves, 12 retained earnings, 13 net result of the year, 14 investment subsidies, 16 loans and borrowings (162 bank loans).\nClass 2: fixed assets, goods kept for a long time to be used in the business:\n• 21 intangible assets (software, patents), 22 land, 23 buildings, 24 equipment (241 industrial equipment, 244 office furniture and equipment, 245 transport equipment), 27 financial assets, 28 depreciation of fixed assets.\nClass 3: stocks, goods kept for sale or use in production:\n• 31 goods (merchandise), 32 raw materials, 33 other supplies, 34 work in progress, 36 finished products.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a delivery van bought for the business"
+  },
+  "problem": "In which class and account is {x} recorded?",
+  "steps": [
+   "A van is kept for a long time and used in the business: a fixed asset (class {2}).",
+   "Vans are transport equipment: account {245}."
+  ],
+  "answer": "Class {2}, account {245} Transport equipment.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "Class {1} holds durable resources: capital, reserves, results and long-term loans.",
+    "vars": {},
+    "example": [
+     "{101} Share capital.",
+     "{162} Bank loans."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-16-c1"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Class {2} holds fixed assets: land, buildings, equipment, vans, software.",
+    "vars": {},
+    "example": [
+     "{231} Buildings.",
+     "{245} Transport equipment."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-16-c2"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "Class {3} holds stocks: goods for sale, raw materials, finished products.",
+    "vars": {},
+    "example": [
+     "{311} Goods in stock.",
+     "{321} Raw materials."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-16-c3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ohada"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A shop has rice bags in its store waiting to be sold. In which class are they?",
+         "r": "class 3 (stocks)",
+         "w": [
+          "class 2 (fixed assets)",
+          "class 1 (resources)",
+          "class 5 (treasury)"
+         ],
+         "e": [
+          "They are not kept for use.",
+          "They are not a resource.",
+          "They are not money."
+         ],
+         "y": "Goods for sale are stocks (311)."
+        },
+        {
+         "q": "What is the difference between class 2 and class 3?",
+         "r": "Class 2 is kept for use for a long time; class 3 is kept for sale or production.",
+         "w": [
+          "There is no difference.",
+          "Class 2 is money; class 3 is debts.",
+          "Class 3 is capital."
+         ],
+         "e": [
+          "They are different.",
+          "That is not right.",
+          "Capital is class 1."
+         ],
+         "y": "Fixed assets vs stocks."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-16-c1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "the capital brought in by the owner",
+       "r": "class 1",
+       "w": [
+        "class 5",
+        "class 2",
+        "class 7"
+       ],
+       "e": [
+        "Class 5 is cash and bank.",
+        "Class 2 is fixed assets.",
+        "Class 7 is income."
+       ],
+       "y": "Capital is a durable resource."
+      },
+      {
+       "q": "a five-year bank loan",
+       "r": "class 1",
+       "w": [
+        "class 6",
+        "class 3",
+        "class 8"
+       ],
+       "e": [
+        "Class 6 is expenses.",
+        "Class 3 is stocks.",
+        "Class 8 is HAO."
+       ],
+       "y": "Long-term loans are durable resources (16)."
+      },
+      {
+       "q": "the reserves of a company",
+       "r": "class 1",
+       "w": [
+        "class 4",
+        "class 7",
+        "class 3"
+       ],
+       "e": [
+        "Class 4 is third parties.",
+        "Class 7 is income.",
+        "Class 3 is stocks."
+       ],
+       "y": "Reserves (11) are durable resources."
+      }
+     ]
+    }
+   },
+   "prompt": "In which class is {X.q} recorded?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-16-c2",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a building bought for the shop",
+       "r": "231 Buildings",
+       "w": [
+        "311 Goods",
+        "571 Cash",
+        "601 Purchases of goods"
+       ],
+       "e": [
+        "That is stock for sale.",
+        "That is money.",
+        "That is buying goods for resale."
+       ],
+       "y": "A building is a fixed asset."
+      },
+      {
+       "q": "a delivery van",
+       "r": "245 Transport equipment",
+       "w": [
+        "101 Capital",
+        "411 Customers",
+        "701 Sales"
+       ],
+       "e": [
+        "That is a resource.",
+        "That is a third party.",
+        "That is income."
+       ],
+       "y": "Vans are transport equipment."
+      },
+      {
+       "q": "office desks and chairs",
+       "r": "244 Office furniture and equipment",
+       "w": [
+        "321 Raw materials",
+        "521 Banks",
+        "661 Salaries"
+       ],
+       "e": [
+        "That is a stock.",
+        "That is treasury.",
+        "That is an expense."
+       ],
+       "y": "Furniture kept for use."
+      }
+     ]
+    }
+   },
+   "prompt": "Which account is used for {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-16-c3",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A shop has rice bags in its store waiting to be sold. In which class are they?",
+       "r": "class 3 (stocks)",
+       "w": [
+        "class 2 (fixed assets)",
+        "class 1 (resources)",
+        "class 5 (treasury)"
+       ],
+       "e": [
+        "They are not kept for use.",
+        "They are not a resource.",
+        "They are not money."
+       ],
+       "y": "Goods for sale are stocks (311)."
+      },
+      {
+       "q": "What is the difference between class 2 and class 3?",
+       "r": "Class 2 is kept for use for a long time; class 3 is kept for sale or production.",
+       "w": [
+        "There is no difference.",
+        "Class 2 is money; class 3 is debts.",
+        "Class 3 is capital."
+       ],
+       "e": [
+        "They are different.",
+        "That is not right.",
+        "Capital is class 1."
+       ],
+       "y": "Fixed assets vs stocks."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "101 Capital is in class 1.",
+      "truth": "true"
+     },
+     {
+      "text": "245 Transport equipment is in class 2.",
+      "truth": "true"
+     },
+     {
+      "text": "311 Goods are in class 3.",
+      "truth": "true"
+     },
+     {
+      "text": "162 Bank loans are in class 1.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Goods for resale are fixed assets in class 2.",
+      "truth": "false",
+      "explain": "They are stocks in class 3."
+     },
+     {
+      "text": "A building is recorded in class 3.",
+      "truth": "false",
+      "explain": "It is a fixed asset: class 2."
+     },
+     {
+      "text": "The owner's capital is in class 2.",
+      "truth": "false",
+      "explain": "It is in class 1."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

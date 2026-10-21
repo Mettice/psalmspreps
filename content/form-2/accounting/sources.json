@@ -1,6 +1,23 @@
 {
-  "_note": "Sources for Form 2 Accounting (Batch A2-1, Term 1), a new subject in Form 2. Computations are done by code; the rules are authored and must be checked by an Accounting teacher.",
-  "financial-position": {"ref": "The financial position of an enterprise and the balance sheet (OHADA / SYSCOHADA vocabulary simplified for Form 2)", "supports": "Assets, liabilities and owner's equity; fixed and current assets; presentation of the balance sheet; the equation Assets = Liabilities + Owner's equity and how transactions change it.", "checked": "Standard accounting principles; totals computed by code. Please check the terms used against the school's textbook (e.g. capital / owner's equity, debtors / creditors)."},
-  "economic-flows": {"ref": "Economic flows (real and financial) between the enterprise and its partners; accounting analysis (the receiving account is debited, the giving account credited)", "supports": "Classification of flows, flow diagrams, the debit/credit analysis of common transactions.", "checked": "Authored from general accounting principles: please check."},
-  "recording": {"ref": "Ledger (T) accounts; the functioning of balance sheet, expense and revenue accounts; balancing; single and double entry; the trial balance and the reciprocity of accounts", "supports": "Debit = left, credit = right; assets increase on the debit side, capital and liabilities on the credit side; expenses debited, revenues credited; balances computed by code; trial balance totals.", "checked": "Standard double-entry rules; balances computed by code. Please check."}
+ "_note": "Sources for Form 2 Accounting (Batches A2-1 and A2-2, Terms 1 and 2), a new subject in Form 2. Computations are done by code; the rules are authored and must be checked by an Accounting teacher.",
+ "financial-position": {
+  "ref": "The financial position of an enterprise and the balance sheet (OHADA / SYSCOHADA vocabulary simplified for Form 2)",
+  "supports": "Assets, liabilities and owner's equity; fixed and current assets; presentation of the balance sheet; the equation Assets = Liabilities + Owner's equity and how transactions change it.",
+  "checked": "Standard accounting principles; totals computed by code. Please check the terms used against the school's textbook (e.g. capital / owner's equity, debtors / creditors)."
+ },
+ "economic-flows": {
+  "ref": "Economic flows (real and financial) between the enterprise and its partners; accounting analysis (the receiving account is debited, the giving account credited)",
+  "supports": "Classification of flows, flow diagrams, the debit/credit analysis of common transactions.",
+  "checked": "Authored from general accounting principles: please check."
+ },
+ "recording": {
+  "ref": "Ledger (T) accounts; the functioning of balance sheet, expense and revenue accounts; balancing; single and double entry; the trial balance and the reciprocity of accounts",
+  "supports": "Debit = left, credit = right; assets increase on the debit side, capital and liabilities on the credit side; expenses debited, revenues credited; balances computed by code; trial balance totals.",
+  "checked": "Standard double-entry rules; balances computed by code. Please check."
+ },
+ "ohada": {
+  "ref": "OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8",
+  "supports": "Account numbers used: 101, 103, 162, 223, 231, 241, 244, 2441, 245, 311, 321, 401, 411, 422, 521, 55, 571, 601, 605, 661, 701, 702, 706, 77, 79, 81, 812, 82, 822, 83–89; class = first digit, main account = first two digits (computed); result = income − expenses (computed).",
+  "checked": "From general knowledge of SYSCOHADA, not opened in this session: an accounting teacher must check the account names against the official chart."
+ }
 }

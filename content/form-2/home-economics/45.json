@@ -1,0 +1,445 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 45,
+ "language": "en",
+ "prerequisites": [
+  44
+ ],
+ "skills": [
+  {
+   "id": "h2-45",
+   "name": "Kwashiorkor and marasmus: children at risk and prevention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Children most at risk: those from 6 months to 5 years, especially at weaning; children in poor families or areas of war, drought and famine; children with frequent infections, measles or diarrhoea; children whose mother is ill or absent; twins and children born close together.\nPrevention:\n• breastfeed babies only for the first six months, then continue breastfeeding while adding other foods;\n• give weaning foods rich in protein: pap enriched with soya, groundnut or egg; beans, fish, crayfish, eggs, milk;\n• give balanced, frequent meals;\n• vaccinate children and treat diarrhoea early (oral rehydration salts);\n• weigh children regularly at the health centre (growth chart);\n• teach mothers about nutrition; grow vegetables, beans and soya; keep chickens for eggs;\n• space births.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "plain pap"
+  },
+  "problem": "How can {f} be made into a better weaning food?",
+  "steps": [
+   "Plain pap is mostly starch, with little protein.",
+   "Add soya flour, groundnut paste, milk or egg to give protein."
+  ],
+  "answer": "Enrich it with soya, groundnut, milk or egg.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c45-1",
+    "status": "draft",
+    "idea": "Children aged {6} months to {5} years are most at risk, especially at weaning.",
+    "vars": {},
+    "example": [
+     "Poor families and famine areas.",
+     "Children with frequent diarrhoea."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-45-risk"
+    }
+   },
+   {
+    "id": "c45-2",
+    "status": "draft",
+    "idea": "Breastfeed only for six months, then add protein-rich weaning foods.",
+    "vars": {},
+    "example": [
+     "Pap enriched with soya or groundnut.",
+     "Eggs, fish and beans."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-45-feed"
+    }
+   },
+   {
+    "id": "c45-3",
+    "status": "draft",
+    "idea": "Vaccinate, treat diarrhoea early and weigh children regularly on a growth chart.",
+    "vars": {},
+    "example": [
+     "Oral rehydration salts for diarrhoea.",
+     "A falling growth line is a warning."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-45-health-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "deficiency-diseases"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are children weighed regularly at the health centre?",
+         "r": "to spot poor growth early",
+         "w": [
+          "to make them heavier",
+          "to count them",
+          "to vaccinate their weight"
+         ],
+         "e": [
+          "Weighing does not add weight.",
+          "That is not the aim.",
+          "That has no meaning."
+         ],
+         "y": "The growth chart shows problems early."
+        },
+        {
+         "q": "How does treating diarrhoea early help prevent malnutrition?",
+         "r": "It stops the child losing water and nutrients.",
+         "w": [
+          "It adds protein to food.",
+          "It makes the child eat less.",
+          "It has no effect."
+         ],
+         "e": [
+          "It does not add protein.",
+          "That is not the aim.",
+          "It helps a lot."
+         ],
+         "y": "Diarrhoea drains the body."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-45-risk",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which children are most at risk of kwashiorkor?",
+       "r": "young children at weaning",
+       "w": [
+        "teenagers who eat beans",
+        "adults who eat fish",
+        "babies only on breast milk in the first months"
+       ],
+       "e": [
+        "Beans give protein.",
+        "Fish gives protein.",
+        "Breast milk protects them."
+       ],
+       "y": "Weaning onto starchy food is the risk."
+      },
+      {
+       "q": "Which situation increases the risk of marasmus?",
+       "r": "famine and long diarrhoea",
+       "w": [
+        "a balanced diet",
+        "regular vaccination",
+        "eating eggs and milk"
+       ],
+       "e": [
+        "That prevents it.",
+        "That protects.",
+        "Those prevent it."
+       ],
+       "y": "Too little food and losses from diarrhoea."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-45-feed",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "For how long should babies be given only breast milk?",
+       "r": "the first six months",
+       "w": [
+        "one week",
+        "two years only water",
+        "never"
+       ],
+       "e": [
+        "Too short.",
+        "Water alone is not food.",
+        "Breast milk is best."
+       ],
+       "y": "Exclusive breastfeeding for six months."
+      },
+      {
+       "q": "Which is a good protein-rich weaning food?",
+       "r": "pap enriched with soya flour",
+       "w": [
+        "plain cassava only",
+        "sugar water",
+        "soda"
+       ],
+       "e": [
+        "Mostly starch.",
+        "No protein.",
+        "No protein."
+       ],
+       "y": "Soya adds protein."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-45-health",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are children weighed regularly at the health centre?",
+       "r": "to spot poor growth early",
+       "w": [
+        "to make them heavier",
+        "to count them",
+        "to vaccinate their weight"
+       ],
+       "e": [
+        "Weighing does not add weight.",
+        "That is not the aim.",
+        "That has no meaning."
+       ],
+       "y": "The growth chart shows problems early."
+      },
+      {
+       "q": "How does treating diarrhoea early help prevent malnutrition?",
+       "r": "It stops the child losing water and nutrients.",
+       "w": [
+        "It adds protein to food.",
+        "It makes the child eat less.",
+        "It has no effect."
+       ],
+       "e": [
+        "It does not add protein.",
+        "That is not the aim.",
+        "It helps a lot."
+       ],
+       "y": "Diarrhoea drains the body."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-45-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Breastfeed only for six months.",
+      "truth": "true"
+     },
+     {
+      "text": "Add protein to weaning foods.",
+      "truth": "true"
+     },
+     {
+      "text": "Vaccinate children.",
+      "truth": "true"
+     },
+     {
+      "text": "Weigh children regularly.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Stop breastfeeding at once and give only cassava.",
+      "truth": "false",
+      "explain": "Continue breastfeeding and add protein-rich foods."
+     },
+     {
+      "text": "Sugar water is a good weaning food.",
+      "truth": "false",
+      "explain": "It has no protein."
+     },
+     {
+      "text": "Malnutrition cannot be prevented.",
+      "truth": "false",
+      "explain": "Good feeding and health care prevent it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

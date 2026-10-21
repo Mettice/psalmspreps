@@ -193,6 +193,22 @@ Full working after a second miss:
 | 16 | Notions on encoding characters | draft | 3 | 4 | — |
 | 18 | Conversion between units of time | draft | 3 | 4 | — |
 | 19 | Conversion between units of storage | draft | 3 | 4 | — |
+| 21 | Accessing the internet | draft | 3 | 4 | — |
+| 22 | Using a browser | draft | 3 | 4 | — |
+| 24 | Assistive technologies | draft | 3 | 4 | — |
+| 26 | Writing programs in a block programming environment 1 | draft | 3 | 4 | — |
+| 27 | Writing programs in a block programming environment 2 | draft | 3 | 4 | — |
+| 29 | Notions on digital Identity | draft | 3 | 4 | — |
+| 30 | Types of digital footprint | draft | 3 | 4 | — |
+| 31 | Managing digital footprints | draft | 3 | 4 | — |
+| 32 | Initiation to cloud computing | draft | 3 | 4 | — |
+| 33 | Types of sensors | draft | 3 | 4 | — |
+| 34 | Notions on embedded systems and IOT | draft | 3 | 4 | — |
+| 36 | Notions on Spreadsheet software | draft | 3 | 4 | — |
+| 37 | Using a spreadsheet to solve problems | draft | 3 | 4 | — |
+| 38 | Notions on presentation software and desktop publishing software | draft | 3 | 4 | — |
+| 39 | Using presentation software to solve problems | draft | 3 | 4 | — |
+| 40 | Using desktop publishing software to solve problems | draft | 3 | 4 | — |
 
 ## Lesson 1: Types of Input and output devices
 
@@ -3036,4 +3052,3394 @@ Full working after a second miss:
 
 > 4 GB = 4 × 1024 = 4096 MB.  
 > 4096 ÷ 8 = 512, so 512 whole photos fit.  
+
+## Lesson 21: Accessing the internet
+
+Prerequisites: none · Skill: s2-21 (Accessing the internet)
+
+**Note** (draft)
+
+> The internet is a worldwide network of computer networks that share information.
+> What is needed to access it:
+> • a device: computer, smartphone, tablet;
+> • a connection: mobile data (3G, 4G, 5G) through a SIM card, Wi-Fi, a modem or router, fibre optic cable, or satellite;
+> • an Internet Service Provider (ISP), a company that gives access (for example MTN, Orange, Camtel, Nexttel);
+> • software: a web browser or apps.
+> Data is measured in megabytes (MB) and gigabytes (GB); a data bundle gives a fixed amount. The speed is measured in megabits per second (Mbps).
+> Uses: searching for information, e-mail, learning, social media, e-commerce, mobile money, news.
+
+**Card c21-1** (draft)
+
+> The internet is a worldwide network of computer networks.
+>
+> _It links millions of computers._  
+> _It carries web pages, e-mail and videos._  
+
+Check question: `s2-21-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is a use of the internet?
+
+- ◻️ cooking food  
+  _↳ feedback if chosen: That does not need the internet._
+- ✅ sending e-mail
+- ◻️ ironing clothes  
+  _↳ feedback if chosen: That does not need the internet._
+- ◻️ planting maize  
+  _↳ feedback if chosen: That does not need the internet._
+
+Full working after a second miss:
+
+> E-mail travels over the internet.  
+> So the answer is “sending e-mail”.  
+
+**Card c21-2** (draft)
+
+> To access it you need a device, a connection, an Internet Service Provider and a browser or app.
+>
+> _MTN, Orange and Camtel are ISPs._  
+> _Wi-Fi and mobile data are connections._  
+
+Check question: `s2-21-need` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which device connects a home network to the internet?
+
+- ◻️ a mouse  
+  _↳ feedback if chosen: It points._
+- ◻️ a speaker  
+  _↳ feedback if chosen: It plays sound._
+- ✅ a router (modem)
+- ◻️ a scanner  
+  _↳ feedback if chosen: It copies documents._
+
+Full working after a second miss:
+
+> The router links the home to the ISP.  
+> So the answer is “a router (modem)”.  
+
+**Card c21-3** (draft)
+
+> Data is measured in MB and GB; connection speed in Mbps.
+>
+> _A bundle of 1 GB._  
+> _A 4G connection is faster than 3G._  
+
+Check question: `s2-21-data-card` · multiple choice, level 1 · **authored key**
+
+> Which connection is usually fastest?
+
+- ◻️ dial-up  
+  _↳ feedback if chosen: Dial-up is very slow._
+- ◻️ 2G  
+  _↳ feedback if chosen: 2G is slow._
+- ◻️ no connection  
+  _↳ feedback if chosen: That gives no access._
+- ✅ fibre optic
+
+Full working after a second miss:
+
+> Fibre carries data as light.  
+> So the answer is “fibre optic”.  
+
+**Worked example** (draft)
+
+> What does a pupil need to browse the internet on a smartphone with a SIM card?
+
+1. A data bundle (or Wi-Fi) from an Internet Service Provider for the connection.
+2. A browser or app to open web pages.
+
+**Answer:** A data bundle or Wi-Fi from an ISP, and a browser.
+
+**Practice** `s2-21-what` · multiple choice, level 1 · **authored key**
+
+> What is the internet?
+
+- ✅ a worldwide network of computer networks
+- ◻️ a printer  
+  _↳ feedback if chosen: A printer is a device._
+- ◻️ a type of keyboard  
+  _↳ feedback if chosen: A keyboard is an input device._
+- ◻️ a single computer  
+  _↳ feedback if chosen: It links many computers._
+
+Full working after a second miss:
+
+> Networks joined across the world.  
+> So the answer is “a worldwide network of computer networks”.  
+
+> What is the internet?
+
+- ◻️ a printer  
+  _↳ feedback if chosen: A printer is a device._
+- ✅ a worldwide network of computer networks
+- ◻️ a single computer  
+  _↳ feedback if chosen: It links many computers._
+- ◻️ a type of keyboard  
+  _↳ feedback if chosen: A keyboard is an input device._
+
+Full working after a second miss:
+
+> Networks joined across the world.  
+> So the answer is “a worldwide network of computer networks”.  
+
+**Practice** `s2-21-need` · multiple choice, level 1 · **authored key**
+
+> Which device connects a home network to the internet?
+
+- ◻️ a speaker  
+  _↳ feedback if chosen: It plays sound._
+- ✅ a router (modem)
+- ◻️ a mouse  
+  _↳ feedback if chosen: It points._
+- ◻️ a scanner  
+  _↳ feedback if chosen: It copies documents._
+
+Full working after a second miss:
+
+> The router links the home to the ISP.  
+> So the answer is “a router (modem)”.  
+
+> What is an Internet Service Provider (ISP)?
+
+- ✅ a company that gives access to the internet
+- ◻️ a computer virus  
+  _↳ feedback if chosen: A virus is harmful software._
+- ◻️ a web page  
+  _↳ feedback if chosen: A page is content._
+- ◻️ a keyboard key  
+  _↳ feedback if chosen: That is hardware._
+
+Full working after a second miss:
+
+> For example MTN, Orange, Camtel.  
+> So the answer is “a company that gives access to the internet”.  
+
+**Practice** `s2-21-data` · multiple choice, level 2 · **authored key**
+
+> In which unit is a data bundle measured?
+
+- ◻️ kilograms  
+  _↳ feedback if chosen: That is mass._
+- ◻️ litres  
+  _↳ feedback if chosen: That is volume._
+- ✅ gigabytes (GB) or megabytes (MB)
+- ◻️ metres  
+  _↳ feedback if chosen: That is length._
+
+Full working after a second miss:
+
+> Data is an amount of information.  
+> So the answer is “gigabytes (GB) or megabytes (MB)”.  
+
+> Which connection is usually fastest?
+
+- ◻️ dial-up  
+  _↳ feedback if chosen: Dial-up is very slow._
+- ◻️ 2G  
+  _↳ feedback if chosen: 2G is slow._
+- ◻️ no connection  
+  _↳ feedback if chosen: That gives no access._
+- ✅ fibre optic
+
+Full working after a second miss:
+
+> Fibre carries data as light.  
+> So the answer is “fibre optic”.  
+
+**Practice** `s2-21-calc` · number, level 3 · computed by rule
+
+> A data bundle of 2 GB is used at 50 MB a day. About how many days will it last? (1 GB = 1000 MB)
+
+Answer: **40 days**
+- Typed **0.04** (nomb) → “Change the GB to MB first.”
+
+Full working after a second miss:
+
+> Change GB to MB: 2 × 1000 = 2000 MB.  
+> Days = 2000 ÷ 50 = 40.  
+
+> A data bundle of 2 GB is used at 200 MB a day. About how many days will it last? (1 GB = 1000 MB)
+
+Answer: **10 days**
+- Typed **0.01** (nomb) → “Change the GB to MB first.”
+
+Full working after a second miss:
+
+> Change GB to MB: 2 × 1000 = 2000 MB.  
+> Days = 2000 ÷ 200 = 10.  
+
+## Lesson 22: Using a browser
+
+Prerequisites: 21 · Skill: s2-22 (Using a web browser)
+
+**Note** (draft)
+
+> A web browser is a program used to open web pages: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera.
+> Parts: the address bar (type the URL), tabs, back and forward buttons, refresh (reload), home, bookmarks (favourites), history, downloads, the menu.
+> A URL is the address of a page, for example https://www.minesec.gov.cm. Its parts: the protocol (https://), the domain name (minesec.gov.cm) and sometimes a path. “https” and a padlock show a secure connection.
+> A search engine (Google, Bing) finds pages using keywords. Tips: use exact keywords, put a phrase in quotes, check several sources, and judge who wrote the page and when.
+> Safety: do not download from unknown sites, do not click strange pop-ups, log out on shared computers.
+
+**Card c22-1** (draft)
+
+> A web browser is a program for opening web pages: Chrome, Firefox, Edge, Safari.
+>
+> _Type an address in the address bar._  
+> _Open several pages in tabs._  
+
+Check question: `s2-22-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What does the refresh button do?
+
+- ◻️ deletes the history  
+  _↳ feedback if chosen: That is in settings._
+- ◻️ closes the browser  
+  _↳ feedback if chosen: That is the close button._
+- ✅ loads the page again
+- ◻️ prints the page  
+  _↳ feedback if chosen: That is the print command._
+
+Full working after a second miss:
+
+> Refresh reloads.  
+> So the answer is “loads the page again”.  
+
+**Card c22-2** (draft)
+
+> A URL is a web address: protocol, domain name and path.
+>
+> _https:// is the protocol._  
+> _.cm is Cameroon's country code._  
+
+Check question: `s2-22-url` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In https://www.camtel.cm, what does “https” show?
+
+- ◻️ the page number  
+  _↳ feedback if chosen: There is no page number._
+- ◻️ the company's name  
+  _↳ feedback if chosen: The name is camtel._
+- ◻️ the country  
+  _↳ feedback if chosen: The country is .cm._
+- ✅ a secure connection protocol
+
+Full working after a second miss:
+
+> The s means secure.  
+> So the answer is “a secure connection protocol”.  
+
+**Card c22-3** (draft)
+
+> A search engine finds pages by keywords; check that sources are reliable.
+>
+> _Google and Bing are search engines._  
+> _Compare several sites._  
+
+Check question: `s2-22-search-card` · multiple choice, level 1 · **authored key**
+
+> What is a search engine?
+
+- ◻️ a type of virus  
+  _↳ feedback if chosen: It is not harmful._
+- ◻️ a printer  
+  _↳ feedback if chosen: It is not hardware._
+- ◻️ a computer's engine  
+  _↳ feedback if chosen: It is software, not a motor._
+- ✅ a website that finds pages using keywords
+
+Full working after a second miss:
+
+> Google, Bing.  
+> So the answer is “a website that finds pages using keywords”.  
+
+**Worked example** (draft)
+
+> Name the parts of the URL https://www.minesec.gov.cm.
+
+1. “https://” is the protocol; the “s” means the connection is secure.
+2. “www.minesec.gov.cm” is the domain name; “.cm” shows Cameroon.
+
+**Answer:** Protocol: https://; domain name: www.minesec.gov.cm.
+
+**Practice** `s2-22-what` · multiple choice, level 1 · **authored key**
+
+> What does the refresh button do?
+
+- ◻️ deletes the history  
+  _↳ feedback if chosen: That is in settings._
+- ✅ loads the page again
+- ◻️ closes the browser  
+  _↳ feedback if chosen: That is the close button._
+- ◻️ prints the page  
+  _↳ feedback if chosen: That is the print command._
+
+Full working after a second miss:
+
+> Refresh reloads.  
+> So the answer is “loads the page again”.  
+
+> What does the refresh button do?
+
+- ◻️ prints the page  
+  _↳ feedback if chosen: That is the print command._
+- ◻️ closes the browser  
+  _↳ feedback if chosen: That is the close button._
+- ✅ loads the page again
+- ◻️ deletes the history  
+  _↳ feedback if chosen: That is in settings._
+
+Full working after a second miss:
+
+> Refresh reloads.  
+> So the answer is “loads the page again”.  
+
+**Practice** `s2-22-url` · multiple choice, level 1 · **authored key**
+
+> Which part of a web address shows that a site is from Cameroon?
+
+- ◻️ https  
+  _↳ feedback if chosen: That is the protocol._
+- ◻️ .com  
+  _↳ feedback if chosen: .com is commercial, worldwide._
+- ◻️ www  
+  _↳ feedback if chosen: www means World Wide Web._
+- ✅ .cm
+
+Full working after a second miss:
+
+> .cm is Cameroon's country code.  
+> So the answer is “.cm”.  
+
+> Which part of a web address shows that a site is from Cameroon?
+
+- ✅ .cm
+- ◻️ https  
+  _↳ feedback if chosen: That is the protocol._
+- ◻️ .com  
+  _↳ feedback if chosen: .com is commercial, worldwide._
+- ◻️ www  
+  _↳ feedback if chosen: www means World Wide Web._
+
+Full working after a second miss:
+
+> .cm is Cameroon's country code.  
+> So the answer is “.cm”.  
+
+**Practice** `s2-22-search` · multiple choice, level 2 · **authored key**
+
+> How can you check that information found online is reliable?
+
+- ◻️ trust every pop-up  
+  _↳ feedback if chosen: Pop-ups may be scams._
+- ◻️ use only one site  
+  _↳ feedback if chosen: One site may be wrong._
+- ✅ compare several trusted sources
+- ◻️ believe the first result  
+  _↳ feedback if chosen: The first result may be wrong._
+
+Full working after a second miss:
+
+> Cross-check.  
+> So the answer is “compare several trusted sources”.  
+
+> What is a search engine?
+
+- ◻️ a printer  
+  _↳ feedback if chosen: It is not hardware._
+- ✅ a website that finds pages using keywords
+- ◻️ a type of virus  
+  _↳ feedback if chosen: It is not harmful._
+- ◻️ a computer's engine  
+  _↳ feedback if chosen: It is software, not a motor._
+
+Full working after a second miss:
+
+> Google, Bing.  
+> So the answer is “a website that finds pages using keywords”.  
+
+**Practice** `s2-22-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ A URL is a web address.
+- ◻️ Bookmarks save favourite pages.
+- ✅ Microsoft Word is a web browser.  
+  _↳ explanation: Word is a word processor._
+- ◻️ Log out on shared computers.
+
+Full working after a second miss:
+
+> The wrong statement is “Microsoft Word is a web browser.”.  
+> Word is a word processor.  
+
+> Which statement is wrong?
+
+- ✅ Download programs from any unknown site.  
+  _↳ explanation: Unknown sites can spread viruses._
+- ◻️ Chrome is a browser.
+- ◻️ Bookmarks save favourite pages.
+- ◻️ Log out on shared computers.
+
+Full working after a second miss:
+
+> The wrong statement is “Download programs from any unknown site.”.  
+> Unknown sites can spread viruses.  
+
+## Lesson 24: Assistive technologies
+
+Prerequisites: none · Skill: s2-24 (Assistive technologies)
+
+**Note** (draft)
+
+> Assistive technologies are devices and software that help people with disabilities use computers and live more independently.
+> • Visual impairment: screen readers that read text aloud (NVDA, JAWS, TalkBack), screen magnifiers, Braille displays and embossers, high-contrast settings, large-key keyboards.
+> • Hearing impairment: captions and subtitles, hearing aids, visual alerts, video calls for sign language.
+> • Physical (mobility) impairment: speech recognition (voice typing), on-screen keyboards, trackballs, head pointers, eye-tracking, switches, sticky keys.
+> • Learning and speech difficulties: text-to-speech, word prediction, speech-generating devices.
+> Benefits: equal access to education and jobs, independence, communication, inclusion.
+
+**Card c24-1** (draft)
+
+> Assistive technologies help people with disabilities use computers and live independently.
+>
+> _Screen readers for the blind._  
+> _Captions for the deaf._  
+
+Check question: `s2-24-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is a benefit of assistive technology?
+
+- ◻️ more viruses  
+  _↳ feedback if chosen: That is not a benefit._
+- ✅ equal access to education and jobs
+- ◻️ less communication  
+  _↳ feedback if chosen: It improves communication._
+- ◻️ fewer computers  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Inclusion.  
+> So the answer is “equal access to education and jobs”.  
+
+**Card c24-2** (draft)
+
+> For visual impairment: screen readers, magnifiers, Braille displays.
+>
+> _NVDA is a free screen reader._  
+> _Magnifiers enlarge the screen._  
+
+Check question: `s2-24-vis` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which assistive technology helps a person with poor sight to see small text?
+
+- ◻️ sticky keys  
+  _↳ feedback if chosen: That helps typing._
+- ◻️ a scanner  
+  _↳ feedback if chosen: That copies paper._
+- ◻️ a microphone  
+  _↳ feedback if chosen: That records sound._
+- ✅ a screen magnifier
+
+Full working after a second miss:
+
+> It enlarges the screen.  
+> So the answer is “a screen magnifier”.  
+
+**Card c24-3** (draft)
+
+> For physical impairment: voice typing, on-screen keyboards, eye-tracking, switches.
+>
+> _Speak instead of typing._  
+> _Sticky keys help one-hand typing._  
+
+Check question: `s2-24-phys-card` · multiple choice, level 1 · **authored key**
+
+> What do sticky keys do?
+
+- ◻️ glue the keyboard  
+  _↳ feedback if chosen: That is not it._
+- ✅ let key combinations be pressed one key at a time
+- ◻️ make the keys bigger  
+  _↳ feedback if chosen: That is a large-key keyboard._
+- ◻️ read text aloud  
+  _↳ feedback if chosen: That is a screen reader._
+
+Full working after a second miss:
+
+> Useful for one-hand typing.  
+> So the answer is “let key combinations be pressed one key at a time”.  
+
+**Worked example** (draft)
+
+> Which assistive technology can help a pupil who is blind to use a computer?
+
+1. A screen reader reads the text on the screen aloud.
+2. A Braille display shows the text as raised dots to read by touch.
+
+**Answer:** A screen reader and a Braille display.
+
+**Practice** `s2-24-what` · multiple choice, level 1 · **authored key**
+
+> What are assistive technologies?
+
+- ◻️ games for fun only  
+  _↳ feedback if chosen: They have a special purpose._
+- ✅ tools that help people with disabilities use technology
+- ◻️ viruses  
+  _↳ feedback if chosen: They are helpful, not harmful._
+- ◻️ very old computers  
+  _↳ feedback if chosen: They can be modern._
+
+Full working after a second miss:
+
+> They give equal access.  
+> So the answer is “tools that help people with disabilities use technology”.  
+
+> What are assistive technologies?
+
+- ◻️ viruses  
+  _↳ feedback if chosen: They are helpful, not harmful._
+- ✅ tools that help people with disabilities use technology
+- ◻️ very old computers  
+  _↳ feedback if chosen: They can be modern._
+- ◻️ games for fun only  
+  _↳ feedback if chosen: They have a special purpose._
+
+Full working after a second miss:
+
+> They give equal access.  
+> So the answer is “tools that help people with disabilities use technology”.  
+
+**Practice** `s2-24-vis` · multiple choice, level 1 · **authored key**
+
+> Which assistive technology helps a deaf person to follow a video?
+
+- ✅ captions (subtitles)
+- ◻️ a screen reader  
+  _↳ feedback if chosen: That gives sound._
+- ◻️ speakers  
+  _↳ feedback if chosen: They give sound._
+- ◻️ a microphone  
+  _↳ feedback if chosen: That records sound._
+
+Full working after a second miss:
+
+> Captions show the words.  
+> So the answer is “captions (subtitles)”.  
+
+> Which assistive technology helps a blind person to hear what is on the screen?
+
+- ✅ a screen reader
+- ◻️ captions  
+  _↳ feedback if chosen: Captions are for the deaf._
+- ◻️ a trackball  
+  _↳ feedback if chosen: A trackball is for movement._
+- ◻️ a webcam  
+  _↳ feedback if chosen: A webcam takes video._
+
+Full working after a second miss:
+
+> It reads text aloud.  
+> So the answer is “a screen reader”.  
+
+**Practice** `s2-24-phys` · multiple choice, level 2 · **authored key**
+
+> What do sticky keys do?
+
+- ◻️ glue the keyboard  
+  _↳ feedback if chosen: That is not it._
+- ✅ let key combinations be pressed one key at a time
+- ◻️ read text aloud  
+  _↳ feedback if chosen: That is a screen reader._
+- ◻️ make the keys bigger  
+  _↳ feedback if chosen: That is a large-key keyboard._
+
+Full working after a second miss:
+
+> Useful for one-hand typing.  
+> So the answer is “let key combinations be pressed one key at a time”.  
+
+> Which tool helps a person who cannot use their hands to type?
+
+- ◻️ captions  
+  _↳ feedback if chosen: That is for the deaf._
+- ✅ speech recognition (voice typing)
+- ◻️ a Braille display  
+  _↳ feedback if chosen: That is for the blind._
+- ◻️ a screen magnifier  
+  _↳ feedback if chosen: That is for poor sight._
+
+Full working after a second miss:
+
+> Speak and the computer types.  
+> So the answer is “speech recognition (voice typing)”.  
+
+**Practice** `s2-24-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Screen readers help blind users.
+- ✅ A screen magnifier makes text smaller.  
+  _↳ explanation: It enlarges text._
+- ◻️ Voice typing helps people who cannot type.
+- ◻️ Captions help deaf users.
+
+Full working after a second miss:
+
+> The wrong statement is “A screen magnifier makes text smaller.”.  
+> It enlarges text.  
+
+> Which statement is wrong?
+
+- ◻️ Voice typing helps people who cannot type.
+- ◻️ Captions help deaf users.
+- ✅ A screen magnifier makes text smaller.  
+  _↳ explanation: It enlarges text._
+- ◻️ Braille displays use raised dots.
+
+Full working after a second miss:
+
+> The wrong statement is “A screen magnifier makes text smaller.”.  
+> It enlarges text.  
+
+## Lesson 26: Writing programs in a block programming environment 1
+
+Prerequisites: none · Skill: s2-26 (Block programming 1: sequences and loops)
+
+**Note** (draft)
+
+> Block programming (for example Scratch) builds programs by snapping together coloured blocks instead of typing code.
+> Key ideas:
+> • An event block starts the program (“when green flag clicked”).
+> • A sequence is a list of instructions done one after another, in order.
+> • A sprite is a character that the blocks control; the stage is its background.
+> • Motion blocks move the sprite (“move 10 steps”, “turn 90 degrees”); looks blocks change its look (“say Hello”).
+> • A loop repeats blocks: “repeat 4” repeats a fixed number of times; “forever” repeats without end.
+> • A variable stores a value that can change (“set score to 0”, “change score by 1”).
+> Example: repeat 4 [move 100 steps, turn 90 degrees] draws a square.
+
+**Card c26-1** (draft)
+
+> Block programs are made by snapping blocks together; an event block starts them.
+>
+> _When green flag clicked._  
+> _Scratch is a block language._  
+
+Check question: `s2-26-blocks` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is block programming?
+
+- ✅ building programs by joining blocks
+- ◻️ building with wooden blocks  
+  _↳ feedback if chosen: They are on-screen blocks._
+- ◻️ drawing pictures by hand  
+  _↳ feedback if chosen: It is programming._
+- ◻️ typing long code only  
+  _↳ feedback if chosen: Blocks replace typing._
+
+Full working after a second miss:
+
+> Scratch is an example.  
+> So the answer is “building programs by joining blocks”.  
+
+**Card c26-2** (draft)
+
+> A loop repeats blocks: repeat a fixed number of times, or forever.
+>
+> _Repeat 4: move and turn draws a square._  
+> _Forever keeps going._  
+
+Check question: `s2-26-loop-card` · number, level 1 · computed by rule
+
+> A program does: set x to 9; repeat 4 times: change x by 7. What is x at the end?
+
+Answer: **37**
+- Typed **16** (once) → “The loop runs 4 times, not once.”
+- Typed **28** (noStart) → “Start from 9.”
+
+Full working after a second miss:
+
+> Each time round the loop, x increases by 7.  
+> 9 + 7 × 4 = 37.  
+
+**Card c26-3** (draft)
+
+> A variable stores a value that can change.
+>
+> _Set score to 0._  
+> _Change score by 1._  
+
+Check question: `s2-26-var` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is a variable in a program?
+
+- ◻️ a block that moves the sprite  
+  _↳ feedback if chosen: That is a motion block._
+- ✅ a named store for a value that can change
+- ◻️ a loop  
+  _↳ feedback if chosen: A loop repeats._
+- ◻️ the stage background  
+  _↳ feedback if chosen: That is the stage._
+
+Full working after a second miss:
+
+> Like a labelled box.  
+> So the answer is “a named store for a value that can change”.  
+
+**Worked example** (draft)
+
+> A program does: set x to 2; repeat 4 times: change x by 3. What is x at the end?
+
+1. Each time round the loop, x increases by 3.
+2. After 4 times: 2 + 3 × 4 = 14.
+
+**Answer:** 14
+
+**Practice** `s2-26-blocks` · multiple choice, level 1 · **authored key**
+
+> What is a sprite?
+
+- ◻️ the computer's power cable  
+  _↳ feedback if chosen: That is hardware._
+- ◻️ a variable  
+  _↳ feedback if chosen: A variable stores values._
+- ✅ a character controlled by the blocks
+- ◻️ a type of loop  
+  _↳ feedback if chosen: A loop repeats._
+
+Full working after a second miss:
+
+> Sprites move and talk on the stage.  
+> So the answer is “a character controlled by the blocks”.  
+
+> Which block usually starts a Scratch program?
+
+- ✅ when green flag clicked
+- ◻️ move 10 steps  
+  _↳ feedback if chosen: That is a motion block._
+- ◻️ turn 15 degrees  
+  _↳ feedback if chosen: That is a motion block._
+- ◻️ say Hello  
+  _↳ feedback if chosen: That is a looks block._
+
+Full working after a second miss:
+
+> An event block starts the script.  
+> So the answer is “when green flag clicked”.  
+
+**Practice** `s2-26-loop` · number, level 2 · computed by rule
+
+> A program does: set x to 4; repeat 6 times: change x by 2. What is x at the end?
+
+Answer: **16**
+- Typed **6** (once) → “The loop runs 6 times, not once.”
+- Typed **12** (noStart) → “Start from 4.”
+
+Full working after a second miss:
+
+> Each time round the loop, x increases by 2.  
+> 4 + 2 × 6 = 16.  
+
+> A program does: set x to 4; repeat 6 times: change x by 4. What is x at the end?
+
+Answer: **28**
+- Typed **8** (once) → “The loop runs 6 times, not once.”
+- Typed **24** (noStart) → “Start from 4.”
+
+Full working after a second miss:
+
+> Each time round the loop, x increases by 4.  
+> 4 + 4 × 6 = 28.  
+
+**Practice** `s2-26-var` · multiple choice, level 1 · **authored key**
+
+> What is a variable in a program?
+
+- ◻️ a loop  
+  _↳ feedback if chosen: A loop repeats._
+- ◻️ a block that moves the sprite  
+  _↳ feedback if chosen: That is a motion block._
+- ✅ a named store for a value that can change
+- ◻️ the stage background  
+  _↳ feedback if chosen: That is the stage._
+
+Full working after a second miss:
+
+> Like a labelled box.  
+> So the answer is “a named store for a value that can change”.  
+
+> Which loop runs without end?
+
+- ◻️ repeat 1  
+  _↳ feedback if chosen: It stops after 1._
+- ◻️ repeat 10  
+  _↳ feedback if chosen: It stops after 10._
+- ◻️ when green flag clicked  
+  _↳ feedback if chosen: That is an event._
+- ✅ forever
+
+Full working after a second miss:
+
+> Forever never stops.  
+> So the answer is “forever”.  
+
+**Practice** `s2-26-square` · number, level 3 · computed by rule
+
+> To draw a regular shape with 4 sides, the program repeats “move 100 steps, turn ___ degrees” 4 times. What angle goes in the blank?
+
+Answer: **90 degrees**
+
+Full working after a second miss:
+
+> The sprite turns a full 360° in all.  
+> 360 ÷ 4 = 90 degrees.  
+
+> To draw a regular shape with 8 sides, the program repeats “move 100 steps, turn ___ degrees” 8 times. What angle goes in the blank?
+
+Answer: **45 degrees**
+- Typed **135** (interior) → “The turn is the exterior angle: 360 ÷ the number of sides.”
+
+Full working after a second miss:
+
+> The sprite turns a full 360° in all.  
+> 360 ÷ 8 = 45 degrees.  
+
+## Lesson 27: Writing programs in a block programming environment 2
+
+Prerequisites: 26 · Skill: s2-27 (Block programming 2: conditions and operators)
+
+**Note** (draft)
+
+> Programs make decisions with conditions.
+> • “if <condition> then …” runs blocks only when the condition is true.
+> • “if <condition> then … else …” chooses between two sets of blocks.
+> • Conditions use comparison operators: = (equal), > (greater than), < (less than); and logic operators: and, or, not.
+> • Sensing blocks test things: “touching edge?”, “key space pressed?”, “answer” from “ask … and wait”.
+> • Operator blocks do arithmetic: +, −, ×, ÷, and “pick random 1 to 10”.
+> Example: ask “How old are you?” and wait; if answer > 12 then say “Secondary school” else say “Primary school”.
+> Debugging is finding and fixing errors (bugs) in a program; test it with different inputs.
+
+**Card c27-1** (draft)
+
+> “If … then … else” runs one set of blocks when a condition is true and another when it is false.
+>
+> _If score > 10 then say “You win”._  
+> _Else say “Try again”._  
+
+Check question: `s2-27-if` · multiple choice, level 1 · computed by rule, reused from practice
+
+> A program does: if x > 13 then say “yes” else say “no”. What does it say when x = 5?
+
+- ◻️ yes  
+  _↳ feedback if chosen: Check the condition again: is x greater than 13?_
+- ◻️ nothing  
+  _↳ feedback if chosen: With else, one of the two always runs._
+- ✅ no
+
+Full working after a second miss:
+
+> Test the condition: is 5 > 13?  
+> So it says “no”.  
+
+**Card c27-2** (draft)
+
+> Conditions use =, >, < and the logic words and, or, not.
+>
+> _5 > 3 is true._  
+> _2 = 7 is false._  
+
+Check question: `s2-27-op` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Is the condition (8 < 3) true or false?
+
+- ✅ false
+- ◻️ it cannot be tested  
+  _↳ feedback if chosen: It can be tested._
+- ◻️ true  
+  _↳ feedback if chosen: 8 is not less than 3._
+- ◻️ both  
+  _↳ feedback if chosen: A condition is one or the other._
+
+Full working after a second miss:
+
+> 8 is greater than 3.  
+> So the answer is “false”.  
+
+**Card c27-3** (draft)
+
+> Debugging is finding and fixing errors; test with different inputs.
+>
+> _Try a small and a large number._  
+> _Check each block in order._  
+
+Check question: `s2-27-debug-card` · multiple choice, level 1 · **authored key**
+
+> What is debugging?
+
+- ◻️ deleting the program  
+  _↳ feedback if chosen: That does not fix it._
+- ✅ finding and fixing errors in a program
+- ◻️ drawing a sprite  
+  _↳ feedback if chosen: That is not debugging._
+- ◻️ killing insects in the computer  
+  _↳ feedback if chosen: A bug is an error, not an insect._
+
+Full working after a second miss:
+
+> Bugs are errors.  
+> So the answer is “finding and fixing errors in a program”.  
+
+**Worked example** (draft)
+
+> A program does: if x > 10 then say “big” else say “small”. What does it say when x = 15?
+
+1. Test the condition: is 15 > 10?
+2. Yes, it is true, so the “then” part runs.
+
+**Answer:** big
+
+**Practice** `s2-27-if` · multiple choice, level 1 · computed by rule
+
+> A program does: if x > 7 then say “yes” else say “no”. What does it say when x = 20?
+
+- ◻️ no  
+  _↳ feedback if chosen: Check the condition again: is x greater than 7?_
+- ◻️ nothing  
+  _↳ feedback if chosen: With else, one of the two always runs._
+- ✅ yes
+
+Full working after a second miss:
+
+> Test the condition: is 20 > 7?  
+> So it says “yes”.  
+
+> A program does: if x > 10 then say “yes” else say “no”. What does it say when x = 12?
+
+- ◻️ nothing  
+  _↳ feedback if chosen: With else, one of the two always runs._
+- ✅ yes
+- ◻️ no  
+  _↳ feedback if chosen: Check the condition again: is x greater than 10?_
+
+Full working after a second miss:
+
+> Test the condition: is 12 > 10?  
+> So it says “yes”.  
+
+**Practice** `s2-27-op` · multiple choice, level 1 · **authored key**
+
+> The condition (age > 12) and (age < 20) is true when age is…
+
+- ✅ 15
+- ◻️ 25  
+  _↳ feedback if chosen: 25 is not less than 20._
+- ◻️ 10  
+  _↳ feedback if chosen: 10 is not greater than 12._
+- ◻️ 12  
+  _↳ feedback if chosen: 12 is not greater than 12._
+
+Full working after a second miss:
+
+> Both parts must be true.  
+> So the answer is “15”.  
+
+> Which operator means “greater than”?
+
+- ✅ >
+- ◻️ =  
+  _↳ feedback if chosen: = means equal._
+- ◻️ <  
+  _↳ feedback if chosen: < means less than._
+- ◻️ +  
+  _↳ feedback if chosen: + adds._
+
+Full working after a second miss:
+
+> > points to the smaller number.  
+> So the answer is “>”.  
+
+**Practice** `s2-27-debug` · multiple choice, level 2 · **authored key**
+
+> What is debugging?
+
+- ✅ finding and fixing errors in a program
+- ◻️ killing insects in the computer  
+  _↳ feedback if chosen: A bug is an error, not an insect._
+- ◻️ drawing a sprite  
+  _↳ feedback if chosen: That is not debugging._
+- ◻️ deleting the program  
+  _↳ feedback if chosen: That does not fix it._
+
+Full working after a second miss:
+
+> Bugs are errors.  
+> So the answer is “finding and fixing errors in a program”.  
+
+> What is debugging?
+
+- ◻️ deleting the program  
+  _↳ feedback if chosen: That does not fix it._
+- ◻️ killing insects in the computer  
+  _↳ feedback if chosen: A bug is an error, not an insect._
+- ◻️ drawing a sprite  
+  _↳ feedback if chosen: That is not debugging._
+- ✅ finding and fixing errors in a program
+
+Full working after a second miss:
+
+> Bugs are errors.  
+> So the answer is “finding and fixing errors in a program”.  
+
+**Practice** `s2-27-random` · number, level 3 · computed by rule
+
+> A program does: set n to 14; if n > 12 then change n by 2 else change n by −1. What is n at the end?
+
+Answer: **16**
+- Typed **13** (other) → “You did the wrong branch: check the condition again.”
+
+Full working after a second miss:
+
+> Test the condition: is 14 > 12?  
+> Do the matching branch: n = 16.  
+
+> A program does: set n to 2; if n > 9 then change n by 7 else change n by −1. What is n at the end?
+
+Answer: **1**
+- Typed **9** (other) → “You did the wrong branch: check the condition again.”
+
+Full working after a second miss:
+
+> Test the condition: is 2 > 9?  
+> Do the matching branch: n = 1.  
+
+## Lesson 29: Notions on digital Identity
+
+Prerequisites: none · Skill: s2-29 (Digital identity)
+
+**Note** (draft)
+
+> A digital identity is all the information about a person that exists online: usernames, e-mail addresses, profiles and photos on social media, phone numbers, passwords, posts, likes and comments.
+> Online accounts are protected by authentication: a username and a password, a PIN, a fingerprint or face recognition, or a code sent by SMS (two-step verification).
+> A strong password is long (at least 8–12 characters) and mixes capital and small letters, numbers and symbols; it is not a name or a birthday, and it is never shared.
+> Risks: identity theft (someone pretends to be you), hacked accounts, scams (fake messages asking for codes or mobile money PINs), cyberbullying.
+> Protect your identity: strong, different passwords; two-step verification; never share PINs or codes; check privacy settings; think before posting.
+
+**Card c29-1** (draft)
+
+> A digital identity is all the information about a person online.
+>
+> _Usernames, profiles, photos, posts._  
+> _Your phone number and e-mail._  
+
+Check question: `s2-29-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is part of a person's digital identity?
+
+- ✅ their social media profile
+- ◻️ their bicycle  
+  _↳ feedback if chosen: That is not online._
+- ◻️ their shoe size kept in a drawer  
+  _↳ feedback if chosen: That is not online._
+- ◻️ their house's paint colour  
+  _↳ feedback if chosen: That is not online._
+
+Full working after a second miss:
+
+> Online information about you.  
+> So the answer is “their social media profile”.  
+
+**Card c29-2** (draft)
+
+> A strong password is long and mixes capitals, small letters, numbers and symbols.
+>
+> _Not your name or birthday._  
+> _Never share it._  
+
+Check question: `s2-29-pass` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which is the strongest password?
+
+- ◻️ 11112222  
+  _↳ feedback if chosen: That is short or easy to guess._
+- ◻️ qwerty  
+  _↳ feedback if chosen: That is short or easy to guess._
+- ◻️ ndi  
+  _↳ feedback if chosen: That is short or easy to guess._
+- ✅ Blue$Sky7Rain!
+
+Full working after a second miss:
+
+> A strong password is long and mixes capitals, small letters, numbers and symbols.  
+> So Blue$Sky7Rain! is strongest.  
+
+**Card c29-3** (draft)
+
+> Protect your identity: two-step verification, never share codes or PINs, check privacy settings.
+>
+> _A real bank never asks for your PIN._  
+> _Scammers send fake messages._  
+
+Check question: `s2-29-protect-card` · multiple choice, level 1 · **authored key**
+
+> What is two-step verification?
+
+- ◻️ using two phones  
+  _↳ feedback if chosen: That is not it._
+- ✅ a second check, like a code sent by SMS, after the password
+- ◻️ having two accounts  
+  _↳ feedback if chosen: That is not it._
+- ◻️ typing the password twice  
+  _↳ feedback if chosen: That is not it._
+
+Full working after a second miss:
+
+> A second proof of identity.  
+> So the answer is “a second check, like a code sent by SMS, after the password”.  
+
+**Worked example** (draft)
+
+> Is “ayuk2010” a strong password? How can it be improved?
+
+1. It uses a name and a year that others can guess, and has no capitals or symbols.
+2. A better one is long and mixed, for example “Mango!Rain7Blue”.
+
+**Answer:** No: use a long mix of capital and small letters, numbers and symbols.
+
+**Practice** `s2-29-what` · multiple choice, level 1 · **authored key**
+
+> What is identity theft?
+
+- ◻️ changing your profile photo  
+  _↳ feedback if chosen: That is not theft._
+- ✅ someone pretending to be you using your information
+- ◻️ buying a new phone  
+  _↳ feedback if chosen: That is not theft._
+- ◻️ forgetting your password  
+  _↳ feedback if chosen: That is not theft._
+
+Full working after a second miss:
+
+> Your identity is stolen.  
+> So the answer is “someone pretending to be you using your information”.  
+
+> Which is part of a person's digital identity?
+
+- ✅ their social media profile
+- ◻️ their shoe size kept in a drawer  
+  _↳ feedback if chosen: That is not online._
+- ◻️ their bicycle  
+  _↳ feedback if chosen: That is not online._
+- ◻️ their house's paint colour  
+  _↳ feedback if chosen: That is not online._
+
+Full working after a second miss:
+
+> Online information about you.  
+> So the answer is “their social media profile”.  
+
+**Practice** `s2-29-pass` · multiple choice, level 1 · computed by rule
+
+> Which is the strongest password?
+
+- ◻️ 11112222  
+  _↳ feedback if chosen: That is short or easy to guess._
+- ◻️ ndi  
+  _↳ feedback if chosen: That is short or easy to guess._
+- ◻️ qwerty  
+  _↳ feedback if chosen: That is short or easy to guess._
+- ✅ Blue$Sky7Rain!
+
+Full working after a second miss:
+
+> A strong password is long and mixes capitals, small letters, numbers and symbols.  
+> So Blue$Sky7Rain! is strongest.  
+
+> Which is the strongest password?
+
+- ◻️ ndi  
+  _↳ feedback if chosen: That is short or easy to guess._
+- ◻️ 11112222  
+  _↳ feedback if chosen: That is short or easy to guess._
+- ✅ Blue$Sky7Rain!
+- ◻️ qwerty  
+  _↳ feedback if chosen: That is short or easy to guess._
+
+Full working after a second miss:
+
+> A strong password is long and mixes capitals, small letters, numbers and symbols.  
+> So Blue$Sky7Rain! is strongest.  
+
+**Practice** `s2-29-protect` · multiple choice, level 2 · **authored key**
+
+> You get an SMS: “You have won! Send your mobile money PIN to claim.” What should you do?
+
+- ◻️ Send the PIN quickly.  
+  _↳ feedback if chosen: It is a scam._
+- ◻️ Reply with your password.  
+  _↳ feedback if chosen: Never share passwords._
+- ✅ Ignore it and never share your PIN.
+- ◻️ Forward it to friends.  
+  _↳ feedback if chosen: That spreads the scam._
+
+Full working after a second miss:
+
+> Real companies never ask for your PIN.  
+> So the answer is “Ignore it and never share your PIN.”.  
+
+> What is two-step verification?
+
+- ◻️ typing the password twice  
+  _↳ feedback if chosen: That is not it._
+- ◻️ having two accounts  
+  _↳ feedback if chosen: That is not it._
+- ✅ a second check, like a code sent by SMS, after the password
+- ◻️ using two phones  
+  _↳ feedback if chosen: That is not it._
+
+Full working after a second miss:
+
+> A second proof of identity.  
+> So the answer is “a second check, like a code sent by SMS, after the password”.  
+
+**Practice** `s2-29-spot` · spot the error, level 3 · **authored key**
+
+> Which advice is wrong?
+
+- ◻️ Use strong passwords.
+- ◻️ Turn on two-step verification.
+- ✅ Use the same password for every account.  
+  _↳ explanation: If one is hacked, all are at risk._
+- ◻️ Check privacy settings.
+
+Full working after a second miss:
+
+> The wrong statement is “Use the same password for every account.”.  
+> If one is hacked, all are at risk.  
+
+> Which advice is wrong?
+
+- ◻️ Use strong passwords.
+- ✅ Use your birthday as a password so you remember it.  
+  _↳ explanation: Birthdays are easy to guess._
+- ◻️ Turn on two-step verification.
+- ◻️ Check privacy settings.
+
+Full working after a second miss:
+
+> The wrong statement is “Use your birthday as a password so you remember it.”.  
+> Birthdays are easy to guess.  
+
+## Lesson 30: Types of digital footprint
+
+Prerequisites: 29 · Skill: s2-30 (Types of digital footprint)
+
+**Note** (draft)
+
+> A digital footprint is the trail of data you leave when you use the internet. It can last for a very long time and be seen by others (schools, employers).
+> Types:
+> • Active footprint: data you share on purpose: posts, photos, comments, messages, filling in online forms, reviews.
+> • Passive footprint: data collected without you actively sharing it: websites visited, your location, cookies, your IP address, search history, which adverts you click.
+> A footprint can be positive (good school work, kind comments, a useful blog) or negative (rude posts, embarrassing photos, cyberbullying).
+> Once something is online, it is hard to delete: others may have copied or shared it.
+
+**Card c30-1** (draft)
+
+> A digital footprint is the trail of data you leave online.
+>
+> _Posts, photos and searches._  
+> _It can last a long time._  
+
+Check question: `s2-30-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is a digital footprint?
+
+- ✅ the trail of data you leave online
+- ◻️ a computer virus  
+  _↳ feedback if chosen: It is not harmful software._
+- ◻️ a shoe for computers  
+  _↳ feedback if chosen: It is data._
+- ◻️ a mark on the keyboard  
+  _↳ feedback if chosen: It is not physical._
+
+Full working after a second miss:
+
+> Everything you do online leaves data.  
+> So the answer is “the trail of data you leave online”.  
+
+**Card c30-2** (draft)
+
+> An active footprint is shared on purpose; a passive footprint is collected without you sharing it.
+>
+> _Posting a photo: active._  
+> _Cookies and location: passive._  
+
+Check question: `s2-30-type` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Is this an active or a passive footprint? Your search history being stored.
+
+- ◻️ not a footprint  
+  _↳ feedback if chosen: All of these leave data online._
+- ◻️ active  
+  _↳ feedback if chosen: Ask: did you choose to share it?_
+- ✅ passive
+
+Full working after a second miss:
+
+> Active: shared on purpose. Passive: collected without you sharing it.  
+> So it is passive.  
+
+**Card c30-3** (draft)
+
+> A footprint can be positive or negative, and it is hard to delete.
+>
+> _Kind comments help your reputation._  
+> _Others may copy rude posts._  
+
+Check question: `s2-30-good-card` · multiple choice, level 1 · **authored key**
+
+> Which builds a positive digital footprint?
+
+- ◻️ posting rude jokes about classmates  
+  _↳ feedback if chosen: That is negative._
+- ✅ sharing good school projects and kind comments
+- ◻️ sharing embarrassing photos of friends  
+  _↳ feedback if chosen: That is negative and hurtful._
+- ◻️ spreading rumours  
+  _↳ feedback if chosen: That is negative._
+
+Full working after a second miss:
+
+> Positive content helps your reputation.  
+> So the answer is “sharing good school projects and kind comments”.  
+
+**Worked example** (draft)
+
+> Is it an active or a passive footprint when a website records the pages you visit? Why?
+
+1. You did not choose to share this information.
+2. It was collected automatically while you browsed.
+
+**Answer:** A passive footprint.
+
+**Practice** `s2-30-what` · multiple choice, level 1 · **authored key**
+
+> What is a digital footprint?
+
+- ✅ the trail of data you leave online
+- ◻️ a shoe for computers  
+  _↳ feedback if chosen: It is data._
+- ◻️ a computer virus  
+  _↳ feedback if chosen: It is not harmful software._
+- ◻️ a mark on the keyboard  
+  _↳ feedback if chosen: It is not physical._
+
+Full working after a second miss:
+
+> Everything you do online leaves data.  
+> So the answer is “the trail of data you leave online”.  
+
+> What is a digital footprint?
+
+- ✅ the trail of data you leave online
+- ◻️ a shoe for computers  
+  _↳ feedback if chosen: It is data._
+- ◻️ a mark on the keyboard  
+  _↳ feedback if chosen: It is not physical._
+- ◻️ a computer virus  
+  _↳ feedback if chosen: It is not harmful software._
+
+Full working after a second miss:
+
+> Everything you do online leaves data.  
+> So the answer is “the trail of data you leave online”.  
+
+**Practice** `s2-30-type` · multiple choice, level 1 · computed by rule
+
+> Is this an active or a passive footprint? An app recording your location.
+
+- ◻️ not a footprint  
+  _↳ feedback if chosen: All of these leave data online._
+- ✅ passive
+- ◻️ active  
+  _↳ feedback if chosen: Ask: did you choose to share it?_
+
+Full working after a second miss:
+
+> Active: shared on purpose. Passive: collected without you sharing it.  
+> So it is passive.  
+
+> Is this an active or a passive footprint? A website saving cookies on your phone.
+
+- ✅ passive
+- ◻️ active  
+  _↳ feedback if chosen: Ask: did you choose to share it?_
+- ◻️ not a footprint  
+  _↳ feedback if chosen: All of these leave data online._
+
+Full working after a second miss:
+
+> Active: shared on purpose. Passive: collected without you sharing it.  
+> So it is passive.  
+
+**Practice** `s2-30-good` · multiple choice, level 2 · **authored key**
+
+> Why is it hard to delete something once it is posted?
+
+- ◻️ It is always easy.  
+  _↳ feedback if chosen: It is often hard._
+- ✅ Others may have copied or shared it.
+- ◻️ The internet has no delete button.  
+  _↳ feedback if chosen: You can delete your copy._
+- ◻️ Computers never forget passwords.  
+  _↳ feedback if chosen: That is not the reason._
+
+Full working after a second miss:
+
+> Copies spread.  
+> So the answer is “Others may have copied or shared it.”.  
+
+> Which builds a positive digital footprint?
+
+- ◻️ posting rude jokes about classmates  
+  _↳ feedback if chosen: That is negative._
+- ✅ sharing good school projects and kind comments
+- ◻️ spreading rumours  
+  _↳ feedback if chosen: That is negative._
+- ◻️ sharing embarrassing photos of friends  
+  _↳ feedback if chosen: That is negative and hurtful._
+
+Full working after a second miss:
+
+> Positive content helps your reputation.  
+> So the answer is “sharing good school projects and kind comments”.  
+
+**Practice** `s2-30-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Posting a photo creates an active footprint.
+- ◻️ Kind comments build a good footprint.
+- ◻️ Cookies create a passive footprint.
+- ✅ Deleting a post removes every copy from the internet.  
+  _↳ explanation: Others may have copied it._
+
+Full working after a second miss:
+
+> The wrong statement is “Deleting a post removes every copy from the internet.”.  
+> Others may have copied it.  
+
+> Which statement is wrong?
+
+- ✅ Your digital footprint can never affect your future.  
+  _↳ explanation: Schools and employers may see it._
+- ◻️ Kind comments build a good footprint.
+- ◻️ Cookies create a passive footprint.
+- ◻️ Posting a photo creates an active footprint.
+
+Full working after a second miss:
+
+> The wrong statement is “Your digital footprint can never affect your future.”.  
+> Schools and employers may see it.  
+
+## Lesson 31: Managing digital footprints
+
+Prerequisites: 30 · Skill: s2-31 (Managing digital footprints)
+
+**Note** (draft)
+
+> Ways to manage your digital footprint:
+> • Think before you post: is it true, kind, necessary? Would you be happy for a teacher or parent to see it?
+> • Set social media accounts to private and check privacy settings regularly.
+> • Do not share personal details: home address, school, phone number, location, ID card, photos of documents.
+> • Search your name online to see what others can find.
+> • Delete old accounts and posts you no longer want.
+> • Clear cookies and browsing history; refuse unnecessary cookies; turn off location when not needed.
+> • Ask before posting photos of others, and ask friends to remove photos of you that you do not want.
+> • Report and block cyberbullies; tell a trusted adult.
+
+**Card c31-1** (draft)
+
+> Think before you post: is it true, kind and necessary?
+>
+> _Would a teacher be happy to see it?_  
+> _Posts can last for years._  
+
+Check question: `s2-31-think` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which post is safest to share publicly?
+
+- ✅ a photo of your science project
+- ◻️ your mobile money PIN  
+  _↳ feedback if chosen: Never share PINs._
+- ◻️ your home address  
+  _↳ feedback if chosen: That shows where you live._
+- ◻️ a photo of your ID card  
+  _↳ feedback if chosen: That reveals personal data._
+
+Full working after a second miss:
+
+> It shares no personal details.  
+> So the answer is “a photo of your science project”.  
+
+**Card c31-2** (draft)
+
+> Keep accounts private and do not share personal details like your address or ID.
+>
+> _Turn off location when not needed._  
+> _Do not post documents._  
+
+Check question: `s2-31-private` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which detail should you not share online?
+
+- ◻️ your favourite football team  
+  _↳ feedback if chosen: That is harmless._
+- ✅ your home address
+- ◻️ your favourite fruit  
+  _↳ feedback if chosen: That is harmless._
+- ◻️ a drawing you made  
+  _↳ feedback if chosen: That is harmless._
+
+Full working after a second miss:
+
+> Strangers could find you.  
+> So the answer is “your home address”.  
+
+**Card c31-3** (draft)
+
+> Search your name, delete unwanted posts, clear cookies and ask before posting others' photos.
+>
+> _Remove old accounts._  
+> _Report and block bullies._  
+
+Check question: `s2-31-clean-card` · multiple choice, level 1 · **authored key**
+
+> Which action reduces your passive footprint?
+
+- ◻️ posting more photos  
+  _↳ feedback if chosen: That grows the active footprint._
+- ◻️ accepting all cookies  
+  _↳ feedback if chosen: That increases tracking._
+- ◻️ sharing your location always  
+  _↳ feedback if chosen: That increases tracking._
+- ✅ clearing cookies and turning off location
+
+Full working after a second miss:
+
+> Less data is collected.  
+> So the answer is “clearing cookies and turning off location”.  
+
+**Worked example** (draft)
+
+> Should you post a photo of your new school ID card on social media? Why?
+
+1. The card shows your full name, school, photo and perhaps your date of birth.
+2. Strangers could use these details for identity theft or to find you.
+
+**Answer:** No: it reveals personal details.
+
+**Practice** `s2-31-think` · multiple choice, level 1 · **authored key**
+
+> What should you ask yourself before posting?
+
+- ◻️ Can I post it before anyone stops me?  
+  _↳ feedback if chosen: That is not careful thinking._
+- ◻️ Is it someone else's secret?  
+  _↳ feedback if chosen: Do not share secrets._
+- ◻️ Will it make people angry?  
+  _↳ feedback if chosen: Do not post to anger people._
+- ✅ Is it true, kind and necessary?
+
+Full working after a second miss:
+
+> Think before you post.  
+> So the answer is “Is it true, kind and necessary?”.  
+
+> What should you ask yourself before posting?
+
+- ◻️ Will it make people angry?  
+  _↳ feedback if chosen: Do not post to anger people._
+- ◻️ Is it someone else's secret?  
+  _↳ feedback if chosen: Do not share secrets._
+- ◻️ Can I post it before anyone stops me?  
+  _↳ feedback if chosen: That is not careful thinking._
+- ✅ Is it true, kind and necessary?
+
+Full working after a second miss:
+
+> Think before you post.  
+> So the answer is “Is it true, kind and necessary?”.  
+
+**Practice** `s2-31-private` · multiple choice, level 1 · **authored key**
+
+> Which detail should you not share online?
+
+- ◻️ your favourite fruit  
+  _↳ feedback if chosen: That is harmless._
+- ◻️ a drawing you made  
+  _↳ feedback if chosen: That is harmless._
+- ✅ your home address
+- ◻️ your favourite football team  
+  _↳ feedback if chosen: That is harmless._
+
+Full working after a second miss:
+
+> Strangers could find you.  
+> So the answer is “your home address”.  
+
+> Why set a social media account to private?
+
+- ◻️ so everyone can see it  
+  _↳ feedback if chosen: That is public._
+- ✅ so only people you accept can see your posts
+- ◻️ to get more viruses  
+  _↳ feedback if chosen: That is not true._
+- ◻️ to make it faster  
+  _↳ feedback if chosen: Speed is not changed._
+
+Full working after a second miss:
+
+> You control who sees it.  
+> So the answer is “so only people you accept can see your posts”.  
+
+**Practice** `s2-31-clean` · multiple choice, level 2 · **authored key**
+
+> A friend posted a photo of you that you do not like. What should you do?
+
+- ◻️ post a worse photo of them  
+  _↳ feedback if chosen: That is revenge._
+- ✅ ask them politely to remove it
+- ◻️ insult them online  
+  _↳ feedback if chosen: That is cyberbullying._
+- ◻️ share it more  
+  _↳ feedback if chosen: That spreads it._
+
+Full working after a second miss:
+
+> Ask respectfully.  
+> So the answer is “ask them politely to remove it”.  
+
+> A friend posted a photo of you that you do not like. What should you do?
+
+- ◻️ insult them online  
+  _↳ feedback if chosen: That is cyberbullying._
+- ◻️ post a worse photo of them  
+  _↳ feedback if chosen: That is revenge._
+- ✅ ask them politely to remove it
+- ◻️ share it more  
+  _↳ feedback if chosen: That spreads it._
+
+Full working after a second miss:
+
+> Ask respectfully.  
+> So the answer is “ask them politely to remove it”.  
+
+**Practice** `s2-31-spot` · spot the error, level 3 · **authored key**
+
+> Which advice is wrong?
+
+- ◻️ Ask before posting others' photos.
+- ◻️ Search your name online.
+- ✅ Post your phone number so friends can find you.  
+  _↳ explanation: Strangers could misuse it._
+- ◻️ Think before you post.
+
+Full working after a second miss:
+
+> The wrong statement is “Post your phone number so friends can find you.”.  
+> Strangers could misuse it.  
+
+> Which advice is wrong?
+
+- ✅ Accept every cookie and keep location on all the time.  
+  _↳ explanation: That increases your passive footprint._
+- ◻️ Think before you post.
+- ◻️ Search your name online.
+- ◻️ Keep accounts private.
+
+Full working after a second miss:
+
+> The wrong statement is “Accept every cookie and keep location on all the time.”.  
+> That increases your passive footprint.  
+
+## Lesson 32: Initiation to cloud computing
+
+Prerequisites: 21 · Skill: s2-32 (Introduction to cloud computing)
+
+**Note** (draft)
+
+> Cloud computing is using computing services (storage, software, processing power) over the internet, on servers in large data centres, instead of only on your own device.
+> Examples: storing files on Google Drive, OneDrive, Dropbox or iCloud; using Gmail; editing Google Docs online; watching videos on YouTube; backing up phone photos.
+> Types of service: storage (keep files), software as a service (use programs in a browser), platforms and infrastructure for businesses.
+> Advantages: access files from any device anywhere; automatic backup; easy sharing and working together; no need for a big hard disk; often free for small amounts.
+> Disadvantages: needs an internet connection; uses data; privacy and security risks if the account is hacked; you depend on the company; large storage costs money.
+
+**Card c32-1** (draft)
+
+> Cloud computing is using storage and software over the internet, on servers in data centres.
+>
+> _Google Drive stores files._  
+> _Gmail is a cloud service._  
+
+Check question: `s2-32-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is a cloud storage service?
+
+- ◻️ a USB flash drive  
+  _↳ feedback if chosen: That is local storage._
+- ◻️ a printer  
+  _↳ feedback if chosen: That is an output device._
+- ✅ Google Drive
+- ◻️ a CD  
+  _↳ feedback if chosen: That is local storage._
+
+Full working after a second miss:
+
+> Files are kept online.  
+> So the answer is “Google Drive”.  
+
+**Card c32-2** (draft)
+
+> Advantages: access anywhere, backup, sharing, no big hard disk needed.
+>
+> _Open files on any device._  
+> _Work on a document together._  
+
+Check question: `s2-32-good` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is an advantage of cloud storage?
+
+- ◻️ It works without internet.  
+  _↳ feedback if chosen: It needs internet._
+- ◻️ It never needs a password.  
+  _↳ feedback if chosen: Passwords protect it._
+- ◻️ It is always unlimited and free.  
+  _↳ feedback if chosen: Large storage costs money._
+- ✅ Files can be opened from any device with internet.
+
+Full working after a second miss:
+
+> Access anywhere.  
+> So the answer is “Files can be opened from any device with internet.”.  
+
+**Card c32-3** (draft)
+
+> Disadvantages: needs the internet, uses data, and has privacy risks.
+>
+> _No connection, no files._  
+> _Use a strong password._  
+
+Check question: `s2-32-bad-card` · multiple choice, level 1 · **authored key**
+
+> How can you protect your cloud account?
+
+- ✅ use a strong password and two-step verification
+- ◻️ post your login online  
+  _↳ feedback if chosen: That is dangerous._
+- ◻️ use 1234 as password  
+  _↳ feedback if chosen: That is weak._
+- ◻️ share your password  
+  _↳ feedback if chosen: Never share it._
+
+Full working after a second miss:
+
+> Strong security protects the files.  
+> So the answer is “use a strong password and two-step verification”.  
+
+**Worked example** (draft)
+
+> Give one advantage and one disadvantage when a pupil saves a project on Google Drive.
+
+1. Advantage: the project can be opened from any phone or computer, and it is not lost if the laptop breaks.
+2. Disadvantage: an internet connection (and data) is needed to open it.
+
+**Answer:** Access anywhere and a safe backup; but it needs the internet.
+
+**Practice** `s2-32-what` · multiple choice, level 1 · **authored key**
+
+> Which is a cloud storage service?
+
+- ◻️ a USB flash drive  
+  _↳ feedback if chosen: That is local storage._
+- ✅ Google Drive
+- ◻️ a printer  
+  _↳ feedback if chosen: That is an output device._
+- ◻️ a CD  
+  _↳ feedback if chosen: That is local storage._
+
+Full working after a second miss:
+
+> Files are kept online.  
+> So the answer is “Google Drive”.  
+
+> Which is a cloud storage service?
+
+- ✅ Google Drive
+- ◻️ a printer  
+  _↳ feedback if chosen: That is an output device._
+- ◻️ a CD  
+  _↳ feedback if chosen: That is local storage._
+- ◻️ a USB flash drive  
+  _↳ feedback if chosen: That is local storage._
+
+Full working after a second miss:
+
+> Files are kept online.  
+> So the answer is “Google Drive”.  
+
+**Practice** `s2-32-good` · multiple choice, level 1 · **authored key**
+
+> Why is the cloud good for backup?
+
+- ◻️ It makes phones heavier.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ It stops viruses for ever.  
+  _↳ feedback if chosen: That is not guaranteed._
+- ✅ Files are safe even if your device is lost or broken.
+- ◻️ It deletes old files.  
+  _↳ feedback if chosen: It keeps them._
+
+Full working after a second miss:
+
+> A copy is kept online.  
+> So the answer is “Files are safe even if your device is lost or broken.”.  
+
+> Which is an advantage of cloud storage?
+
+- ◻️ It never needs a password.  
+  _↳ feedback if chosen: Passwords protect it._
+- ◻️ It is always unlimited and free.  
+  _↳ feedback if chosen: Large storage costs money._
+- ✅ Files can be opened from any device with internet.
+- ◻️ It works without internet.  
+  _↳ feedback if chosen: It needs internet._
+
+Full working after a second miss:
+
+> Access anywhere.  
+> So the answer is “Files can be opened from any device with internet.”.  
+
+**Practice** `s2-32-bad` · multiple choice, level 2 · **authored key**
+
+> Which is a disadvantage of cloud computing?
+
+- ◻️ Files can be shared easily.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ Files are backed up.  
+  _↳ feedback if chosen: That is an advantage._
+- ✅ You need an internet connection.
+- ◻️ You can work from anywhere.  
+  _↳ feedback if chosen: That is an advantage._
+
+Full working after a second miss:
+
+> No connection, no access.  
+> So the answer is “You need an internet connection.”.  
+
+> Which is a disadvantage of cloud computing?
+
+- ✅ You need an internet connection.
+- ◻️ You can work from anywhere.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ Files are backed up.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ Files can be shared easily.  
+  _↳ feedback if chosen: That is an advantage._
+
+Full working after a second miss:
+
+> No connection, no access.  
+> So the answer is “You need an internet connection.”.  
+
+**Practice** `s2-32-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Cloud storage works without any internet connection.  
+  _↳ explanation: It needs the internet._
+- ◻️ Data centres hold the servers.
+- ◻️ The cloud needs the internet.
+- ◻️ Cloud files can be shared.
+
+Full working after a second miss:
+
+> The wrong statement is “Cloud storage works without any internet connection.”.  
+> It needs the internet.  
+
+> Which statement is wrong?
+
+- ◻️ The cloud needs the internet.
+- ✅ A USB key is cloud storage.  
+  _↳ explanation: It is local storage._
+- ◻️ Gmail is a cloud service.
+- ◻️ Cloud files can be shared.
+
+Full working after a second miss:
+
+> The wrong statement is “A USB key is cloud storage.”.  
+> It is local storage.  
+
+## Lesson 33: Types of sensors
+
+Prerequisites: none · Skill: s2-33 (Types of sensors)
+
+**Note** (draft)
+
+> A sensor is a device that detects a change in the environment (a physical quantity) and turns it into a signal a computer can use.
+> Types:
+> • temperature sensor (thermistor): fridges, air conditioners, thermometers;
+> • light sensor (LDR): street lights that switch on at night, phone screen brightness;
+> • motion (infrared, PIR) sensor: automatic doors, security alarms, lights in corridors;
+> • sound sensor (microphone): voice assistants, clap switches;
+> • pressure / touch sensor: touchscreens, weighing scales, car seat-belt alarms;
+> • humidity and moisture sensors: weather stations, smart irrigation of farms;
+> • gas and smoke sensors: smoke alarms, gas leak detectors;
+> • proximity sensor: phone screen turns off near the ear; parking sensors;
+> • GPS (position) and accelerometer: maps, step counters, screen rotation.
+> Many sensors in phones: camera, microphone, fingerprint, GPS, accelerometer, light, proximity.
+
+**Card c33-1** (draft)
+
+> A sensor detects a change in the environment and turns it into a signal.
+>
+> _Temperature, light, motion, sound._  
+> _The computer reads the signal._  
+
+Check question: `s2-33-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is a sensor?
+
+- ✅ a device that detects a change and turns it into a signal
+- ◻️ a printer  
+  _↳ feedback if chosen: A printer is output._
+- ◻️ a speaker  
+  _↳ feedback if chosen: A speaker is output._
+- ◻️ a type of software only  
+  _↳ feedback if chosen: A sensor is a device._
+
+Full working after a second miss:
+
+> It detects the environment.  
+> So the answer is “a device that detects a change and turns it into a signal”.  
+
+**Card c33-2** (draft)
+
+> Each sensor measures one quantity: temperature, light, motion, pressure, moisture, gas.
+>
+> _A smoke alarm has a smoke sensor._  
+> _An automatic door has a motion sensor._  
+
+Check question: `s2-33-type` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which sensor is used in a smoke alarm?
+
+- ◻️ a light sensor  
+  _↳ feedback if chosen: It does not detect light._
+- ◻️ a pressure sensor  
+  _↳ feedback if chosen: It does not detect weight._
+- ◻️ a GPS  
+  _↳ feedback if chosen: It does not find position._
+- ✅ a smoke (gas) sensor
+
+Full working after a second miss:
+
+> It detects smoke.  
+> So the answer is “a smoke (gas) sensor”.  
+
+**Card c33-3** (draft)
+
+> Phones contain many sensors: GPS, accelerometer, fingerprint, light and proximity.
+>
+> _GPS finds your position._  
+> _The accelerometer rotates the screen._  
+
+Check question: `s2-33-phone-card` · multiple choice, level 1 · **authored key**
+
+> Why does a phone screen turn off when you hold it to your ear?
+
+- ◻️ The GPS is lost.  
+  _↳ feedback if chosen: That is not why._
+- ◻️ The battery is empty.  
+  _↳ feedback if chosen: That is not why._
+- ◻️ The microphone is off.  
+  _↳ feedback if chosen: That is not why._
+- ✅ The proximity sensor detects that something is close.
+
+Full working after a second miss:
+
+> It stops your cheek pressing buttons.  
+> So the answer is “The proximity sensor detects that something is close.”.  
+
+**Worked example** (draft)
+
+> Which sensor makes a street light switches on by itself at night?
+
+1. The light sensor detects that the light level has fallen.
+2. The controller then switches the lamp on.
+
+**Answer:** A light sensor.
+
+**Practice** `s2-33-what` · multiple choice, level 1 · **authored key**
+
+> Is a sensor an input or an output device?
+
+- ✅ an input device
+- ◻️ a processor  
+  _↳ feedback if chosen: It does not process._
+- ◻️ an output device  
+  _↳ feedback if chosen: It sends data in._
+- ◻️ a storage device  
+  _↳ feedback if chosen: It does not store._
+
+Full working after a second miss:
+
+> It gives data to the computer.  
+> So the answer is “an input device”.  
+
+> Is a sensor an input or an output device?
+
+- ◻️ a processor  
+  _↳ feedback if chosen: It does not process._
+- ◻️ an output device  
+  _↳ feedback if chosen: It sends data in._
+- ✅ an input device
+- ◻️ a storage device  
+  _↳ feedback if chosen: It does not store._
+
+Full working after a second miss:
+
+> It gives data to the computer.  
+> So the answer is “an input device”.  
+
+**Practice** `s2-33-type` · multiple choice, level 1 · **authored key**
+
+> Which sensor is used in a smart irrigation system on a farm?
+
+- ◻️ a smoke sensor  
+  _↳ feedback if chosen: No smoke is measured._
+- ◻️ a fingerprint sensor  
+  _↳ feedback if chosen: No fingers._
+- ◻️ a light sensor only  
+  _↳ feedback if chosen: It measures water in the soil._
+- ✅ a soil moisture sensor
+
+Full working after a second miss:
+
+> It waters when the soil is dry.  
+> So the answer is “a soil moisture sensor”.  
+
+> Which sensor is used in a smoke alarm?
+
+- ◻️ a light sensor  
+  _↳ feedback if chosen: It does not detect light._
+- ◻️ a GPS  
+  _↳ feedback if chosen: It does not find position._
+- ✅ a smoke (gas) sensor
+- ◻️ a pressure sensor  
+  _↳ feedback if chosen: It does not detect weight._
+
+Full working after a second miss:
+
+> It detects smoke.  
+> So the answer is “a smoke (gas) sensor”.  
+
+**Practice** `s2-33-phone` · multiple choice, level 2 · **authored key**
+
+> Why does a phone screen turn off when you hold it to your ear?
+
+- ◻️ The GPS is lost.  
+  _↳ feedback if chosen: That is not why._
+- ◻️ The microphone is off.  
+  _↳ feedback if chosen: That is not why._
+- ✅ The proximity sensor detects that something is close.
+- ◻️ The battery is empty.  
+  _↳ feedback if chosen: That is not why._
+
+Full working after a second miss:
+
+> It stops your cheek pressing buttons.  
+> So the answer is “The proximity sensor detects that something is close.”.  
+
+> Why does a phone screen turn off when you hold it to your ear?
+
+- ◻️ The battery is empty.  
+  _↳ feedback if chosen: That is not why._
+- ✅ The proximity sensor detects that something is close.
+- ◻️ The GPS is lost.  
+  _↳ feedback if chosen: That is not why._
+- ◻️ The microphone is off.  
+  _↳ feedback if chosen: That is not why._
+
+Full working after a second miss:
+
+> It stops your cheek pressing buttons.  
+> So the answer is “The proximity sensor detects that something is close.”.  
+
+**Practice** `s2-33-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ GPS finds position.
+- ◻️ Touchscreens sense pressure or touch.
+- ◻️ A smoke alarm uses a smoke sensor.
+- ✅ A temperature sensor opens automatic doors.  
+  _↳ explanation: A motion sensor does._
+
+Full working after a second miss:
+
+> The wrong statement is “A temperature sensor opens automatic doors.”.  
+> A motion sensor does.  
+
+> Which statement is wrong?
+
+- ◻️ Touchscreens sense pressure or touch.
+- ◻️ GPS finds position.
+- ◻️ A light sensor can switch on street lights.
+- ✅ A temperature sensor opens automatic doors.  
+  _↳ explanation: A motion sensor does._
+
+Full working after a second miss:
+
+> The wrong statement is “A temperature sensor opens automatic doors.”.  
+> A motion sensor does.  
+
+## Lesson 34: Notions on embedded systems and IOT
+
+Prerequisites: 33 · Skill: s2-34 (Embedded systems and the Internet of Things)
+
+**Note** (draft)
+
+> An embedded system is a small computer built into a larger device to do one special job. It has a microcontroller (processor, memory, input and output on one chip), sensors (inputs) and actuators (outputs such as motors, lights, buzzers).
+> Examples: washing machines, microwave ovens, digital watches, traffic lights, car engine controls, ATMs, printers, air conditioners.
+> The Internet of Things (IoT) is a network of everyday objects with embedded systems that connect to the internet and share data: smart TVs, smart meters (prepaid electricity), smart watches, home security cameras, smart farms, smart city lights.
+> How IoT works: a sensor collects data → the microcontroller processes it → the data is sent over the internet → an app or the cloud uses it → an actuator acts.
+> Advantages: automation, remote control, saving energy and water. Disadvantages: security and privacy risks, needs internet and power, cost.
+
+**Card c34-1** (draft)
+
+> An embedded system is a small computer inside a device, doing one special job.
+>
+> _A washing machine's controller._  
+> _Traffic lights._  
+
+Check question: `s2-34-emb` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is an embedded system?
+
+- ◻️ a desktop computer for many jobs  
+  _↳ feedback if chosen: A desktop is general-purpose._
+- ◻️ a printer cable  
+  _↳ feedback if chosen: A cable is not a computer._
+- ✅ a small computer built into a device for one job
+- ◻️ a website  
+  _↳ feedback if chosen: A website is content._
+
+Full working after a second miss:
+
+> Dedicated to one job.  
+> So the answer is “a small computer built into a device for one job”.  
+
+**Card c34-2** (draft)
+
+> It has a microcontroller, sensors (inputs) and actuators (outputs).
+>
+> _A motor is an actuator._  
+> _A thermistor is a sensor._  
+
+Check question: `s2-34-parts` · matching, level 1 · **authored key**, reused from practice
+
+> Match each part of an embedded system to an example.
+
+Right-hand side (shuffled): a chip that processes the data · a screen showing the time left · a motor turning a drum · a thermistor measuring temperature
+- actuator (output) → **a motor turning a drum**
+- display → **a screen showing the time left**
+- sensor (input) → **a thermistor measuring temperature**
+- microcontroller → **a chip that processes the data**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> actuator (output) → a motor turning a drum  
+> display → a screen showing the time left  
+> sensor (input) → a thermistor measuring temperature  
+> microcontroller → a chip that processes the data  
+
+**Card c34-3** (draft)
+
+> The Internet of Things connects everyday objects to the internet to share data.
+>
+> _Smart watches._  
+> _Security cameras on a phone._  
+
+Check question: `s2-34-iot-card` · multiple choice, level 1 · **authored key**
+
+> Which is a disadvantage of IoT devices?
+
+- ✅ They can be hacked, risking privacy.
+- ◻️ They automate tasks.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ They allow remote control.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ They save energy.  
+  _↳ feedback if chosen: That is an advantage._
+
+Full working after a second miss:
+
+> Security is a risk.  
+> So the answer is “They can be hacked, risking privacy.”.  
+
+**Worked example** (draft)
+
+> Describe how a smart farm waters the crops when the soil is dry.
+
+1. A soil moisture sensor measures the water in the soil.
+2. The microcontroller decides the soil is too dry and switches on the pump (actuator); the farmer can see the data on a phone.
+
+**Answer:** Sensor → microcontroller → pump, with the data sent to the farmer's phone.
+
+**Practice** `s2-34-emb` · multiple choice, level 1 · **authored key**
+
+> What is an embedded system?
+
+- ◻️ a desktop computer for many jobs  
+  _↳ feedback if chosen: A desktop is general-purpose._
+- ◻️ a printer cable  
+  _↳ feedback if chosen: A cable is not a computer._
+- ✅ a small computer built into a device for one job
+- ◻️ a website  
+  _↳ feedback if chosen: A website is content._
+
+Full working after a second miss:
+
+> Dedicated to one job.  
+> So the answer is “a small computer built into a device for one job”.  
+
+> What is an embedded system?
+
+- ◻️ a website  
+  _↳ feedback if chosen: A website is content._
+- ◻️ a desktop computer for many jobs  
+  _↳ feedback if chosen: A desktop is general-purpose._
+- ✅ a small computer built into a device for one job
+- ◻️ a printer cable  
+  _↳ feedback if chosen: A cable is not a computer._
+
+Full working after a second miss:
+
+> Dedicated to one job.  
+> So the answer is “a small computer built into a device for one job”.  
+
+**Practice** `s2-34-parts` · matching, level 1 · **authored key**
+
+> Match each part of an embedded system to an example.
+
+Right-hand side (shuffled): a screen showing the time left · a thermistor measuring temperature · a motor turning a drum · a chip that processes the data
+- display → **a screen showing the time left**
+- sensor (input) → **a thermistor measuring temperature**
+- microcontroller → **a chip that processes the data**
+- actuator (output) → **a motor turning a drum**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> display → a screen showing the time left  
+> sensor (input) → a thermistor measuring temperature  
+> microcontroller → a chip that processes the data  
+> actuator (output) → a motor turning a drum  
+
+> Match each part of an embedded system to an example.
+
+Right-hand side (shuffled): a thermistor measuring temperature · a chip that processes the data · a motor turning a drum · a screen showing the time left
+- sensor (input) → **a thermistor measuring temperature**
+- display → **a screen showing the time left**
+- microcontroller → **a chip that processes the data**
+- actuator (output) → **a motor turning a drum**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> sensor (input) → a thermistor measuring temperature  
+> display → a screen showing the time left  
+> microcontroller → a chip that processes the data  
+> actuator (output) → a motor turning a drum  
+
+**Practice** `s2-34-iot` · multiple choice, level 2 · **authored key**
+
+> Which is a disadvantage of IoT devices?
+
+- ✅ They can be hacked, risking privacy.
+- ◻️ They automate tasks.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ They save energy.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ They allow remote control.  
+  _↳ feedback if chosen: That is an advantage._
+
+Full working after a second miss:
+
+> Security is a risk.  
+> So the answer is “They can be hacked, risking privacy.”.  
+
+> Which is a disadvantage of IoT devices?
+
+- ✅ They can be hacked, risking privacy.
+- ◻️ They allow remote control.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ They automate tasks.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ They save energy.  
+  _↳ feedback if chosen: That is an advantage._
+
+Full working after a second miss:
+
+> Security is a risk.  
+> So the answer is “They can be hacked, risking privacy.”.  
+
+**Practice** `s2-34-order` · ordering, level 3 · **authored key**
+
+> Put the steps of an IoT system in order.
+
+Shown as: An actuator acts · The data is sent over the internet · The microcontroller processes it · A sensor collects data · An app or the cloud uses the data
+Correct order: A sensor collects data → The microcontroller processes it → The data is sent over the internet → An app or the cloud uses the data → An actuator acts
+
+Full working after a second miss:
+
+> The correct order is: A sensor collects data → The microcontroller processes it → The data is sent over the internet → An app or the cloud uses the data → An actuator acts.  
+
+> Put the steps of an IoT system in order.
+
+Shown as: A sensor collects data · The data is sent over the internet · An app or the cloud uses the data · An actuator acts · The microcontroller processes it
+Correct order: A sensor collects data → The microcontroller processes it → The data is sent over the internet → An app or the cloud uses the data → An actuator acts
+
+Full working after a second miss:
+
+> The correct order is: A sensor collects data → The microcontroller processes it → The data is sent over the internet → An app or the cloud uses the data → An actuator acts.  
+
+## Lesson 36: Notions on Spreadsheet software
+
+Prerequisites: none · Skill: s2-36 (Spreadsheet software)
+
+**Note** (draft)
+
+> A spreadsheet program (Microsoft Excel, LibreOffice Calc, Google Sheets) organises data in a grid of rows and columns, and does calculations.
+> • Columns are labelled with letters (A, B, C…), rows with numbers (1, 2, 3…).
+> • A cell is where a column and a row meet; its address is the column letter and row number, for example B{3}.
+> • A range is a block of cells, for example A{1}:A{5}.
+> • A cell can hold text (labels), numbers or a formula.
+> • A formula starts with =, for example =A{1}+A{2} or =B{2}*C{2}.
+> • Functions are ready-made formulas: =SUM(A{1}:A{5}) adds, =AVERAGE(A{1}:A{5}) finds the mean, =MAX and =MIN find the largest and smallest.
+> A file is a workbook; it contains worksheets (sheets).
+
+**Card c36-1** (draft)
+
+> A spreadsheet is a grid of columns (letters) and rows (numbers); each cell has an address like B3.
+>
+> _Column B, row 3._  
+> _A range: A1:A5._  
+
+Check question: `s2-36-cell` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is a range?
+
+- ✅ a block of cells, like A1:A5
+- ◻️ the file name  
+  _↳ feedback if chosen: That is not a range._
+- ◻️ a type of chart  
+  _↳ feedback if chosen: A chart shows data._
+- ◻️ a single letter  
+  _↳ feedback if chosen: That is a column label._
+
+Full working after a second miss:
+
+> From the first to the last cell.  
+> So the answer is “a block of cells, like A1:A5”.  
+
+**Card c36-2** (draft)
+
+> A formula starts with =, for example =A1+A2.
+>
+> _=B2*C2 multiplies._  
+> _The result shows in the cell._  
+
+Check question: `s2-36-formula-card` · number, level 1 · computed by rule
+
+> Cell B2 contains 19 and C2 contains 11. What does the formula =B2*C2 give?
+
+Answer: **209**
+- Typed **30** (add) → “* means multiply, not add.”
+
+Full working after a second miss:
+
+> * means multiply.  
+> 19 × 11 = 209.  
+
+**Card c36-3** (draft)
+
+> Functions: SUM adds, AVERAGE finds the mean, MAX and MIN find the largest and smallest.
+>
+> _=SUM(A1:A5)_  
+> _=AVERAGE(B1:B4)_  
+
+Check question: `s2-36-func` · number, level 1 · computed by rule, reused from practice
+
+> Cells A1 to A3 contain 30, 52 and 34. What does =SUM(A1:A3) give?
+
+Answer: **116**
+- Typed **64** (two) → “A1:A3 includes A2 too.”
+
+Full working after a second miss:
+
+> SUM adds every cell in the range.  
+> 30 + 52 + 34 = 116.  
+
+**Worked example** (draft)
+
+> Cells A1, A2 and A3 contain 12, 15 and 9. What does =SUM(A1:A3) give?
+
+1. SUM adds all the cells in the range A1 to A3.
+2. 12 + 15 + 9 = 36.
+
+**Answer:** 36
+
+**Practice** `s2-36-cell` · multiple choice, level 1 · **authored key**
+
+> What is a range?
+
+- ◻️ the file name  
+  _↳ feedback if chosen: That is not a range._
+- ◻️ a single letter  
+  _↳ feedback if chosen: That is a column label._
+- ◻️ a type of chart  
+  _↳ feedback if chosen: A chart shows data._
+- ✅ a block of cells, like A1:A5
+
+Full working after a second miss:
+
+> From the first to the last cell.  
+> So the answer is “a block of cells, like A1:A5”.  
+
+> What is the address of the cell in column C, row 4?
+
+- ◻️ 4C  
+  _↳ feedback if chosen: The letter comes first._
+- ◻️ C:4  
+  _↳ feedback if chosen: No colon in a single cell._
+- ◻️ R4C  
+  _↳ feedback if chosen: That is not the usual form._
+- ✅ C4
+
+Full working after a second miss:
+
+> Column letter then row number.  
+> So the answer is “C4”.  
+
+**Practice** `s2-36-formula` · number, level 2 · computed by rule
+
+> Cell B2 contains 5 and C2 contains 6. What does the formula =B2*C2 give?
+
+Answer: **30**
+- Typed **11** (add) → “* means multiply, not add.”
+
+Full working after a second miss:
+
+> * means multiply.  
+> 5 × 6 = 30.  
+
+> Cell B2 contains 16 and C2 contains 6. What does the formula =B2*C2 give?
+
+Answer: **96**
+- Typed **22** (add) → “* means multiply, not add.”
+
+Full working after a second miss:
+
+> * means multiply.  
+> 16 × 6 = 96.  
+
+**Practice** `s2-36-func` · number, level 1 · computed by rule
+
+> Cells A1 to A3 contain 37, 59 and 6. What does =SUM(A1:A3) give?
+
+Answer: **102**
+- Typed **43** (two) → “A1:A3 includes A2 too.”
+
+Full working after a second miss:
+
+> SUM adds every cell in the range.  
+> 37 + 59 + 6 = 102.  
+
+> Cells A1 to A3 contain 36, 31 and 35. What does =SUM(A1:A3) give?
+
+Answer: **102**
+- Typed **71** (two) → “A1:A3 includes A2 too.”
+
+Full working after a second miss:
+
+> SUM adds every cell in the range.  
+> 36 + 31 + 35 = 102.  
+
+**Practice** `s2-36-avg` · number, level 3 · computed by rule
+
+> Cells B1 to B4 contain 12, 11, 18 and 15. What does =AVERAGE(B1:B4) give?
+
+Answer: **14**
+- Typed **56** (sum) → “That is the SUM; divide by the number of cells for the AVERAGE.”
+
+Full working after a second miss:
+
+> Add the four numbers: 56.  
+> Divide by 4: 14.  
+
+> Cells B1 to B4 contain 9, 17, 15 and 15. What does =AVERAGE(B1:B4) give?
+
+Answer: **14**
+- Typed **56** (sum) → “That is the SUM; divide by the number of cells for the AVERAGE.”
+
+Full working after a second miss:
+
+> Add the four numbers: 56.  
+> Divide by 4: 14.  
+
+## Lesson 37: Using a spreadsheet to solve problems
+
+Prerequisites: 36 · Skill: s2-37 (Using a spreadsheet to solve problems)
+
+**Note** (draft)
+
+> Spreadsheets solve everyday problems: class marks and averages, a shopping list with costs, a budget, sales records, a timetable.
+> Steps:
+> 1. Type headings (labels) in the first row: Item, Quantity, Unit price, Total.
+> 2. Enter the data.
+> 3. Enter a formula in the first Total cell, for example =B{2}*C{2}.
+> 4. Copy (fill) the formula down: it changes automatically to =B{3}*C{3}, =B{4}*C{4} (relative references).
+> 5. Use =SUM(D{2}:D{6}) for the grand total.
+> 6. Format the cells (currency FCFA, bold headings), sort the data, and make a chart (column, bar, pie, line).
+> When data changes, the results update automatically.
+
+**Card c37-1** (draft)
+
+> Plan a sheet with headings, data and formulas.
+>
+> _Item, Quantity, Unit price, Total._  
+> _Formulas in the Total column._  
+
+Check question: `s2-37-plan` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the steps of making a shopping sheet in order.
+
+Shown as: Copy the formula down · Enter the data · Type the headings · Use SUM for the grand total · Enter the formula for the first total
+Correct order: Type the headings → Enter the data → Enter the formula for the first total → Copy the formula down → Use SUM for the grand total
+
+Full working after a second miss:
+
+> The correct order is: Type the headings → Enter the data → Enter the formula for the first total → Copy the formula down → Use SUM for the grand total.  
+
+**Card c37-2** (draft)
+
+> When a formula is copied down, its references change: =B2*C2 becomes =B3*C3.
+>
+> _These are relative references._  
+> _Fill down with the fill handle._  
+
+Check question: `s2-37-copy-card` · multiple choice, level 1 · computed by rule
+
+> The formula =B5*C5 in D5 is copied down to D6. What does it become?
+
+- ◻️ =C6*D6  
+  _↳ feedback if chosen: Copying down changes rows, not columns._
+- ◻️ =B5*C5  
+  _↳ feedback if chosen: Relative references change when copied._
+- ◻️ =B5*C6  
+  _↳ feedback if chosen: Both references change row._
+- ✅ =B6*C6
+
+Full working after a second miss:
+
+> Copying down changes the row numbers by the same amount.  
+> So it becomes =B6*C6.  
+
+**Card c37-3** (draft)
+
+> Results update automatically when the data changes; charts show the data as pictures.
+>
+> _Change a price and the total changes._  
+> _A pie chart shows parts of a whole._  
+
+Check question: `s2-37-chart-card` · multiple choice, level 1 · **authored key**
+
+> A price in C3 is changed. What happens to the total in D3 (=B3*C3)?
+
+- ◻️ It must be retyped.  
+  _↳ feedback if chosen: No need to retype._
+- ✅ It updates automatically.
+- ◻️ It is deleted.  
+  _↳ feedback if chosen: It is not deleted._
+- ◻️ It stays the same.  
+  _↳ feedback if chosen: Formulas recalculate._
+
+Full working after a second miss:
+
+> Spreadsheets recalculate.  
+> So the answer is “It updates automatically.”.  
+
+**Worked example** (draft)
+
+> In a shopping sheet, B2 (quantity) is 4 and C2 (unit price) is 250 FCFA. What formula goes in D2, and what is the total?
+
+1. Total = quantity × unit price, so D2 has =B2*C2.
+2. 4 × 250 = 1000 FCFA.
+
+**Answer:** =B2*C2, giving 1000 FCFA.
+
+**Practice** `s2-37-plan` · ordering, level 1 · **authored key**
+
+> Put the steps of making a shopping sheet in order.
+
+Shown as: Copy the formula down · Enter the formula for the first total · Enter the data · Type the headings · Use SUM for the grand total
+Correct order: Type the headings → Enter the data → Enter the formula for the first total → Copy the formula down → Use SUM for the grand total
+
+Full working after a second miss:
+
+> The correct order is: Type the headings → Enter the data → Enter the formula for the first total → Copy the formula down → Use SUM for the grand total.  
+
+> Put the steps of making a shopping sheet in order.
+
+Shown as: Copy the formula down · Use SUM for the grand total · Type the headings · Enter the formula for the first total · Enter the data
+Correct order: Type the headings → Enter the data → Enter the formula for the first total → Copy the formula down → Use SUM for the grand total
+
+Full working after a second miss:
+
+> The correct order is: Type the headings → Enter the data → Enter the formula for the first total → Copy the formula down → Use SUM for the grand total.  
+
+**Practice** `s2-37-copy` · multiple choice, level 2 · computed by rule
+
+> The formula =B2*C2 in D2 is copied down to D3. What does it become?
+
+- ◻️ =B2*C2  
+  _↳ feedback if chosen: Relative references change when copied._
+- ◻️ =C3*D3  
+  _↳ feedback if chosen: Copying down changes rows, not columns._
+- ◻️ =B2*C3  
+  _↳ feedback if chosen: Both references change row._
+- ✅ =B3*C3
+
+Full working after a second miss:
+
+> Copying down changes the row numbers by the same amount.  
+> So it becomes =B3*C3.  
+
+> The formula =B5*C5 in D5 is copied down to D6. What does it become?
+
+- ✅ =B6*C6
+- ◻️ =B5*C5  
+  _↳ feedback if chosen: Relative references change when copied._
+- ◻️ =B5*C6  
+  _↳ feedback if chosen: Both references change row._
+- ◻️ =C6*D6  
+  _↳ feedback if chosen: Copying down changes rows, not columns._
+
+Full working after a second miss:
+
+> Copying down changes the row numbers by the same amount.  
+> So it becomes =B6*C6.  
+
+**Practice** `s2-37-total` · number, level 1 · computed by rule
+
+> A shopping sheet has quantity 12 in B2 and unit price 100 FCFA in C2. D2 contains =B2*C2. What does D2 show?
+
+Answer: **1200 FCFA**
+- Typed **112** (add) → “* means multiply.”
+
+Full working after a second miss:
+
+> =B2*C2 multiplies quantity by price.  
+> 12 × 100 = 1200 FCFA.  
+
+> A shopping sheet has quantity 9 in B2 and unit price 1000 FCFA in C2. D2 contains =B2*C2. What does D2 show?
+
+Answer: **9000 FCFA**
+- Typed **1009** (add) → “* means multiply.”
+
+Full working after a second miss:
+
+> =B2*C2 multiplies quantity by price.  
+> 9 × 1000 = 9000 FCFA.  
+
+**Practice** `s2-37-chart` · multiple choice, level 3 · **authored key**
+
+> Which chart best shows how a family budget is shared out between food, rent and school?
+
+- ✅ a pie chart
+- ◻️ a scatter of random dots  
+  _↳ feedback if chosen: That is not suitable._
+- ◻️ no chart  
+  _↳ feedback if chosen: A chart helps._
+- ◻️ a line chart  
+  _↳ feedback if chosen: A line shows change over time._
+
+Full working after a second miss:
+
+> A pie shows parts of a whole.  
+> So the answer is “a pie chart”.  
+
+> A price in C3 is changed. What happens to the total in D3 (=B3*C3)?
+
+- ◻️ It is deleted.  
+  _↳ feedback if chosen: It is not deleted._
+- ◻️ It must be retyped.  
+  _↳ feedback if chosen: No need to retype._
+- ◻️ It stays the same.  
+  _↳ feedback if chosen: Formulas recalculate._
+- ✅ It updates automatically.
+
+Full working after a second miss:
+
+> Spreadsheets recalculate.  
+> So the answer is “It updates automatically.”.  
+
+## Lesson 38: Notions on presentation software and desktop publishing software
+
+Prerequisites: none · Skill: s2-38 (Presentation and desktop publishing software)
+
+**Note** (draft)
+
+> Presentation software (Microsoft PowerPoint, LibreOffice Impress, Google Slides) makes slide shows to present ideas to an audience.
+> • A presentation is made of slides; each slide can hold text, pictures, charts, sound and video.
+> • Layouts and themes (designs) give slides a consistent look.
+> • Transitions are effects between slides; animations move objects on a slide.
+> • Views: normal, slide sorter, slide show; speaker notes help the presenter.
+> Desktop publishing (DTP) software (Microsoft Publisher, Scribus, Canva) designs printed documents with careful page layout: posters, flyers, brochures, newsletters, cards, certificates.
+> • It uses frames (text boxes and picture boxes) that can be placed anywhere on the page, columns, templates, and master pages.
+> A word processor is mainly for typing text; DTP gives more control over layout.
+
+**Card c38-1** (draft)
+
+> Presentation software makes slide shows: PowerPoint, Impress, Google Slides.
+>
+> _Slides hold text, pictures and charts._  
+> _Used to present to an audience._  
+
+Check question: `s2-38-pres` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is one page of a presentation called?
+
+- ◻️ a frame only  
+  _↳ feedback if chosen: Frames are in DTP._
+- ◻️ a cell  
+  _↳ feedback if chosen: Cells are in spreadsheets._
+- ✅ a slide
+- ◻️ a tab  
+  _↳ feedback if chosen: Tabs are in browsers._
+
+Full working after a second miss:
+
+> Presentations are made of slides.  
+> So the answer is “a slide”.  
+
+**Card c38-2** (draft)
+
+> Transitions are effects between slides; animations move objects on a slide.
+>
+> _A fade between slides._  
+> _A title that flies in._  
+
+Check question: `s2-38-effects` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is an animation in a presentation?
+
+- ◻️ a new slide  
+  _↳ feedback if chosen: That is adding a slide._
+- ◻️ a spelling check  
+  _↳ feedback if chosen: That checks words._
+- ◻️ printing  
+  _↳ feedback if chosen: That is printing._
+- ✅ an effect that moves an object on a slide
+
+Full working after a second miss:
+
+> Objects fly in, fade or spin.  
+> So the answer is “an effect that moves an object on a slide”.  
+
+**Card c38-3** (draft)
+
+> Desktop publishing software designs posters, flyers and newsletters with frames and templates.
+>
+> _Publisher, Scribus, Canva._  
+> _Place text and pictures freely._  
+
+Check question: `s2-38-dtp-card` · multiple choice, level 1 · **authored key**
+
+> Which software is best for a talk to the class with slides?
+
+- ◻️ a database  
+  _↳ feedback if chosen: That stores records._
+- ✅ presentation software
+- ◻️ desktop publishing software  
+  _↳ feedback if chosen: DTP is for printed pages._
+- ◻️ a spreadsheet  
+  _↳ feedback if chosen: That is for calculations._
+
+Full working after a second miss:
+
+> Slides for an audience.  
+> So the answer is “presentation software”.  
+
+**Worked example** (draft)
+
+> Which kind of software is best to design a poster for the school's sports day? Why?
+
+1. A poster needs pictures and text placed freely on the page.
+2. Desktop publishing software uses frames and templates for page layout.
+
+**Answer:** Desktop publishing software.
+
+**Practice** `s2-38-pres` · multiple choice, level 1 · **authored key**
+
+> What is one page of a presentation called?
+
+- ✅ a slide
+- ◻️ a tab  
+  _↳ feedback if chosen: Tabs are in browsers._
+- ◻️ a frame only  
+  _↳ feedback if chosen: Frames are in DTP._
+- ◻️ a cell  
+  _↳ feedback if chosen: Cells are in spreadsheets._
+
+Full working after a second miss:
+
+> Presentations are made of slides.  
+> So the answer is “a slide”.  
+
+> What is one page of a presentation called?
+
+- ◻️ a tab  
+  _↳ feedback if chosen: Tabs are in browsers._
+- ✅ a slide
+- ◻️ a cell  
+  _↳ feedback if chosen: Cells are in spreadsheets._
+- ◻️ a frame only  
+  _↳ feedback if chosen: Frames are in DTP._
+
+Full working after a second miss:
+
+> Presentations are made of slides.  
+> So the answer is “a slide”.  
+
+**Practice** `s2-38-effects` · multiple choice, level 1 · **authored key**
+
+> What is a transition?
+
+- ✅ an effect when moving from one slide to the next
+- ◻️ a picture on a slide  
+  _↳ feedback if chosen: That is an image._
+- ◻️ the speaker's notes  
+  _↳ feedback if chosen: Notes are for the speaker._
+- ◻️ the file name  
+  _↳ feedback if chosen: That is not it._
+
+Full working after a second miss:
+
+> Between slides.  
+> So the answer is “an effect when moving from one slide to the next”.  
+
+> What is an animation in a presentation?
+
+- ◻️ printing  
+  _↳ feedback if chosen: That is printing._
+- ◻️ a new slide  
+  _↳ feedback if chosen: That is adding a slide._
+- ◻️ a spelling check  
+  _↳ feedback if chosen: That checks words._
+- ✅ an effect that moves an object on a slide
+
+Full working after a second miss:
+
+> Objects fly in, fade or spin.  
+> So the answer is “an effect that moves an object on a slide”.  
+
+**Practice** `s2-38-dtp` · multiple choice, level 2 · **authored key**
+
+> Which software is best for a school newsletter with columns and pictures?
+
+- ✅ desktop publishing software
+- ◻️ a web browser  
+  _↳ feedback if chosen: That opens web pages._
+- ◻️ a calculator  
+  _↳ feedback if chosen: That calculates._
+- ◻️ a spreadsheet  
+  _↳ feedback if chosen: That is for calculations._
+
+Full working after a second miss:
+
+> DTP lays out pages.  
+> So the answer is “desktop publishing software”.  
+
+> Which software is best for calculating the class average marks?
+
+- ◻️ presentation software  
+  _↳ feedback if chosen: Slides do not calculate._
+- ✅ a spreadsheet
+- ◻️ a paint program  
+  _↳ feedback if chosen: That draws._
+- ◻️ desktop publishing software  
+  _↳ feedback if chosen: DTP lays out pages._
+
+Full working after a second miss:
+
+> Spreadsheets calculate.  
+> So the answer is “a spreadsheet”.  
+
+**Practice** `s2-38-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Presentations are made of slides.
+- ✅ An animation is the effect between two slides.  
+  _↳ explanation: That is a transition; animations move objects on a slide._
+- ◻️ Publisher is DTP software.
+- ◻️ Transitions happen between slides.
+
+Full working after a second miss:
+
+> The wrong statement is “An animation is the effect between two slides.”.  
+> That is a transition; animations move objects on a slide.  
+
+> Which statement is wrong?
+
+- ✅ An animation is the effect between two slides.  
+  _↳ explanation: That is a transition; animations move objects on a slide._
+- ◻️ Publisher is DTP software.
+- ◻️ Presentations are made of slides.
+- ◻️ Transitions happen between slides.
+
+Full working after a second miss:
+
+> The wrong statement is “An animation is the effect between two slides.”.  
+> That is a transition; animations move objects on a slide.  
+
+## Lesson 39: Using presentation software to solve problems
+
+Prerequisites: 38 · Skill: s2-39 (Using presentation software to solve problems)
+
+**Note** (draft)
+
+> A presentation helps share information clearly: a project report, a health talk, a club announcement.
+> Steps:
+> 1. Plan: the aim, the audience and the main points (one idea per slide).
+> 2. Create slides: a title slide, content slides, a conclusion and a thank-you slide.
+> 3. Add pictures, charts or diagrams that support the message.
+> 4. Apply a theme; use few transitions and animations.
+> 5. Check spelling; rehearse with speaker notes; present in slide show view.
+> Good design rules:
+> • few words: short bullet points (about 6 lines of about 6 words);
+> • large, clear fonts (at least 24 points for text);
+> • high contrast between text and background;
+> • do not read the slides word for word; look at the audience.
+
+**Card c39-1** (draft)
+
+> Plan the aim, audience and main points; put one idea on each slide.
+>
+> _Title slide first._  
+> _Conclusion at the end._  
+
+Check question: `s2-39-plan` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the steps of making a presentation in order.
+
+Shown as: Create the slides · Add pictures and charts · Present in slide show view · Plan the aim and main points · Check spelling and rehearse
+Correct order: Plan the aim and main points → Create the slides → Add pictures and charts → Check spelling and rehearse → Present in slide show view
+
+Full working after a second miss:
+
+> The correct order is: Plan the aim and main points → Create the slides → Add pictures and charts → Check spelling and rehearse → Present in slide show view.  
+
+**Card c39-2** (draft)
+
+> Use few words, large fonts and high contrast.
+>
+> _Short bullet points._  
+> _Dark text on a light background._  
+
+Check question: `s2-39-design` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which slide is easiest to read?
+
+- ◻️ yellow text on a white background  
+  _↳ feedback if chosen: Low contrast._
+- ✅ short bullet points in a large font
+- ◻️ long paragraphs in tiny letters  
+  _↳ feedback if chosen: Too small and long._
+- ◻️ ten animations at once  
+  _↳ feedback if chosen: Distracting._
+
+Full working after a second miss:
+
+> Few words, large fonts.  
+> So the answer is “short bullet points in a large font”.  
+
+**Card c39-3** (draft)
+
+> Rehearse with speaker notes and look at the audience; do not read the slides word for word.
+>
+> _Practise before the day._  
+> _Speak clearly._  
+
+Check question: `s2-39-present-card` · multiple choice, level 1 · **authored key**
+
+> Which is good presenting?
+
+- ◻️ turning your back to the class  
+  _↳ feedback if chosen: Face the audience._
+- ◻️ reading every word on the slide  
+  _↳ feedback if chosen: That is boring._
+- ◻️ speaking very quietly  
+  _↳ feedback if chosen: Speak clearly._
+- ✅ looking at the audience and explaining the points
+
+Full working after a second miss:
+
+> Engage the audience.  
+> So the answer is “looking at the audience and explaining the points”.  
+
+**Worked example** (draft)
+
+> What is wrong with a slide with ten long sentences in small writing, and how can it be improved?
+
+1. The audience cannot read small writing, and long sentences are boring.
+2. Use a few short bullet points in a large font, and say the details aloud.
+
+**Answer:** Too much small text: use short bullet points in a large font.
+
+**Practice** `s2-39-plan` · ordering, level 1 · **authored key**
+
+> Put the steps of making a presentation in order.
+
+Shown as: Present in slide show view · Check spelling and rehearse · Plan the aim and main points · Create the slides · Add pictures and charts
+Correct order: Plan the aim and main points → Create the slides → Add pictures and charts → Check spelling and rehearse → Present in slide show view
+
+Full working after a second miss:
+
+> The correct order is: Plan the aim and main points → Create the slides → Add pictures and charts → Check spelling and rehearse → Present in slide show view.  
+
+> Put the steps of making a presentation in order.
+
+Shown as: Check spelling and rehearse · Present in slide show view · Create the slides · Plan the aim and main points · Add pictures and charts
+Correct order: Plan the aim and main points → Create the slides → Add pictures and charts → Check spelling and rehearse → Present in slide show view
+
+Full working after a second miss:
+
+> The correct order is: Plan the aim and main points → Create the slides → Add pictures and charts → Check spelling and rehearse → Present in slide show view.  
+
+**Practice** `s2-39-design` · multiple choice, level 1 · **authored key**
+
+> About what size should slide text be at least?
+
+- ◻️ 4 points  
+  _↳ feedback if chosen: Far too small._
+- ✅ 24 points
+- ◻️ 8 points  
+  _↳ feedback if chosen: Too small._
+- ◻️ 10 points  
+  _↳ feedback if chosen: Too small._
+
+Full working after a second miss:
+
+> Large enough to read from the back.  
+> So the answer is “24 points”.  
+
+> Which slide is easiest to read?
+
+- ◻️ yellow text on a white background  
+  _↳ feedback if chosen: Low contrast._
+- ◻️ long paragraphs in tiny letters  
+  _↳ feedback if chosen: Too small and long._
+- ◻️ ten animations at once  
+  _↳ feedback if chosen: Distracting._
+- ✅ short bullet points in a large font
+
+Full working after a second miss:
+
+> Few words, large fonts.  
+> So the answer is “short bullet points in a large font”.  
+
+**Practice** `s2-39-present` · multiple choice, level 2 · **authored key**
+
+> What are speaker notes for?
+
+- ◻️ to calculate totals  
+  _↳ feedback if chosen: That is a spreadsheet._
+- ✅ to remind the presenter what to say
+- ◻️ to show to the audience  
+  _↳ feedback if chosen: The audience does not see them._
+- ◻️ to print posters  
+  _↳ feedback if chosen: That is DTP._
+
+Full working after a second miss:
+
+> Private notes for the speaker.  
+> So the answer is “to remind the presenter what to say”.  
+
+> Which is good presenting?
+
+- ◻️ turning your back to the class  
+  _↳ feedback if chosen: Face the audience._
+- ◻️ reading every word on the slide  
+  _↳ feedback if chosen: That is boring._
+- ✅ looking at the audience and explaining the points
+- ◻️ speaking very quietly  
+  _↳ feedback if chosen: Speak clearly._
+
+Full working after a second miss:
+
+> Engage the audience.  
+> So the answer is “looking at the audience and explaining the points”.  
+
+**Practice** `s2-39-spot` · spot the error, level 3 · **authored key**
+
+> Which design advice is wrong?
+
+- ◻️ Use high contrast.
+- ◻️ Use a large clear font.
+- ✅ Put as many words as possible on each slide.  
+  _↳ explanation: Use few words._
+- ◻️ Rehearse before presenting.
+
+Full working after a second miss:
+
+> The wrong statement is “Put as many words as possible on each slide.”.  
+> Use few words.  
+
+> Which design advice is wrong?
+
+- ◻️ Use high contrast.
+- ◻️ Rehearse before presenting.
+- ✅ Read the slides word for word with your back to the class.  
+  _↳ explanation: Face the audience and explain._
+- ◻️ Put one main idea on each slide.
+
+Full working after a second miss:
+
+> The wrong statement is “Read the slides word for word with your back to the class.”.  
+> Face the audience and explain.  
+
+## Lesson 40: Using desktop publishing software to solve problems
+
+Prerequisites: 38 · Skill: s2-40 (Using desktop publishing software to solve problems)
+
+**Note** (draft)
+
+> Desktop publishing solves problems like advertising an event (poster, flyer), informing parents (newsletter), and making cards, certificates and menus.
+> Steps:
+> 1. Decide the purpose, audience and size (A{4}, A{5}, card).
+> 2. Choose a template or a blank page; set the margins, orientation (portrait or landscape) and columns.
+> 3. Insert text frames (text boxes) and picture frames; type or import the text; insert pictures or clip art.
+> 4. Arrange the frames: alignment, layering, grouping; use WordArt or headings.
+> 5. Choose fonts and colours that are easy to read (no more than two or three fonts).
+> 6. Proofread, save, then print or export as PDF.
+> A good poster answers: What? When? Where? Who? (with contact details), with a large heading and an eye-catching picture.
+
+**Card c40-1** (draft)
+
+> Decide the purpose, audience and size; choose a template, margins and orientation.
+>
+> _A poster in portrait A4._  
+> _A card in landscape A5._  
+
+Check question: `s2-40-plan` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is a template?
+
+- ◻️ a finished poster for another school  
+  _↳ feedback if chosen: You adapt it to your needs._
+- ✅ a ready-made design to start from
+- ◻️ a printer  
+  _↳ feedback if chosen: It is not hardware._
+- ◻️ a type of virus  
+  _↳ feedback if chosen: It is not harmful._
+
+Full working after a second miss:
+
+> Saves design time.  
+> So the answer is “a ready-made design to start from”.  
+
+**Card c40-2** (draft)
+
+> Use text frames and picture frames; arrange and align them.
+>
+> _Group frames to move them together._  
+> _Use two or three fonts only._  
+
+Check question: `s2-40-frames` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In DTP, what holds text that can be moved anywhere on the page?
+
+- ◻️ a slide  
+  _↳ feedback if chosen: Slides are in presentations._
+- ◻️ a browser tab  
+  _↳ feedback if chosen: Tabs are in browsers._
+- ✅ a text frame (text box)
+- ◻️ a cell  
+  _↳ feedback if chosen: Cells are in spreadsheets._
+
+Full working after a second miss:
+
+> Frames are placed freely.  
+> So the answer is “a text frame (text box)”.  
+
+**Card c40-3** (draft)
+
+> A good poster tells what, when, where and who, with a large heading.
+>
+> _Add a contact phone number._  
+> _Proofread before printing._  
+
+Check question: `s2-40-poster-card` · multiple choice, level 1 · **authored key**
+
+> Which information is missing from this poster: “Football match! Saturday 3 p.m. Contact 6xx xx xx xx”?
+
+- ◻️ what the event is  
+  _↳ feedback if chosen: It says football match._
+- ◻️ when it is  
+  _↳ feedback if chosen: It says Saturday 3 p.m._
+- ✅ where the match takes place
+- ◻️ a contact  
+  _↳ feedback if chosen: It gives a contact._
+
+Full working after a second miss:
+
+> Where? is missing.  
+> So the answer is “where the match takes place”.  
+
+**Worked example** (draft)
+
+> What information must a poster for the school's science fair include?
+
+1. What: the name of the event, in a large heading.
+2. When, where and who: the date and time, the place, who can come, and a contact.
+
+**Answer:** What, when, where and who, with contact details.
+
+**Practice** `s2-40-plan` · multiple choice, level 1 · **authored key**
+
+> What is page orientation?
+
+- ✅ whether the page is portrait (tall) or landscape (wide)
+- ◻️ the number of pages  
+  _↳ feedback if chosen: That is not orientation._
+- ◻️ the colour of the paper  
+  _↳ feedback if chosen: That is not orientation._
+- ◻️ the font size  
+  _↳ feedback if chosen: That is not orientation._
+
+Full working after a second miss:
+
+> Portrait or landscape.  
+> So the answer is “whether the page is portrait (tall) or landscape (wide)”.  
+
+> What is page orientation?
+
+- ◻️ the font size  
+  _↳ feedback if chosen: That is not orientation._
+- ✅ whether the page is portrait (tall) or landscape (wide)
+- ◻️ the number of pages  
+  _↳ feedback if chosen: That is not orientation._
+- ◻️ the colour of the paper  
+  _↳ feedback if chosen: That is not orientation._
+
+Full working after a second miss:
+
+> Portrait or landscape.  
+> So the answer is “whether the page is portrait (tall) or landscape (wide)”.  
+
+**Practice** `s2-40-frames` · multiple choice, level 1 · **authored key**
+
+> In DTP, what holds text that can be moved anywhere on the page?
+
+- ◻️ a slide  
+  _↳ feedback if chosen: Slides are in presentations._
+- ◻️ a browser tab  
+  _↳ feedback if chosen: Tabs are in browsers._
+- ✅ a text frame (text box)
+- ◻️ a cell  
+  _↳ feedback if chosen: Cells are in spreadsheets._
+
+Full working after a second miss:
+
+> Frames are placed freely.  
+> So the answer is “a text frame (text box)”.  
+
+> How many fonts should a poster usually use?
+
+- ◻️ ten or more  
+  _↳ feedback if chosen: Too many look messy._
+- ✅ two or three
+- ◻️ a different font for every word  
+  _↳ feedback if chosen: That is hard to read._
+- ◻️ none  
+  _↳ feedback if chosen: Text needs a font._
+
+Full working after a second miss:
+
+> Keep it simple.  
+> So the answer is “two or three”.  
+
+**Practice** `s2-40-poster` · multiple choice, level 2 · **authored key**
+
+> Which information is missing from this poster: “Football match! Saturday 3 p.m. Contact 6xx xx xx xx”?
+
+- ◻️ what the event is  
+  _↳ feedback if chosen: It says football match._
+- ◻️ a contact  
+  _↳ feedback if chosen: It gives a contact._
+- ✅ where the match takes place
+- ◻️ when it is  
+  _↳ feedback if chosen: It says Saturday 3 p.m._
+
+Full working after a second miss:
+
+> Where? is missing.  
+> So the answer is “where the match takes place”.  
+
+> Which information is missing from this poster: “Football match! Saturday 3 p.m. Contact 6xx xx xx xx”?
+
+- ◻️ what the event is  
+  _↳ feedback if chosen: It says football match._
+- ◻️ when it is  
+  _↳ feedback if chosen: It says Saturday 3 p.m._
+- ◻️ a contact  
+  _↳ feedback if chosen: It gives a contact._
+- ✅ where the match takes place
+
+Full working after a second miss:
+
+> Where? is missing.  
+> So the answer is “where the match takes place”.  
+
+**Practice** `s2-40-spot` · spot the error, level 3 · **authored key**
+
+> Which advice is wrong?
+
+- ◻️ Use a large heading.
+- ◻️ Give contact details.
+- ✅ A poster does not need to say where the event is.  
+  _↳ explanation: Where? is essential._
+- ◻️ Choose the right page size.
+
+Full working after a second miss:
+
+> The wrong statement is “A poster does not need to say where the event is.”.  
+> Where? is essential.  
+
+> Which advice is wrong?
+
+- ◻️ Give contact details.
+- ✅ Use ten different fonts to make the poster lively.  
+  _↳ explanation: Use two or three fonts._
+- ◻️ Proofread before printing.
+- ◻️ Use a large heading.
+
+Full working after a second miss:
+
+> The wrong statement is “Use ten different fonts to make the poster lively.”.  
+> Use two or three fonts.  
 

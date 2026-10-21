@@ -1,0 +1,445 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [
+  30
+ ],
+ "skills": [
+  {
+   "id": "h2-31",
+   "name": "Labour-saving equipment: choice and care"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Things to consider when choosing:\n• Is it really needed? Will it be used often?\n• Source of power: is there regular electricity? What is the voltage (220 V in Cameroon)?\n• Price and running cost (electricity); spare parts and repairers nearby;\n• size, weight, storage space; easy to clean; safety features; guarantee and instructions.\nCare:\n• read and follow the maker's instructions;\n• unplug before cleaning; never put the motor base of a blender or mixer in water — wipe it with a damp cloth;\n• pressure cooker: check the gasket and valves, never overfill (no more than two-thirds full), let the pressure fall before opening;\n• flask: rinse with warm water, do not drop it (the glass breaks), dry it open;\n• microwave: clean spills, never run it empty.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "opening a pressure cooker while it is still hissing"
+  },
+  "problem": "Why is {x} dangerous?",
+  "steps": [
+   "The pressure inside is still high.",
+   "Opening it lets out very hot steam and food at once, causing serious burns."
+  ],
+  "answer": "Steam and boiling food can burst out and burn you.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "Before buying, ask: is it needed, is there power, what does it cost to buy and run, are spare parts available?",
+    "vars": {},
+    "example": [
+     "Mains voltage is {220} V.",
+     "Check the guarantee."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-31-choose"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "Unplug before cleaning; wipe motor bases with a damp cloth, never put them in water.",
+    "vars": {},
+    "example": [
+     "Wash the blender jug only.",
+     "Dry everything well."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-31-elec"
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "Never overfill a pressure cooker and let the pressure fall before opening it.",
+    "vars": {},
+    "example": [
+     "No more than two-thirds full.",
+     "Check the gasket and valves."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-31-pc-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "labour-saving"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How full may a pressure cooker be filled?",
+         "r": "no more than two-thirds full",
+         "w": [
+          "full to the top",
+          "overflowing",
+          "only one spoonful"
+         ],
+         "e": [
+          "It needs space for steam.",
+          "That is dangerous.",
+          "That is too little to cook."
+         ],
+         "y": "Space is needed for steam."
+        },
+        {
+         "q": "When is it safe to open a pressure cooker?",
+         "r": "after the pressure has fallen",
+         "w": [
+          "while it is hissing",
+          "at once on high heat",
+          "when the valve is blocked"
+         ],
+         "e": [
+          "Steam can burst out.",
+          "That is dangerous.",
+          "A blocked valve is dangerous."
+         ],
+         "y": "Let it cool and the pressure fall."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-31-choose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which question should you ask before buying an electric blender?",
+       "r": "Is there regular electricity at home?",
+       "w": [
+        "What colour is the shop?",
+        "Is it raining?",
+        "How old is the seller?"
+       ],
+       "e": [
+        "That does not matter.",
+        "That does not matter.",
+        "That does not matter."
+       ],
+       "y": "It needs electricity."
+      },
+      {
+       "q": "Why check that spare parts are available?",
+       "r": "so that it can be repaired if it breaks",
+       "w": [
+        "to make it cheaper today",
+        "to make it faster",
+        "it does not matter"
+       ],
+       "e": [
+        "That does not change the price.",
+        "That does not change speed.",
+        "It matters for repairs."
+       ],
+       "y": "Repairs need parts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-31-elec",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How should the motor base of a blender be cleaned?",
+       "r": "unplug it and wipe it with a damp cloth",
+       "w": [
+        "put it in a bowl of water",
+        "wash it under the tap while plugged in",
+        "never clean it"
+       ],
+       "e": [
+        "Water damages the motor and can cause shocks.",
+        "That is very dangerous.",
+        "It must be kept clean."
+       ],
+       "y": "Keep water away from the motor."
+      },
+      {
+       "q": "What should you read before using new equipment?",
+       "r": "the maker's instructions",
+       "w": [
+        "a newspaper",
+        "a story book",
+        "nothing"
+       ],
+       "e": [
+        "That will not help.",
+        "That will not help.",
+        "Instructions keep you safe."
+       ],
+       "y": "Follow the instructions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-31-pc",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How full may a pressure cooker be filled?",
+       "r": "no more than two-thirds full",
+       "w": [
+        "full to the top",
+        "overflowing",
+        "only one spoonful"
+       ],
+       "e": [
+        "It needs space for steam.",
+        "That is dangerous.",
+        "That is too little to cook."
+       ],
+       "y": "Space is needed for steam."
+      },
+      {
+       "q": "When is it safe to open a pressure cooker?",
+       "r": "after the pressure has fallen",
+       "w": [
+        "while it is hissing",
+        "at once on high heat",
+        "when the valve is blocked"
+       ],
+       "e": [
+        "Steam can burst out.",
+        "That is dangerous.",
+        "A blocked valve is dangerous."
+       ],
+       "y": "Let it cool and the pressure fall."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-31-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "labour-saving"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Unplug equipment before cleaning.",
+      "truth": "true"
+     },
+     {
+      "text": "Check the gasket of a pressure cooker.",
+      "truth": "true"
+     },
+     {
+      "text": "Do not drop a vacuum flask.",
+      "truth": "true"
+     },
+     {
+      "text": "Follow the maker's instructions.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Put the blender's motor base in water to wash it.",
+      "truth": "false",
+      "explain": "Wipe it with a damp cloth; water damages it."
+     },
+     {
+      "text": "Fill a pressure cooker to the very top.",
+      "truth": "false",
+      "explain": "No more than two-thirds full."
+     },
+     {
+      "text": "Run a microwave oven empty to clean it.",
+      "truth": "false",
+      "explain": "Never run it empty."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

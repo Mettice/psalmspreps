@@ -1,0 +1,475 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 39,
+ "language": "en",
+ "prerequisites": [
+  37
+ ],
+ "skills": [
+  {
+   "id": "h2-39",
+   "name": "Dry methods of cooking"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dry methods cook food by dry heat or in hot fat.\n• Baking: in an oven (bread, cakes, meat pies).\n• Roasting: in an oven or over an open fire (roasted plantain, corn, groundnuts, fish).\n• Grilling: under or over direct strong heat (soya/suya, fish, chicken).\n• Toasting: browning bread or seeds.\n• Frying: in hot fat or oil. Shallow frying uses a little oil (eggs, plantain); deep frying covers the food in oil (puff-puff, chips, fish).\nAdvantages: quick (grilling, frying); food is tasty, crisp and brown; it looks attractive; grilling lets fat drip away.\nDisadvantages: fried food absorbs fat (risk of obesity and heart disease); food can burn or dry out; hot oil can cause burns and fires; some methods need a lot of fuel (baking).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "deep-fried puff-puff eaten every day"
+  },
+  "problem": "Why is {x} not healthy?",
+  "steps": [
+   "Deep-fried food absorbs a lot of oil.",
+   "Too much fat can lead to obesity and heart disease."
+  ],
+  "answer": "It contains a lot of fat.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c39-1",
+    "status": "draft",
+    "idea": "Dry methods use dry heat or hot fat: baking, roasting, grilling, toasting, frying.",
+    "vars": {},
+    "example": [
+     "Bread is baked.",
+     "Soya is grilled."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-39-types"
+    }
+   },
+   {
+    "id": "c39-2",
+    "status": "draft",
+    "idea": "Advantages: quick, tasty, crisp and attractive food; grilling lets fat drip away.",
+    "vars": {},
+    "example": [
+     "Roasted corn is tasty.",
+     "Grilled fish loses fat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-39-good"
+    }
+   },
+   {
+    "id": "c39-3",
+    "status": "draft",
+    "idea": "Disadvantages: fried food absorbs fat, food can burn, and hot oil can cause burns and fires.",
+    "vars": {},
+    "example": [
+     "Do not leave hot oil alone.",
+     "Eat fried food rarely."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-39-bad-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cooking-methods"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a disadvantage of frying?",
+         "r": "Food absorbs fat.",
+         "w": [
+          "Food loses all fat.",
+          "It is very slow.",
+          "No fuel is needed."
+         ],
+         "e": [
+          "It gains fat.",
+          "Frying is quick.",
+          "Heat is needed."
+         ],
+         "y": "Fried food is fatty."
+        },
+        {
+         "q": "Which danger comes with deep frying?",
+         "r": "burns and fires from hot oil",
+         "w": [
+          "food poisoning from cold water",
+          "electric shocks from oil",
+          "drowning"
+         ],
+         "e": [
+          "No water is used.",
+          "Oil does not cause shocks.",
+          "That is not a danger here."
+         ],
+         "y": "Hot oil burns and can catch fire."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-39-types",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Cooking soya over hot charcoal.",
+       "r": "grilling",
+       "w": [
+        "boiling",
+        "steaming",
+        "poaching"
+       ],
+       "e": [
+        "No water.",
+        "No steam.",
+        "No liquid."
+       ],
+       "y": "Direct strong heat."
+      },
+      {
+       "q": "Cooking a cake in an oven.",
+       "r": "baking",
+       "w": [
+        "frying",
+        "boiling",
+        "steaming"
+       ],
+       "e": [
+        "No oil.",
+        "No water.",
+        "No steam."
+       ],
+       "y": "Dry heat in an oven."
+      },
+      {
+       "q": "Cooking chips fully covered in hot oil.",
+       "r": "deep frying",
+       "w": [
+        "shallow frying",
+        "baking",
+        "toasting"
+       ],
+       "e": [
+        "Shallow frying uses a little oil.",
+        "No oven.",
+        "No direct dry heat."
+       ],
+       "y": "The food is covered in oil."
+      },
+      {
+       "q": "Frying an egg in a little oil.",
+       "r": "shallow frying",
+       "w": [
+        "deep frying",
+        "poaching",
+        "boiling"
+       ],
+       "e": [
+        "Deep frying covers the food.",
+        "Poaching uses water.",
+        "Boiling uses water."
+       ],
+       "y": "A little oil in a pan."
+      }
+     ]
+    }
+   },
+   "prompt": "Which dry method is it? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-39-good",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of grilling?",
+       "r": "Fat drips away from the food.",
+       "w": [
+        "It adds a lot of oil.",
+        "It is very slow.",
+        "Food becomes soggy."
+       ],
+       "e": [
+        "Grilling adds little fat.",
+        "Grilling is quick.",
+        "Food becomes crisp."
+       ],
+       "y": "Grilled food has less fat."
+      },
+      {
+       "q": "Why do many people like roasted and fried foods?",
+       "r": "They are tasty, crisp and brown.",
+       "w": [
+        "They have no taste.",
+        "They are always raw.",
+        "They are wet."
+       ],
+       "e": [
+        "They taste good.",
+        "They are cooked.",
+        "They are crisp."
+       ],
+       "y": "Dry heat browns food."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-39-bad",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a disadvantage of frying?",
+       "r": "Food absorbs fat.",
+       "w": [
+        "Food loses all fat.",
+        "It is very slow.",
+        "No fuel is needed."
+       ],
+       "e": [
+        "It gains fat.",
+        "Frying is quick.",
+        "Heat is needed."
+       ],
+       "y": "Fried food is fatty."
+      },
+      {
+       "q": "Which danger comes with deep frying?",
+       "r": "burns and fires from hot oil",
+       "w": [
+        "food poisoning from cold water",
+        "electric shocks from oil",
+        "drowning"
+       ],
+       "e": [
+        "No water is used.",
+        "Oil does not cause shocks.",
+        "That is not a danger here."
+       ],
+       "y": "Hot oil burns and can catch fire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-39-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cooking-methods"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Baking uses an oven.",
+      "truth": "true"
+     },
+     {
+      "text": "Grilling uses direct heat.",
+      "truth": "true"
+     },
+     {
+      "text": "Fried food absorbs fat.",
+      "truth": "true"
+     },
+     {
+      "text": "Roasted corn is cooked by dry heat.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Deep frying uses only a little oil.",
+      "truth": "false",
+      "explain": "Deep frying covers the food in oil."
+     },
+     {
+      "text": "Fried food is the healthiest food to eat every day.",
+      "truth": "false",
+      "explain": "Too much fried food leads to obesity."
+     },
+     {
+      "text": "Baking is a moist method.",
+      "truth": "false",
+      "explain": "Baking uses dry heat."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

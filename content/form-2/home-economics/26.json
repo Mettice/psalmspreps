@@ -1,0 +1,460 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  24
+ ],
+ "skills": [
+  {
+   "id": "h2-26",
+   "name": "Large kitchen equipment: types and uses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Large kitchen equipment are big appliances and fittings that usually stay in one place.\n• Cooker (stove): gas, electric, kerosene or charcoal; with burners (hobs or rings), an oven and a grill. Used for boiling, frying, baking and grilling.\n• Refrigerator (fridge): keeps food cool (about 0–5 °C) to slow the growth of germs; it has a freezer box, shelves, a vegetable drawer and door racks.\n• Freezer: keeps food frozen (about −18 °C) for weeks or months: meat, fish, ice.\n• Dishwasher: washes, rinses and dries plates and pots with hot water and detergent.\n• Sink, cupboards and worktops are large fittings.\nMost large equipment use electricity or gas, so they must be used safely.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "fresh fish for two months"
+  },
+  "problem": "Which large equipment is best to keep {f}, and why?",
+  "steps": [
+   "A fridge keeps food cool for only a few days.",
+   "A freezer keeps it frozen at about −{18} °C, so germs cannot grow for months."
+  ],
+  "answer": "A freezer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "Large equipment are big appliances that stay in one place: cooker, fridge, freezer, dishwasher.",
+    "vars": {},
+    "example": [
+     "A cooker has burners and an oven.",
+     "The sink is a large fitting."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-26-types"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "A fridge keeps food cool for days; a freezer keeps food frozen for months.",
+    "vars": {},
+    "example": [
+     "Fridge about {0}–{5} °C.",
+     "Freezer about −{18} °C."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-26-cold"
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "A dishwasher washes, rinses and dries dishes with hot water and detergent.",
+    "vars": {},
+    "example": [
+     "It saves time and water.",
+     "It needs electricity and water."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-26-dish-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-equipment"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is an advantage of a dishwasher?",
+         "r": "It saves time and effort.",
+         "w": [
+          "It needs no electricity.",
+          "It cooks food.",
+          "It is cheap to buy."
+         ],
+         "e": [
+          "It needs electricity.",
+          "It only washes.",
+          "It is expensive."
+         ],
+         "y": "It does the washing for you."
+        },
+        {
+         "q": "Which large equipment can use gas, electricity or kerosene?",
+         "r": "a cooker",
+         "w": [
+          "a sink",
+          "a cupboard",
+          "a worktop"
+         ],
+         "e": [
+          "A sink uses no fuel.",
+          "A cupboard uses no fuel.",
+          "A worktop uses no fuel."
+         ],
+         "y": "Cookers have different fuels."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-26-types",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "bakes cakes and bread",
+       "r": "the oven of a cooker",
+       "w": [
+        "the freezer",
+        "the dishwasher",
+        "the sink"
+       ],
+       "e": [
+        "A freezer freezes.",
+        "It washes dishes.",
+        "It holds water."
+       ],
+       "y": "The oven bakes."
+      },
+      {
+       "q": "washes and dries plates",
+       "r": "the dishwasher",
+       "w": [
+        "the fridge",
+        "the cooker",
+        "the freezer"
+       ],
+       "e": [
+        "It cools food.",
+        "It cooks food.",
+        "It freezes food."
+       ],
+       "y": "A dishwasher cleans dishes."
+      },
+      {
+       "q": "keeps milk cool for a few days",
+       "r": "the refrigerator",
+       "w": [
+        "the oven",
+        "the dishwasher",
+        "the grill"
+       ],
+       "e": [
+        "It heats food.",
+        "It washes dishes.",
+        "It cooks food."
+       ],
+       "y": "The fridge keeps food cool."
+      }
+     ]
+    }
+   },
+   "prompt": "Which large equipment {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-26-cold",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "About what temperature does a freezer keep food at?",
+       "r": "about −18 °C",
+       "w": [
+        "about 25 °C",
+        "about 100 °C",
+        "about 5 °C"
+       ],
+       "e": [
+        "That is room temperature.",
+        "That is boiling.",
+        "That is a fridge."
+       ],
+       "y": "Freezers keep food frozen."
+      },
+      {
+       "q": "Why does a fridge help food to keep longer?",
+       "r": "The cold slows the growth of germs.",
+       "w": [
+        "It kills all germs.",
+        "It cooks food.",
+        "It adds salt."
+       ],
+       "e": [
+        "It only slows them.",
+        "It cools food.",
+        "It adds nothing."
+       ],
+       "y": "Germs grow slowly in the cold."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-26-dish",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of a dishwasher?",
+       "r": "It saves time and effort.",
+       "w": [
+        "It needs no electricity.",
+        "It cooks food.",
+        "It is cheap to buy."
+       ],
+       "e": [
+        "It needs electricity.",
+        "It only washes.",
+        "It is expensive."
+       ],
+       "y": "It does the washing for you."
+      },
+      {
+       "q": "Which large equipment can use gas, electricity or kerosene?",
+       "r": "a cooker",
+       "w": [
+        "a sink",
+        "a cupboard",
+        "a worktop"
+       ],
+       "e": [
+        "A sink uses no fuel.",
+        "A cupboard uses no fuel.",
+        "A worktop uses no fuel."
+       ],
+       "y": "Cookers have different fuels."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-26-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A freezer keeps food frozen.",
+      "truth": "true"
+     },
+     {
+      "text": "A cooker can have an oven and a grill.",
+      "truth": "true"
+     },
+     {
+      "text": "A dishwasher uses detergent.",
+      "truth": "true"
+     },
+     {
+      "text": "A fridge slows germs.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A fridge keeps food fresh for many months.",
+      "truth": "false",
+      "explain": "Only a few days; a freezer keeps it for months."
+     },
+     {
+      "text": "A dishwasher is used to cook rice.",
+      "truth": "false",
+      "explain": "It washes dishes."
+     },
+     {
+      "text": "A freezer is a small kitchen tool.",
+      "truth": "false",
+      "explain": "It is large equipment."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,558 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "a2-14",
+   "name": "Classes of accounts and their codification"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Every account has a number (code). The digits show where it belongs:\n• the 1st digit is the class (for example 6 = expenses);\n• the first 2 digits are the main account (60 = purchases);\n• the first 3 digits are the divisional account (601 = purchases of goods);\n• more digits give sub-accounts (6011 = purchases of goods in the OHADA region).\nSo the longer the number, the more detailed the account.\nThe eight classes used in the accounts:\n1 durable resources; 2 fixed assets; 3 stocks; 4 third parties; 5 treasury; 6 expenses of ordinary activities; 7 income of ordinary activities; 8 other (extraordinary) expenses and income.\nExample: 571 Cash: class 5 (treasury), main account 57 (cash), account 571.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 6011
+  },
+  "problem": "Explain the digits of account {c}.",
+  "steps": [
+   "The first digit, {6}, is the class: expenses of ordinary activities.",
+   "{60} is the main account (purchases), {601} the divisional account (purchases of goods), and {6011} a sub-account."
+  ],
+  "answer": "Class {6}; main account {60}; divisional account {601}; sub-account {6011}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "The first digit of an account number is its class.",
+    "vars": {},
+    "example": [
+     "{521} Banks: class {5}.",
+     "{401} Suppliers: class {4}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-14-class"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "The first two digits give the main account; three digits the divisional account.",
+    "vars": {},
+    "example": [
+     "{601}: main account {60}.",
+     "More digits, more detail."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-14-main-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "c": 101,
+         "n": "Share capital (Capital)",
+         "k": 1
+        },
+        {
+         "c": 162,
+         "n": "Bank loans",
+         "k": 1
+        },
+        {
+         "c": 223,
+         "n": "Built-up land",
+         "k": 2
+        },
+        {
+         "c": 231,
+         "n": "Buildings",
+         "k": 2
+        },
+        {
+         "c": 2441,
+         "n": "Office equipment",
+         "k": 2
+        },
+        {
+         "c": 245,
+         "n": "Transport equipment",
+         "k": 2
+        },
+        {
+         "c": 311,
+         "n": "Goods (merchandise) in stock",
+         "k": 3
+        },
+        {
+         "c": 321,
+         "n": "Raw materials in stock",
+         "k": 3
+        },
+        {
+         "c": 401,
+         "n": "Suppliers",
+         "k": 4
+        },
+        {
+         "c": 411,
+         "n": "Customers",
+         "k": 4
+        },
+        {
+         "c": 422,
+         "n": "Staff: salaries due",
+         "k": 4
+        },
+        {
+         "c": 521,
+         "n": "Banks",
+         "k": 5
+        },
+        {
+         "c": 571,
+         "n": "Cash in hand",
+         "k": 5
+        },
+        {
+         "c": 601,
+         "n": "Purchases of goods",
+         "k": 6
+        },
+        {
+         "c": 605,
+         "n": "Other purchases (water, electricity)",
+         "k": 6
+        },
+        {
+         "c": 661,
+         "n": "Staff salaries",
+         "k": 6
+        },
+        {
+         "c": 701,
+         "n": "Sales of goods",
+         "k": 7
+        },
+        {
+         "c": 706,
+         "n": "Services sold",
+         "k": 7
+        },
+        {
+         "c": 812,
+         "n": "Book value of fixed assets sold",
+         "k": 8
+        },
+        {
+         "c": 822,
+         "n": "Proceeds from sale of fixed assets",
+         "k": 8
+        }
+       ]
+      }
+     },
+     "prompt": "What is the main account (the first two digits) of account {X.c} ({X.n})?",
+     "answer": "floor(X.c / (X.c >= 1000 ? 100 : 10))",
+     "misconceptions": [
+      {
+       "id": "one",
+       "wrong": "X.k",
+       "explain": "That is the class; the main account has two digits."
+      }
+     ],
+     "solution": [
+      "The main account is given by the first two digits.",
+      "So it is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "The classes: {1} resources, {2} fixed assets, {3} stocks, {4} third parties, {5} treasury, {6} expenses, {7} income, {8} extraordinary.",
+    "vars": {},
+    "example": [
+     "Cash is in class {5}.",
+     "Sales are in class {7}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-14-match"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-14-class",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "c": 101,
+       "n": "Share capital (Capital)",
+       "k": 1
+      },
+      {
+       "c": 162,
+       "n": "Bank loans",
+       "k": 1
+      },
+      {
+       "c": 223,
+       "n": "Built-up land",
+       "k": 2
+      },
+      {
+       "c": 231,
+       "n": "Buildings",
+       "k": 2
+      },
+      {
+       "c": 2441,
+       "n": "Office equipment",
+       "k": 2
+      },
+      {
+       "c": 245,
+       "n": "Transport equipment",
+       "k": 2
+      },
+      {
+       "c": 311,
+       "n": "Goods (merchandise) in stock",
+       "k": 3
+      },
+      {
+       "c": 321,
+       "n": "Raw materials in stock",
+       "k": 3
+      },
+      {
+       "c": 401,
+       "n": "Suppliers",
+       "k": 4
+      },
+      {
+       "c": 411,
+       "n": "Customers",
+       "k": 4
+      },
+      {
+       "c": 422,
+       "n": "Staff: salaries due",
+       "k": 4
+      },
+      {
+       "c": 521,
+       "n": "Banks",
+       "k": 5
+      },
+      {
+       "c": 571,
+       "n": "Cash in hand",
+       "k": 5
+      },
+      {
+       "c": 601,
+       "n": "Purchases of goods",
+       "k": 6
+      },
+      {
+       "c": 605,
+       "n": "Other purchases (water, electricity)",
+       "k": 6
+      },
+      {
+       "c": 661,
+       "n": "Staff salaries",
+       "k": 6
+      },
+      {
+       "c": 701,
+       "n": "Sales of goods",
+       "k": 7
+      },
+      {
+       "c": 706,
+       "n": "Services sold",
+       "k": 7
+      },
+      {
+       "c": 812,
+       "n": "Book value of fixed assets sold",
+       "k": 8
+      },
+      {
+       "c": 822,
+       "n": "Proceeds from sale of fixed assets",
+       "k": 8
+      }
+     ]
+    }
+   },
+   "prompt": "In which class is account {X.c} ({X.n})?",
+   "answer": "X.k",
+   "misconceptions": [
+    {
+     "id": "two",
+     "wrong": "floor(X.c / (X.c >= 1000 ? 100 : 10))",
+     "explain": "The class is only the first digit."
+    }
+   ],
+   "solution": [
+    "The class is the first digit of the account number.",
+    "{X.c} starts with {answer}, so it is class {answer}."
+   ]
+  },
+  {
+   "id": "a2-14-main",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "c": 101,
+       "n": "Share capital (Capital)",
+       "k": 1
+      },
+      {
+       "c": 162,
+       "n": "Bank loans",
+       "k": 1
+      },
+      {
+       "c": 223,
+       "n": "Built-up land",
+       "k": 2
+      },
+      {
+       "c": 231,
+       "n": "Buildings",
+       "k": 2
+      },
+      {
+       "c": 2441,
+       "n": "Office equipment",
+       "k": 2
+      },
+      {
+       "c": 245,
+       "n": "Transport equipment",
+       "k": 2
+      },
+      {
+       "c": 311,
+       "n": "Goods (merchandise) in stock",
+       "k": 3
+      },
+      {
+       "c": 321,
+       "n": "Raw materials in stock",
+       "k": 3
+      },
+      {
+       "c": 401,
+       "n": "Suppliers",
+       "k": 4
+      },
+      {
+       "c": 411,
+       "n": "Customers",
+       "k": 4
+      },
+      {
+       "c": 422,
+       "n": "Staff: salaries due",
+       "k": 4
+      },
+      {
+       "c": 521,
+       "n": "Banks",
+       "k": 5
+      },
+      {
+       "c": 571,
+       "n": "Cash in hand",
+       "k": 5
+      },
+      {
+       "c": 601,
+       "n": "Purchases of goods",
+       "k": 6
+      },
+      {
+       "c": 605,
+       "n": "Other purchases (water, electricity)",
+       "k": 6
+      },
+      {
+       "c": 661,
+       "n": "Staff salaries",
+       "k": 6
+      },
+      {
+       "c": 701,
+       "n": "Sales of goods",
+       "k": 7
+      },
+      {
+       "c": 706,
+       "n": "Services sold",
+       "k": 7
+      },
+      {
+       "c": 812,
+       "n": "Book value of fixed assets sold",
+       "k": 8
+      },
+      {
+       "c": 822,
+       "n": "Proceeds from sale of fixed assets",
+       "k": 8
+      }
+     ]
+    }
+   },
+   "prompt": "What is the main account (the first two digits) of account {X.c} ({X.n})?",
+   "answer": "floor(X.c / (X.c >= 1000 ? 100 : 10))",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "X.k",
+     "explain": "That is the class; the main account has two digits."
+    }
+   ],
+   "solution": [
+    "The main account is given by the first two digits.",
+    "So it is {answer}."
+   ]
+  },
+  {
+   "id": "a2-14-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "prompt": "Match each class to its content.",
+   "pool": [
+    {
+     "left": "class 1",
+     "right": "durable resources (capital, reserves, long-term loans)"
+    },
+    {
+     "left": "class 2",
+     "right": "fixed assets"
+    },
+    {
+     "left": "class 3",
+     "right": "stocks"
+    },
+    {
+     "left": "class 4",
+     "right": "third parties (suppliers, customers, staff, State)"
+    },
+    {
+     "left": "class 5",
+     "right": "treasury (bank, cash)"
+    },
+    {
+     "left": "class 6",
+     "right": "expenses of ordinary activities"
+    },
+    {
+     "left": "class 7",
+     "right": "income of ordinary activities"
+    },
+    {
+     "left": "class 8",
+     "right": "other (extraordinary) expenses and income"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "a2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The first digit shows the class.",
+      "truth": "true"
+     },
+     {
+      "text": "571 Cash is in class 5.",
+      "truth": "true"
+     },
+     {
+      "text": "601 is a purchase account.",
+      "truth": "true"
+     },
+     {
+      "text": "More digits give more detail.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Account 411 Customers is in class 1.",
+      "truth": "false",
+      "explain": "It starts with 4: class 4, third parties."
+     },
+     {
+      "text": "The last digit of an account number shows its class.",
+      "truth": "false",
+      "explain": "The first digit shows the class."
+     },
+     {
+      "text": "Account 701 Sales of goods is an expense account.",
+      "truth": "false",
+      "explain": "Class 7 is income."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

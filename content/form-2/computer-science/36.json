@@ -1,0 +1,335 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 36,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-36",
+   "name": "Spreadsheet software"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A spreadsheet program (Microsoft Excel, LibreOffice Calc, Google Sheets) organises data in a grid of rows and columns, and does calculations.\n• Columns are labelled with letters (A, B, C…), rows with numbers (1, 2, 3…).\n• A cell is where a column and a row meet; its address is the column letter and row number, for example B{3}.\n• A range is a block of cells, for example A{1}:A{5}.\n• A cell can hold text (labels), numbers or a formula.\n• A formula starts with =, for example =A{1}+A{2} or =B{2}*C{2}.\n• Functions are ready-made formulas: =SUM(A{1}:A{5}) adds, =AVERAGE(A{1}:A{5}) finds the mean, =MAX and =MIN find the largest and smallest.\nA file is a workbook; it contains worksheets (sheets).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 12,
+   "b": 15,
+   "c": 9
+  },
+  "problem": "Cells A{1}, A{2} and A{3} contain {a}, {b} and {c}. What does =SUM(A{1}:A{3}) give?",
+  "steps": [
+   "SUM adds all the cells in the range A{1} to A{3}.",
+   "{a} + {b} + {c} = {a + b + c}."
+  ],
+  "answer": "{a + b + c}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c36-1",
+    "status": "draft",
+    "idea": "A spreadsheet is a grid of columns (letters) and rows (numbers); each cell has an address like B{3}.",
+    "vars": {},
+    "example": [
+     "Column B, row {3}.",
+     "A range: A{1}:A{5}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-36-cell"
+    }
+   },
+   {
+    "id": "c36-2",
+    "status": "draft",
+    "idea": "A formula starts with =, for example =A{1}+A{2}.",
+    "vars": {},
+    "example": [
+     "=B{2}*C{2} multiplies.",
+     "The result shows in the cell."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-36-formula-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "office-software"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        2,
+        25
+       ]
+      },
+      "c": {
+       "int": [
+        2,
+        12
+       ]
+      }
+     },
+     "prompt": "Cell B{2} contains {b} and C{2} contains {c}. What does the formula =B{2}*C{2} give?",
+     "answer": "b * c",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "b + c",
+       "explain": "* means multiply, not add."
+      }
+     ],
+     "solution": [
+      "* means multiply.",
+      "{b} × {c} = {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c36-3",
+    "status": "draft",
+    "idea": "Functions: SUM adds, AVERAGE finds the mean, MAX and MIN find the largest and smallest.",
+    "vars": {},
+    "example": [
+     "=SUM(A{1}:A{5})",
+     "=AVERAGE(B{1}:B{4})"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-36-func"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-36-cell",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the address of the cell in column C, row 4?",
+       "r": "C4",
+       "w": [
+        "4C",
+        "C:4",
+        "R4C"
+       ],
+       "e": [
+        "The letter comes first.",
+        "No colon in a single cell.",
+        "That is not the usual form."
+       ],
+       "y": "Column letter then row number."
+      },
+      {
+       "q": "Which is a spreadsheet program?",
+       "r": "Microsoft Excel",
+       "w": [
+        "Microsoft Word",
+        "Paint",
+        "Google Chrome"
+       ],
+       "e": [
+        "That is a word processor.",
+        "That is for drawing.",
+        "That is a browser."
+       ],
+       "y": "Excel, Calc, Google Sheets."
+      },
+      {
+       "q": "What is a range?",
+       "r": "a block of cells, like A1:A5",
+       "w": [
+        "a single letter",
+        "a type of chart",
+        "the file name"
+       ],
+       "e": [
+        "That is a column label.",
+        "A chart shows data.",
+        "That is not a range."
+       ],
+       "y": "From the first to the last cell."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-36-formula",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      25
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Cell B{2} contains {b} and C{2} contains {c}. What does the formula =B{2}*C{2} give?",
+   "answer": "b * c",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "b + c",
+     "explain": "* means multiply, not add."
+    }
+   ],
+   "solution": [
+    "* means multiply.",
+    "{b} × {c} = {answer}."
+   ]
+  },
+  {
+   "id": "s2-36-func",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      60
+     ]
+    },
+    "b": {
+     "int": [
+      5,
+      60
+     ]
+    },
+    "c": {
+     "int": [
+      5,
+      60
+     ]
+    }
+   },
+   "prompt": "Cells A{1} to A{3} contain {a}, {b} and {c}. What does =SUM(A{1}:A{3}) give?",
+   "answer": "a + b + c",
+   "misconceptions": [
+    {
+     "id": "two",
+     "wrong": "a + c",
+     "explain": "A{1}:A{3} includes A{2} too."
+    }
+   ],
+   "solution": [
+    "SUM adds every cell in the range.",
+    "{a} + {b} + {c} = {answer}."
+   ]
+  },
+  {
+   "id": "s2-36-avg",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      4,
+      20
+     ]
+    },
+    "b": {
+     "int": [
+      4,
+      20
+     ]
+    },
+    "c": {
+     "int": [
+      4,
+      20
+     ]
+    },
+    "d": {
+     "int": [
+      4,
+      20
+     ]
+    }
+   },
+   "prompt": "Cells B{1} to B{4} contain {a}, {b}, {c} and {d}. What does =AVERAGE(B{1}:B{4}) give?",
+   "answer": "(a + b + c + d) / 4",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "a + b + c + d",
+     "explain": "That is the SUM; divide by the number of cells for the AVERAGE."
+    }
+   ],
+   "solution": [
+    "Add the four numbers: {a + b + c + d}.",
+    "Divide by {4}: {answer}."
+   ],
+   "where": "(a + b + c + d) % 4 == 0"
+  }
+ ]
+}

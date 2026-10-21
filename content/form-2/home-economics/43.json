@@ -1,0 +1,505 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 43,
+ "language": "en",
+ "prerequisites": [
+  40
+ ],
+ "skills": [
+  {
+   "id": "h2-43",
+   "name": "Heat transfer: radiation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Radiation is the transfer of heat as invisible rays (infrared waves) from a hot body, without needing any material. It can travel through empty space, like the heat of the sun reaching the Earth.\nSurfaces and radiation:\n• dull, dark (black) surfaces absorb and give out radiation well;\n• shiny, light (white or silver) surfaces reflect radiation and absorb little.\nExamples in the kitchen: grilling and toasting (heat rays from the grill or charcoal reach the food); roasting plantain or corn by an open fire; feeling the heat of a fire on your face; sun-drying fish, cocoa and cassava.\nAdvantages: quick cooking (grilling); food gets an attractive brown colour; free solar energy for drying.\nDisadvantages: food can burn on the outside before the inside is cooked; heat is lost from hot pots; a cook near the fire gets very hot.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "the outside of shiny cooking pots are good for keeping food hot"
+  },
+  "problem": "Explain why {x}.",
+  "steps": [
+   "Shiny surfaces give out (radiate) little heat.",
+   "So less heat is lost from the pot by radiation."
+  ],
+  "answer": "Shiny surfaces are poor radiators, so the food stays hot longer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c43-1",
+    "status": "draft",
+    "idea": "Radiation is the transfer of heat as invisible rays, without needing any material.",
+    "vars": {},
+    "example": [
+     "The sun's heat reaches the Earth through space.",
+     "You feel a fire's heat on your face."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-43-what"
+    }
+   },
+   {
+    "id": "c43-2",
+    "status": "draft",
+    "idea": "Dull black surfaces absorb and give out radiation well; shiny white surfaces reflect it.",
+    "vars": {},
+    "example": [
+     "Black clothes get hot in the sun.",
+     "Shiny foil reflects heat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-43-surface"
+    }
+   },
+   {
+    "id": "c43-3",
+    "status": "draft",
+    "idea": "Grilling, toasting, roasting by a fire and sun-drying use radiation.",
+    "vars": {},
+    "example": [
+     "Soya is grilled over charcoal.",
+     "Fish is dried in the sun."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-43-ex-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "heat-transfer"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "when grilling soya over charcoal",
+         "r": "radiation",
+         "w": [
+          "conduction",
+          "convection only",
+          "none"
+         ],
+         "e": [
+          "The food does not touch the charcoal.",
+          "Rising air is not the main way.",
+          "Heat does reach it."
+         ],
+         "y": "Heat rays from the hot coals."
+        },
+        {
+         "q": "when frying an egg in a pan",
+         "r": "conduction",
+         "w": [
+          "radiation",
+          "convection only",
+          "none"
+         ],
+         "e": [
+          "The pan touches the egg.",
+          "The pan conducts the heat.",
+          "Heat does reach it."
+         ],
+         "y": "The hot pan conducts heat to the egg."
+        },
+        {
+         "q": "when boiling water in a pot",
+         "r": "convection (after conduction through the base)",
+         "w": [
+          "radiation only",
+          "none",
+          "conduction through the air"
+         ],
+         "e": [
+          "The water is heated by currents.",
+          "Heat does move.",
+          "The water moves."
+         ],
+         "y": "Convection currents heat the water."
+        },
+        {
+         "q": "when drying cocoa beans in the sun",
+         "r": "radiation",
+         "w": [
+          "conduction",
+          "convection",
+          "none"
+         ],
+         "e": [
+          "The sun is far away.",
+          "The sun's heat crosses space.",
+          "Heat does reach it."
+         ],
+         "y": "The sun's rays."
+        }
+       ]
+      }
+     },
+     "prompt": "Which way of heat transfer is mainly used {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-43-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which way of heat transfer can pass through empty space?",
+       "r": "radiation",
+       "w": [
+        "conduction",
+        "convection",
+        "none of them"
+       ],
+       "e": [
+        "Conduction needs a material.",
+        "Convection needs a fluid.",
+        "Radiation can."
+       ],
+       "y": "The sun's heat crosses space."
+      },
+      {
+       "q": "How does heat from a fire reach your face when you sit near it?",
+       "r": "by radiation",
+       "w": [
+        "by conduction through the air",
+        "by convection downwards",
+        "by touching the flames"
+       ],
+       "e": [
+        "Air is a poor conductor.",
+        "Hot air rises, not sideways to you.",
+        "You do not touch them."
+       ],
+       "y": "Heat rays travel to you."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-43-surface",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which surface absorbs radiation best?",
+       "r": "dull black",
+       "w": [
+        "shiny silver",
+        "shiny white",
+        "polished mirror"
+       ],
+       "e": [
+        "Shiny surfaces reflect.",
+        "White reflects.",
+        "Mirrors reflect."
+       ],
+       "y": "Dull black absorbs heat rays."
+      },
+      {
+       "q": "Why are the walls of a vacuum flask shiny?",
+       "r": "to reflect radiation",
+       "w": [
+        "to absorb more heat",
+        "to look dark",
+        "to conduct heat"
+       ],
+       "e": [
+        "Shiny surfaces absorb little.",
+        "Shiny is not dark.",
+        "The vacuum stops conduction."
+       ],
+       "y": "Shiny walls reduce heat by radiation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-43-ex",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "when grilling soya over charcoal",
+       "r": "radiation",
+       "w": [
+        "conduction",
+        "convection only",
+        "none"
+       ],
+       "e": [
+        "The food does not touch the charcoal.",
+        "Rising air is not the main way.",
+        "Heat does reach it."
+       ],
+       "y": "Heat rays from the hot coals."
+      },
+      {
+       "q": "when frying an egg in a pan",
+       "r": "conduction",
+       "w": [
+        "radiation",
+        "convection only",
+        "none"
+       ],
+       "e": [
+        "The pan touches the egg.",
+        "The pan conducts the heat.",
+        "Heat does reach it."
+       ],
+       "y": "The hot pan conducts heat to the egg."
+      },
+      {
+       "q": "when boiling water in a pot",
+       "r": "convection (after conduction through the base)",
+       "w": [
+        "radiation only",
+        "none",
+        "conduction through the air"
+       ],
+       "e": [
+        "The water is heated by currents.",
+        "Heat does move.",
+        "The water moves."
+       ],
+       "y": "Convection currents heat the water."
+      },
+      {
+       "q": "when drying cocoa beans in the sun",
+       "r": "radiation",
+       "w": [
+        "conduction",
+        "convection",
+        "none"
+       ],
+       "e": [
+        "The sun is far away.",
+        "The sun's heat crosses space.",
+        "Heat does reach it."
+       ],
+       "y": "The sun's rays."
+      }
+     ]
+    }
+   },
+   "prompt": "Which way of heat transfer is mainly used {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-43-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Radiation can travel through space.",
+      "truth": "true"
+     },
+     {
+      "text": "Black surfaces absorb radiation well.",
+      "truth": "true"
+     },
+     {
+      "text": "Grilling uses radiation.",
+      "truth": "true"
+     },
+     {
+      "text": "Shiny surfaces reflect radiation.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Shiny surfaces absorb radiation best.",
+      "truth": "false",
+      "explain": "Dull black surfaces absorb best."
+     },
+     {
+      "text": "Radiation needs water to travel.",
+      "truth": "false",
+      "explain": "It needs no material at all."
+     },
+     {
+      "text": "Frying an egg is mainly radiation.",
+      "truth": "false",
+      "explain": "The pan conducts heat to the egg."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

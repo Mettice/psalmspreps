@@ -1,0 +1,432 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-21",
+   "name": "Accessing the internet"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The internet is a worldwide network of computer networks that share information.\nWhat is needed to access it:\n• a device: computer, smartphone, tablet;\n• a connection: mobile data (3G, 4G, 5G) through a SIM card, Wi-Fi, a modem or router, fibre optic cable, or satellite;\n• an Internet Service Provider (ISP), a company that gives access (for example MTN, Orange, Camtel, Nexttel);\n• software: a web browser or apps.\nData is measured in megabytes (MB) and gigabytes (GB); a data bundle gives a fixed amount. The speed is measured in megabits per second (Mbps).\nUses: searching for information, e-mail, learning, social media, e-commerce, mobile money, news.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a smartphone with a SIM card"
+  },
+  "problem": "What does a pupil need to browse the internet on {x}?",
+  "steps": [
+   "A data bundle (or Wi-Fi) from an Internet Service Provider for the connection.",
+   "A browser or app to open web pages."
+  ],
+  "answer": "A data bundle or Wi-Fi from an ISP, and a browser.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "The internet is a worldwide network of computer networks.",
+    "vars": {},
+    "example": [
+     "It links millions of computers.",
+     "It carries web pages, e-mail and videos."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-21-what"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "To access it you need a device, a connection, an Internet Service Provider and a browser or app.",
+    "vars": {},
+    "example": [
+     "MTN, Orange and Camtel are ISPs.",
+     "Wi-Fi and mobile data are connections."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-21-need"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Data is measured in MB and GB; connection speed in Mbps.",
+    "vars": {},
+    "example": [
+     "A bundle of {1} GB.",
+     "A {4}G connection is faster than {3}G."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-21-data-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "internet"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "In which unit is a data bundle measured?",
+         "r": "gigabytes (GB) or megabytes (MB)",
+         "w": [
+          "kilograms",
+          "metres",
+          "litres"
+         ],
+         "e": [
+          "That is mass.",
+          "That is length.",
+          "That is volume."
+         ],
+         "y": "Data is an amount of information."
+        },
+        {
+         "q": "Which connection is usually fastest?",
+         "r": "fibre optic",
+         "w": [
+          "2G",
+          "dial-up",
+          "no connection"
+         ],
+         "e": [
+          "2G is slow.",
+          "Dial-up is very slow.",
+          "That gives no access."
+         ],
+         "y": "Fibre carries data as light."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-21-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "internet"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the internet?",
+       "r": "a worldwide network of computer networks",
+       "w": [
+        "a single computer",
+        "a printer",
+        "a type of keyboard"
+       ],
+       "e": [
+        "It links many computers.",
+        "A printer is a device.",
+        "A keyboard is an input device."
+       ],
+       "y": "Networks joined across the world."
+      },
+      {
+       "q": "Which is a use of the internet?",
+       "r": "sending e-mail",
+       "w": [
+        "cooking food",
+        "ironing clothes",
+        "planting maize"
+       ],
+       "e": [
+        "That does not need the internet.",
+        "That does not need the internet.",
+        "That does not need the internet."
+       ],
+       "y": "E-mail travels over the internet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-21-need",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "internet"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is an Internet Service Provider (ISP)?",
+       "r": "a company that gives access to the internet",
+       "w": [
+        "a web page",
+        "a computer virus",
+        "a keyboard key"
+       ],
+       "e": [
+        "A page is content.",
+        "A virus is harmful software.",
+        "That is hardware."
+       ],
+       "y": "For example MTN, Orange, Camtel."
+      },
+      {
+       "q": "Which device connects a home network to the internet?",
+       "r": "a router (modem)",
+       "w": [
+        "a scanner",
+        "a speaker",
+        "a mouse"
+       ],
+       "e": [
+        "It copies documents.",
+        "It plays sound.",
+        "It points."
+       ],
+       "y": "The router links the home to the ISP."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-21-data",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "internet"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which unit is a data bundle measured?",
+       "r": "gigabytes (GB) or megabytes (MB)",
+       "w": [
+        "kilograms",
+        "metres",
+        "litres"
+       ],
+       "e": [
+        "That is mass.",
+        "That is length.",
+        "That is volume."
+       ],
+       "y": "Data is an amount of information."
+      },
+      {
+       "q": "Which connection is usually fastest?",
+       "r": "fibre optic",
+       "w": [
+        "2G",
+        "dial-up",
+        "no connection"
+       ],
+       "e": [
+        "2G is slow.",
+        "Dial-up is very slow.",
+        "That gives no access."
+       ],
+       "y": "Fibre carries data as light."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-21-calc",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "internet"
+   ],
+   "vars": {
+    "g": {
+     "pick": [
+      1,
+      2,
+      5
+     ]
+    },
+    "d": {
+     "pick": [
+      50,
+      100,
+      200,
+      250
+     ]
+    }
+   },
+   "prompt": "A data bundle of {g} GB is used at {d} MB a day. About how many days will it last? (1 GB = 1000 MB)",
+   "answer": "g * 1000 / d",
+   "misconceptions": [
+    {
+     "id": "nomb",
+     "wrong": "g / d",
+     "explain": "Change the GB to MB first."
+    }
+   ],
+   "solution": [
+    "Change GB to MB: {g} × {1000} = {g * 1000} MB.",
+    "Days = {g * 1000} ÷ {d} = {answer}."
+   ],
+   "unit": "days"
+  }
+ ]
+}

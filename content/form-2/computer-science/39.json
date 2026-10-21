@@ -1,0 +1,394 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 39,
+ "language": "en",
+ "prerequisites": [
+  38
+ ],
+ "skills": [
+  {
+   "id": "s2-39",
+   "name": "Using presentation software to solve problems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A presentation helps share information clearly: a project report, a health talk, a club announcement.\nSteps:\n1. Plan: the aim, the audience and the main points (one idea per slide).\n2. Create slides: a title slide, content slides, a conclusion and a thank-you slide.\n3. Add pictures, charts or diagrams that support the message.\n4. Apply a theme; use few transitions and animations.\n5. Check spelling; rehearse with speaker notes; present in slide show view.\nGood design rules:\n• few words: short bullet points (about 6 lines of about 6 words);\n• large, clear fonts (at least 24 points for text);\n• high contrast between text and background;\n• do not read the slides word for word; look at the audience.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a slide with ten long sentences in small writing"
+  },
+  "problem": "What is wrong with {x}, and how can it be improved?",
+  "steps": [
+   "The audience cannot read small writing, and long sentences are boring.",
+   "Use a few short bullet points in a large font, and say the details aloud."
+  ],
+  "answer": "Too much small text: use short bullet points in a large font.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c39-1",
+    "status": "draft",
+    "idea": "Plan the aim, audience and main points; put one idea on each slide.",
+    "vars": {},
+    "example": [
+     "Title slide first.",
+     "Conclusion at the end."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-39-plan"
+    }
+   },
+   {
+    "id": "c39-2",
+    "status": "draft",
+    "idea": "Use few words, large fonts and high contrast.",
+    "vars": {},
+    "example": [
+     "Short bullet points.",
+     "Dark text on a light background."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-39-design"
+    }
+   },
+   {
+    "id": "c39-3",
+    "status": "draft",
+    "idea": "Rehearse with speaker notes and look at the audience; do not read the slides word for word.",
+    "vars": {},
+    "example": [
+     "Practise before the day.",
+     "Speak clearly."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-39-present-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "office-software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What are speaker notes for?",
+         "r": "to remind the presenter what to say",
+         "w": [
+          "to show to the audience",
+          "to print posters",
+          "to calculate totals"
+         ],
+         "e": [
+          "The audience does not see them.",
+          "That is DTP.",
+          "That is a spreadsheet."
+         ],
+         "y": "Private notes for the speaker."
+        },
+        {
+         "q": "Which is good presenting?",
+         "r": "looking at the audience and explaining the points",
+         "w": [
+          "reading every word on the slide",
+          "turning your back to the class",
+          "speaking very quietly"
+         ],
+         "e": [
+          "That is boring.",
+          "Face the audience.",
+          "Speak clearly."
+         ],
+         "y": "Engage the audience."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-39-plan",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "prompt": "Put the steps of making a presentation in order.",
+   "items": [
+    {
+     "text": "Plan the aim and main points"
+    },
+    {
+     "text": "Create the slides"
+    },
+    {
+     "text": "Add pictures and charts"
+    },
+    {
+     "text": "Check spelling and rehearse"
+    },
+    {
+     "text": "Present in slide show view"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "s2-39-design",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which slide is easiest to read?",
+       "r": "short bullet points in a large font",
+       "w": [
+        "long paragraphs in tiny letters",
+        "yellow text on a white background",
+        "ten animations at once"
+       ],
+       "e": [
+        "Too small and long.",
+        "Low contrast.",
+        "Distracting."
+       ],
+       "y": "Few words, large fonts."
+      },
+      {
+       "q": "About what size should slide text be at least?",
+       "r": "24 points",
+       "w": [
+        "8 points",
+        "10 points",
+        "4 points"
+       ],
+       "e": [
+        "Too small.",
+        "Too small.",
+        "Far too small."
+       ],
+       "y": "Large enough to read from the back."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-39-present",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are speaker notes for?",
+       "r": "to remind the presenter what to say",
+       "w": [
+        "to show to the audience",
+        "to print posters",
+        "to calculate totals"
+       ],
+       "e": [
+        "The audience does not see them.",
+        "That is DTP.",
+        "That is a spreadsheet."
+       ],
+       "y": "Private notes for the speaker."
+      },
+      {
+       "q": "Which is good presenting?",
+       "r": "looking at the audience and explaining the points",
+       "w": [
+        "reading every word on the slide",
+        "turning your back to the class",
+        "speaking very quietly"
+       ],
+       "e": [
+        "That is boring.",
+        "Face the audience.",
+        "Speak clearly."
+       ],
+       "y": "Engage the audience."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-39-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "prompt": "Which design advice is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Put one main idea on each slide.",
+      "truth": "true"
+     },
+     {
+      "text": "Use a large clear font.",
+      "truth": "true"
+     },
+     {
+      "text": "Use high contrast.",
+      "truth": "true"
+     },
+     {
+      "text": "Rehearse before presenting.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Put as many words as possible on each slide.",
+      "truth": "false",
+      "explain": "Use few words."
+     },
+     {
+      "text": "Use a different animation on every word.",
+      "truth": "false",
+      "explain": "Too many effects distract."
+     },
+     {
+      "text": "Read the slides word for word with your back to the class.",
+      "truth": "false",
+      "explain": "Face the audience and explain."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

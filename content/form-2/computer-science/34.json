@@ -1,0 +1,372 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 34,
+ "language": "en",
+ "prerequisites": [
+  33
+ ],
+ "skills": [
+  {
+   "id": "s2-34",
+   "name": "Embedded systems and the Internet of Things"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An embedded system is a small computer built into a larger device to do one special job. It has a microcontroller (processor, memory, input and output on one chip), sensors (inputs) and actuators (outputs such as motors, lights, buzzers).\nExamples: washing machines, microwave ovens, digital watches, traffic lights, car engine controls, ATMs, printers, air conditioners.\nThe Internet of Things (IoT) is a network of everyday objects with embedded systems that connect to the internet and share data: smart TVs, smart meters (prepaid electricity), smart watches, home security cameras, smart farms, smart city lights.\nHow IoT works: a sensor collects data → the microcontroller processes it → the data is sent over the internet → an app or the cloud uses it → an actuator acts.\nAdvantages: automation, remote control, saving energy and water. Disadvantages: security and privacy risks, needs internet and power, cost.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a smart farm waters the crops when the soil is dry"
+  },
+  "problem": "Describe how {x}.",
+  "steps": [
+   "A soil moisture sensor measures the water in the soil.",
+   "The microcontroller decides the soil is too dry and switches on the pump (actuator); the farmer can see the data on a phone."
+  ],
+  "answer": "Sensor → microcontroller → pump, with the data sent to the farmer's phone.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c34-1",
+    "status": "draft",
+    "idea": "An embedded system is a small computer inside a device, doing one special job.",
+    "vars": {},
+    "example": [
+     "A washing machine's controller.",
+     "Traffic lights."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-34-emb"
+    }
+   },
+   {
+    "id": "c34-2",
+    "status": "draft",
+    "idea": "It has a microcontroller, sensors (inputs) and actuators (outputs).",
+    "vars": {},
+    "example": [
+     "A motor is an actuator.",
+     "A thermistor is a sensor."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-34-parts"
+    }
+   },
+   {
+    "id": "c34-3",
+    "status": "draft",
+    "idea": "The Internet of Things connects everyday objects to the internet to share data.",
+    "vars": {},
+    "example": [
+     "Smart watches.",
+     "Security cameras on a phone."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-34-iot-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "iot-cloud"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is the Internet of Things?",
+         "r": "everyday objects connected to the internet to share data",
+         "w": [
+          "a list of websites",
+          "a type of mouse",
+          "a social media app only"
+         ],
+         "e": [
+          "That is not it.",
+          "That is hardware.",
+          "It is wider than that."
+         ],
+         "y": "Smart devices online."
+        },
+        {
+         "q": "Which is a disadvantage of IoT devices?",
+         "r": "They can be hacked, risking privacy.",
+         "w": [
+          "They allow remote control.",
+          "They save energy.",
+          "They automate tasks."
+         ],
+         "e": [
+          "That is an advantage.",
+          "That is an advantage.",
+          "That is an advantage."
+         ],
+         "y": "Security is a risk."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-34-emb",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which device contains an embedded system?",
+       "r": "a microwave oven",
+       "w": [
+        "a wooden chair",
+        "a cooking pot",
+        "a pencil"
+       ],
+       "e": [
+        "It has no electronics.",
+        "It has no electronics.",
+        "It has no electronics."
+       ],
+       "y": "Its controller runs the timer and power."
+      },
+      {
+       "q": "What is an embedded system?",
+       "r": "a small computer built into a device for one job",
+       "w": [
+        "a desktop computer for many jobs",
+        "a printer cable",
+        "a website"
+       ],
+       "e": [
+        "A desktop is general-purpose.",
+        "A cable is not a computer.",
+        "A website is content."
+       ],
+       "y": "Dedicated to one job."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-34-parts",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "prompt": "Match each part of an embedded system to an example.",
+   "pool": [
+    {
+     "left": "sensor (input)",
+     "right": "a thermistor measuring temperature"
+    },
+    {
+     "left": "actuator (output)",
+     "right": "a motor turning a drum"
+    },
+    {
+     "left": "microcontroller",
+     "right": "a chip that processes the data"
+    },
+    {
+     "left": "display",
+     "right": "a screen showing the time left"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-34-iot",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the Internet of Things?",
+       "r": "everyday objects connected to the internet to share data",
+       "w": [
+        "a list of websites",
+        "a type of mouse",
+        "a social media app only"
+       ],
+       "e": [
+        "That is not it.",
+        "That is hardware.",
+        "It is wider than that."
+       ],
+       "y": "Smart devices online."
+      },
+      {
+       "q": "Which is a disadvantage of IoT devices?",
+       "r": "They can be hacked, risking privacy.",
+       "w": [
+        "They allow remote control.",
+        "They save energy.",
+        "They automate tasks."
+       ],
+       "e": [
+        "That is an advantage.",
+        "That is an advantage.",
+        "That is an advantage."
+       ],
+       "y": "Security is a risk."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-34-order",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "iot-cloud"
+   ],
+   "prompt": "Put the steps of an IoT system in order.",
+   "items": [
+    {
+     "text": "A sensor collects data"
+    },
+    {
+     "text": "The microcontroller processes it"
+    },
+    {
+     "text": "The data is sent over the internet"
+    },
+    {
+     "text": "An app or the cloud uses the data"
+    },
+    {
+     "text": "An actuator acts"
+    }
+   ],
+   "order": "as_written"
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [
+  30
+ ],
+ "skills": [
+  {
+   "id": "s2-31",
+   "name": "Managing digital footprints"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ways to manage your digital footprint:\n• Think before you post: is it true, kind, necessary? Would you be happy for a teacher or parent to see it?\n• Set social media accounts to private and check privacy settings regularly.\n• Do not share personal details: home address, school, phone number, location, ID card, photos of documents.\n• Search your name online to see what others can find.\n• Delete old accounts and posts you no longer want.\n• Clear cookies and browsing history; refuse unnecessary cookies; turn off location when not needed.\n• Ask before posting photos of others, and ask friends to remove photos of you that you do not want.\n• Report and block cyberbullies; tell a trusted adult.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a photo of your new school ID card"
+  },
+  "problem": "Should you post {x} on social media? Why?",
+  "steps": [
+   "The card shows your full name, school, photo and perhaps your date of birth.",
+   "Strangers could use these details for identity theft or to find you."
+  ],
+  "answer": "No: it reveals personal details.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "Think before you post: is it true, kind and necessary?",
+    "vars": {},
+    "example": [
+     "Would a teacher be happy to see it?",
+     "Posts can last for years."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-31-think"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "Keep accounts private and do not share personal details like your address or ID.",
+    "vars": {},
+    "example": [
+     "Turn off location when not needed.",
+     "Do not post documents."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-31-private"
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "Search your name, delete unwanted posts, clear cookies and ask before posting others' photos.",
+    "vars": {},
+    "example": [
+     "Remove old accounts.",
+     "Report and block bullies."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-31-clean-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "digital-identity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A friend posted a photo of you that you do not like. What should you do?",
+         "r": "ask them politely to remove it",
+         "w": [
+          "post a worse photo of them",
+          "insult them online",
+          "share it more"
+         ],
+         "e": [
+          "That is revenge.",
+          "That is cyberbullying.",
+          "That spreads it."
+         ],
+         "y": "Ask respectfully."
+        },
+        {
+         "q": "Which action reduces your passive footprint?",
+         "r": "clearing cookies and turning off location",
+         "w": [
+          "posting more photos",
+          "accepting all cookies",
+          "sharing your location always"
+         ],
+         "e": [
+          "That grows the active footprint.",
+          "That increases tracking.",
+          "That increases tracking."
+         ],
+         "y": "Less data is collected."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-31-think",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What should you ask yourself before posting?",
+       "r": "Is it true, kind and necessary?",
+       "w": [
+        "Will it make people angry?",
+        "Is it someone else's secret?",
+        "Can I post it before anyone stops me?"
+       ],
+       "e": [
+        "Do not post to anger people.",
+        "Do not share secrets.",
+        "That is not careful thinking."
+       ],
+       "y": "Think before you post."
+      },
+      {
+       "q": "Which post is safest to share publicly?",
+       "r": "a photo of your science project",
+       "w": [
+        "your home address",
+        "your mobile money PIN",
+        "a photo of your ID card"
+       ],
+       "e": [
+        "That shows where you live.",
+        "Never share PINs.",
+        "That reveals personal data."
+       ],
+       "y": "It shares no personal details."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-31-private",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why set a social media account to private?",
+       "r": "so only people you accept can see your posts",
+       "w": [
+        "so everyone can see it",
+        "to make it faster",
+        "to get more viruses"
+       ],
+       "e": [
+        "That is public.",
+        "Speed is not changed.",
+        "That is not true."
+       ],
+       "y": "You control who sees it."
+      },
+      {
+       "q": "Which detail should you not share online?",
+       "r": "your home address",
+       "w": [
+        "your favourite fruit",
+        "a drawing you made",
+        "your favourite football team"
+       ],
+       "e": [
+        "That is harmless.",
+        "That is harmless.",
+        "That is harmless."
+       ],
+       "y": "Strangers could find you."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-31-clean",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A friend posted a photo of you that you do not like. What should you do?",
+       "r": "ask them politely to remove it",
+       "w": [
+        "post a worse photo of them",
+        "insult them online",
+        "share it more"
+       ],
+       "e": [
+        "That is revenge.",
+        "That is cyberbullying.",
+        "That spreads it."
+       ],
+       "y": "Ask respectfully."
+      },
+      {
+       "q": "Which action reduces your passive footprint?",
+       "r": "clearing cookies and turning off location",
+       "w": [
+        "posting more photos",
+        "accepting all cookies",
+        "sharing your location always"
+       ],
+       "e": [
+        "That grows the active footprint.",
+        "That increases tracking.",
+        "That increases tracking."
+       ],
+       "y": "Less data is collected."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-31-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "digital-identity"
+   ],
+   "prompt": "Which advice is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Think before you post.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep accounts private.",
+      "truth": "true"
+     },
+     {
+      "text": "Search your name online.",
+      "truth": "true"
+     },
+     {
+      "text": "Ask before posting others' photos.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Post your phone number so friends can find you.",
+      "truth": "false",
+      "explain": "Strangers could misuse it."
+     },
+     {
+      "text": "Accept every cookie and keep location on all the time.",
+      "truth": "false",
+      "explain": "That increases your passive footprint."
+     },
+     {
+      "text": "Reply to cyberbullies with insults.",
+      "truth": "false",
+      "explain": "Report, block and tell an adult."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

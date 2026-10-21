@@ -1,0 +1,323 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-24",
+   "name": "Small kitchen equipment: types"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Small kitchen equipment are the hand tools and utensils used to prepare, cook and serve food. They are grouped by use:\n• preparing: knives, chopping board, grater, peeler, sieve, measuring cups and spoons, mortar and pestle, grinding stone, rolling pin, mixing bowls;\n• cooking: pots and saucepans, frying pan, kettle, steamer, wooden spoon, ladle, turning slice (spatula), tongs;\n• serving and storing: plates, dishes, cups, serving spoons, food flasks, containers with lids.\nMaterials: stainless steel, aluminium, cast iron, enamel, wood, plastic, glass, clay (earthenware pots).\nA knife has a blade (with a sharp edge and a point), a bolster and a handle. A saucepan has a body, a base, a lid with a knob and a handle.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "a grater"
+  },
+  "problem": "To which group does {t} belong, and what is it used for?",
+  "steps": [
+   "It is used before cooking, so it is a preparing tool.",
+   "Its sharp holes cut food into small pieces or shreds (cassava, coconut, carrots)."
+  ],
+  "answer": "A preparing tool, used to grate food into small pieces.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "Small equipment are hand tools and utensils for preparing, cooking and serving food.",
+    "vars": {},
+    "example": [
+     "Knives and graters prepare food.",
+     "Pots and ladles are for cooking."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-24-group"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "They are made of steel, aluminium, cast iron, enamel, wood, plastic, glass or clay.",
+    "vars": {},
+    "example": [
+     "Wooden spoons do not get hot.",
+     "Clay pots keep food warm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-24-mat"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "A knife has a blade, a bolster and a handle; a saucepan has a body, a base, a lid and a handle.",
+    "vars": {},
+    "example": [
+     "The blade has the sharp edge.",
+     "The lid has a knob."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-24-parts-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-equipment"
+     ],
+     "prompt": "Match each part to the tool it belongs to.",
+     "pool": [
+      {
+       "left": "blade",
+       "right": "knife"
+      },
+      {
+       "left": "lid with a knob",
+       "right": "saucepan"
+      },
+      {
+       "left": "sharp holes",
+       "right": "grater"
+      },
+      {
+       "left": "fine mesh",
+       "right": "sieve"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-24-group",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a chopping board",
+       "r": "preparing",
+       "w": [
+        "serving",
+        "storing",
+        "large equipment"
+       ],
+       "e": [
+        "Food is cut on it before cooking.",
+        "It is not for keeping food.",
+        "It is small."
+       ],
+       "y": "Food is cut on it."
+      },
+      {
+       "q": "a ladle",
+       "r": "cooking and serving",
+       "w": [
+        "preparing only",
+        "storing",
+        "cleaning"
+       ],
+       "e": [
+        "It is used with hot food.",
+        "It does not store food.",
+        "It does not clean."
+       ],
+       "y": "It stirs and serves soups."
+      },
+      {
+       "q": "a food flask",
+       "r": "serving and storing",
+       "w": [
+        "preparing",
+        "cooking",
+        "cleaning"
+       ],
+       "e": [
+        "It does not cut or mix.",
+        "It does not heat food.",
+        "It does not clean."
+       ],
+       "y": "It keeps food hot or cold."
+      },
+      {
+       "q": "a mortar and pestle",
+       "r": "preparing",
+       "w": [
+        "serving",
+        "storing",
+        "large equipment"
+       ],
+       "e": [
+        "It pounds food before cooking.",
+        "It does not store food.",
+        "It is small."
+       ],
+       "y": "It pounds pepper, groundnuts and fufu."
+      }
+     ]
+    }
+   },
+   "prompt": "Which group of small equipment does {X.q} belong to?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-24-mat",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "prompt": "Match each tool to a material it is often made of.",
+   "pool": [
+    {
+     "left": "wooden spoon",
+     "right": "wood"
+    },
+    {
+     "left": "earthenware pot",
+     "right": "clay"
+    },
+    {
+     "left": "kitchen knife blade",
+     "right": "stainless steel"
+    },
+    {
+     "left": "measuring jug",
+     "right": "glass or plastic"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-24-parts",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "prompt": "Match each part to the tool it belongs to.",
+   "pool": [
+    {
+     "left": "blade",
+     "right": "knife"
+    },
+    {
+     "left": "lid with a knob",
+     "right": "saucepan"
+    },
+    {
+     "left": "sharp holes",
+     "right": "grater"
+    },
+    {
+     "left": "fine mesh",
+     "right": "sieve"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-24-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A grater is a preparing tool.",
+      "truth": "true"
+     },
+     {
+      "text": "A ladle is used for soups.",
+      "truth": "true"
+     },
+     {
+      "text": "Wooden spoons do not get very hot.",
+      "truth": "true"
+     },
+     {
+      "text": "A sieve separates fine from coarse particles.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A refrigerator is a small kitchen tool.",
+      "truth": "false",
+      "explain": "It is large equipment."
+     },
+     {
+      "text": "A chopping board is used to serve soup.",
+      "truth": "false",
+      "explain": "It is used to cut food on."
+     },
+     {
+      "text": "The blade of a knife is the part you hold.",
+      "truth": "false",
+      "explain": "You hold the handle; the blade cuts."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

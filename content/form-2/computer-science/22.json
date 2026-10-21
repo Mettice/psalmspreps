@@ -1,0 +1,460 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "s2-22",
+   "name": "Using a web browser"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A web browser is a program used to open web pages: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera.\nParts: the address bar (type the URL), tabs, back and forward buttons, refresh (reload), home, bookmarks (favourites), history, downloads, the menu.\nA URL is the address of a page, for example https://www.minesec.gov.cm. Its parts: the protocol (https://), the domain name (minesec.gov.cm) and sometimes a path. “https” and a padlock show a secure connection.\nA search engine (Google, Bing) finds pages using keywords. Tips: use exact keywords, put a phrase in quotes, check several sources, and judge who wrote the page and when.\nSafety: do not download from unknown sites, do not click strange pop-ups, log out on shared computers.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "u": "https://www.minesec.gov.cm"
+  },
+  "problem": "Name the parts of the URL {u}.",
+  "steps": [
+   "“https://” is the protocol; the “s” means the connection is secure.",
+   "“www.minesec.gov.cm” is the domain name; “.cm” shows Cameroon."
+  ],
+  "answer": "Protocol: https://; domain name: www.minesec.gov.cm.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "A web browser is a program for opening web pages: Chrome, Firefox, Edge, Safari.",
+    "vars": {},
+    "example": [
+     "Type an address in the address bar.",
+     "Open several pages in tabs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-22-what"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "A URL is a web address: protocol, domain name and path.",
+    "vars": {},
+    "example": [
+     "https:// is the protocol.",
+     ".cm is Cameroon's country code."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-22-url"
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "A search engine finds pages by keywords; check that sources are reliable.",
+    "vars": {},
+    "example": [
+     "Google and Bing are search engines.",
+     "Compare several sites."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-22-search-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "internet"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is a search engine?",
+         "r": "a website that finds pages using keywords",
+         "w": [
+          "a computer's engine",
+          "a type of virus",
+          "a printer"
+         ],
+         "e": [
+          "It is software, not a motor.",
+          "It is not harmful.",
+          "It is not hardware."
+         ],
+         "y": "Google, Bing."
+        },
+        {
+         "q": "How can you check that information found online is reliable?",
+         "r": "compare several trusted sources",
+         "w": [
+          "believe the first result",
+          "trust every pop-up",
+          "use only one site"
+         ],
+         "e": [
+          "The first result may be wrong.",
+          "Pop-ups may be scams.",
+          "One site may be wrong."
+         ],
+         "y": "Cross-check."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-22-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "internet"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is a web browser?",
+       "r": "Mozilla Firefox",
+       "w": [
+        "Microsoft Word",
+        "Excel",
+        "Paint"
+       ],
+       "e": [
+        "Word is a word processor.",
+        "Excel is a spreadsheet.",
+        "Paint is a drawing program."
+       ],
+       "y": "Firefox opens web pages."
+      },
+      {
+       "q": "Which browser part do you use to type a web address?",
+       "r": "the address bar",
+       "w": [
+        "the back button",
+        "the refresh button",
+        "the scroll bar"
+       ],
+       "e": [
+        "It goes to the previous page.",
+        "It reloads the page.",
+        "It moves up and down."
+       ],
+       "y": "Type the URL in the address bar."
+      },
+      {
+       "q": "What does the refresh button do?",
+       "r": "loads the page again",
+       "w": [
+        "closes the browser",
+        "deletes the history",
+        "prints the page"
+       ],
+       "e": [
+        "That is the close button.",
+        "That is in settings.",
+        "That is the print command."
+       ],
+       "y": "Refresh reloads."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-22-url",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "internet"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In https://www.camtel.cm, what does “https” show?",
+       "r": "a secure connection protocol",
+       "w": [
+        "the country",
+        "the company's name",
+        "the page number"
+       ],
+       "e": [
+        "The country is .cm.",
+        "The name is camtel.",
+        "There is no page number."
+       ],
+       "y": "The s means secure."
+      },
+      {
+       "q": "Which part of a web address shows that a site is from Cameroon?",
+       "r": ".cm",
+       "w": [
+        ".com",
+        "www",
+        "https"
+       ],
+       "e": [
+        ".com is commercial, worldwide.",
+        "www means World Wide Web.",
+        "That is the protocol."
+       ],
+       "y": ".cm is Cameroon's country code."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-22-search",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "internet"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a search engine?",
+       "r": "a website that finds pages using keywords",
+       "w": [
+        "a computer's engine",
+        "a type of virus",
+        "a printer"
+       ],
+       "e": [
+        "It is software, not a motor.",
+        "It is not harmful.",
+        "It is not hardware."
+       ],
+       "y": "Google, Bing."
+      },
+      {
+       "q": "How can you check that information found online is reliable?",
+       "r": "compare several trusted sources",
+       "w": [
+        "believe the first result",
+        "trust every pop-up",
+        "use only one site"
+       ],
+       "e": [
+        "The first result may be wrong.",
+        "Pop-ups may be scams.",
+        "One site may be wrong."
+       ],
+       "y": "Cross-check."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-22-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "internet"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A URL is a web address.",
+      "truth": "true"
+     },
+     {
+      "text": "Chrome is a browser.",
+      "truth": "true"
+     },
+     {
+      "text": "Bookmarks save favourite pages.",
+      "truth": "true"
+     },
+     {
+      "text": "Log out on shared computers.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A search engine is a part of the computer's hardware.",
+      "truth": "false",
+      "explain": "It is a website (software)."
+     },
+     {
+      "text": "Download programs from any unknown site.",
+      "truth": "false",
+      "explain": "Unknown sites can spread viruses."
+     },
+     {
+      "text": "Microsoft Word is a web browser.",
+      "truth": "false",
+      "explain": "Word is a word processor."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

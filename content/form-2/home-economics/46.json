@@ -1,0 +1,445 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 46,
+ "language": "en",
+ "prerequisites": [
+  44
+ ],
+ "skills": [
+  {
+   "id": "h2-46",
+   "name": "Night blindness"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Night blindness is difficulty seeing in dim light or at night.\nCause: a lack of vitamin A. Vitamin A is needed to make a pigment in the eye (visual purple) that lets us see in dim light.\nSigns and symptoms: poor sight at dusk and at night; dry eyes; foamy grey spots on the white of the eye (Bitot's spots); in severe cases the eye becomes damaged and the child can go blind (xerophthalmia). Lack of vitamin A also lowers resistance to infection.\nSources of vitamin A: red palm oil, carrots, pawpaw, mangoes, sweet potatoes (orange), dark green leafy vegetables (njama-njama, okazi, cassava leaves), liver, eggs, milk, butter, fish oil.\nPrevention: eat foods rich in vitamin A every day; use red palm oil in cooking; breastfeed; give children vitamin A capsules at health campaigns.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a child cannot see well when the sun sets"
+  },
+  "problem": "Which vitamin is probably lacking if {x}, and which foods should the child eat?",
+  "steps": [
+   "Poor sight in dim light is night blindness, caused by a lack of vitamin A.",
+   "Red palm oil, carrots, mangoes, pawpaw and green leafy vegetables give vitamin A."
+  ],
+  "answer": "Vitamin A: give red palm oil, carrots, mangoes, pawpaw and green vegetables.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c46-1",
+    "status": "draft",
+    "idea": "Night blindness is difficulty seeing in dim light; it is caused by a lack of vitamin A.",
+    "vars": {},
+    "example": [
+     "The child cannot see well at dusk.",
+     "Vitamin A helps the eye see in dim light."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-46-cause"
+    }
+   },
+   {
+    "id": "c46-2",
+    "status": "draft",
+    "idea": "Signs: poor sight at night, dry eyes, grey spots on the white of the eye.",
+    "vars": {},
+    "example": [
+     "Bitot's spots.",
+     "Severe cases can lead to blindness."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-46-signs"
+    }
+   },
+   {
+    "id": "c46-3",
+    "status": "draft",
+    "idea": "Prevent it with foods rich in vitamin A: red palm oil, carrots, mangoes, pawpaw, green vegetables, liver, eggs.",
+    "vars": {},
+    "example": [
+     "Cook with red palm oil.",
+     "Vitamin A capsules at health campaigns."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-46-food-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "deficiency-diseases"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which food is rich in vitamin A?",
+         "r": "red palm oil",
+         "w": [
+          "white rice",
+          "sugar",
+          "salt"
+         ],
+         "e": [
+          "Rice is mostly starch.",
+          "Sugar has no vitamins.",
+          "Salt has no vitamins."
+         ],
+         "y": "Red palm oil is rich in vitamin A."
+        },
+        {
+         "q": "Which group of foods would best prevent night blindness?",
+         "r": "carrots, mangoes and green leafy vegetables",
+         "w": [
+          "bread, rice and sugar",
+          "soda and sweets",
+          "salt and pepper"
+         ],
+         "e": [
+          "Little vitamin A.",
+          "No vitamin A.",
+          "No vitamin A."
+         ],
+         "y": "These are rich in vitamin A."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-46-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What causes night blindness?",
+       "r": "a lack of vitamin A",
+       "w": [
+        "a lack of iron",
+        "a lack of iodine",
+        "too much protein"
+       ],
+       "e": [
+        "That causes anaemia.",
+        "That causes goitre.",
+        "That does not cause it."
+       ],
+       "y": "Vitamin A is needed for sight in dim light."
+      },
+      {
+       "q": "When does a person with night blindness see badly?",
+       "r": "in dim light and at night",
+       "w": [
+        "only at noon",
+        "only when reading in sunlight",
+        "never"
+       ],
+       "e": [
+        "They see well in bright light.",
+        "Bright light is fine.",
+        "They do see badly at night."
+       ],
+       "y": "Dim light is the problem."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-46-signs",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a sign of vitamin A deficiency in the eye?",
+       "r": "dry eyes with grey foamy spots",
+       "w": [
+        "a swollen neck",
+        "swollen feet",
+        "bleeding gums"
+       ],
+       "e": [
+        "That is goitre.",
+        "That is kwashiorkor.",
+        "That is scurvy."
+       ],
+       "y": "Bitot's spots."
+      },
+      {
+       "q": "What can severe vitamin A deficiency lead to?",
+       "r": "blindness",
+       "w": [
+        "better eyesight",
+        "stronger teeth",
+        "taller growth"
+       ],
+       "e": [
+        "It harms sight.",
+        "That is not linked.",
+        "That is not linked."
+       ],
+       "y": "The eye can be damaged permanently."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-46-food",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which food is rich in vitamin A?",
+       "r": "red palm oil",
+       "w": [
+        "white rice",
+        "sugar",
+        "salt"
+       ],
+       "e": [
+        "Rice is mostly starch.",
+        "Sugar has no vitamins.",
+        "Salt has no vitamins."
+       ],
+       "y": "Red palm oil is rich in vitamin A."
+      },
+      {
+       "q": "Which group of foods would best prevent night blindness?",
+       "r": "carrots, mangoes and green leafy vegetables",
+       "w": [
+        "bread, rice and sugar",
+        "soda and sweets",
+        "salt and pepper"
+       ],
+       "e": [
+        "Little vitamin A.",
+        "No vitamin A.",
+        "No vitamin A."
+       ],
+       "y": "These are rich in vitamin A."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-46-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Night blindness is caused by a lack of vitamin A.",
+      "truth": "true"
+     },
+     {
+      "text": "Red palm oil gives vitamin A.",
+      "truth": "true"
+     },
+     {
+      "text": "Carrots give vitamin A.",
+      "truth": "true"
+     },
+     {
+      "text": "Severe deficiency can cause blindness.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Night blindness is caused by a lack of iodine.",
+      "truth": "false",
+      "explain": "It is caused by a lack of vitamin A."
+     },
+     {
+      "text": "White rice is the best source of vitamin A.",
+      "truth": "false",
+      "explain": "Red palm oil, carrots and green vegetables are."
+     },
+     {
+      "text": "People with night blindness see badly at noon.",
+      "truth": "false",
+      "explain": "They see badly in dim light."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

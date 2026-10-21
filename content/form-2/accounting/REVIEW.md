@@ -157,6 +157,12 @@ Full working after a second miss:
 | 10 | The functioning of expense and revenue accounts and Opening, reopening, balancing and closing accounts | draft | 3 | 4 | — |
 | 11 | Single entry recording principle. and Double entry Principle | draft | 3 | 4 | — |
 | 12 | The Trial Balance and Reciprocity of accounts | draft | 3 | 4 | — |
+| 13 | Definition, Objectives and Domain of OHADA, The structure of accounts (classes of accounts) | draft | 3 | 4 | — |
+| 14 | The use of the various classes of accounts and codification of accounts and The role of some digits in the code of accounts | draft | 3 | 4 | — |
+| 15 | The notions of ordinary and extraordinary activity.and the alignment (parallelism) of accounts | draft | 3 | 4 | — |
+| 16 | The content of class 1, 2 and 3 accounts | draft | 3 | 4 | — |
+| 17 | The content of class 4, 5 and 6 accounts | draft | 3 | 4 | — |
+| 18 | The content of class 7,and 8 accounts | draft | 3 | 4 | — |
 
 ## Lesson 1: Definition and Evaluation of Financial Possition of a Business
 
@@ -2393,4 +2399,1271 @@ Full working after a second miss:
 
 > The wrong statement is “A trial balance lists only cash.”.  
 > It lists all balances.  
+
+## Lesson 13: Definition, Objectives and Domain of OHADA, The structure of accounts (classes of accounts)
+
+Prerequisites: none · Skill: a2-13 (The OHADA accounting system: definition, objectives and structure)
+
+**Note** (draft)
+
+> OHADA (Organisation pour l'Harmonisation en Afrique du Droit des Affaires, the Organisation for the Harmonisation of Business Law in Africa) was created by a treaty signed in Port Louis in 1993. It has 17 member states, including Cameroon.
+> Its accounting system, SYSCOHADA (revised in 2017), gives all member states the same accounting rules.
+> Objectives: common rules so that accounts can be compared; reliable information for owners, banks, the State and investors; easier trade and investment between member states; legal security for businesses.
+> Domain: it applies to businesses (traders, companies, cooperatives) in member states.
+> Structure: accounts are arranged in classes numbered 1 to 9.
+> • Classes 1–5: balance sheet accounts.
+> • Classes 6–8: income statement (management) accounts.
+> • Class 9: commitments and cost (analytical) accounts.
+
+**Card c13-1** (draft)
+
+> OHADA harmonises business law in its member states; its accounting system is SYSCOHADA.
+>
+> _Cameroon is a member._  
+> _The treaty was signed in Port Louis in 1993._  
+
+Check question: `a2-13-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Is Cameroon a member of OHADA?
+
+- ◻️ Only Douala  
+  _↳ feedback if chosen: The whole country is a member._
+- ✅ Yes
+- ◻️ Only the North West  
+  _↳ feedback if chosen: The whole country is a member._
+- ◻️ No  
+  _↳ feedback if chosen: Cameroon is a member._
+
+Full working after a second miss:
+
+> Cameroon is one of the member states.  
+> So the answer is “Yes”.  
+
+**Card c13-2** (draft)
+
+> Its objectives are common rules, comparable and reliable accounts, and easier trade and investment.
+>
+> _Banks can compare accounts._  
+> _Investors trust the information._  
+
+Check question: `a2-13-obj` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Who uses accounting information from businesses?
+
+- ◻️ only competitors' children  
+  _↳ feedback if chosen: That is not true._
+- ✅ owners, banks, the State and investors
+- ◻️ nobody  
+  _↳ feedback if chosen: Many people use it._
+- ◻️ only the cleaner  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Users of accounts.  
+> So the answer is “owners, banks, the State and investors”.  
+
+**Card c13-3** (draft)
+
+> Accounts are grouped in classes 1 to 9: classes 1–5 for the balance sheet, 6–8 for the income statement.
+>
+> _Class 9: commitments and cost accounts._  
+> _Each class has a number._  
+
+Check question: `a2-13-classes-card` · multiple choice, level 1 · **authored key**
+
+> Which classes are balance sheet accounts?
+
+- ◻️ class 9 only  
+  _↳ feedback if chosen: Class 9 is commitments and costs._
+- ◻️ classes 6 to 8  
+  _↳ feedback if chosen: Those are income statement accounts._
+- ✅ classes 1 to 5
+- ◻️ classes 7 and 8 only  
+  _↳ feedback if chosen: Those are income statement accounts._
+
+Full working after a second miss:
+
+> Classes 1–5.  
+> So the answer is “classes 1 to 5”.  
+
+**Worked example** (draft)
+
+> Why does OHADA help a trader in Douala and a trader in Dakar?
+
+1. Both countries are OHADA members and use the same accounting rules (SYSCOHADA).
+2. Their accounts can be read and compared in the same way by banks and partners.
+
+**Answer:** They use the same accounting rules, so their accounts are comparable.
+
+**Practice** `a2-13-what` · multiple choice, level 1 · **authored key**
+
+> Is Cameroon a member of OHADA?
+
+- ◻️ Only Douala  
+  _↳ feedback if chosen: The whole country is a member._
+- ✅ Yes
+- ◻️ Only the North West  
+  _↳ feedback if chosen: The whole country is a member._
+- ◻️ No  
+  _↳ feedback if chosen: Cameroon is a member._
+
+Full working after a second miss:
+
+> Cameroon is one of the member states.  
+> So the answer is “Yes”.  
+
+> What is SYSCOHADA?
+
+- ✅ the accounting system of the OHADA member states
+- ◻️ a bank in Yaoundé  
+  _↳ feedback if chosen: It is a system of rules._
+- ◻️ a computer program only  
+  _↳ feedback if chosen: It is a set of rules, not a program._
+- ◻️ a type of tax  
+  _↳ feedback if chosen: It is not a tax._
+
+Full working after a second miss:
+
+> The common accounting system.  
+> So the answer is “the accounting system of the OHADA member states”.  
+
+**Practice** `a2-13-obj` · multiple choice, level 1 · **authored key**
+
+> Who uses accounting information from businesses?
+
+- ◻️ nobody  
+  _↳ feedback if chosen: Many people use it._
+- ✅ owners, banks, the State and investors
+- ◻️ only competitors' children  
+  _↳ feedback if chosen: That is not true._
+- ◻️ only the cleaner  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Users of accounts.  
+> So the answer is “owners, banks, the State and investors”.  
+
+> Which is an objective of OHADA accounting?
+
+- ◻️ hiding information from banks  
+  _↳ feedback if chosen: It gives reliable information._
+- ✅ common rules so that accounts can be compared
+- ◻️ stopping trade between countries  
+  _↳ feedback if chosen: It makes trade easier._
+- ◻️ each business inventing its own rules  
+  _↳ feedback if chosen: That is the opposite._
+
+Full working after a second miss:
+
+> Harmonised rules.  
+> So the answer is “common rules so that accounts can be compared”.  
+
+**Practice** `a2-13-classes` · multiple choice, level 2 · **authored key**
+
+> Which classes are income statement (management) accounts?
+
+- ◻️ classes 1 to 5  
+  _↳ feedback if chosen: Those are balance sheet accounts._
+- ✅ classes 6 to 8
+- ◻️ class 9  
+  _↳ feedback if chosen: That is commitments and costs._
+- ◻️ class 1 only  
+  _↳ feedback if chosen: That is a balance sheet class._
+
+Full working after a second miss:
+
+> Expenses and income.  
+> So the answer is “classes 6 to 8”.  
+
+> Which classes are income statement (management) accounts?
+
+- ◻️ classes 1 to 5  
+  _↳ feedback if chosen: Those are balance sheet accounts._
+- ✅ classes 6 to 8
+- ◻️ class 9  
+  _↳ feedback if chosen: That is commitments and costs._
+- ◻️ class 1 only  
+  _↳ feedback if chosen: That is a balance sheet class._
+
+Full working after a second miss:
+
+> Expenses and income.  
+> So the answer is “classes 6 to 8”.  
+
+**Practice** `a2-13-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ OHADA harmonises business law.
+- ◻️ Cameroon is an OHADA member.
+- ✅ Classes 6–8 are balance sheet accounts.  
+  _↳ explanation: They are income statement accounts._
+- ◻️ SYSCOHADA was revised in 2017.
+
+Full working after a second miss:
+
+> The wrong statement is “Classes 6–8 are balance sheet accounts.”.  
+> They are income statement accounts.  
+
+> Which statement is wrong?
+
+- ◻️ OHADA harmonises business law.
+- ◻️ Classes 1–5 are balance sheet accounts.
+- ◻️ Cameroon is an OHADA member.
+- ✅ Each OHADA country uses completely different accounting rules.  
+  _↳ explanation: They use the same rules (SYSCOHADA)._
+
+Full working after a second miss:
+
+> The wrong statement is “Each OHADA country uses completely different accounting rules.”.  
+> They use the same rules (SYSCOHADA).  
+
+## Lesson 14: The use of the various classes of accounts and codification of accounts and The role of some digits in the code of accounts
+
+Prerequisites: 13 · Skill: a2-14 (Classes of accounts and their codification)
+
+**Note** (draft)
+
+> Every account has a number (code). The digits show where it belongs:
+> • the 1st digit is the class (for example 6 = expenses);
+> • the first 2 digits are the main account (60 = purchases);
+> • the first 3 digits are the divisional account (601 = purchases of goods);
+> • more digits give sub-accounts (6011 = purchases of goods in the OHADA region).
+> So the longer the number, the more detailed the account.
+> The eight classes used in the accounts:
+> 1 durable resources; 2 fixed assets; 3 stocks; 4 third parties; 5 treasury; 6 expenses of ordinary activities; 7 income of ordinary activities; 8 other (extraordinary) expenses and income.
+> Example: 571 Cash: class 5 (treasury), main account 57 (cash), account 571.
+
+**Card c14-1** (draft)
+
+> The first digit of an account number is its class.
+>
+> _521 Banks: class 5._  
+> _401 Suppliers: class 4._  
+
+Check question: `a2-14-class` · number, level 1 · computed by rule, reused from practice
+
+> In which class is account 571 (Cash in hand)?
+
+Answer: **5**
+- Typed **57** (two) → “The class is only the first digit.”
+
+Full working after a second miss:
+
+> The class is the first digit of the account number.  
+> 571 starts with 5, so it is class 5.  
+
+**Card c14-2** (draft)
+
+> The first two digits give the main account; three digits the divisional account.
+>
+> _601: main account 60._  
+> _More digits, more detail._  
+
+Check question: `a2-14-main-card` · number, level 1 · computed by rule
+
+> What is the main account (the first two digits) of account 321 (Raw materials in stock)?
+
+Answer: **32**
+- Typed **3** (one) → “That is the class; the main account has two digits.”
+
+Full working after a second miss:
+
+> The main account is given by the first two digits.  
+> So it is 32.  
+
+**Card c14-3** (draft)
+
+> The classes: 1 resources, 2 fixed assets, 3 stocks, 4 third parties, 5 treasury, 6 expenses, 7 income, 8 extraordinary.
+>
+> _Cash is in class 5._  
+> _Sales are in class 7._  
+
+Check question: `a2-14-match` · matching, level 1 · **authored key**, reused from practice
+
+> Match each class to its content.
+
+Right-hand side (shuffled): durable resources (capital, reserves, long-term loans) · fixed assets · third parties (suppliers, customers, staff, State) · income of ordinary activities
+- class 1 → **durable resources (capital, reserves, long-term loans)**
+- class 2 → **fixed assets**
+- class 7 → **income of ordinary activities**
+- class 4 → **third parties (suppliers, customers, staff, State)**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> class 1 → durable resources (capital, reserves, long-term loans)  
+> class 2 → fixed assets  
+> class 7 → income of ordinary activities  
+> class 4 → third parties (suppliers, customers, staff, State)  
+
+**Worked example** (draft)
+
+> Explain the digits of account 6011.
+
+1. The first digit, 6, is the class: expenses of ordinary activities.
+2. 60 is the main account (purchases), 601 the divisional account (purchases of goods), and 6011 a sub-account.
+
+**Answer:** Class 6; main account 60; divisional account 601; sub-account 6011.
+
+**Practice** `a2-14-class` · number, level 1 · computed by rule
+
+> In which class is account 231 (Buildings)?
+
+Answer: **2**
+- Typed **23** (two) → “The class is only the first digit.”
+
+Full working after a second miss:
+
+> The class is the first digit of the account number.  
+> 231 starts with 2, so it is class 2.  
+
+> In which class is account 422 (Staff: salaries due)?
+
+Answer: **4**
+- Typed **42** (two) → “The class is only the first digit.”
+
+Full working after a second miss:
+
+> The class is the first digit of the account number.  
+> 422 starts with 4, so it is class 4.  
+
+**Practice** `a2-14-main` · number, level 2 · computed by rule
+
+> What is the main account (the first two digits) of account 571 (Cash in hand)?
+
+Answer: **57**
+- Typed **5** (one) → “That is the class; the main account has two digits.”
+
+Full working after a second miss:
+
+> The main account is given by the first two digits.  
+> So it is 57.  
+
+> What is the main account (the first two digits) of account 231 (Buildings)?
+
+Answer: **23**
+- Typed **2** (one) → “That is the class; the main account has two digits.”
+
+Full working after a second miss:
+
+> The main account is given by the first two digits.  
+> So it is 23.  
+
+**Practice** `a2-14-match` · matching, level 1 · **authored key**
+
+> Match each class to its content.
+
+Right-hand side (shuffled): fixed assets · third parties (suppliers, customers, staff, State) · income of ordinary activities · durable resources (capital, reserves, long-term loans)
+- class 1 → **durable resources (capital, reserves, long-term loans)**
+- class 4 → **third parties (suppliers, customers, staff, State)**
+- class 7 → **income of ordinary activities**
+- class 2 → **fixed assets**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> class 1 → durable resources (capital, reserves, long-term loans)  
+> class 4 → third parties (suppliers, customers, staff, State)  
+> class 7 → income of ordinary activities  
+> class 2 → fixed assets  
+
+> Match each class to its content.
+
+Right-hand side (shuffled): durable resources (capital, reserves, long-term loans) · stocks · other (extraordinary) expenses and income · treasury (bank, cash)
+- class 8 → **other (extraordinary) expenses and income**
+- class 1 → **durable resources (capital, reserves, long-term loans)**
+- class 3 → **stocks**
+- class 5 → **treasury (bank, cash)**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> class 8 → other (extraordinary) expenses and income  
+> class 1 → durable resources (capital, reserves, long-term loans)  
+> class 3 → stocks  
+> class 5 → treasury (bank, cash)  
+
+**Practice** `a2-14-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Account 411 Customers is in class 1.  
+  _↳ explanation: It starts with 4: class 4, third parties._
+- ◻️ More digits give more detail.
+- ◻️ 571 Cash is in class 5.
+- ◻️ The first digit shows the class.
+
+Full working after a second miss:
+
+> The wrong statement is “Account 411 Customers is in class 1.”.  
+> It starts with 4: class 4, third parties.  
+
+> Which statement is wrong?
+
+- ◻️ 571 Cash is in class 5.
+- ◻️ The first digit shows the class.
+- ◻️ More digits give more detail.
+- ✅ The last digit of an account number shows its class.  
+  _↳ explanation: The first digit shows the class._
+
+Full working after a second miss:
+
+> The wrong statement is “The last digit of an account number shows its class.”.  
+> The first digit shows the class.  
+
+## Lesson 15: The notions of ordinary and extraordinary activity.and the alignment (parallelism) of accounts
+
+Prerequisites: 14 · Skill: a2-15 (Ordinary and extraordinary activities; parallelism of accounts)
+
+**Note** (draft)
+
+> Ordinary activities are the normal, regular operations of a business: buying and selling goods, producing, paying salaries, rent, transport, electricity, receiving interest. They are recorded in classes 6 (expenses) and 7 (income).
+> Extraordinary activities (in OHADA: “HAO”, outside ordinary activities) are unusual events that do not happen regularly: selling a fixed asset (an old van or building), receiving a gift or subsidy for equipment, paying a fine or penalty, losses from a fire or flood. They are recorded in class 8.
+> Parallelism (alignment) of accounts: the expense and income accounts are numbered to match each other, so related accounts are easy to find:
+> • 60 Purchases ↔ 70 Sales;
+> • 65 Other expenses ↔ 75 Other income;
+> • 67 Financial expenses ↔ 77 Financial income;
+> • 81 Book value of fixed assets sold ↔ 82 Proceeds from sale of fixed assets;
+> • 83 Extraordinary (HAO) expenses ↔ 84 Extraordinary (HAO) income.
+
+**Card c15-1** (draft)
+
+> Ordinary activities are the normal, regular operations; they go in classes 6 and 7.
+>
+> _Buying and selling goods._  
+> _Paying salaries._  
+
+Check question: `a2-15-ord` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Is this an ordinary or an extraordinary activity for a shop? Paying staff salaries.
+
+- ◻️ extraordinary  
+  _↳ feedback if chosen: Ask: does this happen regularly in the normal business?_
+- ✅ ordinary
+- ◻️ not an activity of the business  
+  _↳ feedback if chosen: It is an activity of the business._
+
+Full working after a second miss:
+
+> Ordinary activities are the normal, regular operations; extraordinary ones are unusual.  
+> So it is ordinary.  
+
+**Card c15-2** (draft)
+
+> Extraordinary (HAO) activities are unusual events; they go in class 8.
+>
+> _Selling an old van._  
+> _A loss from a fire._  
+
+Check question: `a2-15-hao` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In which class are extraordinary (HAO) activities recorded?
+
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is ordinary income._
+- ✅ class 8
+- ◻️ class 2  
+  _↳ feedback if chosen: Class 2 is fixed assets._
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is ordinary expenses._
+
+Full working after a second miss:
+
+> Class 8: other expenses and income.  
+> So the answer is “class 8”.  
+
+**Card c15-3** (draft)
+
+> Parallelism: expense and income accounts match, for example 60 Purchases and 70 Sales.
+>
+> _67 Financial expenses, 77 Financial income._  
+> _81 and 82 for fixed assets sold._  
+
+Check question: `a2-15-par-card` · multiple choice, level 1 · computed by rule
+
+> By parallelism, which income account matches expense account 81 Book value of fixed assets sold?
+
+- ◻️ 77 Financial income  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+- ◻️ 24 Equipment  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+- ✅ 82 Proceeds from sale of fixed assets
+- ◻️ 70 Sales  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+
+Full working after a second miss:
+
+> Expense and income accounts are numbered to match each other.  
+> So 81 Book value of fixed assets sold matches 82 Proceeds from sale of fixed assets.  
+
+**Worked example** (draft)
+
+> Is it an ordinary or an extraordinary activity when a shop sells its old delivery van? In which class is it recorded?
+
+1. The shop's normal business is buying and selling goods, not vans.
+2. Selling a fixed asset is unusual: an extraordinary (HAO) activity.
+
+**Answer:** Extraordinary; class 8 (accounts 81 and 82).
+
+**Practice** `a2-15-ord` · multiple choice, level 1 · computed by rule
+
+> Is this an ordinary or an extraordinary activity for a shop? Paying the monthly electricity bill.
+
+- ◻️ extraordinary  
+  _↳ feedback if chosen: Ask: does this happen regularly in the normal business?_
+- ✅ ordinary
+- ◻️ not an activity of the business  
+  _↳ feedback if chosen: It is an activity of the business._
+
+Full working after a second miss:
+
+> Ordinary activities are the normal, regular operations; extraordinary ones are unusual.  
+> So it is ordinary.  
+
+> Is this an ordinary or an extraordinary activity for a shop? Selling an old building.
+
+- ◻️ ordinary  
+  _↳ feedback if chosen: Ask: does this happen regularly in the normal business?_
+- ◻️ not an activity of the business  
+  _↳ feedback if chosen: It is an activity of the business._
+- ✅ extraordinary
+
+Full working after a second miss:
+
+> Ordinary activities are the normal, regular operations; extraordinary ones are unusual.  
+> So it is extraordinary.  
+
+**Practice** `a2-15-hao` · multiple choice, level 1 · **authored key**
+
+> In which class are extraordinary (HAO) activities recorded?
+
+- ✅ class 8
+- ◻️ class 2  
+  _↳ feedback if chosen: Class 2 is fixed assets._
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is ordinary income._
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is ordinary expenses._
+
+Full working after a second miss:
+
+> Class 8: other expenses and income.  
+> So the answer is “class 8”.  
+
+> What does HAO mean?
+
+- ◻️ a type of stock  
+  _↳ feedback if chosen: That is class 3._
+- ◻️ the owner's capital  
+  _↳ feedback if chosen: That is class 1._
+- ◻️ a bank account  
+  _↳ feedback if chosen: That is class 5._
+- ✅ outside ordinary activities
+
+Full working after a second miss:
+
+> Hors Activités Ordinaires.  
+> So the answer is “outside ordinary activities”.  
+
+**Practice** `a2-15-par` · multiple choice, level 2 · computed by rule
+
+> By parallelism, which income account matches expense account 83 Extraordinary (HAO) expenses?
+
+- ◻️ 75 Other income  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+- ✅ 84 Extraordinary (HAO) income
+- ◻️ 70 Sales  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+- ◻️ 41 Customers  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+
+Full working after a second miss:
+
+> Expense and income accounts are numbered to match each other.  
+> So 83 Extraordinary (HAO) expenses matches 84 Extraordinary (HAO) income.  
+
+> By parallelism, which income account matches expense account 67 Financial expenses?
+
+- ◻️ 57 Cash  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+- ✅ 77 Financial income
+- ◻️ 84 Extraordinary income  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+- ◻️ 70 Sales  
+  _↳ feedback if chosen: Match the number pattern: the expense in 6x matches the income in 7x, and 81 matches 82, 83 matches 84._
+
+Full working after a second miss:
+
+> Expense and income accounts are numbered to match each other.  
+> So 67 Financial expenses matches 77 Financial income.  
+
+**Practice** `a2-15-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Class 8 records HAO items.
+- ✅ A loss from a flood is recorded in class 7.  
+  _↳ explanation: It is extraordinary: class 8._
+- ◻️ 60 Purchases matches 70 Sales.
+- ◻️ Selling goods is an ordinary activity.
+
+Full working after a second miss:
+
+> The wrong statement is “A loss from a flood is recorded in class 7.”.  
+> It is extraordinary: class 8.  
+
+> Which statement is wrong?
+
+- ✅ 67 Financial expenses matches 70 Sales.  
+  _↳ explanation: It matches 77 Financial income._
+- ◻️ Selling goods is an ordinary activity.
+- ◻️ Class 8 records HAO items.
+- ◻️ 60 Purchases matches 70 Sales.
+
+Full working after a second miss:
+
+> The wrong statement is “67 Financial expenses matches 70 Sales.”.  
+> It matches 77 Financial income.  
+
+## Lesson 16: The content of class 1, 2 and 3 accounts
+
+Prerequisites: 14 · Skill: a2-16 (The content of classes 1, 2 and 3)
+
+**Note** (draft)
+
+> Class 1: durable (long-term) resources, the money that finances the business for a long time:
+> • 10 capital (101 share capital, 103 personal capital of a sole trader), 11 reserves, 12 retained earnings, 13 net result of the year, 14 investment subsidies, 16 loans and borrowings (162 bank loans).
+> Class 2: fixed assets, goods kept for a long time to be used in the business:
+> • 21 intangible assets (software, patents), 22 land, 23 buildings, 24 equipment (241 industrial equipment, 244 office furniture and equipment, 245 transport equipment), 27 financial assets, 28 depreciation of fixed assets.
+> Class 3: stocks, goods kept for sale or use in production:
+> • 31 goods (merchandise), 32 raw materials, 33 other supplies, 34 work in progress, 36 finished products.
+
+**Card c16-1** (draft)
+
+> Class 1 holds durable resources: capital, reserves, results and long-term loans.
+>
+> _101 Share capital._  
+> _162 Bank loans._  
+
+Check question: `a2-16-c1` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In which class is a five-year bank loan recorded?
+
+- ✅ class 1
+- ◻️ class 3  
+  _↳ feedback if chosen: Class 3 is stocks._
+- ◻️ class 8  
+  _↳ feedback if chosen: Class 8 is HAO._
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is expenses._
+
+Full working after a second miss:
+
+> Long-term loans are durable resources (16).  
+> So the answer is “class 1”.  
+
+**Card c16-2** (draft)
+
+> Class 2 holds fixed assets: land, buildings, equipment, vans, software.
+>
+> _231 Buildings._  
+> _245 Transport equipment._  
+
+Check question: `a2-16-c2` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which account is used for a building bought for the shop?
+
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: That is money._
+- ◻️ 311 Goods  
+  _↳ feedback if chosen: That is stock for sale._
+- ◻️ 601 Purchases of goods  
+  _↳ feedback if chosen: That is buying goods for resale._
+- ✅ 231 Buildings
+
+Full working after a second miss:
+
+> A building is a fixed asset.  
+> So the answer is “231 Buildings”.  
+
+**Card c16-3** (draft)
+
+> Class 3 holds stocks: goods for sale, raw materials, finished products.
+>
+> _311 Goods in stock._  
+> _321 Raw materials._  
+
+Check question: `a2-16-c3-card` · multiple choice, level 1 · **authored key**
+
+> What is the difference between class 2 and class 3?
+
+- ✅ Class 2 is kept for use for a long time; class 3 is kept for sale or production.
+- ◻️ Class 3 is capital.  
+  _↳ feedback if chosen: Capital is class 1._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ◻️ Class 2 is money; class 3 is debts.  
+  _↳ feedback if chosen: That is not right._
+
+Full working after a second miss:
+
+> Fixed assets vs stocks.  
+> So the answer is “Class 2 is kept for use for a long time; class 3 is kept for sale or production.”.  
+
+**Worked example** (draft)
+
+> In which class and account is a delivery van bought for the business recorded?
+
+1. A van is kept for a long time and used in the business: a fixed asset (class 2).
+2. Vans are transport equipment: account 245.
+
+**Answer:** Class 2, account 245 Transport equipment.
+
+**Practice** `a2-16-c1` · multiple choice, level 1 · **authored key**
+
+> In which class is a five-year bank loan recorded?
+
+- ◻️ class 8  
+  _↳ feedback if chosen: Class 8 is HAO._
+- ◻️ class 3  
+  _↳ feedback if chosen: Class 3 is stocks._
+- ✅ class 1
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is expenses._
+
+Full working after a second miss:
+
+> Long-term loans are durable resources (16).  
+> So the answer is “class 1”.  
+
+> In which class is a five-year bank loan recorded?
+
+- ◻️ class 3  
+  _↳ feedback if chosen: Class 3 is stocks._
+- ✅ class 1
+- ◻️ class 8  
+  _↳ feedback if chosen: Class 8 is HAO._
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is expenses._
+
+Full working after a second miss:
+
+> Long-term loans are durable resources (16).  
+> So the answer is “class 1”.  
+
+**Practice** `a2-16-c2` · multiple choice, level 1 · **authored key**
+
+> Which account is used for a delivery van?
+
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: That is a resource._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That is a third party._
+- ✅ 245 Transport equipment
+
+Full working after a second miss:
+
+> Vans are transport equipment.  
+> So the answer is “245 Transport equipment”.  
+
+> Which account is used for a building bought for the shop?
+
+- ◻️ 311 Goods  
+  _↳ feedback if chosen: That is stock for sale._
+- ◻️ 601 Purchases of goods  
+  _↳ feedback if chosen: That is buying goods for resale._
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: That is money._
+- ✅ 231 Buildings
+
+Full working after a second miss:
+
+> A building is a fixed asset.  
+> So the answer is “231 Buildings”.  
+
+**Practice** `a2-16-c3` · multiple choice, level 2 · **authored key**
+
+> What is the difference between class 2 and class 3?
+
+- ◻️ Class 2 is money; class 3 is debts.  
+  _↳ feedback if chosen: That is not right._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ✅ Class 2 is kept for use for a long time; class 3 is kept for sale or production.
+- ◻️ Class 3 is capital.  
+  _↳ feedback if chosen: Capital is class 1._
+
+Full working after a second miss:
+
+> Fixed assets vs stocks.  
+> So the answer is “Class 2 is kept for use for a long time; class 3 is kept for sale or production.”.  
+
+> A shop has rice bags in its store waiting to be sold. In which class are they?
+
+- ✅ class 3 (stocks)
+- ◻️ class 2 (fixed assets)  
+  _↳ feedback if chosen: They are not kept for use._
+- ◻️ class 5 (treasury)  
+  _↳ feedback if chosen: They are not money._
+- ◻️ class 1 (resources)  
+  _↳ feedback if chosen: They are not a resource._
+
+Full working after a second miss:
+
+> Goods for sale are stocks (311).  
+> So the answer is “class 3 (stocks)”.  
+
+**Practice** `a2-16-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ 101 Capital is in class 1.
+- ✅ Goods for resale are fixed assets in class 2.  
+  _↳ explanation: They are stocks in class 3._
+- ◻️ 311 Goods are in class 3.
+- ◻️ 245 Transport equipment is in class 2.
+
+Full working after a second miss:
+
+> The wrong statement is “Goods for resale are fixed assets in class 2.”.  
+> They are stocks in class 3.  
+
+> Which statement is wrong?
+
+- ◻️ 162 Bank loans are in class 1.
+- ◻️ 245 Transport equipment is in class 2.
+- ✅ Goods for resale are fixed assets in class 2.  
+  _↳ explanation: They are stocks in class 3._
+- ◻️ 311 Goods are in class 3.
+
+Full working after a second miss:
+
+> The wrong statement is “Goods for resale are fixed assets in class 2.”.  
+> They are stocks in class 3.  
+
+## Lesson 17: The content of class 4, 5 and 6 accounts
+
+Prerequisites: 16 · Skill: a2-17 (The content of classes 4, 5 and 6)
+
+**Note** (draft)
+
+> Class 4: third-party accounts, people and organisations the business deals with on credit:
+> • 40 suppliers (401 suppliers of goods), 41 customers (411), 42 staff (422 salaries due), 43 social security (CNPS in Cameroon), 44 the State (taxes, VAT), 47 other debtors and creditors.
+> Class 5: treasury accounts, money available at once:
+> • 52 banks (521), 53 financial institutions (post office), 55 electronic money (mobile money), 57 cash in hand (571).
+> Class 6: expenses of ordinary activities:
+> • 60 purchases (601 purchases of goods, 605 other purchases: water, electricity), 61 transport, 62 and 63 external services (rent, repairs, insurance, advertising), 64 taxes, 65 other expenses, 66 staff expenses (661 salaries), 67 financial expenses (interest), 68 depreciation.
+
+**Card c17-1** (draft)
+
+> Class 4 holds third parties: suppliers, customers, staff, social security and the State.
+>
+> _401 Suppliers._  
+> _411 Customers._  
+
+Check question: `a2-17-c4` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which account is used for salaries owed to workers at the end of the month?
+
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: Not yet paid._
+- ✅ 422 Staff: salaries due
+- ◻️ 661 Staff salaries  
+  _↳ feedback if chosen: 661 is the expense; 422 is the amount owed._
+- ◻️ 311 Goods  
+  _↳ feedback if chosen: That is stock._
+
+Full working after a second miss:
+
+> The amount owed to staff.  
+> So the answer is “422 Staff: salaries due”.  
+
+**Card c17-2** (draft)
+
+> Class 5 holds treasury: bank, post office and cash.
+>
+> _521 Banks._  
+> _571 Cash in hand._  
+
+Check question: `a2-17-c5` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In which class is money in the bank?
+
+- ✅ class 5
+- ◻️ class 1  
+  _↳ feedback if chosen: Class 1 is resources._
+- ◻️ class 4  
+  _↳ feedback if chosen: Class 4 is third parties._
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is income._
+
+Full working after a second miss:
+
+> 521 Banks: treasury.  
+> So the answer is “class 5”.  
+
+**Card c17-3** (draft)
+
+> Class 6 holds expenses of ordinary activities: purchases, transport, rent, salaries, interest.
+>
+> _601 Purchases of goods._  
+> _661 Staff salaries._  
+
+Check question: `a2-17-c6-card` · multiple choice, level 1 · **authored key**
+
+> Which account is used for buying goods to resell?
+
+- ◻️ 311 Goods in stock  
+  _↳ feedback if chosen: Stock is recorded at inventory._
+- ✅ 601 Purchases of goods
+- ◻️ 245 Transport equipment  
+  _↳ feedback if chosen: That is a fixed asset._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+
+Full working after a second miss:
+
+> Purchases are expenses.  
+> So the answer is “601 Purchases of goods”.  
+
+**Worked example** (draft)
+
+> Which accounts are used for goods bought on credit from a supplier?
+
+1. Buying goods is an expense: 601 Purchases of goods (class 6).
+2. The amount owed to the supplier is a third-party account: 401 Suppliers (class 4).
+
+**Answer:** 601 Purchases of goods and 401 Suppliers.
+
+**Practice** `a2-17-c4` · multiple choice, level 1 · **authored key**
+
+> Which account is used for a customer who will pay later?
+
+- ◻️ 401 Suppliers  
+  _↳ feedback if chosen: Suppliers are owed money by us._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Sales record the income, not the debt._
+- ✅ 411 Customers
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: No cash was received yet._
+
+Full working after a second miss:
+
+> The customer owes the business.  
+> So the answer is “411 Customers”.  
+
+> Which account is used for a supplier the business must pay?
+
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: That is the owner's capital._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Customers owe us._
+- ◻️ 521 Banks  
+  _↳ feedback if chosen: That is money in the bank._
+- ✅ 401 Suppliers
+
+Full working after a second miss:
+
+> We owe the supplier.  
+> So the answer is “401 Suppliers”.  
+
+**Practice** `a2-17-c5` · multiple choice, level 1 · **authored key**
+
+> In which class is money in the bank?
+
+- ✅ class 5
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is income._
+- ◻️ class 4  
+  _↳ feedback if chosen: Class 4 is third parties._
+- ◻️ class 1  
+  _↳ feedback if chosen: Class 1 is resources._
+
+Full working after a second miss:
+
+> 521 Banks: treasury.  
+> So the answer is “class 5”.  
+
+> In which class is money in the bank?
+
+- ◻️ class 1  
+  _↳ feedback if chosen: Class 1 is resources._
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is income._
+- ✅ class 5
+- ◻️ class 4  
+  _↳ feedback if chosen: Class 4 is third parties._
+
+Full working after a second miss:
+
+> 521 Banks: treasury.  
+> So the answer is “class 5”.  
+
+**Practice** `a2-17-c6` · multiple choice, level 2 · **authored key**
+
+> Which account is used for paying the electricity bill?
+
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That is a third party._
+- ◻️ 231 Buildings  
+  _↳ feedback if chosen: That is a fixed asset._
+- ✅ 605 Other purchases (water, electricity)
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+
+Full working after a second miss:
+
+> Electricity is an ordinary expense.  
+> So the answer is “605 Other purchases (water, electricity)”.  
+
+> Which account is used for buying goods to resell?
+
+- ◻️ 245 Transport equipment  
+  _↳ feedback if chosen: That is a fixed asset._
+- ✅ 601 Purchases of goods
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+- ◻️ 311 Goods in stock  
+  _↳ feedback if chosen: Stock is recorded at inventory._
+
+Full working after a second miss:
+
+> Purchases are expenses.  
+> So the answer is “601 Purchases of goods”.  
+
+**Practice** `a2-17-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ 401 Suppliers is in class 4.
+- ◻️ 601 Purchases is in class 6.
+- ◻️ 661 Salaries is an expense.
+- ✅ Money in the bank is recorded in class 6.  
+  _↳ explanation: It is treasury: class 5 (521)._
+
+Full working after a second miss:
+
+> The wrong statement is “Money in the bank is recorded in class 6.”.  
+> It is treasury: class 5 (521).  
+
+> Which statement is wrong?
+
+- ◻️ 601 Purchases is in class 6.
+- ◻️ 571 Cash is in class 5.
+- ◻️ 401 Suppliers is in class 4.
+- ✅ 411 Customers is a treasury account in class 5.  
+  _↳ explanation: It is a third-party account in class 4._
+
+Full working after a second miss:
+
+> The wrong statement is “411 Customers is a treasury account in class 5.”.  
+> It is a third-party account in class 4.  
+
+## Lesson 18: The content of class 7,and 8 accounts
+
+Prerequisites: 17 · Skill: a2-18 (The content of classes 7 and 8)
+
+**Note** (draft)
+
+> Class 7: income of ordinary activities:
+> • 70 sales (701 sales of goods, 702 sales of finished products, 706 services sold), 71 operating subsidies, 72 own production of fixed assets, 73 change in stocks of products, 75 other income, 77 financial income (interest received), 79 reversals.
+> Class 8: other (extraordinary, HAO) expenses and income:
+> • 81 book value of fixed assets sold, 82 proceeds from the sale of fixed assets, 83 HAO expenses (fines, losses from disasters), 84 HAO income (gifts, compensation), 85 HAO provisions, 86 HAO reversals, 87 workers' share of profit, 88 balancing subsidies, 89 income tax.
+> The difference between income (7, plus HAO income in 8) and expenses (6, plus HAO expenses in 8) gives the net result: a profit if income is greater, a loss if expenses are greater.
+> Result = total income − total expenses.
+
+**Card c18-1** (draft)
+
+> Class 7 holds income of ordinary activities: sales, services sold, financial income.
+>
+> _701 Sales of goods._  
+> _706 Services sold._  
+
+Check question: `a2-18-c7` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which account is used for repair services sold by a garage?
+
+- ◻️ 701 Sales of goods  
+  _↳ feedback if chosen: Services are not goods._
+- ◻️ 605 Other purchases  
+  _↳ feedback if chosen: That is an expense._
+- ✅ 706 Services sold
+- ◻️ 245 Transport equipment  
+  _↳ feedback if chosen: That is a fixed asset._
+
+Full working after a second miss:
+
+> 706 is for services.  
+> So the answer is “706 Services sold”.  
+
+**Card c18-2** (draft)
+
+> Class 8 holds extraordinary (HAO) items: sale of fixed assets, fines, disaster losses, income tax.
+>
+> _82 Proceeds from sale of fixed assets._  
+> _89 Income tax._  
+
+Check question: `a2-18-c8` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In which class is the money received from selling an old van recorded?
+
+- ◻️ class 7 (account 701)  
+  _↳ feedback if chosen: It is not an ordinary sale._
+- ✅ class 8 (account 82)
+- ◻️ class 5 only  
+  _↳ feedback if chosen: The cash goes to class 5, but the income is in 82._
+- ◻️ class 2 only  
+  _↳ feedback if chosen: The asset leaves class 2; the proceeds go to 82._
+
+Full working after a second miss:
+
+> Proceeds from sale of fixed assets: 82.  
+> So the answer is “class 8 (account 82)”.  
+
+**Card c18-3** (draft)
+
+> Result = total income − total expenses: a profit if positive, a loss if negative.
+>
+> _Income 500 000, expenses 400 000: profit 100 000._  
+> _Expenses greater: a loss._  
+
+Check question: `a2-18-result-card` · number, level 1 · computed by rule
+
+> A business has total income of 600 000 FCFA and total expenses of 500 000 FCFA. What is the result? (A loss is negative.)
+
+Answer: **100 000 FCFA**
+- Typed **−100 000** (swap) → “Subtract the expenses from the income.”
+
+Full working after a second miss:
+
+> Result = total income − total expenses.  
+> 600 000 − 500 000 = 100 000 FCFA.  
+
+**Worked example** (draft)
+
+> A shop's total income is 850 000 FCFA and its total expenses are 620 000 FCFA. Find the result.
+
+1. Result = total income − total expenses.
+2. 850 000 − 620 000 = 230 000 FCFA; income is greater, so it is a profit.
+
+**Answer:** A profit of 230 000 FCFA.
+
+**Practice** `a2-18-c7` · multiple choice, level 1 · **authored key**
+
+> Which account is used for goods sold to customers?
+
+- ◻️ 601 Purchases of goods  
+  _↳ feedback if chosen: That is an expense._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That records the debt, not the income._
+- ✅ 701 Sales of goods
+- ◻️ 822 Proceeds from sale of fixed assets  
+  _↳ feedback if chosen: That is for fixed assets._
+
+Full working after a second miss:
+
+> Sales are ordinary income.  
+> So the answer is “701 Sales of goods”.  
+
+> Which account is used for goods sold to customers?
+
+- ✅ 701 Sales of goods
+- ◻️ 601 Purchases of goods  
+  _↳ feedback if chosen: That is an expense._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That records the debt, not the income._
+- ◻️ 822 Proceeds from sale of fixed assets  
+  _↳ feedback if chosen: That is for fixed assets._
+
+Full working after a second miss:
+
+> Sales are ordinary income.  
+> So the answer is “701 Sales of goods”.  
+
+**Practice** `a2-18-c8` · multiple choice, level 1 · **authored key**
+
+> Which account records income tax on profit?
+
+- ◻️ 411  
+  _↳ feedback if chosen: That is customers._
+- ◻️ 571  
+  _↳ feedback if chosen: That is cash._
+- ✅ 89
+- ◻️ 701  
+  _↳ feedback if chosen: That is sales._
+
+Full working after a second miss:
+
+> 89 Income tax.  
+> So the answer is “89”.  
+
+> Which account records income tax on profit?
+
+- ◻️ 571  
+  _↳ feedback if chosen: That is cash._
+- ✅ 89
+- ◻️ 701  
+  _↳ feedback if chosen: That is sales._
+- ◻️ 411  
+  _↳ feedback if chosen: That is customers._
+
+Full working after a second miss:
+
+> 89 Income tax.  
+> So the answer is “89”.  
+
+**Practice** `a2-18-result` · number, level 2 · computed by rule
+
+> A business has total income of 650 000 FCFA and total expenses of 350 000 FCFA. What is the result? (A loss is negative.)
+
+Answer: **300 000 FCFA**
+- Typed **−300 000** (swap) → “Subtract the expenses from the income.”
+
+Full working after a second miss:
+
+> Result = total income − total expenses.  
+> 650 000 − 350 000 = 300 000 FCFA.  
+
+> A business has total income of 350 000 FCFA and total expenses of 200 000 FCFA. What is the result? (A loss is negative.)
+
+Answer: **150 000 FCFA**
+- Typed **−150 000** (swap) → “Subtract the expenses from the income.”
+
+Full working after a second miss:
+
+> Result = total income − total expenses.  
+> 350 000 − 200 000 = 150 000 FCFA.  
+
+**Practice** `a2-18-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Proceeds from selling a fixed asset go to 82.
+- ✅ The sale of an old van is recorded in 701 Sales of goods.  
+  _↳ explanation: It is extraordinary: 82._
+- ◻️ Result = income − expenses.
+- ◻️ Income tax is in class 8.
+
+Full working after a second miss:
+
+> The wrong statement is “The sale of an old van is recorded in 701 Sales of goods.”.  
+> It is extraordinary: 82.  
+
+> Which statement is wrong?
+
+- ✅ A profit happens when expenses are greater than income.  
+  _↳ explanation: That is a loss._
+- ◻️ 701 Sales of goods is in class 7.
+- ◻️ Proceeds from selling a fixed asset go to 82.
+- ◻️ Income tax is in class 8.
+
+Full working after a second miss:
+
+> The wrong statement is “A profit happens when expenses are greater than income.”.  
+> That is a loss.  
 

@@ -50,6 +50,28 @@ Regenerate with `npm run review:f2-accounting`. Item IDs (TR-…) match `docs/te
 | 36 | `a2-12-recip` | 12 | multiple choice, 1 | recording |
 | 37 | `a2-12-limit` | 12 | spot the error, 3 | recording |
 | 38 | `a2-12-limit-card` (card c12-3) | 12 | spot the error, 1 | recording |
+| 39 | `a2-13-what` | 13 | multiple choice, 1 | ohada |
+| 40 | `a2-13-obj` | 13 | multiple choice, 1 | ohada |
+| 41 | `a2-13-classes` | 13 | multiple choice, 2 | ohada |
+| 42 | `a2-13-spot` | 13 | spot the error, 3 | ohada |
+| 43 | `a2-13-classes-card` (card c13-3) | 13 | multiple choice, 1 | ohada |
+| 44 | `a2-14-match` | 14 | matching, 1 | ohada |
+| 45 | `a2-14-spot` | 14 | spot the error, 3 | ohada |
+| 46 | `a2-15-hao` | 15 | multiple choice, 1 | ohada |
+| 47 | `a2-15-spot` | 15 | spot the error, 3 | ohada |
+| 48 | `a2-16-c1` | 16 | multiple choice, 1 | ohada |
+| 49 | `a2-16-c2` | 16 | multiple choice, 1 | ohada |
+| 50 | `a2-16-c3` | 16 | multiple choice, 2 | ohada |
+| 51 | `a2-16-spot` | 16 | spot the error, 3 | ohada |
+| 52 | `a2-16-c3-card` (card c16-3) | 16 | multiple choice, 1 | ohada |
+| 53 | `a2-17-c4` | 17 | multiple choice, 1 | ohada |
+| 54 | `a2-17-c5` | 17 | multiple choice, 1 | ohada |
+| 55 | `a2-17-c6` | 17 | multiple choice, 2 | ohada |
+| 56 | `a2-17-spot` | 17 | spot the error, 3 | ohada |
+| 57 | `a2-17-c6-card` (card c17-3) | 17 | multiple choice, 1 | ohada |
+| 58 | `a2-18-c7` | 18 | multiple choice, 1 | ohada |
+| 59 | `a2-18-c8` | 18 | multiple choice, 1 | ohada |
+| 60 | `a2-18-spot` | 18 | spot the error, 3 | ohada |
 
 ### `a2-1-own` · Lesson 1 · matching, level 1
 
@@ -2567,4 +2589,1434 @@ Full working after a second miss:
 > It lists all balances.  
 
 Sources: recording (Ledger (T) accounts; the functioning of balance sheet, expense and revenue accounts; balancing; single and double entry; the trial balance and the reciprocity of accounts)
+
+### `a2-13-what` · Lesson 13 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is SYSCOHADA? | the accounting system of the OHADA member states | a bank in Yaoundé · a type of tax · a computer program only | It is a system of rules. · It is not a tax. · It is a set of rules, not a program. | The common accounting system. |
+| Is Cameroon a member of OHADA? | Yes | No · Only the North West · Only Douala | Cameroon is a member. · The whole country is a member. · The whole country is a member. | Cameroon is one of the member states. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is SYSCOHADA?
+
+- ◻️ a computer program only  
+  _↳ feedback if chosen: It is a set of rules, not a program._
+- ✅ the accounting system of the OHADA member states
+- ◻️ a bank in Yaoundé  
+  _↳ feedback if chosen: It is a system of rules._
+- ◻️ a type of tax  
+  _↳ feedback if chosen: It is not a tax._
+
+Full working after a second miss:
+
+> The common accounting system.  
+> So the answer is “the accounting system of the OHADA member states”.  
+
+> Is Cameroon a member of OHADA?
+
+- ◻️ Only Douala  
+  _↳ feedback if chosen: The whole country is a member._
+- ◻️ No  
+  _↳ feedback if chosen: Cameroon is a member._
+- ✅ Yes
+- ◻️ Only the North West  
+  _↳ feedback if chosen: The whole country is a member._
+
+Full working after a second miss:
+
+> Cameroon is one of the member states.  
+> So the answer is “Yes”.  
+
+> Is Cameroon a member of OHADA?
+
+- ◻️ Only Douala  
+  _↳ feedback if chosen: The whole country is a member._
+- ✅ Yes
+- ◻️ Only the North West  
+  _↳ feedback if chosen: The whole country is a member._
+- ◻️ No  
+  _↳ feedback if chosen: Cameroon is a member._
+
+Full working after a second miss:
+
+> Cameroon is one of the member states.  
+> So the answer is “Yes”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-13-obj` · Lesson 13 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an objective of OHADA accounting? | common rules so that accounts can be compared | each business inventing its own rules · hiding information from banks · stopping trade between countries | That is the opposite. · It gives reliable information. · It makes trade easier. | Harmonised rules. |
+| Who uses accounting information from businesses? | owners, banks, the State and investors | nobody · only the cleaner · only competitors' children | Many people use it. · That is not true. · That is not true. | Users of accounts. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Who uses accounting information from businesses?
+
+- ◻️ nobody  
+  _↳ feedback if chosen: Many people use it._
+- ✅ owners, banks, the State and investors
+- ◻️ only competitors' children  
+  _↳ feedback if chosen: That is not true._
+- ◻️ only the cleaner  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Users of accounts.  
+> So the answer is “owners, banks, the State and investors”.  
+
+> Who uses accounting information from businesses?
+
+- ◻️ nobody  
+  _↳ feedback if chosen: Many people use it._
+- ◻️ only the cleaner  
+  _↳ feedback if chosen: That is not true._
+- ◻️ only competitors' children  
+  _↳ feedback if chosen: That is not true._
+- ✅ owners, banks, the State and investors
+
+Full working after a second miss:
+
+> Users of accounts.  
+> So the answer is “owners, banks, the State and investors”.  
+
+> Who uses accounting information from businesses?
+
+- ◻️ nobody  
+  _↳ feedback if chosen: Many people use it._
+- ✅ owners, banks, the State and investors
+- ◻️ only competitors' children  
+  _↳ feedback if chosen: That is not true._
+- ◻️ only the cleaner  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Users of accounts.  
+> So the answer is “owners, banks, the State and investors”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-13-classes` · Lesson 13 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which classes are balance sheet accounts? | classes 1 to 5 | classes 6 to 8 · class 9 only · classes 7 and 8 only | Those are income statement accounts. · Class 9 is commitments and costs. · Those are income statement accounts. | Classes 1–5. |
+| Which classes are income statement (management) accounts? | classes 6 to 8 | classes 1 to 5 · class 9 · class 1 only | Those are balance sheet accounts. · That is commitments and costs. · That is a balance sheet class. | Expenses and income. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which classes are income statement (management) accounts?
+
+- ◻️ class 9  
+  _↳ feedback if chosen: That is commitments and costs._
+- ◻️ class 1 only  
+  _↳ feedback if chosen: That is a balance sheet class._
+- ◻️ classes 1 to 5  
+  _↳ feedback if chosen: Those are balance sheet accounts._
+- ✅ classes 6 to 8
+
+Full working after a second miss:
+
+> Expenses and income.  
+> So the answer is “classes 6 to 8”.  
+
+> Which classes are balance sheet accounts?
+
+- ◻️ classes 7 and 8 only  
+  _↳ feedback if chosen: Those are income statement accounts._
+- ✅ classes 1 to 5
+- ◻️ classes 6 to 8  
+  _↳ feedback if chosen: Those are income statement accounts._
+- ◻️ class 9 only  
+  _↳ feedback if chosen: Class 9 is commitments and costs._
+
+Full working after a second miss:
+
+> Classes 1–5.  
+> So the answer is “classes 1 to 5”.  
+
+> Which classes are income statement (management) accounts?
+
+- ◻️ classes 1 to 5  
+  _↳ feedback if chosen: Those are balance sheet accounts._
+- ✅ classes 6 to 8
+- ◻️ class 9  
+  _↳ feedback if chosen: That is commitments and costs._
+- ◻️ class 1 only  
+  _↳ feedback if chosen: That is a balance sheet class._
+
+Full working after a second miss:
+
+> Expenses and income.  
+> So the answer is “classes 6 to 8”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-13-spot` · Lesson 13 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ OHADA harmonises business law.
+- ✅ Cameroon is an OHADA member.
+- ✅ Classes 1–5 are balance sheet accounts.
+- ✅ SYSCOHADA was revised in 2017.
+- ❌ Each OHADA country uses completely different accounting rules.  
+  _↳ They use the same rules (SYSCOHADA)._
+- ❌ Classes 6–8 are balance sheet accounts.  
+  _↳ They are income statement accounts._
+- ❌ OHADA accounts are numbered in classes 1 to 20.  
+  _↳ Classes are numbered 1 to 9._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ SYSCOHADA was revised in 2017.
+- ◻️ Classes 1–5 are balance sheet accounts.
+- ✅ Classes 6–8 are balance sheet accounts.  
+  _↳ explanation: They are income statement accounts._
+- ◻️ Cameroon is an OHADA member.
+
+Full working after a second miss:
+
+> The wrong statement is “Classes 6–8 are balance sheet accounts.”.  
+> They are income statement accounts.  
+
+> Which statement is wrong?
+
+- ◻️ Classes 1–5 are balance sheet accounts.
+- ◻️ OHADA harmonises business law.
+- ◻️ SYSCOHADA was revised in 2017.
+- ✅ Each OHADA country uses completely different accounting rules.  
+  _↳ explanation: They use the same rules (SYSCOHADA)._
+
+Full working after a second miss:
+
+> The wrong statement is “Each OHADA country uses completely different accounting rules.”.  
+> They use the same rules (SYSCOHADA).  
+
+> Which statement is wrong?
+
+- ◻️ OHADA harmonises business law.
+- ◻️ Cameroon is an OHADA member.
+- ✅ Classes 6–8 are balance sheet accounts.  
+  _↳ explanation: They are income statement accounts._
+- ◻️ SYSCOHADA was revised in 2017.
+
+Full working after a second miss:
+
+> The wrong statement is “Classes 6–8 are balance sheet accounts.”.  
+> They are income statement accounts.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-13-classes-card` · Lesson 13 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which classes are balance sheet accounts? | classes 1 to 5 | classes 6 to 8 · class 9 only · classes 7 and 8 only | Those are income statement accounts. · Class 9 is commitments and costs. · Those are income statement accounts. | Classes 1–5. |
+| Which classes are income statement (management) accounts? | classes 6 to 8 | classes 1 to 5 · class 9 · class 1 only | Those are balance sheet accounts. · That is commitments and costs. · That is a balance sheet class. | Expenses and income. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which classes are balance sheet accounts?
+
+- ◻️ classes 7 and 8 only  
+  _↳ feedback if chosen: Those are income statement accounts._
+- ✅ classes 1 to 5
+- ◻️ classes 6 to 8  
+  _↳ feedback if chosen: Those are income statement accounts._
+- ◻️ class 9 only  
+  _↳ feedback if chosen: Class 9 is commitments and costs._
+
+Full working after a second miss:
+
+> Classes 1–5.  
+> So the answer is “classes 1 to 5”.  
+
+> Which classes are income statement (management) accounts?
+
+- ◻️ class 9  
+  _↳ feedback if chosen: That is commitments and costs._
+- ◻️ class 1 only  
+  _↳ feedback if chosen: That is a balance sheet class._
+- ✅ classes 6 to 8
+- ◻️ classes 1 to 5  
+  _↳ feedback if chosen: Those are balance sheet accounts._
+
+Full working after a second miss:
+
+> Expenses and income.  
+> So the answer is “classes 6 to 8”.  
+
+> Which classes are balance sheet accounts?
+
+- ✅ classes 1 to 5
+- ◻️ classes 7 and 8 only  
+  _↳ feedback if chosen: Those are income statement accounts._
+- ◻️ classes 6 to 8  
+  _↳ feedback if chosen: Those are income statement accounts._
+- ◻️ class 9 only  
+  _↳ feedback if chosen: Class 9 is commitments and costs._
+
+Full working after a second miss:
+
+> Classes 1–5.  
+> So the answer is “classes 1 to 5”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-14-match` · Lesson 14 · matching, level 1
+
+Prompt: Match each class to its content.
+
+Pairs (4 shown each time):
+
+- class 1 → **durable resources (capital, reserves, long-term loans)**
+- class 2 → **fixed assets**
+- class 3 → **stocks**
+- class 4 → **third parties (suppliers, customers, staff, State)**
+- class 5 → **treasury (bank, cash)**
+- class 6 → **expenses of ordinary activities**
+- class 7 → **income of ordinary activities**
+- class 8 → **other (extraordinary) expenses and income**
+
+
+Three generated variants:
+
+> Match each class to its content.
+
+Right-hand side (shuffled): stocks · fixed assets · expenses of ordinary activities · other (extraordinary) expenses and income
+- class 2 → **fixed assets**
+- class 6 → **expenses of ordinary activities**
+- class 3 → **stocks**
+- class 8 → **other (extraordinary) expenses and income**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> class 2 → fixed assets  
+> class 6 → expenses of ordinary activities  
+> class 3 → stocks  
+> class 8 → other (extraordinary) expenses and income  
+
+> Match each class to its content.
+
+Right-hand side (shuffled): third parties (suppliers, customers, staff, State) · other (extraordinary) expenses and income · treasury (bank, cash) · income of ordinary activities
+- class 8 → **other (extraordinary) expenses and income**
+- class 5 → **treasury (bank, cash)**
+- class 4 → **third parties (suppliers, customers, staff, State)**
+- class 7 → **income of ordinary activities**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> class 8 → other (extraordinary) expenses and income  
+> class 5 → treasury (bank, cash)  
+> class 4 → third parties (suppliers, customers, staff, State)  
+> class 7 → income of ordinary activities  
+
+> Match each class to its content.
+
+Right-hand side (shuffled): fixed assets · third parties (suppliers, customers, staff, State) · income of ordinary activities · durable resources (capital, reserves, long-term loans)
+- class 1 → **durable resources (capital, reserves, long-term loans)**
+- class 4 → **third parties (suppliers, customers, staff, State)**
+- class 7 → **income of ordinary activities**
+- class 2 → **fixed assets**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> class 1 → durable resources (capital, reserves, long-term loans)  
+> class 4 → third parties (suppliers, customers, staff, State)  
+> class 7 → income of ordinary activities  
+> class 2 → fixed assets  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-14-spot` · Lesson 14 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The first digit shows the class.
+- ✅ 571 Cash is in class 5.
+- ✅ 601 is a purchase account.
+- ✅ More digits give more detail.
+- ❌ Account 411 Customers is in class 1.  
+  _↳ It starts with 4: class 4, third parties._
+- ❌ The last digit of an account number shows its class.  
+  _↳ The first digit shows the class._
+- ❌ Account 701 Sales of goods is an expense account.  
+  _↳ Class 7 is income._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Account 701 Sales of goods is an expense account.  
+  _↳ explanation: Class 7 is income._
+- ◻️ More digits give more detail.
+- ◻️ 601 is a purchase account.
+- ◻️ The first digit shows the class.
+
+Full working after a second miss:
+
+> The wrong statement is “Account 701 Sales of goods is an expense account.”.  
+> Class 7 is income.  
+
+> Which statement is wrong?
+
+- ◻️ More digits give more detail.
+- ◻️ 571 Cash is in class 5.
+- ◻️ 601 is a purchase account.
+- ✅ Account 701 Sales of goods is an expense account.  
+  _↳ explanation: Class 7 is income._
+
+Full working after a second miss:
+
+> The wrong statement is “Account 701 Sales of goods is an expense account.”.  
+> Class 7 is income.  
+
+> Which statement is wrong?
+
+- ✅ Account 411 Customers is in class 1.  
+  _↳ explanation: It starts with 4: class 4, third parties._
+- ◻️ More digits give more detail.
+- ◻️ 571 Cash is in class 5.
+- ◻️ The first digit shows the class.
+
+Full working after a second miss:
+
+> The wrong statement is “Account 411 Customers is in class 1.”.  
+> It starts with 4: class 4, third parties.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-15-hao` · Lesson 15 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| In which class are extraordinary (HAO) activities recorded? | class 8 | class 6 · class 7 · class 2 | Class 6 is ordinary expenses. · Class 7 is ordinary income. · Class 2 is fixed assets. | Class 8: other expenses and income. |
+| What does HAO mean? | outside ordinary activities | a bank account · a type of stock · the owner's capital | That is class 5. · That is class 3. · That is class 1. | Hors Activités Ordinaires. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does HAO mean?
+
+- ◻️ the owner's capital  
+  _↳ feedback if chosen: That is class 1._
+- ◻️ a bank account  
+  _↳ feedback if chosen: That is class 5._
+- ✅ outside ordinary activities
+- ◻️ a type of stock  
+  _↳ feedback if chosen: That is class 3._
+
+Full working after a second miss:
+
+> Hors Activités Ordinaires.  
+> So the answer is “outside ordinary activities”.  
+
+> In which class are extraordinary (HAO) activities recorded?
+
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is ordinary expenses._
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is ordinary income._
+- ◻️ class 2  
+  _↳ feedback if chosen: Class 2 is fixed assets._
+- ✅ class 8
+
+Full working after a second miss:
+
+> Class 8: other expenses and income.  
+> So the answer is “class 8”.  
+
+> In which class are extraordinary (HAO) activities recorded?
+
+- ✅ class 8
+- ◻️ class 2  
+  _↳ feedback if chosen: Class 2 is fixed assets._
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is ordinary income._
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is ordinary expenses._
+
+Full working after a second miss:
+
+> Class 8: other expenses and income.  
+> So the answer is “class 8”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-15-spot` · Lesson 15 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Selling goods is an ordinary activity.
+- ✅ Selling an old van is extraordinary.
+- ✅ 60 Purchases matches 70 Sales.
+- ✅ Class 8 records HAO items.
+- ❌ Paying monthly salaries is an extraordinary activity.  
+  _↳ It is regular: ordinary._
+- ❌ A loss from a flood is recorded in class 7.  
+  _↳ It is extraordinary: class 8._
+- ❌ 67 Financial expenses matches 70 Sales.  
+  _↳ It matches 77 Financial income._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Selling an old van is extraordinary.
+- ◻️ Selling goods is an ordinary activity.
+- ✅ Paying monthly salaries is an extraordinary activity.  
+  _↳ explanation: It is regular: ordinary._
+- ◻️ Class 8 records HAO items.
+
+Full working after a second miss:
+
+> The wrong statement is “Paying monthly salaries is an extraordinary activity.”.  
+> It is regular: ordinary.  
+
+> Which statement is wrong?
+
+- ◻️ Selling goods is an ordinary activity.
+- ✅ A loss from a flood is recorded in class 7.  
+  _↳ explanation: It is extraordinary: class 8._
+- ◻️ 60 Purchases matches 70 Sales.
+- ◻️ Selling an old van is extraordinary.
+
+Full working after a second miss:
+
+> The wrong statement is “A loss from a flood is recorded in class 7.”.  
+> It is extraordinary: class 8.  
+
+> Which statement is wrong?
+
+- ◻️ Class 8 records HAO items.
+- ✅ A loss from a flood is recorded in class 7.  
+  _↳ explanation: It is extraordinary: class 8._
+- ◻️ 60 Purchases matches 70 Sales.
+- ◻️ Selling goods is an ordinary activity.
+
+Full working after a second miss:
+
+> The wrong statement is “A loss from a flood is recorded in class 7.”.  
+> It is extraordinary: class 8.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-16-c1` · Lesson 16 · multiple choice, level 1
+
+Prompt: In which class is {X.q} recorded?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| the capital brought in by the owner | class 1 | class 5 · class 2 · class 7 | Class 5 is cash and bank. · Class 2 is fixed assets. · Class 7 is income. | Capital is a durable resource. |
+| a five-year bank loan | class 1 | class 6 · class 3 · class 8 | Class 6 is expenses. · Class 3 is stocks. · Class 8 is HAO. | Long-term loans are durable resources (16). |
+| the reserves of a company | class 1 | class 4 · class 7 · class 3 | Class 4 is third parties. · Class 7 is income. · Class 3 is stocks. | Reserves (11) are durable resources. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In which class is a five-year bank loan recorded?
+
+- ◻️ class 8  
+  _↳ feedback if chosen: Class 8 is HAO._
+- ◻️ class 3  
+  _↳ feedback if chosen: Class 3 is stocks._
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is expenses._
+- ✅ class 1
+
+Full working after a second miss:
+
+> Long-term loans are durable resources (16).  
+> So the answer is “class 1”.  
+
+> In which class is the reserves of a company recorded?
+
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is income._
+- ✅ class 1
+- ◻️ class 4  
+  _↳ feedback if chosen: Class 4 is third parties._
+- ◻️ class 3  
+  _↳ feedback if chosen: Class 3 is stocks._
+
+Full working after a second miss:
+
+> Reserves (11) are durable resources.  
+> So the answer is “class 1”.  
+
+> In which class is a five-year bank loan recorded?
+
+- ◻️ class 8  
+  _↳ feedback if chosen: Class 8 is HAO._
+- ◻️ class 3  
+  _↳ feedback if chosen: Class 3 is stocks._
+- ✅ class 1
+- ◻️ class 6  
+  _↳ feedback if chosen: Class 6 is expenses._
+
+Full working after a second miss:
+
+> Long-term loans are durable resources (16).  
+> So the answer is “class 1”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-16-c2` · Lesson 16 · multiple choice, level 1
+
+Prompt: Which account is used for {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| a building bought for the shop | 231 Buildings | 311 Goods · 571 Cash · 601 Purchases of goods | That is stock for sale. · That is money. · That is buying goods for resale. | A building is a fixed asset. |
+| a delivery van | 245 Transport equipment | 101 Capital · 411 Customers · 701 Sales | That is a resource. · That is a third party. · That is income. | Vans are transport equipment. |
+| office desks and chairs | 244 Office furniture and equipment | 321 Raw materials · 521 Banks · 661 Salaries | That is a stock. · That is treasury. · That is an expense. | Furniture kept for use. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which account is used for office desks and chairs?
+
+- ◻️ 521 Banks  
+  _↳ feedback if chosen: That is treasury._
+- ✅ 244 Office furniture and equipment
+- ◻️ 321 Raw materials  
+  _↳ feedback if chosen: That is a stock._
+- ◻️ 661 Salaries  
+  _↳ feedback if chosen: That is an expense._
+
+Full working after a second miss:
+
+> Furniture kept for use.  
+> So the answer is “244 Office furniture and equipment”.  
+
+> Which account is used for a building bought for the shop?
+
+- ◻️ 601 Purchases of goods  
+  _↳ feedback if chosen: That is buying goods for resale._
+- ✅ 231 Buildings
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: That is money._
+- ◻️ 311 Goods  
+  _↳ feedback if chosen: That is stock for sale._
+
+Full working after a second miss:
+
+> A building is a fixed asset.  
+> So the answer is “231 Buildings”.  
+
+> Which account is used for a delivery van?
+
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: That is a resource._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That is a third party._
+- ✅ 245 Transport equipment
+
+Full working after a second miss:
+
+> Vans are transport equipment.  
+> So the answer is “245 Transport equipment”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-16-c3` · Lesson 16 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A shop has rice bags in its store waiting to be sold. In which class are they? | class 3 (stocks) | class 2 (fixed assets) · class 1 (resources) · class 5 (treasury) | They are not kept for use. · They are not a resource. · They are not money. | Goods for sale are stocks (311). |
+| What is the difference between class 2 and class 3? | Class 2 is kept for use for a long time; class 3 is kept for sale or production. | There is no difference. · Class 2 is money; class 3 is debts. · Class 3 is capital. | They are different. · That is not right. · Capital is class 1. | Fixed assets vs stocks. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the difference between class 2 and class 3?
+
+- ◻️ Class 3 is capital.  
+  _↳ feedback if chosen: Capital is class 1._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ✅ Class 2 is kept for use for a long time; class 3 is kept for sale or production.
+- ◻️ Class 2 is money; class 3 is debts.  
+  _↳ feedback if chosen: That is not right._
+
+Full working after a second miss:
+
+> Fixed assets vs stocks.  
+> So the answer is “Class 2 is kept for use for a long time; class 3 is kept for sale or production.”.  
+
+> What is the difference between class 2 and class 3?
+
+- ◻️ Class 2 is money; class 3 is debts.  
+  _↳ feedback if chosen: That is not right._
+- ◻️ Class 3 is capital.  
+  _↳ feedback if chosen: Capital is class 1._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ✅ Class 2 is kept for use for a long time; class 3 is kept for sale or production.
+
+Full working after a second miss:
+
+> Fixed assets vs stocks.  
+> So the answer is “Class 2 is kept for use for a long time; class 3 is kept for sale or production.”.  
+
+> What is the difference between class 2 and class 3?
+
+- ◻️ Class 2 is money; class 3 is debts.  
+  _↳ feedback if chosen: That is not right._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ✅ Class 2 is kept for use for a long time; class 3 is kept for sale or production.
+- ◻️ Class 3 is capital.  
+  _↳ feedback if chosen: Capital is class 1._
+
+Full working after a second miss:
+
+> Fixed assets vs stocks.  
+> So the answer is “Class 2 is kept for use for a long time; class 3 is kept for sale or production.”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-16-spot` · Lesson 16 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ 101 Capital is in class 1.
+- ✅ 245 Transport equipment is in class 2.
+- ✅ 311 Goods are in class 3.
+- ✅ 162 Bank loans are in class 1.
+- ❌ Goods for resale are fixed assets in class 2.  
+  _↳ They are stocks in class 3._
+- ❌ A building is recorded in class 3.  
+  _↳ It is a fixed asset: class 2._
+- ❌ The owner's capital is in class 2.  
+  _↳ It is in class 1._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ 162 Bank loans are in class 1.
+- ◻️ 101 Capital is in class 1.
+- ◻️ 311 Goods are in class 3.
+- ✅ A building is recorded in class 3.  
+  _↳ explanation: It is a fixed asset: class 2._
+
+Full working after a second miss:
+
+> The wrong statement is “A building is recorded in class 3.”.  
+> It is a fixed asset: class 2.  
+
+> Which statement is wrong?
+
+- ◻️ 162 Bank loans are in class 1.
+- ✅ Goods for resale are fixed assets in class 2.  
+  _↳ explanation: They are stocks in class 3._
+- ◻️ 245 Transport equipment is in class 2.
+- ◻️ 101 Capital is in class 1.
+
+Full working after a second miss:
+
+> The wrong statement is “Goods for resale are fixed assets in class 2.”.  
+> They are stocks in class 3.  
+
+> Which statement is wrong?
+
+- ◻️ 101 Capital is in class 1.
+- ✅ Goods for resale are fixed assets in class 2.  
+  _↳ explanation: They are stocks in class 3._
+- ◻️ 311 Goods are in class 3.
+- ◻️ 245 Transport equipment is in class 2.
+
+Full working after a second miss:
+
+> The wrong statement is “Goods for resale are fixed assets in class 2.”.  
+> They are stocks in class 3.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-16-c3-card` · Lesson 16 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A shop has rice bags in its store waiting to be sold. In which class are they? | class 3 (stocks) | class 2 (fixed assets) · class 1 (resources) · class 5 (treasury) | They are not kept for use. · They are not a resource. · They are not money. | Goods for sale are stocks (311). |
+| What is the difference between class 2 and class 3? | Class 2 is kept for use for a long time; class 3 is kept for sale or production. | There is no difference. · Class 2 is money; class 3 is debts. · Class 3 is capital. | They are different. · That is not right. · Capital is class 1. | Fixed assets vs stocks. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the difference between class 2 and class 3?
+
+- ✅ Class 2 is kept for use for a long time; class 3 is kept for sale or production.
+- ◻️ Class 2 is money; class 3 is debts.  
+  _↳ feedback if chosen: That is not right._
+- ◻️ Class 3 is capital.  
+  _↳ feedback if chosen: Capital is class 1._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+
+Full working after a second miss:
+
+> Fixed assets vs stocks.  
+> So the answer is “Class 2 is kept for use for a long time; class 3 is kept for sale or production.”.  
+
+> A shop has rice bags in its store waiting to be sold. In which class are they?
+
+- ✅ class 3 (stocks)
+- ◻️ class 5 (treasury)  
+  _↳ feedback if chosen: They are not money._
+- ◻️ class 2 (fixed assets)  
+  _↳ feedback if chosen: They are not kept for use._
+- ◻️ class 1 (resources)  
+  _↳ feedback if chosen: They are not a resource._
+
+Full working after a second miss:
+
+> Goods for sale are stocks (311).  
+> So the answer is “class 3 (stocks)”.  
+
+> What is the difference between class 2 and class 3?
+
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ◻️ Class 3 is capital.  
+  _↳ feedback if chosen: Capital is class 1._
+- ◻️ Class 2 is money; class 3 is debts.  
+  _↳ feedback if chosen: That is not right._
+- ✅ Class 2 is kept for use for a long time; class 3 is kept for sale or production.
+
+Full working after a second miss:
+
+> Fixed assets vs stocks.  
+> So the answer is “Class 2 is kept for use for a long time; class 3 is kept for sale or production.”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-17-c4` · Lesson 17 · multiple choice, level 1
+
+Prompt: Which account is used for {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| a customer who will pay later | 411 Customers | 401 Suppliers · 571 Cash · 701 Sales | Suppliers are owed money by us. · No cash was received yet. · Sales record the income, not the debt. | The customer owes the business. |
+| a supplier the business must pay | 401 Suppliers | 411 Customers · 521 Banks · 101 Capital | Customers owe us. · That is money in the bank. · That is the owner's capital. | We owe the supplier. |
+| salaries owed to workers at the end of the month | 422 Staff: salaries due | 661 Staff salaries · 571 Cash · 311 Goods | 661 is the expense; 422 is the amount owed. · Not yet paid. · That is stock. | The amount owed to staff. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which account is used for a supplier the business must pay?
+
+- ◻️ 521 Banks  
+  _↳ feedback if chosen: That is money in the bank._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Customers owe us._
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: That is the owner's capital._
+- ✅ 401 Suppliers
+
+Full working after a second miss:
+
+> We owe the supplier.  
+> So the answer is “401 Suppliers”.  
+
+> Which account is used for a customer who will pay later?
+
+- ✅ 411 Customers
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: No cash was received yet._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Sales record the income, not the debt._
+- ◻️ 401 Suppliers  
+  _↳ feedback if chosen: Suppliers are owed money by us._
+
+Full working after a second miss:
+
+> The customer owes the business.  
+> So the answer is “411 Customers”.  
+
+> Which account is used for a customer who will pay later?
+
+- ◻️ 401 Suppliers  
+  _↳ feedback if chosen: Suppliers are owed money by us._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Sales record the income, not the debt._
+- ✅ 411 Customers
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: No cash was received yet._
+
+Full working after a second miss:
+
+> The customer owes the business.  
+> So the answer is “411 Customers”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-17-c5` · Lesson 17 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| In which class is money in the bank? | class 5 | class 4 · class 1 · class 7 | Class 4 is third parties. · Class 1 is resources. · Class 7 is income. | 521 Banks: treasury. |
+| Which account records cash in hand? | 571 | 521 · 411 · 601 | 521 is the bank. · 411 is customers. · 601 is purchases. | 571 Cash in hand. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In which class is money in the bank?
+
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is income._
+- ◻️ class 4  
+  _↳ feedback if chosen: Class 4 is third parties._
+- ✅ class 5
+- ◻️ class 1  
+  _↳ feedback if chosen: Class 1 is resources._
+
+Full working after a second miss:
+
+> 521 Banks: treasury.  
+> So the answer is “class 5”.  
+
+> In which class is money in the bank?
+
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is income._
+- ✅ class 5
+- ◻️ class 4  
+  _↳ feedback if chosen: Class 4 is third parties._
+- ◻️ class 1  
+  _↳ feedback if chosen: Class 1 is resources._
+
+Full working after a second miss:
+
+> 521 Banks: treasury.  
+> So the answer is “class 5”.  
+
+> In which class is money in the bank?
+
+- ✅ class 5
+- ◻️ class 7  
+  _↳ feedback if chosen: Class 7 is income._
+- ◻️ class 4  
+  _↳ feedback if chosen: Class 4 is third parties._
+- ◻️ class 1  
+  _↳ feedback if chosen: Class 1 is resources._
+
+Full working after a second miss:
+
+> 521 Banks: treasury.  
+> So the answer is “class 5”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-17-c6` · Lesson 17 · multiple choice, level 2
+
+Prompt: Which account is used for {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| paying the electricity bill | 605 Other purchases (water, electricity) | 701 Sales · 231 Buildings · 411 Customers | That is income. · That is a fixed asset. · That is a third party. | Electricity is an ordinary expense. |
+| paying workers' salaries | 661 Staff salaries | 422 Staff: salaries due · 706 Services sold · 101 Capital | That is the amount owed, not the expense. · That is income. · That is a resource. | Salaries are a staff expense. |
+| buying goods to resell | 601 Purchases of goods | 311 Goods in stock · 245 Transport equipment · 701 Sales | Stock is recorded at inventory. · That is a fixed asset. · That is income. | Purchases are expenses. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which account is used for buying goods to resell?
+
+- ◻️ 245 Transport equipment  
+  _↳ feedback if chosen: That is a fixed asset._
+- ◻️ 311 Goods in stock  
+  _↳ feedback if chosen: Stock is recorded at inventory._
+- ✅ 601 Purchases of goods
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+
+Full working after a second miss:
+
+> Purchases are expenses.  
+> So the answer is “601 Purchases of goods”.  
+
+> Which account is used for paying workers' salaries?
+
+- ◻️ 706 Services sold  
+  _↳ feedback if chosen: That is income._
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: That is a resource._
+- ◻️ 422 Staff: salaries due  
+  _↳ feedback if chosen: That is the amount owed, not the expense._
+- ✅ 661 Staff salaries
+
+Full working after a second miss:
+
+> Salaries are a staff expense.  
+> So the answer is “661 Staff salaries”.  
+
+> Which account is used for paying the electricity bill?
+
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That is a third party._
+- ◻️ 231 Buildings  
+  _↳ feedback if chosen: That is a fixed asset._
+- ✅ 605 Other purchases (water, electricity)
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+
+Full working after a second miss:
+
+> Electricity is an ordinary expense.  
+> So the answer is “605 Other purchases (water, electricity)”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-17-spot` · Lesson 17 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ 401 Suppliers is in class 4.
+- ✅ 571 Cash is in class 5.
+- ✅ 601 Purchases is in class 6.
+- ✅ 661 Salaries is an expense.
+- ❌ 411 Customers is a treasury account in class 5.  
+  _↳ It is a third-party account in class 4._
+- ❌ Money in the bank is recorded in class 6.  
+  _↳ It is treasury: class 5 (521)._
+- ❌ Paying rent is recorded in class 7.  
+  _↳ It is an expense: class 6._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Paying rent is recorded in class 7.  
+  _↳ explanation: It is an expense: class 6._
+- ◻️ 601 Purchases is in class 6.
+- ◻️ 571 Cash is in class 5.
+- ◻️ 661 Salaries is an expense.
+
+Full working after a second miss:
+
+> The wrong statement is “Paying rent is recorded in class 7.”.  
+> It is an expense: class 6.  
+
+> Which statement is wrong?
+
+- ◻️ 401 Suppliers is in class 4.
+- ◻️ 601 Purchases is in class 6.
+- ✅ Money in the bank is recorded in class 6.  
+  _↳ explanation: It is treasury: class 5 (521)._
+- ◻️ 661 Salaries is an expense.
+
+Full working after a second miss:
+
+> The wrong statement is “Money in the bank is recorded in class 6.”.  
+> It is treasury: class 5 (521).  
+
+> Which statement is wrong?
+
+- ◻️ 401 Suppliers is in class 4.
+- ◻️ 601 Purchases is in class 6.
+- ◻️ 661 Salaries is an expense.
+- ✅ Money in the bank is recorded in class 6.  
+  _↳ explanation: It is treasury: class 5 (521)._
+
+Full working after a second miss:
+
+> The wrong statement is “Money in the bank is recorded in class 6.”.  
+> It is treasury: class 5 (521).  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-17-c6-card` · Lesson 17 · multiple choice, level 1
+
+Prompt: Which account is used for {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| paying the electricity bill | 605 Other purchases (water, electricity) | 701 Sales · 231 Buildings · 411 Customers | That is income. · That is a fixed asset. · That is a third party. | Electricity is an ordinary expense. |
+| paying workers' salaries | 661 Staff salaries | 422 Staff: salaries due · 706 Services sold · 101 Capital | That is the amount owed, not the expense. · That is income. · That is a resource. | Salaries are a staff expense. |
+| buying goods to resell | 601 Purchases of goods | 311 Goods in stock · 245 Transport equipment · 701 Sales | Stock is recorded at inventory. · That is a fixed asset. · That is income. | Purchases are expenses. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which account is used for paying the electricity bill?
+
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That is a third party._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+- ✅ 605 Other purchases (water, electricity)
+- ◻️ 231 Buildings  
+  _↳ feedback if chosen: That is a fixed asset._
+
+Full working after a second miss:
+
+> Electricity is an ordinary expense.  
+> So the answer is “605 Other purchases (water, electricity)”.  
+
+> Which account is used for buying goods to resell?
+
+- ◻️ 311 Goods in stock  
+  _↳ feedback if chosen: Stock is recorded at inventory._
+- ✅ 601 Purchases of goods
+- ◻️ 245 Transport equipment  
+  _↳ feedback if chosen: That is a fixed asset._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+
+Full working after a second miss:
+
+> Purchases are expenses.  
+> So the answer is “601 Purchases of goods”.  
+
+> Which account is used for paying the electricity bill?
+
+- ◻️ 231 Buildings  
+  _↳ feedback if chosen: That is a fixed asset._
+- ✅ 605 Other purchases (water, electricity)
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is income._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That is a third party._
+
+Full working after a second miss:
+
+> Electricity is an ordinary expense.  
+> So the answer is “605 Other purchases (water, electricity)”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-18-c7` · Lesson 18 · multiple choice, level 1
+
+Prompt: Which account is used for {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| goods sold to customers | 701 Sales of goods | 601 Purchases of goods · 411 Customers · 822 Proceeds from sale of fixed assets | That is an expense. · That records the debt, not the income. · That is for fixed assets. | Sales are ordinary income. |
+| repair services sold by a garage | 706 Services sold | 701 Sales of goods · 605 Other purchases · 245 Transport equipment | Services are not goods. · That is an expense. · That is a fixed asset. | 706 is for services. |
+| interest received from the bank | 77 Financial income | 67 Financial expenses · 701 Sales · 521 Banks | That is interest paid. · That is not a sale. · That is the bank balance. | Interest received is financial income. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which account is used for interest received from the bank?
+
+- ✅ 77 Financial income
+- ◻️ 67 Financial expenses  
+  _↳ feedback if chosen: That is interest paid._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is not a sale._
+- ◻️ 521 Banks  
+  _↳ feedback if chosen: That is the bank balance._
+
+Full working after a second miss:
+
+> Interest received is financial income.  
+> So the answer is “77 Financial income”.  
+
+> Which account is used for repair services sold by a garage?
+
+- ◻️ 605 Other purchases  
+  _↳ feedback if chosen: That is an expense._
+- ◻️ 245 Transport equipment  
+  _↳ feedback if chosen: That is a fixed asset._
+- ✅ 706 Services sold
+- ◻️ 701 Sales of goods  
+  _↳ feedback if chosen: Services are not goods._
+
+Full working after a second miss:
+
+> 706 is for services.  
+> So the answer is “706 Services sold”.  
+
+> Which account is used for goods sold to customers?
+
+- ◻️ 601 Purchases of goods  
+  _↳ feedback if chosen: That is an expense._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: That records the debt, not the income._
+- ✅ 701 Sales of goods
+- ◻️ 822 Proceeds from sale of fixed assets  
+  _↳ feedback if chosen: That is for fixed assets._
+
+Full working after a second miss:
+
+> Sales are ordinary income.  
+> So the answer is “701 Sales of goods”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-18-c8` · Lesson 18 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| In which class is the money received from selling an old van recorded? | class 8 (account 82) | class 7 (account 701) · class 2 only · class 5 only | It is not an ordinary sale. · The asset leaves class 2; the proceeds go to 82. · The cash goes to class 5, but the income is in 82. | Proceeds from sale of fixed assets: 82. |
+| Which account records income tax on profit? | 89 | 701 · 411 · 571 | That is sales. · That is customers. · That is cash. | 89 Income tax. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which account records income tax on profit?
+
+- ✅ 89
+- ◻️ 701  
+  _↳ feedback if chosen: That is sales._
+- ◻️ 571  
+  _↳ feedback if chosen: That is cash._
+- ◻️ 411  
+  _↳ feedback if chosen: That is customers._
+
+Full working after a second miss:
+
+> 89 Income tax.  
+> So the answer is “89”.  
+
+> Which account records income tax on profit?
+
+- ◻️ 701  
+  _↳ feedback if chosen: That is sales._
+- ◻️ 571  
+  _↳ feedback if chosen: That is cash._
+- ◻️ 411  
+  _↳ feedback if chosen: That is customers._
+- ✅ 89
+
+Full working after a second miss:
+
+> 89 Income tax.  
+> So the answer is “89”.  
+
+> Which account records income tax on profit?
+
+- ◻️ 411  
+  _↳ feedback if chosen: That is customers._
+- ◻️ 571  
+  _↳ feedback if chosen: That is cash._
+- ✅ 89
+- ◻️ 701  
+  _↳ feedback if chosen: That is sales._
+
+Full working after a second miss:
+
+> 89 Income tax.  
+> So the answer is “89”.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-18-spot` · Lesson 18 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ 701 Sales of goods is in class 7.
+- ✅ Proceeds from selling a fixed asset go to 82.
+- ✅ Income tax is in class 8.
+- ✅ Result = income − expenses.
+- ❌ Sales of goods are recorded in class 6.  
+  _↳ Class 6 is expenses; sales are class 7._
+- ❌ A profit happens when expenses are greater than income.  
+  _↳ That is a loss._
+- ❌ The sale of an old van is recorded in 701 Sales of goods.  
+  _↳ It is extraordinary: 82._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Result = income − expenses.
+- ✅ A profit happens when expenses are greater than income.  
+  _↳ explanation: That is a loss._
+- ◻️ Proceeds from selling a fixed asset go to 82.
+- ◻️ Income tax is in class 8.
+
+Full working after a second miss:
+
+> The wrong statement is “A profit happens when expenses are greater than income.”.  
+> That is a loss.  
+
+> Which statement is wrong?
+
+- ◻️ Income tax is in class 8.
+- ✅ A profit happens when expenses are greater than income.  
+  _↳ explanation: That is a loss._
+- ◻️ Proceeds from selling a fixed asset go to 82.
+- ◻️ 701 Sales of goods is in class 7.
+
+Full working after a second miss:
+
+> The wrong statement is “A profit happens when expenses are greater than income.”.  
+> That is a loss.  
+
+> Which statement is wrong?
+
+- ◻️ Proceeds from selling a fixed asset go to 82.
+- ✅ The sale of an old van is recorded in 701 Sales of goods.  
+  _↳ explanation: It is extraordinary: 82._
+- ◻️ Result = income − expenses.
+- ◻️ Income tax is in class 8.
+
+Full working after a second miss:
+
+> The wrong statement is “The sale of an old van is recorded in 701 Sales of goods.”.  
+> It is extraordinary: 82.  
+
+Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
 

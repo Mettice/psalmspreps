@@ -200,6 +200,27 @@ Full working after a second miss:
 | 19 | Notion of modern kitchen, Kitchen planning and management, Different shapes of modern kitchens, | draft | 3 | 4 | — |
 | 20 | Identify kitchen elements/Kitchen units, types of kitchen units, Points to consider when planning a modern kitchen | draft | 3 | 4 | — |
 | 21 | Advantages of time management in the kitchen.Steps in timing and cooking food, Care of a modern kitchen | draft | 3 | 4 | — |
+| 24 | Types of small equipment, Diagram of small kitchen equipment in the kitchen | draft | 3 | 4 | — |
+| 25 | Uses, Points to consider in the choice of the small equipment, Care of these equipment | draft | 3 | 4 | — |
+| 26 | Types (freezers, Refrigerator, Dish washer, Uses | draft | 3 | 4 | — |
+| 27 | Diagram of large kitchen equipment. Points to consider when chosing the equipment, care of large ketchen equipment | draft | 3 | 4 | — |
+| 28 | Types of labour saving equipment. (microwave oven, pressure cooker, blender, mixers, vacuum flask | draft | 3 | 4 | — |
+| 29 | Diagrams of labour saving equipment | draft | 3 | 4 | — |
+| 30 | Principles and uses of labour saving equipment | draft | 3 | 4 | — |
+| 31 | Things to consider when choosing the equipment.Care of labour saving equipment | draft | 3 | 4 | — |
+| 32 | Notion of kitchen accident, Types of kitchen accidents | draft | 3 | 4 | — |
+| 33 | Causes of kitchen accidents.Preventive measures of kitchen accidents | draft | 3 | 4 | — |
+| 36 | Different types of kitchen waste, Generation and sorting of kitchen waste | draft | 3 | 4 | — |
+| 37 | Reasons for cooking food. Lesson 32: Classification of foods according to their cooking methods | draft | 3 | 4 | — |
+| 38 | Moist method, types of moist method, advantages and disadvantages of moist method | draft | 3 | 4 | — |
+| 39 | Dry method, types of dry method. Advantages and disadvantages of dry method | draft | 3 | 4 | — |
+| 40 | Notion of heat conduction and how occurs. Examples of heat conduction. Advantages and disadvantages | draft | 3 | 4 | — |
+| 41 | Notion of convection and how it occurs | draft | 3 | 4 | — |
+| 42 | Examples of convection, Advantages and disadvantages | draft | 3 | 4 | — |
+| 43 | Notion of Radiation and how it occurs, Examples of radiation, advantages and disadvantages | draft | 3 | 4 | — |
+| 44 | Notion, Causes of these deficiencies. Signs and symptoms | draft | 3 | 4 | — |
+| 45 | Children suffering from the deficiencies, Preventive measures | draft | 3 | 4 | — |
+| 46 | Causes of night blindness, Signs and symptoms, Preventive measures | draft | 3 | 4 | — |
 
 ## Lesson 1: Types of food nutrients. Notion of macronutrients and types
 
@@ -4278,4 +4299,4612 @@ Full working after a second miss:
 
 > The wrong statement is “Leave greasy pots until the end of the week.”.  
 > Wash up after each meal.  
+
+## Lesson 24: Types of small equipment, Diagram of small kitchen equipment in the kitchen
+
+Prerequisites: none · Skill: h2-24 (Small kitchen equipment: types)
+
+**Note** (draft)
+
+> Small kitchen equipment are the hand tools and utensils used to prepare, cook and serve food. They are grouped by use:
+> • preparing: knives, chopping board, grater, peeler, sieve, measuring cups and spoons, mortar and pestle, grinding stone, rolling pin, mixing bowls;
+> • cooking: pots and saucepans, frying pan, kettle, steamer, wooden spoon, ladle, turning slice (spatula), tongs;
+> • serving and storing: plates, dishes, cups, serving spoons, food flasks, containers with lids.
+> Materials: stainless steel, aluminium, cast iron, enamel, wood, plastic, glass, clay (earthenware pots).
+> A knife has a blade (with a sharp edge and a point), a bolster and a handle. A saucepan has a body, a base, a lid with a knob and a handle.
+
+**Card c24-1** (draft)
+
+> Small equipment are hand tools and utensils for preparing, cooking and serving food.
+>
+> _Knives and graters prepare food._  
+> _Pots and ladles are for cooking._  
+
+Check question: `h2-24-group` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which group of small equipment does a ladle belong to?
+
+- ◻️ preparing only  
+  _↳ feedback if chosen: It is used with hot food._
+- ◻️ storing  
+  _↳ feedback if chosen: It does not store food._
+- ✅ cooking and serving
+- ◻️ cleaning  
+  _↳ feedback if chosen: It does not clean._
+
+Full working after a second miss:
+
+> It stirs and serves soups.  
+> So the answer is “cooking and serving”.  
+
+**Card c24-2** (draft)
+
+> They are made of steel, aluminium, cast iron, enamel, wood, plastic, glass or clay.
+>
+> _Wooden spoons do not get hot._  
+> _Clay pots keep food warm._  
+
+Check question: `h2-24-mat` · matching, level 1 · **authored key**, reused from practice
+
+> Match each tool to a material it is often made of.
+
+Right-hand side (shuffled): clay · glass or plastic · wood · stainless steel
+- kitchen knife blade → **stainless steel**
+- earthenware pot → **clay**
+- measuring jug → **glass or plastic**
+- wooden spoon → **wood**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> kitchen knife blade → stainless steel  
+> earthenware pot → clay  
+> measuring jug → glass or plastic  
+> wooden spoon → wood  
+
+**Card c24-3** (draft)
+
+> A knife has a blade, a bolster and a handle; a saucepan has a body, a base, a lid and a handle.
+>
+> _The blade has the sharp edge._  
+> _The lid has a knob._  
+
+Check question: `h2-24-parts-card` · matching, level 1 · **authored key**
+
+> Match each part to the tool it belongs to.
+
+Right-hand side (shuffled): saucepan · grater · knife · sieve
+- sharp holes → **grater**
+- fine mesh → **sieve**
+- lid with a knob → **saucepan**
+- blade → **knife**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> sharp holes → grater  
+> fine mesh → sieve  
+> lid with a knob → saucepan  
+> blade → knife  
+
+**Worked example** (draft)
+
+> To which group does a grater belong, and what is it used for?
+
+1. It is used before cooking, so it is a preparing tool.
+2. Its sharp holes cut food into small pieces or shreds (cassava, coconut, carrots).
+
+**Answer:** A preparing tool, used to grate food into small pieces.
+
+**Practice** `h2-24-group` · multiple choice, level 1 · **authored key**
+
+> Which group of small equipment does a food flask belong to?
+
+- ◻️ cooking  
+  _↳ feedback if chosen: It does not heat food._
+- ◻️ preparing  
+  _↳ feedback if chosen: It does not cut or mix._
+- ✅ serving and storing
+- ◻️ cleaning  
+  _↳ feedback if chosen: It does not clean._
+
+Full working after a second miss:
+
+> It keeps food hot or cold.  
+> So the answer is “serving and storing”.  
+
+> Which group of small equipment does a chopping board belong to?
+
+- ◻️ storing  
+  _↳ feedback if chosen: It is not for keeping food._
+- ✅ preparing
+- ◻️ large equipment  
+  _↳ feedback if chosen: It is small._
+- ◻️ serving  
+  _↳ feedback if chosen: Food is cut on it before cooking._
+
+Full working after a second miss:
+
+> Food is cut on it.  
+> So the answer is “preparing”.  
+
+**Practice** `h2-24-mat` · matching, level 1 · **authored key**
+
+> Match each tool to a material it is often made of.
+
+Right-hand side (shuffled): stainless steel · glass or plastic · wood · clay
+- measuring jug → **glass or plastic**
+- wooden spoon → **wood**
+- kitchen knife blade → **stainless steel**
+- earthenware pot → **clay**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> measuring jug → glass or plastic  
+> wooden spoon → wood  
+> kitchen knife blade → stainless steel  
+> earthenware pot → clay  
+
+> Match each tool to a material it is often made of.
+
+Right-hand side (shuffled): stainless steel · glass or plastic · clay · wood
+- wooden spoon → **wood**
+- earthenware pot → **clay**
+- kitchen knife blade → **stainless steel**
+- measuring jug → **glass or plastic**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> wooden spoon → wood  
+> earthenware pot → clay  
+> kitchen knife blade → stainless steel  
+> measuring jug → glass or plastic  
+
+**Practice** `h2-24-parts` · matching, level 2 · **authored key**
+
+> Match each part to the tool it belongs to.
+
+Right-hand side (shuffled): grater · sieve · saucepan · knife
+- fine mesh → **sieve**
+- sharp holes → **grater**
+- lid with a knob → **saucepan**
+- blade → **knife**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> fine mesh → sieve  
+> sharp holes → grater  
+> lid with a knob → saucepan  
+> blade → knife  
+
+> Match each part to the tool it belongs to.
+
+Right-hand side (shuffled): sieve · grater · saucepan · knife
+- fine mesh → **sieve**
+- blade → **knife**
+- sharp holes → **grater**
+- lid with a knob → **saucepan**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> fine mesh → sieve  
+> blade → knife  
+> sharp holes → grater  
+> lid with a knob → saucepan  
+
+**Practice** `h2-24-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Wooden spoons do not get very hot.
+- ✅ A refrigerator is a small kitchen tool.  
+  _↳ explanation: It is large equipment._
+- ◻️ A ladle is used for soups.
+- ◻️ A grater is a preparing tool.
+
+Full working after a second miss:
+
+> The wrong statement is “A refrigerator is a small kitchen tool.”.  
+> It is large equipment.  
+
+> Which statement is wrong?
+
+- ◻️ A sieve separates fine from coarse particles.
+- ◻️ Wooden spoons do not get very hot.
+- ✅ A chopping board is used to serve soup.  
+  _↳ explanation: It is used to cut food on._
+- ◻️ A ladle is used for soups.
+
+Full working after a second miss:
+
+> The wrong statement is “A chopping board is used to serve soup.”.  
+> It is used to cut food on.  
+
+## Lesson 25: Uses, Points to consider in the choice of the small equipment, Care of these equipment
+
+Prerequisites: 24 · Skill: h2-25 (Small equipment: uses, choice and care)
+
+**Note** (draft)
+
+> Points to consider when choosing small equipment:
+> • its use and the needs of the family;
+> • the material: strong, safe, does not rust, easy to clean;
+> • good quality and finish (no sharp edges, tight lids, firm handles that do not conduct heat);
+> • size and weight; price and money available; storage space.
+> Care:
+> • wash in hot soapy water soon after use, rinse and dry well;
+> • soak pots with burnt food before scrubbing; do not scrub non-stick pans with steel wool;
+> • keep knives sharp and store them safely in a block or rack, never loose in water;
+> • dry wooden tools quickly (they crack and grow mould if soaked);
+> • store tools in clean, dry places; oil cast iron to stop rust.
+
+**Card c25-1** (draft)
+
+> Choose equipment for its use, a safe and strong material, good quality, size and price.
+>
+> _Handles should not get hot._  
+> _Lids should fit tightly._  
+
+Check question: `h2-25-choose` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is a good point when choosing a saucepan?
+
+- ◻️ sharp edges  
+  _↳ feedback if chosen: Edges should be smooth._
+- ✅ a firm handle that does not get hot
+- ◻️ a handle that gets very hot  
+  _↳ feedback if chosen: Hot handles burn._
+- ◻️ a loose lid  
+  _↳ feedback if chosen: Lids should fit._
+
+Full working after a second miss:
+
+> Safe handles prevent burns.  
+> So the answer is “a firm handle that does not get hot”.  
+
+**Card c25-2** (draft)
+
+> Wash equipment soon after use in hot soapy water, rinse and dry it.
+>
+> _Soak burnt pots first._  
+> _Dry knives at once._  
+
+Check question: `h2-25-wash` · multiple choice, level 1 · **authored key**, reused from practice
+
+> When should kitchen tools be washed?
+
+- ◻️ once a week  
+  _↳ feedback if chosen: Food dries and germs grow._
+- ◻️ never  
+  _↳ feedback if chosen: Dirty tools spread germs._
+- ✅ soon after use
+- ◻️ only when visitors come  
+  _↳ feedback if chosen: They must be washed every time._
+
+Full working after a second miss:
+
+> Food comes off easily and germs do not grow.  
+> So the answer is “soon after use”.  
+
+**Card c25-3** (draft)
+
+> Do not soak wooden tools or scrub non-stick pans with steel wool; store knives safely.
+>
+> _Steel wool scratches the non-stick coating._  
+> _Knives go in a rack._  
+
+Check question: `h2-25-care-card` · multiple choice, level 1 · **authored key**
+
+> Why should knives not be left in a bowl of washing water?
+
+- ✅ Someone could cut their hand on a hidden blade.
+- ◻️ They become blunt at once.  
+  _↳ feedback if chosen: The main danger is cuts._
+- ◻️ It makes them rust-free.  
+  _↳ feedback if chosen: Water can rust them._
+- ◻️ The water becomes sweet.  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> A hidden blade is dangerous.  
+> So the answer is “Someone could cut their hand on a hidden blade.”.  
+
+**Worked example** (draft)
+
+> How should a wooden spoon be cared for?
+
+1. Wash it quickly in hot soapy water; do not leave it soaking.
+2. Dry it well and store it in a dry place, so it does not crack or grow mould.
+
+**Answer:** Wash quickly, dry well and store dry; never soak it.
+
+**Practice** `h2-25-choose` · multiple choice, level 1 · **authored key**
+
+> Why is stainless steel a good material for knives?
+
+- ◻️ It melts easily.  
+  _↳ feedback if chosen: It does not melt in the kitchen._
+- ✅ It is strong and does not rust.
+- ◻️ It rusts quickly.  
+  _↳ feedback if chosen: It resists rust._
+- ◻️ It is soft like plastic.  
+  _↳ feedback if chosen: It is hard._
+
+Full working after a second miss:
+
+> Strong and rust-free.  
+> So the answer is “It is strong and does not rust.”.  
+
+> Which is a good point when choosing a saucepan?
+
+- ✅ a firm handle that does not get hot
+- ◻️ a handle that gets very hot  
+  _↳ feedback if chosen: Hot handles burn._
+- ◻️ a loose lid  
+  _↳ feedback if chosen: Lids should fit._
+- ◻️ sharp edges  
+  _↳ feedback if chosen: Edges should be smooth._
+
+Full working after a second miss:
+
+> Safe handles prevent burns.  
+> So the answer is “a firm handle that does not get hot”.  
+
+**Practice** `h2-25-wash` · multiple choice, level 1 · **authored key**
+
+> When should kitchen tools be washed?
+
+- ✅ soon after use
+- ◻️ once a week  
+  _↳ feedback if chosen: Food dries and germs grow._
+- ◻️ never  
+  _↳ feedback if chosen: Dirty tools spread germs._
+- ◻️ only when visitors come  
+  _↳ feedback if chosen: They must be washed every time._
+
+Full working after a second miss:
+
+> Food comes off easily and germs do not grow.  
+> So the answer is “soon after use”.  
+
+> When should kitchen tools be washed?
+
+- ◻️ only when visitors come  
+  _↳ feedback if chosen: They must be washed every time._
+- ◻️ never  
+  _↳ feedback if chosen: Dirty tools spread germs._
+- ✅ soon after use
+- ◻️ once a week  
+  _↳ feedback if chosen: Food dries and germs grow._
+
+Full working after a second miss:
+
+> Food comes off easily and germs do not grow.  
+> So the answer is “soon after use”.  
+
+**Practice** `h2-25-care` · multiple choice, level 2 · **authored key**
+
+> Why should knives not be left in a bowl of washing water?
+
+- ◻️ They become blunt at once.  
+  _↳ feedback if chosen: The main danger is cuts._
+- ◻️ The water becomes sweet.  
+  _↳ feedback if chosen: That is not true._
+- ✅ Someone could cut their hand on a hidden blade.
+- ◻️ It makes them rust-free.  
+  _↳ feedback if chosen: Water can rust them._
+
+Full working after a second miss:
+
+> A hidden blade is dangerous.  
+> So the answer is “Someone could cut their hand on a hidden blade.”.  
+
+> Why should a wooden spoon not be left soaking in water?
+
+- ✅ It swells, cracks and can grow mould.
+- ◻️ It melts.  
+  _↳ feedback if chosen: Wood does not melt._
+- ◻️ It becomes metal.  
+  _↳ feedback if chosen: Wood stays wood._
+- ◻️ It becomes sharper.  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Wood absorbs water.  
+> So the answer is “It swells, cracks and can grow mould.”.  
+
+**Practice** `h2-25-spot` · spot the error, level 3 · **authored key**
+
+> Which statement about choice and care is wrong?
+
+- ◻️ Oil cast iron to stop rust.
+- ✅ Soak wooden spoons overnight to clean them.  
+  _↳ explanation: Wood cracks and grows mould when soaked._
+- ◻️ Lids should fit tightly.
+- ◻️ Store tools in a clean dry place.
+
+Full working after a second miss:
+
+> The wrong statement is “Soak wooden spoons overnight to clean them.”.  
+> Wood cracks and grows mould when soaked.  
+
+> Which statement about choice and care is wrong?
+
+- ◻️ Lids should fit tightly.
+- ✅ Soak wooden spoons overnight to clean them.  
+  _↳ explanation: Wood cracks and grows mould when soaked._
+- ◻️ Store tools in a clean dry place.
+- ◻️ Dry knives after washing.
+
+Full working after a second miss:
+
+> The wrong statement is “Soak wooden spoons overnight to clean them.”.  
+> Wood cracks and grows mould when soaked.  
+
+## Lesson 26: Types (freezers, Refrigerator, Dish washer, Uses
+
+Prerequisites: 24 · Skill: h2-26 (Large kitchen equipment: types and uses)
+
+**Note** (draft)
+
+> Large kitchen equipment are big appliances and fittings that usually stay in one place.
+> • Cooker (stove): gas, electric, kerosene or charcoal; with burners (hobs or rings), an oven and a grill. Used for boiling, frying, baking and grilling.
+> • Refrigerator (fridge): keeps food cool (about 0–5 °C) to slow the growth of germs; it has a freezer box, shelves, a vegetable drawer and door racks.
+> • Freezer: keeps food frozen (about −18 °C) for weeks or months: meat, fish, ice.
+> • Dishwasher: washes, rinses and dries plates and pots with hot water and detergent.
+> • Sink, cupboards and worktops are large fittings.
+> Most large equipment use electricity or gas, so they must be used safely.
+
+**Card c26-1** (draft)
+
+> Large equipment are big appliances that stay in one place: cooker, fridge, freezer, dishwasher.
+>
+> _A cooker has burners and an oven._  
+> _The sink is a large fitting._  
+
+Check question: `h2-26-types` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which large equipment washes and dries plates?
+
+- ◻️ the fridge  
+  _↳ feedback if chosen: It cools food._
+- ◻️ the cooker  
+  _↳ feedback if chosen: It cooks food._
+- ◻️ the freezer  
+  _↳ feedback if chosen: It freezes food._
+- ✅ the dishwasher
+
+Full working after a second miss:
+
+> A dishwasher cleans dishes.  
+> So the answer is “the dishwasher”.  
+
+**Card c26-2** (draft)
+
+> A fridge keeps food cool for days; a freezer keeps food frozen for months.
+>
+> _Fridge about 0–5 °C._  
+> _Freezer about −18 °C._  
+
+Check question: `h2-26-cold` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why does a fridge help food to keep longer?
+
+- ◻️ It adds salt.  
+  _↳ feedback if chosen: It adds nothing._
+- ◻️ It cooks food.  
+  _↳ feedback if chosen: It cools food._
+- ◻️ It kills all germs.  
+  _↳ feedback if chosen: It only slows them._
+- ✅ The cold slows the growth of germs.
+
+Full working after a second miss:
+
+> Germs grow slowly in the cold.  
+> So the answer is “The cold slows the growth of germs.”.  
+
+**Card c26-3** (draft)
+
+> A dishwasher washes, rinses and dries dishes with hot water and detergent.
+>
+> _It saves time and water._  
+> _It needs electricity and water._  
+
+Check question: `h2-26-dish-card` · multiple choice, level 1 · **authored key**
+
+> Which large equipment can use gas, electricity or kerosene?
+
+- ◻️ a sink  
+  _↳ feedback if chosen: A sink uses no fuel._
+- ✅ a cooker
+- ◻️ a cupboard  
+  _↳ feedback if chosen: A cupboard uses no fuel._
+- ◻️ a worktop  
+  _↳ feedback if chosen: A worktop uses no fuel._
+
+Full working after a second miss:
+
+> Cookers have different fuels.  
+> So the answer is “a cooker”.  
+
+**Worked example** (draft)
+
+> Which large equipment is best to keep fresh fish for two months, and why?
+
+1. A fridge keeps food cool for only a few days.
+2. A freezer keeps it frozen at about −18 °C, so germs cannot grow for months.
+
+**Answer:** A freezer.
+
+**Practice** `h2-26-types` · multiple choice, level 1 · **authored key**
+
+> Which large equipment washes and dries plates?
+
+- ✅ the dishwasher
+- ◻️ the fridge  
+  _↳ feedback if chosen: It cools food._
+- ◻️ the freezer  
+  _↳ feedback if chosen: It freezes food._
+- ◻️ the cooker  
+  _↳ feedback if chosen: It cooks food._
+
+Full working after a second miss:
+
+> A dishwasher cleans dishes.  
+> So the answer is “the dishwasher”.  
+
+> Which large equipment washes and dries plates?
+
+- ✅ the dishwasher
+- ◻️ the cooker  
+  _↳ feedback if chosen: It cooks food._
+- ◻️ the freezer  
+  _↳ feedback if chosen: It freezes food._
+- ◻️ the fridge  
+  _↳ feedback if chosen: It cools food._
+
+Full working after a second miss:
+
+> A dishwasher cleans dishes.  
+> So the answer is “the dishwasher”.  
+
+**Practice** `h2-26-cold` · multiple choice, level 1 · **authored key**
+
+> Why does a fridge help food to keep longer?
+
+- ✅ The cold slows the growth of germs.
+- ◻️ It adds salt.  
+  _↳ feedback if chosen: It adds nothing._
+- ◻️ It cooks food.  
+  _↳ feedback if chosen: It cools food._
+- ◻️ It kills all germs.  
+  _↳ feedback if chosen: It only slows them._
+
+Full working after a second miss:
+
+> Germs grow slowly in the cold.  
+> So the answer is “The cold slows the growth of germs.”.  
+
+> Why does a fridge help food to keep longer?
+
+- ✅ The cold slows the growth of germs.
+- ◻️ It adds salt.  
+  _↳ feedback if chosen: It adds nothing._
+- ◻️ It kills all germs.  
+  _↳ feedback if chosen: It only slows them._
+- ◻️ It cooks food.  
+  _↳ feedback if chosen: It cools food._
+
+Full working after a second miss:
+
+> Germs grow slowly in the cold.  
+> So the answer is “The cold slows the growth of germs.”.  
+
+**Practice** `h2-26-dish` · multiple choice, level 2 · **authored key**
+
+> Which large equipment can use gas, electricity or kerosene?
+
+- ◻️ a worktop  
+  _↳ feedback if chosen: A worktop uses no fuel._
+- ◻️ a sink  
+  _↳ feedback if chosen: A sink uses no fuel._
+- ◻️ a cupboard  
+  _↳ feedback if chosen: A cupboard uses no fuel._
+- ✅ a cooker
+
+Full working after a second miss:
+
+> Cookers have different fuels.  
+> So the answer is “a cooker”.  
+
+> Which is an advantage of a dishwasher?
+
+- ◻️ It cooks food.  
+  _↳ feedback if chosen: It only washes._
+- ◻️ It needs no electricity.  
+  _↳ feedback if chosen: It needs electricity._
+- ◻️ It is cheap to buy.  
+  _↳ feedback if chosen: It is expensive._
+- ✅ It saves time and effort.
+
+Full working after a second miss:
+
+> It does the washing for you.  
+> So the answer is “It saves time and effort.”.  
+
+**Practice** `h2-26-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ A fridge slows germs.
+- ◻️ A cooker can have an oven and a grill.
+- ◻️ A dishwasher uses detergent.
+- ✅ A dishwasher is used to cook rice.  
+  _↳ explanation: It washes dishes._
+
+Full working after a second miss:
+
+> The wrong statement is “A dishwasher is used to cook rice.”.  
+> It washes dishes.  
+
+> Which statement is wrong?
+
+- ◻️ A cooker can have an oven and a grill.
+- ✅ A dishwasher is used to cook rice.  
+  _↳ explanation: It washes dishes._
+- ◻️ A freezer keeps food frozen.
+- ◻️ A fridge slows germs.
+
+Full working after a second miss:
+
+> The wrong statement is “A dishwasher is used to cook rice.”.  
+> It washes dishes.  
+
+## Lesson 27: Diagram of large kitchen equipment. Points to consider when chosing the equipment, care of large ketchen equipment
+
+Prerequisites: 26 · Skill: h2-27 (Large equipment: parts, choice and care)
+
+**Note** (draft)
+
+> Parts of a refrigerator: the cabinet, the door with a rubber seal (gasket), the freezer box, shelves, the vegetable drawer, door racks, the thermostat (temperature control) and, at the back, the condenser coils.
+> Parts of a cooker: burners (rings), control knobs, the oven with shelves, the grill and the oven door.
+> Points to consider when choosing: the needs and size of the family; the space in the kitchen; the fuel or power available (gas, electricity, kerosene); energy saving; the price; safety; guarantee and after-sales service.
+> Care:
+> • fridge: defrost and clean regularly, keep the door closed, do not put hot food inside, leave space at the back for air;
+> • cooker: wipe spills at once, clean burners, check gas pipes and turn off the gas after use;
+> • unplug before cleaning electrical equipment.
+
+**Card c27-1** (draft)
+
+> A fridge has a door seal, shelves, a freezer box, a thermostat and condenser coils at the back.
+>
+> _The seal keeps cold air in._  
+> _The thermostat sets the temperature._  
+
+Check question: `h2-27-parts` · matching, level 1 · **authored key**, reused from practice
+
+> Match each part of a refrigerator to its job.
+
+Right-hand side (shuffled): controls the temperature · keeps the cold air inside · makes ice and freezes food · keeps fruit and vegetables fresh
+- door seal → **keeps the cold air inside**
+- thermostat → **controls the temperature**
+- freezer box → **makes ice and freezes food**
+- vegetable drawer → **keeps fruit and vegetables fresh**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> door seal → keeps the cold air inside  
+> thermostat → controls the temperature  
+> freezer box → makes ice and freezes food  
+> vegetable drawer → keeps fruit and vegetables fresh  
+
+**Card c27-2** (draft)
+
+> Choose large equipment for the family size, kitchen space, fuel available, energy saving, price and guarantee.
+>
+> _No electricity: choose a gas cooker._  
+> _A big family needs a bigger fridge._  
+
+Check question: `h2-27-choose` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why is a guarantee important when buying a fridge?
+
+- ◻️ It is not important.  
+  _↳ feedback if chosen: It protects your money._
+- ◻️ It makes the fridge colder.  
+  _↳ feedback if chosen: It does not change cooling._
+- ◻️ It lowers the price of food.  
+  _↳ feedback if chosen: It does not._
+- ✅ It will be repaired or replaced if it breaks early.
+
+Full working after a second miss:
+
+> A guarantee protects the buyer.  
+> So the answer is “It will be repaired or replaced if it breaks early.”.  
+
+**Card c27-3** (draft)
+
+> Defrost and clean the fridge; wipe cooker spills; turn off gas; unplug before cleaning.
+>
+> _Do not put hot food in the fridge._  
+> _Check the gas pipe for leaks._  
+
+Check question: `h2-27-care-card` · multiple choice, level 1 · **authored key**
+
+> What should be done before cleaning an electric cooker?
+
+- ◻️ Nothing.  
+  _↳ feedback if chosen: Electricity is dangerous._
+- ✅ Unplug it or switch it off at the mains.
+- ◻️ Pour water on the hot rings.  
+  _↳ feedback if chosen: That can cause shocks and burns._
+- ◻️ Turn it on high.  
+  _↳ feedback if chosen: That is dangerous._
+
+Full working after a second miss:
+
+> Avoid electric shock.  
+> So the answer is “Unplug it or switch it off at the mains.”.  
+
+**Worked example** (draft)
+
+> Why is it bad if hot food is put straight into the fridge?
+
+1. The hot food warms the inside of the fridge.
+2. The fridge must work harder, using more electricity, and other food may spoil.
+
+**Answer:** It wastes electricity and warms the other food.
+
+**Practice** `h2-27-parts` · matching, level 1 · **authored key**
+
+> Match each part of a refrigerator to its job.
+
+Right-hand side (shuffled): keeps the cold air inside · keeps fruit and vegetables fresh · makes ice and freezes food · controls the temperature
+- door seal → **keeps the cold air inside**
+- freezer box → **makes ice and freezes food**
+- thermostat → **controls the temperature**
+- vegetable drawer → **keeps fruit and vegetables fresh**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> door seal → keeps the cold air inside  
+> freezer box → makes ice and freezes food  
+> thermostat → controls the temperature  
+> vegetable drawer → keeps fruit and vegetables fresh  
+
+> Match each part of a refrigerator to its job.
+
+Right-hand side (shuffled): keeps the cold air inside · controls the temperature · keeps fruit and vegetables fresh · makes ice and freezes food
+- vegetable drawer → **keeps fruit and vegetables fresh**
+- thermostat → **controls the temperature**
+- freezer box → **makes ice and freezes food**
+- door seal → **keeps the cold air inside**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> vegetable drawer → keeps fruit and vegetables fresh  
+> thermostat → controls the temperature  
+> freezer box → makes ice and freezes food  
+> door seal → keeps the cold air inside  
+
+**Practice** `h2-27-choose` · multiple choice, level 1 · **authored key**
+
+> Why is a guarantee important when buying a fridge?
+
+- ◻️ It is not important.  
+  _↳ feedback if chosen: It protects your money._
+- ◻️ It makes the fridge colder.  
+  _↳ feedback if chosen: It does not change cooling._
+- ✅ It will be repaired or replaced if it breaks early.
+- ◻️ It lowers the price of food.  
+  _↳ feedback if chosen: It does not._
+
+Full working after a second miss:
+
+> A guarantee protects the buyer.  
+> So the answer is “It will be repaired or replaced if it breaks early.”.  
+
+> A family in a village has no electricity. Which cooker should they choose?
+
+- ◻️ an electric cooker  
+  _↳ feedback if chosen: It needs electricity._
+- ◻️ an electric oven  
+  _↳ feedback if chosen: It needs electricity._
+- ✅ a gas or kerosene cooker
+- ◻️ a microwave oven  
+  _↳ feedback if chosen: It needs electricity._
+
+Full working after a second miss:
+
+> Choose the fuel that is available.  
+> So the answer is “a gas or kerosene cooker”.  
+
+**Practice** `h2-27-care` · multiple choice, level 2 · **authored key**
+
+> What should you do after cooking with a gas cooker?
+
+- ◻️ light another match  
+  _↳ feedback if chosen: That is dangerous._
+- ◻️ cover the cylinder with cloth  
+  _↳ feedback if chosen: That does not stop leaks._
+- ◻️ leave the gas on  
+  _↳ feedback if chosen: Leaking gas can explode._
+- ✅ turn off the gas at the cylinder
+
+Full working after a second miss:
+
+> Prevent gas leaks.  
+> So the answer is “turn off the gas at the cylinder”.  
+
+> What should you do after cooking with a gas cooker?
+
+- ✅ turn off the gas at the cylinder
+- ◻️ light another match  
+  _↳ feedback if chosen: That is dangerous._
+- ◻️ leave the gas on  
+  _↳ feedback if chosen: Leaking gas can explode._
+- ◻️ cover the cylinder with cloth  
+  _↳ feedback if chosen: That does not stop leaks._
+
+Full working after a second miss:
+
+> Prevent gas leaks.  
+> So the answer is “turn off the gas at the cylinder”.  
+
+**Practice** `h2-27-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Wipe spills on the cooker at once.
+- ✅ Put hot food straight into the fridge.  
+  _↳ explanation: Cool it first._
+- ◻️ Defrost the fridge regularly.
+- ◻️ Unplug before cleaning.
+
+Full working after a second miss:
+
+> The wrong statement is “Put hot food straight into the fridge.”.  
+> Cool it first.  
+
+> Which statement is wrong?
+
+- ◻️ Unplug before cleaning.
+- ◻️ Keep the fridge door closed.
+- ✅ Push the fridge tight against the wall.  
+  _↳ explanation: Leave space for air at the back._
+- ◻️ Wipe spills on the cooker at once.
+
+Full working after a second miss:
+
+> The wrong statement is “Push the fridge tight against the wall.”.  
+> Leave space for air at the back.  
+
+## Lesson 28: Types of labour saving equipment. (microwave oven, pressure cooker, blender, mixers, vacuum flask
+
+Prerequisites: 26 · Skill: h2-28 (Labour-saving equipment: types)
+
+**Note** (draft)
+
+> Labour-saving equipment are appliances that reduce the time and effort needed for kitchen work.
+> • Microwave oven: heats, cooks and defrosts food quickly.
+> • Pressure cooker: cooks food (beans, tough meat, corn chaff) much faster than an ordinary pot.
+> • Blender (liquidiser): blends, purées and grinds (tomatoes, pepper, juice, egusi).
+> • Mixer: beats, whisks and mixes (cakes, eggs, dough).
+> • Vacuum flask: keeps food or drinks hot or cold for many hours.
+> • Others: food processor, electric kettle, toaster, rice cooker, electric grinder, kitchen scale.
+> Most use electricity; the pressure cooker and vacuum flask do not.
+
+**Card c28-1** (draft)
+
+> Labour-saving equipment reduce the time and effort of kitchen work.
+>
+> _A blender grinds pepper in seconds._  
+> _A mixer beats cake mixture._  
+
+Check question: `h2-28-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which equipment is best to beat eggs and sugar for a cake?
+
+- ✅ a mixer
+- ◻️ a freezer  
+  _↳ feedback if chosen: It freezes food._
+- ◻️ a vacuum flask  
+  _↳ feedback if chosen: It keeps drinks hot._
+- ◻️ a pressure cooker  
+  _↳ feedback if chosen: It cooks food._
+
+Full working after a second miss:
+
+> A mixer beats and whisks.  
+> So the answer is “a mixer”.  
+
+**Card c28-2** (draft)
+
+> A microwave heats food quickly; a pressure cooker cooks tough foods fast.
+>
+> _Microwave: reheating rice._  
+> _Pressure cooker: beans and tough meat._  
+
+Check question: `h2-28-cook` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is labour-saving equipment?
+
+- ✅ equipment that reduces the time and effort of work
+- ◻️ equipment that makes work harder  
+  _↳ feedback if chosen: It makes work easier._
+- ◻️ only very old tools  
+  _↳ feedback if chosen: Most are modern._
+- ◻️ food that is ready to eat  
+  _↳ feedback if chosen: It is equipment, not food._
+
+Full working after a second miss:
+
+> It saves labour.  
+> So the answer is “equipment that reduces the time and effort of work”.  
+
+**Card c28-3** (draft)
+
+> A vacuum flask keeps food or drinks hot or cold for many hours.
+>
+> _Hot tea for a journey._  
+> _Cold water at school._  
+
+Check question: `h2-28-flask-card` · multiple choice, level 1 · **authored key**
+
+> Which is an advantage of labour-saving equipment?
+
+- ✅ saves time and energy for other work
+- ◻️ needs no care  
+  _↳ feedback if chosen: They need care._
+- ◻️ never breaks  
+  _↳ feedback if chosen: They can break._
+- ◻️ always free to buy  
+  _↳ feedback if chosen: They cost money._
+
+Full working after a second miss:
+
+> Work is done faster.  
+> So the answer is “saves time and energy for other work”.  
+
+**Worked example** (draft)
+
+> How does a pressure cooker save labour when cooking dry beans?
+
+1. Beans take hours in an ordinary pot.
+2. A pressure cooker cooks them in a fraction of the time, saving fuel and effort.
+
+**Answer:** It cooks the beans much faster, saving time and fuel.
+
+**Practice** `h2-28-what` · multiple choice, level 1 · **authored key**
+
+> Which equipment is best to grind tomatoes and pepper quickly?
+
+- ✅ a blender
+- ◻️ a toaster  
+  _↳ feedback if chosen: It browns bread._
+- ◻️ a vacuum flask  
+  _↳ feedback if chosen: It keeps drinks hot._
+- ◻️ a fridge  
+  _↳ feedback if chosen: It cools food._
+
+Full working after a second miss:
+
+> A blender purées and grinds.  
+> So the answer is “a blender”.  
+
+> Which equipment is best to reheat a plate of rice in two minutes?
+
+- ✅ a microwave oven
+- ◻️ a mixer  
+  _↳ feedback if chosen: It beats._
+- ◻️ a vacuum flask  
+  _↳ feedback if chosen: It keeps, but does not heat._
+- ◻️ a freezer  
+  _↳ feedback if chosen: It freezes._
+
+Full working after a second miss:
+
+> Microwaves heat food quickly.  
+> So the answer is “a microwave oven”.  
+
+**Practice** `h2-28-cook` · multiple choice, level 1 · **authored key**
+
+> What is labour-saving equipment?
+
+- ◻️ food that is ready to eat  
+  _↳ feedback if chosen: It is equipment, not food._
+- ◻️ equipment that makes work harder  
+  _↳ feedback if chosen: It makes work easier._
+- ✅ equipment that reduces the time and effort of work
+- ◻️ only very old tools  
+  _↳ feedback if chosen: Most are modern._
+
+Full working after a second miss:
+
+> It saves labour.  
+> So the answer is “equipment that reduces the time and effort of work”.  
+
+> What is labour-saving equipment?
+
+- ◻️ equipment that makes work harder  
+  _↳ feedback if chosen: It makes work easier._
+- ◻️ only very old tools  
+  _↳ feedback if chosen: Most are modern._
+- ✅ equipment that reduces the time and effort of work
+- ◻️ food that is ready to eat  
+  _↳ feedback if chosen: It is equipment, not food._
+
+Full working after a second miss:
+
+> It saves labour.  
+> So the answer is “equipment that reduces the time and effort of work”.  
+
+**Practice** `h2-28-flask` · multiple choice, level 2 · **authored key**
+
+> Which is an advantage of labour-saving equipment?
+
+- ◻️ always free to buy  
+  _↳ feedback if chosen: They cost money._
+- ◻️ never breaks  
+  _↳ feedback if chosen: They can break._
+- ◻️ needs no care  
+  _↳ feedback if chosen: They need care._
+- ✅ saves time and energy for other work
+
+Full working after a second miss:
+
+> Work is done faster.  
+> So the answer is “saves time and energy for other work”.  
+
+> A pupil wants cold water at school all day. Which equipment helps?
+
+- ◻️ a microwave  
+  _↳ feedback if chosen: It heats._
+- ◻️ a toaster  
+  _↳ feedback if chosen: It browns bread._
+- ✅ a vacuum flask
+- ◻️ a pressure cooker  
+  _↳ feedback if chosen: It cooks._
+
+Full working after a second miss:
+
+> The flask keeps it cold.  
+> So the answer is “a vacuum flask”.  
+
+**Practice** `h2-28-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ A mixer beats eggs.
+- ◻️ A pressure cooker cooks beans faster.
+- ◻️ A vacuum flask keeps tea hot.
+- ✅ A microwave oven keeps food frozen.  
+  _↳ explanation: It heats food; a freezer freezes._
+
+Full working after a second miss:
+
+> The wrong statement is “A microwave oven keeps food frozen.”.  
+> It heats food; a freezer freezes.  
+
+> Which statement is wrong?
+
+- ◻️ A vacuum flask keeps tea hot.
+- ✅ A vacuum flask is used to cook beans.  
+  _↳ explanation: It only keeps food hot or cold._
+- ◻️ A pressure cooker cooks beans faster.
+- ◻️ A blender grinds pepper.
+
+Full working after a second miss:
+
+> The wrong statement is “A vacuum flask is used to cook beans.”.  
+> It only keeps food hot or cold.  
+
+## Lesson 29: Diagrams of labour saving equipment
+
+Prerequisites: 28 · Skill: h2-29 (Labour-saving equipment: parts)
+
+**Note** (draft)
+
+> Knowing the parts helps to use and care for equipment.
+> Pressure cooker: the pan (body), the lid with a rubber gasket (sealing ring), the safety valve, the weight or pressure regulator on the vent pipe, and the handles.
+> Blender: the motor base with speed buttons, the jug (goblet) with measurement marks, the blades at the bottom, the lid and the filler cap.
+> Vacuum flask: the outer case, a double-walled glass or steel inner container with a vacuum between the walls, silvered (shiny) surfaces, the stopper and the cup.
+> Microwave oven: the door with a window and safety lock, the turntable (glass plate), the control panel and timer.
+> Mixer: the motor, speed control, the beaters (whisks) and the bowl.
+
+**Card c29-1** (draft)
+
+> A pressure cooker has a lid with a rubber gasket, a safety valve and a weight on the vent.
+>
+> _The gasket seals the lid._  
+> _The safety valve lets out steam if the pressure is too high._  
+
+Check question: `h2-29-pc` · matching, level 1 · **authored key**, reused from practice
+
+> Match each part of a pressure cooker to its job.
+
+Right-hand side (shuffled): seals the lid · controls the pressure · lets out steam if the pressure is too high · lift and lock the lid safely
+- safety valve → **lets out steam if the pressure is too high**
+- weight (regulator) → **controls the pressure**
+- gasket (sealing ring) → **seals the lid**
+- handles → **lift and lock the lid safely**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> safety valve → lets out steam if the pressure is too high  
+> weight (regulator) → controls the pressure  
+> gasket (sealing ring) → seals the lid  
+> handles → lift and lock the lid safely  
+
+**Card c29-2** (draft)
+
+> A blender has a motor base, a jug with blades and a lid.
+>
+> _The blades are at the bottom of the jug._  
+> _The speed buttons are on the base._  
+
+Check question: `h2-29-bl` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which part of a microwave oven turns the food round?
+
+- ◻️ the door  
+  _↳ feedback if chosen: The door closes the oven._
+- ◻️ the plug  
+  _↳ feedback if chosen: The plug brings power._
+- ◻️ the timer  
+  _↳ feedback if chosen: The timer sets the time._
+- ✅ the turntable
+
+Full working after a second miss:
+
+> The turntable heats food evenly.  
+> So the answer is “the turntable”.  
+
+**Card c29-3** (draft)
+
+> A vacuum flask has a double wall with a vacuum between, shiny surfaces and a stopper.
+>
+> _The vacuum stops conduction and convection._  
+> _The shiny walls reduce radiation._  
+
+Check question: `h2-29-fl-card` · multiple choice, level 1 · **authored key**
+
+> Why are the inner walls of a vacuum flask shiny?
+
+- ✅ to reflect heat radiation
+- ◻️ to absorb more heat  
+  _↳ feedback if chosen: Shiny surfaces reflect._
+- ◻️ to look pretty only  
+  _↳ feedback if chosen: They have a job._
+- ◻️ to make it lighter  
+  _↳ feedback if chosen: That is not why._
+
+Full working after a second miss:
+
+> Shiny walls reduce radiation.  
+> So the answer is “to reflect heat radiation”.  
+
+**Worked example** (draft)
+
+> What is the job of the rubber gasket of a pressure cooker?
+
+1. It fits round the edge of the lid.
+2. It seals the lid so steam cannot escape and the pressure can build up.
+
+**Answer:** It seals the lid to keep the steam and pressure in.
+
+**Practice** `h2-29-pc` · matching, level 1 · **authored key**
+
+> Match each part of a pressure cooker to its job.
+
+Right-hand side (shuffled): lets out steam if the pressure is too high · controls the pressure · seals the lid · lift and lock the lid safely
+- weight (regulator) → **controls the pressure**
+- handles → **lift and lock the lid safely**
+- safety valve → **lets out steam if the pressure is too high**
+- gasket (sealing ring) → **seals the lid**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> weight (regulator) → controls the pressure  
+> handles → lift and lock the lid safely  
+> safety valve → lets out steam if the pressure is too high  
+> gasket (sealing ring) → seals the lid  
+
+> Match each part of a pressure cooker to its job.
+
+Right-hand side (shuffled): controls the pressure · lift and lock the lid safely · seals the lid · lets out steam if the pressure is too high
+- safety valve → **lets out steam if the pressure is too high**
+- weight (regulator) → **controls the pressure**
+- gasket (sealing ring) → **seals the lid**
+- handles → **lift and lock the lid safely**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> safety valve → lets out steam if the pressure is too high  
+> weight (regulator) → controls the pressure  
+> gasket (sealing ring) → seals the lid  
+> handles → lift and lock the lid safely  
+
+**Practice** `h2-29-bl` · multiple choice, level 1 · **authored key**
+
+> Which part of a microwave oven turns the food round?
+
+- ◻️ the timer  
+  _↳ feedback if chosen: The timer sets the time._
+- ◻️ the plug  
+  _↳ feedback if chosen: The plug brings power._
+- ◻️ the door  
+  _↳ feedback if chosen: The door closes the oven._
+- ✅ the turntable
+
+Full working after a second miss:
+
+> The turntable heats food evenly.  
+> So the answer is “the turntable”.  
+
+> Which part of a microwave oven turns the food round?
+
+- ✅ the turntable
+- ◻️ the door  
+  _↳ feedback if chosen: The door closes the oven._
+- ◻️ the plug  
+  _↳ feedback if chosen: The plug brings power._
+- ◻️ the timer  
+  _↳ feedback if chosen: The timer sets the time._
+
+Full working after a second miss:
+
+> The turntable heats food evenly.  
+> So the answer is “the turntable”.  
+
+**Practice** `h2-29-fl` · multiple choice, level 2 · **authored key**
+
+> What is between the two walls of a vacuum flask?
+
+- ◻️ cotton wool  
+  _↳ feedback if chosen: That is not used._
+- ✅ a vacuum (almost no air)
+- ◻️ sand  
+  _↳ feedback if chosen: Sand would carry heat._
+- ◻️ water  
+  _↳ feedback if chosen: Water would carry heat._
+
+Full working after a second miss:
+
+> No air means little heat transfer.  
+> So the answer is “a vacuum (almost no air)”.  
+
+> Why are the inner walls of a vacuum flask shiny?
+
+- ✅ to reflect heat radiation
+- ◻️ to make it lighter  
+  _↳ feedback if chosen: That is not why._
+- ◻️ to absorb more heat  
+  _↳ feedback if chosen: Shiny surfaces reflect._
+- ◻️ to look pretty only  
+  _↳ feedback if chosen: They have a job._
+
+Full working after a second miss:
+
+> Shiny walls reduce radiation.  
+> So the answer is “to reflect heat radiation”.  
+
+**Practice** `h2-29-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ A vacuum flask is filled with air between its walls.  
+  _↳ explanation: There is a vacuum between the walls._
+- ◻️ A flask has a stopper.
+- ◻️ A blender's motor is in the base.
+- ◻️ A mixer has beaters.
+
+Full working after a second miss:
+
+> The wrong statement is “A vacuum flask is filled with air between its walls.”.  
+> There is a vacuum between the walls.  
+
+> Which statement is wrong?
+
+- ◻️ A flask has a stopper.
+- ◻️ A mixer has beaters.
+- ✅ A vacuum flask is filled with air between its walls.  
+  _↳ explanation: There is a vacuum between the walls._
+- ◻️ A blender's motor is in the base.
+
+Full working after a second miss:
+
+> The wrong statement is “A vacuum flask is filled with air between its walls.”.  
+> There is a vacuum between the walls.  
+
+## Lesson 30: Principles and uses of labour saving equipment
+
+Prerequisites: 29 · Skill: h2-30 (Labour-saving equipment: how they work)
+
+**Note** (draft)
+
+> Principles (how they work):
+> • Pressure cooker: the sealed lid traps steam, so the pressure rises. At higher pressure water boils at a higher temperature (about 120 °C instead of 100 °C), so food cooks faster.
+> • Microwave oven: microwaves make the water molecules in food vibrate, producing heat inside the food.
+> • Vacuum flask: the vacuum stops heat moving by conduction and convection; the shiny walls reflect radiation; the stopper stops evaporation and convection at the top.
+> • Blender and mixer: an electric motor turns blades or beaters at high speed.
+> Uses:
+> • saving time, fuel and effort;
+> • helping working parents prepare meals quickly;
+> • keeping food hot for school or work (flask).
+
+**Card c30-1** (draft)
+
+> In a pressure cooker, trapped steam raises the pressure and the boiling point, so food cooks faster.
+>
+> _Water boils at about 120 °C inside._  
+> _Open pots boil at 100 °C._  
+
+Check question: `h2-30-pc` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why does food cook faster in a pressure cooker?
+
+- ◻️ The food becomes smaller.  
+  _↳ feedback if chosen: Size does not change._
+- ◻️ It uses cold water.  
+  _↳ feedback if chosen: The water is boiling._
+- ◻️ The lid adds heat.  
+  _↳ feedback if chosen: The lid traps steam._
+- ✅ Water boils at a higher temperature under pressure.
+
+Full working after a second miss:
+
+> Higher pressure, higher boiling point.  
+> So the answer is “Water boils at a higher temperature under pressure.”.  
+
+**Card c30-2** (draft)
+
+> Microwaves make water molecules in the food vibrate, heating the food from inside.
+>
+> _Food with water heats well._  
+> _Never put metal in a microwave._  
+
+Check question: `h2-30-mw` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How does a microwave oven heat food?
+
+- ◻️ A flame burns under the food.  
+  _↳ feedback if chosen: There is no flame._
+- ◻️ Ice melts on it.  
+  _↳ feedback if chosen: There is no ice._
+- ✅ Microwaves make the water molecules in the food vibrate.
+- ◻️ Hot coals heat it.  
+  _↳ feedback if chosen: There are no coals._
+
+Full working after a second miss:
+
+> The vibrating molecules make heat.  
+> So the answer is “Microwaves make the water molecules in the food vibrate.”.  
+
+**Card c30-3** (draft)
+
+> A vacuum flask stops conduction and convection with its vacuum and reflects radiation with shiny walls.
+>
+> _Keeps tea hot._  
+> _Keeps juice cold._  
+
+Check question: `h2-30-fl-card` · multiple choice, level 1 · **authored key**
+
+> How does the vacuum in a flask keep tea hot?
+
+- ◻️ It adds steam.  
+  _↳ feedback if chosen: It adds nothing._
+- ◻️ It cools the tea.  
+  _↳ feedback if chosen: It keeps it hot._
+- ✅ It stops heat escaping by conduction and convection.
+- ◻️ It heats the tea.  
+  _↳ feedback if chosen: It does not heat._
+
+Full working after a second miss:
+
+> Heat cannot pass through a vacuum by those ways.  
+> So the answer is “It stops heat escaping by conduction and convection.”.  
+
+**Worked example** (draft)
+
+> Explain why beans cook faster in a pressure cooker.
+
+1. The sealed lid traps the steam, so the pressure inside rises.
+2. At higher pressure water boils at about 120 °C, hotter than 100 °C, so the beans cook faster.
+
+**Answer:** The higher pressure raises the boiling point, so the food cooks at a higher temperature.
+
+**Practice** `h2-30-pc` · multiple choice, level 1 · **authored key**
+
+> About what temperature does water boil at inside a pressure cooker?
+
+- ◻️ about 100 °C  
+  _↳ feedback if chosen: That is in an open pot._
+- ◻️ about 50 °C  
+  _↳ feedback if chosen: That is too low._
+- ✅ about 120 °C
+- ◻️ about 0 °C  
+  _↳ feedback if chosen: That is freezing._
+
+Full working after a second miss:
+
+> The pressure raises the boiling point.  
+> So the answer is “about 120 °C”.  
+
+> About what temperature does water boil at inside a pressure cooker?
+
+- ◻️ about 0 °C  
+  _↳ feedback if chosen: That is freezing._
+- ◻️ about 100 °C  
+  _↳ feedback if chosen: That is in an open pot._
+- ✅ about 120 °C
+- ◻️ about 50 °C  
+  _↳ feedback if chosen: That is too low._
+
+Full working after a second miss:
+
+> The pressure raises the boiling point.  
+> So the answer is “about 120 °C”.  
+
+**Practice** `h2-30-mw` · multiple choice, level 1 · **authored key**
+
+> How does a microwave oven heat food?
+
+- ◻️ Hot coals heat it.  
+  _↳ feedback if chosen: There are no coals._
+- ✅ Microwaves make the water molecules in the food vibrate.
+- ◻️ A flame burns under the food.  
+  _↳ feedback if chosen: There is no flame._
+- ◻️ Ice melts on it.  
+  _↳ feedback if chosen: There is no ice._
+
+Full working after a second miss:
+
+> The vibrating molecules make heat.  
+> So the answer is “Microwaves make the water molecules in the food vibrate.”.  
+
+> How does a microwave oven heat food?
+
+- ◻️ A flame burns under the food.  
+  _↳ feedback if chosen: There is no flame._
+- ◻️ Hot coals heat it.  
+  _↳ feedback if chosen: There are no coals._
+- ◻️ Ice melts on it.  
+  _↳ feedback if chosen: There is no ice._
+- ✅ Microwaves make the water molecules in the food vibrate.
+
+Full working after a second miss:
+
+> The vibrating molecules make heat.  
+> So the answer is “Microwaves make the water molecules in the food vibrate.”.  
+
+**Practice** `h2-30-fl` · multiple choice, level 2 · **authored key**
+
+> How does the vacuum in a flask keep tea hot?
+
+- ✅ It stops heat escaping by conduction and convection.
+- ◻️ It cools the tea.  
+  _↳ feedback if chosen: It keeps it hot._
+- ◻️ It heats the tea.  
+  _↳ feedback if chosen: It does not heat._
+- ◻️ It adds steam.  
+  _↳ feedback if chosen: It adds nothing._
+
+Full working after a second miss:
+
+> Heat cannot pass through a vacuum by those ways.  
+> So the answer is “It stops heat escaping by conduction and convection.”.  
+
+> How does the vacuum in a flask keep tea hot?
+
+- ◻️ It adds steam.  
+  _↳ feedback if chosen: It adds nothing._
+- ◻️ It cools the tea.  
+  _↳ feedback if chosen: It keeps it hot._
+- ✅ It stops heat escaping by conduction and convection.
+- ◻️ It heats the tea.  
+  _↳ feedback if chosen: It does not heat._
+
+Full working after a second miss:
+
+> Heat cannot pass through a vacuum by those ways.  
+> So the answer is “It stops heat escaping by conduction and convection.”.  
+
+**Practice** `h2-30-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Microwaves heat the water in food.
+- ◻️ Shiny walls reflect radiation.
+- ✅ A vacuum flask works by heating its contents.  
+  _↳ explanation: It only reduces heat loss or gain._
+- ◻️ Pressure raises the boiling point of water.
+
+Full working after a second miss:
+
+> The wrong statement is “A vacuum flask works by heating its contents.”.  
+> It only reduces heat loss or gain.  
+
+> Which statement is wrong?
+
+- ◻️ Shiny walls reflect radiation.
+- ◻️ Pressure raises the boiling point of water.
+- ◻️ A blender uses an electric motor.
+- ✅ A vacuum flask works by heating its contents.  
+  _↳ explanation: It only reduces heat loss or gain._
+
+Full working after a second miss:
+
+> The wrong statement is “A vacuum flask works by heating its contents.”.  
+> It only reduces heat loss or gain.  
+
+## Lesson 31: Things to consider when choosing the equipment.Care of labour saving equipment
+
+Prerequisites: 30 · Skill: h2-31 (Labour-saving equipment: choice and care)
+
+**Note** (draft)
+
+> Things to consider when choosing:
+> • Is it really needed? Will it be used often?
+> • Source of power: is there regular electricity? What is the voltage (220 V in Cameroon)?
+> • Price and running cost (electricity); spare parts and repairers nearby;
+> • size, weight, storage space; easy to clean; safety features; guarantee and instructions.
+> Care:
+> • read and follow the maker's instructions;
+> • unplug before cleaning; never put the motor base of a blender or mixer in water — wipe it with a damp cloth;
+> • pressure cooker: check the gasket and valves, never overfill (no more than two-thirds full), let the pressure fall before opening;
+> • flask: rinse with warm water, do not drop it (the glass breaks), dry it open;
+> • microwave: clean spills, never run it empty.
+
+**Card c31-1** (draft)
+
+> Before buying, ask: is it needed, is there power, what does it cost to buy and run, are spare parts available?
+>
+> _Mains voltage is 220 V._  
+> _Check the guarantee._  
+
+Check question: `h2-31-choose` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why check that spare parts are available?
+
+- ✅ so that it can be repaired if it breaks
+- ◻️ to make it cheaper today  
+  _↳ feedback if chosen: That does not change the price._
+- ◻️ it does not matter  
+  _↳ feedback if chosen: It matters for repairs._
+- ◻️ to make it faster  
+  _↳ feedback if chosen: That does not change speed._
+
+Full working after a second miss:
+
+> Repairs need parts.  
+> So the answer is “so that it can be repaired if it breaks”.  
+
+**Card c31-2** (draft)
+
+> Unplug before cleaning; wipe motor bases with a damp cloth, never put them in water.
+>
+> _Wash the blender jug only._  
+> _Dry everything well._  
+
+Check question: `h2-31-elec` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How should the motor base of a blender be cleaned?
+
+- ◻️ never clean it  
+  _↳ feedback if chosen: It must be kept clean._
+- ✅ unplug it and wipe it with a damp cloth
+- ◻️ put it in a bowl of water  
+  _↳ feedback if chosen: Water damages the motor and can cause shocks._
+- ◻️ wash it under the tap while plugged in  
+  _↳ feedback if chosen: That is very dangerous._
+
+Full working after a second miss:
+
+> Keep water away from the motor.  
+> So the answer is “unplug it and wipe it with a damp cloth”.  
+
+**Card c31-3** (draft)
+
+> Never overfill a pressure cooker and let the pressure fall before opening it.
+>
+> _No more than two-thirds full._  
+> _Check the gasket and valves._  
+
+Check question: `h2-31-pc-card` · multiple choice, level 1 · **authored key**
+
+> How full may a pressure cooker be filled?
+
+- ✅ no more than two-thirds full
+- ◻️ full to the top  
+  _↳ feedback if chosen: It needs space for steam._
+- ◻️ overflowing  
+  _↳ feedback if chosen: That is dangerous._
+- ◻️ only one spoonful  
+  _↳ feedback if chosen: That is too little to cook._
+
+Full working after a second miss:
+
+> Space is needed for steam.  
+> So the answer is “no more than two-thirds full”.  
+
+**Worked example** (draft)
+
+> Why is opening a pressure cooker while it is still hissing dangerous?
+
+1. The pressure inside is still high.
+2. Opening it lets out very hot steam and food at once, causing serious burns.
+
+**Answer:** Steam and boiling food can burst out and burn you.
+
+**Practice** `h2-31-choose` · multiple choice, level 1 · **authored key**
+
+> Which question should you ask before buying an electric blender?
+
+- ◻️ Is it raining?  
+  _↳ feedback if chosen: That does not matter._
+- ◻️ How old is the seller?  
+  _↳ feedback if chosen: That does not matter._
+- ✅ Is there regular electricity at home?
+- ◻️ What colour is the shop?  
+  _↳ feedback if chosen: That does not matter._
+
+Full working after a second miss:
+
+> It needs electricity.  
+> So the answer is “Is there regular electricity at home?”.  
+
+> Why check that spare parts are available?
+
+- ◻️ to make it faster  
+  _↳ feedback if chosen: That does not change speed._
+- ◻️ it does not matter  
+  _↳ feedback if chosen: It matters for repairs._
+- ✅ so that it can be repaired if it breaks
+- ◻️ to make it cheaper today  
+  _↳ feedback if chosen: That does not change the price._
+
+Full working after a second miss:
+
+> Repairs need parts.  
+> So the answer is “so that it can be repaired if it breaks”.  
+
+**Practice** `h2-31-elec` · multiple choice, level 1 · **authored key**
+
+> How should the motor base of a blender be cleaned?
+
+- ◻️ put it in a bowl of water  
+  _↳ feedback if chosen: Water damages the motor and can cause shocks._
+- ◻️ wash it under the tap while plugged in  
+  _↳ feedback if chosen: That is very dangerous._
+- ✅ unplug it and wipe it with a damp cloth
+- ◻️ never clean it  
+  _↳ feedback if chosen: It must be kept clean._
+
+Full working after a second miss:
+
+> Keep water away from the motor.  
+> So the answer is “unplug it and wipe it with a damp cloth”.  
+
+> What should you read before using new equipment?
+
+- ◻️ nothing  
+  _↳ feedback if chosen: Instructions keep you safe._
+- ✅ the maker's instructions
+- ◻️ a story book  
+  _↳ feedback if chosen: That will not help._
+- ◻️ a newspaper  
+  _↳ feedback if chosen: That will not help._
+
+Full working after a second miss:
+
+> Follow the instructions.  
+> So the answer is “the maker's instructions”.  
+
+**Practice** `h2-31-pc` · multiple choice, level 2 · **authored key**
+
+> How full may a pressure cooker be filled?
+
+- ✅ no more than two-thirds full
+- ◻️ only one spoonful  
+  _↳ feedback if chosen: That is too little to cook._
+- ◻️ full to the top  
+  _↳ feedback if chosen: It needs space for steam._
+- ◻️ overflowing  
+  _↳ feedback if chosen: That is dangerous._
+
+Full working after a second miss:
+
+> Space is needed for steam.  
+> So the answer is “no more than two-thirds full”.  
+
+> When is it safe to open a pressure cooker?
+
+- ◻️ when the valve is blocked  
+  _↳ feedback if chosen: A blocked valve is dangerous._
+- ✅ after the pressure has fallen
+- ◻️ while it is hissing  
+  _↳ feedback if chosen: Steam can burst out._
+- ◻️ at once on high heat  
+  _↳ feedback if chosen: That is dangerous._
+
+Full working after a second miss:
+
+> Let it cool and the pressure fall.  
+> So the answer is “after the pressure has fallen”.  
+
+**Practice** `h2-31-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Do not drop a vacuum flask.
+- ◻️ Follow the maker's instructions.
+- ◻️ Check the gasket of a pressure cooker.
+- ✅ Fill a pressure cooker to the very top.  
+  _↳ explanation: No more than two-thirds full._
+
+Full working after a second miss:
+
+> The wrong statement is “Fill a pressure cooker to the very top.”.  
+> No more than two-thirds full.  
+
+> Which statement is wrong?
+
+- ✅ Run a microwave oven empty to clean it.  
+  _↳ explanation: Never run it empty._
+- ◻️ Do not drop a vacuum flask.
+- ◻️ Check the gasket of a pressure cooker.
+- ◻️ Unplug equipment before cleaning.
+
+Full working after a second miss:
+
+> The wrong statement is “Run a microwave oven empty to clean it.”.  
+> Never run it empty.  
+
+## Lesson 32: Notion of kitchen accident, Types of kitchen accidents
+
+Prerequisites: none · Skill: h2-32 (Kitchen accidents: notion and types)
+
+**Note** (draft)
+
+> A kitchen accident is an unexpected event in the kitchen that causes injury or damage.
+> Types:
+> • burns (from flames, hot pots, hot oil) and scalds (from boiling water or steam);
+> • cuts (knives, broken glass, tin lids);
+> • falls (wet or oily floors, objects on the floor, climbing on chairs);
+> • electric shocks (wet hands, damaged wires);
+> • fires (hot oil, gas leaks, cloth near flames);
+> • poisoning (cleaning chemicals, spoiled food, kerosene in drink bottles);
+> • suffocation from smoke or carbon monoxide; gas explosions.
+> Young children and old people are most at risk.
+
+**Card c32-1** (draft)
+
+> A kitchen accident is an unexpected event in the kitchen that causes injury or damage.
+>
+> _Cutting a finger._  
+> _Slipping on a wet floor._  
+
+Check question: `h2-32-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is a kitchen accident?
+
+- ◻️ a new recipe  
+  _↳ feedback if chosen: That is not an accident._
+- ◻️ a meal cooked well  
+  _↳ feedback if chosen: That is not an accident._
+- ✅ an unexpected event in the kitchen causing injury or damage
+- ◻️ a clean kitchen  
+  _↳ feedback if chosen: That is not an accident._
+
+Full working after a second miss:
+
+> It is unexpected and harmful.  
+> So the answer is “an unexpected event in the kitchen causing injury or damage”.  
+
+**Card c32-2** (draft)
+
+> Burns come from dry heat; scalds come from hot liquids or steam.
+>
+> _Touching a hot pot: a burn._  
+> _Steam from a kettle: a scald._  
+
+Check question: `h2-32-burn` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What type of accident is it? A girl touches the hot handle of a frying pan.
+
+- ◻️ a scald  
+  _↳ feedback if chosen: No liquid._
+- ◻️ a cut  
+  _↳ feedback if chosen: No blade._
+- ◻️ poisoning  
+  _↳ feedback if chosen: Nothing swallowed._
+- ✅ a burn
+
+Full working after a second miss:
+
+> Dry heat burns.  
+> So the answer is “a burn”.  
+
+**Card c32-3** (draft)
+
+> Other accidents are cuts, falls, electric shocks, fires and poisoning.
+>
+> _Kerosene in a drink bottle can poison a child._  
+> _Wet hands on a socket: a shock._  
+
+Check question: `h2-32-types-card` · multiple choice, level 1 · **authored key**
+
+> What can cause a kitchen fire?
+
+- ◻️ a clean floor  
+  _↳ feedback if chosen: That is safe._
+- ◻️ cold water in a jug  
+  _↳ feedback if chosen: That is safe._
+- ✅ hot oil left unattended
+- ◻️ a closed fridge  
+  _↳ feedback if chosen: That is safe._
+
+Full working after a second miss:
+
+> Overheated oil catches fire.  
+> So the answer is “hot oil left unattended”.  
+
+**Worked example** (draft)
+
+> What type of accident is it when boiling water spills on a child's arm?
+
+1. Boiling water or steam causes a scald.
+2. Dry heat or flames cause a burn.
+
+**Answer:** A scald.
+
+**Practice** `h2-32-what` · multiple choice, level 1 · **authored key**
+
+> Who is most at risk of kitchen accidents?
+
+- ◻️ nobody  
+  _↳ feedback if chosen: Accidents happen._
+- ◻️ only cooks in hotels  
+  _↳ feedback if chosen: Everyone can._
+- ◻️ only adults aged 30  
+  _↳ feedback if chosen: Everyone can have accidents._
+- ✅ young children and old people
+
+Full working after a second miss:
+
+> They move less safely.  
+> So the answer is “young children and old people”.  
+
+> What is a kitchen accident?
+
+- ◻️ a clean kitchen  
+  _↳ feedback if chosen: That is not an accident._
+- ◻️ a new recipe  
+  _↳ feedback if chosen: That is not an accident._
+- ◻️ a meal cooked well  
+  _↳ feedback if chosen: That is not an accident._
+- ✅ an unexpected event in the kitchen causing injury or damage
+
+Full working after a second miss:
+
+> It is unexpected and harmful.  
+> So the answer is “an unexpected event in the kitchen causing injury or damage”.  
+
+**Practice** `h2-32-burn` · multiple choice, level 1 · **authored key**
+
+> What type of accident is it? A child drinks kerosene from a soda bottle.
+
+- ◻️ a fall  
+  _↳ feedback if chosen: No slip._
+- ✅ poisoning
+- ◻️ a cut  
+  _↳ feedback if chosen: No blade._
+- ◻️ a burn  
+  _↳ feedback if chosen: No heat._
+
+Full working after a second miss:
+
+> Swallowing a harmful substance.  
+> So the answer is “poisoning”.  
+
+> What type of accident is it? A girl touches the hot handle of a frying pan.
+
+- ◻️ a cut  
+  _↳ feedback if chosen: No blade._
+- ◻️ a scald  
+  _↳ feedback if chosen: No liquid._
+- ✅ a burn
+- ◻️ poisoning  
+  _↳ feedback if chosen: Nothing swallowed._
+
+Full working after a second miss:
+
+> Dry heat burns.  
+> So the answer is “a burn”.  
+
+**Practice** `h2-32-types` · multiple choice, level 2 · **authored key**
+
+> What can cause a kitchen fire?
+
+- ◻️ a clean floor  
+  _↳ feedback if chosen: That is safe._
+- ✅ hot oil left unattended
+- ◻️ a closed fridge  
+  _↳ feedback if chosen: That is safe._
+- ◻️ cold water in a jug  
+  _↳ feedback if chosen: That is safe._
+
+Full working after a second miss:
+
+> Overheated oil catches fire.  
+> So the answer is “hot oil left unattended”.  
+
+> What can cause a kitchen fire?
+
+- ◻️ a closed fridge  
+  _↳ feedback if chosen: That is safe._
+- ◻️ cold water in a jug  
+  _↳ feedback if chosen: That is safe._
+- ◻️ a clean floor  
+  _↳ feedback if chosen: That is safe._
+- ✅ hot oil left unattended
+
+Full working after a second miss:
+
+> Overheated oil catches fire.  
+> So the answer is “hot oil left unattended”.  
+
+**Practice** `h2-32-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Wet floors cause falls.
+- ◻️ Hot oil can catch fire.
+- ◻️ Steam causes scalds.
+- ✅ Kerosene in a drink bottle is safe.  
+  _↳ explanation: A child may drink it: poisoning._
+
+Full working after a second miss:
+
+> The wrong statement is “Kerosene in a drink bottle is safe.”.  
+> A child may drink it: poisoning.  
+
+> Which statement is wrong?
+
+- ✅ Kitchen accidents only happen to adults.  
+  _↳ explanation: Children and old people are most at risk._
+- ◻️ Hot oil can catch fire.
+- ◻️ Damaged wires can give shocks.
+- ◻️ Wet floors cause falls.
+
+Full working after a second miss:
+
+> The wrong statement is “Kitchen accidents only happen to adults.”.  
+> Children and old people are most at risk.  
+
+## Lesson 33: Causes of kitchen accidents.Preventive measures of kitchen accidents
+
+Prerequisites: 32 · Skill: h2-33 (Kitchen accidents: causes and prevention)
+
+**Note** (draft)
+
+> Causes: carelessness and hurry; poor lighting; wet or oily floors; pot handles sticking out over the cooker; blunt or badly stored knives; children playing in the kitchen; damaged wires and wet hands; gas leaks; chemicals in food bottles; loose clothes near flames.
+> Prevention:
+> • turn pot handles inwards; use oven gloves;
+> • wipe spills at once; keep the floor clear;
+> • keep knives sharp, store them safely, cut away from the body;
+> • keep children away from the cooker; store chemicals and medicines high and labelled, never in food bottles;
+> • dry hands before touching switches; repair damaged wires;
+> • never leave hot oil alone; turn off gas; keep a fire blanket or sand;
+> • good lighting and ventilation; a first aid box.
+> First aid for a small burn or scald: cool it under clean running water for about 20 minutes; do not apply oil or toothpaste.
+
+**Card c33-1** (draft)
+
+> Accidents are caused by carelessness, wet floors, pot handles sticking out, damaged wires and children in the kitchen.
+>
+> _Hurrying causes cuts._  
+> _Oil on the floor causes falls._  
+
+Check question: `h2-33-cause` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is a cause of kitchen accidents?
+
+- ◻️ good lighting  
+  _↳ feedback if chosen: Good lighting prevents accidents._
+- ✅ pot handles sticking out over the edge of the cooker
+- ◻️ a first aid box  
+  _↳ feedback if chosen: That helps after an accident._
+- ◻️ a clean, dry floor  
+  _↳ feedback if chosen: That prevents falls._
+
+Full working after a second miss:
+
+> Someone can knock the pot over.  
+> So the answer is “pot handles sticking out over the edge of the cooker”.  
+
+**Card c33-2** (draft)
+
+> Prevent accidents: turn handles in, wipe spills, store knives and chemicals safely, dry hands.
+>
+> _Use oven gloves._  
+> _Label chemicals._  
+
+Check question: `h2-33-prevent` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Where should kitchen chemicals be stored?
+
+- ◻️ next to the food  
+  _↳ feedback if chosen: They can contaminate food._
+- ◻️ in empty soda bottles  
+  _↳ feedback if chosen: Someone may drink them._
+- ✅ high up, labelled, away from food
+- ◻️ on the floor  
+  _↳ feedback if chosen: Children can reach them._
+
+Full working after a second miss:
+
+> Prevent poisoning.  
+> So the answer is “high up, labelled, away from food”.  
+
+**Card c33-3** (draft)
+
+> Cool a burn under running water for about 20 minutes; do not put oil or toothpaste on it.
+>
+> _Cover loosely with a clean cloth._  
+> _Serious burns need a doctor._  
+
+Check question: `h2-33-aid-card` · multiple choice, level 1 · **authored key**
+
+> What should you do if hot oil in a pan catches fire?
+
+- ◻️ fan the flames  
+  _↳ feedback if chosen: That feeds the fire._
+- ◻️ carry the pan outside  
+  _↳ feedback if chosen: You may spill it and be burnt._
+- ✅ turn off the heat and cover the pan with a lid or fire blanket
+- ◻️ pour water on it  
+  _↳ feedback if chosen: Water makes burning oil explode._
+
+Full working after a second miss:
+
+> Cutting off air puts it out.  
+> So the answer is “turn off the heat and cover the pan with a lid or fire blanket”.  
+
+**Worked example** (draft)
+
+> What first aid should be given for a small burn on the hand?
+
+1. Cool the burn under clean running water for about 20 minutes.
+2. Cover it loosely with a clean cloth; do not put oil, butter or toothpaste on it.
+
+**Answer:** Cool with running water for about 20 minutes and cover loosely.
+
+**Practice** `h2-33-cause` · multiple choice, level 1 · **authored key**
+
+> Which is a cause of kitchen accidents?
+
+- ◻️ good lighting  
+  _↳ feedback if chosen: Good lighting prevents accidents._
+- ✅ pot handles sticking out over the edge of the cooker
+- ◻️ a clean, dry floor  
+  _↳ feedback if chosen: That prevents falls._
+- ◻️ a first aid box  
+  _↳ feedback if chosen: That helps after an accident._
+
+Full working after a second miss:
+
+> Someone can knock the pot over.  
+> So the answer is “pot handles sticking out over the edge of the cooker”.  
+
+> Why should children not play in the kitchen?
+
+- ◻️ They clean the floor.  
+  _↳ feedback if chosen: That is not the reason._
+- ✅ They can be burnt, scalded or cut.
+- ◻️ There is no danger.  
+  _↳ feedback if chosen: There are many dangers._
+- ◻️ They make the food sweeter.  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Kitchens have heat and sharp tools.  
+> So the answer is “They can be burnt, scalded or cut.”.  
+
+**Practice** `h2-33-prevent` · multiple choice, level 1 · **authored key**
+
+> How can falls in the kitchen be prevented?
+
+- ◻️ by working in the dark  
+  _↳ feedback if chosen: That causes accidents._
+- ◻️ by putting oil on the floor  
+  _↳ feedback if chosen: That causes falls._
+- ✅ by wiping spills at once
+- ◻️ by running in the kitchen  
+  _↳ feedback if chosen: That causes falls._
+
+Full working after a second miss:
+
+> A dry floor prevents slipping.  
+> So the answer is “by wiping spills at once”.  
+
+> How can falls in the kitchen be prevented?
+
+- ✅ by wiping spills at once
+- ◻️ by putting oil on the floor  
+  _↳ feedback if chosen: That causes falls._
+- ◻️ by running in the kitchen  
+  _↳ feedback if chosen: That causes falls._
+- ◻️ by working in the dark  
+  _↳ feedback if chosen: That causes accidents._
+
+Full working after a second miss:
+
+> A dry floor prevents slipping.  
+> So the answer is “by wiping spills at once”.  
+
+**Practice** `h2-33-aid` · multiple choice, level 2 · **authored key**
+
+> What is the correct first aid for a small scald?
+
+- ◻️ put toothpaste on it  
+  _↳ feedback if chosen: It does not help and can cause infection._
+- ◻️ rub palm oil on it  
+  _↳ feedback if chosen: Oil keeps the heat in._
+- ◻️ burst the blisters  
+  _↳ feedback if chosen: That causes infection._
+- ✅ cool it under clean running water
+
+Full working after a second miss:
+
+> Cool water stops the burning.  
+> So the answer is “cool it under clean running water”.  
+
+> What is the correct first aid for a small scald?
+
+- ◻️ rub palm oil on it  
+  _↳ feedback if chosen: Oil keeps the heat in._
+- ◻️ burst the blisters  
+  _↳ feedback if chosen: That causes infection._
+- ◻️ put toothpaste on it  
+  _↳ feedback if chosen: It does not help and can cause infection._
+- ✅ cool it under clean running water
+
+Full working after a second miss:
+
+> Cool water stops the burning.  
+> So the answer is “cool it under clean running water”.  
+
+**Practice** `h2-33-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Turn pot handles inwards.
+- ✅ Put toothpaste on a burn.  
+  _↳ explanation: Cool it with running water instead._
+- ◻️ Keep a first aid box in the kitchen.
+- ◻️ Use oven gloves.
+
+Full working after a second miss:
+
+> The wrong statement is “Put toothpaste on a burn.”.  
+> Cool it with running water instead.  
+
+> Which statement is wrong?
+
+- ◻️ Turn pot handles inwards.
+- ✅ Store kerosene in drink bottles.  
+  _↳ explanation: Someone may drink it._
+- ◻️ Use oven gloves.
+- ◻️ Dry your hands before touching switches.
+
+Full working after a second miss:
+
+> The wrong statement is “Store kerosene in drink bottles.”.  
+> Someone may drink it.  
+
+## Lesson 36: Different types of kitchen waste, Generation and sorting of kitchen waste
+
+Prerequisites: none · Skill: h2-36 (Kitchen waste: types, generation and sorting)
+
+**Note** (draft)
+
+> Kitchen waste is everything thrown away from the kitchen.
+> Types:
+> • food (organic, biodegradable) waste: peels of cassava, plantain and yams, leftover food, bones, eggshells, tea leaves;
+> • packaging: plastic bags and bottles, tins, glass jars, paper and cartons;
+> • liquid waste: dirty water from washing, used cooking oil;
+> • others: ash, broken plates, old sponges.
+> Waste is generated (produced) when food is prepared, cooked, served and eaten, and when packaged goods are opened.
+> Sorting: separate waste at the source into different bins: biodegradable (for compost or animal feed), plastics, glass, metal and paper (for reuse or recycling), and other waste.
+> Good habits: buy only what you need, cook the right amount, reuse containers, compost peels, never pour oil down the sink (it blocks pipes), cover bins and empty them often.
+
+**Card c36-1** (draft)
+
+> Kitchen waste includes food waste, packaging, liquid waste and others such as ash.
+>
+> _Peels and leftovers are food waste._  
+> _Tins and bottles are packaging._  
+
+Check question: `h2-36-type` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What type of kitchen waste is cassava peels?
+
+- ◻️ liquid waste  
+  _↳ feedback if chosen: It is solid._
+- ◻️ glass waste  
+  _↳ feedback if chosen: It is plant matter._
+- ◻️ packaging  
+  _↳ feedback if chosen: It is not a wrapper._
+- ✅ food (biodegradable) waste
+
+Full working after a second miss:
+
+> Peels rot.  
+> So the answer is “food (biodegradable) waste”.  
+
+**Card c36-2** (draft)
+
+> Sort waste at the source: biodegradable, plastic, glass, metal, paper.
+>
+> _Peels go to compost._  
+> _Bottles can be reused._  
+
+Check question: `h2-36-sort` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Into which bin should an empty jam jar go?
+
+- ✅ the glass bin
+- ◻️ the paper bin  
+  _↳ feedback if chosen: It is not paper._
+- ◻️ the plastic bin  
+  _↳ feedback if chosen: It is not plastic._
+- ◻️ the compost bin  
+  _↳ feedback if chosen: Glass does not rot._
+
+Full working after a second miss:
+
+> Glass can be reused or recycled.  
+> So the answer is “the glass bin”.  
+
+**Card c36-3** (draft)
+
+> Reduce waste: buy and cook only what is needed, reuse containers, never pour oil down the sink.
+>
+> _Leftovers can be stored and eaten later._  
+> _Oil blocks the pipes._  
+
+Check question: `h2-36-reduce-card` · multiple choice, level 1 · **authored key**
+
+> Why should used cooking oil not be poured down the sink?
+
+- ◻️ It turns into water.  
+  _↳ feedback if chosen: It does not._
+- ◻️ It cleans the pipes.  
+  _↳ feedback if chosen: It sticks and blocks._
+- ✅ It blocks the pipes.
+- ◻️ It makes the sink shine.  
+  _↳ feedback if chosen: It does not._
+
+Full working after a second miss:
+
+> Oil hardens in pipes.  
+> So the answer is “It blocks the pipes.”.  
+
+**Worked example** (draft)
+
+> Sort plantain peels, a plastic bottle and a glass jar into the right bins.
+
+1. Plantain peels are biodegradable: compost or animal feed.
+2. The plastic bottle and glass jar do not rot: reuse or recycle them, in separate bins.
+
+**Answer:** Peels: biodegradable bin; bottle: plastic bin; jar: glass bin.
+
+**Practice** `h2-36-type` · multiple choice, level 1 · **authored key**
+
+> What type of kitchen waste is an empty tin of tomato paste?
+
+- ◻️ food waste  
+  _↳ feedback if chosen: It does not rot._
+- ◻️ liquid waste  
+  _↳ feedback if chosen: It is solid._
+- ◻️ ash  
+  _↳ feedback if chosen: It is not from a fire._
+- ✅ packaging (metal)
+
+Full working after a second miss:
+
+> Tins are metal packaging.  
+> So the answer is “packaging (metal)”.  
+
+> What type of kitchen waste is an empty tin of tomato paste?
+
+- ◻️ liquid waste  
+  _↳ feedback if chosen: It is solid._
+- ◻️ food waste  
+  _↳ feedback if chosen: It does not rot._
+- ◻️ ash  
+  _↳ feedback if chosen: It is not from a fire._
+- ✅ packaging (metal)
+
+Full working after a second miss:
+
+> Tins are metal packaging.  
+> So the answer is “packaging (metal)”.  
+
+**Practice** `h2-36-sort` · multiple choice, level 1 · **authored key**
+
+> Into which bin should a broken plastic bucket go?
+
+- ◻️ the metal bin  
+  _↳ feedback if chosen: It is not metal._
+- ✅ the plastic bin
+- ◻️ the glass bin  
+  _↳ feedback if chosen: It is not glass._
+- ◻️ the compost bin  
+  _↳ feedback if chosen: Plastic does not rot._
+
+Full working after a second miss:
+
+> Plastic can be recycled.  
+> So the answer is “the plastic bin”.  
+
+> Into which bin should eggshells and tea leaves go?
+
+- ◻️ the plastic bin  
+  _↳ feedback if chosen: They are not plastic._
+- ◻️ the glass bin  
+  _↳ feedback if chosen: They are not glass._
+- ◻️ the metal bin  
+  _↳ feedback if chosen: They are not metal._
+- ✅ the biodegradable bin (compost)
+
+Full working after a second miss:
+
+> They rot and make compost.  
+> So the answer is “the biodegradable bin (compost)”.  
+
+**Practice** `h2-36-reduce` · multiple choice, level 2 · **authored key**
+
+> Which habit reduces kitchen waste?
+
+- ✅ cooking only the amount needed
+- ◻️ throwing away leftovers every day  
+  _↳ feedback if chosen: That makes waste._
+- ◻️ using a new bag every time  
+  _↳ feedback if chosen: That makes waste._
+- ◻️ buying more than needed  
+  _↳ feedback if chosen: That makes waste._
+
+Full working after a second miss:
+
+> Less is thrown away.  
+> So the answer is “cooking only the amount needed”.  
+
+> Which habit reduces kitchen waste?
+
+- ✅ cooking only the amount needed
+- ◻️ buying more than needed  
+  _↳ feedback if chosen: That makes waste._
+- ◻️ throwing away leftovers every day  
+  _↳ feedback if chosen: That makes waste._
+- ◻️ using a new bag every time  
+  _↳ feedback if chosen: That makes waste._
+
+Full working after a second miss:
+
+> Less is thrown away.  
+> So the answer is “cooking only the amount needed”.  
+
+**Practice** `h2-36-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Mix all waste in one open bin.  
+  _↳ explanation: Sort waste and cover the bins._
+- ◻️ Bins should be covered.
+- ◻️ Waste should be sorted at the source.
+- ◻️ Peels can be composted.
+
+Full working after a second miss:
+
+> The wrong statement is “Mix all waste in one open bin.”.  
+> Sort waste and cover the bins.  
+
+> Which statement is wrong?
+
+- ◻️ Peels can be composted.
+- ◻️ Bins should be covered.
+- ◻️ Glass jars can be reused.
+- ✅ Pour used oil down the sink.  
+  _↳ explanation: It blocks the pipes._
+
+Full working after a second miss:
+
+> The wrong statement is “Pour used oil down the sink.”.  
+> It blocks the pipes.  
+
+## Lesson 37: Reasons for cooking food. Lesson 32: Classification of foods according to their cooking methods
+
+Prerequisites: none · Skill: h2-37 (Reasons for cooking; classification of cooking methods)
+
+**Note** (draft)
+
+> Reasons for cooking food:
+> • to kill germs and parasites, making food safe;
+> • to make food easier to chew and digest (starch softens, meat becomes tender);
+> • to improve flavour, smell, colour and appearance;
+> • to give variety to meals;
+> • to preserve food for a short time;
+> • to remove some poisons (cassava, some beans).
+> Cooking methods are classified by how heat reaches the food:
+> • moist methods use water or steam: boiling, simmering, stewing, steaming, poaching, braising;
+> • dry methods use dry heat or fat: baking, roasting, grilling (broiling), toasting, frying (shallow and deep);
+> • microwave cooking.
+
+**Card c37-1** (draft)
+
+> Food is cooked to make it safe, easier to digest, tastier and more varied.
+>
+> _Cooking kills germs in meat._  
+> _Cooked rice is soft._  
+
+Check question: `h2-37-why` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why is bitter cassava cooked or processed?
+
+- ◻️ to add cyanide  
+  _↳ feedback if chosen: It removes cyanide._
+- ◻️ to make it raw  
+  _↳ feedback if chosen: Cooking is the opposite._
+- ✅ to remove its poison
+- ◻️ to make it grow  
+  _↳ feedback if chosen: Cooked food does not grow._
+
+Full working after a second miss:
+
+> Processing removes cyanide.  
+> So the answer is “to remove its poison”.  
+
+**Card c37-2** (draft)
+
+> Moist methods use water or steam: boiling, stewing, steaming, poaching.
+>
+> _Boiled yams._  
+> _Steamed koki._  
+
+Check question: `h2-37-moist` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Is boiling yams a moist or a dry method of cooking?
+
+- ◻️ a dry method  
+  _↳ feedback if chosen: Ask: is water or steam used (moist), or dry heat or fat (dry)?_
+- ✅ a moist method
+- ◻️ not a cooking method  
+  _↳ feedback if chosen: It is a cooking method._
+
+Full working after a second miss:
+
+> Moist methods use water or steam; dry methods use dry heat or fat.  
+> Yams are cooked in water. So it is a moist method.  
+
+**Card c37-3** (draft)
+
+> Dry methods use dry heat or fat: baking, roasting, grilling, frying.
+>
+> _Roasted plantain._  
+> _Fried puff-puff._  
+
+Check question: `h2-37-dry-card` · multiple choice, level 1 · **authored key**
+
+> Why is frying classed as a dry method?
+
+- ◻️ It uses steam.  
+  _↳ feedback if chosen: No steam._
+- ◻️ It uses boiling water.  
+  _↳ feedback if chosen: No water._
+- ✅ It uses hot fat, not water.
+- ◻️ It uses ice.  
+  _↳ feedback if chosen: No ice._
+
+Full working after a second miss:
+
+> Fat, not water, carries the heat.  
+> So the answer is “It uses hot fat, not water.”.  
+
+**Worked example** (draft)
+
+> Is koki steamed in leaves a moist or a dry method? Why?
+
+1. Steaming cooks food with the steam from boiling water.
+2. Steam is moist heat.
+
+**Answer:** A moist method.
+
+**Practice** `h2-37-why` · multiple choice, level 1 · **authored key**
+
+> Which is a reason for cooking food?
+
+- ✅ to kill germs
+- ◻️ to add germs  
+  _↳ feedback if chosen: Cooking kills germs._
+- ◻️ to make food harder to digest  
+  _↳ feedback if chosen: It makes it easier._
+- ◻️ to remove all taste  
+  _↳ feedback if chosen: It improves taste._
+
+Full working after a second miss:
+
+> Heat kills germs.  
+> So the answer is “to kill germs”.  
+
+> Which is a reason for cooking food?
+
+- ✅ to kill germs
+- ◻️ to remove all taste  
+  _↳ feedback if chosen: It improves taste._
+- ◻️ to add germs  
+  _↳ feedback if chosen: Cooking kills germs._
+- ◻️ to make food harder to digest  
+  _↳ feedback if chosen: It makes it easier._
+
+Full working after a second miss:
+
+> Heat kills germs.  
+> So the answer is “to kill germs”.  
+
+**Practice** `h2-37-moist` · multiple choice, level 1 · computed by rule
+
+> Is steaming moi-moi a moist or a dry method of cooking?
+
+- ◻️ a dry method  
+  _↳ feedback if chosen: Ask: is water or steam used (moist), or dry heat or fat (dry)?_
+- ◻️ not a cooking method  
+  _↳ feedback if chosen: It is a cooking method._
+- ✅ a moist method
+
+Full working after a second miss:
+
+> Moist methods use water or steam; dry methods use dry heat or fat.  
+> It is cooked in steam. So it is a moist method.  
+
+> Is baking bread a moist or a dry method of cooking?
+
+- ✅ a dry method
+- ◻️ a moist method  
+  _↳ feedback if chosen: Ask: is water or steam used (moist), or dry heat or fat (dry)?_
+- ◻️ not a cooking method  
+  _↳ feedback if chosen: It is a cooking method._
+
+Full working after a second miss:
+
+> Moist methods use water or steam; dry methods use dry heat or fat.  
+> It is cooked by dry heat in an oven. So it is a dry method.  
+
+**Practice** `h2-37-dry` · multiple choice, level 2 · **authored key**
+
+> Why is frying classed as a dry method?
+
+- ◻️ It uses boiling water.  
+  _↳ feedback if chosen: No water._
+- ◻️ It uses ice.  
+  _↳ feedback if chosen: No ice._
+- ◻️ It uses steam.  
+  _↳ feedback if chosen: No steam._
+- ✅ It uses hot fat, not water.
+
+Full working after a second miss:
+
+> Fat, not water, carries the heat.  
+> So the answer is “It uses hot fat, not water.”.  
+
+> Which of these is a dry method of cooking?
+
+- ✅ grilling
+- ◻️ boiling  
+  _↳ feedback if chosen: It uses water._
+- ◻️ poaching  
+  _↳ feedback if chosen: It uses liquid._
+- ◻️ stewing  
+  _↳ feedback if chosen: It uses liquid._
+
+Full working after a second miss:
+
+> Grilling uses direct dry heat.  
+> So the answer is “grilling”.  
+
+**Practice** `h2-37-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Baking is a dry method.
+- ◻️ Cooking improves flavour.
+- ✅ Frying is a moist method.  
+  _↳ explanation: Frying uses fat: a dry method._
+- ◻️ Steaming is a moist method.
+
+Full working after a second miss:
+
+> The wrong statement is “Frying is a moist method.”.  
+> Frying uses fat: a dry method.  
+
+> Which statement is wrong?
+
+- ◻️ Steaming is a moist method.
+- ◻️ Cooking kills germs.
+- ✅ Frying is a moist method.  
+  _↳ explanation: Frying uses fat: a dry method._
+- ◻️ Cooking improves flavour.
+
+Full working after a second miss:
+
+> The wrong statement is “Frying is a moist method.”.  
+> Frying uses fat: a dry method.  
+
+## Lesson 38: Moist method, types of moist method, advantages and disadvantages of moist method
+
+Prerequisites: 37 · Skill: h2-38 (Moist methods of cooking)
+
+**Note** (draft)
+
+> Moist methods cook food in water, another liquid or steam.
+> • Boiling: in water at 100 °C, bubbling (yams, rice, eggs, plantain).
+> • Simmering: just below boiling, gentle bubbles (soups, sauces).
+> • Stewing: slowly in a little liquid in a covered pot (meat stew, ndolé).
+> • Steaming: in the steam from boiling water (koki, moi-moi, bobolo, fish in leaves).
+> • Poaching: gently in liquid below boiling (eggs, fish).
+> • Braising: browning first, then cooking slowly in a little liquid.
+> Advantages: food does not burn easily; tough meat becomes tender; little fat is used, so it is healthy; the liquid can be eaten as soup; steaming keeps more nutrients.
+> Disadvantages: vitamins B and C and minerals dissolve into the water (lost if it is thrown away); long cooking can make food soft and tasteless; it takes time and fuel.
+
+**Card c38-1** (draft)
+
+> Moist methods use water or steam: boiling, simmering, stewing, steaming, poaching, braising.
+>
+> _Boiling: water bubbling at 100 °C._  
+> _Simmering: just below boiling._  
+
+Check question: `h2-38-types` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which moist method is it? Cooking an egg gently in water just below boiling.
+
+- ◻️ baking  
+  _↳ feedback if chosen: That uses an oven._
+- ◻️ frying  
+  _↳ feedback if chosen: That uses fat._
+- ◻️ grilling  
+  _↳ feedback if chosen: That uses dry heat._
+- ✅ poaching
+
+Full working after a second miss:
+
+> Gentle liquid below boiling.  
+> So the answer is “poaching”.  
+
+**Card c38-2** (draft)
+
+> Advantages: little fat, food does not burn easily, tough meat becomes tender.
+>
+> _Stewing tenderises meat._  
+> _Steaming keeps nutrients._  
+
+Check question: `h2-38-good` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which moist method keeps the most nutrients?
+
+- ✅ steaming
+- ◻️ boiling in lots of water  
+  _↳ feedback if chosen: Lots of water dissolves nutrients._
+- ◻️ long boiling  
+  _↳ feedback if chosen: Long boiling loses vitamins._
+- ◻️ stewing for hours  
+  _↳ feedback if chosen: Long cooking destroys vitamins._
+
+Full working after a second miss:
+
+> Food does not sit in the water.  
+> So the answer is “steaming”.  
+
+**Card c38-3** (draft)
+
+> Disadvantage: vitamins and minerals dissolve into the water and can be lost.
+>
+> _Use little water._  
+> _Use the cooking water in soups._  
+
+Check question: `h2-38-bad-card` · multiple choice, level 1 · **authored key**
+
+> Which is a disadvantage of moist methods?
+
+- ◻️ They use a lot of fat.  
+  _↳ feedback if chosen: They use little fat._
+- ✅ Vitamins dissolve into the water.
+- ◻️ Meat becomes tough.  
+  _↳ feedback if chosen: Meat becomes tender._
+- ◻️ Food burns easily.  
+  _↳ feedback if chosen: Food does not burn easily._
+
+Full working after a second miss:
+
+> Water-soluble vitamins are lost.  
+> So the answer is “Vitamins dissolve into the water.”.  
+
+**Worked example** (draft)
+
+> What happens to the nutrients of vegetables boiled for a long time in a lot of water?
+
+1. Vitamins B and C and minerals dissolve into the cooking water.
+2. Long heating destroys vitamin C, and the water is often thrown away.
+
+**Answer:** Many vitamins and minerals are lost.
+
+**Practice** `h2-38-types` · multiple choice, level 1 · **authored key**
+
+> Which moist method is it? Cooking an egg gently in water just below boiling.
+
+- ◻️ grilling  
+  _↳ feedback if chosen: That uses dry heat._
+- ◻️ baking  
+  _↳ feedback if chosen: That uses an oven._
+- ◻️ frying  
+  _↳ feedback if chosen: That uses fat._
+- ✅ poaching
+
+Full working after a second miss:
+
+> Gentle liquid below boiling.  
+> So the answer is “poaching”.  
+
+> Which moist method is it? Cooking in water bubbling at 100 °C.
+
+- ◻️ poaching  
+  _↳ feedback if chosen: Poaching is below boiling._
+- ✅ boiling
+- ◻️ steaming  
+  _↳ feedback if chosen: Steaming uses steam only._
+- ◻️ frying  
+  _↳ feedback if chosen: Frying uses fat._
+
+Full working after a second miss:
+
+> Bubbling water at 100 °C.  
+> So the answer is “boiling”.  
+
+**Practice** `h2-38-good` · multiple choice, level 1 · **authored key**
+
+> Which is an advantage of moist methods?
+
+- ◻️ Food cooks in seconds.  
+  _↳ feedback if chosen: Moist methods take time._
+- ◻️ All vitamins are kept.  
+  _↳ feedback if chosen: Some vitamins are lost._
+- ◻️ Food always becomes crisp.  
+  _↳ feedback if chosen: Crisp food is from dry methods._
+- ✅ Little or no fat is used.
+
+Full working after a second miss:
+
+> Healthy, low-fat cooking.  
+> So the answer is “Little or no fat is used.”.  
+
+> Which is an advantage of moist methods?
+
+- ◻️ All vitamins are kept.  
+  _↳ feedback if chosen: Some vitamins are lost._
+- ◻️ Food cooks in seconds.  
+  _↳ feedback if chosen: Moist methods take time._
+- ◻️ Food always becomes crisp.  
+  _↳ feedback if chosen: Crisp food is from dry methods._
+- ✅ Little or no fat is used.
+
+Full working after a second miss:
+
+> Healthy, low-fat cooking.  
+> So the answer is “Little or no fat is used.”.  
+
+**Practice** `h2-38-bad` · multiple choice, level 2 · **authored key**
+
+> How can nutrient loss in boiling be reduced?
+
+- ✅ use little water and use it in soups
+- ◻️ add soda to the water  
+  _↳ feedback if chosen: Soda destroys vitamins._
+- ◻️ boil for hours  
+  _↳ feedback if chosen: That destroys vitamins._
+- ◻️ use a lot of water and throw it away  
+  _↳ feedback if chosen: That loses nutrients._
+
+Full working after a second miss:
+
+> Keep the dissolved nutrients.  
+> So the answer is “use little water and use it in soups”.  
+
+> Which is a disadvantage of moist methods?
+
+- ◻️ Meat becomes tough.  
+  _↳ feedback if chosen: Meat becomes tender._
+- ◻️ They use a lot of fat.  
+  _↳ feedback if chosen: They use little fat._
+- ✅ Vitamins dissolve into the water.
+- ◻️ Food burns easily.  
+  _↳ feedback if chosen: Food does not burn easily._
+
+Full working after a second miss:
+
+> Water-soluble vitamins are lost.  
+> So the answer is “Vitamins dissolve into the water.”.  
+
+**Practice** `h2-38-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Steaming keeps nutrients.
+- ◻️ Moist methods use little fat.
+- ✅ Moist methods make food crisp and brown.  
+  _↳ explanation: Dry methods make food crisp and brown._
+- ◻️ Simmering is just below boiling.
+
+Full working after a second miss:
+
+> The wrong statement is “Moist methods make food crisp and brown.”.  
+> Dry methods make food crisp and brown.  
+
+> Which statement is wrong?
+
+- ◻️ Steaming keeps nutrients.
+- ✅ Moist methods make food crisp and brown.  
+  _↳ explanation: Dry methods make food crisp and brown._
+- ◻️ Simmering is just below boiling.
+- ◻️ Stewing tenderises meat.
+
+Full working after a second miss:
+
+> The wrong statement is “Moist methods make food crisp and brown.”.  
+> Dry methods make food crisp and brown.  
+
+## Lesson 39: Dry method, types of dry method. Advantages and disadvantages of dry method
+
+Prerequisites: 37 · Skill: h2-39 (Dry methods of cooking)
+
+**Note** (draft)
+
+> Dry methods cook food by dry heat or in hot fat.
+> • Baking: in an oven (bread, cakes, meat pies).
+> • Roasting: in an oven or over an open fire (roasted plantain, corn, groundnuts, fish).
+> • Grilling: under or over direct strong heat (soya/suya, fish, chicken).
+> • Toasting: browning bread or seeds.
+> • Frying: in hot fat or oil. Shallow frying uses a little oil (eggs, plantain); deep frying covers the food in oil (puff-puff, chips, fish).
+> Advantages: quick (grilling, frying); food is tasty, crisp and brown; it looks attractive; grilling lets fat drip away.
+> Disadvantages: fried food absorbs fat (risk of obesity and heart disease); food can burn or dry out; hot oil can cause burns and fires; some methods need a lot of fuel (baking).
+
+**Card c39-1** (draft)
+
+> Dry methods use dry heat or hot fat: baking, roasting, grilling, toasting, frying.
+>
+> _Bread is baked._  
+> _Soya is grilled._  
+
+Check question: `h2-39-types` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which dry method is it? Frying an egg in a little oil.
+
+- ◻️ poaching  
+  _↳ feedback if chosen: Poaching uses water._
+- ◻️ deep frying  
+  _↳ feedback if chosen: Deep frying covers the food._
+- ◻️ boiling  
+  _↳ feedback if chosen: Boiling uses water._
+- ✅ shallow frying
+
+Full working after a second miss:
+
+> A little oil in a pan.  
+> So the answer is “shallow frying”.  
+
+**Card c39-2** (draft)
+
+> Advantages: quick, tasty, crisp and attractive food; grilling lets fat drip away.
+>
+> _Roasted corn is tasty._  
+> _Grilled fish loses fat._  
+
+Check question: `h2-39-good` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why do many people like roasted and fried foods?
+
+- ✅ They are tasty, crisp and brown.
+- ◻️ They are wet.  
+  _↳ feedback if chosen: They are crisp._
+- ◻️ They are always raw.  
+  _↳ feedback if chosen: They are cooked._
+- ◻️ They have no taste.  
+  _↳ feedback if chosen: They taste good._
+
+Full working after a second miss:
+
+> Dry heat browns food.  
+> So the answer is “They are tasty, crisp and brown.”.  
+
+**Card c39-3** (draft)
+
+> Disadvantages: fried food absorbs fat, food can burn, and hot oil can cause burns and fires.
+>
+> _Do not leave hot oil alone._  
+> _Eat fried food rarely._  
+
+Check question: `h2-39-bad-card` · multiple choice, level 1 · **authored key**
+
+> Which is a disadvantage of frying?
+
+- ◻️ Food loses all fat.  
+  _↳ feedback if chosen: It gains fat._
+- ◻️ No fuel is needed.  
+  _↳ feedback if chosen: Heat is needed._
+- ✅ Food absorbs fat.
+- ◻️ It is very slow.  
+  _↳ feedback if chosen: Frying is quick._
+
+Full working after a second miss:
+
+> Fried food is fatty.  
+> So the answer is “Food absorbs fat.”.  
+
+**Worked example** (draft)
+
+> Why is deep-fried puff-puff eaten every day not healthy?
+
+1. Deep-fried food absorbs a lot of oil.
+2. Too much fat can lead to obesity and heart disease.
+
+**Answer:** It contains a lot of fat.
+
+**Practice** `h2-39-types` · multiple choice, level 1 · **authored key**
+
+> Which dry method is it? Cooking a cake in an oven.
+
+- ◻️ boiling  
+  _↳ feedback if chosen: No water._
+- ◻️ steaming  
+  _↳ feedback if chosen: No steam._
+- ✅ baking
+- ◻️ frying  
+  _↳ feedback if chosen: No oil._
+
+Full working after a second miss:
+
+> Dry heat in an oven.  
+> So the answer is “baking”.  
+
+> Which dry method is it? Cooking soya over hot charcoal.
+
+- ◻️ boiling  
+  _↳ feedback if chosen: No water._
+- ✅ grilling
+- ◻️ steaming  
+  _↳ feedback if chosen: No steam._
+- ◻️ poaching  
+  _↳ feedback if chosen: No liquid._
+
+Full working after a second miss:
+
+> Direct strong heat.  
+> So the answer is “grilling”.  
+
+**Practice** `h2-39-good` · multiple choice, level 1 · **authored key**
+
+> Why do many people like roasted and fried foods?
+
+- ◻️ They have no taste.  
+  _↳ feedback if chosen: They taste good._
+- ◻️ They are always raw.  
+  _↳ feedback if chosen: They are cooked._
+- ◻️ They are wet.  
+  _↳ feedback if chosen: They are crisp._
+- ✅ They are tasty, crisp and brown.
+
+Full working after a second miss:
+
+> Dry heat browns food.  
+> So the answer is “They are tasty, crisp and brown.”.  
+
+> Which is an advantage of grilling?
+
+- ◻️ It adds a lot of oil.  
+  _↳ feedback if chosen: Grilling adds little fat._
+- ✅ Fat drips away from the food.
+- ◻️ It is very slow.  
+  _↳ feedback if chosen: Grilling is quick._
+- ◻️ Food becomes soggy.  
+  _↳ feedback if chosen: Food becomes crisp._
+
+Full working after a second miss:
+
+> Grilled food has less fat.  
+> So the answer is “Fat drips away from the food.”.  
+
+**Practice** `h2-39-bad` · multiple choice, level 2 · **authored key**
+
+> Which danger comes with deep frying?
+
+- ✅ burns and fires from hot oil
+- ◻️ food poisoning from cold water  
+  _↳ feedback if chosen: No water is used._
+- ◻️ electric shocks from oil  
+  _↳ feedback if chosen: Oil does not cause shocks._
+- ◻️ drowning  
+  _↳ feedback if chosen: That is not a danger here._
+
+Full working after a second miss:
+
+> Hot oil burns and can catch fire.  
+> So the answer is “burns and fires from hot oil”.  
+
+> Which danger comes with deep frying?
+
+- ✅ burns and fires from hot oil
+- ◻️ food poisoning from cold water  
+  _↳ feedback if chosen: No water is used._
+- ◻️ electric shocks from oil  
+  _↳ feedback if chosen: Oil does not cause shocks._
+- ◻️ drowning  
+  _↳ feedback if chosen: That is not a danger here._
+
+Full working after a second miss:
+
+> Hot oil burns and can catch fire.  
+> So the answer is “burns and fires from hot oil”.  
+
+**Practice** `h2-39-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Fried food absorbs fat.
+- ◻️ Roasted corn is cooked by dry heat.
+- ✅ Fried food is the healthiest food to eat every day.  
+  _↳ explanation: Too much fried food leads to obesity._
+- ◻️ Grilling uses direct heat.
+
+Full working after a second miss:
+
+> The wrong statement is “Fried food is the healthiest food to eat every day.”.  
+> Too much fried food leads to obesity.  
+
+> Which statement is wrong?
+
+- ✅ Baking is a moist method.  
+  _↳ explanation: Baking uses dry heat._
+- ◻️ Baking uses an oven.
+- ◻️ Fried food absorbs fat.
+- ◻️ Roasted corn is cooked by dry heat.
+
+Full working after a second miss:
+
+> The wrong statement is “Baking is a moist method.”.  
+> Baking uses dry heat.  
+
+## Lesson 40: Notion of heat conduction and how occurs. Examples of heat conduction. Advantages and disadvantages
+
+Prerequisites: 37 · Skill: h2-40 (Heat transfer: conduction)
+
+**Note** (draft)
+
+> Heat moves from hot places to cooler places in three ways: conduction, convection and radiation.
+> Conduction is the transfer of heat through a solid, from particle to particle, without the solid moving. The hot particles vibrate faster and pass the energy to their neighbours.
+> Good conductors let heat pass easily: metals (copper, aluminium, iron, steel). Poor conductors (insulators) do not: wood, plastic, cloth, air, clay.
+> Examples in the kitchen: heat passing through the base of a pot from the fire to the food; frying, where the pan conducts heat to the food; a metal spoon in hot soup getting hot.
+> Advantages: metal pots heat food quickly and evenly.
+> Disadvantages: metal handles get hot and burn the hands; heat is lost through thin walls. That is why pot handles are made of wood or plastic, and oven gloves are used.
+
+**Card c40-1** (draft)
+
+> Conduction is the transfer of heat through a solid, from particle to particle.
+>
+> _Heat passes through the base of a pot._  
+> _The pot itself does not move._  
+
+Check question: `h2-40-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is conduction?
+
+- ◻️ heat travelling as rays through space  
+  _↳ feedback if chosen: That is radiation._
+- ◻️ the movement of hot liquid upwards  
+  _↳ feedback if chosen: That is convection._
+- ◻️ the cooling of food in a fridge  
+  _↳ feedback if chosen: That is not conduction._
+- ✅ the transfer of heat through a solid from particle to particle
+
+Full working after a second miss:
+
+> Particles pass on their vibration.  
+> So the answer is “the transfer of heat through a solid from particle to particle”.  
+
+**Card c40-2** (draft)
+
+> Metals are good conductors; wood, plastic, cloth and air are poor conductors (insulators).
+>
+> _Aluminium pots heat quickly._  
+> _Wooden handles stay cool._  
+
+Check question: `h2-40-cond` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Is wood a good or a poor conductor of heat?
+
+- ◻️ a metal  
+  _↳ feedback if chosen: Wood is not a metal._
+- ✅ a poor conductor (an insulator)
+- ◻️ the best conductor  
+  _↳ feedback if chosen: Metals conduct best._
+- ◻️ a good conductor  
+  _↳ feedback if chosen: Wood conducts poorly._
+
+Full working after a second miss:
+
+> That is why handles are wooden.  
+> So the answer is “a poor conductor (an insulator)”.  
+
+**Card c40-3** (draft)
+
+> Pot handles are made of wood or plastic, and oven gloves are used, because metal handles get hot.
+>
+> _A hot metal handle can burn you._  
+> _Oven gloves are made of thick cloth._  
+
+Check question: `h2-40-use-card` · multiple choice, level 1 · **authored key**
+
+> Why are cooking pots usually made of metal?
+
+- ✅ Metal conducts heat quickly to the food.
+- ◻️ Metal does not get hot.  
+  _↳ feedback if chosen: It gets hot._
+- ◻️ Metal is an insulator.  
+  _↳ feedback if chosen: Metal is a conductor._
+- ◻️ Metal keeps food cold.  
+  _↳ feedback if chosen: It heats food._
+
+Full working after a second miss:
+
+> Good conductors cook food quickly.  
+> So the answer is “Metal conducts heat quickly to the food.”.  
+
+**Worked example** (draft)
+
+> Explain why a metal spoon left in a pot of hot soup gets hot, but a wooden spoon does not.
+
+1. Metal is a good conductor: heat passes along it quickly by conduction.
+2. Wood is a poor conductor (an insulator), so little heat reaches the handle.
+
+**Answer:** Metal conducts heat well; wood does not.
+
+**Practice** `h2-40-what` · multiple choice, level 1 · **authored key**
+
+> What is conduction?
+
+- ◻️ the cooling of food in a fridge  
+  _↳ feedback if chosen: That is not conduction._
+- ✅ the transfer of heat through a solid from particle to particle
+- ◻️ heat travelling as rays through space  
+  _↳ feedback if chosen: That is radiation._
+- ◻️ the movement of hot liquid upwards  
+  _↳ feedback if chosen: That is convection._
+
+Full working after a second miss:
+
+> Particles pass on their vibration.  
+> So the answer is “the transfer of heat through a solid from particle to particle”.  
+
+> What is conduction?
+
+- ◻️ the movement of hot liquid upwards  
+  _↳ feedback if chosen: That is convection._
+- ✅ the transfer of heat through a solid from particle to particle
+- ◻️ heat travelling as rays through space  
+  _↳ feedback if chosen: That is radiation._
+- ◻️ the cooling of food in a fridge  
+  _↳ feedback if chosen: That is not conduction._
+
+Full working after a second miss:
+
+> Particles pass on their vibration.  
+> So the answer is “the transfer of heat through a solid from particle to particle”.  
+
+**Practice** `h2-40-cond` · multiple choice, level 1 · **authored key**
+
+> Is wood a good or a poor conductor of heat?
+
+- ✅ a poor conductor (an insulator)
+- ◻️ a metal  
+  _↳ feedback if chosen: Wood is not a metal._
+- ◻️ the best conductor  
+  _↳ feedback if chosen: Metals conduct best._
+- ◻️ a good conductor  
+  _↳ feedback if chosen: Wood conducts poorly._
+
+Full working after a second miss:
+
+> That is why handles are wooden.  
+> So the answer is “a poor conductor (an insulator)”.  
+
+> Is plastic a good or a poor conductor of heat?
+
+- ◻️ a metal  
+  _↳ feedback if chosen: Plastic is not a metal._
+- ◻️ a good conductor  
+  _↳ feedback if chosen: Plastic conducts poorly._
+- ◻️ the best conductor  
+  _↳ feedback if chosen: Metals conduct best._
+- ✅ a poor conductor (an insulator)
+
+Full working after a second miss:
+
+> Plastic handles stay cool.  
+> So the answer is “a poor conductor (an insulator)”.  
+
+**Practice** `h2-40-use` · multiple choice, level 2 · **authored key**
+
+> Why are pot handles often made of wood or plastic?
+
+- ◻️ They are heavier than metal.  
+  _↳ feedback if chosen: That is not the reason._
+- ◻️ They are good conductors.  
+  _↳ feedback if chosen: They are poor conductors._
+- ✅ They are poor conductors, so they do not get hot.
+- ◻️ They cook food faster.  
+  _↳ feedback if chosen: The handle does not cook food._
+
+Full working after a second miss:
+
+> Insulating handles prevent burns.  
+> So the answer is “They are poor conductors, so they do not get hot.”.  
+
+> Why are cooking pots usually made of metal?
+
+- ◻️ Metal keeps food cold.  
+  _↳ feedback if chosen: It heats food._
+- ✅ Metal conducts heat quickly to the food.
+- ◻️ Metal is an insulator.  
+  _↳ feedback if chosen: Metal is a conductor._
+- ◻️ Metal does not get hot.  
+  _↳ feedback if chosen: It gets hot._
+
+Full working after a second miss:
+
+> Good conductors cook food quickly.  
+> So the answer is “Metal conducts heat quickly to the food.”.  
+
+**Practice** `h2-40-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Oven gloves protect the hands.
+- ✅ A wooden spoon gets hot faster than a metal spoon.  
+  _↳ explanation: Metal conducts heat faster._
+- ◻️ Metals are good conductors.
+- ◻️ Conduction happens in solids.
+
+Full working after a second miss:
+
+> The wrong statement is “A wooden spoon gets hot faster than a metal spoon.”.  
+> Metal conducts heat faster.  
+
+> Which statement is wrong?
+
+- ◻️ Wood is an insulator.
+- ◻️ Metals are good conductors.
+- ◻️ Oven gloves protect the hands.
+- ✅ In conduction the hot solid moves to carry the heat.  
+  _↳ explanation: The particles pass on energy; the solid does not move._
+
+Full working after a second miss:
+
+> The wrong statement is “In conduction the hot solid moves to carry the heat.”.  
+> The particles pass on energy; the solid does not move.  
+
+## Lesson 41: Notion of convection and how it occurs
+
+Prerequisites: 40 · Skill: h2-41 (Heat transfer: convection)
+
+**Note** (draft)
+
+> Convection is the transfer of heat through liquids and gases (fluids) by the movement of the fluid itself.
+> How it happens: the fluid near the heat becomes warm, expands and becomes less dense (lighter), so it rises. Cooler, denser fluid sinks to take its place and is heated in turn. This circular movement is a convection current.
+> In a pot of water on a fire, the water at the bottom is heated, rises, and cooler water from the top sinks; soon all the water is hot.
+> Convection cannot happen in solids, because their particles cannot move from place to place.
+
+**Card c41-1** (draft)
+
+> Convection is the transfer of heat through liquids and gases by the movement of the fluid.
+>
+> _Hot water rises in a pot._  
+> _Hot air rises from a fire._  
+
+Check question: `h2-41-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In which states of matter does convection happen?
+
+- ✅ liquids and gases
+- ◻️ solids and liquids only  
+  _↳ feedback if chosen: It happens in gases too, not solids._
+- ◻️ solids only  
+  _↳ feedback if chosen: Solids heat by conduction._
+- ◻️ none  
+  _↳ feedback if chosen: It happens in fluids._
+
+Full working after a second miss:
+
+> Fluids can flow.  
+> So the answer is “liquids and gases”.  
+
+**Card c41-2** (draft)
+
+> Warm fluid expands, becomes less dense and rises; cool fluid sinks: a convection current.
+>
+> _The current goes round and round._  
+> _Soon all the water is hot._  
+
+Check question: `h2-41-current` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the steps of a convection current in a pot of water in order.
+
+Shown as: It expands and becomes less dense · The cooler water is heated in turn · The water at the bottom is heated · The warm water rises · Cooler water sinks to take its place
+Correct order: The water at the bottom is heated → It expands and becomes less dense → The warm water rises → Cooler water sinks to take its place → The cooler water is heated in turn
+
+Full working after a second miss:
+
+> The correct order is: The water at the bottom is heated → It expands and becomes less dense → The warm water rises → Cooler water sinks to take its place → The cooler water is heated in turn.  
+
+**Card c41-3** (draft)
+
+> Convection happens only in liquids and gases, not in solids.
+>
+> _Solid particles cannot move from place to place._  
+> _Solids heat by conduction._  
+
+Check question: `h2-41-solid-card` · multiple choice, level 1 · **authored key**
+
+> Why can convection not happen in a metal spoon?
+
+- ◻️ Spoons are too small.  
+  _↳ feedback if chosen: Size is not the reason._
+- ◻️ Metal is a gas.  
+  _↳ feedback if chosen: Metal is a solid._
+- ◻️ Metal is an insulator.  
+  _↳ feedback if chosen: Metal is a conductor._
+- ✅ The particles of a solid cannot move from place to place.
+
+Full working after a second miss:
+
+> Solids heat by conduction.  
+> So the answer is “The particles of a solid cannot move from place to place.”.  
+
+**Worked example** (draft)
+
+> Describe what happens when the water at the bottom of a pot is heated.
+
+1. The heated water expands, becomes less dense and rises.
+2. Cooler water sinks to the bottom, is heated and rises too: a convection current forms.
+
+**Answer:** A convection current carries the heat through all the water.
+
+**Practice** `h2-41-what` · multiple choice, level 1 · **authored key**
+
+> What is a convection current?
+
+- ◻️ an electric current  
+  _↳ feedback if chosen: It is not electricity._
+- ✅ the circular movement of a fluid as warm parts rise and cool parts sink
+- ◻️ a river current  
+  _↳ feedback if chosen: It is not a river._
+- ◻️ heat rays from the sun  
+  _↳ feedback if chosen: That is radiation._
+
+Full working after a second miss:
+
+> The fluid moves round, carrying heat.  
+> So the answer is “the circular movement of a fluid as warm parts rise and cool parts sink”.  
+
+> In which states of matter does convection happen?
+
+- ✅ liquids and gases
+- ◻️ solids only  
+  _↳ feedback if chosen: Solids heat by conduction._
+- ◻️ none  
+  _↳ feedback if chosen: It happens in fluids._
+- ◻️ solids and liquids only  
+  _↳ feedback if chosen: It happens in gases too, not solids._
+
+Full working after a second miss:
+
+> Fluids can flow.  
+> So the answer is “liquids and gases”.  
+
+**Practice** `h2-41-current` · ordering, level 1 · **authored key**
+
+> Put the steps of a convection current in a pot of water in order.
+
+Shown as: It expands and becomes less dense · The water at the bottom is heated · Cooler water sinks to take its place · The cooler water is heated in turn · The warm water rises
+Correct order: The water at the bottom is heated → It expands and becomes less dense → The warm water rises → Cooler water sinks to take its place → The cooler water is heated in turn
+
+Full working after a second miss:
+
+> The correct order is: The water at the bottom is heated → It expands and becomes less dense → The warm water rises → Cooler water sinks to take its place → The cooler water is heated in turn.  
+
+> Put the steps of a convection current in a pot of water in order.
+
+Shown as: The warm water rises · It expands and becomes less dense · Cooler water sinks to take its place · The cooler water is heated in turn · The water at the bottom is heated
+Correct order: The water at the bottom is heated → It expands and becomes less dense → The warm water rises → Cooler water sinks to take its place → The cooler water is heated in turn
+
+Full working after a second miss:
+
+> The correct order is: The water at the bottom is heated → It expands and becomes less dense → The warm water rises → Cooler water sinks to take its place → The cooler water is heated in turn.  
+
+**Practice** `h2-41-solid` · multiple choice, level 2 · **authored key**
+
+> Why does warm water rise?
+
+- ✅ It expands and becomes less dense than the cold water.
+- ◻️ It turns to ice.  
+  _↳ feedback if chosen: It is warm, not frozen._
+- ◻️ It becomes heavier.  
+  _↳ feedback if chosen: It becomes lighter for its size._
+- ◻️ It is pulled by the lid.  
+  _↳ feedback if chosen: The lid does not pull it._
+
+Full working after a second miss:
+
+> Less dense fluid floats up.  
+> So the answer is “It expands and becomes less dense than the cold water.”.  
+
+> Why does warm water rise?
+
+- ◻️ It is pulled by the lid.  
+  _↳ feedback if chosen: The lid does not pull it._
+- ◻️ It turns to ice.  
+  _↳ feedback if chosen: It is warm, not frozen._
+- ◻️ It becomes heavier.  
+  _↳ feedback if chosen: It becomes lighter for its size._
+- ✅ It expands and becomes less dense than the cold water.
+
+Full working after a second miss:
+
+> Less dense fluid floats up.  
+> So the answer is “It expands and becomes less dense than the cold water.”.  
+
+**Practice** `h2-41-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Warm water sinks to the bottom of the pot.  
+  _↳ explanation: Warm water rises._
+- ◻️ A convection current goes round.
+- ◻️ Cool water sinks.
+- ◻️ Warm air rises.
+
+Full working after a second miss:
+
+> The wrong statement is “Warm water sinks to the bottom of the pot.”.  
+> Warm water rises.  
+
+> Which statement is wrong?
+
+- ◻️ Convection happens in liquids.
+- ◻️ Cool water sinks.
+- ✅ Convection needs the fluid to stay still.  
+  _↳ explanation: The fluid moves to carry heat._
+- ◻️ Warm air rises.
+
+Full working after a second miss:
+
+> The wrong statement is “Convection needs the fluid to stay still.”.  
+> The fluid moves to carry heat.  
+
+## Lesson 42: Examples of convection, Advantages and disadvantages
+
+Prerequisites: 41 · Skill: h2-42 (Convection: examples, advantages and disadvantages)
+
+**Note** (draft)
+
+> Examples of convection in the kitchen and home:
+> • boiling water, soups and sauces in a pot;
+> • deep frying: hot oil circulates around the food;
+> • an oven: hot air rises to the top, so the top shelf is the hottest;
+> • smoke and hot air rising from a fire, through a chimney or kitchen roof;
+> • a refrigerator: the cold freezer box is at the top, so cold air sinks and cools the food below;
+> • ventilation: hot, stale air leaves through high openings and cool air enters below.
+> Advantages: liquids and air are heated evenly; ovens and pots cook food all round; good ventilation removes smoke and heat.
+> Disadvantages: heat is lost upwards from uncovered pots (cover pots to save fuel); food on the top shelf of an oven may burn; smoke spreads through a closed kitchen.
+
+**Card c42-1** (draft)
+
+> Examples of convection: boiling water, deep frying, hot air in an oven, smoke rising from a fire.
+>
+> _Hot air rises in an oven._  
+> _Oil circulates in deep frying._  
+
+Check question: `h2-42-ex` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is an example of convection?
+
+- ✅ hot air rising in an oven
+- ◻️ a pot handle getting hot  
+  _↳ feedback if chosen: That is conduction._
+- ◻️ a metal spoon getting hot in soup  
+  _↳ feedback if chosen: That is conduction._
+- ◻️ the sun warming your face  
+  _↳ feedback if chosen: That is radiation._
+
+Full working after a second miss:
+
+> Air moves to carry heat.  
+> So the answer is “hot air rising in an oven”.  
+
+**Card c42-2** (draft)
+
+> In an oven the top shelf is hottest; in a fridge the freezer box is at the top.
+>
+> _Hot air rises._  
+> _Cold air sinks._  
+
+Check question: `h2-42-oven` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which shelf of an oven is the hottest?
+
+- ◻️ the bottom shelf  
+  _↳ feedback if chosen: Hot air rises to the top._
+- ◻️ they are all the same  
+  _↳ feedback if chosen: Convection makes the top hotter._
+- ✅ the top shelf
+- ◻️ the door  
+  _↳ feedback if chosen: The door is not a shelf._
+
+Full working after a second miss:
+
+> Hot air rises.  
+> So the answer is “the top shelf”.  
+
+**Card c42-3** (draft)
+
+> Convection heats liquids evenly, but heat escapes upwards from open pots: cover them.
+>
+> _A lid saves fuel._  
+> _High windows let hot air out._  
+
+Check question: `h2-42-pro-card` · multiple choice, level 1 · **authored key**
+
+> Why are kitchen windows placed high on the wall?
+
+- ◻️ so cold air can be trapped  
+  _↳ feedback if chosen: That is not the aim._
+- ✅ so hot air and smoke can escape
+- ◻️ to stop light coming in  
+  _↳ feedback if chosen: They let light in._
+- ◻️ for decoration only  
+  _↳ feedback if chosen: They have a job._
+
+Full working after a second miss:
+
+> Hot air rises and leaves through high openings.  
+> So the answer is “so hot air and smoke can escape”.  
+
+**Worked example** (draft)
+
+> Explain why the freezer box is at the top of a refrigerator.
+
+1. The air cooled by the freezer box becomes denser and sinks.
+2. It flows down over the food, and warmer air rises to be cooled: a convection current.
+
+**Answer:** Cold air sinks and cools all the food below.
+
+**Practice** `h2-42-ex` · multiple choice, level 1 · **authored key**
+
+> Why does smoke rise from a kitchen fire?
+
+- ✅ Hot air and smoke are less dense and rise.
+- ◻️ Smoke is a solid.  
+  _↳ feedback if chosen: Smoke is a gas with particles._
+- ◻️ The roof pulls it.  
+  _↳ feedback if chosen: Nothing pulls it._
+- ◻️ Smoke is heavier than air.  
+  _↳ feedback if chosen: Hot smoke is less dense._
+
+Full working after a second miss:
+
+> Convection carries it up.  
+> So the answer is “Hot air and smoke are less dense and rise.”.  
+
+> Why does smoke rise from a kitchen fire?
+
+- ✅ Hot air and smoke are less dense and rise.
+- ◻️ Smoke is heavier than air.  
+  _↳ feedback if chosen: Hot smoke is less dense._
+- ◻️ Smoke is a solid.  
+  _↳ feedback if chosen: Smoke is a gas with particles._
+- ◻️ The roof pulls it.  
+  _↳ feedback if chosen: Nothing pulls it._
+
+Full working after a second miss:
+
+> Convection carries it up.  
+> So the answer is “Hot air and smoke are less dense and rise.”.  
+
+**Practice** `h2-42-oven` · multiple choice, level 1 · **authored key**
+
+> Why is the freezer box at the top of a fridge?
+
+- ◻️ It is easier to open.  
+  _↳ feedback if chosen: That is not the reason._
+- ◻️ Cold air rises.  
+  _↳ feedback if chosen: Cold air sinks._
+- ✅ Cold air sinks and cools the food below.
+- ◻️ To keep it warm.  
+  _↳ feedback if chosen: It is meant to be cold._
+
+Full working after a second miss:
+
+> Convection spreads the cold.  
+> So the answer is “Cold air sinks and cools the food below.”.  
+
+> Which shelf of an oven is the hottest?
+
+- ◻️ the door  
+  _↳ feedback if chosen: The door is not a shelf._
+- ◻️ they are all the same  
+  _↳ feedback if chosen: Convection makes the top hotter._
+- ✅ the top shelf
+- ◻️ the bottom shelf  
+  _↳ feedback if chosen: Hot air rises to the top._
+
+Full working after a second miss:
+
+> Hot air rises.  
+> So the answer is “the top shelf”.  
+
+**Practice** `h2-42-pro` · multiple choice, level 2 · **authored key**
+
+> Why should a pot be covered when boiling water?
+
+- ✅ to stop heat escaping upwards and save fuel
+- ◻️ to make the water rise  
+  _↳ feedback if chosen: That is not the reason._
+- ◻️ to make the water cold  
+  _↳ feedback if chosen: It keeps it hot._
+- ◻️ to stop conduction  
+  _↳ feedback if chosen: The base still conducts._
+
+Full working after a second miss:
+
+> Less heat is lost from the top.  
+> So the answer is “to stop heat escaping upwards and save fuel”.  
+
+> Why are kitchen windows placed high on the wall?
+
+- ◻️ for decoration only  
+  _↳ feedback if chosen: They have a job._
+- ◻️ so cold air can be trapped  
+  _↳ feedback if chosen: That is not the aim._
+- ✅ so hot air and smoke can escape
+- ◻️ to stop light coming in  
+  _↳ feedback if chosen: They let light in._
+
+Full working after a second miss:
+
+> Hot air rises and leaves through high openings.  
+> So the answer is “so hot air and smoke can escape”.  
+
+**Practice** `h2-42-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Hot oil circulates in deep frying.
+- ✅ A metal spoon heating in soup is convection.  
+  _↳ explanation: That is conduction._
+- ◻️ Cold air sinks in a fridge.
+- ◻️ Covering pots saves fuel.
+
+Full working after a second miss:
+
+> The wrong statement is “A metal spoon heating in soup is convection.”.  
+> That is conduction.  
+
+> Which statement is wrong?
+
+- ◻️ Hot oil circulates in deep frying.
+- ◻️ Smoke rises from a fire.
+- ✅ The bottom shelf of an oven is always the hottest.  
+  _↳ explanation: Hot air rises, so the top is hottest._
+- ◻️ Covering pots saves fuel.
+
+Full working after a second miss:
+
+> The wrong statement is “The bottom shelf of an oven is always the hottest.”.  
+> Hot air rises, so the top is hottest.  
+
+## Lesson 43: Notion of Radiation and how it occurs, Examples of radiation, advantages and disadvantages
+
+Prerequisites: 40 · Skill: h2-43 (Heat transfer: radiation)
+
+**Note** (draft)
+
+> Radiation is the transfer of heat as invisible rays (infrared waves) from a hot body, without needing any material. It can travel through empty space, like the heat of the sun reaching the Earth.
+> Surfaces and radiation:
+> • dull, dark (black) surfaces absorb and give out radiation well;
+> • shiny, light (white or silver) surfaces reflect radiation and absorb little.
+> Examples in the kitchen: grilling and toasting (heat rays from the grill or charcoal reach the food); roasting plantain or corn by an open fire; feeling the heat of a fire on your face; sun-drying fish, cocoa and cassava.
+> Advantages: quick cooking (grilling); food gets an attractive brown colour; free solar energy for drying.
+> Disadvantages: food can burn on the outside before the inside is cooked; heat is lost from hot pots; a cook near the fire gets very hot.
+
+**Card c43-1** (draft)
+
+> Radiation is the transfer of heat as invisible rays, without needing any material.
+>
+> _The sun's heat reaches the Earth through space._  
+> _You feel a fire's heat on your face._  
+
+Check question: `h2-43-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which way of heat transfer can pass through empty space?
+
+- ◻️ conduction  
+  _↳ feedback if chosen: Conduction needs a material._
+- ✅ radiation
+- ◻️ convection  
+  _↳ feedback if chosen: Convection needs a fluid._
+- ◻️ none of them  
+  _↳ feedback if chosen: Radiation can._
+
+Full working after a second miss:
+
+> The sun's heat crosses space.  
+> So the answer is “radiation”.  
+
+**Card c43-2** (draft)
+
+> Dull black surfaces absorb and give out radiation well; shiny white surfaces reflect it.
+>
+> _Black clothes get hot in the sun._  
+> _Shiny foil reflects heat._  
+
+Check question: `h2-43-surface` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which surface absorbs radiation best?
+
+- ◻️ shiny white  
+  _↳ feedback if chosen: White reflects._
+- ✅ dull black
+- ◻️ polished mirror  
+  _↳ feedback if chosen: Mirrors reflect._
+- ◻️ shiny silver  
+  _↳ feedback if chosen: Shiny surfaces reflect._
+
+Full working after a second miss:
+
+> Dull black absorbs heat rays.  
+> So the answer is “dull black”.  
+
+**Card c43-3** (draft)
+
+> Grilling, toasting, roasting by a fire and sun-drying use radiation.
+>
+> _Soya is grilled over charcoal._  
+> _Fish is dried in the sun._  
+
+Check question: `h2-43-ex-card` · multiple choice, level 1 · **authored key**
+
+> Which way of heat transfer is mainly used when frying an egg in a pan?
+
+- ◻️ radiation  
+  _↳ feedback if chosen: The pan touches the egg._
+- ◻️ convection only  
+  _↳ feedback if chosen: The pan conducts the heat._
+- ◻️ none  
+  _↳ feedback if chosen: Heat does reach it._
+- ✅ conduction
+
+Full working after a second miss:
+
+> The hot pan conducts heat to the egg.  
+> So the answer is “conduction”.  
+
+**Worked example** (draft)
+
+> Explain why the outside of shiny cooking pots are good for keeping food hot.
+
+1. Shiny surfaces give out (radiate) little heat.
+2. So less heat is lost from the pot by radiation.
+
+**Answer:** Shiny surfaces are poor radiators, so the food stays hot longer.
+
+**Practice** `h2-43-what` · multiple choice, level 1 · **authored key**
+
+> Which way of heat transfer can pass through empty space?
+
+- ◻️ none of them  
+  _↳ feedback if chosen: Radiation can._
+- ◻️ convection  
+  _↳ feedback if chosen: Convection needs a fluid._
+- ✅ radiation
+- ◻️ conduction  
+  _↳ feedback if chosen: Conduction needs a material._
+
+Full working after a second miss:
+
+> The sun's heat crosses space.  
+> So the answer is “radiation”.  
+
+> Which way of heat transfer can pass through empty space?
+
+- ◻️ convection  
+  _↳ feedback if chosen: Convection needs a fluid._
+- ✅ radiation
+- ◻️ conduction  
+  _↳ feedback if chosen: Conduction needs a material._
+- ◻️ none of them  
+  _↳ feedback if chosen: Radiation can._
+
+Full working after a second miss:
+
+> The sun's heat crosses space.  
+> So the answer is “radiation”.  
+
+**Practice** `h2-43-surface` · multiple choice, level 1 · **authored key**
+
+> Which surface absorbs radiation best?
+
+- ✅ dull black
+- ◻️ shiny silver  
+  _↳ feedback if chosen: Shiny surfaces reflect._
+- ◻️ polished mirror  
+  _↳ feedback if chosen: Mirrors reflect._
+- ◻️ shiny white  
+  _↳ feedback if chosen: White reflects._
+
+Full working after a second miss:
+
+> Dull black absorbs heat rays.  
+> So the answer is “dull black”.  
+
+> Why are the walls of a vacuum flask shiny?
+
+- ✅ to reflect radiation
+- ◻️ to conduct heat  
+  _↳ feedback if chosen: The vacuum stops conduction._
+- ◻️ to absorb more heat  
+  _↳ feedback if chosen: Shiny surfaces absorb little._
+- ◻️ to look dark  
+  _↳ feedback if chosen: Shiny is not dark._
+
+Full working after a second miss:
+
+> Shiny walls reduce heat by radiation.  
+> So the answer is “to reflect radiation”.  
+
+**Practice** `h2-43-ex` · multiple choice, level 2 · **authored key**
+
+> Which way of heat transfer is mainly used when grilling soya over charcoal?
+
+- ◻️ conduction  
+  _↳ feedback if chosen: The food does not touch the charcoal._
+- ✅ radiation
+- ◻️ convection only  
+  _↳ feedback if chosen: Rising air is not the main way._
+- ◻️ none  
+  _↳ feedback if chosen: Heat does reach it._
+
+Full working after a second miss:
+
+> Heat rays from the hot coals.  
+> So the answer is “radiation”.  
+
+> Which way of heat transfer is mainly used when drying cocoa beans in the sun?
+
+- ◻️ none  
+  _↳ feedback if chosen: Heat does reach it._
+- ✅ radiation
+- ◻️ convection  
+  _↳ feedback if chosen: The sun's heat crosses space._
+- ◻️ conduction  
+  _↳ feedback if chosen: The sun is far away._
+
+Full working after a second miss:
+
+> The sun's rays.  
+> So the answer is “radiation”.  
+
+**Practice** `h2-43-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Grilling uses radiation.
+- ◻️ Black surfaces absorb radiation well.
+- ◻️ Shiny surfaces reflect radiation.
+- ✅ Shiny surfaces absorb radiation best.  
+  _↳ explanation: Dull black surfaces absorb best._
+
+Full working after a second miss:
+
+> The wrong statement is “Shiny surfaces absorb radiation best.”.  
+> Dull black surfaces absorb best.  
+
+> Which statement is wrong?
+
+- ✅ Frying an egg is mainly radiation.  
+  _↳ explanation: The pan conducts heat to the egg._
+- ◻️ Grilling uses radiation.
+- ◻️ Black surfaces absorb radiation well.
+- ◻️ Radiation can travel through space.
+
+Full working after a second miss:
+
+> The wrong statement is “Frying an egg is mainly radiation.”.  
+> The pan conducts heat to the egg.  
+
+## Lesson 44: Notion, Causes of these deficiencies. Signs and symptoms
+
+Prerequisites: none · Skill: h2-44 (Kwashiorkor and marasmus: causes and signs)
+
+**Note** (draft)
+
+> Kwashiorkor and marasmus are forms of protein-energy malnutrition, common in young children.
+> Kwashiorkor is caused by a lack of protein in the diet, often when a child is weaned from breast milk onto starchy foods only (cassava, pap, plantain).
+> Signs: swollen feet, legs and face (oedema); a swollen belly; thin arms; hair that turns reddish, thin and falls out; peeling skin with patches; miserable, apathetic behaviour; poor growth.
+> Marasmus is caused by a severe lack of energy foods and protein: too little food of every kind (famine, poverty, long diarrhoea).
+> Signs: very thin, “skin and bones”; wrinkled skin like an old person; sunken eyes; very low weight for age; no swelling; often hungry and irritable.
+> Both weaken the body's defences, so infections are frequent and can be deadly.
+
+**Card c44-1** (draft)
+
+> Kwashiorkor is caused by a lack of protein; marasmus by a lack of food of every kind.
+>
+> _A child weaned onto starchy foods only._  
+> _Marasmus in famine._  
+
+Check question: `h2-44-cause` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What causes kwashiorkor?
+
+- ✅ a lack of protein
+- ◻️ too much protein  
+  _↳ feedback if chosen: Protein prevents it._
+- ◻️ too much sugar  
+  _↳ feedback if chosen: That causes tooth decay and obesity._
+- ◻️ a lack of iodine  
+  _↳ feedback if chosen: That causes goitre._
+
+Full working after a second miss:
+
+> Diets of starchy foods only.  
+> So the answer is “a lack of protein”.  
+
+**Card c44-2** (draft)
+
+> Signs of kwashiorkor: swollen feet and belly, reddish thin hair, peeling skin, misery.
+>
+> _The swelling is oedema._  
+> _The child does not grow well._  
+
+Check question: `h2-44-kwash` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What happens to the hair of a child with kwashiorkor?
+
+- ◻️ It grows very fast.  
+  _↳ feedback if chosen: That is not a sign._
+- ◻️ Nothing changes.  
+  _↳ feedback if chosen: Hair changes._
+- ◻️ It becomes thick and black.  
+  _↳ feedback if chosen: That is healthy hair._
+- ✅ It becomes thin and reddish and falls out.
+
+Full working after a second miss:
+
+> Lack of protein affects hair.  
+> So the answer is “It becomes thin and reddish and falls out.”.  
+
+**Card c44-3** (draft)
+
+> Signs of marasmus: very thin, wrinkled skin, sunken eyes, no swelling.
+>
+> _“Skin and bones”._  
+> _Very low weight for age._  
+
+Check question: `h2-44-maras-card` · multiple choice, level 1 · computed by rule
+
+> A child shows these signs: skin and bones, always hungry, very low weight. Which disease is it most likely to be?
+
+- ◻️ night blindness  
+  _↳ feedback if chosen: Night blindness is poor sight in dim light from lack of vitamin A._
+- ✅ marasmus
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: Kwashiorkor shows swelling and hair changes; marasmus shows wasting without swelling._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is a swollen neck from lack of iodine._
+
+Full working after a second miss:
+
+> Severe lack of food of every kind.  
+> So it is marasmus.  
+
+**Worked example** (draft)
+
+> Which deficiency disease does a two-year-old weaned onto pap only, with swollen feet and reddish hair probably have, and why?
+
+1. Swollen feet (oedema) and reddish hair are signs of kwashiorkor.
+2. Pap is mostly starch; the child lacks protein.
+
+**Answer:** Kwashiorkor, from a lack of protein.
+
+**Practice** `h2-44-cause` · multiple choice, level 1 · **authored key**
+
+> What causes marasmus?
+
+- ◻️ too much protein  
+  _↳ feedback if chosen: That does not cause it._
+- ◻️ a lack of vitamin A only  
+  _↳ feedback if chosen: That causes night blindness._
+- ◻️ too much fat  
+  _↳ feedback if chosen: That causes obesity._
+- ✅ a severe lack of food of every kind
+
+Full working after a second miss:
+
+> Too little energy and protein.  
+> So the answer is “a severe lack of food of every kind”.  
+
+> What causes kwashiorkor?
+
+- ✅ a lack of protein
+- ◻️ a lack of iodine  
+  _↳ feedback if chosen: That causes goitre._
+- ◻️ too much sugar  
+  _↳ feedback if chosen: That causes tooth decay and obesity._
+- ◻️ too much protein  
+  _↳ feedback if chosen: Protein prevents it._
+
+Full working after a second miss:
+
+> Diets of starchy foods only.  
+> So the answer is “a lack of protein”.  
+
+**Practice** `h2-44-kwash` · multiple choice, level 1 · **authored key**
+
+> What happens to the hair of a child with kwashiorkor?
+
+- ◻️ It becomes thick and black.  
+  _↳ feedback if chosen: That is healthy hair._
+- ◻️ Nothing changes.  
+  _↳ feedback if chosen: Hair changes._
+- ◻️ It grows very fast.  
+  _↳ feedback if chosen: That is not a sign._
+- ✅ It becomes thin and reddish and falls out.
+
+Full working after a second miss:
+
+> Lack of protein affects hair.  
+> So the answer is “It becomes thin and reddish and falls out.”.  
+
+> What happens to the hair of a child with kwashiorkor?
+
+- ◻️ Nothing changes.  
+  _↳ feedback if chosen: Hair changes._
+- ◻️ It becomes thick and black.  
+  _↳ feedback if chosen: That is healthy hair._
+- ◻️ It grows very fast.  
+  _↳ feedback if chosen: That is not a sign._
+- ✅ It becomes thin and reddish and falls out.
+
+Full working after a second miss:
+
+> Lack of protein affects hair.  
+> So the answer is “It becomes thin and reddish and falls out.”.  
+
+**Practice** `h2-44-maras` · multiple choice, level 2 · computed by rule
+
+> A child shows these signs: swollen feet, reddish hair, peeling skin. Which disease is it most likely to be?
+
+- ◻️ marasmus  
+  _↳ feedback if chosen: Kwashiorkor shows swelling and hair changes; marasmus shows wasting without swelling._
+- ✅ kwashiorkor
+- ◻️ night blindness  
+  _↳ feedback if chosen: Night blindness is poor sight in dim light from lack of vitamin A._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is a swollen neck from lack of iodine._
+
+Full working after a second miss:
+
+> Swelling and hair changes point to a lack of protein.  
+> So it is kwashiorkor.  
+
+> A child shows these signs: skin and bones, always hungry, very low weight. Which disease is it most likely to be?
+
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is a swollen neck from lack of iodine._
+- ✅ marasmus
+- ◻️ night blindness  
+  _↳ feedback if chosen: Night blindness is poor sight in dim light from lack of vitamin A._
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: Kwashiorkor shows swelling and hair changes; marasmus shows wasting without swelling._
+
+Full working after a second miss:
+
+> Severe lack of food of every kind.  
+> So it is marasmus.  
+
+**Practice** `h2-44-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Both weaken the body against infection.
+- ◻️ Marasmus causes severe thinness.
+- ◻️ Both are common in young children.
+- ✅ Marasmus causes swollen feet.  
+  _↳ explanation: Swelling is a sign of kwashiorkor; marasmus shows wasting._
+
+Full working after a second miss:
+
+> The wrong statement is “Marasmus causes swollen feet.”.  
+> Swelling is a sign of kwashiorkor; marasmus shows wasting.  
+
+> Which statement is wrong?
+
+- ◻️ Kwashiorkor is caused by a lack of protein.
+- ◻️ Both weaken the body against infection.
+- ✅ A child with kwashiorkor has thick black hair.  
+  _↳ explanation: The hair becomes thin and reddish._
+- ◻️ Marasmus causes severe thinness.
+
+Full working after a second miss:
+
+> The wrong statement is “A child with kwashiorkor has thick black hair.”.  
+> The hair becomes thin and reddish.  
+
+## Lesson 45: Children suffering from the deficiencies, Preventive measures
+
+Prerequisites: 44 · Skill: h2-45 (Kwashiorkor and marasmus: children at risk and prevention)
+
+**Note** (draft)
+
+> Children most at risk: those from 6 months to 5 years, especially at weaning; children in poor families or areas of war, drought and famine; children with frequent infections, measles or diarrhoea; children whose mother is ill or absent; twins and children born close together.
+> Prevention:
+> • breastfeed babies only for the first six months, then continue breastfeeding while adding other foods;
+> • give weaning foods rich in protein: pap enriched with soya, groundnut or egg; beans, fish, crayfish, eggs, milk;
+> • give balanced, frequent meals;
+> • vaccinate children and treat diarrhoea early (oral rehydration salts);
+> • weigh children regularly at the health centre (growth chart);
+> • teach mothers about nutrition; grow vegetables, beans and soya; keep chickens for eggs;
+> • space births.
+
+**Card c45-1** (draft)
+
+> Children aged 6 months to 5 years are most at risk, especially at weaning.
+>
+> _Poor families and famine areas._  
+> _Children with frequent diarrhoea._  
+
+Check question: `h2-45-risk` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which situation increases the risk of marasmus?
+
+- ✅ famine and long diarrhoea
+- ◻️ regular vaccination  
+  _↳ feedback if chosen: That protects._
+- ◻️ a balanced diet  
+  _↳ feedback if chosen: That prevents it._
+- ◻️ eating eggs and milk  
+  _↳ feedback if chosen: Those prevent it._
+
+Full working after a second miss:
+
+> Too little food and losses from diarrhoea.  
+> So the answer is “famine and long diarrhoea”.  
+
+**Card c45-2** (draft)
+
+> Breastfeed only for six months, then add protein-rich weaning foods.
+>
+> _Pap enriched with soya or groundnut._  
+> _Eggs, fish and beans._  
+
+Check question: `h2-45-feed` · multiple choice, level 1 · **authored key**, reused from practice
+
+> For how long should babies be given only breast milk?
+
+- ◻️ never  
+  _↳ feedback if chosen: Breast milk is best._
+- ✅ the first six months
+- ◻️ two years only water  
+  _↳ feedback if chosen: Water alone is not food._
+- ◻️ one week  
+  _↳ feedback if chosen: Too short._
+
+Full working after a second miss:
+
+> Exclusive breastfeeding for six months.  
+> So the answer is “the first six months”.  
+
+**Card c45-3** (draft)
+
+> Vaccinate, treat diarrhoea early and weigh children regularly on a growth chart.
+>
+> _Oral rehydration salts for diarrhoea._  
+> _A falling growth line is a warning._  
+
+Check question: `h2-45-health-card` · multiple choice, level 1 · **authored key**
+
+> How does treating diarrhoea early help prevent malnutrition?
+
+- ◻️ It makes the child eat less.  
+  _↳ feedback if chosen: That is not the aim._
+- ✅ It stops the child losing water and nutrients.
+- ◻️ It adds protein to food.  
+  _↳ feedback if chosen: It does not add protein._
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It helps a lot._
+
+Full working after a second miss:
+
+> Diarrhoea drains the body.  
+> So the answer is “It stops the child losing water and nutrients.”.  
+
+**Worked example** (draft)
+
+> How can plain pap be made into a better weaning food?
+
+1. Plain pap is mostly starch, with little protein.
+2. Add soya flour, groundnut paste, milk or egg to give protein.
+
+**Answer:** Enrich it with soya, groundnut, milk or egg.
+
+**Practice** `h2-45-risk` · multiple choice, level 1 · **authored key**
+
+> Which children are most at risk of kwashiorkor?
+
+- ✅ young children at weaning
+- ◻️ babies only on breast milk in the first months  
+  _↳ feedback if chosen: Breast milk protects them._
+- ◻️ teenagers who eat beans  
+  _↳ feedback if chosen: Beans give protein._
+- ◻️ adults who eat fish  
+  _↳ feedback if chosen: Fish gives protein._
+
+Full working after a second miss:
+
+> Weaning onto starchy food is the risk.  
+> So the answer is “young children at weaning”.  
+
+> Which children are most at risk of kwashiorkor?
+
+- ✅ young children at weaning
+- ◻️ teenagers who eat beans  
+  _↳ feedback if chosen: Beans give protein._
+- ◻️ adults who eat fish  
+  _↳ feedback if chosen: Fish gives protein._
+- ◻️ babies only on breast milk in the first months  
+  _↳ feedback if chosen: Breast milk protects them._
+
+Full working after a second miss:
+
+> Weaning onto starchy food is the risk.  
+> So the answer is “young children at weaning”.  
+
+**Practice** `h2-45-feed` · multiple choice, level 1 · **authored key**
+
+> For how long should babies be given only breast milk?
+
+- ✅ the first six months
+- ◻️ never  
+  _↳ feedback if chosen: Breast milk is best._
+- ◻️ two years only water  
+  _↳ feedback if chosen: Water alone is not food._
+- ◻️ one week  
+  _↳ feedback if chosen: Too short._
+
+Full working after a second miss:
+
+> Exclusive breastfeeding for six months.  
+> So the answer is “the first six months”.  
+
+> For how long should babies be given only breast milk?
+
+- ✅ the first six months
+- ◻️ never  
+  _↳ feedback if chosen: Breast milk is best._
+- ◻️ two years only water  
+  _↳ feedback if chosen: Water alone is not food._
+- ◻️ one week  
+  _↳ feedback if chosen: Too short._
+
+Full working after a second miss:
+
+> Exclusive breastfeeding for six months.  
+> So the answer is “the first six months”.  
+
+**Practice** `h2-45-health` · multiple choice, level 2 · **authored key**
+
+> Why are children weighed regularly at the health centre?
+
+- ◻️ to make them heavier  
+  _↳ feedback if chosen: Weighing does not add weight._
+- ◻️ to vaccinate their weight  
+  _↳ feedback if chosen: That has no meaning._
+- ✅ to spot poor growth early
+- ◻️ to count them  
+  _↳ feedback if chosen: That is not the aim._
+
+Full working after a second miss:
+
+> The growth chart shows problems early.  
+> So the answer is “to spot poor growth early”.  
+
+> How does treating diarrhoea early help prevent malnutrition?
+
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It helps a lot._
+- ✅ It stops the child losing water and nutrients.
+- ◻️ It makes the child eat less.  
+  _↳ feedback if chosen: That is not the aim._
+- ◻️ It adds protein to food.  
+  _↳ feedback if chosen: It does not add protein._
+
+Full working after a second miss:
+
+> Diarrhoea drains the body.  
+> So the answer is “It stops the child losing water and nutrients.”.  
+
+**Practice** `h2-45-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Stop breastfeeding at once and give only cassava.  
+  _↳ explanation: Continue breastfeeding and add protein-rich foods._
+- ◻️ Vaccinate children.
+- ◻️ Add protein to weaning foods.
+- ◻️ Breastfeed only for six months.
+
+Full working after a second miss:
+
+> The wrong statement is “Stop breastfeeding at once and give only cassava.”.  
+> Continue breastfeeding and add protein-rich foods.  
+
+> Which statement is wrong?
+
+- ◻️ Breastfeed only for six months.
+- ◻️ Weigh children regularly.
+- ✅ Stop breastfeeding at once and give only cassava.  
+  _↳ explanation: Continue breastfeeding and add protein-rich foods._
+- ◻️ Vaccinate children.
+
+Full working after a second miss:
+
+> The wrong statement is “Stop breastfeeding at once and give only cassava.”.  
+> Continue breastfeeding and add protein-rich foods.  
+
+## Lesson 46: Causes of night blindness, Signs and symptoms, Preventive measures
+
+Prerequisites: 44 · Skill: h2-46 (Night blindness)
+
+**Note** (draft)
+
+> Night blindness is difficulty seeing in dim light or at night.
+> Cause: a lack of vitamin A. Vitamin A is needed to make a pigment in the eye (visual purple) that lets us see in dim light.
+> Signs and symptoms: poor sight at dusk and at night; dry eyes; foamy grey spots on the white of the eye (Bitot's spots); in severe cases the eye becomes damaged and the child can go blind (xerophthalmia). Lack of vitamin A also lowers resistance to infection.
+> Sources of vitamin A: red palm oil, carrots, pawpaw, mangoes, sweet potatoes (orange), dark green leafy vegetables (njama-njama, okazi, cassava leaves), liver, eggs, milk, butter, fish oil.
+> Prevention: eat foods rich in vitamin A every day; use red palm oil in cooking; breastfeed; give children vitamin A capsules at health campaigns.
+
+**Card c46-1** (draft)
+
+> Night blindness is difficulty seeing in dim light; it is caused by a lack of vitamin A.
+>
+> _The child cannot see well at dusk._  
+> _Vitamin A helps the eye see in dim light._  
+
+Check question: `h2-46-cause` · multiple choice, level 1 · **authored key**, reused from practice
+
+> When does a person with night blindness see badly?
+
+- ◻️ only when reading in sunlight  
+  _↳ feedback if chosen: Bright light is fine._
+- ◻️ never  
+  _↳ feedback if chosen: They do see badly at night._
+- ✅ in dim light and at night
+- ◻️ only at noon  
+  _↳ feedback if chosen: They see well in bright light._
+
+Full working after a second miss:
+
+> Dim light is the problem.  
+> So the answer is “in dim light and at night”.  
+
+**Card c46-2** (draft)
+
+> Signs: poor sight at night, dry eyes, grey spots on the white of the eye.
+>
+> _Bitot's spots._  
+> _Severe cases can lead to blindness._  
+
+Check question: `h2-46-signs` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What can severe vitamin A deficiency lead to?
+
+- ✅ blindness
+- ◻️ better eyesight  
+  _↳ feedback if chosen: It harms sight._
+- ◻️ stronger teeth  
+  _↳ feedback if chosen: That is not linked._
+- ◻️ taller growth  
+  _↳ feedback if chosen: That is not linked._
+
+Full working after a second miss:
+
+> The eye can be damaged permanently.  
+> So the answer is “blindness”.  
+
+**Card c46-3** (draft)
+
+> Prevent it with foods rich in vitamin A: red palm oil, carrots, mangoes, pawpaw, green vegetables, liver, eggs.
+>
+> _Cook with red palm oil._  
+> _Vitamin A capsules at health campaigns._  
+
+Check question: `h2-46-food-card` · multiple choice, level 1 · **authored key**
+
+> Which group of foods would best prevent night blindness?
+
+- ◻️ soda and sweets  
+  _↳ feedback if chosen: No vitamin A._
+- ◻️ salt and pepper  
+  _↳ feedback if chosen: No vitamin A._
+- ✅ carrots, mangoes and green leafy vegetables
+- ◻️ bread, rice and sugar  
+  _↳ feedback if chosen: Little vitamin A._
+
+Full working after a second miss:
+
+> These are rich in vitamin A.  
+> So the answer is “carrots, mangoes and green leafy vegetables”.  
+
+**Worked example** (draft)
+
+> Which vitamin is probably lacking if a child cannot see well when the sun sets, and which foods should the child eat?
+
+1. Poor sight in dim light is night blindness, caused by a lack of vitamin A.
+2. Red palm oil, carrots, mangoes, pawpaw and green leafy vegetables give vitamin A.
+
+**Answer:** Vitamin A: give red palm oil, carrots, mangoes, pawpaw and green vegetables.
+
+**Practice** `h2-46-cause` · multiple choice, level 1 · **authored key**
+
+> What causes night blindness?
+
+- ◻️ too much protein  
+  _↳ feedback if chosen: That does not cause it._
+- ✅ a lack of vitamin A
+- ◻️ a lack of iodine  
+  _↳ feedback if chosen: That causes goitre._
+- ◻️ a lack of iron  
+  _↳ feedback if chosen: That causes anaemia._
+
+Full working after a second miss:
+
+> Vitamin A is needed for sight in dim light.  
+> So the answer is “a lack of vitamin A”.  
+
+> When does a person with night blindness see badly?
+
+- ✅ in dim light and at night
+- ◻️ never  
+  _↳ feedback if chosen: They do see badly at night._
+- ◻️ only when reading in sunlight  
+  _↳ feedback if chosen: Bright light is fine._
+- ◻️ only at noon  
+  _↳ feedback if chosen: They see well in bright light._
+
+Full working after a second miss:
+
+> Dim light is the problem.  
+> So the answer is “in dim light and at night”.  
+
+**Practice** `h2-46-signs` · multiple choice, level 1 · **authored key**
+
+> Which is a sign of vitamin A deficiency in the eye?
+
+- ✅ dry eyes with grey foamy spots
+- ◻️ swollen feet  
+  _↳ feedback if chosen: That is kwashiorkor._
+- ◻️ bleeding gums  
+  _↳ feedback if chosen: That is scurvy._
+- ◻️ a swollen neck  
+  _↳ feedback if chosen: That is goitre._
+
+Full working after a second miss:
+
+> Bitot's spots.  
+> So the answer is “dry eyes with grey foamy spots”.  
+
+> What can severe vitamin A deficiency lead to?
+
+- ◻️ taller growth  
+  _↳ feedback if chosen: That is not linked._
+- ✅ blindness
+- ◻️ stronger teeth  
+  _↳ feedback if chosen: That is not linked._
+- ◻️ better eyesight  
+  _↳ feedback if chosen: It harms sight._
+
+Full working after a second miss:
+
+> The eye can be damaged permanently.  
+> So the answer is “blindness”.  
+
+**Practice** `h2-46-food` · multiple choice, level 2 · **authored key**
+
+> Which group of foods would best prevent night blindness?
+
+- ✅ carrots, mangoes and green leafy vegetables
+- ◻️ soda and sweets  
+  _↳ feedback if chosen: No vitamin A._
+- ◻️ bread, rice and sugar  
+  _↳ feedback if chosen: Little vitamin A._
+- ◻️ salt and pepper  
+  _↳ feedback if chosen: No vitamin A._
+
+Full working after a second miss:
+
+> These are rich in vitamin A.  
+> So the answer is “carrots, mangoes and green leafy vegetables”.  
+
+> Which food is rich in vitamin A?
+
+- ◻️ salt  
+  _↳ feedback if chosen: Salt has no vitamins._
+- ◻️ sugar  
+  _↳ feedback if chosen: Sugar has no vitamins._
+- ◻️ white rice  
+  _↳ feedback if chosen: Rice is mostly starch._
+- ✅ red palm oil
+
+Full working after a second miss:
+
+> Red palm oil is rich in vitamin A.  
+> So the answer is “red palm oil”.  
+
+**Practice** `h2-46-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Night blindness is caused by a lack of vitamin A.
+- ✅ White rice is the best source of vitamin A.  
+  _↳ explanation: Red palm oil, carrots and green vegetables are._
+- ◻️ Carrots give vitamin A.
+- ◻️ Red palm oil gives vitamin A.
+
+Full working after a second miss:
+
+> The wrong statement is “White rice is the best source of vitamin A.”.  
+> Red palm oil, carrots and green vegetables are.  
+
+> Which statement is wrong?
+
+- ◻️ Carrots give vitamin A.
+- ✅ People with night blindness see badly at noon.  
+  _↳ explanation: They see badly in dim light._
+- ◻️ Red palm oil gives vitamin A.
+- ◻️ Severe deficiency can cause blindness.
+
+Full working after a second miss:
+
+> The wrong statement is “People with night blindness see badly at noon.”.  
+> They see badly in dim light.  
 

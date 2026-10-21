@@ -1,0 +1,475 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  24
+ ],
+ "skills": [
+  {
+   "id": "h2-25",
+   "name": "Small equipment: uses, choice and care"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Points to consider when choosing small equipment:\n• its use and the needs of the family;\n• the material: strong, safe, does not rust, easy to clean;\n• good quality and finish (no sharp edges, tight lids, firm handles that do not conduct heat);\n• size and weight; price and money available; storage space.\nCare:\n• wash in hot soapy water soon after use, rinse and dry well;\n• soak pots with burnt food before scrubbing; do not scrub non-stick pans with steel wool;\n• keep knives sharp and store them safely in a block or rack, never loose in water;\n• dry wooden tools quickly (they crack and grow mould if soaked);\n• store tools in clean, dry places; oil cast iron to stop rust.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "a wooden spoon"
+  },
+  "problem": "How should {t} be cared for?",
+  "steps": [
+   "Wash it quickly in hot soapy water; do not leave it soaking.",
+   "Dry it well and store it in a dry place, so it does not crack or grow mould."
+  ],
+  "answer": "Wash quickly, dry well and store dry; never soak it.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "Choose equipment for its use, a safe and strong material, good quality, size and price.",
+    "vars": {},
+    "example": [
+     "Handles should not get hot.",
+     "Lids should fit tightly."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-25-choose"
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Wash equipment soon after use in hot soapy water, rinse and dry it.",
+    "vars": {},
+    "example": [
+     "Soak burnt pots first.",
+     "Dry knives at once."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-25-wash"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "Do not soak wooden tools or scrub non-stick pans with steel wool; store knives safely.",
+    "vars": {},
+    "example": [
+     "Steel wool scratches the non-stick coating.",
+     "Knives go in a rack."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-25-care-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-equipment"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should a wooden spoon not be left soaking in water?",
+         "r": "It swells, cracks and can grow mould.",
+         "w": [
+          "It becomes metal.",
+          "It melts.",
+          "It becomes sharper."
+         ],
+         "e": [
+          "Wood stays wood.",
+          "Wood does not melt.",
+          "That is not true."
+         ],
+         "y": "Wood absorbs water."
+        },
+        {
+         "q": "Why should knives not be left in a bowl of washing water?",
+         "r": "Someone could cut their hand on a hidden blade.",
+         "w": [
+          "They become blunt at once.",
+          "The water becomes sweet.",
+          "It makes them rust-free."
+         ],
+         "e": [
+          "The main danger is cuts.",
+          "That is not true.",
+          "Water can rust them."
+         ],
+         "y": "A hidden blade is dangerous."
+        },
+        {
+         "q": "How should a non-stick pan be cleaned?",
+         "r": "with a soft sponge and soapy water",
+         "w": [
+          "with steel wool",
+          "with sand",
+          "with a knife"
+         ],
+         "e": [
+          "Steel wool scratches the coating.",
+          "Sand scratches it.",
+          "A knife scratches it."
+         ],
+         "y": "The coating is easily damaged."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-25-choose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a good point when choosing a saucepan?",
+       "r": "a firm handle that does not get hot",
+       "w": [
+        "a loose lid",
+        "sharp edges",
+        "a handle that gets very hot"
+       ],
+       "e": [
+        "Lids should fit.",
+        "Edges should be smooth.",
+        "Hot handles burn."
+       ],
+       "y": "Safe handles prevent burns."
+      },
+      {
+       "q": "Why is stainless steel a good material for knives?",
+       "r": "It is strong and does not rust.",
+       "w": [
+        "It melts easily.",
+        "It is soft like plastic.",
+        "It rusts quickly."
+       ],
+       "e": [
+        "It does not melt in the kitchen.",
+        "It is hard.",
+        "It resists rust."
+       ],
+       "y": "Strong and rust-free."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-25-wash",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When should kitchen tools be washed?",
+       "r": "soon after use",
+       "w": [
+        "once a week",
+        "only when visitors come",
+        "never"
+       ],
+       "e": [
+        "Food dries and germs grow.",
+        "They must be washed every time.",
+        "Dirty tools spread germs."
+       ],
+       "y": "Food comes off easily and germs do not grow."
+      },
+      {
+       "q": "What should you do with a pot that has burnt food in it?",
+       "r": "soak it in water before scrubbing",
+       "w": [
+        "throw it away",
+        "put it back dirty",
+        "heat it more"
+       ],
+       "e": [
+        "It can be cleaned.",
+        "That is unhygienic.",
+        "That burns it more."
+       ],
+       "y": "Soaking loosens the burnt food."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-25-care",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should a wooden spoon not be left soaking in water?",
+       "r": "It swells, cracks and can grow mould.",
+       "w": [
+        "It becomes metal.",
+        "It melts.",
+        "It becomes sharper."
+       ],
+       "e": [
+        "Wood stays wood.",
+        "Wood does not melt.",
+        "That is not true."
+       ],
+       "y": "Wood absorbs water."
+      },
+      {
+       "q": "Why should knives not be left in a bowl of washing water?",
+       "r": "Someone could cut their hand on a hidden blade.",
+       "w": [
+        "They become blunt at once.",
+        "The water becomes sweet.",
+        "It makes them rust-free."
+       ],
+       "e": [
+        "The main danger is cuts.",
+        "That is not true.",
+        "Water can rust them."
+       ],
+       "y": "A hidden blade is dangerous."
+      },
+      {
+       "q": "How should a non-stick pan be cleaned?",
+       "r": "with a soft sponge and soapy water",
+       "w": [
+        "with steel wool",
+        "with sand",
+        "with a knife"
+       ],
+       "e": [
+        "Steel wool scratches the coating.",
+        "Sand scratches it.",
+        "A knife scratches it."
+       ],
+       "y": "The coating is easily damaged."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-25-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-equipment"
+   ],
+   "prompt": "Which statement about choice and care is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Lids should fit tightly.",
+      "truth": "true"
+     },
+     {
+      "text": "Dry knives after washing.",
+      "truth": "true"
+     },
+     {
+      "text": "Store tools in a clean dry place.",
+      "truth": "true"
+     },
+     {
+      "text": "Oil cast iron to stop rust.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Soak wooden spoons overnight to clean them.",
+      "truth": "false",
+      "explain": "Wood cracks and grows mould when soaked."
+     },
+     {
+      "text": "Scrub non-stick pans with steel wool.",
+      "truth": "false",
+      "explain": "It scratches the coating."
+     },
+     {
+      "text": "Choose pots with handles that get very hot.",
+      "truth": "false",
+      "explain": "Handles should stay cool."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

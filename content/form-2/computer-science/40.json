@@ -1,0 +1,445 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 40,
+ "language": "en",
+ "prerequisites": [
+  38
+ ],
+ "skills": [
+  {
+   "id": "s2-40",
+   "name": "Using desktop publishing software to solve problems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Desktop publishing solves problems like advertising an event (poster, flyer), informing parents (newsletter), and making cards, certificates and menus.\nSteps:\n1. Decide the purpose, audience and size (A{4}, A{5}, card).\n2. Choose a template or a blank page; set the margins, orientation (portrait or landscape) and columns.\n3. Insert text frames (text boxes) and picture frames; type or import the text; insert pictures or clip art.\n4. Arrange the frames: alignment, layering, grouping; use WordArt or headings.\n5. Choose fonts and colours that are easy to read (no more than two or three fonts).\n6. Proofread, save, then print or export as PDF.\nA good poster answers: What? When? Where? Who? (with contact details), with a large heading and an eye-catching picture.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": "the school's science fair"
+  },
+  "problem": "What information must a poster for {e} include?",
+  "steps": [
+   "What: the name of the event, in a large heading.",
+   "When, where and who: the date and time, the place, who can come, and a contact."
+  ],
+  "answer": "What, when, where and who, with contact details.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c40-1",
+    "status": "draft",
+    "idea": "Decide the purpose, audience and size; choose a template, margins and orientation.",
+    "vars": {},
+    "example": [
+     "A poster in portrait A{4}.",
+     "A card in landscape A{5}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-40-plan"
+    }
+   },
+   {
+    "id": "c40-2",
+    "status": "draft",
+    "idea": "Use text frames and picture frames; arrange and align them.",
+    "vars": {},
+    "example": [
+     "Group frames to move them together.",
+     "Use two or three fonts only."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-40-frames"
+    }
+   },
+   {
+    "id": "c40-3",
+    "status": "draft",
+    "idea": "A good poster tells what, when, where and who, with a large heading.",
+    "vars": {},
+    "example": [
+     "Add a contact phone number.",
+     "Proofread before printing."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-40-poster-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "office-software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which information is missing from this poster: “Football match! Saturday 3 p.m. Contact 6xx xx xx xx”?",
+         "r": "where the match takes place",
+         "w": [
+          "what the event is",
+          "when it is",
+          "a contact"
+         ],
+         "e": [
+          "It says football match.",
+          "It says Saturday 3 p.m.",
+          "It gives a contact."
+         ],
+         "y": "Where? is missing."
+        },
+        {
+         "q": "What should you do before printing a newsletter?",
+         "r": "proofread it",
+         "w": [
+          "delete it",
+          "change all the fonts",
+          "send it unchecked"
+         ],
+         "e": [
+          "That loses it.",
+          "That is not needed.",
+          "Mistakes would be printed."
+         ],
+         "y": "Check for errors."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-40-plan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is page orientation?",
+       "r": "whether the page is portrait (tall) or landscape (wide)",
+       "w": [
+        "the colour of the paper",
+        "the number of pages",
+        "the font size"
+       ],
+       "e": [
+        "That is not orientation.",
+        "That is not orientation.",
+        "That is not orientation."
+       ],
+       "y": "Portrait or landscape."
+      },
+      {
+       "q": "What is a template?",
+       "r": "a ready-made design to start from",
+       "w": [
+        "a type of virus",
+        "a printer",
+        "a finished poster for another school"
+       ],
+       "e": [
+        "It is not harmful.",
+        "It is not hardware.",
+        "You adapt it to your needs."
+       ],
+       "y": "Saves design time."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-40-frames",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In DTP, what holds text that can be moved anywhere on the page?",
+       "r": "a text frame (text box)",
+       "w": [
+        "a cell",
+        "a slide",
+        "a browser tab"
+       ],
+       "e": [
+        "Cells are in spreadsheets.",
+        "Slides are in presentations.",
+        "Tabs are in browsers."
+       ],
+       "y": "Frames are placed freely."
+      },
+      {
+       "q": "How many fonts should a poster usually use?",
+       "r": "two or three",
+       "w": [
+        "ten or more",
+        "a different font for every word",
+        "none"
+       ],
+       "e": [
+        "Too many look messy.",
+        "That is hard to read.",
+        "Text needs a font."
+       ],
+       "y": "Keep it simple."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-40-poster",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which information is missing from this poster: “Football match! Saturday 3 p.m. Contact 6xx xx xx xx”?",
+       "r": "where the match takes place",
+       "w": [
+        "what the event is",
+        "when it is",
+        "a contact"
+       ],
+       "e": [
+        "It says football match.",
+        "It says Saturday 3 p.m.",
+        "It gives a contact."
+       ],
+       "y": "Where? is missing."
+      },
+      {
+       "q": "What should you do before printing a newsletter?",
+       "r": "proofread it",
+       "w": [
+        "delete it",
+        "change all the fonts",
+        "send it unchecked"
+       ],
+       "e": [
+        "That loses it.",
+        "That is not needed.",
+        "Mistakes would be printed."
+       ],
+       "y": "Check for errors."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-40-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "office-software"
+   ],
+   "prompt": "Which advice is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Choose the right page size.",
+      "truth": "true"
+     },
+     {
+      "text": "Use a large heading.",
+      "truth": "true"
+     },
+     {
+      "text": "Proofread before printing.",
+      "truth": "true"
+     },
+     {
+      "text": "Give contact details.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Use ten different fonts to make the poster lively.",
+      "truth": "false",
+      "explain": "Use two or three fonts."
+     },
+     {
+      "text": "A poster does not need to say where the event is.",
+      "truth": "false",
+      "explain": "Where? is essential."
+     },
+     {
+      "text": "Print first and check spelling later.",
+      "truth": "false",
+      "explain": "Proofread before printing."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

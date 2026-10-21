@@ -1,0 +1,380 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-26",
+   "name": "Block programming 1: sequences and loops"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Block programming (for example Scratch) builds programs by snapping together coloured blocks instead of typing code.\nKey ideas:\n• An event block starts the program (“when green flag clicked”).\n• A sequence is a list of instructions done one after another, in order.\n• A sprite is a character that the blocks control; the stage is its background.\n• Motion blocks move the sprite (“move 10 steps”, “turn 90 degrees”); looks blocks change its look (“say Hello”).\n• A loop repeats blocks: “repeat 4” repeats a fixed number of times; “forever” repeats without end.\n• A variable stores a value that can change (“set score to 0”, “change score by 1”).\nExample: repeat 4 [move 100 steps, turn 90 degrees] draws a square.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "b": 3,
+   "n": 4
+  },
+  "problem": "A program does: set x to {a}; repeat {n} times: change x by {b}. What is x at the end?",
+  "steps": [
+   "Each time round the loop, x increases by {b}.",
+   "After {n} times: {a} + {b} × {n} = {traceAdd(a, b, n)}."
+  ],
+  "answer": "{traceAdd(a, b, n)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "Block programs are made by snapping blocks together; an event block starts them.",
+    "vars": {},
+    "example": [
+     "When green flag clicked.",
+     "Scratch is a block language."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-26-blocks"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "A loop repeats blocks: repeat a fixed number of times, or forever.",
+    "vars": {},
+    "example": [
+     "Repeat {4}: move and turn draws a square.",
+     "Forever keeps going."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-26-loop-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "block-programming"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        0,
+        10
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "n": {
+       "int": [
+        2,
+        6
+       ]
+      }
+     },
+     "prompt": "A program does: set x to {a}; repeat {n} times: change x by {b}. What is x at the end?",
+     "answer": "traceAdd(a, b, n)",
+     "misconceptions": [
+      {
+       "id": "once",
+       "wrong": "a + b",
+       "explain": "The loop runs {n} times, not once."
+      },
+      {
+       "id": "noStart",
+       "wrong": "b * n",
+       "explain": "Start from {a}."
+      }
+     ],
+     "solution": [
+      "Each time round the loop, x increases by {b}.",
+      "{a} + {b} × {n} = {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "A variable stores a value that can change.",
+    "vars": {},
+    "example": [
+     "Set score to {0}.",
+     "Change score by {1}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-26-var"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-26-blocks",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "block-programming"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is block programming?",
+       "r": "building programs by joining blocks",
+       "w": [
+        "typing long code only",
+        "building with wooden blocks",
+        "drawing pictures by hand"
+       ],
+       "e": [
+        "Blocks replace typing.",
+        "They are on-screen blocks.",
+        "It is programming."
+       ],
+       "y": "Scratch is an example."
+      },
+      {
+       "q": "Which block usually starts a Scratch program?",
+       "r": "when green flag clicked",
+       "w": [
+        "move 10 steps",
+        "turn 15 degrees",
+        "say Hello"
+       ],
+       "e": [
+        "That is a motion block.",
+        "That is a motion block.",
+        "That is a looks block."
+       ],
+       "y": "An event block starts the script."
+      },
+      {
+       "q": "What is a sprite?",
+       "r": "a character controlled by the blocks",
+       "w": [
+        "a type of loop",
+        "the computer's power cable",
+        "a variable"
+       ],
+       "e": [
+        "A loop repeats.",
+        "That is hardware.",
+        "A variable stores values."
+       ],
+       "y": "Sprites move and talk on the stage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-26-loop",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "block-programming"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      0,
+      10
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "A program does: set x to {a}; repeat {n} times: change x by {b}. What is x at the end?",
+   "answer": "traceAdd(a, b, n)",
+   "misconceptions": [
+    {
+     "id": "once",
+     "wrong": "a + b",
+     "explain": "The loop runs {n} times, not once."
+    },
+    {
+     "id": "noStart",
+     "wrong": "b * n",
+     "explain": "Start from {a}."
+    }
+   ],
+   "solution": [
+    "Each time round the loop, x increases by {b}.",
+    "{a} + {b} × {n} = {answer}."
+   ]
+  },
+  {
+   "id": "s2-26-var",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "block-programming"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a variable in a program?",
+       "r": "a named store for a value that can change",
+       "w": [
+        "a block that moves the sprite",
+        "the stage background",
+        "a loop"
+       ],
+       "e": [
+        "That is a motion block.",
+        "That is the stage.",
+        "A loop repeats."
+       ],
+       "y": "Like a labelled box."
+      },
+      {
+       "q": "Which loop runs without end?",
+       "r": "forever",
+       "w": [
+        "repeat 10",
+        "repeat 1",
+        "when green flag clicked"
+       ],
+       "e": [
+        "It stops after 10.",
+        "It stops after 1.",
+        "That is an event."
+       ],
+       "y": "Forever never stops."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-26-square",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "block-programming"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+     ]
+    }
+   },
+   "prompt": "To draw a regular shape with {n} sides, the program repeats “move 100 steps, turn ___ degrees” {n} times. What angle goes in the blank?",
+   "answer": "360 / n",
+   "misconceptions": [
+    {
+     "id": "interior",
+     "wrong": "180 - 360 / n",
+     "explain": "The turn is the exterior angle: {360} ÷ the number of sides."
+    }
+   ],
+   "solution": [
+    "The sprite turns a full {360}° in all.",
+    "{360} ÷ {n} = {answer} degrees."
+   ],
+   "unit": "degrees"
+  }
+ ]
+}

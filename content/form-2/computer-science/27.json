@@ -1,0 +1,432 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "s2-27",
+   "name": "Block programming 2: conditions and operators"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Programs make decisions with conditions.\n• “if <condition> then …” runs blocks only when the condition is true.\n• “if <condition> then … else …” chooses between two sets of blocks.\n• Conditions use comparison operators: = (equal), > (greater than), < (less than); and logic operators: and, or, not.\n• Sensing blocks test things: “touching edge?”, “key space pressed?”, “answer” from “ask … and wait”.\n• Operator blocks do arithmetic: +, −, ×, ÷, and “pick random 1 to 10”.\nExample: ask “How old are you?” and wait; if answer > 12 then say “Secondary school” else say “Primary school”.\nDebugging is finding and fixing errors (bugs) in a program; test it with different inputs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": 15,
+   "l": 10
+  },
+  "problem": "A program does: if x > {l} then say “big” else say “small”. What does it say when x = {x}?",
+  "steps": [
+   "Test the condition: is {x} > {l}?",
+   "Yes, it is true, so the “then” part runs."
+  ],
+  "answer": "{traceIf(x, l, 'big', 'small')}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "“If … then … else” runs one set of blocks when a condition is true and another when it is false.",
+    "vars": {},
+    "example": [
+     "If score > {10} then say “You win”.",
+     "Else say “Try again”."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-27-if"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "Conditions use =, >, < and the logic words and, or, not.",
+    "vars": {},
+    "example": [
+     "{5} > {3} is true.",
+     "{2} = {7} is false."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-27-op"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "Debugging is finding and fixing errors; test with different inputs.",
+    "vars": {},
+    "example": [
+     "Try a small and a large number.",
+     "Check each block in order."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-27-debug-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "block-programming"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is debugging?",
+         "r": "finding and fixing errors in a program",
+         "w": [
+          "killing insects in the computer",
+          "deleting the program",
+          "drawing a sprite"
+         ],
+         "e": [
+          "A bug is an error, not an insect.",
+          "That does not fix it.",
+          "That is not debugging."
+         ],
+         "y": "Bugs are errors."
+        },
+        {
+         "q": "A game should say “You win” when the score is 10 or more, but it never does. Which condition was probably used?",
+         "r": "score > 10",
+         "w": [
+          "score ≥ 10",
+          "score = 10 or score > 10",
+          "score > 9"
+         ],
+         "e": [
+          "That is correct.",
+          "That is correct.",
+          "That is correct for whole numbers."
+         ],
+         "y": "With > 10, a score of exactly 10 fails."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-27-if",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "block-programming"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "l": {
+     "int": [
+      5,
+      15
+     ]
+    }
+   },
+   "prompt": "A program does: if x > {l} then say “yes” else say “no”. What does it say when x = {x}?",
+   "correct": "{traceIf(x, l, 'yes', 'no')}",
+   "distractors": [
+    {
+     "text": "{traceIf(x, l, 'no', 'yes')}",
+     "misconception": "swap"
+    },
+    {
+     "text": "nothing",
+     "misconception": "nothing"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Check the condition again: is x greater than {l}?"
+    },
+    {
+     "id": "nothing",
+     "explain": "With else, one of the two always runs."
+    }
+   ],
+   "solution": [
+    "Test the condition: is {x} > {l}?",
+    "So it says “{answer}”."
+   ],
+   "where": "x != l",
+   "min_distractors": 2
+  },
+  {
+   "id": "s2-27-op",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "block-programming"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which operator means “greater than”?",
+       "r": ">",
+       "w": [
+        "<",
+        "=",
+        "+"
+       ],
+       "e": [
+        "< means less than.",
+        "= means equal.",
+        "+ adds."
+       ],
+       "y": "> points to the smaller number."
+      },
+      {
+       "q": "Is the condition (8 < 3) true or false?",
+       "r": "false",
+       "w": [
+        "true",
+        "both",
+        "it cannot be tested"
+       ],
+       "e": [
+        "8 is not less than 3.",
+        "A condition is one or the other.",
+        "It can be tested."
+       ],
+       "y": "8 is greater than 3."
+      },
+      {
+       "q": "The condition (age > 12) and (age < 20) is true when age is…",
+       "r": "15",
+       "w": [
+        "10",
+        "25",
+        "12"
+       ],
+       "e": [
+        "10 is not greater than 12.",
+        "25 is not less than 20.",
+        "12 is not greater than 12."
+       ],
+       "y": "Both parts must be true."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-27-debug",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "block-programming"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is debugging?",
+       "r": "finding and fixing errors in a program",
+       "w": [
+        "killing insects in the computer",
+        "deleting the program",
+        "drawing a sprite"
+       ],
+       "e": [
+        "A bug is an error, not an insect.",
+        "That does not fix it.",
+        "That is not debugging."
+       ],
+       "y": "Bugs are errors."
+      },
+      {
+       "q": "A game should say “You win” when the score is 10 or more, but it never does. Which condition was probably used?",
+       "r": "score > 10",
+       "w": [
+        "score ≥ 10",
+        "score = 10 or score > 10",
+        "score > 9"
+       ],
+       "e": [
+        "That is correct.",
+        "That is correct.",
+        "That is correct for whole numbers."
+       ],
+       "y": "With > 10, a score of exactly 10 fails."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-27-random",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "block-programming"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "l": {
+     "int": [
+      5,
+      15
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "A program does: set n to {a}; if n > {l} then change n by {b} else change n by −{c}. What is n at the end?",
+   "answer": "a > l ? a + b : a - c",
+   "misconceptions": [
+    {
+     "id": "other",
+     "wrong": "a > l ? a - c : a + b",
+     "explain": "You did the wrong branch: check the condition again."
+    }
+   ],
+   "solution": [
+    "Test the condition: is {a} > {l}?",
+    "Do the matching branch: n = {answer}."
+   ],
+   "where": "a != l",
+   "signed": true
+  }
+ ]
+}
