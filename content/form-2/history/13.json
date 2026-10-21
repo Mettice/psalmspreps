@@ -1,0 +1,461 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "y2-13",
+   "name": "The kingdom of Kongo"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The kingdom of Kongo lay south of the Congo River mouth (today's Angola, DR Congo and Republic of Congo).\nFounding: about the late 14th century by Lukeni lua Nimi. The king was the Manikongo, with his capital at Mbanza Kongo. Provinces were ruled by governors who paid tribute.\nEconomy: farming, weaving raffia cloth, iron and copper working, trade; nzimbu shells were used as money.\nContact with Portugal: Diogo Cão arrived in 1483. King Nzinga a Nkuwu was baptised as João I in 1491. His son Afonso I (Nzinga Mbemba, ruled 1506–1543) became a Christian, built churches and schools, and wrote letters to the king of Portugal complaining about the slave trade.\nDecline: the slave trade weakened the kingdom; wars and quarrels over succession; the Portuguese defeated Kongo at the battle of Mbwila in 1665.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1483,
+   "b": 1665
+  },
+  "problem": "How long after the arrival of Diogo Cão ({a}) was the battle of Mbwila ({b})?",
+  "steps": [
+   "Both years are AD, so subtract.",
+   "{b} − {a} = {b - a} years."
+  ],
+  "answer": "{b - a} years",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "Kongo was ruled by the Manikongo from Mbanza Kongo.",
+    "vars": {},
+    "example": [
+     "Founded by Lukeni lua Nimi.",
+     "Governors ruled the provinces."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-13-rule"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "The Portuguese arrived in {1483}; King Afonso I became a Christian and built churches and schools.",
+    "vars": {},
+    "example": [
+     "Diogo Cão led the Portuguese.",
+     "Afonso wrote to the king of Portugal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-13-port"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "The slave trade, civil wars and the defeat at Mbwila caused Kongo's decline.",
+    "vars": {},
+    "example": [
+     "Mbwila was in {1665}.",
+     "Many people were taken as slaves."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-13-fall-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-states"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why did Afonso I write to the king of Portugal?",
+         "r": "to complain about the slave trade",
+         "w": [
+          "to ask for more slaves",
+          "to invite him to Mali",
+          "to sell oil"
+         ],
+         "e": [
+          "He wanted it limited.",
+          "Mali was far away.",
+          "That is not true."
+         ],
+         "y": "Slave traders were taking his people."
+        },
+        {
+         "q": "Which was a cause of Kongo's decline?",
+         "r": "the slave trade",
+         "w": [
+          "the gold of Mansa Musa",
+          "the Crusades",
+          "the harmattan"
+         ],
+         "e": [
+          "That was in Mali.",
+          "That was in Europe and the Middle East.",
+          "That is a wind."
+         ],
+         "y": "The slave trade weakened Kongo."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-13-rule",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What was the title of the king of Kongo?",
+       "r": "Manikongo",
+       "w": [
+        "Mansa",
+        "Mai",
+        "Kabaka"
+       ],
+       "e": [
+        "Mansa was Mali's title.",
+        "Mai was Kanem-Bornu's title.",
+        "The Kabaka ruled Buganda."
+       ],
+       "y": "The Manikongo."
+      },
+      {
+       "q": "What was the capital of Kongo?",
+       "r": "Mbanza Kongo",
+       "w": [
+        "Ngazargamu",
+        "Niani",
+        "Kilwa"
+       ],
+       "e": [
+        "That was Bornu's capital.",
+        "That was Mali's capital.",
+        "That was an East African city."
+       ],
+       "y": "Mbanza Kongo, later called São Salvador."
+      },
+      {
+       "q": "What was used as money in Kongo?",
+       "r": "nzimbu shells",
+       "w": [
+        "gold coins from Mali",
+        "paper notes",
+        "cowries from Lake Chad only"
+       ],
+       "e": [
+        "Kongo used shells.",
+        "Paper money came much later.",
+        "Kongo's shells were nzimbu from its coast."
+       ],
+       "y": "Nzimbu shells were collected on the coast."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-13-port",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which Portuguese explorer reached Kongo in 1483?",
+       "r": "Diogo Cão",
+       "w": [
+        "Vasco da Gama",
+        "Fernando Pó",
+        "Christopher Columbus"
+       ],
+       "e": [
+        "Da Gama reached East Africa and India.",
+        "Fernando Pó reached the Cameroon coast.",
+        "Columbus sailed to America."
+       ],
+       "y": "Diogo Cão."
+      },
+      {
+       "q": "Which king of Kongo became a Christian and built churches and schools?",
+       "r": "Afonso I",
+       "w": [
+        "Sundiata",
+        "Idris Alooma",
+        "Mansa Musa"
+       ],
+       "e": [
+        "Sundiata founded Mali.",
+        "Idris Alooma was a Muslim ruler of Bornu.",
+        "Mansa Musa was a Muslim ruler of Mali."
+       ],
+       "y": "Afonso I (Nzinga Mbemba)."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-13-fall",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why did Afonso I write to the king of Portugal?",
+       "r": "to complain about the slave trade",
+       "w": [
+        "to ask for more slaves",
+        "to invite him to Mali",
+        "to sell oil"
+       ],
+       "e": [
+        "He wanted it limited.",
+        "Mali was far away.",
+        "That is not true."
+       ],
+       "y": "Slave traders were taking his people."
+      },
+      {
+       "q": "Which was a cause of Kongo's decline?",
+       "r": "the slave trade",
+       "w": [
+        "the gold of Mansa Musa",
+        "the Crusades",
+        "the harmattan"
+       ],
+       "e": [
+        "That was in Mali.",
+        "That was in Europe and the Middle East.",
+        "That is a wind."
+       ],
+       "y": "The slave trade weakened Kongo."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Manikongo ruled Kongo.",
+      "truth": "true"
+     },
+     {
+      "text": "Diogo Cão reached Kongo in 1483.",
+      "truth": "true"
+     },
+     {
+      "text": "Afonso I became a Christian.",
+      "truth": "true"
+     },
+     {
+      "text": "Nzimbu shells were used as money.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Kongo was in the Sahara desert.",
+      "truth": "false",
+      "explain": "Kongo was south of the Congo River mouth."
+     },
+     {
+      "text": "The slave trade made Kongo stronger.",
+      "truth": "false",
+      "explain": "It weakened Kongo."
+     },
+     {
+      "text": "Kongo defeated Portugal at Mbwila in 1665.",
+      "truth": "false",
+      "explain": "Portugal defeated Kongo at Mbwila."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

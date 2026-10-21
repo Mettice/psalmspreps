@@ -1,0 +1,475 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "g2-14",
+   "name": "Further study 3: products gathered from the wild"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Non-timber forest products (NTFPs) are useful products collected from wild plants, without cutting the tree.\nExamples in Cameroon:\n• eru (okok): leaves of a forest vine, eaten as a vegetable (South West, Centre);\n• njangsa: seeds used as a spice;\n• bush mango (ndo'o, andok): seeds used to thicken soups;\n• bitter cola and kola nuts: chewed, used in ceremonies and medicine;\n• Pygeum (Prunus africana) bark: exported for medicine;\n• honey, mushrooms, rattan (for furniture), raffia, Gnetum, shea nuts and gum arabic in the North.\nMethods of collection: picking fallen fruits and nuts, cutting leaves, stripping bark (only part of it), tapping, collecting honey.\nImportance: food and medicine, income for rural families (especially women), trade and export, jobs.\nProblems: over-harvesting (uprooting eru, stripping all the bark kills the tree). Solutions: harvest sustainably and domesticate the plants (grow eru on farms).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "bush mango"
+  },
+  "problem": "How is {p} collected, and why is it important?",
+  "steps": [
+   "The ripe fruits fall; the seeds are removed, dried and sold.",
+   "The seeds thicken soups, and their sale brings income to rural families."
+  ],
+  "answer": "Collected from fallen fruits; it gives food and income.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "Products gathered from the wild are collected from wild plants without cutting the tree.",
+    "vars": {},
+    "example": [
+     "Eru, njangsa, bush mango, bitter cola.",
+     "Honey and mushrooms too."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-14-what"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "They are collected by picking fallen fruits, cutting leaves, stripping some bark or collecting honey.",
+    "vars": {},
+    "example": [
+     "Bush mango seeds from fallen fruits.",
+     "Eru leaves are cut from the vine."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-14-how"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "They give food, medicine and income; over-harvesting must be avoided.",
+    "vars": {},
+    "example": [
+     "Uprooting eru kills it.",
+     "Eru can be grown on farms."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-14-imp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "biological-resources"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is an economic importance of wild products?",
+         "r": "They give income to rural families.",
+         "w": [
+          "They cause floods.",
+          "They destroy the forest.",
+          "They have no value."
+         ],
+         "e": [
+          "That is not true.",
+          "Careful harvesting keeps the forest.",
+          "They have great value."
+         ],
+         "y": "Selling them brings money."
+        },
+        {
+         "q": "How can eru be protected from over-harvesting?",
+         "r": "by growing it on farms (domestication)",
+         "w": [
+          "by uprooting it",
+          "by burning the forest",
+          "by selling more"
+         ],
+         "e": [
+          "That kills it.",
+          "That destroys it.",
+          "That increases pressure."
+         ],
+         "y": "Farmers can grow it."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-14-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biological-resources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The leaves of a forest vine, eaten as a vegetable with waterleaf.",
+       "r": "eru (okok)",
+       "w": [
+        "njangsa",
+        "bitter cola",
+        "rattan"
+       ],
+       "e": [
+        "Njangsa is a seed spice.",
+        "Bitter cola is a nut.",
+        "Rattan is used for furniture."
+       ],
+       "y": "Eru is a popular vegetable."
+      },
+      {
+       "q": "Seeds used as a spice in soups and pepper soup.",
+       "r": "njangsa",
+       "w": [
+        "eru",
+        "rattan",
+        "raffia"
+       ],
+       "e": [
+        "Eru is a leaf.",
+        "Rattan is a cane.",
+        "Raffia is a palm."
+       ],
+       "y": "Njangsa seeds are a spice."
+      },
+      {
+       "q": "A bark exported for making medicine.",
+       "r": "Pygeum (Prunus africana)",
+       "w": [
+        "eru",
+        "bush mango",
+        "honey"
+       ],
+       "e": [
+        "Eru is a leaf.",
+        "Bush mango is a seed.",
+        "Honey is made by bees."
+       ],
+       "y": "Pygeum bark treats prostate illness."
+      },
+      {
+       "q": "Canes used for making chairs and baskets.",
+       "r": "rattan",
+       "w": [
+        "njangsa",
+        "eru",
+        "bitter cola"
+       ],
+       "e": [
+        "Njangsa is a spice.",
+        "Eru is a vegetable.",
+        "Bitter cola is a nut."
+       ],
+       "y": "Rattan is a climbing palm."
+      }
+     ]
+    }
+   },
+   "prompt": "Which product is described? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-14-how",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biological-resources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How are bush mango seeds usually collected?",
+       "r": "from fallen ripe fruits",
+       "w": [
+        "by cutting the whole tree",
+        "by burning the forest",
+        "by digging the roots"
+       ],
+       "e": [
+        "The tree is not cut.",
+        "Burning destroys the forest.",
+        "The seeds are in the fruit."
+       ],
+       "y": "Fallen fruits are gathered."
+      },
+      {
+       "q": "Why should only part of the Pygeum bark be stripped?",
+       "r": "Stripping all of it kills the tree.",
+       "w": [
+        "The bark grows faster that way.",
+        "It is lighter to carry.",
+        "The law requires all of it."
+       ],
+       "e": [
+        "That is not the reason.",
+        "That is not the reason.",
+        "The rule is to take only part."
+       ],
+       "y": "Sustainable harvesting keeps the tree alive."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-14-imp",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "biological-resources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an economic importance of wild products?",
+       "r": "They give income to rural families.",
+       "w": [
+        "They cause floods.",
+        "They destroy the forest.",
+        "They have no value."
+       ],
+       "e": [
+        "That is not true.",
+        "Careful harvesting keeps the forest.",
+        "They have great value."
+       ],
+       "y": "Selling them brings money."
+      },
+      {
+       "q": "How can eru be protected from over-harvesting?",
+       "r": "by growing it on farms (domestication)",
+       "w": [
+        "by uprooting it",
+        "by burning the forest",
+        "by selling more"
+       ],
+       "e": [
+        "That kills it.",
+        "That destroys it.",
+        "That increases pressure."
+       ],
+       "y": "Farmers can grow it."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "biological-resources"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Eru is a forest vegetable.",
+      "truth": "true"
+     },
+     {
+      "text": "Njangsa is used as a spice.",
+      "truth": "true"
+     },
+     {
+      "text": "Honey is a wild product.",
+      "truth": "true"
+     },
+     {
+      "text": "Wild products give income to women.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Uprooting eru is the best way to harvest it.",
+      "truth": "false",
+      "explain": "Uprooting kills the plant."
+     },
+     {
+      "text": "Wild products are collected by cutting down the trees.",
+      "truth": "false",
+      "explain": "They are collected without cutting the tree."
+     },
+     {
+      "text": "Pygeum bark is eaten as a vegetable.",
+      "truth": "false",
+      "explain": "It is used for medicine."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

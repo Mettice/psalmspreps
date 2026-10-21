@@ -1,0 +1,445 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "y2-18",
+   "name": "Contacts of West Africa and the Sudan with the Arabs and Europeans"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "With the Arabs (from about the 8th century): Arab and Berber merchants crossed the Sahara in camel caravans (the trans-Saharan trade).\n• From the south: gold, slaves, ivory, kola nuts, leather.\n• From the north: salt, cloth, horses, copper, books, glass.\nResults: towns grew (Timbuktu, Gao, Djenné, Kano); Islam spread; Arabic writing and learning came (Timbuktu's scholars); rulers became rich.\nWith the Europeans (from the 15th century): Portuguese sailors, encouraged by Prince Henry the Navigator, explored the coast. They built Elmina castle in today's Ghana in 1482. They traded guns, cloth, alcohol and mirrors for gold, pepper, ivory and later slaves.\nResults: the Atlantic slave trade, new crops (maize, cassava, groundnuts from America), Christianity, coastal trading towns, and the decline of the trans-Saharan trade.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "the trans-Saharan trade"
+  },
+  "problem": "Give two results of {t} for West Africa.",
+  "steps": [
+   "Trading towns like Timbuktu and Gao grew rich.",
+   "Islam and Arabic learning spread with the merchants."
+  ],
+  "answer": "The growth of towns and the spread of Islam.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "Arab and Berber merchants crossed the Sahara in camel caravans, trading salt for gold.",
+    "vars": {},
+    "example": [
+     "Gold, slaves and ivory went north.",
+     "Salt, cloth and horses came south."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-18-trade"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "The Arab contact spread Islam, Arabic writing and learning, and made towns grow.",
+    "vars": {},
+    "example": [
+     "Timbuktu's scholars.",
+     "Mosques in Djenné."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-18-arab"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "The Portuguese came by sea in the {15}th century; they built Elmina and started the Atlantic trade.",
+    "vars": {},
+    "example": [
+     "Elmina was built in {1482}.",
+     "Maize and cassava came from America."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-18-euro-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "external-contacts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which Portuguese prince encouraged voyages along the African coast?",
+         "r": "Henry the Navigator",
+         "w": [
+          "Afonso I",
+          "Charlemagne",
+          "Mansa Musa"
+         ],
+         "e": [
+          "Afonso I was king of Kongo.",
+          "Charlemagne was a Frankish emperor.",
+          "Mansa Musa ruled Mali."
+         ],
+         "y": "Prince Henry of Portugal."
+        },
+        {
+         "q": "Which crops came to West Africa from America after European contact?",
+         "r": "maize, cassava and groundnuts",
+         "w": [
+          "millet and sorghum",
+          "yams and kola",
+          "oil palm and raffia"
+         ],
+         "e": [
+          "These are African crops.",
+          "These are African crops.",
+          "These are African plants."
+         ],
+         "y": "The Portuguese brought them."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-18-trade",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which animal made the trans-Saharan trade possible?",
+       "r": "the camel",
+       "w": [
+        "the horse alone",
+        "the elephant",
+        "the donkey of the forest"
+       ],
+       "e": [
+        "Horses need too much water.",
+        "Elephants were not used.",
+        "Camels cross the desert."
+       ],
+       "y": "Camels go days without water."
+      },
+      {
+       "q": "What did West Africa mainly receive from North Africa?",
+       "r": "salt",
+       "w": [
+        "gold",
+        "kola nuts",
+        "ivory"
+       ],
+       "e": [
+        "Gold went north.",
+        "Kola went north.",
+        "Ivory went north."
+       ],
+       "y": "Salt was precious in the south."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-18-arab",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which religion spread in West Africa through the trans-Saharan trade?",
+       "r": "Islam",
+       "w": [
+        "Christianity",
+        "Buddhism",
+        "Hinduism"
+       ],
+       "e": [
+        "Christianity came later by sea.",
+        "Not in West Africa then.",
+        "Not in West Africa then."
+       ],
+       "y": "Muslim merchants brought Islam."
+      },
+      {
+       "q": "Which town became famous for Islamic scholars?",
+       "r": "Timbuktu",
+       "w": [
+        "Elmina",
+        "Mbanza Kongo",
+        "Sofala"
+       ],
+       "e": [
+        "Elmina was a Portuguese castle.",
+        "That was Kongo's capital.",
+        "That was an East African port."
+       ],
+       "y": "Timbuktu's Sankore university."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-18-euro",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which Portuguese prince encouraged voyages along the African coast?",
+       "r": "Henry the Navigator",
+       "w": [
+        "Afonso I",
+        "Charlemagne",
+        "Mansa Musa"
+       ],
+       "e": [
+        "Afonso I was king of Kongo.",
+        "Charlemagne was a Frankish emperor.",
+        "Mansa Musa ruled Mali."
+       ],
+       "y": "Prince Henry of Portugal."
+      },
+      {
+       "q": "Which crops came to West Africa from America after European contact?",
+       "r": "maize, cassava and groundnuts",
+       "w": [
+        "millet and sorghum",
+        "yams and kola",
+        "oil palm and raffia"
+       ],
+       "e": [
+        "These are African crops.",
+        "These are African crops.",
+        "These are African plants."
+       ],
+       "y": "The Portuguese brought them."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Salt was traded for gold.",
+      "truth": "true"
+     },
+     {
+      "text": "Islam spread with the merchants.",
+      "truth": "true"
+     },
+     {
+      "text": "The Portuguese built Elmina castle.",
+      "truth": "true"
+     },
+     {
+      "text": "Cassava came from America.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Europeans crossed the Sahara by camel to reach West Africa.",
+      "truth": "false",
+      "explain": "They came by sea along the coast."
+     },
+     {
+      "text": "The Atlantic trade made the trans-Saharan trade grow.",
+      "truth": "false",
+      "explain": "It caused its decline."
+     },
+     {
+      "text": "Timbuktu was a Portuguese castle.",
+      "truth": "false",
+      "explain": "It was a city of learning in Mali."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

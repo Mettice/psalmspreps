@@ -1,0 +1,458 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g2-18",
+   "name": "Countrysides in Africa: agricultural landscapes and rural settlements"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The countryside (rural area) is the land outside towns, where most people farm.\nAgricultural landscapes:\n• forest zone: small food-crop farms in clearings (shifting cultivation, bush fallowing) and plantations of cocoa, coffee, oil palm, rubber and bananas (the CDC around Mount Cameroon);\n• highlands: terraced or ridged fields, mixed farming with cattle (bocage hedges in the West);\n• savanna: large open fields of millet, sorghum, cotton and groundnuts, and grazing land.\nRural settlements:\n• dispersed (scattered): houses far apart on each farm, as in the Western Highlands;\n• nucleated (clustered): houses grouped together, for defence or around water;\n• linear: houses along a road, river or railway, as in the South and East.\nBuilding materials vary: mud bricks, thatch, wood, bamboo, zinc roofs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "houses built in a line along a road"
+  },
+  "problem": "What type of rural settlement has {s}, and why?",
+  "steps": [
+   "The houses follow the road, one after another.",
+   "People live near the road for transport and trade."
+  ],
+  "answer": "A linear settlement.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "The countryside is the rural area outside towns, where most people farm.",
+    "vars": {},
+    "example": [
+     "Villages and farms.",
+     "Most rural people are farmers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-18-what"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "Landscapes differ: forest clearings and plantations, highland mixed farms, savanna open fields.",
+    "vars": {},
+    "example": [
+     "Cocoa farms in the Centre.",
+     "Millet fields in the North."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-18-land-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "rural-africa"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which farming landscape is typical of the forest zone?",
+         "r": "small farms in clearings and cocoa plantations",
+         "w": [
+          "large open millet fields",
+          "terraced tea only",
+          "camel herding"
+         ],
+         "e": [
+          "Those are in the savanna.",
+          "Tea is in the highlands.",
+          "Camels are in the desert."
+         ],
+         "y": "Forest clearings and plantations."
+        },
+        {
+         "q": "Why are houses often clustered in some savanna villages?",
+         "r": "for defence and to share water sources",
+         "w": [
+          "because the land is flooded everywhere",
+          "because there are no people",
+          "because roads are everywhere"
+         ],
+         "e": [
+          "That is not the usual reason.",
+          "There are people.",
+          "That is not the reason."
+         ],
+         "y": "Grouping gives safety and shared water."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "Settlements are dispersed (scattered), nucleated (clustered) or linear (along a road or river).",
+    "vars": {},
+    "example": [
+     "Scattered compounds in the West.",
+     "A line of houses along a road in the East."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-18-set"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-18-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "rural-africa"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the countryside?",
+       "r": "the rural area outside towns",
+       "w": [
+        "the centre of a city",
+        "a big market in town",
+        "a factory area"
+       ],
+       "e": [
+        "That is urban.",
+        "That is in a town.",
+        "That is industrial."
+       ],
+       "y": "Rural areas are outside towns."
+      },
+      {
+       "q": "What is the main activity of most people in the countryside?",
+       "r": "farming",
+       "w": [
+        "banking",
+        "working in factories",
+        "flying aeroplanes"
+       ],
+       "e": [
+        "Banks are in towns.",
+        "Factories are mainly in towns.",
+        "That is rare."
+       ],
+       "y": "Most rural people farm."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-18-set",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "rural-africa"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Houses are far apart, each on its own farm.",
+       "r": "dispersed (scattered)",
+       "w": [
+        "nucleated",
+        "linear",
+        "urban"
+       ],
+       "e": [
+        "Nucleated houses are grouped.",
+        "Linear houses follow a line.",
+        "Urban is a town."
+       ],
+       "y": "Scattered houses."
+      },
+      {
+       "q": "Houses are grouped closely around a well.",
+       "r": "nucleated (clustered)",
+       "w": [
+        "dispersed",
+        "linear",
+        "isolated"
+       ],
+       "e": [
+        "Dispersed houses are far apart.",
+        "Linear follows a road.",
+        "Isolated is one house."
+       ],
+       "y": "Clustered houses."
+      },
+      {
+       "q": "Houses follow a road for many kilometres.",
+       "r": "linear",
+       "w": [
+        "nucleated",
+        "dispersed",
+        "circular"
+       ],
+       "e": [
+        "Nucleated is a cluster.",
+        "Dispersed is scattered.",
+        "They follow a line."
+       ],
+       "y": "Along a road, river or railway."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of settlement is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-18-land",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "rural-africa"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which farming landscape is typical of the forest zone?",
+       "r": "small farms in clearings and cocoa plantations",
+       "w": [
+        "large open millet fields",
+        "terraced tea only",
+        "camel herding"
+       ],
+       "e": [
+        "Those are in the savanna.",
+        "Tea is in the highlands.",
+        "Camels are in the desert."
+       ],
+       "y": "Forest clearings and plantations."
+      },
+      {
+       "q": "Why are houses often clustered in some savanna villages?",
+       "r": "for defence and to share water sources",
+       "w": [
+        "because the land is flooded everywhere",
+        "because there are no people",
+        "because roads are everywhere"
+       ],
+       "e": [
+        "That is not the usual reason.",
+        "There are people.",
+        "That is not the reason."
+       ],
+       "y": "Grouping gives safety and shared water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "rural-africa"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Linear settlements follow roads or rivers.",
+      "truth": "true"
+     },
+     {
+      "text": "Dispersed settlements have scattered houses.",
+      "truth": "true"
+     },
+     {
+      "text": "Plantations grow cocoa and rubber.",
+      "truth": "true"
+     },
+     {
+      "text": "Savanna farms grow millet and cotton.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nucleated settlements have houses far apart.",
+      "truth": "false",
+      "explain": "Nucleated houses are grouped together."
+     },
+     {
+      "text": "The countryside is the centre of a big town.",
+      "truth": "false",
+      "explain": "It is the rural area outside towns."
+     },
+     {
+      "text": "Camel herding is common in the equatorial forest.",
+      "truth": "false",
+      "explain": "Camels are desert animals."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

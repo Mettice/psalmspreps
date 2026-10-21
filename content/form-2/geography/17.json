@@ -1,0 +1,486 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "g2-17",
+   "name": "Further study 4: water scarcity"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Water scarcity is a lack of enough clean water to meet people's needs for drinking, cooking, washing, farming and industry.\nCauses: low and irregular rainfall and drought (the Far North, the Sahel); drying of rivers and Lake Chad; rapid population growth; pollution of rivers; deforestation; poor water supply networks and broken pipes in towns; high cost of water.\nManifestations: long queues at taps and boreholes; women and children walk far to fetch water; dry wells; water rationing in towns such as Douala and Yaoundé; selling water in cans.\nConsequences: water-borne diseases (cholera, typhoid) from dirty water, crop failure and hunger, death of animals, conflicts, children missing school.\nSolutions: digging boreholes and wells, building dams and reservoirs, collecting rainwater from roofs, repairing pipes, protecting catchments by planting trees, saving water, treating water before drinking.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": 5,
+   "d": 4,
+   "p": 6
+  },
+  "problem": "A family of {p} people needs {f} litres each for drinking and cooking and {d} litres each for washing a day. How many litres do they need a day?",
+  "steps": [
+   "Each person needs {f} + {d} = {f + d} litres.",
+   "For {p} people: {p} × {f + d} = {p * (f + d)} litres."
+  ],
+  "answer": "{p * (f + d)} litres",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "Water scarcity is a lack of enough clean water for people's needs.",
+    "vars": {},
+    "example": [
+     "Drinking, cooking, washing, farming.",
+     "It is serious in the Far North."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-17-what"
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "Causes include drought, population growth, pollution and broken pipes.",
+    "vars": {},
+    "example": [
+     "Lake Chad has shrunk.",
+     "Towns ration water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-17-cause"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "Solutions: boreholes, dams, rainwater harvesting, repairing pipes and saving water.",
+    "vars": {},
+    "example": [
+     "Collect rain from the roof in tanks.",
+     "Boil or treat drinking water."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-17-sol-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hot-desert"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a solution to water scarcity?",
+         "r": "collecting rainwater from roofs in tanks",
+         "w": [
+          "polluting rivers",
+          "cutting trees near springs",
+          "leaving taps running"
+         ],
+         "e": [
+          "That makes it worse.",
+          "That dries up springs.",
+          "That wastes water."
+         ],
+         "y": "Rainwater harvesting stores water for the dry season."
+        },
+        {
+         "q": "Why should water from a stream be boiled or treated before drinking?",
+         "r": "to kill germs that cause cholera and typhoid",
+         "w": [
+          "to make it cold",
+          "to add salt",
+          "to make more water"
+         ],
+         "e": [
+          "Boiling makes it hot.",
+          "Treating does not add salt.",
+          "It does not increase it."
+         ],
+         "y": "Treated water is safe to drink."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-17-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hot-desert"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is water scarcity?",
+       "r": "a lack of enough clean water for people's needs",
+       "w": [
+        "too much rain",
+        "a flood",
+        "a type of fish"
+       ],
+       "e": [
+        "That is the opposite.",
+        "A flood is too much water.",
+        "That is not true."
+       ],
+       "y": "Not enough clean water."
+      },
+      {
+       "q": "Which disease spreads when people drink dirty water?",
+       "r": "cholera",
+       "w": [
+        "goitre",
+        "obesity",
+        "night blindness"
+       ],
+       "e": [
+        "Goitre is from lack of iodine.",
+        "Obesity is from overeating.",
+        "That is from lack of vitamin A."
+       ],
+       "y": "Cholera germs live in dirty water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-17-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hot-desert"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a cause of water scarcity in the Far North of Cameroon?",
+       "r": "low and irregular rainfall",
+       "w": [
+        "heavy rain all year",
+        "too many boreholes",
+        "thick forests"
+       ],
+       "e": [
+        "It is dry there.",
+        "Boreholes help.",
+        "There is savanna there."
+       ],
+       "y": "The Sahel climate is dry."
+      },
+      {
+       "q": "Why do some towns ration water even when there is rain?",
+       "r": "The supply network is too small and pipes are broken.",
+       "w": [
+        "People do not drink water.",
+        "Rain is not water.",
+        "Taps are not needed."
+       ],
+       "e": [
+        "Everyone needs water.",
+        "Rain is water.",
+        "Taps are needed."
+       ],
+       "y": "Supply cannot meet demand."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-17-calc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "hot-desert"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "u": {
+     "pick": [
+      10,
+      15,
+      20,
+      25
+     ]
+    }
+   },
+   "prompt": "A family of {p} people uses {u} litres each per day. How many litres does the family use in a week?",
+   "answer": "p * u * 7",
+   "misconceptions": [
+    {
+     "id": "day",
+     "wrong": "p * u",
+     "explain": "That is one day: multiply by {7} for a week."
+    }
+   ],
+   "solution": [
+    "Per day: {p} × {u} = {p * u} litres.",
+    "Per week: {p * u} × {7} = {answer} litres."
+   ],
+   "unit": "litres"
+  },
+  {
+   "id": "g2-17-sol",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hot-desert"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a solution to water scarcity?",
+       "r": "collecting rainwater from roofs in tanks",
+       "w": [
+        "polluting rivers",
+        "cutting trees near springs",
+        "leaving taps running"
+       ],
+       "e": [
+        "That makes it worse.",
+        "That dries up springs.",
+        "That wastes water."
+       ],
+       "y": "Rainwater harvesting stores water for the dry season."
+      },
+      {
+       "q": "Why should water from a stream be boiled or treated before drinking?",
+       "r": "to kill germs that cause cholera and typhoid",
+       "w": [
+        "to make it cold",
+        "to add salt",
+        "to make more water"
+       ],
+       "e": [
+        "Boiling makes it hot.",
+        "Treating does not add salt.",
+        "It does not increase it."
+       ],
+       "y": "Treated water is safe to drink."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hot-desert"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Rainwater can be collected from roofs.",
+      "truth": "true"
+     },
+     {
+      "text": "Boreholes give water in dry areas.",
+      "truth": "true"
+     },
+     {
+      "text": "Dirty water spreads cholera.",
+      "truth": "true"
+     },
+     {
+      "text": "Planting trees protects water sources.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Water scarcity is caused by too many trees.",
+      "truth": "false",
+      "explain": "Deforestation, not trees, worsens water scarcity."
+     },
+     {
+      "text": "Broken pipes help save water.",
+      "truth": "false",
+      "explain": "Broken pipes waste water."
+     },
+     {
+      "text": "Lake Chad is growing larger every year.",
+      "truth": "false",
+      "explain": "Lake Chad has shrunk a great deal."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

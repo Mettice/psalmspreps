@@ -1,0 +1,475 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "g2-12",
+   "name": "Man in the tropical zone: exploitation, problems and solutions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Methods of exploitation:\n• Nomadic and transhumant herding: the Fulani (Mbororo) move cattle to new pasture in the dry season.\n• Ranching: cattle on fenced pasture (SODEPA ranches in Adamawa).\n• Crop farming in the rainy season: millet, sorghum, groundnuts, maize; cash crops like cotton (SODECOTON).\n• Irrigated farming in the dry season: rice at Yagoua and Maga (SEMRY), onions.\n• Hunting, fishing (Lake Chad, Lagdo), tourism (Waza, Bénoué).\nProblems: drought and irregular rain, desertification, overgrazing, bush fires, soil erosion, conflicts between farmers and herders, tsetse flies, poor roads.\nSolutions: tree planting (the Green Sahel operation), irrigation and dams, controlled grazing, fighting bush fires, improved seeds, vaccinating animals, better roads.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "overgrazing"
+  },
+  "problem": "How does {p} damage the savanna, and what is one solution?",
+  "steps": [
+   "Too many animals eat the grass faster than it can grow.",
+   "The bare soil is eroded by wind and rain, leading to desertification."
+  ],
+  "answer": "It leaves the soil bare and eroded; a solution is controlled grazing (fewer animals, rotating pasture).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "Herders move cattle to new pasture in the dry season (transhumance); ranches keep them on fenced land.",
+    "vars": {},
+    "example": [
+     "The Mbororo move herds south in the dry season.",
+     "SODEPA ranches in Adamawa."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-12-herd"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "Farmers grow millet, sorghum and cotton in the rainy season and rice with irrigation in the dry season.",
+    "vars": {},
+    "example": [
+     "SODECOTON buys cotton.",
+     "SEMRY grows rice at Yagoua."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-12-farm"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "Problems are drought, desertification, overgrazing and bush fires; solutions include tree planting and irrigation.",
+    "vars": {},
+    "example": [
+     "The Green Sahel operation plants trees.",
+     "Dams store water for irrigation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-12-prob-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "tropical-zone"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which problem is caused by too many animals on the same pasture?",
+         "r": "overgrazing",
+         "w": [
+          "flooding",
+          "deforestation of mangroves",
+          "earthquakes"
+         ],
+         "e": [
+          "Floods come from heavy rain.",
+          "Mangroves are on the coast.",
+          "Animals do not cause earthquakes."
+         ],
+         "y": "The grass is eaten faster than it grows."
+        },
+        {
+         "q": "Which is a solution to desertification?",
+         "r": "planting trees",
+         "w": [
+          "starting bush fires",
+          "more overgrazing",
+          "cutting all trees for firewood"
+         ],
+         "e": [
+          "Bush fires destroy vegetation.",
+          "That makes it worse.",
+          "That makes it worse."
+         ],
+         "y": "Trees hold the soil and stop the desert spreading."
+        },
+        {
+         "q": "Why do farmers and herders sometimes clash?",
+         "r": "Cattle damage crops and both need the same land and water.",
+         "w": [
+          "Farmers have no land.",
+          "Herders do not own cattle.",
+          "They grow the same crops."
+         ],
+         "e": [
+          "Farmers do use land.",
+          "Herders own cattle.",
+          "Herders keep cattle, not crops."
+         ],
+         "y": "Competition for land and water."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-12-herd",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is transhumance?",
+       "r": "moving herds to new pasture with the seasons",
+       "w": [
+        "growing crops in a forest",
+        "fishing in a lake",
+        "keeping hens in a cage"
+       ],
+       "e": [
+        "That is forest farming.",
+        "That is fishing.",
+        "That is poultry keeping."
+       ],
+       "y": "Herders move animals to find grass and water."
+      },
+      {
+       "q": "Which people are well known for cattle herding in the savanna?",
+       "r": "the Fulani (Mbororo)",
+       "w": [
+        "the Baka",
+        "the Douala",
+        "the Bakweri"
+       ],
+       "e": [
+        "The Baka are forest hunter-gatherers.",
+        "The Douala live on the coast.",
+        "The Bakweri live around Mount Cameroon."
+       ],
+       "y": "The Fulani are herders."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-12-farm",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which company buys and processes cotton in northern Cameroon?",
+       "r": "SODECOTON",
+       "w": [
+        "CDC",
+        "SONARA",
+        "CAMRAIL"
+       ],
+       "e": [
+        "The CDC is a plantation company in the South West.",
+        "SONARA refines oil.",
+        "CAMRAIL runs the railway."
+       ],
+       "y": "SODECOTON is the cotton company."
+      },
+      {
+       "q": "How is rice grown in the dry season at Yagoua?",
+       "r": "by irrigation",
+       "w": [
+        "by rain only",
+        "in the forest",
+        "on mountain tops"
+       ],
+       "e": [
+        "There is little rain in the dry season.",
+        "There is no forest there.",
+        "It is grown on the plains."
+       ],
+       "y": "Water is brought from the Logone."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-12-prob",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which problem is caused by too many animals on the same pasture?",
+       "r": "overgrazing",
+       "w": [
+        "flooding",
+        "deforestation of mangroves",
+        "earthquakes"
+       ],
+       "e": [
+        "Floods come from heavy rain.",
+        "Mangroves are on the coast.",
+        "Animals do not cause earthquakes."
+       ],
+       "y": "The grass is eaten faster than it grows."
+      },
+      {
+       "q": "Which is a solution to desertification?",
+       "r": "planting trees",
+       "w": [
+        "starting bush fires",
+        "more overgrazing",
+        "cutting all trees for firewood"
+       ],
+       "e": [
+        "Bush fires destroy vegetation.",
+        "That makes it worse.",
+        "That makes it worse."
+       ],
+       "y": "Trees hold the soil and stop the desert spreading."
+      },
+      {
+       "q": "Why do farmers and herders sometimes clash?",
+       "r": "Cattle damage crops and both need the same land and water.",
+       "w": [
+        "Farmers have no land.",
+        "Herders do not own cattle.",
+        "They grow the same crops."
+       ],
+       "e": [
+        "Farmers do use land.",
+        "Herders own cattle.",
+        "Herders keep cattle, not crops."
+       ],
+       "y": "Competition for land and water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "SEMRY grows irrigated rice.",
+      "truth": "true"
+     },
+     {
+      "text": "Overgrazing leads to soil erosion.",
+      "truth": "true"
+     },
+     {
+      "text": "Bush fires destroy pasture.",
+      "truth": "true"
+     },
+     {
+      "text": "Tsetse flies harm cattle.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bush fires improve the soil for ever.",
+      "truth": "false",
+      "explain": "They destroy vegetation and expose the soil."
+     },
+     {
+      "text": "Transhumance means keeping cattle in one place all year.",
+      "truth": "false",
+      "explain": "It means moving herds with the seasons."
+     },
+     {
+      "text": "Desertification is solved by cutting more trees.",
+      "truth": "false",
+      "explain": "Planting trees helps."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

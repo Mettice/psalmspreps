@@ -1,4 +1,4 @@
-// Form 2 History, Batch Y2-1 content tests (Term 1, rows 1–10; guided work and further study included).
+// Form 2 History, Batches Y2-1 and Y2-2 content tests (Terms 1 and 2, rows 1–21; guided work and further study included).
 import * as maths from "../src/engine/lib/maths.js";
 import * as english from "../src/engine/lib/english.js";
 import * as physics from "../src/engine/lib/physics.js";
@@ -14,5 +14,5 @@ import { subjectSuite } from "./subject-suite.js";
 subjectSuite({
   subject: "history", dir: "form-2/history", cls: "Form 2", spine: "form-2/history", prefix: "y2-", numbering: "seq",
   lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...maths2, ...science2 },
-  batch: Array.from({ length: 10 }, (_, i) => i + 1),
+  batch: Array.from({ length: 21 }, (_, i) => i + 1),
 });

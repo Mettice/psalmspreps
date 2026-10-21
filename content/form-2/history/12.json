@@ -1,0 +1,445 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "y2-12",
+   "name": "The empire of Kanem-Bornu"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Kanem-Bornu grew around Lake Chad, including part of today's northern Cameroon.\nKanem, east of Lake Chad, was founded by about the 9th century and ruled by the Saifawa dynasty. Its rulers took the title Mai. Mai Hummay became a Muslim at the end of the 11th century. The capital was Njimi.\nIn the late 14th century the Bulala attacked Kanem, and the Mai moved west of the lake to Bornu. Ali Gaji built a new capital, Ngazargamu, in the 15th century.\nMai Idris Alooma (ruled about 1571–1603) was its greatest ruler: he bought firearms (muskets) and hired Turkish musketeers, used camels and boats, reformed justice by Islamic law and built mosques.\nWealth: trans-Saharan trade with Tripoli and Egypt (slaves, ivory, leather traded for horses, salt, cloth and weapons), and taxes.\nDecline: weak rulers, attacks by the Fulani jihad (19th century) and by Rabih (1893).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "Idris Alooma"
+  },
+  "problem": "Give two reasons why {r} made Kanem-Bornu strong.",
+  "steps": [
+   "He bought firearms and hired Turkish musketeers, so his army was stronger than its enemies.",
+   "He ruled by Islamic law and organised the government well."
+  ],
+  "answer": "Firearms for the army, and good government under Islamic law.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "Kanem-Bornu grew around Lake Chad; its rulers, the Mai, belonged to the Saifawa dynasty.",
+    "vars": {},
+    "example": [
+     "Kanem was east of the lake.",
+     "Part of northern Cameroon was in Bornu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-12-where"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "Attacks by the Bulala made the Mai move to Bornu, where Ngazargamu became the capital.",
+    "vars": {},
+    "example": [
+     "Njimi was the capital of Kanem.",
+     "Ali Gaji built Ngazargamu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-12-move"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "Idris Alooma used firearms and Turkish musketeers and ruled by Islamic law.",
+    "vars": {},
+    "example": [
+     "He ruled in the late {16}th century.",
+     "He was its greatest Mai."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-12-idris-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-states"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What did Idris Alooma bring to his army?",
+         "r": "firearms and Turkish musketeers",
+         "w": [
+          "tanks",
+          "aeroplanes",
+          "only bows and arrows"
+         ],
+         "e": [
+          "Tanks did not exist then.",
+          "Aeroplanes did not exist then.",
+          "He added firearms."
+         ],
+         "y": "Muskets made his army stronger."
+        },
+        {
+         "q": "What did Kanem-Bornu import across the Sahara?",
+         "r": "horses, salt, cloth and weapons",
+         "w": [
+          "gold only",
+          "cocoa",
+          "palm oil"
+         ],
+         "e": [
+          "It exported slaves and ivory; gold was Mali's.",
+          "Cocoa came much later.",
+          "Palm oil is from the forest zone."
+         ],
+         "y": "It exchanged slaves and ivory for these."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-12-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Around which lake did Kanem-Bornu grow?",
+       "r": "Lake Chad",
+       "w": [
+        "Lake Victoria",
+        "Lake Nyos",
+        "Lake Tanganyika"
+       ],
+       "e": [
+        "That is in East Africa.",
+        "That is a small crater lake in Cameroon.",
+        "That is in East Africa."
+       ],
+       "y": "Kanem was east and Bornu west of Lake Chad."
+      },
+      {
+       "q": "What was the title of the rulers of Kanem-Bornu?",
+       "r": "Mai",
+       "w": [
+        "Mansa",
+        "Manikongo",
+        "Askia"
+       ],
+       "e": [
+        "Mansa was the title in Mali.",
+        "Manikongo was the ruler of Kongo.",
+        "Askia was a title in Songhai."
+       ],
+       "y": "The Mai of the Saifawa dynasty."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-12-move",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why did the Mai move from Kanem to Bornu?",
+       "r": "because of attacks by the Bulala",
+       "w": [
+        "because of floods only",
+        "to find gold mines",
+        "because the Portuguese invaded"
+       ],
+       "e": [
+        "The main reason was war.",
+        "Bornu had no gold mines.",
+        "The Portuguese never reached Lake Chad."
+       ],
+       "y": "Bulala attacks drove them west."
+      },
+      {
+       "q": "What was the capital of Bornu?",
+       "r": "Ngazargamu",
+       "w": [
+        "Njimi",
+        "Niani",
+        "Timbuktu"
+       ],
+       "e": [
+        "Njimi was the capital of Kanem.",
+        "Niani was Mali's capital.",
+        "Timbuktu was in Mali."
+       ],
+       "y": "Ali Gaji built Ngazargamu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-12-idris",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What did Idris Alooma bring to his army?",
+       "r": "firearms and Turkish musketeers",
+       "w": [
+        "tanks",
+        "aeroplanes",
+        "only bows and arrows"
+       ],
+       "e": [
+        "Tanks did not exist then.",
+        "Aeroplanes did not exist then.",
+        "He added firearms."
+       ],
+       "y": "Muskets made his army stronger."
+      },
+      {
+       "q": "What did Kanem-Bornu import across the Sahara?",
+       "r": "horses, salt, cloth and weapons",
+       "w": [
+        "gold only",
+        "cocoa",
+        "palm oil"
+       ],
+       "e": [
+        "It exported slaves and ivory; gold was Mali's.",
+        "Cocoa came much later.",
+        "Palm oil is from the forest zone."
+       ],
+       "y": "It exchanged slaves and ivory for these."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Kanem-Bornu lay around Lake Chad.",
+      "truth": "true"
+     },
+     {
+      "text": "Its rulers were called Mai.",
+      "truth": "true"
+     },
+     {
+      "text": "Idris Alooma used firearms.",
+      "truth": "true"
+     },
+     {
+      "text": "It traded across the Sahara.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Kanem-Bornu was on the coast of the Atlantic Ocean.",
+      "truth": "false",
+      "explain": "It was inland, around Lake Chad."
+     },
+     {
+      "text": "Idris Alooma founded Mali.",
+      "truth": "false",
+      "explain": "Sundiata founded Mali; Idris Alooma ruled Bornu."
+     },
+     {
+      "text": "The rulers of Kanem never became Muslims.",
+      "truth": "false",
+      "explain": "Mai Hummay became a Muslim; Islam was the state religion."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

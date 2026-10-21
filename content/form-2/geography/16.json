@@ -1,0 +1,377 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "g2-16",
+   "name": "Man in the hot desert"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Hot deserts lie between about 15° and 30° north and south of the Equator, often on the western sides of continents: the Sahara (the largest), the Kalahari and Namib in Africa, the Arabian desert.\nClimate: very hot days (over 40 °C) and cold nights, so the daily range of temperature is large; very little rain (under 250 mm a year), falling irregularly; dry winds and sandstorms.\nDaily range = highest temperature − lowest temperature.\nVegetation: scattered thorny bushes, cacti, date palms at oases.\nResources: oil and gas (Algeria, Libya), minerals (phosphates, uranium in Niger), oases with dates, camels, sun for solar energy, tourism.\nTraditional ways of life: nomadic herding of camels and goats (the Tuareg), oasis farming with wells, trade by camel caravans.\nProblems: water shortage, heat, sandstorms, desertification, isolation. Solutions: deep wells, irrigation, solar power, tree belts against sand.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "h": 45,
+   "l": 10
+  },
+  "problem": "In a desert town the highest temperature in a day is {h} °C and the lowest is {l} °C. Find the daily range.",
+  "steps": [
+   "Daily range = highest − lowest.",
+   "{h} − {l} = {h - l} °C."
+  ],
+  "answer": "{h - l} °C",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "Hot deserts lie between about {15}° and {30}° from the Equator; the Sahara is the largest.",
+    "vars": {},
+    "example": [
+     "The Kalahari is in southern Africa.",
+     "Deserts are on the western sides of continents."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-16-where"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Deserts have very hot days, cold nights and under {250} mm of rain a year.",
+    "vars": {},
+    "example": [
+     "The sky is clear, so heat escapes at night.",
+     "Daily range = highest − lowest."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-16-range-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "hot-desert"
+     ],
+     "vars": {
+      "h": {
+       "int": [
+        38,
+        50
+       ]
+      },
+      "l": {
+       "int": [
+        2,
+        18
+       ]
+      }
+     },
+     "prompt": "In the Sahara the highest temperature in one day is {h} °C and the lowest is {l} °C. What is the daily range of temperature?",
+     "answer": "h - l",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "h + l",
+       "explain": "The range is the difference: subtract."
+      }
+     ],
+     "solution": [
+      "Daily range = highest − lowest.",
+      "{h} − {l} = {answer} °C."
+     ],
+     "unit": "°C"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "People live by nomadic herding, oasis farming and trade; the problems are water shortage and sandstorms.",
+    "vars": {},
+    "example": [
+     "The Tuareg keep camels.",
+     "Dates grow at oases."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-16-life"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-16-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hot-desert"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is the largest hot desert in the world?",
+       "r": "the Sahara",
+       "w": [
+        "the Kalahari",
+        "the Namib",
+        "the Atacama"
+       ],
+       "e": [
+        "The Kalahari is smaller.",
+        "The Namib is a narrow coastal desert.",
+        "The Atacama is in South America and smaller."
+       ],
+       "y": "The Sahara covers much of North Africa."
+      },
+      {
+       "q": "About how much rain does a hot desert receive in a year?",
+       "r": "less than 250 mm",
+       "w": [
+        "more than 2000 mm",
+        "about 1500 mm",
+        "rain every day"
+       ],
+       "e": [
+        "That is equatorial.",
+        "That is a wet savanna.",
+        "Deserts are very dry."
+       ],
+       "y": "Deserts get very little rain."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-16-range",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "hot-desert"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      38,
+      50
+     ]
+    },
+    "l": {
+     "int": [
+      2,
+      18
+     ]
+    }
+   },
+   "prompt": "In the Sahara the highest temperature in one day is {h} °C and the lowest is {l} °C. What is the daily range of temperature?",
+   "answer": "h - l",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "h + l",
+     "explain": "The range is the difference: subtract."
+    }
+   ],
+   "solution": [
+    "Daily range = highest − lowest.",
+    "{h} − {l} = {answer} °C."
+   ],
+   "unit": "°C"
+  },
+  {
+   "id": "g2-16-life",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hot-desert"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which animal is best suited to the desert?",
+       "r": "the camel",
+       "w": [
+        "the hippopotamus",
+        "the gorilla",
+        "the cow of the rain forest"
+       ],
+       "e": [
+        "Hippos need rivers.",
+        "Gorillas live in forests.",
+        "Cattle need more water and grass."
+       ],
+       "y": "Camels can go days without water."
+      },
+      {
+       "q": "What is an oasis?",
+       "r": "a place in the desert with water where plants grow",
+       "w": [
+        "a sandstorm",
+        "a dry river",
+        "a mountain"
+       ],
+       "e": [
+        "That is a wind of sand.",
+        "An oasis has water.",
+        "It is a fertile spot."
+       ],
+       "y": "Water comes from underground."
+      },
+      {
+       "q": "Why are desert nights cold?",
+       "r": "The clear sky lets heat escape quickly.",
+       "w": [
+        "The sun shines at night.",
+        "It rains every night.",
+        "The sand is wet."
+       ],
+       "e": [
+        "There is no sun at night.",
+        "It rarely rains.",
+        "The sand is dry."
+       ],
+       "y": "No clouds to keep the heat in."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hot-desert"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Deserts have a large daily range of temperature.",
+      "truth": "true"
+     },
+     {
+      "text": "Dates grow at oases.",
+      "truth": "true"
+     },
+     {
+      "text": "The Tuareg are desert nomads.",
+      "truth": "true"
+     },
+     {
+      "text": "Niger has uranium in its desert.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Deserts have thick forests.",
+      "truth": "false",
+      "explain": "They have scattered bushes and cacti."
+     },
+     {
+      "text": "Deserts are hot both day and night.",
+      "truth": "false",
+      "explain": "Nights are cold."
+     },
+     {
+      "text": "Water is plentiful in the desert.",
+      "truth": "false",
+      "explain": "Water shortage is the main problem."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

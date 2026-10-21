@@ -1,0 +1,445 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "y2-19",
+   "name": "Contacts between East Africa and the Indian Ocean world"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "East Africa traded across the Indian Ocean for centuries with Arabia, Persia, India and China.\nThe monsoon winds made the trade possible: they blow towards Africa from November to March and back towards Asia from April to September, carrying sailing ships called dhows.\nCoastal city-states grew: Mogadishu, Malindi, Mombasa, Zanzibar, Kilwa and Sofala.\n• Exports: gold (from Great Zimbabwe), ivory, slaves, mangrove poles, tortoiseshell.\n• Imports: cloth, glass beads, porcelain from China, spices, iron goods.\nResults: the Swahili culture and language (Bantu with many Arabic words); the spread of Islam; stone mosques and houses; the Chinese fleet of Zheng He visited Malindi in the early 15th century.\nThe Portuguese arrived when Vasco da Gama reached Malindi in 1498 on his way to India; they then attacked and controlled many coastal towns, and the trade declined.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "w": "the monsoon winds"
+  },
+  "problem": "Explain how {w} helped the Indian Ocean trade.",
+  "steps": [
+   "From November to March they blow towards Africa, carrying dhows from Arabia and India.",
+   "From April to September they blow back, so the traders could return home."
+  ],
+  "answer": "Their change of direction carried ships to Africa and back each year.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "The monsoon winds carried dhows to East Africa and back.",
+    "vars": {},
+    "example": [
+     "Towards Africa from November to March.",
+     "Back to Asia from April to September."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-19-wind"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "Coastal city-states like Kilwa, Mombasa and Malindi exported gold and ivory and imported cloth and porcelain.",
+    "vars": {},
+    "example": [
+     "Gold came from Great Zimbabwe through Sofala.",
+     "Porcelain came from China."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-19-city"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "The trade produced the Swahili language and culture and spread Islam; the Portuguese arrived in {1498}.",
+    "vars": {},
+    "example": [
+     "Swahili mixes Bantu and Arabic words.",
+     "Vasco da Gama reached Malindi."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-19-swahili-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "external-contacts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is Swahili?",
+         "r": "a Bantu language with many Arabic words, and the coastal culture",
+         "w": [
+          "a desert wind",
+          "a West African empire",
+          "a Portuguese ship"
+         ],
+         "e": [
+          "That is not it.",
+          "It is East African.",
+          "It is a language and culture."
+         ],
+         "y": "It grew from the meeting of Africans and Arabs."
+        },
+        {
+         "q": "Who reached Malindi in 1498 on his way to India?",
+         "r": "Vasco da Gama",
+         "w": [
+          "Diogo Cão",
+          "Fernando Pó",
+          "Zheng He"
+         ],
+         "e": [
+          "He reached Kongo.",
+          "He reached the Cameroon coast.",
+          "He was a Chinese admiral earlier in the century."
+         ],
+         "y": "Vasco da Gama of Portugal."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-19-wind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What made it possible to sail between Arabia, India and East Africa every year?",
+       "r": "the monsoon winds",
+       "w": [
+        "the harmattan",
+        "steam engines",
+        "ocean ice"
+       ],
+       "e": [
+        "The harmattan blows in West Africa.",
+        "Steam ships came much later.",
+        "There is no ice there."
+       ],
+       "y": "The winds change direction with the seasons."
+      },
+      {
+       "q": "What were the sailing ships of the Indian Ocean called?",
+       "r": "dhows",
+       "w": [
+        "canoes of Lake Chad",
+        "caravels only",
+        "submarines"
+       ],
+       "e": [
+        "Those are lake boats.",
+        "Caravels were Portuguese.",
+        "Those are modern."
+       ],
+       "y": "Dhows with triangular sails."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-19-city",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which was an East African city-state?",
+       "r": "Kilwa",
+       "w": [
+        "Timbuktu",
+        "Ngazargamu",
+        "Niani"
+       ],
+       "e": [
+        "Timbuktu was in Mali.",
+        "That was Bornu's capital.",
+        "That was Mali's capital."
+       ],
+       "y": "Kilwa was a rich Swahili port."
+      },
+      {
+       "q": "What came to East Africa from China?",
+       "r": "porcelain",
+       "w": [
+        "gold",
+        "ivory",
+        "mangrove poles"
+       ],
+       "e": [
+        "Gold was exported from Africa.",
+        "Ivory was exported from Africa.",
+        "Mangrove poles were exported from Africa."
+       ],
+       "y": "Chinese porcelain has been found on the coast."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-19-swahili",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is Swahili?",
+       "r": "a Bantu language with many Arabic words, and the coastal culture",
+       "w": [
+        "a desert wind",
+        "a West African empire",
+        "a Portuguese ship"
+       ],
+       "e": [
+        "That is not it.",
+        "It is East African.",
+        "It is a language and culture."
+       ],
+       "y": "It grew from the meeting of Africans and Arabs."
+      },
+      {
+       "q": "Who reached Malindi in 1498 on his way to India?",
+       "r": "Vasco da Gama",
+       "w": [
+        "Diogo Cão",
+        "Fernando Pó",
+        "Zheng He"
+       ],
+       "e": [
+        "He reached Kongo.",
+        "He reached the Cameroon coast.",
+        "He was a Chinese admiral earlier in the century."
+       ],
+       "y": "Vasco da Gama of Portugal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Dhows sailed with the monsoon winds.",
+      "truth": "true"
+     },
+     {
+      "text": "Kilwa exported gold.",
+      "truth": "true"
+     },
+     {
+      "text": "Swahili has many Arabic words.",
+      "truth": "true"
+     },
+     {
+      "text": "Chinese porcelain reached East Africa.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The monsoon winds blow in the same direction all year.",
+      "truth": "false",
+      "explain": "They change direction with the seasons."
+     },
+     {
+      "text": "The Portuguese helped the East African trade to grow.",
+      "truth": "false",
+      "explain": "They attacked the towns and the trade declined."
+     },
+     {
+      "text": "Kilwa was a city in the Sahara.",
+      "truth": "false",
+      "explain": "Kilwa was on the East African coast."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

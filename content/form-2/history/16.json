@@ -1,0 +1,394 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "y2-16",
+   "name": "Guided work 2: the arts in your region"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "This guided work is an enquiry into the arts of the region where your school is.\nSteps:\n1. Choose a question: Which arts are practised here? Who makes them? What are they used for?\n2. Prepare questions for an interview.\n3. Visit artisans (carvers, potters, weavers, blacksmiths, bead makers, musicians) or a museum or palace, with permission and an adult.\n4. Observe and record: the materials (wood, clay, raffia, beads, bronze), the tools, the steps, the uses, the meaning of symbols. Take notes, sketches or photographs (with permission).\n5. Sort the information and write a short report with a title, an introduction, findings, a conclusion and the names of the people interviewed.\nRespect: ask before photographing sacred objects; thank the people you interview.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "a wood carver"
+  },
+  "problem": "Write three questions to ask {a} in your enquiry.",
+  "steps": [
+   "Ask about materials and tools: Which wood and tools do you use?",
+   "Ask about meaning and use: What are your carvings used for, and what do the symbols mean? Who taught you?"
+  ],
+  "answer": "Which wood and tools do you use? What are your carvings used for? Who taught you the craft?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "An enquiry starts with a clear question and prepared interview questions.",
+    "vars": {},
+    "example": [
+     "Which arts are practised in our town?",
+     "Who makes them?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-16-plan"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Visit artisans with permission; observe and record materials, tools, steps and uses.",
+    "vars": {},
+    "example": [
+     "Take notes and sketches.",
+     "Ask before taking photographs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-16-record"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "Write a report: title, introduction, findings, conclusion and the people interviewed.",
+    "vars": {},
+    "example": [
+     "Sort your notes first.",
+     "Thank the people you interviewed."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-16-report-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "historical-enquiry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which part of the report gives what you found out?",
+         "r": "the findings",
+         "w": [
+          "the title",
+          "the list of people interviewed",
+          "the cover"
+         ],
+         "e": [
+          "The title names the topic.",
+          "That gives your sources.",
+          "That is only the cover."
+         ],
+         "y": "The findings are the main part."
+        },
+        {
+         "q": "Why should the report name the people interviewed?",
+         "r": "to show the sources of the information",
+         "w": [
+          "to make it longer",
+          "to sell it",
+          "it should not"
+         ],
+         "e": [
+          "Length is not the aim.",
+          "That is not the aim.",
+          "Sources should be named."
+         ],
+         "y": "Good history names its sources."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-16-plan",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "prompt": "Put the steps of the enquiry in order.",
+   "items": [
+    {
+     "text": "Choose a question"
+    },
+    {
+     "text": "Prepare interview questions"
+    },
+    {
+     "text": "Visit and interview the artisans"
+    },
+    {
+     "text": "Record what you observe"
+    },
+    {
+     "text": "Write the report"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "y2-16-record",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What should you do before photographing a sacred mask?",
+       "r": "ask for permission",
+       "w": [
+        "take the photo quietly",
+        "touch it first",
+        "take it home"
+       ],
+       "e": [
+        "That is disrespectful.",
+        "Do not touch without permission.",
+        "That is stealing."
+       ],
+       "y": "Respect sacred objects."
+      },
+      {
+       "q": "Which is a primary source for this enquiry?",
+       "r": "an interview with a local potter",
+       "w": [
+        "a guess",
+        "a film about another country",
+        "a dream"
+       ],
+       "e": [
+        "A guess is not evidence.",
+        "That is not about your region.",
+        "That is not evidence."
+       ],
+       "y": "First-hand information from the artisan."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-16-report",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part of the report gives what you found out?",
+       "r": "the findings",
+       "w": [
+        "the title",
+        "the list of people interviewed",
+        "the cover"
+       ],
+       "e": [
+        "The title names the topic.",
+        "That gives your sources.",
+        "That is only the cover."
+       ],
+       "y": "The findings are the main part."
+      },
+      {
+       "q": "Why should the report name the people interviewed?",
+       "r": "to show the sources of the information",
+       "w": [
+        "to make it longer",
+        "to sell it",
+        "it should not"
+       ],
+       "e": [
+        "Length is not the aim.",
+        "That is not the aim.",
+        "Sources should be named."
+       ],
+       "y": "Good history names its sources."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "prompt": "Which step of the enquiry is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Prepare questions before the visit.",
+      "truth": "true"
+     },
+     {
+      "text": "Record the materials and tools used.",
+      "truth": "true"
+     },
+     {
+      "text": "Thank the artisans.",
+      "truth": "true"
+     },
+     {
+      "text": "Write a conclusion.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Take sacred objects home to study them.",
+      "truth": "false",
+      "explain": "Never take objects; observe and record."
+     },
+     {
+      "text": "Write the report before visiting anyone.",
+      "truth": "false",
+      "explain": "Collect the information first."
+     },
+     {
+      "text": "Photograph sacred objects without asking.",
+      "truth": "false",
+      "explain": "Always ask permission first."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

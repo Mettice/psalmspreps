@@ -1,0 +1,435 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "skills": [
+  {
+   "id": "y2-17",
+   "name": "Further study 2: factors in the decline of African empires"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The great African states declined for internal and external reasons.\nInternal factors:\n• weak or cruel rulers after strong ones;\n• quarrels and civil wars over succession;\n• empires too large to control, so provinces and vassal states revolted;\n• loss of resources: drought, overgrazing, exhausted soils and firewood (Great Zimbabwe).\nExternal factors:\n• invasions: the Almoravids attacked Ghana (1076); the Tuareg and Songhai attacked Mali; Morocco destroyed Songhai at Tondibi (1591);\n• changes in trade routes: when trade moved from the Sahara to the Atlantic coast and Europeans, the inland empires lost income;\n• the Atlantic slave trade took people and caused wars (Kongo);\n• European conquest later.\nUsually several factors worked together.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": "Songhai"
+  },
+  "problem": "Give one internal and one external factor in the decline of {e}.",
+  "steps": [
+   "Internal: quarrels over succession weakened the rulers.",
+   "External: the Moroccan army with firearms defeated Songhai at Tondibi in {1591}."
+  ],
+  "answer": "Succession quarrels (internal) and the Moroccan invasion (external).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "Internal factors: weak rulers, succession quarrels, revolts and loss of resources.",
+    "vars": {},
+    "example": [
+     "Civil wars weakened Kongo.",
+     "Overgrazing hurt Great Zimbabwe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-17-int"
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "External factors: invasions, changes in trade routes and the slave trade.",
+    "vars": {},
+    "example": [
+     "The Almoravids attacked Ghana.",
+     "Morocco invaded Songhai."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-17-ext"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "When trade moved from the Sahara to the Atlantic, the inland empires lost wealth.",
+    "vars": {},
+    "example": [
+     "Europeans traded on the coast.",
+     "Fewer caravans crossed the desert."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-17-trade-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-states"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why did the move of trade to the Atlantic coast weaken the Sudanese empires?",
+         "r": "Fewer caravans crossed the Sahara, so they lost trade income.",
+         "w": [
+          "The Sahara became a forest.",
+          "Gold stopped existing.",
+          "They gained more taxes."
+         ],
+         "e": [
+          "The Sahara stayed a desert.",
+          "Gold still existed.",
+          "They lost taxes."
+         ],
+         "y": "Their wealth depended on the trans-Saharan trade."
+        },
+        {
+         "q": "How did the slave trade weaken Kongo?",
+         "r": "It took many people and caused wars.",
+         "w": [
+          "It brought peace.",
+          "It increased the population.",
+          "It ended all trade."
+         ],
+         "e": [
+          "It caused wars.",
+          "It reduced the population.",
+          "Trade went on."
+         ],
+         "y": "People were lost and wars spread."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-17-int",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "f": "Quarrels over who should be the next king.",
+       "a": "internal"
+      },
+      {
+       "f": "The Moroccan invasion of Songhai.",
+       "a": "external"
+      },
+      {
+       "f": "Revolts by provinces that wanted to be free.",
+       "a": "internal"
+      },
+      {
+       "f": "Attacks by the Almoravids on Ghana.",
+       "a": "external"
+      },
+      {
+       "f": "Weak rulers after a strong king died.",
+       "a": "internal"
+      },
+      {
+       "f": "European slave traders on the coast.",
+       "a": "external"
+      }
+     ]
+    }
+   },
+   "prompt": "Is this an internal or an external factor of decline? {X.f}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'internal' ? 'external' : 'internal'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "neither: it made the empire stronger",
+     "misconception": "neither"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Ask: did it come from inside the state or from outside it?"
+    },
+    {
+     "id": "neither",
+     "explain": "This factor weakened the empire."
+    }
+   ],
+   "solution": [
+    "Internal factors come from inside the state; external factors come from outside.",
+    "So it is {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "y2-17-ext",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Who attacked Ghana in 1076?",
+       "r": "the Almoravids",
+       "w": [
+        "the Portuguese",
+        "the Moroccans in 1591",
+        "the Shona"
+       ],
+       "e": [
+        "They reached the coast later.",
+        "That was Songhai.",
+        "They lived in southern Africa."
+       ],
+       "y": "The Almoravids from the north."
+      },
+      {
+       "q": "Which empire was destroyed by Morocco at Tondibi in 1591?",
+       "r": "Songhai",
+       "w": [
+        "Kongo",
+        "Great Zimbabwe",
+        "Kanem-Bornu"
+       ],
+       "e": [
+        "Kongo was defeated by Portugal.",
+        "It declined about 1450.",
+        "Bornu lasted into the 19th century."
+       ],
+       "y": "Moroccan firearms defeated Songhai."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-17-trade",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why did the move of trade to the Atlantic coast weaken the Sudanese empires?",
+       "r": "Fewer caravans crossed the Sahara, so they lost trade income.",
+       "w": [
+        "The Sahara became a forest.",
+        "Gold stopped existing.",
+        "They gained more taxes."
+       ],
+       "e": [
+        "The Sahara stayed a desert.",
+        "Gold still existed.",
+        "They lost taxes."
+       ],
+       "y": "Their wealth depended on the trans-Saharan trade."
+      },
+      {
+       "q": "How did the slave trade weaken Kongo?",
+       "r": "It took many people and caused wars.",
+       "w": [
+        "It brought peace.",
+        "It increased the population.",
+        "It ended all trade."
+       ],
+       "e": [
+        "It caused wars.",
+        "It reduced the population.",
+        "Trade went on."
+       ],
+       "y": "People were lost and wars spread."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Succession quarrels weakened empires.",
+      "truth": "true"
+     },
+     {
+      "text": "Invasions destroyed some empires.",
+      "truth": "true"
+     },
+     {
+      "text": "Overgrazing hurt Great Zimbabwe.",
+      "truth": "true"
+     },
+     {
+      "text": "Changes in trade routes reduced income.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Weak rulers make an empire stronger.",
+      "truth": "false",
+      "explain": "They weaken it."
+     },
+     {
+      "text": "The slave trade made Kongo richer and stronger.",
+      "truth": "false",
+      "explain": "It weakened Kongo."
+     },
+     {
+      "text": "African empires declined only because of one factor.",
+      "truth": "false",
+      "explain": "Usually several factors worked together."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

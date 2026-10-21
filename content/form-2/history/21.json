@@ -1,0 +1,494 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "y2-21",
+   "name": "Europe from the Dark Ages to the Renaissance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Middle Ages (about 500–1500) began after the fall of the Western Roman Empire in 476.\nThe early Middle Ages are sometimes called the Dark Ages: trade, towns and learning declined; the Church and its monasteries kept learning alive. Charlemagne was crowned emperor in 800.\nFeudalism: the king gave land (fiefs) to lords; lords gave land to knights, who fought for them; serfs (peasants) worked the land of the manor and could not leave it.\nOther events: the Crusades (1096–1291), wars to capture Jerusalem; the Black Death (1347–1351) killed about a third of Europe's people.\nThe Renaissance (“rebirth”, 14th–16th centuries) began in Italy (Florence): new interest in the learning of Greece and Rome, art and science. Leonardo da Vinci and Michelangelo were great artists. Gutenberg's printing press (about 1450) spread books. It led to the voyages of discovery.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "a serf"
+  },
+  "problem": "Describe the life of {r} in the feudal system.",
+  "steps": [
+   "A serf worked the lord's land on the manor and gave part of the harvest to the lord.",
+   "In return he got protection and a small plot, but he could not leave the manor."
+  ],
+  "answer": "He worked the lord's land for protection and could not leave the manor.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "The Middle Ages began after the fall of the Western Roman Empire in {476}.",
+    "vars": {},
+    "example": [
+     "The early part is called the Dark Ages.",
+     "Monasteries kept learning alive."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-21-dark"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "In feudalism the king gave land to lords, lords to knights, and serfs worked the land.",
+    "vars": {},
+    "example": [
+     "Knights fought for the lords.",
+     "Serfs could not leave the manor."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-21-feudal"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "The Renaissance was a rebirth of learning and art that began in Italy.",
+    "vars": {},
+    "example": [
+     "Leonardo da Vinci painted the Mona Lisa.",
+     "Gutenberg's press spread books."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-21-ren-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "medieval-europe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does the word Renaissance mean?",
+         "r": "rebirth",
+         "w": [
+          "darkness",
+          "war",
+          "plague"
+         ],
+         "e": [
+          "That describes the Dark Ages.",
+          "That is not the meaning.",
+          "That was the Black Death."
+         ],
+         "y": "A rebirth of learning and art."
+        },
+        {
+         "q": "In which country did the Renaissance begin?",
+         "r": "Italy",
+         "w": [
+          "England",
+          "Portugal",
+          "Russia"
+         ],
+         "e": [
+          "It spread there later.",
+          "Portugal led the voyages.",
+          "It came there later."
+         ],
+         "y": "It began in Florence, Italy."
+        },
+        {
+         "q": "How did Gutenberg's printing press help the Renaissance?",
+         "r": "Books became cheaper and ideas spread faster.",
+         "w": [
+          "It stopped people reading.",
+          "It made books more expensive.",
+          "It ended the Church."
+         ],
+         "e": [
+          "It helped reading.",
+          "It made them cheaper.",
+          "The Church continued."
+         ],
+         "y": "Printed books spread learning."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-21-dark",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "medieval-europe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which event began the Middle Ages in Europe?",
+       "r": "the fall of the Western Roman Empire",
+       "w": [
+        "the Renaissance",
+        "the Crusades",
+        "the printing press"
+       ],
+       "e": [
+        "That came at the end.",
+        "Those came in the middle.",
+        "That came near the end."
+       ],
+       "y": "Rome fell in 476."
+      },
+      {
+       "q": "Who kept learning alive in the Dark Ages?",
+       "r": "the Church and its monasteries",
+       "w": [
+        "the serfs",
+        "the knights",
+        "the Crusaders"
+       ],
+       "e": [
+        "Serfs could not read.",
+        "Knights were fighters.",
+        "They fought wars."
+       ],
+       "y": "Monks copied books."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-21-feudal",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "medieval-europe"
+   ],
+   "prompt": "Match each person in the feudal system to their role.",
+   "pool": [
+    {
+     "left": "king",
+     "right": "owned all the land and gave fiefs to lords"
+    },
+    {
+     "left": "lord",
+     "right": "gave land to knights and ruled a manor"
+    },
+    {
+     "left": "knight",
+     "right": "fought for the lord in return for land"
+    },
+    {
+     "left": "serf",
+     "right": "worked the land and could not leave the manor"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "y2-21-ren",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "medieval-europe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the word Renaissance mean?",
+       "r": "rebirth",
+       "w": [
+        "darkness",
+        "war",
+        "plague"
+       ],
+       "e": [
+        "That describes the Dark Ages.",
+        "That is not the meaning.",
+        "That was the Black Death."
+       ],
+       "y": "A rebirth of learning and art."
+      },
+      {
+       "q": "In which country did the Renaissance begin?",
+       "r": "Italy",
+       "w": [
+        "England",
+        "Portugal",
+        "Russia"
+       ],
+       "e": [
+        "It spread there later.",
+        "Portugal led the voyages.",
+        "It came there later."
+       ],
+       "y": "It began in Florence, Italy."
+      },
+      {
+       "q": "How did Gutenberg's printing press help the Renaissance?",
+       "r": "Books became cheaper and ideas spread faster.",
+       "w": [
+        "It stopped people reading.",
+        "It made books more expensive.",
+        "It ended the Church."
+       ],
+       "e": [
+        "It helped reading.",
+        "It made them cheaper.",
+        "The Church continued."
+       ],
+       "y": "Printed books spread learning."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-21-years",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "medieval-europe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "e": "the battle of Kirina",
+       "y": 1235
+      },
+      {
+       "e": "Mansa Musa's pilgrimage to Mecca",
+       "y": 1324
+      },
+      {
+       "e": "Sonni Ali's capture of Timbuktu",
+       "y": 1468
+      },
+      {
+       "e": "the arrival of the Portuguese at the Wouri estuary",
+       "y": 1472
+      },
+      {
+       "e": "the building of Elmina castle",
+       "y": 1482
+      },
+      {
+       "e": "Diogo Cão's arrival in Kongo",
+       "y": 1483
+      },
+      {
+       "e": "Vasco da Gama's arrival at Malindi",
+       "y": 1498
+      },
+      {
+       "e": "the crowning of Charlemagne",
+       "y": 800
+      },
+      {
+       "e": "the start of the First Crusade",
+       "y": 1096
+      },
+      {
+       "e": "the arrival of the Black Death in Europe",
+       "y": 1347
+      },
+      {
+       "e": "the Moroccan invasion of Songhai",
+       "y": 1591
+      }
+     ]
+    },
+    "Z": {
+     "pick": [
+      {
+       "e": "the battle of Kirina",
+       "y": 1235
+      },
+      {
+       "e": "Mansa Musa's pilgrimage to Mecca",
+       "y": 1324
+      },
+      {
+       "e": "Sonni Ali's capture of Timbuktu",
+       "y": 1468
+      },
+      {
+       "e": "the arrival of the Portuguese at the Wouri estuary",
+       "y": 1472
+      },
+      {
+       "e": "the building of Elmina castle",
+       "y": 1482
+      },
+      {
+       "e": "Diogo Cão's arrival in Kongo",
+       "y": 1483
+      },
+      {
+       "e": "Vasco da Gama's arrival at Malindi",
+       "y": 1498
+      },
+      {
+       "e": "the crowning of Charlemagne",
+       "y": 800
+      },
+      {
+       "e": "the start of the First Crusade",
+       "y": 1096
+      },
+      {
+       "e": "the arrival of the Black Death in Europe",
+       "y": 1347
+      },
+      {
+       "e": "the Moroccan invasion of Songhai",
+       "y": 1591
+      }
+     ]
+    }
+   },
+   "prompt": "How many years passed between {X.e} ({X.y}) and {Z.e} ({Z.y})?",
+   "answer": "Z.y - X.y",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "Z.y + X.y",
+     "explain": "Subtract the earlier year from the later one."
+    }
+   ],
+   "solution": [
+    "Both years are AD, so subtract the earlier from the later.",
+    "{Z.y} − {X.y} = {answer} years."
+   ],
+   "where": "Z.y > X.y",
+   "unit": "years"
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "y2-14",
+   "name": "Great Zimbabwe"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Great Zimbabwe is a city of stone ruins in today's Zimbabwe, in southern Africa. “Zimbabwe” means “houses of stone” in the Shona language.\nIt was built by the ancestors of the Shona people between about the 11th and 15th centuries, and was at its height from about 1300 to 1450, with perhaps 10 000 to 18 000 people.\nMain parts: the Hill Complex (the king's area), the Great Enclosure with its high wall and conical tower, and the valley houses. The walls were built of granite blocks fitted together without mortar (dry stone). Carved soapstone birds were found there.\nWealth: cattle, farming, and trade in gold and ivory with Swahili ports such as Sofala and Kilwa, in exchange for cloth, beads and Chinese porcelain.\nDecline (about 1450): overgrazing and lack of firewood and good soil, and a shift of the gold trade northwards; the Mutapa (Monomotapa) state rose after it.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "Chinese porcelain was found at Great Zimbabwe"
+  },
+  "problem": "What does it show that {x}?",
+  "steps": [
+   "Great Zimbabwe was inland, far from China.",
+   "The porcelain came through the Swahili ports of the Indian Ocean in exchange for gold."
+  ],
+  "answer": "Great Zimbabwe traded with the Indian Ocean world.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "Great Zimbabwe is a city of stone in southern Africa, built by the ancestors of the Shona.",
+    "vars": {},
+    "example": [
+     "“Zimbabwe” means houses of stone.",
+     "It was at its height about {1300}–{1450}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-14-what"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Its walls were built of granite blocks without mortar; the Great Enclosure has a conical tower.",
+    "vars": {},
+    "example": [
+     "Dry-stone walling.",
+     "Soapstone birds were carved there."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-14-build"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Great Zimbabwe grew rich from cattle and the gold trade with Swahili ports, and declined about {1450}.",
+    "vars": {},
+    "example": [
+     "Gold went to Sofala and Kilwa.",
+     "The Mutapa state rose afterwards."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-14-trade-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-states"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What did Great Zimbabwe export through the Swahili ports?",
+         "r": "gold and ivory",
+         "w": [
+          "salt and horses",
+          "cocoa and coffee",
+          "oil and gas"
+         ],
+         "e": [
+          "Salt and horses crossed the Sahara.",
+          "These came much later.",
+          "These are modern exports."
+         ],
+         "y": "Gold and ivory went to Sofala and Kilwa."
+        },
+        {
+         "q": "Which was a cause of the decline of Great Zimbabwe?",
+         "r": "overgrazing and lack of resources around the city",
+         "w": [
+          "the Moroccan invasion",
+          "the Black Death",
+          "the Crusades"
+         ],
+         "e": [
+          "That ended Songhai.",
+          "That struck Europe.",
+          "Those were in the Middle East."
+         ],
+         "y": "The land around could no longer support the people."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-14-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the word “Zimbabwe” mean?",
+       "r": "houses of stone",
+       "w": [
+        "river of prawns",
+        "land of gold",
+        "city of salt"
+       ],
+       "e": [
+        "That is the meaning of Rio dos Camarões.",
+        "That is not the meaning.",
+        "That is not the meaning."
+       ],
+       "y": "Shona: houses of stone."
+      },
+      {
+       "q": "Which people's ancestors built Great Zimbabwe?",
+       "r": "the Shona",
+       "w": [
+        "the Zulu",
+        "the Fulani",
+        "the Arabs"
+       ],
+       "e": [
+        "The Zulu came later, further south.",
+        "The Fulani are in West Africa.",
+        "It was built by Africans."
+       ],
+       "y": "The ancestors of the Shona."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-14-build",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How were the walls of Great Zimbabwe built?",
+       "r": "with granite blocks fitted without mortar",
+       "w": [
+        "with cement and steel",
+        "with mud bricks only",
+        "with wood and thatch"
+       ],
+       "e": [
+        "Cement and steel are modern.",
+        "The famous walls are stone.",
+        "Those were used for houses, not the walls."
+       ],
+       "y": "Dry-stone walling."
+      },
+      {
+       "q": "What objects, now national symbols, were carved at Great Zimbabwe?",
+       "r": "soapstone birds",
+       "w": [
+        "bronze heads",
+        "terracotta horses",
+        "ivory masks of Benin"
+       ],
+       "e": [
+        "Bronze heads come from Ife and Benin.",
+        "Those are not from Zimbabwe.",
+        "Those are from Benin."
+       ],
+       "y": "The Zimbabwe birds."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-14-trade",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What did Great Zimbabwe export through the Swahili ports?",
+       "r": "gold and ivory",
+       "w": [
+        "salt and horses",
+        "cocoa and coffee",
+        "oil and gas"
+       ],
+       "e": [
+        "Salt and horses crossed the Sahara.",
+        "These came much later.",
+        "These are modern exports."
+       ],
+       "y": "Gold and ivory went to Sofala and Kilwa."
+      },
+      {
+       "q": "Which was a cause of the decline of Great Zimbabwe?",
+       "r": "overgrazing and lack of resources around the city",
+       "w": [
+        "the Moroccan invasion",
+        "the Black Death",
+        "the Crusades"
+       ],
+       "e": [
+        "That ended Songhai.",
+        "That struck Europe.",
+        "Those were in the Middle East."
+       ],
+       "y": "The land around could no longer support the people."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Great Zimbabwe traded with Swahili ports.",
+      "truth": "true"
+     },
+     {
+      "text": "Its walls were built without mortar.",
+      "truth": "true"
+     },
+     {
+      "text": "It was at its height about 1300–1450.",
+      "truth": "true"
+     },
+     {
+      "text": "The Mutapa state rose after it.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Great Zimbabwe was built by Europeans.",
+      "truth": "false",
+      "explain": "It was built by the ancestors of the Shona."
+     },
+     {
+      "text": "Great Zimbabwe was a port on the Atlantic coast.",
+      "truth": "false",
+      "explain": "It was inland in southern Africa."
+     },
+     {
+      "text": "Its walls were made of cement.",
+      "truth": "false",
+      "explain": "They were granite without mortar."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

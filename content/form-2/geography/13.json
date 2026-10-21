@@ -1,0 +1,445 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "g2-13",
+   "name": "Further study 2: the firewood crisis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Most rural families and many town families in Cameroon cook with firewood or charcoal. A firewood crisis is a serious shortage of wood for fuel.\nCauses: rapid population growth; cutting trees faster than they grow; clearing land for farms; drought and desertification in the North; poverty (gas and electricity are too expensive); wasteful three-stone fires.\nManifestations (signs): women and children walk farther to find wood; the price of firewood and charcoal rises; trucks bring wood from far away; bare land around towns like Maroua and Garoua.\nConsequences: desertification and soil erosion, less rain, loss of animals, children missing school to fetch wood, smoke that harms the lungs.\nSolutions: plant fast-growing trees (woodlots), improved (energy-saving) stoves, using cooking gas and solar cookers, biogas, laws against illegal cutting, teaching people to save wood.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "improved stoves"
+  },
+  "problem": "How do {x} help to solve the firewood crisis?",
+  "steps": [
+   "An improved stove keeps the heat around the pot instead of letting it escape.",
+   "It cooks the same food with much less wood."
+  ],
+  "answer": "They use less wood, so fewer trees are cut.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "A firewood crisis is a serious shortage of wood for cooking fuel.",
+    "vars": {},
+    "example": [
+     "Most rural families cook with wood.",
+     "Charcoal is made from wood."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-13-what"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Signs of the crisis: people walk farther for wood and its price rises.",
+    "vars": {},
+    "example": [
+     "Women and children carry wood long distances.",
+     "Bare land around northern towns."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-13-sign"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "Solutions: plant woodlots, use improved stoves, cooking gas, solar cookers and biogas.",
+    "vars": {},
+    "example": [
+     "Fast-growing trees around villages.",
+     "Energy-saving stoves use less wood."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-13-sol-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "tropical-zone"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a solution to the firewood crisis?",
+         "r": "using improved (energy-saving) stoves",
+         "w": [
+          "three-stone fires",
+          "cutting more trees",
+          "starting bush fires"
+         ],
+         "e": [
+          "They waste heat.",
+          "That makes it worse.",
+          "That destroys trees."
+         ],
+         "y": "Less wood for the same cooking."
+        },
+        {
+         "q": "Which fuel can replace firewood without cutting trees?",
+         "r": "biogas from animal dung",
+         "w": [
+          "charcoal",
+          "more wood",
+          "sawdust from forests"
+         ],
+         "e": [
+          "Charcoal is made from trees.",
+          "That uses trees.",
+          "That comes from trees."
+         ],
+         "y": "Biogas is made from waste."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-13-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the firewood crisis?",
+       "r": "a serious shortage of wood for fuel",
+       "w": [
+        "too much firewood",
+        "a fire in a forest",
+        "a shortage of water"
+       ],
+       "e": [
+        "It is a shortage.",
+        "A forest fire is a bush fire.",
+        "That is water scarcity."
+       ],
+       "y": "Fuel wood is running short."
+      },
+      {
+       "q": "Which is a cause of the firewood crisis?",
+       "r": "cutting trees faster than they grow",
+       "w": [
+        "planting woodlots",
+        "using solar cookers",
+        "using cooking gas"
+       ],
+       "e": [
+        "That is a solution.",
+        "That is a solution.",
+        "That is a solution."
+       ],
+       "y": "Trees are used up faster than they regrow."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-13-sign",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a sign (manifestation) of the firewood crisis?",
+       "r": "The price of firewood rises.",
+       "w": [
+        "Forests grow thicker.",
+        "Wood becomes free.",
+        "Rainfall increases."
+       ],
+       "e": [
+        "Forests shrink.",
+        "It becomes dearer.",
+        "Rainfall may fall."
+       ],
+       "y": "Scarce goods cost more."
+      },
+      {
+       "q": "Who in a family often walks far to fetch firewood?",
+       "r": "women and children",
+       "w": [
+        "only rich men",
+        "only tourists",
+        "nobody"
+       ],
+       "e": [
+        "Women and children usually do it.",
+        "That is not true.",
+        "Someone must fetch it."
+       ],
+       "y": "Children may even miss school."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-13-sol",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a solution to the firewood crisis?",
+       "r": "using improved (energy-saving) stoves",
+       "w": [
+        "three-stone fires",
+        "cutting more trees",
+        "starting bush fires"
+       ],
+       "e": [
+        "They waste heat.",
+        "That makes it worse.",
+        "That destroys trees."
+       ],
+       "y": "Less wood for the same cooking."
+      },
+      {
+       "q": "Which fuel can replace firewood without cutting trees?",
+       "r": "biogas from animal dung",
+       "w": [
+        "charcoal",
+        "more wood",
+        "sawdust from forests"
+       ],
+       "e": [
+        "Charcoal is made from trees.",
+        "That uses trees.",
+        "That comes from trees."
+       ],
+       "y": "Biogas is made from waste."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Improved stoves save wood.",
+      "truth": "true"
+     },
+     {
+      "text": "Woodlots give wood near villages.",
+      "truth": "true"
+     },
+     {
+      "text": "Smoke from wood fires harms the lungs.",
+      "truth": "true"
+     },
+     {
+      "text": "The crisis makes firewood more expensive.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The firewood crisis helps to stop desertification.",
+      "truth": "false",
+      "explain": "Cutting trees increases desertification."
+     },
+     {
+      "text": "Three-stone fires use less wood than improved stoves.",
+      "truth": "false",
+      "explain": "Improved stoves use less wood."
+     },
+     {
+      "text": "Population growth reduces the need for firewood.",
+      "truth": "false",
+      "explain": "More people need more fuel."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

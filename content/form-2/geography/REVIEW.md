@@ -157,6 +157,15 @@ Full working after a second miss:
 | 8 | (Part 1): Man in The Equatorial Zone (Location; Climatic characteristics; Resources; methods of exploitation) | draft | 3 | 4 | — |
 | 9 | (Part 2): Man in The Equatorial Zone: (Problems faced & Proposed solutions) | draft | 3 | 4 | — |
 | 10 | Further Study 1: Deforestation in Cameroon (causes, manifestations,) | draft | 3 | 4 | — |
+| 11 | Man in the tropical zone (Location; Climatic characteristics & Resources) | draft | 3 | 4 | — |
+| 12 | Man in the tropical zone (methods of exploitation; Problems faced; Proposed solutions) | draft | 3 | 4 | — |
+| 13 | Further Study 2: Firewood Crisis(causes, manifestation, consequences & solutions) | draft | 3 | 4 | — |
+| 14 | Further study 3: products gathered from the wild in Cameroon (njangsa, eru, bush mango, bitter cola, etc.: methods of collection, socio-economic importance of these products) | draft | 3 | 4 | — |
+| 15 | PW3: Identification of the Biological Resources in Cameroon | draft | 3 | 4 | — |
+| 16 | Man in the Hot Desert Milieu (Location; Climatic characteristics; Resources; Traditional methods; Problems & Proposed solutions) | draft | 3 | 4 | — |
+| 17 | Further study4: Water Scarcity | draft | 3 | 5 | — |
+| 18 | (Part 1): Country sides in Africa (agricultural landscape, rural settlements | draft | 3 | 4 | — |
+| 19 | (Part 2): Country sides in Africa (Attractive & repulsive aspects of rural areas) | draft | 3 | 4 | — |
 
 ## Lesson 1: (Part 1)- A Rapid Growth of the World’s Population(Historical evolution: Factors for rapid growth; Implications on natural resources
 
@@ -2180,4 +2189,1974 @@ Full working after a second miss:
 
 > The wrong statement is “Cutting trees increases biodiversity.”.  
 > It reduces biodiversity.  
+
+## Lesson 11: Man in the tropical zone (Location; Climatic characteristics & Resources)
+
+Prerequisites: none · Skill: g2-11 (Man in the tropical zone: location, climate and resources)
+
+**Note** (draft)
+
+> The tropical (savanna) zone lies between about 5° and 15° north and south of the Equator, between the equatorial forest and the hot deserts. In Cameroon it covers the Adamawa, North and Far North regions; in Africa, the Sahel and Sudan belts and much of East and Southern Africa.
+> Climate:
+> • hot all year (about 25–30 °C), with a larger temperature range than the equatorial zone;
+> • two seasons: a rainy season (summer) and a long dry season with the harmattan wind;
+> • rainfall about 500–1500 mm, decreasing away from the Equator.
+> Vegetation: savanna grassland with scattered trees (baobab, acacia, shea), gallery forests along rivers.
+> Resources: pasture for cattle, crops (cotton, millet, sorghum, groundnuts, maize), wild animals (Waza and Bénoué national parks), shea nuts, gum arabic, rivers (Benue, Lagdo dam).
+
+**Card c11-1** (draft)
+
+> The tropical zone lies between about 5° and 15° north and south of the Equator.
+>
+> _In Cameroon: Adamawa, North and Far North._  
+> _Between the forest and the desert._  
+
+Check question: `g2-11-where` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Between which two zones does the tropical zone lie?
+
+- ◻️ two oceans  
+  _↳ feedback if chosen: It is a climate belt on land._
+- ✅ the equatorial forest and the hot desert
+- ◻️ the polar zone and the desert  
+  _↳ feedback if chosen: The polar zones are far away._
+- ◻️ the mountains and the sea  
+  _↳ feedback if chosen: That is not a climate belt._
+
+Full working after a second miss:
+
+> It is between the forest and the desert.  
+> So the answer is “the equatorial forest and the hot desert”.  
+
+**Card c11-2** (draft)
+
+> The tropical climate is hot, with a rainy season and a long dry season; the harmattan blows in the dry season.
+>
+> _Rain falls mainly from May to October in the North._  
+> _Rainfall decreases towards the desert._  
+
+Check question: `g2-11-climate` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which dry, dusty wind blows in the tropical zone in the dry season?
+
+- ◻️ the trade wind from the sea  
+  _↳ feedback if chosen: The harmattan blows from the Sahara._
+- ◻️ the monsoon  
+  _↳ feedback if chosen: The monsoon brings rain._
+- ✅ the harmattan
+- ◻️ a sea breeze  
+  _↳ feedback if chosen: A sea breeze is coastal._
+
+Full working after a second miss:
+
+> The harmattan blows from the Sahara.  
+> So the answer is “the harmattan”.  
+
+**Card c11-3** (draft)
+
+> Savanna grassland gives pasture for cattle and land for cotton, millet and groundnuts.
+>
+> _Waza National Park has savanna animals._  
+> _The baobab and shea tree grow there._  
+
+Check question: `g2-11-res-card` · multiple choice, level 1 · **authored key**
+
+> Which crop is widely grown in the savanna of northern Cameroon?
+
+- ◻️ rubber  
+  _↳ feedback if chosen: Rubber grows in the forest zone._
+- ◻️ tea on the coast  
+  _↳ feedback if chosen: Tea grows in the highlands._
+- ◻️ cocoa  
+  _↳ feedback if chosen: Cocoa grows in the forest zone._
+- ✅ cotton
+
+Full working after a second miss:
+
+> Cotton grows in the hot, seasonally dry savanna.  
+> So the answer is “cotton”.  
+
+**Worked example** (draft)
+
+> Describe the seasons of the Far North of Cameroon.
+
+1. It is in the tropical zone, far from the Equator.
+2. There is one short rainy season and a long dry season with the dusty harmattan.
+
+**Answer:** A short rainy season and a long dry season with the harmattan.
+
+**Practice** `g2-11-where` · multiple choice, level 1 · **authored key**
+
+> Which regions of Cameroon are mostly in the tropical (savanna) zone?
+
+- ◻️ Centre, South and East  
+  _↳ feedback if chosen: These are mainly in the equatorial forest zone._
+- ◻️ Littoral and South West  
+  _↳ feedback if chosen: These are coastal and forested._
+- ◻️ only the coast  
+  _↳ feedback if chosen: The coast is equatorial._
+- ✅ Adamawa, North and Far North
+
+Full working after a second miss:
+
+> The savanna covers the northern regions.  
+> So the answer is “Adamawa, North and Far North”.  
+
+> Between which two zones does the tropical zone lie?
+
+- ◻️ the mountains and the sea  
+  _↳ feedback if chosen: That is not a climate belt._
+- ◻️ the polar zone and the desert  
+  _↳ feedback if chosen: The polar zones are far away._
+- ◻️ two oceans  
+  _↳ feedback if chosen: It is a climate belt on land._
+- ✅ the equatorial forest and the hot desert
+
+Full working after a second miss:
+
+> It is between the forest and the desert.  
+> So the answer is “the equatorial forest and the hot desert”.  
+
+**Practice** `g2-11-climate` · multiple choice, level 1 · **authored key**
+
+> Which dry, dusty wind blows in the tropical zone in the dry season?
+
+- ◻️ the trade wind from the sea  
+  _↳ feedback if chosen: The harmattan blows from the Sahara._
+- ✅ the harmattan
+- ◻️ a sea breeze  
+  _↳ feedback if chosen: A sea breeze is coastal._
+- ◻️ the monsoon  
+  _↳ feedback if chosen: The monsoon brings rain._
+
+Full working after a second miss:
+
+> The harmattan blows from the Sahara.  
+> So the answer is “the harmattan”.  
+
+> How many seasons does the tropical climate have?
+
+- ◻️ no seasons  
+  _↳ feedback if chosen: There are two clear seasons._
+- ✅ two: a rainy season and a dry season
+- ◻️ four seasons  
+  _↳ feedback if chosen: Four seasons are temperate._
+- ◻️ one long rainy season  
+  _↳ feedback if chosen: There is a long dry season too._
+
+Full working after a second miss:
+
+> Wet and dry seasons.  
+> So the answer is “two: a rainy season and a dry season”.  
+
+**Practice** `g2-11-res` · multiple choice, level 2 · **authored key**
+
+> Which is a main resource of the tropical zone?
+
+- ◻️ snow for skiing  
+  _↳ feedback if chosen: There is no snow._
+- ◻️ oil palms on the coast  
+  _↳ feedback if chosen: Oil palms are mainly in the south._
+- ◻️ thick rain forest timber  
+  _↳ feedback if chosen: Thick forest is equatorial._
+- ✅ pasture for cattle
+
+Full working after a second miss:
+
+> Grassland feeds cattle.  
+> So the answer is “pasture for cattle”.  
+
+> Which is a main resource of the tropical zone?
+
+- ◻️ thick rain forest timber  
+  _↳ feedback if chosen: Thick forest is equatorial._
+- ◻️ oil palms on the coast  
+  _↳ feedback if chosen: Oil palms are mainly in the south._
+- ✅ pasture for cattle
+- ◻️ snow for skiing  
+  _↳ feedback if chosen: There is no snow._
+
+Full working after a second miss:
+
+> Grassland feeds cattle.  
+> So the answer is “pasture for cattle”.  
+
+**Practice** `g2-11-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Savanna has grass and scattered trees.
+- ✅ Cocoa is the main crop of the Far North.  
+  _↳ explanation: Cotton, millet and groundnuts are grown there._
+- ◻️ Rainfall decreases towards the desert.
+- ◻️ Waza National Park is in the savanna.
+
+Full working after a second miss:
+
+> The wrong statement is “Cocoa is the main crop of the Far North.”.  
+> Cotton, millet and groundnuts are grown there.  
+
+> Which statement is wrong?
+
+- ◻️ Rainfall decreases towards the desert.
+- ◻️ The tropical zone has a long dry season.
+- ✅ The harmattan blows from the Atlantic Ocean.  
+  _↳ explanation: It blows from the Sahara._
+- ◻️ Savanna has grass and scattered trees.
+
+Full working after a second miss:
+
+> The wrong statement is “The harmattan blows from the Atlantic Ocean.”.  
+> It blows from the Sahara.  
+
+## Lesson 12: Man in the tropical zone (methods of exploitation; Problems faced; Proposed solutions)
+
+Prerequisites: 11 · Skill: g2-12 (Man in the tropical zone: exploitation, problems and solutions)
+
+**Note** (draft)
+
+> Methods of exploitation:
+> • Nomadic and transhumant herding: the Fulani (Mbororo) move cattle to new pasture in the dry season.
+> • Ranching: cattle on fenced pasture (SODEPA ranches in Adamawa).
+> • Crop farming in the rainy season: millet, sorghum, groundnuts, maize; cash crops like cotton (SODECOTON).
+> • Irrigated farming in the dry season: rice at Yagoua and Maga (SEMRY), onions.
+> • Hunting, fishing (Lake Chad, Lagdo), tourism (Waza, Bénoué).
+> Problems: drought and irregular rain, desertification, overgrazing, bush fires, soil erosion, conflicts between farmers and herders, tsetse flies, poor roads.
+> Solutions: tree planting (the Green Sahel operation), irrigation and dams, controlled grazing, fighting bush fires, improved seeds, vaccinating animals, better roads.
+
+**Card c12-1** (draft)
+
+> Herders move cattle to new pasture in the dry season (transhumance); ranches keep them on fenced land.
+>
+> _The Mbororo move herds south in the dry season._  
+> _SODEPA ranches in Adamawa._  
+
+Check question: `g2-12-herd` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is transhumance?
+
+- ◻️ keeping hens in a cage  
+  _↳ feedback if chosen: That is poultry keeping._
+- ◻️ growing crops in a forest  
+  _↳ feedback if chosen: That is forest farming._
+- ◻️ fishing in a lake  
+  _↳ feedback if chosen: That is fishing._
+- ✅ moving herds to new pasture with the seasons
+
+Full working after a second miss:
+
+> Herders move animals to find grass and water.  
+> So the answer is “moving herds to new pasture with the seasons”.  
+
+**Card c12-2** (draft)
+
+> Farmers grow millet, sorghum and cotton in the rainy season and rice with irrigation in the dry season.
+>
+> _SODECOTON buys cotton._  
+> _SEMRY grows rice at Yagoua._  
+
+Check question: `g2-12-farm` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How is rice grown in the dry season at Yagoua?
+
+- ◻️ by rain only  
+  _↳ feedback if chosen: There is little rain in the dry season._
+- ✅ by irrigation
+- ◻️ in the forest  
+  _↳ feedback if chosen: There is no forest there._
+- ◻️ on mountain tops  
+  _↳ feedback if chosen: It is grown on the plains._
+
+Full working after a second miss:
+
+> Water is brought from the Logone.  
+> So the answer is “by irrigation”.  
+
+**Card c12-3** (draft)
+
+> Problems are drought, desertification, overgrazing and bush fires; solutions include tree planting and irrigation.
+>
+> _The Green Sahel operation plants trees._  
+> _Dams store water for irrigation._  
+
+Check question: `g2-12-prob-card` · multiple choice, level 1 · **authored key**
+
+> Which problem is caused by too many animals on the same pasture?
+
+- ◻️ earthquakes  
+  _↳ feedback if chosen: Animals do not cause earthquakes._
+- ✅ overgrazing
+- ◻️ deforestation of mangroves  
+  _↳ feedback if chosen: Mangroves are on the coast._
+- ◻️ flooding  
+  _↳ feedback if chosen: Floods come from heavy rain._
+
+Full working after a second miss:
+
+> The grass is eaten faster than it grows.  
+> So the answer is “overgrazing”.  
+
+**Worked example** (draft)
+
+> How does overgrazing damage the savanna, and what is one solution?
+
+1. Too many animals eat the grass faster than it can grow.
+2. The bare soil is eroded by wind and rain, leading to desertification.
+
+**Answer:** It leaves the soil bare and eroded; a solution is controlled grazing (fewer animals, rotating pasture).
+
+**Practice** `g2-12-herd` · multiple choice, level 1 · **authored key**
+
+> What is transhumance?
+
+- ◻️ fishing in a lake  
+  _↳ feedback if chosen: That is fishing._
+- ✅ moving herds to new pasture with the seasons
+- ◻️ keeping hens in a cage  
+  _↳ feedback if chosen: That is poultry keeping._
+- ◻️ growing crops in a forest  
+  _↳ feedback if chosen: That is forest farming._
+
+Full working after a second miss:
+
+> Herders move animals to find grass and water.  
+> So the answer is “moving herds to new pasture with the seasons”.  
+
+> Which people are well known for cattle herding in the savanna?
+
+- ◻️ the Baka  
+  _↳ feedback if chosen: The Baka are forest hunter-gatherers._
+- ◻️ the Douala  
+  _↳ feedback if chosen: The Douala live on the coast._
+- ◻️ the Bakweri  
+  _↳ feedback if chosen: The Bakweri live around Mount Cameroon._
+- ✅ the Fulani (Mbororo)
+
+Full working after a second miss:
+
+> The Fulani are herders.  
+> So the answer is “the Fulani (Mbororo)”.  
+
+**Practice** `g2-12-farm` · multiple choice, level 1 · **authored key**
+
+> Which company buys and processes cotton in northern Cameroon?
+
+- ◻️ CDC  
+  _↳ feedback if chosen: The CDC is a plantation company in the South West._
+- ✅ SODECOTON
+- ◻️ CAMRAIL  
+  _↳ feedback if chosen: CAMRAIL runs the railway._
+- ◻️ SONARA  
+  _↳ feedback if chosen: SONARA refines oil._
+
+Full working after a second miss:
+
+> SODECOTON is the cotton company.  
+> So the answer is “SODECOTON”.  
+
+> How is rice grown in the dry season at Yagoua?
+
+- ◻️ on mountain tops  
+  _↳ feedback if chosen: It is grown on the plains._
+- ◻️ in the forest  
+  _↳ feedback if chosen: There is no forest there._
+- ◻️ by rain only  
+  _↳ feedback if chosen: There is little rain in the dry season._
+- ✅ by irrigation
+
+Full working after a second miss:
+
+> Water is brought from the Logone.  
+> So the answer is “by irrigation”.  
+
+**Practice** `g2-12-prob` · multiple choice, level 2 · **authored key**
+
+> Which is a solution to desertification?
+
+- ✅ planting trees
+- ◻️ cutting all trees for firewood  
+  _↳ feedback if chosen: That makes it worse._
+- ◻️ more overgrazing  
+  _↳ feedback if chosen: That makes it worse._
+- ◻️ starting bush fires  
+  _↳ feedback if chosen: Bush fires destroy vegetation._
+
+Full working after a second miss:
+
+> Trees hold the soil and stop the desert spreading.  
+> So the answer is “planting trees”.  
+
+> Which is a solution to desertification?
+
+- ✅ planting trees
+- ◻️ more overgrazing  
+  _↳ feedback if chosen: That makes it worse._
+- ◻️ starting bush fires  
+  _↳ feedback if chosen: Bush fires destroy vegetation._
+- ◻️ cutting all trees for firewood  
+  _↳ feedback if chosen: That makes it worse._
+
+Full working after a second miss:
+
+> Trees hold the soil and stop the desert spreading.  
+> So the answer is “planting trees”.  
+
+**Practice** `g2-12-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Overgrazing leads to soil erosion.
+- ✅ Bush fires improve the soil for ever.  
+  _↳ explanation: They destroy vegetation and expose the soil._
+- ◻️ Bush fires destroy pasture.
+- ◻️ SEMRY grows irrigated rice.
+
+Full working after a second miss:
+
+> The wrong statement is “Bush fires improve the soil for ever.”.  
+> They destroy vegetation and expose the soil.  
+
+> Which statement is wrong?
+
+- ◻️ Bush fires destroy pasture.
+- ✅ Bush fires improve the soil for ever.  
+  _↳ explanation: They destroy vegetation and expose the soil._
+- ◻️ SEMRY grows irrigated rice.
+- ◻️ Tsetse flies harm cattle.
+
+Full working after a second miss:
+
+> The wrong statement is “Bush fires improve the soil for ever.”.  
+> They destroy vegetation and expose the soil.  
+
+## Lesson 13: Further Study 2: Firewood Crisis(causes, manifestation, consequences & solutions)
+
+Prerequisites: 12 · Skill: g2-13 (Further study 2: the firewood crisis)
+
+**Note** (draft)
+
+> Most rural families and many town families in Cameroon cook with firewood or charcoal. A firewood crisis is a serious shortage of wood for fuel.
+> Causes: rapid population growth; cutting trees faster than they grow; clearing land for farms; drought and desertification in the North; poverty (gas and electricity are too expensive); wasteful three-stone fires.
+> Manifestations (signs): women and children walk farther to find wood; the price of firewood and charcoal rises; trucks bring wood from far away; bare land around towns like Maroua and Garoua.
+> Consequences: desertification and soil erosion, less rain, loss of animals, children missing school to fetch wood, smoke that harms the lungs.
+> Solutions: plant fast-growing trees (woodlots), improved (energy-saving) stoves, using cooking gas and solar cookers, biogas, laws against illegal cutting, teaching people to save wood.
+
+**Card c13-1** (draft)
+
+> A firewood crisis is a serious shortage of wood for cooking fuel.
+>
+> _Most rural families cook with wood._  
+> _Charcoal is made from wood._  
+
+Check question: `g2-13-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is a cause of the firewood crisis?
+
+- ◻️ using cooking gas  
+  _↳ feedback if chosen: That is a solution._
+- ✅ cutting trees faster than they grow
+- ◻️ planting woodlots  
+  _↳ feedback if chosen: That is a solution._
+- ◻️ using solar cookers  
+  _↳ feedback if chosen: That is a solution._
+
+Full working after a second miss:
+
+> Trees are used up faster than they regrow.  
+> So the answer is “cutting trees faster than they grow”.  
+
+**Card c13-2** (draft)
+
+> Signs of the crisis: people walk farther for wood and its price rises.
+>
+> _Women and children carry wood long distances._  
+> _Bare land around northern towns._  
+
+Check question: `g2-13-sign` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Who in a family often walks far to fetch firewood?
+
+- ✅ women and children
+- ◻️ only rich men  
+  _↳ feedback if chosen: Women and children usually do it._
+- ◻️ nobody  
+  _↳ feedback if chosen: Someone must fetch it._
+- ◻️ only tourists  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Children may even miss school.  
+> So the answer is “women and children”.  
+
+**Card c13-3** (draft)
+
+> Solutions: plant woodlots, use improved stoves, cooking gas, solar cookers and biogas.
+>
+> _Fast-growing trees around villages._  
+> _Energy-saving stoves use less wood._  
+
+Check question: `g2-13-sol-card` · multiple choice, level 1 · **authored key**
+
+> Which is a solution to the firewood crisis?
+
+- ◻️ cutting more trees  
+  _↳ feedback if chosen: That makes it worse._
+- ✅ using improved (energy-saving) stoves
+- ◻️ three-stone fires  
+  _↳ feedback if chosen: They waste heat._
+- ◻️ starting bush fires  
+  _↳ feedback if chosen: That destroys trees._
+
+Full working after a second miss:
+
+> Less wood for the same cooking.  
+> So the answer is “using improved (energy-saving) stoves”.  
+
+**Worked example** (draft)
+
+> How do improved stoves help to solve the firewood crisis?
+
+1. An improved stove keeps the heat around the pot instead of letting it escape.
+2. It cooks the same food with much less wood.
+
+**Answer:** They use less wood, so fewer trees are cut.
+
+**Practice** `g2-13-what` · multiple choice, level 1 · **authored key**
+
+> What is the firewood crisis?
+
+- ✅ a serious shortage of wood for fuel
+- ◻️ a shortage of water  
+  _↳ feedback if chosen: That is water scarcity._
+- ◻️ too much firewood  
+  _↳ feedback if chosen: It is a shortage._
+- ◻️ a fire in a forest  
+  _↳ feedback if chosen: A forest fire is a bush fire._
+
+Full working after a second miss:
+
+> Fuel wood is running short.  
+> So the answer is “a serious shortage of wood for fuel”.  
+
+> What is the firewood crisis?
+
+- ✅ a serious shortage of wood for fuel
+- ◻️ too much firewood  
+  _↳ feedback if chosen: It is a shortage._
+- ◻️ a shortage of water  
+  _↳ feedback if chosen: That is water scarcity._
+- ◻️ a fire in a forest  
+  _↳ feedback if chosen: A forest fire is a bush fire._
+
+Full working after a second miss:
+
+> Fuel wood is running short.  
+> So the answer is “a serious shortage of wood for fuel”.  
+
+**Practice** `g2-13-sign` · multiple choice, level 1 · **authored key**
+
+> Which is a sign (manifestation) of the firewood crisis?
+
+- ◻️ Wood becomes free.  
+  _↳ feedback if chosen: It becomes dearer._
+- ◻️ Rainfall increases.  
+  _↳ feedback if chosen: Rainfall may fall._
+- ✅ The price of firewood rises.
+- ◻️ Forests grow thicker.  
+  _↳ feedback if chosen: Forests shrink._
+
+Full working after a second miss:
+
+> Scarce goods cost more.  
+> So the answer is “The price of firewood rises.”.  
+
+> Which is a sign (manifestation) of the firewood crisis?
+
+- ◻️ Rainfall increases.  
+  _↳ feedback if chosen: Rainfall may fall._
+- ◻️ Forests grow thicker.  
+  _↳ feedback if chosen: Forests shrink._
+- ◻️ Wood becomes free.  
+  _↳ feedback if chosen: It becomes dearer._
+- ✅ The price of firewood rises.
+
+Full working after a second miss:
+
+> Scarce goods cost more.  
+> So the answer is “The price of firewood rises.”.  
+
+**Practice** `g2-13-sol` · multiple choice, level 2 · **authored key**
+
+> Which is a solution to the firewood crisis?
+
+- ◻️ three-stone fires  
+  _↳ feedback if chosen: They waste heat._
+- ✅ using improved (energy-saving) stoves
+- ◻️ starting bush fires  
+  _↳ feedback if chosen: That destroys trees._
+- ◻️ cutting more trees  
+  _↳ feedback if chosen: That makes it worse._
+
+Full working after a second miss:
+
+> Less wood for the same cooking.  
+> So the answer is “using improved (energy-saving) stoves”.  
+
+> Which fuel can replace firewood without cutting trees?
+
+- ◻️ more wood  
+  _↳ feedback if chosen: That uses trees._
+- ✅ biogas from animal dung
+- ◻️ sawdust from forests  
+  _↳ feedback if chosen: That comes from trees._
+- ◻️ charcoal  
+  _↳ feedback if chosen: Charcoal is made from trees._
+
+Full working after a second miss:
+
+> Biogas is made from waste.  
+> So the answer is “biogas from animal dung”.  
+
+**Practice** `g2-13-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Population growth reduces the need for firewood.  
+  _↳ explanation: More people need more fuel._
+- ◻️ The crisis makes firewood more expensive.
+- ◻️ Improved stoves save wood.
+- ◻️ Smoke from wood fires harms the lungs.
+
+Full working after a second miss:
+
+> The wrong statement is “Population growth reduces the need for firewood.”.  
+> More people need more fuel.  
+
+> Which statement is wrong?
+
+- ◻️ Woodlots give wood near villages.
+- ◻️ Improved stoves save wood.
+- ✅ Population growth reduces the need for firewood.  
+  _↳ explanation: More people need more fuel._
+- ◻️ Smoke from wood fires harms the lungs.
+
+Full working after a second miss:
+
+> The wrong statement is “Population growth reduces the need for firewood.”.  
+> More people need more fuel.  
+
+## Lesson 14: Further study 3: products gathered from the wild in Cameroon (njangsa, eru, bush mango, bitter cola, etc.: methods of collection, socio-economic importance of these products)
+
+Prerequisites: 11 · Skill: g2-14 (Further study 3: products gathered from the wild)
+
+**Note** (draft)
+
+> Non-timber forest products (NTFPs) are useful products collected from wild plants, without cutting the tree.
+> Examples in Cameroon:
+> • eru (okok): leaves of a forest vine, eaten as a vegetable (South West, Centre);
+> • njangsa: seeds used as a spice;
+> • bush mango (ndo'o, andok): seeds used to thicken soups;
+> • bitter cola and kola nuts: chewed, used in ceremonies and medicine;
+> • Pygeum (Prunus africana) bark: exported for medicine;
+> • honey, mushrooms, rattan (for furniture), raffia, Gnetum, shea nuts and gum arabic in the North.
+> Methods of collection: picking fallen fruits and nuts, cutting leaves, stripping bark (only part of it), tapping, collecting honey.
+> Importance: food and medicine, income for rural families (especially women), trade and export, jobs.
+> Problems: over-harvesting (uprooting eru, stripping all the bark kills the tree). Solutions: harvest sustainably and domesticate the plants (grow eru on farms).
+
+**Card c14-1** (draft)
+
+> Products gathered from the wild are collected from wild plants without cutting the tree.
+>
+> _Eru, njangsa, bush mango, bitter cola._  
+> _Honey and mushrooms too._  
+
+Check question: `g2-14-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which product is described? The leaves of a forest vine, eaten as a vegetable with waterleaf.
+
+- ◻️ njangsa  
+  _↳ feedback if chosen: Njangsa is a seed spice._
+- ◻️ rattan  
+  _↳ feedback if chosen: Rattan is used for furniture._
+- ✅ eru (okok)
+- ◻️ bitter cola  
+  _↳ feedback if chosen: Bitter cola is a nut._
+
+Full working after a second miss:
+
+> Eru is a popular vegetable.  
+> So the answer is “eru (okok)”.  
+
+**Card c14-2** (draft)
+
+> They are collected by picking fallen fruits, cutting leaves, stripping some bark or collecting honey.
+>
+> _Bush mango seeds from fallen fruits._  
+> _Eru leaves are cut from the vine._  
+
+Check question: `g2-14-how` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How are bush mango seeds usually collected?
+
+- ◻️ by burning the forest  
+  _↳ feedback if chosen: Burning destroys the forest._
+- ◻️ by cutting the whole tree  
+  _↳ feedback if chosen: The tree is not cut._
+- ✅ from fallen ripe fruits
+- ◻️ by digging the roots  
+  _↳ feedback if chosen: The seeds are in the fruit._
+
+Full working after a second miss:
+
+> Fallen fruits are gathered.  
+> So the answer is “from fallen ripe fruits”.  
+
+**Card c14-3** (draft)
+
+> They give food, medicine and income; over-harvesting must be avoided.
+>
+> _Uprooting eru kills it._  
+> _Eru can be grown on farms._  
+
+Check question: `g2-14-imp-card` · multiple choice, level 1 · **authored key**
+
+> Which is an economic importance of wild products?
+
+- ◻️ They destroy the forest.  
+  _↳ feedback if chosen: Careful harvesting keeps the forest._
+- ◻️ They cause floods.  
+  _↳ feedback if chosen: That is not true._
+- ✅ They give income to rural families.
+- ◻️ They have no value.  
+  _↳ feedback if chosen: They have great value._
+
+Full working after a second miss:
+
+> Selling them brings money.  
+> So the answer is “They give income to rural families.”.  
+
+**Worked example** (draft)
+
+> How is bush mango collected, and why is it important?
+
+1. The ripe fruits fall; the seeds are removed, dried and sold.
+2. The seeds thicken soups, and their sale brings income to rural families.
+
+**Answer:** Collected from fallen fruits; it gives food and income.
+
+**Practice** `g2-14-what` · multiple choice, level 1 · **authored key**
+
+> Which product is described? A bark exported for making medicine.
+
+- ◻️ bush mango  
+  _↳ feedback if chosen: Bush mango is a seed._
+- ◻️ honey  
+  _↳ feedback if chosen: Honey is made by bees._
+- ◻️ eru  
+  _↳ feedback if chosen: Eru is a leaf._
+- ✅ Pygeum (Prunus africana)
+
+Full working after a second miss:
+
+> Pygeum bark treats prostate illness.  
+> So the answer is “Pygeum (Prunus africana)”.  
+
+> Which product is described? Seeds used as a spice in soups and pepper soup.
+
+- ◻️ rattan  
+  _↳ feedback if chosen: Rattan is a cane._
+- ✅ njangsa
+- ◻️ eru  
+  _↳ feedback if chosen: Eru is a leaf._
+- ◻️ raffia  
+  _↳ feedback if chosen: Raffia is a palm._
+
+Full working after a second miss:
+
+> Njangsa seeds are a spice.  
+> So the answer is “njangsa”.  
+
+**Practice** `g2-14-how` · multiple choice, level 1 · **authored key**
+
+> How are bush mango seeds usually collected?
+
+- ◻️ by burning the forest  
+  _↳ feedback if chosen: Burning destroys the forest._
+- ✅ from fallen ripe fruits
+- ◻️ by cutting the whole tree  
+  _↳ feedback if chosen: The tree is not cut._
+- ◻️ by digging the roots  
+  _↳ feedback if chosen: The seeds are in the fruit._
+
+Full working after a second miss:
+
+> Fallen fruits are gathered.  
+> So the answer is “from fallen ripe fruits”.  
+
+> How are bush mango seeds usually collected?
+
+- ◻️ by burning the forest  
+  _↳ feedback if chosen: Burning destroys the forest._
+- ✅ from fallen ripe fruits
+- ◻️ by digging the roots  
+  _↳ feedback if chosen: The seeds are in the fruit._
+- ◻️ by cutting the whole tree  
+  _↳ feedback if chosen: The tree is not cut._
+
+Full working after a second miss:
+
+> Fallen fruits are gathered.  
+> So the answer is “from fallen ripe fruits”.  
+
+**Practice** `g2-14-imp` · multiple choice, level 2 · **authored key**
+
+> Which is an economic importance of wild products?
+
+- ◻️ They cause floods.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ They destroy the forest.  
+  _↳ feedback if chosen: Careful harvesting keeps the forest._
+- ✅ They give income to rural families.
+- ◻️ They have no value.  
+  _↳ feedback if chosen: They have great value._
+
+Full working after a second miss:
+
+> Selling them brings money.  
+> So the answer is “They give income to rural families.”.  
+
+> How can eru be protected from over-harvesting?
+
+- ✅ by growing it on farms (domestication)
+- ◻️ by selling more  
+  _↳ feedback if chosen: That increases pressure._
+- ◻️ by uprooting it  
+  _↳ feedback if chosen: That kills it._
+- ◻️ by burning the forest  
+  _↳ feedback if chosen: That destroys it._
+
+Full working after a second miss:
+
+> Farmers can grow it.  
+> So the answer is “by growing it on farms (domestication)”.  
+
+**Practice** `g2-14-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Pygeum bark is eaten as a vegetable.  
+  _↳ explanation: It is used for medicine._
+- ◻️ Wild products give income to women.
+- ◻️ Honey is a wild product.
+- ◻️ Eru is a forest vegetable.
+
+Full working after a second miss:
+
+> The wrong statement is “Pygeum bark is eaten as a vegetable.”.  
+> It is used for medicine.  
+
+> Which statement is wrong?
+
+- ◻️ Eru is a forest vegetable.
+- ◻️ Njangsa is used as a spice.
+- ✅ Uprooting eru is the best way to harvest it.  
+  _↳ explanation: Uprooting kills the plant._
+- ◻️ Wild products give income to women.
+
+Full working after a second miss:
+
+> The wrong statement is “Uprooting eru is the best way to harvest it.”.  
+> Uprooting kills the plant.  
+
+## Lesson 15: PW3: Identification of the Biological Resources in Cameroon
+
+Prerequisites: 14 · Skill: g2-15 (Practical work 3: identifying the biological resources of Cameroon)
+
+**Note** (draft)
+
+> Biological resources are living resources: plants (forests, crops, wild products) and animals (wildlife, livestock, fish).
+> Main zones and their resources:
+> • equatorial forest (South, East, Centre, Littoral, South West): timber (sapelli, iroko, ayous), cocoa, coffee, oil palm, eru, gorillas, elephants (Dja, Lobéké, Korup);
+> • highlands (West, North West): Arabica coffee, tea, maize, beans, potatoes, cattle;
+> • tropical savanna (Adamawa, North, Far North): cattle, goats, cotton, millet, groundnuts, shea, giraffes, lions (Waza, Bénoué);
+> • coast and rivers: fish, mangroves, shrimps.
+> Method of the practical: list resources seen in your area or a market, sort them into plant and animal, wild and cultivated, record them in a table, and mark the zones on a sketch map of Cameroon.
+
+**Card c15-1** (draft)
+
+> Biological resources are living: plants and animals, wild or cultivated.
+>
+> _Timber and eru are wild plants._  
+> _Cattle are reared animals._  
+
+Check question: `g2-15-sort` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Is cocoa a plant or an animal, and wild or cultivated?
+
+- ◻️ a wild animal  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+- ◻️ a wild plant  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+- ✅ a cultivated plant
+- ◻️ a reared animal  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+
+Full working after a second miss:
+
+> Cocoa is grown on farms.  
+> So: a cultivated plant.  
+
+**Card c15-2** (draft)
+
+> The forest zone gives timber and cocoa; the highlands give coffee and tea; the savanna gives cattle and cotton.
+>
+> _Sapelli is a forest timber._  
+> _Tea is grown at Tole and Ndu._  
+
+Check question: `g2-15-zone` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In which zone of Cameroon is cattle and cotton mainly found?
+
+- ◻️ the equatorial forest  
+  _↳ feedback if chosen: The forest has tsetse and little pasture._
+- ◻️ the open sea  
+  _↳ feedback if chosen: The sea has fish._
+- ✅ the tropical savanna
+- ◻️ the mangroves  
+  _↳ feedback if chosen: Mangroves are swamps._
+
+Full working after a second miss:
+
+> Grassland suits cattle and cotton.  
+> So the answer is “the tropical savanna”.  
+
+**Card c15-3** (draft)
+
+> Record resources in a table and mark their zones on a sketch map.
+>
+> _Columns: resource, plant or animal, wild or cultivated, zone._  
+> _Use a key on the map._  
+
+Check question: `g2-15-map-card` · ordering, level 1 · **authored key**
+
+> Put the steps of the practical in order.
+
+Shown as: Mark the zones on a sketch map with a key · List the resources seen in the area or market · Sort them into plant or animal, wild or cultivated · Record them in a table
+Correct order: List the resources seen in the area or market → Sort them into plant or animal, wild or cultivated → Record them in a table → Mark the zones on a sketch map with a key
+
+Full working after a second miss:
+
+> The correct order is: List the resources seen in the area or market → Sort them into plant or animal, wild or cultivated → Record them in a table → Mark the zones on a sketch map with a key.  
+
+**Worked example** (draft)
+
+> Sort a gorilla, cocoa and sapelli into plant or animal and wild or cultivated.
+
+1. A gorilla is a wild animal; sapelli is a wild tree (timber).
+2. Cocoa is a cultivated plant (a cash crop).
+
+**Answer:** Gorilla: wild animal; sapelli: wild plant; cocoa: cultivated plant.
+
+**Practice** `g2-15-sort` · multiple choice, level 1 · computed by rule
+
+> Is cocoa a plant or an animal, and wild or cultivated?
+
+- ◻️ a wild plant  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+- ◻️ a reared animal  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+- ✅ a cultivated plant
+- ◻️ a wild animal  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+
+Full working after a second miss:
+
+> Cocoa is grown on farms.  
+> So: a cultivated plant.  
+
+> Is cocoa a plant or an animal, and wild or cultivated?
+
+- ◻️ a reared animal  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+- ✅ a cultivated plant
+- ◻️ a wild animal  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+- ◻️ a wild plant  
+  _↳ feedback if chosen: Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?_
+
+Full working after a second miss:
+
+> Cocoa is grown on farms.  
+> So: a cultivated plant.  
+
+**Practice** `g2-15-zone` · multiple choice, level 1 · **authored key**
+
+> In which zone of Cameroon is cattle and cotton mainly found?
+
+- ◻️ the open sea  
+  _↳ feedback if chosen: The sea has fish._
+- ◻️ the mangroves  
+  _↳ feedback if chosen: Mangroves are swamps._
+- ◻️ the equatorial forest  
+  _↳ feedback if chosen: The forest has tsetse and little pasture._
+- ✅ the tropical savanna
+
+Full working after a second miss:
+
+> Grassland suits cattle and cotton.  
+> So the answer is “the tropical savanna”.  
+
+> In which zone of Cameroon is tea and Arabica coffee mainly found?
+
+- ◻️ the Far North plains  
+  _↳ feedback if chosen: It is too dry and hot._
+- ✅ the western highlands
+- ◻️ the Sahel  
+  _↳ feedback if chosen: It is too dry._
+- ◻️ the coastal mangroves  
+  _↳ feedback if chosen: They are swamps._
+
+Full working after a second miss:
+
+> They need cool, high land.  
+> So the answer is “the western highlands”.  
+
+**Practice** `g2-15-map` · ordering, level 2 · **authored key**
+
+> Put the steps of the practical in order.
+
+Shown as: List the resources seen in the area or market · Sort them into plant or animal, wild or cultivated · Mark the zones on a sketch map with a key · Record them in a table
+Correct order: List the resources seen in the area or market → Sort them into plant or animal, wild or cultivated → Record them in a table → Mark the zones on a sketch map with a key
+
+Full working after a second miss:
+
+> The correct order is: List the resources seen in the area or market → Sort them into plant or animal, wild or cultivated → Record them in a table → Mark the zones on a sketch map with a key.  
+
+> Put the steps of the practical in order.
+
+Shown as: Mark the zones on a sketch map with a key · Sort them into plant or animal, wild or cultivated · List the resources seen in the area or market · Record them in a table
+Correct order: List the resources seen in the area or market → Sort them into plant or animal, wild or cultivated → Record them in a table → Mark the zones on a sketch map with a key
+
+Full working after a second miss:
+
+> The correct order is: List the resources seen in the area or market → Sort them into plant or animal, wild or cultivated → Record them in a table → Mark the zones on a sketch map with a key.  
+
+**Practice** `g2-15-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Giraffes are reared on farms in the South.  
+  _↳ explanation: Giraffes live wild in northern parks._
+- ◻️ Cattle are reared in the savanna.
+- ◻️ Cocoa is a cultivated plant.
+- ◻️ Fish are a biological resource.
+
+Full working after a second miss:
+
+> The wrong statement is “Giraffes are reared on farms in the South.”.  
+> Giraffes live wild in northern parks.  
+
+> Which statement is wrong?
+
+- ◻️ Elephants live in the forest parks.
+- ◻️ Cocoa is a cultivated plant.
+- ◻️ Fish are a biological resource.
+- ✅ Tea is grown mainly in the Far North.  
+  _↳ explanation: Tea grows in the cool highlands._
+
+Full working after a second miss:
+
+> The wrong statement is “Tea is grown mainly in the Far North.”.  
+> Tea grows in the cool highlands.  
+
+## Lesson 16: Man in the Hot Desert Milieu (Location; Climatic characteristics; Resources; Traditional methods; Problems & Proposed solutions)
+
+Prerequisites: 11 · Skill: g2-16 (Man in the hot desert)
+
+**Note** (draft)
+
+> Hot deserts lie between about 15° and 30° north and south of the Equator, often on the western sides of continents: the Sahara (the largest), the Kalahari and Namib in Africa, the Arabian desert.
+> Climate: very hot days (over 40 °C) and cold nights, so the daily range of temperature is large; very little rain (under 250 mm a year), falling irregularly; dry winds and sandstorms.
+> Daily range = highest temperature − lowest temperature.
+> Vegetation: scattered thorny bushes, cacti, date palms at oases.
+> Resources: oil and gas (Algeria, Libya), minerals (phosphates, uranium in Niger), oases with dates, camels, sun for solar energy, tourism.
+> Traditional ways of life: nomadic herding of camels and goats (the Tuareg), oasis farming with wells, trade by camel caravans.
+> Problems: water shortage, heat, sandstorms, desertification, isolation. Solutions: deep wells, irrigation, solar power, tree belts against sand.
+
+**Card c16-1** (draft)
+
+> Hot deserts lie between about 15° and 30° from the Equator; the Sahara is the largest.
+>
+> _The Kalahari is in southern Africa._  
+> _Deserts are on the western sides of continents._  
+
+Check question: `g2-16-where` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is the largest hot desert in the world?
+
+- ✅ the Sahara
+- ◻️ the Kalahari  
+  _↳ feedback if chosen: The Kalahari is smaller._
+- ◻️ the Namib  
+  _↳ feedback if chosen: The Namib is a narrow coastal desert._
+- ◻️ the Atacama  
+  _↳ feedback if chosen: The Atacama is in South America and smaller._
+
+Full working after a second miss:
+
+> The Sahara covers much of North Africa.  
+> So the answer is “the Sahara”.  
+
+**Card c16-2** (draft)
+
+> Deserts have very hot days, cold nights and under 250 mm of rain a year.
+>
+> _The sky is clear, so heat escapes at night._  
+> _Daily range = highest − lowest._  
+
+Check question: `g2-16-range-card` · number, level 1 · computed by rule
+
+> In the Sahara the highest temperature in one day is 43 °C and the lowest is 17 °C. What is the daily range of temperature?
+
+Answer: **26 °C**
+- Typed **60** (add) → “The range is the difference: subtract.”
+
+Full working after a second miss:
+
+> Daily range = highest − lowest.  
+> 43 − 17 = 26 °C.  
+
+**Card c16-3** (draft)
+
+> People live by nomadic herding, oasis farming and trade; the problems are water shortage and sandstorms.
+>
+> _The Tuareg keep camels._  
+> _Dates grow at oases._  
+
+Check question: `g2-16-life` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why are desert nights cold?
+
+- ✅ The clear sky lets heat escape quickly.
+- ◻️ The sun shines at night.  
+  _↳ feedback if chosen: There is no sun at night._
+- ◻️ The sand is wet.  
+  _↳ feedback if chosen: The sand is dry._
+- ◻️ It rains every night.  
+  _↳ feedback if chosen: It rarely rains._
+
+Full working after a second miss:
+
+> No clouds to keep the heat in.  
+> So the answer is “The clear sky lets heat escape quickly.”.  
+
+**Worked example** (draft)
+
+> In a desert town the highest temperature in a day is 45 °C and the lowest is 10 °C. Find the daily range.
+
+1. Daily range = highest − lowest.
+2. 45 − 10 = 35 °C.
+
+**Answer:** 35 °C
+
+**Practice** `g2-16-where` · multiple choice, level 1 · **authored key**
+
+> About how much rain does a hot desert receive in a year?
+
+- ◻️ more than 2000 mm  
+  _↳ feedback if chosen: That is equatorial._
+- ◻️ about 1500 mm  
+  _↳ feedback if chosen: That is a wet savanna._
+- ✅ less than 250 mm
+- ◻️ rain every day  
+  _↳ feedback if chosen: Deserts are very dry._
+
+Full working after a second miss:
+
+> Deserts get very little rain.  
+> So the answer is “less than 250 mm”.  
+
+> Which is the largest hot desert in the world?
+
+- ✅ the Sahara
+- ◻️ the Atacama  
+  _↳ feedback if chosen: The Atacama is in South America and smaller._
+- ◻️ the Namib  
+  _↳ feedback if chosen: The Namib is a narrow coastal desert._
+- ◻️ the Kalahari  
+  _↳ feedback if chosen: The Kalahari is smaller._
+
+Full working after a second miss:
+
+> The Sahara covers much of North Africa.  
+> So the answer is “the Sahara”.  
+
+**Practice** `g2-16-range` · number, level 2 · computed by rule
+
+> In the Sahara the highest temperature in one day is 41 °C and the lowest is 16 °C. What is the daily range of temperature?
+
+Answer: **25 °C**
+- Typed **57** (add) → “The range is the difference: subtract.”
+
+Full working after a second miss:
+
+> Daily range = highest − lowest.  
+> 41 − 16 = 25 °C.  
+
+> In the Sahara the highest temperature in one day is 50 °C and the lowest is 7 °C. What is the daily range of temperature?
+
+Answer: **43 °C**
+- Typed **57** (add) → “The range is the difference: subtract.”
+
+Full working after a second miss:
+
+> Daily range = highest − lowest.  
+> 50 − 7 = 43 °C.  
+
+**Practice** `g2-16-life` · multiple choice, level 1 · **authored key**
+
+> Which animal is best suited to the desert?
+
+- ◻️ the gorilla  
+  _↳ feedback if chosen: Gorillas live in forests._
+- ◻️ the hippopotamus  
+  _↳ feedback if chosen: Hippos need rivers._
+- ◻️ the cow of the rain forest  
+  _↳ feedback if chosen: Cattle need more water and grass._
+- ✅ the camel
+
+Full working after a second miss:
+
+> Camels can go days without water.  
+> So the answer is “the camel”.  
+
+> What is an oasis?
+
+- ◻️ a dry river  
+  _↳ feedback if chosen: An oasis has water._
+- ◻️ a sandstorm  
+  _↳ feedback if chosen: That is a wind of sand._
+- ◻️ a mountain  
+  _↳ feedback if chosen: It is a fertile spot._
+- ✅ a place in the desert with water where plants grow
+
+Full working after a second miss:
+
+> Water comes from underground.  
+> So the answer is “a place in the desert with water where plants grow”.  
+
+**Practice** `g2-16-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Dates grow at oases.
+- ◻️ Deserts have a large daily range of temperature.
+- ✅ Water is plentiful in the desert.  
+  _↳ explanation: Water shortage is the main problem._
+- ◻️ The Tuareg are desert nomads.
+
+Full working after a second miss:
+
+> The wrong statement is “Water is plentiful in the desert.”.  
+> Water shortage is the main problem.  
+
+> Which statement is wrong?
+
+- ✅ Deserts have thick forests.  
+  _↳ explanation: They have scattered bushes and cacti._
+- ◻️ Deserts have a large daily range of temperature.
+- ◻️ Dates grow at oases.
+- ◻️ The Tuareg are desert nomads.
+
+Full working after a second miss:
+
+> The wrong statement is “Deserts have thick forests.”.  
+> They have scattered bushes and cacti.  
+
+## Lesson 17: Further study4: Water Scarcity
+
+Prerequisites: 16 · Skill: g2-17 (Further study 4: water scarcity)
+
+**Note** (draft)
+
+> Water scarcity is a lack of enough clean water to meet people's needs for drinking, cooking, washing, farming and industry.
+> Causes: low and irregular rainfall and drought (the Far North, the Sahel); drying of rivers and Lake Chad; rapid population growth; pollution of rivers; deforestation; poor water supply networks and broken pipes in towns; high cost of water.
+> Manifestations: long queues at taps and boreholes; women and children walk far to fetch water; dry wells; water rationing in towns such as Douala and Yaoundé; selling water in cans.
+> Consequences: water-borne diseases (cholera, typhoid) from dirty water, crop failure and hunger, death of animals, conflicts, children missing school.
+> Solutions: digging boreholes and wells, building dams and reservoirs, collecting rainwater from roofs, repairing pipes, protecting catchments by planting trees, saving water, treating water before drinking.
+
+**Card c17-1** (draft)
+
+> Water scarcity is a lack of enough clean water for people's needs.
+>
+> _Drinking, cooking, washing, farming._  
+> _It is serious in the Far North._  
+
+Check question: `g2-17-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is water scarcity?
+
+- ◻️ a type of fish  
+  _↳ feedback if chosen: That is not true._
+- ◻️ too much rain  
+  _↳ feedback if chosen: That is the opposite._
+- ◻️ a flood  
+  _↳ feedback if chosen: A flood is too much water._
+- ✅ a lack of enough clean water for people's needs
+
+Full working after a second miss:
+
+> Not enough clean water.  
+> So the answer is “a lack of enough clean water for people's needs”.  
+
+**Card c17-2** (draft)
+
+> Causes include drought, population growth, pollution and broken pipes.
+>
+> _Lake Chad has shrunk._  
+> _Towns ration water._  
+
+Check question: `g2-17-cause` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is a cause of water scarcity in the Far North of Cameroon?
+
+- ◻️ thick forests  
+  _↳ feedback if chosen: There is savanna there._
+- ◻️ too many boreholes  
+  _↳ feedback if chosen: Boreholes help._
+- ◻️ heavy rain all year  
+  _↳ feedback if chosen: It is dry there._
+- ✅ low and irregular rainfall
+
+Full working after a second miss:
+
+> The Sahel climate is dry.  
+> So the answer is “low and irregular rainfall”.  
+
+**Card c17-3** (draft)
+
+> Solutions: boreholes, dams, rainwater harvesting, repairing pipes and saving water.
+>
+> _Collect rain from the roof in tanks._  
+> _Boil or treat drinking water._  
+
+Check question: `g2-17-sol-card` · multiple choice, level 1 · **authored key**
+
+> Why should water from a stream be boiled or treated before drinking?
+
+- ◻️ to make it cold  
+  _↳ feedback if chosen: Boiling makes it hot._
+- ◻️ to make more water  
+  _↳ feedback if chosen: It does not increase it._
+- ◻️ to add salt  
+  _↳ feedback if chosen: Treating does not add salt._
+- ✅ to kill germs that cause cholera and typhoid
+
+Full working after a second miss:
+
+> Treated water is safe to drink.  
+> So the answer is “to kill germs that cause cholera and typhoid”.  
+
+**Worked example** (draft)
+
+> A family of 6 people needs 5 litres each for drinking and cooking and 4 litres each for washing a day. How many litres do they need a day?
+
+1. Each person needs 5 + 4 = 9 litres.
+2. For 6 people: 6 × 9 = 54 litres.
+
+**Answer:** 54 litres
+
+**Practice** `g2-17-what` · multiple choice, level 1 · **authored key**
+
+> Which disease spreads when people drink dirty water?
+
+- ◻️ night blindness  
+  _↳ feedback if chosen: That is from lack of vitamin A._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+- ✅ cholera
+- ◻️ obesity  
+  _↳ feedback if chosen: Obesity is from overeating._
+
+Full working after a second miss:
+
+> Cholera germs live in dirty water.  
+> So the answer is “cholera”.  
+
+> What is water scarcity?
+
+- ◻️ a type of fish  
+  _↳ feedback if chosen: That is not true._
+- ✅ a lack of enough clean water for people's needs
+- ◻️ a flood  
+  _↳ feedback if chosen: A flood is too much water._
+- ◻️ too much rain  
+  _↳ feedback if chosen: That is the opposite._
+
+Full working after a second miss:
+
+> Not enough clean water.  
+> So the answer is “a lack of enough clean water for people's needs”.  
+
+**Practice** `g2-17-cause` · multiple choice, level 1 · **authored key**
+
+> Which is a cause of water scarcity in the Far North of Cameroon?
+
+- ✅ low and irregular rainfall
+- ◻️ thick forests  
+  _↳ feedback if chosen: There is savanna there._
+- ◻️ heavy rain all year  
+  _↳ feedback if chosen: It is dry there._
+- ◻️ too many boreholes  
+  _↳ feedback if chosen: Boreholes help._
+
+Full working after a second miss:
+
+> The Sahel climate is dry.  
+> So the answer is “low and irregular rainfall”.  
+
+> Why do some towns ration water even when there is rain?
+
+- ◻️ Taps are not needed.  
+  _↳ feedback if chosen: Taps are needed._
+- ◻️ People do not drink water.  
+  _↳ feedback if chosen: Everyone needs water._
+- ✅ The supply network is too small and pipes are broken.
+- ◻️ Rain is not water.  
+  _↳ feedback if chosen: Rain is water._
+
+Full working after a second miss:
+
+> Supply cannot meet demand.  
+> So the answer is “The supply network is too small and pipes are broken.”.  
+
+**Practice** `g2-17-calc` · number, level 2 · computed by rule
+
+> A family of 5 people uses 20 litres each per day. How many litres does the family use in a week?
+
+Answer: **700 litres**
+- Typed **100** (day) → “That is one day: multiply by 7 for a week.”
+
+Full working after a second miss:
+
+> Per day: 5 × 20 = 100 litres.  
+> Per week: 100 × 7 = 700 litres.  
+
+> A family of 4 people uses 25 litres each per day. How many litres does the family use in a week?
+
+Answer: **700 litres**
+- Typed **100** (day) → “That is one day: multiply by 7 for a week.”
+
+Full working after a second miss:
+
+> Per day: 4 × 25 = 100 litres.  
+> Per week: 100 × 7 = 700 litres.  
+
+**Practice** `g2-17-sol` · multiple choice, level 2 · **authored key**
+
+> Which is a solution to water scarcity?
+
+- ✅ collecting rainwater from roofs in tanks
+- ◻️ leaving taps running  
+  _↳ feedback if chosen: That wastes water._
+- ◻️ polluting rivers  
+  _↳ feedback if chosen: That makes it worse._
+- ◻️ cutting trees near springs  
+  _↳ feedback if chosen: That dries up springs._
+
+Full working after a second miss:
+
+> Rainwater harvesting stores water for the dry season.  
+> So the answer is “collecting rainwater from roofs in tanks”.  
+
+> Which is a solution to water scarcity?
+
+- ✅ collecting rainwater from roofs in tanks
+- ◻️ leaving taps running  
+  _↳ feedback if chosen: That wastes water._
+- ◻️ cutting trees near springs  
+  _↳ feedback if chosen: That dries up springs._
+- ◻️ polluting rivers  
+  _↳ feedback if chosen: That makes it worse._
+
+Full working after a second miss:
+
+> Rainwater harvesting stores water for the dry season.  
+> So the answer is “collecting rainwater from roofs in tanks”.  
+
+**Practice** `g2-17-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Planting trees protects water sources.
+- ✅ Water scarcity is caused by too many trees.  
+  _↳ explanation: Deforestation, not trees, worsens water scarcity._
+- ◻️ Dirty water spreads cholera.
+- ◻️ Rainwater can be collected from roofs.
+
+Full working after a second miss:
+
+> The wrong statement is “Water scarcity is caused by too many trees.”.  
+> Deforestation, not trees, worsens water scarcity.  
+
+> Which statement is wrong?
+
+- ✅ Lake Chad is growing larger every year.  
+  _↳ explanation: Lake Chad has shrunk a great deal._
+- ◻️ Planting trees protects water sources.
+- ◻️ Dirty water spreads cholera.
+- ◻️ Rainwater can be collected from roofs.
+
+Full working after a second miss:
+
+> The wrong statement is “Lake Chad is growing larger every year.”.  
+> Lake Chad has shrunk a great deal.  
+
+## Lesson 18: (Part 1): Country sides in Africa (agricultural landscape, rural settlements
+
+Prerequisites: none · Skill: g2-18 (Countrysides in Africa: agricultural landscapes and rural settlements)
+
+**Note** (draft)
+
+> The countryside (rural area) is the land outside towns, where most people farm.
+> Agricultural landscapes:
+> • forest zone: small food-crop farms in clearings (shifting cultivation, bush fallowing) and plantations of cocoa, coffee, oil palm, rubber and bananas (the CDC around Mount Cameroon);
+> • highlands: terraced or ridged fields, mixed farming with cattle (bocage hedges in the West);
+> • savanna: large open fields of millet, sorghum, cotton and groundnuts, and grazing land.
+> Rural settlements:
+> • dispersed (scattered): houses far apart on each farm, as in the Western Highlands;
+> • nucleated (clustered): houses grouped together, for defence or around water;
+> • linear: houses along a road, river or railway, as in the South and East.
+> Building materials vary: mud bricks, thatch, wood, bamboo, zinc roofs.
+
+**Card c18-1** (draft)
+
+> The countryside is the rural area outside towns, where most people farm.
+>
+> _Villages and farms._  
+> _Most rural people are farmers._  
+
+Check question: `g2-18-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is the countryside?
+
+- ◻️ a big market in town  
+  _↳ feedback if chosen: That is in a town._
+- ✅ the rural area outside towns
+- ◻️ a factory area  
+  _↳ feedback if chosen: That is industrial._
+- ◻️ the centre of a city  
+  _↳ feedback if chosen: That is urban._
+
+Full working after a second miss:
+
+> Rural areas are outside towns.  
+> So the answer is “the rural area outside towns”.  
+
+**Card c18-2** (draft)
+
+> Landscapes differ: forest clearings and plantations, highland mixed farms, savanna open fields.
+>
+> _Cocoa farms in the Centre._  
+> _Millet fields in the North._  
+
+Check question: `g2-18-land-card` · multiple choice, level 1 · **authored key**
+
+> Why are houses often clustered in some savanna villages?
+
+- ✅ for defence and to share water sources
+- ◻️ because the land is flooded everywhere  
+  _↳ feedback if chosen: That is not the usual reason._
+- ◻️ because there are no people  
+  _↳ feedback if chosen: There are people._
+- ◻️ because roads are everywhere  
+  _↳ feedback if chosen: That is not the reason._
+
+Full working after a second miss:
+
+> Grouping gives safety and shared water.  
+> So the answer is “for defence and to share water sources”.  
+
+**Card c18-3** (draft)
+
+> Settlements are dispersed (scattered), nucleated (clustered) or linear (along a road or river).
+>
+> _Scattered compounds in the West._  
+> _A line of houses along a road in the East._  
+
+Check question: `g2-18-set` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What type of settlement is this? Houses are grouped closely around a well.
+
+- ◻️ dispersed  
+  _↳ feedback if chosen: Dispersed houses are far apart._
+- ◻️ linear  
+  _↳ feedback if chosen: Linear follows a road._
+- ✅ nucleated (clustered)
+- ◻️ isolated  
+  _↳ feedback if chosen: Isolated is one house._
+
+Full working after a second miss:
+
+> Clustered houses.  
+> So the answer is “nucleated (clustered)”.  
+
+**Worked example** (draft)
+
+> What type of rural settlement has houses built in a line along a road, and why?
+
+1. The houses follow the road, one after another.
+2. People live near the road for transport and trade.
+
+**Answer:** A linear settlement.
+
+**Practice** `g2-18-what` · multiple choice, level 1 · **authored key**
+
+> What is the main activity of most people in the countryside?
+
+- ◻️ working in factories  
+  _↳ feedback if chosen: Factories are mainly in towns._
+- ✅ farming
+- ◻️ flying aeroplanes  
+  _↳ feedback if chosen: That is rare._
+- ◻️ banking  
+  _↳ feedback if chosen: Banks are in towns._
+
+Full working after a second miss:
+
+> Most rural people farm.  
+> So the answer is “farming”.  
+
+> What is the countryside?
+
+- ◻️ a factory area  
+  _↳ feedback if chosen: That is industrial._
+- ✅ the rural area outside towns
+- ◻️ a big market in town  
+  _↳ feedback if chosen: That is in a town._
+- ◻️ the centre of a city  
+  _↳ feedback if chosen: That is urban._
+
+Full working after a second miss:
+
+> Rural areas are outside towns.  
+> So the answer is “the rural area outside towns”.  
+
+**Practice** `g2-18-set` · multiple choice, level 1 · **authored key**
+
+> What type of settlement is this? Houses are far apart, each on its own farm.
+
+- ✅ dispersed (scattered)
+- ◻️ urban  
+  _↳ feedback if chosen: Urban is a town._
+- ◻️ nucleated  
+  _↳ feedback if chosen: Nucleated houses are grouped._
+- ◻️ linear  
+  _↳ feedback if chosen: Linear houses follow a line._
+
+Full working after a second miss:
+
+> Scattered houses.  
+> So the answer is “dispersed (scattered)”.  
+
+> What type of settlement is this? Houses follow a road for many kilometres.
+
+- ✅ linear
+- ◻️ nucleated  
+  _↳ feedback if chosen: Nucleated is a cluster._
+- ◻️ circular  
+  _↳ feedback if chosen: They follow a line._
+- ◻️ dispersed  
+  _↳ feedback if chosen: Dispersed is scattered._
+
+Full working after a second miss:
+
+> Along a road, river or railway.  
+> So the answer is “linear”.  
+
+**Practice** `g2-18-land` · multiple choice, level 2 · **authored key**
+
+> Which farming landscape is typical of the forest zone?
+
+- ◻️ large open millet fields  
+  _↳ feedback if chosen: Those are in the savanna._
+- ◻️ terraced tea only  
+  _↳ feedback if chosen: Tea is in the highlands._
+- ◻️ camel herding  
+  _↳ feedback if chosen: Camels are in the desert._
+- ✅ small farms in clearings and cocoa plantations
+
+Full working after a second miss:
+
+> Forest clearings and plantations.  
+> So the answer is “small farms in clearings and cocoa plantations”.  
+
+> Which farming landscape is typical of the forest zone?
+
+- ◻️ terraced tea only  
+  _↳ feedback if chosen: Tea is in the highlands._
+- ◻️ camel herding  
+  _↳ feedback if chosen: Camels are in the desert._
+- ◻️ large open millet fields  
+  _↳ feedback if chosen: Those are in the savanna._
+- ✅ small farms in clearings and cocoa plantations
+
+Full working after a second miss:
+
+> Forest clearings and plantations.  
+> So the answer is “small farms in clearings and cocoa plantations”.  
+
+**Practice** `g2-18-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Plantations grow cocoa and rubber.
+- ✅ The countryside is the centre of a big town.  
+  _↳ explanation: It is the rural area outside towns._
+- ◻️ Linear settlements follow roads or rivers.
+- ◻️ Dispersed settlements have scattered houses.
+
+Full working after a second miss:
+
+> The wrong statement is “The countryside is the centre of a big town.”.  
+> It is the rural area outside towns.  
+
+> Which statement is wrong?
+
+- ◻️ Savanna farms grow millet and cotton.
+- ✅ The countryside is the centre of a big town.  
+  _↳ explanation: It is the rural area outside towns._
+- ◻️ Dispersed settlements have scattered houses.
+- ◻️ Plantations grow cocoa and rubber.
+
+Full working after a second miss:
+
+> The wrong statement is “The countryside is the centre of a big town.”.  
+> It is the rural area outside towns.  
+
+## Lesson 19: (Part 2): Country sides in Africa (Attractive & repulsive aspects of rural areas)
+
+Prerequisites: 18 · Skill: g2-19 (Countrysides in Africa: attractive and repulsive aspects)
+
+**Note** (draft)
+
+> Attractive aspects (what makes people stay in or move to rural areas):
+> • fresh air, quiet and a natural environment;
+> • fertile land for farming and cheap or free land;
+> • cheap, fresh food;
+> • strong family and community ties, traditions and culture;
+> • less crime and a lower cost of living.
+> Repulsive aspects (what pushes people to leave):
+> • few jobs other than farming; low incomes;
+> • poor roads, little electricity and pipe-borne water;
+> • few secondary schools and hospitals;
+> • hard farm work with simple tools, poor harvests and low prices;
+> • few leisure activities.
+> The repulsive aspects cause rural exodus (rural–urban migration), mainly of young people. Solutions: build roads, schools, hospitals and electricity in villages; give farmers credit and better tools; create small industries in rural areas.
+
+**Card c19-1** (draft)
+
+> Attractive aspects of the countryside: fresh air, fertile land, cheap food and strong community life.
+>
+> _Food is fresh from the farm._  
+> _Less noise and crime._  
+
+Check question: `g2-19-good` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why is food often cheaper in the village?
+
+- ◻️ Transport costs are high.  
+  _↳ feedback if chosen: Little transport is needed._
+- ◻️ There are no farms.  
+  _↳ feedback if chosen: There are many farms._
+- ◻️ It is imported.  
+  _↳ feedback if chosen: It is local._
+- ✅ It is grown nearby and fresh from the farm.
+
+Full working after a second miss:
+
+> No long transport is needed.  
+> So the answer is “It is grown nearby and fresh from the farm.”.  
+
+**Card c19-2** (draft)
+
+> Repulsive aspects: few jobs, low incomes, poor roads and few schools and hospitals.
+>
+> _No electricity in many villages._  
+> _Hard work with hoes and cutlasses._  
+
+Check question: `g2-19-bad` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which services are often lacking in villages?
+
+- ✅ electricity, hospitals and secondary schools
+- ◻️ farms and land  
+  _↳ feedback if chosen: Villages have farms._
+- ◻️ fresh air  
+  _↳ feedback if chosen: Villages have fresh air._
+- ◻️ family members  
+  _↳ feedback if chosen: Villages have families._
+
+Full working after a second miss:
+
+> Many villages lack modern services.  
+> So the answer is “electricity, hospitals and secondary schools”.  
+
+**Card c19-3** (draft)
+
+> The repulsive aspects cause rural exodus; better roads, services and rural industries can reduce it.
+>
+> _Young people move to towns._  
+> _Rural electrification helps._  
+
+Check question: `g2-19-exodus-card` · multiple choice, level 1 · **authored key**
+
+> What is rural exodus?
+
+- ◻️ a type of farming  
+  _↳ feedback if chosen: It is migration._
+- ✅ the movement of people from villages to towns
+- ◻️ a village festival  
+  _↳ feedback if chosen: It is migration._
+- ◻️ the movement of people from towns to villages  
+  _↳ feedback if chosen: That is the opposite._
+
+Full working after a second miss:
+
+> Rural–urban migration.  
+> So the answer is “the movement of people from villages to towns”.  
+
+**Worked example** (draft)
+
+> Give two reasons why a young man leaves his village for Douala.
+
+1. In the village there are few jobs besides farming, and incomes are low.
+2. Douala has more jobs, electricity, schools and entertainment.
+
+**Answer:** Few jobs and services in the village; more chances in the town.
+
+**Practice** `g2-19-good` · multiple choice, level 1 · **authored key**
+
+> Why is food often cheaper in the village?
+
+- ◻️ Transport costs are high.  
+  _↳ feedback if chosen: Little transport is needed._
+- ◻️ There are no farms.  
+  _↳ feedback if chosen: There are many farms._
+- ◻️ It is imported.  
+  _↳ feedback if chosen: It is local._
+- ✅ It is grown nearby and fresh from the farm.
+
+Full working after a second miss:
+
+> No long transport is needed.  
+> So the answer is “It is grown nearby and fresh from the farm.”.  
+
+> Why is food often cheaper in the village?
+
+- ◻️ It is imported.  
+  _↳ feedback if chosen: It is local._
+- ◻️ There are no farms.  
+  _↳ feedback if chosen: There are many farms._
+- ✅ It is grown nearby and fresh from the farm.
+- ◻️ Transport costs are high.  
+  _↳ feedback if chosen: Little transport is needed._
+
+Full working after a second miss:
+
+> No long transport is needed.  
+> So the answer is “It is grown nearby and fresh from the farm.”.  
+
+**Practice** `g2-19-bad` · multiple choice, level 1 · **authored key**
+
+> Which is a repulsive aspect of rural areas?
+
+- ◻️ cheap food  
+  _↳ feedback if chosen: That is attractive._
+- ◻️ fresh air  
+  _↳ feedback if chosen: That is attractive._
+- ✅ few jobs other than farming
+- ◻️ strong family ties  
+  _↳ feedback if chosen: That is attractive._
+
+Full working after a second miss:
+
+> Lack of jobs pushes people away.  
+> So the answer is “few jobs other than farming”.  
+
+> Which services are often lacking in villages?
+
+- ✅ electricity, hospitals and secondary schools
+- ◻️ family members  
+  _↳ feedback if chosen: Villages have families._
+- ◻️ farms and land  
+  _↳ feedback if chosen: Villages have farms._
+- ◻️ fresh air  
+  _↳ feedback if chosen: Villages have fresh air._
+
+Full working after a second miss:
+
+> Many villages lack modern services.  
+> So the answer is “electricity, hospitals and secondary schools”.  
+
+**Practice** `g2-19-exodus` · multiple choice, level 2 · **authored key**
+
+> Which measure can reduce rural exodus?
+
+- ◻️ raising town wages only  
+  _↳ feedback if chosen: That pulls people to towns._
+- ✅ bringing electricity and roads to villages
+- ◻️ closing village schools  
+  _↳ feedback if chosen: That pushes people out._
+- ◻️ stopping all farming  
+  _↳ feedback if chosen: That removes rural jobs._
+
+Full working after a second miss:
+
+> Better rural life keeps people.  
+> So the answer is “bringing electricity and roads to villages”.  
+
+> What is rural exodus?
+
+- ✅ the movement of people from villages to towns
+- ◻️ a type of farming  
+  _↳ feedback if chosen: It is migration._
+- ◻️ a village festival  
+  _↳ feedback if chosen: It is migration._
+- ◻️ the movement of people from towns to villages  
+  _↳ feedback if chosen: That is the opposite._
+
+Full working after a second miss:
+
+> Rural–urban migration.  
+> So the answer is “the movement of people from villages to towns”.  
+
+**Practice** `g2-19-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Poor roads are a repulsive aspect.
+- ◻️ Rural areas have fresh air.
+- ◻️ Young people often leave villages.
+- ✅ Rural exodus is mainly old people moving to villages.  
+  _↳ explanation: It is mainly young people moving to towns._
+
+Full working after a second miss:
+
+> The wrong statement is “Rural exodus is mainly old people moving to villages.”.  
+> It is mainly young people moving to towns.  
+
+> Which statement is wrong?
+
+- ◻️ Young people often leave villages.
+- ✅ Villages usually have more hospitals than towns.  
+  _↳ explanation: Towns have more hospitals._
+- ◻️ Rural areas have fresh air.
+- ◻️ Rural industries create jobs.
+
+Full working after a second miss:
+
+> The wrong statement is “Villages usually have more hospitals than towns.”.  
+> Towns have more hospitals.  
 

@@ -1,0 +1,443 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g2-11",
+   "name": "Man in the tropical zone: location, climate and resources"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The tropical (savanna) zone lies between about 5° and 15° north and south of the Equator, between the equatorial forest and the hot deserts. In Cameroon it covers the Adamawa, North and Far North regions; in Africa, the Sahel and Sudan belts and much of East and Southern Africa.\nClimate:\n• hot all year (about 25–30 °C), with a larger temperature range than the equatorial zone;\n• two seasons: a rainy season (summer) and a long dry season with the harmattan wind;\n• rainfall about 500–1500 mm, decreasing away from the Equator.\nVegetation: savanna grassland with scattered trees (baobab, acacia, shea), gallery forests along rivers.\nResources: pasture for cattle, crops (cotton, millet, sorghum, groundnuts, maize), wild animals (Waza and Bénoué national parks), shea nuts, gum arabic, rivers (Benue, Lagdo dam).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "the Far North of Cameroon"
+  },
+  "problem": "Describe the seasons of {t}.",
+  "steps": [
+   "It is in the tropical zone, far from the Equator.",
+   "There is one short rainy season and a long dry season with the dusty harmattan."
+  ],
+  "answer": "A short rainy season and a long dry season with the harmattan.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "The tropical zone lies between about {5}° and {15}° north and south of the Equator.",
+    "vars": {},
+    "example": [
+     "In Cameroon: Adamawa, North and Far North.",
+     "Between the forest and the desert."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-11-where"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "The tropical climate is hot, with a rainy season and a long dry season; the harmattan blows in the dry season.",
+    "vars": {},
+    "example": [
+     "Rain falls mainly from May to October in the North.",
+     "Rainfall decreases towards the desert."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-11-climate"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "Savanna grassland gives pasture for cattle and land for cotton, millet and groundnuts.",
+    "vars": {},
+    "example": [
+     "Waza National Park has savanna animals.",
+     "The baobab and shea tree grow there."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-11-res-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "tropical-zone"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a main resource of the tropical zone?",
+         "r": "pasture for cattle",
+         "w": [
+          "thick rain forest timber",
+          "oil palms on the coast",
+          "snow for skiing"
+         ],
+         "e": [
+          "Thick forest is equatorial.",
+          "Oil palms are mainly in the south.",
+          "There is no snow."
+         ],
+         "y": "Grassland feeds cattle."
+        },
+        {
+         "q": "Which crop is widely grown in the savanna of northern Cameroon?",
+         "r": "cotton",
+         "w": [
+          "cocoa",
+          "rubber",
+          "tea on the coast"
+         ],
+         "e": [
+          "Cocoa grows in the forest zone.",
+          "Rubber grows in the forest zone.",
+          "Tea grows in the highlands."
+         ],
+         "y": "Cotton grows in the hot, seasonally dry savanna."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-11-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which regions of Cameroon are mostly in the tropical (savanna) zone?",
+       "r": "Adamawa, North and Far North",
+       "w": [
+        "Centre, South and East",
+        "Littoral and South West",
+        "only the coast"
+       ],
+       "e": [
+        "These are mainly in the equatorial forest zone.",
+        "These are coastal and forested.",
+        "The coast is equatorial."
+       ],
+       "y": "The savanna covers the northern regions."
+      },
+      {
+       "q": "Between which two zones does the tropical zone lie?",
+       "r": "the equatorial forest and the hot desert",
+       "w": [
+        "the polar zone and the desert",
+        "two oceans",
+        "the mountains and the sea"
+       ],
+       "e": [
+        "The polar zones are far away.",
+        "It is a climate belt on land.",
+        "That is not a climate belt."
+       ],
+       "y": "It is between the forest and the desert."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-11-climate",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How many seasons does the tropical climate have?",
+       "r": "two: a rainy season and a dry season",
+       "w": [
+        "four seasons",
+        "one long rainy season",
+        "no seasons"
+       ],
+       "e": [
+        "Four seasons are temperate.",
+        "There is a long dry season too.",
+        "There are two clear seasons."
+       ],
+       "y": "Wet and dry seasons."
+      },
+      {
+       "q": "Which dry, dusty wind blows in the tropical zone in the dry season?",
+       "r": "the harmattan",
+       "w": [
+        "the monsoon",
+        "the trade wind from the sea",
+        "a sea breeze"
+       ],
+       "e": [
+        "The monsoon brings rain.",
+        "The harmattan blows from the Sahara.",
+        "A sea breeze is coastal."
+       ],
+       "y": "The harmattan blows from the Sahara."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-11-res",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a main resource of the tropical zone?",
+       "r": "pasture for cattle",
+       "w": [
+        "thick rain forest timber",
+        "oil palms on the coast",
+        "snow for skiing"
+       ],
+       "e": [
+        "Thick forest is equatorial.",
+        "Oil palms are mainly in the south.",
+        "There is no snow."
+       ],
+       "y": "Grassland feeds cattle."
+      },
+      {
+       "q": "Which crop is widely grown in the savanna of northern Cameroon?",
+       "r": "cotton",
+       "w": [
+        "cocoa",
+        "rubber",
+        "tea on the coast"
+       ],
+       "e": [
+        "Cocoa grows in the forest zone.",
+        "Rubber grows in the forest zone.",
+        "Tea grows in the highlands."
+       ],
+       "y": "Cotton grows in the hot, seasonally dry savanna."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "tropical-zone"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The tropical zone has a long dry season.",
+      "truth": "true"
+     },
+     {
+      "text": "Savanna has grass and scattered trees.",
+      "truth": "true"
+     },
+     {
+      "text": "Waza National Park is in the savanna.",
+      "truth": "true"
+     },
+     {
+      "text": "Rainfall decreases towards the desert.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The tropical zone has rain every day of the year.",
+      "truth": "false",
+      "explain": "It has a long dry season."
+     },
+     {
+      "text": "Cocoa is the main crop of the Far North.",
+      "truth": "false",
+      "explain": "Cotton, millet and groundnuts are grown there."
+     },
+     {
+      "text": "The harmattan blows from the Atlantic Ocean.",
+      "truth": "false",
+      "explain": "It blows from the Sahara."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

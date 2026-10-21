@@ -1,0 +1,356 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "y2-15",
+   "name": "African arts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "African art is old, rich and varied. It includes sculpture, masks, metalwork, pottery, weaving, beadwork, painting, music and dance.\nFamous examples:\n• Nok terracotta heads (Nigeria, about 500 BC–AD 200);\n• Igbo-Ukwu bronzes (Nigeria, about the 9th–10th centuries);\n• Ife heads in bronze and terracotta (12th–15th centuries);\n• Benin brass plaques and heads (from about the 13th century);\n• Cameroon: Bamum and Bamileke masks and carved stools, beadwork, the bronze and brass casting of Foumban, Tikar brass pipes, raffia work, pottery.\nThe lost-wax method: make a wax model, cover it with clay, heat it so the wax melts out, pour in molten metal, then break the clay.\nFunctions of art: religious (worship, ancestors), political (royal power), social (ceremonies, initiation), economic (trade, income) and decorative.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "o": "a bronze figure from Foumban"
+  },
+  "problem": "Describe how {o} is made by the lost-wax method.",
+  "steps": [
+   "Make a wax model and cover it with clay; heat it so the wax melts out, leaving a mould.",
+   "Pour molten bronze into the mould, let it cool, then break the clay."
+  ],
+  "answer": "Wax model, clay mould, wax melted out, metal poured in, clay broken off.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "African art includes sculpture, masks, metalwork, pottery, weaving and beadwork.",
+    "vars": {},
+    "example": [
+     "Bamileke masks.",
+     "Bamum beaded thrones."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-15-kind"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Famous old works are Nok terracotta, Ife heads and Benin bronzes; Foumban is famous for bronze casting.",
+    "vars": {},
+    "example": [
+     "Nok is the oldest of these.",
+     "Benin made brass plaques."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-15-place-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-arts"
+     ],
+     "prompt": "Put the steps of the lost-wax method in order.",
+     "items": [
+      {
+       "text": "Make a model in wax"
+      },
+      {
+       "text": "Cover the wax model with clay"
+      },
+      {
+       "text": "Heat it so the wax melts out"
+      },
+      {
+       "text": "Pour molten metal into the mould"
+      },
+      {
+       "text": "Break the clay when cool"
+      }
+     ],
+     "order": "as_written"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Art has religious, political, social, economic and decorative functions.",
+    "vars": {},
+    "example": [
+     "Masks at funerals and initiation.",
+     "Royal stools show the king's power."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-15-use"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-15-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-arts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an example of African art from Cameroon?",
+       "r": "Bamileke masks",
+       "w": [
+        "Benin brass plaques",
+        "Nok terracotta",
+        "Zimbabwe soapstone birds"
+       ],
+       "e": [
+        "Benin is in Nigeria.",
+        "Nok is in Nigeria.",
+        "They are from Zimbabwe."
+       ],
+       "y": "Masks of the Western Highlands."
+      },
+      {
+       "q": "Which Cameroonian town is famous for bronze and brass casting?",
+       "r": "Foumban",
+       "w": [
+        "Kribi",
+        "Garoua",
+        "Limbe"
+       ],
+       "e": [
+        "Kribi is known for its beaches.",
+        "Garoua is a northern port town on the Benue.",
+        "Limbe is known for its botanic garden."
+       ],
+       "y": "The Bamum artisans of Foumban."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-15-place",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-arts"
+   ],
+   "prompt": "Put the steps of the lost-wax method in order.",
+   "items": [
+    {
+     "text": "Make a model in wax"
+    },
+    {
+     "text": "Cover the wax model with clay"
+    },
+    {
+     "text": "Heat it so the wax melts out"
+    },
+    {
+     "text": "Pour molten metal into the mould"
+    },
+    {
+     "text": "Break the clay when cool"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "y2-15-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-arts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A mask is worn at a ceremony to honour the ancestors.",
+       "r": "religious",
+       "w": [
+        "economic",
+        "decorative only",
+        "political"
+       ],
+       "e": [
+        "It is not mainly for sale.",
+        "It has a deeper meaning.",
+        "It is not about the king's power."
+       ],
+       "y": "Linked to ancestors and worship."
+      },
+      {
+       "q": "A carved stool may only be used by the Fon.",
+       "r": "political",
+       "w": [
+        "economic",
+        "religious only",
+        "decorative only"
+       ],
+       "e": [
+        "It is not for sale.",
+        "It shows royal power.",
+        "It shows royal power."
+       ],
+       "y": "It shows the ruler's authority."
+      },
+      {
+       "q": "An artisan sells baskets to tourists.",
+       "r": "economic",
+       "w": [
+        "religious",
+        "political",
+        "initiation"
+       ],
+       "e": [
+        "It is not worship.",
+        "It is not about power.",
+        "It is trade."
+       ],
+       "y": "Art brings income."
+      }
+     ]
+    }
+   },
+   "prompt": "Which function of art is shown? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-arts"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Nok terracotta comes from Nigeria.",
+      "truth": "true"
+     },
+     {
+      "text": "Benin made brass plaques.",
+      "truth": "true"
+     },
+     {
+      "text": "Foumban is famous for bronze casting.",
+      "truth": "true"
+     },
+     {
+      "text": "Masks are used in ceremonies.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "African art has no religious meaning.",
+      "truth": "false",
+      "explain": "Much African art is religious."
+     },
+     {
+      "text": "The lost-wax method uses wood to make the mould.",
+      "truth": "false",
+      "explain": "It uses a wax model covered in clay."
+     },
+     {
+      "text": "Benin bronzes come from Cameroon.",
+      "truth": "false",
+      "explain": "They come from the Benin kingdom in Nigeria."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

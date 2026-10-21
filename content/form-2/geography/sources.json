@@ -1,7 +1,43 @@
 {
-  "_note": "Sources for Form 2 Geography (Batch G2-1, Term 1). Computed answers use the formulae named here; figures are rounded and must be checked.",
-  "world-population": {"ref": "UN World Population Prospects (world population milestones: 1 billion about 1800 … 8 billion on 15 November 2022); geography textbooks on population distribution and its factors", "supports": "The growth milestones, factors of rapid growth, effects on resources, density = population ÷ area, densely and sparsely populated regions and the factors.", "checked": "Milestones from general knowledge, not opened in this session: please check."},
-  "demographic-indices": {"ref": "Crude birth rate, crude death rate and rate of natural increase (per thousand)", "supports": "BR = births ÷ population × 1000; DR likewise; NI = BR − DR; ‰ ÷ 10 = %.", "checked": "Standard formulae; values computed by code."},
-  "equatorial-zone": {"ref": "The equatorial climate and the exploitation of the equatorial forest (as in Cameroonian Form 2 geography)", "supports": "Location, climate (26–27 °C, range 2–3 °C, over 1500–2000 mm of rain), vegetation, resources, methods of exploitation, problems and solutions.", "checked": "Standard textbook content; figures are typical values: please check."},
-  "cameroon-regions": {"ref": "Areas of Cameroon's ten regions (km²) and rounded population estimates; deforestation in Cameroon; protected areas Dja, Lobéké, Korup", "supports": "The density practical (areas: Adamawa 63 701, Centre 68 953, East 109 002, Far North 34 263, Littoral 20 248, North 66 090, North-West 17 300, South 47 191, South-West 25 410, West 13 892; populations in thousands are rounded estimates for practice) and the further study on deforestation.", "checked": "From general knowledge, not opened in this session. The population estimates in particular must be checked against the latest BUCREP/INS figures."}
+ "_note": "Sources for Form 2 Geography (Batches G2-1 and G2-2, Terms 1 and 2). Computed answers use the formulae named here; figures are rounded and must be checked.",
+ "world-population": {
+  "ref": "UN World Population Prospects (world population milestones: 1 billion about 1800 … 8 billion on 15 November 2022); geography textbooks on population distribution and its factors",
+  "supports": "The growth milestones, factors of rapid growth, effects on resources, density = population ÷ area, densely and sparsely populated regions and the factors.",
+  "checked": "Milestones from general knowledge, not opened in this session: please check."
+ },
+ "demographic-indices": {
+  "ref": "Crude birth rate, crude death rate and rate of natural increase (per thousand)",
+  "supports": "BR = births ÷ population × 1000; DR likewise; NI = BR − DR; ‰ ÷ 10 = %.",
+  "checked": "Standard formulae; values computed by code."
+ },
+ "equatorial-zone": {
+  "ref": "The equatorial climate and the exploitation of the equatorial forest (as in Cameroonian Form 2 geography)",
+  "supports": "Location, climate (26–27 °C, range 2–3 °C, over 1500–2000 mm of rain), vegetation, resources, methods of exploitation, problems and solutions.",
+  "checked": "Standard textbook content; figures are typical values: please check."
+ },
+ "cameroon-regions": {
+  "ref": "Areas of Cameroon's ten regions (km²) and rounded population estimates; deforestation in Cameroon; protected areas Dja, Lobéké, Korup",
+  "supports": "The density practical (areas: Adamawa 63 701, Centre 68 953, East 109 002, Far North 34 263, Littoral 20 248, North 66 090, North-West 17 300, South 47 191, South-West 25 410, West 13 892; populations in thousands are rounded estimates for practice) and the further study on deforestation.",
+  "checked": "From general knowledge, not opened in this session. The population estimates in particular must be checked against the latest BUCREP/INS figures."
+ },
+ "tropical-zone": {
+  "ref": "The tropical (savanna) zone and the exploitation of its resources; the firewood crisis (as in Cameroonian Form 2 geography)",
+  "supports": "Location (about 5°–15° N and S), climate (25–30 °C, 500–1500 mm, wet and dry seasons, harmattan), vegetation, resources, herding, ranching (SODEPA), cotton (SODECOTON), irrigated rice (SEMRY at Yagoua and Maga), problems and solutions (Green Sahel operation); causes, signs, consequences and solutions of the firewood crisis.",
+  "checked": "Standard textbook content and general knowledge, not opened in this session: please check the figures and company names."
+ },
+ "biological-resources": {
+  "ref": "Non-timber forest products of Cameroon and the biological resources of its zones",
+  "supports": "Eru (Gnetum), njangsa, bush mango (Irvingia), bitter cola, kola, Pygeum (Prunus africana), rattan, raffia, honey, shea, gum arabic; methods of collection, importance and sustainable harvesting; resources of the forest, highland, savanna and coastal zones; protected areas Dja, Lobéké, Korup, Waza, Bénoué.",
+  "checked": "General knowledge: please check."
+ },
+ "hot-desert": {
+  "ref": "The hot desert milieu and water scarcity",
+  "supports": "Location (about 15°–30°), climate (over 40 °C by day, cold nights, under 250 mm), daily range = highest − lowest (computed), resources, the Tuareg, oases; causes, signs, consequences and solutions of water scarcity; household water = people × litres × days (computed).",
+  "checked": "Standard values; arithmetic computed by the engine."
+ },
+ "rural-africa": {
+  "ref": "Countrysides in Africa: agricultural landscapes, rural settlement patterns, attractive and repulsive aspects, rural exodus",
+  "supports": "Forest, highland and savanna landscapes; dispersed, nucleated and linear settlements; push and pull factors; solutions to rural exodus.",
+  "checked": "Standard textbook content: please check."
+ }
 }

@@ -171,6 +171,17 @@ Full working after a second miss:
 | 8 | Further study 1: A study of one state-like and Equaliisation state in Cameroon | draft | 3 | 4 | — |
 | 9 | Ghana :From the 9th to the 10th centuries | draft | 3 | 4 | — |
 | 10 | Guided Work 2: Enquiry on traditional rites of the region | draft | 3 | 4 | — |
+| 11 | Mali | draft | 3 | 5 | — |
+| 12 | Kanem Bornu | draft | 3 | 4 | — |
+| 13 | The Kingdom of Congo | draft | 3 | 4 | — |
+| 14 | Great Zimbabwe | draft | 3 | 4 | — |
+| 15 | African Arts | draft | 3 | 4 | — |
+| 16 | Guided work 2: The Arts in your region | draft | 3 | 4 | — |
+| 17 | Further Study2: Factors for the decline of African Empires | draft | 3 | 4 | — |
+| 18 | Contacts between West Africa and the Sudan with the Arabs and Europeans | draft | 3 | 4 | — |
+| 19 | Contacts between East Africa and the Indian Ocean | draft | 3 | 4 | — |
+| 20 | The First Contact of Cameroon with the Europeans | draft | 3 | 4 | — |
+| 21 | Europe from the Dark Ages to the Renaissance | draft | 3 | 4 | — |
 
 ## Lesson 1: The Sao and the Pygmies
 
@@ -2282,4 +2293,2388 @@ Full working after a second miss:
 
 > The wrong statement is “Enthronement is a rite for newborn babies.”.  
 > Enthronement installs a new chief.  
+
+## Lesson 11: Mali
+
+Prerequisites: none · Skill: y2-11 (The empire of Mali)
+
+**Note** (draft)
+
+> Mali rose in the upper Niger valley after the fall of Ghana.
+> Founding: Sundiata Keita, a Mandinka prince, defeated Sumanguru (Soumaoro Kanté), king of Sosso, at the battle of Kirina in 1235, and founded the empire. The capital was Niani.
+> Mansa Musa (ruled about 1312–1337) was its most famous ruler. On his pilgrimage to Mecca in 1324 he gave away so much gold in Cairo that its value fell. He built mosques and made Timbuktu a centre of Islamic learning (the Sankore mosque and university).
+> Sources of wealth: gold from Bambuk and Bure, the salt trade across the Sahara, taxes on trade, farming.
+> Government: the Mansa (emperor) ruled with governors in the provinces and a strong army.
+> Decline (15th century): weak rulers, quarrels over succession, revolts, and attacks by the Tuareg and the Songhai; Songhai took over.
+
+**Card c11-1** (draft)
+
+> Sundiata Keita founded Mali after defeating Sumanguru of Sosso at the battle of Kirina.
+>
+> _Kirina was in 1235._  
+> _The capital was Niani._  
+
+Check question: `y2-11-found` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Who founded the empire of Mali?
+
+- ✅ Sundiata Keita
+- ◻️ Idris Alooma  
+  _↳ feedback if chosen: Idris Alooma ruled Kanem-Bornu._
+- ◻️ Sonni Ali  
+  _↳ feedback if chosen: Sonni Ali ruled Songhai._
+- ◻️ Mansa Musa  
+  _↳ feedback if chosen: Mansa Musa was a later ruler._
+
+Full working after a second miss:
+
+> Sundiata founded Mali after Kirina.  
+> So the answer is “Sundiata Keita”.  
+
+**Card c11-2** (draft)
+
+> Mansa Musa's pilgrimage to Mecca showed Mali's great wealth in gold.
+>
+> _He gave away so much gold that its value fell in Cairo._  
+> _He made Timbuktu a centre of learning._  
+
+Check question: `y2-11-musa` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why is Mansa Musa famous?
+
+- ◻️ for discovering America  
+  _↳ feedback if chosen: That was Columbus._
+- ✅ for his rich pilgrimage to Mecca
+- ◻️ for founding Kongo  
+  _↳ feedback if chosen: Kongo was founded by Lukeni lua Nimi._
+- ◻️ for building Great Zimbabwe  
+  _↳ feedback if chosen: That was built by the Shona's ancestors._
+
+Full working after a second miss:
+
+> His gold amazed Cairo and Mecca.  
+> So the answer is “for his rich pilgrimage to Mecca”.  
+
+**Card c11-3** (draft)
+
+> Mali grew rich from gold and the salt trade, and declined through weak rulers, revolts and attacks.
+>
+> _Gold came from Bambuk and Bure._  
+> _Songhai rose after Mali._  
+
+Check question: `y2-11-fall-card` · multiple choice, level 1 · **authored key**
+
+> Where did Mali get most of its gold?
+
+- ◻️ from Great Zimbabwe  
+  _↳ feedback if chosen: That was in southern Africa._
+- ◻️ from Lake Chad  
+  _↳ feedback if chosen: Lake Chad had no gold mines._
+- ✅ from the goldfields of Bambuk and Bure
+- ◻️ from the Atlantic Ocean  
+  _↳ feedback if chosen: Gold was mined inland._
+
+Full working after a second miss:
+
+> Bambuk and Bure were in the upper Niger and Senegal valleys.  
+> So the answer is “from the goldfields of Bambuk and Bure”.  
+
+**Worked example** (draft)
+
+> How many years passed between the battle of Kirina (1235) and Mansa Musa's pilgrimage (1324)?
+
+1. Both years are AD, so subtract the earlier from the later.
+2. 1324 − 1235 = 89 years.
+
+**Answer:** 89 years
+
+**Practice** `y2-11-found` · multiple choice, level 1 · **authored key**
+
+> Which battle marked the founding of Mali?
+
+- ◻️ the battle of Hastings  
+  _↳ feedback if chosen: Hastings was in England._
+- ✅ the battle of Kirina
+- ◻️ the battle of Mbwila  
+  _↳ feedback if chosen: Mbwila was fought in Kongo._
+- ◻️ the battle of Tondibi  
+  _↳ feedback if chosen: Tondibi ended Songhai._
+
+Full working after a second miss:
+
+> Sundiata defeated Sumanguru at Kirina.  
+> So the answer is “the battle of Kirina”.  
+
+> What was the capital of Mali?
+
+- ◻️ Gao  
+  _↳ feedback if chosen: Gao was the capital of Songhai._
+- ◻️ Koumbi Saleh  
+  _↳ feedback if chosen: That was Ghana's capital._
+- ✅ Niani
+- ◻️ Mbanza Kongo  
+  _↳ feedback if chosen: That was Kongo's capital._
+
+Full working after a second miss:
+
+> Niani was Mali's capital.  
+> So the answer is “Niani”.  
+
+**Practice** `y2-11-musa` · multiple choice, level 1 · **authored key**
+
+> Why is Mansa Musa famous?
+
+- ◻️ for founding Kongo  
+  _↳ feedback if chosen: Kongo was founded by Lukeni lua Nimi._
+- ✅ for his rich pilgrimage to Mecca
+- ◻️ for building Great Zimbabwe  
+  _↳ feedback if chosen: That was built by the Shona's ancestors._
+- ◻️ for discovering America  
+  _↳ feedback if chosen: That was Columbus._
+
+Full working after a second miss:
+
+> His gold amazed Cairo and Mecca.  
+> So the answer is “for his rich pilgrimage to Mecca”.  
+
+> Which town became a great centre of Islamic learning under Mali?
+
+- ◻️ Douala  
+  _↳ feedback if chosen: Douala is in Cameroon._
+- ✅ Timbuktu
+- ◻️ Kilwa  
+  _↳ feedback if chosen: Kilwa is in East Africa._
+- ◻️ Lagos  
+  _↳ feedback if chosen: Lagos is on the coast of Nigeria._
+
+Full working after a second miss:
+
+> The Sankore mosque and university.  
+> So the answer is “Timbuktu”.  
+
+**Practice** `y2-11-years` · number, level 2 · computed by rule
+
+> How many years passed between the battle of Kirina (1235) and the arrival of the Portuguese at the Wouri estuary (1472)?
+
+Answer: **237 years**
+- Typed **2707** (added) → “Subtract the earlier year from the later one.”
+
+Full working after a second miss:
+
+> Both years are AD, so subtract the earlier from the later.  
+> 1472 − 1235 = 237 years.  
+
+> How many years passed between the start of the First Crusade (1096) and the battle of Kirina (1235)?
+
+Answer: **139 years**
+- Typed **2331** (added) → “Subtract the earlier year from the later one.”
+
+Full working after a second miss:
+
+> Both years are AD, so subtract the earlier from the later.  
+> 1235 − 1096 = 139 years.  
+
+**Practice** `y2-11-fall` · multiple choice, level 2 · **authored key**
+
+> Which was a cause of Mali's decline?
+
+- ◻️ the gold of Mansa Musa  
+  _↳ feedback if chosen: That shows its wealth._
+- ◻️ the building of Timbuktu's mosques  
+  _↳ feedback if chosen: That shows its strength._
+- ◻️ the founding by Sundiata  
+  _↳ feedback if chosen: That was its beginning._
+- ✅ quarrels over succession and weak rulers
+
+Full working after a second miss:
+
+> Weak rulers could not hold the empire together.  
+> So the answer is “quarrels over succession and weak rulers”.  
+
+> Which was a cause of Mali's decline?
+
+- ◻️ the founding by Sundiata  
+  _↳ feedback if chosen: That was its beginning._
+- ✅ quarrels over succession and weak rulers
+- ◻️ the building of Timbuktu's mosques  
+  _↳ feedback if chosen: That shows its strength._
+- ◻️ the gold of Mansa Musa  
+  _↳ feedback if chosen: That shows its wealth._
+
+Full working after a second miss:
+
+> Weak rulers could not hold the empire together.  
+> So the answer is “quarrels over succession and weak rulers”.  
+
+**Practice** `y2-11-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Songhai rose after Mali.
+- ◻️ Sundiata won the battle of Kirina.
+- ◻️ Mali traded gold and salt.
+- ✅ Mali was founded by Mansa Musa.  
+  _↳ explanation: It was founded by Sundiata Keita._
+
+Full working after a second miss:
+
+> The wrong statement is “Mali was founded by Mansa Musa.”.  
+> It was founded by Sundiata Keita.  
+
+> Which statement is wrong?
+
+- ◻️ Mansa Musa went on pilgrimage to Mecca.
+- ◻️ Mali traded gold and salt.
+- ✅ Mali grew rich from selling oil.  
+  _↳ explanation: Its wealth came from gold and trade._
+- ◻️ Sundiata won the battle of Kirina.
+
+Full working after a second miss:
+
+> The wrong statement is “Mali grew rich from selling oil.”.  
+> Its wealth came from gold and trade.  
+
+## Lesson 12: Kanem Bornu
+
+Prerequisites: 11 · Skill: y2-12 (The empire of Kanem-Bornu)
+
+**Note** (draft)
+
+> Kanem-Bornu grew around Lake Chad, including part of today's northern Cameroon.
+> Kanem, east of Lake Chad, was founded by about the 9th century and ruled by the Saifawa dynasty. Its rulers took the title Mai. Mai Hummay became a Muslim at the end of the 11th century. The capital was Njimi.
+> In the late 14th century the Bulala attacked Kanem, and the Mai moved west of the lake to Bornu. Ali Gaji built a new capital, Ngazargamu, in the 15th century.
+> Mai Idris Alooma (ruled about 1571–1603) was its greatest ruler: he bought firearms (muskets) and hired Turkish musketeers, used camels and boats, reformed justice by Islamic law and built mosques.
+> Wealth: trans-Saharan trade with Tripoli and Egypt (slaves, ivory, leather traded for horses, salt, cloth and weapons), and taxes.
+> Decline: weak rulers, attacks by the Fulani jihad (19th century) and by Rabih (1893).
+
+**Card c12-1** (draft)
+
+> Kanem-Bornu grew around Lake Chad; its rulers, the Mai, belonged to the Saifawa dynasty.
+>
+> _Kanem was east of the lake._  
+> _Part of northern Cameroon was in Bornu._  
+
+Check question: `y2-12-where` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What was the title of the rulers of Kanem-Bornu?
+
+- ◻️ Manikongo  
+  _↳ feedback if chosen: Manikongo was the ruler of Kongo._
+- ◻️ Askia  
+  _↳ feedback if chosen: Askia was a title in Songhai._
+- ✅ Mai
+- ◻️ Mansa  
+  _↳ feedback if chosen: Mansa was the title in Mali._
+
+Full working after a second miss:
+
+> The Mai of the Saifawa dynasty.  
+> So the answer is “Mai”.  
+
+**Card c12-2** (draft)
+
+> Attacks by the Bulala made the Mai move to Bornu, where Ngazargamu became the capital.
+>
+> _Njimi was the capital of Kanem._  
+> _Ali Gaji built Ngazargamu._  
+
+Check question: `y2-12-move` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What was the capital of Bornu?
+
+- ◻️ Timbuktu  
+  _↳ feedback if chosen: Timbuktu was in Mali._
+- ◻️ Njimi  
+  _↳ feedback if chosen: Njimi was the capital of Kanem._
+- ✅ Ngazargamu
+- ◻️ Niani  
+  _↳ feedback if chosen: Niani was Mali's capital._
+
+Full working after a second miss:
+
+> Ali Gaji built Ngazargamu.  
+> So the answer is “Ngazargamu”.  
+
+**Card c12-3** (draft)
+
+> Idris Alooma used firearms and Turkish musketeers and ruled by Islamic law.
+>
+> _He ruled in the late 16th century._  
+> _He was its greatest Mai._  
+
+Check question: `y2-12-idris-card` · multiple choice, level 1 · **authored key**
+
+> What did Idris Alooma bring to his army?
+
+- ◻️ tanks  
+  _↳ feedback if chosen: Tanks did not exist then._
+- ◻️ aeroplanes  
+  _↳ feedback if chosen: Aeroplanes did not exist then._
+- ✅ firearms and Turkish musketeers
+- ◻️ only bows and arrows  
+  _↳ feedback if chosen: He added firearms._
+
+Full working after a second miss:
+
+> Muskets made his army stronger.  
+> So the answer is “firearms and Turkish musketeers”.  
+
+**Worked example** (draft)
+
+> Give two reasons why Idris Alooma made Kanem-Bornu strong.
+
+1. He bought firearms and hired Turkish musketeers, so his army was stronger than its enemies.
+2. He ruled by Islamic law and organised the government well.
+
+**Answer:** Firearms for the army, and good government under Islamic law.
+
+**Practice** `y2-12-where` · multiple choice, level 1 · **authored key**
+
+> Around which lake did Kanem-Bornu grow?
+
+- ◻️ Lake Tanganyika  
+  _↳ feedback if chosen: That is in East Africa._
+- ◻️ Lake Victoria  
+  _↳ feedback if chosen: That is in East Africa._
+- ✅ Lake Chad
+- ◻️ Lake Nyos  
+  _↳ feedback if chosen: That is a small crater lake in Cameroon._
+
+Full working after a second miss:
+
+> Kanem was east and Bornu west of Lake Chad.  
+> So the answer is “Lake Chad”.  
+
+> Around which lake did Kanem-Bornu grow?
+
+- ✅ Lake Chad
+- ◻️ Lake Victoria  
+  _↳ feedback if chosen: That is in East Africa._
+- ◻️ Lake Tanganyika  
+  _↳ feedback if chosen: That is in East Africa._
+- ◻️ Lake Nyos  
+  _↳ feedback if chosen: That is a small crater lake in Cameroon._
+
+Full working after a second miss:
+
+> Kanem was east and Bornu west of Lake Chad.  
+> So the answer is “Lake Chad”.  
+
+**Practice** `y2-12-move` · multiple choice, level 1 · **authored key**
+
+> Why did the Mai move from Kanem to Bornu?
+
+- ✅ because of attacks by the Bulala
+- ◻️ to find gold mines  
+  _↳ feedback if chosen: Bornu had no gold mines._
+- ◻️ because of floods only  
+  _↳ feedback if chosen: The main reason was war._
+- ◻️ because the Portuguese invaded  
+  _↳ feedback if chosen: The Portuguese never reached Lake Chad._
+
+Full working after a second miss:
+
+> Bulala attacks drove them west.  
+> So the answer is “because of attacks by the Bulala”.  
+
+> Why did the Mai move from Kanem to Bornu?
+
+- ◻️ to find gold mines  
+  _↳ feedback if chosen: Bornu had no gold mines._
+- ◻️ because the Portuguese invaded  
+  _↳ feedback if chosen: The Portuguese never reached Lake Chad._
+- ✅ because of attacks by the Bulala
+- ◻️ because of floods only  
+  _↳ feedback if chosen: The main reason was war._
+
+Full working after a second miss:
+
+> Bulala attacks drove them west.  
+> So the answer is “because of attacks by the Bulala”.  
+
+**Practice** `y2-12-idris` · multiple choice, level 2 · **authored key**
+
+> What did Idris Alooma bring to his army?
+
+- ◻️ aeroplanes  
+  _↳ feedback if chosen: Aeroplanes did not exist then._
+- ◻️ only bows and arrows  
+  _↳ feedback if chosen: He added firearms._
+- ✅ firearms and Turkish musketeers
+- ◻️ tanks  
+  _↳ feedback if chosen: Tanks did not exist then._
+
+Full working after a second miss:
+
+> Muskets made his army stronger.  
+> So the answer is “firearms and Turkish musketeers”.  
+
+> What did Kanem-Bornu import across the Sahara?
+
+- ◻️ cocoa  
+  _↳ feedback if chosen: Cocoa came much later._
+- ◻️ gold only  
+  _↳ feedback if chosen: It exported slaves and ivory; gold was Mali's._
+- ◻️ palm oil  
+  _↳ feedback if chosen: Palm oil is from the forest zone._
+- ✅ horses, salt, cloth and weapons
+
+Full working after a second miss:
+
+> It exchanged slaves and ivory for these.  
+> So the answer is “horses, salt, cloth and weapons”.  
+
+**Practice** `y2-12-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Its rulers were called Mai.
+- ◻️ Kanem-Bornu lay around Lake Chad.
+- ✅ The rulers of Kanem never became Muslims.  
+  _↳ explanation: Mai Hummay became a Muslim; Islam was the state religion._
+- ◻️ It traded across the Sahara.
+
+Full working after a second miss:
+
+> The wrong statement is “The rulers of Kanem never became Muslims.”.  
+> Mai Hummay became a Muslim; Islam was the state religion.  
+
+> Which statement is wrong?
+
+- ✅ Idris Alooma founded Mali.  
+  _↳ explanation: Sundiata founded Mali; Idris Alooma ruled Bornu._
+- ◻️ Its rulers were called Mai.
+- ◻️ Kanem-Bornu lay around Lake Chad.
+- ◻️ Idris Alooma used firearms.
+
+Full working after a second miss:
+
+> The wrong statement is “Idris Alooma founded Mali.”.  
+> Sundiata founded Mali; Idris Alooma ruled Bornu.  
+
+## Lesson 13: The Kingdom of Congo
+
+Prerequisites: 11 · Skill: y2-13 (The kingdom of Kongo)
+
+**Note** (draft)
+
+> The kingdom of Kongo lay south of the Congo River mouth (today's Angola, DR Congo and Republic of Congo).
+> Founding: about the late 14th century by Lukeni lua Nimi. The king was the Manikongo, with his capital at Mbanza Kongo. Provinces were ruled by governors who paid tribute.
+> Economy: farming, weaving raffia cloth, iron and copper working, trade; nzimbu shells were used as money.
+> Contact with Portugal: Diogo Cão arrived in 1483. King Nzinga a Nkuwu was baptised as João I in 1491. His son Afonso I (Nzinga Mbemba, ruled 1506–1543) became a Christian, built churches and schools, and wrote letters to the king of Portugal complaining about the slave trade.
+> Decline: the slave trade weakened the kingdom; wars and quarrels over succession; the Portuguese defeated Kongo at the battle of Mbwila in 1665.
+
+**Card c13-1** (draft)
+
+> Kongo was ruled by the Manikongo from Mbanza Kongo.
+>
+> _Founded by Lukeni lua Nimi._  
+> _Governors ruled the provinces._  
+
+Check question: `y2-13-rule` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What was used as money in Kongo?
+
+- ✅ nzimbu shells
+- ◻️ gold coins from Mali  
+  _↳ feedback if chosen: Kongo used shells._
+- ◻️ paper notes  
+  _↳ feedback if chosen: Paper money came much later._
+- ◻️ cowries from Lake Chad only  
+  _↳ feedback if chosen: Kongo's shells were nzimbu from its coast._
+
+Full working after a second miss:
+
+> Nzimbu shells were collected on the coast.  
+> So the answer is “nzimbu shells”.  
+
+**Card c13-2** (draft)
+
+> The Portuguese arrived in 1483; King Afonso I became a Christian and built churches and schools.
+>
+> _Diogo Cão led the Portuguese._  
+> _Afonso wrote to the king of Portugal._  
+
+Check question: `y2-13-port` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which king of Kongo became a Christian and built churches and schools?
+
+- ◻️ Mansa Musa  
+  _↳ feedback if chosen: Mansa Musa was a Muslim ruler of Mali._
+- ◻️ Idris Alooma  
+  _↳ feedback if chosen: Idris Alooma was a Muslim ruler of Bornu._
+- ◻️ Sundiata  
+  _↳ feedback if chosen: Sundiata founded Mali._
+- ✅ Afonso I
+
+Full working after a second miss:
+
+> Afonso I (Nzinga Mbemba).  
+> So the answer is “Afonso I”.  
+
+**Card c13-3** (draft)
+
+> The slave trade, civil wars and the defeat at Mbwila caused Kongo's decline.
+>
+> _Mbwila was in 1665._  
+> _Many people were taken as slaves._  
+
+Check question: `y2-13-fall-card` · multiple choice, level 1 · **authored key**
+
+> Which was a cause of Kongo's decline?
+
+- ◻️ the harmattan  
+  _↳ feedback if chosen: That is a wind._
+- ◻️ the Crusades  
+  _↳ feedback if chosen: That was in Europe and the Middle East._
+- ◻️ the gold of Mansa Musa  
+  _↳ feedback if chosen: That was in Mali._
+- ✅ the slave trade
+
+Full working after a second miss:
+
+> The slave trade weakened Kongo.  
+> So the answer is “the slave trade”.  
+
+**Worked example** (draft)
+
+> How long after the arrival of Diogo Cão (1483) was the battle of Mbwila (1665)?
+
+1. Both years are AD, so subtract.
+2. 1665 − 1483 = 182 years.
+
+**Answer:** 182 years
+
+**Practice** `y2-13-rule` · multiple choice, level 1 · **authored key**
+
+> What was used as money in Kongo?
+
+- ◻️ paper notes  
+  _↳ feedback if chosen: Paper money came much later._
+- ◻️ cowries from Lake Chad only  
+  _↳ feedback if chosen: Kongo's shells were nzimbu from its coast._
+- ✅ nzimbu shells
+- ◻️ gold coins from Mali  
+  _↳ feedback if chosen: Kongo used shells._
+
+Full working after a second miss:
+
+> Nzimbu shells were collected on the coast.  
+> So the answer is “nzimbu shells”.  
+
+> What was used as money in Kongo?
+
+- ◻️ cowries from Lake Chad only  
+  _↳ feedback if chosen: Kongo's shells were nzimbu from its coast._
+- ◻️ paper notes  
+  _↳ feedback if chosen: Paper money came much later._
+- ✅ nzimbu shells
+- ◻️ gold coins from Mali  
+  _↳ feedback if chosen: Kongo used shells._
+
+Full working after a second miss:
+
+> Nzimbu shells were collected on the coast.  
+> So the answer is “nzimbu shells”.  
+
+**Practice** `y2-13-port` · multiple choice, level 1 · **authored key**
+
+> Which Portuguese explorer reached Kongo in 1483?
+
+- ✅ Diogo Cão
+- ◻️ Vasco da Gama  
+  _↳ feedback if chosen: Da Gama reached East Africa and India._
+- ◻️ Christopher Columbus  
+  _↳ feedback if chosen: Columbus sailed to America._
+- ◻️ Fernando Pó  
+  _↳ feedback if chosen: Fernando Pó reached the Cameroon coast._
+
+Full working after a second miss:
+
+> Diogo Cão.  
+> So the answer is “Diogo Cão”.  
+
+> Which king of Kongo became a Christian and built churches and schools?
+
+- ✅ Afonso I
+- ◻️ Sundiata  
+  _↳ feedback if chosen: Sundiata founded Mali._
+- ◻️ Idris Alooma  
+  _↳ feedback if chosen: Idris Alooma was a Muslim ruler of Bornu._
+- ◻️ Mansa Musa  
+  _↳ feedback if chosen: Mansa Musa was a Muslim ruler of Mali._
+
+Full working after a second miss:
+
+> Afonso I (Nzinga Mbemba).  
+> So the answer is “Afonso I”.  
+
+**Practice** `y2-13-fall` · multiple choice, level 2 · **authored key**
+
+> Which was a cause of Kongo's decline?
+
+- ◻️ the harmattan  
+  _↳ feedback if chosen: That is a wind._
+- ✅ the slave trade
+- ◻️ the Crusades  
+  _↳ feedback if chosen: That was in Europe and the Middle East._
+- ◻️ the gold of Mansa Musa  
+  _↳ feedback if chosen: That was in Mali._
+
+Full working after a second miss:
+
+> The slave trade weakened Kongo.  
+> So the answer is “the slave trade”.  
+
+> Which was a cause of Kongo's decline?
+
+- ◻️ the gold of Mansa Musa  
+  _↳ feedback if chosen: That was in Mali._
+- ◻️ the Crusades  
+  _↳ feedback if chosen: That was in Europe and the Middle East._
+- ◻️ the harmattan  
+  _↳ feedback if chosen: That is a wind._
+- ✅ the slave trade
+
+Full working after a second miss:
+
+> The slave trade weakened Kongo.  
+> So the answer is “the slave trade”.  
+
+**Practice** `y2-13-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Nzimbu shells were used as money.
+- ◻️ The Manikongo ruled Kongo.
+- ✅ Kongo was in the Sahara desert.  
+  _↳ explanation: Kongo was south of the Congo River mouth._
+- ◻️ Diogo Cão reached Kongo in 1483.
+
+Full working after a second miss:
+
+> The wrong statement is “Kongo was in the Sahara desert.”.  
+> Kongo was south of the Congo River mouth.  
+
+> Which statement is wrong?
+
+- ◻️ Diogo Cão reached Kongo in 1483.
+- ◻️ Afonso I became a Christian.
+- ◻️ The Manikongo ruled Kongo.
+- ✅ The slave trade made Kongo stronger.  
+  _↳ explanation: It weakened Kongo._
+
+Full working after a second miss:
+
+> The wrong statement is “The slave trade made Kongo stronger.”.  
+> It weakened Kongo.  
+
+## Lesson 14: Great Zimbabwe
+
+Prerequisites: 11 · Skill: y2-14 (Great Zimbabwe)
+
+**Note** (draft)
+
+> Great Zimbabwe is a city of stone ruins in today's Zimbabwe, in southern Africa. “Zimbabwe” means “houses of stone” in the Shona language.
+> It was built by the ancestors of the Shona people between about the 11th and 15th centuries, and was at its height from about 1300 to 1450, with perhaps 10 000 to 18 000 people.
+> Main parts: the Hill Complex (the king's area), the Great Enclosure with its high wall and conical tower, and the valley houses. The walls were built of granite blocks fitted together without mortar (dry stone). Carved soapstone birds were found there.
+> Wealth: cattle, farming, and trade in gold and ivory with Swahili ports such as Sofala and Kilwa, in exchange for cloth, beads and Chinese porcelain.
+> Decline (about 1450): overgrazing and lack of firewood and good soil, and a shift of the gold trade northwards; the Mutapa (Monomotapa) state rose after it.
+
+**Card c14-1** (draft)
+
+> Great Zimbabwe is a city of stone in southern Africa, built by the ancestors of the Shona.
+>
+> _“Zimbabwe” means houses of stone._  
+> _It was at its height about 1300–1450._  
+
+Check question: `y2-14-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What does the word “Zimbabwe” mean?
+
+- ◻️ land of gold  
+  _↳ feedback if chosen: That is not the meaning._
+- ◻️ city of salt  
+  _↳ feedback if chosen: That is not the meaning._
+- ✅ houses of stone
+- ◻️ river of prawns  
+  _↳ feedback if chosen: That is the meaning of Rio dos Camarões._
+
+Full working after a second miss:
+
+> Shona: houses of stone.  
+> So the answer is “houses of stone”.  
+
+**Card c14-2** (draft)
+
+> Its walls were built of granite blocks without mortar; the Great Enclosure has a conical tower.
+>
+> _Dry-stone walling._  
+> _Soapstone birds were carved there._  
+
+Check question: `y2-14-build` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How were the walls of Great Zimbabwe built?
+
+- ◻️ with cement and steel  
+  _↳ feedback if chosen: Cement and steel are modern._
+- ◻️ with mud bricks only  
+  _↳ feedback if chosen: The famous walls are stone._
+- ◻️ with wood and thatch  
+  _↳ feedback if chosen: Those were used for houses, not the walls._
+- ✅ with granite blocks fitted without mortar
+
+Full working after a second miss:
+
+> Dry-stone walling.  
+> So the answer is “with granite blocks fitted without mortar”.  
+
+**Card c14-3** (draft)
+
+> Great Zimbabwe grew rich from cattle and the gold trade with Swahili ports, and declined about 1450.
+>
+> _Gold went to Sofala and Kilwa._  
+> _The Mutapa state rose afterwards._  
+
+Check question: `y2-14-trade-card` · multiple choice, level 1 · **authored key**
+
+> Which was a cause of the decline of Great Zimbabwe?
+
+- ✅ overgrazing and lack of resources around the city
+- ◻️ the Black Death  
+  _↳ feedback if chosen: That struck Europe._
+- ◻️ the Moroccan invasion  
+  _↳ feedback if chosen: That ended Songhai._
+- ◻️ the Crusades  
+  _↳ feedback if chosen: Those were in the Middle East._
+
+Full working after a second miss:
+
+> The land around could no longer support the people.  
+> So the answer is “overgrazing and lack of resources around the city”.  
+
+**Worked example** (draft)
+
+> What does it show that Chinese porcelain was found at Great Zimbabwe?
+
+1. Great Zimbabwe was inland, far from China.
+2. The porcelain came through the Swahili ports of the Indian Ocean in exchange for gold.
+
+**Answer:** Great Zimbabwe traded with the Indian Ocean world.
+
+**Practice** `y2-14-what` · multiple choice, level 1 · **authored key**
+
+> What does the word “Zimbabwe” mean?
+
+- ◻️ river of prawns  
+  _↳ feedback if chosen: That is the meaning of Rio dos Camarões._
+- ✅ houses of stone
+- ◻️ city of salt  
+  _↳ feedback if chosen: That is not the meaning._
+- ◻️ land of gold  
+  _↳ feedback if chosen: That is not the meaning._
+
+Full working after a second miss:
+
+> Shona: houses of stone.  
+> So the answer is “houses of stone”.  
+
+> Which people's ancestors built Great Zimbabwe?
+
+- ◻️ the Fulani  
+  _↳ feedback if chosen: The Fulani are in West Africa._
+- ◻️ the Zulu  
+  _↳ feedback if chosen: The Zulu came later, further south._
+- ◻️ the Arabs  
+  _↳ feedback if chosen: It was built by Africans._
+- ✅ the Shona
+
+Full working after a second miss:
+
+> The ancestors of the Shona.  
+> So the answer is “the Shona”.  
+
+**Practice** `y2-14-build` · multiple choice, level 1 · **authored key**
+
+> What objects, now national symbols, were carved at Great Zimbabwe?
+
+- ✅ soapstone birds
+- ◻️ bronze heads  
+  _↳ feedback if chosen: Bronze heads come from Ife and Benin._
+- ◻️ ivory masks of Benin  
+  _↳ feedback if chosen: Those are from Benin._
+- ◻️ terracotta horses  
+  _↳ feedback if chosen: Those are not from Zimbabwe._
+
+Full working after a second miss:
+
+> The Zimbabwe birds.  
+> So the answer is “soapstone birds”.  
+
+> How were the walls of Great Zimbabwe built?
+
+- ✅ with granite blocks fitted without mortar
+- ◻️ with mud bricks only  
+  _↳ feedback if chosen: The famous walls are stone._
+- ◻️ with cement and steel  
+  _↳ feedback if chosen: Cement and steel are modern._
+- ◻️ with wood and thatch  
+  _↳ feedback if chosen: Those were used for houses, not the walls._
+
+Full working after a second miss:
+
+> Dry-stone walling.  
+> So the answer is “with granite blocks fitted without mortar”.  
+
+**Practice** `y2-14-trade` · multiple choice, level 2 · **authored key**
+
+> What did Great Zimbabwe export through the Swahili ports?
+
+- ◻️ oil and gas  
+  _↳ feedback if chosen: These are modern exports._
+- ✅ gold and ivory
+- ◻️ cocoa and coffee  
+  _↳ feedback if chosen: These came much later._
+- ◻️ salt and horses  
+  _↳ feedback if chosen: Salt and horses crossed the Sahara._
+
+Full working after a second miss:
+
+> Gold and ivory went to Sofala and Kilwa.  
+> So the answer is “gold and ivory”.  
+
+> Which was a cause of the decline of Great Zimbabwe?
+
+- ◻️ the Crusades  
+  _↳ feedback if chosen: Those were in the Middle East._
+- ◻️ the Moroccan invasion  
+  _↳ feedback if chosen: That ended Songhai._
+- ◻️ the Black Death  
+  _↳ feedback if chosen: That struck Europe._
+- ✅ overgrazing and lack of resources around the city
+
+Full working after a second miss:
+
+> The land around could no longer support the people.  
+> So the answer is “overgrazing and lack of resources around the city”.  
+
+**Practice** `y2-14-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ The Mutapa state rose after it.
+- ◻️ It was at its height about 1300–1450.
+- ◻️ Great Zimbabwe traded with Swahili ports.
+- ✅ Great Zimbabwe was built by Europeans.  
+  _↳ explanation: It was built by the ancestors of the Shona._
+
+Full working after a second miss:
+
+> The wrong statement is “Great Zimbabwe was built by Europeans.”.  
+> It was built by the ancestors of the Shona.  
+
+> Which statement is wrong?
+
+- ✅ Great Zimbabwe was a port on the Atlantic coast.  
+  _↳ explanation: It was inland in southern Africa._
+- ◻️ Great Zimbabwe traded with Swahili ports.
+- ◻️ Its walls were built without mortar.
+- ◻️ It was at its height about 1300–1450.
+
+Full working after a second miss:
+
+> The wrong statement is “Great Zimbabwe was a port on the Atlantic coast.”.  
+> It was inland in southern Africa.  
+
+## Lesson 15: African Arts
+
+Prerequisites: none · Skill: y2-15 (African arts)
+
+**Note** (draft)
+
+> African art is old, rich and varied. It includes sculpture, masks, metalwork, pottery, weaving, beadwork, painting, music and dance.
+> Famous examples:
+> • Nok terracotta heads (Nigeria, about 500 BC–AD 200);
+> • Igbo-Ukwu bronzes (Nigeria, about the 9th–10th centuries);
+> • Ife heads in bronze and terracotta (12th–15th centuries);
+> • Benin brass plaques and heads (from about the 13th century);
+> • Cameroon: Bamum and Bamileke masks and carved stools, beadwork, the bronze and brass casting of Foumban, Tikar brass pipes, raffia work, pottery.
+> The lost-wax method: make a wax model, cover it with clay, heat it so the wax melts out, pour in molten metal, then break the clay.
+> Functions of art: religious (worship, ancestors), political (royal power), social (ceremonies, initiation), economic (trade, income) and decorative.
+
+**Card c15-1** (draft)
+
+> African art includes sculpture, masks, metalwork, pottery, weaving and beadwork.
+>
+> _Bamileke masks._  
+> _Bamum beaded thrones._  
+
+Check question: `y2-15-kind` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which Cameroonian town is famous for bronze and brass casting?
+
+- ◻️ Kribi  
+  _↳ feedback if chosen: Kribi is known for its beaches._
+- ✅ Foumban
+- ◻️ Garoua  
+  _↳ feedback if chosen: Garoua is a northern port town on the Benue._
+- ◻️ Limbe  
+  _↳ feedback if chosen: Limbe is known for its botanic garden._
+
+Full working after a second miss:
+
+> The Bamum artisans of Foumban.  
+> So the answer is “Foumban”.  
+
+**Card c15-2** (draft)
+
+> Famous old works are Nok terracotta, Ife heads and Benin bronzes; Foumban is famous for bronze casting.
+>
+> _Nok is the oldest of these._  
+> _Benin made brass plaques._  
+
+Check question: `y2-15-place-card` · ordering, level 1 · **authored key**
+
+> Put the steps of the lost-wax method in order.
+
+Shown as: Heat it so the wax melts out · Pour molten metal into the mould · Cover the wax model with clay · Make a model in wax · Break the clay when cool
+Correct order: Make a model in wax → Cover the wax model with clay → Heat it so the wax melts out → Pour molten metal into the mould → Break the clay when cool
+
+Full working after a second miss:
+
+> The correct order is: Make a model in wax → Cover the wax model with clay → Heat it so the wax melts out → Pour molten metal into the mould → Break the clay when cool.  
+
+**Card c15-3** (draft)
+
+> Art has religious, political, social, economic and decorative functions.
+>
+> _Masks at funerals and initiation._  
+> _Royal stools show the king's power._  
+
+Check question: `y2-15-use` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which function of art is shown? A mask is worn at a ceremony to honour the ancestors.
+
+- ◻️ economic  
+  _↳ feedback if chosen: It is not mainly for sale._
+- ✅ religious
+- ◻️ decorative only  
+  _↳ feedback if chosen: It has a deeper meaning._
+- ◻️ political  
+  _↳ feedback if chosen: It is not about the king's power._
+
+Full working after a second miss:
+
+> Linked to ancestors and worship.  
+> So the answer is “religious”.  
+
+**Worked example** (draft)
+
+> Describe how a bronze figure from Foumban is made by the lost-wax method.
+
+1. Make a wax model and cover it with clay; heat it so the wax melts out, leaving a mould.
+2. Pour molten bronze into the mould, let it cool, then break the clay.
+
+**Answer:** Wax model, clay mould, wax melted out, metal poured in, clay broken off.
+
+**Practice** `y2-15-kind` · multiple choice, level 1 · **authored key**
+
+> Which Cameroonian town is famous for bronze and brass casting?
+
+- ✅ Foumban
+- ◻️ Limbe  
+  _↳ feedback if chosen: Limbe is known for its botanic garden._
+- ◻️ Kribi  
+  _↳ feedback if chosen: Kribi is known for its beaches._
+- ◻️ Garoua  
+  _↳ feedback if chosen: Garoua is a northern port town on the Benue._
+
+Full working after a second miss:
+
+> The Bamum artisans of Foumban.  
+> So the answer is “Foumban”.  
+
+> Which is an example of African art from Cameroon?
+
+- ✅ Bamileke masks
+- ◻️ Zimbabwe soapstone birds  
+  _↳ feedback if chosen: They are from Zimbabwe._
+- ◻️ Nok terracotta  
+  _↳ feedback if chosen: Nok is in Nigeria._
+- ◻️ Benin brass plaques  
+  _↳ feedback if chosen: Benin is in Nigeria._
+
+Full working after a second miss:
+
+> Masks of the Western Highlands.  
+> So the answer is “Bamileke masks”.  
+
+**Practice** `y2-15-place` · ordering, level 2 · **authored key**
+
+> Put the steps of the lost-wax method in order.
+
+Shown as: Pour molten metal into the mould · Heat it so the wax melts out · Break the clay when cool · Make a model in wax · Cover the wax model with clay
+Correct order: Make a model in wax → Cover the wax model with clay → Heat it so the wax melts out → Pour molten metal into the mould → Break the clay when cool
+
+Full working after a second miss:
+
+> The correct order is: Make a model in wax → Cover the wax model with clay → Heat it so the wax melts out → Pour molten metal into the mould → Break the clay when cool.  
+
+> Put the steps of the lost-wax method in order.
+
+Shown as: Heat it so the wax melts out · Cover the wax model with clay · Pour molten metal into the mould · Break the clay when cool · Make a model in wax
+Correct order: Make a model in wax → Cover the wax model with clay → Heat it so the wax melts out → Pour molten metal into the mould → Break the clay when cool
+
+Full working after a second miss:
+
+> The correct order is: Make a model in wax → Cover the wax model with clay → Heat it so the wax melts out → Pour molten metal into the mould → Break the clay when cool.  
+
+**Practice** `y2-15-use` · multiple choice, level 1 · **authored key**
+
+> Which function of art is shown? A mask is worn at a ceremony to honour the ancestors.
+
+- ✅ religious
+- ◻️ economic  
+  _↳ feedback if chosen: It is not mainly for sale._
+- ◻️ decorative only  
+  _↳ feedback if chosen: It has a deeper meaning._
+- ◻️ political  
+  _↳ feedback if chosen: It is not about the king's power._
+
+Full working after a second miss:
+
+> Linked to ancestors and worship.  
+> So the answer is “religious”.  
+
+> Which function of art is shown? An artisan sells baskets to tourists.
+
+- ✅ economic
+- ◻️ religious  
+  _↳ feedback if chosen: It is not worship._
+- ◻️ political  
+  _↳ feedback if chosen: It is not about power._
+- ◻️ initiation  
+  _↳ feedback if chosen: It is trade._
+
+Full working after a second miss:
+
+> Art brings income.  
+> So the answer is “economic”.  
+
+**Practice** `y2-15-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ African art has no religious meaning.  
+  _↳ explanation: Much African art is religious._
+- ◻️ Benin made brass plaques.
+- ◻️ Foumban is famous for bronze casting.
+- ◻️ Masks are used in ceremonies.
+
+Full working after a second miss:
+
+> The wrong statement is “African art has no religious meaning.”.  
+> Much African art is religious.  
+
+> Which statement is wrong?
+
+- ◻️ Benin made brass plaques.
+- ◻️ Foumban is famous for bronze casting.
+- ◻️ Nok terracotta comes from Nigeria.
+- ✅ The lost-wax method uses wood to make the mould.  
+  _↳ explanation: It uses a wax model covered in clay._
+
+Full working after a second miss:
+
+> The wrong statement is “The lost-wax method uses wood to make the mould.”.  
+> It uses a wax model covered in clay.  
+
+## Lesson 16: Guided work 2: The Arts in your region
+
+Prerequisites: 15 · Skill: y2-16 (Guided work 2: the arts in your region)
+
+**Note** (draft)
+
+> This guided work is an enquiry into the arts of the region where your school is.
+> Steps:
+> 1. Choose a question: Which arts are practised here? Who makes them? What are they used for?
+> 2. Prepare questions for an interview.
+> 3. Visit artisans (carvers, potters, weavers, blacksmiths, bead makers, musicians) or a museum or palace, with permission and an adult.
+> 4. Observe and record: the materials (wood, clay, raffia, beads, bronze), the tools, the steps, the uses, the meaning of symbols. Take notes, sketches or photographs (with permission).
+> 5. Sort the information and write a short report with a title, an introduction, findings, a conclusion and the names of the people interviewed.
+> Respect: ask before photographing sacred objects; thank the people you interview.
+
+**Card c16-1** (draft)
+
+> An enquiry starts with a clear question and prepared interview questions.
+>
+> _Which arts are practised in our town?_  
+> _Who makes them?_  
+
+Check question: `y2-16-plan` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the steps of the enquiry in order.
+
+Shown as: Visit and interview the artisans · Write the report · Prepare interview questions · Choose a question · Record what you observe
+Correct order: Choose a question → Prepare interview questions → Visit and interview the artisans → Record what you observe → Write the report
+
+Full working after a second miss:
+
+> The correct order is: Choose a question → Prepare interview questions → Visit and interview the artisans → Record what you observe → Write the report.  
+
+**Card c16-2** (draft)
+
+> Visit artisans with permission; observe and record materials, tools, steps and uses.
+>
+> _Take notes and sketches._  
+> _Ask before taking photographs._  
+
+Check question: `y2-16-record` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What should you do before photographing a sacred mask?
+
+- ◻️ take it home  
+  _↳ feedback if chosen: That is stealing._
+- ◻️ take the photo quietly  
+  _↳ feedback if chosen: That is disrespectful._
+- ◻️ touch it first  
+  _↳ feedback if chosen: Do not touch without permission._
+- ✅ ask for permission
+
+Full working after a second miss:
+
+> Respect sacred objects.  
+> So the answer is “ask for permission”.  
+
+**Card c16-3** (draft)
+
+> Write a report: title, introduction, findings, conclusion and the people interviewed.
+>
+> _Sort your notes first._  
+> _Thank the people you interviewed._  
+
+Check question: `y2-16-report-card` · multiple choice, level 1 · **authored key**
+
+> Which part of the report gives what you found out?
+
+- ◻️ the cover  
+  _↳ feedback if chosen: That is only the cover._
+- ✅ the findings
+- ◻️ the list of people interviewed  
+  _↳ feedback if chosen: That gives your sources._
+- ◻️ the title  
+  _↳ feedback if chosen: The title names the topic._
+
+Full working after a second miss:
+
+> The findings are the main part.  
+> So the answer is “the findings”.  
+
+**Worked example** (draft)
+
+> Write three questions to ask a wood carver in your enquiry.
+
+1. Ask about materials and tools: Which wood and tools do you use?
+2. Ask about meaning and use: What are your carvings used for, and what do the symbols mean? Who taught you?
+
+**Answer:** Which wood and tools do you use? What are your carvings used for? Who taught you the craft?
+
+**Practice** `y2-16-plan` · ordering, level 1 · **authored key**
+
+> Put the steps of the enquiry in order.
+
+Shown as: Write the report · Prepare interview questions · Visit and interview the artisans · Choose a question · Record what you observe
+Correct order: Choose a question → Prepare interview questions → Visit and interview the artisans → Record what you observe → Write the report
+
+Full working after a second miss:
+
+> The correct order is: Choose a question → Prepare interview questions → Visit and interview the artisans → Record what you observe → Write the report.  
+
+> Put the steps of the enquiry in order.
+
+Shown as: Choose a question · Record what you observe · Visit and interview the artisans · Write the report · Prepare interview questions
+Correct order: Choose a question → Prepare interview questions → Visit and interview the artisans → Record what you observe → Write the report
+
+Full working after a second miss:
+
+> The correct order is: Choose a question → Prepare interview questions → Visit and interview the artisans → Record what you observe → Write the report.  
+
+**Practice** `y2-16-record` · multiple choice, level 1 · **authored key**
+
+> Which is a primary source for this enquiry?
+
+- ◻️ a film about another country  
+  _↳ feedback if chosen: That is not about your region._
+- ◻️ a dream  
+  _↳ feedback if chosen: That is not evidence._
+- ◻️ a guess  
+  _↳ feedback if chosen: A guess is not evidence._
+- ✅ an interview with a local potter
+
+Full working after a second miss:
+
+> First-hand information from the artisan.  
+> So the answer is “an interview with a local potter”.  
+
+> Which is a primary source for this enquiry?
+
+- ◻️ a guess  
+  _↳ feedback if chosen: A guess is not evidence._
+- ◻️ a film about another country  
+  _↳ feedback if chosen: That is not about your region._
+- ◻️ a dream  
+  _↳ feedback if chosen: That is not evidence._
+- ✅ an interview with a local potter
+
+Full working after a second miss:
+
+> First-hand information from the artisan.  
+> So the answer is “an interview with a local potter”.  
+
+**Practice** `y2-16-report` · multiple choice, level 2 · **authored key**
+
+> Which part of the report gives what you found out?
+
+- ◻️ the cover  
+  _↳ feedback if chosen: That is only the cover._
+- ◻️ the title  
+  _↳ feedback if chosen: The title names the topic._
+- ✅ the findings
+- ◻️ the list of people interviewed  
+  _↳ feedback if chosen: That gives your sources._
+
+Full working after a second miss:
+
+> The findings are the main part.  
+> So the answer is “the findings”.  
+
+> Which part of the report gives what you found out?
+
+- ◻️ the cover  
+  _↳ feedback if chosen: That is only the cover._
+- ◻️ the title  
+  _↳ feedback if chosen: The title names the topic._
+- ◻️ the list of people interviewed  
+  _↳ feedback if chosen: That gives your sources._
+- ✅ the findings
+
+Full working after a second miss:
+
+> The findings are the main part.  
+> So the answer is “the findings”.  
+
+**Practice** `y2-16-spot` · spot the error, level 3 · **authored key**
+
+> Which step of the enquiry is wrong?
+
+- ◻️ Prepare questions before the visit.
+- ◻️ Write a conclusion.
+- ✅ Write the report before visiting anyone.  
+  _↳ explanation: Collect the information first._
+- ◻️ Record the materials and tools used.
+
+Full working after a second miss:
+
+> The wrong statement is “Write the report before visiting anyone.”.  
+> Collect the information first.  
+
+> Which step of the enquiry is wrong?
+
+- ◻️ Prepare questions before the visit.
+- ✅ Write the report before visiting anyone.  
+  _↳ explanation: Collect the information first._
+- ◻️ Write a conclusion.
+- ◻️ Record the materials and tools used.
+
+Full working after a second miss:
+
+> The wrong statement is “Write the report before visiting anyone.”.  
+> Collect the information first.  
+
+## Lesson 17: Further Study2: Factors for the decline of African Empires
+
+Prerequisites: 11, 12, 13, 14 · Skill: y2-17 (Further study 2: factors in the decline of African empires)
+
+**Note** (draft)
+
+> The great African states declined for internal and external reasons.
+> Internal factors:
+> • weak or cruel rulers after strong ones;
+> • quarrels and civil wars over succession;
+> • empires too large to control, so provinces and vassal states revolted;
+> • loss of resources: drought, overgrazing, exhausted soils and firewood (Great Zimbabwe).
+> External factors:
+> • invasions: the Almoravids attacked Ghana (1076); the Tuareg and Songhai attacked Mali; Morocco destroyed Songhai at Tondibi (1591);
+> • changes in trade routes: when trade moved from the Sahara to the Atlantic coast and Europeans, the inland empires lost income;
+> • the Atlantic slave trade took people and caused wars (Kongo);
+> • European conquest later.
+> Usually several factors worked together.
+
+**Card c17-1** (draft)
+
+> Internal factors: weak rulers, succession quarrels, revolts and loss of resources.
+>
+> _Civil wars weakened Kongo._  
+> _Overgrazing hurt Great Zimbabwe._  
+
+Check question: `y2-17-int` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Is this an internal or an external factor of decline? Quarrels over who should be the next king.
+
+- ✅ internal
+- ◻️ external  
+  _↳ feedback if chosen: Ask: did it come from inside the state or from outside it?_
+- ◻️ neither: it made the empire stronger  
+  _↳ feedback if chosen: This factor weakened the empire._
+
+Full working after a second miss:
+
+> Internal factors come from inside the state; external factors come from outside.  
+> So it is internal.  
+
+**Card c17-2** (draft)
+
+> External factors: invasions, changes in trade routes and the slave trade.
+>
+> _The Almoravids attacked Ghana._  
+> _Morocco invaded Songhai._  
+
+Check question: `y2-17-ext` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Who attacked Ghana in 1076?
+
+- ✅ the Almoravids
+- ◻️ the Shona  
+  _↳ feedback if chosen: They lived in southern Africa._
+- ◻️ the Portuguese  
+  _↳ feedback if chosen: They reached the coast later._
+- ◻️ the Moroccans in 1591  
+  _↳ feedback if chosen: That was Songhai._
+
+Full working after a second miss:
+
+> The Almoravids from the north.  
+> So the answer is “the Almoravids”.  
+
+**Card c17-3** (draft)
+
+> When trade moved from the Sahara to the Atlantic, the inland empires lost wealth.
+>
+> _Europeans traded on the coast._  
+> _Fewer caravans crossed the desert._  
+
+Check question: `y2-17-trade-card` · multiple choice, level 1 · **authored key**
+
+> Why did the move of trade to the Atlantic coast weaken the Sudanese empires?
+
+- ✅ Fewer caravans crossed the Sahara, so they lost trade income.
+- ◻️ The Sahara became a forest.  
+  _↳ feedback if chosen: The Sahara stayed a desert._
+- ◻️ They gained more taxes.  
+  _↳ feedback if chosen: They lost taxes._
+- ◻️ Gold stopped existing.  
+  _↳ feedback if chosen: Gold still existed._
+
+Full working after a second miss:
+
+> Their wealth depended on the trans-Saharan trade.  
+> So the answer is “Fewer caravans crossed the Sahara, so they lost trade income.”.  
+
+**Worked example** (draft)
+
+> Give one internal and one external factor in the decline of Songhai.
+
+1. Internal: quarrels over succession weakened the rulers.
+2. External: the Moroccan army with firearms defeated Songhai at Tondibi in 1591.
+
+**Answer:** Succession quarrels (internal) and the Moroccan invasion (external).
+
+**Practice** `y2-17-int` · multiple choice, level 1 · computed by rule
+
+> Is this an internal or an external factor of decline? European slave traders on the coast.
+
+- ✅ external
+- ◻️ internal  
+  _↳ feedback if chosen: Ask: did it come from inside the state or from outside it?_
+- ◻️ neither: it made the empire stronger  
+  _↳ feedback if chosen: This factor weakened the empire._
+
+Full working after a second miss:
+
+> Internal factors come from inside the state; external factors come from outside.  
+> So it is external.  
+
+> Is this an internal or an external factor of decline? Attacks by the Almoravids on Ghana.
+
+- ◻️ internal  
+  _↳ feedback if chosen: Ask: did it come from inside the state or from outside it?_
+- ◻️ neither: it made the empire stronger  
+  _↳ feedback if chosen: This factor weakened the empire._
+- ✅ external
+
+Full working after a second miss:
+
+> Internal factors come from inside the state; external factors come from outside.  
+> So it is external.  
+
+**Practice** `y2-17-ext` · multiple choice, level 1 · **authored key**
+
+> Who attacked Ghana in 1076?
+
+- ✅ the Almoravids
+- ◻️ the Portuguese  
+  _↳ feedback if chosen: They reached the coast later._
+- ◻️ the Shona  
+  _↳ feedback if chosen: They lived in southern Africa._
+- ◻️ the Moroccans in 1591  
+  _↳ feedback if chosen: That was Songhai._
+
+Full working after a second miss:
+
+> The Almoravids from the north.  
+> So the answer is “the Almoravids”.  
+
+> Which empire was destroyed by Morocco at Tondibi in 1591?
+
+- ◻️ Kanem-Bornu  
+  _↳ feedback if chosen: Bornu lasted into the 19th century._
+- ✅ Songhai
+- ◻️ Kongo  
+  _↳ feedback if chosen: Kongo was defeated by Portugal._
+- ◻️ Great Zimbabwe  
+  _↳ feedback if chosen: It declined about 1450._
+
+Full working after a second miss:
+
+> Moroccan firearms defeated Songhai.  
+> So the answer is “Songhai”.  
+
+**Practice** `y2-17-trade` · multiple choice, level 2 · **authored key**
+
+> Why did the move of trade to the Atlantic coast weaken the Sudanese empires?
+
+- ◻️ The Sahara became a forest.  
+  _↳ feedback if chosen: The Sahara stayed a desert._
+- ◻️ They gained more taxes.  
+  _↳ feedback if chosen: They lost taxes._
+- ✅ Fewer caravans crossed the Sahara, so they lost trade income.
+- ◻️ Gold stopped existing.  
+  _↳ feedback if chosen: Gold still existed._
+
+Full working after a second miss:
+
+> Their wealth depended on the trans-Saharan trade.  
+> So the answer is “Fewer caravans crossed the Sahara, so they lost trade income.”.  
+
+> How did the slave trade weaken Kongo?
+
+- ◻️ It brought peace.  
+  _↳ feedback if chosen: It caused wars._
+- ◻️ It increased the population.  
+  _↳ feedback if chosen: It reduced the population._
+- ◻️ It ended all trade.  
+  _↳ feedback if chosen: Trade went on._
+- ✅ It took many people and caused wars.
+
+Full working after a second miss:
+
+> People were lost and wars spread.  
+> So the answer is “It took many people and caused wars.”.  
+
+**Practice** `y2-17-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Changes in trade routes reduced income.
+- ◻️ Invasions destroyed some empires.
+- ✅ Weak rulers make an empire stronger.  
+  _↳ explanation: They weaken it._
+- ◻️ Overgrazing hurt Great Zimbabwe.
+
+Full working after a second miss:
+
+> The wrong statement is “Weak rulers make an empire stronger.”.  
+> They weaken it.  
+
+> Which statement is wrong?
+
+- ◻️ Changes in trade routes reduced income.
+- ◻️ Invasions destroyed some empires.
+- ✅ The slave trade made Kongo richer and stronger.  
+  _↳ explanation: It weakened Kongo._
+- ◻️ Overgrazing hurt Great Zimbabwe.
+
+Full working after a second miss:
+
+> The wrong statement is “The slave trade made Kongo richer and stronger.”.  
+> It weakened Kongo.  
+
+## Lesson 18: Contacts between West Africa and the Sudan with the Arabs and Europeans
+
+Prerequisites: 11 · Skill: y2-18 (Contacts of West Africa and the Sudan with the Arabs and Europeans)
+
+**Note** (draft)
+
+> With the Arabs (from about the 8th century): Arab and Berber merchants crossed the Sahara in camel caravans (the trans-Saharan trade).
+> • From the south: gold, slaves, ivory, kola nuts, leather.
+> • From the north: salt, cloth, horses, copper, books, glass.
+> Results: towns grew (Timbuktu, Gao, Djenné, Kano); Islam spread; Arabic writing and learning came (Timbuktu's scholars); rulers became rich.
+> With the Europeans (from the 15th century): Portuguese sailors, encouraged by Prince Henry the Navigator, explored the coast. They built Elmina castle in today's Ghana in 1482. They traded guns, cloth, alcohol and mirrors for gold, pepper, ivory and later slaves.
+> Results: the Atlantic slave trade, new crops (maize, cassava, groundnuts from America), Christianity, coastal trading towns, and the decline of the trans-Saharan trade.
+
+**Card c18-1** (draft)
+
+> Arab and Berber merchants crossed the Sahara in camel caravans, trading salt for gold.
+>
+> _Gold, slaves and ivory went north._  
+> _Salt, cloth and horses came south._  
+
+Check question: `y2-18-trade` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which animal made the trans-Saharan trade possible?
+
+- ◻️ the elephant  
+  _↳ feedback if chosen: Elephants were not used._
+- ◻️ the donkey of the forest  
+  _↳ feedback if chosen: Camels cross the desert._
+- ◻️ the horse alone  
+  _↳ feedback if chosen: Horses need too much water._
+- ✅ the camel
+
+Full working after a second miss:
+
+> Camels go days without water.  
+> So the answer is “the camel”.  
+
+**Card c18-2** (draft)
+
+> The Arab contact spread Islam, Arabic writing and learning, and made towns grow.
+>
+> _Timbuktu's scholars._  
+> _Mosques in Djenné._  
+
+Check question: `y2-18-arab` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which town became famous for Islamic scholars?
+
+- ◻️ Elmina  
+  _↳ feedback if chosen: Elmina was a Portuguese castle._
+- ◻️ Mbanza Kongo  
+  _↳ feedback if chosen: That was Kongo's capital._
+- ✅ Timbuktu
+- ◻️ Sofala  
+  _↳ feedback if chosen: That was an East African port._
+
+Full working after a second miss:
+
+> Timbuktu's Sankore university.  
+> So the answer is “Timbuktu”.  
+
+**Card c18-3** (draft)
+
+> The Portuguese came by sea in the 15th century; they built Elmina and started the Atlantic trade.
+>
+> _Elmina was built in 1482._  
+> _Maize and cassava came from America._  
+
+Check question: `y2-18-euro-card` · multiple choice, level 1 · **authored key**
+
+> Which crops came to West Africa from America after European contact?
+
+- ✅ maize, cassava and groundnuts
+- ◻️ yams and kola  
+  _↳ feedback if chosen: These are African crops._
+- ◻️ millet and sorghum  
+  _↳ feedback if chosen: These are African crops._
+- ◻️ oil palm and raffia  
+  _↳ feedback if chosen: These are African plants._
+
+Full working after a second miss:
+
+> The Portuguese brought them.  
+> So the answer is “maize, cassava and groundnuts”.  
+
+**Worked example** (draft)
+
+> Give two results of the trans-Saharan trade for West Africa.
+
+1. Trading towns like Timbuktu and Gao grew rich.
+2. Islam and Arabic learning spread with the merchants.
+
+**Answer:** The growth of towns and the spread of Islam.
+
+**Practice** `y2-18-trade` · multiple choice, level 1 · **authored key**
+
+> Which animal made the trans-Saharan trade possible?
+
+- ◻️ the horse alone  
+  _↳ feedback if chosen: Horses need too much water._
+- ✅ the camel
+- ◻️ the donkey of the forest  
+  _↳ feedback if chosen: Camels cross the desert._
+- ◻️ the elephant  
+  _↳ feedback if chosen: Elephants were not used._
+
+Full working after a second miss:
+
+> Camels go days without water.  
+> So the answer is “the camel”.  
+
+> What did West Africa mainly receive from North Africa?
+
+- ◻️ ivory  
+  _↳ feedback if chosen: Ivory went north._
+- ◻️ kola nuts  
+  _↳ feedback if chosen: Kola went north._
+- ✅ salt
+- ◻️ gold  
+  _↳ feedback if chosen: Gold went north._
+
+Full working after a second miss:
+
+> Salt was precious in the south.  
+> So the answer is “salt”.  
+
+**Practice** `y2-18-arab` · multiple choice, level 1 · **authored key**
+
+> Which town became famous for Islamic scholars?
+
+- ✅ Timbuktu
+- ◻️ Elmina  
+  _↳ feedback if chosen: Elmina was a Portuguese castle._
+- ◻️ Sofala  
+  _↳ feedback if chosen: That was an East African port._
+- ◻️ Mbanza Kongo  
+  _↳ feedback if chosen: That was Kongo's capital._
+
+Full working after a second miss:
+
+> Timbuktu's Sankore university.  
+> So the answer is “Timbuktu”.  
+
+> Which town became famous for Islamic scholars?
+
+- ✅ Timbuktu
+- ◻️ Sofala  
+  _↳ feedback if chosen: That was an East African port._
+- ◻️ Mbanza Kongo  
+  _↳ feedback if chosen: That was Kongo's capital._
+- ◻️ Elmina  
+  _↳ feedback if chosen: Elmina was a Portuguese castle._
+
+Full working after a second miss:
+
+> Timbuktu's Sankore university.  
+> So the answer is “Timbuktu”.  
+
+**Practice** `y2-18-euro` · multiple choice, level 2 · **authored key**
+
+> Which crops came to West Africa from America after European contact?
+
+- ✅ maize, cassava and groundnuts
+- ◻️ millet and sorghum  
+  _↳ feedback if chosen: These are African crops._
+- ◻️ yams and kola  
+  _↳ feedback if chosen: These are African crops._
+- ◻️ oil palm and raffia  
+  _↳ feedback if chosen: These are African plants._
+
+Full working after a second miss:
+
+> The Portuguese brought them.  
+> So the answer is “maize, cassava and groundnuts”.  
+
+> Which Portuguese prince encouraged voyages along the African coast?
+
+- ◻️ Afonso I  
+  _↳ feedback if chosen: Afonso I was king of Kongo._
+- ◻️ Mansa Musa  
+  _↳ feedback if chosen: Mansa Musa ruled Mali._
+- ✅ Henry the Navigator
+- ◻️ Charlemagne  
+  _↳ feedback if chosen: Charlemagne was a Frankish emperor._
+
+Full working after a second miss:
+
+> Prince Henry of Portugal.  
+> So the answer is “Henry the Navigator”.  
+
+**Practice** `y2-18-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Salt was traded for gold.
+- ✅ The Europeans crossed the Sahara by camel to reach West Africa.  
+  _↳ explanation: They came by sea along the coast._
+- ◻️ The Portuguese built Elmina castle.
+- ◻️ Cassava came from America.
+
+Full working after a second miss:
+
+> The wrong statement is “The Europeans crossed the Sahara by camel to reach West Africa.”.  
+> They came by sea along the coast.  
+
+> Which statement is wrong?
+
+- ◻️ Salt was traded for gold.
+- ◻️ Islam spread with the merchants.
+- ✅ Timbuktu was a Portuguese castle.  
+  _↳ explanation: It was a city of learning in Mali._
+- ◻️ The Portuguese built Elmina castle.
+
+Full working after a second miss:
+
+> The wrong statement is “Timbuktu was a Portuguese castle.”.  
+> It was a city of learning in Mali.  
+
+## Lesson 19: Contacts between East Africa and the Indian Ocean
+
+Prerequisites: 18 · Skill: y2-19 (Contacts between East Africa and the Indian Ocean world)
+
+**Note** (draft)
+
+> East Africa traded across the Indian Ocean for centuries with Arabia, Persia, India and China.
+> The monsoon winds made the trade possible: they blow towards Africa from November to March and back towards Asia from April to September, carrying sailing ships called dhows.
+> Coastal city-states grew: Mogadishu, Malindi, Mombasa, Zanzibar, Kilwa and Sofala.
+> • Exports: gold (from Great Zimbabwe), ivory, slaves, mangrove poles, tortoiseshell.
+> • Imports: cloth, glass beads, porcelain from China, spices, iron goods.
+> Results: the Swahili culture and language (Bantu with many Arabic words); the spread of Islam; stone mosques and houses; the Chinese fleet of Zheng He visited Malindi in the early 15th century.
+> The Portuguese arrived when Vasco da Gama reached Malindi in 1498 on his way to India; they then attacked and controlled many coastal towns, and the trade declined.
+
+**Card c19-1** (draft)
+
+> The monsoon winds carried dhows to East Africa and back.
+>
+> _Towards Africa from November to March._  
+> _Back to Asia from April to September._  
+
+Check question: `y2-19-wind` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What were the sailing ships of the Indian Ocean called?
+
+- ◻️ caravels only  
+  _↳ feedback if chosen: Caravels were Portuguese._
+- ◻️ canoes of Lake Chad  
+  _↳ feedback if chosen: Those are lake boats._
+- ◻️ submarines  
+  _↳ feedback if chosen: Those are modern._
+- ✅ dhows
+
+Full working after a second miss:
+
+> Dhows with triangular sails.  
+> So the answer is “dhows”.  
+
+**Card c19-2** (draft)
+
+> Coastal city-states like Kilwa, Mombasa and Malindi exported gold and ivory and imported cloth and porcelain.
+>
+> _Gold came from Great Zimbabwe through Sofala._  
+> _Porcelain came from China._  
+
+Check question: `y2-19-city` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which was an East African city-state?
+
+- ◻️ Timbuktu  
+  _↳ feedback if chosen: Timbuktu was in Mali._
+- ◻️ Niani  
+  _↳ feedback if chosen: That was Mali's capital._
+- ◻️ Ngazargamu  
+  _↳ feedback if chosen: That was Bornu's capital._
+- ✅ Kilwa
+
+Full working after a second miss:
+
+> Kilwa was a rich Swahili port.  
+> So the answer is “Kilwa”.  
+
+**Card c19-3** (draft)
+
+> The trade produced the Swahili language and culture and spread Islam; the Portuguese arrived in 1498.
+>
+> _Swahili mixes Bantu and Arabic words._  
+> _Vasco da Gama reached Malindi._  
+
+Check question: `y2-19-swahili-card` · multiple choice, level 1 · **authored key**
+
+> What is Swahili?
+
+- ◻️ a West African empire  
+  _↳ feedback if chosen: It is East African._
+- ✅ a Bantu language with many Arabic words, and the coastal culture
+- ◻️ a Portuguese ship  
+  _↳ feedback if chosen: It is a language and culture._
+- ◻️ a desert wind  
+  _↳ feedback if chosen: That is not it._
+
+Full working after a second miss:
+
+> It grew from the meeting of Africans and Arabs.  
+> So the answer is “a Bantu language with many Arabic words, and the coastal culture”.  
+
+**Worked example** (draft)
+
+> Explain how the monsoon winds helped the Indian Ocean trade.
+
+1. From November to March they blow towards Africa, carrying dhows from Arabia and India.
+2. From April to September they blow back, so the traders could return home.
+
+**Answer:** Their change of direction carried ships to Africa and back each year.
+
+**Practice** `y2-19-wind` · multiple choice, level 1 · **authored key**
+
+> What made it possible to sail between Arabia, India and East Africa every year?
+
+- ✅ the monsoon winds
+- ◻️ ocean ice  
+  _↳ feedback if chosen: There is no ice there._
+- ◻️ steam engines  
+  _↳ feedback if chosen: Steam ships came much later._
+- ◻️ the harmattan  
+  _↳ feedback if chosen: The harmattan blows in West Africa._
+
+Full working after a second miss:
+
+> The winds change direction with the seasons.  
+> So the answer is “the monsoon winds”.  
+
+> What made it possible to sail between Arabia, India and East Africa every year?
+
+- ◻️ ocean ice  
+  _↳ feedback if chosen: There is no ice there._
+- ◻️ steam engines  
+  _↳ feedback if chosen: Steam ships came much later._
+- ◻️ the harmattan  
+  _↳ feedback if chosen: The harmattan blows in West Africa._
+- ✅ the monsoon winds
+
+Full working after a second miss:
+
+> The winds change direction with the seasons.  
+> So the answer is “the monsoon winds”.  
+
+**Practice** `y2-19-city` · multiple choice, level 1 · **authored key**
+
+> Which was an East African city-state?
+
+- ◻️ Niani  
+  _↳ feedback if chosen: That was Mali's capital._
+- ✅ Kilwa
+- ◻️ Ngazargamu  
+  _↳ feedback if chosen: That was Bornu's capital._
+- ◻️ Timbuktu  
+  _↳ feedback if chosen: Timbuktu was in Mali._
+
+Full working after a second miss:
+
+> Kilwa was a rich Swahili port.  
+> So the answer is “Kilwa”.  
+
+> What came to East Africa from China?
+
+- ◻️ ivory  
+  _↳ feedback if chosen: Ivory was exported from Africa._
+- ◻️ mangrove poles  
+  _↳ feedback if chosen: Mangrove poles were exported from Africa._
+- ✅ porcelain
+- ◻️ gold  
+  _↳ feedback if chosen: Gold was exported from Africa._
+
+Full working after a second miss:
+
+> Chinese porcelain has been found on the coast.  
+> So the answer is “porcelain”.  
+
+**Practice** `y2-19-swahili` · multiple choice, level 2 · **authored key**
+
+> Who reached Malindi in 1498 on his way to India?
+
+- ◻️ Fernando Pó  
+  _↳ feedback if chosen: He reached the Cameroon coast._
+- ✅ Vasco da Gama
+- ◻️ Zheng He  
+  _↳ feedback if chosen: He was a Chinese admiral earlier in the century._
+- ◻️ Diogo Cão  
+  _↳ feedback if chosen: He reached Kongo._
+
+Full working after a second miss:
+
+> Vasco da Gama of Portugal.  
+> So the answer is “Vasco da Gama”.  
+
+> What is Swahili?
+
+- ✅ a Bantu language with many Arabic words, and the coastal culture
+- ◻️ a West African empire  
+  _↳ feedback if chosen: It is East African._
+- ◻️ a Portuguese ship  
+  _↳ feedback if chosen: It is a language and culture._
+- ◻️ a desert wind  
+  _↳ feedback if chosen: That is not it._
+
+Full working after a second miss:
+
+> It grew from the meeting of Africans and Arabs.  
+> So the answer is “a Bantu language with many Arabic words, and the coastal culture”.  
+
+**Practice** `y2-19-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ The monsoon winds blow in the same direction all year.  
+  _↳ explanation: They change direction with the seasons._
+- ◻️ Chinese porcelain reached East Africa.
+- ◻️ Swahili has many Arabic words.
+- ◻️ Dhows sailed with the monsoon winds.
+
+Full working after a second miss:
+
+> The wrong statement is “The monsoon winds blow in the same direction all year.”.  
+> They change direction with the seasons.  
+
+> Which statement is wrong?
+
+- ✅ The monsoon winds blow in the same direction all year.  
+  _↳ explanation: They change direction with the seasons._
+- ◻️ Kilwa exported gold.
+- ◻️ Dhows sailed with the monsoon winds.
+- ◻️ Swahili has many Arabic words.
+
+Full working after a second miss:
+
+> The wrong statement is “The monsoon winds blow in the same direction all year.”.  
+> They change direction with the seasons.  
+
+## Lesson 20: The First Contact of Cameroon with the Europeans
+
+Prerequisites: 18 · Skill: y2-20 (The first contact of Cameroon with the Europeans)
+
+**Note** (draft)
+
+> The first Europeans to reach the Cameroon coast were the Portuguese. About 1472 the sailor Fernando Pó (Fernão do Pó) entered the Wouri estuary. His men saw many prawns (shrimps) in the river and named it Rio dos Camarões, the “river of prawns”. From this name came “Cameroon”.
+> The island of Bioko was long called Fernando Po after him.
+> Trade: the Portuguese, then the Dutch (17th century), the English and the French, traded with coastal peoples, especially the Duala, who acted as middlemen between the Europeans and the peoples inland.
+> • Europeans brought cloth, alcohol, guns, gunpowder, mirrors, beads and salt.
+> • They bought ivory, slaves, and later palm oil and palm kernels.
+> Effects: the slave trade took many people; new goods and crops (maize, cassava); coastal chiefs grew rich and powerful; Christian missions came later (the Baptists in 1841–1845).
+
+**Card c20-1** (draft)
+
+> About 1472 the Portuguese sailor Fernando Pó reached the Wouri estuary.
+>
+> _The Portuguese were the first Europeans there._  
+> _Bioko was named Fernando Po after him._  
+
+Check question: `y2-20-who` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which Europeans first reached the Cameroon coast?
+
+- ✅ the Portuguese
+- ◻️ the Germans  
+  _↳ feedback if chosen: The Germans came in the 19th century._
+- ◻️ the British  
+  _↳ feedback if chosen: The British came later._
+- ◻️ the French  
+  _↳ feedback if chosen: The French came later._
+
+Full working after a second miss:
+
+> The Portuguese, about 1472.  
+> So the answer is “the Portuguese”.  
+
+**Card c20-2** (draft)
+
+> The name Cameroon comes from Rio dos Camarões, the river of prawns.
+>
+> _Camarões means prawns._  
+> _The river is the Wouri._  
+
+Check question: `y2-20-name` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What does Rio dos Camarões mean?
+
+- ✅ river of prawns
+- ◻️ land of gold  
+  _↳ feedback if chosen: That is not it._
+- ◻️ great lake  
+  _↳ feedback if chosen: That is not it._
+- ◻️ houses of stone  
+  _↳ feedback if chosen: That is Zimbabwe._
+
+Full working after a second miss:
+
+> Camarões are prawns.  
+> So the answer is “river of prawns”.  
+
+**Card c20-3** (draft)
+
+> The Duala were middlemen; Europeans traded cloth, alcohol and guns for ivory, slaves and palm oil.
+>
+> _The Dutch came in the 17th century._  
+> _Palm oil trade came later._  
+
+Check question: `y2-20-trade-card` · multiple choice, level 1 · **authored key**
+
+> Why were the Duala important in the early trade?
+
+- ◻️ They ruled Portugal.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ They did not trade.  
+  _↳ feedback if chosen: They traded a lot._
+- ◻️ They built ships for Portugal.  
+  _↳ feedback if chosen: That is not true._
+- ✅ They were middlemen between Europeans and inland peoples.
+
+Full working after a second miss:
+
+> They controlled trade on the coast.  
+> So the answer is “They were middlemen between Europeans and inland peoples.”.  
+
+**Worked example** (draft)
+
+> Explain where the name Cameroon comes from.
+
+1. Portuguese sailors under Fernando Pó saw many prawns in the Wouri estuary.
+2. They called it Rio dos Camarões, the river of prawns; the name became Cameroon.
+
+**Answer:** From Rio dos Camarões, the Portuguese name for the river of prawns.
+
+**Practice** `y2-20-who` · multiple choice, level 1 · **authored key**
+
+> Which Portuguese sailor reached the Wouri estuary about 1472?
+
+- ◻️ Diogo Cão  
+  _↳ feedback if chosen: He reached Kongo._
+- ◻️ Henry the Navigator  
+  _↳ feedback if chosen: He stayed in Portugal._
+- ◻️ Vasco da Gama  
+  _↳ feedback if chosen: He reached East Africa._
+- ✅ Fernando Pó
+
+Full working after a second miss:
+
+> Fernão do Pó.  
+> So the answer is “Fernando Pó”.  
+
+> Which Europeans first reached the Cameroon coast?
+
+- ✅ the Portuguese
+- ◻️ the Germans  
+  _↳ feedback if chosen: The Germans came in the 19th century._
+- ◻️ the British  
+  _↳ feedback if chosen: The British came later._
+- ◻️ the French  
+  _↳ feedback if chosen: The French came later._
+
+Full working after a second miss:
+
+> The Portuguese, about 1472.  
+> So the answer is “the Portuguese”.  
+
+**Practice** `y2-20-name` · multiple choice, level 1 · **authored key**
+
+> Which river did the Portuguese call Rio dos Camarões?
+
+- ◻️ the Sanaga only  
+  _↳ feedback if chosen: It was the Wouri estuary at Douala._
+- ◻️ the Benue  
+  _↳ feedback if chosen: The Benue is in the North._
+- ✅ the Wouri
+- ◻️ the Niger  
+  _↳ feedback if chosen: The Niger is in Nigeria and Mali._
+
+Full working after a second miss:
+
+> The Wouri estuary.  
+> So the answer is “the Wouri”.  
+
+> What does Rio dos Camarões mean?
+
+- ◻️ land of gold  
+  _↳ feedback if chosen: That is not it._
+- ✅ river of prawns
+- ◻️ houses of stone  
+  _↳ feedback if chosen: That is Zimbabwe._
+- ◻️ great lake  
+  _↳ feedback if chosen: That is not it._
+
+Full working after a second miss:
+
+> Camarões are prawns.  
+> So the answer is “river of prawns”.  
+
+**Practice** `y2-20-trade` · multiple choice, level 2 · **authored key**
+
+> What did the Europeans bring to trade on the Cameroon coast?
+
+- ◻️ palm oil  
+  _↳ feedback if chosen: That was bought from Africans._
+- ◻️ prawns  
+  _↳ feedback if chosen: Those were local._
+- ◻️ ivory and slaves  
+  _↳ feedback if chosen: Those were bought from Africans._
+- ✅ cloth, alcohol, guns and mirrors
+
+Full working after a second miss:
+
+> Manufactured goods from Europe.  
+> So the answer is “cloth, alcohol, guns and mirrors”.  
+
+> What did the Europeans bring to trade on the Cameroon coast?
+
+- ◻️ palm oil  
+  _↳ feedback if chosen: That was bought from Africans._
+- ✅ cloth, alcohol, guns and mirrors
+- ◻️ prawns  
+  _↳ feedback if chosen: Those were local._
+- ◻️ ivory and slaves  
+  _↳ feedback if chosen: Those were bought from Africans._
+
+Full working after a second miss:
+
+> Manufactured goods from Europe.  
+> So the answer is “cloth, alcohol, guns and mirrors”.  
+
+**Practice** `y2-20-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Cameroon's name comes from the Portuguese.
+- ◻️ The Duala were middlemen.
+- ◻️ Fernando Pó reached the Wouri about 1472.
+- ✅ The Germans were the first Europeans to reach Cameroon.  
+  _↳ explanation: The Portuguese were first, in the 15th century._
+
+Full working after a second miss:
+
+> The wrong statement is “The Germans were the first Europeans to reach Cameroon.”.  
+> The Portuguese were first, in the 15th century.  
+
+> Which statement is wrong?
+
+- ✅ The Germans were the first Europeans to reach Cameroon.  
+  _↳ explanation: The Portuguese were first, in the 15th century._
+- ◻️ The Duala were middlemen.
+- ◻️ The slave trade took many people.
+- ◻️ Cameroon's name comes from the Portuguese.
+
+Full working after a second miss:
+
+> The wrong statement is “The Germans were the first Europeans to reach Cameroon.”.  
+> The Portuguese were first, in the 15th century.  
+
+## Lesson 21: Europe from the Dark Ages to the Renaissance
+
+Prerequisites: none · Skill: y2-21 (Europe from the Dark Ages to the Renaissance)
+
+**Note** (draft)
+
+> The Middle Ages (about 500–1500) began after the fall of the Western Roman Empire in 476.
+> The early Middle Ages are sometimes called the Dark Ages: trade, towns and learning declined; the Church and its monasteries kept learning alive. Charlemagne was crowned emperor in 800.
+> Feudalism: the king gave land (fiefs) to lords; lords gave land to knights, who fought for them; serfs (peasants) worked the land of the manor and could not leave it.
+> Other events: the Crusades (1096–1291), wars to capture Jerusalem; the Black Death (1347–1351) killed about a third of Europe's people.
+> The Renaissance (“rebirth”, 14th–16th centuries) began in Italy (Florence): new interest in the learning of Greece and Rome, art and science. Leonardo da Vinci and Michelangelo were great artists. Gutenberg's printing press (about 1450) spread books. It led to the voyages of discovery.
+
+**Card c21-1** (draft)
+
+> The Middle Ages began after the fall of the Western Roman Empire in 476.
+>
+> _The early part is called the Dark Ages._  
+> _Monasteries kept learning alive._  
+
+Check question: `y2-21-dark` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which event began the Middle Ages in Europe?
+
+- ◻️ the Crusades  
+  _↳ feedback if chosen: Those came in the middle._
+- ✅ the fall of the Western Roman Empire
+- ◻️ the printing press  
+  _↳ feedback if chosen: That came near the end._
+- ◻️ the Renaissance  
+  _↳ feedback if chosen: That came at the end._
+
+Full working after a second miss:
+
+> Rome fell in 476.  
+> So the answer is “the fall of the Western Roman Empire”.  
+
+**Card c21-2** (draft)
+
+> In feudalism the king gave land to lords, lords to knights, and serfs worked the land.
+>
+> _Knights fought for the lords._  
+> _Serfs could not leave the manor._  
+
+Check question: `y2-21-feudal` · matching, level 1 · **authored key**, reused from practice
+
+> Match each person in the feudal system to their role.
+
+Right-hand side (shuffled): worked the land and could not leave the manor · gave land to knights and ruled a manor · owned all the land and gave fiefs to lords · fought for the lord in return for land
+- knight → **fought for the lord in return for land**
+- lord → **gave land to knights and ruled a manor**
+- king → **owned all the land and gave fiefs to lords**
+- serf → **worked the land and could not leave the manor**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> knight → fought for the lord in return for land  
+> lord → gave land to knights and ruled a manor  
+> king → owned all the land and gave fiefs to lords  
+> serf → worked the land and could not leave the manor  
+
+**Card c21-3** (draft)
+
+> The Renaissance was a rebirth of learning and art that began in Italy.
+>
+> _Leonardo da Vinci painted the Mona Lisa._  
+> _Gutenberg's press spread books._  
+
+Check question: `y2-21-ren-card` · multiple choice, level 1 · **authored key**
+
+> What does the word Renaissance mean?
+
+- ✅ rebirth
+- ◻️ darkness  
+  _↳ feedback if chosen: That describes the Dark Ages._
+- ◻️ plague  
+  _↳ feedback if chosen: That was the Black Death._
+- ◻️ war  
+  _↳ feedback if chosen: That is not the meaning._
+
+Full working after a second miss:
+
+> A rebirth of learning and art.  
+> So the answer is “rebirth”.  
+
+**Worked example** (draft)
+
+> Describe the life of a serf in the feudal system.
+
+1. A serf worked the lord's land on the manor and gave part of the harvest to the lord.
+2. In return he got protection and a small plot, but he could not leave the manor.
+
+**Answer:** He worked the lord's land for protection and could not leave the manor.
+
+**Practice** `y2-21-dark` · multiple choice, level 1 · **authored key**
+
+> Who kept learning alive in the Dark Ages?
+
+- ◻️ the knights  
+  _↳ feedback if chosen: Knights were fighters._
+- ◻️ the serfs  
+  _↳ feedback if chosen: Serfs could not read._
+- ✅ the Church and its monasteries
+- ◻️ the Crusaders  
+  _↳ feedback if chosen: They fought wars._
+
+Full working after a second miss:
+
+> Monks copied books.  
+> So the answer is “the Church and its monasteries”.  
+
+> Who kept learning alive in the Dark Ages?
+
+- ◻️ the knights  
+  _↳ feedback if chosen: Knights were fighters._
+- ✅ the Church and its monasteries
+- ◻️ the serfs  
+  _↳ feedback if chosen: Serfs could not read._
+- ◻️ the Crusaders  
+  _↳ feedback if chosen: They fought wars._
+
+Full working after a second miss:
+
+> Monks copied books.  
+> So the answer is “the Church and its monasteries”.  
+
+**Practice** `y2-21-feudal` · matching, level 1 · **authored key**
+
+> Match each person in the feudal system to their role.
+
+Right-hand side (shuffled): worked the land and could not leave the manor · gave land to knights and ruled a manor · owned all the land and gave fiefs to lords · fought for the lord in return for land
+- serf → **worked the land and could not leave the manor**
+- lord → **gave land to knights and ruled a manor**
+- knight → **fought for the lord in return for land**
+- king → **owned all the land and gave fiefs to lords**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> serf → worked the land and could not leave the manor  
+> lord → gave land to knights and ruled a manor  
+> knight → fought for the lord in return for land  
+> king → owned all the land and gave fiefs to lords  
+
+> Match each person in the feudal system to their role.
+
+Right-hand side (shuffled): gave land to knights and ruled a manor · fought for the lord in return for land · worked the land and could not leave the manor · owned all the land and gave fiefs to lords
+- king → **owned all the land and gave fiefs to lords**
+- lord → **gave land to knights and ruled a manor**
+- knight → **fought for the lord in return for land**
+- serf → **worked the land and could not leave the manor**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> king → owned all the land and gave fiefs to lords  
+> lord → gave land to knights and ruled a manor  
+> knight → fought for the lord in return for land  
+> serf → worked the land and could not leave the manor  
+
+**Practice** `y2-21-ren` · multiple choice, level 2 · **authored key**
+
+> What does the word Renaissance mean?
+
+- ◻️ war  
+  _↳ feedback if chosen: That is not the meaning._
+- ✅ rebirth
+- ◻️ darkness  
+  _↳ feedback if chosen: That describes the Dark Ages._
+- ◻️ plague  
+  _↳ feedback if chosen: That was the Black Death._
+
+Full working after a second miss:
+
+> A rebirth of learning and art.  
+> So the answer is “rebirth”.  
+
+> How did Gutenberg's printing press help the Renaissance?
+
+- ◻️ It stopped people reading.  
+  _↳ feedback if chosen: It helped reading._
+- ◻️ It ended the Church.  
+  _↳ feedback if chosen: The Church continued._
+- ◻️ It made books more expensive.  
+  _↳ feedback if chosen: It made them cheaper._
+- ✅ Books became cheaper and ideas spread faster.
+
+Full working after a second miss:
+
+> Printed books spread learning.  
+> So the answer is “Books became cheaper and ideas spread faster.”.  
+
+**Practice** `y2-21-years` · number, level 3 · computed by rule
+
+> How many years passed between the crowning of Charlemagne (800) and the arrival of the Portuguese at the Wouri estuary (1472)?
+
+Answer: **672 years**
+- Typed **2272** (added) → “Subtract the earlier year from the later one.”
+
+Full working after a second miss:
+
+> Both years are AD, so subtract the earlier from the later.  
+> 1472 − 800 = 672 years.  
+
+> How many years passed between the battle of Kirina (1235) and Sonni Ali's capture of Timbuktu (1468)?
+
+Answer: **233 years**
+- Typed **2703** (added) → “Subtract the earlier year from the later one.”
+
+Full working after a second miss:
+
+> Both years are AD, so subtract the earlier from the later.  
+> 1468 − 1235 = 233 years.  
 

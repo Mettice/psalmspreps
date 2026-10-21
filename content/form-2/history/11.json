@@ -1,0 +1,611 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "y2-11",
+   "name": "The empire of Mali"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mali rose in the upper Niger valley after the fall of Ghana.\nFounding: Sundiata Keita, a Mandinka prince, defeated Sumanguru (Soumaoro Kanté), king of Sosso, at the battle of Kirina in 1235, and founded the empire. The capital was Niani.\nMansa Musa (ruled about 1312–1337) was its most famous ruler. On his pilgrimage to Mecca in 1324 he gave away so much gold in Cairo that its value fell. He built mosques and made Timbuktu a centre of Islamic learning (the Sankore mosque and university).\nSources of wealth: gold from Bambuk and Bure, the salt trade across the Sahara, taxes on trade, farming.\nGovernment: the Mansa (emperor) ruled with governors in the provinces and a strong army.\nDecline (15th century): weak rulers, quarrels over succession, revolts, and attacks by the Tuareg and the Songhai; Songhai took over.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1235,
+   "b": 1324
+  },
+  "problem": "How many years passed between the battle of Kirina ({a}) and Mansa Musa's pilgrimage ({b})?",
+  "steps": [
+   "Both years are AD, so subtract the earlier from the later.",
+   "{b} − {a} = {b - a} years."
+  ],
+  "answer": "{b - a} years",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "Sundiata Keita founded Mali after defeating Sumanguru of Sosso at the battle of Kirina.",
+    "vars": {},
+    "example": [
+     "Kirina was in {1235}.",
+     "The capital was Niani."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-11-found"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Mansa Musa's pilgrimage to Mecca showed Mali's great wealth in gold.",
+    "vars": {},
+    "example": [
+     "He gave away so much gold that its value fell in Cairo.",
+     "He made Timbuktu a centre of learning."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-11-musa"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "Mali grew rich from gold and the salt trade, and declined through weak rulers, revolts and attacks.",
+    "vars": {},
+    "example": [
+     "Gold came from Bambuk and Bure.",
+     "Songhai rose after Mali."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-11-fall-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-states"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Where did Mali get most of its gold?",
+         "r": "from the goldfields of Bambuk and Bure",
+         "w": [
+          "from Lake Chad",
+          "from the Atlantic Ocean",
+          "from Great Zimbabwe"
+         ],
+         "e": [
+          "Lake Chad had no gold mines.",
+          "Gold was mined inland.",
+          "That was in southern Africa."
+         ],
+         "y": "Bambuk and Bure were in the upper Niger and Senegal valleys."
+        },
+        {
+         "q": "Which was a cause of Mali's decline?",
+         "r": "quarrels over succession and weak rulers",
+         "w": [
+          "the gold of Mansa Musa",
+          "the building of Timbuktu's mosques",
+          "the founding by Sundiata"
+         ],
+         "e": [
+          "That shows its wealth.",
+          "That shows its strength.",
+          "That was its beginning."
+         ],
+         "y": "Weak rulers could not hold the empire together."
+        },
+        {
+         "q": "Which state took over from Mali?",
+         "r": "Songhai",
+         "w": [
+          "Kongo",
+          "Great Zimbabwe",
+          "Ghana"
+         ],
+         "e": [
+          "Kongo was in Central Africa.",
+          "That was in southern Africa.",
+          "Ghana came before Mali."
+         ],
+         "y": "Songhai rose around Gao."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-11-found",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Who founded the empire of Mali?",
+       "r": "Sundiata Keita",
+       "w": [
+        "Mansa Musa",
+        "Sonni Ali",
+        "Idris Alooma"
+       ],
+       "e": [
+        "Mansa Musa was a later ruler.",
+        "Sonni Ali ruled Songhai.",
+        "Idris Alooma ruled Kanem-Bornu."
+       ],
+       "y": "Sundiata founded Mali after Kirina."
+      },
+      {
+       "q": "Which battle marked the founding of Mali?",
+       "r": "the battle of Kirina",
+       "w": [
+        "the battle of Mbwila",
+        "the battle of Tondibi",
+        "the battle of Hastings"
+       ],
+       "e": [
+        "Mbwila was fought in Kongo.",
+        "Tondibi ended Songhai.",
+        "Hastings was in England."
+       ],
+       "y": "Sundiata defeated Sumanguru at Kirina."
+      },
+      {
+       "q": "What was the capital of Mali?",
+       "r": "Niani",
+       "w": [
+        "Koumbi Saleh",
+        "Gao",
+        "Mbanza Kongo"
+       ],
+       "e": [
+        "That was Ghana's capital.",
+        "Gao was the capital of Songhai.",
+        "That was Kongo's capital."
+       ],
+       "y": "Niani was Mali's capital."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-11-musa",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is Mansa Musa famous?",
+       "r": "for his rich pilgrimage to Mecca",
+       "w": [
+        "for founding Kongo",
+        "for building Great Zimbabwe",
+        "for discovering America"
+       ],
+       "e": [
+        "Kongo was founded by Lukeni lua Nimi.",
+        "That was built by the Shona's ancestors.",
+        "That was Columbus."
+       ],
+       "y": "His gold amazed Cairo and Mecca."
+      },
+      {
+       "q": "Which town became a great centre of Islamic learning under Mali?",
+       "r": "Timbuktu",
+       "w": [
+        "Lagos",
+        "Douala",
+        "Kilwa"
+       ],
+       "e": [
+        "Lagos is on the coast of Nigeria.",
+        "Douala is in Cameroon.",
+        "Kilwa is in East Africa."
+       ],
+       "y": "The Sankore mosque and university."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-11-years",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "e": "the battle of Kirina",
+       "y": 1235
+      },
+      {
+       "e": "Mansa Musa's pilgrimage to Mecca",
+       "y": 1324
+      },
+      {
+       "e": "Sonni Ali's capture of Timbuktu",
+       "y": 1468
+      },
+      {
+       "e": "the arrival of the Portuguese at the Wouri estuary",
+       "y": 1472
+      },
+      {
+       "e": "the building of Elmina castle",
+       "y": 1482
+      },
+      {
+       "e": "Diogo Cão's arrival in Kongo",
+       "y": 1483
+      },
+      {
+       "e": "Vasco da Gama's arrival at Malindi",
+       "y": 1498
+      },
+      {
+       "e": "the crowning of Charlemagne",
+       "y": 800
+      },
+      {
+       "e": "the start of the First Crusade",
+       "y": 1096
+      },
+      {
+       "e": "the arrival of the Black Death in Europe",
+       "y": 1347
+      },
+      {
+       "e": "the Moroccan invasion of Songhai",
+       "y": 1591
+      }
+     ]
+    },
+    "Z": {
+     "pick": [
+      {
+       "e": "the battle of Kirina",
+       "y": 1235
+      },
+      {
+       "e": "Mansa Musa's pilgrimage to Mecca",
+       "y": 1324
+      },
+      {
+       "e": "Sonni Ali's capture of Timbuktu",
+       "y": 1468
+      },
+      {
+       "e": "the arrival of the Portuguese at the Wouri estuary",
+       "y": 1472
+      },
+      {
+       "e": "the building of Elmina castle",
+       "y": 1482
+      },
+      {
+       "e": "Diogo Cão's arrival in Kongo",
+       "y": 1483
+      },
+      {
+       "e": "Vasco da Gama's arrival at Malindi",
+       "y": 1498
+      },
+      {
+       "e": "the crowning of Charlemagne",
+       "y": 800
+      },
+      {
+       "e": "the start of the First Crusade",
+       "y": 1096
+      },
+      {
+       "e": "the arrival of the Black Death in Europe",
+       "y": 1347
+      },
+      {
+       "e": "the Moroccan invasion of Songhai",
+       "y": 1591
+      }
+     ]
+    }
+   },
+   "prompt": "How many years passed between {X.e} ({X.y}) and {Z.e} ({Z.y})?",
+   "answer": "Z.y - X.y",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "Z.y + X.y",
+     "explain": "Subtract the earlier year from the later one."
+    }
+   ],
+   "solution": [
+    "Both years are AD, so subtract the earlier from the later.",
+    "{Z.y} − {X.y} = {answer} years."
+   ],
+   "where": "Z.y > X.y",
+   "unit": "years"
+  },
+  {
+   "id": "y2-11-fall",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where did Mali get most of its gold?",
+       "r": "from the goldfields of Bambuk and Bure",
+       "w": [
+        "from Lake Chad",
+        "from the Atlantic Ocean",
+        "from Great Zimbabwe"
+       ],
+       "e": [
+        "Lake Chad had no gold mines.",
+        "Gold was mined inland.",
+        "That was in southern Africa."
+       ],
+       "y": "Bambuk and Bure were in the upper Niger and Senegal valleys."
+      },
+      {
+       "q": "Which was a cause of Mali's decline?",
+       "r": "quarrels over succession and weak rulers",
+       "w": [
+        "the gold of Mansa Musa",
+        "the building of Timbuktu's mosques",
+        "the founding by Sundiata"
+       ],
+       "e": [
+        "That shows its wealth.",
+        "That shows its strength.",
+        "That was its beginning."
+       ],
+       "y": "Weak rulers could not hold the empire together."
+      },
+      {
+       "q": "Which state took over from Mali?",
+       "r": "Songhai",
+       "w": [
+        "Kongo",
+        "Great Zimbabwe",
+        "Ghana"
+       ],
+       "e": [
+        "Kongo was in Central Africa.",
+        "That was in southern Africa.",
+        "Ghana came before Mali."
+       ],
+       "y": "Songhai rose around Gao."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-states"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Sundiata won the battle of Kirina.",
+      "truth": "true"
+     },
+     {
+      "text": "Mali traded gold and salt.",
+      "truth": "true"
+     },
+     {
+      "text": "Mansa Musa went on pilgrimage to Mecca.",
+      "truth": "true"
+     },
+     {
+      "text": "Songhai rose after Mali.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mali was founded by Mansa Musa.",
+      "truth": "false",
+      "explain": "It was founded by Sundiata Keita."
+     },
+     {
+      "text": "Mali grew rich from selling oil.",
+      "truth": "false",
+      "explain": "Its wealth came from gold and trade."
+     },
+     {
+      "text": "Timbuktu was the capital of Kongo.",
+      "truth": "false",
+      "explain": "Timbuktu was a city of Mali; Kongo's capital was Mbanza Kongo."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

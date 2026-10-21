@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-207 P1 items: 205 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+213 P1 items: 211 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -235,6 +235,12 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-V11 | Form 2 Biology: BMI and food energy | open |
 | TR-V12 | Form 2 Biology: drugs and the law | open |
 | TR-V13 | Form 2 Biology: harmful practices and the law | open |
+| TR-O10 | Form 2 Geography: tropical zone and desert | open |
+| TR-O11 | Form 2 Geography: wild products and resources | open |
+| TR-O12 | Form 2 Geography: rural Africa | open |
+| TR-I10 | Form 2 History: dates | open |
+| TR-I11 | Form 2 History: African states | open |
+| TR-I12 | Form 2 History: arts and contacts | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -882,3 +888,21 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 - [ ] **TR-V11 [P1] BMI and food energy:** WHO adult BMI classes (18.5, 25, 30) with a note that teenagers use age charts; energy values fat 37 and carbohydrate/protein 17 kJ per gram; heat = mass × 4.2 × rise. *Location:* rows 31–32.
 - [ ] **TR-V12 [P1] Drugs and the law:** the effects of alcohol, tobacco (nicotine, tar, carbon monoxide, passive smoking, shisha), marijuana and tramadol; the statements that tobacco and alcohol sales to minors and smoking in public places are forbidden, and that using and selling marijuana are crimes. *Location:* rows 41–43.
 - [ ] **TR-V13 [P1] Reproductive-health practices and the law:** please check the legal statements against the Cameroon Penal Code (2016): FGM forbidden; abortion illegal except in limited cases; protection from forced marriage (the lesson says only that a child is anyone under 18 and avoids naming a legal marriage age). Also check the tone and the sources of help named for girls at risk. *Location:* rows 44–45.
+
+## O (Term 2). Geography Form 2, Batch G2-2 (Term 2, rows 11–19), added 2026-10-21 (form-2 branch)
+
+9 lessons: man in the tropical zone (two parts), the firewood crisis, products gathered from the wild, practical work 3 (biological resources), man in the hot desert, water scarcity, countrysides in Africa (two parts). Computed parts: daily temperature range and household water use. Reviewer: a Geography teacher.
+
+### P1
+- [ ] **TR-O10 [P1] Tropical zone and desert facts:** latitudes (5°–15°, 15°–30°), rainfall and temperature figures, SODEPA, SODECOTON, SEMRY at Yagoua and Maga, the Green Sahel operation, Waza and Bénoué. *Location:* rows 11, 12, 16.
+- [ ] **TR-O11 [P1] Wild products and resources:** eru, njangsa, bush mango, bitter cola, Pygeum, rattan; resources by zone; firewood crisis and water scarcity causes and solutions. *Location:* rows 13–15, 17.
+- [ ] **TR-O12 [P1] Rural Africa:** landscapes, dispersed/nucleated/linear settlements, attractive and repulsive aspects, rural exodus. *Location:* rows 18–19.
+
+## I (Term 2). History Form 2, Batch Y2-2 (Term 2, rows 11–21), added 2026-10-21 (form-2 branch)
+
+11 lessons: Mali, Kanem-Bornu, Kongo, Great Zimbabwe, African arts, guided work 2 (arts in your region), further study 2 (decline of African empires), contacts of West Africa with Arabs and Europeans, East Africa and the Indian Ocean, Cameroon's first contact with Europeans, medieval Europe. Years between events are computed from an authored table of dates. Reviewer: a History teacher.
+
+### P1
+- [ ] **TR-I10 [P1] Dates:** the event table (Kirina 1235, Mansa Musa's pilgrimage 1324, Timbuktu 1468, Wouri 1472, Elmina 1482, Diogo Cão 1483, Malindi 1498, Charlemagne 800, First Crusade 1096, Black Death 1347, Tondibi 1591) and the reign dates in the notes; several are approximate. *Location:* rows 11–21.
+- [ ] **TR-I11 [P1] African states:** Mali, Kanem-Bornu (Njimi, Ngazargamu, Idris Alooma), Kongo (Afonso I, Mbwila), Great Zimbabwe; the decline factors. *Location:* rows 11–14, 17.
+- [ ] **TR-I12 [P1] Arts and contacts:** Nok, Igbo-Ukwu, Ife, Benin, Foumban casting, the lost-wax method; trans-Saharan and Indian Ocean trade, monsoon months, Fernando Pó and Rio dos Camarões, the Duala middlemen; feudalism and the Renaissance. *Location:* rows 15–16, 18–21.

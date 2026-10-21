@@ -1,0 +1,445 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "g2-19",
+   "name": "Countrysides in Africa: attractive and repulsive aspects"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Attractive aspects (what makes people stay in or move to rural areas):\n• fresh air, quiet and a natural environment;\n• fertile land for farming and cheap or free land;\n• cheap, fresh food;\n• strong family and community ties, traditions and culture;\n• less crime and a lower cost of living.\nRepulsive aspects (what pushes people to leave):\n• few jobs other than farming; low incomes;\n• poor roads, little electricity and pipe-borne water;\n• few secondary schools and hospitals;\n• hard farm work with simple tools, poor harvests and low prices;\n• few leisure activities.\nThe repulsive aspects cause rural exodus (rural–urban migration), mainly of young people. Solutions: build roads, schools, hospitals and electricity in villages; give farmers credit and better tools; create small industries in rural areas.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a young man leaves his village for Douala"
+  },
+  "problem": "Give two reasons why {x}.",
+  "steps": [
+   "In the village there are few jobs besides farming, and incomes are low.",
+   "Douala has more jobs, electricity, schools and entertainment."
+  ],
+  "answer": "Few jobs and services in the village; more chances in the town.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "Attractive aspects of the countryside: fresh air, fertile land, cheap food and strong community life.",
+    "vars": {},
+    "example": [
+     "Food is fresh from the farm.",
+     "Less noise and crime."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-19-good"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "Repulsive aspects: few jobs, low incomes, poor roads and few schools and hospitals.",
+    "vars": {},
+    "example": [
+     "No electricity in many villages.",
+     "Hard work with hoes and cutlasses."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-19-bad"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "The repulsive aspects cause rural exodus; better roads, services and rural industries can reduce it.",
+    "vars": {},
+    "example": [
+     "Young people move to towns.",
+     "Rural electrification helps."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-19-exodus-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "rural-africa"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is rural exodus?",
+         "r": "the movement of people from villages to towns",
+         "w": [
+          "the movement of people from towns to villages",
+          "a type of farming",
+          "a village festival"
+         ],
+         "e": [
+          "That is the opposite.",
+          "It is migration.",
+          "It is migration."
+         ],
+         "y": "Rural–urban migration."
+        },
+        {
+         "q": "Which measure can reduce rural exodus?",
+         "r": "bringing electricity and roads to villages",
+         "w": [
+          "closing village schools",
+          "raising town wages only",
+          "stopping all farming"
+         ],
+         "e": [
+          "That pushes people out.",
+          "That pulls people to towns.",
+          "That removes rural jobs."
+         ],
+         "y": "Better rural life keeps people."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-19-good",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "rural-africa"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an attractive aspect of rural areas?",
+       "r": "fresh air and a quiet environment",
+       "w": [
+        "poor roads",
+        "few hospitals",
+        "low incomes"
+       ],
+       "e": [
+        "That is repulsive.",
+        "That is repulsive.",
+        "That is repulsive."
+       ],
+       "y": "Rural areas are quiet and natural."
+      },
+      {
+       "q": "Why is food often cheaper in the village?",
+       "r": "It is grown nearby and fresh from the farm.",
+       "w": [
+        "It is imported.",
+        "There are no farms.",
+        "Transport costs are high."
+       ],
+       "e": [
+        "It is local.",
+        "There are many farms.",
+        "Little transport is needed."
+       ],
+       "y": "No long transport is needed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-19-bad",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "rural-africa"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a repulsive aspect of rural areas?",
+       "r": "few jobs other than farming",
+       "w": [
+        "fresh air",
+        "cheap food",
+        "strong family ties"
+       ],
+       "e": [
+        "That is attractive.",
+        "That is attractive.",
+        "That is attractive."
+       ],
+       "y": "Lack of jobs pushes people away."
+      },
+      {
+       "q": "Which services are often lacking in villages?",
+       "r": "electricity, hospitals and secondary schools",
+       "w": [
+        "farms and land",
+        "fresh air",
+        "family members"
+       ],
+       "e": [
+        "Villages have farms.",
+        "Villages have fresh air.",
+        "Villages have families."
+       ],
+       "y": "Many villages lack modern services."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-19-exodus",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "rural-africa"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is rural exodus?",
+       "r": "the movement of people from villages to towns",
+       "w": [
+        "the movement of people from towns to villages",
+        "a type of farming",
+        "a village festival"
+       ],
+       "e": [
+        "That is the opposite.",
+        "It is migration.",
+        "It is migration."
+       ],
+       "y": "Rural–urban migration."
+      },
+      {
+       "q": "Which measure can reduce rural exodus?",
+       "r": "bringing electricity and roads to villages",
+       "w": [
+        "closing village schools",
+        "raising town wages only",
+        "stopping all farming"
+       ],
+       "e": [
+        "That pushes people out.",
+        "That pulls people to towns.",
+        "That removes rural jobs."
+       ],
+       "y": "Better rural life keeps people."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "rural-africa"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Rural areas have fresh air.",
+      "truth": "true"
+     },
+     {
+      "text": "Poor roads are a repulsive aspect.",
+      "truth": "true"
+     },
+     {
+      "text": "Young people often leave villages.",
+      "truth": "true"
+     },
+     {
+      "text": "Rural industries create jobs.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Rural exodus is mainly old people moving to villages.",
+      "truth": "false",
+      "explain": "It is mainly young people moving to towns."
+     },
+     {
+      "text": "Villages usually have more hospitals than towns.",
+      "truth": "false",
+      "explain": "Towns have more hospitals."
+     },
+     {
+      "text": "Building rural roads increases rural exodus.",
+      "truth": "false",
+      "explain": "Better roads help keep people in villages."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

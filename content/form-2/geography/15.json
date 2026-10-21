@@ -1,0 +1,374 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "g2-15",
+   "name": "Practical work 3: identifying the biological resources of Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Biological resources are living resources: plants (forests, crops, wild products) and animals (wildlife, livestock, fish).\nMain zones and their resources:\n• equatorial forest (South, East, Centre, Littoral, South West): timber (sapelli, iroko, ayous), cocoa, coffee, oil palm, eru, gorillas, elephants (Dja, Lobéké, Korup);\n• highlands (West, North West): Arabica coffee, tea, maize, beans, potatoes, cattle;\n• tropical savanna (Adamawa, North, Far North): cattle, goats, cotton, millet, groundnuts, shea, giraffes, lions (Waza, Bénoué);\n• coast and rivers: fish, mangroves, shrimps.\nMethod of the practical: list resources seen in your area or a market, sort them into plant and animal, wild and cultivated, record them in a table, and mark the zones on a sketch map of Cameroon.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "a gorilla, cocoa and sapelli"
+  },
+  "problem": "Sort {r} into plant or animal and wild or cultivated.",
+  "steps": [
+   "A gorilla is a wild animal; sapelli is a wild tree (timber).",
+   "Cocoa is a cultivated plant (a cash crop)."
+  ],
+  "answer": "Gorilla: wild animal; sapelli: wild plant; cocoa: cultivated plant.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "Biological resources are living: plants and animals, wild or cultivated.",
+    "vars": {},
+    "example": [
+     "Timber and eru are wild plants.",
+     "Cattle are reared animals."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-15-sort"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "The forest zone gives timber and cocoa; the highlands give coffee and tea; the savanna gives cattle and cotton.",
+    "vars": {},
+    "example": [
+     "Sapelli is a forest timber.",
+     "Tea is grown at Tole and Ndu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-15-zone"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Record resources in a table and mark their zones on a sketch map.",
+    "vars": {},
+    "example": [
+     "Columns: resource, plant or animal, wild or cultivated, zone.",
+     "Use a key on the map."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-15-map-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "biological-resources"
+     ],
+     "prompt": "Put the steps of the practical in order.",
+     "items": [
+      {
+       "text": "List the resources seen in the area or market"
+      },
+      {
+       "text": "Sort them into plant or animal, wild or cultivated"
+      },
+      {
+       "text": "Record them in a table"
+      },
+      {
+       "text": "Mark the zones on a sketch map with a key"
+      }
+     ],
+     "order": "as_written"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-15-sort",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "biological-resources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "a gorilla",
+       "a": "a wild animal",
+       "w": [
+        "a cultivated plant",
+        "a wild plant",
+        "a reared animal"
+       ],
+       "y": "Gorillas live wild in the forest."
+      },
+      {
+       "r": "cocoa",
+       "a": "a cultivated plant",
+       "w": [
+        "a wild animal",
+        "a wild plant",
+        "a reared animal"
+       ],
+       "y": "Cocoa is grown on farms."
+      },
+      {
+       "r": "eru",
+       "a": "a wild plant",
+       "w": [
+        "a reared animal",
+        "a cultivated plant only",
+        "a wild animal"
+       ],
+       "y": "Eru is mostly gathered from the forest."
+      },
+      {
+       "r": "a herd of cattle",
+       "a": "a reared animal",
+       "w": [
+        "a wild animal",
+        "a wild plant",
+        "a cultivated plant"
+       ],
+       "y": "Cattle are kept by herders."
+      },
+      {
+       "r": "an iroko tree in the forest",
+       "a": "a wild plant",
+       "w": [
+        "a reared animal",
+        "a wild animal",
+        "a cultivated plant"
+       ],
+       "y": "It grows naturally in the forest."
+      },
+      {
+       "r": "an elephant in Lobéké park",
+       "a": "a wild animal",
+       "w": [
+        "a reared animal",
+        "a cultivated plant",
+        "a wild plant"
+       ],
+       "y": "It lives wild in the park."
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.r} a plant or an animal, and wild or cultivated?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "kind"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "kind"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "kind"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "kind",
+     "explain": "Ask two questions: is it a plant or an animal? Is it grown or kept by people (cultivated, reared) or does it live wild?"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "g2-15-zone",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biological-resources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "timber such as sapelli",
+       "r": "the equatorial forest",
+       "w": [
+        "the savanna",
+        "the Sahel",
+        "the coast only"
+       ],
+       "e": [
+        "The savanna has scattered trees.",
+        "The Sahel is dry.",
+        "Timber is mainly inland forest."
+       ],
+       "y": "Dense forest gives timber."
+      },
+      {
+       "q": "cattle and cotton",
+       "r": "the tropical savanna",
+       "w": [
+        "the equatorial forest",
+        "the mangroves",
+        "the open sea"
+       ],
+       "e": [
+        "The forest has tsetse and little pasture.",
+        "Mangroves are swamps.",
+        "The sea has fish."
+       ],
+       "y": "Grassland suits cattle and cotton."
+      },
+      {
+       "q": "tea and Arabica coffee",
+       "r": "the western highlands",
+       "w": [
+        "the Far North plains",
+        "the coastal mangroves",
+        "the Sahel"
+       ],
+       "e": [
+        "It is too dry and hot.",
+        "They are swamps.",
+        "It is too dry."
+       ],
+       "y": "They need cool, high land."
+      }
+     ]
+    }
+   },
+   "prompt": "In which zone of Cameroon is {X.q} mainly found?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-15-map",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "biological-resources"
+   ],
+   "prompt": "Put the steps of the practical in order.",
+   "items": [
+    {
+     "text": "List the resources seen in the area or market"
+    },
+    {
+     "text": "Sort them into plant or animal, wild or cultivated"
+    },
+    {
+     "text": "Record them in a table"
+    },
+    {
+     "text": "Mark the zones on a sketch map with a key"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "g2-15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "biological-resources"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cocoa is a cultivated plant.",
+      "truth": "true"
+     },
+     {
+      "text": "Elephants live in the forest parks.",
+      "truth": "true"
+     },
+     {
+      "text": "Cattle are reared in the savanna.",
+      "truth": "true"
+     },
+     {
+      "text": "Fish are a biological resource.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Petroleum is a biological resource.",
+      "truth": "false",
+      "explain": "Petroleum is a mineral resource, not living."
+     },
+     {
+      "text": "Tea is grown mainly in the Far North.",
+      "truth": "false",
+      "explain": "Tea grows in the cool highlands."
+     },
+     {
+      "text": "Giraffes are reared on farms in the South.",
+      "truth": "false",
+      "explain": "Giraffes live wild in northern parks."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

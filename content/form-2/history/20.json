@@ -1,0 +1,445 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "y2-20",
+   "name": "The first contact of Cameroon with the Europeans"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The first Europeans to reach the Cameroon coast were the Portuguese. About 1472 the sailor Fernando Pó (Fernão do Pó) entered the Wouri estuary. His men saw many prawns (shrimps) in the river and named it Rio dos Camarões, the “river of prawns”. From this name came “Cameroon”.\nThe island of Bioko was long called Fernando Po after him.\nTrade: the Portuguese, then the Dutch (17th century), the English and the French, traded with coastal peoples, especially the Duala, who acted as middlemen between the Europeans and the peoples inland.\n• Europeans brought cloth, alcohol, guns, gunpowder, mirrors, beads and salt.\n• They bought ivory, slaves, and later palm oil and palm kernels.\nEffects: the slave trade took many people; new goods and crops (maize, cassava); coastal chiefs grew rich and powerful; Christian missions came later (the Baptists in 1841–1845).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Rio dos Camarões"
+  },
+  "problem": "Explain where the name Cameroon comes from.",
+  "steps": [
+   "Portuguese sailors under Fernando Pó saw many prawns in the Wouri estuary.",
+   "They called it {n}, the river of prawns; the name became Cameroon."
+  ],
+  "answer": "From Rio dos Camarões, the Portuguese name for the river of prawns.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "About {1472} the Portuguese sailor Fernando Pó reached the Wouri estuary.",
+    "vars": {},
+    "example": [
+     "The Portuguese were the first Europeans there.",
+     "Bioko was named Fernando Po after him."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-20-who"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "The name Cameroon comes from Rio dos Camarões, the river of prawns.",
+    "vars": {},
+    "example": [
+     "Camarões means prawns.",
+     "The river is the Wouri."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-20-name"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "The Duala were middlemen; Europeans traded cloth, alcohol and guns for ivory, slaves and palm oil.",
+    "vars": {},
+    "example": [
+     "The Dutch came in the {17}th century.",
+     "Palm oil trade came later."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-20-trade-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "external-contacts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why were the Duala important in the early trade?",
+         "r": "They were middlemen between Europeans and inland peoples.",
+         "w": [
+          "They built ships for Portugal.",
+          "They ruled Portugal.",
+          "They did not trade."
+         ],
+         "e": [
+          "That is not true.",
+          "That is not true.",
+          "They traded a lot."
+         ],
+         "y": "They controlled trade on the coast."
+        },
+        {
+         "q": "What did the Europeans bring to trade on the Cameroon coast?",
+         "r": "cloth, alcohol, guns and mirrors",
+         "w": [
+          "ivory and slaves",
+          "palm oil",
+          "prawns"
+         ],
+         "e": [
+          "Those were bought from Africans.",
+          "That was bought from Africans.",
+          "Those were local."
+         ],
+         "y": "Manufactured goods from Europe."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-20-who",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which Europeans first reached the Cameroon coast?",
+       "r": "the Portuguese",
+       "w": [
+        "the Germans",
+        "the French",
+        "the British"
+       ],
+       "e": [
+        "The Germans came in the 19th century.",
+        "The French came later.",
+        "The British came later."
+       ],
+       "y": "The Portuguese, about 1472."
+      },
+      {
+       "q": "Which Portuguese sailor reached the Wouri estuary about 1472?",
+       "r": "Fernando Pó",
+       "w": [
+        "Vasco da Gama",
+        "Diogo Cão",
+        "Henry the Navigator"
+       ],
+       "e": [
+        "He reached East Africa.",
+        "He reached Kongo.",
+        "He stayed in Portugal."
+       ],
+       "y": "Fernão do Pó."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-20-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does Rio dos Camarões mean?",
+       "r": "river of prawns",
+       "w": [
+        "houses of stone",
+        "land of gold",
+        "great lake"
+       ],
+       "e": [
+        "That is Zimbabwe.",
+        "That is not it.",
+        "That is not it."
+       ],
+       "y": "Camarões are prawns."
+      },
+      {
+       "q": "Which river did the Portuguese call Rio dos Camarões?",
+       "r": "the Wouri",
+       "w": [
+        "the Niger",
+        "the Benue",
+        "the Sanaga only"
+       ],
+       "e": [
+        "The Niger is in Nigeria and Mali.",
+        "The Benue is in the North.",
+        "It was the Wouri estuary at Douala."
+       ],
+       "y": "The Wouri estuary."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-20-trade",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why were the Duala important in the early trade?",
+       "r": "They were middlemen between Europeans and inland peoples.",
+       "w": [
+        "They built ships for Portugal.",
+        "They ruled Portugal.",
+        "They did not trade."
+       ],
+       "e": [
+        "That is not true.",
+        "That is not true.",
+        "They traded a lot."
+       ],
+       "y": "They controlled trade on the coast."
+      },
+      {
+       "q": "What did the Europeans bring to trade on the Cameroon coast?",
+       "r": "cloth, alcohol, guns and mirrors",
+       "w": [
+        "ivory and slaves",
+        "palm oil",
+        "prawns"
+       ],
+       "e": [
+        "Those were bought from Africans.",
+        "That was bought from Africans.",
+        "Those were local."
+       ],
+       "y": "Manufactured goods from Europe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "external-contacts"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Fernando Pó reached the Wouri about 1472.",
+      "truth": "true"
+     },
+     {
+      "text": "Cameroon's name comes from the Portuguese.",
+      "truth": "true"
+     },
+     {
+      "text": "The Duala were middlemen.",
+      "truth": "true"
+     },
+     {
+      "text": "The slave trade took many people.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Germans were the first Europeans to reach Cameroon.",
+      "truth": "false",
+      "explain": "The Portuguese were first, in the 15th century."
+     },
+     {
+      "text": "Rio dos Camarões means river of gold.",
+      "truth": "false",
+      "explain": "It means river of prawns."
+     },
+     {
+      "text": "Europeans bought cloth and guns from the Duala.",
+      "truth": "false",
+      "explain": "Europeans sold cloth and guns and bought ivory and slaves."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
