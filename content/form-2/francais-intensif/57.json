@@ -1,0 +1,460 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 57,
+ "language": "fr",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "fi2-57",
+   "name": "Réciter un poème : « Mon drapeau »"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rappel : un poème est fait de vers regroupés en strophes ; la rime est le même son à la fin des vers.\nPour réciter : apprendre strophe par strophe ; se tenir droit ; regarder le public ; articuler ; respirer aux virgules et aux points ; mettre le ton (ici, la fierté).\nUne comparaison rapproche deux choses avec « comme » : « vert comme la forêt ».\n\nPoème : Mon drapeau\nVert comme la forêt qui chante,\nRouge comme le cœur qui bat,\nJaune comme le soleil qui hante\nLes champs du Nord jusqu’à Yabassi là-bas.\n\nAu milieu brille une étoile d’or,\nUnique, comme notre unité ;\nJe la salue, droit et fort,\nFier de ma patrie, de ma liberté.\n(poème original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Relève une comparaison dans le poème et explique-la.",
+  "steps": [
+   "Une comparaison utilise « comme ».",
+   "« Rouge comme le cœur qui bat » : le rouge du drapeau est comparé au cœur, symbole de vie et de courage."
+  ],
+  "answer": "« Rouge comme le cœur qui bat » : le rouge est comparé au cœur.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c57-1",
+    "status": "draft",
+    "idea": "Le poème a deux strophes de quatre vers (des quatrains).",
+    "vars": {},
+    "example": [
+     "Chaque ligne est un vers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-57-forme"
+    }
+   },
+   {
+    "id": "c57-2",
+    "status": "draft",
+    "idea": "Une comparaison rapproche deux choses avec « comme ».",
+    "vars": {},
+    "example": [
+     "Jaune comme le soleil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-57-comp"
+    }
+   },
+   {
+    "id": "c57-3",
+    "status": "draft",
+    "idea": "On récite avec le ton qui convient : ici, la fierté.",
+    "vars": {},
+    "example": [
+     "Se tenir droit, articuler."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-57-dire-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel ton convient pour réciter ce poème ?",
+         "r": "un ton fier et solennel",
+         "w": [
+          "un ton triste",
+          "un ton moqueur",
+          "un ton endormi"
+         ],
+         "e": [
+          "Le poème n’est pas triste.",
+          "Il ne se moque pas.",
+          "Il faut de l’énergie."
+         ],
+         "y": "Le poète est fier de sa patrie."
+        },
+        {
+         "q": "Où faut-il respirer en récitant ?",
+         "r": "aux virgules et aux points",
+         "w": [
+          "au milieu des mots",
+          "jamais",
+          "après chaque syllabe"
+         ],
+         "e": [
+          "Cela coupe les mots.",
+          "Il faut respirer.",
+          "Cela casse le rythme."
+         ],
+         "y": "La ponctuation guide les pauses."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-57-forme",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "combien de strophes compte le poème ?",
+       "r": "deux",
+       "w": [
+        "une",
+        "quatre",
+        "huit"
+       ],
+       "e": [
+        "Il y a une ligne blanche entre deux strophes.",
+        "Ce sont les vers par strophe.",
+        "C’est le nombre total de vers."
+       ],
+       "y": "Deux strophes."
+      },
+      {
+       "q": "quel mot rime avec « bat » ?",
+       "r": "là-bas",
+       "w": [
+        "chante",
+        "or",
+        "unité"
+       ],
+       "e": [
+        "Il rime avec « hante ».",
+        "Il rime avec « fort ».",
+        "Il rime avec « liberté »."
+       ],
+       "y": "bat / là-bas."
+      },
+      {
+       "q": "quel mot rime avec « or » ?",
+       "r": "fort",
+       "w": [
+        "unité",
+        "chante",
+        "bat"
+       ],
+       "e": [
+        "Il rime avec « liberté ».",
+        "Il rime avec « hante ».",
+        "Il rime avec « là-bas »."
+       ],
+       "y": "or / fort."
+      }
+     ]
+    }
+   },
+   "prompt": "Poème « Mon drapeau » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-57-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "à quoi le vert est-il comparé ?",
+       "r": "à la forêt",
+       "w": [
+        "au soleil",
+        "au cœur",
+        "à l’étoile"
+       ],
+       "e": [
+        "C’est le jaune.",
+        "C’est le rouge.",
+        "L’étoile est d’or."
+       ],
+       "y": "« Vert comme la forêt »."
+      },
+      {
+       "q": "que représente l’étoile selon le poème ?",
+       "r": "l’unité",
+       "w": [
+        "la pluie",
+        "la nuit",
+        "la guerre"
+       ],
+       "e": [
+        "Ce n’est pas dit.",
+        "Ce n’est pas dit.",
+        "Ce n’est pas dit."
+       ],
+       "y": "« Unique, comme notre unité »."
+      }
+     ]
+    }
+   },
+   "prompt": "Poème « Mon drapeau » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-57-dire",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel ton convient pour réciter ce poème ?",
+       "r": "un ton fier et solennel",
+       "w": [
+        "un ton triste",
+        "un ton moqueur",
+        "un ton endormi"
+       ],
+       "e": [
+        "Le poème n’est pas triste.",
+        "Il ne se moque pas.",
+        "Il faut de l’énergie."
+       ],
+       "y": "Le poète est fier de sa patrie."
+      },
+      {
+       "q": "Où faut-il respirer en récitant ?",
+       "r": "aux virgules et aux points",
+       "w": [
+        "au milieu des mots",
+        "jamais",
+        "après chaque syllabe"
+       ],
+       "e": [
+        "Cela coupe les mots.",
+        "Il faut respirer.",
+        "Cela casse le rythme."
+       ],
+       "y": "La ponctuation guide les pauses."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-57-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Quelle phrase sur le poème est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le poème parle du drapeau.",
+      "truth": "true"
+     },
+     {
+      "text": "Il contient des comparaisons.",
+      "truth": "true"
+     },
+     {
+      "text": "Il a deux strophes.",
+      "truth": "true"
+     },
+     {
+      "text": "Le poète est fier de sa patrie.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le poème compare le rouge au soleil.",
+      "truth": "false",
+      "explain": "Le rouge est comparé au cœur ; le jaune au soleil."
+     },
+     {
+      "text": "Le poème a une seule strophe de huit vers.",
+      "truth": "false",
+      "explain": "Il a deux strophes de quatre vers."
+     },
+     {
+      "text": "Le poète est triste et a honte.",
+      "truth": "false",
+      "explain": "Il est fier."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 75,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-75",
+   "name": "Le lexique des sports de compétition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un sport de compétition oppose des athlètes ou des équipes qui veulent gagner.\n• Sports collectifs : le football, le handball, le basket-ball, le volley-ball, le rugby.\n• Sports individuels : l’athlétisme (course, saut, lancer), la boxe, le judo, la natation, le cyclisme, la lutte.\nMots de la compétition : un championnat, un tournoi, une coupe, un match, une finale, une demi-finale, un score, un but, un arbitre, un entraîneur, un supporter, une médaille (d’or, d’argent, de bronze), un record, un podium, se qualifier, éliminer, battre, égaliser.\nAu Cameroun, la course de l’Espoir du mont Cameroun et les Lions Indomptables (football) sont célèbres.\nLe fair-play, c’est respecter les règles, l’arbitre et l’adversaire.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que reçoit le deuxième d’une course ?",
+  "steps": [
+   "Le premier reçoit la médaille d’or.",
+   "Le deuxième reçoit la médaille d’argent ; le troisième, la médaille de bronze."
+  ],
+  "answer": "la médaille d’argent",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c75-1",
+    "status": "draft",
+    "idea": "Sports collectifs : football, handball ; sports individuels : athlétisme, boxe, natation.",
+    "vars": {},
+    "example": [
+     "Le handball se joue en équipe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-75-type"
+    }
+   },
+   {
+    "id": "c75-2",
+    "status": "draft",
+    "idea": "Mots : tournoi, finale, score, arbitre, entraîneur, médaille, record.",
+    "vars": {},
+    "example": [
+     "L’entraîneur prépare l’équipe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-75-mot"
+    }
+   },
+   {
+    "id": "c75-3",
+    "status": "draft",
+    "idea": "Le fair-play, c’est respecter les règles, l’arbitre et l’adversaire.",
+    "vars": {},
+    "example": [
+     "Serrer la main de l’adversaire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-75-fair-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel comportement montre le fair-play ?",
+         "r": "serrer la main de l’adversaire après le match",
+         "w": [
+          "insulter l’arbitre",
+          "tricher pour gagner",
+          "frapper un adversaire"
+         ],
+         "e": [
+          "C’est contraire au fair-play.",
+          "C’est contraire au fair-play.",
+          "C’est contraire au fair-play."
+         ],
+         "y": "Respect de l’adversaire."
+        },
+        {
+         "q": "Quelle médaille reçoit le troisième ?",
+         "r": "la médaille de bronze",
+         "w": [
+          "la médaille d’or",
+          "la médaille d’argent",
+          "aucune médaille"
+         ],
+         "e": [
+          "C’est le premier.",
+          "C’est le deuxième.",
+          "Le troisième monte sur le podium."
+         ],
+         "y": "Or, argent, bronze."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-75-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "le football",
+       "a": "collectif"
+      },
+      {
+       "s": "la boxe",
+       "a": "individuel"
+      },
+      {
+       "s": "le handball",
+       "a": "collectif"
+      },
+      {
+       "s": "la natation",
+       "a": "individuel"
+      },
+      {
+       "s": "le volley-ball",
+       "a": "collectif"
+      },
+      {
+       "s": "le judo",
+       "a": "individuel"
+      },
+      {
+       "s": "le cyclisme",
+       "a": "individuel"
+      },
+      {
+       "s": "le basket-ball",
+       "a": "collectif"
+      }
+     ]
+    }
+   },
+   "prompt": "« {X.s} » est un sport…",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'collectif' ? 'individuel' : 'collectif'}",
+     "misconception": "type"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "type",
+     "explain": "Demande-toi : joue-t-on en équipe ou seul ?"
+    }
+   ],
+   "solution": [
+    "Collectif : on joue en équipe ; individuel : on concourt seul.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 1,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-75-mot",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "l’entraîneur",
+     "right": "il prépare les joueurs"
+    },
+    {
+     "left": "l’arbitre",
+     "right": "il fait respecter les règles"
+    },
+    {
+     "left": "la finale",
+     "right": "le dernier match qui désigne le vainqueur"
+    },
+    {
+     "left": "le record",
+     "right": "la meilleure performance jamais réalisée"
+    },
+    {
+     "left": "le supporter",
+     "right": "il encourage son équipe"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-75-fair",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel comportement montre le fair-play ?",
+       "r": "serrer la main de l’adversaire après le match",
+       "w": [
+        "insulter l’arbitre",
+        "tricher pour gagner",
+        "frapper un adversaire"
+       ],
+       "e": [
+        "C’est contraire au fair-play.",
+        "C’est contraire au fair-play.",
+        "C’est contraire au fair-play."
+       ],
+       "y": "Respect de l’adversaire."
+      },
+      {
+       "q": "Quelle médaille reçoit le troisième ?",
+       "r": "la médaille de bronze",
+       "w": [
+        "la médaille d’or",
+        "la médaille d’argent",
+        "aucune médaille"
+       ],
+       "e": [
+        "C’est le premier.",
+        "C’est le deuxième.",
+        "Le troisième monte sur le podium."
+       ],
+       "y": "Or, argent, bronze."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-75-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le football est un sport collectif.",
+      "truth": "true"
+     },
+     {
+      "text": "Le premier reçoit la médaille d’or.",
+      "truth": "true"
+     },
+     {
+      "text": "L’arbitre fait respecter les règles.",
+      "truth": "true"
+     },
+     {
+      "text": "L’entraîneur prépare l’équipe.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La boxe est un sport collectif.",
+      "truth": "false",
+      "explain": "C’est un sport individuel."
+     },
+     {
+      "text": "Le fair-play, c’est tricher pour gagner.",
+      "truth": "false",
+      "explain": "C’est respecter les règles et l’adversaire."
+     },
+     {
+      "text": "Le supporter arbitre le match.",
+      "truth": "false",
+      "explain": "Il encourage son équipe."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

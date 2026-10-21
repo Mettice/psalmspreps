@@ -1,0 +1,467 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 79,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-79",
+   "name": "Le subjonctif présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le subjonctif exprime un souhait, une obligation, un ordre, un doute ou un sentiment. On l’emploie après « que » : il faut que, je veux que, je souhaite que, il est important que.\nFormation : radical de « ils » au présent (ils finiss-ent) + -e, -es, -e, -ions, -iez, -ent.\n• que je parle, que tu finisses, qu’il prenne, que nous partions, que vous lisiez, qu’ils viennent.\nAvec « nous » et « vous », la forme est souvent celle de l’imparfait : que nous prenions, que vous veniez.\nVerbes irréguliers : être → que je sois, qu’il soit, que nous soyons ; avoir → que j’aie, qu’il ait, que nous ayons ; aller → que j’aille, que nous allions ; faire → que je fasse.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "finir",
+   "p": 2
+  },
+  "problem": "Conjugue « {v} » au subjonctif présent avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "Radical de « ils » au présent : ils {fr2Present(v, 6)} ; on enlève -ent.",
+   "On ajoute -e : {fr2Que(p, fr2Subjonctif(v, p))}."
+  ],
+  "answer": "{fr2Que(p, fr2Subjonctif(v, p))}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c79-1",
+    "status": "draft",
+    "idea": "Le subjonctif s’emploie après « il faut que », « je veux que » : souhait, obligation.",
+    "vars": {},
+    "example": [
+     "Il faut que tu viennes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-79-emploi"
+    }
+   },
+   {
+    "id": "c79-2",
+    "status": "draft",
+    "idea": "Formation : radical de « ils » + -e, -es, -e, -ions, -iez, -ent.",
+    "vars": {},
+    "example": [
+     "ils prennent → que je prenne"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-79-form-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "manger",
+        "finir",
+        "choisir",
+        "partir",
+        "venir",
+        "prendre",
+        "être",
+        "avoir",
+        "aller",
+        "faire",
+        "écrire",
+        "lire",
+        "travailler",
+        "réussir"
+       ]
+      },
+      "p": {
+       "int": [
+        0,
+        7
+       ]
+      }
+     },
+     "prompt": "Complète : « Il faut ___ ({v}). »",
+     "correct": "{fr2Que(p, fr2Subjonctif(v, p))}",
+     "distractors": [
+      {
+       "text": "{fr2Que(p, fr2Present(v, p))}",
+       "misconception": "ind"
+      },
+      {
+       "text": "{fr2Que(p, fr2Subjonctif(v, (p + 4) % 8))}",
+       "misconception": "pers"
+      },
+      {
+       "text": "{fr2Que(p, fr2FuturSimple(v, p))}",
+       "misconception": "fut"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "ind",
+       "explain": "C’est l’indicatif ; après « il faut que », il faut le subjonctif."
+      },
+      {
+       "id": "pers",
+       "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+      },
+      {
+       "id": "fut",
+       "explain": "C’est le futur."
+      }
+     ],
+     "solution": [
+      "Après « il faut que », le subjonctif : {fr2Que(p, fr2Subjonctif(v, p))}.",
+      "Donc : {answer}."
+     ],
+     "where": "fr2Subjonctif(v, p) != fr2Present(v, p)",
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c79-3",
+    "status": "draft",
+    "idea": "Être, avoir, aller, faire sont irréguliers : que je sois, que j’aie, que j’aille, que je fasse.",
+    "vars": {},
+    "example": [
+     "Il faut que nous soyons à l’heure."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-79-irr-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Il faut que nous ___ (être) à l’heure au travail.",
+         "v": "être",
+         "p": 4
+        },
+        {
+         "s": "Je veux que tu ___ (avoir) de bonnes notes.",
+         "v": "avoir",
+         "p": 1
+        },
+        {
+         "s": "Le patron souhaite que vous ___ (faire) un effort.",
+         "v": "faire",
+         "p": 5
+        },
+        {
+         "s": "Il faut qu’elle ___ (aller) à la banque.",
+         "v": "aller",
+         "p": 3
+        },
+        {
+         "s": "Il est important que les ouvriers ___ (prendre) leur pause.",
+         "v": "prendre",
+         "p": 6
+        },
+        {
+         "s": "Ma mère veut que je ___ (finir) mon repas.",
+         "v": "finir",
+         "p": 0
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le verbe au subjonctif présent.",
+     "text": "{X.s}",
+     "answer": "fr2Subjonctif(X.v, X.p)",
+     "misconceptions": [
+      {
+       "id": "ind",
+       "wrong": "fr2Present(X.v, X.p)",
+       "explain": "C’est l’indicatif ; après « que » + souhait ou obligation, il faut le subjonctif."
+      }
+     ],
+     "solution": [
+      "Après « il faut que », « je veux que » : le subjonctif.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-79-emploi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Après quelle expression emploie-t-on le subjonctif ?",
+       "r": "il faut que",
+       "w": [
+        "je sais que",
+        "hier",
+        "parce que"
+       ],
+       "e": [
+        "« je sais que » demande l’indicatif.",
+        "Ce n’est pas une expression avec « que ».",
+        "« parce que » demande l’indicatif."
+       ],
+       "y": "L’obligation demande le subjonctif."
+      },
+      {
+       "q": "Quelle phrase contient un subjonctif ?",
+       "r": "Je veux que tu fasses tes devoirs.",
+       "w": [
+        "Je sais que tu fais tes devoirs.",
+        "Tu fais tes devoirs.",
+        "Tu feras tes devoirs."
+       ],
+       "e": [
+        "C’est l’indicatif.",
+        "C’est le présent de l’indicatif.",
+        "C’est le futur."
+       ],
+       "y": "« que tu fasses »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-79-form",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "manger",
+      "finir",
+      "choisir",
+      "partir",
+      "venir",
+      "prendre",
+      "être",
+      "avoir",
+      "aller",
+      "faire",
+      "écrire",
+      "lire",
+      "travailler",
+      "réussir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Complète : « Il faut ___ ({v}). »",
+   "correct": "{fr2Que(p, fr2Subjonctif(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2Que(p, fr2Present(v, p))}",
+     "misconception": "ind"
+    },
+    {
+     "text": "{fr2Que(p, fr2Subjonctif(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2Que(p, fr2FuturSimple(v, p))}",
+     "misconception": "fut"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ind",
+     "explain": "C’est l’indicatif ; après « il faut que », il faut le subjonctif."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "fut",
+     "explain": "C’est le futur."
+    }
+   ],
+   "solution": [
+    "Après « il faut que », le subjonctif : {fr2Que(p, fr2Subjonctif(v, p))}.",
+    "Donc : {answer}."
+   ],
+   "where": "fr2Subjonctif(v, p) != fr2Present(v, p)",
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-79-irr",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il faut que nous ___ (être) à l’heure au travail.",
+       "v": "être",
+       "p": 4
+      },
+      {
+       "s": "Je veux que tu ___ (avoir) de bonnes notes.",
+       "v": "avoir",
+       "p": 1
+      },
+      {
+       "s": "Le patron souhaite que vous ___ (faire) un effort.",
+       "v": "faire",
+       "p": 5
+      },
+      {
+       "s": "Il faut qu’elle ___ (aller) à la banque.",
+       "v": "aller",
+       "p": 3
+      },
+      {
+       "s": "Il est important que les ouvriers ___ (prendre) leur pause.",
+       "v": "prendre",
+       "p": 6
+      },
+      {
+       "s": "Ma mère veut que je ___ (finir) mon repas.",
+       "v": "finir",
+       "p": 0
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au subjonctif présent.",
+   "text": "{X.s}",
+   "answer": "fr2Subjonctif(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "ind",
+     "wrong": "fr2Present(X.v, X.p)",
+     "explain": "C’est l’indicatif ; après « que » + souhait ou obligation, il faut le subjonctif."
+    }
+   ],
+   "solution": [
+    "Après « il faut que », « je veux que » : le subjonctif.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-79-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Il faut que tu viennes.",
+      "truth": "true"
+     },
+     {
+      "text": "Je veux que vous soyez sages.",
+      "truth": "true"
+     },
+     {
+      "text": "Il faut que nous allions au marché.",
+      "truth": "true"
+     },
+     {
+      "text": "Je souhaite qu’il réussisse.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Il faut que tu viens demain.",
+      "truth": "false",
+      "explain": "Subjonctif : que tu viennes."
+     },
+     {
+      "text": "Je veux que vous êtes à l’heure.",
+      "truth": "false",
+      "explain": "Subjonctif : que vous soyez."
+     },
+     {
+      "text": "Il faut qu’il fait ses devoirs.",
+      "truth": "false",
+      "explain": "Subjonctif : qu’il fasse."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

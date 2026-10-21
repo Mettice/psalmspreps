@@ -1,0 +1,385 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 89,
+ "language": "fr",
+ "prerequisites": [
+  65
+ ],
+ "skills": [
+  {
+   "id": "fi2-89",
+   "name": "Jeux de rôle : l’entretien d’embauche"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un entretien d’embauche est une rencontre entre un employeur et un candidat qui cherche un emploi.\nLe candidat : arrive à l’heure, s’habille proprement, salue, se présente (nom, âge, diplômes, expériences), explique pourquoi il veut le poste, pose une question, remercie.\nL’employeur : accueille, pose des questions (« Parlez-moi de vous. » « Pourquoi voulez-vous ce poste ? » « Quelles sont vos qualités ? »), explique le travail.\nFormules : « Je me présente : … » ; « J’ai obtenu mon CAP en… » ; « Je suis ponctuel et travailleur » ; « Je vous remercie de m’avoir reçu. »\nOn parle clairement, on regarde l’interlocuteur, on reste poli et honnête.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "L’employeur demande : « Quelles sont vos qualités ? » Que répond un bon candidat ?",
+  "steps": [
+   "On cite des qualités utiles pour le poste, sans exagérer.",
+   "« Je suis ponctuel, travailleur et j’aime apprendre. »"
+  ],
+  "answer": "Je suis ponctuel, travailleur et j’aime apprendre.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c89-1",
+    "status": "draft",
+    "idea": "Le candidat arrive à l’heure, salue et se présente.",
+    "vars": {},
+    "example": [
+     "Je me présente : je m’appelle Tabe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-89-cand"
+    }
+   },
+   {
+    "id": "c89-2",
+    "status": "draft",
+    "idea": "L’employeur pose des questions sur le candidat et ses qualités.",
+    "vars": {},
+    "example": [
+     "Pourquoi voulez-vous ce poste ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-89-quest"
+    }
+   },
+   {
+    "id": "c89-3",
+    "status": "draft",
+    "idea": "On remercie à la fin : « Je vous remercie de m’avoir reçu. »",
+    "vars": {},
+    "example": [
+     "Au revoir, monsieur."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-89-ordre-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Bonjour, madame.",
+         "Bonjour. Asseyez-vous. Parlez-moi de vous.",
+         "Je m’appelle Tabe ; j’ai un CAP de menuiserie.",
+         "Pourquoi voulez-vous ce poste ?",
+         "Parce que j’aime travailler le bois.",
+         "Très bien, nous vous rappellerons.",
+         "Je vous remercie de m’avoir reçu."
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets l’entretien dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      },
+      {
+       "text": "{X[4]}"
+      },
+      {
+       "text": "{X[5]}"
+      },
+      {
+       "text": "{X[6]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-89-cand",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que doit faire le candidat en arrivant ?",
+       "r": "arriver à l’heure et saluer poliment",
+       "w": [
+        "arriver en retard",
+        "s’asseoir sans saluer",
+        "téléphoner pendant l’entretien"
+       ],
+       "e": [
+        "C’est une mauvaise impression.",
+        "C’est impoli.",
+        "C’est impoli."
+       ],
+       "y": "La politesse et la ponctualité comptent."
+      },
+      {
+       "q": "Quelle phrase sert à se présenter ?",
+       "r": "Je m’appelle Bih, j’ai vingt ans et un CAP de couture.",
+       "w": [
+        "Donnez-moi le travail.",
+        "Je ne sais pas.",
+        "Combien vous gagnez ?"
+       ],
+       "e": [
+        "C’est impoli.",
+        "Ce n’est pas une présentation.",
+        "C’est déplacé."
+       ],
+       "y": "Nom, âge, diplôme."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-89-quest",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle question l’employeur peut-il poser ?",
+       "r": "Pourquoi voulez-vous ce poste ?",
+       "w": [
+        "Quelle est votre couleur préférée de voiture ?",
+        "Où sont mes clés ?",
+        "Quel temps fera-t-il demain ?"
+       ],
+       "e": [
+        "Ce n’est pas utile.",
+        "Ce n’est pas utile.",
+        "Ce n’est pas utile."
+       ],
+       "y": "Il veut connaître la motivation."
+      },
+      {
+       "q": "Quelle réponse est honnête et utile ?",
+       "r": "Je suis ponctuel et j’aime apprendre.",
+       "w": [
+        "Je suis le meilleur du monde.",
+        "Je ne travaille jamais.",
+        "Je ne sais rien faire."
+       ],
+       "e": [
+        "C’est exagéré.",
+        "C’est négatif.",
+        "C’est négatif."
+       ],
+       "y": "Des qualités vraies et utiles."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-89-ordre",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Bonjour, madame.",
+       "Bonjour. Asseyez-vous. Parlez-moi de vous.",
+       "Je m’appelle Tabe ; j’ai un CAP de menuiserie.",
+       "Pourquoi voulez-vous ce poste ?",
+       "Parce que j’aime travailler le bois.",
+       "Très bien, nous vous rappellerons.",
+       "Je vous remercie de m’avoir reçu."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets l’entretien dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    },
+    {
+     "text": "{X[5]}"
+    },
+    {
+     "text": "{X[6]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-89-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour un entretien est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Arriver à l’heure.",
+      "truth": "true"
+     },
+     {
+      "text": "S’habiller proprement.",
+      "truth": "true"
+     },
+     {
+      "text": "Regarder l’interlocuteur.",
+      "truth": "true"
+     },
+     {
+      "text": "Remercier à la fin.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mentir sur ses diplômes.",
+      "truth": "false",
+      "explain": "On reste honnête."
+     },
+     {
+      "text": "Répondre au téléphone pendant l’entretien.",
+      "truth": "false",
+      "explain": "On éteint son téléphone."
+     },
+     {
+      "text": "Partir sans saluer.",
+      "truth": "false",
+      "explain": "On salue et on remercie."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

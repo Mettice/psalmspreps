@@ -1,0 +1,401 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 69,
+ "language": "fr",
+ "prerequisites": [
+  64
+ ],
+ "skills": [
+  {
+   "id": "fi2-69",
+   "name": "Le lexique des conflits sociaux"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un conflit social est une opposition entre des personnes ou des groupes dans la société.\nDes comportements qui créent des conflits :\n• la discrimination : traiter quelqu’un plus mal à cause de son origine, sa langue, son sexe, sa religion ou son handicap ;\n• la ségrégation raciale : séparer les gens selon leur « race » (l’apartheid en Afrique du Sud, aboli au début des années 1990) ;\n• le racisme : croire qu’un groupe humain est supérieur à un autre ;\n• le tribalisme : favoriser les gens de sa tribu ou de son ethnie et rejeter les autres ;\n• le népotisme : donner des places ou des avantages à sa famille plutôt qu’aux plus compétents.\nPour la paix : la tolérance, l’égalité, le dialogue, la justice, le vivre-ensemble, l’unité nationale.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un directeur donne un emploi à son neveu moins qualifié que les autres candidats. Comment appelle-t-on ce comportement ?",
+  "steps": [
+   "Il favorise un membre de sa famille.",
+   "Ce n’est pas le plus compétent qui est choisi : c’est le népotisme."
+  ],
+  "answer": "le népotisme",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c69-1",
+    "status": "draft",
+    "idea": "La discrimination, c’est traiter quelqu’un plus mal à cause de ce qu’il est.",
+    "vars": {},
+    "example": [
+     "Refuser un élève à cause de son handicap."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-69-def"
+    }
+   },
+   {
+    "id": "c69-2",
+    "status": "draft",
+    "idea": "Le tribalisme favorise sa tribu ; le népotisme favorise sa famille.",
+    "vars": {},
+    "example": [
+     "Embaucher son cousin sans compétence."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-69-tribu"
+    }
+   },
+   {
+    "id": "c69-3",
+    "status": "draft",
+    "idea": "La tolérance, le dialogue et l’égalité construisent la paix.",
+    "vars": {},
+    "example": [
+     "Le vivre-ensemble."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-69-paix-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle valeur aide à résoudre un conflit entre deux villages ?",
+         "r": "le dialogue",
+         "w": [
+          "la vengeance",
+          "le tribalisme",
+          "la violence"
+         ],
+         "e": [
+          "Elle aggrave le conflit.",
+          "Il aggrave le conflit.",
+          "Elle aggrave le conflit."
+         ],
+         "y": "Parler ensemble pour trouver une solution."
+        },
+        {
+         "q": "Que veut dire « le vivre-ensemble » ?",
+         "r": "vivre en paix avec des gens différents",
+         "w": [
+          "vivre seul",
+          "vivre seulement avec sa tribu",
+          "refuser les étrangers"
+         ],
+         "e": [
+          "C’est le contraire.",
+          "C’est le contraire.",
+          "C’est le contraire."
+         ],
+         "y": "Accepter la diversité."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-69-def",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "la discrimination",
+     "right": "traiter quelqu’un plus mal à cause de ce qu’il est"
+    },
+    {
+     "left": "la ségrégation raciale",
+     "right": "séparer les gens selon leur « race »"
+    },
+    {
+     "left": "le tribalisme",
+     "right": "favoriser les gens de sa tribu"
+    },
+    {
+     "left": "le népotisme",
+     "right": "favoriser sa famille pour les emplois"
+    },
+    {
+     "left": "le racisme",
+     "right": "croire qu’un groupe humain est supérieur"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-69-tribu",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Un chef ne nomme que des gens de son ethnie.",
+       "a": "le tribalisme",
+       "w": [
+        "la tolérance",
+        "le dialogue",
+        "l’égalité"
+       ],
+       "y": "Il favorise sa tribu."
+      },
+      {
+       "s": "Une patronne embauche sa fille au lieu du meilleur candidat.",
+       "a": "le népotisme",
+       "w": [
+        "la justice",
+        "la solidarité",
+        "la tolérance"
+       ],
+       "y": "Elle favorise sa famille."
+      },
+      {
+       "s": "Un restaurant refuse de servir des clients à cause de leur couleur de peau.",
+       "a": "la discrimination raciale",
+       "w": [
+        "l’hospitalité",
+        "le respect",
+        "le dialogue"
+       ],
+       "y": "Il les traite plus mal à cause de leur origine."
+      },
+      {
+       "s": "Des élèves acceptent un camarade d’une autre région et l’aident.",
+       "a": "la tolérance",
+       "w": [
+        "le tribalisme",
+        "la discrimination",
+        "le népotisme"
+       ],
+       "y": "Ils respectent la différence."
+      }
+     ]
+    }
+   },
+   "prompt": "Comment appelle-t-on ce comportement ? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "mot"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "mot"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "mot"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "mot",
+     "explain": "Relis les définitions : qui est favorisé ou rejeté, et pourquoi ?"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-69-paix",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle valeur aide à résoudre un conflit entre deux villages ?",
+       "r": "le dialogue",
+       "w": [
+        "la vengeance",
+        "le tribalisme",
+        "la violence"
+       ],
+       "e": [
+        "Elle aggrave le conflit.",
+        "Il aggrave le conflit.",
+        "Elle aggrave le conflit."
+       ],
+       "y": "Parler ensemble pour trouver une solution."
+      },
+      {
+       "q": "Que veut dire « le vivre-ensemble » ?",
+       "r": "vivre en paix avec des gens différents",
+       "w": [
+        "vivre seul",
+        "vivre seulement avec sa tribu",
+        "refuser les étrangers"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "C’est le contraire.",
+        "C’est le contraire."
+       ],
+       "y": "Accepter la diversité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-69-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le népotisme favorise la famille.",
+      "truth": "true"
+     },
+     {
+      "text": "Le tribalisme favorise sa tribu.",
+      "truth": "true"
+     },
+     {
+      "text": "La tolérance aide la paix.",
+      "truth": "true"
+     },
+     {
+      "text": "La discrimination est injuste.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le racisme est une forme de tolérance.",
+      "truth": "false",
+      "explain": "Le racisme est le contraire de la tolérance."
+     },
+     {
+      "text": "Le dialogue aggrave toujours les conflits.",
+      "truth": "false",
+      "explain": "Le dialogue aide à les résoudre."
+     },
+     {
+      "text": "La ségrégation rassemble tout le monde.",
+      "truth": "false",
+      "explain": "Elle sépare les gens."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,468 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 91,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-91",
+   "name": "Les noms composés"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un nom composé est formé de plusieurs mots qui désignent une seule chose : un chou-fleur, un arc-en-ciel, une machine à coudre, un porte-monnaie.\nFormation : avec un trait d’union (un chef-d’œuvre), sans trait d’union (une pomme de terre), ou en un seul mot (un portefeuille).\nLe pluriel (règle traditionnelle) : seuls les noms et les adjectifs prennent la marque du pluriel ; les verbes, les adverbes et les prépositions restent invariables.\n• nom + nom : des choux-fleurs ; nom + adjectif : des coffres-forts ;\n• verbe + nom : des tire-bouchons, des ouvre-boîtes ;\n• adverbe + nom : des arrière-boutiques ;\n• nom + préposition + nom : seul le premier nom varie : des machines à coudre, des chefs-d’œuvre, des pommes de terre.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris le pluriel de « un chef-d’œuvre ».",
+  "steps": [
+   "C’est nom + préposition + nom : seul le premier nom varie.",
+   "On écrit : des chefs-d’œuvre."
+  ],
+  "answer": "des chefs-d’œuvre",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c91-1",
+    "status": "draft",
+    "idea": "Un nom composé est formé de plusieurs mots qui désignent une seule chose.",
+    "vars": {},
+    "example": [
+     "un porte-monnaie, une pomme de terre"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-91-quoi"
+    }
+   },
+   {
+    "id": "c91-2",
+    "status": "draft",
+    "idea": "Au pluriel, seuls les noms et les adjectifs varient.",
+    "vars": {},
+    "example": [
+     "des coffres-forts, des tire-bouchons"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-91-pl-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "un chou-fleur",
+         "r": "des choux-fleurs",
+         "w": [
+          "des chou-fleurs",
+          "des choux-fleur",
+          "des chous-fleurs"
+         ],
+         "e": [
+          "Les deux noms varient.",
+          "Les deux noms varient.",
+          "« chou » prend -x."
+         ],
+         "y": "nom + nom : les deux varient."
+        },
+        {
+         "q": "un coffre-fort",
+         "r": "des coffres-forts",
+         "w": [
+          "des coffre-forts",
+          "des coffres-fort",
+          "des coffre-fort"
+         ],
+         "e": [
+          "Le nom varie aussi.",
+          "L’adjectif varie aussi.",
+          "Les deux varient."
+         ],
+         "y": "nom + adjectif : les deux varient."
+        },
+        {
+         "q": "un tire-bouchon",
+         "r": "des tire-bouchons",
+         "w": [
+          "des tires-bouchons",
+          "des tire-bouchon",
+          "des tires-bouchon"
+         ],
+         "e": [
+          "« tire » est un verbe : invariable.",
+          "Le nom varie.",
+          "Le verbe ne varie pas, le nom si."
+         ],
+         "y": "verbe + nom : seul le nom varie."
+        }
+       ]
+      }
+     },
+     "prompt": "Quel est le pluriel de « {X.q} » ?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c91-3",
+    "status": "draft",
+    "idea": "Nom + préposition + nom : seul le premier nom varie.",
+    "vars": {},
+    "example": [
+     "des machines à coudre"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-91-prep"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-91-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot est un nom composé ?",
+       "r": "une machine à coudre",
+       "w": [
+        "une machine",
+        "coudre",
+        "une couturière"
+       ],
+       "e": [
+        "C’est un nom simple.",
+        "C’est un verbe.",
+        "C’est un nom simple."
+       ],
+       "y": "Plusieurs mots pour une seule chose."
+      },
+      {
+       "q": "Quel mot est un nom composé ?",
+       "r": "un arc-en-ciel",
+       "w": [
+        "un arc",
+        "le ciel",
+        "un nuage"
+       ],
+       "e": [
+        "C’est un nom simple.",
+        "C’est un nom simple.",
+        "C’est un nom simple."
+       ],
+       "y": "Trois mots, une seule chose."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-91-pl",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "un chou-fleur",
+       "r": "des choux-fleurs",
+       "w": [
+        "des chou-fleurs",
+        "des choux-fleur",
+        "des chous-fleurs"
+       ],
+       "e": [
+        "Les deux noms varient.",
+        "Les deux noms varient.",
+        "« chou » prend -x."
+       ],
+       "y": "nom + nom : les deux varient."
+      },
+      {
+       "q": "un coffre-fort",
+       "r": "des coffres-forts",
+       "w": [
+        "des coffre-forts",
+        "des coffres-fort",
+        "des coffre-fort"
+       ],
+       "e": [
+        "Le nom varie aussi.",
+        "L’adjectif varie aussi.",
+        "Les deux varient."
+       ],
+       "y": "nom + adjectif : les deux varient."
+      },
+      {
+       "q": "un tire-bouchon",
+       "r": "des tire-bouchons",
+       "w": [
+        "des tires-bouchons",
+        "des tire-bouchon",
+        "des tires-bouchon"
+       ],
+       "e": [
+        "« tire » est un verbe : invariable.",
+        "Le nom varie.",
+        "Le verbe ne varie pas, le nom si."
+       ],
+       "y": "verbe + nom : seul le nom varie."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel est le pluriel de « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-91-prep",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "L’atelier a acheté trois ___.",
+       "a": "machines à coudre",
+       "w": [
+        "machine à coudres",
+        "machines à coudres"
+       ],
+       "e": [
+        "Le premier nom varie.",
+        "« coudre » est un verbe : invariable."
+       ]
+      },
+      {
+       "s": "Ma mère épluche des ___.",
+       "a": "pommes de terre",
+       "w": [
+        "pomme de terres",
+        "pommes de terres"
+       ],
+       "e": [
+        "Le premier nom varie.",
+        "Seul le premier nom varie."
+       ]
+      },
+      {
+       "s": "Ce musée garde des ___.",
+       "a": "chefs-d’œuvre",
+       "w": [
+        "chef-d’œuvres",
+        "chefs-d’œuvres"
+       ],
+       "e": [
+        "Le premier nom varie.",
+        "Seul le premier nom varie."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le pluriel correct.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-91-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quel pluriel est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "des choux-fleurs",
+      "truth": "true"
+     },
+     {
+      "text": "des coffres-forts",
+      "truth": "true"
+     },
+     {
+      "text": "des tire-bouchons",
+      "truth": "true"
+     },
+     {
+      "text": "des pommes de terre",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "des tires-bouchons",
+      "truth": "false",
+      "explain": "« tire » est un verbe : il ne varie pas."
+     },
+     {
+      "text": "des machine à coudres",
+      "truth": "false",
+      "explain": "On écrit : des machines à coudre."
+     },
+     {
+      "text": "des chef-d’œuvres",
+      "truth": "false",
+      "explain": "On écrit : des chefs-d’œuvre."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

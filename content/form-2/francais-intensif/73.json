@@ -1,0 +1,415 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 73,
+ "language": "fr",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "fi2-73",
+   "name": "Les sons [i], [e] et [b]"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [i] : i (punir), î (île), ï (maïs), y (stylo, cycle).\nLe son [e] : é (été, Morphée), er à la fin d’un verbe à l’infinitif (voyager, manger), ez (vous chantez, le nez), et (et), ed (le pied), ée (une idée).\nLe son [b] : b (bannir, bébé) ; bb (rare : un abbé, une abbaye).\nAstuce pour -er / -é à la fin d’un verbe : remplace par « vendre » (ou « mordre »). Si « vendre » va, on écrit -er (infinitif) ; si « vendu » va, on écrit -é (participe passé).\n« Il veut voyager » → « il veut vendre » : -er. « Il a voyagé » → « il a vendu » : -é.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Nous allons voyag__ demain ; hier, nous avons mang__ du poisson. »",
+  "steps": [
+   "« allons vendre » : on écrit -er → voyager.",
+   "« avons vendu » : on écrit -é → mangé."
+  ],
+  "answer": "Nous allons voyager demain ; hier, nous avons mangé du poisson.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c73-1",
+    "status": "draft",
+    "idea": "Le son [e] s’écrit é, er, ez, et, ée.",
+    "vars": {},
+    "example": [
+     "l’été, voyager, le nez, une idée"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-73-e"
+    }
+   },
+   {
+    "id": "c73-2",
+    "status": "draft",
+    "idea": "Astuce : « vendre » → -er ; « vendu » → -é.",
+    "vars": {},
+    "example": [
+     "Il doit partir (vendre). Il est parti (vendu)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-73-astuce"
+    }
+   },
+   {
+    "id": "c73-3",
+    "status": "draft",
+    "idea": "Le son [i] s’écrit i, î, ï, y ; le son [b] s’écrit b ou bb.",
+    "vars": {},
+    "example": [
+     "un stylo, le maïs, bannir"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-73-ib-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "J’ai perdu mon ___.",
+         "a": "stylo",
+         "w": [
+          "stilo",
+          "stïlo"
+         ],
+         "e": [
+          "« stylo » s’écrit avec y.",
+          "Pas de tréma."
+         ]
+        },
+        {
+         "s": "Le chef a décidé de ___ le voleur.",
+         "a": "bannir",
+         "w": [
+          "banir",
+          "bbanir"
+         ],
+         "e": [
+          "Deux n.",
+          "Un seul b."
+         ]
+        },
+        {
+         "s": "Le ___ pousse bien cette année.",
+         "a": "maïs",
+         "w": [
+          "mais",
+          "maïz"
+         ],
+         "e": [
+          "« mais » est une conjonction.",
+          "On écrit s."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne écriture.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-73-e",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Pendant l’___, il fait très chaud.",
+       "a": "été",
+       "w": [
+        "éter",
+        "étez"
+       ],
+       "e": [
+        "C’est un nom : été.",
+        "C’est un nom."
+       ]
+      },
+      {
+       "s": "Vous chant___ très bien.",
+       "a": "chantez",
+       "w": [
+        "chanter",
+        "chanté"
+       ],
+       "e": [
+        "Avec « vous » : -ez.",
+        "Avec « vous » : -ez."
+       ]
+      },
+      {
+       "s": "J’ai une bonne ___.",
+       "a": "idée",
+       "w": [
+        "idé",
+        "ider"
+       ],
+       "e": [
+        "« idée » est un nom féminin en -ée.",
+        "Ce mot n’existe pas."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-73-astuce",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il veut ___ (voyager / voyagé) au Nord.",
+       "a": "voyager",
+       "w": "voyagé",
+       "y": "il veut vendre"
+      },
+      {
+       "s": "Nous avons ___ (manger / mangé) tôt.",
+       "a": "mangé",
+       "w": "manger",
+       "y": "nous avons vendu"
+      },
+      {
+       "s": "Elle va ___ (chanter / chanté) à la fête.",
+       "a": "chanter",
+       "w": "chanté",
+       "y": "elle va vendre"
+      },
+      {
+       "s": "Ils ont ___ (gagner / gagné) le match.",
+       "a": "gagné",
+       "w": "gagner",
+       "y": "ils ont vendu"
+      },
+      {
+       "s": "Il faut ___ (respecter / respecté) la loi.",
+       "a": "respecter",
+       "w": "respecté",
+       "y": "il faut vendre"
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme : « {X.s} »",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w}",
+     "misconception": "astuce"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "astuce",
+     "explain": "Remplace par « vendre » ou « vendu » pour choisir entre -er et -é."
+    }
+   ],
+   "solution": [
+    "Astuce : remplace par « vendre » (→ -er) ou « vendu » (→ -é).",
+    "Ici : {X.y}, donc « {answer} »."
+   ],
+   "min_distractors": 1,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-73-ib",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "J’ai perdu mon ___.",
+       "a": "stylo",
+       "w": [
+        "stilo",
+        "stïlo"
+       ],
+       "e": [
+        "« stylo » s’écrit avec y.",
+        "Pas de tréma."
+       ]
+      },
+      {
+       "s": "Le chef a décidé de ___ le voleur.",
+       "a": "bannir",
+       "w": [
+        "banir",
+        "bbanir"
+       ],
+       "e": [
+        "Deux n.",
+        "Un seul b."
+       ]
+      },
+      {
+       "s": "Le ___ pousse bien cette année.",
+       "a": "maïs",
+       "w": [
+        "mais",
+        "maïz"
+       ],
+       "e": [
+        "« mais » est une conjonction.",
+        "On écrit s."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-73-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Il veut voyager.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous avons mangé.",
+      "truth": "true"
+     },
+     {
+      "text": "Vous chantez bien.",
+      "truth": "true"
+     },
+     {
+      "text": "J’ai une idée.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Il a voyager à Garoua.",
+      "truth": "false",
+      "explain": "« il a vendu » : il a voyagé."
+     },
+     {
+      "text": "Elle va chanté demain.",
+      "truth": "false",
+      "explain": "« elle va vendre » : elle va chanter."
+     },
+     {
+      "text": "Vous chanté très fort.",
+      "truth": "false",
+      "explain": "Avec « vous » : vous chantez."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

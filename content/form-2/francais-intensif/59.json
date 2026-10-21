@@ -1,0 +1,391 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 59,
+ "language": "fr",
+ "prerequisites": [
+  33
+ ],
+ "skills": [
+  {
+   "id": "fi2-59",
+   "name": "Décrire et faire un portrait (suite)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Décrire, c’est montrer avec des mots un lieu, un objet ou une personne, pour que le lecteur l’imagine.\nLe portrait décrit une personne :\n• le portrait physique : la taille, la silhouette, le visage, les yeux, les cheveux, les vêtements : « Mama Ngo est petite et ronde ; elle porte toujours un foulard rouge. »\n• le portrait moral : le caractère, les qualités et les défauts : « Elle est généreuse mais un peu bavarde. »\nPour bien décrire : suivre un ordre (de haut en bas, du général au détail), employer des adjectifs précis, des comparaisons (« ses yeux brillent comme des étoiles ») et des verbes variés.\nPour décrire un lieu : utiliser des indications de lieu : à gauche, au fond, devant, au milieu.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Classe ces expressions : « grand et mince » ; « toujours souriant » ; « des cheveux crépus » ; « très patient ».",
+  "steps": [
+   "Le physique concerne le corps et l’apparence : « grand et mince », « des cheveux crépus ».",
+   "Le moral concerne le caractère : « toujours souriant », « très patient »."
+  ],
+  "answer": "Physique : grand et mince, des cheveux crépus ; moral : toujours souriant, très patient.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c59-1",
+    "status": "draft",
+    "idea": "Le portrait physique décrit l’apparence ; le portrait moral décrit le caractère.",
+    "vars": {},
+    "example": [
+     "Elle est grande (physique) et courageuse (moral)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-59-type"
+    }
+   },
+   {
+    "id": "c59-2",
+    "status": "draft",
+    "idea": "On décrit dans un ordre : de haut en bas, du général au détail.",
+    "vars": {},
+    "example": [
+     "D’abord la taille, puis le visage, puis les vêtements."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-59-ordre"
+    }
+   },
+   {
+    "id": "c59-3",
+    "status": "draft",
+    "idea": "Les adjectifs précis et les comparaisons rendent la description vivante.",
+    "vars": {},
+    "example": [
+     "Ses mains sont rugueuses comme l’écorce."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-59-comp-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Ses dents sont blanches ___ du lait.",
+         "a": "comme",
+         "w": [
+          "mais",
+          "donc"
+         ],
+         "e": [
+          "« mais » oppose.",
+          "« donc » annonce une conséquence."
+         ]
+        },
+        {
+         "s": "Il est fort ___ un lion.",
+         "a": "comme",
+         "w": [
+          "car",
+          "ou"
+         ],
+         "e": [
+          "« car » donne une cause.",
+          "« ou » marque un choix."
+         ]
+        },
+        {
+         "s": "Ses yeux brillent ___ des étoiles.",
+         "a": "comme",
+         "w": [
+          "et",
+          "ni"
+         ],
+         "e": [
+          "« et » ajoute.",
+          "« ni » nie."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui complète la comparaison.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-59-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "e": "Il a de larges épaules.",
+       "a": "le physique"
+      },
+      {
+       "e": "Elle est honnête et travailleuse.",
+       "a": "le moral"
+      },
+      {
+       "e": "Ses cheveux sont tressés.",
+       "a": "le physique"
+      },
+      {
+       "e": "Il est timide mais très gentil.",
+       "a": "le moral"
+      },
+      {
+       "e": "Elle porte un pagne bleu.",
+       "a": "le physique"
+      },
+      {
+       "e": "Il se fâche facilement.",
+       "a": "le moral"
+      }
+     ]
+    }
+   },
+   "prompt": "« {X.e} » décrit…",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'le physique' ? 'le moral' : 'le physique'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "un lieu",
+     "misconception": "lieu"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Demande-toi : parle-t-on de l’apparence ou du caractère ?"
+    },
+    {
+     "id": "lieu",
+     "explain": "On décrit une personne, pas un lieu."
+    }
+   ],
+   "solution": [
+    "Le physique : l’apparence ; le moral : le caractère.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-59-ordre",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Mon grand-père est un homme grand et maigre.",
+       "Son visage est ridé comme une vieille carte.",
+       "Ses yeux, petits et vifs, voient tout.",
+       "Il porte toujours un vieux chapeau de paille.",
+       "Il est sage et raconte de belles histoires."
+      ],
+      [
+       "Ma voisine est une jeune femme élancée.",
+       "Son visage est rond et souriant.",
+       "Ses cheveux sont tressés en fines nattes.",
+       "Elle porte souvent une robe en pagne.",
+       "Elle est joyeuse et serviable."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le portrait dans l’ordre (du général au détail).",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-59-comp",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ses dents sont blanches ___ du lait.",
+       "a": "comme",
+       "w": [
+        "mais",
+        "donc"
+       ],
+       "e": [
+        "« mais » oppose.",
+        "« donc » annonce une conséquence."
+       ]
+      },
+      {
+       "s": "Il est fort ___ un lion.",
+       "a": "comme",
+       "w": [
+        "car",
+        "ou"
+       ],
+       "e": [
+        "« car » donne une cause.",
+        "« ou » marque un choix."
+       ]
+      },
+      {
+       "s": "Ses yeux brillent ___ des étoiles.",
+       "a": "comme",
+       "w": [
+        "et",
+        "ni"
+       ],
+       "e": [
+        "« et » ajoute.",
+        "« ni » nie."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui complète la comparaison.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-59-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour faire un portrait est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On décrit le physique et le moral.",
+      "truth": "true"
+     },
+     {
+      "text": "On suit un ordre.",
+      "truth": "true"
+     },
+     {
+      "text": "On emploie des adjectifs précis.",
+      "truth": "true"
+     },
+     {
+      "text": "On peut utiliser des comparaisons.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On mélange tout sans ordre.",
+      "truth": "false",
+      "explain": "On suit un ordre : du général au détail."
+     },
+     {
+      "text": "On n’utilise jamais d’adjectifs.",
+      "truth": "false",
+      "explain": "Les adjectifs précis sont essentiels."
+     },
+     {
+      "text": "Le portrait moral décrit les vêtements.",
+      "truth": "false",
+      "explain": "Il décrit le caractère."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

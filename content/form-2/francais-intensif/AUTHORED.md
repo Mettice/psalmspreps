@@ -241,6 +241,220 @@ Regenerate with `npm run review:f2-francais-intensif`. Item IDs (TR-…) match `
 | 223 | `fi2-51-temps` | 51 | fill the blank, 2 | conjugaison |
 | 224 | `fi2-51-spot` | 51 | spot the error, 3 | expression |
 | 225 | `fi2-51-temps-card` (card c51-3) | 51 | fill the blank, 1 | conjugaison |
+| 226 | `fi2-53-phrase` | 53 | fill the blank, 1 | grammaire |
+| 227 | `fi2-53-spot` | 53 | spot the error, 3 | grammaire |
+| 228 | `fi2-54-emploi` | 54 | multiple choice, 1 | conjugaison |
+| 229 | `fi2-54-spot` | 54 | spot the error, 3 | conjugaison |
+| 230 | `fi2-55-quoi` | 55 | multiple choice, 1 | orthographe |
+| 231 | `fi2-55-oblig` | 55 | multiple choice, 1 | orthographe |
+| 232 | `fi2-55-interdit` | 55 | multiple choice, 2 | orthographe |
+| 233 | `fi2-55-spot` | 55 | spot the error, 3 | orthographe |
+| 234 | `fi2-55-interdit-card` (card c55-3) | 55 | multiple choice, 1 | orthographe |
+| 235 | `fi2-56-quoi` | 56 | multiple choice, 1 | vocabulaire |
+| 236 | `fi2-56-commune` | 56 | multiple choice, 1 | vocabulaire |
+| 237 | `fi2-56-elu` | 56 | matching, 2 | vocabulaire |
+| 238 | `fi2-56-spot` | 56 | spot the error, 3 | vocabulaire |
+| 239 | `fi2-56-elu-card` (card c56-3) | 56 | matching, 1 | vocabulaire |
+| 240 | `fi2-57-forme` | 57 | multiple choice, 1 | litterature |
+| 241 | `fi2-57-comp` | 57 | multiple choice, 1 | litterature |
+| 242 | `fi2-57-dire` | 57 | multiple choice, 2 | expression |
+| 243 | `fi2-57-spot` | 57 | spot the error, 3 | litterature |
+| 244 | `fi2-57-dire-card` (card c57-3) | 57 | multiple choice, 1 | expression |
+| 245 | `fi2-58-comp` | 58 | multiple choice, 1 | lecture |
+| 246 | `fi2-58-mot` | 58 | multiple choice, 1 | lecture |
+| 247 | `fi2-58-idee` | 58 | multiple choice, 2 | lecture |
+| 248 | `fi2-58-spot` | 58 | spot the error, 3 | lecture |
+| 249 | `fi2-58-idee-card` (card c58-3) | 58 | multiple choice, 1 | lecture |
+| 250 | `fi2-59-ordre` | 59 | ordering, 1 | expression |
+| 251 | `fi2-59-comp` | 59 | fill the blank, 2 | expression |
+| 252 | `fi2-59-spot` | 59 | spot the error, 3 | expression |
+| 253 | `fi2-59-comp-card` (card c59-3) | 59 | fill the blank, 1 | expression |
+| 254 | `fi2-60-genre` | 60 | multiple choice, 1 | litterature |
+| 255 | `fi2-60-etapes` | 60 | ordering, 1 | litterature |
+| 256 | `fi2-60-morale` | 60 | multiple choice, 2 | litterature |
+| 257 | `fi2-60-spot` | 60 | spot the error, 3 | litterature |
+| 258 | `fi2-60-morale-card` (card c60-3) | 60 | multiple choice, 1 | litterature |
+| 259 | `fi2-61-quoi` | 61 | multiple choice, 1 | grammaire |
+| 260 | `fi2-61-neg` | 61 | fill the blank, 1 | grammaire |
+| 261 | `fi2-61-diff` | 61 | multiple choice, 2 | grammaire |
+| 262 | `fi2-61-spot` | 61 | spot the error, 3 | grammaire |
+| 263 | `fi2-61-diff-card` (card c61-3) | 61 | multiple choice, 1 | grammaire |
+| 264 | `fi2-62-emploi` | 62 | multiple choice, 1 | conjugaison |
+| 265 | `fi2-62-imp` | 62 | fill the blank, 1 | conjugaison |
+| 266 | `fi2-62-spot` | 62 | spot the error, 3 | conjugaison |
+| 267 | `fi2-63-z` | 63 | multiple choice, 1 | orthographe |
+| 268 | `fi2-63-ss` | 63 | fill the blank, 2 | orthographe |
+| 269 | `fi2-63-choix` | 63 | fill the blank, 1 | orthographe |
+| 270 | `fi2-63-spot` | 63 | spot the error, 3 | orthographe |
+| 271 | `fi2-63-ss-card` (card c63-2) | 63 | fill the blank, 1 | orthographe |
+| 272 | `fi2-64-culture` | 64 | multiple choice, 1 | vocabulaire |
+| 273 | `fi2-64-tol` | 64 | multiple choice, 1 | vocabulaire |
+| 274 | `fi2-64-ailleurs` | 64 | matching, 2 | vocabulaire |
+| 275 | `fi2-64-spot` | 64 | spot the error, 3 | vocabulaire |
+| 276 | `fi2-64-ailleurs-card` (card c64-3) | 64 | matching, 1 | vocabulaire |
+| 277 | `fi2-65-quoi` | 65 | multiple choice, 1 | expression |
+| 278 | `fi2-65-poli` | 65 | multiple choice, 1 | expression |
+| 279 | `fi2-65-ordre` | 65 | ordering, 2 | expression |
+| 280 | `fi2-65-spot` | 65 | spot the error, 3 | expression |
+| 281 | `fi2-65-ordre-card` (card c65-3) | 65 | ordering, 1 | expression |
+| 282 | `fi2-66-plan` | 66 | ordering, 1 | expression |
+| 283 | `fi2-66-lien` | 66 | fill the blank, 1 | expression |
+| 284 | `fi2-66-temps` | 66 | fill the blank, 2 | expression |
+| 285 | `fi2-66-spot` | 66 | spot the error, 3 | expression |
+| 286 | `fi2-66-temps-card` (card c66-3) | 66 | fill the blank, 1 | expression |
+| 287 | `fi2-67-quoi` | 67 | multiple choice, 1 | grammaire |
+| 288 | `fi2-67-tout` | 67 | fill the blank, 1 | grammaire |
+| 289 | `fi2-67-sing` | 67 | fill the blank, 2 | grammaire |
+| 290 | `fi2-67-spot` | 67 | spot the error, 3 | grammaire |
+| 291 | `fi2-67-sing-card` (card c67-3) | 67 | fill the blank, 1 | grammaire |
+| 292 | `fi2-68-son` | 68 | multiple choice, 1 | orthographe |
+| 293 | `fi2-68-quand` | 68 | fill the blank, 1 | orthographe |
+| 294 | `fi2-68-h` | 68 | multiple choice, 2 | orthographe |
+| 295 | `fi2-68-spot` | 68 | spot the error, 3 | orthographe |
+| 296 | `fi2-68-h-card` (card c68-3) | 68 | multiple choice, 1 | orthographe |
+| 297 | `fi2-69-def` | 69 | matching, 1 | vocabulaire |
+| 298 | `fi2-69-paix` | 69 | multiple choice, 2 | vocabulaire |
+| 299 | `fi2-69-spot` | 69 | spot the error, 3 | vocabulaire |
+| 300 | `fi2-69-paix-card` (card c69-3) | 69 | multiple choice, 1 | vocabulaire |
+| 301 | `fi2-70-etapes` | 70 | ordering, 1 | expression |
+| 302 | `fi2-70-slogan` | 70 | multiple choice, 1 | expression |
+| 303 | `fi2-70-msg` | 70 | multiple choice, 2 | expression |
+| 304 | `fi2-70-spot` | 70 | spot the error, 3 | expression |
+| 305 | `fi2-70-msg-card` (card c70-3) | 70 | multiple choice, 1 | expression |
+| 306 | `fi2-71-obs` | 71 | multiple choice, 1 | expression |
+| 307 | `fi2-71-lien` | 71 | ordering, 1 | expression |
+| 308 | `fi2-71-concl` | 71 | multiple choice, 2 | expression |
+| 309 | `fi2-71-spot` | 71 | spot the error, 3 | expression |
+| 310 | `fi2-71-concl-card` (card c71-3) | 71 | multiple choice, 1 | expression |
+| 311 | `fi2-72-quoi` | 72 | multiple choice, 1 | grammaire |
+| 312 | `fi2-72-inv` | 72 | multiple choice, 2 | grammaire |
+| 313 | `fi2-72-si` | 72 | fill the blank, 1 | grammaire |
+| 314 | `fi2-72-spot` | 72 | spot the error, 3 | grammaire |
+| 315 | `fi2-72-inv-card` (card c72-2) | 72 | multiple choice, 1 | grammaire |
+| 316 | `fi2-73-e` | 73 | fill the blank, 1 | orthographe |
+| 317 | `fi2-73-ib` | 73 | fill the blank, 2 | orthographe |
+| 318 | `fi2-73-spot` | 73 | spot the error, 3 | orthographe |
+| 319 | `fi2-73-ib-card` (card c73-3) | 73 | fill the blank, 1 | orthographe |
+| 320 | `fi2-74-droit` | 74 | multiple choice, 1 | vocabulaire |
+| 321 | `fi2-74-aide` | 74 | multiple choice, 2 | vocabulaire |
+| 322 | `fi2-74-spot` | 74 | spot the error, 3 | vocabulaire |
+| 323 | `fi2-74-aide-card` (card c74-3) | 74 | multiple choice, 1 | vocabulaire |
+| 324 | `fi2-75-mot` | 75 | matching, 1 | vocabulaire |
+| 325 | `fi2-75-fair` | 75 | multiple choice, 2 | vocabulaire |
+| 326 | `fi2-75-spot` | 75 | spot the error, 3 | vocabulaire |
+| 327 | `fi2-75-fair-card` (card c75-3) | 75 | multiple choice, 1 | vocabulaire |
+| 328 | `fi2-76-lex` | 76 | multiple choice, 1 | vocabulaire |
+| 329 | `fi2-76-sem` | 76 | multiple choice, 2 | vocabulaire |
+| 330 | `fi2-76-respect` | 76 | multiple choice, 1 | vocabulaire |
+| 331 | `fi2-76-spot` | 76 | spot the error, 3 | vocabulaire |
+| 332 | `fi2-76-sem-card` (card c76-2) | 76 | multiple choice, 1 | vocabulaire |
+| 333 | `fi2-78-sub` | 78 | fill the blank, 2 | grammaire |
+| 334 | `fi2-78-spot` | 78 | spot the error, 3 | grammaire |
+| 335 | `fi2-78-sub-card` (card c78-3) | 78 | fill the blank, 1 | grammaire |
+| 336 | `fi2-79-emploi` | 79 | multiple choice, 1 | conjugaison |
+| 337 | `fi2-79-spot` | 79 | spot the error, 3 | conjugaison |
+| 338 | `fi2-80-ecrit` | 80 | fill the blank, 1 | orthographe |
+| 339 | `fi2-80-et` | 80 | fill the blank, 1 | orthographe |
+| 340 | `fi2-80-imp` | 80 | fill the blank, 2 | orthographe |
+| 341 | `fi2-80-spot` | 80 | spot the error, 3 | orthographe |
+| 342 | `fi2-80-imp-card` (card c80-3) | 80 | fill the blank, 1 | orthographe |
+| 343 | `fi2-81-but` | 81 | multiple choice, 1 | vocabulaire |
+| 344 | `fi2-81-mot` | 81 | matching, 1 | vocabulaire |
+| 345 | `fi2-81-critique` | 81 | multiple choice, 2 | vocabulaire |
+| 346 | `fi2-81-spot` | 81 | spot the error, 3 | vocabulaire |
+| 347 | `fi2-81-critique-card` (card c81-3) | 81 | multiple choice, 1 | vocabulaire |
+| 348 | `fi2-82-forme` | 82 | multiple choice, 1 | litterature |
+| 349 | `fi2-82-rime` | 82 | multiple choice, 1 | litterature |
+| 350 | `fi2-82-sens` | 82 | multiple choice, 2 | litterature |
+| 351 | `fi2-82-spot` | 82 | spot the error, 3 | litterature |
+| 352 | `fi2-82-sens-card` (card c82-3) | 82 | multiple choice, 1 | litterature |
+| 353 | `fi2-83-comp` | 83 | multiple choice, 1 | lecture |
+| 354 | `fi2-83-mot` | 83 | multiple choice, 1 | lecture |
+| 355 | `fi2-83-idee` | 83 | multiple choice, 2 | lecture |
+| 356 | `fi2-83-spot` | 83 | spot the error, 3 | lecture |
+| 357 | `fi2-83-idee-card` (card c83-3) | 83 | multiple choice, 1 | lecture |
+| 358 | `fi2-84-ordre` | 84 | ordering, 1 | expression |
+| 359 | `fi2-84-mot` | 84 | fill the blank, 2 | expression |
+| 360 | `fi2-84-spot` | 84 | spot the error, 3 | expression |
+| 361 | `fi2-84-mot-card` (card c84-3) | 84 | fill the blank, 1 | expression |
+| 362 | `fi2-85-perso` | 85 | multiple choice, 1 | litterature |
+| 363 | `fi2-85-etapes` | 85 | ordering, 1 | litterature |
+| 364 | `fi2-85-morale` | 85 | multiple choice, 2 | litterature |
+| 365 | `fi2-85-spot` | 85 | spot the error, 3 | litterature |
+| 366 | `fi2-85-morale-card` (card c85-3) | 85 | multiple choice, 1 | litterature |
+| 367 | `fi2-86-emploi` | 86 | multiple choice, 1 | conjugaison |
+| 368 | `fi2-86-spot` | 86 | spot the error, 3 | conjugaison |
+| 369 | `fi2-87-mot` | 87 | fill the blank, 1 | orthographe |
+| 370 | `fi2-87-pl` | 87 | multiple choice, 1 | orthographe |
+| 371 | `fi2-87-travail` | 87 | multiple choice, 2 | vocabulaire |
+| 372 | `fi2-87-spot` | 87 | spot the error, 3 | orthographe |
+| 373 | `fi2-87-travail-card` (card c87-3) | 87 | multiple choice, 1 | vocabulaire |
+| 374 | `fi2-88-contrat` | 88 | multiple choice, 1 | vocabulaire |
+| 375 | `fi2-88-mot` | 88 | matching, 1 | vocabulaire |
+| 376 | `fi2-88-droit` | 88 | multiple choice, 2 | vocabulaire |
+| 377 | `fi2-88-spot` | 88 | spot the error, 3 | vocabulaire |
+| 378 | `fi2-88-droit-card` (card c88-3) | 88 | multiple choice, 1 | vocabulaire |
+| 379 | `fi2-89-cand` | 89 | multiple choice, 1 | expression |
+| 380 | `fi2-89-quest` | 89 | multiple choice, 1 | expression |
+| 381 | `fi2-89-ordre` | 89 | ordering, 2 | expression |
+| 382 | `fi2-89-spot` | 89 | spot the error, 3 | expression |
+| 383 | `fi2-89-ordre-card` (card c89-3) | 89 | ordering, 1 | expression |
+| 384 | `fi2-90-plan` | 90 | ordering, 1 | expression |
+| 385 | `fi2-90-concl` | 90 | multiple choice, 2 | expression |
+| 386 | `fi2-90-spot` | 90 | spot the error, 3 | expression |
+| 387 | `fi2-90-concl-card` (card c90-3) | 90 | multiple choice, 1 | expression |
+| 388 | `fi2-91-quoi` | 91 | multiple choice, 1 | grammaire |
+| 389 | `fi2-91-pl` | 91 | multiple choice, 2 | grammaire |
+| 390 | `fi2-91-prep` | 91 | fill the blank, 1 | grammaire |
+| 391 | `fi2-91-spot` | 91 | spot the error, 3 | grammaire |
+| 392 | `fi2-91-pl-card` (card c91-2) | 91 | multiple choice, 1 | grammaire |
+| 393 | `fi2-92-mm` | 92 | fill the blank, 1 | orthographe |
+| 394 | `fi2-92-mbp` | 92 | fill the blank, 1 | orthographe |
+| 395 | `fi2-92-adv` | 92 | fill the blank, 2 | orthographe |
+| 396 | `fi2-92-spot` | 92 | spot the error, 3 | orthographe |
+| 397 | `fi2-92-adv-card` (card c92-3) | 92 | fill the blank, 1 | orthographe |
+| 398 | `fi2-93-banque` | 93 | multiple choice, 1 | vocabulaire |
+| 399 | `fi2-93-ops` | 93 | matching, 1 | vocabulaire |
+| 400 | `fi2-93-pret` | 93 | multiple choice, 2 | vocabulaire |
+| 401 | `fi2-93-spot` | 93 | spot the error, 3 | vocabulaire |
+| 402 | `fi2-93-pret-card` (card c93-3) | 93 | multiple choice, 1 | vocabulaire |
+| 403 | `fi2-94-obs` | 94 | multiple choice, 1 | expression |
+| 404 | `fi2-94-msg` | 94 | multiple choice, 2 | expression |
+| 405 | `fi2-94-avis` | 94 | ordering, 1 | expression |
+| 406 | `fi2-94-spot` | 94 | spot the error, 3 | expression |
+| 407 | `fi2-94-msg-card` (card c94-2) | 94 | multiple choice, 1 | expression |
+| 408 | `fi2-95-temps` | 95 | fill the blank, 1 | expression |
+| 409 | `fi2-95-imprevu` | 95 | multiple choice, 1 | expression |
+| 410 | `fi2-95-ordre` | 95 | ordering, 2 | expression |
+| 411 | `fi2-95-spot` | 95 | spot the error, 3 | expression |
+| 412 | `fi2-95-ordre-card` (card c95-3) | 95 | ordering, 1 | expression |
+| 413 | `fi2-96-affiche` | 96 | multiple choice, 1 | expression |
+| 414 | `fi2-96-annonce` | 96 | multiple choice, 1 | expression |
+| 415 | `fi2-96-etapes` | 96 | ordering, 2 | expression |
+| 416 | `fi2-96-spot` | 96 | spot the error, 3 | expression |
+| 417 | `fi2-96-etapes-card` (card c96-3) | 96 | ordering, 1 | expression |
+| 418 | `fi2-97-gram` | 97 | multiple choice, 1 | grammaire |
+| 419 | `fi2-97-spot` | 97 | spot the error, 3 | conjugaison |
+| 420 | `fi2-98-perso` | 98 | multiple choice, 1 | litterature |
+| 421 | `fi2-98-etapes` | 98 | ordering, 1 | litterature |
+| 422 | `fi2-98-morale` | 98 | multiple choice, 2 | litterature |
+| 423 | `fi2-98-spot` | 98 | spot the error, 3 | litterature |
+| 424 | `fi2-98-morale-card` (card c98-3) | 98 | multiple choice, 1 | litterature |
+| 425 | `fi2-99-tech` | 99 | multiple choice, 1 | expression |
+| 426 | `fi2-99-ponct` | 99 | multiple choice, 1 | expression |
+| 427 | `fi2-99-spot` | 99 | spot the error, 3 | expression |
+| 428 | `fi2-100-temps` | 100 | fill the blank, 1 | expression |
+| 429 | `fi2-100-mix` | 100 | multiple choice, 2 | expression |
+| 430 | `fi2-100-spot` | 100 | spot the error, 3 | expression |
+| 431 | `fi2-100-mix-card` (card c100-3) | 100 | multiple choice, 1 | expression |
+| 432 | `fi2-101-type` | 101 | multiple choice, 1 | expression |
+| 433 | `fi2-101-etapes` | 101 | ordering, 1 | expression |
+| 434 | `fi2-101-grille` | 101 | multiple choice, 2 | expression |
+| 435 | `fi2-101-spot` | 101 | spot the error, 3 | expression |
+| 436 | `fi2-101-grille-card` (card c101-3) | 101 | multiple choice, 1 | expression |
+| 437 | `fi2-102-si` | 102 | fill the blank, 2 | conjugaison |
+| 438 | `fi2-102-spot` | 102 | spot the error, 3 | conjugaison |
+| 439 | `fi2-102-si-card` (card c102-2) | 102 | fill the blank, 1 | conjugaison |
 
 ### `fi2-1-epi` · Lesson 1 · multiple choice, level 1
 
@@ -14658,6 +14872,13549 @@ Full working after a second miss:
 
 > Le mot qui manque est « aidèrent ».  
 > Les élèves aidèrent le chauffeur à pousser le car.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-53-phrase` · Lesson 53 · fill the blank, level 1
+
+Prompt: Choisis la forme qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Les ___ hululent dans la forêt. | hiboux | hibous · hibou | « hibou » prend -x. · Il faut le pluriel. |
+| Mon père a acheté deux ___ neufs. | pneus | pneux · pneu | « pneu » est une exception : -s. · Il faut le pluriel. |
+| Le menuisier plante des ___. | clous | cloux · clou | Les noms en -ou prennent -s. · Il faut le pluriel. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la forme qui convient.
+
+Sentence: **Les ___ hululent dans la forêt.**
+- ✅ hiboux
+- ◻️ hibou  
+  _↳ feedback if chosen: Il faut le pluriel._
+- ◻️ hibous  
+  _↳ feedback if chosen: « hibou » prend -x._
+
+Full working after a second miss:
+
+> Le mot qui manque est « hiboux ».  
+> Les hiboux hululent dans la forêt.  
+
+> Choisis la forme qui convient.
+
+Sentence: **Mon père a acheté deux ___ neufs.**
+- ◻️ pneu  
+  _↳ feedback if chosen: Il faut le pluriel._
+- ◻️ pneux  
+  _↳ feedback if chosen: « pneu » est une exception : -s._
+- ✅ pneus
+
+Full working after a second miss:
+
+> Le mot qui manque est « pneus ».  
+> Mon père a acheté deux pneus neufs.  
+
+> Choisis la forme qui convient.
+
+Sentence: **Le menuisier plante des ___.**
+- ✅ clous
+- ◻️ cloux  
+  _↳ feedback if chosen: Les noms en -ou prennent -s._
+- ◻️ clou  
+  _↳ feedback if chosen: Il faut le pluriel._
+
+Full working after a second miss:
+
+> Le mot qui manque est « clous ».  
+> Le menuisier plante des clous.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-53-spot` · Lesson 53 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Les bateaux rentrent au port.
+- ✅ J’ai mal aux genoux.
+- ✅ Les pneus sont usés.
+- ✅ Les enfants jouent aux jeux.
+- ❌ Les feus de brousse détruisent la savane.  
+  _↳ « feu » prend -x : des feux._
+- ❌ Il y a des troux dans la route.  
+  _↳ « trou » prend -s : des trous._
+- ❌ Les pneux du taxi sont neufs.  
+  _↳ « pneu » est une exception : des pneus._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Les bateaux rentrent au port.
+- ◻️ Les pneus sont usés.
+- ◻️ J’ai mal aux genoux.
+- ✅ Les feus de brousse détruisent la savane.  
+  _↳ explanation: « feu » prend -x : des feux._
+
+Full working after a second miss:
+
+> La phrase fausse est « Les feus de brousse détruisent la savane. ».  
+> « feu » prend -x : des feux.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Les feus de brousse détruisent la savane.  
+  _↳ explanation: « feu » prend -x : des feux._
+- ◻️ Les bateaux rentrent au port.
+- ◻️ J’ai mal aux genoux.
+- ◻️ Les pneus sont usés.
+
+Full working after a second miss:
+
+> La phrase fausse est « Les feus de brousse détruisent la savane. ».  
+> « feu » prend -x : des feux.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Il y a des troux dans la route.  
+  _↳ explanation: « trou » prend -s : des trous._
+- ◻️ Les bateaux rentrent au port.
+- ◻️ Les pneus sont usés.
+- ◻️ Les enfants jouent aux jeux.
+
+Full working after a second miss:
+
+> La phrase fausse est « Il y a des troux dans la route. ».  
+> « trou » prend -s : des trous.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-54-emploi` · Lesson 54 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans « Quand nous sommes arrivés, le film avait commencé », quelle action a eu lieu en premier ? | le film a commencé | nous sommes arrivés · les deux en même temps · aucune | Le plus-que-parfait marque l’action d’avant. · Le plus-que-parfait marque l’antériorité. · Les deux ont eu lieu. | « avait commencé » est antérieur. |
+| Quelle phrase contient un plus-que-parfait ? | Elle avait déjà mangé quand je suis venu. | Elle mange quand je viens. · Elle a mangé hier. · Elle mangera demain. | C’est le présent. · C’est le passé composé. · C’est le futur. | « avait mangé ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans « Quand nous sommes arrivés, le film avait commencé », quelle action a eu lieu en premier ?
+
+- ✅ le film a commencé
+- ◻️ aucune  
+  _↳ feedback if chosen: Les deux ont eu lieu._
+- ◻️ les deux en même temps  
+  _↳ feedback if chosen: Le plus-que-parfait marque l’antériorité._
+- ◻️ nous sommes arrivés  
+  _↳ feedback if chosen: Le plus-que-parfait marque l’action d’avant._
+
+Full working after a second miss:
+
+> « avait commencé » est antérieur.  
+> Donc la réponse est « le film a commencé ».  
+
+> Quelle phrase contient un plus-que-parfait ?
+
+- ✅ Elle avait déjà mangé quand je suis venu.
+- ◻️ Elle mange quand je viens.  
+  _↳ feedback if chosen: C’est le présent._
+- ◻️ Elle mangera demain.  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ Elle a mangé hier.  
+  _↳ feedback if chosen: C’est le passé composé._
+
+Full working after a second miss:
+
+> « avait mangé ».  
+> Donc la réponse est « Elle avait déjà mangé quand je suis venu. ».  
+
+> Quelle phrase contient un plus-que-parfait ?
+
+- ✅ Elle avait déjà mangé quand je suis venu.
+- ◻️ Elle mangera demain.  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ Elle mange quand je viens.  
+  _↳ feedback if chosen: C’est le présent._
+- ◻️ Elle a mangé hier.  
+  _↳ feedback if chosen: C’est le passé composé._
+
+Full working after a second miss:
+
+> « avait mangé ».  
+> Donc la réponse est « Elle avait déjà mangé quand je suis venu. ».  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-54-spot` · Lesson 54 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Nous avions fini avant midi.
+- ✅ Elle était partie la veille.
+- ✅ Ils étaient arrivés en retard.
+- ✅ J’avais vu ce film.
+- ❌ Elles avaient parties tôt.  
+  _↳ « partir » prend être : elles étaient parties._
+- ❌ Il était mangé avant nous.  
+  _↳ « manger » prend avoir : il avait mangé._
+- ❌ Nous avons fini quand tu étais arrivé avant.  
+  _↳ L’action d’avant se met au plus-que-parfait : nous avions fini._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Ils étaient arrivés en retard.
+- ✅ Elles avaient parties tôt.  
+  _↳ explanation: « partir » prend être : elles étaient parties._
+- ◻️ Elle était partie la veille.
+- ◻️ J’avais vu ce film.
+
+Full working after a second miss:
+
+> La phrase fausse est « Elles avaient parties tôt. ».  
+> « partir » prend être : elles étaient parties.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Elle était partie la veille.
+- ◻️ J’avais vu ce film.
+- ✅ Il était mangé avant nous.  
+  _↳ explanation: « manger » prend avoir : il avait mangé._
+- ◻️ Ils étaient arrivés en retard.
+
+Full working after a second miss:
+
+> La phrase fausse est « Il était mangé avant nous. ».  
+> « manger » prend avoir : il avait mangé.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Elles avaient parties tôt.  
+  _↳ explanation: « partir » prend être : elles étaient parties._
+- ◻️ Elle était partie la veille.
+- ◻️ Ils étaient arrivés en retard.
+- ◻️ Nous avions fini avant midi.
+
+Full working after a second miss:
+
+> La phrase fausse est « Elles avaient parties tôt. ».  
+> « partir » prend être : elles étaient parties.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-55-quoi` · Lesson 55 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel son entend-on dans la liaison « deux‿amis » ? | [z] | [t] · [n] · [s] | Le x se prononce [z]. · Le x se prononce [z]. · En liaison, s et x se prononcent [z]. | deux‿amis [z]. |
+| Quel son entend-on dans la liaison « quand‿il » ? | [t] | [d] · [z] · [n] | Le d se prononce [t] en liaison. · Ce n’est pas un s. · Ce n’est pas un n. | quand‿il [t]. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel son entend-on dans la liaison « quand‿il » ?
+
+- ◻️ [d]  
+  _↳ feedback if chosen: Le d se prononce [t] en liaison._
+- ◻️ [n]  
+  _↳ feedback if chosen: Ce n’est pas un n._
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+- ✅ [t]
+
+Full working after a second miss:
+
+> quand‿il [t].  
+> Donc la réponse est « [t] ».  
+
+> Quel son entend-on dans la liaison « deux‿amis » ?
+
+- ✅ [z]
+- ◻️ [t]  
+  _↳ feedback if chosen: Le x se prononce [z]._
+- ◻️ [s]  
+  _↳ feedback if chosen: En liaison, s et x se prononcent [z]._
+- ◻️ [n]  
+  _↳ feedback if chosen: Le x se prononce [z]._
+
+Full working after a second miss:
+
+> deux‿amis [z].  
+> Donc la réponse est « [z] ».  
+
+> Quel son entend-on dans la liaison « quand‿il » ?
+
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+- ◻️ [n]  
+  _↳ feedback if chosen: Ce n’est pas un n._
+- ◻️ [d]  
+  _↳ feedback if chosen: Le d se prononce [t] en liaison._
+- ✅ [t]
+
+Full working after a second miss:
+
+> quand‿il [t].  
+> Donc la réponse est « [t] ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-55-oblig` · Lesson 55 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quel groupe la liaison est-elle obligatoire ? | les élèves | et ils · les héros · un enfant intelligent | Jamais après « et ». · Le h est aspiré. · Pas après un nom singulier. | Déterminant + nom. |
+| Dans quel groupe la liaison est-elle obligatoire ? | ils ont | et eux · les haricots · Paul arrive | Jamais après « et ». · Le h est aspiré. · Pas de consonne finale prononcée. | Pronom + verbe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans quel groupe la liaison est-elle obligatoire ?
+
+- ◻️ et ils  
+  _↳ feedback if chosen: Jamais après « et »._
+- ◻️ les héros  
+  _↳ feedback if chosen: Le h est aspiré._
+- ◻️ un enfant intelligent  
+  _↳ feedback if chosen: Pas après un nom singulier._
+- ✅ les élèves
+
+Full working after a second miss:
+
+> Déterminant + nom.  
+> Donc la réponse est « les élèves ».  
+
+> Dans quel groupe la liaison est-elle obligatoire ?
+
+- ◻️ les héros  
+  _↳ feedback if chosen: Le h est aspiré._
+- ✅ les élèves
+- ◻️ et ils  
+  _↳ feedback if chosen: Jamais après « et »._
+- ◻️ un enfant intelligent  
+  _↳ feedback if chosen: Pas après un nom singulier._
+
+Full working after a second miss:
+
+> Déterminant + nom.  
+> Donc la réponse est « les élèves ».  
+
+> Dans quel groupe la liaison est-elle obligatoire ?
+
+- ◻️ un enfant intelligent  
+  _↳ feedback if chosen: Pas après un nom singulier._
+- ✅ les élèves
+- ◻️ les héros  
+  _↳ feedback if chosen: Le h est aspiré._
+- ◻️ et ils  
+  _↳ feedback if chosen: Jamais après « et »._
+
+Full working after a second miss:
+
+> Déterminant + nom.  
+> Donc la réponse est « les élèves ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-55-interdit` · Lesson 55 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quel groupe ne faut-il pas faire la liaison ? | les héros | les hommes · les amis · nous avons | Le h est muet : liaison. · Liaison obligatoire. · Liaison obligatoire. | Le h de « héros » est aspiré. |
+| Dans quel groupe ne faut-il pas faire la liaison ? | toi et elle | chez eux · très aimable · un ami | Liaison après « chez ». · Liaison après « très ». · Liaison déterminant + nom. | Jamais de liaison après « et ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans quel groupe ne faut-il pas faire la liaison ?
+
+- ◻️ les amis  
+  _↳ feedback if chosen: Liaison obligatoire._
+- ✅ les héros
+- ◻️ nous avons  
+  _↳ feedback if chosen: Liaison obligatoire._
+- ◻️ les hommes  
+  _↳ feedback if chosen: Le h est muet : liaison._
+
+Full working after a second miss:
+
+> Le h de « héros » est aspiré.  
+> Donc la réponse est « les héros ».  
+
+> Dans quel groupe ne faut-il pas faire la liaison ?
+
+- ◻️ chez eux  
+  _↳ feedback if chosen: Liaison après « chez »._
+- ✅ toi et elle
+- ◻️ un ami  
+  _↳ feedback if chosen: Liaison déterminant + nom._
+- ◻️ très aimable  
+  _↳ feedback if chosen: Liaison après « très »._
+
+Full working after a second miss:
+
+> Jamais de liaison après « et ».  
+> Donc la réponse est « toi et elle ».  
+
+> Dans quel groupe ne faut-il pas faire la liaison ?
+
+- ◻️ chez eux  
+  _↳ feedback if chosen: Liaison après « chez »._
+- ◻️ très aimable  
+  _↳ feedback if chosen: Liaison après « très »._
+- ◻️ un ami  
+  _↳ feedback if chosen: Liaison déterminant + nom._
+- ✅ toi et elle
+
+Full working after a second miss:
+
+> Jamais de liaison après « et ».  
+> Donc la réponse est « toi et elle ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-55-spot` · Lesson 55 · spot the error, level 3
+
+Prompt: Quelle liaison est fautive ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ les‿enfants
+- ✅ nous‿avons
+- ✅ un‿ami
+- ✅ chez‿eux
+- ❌ les‿haricots  
+  _↳ « haricot » a un h aspiré : pas de liaison._
+- ❌ et‿alors  
+  _↳ Jamais de liaison après « et »._
+- ❌ les‿héros  
+  _↳ « héros » a un h aspiré : pas de liaison._
+
+
+Three generated variants:
+
+> Quelle liaison est fautive ?
+
+- ◻️ chez‿eux
+- ◻️ un‿ami
+- ◻️ les‿enfants
+- ✅ les‿haricots  
+  _↳ explanation: « haricot » a un h aspiré : pas de liaison._
+
+Full working after a second miss:
+
+> La phrase fausse est « les‿haricots ».  
+> « haricot » a un h aspiré : pas de liaison.  
+
+> Quelle liaison est fautive ?
+
+- ◻️ un‿ami
+- ◻️ les‿enfants
+- ◻️ nous‿avons
+- ✅ les‿héros  
+  _↳ explanation: « héros » a un h aspiré : pas de liaison._
+
+Full working after a second miss:
+
+> La phrase fausse est « les‿héros ».  
+> « héros » a un h aspiré : pas de liaison.  
+
+> Quelle liaison est fautive ?
+
+- ◻️ les‿enfants
+- ✅ les‿haricots  
+  _↳ explanation: « haricot » a un h aspiré : pas de liaison._
+- ◻️ chez‿eux
+- ◻️ un‿ami
+
+Full working after a second miss:
+
+> La phrase fausse est « les‿haricots ».  
+> « haricot » a un h aspiré : pas de liaison.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-55-interdit-card` · Lesson 55 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quel groupe ne faut-il pas faire la liaison ? | les héros | les hommes · les amis · nous avons | Le h est muet : liaison. · Liaison obligatoire. · Liaison obligatoire. | Le h de « héros » est aspiré. |
+| Dans quel groupe ne faut-il pas faire la liaison ? | toi et elle | chez eux · très aimable · un ami | Liaison après « chez ». · Liaison après « très ». · Liaison déterminant + nom. | Jamais de liaison après « et ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans quel groupe ne faut-il pas faire la liaison ?
+
+- ◻️ un ami  
+  _↳ feedback if chosen: Liaison déterminant + nom._
+- ✅ toi et elle
+- ◻️ très aimable  
+  _↳ feedback if chosen: Liaison après « très »._
+- ◻️ chez eux  
+  _↳ feedback if chosen: Liaison après « chez »._
+
+Full working after a second miss:
+
+> Jamais de liaison après « et ».  
+> Donc la réponse est « toi et elle ».  
+
+> Dans quel groupe ne faut-il pas faire la liaison ?
+
+- ◻️ chez eux  
+  _↳ feedback if chosen: Liaison après « chez »._
+- ◻️ très aimable  
+  _↳ feedback if chosen: Liaison après « très »._
+- ✅ toi et elle
+- ◻️ un ami  
+  _↳ feedback if chosen: Liaison déterminant + nom._
+
+Full working after a second miss:
+
+> Jamais de liaison après « et ».  
+> Donc la réponse est « toi et elle ».  
+
+> Dans quel groupe ne faut-il pas faire la liaison ?
+
+- ✅ toi et elle
+- ◻️ très aimable  
+  _↳ feedback if chosen: Liaison après « très »._
+- ◻️ chez eux  
+  _↳ feedback if chosen: Liaison après « chez »._
+- ◻️ un ami  
+  _↳ feedback if chosen: Liaison déterminant + nom._
+
+Full working after a second miss:
+
+> Jamais de liaison après « et ».  
+> Donc la réponse est « toi et elle ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-56-quoi` · Lesson 56 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce que la décentralisation ? | donner une partie du pouvoir de l’État à des collectivités élues | fermer les mairies · supprimer les régions · donner tout le pouvoir à une seule ville | C’est le contraire. · C’est le contraire. · C’est le contraire. | Le pouvoir est rapproché des habitants. |
+| Qui préside la commune ? | le maire | le gouverneur · le préfet · le président du conseil régional | Il représente l’État dans la région. · Il représente l’État dans le département. · Il préside la région. | Le maire. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Qui préside la commune ?
+
+- ◻️ le préfet  
+  _↳ feedback if chosen: Il représente l’État dans le département._
+- ✅ le maire
+- ◻️ le gouverneur  
+  _↳ feedback if chosen: Il représente l’État dans la région._
+- ◻️ le président du conseil régional  
+  _↳ feedback if chosen: Il préside la région._
+
+Full working after a second miss:
+
+> Le maire.  
+> Donc la réponse est « le maire ».  
+
+> Qu’est-ce que la décentralisation ?
+
+- ✅ donner une partie du pouvoir de l’État à des collectivités élues
+- ◻️ fermer les mairies  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ donner tout le pouvoir à une seule ville  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ supprimer les régions  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Le pouvoir est rapproché des habitants.  
+> Donc la réponse est « donner une partie du pouvoir de l’État à des collectivités élues ».  
+
+> Qui préside la commune ?
+
+- ◻️ le président du conseil régional  
+  _↳ feedback if chosen: Il préside la région._
+- ◻️ le préfet  
+  _↳ feedback if chosen: Il représente l’État dans le département._
+- ✅ le maire
+- ◻️ le gouverneur  
+  _↳ feedback if chosen: Il représente l’État dans la région._
+
+Full working after a second miss:
+
+> Le maire.  
+> Donc la réponse est « le maire ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-56-commune` · Lesson 56 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Laquelle de ces tâches revient à la commune ? | la propreté des rues et des marchés | la défense du pays · la monnaie · les relations avec les autres pays | C’est l’État. · C’est la banque centrale. · C’est l’État. | La commune gère la vie locale. |
+| Où établit-on un acte de naissance ? | à la mairie (centre d’état civil) | au commissariat · à la banque · à la gare | On y établit la CNI. · Ce n’est pas le lieu. · Ce n’est pas le lieu. | L’état civil est une tâche de la commune. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Laquelle de ces tâches revient à la commune ?
+
+- ◻️ la défense du pays  
+  _↳ feedback if chosen: C’est l’État._
+- ◻️ les relations avec les autres pays  
+  _↳ feedback if chosen: C’est l’État._
+- ◻️ la monnaie  
+  _↳ feedback if chosen: C’est la banque centrale._
+- ✅ la propreté des rues et des marchés
+
+Full working after a second miss:
+
+> La commune gère la vie locale.  
+> Donc la réponse est « la propreté des rues et des marchés ».  
+
+> Laquelle de ces tâches revient à la commune ?
+
+- ◻️ la monnaie  
+  _↳ feedback if chosen: C’est la banque centrale._
+- ✅ la propreté des rues et des marchés
+- ◻️ les relations avec les autres pays  
+  _↳ feedback if chosen: C’est l’État._
+- ◻️ la défense du pays  
+  _↳ feedback if chosen: C’est l’État._
+
+Full working after a second miss:
+
+> La commune gère la vie locale.  
+> Donc la réponse est « la propreté des rues et des marchés ».  
+
+> Où établit-on un acte de naissance ?
+
+- ◻️ au commissariat  
+  _↳ feedback if chosen: On y établit la CNI._
+- ✅ à la mairie (centre d’état civil)
+- ◻️ à la gare  
+  _↳ feedback if chosen: Ce n’est pas le lieu._
+- ◻️ à la banque  
+  _↳ feedback if chosen: Ce n’est pas le lieu._
+
+Full working after a second miss:
+
+> L’état civil est une tâche de la commune.  
+> Donc la réponse est « à la mairie (centre d’état civil) ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-56-elu` · Lesson 56 · matching, level 2
+
+Prompt: Associe chaque responsable à ce qu’il dirige.
+
+Pairs (4 shown each time):
+
+- le maire → **la commune**
+- le président du conseil régional → **la région (collectivité)**
+- le préfet → **le département**
+- le sous-préfet → **l’arrondissement**
+- le gouverneur → **la région (représentant de l’État)**
+
+
+Three generated variants:
+
+> Associe chaque responsable à ce qu’il dirige.
+
+Right-hand side (shuffled): l’arrondissement · la région (collectivité) · le département · la commune
+- le préfet → **le département**
+- le maire → **la commune**
+- le sous-préfet → **l’arrondissement**
+- le président du conseil régional → **la région (collectivité)**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le préfet → le département  
+> le maire → la commune  
+> le sous-préfet → l’arrondissement  
+> le président du conseil régional → la région (collectivité)  
+
+> Associe chaque responsable à ce qu’il dirige.
+
+Right-hand side (shuffled): la commune · la région (représentant de l’État) · le département · l’arrondissement
+- le préfet → **le département**
+- le sous-préfet → **l’arrondissement**
+- le gouverneur → **la région (représentant de l’État)**
+- le maire → **la commune**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le préfet → le département  
+> le sous-préfet → l’arrondissement  
+> le gouverneur → la région (représentant de l’État)  
+> le maire → la commune  
+
+> Associe chaque responsable à ce qu’il dirige.
+
+Right-hand side (shuffled): l’arrondissement · la région (collectivité) · le département · la région (représentant de l’État)
+- le sous-préfet → **l’arrondissement**
+- le préfet → **le département**
+- le président du conseil régional → **la région (collectivité)**
+- le gouverneur → **la région (représentant de l’État)**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le sous-préfet → l’arrondissement  
+> le préfet → le département  
+> le président du conseil régional → la région (collectivité)  
+> le gouverneur → la région (représentant de l’État)  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-56-spot` · Lesson 56 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le maire est élu.
+- ✅ Le préfet est nommé.
+- ✅ La commune gère les marchés.
+- ✅ La décentralisation rapproche le pouvoir des habitants.
+- ❌ Le sous-préfet est élu par les habitants.  
+  _↳ Il est nommé par l’État._
+- ❌ La commune bat la monnaie du pays.  
+  _↳ C’est la banque centrale._
+- ❌ La décentralisation supprime les collectivités locales.  
+  _↳ Elle leur donne des pouvoirs._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le maire est élu.
+- ✅ La décentralisation supprime les collectivités locales.  
+  _↳ explanation: Elle leur donne des pouvoirs._
+- ◻️ La décentralisation rapproche le pouvoir des habitants.
+- ◻️ La commune gère les marchés.
+
+Full working after a second miss:
+
+> La phrase fausse est « La décentralisation supprime les collectivités locales. ».  
+> Elle leur donne des pouvoirs.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le maire est élu.
+- ✅ Le sous-préfet est élu par les habitants.  
+  _↳ explanation: Il est nommé par l’État._
+- ◻️ La commune gère les marchés.
+- ◻️ Le préfet est nommé.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le sous-préfet est élu par les habitants. ».  
+> Il est nommé par l’État.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ La décentralisation rapproche le pouvoir des habitants.
+- ◻️ La commune gère les marchés.
+- ✅ La décentralisation supprime les collectivités locales.  
+  _↳ explanation: Elle leur donne des pouvoirs._
+- ◻️ Le préfet est nommé.
+
+Full working after a second miss:
+
+> La phrase fausse est « La décentralisation supprime les collectivités locales. ».  
+> Elle leur donne des pouvoirs.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-56-elu-card` · Lesson 56 · matching, level 1
+
+Prompt: Associe chaque responsable à ce qu’il dirige.
+
+Pairs (4 shown each time):
+
+- le maire → **la commune**
+- le président du conseil régional → **la région (collectivité)**
+- le préfet → **le département**
+- le sous-préfet → **l’arrondissement**
+- le gouverneur → **la région (représentant de l’État)**
+
+
+Three generated variants:
+
+> Associe chaque responsable à ce qu’il dirige.
+
+Right-hand side (shuffled): le département · la commune · la région (représentant de l’État) · l’arrondissement
+- le sous-préfet → **l’arrondissement**
+- le gouverneur → **la région (représentant de l’État)**
+- le maire → **la commune**
+- le préfet → **le département**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le sous-préfet → l’arrondissement  
+> le gouverneur → la région (représentant de l’État)  
+> le maire → la commune  
+> le préfet → le département  
+
+> Associe chaque responsable à ce qu’il dirige.
+
+Right-hand side (shuffled): la commune · la région (représentant de l’État) · la région (collectivité) · le département
+- le préfet → **le département**
+- le maire → **la commune**
+- le président du conseil régional → **la région (collectivité)**
+- le gouverneur → **la région (représentant de l’État)**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le préfet → le département  
+> le maire → la commune  
+> le président du conseil régional → la région (collectivité)  
+> le gouverneur → la région (représentant de l’État)  
+
+> Associe chaque responsable à ce qu’il dirige.
+
+Right-hand side (shuffled): la région (collectivité) · la commune · le département · la région (représentant de l’État)
+- le maire → **la commune**
+- le gouverneur → **la région (représentant de l’État)**
+- le président du conseil régional → **la région (collectivité)**
+- le préfet → **le département**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le maire → la commune  
+> le gouverneur → la région (représentant de l’État)  
+> le président du conseil régional → la région (collectivité)  
+> le préfet → le département  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-57-forme` · Lesson 57 · multiple choice, level 1
+
+Prompt: Poème « Mon drapeau » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| combien de strophes compte le poème ? | deux | une · quatre · huit | Il y a une ligne blanche entre deux strophes. · Ce sont les vers par strophe. · C’est le nombre total de vers. | Deux strophes. |
+| quel mot rime avec « bat » ? | là-bas | chante · or · unité | Il rime avec « hante ». · Il rime avec « fort ». · Il rime avec « liberté ». | bat / là-bas. |
+| quel mot rime avec « or » ? | fort | unité · chante · bat | Il rime avec « liberté ». · Il rime avec « hante ». · Il rime avec « là-bas ». | or / fort. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Poème « Mon drapeau » : combien de strophes compte le poème ?
+
+- ◻️ une  
+  _↳ feedback if chosen: Il y a une ligne blanche entre deux strophes._
+- ◻️ huit  
+  _↳ feedback if chosen: C’est le nombre total de vers._
+- ◻️ quatre  
+  _↳ feedback if chosen: Ce sont les vers par strophe._
+- ✅ deux
+
+Full working after a second miss:
+
+> Deux strophes.  
+> Donc la réponse est « deux ».  
+
+> Poème « Mon drapeau » : combien de strophes compte le poème ?
+
+- ◻️ une  
+  _↳ feedback if chosen: Il y a une ligne blanche entre deux strophes._
+- ◻️ huit  
+  _↳ feedback if chosen: C’est le nombre total de vers._
+- ◻️ quatre  
+  _↳ feedback if chosen: Ce sont les vers par strophe._
+- ✅ deux
+
+Full working after a second miss:
+
+> Deux strophes.  
+> Donc la réponse est « deux ».  
+
+> Poème « Mon drapeau » : combien de strophes compte le poème ?
+
+- ◻️ une  
+  _↳ feedback if chosen: Il y a une ligne blanche entre deux strophes._
+- ◻️ quatre  
+  _↳ feedback if chosen: Ce sont les vers par strophe._
+- ◻️ huit  
+  _↳ feedback if chosen: C’est le nombre total de vers._
+- ✅ deux
+
+Full working after a second miss:
+
+> Deux strophes.  
+> Donc la réponse est « deux ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-57-comp` · Lesson 57 · multiple choice, level 1
+
+Prompt: Poème « Mon drapeau » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| à quoi le vert est-il comparé ? | à la forêt | au soleil · au cœur · à l’étoile | C’est le jaune. · C’est le rouge. · L’étoile est d’or. | « Vert comme la forêt ». |
+| que représente l’étoile selon le poème ? | l’unité | la pluie · la nuit · la guerre | Ce n’est pas dit. · Ce n’est pas dit. · Ce n’est pas dit. | « Unique, comme notre unité ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Poème « Mon drapeau » : que représente l’étoile selon le poème ?
+
+- ◻️ la pluie  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ✅ l’unité
+- ◻️ la guerre  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ la nuit  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> « Unique, comme notre unité ».  
+> Donc la réponse est « l’unité ».  
+
+> Poème « Mon drapeau » : que représente l’étoile selon le poème ?
+
+- ◻️ la guerre  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ la pluie  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ✅ l’unité
+- ◻️ la nuit  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> « Unique, comme notre unité ».  
+> Donc la réponse est « l’unité ».  
+
+> Poème « Mon drapeau » : que représente l’étoile selon le poème ?
+
+- ◻️ la guerre  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ✅ l’unité
+- ◻️ la nuit  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ la pluie  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> « Unique, comme notre unité ».  
+> Donc la réponse est « l’unité ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-57-dire` · Lesson 57 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel ton convient pour réciter ce poème ? | un ton fier et solennel | un ton triste · un ton moqueur · un ton endormi | Le poème n’est pas triste. · Il ne se moque pas. · Il faut de l’énergie. | Le poète est fier de sa patrie. |
+| Où faut-il respirer en récitant ? | aux virgules et aux points | au milieu des mots · jamais · après chaque syllabe | Cela coupe les mots. · Il faut respirer. · Cela casse le rythme. | La ponctuation guide les pauses. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel ton convient pour réciter ce poème ?
+
+- ◻️ un ton endormi  
+  _↳ feedback if chosen: Il faut de l’énergie._
+- ◻️ un ton moqueur  
+  _↳ feedback if chosen: Il ne se moque pas._
+- ✅ un ton fier et solennel
+- ◻️ un ton triste  
+  _↳ feedback if chosen: Le poème n’est pas triste._
+
+Full working after a second miss:
+
+> Le poète est fier de sa patrie.  
+> Donc la réponse est « un ton fier et solennel ».  
+
+> Quel ton convient pour réciter ce poème ?
+
+- ✅ un ton fier et solennel
+- ◻️ un ton endormi  
+  _↳ feedback if chosen: Il faut de l’énergie._
+- ◻️ un ton moqueur  
+  _↳ feedback if chosen: Il ne se moque pas._
+- ◻️ un ton triste  
+  _↳ feedback if chosen: Le poème n’est pas triste._
+
+Full working after a second miss:
+
+> Le poète est fier de sa patrie.  
+> Donc la réponse est « un ton fier et solennel ».  
+
+> Quel ton convient pour réciter ce poème ?
+
+- ◻️ un ton moqueur  
+  _↳ feedback if chosen: Il ne se moque pas._
+- ✅ un ton fier et solennel
+- ◻️ un ton triste  
+  _↳ feedback if chosen: Le poème n’est pas triste._
+- ◻️ un ton endormi  
+  _↳ feedback if chosen: Il faut de l’énergie._
+
+Full working after a second miss:
+
+> Le poète est fier de sa patrie.  
+> Donc la réponse est « un ton fier et solennel ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-57-spot` · Lesson 57 · spot the error, level 3
+
+Prompt: Quelle phrase sur le poème est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le poème parle du drapeau.
+- ✅ Il contient des comparaisons.
+- ✅ Il a deux strophes.
+- ✅ Le poète est fier de sa patrie.
+- ❌ Le poème compare le rouge au soleil.  
+  _↳ Le rouge est comparé au cœur ; le jaune au soleil._
+- ❌ Le poème a une seule strophe de huit vers.  
+  _↳ Il a deux strophes de quatre vers._
+- ❌ Le poète est triste et a honte.  
+  _↳ Il est fier._
+
+
+Three generated variants:
+
+> Quelle phrase sur le poème est fausse ?
+
+- ◻️ Le poète est fier de sa patrie.
+- ◻️ Le poème parle du drapeau.
+- ✅ Le poète est triste et a honte.  
+  _↳ explanation: Il est fier._
+- ◻️ Il a deux strophes.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le poète est triste et a honte. ».  
+> Il est fier.  
+
+> Quelle phrase sur le poème est fausse ?
+
+- ◻️ Il contient des comparaisons.
+- ◻️ Il a deux strophes.
+- ◻️ Le poète est fier de sa patrie.
+- ✅ Le poète est triste et a honte.  
+  _↳ explanation: Il est fier._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le poète est triste et a honte. ».  
+> Il est fier.  
+
+> Quelle phrase sur le poème est fausse ?
+
+- ✅ Le poète est triste et a honte.  
+  _↳ explanation: Il est fier._
+- ◻️ Il contient des comparaisons.
+- ◻️ Le poème parle du drapeau.
+- ◻️ Il a deux strophes.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le poète est triste et a honte. ».  
+> Il est fier.  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-57-dire-card` · Lesson 57 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel ton convient pour réciter ce poème ? | un ton fier et solennel | un ton triste · un ton moqueur · un ton endormi | Le poème n’est pas triste. · Il ne se moque pas. · Il faut de l’énergie. | Le poète est fier de sa patrie. |
+| Où faut-il respirer en récitant ? | aux virgules et aux points | au milieu des mots · jamais · après chaque syllabe | Cela coupe les mots. · Il faut respirer. · Cela casse le rythme. | La ponctuation guide les pauses. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel ton convient pour réciter ce poème ?
+
+- ✅ un ton fier et solennel
+- ◻️ un ton triste  
+  _↳ feedback if chosen: Le poème n’est pas triste._
+- ◻️ un ton moqueur  
+  _↳ feedback if chosen: Il ne se moque pas._
+- ◻️ un ton endormi  
+  _↳ feedback if chosen: Il faut de l’énergie._
+
+Full working after a second miss:
+
+> Le poète est fier de sa patrie.  
+> Donc la réponse est « un ton fier et solennel ».  
+
+> Où faut-il respirer en récitant ?
+
+- ✅ aux virgules et aux points
+- ◻️ au milieu des mots  
+  _↳ feedback if chosen: Cela coupe les mots._
+- ◻️ après chaque syllabe  
+  _↳ feedback if chosen: Cela casse le rythme._
+- ◻️ jamais  
+  _↳ feedback if chosen: Il faut respirer._
+
+Full working after a second miss:
+
+> La ponctuation guide les pauses.  
+> Donc la réponse est « aux virgules et aux points ».  
+
+> Quel ton convient pour réciter ce poème ?
+
+- ◻️ un ton endormi  
+  _↳ feedback if chosen: Il faut de l’énergie._
+- ◻️ un ton moqueur  
+  _↳ feedback if chosen: Il ne se moque pas._
+- ◻️ un ton triste  
+  _↳ feedback if chosen: Le poème n’est pas triste._
+- ✅ un ton fier et solennel
+
+Full working after a second miss:
+
+> Le poète est fier de sa patrie.  
+> Donc la réponse est « un ton fier et solennel ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-58-comp` · Lesson 58 · multiple choice, level 1
+
+Prompt: Texte « Le grand nettoyage » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quel jour a lieu le nettoyage ? | le samedi matin | le lundi soir · le dimanche après-midi · un jour d’école | Le texte dit samedi matin. · Le texte dit samedi matin. · Le texte dit samedi matin. | « Le samedi matin ». |
+| qui annonce l’investissement humain ? | le chef de quartier | le maire · le directeur du lycée · le vieux Ateba | Le maire passe à midi. · Il n’est pas cité. · Il parle le soir. | Avec un sifflet. |
+| que fait la commune à midi ? | elle envoie un camion pour ramasser les ordures | elle ferme le marché · elle punit les habitants · elle construit une école | Ce n’est pas dans le texte. · Ce n’est pas dans le texte. · Ce n’est pas dans le texte. | Le camion ramasse les ordures. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « Le grand nettoyage » : quel jour a lieu le nettoyage ?
+
+- ◻️ le dimanche après-midi  
+  _↳ feedback if chosen: Le texte dit samedi matin._
+- ✅ le samedi matin
+- ◻️ un jour d’école  
+  _↳ feedback if chosen: Le texte dit samedi matin._
+- ◻️ le lundi soir  
+  _↳ feedback if chosen: Le texte dit samedi matin._
+
+Full working after a second miss:
+
+> « Le samedi matin ».  
+> Donc la réponse est « le samedi matin ».  
+
+> Texte « Le grand nettoyage » : qui annonce l’investissement humain ?
+
+- ◻️ le vieux Ateba  
+  _↳ feedback if chosen: Il parle le soir._
+- ✅ le chef de quartier
+- ◻️ le directeur du lycée  
+  _↳ feedback if chosen: Il n’est pas cité._
+- ◻️ le maire  
+  _↳ feedback if chosen: Le maire passe à midi._
+
+Full working after a second miss:
+
+> Avec un sifflet.  
+> Donc la réponse est « le chef de quartier ».  
+
+> Texte « Le grand nettoyage » : que fait la commune à midi ?
+
+- ◻️ elle construit une école  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ elle ferme le marché  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ elle envoie un camion pour ramasser les ordures
+- ◻️ elle punit les habitants  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> Le camion ramasse les ordures.  
+> Donc la réponse est « elle envoie un camion pour ramasser les ordures ».  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-58-mot` · Lesson 58 · multiple choice, level 1
+
+Prompt: Texte « Le grand nettoyage » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| que veut dire « investissement humain » ? | un travail bénévole fait ensemble pour la communauté | un placement d’argent à la banque · un examen · une fête de mariage | Ici, ce n’est pas de l’argent. · Ce n’est pas le sens. · Ce n’est pas le sens. | Tout le monde travaille pour le quartier. |
+| que veut dire « déboucher les caniveaux » ? | enlever ce qui empêche l’eau de couler | boucher les trous · construire une route · planter des arbres | C’est le contraire. · Ce n’est pas le sens. · Ce n’est pas le sens. | L’eau peut couler à nouveau. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « Le grand nettoyage » : que veut dire « déboucher les caniveaux » ?
+
+- ◻️ construire une route  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ boucher les trous  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ planter des arbres  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ enlever ce qui empêche l’eau de couler
+
+Full working after a second miss:
+
+> L’eau peut couler à nouveau.  
+> Donc la réponse est « enlever ce qui empêche l’eau de couler ».  
+
+> Texte « Le grand nettoyage » : que veut dire « déboucher les caniveaux » ?
+
+- ✅ enlever ce qui empêche l’eau de couler
+- ◻️ planter des arbres  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ construire une route  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ boucher les trous  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> L’eau peut couler à nouveau.  
+> Donc la réponse est « enlever ce qui empêche l’eau de couler ».  
+
+> Texte « Le grand nettoyage » : que veut dire « déboucher les caniveaux » ?
+
+- ◻️ construire une route  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ planter des arbres  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ boucher les trous  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ enlever ce qui empêche l’eau de couler
+
+Full working after a second miss:
+
+> L’eau peut couler à nouveau.  
+> Donc la réponse est « enlever ce qui empêche l’eau de couler ».  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-58-idee` · Lesson 58 · multiple choice, level 2
+
+Prompt: Texte « Le grand nettoyage » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est la morale du texte ? | Quand chacun fait sa part, tout le monde y gagne. | Il faut laisser le travail aux autres. · Le maire doit tout faire seul. · Les ordures ne sont pas dangereuses. | C’est le contraire. · C’est le contraire. · Le maire dit le contraire. | Le vieux Ateba le dit à la fin. |
+| pourquoi le maire dit-il « Bravo » ? | parce que le quartier est propre grâce aux habitants | parce qu’il a gagné un match · parce que le marché est fermé · parce qu’il pleut | Ce n’est pas dans le texte. · Ce n’est pas dans le texte. · Ce n’est pas dans le texte. | « Un quartier propre, c’est un quartier en bonne santé ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « Le grand nettoyage » : quelle est la morale du texte ?
+
+- ◻️ Les ordures ne sont pas dangereuses.  
+  _↳ feedback if chosen: Le maire dit le contraire._
+- ✅ Quand chacun fait sa part, tout le monde y gagne.
+- ◻️ Le maire doit tout faire seul.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Il faut laisser le travail aux autres.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Le vieux Ateba le dit à la fin.  
+> Donc la réponse est « Quand chacun fait sa part, tout le monde y gagne. ».  
+
+> Texte « Le grand nettoyage » : pourquoi le maire dit-il « Bravo » ?
+
+- ✅ parce que le quartier est propre grâce aux habitants
+- ◻️ parce que le marché est fermé  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il a gagné un match  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il pleut  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> « Un quartier propre, c’est un quartier en bonne santé ».  
+> Donc la réponse est « parce que le quartier est propre grâce aux habitants ».  
+
+> Texte « Le grand nettoyage » : quelle est la morale du texte ?
+
+- ✅ Quand chacun fait sa part, tout le monde y gagne.
+- ◻️ Il faut laisser le travail aux autres.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Le maire doit tout faire seul.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les ordures ne sont pas dangereuses.  
+  _↳ feedback if chosen: Le maire dit le contraire._
+
+Full working after a second miss:
+
+> Le vieux Ateba le dit à la fin.  
+> Donc la réponse est « Quand chacun fait sa part, tout le monde y gagne. ».  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-58-spot` · Lesson 58 · spot the error, level 3
+
+Prompt: Quelle phrase ne correspond pas au texte ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Les élèves débouchent les caniveaux.
+- ✅ Les femmes balaient la place du marché.
+- ✅ Le maire salue les habitants.
+- ✅ Un camion ramasse les ordures.
+- ❌ Le nettoyage a lieu le lundi soir.  
+  _↳ Il a lieu le samedi matin._
+- ❌ Les habitants sont payés pour nettoyer.  
+  _↳ C’est un investissement humain, bénévole._
+- ❌ Le vieux Ateba refuse de participer.  
+  _↳ Il félicite les habitants._
+
+
+Three generated variants:
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Les élèves débouchent les caniveaux.
+- ◻️ Les femmes balaient la place du marché.
+- ✅ Le nettoyage a lieu le lundi soir.  
+  _↳ explanation: Il a lieu le samedi matin._
+- ◻️ Le maire salue les habitants.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le nettoyage a lieu le lundi soir. ».  
+> Il a lieu le samedi matin.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Les élèves débouchent les caniveaux.
+- ◻️ Le maire salue les habitants.
+- ◻️ Les femmes balaient la place du marché.
+- ✅ Le nettoyage a lieu le lundi soir.  
+  _↳ explanation: Il a lieu le samedi matin._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le nettoyage a lieu le lundi soir. ».  
+> Il a lieu le samedi matin.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ✅ Le vieux Ateba refuse de participer.  
+  _↳ explanation: Il félicite les habitants._
+- ◻️ Les femmes balaient la place du marché.
+- ◻️ Un camion ramasse les ordures.
+- ◻️ Le maire salue les habitants.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le vieux Ateba refuse de participer. ».  
+> Il félicite les habitants.  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-58-idee-card` · Lesson 58 · multiple choice, level 1
+
+Prompt: Texte « Le grand nettoyage » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est la morale du texte ? | Quand chacun fait sa part, tout le monde y gagne. | Il faut laisser le travail aux autres. · Le maire doit tout faire seul. · Les ordures ne sont pas dangereuses. | C’est le contraire. · C’est le contraire. · Le maire dit le contraire. | Le vieux Ateba le dit à la fin. |
+| pourquoi le maire dit-il « Bravo » ? | parce que le quartier est propre grâce aux habitants | parce qu’il a gagné un match · parce que le marché est fermé · parce qu’il pleut | Ce n’est pas dans le texte. · Ce n’est pas dans le texte. · Ce n’est pas dans le texte. | « Un quartier propre, c’est un quartier en bonne santé ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « Le grand nettoyage » : pourquoi le maire dit-il « Bravo » ?
+
+- ◻️ parce que le marché est fermé  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il pleut  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il a gagné un match  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ parce que le quartier est propre grâce aux habitants
+
+Full working after a second miss:
+
+> « Un quartier propre, c’est un quartier en bonne santé ».  
+> Donc la réponse est « parce que le quartier est propre grâce aux habitants ».  
+
+> Texte « Le grand nettoyage » : pourquoi le maire dit-il « Bravo » ?
+
+- ◻️ parce que le marché est fermé  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il pleut  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il a gagné un match  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ parce que le quartier est propre grâce aux habitants
+
+Full working after a second miss:
+
+> « Un quartier propre, c’est un quartier en bonne santé ».  
+> Donc la réponse est « parce que le quartier est propre grâce aux habitants ».  
+
+> Texte « Le grand nettoyage » : quelle est la morale du texte ?
+
+- ◻️ Les ordures ne sont pas dangereuses.  
+  _↳ feedback if chosen: Le maire dit le contraire._
+- ✅ Quand chacun fait sa part, tout le monde y gagne.
+- ◻️ Il faut laisser le travail aux autres.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Le maire doit tout faire seul.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Le vieux Ateba le dit à la fin.  
+> Donc la réponse est « Quand chacun fait sa part, tout le monde y gagne. ».  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-59-ordre` · Lesson 59 · ordering, level 1
+
+Prompt: Remets le portrait dans l’ordre (du général au détail).
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Mon grand-père est un homme grand et maigre. | Son visage est ridé comme une vieille carte. | Ses yeux, petits et vifs, voient tout. | Il porte toujours un vieux chapeau de paille. | Il est sage et raconte de belles histoires. |
+| Ma voisine est une jeune femme élancée. | Son visage est rond et souriant. | Ses cheveux sont tressés en fines nattes. | Elle porte souvent une robe en pagne. | Elle est joyeuse et serviable. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets le portrait dans l’ordre (du général au détail).
+
+Shown as: Elle porte souvent une robe en pagne. · Ses cheveux sont tressés en fines nattes. · Ma voisine est une jeune femme élancée. · Elle est joyeuse et serviable. · Son visage est rond et souriant.
+Correct order: Ma voisine est une jeune femme élancée. → Son visage est rond et souriant. → Ses cheveux sont tressés en fines nattes. → Elle porte souvent une robe en pagne. → Elle est joyeuse et serviable.
+
+Full working after a second miss:
+
+> Le bon ordre est : Ma voisine est une jeune femme élancée. → Son visage est rond et souriant. → Ses cheveux sont tressés en fines nattes. → Elle porte souvent une robe en pagne. → Elle est joyeuse et serviable..  
+
+> Remets le portrait dans l’ordre (du général au détail).
+
+Shown as: Il porte toujours un vieux chapeau de paille. · Mon grand-père est un homme grand et maigre. · Ses yeux, petits et vifs, voient tout. · Il est sage et raconte de belles histoires. · Son visage est ridé comme une vieille carte.
+Correct order: Mon grand-père est un homme grand et maigre. → Son visage est ridé comme une vieille carte. → Ses yeux, petits et vifs, voient tout. → Il porte toujours un vieux chapeau de paille. → Il est sage et raconte de belles histoires.
+
+Full working after a second miss:
+
+> Le bon ordre est : Mon grand-père est un homme grand et maigre. → Son visage est ridé comme une vieille carte. → Ses yeux, petits et vifs, voient tout. → Il porte toujours un vieux chapeau de paille. → Il est sage et raconte de belles histoires..  
+
+> Remets le portrait dans l’ordre (du général au détail).
+
+Shown as: Ses cheveux sont tressés en fines nattes. · Son visage est rond et souriant. · Elle porte souvent une robe en pagne. · Ma voisine est une jeune femme élancée. · Elle est joyeuse et serviable.
+Correct order: Ma voisine est une jeune femme élancée. → Son visage est rond et souriant. → Ses cheveux sont tressés en fines nattes. → Elle porte souvent une robe en pagne. → Elle est joyeuse et serviable.
+
+Full working after a second miss:
+
+> Le bon ordre est : Ma voisine est une jeune femme élancée. → Son visage est rond et souriant. → Ses cheveux sont tressés en fines nattes. → Elle porte souvent une robe en pagne. → Elle est joyeuse et serviable..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-59-comp` · Lesson 59 · fill the blank, level 2
+
+Prompt: Choisis le mot qui complète la comparaison.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Ses dents sont blanches ___ du lait. | comme | mais · donc | « mais » oppose. · « donc » annonce une conséquence. |
+| Il est fort ___ un lion. | comme | car · ou | « car » donne une cause. · « ou » marque un choix. |
+| Ses yeux brillent ___ des étoiles. | comme | et · ni | « et » ajoute. · « ni » nie. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot qui complète la comparaison.
+
+Sentence: **Ses dents sont blanches ___ du lait.**
+- ◻️ mais  
+  _↳ feedback if chosen: « mais » oppose._
+- ✅ comme
+- ◻️ donc  
+  _↳ feedback if chosen: « donc » annonce une conséquence._
+
+Full working after a second miss:
+
+> Le mot qui manque est « comme ».  
+> Ses dents sont blanches comme du lait.  
+
+> Choisis le mot qui complète la comparaison.
+
+Sentence: **Il est fort ___ un lion.**
+- ◻️ ou  
+  _↳ feedback if chosen: « ou » marque un choix._
+- ◻️ car  
+  _↳ feedback if chosen: « car » donne une cause._
+- ✅ comme
+
+Full working after a second miss:
+
+> Le mot qui manque est « comme ».  
+> Il est fort comme un lion.  
+
+> Choisis le mot qui complète la comparaison.
+
+Sentence: **Ses yeux brillent ___ des étoiles.**
+- ✅ comme
+- ◻️ et  
+  _↳ feedback if chosen: « et » ajoute._
+- ◻️ ni  
+  _↳ feedback if chosen: « ni » nie._
+
+Full working after a second miss:
+
+> Le mot qui manque est « comme ».  
+> Ses yeux brillent comme des étoiles.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-59-spot` · Lesson 59 · spot the error, level 3
+
+Prompt: Quel conseil pour faire un portrait est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On décrit le physique et le moral.
+- ✅ On suit un ordre.
+- ✅ On emploie des adjectifs précis.
+- ✅ On peut utiliser des comparaisons.
+- ❌ On mélange tout sans ordre.  
+  _↳ On suit un ordre : du général au détail._
+- ❌ On n’utilise jamais d’adjectifs.  
+  _↳ Les adjectifs précis sont essentiels._
+- ❌ Le portrait moral décrit les vêtements.  
+  _↳ Il décrit le caractère._
+
+
+Three generated variants:
+
+> Quel conseil pour faire un portrait est faux ?
+
+- ◻️ On emploie des adjectifs précis.
+- ◻️ On suit un ordre.
+- ✅ On mélange tout sans ordre.  
+  _↳ explanation: On suit un ordre : du général au détail._
+- ◻️ On peut utiliser des comparaisons.
+
+Full working after a second miss:
+
+> La phrase fausse est « On mélange tout sans ordre. ».  
+> On suit un ordre : du général au détail.  
+
+> Quel conseil pour faire un portrait est faux ?
+
+- ◻️ On peut utiliser des comparaisons.
+- ✅ On n’utilise jamais d’adjectifs.  
+  _↳ explanation: Les adjectifs précis sont essentiels._
+- ◻️ On décrit le physique et le moral.
+- ◻️ On suit un ordre.
+
+Full working after a second miss:
+
+> La phrase fausse est « On n’utilise jamais d’adjectifs. ».  
+> Les adjectifs précis sont essentiels.  
+
+> Quel conseil pour faire un portrait est faux ?
+
+- ◻️ On décrit le physique et le moral.
+- ◻️ On emploie des adjectifs précis.
+- ◻️ On peut utiliser des comparaisons.
+- ✅ On mélange tout sans ordre.  
+  _↳ explanation: On suit un ordre : du général au détail._
+
+Full working after a second miss:
+
+> La phrase fausse est « On mélange tout sans ordre. ».  
+> On suit un ordre : du général au détail.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-59-comp-card` · Lesson 59 · fill the blank, level 1
+
+Prompt: Choisis le mot qui complète la comparaison.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Ses dents sont blanches ___ du lait. | comme | mais · donc | « mais » oppose. · « donc » annonce une conséquence. |
+| Il est fort ___ un lion. | comme | car · ou | « car » donne une cause. · « ou » marque un choix. |
+| Ses yeux brillent ___ des étoiles. | comme | et · ni | « et » ajoute. · « ni » nie. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot qui complète la comparaison.
+
+Sentence: **Ses yeux brillent ___ des étoiles.**
+- ✅ comme
+- ◻️ ni  
+  _↳ feedback if chosen: « ni » nie._
+- ◻️ et  
+  _↳ feedback if chosen: « et » ajoute._
+
+Full working after a second miss:
+
+> Le mot qui manque est « comme ».  
+> Ses yeux brillent comme des étoiles.  
+
+> Choisis le mot qui complète la comparaison.
+
+Sentence: **Ses dents sont blanches ___ du lait.**
+- ◻️ donc  
+  _↳ feedback if chosen: « donc » annonce une conséquence._
+- ◻️ mais  
+  _↳ feedback if chosen: « mais » oppose._
+- ✅ comme
+
+Full working after a second miss:
+
+> Le mot qui manque est « comme ».  
+> Ses dents sont blanches comme du lait.  
+
+> Choisis le mot qui complète la comparaison.
+
+Sentence: **Il est fort ___ un lion.**
+- ◻️ ou  
+  _↳ feedback if chosen: « ou » marque un choix._
+- ◻️ car  
+  _↳ feedback if chosen: « car » donne une cause._
+- ✅ comme
+
+Full working after a second miss:
+
+> Le mot qui manque est « comme ».  
+> Il est fort comme un lion.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-60-genre` · Lesson 60 · multiple choice, level 1
+
+Prompt: Conte « La calebasse de Ngono » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| par quelle formule commence le conte ? | Il était une fois | Cher ami · Mesdames et messieurs · Au revoir | C’est le début d’une lettre. · C’est le début d’un discours. · C’est une formule de fin. | C’est la formule du conte. |
+| quel élément est merveilleux ? | la calebasse qui se remplit d’eau | la sécheresse · la vieille femme · les puits vides | La sécheresse est réelle. · Elle est ordinaire. · C’est réaliste. | Un objet magique. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Conte « La calebasse de Ngono » : par quelle formule commence le conte ?
+
+- ◻️ Cher ami  
+  _↳ feedback if chosen: C’est le début d’une lettre._
+- ✅ Il était une fois
+- ◻️ Au revoir  
+  _↳ feedback if chosen: C’est une formule de fin._
+- ◻️ Mesdames et messieurs  
+  _↳ feedback if chosen: C’est le début d’un discours._
+
+Full working after a second miss:
+
+> C’est la formule du conte.  
+> Donc la réponse est « Il était une fois ».  
+
+> Conte « La calebasse de Ngono » : par quelle formule commence le conte ?
+
+- ◻️ Mesdames et messieurs  
+  _↳ feedback if chosen: C’est le début d’un discours._
+- ◻️ Au revoir  
+  _↳ feedback if chosen: C’est une formule de fin._
+- ✅ Il était une fois
+- ◻️ Cher ami  
+  _↳ feedback if chosen: C’est le début d’une lettre._
+
+Full working after a second miss:
+
+> C’est la formule du conte.  
+> Donc la réponse est « Il était une fois ».  
+
+> Conte « La calebasse de Ngono » : quel élément est merveilleux ?
+
+- ✅ la calebasse qui se remplit d’eau
+- ◻️ les puits vides  
+  _↳ feedback if chosen: C’est réaliste._
+- ◻️ la sécheresse  
+  _↳ feedback if chosen: La sécheresse est réelle._
+- ◻️ la vieille femme  
+  _↳ feedback if chosen: Elle est ordinaire._
+
+Full working after a second miss:
+
+> Un objet magique.  
+> Donc la réponse est « la calebasse qui se remplit d’eau ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-60-etapes` · Lesson 60 · ordering, level 1
+
+Prompt: Remets les étapes du conte dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Ngono reçoit une calebasse magique. | La sécheresse frappe le village. | Ngono donne à boire à une vieille femme. | Elle va de case en case. | Tout le village a bu. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets les étapes du conte dans l’ordre.
+
+Shown as: Ngono donne à boire à une vieille femme. · Elle va de case en case. · La sécheresse frappe le village. · Tout le village a bu. · Ngono reçoit une calebasse magique.
+Correct order: Ngono reçoit une calebasse magique. → La sécheresse frappe le village. → Ngono donne à boire à une vieille femme. → Elle va de case en case. → Tout le village a bu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Ngono reçoit une calebasse magique. → La sécheresse frappe le village. → Ngono donne à boire à une vieille femme. → Elle va de case en case. → Tout le village a bu..  
+
+> Remets les étapes du conte dans l’ordre.
+
+Shown as: Ngono donne à boire à une vieille femme. · Tout le village a bu. · La sécheresse frappe le village. · Ngono reçoit une calebasse magique. · Elle va de case en case.
+Correct order: Ngono reçoit une calebasse magique. → La sécheresse frappe le village. → Ngono donne à boire à une vieille femme. → Elle va de case en case. → Tout le village a bu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Ngono reçoit une calebasse magique. → La sécheresse frappe le village. → Ngono donne à boire à une vieille femme. → Elle va de case en case. → Tout le village a bu..  
+
+> Remets les étapes du conte dans l’ordre.
+
+Shown as: La sécheresse frappe le village. · Tout le village a bu. · Elle va de case en case. · Ngono reçoit une calebasse magique. · Ngono donne à boire à une vieille femme.
+Correct order: Ngono reçoit une calebasse magique. → La sécheresse frappe le village. → Ngono donne à boire à une vieille femme. → Elle va de case en case. → Tout le village a bu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Ngono reçoit une calebasse magique. → La sécheresse frappe le village. → Ngono donne à boire à une vieille femme. → Elle va de case en case. → Tout le village a bu..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-60-morale` · Lesson 60 · multiple choice, level 2
+
+Prompt: Conte « La calebasse de Ngono » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est la morale du conte ? | L’eau partagée ne tarit jamais. | Il faut garder l’eau pour soi. · Les vieilles femmes sont dangereuses. · Les calebasses se cassent vite. | C’est le contraire. · Ce n’est pas dit. · Ce n’est pas la leçon. | Partager fait grandir le bien. |
+| que se passe-t-il quand Ngono donne de l’eau ? | la calebasse se remplit encore plus | la calebasse se vide · la calebasse se casse · il commence à neiger | C’est le contraire. · Ce n’est pas dit. · Ce n’est pas dit. | « Plus elle donnait, plus la calebasse se remplissait ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Conte « La calebasse de Ngono » : que se passe-t-il quand Ngono donne de l’eau ?
+
+- ◻️ la calebasse se vide  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ la calebasse se remplit encore plus
+- ◻️ la calebasse se casse  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ il commence à neiger  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> « Plus elle donnait, plus la calebasse se remplissait ».  
+> Donc la réponse est « la calebasse se remplit encore plus ».  
+
+> Conte « La calebasse de Ngono » : quelle est la morale du conte ?
+
+- ◻️ Les calebasses se cassent vite.  
+  _↳ feedback if chosen: Ce n’est pas la leçon._
+- ◻️ Les vieilles femmes sont dangereuses.  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ Il faut garder l’eau pour soi.  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ L’eau partagée ne tarit jamais.
+
+Full working after a second miss:
+
+> Partager fait grandir le bien.  
+> Donc la réponse est « L’eau partagée ne tarit jamais. ».  
+
+> Conte « La calebasse de Ngono » : que se passe-t-il quand Ngono donne de l’eau ?
+
+- ◻️ la calebasse se vide  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ la calebasse se remplit encore plus
+- ◻️ il commence à neiger  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ la calebasse se casse  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> « Plus elle donnait, plus la calebasse se remplissait ».  
+> Donc la réponse est « la calebasse se remplit encore plus ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-60-spot` · Lesson 60 · spot the error, level 3
+
+Prompt: Quelle phrase ne correspond pas au conte ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ La grand-mère donne la calebasse.
+- ✅ La sécheresse vide les puits.
+- ✅ Ngono partage l’eau.
+- ✅ Le village a bu.
+- ❌ Ngono garde l’eau pour elle seule.  
+  _↳ Elle la partage avec tout le village._
+- ❌ La calebasse se vide quand on partage.  
+  _↳ Elle se remplit quand on partage._
+- ❌ Le conte se passe dans une grande ville moderne.  
+  _↳ Il se passe dans un village de la forêt._
+
+
+Three generated variants:
+
+> Quelle phrase ne correspond pas au conte ?
+
+- ◻️ La sécheresse vide les puits.
+- ✅ La calebasse se vide quand on partage.  
+  _↳ explanation: Elle se remplit quand on partage._
+- ◻️ Le village a bu.
+- ◻️ Ngono partage l’eau.
+
+Full working after a second miss:
+
+> La phrase fausse est « La calebasse se vide quand on partage. ».  
+> Elle se remplit quand on partage.  
+
+> Quelle phrase ne correspond pas au conte ?
+
+- ✅ Ngono garde l’eau pour elle seule.  
+  _↳ explanation: Elle la partage avec tout le village._
+- ◻️ Le village a bu.
+- ◻️ La grand-mère donne la calebasse.
+- ◻️ Ngono partage l’eau.
+
+Full working after a second miss:
+
+> La phrase fausse est « Ngono garde l’eau pour elle seule. ».  
+> Elle la partage avec tout le village.  
+
+> Quelle phrase ne correspond pas au conte ?
+
+- ✅ La calebasse se vide quand on partage.  
+  _↳ explanation: Elle se remplit quand on partage._
+- ◻️ La grand-mère donne la calebasse.
+- ◻️ Le village a bu.
+- ◻️ La sécheresse vide les puits.
+
+Full working after a second miss:
+
+> La phrase fausse est « La calebasse se vide quand on partage. ».  
+> Elle se remplit quand on partage.  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-60-morale-card` · Lesson 60 · multiple choice, level 1
+
+Prompt: Conte « La calebasse de Ngono » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est la morale du conte ? | L’eau partagée ne tarit jamais. | Il faut garder l’eau pour soi. · Les vieilles femmes sont dangereuses. · Les calebasses se cassent vite. | C’est le contraire. · Ce n’est pas dit. · Ce n’est pas la leçon. | Partager fait grandir le bien. |
+| que se passe-t-il quand Ngono donne de l’eau ? | la calebasse se remplit encore plus | la calebasse se vide · la calebasse se casse · il commence à neiger | C’est le contraire. · Ce n’est pas dit. · Ce n’est pas dit. | « Plus elle donnait, plus la calebasse se remplissait ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Conte « La calebasse de Ngono » : que se passe-t-il quand Ngono donne de l’eau ?
+
+- ◻️ la calebasse se casse  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ il commence à neiger  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ la calebasse se vide  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ la calebasse se remplit encore plus
+
+Full working after a second miss:
+
+> « Plus elle donnait, plus la calebasse se remplissait ».  
+> Donc la réponse est « la calebasse se remplit encore plus ».  
+
+> Conte « La calebasse de Ngono » : que se passe-t-il quand Ngono donne de l’eau ?
+
+- ◻️ il commence à neiger  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ✅ la calebasse se remplit encore plus
+- ◻️ la calebasse se vide  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ la calebasse se casse  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> « Plus elle donnait, plus la calebasse se remplissait ».  
+> Donc la réponse est « la calebasse se remplit encore plus ».  
+
+> Conte « La calebasse de Ngono » : que se passe-t-il quand Ngono donne de l’eau ?
+
+- ◻️ la calebasse se casse  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ il commence à neiger  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ✅ la calebasse se remplit encore plus
+- ◻️ la calebasse se vide  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> « Plus elle donnait, plus la calebasse se remplissait ».  
+> Donc la réponse est « la calebasse se remplit encore plus ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-61-quoi` · Lesson 61 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans « Quelqu’un a laissé son sac », quel mot est un pronom indéfini ? | Quelqu’un | a · son · sac | C’est un verbe. · C’est un déterminant. · C’est un nom. | Il désigne une personne de façon vague. |
+| Dans « Tous sont arrivés à l’heure », quel mot est un pronom indéfini ? | Tous | sont · arrivés · heure | C’est un verbe. · C’est un participe. · C’est un nom. | « Tous » remplace un nom. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans « Tous sont arrivés à l’heure », quel mot est un pronom indéfini ?
+
+- ✅ Tous
+- ◻️ heure  
+  _↳ feedback if chosen: C’est un nom._
+- ◻️ arrivés  
+  _↳ feedback if chosen: C’est un participe._
+- ◻️ sont  
+  _↳ feedback if chosen: C’est un verbe._
+
+Full working after a second miss:
+
+> « Tous » remplace un nom.  
+> Donc la réponse est « Tous ».  
+
+> Dans « Quelqu’un a laissé son sac », quel mot est un pronom indéfini ?
+
+- ◻️ a  
+  _↳ feedback if chosen: C’est un verbe._
+- ◻️ sac  
+  _↳ feedback if chosen: C’est un nom._
+- ◻️ son  
+  _↳ feedback if chosen: C’est un déterminant._
+- ✅ Quelqu’un
+
+Full working after a second miss:
+
+> Il désigne une personne de façon vague.  
+> Donc la réponse est « Quelqu’un ».  
+
+> Dans « Tous sont arrivés à l’heure », quel mot est un pronom indéfini ?
+
+- ◻️ arrivés  
+  _↳ feedback if chosen: C’est un participe._
+- ◻️ heure  
+  _↳ feedback if chosen: C’est un nom._
+- ✅ Tous
+- ◻️ sont  
+  _↳ feedback if chosen: C’est un verbe._
+
+Full working after a second miss:
+
+> « Tous » remplace un nom.  
+> Donc la réponse est « Tous ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-61-neg` · Lesson 61 · fill the blank, level 1
+
+Prompt: Choisis le pronom indéfini qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| J’ai frappé, mais ___ n’a répondu. | personne | quelqu’un · tous | Avec « ne », on emploie « personne ». · Le verbe est au singulier avec « ne ». |
+| Il fait noir : je ne vois ___. | rien | tout · chacun | Avec « ne », on emploie « rien ». · « chacun » désigne une personne. |
+| ___ a reçu un cadeau à la fête. | Chacun | Chaque · Rien | « Chaque » doit être suivi d’un nom. · « Rien » désigne une chose. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le pronom indéfini qui convient.
+
+Sentence: **___ a reçu un cadeau à la fête.**
+- ✅ Chacun
+- ◻️ Chaque  
+  _↳ feedback if chosen: « Chaque » doit être suivi d’un nom._
+- ◻️ Rien  
+  _↳ feedback if chosen: « Rien » désigne une chose._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Chacun ».  
+> Chacun a reçu un cadeau à la fête.  
+
+> Choisis le pronom indéfini qui convient.
+
+Sentence: **Il fait noir : je ne vois ___.**
+- ◻️ tout  
+  _↳ feedback if chosen: Avec « ne », on emploie « rien »._
+- ◻️ chacun  
+  _↳ feedback if chosen: « chacun » désigne une personne._
+- ✅ rien
+
+Full working after a second miss:
+
+> Le mot qui manque est « rien ».  
+> Il fait noir : je ne vois rien.  
+
+> Choisis le pronom indéfini qui convient.
+
+Sentence: **Il fait noir : je ne vois ___.**
+- ✅ rien
+- ◻️ chacun  
+  _↳ feedback if chosen: « chacun » désigne une personne._
+- ◻️ tout  
+  _↳ feedback if chosen: Avec « ne », on emploie « rien »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « rien ».  
+> Il fait noir : je ne vois rien.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-61-diff` · Lesson 61 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quelle phrase « plusieurs » est-il un pronom ? | Plusieurs sont partis tôt. | Plusieurs élèves sont partis. · J’ai lu plusieurs livres. · Plusieurs femmes chantent. | Il est suivi d’un nom : adjectif. · Il est suivi d’un nom : adjectif. · Il est suivi d’un nom : adjectif. | Il est seul : pronom. |
+| Quelle phrase est correcte ? | Chacun doit respecter la loi. | Chacun doivent respecter la loi. · Chaque doit respecter la loi. · Chacuns doivent respecter la loi. | « Chacun » demande le singulier. · « Chaque » doit être suivi d’un nom. · « chacun » ne prend pas de -s. | chacun + verbe au singulier. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans quelle phrase « plusieurs » est-il un pronom ?
+
+- ◻️ Plusieurs élèves sont partis.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ◻️ Plusieurs femmes chantent.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ◻️ J’ai lu plusieurs livres.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ✅ Plusieurs sont partis tôt.
+
+Full working after a second miss:
+
+> Il est seul : pronom.  
+> Donc la réponse est « Plusieurs sont partis tôt. ».  
+
+> Quelle phrase est correcte ?
+
+- ◻️ Chacuns doivent respecter la loi.  
+  _↳ feedback if chosen: « chacun » ne prend pas de -s._
+- ◻️ Chacun doivent respecter la loi.  
+  _↳ feedback if chosen: « Chacun » demande le singulier._
+- ✅ Chacun doit respecter la loi.
+- ◻️ Chaque doit respecter la loi.  
+  _↳ feedback if chosen: « Chaque » doit être suivi d’un nom._
+
+Full working after a second miss:
+
+> chacun + verbe au singulier.  
+> Donc la réponse est « Chacun doit respecter la loi. ».  
+
+> Quelle phrase est correcte ?
+
+- ◻️ Chacun doivent respecter la loi.  
+  _↳ feedback if chosen: « Chacun » demande le singulier._
+- ✅ Chacun doit respecter la loi.
+- ◻️ Chacuns doivent respecter la loi.  
+  _↳ feedback if chosen: « chacun » ne prend pas de -s._
+- ◻️ Chaque doit respecter la loi.  
+  _↳ feedback if chosen: « Chaque » doit être suivi d’un nom._
+
+Full working after a second miss:
+
+> chacun + verbe au singulier.  
+> Donc la réponse est « Chacun doit respecter la loi. ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-61-spot` · Lesson 61 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Personne n’est absent.
+- ✅ Quelqu’un chante dehors.
+- ✅ Chacun a son livre.
+- ✅ Je ne sais rien.
+- ❌ Personne ne sont venus.  
+  _↳ « personne » demande le singulier : personne n’est venu._
+- ❌ Chaque a fini son travail.  
+  _↳ « Chaque » doit être suivi d’un nom ; on dit « chacun »._
+- ❌ Je vois rien.  
+  _↳ Il faut « ne » : je ne vois rien._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ✅ Chaque a fini son travail.  
+  _↳ explanation: « Chaque » doit être suivi d’un nom ; on dit « chacun »._
+- ◻️ Chacun a son livre.
+- ◻️ Personne n’est absent.
+- ◻️ Je ne sais rien.
+
+Full working after a second miss:
+
+> La phrase fausse est « Chaque a fini son travail. ».  
+> « Chaque » doit être suivi d’un nom ; on dit « chacun ».  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Chacun a son livre.
+- ◻️ Je ne sais rien.
+- ◻️ Quelqu’un chante dehors.
+- ✅ Chaque a fini son travail.  
+  _↳ explanation: « Chaque » doit être suivi d’un nom ; on dit « chacun »._
+
+Full working after a second miss:
+
+> La phrase fausse est « Chaque a fini son travail. ».  
+> « Chaque » doit être suivi d’un nom ; on dit « chacun ».  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Je vois rien.  
+  _↳ explanation: Il faut « ne » : je ne vois rien._
+- ◻️ Je ne sais rien.
+- ◻️ Quelqu’un chante dehors.
+- ◻️ Chacun a son livre.
+
+Full working after a second miss:
+
+> La phrase fausse est « Je vois rien. ».  
+> Il faut « ne » : je ne vois rien.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-61-diff-card` · Lesson 61 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quelle phrase « plusieurs » est-il un pronom ? | Plusieurs sont partis tôt. | Plusieurs élèves sont partis. · J’ai lu plusieurs livres. · Plusieurs femmes chantent. | Il est suivi d’un nom : adjectif. · Il est suivi d’un nom : adjectif. · Il est suivi d’un nom : adjectif. | Il est seul : pronom. |
+| Quelle phrase est correcte ? | Chacun doit respecter la loi. | Chacun doivent respecter la loi. · Chaque doit respecter la loi. · Chacuns doivent respecter la loi. | « Chacun » demande le singulier. · « Chaque » doit être suivi d’un nom. · « chacun » ne prend pas de -s. | chacun + verbe au singulier. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans quelle phrase « plusieurs » est-il un pronom ?
+
+- ◻️ Plusieurs femmes chantent.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ◻️ J’ai lu plusieurs livres.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ◻️ Plusieurs élèves sont partis.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ✅ Plusieurs sont partis tôt.
+
+Full working after a second miss:
+
+> Il est seul : pronom.  
+> Donc la réponse est « Plusieurs sont partis tôt. ».  
+
+> Dans quelle phrase « plusieurs » est-il un pronom ?
+
+- ◻️ Plusieurs élèves sont partis.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ◻️ J’ai lu plusieurs livres.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ◻️ Plusieurs femmes chantent.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ✅ Plusieurs sont partis tôt.
+
+Full working after a second miss:
+
+> Il est seul : pronom.  
+> Donc la réponse est « Plusieurs sont partis tôt. ».  
+
+> Dans quelle phrase « plusieurs » est-il un pronom ?
+
+- ◻️ J’ai lu plusieurs livres.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ◻️ Plusieurs femmes chantent.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+- ✅ Plusieurs sont partis tôt.
+- ◻️ Plusieurs élèves sont partis.  
+  _↳ feedback if chosen: Il est suivi d’un nom : adjectif._
+
+Full working after a second miss:
+
+> Il est seul : pronom.  
+> Donc la réponse est « Plusieurs sont partis tôt. ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-62-emploi` · Lesson 62 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quel texte trouve-t-on surtout le passé simple ? | un récit écrit, comme un conte | une conversation au téléphone · une recette · une liste de courses | À l’oral, on emploie le passé composé. · On emploie l’impératif ou l’infinitif. · Il n’y a pas de récit. | C’est le temps du récit écrit. |
+| Quelle phrase est au passé simple ? | Le roi parla à son peuple. | Le roi parle à son peuple. · Le roi parlait à son peuple. · Le roi a parlé à son peuple. | C’est le présent. · C’est l’imparfait. · C’est le passé composé. | « parla ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans quel texte trouve-t-on surtout le passé simple ?
+
+- ◻️ une liste de courses  
+  _↳ feedback if chosen: Il n’y a pas de récit._
+- ✅ un récit écrit, comme un conte
+- ◻️ une conversation au téléphone  
+  _↳ feedback if chosen: À l’oral, on emploie le passé composé._
+- ◻️ une recette  
+  _↳ feedback if chosen: On emploie l’impératif ou l’infinitif._
+
+Full working after a second miss:
+
+> C’est le temps du récit écrit.  
+> Donc la réponse est « un récit écrit, comme un conte ».  
+
+> Dans quel texte trouve-t-on surtout le passé simple ?
+
+- ◻️ une liste de courses  
+  _↳ feedback if chosen: Il n’y a pas de récit._
+- ◻️ une recette  
+  _↳ feedback if chosen: On emploie l’impératif ou l’infinitif._
+- ◻️ une conversation au téléphone  
+  _↳ feedback if chosen: À l’oral, on emploie le passé composé._
+- ✅ un récit écrit, comme un conte
+
+Full working after a second miss:
+
+> C’est le temps du récit écrit.  
+> Donc la réponse est « un récit écrit, comme un conte ».  
+
+> Quelle phrase est au passé simple ?
+
+- ◻️ Le roi parlait à son peuple.  
+  _↳ feedback if chosen: C’est l’imparfait._
+- ◻️ Le roi a parlé à son peuple.  
+  _↳ feedback if chosen: C’est le passé composé._
+- ✅ Le roi parla à son peuple.
+- ◻️ Le roi parle à son peuple.  
+  _↳ feedback if chosen: C’est le présent._
+
+Full working after a second miss:
+
+> « parla ».  
+> Donc la réponse est « Le roi parla à son peuple. ».  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-62-imp` · Lesson 62 · fill the blank, level 1
+
+Prompt: Choisis le temps qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Il ___ nuit quand le voleur entra. | faisait | fit · fera | Le décor se met à l’imparfait. · C’est le futur. |
+| Le ciel était gris ; soudain, l’orage ___. | éclata | éclatait · éclatera | Une action soudaine se met au passé simple. · C’est le futur. |
+| Les enfants jouaient quand leur mère les ___. | appela | appelait · appellera | L’action qui survient se met au passé simple. · C’est le futur. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le temps qui convient.
+
+Sentence: **Il ___ nuit quand le voleur entra.**
+- ◻️ fera  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ fit  
+  _↳ feedback if chosen: Le décor se met à l’imparfait._
+- ✅ faisait
+
+Full working after a second miss:
+
+> Le mot qui manque est « faisait ».  
+> Il faisait nuit quand le voleur entra.  
+
+> Choisis le temps qui convient.
+
+Sentence: **Le ciel était gris ; soudain, l’orage ___.**
+- ✅ éclata
+- ◻️ éclatait  
+  _↳ feedback if chosen: Une action soudaine se met au passé simple._
+- ◻️ éclatera  
+  _↳ feedback if chosen: C’est le futur._
+
+Full working after a second miss:
+
+> Le mot qui manque est « éclata ».  
+> Le ciel était gris ; soudain, l’orage éclata.  
+
+> Choisis le temps qui convient.
+
+Sentence: **Il ___ nuit quand le voleur entra.**
+- ✅ faisait
+- ◻️ fit  
+  _↳ feedback if chosen: Le décor se met à l’imparfait._
+- ◻️ fera  
+  _↳ feedback if chosen: C’est le futur._
+
+Full working after a second miss:
+
+> Le mot qui manque est « faisait ».  
+> Il faisait nuit quand le voleur entra.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-62-spot` · Lesson 62 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Il fut très content.
+- ✅ Ils vinrent à la fête.
+- ✅ Elle prit son sac.
+- ✅ Nous chantâmes ensemble.
+- ❌ Ils chantirent toute la nuit.  
+  _↳ 1er groupe : ils chantèrent._
+- ❌ Il finissa son travail.  
+  _↳ 2e groupe : il finit._
+- ❌ Elle venit à midi.  
+  _↳ « venir » : elle vint._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Il fut très content.
+- ◻️ Nous chantâmes ensemble.
+- ✅ Elle venit à midi.  
+  _↳ explanation: « venir » : elle vint._
+- ◻️ Elle prit son sac.
+
+Full working after a second miss:
+
+> La phrase fausse est « Elle venit à midi. ».  
+> « venir » : elle vint.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Nous chantâmes ensemble.
+- ◻️ Ils vinrent à la fête.
+- ✅ Ils chantirent toute la nuit.  
+  _↳ explanation: 1er groupe : ils chantèrent._
+- ◻️ Il fut très content.
+
+Full working after a second miss:
+
+> La phrase fausse est « Ils chantirent toute la nuit. ».  
+> 1er groupe : ils chantèrent.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Il finissa son travail.  
+  _↳ explanation: 2e groupe : il finit._
+- ◻️ Elle prit son sac.
+- ◻️ Nous chantâmes ensemble.
+- ◻️ Ils vinrent à la fête.
+
+Full working after a second miss:
+
+> La phrase fausse est « Il finissa son travail. ».  
+> 2e groupe : il finit.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-63-z` · Lesson 63 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quel mot le s se prononce-t-il [z] ? | maison | poisson · classe · soleil | ss se prononce [s]. · ss se prononce [s]. · s au début se prononce [s]. | s entre deux voyelles. |
+| Dans quel mot le s se prononce-t-il [z] ? | organisation | assister · sac · espoir | ss se prononce [s]. · s au début se prononce [s]. · s devant une consonne se prononce [s]. | s entre i et a. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans quel mot le s se prononce-t-il [z] ?
+
+- ✅ maison
+- ◻️ classe  
+  _↳ feedback if chosen: ss se prononce [s]._
+- ◻️ poisson  
+  _↳ feedback if chosen: ss se prononce [s]._
+- ◻️ soleil  
+  _↳ feedback if chosen: s au début se prononce [s]._
+
+Full working after a second miss:
+
+> s entre deux voyelles.  
+> Donc la réponse est « maison ».  
+
+> Dans quel mot le s se prononce-t-il [z] ?
+
+- ◻️ poisson  
+  _↳ feedback if chosen: ss se prononce [s]._
+- ◻️ classe  
+  _↳ feedback if chosen: ss se prononce [s]._
+- ✅ maison
+- ◻️ soleil  
+  _↳ feedback if chosen: s au début se prononce [s]._
+
+Full working after a second miss:
+
+> s entre deux voyelles.  
+> Donc la réponse est « maison ».  
+
+> Dans quel mot le s se prononce-t-il [z] ?
+
+- ◻️ espoir  
+  _↳ feedback if chosen: s devant une consonne se prononce [s]._
+- ✅ organisation
+- ◻️ sac  
+  _↳ feedback if chosen: s au début se prononce [s]._
+- ◻️ assister  
+  _↳ feedback if chosen: ss se prononce [s]._
+
+Full working after a second miss:
+
+> s entre i et a.  
+> Donc la réponse est « organisation ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-63-ss` · Lesson 63 · fill the blank, level 2
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Le pêcheur a attrapé un gros ___. | poisson | poison · poiçon | « poison » se lit [z] : c’est une substance toxique. · On écrit ss. |
+| Après le repas, nous prenons un ___. | dessert | désert · deserrt | « désert » est un lieu sec. · Ce mot n’existe pas. |
+| La ___ est pleine d’élèves. | classe | clase · claze | Avec un seul s, on lirait [z]. · On écrit ss. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **La ___ est pleine d’élèves.**
+- ✅ classe
+- ◻️ clase  
+  _↳ feedback if chosen: Avec un seul s, on lirait [z]._
+- ◻️ claze  
+  _↳ feedback if chosen: On écrit ss._
+
+Full working after a second miss:
+
+> Le mot qui manque est « classe ».  
+> La classe est pleine d’élèves.  
+
+> Choisis la bonne écriture.
+
+Sentence: **La ___ est pleine d’élèves.**
+- ✅ classe
+- ◻️ clase  
+  _↳ feedback if chosen: Avec un seul s, on lirait [z]._
+- ◻️ claze  
+  _↳ feedback if chosen: On écrit ss._
+
+Full working after a second miss:
+
+> Le mot qui manque est « classe ».  
+> La classe est pleine d’élèves.  
+
+> Choisis la bonne écriture.
+
+Sentence: **La ___ est pleine d’élèves.**
+- ◻️ clase  
+  _↳ feedback if chosen: Avec un seul s, on lirait [z]._
+- ◻️ claze  
+  _↳ feedback if chosen: On écrit ss._
+- ✅ classe
+
+Full working after a second miss:
+
+> Le mot qui manque est « classe ».  
+> La classe est pleine d’élèves.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-63-choix` · Lesson 63 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Ma mère prépare le repas dans la ___. | cuisine | cuissine · cuizine | Avec ss, on lirait [s]. · On écrit s entre deux voyelles. |
+| Le ___ a des rayures noires et blanches. | zèbre | sèbre · zebbre | Au début, s se lit [s]. · Un seul b. |
+| Il porte une belle ___ blanche. | chemise | chemisse · chemize | Avec ss, on lirait [s]. · On écrit s. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Le ___ a des rayures noires et blanches.**
+- ◻️ zebbre  
+  _↳ feedback if chosen: Un seul b._
+- ◻️ sèbre  
+  _↳ feedback if chosen: Au début, s se lit [s]._
+- ✅ zèbre
+
+Full working after a second miss:
+
+> Le mot qui manque est « zèbre ».  
+> Le zèbre a des rayures noires et blanches.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Ma mère prépare le repas dans la ___.**
+- ✅ cuisine
+- ◻️ cuissine  
+  _↳ feedback if chosen: Avec ss, on lirait [s]._
+- ◻️ cuizine  
+  _↳ feedback if chosen: On écrit s entre deux voyelles._
+
+Full working after a second miss:
+
+> Le mot qui manque est « cuisine ».  
+> Ma mère prépare le repas dans la cuisine.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Ma mère prépare le repas dans la ___.**
+- ◻️ cuissine  
+  _↳ feedback if chosen: Avec ss, on lirait [s]._
+- ◻️ cuizine  
+  _↳ feedback if chosen: On écrit s entre deux voyelles._
+- ✅ cuisine
+
+Full working after a second miss:
+
+> Le mot qui manque est « cuisine ».  
+> Ma mère prépare le repas dans la cuisine.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-63-spot` · Lesson 63 · spot the error, level 3
+
+Prompt: Quel mot est mal écrit ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ une maison
+- ✅ un poisson
+- ✅ la classe
+- ✅ une rose
+- ❌ la cuissine  
+  _↳ On écrit « cuisine » : un seul s pour le son [z]._
+- ❌ un poison (pour parler du poisson du marché)  
+  _↳ Le poisson qu’on mange s’écrit avec ss._
+- ❌ une chemisse  
+  _↳ On écrit « chemise » : un seul s._
+
+
+Three generated variants:
+
+> Quel mot est mal écrit ?
+
+- ◻️ une maison
+- ◻️ la classe
+- ✅ la cuissine  
+  _↳ explanation: On écrit « cuisine » : un seul s pour le son [z]._
+- ◻️ un poisson
+
+Full working after a second miss:
+
+> La phrase fausse est « la cuissine ».  
+> On écrit « cuisine » : un seul s pour le son [z].  
+
+> Quel mot est mal écrit ?
+
+- ◻️ une maison
+- ◻️ une rose
+- ✅ un poison (pour parler du poisson du marché)  
+  _↳ explanation: Le poisson qu’on mange s’écrit avec ss._
+- ◻️ la classe
+
+Full working after a second miss:
+
+> La phrase fausse est « un poison (pour parler du poisson du marché) ».  
+> Le poisson qu’on mange s’écrit avec ss.  
+
+> Quel mot est mal écrit ?
+
+- ✅ un poison (pour parler du poisson du marché)  
+  _↳ explanation: Le poisson qu’on mange s’écrit avec ss._
+- ◻️ la classe
+- ◻️ une rose
+- ◻️ une maison
+
+Full working after a second miss:
+
+> La phrase fausse est « un poison (pour parler du poisson du marché) ».  
+> Le poisson qu’on mange s’écrit avec ss.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-63-ss-card` · Lesson 63 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Le pêcheur a attrapé un gros ___. | poisson | poison · poiçon | « poison » se lit [z] : c’est une substance toxique. · On écrit ss. |
+| Après le repas, nous prenons un ___. | dessert | désert · deserrt | « désert » est un lieu sec. · Ce mot n’existe pas. |
+| La ___ est pleine d’élèves. | classe | clase · claze | Avec un seul s, on lirait [z]. · On écrit ss. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Après le repas, nous prenons un ___.**
+- ◻️ désert  
+  _↳ feedback if chosen: « désert » est un lieu sec._
+- ✅ dessert
+- ◻️ deserrt  
+  _↳ feedback if chosen: Ce mot n’existe pas._
+
+Full working after a second miss:
+
+> Le mot qui manque est « dessert ».  
+> Après le repas, nous prenons un dessert.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Le pêcheur a attrapé un gros ___.**
+- ◻️ poison  
+  _↳ feedback if chosen: « poison » se lit [z] : c’est une substance toxique._
+- ✅ poisson
+- ◻️ poiçon  
+  _↳ feedback if chosen: On écrit ss._
+
+Full working after a second miss:
+
+> Le mot qui manque est « poisson ».  
+> Le pêcheur a attrapé un gros poisson.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Après le repas, nous prenons un ___.**
+- ✅ dessert
+- ◻️ deserrt  
+  _↳ feedback if chosen: Ce mot n’existe pas._
+- ◻️ désert  
+  _↳ feedback if chosen: « désert » est un lieu sec._
+
+Full working after a second miss:
+
+> Le mot qui manque est « dessert ».  
+> Après le repas, nous prenons un dessert.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-64-culture` · Lesson 64 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce que la culture d’un peuple ? | l’ensemble de ses façons de vivre : langue, croyances, fêtes, cuisine | seulement ses champs · seulement son argent · seulement son climat | C’est plus large. · C’est plus large. · Le climat n’est pas la culture. | La culture est la façon de vivre. |
+| Quelle fête est une fête traditionnelle du Cameroun ? | le Ngondo | le carnaval de Rio · le Nouvel An chinois · Halloween | C’est au Brésil. · C’est en Chine. · C’est surtout aux États-Unis. | Le Ngondo est la fête des Sawa. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle fête est une fête traditionnelle du Cameroun ?
+
+- ◻️ le Nouvel An chinois  
+  _↳ feedback if chosen: C’est en Chine._
+- ◻️ Halloween  
+  _↳ feedback if chosen: C’est surtout aux États-Unis._
+- ◻️ le carnaval de Rio  
+  _↳ feedback if chosen: C’est au Brésil._
+- ✅ le Ngondo
+
+Full working after a second miss:
+
+> Le Ngondo est la fête des Sawa.  
+> Donc la réponse est « le Ngondo ».  
+
+> Qu’est-ce que la culture d’un peuple ?
+
+- ◻️ seulement son climat  
+  _↳ feedback if chosen: Le climat n’est pas la culture._
+- ◻️ seulement ses champs  
+  _↳ feedback if chosen: C’est plus large._
+- ✅ l’ensemble de ses façons de vivre : langue, croyances, fêtes, cuisine
+- ◻️ seulement son argent  
+  _↳ feedback if chosen: C’est plus large._
+
+Full working after a second miss:
+
+> La culture est la façon de vivre.  
+> Donc la réponse est « l’ensemble de ses façons de vivre : langue, croyances, fêtes, cuisine ».  
+
+> Quelle fête est une fête traditionnelle du Cameroun ?
+
+- ◻️ le Nouvel An chinois  
+  _↳ feedback if chosen: C’est en Chine._
+- ✅ le Ngondo
+- ◻️ le carnaval de Rio  
+  _↳ feedback if chosen: C’est au Brésil._
+- ◻️ Halloween  
+  _↳ feedback if chosen: C’est surtout aux États-Unis._
+
+Full working after a second miss:
+
+> Le Ngondo est la fête des Sawa.  
+> Donc la réponse est « le Ngondo ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-64-tol` · Lesson 64 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Que veut dire « la tolérance » ? | le respect des différences | le rejet des étrangers · la peur des autres · l’oubli de sa culture | C’est le contraire. · C’est le contraire. · Ce n’est pas le sens. | Accepter les autres. |
+| Quelle attitude montre la tolérance ? | goûter avec respect un plat étranger | se moquer de l’accent d’un camarade · refuser de parler à un étranger · insulter une autre religion | C’est de l’intolérance. · C’est du rejet. · C’est de l’intolérance. | On respecte et on découvre. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que veut dire « la tolérance » ?
+
+- ◻️ la peur des autres  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ le respect des différences
+- ◻️ l’oubli de sa culture  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ le rejet des étrangers  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Accepter les autres.  
+> Donc la réponse est « le respect des différences ».  
+
+> Que veut dire « la tolérance » ?
+
+- ◻️ l’oubli de sa culture  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ la peur des autres  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ le respect des différences
+- ◻️ le rejet des étrangers  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Accepter les autres.  
+> Donc la réponse est « le respect des différences ».  
+
+> Que veut dire « la tolérance » ?
+
+- ◻️ le rejet des étrangers  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ l’oubli de sa culture  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ le respect des différences
+- ◻️ la peur des autres  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Accepter les autres.  
+> Donc la réponse est « le respect des différences ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-64-ailleurs` · Lesson 64 · matching, level 2
+
+Prompt: Associe chaque élément culturel à son pays.
+
+Pairs (4 shown each time):
+
+- le kimono → **le Japon**
+- le carnaval de Rio → **le Brésil**
+- la pizza → **l’Italie**
+- le Ngondo → **le Cameroun**
+- le fado → **le Portugal**
+
+
+Three generated variants:
+
+> Associe chaque élément culturel à son pays.
+
+Right-hand side (shuffled): le Japon · l’Italie · le Brésil · le Portugal
+- le fado → **le Portugal**
+- la pizza → **l’Italie**
+- le kimono → **le Japon**
+- le carnaval de Rio → **le Brésil**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le fado → le Portugal  
+> la pizza → l’Italie  
+> le kimono → le Japon  
+> le carnaval de Rio → le Brésil  
+
+> Associe chaque élément culturel à son pays.
+
+Right-hand side (shuffled): le Portugal · le Japon · le Cameroun · l’Italie
+- le kimono → **le Japon**
+- le Ngondo → **le Cameroun**
+- la pizza → **l’Italie**
+- le fado → **le Portugal**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le kimono → le Japon  
+> le Ngondo → le Cameroun  
+> la pizza → l’Italie  
+> le fado → le Portugal  
+
+> Associe chaque élément culturel à son pays.
+
+Right-hand side (shuffled): le Portugal · le Japon · l’Italie · le Brésil
+- le kimono → **le Japon**
+- le carnaval de Rio → **le Brésil**
+- le fado → **le Portugal**
+- la pizza → **l’Italie**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le kimono → le Japon  
+> le carnaval de Rio → le Brésil  
+> le fado → le Portugal  
+> la pizza → l’Italie  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-64-spot` · Lesson 64 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ La culture comprend la langue et les fêtes.
+- ✅ Le Cameroun a plus de deux cents langues.
+- ✅ La tolérance est le respect des différences.
+- ✅ Découvrir d’autres cultures ouvre l’esprit.
+- ❌ La tolérance veut dire se moquer des autres.  
+  _↳ Elle veut dire respecter les différences._
+- ❌ Le Ngondo est une fête du Japon.  
+  _↳ C’est une fête des Sawa au Cameroun._
+- ❌ Une seule culture est bonne ; les autres sont mauvaises.  
+  _↳ Toutes les cultures méritent le respect._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ✅ La tolérance veut dire se moquer des autres.  
+  _↳ explanation: Elle veut dire respecter les différences._
+- ◻️ La culture comprend la langue et les fêtes.
+- ◻️ Le Cameroun a plus de deux cents langues.
+- ◻️ La tolérance est le respect des différences.
+
+Full working after a second miss:
+
+> La phrase fausse est « La tolérance veut dire se moquer des autres. ».  
+> Elle veut dire respecter les différences.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le Cameroun a plus de deux cents langues.
+- ✅ La tolérance veut dire se moquer des autres.  
+  _↳ explanation: Elle veut dire respecter les différences._
+- ◻️ La tolérance est le respect des différences.
+- ◻️ La culture comprend la langue et les fêtes.
+
+Full working after a second miss:
+
+> La phrase fausse est « La tolérance veut dire se moquer des autres. ».  
+> Elle veut dire respecter les différences.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ La culture comprend la langue et les fêtes.
+- ✅ Le Ngondo est une fête du Japon.  
+  _↳ explanation: C’est une fête des Sawa au Cameroun._
+- ◻️ La tolérance est le respect des différences.
+- ◻️ Découvrir d’autres cultures ouvre l’esprit.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le Ngondo est une fête du Japon. ».  
+> C’est une fête des Sawa au Cameroun.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-64-ailleurs-card` · Lesson 64 · matching, level 1
+
+Prompt: Associe chaque élément culturel à son pays.
+
+Pairs (4 shown each time):
+
+- le kimono → **le Japon**
+- le carnaval de Rio → **le Brésil**
+- la pizza → **l’Italie**
+- le Ngondo → **le Cameroun**
+- le fado → **le Portugal**
+
+
+Three generated variants:
+
+> Associe chaque élément culturel à son pays.
+
+Right-hand side (shuffled): le Cameroun · le Brésil · le Japon · l’Italie
+- le kimono → **le Japon**
+- la pizza → **l’Italie**
+- le Ngondo → **le Cameroun**
+- le carnaval de Rio → **le Brésil**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le kimono → le Japon  
+> la pizza → l’Italie  
+> le Ngondo → le Cameroun  
+> le carnaval de Rio → le Brésil  
+
+> Associe chaque élément culturel à son pays.
+
+Right-hand side (shuffled): le Japon · l’Italie · le Portugal · le Cameroun
+- le kimono → **le Japon**
+- la pizza → **l’Italie**
+- le Ngondo → **le Cameroun**
+- le fado → **le Portugal**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le kimono → le Japon  
+> la pizza → l’Italie  
+> le Ngondo → le Cameroun  
+> le fado → le Portugal  
+
+> Associe chaque élément culturel à son pays.
+
+Right-hand side (shuffled): le Japon · le Cameroun · le Brésil · le Portugal
+- le Ngondo → **le Cameroun**
+- le carnaval de Rio → **le Brésil**
+- le fado → **le Portugal**
+- le kimono → **le Japon**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le Ngondo → le Cameroun  
+> le carnaval de Rio → le Brésil  
+> le fado → le Portugal  
+> le kimono → le Japon  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-65-quoi` · Lesson 65 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce qu’un jeu de rôle ? | jouer un personnage dans une situation de la vie | un jeu de cartes · un match de football · lire un poème seul | Ce n’est pas un jeu de société. · Ce n’est pas un sport. · On joue à plusieurs. | On joue une scène. |
+| Avec qui utilise-t-on le vouvoiement ? | avec un adulte ou un agent public | avec son petit frère · avec son meilleur ami · avec son chien | On le tutoie. · On le tutoie. · Ce n’est pas une personne. | Par respect. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Qu’est-ce qu’un jeu de rôle ?
+
+- ◻️ un jeu de cartes  
+  _↳ feedback if chosen: Ce n’est pas un jeu de société._
+- ◻️ lire un poème seul  
+  _↳ feedback if chosen: On joue à plusieurs._
+- ✅ jouer un personnage dans une situation de la vie
+- ◻️ un match de football  
+  _↳ feedback if chosen: Ce n’est pas un sport._
+
+Full working after a second miss:
+
+> On joue une scène.  
+> Donc la réponse est « jouer un personnage dans une situation de la vie ».  
+
+> Avec qui utilise-t-on le vouvoiement ?
+
+- ✅ avec un adulte ou un agent public
+- ◻️ avec son petit frère  
+  _↳ feedback if chosen: On le tutoie._
+- ◻️ avec son meilleur ami  
+  _↳ feedback if chosen: On le tutoie._
+- ◻️ avec son chien  
+  _↳ feedback if chosen: Ce n’est pas une personne._
+
+Full working after a second miss:
+
+> Par respect.  
+> Donc la réponse est « avec un adulte ou un agent public ».  
+
+> Qu’est-ce qu’un jeu de rôle ?
+
+- ◻️ lire un poème seul  
+  _↳ feedback if chosen: On joue à plusieurs._
+- ✅ jouer un personnage dans une situation de la vie
+- ◻️ un match de football  
+  _↳ feedback if chosen: Ce n’est pas un sport._
+- ◻️ un jeu de cartes  
+  _↳ feedback if chosen: Ce n’est pas un jeu de société._
+
+Full working after a second miss:
+
+> On joue une scène.  
+> Donc la réponse est « jouer un personnage dans une situation de la vie ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-65-poli` · Lesson 65 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle phrase est polie pour s’adresser au policier ? | Excusez-moi, monsieur, pourriez-vous m’aider ? | Hé, toi, aide-moi ! · Donne-moi ça vite ! · Tu dois m’aider. | On ne tutoie pas un agent. · C’est impoli. · C’est un ordre impoli. | Formule de politesse et vouvoiement. |
+| Que répond-on quand quelqu’un dit « merci » ? | Je vous en prie. | Pourquoi ? · Va-t’en. · Rien du tout, idiot. | Ce n’est pas poli. · C’est impoli. · C’est impoli. | Formule de politesse. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que répond-on quand quelqu’un dit « merci » ?
+
+- ◻️ Rien du tout, idiot.  
+  _↳ feedback if chosen: C’est impoli._
+- ✅ Je vous en prie.
+- ◻️ Pourquoi ?  
+  _↳ feedback if chosen: Ce n’est pas poli._
+- ◻️ Va-t’en.  
+  _↳ feedback if chosen: C’est impoli._
+
+Full working after a second miss:
+
+> Formule de politesse.  
+> Donc la réponse est « Je vous en prie. ».  
+
+> Que répond-on quand quelqu’un dit « merci » ?
+
+- ◻️ Va-t’en.  
+  _↳ feedback if chosen: C’est impoli._
+- ✅ Je vous en prie.
+- ◻️ Pourquoi ?  
+  _↳ feedback if chosen: Ce n’est pas poli._
+- ◻️ Rien du tout, idiot.  
+  _↳ feedback if chosen: C’est impoli._
+
+Full working after a second miss:
+
+> Formule de politesse.  
+> Donc la réponse est « Je vous en prie. ».  
+
+> Quelle phrase est polie pour s’adresser au policier ?
+
+- ◻️ Tu dois m’aider.  
+  _↳ feedback if chosen: C’est un ordre impoli._
+- ◻️ Donne-moi ça vite !  
+  _↳ feedback if chosen: C’est impoli._
+- ◻️ Hé, toi, aide-moi !  
+  _↳ feedback if chosen: On ne tutoie pas un agent._
+- ✅ Excusez-moi, monsieur, pourriez-vous m’aider ?
+
+Full working after a second miss:
+
+> Formule de politesse et vouvoiement.  
+> Donc la réponse est « Excusez-moi, monsieur, pourriez-vous m’aider ? ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-65-ordre` · Lesson 65 · ordering, level 2
+
+Prompt: Remets le dialogue à la mairie dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Bonjour, madame. | Bonjour, jeune homme. Que puis-je pour vous ? | Je voudrais une copie de mon acte de naissance, s’il vous plaît. | Avez-vous votre ancien acte ? | Oui, le voici. | Revenez jeudi. Au revoir. | Merci beaucoup, madame. Au revoir. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+6. {X[5]}
+7. {X[6]}
+
+
+Three generated variants:
+
+> Remets le dialogue à la mairie dans l’ordre.
+
+Shown as: Je voudrais une copie de mon acte de naissance, s’il vous plaît. · Oui, le voici. · Revenez jeudi. Au revoir. · Bonjour, madame. · Avez-vous votre ancien acte ? · Bonjour, jeune homme. Que puis-je pour vous ? · Merci beaucoup, madame. Au revoir.
+Correct order: Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir..  
+
+> Remets le dialogue à la mairie dans l’ordre.
+
+Shown as: Oui, le voici. · Merci beaucoup, madame. Au revoir. · Je voudrais une copie de mon acte de naissance, s’il vous plaît. · Bonjour, madame. · Revenez jeudi. Au revoir. · Avez-vous votre ancien acte ? · Bonjour, jeune homme. Que puis-je pour vous ?
+Correct order: Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir..  
+
+> Remets le dialogue à la mairie dans l’ordre.
+
+Shown as: Bonjour, madame. · Revenez jeudi. Au revoir. · Avez-vous votre ancien acte ? · Je voudrais une copie de mon acte de naissance, s’il vous plaît. · Merci beaucoup, madame. Au revoir. · Oui, le voici. · Bonjour, jeune homme. Que puis-je pour vous ?
+Correct order: Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-65-spot` · Lesson 65 · spot the error, level 3
+
+Prompt: Quel conseil pour un jeu de rôle est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On lit bien la situation.
+- ✅ On se répartit les rôles.
+- ✅ On utilise des formules de politesse.
+- ✅ On parle clairement.
+- ❌ On tutoie toujours l’agent de la mairie.  
+  _↳ On le vouvoie._
+- ❌ On joue sans préparer ses répliques.  
+  _↳ On prépare d’abord._
+- ❌ On n’écoute jamais les remarques.  
+  _↳ Les remarques aident à progresser._
+
+
+Three generated variants:
+
+> Quel conseil pour un jeu de rôle est faux ?
+
+- ✅ On joue sans préparer ses répliques.  
+  _↳ explanation: On prépare d’abord._
+- ◻️ On parle clairement.
+- ◻️ On utilise des formules de politesse.
+- ◻️ On lit bien la situation.
+
+Full working after a second miss:
+
+> La phrase fausse est « On joue sans préparer ses répliques. ».  
+> On prépare d’abord.  
+
+> Quel conseil pour un jeu de rôle est faux ?
+
+- ◻️ On parle clairement.
+- ◻️ On utilise des formules de politesse.
+- ✅ On joue sans préparer ses répliques.  
+  _↳ explanation: On prépare d’abord._
+- ◻️ On lit bien la situation.
+
+Full working after a second miss:
+
+> La phrase fausse est « On joue sans préparer ses répliques. ».  
+> On prépare d’abord.  
+
+> Quel conseil pour un jeu de rôle est faux ?
+
+- ◻️ On se répartit les rôles.
+- ◻️ On parle clairement.
+- ◻️ On lit bien la situation.
+- ✅ On n’écoute jamais les remarques.  
+  _↳ explanation: Les remarques aident à progresser._
+
+Full working after a second miss:
+
+> La phrase fausse est « On n’écoute jamais les remarques. ».  
+> Les remarques aident à progresser.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-65-ordre-card` · Lesson 65 · ordering, level 1
+
+Prompt: Remets le dialogue à la mairie dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Bonjour, madame. | Bonjour, jeune homme. Que puis-je pour vous ? | Je voudrais une copie de mon acte de naissance, s’il vous plaît. | Avez-vous votre ancien acte ? | Oui, le voici. | Revenez jeudi. Au revoir. | Merci beaucoup, madame. Au revoir. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+6. {X[5]}
+7. {X[6]}
+
+
+Three generated variants:
+
+> Remets le dialogue à la mairie dans l’ordre.
+
+Shown as: Avez-vous votre ancien acte ? · Bonjour, jeune homme. Que puis-je pour vous ? · Bonjour, madame. · Oui, le voici. · Je voudrais une copie de mon acte de naissance, s’il vous plaît. · Merci beaucoup, madame. Au revoir. · Revenez jeudi. Au revoir.
+Correct order: Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir..  
+
+> Remets le dialogue à la mairie dans l’ordre.
+
+Shown as: Bonjour, jeune homme. Que puis-je pour vous ? · Avez-vous votre ancien acte ? · Je voudrais une copie de mon acte de naissance, s’il vous plaît. · Bonjour, madame. · Revenez jeudi. Au revoir. · Oui, le voici. · Merci beaucoup, madame. Au revoir.
+Correct order: Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir..  
+
+> Remets le dialogue à la mairie dans l’ordre.
+
+Shown as: Avez-vous votre ancien acte ? · Bonjour, jeune homme. Que puis-je pour vous ? · Bonjour, madame. · Je voudrais une copie de mon acte de naissance, s’il vous plaît. · Oui, le voici. · Merci beaucoup, madame. Au revoir. · Revenez jeudi. Au revoir.
+Correct order: Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-66-plan` · Lesson 66 · ordering, level 1
+
+Prompt: Remets le récit dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Un samedi matin, Bih allait au champ avec sa mère. | Soudain, elle vit un serpent sur le chemin. | Alors, elle cria et recula. | Sa mère prit un bâton et éloigna le serpent. | Finalement, elles arrivèrent au champ, encore émues. |
+| Un soir, la famille regardait la télévision. | Tout à coup, le courant fut coupé. | Alors, le père alluma une lampe. | Ensuite, la grand-mère raconta un conte. | Finalement, tous allèrent dormir, contents. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets le récit dans l’ordre.
+
+Shown as: Alors, le père alluma une lampe. · Ensuite, la grand-mère raconta un conte. · Tout à coup, le courant fut coupé. · Un soir, la famille regardait la télévision. · Finalement, tous allèrent dormir, contents.
+Correct order: Un soir, la famille regardait la télévision. → Tout à coup, le courant fut coupé. → Alors, le père alluma une lampe. → Ensuite, la grand-mère raconta un conte. → Finalement, tous allèrent dormir, contents.
+
+Full working after a second miss:
+
+> Le bon ordre est : Un soir, la famille regardait la télévision. → Tout à coup, le courant fut coupé. → Alors, le père alluma une lampe. → Ensuite, la grand-mère raconta un conte. → Finalement, tous allèrent dormir, contents..  
+
+> Remets le récit dans l’ordre.
+
+Shown as: Un samedi matin, Bih allait au champ avec sa mère. · Soudain, elle vit un serpent sur le chemin. · Sa mère prit un bâton et éloigna le serpent. · Alors, elle cria et recula. · Finalement, elles arrivèrent au champ, encore émues.
+Correct order: Un samedi matin, Bih allait au champ avec sa mère. → Soudain, elle vit un serpent sur le chemin. → Alors, elle cria et recula. → Sa mère prit un bâton et éloigna le serpent. → Finalement, elles arrivèrent au champ, encore émues.
+
+Full working after a second miss:
+
+> Le bon ordre est : Un samedi matin, Bih allait au champ avec sa mère. → Soudain, elle vit un serpent sur le chemin. → Alors, elle cria et recula. → Sa mère prit un bâton et éloigna le serpent. → Finalement, elles arrivèrent au champ, encore émues..  
+
+> Remets le récit dans l’ordre.
+
+Shown as: Finalement, tous allèrent dormir, contents. · Tout à coup, le courant fut coupé. · Alors, le père alluma une lampe. · Ensuite, la grand-mère raconta un conte. · Un soir, la famille regardait la télévision.
+Correct order: Un soir, la famille regardait la télévision. → Tout à coup, le courant fut coupé. → Alors, le père alluma une lampe. → Ensuite, la grand-mère raconta un conte. → Finalement, tous allèrent dormir, contents.
+
+Full working after a second miss:
+
+> Le bon ordre est : Un soir, la famille regardait la télévision. → Tout à coup, le courant fut coupé. → Alors, le père alluma une lampe. → Ensuite, la grand-mère raconta un conte. → Finalement, tous allèrent dormir, contents..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-66-lien` · Lesson 66 · fill the blank, level 1
+
+Prompt: Choisis le mot de liaison qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Il faisait beau. ___, un gros orage éclata. | Soudain | Finalement · D’abord | « Finalement » termine le récit. · « D’abord » commence une liste. |
+| Le voleur s’enfuit. ___, les policiers le poursuivirent. | Alors | Il était une fois · Enfin | C’est le début d’un conte. · « Enfin » termine. |
+| Après une longue journée, ___ ils rentrèrent à la maison. | finalement | soudain · un jour | « soudain » marque un changement brusque. · « un jour » commence. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot de liaison qui convient.
+
+Sentence: **Il faisait beau. ___, un gros orage éclata.**
+- ◻️ Finalement  
+  _↳ feedback if chosen: « Finalement » termine le récit._
+- ◻️ D’abord  
+  _↳ feedback if chosen: « D’abord » commence une liste._
+- ✅ Soudain
+
+Full working after a second miss:
+
+> Le mot qui manque est « Soudain ».  
+> Il faisait beau. Soudain, un gros orage éclata.  
+
+> Choisis le mot de liaison qui convient.
+
+Sentence: **Après une longue journée, ___ ils rentrèrent à la maison.**
+- ✅ finalement
+- ◻️ un jour  
+  _↳ feedback if chosen: « un jour » commence._
+- ◻️ soudain  
+  _↳ feedback if chosen: « soudain » marque un changement brusque._
+
+Full working after a second miss:
+
+> Le mot qui manque est « finalement ».  
+> Après une longue journée, finalement ils rentrèrent à la maison.  
+
+> Choisis le mot de liaison qui convient.
+
+Sentence: **Après une longue journée, ___ ils rentrèrent à la maison.**
+- ◻️ soudain  
+  _↳ feedback if chosen: « soudain » marque un changement brusque._
+- ✅ finalement
+- ◻️ un jour  
+  _↳ feedback if chosen: « un jour » commence._
+
+Full working after a second miss:
+
+> Le mot qui manque est « finalement ».  
+> Après une longue journée, finalement ils rentrèrent à la maison.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-66-temps` · Lesson 66 · fill the blank, level 2
+
+Prompt: Choisis le temps qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Le soleil ___ et les oiseaux chantaient. | brillait | brilla · brillera | Le décor se met à l’imparfait. · C’est le futur. |
+| Soudain, un cri ___ dans la nuit. | retentit | retentissait · retentira | L’action soudaine se met au passé simple. · C’est le futur. |
+| Il ___ nuit quand le bus arriva. | faisait | fit · fera | Le décor se met à l’imparfait. · C’est le futur. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le temps qui convient.
+
+Sentence: **Soudain, un cri ___ dans la nuit.**
+- ✅ retentit
+- ◻️ retentira  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ retentissait  
+  _↳ feedback if chosen: L’action soudaine se met au passé simple._
+
+Full working after a second miss:
+
+> Le mot qui manque est « retentit ».  
+> Soudain, un cri retentit dans la nuit.  
+
+> Choisis le temps qui convient.
+
+Sentence: **Soudain, un cri ___ dans la nuit.**
+- ◻️ retentira  
+  _↳ feedback if chosen: C’est le futur._
+- ✅ retentit
+- ◻️ retentissait  
+  _↳ feedback if chosen: L’action soudaine se met au passé simple._
+
+Full working after a second miss:
+
+> Le mot qui manque est « retentit ».  
+> Soudain, un cri retentit dans la nuit.  
+
+> Choisis le temps qui convient.
+
+Sentence: **Soudain, un cri ___ dans la nuit.**
+- ✅ retentit
+- ◻️ retentissait  
+  _↳ feedback if chosen: L’action soudaine se met au passé simple._
+- ◻️ retentira  
+  _↳ feedback if chosen: C’est le futur._
+
+Full working after a second miss:
+
+> Le mot qui manque est « retentit ».  
+> Soudain, un cri retentit dans la nuit.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-66-spot` · Lesson 66 · spot the error, level 3
+
+Prompt: Quel conseil pour raconter est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On raconte dans l’ordre.
+- ✅ On utilise des mots de liaison.
+- ✅ On commence par la situation initiale.
+- ✅ On termine par la situation finale.
+- ❌ On commence par la fin de l’histoire sans rien expliquer.  
+  _↳ On commence par la situation initiale._
+- ❌ Le décor se met au passé simple.  
+  _↳ Le décor se met à l’imparfait._
+- ❌ « Finalement » commence toujours le récit.  
+  _↳ Il termine le récit._
+
+
+Three generated variants:
+
+> Quel conseil pour raconter est faux ?
+
+- ◻️ On commence par la situation initiale.
+- ◻️ On utilise des mots de liaison.
+- ◻️ On raconte dans l’ordre.
+- ✅ « Finalement » commence toujours le récit.  
+  _↳ explanation: Il termine le récit._
+
+Full working after a second miss:
+
+> La phrase fausse est « « Finalement » commence toujours le récit. ».  
+> Il termine le récit.  
+
+> Quel conseil pour raconter est faux ?
+
+- ◻️ On utilise des mots de liaison.
+- ◻️ On termine par la situation finale.
+- ✅ Le décor se met au passé simple.  
+  _↳ explanation: Le décor se met à l’imparfait._
+- ◻️ On raconte dans l’ordre.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le décor se met au passé simple. ».  
+> Le décor se met à l’imparfait.  
+
+> Quel conseil pour raconter est faux ?
+
+- ◻️ On utilise des mots de liaison.
+- ◻️ On commence par la situation initiale.
+- ✅ « Finalement » commence toujours le récit.  
+  _↳ explanation: Il termine le récit._
+- ◻️ On raconte dans l’ordre.
+
+Full working after a second miss:
+
+> La phrase fausse est « « Finalement » commence toujours le récit. ».  
+> Il termine le récit.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-66-temps-card` · Lesson 66 · fill the blank, level 1
+
+Prompt: Choisis le temps qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Le soleil ___ et les oiseaux chantaient. | brillait | brilla · brillera | Le décor se met à l’imparfait. · C’est le futur. |
+| Soudain, un cri ___ dans la nuit. | retentit | retentissait · retentira | L’action soudaine se met au passé simple. · C’est le futur. |
+| Il ___ nuit quand le bus arriva. | faisait | fit · fera | Le décor se met à l’imparfait. · C’est le futur. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le temps qui convient.
+
+Sentence: **Il ___ nuit quand le bus arriva.**
+- ✅ faisait
+- ◻️ fit  
+  _↳ feedback if chosen: Le décor se met à l’imparfait._
+- ◻️ fera  
+  _↳ feedback if chosen: C’est le futur._
+
+Full working after a second miss:
+
+> Le mot qui manque est « faisait ».  
+> Il faisait nuit quand le bus arriva.  
+
+> Choisis le temps qui convient.
+
+Sentence: **Il ___ nuit quand le bus arriva.**
+- ✅ faisait
+- ◻️ fera  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ fit  
+  _↳ feedback if chosen: Le décor se met à l’imparfait._
+
+Full working after a second miss:
+
+> Le mot qui manque est « faisait ».  
+> Il faisait nuit quand le bus arriva.  
+
+> Choisis le temps qui convient.
+
+Sentence: **Le soleil ___ et les oiseaux chantaient.**
+- ◻️ brillera  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ brilla  
+  _↳ feedback if chosen: Le décor se met à l’imparfait._
+- ✅ brillait
+
+Full working after a second miss:
+
+> Le mot qui manque est « brillait ».  
+> Le soleil brillait et les oiseaux chantaient.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-67-quoi` · Lesson 67 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans « Quelques enfants jouent », quel mot est un adjectif indéfini ? | Quelques | enfants · jouent · aucun mot | C’est un nom. · C’est un verbe. · Il y en a un. | Il accompagne le nom « enfants ». |
+| Dans « Ils ont le même âge », quel mot est un adjectif indéfini ? | même | Ils · ont · âge | C’est un pronom. · C’est un verbe. · C’est un nom. | « même » exprime l’identité. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans « Quelques enfants jouent », quel mot est un adjectif indéfini ?
+
+- ✅ Quelques
+- ◻️ aucun mot  
+  _↳ feedback if chosen: Il y en a un._
+- ◻️ enfants  
+  _↳ feedback if chosen: C’est un nom._
+- ◻️ jouent  
+  _↳ feedback if chosen: C’est un verbe._
+
+Full working after a second miss:
+
+> Il accompagne le nom « enfants ».  
+> Donc la réponse est « Quelques ».  
+
+> Dans « Quelques enfants jouent », quel mot est un adjectif indéfini ?
+
+- ◻️ enfants  
+  _↳ feedback if chosen: C’est un nom._
+- ✅ Quelques
+- ◻️ aucun mot  
+  _↳ feedback if chosen: Il y en a un._
+- ◻️ jouent  
+  _↳ feedback if chosen: C’est un verbe._
+
+Full working after a second miss:
+
+> Il accompagne le nom « enfants ».  
+> Donc la réponse est « Quelques ».  
+
+> Dans « Quelques enfants jouent », quel mot est un adjectif indéfini ?
+
+- ◻️ jouent  
+  _↳ feedback if chosen: C’est un verbe._
+- ◻️ enfants  
+  _↳ feedback if chosen: C’est un nom._
+- ◻️ aucun mot  
+  _↳ feedback if chosen: Il y en a un._
+- ✅ Quelques
+
+Full working after a second miss:
+
+> Il accompagne le nom « enfants ».  
+> Donc la réponse est « Quelques ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-67-tout` · Lesson 67 · fill the blank, level 1
+
+Prompt: Choisis la bonne forme de « tout ».
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___ la ville parle de la fête. | Toute | Tout · Toutes | « ville » est féminin. · « ville » est singulier. |
+| Il va au champ ___ les matins. | tous | tout · toutes | « matins » est pluriel. · « matins » est masculin. |
+| ___ le village est réuni. | Tout | Toute · Tous | « village » est masculin. · « village » est singulier. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne forme de « tout ».
+
+Sentence: **___ le village est réuni.**
+- ✅ Tout
+- ◻️ Toute  
+  _↳ feedback if chosen: « village » est masculin._
+- ◻️ Tous  
+  _↳ feedback if chosen: « village » est singulier._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Tout ».  
+> Tout le village est réuni.  
+
+> Choisis la bonne forme de « tout ».
+
+Sentence: **Il va au champ ___ les matins.**
+- ◻️ tout  
+  _↳ feedback if chosen: « matins » est pluriel._
+- ✅ tous
+- ◻️ toutes  
+  _↳ feedback if chosen: « matins » est masculin._
+
+Full working after a second miss:
+
+> Le mot qui manque est « tous ».  
+> Il va au champ tous les matins.  
+
+> Choisis la bonne forme de « tout ».
+
+Sentence: **___ le village est réuni.**
+- ◻️ Toute  
+  _↳ feedback if chosen: « village » est masculin._
+- ✅ Tout
+- ◻️ Tous  
+  _↳ feedback if chosen: « village » est singulier._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Tout ».  
+> Tout le village est réuni.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-67-sing` · Lesson 67 · fill the blank, level 2
+
+Prompt: Choisis le mot qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___ élève doit apporter son livre. | Chaque | Plusieurs · Tous | « élève » est singulier. · « élève » est singulier. |
+| ___ bruit ne venait de la forêt. | Aucun | Quelques · Plusieurs | « bruit » est au singulier avec « ne ». · Avec « ne », on dit « aucun ». |
+| J’ai ___ amis à Garoua. | plusieurs | chaque · aucun | « chaque » demande le singulier. · « aucun » demande « ne » et le singulier. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot qui convient.
+
+Sentence: **___ bruit ne venait de la forêt.**
+- ✅ Aucun
+- ◻️ Quelques  
+  _↳ feedback if chosen: « bruit » est au singulier avec « ne »._
+- ◻️ Plusieurs  
+  _↳ feedback if chosen: Avec « ne », on dit « aucun »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Aucun ».  
+> Aucun bruit ne venait de la forêt.  
+
+> Choisis le mot qui convient.
+
+Sentence: **___ élève doit apporter son livre.**
+- ◻️ Tous  
+  _↳ feedback if chosen: « élève » est singulier._
+- ✅ Chaque
+- ◻️ Plusieurs  
+  _↳ feedback if chosen: « élève » est singulier._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Chaque ».  
+> Chaque élève doit apporter son livre.  
+
+> Choisis le mot qui convient.
+
+Sentence: **J’ai ___ amis à Garoua.**
+- ◻️ chaque  
+  _↳ feedback if chosen: « chaque » demande le singulier._
+- ◻️ aucun  
+  _↳ feedback if chosen: « aucun » demande « ne » et le singulier._
+- ✅ plusieurs
+
+Full working after a second miss:
+
+> Le mot qui manque est « plusieurs ».  
+> J’ai plusieurs amis à Garoua.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-67-spot` · Lesson 67 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Chaque enfant a un cahier.
+- ✅ Toutes les femmes chantent.
+- ✅ Aucun élève n’est absent.
+- ✅ Quelques amis sont venus.
+- ❌ Chaques enfants ont un cahier.  
+  _↳ « chaque » reste au singulier._
+- ❌ Tout les garçons jouent.  
+  _↳ Au masculin pluriel : tous les garçons._
+- ❌ Aucuns élèves sont absents.  
+  _↳ On dit : aucun élève n’est absent._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Aucun élève n’est absent.
+- ✅ Chaques enfants ont un cahier.  
+  _↳ explanation: « chaque » reste au singulier._
+- ◻️ Chaque enfant a un cahier.
+- ◻️ Toutes les femmes chantent.
+
+Full working after a second miss:
+
+> La phrase fausse est « Chaques enfants ont un cahier. ».  
+> « chaque » reste au singulier.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Quelques amis sont venus.
+- ◻️ Toutes les femmes chantent.
+- ◻️ Aucun élève n’est absent.
+- ✅ Tout les garçons jouent.  
+  _↳ explanation: Au masculin pluriel : tous les garçons._
+
+Full working after a second miss:
+
+> La phrase fausse est « Tout les garçons jouent. ».  
+> Au masculin pluriel : tous les garçons.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Aucuns élèves sont absents.  
+  _↳ explanation: On dit : aucun élève n’est absent._
+- ◻️ Toutes les femmes chantent.
+- ◻️ Chaque enfant a un cahier.
+- ◻️ Aucun élève n’est absent.
+
+Full working after a second miss:
+
+> La phrase fausse est « Aucuns élèves sont absents. ».  
+> On dit : aucun élève n’est absent.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-67-sing-card` · Lesson 67 · fill the blank, level 1
+
+Prompt: Choisis le mot qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___ élève doit apporter son livre. | Chaque | Plusieurs · Tous | « élève » est singulier. · « élève » est singulier. |
+| ___ bruit ne venait de la forêt. | Aucun | Quelques · Plusieurs | « bruit » est au singulier avec « ne ». · Avec « ne », on dit « aucun ». |
+| J’ai ___ amis à Garoua. | plusieurs | chaque · aucun | « chaque » demande le singulier. · « aucun » demande « ne » et le singulier. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot qui convient.
+
+Sentence: **J’ai ___ amis à Garoua.**
+- ◻️ chaque  
+  _↳ feedback if chosen: « chaque » demande le singulier._
+- ◻️ aucun  
+  _↳ feedback if chosen: « aucun » demande « ne » et le singulier._
+- ✅ plusieurs
+
+Full working after a second miss:
+
+> Le mot qui manque est « plusieurs ».  
+> J’ai plusieurs amis à Garoua.  
+
+> Choisis le mot qui convient.
+
+Sentence: **___ élève doit apporter son livre.**
+- ◻️ Plusieurs  
+  _↳ feedback if chosen: « élève » est singulier._
+- ✅ Chaque
+- ◻️ Tous  
+  _↳ feedback if chosen: « élève » est singulier._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Chaque ».  
+> Chaque élève doit apporter son livre.  
+
+> Choisis le mot qui convient.
+
+Sentence: **J’ai ___ amis à Garoua.**
+- ◻️ chaque  
+  _↳ feedback if chosen: « chaque » demande le singulier._
+- ◻️ aucun  
+  _↳ feedback if chosen: « aucun » demande « ne » et le singulier._
+- ✅ plusieurs
+
+Full working after a second miss:
+
+> Le mot qui manque est « plusieurs ».  
+> J’ai plusieurs amis à Garoua.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-68-son` · Lesson 68 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel son entend-on dans « quand‿il » ? | [t] | [d] · [z] · rien | En liaison, d se prononce [t]. · Ce n’est pas un s. · On fait la liaison. | quand‿il [t]. |
+| Quel son entend-on dans « un grand‿arbre » ? | [t] | [d] · [n] · [z] | En liaison, d se prononce [t]. · Ce n’est pas un n. · Ce n’est pas un s. | grand‿arbre [t]. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel son entend-on dans « quand‿il » ?
+
+- ◻️ rien  
+  _↳ feedback if chosen: On fait la liaison._
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+- ✅ [t]
+- ◻️ [d]  
+  _↳ feedback if chosen: En liaison, d se prononce [t]._
+
+Full working after a second miss:
+
+> quand‿il [t].  
+> Donc la réponse est « [t] ».  
+
+> Quel son entend-on dans « un grand‿arbre » ?
+
+- ◻️ [n]  
+  _↳ feedback if chosen: Ce n’est pas un n._
+- ✅ [t]
+- ◻️ [d]  
+  _↳ feedback if chosen: En liaison, d se prononce [t]._
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+
+Full working after a second miss:
+
+> grand‿arbre [t].  
+> Donc la réponse est « [t] ».  
+
+> Quel son entend-on dans « quand‿il » ?
+
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+- ◻️ rien  
+  _↳ feedback if chosen: On fait la liaison._
+- ◻️ [d]  
+  _↳ feedback if chosen: En liaison, d se prononce [t]._
+- ✅ [t]
+
+Full working after a second miss:
+
+> quand‿il [t].  
+> Donc la réponse est « [t] ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-68-quand` · Lesson 68 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___ on entend la cloche, on entre en classe. | Quand | Quant · Qu’en | « quant » s’emploie dans « quant à ». · « qu’en » veut dire « que en ». |
+| ___ à moi, je préfère le football. | Quant | Quand · Qu’en | On écrit « quant à » (en ce qui concerne). · Ce n’est pas le sens. |
+| ___ il fait chaud, nous buvons beaucoup d’eau. | Quand | Quant · Camp | « quant » s’emploie dans « quant à ». · Ce n’est pas le mot. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **___ à moi, je préfère le football.**
+- ◻️ Quand  
+  _↳ feedback if chosen: On écrit « quant à » (en ce qui concerne)._
+- ✅ Quant
+- ◻️ Qu’en  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Quant ».  
+> Quant à moi, je préfère le football.  
+
+> Choisis la bonne écriture.
+
+Sentence: **___ il fait chaud, nous buvons beaucoup d’eau.**
+- ✅ Quand
+- ◻️ Camp  
+  _↳ feedback if chosen: Ce n’est pas le mot._
+- ◻️ Quant  
+  _↳ feedback if chosen: « quant » s’emploie dans « quant à »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Quand ».  
+> Quand il fait chaud, nous buvons beaucoup d’eau.  
+
+> Choisis la bonne écriture.
+
+Sentence: **___ on entend la cloche, on entre en classe.**
+- ✅ Quand
+- ◻️ Quant  
+  _↳ feedback if chosen: « quant » s’emploie dans « quant à »._
+- ◻️ Qu’en  
+  _↳ feedback if chosen: « qu’en » veut dire « que en »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Quand ».  
+> Quand on entend la cloche, on entre en classe.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-68-h` · Lesson 68 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quel groupe ne fait-on pas la liaison ? | un grand héros | un grand homme · quand il · un grand arbre | h muet : liaison. · Liaison obligatoire. · Liaison. | « héros » a un h aspiré. |
+| Comment se prononce le d de « répond-elle ? » | [t] | [d] · il est muet · [z] | En liaison, d se prononce [t]. · On fait la liaison avec le pronom. · Ce n’est pas un s. | répond‿-elle [t]. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans quel groupe ne fait-on pas la liaison ?
+
+- ◻️ un grand arbre  
+  _↳ feedback if chosen: Liaison._
+- ✅ un grand héros
+- ◻️ quand il  
+  _↳ feedback if chosen: Liaison obligatoire._
+- ◻️ un grand homme  
+  _↳ feedback if chosen: h muet : liaison._
+
+Full working after a second miss:
+
+> « héros » a un h aspiré.  
+> Donc la réponse est « un grand héros ».  
+
+> Comment se prononce le d de « répond-elle ? »
+
+- ◻️ il est muet  
+  _↳ feedback if chosen: On fait la liaison avec le pronom._
+- ◻️ [d]  
+  _↳ feedback if chosen: En liaison, d se prononce [t]._
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+- ✅ [t]
+
+Full working after a second miss:
+
+> répond‿-elle [t].  
+> Donc la réponse est « [t] ».  
+
+> Dans quel groupe ne fait-on pas la liaison ?
+
+- ◻️ un grand arbre  
+  _↳ feedback if chosen: Liaison._
+- ✅ un grand héros
+- ◻️ quand il  
+  _↳ feedback if chosen: Liaison obligatoire._
+- ◻️ un grand homme  
+  _↳ feedback if chosen: h muet : liaison._
+
+Full working after a second miss:
+
+> « héros » a un h aspiré.  
+> Donc la réponse est « un grand héros ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-68-spot` · Lesson 68 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Quand il pleut, je reste à la maison.
+- ✅ Quant à toi, tu viens avec nous.
+- ✅ Un grand arbre pousse ici.
+- ✅ Quand elle arrive, nous mangeons.
+- ❌ Quant il pleut, la route est glissante.  
+  _↳ Au moment où : quand._
+- ❌ Quand à moi, je reste ici.  
+  _↳ En ce qui concerne : quant à._
+- ❌ Kan il vient, je suis content.  
+  _↳ On écrit « quand »._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Un grand arbre pousse ici.
+- ◻️ Quand elle arrive, nous mangeons.
+- ✅ Quant il pleut, la route est glissante.  
+  _↳ explanation: Au moment où : quand._
+- ◻️ Quand il pleut, je reste à la maison.
+
+Full working after a second miss:
+
+> La phrase fausse est « Quant il pleut, la route est glissante. ».  
+> Au moment où : quand.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Quand elle arrive, nous mangeons.
+- ◻️ Quand il pleut, je reste à la maison.
+- ◻️ Quant à toi, tu viens avec nous.
+- ✅ Quant il pleut, la route est glissante.  
+  _↳ explanation: Au moment où : quand._
+
+Full working after a second miss:
+
+> La phrase fausse est « Quant il pleut, la route est glissante. ».  
+> Au moment où : quand.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Quant à toi, tu viens avec nous.
+- ◻️ Un grand arbre pousse ici.
+- ◻️ Quand il pleut, je reste à la maison.
+- ✅ Quant il pleut, la route est glissante.  
+  _↳ explanation: Au moment où : quand._
+
+Full working after a second miss:
+
+> La phrase fausse est « Quant il pleut, la route est glissante. ».  
+> Au moment où : quand.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-68-h-card` · Lesson 68 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans quel groupe ne fait-on pas la liaison ? | un grand héros | un grand homme · quand il · un grand arbre | h muet : liaison. · Liaison obligatoire. · Liaison. | « héros » a un h aspiré. |
+| Comment se prononce le d de « répond-elle ? » | [t] | [d] · il est muet · [z] | En liaison, d se prononce [t]. · On fait la liaison avec le pronom. · Ce n’est pas un s. | répond‿-elle [t]. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Comment se prononce le d de « répond-elle ? »
+
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+- ◻️ [d]  
+  _↳ feedback if chosen: En liaison, d se prononce [t]._
+- ✅ [t]
+- ◻️ il est muet  
+  _↳ feedback if chosen: On fait la liaison avec le pronom._
+
+Full working after a second miss:
+
+> répond‿-elle [t].  
+> Donc la réponse est « [t] ».  
+
+> Comment se prononce le d de « répond-elle ? »
+
+- ◻️ [d]  
+  _↳ feedback if chosen: En liaison, d se prononce [t]._
+- ✅ [t]
+- ◻️ il est muet  
+  _↳ feedback if chosen: On fait la liaison avec le pronom._
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+
+Full working after a second miss:
+
+> répond‿-elle [t].  
+> Donc la réponse est « [t] ».  
+
+> Comment se prononce le d de « répond-elle ? »
+
+- ◻️ il est muet  
+  _↳ feedback if chosen: On fait la liaison avec le pronom._
+- ✅ [t]
+- ◻️ [d]  
+  _↳ feedback if chosen: En liaison, d se prononce [t]._
+- ◻️ [z]  
+  _↳ feedback if chosen: Ce n’est pas un s._
+
+Full working after a second miss:
+
+> répond‿-elle [t].  
+> Donc la réponse est « [t] ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-69-def` · Lesson 69 · matching, level 1
+
+Prompt: Associe chaque mot à sa définition.
+
+Pairs (4 shown each time):
+
+- la discrimination → **traiter quelqu’un plus mal à cause de ce qu’il est**
+- la ségrégation raciale → **séparer les gens selon leur « race »**
+- le tribalisme → **favoriser les gens de sa tribu**
+- le népotisme → **favoriser sa famille pour les emplois**
+- le racisme → **croire qu’un groupe humain est supérieur**
+
+
+Three generated variants:
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): traiter quelqu’un plus mal à cause de ce qu’il est · favoriser sa famille pour les emplois · croire qu’un groupe humain est supérieur · séparer les gens selon leur « race »
+- la discrimination → **traiter quelqu’un plus mal à cause de ce qu’il est**
+- le racisme → **croire qu’un groupe humain est supérieur**
+- la ségrégation raciale → **séparer les gens selon leur « race »**
+- le népotisme → **favoriser sa famille pour les emplois**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> la discrimination → traiter quelqu’un plus mal à cause de ce qu’il est  
+> le racisme → croire qu’un groupe humain est supérieur  
+> la ségrégation raciale → séparer les gens selon leur « race »  
+> le népotisme → favoriser sa famille pour les emplois  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): favoriser les gens de sa tribu · traiter quelqu’un plus mal à cause de ce qu’il est · séparer les gens selon leur « race » · croire qu’un groupe humain est supérieur
+- la discrimination → **traiter quelqu’un plus mal à cause de ce qu’il est**
+- le racisme → **croire qu’un groupe humain est supérieur**
+- la ségrégation raciale → **séparer les gens selon leur « race »**
+- le tribalisme → **favoriser les gens de sa tribu**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> la discrimination → traiter quelqu’un plus mal à cause de ce qu’il est  
+> le racisme → croire qu’un groupe humain est supérieur  
+> la ségrégation raciale → séparer les gens selon leur « race »  
+> le tribalisme → favoriser les gens de sa tribu  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): séparer les gens selon leur « race » · favoriser sa famille pour les emplois · favoriser les gens de sa tribu · croire qu’un groupe humain est supérieur
+- le racisme → **croire qu’un groupe humain est supérieur**
+- le népotisme → **favoriser sa famille pour les emplois**
+- la ségrégation raciale → **séparer les gens selon leur « race »**
+- le tribalisme → **favoriser les gens de sa tribu**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le racisme → croire qu’un groupe humain est supérieur  
+> le népotisme → favoriser sa famille pour les emplois  
+> la ségrégation raciale → séparer les gens selon leur « race »  
+> le tribalisme → favoriser les gens de sa tribu  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-69-paix` · Lesson 69 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle valeur aide à résoudre un conflit entre deux villages ? | le dialogue | la vengeance · le tribalisme · la violence | Elle aggrave le conflit. · Il aggrave le conflit. · Elle aggrave le conflit. | Parler ensemble pour trouver une solution. |
+| Que veut dire « le vivre-ensemble » ? | vivre en paix avec des gens différents | vivre seul · vivre seulement avec sa tribu · refuser les étrangers | C’est le contraire. · C’est le contraire. · C’est le contraire. | Accepter la diversité. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle valeur aide à résoudre un conflit entre deux villages ?
+
+- ◻️ la vengeance  
+  _↳ feedback if chosen: Elle aggrave le conflit._
+- ◻️ la violence  
+  _↳ feedback if chosen: Elle aggrave le conflit._
+- ✅ le dialogue
+- ◻️ le tribalisme  
+  _↳ feedback if chosen: Il aggrave le conflit._
+
+Full working after a second miss:
+
+> Parler ensemble pour trouver une solution.  
+> Donc la réponse est « le dialogue ».  
+
+> Que veut dire « le vivre-ensemble » ?
+
+- ◻️ refuser les étrangers  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ vivre seul  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ vivre seulement avec sa tribu  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ vivre en paix avec des gens différents
+
+Full working after a second miss:
+
+> Accepter la diversité.  
+> Donc la réponse est « vivre en paix avec des gens différents ».  
+
+> Quelle valeur aide à résoudre un conflit entre deux villages ?
+
+- ◻️ le tribalisme  
+  _↳ feedback if chosen: Il aggrave le conflit._
+- ◻️ la vengeance  
+  _↳ feedback if chosen: Elle aggrave le conflit._
+- ◻️ la violence  
+  _↳ feedback if chosen: Elle aggrave le conflit._
+- ✅ le dialogue
+
+Full working after a second miss:
+
+> Parler ensemble pour trouver une solution.  
+> Donc la réponse est « le dialogue ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-69-spot` · Lesson 69 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le népotisme favorise la famille.
+- ✅ Le tribalisme favorise sa tribu.
+- ✅ La tolérance aide la paix.
+- ✅ La discrimination est injuste.
+- ❌ Le racisme est une forme de tolérance.  
+  _↳ Le racisme est le contraire de la tolérance._
+- ❌ Le dialogue aggrave toujours les conflits.  
+  _↳ Le dialogue aide à les résoudre._
+- ❌ La ségrégation rassemble tout le monde.  
+  _↳ Elle sépare les gens._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ La discrimination est injuste.
+- ◻️ La tolérance aide la paix.
+- ◻️ Le népotisme favorise la famille.
+- ✅ La ségrégation rassemble tout le monde.  
+  _↳ explanation: Elle sépare les gens._
+
+Full working after a second miss:
+
+> La phrase fausse est « La ségrégation rassemble tout le monde. ».  
+> Elle sépare les gens.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Le racisme est une forme de tolérance.  
+  _↳ explanation: Le racisme est le contraire de la tolérance._
+- ◻️ La discrimination est injuste.
+- ◻️ La tolérance aide la paix.
+- ◻️ Le népotisme favorise la famille.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le racisme est une forme de tolérance. ».  
+> Le racisme est le contraire de la tolérance.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le tribalisme favorise sa tribu.
+- ✅ Le dialogue aggrave toujours les conflits.  
+  _↳ explanation: Le dialogue aide à les résoudre._
+- ◻️ La discrimination est injuste.
+- ◻️ Le népotisme favorise la famille.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le dialogue aggrave toujours les conflits. ».  
+> Le dialogue aide à les résoudre.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-69-paix-card` · Lesson 69 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle valeur aide à résoudre un conflit entre deux villages ? | le dialogue | la vengeance · le tribalisme · la violence | Elle aggrave le conflit. · Il aggrave le conflit. · Elle aggrave le conflit. | Parler ensemble pour trouver une solution. |
+| Que veut dire « le vivre-ensemble » ? | vivre en paix avec des gens différents | vivre seul · vivre seulement avec sa tribu · refuser les étrangers | C’est le contraire. · C’est le contraire. · C’est le contraire. | Accepter la diversité. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que veut dire « le vivre-ensemble » ?
+
+- ✅ vivre en paix avec des gens différents
+- ◻️ refuser les étrangers  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ vivre seul  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ vivre seulement avec sa tribu  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Accepter la diversité.  
+> Donc la réponse est « vivre en paix avec des gens différents ».  
+
+> Quelle valeur aide à résoudre un conflit entre deux villages ?
+
+- ◻️ le tribalisme  
+  _↳ feedback if chosen: Il aggrave le conflit._
+- ✅ le dialogue
+- ◻️ la violence  
+  _↳ feedback if chosen: Elle aggrave le conflit._
+- ◻️ la vengeance  
+  _↳ feedback if chosen: Elle aggrave le conflit._
+
+Full working after a second miss:
+
+> Parler ensemble pour trouver une solution.  
+> Donc la réponse est « le dialogue ».  
+
+> Quelle valeur aide à résoudre un conflit entre deux villages ?
+
+- ◻️ la vengeance  
+  _↳ feedback if chosen: Elle aggrave le conflit._
+- ✅ le dialogue
+- ◻️ le tribalisme  
+  _↳ feedback if chosen: Il aggrave le conflit._
+- ◻️ la violence  
+  _↳ feedback if chosen: Elle aggrave le conflit._
+
+Full working after a second miss:
+
+> Parler ensemble pour trouver une solution.  
+> Donc la réponse est « le dialogue ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-70-etapes` · Lesson 70 · ordering, level 1
+
+Prompt: Remets les étapes de l’interprétation dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 |
+|---|---|---|---|
+| Présenter le document | Décrire ce qu’on voit | Dire le message | Donner son avis |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+
+
+Three generated variants:
+
+> Remets les étapes de l’interprétation dans l’ordre.
+
+Shown as: Décrire ce qu’on voit · Donner son avis · Présenter le document · Dire le message
+Correct order: Présenter le document → Décrire ce qu’on voit → Dire le message → Donner son avis
+
+Full working after a second miss:
+
+> Le bon ordre est : Présenter le document → Décrire ce qu’on voit → Dire le message → Donner son avis.  
+
+> Remets les étapes de l’interprétation dans l’ordre.
+
+Shown as: Dire le message · Donner son avis · Décrire ce qu’on voit · Présenter le document
+Correct order: Présenter le document → Décrire ce qu’on voit → Dire le message → Donner son avis
+
+Full working after a second miss:
+
+> Le bon ordre est : Présenter le document → Décrire ce qu’on voit → Dire le message → Donner son avis.  
+
+> Remets les étapes de l’interprétation dans l’ordre.
+
+Shown as: Présenter le document · Dire le message · Donner son avis · Décrire ce qu’on voit
+Correct order: Présenter le document → Décrire ce qu’on voit → Dire le message → Donner son avis
+
+Full working after a second miss:
+
+> Le bon ordre est : Présenter le document → Décrire ce qu’on voit → Dire le message → Donner son avis.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-70-slogan` · Lesson 70 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce qu’un slogan ? | une phrase courte et frappante | une longue histoire · une liste de prix · un poème de dix strophes | Il est court. · Ce n’est pas le sens. · Il est court. | Il se retient facilement. |
+| Quel slogan encourage à aller à l’école ? | Un enfant à l’école, un pays qui grandit ! | Fumer tue. · Roulez prudemment. · Lavez-vous les mains. | Il parle du tabac. · Il parle de la route. · Il parle d’hygiène. | Il parle de l’école. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Qu’est-ce qu’un slogan ?
+
+- ✅ une phrase courte et frappante
+- ◻️ un poème de dix strophes  
+  _↳ feedback if chosen: Il est court._
+- ◻️ une liste de prix  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ une longue histoire  
+  _↳ feedback if chosen: Il est court._
+
+Full working after a second miss:
+
+> Il se retient facilement.  
+> Donc la réponse est « une phrase courte et frappante ».  
+
+> Quel slogan encourage à aller à l’école ?
+
+- ◻️ Roulez prudemment.  
+  _↳ feedback if chosen: Il parle de la route._
+- ◻️ Fumer tue.  
+  _↳ feedback if chosen: Il parle du tabac._
+- ◻️ Lavez-vous les mains.  
+  _↳ feedback if chosen: Il parle d’hygiène._
+- ✅ Un enfant à l’école, un pays qui grandit !
+
+Full working after a second miss:
+
+> Il parle de l’école.  
+> Donc la réponse est « Un enfant à l’école, un pays qui grandit ! ».  
+
+> Quel slogan encourage à aller à l’école ?
+
+- ✅ Un enfant à l’école, un pays qui grandit !
+- ◻️ Fumer tue.  
+  _↳ feedback if chosen: Il parle du tabac._
+- ◻️ Lavez-vous les mains.  
+  _↳ feedback if chosen: Il parle d’hygiène._
+- ◻️ Roulez prudemment.  
+  _↳ feedback if chosen: Il parle de la route._
+
+Full working after a second miss:
+
+> Il parle de l’école.  
+> Donc la réponse est « Un enfant à l’école, un pays qui grandit ! ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-70-msg` · Lesson 70 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Un dessin montre un homme qui jette des ordures dans un caniveau, et une inondation derrière lui. Quel est le message ? | Jeter les ordures dans les caniveaux provoque des inondations. | Il faut jeter les ordures partout. · Les inondations sont belles. · Les caniveaux sont inutiles. | C’est le contraire. · Ce n’est pas le message. · Ce n’est pas le message. | Le dessin dénonce un mauvais comportement. |
+| Une affiche montre des enfants de différentes régions qui se tiennent la main. Quel est son message ? | l’unité et le vivre-ensemble | le tribalisme · la guerre · la solitude | C’est le contraire. · C’est le contraire. · C’est le contraire. | Ils sont unis malgré leurs différences. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Une affiche montre des enfants de différentes régions qui se tiennent la main. Quel est son message ?
+
+- ◻️ le tribalisme  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ la guerre  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ la solitude  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ l’unité et le vivre-ensemble
+
+Full working after a second miss:
+
+> Ils sont unis malgré leurs différences.  
+> Donc la réponse est « l’unité et le vivre-ensemble ».  
+
+> Un dessin montre un homme qui jette des ordures dans un caniveau, et une inondation derrière lui. Quel est le message ?
+
+- ◻️ Les caniveaux sont inutiles.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ✅ Jeter les ordures dans les caniveaux provoque des inondations.
+- ◻️ Il faut jeter les ordures partout.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les inondations sont belles.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+
+Full working after a second miss:
+
+> Le dessin dénonce un mauvais comportement.  
+> Donc la réponse est « Jeter les ordures dans les caniveaux provoque des inondations. ».  
+
+> Une affiche montre des enfants de différentes régions qui se tiennent la main. Quel est son message ?
+
+- ◻️ la guerre  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ le tribalisme  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ l’unité et le vivre-ensemble
+- ◻️ la solitude  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Ils sont unis malgré leurs différences.  
+> Donc la réponse est « l’unité et le vivre-ensemble ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-70-spot` · Lesson 70 · spot the error, level 3
+
+Prompt: Quel conseil est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On situe les éléments de l’image.
+- ✅ On lit le slogan.
+- ✅ On dit le message.
+- ✅ On donne son avis.
+- ❌ On donne son avis sans décrire l’image.  
+  _↳ On décrit d’abord._
+- ❌ Le slogan est un long texte.  
+  _↳ C’est une phrase courte._
+- ❌ On ne doit jamais dire à qui s’adresse l’image.  
+  _↳ On dit le public visé._
+
+
+Three generated variants:
+
+> Quel conseil est faux ?
+
+- ◻️ On lit le slogan.
+- ✅ On donne son avis sans décrire l’image.  
+  _↳ explanation: On décrit d’abord._
+- ◻️ On donne son avis.
+- ◻️ On situe les éléments de l’image.
+
+Full working after a second miss:
+
+> La phrase fausse est « On donne son avis sans décrire l’image. ».  
+> On décrit d’abord.  
+
+> Quel conseil est faux ?
+
+- ◻️ On situe les éléments de l’image.
+- ◻️ On dit le message.
+- ✅ On ne doit jamais dire à qui s’adresse l’image.  
+  _↳ explanation: On dit le public visé._
+- ◻️ On lit le slogan.
+
+Full working after a second miss:
+
+> La phrase fausse est « On ne doit jamais dire à qui s’adresse l’image. ».  
+> On dit le public visé.  
+
+> Quel conseil est faux ?
+
+- ◻️ On situe les éléments de l’image.
+- ✅ On ne doit jamais dire à qui s’adresse l’image.  
+  _↳ explanation: On dit le public visé._
+- ◻️ On donne son avis.
+- ◻️ On dit le message.
+
+Full working after a second miss:
+
+> La phrase fausse est « On ne doit jamais dire à qui s’adresse l’image. ».  
+> On dit le public visé.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-70-msg-card` · Lesson 70 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Un dessin montre un homme qui jette des ordures dans un caniveau, et une inondation derrière lui. Quel est le message ? | Jeter les ordures dans les caniveaux provoque des inondations. | Il faut jeter les ordures partout. · Les inondations sont belles. · Les caniveaux sont inutiles. | C’est le contraire. · Ce n’est pas le message. · Ce n’est pas le message. | Le dessin dénonce un mauvais comportement. |
+| Une affiche montre des enfants de différentes régions qui se tiennent la main. Quel est son message ? | l’unité et le vivre-ensemble | le tribalisme · la guerre · la solitude | C’est le contraire. · C’est le contraire. · C’est le contraire. | Ils sont unis malgré leurs différences. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Un dessin montre un homme qui jette des ordures dans un caniveau, et une inondation derrière lui. Quel est le message ?
+
+- ◻️ Il faut jeter les ordures partout.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les inondations sont belles.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ◻️ Les caniveaux sont inutiles.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ✅ Jeter les ordures dans les caniveaux provoque des inondations.
+
+Full working after a second miss:
+
+> Le dessin dénonce un mauvais comportement.  
+> Donc la réponse est « Jeter les ordures dans les caniveaux provoque des inondations. ».  
+
+> Un dessin montre un homme qui jette des ordures dans un caniveau, et une inondation derrière lui. Quel est le message ?
+
+- ◻️ Les caniveaux sont inutiles.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ✅ Jeter les ordures dans les caniveaux provoque des inondations.
+- ◻️ Il faut jeter les ordures partout.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les inondations sont belles.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+
+Full working after a second miss:
+
+> Le dessin dénonce un mauvais comportement.  
+> Donc la réponse est « Jeter les ordures dans les caniveaux provoque des inondations. ».  
+
+> Un dessin montre un homme qui jette des ordures dans un caniveau, et une inondation derrière lui. Quel est le message ?
+
+- ◻️ Les inondations sont belles.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ✅ Jeter les ordures dans les caniveaux provoque des inondations.
+- ◻️ Les caniveaux sont inutiles.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ◻️ Il faut jeter les ordures partout.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Le dessin dénonce un mauvais comportement.  
+> Donc la réponse est « Jeter les ordures dans les caniveaux provoque des inondations. ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-71-obs` · Lesson 71 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Que fait-on en premier devant une série d’images ? | observer chaque image | écrire la conclusion · recopier un autre texte · colorier les images | La conclusion vient à la fin. · On écrit son propre texte. · Ce n’est pas le but. | On regarde qui, où, quand, quoi. |
+| Quelle question aide à observer une image ? | Que se passe-t-il ? | Combien coûte l’image ? · Qui a imprimé le papier ? · Quelle heure est-il maintenant ? | Ce n’est pas utile. · Ce n’est pas utile. · Ce n’est pas l’image. | On cherche l’action. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que fait-on en premier devant une série d’images ?
+
+- ◻️ colorier les images  
+  _↳ feedback if chosen: Ce n’est pas le but._
+- ✅ observer chaque image
+- ◻️ écrire la conclusion  
+  _↳ feedback if chosen: La conclusion vient à la fin._
+- ◻️ recopier un autre texte  
+  _↳ feedback if chosen: On écrit son propre texte._
+
+Full working after a second miss:
+
+> On regarde qui, où, quand, quoi.  
+> Donc la réponse est « observer chaque image ».  
+
+> Quelle question aide à observer une image ?
+
+- ◻️ Qui a imprimé le papier ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ Combien coûte l’image ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ✅ Que se passe-t-il ?
+- ◻️ Quelle heure est-il maintenant ?  
+  _↳ feedback if chosen: Ce n’est pas l’image._
+
+Full working after a second miss:
+
+> On cherche l’action.  
+> Donc la réponse est « Que se passe-t-il ? ».  
+
+> Quelle question aide à observer une image ?
+
+- ◻️ Quelle heure est-il maintenant ?  
+  _↳ feedback if chosen: Ce n’est pas l’image._
+- ◻️ Combien coûte l’image ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ Qui a imprimé le papier ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ✅ Que se passe-t-il ?
+
+Full working after a second miss:
+
+> On cherche l’action.  
+> Donc la réponse est « Que se passe-t-il ? ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-71-lien` · Lesson 71 · ordering, level 1
+
+Prompt: Remets le récit des images dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Un matin, Tabe trouva un porte-monnaie sur la route. | D’abord, il regarda autour de lui, mais il ne vit personne. | Ensuite, il le porta au commissariat. | Enfin, la propriétaire vint le remercier. | L’honnêteté est toujours récompensée. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets le récit des images dans l’ordre.
+
+Shown as: L’honnêteté est toujours récompensée. · Un matin, Tabe trouva un porte-monnaie sur la route. · Enfin, la propriétaire vint le remercier. · D’abord, il regarda autour de lui, mais il ne vit personne. · Ensuite, il le porta au commissariat.
+Correct order: Un matin, Tabe trouva un porte-monnaie sur la route. → D’abord, il regarda autour de lui, mais il ne vit personne. → Ensuite, il le porta au commissariat. → Enfin, la propriétaire vint le remercier. → L’honnêteté est toujours récompensée.
+
+Full working after a second miss:
+
+> Le bon ordre est : Un matin, Tabe trouva un porte-monnaie sur la route. → D’abord, il regarda autour de lui, mais il ne vit personne. → Ensuite, il le porta au commissariat. → Enfin, la propriétaire vint le remercier. → L’honnêteté est toujours récompensée..  
+
+> Remets le récit des images dans l’ordre.
+
+Shown as: Ensuite, il le porta au commissariat. · L’honnêteté est toujours récompensée. · Un matin, Tabe trouva un porte-monnaie sur la route. · D’abord, il regarda autour de lui, mais il ne vit personne. · Enfin, la propriétaire vint le remercier.
+Correct order: Un matin, Tabe trouva un porte-monnaie sur la route. → D’abord, il regarda autour de lui, mais il ne vit personne. → Ensuite, il le porta au commissariat. → Enfin, la propriétaire vint le remercier. → L’honnêteté est toujours récompensée.
+
+Full working after a second miss:
+
+> Le bon ordre est : Un matin, Tabe trouva un porte-monnaie sur la route. → D’abord, il regarda autour de lui, mais il ne vit personne. → Ensuite, il le porta au commissariat. → Enfin, la propriétaire vint le remercier. → L’honnêteté est toujours récompensée..  
+
+> Remets le récit des images dans l’ordre.
+
+Shown as: Un matin, Tabe trouva un porte-monnaie sur la route. · D’abord, il regarda autour de lui, mais il ne vit personne. · Enfin, la propriétaire vint le remercier. · Ensuite, il le porta au commissariat. · L’honnêteté est toujours récompensée.
+Correct order: Un matin, Tabe trouva un porte-monnaie sur la route. → D’abord, il regarda autour de lui, mais il ne vit personne. → Ensuite, il le porta au commissariat. → Enfin, la propriétaire vint le remercier. → L’honnêteté est toujours récompensée.
+
+Full working after a second miss:
+
+> Le bon ordre est : Un matin, Tabe trouva un porte-monnaie sur la route. → D’abord, il regarda autour de lui, mais il ne vit personne. → Ensuite, il le porta au commissariat. → Enfin, la propriétaire vint le remercier. → L’honnêteté est toujours récompensée..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-71-concl` · Lesson 71 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Images : un élève ne révise pas, il échoue ; il travaille, il réussit. Quelle est la meilleure conclusion ? | Le travail mène au succès. | Il faisait beau. · Il y avait un arbre. · L’école est loin. | C’est un détail. · C’est un détail. · Ce n’est pas la leçon. | La conclusion donne la leçon. |
+| Que faut-il faire après avoir écrit son texte ? | le relire pour corriger les fautes | le jeter · l’écrire en majuscules · ajouter des images | Il faut le garder. · Ce n’est pas utile. · On demande un texte. | On vérifie majuscules, points, accords. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que faut-il faire après avoir écrit son texte ?
+
+- ◻️ le jeter  
+  _↳ feedback if chosen: Il faut le garder._
+- ✅ le relire pour corriger les fautes
+- ◻️ l’écrire en majuscules  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ ajouter des images  
+  _↳ feedback if chosen: On demande un texte._
+
+Full working after a second miss:
+
+> On vérifie majuscules, points, accords.  
+> Donc la réponse est « le relire pour corriger les fautes ».  
+
+> Que faut-il faire après avoir écrit son texte ?
+
+- ◻️ l’écrire en majuscules  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ✅ le relire pour corriger les fautes
+- ◻️ ajouter des images  
+  _↳ feedback if chosen: On demande un texte._
+- ◻️ le jeter  
+  _↳ feedback if chosen: Il faut le garder._
+
+Full working after a second miss:
+
+> On vérifie majuscules, points, accords.  
+> Donc la réponse est « le relire pour corriger les fautes ».  
+
+> Que faut-il faire après avoir écrit son texte ?
+
+- ◻️ le jeter  
+  _↳ feedback if chosen: Il faut le garder._
+- ✅ le relire pour corriger les fautes
+- ◻️ l’écrire en majuscules  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ ajouter des images  
+  _↳ feedback if chosen: On demande un texte._
+
+Full working after a second miss:
+
+> On vérifie majuscules, points, accords.  
+> Donc la réponse est « le relire pour corriger les fautes ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-71-spot` · Lesson 71 · spot the error, level 3
+
+Prompt: Quel conseil est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On observe chaque image.
+- ✅ On met les images dans l’ordre.
+- ✅ On utilise des mots de liaison.
+- ✅ On relit son texte.
+- ❌ On écrit sans regarder les images.  
+  _↳ On observe d’abord._
+- ❌ On ne met jamais de conclusion.  
+  _↳ On termine par une conclusion ou une morale._
+- ❌ On écrit dix pages pour une image.  
+  _↳ Une ou deux phrases par image suffisent._
+
+
+Three generated variants:
+
+> Quel conseil est faux ?
+
+- ◻️ On utilise des mots de liaison.
+- ✅ On écrit sans regarder les images.  
+  _↳ explanation: On observe d’abord._
+- ◻️ On met les images dans l’ordre.
+- ◻️ On relit son texte.
+
+Full working after a second miss:
+
+> La phrase fausse est « On écrit sans regarder les images. ».  
+> On observe d’abord.  
+
+> Quel conseil est faux ?
+
+- ✅ On écrit dix pages pour une image.  
+  _↳ explanation: Une ou deux phrases par image suffisent._
+- ◻️ On observe chaque image.
+- ◻️ On utilise des mots de liaison.
+- ◻️ On met les images dans l’ordre.
+
+Full working after a second miss:
+
+> La phrase fausse est « On écrit dix pages pour une image. ».  
+> Une ou deux phrases par image suffisent.  
+
+> Quel conseil est faux ?
+
+- ◻️ On relit son texte.
+- ✅ On ne met jamais de conclusion.  
+  _↳ explanation: On termine par une conclusion ou une morale._
+- ◻️ On observe chaque image.
+- ◻️ On utilise des mots de liaison.
+
+Full working after a second miss:
+
+> La phrase fausse est « On ne met jamais de conclusion. ».  
+> On termine par une conclusion ou une morale.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-71-concl-card` · Lesson 71 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Images : un élève ne révise pas, il échoue ; il travaille, il réussit. Quelle est la meilleure conclusion ? | Le travail mène au succès. | Il faisait beau. · Il y avait un arbre. · L’école est loin. | C’est un détail. · C’est un détail. · Ce n’est pas la leçon. | La conclusion donne la leçon. |
+| Que faut-il faire après avoir écrit son texte ? | le relire pour corriger les fautes | le jeter · l’écrire en majuscules · ajouter des images | Il faut le garder. · Ce n’est pas utile. · On demande un texte. | On vérifie majuscules, points, accords. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que faut-il faire après avoir écrit son texte ?
+
+- ◻️ l’écrire en majuscules  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ le jeter  
+  _↳ feedback if chosen: Il faut le garder._
+- ◻️ ajouter des images  
+  _↳ feedback if chosen: On demande un texte._
+- ✅ le relire pour corriger les fautes
+
+Full working after a second miss:
+
+> On vérifie majuscules, points, accords.  
+> Donc la réponse est « le relire pour corriger les fautes ».  
+
+> Images : un élève ne révise pas, il échoue ; il travaille, il réussit. Quelle est la meilleure conclusion ?
+
+- ◻️ L’école est loin.  
+  _↳ feedback if chosen: Ce n’est pas la leçon._
+- ◻️ Il faisait beau.  
+  _↳ feedback if chosen: C’est un détail._
+- ✅ Le travail mène au succès.
+- ◻️ Il y avait un arbre.  
+  _↳ feedback if chosen: C’est un détail._
+
+Full working after a second miss:
+
+> La conclusion donne la leçon.  
+> Donc la réponse est « Le travail mène au succès. ».  
+
+> Images : un élève ne révise pas, il échoue ; il travaille, il réussit. Quelle est la meilleure conclusion ?
+
+- ◻️ Il y avait un arbre.  
+  _↳ feedback if chosen: C’est un détail._
+- ◻️ Il faisait beau.  
+  _↳ feedback if chosen: C’est un détail._
+- ◻️ L’école est loin.  
+  _↳ feedback if chosen: Ce n’est pas la leçon._
+- ✅ Le travail mène au succès.
+
+Full working after a second miss:
+
+> La conclusion donne la leçon.  
+> Donc la réponse est « Le travail mène au succès. ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-72-quoi` · Lesson 72 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle phrase est interro-négative ? | N’avez-vous pas vu le directeur ? | Avez-vous vu le directeur ? · Vous n’avez pas vu le directeur. · Voyez le directeur ! | Elle n’est pas négative. · Ce n’est pas une question. · C’est un ordre. | Question + négation. |
+| Quelle phrase est interro-négative ? | Ton frère ne joue-t-il pas au football ? | Ton frère joue au football. · Ton frère joue-t-il au football ? · Ton frère ne joue pas au football. | Ni question ni négation. · Pas de négation. · Pas de question. | Question + négation. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle phrase est interro-négative ?
+
+- ◻️ Vous n’avez pas vu le directeur.  
+  _↳ feedback if chosen: Ce n’est pas une question._
+- ◻️ Avez-vous vu le directeur ?  
+  _↳ feedback if chosen: Elle n’est pas négative._
+- ✅ N’avez-vous pas vu le directeur ?
+- ◻️ Voyez le directeur !  
+  _↳ feedback if chosen: C’est un ordre._
+
+Full working after a second miss:
+
+> Question + négation.  
+> Donc la réponse est « N’avez-vous pas vu le directeur ? ».  
+
+> Quelle phrase est interro-négative ?
+
+- ◻️ Ton frère joue-t-il au football ?  
+  _↳ feedback if chosen: Pas de négation._
+- ◻️ Ton frère ne joue pas au football.  
+  _↳ feedback if chosen: Pas de question._
+- ◻️ Ton frère joue au football.  
+  _↳ feedback if chosen: Ni question ni négation._
+- ✅ Ton frère ne joue-t-il pas au football ?
+
+Full working after a second miss:
+
+> Question + négation.  
+> Donc la réponse est « Ton frère ne joue-t-il pas au football ? ».  
+
+> Quelle phrase est interro-négative ?
+
+- ✅ Ton frère ne joue-t-il pas au football ?
+- ◻️ Ton frère ne joue pas au football.  
+  _↳ feedback if chosen: Pas de question._
+- ◻️ Ton frère joue-t-il au football ?  
+  _↳ feedback if chosen: Pas de négation._
+- ◻️ Ton frère joue au football.  
+  _↳ feedback if chosen: Ni question ni négation._
+
+Full working after a second miss:
+
+> Question + négation.  
+> Donc la réponse est « Ton frère ne joue-t-il pas au football ? ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-72-inv` · Lesson 72 · multiple choice, level 2
+
+Prompt: Mets à la forme interro-négative avec inversion : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| « Elle mange du riz. » | Ne mange-t-elle pas de riz ? | Ne mange-elle pas de riz ? · Mange-t-elle pas de riz ? · Ne elle mange pas de riz ? | Il faut -t-. · Il manque « ne ». · Le pronom suit le verbe. | -t- entre deux voyelles. |
+| « Vous êtes allés au marché. » | N’êtes-vous pas allés au marché ? | Ne vous êtes pas allés au marché ? · Êtes-vous pas allés au marché ? · N’êtes pas-vous allés au marché ? | Le pronom suit l’auxiliaire. · Il manque « ne ». · « pas » suit le pronom. | La négation entoure l’auxiliaire inversé. |
+| « Paul a fini. » | Paul n’a-t-il pas fini ? | N’a Paul pas fini ? · Paul a-t-il pas fini ? · Paul ne a-t-il pas fini ? | Avec un nom sujet, on ajoute un pronom. · Il manque « ne ». · « ne » devient « n’ » devant a. | Nom + ne + verbe-pronom + pas. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Mets à la forme interro-négative avec inversion : « Elle mange du riz. »
+
+- ◻️ Mange-t-elle pas de riz ?  
+  _↳ feedback if chosen: Il manque « ne »._
+- ◻️ Ne mange-elle pas de riz ?  
+  _↳ feedback if chosen: Il faut -t-._
+- ◻️ Ne elle mange pas de riz ?  
+  _↳ feedback if chosen: Le pronom suit le verbe._
+- ✅ Ne mange-t-elle pas de riz ?
+
+Full working after a second miss:
+
+> -t- entre deux voyelles.  
+> Donc la réponse est « Ne mange-t-elle pas de riz ? ».  
+
+> Mets à la forme interro-négative avec inversion : « Elle mange du riz. »
+
+- ◻️ Mange-t-elle pas de riz ?  
+  _↳ feedback if chosen: Il manque « ne »._
+- ◻️ Ne mange-elle pas de riz ?  
+  _↳ feedback if chosen: Il faut -t-._
+- ◻️ Ne elle mange pas de riz ?  
+  _↳ feedback if chosen: Le pronom suit le verbe._
+- ✅ Ne mange-t-elle pas de riz ?
+
+Full working after a second miss:
+
+> -t- entre deux voyelles.  
+> Donc la réponse est « Ne mange-t-elle pas de riz ? ».  
+
+> Mets à la forme interro-négative avec inversion : « Vous êtes allés au marché. »
+
+- ✅ N’êtes-vous pas allés au marché ?
+- ◻️ N’êtes pas-vous allés au marché ?  
+  _↳ feedback if chosen: « pas » suit le pronom._
+- ◻️ Ne vous êtes pas allés au marché ?  
+  _↳ feedback if chosen: Le pronom suit l’auxiliaire._
+- ◻️ Êtes-vous pas allés au marché ?  
+  _↳ feedback if chosen: Il manque « ne »._
+
+Full working after a second miss:
+
+> La négation entoure l’auxiliaire inversé.  
+> Donc la réponse est « N’êtes-vous pas allés au marché ? ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-72-si` · Lesson 72 · fill the blank, level 1
+
+Prompt: Choisis la bonne réponse.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| « Tu n’aimes pas le koki ? » — « ___, je l’adore ! » | Si | Oui · Non | Après une question négative, on dit « si ». · « Non » contredit la suite. |
+| « Il n’est pas venu ? » — « ___, il est malade. » | Non | Si · Oui | « Si » voudrait dire qu’il est venu. · On ne dit pas « oui ». |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne réponse.
+
+Sentence: **« Tu n’aimes pas le koki ? » — « ___, je l’adore ! »**
+- ◻️ Oui  
+  _↳ feedback if chosen: Après une question négative, on dit « si »._
+- ✅ Si
+- ◻️ Non  
+  _↳ feedback if chosen: « Non » contredit la suite._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Si ».  
+> « Tu n’aimes pas le koki ? » — « Si, je l’adore ! »  
+
+> Choisis la bonne réponse.
+
+Sentence: **« Tu n’aimes pas le koki ? » — « ___, je l’adore ! »**
+- ◻️ Non  
+  _↳ feedback if chosen: « Non » contredit la suite._
+- ✅ Si
+- ◻️ Oui  
+  _↳ feedback if chosen: Après une question négative, on dit « si »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Si ».  
+> « Tu n’aimes pas le koki ? » — « Si, je l’adore ! »  
+
+> Choisis la bonne réponse.
+
+Sentence: **« Il n’est pas venu ? » — « ___, il est malade. »**
+- ◻️ Si  
+  _↳ feedback if chosen: « Si » voudrait dire qu’il est venu._
+- ◻️ Oui  
+  _↳ feedback if chosen: On ne dit pas « oui »._
+- ✅ Non
+
+Full working after a second miss:
+
+> Le mot qui manque est « Non ».  
+> « Il n’est pas venu ? » — « Non, il est malade. »  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-72-spot` · Lesson 72 · spot the error, level 3
+
+Prompt: Quelle phrase est mal écrite ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Ne viens-tu pas ?
+- ✅ N’a-t-il pas mangé ?
+- ✅ Ta mère ne vient-elle pas ?
+- ✅ Est-ce que tu ne dors pas ?
+- ❌ Ne a-t-il pas mangé ?  
+  _↳ Devant une voyelle : N’a-t-il pas mangé ?_
+- ❌ Ne parle-il pas ?  
+  _↳ Il faut -t- : Ne parle-t-il pas ?_
+- ❌ Ne ta mère vient-elle pas ?  
+  _↳ On écrit : Ta mère ne vient-elle pas ?_
+
+
+Three generated variants:
+
+> Quelle phrase est mal écrite ?
+
+- ◻️ Est-ce que tu ne dors pas ?
+- ✅ Ne ta mère vient-elle pas ?  
+  _↳ explanation: On écrit : Ta mère ne vient-elle pas ?_
+- ◻️ N’a-t-il pas mangé ?
+- ◻️ Ta mère ne vient-elle pas ?
+
+Full working after a second miss:
+
+> La phrase fausse est « Ne ta mère vient-elle pas ? ».  
+> On écrit : Ta mère ne vient-elle pas ?  
+
+> Quelle phrase est mal écrite ?
+
+- ◻️ Ta mère ne vient-elle pas ?
+- ✅ Ne parle-il pas ?  
+  _↳ explanation: Il faut -t- : Ne parle-t-il pas ?_
+- ◻️ N’a-t-il pas mangé ?
+- ◻️ Est-ce que tu ne dors pas ?
+
+Full working after a second miss:
+
+> La phrase fausse est « Ne parle-il pas ? ».  
+> Il faut -t- : Ne parle-t-il pas ?  
+
+> Quelle phrase est mal écrite ?
+
+- ✅ Ne a-t-il pas mangé ?  
+  _↳ explanation: Devant une voyelle : N’a-t-il pas mangé ?_
+- ◻️ N’a-t-il pas mangé ?
+- ◻️ Ta mère ne vient-elle pas ?
+- ◻️ Est-ce que tu ne dors pas ?
+
+Full working after a second miss:
+
+> La phrase fausse est « Ne a-t-il pas mangé ? ».  
+> Devant une voyelle : N’a-t-il pas mangé ?  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-72-inv-card` · Lesson 72 · multiple choice, level 1
+
+Prompt: Mets à la forme interro-négative avec inversion : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| « Elle mange du riz. » | Ne mange-t-elle pas de riz ? | Ne mange-elle pas de riz ? · Mange-t-elle pas de riz ? · Ne elle mange pas de riz ? | Il faut -t-. · Il manque « ne ». · Le pronom suit le verbe. | -t- entre deux voyelles. |
+| « Vous êtes allés au marché. » | N’êtes-vous pas allés au marché ? | Ne vous êtes pas allés au marché ? · Êtes-vous pas allés au marché ? · N’êtes pas-vous allés au marché ? | Le pronom suit l’auxiliaire. · Il manque « ne ». · « pas » suit le pronom. | La négation entoure l’auxiliaire inversé. |
+| « Paul a fini. » | Paul n’a-t-il pas fini ? | N’a Paul pas fini ? · Paul a-t-il pas fini ? · Paul ne a-t-il pas fini ? | Avec un nom sujet, on ajoute un pronom. · Il manque « ne ». · « ne » devient « n’ » devant a. | Nom + ne + verbe-pronom + pas. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Mets à la forme interro-négative avec inversion : « Paul a fini. »
+
+- ◻️ Paul ne a-t-il pas fini ?  
+  _↳ feedback if chosen: « ne » devient « n’ » devant a._
+- ✅ Paul n’a-t-il pas fini ?
+- ◻️ Paul a-t-il pas fini ?  
+  _↳ feedback if chosen: Il manque « ne »._
+- ◻️ N’a Paul pas fini ?  
+  _↳ feedback if chosen: Avec un nom sujet, on ajoute un pronom._
+
+Full working after a second miss:
+
+> Nom + ne + verbe-pronom + pas.  
+> Donc la réponse est « Paul n’a-t-il pas fini ? ».  
+
+> Mets à la forme interro-négative avec inversion : « Paul a fini. »
+
+- ◻️ Paul a-t-il pas fini ?  
+  _↳ feedback if chosen: Il manque « ne »._
+- ◻️ N’a Paul pas fini ?  
+  _↳ feedback if chosen: Avec un nom sujet, on ajoute un pronom._
+- ✅ Paul n’a-t-il pas fini ?
+- ◻️ Paul ne a-t-il pas fini ?  
+  _↳ feedback if chosen: « ne » devient « n’ » devant a._
+
+Full working after a second miss:
+
+> Nom + ne + verbe-pronom + pas.  
+> Donc la réponse est « Paul n’a-t-il pas fini ? ».  
+
+> Mets à la forme interro-négative avec inversion : « Elle mange du riz. »
+
+- ◻️ Ne elle mange pas de riz ?  
+  _↳ feedback if chosen: Le pronom suit le verbe._
+- ✅ Ne mange-t-elle pas de riz ?
+- ◻️ Ne mange-elle pas de riz ?  
+  _↳ feedback if chosen: Il faut -t-._
+- ◻️ Mange-t-elle pas de riz ?  
+  _↳ feedback if chosen: Il manque « ne »._
+
+Full working after a second miss:
+
+> -t- entre deux voyelles.  
+> Donc la réponse est « Ne mange-t-elle pas de riz ? ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-73-e` · Lesson 73 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Pendant l’___, il fait très chaud. | été | éter · étez | C’est un nom : été. · C’est un nom. |
+| Vous chant___ très bien. | chantez | chanter · chanté | Avec « vous » : -ez. · Avec « vous » : -ez. |
+| J’ai une bonne ___. | idée | idé · ider | « idée » est un nom féminin en -ée. · Ce mot n’existe pas. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **J’ai une bonne ___.**
+- ◻️ idé  
+  _↳ feedback if chosen: « idée » est un nom féminin en -ée._
+- ◻️ ider  
+  _↳ feedback if chosen: Ce mot n’existe pas._
+- ✅ idée
+
+Full working after a second miss:
+
+> Le mot qui manque est « idée ».  
+> J’ai une bonne idée.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Vous chant___ très bien.**
+- ◻️ chanter  
+  _↳ feedback if chosen: Avec « vous » : -ez._
+- ✅ chantez
+- ◻️ chanté  
+  _↳ feedback if chosen: Avec « vous » : -ez._
+
+Full working after a second miss:
+
+> Le mot qui manque est « chantez ».  
+> Vous chantchantez très bien.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Vous chant___ très bien.**
+- ◻️ chanté  
+  _↳ feedback if chosen: Avec « vous » : -ez._
+- ✅ chantez
+- ◻️ chanter  
+  _↳ feedback if chosen: Avec « vous » : -ez._
+
+Full working after a second miss:
+
+> Le mot qui manque est « chantez ».  
+> Vous chantchantez très bien.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-73-ib` · Lesson 73 · fill the blank, level 2
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| J’ai perdu mon ___. | stylo | stilo · stïlo | « stylo » s’écrit avec y. · Pas de tréma. |
+| Le chef a décidé de ___ le voleur. | bannir | banir · bbanir | Deux n. · Un seul b. |
+| Le ___ pousse bien cette année. | maïs | mais · maïz | « mais » est une conjonction. · On écrit s. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Le chef a décidé de ___ le voleur.**
+- ✅ bannir
+- ◻️ banir  
+  _↳ feedback if chosen: Deux n._
+- ◻️ bbanir  
+  _↳ feedback if chosen: Un seul b._
+
+Full working after a second miss:
+
+> Le mot qui manque est « bannir ».  
+> Le chef a décidé de bannir le voleur.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Le ___ pousse bien cette année.**
+- ✅ maïs
+- ◻️ mais  
+  _↳ feedback if chosen: « mais » est une conjonction._
+- ◻️ maïz  
+  _↳ feedback if chosen: On écrit s._
+
+Full working after a second miss:
+
+> Le mot qui manque est « maïs ».  
+> Le maïs pousse bien cette année.  
+
+> Choisis la bonne écriture.
+
+Sentence: **J’ai perdu mon ___.**
+- ◻️ stïlo  
+  _↳ feedback if chosen: Pas de tréma._
+- ✅ stylo
+- ◻️ stilo  
+  _↳ feedback if chosen: « stylo » s’écrit avec y._
+
+Full working after a second miss:
+
+> Le mot qui manque est « stylo ».  
+> J’ai perdu mon stylo.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-73-spot` · Lesson 73 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Il veut voyager.
+- ✅ Nous avons mangé.
+- ✅ Vous chantez bien.
+- ✅ J’ai une idée.
+- ❌ Il a voyager à Garoua.  
+  _↳ « il a vendu » : il a voyagé._
+- ❌ Elle va chanté demain.  
+  _↳ « elle va vendre » : elle va chanter._
+- ❌ Vous chanté très fort.  
+  _↳ Avec « vous » : vous chantez._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ✅ Vous chanté très fort.  
+  _↳ explanation: Avec « vous » : vous chantez._
+- ◻️ Nous avons mangé.
+- ◻️ J’ai une idée.
+- ◻️ Il veut voyager.
+
+Full working after a second miss:
+
+> La phrase fausse est « Vous chanté très fort. ».  
+> Avec « vous » : vous chantez.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Il a voyager à Garoua.  
+  _↳ explanation: « il a vendu » : il a voyagé._
+- ◻️ Il veut voyager.
+- ◻️ Nous avons mangé.
+- ◻️ Vous chantez bien.
+
+Full working after a second miss:
+
+> La phrase fausse est « Il a voyager à Garoua. ».  
+> « il a vendu » : il a voyagé.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Nous avons mangé.
+- ◻️ Il veut voyager.
+- ◻️ Vous chantez bien.
+- ✅ Il a voyager à Garoua.  
+  _↳ explanation: « il a vendu » : il a voyagé._
+
+Full working after a second miss:
+
+> La phrase fausse est « Il a voyager à Garoua. ».  
+> « il a vendu » : il a voyagé.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-73-ib-card` · Lesson 73 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| J’ai perdu mon ___. | stylo | stilo · stïlo | « stylo » s’écrit avec y. · Pas de tréma. |
+| Le chef a décidé de ___ le voleur. | bannir | banir · bbanir | Deux n. · Un seul b. |
+| Le ___ pousse bien cette année. | maïs | mais · maïz | « mais » est une conjonction. · On écrit s. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Le ___ pousse bien cette année.**
+- ✅ maïs
+- ◻️ mais  
+  _↳ feedback if chosen: « mais » est une conjonction._
+- ◻️ maïz  
+  _↳ feedback if chosen: On écrit s._
+
+Full working after a second miss:
+
+> Le mot qui manque est « maïs ».  
+> Le maïs pousse bien cette année.  
+
+> Choisis la bonne écriture.
+
+Sentence: **J’ai perdu mon ___.**
+- ✅ stylo
+- ◻️ stïlo  
+  _↳ feedback if chosen: Pas de tréma._
+- ◻️ stilo  
+  _↳ feedback if chosen: « stylo » s’écrit avec y._
+
+Full working after a second miss:
+
+> Le mot qui manque est « stylo ».  
+> J’ai perdu mon stylo.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Le chef a décidé de ___ le voleur.**
+- ✅ bannir
+- ◻️ bbanir  
+  _↳ feedback if chosen: Un seul b._
+- ◻️ banir  
+  _↳ feedback if chosen: Deux n._
+
+Full working after a second miss:
+
+> Le mot qui manque est « bannir ».  
+> Le chef a décidé de bannir le voleur.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-74-droit` · Lesson 74 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel est un droit de l’enfant ? | aller à l’école | travailler dans la rue · être marié jeune · être battu | C’est une violence. · C’est une violence. · C’est une violence. | Le droit à l’éducation. |
+| Que veut dire « une victime » ? | la personne qui subit la violence | la personne qui frappe · un policier · un juge | C’est l’agresseur. · Il protège. · Il juge. | Elle subit le mal. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que veut dire « une victime » ?
+
+- ◻️ un policier  
+  _↳ feedback if chosen: Il protège._
+- ✅ la personne qui subit la violence
+- ◻️ la personne qui frappe  
+  _↳ feedback if chosen: C’est l’agresseur._
+- ◻️ un juge  
+  _↳ feedback if chosen: Il juge._
+
+Full working after a second miss:
+
+> Elle subit le mal.  
+> Donc la réponse est « la personne qui subit la violence ».  
+
+> Que veut dire « une victime » ?
+
+- ◻️ un juge  
+  _↳ feedback if chosen: Il juge._
+- ◻️ un policier  
+  _↳ feedback if chosen: Il protège._
+- ✅ la personne qui subit la violence
+- ◻️ la personne qui frappe  
+  _↳ feedback if chosen: C’est l’agresseur._
+
+Full working after a second miss:
+
+> Elle subit le mal.  
+> Donc la réponse est « la personne qui subit la violence ».  
+
+> Quel est un droit de l’enfant ?
+
+- ◻️ travailler dans la rue  
+  _↳ feedback if chosen: C’est une violence._
+- ◻️ être marié jeune  
+  _↳ feedback if chosen: C’est une violence._
+- ◻️ être battu  
+  _↳ feedback if chosen: C’est une violence._
+- ✅ aller à l’école
+
+Full working after a second miss:
+
+> Le droit à l’éducation.  
+> Donc la réponse est « aller à l’école ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-74-aide` · Lesson 74 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Ton amie te dit que son oncle la frappe. Que fais-tu ? | Je l’encourage à en parler à un adulte de confiance et je l’accompagne. | Je garde le secret pour toujours. · Je me moque d’elle. · Je lui dis que c’est normal. | Le silence laisse continuer la violence. · C’est cruel. · Ce n’est pas normal. | Il faut protéger la victime. |
+| Que veut dire « porter plainte » ? | dénoncer une violence à la police ou à la justice | porter un sac lourd · se plaindre du temps · pleurer seul | Ce n’est pas le sens. · Ce n’est pas le sens. · Ce n’est pas le sens. | On demande justice. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que veut dire « porter plainte » ?
+
+- ◻️ se plaindre du temps  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ pleurer seul  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ porter un sac lourd  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ dénoncer une violence à la police ou à la justice
+
+Full working after a second miss:
+
+> On demande justice.  
+> Donc la réponse est « dénoncer une violence à la police ou à la justice ».  
+
+> Ton amie te dit que son oncle la frappe. Que fais-tu ?
+
+- ◻️ Je garde le secret pour toujours.  
+  _↳ feedback if chosen: Le silence laisse continuer la violence._
+- ✅ Je l’encourage à en parler à un adulte de confiance et je l’accompagne.
+- ◻️ Je me moque d’elle.  
+  _↳ feedback if chosen: C’est cruel._
+- ◻️ Je lui dis que c’est normal.  
+  _↳ feedback if chosen: Ce n’est pas normal._
+
+Full working after a second miss:
+
+> Il faut protéger la victime.  
+> Donc la réponse est « Je l’encourage à en parler à un adulte de confiance et je l’accompagne. ».  
+
+> Ton amie te dit que son oncle la frappe. Que fais-tu ?
+
+- ◻️ Je garde le secret pour toujours.  
+  _↳ feedback if chosen: Le silence laisse continuer la violence._
+- ✅ Je l’encourage à en parler à un adulte de confiance et je l’accompagne.
+- ◻️ Je me moque d’elle.  
+  _↳ feedback if chosen: C’est cruel._
+- ◻️ Je lui dis que c’est normal.  
+  _↳ feedback if chosen: Ce n’est pas normal._
+
+Full working after a second miss:
+
+> Il faut protéger la victime.  
+> Donc la réponse est « Je l’encourage à en parler à un adulte de confiance et je l’accompagne. ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-74-spot` · Lesson 74 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Frapper est une violence physique.
+- ✅ Insulter est une violence verbale.
+- ✅ Le travail des enfants viole leurs droits.
+- ✅ On peut parler à un adulte de confiance.
+- ❌ Une victime doit toujours garder le silence.  
+  _↳ Elle doit en parler pour être protégée._
+- ❌ Le mariage précoce protège les filles.  
+  _↳ C’est une violence qui viole leurs droits._
+- ❌ Humilier un enfant n’est pas une violence.  
+  _↳ C’est une violence psychologique._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ On peut parler à un adulte de confiance.
+- ◻️ Insulter est une violence verbale.
+- ✅ Le mariage précoce protège les filles.  
+  _↳ explanation: C’est une violence qui viole leurs droits._
+- ◻️ Le travail des enfants viole leurs droits.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le mariage précoce protège les filles. ».  
+> C’est une violence qui viole leurs droits.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le travail des enfants viole leurs droits.
+- ◻️ Frapper est une violence physique.
+- ✅ Humilier un enfant n’est pas une violence.  
+  _↳ explanation: C’est une violence psychologique._
+- ◻️ Insulter est une violence verbale.
+
+Full working after a second miss:
+
+> La phrase fausse est « Humilier un enfant n’est pas une violence. ».  
+> C’est une violence psychologique.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Frapper est une violence physique.
+- ◻️ Insulter est une violence verbale.
+- ✅ Une victime doit toujours garder le silence.  
+  _↳ explanation: Elle doit en parler pour être protégée._
+- ◻️ Le travail des enfants viole leurs droits.
+
+Full working after a second miss:
+
+> La phrase fausse est « Une victime doit toujours garder le silence. ».  
+> Elle doit en parler pour être protégée.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-74-aide-card` · Lesson 74 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Ton amie te dit que son oncle la frappe. Que fais-tu ? | Je l’encourage à en parler à un adulte de confiance et je l’accompagne. | Je garde le secret pour toujours. · Je me moque d’elle. · Je lui dis que c’est normal. | Le silence laisse continuer la violence. · C’est cruel. · Ce n’est pas normal. | Il faut protéger la victime. |
+| Que veut dire « porter plainte » ? | dénoncer une violence à la police ou à la justice | porter un sac lourd · se plaindre du temps · pleurer seul | Ce n’est pas le sens. · Ce n’est pas le sens. · Ce n’est pas le sens. | On demande justice. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Ton amie te dit que son oncle la frappe. Que fais-tu ?
+
+- ✅ Je l’encourage à en parler à un adulte de confiance et je l’accompagne.
+- ◻️ Je garde le secret pour toujours.  
+  _↳ feedback if chosen: Le silence laisse continuer la violence._
+- ◻️ Je me moque d’elle.  
+  _↳ feedback if chosen: C’est cruel._
+- ◻️ Je lui dis que c’est normal.  
+  _↳ feedback if chosen: Ce n’est pas normal._
+
+Full working after a second miss:
+
+> Il faut protéger la victime.  
+> Donc la réponse est « Je l’encourage à en parler à un adulte de confiance et je l’accompagne. ».  
+
+> Que veut dire « porter plainte » ?
+
+- ◻️ pleurer seul  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ porter un sac lourd  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ se plaindre du temps  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ dénoncer une violence à la police ou à la justice
+
+Full working after a second miss:
+
+> On demande justice.  
+> Donc la réponse est « dénoncer une violence à la police ou à la justice ».  
+
+> Ton amie te dit que son oncle la frappe. Que fais-tu ?
+
+- ◻️ Je lui dis que c’est normal.  
+  _↳ feedback if chosen: Ce n’est pas normal._
+- ◻️ Je me moque d’elle.  
+  _↳ feedback if chosen: C’est cruel._
+- ✅ Je l’encourage à en parler à un adulte de confiance et je l’accompagne.
+- ◻️ Je garde le secret pour toujours.  
+  _↳ feedback if chosen: Le silence laisse continuer la violence._
+
+Full working after a second miss:
+
+> Il faut protéger la victime.  
+> Donc la réponse est « Je l’encourage à en parler à un adulte de confiance et je l’accompagne. ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-75-mot` · Lesson 75 · matching, level 1
+
+Prompt: Associe chaque mot à sa définition.
+
+Pairs (4 shown each time):
+
+- l’entraîneur → **il prépare les joueurs**
+- l’arbitre → **il fait respecter les règles**
+- la finale → **le dernier match qui désigne le vainqueur**
+- le record → **la meilleure performance jamais réalisée**
+- le supporter → **il encourage son équipe**
+
+
+Three generated variants:
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): le dernier match qui désigne le vainqueur · il prépare les joueurs · il encourage son équipe · la meilleure performance jamais réalisée
+- le record → **la meilleure performance jamais réalisée**
+- le supporter → **il encourage son équipe**
+- la finale → **le dernier match qui désigne le vainqueur**
+- l’entraîneur → **il prépare les joueurs**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le record → la meilleure performance jamais réalisée  
+> le supporter → il encourage son équipe  
+> la finale → le dernier match qui désigne le vainqueur  
+> l’entraîneur → il prépare les joueurs  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): il prépare les joueurs · le dernier match qui désigne le vainqueur · il encourage son équipe · il fait respecter les règles
+- l’entraîneur → **il prépare les joueurs**
+- le supporter → **il encourage son équipe**
+- la finale → **le dernier match qui désigne le vainqueur**
+- l’arbitre → **il fait respecter les règles**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> l’entraîneur → il prépare les joueurs  
+> le supporter → il encourage son équipe  
+> la finale → le dernier match qui désigne le vainqueur  
+> l’arbitre → il fait respecter les règles  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): le dernier match qui désigne le vainqueur · il encourage son équipe · il prépare les joueurs · la meilleure performance jamais réalisée
+- l’entraîneur → **il prépare les joueurs**
+- le record → **la meilleure performance jamais réalisée**
+- le supporter → **il encourage son équipe**
+- la finale → **le dernier match qui désigne le vainqueur**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> l’entraîneur → il prépare les joueurs  
+> le record → la meilleure performance jamais réalisée  
+> le supporter → il encourage son équipe  
+> la finale → le dernier match qui désigne le vainqueur  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-75-fair` · Lesson 75 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel comportement montre le fair-play ? | serrer la main de l’adversaire après le match | insulter l’arbitre · tricher pour gagner · frapper un adversaire | C’est contraire au fair-play. · C’est contraire au fair-play. · C’est contraire au fair-play. | Respect de l’adversaire. |
+| Quelle médaille reçoit le troisième ? | la médaille de bronze | la médaille d’or · la médaille d’argent · aucune médaille | C’est le premier. · C’est le deuxième. · Le troisième monte sur le podium. | Or, argent, bronze. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle médaille reçoit le troisième ?
+
+- ✅ la médaille de bronze
+- ◻️ la médaille d’or  
+  _↳ feedback if chosen: C’est le premier._
+- ◻️ aucune médaille  
+  _↳ feedback if chosen: Le troisième monte sur le podium._
+- ◻️ la médaille d’argent  
+  _↳ feedback if chosen: C’est le deuxième._
+
+Full working after a second miss:
+
+> Or, argent, bronze.  
+> Donc la réponse est « la médaille de bronze ».  
+
+> Quelle médaille reçoit le troisième ?
+
+- ◻️ la médaille d’or  
+  _↳ feedback if chosen: C’est le premier._
+- ◻️ la médaille d’argent  
+  _↳ feedback if chosen: C’est le deuxième._
+- ✅ la médaille de bronze
+- ◻️ aucune médaille  
+  _↳ feedback if chosen: Le troisième monte sur le podium._
+
+Full working after a second miss:
+
+> Or, argent, bronze.  
+> Donc la réponse est « la médaille de bronze ».  
+
+> Quelle médaille reçoit le troisième ?
+
+- ◻️ la médaille d’argent  
+  _↳ feedback if chosen: C’est le deuxième._
+- ✅ la médaille de bronze
+- ◻️ aucune médaille  
+  _↳ feedback if chosen: Le troisième monte sur le podium._
+- ◻️ la médaille d’or  
+  _↳ feedback if chosen: C’est le premier._
+
+Full working after a second miss:
+
+> Or, argent, bronze.  
+> Donc la réponse est « la médaille de bronze ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-75-spot` · Lesson 75 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le football est un sport collectif.
+- ✅ Le premier reçoit la médaille d’or.
+- ✅ L’arbitre fait respecter les règles.
+- ✅ L’entraîneur prépare l’équipe.
+- ❌ La boxe est un sport collectif.  
+  _↳ C’est un sport individuel._
+- ❌ Le fair-play, c’est tricher pour gagner.  
+  _↳ C’est respecter les règles et l’adversaire._
+- ❌ Le supporter arbitre le match.  
+  _↳ Il encourage son équipe._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ L’arbitre fait respecter les règles.
+- ◻️ L’entraîneur prépare l’équipe.
+- ✅ Le fair-play, c’est tricher pour gagner.  
+  _↳ explanation: C’est respecter les règles et l’adversaire._
+- ◻️ Le football est un sport collectif.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le fair-play, c’est tricher pour gagner. ».  
+> C’est respecter les règles et l’adversaire.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ L’entraîneur prépare l’équipe.
+- ✅ Le supporter arbitre le match.  
+  _↳ explanation: Il encourage son équipe._
+- ◻️ Le premier reçoit la médaille d’or.
+- ◻️ L’arbitre fait respecter les règles.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le supporter arbitre le match. ».  
+> Il encourage son équipe.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le football est un sport collectif.
+- ✅ Le fair-play, c’est tricher pour gagner.  
+  _↳ explanation: C’est respecter les règles et l’adversaire._
+- ◻️ L’entraîneur prépare l’équipe.
+- ◻️ Le premier reçoit la médaille d’or.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le fair-play, c’est tricher pour gagner. ».  
+> C’est respecter les règles et l’adversaire.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-75-fair-card` · Lesson 75 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel comportement montre le fair-play ? | serrer la main de l’adversaire après le match | insulter l’arbitre · tricher pour gagner · frapper un adversaire | C’est contraire au fair-play. · C’est contraire au fair-play. · C’est contraire au fair-play. | Respect de l’adversaire. |
+| Quelle médaille reçoit le troisième ? | la médaille de bronze | la médaille d’or · la médaille d’argent · aucune médaille | C’est le premier. · C’est le deuxième. · Le troisième monte sur le podium. | Or, argent, bronze. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel comportement montre le fair-play ?
+
+- ✅ serrer la main de l’adversaire après le match
+- ◻️ frapper un adversaire  
+  _↳ feedback if chosen: C’est contraire au fair-play._
+- ◻️ tricher pour gagner  
+  _↳ feedback if chosen: C’est contraire au fair-play._
+- ◻️ insulter l’arbitre  
+  _↳ feedback if chosen: C’est contraire au fair-play._
+
+Full working after a second miss:
+
+> Respect de l’adversaire.  
+> Donc la réponse est « serrer la main de l’adversaire après le match ».  
+
+> Quel comportement montre le fair-play ?
+
+- ◻️ frapper un adversaire  
+  _↳ feedback if chosen: C’est contraire au fair-play._
+- ◻️ tricher pour gagner  
+  _↳ feedback if chosen: C’est contraire au fair-play._
+- ◻️ insulter l’arbitre  
+  _↳ feedback if chosen: C’est contraire au fair-play._
+- ✅ serrer la main de l’adversaire après le match
+
+Full working after a second miss:
+
+> Respect de l’adversaire.  
+> Donc la réponse est « serrer la main de l’adversaire après le match ».  
+
+> Quelle médaille reçoit le troisième ?
+
+- ◻️ la médaille d’or  
+  _↳ feedback if chosen: C’est le premier._
+- ◻️ la médaille d’argent  
+  _↳ feedback if chosen: C’est le deuxième._
+- ✅ la médaille de bronze
+- ◻️ aucune médaille  
+  _↳ feedback if chosen: Le troisième monte sur le podium._
+
+Full working after a second miss:
+
+> Or, argent, bronze.  
+> Donc la réponse est « la médaille de bronze ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-76-lex` · Lesson 76 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel mot n’appartient pas au champ lexical de la patrie ? | la casserole | le drapeau · la nation · l’unité | C’est un mot de la patrie. · C’est un mot de la patrie. · C’est un mot de la patrie. | La casserole est un mot de la cuisine. |
+| Quel mot appartient au champ lexical de la patrie ? | la liberté | le ballon · la fourchette · le nuage | C’est le sport. · C’est la cuisine. · C’est le temps. | La liberté est une valeur de la nation. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel mot appartient au champ lexical de la patrie ?
+
+- ◻️ la fourchette  
+  _↳ feedback if chosen: C’est la cuisine._
+- ◻️ le nuage  
+  _↳ feedback if chosen: C’est le temps._
+- ✅ la liberté
+- ◻️ le ballon  
+  _↳ feedback if chosen: C’est le sport._
+
+Full working after a second miss:
+
+> La liberté est une valeur de la nation.  
+> Donc la réponse est « la liberté ».  
+
+> Quel mot appartient au champ lexical de la patrie ?
+
+- ✅ la liberté
+- ◻️ le nuage  
+  _↳ feedback if chosen: C’est le temps._
+- ◻️ la fourchette  
+  _↳ feedback if chosen: C’est la cuisine._
+- ◻️ le ballon  
+  _↳ feedback if chosen: C’est le sport._
+
+Full working after a second miss:
+
+> La liberté est une valeur de la nation.  
+> Donc la réponse est « la liberté ».  
+
+> Quel mot n’appartient pas au champ lexical de la patrie ?
+
+- ◻️ la nation  
+  _↳ feedback if chosen: C’est un mot de la patrie._
+- ◻️ l’unité  
+  _↳ feedback if chosen: C’est un mot de la patrie._
+- ◻️ le drapeau  
+  _↳ feedback if chosen: C’est un mot de la patrie._
+- ✅ la casserole
+
+Full working after a second miss:
+
+> La casserole est un mot de la cuisine.  
+> Donc la réponse est « la casserole ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-76-sem` · Lesson 76 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce que le champ sémantique d’un mot ? | l’ensemble de ses différents sens | l’ensemble des mots d’un thème · son nombre de lettres · sa traduction en anglais | C’est le champ lexical. · Ce n’est pas le sens. · Ce n’est pas le sens. | Un mot peut avoir plusieurs sens. |
+| Dans « le bébé dort dans son berceau », quel est le sens de « berceau » ? | le petit lit d’un bébé (sens propre) | le lieu d’origine · la patrie · un chant | C’est le sens figuré. · Ce n’est pas le sens ici. · Ce n’est pas le sens. | Sens propre. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Qu’est-ce que le champ sémantique d’un mot ?
+
+- ◻️ son nombre de lettres  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ l’ensemble de ses différents sens
+- ◻️ l’ensemble des mots d’un thème  
+  _↳ feedback if chosen: C’est le champ lexical._
+- ◻️ sa traduction en anglais  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Un mot peut avoir plusieurs sens.  
+> Donc la réponse est « l’ensemble de ses différents sens ».  
+
+> Qu’est-ce que le champ sémantique d’un mot ?
+
+- ◻️ sa traduction en anglais  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ l’ensemble de ses différents sens
+- ◻️ son nombre de lettres  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ l’ensemble des mots d’un thème  
+  _↳ feedback if chosen: C’est le champ lexical._
+
+Full working after a second miss:
+
+> Un mot peut avoir plusieurs sens.  
+> Donc la réponse est « l’ensemble de ses différents sens ».  
+
+> Dans « le bébé dort dans son berceau », quel est le sens de « berceau » ?
+
+- ◻️ la patrie  
+  _↳ feedback if chosen: Ce n’est pas le sens ici._
+- ◻️ un chant  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ le petit lit d’un bébé (sens propre)
+- ◻️ le lieu d’origine  
+  _↳ feedback if chosen: C’est le sens figuré._
+
+Full working after a second miss:
+
+> Sens propre.  
+> Donc la réponse est « le petit lit d’un bébé (sens propre) ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-76-respect` · Lesson 76 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Comment doit-on se tenir quand on chante l’hymne national ? | debout et immobile, avec respect | assis en mangeant · en courant · en parlant au téléphone | C’est irrespectueux. · C’est irrespectueux. · C’est irrespectueux. | L’hymne est un symbole de la nation. |
+| Par quels mots commence l’hymne national du Cameroun ? | Ô Cameroun, berceau de nos ancêtres | Il était une fois · Allô, bonjour · Mesdames et messieurs | C’est un début de conte. · C’est le téléphone. · C’est un discours. | C’est le premier vers. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Par quels mots commence l’hymne national du Cameroun ?
+
+- ◻️ Mesdames et messieurs  
+  _↳ feedback if chosen: C’est un discours._
+- ◻️ Il était une fois  
+  _↳ feedback if chosen: C’est un début de conte._
+- ✅ Ô Cameroun, berceau de nos ancêtres
+- ◻️ Allô, bonjour  
+  _↳ feedback if chosen: C’est le téléphone._
+
+Full working after a second miss:
+
+> C’est le premier vers.  
+> Donc la réponse est « Ô Cameroun, berceau de nos ancêtres ».  
+
+> Comment doit-on se tenir quand on chante l’hymne national ?
+
+- ◻️ en parlant au téléphone  
+  _↳ feedback if chosen: C’est irrespectueux._
+- ◻️ en courant  
+  _↳ feedback if chosen: C’est irrespectueux._
+- ◻️ assis en mangeant  
+  _↳ feedback if chosen: C’est irrespectueux._
+- ✅ debout et immobile, avec respect
+
+Full working after a second miss:
+
+> L’hymne est un symbole de la nation.  
+> Donc la réponse est « debout et immobile, avec respect ».  
+
+> Comment doit-on se tenir quand on chante l’hymne national ?
+
+- ✅ debout et immobile, avec respect
+- ◻️ en courant  
+  _↳ feedback if chosen: C’est irrespectueux._
+- ◻️ en parlant au téléphone  
+  _↳ feedback if chosen: C’est irrespectueux._
+- ◻️ assis en mangeant  
+  _↳ feedback if chosen: C’est irrespectueux._
+
+Full working after a second miss:
+
+> L’hymne est un symbole de la nation.  
+> Donc la réponse est « debout et immobile, avec respect ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-76-spot` · Lesson 76 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le champ lexical regroupe les mots d’un thème.
+- ✅ « berceau » peut avoir un sens figuré.
+- ✅ On chante l’hymne debout.
+- ✅ « drapeau » appartient au champ lexical de la patrie.
+- ❌ Le champ sémantique regroupe les mots d’un même thème.  
+  _↳ Il regroupe les sens d’un même mot._
+- ❌ Dans l’hymne, « berceau » veut dire un petit lit.  
+  _↳ Il veut dire la terre d’origine._
+- ❌ On chante l’hymne assis en bavardant.  
+  _↳ On le chante debout, avec respect._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ On chante l’hymne debout.
+- ✅ Dans l’hymne, « berceau » veut dire un petit lit.  
+  _↳ explanation: Il veut dire la terre d’origine._
+- ◻️ Le champ lexical regroupe les mots d’un thème.
+- ◻️ « drapeau » appartient au champ lexical de la patrie.
+
+Full working after a second miss:
+
+> La phrase fausse est « Dans l’hymne, « berceau » veut dire un petit lit. ».  
+> Il veut dire la terre d’origine.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Dans l’hymne, « berceau » veut dire un petit lit.  
+  _↳ explanation: Il veut dire la terre d’origine._
+- ◻️ « drapeau » appartient au champ lexical de la patrie.
+- ◻️ On chante l’hymne debout.
+- ◻️ « berceau » peut avoir un sens figuré.
+
+Full working after a second miss:
+
+> La phrase fausse est « Dans l’hymne, « berceau » veut dire un petit lit. ».  
+> Il veut dire la terre d’origine.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ « drapeau » appartient au champ lexical de la patrie.
+- ◻️ « berceau » peut avoir un sens figuré.
+- ✅ On chante l’hymne assis en bavardant.  
+  _↳ explanation: On le chante debout, avec respect._
+- ◻️ Le champ lexical regroupe les mots d’un thème.
+
+Full working after a second miss:
+
+> La phrase fausse est « On chante l’hymne assis en bavardant. ».  
+> On le chante debout, avec respect.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-76-sem-card` · Lesson 76 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce que le champ sémantique d’un mot ? | l’ensemble de ses différents sens | l’ensemble des mots d’un thème · son nombre de lettres · sa traduction en anglais | C’est le champ lexical. · Ce n’est pas le sens. · Ce n’est pas le sens. | Un mot peut avoir plusieurs sens. |
+| Dans « le bébé dort dans son berceau », quel est le sens de « berceau » ? | le petit lit d’un bébé (sens propre) | le lieu d’origine · la patrie · un chant | C’est le sens figuré. · Ce n’est pas le sens ici. · Ce n’est pas le sens. | Sens propre. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans « le bébé dort dans son berceau », quel est le sens de « berceau » ?
+
+- ◻️ la patrie  
+  _↳ feedback if chosen: Ce n’est pas le sens ici._
+- ◻️ un chant  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ le lieu d’origine  
+  _↳ feedback if chosen: C’est le sens figuré._
+- ✅ le petit lit d’un bébé (sens propre)
+
+Full working after a second miss:
+
+> Sens propre.  
+> Donc la réponse est « le petit lit d’un bébé (sens propre) ».  
+
+> Qu’est-ce que le champ sémantique d’un mot ?
+
+- ◻️ son nombre de lettres  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ l’ensemble de ses différents sens
+- ◻️ l’ensemble des mots d’un thème  
+  _↳ feedback if chosen: C’est le champ lexical._
+- ◻️ sa traduction en anglais  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Un mot peut avoir plusieurs sens.  
+> Donc la réponse est « l’ensemble de ses différents sens ».  
+
+> Dans « le bébé dort dans son berceau », quel est le sens de « berceau » ?
+
+- ◻️ la patrie  
+  _↳ feedback if chosen: Ce n’est pas le sens ici._
+- ✅ le petit lit d’un bébé (sens propre)
+- ◻️ le lieu d’origine  
+  _↳ feedback if chosen: C’est le sens figuré._
+- ◻️ un chant  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Sens propre.  
+> Donc la réponse est « le petit lit d’un bébé (sens propre) ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-78-sub` · Lesson 78 · fill the blank, level 2
+
+Prompt: Choisis le mot qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Le patron est content ___ les ouvriers travaillent bien. | parce que | mais · ou | « mais » oppose. · « ou » marque un choix. |
+| Je crois ___ le marché ouvre à sept heures. | que | et · donc | Il faut un mot subordonnant. · Il faut un mot subordonnant. |
+| ___ il fait beau, nous travaillons au champ. | Quand | Car · Ni | « car » ne commence pas une phrase ainsi. · « ni » demande une négation. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot qui convient.
+
+Sentence: **___ il fait beau, nous travaillons au champ.**
+- ◻️ Car  
+  _↳ feedback if chosen: « car » ne commence pas une phrase ainsi._
+- ◻️ Ni  
+  _↳ feedback if chosen: « ni » demande une négation._
+- ✅ Quand
+
+Full working after a second miss:
+
+> Le mot qui manque est « Quand ».  
+> Quand il fait beau, nous travaillons au champ.  
+
+> Choisis le mot qui convient.
+
+Sentence: **___ il fait beau, nous travaillons au champ.**
+- ◻️ Car  
+  _↳ feedback if chosen: « car » ne commence pas une phrase ainsi._
+- ◻️ Ni  
+  _↳ feedback if chosen: « ni » demande une négation._
+- ✅ Quand
+
+Full working after a second miss:
+
+> Le mot qui manque est « Quand ».  
+> Quand il fait beau, nous travaillons au champ.  
+
+> Choisis le mot qui convient.
+
+Sentence: **___ il fait beau, nous travaillons au champ.**
+- ✅ Quand
+- ◻️ Car  
+  _↳ feedback if chosen: « car » ne commence pas une phrase ainsi._
+- ◻️ Ni  
+  _↳ feedback if chosen: « ni » demande une négation._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Quand ».  
+> Quand il fait beau, nous travaillons au champ.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-78-spot` · Lesson 78 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On compte les propositions par les verbes conjugués.
+- ✅ « et » coordonne deux propositions.
+- ✅ « parce que » introduit une subordonnée.
+- ✅ La virgule peut juxtaposer deux propositions.
+- ❌ Une phrase simple a trois verbes conjugués.  
+  _↳ Elle n’en a qu’un._
+- ❌ « mais » introduit une subordonnée.  
+  _↳ « mais » est une conjonction de coordination._
+- ❌ Dans « Il dort parce qu’il est fatigué », il y a une seule proposition.  
+  _↳ Il y a deux verbes conjugués : deux propositions._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ On compte les propositions par les verbes conjugués.
+- ◻️ « parce que » introduit une subordonnée.
+- ◻️ La virgule peut juxtaposer deux propositions.
+- ✅ Dans « Il dort parce qu’il est fatigué », il y a une seule proposition.  
+  _↳ explanation: Il y a deux verbes conjugués : deux propositions._
+
+Full working after a second miss:
+
+> La phrase fausse est « Dans « Il dort parce qu’il est fatigué », il y a une seule proposition. ».  
+> Il y a deux verbes conjugués : deux propositions.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Une phrase simple a trois verbes conjugués.  
+  _↳ explanation: Elle n’en a qu’un._
+- ◻️ « et » coordonne deux propositions.
+- ◻️ « parce que » introduit une subordonnée.
+- ◻️ On compte les propositions par les verbes conjugués.
+
+Full working after a second miss:
+
+> La phrase fausse est « Une phrase simple a trois verbes conjugués. ».  
+> Elle n’en a qu’un.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ On compte les propositions par les verbes conjugués.
+- ◻️ La virgule peut juxtaposer deux propositions.
+- ✅ Dans « Il dort parce qu’il est fatigué », il y a une seule proposition.  
+  _↳ explanation: Il y a deux verbes conjugués : deux propositions._
+- ◻️ « et » coordonne deux propositions.
+
+Full working after a second miss:
+
+> La phrase fausse est « Dans « Il dort parce qu’il est fatigué », il y a une seule proposition. ».  
+> Il y a deux verbes conjugués : deux propositions.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-78-sub-card` · Lesson 78 · fill the blank, level 1
+
+Prompt: Choisis le mot qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Le patron est content ___ les ouvriers travaillent bien. | parce que | mais · ou | « mais » oppose. · « ou » marque un choix. |
+| Je crois ___ le marché ouvre à sept heures. | que | et · donc | Il faut un mot subordonnant. · Il faut un mot subordonnant. |
+| ___ il fait beau, nous travaillons au champ. | Quand | Car · Ni | « car » ne commence pas une phrase ainsi. · « ni » demande une négation. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot qui convient.
+
+Sentence: **Le patron est content ___ les ouvriers travaillent bien.**
+- ◻️ mais  
+  _↳ feedback if chosen: « mais » oppose._
+- ✅ parce que
+- ◻️ ou  
+  _↳ feedback if chosen: « ou » marque un choix._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « parce que ».  
+> Le patron est content parce que les ouvriers travaillent bien.  
+
+> Choisis le mot qui convient.
+
+Sentence: **Le patron est content ___ les ouvriers travaillent bien.**
+- ◻️ ou  
+  _↳ feedback if chosen: « ou » marque un choix._
+- ◻️ mais  
+  _↳ feedback if chosen: « mais » oppose._
+- ✅ parce que
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « parce que ».  
+> Le patron est content parce que les ouvriers travaillent bien.  
+
+> Choisis le mot qui convient.
+
+Sentence: **___ il fait beau, nous travaillons au champ.**
+- ◻️ Ni  
+  _↳ feedback if chosen: « ni » demande une négation._
+- ◻️ Car  
+  _↳ feedback if chosen: « car » ne commence pas une phrase ainsi._
+- ✅ Quand
+
+Full working after a second miss:
+
+> Le mot qui manque est « Quand ».  
+> Quand il fait beau, nous travaillons au champ.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-79-emploi` · Lesson 79 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Après quelle expression emploie-t-on le subjonctif ? | il faut que | je sais que · hier · parce que | « je sais que » demande l’indicatif. · Ce n’est pas une expression avec « que ». · « parce que » demande l’indicatif. | L’obligation demande le subjonctif. |
+| Quelle phrase contient un subjonctif ? | Je veux que tu fasses tes devoirs. | Je sais que tu fais tes devoirs. · Tu fais tes devoirs. · Tu feras tes devoirs. | C’est l’indicatif. · C’est le présent de l’indicatif. · C’est le futur. | « que tu fasses ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Après quelle expression emploie-t-on le subjonctif ?
+
+- ✅ il faut que
+- ◻️ je sais que  
+  _↳ feedback if chosen: « je sais que » demande l’indicatif._
+- ◻️ hier  
+  _↳ feedback if chosen: Ce n’est pas une expression avec « que »._
+- ◻️ parce que  
+  _↳ feedback if chosen: « parce que » demande l’indicatif._
+
+Full working after a second miss:
+
+> L’obligation demande le subjonctif.  
+> Donc la réponse est « il faut que ».  
+
+> Après quelle expression emploie-t-on le subjonctif ?
+
+- ◻️ hier  
+  _↳ feedback if chosen: Ce n’est pas une expression avec « que »._
+- ◻️ parce que  
+  _↳ feedback if chosen: « parce que » demande l’indicatif._
+- ✅ il faut que
+- ◻️ je sais que  
+  _↳ feedback if chosen: « je sais que » demande l’indicatif._
+
+Full working after a second miss:
+
+> L’obligation demande le subjonctif.  
+> Donc la réponse est « il faut que ».  
+
+> Après quelle expression emploie-t-on le subjonctif ?
+
+- ◻️ je sais que  
+  _↳ feedback if chosen: « je sais que » demande l’indicatif._
+- ✅ il faut que
+- ◻️ hier  
+  _↳ feedback if chosen: Ce n’est pas une expression avec « que »._
+- ◻️ parce que  
+  _↳ feedback if chosen: « parce que » demande l’indicatif._
+
+Full working after a second miss:
+
+> L’obligation demande le subjonctif.  
+> Donc la réponse est « il faut que ».  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-79-spot` · Lesson 79 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Il faut que tu viennes.
+- ✅ Je veux que vous soyez sages.
+- ✅ Il faut que nous allions au marché.
+- ✅ Je souhaite qu’il réussisse.
+- ❌ Il faut que tu viens demain.  
+  _↳ Subjonctif : que tu viennes._
+- ❌ Je veux que vous êtes à l’heure.  
+  _↳ Subjonctif : que vous soyez._
+- ❌ Il faut qu’il fait ses devoirs.  
+  _↳ Subjonctif : qu’il fasse._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Il faut que nous allions au marché.
+- ◻️ Il faut que tu viennes.
+- ✅ Il faut qu’il fait ses devoirs.  
+  _↳ explanation: Subjonctif : qu’il fasse._
+- ◻️ Je souhaite qu’il réussisse.
+
+Full working after a second miss:
+
+> La phrase fausse est « Il faut qu’il fait ses devoirs. ».  
+> Subjonctif : qu’il fasse.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Je veux que vous êtes à l’heure.  
+  _↳ explanation: Subjonctif : que vous soyez._
+- ◻️ Je veux que vous soyez sages.
+- ◻️ Il faut que nous allions au marché.
+- ◻️ Il faut que tu viennes.
+
+Full working after a second miss:
+
+> La phrase fausse est « Je veux que vous êtes à l’heure. ».  
+> Subjonctif : que vous soyez.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Je veux que vous êtes à l’heure.  
+  _↳ explanation: Subjonctif : que vous soyez._
+- ◻️ Je veux que vous soyez sages.
+- ◻️ Il faut que tu viennes.
+- ◻️ Je souhaite qu’il réussisse.
+
+Full working after a second miss:
+
+> La phrase fausse est « Je veux que vous êtes à l’heure. ».  
+> Subjonctif : que vous soyez.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-80-ecrit` · Lesson 80 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Mon ___ travaille à la banque. | père | pêre · paire | On écrit è. · « paire » veut dire deux objets. |
+| Le village prépare une grande ___. | fête | faite · fète | « faite » vient du verbe faire. · On écrit ê. |
+| Ma sœur boit du ___ chaud. | lait | lè · laie | On écrit ai + t. · Ce n’est pas le mot. |
+| Il y a de la ___ sur le mont Cameroun ? | neige | nège · naige | On écrit ei. · On écrit ei. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Mon ___ travaille à la banque.**
+- ◻️ pêre  
+  _↳ feedback if chosen: On écrit è._
+- ◻️ paire  
+  _↳ feedback if chosen: « paire » veut dire deux objets._
+- ✅ père
+
+Full working after a second miss:
+
+> Le mot qui manque est « père ».  
+> Mon père travaille à la banque.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Mon ___ travaille à la banque.**
+- ✅ père
+- ◻️ pêre  
+  _↳ feedback if chosen: On écrit è._
+- ◻️ paire  
+  _↳ feedback if chosen: « paire » veut dire deux objets._
+
+Full working after a second miss:
+
+> Le mot qui manque est « père ».  
+> Mon père travaille à la banque.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Le village prépare une grande ___.**
+- ✅ fête
+- ◻️ faite  
+  _↳ feedback if chosen: « faite » vient du verbe faire._
+- ◻️ fète  
+  _↳ feedback if chosen: On écrit ê._
+
+Full working after a second miss:
+
+> Le mot qui manque est « fête ».  
+> Le village prépare une grande fête.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-80-et` · Lesson 80 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| J’ai acheté un ___ de bus. | billet | billait · billè | Les noms en [ɛ] finissent souvent par -et. · On écrit -et. |
+| Ma mère cuisine un ___. | poulet | poulait · poulè | On écrit -et. · On écrit -et. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Ma mère cuisine un ___.**
+- ◻️ poulait  
+  _↳ feedback if chosen: On écrit -et._
+- ◻️ poulè  
+  _↳ feedback if chosen: On écrit -et._
+- ✅ poulet
+
+Full working after a second miss:
+
+> Le mot qui manque est « poulet ».  
+> Ma mère cuisine un poulet.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Ma mère cuisine un ___.**
+- ◻️ poulè  
+  _↳ feedback if chosen: On écrit -et._
+- ◻️ poulait  
+  _↳ feedback if chosen: On écrit -et._
+- ✅ poulet
+
+Full working after a second miss:
+
+> Le mot qui manque est « poulet ».  
+> Ma mère cuisine un poulet.  
+
+> Choisis la bonne écriture.
+
+Sentence: **J’ai acheté un ___ de bus.**
+- ◻️ billait  
+  _↳ feedback if chosen: Les noms en [ɛ] finissent souvent par -et._
+- ✅ billet
+- ◻️ billè  
+  _↳ feedback if chosen: On écrit -et._
+
+Full working after a second miss:
+
+> Le mot qui manque est « billet ».  
+> J’ai acheté un billet de bus.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-80-imp` · Lesson 80 · fill the blank, level 2
+
+Prompt: Choisis la bonne terminaison.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Quand j’étais petit, je ___ au ballon chaque soir. | jouais | jouait · jouaient | Avec « je » : -ais. · Avec « je » : -ais. |
+| Les ouvriers ___ dur toute la journée. | travaillaient | travaillait · travaillais | Avec « ils » : -aient. · Avec « ils » : -aient. |
+| Ma tante ___ des tomates au marché. | vendait | vendais · vendaient | Avec « elle » : -ait. · Avec « elle » : -ait. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne terminaison.
+
+Sentence: **Quand j’étais petit, je ___ au ballon chaque soir.**
+- ✅ jouais
+- ◻️ jouaient  
+  _↳ feedback if chosen: Avec « je » : -ais._
+- ◻️ jouait  
+  _↳ feedback if chosen: Avec « je » : -ais._
+
+Full working after a second miss:
+
+> Le mot qui manque est « jouais ».  
+> Quand j’étais petit, je jouais au ballon chaque soir.  
+
+> Choisis la bonne terminaison.
+
+Sentence: **Les ouvriers ___ dur toute la journée.**
+- ◻️ travaillait  
+  _↳ feedback if chosen: Avec « ils » : -aient._
+- ◻️ travaillais  
+  _↳ feedback if chosen: Avec « ils » : -aient._
+- ✅ travaillaient
+
+Full working after a second miss:
+
+> Le mot qui manque est « travaillaient ».  
+> Les ouvriers travaillaient dur toute la journée.  
+
+> Choisis la bonne terminaison.
+
+Sentence: **Quand j’étais petit, je ___ au ballon chaque soir.**
+- ◻️ jouaient  
+  _↳ feedback if chosen: Avec « je » : -ais._
+- ◻️ jouait  
+  _↳ feedback if chosen: Avec « je » : -ais._
+- ✅ jouais
+
+Full working after a second miss:
+
+> Le mot qui manque est « jouais ».  
+> Quand j’étais petit, je jouais au ballon chaque soir.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-80-spot` · Lesson 80 · spot the error, level 3
+
+Prompt: Quel mot est mal écrit ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ la mère
+- ✅ la fête
+- ✅ le lait
+- ✅ la neige
+- ❌ la fète  
+  _↳ On écrit « fête » avec ê._
+- ❌ le poulait  
+  _↳ On écrit « poulet »._
+- ❌ la nège  
+  _↳ On écrit « neige » avec ei._
+
+
+Three generated variants:
+
+> Quel mot est mal écrit ?
+
+- ◻️ la neige
+- ◻️ le lait
+- ◻️ la fête
+- ✅ le poulait  
+  _↳ explanation: On écrit « poulet »._
+
+Full working after a second miss:
+
+> La phrase fausse est « le poulait ».  
+> On écrit « poulet ».  
+
+> Quel mot est mal écrit ?
+
+- ◻️ la neige
+- ◻️ la fête
+- ✅ la nège  
+  _↳ explanation: On écrit « neige » avec ei._
+- ◻️ le lait
+
+Full working after a second miss:
+
+> La phrase fausse est « la nège ».  
+> On écrit « neige » avec ei.  
+
+> Quel mot est mal écrit ?
+
+- ◻️ la mère
+- ◻️ la fête
+- ◻️ le lait
+- ✅ le poulait  
+  _↳ explanation: On écrit « poulet »._
+
+Full working after a second miss:
+
+> La phrase fausse est « le poulait ».  
+> On écrit « poulet ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-80-imp-card` · Lesson 80 · fill the blank, level 1
+
+Prompt: Choisis la bonne terminaison.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Quand j’étais petit, je ___ au ballon chaque soir. | jouais | jouait · jouaient | Avec « je » : -ais. · Avec « je » : -ais. |
+| Les ouvriers ___ dur toute la journée. | travaillaient | travaillait · travaillais | Avec « ils » : -aient. · Avec « ils » : -aient. |
+| Ma tante ___ des tomates au marché. | vendait | vendais · vendaient | Avec « elle » : -ait. · Avec « elle » : -ait. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne terminaison.
+
+Sentence: **Les ouvriers ___ dur toute la journée.**
+- ◻️ travaillait  
+  _↳ feedback if chosen: Avec « ils » : -aient._
+- ✅ travaillaient
+- ◻️ travaillais  
+  _↳ feedback if chosen: Avec « ils » : -aient._
+
+Full working after a second miss:
+
+> Le mot qui manque est « travaillaient ».  
+> Les ouvriers travaillaient dur toute la journée.  
+
+> Choisis la bonne terminaison.
+
+Sentence: **Quand j’étais petit, je ___ au ballon chaque soir.**
+- ◻️ jouaient  
+  _↳ feedback if chosen: Avec « je » : -ais._
+- ◻️ jouait  
+  _↳ feedback if chosen: Avec « je » : -ais._
+- ✅ jouais
+
+Full working after a second miss:
+
+> Le mot qui manque est « jouais ».  
+> Quand j’étais petit, je jouais au ballon chaque soir.  
+
+> Choisis la bonne terminaison.
+
+Sentence: **Les ouvriers ___ dur toute la journée.**
+- ◻️ travaillais  
+  _↳ feedback if chosen: Avec « ils » : -aient._
+- ◻️ travaillait  
+  _↳ feedback if chosen: Avec « ils » : -aient._
+- ✅ travaillaient
+
+Full working after a second miss:
+
+> Le mot qui manque est « travaillaient ».  
+> Les ouvriers travaillaient dur toute la journée.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-81-but` · Lesson 81 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel est le but principal d’une publicité commerciale ? | faire acheter un produit | raconter un conte · donner la météo · enseigner la grammaire | Ce n’est pas son but. · Ce n’est pas son but. · Ce n’est pas son but. | Elle veut convaincre d’acheter. |
+| Qui paie une publicité ? | l’annonceur | le consommateur · le passant · l’élève | Il achète le produit. · Il voit la publicité. · Ce n’est pas le cas. | L’annonceur paie le message. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Qui paie une publicité ?
+
+- ◻️ le consommateur  
+  _↳ feedback if chosen: Il achète le produit._
+- ◻️ le passant  
+  _↳ feedback if chosen: Il voit la publicité._
+- ✅ l’annonceur
+- ◻️ l’élève  
+  _↳ feedback if chosen: Ce n’est pas le cas._
+
+Full working after a second miss:
+
+> L’annonceur paie le message.  
+> Donc la réponse est « l’annonceur ».  
+
+> Quel est le but principal d’une publicité commerciale ?
+
+- ◻️ enseigner la grammaire  
+  _↳ feedback if chosen: Ce n’est pas son but._
+- ◻️ raconter un conte  
+  _↳ feedback if chosen: Ce n’est pas son but._
+- ✅ faire acheter un produit
+- ◻️ donner la météo  
+  _↳ feedback if chosen: Ce n’est pas son but._
+
+Full working after a second miss:
+
+> Elle veut convaincre d’acheter.  
+> Donc la réponse est « faire acheter un produit ».  
+
+> Quel est le but principal d’une publicité commerciale ?
+
+- ◻️ donner la météo  
+  _↳ feedback if chosen: Ce n’est pas son but._
+- ✅ faire acheter un produit
+- ◻️ enseigner la grammaire  
+  _↳ feedback if chosen: Ce n’est pas son but._
+- ◻️ raconter un conte  
+  _↳ feedback if chosen: Ce n’est pas son but._
+
+Full working after a second miss:
+
+> Elle veut convaincre d’acheter.  
+> Donc la réponse est « faire acheter un produit ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-81-mot` · Lesson 81 · matching, level 1
+
+Prompt: Associe chaque mot à sa définition.
+
+Pairs (4 shown each time):
+
+- le slogan → **une phrase courte et frappante**
+- le logo → **le dessin qui représente une marque**
+- le consommateur → **celui qui achète et utilise le produit**
+- une promotion → **une baisse de prix pour une durée limitée**
+- un spot → **une courte publicité à la radio ou à la télévision**
+
+
+Three generated variants:
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): une baisse de prix pour une durée limitée · celui qui achète et utilise le produit · une courte publicité à la radio ou à la télévision · une phrase courte et frappante
+- le slogan → **une phrase courte et frappante**
+- un spot → **une courte publicité à la radio ou à la télévision**
+- le consommateur → **celui qui achète et utilise le produit**
+- une promotion → **une baisse de prix pour une durée limitée**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le slogan → une phrase courte et frappante  
+> un spot → une courte publicité à la radio ou à la télévision  
+> le consommateur → celui qui achète et utilise le produit  
+> une promotion → une baisse de prix pour une durée limitée  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): celui qui achète et utilise le produit · une phrase courte et frappante · une baisse de prix pour une durée limitée · le dessin qui représente une marque
+- une promotion → **une baisse de prix pour une durée limitée**
+- le consommateur → **celui qui achète et utilise le produit**
+- le logo → **le dessin qui représente une marque**
+- le slogan → **une phrase courte et frappante**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> une promotion → une baisse de prix pour une durée limitée  
+> le consommateur → celui qui achète et utilise le produit  
+> le logo → le dessin qui représente une marque  
+> le slogan → une phrase courte et frappante  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): une phrase courte et frappante · celui qui achète et utilise le produit · une baisse de prix pour une durée limitée · le dessin qui représente une marque
+- le consommateur → **celui qui achète et utilise le produit**
+- une promotion → **une baisse de prix pour une durée limitée**
+- le logo → **le dessin qui représente une marque**
+- le slogan → **une phrase courte et frappante**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le consommateur → celui qui achète et utilise le produit  
+> une promotion → une baisse de prix pour une durée limitée  
+> le logo → le dessin qui représente une marque  
+> le slogan → une phrase courte et frappante  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-81-critique` · Lesson 81 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Une publicité dit : « Ce médicament guérit toutes les maladies ! » Que faut-il penser ? | C’est sans doute faux : il faut demander l’avis d’un médecin. | C’est forcément vrai. · Il faut en acheter beaucoup. · Il faut arrêter d’aller à l’hôpital. | La publicité peut tromper. · Ce n’est pas prudent. · C’est dangereux. | Esprit critique. |
+| Quel moyen la publicité utilise-t-elle pour attirer ? | des couleurs vives et un slogan qui rime | des textes très longs et gris · aucune image · des fautes d’orthographe | Ce n’est pas attirant. · Les images attirent. · Ce n’est pas un moyen. | Images, couleurs, slogan. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel moyen la publicité utilise-t-elle pour attirer ?
+
+- ◻️ des textes très longs et gris  
+  _↳ feedback if chosen: Ce n’est pas attirant._
+- ◻️ aucune image  
+  _↳ feedback if chosen: Les images attirent._
+- ◻️ des fautes d’orthographe  
+  _↳ feedback if chosen: Ce n’est pas un moyen._
+- ✅ des couleurs vives et un slogan qui rime
+
+Full working after a second miss:
+
+> Images, couleurs, slogan.  
+> Donc la réponse est « des couleurs vives et un slogan qui rime ».  
+
+> Une publicité dit : « Ce médicament guérit toutes les maladies ! » Que faut-il penser ?
+
+- ◻️ Il faut en acheter beaucoup.  
+  _↳ feedback if chosen: Ce n’est pas prudent._
+- ◻️ Il faut arrêter d’aller à l’hôpital.  
+  _↳ feedback if chosen: C’est dangereux._
+- ◻️ C’est forcément vrai.  
+  _↳ feedback if chosen: La publicité peut tromper._
+- ✅ C’est sans doute faux : il faut demander l’avis d’un médecin.
+
+Full working after a second miss:
+
+> Esprit critique.  
+> Donc la réponse est « C’est sans doute faux : il faut demander l’avis d’un médecin. ».  
+
+> Quel moyen la publicité utilise-t-elle pour attirer ?
+
+- ◻️ aucune image  
+  _↳ feedback if chosen: Les images attirent._
+- ◻️ des fautes d’orthographe  
+  _↳ feedback if chosen: Ce n’est pas un moyen._
+- ◻️ des textes très longs et gris  
+  _↳ feedback if chosen: Ce n’est pas attirant._
+- ✅ des couleurs vives et un slogan qui rime
+
+Full working after a second miss:
+
+> Images, couleurs, slogan.  
+> Donc la réponse est « des couleurs vives et un slogan qui rime ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-81-spot` · Lesson 81 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le slogan est une phrase courte.
+- ✅ L’annonceur paie la publicité.
+- ✅ Il faut garder un esprit critique.
+- ✅ Une promotion baisse le prix.
+- ❌ Toutes les publicités disent toujours la vérité.  
+  _↳ Certaines publicités exagèrent ou trompent._
+- ❌ Le logo est une longue phrase.  
+  _↳ C’est un dessin qui représente la marque._
+- ❌ Le consommateur est celui qui fabrique le produit.  
+  _↳ Il l’achète et l’utilise._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ Une promotion baisse le prix.
+- ◻️ Il faut garder un esprit critique.
+- ✅ Le consommateur est celui qui fabrique le produit.  
+  _↳ explanation: Il l’achète et l’utilise._
+- ◻️ L’annonceur paie la publicité.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le consommateur est celui qui fabrique le produit. ».  
+> Il l’achète et l’utilise.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Le logo est une longue phrase.  
+  _↳ explanation: C’est un dessin qui représente la marque._
+- ◻️ L’annonceur paie la publicité.
+- ◻️ Une promotion baisse le prix.
+- ◻️ Il faut garder un esprit critique.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le logo est une longue phrase. ».  
+> C’est un dessin qui représente la marque.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Le logo est une longue phrase.  
+  _↳ explanation: C’est un dessin qui représente la marque._
+- ◻️ L’annonceur paie la publicité.
+- ◻️ Le slogan est une phrase courte.
+- ◻️ Il faut garder un esprit critique.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le logo est une longue phrase. ».  
+> C’est un dessin qui représente la marque.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-81-critique-card` · Lesson 81 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Une publicité dit : « Ce médicament guérit toutes les maladies ! » Que faut-il penser ? | C’est sans doute faux : il faut demander l’avis d’un médecin. | C’est forcément vrai. · Il faut en acheter beaucoup. · Il faut arrêter d’aller à l’hôpital. | La publicité peut tromper. · Ce n’est pas prudent. · C’est dangereux. | Esprit critique. |
+| Quel moyen la publicité utilise-t-elle pour attirer ? | des couleurs vives et un slogan qui rime | des textes très longs et gris · aucune image · des fautes d’orthographe | Ce n’est pas attirant. · Les images attirent. · Ce n’est pas un moyen. | Images, couleurs, slogan. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel moyen la publicité utilise-t-elle pour attirer ?
+
+- ✅ des couleurs vives et un slogan qui rime
+- ◻️ aucune image  
+  _↳ feedback if chosen: Les images attirent._
+- ◻️ des fautes d’orthographe  
+  _↳ feedback if chosen: Ce n’est pas un moyen._
+- ◻️ des textes très longs et gris  
+  _↳ feedback if chosen: Ce n’est pas attirant._
+
+Full working after a second miss:
+
+> Images, couleurs, slogan.  
+> Donc la réponse est « des couleurs vives et un slogan qui rime ».  
+
+> Quel moyen la publicité utilise-t-elle pour attirer ?
+
+- ◻️ des fautes d’orthographe  
+  _↳ feedback if chosen: Ce n’est pas un moyen._
+- ◻️ aucune image  
+  _↳ feedback if chosen: Les images attirent._
+- ✅ des couleurs vives et un slogan qui rime
+- ◻️ des textes très longs et gris  
+  _↳ feedback if chosen: Ce n’est pas attirant._
+
+Full working after a second miss:
+
+> Images, couleurs, slogan.  
+> Donc la réponse est « des couleurs vives et un slogan qui rime ».  
+
+> Quel moyen la publicité utilise-t-elle pour attirer ?
+
+- ◻️ des textes très longs et gris  
+  _↳ feedback if chosen: Ce n’est pas attirant._
+- ◻️ aucune image  
+  _↳ feedback if chosen: Les images attirent._
+- ◻️ des fautes d’orthographe  
+  _↳ feedback if chosen: Ce n’est pas un moyen._
+- ✅ des couleurs vives et un slogan qui rime
+
+Full working after a second miss:
+
+> Images, couleurs, slogan.  
+> Donc la réponse est « des couleurs vives et un slogan qui rime ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-82-forme` · Lesson 82 · multiple choice, level 1
+
+Prompt: Chant « Le chant des bâtisseurs » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| comment appelle-t-on les vers qui reviennent ? | le refrain | le titre · la rime · le couplet | Le titre est au début. · La rime est un son. · Le couplet change. | Le refrain revient. |
+| combien de couplets compte le chant ? | deux | un · quatre · dix | Il y en a deux. · Il y en a deux. · Il y en a deux. | Deux couplets et un refrain. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Chant « Le chant des bâtisseurs » : comment appelle-t-on les vers qui reviennent ?
+
+- ◻️ la rime  
+  _↳ feedback if chosen: La rime est un son._
+- ◻️ le couplet  
+  _↳ feedback if chosen: Le couplet change._
+- ✅ le refrain
+- ◻️ le titre  
+  _↳ feedback if chosen: Le titre est au début._
+
+Full working after a second miss:
+
+> Le refrain revient.  
+> Donc la réponse est « le refrain ».  
+
+> Chant « Le chant des bâtisseurs » : comment appelle-t-on les vers qui reviennent ?
+
+- ◻️ la rime  
+  _↳ feedback if chosen: La rime est un son._
+- ✅ le refrain
+- ◻️ le titre  
+  _↳ feedback if chosen: Le titre est au début._
+- ◻️ le couplet  
+  _↳ feedback if chosen: Le couplet change._
+
+Full working after a second miss:
+
+> Le refrain revient.  
+> Donc la réponse est « le refrain ».  
+
+> Chant « Le chant des bâtisseurs » : comment appelle-t-on les vers qui reviennent ?
+
+- ✅ le refrain
+- ◻️ le titre  
+  _↳ feedback if chosen: Le titre est au début._
+- ◻️ le couplet  
+  _↳ feedback if chosen: Le couplet change._
+- ◻️ la rime  
+  _↳ feedback if chosen: La rime est un son._
+
+Full working after a second miss:
+
+> Le refrain revient.  
+> Donc la réponse est « le refrain ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-82-rime` · Lesson 82 · multiple choice, level 1
+
+Prompt: Chant « Le chant des bâtisseurs » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quel mot rime avec « soleil » ? | sommeil | nôtre · fin · nation | Il rime avec « autre ». · Il rime avec « demain ». · Il rime avec « chantons ». | soleil / sommeil. |
+| quel mot rime avec « fin » ? | demain | cloue · autre · soleil | Il rime avec « atout ». · Il rime avec « nôtre ». · Il rime avec « sommeil ». | fin / demain. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Chant « Le chant des bâtisseurs » : quel mot rime avec « soleil » ?
+
+- ✅ sommeil
+- ◻️ nation  
+  _↳ feedback if chosen: Il rime avec « chantons »._
+- ◻️ nôtre  
+  _↳ feedback if chosen: Il rime avec « autre »._
+- ◻️ fin  
+  _↳ feedback if chosen: Il rime avec « demain »._
+
+Full working after a second miss:
+
+> soleil / sommeil.  
+> Donc la réponse est « sommeil ».  
+
+> Chant « Le chant des bâtisseurs » : quel mot rime avec « fin » ?
+
+- ◻️ autre  
+  _↳ feedback if chosen: Il rime avec « nôtre »._
+- ◻️ soleil  
+  _↳ feedback if chosen: Il rime avec « sommeil »._
+- ◻️ cloue  
+  _↳ feedback if chosen: Il rime avec « atout »._
+- ✅ demain
+
+Full working after a second miss:
+
+> fin / demain.  
+> Donc la réponse est « demain ».  
+
+> Chant « Le chant des bâtisseurs » : quel mot rime avec « soleil » ?
+
+- ◻️ nôtre  
+  _↳ feedback if chosen: Il rime avec « autre »._
+- ◻️ fin  
+  _↳ feedback if chosen: Il rime avec « demain »._
+- ✅ sommeil
+- ◻️ nation  
+  _↳ feedback if chosen: Il rime avec « chantons »._
+
+Full working after a second miss:
+
+> soleil / sommeil.  
+> Donc la réponse est « sommeil ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-82-sens` · Lesson 82 · multiple choice, level 2
+
+Prompt: Chant « Le chant des bâtisseurs » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quels métiers sont cités ? | le maçon, le menuisier et la couturière | le médecin et le juge · le pêcheur et le chasseur · le pilote et le marin | Ils ne sont pas cités. · Ils ne sont pas cités. · Ils ne sont pas cités. | Ce sont les bâtisseurs du chant. |
+| quel est le message du chant ? | Le travail de chacun construit le pays. | Il faut dormir longtemps. · Le travail est inutile. · Il faut travailler seul. | Ce n’est pas le message. · C’est le contraire. · « Main dans la main » dit le contraire. | « Le travail bâtit la nation ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Chant « Le chant des bâtisseurs » : quel est le message du chant ?
+
+- ✅ Le travail de chacun construit le pays.
+- ◻️ Il faut dormir longtemps.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ◻️ Il faut travailler seul.  
+  _↳ feedback if chosen: « Main dans la main » dit le contraire._
+- ◻️ Le travail est inutile.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> « Le travail bâtit la nation ».  
+> Donc la réponse est « Le travail de chacun construit le pays. ».  
+
+> Chant « Le chant des bâtisseurs » : quels métiers sont cités ?
+
+- ◻️ le pêcheur et le chasseur  
+  _↳ feedback if chosen: Ils ne sont pas cités._
+- ◻️ le médecin et le juge  
+  _↳ feedback if chosen: Ils ne sont pas cités._
+- ◻️ le pilote et le marin  
+  _↳ feedback if chosen: Ils ne sont pas cités._
+- ✅ le maçon, le menuisier et la couturière
+
+Full working after a second miss:
+
+> Ce sont les bâtisseurs du chant.  
+> Donc la réponse est « le maçon, le menuisier et la couturière ».  
+
+> Chant « Le chant des bâtisseurs » : quel est le message du chant ?
+
+- ✅ Le travail de chacun construit le pays.
+- ◻️ Il faut travailler seul.  
+  _↳ feedback if chosen: « Main dans la main » dit le contraire._
+- ◻️ Le travail est inutile.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Il faut dormir longtemps.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+
+Full working after a second miss:
+
+> « Le travail bâtit la nation ».  
+> Donc la réponse est « Le travail de chacun construit le pays. ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-82-spot` · Lesson 82 · spot the error, level 3
+
+Prompt: Quelle phrase sur le chant est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le chant a un refrain.
+- ✅ Le maçon chante au soleil.
+- ✅ La couturière coud.
+- ✅ Le chant parle du travail.
+- ❌ Le chant dit que le travail est inutile.  
+  _↳ Il dit que le travail bâtit la nation._
+- ❌ Le refrain ne revient jamais.  
+  _↳ Il revient après chaque couplet._
+- ❌ « soleil » rime avec « nation ».  
+  _↳ « soleil » rime avec « sommeil »._
+
+
+Three generated variants:
+
+> Quelle phrase sur le chant est fausse ?
+
+- ✅ Le chant dit que le travail est inutile.  
+  _↳ explanation: Il dit que le travail bâtit la nation._
+- ◻️ La couturière coud.
+- ◻️ Le chant parle du travail.
+- ◻️ Le chant a un refrain.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le chant dit que le travail est inutile. ».  
+> Il dit que le travail bâtit la nation.  
+
+> Quelle phrase sur le chant est fausse ?
+
+- ✅ Le refrain ne revient jamais.  
+  _↳ explanation: Il revient après chaque couplet._
+- ◻️ Le chant a un refrain.
+- ◻️ Le maçon chante au soleil.
+- ◻️ Le chant parle du travail.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le refrain ne revient jamais. ».  
+> Il revient après chaque couplet.  
+
+> Quelle phrase sur le chant est fausse ?
+
+- ✅ « soleil » rime avec « nation ».  
+  _↳ explanation: « soleil » rime avec « sommeil »._
+- ◻️ Le chant parle du travail.
+- ◻️ La couturière coud.
+- ◻️ Le chant a un refrain.
+
+Full working after a second miss:
+
+> La phrase fausse est « « soleil » rime avec « nation ». ».  
+> « soleil » rime avec « sommeil ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-82-sens-card` · Lesson 82 · multiple choice, level 1
+
+Prompt: Chant « Le chant des bâtisseurs » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quels métiers sont cités ? | le maçon, le menuisier et la couturière | le médecin et le juge · le pêcheur et le chasseur · le pilote et le marin | Ils ne sont pas cités. · Ils ne sont pas cités. · Ils ne sont pas cités. | Ce sont les bâtisseurs du chant. |
+| quel est le message du chant ? | Le travail de chacun construit le pays. | Il faut dormir longtemps. · Le travail est inutile. · Il faut travailler seul. | Ce n’est pas le message. · C’est le contraire. · « Main dans la main » dit le contraire. | « Le travail bâtit la nation ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Chant « Le chant des bâtisseurs » : quels métiers sont cités ?
+
+- ◻️ le pilote et le marin  
+  _↳ feedback if chosen: Ils ne sont pas cités._
+- ◻️ le médecin et le juge  
+  _↳ feedback if chosen: Ils ne sont pas cités._
+- ◻️ le pêcheur et le chasseur  
+  _↳ feedback if chosen: Ils ne sont pas cités._
+- ✅ le maçon, le menuisier et la couturière
+
+Full working after a second miss:
+
+> Ce sont les bâtisseurs du chant.  
+> Donc la réponse est « le maçon, le menuisier et la couturière ».  
+
+> Chant « Le chant des bâtisseurs » : quel est le message du chant ?
+
+- ◻️ Le travail est inutile.  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ Le travail de chacun construit le pays.
+- ◻️ Il faut dormir longtemps.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ◻️ Il faut travailler seul.  
+  _↳ feedback if chosen: « Main dans la main » dit le contraire._
+
+Full working after a second miss:
+
+> « Le travail bâtit la nation ».  
+> Donc la réponse est « Le travail de chacun construit le pays. ».  
+
+> Chant « Le chant des bâtisseurs » : quel est le message du chant ?
+
+- ✅ Le travail de chacun construit le pays.
+- ◻️ Il faut travailler seul.  
+  _↳ feedback if chosen: « Main dans la main » dit le contraire._
+- ◻️ Il faut dormir longtemps.  
+  _↳ feedback if chosen: Ce n’est pas le message._
+- ◻️ Le travail est inutile.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> « Le travail bâtit la nation ».  
+> Donc la réponse est « Le travail de chacun construit le pays. ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-83-comp` · Lesson 83 · multiple choice, level 1
+
+Prompt: Texte « L’atelier de Tchoua » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quel est le métier de Tchoua ? | menuisier | maçon · mécanicien · couturier | Le texte parle de menuiserie. · Le texte parle de menuiserie. · Le texte parle de menuiserie. | Il a un CAP de menuiserie. |
+| où se trouve son atelier ? | à Bafoussam | à Douala · à Garoua · à Kribi | Le texte dit Bafoussam. · Le texte dit Bafoussam. · Le texte dit Bafoussam. | « un petit atelier à Bafoussam ». |
+| combien d’apprentis emploie-t-il aujourd’hui ? | deux | aucun · dix · cinq | Le texte dit deux. · Le texte dit deux. · Le texte dit deux. | « deux apprentis ». |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « L’atelier de Tchoua » : quel est le métier de Tchoua ?
+
+- ✅ menuisier
+- ◻️ couturier  
+  _↳ feedback if chosen: Le texte parle de menuiserie._
+- ◻️ mécanicien  
+  _↳ feedback if chosen: Le texte parle de menuiserie._
+- ◻️ maçon  
+  _↳ feedback if chosen: Le texte parle de menuiserie._
+
+Full working after a second miss:
+
+> Il a un CAP de menuiserie.  
+> Donc la réponse est « menuisier ».  
+
+> Texte « L’atelier de Tchoua » : où se trouve son atelier ?
+
+- ◻️ à Douala  
+  _↳ feedback if chosen: Le texte dit Bafoussam._
+- ◻️ à Kribi  
+  _↳ feedback if chosen: Le texte dit Bafoussam._
+- ✅ à Bafoussam
+- ◻️ à Garoua  
+  _↳ feedback if chosen: Le texte dit Bafoussam._
+
+Full working after a second miss:
+
+> « un petit atelier à Bafoussam ».  
+> Donc la réponse est « à Bafoussam ».  
+
+> Texte « L’atelier de Tchoua » : combien d’apprentis emploie-t-il aujourd’hui ?
+
+- ✅ deux
+- ◻️ dix  
+  _↳ feedback if chosen: Le texte dit deux._
+- ◻️ cinq  
+  _↳ feedback if chosen: Le texte dit deux._
+- ◻️ aucun  
+  _↳ feedback if chosen: Le texte dit deux._
+
+Full working after a second miss:
+
+> « deux apprentis ».  
+> Donc la réponse est « deux ».  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-83-mot` · Lesson 83 · multiple choice, level 1
+
+Prompt: Texte « L’atelier de Tchoua » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| que veut dire « une tontine » ? | un groupe qui met de l’argent en commun | un outil de menuisier · une école · un meuble | Ce n’est pas le sens. · Ce n’est pas le sens. · Ce n’est pas le sens. | Une épargne collective. |
+| que veut dire « ponctuel » ? | qui arrive à l’heure | qui travaille mal · qui est en retard · qui ment | Ce n’est pas le sens. · C’est le contraire. · Ce n’est pas le sens. | Il respecte l’heure. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « L’atelier de Tchoua » : que veut dire « ponctuel » ?
+
+- ✅ qui arrive à l’heure
+- ◻️ qui travaille mal  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ qui est en retard  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ qui ment  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Il respecte l’heure.  
+> Donc la réponse est « qui arrive à l’heure ».  
+
+> Texte « L’atelier de Tchoua » : que veut dire « une tontine » ?
+
+- ◻️ une école  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ un groupe qui met de l’argent en commun
+- ◻️ un meuble  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ un outil de menuisier  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Une épargne collective.  
+> Donc la réponse est « un groupe qui met de l’argent en commun ».  
+
+> Texte « L’atelier de Tchoua » : que veut dire « une tontine » ?
+
+- ◻️ un meuble  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ un outil de menuisier  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ une école  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ un groupe qui met de l’argent en commun
+
+Full working after a second miss:
+
+> Une épargne collective.  
+> Donc la réponse est « un groupe qui met de l’argent en commun ».  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-83-idee` · Lesson 83 · multiple choice, level 2
+
+Prompt: Texte « L’atelier de Tchoua » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est l’idée principale ? | Le travail soigné et honnête attire les clients et fait réussir. | Il faut abandonner quand les clients sont rares. · La menuiserie est un métier inutile. · Les apprentis ne servent à rien. | Tchoua n’abandonne pas. · C’est le contraire. · Ce n’est pas dit. | Sa qualité a fait sa réussite. |
+| que veut dire « Le client satisfait est notre meilleure publicité » ? | Un client content parle de nous à d’autres clients. | Il faut payer beaucoup de publicités. · Les clients n’aiment pas la publicité. · Il ne faut pas avoir de clients. | Ce n’est pas le sens. · Ce n’est pas le sens. · Ce n’est pas le sens. | Le bouche-à-oreille. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « L’atelier de Tchoua » : que veut dire « Le client satisfait est notre meilleure publicité » ?
+
+- ◻️ Il faut payer beaucoup de publicités.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Il ne faut pas avoir de clients.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Les clients n’aiment pas la publicité.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ Un client content parle de nous à d’autres clients.
+
+Full working after a second miss:
+
+> Le bouche-à-oreille.  
+> Donc la réponse est « Un client content parle de nous à d’autres clients. ».  
+
+> Texte « L’atelier de Tchoua » : que veut dire « Le client satisfait est notre meilleure publicité » ?
+
+- ◻️ Il faut payer beaucoup de publicités.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Les clients n’aiment pas la publicité.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Il ne faut pas avoir de clients.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ Un client content parle de nous à d’autres clients.
+
+Full working after a second miss:
+
+> Le bouche-à-oreille.  
+> Donc la réponse est « Un client content parle de nous à d’autres clients. ».  
+
+> Texte « L’atelier de Tchoua » : que veut dire « Le client satisfait est notre meilleure publicité » ?
+
+- ◻️ Il ne faut pas avoir de clients.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Les clients n’aiment pas la publicité.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Il faut payer beaucoup de publicités.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ Un client content parle de nous à d’autres clients.
+
+Full working after a second miss:
+
+> Le bouche-à-oreille.  
+> Donc la réponse est « Un client content parle de nous à d’autres clients. ».  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-83-spot` · Lesson 83 · spot the error, level 3
+
+Prompt: Quelle phrase ne correspond pas au texte ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Tchoua a vingt ans.
+- ✅ Il a eu un prêt de sa tontine.
+- ✅ Il a fabriqué des bancs pour l’école.
+- ✅ Il emploie deux apprentis.
+- ❌ Tchoua a fermé son atelier.  
+  _↳ Il a réussi et il emploie des apprentis._
+- ❌ Tchoua est mécanicien à Douala.  
+  _↳ Il est menuisier à Bafoussam._
+- ❌ Tchoua dit qu’un artisan peut être en retard.  
+  _↳ Il dit qu’un bon artisan est ponctuel._
+
+
+Three generated variants:
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Il a fabriqué des bancs pour l’école.
+- ◻️ Il a eu un prêt de sa tontine.
+- ✅ Tchoua est mécanicien à Douala.  
+  _↳ explanation: Il est menuisier à Bafoussam._
+- ◻️ Tchoua a vingt ans.
+
+Full working after a second miss:
+
+> La phrase fausse est « Tchoua est mécanicien à Douala. ».  
+> Il est menuisier à Bafoussam.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ✅ Tchoua a fermé son atelier.  
+  _↳ explanation: Il a réussi et il emploie des apprentis._
+- ◻️ Tchoua a vingt ans.
+- ◻️ Il a eu un prêt de sa tontine.
+- ◻️ Il a fabriqué des bancs pour l’école.
+
+Full working after a second miss:
+
+> La phrase fausse est « Tchoua a fermé son atelier. ».  
+> Il a réussi et il emploie des apprentis.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Il a fabriqué des bancs pour l’école.
+- ✅ Tchoua a fermé son atelier.  
+  _↳ explanation: Il a réussi et il emploie des apprentis._
+- ◻️ Tchoua a vingt ans.
+- ◻️ Il a eu un prêt de sa tontine.
+
+Full working after a second miss:
+
+> La phrase fausse est « Tchoua a fermé son atelier. ».  
+> Il a réussi et il emploie des apprentis.  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-83-idee-card` · Lesson 83 · multiple choice, level 1
+
+Prompt: Texte « L’atelier de Tchoua » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est l’idée principale ? | Le travail soigné et honnête attire les clients et fait réussir. | Il faut abandonner quand les clients sont rares. · La menuiserie est un métier inutile. · Les apprentis ne servent à rien. | Tchoua n’abandonne pas. · C’est le contraire. · Ce n’est pas dit. | Sa qualité a fait sa réussite. |
+| que veut dire « Le client satisfait est notre meilleure publicité » ? | Un client content parle de nous à d’autres clients. | Il faut payer beaucoup de publicités. · Les clients n’aiment pas la publicité. · Il ne faut pas avoir de clients. | Ce n’est pas le sens. · Ce n’est pas le sens. · Ce n’est pas le sens. | Le bouche-à-oreille. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « L’atelier de Tchoua » : quelle est l’idée principale ?
+
+- ◻️ Il faut abandonner quand les clients sont rares.  
+  _↳ feedback if chosen: Tchoua n’abandonne pas._
+- ✅ Le travail soigné et honnête attire les clients et fait réussir.
+- ◻️ La menuiserie est un métier inutile.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les apprentis ne servent à rien.  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> Sa qualité a fait sa réussite.  
+> Donc la réponse est « Le travail soigné et honnête attire les clients et fait réussir. ».  
+
+> Texte « L’atelier de Tchoua » : que veut dire « Le client satisfait est notre meilleure publicité » ?
+
+- ◻️ Il faut payer beaucoup de publicités.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Il ne faut pas avoir de clients.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Les clients n’aiment pas la publicité.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ Un client content parle de nous à d’autres clients.
+
+Full working after a second miss:
+
+> Le bouche-à-oreille.  
+> Donc la réponse est « Un client content parle de nous à d’autres clients. ».  
+
+> Texte « L’atelier de Tchoua » : que veut dire « Le client satisfait est notre meilleure publicité » ?
+
+- ◻️ Les clients n’aiment pas la publicité.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Il faut payer beaucoup de publicités.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ Un client content parle de nous à d’autres clients.
+- ◻️ Il ne faut pas avoir de clients.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le bouche-à-oreille.  
+> Donc la réponse est « Un client content parle de nous à d’autres clients. ».  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+
+### `fi2-84-ordre` · Lesson 84 · ordering, level 1
+
+Prompt: Remets la description dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Le garage de M. Fon se trouve au bord de la route. | Devant, des voitures attendent d’être réparées. | À l’intérieur, des outils pendent au mur. | Au fond, un apprenti change une roue. | C’est un lieu bruyant mais accueillant. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets la description dans l’ordre.
+
+Shown as: À l’intérieur, des outils pendent au mur. · Au fond, un apprenti change une roue. · C’est un lieu bruyant mais accueillant. · Devant, des voitures attendent d’être réparées. · Le garage de M. Fon se trouve au bord de la route.
+Correct order: Le garage de M. Fon se trouve au bord de la route. → Devant, des voitures attendent d’être réparées. → À l’intérieur, des outils pendent au mur. → Au fond, un apprenti change une roue. → C’est un lieu bruyant mais accueillant.
+
+Full working after a second miss:
+
+> Le bon ordre est : Le garage de M. Fon se trouve au bord de la route. → Devant, des voitures attendent d’être réparées. → À l’intérieur, des outils pendent au mur. → Au fond, un apprenti change une roue. → C’est un lieu bruyant mais accueillant..  
+
+> Remets la description dans l’ordre.
+
+Shown as: C’est un lieu bruyant mais accueillant. · Au fond, un apprenti change une roue. · Devant, des voitures attendent d’être réparées. · Le garage de M. Fon se trouve au bord de la route. · À l’intérieur, des outils pendent au mur.
+Correct order: Le garage de M. Fon se trouve au bord de la route. → Devant, des voitures attendent d’être réparées. → À l’intérieur, des outils pendent au mur. → Au fond, un apprenti change une roue. → C’est un lieu bruyant mais accueillant.
+
+Full working after a second miss:
+
+> Le bon ordre est : Le garage de M. Fon se trouve au bord de la route. → Devant, des voitures attendent d’être réparées. → À l’intérieur, des outils pendent au mur. → Au fond, un apprenti change une roue. → C’est un lieu bruyant mais accueillant..  
+
+> Remets la description dans l’ordre.
+
+Shown as: Le garage de M. Fon se trouve au bord de la route. · C’est un lieu bruyant mais accueillant. · À l’intérieur, des outils pendent au mur. · Au fond, un apprenti change une roue. · Devant, des voitures attendent d’être réparées.
+Correct order: Le garage de M. Fon se trouve au bord de la route. → Devant, des voitures attendent d’être réparées. → À l’intérieur, des outils pendent au mur. → Au fond, un apprenti change une roue. → C’est un lieu bruyant mais accueillant.
+
+Full working after a second miss:
+
+> Le bon ordre est : Le garage de M. Fon se trouve au bord de la route. → Devant, des voitures attendent d’être réparées. → À l’intérieur, des outils pendent au mur. → Au fond, un apprenti change une roue. → C’est un lieu bruyant mais accueillant..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-84-mot` · Lesson 84 · fill the blank, level 2
+
+Prompt: Choisis le mot le plus précis.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| La grande usine ___ au bord du fleuve. | se dresse | est · fait | « est » est trop général. · « fait » ne convient pas. |
+| Le marché ___ sur toute la place. | s’étend | va · a | « va » est vague. · « a » ne convient pas. |
+| Les casseroles ___ sur les étagères. | brillent | sont · font | « sont » est trop général. · « font » ne convient pas. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot le plus précis.
+
+Sentence: **La grande usine ___ au bord du fleuve.**
+- ◻️ est  
+  _↳ feedback if chosen: « est » est trop général._
+- ◻️ fait  
+  _↳ feedback if chosen: « fait » ne convient pas._
+- ✅ se dresse
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « se dresse ».  
+> La grande usine se dresse au bord du fleuve.  
+
+> Choisis le mot le plus précis.
+
+Sentence: **La grande usine ___ au bord du fleuve.**
+- ◻️ fait  
+  _↳ feedback if chosen: « fait » ne convient pas._
+- ◻️ est  
+  _↳ feedback if chosen: « est » est trop général._
+- ✅ se dresse
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « se dresse ».  
+> La grande usine se dresse au bord du fleuve.  
+
+> Choisis le mot le plus précis.
+
+Sentence: **La grande usine ___ au bord du fleuve.**
+- ✅ se dresse
+- ◻️ fait  
+  _↳ feedback if chosen: « fait » ne convient pas._
+- ◻️ est  
+  _↳ feedback if chosen: « est » est trop général._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « se dresse ».  
+> La grande usine se dresse au bord du fleuve.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-84-spot` · Lesson 84 · spot the error, level 3
+
+Prompt: Quel conseil pour décrire un lieu est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On présente d’abord le lieu.
+- ✅ On suit un ordre.
+- ✅ On fait appel aux sens.
+- ✅ On termine par une impression.
+- ❌ On décrit sans aucun ordre.  
+  _↳ On suit un ordre : de près à loin, de gauche à droite._
+- ❌ On n’emploie jamais d’adjectifs.  
+  _↳ Les adjectifs précis sont utiles._
+- ❌ On parle seulement de ce qu’on mange.  
+  _↳ On décrit ce qu’on voit, entend et sent._
+
+
+Three generated variants:
+
+> Quel conseil pour décrire un lieu est faux ?
+
+- ✅ On parle seulement de ce qu’on mange.  
+  _↳ explanation: On décrit ce qu’on voit, entend et sent._
+- ◻️ On suit un ordre.
+- ◻️ On fait appel aux sens.
+- ◻️ On présente d’abord le lieu.
+
+Full working after a second miss:
+
+> La phrase fausse est « On parle seulement de ce qu’on mange. ».  
+> On décrit ce qu’on voit, entend et sent.  
+
+> Quel conseil pour décrire un lieu est faux ?
+
+- ✅ On parle seulement de ce qu’on mange.  
+  _↳ explanation: On décrit ce qu’on voit, entend et sent._
+- ◻️ On termine par une impression.
+- ◻️ On fait appel aux sens.
+- ◻️ On présente d’abord le lieu.
+
+Full working after a second miss:
+
+> La phrase fausse est « On parle seulement de ce qu’on mange. ».  
+> On décrit ce qu’on voit, entend et sent.  
+
+> Quel conseil pour décrire un lieu est faux ?
+
+- ◻️ On termine par une impression.
+- ◻️ On présente d’abord le lieu.
+- ✅ On parle seulement de ce qu’on mange.  
+  _↳ explanation: On décrit ce qu’on voit, entend et sent._
+- ◻️ On fait appel aux sens.
+
+Full working after a second miss:
+
+> La phrase fausse est « On parle seulement de ce qu’on mange. ».  
+> On décrit ce qu’on voit, entend et sent.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-84-mot-card` · Lesson 84 · fill the blank, level 1
+
+Prompt: Choisis le mot le plus précis.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| La grande usine ___ au bord du fleuve. | se dresse | est · fait | « est » est trop général. · « fait » ne convient pas. |
+| Le marché ___ sur toute la place. | s’étend | va · a | « va » est vague. · « a » ne convient pas. |
+| Les casseroles ___ sur les étagères. | brillent | sont · font | « sont » est trop général. · « font » ne convient pas. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le mot le plus précis.
+
+Sentence: **Les casseroles ___ sur les étagères.**
+- ◻️ font  
+  _↳ feedback if chosen: « font » ne convient pas._
+- ✅ brillent
+- ◻️ sont  
+  _↳ feedback if chosen: « sont » est trop général._
+
+Full working after a second miss:
+
+> Le mot qui manque est « brillent ».  
+> Les casseroles brillent sur les étagères.  
+
+> Choisis le mot le plus précis.
+
+Sentence: **La grande usine ___ au bord du fleuve.**
+- ◻️ est  
+  _↳ feedback if chosen: « est » est trop général._
+- ✅ se dresse
+- ◻️ fait  
+  _↳ feedback if chosen: « fait » ne convient pas._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « se dresse ».  
+> La grande usine se dresse au bord du fleuve.  
+
+> Choisis le mot le plus précis.
+
+Sentence: **Les casseroles ___ sur les étagères.**
+- ◻️ sont  
+  _↳ feedback if chosen: « sont » est trop général._
+- ✅ brillent
+- ◻️ font  
+  _↳ feedback if chosen: « font » ne convient pas._
+
+Full working after a second miss:
+
+> Le mot qui manque est « brillent ».  
+> Les casseroles brillent sur les étagères.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-85-perso` · Lesson 85 · multiple choice, level 1
+
+Prompt: Texte « Le pari du jeune tisserand » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| où se passe l’histoire ? | au marché de Foumban | à l’école de Buea · au port de Douala · dans un champ de maïs | Le texte dit Foumban. · Le texte dit Foumban. · Le texte dit le marché. | « Au marché de Foumban ». |
+| comment est le jeune homme au début ? | pressé et trop sûr de lui | patient et modeste · malade · très vieux | C’est Njoya qui est patient. · Ce n’est pas dit. · Il est jeune. | Il veut tout faire en un jour. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « Le pari du jeune tisserand » : où se passe l’histoire ?
+
+- ◻️ à l’école de Buea  
+  _↳ feedback if chosen: Le texte dit Foumban._
+- ◻️ dans un champ de maïs  
+  _↳ feedback if chosen: Le texte dit le marché._
+- ◻️ au port de Douala  
+  _↳ feedback if chosen: Le texte dit Foumban._
+- ✅ au marché de Foumban
+
+Full working after a second miss:
+
+> « Au marché de Foumban ».  
+> Donc la réponse est « au marché de Foumban ».  
+
+> Texte « Le pari du jeune tisserand » : comment est le jeune homme au début ?
+
+- ✅ pressé et trop sûr de lui
+- ◻️ très vieux  
+  _↳ feedback if chosen: Il est jeune._
+- ◻️ patient et modeste  
+  _↳ feedback if chosen: C’est Njoya qui est patient._
+- ◻️ malade  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> Il veut tout faire en un jour.  
+> Donc la réponse est « pressé et trop sûr de lui ».  
+
+> Texte « Le pari du jeune tisserand » : comment est le jeune homme au début ?
+
+- ✅ pressé et trop sûr de lui
+- ◻️ malade  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ très vieux  
+  _↳ feedback if chosen: Il est jeune._
+- ◻️ patient et modeste  
+  _↳ feedback if chosen: C’est Njoya qui est patient._
+
+Full working after a second miss:
+
+> Il veut tout faire en un jour.  
+> Donc la réponse est « pressé et trop sûr de lui ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-85-etapes` · Lesson 85 · ordering, level 1
+
+Prompt: Remets les étapes du texte dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Le jeune homme lance un défi à Njoya. | Il travaille vite, sans compter les fils. | Le soir, son tissu est raté. | Njoya lui montre son tissu fait en un mois. | Le jeune homme devient apprenti. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets les étapes du texte dans l’ordre.
+
+Shown as: Le jeune homme devient apprenti. · Le jeune homme lance un défi à Njoya. · Njoya lui montre son tissu fait en un mois. · Il travaille vite, sans compter les fils. · Le soir, son tissu est raté.
+Correct order: Le jeune homme lance un défi à Njoya. → Il travaille vite, sans compter les fils. → Le soir, son tissu est raté. → Njoya lui montre son tissu fait en un mois. → Le jeune homme devient apprenti.
+
+Full working after a second miss:
+
+> Le bon ordre est : Le jeune homme lance un défi à Njoya. → Il travaille vite, sans compter les fils. → Le soir, son tissu est raté. → Njoya lui montre son tissu fait en un mois. → Le jeune homme devient apprenti..  
+
+> Remets les étapes du texte dans l’ordre.
+
+Shown as: Njoya lui montre son tissu fait en un mois. · Le soir, son tissu est raté. · Le jeune homme lance un défi à Njoya. · Il travaille vite, sans compter les fils. · Le jeune homme devient apprenti.
+Correct order: Le jeune homme lance un défi à Njoya. → Il travaille vite, sans compter les fils. → Le soir, son tissu est raté. → Njoya lui montre son tissu fait en un mois. → Le jeune homme devient apprenti.
+
+Full working after a second miss:
+
+> Le bon ordre est : Le jeune homme lance un défi à Njoya. → Il travaille vite, sans compter les fils. → Le soir, son tissu est raté. → Njoya lui montre son tissu fait en un mois. → Le jeune homme devient apprenti..  
+
+> Remets les étapes du texte dans l’ordre.
+
+Shown as: Il travaille vite, sans compter les fils. · Le soir, son tissu est raté. · Njoya lui montre son tissu fait en un mois. · Le jeune homme lance un défi à Njoya. · Le jeune homme devient apprenti.
+Correct order: Le jeune homme lance un défi à Njoya. → Il travaille vite, sans compter les fils. → Le soir, son tissu est raté. → Njoya lui montre son tissu fait en un mois. → Le jeune homme devient apprenti.
+
+Full working after a second miss:
+
+> Le bon ordre est : Le jeune homme lance un défi à Njoya. → Il travaille vite, sans compter les fils. → Le soir, son tissu est raté. → Njoya lui montre son tissu fait en un mois. → Le jeune homme devient apprenti..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-85-morale` · Lesson 85 · multiple choice, level 2
+
+Prompt: Texte « Le pari du jeune tisserand » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est la leçon du texte ? | Le travail bien fait demande du temps et de la patience. | Il faut toujours travailler vite. · Les vieux ne savent rien. · Il ne faut jamais apprendre. | C’est le contraire. · C’est le contraire. · C’est le contraire. | « Chaque fil est à sa place ». |
+| pourquoi le jeune homme « baissa la tête » ? | parce qu’il avait honte de son échec | parce qu’il cherchait un fil par terre · parce qu’il dormait · parce qu’il était content | C’est le sens figuré : la honte. · Ce n’est pas dit. · Ce n’est pas le sens. | Il comprend son erreur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « Le pari du jeune tisserand » : quelle est la leçon du texte ?
+
+- ✅ Le travail bien fait demande du temps et de la patience.
+- ◻️ Il ne faut jamais apprendre.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les vieux ne savent rien.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Il faut toujours travailler vite.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> « Chaque fil est à sa place ».  
+> Donc la réponse est « Le travail bien fait demande du temps et de la patience. ».  
+
+> Texte « Le pari du jeune tisserand » : pourquoi le jeune homme « baissa la tête » ?
+
+- ◻️ parce qu’il était content  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ parce qu’il avait honte de son échec
+- ◻️ parce qu’il dormait  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ parce qu’il cherchait un fil par terre  
+  _↳ feedback if chosen: C’est le sens figuré : la honte._
+
+Full working after a second miss:
+
+> Il comprend son erreur.  
+> Donc la réponse est « parce qu’il avait honte de son échec ».  
+
+> Texte « Le pari du jeune tisserand » : quelle est la leçon du texte ?
+
+- ✅ Le travail bien fait demande du temps et de la patience.
+- ◻️ Il faut toujours travailler vite.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Il ne faut jamais apprendre.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les vieux ne savent rien.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> « Chaque fil est à sa place ».  
+> Donc la réponse est « Le travail bien fait demande du temps et de la patience. ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-85-spot` · Lesson 85 · spot the error, level 3
+
+Prompt: Quelle phrase ne correspond pas au texte ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Njoya est un vieux tisserand.
+- ✅ Le jeune homme travaille trop vite.
+- ✅ Le tissu de Njoya a pris un mois.
+- ✅ Le jeune homme devient apprenti.
+- ❌ Le jeune homme réussit un tissu parfait en un jour.  
+  _↳ Son tissu est raté._
+- ❌ Njoya chasse le jeune homme.  
+  _↳ Il l’accueille comme apprenti._
+- ❌ L’histoire se passe au port de Douala.  
+  _↳ Elle se passe au marché de Foumban._
+
+
+Three generated variants:
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Le tissu de Njoya a pris un mois.
+- ◻️ Njoya est un vieux tisserand.
+- ✅ L’histoire se passe au port de Douala.  
+  _↳ explanation: Elle se passe au marché de Foumban._
+- ◻️ Le jeune homme devient apprenti.
+
+Full working after a second miss:
+
+> La phrase fausse est « L’histoire se passe au port de Douala. ».  
+> Elle se passe au marché de Foumban.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Njoya est un vieux tisserand.
+- ◻️ Le jeune homme devient apprenti.
+- ◻️ Le tissu de Njoya a pris un mois.
+- ✅ Njoya chasse le jeune homme.  
+  _↳ explanation: Il l’accueille comme apprenti._
+
+Full working after a second miss:
+
+> La phrase fausse est « Njoya chasse le jeune homme. ».  
+> Il l’accueille comme apprenti.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Le tissu de Njoya a pris un mois.
+- ✅ Le jeune homme réussit un tissu parfait en un jour.  
+  _↳ explanation: Son tissu est raté._
+- ◻️ Le jeune homme devient apprenti.
+- ◻️ Le jeune homme travaille trop vite.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le jeune homme réussit un tissu parfait en un jour. ».  
+> Son tissu est raté.  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-85-morale-card` · Lesson 85 · multiple choice, level 1
+
+Prompt: Texte « Le pari du jeune tisserand » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est la leçon du texte ? | Le travail bien fait demande du temps et de la patience. | Il faut toujours travailler vite. · Les vieux ne savent rien. · Il ne faut jamais apprendre. | C’est le contraire. · C’est le contraire. · C’est le contraire. | « Chaque fil est à sa place ». |
+| pourquoi le jeune homme « baissa la tête » ? | parce qu’il avait honte de son échec | parce qu’il cherchait un fil par terre · parce qu’il dormait · parce qu’il était content | C’est le sens figuré : la honte. · Ce n’est pas dit. · Ce n’est pas le sens. | Il comprend son erreur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « Le pari du jeune tisserand » : pourquoi le jeune homme « baissa la tête » ?
+
+- ✅ parce qu’il avait honte de son échec
+- ◻️ parce qu’il cherchait un fil par terre  
+  _↳ feedback if chosen: C’est le sens figuré : la honte._
+- ◻️ parce qu’il était content  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ parce qu’il dormait  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> Il comprend son erreur.  
+> Donc la réponse est « parce qu’il avait honte de son échec ».  
+
+> Texte « Le pari du jeune tisserand » : pourquoi le jeune homme « baissa la tête » ?
+
+- ◻️ parce qu’il dormait  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ✅ parce qu’il avait honte de son échec
+- ◻️ parce qu’il était content  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ parce qu’il cherchait un fil par terre  
+  _↳ feedback if chosen: C’est le sens figuré : la honte._
+
+Full working after a second miss:
+
+> Il comprend son erreur.  
+> Donc la réponse est « parce qu’il avait honte de son échec ».  
+
+> Texte « Le pari du jeune tisserand » : quelle est la leçon du texte ?
+
+- ◻️ Il ne faut jamais apprendre.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les vieux ne savent rien.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Il faut toujours travailler vite.  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ Le travail bien fait demande du temps et de la patience.
+
+Full working after a second miss:
+
+> « Chaque fil est à sa place ».  
+> Donc la réponse est « Le travail bien fait demande du temps et de la patience. ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-86-emploi` · Lesson 86 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle phrase exprime une demande polie ? | Pourriez-vous fermer la porte ? | Ferme la porte ! · Tu fermes la porte. · Tu fermeras la porte. | C’est un ordre. · C’est un constat. · C’est le futur. | Le conditionnel adoucit la demande. |
+| Quelle phrase est au conditionnel ? | J’aimerais devenir ingénieur. | J’aimerai devenir ingénieur. · J’aime devenir ingénieur. · J’aimais devenir ingénieur. | C’est le futur. · C’est le présent. · C’est l’imparfait. | -rais : conditionnel. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle phrase est au conditionnel ?
+
+- ◻️ J’aimerai devenir ingénieur.  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ J’aime devenir ingénieur.  
+  _↳ feedback if chosen: C’est le présent._
+- ✅ J’aimerais devenir ingénieur.
+- ◻️ J’aimais devenir ingénieur.  
+  _↳ feedback if chosen: C’est l’imparfait._
+
+Full working after a second miss:
+
+> -rais : conditionnel.  
+> Donc la réponse est « J’aimerais devenir ingénieur. ».  
+
+> Quelle phrase exprime une demande polie ?
+
+- ◻️ Tu fermes la porte.  
+  _↳ feedback if chosen: C’est un constat._
+- ◻️ Ferme la porte !  
+  _↳ feedback if chosen: C’est un ordre._
+- ✅ Pourriez-vous fermer la porte ?
+- ◻️ Tu fermeras la porte.  
+  _↳ feedback if chosen: C’est le futur._
+
+Full working after a second miss:
+
+> Le conditionnel adoucit la demande.  
+> Donc la réponse est « Pourriez-vous fermer la porte ? ».  
+
+> Quelle phrase est au conditionnel ?
+
+- ✅ J’aimerais devenir ingénieur.
+- ◻️ J’aimais devenir ingénieur.  
+  _↳ feedback if chosen: C’est l’imparfait._
+- ◻️ J’aime devenir ingénieur.  
+  _↳ feedback if chosen: C’est le présent._
+- ◻️ J’aimerai devenir ingénieur.  
+  _↳ feedback if chosen: C’est le futur._
+
+Full working after a second miss:
+
+> -rais : conditionnel.  
+> Donc la réponse est « J’aimerais devenir ingénieur. ».  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-86-spot` · Lesson 86 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Je voudrais un verre d’eau.
+- ✅ Si j’étais riche, j’aiderais les pauvres.
+- ✅ Nous irions au marché.
+- ✅ Tu devrais te reposer.
+- ❌ Si j’avais le temps, je viendrai.  
+  _↳ Après si + imparfait : je viendrais._
+- ❌ Ils seraitent contents.  
+  _↳ On écrit : ils seraient._
+- ❌ Si tu travaillerais, tu réussirais.  
+  _↳ Après « si », l’imparfait : si tu travaillais._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Je voudrais un verre d’eau.
+- ◻️ Nous irions au marché.
+- ◻️ Si j’étais riche, j’aiderais les pauvres.
+- ✅ Ils seraitent contents.  
+  _↳ explanation: On écrit : ils seraient._
+
+Full working after a second miss:
+
+> La phrase fausse est « Ils seraitent contents. ».  
+> On écrit : ils seraient.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Si j’avais le temps, je viendrai.  
+  _↳ explanation: Après si + imparfait : je viendrais._
+- ◻️ Si j’étais riche, j’aiderais les pauvres.
+- ◻️ Nous irions au marché.
+- ◻️ Je voudrais un verre d’eau.
+
+Full working after a second miss:
+
+> La phrase fausse est « Si j’avais le temps, je viendrai. ».  
+> Après si + imparfait : je viendrais.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Nous irions au marché.
+- ✅ Si j’avais le temps, je viendrai.  
+  _↳ explanation: Après si + imparfait : je viendrais._
+- ◻️ Tu devrais te reposer.
+- ◻️ Si j’étais riche, j’aiderais les pauvres.
+
+Full working after a second miss:
+
+> La phrase fausse est « Si j’avais le temps, je viendrai. ».  
+> Après si + imparfait : je viendrais.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-87-mot` · Lesson 87 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Ma ___ travaille à l’hôpital. | sœur | seur · soeur | On écrit œu. · On colle o et e : œ. |
+| Le fermier vend un ___. | bœuf | beuf · boef | On écrit œu. · Il manque le u. |
+| Je fais un ___ pour la nouvelle année. | vœu | veu · voeu | On écrit œu. · On colle o et e : œ. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Je fais un ___ pour la nouvelle année.**
+- ◻️ veu  
+  _↳ feedback if chosen: On écrit œu._
+- ✅ vœu
+- ◻️ voeu  
+  _↳ feedback if chosen: On colle o et e : œ._
+
+Full working after a second miss:
+
+> Le mot qui manque est « vœu ».  
+> Je fais un vœu pour la nouvelle année.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Le fermier vend un ___.**
+- ◻️ boef  
+  _↳ feedback if chosen: Il manque le u._
+- ✅ bœuf
+- ◻️ beuf  
+  _↳ feedback if chosen: On écrit œu._
+
+Full working after a second miss:
+
+> Le mot qui manque est « bœuf ».  
+> Le fermier vend un bœuf.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Je fais un ___ pour la nouvelle année.**
+- ◻️ voeu  
+  _↳ feedback if chosen: On colle o et e : œ._
+- ◻️ veu  
+  _↳ feedback if chosen: On écrit œu._
+- ✅ vœu
+
+Full working after a second miss:
+
+> Le mot qui manque est « vœu ».  
+> Je fais un vœu pour la nouvelle année.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-87-pl` · Lesson 87 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel est le pluriel de « un œil » ? | des yeux | des œils · des œux · des œufs | Ce pluriel est irrégulier. · Ce mot n’existe pas. · C’est le pluriel de « œuf ». | un œil, des yeux. |
+| Dans « des œufs », prononce-t-on le f ? | non | oui · seulement le matin · deux fois | Au pluriel, le f ne se prononce plus. · Ce n’est pas une règle. · Ce n’est pas une règle. | des œufs [ø]. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans « des œufs », prononce-t-on le f ?
+
+- ◻️ oui  
+  _↳ feedback if chosen: Au pluriel, le f ne se prononce plus._
+- ◻️ seulement le matin  
+  _↳ feedback if chosen: Ce n’est pas une règle._
+- ✅ non
+- ◻️ deux fois  
+  _↳ feedback if chosen: Ce n’est pas une règle._
+
+Full working after a second miss:
+
+> des œufs [ø].  
+> Donc la réponse est « non ».  
+
+> Quel est le pluriel de « un œil » ?
+
+- ◻️ des œufs  
+  _↳ feedback if chosen: C’est le pluriel de « œuf »._
+- ◻️ des œux  
+  _↳ feedback if chosen: Ce mot n’existe pas._
+- ◻️ des œils  
+  _↳ feedback if chosen: Ce pluriel est irrégulier._
+- ✅ des yeux
+
+Full working after a second miss:
+
+> un œil, des yeux.  
+> Donc la réponse est « des yeux ».  
+
+> Dans « des œufs », prononce-t-on le f ?
+
+- ◻️ seulement le matin  
+  _↳ feedback if chosen: Ce n’est pas une règle._
+- ◻️ oui  
+  _↳ feedback if chosen: Au pluriel, le f ne se prononce plus._
+- ◻️ deux fois  
+  _↳ feedback if chosen: Ce n’est pas une règle._
+- ✅ non
+
+Full working after a second miss:
+
+> des œufs [ø].  
+> Donc la réponse est « non ».  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-87-travail` · Lesson 87 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Que veut dire « la main-d’œuvre » ? | les travailleurs d’une entreprise | une main blessée · un œuf cassé · un outil | Ce n’est pas le sens. · Ce n’est pas le sens. · Ce n’est pas le sens. | Le travail des ouvriers. |
+| Que veut dire « un chef-d’œuvre » ? | un travail très réussi | un chef d’entreprise · un œuf de chef · un mauvais travail | Ce n’est pas le sens. · Ce n’est pas le sens. · C’est le contraire. | Une œuvre parfaite. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que veut dire « un chef-d’œuvre » ?
+
+- ◻️ un mauvais travail  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ un travail très réussi
+- ◻️ un œuf de chef  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ un chef d’entreprise  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Une œuvre parfaite.  
+> Donc la réponse est « un travail très réussi ».  
+
+> Que veut dire « la main-d’œuvre » ?
+
+- ◻️ un œuf cassé  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ les travailleurs d’une entreprise
+- ◻️ un outil  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ une main blessée  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le travail des ouvriers.  
+> Donc la réponse est « les travailleurs d’une entreprise ».  
+
+> Que veut dire « un chef-d’œuvre » ?
+
+- ◻️ un œuf de chef  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ un travail très réussi
+- ◻️ un mauvais travail  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ un chef d’entreprise  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Une œuvre parfaite.  
+> Donc la réponse est « un travail très réussi ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-87-spot` · Lesson 87 · spot the error, level 3
+
+Prompt: Quel mot est mal écrit ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ un œuf
+- ✅ le cœur
+- ✅ une œuvre
+- ✅ la sœur
+- ❌ la main-d’euvre  
+  _↳ On écrit main-d’œuvre._
+- ❌ des œils  
+  _↳ Le pluriel de œil est yeux._
+- ❌ un beuf  
+  _↳ On écrit bœuf._
+
+
+Three generated variants:
+
+> Quel mot est mal écrit ?
+
+- ◻️ un œuf
+- ✅ des œils  
+  _↳ explanation: Le pluriel de œil est yeux._
+- ◻️ la sœur
+- ◻️ une œuvre
+
+Full working after a second miss:
+
+> La phrase fausse est « des œils ».  
+> Le pluriel de œil est yeux.  
+
+> Quel mot est mal écrit ?
+
+- ✅ des œils  
+  _↳ explanation: Le pluriel de œil est yeux._
+- ◻️ le cœur
+- ◻️ la sœur
+- ◻️ une œuvre
+
+Full working after a second miss:
+
+> La phrase fausse est « des œils ».  
+> Le pluriel de œil est yeux.  
+
+> Quel mot est mal écrit ?
+
+- ◻️ un œuf
+- ✅ des œils  
+  _↳ explanation: Le pluriel de œil est yeux._
+- ◻️ une œuvre
+- ◻️ la sœur
+
+Full working after a second miss:
+
+> La phrase fausse est « des œils ».  
+> Le pluriel de œil est yeux.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-87-travail-card` · Lesson 87 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Que veut dire « la main-d’œuvre » ? | les travailleurs d’une entreprise | une main blessée · un œuf cassé · un outil | Ce n’est pas le sens. · Ce n’est pas le sens. · Ce n’est pas le sens. | Le travail des ouvriers. |
+| Que veut dire « un chef-d’œuvre » ? | un travail très réussi | un chef d’entreprise · un œuf de chef · un mauvais travail | Ce n’est pas le sens. · Ce n’est pas le sens. · C’est le contraire. | Une œuvre parfaite. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que veut dire « un chef-d’œuvre » ?
+
+- ◻️ un œuf de chef  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ un chef d’entreprise  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ un mauvais travail  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ un travail très réussi
+
+Full working after a second miss:
+
+> Une œuvre parfaite.  
+> Donc la réponse est « un travail très réussi ».  
+
+> Que veut dire « un chef-d’œuvre » ?
+
+- ◻️ un chef d’entreprise  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ un œuf de chef  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ un travail très réussi
+- ◻️ un mauvais travail  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Une œuvre parfaite.  
+> Donc la réponse est « un travail très réussi ».  
+
+> Que veut dire « la main-d’œuvre » ?
+
+- ◻️ un outil  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ une main blessée  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ un œuf cassé  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ les travailleurs d’une entreprise
+
+Full working after a second miss:
+
+> Le travail des ouvriers.  
+> Donc la réponse est « les travailleurs d’une entreprise ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-88-contrat` · Lesson 88 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce qu’un contrat de travail ? | un accord entre l’employeur et le travailleur | une facture · une lettre d’amour · un bulletin de notes | C’est pour un achat. · Ce n’est pas le sens. · C’est scolaire. | Il fixe poste, salaire et durée. |
+| Comment appelle-t-on la somme d’argent en plus du salaire ? | une prime | une amende · une grève · un congé | C’est une punition. · C’est un arrêt de travail. · C’est un repos. | Une récompense en argent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Comment appelle-t-on la somme d’argent en plus du salaire ?
+
+- ◻️ une amende  
+  _↳ feedback if chosen: C’est une punition._
+- ✅ une prime
+- ◻️ un congé  
+  _↳ feedback if chosen: C’est un repos._
+- ◻️ une grève  
+  _↳ feedback if chosen: C’est un arrêt de travail._
+
+Full working after a second miss:
+
+> Une récompense en argent.  
+> Donc la réponse est « une prime ».  
+
+> Comment appelle-t-on la somme d’argent en plus du salaire ?
+
+- ◻️ un congé  
+  _↳ feedback if chosen: C’est un repos._
+- ◻️ une grève  
+  _↳ feedback if chosen: C’est un arrêt de travail._
+- ◻️ une amende  
+  _↳ feedback if chosen: C’est une punition._
+- ✅ une prime
+
+Full working after a second miss:
+
+> Une récompense en argent.  
+> Donc la réponse est « une prime ».  
+
+> Comment appelle-t-on la somme d’argent en plus du salaire ?
+
+- ◻️ une grève  
+  _↳ feedback if chosen: C’est un arrêt de travail._
+- ◻️ une amende  
+  _↳ feedback if chosen: C’est une punition._
+- ✅ une prime
+- ◻️ un congé  
+  _↳ feedback if chosen: C’est un repos._
+
+Full working after a second miss:
+
+> Une récompense en argent.  
+> Donc la réponse est « une prime ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-88-mot` · Lesson 88 · matching, level 1
+
+Prompt: Associe chaque mot à sa définition.
+
+Pairs (4 shown each time):
+
+- le congé → **une période de repos payé**
+- la grève → **l’arrêt collectif du travail pour réclamer**
+- démissionner → **quitter son emploi de soi-même**
+- licencier → **renvoyer un travailleur**
+- la retraite → **la fin de la vie de travail à cause de l’âge**
+
+
+Three generated variants:
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): une période de repos payé · renvoyer un travailleur · la fin de la vie de travail à cause de l’âge · l’arrêt collectif du travail pour réclamer
+- licencier → **renvoyer un travailleur**
+- la grève → **l’arrêt collectif du travail pour réclamer**
+- la retraite → **la fin de la vie de travail à cause de l’âge**
+- le congé → **une période de repos payé**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> licencier → renvoyer un travailleur  
+> la grève → l’arrêt collectif du travail pour réclamer  
+> la retraite → la fin de la vie de travail à cause de l’âge  
+> le congé → une période de repos payé  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): renvoyer un travailleur · l’arrêt collectif du travail pour réclamer · quitter son emploi de soi-même · la fin de la vie de travail à cause de l’âge
+- la retraite → **la fin de la vie de travail à cause de l’âge**
+- la grève → **l’arrêt collectif du travail pour réclamer**
+- démissionner → **quitter son emploi de soi-même**
+- licencier → **renvoyer un travailleur**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> la retraite → la fin de la vie de travail à cause de l’âge  
+> la grève → l’arrêt collectif du travail pour réclamer  
+> démissionner → quitter son emploi de soi-même  
+> licencier → renvoyer un travailleur  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): la fin de la vie de travail à cause de l’âge · l’arrêt collectif du travail pour réclamer · une période de repos payé · renvoyer un travailleur
+- le congé → **une période de repos payé**
+- licencier → **renvoyer un travailleur**
+- la grève → **l’arrêt collectif du travail pour réclamer**
+- la retraite → **la fin de la vie de travail à cause de l’âge**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le congé → une période de repos payé  
+> licencier → renvoyer un travailleur  
+> la grève → l’arrêt collectif du travail pour réclamer  
+> la retraite → la fin de la vie de travail à cause de l’âge  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-88-droit` · Lesson 88 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Lequel est un devoir du travailleur ? | arriver à l’heure | recevoir un salaire juste · prendre des congés · être protégé au travail | C’est un droit. · C’est un droit. · C’est un droit. | La ponctualité est un devoir. |
+| Lequel est un droit du travailleur ? | travailler en sécurité | être assidu · respecter la hiérarchie · être ponctuel | C’est un devoir. · C’est un devoir. · C’est un devoir. | La sécurité au travail est un droit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Lequel est un devoir du travailleur ?
+
+- ◻️ être protégé au travail  
+  _↳ feedback if chosen: C’est un droit._
+- ◻️ prendre des congés  
+  _↳ feedback if chosen: C’est un droit._
+- ✅ arriver à l’heure
+- ◻️ recevoir un salaire juste  
+  _↳ feedback if chosen: C’est un droit._
+
+Full working after a second miss:
+
+> La ponctualité est un devoir.  
+> Donc la réponse est « arriver à l’heure ».  
+
+> Lequel est un devoir du travailleur ?
+
+- ✅ arriver à l’heure
+- ◻️ être protégé au travail  
+  _↳ feedback if chosen: C’est un droit._
+- ◻️ recevoir un salaire juste  
+  _↳ feedback if chosen: C’est un droit._
+- ◻️ prendre des congés  
+  _↳ feedback if chosen: C’est un droit._
+
+Full working after a second miss:
+
+> La ponctualité est un devoir.  
+> Donc la réponse est « arriver à l’heure ».  
+
+> Lequel est un devoir du travailleur ?
+
+- ◻️ être protégé au travail  
+  _↳ feedback if chosen: C’est un droit._
+- ✅ arriver à l’heure
+- ◻️ prendre des congés  
+  _↳ feedback if chosen: C’est un droit._
+- ◻️ recevoir un salaire juste  
+  _↳ feedback if chosen: C’est un droit._
+
+Full working after a second miss:
+
+> La ponctualité est un devoir.  
+> Donc la réponse est « arriver à l’heure ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-88-spot` · Lesson 88 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le contrat fixe le salaire.
+- ✅ Le syndicat défend les travailleurs.
+- ✅ Le congé est un repos payé.
+- ✅ La ponctualité est un devoir.
+- ❌ Démissionner veut dire être renvoyé par le patron.  
+  _↳ C’est quitter son emploi de soi-même._
+- ❌ La grève est une fête des travailleurs.  
+  _↳ C’est un arrêt collectif du travail._
+- ❌ Le travailleur n’a aucun droit.  
+  _↳ Il a droit à un salaire juste, à la sécurité et au repos._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le congé est un repos payé.
+- ✅ La grève est une fête des travailleurs.  
+  _↳ explanation: C’est un arrêt collectif du travail._
+- ◻️ Le contrat fixe le salaire.
+- ◻️ La ponctualité est un devoir.
+
+Full working after a second miss:
+
+> La phrase fausse est « La grève est une fête des travailleurs. ».  
+> C’est un arrêt collectif du travail.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le congé est un repos payé.
+- ◻️ Le contrat fixe le salaire.
+- ✅ La grève est une fête des travailleurs.  
+  _↳ explanation: C’est un arrêt collectif du travail._
+- ◻️ Le syndicat défend les travailleurs.
+
+Full working after a second miss:
+
+> La phrase fausse est « La grève est une fête des travailleurs. ».  
+> C’est un arrêt collectif du travail.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le contrat fixe le salaire.
+- ◻️ La ponctualité est un devoir.
+- ✅ La grève est une fête des travailleurs.  
+  _↳ explanation: C’est un arrêt collectif du travail._
+- ◻️ Le syndicat défend les travailleurs.
+
+Full working after a second miss:
+
+> La phrase fausse est « La grève est une fête des travailleurs. ».  
+> C’est un arrêt collectif du travail.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-88-droit-card` · Lesson 88 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Lequel est un devoir du travailleur ? | arriver à l’heure | recevoir un salaire juste · prendre des congés · être protégé au travail | C’est un droit. · C’est un droit. · C’est un droit. | La ponctualité est un devoir. |
+| Lequel est un droit du travailleur ? | travailler en sécurité | être assidu · respecter la hiérarchie · être ponctuel | C’est un devoir. · C’est un devoir. · C’est un devoir. | La sécurité au travail est un droit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Lequel est un droit du travailleur ?
+
+- ✅ travailler en sécurité
+- ◻️ être ponctuel  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ respecter la hiérarchie  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ être assidu  
+  _↳ feedback if chosen: C’est un devoir._
+
+Full working after a second miss:
+
+> La sécurité au travail est un droit.  
+> Donc la réponse est « travailler en sécurité ».  
+
+> Lequel est un droit du travailleur ?
+
+- ◻️ être ponctuel  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ respecter la hiérarchie  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ être assidu  
+  _↳ feedback if chosen: C’est un devoir._
+- ✅ travailler en sécurité
+
+Full working after a second miss:
+
+> La sécurité au travail est un droit.  
+> Donc la réponse est « travailler en sécurité ».  
+
+> Lequel est un droit du travailleur ?
+
+- ◻️ être assidu  
+  _↳ feedback if chosen: C’est un devoir._
+- ✅ travailler en sécurité
+- ◻️ être ponctuel  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ respecter la hiérarchie  
+  _↳ feedback if chosen: C’est un devoir._
+
+Full working after a second miss:
+
+> La sécurité au travail est un droit.  
+> Donc la réponse est « travailler en sécurité ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-89-cand` · Lesson 89 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Que doit faire le candidat en arrivant ? | arriver à l’heure et saluer poliment | arriver en retard · s’asseoir sans saluer · téléphoner pendant l’entretien | C’est une mauvaise impression. · C’est impoli. · C’est impoli. | La politesse et la ponctualité comptent. |
+| Quelle phrase sert à se présenter ? | Je m’appelle Bih, j’ai vingt ans et un CAP de couture. | Donnez-moi le travail. · Je ne sais pas. · Combien vous gagnez ? | C’est impoli. · Ce n’est pas une présentation. · C’est déplacé. | Nom, âge, diplôme. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle phrase sert à se présenter ?
+
+- ◻️ Donnez-moi le travail.  
+  _↳ feedback if chosen: C’est impoli._
+- ◻️ Combien vous gagnez ?  
+  _↳ feedback if chosen: C’est déplacé._
+- ✅ Je m’appelle Bih, j’ai vingt ans et un CAP de couture.
+- ◻️ Je ne sais pas.  
+  _↳ feedback if chosen: Ce n’est pas une présentation._
+
+Full working after a second miss:
+
+> Nom, âge, diplôme.  
+> Donc la réponse est « Je m’appelle Bih, j’ai vingt ans et un CAP de couture. ».  
+
+> Que doit faire le candidat en arrivant ?
+
+- ◻️ téléphoner pendant l’entretien  
+  _↳ feedback if chosen: C’est impoli._
+- ✅ arriver à l’heure et saluer poliment
+- ◻️ s’asseoir sans saluer  
+  _↳ feedback if chosen: C’est impoli._
+- ◻️ arriver en retard  
+  _↳ feedback if chosen: C’est une mauvaise impression._
+
+Full working after a second miss:
+
+> La politesse et la ponctualité comptent.  
+> Donc la réponse est « arriver à l’heure et saluer poliment ».  
+
+> Que doit faire le candidat en arrivant ?
+
+- ✅ arriver à l’heure et saluer poliment
+- ◻️ s’asseoir sans saluer  
+  _↳ feedback if chosen: C’est impoli._
+- ◻️ téléphoner pendant l’entretien  
+  _↳ feedback if chosen: C’est impoli._
+- ◻️ arriver en retard  
+  _↳ feedback if chosen: C’est une mauvaise impression._
+
+Full working after a second miss:
+
+> La politesse et la ponctualité comptent.  
+> Donc la réponse est « arriver à l’heure et saluer poliment ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-89-quest` · Lesson 89 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle question l’employeur peut-il poser ? | Pourquoi voulez-vous ce poste ? | Quelle est votre couleur préférée de voiture ? · Où sont mes clés ? · Quel temps fera-t-il demain ? | Ce n’est pas utile. · Ce n’est pas utile. · Ce n’est pas utile. | Il veut connaître la motivation. |
+| Quelle réponse est honnête et utile ? | Je suis ponctuel et j’aime apprendre. | Je suis le meilleur du monde. · Je ne travaille jamais. · Je ne sais rien faire. | C’est exagéré. · C’est négatif. · C’est négatif. | Des qualités vraies et utiles. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle réponse est honnête et utile ?
+
+- ✅ Je suis ponctuel et j’aime apprendre.
+- ◻️ Je suis le meilleur du monde.  
+  _↳ feedback if chosen: C’est exagéré._
+- ◻️ Je ne travaille jamais.  
+  _↳ feedback if chosen: C’est négatif._
+- ◻️ Je ne sais rien faire.  
+  _↳ feedback if chosen: C’est négatif._
+
+Full working after a second miss:
+
+> Des qualités vraies et utiles.  
+> Donc la réponse est « Je suis ponctuel et j’aime apprendre. ».  
+
+> Quelle question l’employeur peut-il poser ?
+
+- ◻️ Quelle est votre couleur préférée de voiture ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ Où sont mes clés ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ✅ Pourquoi voulez-vous ce poste ?
+- ◻️ Quel temps fera-t-il demain ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+
+Full working after a second miss:
+
+> Il veut connaître la motivation.  
+> Donc la réponse est « Pourquoi voulez-vous ce poste ? ».  
+
+> Quelle question l’employeur peut-il poser ?
+
+- ◻️ Quel temps fera-t-il demain ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ Où sont mes clés ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ✅ Pourquoi voulez-vous ce poste ?
+- ◻️ Quelle est votre couleur préférée de voiture ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+
+Full working after a second miss:
+
+> Il veut connaître la motivation.  
+> Donc la réponse est « Pourquoi voulez-vous ce poste ? ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-89-ordre` · Lesson 89 · ordering, level 2
+
+Prompt: Remets l’entretien dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Bonjour, madame. | Bonjour. Asseyez-vous. Parlez-moi de vous. | Je m’appelle Tabe ; j’ai un CAP de menuiserie. | Pourquoi voulez-vous ce poste ? | Parce que j’aime travailler le bois. | Très bien, nous vous rappellerons. | Je vous remercie de m’avoir reçu. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+6. {X[5]}
+7. {X[6]}
+
+
+Three generated variants:
+
+> Remets l’entretien dans l’ordre.
+
+Shown as: Je vous remercie de m’avoir reçu. · Bonjour, madame. · Parce que j’aime travailler le bois. · Bonjour. Asseyez-vous. Parlez-moi de vous. · Pourquoi voulez-vous ce poste ? · Très bien, nous vous rappellerons. · Je m’appelle Tabe ; j’ai un CAP de menuiserie.
+Correct order: Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu..  
+
+> Remets l’entretien dans l’ordre.
+
+Shown as: Bonjour, madame. · Parce que j’aime travailler le bois. · Je vous remercie de m’avoir reçu. · Je m’appelle Tabe ; j’ai un CAP de menuiserie. · Pourquoi voulez-vous ce poste ? · Bonjour. Asseyez-vous. Parlez-moi de vous. · Très bien, nous vous rappellerons.
+Correct order: Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu..  
+
+> Remets l’entretien dans l’ordre.
+
+Shown as: Parce que j’aime travailler le bois. · Très bien, nous vous rappellerons. · Je m’appelle Tabe ; j’ai un CAP de menuiserie. · Je vous remercie de m’avoir reçu. · Bonjour, madame. · Bonjour. Asseyez-vous. Parlez-moi de vous. · Pourquoi voulez-vous ce poste ?
+Correct order: Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-89-spot` · Lesson 89 · spot the error, level 3
+
+Prompt: Quel conseil pour un entretien est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Arriver à l’heure.
+- ✅ S’habiller proprement.
+- ✅ Regarder l’interlocuteur.
+- ✅ Remercier à la fin.
+- ❌ Mentir sur ses diplômes.  
+  _↳ On reste honnête._
+- ❌ Répondre au téléphone pendant l’entretien.  
+  _↳ On éteint son téléphone._
+- ❌ Partir sans saluer.  
+  _↳ On salue et on remercie._
+
+
+Three generated variants:
+
+> Quel conseil pour un entretien est faux ?
+
+- ◻️ Remercier à la fin.
+- ✅ Mentir sur ses diplômes.  
+  _↳ explanation: On reste honnête._
+- ◻️ Regarder l’interlocuteur.
+- ◻️ S’habiller proprement.
+
+Full working after a second miss:
+
+> La phrase fausse est « Mentir sur ses diplômes. ».  
+> On reste honnête.  
+
+> Quel conseil pour un entretien est faux ?
+
+- ◻️ Regarder l’interlocuteur.
+- ✅ Mentir sur ses diplômes.  
+  _↳ explanation: On reste honnête._
+- ◻️ Remercier à la fin.
+- ◻️ S’habiller proprement.
+
+Full working after a second miss:
+
+> La phrase fausse est « Mentir sur ses diplômes. ».  
+> On reste honnête.  
+
+> Quel conseil pour un entretien est faux ?
+
+- ◻️ Arriver à l’heure.
+- ◻️ Remercier à la fin.
+- ✅ Partir sans saluer.  
+  _↳ explanation: On salue et on remercie._
+- ◻️ S’habiller proprement.
+
+Full working after a second miss:
+
+> La phrase fausse est « Partir sans saluer. ».  
+> On salue et on remercie.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-89-ordre-card` · Lesson 89 · ordering, level 1
+
+Prompt: Remets l’entretien dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Bonjour, madame. | Bonjour. Asseyez-vous. Parlez-moi de vous. | Je m’appelle Tabe ; j’ai un CAP de menuiserie. | Pourquoi voulez-vous ce poste ? | Parce que j’aime travailler le bois. | Très bien, nous vous rappellerons. | Je vous remercie de m’avoir reçu. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+6. {X[5]}
+7. {X[6]}
+
+
+Three generated variants:
+
+> Remets l’entretien dans l’ordre.
+
+Shown as: Bonjour. Asseyez-vous. Parlez-moi de vous. · Pourquoi voulez-vous ce poste ? · Parce que j’aime travailler le bois. · Je m’appelle Tabe ; j’ai un CAP de menuiserie. · Bonjour, madame. · Très bien, nous vous rappellerons. · Je vous remercie de m’avoir reçu.
+Correct order: Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu..  
+
+> Remets l’entretien dans l’ordre.
+
+Shown as: Parce que j’aime travailler le bois. · Bonjour, madame. · Je m’appelle Tabe ; j’ai un CAP de menuiserie. · Bonjour. Asseyez-vous. Parlez-moi de vous. · Je vous remercie de m’avoir reçu. · Pourquoi voulez-vous ce poste ? · Très bien, nous vous rappellerons.
+Correct order: Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu..  
+
+> Remets l’entretien dans l’ordre.
+
+Shown as: Je vous remercie de m’avoir reçu. · Bonjour, madame. · Je m’appelle Tabe ; j’ai un CAP de menuiserie. · Bonjour. Asseyez-vous. Parlez-moi de vous. · Très bien, nous vous rappellerons. · Parce que j’aime travailler le bois. · Pourquoi voulez-vous ce poste ?
+Correct order: Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu.
+
+Full working after a second miss:
+
+> Le bon ordre est : Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-90-plan` · Lesson 90 · ordering, level 1
+
+Prompt: Remets le portrait dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Mon oncle Fon est mécanicien à Bamenda. | C’est un homme petit et costaud. | Ses mains sont noires de graisse. | Il est patient : il explique tout à ses apprentis. | J’admire son amour du travail bien fait. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets le portrait dans l’ordre.
+
+Shown as: Mon oncle Fon est mécanicien à Bamenda. · Ses mains sont noires de graisse. · Il est patient : il explique tout à ses apprentis. · J’admire son amour du travail bien fait. · C’est un homme petit et costaud.
+Correct order: Mon oncle Fon est mécanicien à Bamenda. → C’est un homme petit et costaud. → Ses mains sont noires de graisse. → Il est patient : il explique tout à ses apprentis. → J’admire son amour du travail bien fait.
+
+Full working after a second miss:
+
+> Le bon ordre est : Mon oncle Fon est mécanicien à Bamenda. → C’est un homme petit et costaud. → Ses mains sont noires de graisse. → Il est patient : il explique tout à ses apprentis. → J’admire son amour du travail bien fait..  
+
+> Remets le portrait dans l’ordre.
+
+Shown as: Ses mains sont noires de graisse. · Mon oncle Fon est mécanicien à Bamenda. · J’admire son amour du travail bien fait. · Il est patient : il explique tout à ses apprentis. · C’est un homme petit et costaud.
+Correct order: Mon oncle Fon est mécanicien à Bamenda. → C’est un homme petit et costaud. → Ses mains sont noires de graisse. → Il est patient : il explique tout à ses apprentis. → J’admire son amour du travail bien fait.
+
+Full working after a second miss:
+
+> Le bon ordre est : Mon oncle Fon est mécanicien à Bamenda. → C’est un homme petit et costaud. → Ses mains sont noires de graisse. → Il est patient : il explique tout à ses apprentis. → J’admire son amour du travail bien fait..  
+
+> Remets le portrait dans l’ordre.
+
+Shown as: Ses mains sont noires de graisse. · Mon oncle Fon est mécanicien à Bamenda. · J’admire son amour du travail bien fait. · C’est un homme petit et costaud. · Il est patient : il explique tout à ses apprentis.
+Correct order: Mon oncle Fon est mécanicien à Bamenda. → C’est un homme petit et costaud. → Ses mains sont noires de graisse. → Il est patient : il explique tout à ses apprentis. → J’admire son amour du travail bien fait.
+
+Full working after a second miss:
+
+> Le bon ordre est : Mon oncle Fon est mécanicien à Bamenda. → C’est un homme petit et costaud. → Ses mains sont noires de graisse. → Il est patient : il explique tout à ses apprentis. → J’admire son amour du travail bien fait..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-90-concl` · Lesson 90 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle phrase peut conclure un portrait ? | J’admire son courage et sa bonne humeur. | Elle est grande. · Elle travaille au marché. · Ses yeux sont noirs. | C’est le physique. · C’est la présentation. · C’est le physique. | La conclusion donne un sentiment. |
+| Quelle phrase fait le portrait moral ? | Il est généreux : il aide les voisins. | Il porte une casquette. · Il est mince. · Il a une barbe. | C’est le physique. · C’est le physique. · C’est le physique. | Une qualité avec un exemple. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle phrase peut conclure un portrait ?
+
+- ◻️ Ses yeux sont noirs.  
+  _↳ feedback if chosen: C’est le physique._
+- ◻️ Elle est grande.  
+  _↳ feedback if chosen: C’est le physique._
+- ◻️ Elle travaille au marché.  
+  _↳ feedback if chosen: C’est la présentation._
+- ✅ J’admire son courage et sa bonne humeur.
+
+Full working after a second miss:
+
+> La conclusion donne un sentiment.  
+> Donc la réponse est « J’admire son courage et sa bonne humeur. ».  
+
+> Quelle phrase peut conclure un portrait ?
+
+- ◻️ Elle est grande.  
+  _↳ feedback if chosen: C’est le physique._
+- ◻️ Ses yeux sont noirs.  
+  _↳ feedback if chosen: C’est le physique._
+- ✅ J’admire son courage et sa bonne humeur.
+- ◻️ Elle travaille au marché.  
+  _↳ feedback if chosen: C’est la présentation._
+
+Full working after a second miss:
+
+> La conclusion donne un sentiment.  
+> Donc la réponse est « J’admire son courage et sa bonne humeur. ».  
+
+> Quelle phrase fait le portrait moral ?
+
+- ◻️ Il a une barbe.  
+  _↳ feedback if chosen: C’est le physique._
+- ◻️ Il est mince.  
+  _↳ feedback if chosen: C’est le physique._
+- ✅ Il est généreux : il aide les voisins.
+- ◻️ Il porte une casquette.  
+  _↳ feedback if chosen: C’est le physique._
+
+Full working after a second miss:
+
+> Une qualité avec un exemple.  
+> Donc la réponse est « Il est généreux : il aide les voisins. ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-90-spot` · Lesson 90 · spot the error, level 3
+
+Prompt: Quel conseil pour faire un portrait est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On présente la personne.
+- ✅ On décrit le physique et le moral.
+- ✅ On prouve une qualité par un exemple.
+- ✅ On termine par un sentiment.
+- ❌ On cite des qualités sans jamais donner d’exemple.  
+  _↳ Un exemple prouve la qualité._
+- ❌ Le portrait moral décrit seulement les vêtements.  
+  _↳ Il décrit le caractère._
+- ❌ On écrit le portrait sans aucun ordre.  
+  _↳ On suit un plan._
+
+
+Three generated variants:
+
+> Quel conseil pour faire un portrait est faux ?
+
+- ◻️ On décrit le physique et le moral.
+- ◻️ On présente la personne.
+- ✅ On écrit le portrait sans aucun ordre.  
+  _↳ explanation: On suit un plan._
+- ◻️ On prouve une qualité par un exemple.
+
+Full working after a second miss:
+
+> La phrase fausse est « On écrit le portrait sans aucun ordre. ».  
+> On suit un plan.  
+
+> Quel conseil pour faire un portrait est faux ?
+
+- ✅ On écrit le portrait sans aucun ordre.  
+  _↳ explanation: On suit un plan._
+- ◻️ On termine par un sentiment.
+- ◻️ On décrit le physique et le moral.
+- ◻️ On présente la personne.
+
+Full working after a second miss:
+
+> La phrase fausse est « On écrit le portrait sans aucun ordre. ».  
+> On suit un plan.  
+
+> Quel conseil pour faire un portrait est faux ?
+
+- ✅ On écrit le portrait sans aucun ordre.  
+  _↳ explanation: On suit un plan._
+- ◻️ On décrit le physique et le moral.
+- ◻️ On prouve une qualité par un exemple.
+- ◻️ On présente la personne.
+
+Full working after a second miss:
+
+> La phrase fausse est « On écrit le portrait sans aucun ordre. ».  
+> On suit un plan.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-90-concl-card` · Lesson 90 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle phrase peut conclure un portrait ? | J’admire son courage et sa bonne humeur. | Elle est grande. · Elle travaille au marché. · Ses yeux sont noirs. | C’est le physique. · C’est la présentation. · C’est le physique. | La conclusion donne un sentiment. |
+| Quelle phrase fait le portrait moral ? | Il est généreux : il aide les voisins. | Il porte une casquette. · Il est mince. · Il a une barbe. | C’est le physique. · C’est le physique. · C’est le physique. | Une qualité avec un exemple. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle phrase peut conclure un portrait ?
+
+- ✅ J’admire son courage et sa bonne humeur.
+- ◻️ Elle travaille au marché.  
+  _↳ feedback if chosen: C’est la présentation._
+- ◻️ Ses yeux sont noirs.  
+  _↳ feedback if chosen: C’est le physique._
+- ◻️ Elle est grande.  
+  _↳ feedback if chosen: C’est le physique._
+
+Full working after a second miss:
+
+> La conclusion donne un sentiment.  
+> Donc la réponse est « J’admire son courage et sa bonne humeur. ».  
+
+> Quelle phrase fait le portrait moral ?
+
+- ◻️ Il porte une casquette.  
+  _↳ feedback if chosen: C’est le physique._
+- ✅ Il est généreux : il aide les voisins.
+- ◻️ Il est mince.  
+  _↳ feedback if chosen: C’est le physique._
+- ◻️ Il a une barbe.  
+  _↳ feedback if chosen: C’est le physique._
+
+Full working after a second miss:
+
+> Une qualité avec un exemple.  
+> Donc la réponse est « Il est généreux : il aide les voisins. ».  
+
+> Quelle phrase fait le portrait moral ?
+
+- ◻️ Il porte une casquette.  
+  _↳ feedback if chosen: C’est le physique._
+- ◻️ Il a une barbe.  
+  _↳ feedback if chosen: C’est le physique._
+- ✅ Il est généreux : il aide les voisins.
+- ◻️ Il est mince.  
+  _↳ feedback if chosen: C’est le physique._
+
+Full working after a second miss:
+
+> Une qualité avec un exemple.  
+> Donc la réponse est « Il est généreux : il aide les voisins. ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-91-quoi` · Lesson 91 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quel mot est un nom composé ? | une machine à coudre | une machine · coudre · une couturière | C’est un nom simple. · C’est un verbe. · C’est un nom simple. | Plusieurs mots pour une seule chose. |
+| Quel mot est un nom composé ? | un arc-en-ciel | un arc · le ciel · un nuage | C’est un nom simple. · C’est un nom simple. · C’est un nom simple. | Trois mots, une seule chose. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel mot est un nom composé ?
+
+- ✅ une machine à coudre
+- ◻️ coudre  
+  _↳ feedback if chosen: C’est un verbe._
+- ◻️ une couturière  
+  _↳ feedback if chosen: C’est un nom simple._
+- ◻️ une machine  
+  _↳ feedback if chosen: C’est un nom simple._
+
+Full working after a second miss:
+
+> Plusieurs mots pour une seule chose.  
+> Donc la réponse est « une machine à coudre ».  
+
+> Quel mot est un nom composé ?
+
+- ◻️ coudre  
+  _↳ feedback if chosen: C’est un verbe._
+- ✅ une machine à coudre
+- ◻️ une couturière  
+  _↳ feedback if chosen: C’est un nom simple._
+- ◻️ une machine  
+  _↳ feedback if chosen: C’est un nom simple._
+
+Full working after a second miss:
+
+> Plusieurs mots pour une seule chose.  
+> Donc la réponse est « une machine à coudre ».  
+
+> Quel mot est un nom composé ?
+
+- ◻️ un arc  
+  _↳ feedback if chosen: C’est un nom simple._
+- ◻️ le ciel  
+  _↳ feedback if chosen: C’est un nom simple._
+- ✅ un arc-en-ciel
+- ◻️ un nuage  
+  _↳ feedback if chosen: C’est un nom simple._
+
+Full working after a second miss:
+
+> Trois mots, une seule chose.  
+> Donc la réponse est « un arc-en-ciel ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-91-pl` · Lesson 91 · multiple choice, level 2
+
+Prompt: Quel est le pluriel de « {X.q} » ?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| un chou-fleur | des choux-fleurs | des chou-fleurs · des choux-fleur · des chous-fleurs | Les deux noms varient. · Les deux noms varient. · « chou » prend -x. | nom + nom : les deux varient. |
+| un coffre-fort | des coffres-forts | des coffre-forts · des coffres-fort · des coffre-fort | Le nom varie aussi. · L’adjectif varie aussi. · Les deux varient. | nom + adjectif : les deux varient. |
+| un tire-bouchon | des tire-bouchons | des tires-bouchons · des tire-bouchon · des tires-bouchon | « tire » est un verbe : invariable. · Le nom varie. · Le verbe ne varie pas, le nom si. | verbe + nom : seul le nom varie. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel est le pluriel de « un chou-fleur » ?
+
+- ◻️ des chous-fleurs  
+  _↳ feedback if chosen: « chou » prend -x._
+- ◻️ des choux-fleur  
+  _↳ feedback if chosen: Les deux noms varient._
+- ◻️ des chou-fleurs  
+  _↳ feedback if chosen: Les deux noms varient._
+- ✅ des choux-fleurs
+
+Full working after a second miss:
+
+> nom + nom : les deux varient.  
+> Donc la réponse est « des choux-fleurs ».  
+
+> Quel est le pluriel de « un tire-bouchon » ?
+
+- ◻️ des tire-bouchon  
+  _↳ feedback if chosen: Le nom varie._
+- ◻️ des tires-bouchons  
+  _↳ feedback if chosen: « tire » est un verbe : invariable._
+- ✅ des tire-bouchons
+- ◻️ des tires-bouchon  
+  _↳ feedback if chosen: Le verbe ne varie pas, le nom si._
+
+Full working after a second miss:
+
+> verbe + nom : seul le nom varie.  
+> Donc la réponse est « des tire-bouchons ».  
+
+> Quel est le pluriel de « un tire-bouchon » ?
+
+- ◻️ des tires-bouchons  
+  _↳ feedback if chosen: « tire » est un verbe : invariable._
+- ◻️ des tire-bouchon  
+  _↳ feedback if chosen: Le nom varie._
+- ✅ des tire-bouchons
+- ◻️ des tires-bouchon  
+  _↳ feedback if chosen: Le verbe ne varie pas, le nom si._
+
+Full working after a second miss:
+
+> verbe + nom : seul le nom varie.  
+> Donc la réponse est « des tire-bouchons ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-91-prep` · Lesson 91 · fill the blank, level 1
+
+Prompt: Choisis le pluriel correct.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| L’atelier a acheté trois ___. | machines à coudre | machine à coudres · machines à coudres | Le premier nom varie. · « coudre » est un verbe : invariable. |
+| Ma mère épluche des ___. | pommes de terre | pomme de terres · pommes de terres | Le premier nom varie. · Seul le premier nom varie. |
+| Ce musée garde des ___. | chefs-d’œuvre | chef-d’œuvres · chefs-d’œuvres | Le premier nom varie. · Seul le premier nom varie. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le pluriel correct.
+
+Sentence: **L’atelier a acheté trois ___.**
+- ◻️ machines à coudres  
+  _↳ feedback if chosen: « coudre » est un verbe : invariable._
+- ◻️ machine à coudres  
+  _↳ feedback if chosen: Le premier nom varie._
+- ✅ machines à coudre
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « machines à coudre ».  
+> L’atelier a acheté trois machines à coudre.  
+
+> Choisis le pluriel correct.
+
+Sentence: **L’atelier a acheté trois ___.**
+- ✅ machines à coudre
+- ◻️ machine à coudres  
+  _↳ feedback if chosen: Le premier nom varie._
+- ◻️ machines à coudres  
+  _↳ feedback if chosen: « coudre » est un verbe : invariable._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « machines à coudre ».  
+> L’atelier a acheté trois machines à coudre.  
+
+> Choisis le pluriel correct.
+
+Sentence: **Ce musée garde des ___.**
+- ◻️ chef-d’œuvres  
+  _↳ feedback if chosen: Le premier nom varie._
+- ✅ chefs-d’œuvre
+- ◻️ chefs-d’œuvres  
+  _↳ feedback if chosen: Seul le premier nom varie._
+
+Full working after a second miss:
+
+> Le mot qui manque est « chefs-d’œuvre ».  
+> Ce musée garde des chefs-d’œuvre.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-91-spot` · Lesson 91 · spot the error, level 3
+
+Prompt: Quel pluriel est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ des choux-fleurs
+- ✅ des coffres-forts
+- ✅ des tire-bouchons
+- ✅ des pommes de terre
+- ❌ des tires-bouchons  
+  _↳ « tire » est un verbe : il ne varie pas._
+- ❌ des machine à coudres  
+  _↳ On écrit : des machines à coudre._
+- ❌ des chef-d’œuvres  
+  _↳ On écrit : des chefs-d’œuvre._
+
+
+Three generated variants:
+
+> Quel pluriel est faux ?
+
+- ✅ des chef-d’œuvres  
+  _↳ explanation: On écrit : des chefs-d’œuvre._
+- ◻️ des choux-fleurs
+- ◻️ des tire-bouchons
+- ◻️ des pommes de terre
+
+Full working after a second miss:
+
+> La phrase fausse est « des chef-d’œuvres ».  
+> On écrit : des chefs-d’œuvre.  
+
+> Quel pluriel est faux ?
+
+- ◻️ des pommes de terre
+- ◻️ des choux-fleurs
+- ◻️ des coffres-forts
+- ✅ des machine à coudres  
+  _↳ explanation: On écrit : des machines à coudre._
+
+Full working after a second miss:
+
+> La phrase fausse est « des machine à coudres ».  
+> On écrit : des machines à coudre.  
+
+> Quel pluriel est faux ?
+
+- ◻️ des choux-fleurs
+- ◻️ des pommes de terre
+- ◻️ des coffres-forts
+- ✅ des machine à coudres  
+  _↳ explanation: On écrit : des machines à coudre._
+
+Full working after a second miss:
+
+> La phrase fausse est « des machine à coudres ».  
+> On écrit : des machines à coudre.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-91-pl-card` · Lesson 91 · multiple choice, level 1
+
+Prompt: Quel est le pluriel de « {X.q} » ?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| un chou-fleur | des choux-fleurs | des chou-fleurs · des choux-fleur · des chous-fleurs | Les deux noms varient. · Les deux noms varient. · « chou » prend -x. | nom + nom : les deux varient. |
+| un coffre-fort | des coffres-forts | des coffre-forts · des coffres-fort · des coffre-fort | Le nom varie aussi. · L’adjectif varie aussi. · Les deux varient. | nom + adjectif : les deux varient. |
+| un tire-bouchon | des tire-bouchons | des tires-bouchons · des tire-bouchon · des tires-bouchon | « tire » est un verbe : invariable. · Le nom varie. · Le verbe ne varie pas, le nom si. | verbe + nom : seul le nom varie. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel est le pluriel de « un chou-fleur » ?
+
+- ◻️ des choux-fleur  
+  _↳ feedback if chosen: Les deux noms varient._
+- ◻️ des chou-fleurs  
+  _↳ feedback if chosen: Les deux noms varient._
+- ✅ des choux-fleurs
+- ◻️ des chous-fleurs  
+  _↳ feedback if chosen: « chou » prend -x._
+
+Full working after a second miss:
+
+> nom + nom : les deux varient.  
+> Donc la réponse est « des choux-fleurs ».  
+
+> Quel est le pluriel de « un coffre-fort » ?
+
+- ◻️ des coffres-fort  
+  _↳ feedback if chosen: L’adjectif varie aussi._
+- ✅ des coffres-forts
+- ◻️ des coffre-fort  
+  _↳ feedback if chosen: Les deux varient._
+- ◻️ des coffre-forts  
+  _↳ feedback if chosen: Le nom varie aussi._
+
+Full working after a second miss:
+
+> nom + adjectif : les deux varient.  
+> Donc la réponse est « des coffres-forts ».  
+
+> Quel est le pluriel de « un coffre-fort » ?
+
+- ◻️ des coffre-fort  
+  _↳ feedback if chosen: Les deux varient._
+- ◻️ des coffre-forts  
+  _↳ feedback if chosen: Le nom varie aussi._
+- ◻️ des coffres-fort  
+  _↳ feedback if chosen: L’adjectif varie aussi._
+- ✅ des coffres-forts
+
+Full working after a second miss:
+
+> nom + adjectif : les deux varient.  
+> Donc la réponse est « des coffres-forts ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-92-mm` · Lesson 92 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Le ___ est en plein essor au marché. | commerce | comerce · commerse | Deux m. · On écrit -ce. |
+| Le ___ construit un mur. | maçon | mmaçon · masson | Un seul m. · On écrit ç. |
+| Ma voisine est une ___ courageuse. | femme | fame · femm | Deux m. · Il manque le e. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Le ___ construit un mur.**
+- ✅ maçon
+- ◻️ mmaçon  
+  _↳ feedback if chosen: Un seul m._
+- ◻️ masson  
+  _↳ feedback if chosen: On écrit ç._
+
+Full working after a second miss:
+
+> Le mot qui manque est « maçon ».  
+> Le maçon construit un mur.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Ma voisine est une ___ courageuse.**
+- ◻️ femm  
+  _↳ feedback if chosen: Il manque le e._
+- ✅ femme
+- ◻️ fame  
+  _↳ feedback if chosen: Deux m._
+
+Full working after a second miss:
+
+> Le mot qui manque est « femme ».  
+> Ma voisine est une femme courageuse.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Ma voisine est une ___ courageuse.**
+- ✅ femme
+- ◻️ fame  
+  _↳ feedback if chosen: Deux m._
+- ◻️ femm  
+  _↳ feedback if chosen: Il manque le e._
+
+Full working after a second miss:
+
+> Le mot qui manque est « femme ».  
+> Ma voisine est une femme courageuse.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-92-mbp` · Lesson 92 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| L’usine va ___ cinquante ouvriers. | embaucher | enbaucher · embauché | Devant b, on écrit m. · Après « va », l’infinitif. |
+| Il faut ___ ton cahier à l’école. | emporter | enporter · emporté | Devant p, on écrit m. · Après « faut », l’infinitif. |
+| J’ai collé un ___ sur la lettre. | timbre | tinbre · timbr | Devant b, on écrit m. · Il manque le e. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **J’ai collé un ___ sur la lettre.**
+- ◻️ tinbre  
+  _↳ feedback if chosen: Devant b, on écrit m._
+- ✅ timbre
+- ◻️ timbr  
+  _↳ feedback if chosen: Il manque le e._
+
+Full working after a second miss:
+
+> Le mot qui manque est « timbre ».  
+> J’ai collé un timbre sur la lettre.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Il faut ___ ton cahier à l’école.**
+- ✅ emporter
+- ◻️ emporté  
+  _↳ feedback if chosen: Après « faut », l’infinitif._
+- ◻️ enporter  
+  _↳ feedback if chosen: Devant p, on écrit m._
+
+Full working after a second miss:
+
+> Le mot qui manque est « emporter ».  
+> Il faut emporter ton cahier à l’école.  
+
+> Choisis la bonne écriture.
+
+Sentence: **L’usine va ___ cinquante ouvriers.**
+- ◻️ enbaucher  
+  _↳ feedback if chosen: Devant b, on écrit m._
+- ◻️ embauché  
+  _↳ feedback if chosen: Après « va », l’infinitif._
+- ✅ embaucher
+
+Full working after a second miss:
+
+> Le mot qui manque est « embaucher ».  
+> L’usine va embaucher cinquante ouvriers.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-92-adv` · Lesson 92 · fill the blank, level 2
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Elle parle ___ le français et l’anglais. | couramment | courament · couremment | -amment : deux m. · « courant » donne -amment. |
+| Le chauffeur conduit ___. | prudemment | prudament · prudement | « prudent » donne -emment. · Il faut deux m. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Elle parle ___ le français et l’anglais.**
+- ✅ couramment
+- ◻️ couremment  
+  _↳ feedback if chosen: « courant » donne -amment._
+- ◻️ courament  
+  _↳ feedback if chosen: -amment : deux m._
+
+Full working after a second miss:
+
+> Le mot qui manque est « couramment ».  
+> Elle parle couramment le français et l’anglais.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Elle parle ___ le français et l’anglais.**
+- ✅ couramment
+- ◻️ courament  
+  _↳ feedback if chosen: -amment : deux m._
+- ◻️ couremment  
+  _↳ feedback if chosen: « courant » donne -amment._
+
+Full working after a second miss:
+
+> Le mot qui manque est « couramment ».  
+> Elle parle couramment le français et l’anglais.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Le chauffeur conduit ___.**
+- ◻️ prudement  
+  _↳ feedback if chosen: Il faut deux m._
+- ◻️ prudament  
+  _↳ feedback if chosen: « prudent » donne -emment._
+- ✅ prudemment
+
+Full working after a second miss:
+
+> Le mot qui manque est « prudemment ».  
+> Le chauffeur conduit prudemment.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-92-spot` · Lesson 92 · spot the error, level 3
+
+Prompt: Quel mot est mal écrit ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ la femme
+- ✅ embaucher
+- ✅ le commerce
+- ✅ couramment
+- ❌ enporter  
+  _↳ Devant p, on écrit m : emporter._
+- ❌ comerçant  
+  _↳ On écrit commerçant avec deux m._
+- ❌ prudament  
+  _↳ On écrit prudemment._
+
+
+Three generated variants:
+
+> Quel mot est mal écrit ?
+
+- ◻️ la femme
+- ◻️ couramment
+- ◻️ embaucher
+- ✅ comerçant  
+  _↳ explanation: On écrit commerçant avec deux m._
+
+Full working after a second miss:
+
+> La phrase fausse est « comerçant ».  
+> On écrit commerçant avec deux m.  
+
+> Quel mot est mal écrit ?
+
+- ◻️ la femme
+- ✅ enporter  
+  _↳ explanation: Devant p, on écrit m : emporter._
+- ◻️ couramment
+- ◻️ le commerce
+
+Full working after a second miss:
+
+> La phrase fausse est « enporter ».  
+> Devant p, on écrit m : emporter.  
+
+> Quel mot est mal écrit ?
+
+- ◻️ la femme
+- ◻️ couramment
+- ◻️ le commerce
+- ✅ comerçant  
+  _↳ explanation: On écrit commerçant avec deux m._
+
+Full working after a second miss:
+
+> La phrase fausse est « comerçant ».  
+> On écrit commerçant avec deux m.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-92-adv-card` · Lesson 92 · fill the blank, level 1
+
+Prompt: Choisis la bonne écriture.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Elle parle ___ le français et l’anglais. | couramment | courament · couremment | -amment : deux m. · « courant » donne -amment. |
+| Le chauffeur conduit ___. | prudemment | prudament · prudement | « prudent » donne -emment. · Il faut deux m. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la bonne écriture.
+
+Sentence: **Le chauffeur conduit ___.**
+- ◻️ prudement  
+  _↳ feedback if chosen: Il faut deux m._
+- ✅ prudemment
+- ◻️ prudament  
+  _↳ feedback if chosen: « prudent » donne -emment._
+
+Full working after a second miss:
+
+> Le mot qui manque est « prudemment ».  
+> Le chauffeur conduit prudemment.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Elle parle ___ le français et l’anglais.**
+- ◻️ couremment  
+  _↳ feedback if chosen: « courant » donne -amment._
+- ◻️ courament  
+  _↳ feedback if chosen: -amment : deux m._
+- ✅ couramment
+
+Full working after a second miss:
+
+> Le mot qui manque est « couramment ».  
+> Elle parle couramment le français et l’anglais.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Le chauffeur conduit ___.**
+- ✅ prudemment
+- ◻️ prudement  
+  _↳ feedback if chosen: Il faut deux m._
+- ◻️ prudament  
+  _↳ feedback if chosen: « prudent » donne -emment._
+
+Full working after a second miss:
+
+> Le mot qui manque est « prudemment ».  
+> Le chauffeur conduit prudemment.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-93-banque` · Lesson 93 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Que fait une banque ? | elle garde l’argent, prête et fait des paiements | elle soigne les malades · elle vend des légumes · elle construit des routes | C’est l’hôpital. · C’est le marché. · Ce sont les travaux publics. | Son rôle est financier. |
+| Quelle institution émet le franc CFA en Afrique centrale ? | la BEAC | la mairie · la CNPS · l’hôpital | Elle gère la commune. · C’est la sécurité sociale. · Elle soigne. | La Banque des États de l’Afrique centrale. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que fait une banque ?
+
+- ✅ elle garde l’argent, prête et fait des paiements
+- ◻️ elle construit des routes  
+  _↳ feedback if chosen: Ce sont les travaux publics._
+- ◻️ elle vend des légumes  
+  _↳ feedback if chosen: C’est le marché._
+- ◻️ elle soigne les malades  
+  _↳ feedback if chosen: C’est l’hôpital._
+
+Full working after a second miss:
+
+> Son rôle est financier.  
+> Donc la réponse est « elle garde l’argent, prête et fait des paiements ».  
+
+> Quelle institution émet le franc CFA en Afrique centrale ?
+
+- ◻️ la mairie  
+  _↳ feedback if chosen: Elle gère la commune._
+- ◻️ la CNPS  
+  _↳ feedback if chosen: C’est la sécurité sociale._
+- ◻️ l’hôpital  
+  _↳ feedback if chosen: Elle soigne._
+- ✅ la BEAC
+
+Full working after a second miss:
+
+> La Banque des États de l’Afrique centrale.  
+> Donc la réponse est « la BEAC ».  
+
+> Quelle institution émet le franc CFA en Afrique centrale ?
+
+- ◻️ l’hôpital  
+  _↳ feedback if chosen: Elle soigne._
+- ✅ la BEAC
+- ◻️ la CNPS  
+  _↳ feedback if chosen: C’est la sécurité sociale._
+- ◻️ la mairie  
+  _↳ feedback if chosen: Elle gère la commune._
+
+Full working after a second miss:
+
+> La Banque des États de l’Afrique centrale.  
+> Donc la réponse est « la BEAC ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-93-ops` · Lesson 93 · matching, level 1
+
+Prompt: Associe chaque opération à sa définition.
+
+Pairs (4 shown each time):
+
+- un dépôt → **verser de l’argent sur son compte**
+- un retrait → **retirer de l’argent de son compte**
+- un virement → **transférer de l’argent vers un autre compte**
+- le solde → **l’argent qui reste sur le compte**
+- un prêt → **de l’argent prêté à rembourser**
+
+
+Three generated variants:
+
+> Associe chaque opération à sa définition.
+
+Right-hand side (shuffled): retirer de l’argent de son compte · de l’argent prêté à rembourser · verser de l’argent sur son compte · l’argent qui reste sur le compte
+- un dépôt → **verser de l’argent sur son compte**
+- un prêt → **de l’argent prêté à rembourser**
+- le solde → **l’argent qui reste sur le compte**
+- un retrait → **retirer de l’argent de son compte**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> un dépôt → verser de l’argent sur son compte  
+> un prêt → de l’argent prêté à rembourser  
+> le solde → l’argent qui reste sur le compte  
+> un retrait → retirer de l’argent de son compte  
+
+> Associe chaque opération à sa définition.
+
+Right-hand side (shuffled): retirer de l’argent de son compte · transférer de l’argent vers un autre compte · l’argent qui reste sur le compte · de l’argent prêté à rembourser
+- un prêt → **de l’argent prêté à rembourser**
+- un retrait → **retirer de l’argent de son compte**
+- un virement → **transférer de l’argent vers un autre compte**
+- le solde → **l’argent qui reste sur le compte**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> un prêt → de l’argent prêté à rembourser  
+> un retrait → retirer de l’argent de son compte  
+> un virement → transférer de l’argent vers un autre compte  
+> le solde → l’argent qui reste sur le compte  
+
+> Associe chaque opération à sa définition.
+
+Right-hand side (shuffled): verser de l’argent sur son compte · transférer de l’argent vers un autre compte · retirer de l’argent de son compte · l’argent qui reste sur le compte
+- un dépôt → **verser de l’argent sur son compte**
+- un virement → **transférer de l’argent vers un autre compte**
+- le solde → **l’argent qui reste sur le compte**
+- un retrait → **retirer de l’argent de son compte**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> un dépôt → verser de l’argent sur son compte  
+> un virement → transférer de l’argent vers un autre compte  
+> le solde → l’argent qui reste sur le compte  
+> un retrait → retirer de l’argent de son compte  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-93-pret` · Lesson 93 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce que l’intérêt d’un prêt ? | la somme payée en plus de l’argent prêté | l’argent offert gratuitement · le code secret · le nom de la banque | Un prêt se rembourse. · Ce n’est pas le sens. · Ce n’est pas le sens. | Le prix du prêt. |
+| Un message demande ton code secret de carte bancaire. Que fais-tu ? | Je ne le donne jamais. | Je le donne vite. · Je l’écris sur la carte. · Je le dis à tout le monde. | C’est une arnaque. · C’est dangereux. · C’est dangereux. | Le code est secret. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Qu’est-ce que l’intérêt d’un prêt ?
+
+- ◻️ le nom de la banque  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ l’argent offert gratuitement  
+  _↳ feedback if chosen: Un prêt se rembourse._
+- ✅ la somme payée en plus de l’argent prêté
+- ◻️ le code secret  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le prix du prêt.  
+> Donc la réponse est « la somme payée en plus de l’argent prêté ».  
+
+> Qu’est-ce que l’intérêt d’un prêt ?
+
+- ◻️ l’argent offert gratuitement  
+  _↳ feedback if chosen: Un prêt se rembourse._
+- ◻️ le code secret  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ la somme payée en plus de l’argent prêté
+- ◻️ le nom de la banque  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le prix du prêt.  
+> Donc la réponse est « la somme payée en plus de l’argent prêté ».  
+
+> Qu’est-ce que l’intérêt d’un prêt ?
+
+- ◻️ l’argent offert gratuitement  
+  _↳ feedback if chosen: Un prêt se rembourse._
+- ◻️ le code secret  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ la somme payée en plus de l’argent prêté
+- ◻️ le nom de la banque  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le prix du prêt.  
+> Donc la réponse est « la somme payée en plus de l’argent prêté ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-93-spot` · Lesson 93 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Un dépôt ajoute de l’argent.
+- ✅ Un retrait enlève de l’argent.
+- ✅ Le prêt se rembourse.
+- ✅ Il ne faut jamais donner son code secret.
+- ❌ Le solde est l’argent que la banque offre en cadeau.  
+  _↳ C’est l’argent qui reste sur le compte._
+- ❌ Un virement est un retrait au guichet.  
+  _↳ C’est un transfert d’un compte à un autre._
+- ❌ L’intérêt est payé par la banque à celui qui emprunte.  
+  _↳ C’est l’emprunteur qui paie l’intérêt._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le prêt se rembourse.
+- ◻️ Un dépôt ajoute de l’argent.
+- ◻️ Un retrait enlève de l’argent.
+- ✅ L’intérêt est payé par la banque à celui qui emprunte.  
+  _↳ explanation: C’est l’emprunteur qui paie l’intérêt._
+
+Full working after a second miss:
+
+> La phrase fausse est « L’intérêt est payé par la banque à celui qui emprunte. ».  
+> C’est l’emprunteur qui paie l’intérêt.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Le solde est l’argent que la banque offre en cadeau.  
+  _↳ explanation: C’est l’argent qui reste sur le compte._
+- ◻️ Un dépôt ajoute de l’argent.
+- ◻️ Il ne faut jamais donner son code secret.
+- ◻️ Le prêt se rembourse.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le solde est l’argent que la banque offre en cadeau. ».  
+> C’est l’argent qui reste sur le compte.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Un dépôt ajoute de l’argent.
+- ◻️ Il ne faut jamais donner son code secret.
+- ✅ L’intérêt est payé par la banque à celui qui emprunte.  
+  _↳ explanation: C’est l’emprunteur qui paie l’intérêt._
+- ◻️ Un retrait enlève de l’argent.
+
+Full working after a second miss:
+
+> La phrase fausse est « L’intérêt est payé par la banque à celui qui emprunte. ».  
+> C’est l’emprunteur qui paie l’intérêt.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-93-pret-card` · Lesson 93 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Qu’est-ce que l’intérêt d’un prêt ? | la somme payée en plus de l’argent prêté | l’argent offert gratuitement · le code secret · le nom de la banque | Un prêt se rembourse. · Ce n’est pas le sens. · Ce n’est pas le sens. | Le prix du prêt. |
+| Un message demande ton code secret de carte bancaire. Que fais-tu ? | Je ne le donne jamais. | Je le donne vite. · Je l’écris sur la carte. · Je le dis à tout le monde. | C’est une arnaque. · C’est dangereux. · C’est dangereux. | Le code est secret. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Un message demande ton code secret de carte bancaire. Que fais-tu ?
+
+- ◻️ Je le donne vite.  
+  _↳ feedback if chosen: C’est une arnaque._
+- ◻️ Je l’écris sur la carte.  
+  _↳ feedback if chosen: C’est dangereux._
+- ✅ Je ne le donne jamais.
+- ◻️ Je le dis à tout le monde.  
+  _↳ feedback if chosen: C’est dangereux._
+
+Full working after a second miss:
+
+> Le code est secret.  
+> Donc la réponse est « Je ne le donne jamais. ».  
+
+> Un message demande ton code secret de carte bancaire. Que fais-tu ?
+
+- ◻️ Je l’écris sur la carte.  
+  _↳ feedback if chosen: C’est dangereux._
+- ✅ Je ne le donne jamais.
+- ◻️ Je le dis à tout le monde.  
+  _↳ feedback if chosen: C’est dangereux._
+- ◻️ Je le donne vite.  
+  _↳ feedback if chosen: C’est une arnaque._
+
+Full working after a second miss:
+
+> Le code est secret.  
+> Donc la réponse est « Je ne le donne jamais. ».  
+
+> Qu’est-ce que l’intérêt d’un prêt ?
+
+- ◻️ le nom de la banque  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ l’argent offert gratuitement  
+  _↳ feedback if chosen: Un prêt se rembourse._
+- ✅ la somme payée en plus de l’argent prêté
+- ◻️ le code secret  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le prix du prêt.  
+> Donc la réponse est « la somme payée en plus de l’argent prêté ».  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+
+### `fi2-94-obs` · Lesson 94 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle phrase décrit les outils sur une photo ? | Au premier plan, un menuisier tient un rabot. | Le travail est important. · À mon avis, c’est beau. · Cette photo dénonce la paresse. | C’est le message. · C’est un avis. · C’est une interprétation. | Elle décrit un outil. |
+| Que porte un ouvrier pour se protéger la tête sur un chantier ? | un casque | un chapeau de paille · une casquette de football · rien | Il ne protège pas. · Elle ne protège pas. · C’est dangereux. | Le casque est un équipement de sécurité. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle phrase décrit les outils sur une photo ?
+
+- ◻️ Cette photo dénonce la paresse.  
+  _↳ feedback if chosen: C’est une interprétation._
+- ◻️ À mon avis, c’est beau.  
+  _↳ feedback if chosen: C’est un avis._
+- ◻️ Le travail est important.  
+  _↳ feedback if chosen: C’est le message._
+- ✅ Au premier plan, un menuisier tient un rabot.
+
+Full working after a second miss:
+
+> Elle décrit un outil.  
+> Donc la réponse est « Au premier plan, un menuisier tient un rabot. ».  
+
+> Quelle phrase décrit les outils sur une photo ?
+
+- ◻️ Cette photo dénonce la paresse.  
+  _↳ feedback if chosen: C’est une interprétation._
+- ◻️ À mon avis, c’est beau.  
+  _↳ feedback if chosen: C’est un avis._
+- ◻️ Le travail est important.  
+  _↳ feedback if chosen: C’est le message._
+- ✅ Au premier plan, un menuisier tient un rabot.
+
+Full working after a second miss:
+
+> Elle décrit un outil.  
+> Donc la réponse est « Au premier plan, un menuisier tient un rabot. ».  
+
+> Que porte un ouvrier pour se protéger la tête sur un chantier ?
+
+- ◻️ une casquette de football  
+  _↳ feedback if chosen: Elle ne protège pas._
+- ✅ un casque
+- ◻️ un chapeau de paille  
+  _↳ feedback if chosen: Il ne protège pas._
+- ◻️ rien  
+  _↳ feedback if chosen: C’est dangereux._
+
+Full working after a second miss:
+
+> Le casque est un équipement de sécurité.  
+> Donc la réponse est « un casque ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-94-msg` · Lesson 94 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Une affiche montre un enfant qui porte de lourdes briques au lieu d’aller à l’école. Quel est son message ? | Elle dénonce le travail des enfants. | Elle vend des briques. · Elle montre un beau métier pour les enfants. · Elle parle de la météo. | Ce n’est pas une publicité. · C’est le contraire. · Ce n’est pas le sujet. | L’enfant devrait être à l’école. |
+| Une photo montre une femme ingénieure qui dirige un chantier. Quel message peut-on en tirer ? | Les femmes peuvent exercer tous les métiers. | Les chantiers sont fermés. · Les femmes ne travaillent pas. · Il pleut beaucoup. | Ce n’est pas le sens. · C’est le contraire. · Ce n’est pas le sujet. | Égalité hommes-femmes. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Une photo montre une femme ingénieure qui dirige un chantier. Quel message peut-on en tirer ?
+
+- ✅ Les femmes peuvent exercer tous les métiers.
+- ◻️ Les femmes ne travaillent pas.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Il pleut beaucoup.  
+  _↳ feedback if chosen: Ce n’est pas le sujet._
+- ◻️ Les chantiers sont fermés.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Égalité hommes-femmes.  
+> Donc la réponse est « Les femmes peuvent exercer tous les métiers. ».  
+
+> Une photo montre une femme ingénieure qui dirige un chantier. Quel message peut-on en tirer ?
+
+- ◻️ Les chantiers sont fermés.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Il pleut beaucoup.  
+  _↳ feedback if chosen: Ce n’est pas le sujet._
+- ✅ Les femmes peuvent exercer tous les métiers.
+- ◻️ Les femmes ne travaillent pas.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Égalité hommes-femmes.  
+> Donc la réponse est « Les femmes peuvent exercer tous les métiers. ».  
+
+> Une photo montre une femme ingénieure qui dirige un chantier. Quel message peut-on en tirer ?
+
+- ◻️ Les chantiers sont fermés.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ Les femmes ne travaillent pas.  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ Les femmes peuvent exercer tous les métiers.
+- ◻️ Il pleut beaucoup.  
+  _↳ feedback if chosen: Ce n’est pas le sujet._
+
+Full working after a second miss:
+
+> Égalité hommes-femmes.  
+> Donc la réponse est « Les femmes peuvent exercer tous les métiers. ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-94-avis` · Lesson 94 · ordering, level 1
+
+Prompt: Remets la présentation dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Cette photo montre un champ de thé à Ndu. | Au premier plan, des femmes cueillent les feuilles. | À l’arrière-plan, on voit des collines vertes. | Elle montre l’importance du travail agricole. | À mon avis, ces travailleuses méritent notre respect. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets la présentation dans l’ordre.
+
+Shown as: Elle montre l’importance du travail agricole. · Au premier plan, des femmes cueillent les feuilles. · À mon avis, ces travailleuses méritent notre respect. · Cette photo montre un champ de thé à Ndu. · À l’arrière-plan, on voit des collines vertes.
+Correct order: Cette photo montre un champ de thé à Ndu. → Au premier plan, des femmes cueillent les feuilles. → À l’arrière-plan, on voit des collines vertes. → Elle montre l’importance du travail agricole. → À mon avis, ces travailleuses méritent notre respect.
+
+Full working after a second miss:
+
+> Le bon ordre est : Cette photo montre un champ de thé à Ndu. → Au premier plan, des femmes cueillent les feuilles. → À l’arrière-plan, on voit des collines vertes. → Elle montre l’importance du travail agricole. → À mon avis, ces travailleuses méritent notre respect..  
+
+> Remets la présentation dans l’ordre.
+
+Shown as: Au premier plan, des femmes cueillent les feuilles. · À mon avis, ces travailleuses méritent notre respect. · À l’arrière-plan, on voit des collines vertes. · Cette photo montre un champ de thé à Ndu. · Elle montre l’importance du travail agricole.
+Correct order: Cette photo montre un champ de thé à Ndu. → Au premier plan, des femmes cueillent les feuilles. → À l’arrière-plan, on voit des collines vertes. → Elle montre l’importance du travail agricole. → À mon avis, ces travailleuses méritent notre respect.
+
+Full working after a second miss:
+
+> Le bon ordre est : Cette photo montre un champ de thé à Ndu. → Au premier plan, des femmes cueillent les feuilles. → À l’arrière-plan, on voit des collines vertes. → Elle montre l’importance du travail agricole. → À mon avis, ces travailleuses méritent notre respect..  
+
+> Remets la présentation dans l’ordre.
+
+Shown as: Au premier plan, des femmes cueillent les feuilles. · Elle montre l’importance du travail agricole. · Cette photo montre un champ de thé à Ndu. · À mon avis, ces travailleuses méritent notre respect. · À l’arrière-plan, on voit des collines vertes.
+Correct order: Cette photo montre un champ de thé à Ndu. → Au premier plan, des femmes cueillent les feuilles. → À l’arrière-plan, on voit des collines vertes. → Elle montre l’importance du travail agricole. → À mon avis, ces travailleuses méritent notre respect.
+
+Full working after a second miss:
+
+> Le bon ordre est : Cette photo montre un champ de thé à Ndu. → Au premier plan, des femmes cueillent les feuilles. → À l’arrière-plan, on voit des collines vertes. → Elle montre l’importance du travail agricole. → À mon avis, ces travailleuses méritent notre respect..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-94-spot` · Lesson 94 · spot the error, level 3
+
+Prompt: Quel conseil est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On observe les gestes et les outils.
+- ✅ On décrit le lieu.
+- ✅ On dit le message.
+- ✅ On donne son avis à la fin.
+- ❌ On donne son avis avant de regarder la photo.  
+  _↳ On observe et on décrit d’abord._
+- ❌ Le message ne parle jamais du travail.  
+  _↳ Il peut porter sur la valeur ou la sécurité du travail._
+- ❌ Le casque de chantier est un objet de décoration.  
+  _↳ C’est un équipement de sécurité._
+
+
+Three generated variants:
+
+> Quel conseil est faux ?
+
+- ◻️ On donne son avis à la fin.
+- ◻️ On dit le message.
+- ✅ On donne son avis avant de regarder la photo.  
+  _↳ explanation: On observe et on décrit d’abord._
+- ◻️ On observe les gestes et les outils.
+
+Full working after a second miss:
+
+> La phrase fausse est « On donne son avis avant de regarder la photo. ».  
+> On observe et on décrit d’abord.  
+
+> Quel conseil est faux ?
+
+- ◻️ On donne son avis à la fin.
+- ◻️ On observe les gestes et les outils.
+- ✅ Le casque de chantier est un objet de décoration.  
+  _↳ explanation: C’est un équipement de sécurité._
+- ◻️ On décrit le lieu.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le casque de chantier est un objet de décoration. ».  
+> C’est un équipement de sécurité.  
+
+> Quel conseil est faux ?
+
+- ◻️ On observe les gestes et les outils.
+- ◻️ On décrit le lieu.
+- ✅ Le casque de chantier est un objet de décoration.  
+  _↳ explanation: C’est un équipement de sécurité._
+- ◻️ On dit le message.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le casque de chantier est un objet de décoration. ».  
+> C’est un équipement de sécurité.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-94-msg-card` · Lesson 94 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Une affiche montre un enfant qui porte de lourdes briques au lieu d’aller à l’école. Quel est son message ? | Elle dénonce le travail des enfants. | Elle vend des briques. · Elle montre un beau métier pour les enfants. · Elle parle de la météo. | Ce n’est pas une publicité. · C’est le contraire. · Ce n’est pas le sujet. | L’enfant devrait être à l’école. |
+| Une photo montre une femme ingénieure qui dirige un chantier. Quel message peut-on en tirer ? | Les femmes peuvent exercer tous les métiers. | Les chantiers sont fermés. · Les femmes ne travaillent pas. · Il pleut beaucoup. | Ce n’est pas le sens. · C’est le contraire. · Ce n’est pas le sujet. | Égalité hommes-femmes. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Une photo montre une femme ingénieure qui dirige un chantier. Quel message peut-on en tirer ?
+
+- ◻️ Les femmes ne travaillent pas.  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ Les femmes peuvent exercer tous les métiers.
+- ◻️ Il pleut beaucoup.  
+  _↳ feedback if chosen: Ce n’est pas le sujet._
+- ◻️ Les chantiers sont fermés.  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Égalité hommes-femmes.  
+> Donc la réponse est « Les femmes peuvent exercer tous les métiers. ».  
+
+> Une affiche montre un enfant qui porte de lourdes briques au lieu d’aller à l’école. Quel est son message ?
+
+- ◻️ Elle montre un beau métier pour les enfants.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Elle parle de la météo.  
+  _↳ feedback if chosen: Ce n’est pas le sujet._
+- ◻️ Elle vend des briques.  
+  _↳ feedback if chosen: Ce n’est pas une publicité._
+- ✅ Elle dénonce le travail des enfants.
+
+Full working after a second miss:
+
+> L’enfant devrait être à l’école.  
+> Donc la réponse est « Elle dénonce le travail des enfants. ».  
+
+> Une affiche montre un enfant qui porte de lourdes briques au lieu d’aller à l’école. Quel est son message ?
+
+- ◻️ Elle vend des briques.  
+  _↳ feedback if chosen: Ce n’est pas une publicité._
+- ◻️ Elle montre un beau métier pour les enfants.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Elle parle de la météo.  
+  _↳ feedback if chosen: Ce n’est pas le sujet._
+- ✅ Elle dénonce le travail des enfants.
+
+Full working after a second miss:
+
+> L’enfant devrait être à l’école.  
+> Donc la réponse est « Elle dénonce le travail des enfants. ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-95-temps` · Lesson 95 · fill the blank, level 1
+
+Prompt: Choisis le repère de temps qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___, nous avons ouvert la boutique à sept heures. | Le matin | Le soir · Hier soir tard | On ouvre au début de la journée. · Ce n’est pas cohérent avec sept heures du matin. |
+| ___, nous avons mangé un plat de riz. | À midi | À l’aube · Avant de nous lever | Le repas est au milieu de la journée. · Ce n’est pas logique. |
+| ___, nous avons fermé la boutique, fatigués mais contents. | Le soir | Le matin · D’abord | On ferme à la fin de la journée. · « D’abord » commence. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le repère de temps qui convient.
+
+Sentence: **___, nous avons ouvert la boutique à sept heures.**
+- ◻️ Le soir  
+  _↳ feedback if chosen: On ouvre au début de la journée._
+- ◻️ Hier soir tard  
+  _↳ feedback if chosen: Ce n’est pas cohérent avec sept heures du matin._
+- ✅ Le matin
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « Le matin ».  
+> Le matin, nous avons ouvert la boutique à sept heures.  
+
+> Choisis le repère de temps qui convient.
+
+Sentence: **___, nous avons fermé la boutique, fatigués mais contents.**
+- ◻️ Le matin  
+  _↳ feedback if chosen: On ferme à la fin de la journée._
+- ◻️ D’abord  
+  _↳ feedback if chosen: « D’abord » commence._
+- ✅ Le soir
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « Le soir ».  
+> Le soir, nous avons fermé la boutique, fatigués mais contents.  
+
+> Choisis le repère de temps qui convient.
+
+Sentence: **___, nous avons ouvert la boutique à sept heures.**
+- ✅ Le matin
+- ◻️ Hier soir tard  
+  _↳ feedback if chosen: Ce n’est pas cohérent avec sept heures du matin._
+- ◻️ Le soir  
+  _↳ feedback if chosen: On ouvre au début de la journée._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « Le matin ».  
+> Le matin, nous avons ouvert la boutique à sept heures.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-95-imprevu` · Lesson 95 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle phrase introduit un événement imprévu ? | Soudain, un client est arrivé avec une voiture en panne. | Le matin, nous sommes arrivés au garage. · Le soir, nous sommes rentrés. · Mon père est mécanicien. | C’est la situation initiale. · C’est la fin. · C’est une présentation. | « Soudain » marque l’imprévu. |
+| Quel mot introduit souvent l’élément perturbateur ? | soudain | enfin · d’abord · finalement | Il termine. · Il commence une liste. · Il termine. | « Soudain » marque un changement brusque. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel mot introduit souvent l’élément perturbateur ?
+
+- ◻️ enfin  
+  _↳ feedback if chosen: Il termine._
+- ◻️ finalement  
+  _↳ feedback if chosen: Il termine._
+- ✅ soudain
+- ◻️ d’abord  
+  _↳ feedback if chosen: Il commence une liste._
+
+Full working after a second miss:
+
+> « Soudain » marque un changement brusque.  
+> Donc la réponse est « soudain ».  
+
+> Quelle phrase introduit un événement imprévu ?
+
+- ◻️ Mon père est mécanicien.  
+  _↳ feedback if chosen: C’est une présentation._
+- ✅ Soudain, un client est arrivé avec une voiture en panne.
+- ◻️ Le matin, nous sommes arrivés au garage.  
+  _↳ feedback if chosen: C’est la situation initiale._
+- ◻️ Le soir, nous sommes rentrés.  
+  _↳ feedback if chosen: C’est la fin._
+
+Full working after a second miss:
+
+> « Soudain » marque l’imprévu.  
+> Donc la réponse est « Soudain, un client est arrivé avec une voiture en panne. ».  
+
+> Quelle phrase introduit un événement imprévu ?
+
+- ✅ Soudain, un client est arrivé avec une voiture en panne.
+- ◻️ Mon père est mécanicien.  
+  _↳ feedback if chosen: C’est une présentation._
+- ◻️ Le soir, nous sommes rentrés.  
+  _↳ feedback if chosen: C’est la fin._
+- ◻️ Le matin, nous sommes arrivés au garage.  
+  _↳ feedback if chosen: C’est la situation initiale._
+
+Full working after a second miss:
+
+> « Soudain » marque l’imprévu.  
+> Donc la réponse est « Soudain, un client est arrivé avec une voiture en panne. ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-95-ordre` · Lesson 95 · ordering, level 2
+
+Prompt: Remets le récit dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Samedi dernier, j’ai accompagné mon père à son garage. | D’abord, nous avons rangé les outils. | Ensuite, il m’a montré comment changer une roue. | Soudain, un client est arrivé avec une voiture en panne. | Le soir, j’étais fatigué mais fier. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets le récit dans l’ordre.
+
+Shown as: Samedi dernier, j’ai accompagné mon père à son garage. · D’abord, nous avons rangé les outils. · Soudain, un client est arrivé avec une voiture en panne. · Le soir, j’étais fatigué mais fier. · Ensuite, il m’a montré comment changer une roue.
+Correct order: Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier.
+
+Full working after a second miss:
+
+> Le bon ordre est : Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier..  
+
+> Remets le récit dans l’ordre.
+
+Shown as: Le soir, j’étais fatigué mais fier. · Ensuite, il m’a montré comment changer une roue. · D’abord, nous avons rangé les outils. · Soudain, un client est arrivé avec une voiture en panne. · Samedi dernier, j’ai accompagné mon père à son garage.
+Correct order: Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier.
+
+Full working after a second miss:
+
+> Le bon ordre est : Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier..  
+
+> Remets le récit dans l’ordre.
+
+Shown as: Le soir, j’étais fatigué mais fier. · Ensuite, il m’a montré comment changer une roue. · Soudain, un client est arrivé avec une voiture en panne. · Samedi dernier, j’ai accompagné mon père à son garage. · D’abord, nous avons rangé les outils.
+Correct order: Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier.
+
+Full working after a second miss:
+
+> Le bon ordre est : Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-95-spot` · Lesson 95 · spot the error, level 3
+
+Prompt: Quel conseil pour raconter est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On raconte dans l’ordre chronologique.
+- ✅ On utilise des repères de temps.
+- ✅ Un imprévu rend le récit vivant.
+- ✅ On termine par une impression.
+- ❌ On mélange le passé simple et le passé composé dans chaque phrase.  
+  _↳ On garde le même temps de récit._
+- ❌ On raconte la fin avant le début sans raison.  
+  _↳ On suit l’ordre chronologique._
+- ❌ On ne dit jamais où se passe l’histoire.  
+  _↳ La situation initiale dit où et quand._
+
+
+Three generated variants:
+
+> Quel conseil pour raconter est faux ?
+
+- ◻️ On termine par une impression.
+- ◻️ Un imprévu rend le récit vivant.
+- ◻️ On raconte dans l’ordre chronologique.
+- ✅ On raconte la fin avant le début sans raison.  
+  _↳ explanation: On suit l’ordre chronologique._
+
+Full working after a second miss:
+
+> La phrase fausse est « On raconte la fin avant le début sans raison. ».  
+> On suit l’ordre chronologique.  
+
+> Quel conseil pour raconter est faux ?
+
+- ◻️ Un imprévu rend le récit vivant.
+- ◻️ On utilise des repères de temps.
+- ◻️ On raconte dans l’ordre chronologique.
+- ✅ On ne dit jamais où se passe l’histoire.  
+  _↳ explanation: La situation initiale dit où et quand._
+
+Full working after a second miss:
+
+> La phrase fausse est « On ne dit jamais où se passe l’histoire. ».  
+> La situation initiale dit où et quand.  
+
+> Quel conseil pour raconter est faux ?
+
+- ◻️ On termine par une impression.
+- ◻️ On raconte dans l’ordre chronologique.
+- ◻️ On utilise des repères de temps.
+- ✅ On ne dit jamais où se passe l’histoire.  
+  _↳ explanation: La situation initiale dit où et quand._
+
+Full working after a second miss:
+
+> La phrase fausse est « On ne dit jamais où se passe l’histoire. ».  
+> La situation initiale dit où et quand.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-95-ordre-card` · Lesson 95 · ordering, level 1
+
+Prompt: Remets le récit dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Samedi dernier, j’ai accompagné mon père à son garage. | D’abord, nous avons rangé les outils. | Ensuite, il m’a montré comment changer une roue. | Soudain, un client est arrivé avec une voiture en panne. | Le soir, j’étais fatigué mais fier. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets le récit dans l’ordre.
+
+Shown as: Ensuite, il m’a montré comment changer une roue. · Le soir, j’étais fatigué mais fier. · Soudain, un client est arrivé avec une voiture en panne. · Samedi dernier, j’ai accompagné mon père à son garage. · D’abord, nous avons rangé les outils.
+Correct order: Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier.
+
+Full working after a second miss:
+
+> Le bon ordre est : Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier..  
+
+> Remets le récit dans l’ordre.
+
+Shown as: Samedi dernier, j’ai accompagné mon père à son garage. · Le soir, j’étais fatigué mais fier. · Soudain, un client est arrivé avec une voiture en panne. · Ensuite, il m’a montré comment changer une roue. · D’abord, nous avons rangé les outils.
+Correct order: Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier.
+
+Full working after a second miss:
+
+> Le bon ordre est : Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier..  
+
+> Remets le récit dans l’ordre.
+
+Shown as: Samedi dernier, j’ai accompagné mon père à son garage. · Ensuite, il m’a montré comment changer une roue. · Le soir, j’étais fatigué mais fier. · D’abord, nous avons rangé les outils. · Soudain, un client est arrivé avec une voiture en panne.
+Correct order: Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier.
+
+Full working after a second miss:
+
+> Le bon ordre est : Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-96-affiche` · Lesson 96 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle information doit figurer sur une affiche de fête ? | la date et le lieu | la taille des chaussures · l’âge du peintre · la couleur du ciel | Ce n’est pas utile. · Ce n’est pas utile. · Ce n’est pas utile. | Quand ? Où ? |
+| Quel slogan convient pour une affiche contre les déchets ? | Ville propre, ville en bonne santé ! | Il était une fois un roi. · Le marché ouvre à sept heures et ferme à dix-huit heures tous les jours sauf le dimanche. · Bonjour à tous. | C’est un début de conte. · C’est trop long. · Ce n’est pas un slogan. | Court et frappant. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle information doit figurer sur une affiche de fête ?
+
+- ◻️ la taille des chaussures  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ l’âge du peintre  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ✅ la date et le lieu
+- ◻️ la couleur du ciel  
+  _↳ feedback if chosen: Ce n’est pas utile._
+
+Full working after a second miss:
+
+> Quand ? Où ?  
+> Donc la réponse est « la date et le lieu ».  
+
+> Quelle information doit figurer sur une affiche de fête ?
+
+- ✅ la date et le lieu
+- ◻️ l’âge du peintre  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ la taille des chaussures  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ la couleur du ciel  
+  _↳ feedback if chosen: Ce n’est pas utile._
+
+Full working after a second miss:
+
+> Quand ? Où ?  
+> Donc la réponse est « la date et le lieu ».  
+
+> Quelle information doit figurer sur une affiche de fête ?
+
+- ✅ la date et le lieu
+- ◻️ la couleur du ciel  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ la taille des chaussures  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ l’âge du peintre  
+  _↳ feedback if chosen: Ce n’est pas utile._
+
+Full working after a second miss:
+
+> Quand ? Où ?  
+> Donc la réponse est « la date et le lieu ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-96-annonce` · Lesson 96 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle information manque dans l’annonce « Garage recrute mécanicien. Expérience : deux ans. » ? | le contact (téléphone ou adresse) | le métier · l’expérience · le mot « recrute » | Il est indiqué. · Elle est indiquée. · Il est indiqué. | Il faut savoir qui appeler. |
+| Dans une offre d’emploi, que sont « les conditions » ? | ce qu’il faut avoir pour être choisi | le prix du journal · la météo · le nom du lecteur | Ce n’est pas le sens. · Ce n’est pas le sens. · Ce n’est pas le sens. | Diplôme, expérience, permis… |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dans une offre d’emploi, que sont « les conditions » ?
+
+- ◻️ la météo  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ ce qu’il faut avoir pour être choisi
+- ◻️ le nom du lecteur  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ le prix du journal  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Diplôme, expérience, permis…  
+> Donc la réponse est « ce qu’il faut avoir pour être choisi ».  
+
+> Quelle information manque dans l’annonce « Garage recrute mécanicien. Expérience : deux ans. » ?
+
+- ◻️ le mot « recrute »  
+  _↳ feedback if chosen: Il est indiqué._
+- ✅ le contact (téléphone ou adresse)
+- ◻️ le métier  
+  _↳ feedback if chosen: Il est indiqué._
+- ◻️ l’expérience  
+  _↳ feedback if chosen: Elle est indiquée._
+
+Full working after a second miss:
+
+> Il faut savoir qui appeler.  
+> Donc la réponse est « le contact (téléphone ou adresse) ».  
+
+> Quelle information manque dans l’annonce « Garage recrute mécanicien. Expérience : deux ans. » ?
+
+- ◻️ le mot « recrute »  
+  _↳ feedback if chosen: Il est indiqué._
+- ◻️ l’expérience  
+  _↳ feedback if chosen: Elle est indiquée._
+- ◻️ le métier  
+  _↳ feedback if chosen: Il est indiqué._
+- ✅ le contact (téléphone ou adresse)
+
+Full working after a second miss:
+
+> Il faut savoir qui appeler.  
+> Donc la réponse est « le contact (téléphone ou adresse) ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-96-etapes` · Lesson 96 · ordering, level 2
+
+Prompt: Remets les étapes dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Observer l’image | Choisir le type de texte et le destinataire | Écrire un brouillon | Relire et corriger | Recopier proprement |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Choisir le type de texte et le destinataire · Écrire un brouillon · Observer l’image · Recopier proprement · Relire et corriger
+Correct order: Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement.  
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Observer l’image · Relire et corriger · Recopier proprement · Choisir le type de texte et le destinataire · Écrire un brouillon
+Correct order: Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement.  
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Relire et corriger · Recopier proprement · Choisir le type de texte et le destinataire · Observer l’image · Écrire un brouillon
+Correct order: Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-96-spot` · Lesson 96 · spot the error, level 3
+
+Prompt: Quel conseil est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Un slogan est court.
+- ✅ Une affiche dit où et quand.
+- ✅ Une annonce donne un contact.
+- ✅ On relit avant de recopier.
+- ❌ Une affiche doit contenir un très long texte.  
+  _↳ Elle dit l’essentiel en peu de mots._
+- ❌ On recopie sans relire le brouillon.  
+  _↳ On relit et on corrige d’abord._
+- ❌ Une offre d’emploi ne donne jamais de conditions.  
+  _↳ Elle précise les conditions._
+
+
+Three generated variants:
+
+> Quel conseil est faux ?
+
+- ✅ Une offre d’emploi ne donne jamais de conditions.  
+  _↳ explanation: Elle précise les conditions._
+- ◻️ Un slogan est court.
+- ◻️ Une affiche dit où et quand.
+- ◻️ Une annonce donne un contact.
+
+Full working after a second miss:
+
+> La phrase fausse est « Une offre d’emploi ne donne jamais de conditions. ».  
+> Elle précise les conditions.  
+
+> Quel conseil est faux ?
+
+- ◻️ Une annonce donne un contact.
+- ◻️ On relit avant de recopier.
+- ◻️ Une affiche dit où et quand.
+- ✅ Une affiche doit contenir un très long texte.  
+  _↳ explanation: Elle dit l’essentiel en peu de mots._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une affiche doit contenir un très long texte. ».  
+> Elle dit l’essentiel en peu de mots.  
+
+> Quel conseil est faux ?
+
+- ◻️ Une affiche dit où et quand.
+- ◻️ Un slogan est court.
+- ◻️ Une annonce donne un contact.
+- ✅ Une affiche doit contenir un très long texte.  
+  _↳ explanation: Elle dit l’essentiel en peu de mots._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une affiche doit contenir un très long texte. ».  
+> Elle dit l’essentiel en peu de mots.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-96-etapes-card` · Lesson 96 · ordering, level 1
+
+Prompt: Remets les étapes dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Observer l’image | Choisir le type de texte et le destinataire | Écrire un brouillon | Relire et corriger | Recopier proprement |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Choisir le type de texte et le destinataire · Écrire un brouillon · Observer l’image · Relire et corriger · Recopier proprement
+Correct order: Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement.  
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Observer l’image · Recopier proprement · Relire et corriger · Choisir le type de texte et le destinataire · Écrire un brouillon
+Correct order: Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement.  
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Recopier proprement · Relire et corriger · Observer l’image · Choisir le type de texte et le destinataire · Écrire un brouillon
+Correct order: Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-97-gram` · Lesson 97 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans « Personne n’est venu », quelle est la nature de « Personne » ? | un pronom indéfini | un nom commun · un adjectif · un verbe | Ici, il ne désigne pas une personne précise. · Il n’accompagne pas un nom. · Le verbe est « est venu ». | Pronom indéfini avec « ne ». |
+| Combien de propositions dans « Il pleut, mais nous travaillons » ? | deux | une · trois · quatre | Il y a deux verbes conjugués. · Il y a deux verbes conjugués. · Il y a deux verbes conjugués. | pleut, travaillons. |
+| Quel est le pluriel de « un porte-monnaie » ? | des porte-monnaie | des portes-monnaies · des porte-monnaies · des portes-monnaie | « porte » est un verbe : invariable. · Règle traditionnelle : « monnaie » reste au singulier ici (on porte de la monnaie). · « porte » est un verbe : invariable. | verbe + nom non comptable : invariable. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Combien de propositions dans « Il pleut, mais nous travaillons » ?
+
+- ◻️ quatre  
+  _↳ feedback if chosen: Il y a deux verbes conjugués._
+- ✅ deux
+- ◻️ trois  
+  _↳ feedback if chosen: Il y a deux verbes conjugués._
+- ◻️ une  
+  _↳ feedback if chosen: Il y a deux verbes conjugués._
+
+Full working after a second miss:
+
+> pleut, travaillons.  
+> Donc la réponse est « deux ».  
+
+> Combien de propositions dans « Il pleut, mais nous travaillons » ?
+
+- ✅ deux
+- ◻️ une  
+  _↳ feedback if chosen: Il y a deux verbes conjugués._
+- ◻️ trois  
+  _↳ feedback if chosen: Il y a deux verbes conjugués._
+- ◻️ quatre  
+  _↳ feedback if chosen: Il y a deux verbes conjugués._
+
+Full working after a second miss:
+
+> pleut, travaillons.  
+> Donc la réponse est « deux ».  
+
+> Dans « Personne n’est venu », quelle est la nature de « Personne » ?
+
+- ◻️ un verbe  
+  _↳ feedback if chosen: Le verbe est « est venu »._
+- ◻️ un nom commun  
+  _↳ feedback if chosen: Ici, il ne désigne pas une personne précise._
+- ✅ un pronom indéfini
+- ◻️ un adjectif  
+  _↳ feedback if chosen: Il n’accompagne pas un nom._
+
+Full working after a second miss:
+
+> Pronom indéfini avec « ne ».  
+> Donc la réponse est « un pronom indéfini ».  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `fi2-97-spot` · Lesson 97 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ « je viendrai » est au futur simple.
+- ✅ « j’avais fini » est au plus-que-parfait.
+- ✅ « que tu viennes » est au subjonctif.
+- ✅ « chacun » est un pronom indéfini.
+- ❌ « nous irions » est au futur simple.  
+  _↳ -ions avec le radical du futur : conditionnel présent._
+- ❌ « elle était partie » est au passé composé.  
+  _↳ Auxiliaire à l’imparfait : plus-que-parfait._
+- ❌ « chaque » est un pronom indéfini.  
+  _↳ « chaque » est un adjectif indéfini (suivi d’un nom)._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ✅ « elle était partie » est au passé composé.  
+  _↳ explanation: Auxiliaire à l’imparfait : plus-que-parfait._
+- ◻️ « que tu viennes » est au subjonctif.
+- ◻️ « je viendrai » est au futur simple.
+- ◻️ « j’avais fini » est au plus-que-parfait.
+
+Full working after a second miss:
+
+> La phrase fausse est « « elle était partie » est au passé composé. ».  
+> Auxiliaire à l’imparfait : plus-que-parfait.  
+
+> Quelle phrase est fausse ?
+
+- ✅ « chaque » est un pronom indéfini.  
+  _↳ explanation: « chaque » est un adjectif indéfini (suivi d’un nom)._
+- ◻️ « chacun » est un pronom indéfini.
+- ◻️ « que tu viennes » est au subjonctif.
+- ◻️ « j’avais fini » est au plus-que-parfait.
+
+Full working after a second miss:
+
+> La phrase fausse est « « chaque » est un pronom indéfini. ».  
+> « chaque » est un adjectif indéfini (suivi d’un nom).  
+
+> Quelle phrase est fausse ?
+
+- ◻️ « que tu viennes » est au subjonctif.
+- ◻️ « j’avais fini » est au plus-que-parfait.
+- ✅ « elle était partie » est au passé composé.  
+  _↳ explanation: Auxiliaire à l’imparfait : plus-que-parfait._
+- ◻️ « je viendrai » est au futur simple.
+
+Full working after a second miss:
+
+> La phrase fausse est « « elle était partie » est au passé composé. ».  
+> Auxiliaire à l’imparfait : plus-que-parfait.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-98-perso` · Lesson 98 · multiple choice, level 1
+
+Prompt: Texte « La lettre de Mme Ekwalla » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quel est le métier de Mme Ekwalla ? | épicière | infirmière · institutrice · couturière | C’est la fillette devenue adulte. · Ce n’est pas dit. · Ce n’est pas dit. | Elle tient une épicerie. |
+| que demande la fillette ? | du riz, car elle n’a pas assez d’argent | un travail · un médicament · une lettre | Ce n’est pas dit. · Elle parle de sa mère malade, mais demande du riz. · La lettre vient plus tard. | Le riz pour sa famille. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « La lettre de Mme Ekwalla » : quel est le métier de Mme Ekwalla ?
+
+- ◻️ couturière  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ infirmière  
+  _↳ feedback if chosen: C’est la fillette devenue adulte._
+- ✅ épicière
+- ◻️ institutrice  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> Elle tient une épicerie.  
+> Donc la réponse est « épicière ».  
+
+> Texte « La lettre de Mme Ekwalla » : quel est le métier de Mme Ekwalla ?
+
+- ◻️ couturière  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ✅ épicière
+- ◻️ institutrice  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ infirmière  
+  _↳ feedback if chosen: C’est la fillette devenue adulte._
+
+Full working after a second miss:
+
+> Elle tient une épicerie.  
+> Donc la réponse est « épicière ».  
+
+> Texte « La lettre de Mme Ekwalla » : que demande la fillette ?
+
+- ✅ du riz, car elle n’a pas assez d’argent
+- ◻️ un médicament  
+  _↳ feedback if chosen: Elle parle de sa mère malade, mais demande du riz._
+- ◻️ une lettre  
+  _↳ feedback if chosen: La lettre vient plus tard._
+- ◻️ un travail  
+  _↳ feedback if chosen: Ce n’est pas dit._
+
+Full working after a second miss:
+
+> Le riz pour sa famille.  
+> Donc la réponse est « du riz, car elle n’a pas assez d’argent ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-98-etapes` · Lesson 98 · ordering, level 1
+
+Prompt: Remets les étapes dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Une fillette entre dans l’épicerie. | Elle explique que sa mère est malade. | Mme Ekwalla lui donne le riz. | Des années passent. | Une lettre de remerciement arrive. |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Une lettre de remerciement arrive. · Une fillette entre dans l’épicerie. · Des années passent. · Mme Ekwalla lui donne le riz. · Elle explique que sa mère est malade.
+Correct order: Une fillette entre dans l’épicerie. → Elle explique que sa mère est malade. → Mme Ekwalla lui donne le riz. → Des années passent. → Une lettre de remerciement arrive.
+
+Full working after a second miss:
+
+> Le bon ordre est : Une fillette entre dans l’épicerie. → Elle explique que sa mère est malade. → Mme Ekwalla lui donne le riz. → Des années passent. → Une lettre de remerciement arrive..  
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Elle explique que sa mère est malade. · Une fillette entre dans l’épicerie. · Mme Ekwalla lui donne le riz. · Une lettre de remerciement arrive. · Des années passent.
+Correct order: Une fillette entre dans l’épicerie. → Elle explique que sa mère est malade. → Mme Ekwalla lui donne le riz. → Des années passent. → Une lettre de remerciement arrive.
+
+Full working after a second miss:
+
+> Le bon ordre est : Une fillette entre dans l’épicerie. → Elle explique que sa mère est malade. → Mme Ekwalla lui donne le riz. → Des années passent. → Une lettre de remerciement arrive..  
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Une lettre de remerciement arrive. · Des années passent. · Une fillette entre dans l’épicerie. · Elle explique que sa mère est malade. · Mme Ekwalla lui donne le riz.
+Correct order: Une fillette entre dans l’épicerie. → Elle explique que sa mère est malade. → Mme Ekwalla lui donne le riz. → Des années passent. → Une lettre de remerciement arrive.
+
+Full working after a second miss:
+
+> Le bon ordre est : Une fillette entre dans l’épicerie. → Elle explique que sa mère est malade. → Mme Ekwalla lui donne le riz. → Des années passent. → Une lettre de remerciement arrive..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-98-morale` · Lesson 98 · multiple choice, level 2
+
+Prompt: Texte « La lettre de Mme Ekwalla » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est la leçon du texte ? | La confiance et la générosité peuvent changer une vie. | Il ne faut jamais aider les autres. · L’argent est plus important que tout. · Les épiceries ferment le soir. | C’est le contraire. · Le trésor est la lettre. · Ce n’est pas la leçon. | La bonté a porté ses fruits. |
+| que veut dire « Tu paieras quand tu pourras » ? | Mme Ekwalla fait confiance à la fillette pour payer plus tard. | Elle refuse de vendre. · Elle se fâche. · Elle demande le double. | Elle donne le sac. · Elle est gentille. · Ce n’est pas dit. | Elle fait crédit par confiance. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « La lettre de Mme Ekwalla » : que veut dire « Tu paieras quand tu pourras » ?
+
+- ✅ Mme Ekwalla fait confiance à la fillette pour payer plus tard.
+- ◻️ Elle demande le double.  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ Elle refuse de vendre.  
+  _↳ feedback if chosen: Elle donne le sac._
+- ◻️ Elle se fâche.  
+  _↳ feedback if chosen: Elle est gentille._
+
+Full working after a second miss:
+
+> Elle fait crédit par confiance.  
+> Donc la réponse est « Mme Ekwalla fait confiance à la fillette pour payer plus tard. ».  
+
+> Texte « La lettre de Mme Ekwalla » : quelle est la leçon du texte ?
+
+- ◻️ L’argent est plus important que tout.  
+  _↳ feedback if chosen: Le trésor est la lettre._
+- ◻️ Il ne faut jamais aider les autres.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les épiceries ferment le soir.  
+  _↳ feedback if chosen: Ce n’est pas la leçon._
+- ✅ La confiance et la générosité peuvent changer une vie.
+
+Full working after a second miss:
+
+> La bonté a porté ses fruits.  
+> Donc la réponse est « La confiance et la générosité peuvent changer une vie. ».  
+
+> Texte « La lettre de Mme Ekwalla » : quelle est la leçon du texte ?
+
+- ◻️ Les épiceries ferment le soir.  
+  _↳ feedback if chosen: Ce n’est pas la leçon._
+- ◻️ L’argent est plus important que tout.  
+  _↳ feedback if chosen: Le trésor est la lettre._
+- ◻️ Il ne faut jamais aider les autres.  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ La confiance et la générosité peuvent changer une vie.
+
+Full working after a second miss:
+
+> La bonté a porté ses fruits.  
+> Donc la réponse est « La confiance et la générosité peuvent changer une vie. ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-98-spot` · Lesson 98 · spot the error, level 3
+
+Prompt: Quelle phrase ne correspond pas au texte ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ L’épicerie se trouve à Limbe.
+- ✅ La fillette devient infirmière.
+- ✅ Une lettre arrive par la poste.
+- ✅ Mme Ekwalla est émue.
+- ❌ Mme Ekwalla chasse la fillette.  
+  _↳ Elle lui donne le riz._
+- ❌ La fillette ne revient jamais donner de nouvelles.  
+  _↳ Elle envoie une lettre de remerciement._
+- ❌ Mme Ekwalla jette la lettre.  
+  _↳ Elle la range comme un trésor._
+
+
+Three generated variants:
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Mme Ekwalla est émue.
+- ◻️ L’épicerie se trouve à Limbe.
+- ◻️ Une lettre arrive par la poste.
+- ✅ La fillette ne revient jamais donner de nouvelles.  
+  _↳ explanation: Elle envoie une lettre de remerciement._
+
+Full working after a second miss:
+
+> La phrase fausse est « La fillette ne revient jamais donner de nouvelles. ».  
+> Elle envoie une lettre de remerciement.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Une lettre arrive par la poste.
+- ◻️ L’épicerie se trouve à Limbe.
+- ◻️ Mme Ekwalla est émue.
+- ✅ Mme Ekwalla chasse la fillette.  
+  _↳ explanation: Elle lui donne le riz._
+
+Full working after a second miss:
+
+> La phrase fausse est « Mme Ekwalla chasse la fillette. ».  
+> Elle lui donne le riz.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Une lettre arrive par la poste.
+- ✅ La fillette ne revient jamais donner de nouvelles.  
+  _↳ explanation: Elle envoie une lettre de remerciement._
+- ◻️ Mme Ekwalla est émue.
+- ◻️ L’épicerie se trouve à Limbe.
+
+Full working after a second miss:
+
+> La phrase fausse est « La fillette ne revient jamais donner de nouvelles. ».  
+> Elle envoie une lettre de remerciement.  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-98-morale-card` · Lesson 98 · multiple choice, level 1
+
+Prompt: Texte « La lettre de Mme Ekwalla » : {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| quelle est la leçon du texte ? | La confiance et la générosité peuvent changer une vie. | Il ne faut jamais aider les autres. · L’argent est plus important que tout. · Les épiceries ferment le soir. | C’est le contraire. · Le trésor est la lettre. · Ce n’est pas la leçon. | La bonté a porté ses fruits. |
+| que veut dire « Tu paieras quand tu pourras » ? | Mme Ekwalla fait confiance à la fillette pour payer plus tard. | Elle refuse de vendre. · Elle se fâche. · Elle demande le double. | Elle donne le sac. · Elle est gentille. · Ce n’est pas dit. | Elle fait crédit par confiance. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Texte « La lettre de Mme Ekwalla » : quelle est la leçon du texte ?
+
+- ◻️ Il ne faut jamais aider les autres.  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ La confiance et la générosité peuvent changer une vie.
+- ◻️ L’argent est plus important que tout.  
+  _↳ feedback if chosen: Le trésor est la lettre._
+- ◻️ Les épiceries ferment le soir.  
+  _↳ feedback if chosen: Ce n’est pas la leçon._
+
+Full working after a second miss:
+
+> La bonté a porté ses fruits.  
+> Donc la réponse est « La confiance et la générosité peuvent changer une vie. ».  
+
+> Texte « La lettre de Mme Ekwalla » : que veut dire « Tu paieras quand tu pourras » ?
+
+- ✅ Mme Ekwalla fait confiance à la fillette pour payer plus tard.
+- ◻️ Elle refuse de vendre.  
+  _↳ feedback if chosen: Elle donne le sac._
+- ◻️ Elle demande le double.  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ Elle se fâche.  
+  _↳ feedback if chosen: Elle est gentille._
+
+Full working after a second miss:
+
+> Elle fait crédit par confiance.  
+> Donc la réponse est « Mme Ekwalla fait confiance à la fillette pour payer plus tard. ».  
+
+> Texte « La lettre de Mme Ekwalla » : quelle est la leçon du texte ?
+
+- ✅ La confiance et la générosité peuvent changer une vie.
+- ◻️ Il ne faut jamais aider les autres.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ L’argent est plus important que tout.  
+  _↳ feedback if chosen: Le trésor est la lettre._
+- ◻️ Les épiceries ferment le soir.  
+  _↳ feedback if chosen: Ce n’est pas la leçon._
+
+Full working after a second miss:
+
+> La bonté a porté ses fruits.  
+> Donc la réponse est « La confiance et la générosité peuvent changer une vie. ».  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+
+### `fi2-99-tech` · Lesson 99 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Que faut-il faire avant de lire un texte à haute voix ? | le lire en silence pour le comprendre | le lire très vite · le lire sans regarder · ne rien faire | La vitesse empêche la compréhension. · Il faut le comprendre. · Il faut le préparer. | On comprend avant de lire. |
+| Que veut dire « articuler » ? | prononcer chaque syllabe clairement | parler très vite · chuchoter · crier | C’est le contraire. · On n’entendrait pas. · Ce n’est pas le sens. | Chaque son est clair. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Que veut dire « articuler » ?
+
+- ◻️ parler très vite  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ prononcer chaque syllabe clairement
+- ◻️ crier  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ chuchoter  
+  _↳ feedback if chosen: On n’entendrait pas._
+
+Full working after a second miss:
+
+> Chaque son est clair.  
+> Donc la réponse est « prononcer chaque syllabe clairement ».  
+
+> Que faut-il faire avant de lire un texte à haute voix ?
+
+- ◻️ le lire sans regarder  
+  _↳ feedback if chosen: Il faut le comprendre._
+- ◻️ le lire très vite  
+  _↳ feedback if chosen: La vitesse empêche la compréhension._
+- ◻️ ne rien faire  
+  _↳ feedback if chosen: Il faut le préparer._
+- ✅ le lire en silence pour le comprendre
+
+Full working after a second miss:
+
+> On comprend avant de lire.  
+> Donc la réponse est « le lire en silence pour le comprendre ».  
+
+> Que faut-il faire avant de lire un texte à haute voix ?
+
+- ◻️ le lire sans regarder  
+  _↳ feedback if chosen: Il faut le comprendre._
+- ✅ le lire en silence pour le comprendre
+- ◻️ le lire très vite  
+  _↳ feedback if chosen: La vitesse empêche la compréhension._
+- ◻️ ne rien faire  
+  _↳ feedback if chosen: Il faut le préparer._
+
+Full working after a second miss:
+
+> On comprend avant de lire.  
+> Donc la réponse est « le lire en silence pour le comprendre ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-99-ponct` · Lesson 99 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Comment la voix change-t-elle à la fin d’une question ? | elle monte | elle descend toujours · elle s’arrête au milieu du mot · elle reste plate | C’est pour l’affirmation. · Ce n’est pas le cas. · La question change l’intonation. | L’intonation montante. |
+| Où fait-on la pause la plus longue ? | au point | à la virgule · au milieu d’un mot · après chaque lettre | La pause est plus courte. · On ne coupe pas les mots. · Ce n’est pas le cas. | Le point termine la phrase. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Comment la voix change-t-elle à la fin d’une question ?
+
+- ◻️ elle s’arrête au milieu du mot  
+  _↳ feedback if chosen: Ce n’est pas le cas._
+- ✅ elle monte
+- ◻️ elle reste plate  
+  _↳ feedback if chosen: La question change l’intonation._
+- ◻️ elle descend toujours  
+  _↳ feedback if chosen: C’est pour l’affirmation._
+
+Full working after a second miss:
+
+> L’intonation montante.  
+> Donc la réponse est « elle monte ».  
+
+> Comment la voix change-t-elle à la fin d’une question ?
+
+- ✅ elle monte
+- ◻️ elle descend toujours  
+  _↳ feedback if chosen: C’est pour l’affirmation._
+- ◻️ elle reste plate  
+  _↳ feedback if chosen: La question change l’intonation._
+- ◻️ elle s’arrête au milieu du mot  
+  _↳ feedback if chosen: Ce n’est pas le cas._
+
+Full working after a second miss:
+
+> L’intonation montante.  
+> Donc la réponse est « elle monte ».  
+
+> Comment la voix change-t-elle à la fin d’une question ?
+
+- ◻️ elle s’arrête au milieu du mot  
+  _↳ feedback if chosen: Ce n’est pas le cas._
+- ✅ elle monte
+- ◻️ elle descend toujours  
+  _↳ feedback if chosen: C’est pour l’affirmation._
+- ◻️ elle reste plate  
+  _↳ feedback if chosen: La question change l’intonation._
+
+Full working after a second miss:
+
+> L’intonation montante.  
+> Donc la réponse est « elle monte ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-99-spot` · Lesson 99 · spot the error, level 3
+
+Prompt: Quel conseil de lecture expressive est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On articule.
+- ✅ On fait des pauses aux points.
+- ✅ On adapte le ton.
+- ✅ On regarde le public.
+- ❌ On lit le plus vite possible sans pause.  
+  _↳ On garde un rythme régulier avec des pauses._
+- ❌ On lit tout sur le même ton.  
+  _↳ Le ton change selon les sentiments._
+- ❌ On garde toujours les yeux sur ses pieds.  
+  _↳ On lève les yeux vers le public._
+
+
+Three generated variants:
+
+> Quel conseil de lecture expressive est faux ?
+
+- ◻️ On adapte le ton.
+- ◻️ On articule.
+- ✅ On lit le plus vite possible sans pause.  
+  _↳ explanation: On garde un rythme régulier avec des pauses._
+- ◻️ On fait des pauses aux points.
+
+Full working after a second miss:
+
+> La phrase fausse est « On lit le plus vite possible sans pause. ».  
+> On garde un rythme régulier avec des pauses.  
+
+> Quel conseil de lecture expressive est faux ?
+
+- ◻️ On articule.
+- ✅ On lit tout sur le même ton.  
+  _↳ explanation: Le ton change selon les sentiments._
+- ◻️ On adapte le ton.
+- ◻️ On regarde le public.
+
+Full working after a second miss:
+
+> La phrase fausse est « On lit tout sur le même ton. ».  
+> Le ton change selon les sentiments.  
+
+> Quel conseil de lecture expressive est faux ?
+
+- ◻️ On regarde le public.
+- ◻️ On articule.
+- ◻️ On fait des pauses aux points.
+- ✅ On garde toujours les yeux sur ses pieds.  
+  _↳ explanation: On lève les yeux vers le public._
+
+Full working after a second miss:
+
+> La phrase fausse est « On garde toujours les yeux sur ses pieds. ».  
+> On lève les yeux vers le public.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-100-temps` · Lesson 100 · fill the blank, level 1
+
+Prompt: Choisis le temps qui convient.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Il ___ nuit et le vent soufflait. | faisait | fit · fera | Le décor se met à l’imparfait. · C’est le futur. |
+| Soudain, un bruit ___ le silence. | rompit | rompait · rompra | L’action soudaine : passé simple. · C’est le futur. |
+| Mon grand-père ___ de longues mains fines. | avait | eut · aura | Le portrait se fait à l’imparfait. · C’est le futur. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis le temps qui convient.
+
+Sentence: **Soudain, un bruit ___ le silence.**
+- ◻️ rompait  
+  _↳ feedback if chosen: L’action soudaine : passé simple._
+- ✅ rompit
+- ◻️ rompra  
+  _↳ feedback if chosen: C’est le futur._
+
+Full working after a second miss:
+
+> Le mot qui manque est « rompit ».  
+> Soudain, un bruit rompit le silence.  
+
+> Choisis le temps qui convient.
+
+Sentence: **Soudain, un bruit ___ le silence.**
+- ◻️ rompra  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ rompait  
+  _↳ feedback if chosen: L’action soudaine : passé simple._
+- ✅ rompit
+
+Full working after a second miss:
+
+> Le mot qui manque est « rompit ».  
+> Soudain, un bruit rompit le silence.  
+
+> Choisis le temps qui convient.
+
+Sentence: **Soudain, un bruit ___ le silence.**
+- ◻️ rompra  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ rompait  
+  _↳ feedback if chosen: L’action soudaine : passé simple._
+- ✅ rompit
+
+Full working after a second miss:
+
+> Le mot qui manque est « rompit ».  
+> Soudain, un bruit rompit le silence.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-100-mix` · Lesson 100 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans un récit, à quoi sert une description du lieu ? | à aider le lecteur à imaginer où se passe l’histoire | à finir l’histoire · à remplacer les personnages · à rien | Ce n’est pas son rôle. · Ce n’est pas son rôle. · Elle est utile. | Le lecteur voit le décor. |
+| Quel texte mêle narration et portrait ? | Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients. | Le marché est grand. · Il pleut. · Ma sœur est grande. | C’est une description seule. · C’est une phrase de décor. · C’est un portrait seul. | Portrait (petit et sage) + actions (ouvrit, salua). |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel texte mêle narration et portrait ?
+
+- ◻️ Il pleut.  
+  _↳ feedback if chosen: C’est une phrase de décor._
+- ◻️ Ma sœur est grande.  
+  _↳ feedback if chosen: C’est un portrait seul._
+- ◻️ Le marché est grand.  
+  _↳ feedback if chosen: C’est une description seule._
+- ✅ Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients.
+
+Full working after a second miss:
+
+> Portrait (petit et sage) + actions (ouvrit, salua).  
+> Donc la réponse est « Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients. ».  
+
+> Quel texte mêle narration et portrait ?
+
+- ◻️ Il pleut.  
+  _↳ feedback if chosen: C’est une phrase de décor._
+- ✅ Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients.
+- ◻️ Le marché est grand.  
+  _↳ feedback if chosen: C’est une description seule._
+- ◻️ Ma sœur est grande.  
+  _↳ feedback if chosen: C’est un portrait seul._
+
+Full working after a second miss:
+
+> Portrait (petit et sage) + actions (ouvrit, salua).  
+> Donc la réponse est « Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients. ».  
+
+> Quel texte mêle narration et portrait ?
+
+- ◻️ Il pleut.  
+  _↳ feedback if chosen: C’est une phrase de décor._
+- ✅ Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients.
+- ◻️ Ma sœur est grande.  
+  _↳ feedback if chosen: C’est un portrait seul._
+- ◻️ Le marché est grand.  
+  _↳ feedback if chosen: C’est une description seule._
+
+Full working after a second miss:
+
+> Portrait (petit et sage) + actions (ouvrit, salua).  
+> Donc la réponse est « Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients. ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-100-spot` · Lesson 100 · spot the error, level 3
+
+Prompt: Quelle phrase est fausse ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Le portrait décrit une personne.
+- ✅ Raconter, c’est présenter des actions.
+- ✅ La description montre un lieu.
+- ✅ Le décor se met à l’imparfait.
+- ❌ Une description raconte uniquement des actions.  
+  _↳ Elle montre un lieu ou un objet._
+- ❌ Le portrait moral décrit le visage.  
+  _↳ Il décrit le caractère._
+- ❌ Un récit ne contient jamais de description.  
+  _↳ Il en contient souvent._
+
+
+Three generated variants:
+
+> Quelle phrase est fausse ?
+
+- ◻️ La description montre un lieu.
+- ◻️ Raconter, c’est présenter des actions.
+- ✅ Une description raconte uniquement des actions.  
+  _↳ explanation: Elle montre un lieu ou un objet._
+- ◻️ Le décor se met à l’imparfait.
+
+Full working after a second miss:
+
+> La phrase fausse est « Une description raconte uniquement des actions. ».  
+> Elle montre un lieu ou un objet.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Le portrait moral décrit le visage.  
+  _↳ explanation: Il décrit le caractère._
+- ◻️ Le portrait décrit une personne.
+- ◻️ Raconter, c’est présenter des actions.
+- ◻️ La description montre un lieu.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le portrait moral décrit le visage. ».  
+> Il décrit le caractère.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Une description raconte uniquement des actions.  
+  _↳ explanation: Elle montre un lieu ou un objet._
+- ◻️ Raconter, c’est présenter des actions.
+- ◻️ La description montre un lieu.
+- ◻️ Le décor se met à l’imparfait.
+
+Full working after a second miss:
+
+> La phrase fausse est « Une description raconte uniquement des actions. ».  
+> Elle montre un lieu ou un objet.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-100-mix-card` · Lesson 100 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Dans un récit, à quoi sert une description du lieu ? | à aider le lecteur à imaginer où se passe l’histoire | à finir l’histoire · à remplacer les personnages · à rien | Ce n’est pas son rôle. · Ce n’est pas son rôle. · Elle est utile. | Le lecteur voit le décor. |
+| Quel texte mêle narration et portrait ? | Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients. | Le marché est grand. · Il pleut. · Ma sœur est grande. | C’est une description seule. · C’est une phrase de décor. · C’est un portrait seul. | Portrait (petit et sage) + actions (ouvrit, salua). |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quel texte mêle narration et portrait ?
+
+- ◻️ Ma sœur est grande.  
+  _↳ feedback if chosen: C’est un portrait seul._
+- ◻️ Il pleut.  
+  _↳ feedback if chosen: C’est une phrase de décor._
+- ◻️ Le marché est grand.  
+  _↳ feedback if chosen: C’est une description seule._
+- ✅ Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients.
+
+Full working after a second miss:
+
+> Portrait (petit et sage) + actions (ouvrit, salua).  
+> Donc la réponse est « Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients. ».  
+
+> Dans un récit, à quoi sert une description du lieu ?
+
+- ◻️ à rien  
+  _↳ feedback if chosen: Elle est utile._
+- ✅ à aider le lecteur à imaginer où se passe l’histoire
+- ◻️ à remplacer les personnages  
+  _↳ feedback if chosen: Ce n’est pas son rôle._
+- ◻️ à finir l’histoire  
+  _↳ feedback if chosen: Ce n’est pas son rôle._
+
+Full working after a second miss:
+
+> Le lecteur voit le décor.  
+> Donc la réponse est « à aider le lecteur à imaginer où se passe l’histoire ».  
+
+> Dans un récit, à quoi sert une description du lieu ?
+
+- ◻️ à rien  
+  _↳ feedback if chosen: Elle est utile._
+- ◻️ à finir l’histoire  
+  _↳ feedback if chosen: Ce n’est pas son rôle._
+- ◻️ à remplacer les personnages  
+  _↳ feedback if chosen: Ce n’est pas son rôle._
+- ✅ à aider le lecteur à imaginer où se passe l’histoire
+
+Full working after a second miss:
+
+> Le lecteur voit le décor.  
+> Donc la réponse est « à aider le lecteur à imaginer où se passe l’histoire ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-101-type` · Lesson 101 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quatre images montrent un garçon qui plante un arbre, l’arrose, le voit grandir et se repose à son ombre. Quel type d’écrit convient ? | un récit | une petite annonce · un slogan seul · une liste de courses | Il n’y a pas d’offre. · Un slogan est trop court. · Ce n’est pas le sujet. | Une suite d’actions. |
+| Une image montre une nouvelle pharmacie. Quel écrit permet d’informer les habitants de son ouverture ? | une affiche | un conte · un portrait · un poème d’amour | Ce n’est pas une histoire. · Il n’y a pas de personne à décrire. · Ce n’est pas le but. | L’affiche informe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quatre images montrent un garçon qui plante un arbre, l’arrose, le voit grandir et se repose à son ombre. Quel type d’écrit convient ?
+
+- ✅ un récit
+- ◻️ un slogan seul  
+  _↳ feedback if chosen: Un slogan est trop court._
+- ◻️ une petite annonce  
+  _↳ feedback if chosen: Il n’y a pas d’offre._
+- ◻️ une liste de courses  
+  _↳ feedback if chosen: Ce n’est pas le sujet._
+
+Full working after a second miss:
+
+> Une suite d’actions.  
+> Donc la réponse est « un récit ».  
+
+> Quatre images montrent un garçon qui plante un arbre, l’arrose, le voit grandir et se repose à son ombre. Quel type d’écrit convient ?
+
+- ◻️ un slogan seul  
+  _↳ feedback if chosen: Un slogan est trop court._
+- ✅ un récit
+- ◻️ une liste de courses  
+  _↳ feedback if chosen: Ce n’est pas le sujet._
+- ◻️ une petite annonce  
+  _↳ feedback if chosen: Il n’y a pas d’offre._
+
+Full working after a second miss:
+
+> Une suite d’actions.  
+> Donc la réponse est « un récit ».  
+
+> Une image montre une nouvelle pharmacie. Quel écrit permet d’informer les habitants de son ouverture ?
+
+- ✅ une affiche
+- ◻️ un poème d’amour  
+  _↳ feedback if chosen: Ce n’est pas le but._
+- ◻️ un portrait  
+  _↳ feedback if chosen: Il n’y a pas de personne à décrire._
+- ◻️ un conte  
+  _↳ feedback if chosen: Ce n’est pas une histoire._
+
+Full working after a second miss:
+
+> L’affiche informe.  
+> Donc la réponse est « une affiche ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-101-etapes` · Lesson 101 · ordering, level 1
+
+Prompt: Remets les étapes dans l’ordre.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Observer les images | Choisir le type d’écrit | Faire un plan | Écrire un brouillon | Relire et recopier |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Choisir le type d’écrit · Faire un plan · Relire et recopier · Observer les images · Écrire un brouillon
+Correct order: Observer les images → Choisir le type d’écrit → Faire un plan → Écrire un brouillon → Relire et recopier
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer les images → Choisir le type d’écrit → Faire un plan → Écrire un brouillon → Relire et recopier.  
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Faire un plan · Relire et recopier · Observer les images · Choisir le type d’écrit · Écrire un brouillon
+Correct order: Observer les images → Choisir le type d’écrit → Faire un plan → Écrire un brouillon → Relire et recopier
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer les images → Choisir le type d’écrit → Faire un plan → Écrire un brouillon → Relire et recopier.  
+
+> Remets les étapes dans l’ordre.
+
+Shown as: Choisir le type d’écrit · Observer les images · Écrire un brouillon · Relire et recopier · Faire un plan
+Correct order: Observer les images → Choisir le type d’écrit → Faire un plan → Écrire un brouillon → Relire et recopier
+
+Full working after a second miss:
+
+> Le bon ordre est : Observer les images → Choisir le type d’écrit → Faire un plan → Écrire un brouillon → Relire et recopier.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-101-grille` · Lesson 101 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle question fait partie de la grille de relecture ? | Mon texte correspond-il aux images ? | Combien coûte mon cahier ? · Quelle heure est-il ? · Où est mon stylo rouge ? | Ce n’est pas utile. · Ce n’est pas utile. · Ce n’est pas utile. | On vérifie le sens. |
+| Un élève écrit un récit au présent, puis au passé simple, puis au futur. Que doit-il corriger ? | garder le même temps de récit | ajouter des couleurs · écrire plus vite · enlever la ponctuation | Ce n’est pas le problème. · Ce n’est pas le problème. · La ponctuation est nécessaire. | La cohérence des temps. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Un élève écrit un récit au présent, puis au passé simple, puis au futur. Que doit-il corriger ?
+
+- ◻️ écrire plus vite  
+  _↳ feedback if chosen: Ce n’est pas le problème._
+- ◻️ enlever la ponctuation  
+  _↳ feedback if chosen: La ponctuation est nécessaire._
+- ✅ garder le même temps de récit
+- ◻️ ajouter des couleurs  
+  _↳ feedback if chosen: Ce n’est pas le problème._
+
+Full working after a second miss:
+
+> La cohérence des temps.  
+> Donc la réponse est « garder le même temps de récit ».  
+
+> Un élève écrit un récit au présent, puis au passé simple, puis au futur. Que doit-il corriger ?
+
+- ✅ garder le même temps de récit
+- ◻️ enlever la ponctuation  
+  _↳ feedback if chosen: La ponctuation est nécessaire._
+- ◻️ écrire plus vite  
+  _↳ feedback if chosen: Ce n’est pas le problème._
+- ◻️ ajouter des couleurs  
+  _↳ feedback if chosen: Ce n’est pas le problème._
+
+Full working after a second miss:
+
+> La cohérence des temps.  
+> Donc la réponse est « garder le même temps de récit ».  
+
+> Quelle question fait partie de la grille de relecture ?
+
+- ◻️ Quelle heure est-il ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ✅ Mon texte correspond-il aux images ?
+- ◻️ Où est mon stylo rouge ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ Combien coûte mon cahier ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+
+Full working after a second miss:
+
+> On vérifie le sens.  
+> Donc la réponse est « Mon texte correspond-il aux images ? ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-101-spot` · Lesson 101 · spot the error, level 3
+
+Prompt: Quel conseil est faux ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ On observe les images.
+- ✅ On choisit le type d’écrit.
+- ✅ On écrit un brouillon.
+- ✅ On relit son texte.
+- ❌ On écrit un texte qui n’a rien à voir avec les images.  
+  _↳ Le texte doit correspondre aux images._
+- ❌ On recopie sans relire.  
+  _↳ On relit d’abord._
+- ❌ Une seule image donne toujours un long récit de dix étapes.  
+  _↳ Une seule image donne plutôt une description ou un portrait._
+
+
+Three generated variants:
+
+> Quel conseil est faux ?
+
+- ✅ On écrit un texte qui n’a rien à voir avec les images.  
+  _↳ explanation: Le texte doit correspondre aux images._
+- ◻️ On observe les images.
+- ◻️ On écrit un brouillon.
+- ◻️ On choisit le type d’écrit.
+
+Full working after a second miss:
+
+> La phrase fausse est « On écrit un texte qui n’a rien à voir avec les images. ».  
+> Le texte doit correspondre aux images.  
+
+> Quel conseil est faux ?
+
+- ◻️ On observe les images.
+- ✅ On écrit un texte qui n’a rien à voir avec les images.  
+  _↳ explanation: Le texte doit correspondre aux images._
+- ◻️ On choisit le type d’écrit.
+- ◻️ On relit son texte.
+
+Full working after a second miss:
+
+> La phrase fausse est « On écrit un texte qui n’a rien à voir avec les images. ».  
+> Le texte doit correspondre aux images.  
+
+> Quel conseil est faux ?
+
+- ◻️ On choisit le type d’écrit.
+- ◻️ On observe les images.
+- ✅ On écrit un texte qui n’a rien à voir avec les images.  
+  _↳ explanation: Le texte doit correspondre aux images._
+- ◻️ On écrit un brouillon.
+
+Full working after a second miss:
+
+> La phrase fausse est « On écrit un texte qui n’a rien à voir avec les images. ».  
+> Le texte doit correspondre aux images.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-101-grille-card` · Lesson 101 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Quelle question fait partie de la grille de relecture ? | Mon texte correspond-il aux images ? | Combien coûte mon cahier ? · Quelle heure est-il ? · Où est mon stylo rouge ? | Ce n’est pas utile. · Ce n’est pas utile. · Ce n’est pas utile. | On vérifie le sens. |
+| Un élève écrit un récit au présent, puis au passé simple, puis au futur. Que doit-il corriger ? | garder le même temps de récit | ajouter des couleurs · écrire plus vite · enlever la ponctuation | Ce n’est pas le problème. · Ce n’est pas le problème. · La ponctuation est nécessaire. | La cohérence des temps. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Quelle question fait partie de la grille de relecture ?
+
+- ◻️ Combien coûte mon cahier ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ✅ Mon texte correspond-il aux images ?
+- ◻️ Quelle heure est-il ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+- ◻️ Où est mon stylo rouge ?  
+  _↳ feedback if chosen: Ce n’est pas utile._
+
+Full working after a second miss:
+
+> On vérifie le sens.  
+> Donc la réponse est « Mon texte correspond-il aux images ? ».  
+
+> Un élève écrit un récit au présent, puis au passé simple, puis au futur. Que doit-il corriger ?
+
+- ✅ garder le même temps de récit
+- ◻️ ajouter des couleurs  
+  _↳ feedback if chosen: Ce n’est pas le problème._
+- ◻️ enlever la ponctuation  
+  _↳ feedback if chosen: La ponctuation est nécessaire._
+- ◻️ écrire plus vite  
+  _↳ feedback if chosen: Ce n’est pas le problème._
+
+Full working after a second miss:
+
+> La cohérence des temps.  
+> Donc la réponse est « garder le même temps de récit ».  
+
+> Un élève écrit un récit au présent, puis au passé simple, puis au futur. Que doit-il corriger ?
+
+- ◻️ écrire plus vite  
+  _↳ feedback if chosen: Ce n’est pas le problème._
+- ◻️ enlever la ponctuation  
+  _↳ feedback if chosen: La ponctuation est nécessaire._
+- ◻️ ajouter des couleurs  
+  _↳ feedback if chosen: Ce n’est pas le problème._
+- ✅ garder le même temps de récit
+
+Full working after a second miss:
+
+> La cohérence des temps.  
+> Donc la réponse est « garder le même temps de récit ».  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+
+### `fi2-102-si` · Lesson 102 · fill the blank, level 2
+
+Prompt: Choisis la forme correcte.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Si j’___ le temps, je viendrais te voir. | avais | aurais · aurai | Après « si », jamais de conditionnel. · Après « si » + conditionnel, l’imparfait. |
+| Si nous ___ plus, nous réussirions. | travaillions | travaillerions · travaillerons | Après « si », l’imparfait. · C’est le futur. |
+| Si tu ___ riche, que ferais-tu ? | étais | serais · seras | Après « si », l’imparfait. · C’est le futur. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la forme correcte.
+
+Sentence: **Si tu ___ riche, que ferais-tu ?**
+- ✅ étais
+- ◻️ serais  
+  _↳ feedback if chosen: Après « si », l’imparfait._
+- ◻️ seras  
+  _↳ feedback if chosen: C’est le futur._
+
+Full working after a second miss:
+
+> Le mot qui manque est « étais ».  
+> Si tu étais riche, que ferais-tu ?  
+
+> Choisis la forme correcte.
+
+Sentence: **Si nous ___ plus, nous réussirions.**
+- ◻️ travaillerons  
+  _↳ feedback if chosen: C’est le futur._
+- ✅ travaillions
+- ◻️ travaillerions  
+  _↳ feedback if chosen: Après « si », l’imparfait._
+
+Full working after a second miss:
+
+> Le mot qui manque est « travaillions ».  
+> Si nous travaillions plus, nous réussirions.  
+
+> Choisis la forme correcte.
+
+Sentence: **Si tu ___ riche, que ferais-tu ?**
+- ◻️ seras  
+  _↳ feedback if chosen: C’est le futur._
+- ◻️ serais  
+  _↳ feedback if chosen: Après « si », l’imparfait._
+- ✅ étais
+
+Full working after a second miss:
+
+> Le mot qui manque est « étais ».  
+> Si tu étais riche, que ferais-tu ?  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-102-spot` · Lesson 102 · spot the error, level 3
+
+Prompt: Quelle phrase contient une faute ?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Je voudrais un renseignement.
+- ✅ Si j’étais grand, je serais pilote.
+- ✅ Tu devrais te reposer.
+- ✅ Nous aimerions voyager.
+- ❌ Si j’aurais de l’argent, j’achèterais une moto.  
+  _↳ Après « si » : si j’avais._
+- ❌ Je viendrai si tu m’invitais.  
+  _↳ Si + imparfait → conditionnel : je viendrais._
+- ❌ Ils feraitent leurs devoirs.  
+  _↳ On écrit : ils feraient._
+
+
+Three generated variants:
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Tu devrais te reposer.
+- ◻️ Si j’étais grand, je serais pilote.
+- ✅ Si j’aurais de l’argent, j’achèterais une moto.  
+  _↳ explanation: Après « si » : si j’avais._
+- ◻️ Je voudrais un renseignement.
+
+Full working after a second miss:
+
+> La phrase fausse est « Si j’aurais de l’argent, j’achèterais une moto. ».  
+> Après « si » : si j’avais.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Je voudrais un renseignement.
+- ◻️ Nous aimerions voyager.
+- ◻️ Si j’étais grand, je serais pilote.
+- ✅ Je viendrai si tu m’invitais.  
+  _↳ explanation: Si + imparfait → conditionnel : je viendrais._
+
+Full working after a second miss:
+
+> La phrase fausse est « Je viendrai si tu m’invitais. ».  
+> Si + imparfait → conditionnel : je viendrais.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Je voudrais un renseignement.
+- ✅ Ils feraitent leurs devoirs.  
+  _↳ explanation: On écrit : ils feraient._
+- ◻️ Nous aimerions voyager.
+- ◻️ Si j’étais grand, je serais pilote.
+
+Full working after a second miss:
+
+> La phrase fausse est « Ils feraitent leurs devoirs. ».  
+> On écrit : ils feraient.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-102-si-card` · Lesson 102 · fill the blank, level 1
+
+Prompt: Choisis la forme correcte.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Si j’___ le temps, je viendrais te voir. | avais | aurais · aurai | Après « si », jamais de conditionnel. · Après « si » + conditionnel, l’imparfait. |
+| Si nous ___ plus, nous réussirions. | travaillions | travaillerions · travaillerons | Après « si », l’imparfait. · C’est le futur. |
+| Si tu ___ riche, que ferais-tu ? | étais | serais · seras | Après « si », l’imparfait. · C’est le futur. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choisis la forme correcte.
+
+Sentence: **Si j’___ le temps, je viendrais te voir.**
+- ✅ avais
+- ◻️ aurais  
+  _↳ feedback if chosen: Après « si », jamais de conditionnel._
+- ◻️ aurai  
+  _↳ feedback if chosen: Après « si » + conditionnel, l’imparfait._
+
+Full working after a second miss:
+
+> Le mot qui manque est « avais ».  
+> Si j’avais le temps, je viendrais te voir.  
+
+> Choisis la forme correcte.
+
+Sentence: **Si j’___ le temps, je viendrais te voir.**
+- ◻️ aurai  
+  _↳ feedback if chosen: Après « si » + conditionnel, l’imparfait._
+- ✅ avais
+- ◻️ aurais  
+  _↳ feedback if chosen: Après « si », jamais de conditionnel._
+
+Full working after a second miss:
+
+> Le mot qui manque est « avais ».  
+> Si j’avais le temps, je viendrais te voir.  
+
+> Choisis la forme correcte.
+
+Sentence: **Si j’___ le temps, je viendrais te voir.**
+- ◻️ aurais  
+  _↳ feedback if chosen: Après « si », jamais de conditionnel._
+- ✅ avais
+- ◻️ aurai  
+  _↳ feedback if chosen: Après « si » + conditionnel, l’imparfait._
+
+Full working after a second miss:
+
+> Le mot qui manque est « avais ».  
+> Si j’avais le temps, je viendrais te voir.  
 
 Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
 

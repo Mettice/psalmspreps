@@ -1,0 +1,388 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 84,
+ "language": "fr",
+ "prerequisites": [
+  59
+ ],
+ "skills": [
+  {
+   "id": "fi2-84",
+   "name": "La description d’un lieu de travail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Décrire un lieu, c’est aider le lecteur à le voir.\nMéthode :\n1. Présenter le lieu : « Le marché central de Yaoundé est immense. »\n2. Décrire avec un ordre : de près à loin, de gauche à droite, de l’extérieur à l’intérieur, en utilisant des indications de lieu (devant, derrière, au fond, à côté de, au milieu).\n3. Faire appel aux sens : ce qu’on voit, entend, sent : « On entend les vendeuses appeler les clients ; l’odeur du poisson fumé flotte dans l’air. »\n4. Employer des adjectifs précis et des verbes variés (s’étendre, se dresser, briller).\n5. Terminer par une impression : « C’est un lieu plein de vie. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris une phrase de description d’un atelier de couture qui fait appel à deux sens.",
+  "steps": [
+   "La vue : les tissus colorés ; l’ouïe : le bruit des machines.",
+   "« Dans l’atelier, les pagnes colorés s’empilent sur les tables et les machines à coudre ronronnent sans arrêt. »"
+  ],
+  "answer": "Dans l’atelier, les pagnes colorés s’empilent et les machines à coudre ronronnent sans arrêt.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c84-1",
+    "status": "draft",
+    "idea": "On décrit un lieu avec un ordre et des indications de lieu.",
+    "vars": {},
+    "example": [
+     "Au fond, derrière, à côté de."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-84-ordre"
+    }
+   },
+   {
+    "id": "c84-2",
+    "status": "draft",
+    "idea": "On fait appel aux sens : la vue, l’ouïe, l’odorat.",
+    "vars": {},
+    "example": [
+     "On sent l’odeur du pain chaud."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-84-sens"
+    }
+   },
+   {
+    "id": "c84-3",
+    "status": "draft",
+    "idea": "Des adjectifs précis et des verbes variés rendent la description vivante.",
+    "vars": {},
+    "example": [
+     "Le garage se dresse au bord de la route."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-84-mot-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "La grande usine ___ au bord du fleuve.",
+         "a": "se dresse",
+         "w": [
+          "est",
+          "fait"
+         ],
+         "e": [
+          "« est » est trop général.",
+          "« fait » ne convient pas."
+         ]
+        },
+        {
+         "s": "Le marché ___ sur toute la place.",
+         "a": "s’étend",
+         "w": [
+          "va",
+          "a"
+         ],
+         "e": [
+          "« va » est vague.",
+          "« a » ne convient pas."
+         ]
+        },
+        {
+         "s": "Les casseroles ___ sur les étagères.",
+         "a": "brillent",
+         "w": [
+          "sont",
+          "font"
+         ],
+         "e": [
+          "« sont » est trop général.",
+          "« font » ne convient pas."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot le plus précis.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-84-ordre",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Le garage de M. Fon se trouve au bord de la route.",
+       "Devant, des voitures attendent d’être réparées.",
+       "À l’intérieur, des outils pendent au mur.",
+       "Au fond, un apprenti change une roue.",
+       "C’est un lieu bruyant mais accueillant."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets la description dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-84-sens",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "On entend le bruit des marteaux.",
+       "a": "l’ouïe",
+       "w": [
+        "la vue",
+        "l’odorat"
+       ]
+      },
+      {
+       "s": "L’odeur du pain chaud remplit la boulangerie.",
+       "a": "l’odorat",
+       "w": [
+        "la vue",
+        "l’ouïe"
+       ]
+      },
+      {
+       "s": "Les tissus jaunes et rouges brillent au soleil.",
+       "a": "la vue",
+       "w": [
+        "l’ouïe",
+        "l’odorat"
+       ]
+      },
+      {
+       "s": "Les machines ronronnent sans arrêt.",
+       "a": "l’ouïe",
+       "w": [
+        "la vue",
+        "l’odorat"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Quel sens est utilisé dans : « {X.s} » ?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "sens"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "sens"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sens",
+     "explain": "Demande-toi : voit-on, entend-on ou sent-on ?"
+    }
+   ],
+   "solution": [
+    "La vue (voir), l’ouïe (entendre), l’odorat (sentir).",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-84-mot",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "La grande usine ___ au bord du fleuve.",
+       "a": "se dresse",
+       "w": [
+        "est",
+        "fait"
+       ],
+       "e": [
+        "« est » est trop général.",
+        "« fait » ne convient pas."
+       ]
+      },
+      {
+       "s": "Le marché ___ sur toute la place.",
+       "a": "s’étend",
+       "w": [
+        "va",
+        "a"
+       ],
+       "e": [
+        "« va » est vague.",
+        "« a » ne convient pas."
+       ]
+      },
+      {
+       "s": "Les casseroles ___ sur les étagères.",
+       "a": "brillent",
+       "w": [
+        "sont",
+        "font"
+       ],
+       "e": [
+        "« sont » est trop général.",
+        "« font » ne convient pas."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot le plus précis.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-84-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour décrire un lieu est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On présente d’abord le lieu.",
+      "truth": "true"
+     },
+     {
+      "text": "On suit un ordre.",
+      "truth": "true"
+     },
+     {
+      "text": "On fait appel aux sens.",
+      "truth": "true"
+     },
+     {
+      "text": "On termine par une impression.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On décrit sans aucun ordre.",
+      "truth": "false",
+      "explain": "On suit un ordre : de près à loin, de gauche à droite."
+     },
+     {
+      "text": "On n’emploie jamais d’adjectifs.",
+      "truth": "false",
+      "explain": "Les adjectifs précis sont utiles."
+     },
+     {
+      "text": "On parle seulement de ce qu’on mange.",
+      "truth": "false",
+      "explain": "On décrit ce qu’on voit, entend et sent."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

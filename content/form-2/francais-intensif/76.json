@@ -1,0 +1,445 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 76,
+ "language": "fr",
+ "prerequisites": [
+  64
+ ],
+ "skills": [
+  {
+   "id": "fi2-76",
+   "name": "Champ lexical et champ sémantique : l’hymne national"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le champ lexical est l’ensemble des mots qui se rapportent à un même thème.\nLe champ sémantique est l’ensemble des sens différents d’un même mot.\nL’hymne national du Cameroun commence par « Ô Cameroun, berceau de nos ancêtres ». On le chante debout, avec respect, lors des cérémonies.\nChamp lexical de la patrie dans un hymne : la patrie, la nation, le pays, le drapeau, les ancêtres, la liberté, l’unité, la paix, le travail, la gloire, l’amour, la fidélité, servir, défendre.\nChamp sémantique du mot « berceau » :\n• le petit lit d’un bébé (sens propre) ;\n• le lieu où une chose est née (sens figuré) : « le berceau de nos ancêtres » = la terre d’origine.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans « Ô Cameroun, berceau de nos ancêtres », quel est le sens de « berceau » ?",
+  "steps": [
+   "Ce n’est pas le petit lit d’un bébé (sens propre).",
+   "C’est le lieu d’origine, la terre où sont nés les ancêtres (sens figuré)."
+  ],
+  "answer": "le lieu d’origine (sens figuré)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c76-1",
+    "status": "draft",
+    "idea": "Le champ lexical regroupe les mots d’un même thème.",
+    "vars": {},
+    "example": [
+     "Patrie : drapeau, nation, unité."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-76-lex"
+    }
+   },
+   {
+    "id": "c76-2",
+    "status": "draft",
+    "idea": "Le champ sémantique regroupe les différents sens d’un même mot.",
+    "vars": {},
+    "example": [
+     "berceau : petit lit / lieu d’origine"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-76-sem-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Qu’est-ce que le champ sémantique d’un mot ?",
+         "r": "l’ensemble de ses différents sens",
+         "w": [
+          "l’ensemble des mots d’un thème",
+          "son nombre de lettres",
+          "sa traduction en anglais"
+         ],
+         "e": [
+          "C’est le champ lexical.",
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens."
+         ],
+         "y": "Un mot peut avoir plusieurs sens."
+        },
+        {
+         "q": "Dans « le bébé dort dans son berceau », quel est le sens de « berceau » ?",
+         "r": "le petit lit d’un bébé (sens propre)",
+         "w": [
+          "le lieu d’origine",
+          "la patrie",
+          "un chant"
+         ],
+         "e": [
+          "C’est le sens figuré.",
+          "Ce n’est pas le sens ici.",
+          "Ce n’est pas le sens."
+         ],
+         "y": "Sens propre."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c76-3",
+    "status": "draft",
+    "idea": "On chante l’hymne national debout, avec respect.",
+    "vars": {},
+    "example": [
+     "Lors de la levée des couleurs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-76-respect"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-76-lex",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot n’appartient pas au champ lexical de la patrie ?",
+       "r": "la casserole",
+       "w": [
+        "le drapeau",
+        "la nation",
+        "l’unité"
+       ],
+       "e": [
+        "C’est un mot de la patrie.",
+        "C’est un mot de la patrie.",
+        "C’est un mot de la patrie."
+       ],
+       "y": "La casserole est un mot de la cuisine."
+      },
+      {
+       "q": "Quel mot appartient au champ lexical de la patrie ?",
+       "r": "la liberté",
+       "w": [
+        "le ballon",
+        "la fourchette",
+        "le nuage"
+       ],
+       "e": [
+        "C’est le sport.",
+        "C’est la cuisine.",
+        "C’est le temps."
+       ],
+       "y": "La liberté est une valeur de la nation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-76-sem",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce que le champ sémantique d’un mot ?",
+       "r": "l’ensemble de ses différents sens",
+       "w": [
+        "l’ensemble des mots d’un thème",
+        "son nombre de lettres",
+        "sa traduction en anglais"
+       ],
+       "e": [
+        "C’est le champ lexical.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Un mot peut avoir plusieurs sens."
+      },
+      {
+       "q": "Dans « le bébé dort dans son berceau », quel est le sens de « berceau » ?",
+       "r": "le petit lit d’un bébé (sens propre)",
+       "w": [
+        "le lieu d’origine",
+        "la patrie",
+        "un chant"
+       ],
+       "e": [
+        "C’est le sens figuré.",
+        "Ce n’est pas le sens ici.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Sens propre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-76-respect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment doit-on se tenir quand on chante l’hymne national ?",
+       "r": "debout et immobile, avec respect",
+       "w": [
+        "assis en mangeant",
+        "en courant",
+        "en parlant au téléphone"
+       ],
+       "e": [
+        "C’est irrespectueux.",
+        "C’est irrespectueux.",
+        "C’est irrespectueux."
+       ],
+       "y": "L’hymne est un symbole de la nation."
+      },
+      {
+       "q": "Par quels mots commence l’hymne national du Cameroun ?",
+       "r": "Ô Cameroun, berceau de nos ancêtres",
+       "w": [
+        "Il était une fois",
+        "Allô, bonjour",
+        "Mesdames et messieurs"
+       ],
+       "e": [
+        "C’est un début de conte.",
+        "C’est le téléphone.",
+        "C’est un discours."
+       ],
+       "y": "C’est le premier vers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-76-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le champ lexical regroupe les mots d’un thème.",
+      "truth": "true"
+     },
+     {
+      "text": "« berceau » peut avoir un sens figuré.",
+      "truth": "true"
+     },
+     {
+      "text": "On chante l’hymne debout.",
+      "truth": "true"
+     },
+     {
+      "text": "« drapeau » appartient au champ lexical de la patrie.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le champ sémantique regroupe les mots d’un même thème.",
+      "truth": "false",
+      "explain": "Il regroupe les sens d’un même mot."
+     },
+     {
+      "text": "Dans l’hymne, « berceau » veut dire un petit lit.",
+      "truth": "false",
+      "explain": "Il veut dire la terre d’origine."
+     },
+     {
+      "text": "On chante l’hymne assis en bavardant.",
+      "truth": "false",
+      "explain": "On le chante debout, avec respect."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

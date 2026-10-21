@@ -1,0 +1,408 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 60,
+ "language": "fr",
+ "prerequisites": [
+  23,
+  48
+ ],
+ "skills": [
+  {
+   "id": "fi2-60",
+   "name": "Lecture suivie : un conte"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le conte contient du merveilleux et finit souvent par une leçon. Étapes : situation initiale, élément perturbateur, péripéties, situation finale.\n\nTexte : La calebasse de Ngono\nIl était une fois, dans un village de la forêt, une petite fille appelée Ngono. Sa grand-mère lui avait donné une calebasse magique : « Elle se remplit d’eau pour qui la partage », lui avait-elle dit. Une année, la sécheresse frappa le village et vida les puits. Ngono vit une vieille femme assoiffée. Elle lui tendit sa calebasse, et l’eau coula, fraîche. Alors Ngono alla de case en case. Plus elle donnait, plus la calebasse se remplissait. Le soir, tout le village avait bu. Depuis ce jour, on dit au village : « L’eau partagée ne tarit jamais. »\n(conte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelle est la situation initiale et quel est l’élément perturbateur du conte ?",
+  "steps": [
+   "Situation initiale : Ngono reçoit de sa grand-mère une calebasse magique.",
+   "Élément perturbateur : la sécheresse frappe le village."
+  ],
+  "answer": "Ngono a une calebasse magique ; puis la sécheresse frappe le village.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c60-1",
+    "status": "draft",
+    "idea": "Le conte commence par « Il était une fois » et contient du merveilleux.",
+    "vars": {},
+    "example": [
+     "Une calebasse magique."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-60-genre"
+    }
+   },
+   {
+    "id": "c60-2",
+    "status": "draft",
+    "idea": "Les étapes : situation initiale, élément perturbateur, péripéties, situation finale.",
+    "vars": {},
+    "example": [
+     "La sécheresse est l’élément perturbateur."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-60-etapes"
+    }
+   },
+   {
+    "id": "c60-3",
+    "status": "draft",
+    "idea": "La morale est la leçon du conte.",
+    "vars": {},
+    "example": [
+     "L’eau partagée ne tarit jamais."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-60-morale-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est la morale du conte ?",
+         "r": "L’eau partagée ne tarit jamais.",
+         "w": [
+          "Il faut garder l’eau pour soi.",
+          "Les vieilles femmes sont dangereuses.",
+          "Les calebasses se cassent vite."
+         ],
+         "e": [
+          "C’est le contraire.",
+          "Ce n’est pas dit.",
+          "Ce n’est pas la leçon."
+         ],
+         "y": "Partager fait grandir le bien."
+        },
+        {
+         "q": "que se passe-t-il quand Ngono donne de l’eau ?",
+         "r": "la calebasse se remplit encore plus",
+         "w": [
+          "la calebasse se vide",
+          "la calebasse se casse",
+          "il commence à neiger"
+         ],
+         "e": [
+          "C’est le contraire.",
+          "Ce n’est pas dit.",
+          "Ce n’est pas dit."
+         ],
+         "y": "« Plus elle donnait, plus la calebasse se remplissait »."
+        }
+       ]
+      }
+     },
+     "prompt": "Conte « La calebasse de Ngono » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-60-genre",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "par quelle formule commence le conte ?",
+       "r": "Il était une fois",
+       "w": [
+        "Cher ami",
+        "Mesdames et messieurs",
+        "Au revoir"
+       ],
+       "e": [
+        "C’est le début d’une lettre.",
+        "C’est le début d’un discours.",
+        "C’est une formule de fin."
+       ],
+       "y": "C’est la formule du conte."
+      },
+      {
+       "q": "quel élément est merveilleux ?",
+       "r": "la calebasse qui se remplit d’eau",
+       "w": [
+        "la sécheresse",
+        "la vieille femme",
+        "les puits vides"
+       ],
+       "e": [
+        "La sécheresse est réelle.",
+        "Elle est ordinaire.",
+        "C’est réaliste."
+       ],
+       "y": "Un objet magique."
+      }
+     ]
+    }
+   },
+   "prompt": "Conte « La calebasse de Ngono » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-60-etapes",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Ngono reçoit une calebasse magique.",
+       "La sécheresse frappe le village.",
+       "Ngono donne à boire à une vieille femme.",
+       "Elle va de case en case.",
+       "Tout le village a bu."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les étapes du conte dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-60-morale",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est la morale du conte ?",
+       "r": "L’eau partagée ne tarit jamais.",
+       "w": [
+        "Il faut garder l’eau pour soi.",
+        "Les vieilles femmes sont dangereuses.",
+        "Les calebasses se cassent vite."
+       ],
+       "e": [
+        "C’est le contraire.",
+        "Ce n’est pas dit.",
+        "Ce n’est pas la leçon."
+       ],
+       "y": "Partager fait grandir le bien."
+      },
+      {
+       "q": "que se passe-t-il quand Ngono donne de l’eau ?",
+       "r": "la calebasse se remplit encore plus",
+       "w": [
+        "la calebasse se vide",
+        "la calebasse se casse",
+        "il commence à neiger"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "Ce n’est pas dit.",
+        "Ce n’est pas dit."
+       ],
+       "y": "« Plus elle donnait, plus la calebasse se remplissait »."
+      }
+     ]
+    }
+   },
+   "prompt": "Conte « La calebasse de Ngono » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-60-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Quelle phrase ne correspond pas au conte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "La grand-mère donne la calebasse.",
+      "truth": "true"
+     },
+     {
+      "text": "La sécheresse vide les puits.",
+      "truth": "true"
+     },
+     {
+      "text": "Ngono partage l’eau.",
+      "truth": "true"
+     },
+     {
+      "text": "Le village a bu.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ngono garde l’eau pour elle seule.",
+      "truth": "false",
+      "explain": "Elle la partage avec tout le village."
+     },
+     {
+      "text": "La calebasse se vide quand on partage.",
+      "truth": "false",
+      "explain": "Elle se remplit quand on partage."
+     },
+     {
+      "text": "Le conte se passe dans une grande ville moderne.",
+      "truth": "false",
+      "explain": "Il se passe dans un village de la forêt."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

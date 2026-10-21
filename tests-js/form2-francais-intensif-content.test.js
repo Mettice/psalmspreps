@@ -1,5 +1,5 @@
-// Form 2 Français intensif, Batch FI2-1 content tests (Term 1, rows 1–25 and 27–51; integration row 26 is not
-// a lesson). Same rules as every subject, plus: every template is marked lang "fr".
+// Form 2 Français intensif, Batches FI2-1 and FI2-2 content tests (Term 1, rows 1–25 and 27–51; Term 2, rows 53–76 and 78–102; integration rows 26, 52, 77 and 103 are not
+// lessons). Same rules as every subject, plus: every template is marked lang "fr".
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -16,7 +16,7 @@ import * as french from "../src/engine/lib/french.js";
 import * as french2 from "../src/engine/lib/french2.js";
 import { subjectSuite } from "./subject-suite.js";
 
-const BATCH = [...Array.from({ length: 25 }, (_, i) => i + 1), ...Array.from({ length: 25 }, (_, i) => i + 27)];
+const BATCH = [...Array.from({ length: 25 }, (_, i) => i + 1), ...Array.from({ length: 25 }, (_, i) => i + 27), ...Array.from({ length: 24 }, (_, i) => i + 53), ...Array.from({ length: 25 }, (_, i) => i + 78)];
 subjectSuite({
   subject: "francais-intensif", dir: "form-2/francais-intensif", cls: "Form 2", spine: "form-2/francais-intensif", prefix: "fi2-", numbering: "seq",
   lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french, ...french2 },

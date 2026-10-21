@@ -1,0 +1,423 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 78,
+ "language": "fr",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "fi2-78",
+   "name": "La phrase composée"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une phrase simple a un seul verbe conjugué ; une phrase composée en a plusieurs. Chaque verbe conjugué forme une proposition.\nLes propositions peuvent être :\n• juxtaposées : séparées par une virgule, un point-virgule ou deux-points : « Il pleut, je reste à la maison. »\n• coordonnées : reliées par une conjonction de coordination (mais, ou, et, donc, or, ni, car) : « Il pleut, donc je reste à la maison. »\n• subordonnées : une proposition dépend d’une principale ; elle commence par un mot subordonnant (que, qui, quand, parce que, si, lorsque, pour que) : « Je reste à la maison parce qu’il pleut. »\nPour compter les propositions : on compte les verbes conjugués.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Combien de propositions y a-t-il dans « Le patron arrive, les ouvriers se lèvent et ils le saluent » ? Comment sont-elles reliées ?",
+  "steps": [
+   "Verbes conjugués : arrive, se lèvent, saluent : trois propositions.",
+   "Les deux premières sont juxtaposées (virgule) ; la troisième est coordonnée par « et »."
+  ],
+  "answer": "Trois propositions : juxtaposées puis coordonnées.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c78-1",
+    "status": "draft",
+    "idea": "Une phrase composée a plusieurs verbes conjugués, donc plusieurs propositions.",
+    "vars": {},
+    "example": [
+     "Il travaille et il chante."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-78-nombre"
+    }
+   },
+   {
+    "id": "c78-2",
+    "status": "draft",
+    "idea": "Juxtaposées : ponctuation ; coordonnées : mais, ou, et, donc, or, ni, car.",
+    "vars": {},
+    "example": [
+     "Il pleut ; je reste."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-78-type"
+    }
+   },
+   {
+    "id": "c78-3",
+    "status": "draft",
+    "idea": "Une subordonnée commence par que, qui, quand, parce que, si.",
+    "vars": {},
+    "example": [
+     "Je sais qu’il viendra."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-78-sub-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le patron est content ___ les ouvriers travaillent bien.",
+         "a": "parce que",
+         "w": [
+          "mais",
+          "ou"
+         ],
+         "e": [
+          "« mais » oppose.",
+          "« ou » marque un choix."
+         ]
+        },
+        {
+         "s": "Je crois ___ le marché ouvre à sept heures.",
+         "a": "que",
+         "w": [
+          "et",
+          "donc"
+         ],
+         "e": [
+          "Il faut un mot subordonnant.",
+          "Il faut un mot subordonnant."
+         ]
+        },
+        {
+         "s": "___ il fait beau, nous travaillons au champ.",
+         "a": "Quand",
+         "w": [
+          "Car",
+          "Ni"
+         ],
+         "e": [
+          "« car » ne commence pas une phrase ainsi.",
+          "« ni » demande une négation."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-78-nombre",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le vendeur sourit, il rend la monnaie.",
+       "n": 2,
+       "v": "sourit, rend"
+      },
+      {
+       "s": "Ma mère cuisine pendant que mon père lit.",
+       "n": 2,
+       "v": "cuisine, lit"
+      },
+      {
+       "s": "Le patron entre, salue les ouvriers et commence la réunion.",
+       "n": 3,
+       "v": "entre, salue, commence"
+      },
+      {
+       "s": "Les élèves écoutent le maître.",
+       "n": 1,
+       "v": "écoutent"
+      },
+      {
+       "s": "Il pleut, donc nous restons à la maison et nous jouons aux cartes.",
+       "n": 3,
+       "v": "pleut, restons, jouons"
+      }
+     ]
+    }
+   },
+   "prompt": "Combien de propositions y a-t-il dans : « {X.s} » ?",
+   "correct": "{X.n}",
+   "distractors": [
+    {
+     "text": "{X.n - 1}",
+     "misconception": "n"
+    },
+    {
+     "text": "{X.n + 1}",
+     "misconception": "n"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "n",
+     "explain": "Compte seulement les verbes conjugués : {X.v}."
+    }
+   ],
+   "solution": [
+    "On compte les verbes conjugués : {X.v}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 1,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-78-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il fait chaud ; nous buvons de l’eau.",
+       "a": "juxtaposées",
+       "w": [
+        "coordonnées",
+        "subordonnées"
+       ],
+       "y": "Un point-virgule les sépare."
+      },
+      {
+       "s": "Il fait chaud, mais il ne pleut pas.",
+       "a": "coordonnées",
+       "w": [
+        "juxtaposées",
+        "subordonnées"
+       ],
+       "y": "« mais » les relie."
+      },
+      {
+       "s": "Nous buvons de l’eau parce qu’il fait chaud.",
+       "a": "subordonnées",
+       "w": [
+        "juxtaposées",
+        "coordonnées"
+       ],
+       "y": "« parce que » introduit une subordonnée."
+      },
+      {
+       "s": "Le magasin ferme, les clients sortent.",
+       "a": "juxtaposées",
+       "w": [
+        "coordonnées",
+        "subordonnées"
+       ],
+       "y": "Une virgule les sépare."
+      },
+      {
+       "s": "Je pense que tu réussiras.",
+       "a": "subordonnées",
+       "w": [
+        "juxtaposées",
+        "coordonnées"
+       ],
+       "y": "« que » introduit une subordonnée."
+      }
+     ]
+    }
+   },
+   "prompt": "Comment les propositions sont-elles reliées dans : « {X.s} » ?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "type"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "type"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "type",
+     "explain": "Regarde ce qui relie les propositions : une ponctuation, une conjonction (mais, ou, et, donc, or, ni, car) ou un mot subordonnant (que, parce que, quand…)."
+    }
+   ],
+   "solution": [
+    "Juxtaposées : ponctuation ; coordonnées : conjonction de coordination ; subordonnées : mot subordonnant.",
+    "{X.y} Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-78-sub",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le patron est content ___ les ouvriers travaillent bien.",
+       "a": "parce que",
+       "w": [
+        "mais",
+        "ou"
+       ],
+       "e": [
+        "« mais » oppose.",
+        "« ou » marque un choix."
+       ]
+      },
+      {
+       "s": "Je crois ___ le marché ouvre à sept heures.",
+       "a": "que",
+       "w": [
+        "et",
+        "donc"
+       ],
+       "e": [
+        "Il faut un mot subordonnant.",
+        "Il faut un mot subordonnant."
+       ]
+      },
+      {
+       "s": "___ il fait beau, nous travaillons au champ.",
+       "a": "Quand",
+       "w": [
+        "Car",
+        "Ni"
+       ],
+       "e": [
+        "« car » ne commence pas une phrase ainsi.",
+        "« ni » demande une négation."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-78-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On compte les propositions par les verbes conjugués.",
+      "truth": "true"
+     },
+     {
+      "text": "« et » coordonne deux propositions.",
+      "truth": "true"
+     },
+     {
+      "text": "« parce que » introduit une subordonnée.",
+      "truth": "true"
+     },
+     {
+      "text": "La virgule peut juxtaposer deux propositions.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une phrase simple a trois verbes conjugués.",
+      "truth": "false",
+      "explain": "Elle n’en a qu’un."
+     },
+     {
+      "text": "« mais » introduit une subordonnée.",
+      "truth": "false",
+      "explain": "« mais » est une conjonction de coordination."
+     },
+     {
+      "text": "Dans « Il dort parce qu’il est fatigué », il y a une seule proposition.",
+      "truth": "false",
+      "explain": "Il y a deux verbes conjugués : deux propositions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

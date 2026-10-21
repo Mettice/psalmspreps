@@ -1,0 +1,387 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 54,
+ "language": "fr",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "fi2-54",
+   "name": "Le plus-que-parfait de l’indicatif"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le plus-que-parfait exprime une action passée qui s’est produite avant une autre action passée.\n« Quand je suis arrivé, le bus était déjà parti. » (le bus est parti avant mon arrivée)\nFormation : l’auxiliaire avoir ou être à l’imparfait + le participe passé.\n• avec avoir : j’avais mangé, tu avais fini, nous avions vu ;\n• avec être : j’étais parti(e), elle était venue, ils étaient arrivés (accord avec le sujet).\nOn choisit l’auxiliaire comme au passé composé : les verbes de mouvement (aller, venir, partir, arriver, tomber…) prennent être.\nMots fréquents : déjà, avant, la veille, quand, parce que.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "partir",
+   "p": 7
+  },
+  "problem": "Conjugue « {v} » au plus-que-parfait avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "« {v} » prend l’auxiliaire {fr2Aux(v)} ; on le met à l’imparfait.",
+   "Avec être, accord avec « elles » : {fr2PlusQueParfait(v, p)}."
+  ],
+  "answer": "{fr2PlusQueParfait(v, p)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c54-1",
+    "status": "draft",
+    "idea": "Plus-que-parfait = auxiliaire à l’imparfait + participe passé.",
+    "vars": {},
+    "example": [
+     "j’avais fini, elle était partie"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-54-form"
+    }
+   },
+   {
+    "id": "c54-2",
+    "status": "draft",
+    "idea": "Il marque une action passée qui a eu lieu avant une autre action passée.",
+    "vars": {},
+    "example": [
+     "Il avait plu avant notre arrivée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-54-emploi"
+    }
+   },
+   {
+    "id": "c54-3",
+    "status": "draft",
+    "idea": "Avec être, le participe s’accorde avec le sujet.",
+    "vars": {},
+    "example": [
+     "Elles étaient arrivées tôt."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-54-type-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Quand le maître est entré, ___ (nous, finir) l’exercice.",
+         "v": "finir",
+         "p": 4
+        },
+        {
+         "s": "Le bus ___ (il, partir) avant notre arrivée.",
+         "v": "partir",
+         "p": 2
+        },
+        {
+         "s": "Ma mère était fatiguée car ___ (elle, travailler) toute la journée.",
+         "v": "travailler",
+         "p": 3
+        },
+        {
+         "s": "Les invités étaient contents : ___ (elles, venir) de loin.",
+         "v": "venir",
+         "p": 7
+        },
+        {
+         "s": "Je n’avais plus faim : ___ (je, manger) avant.",
+         "v": "manger",
+         "p": 0
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le verbe au plus-que-parfait.",
+     "text": "{X.s}",
+     "answer": "fr2PlusQueParfait(X.v, X.p)",
+     "misconceptions": [
+      {
+       "id": "pc",
+       "wrong": "fr2PasseCompose(X.v, X.p)",
+       "explain": "Au plus-que-parfait, l’auxiliaire est à l’imparfait."
+      }
+     ],
+     "solution": [
+      "Auxiliaire {fr2Aux(X.v)} à l’imparfait + participe passé.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-54-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "manger",
+      "finir",
+      "partir",
+      "arriver",
+      "venir",
+      "aller",
+      "faire",
+      "prendre",
+      "voir",
+      "écrire",
+      "tomber",
+      "jouer"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au plus-que-parfait avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PlusQueParfait(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PasseCompose(v, p)}",
+     "misconception": "pc"
+    },
+    {
+     "text": "{fr2PlusQueParfait(v, (p + 4) % 8)}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2With(p, fr2Imparfait(v, p))}",
+     "misconception": "imp"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pc",
+     "explain": "C’est le passé composé : l’auxiliaire doit être à l’imparfait."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "imp",
+     "explain": "C’est l’imparfait simple ; il faut l’auxiliaire + le participe."
+    }
+   ],
+   "solution": [
+    "Auxiliaire {fr2Aux(v)} à l’imparfait + participe passé.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-54-emploi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Quand nous sommes arrivés, le film avait commencé », quelle action a eu lieu en premier ?",
+       "r": "le film a commencé",
+       "w": [
+        "nous sommes arrivés",
+        "les deux en même temps",
+        "aucune"
+       ],
+       "e": [
+        "Le plus-que-parfait marque l’action d’avant.",
+        "Le plus-que-parfait marque l’antériorité.",
+        "Les deux ont eu lieu."
+       ],
+       "y": "« avait commencé » est antérieur."
+      },
+      {
+       "q": "Quelle phrase contient un plus-que-parfait ?",
+       "r": "Elle avait déjà mangé quand je suis venu.",
+       "w": [
+        "Elle mange quand je viens.",
+        "Elle a mangé hier.",
+        "Elle mangera demain."
+       ],
+       "e": [
+        "C’est le présent.",
+        "C’est le passé composé.",
+        "C’est le futur."
+       ],
+       "y": "« avait mangé »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-54-type",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Quand le maître est entré, ___ (nous, finir) l’exercice.",
+       "v": "finir",
+       "p": 4
+      },
+      {
+       "s": "Le bus ___ (il, partir) avant notre arrivée.",
+       "v": "partir",
+       "p": 2
+      },
+      {
+       "s": "Ma mère était fatiguée car ___ (elle, travailler) toute la journée.",
+       "v": "travailler",
+       "p": 3
+      },
+      {
+       "s": "Les invités étaient contents : ___ (elles, venir) de loin.",
+       "v": "venir",
+       "p": 7
+      },
+      {
+       "s": "Je n’avais plus faim : ___ (je, manger) avant.",
+       "v": "manger",
+       "p": 0
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au plus-que-parfait.",
+   "text": "{X.s}",
+   "answer": "fr2PlusQueParfait(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "pc",
+     "wrong": "fr2PasseCompose(X.v, X.p)",
+     "explain": "Au plus-que-parfait, l’auxiliaire est à l’imparfait."
+    }
+   ],
+   "solution": [
+    "Auxiliaire {fr2Aux(X.v)} à l’imparfait + participe passé.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-54-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Nous avions fini avant midi.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle était partie la veille.",
+      "truth": "true"
+     },
+     {
+      "text": "Ils étaient arrivés en retard.",
+      "truth": "true"
+     },
+     {
+      "text": "J’avais vu ce film.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Elles avaient parties tôt.",
+      "truth": "false",
+      "explain": "« partir » prend être : elles étaient parties."
+     },
+     {
+      "text": "Il était mangé avant nous.",
+      "truth": "false",
+      "explain": "« manger » prend avoir : il avait mangé."
+     },
+     {
+      "text": "Nous avons fini quand tu étais arrivé avant.",
+      "truth": "false",
+      "explain": "L’action d’avant se met au plus-que-parfait : nous avions fini."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

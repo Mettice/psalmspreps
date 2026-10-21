@@ -1,0 +1,370 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 96,
+ "language": "fr",
+ "prerequisites": [
+  71,
+  81
+ ],
+ "skills": [
+  {
+   "id": "fi2-96",
+   "name": "Produire un texte à partir d’images : une affiche ou une annonce"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "À partir d’une image, on peut écrire différents textes : un récit, une description, une affiche ou une petite annonce.\nL’affiche : un titre accrocheur, un slogan court, l’essentiel en peu de mots (quoi ? quand ? où ? pour qui ?), une image qui attire.\nLa petite annonce (offre d’emploi, vente) : « L’entreprise X recrute un chauffeur. Conditions : permis de conduire, trois ans d’expérience. Contact : … »\nÉtapes : 1. observer l’image ; 2. choisir le type de texte et le destinataire ; 3. écrire un brouillon ; 4. relire et corriger ; 5. recopier proprement.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une image montre une boulangerie qui ouvre. Écris un slogan pour son affiche.",
+  "steps": [
+   "Le slogan doit être court et donner envie.",
+   "« Pain chaud, sourire en plus ! »"
+  ],
+  "answer": "« Pain chaud, sourire en plus ! »",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c96-1",
+    "status": "draft",
+    "idea": "Une affiche a un titre, un slogan et l’essentiel : quoi, quand, où, pour qui.",
+    "vars": {},
+    "example": [
+     "Grande ouverture samedi au carrefour !"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-96-affiche"
+    }
+   },
+   {
+    "id": "c96-2",
+    "status": "draft",
+    "idea": "Une petite annonce donne le poste, les conditions et le contact.",
+    "vars": {},
+    "example": [
+     "Recrute vendeuse ; contact : …"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-96-annonce"
+    }
+   },
+   {
+    "id": "c96-3",
+    "status": "draft",
+    "idea": "On écrit un brouillon, on relit, puis on recopie.",
+    "vars": {},
+    "example": [
+     "Vérifier les accords et la ponctuation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-96-etapes-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Observer l’image",
+         "Choisir le type de texte et le destinataire",
+         "Écrire un brouillon",
+         "Relire et corriger",
+         "Recopier proprement"
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets les étapes dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      },
+      {
+       "text": "{X[4]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-96-affiche",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle information doit figurer sur une affiche de fête ?",
+       "r": "la date et le lieu",
+       "w": [
+        "la taille des chaussures",
+        "l’âge du peintre",
+        "la couleur du ciel"
+       ],
+       "e": [
+        "Ce n’est pas utile.",
+        "Ce n’est pas utile.",
+        "Ce n’est pas utile."
+       ],
+       "y": "Quand ? Où ?"
+      },
+      {
+       "q": "Quel slogan convient pour une affiche contre les déchets ?",
+       "r": "Ville propre, ville en bonne santé !",
+       "w": [
+        "Il était une fois un roi.",
+        "Le marché ouvre à sept heures et ferme à dix-huit heures tous les jours sauf le dimanche.",
+        "Bonjour à tous."
+       ],
+       "e": [
+        "C’est un début de conte.",
+        "C’est trop long.",
+        "Ce n’est pas un slogan."
+       ],
+       "y": "Court et frappant."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-96-annonce",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle information manque dans l’annonce « Garage recrute mécanicien. Expérience : deux ans. » ?",
+       "r": "le contact (téléphone ou adresse)",
+       "w": [
+        "le métier",
+        "l’expérience",
+        "le mot « recrute »"
+       ],
+       "e": [
+        "Il est indiqué.",
+        "Elle est indiquée.",
+        "Il est indiqué."
+       ],
+       "y": "Il faut savoir qui appeler."
+      },
+      {
+       "q": "Dans une offre d’emploi, que sont « les conditions » ?",
+       "r": "ce qu’il faut avoir pour être choisi",
+       "w": [
+        "le prix du journal",
+        "la météo",
+        "le nom du lecteur"
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Diplôme, expérience, permis…"
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-96-etapes",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Observer l’image",
+       "Choisir le type de texte et le destinataire",
+       "Écrire un brouillon",
+       "Relire et corriger",
+       "Recopier proprement"
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les étapes dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-96-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Un slogan est court.",
+      "truth": "true"
+     },
+     {
+      "text": "Une affiche dit où et quand.",
+      "truth": "true"
+     },
+     {
+      "text": "Une annonce donne un contact.",
+      "truth": "true"
+     },
+     {
+      "text": "On relit avant de recopier.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une affiche doit contenir un très long texte.",
+      "truth": "false",
+      "explain": "Elle dit l’essentiel en peu de mots."
+     },
+     {
+      "text": "On recopie sans relire le brouillon.",
+      "truth": "false",
+      "explain": "On relit et on corrige d’abord."
+     },
+     {
+      "text": "Une offre d’emploi ne donne jamais de conditions.",
+      "truth": "false",
+      "explain": "Elle précise les conditions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

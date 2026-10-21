@@ -1,0 +1,397 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 93,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-93",
+   "name": "Le lexique des activités bancaires"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La banque est un établissement qui garde l’argent de ses clients, prête de l’argent et fait des paiements.\n• Ouvrir un compte (compte courant, compte d’épargne) ; le titulaire du compte ; le numéro de compte.\n• Faire un dépôt (verser de l’argent) ; faire un retrait (retirer de l’argent) ; un virement (transférer de l’argent d’un compte à un autre).\n• Le chèque, la carte bancaire, le guichet automatique (le distributeur), le code secret, le relevé de compte, le solde (l’argent qui reste sur le compte).\n• Le prêt (le crédit) : l’argent prêté ; l’intérêt : la somme payée en plus pour un prêt ; rembourser.\n• Au Cameroun, beaucoup utilisent aussi le mobile money et les tontines ; la BEAC émet le franc CFA.\nSécurité : ne jamais donner son code secret.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que veut dire « faire un virement » ?",
+  "steps": [
+   "« Virer » de l’argent, c’est le faire passer d’un compte à un autre.",
+   "Exemple : un patron fait un virement du salaire sur le compte de l’employé."
+  ],
+  "answer": "Transférer de l’argent d’un compte à un autre.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c93-1",
+    "status": "draft",
+    "idea": "La banque garde l’argent, prête et fait des paiements.",
+    "vars": {},
+    "example": [
+     "Ouvrir un compte d’épargne."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-93-banque"
+    }
+   },
+   {
+    "id": "c93-2",
+    "status": "draft",
+    "idea": "Dépôt : on verse ; retrait : on retire ; virement : on transfère.",
+    "vars": {},
+    "example": [
+     "Elle fait un dépôt de dix mille francs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-93-ops"
+    }
+   },
+   {
+    "id": "c93-3",
+    "status": "draft",
+    "idea": "Le prêt se rembourse avec des intérêts ; le code secret ne se donne jamais.",
+    "vars": {},
+    "example": [
+     "Le solde est ce qui reste sur le compte."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-93-pret-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Qu’est-ce que l’intérêt d’un prêt ?",
+         "r": "la somme payée en plus de l’argent prêté",
+         "w": [
+          "l’argent offert gratuitement",
+          "le code secret",
+          "le nom de la banque"
+         ],
+         "e": [
+          "Un prêt se rembourse.",
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens."
+         ],
+         "y": "Le prix du prêt."
+        },
+        {
+         "q": "Un message demande ton code secret de carte bancaire. Que fais-tu ?",
+         "r": "Je ne le donne jamais.",
+         "w": [
+          "Je le donne vite.",
+          "Je l’écris sur la carte.",
+          "Je le dis à tout le monde."
+         ],
+         "e": [
+          "C’est une arnaque.",
+          "C’est dangereux.",
+          "C’est dangereux."
+         ],
+         "y": "Le code est secret."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-93-banque",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que fait une banque ?",
+       "r": "elle garde l’argent, prête et fait des paiements",
+       "w": [
+        "elle soigne les malades",
+        "elle vend des légumes",
+        "elle construit des routes"
+       ],
+       "e": [
+        "C’est l’hôpital.",
+        "C’est le marché.",
+        "Ce sont les travaux publics."
+       ],
+       "y": "Son rôle est financier."
+      },
+      {
+       "q": "Quelle institution émet le franc CFA en Afrique centrale ?",
+       "r": "la BEAC",
+       "w": [
+        "la mairie",
+        "la CNPS",
+        "l’hôpital"
+       ],
+       "e": [
+        "Elle gère la commune.",
+        "C’est la sécurité sociale.",
+        "Elle soigne."
+       ],
+       "y": "La Banque des États de l’Afrique centrale."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-93-ops",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque opération à sa définition.",
+   "pool": [
+    {
+     "left": "un dépôt",
+     "right": "verser de l’argent sur son compte"
+    },
+    {
+     "left": "un retrait",
+     "right": "retirer de l’argent de son compte"
+    },
+    {
+     "left": "un virement",
+     "right": "transférer de l’argent vers un autre compte"
+    },
+    {
+     "left": "le solde",
+     "right": "l’argent qui reste sur le compte"
+    },
+    {
+     "left": "un prêt",
+     "right": "de l’argent prêté à rembourser"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-93-pret",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce que l’intérêt d’un prêt ?",
+       "r": "la somme payée en plus de l’argent prêté",
+       "w": [
+        "l’argent offert gratuitement",
+        "le code secret",
+        "le nom de la banque"
+       ],
+       "e": [
+        "Un prêt se rembourse.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Le prix du prêt."
+      },
+      {
+       "q": "Un message demande ton code secret de carte bancaire. Que fais-tu ?",
+       "r": "Je ne le donne jamais.",
+       "w": [
+        "Je le donne vite.",
+        "Je l’écris sur la carte.",
+        "Je le dis à tout le monde."
+       ],
+       "e": [
+        "C’est une arnaque.",
+        "C’est dangereux.",
+        "C’est dangereux."
+       ],
+       "y": "Le code est secret."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-93-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Un dépôt ajoute de l’argent.",
+      "truth": "true"
+     },
+     {
+      "text": "Un retrait enlève de l’argent.",
+      "truth": "true"
+     },
+     {
+      "text": "Le prêt se rembourse.",
+      "truth": "true"
+     },
+     {
+      "text": "Il ne faut jamais donner son code secret.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le solde est l’argent que la banque offre en cadeau.",
+      "truth": "false",
+      "explain": "C’est l’argent qui reste sur le compte."
+     },
+     {
+      "text": "Un virement est un retrait au guichet.",
+      "truth": "false",
+      "explain": "C’est un transfert d’un compte à un autre."
+     },
+     {
+      "text": "L’intérêt est payé par la banque à celui qui emprunte.",
+      "truth": "false",
+      "explain": "C’est l’emprunteur qui paie l’intérêt."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

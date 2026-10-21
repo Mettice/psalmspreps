@@ -1,0 +1,428 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 74,
+ "language": "fr",
+ "prerequisites": [
+  69
+ ],
+ "skills": [
+  {
+   "id": "fi2-74",
+   "name": "Le lexique des violences faites aux femmes et aux enfants"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une violence est un acte qui fait du mal à une personne, dans son corps ou dans son esprit.\n• Violences physiques : frapper, battre, blesser, maltraiter.\n• Violences verbales et psychologiques : insulter, humilier, menacer, crier, isoler.\n• Violences contre les droits de l’enfant : le travail des enfants, le mariage précoce (forcé), l’abandon, le refus de l’école.\n• Pratiques néfastes : les mutilations génitales féminines, le repassage des seins.\nMots utiles : une victime, un agresseur, maltraiter, protéger, dénoncer, porter plainte, les droits de l’enfant, l’égalité, le respect.\nUne victime ou un témoin peut en parler à un adulte de confiance, à un enseignant, à un travailleur social ou à la police.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un enfant de dix ans vend des beignets dans la rue au lieu d’aller à l’école. Quelle violence subit-il ?",
+  "steps": [
+   "Il travaille au lieu d’être à l’école.",
+   "C’est le travail des enfants, une violation de ses droits."
+  ],
+  "answer": "le travail des enfants",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c74-1",
+    "status": "draft",
+    "idea": "Les violences peuvent être physiques, verbales ou psychologiques.",
+    "vars": {},
+    "example": [
+     "Frapper, insulter, menacer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-74-type"
+    }
+   },
+   {
+    "id": "c74-2",
+    "status": "draft",
+    "idea": "Le travail des enfants et le mariage précoce violent les droits de l’enfant.",
+    "vars": {},
+    "example": [
+     "Tout enfant a le droit d’aller à l’école."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-74-droit"
+    }
+   },
+   {
+    "id": "c74-3",
+    "status": "draft",
+    "idea": "Une victime ou un témoin doit en parler à un adulte de confiance.",
+    "vars": {},
+    "example": [
+     "Dénoncer, porter plainte, protéger."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-74-aide-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Ton amie te dit que son oncle la frappe. Que fais-tu ?",
+         "r": "Je l’encourage à en parler à un adulte de confiance et je l’accompagne.",
+         "w": [
+          "Je garde le secret pour toujours.",
+          "Je me moque d’elle.",
+          "Je lui dis que c’est normal."
+         ],
+         "e": [
+          "Le silence laisse continuer la violence.",
+          "C’est cruel.",
+          "Ce n’est pas normal."
+         ],
+         "y": "Il faut protéger la victime."
+        },
+        {
+         "q": "Que veut dire « porter plainte » ?",
+         "r": "dénoncer une violence à la police ou à la justice",
+         "w": [
+          "porter un sac lourd",
+          "se plaindre du temps",
+          "pleurer seul"
+         ],
+         "e": [
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens."
+         ],
+         "y": "On demande justice."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-74-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Un homme frappe sa femme.",
+       "a": "une violence physique",
+       "w": [
+        "une violence verbale",
+        "une violence contre le droit à l’école"
+       ]
+      },
+      {
+       "s": "Un père insulte et humilie son fils devant tout le monde.",
+       "a": "une violence verbale et psychologique",
+       "w": [
+        "une violence physique",
+        "une violence contre le droit à l’école"
+       ]
+      },
+      {
+       "s": "Une fillette est retirée de l’école pour être mariée.",
+       "a": "une violence contre les droits de l’enfant",
+       "w": [
+        "une violence physique seulement",
+        "une violence verbale seulement"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Quel type de violence est-ce ? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "type"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "type"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "type",
+     "explain": "Demande-toi : est-ce le corps, les mots ou les droits qui sont touchés ?"
+    }
+   ],
+   "solution": [
+    "Physique : le corps ; verbale ou psychologique : les mots, la peur ; contre les droits : l’école, le travail, le mariage.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-74-droit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel est un droit de l’enfant ?",
+       "r": "aller à l’école",
+       "w": [
+        "travailler dans la rue",
+        "être marié jeune",
+        "être battu"
+       ],
+       "e": [
+        "C’est une violence.",
+        "C’est une violence.",
+        "C’est une violence."
+       ],
+       "y": "Le droit à l’éducation."
+      },
+      {
+       "q": "Que veut dire « une victime » ?",
+       "r": "la personne qui subit la violence",
+       "w": [
+        "la personne qui frappe",
+        "un policier",
+        "un juge"
+       ],
+       "e": [
+        "C’est l’agresseur.",
+        "Il protège.",
+        "Il juge."
+       ],
+       "y": "Elle subit le mal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-74-aide",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ton amie te dit que son oncle la frappe. Que fais-tu ?",
+       "r": "Je l’encourage à en parler à un adulte de confiance et je l’accompagne.",
+       "w": [
+        "Je garde le secret pour toujours.",
+        "Je me moque d’elle.",
+        "Je lui dis que c’est normal."
+       ],
+       "e": [
+        "Le silence laisse continuer la violence.",
+        "C’est cruel.",
+        "Ce n’est pas normal."
+       ],
+       "y": "Il faut protéger la victime."
+      },
+      {
+       "q": "Que veut dire « porter plainte » ?",
+       "r": "dénoncer une violence à la police ou à la justice",
+       "w": [
+        "porter un sac lourd",
+        "se plaindre du temps",
+        "pleurer seul"
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "On demande justice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-74-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Frapper est une violence physique.",
+      "truth": "true"
+     },
+     {
+      "text": "Insulter est une violence verbale.",
+      "truth": "true"
+     },
+     {
+      "text": "Le travail des enfants viole leurs droits.",
+      "truth": "true"
+     },
+     {
+      "text": "On peut parler à un adulte de confiance.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une victime doit toujours garder le silence.",
+      "truth": "false",
+      "explain": "Elle doit en parler pour être protégée."
+     },
+     {
+      "text": "Le mariage précoce protège les filles.",
+      "truth": "false",
+      "explain": "C’est une violence qui viole leurs droits."
+     },
+     {
+      "text": "Humilier un enfant n’est pas une violence.",
+      "truth": "false",
+      "explain": "C’est une violence psychologique."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

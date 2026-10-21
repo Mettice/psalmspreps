@@ -1,0 +1,460 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 58,
+ "language": "fr",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "fi2-58",
+   "name": "Lire un texte sur la vie citoyenne"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte : Le grand nettoyage\nLe samedi matin, le quartier Nkolbikok se réveille au son d’un sifflet. C’est le chef de quartier qui annonce l’investissement humain. Jeunes et vieux sortent avec des balais, des machettes et des brouettes. Les élèves du lycée débouchent les caniveaux ; les femmes balaient la place du marché ; les hommes coupent les hautes herbes près de l’école. À midi, la commune envoie un camion pour ramasser les ordures. Le maire passe saluer les habitants : « Un quartier propre, c’est un quartier en bonne santé. Bravo ! » Le soir, assis devant sa maison, le vieux Ateba sourit : « Quand chacun fait sa part, tout le monde y gagne. »\n(texte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que fait chaque groupe d’habitants pendant le nettoyage ?",
+  "steps": [
+   "Le texte cite les élèves, les femmes et les hommes.",
+   "Les élèves débouchent les caniveaux, les femmes balaient le marché, les hommes coupent les herbes."
+  ],
+  "answer": "Les élèves débouchent les caniveaux, les femmes balaient, les hommes coupent les herbes.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c58-1",
+    "status": "draft",
+    "idea": "On cherche dans le texte : qui ? quoi ? où ? quand ?",
+    "vars": {},
+    "example": [
+     "Quand ? Le samedi matin."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-58-comp"
+    }
+   },
+   {
+    "id": "c58-2",
+    "status": "draft",
+    "idea": "L’investissement humain est un travail bénévole fait ensemble pour la communauté.",
+    "vars": {},
+    "example": [
+     "On nettoie le quartier sans être payé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-58-mot"
+    }
+   },
+   {
+    "id": "c58-3",
+    "status": "draft",
+    "idea": "La morale : quand chacun fait sa part, tout le monde y gagne.",
+    "vars": {},
+    "example": [
+     "La solidarité rend le quartier propre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-58-idee-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est la morale du texte ?",
+         "r": "Quand chacun fait sa part, tout le monde y gagne.",
+         "w": [
+          "Il faut laisser le travail aux autres.",
+          "Le maire doit tout faire seul.",
+          "Les ordures ne sont pas dangereuses."
+         ],
+         "e": [
+          "C’est le contraire.",
+          "C’est le contraire.",
+          "Le maire dit le contraire."
+         ],
+         "y": "Le vieux Ateba le dit à la fin."
+        },
+        {
+         "q": "pourquoi le maire dit-il « Bravo » ?",
+         "r": "parce que le quartier est propre grâce aux habitants",
+         "w": [
+          "parce qu’il a gagné un match",
+          "parce que le marché est fermé",
+          "parce qu’il pleut"
+         ],
+         "e": [
+          "Ce n’est pas dans le texte.",
+          "Ce n’est pas dans le texte.",
+          "Ce n’est pas dans le texte."
+         ],
+         "y": "« Un quartier propre, c’est un quartier en bonne santé »."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « Le grand nettoyage » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-58-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel jour a lieu le nettoyage ?",
+       "r": "le samedi matin",
+       "w": [
+        "le lundi soir",
+        "le dimanche après-midi",
+        "un jour d’école"
+       ],
+       "e": [
+        "Le texte dit samedi matin.",
+        "Le texte dit samedi matin.",
+        "Le texte dit samedi matin."
+       ],
+       "y": "« Le samedi matin »."
+      },
+      {
+       "q": "qui annonce l’investissement humain ?",
+       "r": "le chef de quartier",
+       "w": [
+        "le maire",
+        "le directeur du lycée",
+        "le vieux Ateba"
+       ],
+       "e": [
+        "Le maire passe à midi.",
+        "Il n’est pas cité.",
+        "Il parle le soir."
+       ],
+       "y": "Avec un sifflet."
+      },
+      {
+       "q": "que fait la commune à midi ?",
+       "r": "elle envoie un camion pour ramasser les ordures",
+       "w": [
+        "elle ferme le marché",
+        "elle punit les habitants",
+        "elle construit une école"
+       ],
+       "e": [
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte."
+       ],
+       "y": "Le camion ramasse les ordures."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le grand nettoyage » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-58-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que veut dire « investissement humain » ?",
+       "r": "un travail bénévole fait ensemble pour la communauté",
+       "w": [
+        "un placement d’argent à la banque",
+        "un examen",
+        "une fête de mariage"
+       ],
+       "e": [
+        "Ici, ce n’est pas de l’argent.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Tout le monde travaille pour le quartier."
+      },
+      {
+       "q": "que veut dire « déboucher les caniveaux » ?",
+       "r": "enlever ce qui empêche l’eau de couler",
+       "w": [
+        "boucher les trous",
+        "construire une route",
+        "planter des arbres"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "L’eau peut couler à nouveau."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le grand nettoyage » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-58-idee",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est la morale du texte ?",
+       "r": "Quand chacun fait sa part, tout le monde y gagne.",
+       "w": [
+        "Il faut laisser le travail aux autres.",
+        "Le maire doit tout faire seul.",
+        "Les ordures ne sont pas dangereuses."
+       ],
+       "e": [
+        "C’est le contraire.",
+        "C’est le contraire.",
+        "Le maire dit le contraire."
+       ],
+       "y": "Le vieux Ateba le dit à la fin."
+      },
+      {
+       "q": "pourquoi le maire dit-il « Bravo » ?",
+       "r": "parce que le quartier est propre grâce aux habitants",
+       "w": [
+        "parce qu’il a gagné un match",
+        "parce que le marché est fermé",
+        "parce qu’il pleut"
+       ],
+       "e": [
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte."
+       ],
+       "y": "« Un quartier propre, c’est un quartier en bonne santé »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le grand nettoyage » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-58-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Quelle phrase ne correspond pas au texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Les élèves débouchent les caniveaux.",
+      "truth": "true"
+     },
+     {
+      "text": "Les femmes balaient la place du marché.",
+      "truth": "true"
+     },
+     {
+      "text": "Le maire salue les habitants.",
+      "truth": "true"
+     },
+     {
+      "text": "Un camion ramasse les ordures.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le nettoyage a lieu le lundi soir.",
+      "truth": "false",
+      "explain": "Il a lieu le samedi matin."
+     },
+     {
+      "text": "Les habitants sont payés pour nettoyer.",
+      "truth": "false",
+      "explain": "C’est un investissement humain, bénévole."
+     },
+     {
+      "text": "Le vieux Ateba refuse de participer.",
+      "truth": "false",
+      "explain": "Il félicite les habitants."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

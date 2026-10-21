@@ -1,0 +1,446 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 82,
+ "language": "fr",
+ "prerequisites": [
+  5,
+  57
+ ],
+ "skills": [
+  {
+   "id": "fi2-82",
+   "name": "Réciter un chant : « Le chant des bâtisseurs »"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un chant est un poème mis en musique ; il a souvent des couplets et un refrain (les vers qui reviennent après chaque couplet).\nPour bien chanter ou réciter : apprendre couplet par couplet, articuler, respecter le rythme, chanter le refrain avec énergie, regarder le public.\n\nChant : Le chant des bâtisseurs\nUne brique, puis une autre,\nLe maçon chante au soleil ;\nLa maison sera la nôtre,\nIl travaille sans sommeil.\n\nRefrain : Main dans la main, frères, chantons !\nLe travail bâtit la nation !\n\nLe menuisier rabote et cloue,\nLa couturière coud sans fin ;\nChacun apporte son atout,\nPour le pays et pour demain.\n(chant original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel est le refrain de ce chant et quelle idée exprime-t-il ?",
+  "steps": [
+   "Le refrain est la partie qui revient : « Main dans la main, frères, chantons ! Le travail bâtit la nation ! »",
+   "Il dit que le travail de chacun construit le pays."
+  ],
+  "answer": "« Main dans la main, frères, chantons ! Le travail bâtit la nation ! » : le travail construit le pays.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c82-1",
+    "status": "draft",
+    "idea": "Un chant a des couplets et un refrain qui revient.",
+    "vars": {},
+    "example": [
+     "Le refrain se chante après chaque couplet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-82-forme"
+    }
+   },
+   {
+    "id": "c82-2",
+    "status": "draft",
+    "idea": "Les rimes : autre / nôtre, soleil / sommeil.",
+    "vars": {},
+    "example": [
+     "cloue / atout"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-82-rime"
+    }
+   },
+   {
+    "id": "c82-3",
+    "status": "draft",
+    "idea": "Le chant célèbre les métiers et le travail pour la nation.",
+    "vars": {},
+    "example": [
+     "le maçon, le menuisier, la couturière"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-82-sens-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quels métiers sont cités ?",
+         "r": "le maçon, le menuisier et la couturière",
+         "w": [
+          "le médecin et le juge",
+          "le pêcheur et le chasseur",
+          "le pilote et le marin"
+         ],
+         "e": [
+          "Ils ne sont pas cités.",
+          "Ils ne sont pas cités.",
+          "Ils ne sont pas cités."
+         ],
+         "y": "Ce sont les bâtisseurs du chant."
+        },
+        {
+         "q": "quel est le message du chant ?",
+         "r": "Le travail de chacun construit le pays.",
+         "w": [
+          "Il faut dormir longtemps.",
+          "Le travail est inutile.",
+          "Il faut travailler seul."
+         ],
+         "e": [
+          "Ce n’est pas le message.",
+          "C’est le contraire.",
+          "« Main dans la main » dit le contraire."
+         ],
+         "y": "« Le travail bâtit la nation »."
+        }
+       ]
+      }
+     },
+     "prompt": "Chant « Le chant des bâtisseurs » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-82-forme",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "comment appelle-t-on les vers qui reviennent ?",
+       "r": "le refrain",
+       "w": [
+        "le titre",
+        "la rime",
+        "le couplet"
+       ],
+       "e": [
+        "Le titre est au début.",
+        "La rime est un son.",
+        "Le couplet change."
+       ],
+       "y": "Le refrain revient."
+      },
+      {
+       "q": "combien de couplets compte le chant ?",
+       "r": "deux",
+       "w": [
+        "un",
+        "quatre",
+        "dix"
+       ],
+       "e": [
+        "Il y en a deux.",
+        "Il y en a deux.",
+        "Il y en a deux."
+       ],
+       "y": "Deux couplets et un refrain."
+      }
+     ]
+    }
+   },
+   "prompt": "Chant « Le chant des bâtisseurs » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-82-rime",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel mot rime avec « soleil » ?",
+       "r": "sommeil",
+       "w": [
+        "nôtre",
+        "fin",
+        "nation"
+       ],
+       "e": [
+        "Il rime avec « autre ».",
+        "Il rime avec « demain ».",
+        "Il rime avec « chantons »."
+       ],
+       "y": "soleil / sommeil."
+      },
+      {
+       "q": "quel mot rime avec « fin » ?",
+       "r": "demain",
+       "w": [
+        "cloue",
+        "autre",
+        "soleil"
+       ],
+       "e": [
+        "Il rime avec « atout ».",
+        "Il rime avec « nôtre ».",
+        "Il rime avec « sommeil »."
+       ],
+       "y": "fin / demain."
+      }
+     ]
+    }
+   },
+   "prompt": "Chant « Le chant des bâtisseurs » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-82-sens",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quels métiers sont cités ?",
+       "r": "le maçon, le menuisier et la couturière",
+       "w": [
+        "le médecin et le juge",
+        "le pêcheur et le chasseur",
+        "le pilote et le marin"
+       ],
+       "e": [
+        "Ils ne sont pas cités.",
+        "Ils ne sont pas cités.",
+        "Ils ne sont pas cités."
+       ],
+       "y": "Ce sont les bâtisseurs du chant."
+      },
+      {
+       "q": "quel est le message du chant ?",
+       "r": "Le travail de chacun construit le pays.",
+       "w": [
+        "Il faut dormir longtemps.",
+        "Le travail est inutile.",
+        "Il faut travailler seul."
+       ],
+       "e": [
+        "Ce n’est pas le message.",
+        "C’est le contraire.",
+        "« Main dans la main » dit le contraire."
+       ],
+       "y": "« Le travail bâtit la nation »."
+      }
+     ]
+    }
+   },
+   "prompt": "Chant « Le chant des bâtisseurs » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-82-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Quelle phrase sur le chant est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le chant a un refrain.",
+      "truth": "true"
+     },
+     {
+      "text": "Le maçon chante au soleil.",
+      "truth": "true"
+     },
+     {
+      "text": "La couturière coud.",
+      "truth": "true"
+     },
+     {
+      "text": "Le chant parle du travail.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le chant dit que le travail est inutile.",
+      "truth": "false",
+      "explain": "Il dit que le travail bâtit la nation."
+     },
+     {
+      "text": "Le refrain ne revient jamais.",
+      "truth": "false",
+      "explain": "Il revient après chaque couplet."
+     },
+     {
+      "text": "« soleil » rime avec « nation ».",
+      "truth": "false",
+      "explain": "« soleil » rime avec « sommeil »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

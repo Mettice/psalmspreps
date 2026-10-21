@@ -1,0 +1,445 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 55,
+ "language": "fr",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "fi2-55",
+   "name": "La liaison"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La liaison consiste à prononcer la consonne finale muette d’un mot devant un mot qui commence par une voyelle ou un h muet.\nSons de liaison : s, x, z → [z] : les‿enfants, deux‿amis, chez‿eux ; t, d → [t] : petit‿homme, quand‿il ; n → [n] : un‿ami, on‿a ; r → [r] : premier‿étage.\nLiaisons obligatoires : déterminant + nom (les‿élèves), pronom + verbe (ils‿ont, nous‿avons), adjectif + nom (grands‿arbres), après est, très, quand, dans, chez.\nLiaisons interdites : après « et » (et / il), devant un h aspiré (les / héros, les / haricots), après un nom singulier (un enfant / intelligent).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Où fait-on la liaison dans « les enfants et eux » ?",
+  "steps": [
+   "« les » + « enfants » : déterminant + nom, liaison obligatoire en [z].",
+   "« et » + « eux » : jamais de liaison après « et »."
+  ],
+  "answer": "les‿enfants (liaison) ; et / eux (pas de liaison).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c55-1",
+    "status": "draft",
+    "idea": "La liaison fait entendre une consonne muette devant une voyelle.",
+    "vars": {},
+    "example": [
+     "les‿amis [z], un‿ami [n]"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-55-quoi"
+    }
+   },
+   {
+    "id": "c55-2",
+    "status": "draft",
+    "idea": "Liaisons obligatoires : déterminant + nom, pronom + verbe.",
+    "vars": {},
+    "example": [
+     "nous‿avons, ces‿écoles"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-55-oblig"
+    }
+   },
+   {
+    "id": "c55-3",
+    "status": "draft",
+    "idea": "Liaisons interdites : après « et », devant un h aspiré.",
+    "vars": {},
+    "example": [
+     "les / héros, et / alors"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-55-interdit-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans quel groupe ne faut-il pas faire la liaison ?",
+         "r": "les héros",
+         "w": [
+          "les hommes",
+          "les amis",
+          "nous avons"
+         ],
+         "e": [
+          "Le h est muet : liaison.",
+          "Liaison obligatoire.",
+          "Liaison obligatoire."
+         ],
+         "y": "Le h de « héros » est aspiré."
+        },
+        {
+         "q": "Dans quel groupe ne faut-il pas faire la liaison ?",
+         "r": "toi et elle",
+         "w": [
+          "chez eux",
+          "très aimable",
+          "un ami"
+         ],
+         "e": [
+          "Liaison après « chez ».",
+          "Liaison après « très ».",
+          "Liaison déterminant + nom."
+         ],
+         "y": "Jamais de liaison après « et »."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-55-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel son entend-on dans la liaison « deux‿amis » ?",
+       "r": "[z]",
+       "w": [
+        "[t]",
+        "[n]",
+        "[s]"
+       ],
+       "e": [
+        "Le x se prononce [z].",
+        "Le x se prononce [z].",
+        "En liaison, s et x se prononcent [z]."
+       ],
+       "y": "deux‿amis [z]."
+      },
+      {
+       "q": "Quel son entend-on dans la liaison « quand‿il » ?",
+       "r": "[t]",
+       "w": [
+        "[d]",
+        "[z]",
+        "[n]"
+       ],
+       "e": [
+        "Le d se prononce [t] en liaison.",
+        "Ce n’est pas un s.",
+        "Ce n’est pas un n."
+       ],
+       "y": "quand‿il [t]."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-55-oblig",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel groupe la liaison est-elle obligatoire ?",
+       "r": "les élèves",
+       "w": [
+        "et ils",
+        "les héros",
+        "un enfant intelligent"
+       ],
+       "e": [
+        "Jamais après « et ».",
+        "Le h est aspiré.",
+        "Pas après un nom singulier."
+       ],
+       "y": "Déterminant + nom."
+      },
+      {
+       "q": "Dans quel groupe la liaison est-elle obligatoire ?",
+       "r": "ils ont",
+       "w": [
+        "et eux",
+        "les haricots",
+        "Paul arrive"
+       ],
+       "e": [
+        "Jamais après « et ».",
+        "Le h est aspiré.",
+        "Pas de consonne finale prononcée."
+       ],
+       "y": "Pronom + verbe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-55-interdit",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel groupe ne faut-il pas faire la liaison ?",
+       "r": "les héros",
+       "w": [
+        "les hommes",
+        "les amis",
+        "nous avons"
+       ],
+       "e": [
+        "Le h est muet : liaison.",
+        "Liaison obligatoire.",
+        "Liaison obligatoire."
+       ],
+       "y": "Le h de « héros » est aspiré."
+      },
+      {
+       "q": "Dans quel groupe ne faut-il pas faire la liaison ?",
+       "r": "toi et elle",
+       "w": [
+        "chez eux",
+        "très aimable",
+        "un ami"
+       ],
+       "e": [
+        "Liaison après « chez ».",
+        "Liaison après « très ».",
+        "Liaison déterminant + nom."
+       ],
+       "y": "Jamais de liaison après « et »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-55-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle liaison est fautive ?",
+   "pool": {
+    "right": [
+     {
+      "text": "les‿enfants",
+      "truth": "true"
+     },
+     {
+      "text": "nous‿avons",
+      "truth": "true"
+     },
+     {
+      "text": "un‿ami",
+      "truth": "true"
+     },
+     {
+      "text": "chez‿eux",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "les‿haricots",
+      "truth": "false",
+      "explain": "« haricot » a un h aspiré : pas de liaison."
+     },
+     {
+      "text": "et‿alors",
+      "truth": "false",
+      "explain": "Jamais de liaison après « et »."
+     },
+     {
+      "text": "les‿héros",
+      "truth": "false",
+      "explain": "« héros » a un h aspiré : pas de liaison."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

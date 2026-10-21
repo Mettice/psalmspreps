@@ -1,0 +1,364 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 95,
+ "language": "fr",
+ "prerequisites": [
+  66
+ ],
+ "skills": [
+  {
+   "id": "fi2-95",
+   "name": "La narration : raconter une journée de travail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour raconter une journée de travail (la sienne ou celle d’un proche) :\n• Situation initiale : qui ? où ? quand ? « Samedi dernier, j’ai accompagné mon père à son garage. »\n• Déroulement : les actions dans l’ordre chronologique, avec des repères de temps : le matin, à midi, l’après-midi, le soir, d’abord, ensuite, puis, enfin.\n• Un événement imprévu (élément perturbateur) peut rendre le récit vivant : « Soudain, un client est arrivé avec une voiture en panne. »\n• Situation finale et impression : « J’étais fatigué mais fier. »\nTemps : le passé composé (récit oral, lettre) ou le passé simple (récit écrit), avec l’imparfait pour les descriptions. Il faut garder le même temps de récit du début à la fin.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris le début d’un récit sur une journée au marché avec ta mère.",
+  "steps": [
+   "On donne le moment, le lieu et les personnages.",
+   "« Dimanche dernier, de bon matin, j’ai accompagné ma mère au marché de Mbouda pour vendre des légumes. »"
+  ],
+  "answer": "Dimanche dernier, de bon matin, j’ai accompagné ma mère au marché de Mbouda pour vendre des légumes.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c95-1",
+    "status": "draft",
+    "idea": "On raconte dans l’ordre chronologique avec des repères de temps.",
+    "vars": {},
+    "example": [
+     "Le matin, à midi, le soir."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-95-temps"
+    }
+   },
+   {
+    "id": "c95-2",
+    "status": "draft",
+    "idea": "Un événement imprévu rend le récit vivant.",
+    "vars": {},
+    "example": [
+     "Soudain, l’orage éclata."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-95-imprevu"
+    }
+   },
+   {
+    "id": "c95-3",
+    "status": "draft",
+    "idea": "On garde le même temps de récit du début à la fin.",
+    "vars": {},
+    "example": [
+     "Passé composé ou passé simple, mais pas les deux mélangés."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-95-ordre-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Samedi dernier, j’ai accompagné mon père à son garage.",
+         "D’abord, nous avons rangé les outils.",
+         "Ensuite, il m’a montré comment changer une roue.",
+         "Soudain, un client est arrivé avec une voiture en panne.",
+         "Le soir, j’étais fatigué mais fier."
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets le récit dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      },
+      {
+       "text": "{X[4]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-95-temps",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___, nous avons ouvert la boutique à sept heures.",
+       "a": "Le matin",
+       "w": [
+        "Le soir",
+        "Hier soir tard"
+       ],
+       "e": [
+        "On ouvre au début de la journée.",
+        "Ce n’est pas cohérent avec sept heures du matin."
+       ]
+      },
+      {
+       "s": "___, nous avons mangé un plat de riz.",
+       "a": "À midi",
+       "w": [
+        "À l’aube",
+        "Avant de nous lever"
+       ],
+       "e": [
+        "Le repas est au milieu de la journée.",
+        "Ce n’est pas logique."
+       ]
+      },
+      {
+       "s": "___, nous avons fermé la boutique, fatigués mais contents.",
+       "a": "Le soir",
+       "w": [
+        "Le matin",
+        "D’abord"
+       ],
+       "e": [
+        "On ferme à la fin de la journée.",
+        "« D’abord » commence."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le repère de temps qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-95-imprevu",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase introduit un événement imprévu ?",
+       "r": "Soudain, un client est arrivé avec une voiture en panne.",
+       "w": [
+        "Le matin, nous sommes arrivés au garage.",
+        "Le soir, nous sommes rentrés.",
+        "Mon père est mécanicien."
+       ],
+       "e": [
+        "C’est la situation initiale.",
+        "C’est la fin.",
+        "C’est une présentation."
+       ],
+       "y": "« Soudain » marque l’imprévu."
+      },
+      {
+       "q": "Quel mot introduit souvent l’élément perturbateur ?",
+       "r": "soudain",
+       "w": [
+        "enfin",
+        "d’abord",
+        "finalement"
+       ],
+       "e": [
+        "Il termine.",
+        "Il commence une liste.",
+        "Il termine."
+       ],
+       "y": "« Soudain » marque un changement brusque."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-95-ordre",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Samedi dernier, j’ai accompagné mon père à son garage.",
+       "D’abord, nous avons rangé les outils.",
+       "Ensuite, il m’a montré comment changer une roue.",
+       "Soudain, un client est arrivé avec une voiture en panne.",
+       "Le soir, j’étais fatigué mais fier."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le récit dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-95-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour raconter est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On raconte dans l’ordre chronologique.",
+      "truth": "true"
+     },
+     {
+      "text": "On utilise des repères de temps.",
+      "truth": "true"
+     },
+     {
+      "text": "Un imprévu rend le récit vivant.",
+      "truth": "true"
+     },
+     {
+      "text": "On termine par une impression.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On mélange le passé simple et le passé composé dans chaque phrase.",
+      "truth": "false",
+      "explain": "On garde le même temps de récit."
+     },
+     {
+      "text": "On raconte la fin avant le début sans raison.",
+      "truth": "false",
+      "explain": "On suit l’ordre chronologique."
+     },
+     {
+      "text": "On ne dit jamais où se passe l’histoire.",
+      "truth": "false",
+      "explain": "La situation initiale dit où et quand."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

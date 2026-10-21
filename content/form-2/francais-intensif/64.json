@@ -1,0 +1,351 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 64,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-64",
+   "name": "Le lexique des cultures d’ailleurs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La culture est l’ensemble des façons de vivre d’un peuple : sa langue, ses croyances, ses coutumes, ses fêtes, sa cuisine, ses vêtements, sa musique.\nMots utiles : une coutume, une tradition, un rite, une fête, le folklore, le patrimoine, la diversité, la tolérance, le respect, l’échange culturel, un étranger, un touriste, le dépaysement.\nExemples de cultures d’ailleurs : le kimono du Japon, le carnaval du Brésil, le Nouvel An chinois, le fado du Portugal, la pizza d’Italie.\nLe Cameroun est une « Afrique en miniature » : plus de 250 langues et de nombreuses fêtes (le Ngondo des Sawa, le Nyem-Nyem, le Ngouon des Bamoun).\nDécouvrir d’autres cultures, c’est s’ouvrir au monde : on apprend à respecter les différences (la tolérance) et à rejeter le racisme.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que veut dire « la tolérance » ? Donne un exemple.",
+  "steps": [
+   "La tolérance, c’est accepter et respecter les idées et les coutumes différentes des siennes.",
+   "Exemple : respecter un camarade qui ne mange pas de porc pour sa religion."
+  ],
+  "answer": "Accepter et respecter les différences, par exemple les habitudes alimentaires d’un camarade.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c64-1",
+    "status": "draft",
+    "idea": "La culture comprend la langue, les croyances, les coutumes, les fêtes et la cuisine d’un peuple.",
+    "vars": {},
+    "example": [
+     "Le Ngondo est une fête des Sawa."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-64-culture"
+    }
+   },
+   {
+    "id": "c64-2",
+    "status": "draft",
+    "idea": "La tolérance est le respect des différences.",
+    "vars": {},
+    "example": [
+     "Respecter la religion des autres."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-64-tol"
+    }
+   },
+   {
+    "id": "c64-3",
+    "status": "draft",
+    "idea": "Chaque pays a ses traditions : le carnaval du Brésil, le Nouvel An chinois.",
+    "vars": {},
+    "example": [
+     "Le kimono est un vêtement japonais."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-64-ailleurs-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "prompt": "Associe chaque élément culturel à son pays.",
+     "pool": [
+      {
+       "left": "le kimono",
+       "right": "le Japon"
+      },
+      {
+       "left": "le carnaval de Rio",
+       "right": "le Brésil"
+      },
+      {
+       "left": "la pizza",
+       "right": "l’Italie"
+      },
+      {
+       "left": "le Ngondo",
+       "right": "le Cameroun"
+      },
+      {
+       "left": "le fado",
+       "right": "le Portugal"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-64-culture",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce que la culture d’un peuple ?",
+       "r": "l’ensemble de ses façons de vivre : langue, croyances, fêtes, cuisine",
+       "w": [
+        "seulement ses champs",
+        "seulement son argent",
+        "seulement son climat"
+       ],
+       "e": [
+        "C’est plus large.",
+        "C’est plus large.",
+        "Le climat n’est pas la culture."
+       ],
+       "y": "La culture est la façon de vivre."
+      },
+      {
+       "q": "Quelle fête est une fête traditionnelle du Cameroun ?",
+       "r": "le Ngondo",
+       "w": [
+        "le carnaval de Rio",
+        "le Nouvel An chinois",
+        "Halloween"
+       ],
+       "e": [
+        "C’est au Brésil.",
+        "C’est en Chine.",
+        "C’est surtout aux États-Unis."
+       ],
+       "y": "Le Ngondo est la fête des Sawa."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-64-tol",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que veut dire « la tolérance » ?",
+       "r": "le respect des différences",
+       "w": [
+        "le rejet des étrangers",
+        "la peur des autres",
+        "l’oubli de sa culture"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "C’est le contraire.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Accepter les autres."
+      },
+      {
+       "q": "Quelle attitude montre la tolérance ?",
+       "r": "goûter avec respect un plat étranger",
+       "w": [
+        "se moquer de l’accent d’un camarade",
+        "refuser de parler à un étranger",
+        "insulter une autre religion"
+       ],
+       "e": [
+        "C’est de l’intolérance.",
+        "C’est du rejet.",
+        "C’est de l’intolérance."
+       ],
+       "y": "On respecte et on découvre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-64-ailleurs",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque élément culturel à son pays.",
+   "pool": [
+    {
+     "left": "le kimono",
+     "right": "le Japon"
+    },
+    {
+     "left": "le carnaval de Rio",
+     "right": "le Brésil"
+    },
+    {
+     "left": "la pizza",
+     "right": "l’Italie"
+    },
+    {
+     "left": "le Ngondo",
+     "right": "le Cameroun"
+    },
+    {
+     "left": "le fado",
+     "right": "le Portugal"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-64-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "La culture comprend la langue et les fêtes.",
+      "truth": "true"
+     },
+     {
+      "text": "Le Cameroun a plus de deux cents langues.",
+      "truth": "true"
+     },
+     {
+      "text": "La tolérance est le respect des différences.",
+      "truth": "true"
+     },
+     {
+      "text": "Découvrir d’autres cultures ouvre l’esprit.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La tolérance veut dire se moquer des autres.",
+      "truth": "false",
+      "explain": "Elle veut dire respecter les différences."
+     },
+     {
+      "text": "Le Ngondo est une fête du Japon.",
+      "truth": "false",
+      "explain": "C’est une fête des Sawa au Cameroun."
+     },
+     {
+      "text": "Une seule culture est bonne ; les autres sont mauvaises.",
+      "truth": "false",
+      "explain": "Toutes les cultures méritent le respect."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

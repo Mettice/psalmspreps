@@ -1,0 +1,427 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 99,
+ "language": "fr",
+ "prerequisites": [
+  49
+ ],
+ "skills": [
+  {
+   "id": "fi2-99",
+   "name": "La technique de la lecture expressive"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Lire de façon expressive, c’est lire à haute voix en faisant comprendre et ressentir le texte.\nLes techniques :\n• l’articulation : prononcer chaque syllabe clairement ;\n• le volume : assez fort pour être entendu ;\n• le rythme : ni trop vite ni trop lentement ; marquer une petite pause à la virgule et une plus longue au point ;\n• l’intonation : la voix monte à la fin d’une question (?), elle exprime la surprise ou la joie dans une exclamation (!) ;\n• le ton : joyeux, triste, en colère, inquiet, selon les sentiments des personnages ;\n• le regard : lever les yeux vers le public de temps en temps.\nIl faut d’abord lire le texte en silence pour le comprendre.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Comment lire la phrase « Grand-père, n’y va pas ! » ?",
+  "steps": [
+   "Le point d’exclamation et le sens montrent la peur et la supplication.",
+   "On lit avec un ton inquiet et suppliant, un peu plus fort."
+  ],
+  "answer": "Avec un ton inquiet et suppliant, en insistant sur l’exclamation.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c99-1",
+    "status": "draft",
+    "idea": "Lire de façon expressive : articuler, parler assez fort, garder un bon rythme.",
+    "vars": {},
+    "example": [
+     "Prononcer chaque syllabe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-99-tech"
+    }
+   },
+   {
+    "id": "c99-2",
+    "status": "draft",
+    "idea": "On fait une pause à la virgule et une pause plus longue au point.",
+    "vars": {},
+    "example": [
+     "La voix monte à la question."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-99-ponct"
+    }
+   },
+   {
+    "id": "c99-3",
+    "status": "draft",
+    "idea": "Le ton change selon les sentiments : joie, tristesse, colère, peur.",
+    "vars": {},
+    "example": [
+     "« Hourra, nous avons gagné ! » : ton joyeux."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-99-ton-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Hourra ! Nous avons gagné la coupe !",
+         "a": "joyeux",
+         "w": [
+          "triste",
+          "endormi"
+         ]
+        },
+        {
+         "s": "Mon chien est mort ce matin…",
+         "a": "triste",
+         "w": [
+          "joyeux",
+          "moqueur"
+         ]
+        },
+        {
+         "s": "Sortez immédiatement de ma boutique !",
+         "a": "en colère",
+         "w": [
+          "tendre",
+          "joyeux"
+         ]
+        },
+        {
+         "s": "Où est passé mon petit frère ? Je ne le trouve plus !",
+         "a": "inquiet",
+         "w": [
+          "joyeux",
+          "calme et endormi"
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Quel ton convient pour lire : « {X.s} » ?",
+     "correct": "{X.a}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "ton"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "ton"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "ton",
+       "explain": "Regarde le sentiment : joie, tristesse, colère ou peur ?"
+      }
+     ],
+     "solution": [
+      "Le ton dépend du sentiment exprimé.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-99-tech",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que faut-il faire avant de lire un texte à haute voix ?",
+       "r": "le lire en silence pour le comprendre",
+       "w": [
+        "le lire très vite",
+        "le lire sans regarder",
+        "ne rien faire"
+       ],
+       "e": [
+        "La vitesse empêche la compréhension.",
+        "Il faut le comprendre.",
+        "Il faut le préparer."
+       ],
+       "y": "On comprend avant de lire."
+      },
+      {
+       "q": "Que veut dire « articuler » ?",
+       "r": "prononcer chaque syllabe clairement",
+       "w": [
+        "parler très vite",
+        "chuchoter",
+        "crier"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "On n’entendrait pas.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Chaque son est clair."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-99-ponct",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment la voix change-t-elle à la fin d’une question ?",
+       "r": "elle monte",
+       "w": [
+        "elle descend toujours",
+        "elle s’arrête au milieu du mot",
+        "elle reste plate"
+       ],
+       "e": [
+        "C’est pour l’affirmation.",
+        "Ce n’est pas le cas.",
+        "La question change l’intonation."
+       ],
+       "y": "L’intonation montante."
+      },
+      {
+       "q": "Où fait-on la pause la plus longue ?",
+       "r": "au point",
+       "w": [
+        "à la virgule",
+        "au milieu d’un mot",
+        "après chaque lettre"
+       ],
+       "e": [
+        "La pause est plus courte.",
+        "On ne coupe pas les mots.",
+        "Ce n’est pas le cas."
+       ],
+       "y": "Le point termine la phrase."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-99-ton",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Hourra ! Nous avons gagné la coupe !",
+       "a": "joyeux",
+       "w": [
+        "triste",
+        "endormi"
+       ]
+      },
+      {
+       "s": "Mon chien est mort ce matin…",
+       "a": "triste",
+       "w": [
+        "joyeux",
+        "moqueur"
+       ]
+      },
+      {
+       "s": "Sortez immédiatement de ma boutique !",
+       "a": "en colère",
+       "w": [
+        "tendre",
+        "joyeux"
+       ]
+      },
+      {
+       "s": "Où est passé mon petit frère ? Je ne le trouve plus !",
+       "a": "inquiet",
+       "w": [
+        "joyeux",
+        "calme et endormi"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Quel ton convient pour lire : « {X.s} » ?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "ton"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "ton"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ton",
+     "explain": "Regarde le sentiment : joie, tristesse, colère ou peur ?"
+    }
+   ],
+   "solution": [
+    "Le ton dépend du sentiment exprimé.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-99-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil de lecture expressive est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On articule.",
+      "truth": "true"
+     },
+     {
+      "text": "On fait des pauses aux points.",
+      "truth": "true"
+     },
+     {
+      "text": "On adapte le ton.",
+      "truth": "true"
+     },
+     {
+      "text": "On regarde le public.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On lit le plus vite possible sans pause.",
+      "truth": "false",
+      "explain": "On garde un rythme régulier avec des pauses."
+     },
+     {
+      "text": "On lit tout sur le même ton.",
+      "truth": "false",
+      "explain": "Le ton change selon les sentiments."
+     },
+     {
+      "text": "On garde toujours les yeux sur ses pieds.",
+      "truth": "false",
+      "explain": "On lève les yeux vers le public."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

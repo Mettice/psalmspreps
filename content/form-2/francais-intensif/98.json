@@ -1,0 +1,407 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 98,
+ "language": "fr",
+ "prerequisites": [
+  85
+ ],
+ "skills": [
+  {
+   "id": "fi2-98",
+   "name": "Lecture suivie : « La lettre de Mme Ekwalla »"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Lecture suivie : on lit tout le texte, on repère les personnages, les étapes, puis on dégage la leçon.\n\nTexte : La lettre de Mme Ekwalla\nMme Ekwalla tenait une petite épicerie à Limbe. Un soir, une fillette entra, les yeux baissés. « Madame, ma mère est malade. Je n’ai pas assez d’argent pour le riz. » Mme Ekwalla lui donna le sac et dit : « Tu paieras quand tu pourras. » Des années passèrent. Un jour, la poste apporta une enveloppe. Dedans, une lettre et un billet : « Je suis la fillette du riz. Je suis devenue infirmière. Merci d’avoir eu confiance en moi. » Mme Ekwalla essuya une larme et rangea la lettre dans sa caisse, comme un trésor.\n(texte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Pourquoi Mme Ekwalla range-t-elle la lettre « comme un trésor » ?",
+  "steps": [
+   "La lettre montre que sa bonté a aidé la fillette à réussir.",
+   "Pour elle, ce souvenir vaut plus que l’argent."
+  ],
+  "answer": "Parce que la lettre prouve que sa générosité a porté ses fruits ; elle a plus de valeur que l’argent.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c98-1",
+    "status": "draft",
+    "idea": "Les personnages : Mme Ekwalla, l’épicière, et la fillette devenue infirmière.",
+    "vars": {},
+    "example": [
+     "L’histoire se passe à Limbe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-98-perso"
+    }
+   },
+   {
+    "id": "c98-2",
+    "status": "draft",
+    "idea": "Les étapes : la demande, le geste généreux, le temps qui passe, la lettre de remerciement.",
+    "vars": {},
+    "example": [
+     "Des années passèrent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-98-etapes"
+    }
+   },
+   {
+    "id": "c98-3",
+    "status": "draft",
+    "idea": "La leçon : la confiance et la générosité peuvent changer une vie.",
+    "vars": {},
+    "example": [
+     "Merci d’avoir eu confiance en moi."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-98-morale-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est la leçon du texte ?",
+         "r": "La confiance et la générosité peuvent changer une vie.",
+         "w": [
+          "Il ne faut jamais aider les autres.",
+          "L’argent est plus important que tout.",
+          "Les épiceries ferment le soir."
+         ],
+         "e": [
+          "C’est le contraire.",
+          "Le trésor est la lettre.",
+          "Ce n’est pas la leçon."
+         ],
+         "y": "La bonté a porté ses fruits."
+        },
+        {
+         "q": "que veut dire « Tu paieras quand tu pourras » ?",
+         "r": "Mme Ekwalla fait confiance à la fillette pour payer plus tard.",
+         "w": [
+          "Elle refuse de vendre.",
+          "Elle se fâche.",
+          "Elle demande le double."
+         ],
+         "e": [
+          "Elle donne le sac.",
+          "Elle est gentille.",
+          "Ce n’est pas dit."
+         ],
+         "y": "Elle fait crédit par confiance."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « La lettre de Mme Ekwalla » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-98-perso",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel est le métier de Mme Ekwalla ?",
+       "r": "épicière",
+       "w": [
+        "infirmière",
+        "institutrice",
+        "couturière"
+       ],
+       "e": [
+        "C’est la fillette devenue adulte.",
+        "Ce n’est pas dit.",
+        "Ce n’est pas dit."
+       ],
+       "y": "Elle tient une épicerie."
+      },
+      {
+       "q": "que demande la fillette ?",
+       "r": "du riz, car elle n’a pas assez d’argent",
+       "w": [
+        "un travail",
+        "un médicament",
+        "une lettre"
+       ],
+       "e": [
+        "Ce n’est pas dit.",
+        "Elle parle de sa mère malade, mais demande du riz.",
+        "La lettre vient plus tard."
+       ],
+       "y": "Le riz pour sa famille."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « La lettre de Mme Ekwalla » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-98-etapes",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Une fillette entre dans l’épicerie.",
+       "Elle explique que sa mère est malade.",
+       "Mme Ekwalla lui donne le riz.",
+       "Des années passent.",
+       "Une lettre de remerciement arrive."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les étapes dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-98-morale",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est la leçon du texte ?",
+       "r": "La confiance et la générosité peuvent changer une vie.",
+       "w": [
+        "Il ne faut jamais aider les autres.",
+        "L’argent est plus important que tout.",
+        "Les épiceries ferment le soir."
+       ],
+       "e": [
+        "C’est le contraire.",
+        "Le trésor est la lettre.",
+        "Ce n’est pas la leçon."
+       ],
+       "y": "La bonté a porté ses fruits."
+      },
+      {
+       "q": "que veut dire « Tu paieras quand tu pourras » ?",
+       "r": "Mme Ekwalla fait confiance à la fillette pour payer plus tard.",
+       "w": [
+        "Elle refuse de vendre.",
+        "Elle se fâche.",
+        "Elle demande le double."
+       ],
+       "e": [
+        "Elle donne le sac.",
+        "Elle est gentille.",
+        "Ce n’est pas dit."
+       ],
+       "y": "Elle fait crédit par confiance."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « La lettre de Mme Ekwalla » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-98-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Quelle phrase ne correspond pas au texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "L’épicerie se trouve à Limbe.",
+      "truth": "true"
+     },
+     {
+      "text": "La fillette devient infirmière.",
+      "truth": "true"
+     },
+     {
+      "text": "Une lettre arrive par la poste.",
+      "truth": "true"
+     },
+     {
+      "text": "Mme Ekwalla est émue.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mme Ekwalla chasse la fillette.",
+      "truth": "false",
+      "explain": "Elle lui donne le riz."
+     },
+     {
+      "text": "La fillette ne revient jamais donner de nouvelles.",
+      "truth": "false",
+      "explain": "Elle envoie une lettre de remerciement."
+     },
+     {
+      "text": "Mme Ekwalla jette la lettre.",
+      "truth": "false",
+      "explain": "Elle la range comme un trésor."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

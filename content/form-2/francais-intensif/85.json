@@ -1,0 +1,407 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 85,
+ "language": "fr",
+ "prerequisites": [
+  60
+ ],
+ "skills": [
+  {
+   "id": "fi2-85",
+   "name": "Lecture suivie : « Le pari du jeune tisserand »"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Lecture suivie : on lit le texte en entier, puis on étudie les personnages, les étapes et la leçon.\n\nTexte : Le pari du jeune tisserand\nAu marché de Foumban, le vieux tisserand Njoya vendait des tissus célèbres. Un jour, un jeune homme pressé lui dit : « Je ferai un tissu aussi beau que le vôtre en une seule journée ! » Njoya sourit : « Fais-le, mon fils. » Le jeune homme travailla vite, sans compter les fils. Le soir, son tissu était lâche et les couleurs mal assorties. Njoya lui montra le sien : « Ce tissu m’a pris un mois. Chaque fil est à sa place. » Le jeune homme baissa la tête. Le lendemain, il revint demander : « Voulez-vous m’apprendre ? » Et Njoya l’accueillit comme apprenti.\n(texte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Pourquoi le tissu du jeune homme est-il raté ?",
+  "steps": [
+   "Il a travaillé vite, sans compter les fils.",
+   "Le texte dit que le tissu était lâche et les couleurs mal assorties."
+  ],
+  "answer": "Parce qu’il a travaillé trop vite, sans soin.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c85-1",
+    "status": "draft",
+    "idea": "Les personnages : le vieux tisserand Njoya et un jeune homme pressé.",
+    "vars": {},
+    "example": [
+     "Njoya est patient et sage."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-85-perso"
+    }
+   },
+   {
+    "id": "c85-2",
+    "status": "draft",
+    "idea": "Les étapes : le défi, le travail rapide, l’échec, la leçon, l’apprentissage.",
+    "vars": {},
+    "example": [
+     "Le jeune homme devient apprenti."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-85-etapes"
+    }
+   },
+   {
+    "id": "c85-3",
+    "status": "draft",
+    "idea": "La leçon : le travail bien fait demande du temps et de la patience.",
+    "vars": {},
+    "example": [
+     "Chaque fil est à sa place."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-85-morale-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est la leçon du texte ?",
+         "r": "Le travail bien fait demande du temps et de la patience.",
+         "w": [
+          "Il faut toujours travailler vite.",
+          "Les vieux ne savent rien.",
+          "Il ne faut jamais apprendre."
+         ],
+         "e": [
+          "C’est le contraire.",
+          "C’est le contraire.",
+          "C’est le contraire."
+         ],
+         "y": "« Chaque fil est à sa place »."
+        },
+        {
+         "q": "pourquoi le jeune homme « baissa la tête » ?",
+         "r": "parce qu’il avait honte de son échec",
+         "w": [
+          "parce qu’il cherchait un fil par terre",
+          "parce qu’il dormait",
+          "parce qu’il était content"
+         ],
+         "e": [
+          "C’est le sens figuré : la honte.",
+          "Ce n’est pas dit.",
+          "Ce n’est pas le sens."
+         ],
+         "y": "Il comprend son erreur."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « Le pari du jeune tisserand » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-85-perso",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "où se passe l’histoire ?",
+       "r": "au marché de Foumban",
+       "w": [
+        "à l’école de Buea",
+        "au port de Douala",
+        "dans un champ de maïs"
+       ],
+       "e": [
+        "Le texte dit Foumban.",
+        "Le texte dit Foumban.",
+        "Le texte dit le marché."
+       ],
+       "y": "« Au marché de Foumban »."
+      },
+      {
+       "q": "comment est le jeune homme au début ?",
+       "r": "pressé et trop sûr de lui",
+       "w": [
+        "patient et modeste",
+        "malade",
+        "très vieux"
+       ],
+       "e": [
+        "C’est Njoya qui est patient.",
+        "Ce n’est pas dit.",
+        "Il est jeune."
+       ],
+       "y": "Il veut tout faire en un jour."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le pari du jeune tisserand » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-85-etapes",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Le jeune homme lance un défi à Njoya.",
+       "Il travaille vite, sans compter les fils.",
+       "Le soir, son tissu est raté.",
+       "Njoya lui montre son tissu fait en un mois.",
+       "Le jeune homme devient apprenti."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les étapes du texte dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-85-morale",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est la leçon du texte ?",
+       "r": "Le travail bien fait demande du temps et de la patience.",
+       "w": [
+        "Il faut toujours travailler vite.",
+        "Les vieux ne savent rien.",
+        "Il ne faut jamais apprendre."
+       ],
+       "e": [
+        "C’est le contraire.",
+        "C’est le contraire.",
+        "C’est le contraire."
+       ],
+       "y": "« Chaque fil est à sa place »."
+      },
+      {
+       "q": "pourquoi le jeune homme « baissa la tête » ?",
+       "r": "parce qu’il avait honte de son échec",
+       "w": [
+        "parce qu’il cherchait un fil par terre",
+        "parce qu’il dormait",
+        "parce qu’il était content"
+       ],
+       "e": [
+        "C’est le sens figuré : la honte.",
+        "Ce n’est pas dit.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Il comprend son erreur."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le pari du jeune tisserand » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-85-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Quelle phrase ne correspond pas au texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Njoya est un vieux tisserand.",
+      "truth": "true"
+     },
+     {
+      "text": "Le jeune homme travaille trop vite.",
+      "truth": "true"
+     },
+     {
+      "text": "Le tissu de Njoya a pris un mois.",
+      "truth": "true"
+     },
+     {
+      "text": "Le jeune homme devient apprenti.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le jeune homme réussit un tissu parfait en un jour.",
+      "truth": "false",
+      "explain": "Son tissu est raté."
+     },
+     {
+      "text": "Njoya chasse le jeune homme.",
+      "truth": "false",
+      "explain": "Il l’accueille comme apprenti."
+     },
+     {
+      "text": "L’histoire se passe au port de Douala.",
+      "truth": "false",
+      "explain": "Elle se passe au marché de Foumban."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

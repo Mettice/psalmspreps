@@ -1,0 +1,425 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 80,
+ "language": "fr",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "fi2-80",
+   "name": "Le son [ɛ]"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [ɛ] (comme dans « mais ») s’écrit de plusieurs façons :\n• è : la mère, le père, Ève, la fièvre ;\n• ê : la fête, la tête, la forêt ;\n• ai : mais, la maison, le lait, j’avais ;\n• ei : la neige, la reine, seize ;\n• e devant deux consonnes : elle, la terre, belle, la veste ;\n• et à la fin d’un nom : le jouet, le billet, le poulet ;\n• est (verbe être) : il est.\nLes terminaisons -ais, -ait, -aient de l’imparfait et du conditionnel se prononcent aussi [ɛ] : je mangeais, il voudrait.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Ma m__re prépare la f__te ; elle achète du l__t et un poul__. »",
+  "steps": [
+   "« mère » (è), « fête » (ê).",
+   "« lait » (ai), « poulet » (et)."
+  ],
+  "answer": "Ma mère prépare la fête ; elle achète du lait et un poulet.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c80-1",
+    "status": "draft",
+    "idea": "Le son [ɛ] s’écrit è, ê, ai, ei, e + deux consonnes, et.",
+    "vars": {},
+    "example": [
+     "la mère, la fête, le lait, la neige, belle, le jouet"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-80-ecrit"
+    }
+   },
+   {
+    "id": "c80-2",
+    "status": "draft",
+    "idea": "Les noms en -et se prononcent [ɛ] : le billet, le poulet.",
+    "vars": {},
+    "example": [
+     "un ticket, un jouet"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-80-et"
+    }
+   },
+   {
+    "id": "c80-3",
+    "status": "draft",
+    "idea": "Les terminaisons -ais, -ait, -aient se prononcent [ɛ].",
+    "vars": {},
+    "example": [
+     "je travaillais, ils chantaient"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-80-imp-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Quand j’étais petit, je ___ au ballon chaque soir.",
+         "a": "jouais",
+         "w": [
+          "jouait",
+          "jouaient"
+         ],
+         "e": [
+          "Avec « je » : -ais.",
+          "Avec « je » : -ais."
+         ]
+        },
+        {
+         "s": "Les ouvriers ___ dur toute la journée.",
+         "a": "travaillaient",
+         "w": [
+          "travaillait",
+          "travaillais"
+         ],
+         "e": [
+          "Avec « ils » : -aient.",
+          "Avec « ils » : -aient."
+         ]
+        },
+        {
+         "s": "Ma tante ___ des tomates au marché.",
+         "a": "vendait",
+         "w": [
+          "vendais",
+          "vendaient"
+         ],
+         "e": [
+          "Avec « elle » : -ait.",
+          "Avec « elle » : -ait."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne terminaison.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-80-ecrit",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Mon ___ travaille à la banque.",
+       "a": "père",
+       "w": [
+        "pêre",
+        "paire"
+       ],
+       "e": [
+        "On écrit è.",
+        "« paire » veut dire deux objets."
+       ]
+      },
+      {
+       "s": "Le village prépare une grande ___.",
+       "a": "fête",
+       "w": [
+        "faite",
+        "fète"
+       ],
+       "e": [
+        "« faite » vient du verbe faire.",
+        "On écrit ê."
+       ]
+      },
+      {
+       "s": "Ma sœur boit du ___ chaud.",
+       "a": "lait",
+       "w": [
+        "lè",
+        "laie"
+       ],
+       "e": [
+        "On écrit ai + t.",
+        "Ce n’est pas le mot."
+       ]
+      },
+      {
+       "s": "Il y a de la ___ sur le mont Cameroun ?",
+       "a": "neige",
+       "w": [
+        "nège",
+        "naige"
+       ],
+       "e": [
+        "On écrit ei.",
+        "On écrit ei."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-80-et",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "J’ai acheté un ___ de bus.",
+       "a": "billet",
+       "w": [
+        "billait",
+        "billè"
+       ],
+       "e": [
+        "Les noms en [ɛ] finissent souvent par -et.",
+        "On écrit -et."
+       ]
+      },
+      {
+       "s": "Ma mère cuisine un ___.",
+       "a": "poulet",
+       "w": [
+        "poulait",
+        "poulè"
+       ],
+       "e": [
+        "On écrit -et.",
+        "On écrit -et."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-80-imp",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Quand j’étais petit, je ___ au ballon chaque soir.",
+       "a": "jouais",
+       "w": [
+        "jouait",
+        "jouaient"
+       ],
+       "e": [
+        "Avec « je » : -ais.",
+        "Avec « je » : -ais."
+       ]
+      },
+      {
+       "s": "Les ouvriers ___ dur toute la journée.",
+       "a": "travaillaient",
+       "w": [
+        "travaillait",
+        "travaillais"
+       ],
+       "e": [
+        "Avec « ils » : -aient.",
+        "Avec « ils » : -aient."
+       ]
+      },
+      {
+       "s": "Ma tante ___ des tomates au marché.",
+       "a": "vendait",
+       "w": [
+        "vendais",
+        "vendaient"
+       ],
+       "e": [
+        "Avec « elle » : -ait.",
+        "Avec « elle » : -ait."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne terminaison.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-80-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quel mot est mal écrit ?",
+   "pool": {
+    "right": [
+     {
+      "text": "la mère",
+      "truth": "true"
+     },
+     {
+      "text": "la fête",
+      "truth": "true"
+     },
+     {
+      "text": "le lait",
+      "truth": "true"
+     },
+     {
+      "text": "la neige",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "la fète",
+      "truth": "false",
+      "explain": "On écrit « fête » avec ê."
+     },
+     {
+      "text": "le poulait",
+      "truth": "false",
+      "explain": "On écrit « poulet »."
+     },
+     {
+      "text": "la nège",
+      "truth": "false",
+      "explain": "On écrit « neige » avec ei."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

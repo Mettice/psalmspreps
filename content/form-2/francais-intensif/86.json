@@ -1,0 +1,397 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 86,
+ "language": "fr",
+ "prerequisites": [
+  62
+ ],
+ "skills": [
+  {
+   "id": "fi2-86",
+   "name": "Le conditionnel présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le conditionnel présent exprime un souhait, une demande polie, un conseil, une hypothèse ou un fait imaginé.\n« Je voudrais un emploi. » « Pourriez-vous m’aider ? » « Tu devrais te reposer. » « Si j’étais riche, j’ouvrirais une usine. »\nFormation : le radical du futur + les terminaisons de l’imparfait : -ais, -ais, -ait, -ions, -iez, -aient.\n• parler → je parlerais ; finir → nous finirions ;\n• être → je serais ; avoir → j’aurais ; aller → j’irais ; faire → je ferais ; venir → je viendrais ; voir → je verrais.\nAprès « si » + imparfait, on emploie le conditionnel : « Si tu travaillais, tu réussirais. »\nNe pas confondre : je parlerai (futur) / je parlerais (conditionnel).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "aller",
+   "p": 4
+  },
+  "problem": "Conjugue « {v} » au conditionnel présent avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "Radical du futur : {fr2FutureStem(v)}-.",
+   "Terminaison de l’imparfait : {fr2With(p, fr2Conditionnel(v, p))}."
+  ],
+  "answer": "{fr2With(p, fr2Conditionnel(v, p))}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c86-1",
+    "status": "draft",
+    "idea": "Conditionnel = radical du futur + -ais, -ais, -ait, -ions, -iez, -aient.",
+    "vars": {},
+    "example": [
+     "je finirais, ils seraient"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-86-form"
+    }
+   },
+   {
+    "id": "c86-2",
+    "status": "draft",
+    "idea": "Il exprime un souhait, une demande polie, un conseil ou une hypothèse.",
+    "vars": {},
+    "example": [
+     "Je voudrais vous parler."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-86-emploi"
+    }
+   },
+   {
+    "id": "c86-3",
+    "status": "draft",
+    "idea": "Si + imparfait → conditionnel.",
+    "vars": {},
+    "example": [
+     "Si j’avais le temps, je viendrais."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-86-si-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Si j’avais de l’argent, j’___ (acheter) une machine à coudre.",
+         "v": "acheter",
+         "p": 0
+        },
+        {
+         "s": "Si tu travaillais plus, tu ___ (réussir).",
+         "v": "réussir",
+         "p": 1
+        },
+        {
+         "s": "Si nous habitions à Kribi, nous ___ (aller) à la plage.",
+         "v": "aller",
+         "p": 4
+        },
+        {
+         "s": "Si elle venait, elle ___ (voir) le nouvel atelier.",
+         "v": "voir",
+         "p": 3
+        },
+        {
+         "s": "Si les ouvriers étaient payés, ils ___ (être) contents.",
+         "v": "être",
+         "p": 6
+        },
+        {
+         "s": "Si vous aviez le temps, vous ___ (faire) du sport.",
+         "v": "faire",
+         "p": 5
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le verbe au conditionnel présent.",
+     "text": "{X.s}",
+     "answer": "fr2Conditionnel(X.v, X.p)",
+     "misconceptions": [
+      {
+       "id": "fut",
+       "wrong": "fr2FuturSimple(X.v, X.p)",
+       "explain": "C’est le futur ; après « si » + imparfait, on met le conditionnel (-ais, -ait…)."
+      }
+     ],
+     "solution": [
+      "Si + imparfait → conditionnel : radical {fr2FutureStem(X.v)}- + terminaison de l’imparfait.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-86-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "aimer",
+      "finir",
+      "choisir",
+      "être",
+      "avoir",
+      "aller",
+      "faire",
+      "venir",
+      "voir",
+      "travailler",
+      "acheter"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au conditionnel présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2Conditionnel(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2FuturSimple(v, p))}",
+     "misconception": "fut"
+    },
+    {
+     "text": "{fr2With(p, fr2Imparfait(v, p))}",
+     "misconception": "imp"
+    },
+    {
+     "text": "{fr2With(p, fr2Conditionnel(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "fut",
+     "explain": "C’est le futur ; le conditionnel prend -ais, -ait, -ions…"
+    },
+    {
+     "id": "imp",
+     "explain": "C’est l’imparfait : il faut le radical du futur."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "Radical du futur {fr2FutureStem(v)}- + terminaison de l’imparfait.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-86-emploi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase exprime une demande polie ?",
+       "r": "Pourriez-vous fermer la porte ?",
+       "w": [
+        "Ferme la porte !",
+        "Tu fermes la porte.",
+        "Tu fermeras la porte."
+       ],
+       "e": [
+        "C’est un ordre.",
+        "C’est un constat.",
+        "C’est le futur."
+       ],
+       "y": "Le conditionnel adoucit la demande."
+      },
+      {
+       "q": "Quelle phrase est au conditionnel ?",
+       "r": "J’aimerais devenir ingénieur.",
+       "w": [
+        "J’aimerai devenir ingénieur.",
+        "J’aime devenir ingénieur.",
+        "J’aimais devenir ingénieur."
+       ],
+       "e": [
+        "C’est le futur.",
+        "C’est le présent.",
+        "C’est l’imparfait."
+       ],
+       "y": "-rais : conditionnel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-86-si",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Si j’avais de l’argent, j’___ (acheter) une machine à coudre.",
+       "v": "acheter",
+       "p": 0
+      },
+      {
+       "s": "Si tu travaillais plus, tu ___ (réussir).",
+       "v": "réussir",
+       "p": 1
+      },
+      {
+       "s": "Si nous habitions à Kribi, nous ___ (aller) à la plage.",
+       "v": "aller",
+       "p": 4
+      },
+      {
+       "s": "Si elle venait, elle ___ (voir) le nouvel atelier.",
+       "v": "voir",
+       "p": 3
+      },
+      {
+       "s": "Si les ouvriers étaient payés, ils ___ (être) contents.",
+       "v": "être",
+       "p": 6
+      },
+      {
+       "s": "Si vous aviez le temps, vous ___ (faire) du sport.",
+       "v": "faire",
+       "p": 5
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au conditionnel présent.",
+   "text": "{X.s}",
+   "answer": "fr2Conditionnel(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "fut",
+     "wrong": "fr2FuturSimple(X.v, X.p)",
+     "explain": "C’est le futur ; après « si » + imparfait, on met le conditionnel (-ais, -ait…)."
+    }
+   ],
+   "solution": [
+    "Si + imparfait → conditionnel : radical {fr2FutureStem(X.v)}- + terminaison de l’imparfait.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-86-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Je voudrais un verre d’eau.",
+      "truth": "true"
+     },
+     {
+      "text": "Si j’étais riche, j’aiderais les pauvres.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous irions au marché.",
+      "truth": "true"
+     },
+     {
+      "text": "Tu devrais te reposer.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Si j’avais le temps, je viendrai.",
+      "truth": "false",
+      "explain": "Après si + imparfait : je viendrais."
+     },
+     {
+      "text": "Ils seraitent contents.",
+      "truth": "false",
+      "explain": "On écrit : ils seraient."
+     },
+     {
+      "text": "Si tu travaillerais, tu réussirais.",
+      "truth": "false",
+      "explain": "Après « si », l’imparfait : si tu travaillais."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

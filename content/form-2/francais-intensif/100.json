@@ -1,0 +1,433 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 100,
+ "language": "fr",
+ "prerequisites": [
+  84,
+  90,
+  95
+ ],
+ "skills": [
+  {
+   "id": "fi2-100",
+   "name": "Révision : décrire, faire un portrait, raconter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Trois façons d’écrire :\n• Décrire un lieu ou un objet : on montre, avec un ordre (de près à loin), des indications de lieu, les sens et des adjectifs précis. Le temps : le présent ou l’imparfait.\n• Faire un portrait : on décrit une personne (physique, moral, en action), avec des exemples. Le temps : le présent ou l’imparfait.\n• Raconter : on présente des actions dans l’ordre chronologique (situation initiale, élément perturbateur, péripéties, situation finale). Le temps : le passé simple ou le passé composé, avec l’imparfait pour le décor.\nUn même texte peut mêler les trois : on raconte, mais on décrit le lieu et on fait le portrait des personnages.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "« Le vieux pêcheur avait des mains ridées et un sourire doux. » Est-ce une description, un portrait ou une narration ?",
+  "steps": [
+   "La phrase décrit une personne : ses mains (physique) et son sourire.",
+   "Il n’y a pas d’action : c’est un portrait."
+  ],
+  "answer": "un portrait",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c100-1",
+    "status": "draft",
+    "idea": "Décrire montre un lieu ; le portrait décrit une personne ; raconter présente des actions.",
+    "vars": {},
+    "example": [
+     "Le marché est immense (description)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-100-type"
+    }
+   },
+   {
+    "id": "c100-2",
+    "status": "draft",
+    "idea": "Description et portrait : présent ou imparfait ; récit : passé simple ou passé composé.",
+    "vars": {},
+    "example": [
+     "Il faisait nuit. Soudain, il entra."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-100-temps"
+    }
+   },
+   {
+    "id": "c100-3",
+    "status": "draft",
+    "idea": "Un récit contient souvent des descriptions et des portraits.",
+    "vars": {},
+    "example": [
+     "On décrit le lieu avant de raconter."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-100-mix-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans un récit, à quoi sert une description du lieu ?",
+         "r": "à aider le lecteur à imaginer où se passe l’histoire",
+         "w": [
+          "à finir l’histoire",
+          "à remplacer les personnages",
+          "à rien"
+         ],
+         "e": [
+          "Ce n’est pas son rôle.",
+          "Ce n’est pas son rôle.",
+          "Elle est utile."
+         ],
+         "y": "Le lecteur voit le décor."
+        },
+        {
+         "q": "Quel texte mêle narration et portrait ?",
+         "r": "Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients.",
+         "w": [
+          "Le marché est grand.",
+          "Il pleut.",
+          "Ma sœur est grande."
+         ],
+         "e": [
+          "C’est une description seule.",
+          "C’est une phrase de décor.",
+          "C’est un portrait seul."
+         ],
+         "y": "Portrait (petit et sage) + actions (ouvrit, salua)."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-100-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le marché s’étend sur toute la place ; les étals débordent de fruits.",
+       "a": "une description",
+       "w": [
+        "un portrait",
+        "une narration"
+       ]
+      },
+      {
+       "s": "Ma tante est grande et rieuse ; elle a toujours un mot gentil.",
+       "a": "un portrait",
+       "w": [
+        "une description",
+        "une narration"
+       ]
+      },
+      {
+       "s": "Soudain, le voleur s’enfuit ; les gens coururent derrière lui.",
+       "a": "une narration",
+       "w": [
+        "une description",
+        "un portrait"
+       ]
+      },
+      {
+       "s": "Le garage est petit et sombre ; au fond, des pneus s’empilent.",
+       "a": "une description",
+       "w": [
+        "un portrait",
+        "une narration"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "« {X.s} » est…",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "type"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "type"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "type",
+     "explain": "Demande-toi : montre-t-on un lieu, décrit-on une personne, ou raconte-t-on des actions ?"
+    }
+   ],
+   "solution": [
+    "Description : un lieu ou un objet ; portrait : une personne ; narration : des actions.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-100-temps",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il ___ nuit et le vent soufflait.",
+       "a": "faisait",
+       "w": [
+        "fit",
+        "fera"
+       ],
+       "e": [
+        "Le décor se met à l’imparfait.",
+        "C’est le futur."
+       ]
+      },
+      {
+       "s": "Soudain, un bruit ___ le silence.",
+       "a": "rompit",
+       "w": [
+        "rompait",
+        "rompra"
+       ],
+       "e": [
+        "L’action soudaine : passé simple.",
+        "C’est le futur."
+       ]
+      },
+      {
+       "s": "Mon grand-père ___ de longues mains fines.",
+       "a": "avait",
+       "w": [
+        "eut",
+        "aura"
+       ],
+       "e": [
+        "Le portrait se fait à l’imparfait.",
+        "C’est le futur."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le temps qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-100-mix",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans un récit, à quoi sert une description du lieu ?",
+       "r": "à aider le lecteur à imaginer où se passe l’histoire",
+       "w": [
+        "à finir l’histoire",
+        "à remplacer les personnages",
+        "à rien"
+       ],
+       "e": [
+        "Ce n’est pas son rôle.",
+        "Ce n’est pas son rôle.",
+        "Elle est utile."
+       ],
+       "y": "Le lecteur voit le décor."
+      },
+      {
+       "q": "Quel texte mêle narration et portrait ?",
+       "r": "Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients.",
+       "w": [
+        "Le marché est grand.",
+        "Il pleut.",
+        "Ma sœur est grande."
+       ],
+       "e": [
+        "C’est une description seule.",
+        "C’est une phrase de décor.",
+        "C’est un portrait seul."
+       ],
+       "y": "Portrait (petit et sage) + actions (ouvrit, salua)."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-100-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le portrait décrit une personne.",
+      "truth": "true"
+     },
+     {
+      "text": "Raconter, c’est présenter des actions.",
+      "truth": "true"
+     },
+     {
+      "text": "La description montre un lieu.",
+      "truth": "true"
+     },
+     {
+      "text": "Le décor se met à l’imparfait.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une description raconte uniquement des actions.",
+      "truth": "false",
+      "explain": "Elle montre un lieu ou un objet."
+     },
+     {
+      "text": "Le portrait moral décrit le visage.",
+      "truth": "false",
+      "explain": "Il décrit le caractère."
+     },
+     {
+      "text": "Un récit ne contient jamais de description.",
+      "truth": "false",
+      "explain": "Il en contient souvent."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

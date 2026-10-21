@@ -1,0 +1,456 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 72,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-72",
+   "name": "La phrase interro-négative"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La phrase interro-négative est une question à la forme négative : elle finit par un point d’interrogation et contient ne … pas (jamais, plus, rien).\n• Par l’intonation : « Tu ne viens pas ? »\n• Avec « est-ce que » : « Est-ce que tu ne viens pas ? »\n• Par l’inversion : « Ne viens-tu pas ? » ; avec -t- entre deux voyelles : « N’aime-t-il pas le foufou ? »\n• Aux temps composés : « N’as-tu pas fini ? » « N’était-elle pas partie ? »\n• Avec un sujet nom : « Ton père ne vient-il pas ? »\nRéponse : « si » pour une réponse positive (« Si, je viens »), « non » pour une réponse négative.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mets à la forme interro-négative avec inversion : « Ta sœur travaille à Douala. »",
+  "steps": [
+   "Le sujet est un nom : on le garde et on ajoute un pronom après le verbe : « Ta sœur travaille-t-elle ? »",
+   "On ajoute ne … pas autour du verbe : « Ta sœur ne travaille-t-elle pas à Douala ? »"
+  ],
+  "answer": "Ta sœur ne travaille-t-elle pas à Douala ?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c72-1",
+    "status": "draft",
+    "idea": "Question + négation : « Tu ne viens pas ? »",
+    "vars": {},
+    "example": [
+     "Est-ce que tu ne viens pas ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-72-quoi"
+    }
+   },
+   {
+    "id": "c72-2",
+    "status": "draft",
+    "idea": "Avec l’inversion : Ne + verbe-pronom + pas ? ; -t- entre deux voyelles.",
+    "vars": {},
+    "example": [
+     "Ne parle-t-il pas ?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-72-inv-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "« Elle mange du riz. »",
+         "r": "Ne mange-t-elle pas de riz ?",
+         "w": [
+          "Ne mange-elle pas de riz ?",
+          "Mange-t-elle pas de riz ?",
+          "Ne elle mange pas de riz ?"
+         ],
+         "e": [
+          "Il faut -t-.",
+          "Il manque « ne ».",
+          "Le pronom suit le verbe."
+         ],
+         "y": "-t- entre deux voyelles."
+        },
+        {
+         "q": "« Vous êtes allés au marché. »",
+         "r": "N’êtes-vous pas allés au marché ?",
+         "w": [
+          "Ne vous êtes pas allés au marché ?",
+          "Êtes-vous pas allés au marché ?",
+          "N’êtes pas-vous allés au marché ?"
+         ],
+         "e": [
+          "Le pronom suit l’auxiliaire.",
+          "Il manque « ne ».",
+          "« pas » suit le pronom."
+         ],
+         "y": "La négation entoure l’auxiliaire inversé."
+        },
+        {
+         "q": "« Paul a fini. »",
+         "r": "Paul n’a-t-il pas fini ?",
+         "w": [
+          "N’a Paul pas fini ?",
+          "Paul a-t-il pas fini ?",
+          "Paul ne a-t-il pas fini ?"
+         ],
+         "e": [
+          "Avec un nom sujet, on ajoute un pronom.",
+          "Il manque « ne ».",
+          "« ne » devient « n’ » devant a."
+         ],
+         "y": "Nom + ne + verbe-pronom + pas."
+        }
+       ]
+      }
+     },
+     "prompt": "Mets à la forme interro-négative avec inversion : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c72-3",
+    "status": "draft",
+    "idea": "On répond « si » pour dire oui à une question négative.",
+    "vars": {},
+    "example": [
+     "N’as-tu pas faim ? — Si."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-72-si"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-72-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase est interro-négative ?",
+       "r": "N’avez-vous pas vu le directeur ?",
+       "w": [
+        "Avez-vous vu le directeur ?",
+        "Vous n’avez pas vu le directeur.",
+        "Voyez le directeur !"
+       ],
+       "e": [
+        "Elle n’est pas négative.",
+        "Ce n’est pas une question.",
+        "C’est un ordre."
+       ],
+       "y": "Question + négation."
+      },
+      {
+       "q": "Quelle phrase est interro-négative ?",
+       "r": "Ton frère ne joue-t-il pas au football ?",
+       "w": [
+        "Ton frère joue au football.",
+        "Ton frère joue-t-il au football ?",
+        "Ton frère ne joue pas au football."
+       ],
+       "e": [
+        "Ni question ni négation.",
+        "Pas de négation.",
+        "Pas de question."
+       ],
+       "y": "Question + négation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-72-inv",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "« Elle mange du riz. »",
+       "r": "Ne mange-t-elle pas de riz ?",
+       "w": [
+        "Ne mange-elle pas de riz ?",
+        "Mange-t-elle pas de riz ?",
+        "Ne elle mange pas de riz ?"
+       ],
+       "e": [
+        "Il faut -t-.",
+        "Il manque « ne ».",
+        "Le pronom suit le verbe."
+       ],
+       "y": "-t- entre deux voyelles."
+      },
+      {
+       "q": "« Vous êtes allés au marché. »",
+       "r": "N’êtes-vous pas allés au marché ?",
+       "w": [
+        "Ne vous êtes pas allés au marché ?",
+        "Êtes-vous pas allés au marché ?",
+        "N’êtes pas-vous allés au marché ?"
+       ],
+       "e": [
+        "Le pronom suit l’auxiliaire.",
+        "Il manque « ne ».",
+        "« pas » suit le pronom."
+       ],
+       "y": "La négation entoure l’auxiliaire inversé."
+      },
+      {
+       "q": "« Paul a fini. »",
+       "r": "Paul n’a-t-il pas fini ?",
+       "w": [
+        "N’a Paul pas fini ?",
+        "Paul a-t-il pas fini ?",
+        "Paul ne a-t-il pas fini ?"
+       ],
+       "e": [
+        "Avec un nom sujet, on ajoute un pronom.",
+        "Il manque « ne ».",
+        "« ne » devient « n’ » devant a."
+       ],
+       "y": "Nom + ne + verbe-pronom + pas."
+      }
+     ]
+    }
+   },
+   "prompt": "Mets à la forme interro-négative avec inversion : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-72-si",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "« Tu n’aimes pas le koki ? » — « ___, je l’adore ! »",
+       "a": "Si",
+       "w": [
+        "Oui",
+        "Non"
+       ],
+       "e": [
+        "Après une question négative, on dit « si ».",
+        "« Non » contredit la suite."
+       ]
+      },
+      {
+       "s": "« Il n’est pas venu ? » — « ___, il est malade. »",
+       "a": "Non",
+       "w": [
+        "Si",
+        "Oui"
+       ],
+       "e": [
+        "« Si » voudrait dire qu’il est venu.",
+        "On ne dit pas « oui »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne réponse.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-72-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase est mal écrite ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ne viens-tu pas ?",
+      "truth": "true"
+     },
+     {
+      "text": "N’a-t-il pas mangé ?",
+      "truth": "true"
+     },
+     {
+      "text": "Ta mère ne vient-elle pas ?",
+      "truth": "true"
+     },
+     {
+      "text": "Est-ce que tu ne dors pas ?",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ne a-t-il pas mangé ?",
+      "truth": "false",
+      "explain": "Devant une voyelle : N’a-t-il pas mangé ?"
+     },
+     {
+      "text": "Ne parle-il pas ?",
+      "truth": "false",
+      "explain": "Il faut -t- : Ne parle-t-il pas ?"
+     },
+     {
+      "text": "Ne ta mère vient-elle pas ?",
+      "truth": "false",
+      "explain": "On écrit : Ta mère ne vient-elle pas ?"
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

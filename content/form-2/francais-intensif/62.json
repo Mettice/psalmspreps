@@ -1,0 +1,437 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 62,
+ "language": "fr",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "fi2-62",
+   "name": "Le passé simple (suite) : récits et verbes irréguliers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé simple est le temps des récits écrits : il raconte des actions passées, courtes et terminées, qui se suivent.\n« Le chasseur entra dans la forêt, vit le lion et s’enfuit. »\nTerminaisons :\n• 1er groupe : -ai, -as, -a, -âmes, -âtes, -èrent (il chanta, ils chantèrent) ;\n• 2e groupe et beaucoup de verbes en -ir, -re : -is, -is, -it, -îmes, -îtes, -irent (il finit, ils prirent, il vit) ;\n• verbes en -u : être (il fut), avoir (il eut), lire (il lut) ;\n• venir : il vint, ils vinrent.\nDans un récit, l’imparfait décrit le décor (« Il faisait nuit ») et le passé simple raconte les actions (« Soudain, un bruit retentit »).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "venir",
+   "p": 6
+  },
+  "problem": "Conjugue « {v} » au passé simple avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "« {v} » est irrégulier au passé simple.",
+   "On écrit : {fr2With(p, fr2PasseSimple(v, p))}."
+  ],
+  "answer": "{fr2With(p, fr2PasseSimple(v, p))}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c62-1",
+    "status": "draft",
+    "idea": "Le passé simple raconte des actions passées, courtes et terminées.",
+    "vars": {},
+    "example": [
+     "Il ouvrit la porte et sortit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-62-emploi"
+    }
+   },
+   {
+    "id": "c62-2",
+    "status": "draft",
+    "idea": "Terminaisons : -a / -èrent ; -it / -irent ; -ut / -urent ; il vint.",
+    "vars": {},
+    "example": [
+     "il chanta, il finit, il fut"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-62-form-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "parler",
+        "chanter",
+        "manger",
+        "commencer",
+        "finir",
+        "choisir",
+        "être",
+        "avoir",
+        "faire",
+        "prendre",
+        "venir",
+        "voir",
+        "dire",
+        "écrire",
+        "lire",
+        "partir"
+       ]
+      },
+      "p": {
+       "pick": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au passé simple avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2With(p, fr2PasseSimple(v, p))}",
+     "distractors": [
+      {
+       "text": "{fr2With(p, fr2Imparfait(v, p))}",
+       "misconception": "imp"
+      },
+      {
+       "text": "{fr2With(p, fr2PasseSimple(v, (p + 4) % 8))}",
+       "misconception": "pers"
+      },
+      {
+       "text": "{fr2PasseCompose(v, p)}",
+       "misconception": "pc"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "imp",
+       "explain": "C’est l’imparfait."
+      },
+      {
+       "id": "pers",
+       "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+      },
+      {
+       "id": "pc",
+       "explain": "C’est le passé composé."
+      }
+     ],
+     "solution": [
+      "Au passé simple, « {v} » : il {fr2PasseSimple(v, 2)}, ils {fr2PasseSimple(v, 6)}.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c62-3",
+    "status": "draft",
+    "idea": "L’imparfait décrit le décor ; le passé simple raconte les actions.",
+    "vars": {},
+    "example": [
+     "Il pleuvait quand il arriva."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-62-imp"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-62-emploi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel texte trouve-t-on surtout le passé simple ?",
+       "r": "un récit écrit, comme un conte",
+       "w": [
+        "une conversation au téléphone",
+        "une recette",
+        "une liste de courses"
+       ],
+       "e": [
+        "À l’oral, on emploie le passé composé.",
+        "On emploie l’impératif ou l’infinitif.",
+        "Il n’y a pas de récit."
+       ],
+       "y": "C’est le temps du récit écrit."
+      },
+      {
+       "q": "Quelle phrase est au passé simple ?",
+       "r": "Le roi parla à son peuple.",
+       "w": [
+        "Le roi parle à son peuple.",
+        "Le roi parlait à son peuple.",
+        "Le roi a parlé à son peuple."
+       ],
+       "e": [
+        "C’est le présent.",
+        "C’est l’imparfait.",
+        "C’est le passé composé."
+       ],
+       "y": "« parla »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-62-form",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "chanter",
+      "manger",
+      "commencer",
+      "finir",
+      "choisir",
+      "être",
+      "avoir",
+      "faire",
+      "prendre",
+      "venir",
+      "voir",
+      "dire",
+      "écrire",
+      "lire",
+      "partir"
+     ]
+    },
+    "p": {
+     "pick": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé simple avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2PasseSimple(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2Imparfait(v, p))}",
+     "misconception": "imp"
+    },
+    {
+     "text": "{fr2With(p, fr2PasseSimple(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2PasseCompose(v, p)}",
+     "misconception": "pc"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "imp",
+     "explain": "C’est l’imparfait."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "pc",
+     "explain": "C’est le passé composé."
+    }
+   ],
+   "solution": [
+    "Au passé simple, « {v} » : il {fr2PasseSimple(v, 2)}, ils {fr2PasseSimple(v, 6)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-62-imp",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il ___ nuit quand le voleur entra.",
+       "a": "faisait",
+       "w": [
+        "fit",
+        "fera"
+       ],
+       "e": [
+        "Le décor se met à l’imparfait.",
+        "C’est le futur."
+       ]
+      },
+      {
+       "s": "Le ciel était gris ; soudain, l’orage ___.",
+       "a": "éclata",
+       "w": [
+        "éclatait",
+        "éclatera"
+       ],
+       "e": [
+        "Une action soudaine se met au passé simple.",
+        "C’est le futur."
+       ]
+      },
+      {
+       "s": "Les enfants jouaient quand leur mère les ___.",
+       "a": "appela",
+       "w": [
+        "appelait",
+        "appellera"
+       ],
+       "e": [
+        "L’action qui survient se met au passé simple.",
+        "C’est le futur."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le temps qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-62-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Il fut très content.",
+      "truth": "true"
+     },
+     {
+      "text": "Ils vinrent à la fête.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle prit son sac.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous chantâmes ensemble.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ils chantirent toute la nuit.",
+      "truth": "false",
+      "explain": "1er groupe : ils chantèrent."
+     },
+     {
+      "text": "Il finissa son travail.",
+      "truth": "false",
+      "explain": "2e groupe : il finit."
+     },
+     {
+      "text": "Elle venit à midi.",
+      "truth": "false",
+      "explain": "« venir » : elle vint."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

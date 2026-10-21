@@ -1,0 +1,407 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 101,
+ "language": "fr",
+ "prerequisites": [
+  96
+ ],
+ "skills": [
+  {
+   "id": "fi2-101",
+   "name": "Révision : produire des écrits à partir d’images"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "À partir d’images, on peut produire plusieurs types d’écrits :\n• un récit (une suite d’images qui racontent une histoire) ;\n• une description ou un portrait (une seule image) ;\n• une affiche, un slogan, une petite annonce, une carte postale.\nMéthode : observer (qui ? où ? quand ? quoi ?), choisir le type d’écrit et le destinataire, faire un plan, écrire un brouillon avec des mots de liaison, relire (majuscules, ponctuation, accords, temps), recopier.\nGrille de relecture : mon texte correspond-il aux images ? ai-je respecté le type d’écrit ? mes phrases sont-elles correctes ?",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une image montre une femme qui vend des fruits au marché. Quel type d’écrit choisir pour la présenter, et que faut-il décrire ?",
+  "steps": [
+   "Une seule image, une personne au travail : un portrait en action ou une description.",
+   "On décrit la vendeuse (physique, gestes), les fruits (couleurs) et l’ambiance du marché."
+  ],
+  "answer": "Un portrait en action : la vendeuse, ses fruits et l’ambiance du marché.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c101-1",
+    "status": "draft",
+    "idea": "Une suite d’images donne un récit ; une seule image donne une description ou un portrait.",
+    "vars": {},
+    "example": [
+     "Trois images : un récit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-101-type"
+    }
+   },
+   {
+    "id": "c101-2",
+    "status": "draft",
+    "idea": "On observe, on fait un plan, on écrit un brouillon, on relit, on recopie.",
+    "vars": {},
+    "example": [
+     "Qui ? Où ? Quand ? Quoi ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-101-etapes"
+    }
+   },
+   {
+    "id": "c101-3",
+    "status": "draft",
+    "idea": "Grille de relecture : le texte correspond aux images, respecte le type d’écrit, a des phrases correctes.",
+    "vars": {},
+    "example": [
+     "Majuscules, points, accords."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-101-grille-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle question fait partie de la grille de relecture ?",
+         "r": "Mon texte correspond-il aux images ?",
+         "w": [
+          "Combien coûte mon cahier ?",
+          "Quelle heure est-il ?",
+          "Où est mon stylo rouge ?"
+         ],
+         "e": [
+          "Ce n’est pas utile.",
+          "Ce n’est pas utile.",
+          "Ce n’est pas utile."
+         ],
+         "y": "On vérifie le sens."
+        },
+        {
+         "q": "Un élève écrit un récit au présent, puis au passé simple, puis au futur. Que doit-il corriger ?",
+         "r": "garder le même temps de récit",
+         "w": [
+          "ajouter des couleurs",
+          "écrire plus vite",
+          "enlever la ponctuation"
+         ],
+         "e": [
+          "Ce n’est pas le problème.",
+          "Ce n’est pas le problème.",
+          "La ponctuation est nécessaire."
+         ],
+         "y": "La cohérence des temps."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-101-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quatre images montrent un garçon qui plante un arbre, l’arrose, le voit grandir et se repose à son ombre. Quel type d’écrit convient ?",
+       "r": "un récit",
+       "w": [
+        "une petite annonce",
+        "un slogan seul",
+        "une liste de courses"
+       ],
+       "e": [
+        "Il n’y a pas d’offre.",
+        "Un slogan est trop court.",
+        "Ce n’est pas le sujet."
+       ],
+       "y": "Une suite d’actions."
+      },
+      {
+       "q": "Une image montre une nouvelle pharmacie. Quel écrit permet d’informer les habitants de son ouverture ?",
+       "r": "une affiche",
+       "w": [
+        "un conte",
+        "un portrait",
+        "un poème d’amour"
+       ],
+       "e": [
+        "Ce n’est pas une histoire.",
+        "Il n’y a pas de personne à décrire.",
+        "Ce n’est pas le but."
+       ],
+       "y": "L’affiche informe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-101-etapes",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Observer les images",
+       "Choisir le type d’écrit",
+       "Faire un plan",
+       "Écrire un brouillon",
+       "Relire et recopier"
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les étapes dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-101-grille",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle question fait partie de la grille de relecture ?",
+       "r": "Mon texte correspond-il aux images ?",
+       "w": [
+        "Combien coûte mon cahier ?",
+        "Quelle heure est-il ?",
+        "Où est mon stylo rouge ?"
+       ],
+       "e": [
+        "Ce n’est pas utile.",
+        "Ce n’est pas utile.",
+        "Ce n’est pas utile."
+       ],
+       "y": "On vérifie le sens."
+      },
+      {
+       "q": "Un élève écrit un récit au présent, puis au passé simple, puis au futur. Que doit-il corriger ?",
+       "r": "garder le même temps de récit",
+       "w": [
+        "ajouter des couleurs",
+        "écrire plus vite",
+        "enlever la ponctuation"
+       ],
+       "e": [
+        "Ce n’est pas le problème.",
+        "Ce n’est pas le problème.",
+        "La ponctuation est nécessaire."
+       ],
+       "y": "La cohérence des temps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-101-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On observe les images.",
+      "truth": "true"
+     },
+     {
+      "text": "On choisit le type d’écrit.",
+      "truth": "true"
+     },
+     {
+      "text": "On écrit un brouillon.",
+      "truth": "true"
+     },
+     {
+      "text": "On relit son texte.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On écrit un texte qui n’a rien à voir avec les images.",
+      "truth": "false",
+      "explain": "Le texte doit correspondre aux images."
+     },
+     {
+      "text": "On recopie sans relire.",
+      "truth": "false",
+      "explain": "On relit d’abord."
+     },
+     {
+      "text": "Une seule image donne toujours un long récit de dix étapes.",
+      "truth": "false",
+      "explain": "Une seule image donne plutôt une description ou un portrait."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

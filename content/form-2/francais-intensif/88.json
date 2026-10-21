@@ -1,0 +1,397 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 88,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-88",
+   "name": "Le lexique des obligations du travail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le travail est organisé par des règles : le Code du travail.\n• Le contrat de travail : l’accord écrit entre l’employeur et le travailleur ; il fixe le poste, le salaire et la durée (contrat à durée déterminée ou indéterminée).\n• Le salaire : l’argent payé chaque mois ; une augmentation, une prime (une somme en plus), le bulletin de paie.\n• Le congé : la période de repos payé ; le congé de maternité.\n• La grève : l’arrêt collectif du travail pour réclamer de meilleures conditions ; le syndicat défend les travailleurs.\n• Les devoirs du travailleur : la ponctualité, l’assiduité (être présent), le respect de la hiérarchie, la conscience professionnelle.\n• Les droits : un salaire juste, la sécurité au travail, la sécurité sociale (la CNPS), le repos.\nMots utiles : embaucher, licencier, démissionner, la retraite, un retard, une absence justifiée.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que doit faire un travailleur qui veut quitter son emploi de lui-même ?",
+  "steps": [
+   "Quitter son emploi de soi-même, c’est démissionner.",
+   "Il écrit une lettre de démission à son employeur, en respectant le préavis prévu."
+  ],
+  "answer": "Il démissionne, par une lettre à son employeur.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c88-1",
+    "status": "draft",
+    "idea": "Le contrat de travail fixe le poste, le salaire et la durée.",
+    "vars": {},
+    "example": [
+     "Il est signé par l’employeur et le travailleur."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-88-contrat"
+    }
+   },
+   {
+    "id": "c88-2",
+    "status": "draft",
+    "idea": "Le congé est un repos payé ; la grève est un arrêt collectif du travail.",
+    "vars": {},
+    "example": [
+     "Le syndicat défend les travailleurs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-88-mot"
+    }
+   },
+   {
+    "id": "c88-3",
+    "status": "draft",
+    "idea": "Devoirs : ponctualité, assiduité, conscience professionnelle ; droits : salaire juste, sécurité, repos.",
+    "vars": {},
+    "example": [
+     "Arriver à l’heure."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-88-droit-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Lequel est un devoir du travailleur ?",
+         "r": "arriver à l’heure",
+         "w": [
+          "recevoir un salaire juste",
+          "prendre des congés",
+          "être protégé au travail"
+         ],
+         "e": [
+          "C’est un droit.",
+          "C’est un droit.",
+          "C’est un droit."
+         ],
+         "y": "La ponctualité est un devoir."
+        },
+        {
+         "q": "Lequel est un droit du travailleur ?",
+         "r": "travailler en sécurité",
+         "w": [
+          "être assidu",
+          "respecter la hiérarchie",
+          "être ponctuel"
+         ],
+         "e": [
+          "C’est un devoir.",
+          "C’est un devoir.",
+          "C’est un devoir."
+         ],
+         "y": "La sécurité au travail est un droit."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-88-contrat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce qu’un contrat de travail ?",
+       "r": "un accord entre l’employeur et le travailleur",
+       "w": [
+        "une facture",
+        "une lettre d’amour",
+        "un bulletin de notes"
+       ],
+       "e": [
+        "C’est pour un achat.",
+        "Ce n’est pas le sens.",
+        "C’est scolaire."
+       ],
+       "y": "Il fixe poste, salaire et durée."
+      },
+      {
+       "q": "Comment appelle-t-on la somme d’argent en plus du salaire ?",
+       "r": "une prime",
+       "w": [
+        "une amende",
+        "une grève",
+        "un congé"
+       ],
+       "e": [
+        "C’est une punition.",
+        "C’est un arrêt de travail.",
+        "C’est un repos."
+       ],
+       "y": "Une récompense en argent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-88-mot",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "le congé",
+     "right": "une période de repos payé"
+    },
+    {
+     "left": "la grève",
+     "right": "l’arrêt collectif du travail pour réclamer"
+    },
+    {
+     "left": "démissionner",
+     "right": "quitter son emploi de soi-même"
+    },
+    {
+     "left": "licencier",
+     "right": "renvoyer un travailleur"
+    },
+    {
+     "left": "la retraite",
+     "right": "la fin de la vie de travail à cause de l’âge"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-88-droit",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Lequel est un devoir du travailleur ?",
+       "r": "arriver à l’heure",
+       "w": [
+        "recevoir un salaire juste",
+        "prendre des congés",
+        "être protégé au travail"
+       ],
+       "e": [
+        "C’est un droit.",
+        "C’est un droit.",
+        "C’est un droit."
+       ],
+       "y": "La ponctualité est un devoir."
+      },
+      {
+       "q": "Lequel est un droit du travailleur ?",
+       "r": "travailler en sécurité",
+       "w": [
+        "être assidu",
+        "respecter la hiérarchie",
+        "être ponctuel"
+       ],
+       "e": [
+        "C’est un devoir.",
+        "C’est un devoir.",
+        "C’est un devoir."
+       ],
+       "y": "La sécurité au travail est un droit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-88-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le contrat fixe le salaire.",
+      "truth": "true"
+     },
+     {
+      "text": "Le syndicat défend les travailleurs.",
+      "truth": "true"
+     },
+     {
+      "text": "Le congé est un repos payé.",
+      "truth": "true"
+     },
+     {
+      "text": "La ponctualité est un devoir.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Démissionner veut dire être renvoyé par le patron.",
+      "truth": "false",
+      "explain": "C’est quitter son emploi de soi-même."
+     },
+     {
+      "text": "La grève est une fête des travailleurs.",
+      "truth": "false",
+      "explain": "C’est un arrêt collectif du travail."
+     },
+     {
+      "text": "Le travailleur n’a aucun droit.",
+      "truth": "false",
+      "explain": "Il a droit à un salaire juste, à la sécurité et au repos."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

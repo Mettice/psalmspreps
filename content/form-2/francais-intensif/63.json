@@ -1,0 +1,428 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 63,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-63",
+   "name": "La lettre s qui se prononce [z]"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La lettre s se prononce [z] quand elle est seule entre deux voyelles : une maison, une rose, la cuisine, une chemise, l’organisation, la musique.\nPour garder le son [s] entre deux voyelles, on double le s : un poisson, une caisse, la classe, assez. Comparer : un poison [z] / un poisson [s] ; un désert [z] / un dessert [s].\nLe son [z] peut aussi s’écrire z : le zèbre, douze, le gaz.\nEn liaison, s se prononce [z] : les‿élèves.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Prononce-t-on [s] ou [z] dans « organisation » et dans « assister » ?",
+  "steps": [
+   "« organisation » : s seul entre deux voyelles (i et a) → [z].",
+   "« assister » : ss entre deux voyelles → [s]."
+  ],
+  "answer": "organisation : [z] ; assister : [s].",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c63-1",
+    "status": "draft",
+    "idea": "s seul entre deux voyelles se prononce [z] : maison, rose.",
+    "vars": {},
+    "example": [
+     "la cuisine, la chemise"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-63-z"
+    }
+   },
+   {
+    "id": "c63-2",
+    "status": "draft",
+    "idea": "ss entre deux voyelles se prononce [s] : poisson, classe.",
+    "vars": {},
+    "example": [
+     "poison [z] / poisson [s]"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-63-ss-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le pêcheur a attrapé un gros ___.",
+         "a": "poisson",
+         "w": [
+          "poison",
+          "poiçon"
+         ],
+         "e": [
+          "« poison » se lit [z] : c’est une substance toxique.",
+          "On écrit ss."
+         ]
+        },
+        {
+         "s": "Après le repas, nous prenons un ___.",
+         "a": "dessert",
+         "w": [
+          "désert",
+          "deserrt"
+         ],
+         "e": [
+          "« désert » est un lieu sec.",
+          "Ce mot n’existe pas."
+         ]
+        },
+        {
+         "s": "La ___ est pleine d’élèves.",
+         "a": "classe",
+         "w": [
+          "clase",
+          "claze"
+         ],
+         "e": [
+          "Avec un seul s, on lirait [z].",
+          "On écrit ss."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne écriture.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c63-3",
+    "status": "draft",
+    "idea": "Le son [z] s’écrit aussi z : zèbre, douze.",
+    "vars": {},
+    "example": [
+     "le gaz, le zéro"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-63-choix"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-63-z",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel mot le s se prononce-t-il [z] ?",
+       "r": "maison",
+       "w": [
+        "poisson",
+        "classe",
+        "soleil"
+       ],
+       "e": [
+        "ss se prononce [s].",
+        "ss se prononce [s].",
+        "s au début se prononce [s]."
+       ],
+       "y": "s entre deux voyelles."
+      },
+      {
+       "q": "Dans quel mot le s se prononce-t-il [z] ?",
+       "r": "organisation",
+       "w": [
+        "assister",
+        "sac",
+        "espoir"
+       ],
+       "e": [
+        "ss se prononce [s].",
+        "s au début se prononce [s].",
+        "s devant une consonne se prononce [s]."
+       ],
+       "y": "s entre i et a."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-63-ss",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le pêcheur a attrapé un gros ___.",
+       "a": "poisson",
+       "w": [
+        "poison",
+        "poiçon"
+       ],
+       "e": [
+        "« poison » se lit [z] : c’est une substance toxique.",
+        "On écrit ss."
+       ]
+      },
+      {
+       "s": "Après le repas, nous prenons un ___.",
+       "a": "dessert",
+       "w": [
+        "désert",
+        "deserrt"
+       ],
+       "e": [
+        "« désert » est un lieu sec.",
+        "Ce mot n’existe pas."
+       ]
+      },
+      {
+       "s": "La ___ est pleine d’élèves.",
+       "a": "classe",
+       "w": [
+        "clase",
+        "claze"
+       ],
+       "e": [
+        "Avec un seul s, on lirait [z].",
+        "On écrit ss."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-63-choix",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma mère prépare le repas dans la ___.",
+       "a": "cuisine",
+       "w": [
+        "cuissine",
+        "cuizine"
+       ],
+       "e": [
+        "Avec ss, on lirait [s].",
+        "On écrit s entre deux voyelles."
+       ]
+      },
+      {
+       "s": "Le ___ a des rayures noires et blanches.",
+       "a": "zèbre",
+       "w": [
+        "sèbre",
+        "zebbre"
+       ],
+       "e": [
+        "Au début, s se lit [s].",
+        "Un seul b."
+       ]
+      },
+      {
+       "s": "Il porte une belle ___ blanche.",
+       "a": "chemise",
+       "w": [
+        "chemisse",
+        "chemize"
+       ],
+       "e": [
+        "Avec ss, on lirait [s].",
+        "On écrit s."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-63-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quel mot est mal écrit ?",
+   "pool": {
+    "right": [
+     {
+      "text": "une maison",
+      "truth": "true"
+     },
+     {
+      "text": "un poisson",
+      "truth": "true"
+     },
+     {
+      "text": "la classe",
+      "truth": "true"
+     },
+     {
+      "text": "une rose",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "la cuissine",
+      "truth": "false",
+      "explain": "On écrit « cuisine » : un seul s pour le son [z]."
+     },
+     {
+      "text": "un poison (pour parler du poisson du marché)",
+      "truth": "false",
+      "explain": "Le poisson qu’on mange s’écrit avec ss."
+     },
+     {
+      "text": "une chemisse",
+      "truth": "false",
+      "explain": "On écrit « chemise » : un seul s."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

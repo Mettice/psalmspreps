@@ -1,0 +1,386 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 65,
+ "language": "fr",
+ "prerequisites": [
+  13,
+  39
+ ],
+ "skills": [
+  {
+   "id": "fi2-65",
+   "name": "Jeux de rôle : à la mairie, au commissariat"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans un jeu de rôle, chaque élève joue un personnage dans une situation de la vie : demander un document, se plaindre, s’excuser, conseiller.\nÉtapes : 1. lire la situation ; 2. se répartir les rôles ; 3. préparer les répliques ; 4. jouer devant la classe ; 5. écouter les remarques.\nFormules de politesse : « Bonjour, monsieur / madame », « S’il vous plaît », « Excusez-moi de vous déranger », « Je voudrais… », « Pourriez-vous… ? », « Merci beaucoup », « Je vous en prie ».\nOn utilise le vouvoiement (vous) avec un adulte ou un agent public.\nExemple : à la mairie, un jeune demande une copie de son acte de naissance ; l’agent lui demande sa pièce et lui donne un délai.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Tu joues un élève qui demande une copie de son acte de naissance à la mairie. Que dis-tu d’abord ?",
+  "steps": [
+   "On salue et on dit poliment ce qu’on veut, en vouvoyant l’agent.",
+   "« Bonjour, madame. Je voudrais une copie de mon acte de naissance, s’il vous plaît. »"
+  ],
+  "answer": "Bonjour, madame. Je voudrais une copie de mon acte de naissance, s’il vous plaît.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c65-1",
+    "status": "draft",
+    "idea": "Dans un jeu de rôle, on joue un personnage dans une situation de la vie.",
+    "vars": {},
+    "example": [
+     "L’élève, l’agent de la mairie."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-65-quoi"
+    }
+   },
+   {
+    "id": "c65-2",
+    "status": "draft",
+    "idea": "On utilise des formules de politesse et le vouvoiement avec un adulte.",
+    "vars": {},
+    "example": [
+     "Pourriez-vous m’aider, s’il vous plaît ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-65-poli"
+    }
+   },
+   {
+    "id": "c65-3",
+    "status": "draft",
+    "idea": "On prépare les répliques, on joue, puis on écoute les remarques.",
+    "vars": {},
+    "example": [
+     "Chacun connaît son rôle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-65-ordre-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Bonjour, madame.",
+         "Bonjour, jeune homme. Que puis-je pour vous ?",
+         "Je voudrais une copie de mon acte de naissance, s’il vous plaît.",
+         "Avez-vous votre ancien acte ?",
+         "Oui, le voici.",
+         "Revenez jeudi. Au revoir.",
+         "Merci beaucoup, madame. Au revoir."
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets le dialogue à la mairie dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      },
+      {
+       "text": "{X[4]}"
+      },
+      {
+       "text": "{X[5]}"
+      },
+      {
+       "text": "{X[6]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-65-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce qu’un jeu de rôle ?",
+       "r": "jouer un personnage dans une situation de la vie",
+       "w": [
+        "un jeu de cartes",
+        "un match de football",
+        "lire un poème seul"
+       ],
+       "e": [
+        "Ce n’est pas un jeu de société.",
+        "Ce n’est pas un sport.",
+        "On joue à plusieurs."
+       ],
+       "y": "On joue une scène."
+      },
+      {
+       "q": "Avec qui utilise-t-on le vouvoiement ?",
+       "r": "avec un adulte ou un agent public",
+       "w": [
+        "avec son petit frère",
+        "avec son meilleur ami",
+        "avec son chien"
+       ],
+       "e": [
+        "On le tutoie.",
+        "On le tutoie.",
+        "Ce n’est pas une personne."
+       ],
+       "y": "Par respect."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-65-poli",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase est polie pour s’adresser au policier ?",
+       "r": "Excusez-moi, monsieur, pourriez-vous m’aider ?",
+       "w": [
+        "Hé, toi, aide-moi !",
+        "Donne-moi ça vite !",
+        "Tu dois m’aider."
+       ],
+       "e": [
+        "On ne tutoie pas un agent.",
+        "C’est impoli.",
+        "C’est un ordre impoli."
+       ],
+       "y": "Formule de politesse et vouvoiement."
+      },
+      {
+       "q": "Que répond-on quand quelqu’un dit « merci » ?",
+       "r": "Je vous en prie.",
+       "w": [
+        "Pourquoi ?",
+        "Va-t’en.",
+        "Rien du tout, idiot."
+       ],
+       "e": [
+        "Ce n’est pas poli.",
+        "C’est impoli.",
+        "C’est impoli."
+       ],
+       "y": "Formule de politesse."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-65-ordre",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Bonjour, madame.",
+       "Bonjour, jeune homme. Que puis-je pour vous ?",
+       "Je voudrais une copie de mon acte de naissance, s’il vous plaît.",
+       "Avez-vous votre ancien acte ?",
+       "Oui, le voici.",
+       "Revenez jeudi. Au revoir.",
+       "Merci beaucoup, madame. Au revoir."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le dialogue à la mairie dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    },
+    {
+     "text": "{X[5]}"
+    },
+    {
+     "text": "{X[6]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-65-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour un jeu de rôle est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On lit bien la situation.",
+      "truth": "true"
+     },
+     {
+      "text": "On se répartit les rôles.",
+      "truth": "true"
+     },
+     {
+      "text": "On utilise des formules de politesse.",
+      "truth": "true"
+     },
+     {
+      "text": "On parle clairement.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On tutoie toujours l’agent de la mairie.",
+      "truth": "false",
+      "explain": "On le vouvoie."
+     },
+     {
+      "text": "On joue sans préparer ses répliques.",
+      "truth": "false",
+      "explain": "On prépare d’abord."
+     },
+     {
+      "text": "On n’écoute jamais les remarques.",
+      "truth": "false",
+      "explain": "Les remarques aident à progresser."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

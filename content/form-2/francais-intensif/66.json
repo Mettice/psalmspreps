@@ -1,0 +1,399 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 66,
+ "language": "fr",
+ "prerequisites": [
+  40
+ ],
+ "skills": [
+  {
+   "id": "fi2-66",
+   "name": "La narration (suite) : raconter un événement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Raconter, c’est présenter des faits dans l’ordre où ils se sont passés.\nLe plan d’un récit :\n1. la situation initiale : où ? quand ? qui ? (« Un samedi matin, au marché de Mokolo, … »)\n2. l’élément perturbateur : ce qui change (« Soudain, … »)\n3. les péripéties : les actions qui suivent (« Alors…, ensuite…, puis… »)\n4. la situation finale : comment cela se termine (« Finalement, … »)\nTemps du récit : l’imparfait pour le décor, le passé simple (ou le passé composé) pour les actions.\nMots de liaison : un jour, soudain, tout à coup, alors, ensuite, puis, enfin, finalement.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mets dans l’ordre : (a) Finalement, le voleur fut arrêté. (b) Un matin, au marché, Ayuk vendait des oranges. (c) Alors, Ayuk cria et les gens coururent. (d) Soudain, un homme prit son porte-monnaie.",
+  "steps": [
+   "Situation initiale (b), élément perturbateur « Soudain » (d).",
+   "Péripétie « Alors » (c), situation finale « Finalement » (a)."
+  ],
+  "answer": "b, d, c, a",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c66-1",
+    "status": "draft",
+    "idea": "Un récit : situation initiale, élément perturbateur, péripéties, situation finale.",
+    "vars": {},
+    "example": [
+     "Soudain marque l’élément perturbateur."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-66-plan"
+    }
+   },
+   {
+    "id": "c66-2",
+    "status": "draft",
+    "idea": "Les mots de liaison donnent l’ordre : un jour, soudain, alors, ensuite, enfin.",
+    "vars": {},
+    "example": [
+     "Ensuite, il rentra chez lui."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-66-lien"
+    }
+   },
+   {
+    "id": "c66-3",
+    "status": "draft",
+    "idea": "Imparfait pour le décor ; passé simple pour les actions.",
+    "vars": {},
+    "example": [
+     "Il pleuvait. Soudain, la porte s’ouvrit."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-66-temps-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le soleil ___ et les oiseaux chantaient.",
+         "a": "brillait",
+         "w": [
+          "brilla",
+          "brillera"
+         ],
+         "e": [
+          "Le décor se met à l’imparfait.",
+          "C’est le futur."
+         ]
+        },
+        {
+         "s": "Soudain, un cri ___ dans la nuit.",
+         "a": "retentit",
+         "w": [
+          "retentissait",
+          "retentira"
+         ],
+         "e": [
+          "L’action soudaine se met au passé simple.",
+          "C’est le futur."
+         ]
+        },
+        {
+         "s": "Il ___ nuit quand le bus arriva.",
+         "a": "faisait",
+         "w": [
+          "fit",
+          "fera"
+         ],
+         "e": [
+          "Le décor se met à l’imparfait.",
+          "C’est le futur."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le temps qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-66-plan",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Un samedi matin, Bih allait au champ avec sa mère.",
+       "Soudain, elle vit un serpent sur le chemin.",
+       "Alors, elle cria et recula.",
+       "Sa mère prit un bâton et éloigna le serpent.",
+       "Finalement, elles arrivèrent au champ, encore émues."
+      ],
+      [
+       "Un soir, la famille regardait la télévision.",
+       "Tout à coup, le courant fut coupé.",
+       "Alors, le père alluma une lampe.",
+       "Ensuite, la grand-mère raconta un conte.",
+       "Finalement, tous allèrent dormir, contents."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le récit dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-66-lien",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il faisait beau. ___, un gros orage éclata.",
+       "a": "Soudain",
+       "w": [
+        "Finalement",
+        "D’abord"
+       ],
+       "e": [
+        "« Finalement » termine le récit.",
+        "« D’abord » commence une liste."
+       ]
+      },
+      {
+       "s": "Le voleur s’enfuit. ___, les policiers le poursuivirent.",
+       "a": "Alors",
+       "w": [
+        "Il était une fois",
+        "Enfin"
+       ],
+       "e": [
+        "C’est le début d’un conte.",
+        "« Enfin » termine."
+       ]
+      },
+      {
+       "s": "Après une longue journée, ___ ils rentrèrent à la maison.",
+       "a": "finalement",
+       "w": [
+        "soudain",
+        "un jour"
+       ],
+       "e": [
+        "« soudain » marque un changement brusque.",
+        "« un jour » commence."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot de liaison qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-66-temps",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le soleil ___ et les oiseaux chantaient.",
+       "a": "brillait",
+       "w": [
+        "brilla",
+        "brillera"
+       ],
+       "e": [
+        "Le décor se met à l’imparfait.",
+        "C’est le futur."
+       ]
+      },
+      {
+       "s": "Soudain, un cri ___ dans la nuit.",
+       "a": "retentit",
+       "w": [
+        "retentissait",
+        "retentira"
+       ],
+       "e": [
+        "L’action soudaine se met au passé simple.",
+        "C’est le futur."
+       ]
+      },
+      {
+       "s": "Il ___ nuit quand le bus arriva.",
+       "a": "faisait",
+       "w": [
+        "fit",
+        "fera"
+       ],
+       "e": [
+        "Le décor se met à l’imparfait.",
+        "C’est le futur."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le temps qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-66-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour raconter est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On raconte dans l’ordre.",
+      "truth": "true"
+     },
+     {
+      "text": "On utilise des mots de liaison.",
+      "truth": "true"
+     },
+     {
+      "text": "On commence par la situation initiale.",
+      "truth": "true"
+     },
+     {
+      "text": "On termine par la situation finale.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On commence par la fin de l’histoire sans rien expliquer.",
+      "truth": "false",
+      "explain": "On commence par la situation initiale."
+     },
+     {
+      "text": "Le décor se met au passé simple.",
+      "truth": "false",
+      "explain": "Le décor se met à l’imparfait."
+     },
+     {
+      "text": "« Finalement » commence toujours le récit.",
+      "truth": "false",
+      "explain": "Il termine le récit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

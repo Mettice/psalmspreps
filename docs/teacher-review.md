@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-224 P1 items: 222 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+227 P1 items: 225 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3, Français intensif Term 2 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -252,6 +252,9 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-Z10 | Form 2 French: Term 2 verb forms | open |
 | TR-Z11 | Form 2 French: civic facts | open |
 | TR-Z12 | Form 2 French: grammar and texts | open |
+| TR-Z13 | Form 2 Français intensif: Term 2 tenses | open |
+| TR-Z14 | Form 2 Français intensif: grammar rules | open |
+| TR-Z15 | Form 2 Français intensif: texts and sensitive themes | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -952,3 +955,12 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 - [ ] **TR-Z10 [P1] New verb forms (french2.js):** futur simple stems (serai, aurai, irai, ferai, verrai, viendrai, enverrai, recevrai, prendrai; appellerai, achèterai), conditionnel, futur proche, plus-que-parfait, impératif (mange / finis / va / sois / aie), subjonctif présent (from the « ils » stem; être, avoir, aller, faire irregular); envoyer and recevoir added to the verb table. *Location:* rows 47, 52, 58, 62, 66, 68; src/engine/lib/french2.js.
 - [ ] **TR-Z11 [P1] Civic and administrative facts:** 10 regions, 58 departments, 360 arrondissements; governor, préfet, sous-préfet, maire; civil-status documents and the CNI from 18; the highway code basics. *Location:* rows 40, 42, 46.
 - [ ] **TR-Z12 [P1] Grammar rules and texts:** plurals in -ou (the seven in -oux), bel/nouvel/vieil/fol, countable and uncountable nouns, indefinite adjectives (tout/chaque/aucun), « si » after a negative question; the texts « La carte d’identité de Nfor » and « Le compte d’épargne de Mama Ngo ». *Location:* rows 39, 43, 45, 50, 54, 60, 64, 67.
+
+## Z (Term 2, Français intensif). Français intensif Form 2, Batch FI2-2 (Term 2, rows 53–76 and 78–102), added 2026-10-21 (form-2 branch)
+
+49 lessons in two modules (« Vie citoyenne et ouverture au monde », « Activités économiques et monde du travail »): plurals in -ou/-eu, plus-que-parfait, liaison, decentralisation, two recitations (« Mon drapeau », « Le chant des bâtisseurs »), three reading texts and three literary texts (all original), description, portrait and narration, indefinite pronouns and adjectives, passé simple, s → [z], d → [t], cultures elsewhere, social conflicts, violence against women and children, competitive sport, the anthem's vocabulary, the compound sentence, subjonctif, [ɛ], advertising, conditionnel, œ, work obligations, job interview, compound nouns, [m], banking, images, and revision lessons. Integration rows 77 and 103 are not lessons. Reviewer: a French teacher.
+
+### P1
+- [ ] **TR-Z13 [P1] Tense identification and the new verb forms:** the revision lessons (rows 97, 102) mix présent, imparfait, passé composé, plus-que-parfait, futur simple and conditionnel from french2.js; please check the forms and that the questions are not ambiguous. *Location:* rows 54, 62, 79, 86, 97, 102.
+- [ ] **TR-Z14 [P1] Grammar rules chosen:** compound-noun plurals follow the traditional rule (des porte-monnaie, des tire-bouchons, des chefs-d’œuvre), not the 1990 reform; liaison rules; « quand / quant à »; indefinite pronouns and adjectives. *Location:* rows 53, 55, 61, 67, 68, 91.
+- [ ] **TR-Z15 [P1] Original texts and sensitive vocabulary:** the poems and texts written for the app (Mon drapeau, Le grand nettoyage, La calebasse de Ngono, Le chant des bâtisseurs, L’atelier de Tchoua, Le pari du jeune tisserand, La lettre de Mme Ekwalla); the vocabulary on discrimination, tribalism, nepotism and violence against women and children (rows 69, 74); the anthem's first line only is quoted. *Location:* rows 57, 58, 60, 69, 74, 76, 82, 83, 85, 98.

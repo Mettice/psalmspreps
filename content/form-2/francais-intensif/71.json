@@ -1,0 +1,408 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 71,
+ "language": "fr",
+ "prerequisites": [
+  19,
+  70
+ ],
+ "skills": [
+  {
+   "id": "fi2-71",
+   "name": "Écrire un court texte à partir d’images"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour écrire un texte à partir d’une ou de plusieurs images :\n1. Observer chaque image : qui ? où ? quand ? que se passe-t-il ?\n2. Mettre les images dans l’ordre (pour un récit) ou choisir l’idée principale (pour une description).\n3. Écrire une phrase ou deux par image, en reliant avec des mots de liaison : d’abord, ensuite, puis, enfin.\n4. Ajouter une phrase de conclusion ou une morale.\n5. Relire : majuscules, points, accords, temps des verbes.\nExemple de trois images : un garçon trouve un porte-monnaie ; il le porte au commissariat ; la propriétaire le remercie. → un récit sur l’honnêteté.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Trois images : un garçon trouve un porte-monnaie ; puis il le porte au commissariat ; enfin une dame le remercie. Écris la première phrase et la conclusion.",
+  "steps": [
+   "Première image : « Un matin, en allant à l’école, Tabe trouva un porte-monnaie sur la route. »",
+   "Conclusion : « L’honnêteté est toujours récompensée. »"
+  ],
+  "answer": "Un matin, Tabe trouva un porte-monnaie… L’honnêteté est toujours récompensée.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c71-1",
+    "status": "draft",
+    "idea": "On observe chaque image : qui, où, quand, quoi.",
+    "vars": {},
+    "example": [
+     "Première image : un garçon, sur la route, le matin."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-71-obs"
+    }
+   },
+   {
+    "id": "c71-2",
+    "status": "draft",
+    "idea": "On écrit une ou deux phrases par image, reliées par d’abord, ensuite, enfin.",
+    "vars": {},
+    "example": [
+     "Ensuite, il alla au commissariat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-71-lien"
+    }
+   },
+   {
+    "id": "c71-3",
+    "status": "draft",
+    "idea": "On termine par une conclusion ou une morale, puis on relit.",
+    "vars": {},
+    "example": [
+     "L’honnêteté est toujours récompensée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-71-concl-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Images : un élève ne révise pas, il échoue ; il travaille, il réussit. Quelle est la meilleure conclusion ?",
+         "r": "Le travail mène au succès.",
+         "w": [
+          "Il faisait beau.",
+          "Il y avait un arbre.",
+          "L’école est loin."
+         ],
+         "e": [
+          "C’est un détail.",
+          "C’est un détail.",
+          "Ce n’est pas la leçon."
+         ],
+         "y": "La conclusion donne la leçon."
+        },
+        {
+         "q": "Que faut-il faire après avoir écrit son texte ?",
+         "r": "le relire pour corriger les fautes",
+         "w": [
+          "le jeter",
+          "l’écrire en majuscules",
+          "ajouter des images"
+         ],
+         "e": [
+          "Il faut le garder.",
+          "Ce n’est pas utile.",
+          "On demande un texte."
+         ],
+         "y": "On vérifie majuscules, points, accords."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-71-obs",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que fait-on en premier devant une série d’images ?",
+       "r": "observer chaque image",
+       "w": [
+        "écrire la conclusion",
+        "recopier un autre texte",
+        "colorier les images"
+       ],
+       "e": [
+        "La conclusion vient à la fin.",
+        "On écrit son propre texte.",
+        "Ce n’est pas le but."
+       ],
+       "y": "On regarde qui, où, quand, quoi."
+      },
+      {
+       "q": "Quelle question aide à observer une image ?",
+       "r": "Que se passe-t-il ?",
+       "w": [
+        "Combien coûte l’image ?",
+        "Qui a imprimé le papier ?",
+        "Quelle heure est-il maintenant ?"
+       ],
+       "e": [
+        "Ce n’est pas utile.",
+        "Ce n’est pas utile.",
+        "Ce n’est pas l’image."
+       ],
+       "y": "On cherche l’action."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-71-lien",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Un matin, Tabe trouva un porte-monnaie sur la route.",
+       "D’abord, il regarda autour de lui, mais il ne vit personne.",
+       "Ensuite, il le porta au commissariat.",
+       "Enfin, la propriétaire vint le remercier.",
+       "L’honnêteté est toujours récompensée."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le récit des images dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-71-concl",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Images : un élève ne révise pas, il échoue ; il travaille, il réussit. Quelle est la meilleure conclusion ?",
+       "r": "Le travail mène au succès.",
+       "w": [
+        "Il faisait beau.",
+        "Il y avait un arbre.",
+        "L’école est loin."
+       ],
+       "e": [
+        "C’est un détail.",
+        "C’est un détail.",
+        "Ce n’est pas la leçon."
+       ],
+       "y": "La conclusion donne la leçon."
+      },
+      {
+       "q": "Que faut-il faire après avoir écrit son texte ?",
+       "r": "le relire pour corriger les fautes",
+       "w": [
+        "le jeter",
+        "l’écrire en majuscules",
+        "ajouter des images"
+       ],
+       "e": [
+        "Il faut le garder.",
+        "Ce n’est pas utile.",
+        "On demande un texte."
+       ],
+       "y": "On vérifie majuscules, points, accords."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-71-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On observe chaque image.",
+      "truth": "true"
+     },
+     {
+      "text": "On met les images dans l’ordre.",
+      "truth": "true"
+     },
+     {
+      "text": "On utilise des mots de liaison.",
+      "truth": "true"
+     },
+     {
+      "text": "On relit son texte.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On écrit sans regarder les images.",
+      "truth": "false",
+      "explain": "On observe d’abord."
+     },
+     {
+      "text": "On ne met jamais de conclusion.",
+      "truth": "false",
+      "explain": "On termine par une conclusion ou une morale."
+     },
+     {
+      "text": "On écrit dix pages pour une image.",
+      "truth": "false",
+      "explain": "Une ou deux phrases par image suffisent."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,390 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 90,
+ "language": "fr",
+ "prerequisites": [
+  59
+ ],
+ "skills": [
+  {
+   "id": "fi2-90",
+   "name": "Le portrait d’un travailleur"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Faire le portrait d’une personne, c’est la décrire physiquement et moralement, souvent dans son activité.\nPlan :\n1. Présenter la personne : « Ma tante Ewane est commerçante au marché Mokolo. »\n2. Le portrait physique : taille, visage, cheveux, vêtements, gestes : « Elle est grande ; ses mains agiles comptent vite l’argent. »\n3. Le portrait moral : qualités et défauts, avec un exemple : « Elle est honnête : elle rend toujours la monnaie exacte. »\n4. Le portrait en action : ce qu’elle fait au travail.\n5. La conclusion : le sentiment qu’on a pour elle : « J’admire son courage. »\nOn utilise des adjectifs précis, des comparaisons et le présent.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Donne une qualité morale d’un bon commerçant et un exemple qui la prouve.",
+  "steps": [
+   "Une qualité : l’honnêteté.",
+   "Un exemple : « Il ne triche jamais sur le poids des marchandises. »"
+  ],
+  "answer": "Il est honnête : il ne triche jamais sur le poids des marchandises.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c90-1",
+    "status": "draft",
+    "idea": "Le portrait : présentation, physique, moral, action, conclusion.",
+    "vars": {},
+    "example": [
+     "Ma tante est commerçante."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-90-plan"
+    }
+   },
+   {
+    "id": "c90-2",
+    "status": "draft",
+    "idea": "Une qualité morale se prouve par un exemple.",
+    "vars": {},
+    "example": [
+     "Elle est généreuse : elle aide les voisins."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-90-exemple"
+    }
+   },
+   {
+    "id": "c90-3",
+    "status": "draft",
+    "idea": "On termine par le sentiment qu’on a pour la personne.",
+    "vars": {},
+    "example": [
+     "J’admire son courage."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-90-concl-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase peut conclure un portrait ?",
+         "r": "J’admire son courage et sa bonne humeur.",
+         "w": [
+          "Elle est grande.",
+          "Elle travaille au marché.",
+          "Ses yeux sont noirs."
+         ],
+         "e": [
+          "C’est le physique.",
+          "C’est la présentation.",
+          "C’est le physique."
+         ],
+         "y": "La conclusion donne un sentiment."
+        },
+        {
+         "q": "Quelle phrase fait le portrait moral ?",
+         "r": "Il est généreux : il aide les voisins.",
+         "w": [
+          "Il porte une casquette.",
+          "Il est mince.",
+          "Il a une barbe."
+         ],
+         "e": [
+          "C’est le physique.",
+          "C’est le physique.",
+          "C’est le physique."
+         ],
+         "y": "Une qualité avec un exemple."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-90-plan",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Mon oncle Fon est mécanicien à Bamenda.",
+       "C’est un homme petit et costaud.",
+       "Ses mains sont noires de graisse.",
+       "Il est patient : il explique tout à ses apprentis.",
+       "J’admire son amour du travail bien fait."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le portrait dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-90-exemple",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "honnête",
+       "r": "Il rend toujours la monnaie exacte.",
+       "w": [
+        "Il porte une chemise bleue.",
+        "Il habite près du marché."
+       ]
+      },
+      {
+       "q": "courageuse",
+       "r": "Elle se lève à quatre heures pour aller au champ.",
+       "w": [
+        "Elle a les cheveux courts.",
+        "Elle aime le jaune."
+       ]
+      },
+      {
+       "q": "patient",
+       "r": "Il explique plusieurs fois aux apprentis sans se fâcher.",
+       "w": [
+        "Il est grand.",
+        "Il a un vélo."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Quel exemple prouve la qualité « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "ex"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "ex"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ex",
+     "explain": "Cet exemple décrit l’apparence ou un détail, il ne prouve pas la qualité."
+    }
+   ],
+   "solution": [
+    "Un exemple montre la qualité en action.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-90-concl",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase peut conclure un portrait ?",
+       "r": "J’admire son courage et sa bonne humeur.",
+       "w": [
+        "Elle est grande.",
+        "Elle travaille au marché.",
+        "Ses yeux sont noirs."
+       ],
+       "e": [
+        "C’est le physique.",
+        "C’est la présentation.",
+        "C’est le physique."
+       ],
+       "y": "La conclusion donne un sentiment."
+      },
+      {
+       "q": "Quelle phrase fait le portrait moral ?",
+       "r": "Il est généreux : il aide les voisins.",
+       "w": [
+        "Il porte une casquette.",
+        "Il est mince.",
+        "Il a une barbe."
+       ],
+       "e": [
+        "C’est le physique.",
+        "C’est le physique.",
+        "C’est le physique."
+       ],
+       "y": "Une qualité avec un exemple."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-90-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour faire un portrait est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On présente la personne.",
+      "truth": "true"
+     },
+     {
+      "text": "On décrit le physique et le moral.",
+      "truth": "true"
+     },
+     {
+      "text": "On prouve une qualité par un exemple.",
+      "truth": "true"
+     },
+     {
+      "text": "On termine par un sentiment.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On cite des qualités sans jamais donner d’exemple.",
+      "truth": "false",
+      "explain": "Un exemple prouve la qualité."
+     },
+     {
+      "text": "Le portrait moral décrit seulement les vêtements.",
+      "truth": "false",
+      "explain": "Il décrit le caractère."
+     },
+     {
+      "text": "On écrit le portrait sans aucun ordre.",
+      "truth": "false",
+      "explain": "On suit un plan."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,438 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 61,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-61",
+   "name": "Les pronoms indéfinis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un pronom indéfini remplace un nom en désignant des personnes ou des choses de façon vague.\n• Quantité nulle : personne, rien, aucun(e), nul : « Personne n’est venu. » « Je ne vois rien. » (avec « ne »)\n• Quantité imprécise : quelqu’un, quelque chose, certains, plusieurs, quelques-uns : « Quelqu’un frappe à la porte. »\n• Totalité : tout, tous, toutes, chacun, chacune : « Chacun a reçu un cahier. » « Tous sont présents. »\n• Autres : on, l’un, l’autre, autrui, n’importe qui.\nAttention : l’adjectif indéfini est suivi d’un nom (chaque élève) ; le pronom indéfini est seul (chacun).\n« Chacun » et « personne » demandent un verbe au singulier.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans « Chaque élève a un livre ; chacun le lit », quel mot est un pronom indéfini ?",
+  "steps": [
+   "« Chaque » est suivi du nom « élève » : c’est un adjectif indéfini.",
+   "« chacun » est seul et remplace « chaque élève » : c’est un pronom indéfini."
+  ],
+  "answer": "chacun",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c61-1",
+    "status": "draft",
+    "idea": "Le pronom indéfini remplace un nom de façon vague : quelqu’un, rien, chacun, tous.",
+    "vars": {},
+    "example": [
+     "Quelqu’un chante."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-61-quoi"
+    }
+   },
+   {
+    "id": "c61-2",
+    "status": "draft",
+    "idea": "« personne » et « rien » s’emploient avec « ne ».",
+    "vars": {},
+    "example": [
+     "Je n’entends rien."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-61-neg"
+    }
+   },
+   {
+    "id": "c61-3",
+    "status": "draft",
+    "idea": "Adjectif indéfini + nom (chaque élève) ; pronom indéfini seul (chacun).",
+    "vars": {},
+    "example": [
+     "Plusieurs élèves / plusieurs sont venus."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-61-diff-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans quelle phrase « plusieurs » est-il un pronom ?",
+         "r": "Plusieurs sont partis tôt.",
+         "w": [
+          "Plusieurs élèves sont partis.",
+          "J’ai lu plusieurs livres.",
+          "Plusieurs femmes chantent."
+         ],
+         "e": [
+          "Il est suivi d’un nom : adjectif.",
+          "Il est suivi d’un nom : adjectif.",
+          "Il est suivi d’un nom : adjectif."
+         ],
+         "y": "Il est seul : pronom."
+        },
+        {
+         "q": "Quelle phrase est correcte ?",
+         "r": "Chacun doit respecter la loi.",
+         "w": [
+          "Chacun doivent respecter la loi.",
+          "Chaque doit respecter la loi.",
+          "Chacuns doivent respecter la loi."
+         ],
+         "e": [
+          "« Chacun » demande le singulier.",
+          "« Chaque » doit être suivi d’un nom.",
+          "« chacun » ne prend pas de -s."
+         ],
+         "y": "chacun + verbe au singulier."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-61-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Quelqu’un a laissé son sac », quel mot est un pronom indéfini ?",
+       "r": "Quelqu’un",
+       "w": [
+        "a",
+        "son",
+        "sac"
+       ],
+       "e": [
+        "C’est un verbe.",
+        "C’est un déterminant.",
+        "C’est un nom."
+       ],
+       "y": "Il désigne une personne de façon vague."
+      },
+      {
+       "q": "Dans « Tous sont arrivés à l’heure », quel mot est un pronom indéfini ?",
+       "r": "Tous",
+       "w": [
+        "sont",
+        "arrivés",
+        "heure"
+       ],
+       "e": [
+        "C’est un verbe.",
+        "C’est un participe.",
+        "C’est un nom."
+       ],
+       "y": "« Tous » remplace un nom."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-61-neg",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "J’ai frappé, mais ___ n’a répondu.",
+       "a": "personne",
+       "w": [
+        "quelqu’un",
+        "tous"
+       ],
+       "e": [
+        "Avec « ne », on emploie « personne ».",
+        "Le verbe est au singulier avec « ne »."
+       ]
+      },
+      {
+       "s": "Il fait noir : je ne vois ___.",
+       "a": "rien",
+       "w": [
+        "tout",
+        "chacun"
+       ],
+       "e": [
+        "Avec « ne », on emploie « rien ».",
+        "« chacun » désigne une personne."
+       ]
+      },
+      {
+       "s": "___ a reçu un cadeau à la fête.",
+       "a": "Chacun",
+       "w": [
+        "Chaque",
+        "Rien"
+       ],
+       "e": [
+        "« Chaque » doit être suivi d’un nom.",
+        "« Rien » désigne une chose."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le pronom indéfini qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-61-diff",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quelle phrase « plusieurs » est-il un pronom ?",
+       "r": "Plusieurs sont partis tôt.",
+       "w": [
+        "Plusieurs élèves sont partis.",
+        "J’ai lu plusieurs livres.",
+        "Plusieurs femmes chantent."
+       ],
+       "e": [
+        "Il est suivi d’un nom : adjectif.",
+        "Il est suivi d’un nom : adjectif.",
+        "Il est suivi d’un nom : adjectif."
+       ],
+       "y": "Il est seul : pronom."
+      },
+      {
+       "q": "Quelle phrase est correcte ?",
+       "r": "Chacun doit respecter la loi.",
+       "w": [
+        "Chacun doivent respecter la loi.",
+        "Chaque doit respecter la loi.",
+        "Chacuns doivent respecter la loi."
+       ],
+       "e": [
+        "« Chacun » demande le singulier.",
+        "« Chaque » doit être suivi d’un nom.",
+        "« chacun » ne prend pas de -s."
+       ],
+       "y": "chacun + verbe au singulier."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-61-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Personne n’est absent.",
+      "truth": "true"
+     },
+     {
+      "text": "Quelqu’un chante dehors.",
+      "truth": "true"
+     },
+     {
+      "text": "Chacun a son livre.",
+      "truth": "true"
+     },
+     {
+      "text": "Je ne sais rien.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Personne ne sont venus.",
+      "truth": "false",
+      "explain": "« personne » demande le singulier : personne n’est venu."
+     },
+     {
+      "text": "Chaque a fini son travail.",
+      "truth": "false",
+      "explain": "« Chaque » doit être suivi d’un nom ; on dit « chacun »."
+     },
+     {
+      "text": "Je vois rien.",
+      "truth": "false",
+      "explain": "Il faut « ne » : je ne vois rien."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

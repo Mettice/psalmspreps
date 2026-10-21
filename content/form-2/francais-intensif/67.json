@@ -1,0 +1,430 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 67,
+ "language": "fr",
+ "prerequisites": [
+  61
+ ],
+ "skills": [
+  {
+   "id": "fi2-67",
+   "name": "Les adjectifs indéfinis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’adjectif indéfini accompagne un nom et donne une idée vague de quantité ou d’identité.\n• Quantité nulle : aucun, aucune, nul, nulle (avec « ne ») : « Aucun élève n’est absent. »\n• Petite quantité ou quantité imprécise : quelques, plusieurs, certains, certaines, divers : « Quelques élèves chantent. »\n• Totalité : tout, toute, tous, toutes, chaque : « Toute la classe applaudit. » « Chaque enfant a un cahier. »\n• Identité ou différence : même, autre, tel, telle : « Nous avons les mêmes idées. »\nAccords : tout s’accorde (tout le village, toute la ville, tous les jours, toutes les filles) ; chaque et aucun restent au singulier.\nDifférence : « Chaque élève » (adjectif + nom) ; « chacun » (pronom seul).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « ___ les filles de la classe ont réussi. » (tout)",
+  "steps": [
+   "« filles » est féminin pluriel.",
+   "« tout » s’accorde avec le nom : toutes."
+  ],
+  "answer": "Toutes les filles de la classe ont réussi.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c67-1",
+    "status": "draft",
+    "idea": "L’adjectif indéfini se place devant un nom : quelques, plusieurs, chaque, aucun, tout.",
+    "vars": {},
+    "example": [
+     "Plusieurs élèves lisent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-67-quoi"
+    }
+   },
+   {
+    "id": "c67-2",
+    "status": "draft",
+    "idea": "tout, toute, tous, toutes s’accordent avec le nom.",
+    "vars": {},
+    "example": [
+     "toute la journée, tous les soirs"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-67-tout"
+    }
+   },
+   {
+    "id": "c67-3",
+    "status": "draft",
+    "idea": "« chaque » et « aucun » restent au singulier.",
+    "vars": {},
+    "example": [
+     "Chaque élève lève la main."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-67-sing-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "___ élève doit apporter son livre.",
+         "a": "Chaque",
+         "w": [
+          "Plusieurs",
+          "Tous"
+         ],
+         "e": [
+          "« élève » est singulier.",
+          "« élève » est singulier."
+         ]
+        },
+        {
+         "s": "___ bruit ne venait de la forêt.",
+         "a": "Aucun",
+         "w": [
+          "Quelques",
+          "Plusieurs"
+         ],
+         "e": [
+          "« bruit » est au singulier avec « ne ».",
+          "Avec « ne », on dit « aucun »."
+         ]
+        },
+        {
+         "s": "J’ai ___ amis à Garoua.",
+         "a": "plusieurs",
+         "w": [
+          "chaque",
+          "aucun"
+         ],
+         "e": [
+          "« chaque » demande le singulier.",
+          "« aucun » demande « ne » et le singulier."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-67-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Quelques enfants jouent », quel mot est un adjectif indéfini ?",
+       "r": "Quelques",
+       "w": [
+        "enfants",
+        "jouent",
+        "aucun mot"
+       ],
+       "e": [
+        "C’est un nom.",
+        "C’est un verbe.",
+        "Il y en a un."
+       ],
+       "y": "Il accompagne le nom « enfants »."
+      },
+      {
+       "q": "Dans « Ils ont le même âge », quel mot est un adjectif indéfini ?",
+       "r": "même",
+       "w": [
+        "Ils",
+        "ont",
+        "âge"
+       ],
+       "e": [
+        "C’est un pronom.",
+        "C’est un verbe.",
+        "C’est un nom."
+       ],
+       "y": "« même » exprime l’identité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-67-tout",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ la ville parle de la fête.",
+       "a": "Toute",
+       "w": [
+        "Tout",
+        "Toutes"
+       ],
+       "e": [
+        "« ville » est féminin.",
+        "« ville » est singulier."
+       ]
+      },
+      {
+       "s": "Il va au champ ___ les matins.",
+       "a": "tous",
+       "w": [
+        "tout",
+        "toutes"
+       ],
+       "e": [
+        "« matins » est pluriel.",
+        "« matins » est masculin."
+       ]
+      },
+      {
+       "s": "___ le village est réuni.",
+       "a": "Tout",
+       "w": [
+        "Toute",
+        "Tous"
+       ],
+       "e": [
+        "« village » est masculin.",
+        "« village » est singulier."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme de « tout ».",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-67-sing",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ élève doit apporter son livre.",
+       "a": "Chaque",
+       "w": [
+        "Plusieurs",
+        "Tous"
+       ],
+       "e": [
+        "« élève » est singulier.",
+        "« élève » est singulier."
+       ]
+      },
+      {
+       "s": "___ bruit ne venait de la forêt.",
+       "a": "Aucun",
+       "w": [
+        "Quelques",
+        "Plusieurs"
+       ],
+       "e": [
+        "« bruit » est au singulier avec « ne ».",
+        "Avec « ne », on dit « aucun »."
+       ]
+      },
+      {
+       "s": "J’ai ___ amis à Garoua.",
+       "a": "plusieurs",
+       "w": [
+        "chaque",
+        "aucun"
+       ],
+       "e": [
+        "« chaque » demande le singulier.",
+        "« aucun » demande « ne » et le singulier."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-67-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Chaque enfant a un cahier.",
+      "truth": "true"
+     },
+     {
+      "text": "Toutes les femmes chantent.",
+      "truth": "true"
+     },
+     {
+      "text": "Aucun élève n’est absent.",
+      "truth": "true"
+     },
+     {
+      "text": "Quelques amis sont venus.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chaques enfants ont un cahier.",
+      "truth": "false",
+      "explain": "« chaque » reste au singulier."
+     },
+     {
+      "text": "Tout les garçons jouent.",
+      "truth": "false",
+      "explain": "Au masculin pluriel : tous les garçons."
+     },
+     {
+      "text": "Aucuns élèves sont absents.",
+      "truth": "false",
+      "explain": "On dit : aucun élève n’est absent."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

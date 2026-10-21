@@ -1,0 +1,407 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 94,
+ "language": "fr",
+ "prerequisites": [
+  70
+ ],
+ "skills": [
+  {
+   "id": "fi2-94",
+   "name": "Interpréter une image sur le monde du travail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rappel de la méthode : présenter le document, décrire en situant, dire le message, donner son avis.\nPour une photo de travail, on peut aussi observer :\n• les personnes : qui sont-elles ? que font-elles ? leurs gestes, leurs outils, leurs vêtements (casque, blouse, gants) ;\n• le lieu : un champ, une usine, un bureau, un marché, un chantier ;\n• l’ambiance : effort, joie, fatigue, danger.\nLe message peut porter sur la valeur du travail, la sécurité au travail (porter un casque), l’égalité hommes-femmes, ou dénoncer le travail des enfants.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une photo montre des ouvriers sur un chantier, avec des casques et des gilets orange. Quel message peut-elle transmettre ?",
+  "steps": [
+   "On décrit : des ouvriers, un chantier, des casques et des gilets de sécurité.",
+   "Message : la sécurité au travail est importante ; il faut porter des équipements de protection."
+  ],
+  "answer": "La sécurité au travail : il faut porter des équipements de protection.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c94-1",
+    "status": "draft",
+    "idea": "On observe les personnes, leurs gestes, leurs outils et le lieu.",
+    "vars": {},
+    "example": [
+     "Un ouvrier en casque sur un chantier."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-94-obs"
+    }
+   },
+   {
+    "id": "c94-2",
+    "status": "draft",
+    "idea": "Le message peut porter sur la valeur du travail, la sécurité ou l’égalité.",
+    "vars": {},
+    "example": [
+     "Une femme conduit un tracteur : l’égalité."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-94-msg-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Une affiche montre un enfant qui porte de lourdes briques au lieu d’aller à l’école. Quel est son message ?",
+         "r": "Elle dénonce le travail des enfants.",
+         "w": [
+          "Elle vend des briques.",
+          "Elle montre un beau métier pour les enfants.",
+          "Elle parle de la météo."
+         ],
+         "e": [
+          "Ce n’est pas une publicité.",
+          "C’est le contraire.",
+          "Ce n’est pas le sujet."
+         ],
+         "y": "L’enfant devrait être à l’école."
+        },
+        {
+         "q": "Une photo montre une femme ingénieure qui dirige un chantier. Quel message peut-on en tirer ?",
+         "r": "Les femmes peuvent exercer tous les métiers.",
+         "w": [
+          "Les chantiers sont fermés.",
+          "Les femmes ne travaillent pas.",
+          "Il pleut beaucoup."
+         ],
+         "e": [
+          "Ce n’est pas le sens.",
+          "C’est le contraire.",
+          "Ce n’est pas le sujet."
+         ],
+         "y": "Égalité hommes-femmes."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c94-3",
+    "status": "draft",
+    "idea": "On termine par son avis : « À mon avis… ».",
+    "vars": {},
+    "example": [
+     "À mon avis, cette affiche est utile."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-94-avis"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-94-obs",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase décrit les outils sur une photo ?",
+       "r": "Au premier plan, un menuisier tient un rabot.",
+       "w": [
+        "Le travail est important.",
+        "À mon avis, c’est beau.",
+        "Cette photo dénonce la paresse."
+       ],
+       "e": [
+        "C’est le message.",
+        "C’est un avis.",
+        "C’est une interprétation."
+       ],
+       "y": "Elle décrit un outil."
+      },
+      {
+       "q": "Que porte un ouvrier pour se protéger la tête sur un chantier ?",
+       "r": "un casque",
+       "w": [
+        "un chapeau de paille",
+        "une casquette de football",
+        "rien"
+       ],
+       "e": [
+        "Il ne protège pas.",
+        "Elle ne protège pas.",
+        "C’est dangereux."
+       ],
+       "y": "Le casque est un équipement de sécurité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-94-msg",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une affiche montre un enfant qui porte de lourdes briques au lieu d’aller à l’école. Quel est son message ?",
+       "r": "Elle dénonce le travail des enfants.",
+       "w": [
+        "Elle vend des briques.",
+        "Elle montre un beau métier pour les enfants.",
+        "Elle parle de la météo."
+       ],
+       "e": [
+        "Ce n’est pas une publicité.",
+        "C’est le contraire.",
+        "Ce n’est pas le sujet."
+       ],
+       "y": "L’enfant devrait être à l’école."
+      },
+      {
+       "q": "Une photo montre une femme ingénieure qui dirige un chantier. Quel message peut-on en tirer ?",
+       "r": "Les femmes peuvent exercer tous les métiers.",
+       "w": [
+        "Les chantiers sont fermés.",
+        "Les femmes ne travaillent pas.",
+        "Il pleut beaucoup."
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "C’est le contraire.",
+        "Ce n’est pas le sujet."
+       ],
+       "y": "Égalité hommes-femmes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-94-avis",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Cette photo montre un champ de thé à Ndu.",
+       "Au premier plan, des femmes cueillent les feuilles.",
+       "À l’arrière-plan, on voit des collines vertes.",
+       "Elle montre l’importance du travail agricole.",
+       "À mon avis, ces travailleuses méritent notre respect."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets la présentation dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-94-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On observe les gestes et les outils.",
+      "truth": "true"
+     },
+     {
+      "text": "On décrit le lieu.",
+      "truth": "true"
+     },
+     {
+      "text": "On dit le message.",
+      "truth": "true"
+     },
+     {
+      "text": "On donne son avis à la fin.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On donne son avis avant de regarder la photo.",
+      "truth": "false",
+      "explain": "On observe et on décrit d’abord."
+     },
+     {
+      "text": "Le message ne parle jamais du travail.",
+      "truth": "false",
+      "explain": "Il peut porter sur la valeur ou la sécurité du travail."
+     },
+     {
+      "text": "Le casque de chantier est un objet de décoration.",
+      "truth": "false",
+      "explain": "C’est un équipement de sécurité."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

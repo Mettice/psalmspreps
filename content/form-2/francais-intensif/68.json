@@ -1,0 +1,440 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 68,
+ "language": "fr",
+ "prerequisites": [
+  55
+ ],
+ "skills": [
+  {
+   "id": "fi2-68",
+   "name": "Le d qui se prononce [t] en liaison"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "En liaison, la lettre d finale se prononce [t] devant une voyelle ou un h muet :\n• quand‿on entend [kɑ̃tɔ̃] ; quand‿il pleut ; quand‿elle arrive ;\n• un grand‿homme [ɡʁɑ̃tɔm] ; un grand‿arbre ; prend‿-il ? ; répond‿-elle ?\nOn écrit d, mais on entend [t].\nAttention à « quand » (avec d) et « quant à » (avec t) :\n• quand = au moment où : « Quand il pleut, je reste à la maison. »\n• quant à = en ce qui concerne : « Quant à moi, je reste. »\nPas de liaison devant un h aspiré : un grand / héros.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Comment se prononce « quand on entend » ? Comment s’écrit le mot « quand » ?",
+  "steps": [
+   "Le d de « quand » se prononce [t] devant « on » : [kɑ̃tɔ̃nɑ̃tɑ̃].",
+   "On écrit toujours « quand » avec un d."
+  ],
+  "answer": "On entend [t] mais on écrit « quand » avec d.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c68-1",
+    "status": "draft",
+    "idea": "En liaison, d se prononce [t] : quand‿il, un grand‿arbre.",
+    "vars": {},
+    "example": [
+     "On écrit d, on entend [t]."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-68-son"
+    }
+   },
+   {
+    "id": "c68-2",
+    "status": "draft",
+    "idea": "« quand » (au moment où) s’écrit avec d ; « quant à » (en ce qui concerne) avec t.",
+    "vars": {},
+    "example": [
+     "Quand il vient… / Quant à lui…"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-68-quand"
+    }
+   },
+   {
+    "id": "c68-3",
+    "status": "draft",
+    "idea": "Pas de liaison devant un h aspiré : un grand / héros.",
+    "vars": {},
+    "example": [
+     "un grand‿homme (h muet), un grand / hibou (h aspiré)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-68-h-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans quel groupe ne fait-on pas la liaison ?",
+         "r": "un grand héros",
+         "w": [
+          "un grand homme",
+          "quand il",
+          "un grand arbre"
+         ],
+         "e": [
+          "h muet : liaison.",
+          "Liaison obligatoire.",
+          "Liaison."
+         ],
+         "y": "« héros » a un h aspiré."
+        },
+        {
+         "q": "Comment se prononce le d de « répond-elle ? »",
+         "r": "[t]",
+         "w": [
+          "[d]",
+          "il est muet",
+          "[z]"
+         ],
+         "e": [
+          "En liaison, d se prononce [t].",
+          "On fait la liaison avec le pronom.",
+          "Ce n’est pas un s."
+         ],
+         "y": "répond‿-elle [t]."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-68-son",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel son entend-on dans « quand‿il » ?",
+       "r": "[t]",
+       "w": [
+        "[d]",
+        "[z]",
+        "rien"
+       ],
+       "e": [
+        "En liaison, d se prononce [t].",
+        "Ce n’est pas un s.",
+        "On fait la liaison."
+       ],
+       "y": "quand‿il [t]."
+      },
+      {
+       "q": "Quel son entend-on dans « un grand‿arbre » ?",
+       "r": "[t]",
+       "w": [
+        "[d]",
+        "[n]",
+        "[z]"
+       ],
+       "e": [
+        "En liaison, d se prononce [t].",
+        "Ce n’est pas un n.",
+        "Ce n’est pas un s."
+       ],
+       "y": "grand‿arbre [t]."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-68-quand",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ on entend la cloche, on entre en classe.",
+       "a": "Quand",
+       "w": [
+        "Quant",
+        "Qu’en"
+       ],
+       "e": [
+        "« quant » s’emploie dans « quant à ».",
+        "« qu’en » veut dire « que en »."
+       ]
+      },
+      {
+       "s": "___ à moi, je préfère le football.",
+       "a": "Quant",
+       "w": [
+        "Quand",
+        "Qu’en"
+       ],
+       "e": [
+        "On écrit « quant à » (en ce qui concerne).",
+        "Ce n’est pas le sens."
+       ]
+      },
+      {
+       "s": "___ il fait chaud, nous buvons beaucoup d’eau.",
+       "a": "Quand",
+       "w": [
+        "Quant",
+        "Camp"
+       ],
+       "e": [
+        "« quant » s’emploie dans « quant à ».",
+        "Ce n’est pas le mot."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-68-h",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel groupe ne fait-on pas la liaison ?",
+       "r": "un grand héros",
+       "w": [
+        "un grand homme",
+        "quand il",
+        "un grand arbre"
+       ],
+       "e": [
+        "h muet : liaison.",
+        "Liaison obligatoire.",
+        "Liaison."
+       ],
+       "y": "« héros » a un h aspiré."
+      },
+      {
+       "q": "Comment se prononce le d de « répond-elle ? »",
+       "r": "[t]",
+       "w": [
+        "[d]",
+        "il est muet",
+        "[z]"
+       ],
+       "e": [
+        "En liaison, d se prononce [t].",
+        "On fait la liaison avec le pronom.",
+        "Ce n’est pas un s."
+       ],
+       "y": "répond‿-elle [t]."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-68-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Quand il pleut, je reste à la maison.",
+      "truth": "true"
+     },
+     {
+      "text": "Quant à toi, tu viens avec nous.",
+      "truth": "true"
+     },
+     {
+      "text": "Un grand arbre pousse ici.",
+      "truth": "true"
+     },
+     {
+      "text": "Quand elle arrive, nous mangeons.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Quant il pleut, la route est glissante.",
+      "truth": "false",
+      "explain": "Au moment où : quand."
+     },
+     {
+      "text": "Quand à moi, je reste ici.",
+      "truth": "false",
+      "explain": "En ce qui concerne : quant à."
+     },
+     {
+      "text": "Kan il vient, je suis content.",
+      "truth": "false",
+      "explain": "On écrit « quand »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

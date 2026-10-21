@@ -1,0 +1,460 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 83,
+ "language": "fr",
+ "prerequisites": [
+  58
+ ],
+ "skills": [
+  {
+   "id": "fi2-83",
+   "name": "Lire un texte sur le monde du travail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte : L’atelier de Tchoua\nTchoua a vingt ans. Après le CAP de menuiserie, il a ouvert un petit atelier à Bafoussam avec l’aide d’un prêt de sa tontine. Au début, les clients étaient rares. Alors Tchoua a pris une décision : il a fabriqué de beaux bancs pour l’école du quartier, à petit prix. Les parents ont admiré son travail, et les commandes sont arrivées : des lits, des tables, des portes. Aujourd’hui, Tchoua emploie deux apprentis. Il leur répète : « Un bon artisan est ponctuel, honnête et soigneux. Le client satisfait est notre meilleure publicité. »\n(texte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Comment Tchoua a-t-il trouvé ses premiers clients ?",
+  "steps": [
+   "Au début, les clients étaient rares.",
+   "Il a fabriqué de beaux bancs pour l’école à petit prix ; les parents ont admiré son travail et ont commandé."
+  ],
+  "answer": "En fabriquant des bancs pour l’école : les parents ont vu son travail et ont commandé.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c83-1",
+    "status": "draft",
+    "idea": "On cherche qui, quoi, où, quand, comment et pourquoi.",
+    "vars": {},
+    "example": [
+     "Qui ? Tchoua. Où ? À Bafoussam."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-83-comp"
+    }
+   },
+   {
+    "id": "c83-2",
+    "status": "draft",
+    "idea": "Un apprenti apprend un métier auprès d’un artisan ; une tontine est une épargne collective.",
+    "vars": {},
+    "example": [
+     "Tchoua emploie deux apprentis."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-83-mot"
+    }
+   },
+   {
+    "id": "c83-3",
+    "status": "draft",
+    "idea": "La leçon : un bon artisan est ponctuel, honnête et soigneux.",
+    "vars": {},
+    "example": [
+     "Le client satisfait est la meilleure publicité."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-83-idee-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est l’idée principale ?",
+         "r": "Le travail soigné et honnête attire les clients et fait réussir.",
+         "w": [
+          "Il faut abandonner quand les clients sont rares.",
+          "La menuiserie est un métier inutile.",
+          "Les apprentis ne servent à rien."
+         ],
+         "e": [
+          "Tchoua n’abandonne pas.",
+          "C’est le contraire.",
+          "Ce n’est pas dit."
+         ],
+         "y": "Sa qualité a fait sa réussite."
+        },
+        {
+         "q": "que veut dire « Le client satisfait est notre meilleure publicité » ?",
+         "r": "Un client content parle de nous à d’autres clients.",
+         "w": [
+          "Il faut payer beaucoup de publicités.",
+          "Les clients n’aiment pas la publicité.",
+          "Il ne faut pas avoir de clients."
+         ],
+         "e": [
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens."
+         ],
+         "y": "Le bouche-à-oreille."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « L’atelier de Tchoua » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-83-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel est le métier de Tchoua ?",
+       "r": "menuisier",
+       "w": [
+        "maçon",
+        "mécanicien",
+        "couturier"
+       ],
+       "e": [
+        "Le texte parle de menuiserie.",
+        "Le texte parle de menuiserie.",
+        "Le texte parle de menuiserie."
+       ],
+       "y": "Il a un CAP de menuiserie."
+      },
+      {
+       "q": "où se trouve son atelier ?",
+       "r": "à Bafoussam",
+       "w": [
+        "à Douala",
+        "à Garoua",
+        "à Kribi"
+       ],
+       "e": [
+        "Le texte dit Bafoussam.",
+        "Le texte dit Bafoussam.",
+        "Le texte dit Bafoussam."
+       ],
+       "y": "« un petit atelier à Bafoussam »."
+      },
+      {
+       "q": "combien d’apprentis emploie-t-il aujourd’hui ?",
+       "r": "deux",
+       "w": [
+        "aucun",
+        "dix",
+        "cinq"
+       ],
+       "e": [
+        "Le texte dit deux.",
+        "Le texte dit deux.",
+        "Le texte dit deux."
+       ],
+       "y": "« deux apprentis »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « L’atelier de Tchoua » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-83-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que veut dire « une tontine » ?",
+       "r": "un groupe qui met de l’argent en commun",
+       "w": [
+        "un outil de menuisier",
+        "une école",
+        "un meuble"
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Une épargne collective."
+      },
+      {
+       "q": "que veut dire « ponctuel » ?",
+       "r": "qui arrive à l’heure",
+       "w": [
+        "qui travaille mal",
+        "qui est en retard",
+        "qui ment"
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "C’est le contraire.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Il respecte l’heure."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « L’atelier de Tchoua » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-83-idee",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est l’idée principale ?",
+       "r": "Le travail soigné et honnête attire les clients et fait réussir.",
+       "w": [
+        "Il faut abandonner quand les clients sont rares.",
+        "La menuiserie est un métier inutile.",
+        "Les apprentis ne servent à rien."
+       ],
+       "e": [
+        "Tchoua n’abandonne pas.",
+        "C’est le contraire.",
+        "Ce n’est pas dit."
+       ],
+       "y": "Sa qualité a fait sa réussite."
+      },
+      {
+       "q": "que veut dire « Le client satisfait est notre meilleure publicité » ?",
+       "r": "Un client content parle de nous à d’autres clients.",
+       "w": [
+        "Il faut payer beaucoup de publicités.",
+        "Les clients n’aiment pas la publicité.",
+        "Il ne faut pas avoir de clients."
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Le bouche-à-oreille."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « L’atelier de Tchoua » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-83-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Quelle phrase ne correspond pas au texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Tchoua a vingt ans.",
+      "truth": "true"
+     },
+     {
+      "text": "Il a eu un prêt de sa tontine.",
+      "truth": "true"
+     },
+     {
+      "text": "Il a fabriqué des bancs pour l’école.",
+      "truth": "true"
+     },
+     {
+      "text": "Il emploie deux apprentis.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tchoua a fermé son atelier.",
+      "truth": "false",
+      "explain": "Il a réussi et il emploie des apprentis."
+     },
+     {
+      "text": "Tchoua est mécanicien à Douala.",
+      "truth": "false",
+      "explain": "Il est menuisier à Bafoussam."
+     },
+     {
+      "text": "Tchoua dit qu’un artisan peut être en retard.",
+      "truth": "false",
+      "explain": "Il dit qu’un bon artisan est ponctuel."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

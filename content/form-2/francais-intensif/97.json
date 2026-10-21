@@ -1,0 +1,493 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 97,
+ "language": "fr",
+ "prerequisites": [
+  47,
+  54,
+  79,
+  86
+ ],
+ "skills": [
+  {
+   "id": "fi2-97",
+   "name": "Révision : identifier les points de grammaire et les temps verbaux"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour reconnaître un temps :\n• présent : je chante ; imparfait : -ais, -ait, -aient (je chantais) ;\n• passé composé : auxiliaire au présent + participe (j’ai chanté) ; plus-que-parfait : auxiliaire à l’imparfait + participe (j’avais chanté) ;\n• futur simple : -ai, -as, -a, -ons, -ez, -ont (je chanterai) ; conditionnel : radical du futur + -ais, -ait (je chanterais) ;\n• subjonctif : après « il faut que », « je veux que » (que je chante).\nPoints de grammaire du trimestre : la phrase interro-négative, la phrase composée, les pronoms et adjectifs indéfinis, les noms composés, la liaison.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "venir",
+   "p": 6
+  },
+  "problem": "À quel temps est « {fr2Form2(v, p, 'conditionnel présent')} » ?",
+  "steps": [
+   "Un seul mot, avec le radical du futur viendr-.",
+   "La terminaison -aient est celle de l’imparfait : c’est le conditionnel présent."
+  ],
+  "answer": "au conditionnel présent",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c97-1",
+    "status": "draft",
+    "idea": "Futur : -ai, -as, -a ; conditionnel : radical du futur + -ais, -ait.",
+    "vars": {},
+    "example": [
+     "je viendrai / je viendrais"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-97-temps"
+    }
+   },
+   {
+    "id": "c97-2",
+    "status": "draft",
+    "idea": "Passé composé : auxiliaire au présent ; plus-que-parfait : auxiliaire à l’imparfait.",
+    "vars": {},
+    "example": [
+     "j’ai fini / j’avais fini"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-97-compose-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "parler",
+        "manger",
+        "finir",
+        "choisir",
+        "faire",
+        "prendre",
+        "venir",
+        "aller",
+        "être",
+        "avoir",
+        "voir",
+        "travailler"
+       ]
+      },
+      "p": {
+       "int": [
+        0,
+        7
+       ]
+      },
+      "t": {
+       "pick": [
+        "passé composé",
+        "plus-que-parfait"
+       ]
+      }
+     },
+     "prompt": "À quel temps est « {fr2Form2(v, p, t)} » ?",
+     "correct": "{t}",
+     "distractors": [
+      {
+       "text": "passé composé",
+       "misconception": "pc"
+      },
+      {
+       "text": "plus-que-parfait",
+       "misconception": "pqp"
+      },
+      {
+       "text": "imparfait",
+       "misconception": "imp"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "pres",
+       "explain": "Au présent, on aurait : {fr2Form2(v, p, 'présent')}."
+      },
+      {
+       "id": "imp",
+       "explain": "À l’imparfait, on aurait : {fr2Form2(v, p, 'imparfait')}."
+      },
+      {
+       "id": "pc",
+       "explain": "Au passé composé, on aurait : {fr2Form2(v, p, 'passé composé')}."
+      },
+      {
+       "id": "fut",
+       "explain": "Au futur simple, on aurait : {fr2Form2(v, p, 'futur simple')} (-ai, -as, -a…)."
+      },
+      {
+       "id": "cond",
+       "explain": "Au conditionnel, on aurait : {fr2Form2(v, p, 'conditionnel présent')} (-ais, -ait…)."
+      },
+      {
+       "id": "pqp",
+       "explain": "Au plus-que-parfait, on aurait : {fr2Form2(v, p, 'plus-que-parfait')}."
+      }
+     ],
+     "solution": [
+      "Regarde l’auxiliaire : au présent (passé composé) ou à l’imparfait (plus-que-parfait).",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c97-3",
+    "status": "draft",
+    "idea": "On reconnaît aussi les points de grammaire : pronoms indéfinis, phrase composée, noms composés.",
+    "vars": {},
+    "example": [
+     "Chacun travaille et tous réussissent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-97-gram"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-97-temps",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "manger",
+      "finir",
+      "choisir",
+      "faire",
+      "prendre",
+      "venir",
+      "aller",
+      "être",
+      "avoir",
+      "voir",
+      "travailler"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "t": {
+     "pick": [
+      "présent",
+      "imparfait",
+      "futur simple",
+      "conditionnel présent"
+     ]
+    }
+   },
+   "prompt": "À quel temps est « {fr2Form2(v, p, t)} » ?",
+   "correct": "{t}",
+   "distractors": [
+    {
+     "text": "présent",
+     "misconception": "pres"
+    },
+    {
+     "text": "imparfait",
+     "misconception": "imp"
+    },
+    {
+     "text": "futur simple",
+     "misconception": "fut"
+    },
+    {
+     "text": "conditionnel présent",
+     "misconception": "cond"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pres",
+     "explain": "Au présent, on aurait : {fr2Form2(v, p, 'présent')}."
+    },
+    {
+     "id": "imp",
+     "explain": "À l’imparfait, on aurait : {fr2Form2(v, p, 'imparfait')}."
+    },
+    {
+     "id": "pc",
+     "explain": "Au passé composé, on aurait : {fr2Form2(v, p, 'passé composé')}."
+    },
+    {
+     "id": "fut",
+     "explain": "Au futur simple, on aurait : {fr2Form2(v, p, 'futur simple')} (-ai, -as, -a…)."
+    },
+    {
+     "id": "cond",
+     "explain": "Au conditionnel, on aurait : {fr2Form2(v, p, 'conditionnel présent')} (-ais, -ait…)."
+    },
+    {
+     "id": "pqp",
+     "explain": "Au plus-que-parfait, on aurait : {fr2Form2(v, p, 'plus-que-parfait')}."
+    }
+   ],
+   "solution": [
+    "Regarde la forme : {fr2Form2(v, p, t)}.",
+    "Donc : {answer}."
+   ],
+   "where": "fr2Form2(v, p, 'présent') != fr2Form2(v, p, 'imparfait') && fr2Form2(v, p, 'futur simple') != fr2Form2(v, p, 'conditionnel présent')",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-97-compose",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "manger",
+      "finir",
+      "choisir",
+      "faire",
+      "prendre",
+      "venir",
+      "aller",
+      "être",
+      "avoir",
+      "voir",
+      "travailler"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "t": {
+     "pick": [
+      "passé composé",
+      "plus-que-parfait"
+     ]
+    }
+   },
+   "prompt": "À quel temps est « {fr2Form2(v, p, t)} » ?",
+   "correct": "{t}",
+   "distractors": [
+    {
+     "text": "passé composé",
+     "misconception": "pc"
+    },
+    {
+     "text": "plus-que-parfait",
+     "misconception": "pqp"
+    },
+    {
+     "text": "imparfait",
+     "misconception": "imp"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pres",
+     "explain": "Au présent, on aurait : {fr2Form2(v, p, 'présent')}."
+    },
+    {
+     "id": "imp",
+     "explain": "À l’imparfait, on aurait : {fr2Form2(v, p, 'imparfait')}."
+    },
+    {
+     "id": "pc",
+     "explain": "Au passé composé, on aurait : {fr2Form2(v, p, 'passé composé')}."
+    },
+    {
+     "id": "fut",
+     "explain": "Au futur simple, on aurait : {fr2Form2(v, p, 'futur simple')} (-ai, -as, -a…)."
+    },
+    {
+     "id": "cond",
+     "explain": "Au conditionnel, on aurait : {fr2Form2(v, p, 'conditionnel présent')} (-ais, -ait…)."
+    },
+    {
+     "id": "pqp",
+     "explain": "Au plus-que-parfait, on aurait : {fr2Form2(v, p, 'plus-que-parfait')}."
+    }
+   ],
+   "solution": [
+    "Regarde l’auxiliaire : au présent (passé composé) ou à l’imparfait (plus-que-parfait).",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-97-gram",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Personne n’est venu », quelle est la nature de « Personne » ?",
+       "r": "un pronom indéfini",
+       "w": [
+        "un nom commun",
+        "un adjectif",
+        "un verbe"
+       ],
+       "e": [
+        "Ici, il ne désigne pas une personne précise.",
+        "Il n’accompagne pas un nom.",
+        "Le verbe est « est venu »."
+       ],
+       "y": "Pronom indéfini avec « ne »."
+      },
+      {
+       "q": "Combien de propositions dans « Il pleut, mais nous travaillons » ?",
+       "r": "deux",
+       "w": [
+        "une",
+        "trois",
+        "quatre"
+       ],
+       "e": [
+        "Il y a deux verbes conjugués.",
+        "Il y a deux verbes conjugués.",
+        "Il y a deux verbes conjugués."
+       ],
+       "y": "pleut, travaillons."
+      },
+      {
+       "q": "Quel est le pluriel de « un porte-monnaie » ?",
+       "r": "des porte-monnaie",
+       "w": [
+        "des portes-monnaies",
+        "des porte-monnaies",
+        "des portes-monnaie"
+       ],
+       "e": [
+        "« porte » est un verbe : invariable.",
+        "Règle traditionnelle : « monnaie » reste au singulier ici (on porte de la monnaie).",
+        "« porte » est un verbe : invariable."
+       ],
+       "y": "verbe + nom non comptable : invariable."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-97-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "« je viendrai » est au futur simple.",
+      "truth": "true"
+     },
+     {
+      "text": "« j’avais fini » est au plus-que-parfait.",
+      "truth": "true"
+     },
+     {
+      "text": "« que tu viennes » est au subjonctif.",
+      "truth": "true"
+     },
+     {
+      "text": "« chacun » est un pronom indéfini.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "« nous irions » est au futur simple.",
+      "truth": "false",
+      "explain": "-ions avec le radical du futur : conditionnel présent."
+     },
+     {
+      "text": "« elle était partie » est au passé composé.",
+      "truth": "false",
+      "explain": "Auxiliaire à l’imparfait : plus-que-parfait."
+     },
+     {
+      "text": "« chaque » est un pronom indéfini.",
+      "truth": "false",
+      "explain": "« chaque » est un adjectif indéfini (suivi d’un nom)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

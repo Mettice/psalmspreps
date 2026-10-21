@@ -1,0 +1,440 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 87,
+ "language": "fr",
+ "prerequisites": [
+  37
+ ],
+ "skills": [
+  {
+   "id": "fi2-87",
+   "name": "La ligature œ"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La lettre œ (o et e collés) se trouve dans des mots d’origine latine. Elle se prononce de plusieurs façons :\n• [œ] ou [ø] dans œu : un œuf, le cœur, la sœur, un bœuf, un vœu, une œuvre, la manœuvre ;\n• [œ] dans œil (un œil, mais des yeux) ;\n• [e] dans quelques mots savants : le fœtus, l’œsophage.\nAu pluriel : un œuf [œf] → des œufs [ø] ; un bœuf [bœf] → des bœufs [bø] : le f ne se prononce plus.\nMots du travail : une œuvre (un travail achevé), la main-d’œuvre (les travailleurs), un chef-d’œuvre, la manœuvre.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris correctement : « La main-d’euvre de l’usine est nombreuse. »",
+  "steps": [
+   "Le mot « œuvre » s’écrit avec la ligature œ.",
+   "On écrit : main-d’œuvre."
+  ],
+  "answer": "La main-d’œuvre de l’usine est nombreuse.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c87-1",
+    "status": "draft",
+    "idea": "œ (o et e collés) : un œuf, la sœur, le cœur, une œuvre.",
+    "vars": {},
+    "example": [
+     "un bœuf, un vœu"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-87-mot"
+    }
+   },
+   {
+    "id": "c87-2",
+    "status": "draft",
+    "idea": "Au pluriel, le f de œuf et bœuf ne se prononce plus.",
+    "vars": {},
+    "example": [
+     "des œufs [ø], des bœufs [bø]"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-87-pl"
+    }
+   },
+   {
+    "id": "c87-3",
+    "status": "draft",
+    "idea": "La main-d’œuvre, ce sont les travailleurs ; un chef-d’œuvre est un travail parfait.",
+    "vars": {},
+    "example": [
+     "Ce tableau est un chef-d’œuvre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-87-travail-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Que veut dire « la main-d’œuvre » ?",
+         "r": "les travailleurs d’une entreprise",
+         "w": [
+          "une main blessée",
+          "un œuf cassé",
+          "un outil"
+         ],
+         "e": [
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens."
+         ],
+         "y": "Le travail des ouvriers."
+        },
+        {
+         "q": "Que veut dire « un chef-d’œuvre » ?",
+         "r": "un travail très réussi",
+         "w": [
+          "un chef d’entreprise",
+          "un œuf de chef",
+          "un mauvais travail"
+         ],
+         "e": [
+          "Ce n’est pas le sens.",
+          "Ce n’est pas le sens.",
+          "C’est le contraire."
+         ],
+         "y": "Une œuvre parfaite."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-87-mot",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma ___ travaille à l’hôpital.",
+       "a": "sœur",
+       "w": [
+        "seur",
+        "soeur"
+       ],
+       "e": [
+        "On écrit œu.",
+        "On colle o et e : œ."
+       ]
+      },
+      {
+       "s": "Le fermier vend un ___.",
+       "a": "bœuf",
+       "w": [
+        "beuf",
+        "boef"
+       ],
+       "e": [
+        "On écrit œu.",
+        "Il manque le u."
+       ]
+      },
+      {
+       "s": "Je fais un ___ pour la nouvelle année.",
+       "a": "vœu",
+       "w": [
+        "veu",
+        "voeu"
+       ],
+       "e": [
+        "On écrit œu.",
+        "On colle o et e : œ."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-87-pl",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel est le pluriel de « un œil » ?",
+       "r": "des yeux",
+       "w": [
+        "des œils",
+        "des œux",
+        "des œufs"
+       ],
+       "e": [
+        "Ce pluriel est irrégulier.",
+        "Ce mot n’existe pas.",
+        "C’est le pluriel de « œuf »."
+       ],
+       "y": "un œil, des yeux."
+      },
+      {
+       "q": "Dans « des œufs », prononce-t-on le f ?",
+       "r": "non",
+       "w": [
+        "oui",
+        "seulement le matin",
+        "deux fois"
+       ],
+       "e": [
+        "Au pluriel, le f ne se prononce plus.",
+        "Ce n’est pas une règle.",
+        "Ce n’est pas une règle."
+       ],
+       "y": "des œufs [ø]."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-87-travail",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que veut dire « la main-d’œuvre » ?",
+       "r": "les travailleurs d’une entreprise",
+       "w": [
+        "une main blessée",
+        "un œuf cassé",
+        "un outil"
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Le travail des ouvriers."
+      },
+      {
+       "q": "Que veut dire « un chef-d’œuvre » ?",
+       "r": "un travail très réussi",
+       "w": [
+        "un chef d’entreprise",
+        "un œuf de chef",
+        "un mauvais travail"
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens.",
+        "C’est le contraire."
+       ],
+       "y": "Une œuvre parfaite."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-87-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quel mot est mal écrit ?",
+   "pool": {
+    "right": [
+     {
+      "text": "un œuf",
+      "truth": "true"
+     },
+     {
+      "text": "le cœur",
+      "truth": "true"
+     },
+     {
+      "text": "une œuvre",
+      "truth": "true"
+     },
+     {
+      "text": "la sœur",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "la main-d’euvre",
+      "truth": "false",
+      "explain": "On écrit main-d’œuvre."
+     },
+     {
+      "text": "des œils",
+      "truth": "false",
+      "explain": "Le pluriel de œil est yeux."
+     },
+     {
+      "text": "un beuf",
+      "truth": "false",
+      "explain": "On écrit bœuf."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,397 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 81,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-81",
+   "name": "Le lexique de la publicité"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La publicité est un message qui cherche à faire acheter un produit ou un service, ou à faire adopter un comportement.\nMots utiles : une annonce, une affiche, un spot (à la radio, à la télévision), un slogan, un logo, une marque, un produit, un consommateur, un annonceur (celui qui paie la publicité), une promotion, une réduction, un panneau publicitaire.\nLes moyens de la publicité : des images attirantes, des couleurs vives, un slogan court qui rime, une célébrité, des promesses (« le meilleur », « nouveau », « gratuit »).\nUne publicité peut informer, mais elle peut aussi tromper : il faut garder un esprit critique et comparer les prix et la qualité.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans la publicité « Savon Kola : propre en un instant ! », relève la marque et le slogan.",
+  "steps": [
+   "La marque est le nom du produit : « Savon Kola ».",
+   "Le slogan est la phrase courte : « propre en un instant ! »"
+  ],
+  "answer": "Marque : Savon Kola ; slogan : « propre en un instant ! »",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c81-1",
+    "status": "draft",
+    "idea": "La publicité cherche à faire acheter un produit ou adopter un comportement.",
+    "vars": {},
+    "example": [
+     "Une affiche pour un savon."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-81-but"
+    }
+   },
+   {
+    "id": "c81-2",
+    "status": "draft",
+    "idea": "Mots : slogan, logo, marque, annonceur, consommateur, promotion.",
+    "vars": {},
+    "example": [
+     "Le logo est le dessin de la marque."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-81-mot"
+    }
+   },
+   {
+    "id": "c81-3",
+    "status": "draft",
+    "idea": "Il faut garder un esprit critique devant la publicité.",
+    "vars": {},
+    "example": [
+     "Comparer les prix et la qualité."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-81-critique-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Une publicité dit : « Ce médicament guérit toutes les maladies ! » Que faut-il penser ?",
+         "r": "C’est sans doute faux : il faut demander l’avis d’un médecin.",
+         "w": [
+          "C’est forcément vrai.",
+          "Il faut en acheter beaucoup.",
+          "Il faut arrêter d’aller à l’hôpital."
+         ],
+         "e": [
+          "La publicité peut tromper.",
+          "Ce n’est pas prudent.",
+          "C’est dangereux."
+         ],
+         "y": "Esprit critique."
+        },
+        {
+         "q": "Quel moyen la publicité utilise-t-elle pour attirer ?",
+         "r": "des couleurs vives et un slogan qui rime",
+         "w": [
+          "des textes très longs et gris",
+          "aucune image",
+          "des fautes d’orthographe"
+         ],
+         "e": [
+          "Ce n’est pas attirant.",
+          "Les images attirent.",
+          "Ce n’est pas un moyen."
+         ],
+         "y": "Images, couleurs, slogan."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-81-but",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel est le but principal d’une publicité commerciale ?",
+       "r": "faire acheter un produit",
+       "w": [
+        "raconter un conte",
+        "donner la météo",
+        "enseigner la grammaire"
+       ],
+       "e": [
+        "Ce n’est pas son but.",
+        "Ce n’est pas son but.",
+        "Ce n’est pas son but."
+       ],
+       "y": "Elle veut convaincre d’acheter."
+      },
+      {
+       "q": "Qui paie une publicité ?",
+       "r": "l’annonceur",
+       "w": [
+        "le consommateur",
+        "le passant",
+        "l’élève"
+       ],
+       "e": [
+        "Il achète le produit.",
+        "Il voit la publicité.",
+        "Ce n’est pas le cas."
+       ],
+       "y": "L’annonceur paie le message."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-81-mot",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "le slogan",
+     "right": "une phrase courte et frappante"
+    },
+    {
+     "left": "le logo",
+     "right": "le dessin qui représente une marque"
+    },
+    {
+     "left": "le consommateur",
+     "right": "celui qui achète et utilise le produit"
+    },
+    {
+     "left": "une promotion",
+     "right": "une baisse de prix pour une durée limitée"
+    },
+    {
+     "left": "un spot",
+     "right": "une courte publicité à la radio ou à la télévision"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-81-critique",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une publicité dit : « Ce médicament guérit toutes les maladies ! » Que faut-il penser ?",
+       "r": "C’est sans doute faux : il faut demander l’avis d’un médecin.",
+       "w": [
+        "C’est forcément vrai.",
+        "Il faut en acheter beaucoup.",
+        "Il faut arrêter d’aller à l’hôpital."
+       ],
+       "e": [
+        "La publicité peut tromper.",
+        "Ce n’est pas prudent.",
+        "C’est dangereux."
+       ],
+       "y": "Esprit critique."
+      },
+      {
+       "q": "Quel moyen la publicité utilise-t-elle pour attirer ?",
+       "r": "des couleurs vives et un slogan qui rime",
+       "w": [
+        "des textes très longs et gris",
+        "aucune image",
+        "des fautes d’orthographe"
+       ],
+       "e": [
+        "Ce n’est pas attirant.",
+        "Les images attirent.",
+        "Ce n’est pas un moyen."
+       ],
+       "y": "Images, couleurs, slogan."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-81-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le slogan est une phrase courte.",
+      "truth": "true"
+     },
+     {
+      "text": "L’annonceur paie la publicité.",
+      "truth": "true"
+     },
+     {
+      "text": "Il faut garder un esprit critique.",
+      "truth": "true"
+     },
+     {
+      "text": "Une promotion baisse le prix.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Toutes les publicités disent toujours la vérité.",
+      "truth": "false",
+      "explain": "Certaines publicités exagèrent ou trompent."
+     },
+     {
+      "text": "Le logo est une longue phrase.",
+      "truth": "false",
+      "explain": "C’est un dessin qui représente la marque."
+     },
+     {
+      "text": "Le consommateur est celui qui fabrique le produit.",
+      "truth": "false",
+      "explain": "Il l’achète et l’utilise."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

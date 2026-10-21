@@ -1,0 +1,371 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 53,
+ "language": "fr",
+ "prerequisites": [
+  27
+ ],
+ "skills": [
+  {
+   "id": "fi2-53",
+   "name": "Les pluriels des noms en -ou, -au, -eau, -eu"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rappel des règles :\n• -ou → -ous : des trous, des clous, des cous, des sous, des fous ;\n  sauf sept noms en -oux : bijou, caillou, chou, genou, hibou, joujou, pou.\n• -au, -eau, -eu → -x : des tuyaux, des bateaux, des jeux, des feux, des cheveux ;\n  sauf : landau → landaus, sarrau → sarraus, pneu → pneus, bleu → bleus.\nDans une phrase, le nom pluriel entraîne l’accord du déterminant, de l’adjectif et du verbe : « Les vieux bateaux rentrent au port. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "pneu"
+  },
+  "problem": "Écris le pluriel de « {n} ».",
+  "steps": [
+   "Les noms en -eu prennent -x, mais « {n} » est une exception.",
+   "Donc : des {fr2NounPlural(n)}."
+  ],
+  "answer": "des {fr2NounPlural(n)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c53-1",
+    "status": "draft",
+    "idea": "Les noms en -ou prennent -s, sauf bijou, caillou, chou, genou, hibou, joujou, pou.",
+    "vars": {},
+    "example": [
+     "des trous, des cailloux"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-53-ou"
+    }
+   },
+   {
+    "id": "c53-2",
+    "status": "draft",
+    "idea": "Les noms en -au, -eau, -eu prennent -x, sauf landau, sarrau, pneu, bleu.",
+    "vars": {},
+    "example": [
+     "des jeux, des pneus"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-53-eu-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le mécanicien change les ___ (pneu) du camion.",
+         "n": "pneu"
+        },
+        {
+         "s": "Les ___ (jeu) de société amusent les enfants.",
+         "n": "jeu"
+        },
+        {
+         "s": "Les pêcheurs réparent leurs ___ (bateau).",
+         "n": "bateau"
+        },
+        {
+         "s": "Elle se tresse les ___ (cheveu).",
+         "n": "cheveu"
+        },
+        {
+         "s": "Les ___ (caillou) blessent les pieds.",
+         "n": "caillou"
+        },
+        {
+         "s": "Il y a des ___ (trou) dans le mur.",
+         "n": "trou"
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le nom au pluriel.",
+     "text": "{X.s}",
+     "answer": "fr2NounPlural(X.n)",
+     "misconceptions": [
+      {
+       "id": "naive",
+       "wrong": "fr2NounNaive(X.n)",
+       "explain": "{fr2NounRule(X.n)}."
+      }
+     ],
+     "solution": [
+      "{fr2NounRule(X.n)}.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c53-3",
+    "status": "draft",
+    "idea": "Le nom pluriel fait accorder les autres mots de la phrase.",
+    "vars": {},
+    "example": [
+     "Les hiboux chassent la nuit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-53-phrase"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-53-ou",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "bijou",
+      "caillou",
+      "chou",
+      "genou",
+      "hibou",
+      "joujou",
+      "pou",
+      "trou",
+      "clou",
+      "cou",
+      "sou",
+      "fou",
+      "bateau",
+      "jeu",
+      "feu",
+      "pneu",
+      "cheveu",
+      "landau"
+     ]
+    }
+   },
+   "prompt": "Quel est le pluriel de « {n} » ?",
+   "correct": "{fr2NounPlural(n)}",
+   "distractors": [
+    {
+     "text": "{fr2NounNaive(n)}",
+     "misconception": "rule"
+    },
+    {
+     "text": "{n}",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "rule",
+     "explain": "{fr2NounRule(n)}."
+    },
+    {
+     "id": "same",
+     "explain": "Au pluriel, le nom change."
+    }
+   ],
+   "solution": [
+    "{fr2NounRule(n)}.",
+    "Donc : des {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-53-eu",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le mécanicien change les ___ (pneu) du camion.",
+       "n": "pneu"
+      },
+      {
+       "s": "Les ___ (jeu) de société amusent les enfants.",
+       "n": "jeu"
+      },
+      {
+       "s": "Les pêcheurs réparent leurs ___ (bateau).",
+       "n": "bateau"
+      },
+      {
+       "s": "Elle se tresse les ___ (cheveu).",
+       "n": "cheveu"
+      },
+      {
+       "s": "Les ___ (caillou) blessent les pieds.",
+       "n": "caillou"
+      },
+      {
+       "s": "Il y a des ___ (trou) dans le mur.",
+       "n": "trou"
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le nom au pluriel.",
+   "text": "{X.s}",
+   "answer": "fr2NounPlural(X.n)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2NounNaive(X.n)",
+     "explain": "{fr2NounRule(X.n)}."
+    }
+   ],
+   "solution": [
+    "{fr2NounRule(X.n)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-53-phrase",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les ___ hululent dans la forêt.",
+       "a": "hiboux",
+       "w": [
+        "hibous",
+        "hibou"
+       ],
+       "e": [
+        "« hibou » prend -x.",
+        "Il faut le pluriel."
+       ]
+      },
+      {
+       "s": "Mon père a acheté deux ___ neufs.",
+       "a": "pneus",
+       "w": [
+        "pneux",
+        "pneu"
+       ],
+       "e": [
+        "« pneu » est une exception : -s.",
+        "Il faut le pluriel."
+       ]
+      },
+      {
+       "s": "Le menuisier plante des ___.",
+       "a": "clous",
+       "w": [
+        "cloux",
+        "clou"
+       ],
+       "e": [
+        "Les noms en -ou prennent -s.",
+        "Il faut le pluriel."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la forme qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-53-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Les bateaux rentrent au port.",
+      "truth": "true"
+     },
+     {
+      "text": "J’ai mal aux genoux.",
+      "truth": "true"
+     },
+     {
+      "text": "Les pneus sont usés.",
+      "truth": "true"
+     },
+     {
+      "text": "Les enfants jouent aux jeux.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Les feus de brousse détruisent la savane.",
+      "truth": "false",
+      "explain": "« feu » prend -x : des feux."
+     },
+     {
+      "text": "Il y a des troux dans la route.",
+      "truth": "false",
+      "explain": "« trou » prend -s : des trous."
+     },
+     {
+      "text": "Les pneux du taxi sont neufs.",
+      "truth": "false",
+      "explain": "« pneu » est une exception : des pneus."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

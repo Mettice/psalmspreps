@@ -1,0 +1,401 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 92,
+ "language": "fr",
+ "prerequisites": [
+  56
+ ],
+ "skills": [
+  {
+   "id": "fi2-92",
+   "name": "Le son [m]"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [m] s’écrit :\n• m : le maçon, le marché, la main, le métier, aimer ;\n• mm : la femme, la pomme, un homme, la commerçante, comment, commander, le commerce.\nOn écrit souvent mm après « co- » et « com- » : commencer, commun, commission (mais : comédie, comique).\nDevant m, b, p, on écrit m au lieu de n : emmener, emporter, embaucher, le timbre, la campagne.\nLes adverbes en -amment et -emment s’écrivent avec mm : couramment, prudemment, patiemment.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Le co__erçant va e__aucher un ma__on. »",
+  "steps": [
+   "« commerçant » : mm après co-.",
+   "« embaucher » : m devant b ; « maçon » : un seul m au début."
+  ],
+  "answer": "Le commerçant va embaucher un maçon.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c92-1",
+    "status": "draft",
+    "idea": "Le son [m] s’écrit m ou mm : le maçon, la femme.",
+    "vars": {},
+    "example": [
+     "le marché, la pomme"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-92-mm"
+    }
+   },
+   {
+    "id": "c92-2",
+    "status": "draft",
+    "idea": "Devant m, b, p, on écrit m : embaucher, emporter, emmener.",
+    "vars": {},
+    "example": [
+     "le timbre, la campagne"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-92-mbp"
+    }
+   },
+   {
+    "id": "c92-3",
+    "status": "draft",
+    "idea": "Les adverbes en -amment, -emment prennent mm.",
+    "vars": {},
+    "example": [
+     "couramment, prudemment"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-92-adv-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Elle parle ___ le français et l’anglais.",
+         "a": "couramment",
+         "w": [
+          "courament",
+          "couremment"
+         ],
+         "e": [
+          "-amment : deux m.",
+          "« courant » donne -amment."
+         ]
+        },
+        {
+         "s": "Le chauffeur conduit ___.",
+         "a": "prudemment",
+         "w": [
+          "prudament",
+          "prudement"
+         ],
+         "e": [
+          "« prudent » donne -emment.",
+          "Il faut deux m."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne écriture.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-92-mm",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le ___ est en plein essor au marché.",
+       "a": "commerce",
+       "w": [
+        "comerce",
+        "commerse"
+       ],
+       "e": [
+        "Deux m.",
+        "On écrit -ce."
+       ]
+      },
+      {
+       "s": "Le ___ construit un mur.",
+       "a": "maçon",
+       "w": [
+        "mmaçon",
+        "masson"
+       ],
+       "e": [
+        "Un seul m.",
+        "On écrit ç."
+       ]
+      },
+      {
+       "s": "Ma voisine est une ___ courageuse.",
+       "a": "femme",
+       "w": [
+        "fame",
+        "femm"
+       ],
+       "e": [
+        "Deux m.",
+        "Il manque le e."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-92-mbp",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "L’usine va ___ cinquante ouvriers.",
+       "a": "embaucher",
+       "w": [
+        "enbaucher",
+        "embauché"
+       ],
+       "e": [
+        "Devant b, on écrit m.",
+        "Après « va », l’infinitif."
+       ]
+      },
+      {
+       "s": "Il faut ___ ton cahier à l’école.",
+       "a": "emporter",
+       "w": [
+        "enporter",
+        "emporté"
+       ],
+       "e": [
+        "Devant p, on écrit m.",
+        "Après « faut », l’infinitif."
+       ]
+      },
+      {
+       "s": "J’ai collé un ___ sur la lettre.",
+       "a": "timbre",
+       "w": [
+        "tinbre",
+        "timbr"
+       ],
+       "e": [
+        "Devant b, on écrit m.",
+        "Il manque le e."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-92-adv",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Elle parle ___ le français et l’anglais.",
+       "a": "couramment",
+       "w": [
+        "courament",
+        "couremment"
+       ],
+       "e": [
+        "-amment : deux m.",
+        "« courant » donne -amment."
+       ]
+      },
+      {
+       "s": "Le chauffeur conduit ___.",
+       "a": "prudemment",
+       "w": [
+        "prudament",
+        "prudement"
+       ],
+       "e": [
+        "« prudent » donne -emment.",
+        "Il faut deux m."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-92-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quel mot est mal écrit ?",
+   "pool": {
+    "right": [
+     {
+      "text": "la femme",
+      "truth": "true"
+     },
+     {
+      "text": "embaucher",
+      "truth": "true"
+     },
+     {
+      "text": "le commerce",
+      "truth": "true"
+     },
+     {
+      "text": "couramment",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "enporter",
+      "truth": "false",
+      "explain": "Devant p, on écrit m : emporter."
+     },
+     {
+      "text": "comerçant",
+      "truth": "false",
+      "explain": "On écrit commerçant avec deux m."
+     },
+     {
+      "text": "prudament",
+      "truth": "false",
+      "explain": "On écrit prudemment."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

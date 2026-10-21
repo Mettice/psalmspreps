@@ -1,0 +1,351 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 56,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-56",
+   "name": "Les unités administratives (suite) : la décentralisation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La décentralisation donne une partie du pouvoir de l’État à des collectivités territoriales élues, plus proches des habitants.\n• La région (collectivité) : le conseil régional, présidé par le président du conseil régional ; il s’occupe du développement de la région.\n• La commune : le conseil municipal et le maire ; il s’occupe de l’état civil, des marchés, de la propreté, des écoles primaires.\n• La communauté urbaine (grandes villes comme Douala ou Yaoundé) : dirigée par le maire de la ville.\nÀ côté, les représentants de l’État sont nommés : le gouverneur (région), le préfet (département), le sous-préfet (arrondissement).\nMots utiles : élire, un conseiller, la collectivité territoriale, la mairie, l’hôtel de ville, le budget, le développement local.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Qui est élu et qui est nommé : le maire ou le sous-préfet ?",
+  "steps": [
+   "Le maire est élu par les conseillers municipaux choisis par les habitants.",
+   "Le sous-préfet est nommé par l’État."
+  ],
+  "answer": "Le maire est élu ; le sous-préfet est nommé.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c56-1",
+    "status": "draft",
+    "idea": "La décentralisation confie des pouvoirs à des collectivités élues : régions et communes.",
+    "vars": {},
+    "example": [
+     "Le conseil régional, le conseil municipal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-56-quoi"
+    }
+   },
+   {
+    "id": "c56-2",
+    "status": "draft",
+    "idea": "La commune s’occupe de l’état civil, des marchés, de la propreté et des écoles primaires.",
+    "vars": {},
+    "example": [
+     "La mairie établit les actes de naissance."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-56-commune"
+    }
+   },
+   {
+    "id": "c56-3",
+    "status": "draft",
+    "idea": "Les représentants de l’État (gouverneur, préfet, sous-préfet) sont nommés ; le maire est élu.",
+    "vars": {},
+    "example": [
+     "Le préfet représente l’État dans le département."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-56-elu-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "prompt": "Associe chaque responsable à ce qu’il dirige.",
+     "pool": [
+      {
+       "left": "le maire",
+       "right": "la commune"
+      },
+      {
+       "left": "le président du conseil régional",
+       "right": "la région (collectivité)"
+      },
+      {
+       "left": "le préfet",
+       "right": "le département"
+      },
+      {
+       "left": "le sous-préfet",
+       "right": "l’arrondissement"
+      },
+      {
+       "left": "le gouverneur",
+       "right": "la région (représentant de l’État)"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-56-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce que la décentralisation ?",
+       "r": "donner une partie du pouvoir de l’État à des collectivités élues",
+       "w": [
+        "fermer les mairies",
+        "supprimer les régions",
+        "donner tout le pouvoir à une seule ville"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "C’est le contraire.",
+        "C’est le contraire."
+       ],
+       "y": "Le pouvoir est rapproché des habitants."
+      },
+      {
+       "q": "Qui préside la commune ?",
+       "r": "le maire",
+       "w": [
+        "le gouverneur",
+        "le préfet",
+        "le président du conseil régional"
+       ],
+       "e": [
+        "Il représente l’État dans la région.",
+        "Il représente l’État dans le département.",
+        "Il préside la région."
+       ],
+       "y": "Le maire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-56-commune",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Laquelle de ces tâches revient à la commune ?",
+       "r": "la propreté des rues et des marchés",
+       "w": [
+        "la défense du pays",
+        "la monnaie",
+        "les relations avec les autres pays"
+       ],
+       "e": [
+        "C’est l’État.",
+        "C’est la banque centrale.",
+        "C’est l’État."
+       ],
+       "y": "La commune gère la vie locale."
+      },
+      {
+       "q": "Où établit-on un acte de naissance ?",
+       "r": "à la mairie (centre d’état civil)",
+       "w": [
+        "au commissariat",
+        "à la banque",
+        "à la gare"
+       ],
+       "e": [
+        "On y établit la CNI.",
+        "Ce n’est pas le lieu.",
+        "Ce n’est pas le lieu."
+       ],
+       "y": "L’état civil est une tâche de la commune."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-56-elu",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque responsable à ce qu’il dirige.",
+   "pool": [
+    {
+     "left": "le maire",
+     "right": "la commune"
+    },
+    {
+     "left": "le président du conseil régional",
+     "right": "la région (collectivité)"
+    },
+    {
+     "left": "le préfet",
+     "right": "le département"
+    },
+    {
+     "left": "le sous-préfet",
+     "right": "l’arrondissement"
+    },
+    {
+     "left": "le gouverneur",
+     "right": "la région (représentant de l’État)"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-56-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le maire est élu.",
+      "truth": "true"
+     },
+     {
+      "text": "Le préfet est nommé.",
+      "truth": "true"
+     },
+     {
+      "text": "La commune gère les marchés.",
+      "truth": "true"
+     },
+     {
+      "text": "La décentralisation rapproche le pouvoir des habitants.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le sous-préfet est élu par les habitants.",
+      "truth": "false",
+      "explain": "Il est nommé par l’État."
+     },
+     {
+      "text": "La commune bat la monnaie du pays.",
+      "truth": "false",
+      "explain": "C’est la banque centrale."
+     },
+     {
+      "text": "La décentralisation supprime les collectivités locales.",
+      "truth": "false",
+      "explain": "Elle leur donne des pouvoirs."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}
