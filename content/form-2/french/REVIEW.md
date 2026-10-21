@@ -190,6 +190,38 @@ Full working after a second miss:
 | 30 | Grammaire : -Accord des adjectifs de couleur( suite) | draft | 3 | 4 | — |
 | 31 | Vocabulaire : Les maladies (suite) | draft | 3 | 4 | — |
 | 32 | Expression orale : -Construction de phrases simples pour parler d’une maladie ou d’un malade | draft | 3 | 4 | — |
+| 36 | Grammaire: Les adjectifs qualificatifs : accord en genre et en nombre (révision) | draft | 3 | 4 | — |
+| 37 | Vocabulaire : Les loisirs et les jeux (suite) | draft | 3 | 4 | — |
+| 38 | Expression écrite : Construction de phrases simples pour parler de son environnement ou d’une maladie | draft | 3 | 4 | — |
+| 39 | Grammaire: le pluriel des noms en /ou/ | draft | 3 | 4 | — |
+| 40 | Vocabulaire: lexique portant sur les unités administratives (régions, départements, arrondissements) | draft | 3 | 4 | — |
+| 41 | Expression écrite: Construction des phrases simples adossées au module | draft | 3 | 4 | — |
+| 42 | Vocabulaire : Les actes d'état civil (acte de mariage, de naissance, carte nationale d'identité …) | draft | 3 | 4 | — |
+| 43 | Grammaire :-La phrase interro-négative | draft | 3 | 4 | — |
+| 44 | Orthographe :-Les sons /i/ Ex. : Punir /b/ Ex. : bannir | draft | 3 | 4 | — |
+| 45 | Lecture : Texte adossé au module | draft | 3 | 4 | — |
+| 46 | Vocabulaire : Le code de la route (signaux et règles de base) | draft | 3 | 4 | — |
+| 47 | Conjugaison : L’impératif des verbes du 2e groupe adossés au module | draft | 3 | 4 | — |
+| 48 | Vocabulaire : Les loisirs et les jeux | draft | 3 | 4 | — |
+| 49 | Expression écrite : Construction de phrases simples pour parler du temps, du climat; | draft | 3 | 4 | — |
+| 50 | Grammaire :-Les noms comptables | draft | 3 | 4 | — |
+| 51 | Vocabulaire: Champ lexical du commerce | draft | 3 | 4 | — |
+| 52 | Conjugaison: Le passé composé ( suite) | draft | 3 | 4 | — |
+| 54 | Grammaire :-Les noms non-comptables | draft | 3 | 4 | — |
+| 55 | Expression orale : Interprétation d’images | draft | 3 | 4 | — |
+| 56 | Orthographe : Les sons /oe/ ,/m / | draft | 3 | 4 | — |
+| 57 | Vocabulaire : Les métiers | draft | 3 | 4 | — |
+| 58 | Conjugaison :-Le futur proche | draft | 3 | 4 | — |
+| 59 | Expression écrite : Construction d’un court paragraphe | draft | 3 | 4 | — |
+| 60 | Grammaire : Les adjectifs qualificatifs particularités de forme (fou, vieux, nouveau, beau, etc.) | draft | 3 | 4 | — |
+| 61 | Vocabulaire :-Expressions liées à la hiérarchie du travail (patron, employeur, employé, etc.) | draft | 3 | 4 | — |
+| 62 | Conjugaison : Le futur simple | draft | 3 | 4 | — |
+| 63 | : Vocabulaire : Les opérations arithmétiques | draft | 3 | 4 | — |
+| 64 | Lecture :-Texte sur les opérations financières | draft | 3 | 4 | — |
+| 65 | Vocabulaire : Répondre au téléphone : allô, bonjour, qui est à l’appareil ? Etc | draft | 3 | 4 | — |
+| 66 | Conjugaison : -Le présent de l’indicatif et le futur proche des verbes liés au module (voir, envoyer, recevoir, etc.) | draft | 3 | 4 | — |
+| 67 | Grammaire: Les adjectifs indéfinis | draft | 3 | 4 | — |
+| 68 | Conjugaison : le futur proche des verbes liés au module | draft | 3 | 4 | — |
 
 ## Lesson 1: Lecture/Ecoute :-Interprétation d’images. -Texte sur les membres de la famille
 
@@ -6420,4 +6452,6574 @@ Full working after a second miss:
 
 > La phrase fausse est « J’ai mal à le pied. ».  
 > à + le se contracte : au pied.  
+
+## Lesson 36: Grammaire: Les adjectifs qualificatifs : accord en genre et en nombre (révision)
+
+Prerequisites: none · Skill: fr2-36 (L’accord de l’adjectif qualificatif (révision))
+
+**Note** (draft)
+
+> L’adjectif qualificatif s’accorde en genre et en nombre avec le nom qu’il qualifie.
+> • Féminin : on ajoute souvent -e : petit → petite ; un adjectif qui finit déjà par -e ne change pas : propre, malade.
+> • Pluriel : on ajoute souvent -s : petits, petites ; -al devient -aux au masculin pluriel : national → nationaux (mais nationales au féminin).
+> • Formes particulières : blanc → blanche ; beau → belle ; nouveau → nouvelle ; vieux → vieille.
+> Pour accorder : trouve le nom, puis demande-toi s’il est masculin ou féminin, singulier ou pluriel.
+> Exemples : une route nationale, des journaux nationaux, des robes noires, une chemise blanche.
+
+**Card c36-1** (draft)
+
+> L’adjectif prend le genre et le nombre du nom.
+>
+> _une petite fille, des petits garçons_  
+
+Check question: `fr2-36-acc` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Choisis la bonne forme : des cahiers ___ (vert).
+
+- ◻️ vert  
+  _↳ feedback if chosen: Regarde le nombre du nom : il est masculin pluriel._
+- ✅ verts
+- ◻️ vertes  
+  _↳ feedback if chosen: Regarde le genre du nom : il est masculin pluriel._
+
+Full working after a second miss:
+
+> « des cahiers » est masculin pluriel.  
+> Donc : verts.  
+
+**Card c36-2** (draft)
+
+> Au masculin pluriel, -al devient -aux ; au féminin, on écrit -ales.
+>
+> _des journaux nationaux, des routes nationales_  
+
+Check question: `fr2-36-al-card` · fill the blank, level 1 · **authored key**
+
+> Choisis l’adjectif bien accordé.
+
+Sentence: **Les fêtes ___ ont lieu en mai et en février.**
+- ✅ nationales
+- ◻️ national  
+  _↳ feedback if chosen: Il faut accorder au pluriel._
+- ◻️ nationaux  
+  _↳ feedback if chosen: « fêtes » est féminin : -ales._
+
+Full working after a second miss:
+
+> Le mot qui manque est « nationales ».  
+> Les fêtes nationales ont lieu en mai et en février.  
+
+**Card c36-3** (draft)
+
+> Un adjectif en -e ne change pas au féminin : propre, malade.
+>
+> _un garçon malade, une fille malade_  
+
+Check question: `fr2-36-type` · fill the blank, level 1 · computed by rule, reused from practice
+
+> Écris l’adjectif accordé.
+
+Sentence: **Ces élèves sont très ___ (grand).**
+Typed answer accepted (case and extra spaces ignored): **grands**
+- Typed **grand** (inv) → “L’adjectif doit s’accorder.”
+
+Full working after a second miss:
+
+> Le nom est masculin pluriel.  
+> On écrit : grands.  
+
+**Worked example** (draft)
+
+> Accorde l’adjectif « national » avec « des routes ».
+
+1. « des routes » est féminin pluriel.
+2. Au féminin pluriel : nationales.
+
+**Answer:** des routes nationales
+
+**Practice** `fr2-36-acc` · multiple choice, level 1 · computed by rule
+
+> Choisis la bonne forme : des pagnes ___ (bleu).
+
+- ◻️ bleues  
+  _↳ feedback if chosen: Regarde le genre du nom : il est masculin pluriel._
+- ◻️ bleu  
+  _↳ feedback if chosen: Regarde le nombre du nom : il est masculin pluriel._
+- ✅ bleus
+
+Full working after a second miss:
+
+> « des pagnes » est masculin pluriel.  
+> Donc : bleus.  
+
+> Choisis la bonne forme : des robes ___ (noir).
+
+- ◻️ noirs  
+  _↳ feedback if chosen: Regarde le genre du nom : il est féminin pluriel._
+- ✅ noires
+- ◻️ noir  
+  _↳ feedback if chosen: L’adjectif doit s’accorder avec le nom._
+- ◻️ noire  
+  _↳ feedback if chosen: Regarde le nombre du nom : il est féminin pluriel._
+
+Full working after a second miss:
+
+> « des robes » est féminin pluriel.  
+> Donc : noires.  
+
+**Practice** `fr2-36-al` · fill the blank, level 2 · **authored key**
+
+> Choisis l’adjectif bien accordé.
+
+Sentence: **Les hôpitaux ___ reçoivent beaucoup de malades.**
+- ◻️ régionals  
+  _↳ feedback if chosen: -al devient -aux au masculin pluriel._
+- ◻️ régionales  
+  _↳ feedback if chosen: « hôpitaux » est masculin._
+- ✅ régionaux
+
+Full working after a second miss:
+
+> Le mot qui manque est « régionaux ».  
+> Les hôpitaux régionaux reçoivent beaucoup de malades.  
+
+> Choisis l’adjectif bien accordé.
+
+Sentence: **Les fêtes ___ ont lieu en mai et en février.**
+- ◻️ national  
+  _↳ feedback if chosen: Il faut accorder au pluriel._
+- ✅ nationales
+- ◻️ nationaux  
+  _↳ feedback if chosen: « fêtes » est féminin : -ales._
+
+Full working after a second miss:
+
+> Le mot qui manque est « nationales ».  
+> Les fêtes nationales ont lieu en mai et en février.  
+
+**Practice** `fr2-36-type` · fill the blank, level 1 · computed by rule
+
+> Écris l’adjectif accordé.
+
+Sentence: **Nous avons une ___ (petit) radio.**
+Typed answer accepted (case and extra spaces ignored): **petite**
+- Typed **petit** (inv) → “L’adjectif doit s’accorder.”
+
+Full working after a second miss:
+
+> Le nom est féminin singulier.  
+> On écrit : petite.  
+
+> Écris l’adjectif accordé.
+
+Sentence: **Ces élèves sont très ___ (grand).**
+Typed answer accepted (case and extra spaces ignored): **grands**
+- Typed **grand** (inv) → “L’adjectif doit s’accorder.”
+
+Full working after a second miss:
+
+> Le nom est masculin pluriel.  
+> On écrit : grands.  
+
+**Practice** `fr2-36-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute d’accord ?
+
+- ✅ Ma petit sœur va à l’école.  
+  _↳ explanation: « sœur » est féminin : petite._
+- ◻️ Les routes nationales sont larges.
+- ◻️ Ma tante porte une robe blanche.
+- ◻️ Les élèves malades sont absents.
+
+Full working after a second miss:
+
+> La phrase fausse est « Ma petit sœur va à l’école. ».  
+> « sœur » est féminin : petite.  
+
+> Quelle phrase contient une faute d’accord ?
+
+- ◻️ Les routes nationales sont larges.
+- ✅ Ma petit sœur va à l’école.  
+  _↳ explanation: « sœur » est féminin : petite._
+- ◻️ Ma tante porte une robe blanche.
+- ◻️ Les élèves malades sont absents.
+
+Full working after a second miss:
+
+> La phrase fausse est « Ma petit sœur va à l’école. ».  
+> « sœur » est féminin : petite.  
+
+## Lesson 37: Vocabulaire : Les loisirs et les jeux (suite)
+
+Prerequisites: none · Skill: fr2-37 (Les loisirs et les jeux (suite))
+
+**Note** (draft)
+
+> Les loisirs sont les activités qu’on fait pendant son temps libre, pour se détendre.
+> • Jeux de société : le songo (awalé), le ludo, les dames, les cartes, le scrabble.
+> • Jeux de plein air : la corde à sauter, le cache-cache, le football, la course, le jeu de billes.
+> • Loisirs culturels : la lecture, la musique, la danse, le théâtre, le cinéma, la visite d’un musée.
+> • Mots utiles : un joueur, une équipe, un adversaire, un arbitre, la règle du jeu, gagner, perdre, faire match nul, un tournoi, un pion, un dé.
+> On dit : « jouer au football, jouer aux cartes » (sport, jeu) mais « jouer du tam-tam, jouer de la guitare » (instrument).
+
+**Card c37-1** (draft)
+
+> Les loisirs sont les activités du temps libre : jeux, sports, lecture, musique.
+>
+> _Le songo est un jeu de société._  
+
+Check question: `fr2-37-mot` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quel loisir est culturel ?
+
+- ◻️ jouer aux billes  
+  _↳ feedback if chosen: C’est un jeu de plein air._
+- ◻️ sauter à la corde  
+  _↳ feedback if chosen: C’est un jeu de plein air._
+- ◻️ jouer à cache-cache  
+  _↳ feedback if chosen: C’est un jeu de plein air._
+- ✅ aller au théâtre
+
+Full working after a second miss:
+
+> Le théâtre est un art.  
+> Donc la réponse est « aller au théâtre ».  
+
+**Card c37-2** (draft)
+
+> On dit « jouer à » un jeu ou un sport, « jouer de » un instrument.
+>
+> _jouer au ludo, jouer du balafon_  
+
+Check question: `fr2-37-jouer` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis la bonne forme.
+
+Sentence: **Les garçons jouent ___ football après l’école.**
+- ◻️ du  
+  _↳ feedback if chosen: Pour un sport, on dit « jouer à »._
+- ◻️ de la  
+  _↳ feedback if chosen: Pour un sport, on dit « jouer au »._
+- ✅ au
+
+Full working after a second miss:
+
+> Le mot qui manque est « au ».  
+> Les garçons jouent au football après l’école.  
+
+**Card c37-3** (draft)
+
+> L’arbitre fait respecter la règle du jeu.
+>
+> _Les deux équipes ont fait match nul._  
+
+Check question: `fr2-37-def-card` · matching, level 1 · **authored key**
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): une compétition avec plusieurs équipes · une petite pièce d’un jeu de société · il fait respecter les règles · aucune équipe ne gagne
+- un pion → **une petite pièce d’un jeu de société**
+- l’arbitre → **il fait respecter les règles**
+- un tournoi → **une compétition avec plusieurs équipes**
+- un match nul → **aucune équipe ne gagne**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> un pion → une petite pièce d’un jeu de société  
+> l’arbitre → il fait respecter les règles  
+> un tournoi → une compétition avec plusieurs équipes  
+> un match nul → aucune équipe ne gagne  
+
+**Worked example** (draft)
+
+> Complète : « Le week-end, mon frère joue ___ guitare et ma sœur joue ___ songo. »
+
+1. La guitare est un instrument : on dit « jouer de la ».
+2. Le songo est un jeu : on dit « jouer au ».
+
+**Answer:** Mon frère joue de la guitare et ma sœur joue au songo.
+
+**Practice** `fr2-37-mot` · multiple choice, level 1 · **authored key**
+
+> Quel est un jeu de société ?
+
+- ◻️ le saut en hauteur  
+  _↳ feedback if chosen: C’est un sport._
+- ◻️ la course  
+  _↳ feedback if chosen: C’est un sport._
+- ◻️ la natation  
+  _↳ feedback if chosen: C’est un sport._
+- ✅ le ludo
+
+Full working after a second miss:
+
+> On y joue autour d’une table.  
+> Donc la réponse est « le ludo ».  
+
+> Quel est un jeu de société ?
+
+- ✅ le ludo
+- ◻️ la course  
+  _↳ feedback if chosen: C’est un sport._
+- ◻️ la natation  
+  _↳ feedback if chosen: C’est un sport._
+- ◻️ le saut en hauteur  
+  _↳ feedback if chosen: C’est un sport._
+
+Full working after a second miss:
+
+> On y joue autour d’une table.  
+> Donc la réponse est « le ludo ».  
+
+**Practice** `fr2-37-jouer` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne forme.
+
+Sentence: **Nous jouons ___ cartes le soir.**
+- ✅ aux
+- ◻️ de la  
+  _↳ feedback if chosen: Pour un jeu : « jouer aux »._
+- ◻️ des  
+  _↳ feedback if chosen: Pour un jeu : « jouer aux »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « aux ».  
+> Nous jouons aux cartes le soir.  
+
+> Choisis la bonne forme.
+
+Sentence: **Nous jouons ___ cartes le soir.**
+- ◻️ de la  
+  _↳ feedback if chosen: Pour un jeu : « jouer aux »._
+- ✅ aux
+- ◻️ des  
+  _↳ feedback if chosen: Pour un jeu : « jouer aux »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « aux ».  
+> Nous jouons aux cartes le soir.  
+
+**Practice** `fr2-37-def` · matching, level 2 · **authored key**
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): une petite pièce d’un jeu de société · il fait respecter les règles · une compétition avec plusieurs équipes · celui contre qui on joue
+- l’arbitre → **il fait respecter les règles**
+- un tournoi → **une compétition avec plusieurs équipes**
+- un pion → **une petite pièce d’un jeu de société**
+- l’adversaire → **celui contre qui on joue**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> l’arbitre → il fait respecter les règles  
+> un tournoi → une compétition avec plusieurs équipes  
+> un pion → une petite pièce d’un jeu de société  
+> l’adversaire → celui contre qui on joue  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): il fait respecter les règles · aucune équipe ne gagne · celui contre qui on joue · une compétition avec plusieurs équipes
+- l’arbitre → **il fait respecter les règles**
+- un tournoi → **une compétition avec plusieurs équipes**
+- un match nul → **aucune équipe ne gagne**
+- l’adversaire → **celui contre qui on joue**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> l’arbitre → il fait respecter les règles  
+> un tournoi → une compétition avec plusieurs équipes  
+> un match nul → aucune équipe ne gagne  
+> l’adversaire → celui contre qui on joue  
+
+**Practice** `fr2-37-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ◻️ On joue au songo avec des graines.
+- ✅ On joue du football.  
+  _↳ explanation: Pour un sport, on dit « jouer au football »._
+- ◻️ Les loisirs se font pendant le temps libre.
+- ◻️ On joue de la flûte.
+
+Full working after a second miss:
+
+> La phrase fausse est « On joue du football. ».  
+> Pour un sport, on dit « jouer au football ».  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Les loisirs se font pendant le temps libre.
+- ✅ On joue aux tam-tams pour faire de la musique.  
+  _↳ explanation: Pour un instrument : « jouer du tam-tam »._
+- ◻️ L’arbitre fait respecter la règle.
+- ◻️ On joue de la flûte.
+
+Full working after a second miss:
+
+> La phrase fausse est « On joue aux tam-tams pour faire de la musique. ».  
+> Pour un instrument : « jouer du tam-tam ».  
+
+## Lesson 38: Expression écrite : Construction de phrases simples pour parler de son environnement ou d’une maladie
+
+Prerequisites: 28 · Skill: fr2-38 (Écrire des phrases simples sur son environnement ou une maladie)
+
+**Note** (draft)
+
+> Une phrase simple a un seul verbe conjugué : sujet + verbe + complément.
+> « Mon quartier est propre. » « Les enfants jouent dans la cour. » « Ma mère a le paludisme. »
+> Pour décrire son environnement : il y a, on voit, se trouve, est situé : « Derrière ma maison, il y a un champ de maïs. »
+> Pour parler d’une maladie : avoir de la fièvre, avoir mal à la tête, tousser, vomir, se soigner, aller à l’hôpital, prendre des comprimés, guérir.
+> « Mon frère tousse depuis trois jours. » « Il prend ses médicaments et il guérit. »
+> Une phrase commence par une majuscule et se termine par un point.
+
+**Card c38-1** (draft)
+
+> Une phrase simple : sujet + verbe conjugué + complément.
+>
+> _Les arbres donnent de l’ombre._  
+
+Check question: `fr2-38-simple` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quelle est une phrase simple bien construite ?
+
+- ◻️ Mon quartier propre.  
+  _↳ feedback if chosen: Il manque le verbe._
+- ◻️ mon quartier est propre  
+  _↳ feedback if chosen: Il manque la majuscule et le point._
+- ◻️ Quartier est mon propre.  
+  _↳ feedback if chosen: L’ordre des mots est faux._
+- ✅ Mon quartier est propre.
+
+Full working after a second miss:
+
+> Sujet + verbe + complément.  
+> Donc la réponse est « Mon quartier est propre. ».  
+
+**Card c38-2** (draft)
+
+> Pour une maladie : avoir de la fièvre, avoir mal à, tousser, se soigner, guérir.
+>
+> _J’ai mal au ventre._  
+
+Check question: `fr2-38-mal` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis le mot qui convient.
+
+Sentence: **J’ai ___ à la tête depuis ce matin.**
+- ◻️ malade  
+  _↳ feedback if chosen: On dit « être malade »._
+- ◻️ fièvre  
+  _↳ feedback if chosen: On dit « avoir de la fièvre »._
+- ✅ mal
+
+Full working after a second miss:
+
+> Le mot qui manque est « mal ».  
+> J’ai mal à la tête depuis ce matin.  
+
+**Card c38-3** (draft)
+
+> Majuscule au début, point à la fin.
+>
+> _Ma maison est près de la route._  
+
+Check question: `fr2-38-wo-card` · word order, level 1 · **authored key**
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: de · chez · marché · a · près · un · moi · y · Il (then “.”)
+Answer: **Il y a un marché près de chez moi.**
+
+Full working after a second miss:
+
+> La phrase est : Il y a un marché près de chez moi.  
+
+**Worked example** (draft)
+
+> Écris deux phrases simples : une sur ton quartier, une sur une maladie.
+
+1. Quartier : « Dans mon quartier, il y a une école et un marché. »
+2. Maladie : « Mon cousin a de la fièvre. »
+
+**Answer:** Dans mon quartier, il y a une école et un marché. Mon cousin a de la fièvre.
+
+**Practice** `fr2-38-simple` · multiple choice, level 1 · **authored key**
+
+> Quelle est une phrase simple bien construite ?
+
+- ✅ Mon quartier est propre.
+- ◻️ mon quartier est propre  
+  _↳ feedback if chosen: Il manque la majuscule et le point._
+- ◻️ Quartier est mon propre.  
+  _↳ feedback if chosen: L’ordre des mots est faux._
+- ◻️ Mon quartier propre.  
+  _↳ feedback if chosen: Il manque le verbe._
+
+Full working after a second miss:
+
+> Sujet + verbe + complément.  
+> Donc la réponse est « Mon quartier est propre. ».  
+
+> Quelle est une phrase simple bien construite ?
+
+- ✅ Mon quartier est propre.
+- ◻️ mon quartier est propre  
+  _↳ feedback if chosen: Il manque la majuscule et le point._
+- ◻️ Mon quartier propre.  
+  _↳ feedback if chosen: Il manque le verbe._
+- ◻️ Quartier est mon propre.  
+  _↳ feedback if chosen: L’ordre des mots est faux._
+
+Full working after a second miss:
+
+> Sujet + verbe + complément.  
+> Donc la réponse est « Mon quartier est propre. ».  
+
+**Practice** `fr2-38-mal` · fill the blank, level 1 · **authored key**
+
+> Choisis le mot qui convient.
+
+Sentence: **Mon père ___ beaucoup la nuit : il a la grippe.**
+- ◻️ guérit  
+  _↳ feedback if chosen: Guérir, c’est aller mieux._
+- ◻️ soigne  
+  _↳ feedback if chosen: « soigner » demande un complément._
+- ✅ tousse
+
+Full working after a second miss:
+
+> Le mot qui manque est « tousse ».  
+> Mon père tousse beaucoup la nuit : il a la grippe.  
+
+> Choisis le mot qui convient.
+
+Sentence: **Mon père ___ beaucoup la nuit : il a la grippe.**
+- ✅ tousse
+- ◻️ soigne  
+  _↳ feedback if chosen: « soigner » demande un complément._
+- ◻️ guérit  
+  _↳ feedback if chosen: Guérir, c’est aller mieux._
+
+Full working after a second miss:
+
+> Le mot qui manque est « tousse ».  
+> Mon père tousse beaucoup la nuit : il a la grippe.  
+
+**Practice** `fr2-38-env` · multiple choice, level 2 · **authored key**
+
+> Quelle phrase parle d’une maladie ?
+
+- ✅ Mon petit frère a le paludisme.
+- ◻️ Il y a des arbres dans la cour.  
+  _↳ feedback if chosen: Elle décrit un lieu._
+- ◻️ Notre rue est propre.  
+  _↳ feedback if chosen: Elle décrit un lieu._
+- ◻️ Le marché est près de la route.  
+  _↳ feedback if chosen: Elle décrit un lieu._
+
+Full working after a second miss:
+
+> Le paludisme est une maladie.  
+> Donc la réponse est « Mon petit frère a le paludisme. ».  
+
+> Quelle phrase décrit l’environnement ?
+
+- ◻️ Il prend ses comprimés.  
+  _↳ feedback if chosen: Elle parle d’un soin._
+- ◻️ Ma mère tousse.  
+  _↳ feedback if chosen: Elle parle d’une maladie._
+- ✅ Derrière l’école, il y a un grand champ.
+- ◻️ J’ai mal au ventre.  
+  _↳ feedback if chosen: Elle parle d’une maladie._
+
+Full working after a second miss:
+
+> Elle situe un lieu.  
+> Donc la réponse est « Derrière l’école, il y a un grand champ. ».  
+
+**Practice** `fr2-38-wo` · word order, level 3 · **authored key**
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: jouent · la · Les · dans · enfants · cour (then “.”)
+Answer: **Les enfants jouent dans la cour.**
+
+Full working after a second miss:
+
+> La phrase est : Les enfants jouent dans la cour.  
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: fièvre · de · Ma · la · a · cousine (then “.”)
+Answer: **Ma cousine a de la fièvre.**
+
+Full working after a second miss:
+
+> La phrase est : Ma cousine a de la fièvre.  
+
+## Lesson 39: Grammaire: le pluriel des noms en /ou/
+
+Prerequisites: none · Skill: fr2-39 (Le pluriel des noms en -ou)
+
+**Note** (draft)
+
+> Les noms en -ou prennent un -s au pluriel : un trou → des trous ; un clou → des clous ; un cou → des cous.
+> Sept noms en -ou prennent un -x : bijou, caillou, chou, genou, hibou, joujou, pou.
+> → des bijoux, des cailloux, des choux, des genoux, des hiboux, des joujoux, des poux.
+> Pour les retenir, on dit la phrase : « Viens, mon chou, mon bijou, mon joujou, sur mes genoux, et jette des cailloux à ce hibou plein de poux. »
+
+**Card c39-1** (draft)
+
+> Les noms en -ou prennent -s au pluriel : des trous, des clous.
+>
+> _un cou → des cous_  
+
+Check question: `fr2-39-s` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Quel est le pluriel de « joujou » ?
+
+- ◻️ joujous  
+  _↳ feedback if chosen: « joujou » est un des sept noms en -ou qui prennent -x (bijou, caillou, chou, genou, hibou, joujou, pou)._
+- ◻️ joujou  
+  _↳ feedback if chosen: Au pluriel, le nom change._
+- ✅ joujoux
+
+Full working after a second miss:
+
+> « joujou » est un des sept noms en -ou qui prennent -x (bijou, caillou, chou, genou, hibou, joujou, pou).  
+> Donc : des joujoux.  
+
+**Card c39-2** (draft)
+
+> Sept noms en -ou prennent -x : bijou, caillou, chou, genou, hibou, joujou, pou.
+>
+> _des cailloux, des hiboux_  
+
+Check question: `fr2-39-x` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quel nom en -ou prend un -s au pluriel ?
+
+- ◻️ genou  
+  _↳ feedback if chosen: des genoux_
+- ◻️ hibou  
+  _↳ feedback if chosen: des hiboux_
+- ✅ trou
+- ◻️ bijou  
+  _↳ feedback if chosen: des bijoux_
+
+Full working after a second miss:
+
+> Les noms en -ou prennent -s : des trous.  
+> Donc la réponse est « trou ».  
+
+**Card c39-3** (draft)
+
+> On retient les sept avec la phrase « mon chou, mon bijou, mon joujou … ».
+>
+> _sur mes genoux_  
+
+Check question: `fr2-39-type-card` · fill the blank, level 1 · computed by rule
+
+> Écris le nom au pluriel.
+
+Sentence: **Il y a des ___ (trou) sur la route.**
+Typed answer accepted (case and extra spaces ignored): **trous**
+- Typed **troux** (naive) → “les noms en -ou prennent -s.”
+
+Full working after a second miss:
+
+> les noms en -ou prennent -s.  
+> On écrit : trous.  
+
+**Worked example** (draft)
+
+> Écris le pluriel de « genou ».
+
+1. « genou » est un des sept noms en -ou qui prennent -x.
+2. Donc : des genoux.
+
+**Answer:** des genoux
+
+**Practice** `fr2-39-s` · multiple choice, level 1 · computed by rule
+
+> Quel est le pluriel de « hibou » ?
+
+- ✅ hiboux
+- ◻️ hibou  
+  _↳ feedback if chosen: Au pluriel, le nom change._
+- ◻️ hibous  
+  _↳ feedback if chosen: « hibou » est un des sept noms en -ou qui prennent -x (bijou, caillou, chou, genou, hibou, joujou, pou)._
+
+Full working after a second miss:
+
+> « hibou » est un des sept noms en -ou qui prennent -x (bijou, caillou, chou, genou, hibou, joujou, pou).  
+> Donc : des hiboux.  
+
+> Quel est le pluriel de « sou » ?
+
+- ◻️ sou  
+  _↳ feedback if chosen: Au pluriel, le nom change._
+- ✅ sous
+- ◻️ soux  
+  _↳ feedback if chosen: les noms en -ou prennent -s._
+
+Full working after a second miss:
+
+> les noms en -ou prennent -s.  
+> Donc : des sous.  
+
+**Practice** `fr2-39-x` · multiple choice, level 1 · **authored key**
+
+> Quel nom en -ou prend un -s au pluriel ?
+
+- ◻️ hibou  
+  _↳ feedback if chosen: des hiboux_
+- ✅ trou
+- ◻️ genou  
+  _↳ feedback if chosen: des genoux_
+- ◻️ bijou  
+  _↳ feedback if chosen: des bijoux_
+
+Full working after a second miss:
+
+> Les noms en -ou prennent -s : des trous.  
+> Donc la réponse est « trou ».  
+
+> Quel nom en -ou prend un -s au pluriel ?
+
+- ✅ trou
+- ◻️ genou  
+  _↳ feedback if chosen: des genoux_
+- ◻️ bijou  
+  _↳ feedback if chosen: des bijoux_
+- ◻️ hibou  
+  _↳ feedback if chosen: des hiboux_
+
+Full working after a second miss:
+
+> Les noms en -ou prennent -s : des trous.  
+> Donc la réponse est « trou ».  
+
+**Practice** `fr2-39-type` · fill the blank, level 2 · computed by rule
+
+> Écris le nom au pluriel.
+
+Sentence: **Le menuisier achète des ___ (clou).**
+Typed answer accepted (case and extra spaces ignored): **clous**
+- Typed **cloux** (naive) → “les noms en -ou prennent -s.”
+
+Full working after a second miss:
+
+> les noms en -ou prennent -s.  
+> On écrit : clous.  
+
+> Écris le nom au pluriel.
+
+Sentence: **Il y a des ___ (trou) sur la route.**
+Typed answer accepted (case and extra spaces ignored): **trous**
+- Typed **troux** (naive) → “les noms en -ou prennent -s.”
+
+Full working after a second miss:
+
+> les noms en -ou prennent -s.  
+> On écrit : trous.  
+
+**Practice** `fr2-39-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ◻️ La route a beaucoup de trous.
+- ◻️ Il a des cailloux dans ses chaussures.
+- ◻️ Elle porte des bijoux en or.
+- ✅ Le menuisier achète des cloux.  
+  _↳ explanation: Les noms en -ou prennent -s : des clous._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le menuisier achète des cloux. ».  
+> Les noms en -ou prennent -s : des clous.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Le menuisier achète des cloux.  
+  _↳ explanation: Les noms en -ou prennent -s : des clous._
+- ◻️ Les hiboux chassent la nuit.
+- ◻️ Il a des cailloux dans ses chaussures.
+- ◻️ La route a beaucoup de trous.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le menuisier achète des cloux. ».  
+> Les noms en -ou prennent -s : des clous.  
+
+## Lesson 40: Vocabulaire: lexique portant sur les unités administratives (régions, départements, arrondissements)
+
+Prerequisites: none · Skill: fr2-40 (Les unités administratives)
+
+**Note** (draft)
+
+> Le Cameroun est divisé en unités administratives, de la plus grande à la plus petite :
+> • la région (10 régions), dirigée par un gouverneur ; chef-lieu : par exemple Bamenda pour le Nord-Ouest, Garoua pour le Nord ;
+> • le département (58), dirigé par un préfet ; chef-lieu : la préfecture ;
+> • l’arrondissement (360), dirigé par un sous-préfet ; chef-lieu : la sous-préfecture.
+> Il y a aussi les communes, dirigées par un maire (élu) et, dans les grandes villes, une communauté urbaine avec un maire de ville.
+> Mots utiles : le chef-lieu, la circonscription, le territoire, administrer, la décentralisation, le conseil régional.
+
+**Card c40-1** (draft)
+
+> Région, département, arrondissement : de la plus grande unité à la plus petite.
+>
+> _Le Cameroun a 10 régions._  
+
+Check question: `fr2-40-ordre` · ordering, level 1 · **authored key**, reused from practice
+
+> Range les unités de la plus grande à la plus petite.
+
+Shown as: l’arrondissement · la région · le département
+Correct order: la région → le département → l’arrondissement
+
+Full working after a second miss:
+
+> Le bon ordre est : la région → le département → l’arrondissement.  
+
+**Card c40-2** (draft)
+
+> Le gouverneur dirige la région, le préfet le département, le sous-préfet l’arrondissement.
+>
+> _Le maire dirige la commune._  
+
+Check question: `fr2-40-chef` · matching, level 1 · **authored key**, reused from practice
+
+> Associe chaque unité à son responsable.
+
+Right-hand side (shuffled): le maire · le préfet · le sous-préfet · le gouverneur
+- le département → **le préfet**
+- la commune → **le maire**
+- la région → **le gouverneur**
+- l’arrondissement → **le sous-préfet**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le département → le préfet  
+> la commune → le maire  
+> la région → le gouverneur  
+> l’arrondissement → le sous-préfet  
+
+**Card c40-3** (draft)
+
+> Le chef-lieu est la ville principale d’une unité administrative.
+>
+> _Bamenda est le chef-lieu du Nord-Ouest._  
+
+Check question: `fr2-40-mot-card` · multiple choice, level 1 · **authored key**
+
+> Combien de régions compte le Cameroun ?
+
+- ✅ dix
+- ◻️ cinq  
+  _↳ feedback if chosen: C’est trop peu._
+- ◻️ cinquante-huit  
+  _↳ feedback if chosen: C’est le nombre de départements._
+- ◻️ vingt  
+  _↳ feedback if chosen: C’est trop._
+
+Full working after a second miss:
+
+> Dix régions.  
+> Donc la réponse est « dix ».  
+
+**Worked example** (draft)
+
+> Range du plus grand au plus petit : arrondissement, région, département.
+
+1. La région est la plus grande ; elle contient des départements.
+2. Chaque département contient des arrondissements.
+
+**Answer:** région, département, arrondissement
+
+**Practice** `fr2-40-ordre` · ordering, level 1 · **authored key**
+
+> Range les unités de la plus grande à la plus petite.
+
+Shown as: l’arrondissement · le département · la région
+Correct order: la région → le département → l’arrondissement
+
+Full working after a second miss:
+
+> Le bon ordre est : la région → le département → l’arrondissement.  
+
+> Range les unités de la plus grande à la plus petite.
+
+Shown as: l’arrondissement · le département · la région
+Correct order: la région → le département → l’arrondissement
+
+Full working after a second miss:
+
+> Le bon ordre est : la région → le département → l’arrondissement.  
+
+**Practice** `fr2-40-chef` · matching, level 1 · **authored key**
+
+> Associe chaque unité à son responsable.
+
+Right-hand side (shuffled): le gouverneur · le maire · le préfet · le sous-préfet
+- l’arrondissement → **le sous-préfet**
+- la région → **le gouverneur**
+- la commune → **le maire**
+- le département → **le préfet**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> l’arrondissement → le sous-préfet  
+> la région → le gouverneur  
+> la commune → le maire  
+> le département → le préfet  
+
+> Associe chaque unité à son responsable.
+
+Right-hand side (shuffled): le gouverneur · le maire · le préfet · le sous-préfet
+- la commune → **le maire**
+- la région → **le gouverneur**
+- le département → **le préfet**
+- l’arrondissement → **le sous-préfet**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> la commune → le maire  
+> la région → le gouverneur  
+> le département → le préfet  
+> l’arrondissement → le sous-préfet  
+
+**Practice** `fr2-40-mot` · multiple choice, level 2 · **authored key**
+
+> Combien de régions compte le Cameroun ?
+
+- ◻️ vingt  
+  _↳ feedback if chosen: C’est trop._
+- ◻️ cinquante-huit  
+  _↳ feedback if chosen: C’est le nombre de départements._
+- ✅ dix
+- ◻️ cinq  
+  _↳ feedback if chosen: C’est trop peu._
+
+Full working after a second miss:
+
+> Dix régions.  
+> Donc la réponse est « dix ».  
+
+> Comment appelle-t-on la ville principale d’une région ?
+
+- ◻️ le quartier  
+  _↳ feedback if chosen: Un quartier est une partie de ville._
+- ✅ le chef-lieu
+- ◻️ le village  
+  _↳ feedback if chosen: Ce n’est pas le mot._
+- ◻️ la capitale du monde  
+  _↳ feedback if chosen: Ce n’est pas le mot._
+
+Full working after a second miss:
+
+> Le chef-lieu.  
+> Donc la réponse est « le chef-lieu ».  
+
+**Practice** `fr2-40-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le maire dirige la commune.
+- ✅ Le gouverneur est élu par les habitants de la commune.  
+  _↳ explanation: Le maire est élu ; le gouverneur est nommé._
+- ◻️ Le préfet dirige le département.
+- ◻️ L’arrondissement est plus petit que le département.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le gouverneur est élu par les habitants de la commune. ».  
+> Le maire est élu ; le gouverneur est nommé.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Le département est plus grand que la région.  
+  _↳ explanation: La région contient les départements._
+- ◻️ Le préfet dirige le département.
+- ◻️ Le Cameroun a dix régions.
+- ◻️ Le maire dirige la commune.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le département est plus grand que la région. ».  
+> La région contient les départements.  
+
+## Lesson 41: Expression écrite: Construction des phrases simples adossées au module
+
+Prerequisites: 38 · Skill: fr2-41 (Écrire des phrases sur la vie citoyenne)
+
+**Note** (draft)
+
+> Pour écrire des phrases sur la vie citoyenne, on emploie le vocabulaire du module : le citoyen, les droits, les devoirs, la loi, voter, payer l’impôt, respecter le drapeau, la carte d’identité, la mairie.
+> Pour exprimer un devoir : il faut, on doit, nous devons + infinitif : « Nous devons respecter les lois. »
+> Pour exprimer un droit : avoir le droit de + infinitif : « Chaque enfant a le droit d’aller à l’école. »
+> Pour relier deux idées : et, mais, car, donc, parce que.
+> « Le citoyen paie l’impôt, car l’État construit des routes et des écoles. »
+
+**Card c41-1** (draft)
+
+> Pour un devoir : il faut, on doit, nous devons + infinitif.
+>
+> _Il faut respecter le drapeau._  
+
+Check question: `fr2-41-devoir` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis le mot qui convient.
+
+Sentence: **Nous ___ respecter les lois de notre pays.**
+- ✅ devons
+- ◻️ avons  
+  _↳ feedback if chosen: On dit « nous devons + infinitif » pour un devoir._
+- ◻️ sommes  
+  _↳ feedback if chosen: « sommes » ne convient pas ici._
+
+Full working after a second miss:
+
+> Le mot qui manque est « devons ».  
+> Nous devons respecter les lois de notre pays.  
+
+**Card c41-2** (draft)
+
+> Pour un droit : avoir le droit de + infinitif.
+>
+> _Chaque enfant a le droit de jouer._  
+
+Check question: `fr2-41-droit` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quelle phrase exprime un droit ?
+
+- ✅ Chaque enfant a le droit d’aller à l’école.
+- ◻️ On doit obéir à la loi.  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ Il faut respecter le drapeau.  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ Nous devons payer l’impôt.  
+  _↳ feedback if chosen: C’est un devoir._
+
+Full working after a second miss:
+
+> « avoir le droit de » exprime un droit.  
+> Donc la réponse est « Chaque enfant a le droit d’aller à l’école. ».  
+
+**Card c41-3** (draft)
+
+> On relie deux idées avec car, donc, mais, parce que.
+>
+> _Il vote, car il a dix-huit ans._  
+
+Check question: `fr2-41-wo-card` · word order, level 1 · **authored key**
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: l’impôt · année · Le · citoyen · paie · chaque (then “.”)
+Answer: **Le citoyen paie l’impôt chaque année.**
+
+Full working after a second miss:
+
+> La phrase est : Le citoyen paie l’impôt chaque année.  
+
+**Worked example** (draft)
+
+> Écris une phrase sur un devoir du citoyen et une phrase sur un droit de l’enfant.
+
+1. Devoir : « Le citoyen doit respecter la loi. »
+2. Droit : « Tout enfant a le droit d’être soigné. »
+
+**Answer:** Le citoyen doit respecter la loi. Tout enfant a le droit d’être soigné.
+
+**Practice** `fr2-41-devoir` · fill the blank, level 1 · **authored key**
+
+> Choisis le mot qui convient.
+
+Sentence: **Nous ___ respecter les lois de notre pays.**
+- ◻️ sommes  
+  _↳ feedback if chosen: « sommes » ne convient pas ici._
+- ◻️ avons  
+  _↳ feedback if chosen: On dit « nous devons + infinitif » pour un devoir._
+- ✅ devons
+
+Full working after a second miss:
+
+> Le mot qui manque est « devons ».  
+> Nous devons respecter les lois de notre pays.  
+
+> Choisis le mot qui convient.
+
+Sentence: **Les citoyens ___ voter aux élections.**
+- ◻️ ont  
+  _↳ feedback if chosen: « doivent » exprime le devoir._
+- ◻️ font  
+  _↳ feedback if chosen: « font » ne convient pas._
+- ✅ doivent
+
+Full working after a second miss:
+
+> Le mot qui manque est « doivent ».  
+> Les citoyens doivent voter aux élections.  
+
+**Practice** `fr2-41-droit` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase exprime un droit ?
+
+- ◻️ On doit obéir à la loi.  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ Il faut respecter le drapeau.  
+  _↳ feedback if chosen: C’est un devoir._
+- ✅ Chaque enfant a le droit d’aller à l’école.
+- ◻️ Nous devons payer l’impôt.  
+  _↳ feedback if chosen: C’est un devoir._
+
+Full working after a second miss:
+
+> « avoir le droit de » exprime un droit.  
+> Donc la réponse est « Chaque enfant a le droit d’aller à l’école. ».  
+
+> Quelle phrase exprime un droit ?
+
+- ◻️ Il faut respecter le drapeau.  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ Nous devons payer l’impôt.  
+  _↳ feedback if chosen: C’est un devoir._
+- ◻️ On doit obéir à la loi.  
+  _↳ feedback if chosen: C’est un devoir._
+- ✅ Chaque enfant a le droit d’aller à l’école.
+
+Full working after a second miss:
+
+> « avoir le droit de » exprime un droit.  
+> Donc la réponse est « Chaque enfant a le droit d’aller à l’école. ».  
+
+**Practice** `fr2-41-lien` · fill the blank, level 2 · **authored key**
+
+> Choisis le mot qui relie les deux idées.
+
+Sentence: **Il connaît la loi, ___ il ne la respecte pas.**
+- ✅ mais
+- ◻️ car  
+  _↳ feedback if chosen: Ce n’est pas une cause._
+- ◻️ donc  
+  _↳ feedback if chosen: Ce n’est pas une conséquence._
+
+Full working after a second miss:
+
+> Le mot qui manque est « mais ».  
+> Il connaît la loi, mais il ne la respecte pas.  
+
+> Choisis le mot qui relie les deux idées.
+
+Sentence: **Mon père va voter ___ il a sa carte d’électeur.**
+- ✅ car
+- ◻️ donc  
+  _↳ feedback if chosen: La carte est la cause : « car »._
+- ◻️ mais  
+  _↳ feedback if chosen: « mais » oppose._
+
+Full working after a second miss:
+
+> Le mot qui manque est « car ».  
+> Mon père va voter car il a sa carte d’électeur.  
+
+**Practice** `fr2-41-wo` · word order, level 3 · **authored key**
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: Le · année · citoyen · chaque · l’impôt · paie (then “.”)
+Answer: **Le citoyen paie l’impôt chaque année.**
+
+Full working after a second miss:
+
+> La phrase est : Le citoyen paie l’impôt chaque année.  
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: Nous · le · respecter · drapeau · devons (then “.”)
+Answer: **Nous devons respecter le drapeau.**
+
+Full working after a second miss:
+
+> La phrase est : Nous devons respecter le drapeau.  
+
+## Lesson 42: Vocabulaire : Les actes d'état civil (acte de mariage, de naissance, carte nationale d'identité …)
+
+Prerequisites: 40 · Skill: fr2-42 (Les actes d’état civil)
+
+**Note** (draft)
+
+> Les actes d’état civil sont des documents officiels qui prouvent les grands événements de la vie d’une personne. Ils sont établis par l’officier d’état civil (souvent le maire) au centre d’état civil.
+> • L’acte de naissance : il prouve la naissance, le nom, la date et le lieu de naissance, les noms des parents. On le demande pour aller à l’école ou passer un examen.
+> • L’acte de mariage : il prouve que deux personnes sont mariées.
+> • L’acte de décès : il prouve la mort d’une personne.
+> La carte nationale d’identité (CNI) est délivrée par la police à partir de 18 ans ; elle prouve l’identité. Le passeport permet de voyager à l’étranger.
+> Mots utiles : déclarer une naissance, une copie certifiée conforme, légaliser, un témoin.
+
+**Card c42-1** (draft)
+
+> Les actes d’état civil prouvent la naissance, le mariage et le décès.
+>
+> _L’acte de naissance donne le nom des parents._  
+
+Check question: `fr2-42-acte` · matching, level 1 · **authored key**, reused from practice
+
+> Associe chaque document à ce qu’il prouve.
+
+Right-hand side (shuffled): la mort d’une personne · l’identité pour voyager à l’étranger · l’union de deux personnes · l’identité d’un adulte
+- l’acte de décès → **la mort d’une personne**
+- l’acte de mariage → **l’union de deux personnes**
+- la carte nationale d’identité → **l’identité d’un adulte**
+- le passeport → **l’identité pour voyager à l’étranger**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> l’acte de décès → la mort d’une personne  
+> l’acte de mariage → l’union de deux personnes  
+> la carte nationale d’identité → l’identité d’un adulte  
+> le passeport → l’identité pour voyager à l’étranger  
+
+**Card c42-2** (draft)
+
+> L’officier d’état civil établit les actes au centre d’état civil.
+>
+> _On déclare la naissance d’un bébé._  
+
+Check question: `fr2-42-qui` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Qui établit les actes d’état civil ?
+
+- ◻️ le commerçant  
+  _↳ feedback if chosen: Il vend._
+- ◻️ le directeur de l’école  
+  _↳ feedback if chosen: Il dirige l’école._
+- ✅ l’officier d’état civil
+- ◻️ le médecin  
+  _↳ feedback if chosen: Il soigne._
+
+Full working after a second miss:
+
+> Souvent le maire ou son adjoint.  
+> Donc la réponse est « l’officier d’état civil ».  
+
+**Card c42-3** (draft)
+
+> La carte nationale d’identité prouve l’identité ; le passeport sert à voyager.
+>
+> _La CNI est délivrée à partir de 18 ans._  
+
+Check question: `fr2-42-cni-card` · multiple choice, level 1 · **authored key**
+
+> Quel document faut-il pour voyager en avion vers l’Europe ?
+
+- ◻️ l’acte de mariage  
+  _↳ feedback if chosen: Il prouve un mariage._
+- ◻️ le carnet de notes  
+  _↳ feedback if chosen: C’est un document scolaire._
+- ◻️ l’acte de décès  
+  _↳ feedback if chosen: Il prouve une mort._
+- ✅ le passeport
+
+Full working after a second miss:
+
+> Le passeport sert à voyager à l’étranger.  
+> Donc la réponse est « le passeport ».  
+
+**Worked example** (draft)
+
+> Quel document faut-il pour s’inscrire à un examen officiel ? Pourquoi ?
+
+1. L’examen demande le nom, la date et le lieu de naissance du candidat.
+2. Ces informations sont prouvées par l’acte de naissance.
+
+**Answer:** L’acte de naissance.
+
+**Practice** `fr2-42-acte` · matching, level 1 · **authored key**
+
+> Associe chaque document à ce qu’il prouve.
+
+Right-hand side (shuffled): l’identité d’un adulte · la naissance et les parents · l’identité pour voyager à l’étranger · la mort d’une personne
+- l’acte de décès → **la mort d’une personne**
+- le passeport → **l’identité pour voyager à l’étranger**
+- la carte nationale d’identité → **l’identité d’un adulte**
+- l’acte de naissance → **la naissance et les parents**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> l’acte de décès → la mort d’une personne  
+> le passeport → l’identité pour voyager à l’étranger  
+> la carte nationale d’identité → l’identité d’un adulte  
+> l’acte de naissance → la naissance et les parents  
+
+> Associe chaque document à ce qu’il prouve.
+
+Right-hand side (shuffled): l’identité pour voyager à l’étranger · la naissance et les parents · l’union de deux personnes · l’identité d’un adulte
+- la carte nationale d’identité → **l’identité d’un adulte**
+- l’acte de naissance → **la naissance et les parents**
+- le passeport → **l’identité pour voyager à l’étranger**
+- l’acte de mariage → **l’union de deux personnes**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> la carte nationale d’identité → l’identité d’un adulte  
+> l’acte de naissance → la naissance et les parents  
+> le passeport → l’identité pour voyager à l’étranger  
+> l’acte de mariage → l’union de deux personnes  
+
+**Practice** `fr2-42-qui` · multiple choice, level 1 · **authored key**
+
+> Que fait-on quand un bébé naît ?
+
+- ◻️ on fait son acte de décès  
+  _↳ feedback if chosen: C’est pour la mort._
+- ✅ on déclare sa naissance
+- ◻️ on demande son passeport  
+  _↳ feedback if chosen: Ce n’est pas la première chose._
+- ◻️ on lui donne une carte d’électeur  
+  _↳ feedback if chosen: Il faut être adulte._
+
+Full working after a second miss:
+
+> On déclare la naissance au centre d’état civil.  
+> Donc la réponse est « on déclare sa naissance ».  
+
+> Qui établit les actes d’état civil ?
+
+- ◻️ le commerçant  
+  _↳ feedback if chosen: Il vend._
+- ◻️ le médecin  
+  _↳ feedback if chosen: Il soigne._
+- ✅ l’officier d’état civil
+- ◻️ le directeur de l’école  
+  _↳ feedback if chosen: Il dirige l’école._
+
+Full working after a second miss:
+
+> Souvent le maire ou son adjoint.  
+> Donc la réponse est « l’officier d’état civil ».  
+
+**Practice** `fr2-42-cni` · multiple choice, level 2 · **authored key**
+
+> À partir de quel âge reçoit-on la carte nationale d’identité ?
+
+- ◻️ dix ans  
+  _↳ feedback if chosen: C’est trop tôt._
+- ◻️ soixante ans  
+  _↳ feedback if chosen: C’est trop tard._
+- ✅ dix-huit ans
+- ◻️ deux ans  
+  _↳ feedback if chosen: C’est trop tôt._
+
+Full working after a second miss:
+
+> À la majorité.  
+> Donc la réponse est « dix-huit ans ».  
+
+> Quel document faut-il pour voyager en avion vers l’Europe ?
+
+- ◻️ l’acte de décès  
+  _↳ feedback if chosen: Il prouve une mort._
+- ◻️ le carnet de notes  
+  _↳ feedback if chosen: C’est un document scolaire._
+- ◻️ l’acte de mariage  
+  _↳ feedback if chosen: Il prouve un mariage._
+- ✅ le passeport
+
+Full working after a second miss:
+
+> Le passeport sert à voyager à l’étranger.  
+> Donc la réponse est « le passeport ».  
+
+**Practice** `fr2-42-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ◻️ L’acte de naissance donne le nom des parents.
+- ✅ La carte nationale d’identité est donnée aux bébés.  
+  _↳ explanation: Elle est délivrée à partir de dix-huit ans._
+- ◻️ L’acte de mariage prouve une union.
+- ◻️ On déclare la naissance au centre d’état civil.
+
+Full working after a second miss:
+
+> La phrase fausse est « La carte nationale d’identité est donnée aux bébés. ».  
+> Elle est délivrée à partir de dix-huit ans.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ L’acte de mariage prouve une union.
+- ◻️ Le passeport sert à voyager.
+- ◻️ L’acte de naissance donne le nom des parents.
+- ✅ La carte nationale d’identité est donnée aux bébés.  
+  _↳ explanation: Elle est délivrée à partir de dix-huit ans._
+
+Full working after a second miss:
+
+> La phrase fausse est « La carte nationale d’identité est donnée aux bébés. ».  
+> Elle est délivrée à partir de dix-huit ans.  
+
+## Lesson 43: Grammaire :-La phrase interro-négative
+
+Prerequisites: none · Skill: fr2-43 (La phrase interro-négative)
+
+**Note** (draft)
+
+> La phrase interro-négative pose une question à la forme négative. Elle finit par un point d’interrogation.
+> Trois façons :
+> • intonation : « Tu ne viens pas ? »
+> • est-ce que : « Est-ce que tu ne viens pas ? »
+> • inversion du sujet : « Ne viens-tu pas ? » (avec un trait d’union ; on ajoute -t- entre deux voyelles : « N’aime-t-il pas le riz ? »)
+> Au passé composé, la négation entoure l’auxiliaire : « N’as-tu pas fini ? »
+> Pour répondre « oui » à une question négative, on dit « si » : « Tu ne viens pas ? — Si, je viens. » ; sinon : « Non, je ne viens pas. »
+
+**Card c43-1** (draft)
+
+> La phrase interro-négative est une question à la forme négative.
+>
+> _Tu ne viens pas ?_  
+
+Check question: `fr2-43-quoi` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quelle phrase est interro-négative ?
+
+- ◻️ Viens-tu à la fête ?  
+  _↳ feedback if chosen: Elle n’est pas négative._
+- ✅ Ne viens-tu pas à la fête ?
+- ◻️ Tu ne viens pas à la fête.  
+  _↳ feedback if chosen: Ce n’est pas une question._
+- ◻️ Viens à la fête !  
+  _↳ feedback if chosen: C’est un ordre._
+
+Full working after a second miss:
+
+> Question + négation.  
+> Donc la réponse est « Ne viens-tu pas à la fête ? ».  
+
+**Card c43-2** (draft)
+
+> Avec l’inversion : Ne + verbe-sujet + pas ? Entre deux voyelles, on ajoute -t-.
+>
+> _Ne parle-t-elle pas ?_  
+
+Check question: `fr2-43-inv-card` · multiple choice, level 1 · **authored key**
+
+> Mets à la forme interro-négative avec inversion : « Il parle anglais. »
+
+- ✅ Ne parle-t-il pas anglais ?
+- ◻️ Ne il parle pas anglais ?  
+  _↳ feedback if chosen: Le sujet va après le verbe._
+- ◻️ Parle-t-il pas anglais ?  
+  _↳ feedback if chosen: Il manque « ne »._
+- ◻️ Ne parle-il pas anglais ?  
+  _↳ feedback if chosen: Il faut -t- entre deux voyelles._
+
+Full working after a second miss:
+
+> On ajoute -t- entre parle et il.  
+> Donc la réponse est « Ne parle-t-il pas anglais ? ».  
+
+**Card c43-3** (draft)
+
+> Pour répondre oui à une question négative, on dit « si ».
+>
+> _Tu n’as pas faim ? — Si, j’ai faim._  
+
+Check question: `fr2-43-si` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis la bonne réponse.
+
+Sentence: **« Il ne vient pas ? » — « ___, il est malade. »**
+- ◻️ Si  
+  _↳ feedback if chosen: « Si » voudrait dire qu’il vient._
+- ✅ Non
+- ◻️ Oui  
+  _↳ feedback if chosen: On ne dit pas « oui » à une question négative._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Non ».  
+> « Il ne vient pas ? » — « Non, il est malade. »  
+
+**Worked example** (draft)
+
+> Mets à la forme interro-négative avec inversion : « Il mange du poisson. »
+
+1. Négation : « Il ne mange pas de poisson. »
+2. Inversion : le verbe avant le sujet, avec -t- entre deux voyelles : « Ne mange-t-il pas de poisson ? »
+
+**Answer:** Ne mange-t-il pas de poisson ?
+
+**Practice** `fr2-43-quoi` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase est interro-négative ?
+
+- ◻️ Viens-tu à la fête ?  
+  _↳ feedback if chosen: Elle n’est pas négative._
+- ◻️ Tu ne viens pas à la fête.  
+  _↳ feedback if chosen: Ce n’est pas une question._
+- ◻️ Viens à la fête !  
+  _↳ feedback if chosen: C’est un ordre._
+- ✅ Ne viens-tu pas à la fête ?
+
+Full working after a second miss:
+
+> Question + négation.  
+> Donc la réponse est « Ne viens-tu pas à la fête ? ».  
+
+> Quelle phrase est interro-négative ?
+
+- ◻️ Comprenez !  
+  _↳ feedback if chosen: C’est un ordre._
+- ✅ Est-ce que vous n’avez pas compris ?
+- ◻️ Vous n’avez pas compris.  
+  _↳ feedback if chosen: Ce n’est pas une question._
+- ◻️ Avez-vous compris ?  
+  _↳ feedback if chosen: Elle n’est pas négative._
+
+Full working after a second miss:
+
+> Question + négation.  
+> Donc la réponse est « Est-ce que vous n’avez pas compris ? ».  
+
+**Practice** `fr2-43-inv` · multiple choice, level 2 · **authored key**
+
+> Mets à la forme interro-négative avec inversion : « Vous avez fini. »
+
+- ✅ N’avez-vous pas fini ?
+- ◻️ Avez-vous pas fini ?  
+  _↳ feedback if chosen: Il manque « ne »._
+- ◻️ Ne vous avez pas fini ?  
+  _↳ feedback if chosen: Le sujet va après l’auxiliaire._
+- ◻️ N’avez pas-vous fini ?  
+  _↳ feedback if chosen: « pas » va après le sujet._
+
+Full working after a second miss:
+
+> La négation entoure l’auxiliaire inversé.  
+> Donc la réponse est « N’avez-vous pas fini ? ».  
+
+> Mets à la forme interro-négative avec inversion : « Il parle anglais. »
+
+- ◻️ Parle-t-il pas anglais ?  
+  _↳ feedback if chosen: Il manque « ne »._
+- ✅ Ne parle-t-il pas anglais ?
+- ◻️ Ne il parle pas anglais ?  
+  _↳ feedback if chosen: Le sujet va après le verbe._
+- ◻️ Ne parle-il pas anglais ?  
+  _↳ feedback if chosen: Il faut -t- entre deux voyelles._
+
+Full working after a second miss:
+
+> On ajoute -t- entre parle et il.  
+> Donc la réponse est « Ne parle-t-il pas anglais ? ».  
+
+**Practice** `fr2-43-si` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne réponse.
+
+Sentence: **« Il ne vient pas ? » — « ___, il est malade. »**
+- ◻️ Oui  
+  _↳ feedback if chosen: On ne dit pas « oui » à une question négative._
+- ◻️ Si  
+  _↳ feedback if chosen: « Si » voudrait dire qu’il vient._
+- ✅ Non
+
+Full working after a second miss:
+
+> Le mot qui manque est « Non ».  
+> « Il ne vient pas ? » — « Non, il est malade. »  
+
+> Choisis la bonne réponse.
+
+Sentence: **« Tu n’as pas faim ? » — « ___, j’ai très faim. »**
+- ✅ Si
+- ◻️ Oui  
+  _↳ feedback if chosen: Après une question négative, on dit « si » pour oui._
+- ◻️ Non  
+  _↳ feedback if chosen: « Non » veut dire que tu n’as pas faim._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Si ».  
+> « Tu n’as pas faim ? » — « Si, j’ai très faim. »  
+
+**Practice** `fr2-43-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase interro-négative est mal écrite ?
+
+- ◻️ Est-ce que tu ne dors pas ?
+- ◻️ N’aime-t-il pas le riz ?
+- ◻️ N’avez-vous pas fini ?
+- ✅ Ne tu viens pas ?  
+  _↳ explanation: Avec l’inversion, le sujet suit le verbe : Ne viens-tu pas ?_
+
+Full working after a second miss:
+
+> La phrase fausse est « Ne tu viens pas ? ».  
+> Avec l’inversion, le sujet suit le verbe : Ne viens-tu pas ?  
+
+> Quelle phrase interro-négative est mal écrite ?
+
+- ◻️ N’avez-vous pas fini ?
+- ✅ Aimes-tu pas le riz ?  
+  _↳ explanation: Il manque « ne » : N’aimes-tu pas le riz ?_
+- ◻️ Est-ce que tu ne dors pas ?
+- ◻️ Ne viens-tu pas ?
+
+Full working after a second miss:
+
+> La phrase fausse est « Aimes-tu pas le riz ? ».  
+> Il manque « ne » : N’aimes-tu pas le riz ?  
+
+## Lesson 44: Orthographe :-Les sons /i/ Ex. : Punir /b/ Ex. : bannir
+
+Prerequisites: none · Skill: fr2-44 (Les sons [i] et [b])
+
+**Note** (draft)
+
+> Le son [i] s’écrit souvent :
+> • i : punir, ami, finir ;
+> • î : une île, un gîte ;
+> • ï : le maïs, naïf ;
+> • y : un stylo, une bicyclette, le cycle.
+> Le son [b] s’écrit b ou bb :
+> • b : bannir, un ballon, la robe, le bébé ;
+> • bb (rare) : un abbé, une abbaye, le sabbat.
+> Attention : « bannir » s’écrit avec un seul b et deux n.
+> Le tréma (¨) sur le i montre qu’on prononce les deux voyelles séparément : ma-ïs.
+
+**Card c44-1** (draft)
+
+> Le son [i] s’écrit i, î, ï ou y.
+>
+> _une île, le maïs, un stylo_  
+
+Check question: `fr2-44-i` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis la bonne écriture.
+
+Sentence: **Les pêcheurs vivent sur une petite ___.**
+- ◻️ ile  
+  _↳ feedback if chosen: « île » prend un accent circonflexe._
+- ◻️ ïle  
+  _↳ feedback if chosen: C’est un accent circonflexe, pas un tréma._
+- ✅ île
+
+Full working after a second miss:
+
+> Le mot qui manque est « île ».  
+> Les pêcheurs vivent sur une petite île.  
+
+**Card c44-2** (draft)
+
+> Le tréma (¨) montre qu’on prononce deux voyelles séparément.
+>
+> _ma-ïs, na-ïf_  
+
+Check question: `fr2-44-trema` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quel mot s’écrit avec un y pour le son [i] ?
+
+- ◻️ ami  
+  _↳ feedback if chosen: Il s’écrit avec i._
+- ◻️ punir  
+  _↳ feedback if chosen: Il s’écrit avec i._
+- ✅ bicyclette
+- ◻️ finir  
+  _↳ feedback if chosen: Il s’écrit avec i._
+
+Full working after a second miss:
+
+> bicyclette.  
+> Donc la réponse est « bicyclette ».  
+
+**Card c44-3** (draft)
+
+> Le son [b] s’écrit b, et rarement bb.
+>
+> _bannir, un abbé_  
+
+Check question: `fr2-44-b-card` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne écriture.
+
+Sentence: **Le ___ dort dans son berceau.**
+- ✅ bébé
+- ◻️ bébbé  
+  _↳ feedback if chosen: Un seul b au milieu._
+- ◻️ bbébé  
+  _↳ feedback if chosen: Un seul b au début._
+
+Full working after a second miss:
+
+> Le mot qui manque est « bébé ».  
+> Le bébé dort dans son berceau.  
+
+**Worked example** (draft)
+
+> Complète : « Le paysan récolte son ma_s et range son st_lo. »
+
+1. Dans « maïs », on entend « a » puis « i » séparément : on met un tréma.
+2. « stylo » s’écrit avec un y.
+
+**Answer:** Le paysan récolte son maïs et range son stylo.
+
+**Practice** `fr2-44-i` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne écriture.
+
+Sentence: **J’écris avec un ___ bleu.**
+- ◻️ stilo  
+  _↳ feedback if chosen: « stylo » s’écrit avec y._
+- ✅ stylo
+- ◻️ stïlo  
+  _↳ feedback if chosen: Pas de tréma ici._
+
+Full working after a second miss:
+
+> Le mot qui manque est « stylo ».  
+> J’écris avec un stylo bleu.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Les pêcheurs vivent sur une petite ___.**
+- ◻️ ile  
+  _↳ feedback if chosen: « île » prend un accent circonflexe._
+- ✅ île
+- ◻️ ïle  
+  _↳ feedback if chosen: C’est un accent circonflexe, pas un tréma._
+
+Full working after a second miss:
+
+> Le mot qui manque est « île ».  
+> Les pêcheurs vivent sur une petite île.  
+
+**Practice** `fr2-44-trema` · multiple choice, level 1 · **authored key**
+
+> Quel mot s’écrit avec un y pour le son [i] ?
+
+- ◻️ finir  
+  _↳ feedback if chosen: Il s’écrit avec i._
+- ◻️ ami  
+  _↳ feedback if chosen: Il s’écrit avec i._
+- ◻️ punir  
+  _↳ feedback if chosen: Il s’écrit avec i._
+- ✅ bicyclette
+
+Full working after a second miss:
+
+> bicyclette.  
+> Donc la réponse est « bicyclette ».  
+
+> Quel mot s’écrit avec un y pour le son [i] ?
+
+- ◻️ punir  
+  _↳ feedback if chosen: Il s’écrit avec i._
+- ✅ bicyclette
+- ◻️ ami  
+  _↳ feedback if chosen: Il s’écrit avec i._
+- ◻️ finir  
+  _↳ feedback if chosen: Il s’écrit avec i._
+
+Full working after a second miss:
+
+> bicyclette.  
+> Donc la réponse est « bicyclette ».  
+
+**Practice** `fr2-44-b` · fill the blank, level 2 · **authored key**
+
+> Choisis la bonne écriture.
+
+Sentence: **Le ___ dort dans son berceau.**
+- ✅ bébé
+- ◻️ bébbé  
+  _↳ feedback if chosen: Un seul b au milieu._
+- ◻️ bbébé  
+  _↳ feedback if chosen: Un seul b au début._
+
+Full working after a second miss:
+
+> Le mot qui manque est « bébé ».  
+> Le bébé dort dans son berceau.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Le roi a décidé de ___ le voleur du village.**
+- ◻️ bbanir  
+  _↳ feedback if chosen: Un seul b, deux n._
+- ✅ bannir
+- ◻️ banir  
+  _↳ feedback if chosen: « bannir » prend deux n._
+
+Full working after a second miss:
+
+> Le mot qui manque est « bannir ».  
+> Le roi a décidé de bannir le voleur du village.  
+
+**Practice** `fr2-44-spot` · spot the error, level 3 · **authored key**
+
+> Quel mot est mal écrit ?
+
+- ◻️ bannir
+- ✅ une ile  
+  _↳ explanation: On écrit « île » avec un accent circonflexe._
+- ◻️ une île
+- ◻️ un stylo
+
+Full working after a second miss:
+
+> La phrase fausse est « une ile ».  
+> On écrit « île » avec un accent circonflexe.  
+
+> Quel mot est mal écrit ?
+
+- ◻️ le maïs
+- ◻️ un stylo
+- ◻️ une île
+- ✅ un stilo  
+  _↳ explanation: On écrit « stylo » avec un y._
+
+Full working after a second miss:
+
+> La phrase fausse est « un stilo ».  
+> On écrit « stylo » avec un y.  
+
+## Lesson 45: Lecture : Texte adossé au module
+
+Prerequisites: 42 · Skill: fr2-45 (Lire un texte sur la vie citoyenne)
+
+**Note** (draft)
+
+> « La carte d’identité de Nfor »
+> Nfor vient d’avoir dix-huit ans. Ce matin, il va au commissariat avec son acte de naissance et deux photos. « Je veux établir ma carte nationale d’identité », dit-il au policier. On prend ses empreintes digitales et on lui donne un récépissé. « Revenez dans quelques semaines », dit le policier.
+> Sur le chemin du retour, Nfor passe devant la mairie. Il voit une affiche : « Jeunes citoyens, inscrivez-vous sur les listes électorales ! » Il sourit : bientôt, il pourra voter. Le soir, il raconte sa journée à son père. « Être citoyen, ce n’est pas seulement avoir des droits, dit son père. C’est aussi respecter la loi, payer l’impôt et protéger son pays. »
+> (texte original écrit pour l’application)
+
+**Card c45-1** (draft)
+
+> Pour comprendre un texte, on cherche qui, quoi, où, quand et pourquoi.
+>
+> _Qui ? Nfor. Où ? Au commissariat._  
+
+Check question: `fr2-45-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Texte « La carte d’identité de Nfor » : quel âge a Nfor ?
+
+- ◻️ quinze ans  
+  _↳ feedback if chosen: Le texte dit dix-huit ans._
+- ◻️ vingt-cinq ans  
+  _↳ feedback if chosen: Le texte dit dix-huit ans._
+- ◻️ dix ans  
+  _↳ feedback if chosen: Le texte dit dix-huit ans._
+- ✅ dix-huit ans
+
+Full working after a second miss:
+
+> « Nfor vient d’avoir dix-huit ans. »  
+> Donc la réponse est « dix-huit ans ».  
+
+**Card c45-2** (draft)
+
+> Le récépissé est un papier qui prouve qu’on a déposé une demande.
+>
+> _On le garde jusqu’à recevoir la carte._  
+
+Check question: `fr2-45-mot` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Texte « La carte d’identité de Nfor » : que veut dire « les empreintes digitales » ?
+
+- ◻️ la date de naissance  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ les noms des parents  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ les marques des doigts
+- ◻️ la signature du policier  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Digital vient de « doigt ».  
+> Donc la réponse est « les marques des doigts ».  
+
+**Card c45-3** (draft)
+
+> La leçon du texte : un citoyen a des droits et des devoirs.
+>
+> _Voter est un droit ; payer l’impôt est un devoir._  
+
+Check question: `fr2-45-idee-card` · multiple choice, level 1 · **authored key**
+
+> Texte « La carte d’identité de Nfor » : pourquoi Nfor sourit-il devant l’affiche ?
+
+- ✅ parce qu’il pourra bientôt voter
+- ◻️ parce qu’il est malade  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il a perdu sa carte  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il n’aime pas la mairie  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> « Bientôt, il pourra voter. »  
+> Donc la réponse est « parce qu’il pourra bientôt voter ».  
+
+**Worked example** (draft)
+
+> Pourquoi Nfor va-t-il au commissariat ?
+
+1. Le texte dit qu’il vient d’avoir dix-huit ans.
+2. Il dit au policier : « Je veux établir ma carte nationale d’identité. »
+
+**Answer:** Pour établir sa carte nationale d’identité, car il a dix-huit ans.
+
+**Practice** `fr2-45-comp` · multiple choice, level 1 · **authored key**
+
+> Texte « La carte d’identité de Nfor » : que voit-il devant la mairie ?
+
+- ◻️ un marché  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ une affiche sur les listes électorales
+- ◻️ un accident  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ un match de football  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> « Jeunes citoyens, inscrivez-vous sur les listes électorales ! »  
+> Donc la réponse est « une affiche sur les listes électorales ».  
+
+> Texte « La carte d’identité de Nfor » : que voit-il devant la mairie ?
+
+- ◻️ un accident  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ une affiche sur les listes électorales
+- ◻️ un marché  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ un match de football  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> « Jeunes citoyens, inscrivez-vous sur les listes électorales ! »  
+> Donc la réponse est « une affiche sur les listes électorales ».  
+
+**Practice** `fr2-45-mot` · multiple choice, level 1 · **authored key**
+
+> Texte « La carte d’identité de Nfor » : que veut dire « les empreintes digitales » ?
+
+- ✅ les marques des doigts
+- ◻️ les noms des parents  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ la date de naissance  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ la signature du policier  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Digital vient de « doigt ».  
+> Donc la réponse est « les marques des doigts ».  
+
+> Texte « La carte d’identité de Nfor » : que veut dire « un récépissé » ?
+
+- ◻️ une photo  
+  _↳ feedback if chosen: Ce n’est pas une photo._
+- ✅ un papier qui prouve qu’on a déposé une demande
+- ◻️ une amende  
+  _↳ feedback if chosen: Ce n’est pas une punition._
+- ◻️ une carte d’identité  
+  _↳ feedback if chosen: La carte viendra plus tard._
+
+Full working after a second miss:
+
+> On le garde en attendant la carte.  
+> Donc la réponse est « un papier qui prouve qu’on a déposé une demande ».  
+
+**Practice** `fr2-45-idee` · multiple choice, level 2 · **authored key**
+
+> Texte « La carte d’identité de Nfor » : quelle est l’idée principale ?
+
+- ◻️ Les photos coûtent cher.  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ Les policiers sont méchants.  
+  _↳ feedback if chosen: Ce n’est pas dit._
+- ◻️ Il faut toujours aller à la mairie le soir.  
+  _↳ feedback if chosen: Ce n’est pas l’idée._
+- ✅ Devenir citoyen, c’est avoir des droits et des devoirs.
+
+Full working after a second miss:
+
+> Le père le dit à la fin.  
+> Donc la réponse est « Devenir citoyen, c’est avoir des droits et des devoirs. ».  
+
+> Texte « La carte d’identité de Nfor » : pourquoi Nfor sourit-il devant l’affiche ?
+
+- ◻️ parce qu’il est malade  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ parce qu’il pourra bientôt voter
+- ◻️ parce qu’il a perdu sa carte  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ parce qu’il n’aime pas la mairie  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> « Bientôt, il pourra voter. »  
+> Donc la réponse est « parce qu’il pourra bientôt voter ».  
+
+**Practice** `fr2-45-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Son père parle des devoirs du citoyen.
+- ✅ Le père dit que le citoyen n’a que des droits.  
+  _↳ explanation: Il dit qu’il a aussi des devoirs._
+- ◻️ On prend ses empreintes digitales.
+- ◻️ Nfor a dix-huit ans.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le père dit que le citoyen n’a que des droits. ».  
+> Il dit qu’il a aussi des devoirs.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ✅ Nfor reçoit sa carte le jour même.  
+  _↳ explanation: Le policier dit de revenir dans quelques semaines._
+- ◻️ Nfor a dix-huit ans.
+- ◻️ Il voit une affiche devant la mairie.
+- ◻️ Son père parle des devoirs du citoyen.
+
+Full working after a second miss:
+
+> La phrase fausse est « Nfor reçoit sa carte le jour même. ».  
+> Le policier dit de revenir dans quelques semaines.  
+
+## Lesson 46: Vocabulaire : Le code de la route (signaux et règles de base)
+
+Prerequisites: none · Skill: fr2-46 (Le code de la route)
+
+**Note** (draft)
+
+> Le code de la route est l’ensemble des règles que doivent respecter les piétons, les cyclistes, les motocyclistes et les conducteurs.
+> Les signaux :
+> • les feux tricolores : rouge = s’arrêter ; orange = ralentir et s’arrêter si possible ; vert = passer ;
+> • les panneaux : le panneau « stop », le sens interdit, la limitation de vitesse, le passage pour piétons, l’école ;
+> • le passage pour piétons (les bandes blanches).
+> Règles de base : marcher sur le trottoir ou au bord de la route, face aux voitures ; traverser au passage piéton après avoir regardé à gauche, à droite, puis à gauche ; porter un casque à moto ; mettre la ceinture de sécurité ; ne pas téléphoner en conduisant ; ne pas conduire après avoir bu de l’alcool.
+
+**Card c46-1** (draft)
+
+> Rouge : on s’arrête ; orange : on ralentit ; vert : on passe.
+>
+> _Les feux tricolores._  
+
+Check question: `fr2-46-feu` · matching, level 1 · **authored key**, reused from practice
+
+> Associe chaque signal à son sens.
+
+Right-hand side (shuffled): passer · ralentir · s’arrêter · ne pas entrer dans la rue
+- le panneau « sens interdit » → **ne pas entrer dans la rue**
+- le feu vert → **passer**
+- le feu orange → **ralentir**
+- le feu rouge → **s’arrêter**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le panneau « sens interdit » → ne pas entrer dans la rue  
+> le feu vert → passer  
+> le feu orange → ralentir  
+> le feu rouge → s’arrêter  
+
+**Card c46-2** (draft)
+
+> Le piéton traverse au passage piéton après avoir regardé à gauche, à droite, puis à gauche.
+>
+> _Les bandes blanches._  
+
+Check question: `fr2-46-pieton` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Où le piéton doit-il traverser la route ?
+
+- ◻️ entre deux camions  
+  _↳ feedback if chosen: On est caché._
+- ◻️ au milieu d’un virage  
+  _↳ feedback if chosen: On ne voit pas les voitures._
+- ◻️ en courant n’importe où  
+  _↳ feedback if chosen: C’est dangereux._
+- ✅ au passage pour piétons
+
+Full working after a second miss:
+
+> Les bandes blanches.  
+> Donc la réponse est « au passage pour piétons ».  
+
+**Card c46-3** (draft)
+
+> Casque à moto, ceinture de sécurité, pas de téléphone ni d’alcool au volant.
+>
+> _Le casque protège la tête._  
+
+Check question: `fr2-46-regle-card` · multiple choice, level 1 · **authored key**
+
+> Que doit porter un motocycliste ?
+
+- ◻️ un chapeau de paille  
+  _↳ feedback if chosen: Il ne protège pas._
+- ✅ un casque
+- ◻️ rien  
+  _↳ feedback if chosen: C’est dangereux._
+- ◻️ des lunettes de soleil seulement  
+  _↳ feedback if chosen: Elles ne protègent pas la tête._
+
+Full working after a second miss:
+
+> Le casque protège la tête.  
+> Donc la réponse est « un casque ».  
+
+**Worked example** (draft)
+
+> Le feu est orange quand un taxi arrive. Que doit faire le chauffeur ?
+
+1. Le feu orange annonce le rouge.
+2. Il doit ralentir et s’arrêter s’il peut le faire sans danger.
+
+**Answer:** Ralentir et s’arrêter si possible.
+
+**Practice** `fr2-46-feu` · matching, level 1 · **authored key**
+
+> Associe chaque signal à son sens.
+
+Right-hand side (shuffled): ne pas entrer dans la rue · ralentir · passer · s’arrêter
+- le feu rouge → **s’arrêter**
+- le feu vert → **passer**
+- le feu orange → **ralentir**
+- le panneau « sens interdit » → **ne pas entrer dans la rue**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le feu rouge → s’arrêter  
+> le feu vert → passer  
+> le feu orange → ralentir  
+> le panneau « sens interdit » → ne pas entrer dans la rue  
+
+> Associe chaque signal à son sens.
+
+Right-hand side (shuffled): passer · ne pas entrer dans la rue · ralentir · s’arrêter
+- le feu rouge → **s’arrêter**
+- le feu vert → **passer**
+- le panneau « sens interdit » → **ne pas entrer dans la rue**
+- le feu orange → **ralentir**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le feu rouge → s’arrêter  
+> le feu vert → passer  
+> le panneau « sens interdit » → ne pas entrer dans la rue  
+> le feu orange → ralentir  
+
+**Practice** `fr2-46-pieton` · multiple choice, level 1 · **authored key**
+
+> Où le piéton doit-il traverser la route ?
+
+- ◻️ en courant n’importe où  
+  _↳ feedback if chosen: C’est dangereux._
+- ◻️ au milieu d’un virage  
+  _↳ feedback if chosen: On ne voit pas les voitures._
+- ✅ au passage pour piétons
+- ◻️ entre deux camions  
+  _↳ feedback if chosen: On est caché._
+
+Full working after a second miss:
+
+> Les bandes blanches.  
+> Donc la réponse est « au passage pour piétons ».  
+
+> Où le piéton doit-il traverser la route ?
+
+- ✅ au passage pour piétons
+- ◻️ au milieu d’un virage  
+  _↳ feedback if chosen: On ne voit pas les voitures._
+- ◻️ en courant n’importe où  
+  _↳ feedback if chosen: C’est dangereux._
+- ◻️ entre deux camions  
+  _↳ feedback if chosen: On est caché._
+
+Full working after a second miss:
+
+> Les bandes blanches.  
+> Donc la réponse est « au passage pour piétons ».  
+
+**Practice** `fr2-46-regle` · multiple choice, level 2 · **authored key**
+
+> Quel comportement est interdit au volant ?
+
+- ✅ téléphoner en conduisant
+- ◻️ mettre la ceinture  
+  _↳ feedback if chosen: C’est obligatoire._
+- ◻️ ralentir près d’une école  
+  _↳ feedback if chosen: C’est prudent._
+- ◻️ respecter le feu rouge  
+  _↳ feedback if chosen: C’est obligatoire._
+
+Full working after a second miss:
+
+> Le téléphone distrait le conducteur.  
+> Donc la réponse est « téléphoner en conduisant ».  
+
+> Quel comportement est interdit au volant ?
+
+- ✅ téléphoner en conduisant
+- ◻️ mettre la ceinture  
+  _↳ feedback if chosen: C’est obligatoire._
+- ◻️ ralentir près d’une école  
+  _↳ feedback if chosen: C’est prudent._
+- ◻️ respecter le feu rouge  
+  _↳ feedback if chosen: C’est obligatoire._
+
+Full working after a second miss:
+
+> Le téléphone distrait le conducteur.  
+> Donc la réponse est « téléphoner en conduisant ».  
+
+**Practice** `fr2-46-spot` · spot the error, level 3 · **authored key**
+
+> Quelle règle est fausse ?
+
+- ◻️ On met la ceinture de sécurité.
+- ◻️ On traverse au passage piéton.
+- ✅ On peut conduire après avoir bu de l’alcool.  
+  _↳ explanation: L’alcool est interdit au volant._
+- ◻️ Au feu rouge, on s’arrête.
+
+Full working after a second miss:
+
+> La phrase fausse est « On peut conduire après avoir bu de l’alcool. ».  
+> L’alcool est interdit au volant.  
+
+> Quelle règle est fausse ?
+
+- ◻️ Au feu rouge, on s’arrête.
+- ✅ On peut conduire après avoir bu de l’alcool.  
+  _↳ explanation: L’alcool est interdit au volant._
+- ◻️ Le casque protège la tête.
+- ◻️ On met la ceinture de sécurité.
+
+Full working after a second miss:
+
+> La phrase fausse est « On peut conduire après avoir bu de l’alcool. ».  
+> L’alcool est interdit au volant.  
+
+## Lesson 47: Conjugaison : L’impératif des verbes du 2e groupe adossés au module
+
+Prerequisites: none · Skill: fr2-47 (L’impératif des verbes du deuxième groupe)
+
+**Note** (draft)
+
+> L’impératif sert à donner un ordre, un conseil ou une consigne. Il n’a que trois personnes et pas de sujet exprimé : tu, nous, vous.
+> Pour les verbes du deuxième groupe (finir, choisir, obéir, réfléchir, remplir), on prend les formes du présent :
+> • finis ! (tu) • finissons ! (nous) • finissez ! (vous)
+> Exemples : « Obéissez à la loi ! » « Réfléchis avant de parler ! » « Remplissons ce formulaire ! »
+> À la forme négative : « Ne choisis pas ce chemin ! »
+> Attention : les verbes du premier groupe perdent le -s à la 2e personne : « mange ! », mais « finis ! » garde son -s.
+
+**Card c47-1** (draft)
+
+> L’impératif donne un ordre ou un conseil, à trois personnes, sans sujet.
+>
+> _Finis ton travail !_  
+
+Check question: `fr2-47-quoi` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Combien de personnes a l’impératif ?
+
+- ✅ trois : tu, nous, vous
+- ◻️ six  
+  _↳ feedback if chosen: Le présent en a six._
+- ◻️ deux : il et ils  
+  _↳ feedback if chosen: Ce ne sont pas les bonnes._
+- ◻️ une seule  
+  _↳ feedback if chosen: Il en a trois._
+
+Full working after a second miss:
+
+> tu, nous, vous.  
+> Donc la réponse est « trois : tu, nous, vous ».  
+
+**Card c47-2** (draft)
+
+> Deuxième groupe : -is, -issons, -issez.
+>
+> _choisis, choisissons, choisissez_  
+
+Check question: `fr2-47-form` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Mets « grandir » à l’impératif, à la personne « tu ».
+
+- ◻️ grandir  
+  _↳ feedback if chosen: Il faut conjuguer le verbe._
+- ◻️ grandit  
+  _↳ feedback if chosen: Les verbes du deuxième groupe gardent -iss- au pluriel et -is avec « tu »._
+- ✅ grandis
+
+Full working after a second miss:
+
+> Deuxième groupe : -is, -issons, -issez.  
+> Donc : grandis !  
+
+**Card c47-3** (draft)
+
+> À la forme négative : ne … pas autour du verbe.
+>
+> _Ne remplis pas trop le seau !_  
+
+Check question: `fr2-47-type-card` · fill the blank, level 1 · computed by rule
+
+> Écris le verbe à l’impératif.
+
+Sentence: **___ (obéir) au code de la route, mes amis !**
+Typed answer accepted (case and extra spaces ignored): **obéissez**
+- Typed **obéez** (naive) → “Deuxième groupe : -is, -issons, -issez.”
+
+Full working after a second miss:
+
+> Deuxième groupe à l’impératif : -is, -issons, -issez.  
+> On écrit : obéissez.  
+
+**Worked example** (draft)
+
+> Conjugue « obéir » à l’impératif présent.
+
+1. On prend le présent : tu obéis, nous obéissons, vous obéissez.
+2. On enlève les pronoms : obéis ! obéissons ! obéissez !
+
+**Answer:** obéis, obéissons, obéissez
+
+**Practice** `fr2-47-quoi` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase est à l’impératif ?
+
+- ◻️ Vous réfléchissez avant de répondre.  
+  _↳ feedback if chosen: Il y a un sujet : c’est le présent._
+- ◻️ Réfléchir avant de répondre.  
+  _↳ feedback if chosen: C’est l’infinitif._
+- ◻️ Ils réfléchissent avant de répondre.  
+  _↳ feedback if chosen: Il y a un sujet : c’est le présent._
+- ✅ Réfléchissez avant de répondre !
+
+Full working after a second miss:
+
+> Pas de sujet, un ordre.  
+> Donc la réponse est « Réfléchissez avant de répondre ! ».  
+
+> Quelle phrase est à l’impératif ?
+
+- ◻️ Réfléchir avant de répondre.  
+  _↳ feedback if chosen: C’est l’infinitif._
+- ✅ Réfléchissez avant de répondre !
+- ◻️ Vous réfléchissez avant de répondre.  
+  _↳ feedback if chosen: Il y a un sujet : c’est le présent._
+- ◻️ Ils réfléchissent avant de répondre.  
+  _↳ feedback if chosen: Il y a un sujet : c’est le présent._
+
+Full working after a second miss:
+
+> Pas de sujet, un ordre.  
+> Donc la réponse est « Réfléchissez avant de répondre ! ».  
+
+**Practice** `fr2-47-form` · multiple choice, level 1 · computed by rule
+
+> Mets « grandir » à l’impératif, à la personne « vous ».
+
+- ✅ grandissez
+- ◻️ grandit  
+  _↳ feedback if chosen: Ce n’est pas la forme de « vous »._
+- ◻️ grandir  
+  _↳ feedback if chosen: Il faut conjuguer le verbe._
+- ◻️ grandez  
+  _↳ feedback if chosen: Les verbes du deuxième groupe gardent -iss- au pluriel et -is avec « tu »._
+
+Full working after a second miss:
+
+> Deuxième groupe : -is, -issons, -issez.  
+> Donc : grandissez !  
+
+> Mets « obéir » à l’impératif, à la personne « nous ».
+
+- ◻️ obéons  
+  _↳ feedback if chosen: Les verbes du deuxième groupe gardent -iss- au pluriel et -is avec « tu »._
+- ◻️ obéissent  
+  _↳ feedback if chosen: Ce n’est pas la forme de « nous »._
+- ◻️ obéir  
+  _↳ feedback if chosen: Il faut conjuguer le verbe._
+- ✅ obéissons
+
+Full working after a second miss:
+
+> Deuxième groupe : -is, -issons, -issez.  
+> Donc : obéissons !  
+
+**Practice** `fr2-47-type` · fill the blank, level 2 · computed by rule
+
+> Écris le verbe à l’impératif.
+
+Sentence: **___ (obéir) au code de la route, mes amis !**
+Typed answer accepted (case and extra spaces ignored): **obéissez**
+- Typed **obéez** (naive) → “Deuxième groupe : -is, -issons, -issez.”
+
+Full working after a second miss:
+
+> Deuxième groupe à l’impératif : -is, -issons, -issez.  
+> On écrit : obéissez.  
+
+> Écris le verbe à l’impératif.
+
+Sentence: **Élèves, ___ (remplir) vos fiches !**
+Typed answer accepted (case and extra spaces ignored): **remplissez**
+- Typed **remplez** (naive) → “Deuxième groupe : -is, -issons, -issez.”
+
+Full working after a second miss:
+
+> Deuxième groupe à l’impératif : -is, -issons, -issez.  
+> On écrit : remplissez.  
+
+**Practice** `fr2-47-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Finis ton repas !
+- ◻️ Obéissez au maître !
+- ◻️ Ne remplis pas le seau !
+- ✅ Tu choisis ce livre !  
+  _↳ explanation: À l’impératif, il n’y a pas de sujet : Choisis ce livre !_
+
+Full working after a second miss:
+
+> La phrase fausse est « Tu choisis ce livre ! ».  
+> À l’impératif, il n’y a pas de sujet : Choisis ce livre !  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Obéissez au maître !
+- ◻️ Ne remplis pas le seau !
+- ◻️ Choisissons un nom !
+- ✅ Finit ton travail !  
+  _↳ explanation: Avec « tu » : finis !_
+
+Full working after a second miss:
+
+> La phrase fausse est « Finit ton travail ! ».  
+> Avec « tu » : finis !  
+
+## Lesson 48: Vocabulaire : Les loisirs et les jeux
+
+Prerequisites: none · Skill: fr2-48 (Les loisirs et les jeux)
+
+**Note** (draft)
+
+> Les loisirs sont ce qu’on fait pour se reposer et s’amuser pendant le temps libre : le week-end, les vacances, après l’école.
+> • Les sports : le football, le handball, le basket-ball, la natation, la lutte traditionnelle, le cyclisme.
+> • Les jeux : le songo, les dames, le ludo, les cartes, les billes, la corde à sauter, le cache-cache.
+> • Les activités culturelles : lire, chanter, danser, regarder un film, visiter un musée, aller au zoo.
+> Verbes utiles : se détendre, s’amuser, se reposer, pratiquer un sport, jouer, gagner, perdre, participer.
+> Les loisirs sont bons pour la santé, la détente et l’amitié, mais il faut d’abord faire ses devoirs.
+
+**Card c48-1** (draft)
+
+> Les loisirs sont les activités du temps libre pour se reposer et s’amuser.
+>
+> _Le week-end, je fais du vélo._  
+
+Check question: `fr2-48-quoi` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quand pratique-t-on surtout ses loisirs ?
+
+- ✅ pendant le temps libre
+- ◻️ pendant la nuit à l’école  
+  _↳ feedback if chosen: Ce n’est pas le moment._
+- ◻️ pendant le cours  
+  _↳ feedback if chosen: Ce n’est pas le moment._
+- ◻️ pendant un examen  
+  _↳ feedback if chosen: Ce n’est pas le moment._
+
+Full working after a second miss:
+
+> Le week-end, les vacances.  
+> Donc la réponse est « pendant le temps libre ».  
+
+**Card c48-2** (draft)
+
+> On distingue les sports, les jeux et les activités culturelles.
+>
+> _Le cyclisme, le ludo, la lecture._  
+
+Check question: `fr2-48-classe` · multiple choice, level 1 · computed by rule, reused from practice
+
+> « la visite d’un musée » est…
+
+- ✅ une activité culturelle
+- ◻️ un jeu de société  
+  _↳ feedback if chosen: Demande-toi : fait-on bouger son corps (sport), joue-t-on avec des règles et des pions (jeu), ou découvre-t-on un art (culture) ?_
+- ◻️ un sport  
+  _↳ feedback if chosen: Demande-toi : fait-on bouger son corps (sport), joue-t-on avec des règles et des pions (jeu), ou découvre-t-on un art (culture) ?_
+
+Full working after a second miss:
+
+> Les sports font bouger le corps ; les jeux ont des règles et des pions ou des cartes ; les activités culturelles touchent aux arts et au savoir.  
+> Donc : une activité culturelle.  
+
+**Card c48-3** (draft)
+
+> Verbes : se détendre, s’amuser, pratiquer, participer.
+>
+> _Nous participons au tournoi._  
+
+Check question: `fr2-48-verbe-card` · fill the blank, level 1 · **authored key**
+
+> Choisis le verbe qui convient.
+
+Sentence: **Le dimanche, mon père aime se ___ dans son jardin.**
+- ◻️ fatiguer  
+  _↳ feedback if chosen: Le loisir sert à se reposer._
+- ◻️ battre  
+  _↳ feedback if chosen: Ce n’est pas un loisir._
+- ✅ reposer
+
+Full working after a second miss:
+
+> Le mot qui manque est « reposer ».  
+> Le dimanche, mon père aime se reposer dans son jardin.  
+
+**Worked example** (draft)
+
+> Classe ces loisirs : la natation, le songo, la danse.
+
+1. La natation est un sport.
+2. Le songo est un jeu de société ; la danse est une activité culturelle.
+
+**Answer:** Sport : la natation ; jeu : le songo ; activité culturelle : la danse.
+
+**Practice** `fr2-48-quoi` · multiple choice, level 1 · **authored key**
+
+> Que sont les loisirs ?
+
+- ◻️ les leçons de mathématiques  
+  _↳ feedback if chosen: Ce sont des cours._
+- ◻️ les maladies  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ les activités du temps libre
+- ◻️ les travaux obligatoires  
+  _↳ feedback if chosen: Les loisirs sont choisis._
+
+Full working after a second miss:
+
+> On les fait pour se détendre.  
+> Donc la réponse est « les activités du temps libre ».  
+
+> Que sont les loisirs ?
+
+- ✅ les activités du temps libre
+- ◻️ les travaux obligatoires  
+  _↳ feedback if chosen: Les loisirs sont choisis._
+- ◻️ les maladies  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ les leçons de mathématiques  
+  _↳ feedback if chosen: Ce sont des cours._
+
+Full working after a second miss:
+
+> On les fait pour se détendre.  
+> Donc la réponse est « les activités du temps libre ».  
+
+**Practice** `fr2-48-classe` · multiple choice, level 1 · computed by rule
+
+> « les dames » est…
+
+- ◻️ un sport  
+  _↳ feedback if chosen: Demande-toi : fait-on bouger son corps (sport), joue-t-on avec des règles et des pions (jeu), ou découvre-t-on un art (culture) ?_
+- ✅ un jeu de société
+- ◻️ une activité culturelle  
+  _↳ feedback if chosen: Demande-toi : fait-on bouger son corps (sport), joue-t-on avec des règles et des pions (jeu), ou découvre-t-on un art (culture) ?_
+
+Full working after a second miss:
+
+> Les sports font bouger le corps ; les jeux ont des règles et des pions ou des cartes ; les activités culturelles touchent aux arts et au savoir.  
+> Donc : un jeu de société.  
+
+> « le cyclisme » est…
+
+- ◻️ un jeu de société  
+  _↳ feedback if chosen: Demande-toi : fait-on bouger son corps (sport), joue-t-on avec des règles et des pions (jeu), ou découvre-t-on un art (culture) ?_
+- ◻️ une activité culturelle  
+  _↳ feedback if chosen: Demande-toi : fait-on bouger son corps (sport), joue-t-on avec des règles et des pions (jeu), ou découvre-t-on un art (culture) ?_
+- ✅ un sport
+
+Full working after a second miss:
+
+> Les sports font bouger le corps ; les jeux ont des règles et des pions ou des cartes ; les activités culturelles touchent aux arts et au savoir.  
+> Donc : un sport.  
+
+**Practice** `fr2-48-verbe` · fill the blank, level 2 · **authored key**
+
+> Choisis le verbe qui convient.
+
+Sentence: **Notre équipe va ___ au tournoi de handball.**
+- ✅ participer
+- ◻️ perdre toujours  
+  _↳ feedback if chosen: On ne sait pas encore._
+- ◻️ dormir  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le mot qui manque est « participer ».  
+> Notre équipe va participer au tournoi de handball.  
+
+> Choisis le verbe qui convient.
+
+Sentence: **Les enfants ___ bien pendant la fête.**
+- ◻️ s’ennuient  
+  _↳ feedback if chosen: La fête sert à s’amuser._
+- ◻️ travaillent  
+  _↳ feedback if chosen: Ce n’est pas un loisir._
+- ✅ s’amusent
+
+Full working after a second miss:
+
+> Le mot qui manque est « s’amusent ».  
+> Les enfants s’amusent bien pendant la fête.  
+
+**Practice** `fr2-48-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ✅ Les loisirs sont des travaux obligatoires.  
+  _↳ explanation: On les choisit librement._
+- ◻️ Lire est une activité culturelle.
+- ◻️ Les loisirs aident à se détendre.
+- ◻️ La natation est un sport.
+
+Full working after a second miss:
+
+> La phrase fausse est « Les loisirs sont des travaux obligatoires. ».  
+> On les choisit librement.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Les loisirs sont des travaux obligatoires.  
+  _↳ explanation: On les choisit librement._
+- ◻️ Le songo est un jeu de société.
+- ◻️ La natation est un sport.
+- ◻️ Lire est une activité culturelle.
+
+Full working after a second miss:
+
+> La phrase fausse est « Les loisirs sont des travaux obligatoires. ».  
+> On les choisit librement.  
+
+## Lesson 49: Expression écrite : Construction de phrases simples pour parler du temps, du climat;
+
+Prerequisites: 38, 48 · Skill: fr2-49 (Écrire des phrases sur le temps et le climat)
+
+**Note** (draft)
+
+> Le temps, c’est ce qu’il fait aujourd’hui : il pleut, il fait chaud, il y a du soleil, le ciel est nuageux.
+> Le climat, c’est le temps habituel d’une région pendant l’année : « Le Nord a un climat chaud et sec. À Douala, il pleut beaucoup. »
+> Verbes impersonnels (avec « il ») : il pleut, il neige, il grêle, il fait beau, il fait froid, il y a du vent, il y a du brouillard.
+> Mots utiles : la saison sèche, la saison des pluies, l’harmattan, la chaleur, la fraîcheur, l’orage, la température, humide, sec.
+> Pour comparer : « Il fait plus chaud à Maroua qu’à Buea. »
+
+**Card c49-1** (draft)
+
+> Le temps est ce qu’il fait aujourd’hui ; le climat est le temps habituel d’une région.
+>
+> _Il pleut ce matin. Le climat du Sud est humide._  
+
+Check question: `fr2-49-diff` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quelle phrase parle du temps qu’il fait ?
+
+- ◻️ La saison des pluies dure six mois.  
+  _↳ feedback if chosen: C’est le climat._
+- ✅ Ce matin, il y a du brouillard.
+- ◻️ Le Sud a un climat équatorial.  
+  _↳ feedback if chosen: C’est le climat._
+- ◻️ Le Nord est sec toute l’année.  
+  _↳ feedback if chosen: C’est le climat._
+
+Full working after a second miss:
+
+> C’est ce qu’il fait ce matin.  
+> Donc la réponse est « Ce matin, il y a du brouillard. ».  
+
+**Card c49-2** (draft)
+
+> On emploie « il » impersonnel : il pleut, il fait chaud, il y a du vent.
+>
+> _Il fait frais à Dschang._  
+
+Check question: `fr2-49-il` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis le mot qui convient.
+
+Sentence: **Pendant l’harmattan, il ___ frais le matin.**
+- ◻️ pleut  
+  _↳ feedback if chosen: On ne dit pas « il pleut frais »._
+- ◻️ a  
+  _↳ feedback if chosen: On dit « il fait frais »._
+- ✅ fait
+
+Full working after a second miss:
+
+> Le mot qui manque est « fait ».  
+> Pendant l’harmattan, il fait frais le matin.  
+
+**Card c49-3** (draft)
+
+> Pour comparer : plus … que, moins … que.
+>
+> _Il fait plus chaud à Garoua qu’à Bamenda._  
+
+Check question: `fr2-49-wo-card` · word order, level 1 · **authored key**
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: Debundscha · beaucoup · à · pleut · Il (then “.”)
+Answer: **Il pleut beaucoup à Debundscha.**
+
+Full working after a second miss:
+
+> La phrase est : Il pleut beaucoup à Debundscha.  
+
+**Worked example** (draft)
+
+> Écris une phrase sur le temps d’aujourd’hui et une phrase sur le climat de ta région.
+
+1. Temps : « Aujourd’hui, il fait chaud et le ciel est clair. »
+2. Climat : « Dans ma région, il y a une longue saison des pluies. »
+
+**Answer:** Aujourd’hui, il fait chaud et le ciel est clair. Dans ma région, il y a une longue saison des pluies.
+
+**Practice** `fr2-49-diff` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase parle du temps qu’il fait ?
+
+- ◻️ Le Nord est sec toute l’année.  
+  _↳ feedback if chosen: C’est le climat._
+- ✅ Ce matin, il y a du brouillard.
+- ◻️ Le Sud a un climat équatorial.  
+  _↳ feedback if chosen: C’est le climat._
+- ◻️ La saison des pluies dure six mois.  
+  _↳ feedback if chosen: C’est le climat._
+
+Full working after a second miss:
+
+> C’est ce qu’il fait ce matin.  
+> Donc la réponse est « Ce matin, il y a du brouillard. ».  
+
+> Quelle phrase parle du temps qu’il fait ?
+
+- ◻️ La saison des pluies dure six mois.  
+  _↳ feedback if chosen: C’est le climat._
+- ✅ Ce matin, il y a du brouillard.
+- ◻️ Le Sud a un climat équatorial.  
+  _↳ feedback if chosen: C’est le climat._
+- ◻️ Le Nord est sec toute l’année.  
+  _↳ feedback if chosen: C’est le climat._
+
+Full working after a second miss:
+
+> C’est ce qu’il fait ce matin.  
+> Donc la réponse est « Ce matin, il y a du brouillard. ».  
+
+**Practice** `fr2-49-il` · fill the blank, level 1 · **authored key**
+
+> Choisis le mot qui convient.
+
+Sentence: **Prends ton imperméable : il ___ depuis ce matin.**
+- ◻️ est  
+  _↳ feedback if chosen: On dit « il pleut »._
+- ✅ pleut
+- ◻️ fait  
+  _↳ feedback if chosen: On dit « il pleut »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « pleut ».  
+> Prends ton imperméable : il pleut depuis ce matin.  
+
+> Choisis le mot qui convient.
+
+Sentence: **Il y a beaucoup de ___ : les arbres bougent.**
+- ◻️ beau  
+  _↳ feedback if chosen: On dit « il fait beau »._
+- ✅ vent
+- ◻️ chaud  
+  _↳ feedback if chosen: On dit « il fait chaud »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « vent ».  
+> Il y a beaucoup de vent : les arbres bougent.  
+
+**Practice** `fr2-49-comp` · fill the blank, level 2 · **authored key**
+
+> Choisis le mot qui convient.
+
+Sentence: **Il fait plus chaud à Maroua ___ à Buea.**
+- ◻️ comme  
+  _↳ feedback if chosen: « comme » marque l’égalité._
+- ✅ qu’
+- ◻️ que de  
+  _↳ feedback if chosen: On dit « plus … que »._
+
+Full working after a second miss:
+
+> Le mot qui manque est « qu’ ».  
+> Il fait plus chaud à Maroua qu’ à Buea.  
+
+> Choisis le mot qui convient.
+
+Sentence: **Il pleut ___ à Douala qu’à Garoua.**
+- ◻️ très  
+  _↳ feedback if chosen: Pour comparer : plus … que._
+- ✅ plus
+- ◻️ trop  
+  _↳ feedback if chosen: « trop » n’est pas une comparaison._
+
+Full working after a second miss:
+
+> Le mot qui manque est « plus ».  
+> Il pleut plus à Douala qu’à Garoua.  
+
+**Practice** `fr2-49-wo` · word order, level 3 · **authored key**
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: Il · à · beaucoup · Debundscha · pleut (then “.”)
+Answer: **Il pleut beaucoup à Debundscha.**
+
+Full working after a second miss:
+
+> La phrase est : Il pleut beaucoup à Debundscha.  
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: à · pleut · Il · beaucoup · Debundscha (then “.”)
+Answer: **Il pleut beaucoup à Debundscha.**
+
+Full working after a second miss:
+
+> La phrase est : Il pleut beaucoup à Debundscha.  
+
+## Lesson 50: Grammaire :-Les noms comptables
+
+Prerequisites: none · Skill: fr2-50 (Les noms comptables)
+
+**Note** (draft)
+
+> Un nom comptable désigne une chose qu’on peut compter une par une : un livre, deux livres ; une orange, trois oranges ; un élève, des élèves.
+> • Il peut se mettre au singulier et au pluriel.
+> • Il s’emploie avec un, une, des, un nombre (deux, dix…), plusieurs, quelques, chaque.
+> • Pour demander la quantité : « Combien de livres ? »
+> Exemples : « J’ai acheté trois cahiers. » « Plusieurs élèves sont absents. » « Chaque citoyen a des droits. »
+> On n’emploie pas « du », « de la » avec un nom comptable : on dit « un œuf » et non « de l’œuf » quand on parle d’un œuf entier.
+
+**Card c50-1** (draft)
+
+> Un nom comptable désigne ce qu’on peut compter : un livre, deux livres.
+>
+> _une chaise, trois chaises_  
+
+Check question: `fr2-50-quoi` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quel nom est comptable ?
+
+- ◻️ du sable  
+  _↳ feedback if chosen: On ne compte pas les grains de sable un par un._
+- ✅ un cahier
+- ◻️ de l’eau  
+  _↳ feedback if chosen: L’eau ne se compte pas._
+- ◻️ du riz  
+  _↳ feedback if chosen: On ne compte pas les grains de riz._
+
+Full working after a second miss:
+
+> un cahier, deux cahiers.  
+> Donc la réponse est « un cahier ».  
+
+**Card c50-2** (draft)
+
+> Il s’emploie avec un, des, un nombre, plusieurs, quelques, chaque.
+>
+> _Plusieurs élèves chantent._  
+
+Check question: `fr2-50-det` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis le mot qui convient.
+
+Sentence: **Il y a ___ élèves dans la cour.**
+- ✅ plusieurs
+- ◻️ de la  
+  _↳ feedback if chosen: « élèves » se compte._
+- ◻️ du  
+  _↳ feedback if chosen: « élèves » se compte._
+
+Full working after a second miss:
+
+> Le mot qui manque est « plusieurs ».  
+> Il y a plusieurs élèves dans la cour.  
+
+**Card c50-3** (draft)
+
+> Pour la quantité, on demande : « Combien de … ? »
+>
+> _Combien de cahiers as-tu ?_  
+
+Check question: `fr2-50-combien-card` · multiple choice, level 1 · **authored key**
+
+> Quelle question demande une quantité de choses comptables ?
+
+- ◻️ Combien de cahier as-tu ?  
+  _↳ feedback if chosen: Après « combien de », le nom comptable est au pluriel._
+- ◻️ Quel cahier as-tu ?  
+  _↳ feedback if chosen: Elle ne demande pas la quantité._
+- ◻️ Où sont les cahiers ?  
+  _↳ feedback if chosen: Elle demande le lieu._
+- ✅ Combien de cahiers as-tu ?
+
+Full working after a second miss:
+
+> Combien de + nom au pluriel.  
+> Donc la réponse est « Combien de cahiers as-tu ? ».  
+
+**Worked example** (draft)
+
+> « mangue » est-il un nom comptable ? Donne un exemple.
+
+1. On peut compter les mangues une par une : une mangue, deux mangues.
+2. Il s’emploie avec un nombre : « J’ai cueilli cinq mangues. »
+
+**Answer:** Oui : « J’ai cueilli cinq mangues. »
+
+**Practice** `fr2-50-quoi` · multiple choice, level 1 · **authored key**
+
+> Quel nom est comptable ?
+
+- ◻️ de l’huile  
+  _↳ feedback if chosen: L’huile ne se compte pas._
+- ✅ une orange
+- ◻️ du lait  
+  _↳ feedback if chosen: Le lait ne se compte pas._
+- ◻️ de la farine  
+  _↳ feedback if chosen: La farine ne se compte pas._
+
+Full working after a second miss:
+
+> une orange, trois oranges.  
+> Donc la réponse est « une orange ».  
+
+> Quel nom est comptable ?
+
+- ✅ une orange
+- ◻️ de la farine  
+  _↳ feedback if chosen: La farine ne se compte pas._
+- ◻️ du lait  
+  _↳ feedback if chosen: Le lait ne se compte pas._
+- ◻️ de l’huile  
+  _↳ feedback if chosen: L’huile ne se compte pas._
+
+Full working after a second miss:
+
+> une orange, trois oranges.  
+> Donc la réponse est « une orange ».  
+
+**Practice** `fr2-50-det` · fill the blank, level 1 · **authored key**
+
+> Choisis le mot qui convient.
+
+Sentence: **Ma mère a acheté ___ ananas au marché.**
+- ✅ trois
+- ◻️ du  
+  _↳ feedback if chosen: « ananas » se compte : un nombre._
+- ◻️ beaucoup d’  
+  _↳ feedback if chosen: Ici, on donne le nombre exact._
+
+Full working after a second miss:
+
+> Le mot qui manque est « trois ».  
+> Ma mère a acheté trois ananas au marché.  
+
+> Choisis le mot qui convient.
+
+Sentence: **___ enfant a le droit d’aller à l’école.**
+- ✅ Chaque
+- ◻️ Du  
+  _↳ feedback if chosen: « enfant » se compte._
+- ◻️ De l’  
+  _↳ feedback if chosen: « enfant » se compte._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Chaque ».  
+> Chaque enfant a le droit d’aller à l’école.  
+
+**Practice** `fr2-50-combien` · multiple choice, level 2 · **authored key**
+
+> Dans quelle phrase le nom est-il comptable ?
+
+- ◻️ Il mange du riz.  
+  _↳ feedback if chosen: Le riz ne se compte pas._
+- ◻️ Elle achète de la farine.  
+  _↳ feedback if chosen: La farine ne se compte pas._
+- ✅ J’ai lu deux livres.
+- ◻️ J’ai bu de l’eau.  
+  _↳ feedback if chosen: L’eau ne se compte pas._
+
+Full working after a second miss:
+
+> On compte les livres.  
+> Donc la réponse est « J’ai lu deux livres. ».  
+
+> Dans quelle phrase le nom est-il comptable ?
+
+- ✅ J’ai lu deux livres.
+- ◻️ J’ai bu de l’eau.  
+  _↳ feedback if chosen: L’eau ne se compte pas._
+- ◻️ Elle achète de la farine.  
+  _↳ feedback if chosen: La farine ne se compte pas._
+- ◻️ Il mange du riz.  
+  _↳ feedback if chosen: Le riz ne se compte pas._
+
+Full working after a second miss:
+
+> On compte les livres.  
+> Donc la réponse est « J’ai lu deux livres. ».  
+
+**Practice** `fr2-50-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ◻️ « Chaque élève » est correct.
+- ✅ Un nom comptable ne se met jamais au pluriel.  
+  _↳ explanation: Il peut se mettre au pluriel._
+- ◻️ Un nom comptable peut être au pluriel.
+- ◻️ On peut dire « trois chaises ».
+
+Full working after a second miss:
+
+> La phrase fausse est « Un nom comptable ne se met jamais au pluriel. ».  
+> Il peut se mettre au pluriel.  
+
+> Quelle phrase est fausse ?
+
+- ✅ On dit « j’ai acheté du cahier ».  
+  _↳ explanation: « cahier » est comptable : un cahier, des cahiers._
+- ◻️ « Chaque élève » est correct.
+- ◻️ Un nom comptable peut être au pluriel.
+- ◻️ On peut dire « trois chaises ».
+
+Full working after a second miss:
+
+> La phrase fausse est « On dit « j’ai acheté du cahier ». ».  
+> « cahier » est comptable : un cahier, des cahiers.  
+
+## Lesson 51: Vocabulaire: Champ lexical du commerce
+
+Prerequisites: none · Skill: fr2-51 (Le champ lexical du commerce)
+
+**Note** (draft)
+
+> Le champ lexical est l’ensemble des mots qui se rapportent à un même thème.
+> Le commerce, c’est acheter et vendre des marchandises.
+> • Les personnes : le commerçant, le vendeur, le client, l’acheteur, le grossiste, le détaillant, le caissier.
+> • Les lieux : le marché, la boutique, le magasin, le supermarché, l’entrepôt.
+> • Les actions : acheter, vendre, marchander (discuter le prix), payer, rendre la monnaie, livrer, commander.
+> • L’argent : le prix, la facture, le reçu, la monnaie, le bénéfice (ce qu’on gagne), la perte, le franc CFA, la remise (réduction).
+> Le grossiste vend en grande quantité aux détaillants ; le détaillant vend par petites quantités aux clients.
+
+**Card c51-1** (draft)
+
+> Le champ lexical regroupe les mots d’un même thème.
+>
+> _Commerce : client, vendre, prix._  
+
+Check question: `fr2-51-champ` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quel mot appartient au champ lexical du commerce ?
+
+- ◻️ la fièvre  
+  _↳ feedback if chosen: C’est la maladie._
+- ◻️ le hibou  
+  _↳ feedback if chosen: C’est un animal._
+- ✅ le prix
+- ◻️ la pluie  
+  _↳ feedback if chosen: C’est le temps._
+
+Full working after a second miss:
+
+> Le prix se paie.  
+> Donc la réponse est « le prix ».  
+
+**Card c51-2** (draft)
+
+> Le grossiste vend en grande quantité ; le détaillant vend au détail.
+>
+> _La boutique du quartier est un détaillant._  
+
+Check question: `fr2-51-gros` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Qui achète dans une boutique ?
+
+- ◻️ l’entrepôt  
+  _↳ feedback if chosen: C’est un lieu._
+- ✅ le client
+- ◻️ le grossiste  
+  _↳ feedback if chosen: Il vend en gros._
+- ◻️ le fournisseur  
+  _↳ feedback if chosen: Il fournit les marchandises._
+
+Full working after a second miss:
+
+> Le client achète.  
+> Donc la réponse est « le client ».  
+
+**Card c51-3** (draft)
+
+> Marchander, c’est discuter le prix ; le bénéfice est ce qu’on gagne.
+>
+> _Elle a marchandé et a eu une remise._  
+
+Check question: `fr2-51-mot-card` · matching, level 1 · **authored key**
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): discuter le prix · une réduction du prix · l’argent rendu au client · l’argent gagné
+- la monnaie → **l’argent rendu au client**
+- marchander → **discuter le prix**
+- le bénéfice → **l’argent gagné**
+- la remise → **une réduction du prix**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> la monnaie → l’argent rendu au client  
+> marchander → discuter le prix  
+> le bénéfice → l’argent gagné  
+> la remise → une réduction du prix  
+
+**Worked example** (draft)
+
+> Relève les mots du commerce : « Au marché, le client marchande puis paie le vendeur, qui lui rend la monnaie. »
+
+1. On cherche les mots liés au thème acheter / vendre.
+2. marché, client, marchande, paie, vendeur, monnaie.
+
+**Answer:** marché, client, marchande, paie, vendeur, monnaie
+
+**Practice** `fr2-51-champ` · multiple choice, level 1 · **authored key**
+
+> Quel mot appartient au champ lexical du commerce ?
+
+- ◻️ la pluie  
+  _↳ feedback if chosen: C’est le temps._
+- ◻️ le hibou  
+  _↳ feedback if chosen: C’est un animal._
+- ◻️ la fièvre  
+  _↳ feedback if chosen: C’est la maladie._
+- ✅ le prix
+
+Full working after a second miss:
+
+> Le prix se paie.  
+> Donc la réponse est « le prix ».  
+
+> Quel mot n’appartient pas au champ lexical du commerce ?
+
+- ◻️ la facture  
+  _↳ feedback if chosen: C’est un mot du commerce._
+- ◻️ le client  
+  _↳ feedback if chosen: C’est un mot du commerce._
+- ◻️ vendre  
+  _↳ feedback if chosen: C’est un mot du commerce._
+- ✅ le ballon
+
+Full working after a second miss:
+
+> Le ballon est un mot des loisirs.  
+> Donc la réponse est « le ballon ».  
+
+**Practice** `fr2-51-gros` · multiple choice, level 1 · **authored key**
+
+> Qui achète dans une boutique ?
+
+- ◻️ le grossiste  
+  _↳ feedback if chosen: Il vend en gros._
+- ◻️ l’entrepôt  
+  _↳ feedback if chosen: C’est un lieu._
+- ◻️ le fournisseur  
+  _↳ feedback if chosen: Il fournit les marchandises._
+- ✅ le client
+
+Full working after a second miss:
+
+> Le client achète.  
+> Donc la réponse est « le client ».  
+
+> Qui vend en grande quantité aux boutiques ?
+
+- ✅ le grossiste
+- ◻️ le caissier  
+  _↳ feedback if chosen: Il encaisse l’argent._
+- ◻️ le détaillant  
+  _↳ feedback if chosen: Il vend au détail._
+- ◻️ le client  
+  _↳ feedback if chosen: Il achète._
+
+Full working after a second miss:
+
+> Le grossiste.  
+> Donc la réponse est « le grossiste ».  
+
+**Practice** `fr2-51-mot` · matching, level 2 · **authored key**
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): l’argent rendu au client · l’argent gagné · une réduction du prix · le papier qui donne le prix à payer
+- la facture → **le papier qui donne le prix à payer**
+- la remise → **une réduction du prix**
+- le bénéfice → **l’argent gagné**
+- la monnaie → **l’argent rendu au client**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> la facture → le papier qui donne le prix à payer  
+> la remise → une réduction du prix  
+> le bénéfice → l’argent gagné  
+> la monnaie → l’argent rendu au client  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): l’argent gagné · une réduction du prix · discuter le prix · le papier qui donne le prix à payer
+- marchander → **discuter le prix**
+- la facture → **le papier qui donne le prix à payer**
+- le bénéfice → **l’argent gagné**
+- la remise → **une réduction du prix**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> marchander → discuter le prix  
+> la facture → le papier qui donne le prix à payer  
+> le bénéfice → l’argent gagné  
+> la remise → une réduction du prix  
+
+**Practice** `fr2-51-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le vendeur rend la monnaie.
+- ◻️ Le grossiste vend en grande quantité.
+- ◻️ Marchander, c’est discuter le prix.
+- ✅ Le détaillant vend seulement aux grossistes.  
+  _↳ explanation: Il vend par petites quantités aux clients._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le détaillant vend seulement aux grossistes. ».  
+> Il vend par petites quantités aux clients.  
+
+> Quelle phrase est fausse ?
+
+- ✅ Le détaillant vend seulement aux grossistes.  
+  _↳ explanation: Il vend par petites quantités aux clients._
+- ◻️ Le vendeur rend la monnaie.
+- ◻️ Le grossiste vend en grande quantité.
+- ◻️ Le client achète.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le détaillant vend seulement aux grossistes. ».  
+> Il vend par petites quantités aux clients.  
+
+## Lesson 52: Conjugaison: Le passé composé ( suite)
+
+Prerequisites: 9 · Skill: fr2-52 (Le passé composé (suite) : l’accord avec être)
+
+**Note** (draft)
+
+> Le passé composé se forme avec l’auxiliaire avoir ou être au présent + le participe passé.
+> • Avec avoir (la plupart des verbes) : j’ai joué, tu as fini, il a pris.
+> • Avec être (les verbes de mouvement ou de changement d’état : aller, venir, partir, arriver, entrer, sortir, tomber, rester, naître, mourir, monter, descendre…) : je suis allé, elle est venue.
+> Avec être, le participe passé s’accorde avec le sujet :
+> • elle est partie (féminin, -e) ; ils sont arrivés (pluriel, -s) ; elles sont tombées (-es).
+> Avec avoir, il ne s’accorde pas avec le sujet : elles ont joué.
+> À la forme négative, ne … pas entoure l’auxiliaire : « Elle n’est pas venue. »
+
+**Card c52-1** (draft)
+
+> Les verbes de mouvement (aller, venir, partir, arriver, tomber) prennent l’auxiliaire être.
+>
+> _Il est allé au marché._  
+
+Check question: `fr2-52-aux` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Avec quel auxiliaire conjugue-t-on « écrire » au passé composé ?
+
+- ◻️ être  
+  _↳ feedback if chosen: Les verbes de mouvement (aller, venir, partir, arriver, tomber, rester, sortir) prennent être ; les autres prennent avoir._
+- ✅ avoir
+
+Full working after a second miss:
+
+> La plupart des verbes prennent avoir.  
+> Donc : avoir.  
+
+**Card c52-2** (draft)
+
+> Avec être, le participe passé s’accorde avec le sujet.
+>
+> _Elles sont arrivées._  
+
+Check question: `fr2-52-acc-card` · multiple choice, level 1 · computed by rule
+
+> Conjugue « arriver » au passé composé avec « ils ».
+
+- ◻️ ils sont arriver  
+  _↳ feedback if chosen: Il faut le participe passé, pas l’infinitif._
+- ✅ ils sont arrivés
+- ◻️ ils ont arrivé  
+  _↳ feedback if chosen: « arriver » se conjugue avec être._
+- ◻️ ils sont arrivé  
+  _↳ feedback if chosen: Avec être, le participe s’accorde avec « ils »._
+
+Full working after a second miss:
+
+> « arriver » prend l’auxiliaire être : le participe s’accorde avec le sujet.  
+> Donc : ils sont arrivés.  
+
+**Card c52-3** (draft)
+
+> Avec avoir, le participe ne s’accorde pas avec le sujet.
+>
+> _Elles ont joué._  
+
+Check question: `fr2-52-avoir` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Conjugue « voir » au passé composé avec « il ».
+
+- ◻️ il a voir  
+  _↳ feedback if chosen: Il faut le participe passé, pas l’infinitif._
+- ✅ il a vu
+- ◻️ il est vu  
+  _↳ feedback if chosen: « voir » se conjugue avec avoir._
+- ◻️ ils ont vu  
+  _↳ feedback if chosen: Cette forme ne va pas avec « il »._
+
+Full working after a second miss:
+
+> « voir » prend l’auxiliaire avoir : pas d’accord avec le sujet.  
+> Donc : il a vu.  
+
+**Worked example** (draft)
+
+> Conjugue « partir » au passé composé avec « elles ».
+
+1. « partir » se conjugue avec l’auxiliaire être.
+2. Avec être, le participe s’accorde avec « elles » (féminin pluriel) : elles sont parties.
+
+**Answer:** elles sont parties
+
+**Practice** `fr2-52-aux` · multiple choice, level 1 · computed by rule
+
+> Avec quel auxiliaire conjugue-t-on « écrire » au passé composé ?
+
+- ◻️ être  
+  _↳ feedback if chosen: Les verbes de mouvement (aller, venir, partir, arriver, tomber, rester, sortir) prennent être ; les autres prennent avoir._
+- ✅ avoir
+
+Full working after a second miss:
+
+> La plupart des verbes prennent avoir.  
+> Donc : avoir.  
+
+> Avec quel auxiliaire conjugue-t-on « finir » au passé composé ?
+
+- ✅ avoir
+- ◻️ être  
+  _↳ feedback if chosen: Les verbes de mouvement (aller, venir, partir, arriver, tomber, rester, sortir) prennent être ; les autres prennent avoir._
+
+Full working after a second miss:
+
+> La plupart des verbes prennent avoir.  
+> Donc : avoir.  
+
+**Practice** `fr2-52-acc` · multiple choice, level 2 · computed by rule
+
+> Conjugue « tomber » au passé composé avec « elle ».
+
+- ✅ elle est tombée
+- ◻️ elle est tomber  
+  _↳ feedback if chosen: Il faut le participe passé, pas l’infinitif._
+- ◻️ elle a tombé  
+  _↳ feedback if chosen: « tomber » se conjugue avec être._
+- ◻️ elle est tombé  
+  _↳ feedback if chosen: Avec être, le participe s’accorde avec « elle »._
+
+Full working after a second miss:
+
+> « tomber » prend l’auxiliaire être : le participe s’accorde avec le sujet.  
+> Donc : elle est tombée.  
+
+> Conjugue « tomber » au passé composé avec « elles ».
+
+- ◻️ elles ont tombé  
+  _↳ feedback if chosen: « tomber » se conjugue avec être._
+- ◻️ elles sont tomber  
+  _↳ feedback if chosen: Il faut le participe passé, pas l’infinitif._
+- ◻️ elles sont tombé  
+  _↳ feedback if chosen: Avec être, le participe s’accorde avec « elles »._
+- ✅ elles sont tombées
+
+Full working after a second miss:
+
+> « tomber » prend l’auxiliaire être : le participe s’accorde avec le sujet.  
+> Donc : elles sont tombées.  
+
+**Practice** `fr2-52-avoir` · multiple choice, level 1 · computed by rule
+
+> Conjugue « prendre » au passé composé avec « je ».
+
+- ◻️ nous avons pris  
+  _↳ feedback if chosen: Cette forme ne va pas avec « je »._
+- ◻️ j’ai prendre  
+  _↳ feedback if chosen: Il faut le participe passé, pas l’infinitif._
+- ◻️ je suis pris  
+  _↳ feedback if chosen: « prendre » se conjugue avec avoir._
+- ✅ j’ai pris
+
+Full working after a second miss:
+
+> « prendre » prend l’auxiliaire avoir : pas d’accord avec le sujet.  
+> Donc : j’ai pris.  
+
+> Conjugue « lire » au passé composé avec « vous ».
+
+- ✅ vous avez lu
+- ◻️ vous êtes lu  
+  _↳ feedback if chosen: « lire » se conjugue avec avoir._
+- ◻️ tu as lu  
+  _↳ feedback if chosen: Cette forme ne va pas avec « vous »._
+- ◻️ vous avez lire  
+  _↳ feedback if chosen: Il faut le participe passé, pas l’infinitif._
+
+Full working after a second miss:
+
+> « lire » prend l’auxiliaire avoir : pas d’accord avec le sujet.  
+> Donc : vous avez lu.  
+
+**Practice** `fr2-52-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Elles sont parties tôt.
+- ◻️ Ma sœur est tombée.
+- ◻️ Ils sont arrivés hier.
+- ✅ Les filles ont jouées au ludo.  
+  _↳ explanation: Avec avoir, pas d’accord avec le sujet : elles ont joué._
+
+Full working after a second miss:
+
+> La phrase fausse est « Les filles ont jouées au ludo. ».  
+> Avec avoir, pas d’accord avec le sujet : elles ont joué.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Nous avons fini nos devoirs.
+- ◻️ Ils sont arrivés hier.
+- ◻️ Ma sœur est tombée.
+- ✅ Les filles ont jouées au ludo.  
+  _↳ explanation: Avec avoir, pas d’accord avec le sujet : elles ont joué._
+
+Full working after a second miss:
+
+> La phrase fausse est « Les filles ont jouées au ludo. ».  
+> Avec avoir, pas d’accord avec le sujet : elles ont joué.  
+
+## Lesson 54: Grammaire :-Les noms non-comptables
+
+Prerequisites: 50 · Skill: fr2-54 (Les noms non comptables)
+
+**Note** (draft)
+
+> Un nom non comptable désigne une chose qu’on ne peut pas compter une par une : l’eau, le riz, le sable, la farine, le lait, l’huile, l’argent, le courage, la patience.
+> • Il s’emploie avec les articles partitifs : du, de la, de l’ : « Je bois de l’eau. » « Elle achète du riz. »
+> • Pour la quantité, on emploie un peu de, beaucoup de, trop de, assez de, ou une mesure : un litre d’huile, un kilo de riz, un sac de farine, un verre de lait.
+> • On demande : « Combien de riz ? » (le nom reste au singulier).
+> On ne dit pas « deux riz » mais « deux sacs de riz ».
+
+**Card c54-1** (draft)
+
+> Un nom non comptable ne se compte pas un par un : l’eau, le riz, le sable.
+>
+> _du lait, de la farine_  
+
+Check question: `fr2-54-quoi` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quel nom est non comptable ?
+
+- ✅ le lait
+- ◻️ un élève  
+  _↳ feedback if chosen: On compte les élèves._
+- ◻️ une mangue  
+  _↳ feedback if chosen: On compte les mangues._
+- ◻️ un stylo  
+  _↳ feedback if chosen: On compte les stylos._
+
+Full working after a second miss:
+
+> Le lait ne se compte pas.  
+> Donc la réponse est « le lait ».  
+
+**Card c54-2** (draft)
+
+> Avec un nom non comptable : du, de la, de l’, un peu de, beaucoup de.
+>
+> _Il boit beaucoup d’eau._  
+
+Check question: `fr2-54-det` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis le mot qui convient.
+
+Sentence: **Ma mère met ___ huile dans la sauce.**
+- ◻️ une  
+  _↳ feedback if chosen: « huile » ne se compte pas._
+- ✅ de l’
+- ◻️ trois  
+  _↳ feedback if chosen: « huile » ne se compte pas._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « de l’ ».  
+> Ma mère met de l’ huile dans la sauce.  
+
+**Card c54-3** (draft)
+
+> Pour compter, on compte la mesure : un litre d’huile, deux sacs de riz.
+>
+> _un kilo de sucre_  
+
+Check question: `fr2-54-mesure-card` · fill the blank, level 1 · **authored key**
+
+> Choisis l’expression correcte.
+
+Sentence: **Donne-moi ___ d’eau, s’il te plaît.**
+- ✅ un verre
+- ◻️ une eau  
+  _↳ feedback if chosen: On compte la mesure._
+- ◻️ deux eaux  
+  _↳ feedback if chosen: On ne compte pas l’eau._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « un verre ».  
+> Donne-moi un verre d’eau, s’il te plaît.  
+
+**Worked example** (draft)
+
+> Corrige : « Maman a acheté trois riz au marché. »
+
+1. « riz » ne se compte pas grain par grain : c’est un nom non comptable.
+2. On compte la mesure : « trois sacs (ou kilos) de riz ».
+
+**Answer:** Maman a acheté trois kilos de riz au marché.
+
+**Practice** `fr2-54-quoi` · multiple choice, level 1 · **authored key**
+
+> Quel nom est non comptable ?
+
+- ◻️ un livre  
+  _↳ feedback if chosen: On compte les livres._
+- ◻️ une chaise  
+  _↳ feedback if chosen: On compte les chaises._
+- ✅ le sable
+- ◻️ une orange  
+  _↳ feedback if chosen: On compte les oranges._
+
+Full working after a second miss:
+
+> On ne compte pas le sable grain par grain.  
+> Donc la réponse est « le sable ».  
+
+> Quel nom est non comptable ?
+
+- ✅ le lait
+- ◻️ une mangue  
+  _↳ feedback if chosen: On compte les mangues._
+- ◻️ un stylo  
+  _↳ feedback if chosen: On compte les stylos._
+- ◻️ un élève  
+  _↳ feedback if chosen: On compte les élèves._
+
+Full working after a second miss:
+
+> Le lait ne se compte pas.  
+> Donc la réponse est « le lait ».  
+
+**Practice** `fr2-54-det` · fill the blank, level 1 · **authored key**
+
+> Choisis le mot qui convient.
+
+Sentence: **Il faut ___ courage pour réussir.**
+- ✅ du
+- ◻️ un  
+  _↳ feedback if chosen: « courage » ne se compte pas._
+- ◻️ des  
+  _↳ feedback if chosen: « courage » ne se compte pas._
+
+Full working after a second miss:
+
+> Le mot qui manque est « du ».  
+> Il faut du courage pour réussir.  
+
+> Choisis le mot qui convient.
+
+Sentence: **Ma mère met ___ huile dans la sauce.**
+- ◻️ trois  
+  _↳ feedback if chosen: « huile » ne se compte pas._
+- ✅ de l’
+- ◻️ une  
+  _↳ feedback if chosen: « huile » ne se compte pas._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « de l’ ».  
+> Ma mère met de l’ huile dans la sauce.  
+
+**Practice** `fr2-54-mesure` · fill the blank, level 2 · **authored key**
+
+> Choisis l’expression correcte.
+
+Sentence: **J’ai acheté ___ de riz.**
+- ◻️ deux  
+  _↳ feedback if chosen: Il faut une mesure._
+- ✅ deux sacs
+- ◻️ deux riz  
+  _↳ feedback if chosen: On ne compte pas « riz » : on compte les sacs._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « deux sacs ».  
+> J’ai acheté deux sacs de riz.  
+
+> Choisis l’expression correcte.
+
+Sentence: **Donne-moi ___ d’eau, s’il te plaît.**
+- ✅ un verre
+- ◻️ une eau  
+  _↳ feedback if chosen: On compte la mesure._
+- ◻️ deux eaux  
+  _↳ feedback if chosen: On ne compte pas l’eau._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « un verre ».  
+> Donne-moi un verre d’eau, s’il te plaît.  
+
+**Practice** `fr2-54-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Nous avons du riz.
+- ◻️ Elle achète un kilo de sucre.
+- ◻️ Je bois de l’eau.
+- ✅ Maman a acheté trois riz.  
+  _↳ explanation: On compte la mesure : trois sacs de riz._
+
+Full working after a second miss:
+
+> La phrase fausse est « Maman a acheté trois riz. ».  
+> On compte la mesure : trois sacs de riz.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Elle achète un kilo de sucre.
+- ◻️ Nous avons du riz.
+- ✅ J’ai plusieurs farines dans la cuisine.  
+  _↳ explanation: « farine » ne se compte pas : beaucoup de farine._
+- ◻️ Je bois de l’eau.
+
+Full working after a second miss:
+
+> La phrase fausse est « J’ai plusieurs farines dans la cuisine. ».  
+> « farine » ne se compte pas : beaucoup de farine.  
+
+## Lesson 55: Expression orale : Interprétation d’images
+
+Prerequisites: 26 · Skill: fr2-55 (Interpréter une image sur le monde du travail)
+
+**Note** (draft)
+
+> Pour présenter une image à l’oral, on procède en trois étapes :
+> 1. Présenter : la nature du document (une photo, une affiche, un dessin) et le thème : « Cette photo montre un marché. »
+> 2. Décrire en situant : au premier plan, à l’arrière-plan, au centre, à gauche, à droite : « Au premier plan, une vendeuse pèse des tomates. »
+> 3. Interpréter : le message et son avis : « Cette image montre que le commerce fait vivre beaucoup de familles. À mon avis… »
+> Mots utiles pour le travail : travailler dur, gagner sa vie, un métier, un outil, une usine, un champ, un atelier, la sueur, l’effort.
+
+**Card c55-1** (draft)
+
+> Présenter, décrire, puis interpréter.
+>
+> _« Cette affiche montre… »_  
+
+Check question: `fr2-55-ordre` · ordering, level 1 · **authored key**, reused from practice
+
+> Remets la présentation de l’image dans l’ordre.
+
+Shown as: À l’arrière-plan, des femmes portent des paniers. · Au premier plan, un paysan ouvre des cabosses. · Cette image montre que l’agriculture fait vivre les familles. · Cette photo montre un champ de cacao.
+Correct order: Cette photo montre un champ de cacao. → Au premier plan, un paysan ouvre des cabosses. → À l’arrière-plan, des femmes portent des paniers. → Cette image montre que l’agriculture fait vivre les familles.
+
+Full working after a second miss:
+
+> Le bon ordre est : Cette photo montre un champ de cacao. → Au premier plan, un paysan ouvre des cabosses. → À l’arrière-plan, des femmes portent des paniers. → Cette image montre que l’agriculture fait vivre les familles..  
+
+**Card c55-2** (draft)
+
+> On situe avec : au premier plan, à l’arrière-plan, à gauche, à droite.
+>
+> _À gauche, un homme porte un sac._  
+
+Check question: `fr2-55-plan` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Que veut dire « à l’arrière-plan » ?
+
+- ◻️ à gauche  
+  _↳ feedback if chosen: C’est un côté._
+- ✅ au fond de l’image
+- ◻️ dans le titre  
+  _↳ feedback if chosen: Ce n’est pas une partie de l’image._
+- ◻️ devant  
+  _↳ feedback if chosen: C’est le premier plan._
+
+Full working after a second miss:
+
+> Le plus loin de nous.  
+> Donc la réponse est « au fond de l’image ».  
+
+**Card c55-3** (draft)
+
+> Interpréter, c’est dire le message et donner son avis.
+>
+> _À mon avis, tout travail mérite respect._  
+
+Check question: `fr2-55-msg-card` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase donne un avis ?
+
+- ◻️ Cette photo montre un atelier.  
+  _↳ feedback if chosen: C’est une présentation._
+- ✅ À mon avis, tout travail honnête mérite respect.
+- ◻️ À gauche, on voit une machine à coudre.  
+  _↳ feedback if chosen: C’est une description._
+- ◻️ Au centre, il y a un tailleur.  
+  _↳ feedback if chosen: C’est une description._
+
+Full working after a second miss:
+
+> « À mon avis » introduit un avis.  
+> Donc la réponse est « À mon avis, tout travail honnête mérite respect. ».  
+
+**Worked example** (draft)
+
+> Une photo montre au premier plan un menuisier qui scie une planche ; à l’arrière-plan, des chaises finies. Présente-la.
+
+1. Présenter et décrire : « Cette photo montre un atelier. Au premier plan, un menuisier scie une planche ; à l’arrière-plan, on voit des chaises. »
+2. Interpréter : « Elle montre que le travail manuel crée des objets utiles. »
+
+**Answer:** On présente l’atelier, on décrit le menuisier et les chaises, puis on dit que le travail manuel est utile.
+
+**Practice** `fr2-55-ordre` · ordering, level 1 · **authored key**
+
+> Remets la présentation de l’image dans l’ordre.
+
+Shown as: Elle montre l’importance du travail en équipe. · À droite, un chef d’équipe surveille. · Au centre, des ouvriers travaillent sur des machines. · Cette affiche présente une usine.
+Correct order: Cette affiche présente une usine. → Au centre, des ouvriers travaillent sur des machines. → À droite, un chef d’équipe surveille. → Elle montre l’importance du travail en équipe.
+
+Full working after a second miss:
+
+> Le bon ordre est : Cette affiche présente une usine. → Au centre, des ouvriers travaillent sur des machines. → À droite, un chef d’équipe surveille. → Elle montre l’importance du travail en équipe..  
+
+> Remets la présentation de l’image dans l’ordre.
+
+Shown as: Cette affiche présente une usine. · Elle montre l’importance du travail en équipe. · Au centre, des ouvriers travaillent sur des machines. · À droite, un chef d’équipe surveille.
+Correct order: Cette affiche présente une usine. → Au centre, des ouvriers travaillent sur des machines. → À droite, un chef d’équipe surveille. → Elle montre l’importance du travail en équipe.
+
+Full working after a second miss:
+
+> Le bon ordre est : Cette affiche présente une usine. → Au centre, des ouvriers travaillent sur des machines. → À droite, un chef d’équipe surveille. → Elle montre l’importance du travail en équipe..  
+
+**Practice** `fr2-55-plan` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase décrit en situant ?
+
+- ✅ Au premier plan, une vendeuse pèse des tomates.
+- ◻️ À mon avis, c’est une belle photo.  
+  _↳ feedback if chosen: C’est un avis._
+- ◻️ Le commerce est important.  
+  _↳ feedback if chosen: C’est une interprétation._
+- ◻️ Cette image dénonce la paresse.  
+  _↳ feedback if chosen: C’est une interprétation._
+
+Full working after a second miss:
+
+> Elle situe un élément.  
+> Donc la réponse est « Au premier plan, une vendeuse pèse des tomates. ».  
+
+> Quelle phrase décrit en situant ?
+
+- ◻️ Cette image dénonce la paresse.  
+  _↳ feedback if chosen: C’est une interprétation._
+- ◻️ Le commerce est important.  
+  _↳ feedback if chosen: C’est une interprétation._
+- ◻️ À mon avis, c’est une belle photo.  
+  _↳ feedback if chosen: C’est un avis._
+- ✅ Au premier plan, une vendeuse pèse des tomates.
+
+Full working after a second miss:
+
+> Elle situe un élément.  
+> Donc la réponse est « Au premier plan, une vendeuse pèse des tomates. ».  
+
+**Practice** `fr2-55-msg` · multiple choice, level 2 · **authored key**
+
+> Quelle phrase donne un avis ?
+
+- ◻️ Cette photo montre un atelier.  
+  _↳ feedback if chosen: C’est une présentation._
+- ◻️ À gauche, on voit une machine à coudre.  
+  _↳ feedback if chosen: C’est une description._
+- ◻️ Au centre, il y a un tailleur.  
+  _↳ feedback if chosen: C’est une description._
+- ✅ À mon avis, tout travail honnête mérite respect.
+
+Full working after a second miss:
+
+> « À mon avis » introduit un avis.  
+> Donc la réponse est « À mon avis, tout travail honnête mérite respect. ».  
+
+> Quelle phrase donne un avis ?
+
+- ◻️ À gauche, on voit une machine à coudre.  
+  _↳ feedback if chosen: C’est une description._
+- ✅ À mon avis, tout travail honnête mérite respect.
+- ◻️ Au centre, il y a un tailleur.  
+  _↳ feedback if chosen: C’est une description._
+- ◻️ Cette photo montre un atelier.  
+  _↳ feedback if chosen: C’est une présentation._
+
+Full working after a second miss:
+
+> « À mon avis » introduit un avis.  
+> Donc la réponse est « À mon avis, tout travail honnête mérite respect. ».  
+
+**Practice** `fr2-55-spot` · spot the error, level 3 · **authored key**
+
+> Quel conseil est faux ?
+
+- ◻️ On peut donner son avis.
+- ✅ « Au premier plan » veut dire au fond de l’image.  
+  _↳ explanation: Cela veut dire devant._
+- ◻️ On décrit en situant les éléments.
+- ◻️ On interprète le message.
+
+Full working after a second miss:
+
+> La phrase fausse est « « Au premier plan » veut dire au fond de l’image. ».  
+> Cela veut dire devant.  
+
+> Quel conseil est faux ?
+
+- ◻️ On interprète le message.
+- ✅ On donne son avis sans regarder l’image.  
+  _↳ explanation: On regarde et on décrit d’abord._
+- ◻️ On présente d’abord le document.
+- ◻️ On peut donner son avis.
+
+Full working after a second miss:
+
+> La phrase fausse est « On donne son avis sans regarder l’image. ».  
+> On regarde et on décrit d’abord.  
+
+## Lesson 56: Orthographe : Les sons /oe/ ,/m /
+
+Prerequisites: 44 · Skill: fr2-56 (Les sons [œ] et [m])
+
+**Note** (draft)
+
+> Le son [œ] (comme dans « fleur ») s’écrit :
+> • eu : la fleur, le vendeur, le chauffeur, jeune ;
+> • œu : un œuf, le cœur, la sœur, un bœuf ;
+> • œ : un œil.
+> Le son [m] s’écrit m ou mm :
+> • m : le maçon, le marché, la main, aimer ;
+> • mm : la pomme, la femme, la commerçante, comment, un homme.
+> Attention : les noms de métiers en -eur : le vendeur, le coiffeur, le chauffeur, le professeur.
+
+**Card c56-1** (draft)
+
+> Le son [œ] s’écrit eu ou œu : la fleur, la sœur.
+>
+> _le vendeur, un œuf_  
+
+Check question: `fr2-56-oe` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis la bonne écriture.
+
+Sentence: **Ma ___ va au marché.**
+- ◻️ sœr  
+  _↳ feedback if chosen: Il manque le u._
+- ✅ sœur
+- ◻️ seur  
+  _↳ feedback if chosen: « sœur » s’écrit avec œu._
+
+Full working after a second miss:
+
+> Le mot qui manque est « sœur ».  
+> Ma sœur va au marché.  
+
+**Card c56-2** (draft)
+
+> Les noms de métiers en -eur : vendeur, chauffeur, coiffeur.
+>
+> _Le chauffeur conduit le taxi._  
+
+Check question: `fr2-56-eur` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis le nom de métier bien écrit.
+
+Sentence: **Le ___ conduit le car de Bamenda.**
+- ◻️ chaufeur  
+  _↳ feedback if chosen: Deux f._
+- ◻️ chauffœur  
+  _↳ feedback if chosen: On écrit eu._
+- ✅ chauffeur
+
+Full working after a second miss:
+
+> Le mot qui manque est « chauffeur ».  
+> Le chauffeur conduit le car de Bamenda.  
+
+**Card c56-3** (draft)
+
+> Le son [m] s’écrit m ou mm : le maçon, la pomme.
+>
+> _une femme, un homme_  
+
+Check question: `fr2-56-m-card` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne écriture.
+
+Sentence: **J’ai mangé une ___ rouge.**
+- ◻️ pome  
+  _↳ feedback if chosen: Deux m._
+- ◻️ pomm  
+  _↳ feedback if chosen: Il manque le e._
+- ✅ pomme
+
+Full working after a second miss:
+
+> Le mot qui manque est « pomme ».  
+> J’ai mangé une pomme rouge.  
+
+**Worked example** (draft)
+
+> Complète : « Ma s__r vend des __fs et des pomes au marché. »
+
+1. « sœur » et « œufs » s’écrivent avec œu.
+2. « pommes » prend deux m.
+
+**Answer:** Ma sœur vend des œufs et des pommes au marché.
+
+**Practice** `fr2-56-oe` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne écriture.
+
+Sentence: **Le ___ bat vite après la course.**
+- ◻️ ceur  
+  _↳ feedback if chosen: Il faut œu._
+- ◻️ keur  
+  _↳ feedback if chosen: « cœur » s’écrit avec c et œu._
+- ✅ cœur
+
+Full working after a second miss:
+
+> Le mot qui manque est « cœur ».  
+> Le cœur bat vite après la course.  
+
+> Choisis la bonne écriture.
+
+Sentence: **Ma ___ va au marché.**
+- ◻️ sœr  
+  _↳ feedback if chosen: Il manque le u._
+- ✅ sœur
+- ◻️ seur  
+  _↳ feedback if chosen: « sœur » s’écrit avec œu._
+
+Full working after a second miss:
+
+> Le mot qui manque est « sœur ».  
+> Ma sœur va au marché.  
+
+**Practice** `fr2-56-eur` · fill the blank, level 1 · **authored key**
+
+> Choisis le nom de métier bien écrit.
+
+Sentence: **Le ___ vend des tissus.**
+- ◻️ vendeure  
+  _↳ feedback if chosen: Pas de e à la fin._
+- ✅ vendeur
+- ◻️ vendœur  
+  _↳ feedback if chosen: On écrit eu._
+
+Full working after a second miss:
+
+> Le mot qui manque est « vendeur ».  
+> Le vendeur vend des tissus.  
+
+> Choisis le nom de métier bien écrit.
+
+Sentence: **Le ___ conduit le car de Bamenda.**
+- ✅ chauffeur
+- ◻️ chauffœur  
+  _↳ feedback if chosen: On écrit eu._
+- ◻️ chaufeur  
+  _↳ feedback if chosen: Deux f._
+
+Full working after a second miss:
+
+> Le mot qui manque est « chauffeur ».  
+> Le chauffeur conduit le car de Bamenda.  
+
+**Practice** `fr2-56-m` · fill the blank, level 2 · **authored key**
+
+> Choisis la bonne écriture.
+
+Sentence: **J’ai mangé une ___ rouge.**
+- ◻️ pomm  
+  _↳ feedback if chosen: Il manque le e._
+- ✅ pomme
+- ◻️ pome  
+  _↳ feedback if chosen: Deux m._
+
+Full working after a second miss:
+
+> Le mot qui manque est « pomme ».  
+> J’ai mangé une pomme rouge.  
+
+> Choisis la bonne écriture.
+
+Sentence: **J’ai mangé une ___ rouge.**
+- ✅ pomme
+- ◻️ pome  
+  _↳ feedback if chosen: Deux m._
+- ◻️ pomm  
+  _↳ feedback if chosen: Il manque le e._
+
+Full working after a second miss:
+
+> Le mot qui manque est « pomme ».  
+> J’ai mangé une pomme rouge.  
+
+**Practice** `fr2-56-spot` · spot the error, level 3 · **authored key**
+
+> Quel mot est mal écrit ?
+
+- ✅ le vendœur  
+  _↳ explanation: On écrit « vendeur » avec eu._
+- ◻️ le chauffeur
+- ◻️ la sœur
+- ◻️ le maçon
+
+Full working after a second miss:
+
+> La phrase fausse est « le vendœur ».  
+> On écrit « vendeur » avec eu.  
+
+> Quel mot est mal écrit ?
+
+- ◻️ le maçon
+- ◻️ la pomme
+- ◻️ la sœur
+- ✅ le vendœur  
+  _↳ explanation: On écrit « vendeur » avec eu._
+
+Full working after a second miss:
+
+> La phrase fausse est « le vendœur ».  
+> On écrit « vendeur » avec eu.  
+
+## Lesson 57: Vocabulaire : Les métiers
+
+Prerequisites: none · Skill: fr2-57 (Les métiers)
+
+**Note** (draft)
+
+> Un métier est un travail qu’on apprend et qu’on exerce pour gagner sa vie.
+> • Métiers de la santé : le médecin, l’infirmier, la sage-femme, le pharmacien.
+> • Métiers de l’éducation : l’enseignant (le professeur, l’instituteur).
+> • Métiers manuels : le maçon (construit les maisons), le menuisier (travaille le bois), le tailleur / la couturière (coud les vêtements), le mécanicien (répare les véhicules), le forgeron (travaille le fer), le cordonnier (répare les chaussures).
+> • Métiers de la terre et de l’eau : l’agriculteur, l’éleveur, le pêcheur.
+> • Autres : le commerçant, le chauffeur, le policier, le juge, l’avocat, le journaliste, l’informaticien.
+> Le lieu de travail : l’hôpital, l’école, le chantier, l’atelier, le garage, le champ, le bureau.
+
+**Card c57-1** (draft)
+
+> Un métier est un travail qu’on apprend pour gagner sa vie.
+>
+> _Le maçon construit les maisons._  
+
+Check question: `fr2-57-qui` · matching, level 1 · **authored key**, reused from practice
+
+> Associe chaque métier à son travail.
+
+Right-hand side (shuffled): coud les vêtements · construit les maisons · répare les véhicules · répare les chaussures
+- le mécanicien → **répare les véhicules**
+- la couturière → **coud les vêtements**
+- le cordonnier → **répare les chaussures**
+- le maçon → **construit les maisons**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le mécanicien → répare les véhicules  
+> la couturière → coud les vêtements  
+> le cordonnier → répare les chaussures  
+> le maçon → construit les maisons  
+
+**Card c57-2** (draft)
+
+> Chaque métier a son lieu : l’hôpital, l’atelier, le garage, le champ.
+>
+> _Le mécanicien travaille au garage._  
+
+Check question: `fr2-57-lieu` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Où travaille le juge ?
+
+- ◻️ à l’atelier  
+  _↳ feedback if chosen: C’est le lieu de l’artisan._
+- ◻️ au marché  
+  _↳ feedback if chosen: C’est le lieu du commerçant._
+- ✅ au tribunal
+- ◻️ au champ  
+  _↳ feedback if chosen: C’est le lieu de l’agriculteur._
+
+Full working after a second miss:
+
+> Il rend la justice au tribunal.  
+> Donc la réponse est « au tribunal ».  
+
+**Card c57-3** (draft)
+
+> Le féminin des métiers : l’infirmière, la couturière, la commerçante.
+>
+> _Ma tante est enseignante._  
+
+Check question: `fr2-57-fem-card` · fill the blank, level 1 · **authored key**
+
+> Choisis le féminin qui convient.
+
+Sentence: **La ___ coud de belles robes.**
+- ◻️ couturier  
+  _↳ feedback if chosen: C’est le masculin._
+- ✅ couturière
+- ◻️ couturiere  
+  _↳ feedback if chosen: Il faut l’accent grave : -ière._
+
+Full working after a second miss:
+
+> Le mot qui manque est « couturière ».  
+> La couturière coud de belles robes.  
+
+**Worked example** (draft)
+
+> Qui répare les chaussures ? Où travaille-t-il ?
+
+1. Le métier qui répare les chaussures est celui de cordonnier.
+2. Il travaille dans un atelier ou au bord de la route.
+
+**Answer:** Le cordonnier, dans son atelier.
+
+**Practice** `fr2-57-qui` · matching, level 1 · **authored key**
+
+> Associe chaque métier à son travail.
+
+Right-hand side (shuffled): répare les véhicules · travaille le bois · attrape les poissons · coud les vêtements
+- le menuisier → **travaille le bois**
+- le mécanicien → **répare les véhicules**
+- la couturière → **coud les vêtements**
+- le pêcheur → **attrape les poissons**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le menuisier → travaille le bois  
+> le mécanicien → répare les véhicules  
+> la couturière → coud les vêtements  
+> le pêcheur → attrape les poissons  
+
+> Associe chaque métier à son travail.
+
+Right-hand side (shuffled): attrape les poissons · construit les maisons · travaille le bois · répare les chaussures
+- le pêcheur → **attrape les poissons**
+- le cordonnier → **répare les chaussures**
+- le menuisier → **travaille le bois**
+- le maçon → **construit les maisons**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le pêcheur → attrape les poissons  
+> le cordonnier → répare les chaussures  
+> le menuisier → travaille le bois  
+> le maçon → construit les maisons  
+
+**Practice** `fr2-57-lieu` · multiple choice, level 1 · **authored key**
+
+> Où travaille le mécanicien ?
+
+- ◻️ au tribunal  
+  _↳ feedback if chosen: C’est le lieu du juge._
+- ✅ au garage
+- ◻️ à l’hôpital  
+  _↳ feedback if chosen: C’est le lieu du médecin._
+- ◻️ à l’école  
+  _↳ feedback if chosen: C’est le lieu de l’enseignant._
+
+Full working after a second miss:
+
+> Il répare les véhicules au garage.  
+> Donc la réponse est « au garage ».  
+
+> Où travaille le juge ?
+
+- ◻️ au marché  
+  _↳ feedback if chosen: C’est le lieu du commerçant._
+- ◻️ à l’atelier  
+  _↳ feedback if chosen: C’est le lieu de l’artisan._
+- ✅ au tribunal
+- ◻️ au champ  
+  _↳ feedback if chosen: C’est le lieu de l’agriculteur._
+
+Full working after a second miss:
+
+> Il rend la justice au tribunal.  
+> Donc la réponse est « au tribunal ».  
+
+**Practice** `fr2-57-fem` · fill the blank, level 2 · **authored key**
+
+> Choisis le féminin qui convient.
+
+Sentence: **Ma mère est ___ à l’hôpital de Buea.**
+- ✅ infirmière
+- ◻️ infirmièr  
+  _↳ feedback if chosen: Il manque le e._
+- ◻️ infirmier  
+  _↳ feedback if chosen: C’est le masculin._
+
+Full working after a second miss:
+
+> Le mot qui manque est « infirmière ».  
+> Ma mère est infirmière à l’hôpital de Buea.  
+
+> Choisis le féminin qui convient.
+
+Sentence: **La ___ coud de belles robes.**
+- ◻️ couturiere  
+  _↳ feedback if chosen: Il faut l’accent grave : -ière._
+- ✅ couturière
+- ◻️ couturier  
+  _↳ feedback if chosen: C’est le masculin._
+
+Full working after a second miss:
+
+> Le mot qui manque est « couturière ».  
+> La couturière coud de belles robes.  
+
+**Practice** `fr2-57-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le juge travaille au tribunal.
+- ◻️ Le maçon construit les maisons.
+- ◻️ Le pêcheur attrape des poissons.
+- ✅ Le cordonnier soigne les malades.  
+  _↳ explanation: Il répare les chaussures._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le cordonnier soigne les malades. ».  
+> Il répare les chaussures.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le pêcheur attrape des poissons.
+- ◻️ Le menuisier travaille le bois.
+- ◻️ Le juge travaille au tribunal.
+- ✅ Le mécanicien coud les vêtements.  
+  _↳ explanation: Il répare les véhicules._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le mécanicien coud les vêtements. ».  
+> Il répare les véhicules.  
+
+## Lesson 58: Conjugaison :-Le futur proche
+
+Prerequisites: none · Skill: fr2-58 (Le futur proche)
+
+**Note** (draft)
+
+> Le futur proche exprime une action qui va se passer bientôt.
+> Il se forme avec le verbe aller au présent + l’infinitif du verbe :
+> je vais travailler, tu vas finir, il va pleuvoir, nous allons partir, vous allez voir, ils vont vendre.
+> Mots qui l’accompagnent souvent : bientôt, tout à l’heure, dans un instant, ce soir, demain.
+> À la forme négative, ne … pas entoure « aller » : « Je ne vais pas sortir. »
+> Attention : le deuxième verbe reste à l’infinitif : « Nous allons manger » (et non « nous allons mangé »).
+
+**Card c58-1** (draft)
+
+> Futur proche = aller au présent + infinitif.
+>
+> _Je vais travailler demain._  
+
+Check question: `fr2-58-form` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Mets « voir » au futur proche avec « nous ».
+
+- ◻️ nous allons vu  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+- ✅ nous allons voir
+- ◻️ nous verrons  
+  _↳ feedback if chosen: C’est le futur simple ; le futur proche se fait avec « aller »._
+- ◻️ nous vais voir  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « nous »._
+
+Full working after a second miss:
+
+> Futur proche : aller au présent (allons) + infinitif.  
+> Donc : nous allons voir.  
+
+**Card c58-2** (draft)
+
+> Le deuxième verbe reste à l’infinitif.
+>
+> _Nous allons manger (pas « mangé »)._  
+
+Check question: `fr2-58-inf-card` · fill the blank, level 1 · computed by rule
+
+> Écris le verbe au futur proche.
+
+Sentence: **Demain, ___ (nous, vendre) nos légumes au marché.**
+Typed answer accepted (case and extra spaces ignored): **nous allons vendre**
+
+Full working after a second miss:
+
+> « aller » au présent + infinitif.  
+> On écrit : nous allons vendre.  
+
+**Card c58-3** (draft)
+
+> À la forme négative, ne … pas entoure « aller ».
+>
+> _Il ne va pas pleuvoir._  
+
+Check question: `fr2-58-neg` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quelle phrase est au futur proche ?
+
+- ◻️ Nous avons visité l’usine.  
+  _↳ feedback if chosen: C’est le passé composé._
+- ◻️ Nous visiterons l’usine.  
+  _↳ feedback if chosen: C’est le futur simple._
+- ◻️ Nous visitions l’usine.  
+  _↳ feedback if chosen: C’est l’imparfait._
+- ✅ Nous allons visiter l’usine.
+
+Full working after a second miss:
+
+> aller + infinitif.  
+> Donc la réponse est « Nous allons visiter l’usine. ».  
+
+**Worked example** (draft)
+
+> Mets « travailler » au futur proche avec « nous ».
+
+1. « aller » au présent avec « nous » : nous allons.
+2. On ajoute l’infinitif : nous allons travailler.
+
+**Answer:** nous allons travailler
+
+**Practice** `fr2-58-form` · multiple choice, level 1 · computed by rule
+
+> Mets « être » au futur proche avec « elle ».
+
+- ✅ elle va être
+- ◻️ elle vont être  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « elle »._
+- ◻️ elle va été  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+- ◻️ elle sera  
+  _↳ feedback if chosen: C’est le futur simple ; le futur proche se fait avec « aller »._
+
+Full working after a second miss:
+
+> Futur proche : aller au présent (va) + infinitif.  
+> Donc : elle va être.  
+
+> Mets « travailler » au futur proche avec « ils ».
+
+- ✅ ils vont travailler
+- ◻️ ils travailleront  
+  _↳ feedback if chosen: C’est le futur simple ; le futur proche se fait avec « aller »._
+- ◻️ ils va travailler  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « ils »._
+- ◻️ ils vont travaillé  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+
+Full working after a second miss:
+
+> Futur proche : aller au présent (vont) + infinitif.  
+> Donc : ils vont travailler.  
+
+**Practice** `fr2-58-inf` · fill the blank, level 2 · computed by rule
+
+> Écris le verbe au futur proche.
+
+Sentence: **Demain, ___ (nous, vendre) nos légumes au marché.**
+Typed answer accepted (case and extra spaces ignored): **nous allons vendre**
+
+Full working after a second miss:
+
+> « aller » au présent + infinitif.  
+> On écrit : nous allons vendre.  
+
+> Écris le verbe au futur proche.
+
+Sentence: **Ce soir, ___ (je, finir) mon devoir.**
+Typed answer accepted (case and extra spaces ignored): **je vais finir**
+
+Full working after a second miss:
+
+> « aller » au présent + infinitif.  
+> On écrit : je vais finir.  
+
+**Practice** `fr2-58-neg` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase au futur proche est à la forme négative correcte ?
+
+- ✅ Je ne vais pas sortir.
+- ◻️ Je ne vais sortir pas.  
+  _↳ feedback if chosen: « pas » va après « vais »._
+- ◻️ Je vais ne pas sortir pas.  
+  _↳ feedback if chosen: La négation est mal placée._
+- ◻️ Ne je vais pas sortir.  
+  _↳ feedback if chosen: « ne » va après le sujet._
+
+Full working after a second miss:
+
+> ne … pas entoure aller.  
+> Donc la réponse est « Je ne vais pas sortir. ».  
+
+> Quelle phrase au futur proche est à la forme négative correcte ?
+
+- ✅ Je ne vais pas sortir.
+- ◻️ Ne je vais pas sortir.  
+  _↳ feedback if chosen: « ne » va après le sujet._
+- ◻️ Je vais ne pas sortir pas.  
+  _↳ feedback if chosen: La négation est mal placée._
+- ◻️ Je ne vais sortir pas.  
+  _↳ feedback if chosen: « pas » va après « vais »._
+
+Full working after a second miss:
+
+> ne … pas entoure aller.  
+> Donc la réponse est « Je ne vais pas sortir. ».  
+
+**Practice** `fr2-58-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Nous allons partir bientôt.
+- ◻️ Je vais travailler demain.
+- ◻️ Tu ne vas pas tomber.
+- ✅ Nous allons mangé au restaurant.  
+  _↳ explanation: Le deuxième verbe reste à l’infinitif : manger._
+
+Full working after a second miss:
+
+> La phrase fausse est « Nous allons mangé au restaurant. ».  
+> Le deuxième verbe reste à l’infinitif : manger.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Ils vont vendre du maïs.
+- ◻️ Je vais travailler demain.
+- ◻️ Nous allons partir bientôt.
+- ✅ Nous allons mangé au restaurant.  
+  _↳ explanation: Le deuxième verbe reste à l’infinitif : manger._
+
+Full working after a second miss:
+
+> La phrase fausse est « Nous allons mangé au restaurant. ».  
+> Le deuxième verbe reste à l’infinitif : manger.  
+
+## Lesson 59: Expression écrite : Construction d’un court paragraphe
+
+Prerequisites: 41 · Skill: fr2-59 (Construire un court paragraphe)
+
+**Note** (draft)
+
+> Un paragraphe est un groupe de phrases qui développent une seule idée. Il commence par un retrait (on laisse un petit espace) et une majuscule.
+> Plan d’un court paragraphe :
+> 1. une phrase d’introduction qui annonce l’idée : « Le métier de mon père est très utile. »
+> 2. deux ou trois phrases qui expliquent ou donnent des exemples, reliées par d’abord, ensuite, de plus, par exemple ;
+> 3. une phrase de conclusion : « C’est pourquoi j’admire son travail. »
+> Les mots de liaison : d’abord, ensuite, puis, de plus, en effet, par exemple, enfin, donc, c’est pourquoi.
+
+**Card c59-1** (draft)
+
+> Un paragraphe développe une seule idée : introduction, explications, conclusion.
+>
+> _Le métier de maçon est difficile._  
+
+Check question: `fr2-59-plan` · ordering, level 1 · **authored key**, reused from practice
+
+> Remets le paragraphe dans l’ordre.
+
+Shown as: De plus, les voitures me passionnent. · J’aimerais devenir mécanicien. · C’est pourquoi je veux apprendre ce métier. · D’abord, j’aime réparer les objets.
+Correct order: J’aimerais devenir mécanicien. → D’abord, j’aime réparer les objets. → De plus, les voitures me passionnent. → C’est pourquoi je veux apprendre ce métier.
+
+Full working after a second miss:
+
+> Le bon ordre est : J’aimerais devenir mécanicien. → D’abord, j’aime réparer les objets. → De plus, les voitures me passionnent. → C’est pourquoi je veux apprendre ce métier..  
+
+**Card c59-2** (draft)
+
+> Les mots de liaison organisent les idées : d’abord, ensuite, de plus, enfin.
+>
+> _D’abord, il se lève tôt. Ensuite, il prend son outil._  
+
+Check question: `fr2-59-lien` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis le mot de liaison qui convient.
+
+Sentence: **Le commerce rapporte de l’argent. ___, il crée des emplois.**
+- ◻️ D’abord  
+  _↳ feedback if chosen: On ajoute une idée, ce n’est pas le début._
+- ◻️ Mais  
+  _↳ feedback if chosen: Il n’y a pas d’opposition._
+- ✅ De plus
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « De plus ».  
+> Le commerce rapporte de l’argent. De plus, il crée des emplois.  
+
+**Card c59-3** (draft)
+
+> La conclusion commence souvent par : c’est pourquoi, donc, enfin.
+>
+> _C’est pourquoi je veux devenir médecin._  
+
+Check question: `fr2-59-concl-card` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase peut conclure un paragraphe sur le métier d’enseignant ?
+
+- ◻️ Par exemple, il corrige les cahiers.  
+  _↳ feedback if chosen: C’est un exemple._
+- ◻️ Le métier d’enseignant est utile.  
+  _↳ feedback if chosen: C’est une introduction._
+- ✅ C’est pourquoi les enseignants méritent notre respect.
+- ◻️ D’abord, l’enseignant prépare ses leçons.  
+  _↳ feedback if chosen: C’est une explication._
+
+Full working after a second miss:
+
+> « C’est pourquoi » conclut.  
+> Donc la réponse est « C’est pourquoi les enseignants méritent notre respect. ».  
+
+**Worked example** (draft)
+
+> Remets dans l’ordre : (a) C’est pourquoi j’aime ce métier. (b) Le métier d’infirmière est utile. (c) D’abord, elle soigne les malades. (d) Ensuite, elle conseille les familles.
+
+1. L’introduction annonce l’idée : (b).
+2. Les explications avec d’abord, ensuite : (c), (d). La conclusion avec « c’est pourquoi » : (a).
+
+**Answer:** b, c, d, a
+
+**Practice** `fr2-59-plan` · ordering, level 1 · **authored key**
+
+> Remets le paragraphe dans l’ordre.
+
+Shown as: J’aimerais devenir mécanicien. · De plus, les voitures me passionnent. · C’est pourquoi je veux apprendre ce métier. · D’abord, j’aime réparer les objets.
+Correct order: J’aimerais devenir mécanicien. → D’abord, j’aime réparer les objets. → De plus, les voitures me passionnent. → C’est pourquoi je veux apprendre ce métier.
+
+Full working after a second miss:
+
+> Le bon ordre est : J’aimerais devenir mécanicien. → D’abord, j’aime réparer les objets. → De plus, les voitures me passionnent. → C’est pourquoi je veux apprendre ce métier..  
+
+> Remets le paragraphe dans l’ordre.
+
+Shown as: Le métier de cultivateur est important. · C’est pourquoi il faut respecter les cultivateurs. · Ensuite, il donne du travail à beaucoup de jeunes. · D’abord, il nourrit la population.
+Correct order: Le métier de cultivateur est important. → D’abord, il nourrit la population. → Ensuite, il donne du travail à beaucoup de jeunes. → C’est pourquoi il faut respecter les cultivateurs.
+
+Full working after a second miss:
+
+> Le bon ordre est : Le métier de cultivateur est important. → D’abord, il nourrit la population. → Ensuite, il donne du travail à beaucoup de jeunes. → C’est pourquoi il faut respecter les cultivateurs..  
+
+**Practice** `fr2-59-lien` · fill the blank, level 1 · **authored key**
+
+> Choisis le mot de liaison qui convient.
+
+Sentence: **Mon père travaille dur. ___, notre famille vit bien.**
+- ◻️ D’abord  
+  _↳ feedback if chosen: On conclut ici._
+- ✅ C’est pourquoi
+- ◻️ Par exemple  
+  _↳ feedback if chosen: Ce n’est pas un exemple._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « C’est pourquoi ».  
+> Mon père travaille dur. C’est pourquoi, notre famille vit bien.  
+
+> Choisis le mot de liaison qui convient.
+
+Sentence: **Le commerce rapporte de l’argent. ___, il crée des emplois.**
+- ◻️ D’abord  
+  _↳ feedback if chosen: On ajoute une idée, ce n’est pas le début._
+- ✅ De plus
+- ◻️ Mais  
+  _↳ feedback if chosen: Il n’y a pas d’opposition._
+
+Full working after a second miss:
+
+> Les mots qui manquent sont « De plus ».  
+> Le commerce rapporte de l’argent. De plus, il crée des emplois.  
+
+**Practice** `fr2-59-concl` · multiple choice, level 2 · **authored key**
+
+> Quelle phrase peut conclure un paragraphe sur le métier d’enseignant ?
+
+- ◻️ Par exemple, il corrige les cahiers.  
+  _↳ feedback if chosen: C’est un exemple._
+- ◻️ D’abord, l’enseignant prépare ses leçons.  
+  _↳ feedback if chosen: C’est une explication._
+- ◻️ Le métier d’enseignant est utile.  
+  _↳ feedback if chosen: C’est une introduction._
+- ✅ C’est pourquoi les enseignants méritent notre respect.
+
+Full working after a second miss:
+
+> « C’est pourquoi » conclut.  
+> Donc la réponse est « C’est pourquoi les enseignants méritent notre respect. ».  
+
+> Quelle phrase peut conclure un paragraphe sur le métier d’enseignant ?
+
+- ◻️ D’abord, l’enseignant prépare ses leçons.  
+  _↳ feedback if chosen: C’est une explication._
+- ◻️ Par exemple, il corrige les cahiers.  
+  _↳ feedback if chosen: C’est un exemple._
+- ✅ C’est pourquoi les enseignants méritent notre respect.
+- ◻️ Le métier d’enseignant est utile.  
+  _↳ feedback if chosen: C’est une introduction._
+
+Full working after a second miss:
+
+> « C’est pourquoi » conclut.  
+> Donc la réponse est « C’est pourquoi les enseignants méritent notre respect. ».  
+
+**Practice** `fr2-59-spot` · spot the error, level 3 · **authored key**
+
+> Quel conseil pour écrire un paragraphe est faux ?
+
+- ◻️ Un paragraphe développe une seule idée.
+- ◻️ On termine par une conclusion.
+- ✅ Un paragraphe doit parler de dix idées différentes.  
+  _↳ explanation: Il développe une seule idée._
+- ◻️ On commence par une phrase d’introduction.
+
+Full working after a second miss:
+
+> La phrase fausse est « Un paragraphe doit parler de dix idées différentes. ».  
+> Il développe une seule idée.  
+
+> Quel conseil pour écrire un paragraphe est faux ?
+
+- ◻️ On commence par une phrase d’introduction.
+- ✅ Un paragraphe doit parler de dix idées différentes.  
+  _↳ explanation: Il développe une seule idée._
+- ◻️ On utilise des mots de liaison.
+- ◻️ Un paragraphe développe une seule idée.
+
+Full working after a second miss:
+
+> La phrase fausse est « Un paragraphe doit parler de dix idées différentes. ».  
+> Il développe une seule idée.  
+
+## Lesson 60: Grammaire : Les adjectifs qualificatifs particularités de forme (fou, vieux, nouveau, beau, etc.)
+
+Prerequisites: 36 · Skill: fr2-60 (Les adjectifs à formes particulières : beau, nouveau, vieux, fou)
+
+**Note** (draft)
+
+> Certains adjectifs ont une forme spéciale devant un nom masculin singulier qui commence par une voyelle ou un h muet :
+> • beau → bel : un beau pagne, mais un bel arbre, un bel homme ;
+> • nouveau → nouvel : un nouveau métier, mais un nouvel emploi ;
+> • vieux → vieil : un vieux tailleur, mais un vieil ouvrier ;
+> • fou → fol : un fou rire, mais un fol espoir.
+> Leurs autres formes :
+> beau, belle, beaux, belles ; nouveau, nouvelle, nouveaux, nouvelles ; vieux, vieille, vieux, vieilles ; fou, folle, fous, folles.
+
+**Card c60-1** (draft)
+
+> Devant une voyelle ou un h muet : bel, nouvel, vieil, fol.
+>
+> _un bel outil, un vieil homme_  
+
+Check question: `fr2-60-bel` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis la bonne forme.
+
+Sentence: **Mon oncle a trouvé un ___ emploi.**
+- ✅ nouvel
+- ◻️ nouveau  
+  _↳ feedback if chosen: Devant une voyelle : nouvel._
+- ◻️ nouvelle  
+  _↳ feedback if chosen: « emploi » est masculin._
+
+Full working after a second miss:
+
+> Le mot qui manque est « nouvel ».  
+> Mon oncle a trouvé un nouvel emploi.  
+
+**Card c60-2** (draft)
+
+> Au féminin : belle, nouvelle, vieille, folle.
+>
+> _une nouvelle usine_  
+
+Check question: `fr2-60-fem` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis la bonne forme.
+
+Sentence: **Elle porte une ___ robe.**
+- ✅ belle
+- ◻️ beau  
+  _↳ feedback if chosen: Au féminin : belle._
+- ◻️ bel  
+  _↳ feedback if chosen: Au féminin : belle._
+
+Full working after a second miss:
+
+> Le mot qui manque est « belle ».  
+> Elle porte une belle robe.  
+
+**Card c60-3** (draft)
+
+> Au pluriel masculin : beaux, nouveaux, vieux, fous.
+>
+> _de beaux métiers_  
+
+Check question: `fr2-60-pl-card` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne forme.
+
+Sentence: **Ce sont de ___ métiers.**
+- ◻️ beaus  
+  _↳ feedback if chosen: Au pluriel : beaux._
+- ◻️ bels  
+  _↳ feedback if chosen: Au pluriel : beaux._
+- ✅ beaux
+
+Full working after a second miss:
+
+> Le mot qui manque est « beaux ».  
+> Ce sont de beaux métiers.  
+
+**Worked example** (draft)
+
+> Complète avec « nouveau » : « Mon frère a un ___ emploi au port. »
+
+1. « emploi » est masculin singulier et commence par une voyelle.
+2. Devant une voyelle, « nouveau » devient « nouvel ».
+
+**Answer:** Mon frère a un nouvel emploi au port.
+
+**Practice** `fr2-60-bel` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne forme.
+
+Sentence: **Mon oncle a trouvé un ___ emploi.**
+- ◻️ nouvelle  
+  _↳ feedback if chosen: « emploi » est masculin._
+- ✅ nouvel
+- ◻️ nouveau  
+  _↳ feedback if chosen: Devant une voyelle : nouvel._
+
+Full working after a second miss:
+
+> Le mot qui manque est « nouvel ».  
+> Mon oncle a trouvé un nouvel emploi.  
+
+> Choisis la bonne forme.
+
+Sentence: **Le menuisier a fabriqué un ___ meuble.**
+- ◻️ belle  
+  _↳ feedback if chosen: « meuble » est masculin._
+- ✅ beau
+- ◻️ bel  
+  _↳ feedback if chosen: « meuble » commence par une consonne : beau._
+
+Full working after a second miss:
+
+> Le mot qui manque est « beau ».  
+> Le menuisier a fabriqué un beau meuble.  
+
+**Practice** `fr2-60-fem` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne forme.
+
+Sentence: **Notre ville a une ___ usine de savon.**
+- ◻️ nouveau  
+  _↳ feedback if chosen: « usine » est féminin._
+- ✅ nouvelle
+- ◻️ nouvel  
+  _↳ feedback if chosen: « usine » est féminin : nouvelle._
+
+Full working after a second miss:
+
+> Le mot qui manque est « nouvelle ».  
+> Notre ville a une nouvelle usine de savon.  
+
+> Choisis la bonne forme.
+
+Sentence: **Elle porte une ___ robe.**
+- ✅ belle
+- ◻️ bel  
+  _↳ feedback if chosen: Au féminin : belle._
+- ◻️ beau  
+  _↳ feedback if chosen: Au féminin : belle._
+
+Full working after a second miss:
+
+> Le mot qui manque est « belle ».  
+> Elle porte une belle robe.  
+
+**Practice** `fr2-60-pl` · fill the blank, level 2 · **authored key**
+
+> Choisis la bonne forme.
+
+Sentence: **Ces ___ outils sont encore utiles.**
+- ◻️ vieils  
+  _↳ feedback if chosen: « vieux » ne change pas au masculin pluriel._
+- ✅ vieux
+- ◻️ vieuxs  
+  _↳ feedback if chosen: « vieux » ne change pas._
+
+Full working after a second miss:
+
+> Le mot qui manque est « vieux ».  
+> Ces vieux outils sont encore utiles.  
+
+> Choisis la bonne forme.
+
+Sentence: **Les ___ ouvriers arrivent demain.**
+- ◻️ nouveaus  
+  _↳ feedback if chosen: Au pluriel : nouveaux._
+- ✅ nouveaux
+- ◻️ nouvels  
+  _↳ feedback if chosen: Au pluriel : nouveaux._
+
+Full working after a second miss:
+
+> Le mot qui manque est « nouveaux ».  
+> Les nouveaux ouvriers arrivent demain.  
+
+**Practice** `fr2-60-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ✅ Il a un nouveau emploi.  
+  _↳ explanation: Devant une voyelle : un nouvel emploi._
+- ◻️ C’est un bel arbre.
+- ◻️ Une vieille dame vend du pain.
+- ◻️ Ce sont de beaux pagnes.
+
+Full working after a second miss:
+
+> La phrase fausse est « Il a un nouveau emploi. ».  
+> Devant une voyelle : un nouvel emploi.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Ce sont de bels outils.  
+  _↳ explanation: Au pluriel : de beaux outils._
+- ◻️ Une vieille dame vend du pain.
+- ◻️ C’est un bel arbre.
+- ◻️ Il a un nouvel emploi.
+
+Full working after a second miss:
+
+> La phrase fausse est « Ce sont de bels outils. ».  
+> Au pluriel : de beaux outils.  
+
+## Lesson 61: Vocabulaire :-Expressions liées à la hiérarchie du travail (patron, employeur, employé, etc.)
+
+Prerequisites: 57 · Skill: fr2-61 (La hiérarchie du travail)
+
+**Note** (draft)
+
+> Dans une entreprise, les travailleurs n’ont pas tous le même rang : c’est la hiérarchie.
+> • Le patron (l’employeur) : il possède ou dirige l’entreprise et embauche les travailleurs.
+> • Le directeur, le chef de service, le contremaître (chef d’équipe) : ils organisent et contrôlent le travail.
+> • L’employé, l’ouvrier, le salarié : ils exécutent le travail et reçoivent un salaire.
+> • Le stagiaire (l’apprenti) : il apprend le métier.
+> Mots utiles : embaucher (engager), licencier (renvoyer), le salaire, le contrat de travail, le supérieur, le subordonné, une promotion, le syndicat, la grève, le congé.
+
+**Card c61-1** (draft)
+
+> Le patron (l’employeur) embauche et paie ; l’employé exécute le travail et reçoit un salaire.
+>
+> _L’employeur signe le contrat._  
+
+Check question: `fr2-61-qui` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Qui reçoit un salaire pour son travail ?
+
+- ✅ l’employé
+- ◻️ le client  
+  _↳ feedback if chosen: Il paie._
+- ◻️ le fournisseur  
+  _↳ feedback if chosen: Il vend des marchandises._
+- ◻️ l’acheteur  
+  _↳ feedback if chosen: Il paie._
+
+Full working after a second miss:
+
+> L’employé (le salarié).  
+> Donc la réponse est « l’employé ».  
+
+**Card c61-2** (draft)
+
+> Le chef d’équipe (contremaître) organise le travail des ouvriers.
+>
+> _Il surveille le chantier._  
+
+Check question: `fr2-61-chef` · ordering, level 1 · **authored key**, reused from practice
+
+> Range du rang le plus haut au plus bas.
+
+Shown as: le directeur · le chef d’équipe · le stagiaire · l’ouvrier · le patron
+Correct order: le patron → le directeur → le chef d’équipe → l’ouvrier → le stagiaire
+
+Full working after a second miss:
+
+> Le bon ordre est : le patron → le directeur → le chef d’équipe → l’ouvrier → le stagiaire.  
+
+**Card c61-3** (draft)
+
+> Embaucher, c’est engager ; licencier, c’est renvoyer.
+>
+> _L’usine a embauché vingt ouvriers._  
+
+Check question: `fr2-61-mot-card` · matching, level 1 · **authored key**
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): renvoyer un travailleur · monter à un rang plus haut · l’argent payé pour le travail · l’arrêt collectif du travail pour réclamer
+- licencier → **renvoyer un travailleur**
+- une promotion → **monter à un rang plus haut**
+- la grève → **l’arrêt collectif du travail pour réclamer**
+- le salaire → **l’argent payé pour le travail**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> licencier → renvoyer un travailleur  
+> une promotion → monter à un rang plus haut  
+> la grève → l’arrêt collectif du travail pour réclamer  
+> le salaire → l’argent payé pour le travail  
+
+**Worked example** (draft)
+
+> Dans un garage, qui est l’employeur et qui est l’employé : le propriétaire du garage ou le mécanicien qu’il paie ?
+
+1. L’employeur embauche et paie les travailleurs : c’est le propriétaire.
+2. Le mécanicien reçoit un salaire : c’est l’employé.
+
+**Answer:** Le propriétaire est l’employeur ; le mécanicien est l’employé.
+
+**Practice** `fr2-61-qui` · multiple choice, level 1 · **authored key**
+
+> Qui embauche les travailleurs ?
+
+- ◻️ l’apprenti  
+  _↳ feedback if chosen: Il apprend le métier._
+- ✅ l’employeur
+- ◻️ le client  
+  _↳ feedback if chosen: Il achète._
+- ◻️ le stagiaire  
+  _↳ feedback if chosen: Il apprend le métier._
+
+Full working after a second miss:
+
+> L’employeur (le patron).  
+> Donc la réponse est « l’employeur ».  
+
+> Qui reçoit un salaire pour son travail ?
+
+- ◻️ l’acheteur  
+  _↳ feedback if chosen: Il paie._
+- ◻️ le fournisseur  
+  _↳ feedback if chosen: Il vend des marchandises._
+- ◻️ le client  
+  _↳ feedback if chosen: Il paie._
+- ✅ l’employé
+
+Full working after a second miss:
+
+> L’employé (le salarié).  
+> Donc la réponse est « l’employé ».  
+
+**Practice** `fr2-61-chef` · ordering, level 1 · **authored key**
+
+> Range du rang le plus haut au plus bas.
+
+Shown as: le chef d’équipe · le patron · l’ouvrier · le directeur · le stagiaire
+Correct order: le patron → le directeur → le chef d’équipe → l’ouvrier → le stagiaire
+
+Full working after a second miss:
+
+> Le bon ordre est : le patron → le directeur → le chef d’équipe → l’ouvrier → le stagiaire.  
+
+> Range du rang le plus haut au plus bas.
+
+Shown as: le stagiaire · le patron · l’ouvrier · le directeur · le chef d’équipe
+Correct order: le patron → le directeur → le chef d’équipe → l’ouvrier → le stagiaire
+
+Full working after a second miss:
+
+> Le bon ordre est : le patron → le directeur → le chef d’équipe → l’ouvrier → le stagiaire.  
+
+**Practice** `fr2-61-mot` · matching, level 2 · **authored key**
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): l’argent payé pour le travail · l’arrêt collectif du travail pour réclamer · monter à un rang plus haut · engager un travailleur
+- le salaire → **l’argent payé pour le travail**
+- embaucher → **engager un travailleur**
+- une promotion → **monter à un rang plus haut**
+- la grève → **l’arrêt collectif du travail pour réclamer**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> le salaire → l’argent payé pour le travail  
+> embaucher → engager un travailleur  
+> une promotion → monter à un rang plus haut  
+> la grève → l’arrêt collectif du travail pour réclamer  
+
+> Associe chaque mot à sa définition.
+
+Right-hand side (shuffled): renvoyer un travailleur · engager un travailleur · l’arrêt collectif du travail pour réclamer · l’argent payé pour le travail
+- la grève → **l’arrêt collectif du travail pour réclamer**
+- le salaire → **l’argent payé pour le travail**
+- licencier → **renvoyer un travailleur**
+- embaucher → **engager un travailleur**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> la grève → l’arrêt collectif du travail pour réclamer  
+> le salaire → l’argent payé pour le travail  
+> licencier → renvoyer un travailleur  
+> embaucher → engager un travailleur  
+
+**Practice** `fr2-61-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le stagiaire apprend le métier.
+- ✅ Licencier veut dire engager.  
+  _↳ explanation: Licencier veut dire renvoyer._
+- ◻️ Le patron embauche.
+- ◻️ L’employé reçoit un salaire.
+
+Full working after a second miss:
+
+> La phrase fausse est « Licencier veut dire engager. ».  
+> Licencier veut dire renvoyer.  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le patron embauche.
+- ◻️ Le stagiaire apprend le métier.
+- ✅ Le stagiaire est le patron de l’entreprise.  
+  _↳ explanation: Il apprend le métier._
+- ◻️ Le contremaître organise le travail.
+
+Full working after a second miss:
+
+> La phrase fausse est « Le stagiaire est le patron de l’entreprise. ».  
+> Il apprend le métier.  
+
+## Lesson 62: Conjugaison : Le futur simple
+
+Prerequisites: 58 · Skill: fr2-62 (Le futur simple de l’indicatif)
+
+**Note** (draft)
+
+> Le futur simple exprime une action à venir, souvent plus lointaine : « L’année prochaine, je travaillerai. »
+> Formation : radical + terminaisons -ai, -as, -a, -ons, -ez, -ont.
+> • 1er et 2e groupes : on garde l’infinitif : parler → je parlerai ; finir → nous finirons.
+>   appeler → j’appellerai ; acheter → j’achèterai.
+> • Verbes irréguliers (radical spécial) : être → je serai ; avoir → j’aurai ; aller → j’irai ; faire → je ferai ; venir → je viendrai ; voir → je verrai ; envoyer → j’enverrai ; recevoir → je recevrai ; prendre → je prendrai.
+> Mots qui l’accompagnent : demain, l’année prochaine, dans dix ans, plus tard.
+
+**Card c62-1** (draft)
+
+> Futur simple : radical + -ai, -as, -a, -ons, -ez, -ont.
+>
+> _je parlerai, ils finiront_  
+
+Check question: `fr2-62-reg` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Conjugue « appeler » au futur simple avec « il ».
+
+- ◻️ il appelleront  
+  _↳ feedback if chosen: Cette forme ne va pas avec « il »._
+- ◻️ il va appeler  
+  _↳ feedback if chosen: C’est le futur proche ; on demande le futur simple._
+- ◻️ il appellerait  
+  _↳ feedback if chosen: C’est le conditionnel (-ais, -ait…) ; le futur prend -ai, -as, -a, -ons, -ez, -ont._
+- ✅ il appellera
+
+Full working after a second miss:
+
+> Au futur simple : radical appeller- + la terminaison de « il ».  
+> Donc : il appellera.  
+
+**Card c62-2** (draft)
+
+> Certains verbes ont un radical spécial : serai, aurai, irai, ferai, verrai, viendrai.
+>
+> _Demain, il fera beau._  
+
+Check question: `fr2-62-irr-card` · multiple choice, level 1 · computed by rule
+
+> Conjugue « faire » au futur simple avec « elles ».
+
+- ◻️ elles feraient  
+  _↳ feedback if chosen: C’est le conditionnel._
+- ◻️ elles fairont  
+  _↳ feedback if chosen: « faire » a un radical spécial au futur : fer-._
+- ✅ elles feront
+- ◻️ elles font  
+  _↳ feedback if chosen: C’est le présent._
+
+Full working after a second miss:
+
+> « faire » a un radical spécial : fer-.  
+> Donc : elles feront.  
+
+**Card c62-3** (draft)
+
+> Ne confonds pas « je parlerai » (futur) et « je parlerais » (conditionnel).
+>
+> _Demain, je parlerai au patron._  
+
+Check question: `fr2-62-type-card` · fill the blank, level 1 · computed by rule
+
+> Écris le verbe au futur simple.
+
+Sentence: **Les ouvriers ___ (recevoir) leur salaire lundi.**
+Typed answer accepted (case and extra spaces ignored): **recevront**
+- Typed **recevoiront** (naive) → “« recevoir » a un radical spécial au futur : recevr-.”
+- Typed **recevraient** (cond) → “C’est le conditionnel ; au futur : -ai, -as, -a, -ons, -ez, -ont.”
+
+Full working after a second miss:
+
+> Radical du futur : recevr-.  
+> On écrit : recevront.  
+
+**Worked example** (draft)
+
+> Conjugue « voir » au futur simple avec « nous ».
+
+1. « voir » a un radical spécial au futur : verr-.
+2. On ajoute -ons : nous verrons.
+
+**Answer:** nous verrons
+
+**Practice** `fr2-62-reg` · multiple choice, level 1 · computed by rule
+
+> Conjugue « travailler » au futur simple avec « tu ».
+
+- ◻️ tu vas travailler  
+  _↳ feedback if chosen: C’est le futur proche ; on demande le futur simple._
+- ✅ tu travailleras
+- ◻️ tu travaillerais  
+  _↳ feedback if chosen: C’est le conditionnel (-ais, -ait…) ; le futur prend -ai, -as, -a, -ons, -ez, -ont._
+- ◻️ tu travaillerez  
+  _↳ feedback if chosen: Cette forme ne va pas avec « tu »._
+
+Full working after a second miss:
+
+> Au futur simple : radical travailler- + la terminaison de « tu ».  
+> Donc : tu travailleras.  
+
+> Conjugue « jouer » au futur simple avec « je ».
+
+- ◻️ je vais jouer  
+  _↳ feedback if chosen: C’est le futur proche ; on demande le futur simple._
+- ◻️ je jouerais  
+  _↳ feedback if chosen: C’est le conditionnel (-ais, -ait…) ; le futur prend -ai, -as, -a, -ons, -ez, -ont._
+- ✅ je jouerai
+- ◻️ je jouerons  
+  _↳ feedback if chosen: Cette forme ne va pas avec « je »._
+
+Full working after a second miss:
+
+> Au futur simple : radical jouer- + la terminaison de « je ».  
+> Donc : je jouerai.  
+
+**Practice** `fr2-62-irr` · multiple choice, level 2 · computed by rule
+
+> Conjugue « avoir » au futur simple avec « vous ».
+
+- ✅ vous aurez
+- ◻️ vous auriez  
+  _↳ feedback if chosen: C’est le conditionnel._
+- ◻️ vous avoirez  
+  _↳ feedback if chosen: « avoir » a un radical spécial au futur : aur-._
+- ◻️ vous avez  
+  _↳ feedback if chosen: C’est le présent._
+
+Full working after a second miss:
+
+> « avoir » a un radical spécial : aur-.  
+> Donc : vous aurez.  
+
+> Conjugue « avoir » au futur simple avec « tu ».
+
+- ◻️ tu aurais  
+  _↳ feedback if chosen: C’est le conditionnel._
+- ✅ tu auras
+- ◻️ tu avoiras  
+  _↳ feedback if chosen: « avoir » a un radical spécial au futur : aur-._
+- ◻️ tu as  
+  _↳ feedback if chosen: C’est le présent._
+
+Full working after a second miss:
+
+> « avoir » a un radical spécial : aur-.  
+> Donc : tu auras.  
+
+**Practice** `fr2-62-type` · fill the blank, level 3 · computed by rule
+
+> Écris le verbe au futur simple.
+
+Sentence: **Les ouvriers ___ (recevoir) leur salaire lundi.**
+Typed answer accepted (case and extra spaces ignored): **recevront**
+- Typed **recevoiront** (naive) → “« recevoir » a un radical spécial au futur : recevr-.”
+- Typed **recevraient** (cond) → “C’est le conditionnel ; au futur : -ai, -as, -a, -ons, -ez, -ont.”
+
+Full working after a second miss:
+
+> Radical du futur : recevr-.  
+> On écrit : recevront.  
+
+> Écris le verbe au futur simple.
+
+Sentence: **Les ouvriers ___ (recevoir) leur salaire lundi.**
+Typed answer accepted (case and extra spaces ignored): **recevront**
+- Typed **recevoiront** (naive) → “« recevoir » a un radical spécial au futur : recevr-.”
+- Typed **recevraient** (cond) → “C’est le conditionnel ; au futur : -ai, -as, -a, -ons, -ez, -ont.”
+
+Full working after a second miss:
+
+> Radical du futur : recevr-.  
+> On écrit : recevront.  
+
+**Practice** `fr2-62-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Vous verrez le directeur.
+- ✅ Nous voirons le patron.  
+  _↳ explanation: « voir » au futur : nous verrons._
+- ◻️ Nous irons au marché.
+- ◻️ Demain, il fera beau.
+
+Full working after a second miss:
+
+> La phrase fausse est « Nous voirons le patron. ».  
+> « voir » au futur : nous verrons.  
+
+> Quelle phrase contient une faute ?
+
+- ✅ Ils fairont le travail.  
+  _↳ explanation: « faire » au futur : ils feront._
+- ◻️ Je serai mécanicien.
+- ◻️ Nous irons au marché.
+- ◻️ Demain, il fera beau.
+
+Full working after a second miss:
+
+> La phrase fausse est « Ils fairont le travail. ».  
+> « faire » au futur : ils feront.  
+
+## Lesson 63: : Vocabulaire : Les opérations arithmétiques
+
+Prerequisites: none · Skill: fr2-63 (Le vocabulaire des opérations arithmétiques)
+
+**Note** (draft)
+
+> Les quatre opérations et leurs mots :
+> • l’addition (+) : additionner, ajouter ; le résultat est la somme : « Trois plus quatre égale sept. »
+> • la soustraction (−) : soustraire, retrancher, enlever ; le résultat est la différence : « Dix moins trois égale sept. »
+> • la multiplication (×) : multiplier ; le résultat est le produit : « Six fois cinq égale trente. »
+> • la division (÷) : diviser, partager ; le résultat est le quotient : « Vingt divisé par quatre égale cinq. »
+> Autres mots : le double (× 2), la moitié (÷ 2), le triple (× 3), le tiers, le quart, le chiffre, le nombre, calculer, compter, le total.
+
+**Card c63-1** (draft)
+
+> Addition → somme ; soustraction → différence ; multiplication → produit ; division → quotient.
+>
+> _La somme de deux et trois est cinq._  
+
+Check question: `fr2-63-nom` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Comment s’appelle le résultat d’une multiplication ?
+
+- ◻️ la différence  
+  _↳ feedback if chosen: C’est la soustraction._
+- ◻️ la somme  
+  _↳ feedback if chosen: C’est l’addition._
+- ✅ le produit
+- ◻️ le quotient  
+  _↳ feedback if chosen: C’est la division._
+
+Full working after a second miss:
+
+> Le produit.  
+> Donc la réponse est « le produit ».  
+
+**Card c63-2** (draft)
+
+> On lit : plus, moins, fois, divisé par, égale.
+>
+> _Sept fois deux égale quatorze._  
+
+Check question: `fr2-63-lire` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Comment lit-on le signe − ?
+
+- ◻️ plus  
+  _↳ feedback if chosen: C’est +._
+- ◻️ fois  
+  _↳ feedback if chosen: C’est ×._
+- ◻️ égale  
+  _↳ feedback if chosen: C’est =._
+- ✅ moins
+
+Full working after a second miss:
+
+> − se lit « moins ».  
+> Donc la réponse est « moins ».  
+
+**Card c63-3** (draft)
+
+> Le double, c’est fois deux ; la moitié, c’est divisé par deux.
+>
+> _Le double de cinq est dix._  
+
+Check question: `fr2-63-calc-card` · number, level 1 · computed by rule
+
+> Calcule le triple de 20.
+
+Answer: **60**
+- Typed **10** (swap) → “Relis le mot : double = × deux, moitié = ÷ deux, triple = × trois.”
+
+Full working after a second miss:
+
+> Le triple, c’est multiplier par trois.  
+> Le résultat est 60.  
+
+**Worked example** (draft)
+
+> Lis en toutes lettres et calcule : 12 ÷ 4.
+
+1. « ÷ » se lit « divisé par » ; le résultat s’appelle le quotient.
+2. Douze divisé par quatre égale trois.
+
+**Answer:** Douze divisé par quatre égale trois ; le quotient est 3.
+
+**Practice** `fr2-63-nom` · multiple choice, level 1 · **authored key**
+
+> Comment s’appelle le résultat d’une soustraction ?
+
+- ✅ la différence
+- ◻️ le quotient  
+  _↳ feedback if chosen: C’est la division._
+- ◻️ la somme  
+  _↳ feedback if chosen: C’est l’addition._
+- ◻️ le produit  
+  _↳ feedback if chosen: C’est la multiplication._
+
+Full working after a second miss:
+
+> La différence.  
+> Donc la réponse est « la différence ».  
+
+> Comment s’appelle le résultat d’une multiplication ?
+
+- ✅ le produit
+- ◻️ la différence  
+  _↳ feedback if chosen: C’est la soustraction._
+- ◻️ la somme  
+  _↳ feedback if chosen: C’est l’addition._
+- ◻️ le quotient  
+  _↳ feedback if chosen: C’est la division._
+
+Full working after a second miss:
+
+> Le produit.  
+> Donc la réponse est « le produit ».  
+
+**Practice** `fr2-63-lire` · multiple choice, level 1 · **authored key**
+
+> Comment lit-on le signe ÷ ?
+
+- ◻️ fois  
+  _↳ feedback if chosen: C’est ×._
+- ✅ divisé par
+- ◻️ plus  
+  _↳ feedback if chosen: C’est +._
+- ◻️ moins  
+  _↳ feedback if chosen: C’est −._
+
+Full working after a second miss:
+
+> ÷ se lit « divisé par ».  
+> Donc la réponse est « divisé par ».  
+
+> Comment lit-on le signe × ?
+
+- ◻️ moins  
+  _↳ feedback if chosen: C’est −._
+- ◻️ divisé par  
+  _↳ feedback if chosen: C’est ÷._
+- ✅ fois
+- ◻️ plus  
+  _↳ feedback if chosen: C’est +._
+
+Full working after a second miss:
+
+> × se lit « fois ».  
+> Donc la réponse est « fois ».  
+
+**Practice** `fr2-63-calc` · number, level 2 · computed by rule
+
+> Calcule le double de 18.
+
+Answer: **36**
+- Typed **9** (swap) → “Relis le mot : double = × deux, moitié = ÷ deux, triple = × trois.”
+
+Full working after a second miss:
+
+> Le double, c’est multiplier par deux.  
+> Le résultat est 36.  
+
+> Calcule la moitié de 12.
+
+Answer: **6**
+- Typed **24** (swap) → “Relis le mot : double = × deux, moitié = ÷ deux, triple = × trois.”
+
+Full working after a second miss:
+
+> La moitié, c’est diviser par deux.  
+> Le résultat est 6.  
+
+**Practice** `fr2-63-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase est fausse ?
+
+- ✅ ÷ se lit « plus ».  
+  _↳ explanation: ÷ se lit « divisé par »._
+- ◻️ La moitié de dix est cinq.
+- ◻️ × se lit « fois ».
+- ◻️ Le résultat d’une addition est la somme.
+
+Full working after a second miss:
+
+> La phrase fausse est « ÷ se lit « plus ». ».  
+> ÷ se lit « divisé par ».  
+
+> Quelle phrase est fausse ?
+
+- ◻️ Le quotient est le résultat d’une division.
+- ◻️ La moitié de dix est cinq.
+- ◻️ × se lit « fois ».
+- ✅ ÷ se lit « plus ».  
+  _↳ explanation: ÷ se lit « divisé par »._
+
+Full working after a second miss:
+
+> La phrase fausse est « ÷ se lit « plus ». ».  
+> ÷ se lit « divisé par ».  
+
+## Lesson 64: Lecture :-Texte sur les opérations financières
+
+Prerequisites: 63 · Skill: fr2-64 (Lire un texte sur les opérations financières)
+
+**Note** (draft)
+
+> « Le compte d’épargne de Mama Ngo »
+> Mama Ngo vend des beignets au carrefour. Chaque soir, elle compte sa recette. Un jour, son fils Paul lui dit : « Maman, pourquoi gardes-tu ton argent sous le matelas ? Il peut brûler ou être volé. »
+> Le lendemain, ils vont ensemble à la caisse d’épargne du quartier. L’agent leur explique : « Vous pouvez ouvrir un compte. Chaque semaine, vous ferez un dépôt. Si vous avez besoin d’argent, vous ferez un retrait. »
+> Mama Ngo ouvre son compte avec cinq mille francs. Six mois plus tard, elle a assez d’argent pour acheter une grande poêle et un congélateur. Elle sourit : « L’argent bien gardé travaille pour nous ! »
+> (texte original écrit pour l’application)
+
+**Card c64-1** (draft)
+
+> Pour comprendre un texte, on cherche qui, quoi, où, quand et pourquoi.
+>
+> _Qui ? Mama Ngo et Paul. Où ? À la caisse d’épargne._  
+
+Check question: `fr2-64-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Texte « Le compte d’épargne de Mama Ngo » : où vont-ils le lendemain ?
+
+- ◻️ à l’hôpital  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ à la caisse d’épargne du quartier
+- ◻️ à l’école  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ au marché  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> Ils vont ouvrir un compte.  
+> Donc la réponse est « à la caisse d’épargne du quartier ».  
+
+**Card c64-2** (draft)
+
+> Un dépôt, c’est mettre de l’argent sur un compte ; un retrait, c’est en reprendre.
+>
+> _Elle fait un dépôt chaque semaine._  
+
+Check question: `fr2-64-mot` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Texte « Le compte d’épargne de Mama Ngo » : que veut dire « la recette » ici ?
+
+- ◻️ une façon de cuisiner  
+  _↳ feedback if chosen: Ici, ce n’est pas la cuisine._
+- ◻️ un médicament  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ une dépense  
+  _↳ feedback if chosen: C’est le contraire._
+- ✅ l’argent gagné par la vente
+
+Full working after a second miss:
+
+> Elle compte l’argent de la journée.  
+> Donc la réponse est « l’argent gagné par la vente ».  
+
+**Card c64-3** (draft)
+
+> L’épargne, c’est l’argent mis de côté pour plus tard.
+>
+> _L’argent bien gardé travaille pour nous._  
+
+Check question: `fr2-64-idee-card` · multiple choice, level 1 · **authored key**
+
+> Texte « Le compte d’épargne de Mama Ngo » : qu’achète Mama Ngo six mois plus tard ?
+
+- ✅ une grande poêle et un congélateur
+- ◻️ une maison  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ une voiture  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ des vêtements  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> Le texte le dit à la fin.  
+> Donc la réponse est « une grande poêle et un congélateur ».  
+
+**Worked example** (draft)
+
+> Pourquoi Paul ne veut-il pas que sa mère garde l’argent sous le matelas ?
+
+1. Paul le dit au début du texte.
+2. « Il peut brûler ou être volé. »
+
+**Answer:** Parce que l’argent peut brûler ou être volé.
+
+**Practice** `fr2-64-comp` · multiple choice, level 1 · **authored key**
+
+> Texte « Le compte d’épargne de Mama Ngo » : où vont-ils le lendemain ?
+
+- ◻️ à l’hôpital  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ à l’école  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ à la caisse d’épargne du quartier
+- ◻️ au marché  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> Ils vont ouvrir un compte.  
+> Donc la réponse est « à la caisse d’épargne du quartier ».  
+
+> Texte « Le compte d’épargne de Mama Ngo » : où vont-ils le lendemain ?
+
+- ◻️ au marché  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ✅ à la caisse d’épargne du quartier
+- ◻️ à l’hôpital  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+- ◻️ à l’école  
+  _↳ feedback if chosen: Ce n’est pas dans le texte._
+
+Full working after a second miss:
+
+> Ils vont ouvrir un compte.  
+> Donc la réponse est « à la caisse d’épargne du quartier ».  
+
+**Practice** `fr2-64-mot` · multiple choice, level 1 · **authored key**
+
+> Texte « Le compte d’épargne de Mama Ngo » : que veut dire « faire un dépôt » ?
+
+- ◻️ reprendre de l’argent  
+  _↳ feedback if chosen: C’est un retrait._
+- ◻️ perdre son argent  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ✅ mettre de l’argent sur son compte
+- ◻️ fermer son compte  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le dépôt ajoute de l’argent.  
+> Donc la réponse est « mettre de l’argent sur son compte ».  
+
+> Texte « Le compte d’épargne de Mama Ngo » : que veut dire « faire un dépôt » ?
+
+- ◻️ reprendre de l’argent  
+  _↳ feedback if chosen: C’est un retrait._
+- ✅ mettre de l’argent sur son compte
+- ◻️ perdre son argent  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+- ◻️ fermer son compte  
+  _↳ feedback if chosen: Ce n’est pas le sens._
+
+Full working after a second miss:
+
+> Le dépôt ajoute de l’argent.  
+> Donc la réponse est « mettre de l’argent sur son compte ».  
+
+**Practice** `fr2-64-idee` · multiple choice, level 2 · **authored key**
+
+> Texte « Le compte d’épargne de Mama Ngo » : quelle est l’idée principale ?
+
+- ◻️ Les fils ne doivent pas parler aux mères.  
+  _↳ feedback if chosen: Ce n’est pas l’idée._
+- ✅ Garder son argent à la caisse d’épargne est plus sûr et aide à faire des projets.
+- ◻️ Les beignets coûtent cher.  
+  _↳ feedback if chosen: Ce n’est pas l’idée._
+- ◻️ Il faut dépenser tout son argent.  
+  _↳ feedback if chosen: C’est le contraire._
+
+Full working after a second miss:
+
+> Elle achète du matériel grâce à l’épargne.  
+> Donc la réponse est « Garder son argent à la caisse d’épargne est plus sûr et aide à faire des projets. ».  
+
+> Texte « Le compte d’épargne de Mama Ngo » : quelle est l’idée principale ?
+
+- ✅ Garder son argent à la caisse d’épargne est plus sûr et aide à faire des projets.
+- ◻️ Il faut dépenser tout son argent.  
+  _↳ feedback if chosen: C’est le contraire._
+- ◻️ Les beignets coûtent cher.  
+  _↳ feedback if chosen: Ce n’est pas l’idée._
+- ◻️ Les fils ne doivent pas parler aux mères.  
+  _↳ feedback if chosen: Ce n’est pas l’idée._
+
+Full working after a second miss:
+
+> Elle achète du matériel grâce à l’épargne.  
+> Donc la réponse est « Garder son argent à la caisse d’épargne est plus sûr et aide à faire des projets. ».  
+
+**Practice** `fr2-64-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ✅ Faire un retrait, c’est ajouter de l’argent.  
+  _↳ explanation: C’est reprendre de l’argent._
+- ◻️ Mama Ngo vend des beignets.
+- ◻️ Elle achète un congélateur.
+- ◻️ Paul conseille sa mère.
+
+Full working after a second miss:
+
+> La phrase fausse est « Faire un retrait, c’est ajouter de l’argent. ».  
+> C’est reprendre de l’argent.  
+
+> Quelle phrase ne correspond pas au texte ?
+
+- ◻️ Elle achète un congélateur.
+- ✅ Faire un retrait, c’est ajouter de l’argent.  
+  _↳ explanation: C’est reprendre de l’argent._
+- ◻️ Paul conseille sa mère.
+- ◻️ Elle ouvre un compte.
+
+Full working after a second miss:
+
+> La phrase fausse est « Faire un retrait, c’est ajouter de l’argent. ».  
+> C’est reprendre de l’argent.  
+
+## Lesson 65: Vocabulaire : Répondre au téléphone : allô, bonjour, qui est à l’appareil ? Etc
+
+Prerequisites: none · Skill: fr2-65 (Répondre au téléphone)
+
+**Note** (draft)
+
+> Au téléphone, on parle poliment et clairement.
+> • Pour répondre : « Allô, bonjour ! » « Allô, oui ? »
+> • Pour se présenter : « C’est Ayuk à l’appareil. » « Ici Mme Ngo. »
+> • Pour demander qui appelle : « Qui est à l’appareil ? » « C’est de la part de qui ? »
+> • Pour demander quelqu’un : « Puis-je parler à M. Tabi, s’il vous plaît ? »
+> • Pour faire patienter : « Ne quittez pas. » « Un instant, s’il vous plaît. »
+> • Pour laisser un message : « Voulez-vous laisser un message ? » « Je lui dirai de vous rappeler. »
+> • Pour finir : « Merci, au revoir. » « À bientôt. »
+
+**Card c65-1** (draft)
+
+> On répond par « Allô, bonjour ! » et on se présente : « C’est … à l’appareil. »
+>
+> _Allô, c’est Bih à l’appareil._  
+
+Check question: `fr2-65-rep` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Comment te présenter au téléphone ?
+
+- ◻️ À bientôt.  
+  _↳ feedback if chosen: C’est pour finir._
+- ✅ C’est Ayuk à l’appareil.
+- ◻️ Qui es-tu ?  
+  _↳ feedback if chosen: C’est une question._
+- ◻️ Ne quittez pas.  
+  _↳ feedback if chosen: C’est pour faire patienter._
+
+Full working after a second miss:
+
+> On dit son nom.  
+> Donc la réponse est « C’est Ayuk à l’appareil. ».  
+
+**Card c65-2** (draft)
+
+> Pour savoir qui appelle : « Qui est à l’appareil ? » « C’est de la part de qui ? »
+>
+> _C’est de la part de qui ?_  
+
+Check question: `fr2-65-qui` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quelle phrase sert à demander qui appelle ?
+
+- ◻️ Je vous rappelle.  
+  _↳ feedback if chosen: C’est une promesse._
+- ◻️ Merci, au revoir.  
+  _↳ feedback if chosen: C’est pour finir._
+- ◻️ Ne quittez pas.  
+  _↳ feedback if chosen: C’est pour faire patienter._
+- ✅ C’est de la part de qui ?
+
+Full working after a second miss:
+
+> On demande l’identité.  
+> Donc la réponse est « C’est de la part de qui ? ».  
+
+**Card c65-3** (draft)
+
+> « Ne quittez pas » veut dire « attendez au téléphone ».
+>
+> _Ne quittez pas, je l’appelle._  
+
+Check question: `fr2-65-ordre-card` · ordering, level 1 · **authored key**
+
+> Remets la conversation dans l’ordre.
+
+Shown as: Allô, oui ? · D’accord. Au revoir. · Oui, dites-lui de me rappeler. · Bonjour, je voudrais parler à Paul. · Il est absent. Voulez-vous laisser un message ?
+Correct order: Allô, oui ? → Bonjour, je voudrais parler à Paul. → Il est absent. Voulez-vous laisser un message ? → Oui, dites-lui de me rappeler. → D’accord. Au revoir.
+
+Full working after a second miss:
+
+> Le bon ordre est : Allô, oui ? → Bonjour, je voudrais parler à Paul. → Il est absent. Voulez-vous laisser un message ? → Oui, dites-lui de me rappeler. → D’accord. Au revoir..  
+
+**Worked example** (draft)
+
+> Le téléphone sonne. Une voix demande ton père, qui est absent. Que réponds-tu ?
+
+1. On répond poliment : « Allô, bonjour ! »
+2. On explique et on propose : « Mon père est absent. Voulez-vous laisser un message ? »
+
+**Answer:** Allô, bonjour ! Mon père est absent. Voulez-vous laisser un message ?
+
+**Practice** `fr2-65-rep` · multiple choice, level 1 · **authored key**
+
+> Que dit-on en décrochant le téléphone ?
+
+- ✅ Allô, bonjour !
+- ◻️ Bonne nuit !  
+  _↳ feedback if chosen: Ce n’est pas pour répondre._
+- ◻️ Félicitations !  
+  _↳ feedback if chosen: Ce n’est pas pour répondre._
+- ◻️ Au revoir !  
+  _↳ feedback if chosen: On le dit à la fin._
+
+Full working after a second miss:
+
+> On commence par « Allô ».  
+> Donc la réponse est « Allô, bonjour ! ».  
+
+> Que dit-on en décrochant le téléphone ?
+
+- ◻️ Félicitations !  
+  _↳ feedback if chosen: Ce n’est pas pour répondre._
+- ◻️ Bonne nuit !  
+  _↳ feedback if chosen: Ce n’est pas pour répondre._
+- ◻️ Au revoir !  
+  _↳ feedback if chosen: On le dit à la fin._
+- ✅ Allô, bonjour !
+
+Full working after a second miss:
+
+> On commence par « Allô ».  
+> Donc la réponse est « Allô, bonjour ! ».  
+
+**Practice** `fr2-65-qui` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase demande à parler à quelqu’un ?
+
+- ✅ Puis-je parler à M. Tabi, s’il vous plaît ?
+- ◻️ Au revoir.  
+  _↳ feedback if chosen: On finit._
+- ◻️ Qui est à l’appareil ?  
+  _↳ feedback if chosen: On demande qui appelle._
+- ◻️ Ne quittez pas.  
+  _↳ feedback if chosen: On fait patienter._
+
+Full working after a second miss:
+
+> On demande poliment la personne.  
+> Donc la réponse est « Puis-je parler à M. Tabi, s’il vous plaît ? ».  
+
+> Quelle phrase sert à demander qui appelle ?
+
+- ◻️ Je vous rappelle.  
+  _↳ feedback if chosen: C’est une promesse._
+- ◻️ Ne quittez pas.  
+  _↳ feedback if chosen: C’est pour faire patienter._
+- ✅ C’est de la part de qui ?
+- ◻️ Merci, au revoir.  
+  _↳ feedback if chosen: C’est pour finir._
+
+Full working after a second miss:
+
+> On demande l’identité.  
+> Donc la réponse est « C’est de la part de qui ? ».  
+
+**Practice** `fr2-65-ordre` · ordering, level 2 · **authored key**
+
+> Remets la conversation dans l’ordre.
+
+Shown as: Allô, bonjour ! · C’est M. Tabi. · C’est de la part de qui ? · Bonjour, puis-je parler à Mme Ngo ? · Ne quittez pas, je l’appelle.
+Correct order: Allô, bonjour ! → Bonjour, puis-je parler à Mme Ngo ? → C’est de la part de qui ? → C’est M. Tabi. → Ne quittez pas, je l’appelle.
+
+Full working after a second miss:
+
+> Le bon ordre est : Allô, bonjour ! → Bonjour, puis-je parler à Mme Ngo ? → C’est de la part de qui ? → C’est M. Tabi. → Ne quittez pas, je l’appelle..  
+
+> Remets la conversation dans l’ordre.
+
+Shown as: Allô, bonjour ! · C’est de la part de qui ? · Bonjour, puis-je parler à Mme Ngo ? · C’est M. Tabi. · Ne quittez pas, je l’appelle.
+Correct order: Allô, bonjour ! → Bonjour, puis-je parler à Mme Ngo ? → C’est de la part de qui ? → C’est M. Tabi. → Ne quittez pas, je l’appelle.
+
+Full working after a second miss:
+
+> Le bon ordre est : Allô, bonjour ! → Bonjour, puis-je parler à Mme Ngo ? → C’est de la part de qui ? → C’est M. Tabi. → Ne quittez pas, je l’appelle..  
+
+**Practice** `fr2-65-spot` · spot the error, level 3 · **authored key**
+
+> Quelle réponse n’est pas polie ou ne convient pas ?
+
+- ◻️ Ne quittez pas, s’il vous plaît.
+- ✅ Raccrocher sans rien dire.  
+  _↳ explanation: On salue et on répond poliment._
+- ◻️ Allô, bonjour !
+- ◻️ Voulez-vous laisser un message ?
+
+Full working after a second miss:
+
+> La phrase fausse est « Raccrocher sans rien dire. ».  
+> On salue et on répond poliment.  
+
+> Quelle réponse n’est pas polie ou ne convient pas ?
+
+- ◻️ Allô, bonjour !
+- ✅ Raccrocher sans rien dire.  
+  _↳ explanation: On salue et on répond poliment._
+- ◻️ Merci, au revoir.
+- ◻️ Ne quittez pas, s’il vous plaît.
+
+Full working after a second miss:
+
+> La phrase fausse est « Raccrocher sans rien dire. ».  
+> On salue et on répond poliment.  
+
+## Lesson 66: Conjugaison : -Le présent de l’indicatif et le futur proche des verbes liés au module (voir, envoyer, recevoir, etc.)
+
+Prerequisites: 58 · Skill: fr2-66 (Le présent et le futur proche de voir, envoyer, recevoir…)
+
+**Note** (draft)
+
+> Au présent, ces verbes du module ont des formes à bien retenir :
+> • voir : je vois, tu vois, il voit, nous voyons, vous voyez, ils voient ;
+> • envoyer : j’envoie, tu envoies, il envoie, nous envoyons, vous envoyez, ils envoient ;
+> • recevoir : je reçois, tu reçois, il reçoit, nous recevons, vous recevez, ils reçoivent (ç devant o) ;
+> • prendre : je prends, il prend, nous prenons, ils prennent ;
+> • acheter : j’achète, nous achetons, ils achètent.
+> Au futur proche : aller au présent + infinitif : je vais envoyer, nous allons recevoir, ils vont voir.
+
+**Card c66-1** (draft)
+
+> envoyer : y devient i devant un e muet : j’envoie, ils envoient ; nous envoyons.
+>
+> _Nous envoyons un colis._  
+
+Check question: `fr2-66-env` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Conjugue « envoyer » au présent avec « elles ».
+
+- ✅ elles envoient
+- ◻️ elles envoies  
+  _↳ feedback if chosen: Cette forme ne va pas avec « elles »._
+- ◻️ elles envoie  
+  _↳ feedback if chosen: Cette forme ne va pas avec « elles »._
+- ◻️ elles envoyer  
+  _↳ feedback if chosen: Il faut conjuguer le verbe._
+
+Full working after a second miss:
+
+> Au présent, « envoyer » : j’envoie, nous envoyons, ils envoient.  
+> Donc : elles envoient.  
+
+**Card c66-2** (draft)
+
+> recevoir : ç devant o et u : je reçois, ils reçoivent ; nous recevons.
+>
+> _Elle reçoit son salaire._  
+
+Check question: `fr2-66-rec-card` · fill the blank, level 1 · computed by rule
+
+> Écris le verbe au présent.
+
+Sentence: **Les ouvriers ___ (recevoir) leur salaire le vendredi.**
+Typed answer accepted (case and extra spaces ignored): **reçoivent**
+- Typed **reçoit** (pers) → “Le sujet n’est pas « il » : la terminaison change.”
+
+Full working after a second miss:
+
+> « recevoir » au présent : je reçois, nous recevons, ils reçoivent.  
+> On écrit : reçoivent.  
+
+**Card c66-3** (draft)
+
+> Futur proche : aller au présent + infinitif.
+>
+> _Ils vont envoyer la facture._  
+
+Check question: `fr2-66-fp` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Mets « écrire » au futur proche avec « nous ».
+
+- ◻️ nous écrirons  
+  _↳ feedback if chosen: C’est le futur simple._
+- ✅ nous allons écrire
+- ◻️ nous allons écrit  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+- ◻️ nous vais écrire  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « nous »._
+
+Full working after a second miss:
+
+> Futur proche : aller au présent + infinitif.  
+> Donc : nous allons écrire.  
+
+**Worked example** (draft)
+
+> Conjugue « recevoir » au présent puis au futur proche avec « ils ».
+
+1. Présent : ils reçoivent (avec ç devant o).
+2. Futur proche : ils vont recevoir.
+
+**Answer:** ils reçoivent ; ils vont recevoir
+
+**Practice** `fr2-66-env` · multiple choice, level 1 · computed by rule
+
+> Conjugue « acheter » au présent avec « ils ».
+
+- ◻️ ils achète  
+  _↳ feedback if chosen: Cette forme ne va pas avec « ils »._
+- ✅ ils achètent
+- ◻️ ils acheter  
+  _↳ feedback if chosen: Il faut conjuguer le verbe._
+
+Full working after a second miss:
+
+> Au présent, « acheter » : j’achète, nous achetons, ils achètent.  
+> Donc : ils achètent.  
+
+> Conjugue « prendre » au présent avec « elle ».
+
+- ◻️ elle prendre  
+  _↳ feedback if chosen: Il faut conjuguer le verbe._
+- ◻️ elle prenez  
+  _↳ feedback if chosen: Cette forme ne va pas avec « elle »._
+- ✅ elle prend
+- ◻️ elle prennent  
+  _↳ feedback if chosen: Cette forme ne va pas avec « elle »._
+
+Full working after a second miss:
+
+> Au présent, « prendre » : je prends, nous prenons, ils prennent.  
+> Donc : elle prend.  
+
+**Practice** `fr2-66-rec` · fill the blank, level 2 · computed by rule
+
+> Écris le verbe au présent.
+
+Sentence: **Ils ___ (voir) les nouvelles machines.**
+Typed answer accepted (case and extra spaces ignored): **voient**
+- Typed **voit** (pers) → “Le sujet n’est pas « il » : la terminaison change.”
+
+Full working after a second miss:
+
+> « voir » au présent : je vois, nous voyons, ils voient.  
+> On écrit : voient.  
+
+> Écris le verbe au présent.
+
+Sentence: **Elle ___ (envoyer) de l’argent à sa mère.**
+Typed answer accepted (case and extra spaces ignored): **envoie**
+
+Full working after a second miss:
+
+> « envoyer » au présent : j’envoie, nous envoyons, ils envoient.  
+> On écrit : envoie.  
+
+**Practice** `fr2-66-fp` · multiple choice, level 1 · computed by rule
+
+> Mets « voir » au futur proche avec « elle ».
+
+- ◻️ elle vont voir  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « elle »._
+- ◻️ elle va vu  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+- ◻️ elle verra  
+  _↳ feedback if chosen: C’est le futur simple._
+- ✅ elle va voir
+
+Full working after a second miss:
+
+> Futur proche : aller au présent + infinitif.  
+> Donc : elle va voir.  
+
+> Mets « prendre » au futur proche avec « elles ».
+
+- ◻️ elles vont pris  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+- ✅ elles vont prendre
+- ◻️ elles va prendre  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « elles »._
+- ◻️ elles prendront  
+  _↳ feedback if chosen: C’est le futur simple._
+
+Full working after a second miss:
+
+> Futur proche : aller au présent + infinitif.  
+> Donc : elles vont prendre.  
+
+**Practice** `fr2-66-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Elle va envoyer la facture.
+- ✅ Ils recevent leur salaire.  
+  _↳ explanation: On écrit : ils reçoivent._
+- ◻️ Ils reçoivent leur salaire.
+- ◻️ Nous voyons le marché.
+
+Full working after a second miss:
+
+> La phrase fausse est « Ils recevent leur salaire. ».  
+> On écrit : ils reçoivent.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Elle va envoyer la facture.
+- ◻️ J’envoie un message.
+- ✅ Nous envoions le colis.  
+  _↳ explanation: Avec « nous » : nous envoyons._
+- ◻️ Nous voyons le marché.
+
+Full working after a second miss:
+
+> La phrase fausse est « Nous envoions le colis. ».  
+> Avec « nous » : nous envoyons.  
+
+## Lesson 67: Grammaire: Les adjectifs indéfinis
+
+Prerequisites: 36 · Skill: fr2-67 (Les adjectifs indéfinis)
+
+**Note** (draft)
+
+> Un adjectif indéfini se place devant le nom et indique une quantité ou une identité imprécise.
+> • Quantité nulle : aucun, aucune, nul : « Aucun ouvrier n’est absent. » (avec « ne »)
+> • Quantité imprécise : quelques, plusieurs, certains, certaines : « Plusieurs clients attendent. »
+> • Totalité : tout, toute, tous, toutes ; chaque (singulier) : « Tous les employés sont payés. » « Chaque travailleur a un contrat. »
+> • Identité : même, autre, tel : « Ils font le même métier. » « Prends une autre chaise. »
+> L’adjectif indéfini s’accorde souvent avec le nom : tout le travail, toute la journée, tous les jours, toutes les femmes.
+> « Chaque » et « aucun » sont toujours au singulier.
+
+**Card c67-1** (draft)
+
+> L’adjectif indéfini se place devant le nom : quelques, plusieurs, chaque, aucun, tout.
+>
+> _Plusieurs clients attendent._  
+
+Check question: `fr2-67-quoi` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quel adjectif indéfini indique la quantité zéro ?
+
+- ◻️ quelques  
+  _↳ feedback if chosen: Un petit nombre._
+- ✅ aucun
+- ◻️ tous  
+  _↳ feedback if chosen: La totalité._
+- ◻️ plusieurs  
+  _↳ feedback if chosen: Plus d’un._
+
+Full working after a second miss:
+
+> aucun = zéro.  
+> Donc la réponse est « aucun ».  
+
+**Card c67-2** (draft)
+
+> tout, toute, tous, toutes s’accordent avec le nom.
+>
+> _toute la journée, tous les jours_  
+
+Check question: `fr2-67-tout` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choisis la bonne forme de « tout ».
+
+Sentence: **Il a travaillé ___ la journée.**
+- ✅ toute
+- ◻️ tout  
+  _↳ feedback if chosen: « journée » est féminin singulier._
+- ◻️ tous  
+  _↳ feedback if chosen: « journée » est singulier._
+
+Full working after a second miss:
+
+> Le mot qui manque est « toute ».  
+> Il a travaillé toute la journée.  
+
+**Card c67-3** (draft)
+
+> « chaque » et « aucun » restent au singulier ; « aucun » s’emploie avec « ne ».
+>
+> _Aucun élève n’est absent._  
+
+Check question: `fr2-67-chaque-card` · fill the blank, level 1 · **authored key**
+
+> Choisis le mot qui convient.
+
+Sentence: **___ travailleur a droit à un congé.**
+- ◻️ Tous  
+  _↳ feedback if chosen: « travailleur » est singulier._
+- ✅ Chaque
+- ◻️ Plusieurs  
+  _↳ feedback if chosen: « travailleur » est singulier._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Chaque ».  
+> Chaque travailleur a droit à un congé.  
+
+**Worked example** (draft)
+
+> Complète avec « tout » accordé : « ___ les ouvrières sont arrivées à l’heure. »
+
+1. « ouvrières » est féminin pluriel.
+2. « tout » s’accorde : toutes.
+
+**Answer:** Toutes les ouvrières sont arrivées à l’heure.
+
+**Practice** `fr2-67-quoi` · multiple choice, level 1 · **authored key**
+
+> Dans « Plusieurs clients attendent », quel mot est un adjectif indéfini ?
+
+- ✅ plusieurs
+- ◻️ attendent  
+  _↳ feedback if chosen: C’est un verbe._
+- ◻️ clients  
+  _↳ feedback if chosen: C’est un nom._
+- ◻️ aucun mot  
+  _↳ feedback if chosen: Il y en a un._
+
+Full working after a second miss:
+
+> Il indique une quantité imprécise.  
+> Donc la réponse est « plusieurs ».  
+
+> Dans « Plusieurs clients attendent », quel mot est un adjectif indéfini ?
+
+- ◻️ aucun mot  
+  _↳ feedback if chosen: Il y en a un._
+- ◻️ attendent  
+  _↳ feedback if chosen: C’est un verbe._
+- ◻️ clients  
+  _↳ feedback if chosen: C’est un nom._
+- ✅ plusieurs
+
+Full working after a second miss:
+
+> Il indique une quantité imprécise.  
+> Donc la réponse est « plusieurs ».  
+
+**Practice** `fr2-67-tout` · fill the blank, level 1 · **authored key**
+
+> Choisis la bonne forme de « tout ».
+
+Sentence: **Il a fini ___ le travail.**
+- ◻️ toute  
+  _↳ feedback if chosen: « travail » est masculin._
+- ◻️ tous  
+  _↳ feedback if chosen: « travail » est singulier._
+- ✅ tout
+
+Full working after a second miss:
+
+> Le mot qui manque est « tout ».  
+> Il a fini tout le travail.  
+
+> Choisis la bonne forme de « tout ».
+
+Sentence: **Il a travaillé ___ la journée.**
+- ◻️ tous  
+  _↳ feedback if chosen: « journée » est singulier._
+- ✅ toute
+- ◻️ tout  
+  _↳ feedback if chosen: « journée » est féminin singulier._
+
+Full working after a second miss:
+
+> Le mot qui manque est « toute ».  
+> Il a travaillé toute la journée.  
+
+**Practice** `fr2-67-chaque` · fill the blank, level 2 · **authored key**
+
+> Choisis le mot qui convient.
+
+Sentence: **___ travailleur a droit à un congé.**
+- ◻️ Tous  
+  _↳ feedback if chosen: « travailleur » est singulier._
+- ◻️ Plusieurs  
+  _↳ feedback if chosen: « travailleur » est singulier._
+- ✅ Chaque
+
+Full working after a second miss:
+
+> Le mot qui manque est « Chaque ».  
+> Chaque travailleur a droit à un congé.  
+
+> Choisis le mot qui convient.
+
+Sentence: **___ travailleur a droit à un congé.**
+- ✅ Chaque
+- ◻️ Tous  
+  _↳ feedback if chosen: « travailleur » est singulier._
+- ◻️ Plusieurs  
+  _↳ feedback if chosen: « travailleur » est singulier._
+
+Full working after a second miss:
+
+> Le mot qui manque est « Chaque ».  
+> Chaque travailleur a droit à un congé.  
+
+**Practice** `fr2-67-spot` · spot the error, level 3 · **authored key**
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Tous les ouvriers sont là.
+- ◻️ Chaque élève a un cahier.
+- ◻️ Plusieurs femmes vendent du poisson.
+- ✅ Chaques élèves ont un livre.  
+  _↳ explanation: « chaque » reste au singulier : chaque élève a un livre._
+
+Full working after a second miss:
+
+> La phrase fausse est « Chaques élèves ont un livre. ».  
+> « chaque » reste au singulier : chaque élève a un livre.  
+
+> Quelle phrase contient une faute ?
+
+- ◻️ Aucun client n’est venu.
+- ◻️ Chaque élève a un cahier.
+- ◻️ Tous les ouvriers sont là.
+- ✅ Chaques élèves ont un livre.  
+  _↳ explanation: « chaque » reste au singulier : chaque élève a un livre._
+
+Full working after a second miss:
+
+> La phrase fausse est « Chaques élèves ont un livre. ».  
+> « chaque » reste au singulier : chaque élève a un livre.  
+
+## Lesson 68: Conjugaison : le futur proche des verbes liés au module
+
+Prerequisites: 58, 66 · Skill: fr2-68 (Le futur proche des verbes du monde du travail)
+
+**Note** (draft)
+
+> Pour parler de projets de travail proches, on emploie le futur proche : aller au présent + infinitif.
+> • embaucher : « L’usine va embaucher cent jeunes. »
+> • ouvrir : « Ma tante va ouvrir une boutique. »
+> • payer : « Le patron va payer les salaires. »
+> • construire, vendre, livrer, signer : « Nous allons signer le contrat. »
+> Le futur proche peut aussi s’employer à la forme négative : « Je ne vais pas démissionner. »
+> et à la forme interrogative : « Vas-tu travailler samedi ? » « Est-ce qu’ils vont livrer demain ? »
+
+**Card c68-1** (draft)
+
+> Pour un projet proche : aller + infinitif.
+>
+> _Ma tante va ouvrir une boutique._  
+
+Check question: `fr2-68-form` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Mets « payer » au futur proche avec « tu ».
+
+- ◻️ tu allez payer  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « tu »._
+- ✅ tu vas payer
+- ◻️ tu as payé  
+  _↳ feedback if chosen: C’est le passé composé._
+- ◻️ tu vas payé  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+
+Full working after a second miss:
+
+> Futur proche : aller au présent + infinitif.  
+> Donc : tu vas payer.  
+
+**Card c68-2** (draft)
+
+> À la forme négative : ne … pas autour d’« aller ».
+>
+> _Je ne vais pas démissionner._  
+
+Check question: `fr2-68-neg` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Quelle phrase au futur proche est à la forme négative ?
+
+- ✅ Le patron ne va pas fermer l’usine.
+- ◻️ Le patron n’a pas fermé l’usine.  
+  _↳ feedback if chosen: C’est le passé composé._
+- ◻️ Le patron va fermer l’usine.  
+  _↳ feedback if chosen: Elle est affirmative._
+- ◻️ Le patron ne fermera pas l’usine.  
+  _↳ feedback if chosen: C’est le futur simple._
+
+Full working after a second miss:
+
+> ne … pas autour de « va ».  
+> Donc la réponse est « Le patron ne va pas fermer l’usine. ».  
+
+**Card c68-3** (draft)
+
+> À la forme interrogative : inversion ou « est-ce que ».
+>
+> _Vas-tu travailler samedi ?_  
+
+Check question: `fr2-68-wo-card` · word order, level 1 · **authored key**
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: pas · Le · fermer · patron · ne · l’atelier · va (then “.”)
+Answer: **Le patron ne va pas fermer l’atelier.**
+
+Full working after a second miss:
+
+> La phrase est : Le patron ne va pas fermer l’atelier.  
+
+**Worked example** (draft)
+
+> Fais une phrase au futur proche avec « embaucher » et « ils ».
+
+1. « aller » au présent : ils vont.
+2. On ajoute l’infinitif : « Ils vont embaucher deux ouvriers. »
+
+**Answer:** Ils vont embaucher deux ouvriers.
+
+**Practice** `fr2-68-form` · multiple choice, level 1 · computed by rule
+
+> Mets « organiser » au futur proche avec « nous ».
+
+- ◻️ nous allons organisé  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+- ◻️ nous avons organisé  
+  _↳ feedback if chosen: C’est le passé composé._
+- ✅ nous allons organiser
+- ◻️ nous vais organiser  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « nous »._
+
+Full working after a second miss:
+
+> Futur proche : aller au présent + infinitif.  
+> Donc : nous allons organiser.  
+
+> Mets « livrer » au futur proche avec « vous ».
+
+- ◻️ vous avez livré  
+  _↳ feedback if chosen: C’est le passé composé._
+- ◻️ vous allez livré  
+  _↳ feedback if chosen: Le deuxième verbe reste à l’infinitif._
+- ◻️ vous vas livrer  
+  _↳ feedback if chosen: « aller » doit s’accorder avec « vous »._
+- ✅ vous allez livrer
+
+Full working after a second miss:
+
+> Futur proche : aller au présent + infinitif.  
+> Donc : vous allez livrer.  
+
+**Practice** `fr2-68-neg` · multiple choice, level 1 · **authored key**
+
+> Quelle phrase au futur proche est interrogative ?
+
+- ◻️ Tu as travaillé samedi ?  
+  _↳ feedback if chosen: C’est le passé composé._
+- ◻️ Tu vas travailler samedi.  
+  _↳ feedback if chosen: Ce n’est pas une question._
+- ◻️ Travailleras-tu samedi ?  
+  _↳ feedback if chosen: C’est le futur simple._
+- ✅ Vas-tu travailler samedi ?
+
+Full working after a second miss:
+
+> aller + infinitif, avec inversion.  
+> Donc la réponse est « Vas-tu travailler samedi ? ».  
+
+> Quelle phrase au futur proche est à la forme négative ?
+
+- ◻️ Le patron va fermer l’usine.  
+  _↳ feedback if chosen: Elle est affirmative._
+- ✅ Le patron ne va pas fermer l’usine.
+- ◻️ Le patron n’a pas fermé l’usine.  
+  _↳ feedback if chosen: C’est le passé composé._
+- ◻️ Le patron ne fermera pas l’usine.  
+  _↳ feedback if chosen: C’est le futur simple._
+
+Full working after a second miss:
+
+> ne … pas autour de « va ».  
+> Donc la réponse est « Le patron ne va pas fermer l’usine. ».  
+
+**Practice** `fr2-68-inf` · fill the blank, level 2 · **authored key**
+
+> Choisis la forme qui convient.
+
+Sentence: **Mes parents vont ___ une boutique.**
+- ◻️ ouvrent  
+  _↳ feedback if chosen: Après « vont », l’infinitif._
+- ◻️ ouvert  
+  _↳ feedback if chosen: Après « vont », l’infinitif._
+- ✅ ouvrir
+
+Full working after a second miss:
+
+> Le mot qui manque est « ouvrir ».  
+> Mes parents vont ouvrir une boutique.  
+
+> Choisis la forme qui convient.
+
+Sentence: **L’entreprise va ___ cinquante jeunes.**
+- ◻️ embauche  
+  _↳ feedback if chosen: Après « va », l’infinitif._
+- ✅ embaucher
+- ◻️ embauché  
+  _↳ feedback if chosen: Après « va », l’infinitif._
+
+Full working after a second miss:
+
+> Le mot qui manque est « embaucher ».  
+> L’entreprise va embaucher cinquante jeunes.  
+
+**Practice** `fr2-68-wo` · word order, level 3 · **authored key**
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: allons · le · signer · demain · contrat · Nous (then “.”)
+Answer: **Nous allons signer le contrat demain.**
+
+Full working after a second miss:
+
+> La phrase est : Nous allons signer le contrat demain.  
+
+> Remets les mots dans l’ordre pour faire une phrase.
+
+Tiles: fermer · l’atelier · pas · patron · Le · va · ne (then “.”)
+Answer: **Le patron ne va pas fermer l’atelier.**
+
+Full working after a second miss:
+
+> La phrase est : Le patron ne va pas fermer l’atelier.  
 

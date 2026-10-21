@@ -1,0 +1,390 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 38,
+ "language": "fr",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "fr2-38",
+   "name": "Écrire des phrases simples sur son environnement ou une maladie"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une phrase simple a un seul verbe conjugué : sujet + verbe + complément.\n« Mon quartier est propre. » « Les enfants jouent dans la cour. » « Ma mère a le paludisme. »\nPour décrire son environnement : il y a, on voit, se trouve, est situé : « Derrière ma maison, il y a un champ de maïs. »\nPour parler d’une maladie : avoir de la fièvre, avoir mal à la tête, tousser, vomir, se soigner, aller à l’hôpital, prendre des comprimés, guérir.\n« Mon frère tousse depuis trois jours. » « Il prend ses médicaments et il guérit. »\nUne phrase commence par une majuscule et se termine par un point.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris deux phrases simples : une sur ton quartier, une sur une maladie.",
+  "steps": [
+   "Quartier : « Dans mon quartier, il y a une école et un marché. »",
+   "Maladie : « Mon cousin a de la fièvre. »"
+  ],
+  "answer": "Dans mon quartier, il y a une école et un marché. Mon cousin a de la fièvre.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c38-1",
+    "status": "draft",
+    "idea": "Une phrase simple : sujet + verbe conjugué + complément.",
+    "vars": {},
+    "example": [
+     "Les arbres donnent de l’ombre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-38-simple"
+    }
+   },
+   {
+    "id": "c38-2",
+    "status": "draft",
+    "idea": "Pour une maladie : avoir de la fièvre, avoir mal à, tousser, se soigner, guérir.",
+    "vars": {},
+    "example": [
+     "J’ai mal au ventre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-38-mal"
+    }
+   },
+   {
+    "id": "c38-3",
+    "status": "draft",
+    "idea": "Majuscule au début, point à la fin.",
+    "vars": {},
+    "example": [
+     "Ma maison est près de la route."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-38-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "Il y a un marché près de chez moi.",
+         "b": "Il y a un marché près de chez moi."
+        },
+        {
+         "a": "Ma cousine a de la fièvre.",
+         "b": "Ma cousine a de la fièvre."
+        },
+        {
+         "a": "Les enfants jouent dans la cour.",
+         "b": "Les enfants jouent dans la cour."
+        },
+        {
+         "a": "Mon frère va à l’hôpital.",
+         "b": "Mon frère va à l’hôpital."
+        },
+        {
+         "a": "Notre quartier est très propre.",
+         "b": "Notre quartier est très propre."
+        }
+       ]
+      }
+     },
+     "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-38-simple",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle est une phrase simple bien construite ?",
+       "r": "Mon quartier est propre.",
+       "w": [
+        "Mon quartier propre.",
+        "mon quartier est propre",
+        "Quartier est mon propre."
+       ],
+       "e": [
+        "Il manque le verbe.",
+        "Il manque la majuscule et le point.",
+        "L’ordre des mots est faux."
+       ],
+       "y": "Sujet + verbe + complément."
+      },
+      {
+       "q": "Quelle est une phrase simple bien construite ?",
+       "r": "Ma sœur a de la fièvre.",
+       "w": [
+        "Ma sœur de la fièvre.",
+        "ma sœur a de la fièvre",
+        "De la fièvre ma sœur a."
+       ],
+       "e": [
+        "Il manque le verbe.",
+        "Il manque la majuscule et le point.",
+        "L’ordre des mots est faux."
+       ],
+       "y": "Sujet + verbe + complément."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-38-mal",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "J’ai ___ à la tête depuis ce matin.",
+       "a": "mal",
+       "w": [
+        "fièvre",
+        "malade"
+       ],
+       "e": [
+        "On dit « avoir de la fièvre ».",
+        "On dit « être malade »."
+       ]
+      },
+      {
+       "s": "Mon père ___ beaucoup la nuit : il a la grippe.",
+       "a": "tousse",
+       "w": [
+        "guérit",
+        "soigne"
+       ],
+       "e": [
+        "Guérir, c’est aller mieux.",
+        "« soigner » demande un complément."
+       ]
+      },
+      {
+       "s": "Après les médicaments, ma tante ___ vite.",
+       "a": "guérit",
+       "w": [
+        "tousse",
+        "vomit"
+       ],
+       "e": [
+        "Tousser n’est pas aller mieux.",
+        "Vomir n’est pas aller mieux."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-38-env",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase décrit l’environnement ?",
+       "r": "Derrière l’école, il y a un grand champ.",
+       "w": [
+        "J’ai mal au ventre.",
+        "Il prend ses comprimés.",
+        "Ma mère tousse."
+       ],
+       "e": [
+        "Elle parle d’une maladie.",
+        "Elle parle d’un soin.",
+        "Elle parle d’une maladie."
+       ],
+       "y": "Elle situe un lieu."
+      },
+      {
+       "q": "Quelle phrase parle d’une maladie ?",
+       "r": "Mon petit frère a le paludisme.",
+       "w": [
+        "Le marché est près de la route.",
+        "Il y a des arbres dans la cour.",
+        "Notre rue est propre."
+       ],
+       "e": [
+        "Elle décrit un lieu.",
+        "Elle décrit un lieu.",
+        "Elle décrit un lieu."
+       ],
+       "y": "Le paludisme est une maladie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-38-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Il y a un marché près de chez moi.",
+       "b": "Il y a un marché près de chez moi."
+      },
+      {
+       "a": "Ma cousine a de la fièvre.",
+       "b": "Ma cousine a de la fièvre."
+      },
+      {
+       "a": "Les enfants jouent dans la cour.",
+       "b": "Les enfants jouent dans la cour."
+      },
+      {
+       "a": "Mon frère va à l’hôpital.",
+       "b": "Mon frère va à l’hôpital."
+      },
+      {
+       "a": "Notre quartier est très propre.",
+       "b": "Notre quartier est très propre."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,430 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 54,
+ "language": "fr",
+ "prerequisites": [
+  50
+ ],
+ "skills": [
+  {
+   "id": "fr2-54",
+   "name": "Les noms non comptables"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un nom non comptable désigne une chose qu’on ne peut pas compter une par une : l’eau, le riz, le sable, la farine, le lait, l’huile, l’argent, le courage, la patience.\n• Il s’emploie avec les articles partitifs : du, de la, de l’ : « Je bois de l’eau. » « Elle achète du riz. »\n• Pour la quantité, on emploie un peu de, beaucoup de, trop de, assez de, ou une mesure : un litre d’huile, un kilo de riz, un sac de farine, un verre de lait.\n• On demande : « Combien de riz ? » (le nom reste au singulier).\nOn ne dit pas « deux riz » mais « deux sacs de riz ».",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Corrige : « Maman a acheté trois riz au marché. »",
+  "steps": [
+   "« riz » ne se compte pas grain par grain : c’est un nom non comptable.",
+   "On compte la mesure : « trois sacs (ou kilos) de riz »."
+  ],
+  "answer": "Maman a acheté trois kilos de riz au marché.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c54-1",
+    "status": "draft",
+    "idea": "Un nom non comptable ne se compte pas un par un : l’eau, le riz, le sable.",
+    "vars": {},
+    "example": [
+     "du lait, de la farine"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-54-quoi"
+    }
+   },
+   {
+    "id": "c54-2",
+    "status": "draft",
+    "idea": "Avec un nom non comptable : du, de la, de l’, un peu de, beaucoup de.",
+    "vars": {},
+    "example": [
+     "Il boit beaucoup d’eau."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-54-det"
+    }
+   },
+   {
+    "id": "c54-3",
+    "status": "draft",
+    "idea": "Pour compter, on compte la mesure : un litre d’huile, deux sacs de riz.",
+    "vars": {},
+    "example": [
+     "un kilo de sucre"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-54-mesure-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "J’ai acheté ___ de riz.",
+         "a": "deux sacs",
+         "w": [
+          "deux riz",
+          "deux"
+         ],
+         "e": [
+          "On ne compte pas « riz » : on compte les sacs.",
+          "Il faut une mesure."
+         ]
+        },
+        {
+         "s": "Le boulanger utilise ___ de farine.",
+         "a": "beaucoup",
+         "w": [
+          "trois",
+          "plusieurs"
+         ],
+         "e": [
+          "On ne compte pas la farine.",
+          "« plusieurs » va avec un nom comptable."
+         ]
+        },
+        {
+         "s": "Donne-moi ___ d’eau, s’il te plaît.",
+         "a": "un verre",
+         "w": [
+          "une eau",
+          "deux eaux"
+         ],
+         "e": [
+          "On compte la mesure.",
+          "On ne compte pas l’eau."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis l’expression correcte.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-54-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel nom est non comptable ?",
+       "r": "le sable",
+       "w": [
+        "une chaise",
+        "un livre",
+        "une orange"
+       ],
+       "e": [
+        "On compte les chaises.",
+        "On compte les livres.",
+        "On compte les oranges."
+       ],
+       "y": "On ne compte pas le sable grain par grain."
+      },
+      {
+       "q": "Quel nom est non comptable ?",
+       "r": "le lait",
+       "w": [
+        "un élève",
+        "une mangue",
+        "un stylo"
+       ],
+       "e": [
+        "On compte les élèves.",
+        "On compte les mangues.",
+        "On compte les stylos."
+       ],
+       "y": "Le lait ne se compte pas."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-54-det",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le matin, je bois ___ lait chaud.",
+       "a": "du",
+       "w": [
+        "un",
+        "deux"
+       ],
+       "e": [
+        "« lait » ne se compte pas.",
+        "« lait » ne se compte pas."
+       ]
+      },
+      {
+       "s": "Ma mère met ___ huile dans la sauce.",
+       "a": "de l’",
+       "w": [
+        "une",
+        "trois"
+       ],
+       "e": [
+        "« huile » ne se compte pas.",
+        "« huile » ne se compte pas."
+       ]
+      },
+      {
+       "s": "Il faut ___ courage pour réussir.",
+       "a": "du",
+       "w": [
+        "un",
+        "des"
+       ],
+       "e": [
+        "« courage » ne se compte pas.",
+        "« courage » ne se compte pas."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-54-mesure",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "J’ai acheté ___ de riz.",
+       "a": "deux sacs",
+       "w": [
+        "deux riz",
+        "deux"
+       ],
+       "e": [
+        "On ne compte pas « riz » : on compte les sacs.",
+        "Il faut une mesure."
+       ]
+      },
+      {
+       "s": "Le boulanger utilise ___ de farine.",
+       "a": "beaucoup",
+       "w": [
+        "trois",
+        "plusieurs"
+       ],
+       "e": [
+        "On ne compte pas la farine.",
+        "« plusieurs » va avec un nom comptable."
+       ]
+      },
+      {
+       "s": "Donne-moi ___ d’eau, s’il te plaît.",
+       "a": "un verre",
+       "w": [
+        "une eau",
+        "deux eaux"
+       ],
+       "e": [
+        "On compte la mesure.",
+        "On ne compte pas l’eau."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis l’expression correcte.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-54-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Je bois de l’eau.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle achète un kilo de sucre.",
+      "truth": "true"
+     },
+     {
+      "text": "Il y a beaucoup de sable.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous avons du riz.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Maman a acheté trois riz.",
+      "truth": "false",
+      "explain": "On compte la mesure : trois sacs de riz."
+     },
+     {
+      "text": "Il a bu deux laits.",
+      "truth": "false",
+      "explain": "On dit : deux verres de lait."
+     },
+     {
+      "text": "J’ai plusieurs farines dans la cuisine.",
+      "truth": "false",
+      "explain": "« farine » ne se compte pas : beaucoup de farine."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

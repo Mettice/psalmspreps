@@ -1,0 +1,315 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 61,
+ "language": "fr",
+ "prerequisites": [
+  57
+ ],
+ "skills": [
+  {
+   "id": "fr2-61",
+   "name": "La hiérarchie du travail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans une entreprise, les travailleurs n’ont pas tous le même rang : c’est la hiérarchie.\n• Le patron (l’employeur) : il possède ou dirige l’entreprise et embauche les travailleurs.\n• Le directeur, le chef de service, le contremaître (chef d’équipe) : ils organisent et contrôlent le travail.\n• L’employé, l’ouvrier, le salarié : ils exécutent le travail et reçoivent un salaire.\n• Le stagiaire (l’apprenti) : il apprend le métier.\nMots utiles : embaucher (engager), licencier (renvoyer), le salaire, le contrat de travail, le supérieur, le subordonné, une promotion, le syndicat, la grève, le congé.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans un garage, qui est l’employeur et qui est l’employé : le propriétaire du garage ou le mécanicien qu’il paie ?",
+  "steps": [
+   "L’employeur embauche et paie les travailleurs : c’est le propriétaire.",
+   "Le mécanicien reçoit un salaire : c’est l’employé."
+  ],
+  "answer": "Le propriétaire est l’employeur ; le mécanicien est l’employé.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c61-1",
+    "status": "draft",
+    "idea": "Le patron (l’employeur) embauche et paie ; l’employé exécute le travail et reçoit un salaire.",
+    "vars": {},
+    "example": [
+     "L’employeur signe le contrat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-61-qui"
+    }
+   },
+   {
+    "id": "c61-2",
+    "status": "draft",
+    "idea": "Le chef d’équipe (contremaître) organise le travail des ouvriers.",
+    "vars": {},
+    "example": [
+     "Il surveille le chantier."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-61-chef"
+    }
+   },
+   {
+    "id": "c61-3",
+    "status": "draft",
+    "idea": "Embaucher, c’est engager ; licencier, c’est renvoyer.",
+    "vars": {},
+    "example": [
+     "L’usine a embauché vingt ouvriers."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-61-mot-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "prompt": "Associe chaque mot à sa définition.",
+     "pool": [
+      {
+       "left": "embaucher",
+       "right": "engager un travailleur"
+      },
+      {
+       "left": "licencier",
+       "right": "renvoyer un travailleur"
+      },
+      {
+       "left": "le salaire",
+       "right": "l’argent payé pour le travail"
+      },
+      {
+       "left": "la grève",
+       "right": "l’arrêt collectif du travail pour réclamer"
+      },
+      {
+       "left": "une promotion",
+       "right": "monter à un rang plus haut"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-61-qui",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui embauche les travailleurs ?",
+       "r": "l’employeur",
+       "w": [
+        "le stagiaire",
+        "le client",
+        "l’apprenti"
+       ],
+       "e": [
+        "Il apprend le métier.",
+        "Il achète.",
+        "Il apprend le métier."
+       ],
+       "y": "L’employeur (le patron)."
+      },
+      {
+       "q": "Qui reçoit un salaire pour son travail ?",
+       "r": "l’employé",
+       "w": [
+        "le client",
+        "le fournisseur",
+        "l’acheteur"
+       ],
+       "e": [
+        "Il paie.",
+        "Il vend des marchandises.",
+        "Il paie."
+       ],
+       "y": "L’employé (le salarié)."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-61-chef",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "le patron",
+       "le directeur",
+       "le chef d’équipe",
+       "l’ouvrier",
+       "le stagiaire"
+      ]
+     ]
+    }
+   },
+   "prompt": "Range du rang le plus haut au plus bas.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-61-mot",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "embaucher",
+     "right": "engager un travailleur"
+    },
+    {
+     "left": "licencier",
+     "right": "renvoyer un travailleur"
+    },
+    {
+     "left": "le salaire",
+     "right": "l’argent payé pour le travail"
+    },
+    {
+     "left": "la grève",
+     "right": "l’arrêt collectif du travail pour réclamer"
+    },
+    {
+     "left": "une promotion",
+     "right": "monter à un rang plus haut"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-61-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le patron embauche.",
+      "truth": "true"
+     },
+     {
+      "text": "L’employé reçoit un salaire.",
+      "truth": "true"
+     },
+     {
+      "text": "Le stagiaire apprend le métier.",
+      "truth": "true"
+     },
+     {
+      "text": "Le contremaître organise le travail.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Licencier veut dire engager.",
+      "truth": "false",
+      "explain": "Licencier veut dire renvoyer."
+     },
+     {
+      "text": "Le stagiaire est le patron de l’entreprise.",
+      "truth": "false",
+      "explain": "Il apprend le métier."
+     },
+     {
+      "text": "Le salaire est payé par l’employé au patron.",
+      "truth": "false",
+      "explain": "C’est l’employeur qui paie le salaire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

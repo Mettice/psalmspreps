@@ -1,9 +1,28 @@
 {
-  "_note": "Sources for Form 2 French (Batch FR2-1, Term 1, rows 1–15 and 18–32). Verb forms and agreements are computed by src/engine/lib/french2.js from an authored table; everything else is authored. A French teacher must check it (TR-Z items).",
-  "lecture": {"ref": "Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé)", "checked": "Original texts, not copied from a book. Standard school French; not opened online for this batch (2026-10-18). A French teacher decides (TR-Z03)."},
-  "vocabulaire": {"ref": "Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement", "checked": "Standard school French and general health knowledge; not opened online for this batch (2026-10-18). A French teacher decides (TR-Z03)."},
-  "conjugaison": {"ref": "Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant)", "checked": "Forms computed by french2.js from the authored table and checked in tests-js/french2.test.js against known answers; the table itself must be checked by a French teacher (TR-Z01)."},
-  "grammaire": {"ref": "Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables)", "checked": "Standard French grammar rules (Grevisse, usage scolaire); the agreements are computed from the authored table in french2.js (TR-Z02)."},
-  "orthographe": {"ref": "Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont", "checked": "Standard school French; the row « Le son /p/ et /φ/ » is read as p and ph (inference, TR-Z04)."},
-  "expression": {"ref": "Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux)", "checked": "Method lessons written for the app; oral rows are taught as preparation, since the app cannot hear the pupil (TR-Z05)."}
+ "_note": "Sources for Form 2 French (Batches FR2-1 and FR2-2, Term 1 rows 1–15 and 18–32, Term 2 rows 36–52 and 54–68). Verb forms and agreements are computed by src/engine/lib/french2.js from an authored table; everything else is authored. A French teacher must check it (TR-Z items).",
+ "lecture": {
+  "ref": "Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé)",
+  "checked": "Original texts, not copied from a book. Standard school French; not opened online for this batch (2026-10-18). A French teacher decides (TR-Z03)."
+ },
+ "vocabulaire": {
+  "ref": "Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement",
+  "checked": "Standard school French and general health knowledge; not opened online for this batch (2026-10-18). A French teacher decides (TR-Z03)."
+ },
+ "conjugaison": {
+  "ref": "Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant)",
+  "checked": "Forms computed by french2.js from the authored table and checked in tests-js/french2.test.js against known answers; the table itself must be checked by a French teacher (TR-Z01).",
+  "supports": " Term 2: futur proche, futur simple (with the irregular stems), impératif of the 2nd group, passé composé with être and agreement; envoyer and recevoir added to the verb table."
+ },
+ "grammaire": {
+  "ref": "Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables)",
+  "checked": "Standard French grammar rules (Grevisse, usage scolaire); the agreements are computed from the authored table in french2.js (TR-Z02)."
+ },
+ "orthographe": {
+  "ref": "Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont",
+  "checked": "Standard school French; the row « Le son /p/ et /φ/ » is read as p and ph (inference, TR-Z04)."
+ },
+ "expression": {
+  "ref": "Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux)",
+  "checked": "Method lessons written for the app; oral rows are taught as preparation, since the app cannot hear the pupil (TR-Z05)."
+ }
 }

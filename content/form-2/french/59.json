@@ -1,0 +1,404 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 59,
+ "language": "fr",
+ "prerequisites": [
+  41
+ ],
+ "skills": [
+  {
+   "id": "fr2-59",
+   "name": "Construire un court paragraphe"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un paragraphe est un groupe de phrases qui développent une seule idée. Il commence par un retrait (on laisse un petit espace) et une majuscule.\nPlan d’un court paragraphe :\n1. une phrase d’introduction qui annonce l’idée : « Le métier de mon père est très utile. »\n2. deux ou trois phrases qui expliquent ou donnent des exemples, reliées par d’abord, ensuite, de plus, par exemple ;\n3. une phrase de conclusion : « C’est pourquoi j’admire son travail. »\nLes mots de liaison : d’abord, ensuite, puis, de plus, en effet, par exemple, enfin, donc, c’est pourquoi.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Remets dans l’ordre : (a) C’est pourquoi j’aime ce métier. (b) Le métier d’infirmière est utile. (c) D’abord, elle soigne les malades. (d) Ensuite, elle conseille les familles.",
+  "steps": [
+   "L’introduction annonce l’idée : (b).",
+   "Les explications avec d’abord, ensuite : (c), (d). La conclusion avec « c’est pourquoi » : (a)."
+  ],
+  "answer": "b, c, d, a",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c59-1",
+    "status": "draft",
+    "idea": "Un paragraphe développe une seule idée : introduction, explications, conclusion.",
+    "vars": {},
+    "example": [
+     "Le métier de maçon est difficile."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-59-plan"
+    }
+   },
+   {
+    "id": "c59-2",
+    "status": "draft",
+    "idea": "Les mots de liaison organisent les idées : d’abord, ensuite, de plus, enfin.",
+    "vars": {},
+    "example": [
+     "D’abord, il se lève tôt. Ensuite, il prend son outil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-59-lien"
+    }
+   },
+   {
+    "id": "c59-3",
+    "status": "draft",
+    "idea": "La conclusion commence souvent par : c’est pourquoi, donc, enfin.",
+    "vars": {},
+    "example": [
+     "C’est pourquoi je veux devenir médecin."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-59-concl-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase peut conclure un paragraphe sur le métier d’enseignant ?",
+         "r": "C’est pourquoi les enseignants méritent notre respect.",
+         "w": [
+          "D’abord, l’enseignant prépare ses leçons.",
+          "Le métier d’enseignant est utile.",
+          "Par exemple, il corrige les cahiers."
+         ],
+         "e": [
+          "C’est une explication.",
+          "C’est une introduction.",
+          "C’est un exemple."
+         ],
+         "y": "« C’est pourquoi » conclut."
+        },
+        {
+         "q": "Quelle phrase peut introduire un paragraphe ?",
+         "r": "Le métier de pêcheur est difficile.",
+         "w": [
+          "Enfin, il rentre très tard.",
+          "C’est pourquoi je l’admire.",
+          "Ensuite, il vend le poisson."
+         ],
+         "e": [
+          "« Enfin » termine.",
+          "C’est une conclusion.",
+          "C’est une explication."
+         ],
+         "y": "Elle annonce l’idée."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-59-plan",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Le métier de cultivateur est important.",
+       "D’abord, il nourrit la population.",
+       "Ensuite, il donne du travail à beaucoup de jeunes.",
+       "C’est pourquoi il faut respecter les cultivateurs."
+      ],
+      [
+       "J’aimerais devenir mécanicien.",
+       "D’abord, j’aime réparer les objets.",
+       "De plus, les voitures me passionnent.",
+       "C’est pourquoi je veux apprendre ce métier."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le paragraphe dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-59-lien",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___, le maçon prépare le ciment. Ensuite, il monte le mur.",
+       "a": "D’abord",
+       "w": [
+        "Enfin",
+        "Donc"
+       ],
+       "e": [
+        "« Enfin » termine.",
+        "« Donc » annonce une conséquence."
+       ]
+      },
+      {
+       "s": "Le commerce rapporte de l’argent. ___, il crée des emplois.",
+       "a": "De plus",
+       "w": [
+        "D’abord",
+        "Mais"
+       ],
+       "e": [
+        "On ajoute une idée, ce n’est pas le début.",
+        "Il n’y a pas d’opposition."
+       ]
+      },
+      {
+       "s": "Mon père travaille dur. ___, notre famille vit bien.",
+       "a": "C’est pourquoi",
+       "w": [
+        "D’abord",
+        "Par exemple"
+       ],
+       "e": [
+        "On conclut ici.",
+        "Ce n’est pas un exemple."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot de liaison qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-59-concl",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase peut conclure un paragraphe sur le métier d’enseignant ?",
+       "r": "C’est pourquoi les enseignants méritent notre respect.",
+       "w": [
+        "D’abord, l’enseignant prépare ses leçons.",
+        "Le métier d’enseignant est utile.",
+        "Par exemple, il corrige les cahiers."
+       ],
+       "e": [
+        "C’est une explication.",
+        "C’est une introduction.",
+        "C’est un exemple."
+       ],
+       "y": "« C’est pourquoi » conclut."
+      },
+      {
+       "q": "Quelle phrase peut introduire un paragraphe ?",
+       "r": "Le métier de pêcheur est difficile.",
+       "w": [
+        "Enfin, il rentre très tard.",
+        "C’est pourquoi je l’admire.",
+        "Ensuite, il vend le poisson."
+       ],
+       "e": [
+        "« Enfin » termine.",
+        "C’est une conclusion.",
+        "C’est une explication."
+       ],
+       "y": "Elle annonce l’idée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-59-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour écrire un paragraphe est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Un paragraphe développe une seule idée.",
+      "truth": "true"
+     },
+     {
+      "text": "On commence par une phrase d’introduction.",
+      "truth": "true"
+     },
+     {
+      "text": "On utilise des mots de liaison.",
+      "truth": "true"
+     },
+     {
+      "text": "On termine par une conclusion.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un paragraphe doit parler de dix idées différentes.",
+      "truth": "false",
+      "explain": "Il développe une seule idée."
+     },
+     {
+      "text": "On commence la conclusion par « d’abord ».",
+      "truth": "false",
+      "explain": "« D’abord » commence les explications."
+     },
+     {
+      "text": "On écrit sans majuscule ni point.",
+      "truth": "false",
+      "explain": "Chaque phrase a une majuscule et un point."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

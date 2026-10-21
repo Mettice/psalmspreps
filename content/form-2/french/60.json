@@ -1,0 +1,437 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 60,
+ "language": "fr",
+ "prerequisites": [
+  36
+ ],
+ "skills": [
+  {
+   "id": "fr2-60",
+   "name": "Les adjectifs à formes particulières : beau, nouveau, vieux, fou"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Certains adjectifs ont une forme spéciale devant un nom masculin singulier qui commence par une voyelle ou un h muet :\n• beau → bel : un beau pagne, mais un bel arbre, un bel homme ;\n• nouveau → nouvel : un nouveau métier, mais un nouvel emploi ;\n• vieux → vieil : un vieux tailleur, mais un vieil ouvrier ;\n• fou → fol : un fou rire, mais un fol espoir.\nLeurs autres formes :\nbeau, belle, beaux, belles ; nouveau, nouvelle, nouveaux, nouvelles ; vieux, vieille, vieux, vieilles ; fou, folle, fous, folles.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète avec « nouveau » : « Mon frère a un ___ emploi au port. »",
+  "steps": [
+   "« emploi » est masculin singulier et commence par une voyelle.",
+   "Devant une voyelle, « nouveau » devient « nouvel »."
+  ],
+  "answer": "Mon frère a un nouvel emploi au port.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c60-1",
+    "status": "draft",
+    "idea": "Devant une voyelle ou un h muet : bel, nouvel, vieil, fol.",
+    "vars": {},
+    "example": [
+     "un bel outil, un vieil homme"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-60-bel"
+    }
+   },
+   {
+    "id": "c60-2",
+    "status": "draft",
+    "idea": "Au féminin : belle, nouvelle, vieille, folle.",
+    "vars": {},
+    "example": [
+     "une nouvelle usine"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-60-fem"
+    }
+   },
+   {
+    "id": "c60-3",
+    "status": "draft",
+    "idea": "Au pluriel masculin : beaux, nouveaux, vieux, fous.",
+    "vars": {},
+    "example": [
+     "de beaux métiers"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-60-pl-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Ce sont de ___ métiers.",
+         "a": "beaux",
+         "w": [
+          "beaus",
+          "bels"
+         ],
+         "e": [
+          "Au pluriel : beaux.",
+          "Au pluriel : beaux."
+         ]
+        },
+        {
+         "s": "Les ___ ouvriers arrivent demain.",
+         "a": "nouveaux",
+         "w": [
+          "nouvels",
+          "nouveaus"
+         ],
+         "e": [
+          "Au pluriel : nouveaux.",
+          "Au pluriel : nouveaux."
+         ]
+        },
+        {
+         "s": "Ces ___ outils sont encore utiles.",
+         "a": "vieux",
+         "w": [
+          "vieils",
+          "vieuxs"
+         ],
+         "e": [
+          "« vieux » ne change pas au masculin pluriel.",
+          "« vieux » ne change pas."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne forme.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-60-bel",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le menuisier a fabriqué un ___ meuble.",
+       "a": "beau",
+       "w": [
+        "bel",
+        "belle"
+       ],
+       "e": [
+        "« meuble » commence par une consonne : beau.",
+        "« meuble » est masculin."
+       ]
+      },
+      {
+       "s": "Mon oncle a trouvé un ___ emploi.",
+       "a": "nouvel",
+       "w": [
+        "nouveau",
+        "nouvelle"
+       ],
+       "e": [
+        "Devant une voyelle : nouvel.",
+        "« emploi » est masculin."
+       ]
+      },
+      {
+       "s": "Un ___ homme vend des arachides.",
+       "a": "vieil",
+       "w": [
+        "vieux",
+        "vieille"
+       ],
+       "e": [
+        "Devant un h muet : vieil.",
+        "« homme » est masculin."
+       ]
+      },
+      {
+       "s": "Quel ___ arbre devant la mairie !",
+       "a": "bel",
+       "w": [
+        "beau",
+        "belle"
+       ],
+       "e": [
+        "Devant une voyelle : bel.",
+        "« arbre » est masculin."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-60-fem",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Notre ville a une ___ usine de savon.",
+       "a": "nouvelle",
+       "w": [
+        "nouvel",
+        "nouveau"
+       ],
+       "e": [
+        "« usine » est féminin : nouvelle.",
+        "« usine » est féminin."
+       ]
+      },
+      {
+       "s": "La ___ couturière connaît bien son métier.",
+       "a": "vieille",
+       "w": [
+        "vieil",
+        "vieux"
+       ],
+       "e": [
+        "Au féminin : vieille.",
+        "Au féminin : vieille."
+       ]
+      },
+      {
+       "s": "Elle porte une ___ robe.",
+       "a": "belle",
+       "w": [
+        "bel",
+        "beau"
+       ],
+       "e": [
+        "Au féminin : belle.",
+        "Au féminin : belle."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-60-pl",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ce sont de ___ métiers.",
+       "a": "beaux",
+       "w": [
+        "beaus",
+        "bels"
+       ],
+       "e": [
+        "Au pluriel : beaux.",
+        "Au pluriel : beaux."
+       ]
+      },
+      {
+       "s": "Les ___ ouvriers arrivent demain.",
+       "a": "nouveaux",
+       "w": [
+        "nouvels",
+        "nouveaus"
+       ],
+       "e": [
+        "Au pluriel : nouveaux.",
+        "Au pluriel : nouveaux."
+       ]
+      },
+      {
+       "s": "Ces ___ outils sont encore utiles.",
+       "a": "vieux",
+       "w": [
+        "vieils",
+        "vieuxs"
+       ],
+       "e": [
+        "« vieux » ne change pas au masculin pluriel.",
+        "« vieux » ne change pas."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-60-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Il a un nouvel emploi.",
+      "truth": "true"
+     },
+     {
+      "text": "C’est un bel arbre.",
+      "truth": "true"
+     },
+     {
+      "text": "Une vieille dame vend du pain.",
+      "truth": "true"
+     },
+     {
+      "text": "Ce sont de beaux pagnes.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Il a un nouveau emploi.",
+      "truth": "false",
+      "explain": "Devant une voyelle : un nouvel emploi."
+     },
+     {
+      "text": "C’est un vieux homme.",
+      "truth": "false",
+      "explain": "Devant un h muet : un vieil homme."
+     },
+     {
+      "text": "Ce sont de bels outils.",
+      "truth": "false",
+      "explain": "Au pluriel : de beaux outils."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -149,3 +149,23 @@ test("intensif helpers: naive forms, tenses, adverbs", () => {
   for (const a of f.fr2AdvList().filter((a) => !a.endsWith("e"))) assert.notEqual(f.fr2AdvNaive(a), f.fr2Adverb(a), a);
 });
 
+
+test("Term 2 tenses: futur simple, conditionnel, futur proche, plus-que-parfait, impératif, subjonctif", () => {
+  assert.equal(f.fr2FuturSimple("appeler", 0), "appellerai");
+  assert.equal(f.fr2FuturSimple("acheter", 6), "achèteront");
+  assert.equal(f.fr2FuturSimple("voir", 4), "verrons");
+  assert.equal(f.fr2FuturSimple("envoyer", 2), "enverra");
+  assert.equal(f.fr2Conditionnel("être", 0), "serais");
+  assert.equal(f.fr2Conditionnel("finir", 6), "finiraient");
+  assert.equal(f.fr2FuturProche("finir", 6), "ils vont finir");
+  assert.equal(f.fr2PlusQueParfait("aller", 7), "elles étaient allées");
+  assert.equal(f.fr2PlusQueParfait("manger", 0), "j’avais mangé");
+  assert.deepEqual([0, 1, 2].map((k) => f.fr2Imperatif("manger", k)), ["mange", "mangeons", "mangez"]);
+  assert.deepEqual([0, 1, 2].map((k) => f.fr2Imperatif("finir", k)), ["finis", "finissons", "finissez"]);
+  assert.equal(f.fr2Imperatif("aller", 0), "va");
+  assert.equal(f.fr2Que(0, f.fr2Subjonctif("avoir", 0)), "que j’aie");
+  assert.equal(f.fr2Que(2, f.fr2Subjonctif("finir", 2)), "qu’il finisse");
+  assert.equal(f.fr2Subjonctif("prendre", 4), "prenions");
+  assert.equal(f.fr2Subjonctif("faire", 6), "fassent");
+  assert.equal(f.fr2Present("recevoir", 6), "reçoivent");
+});

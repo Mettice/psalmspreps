@@ -1,0 +1,460 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 45,
+ "language": "fr",
+ "prerequisites": [
+  42
+ ],
+ "skills": [
+  {
+   "id": "fr2-45",
+   "name": "Lire un texte sur la vie citoyenne"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "« La carte d’identité de Nfor »\nNfor vient d’avoir dix-huit ans. Ce matin, il va au commissariat avec son acte de naissance et deux photos. « Je veux établir ma carte nationale d’identité », dit-il au policier. On prend ses empreintes digitales et on lui donne un récépissé. « Revenez dans quelques semaines », dit le policier.\nSur le chemin du retour, Nfor passe devant la mairie. Il voit une affiche : « Jeunes citoyens, inscrivez-vous sur les listes électorales ! » Il sourit : bientôt, il pourra voter. Le soir, il raconte sa journée à son père. « Être citoyen, ce n’est pas seulement avoir des droits, dit son père. C’est aussi respecter la loi, payer l’impôt et protéger son pays. »\n(texte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Pourquoi Nfor va-t-il au commissariat ?",
+  "steps": [
+   "Le texte dit qu’il vient d’avoir dix-huit ans.",
+   "Il dit au policier : « Je veux établir ma carte nationale d’identité. »"
+  ],
+  "answer": "Pour établir sa carte nationale d’identité, car il a dix-huit ans.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c45-1",
+    "status": "draft",
+    "idea": "Pour comprendre un texte, on cherche qui, quoi, où, quand et pourquoi.",
+    "vars": {},
+    "example": [
+     "Qui ? Nfor. Où ? Au commissariat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-45-comp"
+    }
+   },
+   {
+    "id": "c45-2",
+    "status": "draft",
+    "idea": "Le récépissé est un papier qui prouve qu’on a déposé une demande.",
+    "vars": {},
+    "example": [
+     "On le garde jusqu’à recevoir la carte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-45-mot"
+    }
+   },
+   {
+    "id": "c45-3",
+    "status": "draft",
+    "idea": "La leçon du texte : un citoyen a des droits et des devoirs.",
+    "vars": {},
+    "example": [
+     "Voter est un droit ; payer l’impôt est un devoir."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-45-idee-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est l’idée principale ?",
+         "r": "Devenir citoyen, c’est avoir des droits et des devoirs.",
+         "w": [
+          "Les policiers sont méchants.",
+          "Il faut toujours aller à la mairie le soir.",
+          "Les photos coûtent cher."
+         ],
+         "e": [
+          "Ce n’est pas dit.",
+          "Ce n’est pas l’idée.",
+          "Ce n’est pas dit."
+         ],
+         "y": "Le père le dit à la fin."
+        },
+        {
+         "q": "pourquoi Nfor sourit-il devant l’affiche ?",
+         "r": "parce qu’il pourra bientôt voter",
+         "w": [
+          "parce qu’il a perdu sa carte",
+          "parce qu’il est malade",
+          "parce qu’il n’aime pas la mairie"
+         ],
+         "e": [
+          "Ce n’est pas dans le texte.",
+          "Ce n’est pas dans le texte.",
+          "Ce n’est pas dans le texte."
+         ],
+         "y": "« Bientôt, il pourra voter. »"
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « La carte d’identité de Nfor » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-45-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel âge a Nfor ?",
+       "r": "dix-huit ans",
+       "w": [
+        "dix ans",
+        "quinze ans",
+        "vingt-cinq ans"
+       ],
+       "e": [
+        "Le texte dit dix-huit ans.",
+        "Le texte dit dix-huit ans.",
+        "Le texte dit dix-huit ans."
+       ],
+       "y": "« Nfor vient d’avoir dix-huit ans. »"
+      },
+      {
+       "q": "qu’apporte-t-il au commissariat ?",
+       "r": "son acte de naissance et deux photos",
+       "w": [
+        "son passeport",
+        "son bulletin de notes",
+        "de l’argent seulement"
+       ],
+       "e": [
+        "Il n’a pas de passeport.",
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte."
+       ],
+       "y": "Le texte le dit au début."
+      },
+      {
+       "q": "que voit-il devant la mairie ?",
+       "r": "une affiche sur les listes électorales",
+       "w": [
+        "un accident",
+        "un marché",
+        "un match de football"
+       ],
+       "e": [
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte."
+       ],
+       "y": "« Jeunes citoyens, inscrivez-vous sur les listes électorales ! »"
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « La carte d’identité de Nfor » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-45-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que veut dire « un récépissé » ?",
+       "r": "un papier qui prouve qu’on a déposé une demande",
+       "w": [
+        "une carte d’identité",
+        "une photo",
+        "une amende"
+       ],
+       "e": [
+        "La carte viendra plus tard.",
+        "Ce n’est pas une photo.",
+        "Ce n’est pas une punition."
+       ],
+       "y": "On le garde en attendant la carte."
+      },
+      {
+       "q": "que veut dire « les empreintes digitales » ?",
+       "r": "les marques des doigts",
+       "w": [
+        "les noms des parents",
+        "la date de naissance",
+        "la signature du policier"
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Digital vient de « doigt »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « La carte d’identité de Nfor » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-45-idee",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est l’idée principale ?",
+       "r": "Devenir citoyen, c’est avoir des droits et des devoirs.",
+       "w": [
+        "Les policiers sont méchants.",
+        "Il faut toujours aller à la mairie le soir.",
+        "Les photos coûtent cher."
+       ],
+       "e": [
+        "Ce n’est pas dit.",
+        "Ce n’est pas l’idée.",
+        "Ce n’est pas dit."
+       ],
+       "y": "Le père le dit à la fin."
+      },
+      {
+       "q": "pourquoi Nfor sourit-il devant l’affiche ?",
+       "r": "parce qu’il pourra bientôt voter",
+       "w": [
+        "parce qu’il a perdu sa carte",
+        "parce qu’il est malade",
+        "parce qu’il n’aime pas la mairie"
+       ],
+       "e": [
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte."
+       ],
+       "y": "« Bientôt, il pourra voter. »"
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « La carte d’identité de Nfor » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-45-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Quelle phrase ne correspond pas au texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Nfor a dix-huit ans.",
+      "truth": "true"
+     },
+     {
+      "text": "On prend ses empreintes digitales.",
+      "truth": "true"
+     },
+     {
+      "text": "Il voit une affiche devant la mairie.",
+      "truth": "true"
+     },
+     {
+      "text": "Son père parle des devoirs du citoyen.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nfor reçoit sa carte le jour même.",
+      "truth": "false",
+      "explain": "Le policier dit de revenir dans quelques semaines."
+     },
+     {
+      "text": "Nfor va à l’hôpital.",
+      "truth": "false",
+      "explain": "Il va au commissariat."
+     },
+     {
+      "text": "Le père dit que le citoyen n’a que des droits.",
+      "truth": "false",
+      "explain": "Il dit qu’il a aussi des devoirs."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

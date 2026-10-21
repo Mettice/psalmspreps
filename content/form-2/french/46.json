@@ -1,0 +1,393 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 46,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-46",
+   "name": "Le code de la route"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le code de la route est l’ensemble des règles que doivent respecter les piétons, les cyclistes, les motocyclistes et les conducteurs.\nLes signaux :\n• les feux tricolores : rouge = s’arrêter ; orange = ralentir et s’arrêter si possible ; vert = passer ;\n• les panneaux : le panneau « stop », le sens interdit, la limitation de vitesse, le passage pour piétons, l’école ;\n• le passage pour piétons (les bandes blanches).\nRègles de base : marcher sur le trottoir ou au bord de la route, face aux voitures ; traverser au passage piéton après avoir regardé à gauche, à droite, puis à gauche ; porter un casque à moto ; mettre la ceinture de sécurité ; ne pas téléphoner en conduisant ; ne pas conduire après avoir bu de l’alcool.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le feu est orange quand un taxi arrive. Que doit faire le chauffeur ?",
+  "steps": [
+   "Le feu orange annonce le rouge.",
+   "Il doit ralentir et s’arrêter s’il peut le faire sans danger."
+  ],
+  "answer": "Ralentir et s’arrêter si possible.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c46-1",
+    "status": "draft",
+    "idea": "Rouge : on s’arrête ; orange : on ralentit ; vert : on passe.",
+    "vars": {},
+    "example": [
+     "Les feux tricolores."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-46-feu"
+    }
+   },
+   {
+    "id": "c46-2",
+    "status": "draft",
+    "idea": "Le piéton traverse au passage piéton après avoir regardé à gauche, à droite, puis à gauche.",
+    "vars": {},
+    "example": [
+     "Les bandes blanches."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-46-pieton"
+    }
+   },
+   {
+    "id": "c46-3",
+    "status": "draft",
+    "idea": "Casque à moto, ceinture de sécurité, pas de téléphone ni d’alcool au volant.",
+    "vars": {},
+    "example": [
+     "Le casque protège la tête."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-46-regle-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Que doit porter un motocycliste ?",
+         "r": "un casque",
+         "w": [
+          "des lunettes de soleil seulement",
+          "un chapeau de paille",
+          "rien"
+         ],
+         "e": [
+          "Elles ne protègent pas la tête.",
+          "Il ne protège pas.",
+          "C’est dangereux."
+         ],
+         "y": "Le casque protège la tête."
+        },
+        {
+         "q": "Quel comportement est interdit au volant ?",
+         "r": "téléphoner en conduisant",
+         "w": [
+          "mettre la ceinture",
+          "respecter le feu rouge",
+          "ralentir près d’une école"
+         ],
+         "e": [
+          "C’est obligatoire.",
+          "C’est obligatoire.",
+          "C’est prudent."
+         ],
+         "y": "Le téléphone distrait le conducteur."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-46-feu",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque signal à son sens.",
+   "pool": [
+    {
+     "left": "le feu rouge",
+     "right": "s’arrêter"
+    },
+    {
+     "left": "le feu vert",
+     "right": "passer"
+    },
+    {
+     "left": "le feu orange",
+     "right": "ralentir"
+    },
+    {
+     "left": "le panneau « sens interdit »",
+     "right": "ne pas entrer dans la rue"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-46-pieton",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Où le piéton doit-il traverser la route ?",
+       "r": "au passage pour piétons",
+       "w": [
+        "au milieu d’un virage",
+        "entre deux camions",
+        "en courant n’importe où"
+       ],
+       "e": [
+        "On ne voit pas les voitures.",
+        "On est caché.",
+        "C’est dangereux."
+       ],
+       "y": "Les bandes blanches."
+      },
+      {
+       "q": "Avant de traverser, où faut-il regarder ?",
+       "r": "à gauche, à droite, puis encore à gauche",
+       "w": [
+        "seulement devant soi",
+        "seulement en haut",
+        "nulle part"
+       ],
+       "e": [
+        "Il faut regarder des deux côtés.",
+        "Ce n’est pas utile.",
+        "C’est dangereux."
+       ],
+       "y": "On vérifie les deux sens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-46-regle",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que doit porter un motocycliste ?",
+       "r": "un casque",
+       "w": [
+        "des lunettes de soleil seulement",
+        "un chapeau de paille",
+        "rien"
+       ],
+       "e": [
+        "Elles ne protègent pas la tête.",
+        "Il ne protège pas.",
+        "C’est dangereux."
+       ],
+       "y": "Le casque protège la tête."
+      },
+      {
+       "q": "Quel comportement est interdit au volant ?",
+       "r": "téléphoner en conduisant",
+       "w": [
+        "mettre la ceinture",
+        "respecter le feu rouge",
+        "ralentir près d’une école"
+       ],
+       "e": [
+        "C’est obligatoire.",
+        "C’est obligatoire.",
+        "C’est prudent."
+       ],
+       "y": "Le téléphone distrait le conducteur."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-46-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle règle est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Au feu rouge, on s’arrête.",
+      "truth": "true"
+     },
+     {
+      "text": "On met la ceinture de sécurité.",
+      "truth": "true"
+     },
+     {
+      "text": "On traverse au passage piéton.",
+      "truth": "true"
+     },
+     {
+      "text": "Le casque protège la tête.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Au feu orange, on accélère.",
+      "truth": "false",
+      "explain": "On ralentit et on s’arrête si possible."
+     },
+     {
+      "text": "On peut conduire après avoir bu de l’alcool.",
+      "truth": "false",
+      "explain": "L’alcool est interdit au volant."
+     },
+     {
+      "text": "Le piéton marche au milieu de la route.",
+      "truth": "false",
+      "explain": "Il marche sur le trottoir ou au bord."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

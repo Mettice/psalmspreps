@@ -1,0 +1,373 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 58,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-58",
+   "name": "Le futur proche"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le futur proche exprime une action qui va se passer bientôt.\nIl se forme avec le verbe aller au présent + l’infinitif du verbe :\nje vais travailler, tu vas finir, il va pleuvoir, nous allons partir, vous allez voir, ils vont vendre.\nMots qui l’accompagnent souvent : bientôt, tout à l’heure, dans un instant, ce soir, demain.\nÀ la forme négative, ne … pas entoure « aller » : « Je ne vais pas sortir. »\nAttention : le deuxième verbe reste à l’infinitif : « Nous allons manger » (et non « nous allons mangé »).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "travailler",
+   "p": 4
+  },
+  "problem": "Mets « {v} » au futur proche avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "« aller » au présent avec « {fr2Pronoun(p)} » : {fr2With(p, fr2Present('aller', p))}.",
+   "On ajoute l’infinitif : {fr2FuturProche(v, p)}."
+  ],
+  "answer": "{fr2FuturProche(v, p)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c58-1",
+    "status": "draft",
+    "idea": "Futur proche = aller au présent + infinitif.",
+    "vars": {},
+    "example": [
+     "Je vais travailler demain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-58-form"
+    }
+   },
+   {
+    "id": "c58-2",
+    "status": "draft",
+    "idea": "Le deuxième verbe reste à l’infinitif.",
+    "vars": {},
+    "example": [
+     "Nous allons manger (pas « mangé »)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-58-inf-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Demain, ___ (nous, vendre) nos légumes au marché.",
+         "v": "vendre",
+         "p": 4
+        },
+        {
+         "s": "Attention, ___ (il, pleuvoir) !",
+         "v": "pleuvoir",
+         "p": 2
+        },
+        {
+         "s": "Ce soir, ___ (je, finir) mon devoir.",
+         "v": "finir",
+         "p": 0
+        },
+        {
+         "s": "Bientôt, ___ (ils, ouvrir) une boutique.",
+         "v": "ouvrir",
+         "p": 6
+        },
+        {
+         "s": "Dans un instant, ___ (vous, voir) le directeur.",
+         "v": "voir",
+         "p": 5
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le verbe au futur proche.",
+     "text": "{X.s}",
+     "answer": "fr2FuturProche(X.v, X.p)",
+     "solution": [
+      "« aller » au présent + infinitif.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c58-3",
+    "status": "draft",
+    "idea": "À la forme négative, ne … pas entoure « aller ».",
+    "vars": {},
+    "example": [
+     "Il ne va pas pleuvoir."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-58-neg"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-58-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "jouer",
+      "travailler",
+      "finir",
+      "choisir",
+      "aller",
+      "venir",
+      "faire",
+      "prendre",
+      "voir",
+      "écrire",
+      "être",
+      "avoir",
+      "envoyer"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Mets « {v} » au futur proche avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2FuturProche(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2Present('aller', (p + 4) % 8) + ' ' + v)}",
+     "misconception": "aller"
+    },
+    {
+     "text": "{fr2With(p, fr2Present('aller', p) + ' ' + fr2Participle(v))}",
+     "misconception": "pp"
+    },
+    {
+     "text": "{fr2With(p, fr2FuturSimple(v, p))}",
+     "misconception": "fs"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "aller",
+     "explain": "« aller » doit s’accorder avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "pp",
+     "explain": "Le deuxième verbe reste à l’infinitif."
+    },
+    {
+     "id": "fs",
+     "explain": "C’est le futur simple ; le futur proche se fait avec « aller »."
+    }
+   ],
+   "solution": [
+    "Futur proche : aller au présent ({fr2Present('aller', p)}) + infinitif.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-58-inf",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Demain, ___ (nous, vendre) nos légumes au marché.",
+       "v": "vendre",
+       "p": 4
+      },
+      {
+       "s": "Attention, ___ (il, pleuvoir) !",
+       "v": "pleuvoir",
+       "p": 2
+      },
+      {
+       "s": "Ce soir, ___ (je, finir) mon devoir.",
+       "v": "finir",
+       "p": 0
+      },
+      {
+       "s": "Bientôt, ___ (ils, ouvrir) une boutique.",
+       "v": "ouvrir",
+       "p": 6
+      },
+      {
+       "s": "Dans un instant, ___ (vous, voir) le directeur.",
+       "v": "voir",
+       "p": 5
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au futur proche.",
+   "text": "{X.s}",
+   "answer": "fr2FuturProche(X.v, X.p)",
+   "solution": [
+    "« aller » au présent + infinitif.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-58-neg",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase au futur proche est à la forme négative correcte ?",
+       "r": "Je ne vais pas sortir.",
+       "w": [
+        "Je vais ne pas sortir pas.",
+        "Je ne vais sortir pas.",
+        "Ne je vais pas sortir."
+       ],
+       "e": [
+        "La négation est mal placée.",
+        "« pas » va après « vais ».",
+        "« ne » va après le sujet."
+       ],
+       "y": "ne … pas entoure aller."
+      },
+      {
+       "q": "Quelle phrase est au futur proche ?",
+       "r": "Nous allons visiter l’usine.",
+       "w": [
+        "Nous avons visité l’usine.",
+        "Nous visitions l’usine.",
+        "Nous visiterons l’usine."
+       ],
+       "e": [
+        "C’est le passé composé.",
+        "C’est l’imparfait.",
+        "C’est le futur simple."
+       ],
+       "y": "aller + infinitif."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-58-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Je vais travailler demain.",
+      "truth": "true"
+     },
+     {
+      "text": "Ils vont vendre du maïs.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous allons partir bientôt.",
+      "truth": "true"
+     },
+     {
+      "text": "Tu ne vas pas tomber.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nous allons mangé au restaurant.",
+      "truth": "false",
+      "explain": "Le deuxième verbe reste à l’infinitif : manger."
+     },
+     {
+      "text": "Il vais pleuvoir.",
+      "truth": "false",
+      "explain": "Avec « il » : il va pleuvoir."
+     },
+     {
+      "text": "Vous allez finissez à midi.",
+      "truth": "false",
+      "explain": "Après « allez », l’infinitif : finir."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,440 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 48,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-48",
+   "name": "Les loisirs et les jeux"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les loisirs sont ce qu’on fait pour se reposer et s’amuser pendant le temps libre : le week-end, les vacances, après l’école.\n• Les sports : le football, le handball, le basket-ball, la natation, la lutte traditionnelle, le cyclisme.\n• Les jeux : le songo, les dames, le ludo, les cartes, les billes, la corde à sauter, le cache-cache.\n• Les activités culturelles : lire, chanter, danser, regarder un film, visiter un musée, aller au zoo.\nVerbes utiles : se détendre, s’amuser, se reposer, pratiquer un sport, jouer, gagner, perdre, participer.\nLes loisirs sont bons pour la santé, la détente et l’amitié, mais il faut d’abord faire ses devoirs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Classe ces loisirs : la natation, le songo, la danse.",
+  "steps": [
+   "La natation est un sport.",
+   "Le songo est un jeu de société ; la danse est une activité culturelle."
+  ],
+  "answer": "Sport : la natation ; jeu : le songo ; activité culturelle : la danse.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c48-1",
+    "status": "draft",
+    "idea": "Les loisirs sont les activités du temps libre pour se reposer et s’amuser.",
+    "vars": {},
+    "example": [
+     "Le week-end, je fais du vélo."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-48-quoi"
+    }
+   },
+   {
+    "id": "c48-2",
+    "status": "draft",
+    "idea": "On distingue les sports, les jeux et les activités culturelles.",
+    "vars": {},
+    "example": [
+     "Le cyclisme, le ludo, la lecture."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-48-classe"
+    }
+   },
+   {
+    "id": "c48-3",
+    "status": "draft",
+    "idea": "Verbes : se détendre, s’amuser, pratiquer, participer.",
+    "vars": {},
+    "example": [
+     "Nous participons au tournoi."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-48-verbe-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le dimanche, mon père aime se ___ dans son jardin.",
+         "a": "reposer",
+         "w": [
+          "fatiguer",
+          "battre"
+         ],
+         "e": [
+          "Le loisir sert à se reposer.",
+          "Ce n’est pas un loisir."
+         ]
+        },
+        {
+         "s": "Notre équipe va ___ au tournoi de handball.",
+         "a": "participer",
+         "w": [
+          "perdre toujours",
+          "dormir"
+         ],
+         "e": [
+          "On ne sait pas encore.",
+          "Ce n’est pas le sens."
+         ]
+        },
+        {
+         "s": "Les enfants ___ bien pendant la fête.",
+         "a": "s’amusent",
+         "w": [
+          "s’ennuient",
+          "travaillent"
+         ],
+         "e": [
+          "La fête sert à s’amuser.",
+          "Ce n’est pas un loisir."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le verbe qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-48-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que sont les loisirs ?",
+       "r": "les activités du temps libre",
+       "w": [
+        "les travaux obligatoires",
+        "les leçons de mathématiques",
+        "les maladies"
+       ],
+       "e": [
+        "Les loisirs sont choisis.",
+        "Ce sont des cours.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "On les fait pour se détendre."
+      },
+      {
+       "q": "Quand pratique-t-on surtout ses loisirs ?",
+       "r": "pendant le temps libre",
+       "w": [
+        "pendant un examen",
+        "pendant le cours",
+        "pendant la nuit à l’école"
+       ],
+       "e": [
+        "Ce n’est pas le moment.",
+        "Ce n’est pas le moment.",
+        "Ce n’est pas le moment."
+       ],
+       "y": "Le week-end, les vacances."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-48-classe",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "l": "la natation",
+       "a": "un sport",
+       "w": [
+        "un jeu de société",
+        "une activité culturelle"
+       ]
+      },
+      {
+       "l": "le songo",
+       "a": "un jeu de société",
+       "w": [
+        "un sport",
+        "une activité culturelle"
+       ]
+      },
+      {
+       "l": "la visite d’un musée",
+       "a": "une activité culturelle",
+       "w": [
+        "un sport",
+        "un jeu de société"
+       ]
+      },
+      {
+       "l": "le cyclisme",
+       "a": "un sport",
+       "w": [
+        "un jeu de société",
+        "une activité culturelle"
+       ]
+      },
+      {
+       "l": "les dames",
+       "a": "un jeu de société",
+       "w": [
+        "un sport",
+        "une activité culturelle"
+       ]
+      },
+      {
+       "l": "la lecture",
+       "a": "une activité culturelle",
+       "w": [
+        "un sport",
+        "un jeu de société"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "« {X.l} » est…",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "cl"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "cl"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "cl",
+     "explain": "Demande-toi : fait-on bouger son corps (sport), joue-t-on avec des règles et des pions (jeu), ou découvre-t-on un art (culture) ?"
+    }
+   ],
+   "solution": [
+    "Les sports font bouger le corps ; les jeux ont des règles et des pions ou des cartes ; les activités culturelles touchent aux arts et au savoir.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-48-verbe",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le dimanche, mon père aime se ___ dans son jardin.",
+       "a": "reposer",
+       "w": [
+        "fatiguer",
+        "battre"
+       ],
+       "e": [
+        "Le loisir sert à se reposer.",
+        "Ce n’est pas un loisir."
+       ]
+      },
+      {
+       "s": "Notre équipe va ___ au tournoi de handball.",
+       "a": "participer",
+       "w": [
+        "perdre toujours",
+        "dormir"
+       ],
+       "e": [
+        "On ne sait pas encore.",
+        "Ce n’est pas le sens."
+       ]
+      },
+      {
+       "s": "Les enfants ___ bien pendant la fête.",
+       "a": "s’amusent",
+       "w": [
+        "s’ennuient",
+        "travaillent"
+       ],
+       "e": [
+        "La fête sert à s’amuser.",
+        "Ce n’est pas un loisir."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le verbe qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-48-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le songo est un jeu de société.",
+      "truth": "true"
+     },
+     {
+      "text": "La natation est un sport.",
+      "truth": "true"
+     },
+     {
+      "text": "Les loisirs aident à se détendre.",
+      "truth": "true"
+     },
+     {
+      "text": "Lire est une activité culturelle.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Les loisirs sont des travaux obligatoires.",
+      "truth": "false",
+      "explain": "On les choisit librement."
+     },
+     {
+      "text": "Le cyclisme est un jeu de cartes.",
+      "truth": "false",
+      "explain": "C’est un sport."
+     },
+     {
+      "text": "Il faut jouer avant de faire ses devoirs.",
+      "truth": "false",
+      "explain": "Il faut d’abord faire ses devoirs."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

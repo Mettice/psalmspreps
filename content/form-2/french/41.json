@@ -1,0 +1,377 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 41,
+ "language": "fr",
+ "prerequisites": [
+  38
+ ],
+ "skills": [
+  {
+   "id": "fr2-41",
+   "name": "Écrire des phrases sur la vie citoyenne"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour écrire des phrases sur la vie citoyenne, on emploie le vocabulaire du module : le citoyen, les droits, les devoirs, la loi, voter, payer l’impôt, respecter le drapeau, la carte d’identité, la mairie.\nPour exprimer un devoir : il faut, on doit, nous devons + infinitif : « Nous devons respecter les lois. »\nPour exprimer un droit : avoir le droit de + infinitif : « Chaque enfant a le droit d’aller à l’école. »\nPour relier deux idées : et, mais, car, donc, parce que.\n« Le citoyen paie l’impôt, car l’État construit des routes et des écoles. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris une phrase sur un devoir du citoyen et une phrase sur un droit de l’enfant.",
+  "steps": [
+   "Devoir : « Le citoyen doit respecter la loi. »",
+   "Droit : « Tout enfant a le droit d’être soigné. »"
+  ],
+  "answer": "Le citoyen doit respecter la loi. Tout enfant a le droit d’être soigné.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c41-1",
+    "status": "draft",
+    "idea": "Pour un devoir : il faut, on doit, nous devons + infinitif.",
+    "vars": {},
+    "example": [
+     "Il faut respecter le drapeau."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-41-devoir"
+    }
+   },
+   {
+    "id": "c41-2",
+    "status": "draft",
+    "idea": "Pour un droit : avoir le droit de + infinitif.",
+    "vars": {},
+    "example": [
+     "Chaque enfant a le droit de jouer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-41-droit"
+    }
+   },
+   {
+    "id": "c41-3",
+    "status": "draft",
+    "idea": "On relie deux idées avec car, donc, mais, parce que.",
+    "vars": {},
+    "example": [
+     "Il vote, car il a dix-huit ans."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-41-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "Nous devons respecter le drapeau.",
+         "b": "Nous devons respecter le drapeau."
+        },
+        {
+         "a": "Chaque enfant a le droit d’aller à l’école.",
+         "b": "Chaque enfant a le droit d’aller à l’école."
+        },
+        {
+         "a": "Le citoyen paie l’impôt chaque année.",
+         "b": "Le citoyen paie l’impôt chaque année."
+        },
+        {
+         "a": "Il faut obéir aux lois du pays.",
+         "b": "Il faut obéir aux lois du pays."
+        }
+       ]
+      }
+     },
+     "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-41-devoir",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Nous ___ respecter les lois de notre pays.",
+       "a": "devons",
+       "w": [
+        "avons",
+        "sommes"
+       ],
+       "e": [
+        "On dit « nous devons + infinitif » pour un devoir.",
+        "« sommes » ne convient pas ici."
+       ]
+      },
+      {
+       "s": "Il ___ payer l’impôt chaque année.",
+       "a": "faut",
+       "w": [
+        "fait",
+        "est"
+       ],
+       "e": [
+        "On dit « il faut » pour un devoir.",
+        "On dit « il faut »."
+       ]
+      },
+      {
+       "s": "Les citoyens ___ voter aux élections.",
+       "a": "doivent",
+       "w": [
+        "ont",
+        "font"
+       ],
+       "e": [
+        "« doivent » exprime le devoir.",
+        "« font » ne convient pas."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-41-droit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase exprime un droit ?",
+       "r": "Chaque enfant a le droit d’aller à l’école.",
+       "w": [
+        "Nous devons payer l’impôt.",
+        "Il faut respecter le drapeau.",
+        "On doit obéir à la loi."
+       ],
+       "e": [
+        "C’est un devoir.",
+        "C’est un devoir.",
+        "C’est un devoir."
+       ],
+       "y": "« avoir le droit de » exprime un droit."
+      },
+      {
+       "q": "Quelle phrase exprime un devoir ?",
+       "r": "Le citoyen doit respecter la loi.",
+       "w": [
+        "L’enfant a le droit de jouer.",
+        "Tout le monde a le droit d’être soigné.",
+        "Les enfants ont le droit d’avoir un nom."
+       ],
+       "e": [
+        "C’est un droit.",
+        "C’est un droit.",
+        "C’est un droit."
+       ],
+       "y": "« doit » exprime un devoir."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-41-lien",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Mon père va voter ___ il a sa carte d’électeur.",
+       "a": "car",
+       "w": [
+        "mais",
+        "donc"
+       ],
+       "e": [
+        "« mais » oppose.",
+        "La carte est la cause : « car »."
+       ]
+      },
+      {
+       "s": "Ma sœur a dix-huit ans, ___ elle peut voter.",
+       "a": "donc",
+       "w": [
+        "car",
+        "mais"
+       ],
+       "e": [
+        "C’est une conséquence.",
+        "Il n’y a pas d’opposition."
+       ]
+      },
+      {
+       "s": "Il connaît la loi, ___ il ne la respecte pas.",
+       "a": "mais",
+       "w": [
+        "donc",
+        "car"
+       ],
+       "e": [
+        "Ce n’est pas une conséquence.",
+        "Ce n’est pas une cause."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui relie les deux idées.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-41-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Nous devons respecter le drapeau.",
+       "b": "Nous devons respecter le drapeau."
+      },
+      {
+       "a": "Chaque enfant a le droit d’aller à l’école.",
+       "b": "Chaque enfant a le droit d’aller à l’école."
+      },
+      {
+       "a": "Le citoyen paie l’impôt chaque année.",
+       "b": "Le citoyen paie l’impôt chaque année."
+      },
+      {
+       "a": "Il faut obéir aux lois du pays.",
+       "b": "Il faut obéir aux lois du pays."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

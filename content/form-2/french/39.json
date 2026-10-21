@@ -1,0 +1,368 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 39,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-39",
+   "name": "Le pluriel des noms en -ou"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les noms en -ou prennent un -s au pluriel : un trou → des trous ; un clou → des clous ; un cou → des cous.\nSept noms en -ou prennent un -x : bijou, caillou, chou, genou, hibou, joujou, pou.\n→ des bijoux, des cailloux, des choux, des genoux, des hiboux, des joujoux, des poux.\nPour les retenir, on dit la phrase : « Viens, mon chou, mon bijou, mon joujou, sur mes genoux, et jette des cailloux à ce hibou plein de poux. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "genou"
+  },
+  "problem": "Écris le pluriel de « {n} ».",
+  "steps": [
+   "« {n} » est un des sept noms en -ou qui prennent -x.",
+   "Donc : des {fr2NounPlural(n)}."
+  ],
+  "answer": "des {fr2NounPlural(n)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c39-1",
+    "status": "draft",
+    "idea": "Les noms en -ou prennent -s au pluriel : des trous, des clous.",
+    "vars": {},
+    "example": [
+     "un cou → des cous"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-39-s"
+    }
+   },
+   {
+    "id": "c39-2",
+    "status": "draft",
+    "idea": "Sept noms en -ou prennent -x : bijou, caillou, chou, genou, hibou, joujou, pou.",
+    "vars": {},
+    "example": [
+     "des cailloux, des hiboux"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-39-x"
+    }
+   },
+   {
+    "id": "c39-3",
+    "status": "draft",
+    "idea": "On retient les sept avec la phrase « mon chou, mon bijou, mon joujou … ».",
+    "vars": {},
+    "example": [
+     "sur mes genoux"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-39-type-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Les enfants jettent des ___ (caillou) dans la rivière.",
+         "n": "caillou"
+        },
+        {
+         "s": "Il y a des ___ (trou) sur la route.",
+         "n": "trou"
+        },
+        {
+         "s": "Ma mère vend des ___ (chou) au marché.",
+         "n": "chou"
+        },
+        {
+         "s": "Le menuisier achète des ___ (clou).",
+         "n": "clou"
+        },
+        {
+         "s": "Il s’est blessé aux deux ___ (genou).",
+         "n": "genou"
+        },
+        {
+         "s": "La nuit, on entend des ___ (hibou).",
+         "n": "hibou"
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le nom au pluriel.",
+     "text": "{X.s}",
+     "answer": "fr2NounPlural(X.n)",
+     "misconceptions": [
+      {
+       "id": "naive",
+       "wrong": "fr2NounNaive(X.n)",
+       "explain": "{fr2NounRule(X.n)}."
+      }
+     ],
+     "solution": [
+      "{fr2NounRule(X.n)}.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-39-s",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "bijou",
+      "caillou",
+      "chou",
+      "genou",
+      "hibou",
+      "joujou",
+      "pou",
+      "trou",
+      "clou",
+      "cou",
+      "sou",
+      "fou"
+     ]
+    }
+   },
+   "prompt": "Quel est le pluriel de « {n} » ?",
+   "correct": "{fr2NounPlural(n)}",
+   "distractors": [
+    {
+     "text": "{fr2NounNaive(n)}",
+     "misconception": "rule"
+    },
+    {
+     "text": "{n}",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "rule",
+     "explain": "{fr2NounRule(n)}."
+    },
+    {
+     "id": "same",
+     "explain": "Au pluriel, le nom change."
+    }
+   ],
+   "solution": [
+    "{fr2NounRule(n)}.",
+    "Donc : des {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-39-x",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel nom en -ou prend un -x au pluriel ?",
+       "r": "caillou",
+       "w": [
+        "trou",
+        "clou",
+        "cou"
+       ],
+       "e": [
+        "des trous",
+        "des clous",
+        "des cous"
+       ],
+       "y": "Il fait partie des sept : des cailloux."
+      },
+      {
+       "q": "Quel nom en -ou prend un -s au pluriel ?",
+       "r": "trou",
+       "w": [
+        "bijou",
+        "hibou",
+        "genou"
+       ],
+       "e": [
+        "des bijoux",
+        "des hiboux",
+        "des genoux"
+       ],
+       "y": "Les noms en -ou prennent -s : des trous."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-39-type",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les enfants jettent des ___ (caillou) dans la rivière.",
+       "n": "caillou"
+      },
+      {
+       "s": "Il y a des ___ (trou) sur la route.",
+       "n": "trou"
+      },
+      {
+       "s": "Ma mère vend des ___ (chou) au marché.",
+       "n": "chou"
+      },
+      {
+       "s": "Le menuisier achète des ___ (clou).",
+       "n": "clou"
+      },
+      {
+       "s": "Il s’est blessé aux deux ___ (genou).",
+       "n": "genou"
+      },
+      {
+       "s": "La nuit, on entend des ___ (hibou).",
+       "n": "hibou"
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le nom au pluriel.",
+   "text": "{X.s}",
+   "answer": "fr2NounPlural(X.n)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2NounNaive(X.n)",
+     "explain": "{fr2NounRule(X.n)}."
+    }
+   ],
+   "solution": [
+    "{fr2NounRule(X.n)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-39-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Il a des cailloux dans ses chaussures.",
+      "truth": "true"
+     },
+     {
+      "text": "La route a beaucoup de trous.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle porte des bijoux en or.",
+      "truth": "true"
+     },
+     {
+      "text": "Les hiboux chassent la nuit.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le menuisier achète des cloux.",
+      "truth": "false",
+      "explain": "Les noms en -ou prennent -s : des clous."
+     },
+     {
+      "text": "J’ai mal aux genous.",
+      "truth": "false",
+      "explain": "« genou » prend -x : des genoux."
+     },
+     {
+      "text": "Le marché vend des chous.",
+      "truth": "false",
+      "explain": "« chou » prend -x : des choux."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

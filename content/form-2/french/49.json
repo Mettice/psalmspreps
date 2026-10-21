@@ -1,0 +1,366 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 49,
+ "language": "fr",
+ "prerequisites": [
+  38,
+  48
+ ],
+ "skills": [
+  {
+   "id": "fr2-49",
+   "name": "Écrire des phrases sur le temps et le climat"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le temps, c’est ce qu’il fait aujourd’hui : il pleut, il fait chaud, il y a du soleil, le ciel est nuageux.\nLe climat, c’est le temps habituel d’une région pendant l’année : « Le Nord a un climat chaud et sec. À Douala, il pleut beaucoup. »\nVerbes impersonnels (avec « il ») : il pleut, il neige, il grêle, il fait beau, il fait froid, il y a du vent, il y a du brouillard.\nMots utiles : la saison sèche, la saison des pluies, l’harmattan, la chaleur, la fraîcheur, l’orage, la température, humide, sec.\nPour comparer : « Il fait plus chaud à Maroua qu’à Buea. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris une phrase sur le temps d’aujourd’hui et une phrase sur le climat de ta région.",
+  "steps": [
+   "Temps : « Aujourd’hui, il fait chaud et le ciel est clair. »",
+   "Climat : « Dans ma région, il y a une longue saison des pluies. »"
+  ],
+  "answer": "Aujourd’hui, il fait chaud et le ciel est clair. Dans ma région, il y a une longue saison des pluies.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c49-1",
+    "status": "draft",
+    "idea": "Le temps est ce qu’il fait aujourd’hui ; le climat est le temps habituel d’une région.",
+    "vars": {},
+    "example": [
+     "Il pleut ce matin. Le climat du Sud est humide."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-49-diff"
+    }
+   },
+   {
+    "id": "c49-2",
+    "status": "draft",
+    "idea": "On emploie « il » impersonnel : il pleut, il fait chaud, il y a du vent.",
+    "vars": {},
+    "example": [
+     "Il fait frais à Dschang."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-49-il"
+    }
+   },
+   {
+    "id": "c49-3",
+    "status": "draft",
+    "idea": "Pour comparer : plus … que, moins … que.",
+    "vars": {},
+    "example": [
+     "Il fait plus chaud à Garoua qu’à Bamenda."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-49-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "Il fait très chaud à Garoua.",
+         "b": "Il fait très chaud à Garoua."
+        },
+        {
+         "a": "Le Sud a un climat humide.",
+         "b": "Le Sud a un climat humide."
+        },
+        {
+         "a": "Il pleut beaucoup à Debundscha.",
+         "b": "Il pleut beaucoup à Debundscha."
+        },
+        {
+         "a": "Pendant l’harmattan, il fait frais le matin.",
+         "b": "Pendant l’harmattan, il fait frais le matin."
+        }
+       ]
+      }
+     },
+     "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-49-diff",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase parle du climat ?",
+       "r": "Le Nord a un climat chaud et sec.",
+       "w": [
+        "Il pleut ce matin.",
+        "Aujourd’hui, le ciel est gris.",
+        "Il y a du vent cet après-midi."
+       ],
+       "e": [
+        "C’est le temps d’aujourd’hui.",
+        "C’est le temps d’aujourd’hui.",
+        "C’est le temps d’aujourd’hui."
+       ],
+       "y": "Le climat est habituel."
+      },
+      {
+       "q": "Quelle phrase parle du temps qu’il fait ?",
+       "r": "Ce matin, il y a du brouillard.",
+       "w": [
+        "Le Sud a un climat équatorial.",
+        "Le Nord est sec toute l’année.",
+        "La saison des pluies dure six mois."
+       ],
+       "e": [
+        "C’est le climat.",
+        "C’est le climat.",
+        "C’est le climat."
+       ],
+       "y": "C’est ce qu’il fait ce matin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-49-il",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Prends ton imperméable : il ___ depuis ce matin.",
+       "a": "pleut",
+       "w": [
+        "fait",
+        "est"
+       ],
+       "e": [
+        "On dit « il pleut ».",
+        "On dit « il pleut »."
+       ]
+      },
+      {
+       "s": "Pendant l’harmattan, il ___ frais le matin.",
+       "a": "fait",
+       "w": [
+        "pleut",
+        "a"
+       ],
+       "e": [
+        "On ne dit pas « il pleut frais ».",
+        "On dit « il fait frais »."
+       ]
+      },
+      {
+       "s": "Il y a beaucoup de ___ : les arbres bougent.",
+       "a": "vent",
+       "w": [
+        "chaud",
+        "beau"
+       ],
+       "e": [
+        "On dit « il fait chaud ».",
+        "On dit « il fait beau »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-49-comp",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il fait plus chaud à Maroua ___ à Buea.",
+       "a": "qu’",
+       "w": [
+        "que de",
+        "comme"
+       ],
+       "e": [
+        "On dit « plus … que ».",
+        "« comme » marque l’égalité."
+       ]
+      },
+      {
+       "s": "Il pleut ___ à Douala qu’à Garoua.",
+       "a": "plus",
+       "w": [
+        "très",
+        "trop"
+       ],
+       "e": [
+        "Pour comparer : plus … que.",
+        "« trop » n’est pas une comparaison."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-49-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Il fait très chaud à Garoua.",
+       "b": "Il fait très chaud à Garoua."
+      },
+      {
+       "a": "Le Sud a un climat humide.",
+       "b": "Le Sud a un climat humide."
+      },
+      {
+       "a": "Il pleut beaucoup à Debundscha.",
+       "b": "Il pleut beaucoup à Debundscha."
+      },
+      {
+       "a": "Pendant l’harmattan, il fait frais le matin.",
+       "b": "Pendant l’harmattan, il fait frais le matin."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

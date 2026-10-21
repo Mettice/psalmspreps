@@ -1,0 +1,351 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 51,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-51",
+   "name": "Le champ lexical du commerce"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le champ lexical est l’ensemble des mots qui se rapportent à un même thème.\nLe commerce, c’est acheter et vendre des marchandises.\n• Les personnes : le commerçant, le vendeur, le client, l’acheteur, le grossiste, le détaillant, le caissier.\n• Les lieux : le marché, la boutique, le magasin, le supermarché, l’entrepôt.\n• Les actions : acheter, vendre, marchander (discuter le prix), payer, rendre la monnaie, livrer, commander.\n• L’argent : le prix, la facture, le reçu, la monnaie, le bénéfice (ce qu’on gagne), la perte, le franc CFA, la remise (réduction).\nLe grossiste vend en grande quantité aux détaillants ; le détaillant vend par petites quantités aux clients.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Relève les mots du commerce : « Au marché, le client marchande puis paie le vendeur, qui lui rend la monnaie. »",
+  "steps": [
+   "On cherche les mots liés au thème acheter / vendre.",
+   "marché, client, marchande, paie, vendeur, monnaie."
+  ],
+  "answer": "marché, client, marchande, paie, vendeur, monnaie",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c51-1",
+    "status": "draft",
+    "idea": "Le champ lexical regroupe les mots d’un même thème.",
+    "vars": {},
+    "example": [
+     "Commerce : client, vendre, prix."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-51-champ"
+    }
+   },
+   {
+    "id": "c51-2",
+    "status": "draft",
+    "idea": "Le grossiste vend en grande quantité ; le détaillant vend au détail.",
+    "vars": {},
+    "example": [
+     "La boutique du quartier est un détaillant."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-51-gros"
+    }
+   },
+   {
+    "id": "c51-3",
+    "status": "draft",
+    "idea": "Marchander, c’est discuter le prix ; le bénéfice est ce qu’on gagne.",
+    "vars": {},
+    "example": [
+     "Elle a marchandé et a eu une remise."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-51-mot-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "prompt": "Associe chaque mot à sa définition.",
+     "pool": [
+      {
+       "left": "marchander",
+       "right": "discuter le prix"
+      },
+      {
+       "left": "le bénéfice",
+       "right": "l’argent gagné"
+      },
+      {
+       "left": "la monnaie",
+       "right": "l’argent rendu au client"
+      },
+      {
+       "left": "la facture",
+       "right": "le papier qui donne le prix à payer"
+      },
+      {
+       "left": "la remise",
+       "right": "une réduction du prix"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-51-champ",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot n’appartient pas au champ lexical du commerce ?",
+       "r": "le ballon",
+       "w": [
+        "le client",
+        "la facture",
+        "vendre"
+       ],
+       "e": [
+        "C’est un mot du commerce.",
+        "C’est un mot du commerce.",
+        "C’est un mot du commerce."
+       ],
+       "y": "Le ballon est un mot des loisirs."
+      },
+      {
+       "q": "Quel mot appartient au champ lexical du commerce ?",
+       "r": "le prix",
+       "w": [
+        "la pluie",
+        "le hibou",
+        "la fièvre"
+       ],
+       "e": [
+        "C’est le temps.",
+        "C’est un animal.",
+        "C’est la maladie."
+       ],
+       "y": "Le prix se paie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-51-gros",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui vend en grande quantité aux boutiques ?",
+       "r": "le grossiste",
+       "w": [
+        "le client",
+        "le détaillant",
+        "le caissier"
+       ],
+       "e": [
+        "Il achète.",
+        "Il vend au détail.",
+        "Il encaisse l’argent."
+       ],
+       "y": "Le grossiste."
+      },
+      {
+       "q": "Qui achète dans une boutique ?",
+       "r": "le client",
+       "w": [
+        "le grossiste",
+        "le fournisseur",
+        "l’entrepôt"
+       ],
+       "e": [
+        "Il vend en gros.",
+        "Il fournit les marchandises.",
+        "C’est un lieu."
+       ],
+       "y": "Le client achète."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-51-mot",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "marchander",
+     "right": "discuter le prix"
+    },
+    {
+     "left": "le bénéfice",
+     "right": "l’argent gagné"
+    },
+    {
+     "left": "la monnaie",
+     "right": "l’argent rendu au client"
+    },
+    {
+     "left": "la facture",
+     "right": "le papier qui donne le prix à payer"
+    },
+    {
+     "left": "la remise",
+     "right": "une réduction du prix"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-51-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le client achète.",
+      "truth": "true"
+     },
+     {
+      "text": "Le vendeur rend la monnaie.",
+      "truth": "true"
+     },
+     {
+      "text": "Le grossiste vend en grande quantité.",
+      "truth": "true"
+     },
+     {
+      "text": "Marchander, c’est discuter le prix.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le bénéfice est l’argent qu’on perd.",
+      "truth": "false",
+      "explain": "Le bénéfice est l’argent gagné."
+     },
+     {
+      "text": "Le détaillant vend seulement aux grossistes.",
+      "truth": "false",
+      "explain": "Il vend par petites quantités aux clients."
+     },
+     {
+      "text": "La facture est un fruit vendu au marché.",
+      "truth": "false",
+      "explain": "C’est le papier qui donne le prix à payer."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

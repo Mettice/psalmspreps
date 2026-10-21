@@ -1,0 +1,399 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 42,
+ "language": "fr",
+ "prerequisites": [
+  40
+ ],
+ "skills": [
+  {
+   "id": "fr2-42",
+   "name": "Les actes d’état civil"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les actes d’état civil sont des documents officiels qui prouvent les grands événements de la vie d’une personne. Ils sont établis par l’officier d’état civil (souvent le maire) au centre d’état civil.\n• L’acte de naissance : il prouve la naissance, le nom, la date et le lieu de naissance, les noms des parents. On le demande pour aller à l’école ou passer un examen.\n• L’acte de mariage : il prouve que deux personnes sont mariées.\n• L’acte de décès : il prouve la mort d’une personne.\nLa carte nationale d’identité (CNI) est délivrée par la police à partir de 18 ans ; elle prouve l’identité. Le passeport permet de voyager à l’étranger.\nMots utiles : déclarer une naissance, une copie certifiée conforme, légaliser, un témoin.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel document faut-il pour s’inscrire à un examen officiel ? Pourquoi ?",
+  "steps": [
+   "L’examen demande le nom, la date et le lieu de naissance du candidat.",
+   "Ces informations sont prouvées par l’acte de naissance."
+  ],
+  "answer": "L’acte de naissance.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c42-1",
+    "status": "draft",
+    "idea": "Les actes d’état civil prouvent la naissance, le mariage et le décès.",
+    "vars": {},
+    "example": [
+     "L’acte de naissance donne le nom des parents."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-42-acte"
+    }
+   },
+   {
+    "id": "c42-2",
+    "status": "draft",
+    "idea": "L’officier d’état civil établit les actes au centre d’état civil.",
+    "vars": {},
+    "example": [
+     "On déclare la naissance d’un bébé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-42-qui"
+    }
+   },
+   {
+    "id": "c42-3",
+    "status": "draft",
+    "idea": "La carte nationale d’identité prouve l’identité ; le passeport sert à voyager.",
+    "vars": {},
+    "example": [
+     "La CNI est délivrée à partir de {18} ans."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-42-cni-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel document faut-il pour voyager en avion vers l’Europe ?",
+         "r": "le passeport",
+         "w": [
+          "l’acte de décès",
+          "l’acte de mariage",
+          "le carnet de notes"
+         ],
+         "e": [
+          "Il prouve une mort.",
+          "Il prouve un mariage.",
+          "C’est un document scolaire."
+         ],
+         "y": "Le passeport sert à voyager à l’étranger."
+        },
+        {
+         "q": "À partir de quel âge reçoit-on la carte nationale d’identité ?",
+         "r": "dix-huit ans",
+         "w": [
+          "deux ans",
+          "dix ans",
+          "soixante ans"
+         ],
+         "e": [
+          "C’est trop tôt.",
+          "C’est trop tôt.",
+          "C’est trop tard."
+         ],
+         "y": "À la majorité."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-42-acte",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque document à ce qu’il prouve.",
+   "pool": [
+    {
+     "left": "l’acte de naissance",
+     "right": "la naissance et les parents"
+    },
+    {
+     "left": "l’acte de mariage",
+     "right": "l’union de deux personnes"
+    },
+    {
+     "left": "l’acte de décès",
+     "right": "la mort d’une personne"
+    },
+    {
+     "left": "la carte nationale d’identité",
+     "right": "l’identité d’un adulte"
+    },
+    {
+     "left": "le passeport",
+     "right": "l’identité pour voyager à l’étranger"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-42-qui",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui établit les actes d’état civil ?",
+       "r": "l’officier d’état civil",
+       "w": [
+        "le médecin",
+        "le directeur de l’école",
+        "le commerçant"
+       ],
+       "e": [
+        "Il soigne.",
+        "Il dirige l’école.",
+        "Il vend."
+       ],
+       "y": "Souvent le maire ou son adjoint."
+      },
+      {
+       "q": "Que fait-on quand un bébé naît ?",
+       "r": "on déclare sa naissance",
+       "w": [
+        "on demande son passeport",
+        "on fait son acte de décès",
+        "on lui donne une carte d’électeur"
+       ],
+       "e": [
+        "Ce n’est pas la première chose.",
+        "C’est pour la mort.",
+        "Il faut être adulte."
+       ],
+       "y": "On déclare la naissance au centre d’état civil."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-42-cni",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel document faut-il pour voyager en avion vers l’Europe ?",
+       "r": "le passeport",
+       "w": [
+        "l’acte de décès",
+        "l’acte de mariage",
+        "le carnet de notes"
+       ],
+       "e": [
+        "Il prouve une mort.",
+        "Il prouve un mariage.",
+        "C’est un document scolaire."
+       ],
+       "y": "Le passeport sert à voyager à l’étranger."
+      },
+      {
+       "q": "À partir de quel âge reçoit-on la carte nationale d’identité ?",
+       "r": "dix-huit ans",
+       "w": [
+        "deux ans",
+        "dix ans",
+        "soixante ans"
+       ],
+       "e": [
+        "C’est trop tôt.",
+        "C’est trop tôt.",
+        "C’est trop tard."
+       ],
+       "y": "À la majorité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-42-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "L’acte de naissance donne le nom des parents.",
+      "truth": "true"
+     },
+     {
+      "text": "On déclare la naissance au centre d’état civil.",
+      "truth": "true"
+     },
+     {
+      "text": "Le passeport sert à voyager.",
+      "truth": "true"
+     },
+     {
+      "text": "L’acte de mariage prouve une union.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’acte de décès prouve la naissance d’un enfant.",
+      "truth": "false",
+      "explain": "Il prouve la mort d’une personne."
+     },
+     {
+      "text": "Le médecin établit les actes de mariage.",
+      "truth": "false",
+      "explain": "C’est l’officier d’état civil."
+     },
+     {
+      "text": "La carte nationale d’identité est donnée aux bébés.",
+      "truth": "false",
+      "explain": "Elle est délivrée à partir de dix-huit ans."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

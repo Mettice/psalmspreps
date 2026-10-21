@@ -1,0 +1,380 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 47,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-47",
+   "name": "L’impératif des verbes du deuxième groupe"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’impératif sert à donner un ordre, un conseil ou une consigne. Il n’a que trois personnes et pas de sujet exprimé : tu, nous, vous.\nPour les verbes du deuxième groupe (finir, choisir, obéir, réfléchir, remplir), on prend les formes du présent :\n• finis ! (tu) • finissons ! (nous) • finissez ! (vous)\nExemples : « Obéissez à la loi ! » « Réfléchis avant de parler ! » « Remplissons ce formulaire ! »\nÀ la forme négative : « Ne choisis pas ce chemin ! »\nAttention : les verbes du premier groupe perdent le -s à la 2e personne : « mange ! », mais « finis ! » garde son -s.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "obéir"
+  },
+  "problem": "Conjugue « {v} » à l’impératif présent.",
+  "steps": [
+   "On prend le présent : tu {fr2Present(v, 1)}, nous {fr2Present(v, 4)}, vous {fr2Present(v, 5)}.",
+   "On enlève les pronoms : {fr2Imperatif(v, 0)} ! {fr2Imperatif(v, 1)} ! {fr2Imperatif(v, 2)} !"
+  ],
+  "answer": "{fr2Imperatif(v, 0)}, {fr2Imperatif(v, 1)}, {fr2Imperatif(v, 2)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c47-1",
+    "status": "draft",
+    "idea": "L’impératif donne un ordre ou un conseil, à trois personnes, sans sujet.",
+    "vars": {},
+    "example": [
+     "Finis ton travail !"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-47-quoi"
+    }
+   },
+   {
+    "id": "c47-2",
+    "status": "draft",
+    "idea": "Deuxième groupe : -is, -issons, -issez.",
+    "vars": {},
+    "example": [
+     "choisis, choisissons, choisissez"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-47-form"
+    }
+   },
+   {
+    "id": "c47-3",
+    "status": "draft",
+    "idea": "À la forme négative : ne … pas autour du verbe.",
+    "vars": {},
+    "example": [
+     "Ne remplis pas trop le seau !"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-47-type-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Élèves, ___ (remplir) vos fiches !",
+         "v": "remplir",
+         "k": 2
+        },
+        {
+         "s": "Ayuk, ___ (finir) tes devoirs avant de jouer !",
+         "v": "finir",
+         "k": 0
+        },
+        {
+         "s": "___ (obéir) au code de la route, mes amis !",
+         "v": "obéir",
+         "k": 2
+        },
+        {
+         "s": "___ (choisir) ensemble un bon délégué !",
+         "v": "choisir",
+         "k": 1
+        },
+        {
+         "s": "Bih, ___ (réfléchir) avant de parler !",
+         "v": "réfléchir",
+         "k": 0
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le verbe à l’impératif.",
+     "text": "{X.s}",
+     "answer": "fr2Imperatif(X.v, X.k)",
+     "misconceptions": [
+      {
+       "id": "naive",
+       "wrong": "fr2ImperNaive(X.v, X.k)",
+       "explain": "Deuxième groupe : -is, -issons, -issez."
+      }
+     ],
+     "solution": [
+      "Deuxième groupe à l’impératif : -is, -issons, -issez.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-47-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase est à l’impératif ?",
+       "r": "Réfléchissez avant de répondre !",
+       "w": [
+        "Vous réfléchissez avant de répondre.",
+        "Ils réfléchissent avant de répondre.",
+        "Réfléchir avant de répondre."
+       ],
+       "e": [
+        "Il y a un sujet : c’est le présent.",
+        "Il y a un sujet : c’est le présent.",
+        "C’est l’infinitif."
+       ],
+       "y": "Pas de sujet, un ordre."
+      },
+      {
+       "q": "Combien de personnes a l’impératif ?",
+       "r": "trois : tu, nous, vous",
+       "w": [
+        "six",
+        "une seule",
+        "deux : il et ils"
+       ],
+       "e": [
+        "Le présent en a six.",
+        "Il en a trois.",
+        "Ce ne sont pas les bonnes."
+       ],
+       "y": "tu, nous, vous."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-47-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "finir",
+      "choisir",
+      "obéir",
+      "réfléchir",
+      "remplir",
+      "grandir",
+      "réussir",
+      "nourrir"
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      2
+     ]
+    }
+   },
+   "prompt": "Mets « {v} » à l’impératif, à la personne « {fr2ImperPerson(k)} ».",
+   "correct": "{fr2Imperatif(v, k)}",
+   "distractors": [
+    {
+     "text": "{fr2ImperNaive(v, k)}",
+     "misconception": "iss"
+    },
+    {
+     "text": "{fr2Present(v, [2, 6, 2][k])}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{v}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "iss",
+     "explain": "Les verbes du deuxième groupe gardent -iss- au pluriel et -is avec « tu »."
+    },
+    {
+     "id": "pers",
+     "explain": "Ce n’est pas la forme de « {fr2ImperPerson(k)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Il faut conjuguer le verbe."
+    }
+   ],
+   "solution": [
+    "Deuxième groupe : -is, -issons, -issez.",
+    "Donc : {answer} !"
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-47-type",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Élèves, ___ (remplir) vos fiches !",
+       "v": "remplir",
+       "k": 2
+      },
+      {
+       "s": "Ayuk, ___ (finir) tes devoirs avant de jouer !",
+       "v": "finir",
+       "k": 0
+      },
+      {
+       "s": "___ (obéir) au code de la route, mes amis !",
+       "v": "obéir",
+       "k": 2
+      },
+      {
+       "s": "___ (choisir) ensemble un bon délégué !",
+       "v": "choisir",
+       "k": 1
+      },
+      {
+       "s": "Bih, ___ (réfléchir) avant de parler !",
+       "v": "réfléchir",
+       "k": 0
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe à l’impératif.",
+   "text": "{X.s}",
+   "answer": "fr2Imperatif(X.v, X.k)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2ImperNaive(X.v, X.k)",
+     "explain": "Deuxième groupe : -is, -issons, -issez."
+    }
+   ],
+   "solution": [
+    "Deuxième groupe à l’impératif : -is, -issons, -issez.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-47-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Finis ton repas !",
+      "truth": "true"
+     },
+     {
+      "text": "Obéissez au maître !",
+      "truth": "true"
+     },
+     {
+      "text": "Choisissons un nom !",
+      "truth": "true"
+     },
+     {
+      "text": "Ne remplis pas le seau !",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Finit ton travail !",
+      "truth": "false",
+      "explain": "Avec « tu » : finis !"
+     },
+     {
+      "text": "Obéisez à vos parents !",
+      "truth": "false",
+      "explain": "Il faut -iss- : obéissez !"
+     },
+     {
+      "text": "Tu choisis ce livre !",
+      "truth": "false",
+      "explain": "À l’impératif, il n’y a pas de sujet : Choisis ce livre !"
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

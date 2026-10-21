@@ -1,0 +1,449 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 62,
+ "language": "fr",
+ "prerequisites": [
+  58
+ ],
+ "skills": [
+  {
+   "id": "fr2-62",
+   "name": "Le futur simple de l’indicatif"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le futur simple exprime une action à venir, souvent plus lointaine : « L’année prochaine, je travaillerai. »\nFormation : radical + terminaisons -ai, -as, -a, -ons, -ez, -ont.\n• 1er et 2e groupes : on garde l’infinitif : parler → je parlerai ; finir → nous finirons.\n  appeler → j’appellerai ; acheter → j’achèterai.\n• Verbes irréguliers (radical spécial) : être → je serai ; avoir → j’aurai ; aller → j’irai ; faire → je ferai ; venir → je viendrai ; voir → je verrai ; envoyer → j’enverrai ; recevoir → je recevrai ; prendre → je prendrai.\nMots qui l’accompagnent : demain, l’année prochaine, dans dix ans, plus tard.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "voir",
+   "p": 4
+  },
+  "problem": "Conjugue « {v} » au futur simple avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "« {v} » a un radical spécial au futur : {fr2FutureStem(v)}-.",
+   "On ajoute -ons : {fr2With(p, fr2FuturSimple(v, p))}."
+  ],
+  "answer": "{fr2With(p, fr2FuturSimple(v, p))}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c62-1",
+    "status": "draft",
+    "idea": "Futur simple : radical + -ai, -as, -a, -ons, -ez, -ont.",
+    "vars": {},
+    "example": [
+     "je parlerai, ils finiront"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-62-reg"
+    }
+   },
+   {
+    "id": "c62-2",
+    "status": "draft",
+    "idea": "Certains verbes ont un radical spécial : serai, aurai, irai, ferai, verrai, viendrai.",
+    "vars": {},
+    "example": [
+     "Demain, il fera beau."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-62-irr-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "être",
+        "avoir",
+        "aller",
+        "faire",
+        "venir",
+        "voir",
+        "envoyer",
+        "recevoir"
+       ]
+      },
+      "p": {
+       "int": [
+        0,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au futur simple avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2With(p, fr2FuturSimple(v, p))}",
+     "distractors": [
+      {
+       "text": "{fr2With(p, fr2FuturNaive(v, p))}",
+       "misconception": "naive"
+      },
+      {
+       "text": "{fr2With(p, fr2Conditionnel(v, p))}",
+       "misconception": "cond"
+      },
+      {
+       "text": "{fr2With(p, fr2Present(v, p))}",
+       "misconception": "pres"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "naive",
+       "explain": "« {v} » a un radical spécial au futur : {fr2FutureStem(v)}-."
+      },
+      {
+       "id": "cond",
+       "explain": "C’est le conditionnel."
+      },
+      {
+       "id": "pres",
+       "explain": "C’est le présent."
+      }
+     ],
+     "solution": [
+      "« {v} » a un radical spécial : {fr2FutureStem(v)}-.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c62-3",
+    "status": "draft",
+    "idea": "Ne confonds pas « je parlerai » (futur) et « je parlerais » (conditionnel).",
+    "vars": {},
+    "example": [
+     "Demain, je parlerai au patron."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-62-type-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "L’année prochaine, nous ___ (avoir) un nouvel atelier.",
+         "v": "avoir",
+         "p": 4
+        },
+        {
+         "s": "Dans dix ans, je ___ (être) médecin.",
+         "v": "être",
+         "p": 0
+        },
+        {
+         "s": "Demain, le patron ___ (envoyer) les colis.",
+         "v": "envoyer",
+         "p": 2
+        },
+        {
+         "s": "Plus tard, vous ___ (faire) un beau métier.",
+         "v": "faire",
+         "p": 5
+        },
+        {
+         "s": "Les ouvriers ___ (recevoir) leur salaire lundi.",
+         "v": "recevoir",
+         "p": 6
+        },
+        {
+         "s": "Tu ___ (aller) au marché samedi.",
+         "v": "aller",
+         "p": 1
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le verbe au futur simple.",
+     "text": "{X.s}",
+     "answer": "fr2FuturSimple(X.v, X.p)",
+     "misconceptions": [
+      {
+       "id": "naive",
+       "wrong": "fr2FuturNaive(X.v, X.p)",
+       "explain": "« {X.v} » a un radical spécial au futur : {fr2FutureStem(X.v)}-."
+      },
+      {
+       "id": "cond",
+       "wrong": "fr2Conditionnel(X.v, X.p)",
+       "explain": "C’est le conditionnel ; au futur : -ai, -as, -a, -ons, -ez, -ont."
+      }
+     ],
+     "solution": [
+      "Radical du futur : {fr2FutureStem(X.v)}-.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-62-reg",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "travailler",
+      "finir",
+      "choisir",
+      "acheter",
+      "appeler",
+      "jouer"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au futur simple avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2FuturSimple(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2Conditionnel(v, p))}",
+     "misconception": "cond"
+    },
+    {
+     "text": "{fr2With(p, fr2FuturSimple(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2FuturProche(v, p)}",
+     "misconception": "proche"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "cond",
+     "explain": "C’est le conditionnel (-ais, -ait…) ; le futur prend -ai, -as, -a, -ons, -ez, -ont."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "proche",
+     "explain": "C’est le futur proche ; on demande le futur simple."
+    }
+   ],
+   "solution": [
+    "Au futur simple : radical {fr2FutureStem(v)}- + la terminaison de « {fr2Pronoun(p)} ».",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-62-irr",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "être",
+      "avoir",
+      "aller",
+      "faire",
+      "venir",
+      "voir",
+      "envoyer",
+      "recevoir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au futur simple avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2FuturSimple(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2FuturNaive(v, p))}",
+     "misconception": "naive"
+    },
+    {
+     "text": "{fr2With(p, fr2Conditionnel(v, p))}",
+     "misconception": "cond"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, p))}",
+     "misconception": "pres"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "« {v} » a un radical spécial au futur : {fr2FutureStem(v)}-."
+    },
+    {
+     "id": "cond",
+     "explain": "C’est le conditionnel."
+    },
+    {
+     "id": "pres",
+     "explain": "C’est le présent."
+    }
+   ],
+   "solution": [
+    "« {v} » a un radical spécial : {fr2FutureStem(v)}-.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-62-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "L’année prochaine, nous ___ (avoir) un nouvel atelier.",
+       "v": "avoir",
+       "p": 4
+      },
+      {
+       "s": "Dans dix ans, je ___ (être) médecin.",
+       "v": "être",
+       "p": 0
+      },
+      {
+       "s": "Demain, le patron ___ (envoyer) les colis.",
+       "v": "envoyer",
+       "p": 2
+      },
+      {
+       "s": "Plus tard, vous ___ (faire) un beau métier.",
+       "v": "faire",
+       "p": 5
+      },
+      {
+       "s": "Les ouvriers ___ (recevoir) leur salaire lundi.",
+       "v": "recevoir",
+       "p": 6
+      },
+      {
+       "s": "Tu ___ (aller) au marché samedi.",
+       "v": "aller",
+       "p": 1
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au futur simple.",
+   "text": "{X.s}",
+   "answer": "fr2FuturSimple(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2FuturNaive(X.v, X.p)",
+     "explain": "« {X.v} » a un radical spécial au futur : {fr2FutureStem(X.v)}-."
+    },
+    {
+     "id": "cond",
+     "wrong": "fr2Conditionnel(X.v, X.p)",
+     "explain": "C’est le conditionnel ; au futur : -ai, -as, -a, -ons, -ez, -ont."
+    }
+   ],
+   "solution": [
+    "Radical du futur : {fr2FutureStem(X.v)}-.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-62-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Demain, il fera beau.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous irons au marché.",
+      "truth": "true"
+     },
+     {
+      "text": "Je serai mécanicien.",
+      "truth": "true"
+     },
+     {
+      "text": "Vous verrez le directeur.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Demain, j’allerai au champ.",
+      "truth": "false",
+      "explain": "« aller » au futur : j’irai."
+     },
+     {
+      "text": "Nous voirons le patron.",
+      "truth": "false",
+      "explain": "« voir » au futur : nous verrons."
+     },
+     {
+      "text": "Ils fairont le travail.",
+      "truth": "false",
+      "explain": "« faire » au futur : ils feront."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,428 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 44,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-44",
+   "name": "Les sons [i] et [b]"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [i] s’écrit souvent :\n• i : punir, ami, finir ;\n• î : une île, un gîte ;\n• ï : le maïs, naïf ;\n• y : un stylo, une bicyclette, le cycle.\nLe son [b] s’écrit b ou bb :\n• b : bannir, un ballon, la robe, le bébé ;\n• bb (rare) : un abbé, une abbaye, le sabbat.\nAttention : « bannir » s’écrit avec un seul b et deux n.\nLe tréma (¨) sur le i montre qu’on prononce les deux voyelles séparément : ma-ïs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Le paysan récolte son ma_s et range son st_lo. »",
+  "steps": [
+   "Dans « maïs », on entend « a » puis « i » séparément : on met un tréma.",
+   "« stylo » s’écrit avec un y."
+  ],
+  "answer": "Le paysan récolte son maïs et range son stylo.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c44-1",
+    "status": "draft",
+    "idea": "Le son [i] s’écrit i, î, ï ou y.",
+    "vars": {},
+    "example": [
+     "une île, le maïs, un stylo"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-44-i"
+    }
+   },
+   {
+    "id": "c44-2",
+    "status": "draft",
+    "idea": "Le tréma (¨) montre qu’on prononce deux voyelles séparément.",
+    "vars": {},
+    "example": [
+     "ma-ïs, na-ïf"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-44-trema"
+    }
+   },
+   {
+    "id": "c44-3",
+    "status": "draft",
+    "idea": "Le son [b] s’écrit b, et rarement bb.",
+    "vars": {},
+    "example": [
+     "bannir, un abbé"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-44-b-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le roi a décidé de ___ le voleur du village.",
+         "a": "bannir",
+         "w": [
+          "banir",
+          "bbanir"
+         ],
+         "e": [
+          "« bannir » prend deux n.",
+          "Un seul b, deux n."
+         ]
+        },
+        {
+         "s": "L’___ habite près de l’église.",
+         "a": "abbé",
+         "w": [
+          "abé",
+          "habé"
+         ],
+         "e": [
+          "« abbé » prend deux b.",
+          "Il n’y a pas de h."
+         ]
+        },
+        {
+         "s": "Le ___ dort dans son berceau.",
+         "a": "bébé",
+         "w": [
+          "bbébé",
+          "bébbé"
+         ],
+         "e": [
+          "Un seul b au début.",
+          "Un seul b au milieu."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne écriture.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-44-i",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "J’écris avec un ___ bleu.",
+       "a": "stylo",
+       "w": [
+        "stilo",
+        "stïlo"
+       ],
+       "e": [
+        "« stylo » s’écrit avec y.",
+        "Pas de tréma ici."
+       ]
+      },
+      {
+       "s": "Mon oncle cultive du ___.",
+       "a": "maïs",
+       "w": [
+        "mais",
+        "maís"
+       ],
+       "e": [
+        "« mais » sans tréma est un mot de liaison.",
+        "On met un tréma, pas un accent."
+       ]
+      },
+      {
+       "s": "Les pêcheurs vivent sur une petite ___.",
+       "a": "île",
+       "w": [
+        "ile",
+        "ïle"
+       ],
+       "e": [
+        "« île » prend un accent circonflexe.",
+        "C’est un accent circonflexe, pas un tréma."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-44-trema",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel mot le tréma montre-t-il qu’on prononce deux voyelles séparément ?",
+       "r": "naïf",
+       "w": [
+        "nain",
+        "neige",
+        "nuit"
+       ],
+       "e": [
+        "Pas de tréma.",
+        "Pas de tréma.",
+        "Pas de tréma."
+       ],
+       "y": "na-ïf."
+      },
+      {
+       "q": "Quel mot s’écrit avec un y pour le son [i] ?",
+       "r": "bicyclette",
+       "w": [
+        "finir",
+        "punir",
+        "ami"
+       ],
+       "e": [
+        "Il s’écrit avec i.",
+        "Il s’écrit avec i.",
+        "Il s’écrit avec i."
+       ],
+       "y": "bicyclette."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-44-b",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le roi a décidé de ___ le voleur du village.",
+       "a": "bannir",
+       "w": [
+        "banir",
+        "bbanir"
+       ],
+       "e": [
+        "« bannir » prend deux n.",
+        "Un seul b, deux n."
+       ]
+      },
+      {
+       "s": "L’___ habite près de l’église.",
+       "a": "abbé",
+       "w": [
+        "abé",
+        "habé"
+       ],
+       "e": [
+        "« abbé » prend deux b.",
+        "Il n’y a pas de h."
+       ]
+      },
+      {
+       "s": "Le ___ dort dans son berceau.",
+       "a": "bébé",
+       "w": [
+        "bbébé",
+        "bébbé"
+       ],
+       "e": [
+        "Un seul b au début.",
+        "Un seul b au milieu."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-44-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quel mot est mal écrit ?",
+   "pool": {
+    "right": [
+     {
+      "text": "un stylo",
+      "truth": "true"
+     },
+     {
+      "text": "le maïs",
+      "truth": "true"
+     },
+     {
+      "text": "bannir",
+      "truth": "true"
+     },
+     {
+      "text": "une île",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "un stilo",
+      "truth": "false",
+      "explain": "On écrit « stylo » avec un y."
+     },
+     {
+      "text": "banir",
+      "truth": "false",
+      "explain": "On écrit « bannir » avec deux n."
+     },
+     {
+      "text": "une ile",
+      "truth": "false",
+      "explain": "On écrit « île » avec un accent circonflexe."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

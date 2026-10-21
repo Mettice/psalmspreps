@@ -1,0 +1,468 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 36,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-36",
+   "name": "L’accord de l’adjectif qualificatif (révision)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’adjectif qualificatif s’accorde en genre et en nombre avec le nom qu’il qualifie.\n• Féminin : on ajoute souvent -e : petit → petite ; un adjectif qui finit déjà par -e ne change pas : propre, malade.\n• Pluriel : on ajoute souvent -s : petits, petites ; -al devient -aux au masculin pluriel : national → nationaux (mais nationales au féminin).\n• Formes particulières : blanc → blanche ; beau → belle ; nouveau → nouvelle ; vieux → vieille.\nPour accorder : trouve le nom, puis demande-toi s’il est masculin ou féminin, singulier ou pluriel.\nExemples : une route nationale, des journaux nationaux, des robes noires, une chemise blanche.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "X": {
+    "pick": [
+     {
+      "n": "des routes",
+      "g": "f",
+      "pl": true,
+      "a": "national"
+     }
+    ]
+   }
+  },
+  "problem": "Accorde l’adjectif « {X.a} » avec « {X.n} ».",
+  "steps": [
+   "« {X.n} » est {fr2GenderNumber(X.g, X.pl)}.",
+   "Au féminin pluriel : {fr2Adj(X.a, X.g, X.pl)}."
+  ],
+  "answer": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c36-1",
+    "status": "draft",
+    "idea": "L’adjectif prend le genre et le nombre du nom.",
+    "vars": {},
+    "example": [
+     "une petite fille, des petits garçons"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-36-acc"
+    }
+   },
+   {
+    "id": "c36-2",
+    "status": "draft",
+    "idea": "Au masculin pluriel, -al devient -aux ; au féminin, on écrit -ales.",
+    "vars": {},
+    "example": [
+     "des journaux nationaux, des routes nationales"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-36-al-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Les fêtes ___ ont lieu en mai et en février.",
+         "a": "nationales",
+         "w": [
+          "nationaux",
+          "national"
+         ],
+         "e": [
+          "« fêtes » est féminin : -ales.",
+          "Il faut accorder au pluriel."
+         ]
+        },
+        {
+         "s": "Les hôpitaux ___ reçoivent beaucoup de malades.",
+         "a": "régionaux",
+         "w": [
+          "régionals",
+          "régionales"
+         ],
+         "e": [
+          "-al devient -aux au masculin pluriel.",
+          "« hôpitaux » est masculin."
+         ]
+        },
+        {
+         "s": "Les journaux ___ parlent de la fête de la jeunesse.",
+         "a": "nationaux",
+         "w": [
+          "nationals",
+          "nationales"
+         ],
+         "e": [
+          "-al devient -aux.",
+          "« journaux » est masculin."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis l’adjectif bien accordé.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c36-3",
+    "status": "draft",
+    "idea": "Un adjectif en -e ne change pas au féminin : propre, malade.",
+    "vars": {},
+    "example": [
+     "un garçon malade, une fille malade"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-36-type"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-36-acc",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "une fille",
+       "g": "f",
+       "pl": false,
+       "a": "petit"
+      },
+      {
+       "n": "des garçons",
+       "g": "m",
+       "pl": true,
+       "a": "grand"
+      },
+      {
+       "n": "des maisons",
+       "g": "f",
+       "pl": true,
+       "a": "propre"
+      },
+      {
+       "n": "une route",
+       "g": "f",
+       "pl": false,
+       "a": "national"
+      },
+      {
+       "n": "des journaux",
+       "g": "m",
+       "pl": true,
+       "a": "national"
+      },
+      {
+       "n": "une chemise",
+       "g": "f",
+       "pl": false,
+       "a": "blanc"
+      },
+      {
+       "n": "des robes",
+       "g": "f",
+       "pl": true,
+       "a": "noir"
+      },
+      {
+       "n": "des cahiers",
+       "g": "m",
+       "pl": true,
+       "a": "vert"
+      },
+      {
+       "n": "une fête",
+       "g": "f",
+       "pl": false,
+       "a": "spécial"
+      },
+      {
+       "n": "des pagnes",
+       "g": "m",
+       "pl": true,
+       "a": "bleu"
+      },
+      {
+       "n": "des femmes",
+       "g": "f",
+       "pl": true,
+       "a": "malade"
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme : {X.n} ___ ({X.a}).",
+   "correct": "{fr2Adj(X.a, X.g, X.pl)}",
+   "distractors": [
+    {
+     "text": "{fr2AdjNaive(X.a, fr2OtherGender(X.g), X.pl)}",
+     "misconception": "genre"
+    },
+    {
+     "text": "{fr2Adj(X.a, X.g, !X.pl)}",
+     "misconception": "nombre"
+    },
+    {
+     "text": "{X.a}",
+     "misconception": "inv"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "genre",
+     "explain": "Regarde le genre du nom : il est {fr2GenderNumber(X.g, X.pl)}."
+    },
+    {
+     "id": "nombre",
+     "explain": "Regarde le nombre du nom : il est {fr2GenderNumber(X.g, X.pl)}."
+    },
+    {
+     "id": "inv",
+     "explain": "L’adjectif doit s’accorder avec le nom."
+    }
+   ],
+   "solution": [
+    "« {X.n} » est {fr2GenderNumber(X.g, X.pl)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-36-al",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les fêtes ___ ont lieu en mai et en février.",
+       "a": "nationales",
+       "w": [
+        "nationaux",
+        "national"
+       ],
+       "e": [
+        "« fêtes » est féminin : -ales.",
+        "Il faut accorder au pluriel."
+       ]
+      },
+      {
+       "s": "Les hôpitaux ___ reçoivent beaucoup de malades.",
+       "a": "régionaux",
+       "w": [
+        "régionals",
+        "régionales"
+       ],
+       "e": [
+        "-al devient -aux au masculin pluriel.",
+        "« hôpitaux » est masculin."
+       ]
+      },
+      {
+       "s": "Les journaux ___ parlent de la fête de la jeunesse.",
+       "a": "nationaux",
+       "w": [
+        "nationals",
+        "nationales"
+       ],
+       "e": [
+        "-al devient -aux.",
+        "« journaux » est masculin."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis l’adjectif bien accordé.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-36-type",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma sœur porte une jupe ___ (blanc).",
+       "a": "blanc",
+       "g": "f",
+       "pl": false
+      },
+      {
+       "s": "Les cours sont ___ (propre).",
+       "a": "propre",
+       "g": "f",
+       "pl": true
+      },
+      {
+       "s": "Ces élèves sont très ___ (grand).",
+       "a": "grand",
+       "g": "m",
+       "pl": true
+      },
+      {
+       "s": "Nous avons une ___ (petit) radio.",
+       "a": "petit",
+       "g": "f",
+       "pl": false
+      },
+      {
+       "s": "Les enfants ___ (malade) restent à la maison.",
+       "a": "malade",
+       "g": "m",
+       "pl": true
+      }
+     ]
+    }
+   },
+   "prompt": "Écris l’adjectif accordé.",
+   "text": "{X.s}",
+   "answer": "fr2Adj(X.a, X.g, X.pl)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2AdjNaive(X.a, X.g, X.pl)",
+     "explain": "Attention à la forme particulière de cet adjectif.",
+     "when": "fr2AdjNaive(X.a, X.g, X.pl) != fr2Adj(X.a, X.g, X.pl)"
+    },
+    {
+     "id": "inv",
+     "wrong": "X.a",
+     "explain": "L’adjectif doit s’accorder.",
+     "when": "X.a != fr2Adj(X.a, X.g, X.pl)"
+    }
+   ],
+   "solution": [
+    "Le nom est {fr2GenderNumber(X.g, X.pl)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-36-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute d’accord ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Les routes nationales sont larges.",
+      "truth": "true"
+     },
+     {
+      "text": "Ma tante porte une robe blanche.",
+      "truth": "true"
+     },
+     {
+      "text": "Les élèves malades sont absents.",
+      "truth": "true"
+     },
+     {
+      "text": "Les grands arbres donnent de l’ombre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Les journaux nationals parlent de l’école.",
+      "truth": "false",
+      "explain": "-al devient -aux : nationaux."
+     },
+     {
+      "text": "Ma petit sœur va à l’école.",
+      "truth": "false",
+      "explain": "« sœur » est féminin : petite."
+     },
+     {
+      "text": "Les maisons sont propre.",
+      "truth": "false",
+      "explain": "« maisons » est pluriel : propres."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

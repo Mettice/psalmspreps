@@ -1,0 +1,381 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 65,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-65",
+   "name": "Répondre au téléphone"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Au téléphone, on parle poliment et clairement.\n• Pour répondre : « Allô, bonjour ! » « Allô, oui ? »\n• Pour se présenter : « C’est Ayuk à l’appareil. » « Ici Mme Ngo. »\n• Pour demander qui appelle : « Qui est à l’appareil ? » « C’est de la part de qui ? »\n• Pour demander quelqu’un : « Puis-je parler à M. Tabi, s’il vous plaît ? »\n• Pour faire patienter : « Ne quittez pas. » « Un instant, s’il vous plaît. »\n• Pour laisser un message : « Voulez-vous laisser un message ? » « Je lui dirai de vous rappeler. »\n• Pour finir : « Merci, au revoir. » « À bientôt. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le téléphone sonne. Une voix demande ton père, qui est absent. Que réponds-tu ?",
+  "steps": [
+   "On répond poliment : « Allô, bonjour ! »",
+   "On explique et on propose : « Mon père est absent. Voulez-vous laisser un message ? »"
+  ],
+  "answer": "Allô, bonjour ! Mon père est absent. Voulez-vous laisser un message ?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c65-1",
+    "status": "draft",
+    "idea": "On répond par « Allô, bonjour ! » et on se présente : « C’est … à l’appareil. »",
+    "vars": {},
+    "example": [
+     "Allô, c’est Bih à l’appareil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-65-rep"
+    }
+   },
+   {
+    "id": "c65-2",
+    "status": "draft",
+    "idea": "Pour savoir qui appelle : « Qui est à l’appareil ? » « C’est de la part de qui ? »",
+    "vars": {},
+    "example": [
+     "C’est de la part de qui ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-65-qui"
+    }
+   },
+   {
+    "id": "c65-3",
+    "status": "draft",
+    "idea": "« Ne quittez pas » veut dire « attendez au téléphone ».",
+    "vars": {},
+    "example": [
+     "Ne quittez pas, je l’appelle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-65-ordre-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Allô, bonjour !",
+         "Bonjour, puis-je parler à Mme Ngo ?",
+         "C’est de la part de qui ?",
+         "C’est M. Tabi.",
+         "Ne quittez pas, je l’appelle."
+        ],
+        [
+         "Allô, oui ?",
+         "Bonjour, je voudrais parler à Paul.",
+         "Il est absent. Voulez-vous laisser un message ?",
+         "Oui, dites-lui de me rappeler.",
+         "D’accord. Au revoir."
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets la conversation dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      },
+      {
+       "text": "{X[4]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-65-rep",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que dit-on en décrochant le téléphone ?",
+       "r": "Allô, bonjour !",
+       "w": [
+        "Au revoir !",
+        "Bonne nuit !",
+        "Félicitations !"
+       ],
+       "e": [
+        "On le dit à la fin.",
+        "Ce n’est pas pour répondre.",
+        "Ce n’est pas pour répondre."
+       ],
+       "y": "On commence par « Allô »."
+      },
+      {
+       "q": "Comment te présenter au téléphone ?",
+       "r": "C’est Ayuk à l’appareil.",
+       "w": [
+        "Qui es-tu ?",
+        "Ne quittez pas.",
+        "À bientôt."
+       ],
+       "e": [
+        "C’est une question.",
+        "C’est pour faire patienter.",
+        "C’est pour finir."
+       ],
+       "y": "On dit son nom."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-65-qui",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase sert à demander qui appelle ?",
+       "r": "C’est de la part de qui ?",
+       "w": [
+        "Ne quittez pas.",
+        "Merci, au revoir.",
+        "Je vous rappelle."
+       ],
+       "e": [
+        "C’est pour faire patienter.",
+        "C’est pour finir.",
+        "C’est une promesse."
+       ],
+       "y": "On demande l’identité."
+      },
+      {
+       "q": "Quelle phrase demande à parler à quelqu’un ?",
+       "r": "Puis-je parler à M. Tabi, s’il vous plaît ?",
+       "w": [
+        "Qui est à l’appareil ?",
+        "Ne quittez pas.",
+        "Au revoir."
+       ],
+       "e": [
+        "On demande qui appelle.",
+        "On fait patienter.",
+        "On finit."
+       ],
+       "y": "On demande poliment la personne."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-65-ordre",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Allô, bonjour !",
+       "Bonjour, puis-je parler à Mme Ngo ?",
+       "C’est de la part de qui ?",
+       "C’est M. Tabi.",
+       "Ne quittez pas, je l’appelle."
+      ],
+      [
+       "Allô, oui ?",
+       "Bonjour, je voudrais parler à Paul.",
+       "Il est absent. Voulez-vous laisser un message ?",
+       "Oui, dites-lui de me rappeler.",
+       "D’accord. Au revoir."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets la conversation dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-65-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle réponse n’est pas polie ou ne convient pas ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Allô, bonjour !",
+      "truth": "true"
+     },
+     {
+      "text": "Ne quittez pas, s’il vous plaît.",
+      "truth": "true"
+     },
+     {
+      "text": "Voulez-vous laisser un message ?",
+      "truth": "true"
+     },
+     {
+      "text": "Merci, au revoir.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Qui es-tu, toi ? Parle vite !",
+      "truth": "false",
+      "explain": "On demande poliment : « Qui est à l’appareil ? »"
+     },
+     {
+      "text": "Raccrocher sans rien dire.",
+      "truth": "false",
+      "explain": "On salue et on répond poliment."
+     },
+     {
+      "text": "« Au revoir » au début de l’appel.",
+      "truth": "false",
+      "explain": "On commence par « Allô, bonjour ! »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

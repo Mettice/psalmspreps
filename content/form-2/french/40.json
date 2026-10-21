@@ -1,0 +1,377 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 40,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-40",
+   "name": "Les unités administratives"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le Cameroun est divisé en unités administratives, de la plus grande à la plus petite :\n• la région (10 régions), dirigée par un gouverneur ; chef-lieu : par exemple Bamenda pour le Nord-Ouest, Garoua pour le Nord ;\n• le département (58), dirigé par un préfet ; chef-lieu : la préfecture ;\n• l’arrondissement (360), dirigé par un sous-préfet ; chef-lieu : la sous-préfecture.\nIl y a aussi les communes, dirigées par un maire (élu) et, dans les grandes villes, une communauté urbaine avec un maire de ville.\nMots utiles : le chef-lieu, la circonscription, le territoire, administrer, la décentralisation, le conseil régional.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Range du plus grand au plus petit : arrondissement, région, département.",
+  "steps": [
+   "La région est la plus grande ; elle contient des départements.",
+   "Chaque département contient des arrondissements."
+  ],
+  "answer": "région, département, arrondissement",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c40-1",
+    "status": "draft",
+    "idea": "Région, département, arrondissement : de la plus grande unité à la plus petite.",
+    "vars": {},
+    "example": [
+     "Le Cameroun a {10} régions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-40-ordre"
+    }
+   },
+   {
+    "id": "c40-2",
+    "status": "draft",
+    "idea": "Le gouverneur dirige la région, le préfet le département, le sous-préfet l’arrondissement.",
+    "vars": {},
+    "example": [
+     "Le maire dirige la commune."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-40-chef"
+    }
+   },
+   {
+    "id": "c40-3",
+    "status": "draft",
+    "idea": "Le chef-lieu est la ville principale d’une unité administrative.",
+    "vars": {},
+    "example": [
+     "Bamenda est le chef-lieu du Nord-Ouest."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-40-mot-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Comment appelle-t-on la ville principale d’une région ?",
+         "r": "le chef-lieu",
+         "w": [
+          "le quartier",
+          "la capitale du monde",
+          "le village"
+         ],
+         "e": [
+          "Un quartier est une partie de ville.",
+          "Ce n’est pas le mot.",
+          "Ce n’est pas le mot."
+         ],
+         "y": "Le chef-lieu."
+        },
+        {
+         "q": "Qui est élu par les habitants pour diriger la commune ?",
+         "r": "le maire",
+         "w": [
+          "le gouverneur",
+          "le préfet",
+          "le sous-préfet"
+         ],
+         "e": [
+          "Il est nommé, pas élu.",
+          "Il est nommé.",
+          "Il est nommé."
+         ],
+         "y": "Le maire est élu."
+        },
+        {
+         "q": "Combien de régions compte le Cameroun ?",
+         "r": "dix",
+         "w": [
+          "cinq",
+          "vingt",
+          "cinquante-huit"
+         ],
+         "e": [
+          "C’est trop peu.",
+          "C’est trop.",
+          "C’est le nombre de départements."
+         ],
+         "y": "Dix régions."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-40-ordre",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "la région",
+       "le département",
+       "l’arrondissement"
+      ]
+     ]
+    }
+   },
+   "prompt": "Range les unités de la plus grande à la plus petite.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-40-chef",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque unité à son responsable.",
+   "pool": [
+    {
+     "left": "la région",
+     "right": "le gouverneur"
+    },
+    {
+     "left": "le département",
+     "right": "le préfet"
+    },
+    {
+     "left": "l’arrondissement",
+     "right": "le sous-préfet"
+    },
+    {
+     "left": "la commune",
+     "right": "le maire"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-40-mot",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment appelle-t-on la ville principale d’une région ?",
+       "r": "le chef-lieu",
+       "w": [
+        "le quartier",
+        "la capitale du monde",
+        "le village"
+       ],
+       "e": [
+        "Un quartier est une partie de ville.",
+        "Ce n’est pas le mot.",
+        "Ce n’est pas le mot."
+       ],
+       "y": "Le chef-lieu."
+      },
+      {
+       "q": "Qui est élu par les habitants pour diriger la commune ?",
+       "r": "le maire",
+       "w": [
+        "le gouverneur",
+        "le préfet",
+        "le sous-préfet"
+       ],
+       "e": [
+        "Il est nommé, pas élu.",
+        "Il est nommé.",
+        "Il est nommé."
+       ],
+       "y": "Le maire est élu."
+      },
+      {
+       "q": "Combien de régions compte le Cameroun ?",
+       "r": "dix",
+       "w": [
+        "cinq",
+        "vingt",
+        "cinquante-huit"
+       ],
+       "e": [
+        "C’est trop peu.",
+        "C’est trop.",
+        "C’est le nombre de départements."
+       ],
+       "y": "Dix régions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-40-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le préfet dirige le département.",
+      "truth": "true"
+     },
+     {
+      "text": "Le Cameroun a dix régions.",
+      "truth": "true"
+     },
+     {
+      "text": "Le maire dirige la commune.",
+      "truth": "true"
+     },
+     {
+      "text": "L’arrondissement est plus petit que le département.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le sous-préfet dirige la région.",
+      "truth": "false",
+      "explain": "C’est le gouverneur qui dirige la région."
+     },
+     {
+      "text": "Le département est plus grand que la région.",
+      "truth": "false",
+      "explain": "La région contient les départements."
+     },
+     {
+      "text": "Le gouverneur est élu par les habitants de la commune.",
+      "truth": "false",
+      "explain": "Le maire est élu ; le gouverneur est nommé."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

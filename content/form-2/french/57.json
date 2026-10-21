@@ -1,0 +1,406 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 57,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-57",
+   "name": "Les métiers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un métier est un travail qu’on apprend et qu’on exerce pour gagner sa vie.\n• Métiers de la santé : le médecin, l’infirmier, la sage-femme, le pharmacien.\n• Métiers de l’éducation : l’enseignant (le professeur, l’instituteur).\n• Métiers manuels : le maçon (construit les maisons), le menuisier (travaille le bois), le tailleur / la couturière (coud les vêtements), le mécanicien (répare les véhicules), le forgeron (travaille le fer), le cordonnier (répare les chaussures).\n• Métiers de la terre et de l’eau : l’agriculteur, l’éleveur, le pêcheur.\n• Autres : le commerçant, le chauffeur, le policier, le juge, l’avocat, le journaliste, l’informaticien.\nLe lieu de travail : l’hôpital, l’école, le chantier, l’atelier, le garage, le champ, le bureau.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Qui répare les chaussures ? Où travaille-t-il ?",
+  "steps": [
+   "Le métier qui répare les chaussures est celui de cordonnier.",
+   "Il travaille dans un atelier ou au bord de la route."
+  ],
+  "answer": "Le cordonnier, dans son atelier.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c57-1",
+    "status": "draft",
+    "idea": "Un métier est un travail qu’on apprend pour gagner sa vie.",
+    "vars": {},
+    "example": [
+     "Le maçon construit les maisons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-57-qui"
+    }
+   },
+   {
+    "id": "c57-2",
+    "status": "draft",
+    "idea": "Chaque métier a son lieu : l’hôpital, l’atelier, le garage, le champ.",
+    "vars": {},
+    "example": [
+     "Le mécanicien travaille au garage."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-57-lieu"
+    }
+   },
+   {
+    "id": "c57-3",
+    "status": "draft",
+    "idea": "Le féminin des métiers : l’infirmière, la couturière, la commerçante.",
+    "vars": {},
+    "example": [
+     "Ma tante est enseignante."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-57-fem-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Ma mère est ___ à l’hôpital de Buea.",
+         "a": "infirmière",
+         "w": [
+          "infirmier",
+          "infirmièr"
+         ],
+         "e": [
+          "C’est le masculin.",
+          "Il manque le e."
+         ]
+        },
+        {
+         "s": "Ma tante est ___ : elle vend du poisson.",
+         "a": "commerçante",
+         "w": [
+          "commerçant",
+          "commerçeuse"
+         ],
+         "e": [
+          "C’est le masculin.",
+          "Ce mot n’existe pas."
+         ]
+        },
+        {
+         "s": "La ___ coud de belles robes.",
+         "a": "couturière",
+         "w": [
+          "couturier",
+          "couturiere"
+         ],
+         "e": [
+          "C’est le masculin.",
+          "Il faut l’accent grave : -ière."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le féminin qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-57-qui",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque métier à son travail.",
+   "pool": [
+    {
+     "left": "le maçon",
+     "right": "construit les maisons"
+    },
+    {
+     "left": "le menuisier",
+     "right": "travaille le bois"
+    },
+    {
+     "left": "le mécanicien",
+     "right": "répare les véhicules"
+    },
+    {
+     "left": "le cordonnier",
+     "right": "répare les chaussures"
+    },
+    {
+     "left": "la couturière",
+     "right": "coud les vêtements"
+    },
+    {
+     "left": "le pêcheur",
+     "right": "attrape les poissons"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-57-lieu",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "l’infirmière",
+       "r": "à l’hôpital",
+       "w": [
+        "au garage",
+        "au champ",
+        "sur le chantier"
+       ],
+       "e": [
+        "C’est le lieu du mécanicien.",
+        "C’est le lieu de l’agriculteur.",
+        "C’est le lieu du maçon."
+       ],
+       "y": "Elle soigne les malades à l’hôpital."
+      },
+      {
+       "q": "le mécanicien",
+       "r": "au garage",
+       "w": [
+        "à l’école",
+        "à l’hôpital",
+        "au tribunal"
+       ],
+       "e": [
+        "C’est le lieu de l’enseignant.",
+        "C’est le lieu du médecin.",
+        "C’est le lieu du juge."
+       ],
+       "y": "Il répare les véhicules au garage."
+      },
+      {
+       "q": "le juge",
+       "r": "au tribunal",
+       "w": [
+        "au marché",
+        "au champ",
+        "à l’atelier"
+       ],
+       "e": [
+        "C’est le lieu du commerçant.",
+        "C’est le lieu de l’agriculteur.",
+        "C’est le lieu de l’artisan."
+       ],
+       "y": "Il rend la justice au tribunal."
+      }
+     ]
+    }
+   },
+   "prompt": "Où travaille {X.q} ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-57-fem",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma mère est ___ à l’hôpital de Buea.",
+       "a": "infirmière",
+       "w": [
+        "infirmier",
+        "infirmièr"
+       ],
+       "e": [
+        "C’est le masculin.",
+        "Il manque le e."
+       ]
+      },
+      {
+       "s": "Ma tante est ___ : elle vend du poisson.",
+       "a": "commerçante",
+       "w": [
+        "commerçant",
+        "commerçeuse"
+       ],
+       "e": [
+        "C’est le masculin.",
+        "Ce mot n’existe pas."
+       ]
+      },
+      {
+       "s": "La ___ coud de belles robes.",
+       "a": "couturière",
+       "w": [
+        "couturier",
+        "couturiere"
+       ],
+       "e": [
+        "C’est le masculin.",
+        "Il faut l’accent grave : -ière."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le féminin qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-57-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le menuisier travaille le bois.",
+      "truth": "true"
+     },
+     {
+      "text": "Le pêcheur attrape des poissons.",
+      "truth": "true"
+     },
+     {
+      "text": "Le juge travaille au tribunal.",
+      "truth": "true"
+     },
+     {
+      "text": "Le maçon construit les maisons.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le cordonnier soigne les malades.",
+      "truth": "false",
+      "explain": "Il répare les chaussures."
+     },
+     {
+      "text": "Le mécanicien coud les vêtements.",
+      "truth": "false",
+      "explain": "Il répare les véhicules."
+     },
+     {
+      "text": "Le forgeron travaille le tissu.",
+      "truth": "false",
+      "explain": "Il travaille le fer."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

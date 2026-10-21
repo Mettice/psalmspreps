@@ -1,0 +1,460 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 64,
+ "language": "fr",
+ "prerequisites": [
+  63
+ ],
+ "skills": [
+  {
+   "id": "fr2-64",
+   "name": "Lire un texte sur les opérations financières"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "« Le compte d’épargne de Mama Ngo »\nMama Ngo vend des beignets au carrefour. Chaque soir, elle compte sa recette. Un jour, son fils Paul lui dit : « Maman, pourquoi gardes-tu ton argent sous le matelas ? Il peut brûler ou être volé. »\nLe lendemain, ils vont ensemble à la caisse d’épargne du quartier. L’agent leur explique : « Vous pouvez ouvrir un compte. Chaque semaine, vous ferez un dépôt. Si vous avez besoin d’argent, vous ferez un retrait. »\nMama Ngo ouvre son compte avec cinq mille francs. Six mois plus tard, elle a assez d’argent pour acheter une grande poêle et un congélateur. Elle sourit : « L’argent bien gardé travaille pour nous ! »\n(texte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Pourquoi Paul ne veut-il pas que sa mère garde l’argent sous le matelas ?",
+  "steps": [
+   "Paul le dit au début du texte.",
+   "« Il peut brûler ou être volé. »"
+  ],
+  "answer": "Parce que l’argent peut brûler ou être volé.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c64-1",
+    "status": "draft",
+    "idea": "Pour comprendre un texte, on cherche qui, quoi, où, quand et pourquoi.",
+    "vars": {},
+    "example": [
+     "Qui ? Mama Ngo et Paul. Où ? À la caisse d’épargne."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-64-comp"
+    }
+   },
+   {
+    "id": "c64-2",
+    "status": "draft",
+    "idea": "Un dépôt, c’est mettre de l’argent sur un compte ; un retrait, c’est en reprendre.",
+    "vars": {},
+    "example": [
+     "Elle fait un dépôt chaque semaine."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-64-mot"
+    }
+   },
+   {
+    "id": "c64-3",
+    "status": "draft",
+    "idea": "L’épargne, c’est l’argent mis de côté pour plus tard.",
+    "vars": {},
+    "example": [
+     "L’argent bien gardé travaille pour nous."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-64-idee-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est l’idée principale ?",
+         "r": "Garder son argent à la caisse d’épargne est plus sûr et aide à faire des projets.",
+         "w": [
+          "Il faut dépenser tout son argent.",
+          "Les beignets coûtent cher.",
+          "Les fils ne doivent pas parler aux mères."
+         ],
+         "e": [
+          "C’est le contraire.",
+          "Ce n’est pas l’idée.",
+          "Ce n’est pas l’idée."
+         ],
+         "y": "Elle achète du matériel grâce à l’épargne."
+        },
+        {
+         "q": "qu’achète Mama Ngo six mois plus tard ?",
+         "r": "une grande poêle et un congélateur",
+         "w": [
+          "une voiture",
+          "une maison",
+          "des vêtements"
+         ],
+         "e": [
+          "Ce n’est pas dans le texte.",
+          "Ce n’est pas dans le texte.",
+          "Ce n’est pas dans le texte."
+         ],
+         "y": "Le texte le dit à la fin."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « Le compte d’épargne de Mama Ngo » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-64-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que vend Mama Ngo ?",
+       "r": "des beignets",
+       "w": [
+        "du poisson",
+        "des tissus",
+        "des chaussures"
+       ],
+       "e": [
+        "Le texte dit des beignets.",
+        "Le texte dit des beignets.",
+        "Le texte dit des beignets."
+       ],
+       "y": "« Mama Ngo vend des beignets au carrefour. »"
+      },
+      {
+       "q": "où vont-ils le lendemain ?",
+       "r": "à la caisse d’épargne du quartier",
+       "w": [
+        "au marché",
+        "à l’hôpital",
+        "à l’école"
+       ],
+       "e": [
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte."
+       ],
+       "y": "Ils vont ouvrir un compte."
+      },
+      {
+       "q": "avec combien d’argent ouvre-t-elle son compte ?",
+       "r": "cinq mille francs",
+       "w": [
+        "cinq cents francs",
+        "cinquante mille francs",
+        "un million"
+       ],
+       "e": [
+        "Le texte dit cinq mille.",
+        "Le texte dit cinq mille.",
+        "Le texte dit cinq mille."
+       ],
+       "y": "« avec cinq mille francs »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le compte d’épargne de Mama Ngo » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-64-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que veut dire « faire un dépôt » ?",
+       "r": "mettre de l’argent sur son compte",
+       "w": [
+        "reprendre de l’argent",
+        "perdre son argent",
+        "fermer son compte"
+       ],
+       "e": [
+        "C’est un retrait.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Le dépôt ajoute de l’argent."
+      },
+      {
+       "q": "que veut dire « la recette » ici ?",
+       "r": "l’argent gagné par la vente",
+       "w": [
+        "une façon de cuisiner",
+        "un médicament",
+        "une dépense"
+       ],
+       "e": [
+        "Ici, ce n’est pas la cuisine.",
+        "Ce n’est pas le sens.",
+        "C’est le contraire."
+       ],
+       "y": "Elle compte l’argent de la journée."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le compte d’épargne de Mama Ngo » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-64-idee",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est l’idée principale ?",
+       "r": "Garder son argent à la caisse d’épargne est plus sûr et aide à faire des projets.",
+       "w": [
+        "Il faut dépenser tout son argent.",
+        "Les beignets coûtent cher.",
+        "Les fils ne doivent pas parler aux mères."
+       ],
+       "e": [
+        "C’est le contraire.",
+        "Ce n’est pas l’idée.",
+        "Ce n’est pas l’idée."
+       ],
+       "y": "Elle achète du matériel grâce à l’épargne."
+      },
+      {
+       "q": "qu’achète Mama Ngo six mois plus tard ?",
+       "r": "une grande poêle et un congélateur",
+       "w": [
+        "une voiture",
+        "une maison",
+        "des vêtements"
+       ],
+       "e": [
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte.",
+        "Ce n’est pas dans le texte."
+       ],
+       "y": "Le texte le dit à la fin."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le compte d’épargne de Mama Ngo » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-64-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Quelle phrase ne correspond pas au texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Mama Ngo vend des beignets.",
+      "truth": "true"
+     },
+     {
+      "text": "Paul conseille sa mère.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle ouvre un compte.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle achète un congélateur.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mama Ngo garde toujours son argent sous le matelas.",
+      "truth": "false",
+      "explain": "Elle ouvre un compte d’épargne."
+     },
+     {
+      "text": "L’agent refuse d’ouvrir un compte.",
+      "truth": "false",
+      "explain": "Il explique comment ouvrir un compte."
+     },
+     {
+      "text": "Faire un retrait, c’est ajouter de l’argent.",
+      "truth": "false",
+      "explain": "C’est reprendre de l’argent."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

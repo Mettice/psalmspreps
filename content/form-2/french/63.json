@@ -1,0 +1,434 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 63,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-63",
+   "name": "Le vocabulaire des opérations arithmétiques"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les quatre opérations et leurs mots :\n• l’addition (+) : additionner, ajouter ; le résultat est la somme : « Trois plus quatre égale sept. »\n• la soustraction (−) : soustraire, retrancher, enlever ; le résultat est la différence : « Dix moins trois égale sept. »\n• la multiplication (×) : multiplier ; le résultat est le produit : « Six fois cinq égale trente. »\n• la division (÷) : diviser, partager ; le résultat est le quotient : « Vingt divisé par quatre égale cinq. »\nAutres mots : le double (× 2), la moitié (÷ 2), le triple (× 3), le tiers, le quart, le chiffre, le nombre, calculer, compter, le total.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 12,
+   "b": 4
+  },
+  "problem": "Lis en toutes lettres et calcule : {a} ÷ {b}.",
+  "steps": [
+   "« ÷ » se lit « divisé par » ; le résultat s’appelle le quotient.",
+   "Douze divisé par quatre égale trois."
+  ],
+  "answer": "Douze divisé par quatre égale trois ; le quotient est {a / b}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c63-1",
+    "status": "draft",
+    "idea": "Addition → somme ; soustraction → différence ; multiplication → produit ; division → quotient.",
+    "vars": {},
+    "example": [
+     "La somme de deux et trois est cinq."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-63-nom"
+    }
+   },
+   {
+    "id": "c63-2",
+    "status": "draft",
+    "idea": "On lit : plus, moins, fois, divisé par, égale.",
+    "vars": {},
+    "example": [
+     "Sept fois deux égale quatorze."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-63-lire"
+    }
+   },
+   {
+    "id": "c63-3",
+    "status": "draft",
+    "idea": "Le double, c’est fois deux ; la moitié, c’est divisé par deux.",
+    "vars": {},
+    "example": [
+     "Le double de cinq est dix."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-63-calc-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "le double",
+         "k": 2,
+         "y": "Le double, c’est multiplier par deux."
+        },
+        {
+         "q": "le triple",
+         "k": 3,
+         "y": "Le triple, c’est multiplier par trois."
+        },
+        {
+         "q": "la moitié",
+         "k": 0,
+         "y": "La moitié, c’est diviser par deux."
+        }
+       ]
+      },
+      "n": {
+       "pick": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        30,
+        50
+       ]
+      }
+     },
+     "prompt": "Calcule {X.q} de {n}.",
+     "answer": "X.k == 2 ? n * 2 : X.k == 3 ? n * 3 : n / 2",
+     "misconceptions": [
+      {
+       "id": "swap",
+       "wrong": "X.k == 0 ? n * 2 : n / 2",
+       "explain": "Relis le mot : double = × deux, moitié = ÷ deux, triple = × trois."
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Le résultat est {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-63-nom",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment s’appelle le résultat d’une multiplication ?",
+       "r": "le produit",
+       "w": [
+        "la somme",
+        "la différence",
+        "le quotient"
+       ],
+       "e": [
+        "C’est l’addition.",
+        "C’est la soustraction.",
+        "C’est la division."
+       ],
+       "y": "Le produit."
+      },
+      {
+       "q": "Comment s’appelle le résultat d’une soustraction ?",
+       "r": "la différence",
+       "w": [
+        "le produit",
+        "la somme",
+        "le quotient"
+       ],
+       "e": [
+        "C’est la multiplication.",
+        "C’est l’addition.",
+        "C’est la division."
+       ],
+       "y": "La différence."
+      },
+      {
+       "q": "Comment s’appelle le résultat d’une division ?",
+       "r": "le quotient",
+       "w": [
+        "la somme",
+        "le produit",
+        "la différence"
+       ],
+       "e": [
+        "C’est l’addition.",
+        "C’est la multiplication.",
+        "C’est la soustraction."
+       ],
+       "y": "Le quotient."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-63-lire",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "×",
+       "r": "fois",
+       "w": [
+        "plus",
+        "moins",
+        "divisé par"
+       ],
+       "e": [
+        "C’est +.",
+        "C’est −.",
+        "C’est ÷."
+       ],
+       "y": "× se lit « fois »."
+      },
+      {
+       "q": "÷",
+       "r": "divisé par",
+       "w": [
+        "fois",
+        "plus",
+        "moins"
+       ],
+       "e": [
+        "C’est ×.",
+        "C’est +.",
+        "C’est −."
+       ],
+       "y": "÷ se lit « divisé par »."
+      },
+      {
+       "q": "−",
+       "r": "moins",
+       "w": [
+        "plus",
+        "fois",
+        "égale"
+       ],
+       "e": [
+        "C’est +.",
+        "C’est ×.",
+        "C’est =."
+       ],
+       "y": "− se lit « moins »."
+      }
+     ]
+    }
+   },
+   "prompt": "Comment lit-on le signe {X.q} ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-63-calc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "le double",
+       "k": 2,
+       "y": "Le double, c’est multiplier par deux."
+      },
+      {
+       "q": "le triple",
+       "k": 3,
+       "y": "Le triple, c’est multiplier par trois."
+      },
+      {
+       "q": "la moitié",
+       "k": 0,
+       "y": "La moitié, c’est diviser par deux."
+      }
+     ]
+    },
+    "n": {
+     "pick": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      30,
+      50
+     ]
+    }
+   },
+   "prompt": "Calcule {X.q} de {n}.",
+   "answer": "X.k == 2 ? n * 2 : X.k == 3 ? n * 3 : n / 2",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "X.k == 0 ? n * 2 : n / 2",
+     "explain": "Relis le mot : double = × deux, moitié = ÷ deux, triple = × trois."
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Le résultat est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-63-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le résultat d’une addition est la somme.",
+      "truth": "true"
+     },
+     {
+      "text": "× se lit « fois ».",
+      "truth": "true"
+     },
+     {
+      "text": "La moitié de dix est cinq.",
+      "truth": "true"
+     },
+     {
+      "text": "Le quotient est le résultat d’une division.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le produit est le résultat d’une addition.",
+      "truth": "false",
+      "explain": "C’est le résultat d’une multiplication."
+     },
+     {
+      "text": "Le double de six est trois.",
+      "truth": "false",
+      "explain": "Le double de six est douze."
+     },
+     {
+      "text": "÷ se lit « plus ».",
+      "truth": "false",
+      "explain": "÷ se lit « divisé par »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

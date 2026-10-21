@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-221 P1 items: 219 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+224 P1 items: 222 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -249,6 +249,9 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-T12 | Form 2 Computer Science: safety and IoT | open |
 | TR-X10 | Form 2 Accounting: SYSCOHADA accounts | open |
 | TR-X11 | Form 2 Accounting: OHADA and parallelism | open |
+| TR-Z10 | Form 2 French: Term 2 verb forms | open |
+| TR-Z11 | Form 2 French: civic facts | open |
+| TR-Z12 | Form 2 French: grammar and texts | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -940,3 +943,12 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 ### P1
 - [ ] **TR-X10 [P1] SYSCOHADA account numbers and names:** the account table in the questions (101, 162, 223, 231, 2441, 245, 311, 321, 401, 411, 422, 521, 571, 601, 605, 661, 701, 706, 812, 822) and the lists in the notes (classes 1–8, 55 electronic money, 83–89); please check against the official revised chart (2017). *Location:* rows 14, 16–18.
 - [ ] **TR-X11 [P1] OHADA facts and parallelism:** Port Louis treaty 1993, 17 member states; classes 1–5 balance sheet, 6–8 income statement, 9 commitments and costs; the pairs 60/70, 65/75, 67/77, 81/82, 83/84. *Location:* rows 13, 15.
+
+## Z (Term 2). French Form 2, Batch FR2-2 (Term 2, rows 36–52 and 54–68), added 2026-10-21 (form-2 branch)
+
+32 lessons in two modules: « Vie citoyenne et ouverture au monde » (adjective agreement, leisure, administrative units, civil-status documents, interro-negative sentences, the sounds [i] and [b], a reading text, the highway code, the imperative of the 2nd group, countable nouns, trade vocabulary, the passé composé with être) and « Activités économiques et monde du travail » (uncountable nouns, interpreting images, the sounds [œ] and [m], trades, futur proche, a short paragraph, beau/nouveau/vieux/fou, the work hierarchy, futur simple, arithmetic vocabulary, a reading text on savings, the telephone, voir/envoyer/recevoir, indefinite adjectives). Row 53 (intégration) is not a lesson. The two reading texts are original. Reviewer: a French teacher.
+
+### P1
+- [ ] **TR-Z10 [P1] New verb forms (french2.js):** futur simple stems (serai, aurai, irai, ferai, verrai, viendrai, enverrai, recevrai, prendrai; appellerai, achèterai), conditionnel, futur proche, plus-que-parfait, impératif (mange / finis / va / sois / aie), subjonctif présent (from the « ils » stem; être, avoir, aller, faire irregular); envoyer and recevoir added to the verb table. *Location:* rows 47, 52, 58, 62, 66, 68; src/engine/lib/french2.js.
+- [ ] **TR-Z11 [P1] Civic and administrative facts:** 10 regions, 58 departments, 360 arrondissements; governor, préfet, sous-préfet, maire; civil-status documents and the CNI from 18; the highway code basics. *Location:* rows 40, 42, 46.
+- [ ] **TR-Z12 [P1] Grammar rules and texts:** plurals in -ou (the seven in -oux), bel/nouvel/vieil/fol, countable and uncountable nouns, indefinite adjectives (tout/chaque/aucun), « si » after a negative question; the texts « La carte d’identité de Nfor » and « Le compte d’épargne de Mama Ngo ». *Location:* rows 39, 43, 45, 50, 54, 60, 64, 67.

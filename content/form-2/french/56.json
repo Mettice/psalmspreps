@@ -1,0 +1,425 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 56,
+ "language": "fr",
+ "prerequisites": [
+  44
+ ],
+ "skills": [
+  {
+   "id": "fr2-56",
+   "name": "Les sons [œ] et [m]"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [œ] (comme dans « fleur ») s’écrit :\n• eu : la fleur, le vendeur, le chauffeur, jeune ;\n• œu : un œuf, le cœur, la sœur, un bœuf ;\n• œ : un œil.\nLe son [m] s’écrit m ou mm :\n• m : le maçon, le marché, la main, aimer ;\n• mm : la pomme, la femme, la commerçante, comment, un homme.\nAttention : les noms de métiers en -eur : le vendeur, le coiffeur, le chauffeur, le professeur.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Ma s__r vend des __fs et des pomes au marché. »",
+  "steps": [
+   "« sœur » et « œufs » s’écrivent avec œu.",
+   "« pommes » prend deux m."
+  ],
+  "answer": "Ma sœur vend des œufs et des pommes au marché.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c56-1",
+    "status": "draft",
+    "idea": "Le son [œ] s’écrit eu ou œu : la fleur, la sœur.",
+    "vars": {},
+    "example": [
+     "le vendeur, un œuf"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-56-oe"
+    }
+   },
+   {
+    "id": "c56-2",
+    "status": "draft",
+    "idea": "Les noms de métiers en -eur : vendeur, chauffeur, coiffeur.",
+    "vars": {},
+    "example": [
+     "Le chauffeur conduit le taxi."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-56-eur"
+    }
+   },
+   {
+    "id": "c56-3",
+    "status": "draft",
+    "idea": "Le son [m] s’écrit m ou mm : le maçon, la pomme.",
+    "vars": {},
+    "example": [
+     "une femme, un homme"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-56-m-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "La ___ vend du poisson.",
+         "a": "commerçante",
+         "w": [
+          "comerçante",
+          "commercante"
+         ],
+         "e": [
+          "Deux m.",
+          "Il faut une cédille : ç."
+         ]
+        },
+        {
+         "s": "Le ___ construit un mur.",
+         "a": "maçon",
+         "w": [
+          "mmaçon",
+          "maçonn"
+         ],
+         "e": [
+          "Un seul m au début.",
+          "Un seul n."
+         ]
+        },
+        {
+         "s": "J’ai mangé une ___ rouge.",
+         "a": "pomme",
+         "w": [
+          "pome",
+          "pomm"
+         ],
+         "e": [
+          "Deux m.",
+          "Il manque le e."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne écriture.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-56-oe",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma ___ va au marché.",
+       "a": "sœur",
+       "w": [
+        "seur",
+        "sœr"
+       ],
+       "e": [
+        "« sœur » s’écrit avec œu.",
+        "Il manque le u."
+       ]
+      },
+      {
+       "s": "Le fermier vend des ___.",
+       "a": "œufs",
+       "w": [
+        "eufs",
+        "œfs"
+       ],
+       "e": [
+        "« œuf » s’écrit avec œu.",
+        "Il manque le u."
+       ]
+      },
+      {
+       "s": "Le ___ bat vite après la course.",
+       "a": "cœur",
+       "w": [
+        "keur",
+        "ceur"
+       ],
+       "e": [
+        "« cœur » s’écrit avec c et œu.",
+        "Il faut œu."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-56-eur",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le ___ conduit le car de Bamenda.",
+       "a": "chauffeur",
+       "w": [
+        "chaufeur",
+        "chauffœur"
+       ],
+       "e": [
+        "Deux f.",
+        "On écrit eu."
+       ]
+      },
+      {
+       "s": "Le ___ vend des tissus.",
+       "a": "vendeur",
+       "w": [
+        "vendeure",
+        "vendœur"
+       ],
+       "e": [
+        "Pas de e à la fin.",
+        "On écrit eu."
+       ]
+      },
+      {
+       "s": "Le ___ coupe les cheveux.",
+       "a": "coiffeur",
+       "w": [
+        "coifeur",
+        "coiffœur"
+       ],
+       "e": [
+        "Deux f.",
+        "On écrit eu."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le nom de métier bien écrit.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-56-m",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "La ___ vend du poisson.",
+       "a": "commerçante",
+       "w": [
+        "comerçante",
+        "commercante"
+       ],
+       "e": [
+        "Deux m.",
+        "Il faut une cédille : ç."
+       ]
+      },
+      {
+       "s": "Le ___ construit un mur.",
+       "a": "maçon",
+       "w": [
+        "mmaçon",
+        "maçonn"
+       ],
+       "e": [
+        "Un seul m au début.",
+        "Un seul n."
+       ]
+      },
+      {
+       "s": "J’ai mangé une ___ rouge.",
+       "a": "pomme",
+       "w": [
+        "pome",
+        "pomm"
+       ],
+       "e": [
+        "Deux m.",
+        "Il manque le e."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-56-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quel mot est mal écrit ?",
+   "pool": {
+    "right": [
+     {
+      "text": "la sœur",
+      "truth": "true"
+     },
+     {
+      "text": "le chauffeur",
+      "truth": "true"
+     },
+     {
+      "text": "la pomme",
+      "truth": "true"
+     },
+     {
+      "text": "le maçon",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "un euf",
+      "truth": "false",
+      "explain": "On écrit « œuf »."
+     },
+     {
+      "text": "la fame",
+      "truth": "false",
+      "explain": "On écrit « femme » avec deux m."
+     },
+     {
+      "text": "le vendœur",
+      "truth": "false",
+      "explain": "On écrit « vendeur » avec eu."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

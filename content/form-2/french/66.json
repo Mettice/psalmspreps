@@ -1,0 +1,372 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 66,
+ "language": "fr",
+ "prerequisites": [
+  58
+ ],
+ "skills": [
+  {
+   "id": "fr2-66",
+   "name": "Le présent et le futur proche de voir, envoyer, recevoir…"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Au présent, ces verbes du module ont des formes à bien retenir :\n• voir : je vois, tu vois, il voit, nous voyons, vous voyez, ils voient ;\n• envoyer : j’envoie, tu envoies, il envoie, nous envoyons, vous envoyez, ils envoient ;\n• recevoir : je reçois, tu reçois, il reçoit, nous recevons, vous recevez, ils reçoivent (ç devant o) ;\n• prendre : je prends, il prend, nous prenons, ils prennent ;\n• acheter : j’achète, nous achetons, ils achètent.\nAu futur proche : aller au présent + infinitif : je vais envoyer, nous allons recevoir, ils vont voir.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "recevoir",
+   "p": 6
+  },
+  "problem": "Conjugue « {v} » au présent puis au futur proche avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "Présent : {fr2With(p, fr2Present(v, p))} (avec ç devant o).",
+   "Futur proche : {fr2FuturProche(v, p)}."
+  ],
+  "answer": "{fr2With(p, fr2Present(v, p))} ; {fr2FuturProche(v, p)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c66-1",
+    "status": "draft",
+    "idea": "envoyer : y devient i devant un e muet : j’envoie, ils envoient ; nous envoyons.",
+    "vars": {},
+    "example": [
+     "Nous envoyons un colis."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-66-env"
+    }
+   },
+   {
+    "id": "c66-2",
+    "status": "draft",
+    "idea": "recevoir : ç devant o et u : je reçois, ils reçoivent ; nous recevons.",
+    "vars": {},
+    "example": [
+     "Elle reçoit son salaire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-66-rec-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Les ouvriers ___ (recevoir) leur salaire le vendredi.",
+         "v": "recevoir",
+         "p": 6
+        },
+        {
+         "s": "Je ___ (recevoir) une lettre de mon oncle.",
+         "v": "recevoir",
+         "p": 0
+        },
+        {
+         "s": "Nous ___ (envoyer) les colis par la poste.",
+         "v": "envoyer",
+         "p": 4
+        },
+        {
+         "s": "Elle ___ (envoyer) de l’argent à sa mère.",
+         "v": "envoyer",
+         "p": 3
+        },
+        {
+         "s": "Vous ___ (voir) le patron demain ?",
+         "v": "voir",
+         "p": 5
+        },
+        {
+         "s": "Ils ___ (voir) les nouvelles machines.",
+         "v": "voir",
+         "p": 6
+        }
+       ]
+      }
+     },
+     "prompt": "Écris le verbe au présent.",
+     "text": "{X.s}",
+     "answer": "fr2Present(X.v, X.p)",
+     "misconceptions": [
+      {
+       "id": "pers",
+       "wrong": "fr2Present(X.v, 2)",
+       "explain": "Le sujet n’est pas « il » : la terminaison change.",
+       "when": "X.p != 2 && X.p != 3"
+      }
+     ],
+     "solution": [
+      "« {X.v} » au présent : {fr2With(0, fr2Present(X.v, 0))}, nous {fr2Present(X.v, 4)}, ils {fr2Present(X.v, 6)}.",
+      "On écrit : {answer}."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c66-3",
+    "status": "draft",
+    "idea": "Futur proche : aller au présent + infinitif.",
+    "vars": {},
+    "example": [
+     "Ils vont envoyer la facture."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-66-fp"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-66-env",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "voir",
+      "envoyer",
+      "prendre",
+      "acheter"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2Present(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2Present(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, (p + 2) % 8))}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Il faut conjuguer le verbe."
+    }
+   ],
+   "solution": [
+    "Au présent, « {v} » : {fr2With(0, fr2Present(v, 0))}, nous {fr2Present(v, 4)}, ils {fr2Present(v, 6)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-66-rec",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les ouvriers ___ (recevoir) leur salaire le vendredi.",
+       "v": "recevoir",
+       "p": 6
+      },
+      {
+       "s": "Je ___ (recevoir) une lettre de mon oncle.",
+       "v": "recevoir",
+       "p": 0
+      },
+      {
+       "s": "Nous ___ (envoyer) les colis par la poste.",
+       "v": "envoyer",
+       "p": 4
+      },
+      {
+       "s": "Elle ___ (envoyer) de l’argent à sa mère.",
+       "v": "envoyer",
+       "p": 3
+      },
+      {
+       "s": "Vous ___ (voir) le patron demain ?",
+       "v": "voir",
+       "p": 5
+      },
+      {
+       "s": "Ils ___ (voir) les nouvelles machines.",
+       "v": "voir",
+       "p": 6
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au présent.",
+   "text": "{X.s}",
+   "answer": "fr2Present(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "pers",
+     "wrong": "fr2Present(X.v, 2)",
+     "explain": "Le sujet n’est pas « il » : la terminaison change.",
+     "when": "X.p != 2 && X.p != 3"
+    }
+   ],
+   "solution": [
+    "« {X.v} » au présent : {fr2With(0, fr2Present(X.v, 0))}, nous {fr2Present(X.v, 4)}, ils {fr2Present(X.v, 6)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-66-fp",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "voir",
+      "envoyer",
+      "recevoir",
+      "prendre",
+      "acheter",
+      "payer",
+      "écrire",
+      "lire"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Mets « {v} » au futur proche avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2FuturProche(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2Present('aller', p) + ' ' + fr2Participle(v))}",
+     "misconception": "pp"
+    },
+    {
+     "text": "{fr2With(p, fr2FuturSimple(v, p))}",
+     "misconception": "fs"
+    },
+    {
+     "text": "{fr2With(p, fr2Present('aller', (p + 4) % 8) + ' ' + v)}",
+     "misconception": "aller"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pp",
+     "explain": "Le deuxième verbe reste à l’infinitif."
+    },
+    {
+     "id": "fs",
+     "explain": "C’est le futur simple."
+    },
+    {
+     "id": "aller",
+     "explain": "« aller » doit s’accorder avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "Futur proche : aller au présent + infinitif.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-66-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "J’envoie un message.",
+      "truth": "true"
+     },
+     {
+      "text": "Ils reçoivent leur salaire.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous voyons le marché.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle va envoyer la facture.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ils recevent leur salaire.",
+      "truth": "false",
+      "explain": "On écrit : ils reçoivent."
+     },
+     {
+      "text": "Nous envoions le colis.",
+      "truth": "false",
+      "explain": "Avec « nous » : nous envoyons."
+     },
+     {
+      "text": "Je vais envoyé la lettre.",
+      "truth": "false",
+      "explain": "Après « vais », l’infinitif : envoyer."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

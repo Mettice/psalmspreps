@@ -27,6 +27,9 @@ const IRR = {
   sortir: { present: ["sors", "sors", "sort", "sortons", "sortez", "sortent"], pp: "sorti", aux: "être", ps: ["sortis", "sortis", "sortit", "sortîmes", "sortîtes", "sortirent"] },
   sentir: { present: ["sens", "sens", "sent", "sentons", "sentez", "sentent"], pp: "senti", aux: "avoir", ps: ["sentis", "sentis", "sentit", "sentîmes", "sentîtes", "sentirent"] },
   dormir: { present: ["dors", "dors", "dort", "dormons", "dormez", "dorment"], pp: "dormi", aux: "avoir", ps: ["dormis", "dormis", "dormit", "dormîmes", "dormîtes", "dormirent"] },
+  // added for Term 2 (2026-10-21, TR-Z10)
+  envoyer: { present: ["envoie", "envoies", "envoie", "envoyons", "envoyez", "envoient"], pp: "envoyé", aux: "avoir", ps: "er" },
+  recevoir: { present: ["reçois", "reçois", "reçoit", "recevons", "recevez", "reçoivent"], pp: "reçu", aux: "avoir", ps: ["reçus", "reçus", "reçut", "reçûmes", "reçûtes", "reçurent"] },
 };
 // Regular verbs used in the lessons; arriver, entrer, rentrer, tomber, rester and monter take être.
 const ETRE_ER = new Set(["arriver", "entrer", "rentrer", "tomber", "rester", "monter"]);
@@ -232,4 +235,73 @@ export function fr2AdvRule(a) {
   if (ADV[a].endsWith("emment")) return "-ent devient -emment";  // lent is not one: lente → lentement
   if (/[iéuy]$/.test(a)) return "après une voyelle, on ajoute -ment au masculin";
   return "on ajoute -ment au féminin de l’adjectif";
+}
+
+// ---------------------------------------------------------------- Term 2 tenses (2026-10-21, TR-Z10)
+// Future stems of the irregular verbs; regular verbs use the infinitive (appeler → appeller-, acheter → achèter-).
+const FUT = { être: "ser", avoir: "aur", aller: "ir", faire: "fer", dire: "dir", lire: "lir", écrire: "écrir", prendre: "prendr", voir: "verr", venir: "viendr",
+  partir: "partir", sortir: "sortir", sentir: "sentir", dormir: "dormir", envoyer: "enverr", recevoir: "recevr" };
+const FUT_END = ["ai", "as", "a", "ons", "ez", "ont"];
+/** The stem of the futur simple and the conditionnel: mangerai → manger-, verrai → verr-, appellerai → appeller-. */
+export function fr2FutureStem(v) {
+  if (FUT[v]) return FUT[v];
+  if (!isKnown(v)) throw new RangeError(`fr2FutureStem: ${v}`);
+  if (DOUBLE.has(v)) return v.slice(0, -3) + v.slice(-3, -2) + v.slice(-3);   // appeller, jetter
+  if (GRAVE.has(v)) return v.replace(/e([^e]*er)$/, "è$1");                    // achèter, lèver
+  return v;
+}
+/** Futur simple form alone: mangerai, finiras, verra, irons, ferez, seront. */
+export const fr2FuturSimple = (v, p) => fr2FutureStem(v) + FUT_END[PERSON[p]];
+/** Conditionnel présent form alone: future stem + imparfait endings (mangerais, verrions). */
+export const fr2Conditionnel = (v, p) => fr2FutureStem(v) + IMP[PERSON[p]];
+/** Futur proche with its pronoun: "je vais manger", "ils vont finir". */
+export const fr2FuturProche = (v, p) => withPronoun(p, `${fr2Present("aller", p)} ${v}`);
+/** Wrong on purpose: the future built on the whole infinitive, even for irregular verbs (voirai, allerai, faisrai), for feedback only. */
+export const fr2FuturNaive = (v, p) => (v.endsWith("re") ? v.slice(0, -1) : v) + FUT_END[PERSON[p]];
+/** Plus-que-parfait with its pronoun: imparfait of the auxiliary + participle, agreeing after être ("elles étaient parties"). */
+export function fr2PlusQueParfait(v, p) {
+  const aux = fr2Imparfait(fr2Aux(v), p);
+  let pp = fr2Participle(v);
+  if (fr2Aux(v) === "être") pp += (feminine(p) ? "e" : "") + (plural(p) ? "s" : "");
+  return withPronoun(p, `${aux} ${pp}`);
+}
+/** Wrong on purpose: the passé composé where the plus-que-parfait is needed (for feedback only). */
+export const fr2PqpAsPc = (v, p) => fr2PasseCompose(v, p);
+// Impératif: the tu, nous and vous forms (k = 0, 1, 2). -er verbs and aller lose the -s of "tu".
+const IMPER = { être: ["sois", "soyons", "soyez"], avoir: ["aie", "ayons", "ayez"], aller: ["va", "allons", "allez"] };
+export function fr2Imperatif(v, k) {
+  if (IMPER[v]) return IMPER[v][k];
+  const f = fr2Present(v, [1, 4, 5][k]);
+  return k === 0 && (fr2Group(v) === 1 || v === "envoyer") && f.endsWith("es") ? f.slice(0, -1) : f;
+}
+export const fr2ImperPerson = (k) => ["tu", "nous", "vous"][k];
+/** Wrong on purpose: the "tu" form of an -er verb kept with its -s (manges !), or a 2nd-group verb without -iss- (finons !). */
+export function fr2ImperNaive(v, k) {
+  if (SECOND.has(v)) return k === 0 ? v.slice(0, -2) + "it" : v.slice(0, -2) + ["", "ons", "ez"][k];
+  return fr2Present(v, [1, 4, 5][k]) + (k === 0 && !fr2Present(v, 1).endsWith("s") ? "s" : "");
+}
+// Subjonctif présent: the stem of "ils" in the présent + e, es, e, ions, iez, ent; nous and vous are the imparfait forms.
+const SUBJ = { être: ["sois", "sois", "soit", "soyons", "soyez", "soient"], avoir: ["aie", "aies", "ait", "ayons", "ayez", "aient"],
+  aller: ["aille", "ailles", "aille", "allions", "alliez", "aillent"], faire: ["fasse", "fasses", "fasse", "fassions", "fassiez", "fassent"] };
+const SUBJ_END = ["e", "es", "e", "ions", "iez", "ent"];
+export function fr2Subjonctif(v, p) {
+  const k = PERSON[p];
+  if (SUBJ[v]) return SUBJ[v][k];
+  if (k === 3 || k === 4) return fr2Imparfait(v, p);
+  return fr2Present(v, 6).slice(0, -3) + SUBJ_END[k];
+}
+/** "que je mange", "qu’il finisse", "que j’aie". */
+export function fr2Que(p, form) {
+  const w = withPronoun(p, form);
+  return /^[aeiouéè]/.test(w) ? `qu’${w}` : `que ${w}`;
+}
+/** Wrong on purpose: the indicatif présent where the subjonctif is needed (que tu finis, qu’il fait), for feedback only. */
+export const fr2SubjAsPresent = (v, p) => fr2Present(v, p);
+/** A full form with its pronoun in the Term 2 tenses too. */
+export function fr2Form2(v, p, t) {
+  if (t === "futur simple") return withPronoun(p, fr2FuturSimple(v, p));
+  if (t === "conditionnel présent") return withPronoun(p, fr2Conditionnel(v, p));
+  if (t === "futur proche") return fr2FuturProche(v, p);
+  if (t === "plus-que-parfait") return fr2PlusQueParfait(v, p);
+  return fr2Form(v, p, t);
 }

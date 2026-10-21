@@ -1,0 +1,358 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 37,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-37",
+   "name": "Les loisirs et les jeux (suite)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les loisirs sont les activités qu’on fait pendant son temps libre, pour se détendre.\n• Jeux de société : le songo (awalé), le ludo, les dames, les cartes, le scrabble.\n• Jeux de plein air : la corde à sauter, le cache-cache, le football, la course, le jeu de billes.\n• Loisirs culturels : la lecture, la musique, la danse, le théâtre, le cinéma, la visite d’un musée.\n• Mots utiles : un joueur, une équipe, un adversaire, un arbitre, la règle du jeu, gagner, perdre, faire match nul, un tournoi, un pion, un dé.\nOn dit : « jouer au football, jouer aux cartes » (sport, jeu) mais « jouer du tam-tam, jouer de la guitare » (instrument).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Le week-end, mon frère joue ___ guitare et ma sœur joue ___ songo. »",
+  "steps": [
+   "La guitare est un instrument : on dit « jouer de la ».",
+   "Le songo est un jeu : on dit « jouer au »."
+  ],
+  "answer": "Mon frère joue de la guitare et ma sœur joue au songo.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c37-1",
+    "status": "draft",
+    "idea": "Les loisirs sont les activités du temps libre : jeux, sports, lecture, musique.",
+    "vars": {},
+    "example": [
+     "Le songo est un jeu de société."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-37-mot"
+    }
+   },
+   {
+    "id": "c37-2",
+    "status": "draft",
+    "idea": "On dit « jouer à » un jeu ou un sport, « jouer de » un instrument.",
+    "vars": {},
+    "example": [
+     "jouer au ludo, jouer du balafon"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-37-jouer"
+    }
+   },
+   {
+    "id": "c37-3",
+    "status": "draft",
+    "idea": "L’arbitre fait respecter la règle du jeu.",
+    "vars": {},
+    "example": [
+     "Les deux équipes ont fait match nul."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-37-def-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "prompt": "Associe chaque mot à sa définition.",
+     "pool": [
+      {
+       "left": "l’arbitre",
+       "right": "il fait respecter les règles"
+      },
+      {
+       "left": "l’adversaire",
+       "right": "celui contre qui on joue"
+      },
+      {
+       "left": "un tournoi",
+       "right": "une compétition avec plusieurs équipes"
+      },
+      {
+       "left": "un match nul",
+       "right": "aucune équipe ne gagne"
+      },
+      {
+       "left": "un pion",
+       "right": "une petite pièce d’un jeu de société"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-37-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel est un jeu de société ?",
+       "r": "le ludo",
+       "w": [
+        "la natation",
+        "la course",
+        "le saut en hauteur"
+       ],
+       "e": [
+        "C’est un sport.",
+        "C’est un sport.",
+        "C’est un sport."
+       ],
+       "y": "On y joue autour d’une table."
+      },
+      {
+       "q": "Quel loisir est culturel ?",
+       "r": "aller au théâtre",
+       "w": [
+        "jouer aux billes",
+        "sauter à la corde",
+        "jouer à cache-cache"
+       ],
+       "e": [
+        "C’est un jeu de plein air.",
+        "C’est un jeu de plein air.",
+        "C’est un jeu de plein air."
+       ],
+       "y": "Le théâtre est un art."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-37-jouer",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les garçons jouent ___ football après l’école.",
+       "a": "au",
+       "w": [
+        "du",
+        "de la"
+       ],
+       "e": [
+        "Pour un sport, on dit « jouer à ».",
+        "Pour un sport, on dit « jouer au »."
+       ]
+      },
+      {
+       "s": "Mon oncle joue ___ balafon pendant la fête.",
+       "a": "du",
+       "w": [
+        "au",
+        "à la"
+       ],
+       "e": [
+        "Pour un instrument, on dit « jouer de ».",
+        "Pour un instrument, on dit « jouer du »."
+       ]
+      },
+      {
+       "s": "Ma cousine joue ___ guitare.",
+       "a": "de la",
+       "w": [
+        "à la",
+        "au"
+       ],
+       "e": [
+        "Pour un instrument : « jouer de la ».",
+        "« guitare » est féminin et c’est un instrument."
+       ]
+      },
+      {
+       "s": "Nous jouons ___ cartes le soir.",
+       "a": "aux",
+       "w": [
+        "des",
+        "de la"
+       ],
+       "e": [
+        "Pour un jeu : « jouer aux ».",
+        "Pour un jeu : « jouer aux »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-37-def",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Associe chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "l’arbitre",
+     "right": "il fait respecter les règles"
+    },
+    {
+     "left": "l’adversaire",
+     "right": "celui contre qui on joue"
+    },
+    {
+     "left": "un tournoi",
+     "right": "une compétition avec plusieurs équipes"
+    },
+    {
+     "left": "un match nul",
+     "right": "aucune équipe ne gagne"
+    },
+    {
+     "left": "un pion",
+     "right": "une petite pièce d’un jeu de société"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-37-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On joue au songo avec des graines.",
+      "truth": "true"
+     },
+     {
+      "text": "L’arbitre fait respecter la règle.",
+      "truth": "true"
+     },
+     {
+      "text": "On joue de la flûte.",
+      "truth": "true"
+     },
+     {
+      "text": "Les loisirs se font pendant le temps libre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On joue du football.",
+      "truth": "false",
+      "explain": "Pour un sport, on dit « jouer au football »."
+     },
+     {
+      "text": "Un match nul veut dire qu’une équipe a gagné.",
+      "truth": "false",
+      "explain": "Personne ne gagne."
+     },
+     {
+      "text": "On joue aux tam-tams pour faire de la musique.",
+      "truth": "false",
+      "explain": "Pour un instrument : « jouer du tam-tam »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

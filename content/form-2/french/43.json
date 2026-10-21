@@ -1,0 +1,468 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 43,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-43",
+   "name": "La phrase interro-négative"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La phrase interro-négative pose une question à la forme négative. Elle finit par un point d’interrogation.\nTrois façons :\n• intonation : « Tu ne viens pas ? »\n• est-ce que : « Est-ce que tu ne viens pas ? »\n• inversion du sujet : « Ne viens-tu pas ? » (avec un trait d’union ; on ajoute -t- entre deux voyelles : « N’aime-t-il pas le riz ? »)\nAu passé composé, la négation entoure l’auxiliaire : « N’as-tu pas fini ? »\nPour répondre « oui » à une question négative, on dit « si » : « Tu ne viens pas ? — Si, je viens. » ; sinon : « Non, je ne viens pas. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mets à la forme interro-négative avec inversion : « Il mange du poisson. »",
+  "steps": [
+   "Négation : « Il ne mange pas de poisson. »",
+   "Inversion : le verbe avant le sujet, avec -t- entre deux voyelles : « Ne mange-t-il pas de poisson ? »"
+  ],
+  "answer": "Ne mange-t-il pas de poisson ?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c43-1",
+    "status": "draft",
+    "idea": "La phrase interro-négative est une question à la forme négative.",
+    "vars": {},
+    "example": [
+     "Tu ne viens pas ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-43-quoi"
+    }
+   },
+   {
+    "id": "c43-2",
+    "status": "draft",
+    "idea": "Avec l’inversion : Ne + verbe-sujet + pas ? Entre deux voyelles, on ajoute -t-.",
+    "vars": {},
+    "example": [
+     "Ne parle-t-elle pas ?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-43-inv-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "« Tu aimes le football. »",
+         "r": "N’aimes-tu pas le football ?",
+         "w": [
+          "Ne tu aimes pas le football ?",
+          "Aimes-tu pas le football ?",
+          "N’aimes pas-tu le football ?"
+         ],
+         "e": [
+          "Le sujet va après le verbe.",
+          "Il manque « ne ».",
+          "« pas » va après le sujet."
+         ],
+         "y": "Ne + verbe-sujet + pas."
+        },
+        {
+         "q": "« Il parle anglais. »",
+         "r": "Ne parle-t-il pas anglais ?",
+         "w": [
+          "Ne parle-il pas anglais ?",
+          "Parle-t-il pas anglais ?",
+          "Ne il parle pas anglais ?"
+         ],
+         "e": [
+          "Il faut -t- entre deux voyelles.",
+          "Il manque « ne ».",
+          "Le sujet va après le verbe."
+         ],
+         "y": "On ajoute -t- entre parle et il."
+        },
+        {
+         "q": "« Vous avez fini. »",
+         "r": "N’avez-vous pas fini ?",
+         "w": [
+          "Ne vous avez pas fini ?",
+          "N’avez pas-vous fini ?",
+          "Avez-vous pas fini ?"
+         ],
+         "e": [
+          "Le sujet va après l’auxiliaire.",
+          "« pas » va après le sujet.",
+          "Il manque « ne »."
+         ],
+         "y": "La négation entoure l’auxiliaire inversé."
+        }
+       ]
+      }
+     },
+     "prompt": "Mets à la forme interro-négative avec inversion : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c43-3",
+    "status": "draft",
+    "idea": "Pour répondre oui à une question négative, on dit « si ».",
+    "vars": {},
+    "example": [
+     "Tu n’as pas faim ? — Si, j’ai faim."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-43-si"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-43-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase est interro-négative ?",
+       "r": "Ne viens-tu pas à la fête ?",
+       "w": [
+        "Viens-tu à la fête ?",
+        "Tu ne viens pas à la fête.",
+        "Viens à la fête !"
+       ],
+       "e": [
+        "Elle n’est pas négative.",
+        "Ce n’est pas une question.",
+        "C’est un ordre."
+       ],
+       "y": "Question + négation."
+      },
+      {
+       "q": "Quelle phrase est interro-négative ?",
+       "r": "Est-ce que vous n’avez pas compris ?",
+       "w": [
+        "Vous n’avez pas compris.",
+        "Avez-vous compris ?",
+        "Comprenez !"
+       ],
+       "e": [
+        "Ce n’est pas une question.",
+        "Elle n’est pas négative.",
+        "C’est un ordre."
+       ],
+       "y": "Question + négation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-43-inv",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "« Tu aimes le football. »",
+       "r": "N’aimes-tu pas le football ?",
+       "w": [
+        "Ne tu aimes pas le football ?",
+        "Aimes-tu pas le football ?",
+        "N’aimes pas-tu le football ?"
+       ],
+       "e": [
+        "Le sujet va après le verbe.",
+        "Il manque « ne ».",
+        "« pas » va après le sujet."
+       ],
+       "y": "Ne + verbe-sujet + pas."
+      },
+      {
+       "q": "« Il parle anglais. »",
+       "r": "Ne parle-t-il pas anglais ?",
+       "w": [
+        "Ne parle-il pas anglais ?",
+        "Parle-t-il pas anglais ?",
+        "Ne il parle pas anglais ?"
+       ],
+       "e": [
+        "Il faut -t- entre deux voyelles.",
+        "Il manque « ne ».",
+        "Le sujet va après le verbe."
+       ],
+       "y": "On ajoute -t- entre parle et il."
+      },
+      {
+       "q": "« Vous avez fini. »",
+       "r": "N’avez-vous pas fini ?",
+       "w": [
+        "Ne vous avez pas fini ?",
+        "N’avez pas-vous fini ?",
+        "Avez-vous pas fini ?"
+       ],
+       "e": [
+        "Le sujet va après l’auxiliaire.",
+        "« pas » va après le sujet.",
+        "Il manque « ne »."
+       ],
+       "y": "La négation entoure l’auxiliaire inversé."
+      }
+     ]
+    }
+   },
+   "prompt": "Mets à la forme interro-négative avec inversion : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-43-si",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "« Tu n’as pas faim ? » — « ___, j’ai très faim. »",
+       "a": "Si",
+       "w": [
+        "Oui",
+        "Non"
+       ],
+       "e": [
+        "Après une question négative, on dit « si » pour oui.",
+        "« Non » veut dire que tu n’as pas faim."
+       ]
+      },
+      {
+       "s": "« Il ne vient pas ? » — « ___, il est malade. »",
+       "a": "Non",
+       "w": [
+        "Si",
+        "Oui"
+       ],
+       "e": [
+        "« Si » voudrait dire qu’il vient.",
+        "On ne dit pas « oui » à une question négative."
+       ]
+      },
+      {
+       "s": "« Vous n’aimez pas le ndolé ? » — « ___, nous l’aimons beaucoup. »",
+       "a": "Si",
+       "w": [
+        "Oui",
+        "Non"
+       ],
+       "e": [
+        "On dit « si ».",
+        "« Non » contredit la suite."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne réponse.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-43-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase interro-négative est mal écrite ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ne viens-tu pas ?",
+      "truth": "true"
+     },
+     {
+      "text": "N’aime-t-il pas le riz ?",
+      "truth": "true"
+     },
+     {
+      "text": "Est-ce que tu ne dors pas ?",
+      "truth": "true"
+     },
+     {
+      "text": "N’avez-vous pas fini ?",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ne mange-il pas ?",
+      "truth": "false",
+      "explain": "Entre deux voyelles, on ajoute -t- : Ne mange-t-il pas ?"
+     },
+     {
+      "text": "Aimes-tu pas le riz ?",
+      "truth": "false",
+      "explain": "Il manque « ne » : N’aimes-tu pas le riz ?"
+     },
+     {
+      "text": "Ne tu viens pas ?",
+      "truth": "false",
+      "explain": "Avec l’inversion, le sujet suit le verbe : Ne viens-tu pas ?"
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

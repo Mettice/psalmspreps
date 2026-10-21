@@ -1,0 +1,409 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 55,
+ "language": "fr",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "fr2-55",
+   "name": "Interpréter une image sur le monde du travail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour présenter une image à l’oral, on procède en trois étapes :\n1. Présenter : la nature du document (une photo, une affiche, un dessin) et le thème : « Cette photo montre un marché. »\n2. Décrire en situant : au premier plan, à l’arrière-plan, au centre, à gauche, à droite : « Au premier plan, une vendeuse pèse des tomates. »\n3. Interpréter : le message et son avis : « Cette image montre que le commerce fait vivre beaucoup de familles. À mon avis… »\nMots utiles pour le travail : travailler dur, gagner sa vie, un métier, un outil, une usine, un champ, un atelier, la sueur, l’effort.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une photo montre au premier plan un menuisier qui scie une planche ; à l’arrière-plan, des chaises finies. Présente-la.",
+  "steps": [
+   "Présenter et décrire : « Cette photo montre un atelier. Au premier plan, un menuisier scie une planche ; à l’arrière-plan, on voit des chaises. »",
+   "Interpréter : « Elle montre que le travail manuel crée des objets utiles. »"
+  ],
+  "answer": "On présente l’atelier, on décrit le menuisier et les chaises, puis on dit que le travail manuel est utile.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c55-1",
+    "status": "draft",
+    "idea": "Présenter, décrire, puis interpréter.",
+    "vars": {},
+    "example": [
+     "« Cette affiche montre… »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-55-ordre"
+    }
+   },
+   {
+    "id": "c55-2",
+    "status": "draft",
+    "idea": "On situe avec : au premier plan, à l’arrière-plan, à gauche, à droite.",
+    "vars": {},
+    "example": [
+     "À gauche, un homme porte un sac."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-55-plan"
+    }
+   },
+   {
+    "id": "c55-3",
+    "status": "draft",
+    "idea": "Interpréter, c’est dire le message et donner son avis.",
+    "vars": {},
+    "example": [
+     "À mon avis, tout travail mérite respect."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-55-msg-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Une image montre des enfants qui vendent dans la rue pendant les heures de classe. Quel message peut-on en tirer ?",
+         "r": "Le travail des enfants les empêche d’aller à l’école.",
+         "w": [
+          "Il y a beaucoup de bananes.",
+          "Le ciel est bleu.",
+          "La rue est longue."
+         ],
+         "e": [
+          "C’est une description.",
+          "C’est une description.",
+          "C’est une description."
+         ],
+         "y": "Interpréter, c’est dire le message."
+        },
+        {
+         "q": "Quelle phrase donne un avis ?",
+         "r": "À mon avis, tout travail honnête mérite respect.",
+         "w": [
+          "Au centre, il y a un tailleur.",
+          "À gauche, on voit une machine à coudre.",
+          "Cette photo montre un atelier."
+         ],
+         "e": [
+          "C’est une description.",
+          "C’est une description.",
+          "C’est une présentation."
+         ],
+         "y": "« À mon avis » introduit un avis."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-55-ordre",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Cette photo montre un champ de cacao.",
+       "Au premier plan, un paysan ouvre des cabosses.",
+       "À l’arrière-plan, des femmes portent des paniers.",
+       "Cette image montre que l’agriculture fait vivre les familles."
+      ],
+      [
+       "Cette affiche présente une usine.",
+       "Au centre, des ouvriers travaillent sur des machines.",
+       "À droite, un chef d’équipe surveille.",
+       "Elle montre l’importance du travail en équipe."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets la présentation de l’image dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-55-plan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que veut dire « à l’arrière-plan » ?",
+       "r": "au fond de l’image",
+       "w": [
+        "devant",
+        "à gauche",
+        "dans le titre"
+       ],
+       "e": [
+        "C’est le premier plan.",
+        "C’est un côté.",
+        "Ce n’est pas une partie de l’image."
+       ],
+       "y": "Le plus loin de nous."
+      },
+      {
+       "q": "Quelle phrase décrit en situant ?",
+       "r": "Au premier plan, une vendeuse pèse des tomates.",
+       "w": [
+        "Le commerce est important.",
+        "À mon avis, c’est une belle photo.",
+        "Cette image dénonce la paresse."
+       ],
+       "e": [
+        "C’est une interprétation.",
+        "C’est un avis.",
+        "C’est une interprétation."
+       ],
+       "y": "Elle situe un élément."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-55-msg",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une image montre des enfants qui vendent dans la rue pendant les heures de classe. Quel message peut-on en tirer ?",
+       "r": "Le travail des enfants les empêche d’aller à l’école.",
+       "w": [
+        "Il y a beaucoup de bananes.",
+        "Le ciel est bleu.",
+        "La rue est longue."
+       ],
+       "e": [
+        "C’est une description.",
+        "C’est une description.",
+        "C’est une description."
+       ],
+       "y": "Interpréter, c’est dire le message."
+      },
+      {
+       "q": "Quelle phrase donne un avis ?",
+       "r": "À mon avis, tout travail honnête mérite respect.",
+       "w": [
+        "Au centre, il y a un tailleur.",
+        "À gauche, on voit une machine à coudre.",
+        "Cette photo montre un atelier."
+       ],
+       "e": [
+        "C’est une description.",
+        "C’est une description.",
+        "C’est une présentation."
+       ],
+       "y": "« À mon avis » introduit un avis."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-55-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On présente d’abord le document.",
+      "truth": "true"
+     },
+     {
+      "text": "On décrit en situant les éléments.",
+      "truth": "true"
+     },
+     {
+      "text": "On interprète le message.",
+      "truth": "true"
+     },
+     {
+      "text": "On peut donner son avis.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On donne son avis sans regarder l’image.",
+      "truth": "false",
+      "explain": "On regarde et on décrit d’abord."
+     },
+     {
+      "text": "« Au premier plan » veut dire au fond de l’image.",
+      "truth": "false",
+      "explain": "Cela veut dire devant."
+     },
+     {
+      "text": "Interpréter, c’est compter les personnes.",
+      "truth": "false",
+      "explain": "C’est dire le message de l’image."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

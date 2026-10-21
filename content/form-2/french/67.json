@@ -1,0 +1,442 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 67,
+ "language": "fr",
+ "prerequisites": [
+  36
+ ],
+ "skills": [
+  {
+   "id": "fr2-67",
+   "name": "Les adjectifs indéfinis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un adjectif indéfini se place devant le nom et indique une quantité ou une identité imprécise.\n• Quantité nulle : aucun, aucune, nul : « Aucun ouvrier n’est absent. » (avec « ne »)\n• Quantité imprécise : quelques, plusieurs, certains, certaines : « Plusieurs clients attendent. »\n• Totalité : tout, toute, tous, toutes ; chaque (singulier) : « Tous les employés sont payés. » « Chaque travailleur a un contrat. »\n• Identité : même, autre, tel : « Ils font le même métier. » « Prends une autre chaise. »\nL’adjectif indéfini s’accorde souvent avec le nom : tout le travail, toute la journée, tous les jours, toutes les femmes.\n« Chaque » et « aucun » sont toujours au singulier.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète avec « tout » accordé : « ___ les ouvrières sont arrivées à l’heure. »",
+  "steps": [
+   "« ouvrières » est féminin pluriel.",
+   "« tout » s’accorde : toutes."
+  ],
+  "answer": "Toutes les ouvrières sont arrivées à l’heure.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c67-1",
+    "status": "draft",
+    "idea": "L’adjectif indéfini se place devant le nom : quelques, plusieurs, chaque, aucun, tout.",
+    "vars": {},
+    "example": [
+     "Plusieurs clients attendent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-67-quoi"
+    }
+   },
+   {
+    "id": "c67-2",
+    "status": "draft",
+    "idea": "tout, toute, tous, toutes s’accordent avec le nom.",
+    "vars": {},
+    "example": [
+     "toute la journée, tous les jours"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-67-tout"
+    }
+   },
+   {
+    "id": "c67-3",
+    "status": "draft",
+    "idea": "« chaque » et « aucun » restent au singulier ; « aucun » s’emploie avec « ne ».",
+    "vars": {},
+    "example": [
+     "Aucun élève n’est absent."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-67-chaque-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "___ travailleur a droit à un congé.",
+         "a": "Chaque",
+         "w": [
+          "Plusieurs",
+          "Tous"
+         ],
+         "e": [
+          "« travailleur » est singulier.",
+          "« travailleur » est singulier."
+         ]
+        },
+        {
+         "s": "___ client n’est venu ce matin.",
+         "a": "Aucun",
+         "w": [
+          "Plusieurs",
+          "Quelques"
+         ],
+         "e": [
+          "Le verbe est au singulier avec « ne ».",
+          "Le verbe est au singulier avec « ne »."
+         ]
+        },
+        {
+         "s": "Nous avons ___ questions à poser.",
+         "a": "quelques",
+         "w": [
+          "chaque",
+          "aucun"
+         ],
+         "e": [
+          "« chaque » va avec un singulier.",
+          "« aucun » va avec un singulier."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-67-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Plusieurs clients attendent », quel mot est un adjectif indéfini ?",
+       "r": "plusieurs",
+       "w": [
+        "clients",
+        "attendent",
+        "aucun mot"
+       ],
+       "e": [
+        "C’est un nom.",
+        "C’est un verbe.",
+        "Il y en a un."
+       ],
+       "y": "Il indique une quantité imprécise."
+      },
+      {
+       "q": "Quel adjectif indéfini indique la quantité zéro ?",
+       "r": "aucun",
+       "w": [
+        "plusieurs",
+        "tous",
+        "quelques"
+       ],
+       "e": [
+        "Plus d’un.",
+        "La totalité.",
+        "Un petit nombre."
+       ],
+       "y": "aucun = zéro."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-67-tout",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il a travaillé ___ la journée.",
+       "a": "toute",
+       "w": [
+        "tout",
+        "tous"
+       ],
+       "e": [
+        "« journée » est féminin singulier.",
+        "« journée » est singulier."
+       ]
+      },
+      {
+       "s": "___ les employés reçoivent un salaire.",
+       "a": "Tous",
+       "w": [
+        "Tout",
+        "Toutes"
+       ],
+       "e": [
+        "« employés » est pluriel.",
+        "« employés » est masculin."
+       ]
+      },
+      {
+       "s": "___ les vendeuses sont au marché.",
+       "a": "Toutes",
+       "w": [
+        "Tous",
+        "Toute"
+       ],
+       "e": [
+        "« vendeuses » est féminin.",
+        "« vendeuses » est pluriel."
+       ]
+      },
+      {
+       "s": "Il a fini ___ le travail.",
+       "a": "tout",
+       "w": [
+        "toute",
+        "tous"
+       ],
+       "e": [
+        "« travail » est masculin.",
+        "« travail » est singulier."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme de « tout ».",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-67-chaque",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ travailleur a droit à un congé.",
+       "a": "Chaque",
+       "w": [
+        "Plusieurs",
+        "Tous"
+       ],
+       "e": [
+        "« travailleur » est singulier.",
+        "« travailleur » est singulier."
+       ]
+      },
+      {
+       "s": "___ client n’est venu ce matin.",
+       "a": "Aucun",
+       "w": [
+        "Plusieurs",
+        "Quelques"
+       ],
+       "e": [
+        "Le verbe est au singulier avec « ne ».",
+        "Le verbe est au singulier avec « ne »."
+       ]
+      },
+      {
+       "s": "Nous avons ___ questions à poser.",
+       "a": "quelques",
+       "w": [
+        "chaque",
+        "aucun"
+       ],
+       "e": [
+        "« chaque » va avec un singulier.",
+        "« aucun » va avec un singulier."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-67-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Chaque élève a un cahier.",
+      "truth": "true"
+     },
+     {
+      "text": "Tous les ouvriers sont là.",
+      "truth": "true"
+     },
+     {
+      "text": "Plusieurs femmes vendent du poisson.",
+      "truth": "true"
+     },
+     {
+      "text": "Aucun client n’est venu.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chaques élèves ont un livre.",
+      "truth": "false",
+      "explain": "« chaque » reste au singulier : chaque élève a un livre."
+     },
+     {
+      "text": "Tout les employés sont payés.",
+      "truth": "false",
+      "explain": "Au pluriel masculin : tous les employés."
+     },
+     {
+      "text": "Aucuns clients sont venus.",
+      "truth": "false",
+      "explain": "On écrit : aucun client n’est venu."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

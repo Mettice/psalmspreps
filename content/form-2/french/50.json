@@ -1,0 +1,438 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 50,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-50",
+   "name": "Les noms comptables"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un nom comptable désigne une chose qu’on peut compter une par une : un livre, deux livres ; une orange, trois oranges ; un élève, des élèves.\n• Il peut se mettre au singulier et au pluriel.\n• Il s’emploie avec un, une, des, un nombre (deux, dix…), plusieurs, quelques, chaque.\n• Pour demander la quantité : « Combien de livres ? »\nExemples : « J’ai acheté trois cahiers. » « Plusieurs élèves sont absents. » « Chaque citoyen a des droits. »\nOn n’emploie pas « du », « de la » avec un nom comptable : on dit « un œuf » et non « de l’œuf » quand on parle d’un œuf entier.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "« mangue » est-il un nom comptable ? Donne un exemple.",
+  "steps": [
+   "On peut compter les mangues une par une : une mangue, deux mangues.",
+   "Il s’emploie avec un nombre : « J’ai cueilli cinq mangues. »"
+  ],
+  "answer": "Oui : « J’ai cueilli cinq mangues. »",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c50-1",
+    "status": "draft",
+    "idea": "Un nom comptable désigne ce qu’on peut compter : un livre, deux livres.",
+    "vars": {},
+    "example": [
+     "une chaise, trois chaises"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-50-quoi"
+    }
+   },
+   {
+    "id": "c50-2",
+    "status": "draft",
+    "idea": "Il s’emploie avec un, des, un nombre, plusieurs, quelques, chaque.",
+    "vars": {},
+    "example": [
+     "Plusieurs élèves chantent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-50-det"
+    }
+   },
+   {
+    "id": "c50-3",
+    "status": "draft",
+    "idea": "Pour la quantité, on demande : « Combien de … ? »",
+    "vars": {},
+    "example": [
+     "Combien de cahiers as-tu ?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-50-combien-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle question demande une quantité de choses comptables ?",
+         "r": "Combien de cahiers as-tu ?",
+         "w": [
+          "Combien de cahier as-tu ?",
+          "Quel cahier as-tu ?",
+          "Où sont les cahiers ?"
+         ],
+         "e": [
+          "Après « combien de », le nom comptable est au pluriel.",
+          "Elle ne demande pas la quantité.",
+          "Elle demande le lieu."
+         ],
+         "y": "Combien de + nom au pluriel."
+        },
+        {
+         "q": "Dans quelle phrase le nom est-il comptable ?",
+         "r": "J’ai lu deux livres.",
+         "w": [
+          "J’ai bu de l’eau.",
+          "Il mange du riz.",
+          "Elle achète de la farine."
+         ],
+         "e": [
+          "L’eau ne se compte pas.",
+          "Le riz ne se compte pas.",
+          "La farine ne se compte pas."
+         ],
+         "y": "On compte les livres."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-50-quoi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel nom est comptable ?",
+       "r": "un cahier",
+       "w": [
+        "du sable",
+        "de l’eau",
+        "du riz"
+       ],
+       "e": [
+        "On ne compte pas les grains de sable un par un.",
+        "L’eau ne se compte pas.",
+        "On ne compte pas les grains de riz."
+       ],
+       "y": "un cahier, deux cahiers."
+      },
+      {
+       "q": "Quel nom est comptable ?",
+       "r": "une orange",
+       "w": [
+        "de la farine",
+        "du lait",
+        "de l’huile"
+       ],
+       "e": [
+        "La farine ne se compte pas.",
+        "Le lait ne se compte pas.",
+        "L’huile ne se compte pas."
+       ],
+       "y": "une orange, trois oranges."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-50-det",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il y a ___ élèves dans la cour.",
+       "a": "plusieurs",
+       "w": [
+        "du",
+        "de la"
+       ],
+       "e": [
+        "« élèves » se compte.",
+        "« élèves » se compte."
+       ]
+      },
+      {
+       "s": "Ma mère a acheté ___ ananas au marché.",
+       "a": "trois",
+       "w": [
+        "du",
+        "beaucoup d’"
+       ],
+       "e": [
+        "« ananas » se compte : un nombre.",
+        "Ici, on donne le nombre exact."
+       ]
+      },
+      {
+       "s": "___ enfant a le droit d’aller à l’école.",
+       "a": "Chaque",
+       "w": [
+        "Du",
+        "De l’"
+       ],
+       "e": [
+        "« enfant » se compte.",
+        "« enfant » se compte."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-50-combien",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle question demande une quantité de choses comptables ?",
+       "r": "Combien de cahiers as-tu ?",
+       "w": [
+        "Combien de cahier as-tu ?",
+        "Quel cahier as-tu ?",
+        "Où sont les cahiers ?"
+       ],
+       "e": [
+        "Après « combien de », le nom comptable est au pluriel.",
+        "Elle ne demande pas la quantité.",
+        "Elle demande le lieu."
+       ],
+       "y": "Combien de + nom au pluriel."
+      },
+      {
+       "q": "Dans quelle phrase le nom est-il comptable ?",
+       "r": "J’ai lu deux livres.",
+       "w": [
+        "J’ai bu de l’eau.",
+        "Il mange du riz.",
+        "Elle achète de la farine."
+       ],
+       "e": [
+        "L’eau ne se compte pas.",
+        "Le riz ne se compte pas.",
+        "La farine ne se compte pas."
+       ],
+       "y": "On compte les livres."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-50-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Un nom comptable peut être au pluriel.",
+      "truth": "true"
+     },
+     {
+      "text": "On peut dire « trois chaises ».",
+      "truth": "true"
+     },
+     {
+      "text": "On demande « combien de livres ? ».",
+      "truth": "true"
+     },
+     {
+      "text": "« Chaque élève » est correct.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On dit « j’ai acheté du cahier ».",
+      "truth": "false",
+      "explain": "« cahier » est comptable : un cahier, des cahiers."
+     },
+     {
+      "text": "« eau » est un nom comptable.",
+      "truth": "false",
+      "explain": "L’eau ne se compte pas une par une."
+     },
+     {
+      "text": "Un nom comptable ne se met jamais au pluriel.",
+      "truth": "false",
+      "explain": "Il peut se mettre au pluriel."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 68,
+ "language": "fr",
+ "prerequisites": [
+  58,
+  66
+ ],
+ "skills": [
+  {
+   "id": "fr2-68",
+   "name": "Le futur proche des verbes du monde du travail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour parler de projets de travail proches, on emploie le futur proche : aller au présent + infinitif.\n• embaucher : « L’usine va embaucher cent jeunes. »\n• ouvrir : « Ma tante va ouvrir une boutique. »\n• payer : « Le patron va payer les salaires. »\n• construire, vendre, livrer, signer : « Nous allons signer le contrat. »\nLe futur proche peut aussi s’employer à la forme négative : « Je ne vais pas démissionner. »\net à la forme interrogative : « Vas-tu travailler samedi ? » « Est-ce qu’ils vont livrer demain ? »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "embaucher",
+   "p": 6
+  },
+  "problem": "Fais une phrase au futur proche avec « {v} » et « {fr2Pronoun(p)} ».",
+  "steps": [
+   "« aller » au présent : {fr2With(p, fr2Present('aller', p))}.",
+   "On ajoute l’infinitif : « Ils {fr2Present('aller', p)} {v} deux ouvriers. »"
+  ],
+  "answer": "Ils {fr2Present('aller', p)} {v} deux ouvriers.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c68-1",
+    "status": "draft",
+    "idea": "Pour un projet proche : aller + infinitif.",
+    "vars": {},
+    "example": [
+     "Ma tante va ouvrir une boutique."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-68-form"
+    }
+   },
+   {
+    "id": "c68-2",
+    "status": "draft",
+    "idea": "À la forme négative : ne … pas autour d’« aller ».",
+    "vars": {},
+    "example": [
+     "Je ne vais pas démissionner."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-68-neg"
+    }
+   },
+   {
+    "id": "c68-3",
+    "status": "draft",
+    "idea": "À la forme interrogative : inversion ou « est-ce que ».",
+    "vars": {},
+    "example": [
+     "Vas-tu travailler samedi ?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-68-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "L’usine va embaucher cent jeunes.",
+         "b": "L’usine va embaucher cent jeunes."
+        },
+        {
+         "a": "Ma tante va ouvrir une boutique.",
+         "b": "Ma tante va ouvrir une boutique."
+        },
+        {
+         "a": "Le patron ne va pas fermer l’atelier.",
+         "b": "Le patron ne va pas fermer l’atelier."
+        },
+        {
+         "a": "Nous allons signer le contrat demain.",
+         "b": "Nous allons signer le contrat demain."
+        }
+       ]
+      }
+     },
+     "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-68-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "embaucher",
+      "payer",
+      "signer",
+      "livrer",
+      "travailler",
+      "commencer",
+      "fermer",
+      "organiser"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Mets « {v} » au futur proche avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2FuturProche(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2Present('aller', p) + ' ' + fr2Participle(v))}",
+     "misconception": "pp"
+    },
+    {
+     "text": "{fr2With(p, fr2Present('aller', (p + 4) % 8) + ' ' + v)}",
+     "misconception": "aller"
+    },
+    {
+     "text": "{fr2PasseCompose(v, p)}",
+     "misconception": "pc"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pp",
+     "explain": "Le deuxième verbe reste à l’infinitif."
+    },
+    {
+     "id": "aller",
+     "explain": "« aller » doit s’accorder avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "pc",
+     "explain": "C’est le passé composé."
+    }
+   ],
+   "solution": [
+    "Futur proche : aller au présent + infinitif.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-68-neg",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase au futur proche est à la forme négative ?",
+       "r": "Le patron ne va pas fermer l’usine.",
+       "w": [
+        "Le patron va fermer l’usine.",
+        "Le patron n’a pas fermé l’usine.",
+        "Le patron ne fermera pas l’usine."
+       ],
+       "e": [
+        "Elle est affirmative.",
+        "C’est le passé composé.",
+        "C’est le futur simple."
+       ],
+       "y": "ne … pas autour de « va »."
+      },
+      {
+       "q": "Quelle phrase au futur proche est interrogative ?",
+       "r": "Vas-tu travailler samedi ?",
+       "w": [
+        "Tu vas travailler samedi.",
+        "Tu as travaillé samedi ?",
+        "Travailleras-tu samedi ?"
+       ],
+       "e": [
+        "Ce n’est pas une question.",
+        "C’est le passé composé.",
+        "C’est le futur simple."
+       ],
+       "y": "aller + infinitif, avec inversion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-68-inf",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Demain, nous allons ___ le contrat.",
+       "a": "signer",
+       "w": [
+        "signé",
+        "signons"
+       ],
+       "e": [
+        "Après « allons », l’infinitif.",
+        "Après « allons », l’infinitif."
+       ]
+      },
+      {
+       "s": "L’entreprise va ___ cinquante jeunes.",
+       "a": "embaucher",
+       "w": [
+        "embauché",
+        "embauche"
+       ],
+       "e": [
+        "Après « va », l’infinitif.",
+        "Après « va », l’infinitif."
+       ]
+      },
+      {
+       "s": "Mes parents vont ___ une boutique.",
+       "a": "ouvrir",
+       "w": [
+        "ouvert",
+        "ouvrent"
+       ],
+       "e": [
+        "Après « vont », l’infinitif.",
+        "Après « vont », l’infinitif."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la forme qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-68-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "L’usine va embaucher cent jeunes.",
+       "b": "L’usine va embaucher cent jeunes."
+      },
+      {
+       "a": "Ma tante va ouvrir une boutique.",
+       "b": "Ma tante va ouvrir une boutique."
+      },
+      {
+       "a": "Le patron ne va pas fermer l’atelier.",
+       "b": "Le patron ne va pas fermer l’atelier."
+      },
+      {
+       "a": "Nous allons signer le contrat demain.",
+       "b": "Nous allons signer le contrat demain."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

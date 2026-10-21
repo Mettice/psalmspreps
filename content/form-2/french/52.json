@@ -1,0 +1,375 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 52,
+ "language": "fr",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "fr2-52",
+   "name": "Le passé composé (suite) : l’accord avec être"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé composé se forme avec l’auxiliaire avoir ou être au présent + le participe passé.\n• Avec avoir (la plupart des verbes) : j’ai joué, tu as fini, il a pris.\n• Avec être (les verbes de mouvement ou de changement d’état : aller, venir, partir, arriver, entrer, sortir, tomber, rester, naître, mourir, monter, descendre…) : je suis allé, elle est venue.\nAvec être, le participe passé s’accorde avec le sujet :\n• elle est partie (féminin, -e) ; ils sont arrivés (pluriel, -s) ; elles sont tombées (-es).\nAvec avoir, il ne s’accorde pas avec le sujet : elles ont joué.\nÀ la forme négative, ne … pas entoure l’auxiliaire : « Elle n’est pas venue. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "partir",
+   "p": 7
+  },
+  "problem": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "« {v} » se conjugue avec l’auxiliaire {fr2Aux(v)}.",
+   "Avec être, le participe s’accorde avec « elles » (féminin pluriel) : {fr2PasseCompose(v, p)}."
+  ],
+  "answer": "{fr2PasseCompose(v, p)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c52-1",
+    "status": "draft",
+    "idea": "Les verbes de mouvement (aller, venir, partir, arriver, tomber) prennent l’auxiliaire être.",
+    "vars": {},
+    "example": [
+     "Il est allé au marché."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-52-aux"
+    }
+   },
+   {
+    "id": "c52-2",
+    "status": "draft",
+    "idea": "Avec être, le participe passé s’accorde avec le sujet.",
+    "vars": {},
+    "example": [
+     "Elles sont arrivées."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-52-acc-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "aller",
+        "venir",
+        "partir",
+        "arriver",
+        "tomber",
+        "rester",
+        "sortir",
+        "entrer"
+       ]
+      },
+      "p": {
+       "pick": [
+        3,
+        6,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2PasseCompose(v, p)}",
+     "distractors": [
+      {
+       "text": "{fr2PcNoAgree(v, p)}",
+       "misconception": "acc"
+      },
+      {
+       "text": "{fr2PcOtherAux(v, p)}",
+       "misconception": "aux"
+      },
+      {
+       "text": "{fr2PcInfinitive(v, p)}",
+       "misconception": "inf"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "acc",
+       "explain": "Avec être, le participe s’accorde avec « {fr2Pronoun(p)} »."
+      },
+      {
+       "id": "aux",
+       "explain": "« {v} » se conjugue avec être."
+      },
+      {
+       "id": "inf",
+       "explain": "Il faut le participe passé, pas l’infinitif."
+      }
+     ],
+     "solution": [
+      "« {v} » prend l’auxiliaire être : le participe s’accorde avec le sujet.",
+      "Donc : {answer}."
+     ],
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c52-3",
+    "status": "draft",
+    "idea": "Avec avoir, le participe ne s’accorde pas avec le sujet.",
+    "vars": {},
+    "example": [
+     "Elles ont joué."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-52-avoir"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-52-aux",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "jouer",
+      "finir",
+      "choisir",
+      "aller",
+      "venir",
+      "partir",
+      "arriver",
+      "tomber",
+      "faire",
+      "prendre",
+      "voir",
+      "écrire",
+      "lire",
+      "rester",
+      "sortir"
+     ]
+    }
+   },
+   "prompt": "Avec quel auxiliaire conjugue-t-on « {v} » au passé composé ?",
+   "correct": "{fr2Aux(v)}",
+   "distractors": [
+    {
+     "text": "{fr2Aux(v) == 'être' ? 'avoir' : 'être'}",
+     "misconception": "aux"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "aux",
+     "explain": "Les verbes de mouvement (aller, venir, partir, arriver, tomber, rester, sortir) prennent être ; les autres prennent avoir."
+    }
+   ],
+   "solution": [
+    "{fr2Aux(v) == 'être' ? 'C’est un verbe de mouvement ou de changement d’état.' : 'La plupart des verbes prennent avoir.'}",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 1,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-52-acc",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aller",
+      "venir",
+      "partir",
+      "arriver",
+      "tomber",
+      "rester",
+      "sortir",
+      "entrer"
+     ]
+    },
+    "p": {
+     "pick": [
+      3,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcNoAgree(v, p)}",
+     "misconception": "acc"
+    },
+    {
+     "text": "{fr2PcOtherAux(v, p)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{fr2PcInfinitive(v, p)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "acc",
+     "explain": "Avec être, le participe s’accorde avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "aux",
+     "explain": "« {v} » se conjugue avec être."
+    },
+    {
+     "id": "inf",
+     "explain": "Il faut le participe passé, pas l’infinitif."
+    }
+   ],
+   "solution": [
+    "« {v} » prend l’auxiliaire être : le participe s’accorde avec le sujet.",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-52-avoir",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "jouer",
+      "finir",
+      "choisir",
+      "faire",
+      "prendre",
+      "voir",
+      "écrire",
+      "lire"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcOtherAux(v, p)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{fr2PcInfinitive(v, p)}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2PasseCompose(v, (p + 4) % 8)}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "aux",
+     "explain": "« {v} » se conjugue avec avoir."
+    },
+    {
+     "id": "inf",
+     "explain": "Il faut le participe passé, pas l’infinitif."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "« {v} » prend l’auxiliaire avoir : pas d’accord avec le sujet.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-52-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Elles sont parties tôt.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous avons fini nos devoirs.",
+      "truth": "true"
+     },
+     {
+      "text": "Ma sœur est tombée.",
+      "truth": "true"
+     },
+     {
+      "text": "Ils sont arrivés hier.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Elles sont parti au marché.",
+      "truth": "false",
+      "explain": "Avec être, accord : elles sont parties."
+     },
+     {
+      "text": "Il a allé à l’école.",
+      "truth": "false",
+      "explain": "« aller » prend être : il est allé."
+     },
+     {
+      "text": "Les filles ont jouées au ludo.",
+      "truth": "false",
+      "explain": "Avec avoir, pas d’accord avec le sujet : elles ont joué."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}
