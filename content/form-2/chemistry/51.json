@@ -1,0 +1,309 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 51,
+ "language": "en",
+ "prerequisites": [
+  50,
+  27
+ ],
+ "skills": [
+  {
+   "id": "k2-51",
+   "name": "Change in mass when carbonates are heated"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "When a carbonate is heated in an open crucible, carbon dioxide escapes, so the mass of the solid decreases.\nMethod: weigh the empty crucible; add the carbonate and weigh again; heat strongly; cool and weigh; heat, cool and weigh again until the mass stops changing (constant mass).\nMass of carbon dioxide lost = mass before heating − mass after heating.\nPercentage loss = mass lost ÷ mass of carbonate × 100.\nFor calcium carbonate: 100 g gives 56 g of calcium oxide and 44 g of carbon dioxide, so the loss is always 44%.\nThe total mass is conserved: the missing mass is the gas that escaped.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 25,
+   "b": 14
+  },
+  "problem": "{a} g of calcium carbonate is heated to constant mass. {b} g of solid remains. Find the mass lost and the percentage loss.",
+  "steps": [
+   "Mass lost (carbon dioxide) = {a} − {b} = {a - b} g.",
+   "Percentage loss = {a - b} ÷ {a} × {100} = {(a - b) / a * 100}%."
+  ],
+  "answer": "{a - b} g; {(a - b) / a * 100}%",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c51-1",
+    "status": "draft",
+    "idea": "Heating a carbonate in an open crucible makes it lighter: carbon dioxide escapes.",
+    "vars": {},
+    "example": [
+     "The solid left is the oxide."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-51-why"
+    }
+   },
+   {
+    "id": "c51-2",
+    "status": "draft",
+    "idea": "Mass lost = mass before − mass after.",
+    "vars": {},
+    "example": [
+     "{20} g → {11.2} g: {8.8} g lost."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-51-lost-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "heat-action"
+     ],
+     "vars": {
+      "m": {
+       "pick": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        50
+       ]
+      },
+      "a": {
+       "expr": "m"
+      },
+      "b": {
+       "expr": "dec(m * 0.56)"
+      }
+     },
+     "prompt": "A carbonate of mass {a} g is heated to constant mass. {b} g of solid remains. What mass of carbon dioxide was lost?",
+     "answer": "dec(a - b)",
+     "misconceptions": [
+      {
+       "id": "sum",
+       "wrong": "dec(a + b)",
+       "explain": "Subtract: the gas that escaped is the difference."
+      }
+     ],
+     "solution": [
+      "Mass lost = before − after.",
+      "{a} − {b} = {answer} g."
+     ],
+     "unit": "g"
+    }
+   },
+   {
+    "id": "c51-3",
+    "status": "draft",
+    "idea": "Heat to constant mass to make sure all the carbonate has decomposed.",
+    "vars": {},
+    "example": [
+     "Weigh, heat, cool, weigh again."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-51-pct-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "heat-action"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        10,
+        20,
+        25,
+        50,
+        100
+       ]
+      },
+      "l": {
+       "expr": "dec(a * 0.44)"
+      }
+     },
+     "prompt": "{a} g of calcium carbonate loses {l} g on heating. What is the percentage loss?",
+     "answer": "dec(l / a * 100)",
+     "misconceptions": [
+      {
+       "id": "mass",
+       "wrong": "l",
+       "explain": "That is the mass; divide by the starting mass and × {100}."
+      }
+     ],
+     "solution": [
+      "Percentage = mass lost ÷ starting mass × {100}.",
+      "{l} ÷ {a} × {100} = {answer}%."
+     ],
+     "unit": "%"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-51-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does the mass of calcium carbonate decrease when heated in an open crucible?",
+       "r": "Carbon dioxide gas escapes.",
+       "w": [
+        "Matter is destroyed.",
+        "The crucible melts.",
+        "Oxygen from the air is added."
+       ],
+       "e": [
+        "Mass is conserved.",
+        "It does not melt.",
+        "That would increase the mass."
+       ],
+       "y": "The gas leaves the crucible."
+      },
+      {
+       "q": "Why do we heat to constant mass?",
+       "r": "to make sure all the carbonate has decomposed",
+       "w": [
+        "to make the crucible heavier",
+        "to cool the solid",
+        "to add water"
+       ],
+       "e": [
+        "Not the reason.",
+        "Not the reason.",
+        "Not the reason."
+       ],
+       "y": "When the mass stops changing, the reaction is complete."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-51-lost",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      50
+     ]
+    },
+    "a": {
+     "expr": "m"
+    },
+    "b": {
+     "expr": "dec(m * 0.56)"
+    }
+   },
+   "prompt": "A carbonate of mass {a} g is heated to constant mass. {b} g of solid remains. What mass of carbon dioxide was lost?",
+   "answer": "dec(a - b)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "dec(a + b)",
+     "explain": "Subtract: the gas that escaped is the difference."
+    }
+   ],
+   "solution": [
+    "Mass lost = before − after.",
+    "{a} − {b} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k2-51-pct",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      10,
+      20,
+      25,
+      50,
+      100
+     ]
+    },
+    "l": {
+     "expr": "dec(a * 0.44)"
+    }
+   },
+   "prompt": "{a} g of calcium carbonate loses {l} g on heating. What is the percentage loss?",
+   "answer": "dec(l / a * 100)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "l",
+     "explain": "That is the mass; divide by the starting mass and × {100}."
+    }
+   ],
+   "solution": [
+    "Percentage = mass lost ÷ starting mass × {100}.",
+    "{l} ÷ {a} × {100} = {answer}%."
+   ],
+   "unit": "%"
+  }
+ ]
+}

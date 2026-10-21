@@ -1,0 +1,360 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 50,
+ "language": "en",
+ "prerequisites": [
+  49
+ ],
+ "skills": [
+  {
+   "id": "k2-50",
+   "name": "Action of heat on carbonates and nitrates"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Carbonates: most metal carbonates decompose on heating into the metal oxide and carbon dioxide:\n• CaCO₃ → CaO + CO₂ (limestone → quicklime); CuCO₃ → CuO + CO₂ (green → black); ZnCO₃ → ZnO + CO₂.\nSodium and potassium carbonates do not decompose at the temperature of a Bunsen burner.\nTest for CO₂: it turns lime water milky.\nNitrates:\n• sodium and potassium nitrates give the nitrite and oxygen: 2NaNO₃ → 2NaNO₂ + O₂;\n• most other nitrates give the metal oxide, brown nitrogen dioxide and oxygen: 2Cu(NO₃)₂ → 2CuO + 4NO₂ + O₂.\nTest for O₂: it relights a glowing splint.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "i": 20
+  },
+  "problem": "Write the word and symbol equations for heating copper(II) carbonate.",
+  "steps": [
+   "Word equation: {eqWords(i)}.",
+   "Symbol equation: {eqStr(i)}; the green powder turns black."
+  ],
+  "answer": "{eqStr(i)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c50-1",
+    "status": "draft",
+    "idea": "Most carbonates → metal oxide + carbon dioxide on heating.",
+    "vars": {},
+    "example": [
+     "CaCO₃ → CaO + CO₂"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-50-carb"
+    }
+   },
+   {
+    "id": "c50-2",
+    "status": "draft",
+    "idea": "Carbon dioxide turns lime water milky; oxygen relights a glowing splint.",
+    "vars": {},
+    "example": [
+     "The gas tests."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-50-test"
+    }
+   },
+   {
+    "id": "c50-3",
+    "status": "draft",
+    "idea": "Sodium and potassium nitrates give nitrite + oxygen; most others give oxide + NO₂ + oxygen.",
+    "vars": {},
+    "example": [
+     "Brown fumes of NO₂."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-50-bal-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "heat-action"
+     ],
+     "vars": {
+      "i": {
+       "pick": [
+        23,
+        24,
+        25,
+        26,
+        27
+       ]
+      }
+     },
+     "prompt": "Find the missing number: {eqBlank(i, eqKeyTerm(i))}",
+     "answer": "eqCoef(i, eqKeyTerm(i))",
+     "misconceptions": [
+      {
+       "id": "one",
+       "wrong": "1",
+       "explain": "With one, the atoms are not equal on both sides."
+      }
+     ],
+     "solution": [
+      "Count each element on both sides.",
+      "The number that makes them equal is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-50-carb",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      14,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+     ]
+    },
+    "j": {
+     "pick": [
+      14,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+     ]
+    },
+    "k": {
+     "pick": [
+      14,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+     ]
+    }
+   },
+   "prompt": "Which is the symbol equation for: {eqWords(i)}?",
+   "correct": "{eqStr(i)}",
+   "distractors": [
+    {
+     "text": "{eqStr(j)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{eqStr(k)}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is a different decomposition: match each name to its formula."
+    }
+   ],
+   "solution": [
+    "Write the formula of each substance named.",
+    "So: {answer}."
+   ],
+   "where": "j != i && k != i && j != k",
+   "min_distractors": 2
+  },
+  {
+   "id": "k2-50-test",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How do you test for carbon dioxide?",
+       "r": "it turns lime water milky",
+       "w": [
+        "it relights a glowing splint",
+        "it pops with a lighted splint",
+        "it turns blue litmus green"
+       ],
+       "e": [
+        "That tests oxygen.",
+        "That tests hydrogen.",
+        "Not a test."
+       ],
+       "y": "Lime water turns milky."
+      },
+      {
+       "q": "Which gas relights a glowing splint?",
+       "r": "oxygen",
+       "w": [
+        "carbon dioxide",
+        "nitrogen",
+        "hydrogen"
+       ],
+       "e": [
+        "It puts the splint out.",
+        "It does not support burning.",
+        "It pops."
+       ],
+       "y": "Oxygen supports burning."
+      },
+      {
+       "q": "What colour are the fumes of nitrogen dioxide?",
+       "r": "brown",
+       "w": [
+        "colourless",
+        "green",
+        "white"
+       ],
+       "e": [
+        "They are coloured.",
+        "Not their colour.",
+        "Not their colour."
+       ],
+       "y": "Brown fumes from heated nitrates."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-50-bal",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      23,
+      24,
+      25,
+      26,
+      27
+     ]
+    }
+   },
+   "prompt": "Find the missing number: {eqBlank(i, eqKeyTerm(i))}",
+   "answer": "eqCoef(i, eqKeyTerm(i))",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "With one, the atoms are not equal on both sides."
+    }
+   ],
+   "solution": [
+    "Count each element on both sides.",
+    "The number that makes them equal is {answer}."
+   ]
+  },
+  {
+   "id": "k2-50-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Heating calcium carbonate gives calcium oxide.",
+      "truth": "true"
+     },
+     {
+      "text": "Carbon dioxide turns lime water milky.",
+      "truth": "true"
+     },
+     {
+      "text": "Copper(II) carbonate turns black on heating.",
+      "truth": "true"
+     },
+     {
+      "text": "Heating sodium nitrate gives oxygen.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Sodium carbonate decomposes easily in a Bunsen flame.",
+      "truth": "false",
+      "explain": "It does not decompose at that temperature."
+     },
+     {
+      "text": "Heating copper(II) nitrate gives no gas.",
+      "truth": "false",
+      "explain": "It gives brown NO₂ and oxygen."
+     },
+     {
+      "text": "Oxygen turns lime water milky.",
+      "truth": "false",
+      "explain": "Carbon dioxide does."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

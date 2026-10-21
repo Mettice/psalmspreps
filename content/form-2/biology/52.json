@@ -1,0 +1,440 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 52,
+ "language": "en",
+ "prerequisites": [
+  51
+ ],
+ "skills": [
+  {
+   "id": "b2-52",
+   "name": "Care and management of pit latrines and water closets"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Care of a pit latrine:\n• sweep and wash the slab every day; keep the hole covered with a lid to keep flies out;\n• sprinkle ash or lime to reduce smell and flies;\n• do not throw plastic, bottles or rags into the pit;\n• keep the door and roof in good repair; when the pit is nearly full, close it and dig a new one.\nCare of a water closet (WC):\n• flush after each use; clean the bowl with a brush and disinfectant;\n• use only toilet paper: no plastics, sanitary pads or nappies (they block the pipes);\n• repair leaks; empty the septic tank when full.\nFor both: wash hands with soap after use; put a hand-washing device (a tippy-tap) near the latrine.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give two ways to keep flies away from a pit latrine.",
+  "steps": [
+   "Keep the squat hole covered with a lid.",
+   "Sprinkle ash or lime and keep the slab clean."
+  ],
+  "answer": "Cover the hole with a lid; sprinkle ash or lime and keep it clean.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c52-1",
+    "status": "draft",
+    "idea": "Keep the pit latrine clean, covered, and sprinkle ash to reduce flies and smell.",
+    "vars": {},
+    "example": [
+     "A lid on the hole."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-52-pit"
+    }
+   },
+   {
+    "id": "c52-2",
+    "status": "draft",
+    "idea": "In a WC, flush after use and throw only toilet paper.",
+    "vars": {},
+    "example": [
+     "Plastics block the pipes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-52-wc"
+    }
+   },
+   {
+    "id": "c52-3",
+    "status": "draft",
+    "idea": "Always wash hands with soap after using the toilet.",
+    "vars": {},
+    "example": [
+     "A tippy-tap near the latrine."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-52-hands-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "waste-ozone"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should hands be washed with soap after using the toilet?",
+         "r": "to remove germs that cause diarrhoea and cholera",
+         "w": [
+          "to make them smell of soap only",
+          "to warm them",
+          "it is not necessary"
+         ],
+         "e": [
+          "The main reason is germs.",
+          "Not the reason.",
+          "It is necessary."
+         ],
+         "y": "Soap removes germs."
+        },
+        {
+         "q": "What is a tippy-tap?",
+         "r": "a simple hand-washing device made with a container of water",
+         "w": [
+          "a kind of latrine",
+          "a toilet brush",
+          "a vent pipe"
+         ],
+         "e": [
+          "It is for washing hands.",
+          "Not a brush.",
+          "Not a pipe."
+         ],
+         "y": "Often a jerrycan tipped with a foot pedal."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-52-pit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What can be sprinkled in a pit latrine to reduce smell and flies?",
+       "r": "ash or lime",
+       "w": [
+        "sugar",
+        "salt water",
+        "perfume only"
+       ],
+       "e": [
+        "It attracts flies.",
+        "Not effective.",
+        "It does not stop flies."
+       ],
+       "y": "Ash and lime dry and disinfect."
+      },
+      {
+       "q": "What should be done when a pit latrine is nearly full?",
+       "r": "close it and dig a new one",
+       "w": [
+        "keep using it until it overflows",
+        "pour water in it",
+        "throw plastics in it"
+       ],
+       "e": [
+        "Dangerous to health.",
+        "That makes it worse.",
+        "That makes it worse."
+       ],
+       "y": "Then build a new pit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-52-wc",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What should never be flushed down a WC?",
+       "r": "plastic bags and sanitary pads",
+       "w": [
+        "toilet paper",
+        "water",
+        "urine"
+       ],
+       "e": [
+        "Toilet paper is made for it.",
+        "It is used to flush.",
+        "It is waste for the WC."
+       ],
+       "y": "They block the pipes."
+      },
+      {
+       "q": "How is the bowl of a WC cleaned?",
+       "r": "with a brush and disinfectant",
+       "w": [
+        "with sand and leaves",
+        "it never needs cleaning",
+        "with cooking oil"
+       ],
+       "e": [
+        "Not suitable.",
+        "It must be cleaned.",
+        "Not suitable."
+       ],
+       "y": "Keep it clean and germ-free."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-52-hands",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should hands be washed with soap after using the toilet?",
+       "r": "to remove germs that cause diarrhoea and cholera",
+       "w": [
+        "to make them smell of soap only",
+        "to warm them",
+        "it is not necessary"
+       ],
+       "e": [
+        "The main reason is germs.",
+        "Not the reason.",
+        "It is necessary."
+       ],
+       "y": "Soap removes germs."
+      },
+      {
+       "q": "What is a tippy-tap?",
+       "r": "a simple hand-washing device made with a container of water",
+       "w": [
+        "a kind of latrine",
+        "a toilet brush",
+        "a vent pipe"
+       ],
+       "e": [
+        "It is for washing hands.",
+        "Not a brush.",
+        "Not a pipe."
+       ],
+       "y": "Often a jerrycan tipped with a foot pedal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-52-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Keep the latrine covered.",
+      "truth": "true"
+     },
+     {
+      "text": "Flush the WC after use.",
+      "truth": "true"
+     },
+     {
+      "text": "Wash hands after the toilet.",
+      "truth": "true"
+     },
+     {
+      "text": "Repair leaking pipes.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plastic bags can be thrown into the pit latrine.",
+      "truth": "false",
+      "explain": "They fill the pit and do not rot."
+     },
+     {
+      "text": "A WC never needs cleaning.",
+      "truth": "false",
+      "explain": "It must be cleaned regularly."
+     },
+     {
+      "text": "Washing hands after the toilet is not useful.",
+      "truth": "false",
+      "explain": "It removes germs."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

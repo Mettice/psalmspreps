@@ -1,0 +1,420 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 59,
+ "language": "en",
+ "prerequisites": [
+  57,
+  58
+ ],
+ "skills": [
+  {
+   "id": "k2-59",
+   "name": "Electrolytes and non-electrolytes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An electrolyte is a compound that conducts electricity when molten or dissolved in water, and is decomposed by it. It contains ions.\n• Strong electrolytes: solutions of salts (sodium chloride, copper(II) sulphate), strong acids (hydrochloric acid, sulphuric acid) and strong alkalis (sodium hydroxide); molten salts.\n• Weak electrolytes: vinegar (ethanoic acid), lime juice, ammonia solution: the bulb glows dimly.\nA non-electrolyte does not conduct, in any state: sugar solution, ethanol (alcohol), kerosene, distilled water, urea solution.\nElectrolytes in the body: blood contains sodium, potassium and chloride ions; oral rehydration solution (ORS) replaces lost electrolytes after diarrhoea.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A bulb lights brightly with salt solution, dimly with vinegar and not at all with sugar solution. Classify each liquid.",
+  "steps": [
+   "Bright: many ions — a strong electrolyte (salt solution).",
+   "Dim: few ions — a weak electrolyte (vinegar). No light: no ions — a non-electrolyte (sugar solution)."
+  ],
+  "answer": "Salt solution: strong; vinegar: weak; sugar solution: non-electrolyte.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c59-1",
+    "status": "draft",
+    "idea": "An electrolyte conducts when molten or dissolved and is decomposed; it contains ions.",
+    "vars": {},
+    "example": [
+     "Salt solution."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-59-class"
+    }
+   },
+   {
+    "id": "c59-2",
+    "status": "draft",
+    "idea": "A strong electrolyte makes the bulb bright; a weak one makes it dim.",
+    "vars": {},
+    "example": [
+     "Vinegar is weak."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-59-strong-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "electrolysis"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "With vinegar in the circuit, the bulb glows dimly. What kind of electrolyte is vinegar?",
+         "r": "a weak electrolyte",
+         "w": [
+          "a strong electrolyte",
+          "a metal",
+          "an insulator"
+         ],
+         "e": [
+          "The bulb would be bright.",
+          "It is a liquid acid.",
+          "The bulb does glow."
+         ],
+         "y": "Few ions: dim light."
+        },
+        {
+         "q": "Which gives the brightest bulb?",
+         "r": "salt solution",
+         "w": [
+          "sugar solution",
+          "distilled water",
+          "kerosene"
+         ],
+         "e": [
+          "Non-electrolyte.",
+          "Very poor conductor.",
+          "Insulator."
+         ],
+         "y": "A strong electrolyte."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c59-3",
+    "status": "draft",
+    "idea": "Non-electrolytes do not conduct: sugar solution, ethanol, kerosene.",
+    "vars": {},
+    "example": [
+     "Sugar has no ions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-59-body"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-59-class",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "sodium chloride solution",
+       "a": "an electrolyte"
+      },
+      {
+       "s": "sugar solution",
+       "a": "a non-electrolyte"
+      },
+      {
+       "s": "dilute sulphuric acid",
+       "a": "an electrolyte"
+      },
+      {
+       "s": "ethanol",
+       "a": "a non-electrolyte"
+      },
+      {
+       "s": "sodium hydroxide solution",
+       "a": "an electrolyte"
+      },
+      {
+       "s": "kerosene",
+       "a": "a non-electrolyte"
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.s} an electrolyte or a non-electrolyte?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'an electrolyte' ? 'a non-electrolyte' : 'an electrolyte'}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "c",
+     "explain": "Salts, acids and alkalis in water are electrolytes; sugar, alcohol and kerosene are not."
+    }
+   ],
+   "solution": [
+    "Electrolytes contain ions (salts, acids, alkalis); non-electrolytes do not (sugar, alcohol, kerosene).",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "k2-59-strong",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "With vinegar in the circuit, the bulb glows dimly. What kind of electrolyte is vinegar?",
+       "r": "a weak electrolyte",
+       "w": [
+        "a strong electrolyte",
+        "a metal",
+        "an insulator"
+       ],
+       "e": [
+        "The bulb would be bright.",
+        "It is a liquid acid.",
+        "The bulb does glow."
+       ],
+       "y": "Few ions: dim light."
+      },
+      {
+       "q": "Which gives the brightest bulb?",
+       "r": "salt solution",
+       "w": [
+        "sugar solution",
+        "distilled water",
+        "kerosene"
+       ],
+       "e": [
+        "Non-electrolyte.",
+        "Very poor conductor.",
+        "Insulator."
+       ],
+       "y": "A strong electrolyte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-59-body",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is oral rehydration solution (ORS) given after diarrhoea?",
+       "r": "to replace lost water and electrolytes (salts)",
+       "w": [
+        "to add sugar only for taste",
+        "to stop all eating",
+        "to make the blood colder"
+       ],
+       "e": [
+        "It replaces salts too.",
+        "Not the reason.",
+        "Not the reason."
+       ],
+       "y": "The body loses salts in diarrhoea."
+      },
+      {
+       "q": "Which is a non-electrolyte?",
+       "r": "sugar solution",
+       "w": [
+        "lime juice",
+        "sea water",
+        "hydrochloric acid"
+       ],
+       "e": [
+        "A weak electrolyte.",
+        "Contains salt.",
+        "A strong electrolyte."
+       ],
+       "y": "Sugar has no ions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-59-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Salt solution is an electrolyte.",
+      "truth": "true"
+     },
+     {
+      "text": "Ethanol is a non-electrolyte.",
+      "truth": "true"
+     },
+     {
+      "text": "Vinegar is a weak electrolyte.",
+      "truth": "true"
+     },
+     {
+      "text": "Electrolytes contain ions.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Sugar solution is a strong electrolyte.",
+      "truth": "false",
+      "explain": "It is a non-electrolyte."
+     },
+     {
+      "text": "A non-electrolyte is decomposed by electricity.",
+      "truth": "false",
+      "explain": "It does not conduct, so it is not decomposed."
+     },
+     {
+      "text": "Blood contains no ions.",
+      "truth": "false",
+      "explain": "It contains sodium, potassium and chloride ions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

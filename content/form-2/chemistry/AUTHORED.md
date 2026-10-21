@@ -1,4 +1,4 @@
-# Chemistry Form 2, Batch C2-1: authored answers for review
+# Chemistry Form 2, Batches C2-1, C2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -138,6 +138,44 @@ Regenerate with `npm run review:f2-chemistry`. Item IDs (TR-…) match `docs/tea
 | 122 | `k2-45-spot` | 45 | multiple choice, 3 | separation-purity |
 | 123 | `k2-45-imp-card` (card c45-2) | 45 | multiple choice, 1 | separation-purity |
 | 124 | `k2-45-spot-card` (card c45-3) | 45 | multiple choice, 1 | separation-purity |
+| 125 | `k2-47-fuel` | 47 | multiple choice, 1 | fuels |
+| 126 | `k2-47-form` | 47 | multiple choice, 1 | fuels |
+| 127 | `k2-47-renew` | 47 | multiple choice, 2 | fuels |
+| 128 | `k2-47-spot` | 47 | spot the error, 3 | fuels |
+| 129 | `k2-47-renew-card` (card c47-3) | 47 | multiple choice, 1 | fuels |
+| 130 | `k2-48-use` | 48 | matching, 1 | fuels |
+| 131 | `k2-48-gas` | 48 | multiple choice, 1 | fuels |
+| 132 | `k2-48-harm` | 48 | multiple choice, 2 | fuels |
+| 133 | `k2-48-spot` | 48 | spot the error, 3 | fuels |
+| 134 | `k2-48-harm-card` (card c48-3) | 48 | multiple choice, 1 | fuels |
+| 135 | `k2-49-hyd` | 49 | multiple choice, 1 | heat-action |
+| 136 | `k2-49-zno` | 49 | multiple choice, 1 | heat-action |
+| 137 | `k2-49-spot` | 49 | spot the error, 3 | heat-action |
+| 138 | `k2-50-test` | 50 | multiple choice, 1 | heat-action |
+| 139 | `k2-50-spot` | 50 | spot the error, 3 | heat-action |
+| 140 | `k2-51-why` | 51 | multiple choice, 1 | heat-action |
+| 141 | `k2-52-rev` | 52 | multiple choice, 1 | heat-action |
+| 142 | `k2-52-test` | 52 | multiple choice, 2 | heat-action |
+| 143 | `k2-52-not` | 52 | multiple choice, 1 | heat-action |
+| 144 | `k2-52-spot` | 52 | spot the error, 3 | heat-action |
+| 145 | `k2-52-test-card` (card c52-2) | 52 | multiple choice, 1 | heat-action |
+| 146 | `k2-55-kind` | 55 | multiple choice, 1 | electrolysis |
+| 147 | `k2-55-test` | 55 | ordering, 2 | electrolysis |
+| 148 | `k2-55-spot` | 55 | spot the error, 3 | electrolysis |
+| 149 | `k2-55-test-card` (card c55-3) | 55 | ordering, 1 | electrolysis |
+| 150 | `k2-56-ion` | 56 | multiple choice, 1 | electrolysis |
+| 151 | `k2-56-spot` | 56 | spot the error, 3 | electrolysis |
+| 152 | `k2-57-elec` | 57 | multiple choice, 1 | electrolysis |
+| 153 | `k2-57-cucl` | 57 | multiple choice, 1 | electrolysis |
+| 154 | `k2-57-spot` | 57 | spot the error, 3 | electrolysis |
+| 155 | `k2-58-ins` | 58 | multiple choice, 1 | electrolysis |
+| 156 | `k2-58-water` | 58 | multiple choice, 2 | electrolysis |
+| 157 | `k2-58-spot` | 58 | spot the error, 3 | electrolysis |
+| 158 | `k2-58-water-card` (card c58-3) | 58 | multiple choice, 1 | electrolysis |
+| 159 | `k2-59-strong` | 59 | multiple choice, 2 | electrolysis |
+| 160 | `k2-59-body` | 59 | multiple choice, 1 | electrolysis |
+| 161 | `k2-59-spot` | 59 | spot the error, 3 | electrolysis |
+| 162 | `k2-59-strong-card` (card c59-2) | 59 | multiple choice, 1 | electrolysis |
 
 ### `k2-1-true` · Lesson 1 · multiple choice, level 1
 
@@ -8227,4 +8265,2416 @@ Full working after a second miss:
 > So the answer is “It is a mixture of at least three dyes.”.  
 
 Sources: separation-purity (States of matter and changes of state; separation by picking, sieving, decanting, filtration, evaporation, crystallisation, magnet, separating funnel, winnowing, simple and fractional distillation, paper and column chromatography, sublimation; melting and boiling points; criteria for purity)
+
+### `k2-47-fuel` · Lesson 47 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a fuel? | a substance that burns to release energy | a substance that puts out fires · a kind of water · a metal that rusts | That is an extinguisher. · Water does not burn. · Rusting is not burning. | Fuels burn in oxygen. |
+| Which of these is a fossil fuel? | coal | firewood · solar energy · wind | Wood is renewable if trees are replanted. · That is renewable. · That is renewable. | Coal formed from ancient forests. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a fuel?
+
+- ◻️ a substance that puts out fires  
+  _↳ feedback if chosen: That is an extinguisher._
+- ◻️ a metal that rusts  
+  _↳ feedback if chosen: Rusting is not burning._
+- ✅ a substance that burns to release energy
+- ◻️ a kind of water  
+  _↳ feedback if chosen: Water does not burn._
+
+Full working after a second miss:
+
+> Fuels burn in oxygen.  
+> So the answer is “a substance that burns to release energy”.  
+
+> Which of these is a fossil fuel?
+
+- ◻️ firewood  
+  _↳ feedback if chosen: Wood is renewable if trees are replanted._
+- ◻️ solar energy  
+  _↳ feedback if chosen: That is renewable._
+- ◻️ wind  
+  _↳ feedback if chosen: That is renewable._
+- ✅ coal
+
+Full working after a second miss:
+
+> Coal formed from ancient forests.  
+> So the answer is “coal”.  
+
+> Which of these is a fossil fuel?
+
+- ◻️ wind  
+  _↳ feedback if chosen: That is renewable._
+- ◻️ firewood  
+  _↳ feedback if chosen: Wood is renewable if trees are replanted._
+- ✅ coal
+- ◻️ solar energy  
+  _↳ feedback if chosen: That is renewable._
+
+Full working after a second miss:
+
+> Coal formed from ancient forests.  
+> So the answer is “coal”.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-47-form` · Lesson 47 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| From what did crude oil form? | the remains of tiny sea organisms buried for millions of years | volcanic lava · melted rocks · rain water | Not the origin. · Not the origin. · Not the origin. | Heat and pressure changed them. |
+| Which company refines crude oil at Limbe? | SONARA | SODECOTON · CAMRAIL · CDC | It processes cotton. · It runs the railway. · It runs plantations. | The national refinery. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> From what did crude oil form?
+
+- ◻️ volcanic lava  
+  _↳ feedback if chosen: Not the origin._
+- ✅ the remains of tiny sea organisms buried for millions of years
+- ◻️ rain water  
+  _↳ feedback if chosen: Not the origin._
+- ◻️ melted rocks  
+  _↳ feedback if chosen: Not the origin._
+
+Full working after a second miss:
+
+> Heat and pressure changed them.  
+> So the answer is “the remains of tiny sea organisms buried for millions of years”.  
+
+> From what did crude oil form?
+
+- ✅ the remains of tiny sea organisms buried for millions of years
+- ◻️ rain water  
+  _↳ feedback if chosen: Not the origin._
+- ◻️ volcanic lava  
+  _↳ feedback if chosen: Not the origin._
+- ◻️ melted rocks  
+  _↳ feedback if chosen: Not the origin._
+
+Full working after a second miss:
+
+> Heat and pressure changed them.  
+> So the answer is “the remains of tiny sea organisms buried for millions of years”.  
+
+> From what did crude oil form?
+
+- ◻️ volcanic lava  
+  _↳ feedback if chosen: Not the origin._
+- ◻️ melted rocks  
+  _↳ feedback if chosen: Not the origin._
+- ✅ the remains of tiny sea organisms buried for millions of years
+- ◻️ rain water  
+  _↳ feedback if chosen: Not the origin._
+
+Full working after a second miss:
+
+> Heat and pressure changed them.  
+> So the answer is “the remains of tiny sea organisms buried for millions of years”.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-47-renew` · Lesson 47 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why are fossil fuels called non-renewable? | They take millions of years to form but are used up quickly. | They can be made in a day. · They come from the sun every day. · They never run out. | They take millions of years. · That is solar energy. · They will run out. | Use is faster than formation. |
+| Which energy source is renewable? | the sun | coal · natural gas · petrol | Fossil fuel. · Fossil fuel. · Made from crude oil. | The sun shines every day. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which energy source is renewable?
+
+- ◻️ coal  
+  _↳ feedback if chosen: Fossil fuel._
+- ✅ the sun
+- ◻️ natural gas  
+  _↳ feedback if chosen: Fossil fuel._
+- ◻️ petrol  
+  _↳ feedback if chosen: Made from crude oil._
+
+Full working after a second miss:
+
+> The sun shines every day.  
+> So the answer is “the sun”.  
+
+> Why are fossil fuels called non-renewable?
+
+- ◻️ They never run out.  
+  _↳ feedback if chosen: They will run out._
+- ◻️ They come from the sun every day.  
+  _↳ feedback if chosen: That is solar energy._
+- ◻️ They can be made in a day.  
+  _↳ feedback if chosen: They take millions of years._
+- ✅ They take millions of years to form but are used up quickly.
+
+Full working after a second miss:
+
+> Use is faster than formation.  
+> So the answer is “They take millions of years to form but are used up quickly.”.  
+
+> Which energy source is renewable?
+
+- ◻️ petrol  
+  _↳ feedback if chosen: Made from crude oil._
+- ◻️ coal  
+  _↳ feedback if chosen: Fossil fuel._
+- ◻️ natural gas  
+  _↳ feedback if chosen: Fossil fuel._
+- ✅ the sun
+
+Full working after a second miss:
+
+> The sun shines every day.  
+> So the answer is “the sun”.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-47-spot` · Lesson 47 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Coal is a fossil fuel.
+- ✅ Natural gas is mainly methane.
+- ✅ Crude oil is refined into petrol.
+- ✅ Fossil fuels are non-renewable.
+- ❌ Fossil fuels form in a few weeks.  
+  _↳ They take millions of years._
+- ❌ Solar energy is a fossil fuel.  
+  _↳ It is renewable._
+- ❌ Petrol comes from coal.  
+  _↳ It comes from crude oil._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Solar energy is a fossil fuel.  
+  _↳ explanation: It is renewable._
+- ◻️ Coal is a fossil fuel.
+- ◻️ Natural gas is mainly methane.
+- ◻️ Fossil fuels are non-renewable.
+
+Full working after a second miss:
+
+> The wrong statement is “Solar energy is a fossil fuel.”.  
+> It is renewable.  
+
+> Which statement is wrong?
+
+- ◻️ Crude oil is refined into petrol.
+- ◻️ Coal is a fossil fuel.
+- ✅ Solar energy is a fossil fuel.  
+  _↳ explanation: It is renewable._
+- ◻️ Fossil fuels are non-renewable.
+
+Full working after a second miss:
+
+> The wrong statement is “Solar energy is a fossil fuel.”.  
+> It is renewable.  
+
+> Which statement is wrong?
+
+- ◻️ Crude oil is refined into petrol.
+- ◻️ Coal is a fossil fuel.
+- ✅ Solar energy is a fossil fuel.  
+  _↳ explanation: It is renewable._
+- ◻️ Fossil fuels are non-renewable.
+
+Full working after a second miss:
+
+> The wrong statement is “Solar energy is a fossil fuel.”.  
+> It is renewable.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-47-renew-card` · Lesson 47 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why are fossil fuels called non-renewable? | They take millions of years to form but are used up quickly. | They can be made in a day. · They come from the sun every day. · They never run out. | They take millions of years. · That is solar energy. · They will run out. | Use is faster than formation. |
+| Which energy source is renewable? | the sun | coal · natural gas · petrol | Fossil fuel. · Fossil fuel. · Made from crude oil. | The sun shines every day. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which energy source is renewable?
+
+- ◻️ natural gas  
+  _↳ feedback if chosen: Fossil fuel._
+- ◻️ coal  
+  _↳ feedback if chosen: Fossil fuel._
+- ✅ the sun
+- ◻️ petrol  
+  _↳ feedback if chosen: Made from crude oil._
+
+Full working after a second miss:
+
+> The sun shines every day.  
+> So the answer is “the sun”.  
+
+> Why are fossil fuels called non-renewable?
+
+- ◻️ They can be made in a day.  
+  _↳ feedback if chosen: They take millions of years._
+- ◻️ They come from the sun every day.  
+  _↳ feedback if chosen: That is solar energy._
+- ✅ They take millions of years to form but are used up quickly.
+- ◻️ They never run out.  
+  _↳ feedback if chosen: They will run out._
+
+Full working after a second miss:
+
+> Use is faster than formation.  
+> So the answer is “They take millions of years to form but are used up quickly.”.  
+
+> Why are fossil fuels called non-renewable?
+
+- ◻️ They come from the sun every day.  
+  _↳ feedback if chosen: That is solar energy._
+- ✅ They take millions of years to form but are used up quickly.
+- ◻️ They never run out.  
+  _↳ feedback if chosen: They will run out._
+- ◻️ They can be made in a day.  
+  _↳ feedback if chosen: They take millions of years._
+
+Full working after a second miss:
+
+> Use is faster than formation.  
+> So the answer is “They take millions of years to form but are used up quickly.”.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-48-use` · Lesson 48 · matching, level 1
+
+Prompt: Match each fraction to its use.
+
+Pairs (4 shown each time):
+
+- petrol → **fuel for cars**
+- diesel → **fuel for lorries and generators**
+- kerosene → **lamps and aircraft fuel**
+- bitumen → **tarring roads**
+- cooking gas → **cooking**
+
+
+Three generated variants:
+
+> Match each fraction to its use.
+
+Right-hand side (shuffled): lamps and aircraft fuel · fuel for cars · tarring roads · fuel for lorries and generators
+- kerosene → **lamps and aircraft fuel**
+- bitumen → **tarring roads**
+- petrol → **fuel for cars**
+- diesel → **fuel for lorries and generators**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> kerosene → lamps and aircraft fuel  
+> bitumen → tarring roads  
+> petrol → fuel for cars  
+> diesel → fuel for lorries and generators  
+
+> Match each fraction to its use.
+
+Right-hand side (shuffled): fuel for lorries and generators · cooking · fuel for cars · tarring roads
+- bitumen → **tarring roads**
+- diesel → **fuel for lorries and generators**
+- cooking gas → **cooking**
+- petrol → **fuel for cars**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> bitumen → tarring roads  
+> diesel → fuel for lorries and generators  
+> cooking gas → cooking  
+> petrol → fuel for cars  
+
+> Match each fraction to its use.
+
+Right-hand side (shuffled): tarring roads · lamps and aircraft fuel · fuel for lorries and generators · cooking
+- kerosene → **lamps and aircraft fuel**
+- diesel → **fuel for lorries and generators**
+- bitumen → **tarring roads**
+- cooking gas → **cooking**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> kerosene → lamps and aircraft fuel  
+> diesel → fuel for lorries and generators  
+> bitumen → tarring roads  
+> cooking gas → cooking  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-48-gas` · Lesson 48 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is natural gas used for in Cameroon? | cooking and producing electricity | making bitumen · tarring roads · making iron rust | Bitumen comes from crude oil. · That uses bitumen. · Not a use. | The Kribi gas power station. |
+| How is crude oil separated into fractions? | by fractional distillation | by filtration · by chromatography · by magnetism | Filtration separates solids. · That separates dyes. · Oil is not magnetic. | Fractions have different boiling points. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How is crude oil separated into fractions?
+
+- ◻️ by filtration  
+  _↳ feedback if chosen: Filtration separates solids._
+- ◻️ by chromatography  
+  _↳ feedback if chosen: That separates dyes._
+- ✅ by fractional distillation
+- ◻️ by magnetism  
+  _↳ feedback if chosen: Oil is not magnetic._
+
+Full working after a second miss:
+
+> Fractions have different boiling points.  
+> So the answer is “by fractional distillation”.  
+
+> What is natural gas used for in Cameroon?
+
+- ◻️ making bitumen  
+  _↳ feedback if chosen: Bitumen comes from crude oil._
+- ◻️ making iron rust  
+  _↳ feedback if chosen: Not a use._
+- ◻️ tarring roads  
+  _↳ feedback if chosen: That uses bitumen._
+- ✅ cooking and producing electricity
+
+Full working after a second miss:
+
+> The Kribi gas power station.  
+> So the answer is “cooking and producing electricity”.  
+
+> How is crude oil separated into fractions?
+
+- ◻️ by chromatography  
+  _↳ feedback if chosen: That separates dyes._
+- ◻️ by magnetism  
+  _↳ feedback if chosen: Oil is not magnetic._
+- ◻️ by filtration  
+  _↳ feedback if chosen: Filtration separates solids._
+- ✅ by fractional distillation
+
+Full working after a second miss:
+
+> Fractions have different boiling points.  
+> So the answer is “by fractional distillation”.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-48-harm` · Lesson 48 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which gas from burning fossil fuels causes global warming? | carbon dioxide | oxygen · nitrogen · argon | Oxygen is used up. · Not from burning. · A noble gas. | A greenhouse gas. |
+| Why is an oil spill at sea harmful? | It kills fish and birds and pollutes the water. | It makes the sea cleaner. · It feeds the fish. · It has no effect. | It pollutes. · Oil is poisonous. · It is harmful. | Oil covers animals and water. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which gas from burning fossil fuels causes global warming?
+
+- ✅ carbon dioxide
+- ◻️ argon  
+  _↳ feedback if chosen: A noble gas._
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Not from burning._
+- ◻️ oxygen  
+  _↳ feedback if chosen: Oxygen is used up._
+
+Full working after a second miss:
+
+> A greenhouse gas.  
+> So the answer is “carbon dioxide”.  
+
+> Why is an oil spill at sea harmful?
+
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It is harmful._
+- ◻️ It feeds the fish.  
+  _↳ feedback if chosen: Oil is poisonous._
+- ✅ It kills fish and birds and pollutes the water.
+- ◻️ It makes the sea cleaner.  
+  _↳ feedback if chosen: It pollutes._
+
+Full working after a second miss:
+
+> Oil covers animals and water.  
+> So the answer is “It kills fish and birds and pollutes the water.”.  
+
+> Which gas from burning fossil fuels causes global warming?
+
+- ◻️ argon  
+  _↳ feedback if chosen: A noble gas._
+- ◻️ oxygen  
+  _↳ feedback if chosen: Oxygen is used up._
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Not from burning._
+- ✅ carbon dioxide
+
+Full working after a second miss:
+
+> A greenhouse gas.  
+> So the answer is “carbon dioxide”.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-48-spot` · Lesson 48 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Petrol is used in cars.
+- ✅ Bitumen is used on roads.
+- ✅ Diesel runs generators.
+- ✅ Burning fuels releases carbon dioxide.
+- ❌ Kerosene is used to tar roads.  
+  _↳ Bitumen is used for roads; kerosene for lamps._
+- ❌ Burning fossil fuels cleans the air.  
+  _↳ It pollutes the air._
+- ❌ Cooking gas comes from melted iron.  
+  _↳ It is a fraction of crude oil or natural gas._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Petrol is used in cars.
+- ✅ Cooking gas comes from melted iron.  
+  _↳ explanation: It is a fraction of crude oil or natural gas._
+- ◻️ Diesel runs generators.
+- ◻️ Burning fuels releases carbon dioxide.
+
+Full working after a second miss:
+
+> The wrong statement is “Cooking gas comes from melted iron.”.  
+> It is a fraction of crude oil or natural gas.  
+
+> Which statement is wrong?
+
+- ◻️ Petrol is used in cars.
+- ◻️ Bitumen is used on roads.
+- ✅ Cooking gas comes from melted iron.  
+  _↳ explanation: It is a fraction of crude oil or natural gas._
+- ◻️ Diesel runs generators.
+
+Full working after a second miss:
+
+> The wrong statement is “Cooking gas comes from melted iron.”.  
+> It is a fraction of crude oil or natural gas.  
+
+> Which statement is wrong?
+
+- ✅ Kerosene is used to tar roads.  
+  _↳ explanation: Bitumen is used for roads; kerosene for lamps._
+- ◻️ Petrol is used in cars.
+- ◻️ Diesel runs generators.
+- ◻️ Burning fuels releases carbon dioxide.
+
+Full working after a second miss:
+
+> The wrong statement is “Kerosene is used to tar roads.”.  
+> Bitumen is used for roads; kerosene for lamps.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-48-harm-card` · Lesson 48 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which gas from burning fossil fuels causes global warming? | carbon dioxide | oxygen · nitrogen · argon | Oxygen is used up. · Not from burning. · A noble gas. | A greenhouse gas. |
+| Why is an oil spill at sea harmful? | It kills fish and birds and pollutes the water. | It makes the sea cleaner. · It feeds the fish. · It has no effect. | It pollutes. · Oil is poisonous. · It is harmful. | Oil covers animals and water. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is an oil spill at sea harmful?
+
+- ✅ It kills fish and birds and pollutes the water.
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It is harmful._
+- ◻️ It makes the sea cleaner.  
+  _↳ feedback if chosen: It pollutes._
+- ◻️ It feeds the fish.  
+  _↳ feedback if chosen: Oil is poisonous._
+
+Full working after a second miss:
+
+> Oil covers animals and water.  
+> So the answer is “It kills fish and birds and pollutes the water.”.  
+
+> Which gas from burning fossil fuels causes global warming?
+
+- ◻️ argon  
+  _↳ feedback if chosen: A noble gas._
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Not from burning._
+- ✅ carbon dioxide
+- ◻️ oxygen  
+  _↳ feedback if chosen: Oxygen is used up._
+
+Full working after a second miss:
+
+> A greenhouse gas.  
+> So the answer is “carbon dioxide”.  
+
+> Which gas from burning fossil fuels causes global warming?
+
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Not from burning._
+- ✅ carbon dioxide
+- ◻️ argon  
+  _↳ feedback if chosen: A noble gas._
+- ◻️ oxygen  
+  _↳ feedback if chosen: Oxygen is used up._
+
+Full working after a second miss:
+
+> A greenhouse gas.  
+> So the answer is “carbon dioxide”.  
+
+Sources: fuels (Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station)
+
+### `k2-49-hyd` · Lesson 49 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What colour is anhydrous copper(II) sulphate? | white | blue · green · red | Blue is the hydrated form. · Not its colour. · Not its colour. | Without water it is white. |
+| What is water of crystallisation? | water that is part of the structure of a crystal | rain water · water used to wash crystals · steam from a kettle | Not the meaning. · Not the meaning. · Not the meaning. | It is driven off by heat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is water of crystallisation?
+
+- ◻️ water used to wash crystals  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ steam from a kettle  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ water that is part of the structure of a crystal
+- ◻️ rain water  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> It is driven off by heat.  
+> So the answer is “water that is part of the structure of a crystal”.  
+
+> What is water of crystallisation?
+
+- ◻️ water used to wash crystals  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ steam from a kettle  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ water that is part of the structure of a crystal
+- ◻️ rain water  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> It is driven off by heat.  
+> So the answer is “water that is part of the structure of a crystal”.  
+
+> What is water of crystallisation?
+
+- ◻️ water used to wash crystals  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ water that is part of the structure of a crystal
+- ◻️ steam from a kettle  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ rain water  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> It is driven off by heat.  
+> So the answer is “water that is part of the structure of a crystal”.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-49-zno` · Lesson 49 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What happens to zinc oxide when it is heated? | It turns yellow, then white again on cooling. | It turns blue for ever. · It melts into water. · It burns with a flame. | Not the change. · It does not melt here. · It does not burn. | A reversible colour change. |
+| Which oxide decomposes on heating to give a metal and oxygen? | mercury(II) oxide | calcium oxide · magnesium oxide · copper(II) oxide | Stable to heat. · Stable to heat. · Stable to heat. | 2HgO → 2Hg + O₂. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which oxide decomposes on heating to give a metal and oxygen?
+
+- ◻️ copper(II) oxide  
+  _↳ feedback if chosen: Stable to heat._
+- ◻️ calcium oxide  
+  _↳ feedback if chosen: Stable to heat._
+- ✅ mercury(II) oxide
+- ◻️ magnesium oxide  
+  _↳ feedback if chosen: Stable to heat._
+
+Full working after a second miss:
+
+> 2HgO → 2Hg + O₂.  
+> So the answer is “mercury(II) oxide”.  
+
+> Which oxide decomposes on heating to give a metal and oxygen?
+
+- ◻️ copper(II) oxide  
+  _↳ feedback if chosen: Stable to heat._
+- ◻️ magnesium oxide  
+  _↳ feedback if chosen: Stable to heat._
+- ◻️ calcium oxide  
+  _↳ feedback if chosen: Stable to heat._
+- ✅ mercury(II) oxide
+
+Full working after a second miss:
+
+> 2HgO → 2Hg + O₂.  
+> So the answer is “mercury(II) oxide”.  
+
+> Which oxide decomposes on heating to give a metal and oxygen?
+
+- ◻️ copper(II) oxide  
+  _↳ feedback if chosen: Stable to heat._
+- ◻️ magnesium oxide  
+  _↳ feedback if chosen: Stable to heat._
+- ✅ mercury(II) oxide
+- ◻️ calcium oxide  
+  _↳ feedback if chosen: Stable to heat._
+
+Full working after a second miss:
+
+> 2HgO → 2Hg + O₂.  
+> So the answer is “mercury(II) oxide”.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-49-spot` · Lesson 49 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Hydrated copper(II) sulphate is blue.
+- ✅ Heating drives off water of crystallisation.
+- ✅ Zinc oxide is yellow when hot.
+- ✅ Mercury(II) oxide gives oxygen on heating.
+- ❌ Anhydrous copper(II) sulphate is blue.  
+  _↳ It is white._
+- ❌ All metal oxides decompose easily on heating.  
+  _↳ Most are stable._
+- ❌ Heating a hydrate adds more water to it.  
+  _↳ It removes water._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Mercury(II) oxide gives oxygen on heating.
+- ◻️ Zinc oxide is yellow when hot.
+- ◻️ Heating drives off water of crystallisation.
+- ✅ Anhydrous copper(II) sulphate is blue.  
+  _↳ explanation: It is white._
+
+Full working after a second miss:
+
+> The wrong statement is “Anhydrous copper(II) sulphate is blue.”.  
+> It is white.  
+
+> Which statement is wrong?
+
+- ◻️ Zinc oxide is yellow when hot.
+- ✅ Anhydrous copper(II) sulphate is blue.  
+  _↳ explanation: It is white._
+- ◻️ Mercury(II) oxide gives oxygen on heating.
+- ◻️ Heating drives off water of crystallisation.
+
+Full working after a second miss:
+
+> The wrong statement is “Anhydrous copper(II) sulphate is blue.”.  
+> It is white.  
+
+> Which statement is wrong?
+
+- ◻️ Mercury(II) oxide gives oxygen on heating.
+- ◻️ Heating drives off water of crystallisation.
+- ◻️ Hydrated copper(II) sulphate is blue.
+- ✅ All metal oxides decompose easily on heating.  
+  _↳ explanation: Most are stable._
+
+Full working after a second miss:
+
+> The wrong statement is “All metal oxides decompose easily on heating.”.  
+> Most are stable.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-50-test` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How do you test for carbon dioxide? | it turns lime water milky | it relights a glowing splint · it pops with a lighted splint · it turns blue litmus green | That tests oxygen. · That tests hydrogen. · Not a test. | Lime water turns milky. |
+| Which gas relights a glowing splint? | oxygen | carbon dioxide · nitrogen · hydrogen | It puts the splint out. · It does not support burning. · It pops. | Oxygen supports burning. |
+| What colour are the fumes of nitrogen dioxide? | brown | colourless · green · white | They are coloured. · Not their colour. · Not their colour. | Brown fumes from heated nitrates. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What colour are the fumes of nitrogen dioxide?
+
+- ◻️ green  
+  _↳ feedback if chosen: Not their colour._
+- ◻️ colourless  
+  _↳ feedback if chosen: They are coloured._
+- ✅ brown
+- ◻️ white  
+  _↳ feedback if chosen: Not their colour._
+
+Full working after a second miss:
+
+> Brown fumes from heated nitrates.  
+> So the answer is “brown”.  
+
+> Which gas relights a glowing splint?
+
+- ◻️ carbon dioxide  
+  _↳ feedback if chosen: It puts the splint out._
+- ◻️ hydrogen  
+  _↳ feedback if chosen: It pops._
+- ◻️ nitrogen  
+  _↳ feedback if chosen: It does not support burning._
+- ✅ oxygen
+
+Full working after a second miss:
+
+> Oxygen supports burning.  
+> So the answer is “oxygen”.  
+
+> How do you test for carbon dioxide?
+
+- ✅ it turns lime water milky
+- ◻️ it pops with a lighted splint  
+  _↳ feedback if chosen: That tests hydrogen._
+- ◻️ it relights a glowing splint  
+  _↳ feedback if chosen: That tests oxygen._
+- ◻️ it turns blue litmus green  
+  _↳ feedback if chosen: Not a test._
+
+Full working after a second miss:
+
+> Lime water turns milky.  
+> So the answer is “it turns lime water milky”.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-50-spot` · Lesson 50 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Heating calcium carbonate gives calcium oxide.
+- ✅ Carbon dioxide turns lime water milky.
+- ✅ Copper(II) carbonate turns black on heating.
+- ✅ Heating sodium nitrate gives oxygen.
+- ❌ Sodium carbonate decomposes easily in a Bunsen flame.  
+  _↳ It does not decompose at that temperature._
+- ❌ Heating copper(II) nitrate gives no gas.  
+  _↳ It gives brown NO₂ and oxygen._
+- ❌ Oxygen turns lime water milky.  
+  _↳ Carbon dioxide does._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Sodium carbonate decomposes easily in a Bunsen flame.  
+  _↳ explanation: It does not decompose at that temperature._
+- ◻️ Carbon dioxide turns lime water milky.
+- ◻️ Heating sodium nitrate gives oxygen.
+- ◻️ Copper(II) carbonate turns black on heating.
+
+Full working after a second miss:
+
+> The wrong statement is “Sodium carbonate decomposes easily in a Bunsen flame.”.  
+> It does not decompose at that temperature.  
+
+> Which statement is wrong?
+
+- ◻️ Heating calcium carbonate gives calcium oxide.
+- ✅ Oxygen turns lime water milky.  
+  _↳ explanation: Carbon dioxide does._
+- ◻️ Carbon dioxide turns lime water milky.
+- ◻️ Heating sodium nitrate gives oxygen.
+
+Full working after a second miss:
+
+> The wrong statement is “Oxygen turns lime water milky.”.  
+> Carbon dioxide does.  
+
+> Which statement is wrong?
+
+- ◻️ Carbon dioxide turns lime water milky.
+- ◻️ Copper(II) carbonate turns black on heating.
+- ◻️ Heating sodium nitrate gives oxygen.
+- ✅ Sodium carbonate decomposes easily in a Bunsen flame.  
+  _↳ explanation: It does not decompose at that temperature._
+
+Full working after a second miss:
+
+> The wrong statement is “Sodium carbonate decomposes easily in a Bunsen flame.”.  
+> It does not decompose at that temperature.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-51-why` · Lesson 51 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why does the mass of calcium carbonate decrease when heated in an open crucible? | Carbon dioxide gas escapes. | Matter is destroyed. · The crucible melts. · Oxygen from the air is added. | Mass is conserved. · It does not melt. · That would increase the mass. | The gas leaves the crucible. |
+| Why do we heat to constant mass? | to make sure all the carbonate has decomposed | to make the crucible heavier · to cool the solid · to add water | Not the reason. · Not the reason. · Not the reason. | When the mass stops changing, the reaction is complete. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do we heat to constant mass?
+
+- ✅ to make sure all the carbonate has decomposed
+- ◻️ to cool the solid  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to make the crucible heavier  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to add water  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> When the mass stops changing, the reaction is complete.  
+> So the answer is “to make sure all the carbonate has decomposed”.  
+
+> Why does the mass of calcium carbonate decrease when heated in an open crucible?
+
+- ✅ Carbon dioxide gas escapes.
+- ◻️ The crucible melts.  
+  _↳ feedback if chosen: It does not melt._
+- ◻️ Oxygen from the air is added.  
+  _↳ feedback if chosen: That would increase the mass._
+- ◻️ Matter is destroyed.  
+  _↳ feedback if chosen: Mass is conserved._
+
+Full working after a second miss:
+
+> The gas leaves the crucible.  
+> So the answer is “Carbon dioxide gas escapes.”.  
+
+> Why does the mass of calcium carbonate decrease when heated in an open crucible?
+
+- ◻️ The crucible melts.  
+  _↳ feedback if chosen: It does not melt._
+- ✅ Carbon dioxide gas escapes.
+- ◻️ Oxygen from the air is added.  
+  _↳ feedback if chosen: That would increase the mass._
+- ◻️ Matter is destroyed.  
+  _↳ feedback if chosen: Mass is conserved._
+
+Full working after a second miss:
+
+> The gas leaves the crucible.  
+> So the answer is “Carbon dioxide gas escapes.”.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-52-rev` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a reversible reaction? | a reaction that can go both ways | a reaction that never happens · a reaction that only gives gases · a reaction that destroys matter | It does happen. · Not the meaning. · Matter is conserved. | Products can change back. |
+| Which sign shows a reversible reaction? | ⇌ | → · + · = | One-way arrow. · Joins substances. · Not used for reactions. | The double arrow. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a reversible reaction?
+
+- ◻️ a reaction that destroys matter  
+  _↳ feedback if chosen: Matter is conserved._
+- ◻️ a reaction that never happens  
+  _↳ feedback if chosen: It does happen._
+- ◻️ a reaction that only gives gases  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ a reaction that can go both ways
+
+Full working after a second miss:
+
+> Products can change back.  
+> So the answer is “a reaction that can go both ways”.  
+
+> Which sign shows a reversible reaction?
+
+- ◻️ →  
+  _↳ feedback if chosen: One-way arrow._
+- ◻️ +  
+  _↳ feedback if chosen: Joins substances._
+- ◻️ =  
+  _↳ feedback if chosen: Not used for reactions._
+- ✅ ⇌
+
+Full working after a second miss:
+
+> The double arrow.  
+> So the answer is “⇌”.  
+
+> What is a reversible reaction?
+
+- ◻️ a reaction that never happens  
+  _↳ feedback if chosen: It does happen._
+- ✅ a reaction that can go both ways
+- ◻️ a reaction that only gives gases  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a reaction that destroys matter  
+  _↳ feedback if chosen: Matter is conserved._
+
+Full working after a second miss:
+
+> Products can change back.  
+> So the answer is “a reaction that can go both ways”.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-52-test` · Lesson 52 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What do you see when water is added to white anhydrous copper(II) sulphate? | It turns blue and gets warm. | It turns red and cold. · It explodes. · Nothing happens. | Not the change. · No explosion. · It changes. | Heat is given out. |
+| What is white anhydrous copper(II) sulphate used to test for? | water | oxygen · carbon dioxide · hydrogen | A glowing splint tests oxygen. · Lime water tests CO₂. · A lighted splint tests hydrogen. | It turns blue with water. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is white anhydrous copper(II) sulphate used to test for?
+
+- ◻️ carbon dioxide  
+  _↳ feedback if chosen: Lime water tests CO₂._
+- ◻️ hydrogen  
+  _↳ feedback if chosen: A lighted splint tests hydrogen._
+- ◻️ oxygen  
+  _↳ feedback if chosen: A glowing splint tests oxygen._
+- ✅ water
+
+Full working after a second miss:
+
+> It turns blue with water.  
+> So the answer is “water”.  
+
+> What is white anhydrous copper(II) sulphate used to test for?
+
+- ✅ water
+- ◻️ oxygen  
+  _↳ feedback if chosen: A glowing splint tests oxygen._
+- ◻️ hydrogen  
+  _↳ feedback if chosen: A lighted splint tests hydrogen._
+- ◻️ carbon dioxide  
+  _↳ feedback if chosen: Lime water tests CO₂._
+
+Full working after a second miss:
+
+> It turns blue with water.  
+> So the answer is “water”.  
+
+> What do you see when water is added to white anhydrous copper(II) sulphate?
+
+- ◻️ It explodes.  
+  _↳ feedback if chosen: No explosion._
+- ◻️ It turns red and cold.  
+  _↳ feedback if chosen: Not the change._
+- ◻️ Nothing happens.  
+  _↳ feedback if chosen: It changes._
+- ✅ It turns blue and gets warm.
+
+Full working after a second miss:
+
+> Heat is given out.  
+> So the answer is “It turns blue and gets warm.”.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-52-not` · Lesson 52 · multiple choice, level 1
+
+Prompt: Is it reversible? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Heating blue copper(II) sulphate, then adding water. | yes | no · only on Mondays · only in the dark | It can go back. · Not a rule. · Not a rule. | Blue ⇌ white. |
+| Burning paper. | no | yes · only if wet · only if cold | Ash cannot become paper. · Not the rule. · Not the rule. | Burning is not reversible. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is it reversible? Heating blue copper(II) sulphate, then adding water.
+
+- ◻️ no  
+  _↳ feedback if chosen: It can go back._
+- ◻️ only in the dark  
+  _↳ feedback if chosen: Not a rule._
+- ◻️ only on Mondays  
+  _↳ feedback if chosen: Not a rule._
+- ✅ yes
+
+Full working after a second miss:
+
+> Blue ⇌ white.  
+> So the answer is “yes”.  
+
+> Is it reversible? Burning paper.
+
+- ◻️ only if cold  
+  _↳ feedback if chosen: Not the rule._
+- ◻️ only if wet  
+  _↳ feedback if chosen: Not the rule._
+- ◻️ yes  
+  _↳ feedback if chosen: Ash cannot become paper._
+- ✅ no
+
+Full working after a second miss:
+
+> Burning is not reversible.  
+> So the answer is “no”.  
+
+> Is it reversible? Burning paper.
+
+- ✅ no
+- ◻️ yes  
+  _↳ feedback if chosen: Ash cannot become paper._
+- ◻️ only if cold  
+  _↳ feedback if chosen: Not the rule._
+- ◻️ only if wet  
+  _↳ feedback if chosen: Not the rule._
+
+Full working after a second miss:
+
+> Burning is not reversible.  
+> So the answer is “no”.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-52-spot` · Lesson 52 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Hydrated copper(II) sulphate is blue.
+- ✅ Anhydrous copper(II) sulphate is white.
+- ✅ Adding water to the white powder gives out heat.
+- ✅ ⇌ shows a reversible reaction.
+- ❌ Burning wood is a reversible reaction.  
+  _↳ Ash cannot turn back into wood._
+- ❌ White copper(II) sulphate turns blue with oxygen.  
+  _↳ It turns blue with water._
+- ❌ Adding water to the white powder makes it cold.  
+  _↳ It gets warm._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Anhydrous copper(II) sulphate is white.
+- ✅ Burning wood is a reversible reaction.  
+  _↳ explanation: Ash cannot turn back into wood._
+- ◻️ ⇌ shows a reversible reaction.
+- ◻️ Adding water to the white powder gives out heat.
+
+Full working after a second miss:
+
+> The wrong statement is “Burning wood is a reversible reaction.”.  
+> Ash cannot turn back into wood.  
+
+> Which statement is wrong?
+
+- ◻️ Hydrated copper(II) sulphate is blue.
+- ✅ White copper(II) sulphate turns blue with oxygen.  
+  _↳ explanation: It turns blue with water._
+- ◻️ Anhydrous copper(II) sulphate is white.
+- ◻️ Adding water to the white powder gives out heat.
+
+Full working after a second miss:
+
+> The wrong statement is “White copper(II) sulphate turns blue with oxygen.”.  
+> It turns blue with water.  
+
+> Which statement is wrong?
+
+- ◻️ Hydrated copper(II) sulphate is blue.
+- ◻️ ⇌ shows a reversible reaction.
+- ◻️ Adding water to the white powder gives out heat.
+- ✅ White copper(II) sulphate turns blue with oxygen.  
+  _↳ explanation: It turns blue with water._
+
+Full working after a second miss:
+
+> The wrong statement is “White copper(II) sulphate turns blue with oxygen.”.  
+> It turns blue with water.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-52-test-card` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What do you see when water is added to white anhydrous copper(II) sulphate? | It turns blue and gets warm. | It turns red and cold. · It explodes. · Nothing happens. | Not the change. · No explosion. · It changes. | Heat is given out. |
+| What is white anhydrous copper(II) sulphate used to test for? | water | oxygen · carbon dioxide · hydrogen | A glowing splint tests oxygen. · Lime water tests CO₂. · A lighted splint tests hydrogen. | It turns blue with water. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is white anhydrous copper(II) sulphate used to test for?
+
+- ◻️ oxygen  
+  _↳ feedback if chosen: A glowing splint tests oxygen._
+- ✅ water
+- ◻️ hydrogen  
+  _↳ feedback if chosen: A lighted splint tests hydrogen._
+- ◻️ carbon dioxide  
+  _↳ feedback if chosen: Lime water tests CO₂._
+
+Full working after a second miss:
+
+> It turns blue with water.  
+> So the answer is “water”.  
+
+> What do you see when water is added to white anhydrous copper(II) sulphate?
+
+- ◻️ It explodes.  
+  _↳ feedback if chosen: No explosion._
+- ✅ It turns blue and gets warm.
+- ◻️ Nothing happens.  
+  _↳ feedback if chosen: It changes._
+- ◻️ It turns red and cold.  
+  _↳ feedback if chosen: Not the change._
+
+Full working after a second miss:
+
+> Heat is given out.  
+> So the answer is “It turns blue and gets warm.”.  
+
+> What do you see when water is added to white anhydrous copper(II) sulphate?
+
+- ◻️ It turns red and cold.  
+  _↳ feedback if chosen: Not the change._
+- ◻️ It explodes.  
+  _↳ feedback if chosen: No explosion._
+- ◻️ Nothing happens.  
+  _↳ feedback if chosen: It changes._
+- ✅ It turns blue and gets warm.
+
+Full working after a second miss:
+
+> Heat is given out.  
+> So the answer is “It turns blue and gets warm.”.  
+
+Sources: heat-action (Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water)
+
+### `k2-55-kind` · Lesson 55 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why do metals conduct electricity? | They have free electrons that can move. | They are heavy. · They are shiny only. · They contain water. | Mass is not the reason. · Shine is not the reason. · They do not. | Free electrons carry the current. |
+| Why are electric wires covered with plastic? | Plastic is an insulator and protects us from shocks. | Plastic conducts better than copper. · To make the wire heavier. · To make the current faster. | It does not conduct. · Not the reason. · Not the reason. | Safety. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why are electric wires covered with plastic?
+
+- ◻️ Plastic conducts better than copper.  
+  _↳ feedback if chosen: It does not conduct._
+- ◻️ To make the current faster.  
+  _↳ feedback if chosen: Not the reason._
+- ✅ Plastic is an insulator and protects us from shocks.
+- ◻️ To make the wire heavier.  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> Safety.  
+> So the answer is “Plastic is an insulator and protects us from shocks.”.  
+
+> Why do metals conduct electricity?
+
+- ◻️ They contain water.  
+  _↳ feedback if chosen: They do not._
+- ◻️ They are shiny only.  
+  _↳ feedback if chosen: Shine is not the reason._
+- ◻️ They are heavy.  
+  _↳ feedback if chosen: Mass is not the reason._
+- ✅ They have free electrons that can move.
+
+Full working after a second miss:
+
+> Free electrons carry the current.  
+> So the answer is “They have free electrons that can move.”.  
+
+> Why do metals conduct electricity?
+
+- ✅ They have free electrons that can move.
+- ◻️ They are heavy.  
+  _↳ feedback if chosen: Mass is not the reason._
+- ◻️ They contain water.  
+  _↳ feedback if chosen: They do not._
+- ◻️ They are shiny only.  
+  _↳ feedback if chosen: Shine is not the reason._
+
+Full working after a second miss:
+
+> Free electrons carry the current.  
+> So the answer is “They have free electrons that can move.”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-55-test` · Lesson 55 · ordering, level 2
+
+Prompt: Put the steps of the conduction test in order.
+
+Items in the right order:
+
+1. Connect a cell, a bulb and two wires with a gap
+2. Place the material across the gap
+3. Watch the bulb
+4. If it lights, the material conducts
+
+
+Three generated variants:
+
+> Put the steps of the conduction test in order.
+
+Shown as: Place the material across the gap · If it lights, the material conducts · Watch the bulb · Connect a cell, a bulb and two wires with a gap
+Correct order: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts
+
+Full working after a second miss:
+
+> The correct order is: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts.  
+
+> Put the steps of the conduction test in order.
+
+Shown as: Connect a cell, a bulb and two wires with a gap · Watch the bulb · Place the material across the gap · If it lights, the material conducts
+Correct order: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts
+
+Full working after a second miss:
+
+> The correct order is: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts.  
+
+> Put the steps of the conduction test in order.
+
+Shown as: Watch the bulb · Connect a cell, a bulb and two wires with a gap · Place the material across the gap · If it lights, the material conducts
+Correct order: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts
+
+Full working after a second miss:
+
+> The correct order is: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-55-spot` · Lesson 55 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Copper conducts electricity.
+- ✅ Plastic is an insulator.
+- ✅ Graphite conducts.
+- ✅ Sulphur is an insulator.
+- ❌ All non-metals conduct electricity.  
+  _↳ Most do not; graphite is the exception._
+- ❌ A metal is decomposed by the current.  
+  _↳ A metal only warms up; it is not changed._
+- ❌ Rubber is used inside wires to carry current.  
+  _↳ Rubber is an insulator used to cover wires._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Plastic is an insulator.
+- ◻️ Graphite conducts.
+- ✅ Rubber is used inside wires to carry current.  
+  _↳ explanation: Rubber is an insulator used to cover wires._
+- ◻️ Copper conducts electricity.
+
+Full working after a second miss:
+
+> The wrong statement is “Rubber is used inside wires to carry current.”.  
+> Rubber is an insulator used to cover wires.  
+
+> Which statement is wrong?
+
+- ◻️ Copper conducts electricity.
+- ◻️ Graphite conducts.
+- ◻️ Sulphur is an insulator.
+- ✅ All non-metals conduct electricity.  
+  _↳ explanation: Most do not; graphite is the exception._
+
+Full working after a second miss:
+
+> The wrong statement is “All non-metals conduct electricity.”.  
+> Most do not; graphite is the exception.  
+
+> Which statement is wrong?
+
+- ◻️ Graphite conducts.
+- ✅ A metal is decomposed by the current.  
+  _↳ explanation: A metal only warms up; it is not changed._
+- ◻️ Copper conducts electricity.
+- ◻️ Plastic is an insulator.
+
+Full working after a second miss:
+
+> The wrong statement is “A metal is decomposed by the current.”.  
+> A metal only warms up; it is not changed.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-55-test-card` · Lesson 55 · ordering, level 1
+
+Prompt: Put the steps of the conduction test in order.
+
+Items in the right order:
+
+1. Connect a cell, a bulb and two wires with a gap
+2. Place the material across the gap
+3. Watch the bulb
+4. If it lights, the material conducts
+
+
+Three generated variants:
+
+> Put the steps of the conduction test in order.
+
+Shown as: If it lights, the material conducts · Watch the bulb · Place the material across the gap · Connect a cell, a bulb and two wires with a gap
+Correct order: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts
+
+Full working after a second miss:
+
+> The correct order is: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts.  
+
+> Put the steps of the conduction test in order.
+
+Shown as: If it lights, the material conducts · Place the material across the gap · Connect a cell, a bulb and two wires with a gap · Watch the bulb
+Correct order: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts
+
+Full working after a second miss:
+
+> The correct order is: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts.  
+
+> Put the steps of the conduction test in order.
+
+Shown as: If it lights, the material conducts · Connect a cell, a bulb and two wires with a gap · Watch the bulb · Place the material across the gap
+Correct order: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts
+
+Full working after a second miss:
+
+> The correct order is: Connect a cell, a bulb and two wires with a gap → Place the material across the gap → Watch the bulb → If it lights, the material conducts.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-56-ion` · Lesson 56 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What are ions? | charged particles | neutral atoms only · metal wires · drops of water | Ions carry a charge. · Not the meaning. · Not the meaning. | Positive or negative charges. |
+| Which compound is ionic? | sodium chloride | sugar · wax · ethanol | Covalent. · Covalent. · Covalent. | Made of Na⁺ and Cl⁻ ions. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which compound is ionic?
+
+- ◻️ wax  
+  _↳ feedback if chosen: Covalent._
+- ✅ sodium chloride
+- ◻️ sugar  
+  _↳ feedback if chosen: Covalent._
+- ◻️ ethanol  
+  _↳ feedback if chosen: Covalent._
+
+Full working after a second miss:
+
+> Made of Na⁺ and Cl⁻ ions.  
+> So the answer is “sodium chloride”.  
+
+> What are ions?
+
+- ◻️ metal wires  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ charged particles
+- ◻️ neutral atoms only  
+  _↳ feedback if chosen: Ions carry a charge._
+- ◻️ drops of water  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Positive or negative charges.  
+> So the answer is “charged particles”.  
+
+> What are ions?
+
+- ◻️ drops of water  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ neutral atoms only  
+  _↳ feedback if chosen: Ions carry a charge._
+- ◻️ metal wires  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ charged particles
+
+Full working after a second miss:
+
+> Positive or negative charges.  
+> So the answer is “charged particles”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-56-spot` · Lesson 56 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Solid salt does not conduct.
+- ✅ Molten salt conducts.
+- ✅ Sugar is covalent.
+- ✅ Electrolysis decomposes a compound.
+- ❌ Solid sodium chloride conducts because it has ions.  
+  _↳ The ions are fixed in the solid._
+- ❌ Molten sugar conducts electricity.  
+  _↳ Sugar has no ions._
+- ❌ Electrolysis joins elements into compounds.  
+  _↳ It decomposes compounds._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Solid salt does not conduct.
+- ✅ Solid sodium chloride conducts because it has ions.  
+  _↳ explanation: The ions are fixed in the solid._
+- ◻️ Molten salt conducts.
+- ◻️ Sugar is covalent.
+
+Full working after a second miss:
+
+> The wrong statement is “Solid sodium chloride conducts because it has ions.”.  
+> The ions are fixed in the solid.  
+
+> Which statement is wrong?
+
+- ◻️ Sugar is covalent.
+- ◻️ Solid salt does not conduct.
+- ◻️ Molten salt conducts.
+- ✅ Electrolysis joins elements into compounds.  
+  _↳ explanation: It decomposes compounds._
+
+Full working after a second miss:
+
+> The wrong statement is “Electrolysis joins elements into compounds.”.  
+> It decomposes compounds.  
+
+> Which statement is wrong?
+
+- ◻️ Solid salt does not conduct.
+- ✅ Solid sodium chloride conducts because it has ions.  
+  _↳ explanation: The ions are fixed in the solid._
+- ◻️ Molten salt conducts.
+- ◻️ Sugar is covalent.
+
+Full working after a second miss:
+
+> The wrong statement is “Solid sodium chloride conducts because it has ions.”.  
+> The ions are fixed in the solid.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-57-elec` · Lesson 57 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the cathode? | the negative electrode | the positive electrode · the liquid · the cell | That is the anode. · That is the electrolyte. · That supplies the current. | Positive ions go to it. |
+| At which electrode are metals produced? | the cathode | the anode · both equally · neither | Non-metals form there. · Metals form at one. · They do form. | Metal ions are positive. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> At which electrode are metals produced?
+
+- ◻️ both equally  
+  _↳ feedback if chosen: Metals form at one._
+- ✅ the cathode
+- ◻️ the anode  
+  _↳ feedback if chosen: Non-metals form there._
+- ◻️ neither  
+  _↳ feedback if chosen: They do form._
+
+Full working after a second miss:
+
+> Metal ions are positive.  
+> So the answer is “the cathode”.  
+
+> At which electrode are metals produced?
+
+- ◻️ neither  
+  _↳ feedback if chosen: They do form._
+- ◻️ the anode  
+  _↳ feedback if chosen: Non-metals form there._
+- ◻️ both equally  
+  _↳ feedback if chosen: Metals form at one._
+- ✅ the cathode
+
+Full working after a second miss:
+
+> Metal ions are positive.  
+> So the answer is “the cathode”.  
+
+> At which electrode are metals produced?
+
+- ◻️ the anode  
+  _↳ feedback if chosen: Non-metals form there._
+- ✅ the cathode
+- ◻️ neither  
+  _↳ feedback if chosen: They do form._
+- ◻️ both equally  
+  _↳ feedback if chosen: Metals form at one._
+
+Full working after a second miss:
+
+> Metal ions are positive.  
+> So the answer is “the cathode”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-57-cucl` · Lesson 57 · multiple choice, level 1
+
+Prompt: In the electrolysis of copper(II) chloride solution, {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what forms at the cathode? | copper | chlorine · oxygen · sodium | Chlorine forms at the anode. · Not here. · No sodium present. | A pink-brown coating. |
+| what forms at the anode? | chlorine | copper · hydrogen · carbon | Copper forms at the cathode. · Not here. · The electrode is carbon; it does not form. | A gas that bleaches damp litmus. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In the electrolysis of copper(II) chloride solution, what forms at the cathode?
+
+- ✅ copper
+- ◻️ oxygen  
+  _↳ feedback if chosen: Not here._
+- ◻️ chlorine  
+  _↳ feedback if chosen: Chlorine forms at the anode._
+- ◻️ sodium  
+  _↳ feedback if chosen: No sodium present._
+
+Full working after a second miss:
+
+> A pink-brown coating.  
+> So the answer is “copper”.  
+
+> In the electrolysis of copper(II) chloride solution, what forms at the anode?
+
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Not here._
+- ✅ chlorine
+- ◻️ copper  
+  _↳ feedback if chosen: Copper forms at the cathode._
+- ◻️ carbon  
+  _↳ feedback if chosen: The electrode is carbon; it does not form._
+
+Full working after a second miss:
+
+> A gas that bleaches damp litmus.  
+> So the answer is “chlorine”.  
+
+> In the electrolysis of copper(II) chloride solution, what forms at the cathode?
+
+- ◻️ sodium  
+  _↳ feedback if chosen: No sodium present._
+- ✅ copper
+- ◻️ oxygen  
+  _↳ feedback if chosen: Not here._
+- ◻️ chlorine  
+  _↳ feedback if chosen: Chlorine forms at the anode._
+
+Full working after a second miss:
+
+> A pink-brown coating.  
+> So the answer is “copper”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-57-spot` · Lesson 57 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The anode is positive.
+- ✅ Copper forms at the cathode.
+- ✅ Chlorine bleaches damp litmus.
+- ✅ Water gives twice as much hydrogen as oxygen.
+- ❌ Oxygen forms at the cathode in water electrolysis.  
+  _↳ Hydrogen forms at the cathode; oxygen at the anode._
+- ❌ The cathode is the positive electrode.  
+  _↳ It is negative._
+- ❌ Electrolysis is used to make wood.  
+  _↳ It is used in electroplating and purifying metals._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Oxygen forms at the cathode in water electrolysis.  
+  _↳ explanation: Hydrogen forms at the cathode; oxygen at the anode._
+- ◻️ Copper forms at the cathode.
+- ◻️ Chlorine bleaches damp litmus.
+- ◻️ The anode is positive.
+
+Full working after a second miss:
+
+> The wrong statement is “Oxygen forms at the cathode in water electrolysis.”.  
+> Hydrogen forms at the cathode; oxygen at the anode.  
+
+> Which statement is wrong?
+
+- ◻️ Copper forms at the cathode.
+- ✅ Electrolysis is used to make wood.  
+  _↳ explanation: It is used in electroplating and purifying metals._
+- ◻️ Chlorine bleaches damp litmus.
+- ◻️ Water gives twice as much hydrogen as oxygen.
+
+Full working after a second miss:
+
+> The wrong statement is “Electrolysis is used to make wood.”.  
+> It is used in electroplating and purifying metals.  
+
+> Which statement is wrong?
+
+- ✅ Oxygen forms at the cathode in water electrolysis.  
+  _↳ explanation: Hydrogen forms at the cathode; oxygen at the anode._
+- ◻️ Copper forms at the cathode.
+- ◻️ Chlorine bleaches damp litmus.
+- ◻️ Water gives twice as much hydrogen as oxygen.
+
+Full working after a second miss:
+
+> The wrong statement is “Oxygen forms at the cathode in water electrolysis.”.  
+> Hydrogen forms at the cathode; oxygen at the anode.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-58-ins` · Lesson 58 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which material is an insulator? | glass | copper · aluminium · graphite | A metal conductor. · A metal conductor. · Conducts. | Glass does not conduct. |
+| Why are power-line holders made of porcelain? | Porcelain is an insulator. | Porcelain conducts well. · Porcelain is a metal. · Porcelain is decomposed by current. | It does not conduct. · It is a ceramic. · It is not. | It stops current leaking to the pole. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which material is an insulator?
+
+- ◻️ aluminium  
+  _↳ feedback if chosen: A metal conductor._
+- ✅ glass
+- ◻️ graphite  
+  _↳ feedback if chosen: Conducts._
+- ◻️ copper  
+  _↳ feedback if chosen: A metal conductor._
+
+Full working after a second miss:
+
+> Glass does not conduct.  
+> So the answer is “glass”.  
+
+> Why are power-line holders made of porcelain?
+
+- ◻️ Porcelain is decomposed by current.  
+  _↳ feedback if chosen: It is not._
+- ◻️ Porcelain is a metal.  
+  _↳ feedback if chosen: It is a ceramic._
+- ◻️ Porcelain conducts well.  
+  _↳ feedback if chosen: It does not conduct._
+- ✅ Porcelain is an insulator.
+
+Full working after a second miss:
+
+> It stops current leaking to the pole.  
+> So the answer is “Porcelain is an insulator.”.  
+
+> Which material is an insulator?
+
+- ◻️ graphite  
+  _↳ feedback if chosen: Conducts._
+- ◻️ aluminium  
+  _↳ feedback if chosen: A metal conductor._
+- ✅ glass
+- ◻️ copper  
+  _↳ feedback if chosen: A metal conductor._
+
+Full working after a second miss:
+
+> Glass does not conduct.  
+> So the answer is “glass”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-58-water` · Lesson 58 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why does tap water conduct a little, while distilled water hardly conducts? | Tap water contains dissolved salts (ions). | Tap water is metal. · Distilled water is hotter. · Tap water has no ions. | It is not a metal. · Temperature is not the reason. · It has ions. | Ions carry the current. |
+| Which safety rule follows from this? | Never touch switches with wet hands. | Always wash appliances while plugged in. · Pour water on electric fires. · Swim during a lightning storm. | Dangerous. · Dangerous. · Dangerous. | Water can carry current through you. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which safety rule follows from this?
+
+- ◻️ Pour water on electric fires.  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ Swim during a lightning storm.  
+  _↳ feedback if chosen: Dangerous._
+- ✅ Never touch switches with wet hands.
+- ◻️ Always wash appliances while plugged in.  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Water can carry current through you.  
+> So the answer is “Never touch switches with wet hands.”.  
+
+> Why does tap water conduct a little, while distilled water hardly conducts?
+
+- ◻️ Tap water has no ions.  
+  _↳ feedback if chosen: It has ions._
+- ◻️ Distilled water is hotter.  
+  _↳ feedback if chosen: Temperature is not the reason._
+- ◻️ Tap water is metal.  
+  _↳ feedback if chosen: It is not a metal._
+- ✅ Tap water contains dissolved salts (ions).
+
+Full working after a second miss:
+
+> Ions carry the current.  
+> So the answer is “Tap water contains dissolved salts (ions).”.  
+
+> Which safety rule follows from this?
+
+- ◻️ Always wash appliances while plugged in.  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ Pour water on electric fires.  
+  _↳ feedback if chosen: Dangerous._
+- ✅ Never touch switches with wet hands.
+- ◻️ Swim during a lightning storm.  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Water can carry current through you.  
+> So the answer is “Never touch switches with wet hands.”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-58-spot` · Lesson 58 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Metals conduct electricity.
+- ✅ Rubber is an insulator.
+- ✅ Salt solution is an electrolyte.
+- ✅ Kerosene does not conduct.
+- ❌ Distilled water is a very good conductor.  
+  _↳ It is a very poor conductor._
+- ❌ Plastic conducts better than copper.  
+  _↳ Plastic is an insulator._
+- ❌ Graphite is an insulator.  
+  _↳ Graphite conducts._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Kerosene does not conduct.
+- ◻️ Rubber is an insulator.
+- ✅ Plastic conducts better than copper.  
+  _↳ explanation: Plastic is an insulator._
+- ◻️ Metals conduct electricity.
+
+Full working after a second miss:
+
+> The wrong statement is “Plastic conducts better than copper.”.  
+> Plastic is an insulator.  
+
+> Which statement is wrong?
+
+- ✅ Graphite is an insulator.  
+  _↳ explanation: Graphite conducts._
+- ◻️ Metals conduct electricity.
+- ◻️ Rubber is an insulator.
+- ◻️ Kerosene does not conduct.
+
+Full working after a second miss:
+
+> The wrong statement is “Graphite is an insulator.”.  
+> Graphite conducts.  
+
+> Which statement is wrong?
+
+- ✅ Plastic conducts better than copper.  
+  _↳ explanation: Plastic is an insulator._
+- ◻️ Metals conduct electricity.
+- ◻️ Rubber is an insulator.
+- ◻️ Kerosene does not conduct.
+
+Full working after a second miss:
+
+> The wrong statement is “Plastic conducts better than copper.”.  
+> Plastic is an insulator.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-58-water-card` · Lesson 58 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why does tap water conduct a little, while distilled water hardly conducts? | Tap water contains dissolved salts (ions). | Tap water is metal. · Distilled water is hotter. · Tap water has no ions. | It is not a metal. · Temperature is not the reason. · It has ions. | Ions carry the current. |
+| Which safety rule follows from this? | Never touch switches with wet hands. | Always wash appliances while plugged in. · Pour water on electric fires. · Swim during a lightning storm. | Dangerous. · Dangerous. · Dangerous. | Water can carry current through you. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does tap water conduct a little, while distilled water hardly conducts?
+
+- ◻️ Distilled water is hotter.  
+  _↳ feedback if chosen: Temperature is not the reason._
+- ✅ Tap water contains dissolved salts (ions).
+- ◻️ Tap water has no ions.  
+  _↳ feedback if chosen: It has ions._
+- ◻️ Tap water is metal.  
+  _↳ feedback if chosen: It is not a metal._
+
+Full working after a second miss:
+
+> Ions carry the current.  
+> So the answer is “Tap water contains dissolved salts (ions).”.  
+
+> Why does tap water conduct a little, while distilled water hardly conducts?
+
+- ✅ Tap water contains dissolved salts (ions).
+- ◻️ Tap water is metal.  
+  _↳ feedback if chosen: It is not a metal._
+- ◻️ Distilled water is hotter.  
+  _↳ feedback if chosen: Temperature is not the reason._
+- ◻️ Tap water has no ions.  
+  _↳ feedback if chosen: It has ions._
+
+Full working after a second miss:
+
+> Ions carry the current.  
+> So the answer is “Tap water contains dissolved salts (ions).”.  
+
+> Why does tap water conduct a little, while distilled water hardly conducts?
+
+- ◻️ Distilled water is hotter.  
+  _↳ feedback if chosen: Temperature is not the reason._
+- ◻️ Tap water is metal.  
+  _↳ feedback if chosen: It is not a metal._
+- ◻️ Tap water has no ions.  
+  _↳ feedback if chosen: It has ions._
+- ✅ Tap water contains dissolved salts (ions).
+
+Full working after a second miss:
+
+> Ions carry the current.  
+> So the answer is “Tap water contains dissolved salts (ions).”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-59-strong` · Lesson 59 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| With vinegar in the circuit, the bulb glows dimly. What kind of electrolyte is vinegar? | a weak electrolyte | a strong electrolyte · a metal · an insulator | The bulb would be bright. · It is a liquid acid. · The bulb does glow. | Few ions: dim light. |
+| Which gives the brightest bulb? | salt solution | sugar solution · distilled water · kerosene | Non-electrolyte. · Very poor conductor. · Insulator. | A strong electrolyte. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> With vinegar in the circuit, the bulb glows dimly. What kind of electrolyte is vinegar?
+
+- ◻️ a metal  
+  _↳ feedback if chosen: It is a liquid acid._
+- ✅ a weak electrolyte
+- ◻️ a strong electrolyte  
+  _↳ feedback if chosen: The bulb would be bright._
+- ◻️ an insulator  
+  _↳ feedback if chosen: The bulb does glow._
+
+Full working after a second miss:
+
+> Few ions: dim light.  
+> So the answer is “a weak electrolyte”.  
+
+> With vinegar in the circuit, the bulb glows dimly. What kind of electrolyte is vinegar?
+
+- ◻️ an insulator  
+  _↳ feedback if chosen: The bulb does glow._
+- ✅ a weak electrolyte
+- ◻️ a metal  
+  _↳ feedback if chosen: It is a liquid acid._
+- ◻️ a strong electrolyte  
+  _↳ feedback if chosen: The bulb would be bright._
+
+Full working after a second miss:
+
+> Few ions: dim light.  
+> So the answer is “a weak electrolyte”.  
+
+> Which gives the brightest bulb?
+
+- ✅ salt solution
+- ◻️ kerosene  
+  _↳ feedback if chosen: Insulator._
+- ◻️ sugar solution  
+  _↳ feedback if chosen: Non-electrolyte._
+- ◻️ distilled water  
+  _↳ feedback if chosen: Very poor conductor._
+
+Full working after a second miss:
+
+> A strong electrolyte.  
+> So the answer is “salt solution”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-59-body` · Lesson 59 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is oral rehydration solution (ORS) given after diarrhoea? | to replace lost water and electrolytes (salts) | to add sugar only for taste · to stop all eating · to make the blood colder | It replaces salts too. · Not the reason. · Not the reason. | The body loses salts in diarrhoea. |
+| Which is a non-electrolyte? | sugar solution | lime juice · sea water · hydrochloric acid | A weak electrolyte. · Contains salt. · A strong electrolyte. | Sugar has no ions. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is oral rehydration solution (ORS) given after diarrhoea?
+
+- ◻️ to make the blood colder  
+  _↳ feedback if chosen: Not the reason._
+- ✅ to replace lost water and electrolytes (salts)
+- ◻️ to add sugar only for taste  
+  _↳ feedback if chosen: It replaces salts too._
+- ◻️ to stop all eating  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> The body loses salts in diarrhoea.  
+> So the answer is “to replace lost water and electrolytes (salts)”.  
+
+> Why is oral rehydration solution (ORS) given after diarrhoea?
+
+- ◻️ to add sugar only for taste  
+  _↳ feedback if chosen: It replaces salts too._
+- ◻️ to stop all eating  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to make the blood colder  
+  _↳ feedback if chosen: Not the reason._
+- ✅ to replace lost water and electrolytes (salts)
+
+Full working after a second miss:
+
+> The body loses salts in diarrhoea.  
+> So the answer is “to replace lost water and electrolytes (salts)”.  
+
+> Why is oral rehydration solution (ORS) given after diarrhoea?
+
+- ◻️ to add sugar only for taste  
+  _↳ feedback if chosen: It replaces salts too._
+- ◻️ to make the blood colder  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to stop all eating  
+  _↳ feedback if chosen: Not the reason._
+- ✅ to replace lost water and electrolytes (salts)
+
+Full working after a second miss:
+
+> The body loses salts in diarrhoea.  
+> So the answer is “to replace lost water and electrolytes (salts)”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-59-spot` · Lesson 59 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Salt solution is an electrolyte.
+- ✅ Ethanol is a non-electrolyte.
+- ✅ Vinegar is a weak electrolyte.
+- ✅ Electrolytes contain ions.
+- ❌ Sugar solution is a strong electrolyte.  
+  _↳ It is a non-electrolyte._
+- ❌ A non-electrolyte is decomposed by electricity.  
+  _↳ It does not conduct, so it is not decomposed._
+- ❌ Blood contains no ions.  
+  _↳ It contains sodium, potassium and chloride ions._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Electrolytes contain ions.
+- ✅ Blood contains no ions.  
+  _↳ explanation: It contains sodium, potassium and chloride ions._
+- ◻️ Vinegar is a weak electrolyte.
+- ◻️ Salt solution is an electrolyte.
+
+Full working after a second miss:
+
+> The wrong statement is “Blood contains no ions.”.  
+> It contains sodium, potassium and chloride ions.  
+
+> Which statement is wrong?
+
+- ✅ A non-electrolyte is decomposed by electricity.  
+  _↳ explanation: It does not conduct, so it is not decomposed._
+- ◻️ Electrolytes contain ions.
+- ◻️ Ethanol is a non-electrolyte.
+- ◻️ Salt solution is an electrolyte.
+
+Full working after a second miss:
+
+> The wrong statement is “A non-electrolyte is decomposed by electricity.”.  
+> It does not conduct, so it is not decomposed.  
+
+> Which statement is wrong?
+
+- ✅ Blood contains no ions.  
+  _↳ explanation: It contains sodium, potassium and chloride ions._
+- ◻️ Vinegar is a weak electrolyte.
+- ◻️ Salt solution is an electrolyte.
+- ◻️ Ethanol is a non-electrolyte.
+
+Full working after a second miss:
+
+> The wrong statement is “Blood contains no ions.”.  
+> It contains sodium, potassium and chloride ions.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
+
+### `k2-59-strong-card` · Lesson 59 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| With vinegar in the circuit, the bulb glows dimly. What kind of electrolyte is vinegar? | a weak electrolyte | a strong electrolyte · a metal · an insulator | The bulb would be bright. · It is a liquid acid. · The bulb does glow. | Few ions: dim light. |
+| Which gives the brightest bulb? | salt solution | sugar solution · distilled water · kerosene | Non-electrolyte. · Very poor conductor. · Insulator. | A strong electrolyte. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> With vinegar in the circuit, the bulb glows dimly. What kind of electrolyte is vinegar?
+
+- ◻️ a metal  
+  _↳ feedback if chosen: It is a liquid acid._
+- ✅ a weak electrolyte
+- ◻️ an insulator  
+  _↳ feedback if chosen: The bulb does glow._
+- ◻️ a strong electrolyte  
+  _↳ feedback if chosen: The bulb would be bright._
+
+Full working after a second miss:
+
+> Few ions: dim light.  
+> So the answer is “a weak electrolyte”.  
+
+> With vinegar in the circuit, the bulb glows dimly. What kind of electrolyte is vinegar?
+
+- ✅ a weak electrolyte
+- ◻️ a strong electrolyte  
+  _↳ feedback if chosen: The bulb would be bright._
+- ◻️ a metal  
+  _↳ feedback if chosen: It is a liquid acid._
+- ◻️ an insulator  
+  _↳ feedback if chosen: The bulb does glow._
+
+Full working after a second miss:
+
+> Few ions: dim light.  
+> So the answer is “a weak electrolyte”.  
+
+> Which gives the brightest bulb?
+
+- ◻️ kerosene  
+  _↳ feedback if chosen: Insulator._
+- ◻️ sugar solution  
+  _↳ feedback if chosen: Non-electrolyte._
+- ◻️ distilled water  
+  _↳ feedback if chosen: Very poor conductor._
+- ✅ salt solution
+
+Full working after a second miss:
+
+> A strong electrolyte.  
+> So the answer is “salt solution”.  
+
+Sources: electrolysis (Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS)
 

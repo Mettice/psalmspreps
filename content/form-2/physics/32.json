@@ -1,0 +1,295 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-32",
+   "name": "Introduction to technology"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Technology is the use of scientific knowledge, tools, materials and skills to make things or solve practical problems.\nScience explains how things work; technology applies this knowledge to make useful objects: a radio, a mobile phone, a hoe, a water filter, a solar panel.\nTraditional technology: blacksmithing, weaving, pottery, carving, food processing with the mortar and grinding stone.\nModern technology: electronics, computers, machines, vehicles.\nA technological project follows steps: identify the need → research and plan (sketch, list materials) → make the object → test it → improve it → present it.\nMaterials: wood, metal, plastic, glass, rubber, cardboard; they are chosen for their properties (strength, weight, cost, conductivity).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A village has dirty water. What steps would a technology club follow to make a simple water filter?",
+  "steps": [
+   "Identify the need (clean water), then research and plan: sketch a bottle filled with layers of gravel, sand and charcoal.",
+   "Make it, test it with dirty water, improve it, then present it."
+  ],
+  "answer": "Need → plan → make → test → improve → present.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "Technology uses scientific knowledge and tools to solve practical problems.",
+    "vars": {},
+    "example": [
+     "A solar panel uses light to make electricity."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-32-what"
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "A project: need, plan, make, test, improve, present.",
+    "vars": {},
+    "example": [
+     "Test the object before presenting it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-32-steps"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "Materials are chosen for their properties: strength, weight, cost, conductivity.",
+    "vars": {},
+    "example": [
+     "Copper for wires; plastic for covers."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-32-mat-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "technology"
+     ],
+     "prompt": "Match each material to a reason it is chosen.",
+     "pool": [
+      {
+       "left": "copper",
+       "right": "conducts electricity"
+      },
+      {
+       "left": "plastic",
+       "right": "insulates and is light"
+      },
+      {
+       "left": "steel",
+       "right": "is strong"
+      },
+      {
+       "left": "glass",
+       "right": "is transparent"
+      },
+      {
+       "left": "rubber",
+       "right": "is flexible and insulates"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-32-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is technology?",
+       "r": "using knowledge and tools to make things or solve practical problems",
+       "w": [
+        "only computers",
+        "a kind of plant",
+        "a school subject about history"
+       ],
+       "e": [
+        "It is wider than computers.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Technology solves practical problems."
+      },
+      {
+       "q": "Which is an example of traditional technology?",
+       "r": "blacksmithing",
+       "w": [
+        "a laptop",
+        "a smartphone",
+        "a satellite"
+       ],
+       "e": [
+        "Modern.",
+        "Modern.",
+        "Modern."
+       ],
+       "y": "Making tools from iron by hand."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-32-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "prompt": "Put the steps of a technology project in order.",
+   "items": [
+    {
+     "text": "Identify the need"
+    },
+    {
+     "text": "Research and plan"
+    },
+    {
+     "text": "Make the object"
+    },
+    {
+     "text": "Test it"
+    },
+    {
+     "text": "Improve and present it"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "p2-32-mat",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "prompt": "Match each material to a reason it is chosen.",
+   "pool": [
+    {
+     "left": "copper",
+     "right": "conducts electricity"
+    },
+    {
+     "left": "plastic",
+     "right": "insulates and is light"
+    },
+    {
+     "left": "steel",
+     "right": "is strong"
+    },
+    {
+     "left": "glass",
+     "right": "is transparent"
+    },
+    {
+     "left": "rubber",
+     "right": "is flexible and insulates"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-32-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Technology applies scientific knowledge.",
+      "truth": "true"
+     },
+     {
+      "text": "Pottery is a traditional technology.",
+      "truth": "true"
+     },
+     {
+      "text": "A project ends by testing and improving.",
+      "truth": "true"
+     },
+     {
+      "text": "Materials are chosen for their properties.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Technology only means computers.",
+      "truth": "false",
+      "explain": "It includes tools, machines and traditional crafts."
+     },
+     {
+      "text": "We should present an object before testing it.",
+      "truth": "false",
+      "explain": "Test it first."
+     },
+     {
+      "text": "Copper is chosen to insulate wires.",
+      "truth": "false",
+      "explain": "Copper conducts; plastic insulates."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

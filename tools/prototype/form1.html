@@ -2642,6 +2642,15 @@ function startTeach(lesson, seed) {
   return { lesson: lesson.lesson_no, steps, step: 0, attempt: 0, phase: phaseFor(steps[0]), seed, log: [] };
 }
 
+/** Revisit only flagged cards/questions, keeping their explanations and two-try help. */
+function startReview(lesson, ids, seed) {
+  const wanted = new Set(ids);
+  const steps = lessonSteps(lesson).filter((step) =>
+    step.kind === "card" ? wanted.has(lesson.teach.cards[step.card].id)
+      : step.kind === "practice" && wanted.has(step.template));
+  return { lesson: lesson.lesson_no, steps, step: 0, attempt: 0, phase: phaseFor(steps[0]), seed, log: [] };
+}
+
 function phaseFor(step) {
   if (step?.kind === "card") return "idea";
   if (step?.kind === "practice") return "check";
@@ -2719,7 +2728,7 @@ const isDone = (flow) => flow.step >= flow.steps.length;
 /** Steps the pupil missed twice, for the results and for later review. */
 const needsReview = (flow) => flow.log.filter((e) => e.needsReview).map((e) => flow.steps[e.step]);
 
-return { cardCheckTemplate, renderCard, practicePlan, lessonSteps, isDeferred, isAutoMarked, renderPaper, stepTemplate, startTeach, checkSeed, itemQuestion, exampleLike, cardQuestion, nextPhase, answerItem, answerCard, isDone, needsReview };
+return { cardCheckTemplate, renderCard, practicePlan, lessonSteps, isDeferred, isAutoMarked, renderPaper, stepTemplate, startTeach, startReview, checkSeed, itemQuestion, exampleLike, cardQuestion, nextPhase, answerItem, answerCard, isDone, needsReview };
 })();
 __mods["readiness.js"] = (() => {
 // Lesson 0: Primary 6 readiness check. Sets a readiness score and flags weak foundations.
@@ -2851,6 +2860,11 @@ const checkIcon = () => {
 // ---------------------------------------------------------------- French lessons are in French (TR-F12)
 // Inside a French lesson the pupil's buttons and headings are in French; the menu and the grown-up text stay English.
 const FR = {
+  "Practise what was difficult": "Revoir ce qui était difficile",
+  "Review complete": "Révision terminée",
+  "You practised the questions that needed another look.": "Tu as revu les questions qui demandaient encore du travail.",
+  "Some questions still need practice. You can try them again.": "Certaines questions demandent encore du travail. Tu peux réessayer.",
+  "You answered every review item correctly, with help where needed.": "Tu as réussi chaque question de révision, avec de l’aide si nécessaire.",
   "Check": "Vérifier", "Your answer": "Ta réponse", "blank": "espace vide", "Tap the words below.": "Touche les mots ci-dessous.",
   "Tap a word to add it. Tap a word in your sentence to take it out.": "Touche un mot pour l’ajouter. Touche un mot de ta phrase pour l’enlever.",
   "Tap an item on the left, then its partner on the right. Tap a pair to undo it.": "Touche un élément à gauche, puis son partenaire à droite. Touche une paire pour l’annuler.",
@@ -3211,6 +3225,7 @@ function menu() {
         el("button", { type: "button", class: `lesson${r?.done ? " is-done" : ""}`, onclick: () => openLesson(s, n) },
           el("span", { class: "mark", "aria-hidden": "true" }, mark),
           el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[s][n], sub ? el("span", { class: "sub" }, sub) : null)),
+        r?.review?.length ? el("button", { type: "button", class: "link", "aria-label": `Practise what was difficult in Lesson ${n}`, onclick: () => openReview(s, n) }, "Practise what was difficult") : null,
         // a finished or started lesson can be reset, so the pupil starts it again from the first card
         r?.done || going ? el("button", { type: "button", class: "link reset", "aria-label": `Start Lesson ${n} again from the beginning`, onclick: () => resetLesson(s, n) }, "↺ Start again") : null);
     };
@@ -3283,6 +3298,22 @@ function resetLesson(s, n) {
   if (state.current[s]?.lesson === n) delete state.current[s];
   save();
   openLesson(s, n);
+}
+/** Review has its own saved run; the original lesson answers and stars are kept. */
+function openReview(s, n) {
+  withSubject(s, () => {
+    S = s;
+    document.documentElement.lang = inFrench(s) ? "fr" : "en";
+    const cur = state.current[s];
+    if (cur?.lesson === n && cur.reviewMode && !teach.isDone(cur.flow)) return lesson(resumable(cur.flow));
+    const ids = state.lessons[lessonKey(s, n)]?.review || [];
+    const flow = teach.startReview(CONTENT[s][n], ids, newSeed());
+    if (!flow.steps.length) return menu();
+    // Keep another unfinished lesson available when this short review finishes.
+    state.current[s] = { lesson: n, flow, rows: [], reviewMode: true, reviewIds: ids,
+      previousCurrent: cur, at: new Date().toISOString() };
+    lesson(flow);
+  });
 }
 /** A flow saved mid-feedback resumes on a question: "retry" → the fresh variant, "reveal" → the next step. */
 const resumable = (flow) => (flow.phase === "retry" || flow.phase === "reveal" ? teach.nextPhase(flow) : flow);
@@ -3448,6 +3479,7 @@ function lessonText(s, n, r) {
   const out = [`${subjectName(s)} Lesson ${n} (${TITLES[s][n]}) · ${r.at.slice(0, 16).replace("T", " ")} · ${Math.round(secs)}s · "I don't know" ${count(r.rows, "idk")}`,
     `  cards: ${count(cards, "right")} right, ${count(cards, "wrong")} wrong, ${count(cards, "idk")} IDK · practice: ${count(practice, "right")} right, ${count(practice, "wrong")} wrong, ${count(practice, "idk")} IDK`,
     `  needs review (missed twice): ${r.review.join(", ") || "none"}`];
+  if (r.reviewRows?.length) out.push(`  targeted review: ${count(r.reviewRows, "right")} right, ${count(r.reviewRows, "wrong")} wrong, ${count(r.reviewRows, "idk")} IDK`);
   if (r.paper) {
     const items = teach.renderPaper(CONTENT[s][n], libs[s]).checklist;
     out.push(`  paper task (not marked; self-check by the pupil): ${r.paper.ticks.filter(Boolean).length} of ${items.length} ticked`,
@@ -3459,7 +3491,8 @@ const stamp = () => `Form One prototype ${BUILD} · ${new Date().toISOString().s
 
 function lessonResultsText(s, n) {
   const r = state.lessons[lessonKey(s, n)];
-  return [stamp(), ...readinessText(), ...lessonText(s, n, r), "", TABLE_HEAD, ...r.rows.map(row)].join("\n");
+  return [stamp(), ...readinessText(), ...lessonText(s, n, r), "", TABLE_HEAD, ...r.rows.map(row),
+    ...(r.reviewRows?.length ? ["", "Targeted review", TABLE_HEAD, ...r.reviewRows.map(row)] : [])].join("\n");
 }
 function allResultsText() {
   const out = [stamp(), ...readinessText()];
@@ -3468,6 +3501,10 @@ function allResultsText() {
     const done = LESSONS[s].filter((n) => state.lessons[lessonKey(s, n)]?.done);
     out.push(`${subjectName(s)}: lessons done ${done.length} of ${LESSONS[s].length}`, ...done.flatMap((n) => lessonText(s, n, state.lessons[lessonKey(s, n)])));
     tables.push(...done.flatMap((n) => state.lessons[lessonKey(s, n)].rows.map(row)));
+    for (const n of done) {
+      const rows = state.lessons[lessonKey(s, n)].reviewRows;
+      if (rows?.length) tables.push(`${subjectName(s)} Lesson ${n} · Targeted review`, ...rows.map(row));
+    }
   }
   return [...out, "", TABLE_HEAD, ...tables].join("\n");
 }
@@ -3483,27 +3520,42 @@ async function copyText(text, status, details = null, area = null) {
 function results(flow) {
   const s = S, n = N(), Ln = L();
   const review = teach.needsReview(flow).map((x) => (x.kind === "card" ? Ln.teach.cards[x.card].id : x.template));
+  if (C().reviewMode) {
+    const current = C(), record = state.lessons[lessonKey(s, n)];
+    record.review = [...new Set([...record.review.filter((id) => !current.reviewIds.includes(id)), ...review])];
+    record.reviewRows = [...(record.reviewRows || []), ...current.rows];
+    if (current.previousCurrent) state.current[s] = current.previousCurrent;
+    else delete state.current[s];
+    save();
+    return showResults(s, n, flow.steps.length, true);
+  }
   // The latest finished run of a lesson replaces the previous one.
   const record = { done: true, at: new Date().toISOString(), rows: C().rows, review, ...(C().paper ? { paper: C().paper } : {}) };
   record.stars = starsOf(record);
   state.lessons[lessonKey(s, n)] = record;
   delete state.current[s];
   save();
+  return showResults(s, n, flow.steps.filter((x) => x.kind === "card" || x.kind === "practice").length);
+}
+
+function showResults(s, n, completed, reviewed = false) {
+  const Ln = CONTENT[s][n], record = state.lessons[lessonKey(s, n)];
   const text = lessonResultsText(s, n);
   const area = el("textarea", { readonly: "", rows: "10", "aria-label": "Results" });
   // The text holds the readiness score and weak areas, so it stays folded away from the pupil (TR-C30).
   const details = el("details", { class: "grownup" }, el("summary", {}, "Show the text (for a grown-up)"), area);
   area.value = text;
   const status = para("", "muted");
-  const completed = flow.steps.filter((x) => x.kind === "card" || x.kind === "practice").length;
   const next = nextLesson(s);
   const badges = newBadges(), st = streak();
-  screen(confetti(), el("div", { class: "done" }, el("div", { class: "done-title" }, T("Lesson {n} done", { n })),
+  screen(confetti(), el("div", { class: "done" }, el("div", { class: "done-title" }, reviewed ? T("Review complete") : T("Lesson {n} done", { n })),
     el("div", { class: "done-stars", "aria-label": `${record.stars} of 3 stars` }, [1, 2, 3].map((k) => el("span", { class: k <= record.stars ? "star on" : "star", style: `--k:${k}` }, "★"))),
-    para(Ln.paper_task ? `You completed ${completed} questions and a writing task.` : T("You completed {a} questions.", { a: completed }), "done-sub"),
+    para(reviewed ? T("You practised the questions that needed another look.") : Ln.paper_task ? `You completed ${completed} questions and a writing task.` : T("You completed {a} questions.", { a: completed }), "done-sub"),
     st ? para(T("🔥 {a}-day streak", { a: st }), "done-streak") : null),
     badges.map(([, icon, name]) => el("div", { class: "new-badge" }, el("span", { "aria-hidden": "true" }, icon), el("strong", {}, T("New badge: {a}", { a: name })))),
-    next ? button(T("Next: Lesson {a}", { a: next }), () => openLesson(s, next), "primary") : para(T("You have done every {a} lesson. Well done!", { a: subjectName(s) }), "strong"),
+    reviewed ? para(T(record.review.length ? "Some questions still need practice. You can try them again." : "You answered every review item correctly, with help where needed."), "muted") : null,
+    record.review.length ? button(T("Practise what was difficult"), () => openReview(s, n), "primary") : null,
+    next ? button(T("Next: Lesson {a}", { a: next }), () => openLesson(s, next), record.review.length ? "" : "primary") : para(T("You have done every {a} lesson. Well done!", { a: subjectName(s) }), "strong"),
     button(T("Back to the lessons"), menu, next ? "" : "primary"),
     button(T("All subjects"), home, "link"),
     para("For a grown-up: these results stay on this phone until you copy them.", "muted"),

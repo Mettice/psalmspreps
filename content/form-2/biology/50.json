@@ -1,0 +1,438 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 50,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b2-50",
+   "name": "The ozone layer"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ozone (O₃) is a gas made of three oxygen atoms. The ozone layer is a thin layer of ozone in the upper atmosphere (the stratosphere), about 15 to 35 km above the Earth.\nRole: it absorbs most of the harmful ultraviolet (UV) rays from the sun, protecting living things.\nDepletion (thinning) of the ozone layer is caused mainly by chemicals released by humans: chlorofluorocarbons (CFCs) from old refrigerators, air conditioners and aerosol sprays; halons from some fire extinguishers.\nEffects of more UV reaching the Earth: skin cancer, cataracts (eye damage), weakened immunity, damage to crops and to sea plankton.\nPrevention: the Montreal Protocol (1987) banned most CFCs; use CFC-free fridges and sprays; recycle old fridges properly; protect yourself from strong sun.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why is the thinning of the ozone layer dangerous for people?",
+  "steps": [
+   "The ozone layer absorbs harmful ultraviolet rays.",
+   "When it is thin, more UV reaches us, causing skin cancer and eye damage."
+  ],
+  "answer": "More UV rays reach the Earth and cause skin cancer and eye damage.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c50-1",
+    "status": "draft",
+    "idea": "Ozone (O₃) is a gas of three oxygen atoms; the ozone layer is high in the atmosphere.",
+    "vars": {},
+    "example": [
+     "About {15}–{35} km up."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-50-what"
+    }
+   },
+   {
+    "id": "c50-2",
+    "status": "draft",
+    "idea": "The ozone layer absorbs harmful ultraviolet rays from the sun.",
+    "vars": {},
+    "example": [
+     "It protects living things."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-50-role"
+    }
+   },
+   {
+    "id": "c50-3",
+    "status": "draft",
+    "idea": "CFCs from old fridges and sprays destroy ozone; the Montreal Protocol banned most of them.",
+    "vars": {},
+    "example": [
+     "Use CFC-free products."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-50-cause-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "waste-ozone"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which chemicals destroy the ozone layer?",
+         "r": "CFCs (chlorofluorocarbons)",
+         "w": [
+          "oxygen and nitrogen",
+          "water and salt",
+          "sugar and starch"
+         ],
+         "e": [
+          "Natural gases of the air.",
+          "Not involved.",
+          "Not involved."
+         ],
+         "y": "From old fridges and sprays."
+        },
+        {
+         "q": "Which international agreement banned most CFCs?",
+         "r": "the Montreal Protocol",
+         "w": [
+          "the OHADA treaty",
+          "the Treaty of Versailles",
+          "the Port Louis treaty"
+         ],
+         "e": [
+          "That is business law.",
+          "That ended World War One.",
+          "That is OHADA."
+         ],
+         "y": "Signed in 1987."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-50-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is ozone?",
+       "r": "a gas made of three oxygen atoms (O₃)",
+       "w": [
+        "a kind of cloud",
+        "a metal",
+        "water vapour"
+       ],
+       "e": [
+        "It is a gas, not a cloud.",
+        "It is not a metal.",
+        "That is H₂O."
+       ],
+       "y": "O₃."
+      },
+      {
+       "q": "Where is the ozone layer?",
+       "r": "high in the atmosphere (the stratosphere)",
+       "w": [
+        "under the ground",
+        "in the oceans",
+        "inside the sun"
+       ],
+       "e": [
+        "Not there.",
+        "Not there.",
+        "Not there."
+       ],
+       "y": "About 15–35 km above the Earth."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-50-role",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the ozone layer do?",
+       "r": "It absorbs harmful ultraviolet rays from the sun.",
+       "w": [
+        "It makes rain.",
+        "It produces oxygen for breathing.",
+        "It causes earthquakes."
+       ],
+       "e": [
+        "Not its role.",
+        "Plants produce our oxygen.",
+        "Not its role."
+       ],
+       "y": "It is the Earth's sunscreen."
+      },
+      {
+       "q": "Which disease can increase when the ozone layer thins?",
+       "r": "skin cancer",
+       "w": [
+        "malaria",
+        "cholera",
+        "goitre"
+       ],
+       "e": [
+        "Spread by mosquitoes.",
+        "Spread by dirty water.",
+        "Lack of iodine."
+       ],
+       "y": "More UV damages the skin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-50-cause",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which chemicals destroy the ozone layer?",
+       "r": "CFCs (chlorofluorocarbons)",
+       "w": [
+        "oxygen and nitrogen",
+        "water and salt",
+        "sugar and starch"
+       ],
+       "e": [
+        "Natural gases of the air.",
+        "Not involved.",
+        "Not involved."
+       ],
+       "y": "From old fridges and sprays."
+      },
+      {
+       "q": "Which international agreement banned most CFCs?",
+       "r": "the Montreal Protocol",
+       "w": [
+        "the OHADA treaty",
+        "the Treaty of Versailles",
+        "the Port Louis treaty"
+       ],
+       "e": [
+        "That is business law.",
+        "That ended World War One.",
+        "That is OHADA."
+       ],
+       "y": "Signed in 1987."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-50-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ozone absorbs ultraviolet rays.",
+      "truth": "true"
+     },
+     {
+      "text": "CFCs damage the ozone layer.",
+      "truth": "true"
+     },
+     {
+      "text": "UV rays can cause cataracts.",
+      "truth": "true"
+     },
+     {
+      "text": "Ozone is O₃.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The ozone layer produces the oxygen we breathe.",
+      "truth": "false",
+      "explain": "Plants produce it; ozone absorbs UV."
+     },
+     {
+      "text": "CFCs protect the ozone layer.",
+      "truth": "false",
+      "explain": "They destroy it."
+     },
+     {
+      "text": "More UV is good for crops.",
+      "truth": "false",
+      "explain": "Too much UV damages crops."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

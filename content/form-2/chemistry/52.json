@@ -1,0 +1,440 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 52,
+ "language": "en",
+ "prerequisites": [
+  49
+ ],
+ "skills": [
+  {
+   "id": "k2-52",
+   "name": "Reversible reactions: heating hydrated copper(II) sulphate"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A reversible reaction can go both ways: the products can change back into the reactants. We write it with a double arrow ⇌.\nHeating blue hydrated copper(II) sulphate gives white anhydrous copper(II) sulphate and water (steam).\nAdding water back to the white powder turns it blue again, and heat is given out (it gets warm).\nCuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O\nThis is used as a test for water: white anhydrous copper(II) sulphate turns blue with water. (Cobalt chloride paper turns from blue to pink with water.)\nMost burning reactions are not reversible: ash cannot become wood again.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A few drops of a colourless liquid are added to white anhydrous copper(II) sulphate. It turns blue. What does this show?",
+  "steps": [
+   "White anhydrous copper(II) sulphate turns blue when water is added.",
+   "So the liquid contains water."
+  ],
+  "answer": "The liquid contains water.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c52-1",
+    "status": "draft",
+    "idea": "A reversible reaction can go both ways (⇌).",
+    "vars": {},
+    "example": [
+     "Blue ⇌ white copper(II) sulphate."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-52-rev"
+    }
+   },
+   {
+    "id": "c52-2",
+    "status": "draft",
+    "idea": "White anhydrous copper(II) sulphate turns blue with water: a test for water.",
+    "vars": {},
+    "example": [
+     "It also gets warm."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-52-test-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "heat-action"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What do you see when water is added to white anhydrous copper(II) sulphate?",
+         "r": "It turns blue and gets warm.",
+         "w": [
+          "It turns red and cold.",
+          "It explodes.",
+          "Nothing happens."
+         ],
+         "e": [
+          "Not the change.",
+          "No explosion.",
+          "It changes."
+         ],
+         "y": "Heat is given out."
+        },
+        {
+         "q": "What is white anhydrous copper(II) sulphate used to test for?",
+         "r": "water",
+         "w": [
+          "oxygen",
+          "carbon dioxide",
+          "hydrogen"
+         ],
+         "e": [
+          "A glowing splint tests oxygen.",
+          "Lime water tests CO₂.",
+          "A lighted splint tests hydrogen."
+         ],
+         "y": "It turns blue with water."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c52-3",
+    "status": "draft",
+    "idea": "Burning is not reversible: ash cannot become wood again.",
+    "vars": {},
+    "example": [
+     "Melting ice is a reversible physical change."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-52-not"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-52-rev",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a reversible reaction?",
+       "r": "a reaction that can go both ways",
+       "w": [
+        "a reaction that never happens",
+        "a reaction that only gives gases",
+        "a reaction that destroys matter"
+       ],
+       "e": [
+        "It does happen.",
+        "Not the meaning.",
+        "Matter is conserved."
+       ],
+       "y": "Products can change back."
+      },
+      {
+       "q": "Which sign shows a reversible reaction?",
+       "r": "⇌",
+       "w": [
+        "→",
+        "+",
+        "="
+       ],
+       "e": [
+        "One-way arrow.",
+        "Joins substances.",
+        "Not used for reactions."
+       ],
+       "y": "The double arrow."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-52-test",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What do you see when water is added to white anhydrous copper(II) sulphate?",
+       "r": "It turns blue and gets warm.",
+       "w": [
+        "It turns red and cold.",
+        "It explodes.",
+        "Nothing happens."
+       ],
+       "e": [
+        "Not the change.",
+        "No explosion.",
+        "It changes."
+       ],
+       "y": "Heat is given out."
+      },
+      {
+       "q": "What is white anhydrous copper(II) sulphate used to test for?",
+       "r": "water",
+       "w": [
+        "oxygen",
+        "carbon dioxide",
+        "hydrogen"
+       ],
+       "e": [
+        "A glowing splint tests oxygen.",
+        "Lime water tests CO₂.",
+        "A lighted splint tests hydrogen."
+       ],
+       "y": "It turns blue with water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-52-not",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Heating blue copper(II) sulphate, then adding water.",
+       "r": "yes",
+       "w": [
+        "no",
+        "only on Mondays",
+        "only in the dark"
+       ],
+       "e": [
+        "It can go back.",
+        "Not a rule.",
+        "Not a rule."
+       ],
+       "y": "Blue ⇌ white."
+      },
+      {
+       "q": "Burning paper.",
+       "r": "no",
+       "w": [
+        "yes",
+        "only if wet",
+        "only if cold"
+       ],
+       "e": [
+        "Ash cannot become paper.",
+        "Not the rule.",
+        "Not the rule."
+       ],
+       "y": "Burning is not reversible."
+      }
+     ]
+    }
+   },
+   "prompt": "Is it reversible? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-52-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Hydrated copper(II) sulphate is blue.",
+      "truth": "true"
+     },
+     {
+      "text": "Anhydrous copper(II) sulphate is white.",
+      "truth": "true"
+     },
+     {
+      "text": "Adding water to the white powder gives out heat.",
+      "truth": "true"
+     },
+     {
+      "text": "⇌ shows a reversible reaction.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Burning wood is a reversible reaction.",
+      "truth": "false",
+      "explain": "Ash cannot turn back into wood."
+     },
+     {
+      "text": "White copper(II) sulphate turns blue with oxygen.",
+      "truth": "false",
+      "explain": "It turns blue with water."
+     },
+     {
+      "text": "Adding water to the white powder makes it cold.",
+      "truth": "false",
+      "explain": "It gets warm."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

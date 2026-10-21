@@ -1,0 +1,323 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [
+  32
+ ],
+ "skills": [
+  {
+   "id": "p2-33",
+   "name": "Making simple instruments"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Simple instruments can be made from local materials:\n• a rain gauge: a clear bottle with a funnel and a scale in millimetres, to measure rainfall;\n• a pinhole camera: a closed box with a tiny hole on one side and tracing paper on the other; it gives an upside-down image (light travels in straight lines);\n• a periscope: a tube with two plane mirrors at 45°, to see over walls;\n• a simple balance: a ruler or stick hanging from its middle, with a pan at each end;\n• a wind vane: an arrow on a pin that points into the wind;\n• a simple electric circuit with a cell, a switch and a bulb.\nSafety: use cutting tools carefully, away from the body; work under supervision with hot glue or soldering.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why is the image in a pinhole camera upside down?",
+  "steps": [
+   "Light travels in straight lines.",
+   "Rays from the top of the object pass through the hole and reach the bottom of the screen, and the rays from the bottom reach the top."
+  ],
+  "answer": "Because light travels in straight lines and the rays cross at the hole.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c33-1",
+    "status": "draft",
+    "idea": "A rain gauge measures rainfall in millimetres.",
+    "vars": {},
+    "example": [
+     "A bottle, a funnel and a scale."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-33-instr"
+    }
+   },
+   {
+    "id": "c33-2",
+    "status": "draft",
+    "idea": "A pinhole camera gives an upside-down image because light travels in straight lines.",
+    "vars": {},
+    "example": [
+     "The rays cross at the hole."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-33-pin"
+    }
+   },
+   {
+    "id": "c33-3",
+    "status": "draft",
+    "idea": "A periscope uses two mirrors at {45}° to see over walls.",
+    "vars": {},
+    "example": [
+     "Used in submarines."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-33-safe-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "technology"
+     ],
+     "prompt": "Which statement is wrong?",
+     "pool": {
+      "right": [
+       {
+        "text": "A rain gauge measures rainfall.",
+        "truth": "true"
+       },
+       {
+        "text": "Light travels in straight lines.",
+        "truth": "true"
+       },
+       {
+        "text": "A wind vane points into the wind.",
+        "truth": "true"
+       },
+       {
+        "text": "Cut away from your body.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A pinhole camera gives an image the right way up.",
+        "truth": "false",
+        "explain": "It gives an upside-down image."
+       },
+       {
+        "text": "A periscope works with lenses only.",
+        "truth": "false",
+        "explain": "It uses two plane mirrors."
+       },
+       {
+        "text": "Use cutting tools towards your hand.",
+        "truth": "false",
+        "explain": "Always cut away from the body."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-33-instr",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "prompt": "Match each instrument to what it does.",
+   "pool": [
+    {
+     "left": "rain gauge",
+     "right": "measures rainfall"
+    },
+    {
+     "left": "wind vane",
+     "right": "shows the direction of the wind"
+    },
+    {
+     "left": "periscope",
+     "right": "lets you see over walls"
+    },
+    {
+     "left": "pinhole camera",
+     "right": "forms an image of an object"
+    },
+    {
+     "left": "simple balance",
+     "right": "compares masses"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-33-pin",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What kind of image does a pinhole camera give?",
+       "r": "upside down",
+       "w": [
+        "the right way up and larger always",
+        "no image",
+        "a coloured photo printed at once"
+       ],
+       "e": [
+        "It is inverted.",
+        "It does form one.",
+        "It is only an image on the screen."
+       ],
+       "y": "The rays cross at the hole."
+      },
+      {
+       "q": "How are the mirrors placed in a periscope?",
+       "r": "at 45° and parallel to each other",
+       "w": [
+        "at 90° facing away",
+        "flat on the floor",
+        "at 10°"
+       ],
+       "e": [
+        "Not the arrangement.",
+        "Not the arrangement.",
+        "Not the angle."
+       ],
+       "y": "Each mirror turns the light through 90°."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-33-rain",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      0,
+      40
+     ]
+    },
+    "b": {
+     "int": [
+      0,
+      40
+     ]
+    },
+    "c": {
+     "int": [
+      0,
+      40
+     ]
+    }
+   },
+   "prompt": "A rain gauge shows {a} mm of rain on Monday, {b} mm on Tuesday and {c} mm on Wednesday. What is the total rainfall?",
+   "answer": "a + b + c",
+   "solution": [
+    "Add the three readings.",
+    "{a} + {b} + {c} = {answer} mm."
+   ],
+   "unit": "mm"
+  },
+  {
+   "id": "p2-33-safe",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A rain gauge measures rainfall.",
+      "truth": "true"
+     },
+     {
+      "text": "Light travels in straight lines.",
+      "truth": "true"
+     },
+     {
+      "text": "A wind vane points into the wind.",
+      "truth": "true"
+     },
+     {
+      "text": "Cut away from your body.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A pinhole camera gives an image the right way up.",
+      "truth": "false",
+      "explain": "It gives an upside-down image."
+     },
+     {
+      "text": "A periscope works with lenses only.",
+      "truth": "false",
+      "explain": "It uses two plane mirrors."
+     },
+     {
+      "text": "Use cutting tools towards your hand.",
+      "truth": "false",
+      "explain": "Always cut away from the body."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

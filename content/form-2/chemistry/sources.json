@@ -1,5 +1,5 @@
 {
- "_note": "Sources for Form 2 Chemistry (Batches C2-1 and C2-2, Terms 1 and 2). Computed answers follow the rules and tables named here.",
+ "_note": "Sources for Form 2 Chemistry (Batches C2-1, C2-2 and C2-3, Terms 1–3). Computed answers follow the rules and tables named here.",
  "atomic-structure": {
   "ref": "Dalton's atomic theory (1803-1808); protons, neutrons and electrons; Bohr's model with shells of 2, 8, 8 for the first 20 elements; atomic number, mass number, isotopes",
   "supports": "The statements of Dalton's theory and its later corrections; particle charges and masses; electron arrangements; neutrons = mass number − atomic number. Mass numbers used: the most common isotope of each of the first 20 elements (Cl 35).",
@@ -34,5 +34,20 @@
   "ref": "States of matter and changes of state; separation by picking, sieving, decanting, filtration, evaporation, crystallisation, magnet, separating funnel, winnowing, simple and fractional distillation, paper and column chromatography, sublimation; melting and boiling points; criteria for purity",
   "supports": "State from melting and boiling points (science2.js stateAt); Rf = spot distance ÷ solvent distance (rf). Melting/boiling points used: water 0/100, ethanol −114/78, mercury −39/357, naphthalene 80/218, oxygen −218/−183, sulphur 115/445 °C; methanol boils at 65 °C, propanone at 56 °C.",
   "checked": "The table of melting and boiling points is authored from general knowledge: please check it."
+ },
+ "fuels": {
+  "ref": "Fossil fuels (coal, crude oil, natural gas): formation, non-renewable; fractions of crude oil and their uses; SONARA (Limbe) and the Kribi gas power station",
+  "supports": "Rows 47–48.",
+  "checked": "General knowledge: please check the Cameroonian examples."
+ },
+ "heat-action": {
+  "ref": "Action of heat: hydrates (CuSO₄·5H₂O ⇌ CuSO₄ + 5H₂O), oxides (2HgO → 2Hg + O₂; ZnO yellow when hot), carbonates (→ oxide + CO₂; Na and K carbonates stable), nitrates (Na, K → nitrite + O₂; others → oxide + NO₂ + O₂); mass change of CaCO₃ (44% loss); reversible reactions; tests for CO₂, O₂ and water",
+  "supports": "Equations 20–27 added to the EQ table in science2.js and checked by atom counting.",
+  "checked": "Standard results; equations tested."
+ },
+ "electrolysis": {
+  "ref": "Conductors and insulators; ionic compounds conduct when molten or dissolved; electrolysis (cathode negative, anode positive); CuCl₂(aq) → Cu + Cl₂; acidified water → 2 H₂ : 1 O₂; molten NaCl → Na + Cl₂; strong and weak electrolytes, non-electrolytes; ORS",
+  "supports": "Equations 28–30 in science2.js (molten NaCl used instead of PbBr₂ because bromine is not in the element table).",
+  "checked": "Standard results."
  }
 }

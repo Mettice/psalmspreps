@@ -44,3 +44,10 @@ test("body mass index, food energy and heat taken in by water", () => {
   assert.equal(s.heatToWater(20, 15), 1260);
   assert.equal(s.energyPerGram(20, 15, 0.5), 2520);
 });
+
+test("Term 3 heating and electrolysis equations balance", () => {
+  for (const i of [...s.heatEquations(), 28, 29, 30]) assert.ok(s.eqBalanced(i), s.eqStr(i));
+  assert.equal(s.eqStr(25), "2Cu(NO₃)₂ → 2CuO + 4NO₂ + O₂");
+  assert.equal(s.eqCoef(27, 0), 2);
+  assert.equal(s.eqCoef(30, 0), 2);
+});

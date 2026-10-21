@@ -12,6 +12,66 @@ const card = L8.teach.cards.find((c) => c.id === "c8-2");
 const toTen = L8.questions.find((t) => t.id === "m8-to-ten");
 const fixed = (tpl, vars) => ({ ...tpl, vars, where: undefined });  // one known question
 
+test("targeted review selects flagged cards and practice, with the existing retry help", () => {
+  let flow = teach.startReview(L8, [card.id, toTen.id, card.id, "obsolete-id"], 101);
+  assert.deepEqual(flow.steps, [{ kind: "card", card: L8.teach.cards.indexOf(card) }, { kind: "practice", template: toTen.id }]);
+  assert.equal(flow.phase, "idea");
+  flow = teach.nextPhase(flow);
+  flow = teach.answerItem(flow, { correct: false, dontKnow: true }, 100);
+  flow = teach.nextPhase(flow);
+  assert.equal(teach.itemQuestion(L8, flow, lib).type, "blanks");
+  flow = teach.answerItem(flow, { correct: false }, 100);
+  assert.equal(flow.phase, "reveal");
+  flow = teach.nextPhase(flow);
+  flow = teach.answerItem(flow, { correct: true }, 100);
+  assert.equal(teach.isDone(flow), true);
+  assert.deepEqual(teach.needsReview(flow), [{ kind: "card", card: L8.teach.cards.indexOf(card) }]);
+  assert.equal(teach.isDone(teach.startReview(L8, [], 1)), true);
+});
+
+test("review saves separately, resumes, exports results and preserves the completed lesson", () => {
+  const app = readFileSync(new URL("../tools/prototype/app.js", import.meta.url), "utf8");
+  let saved;
+  const storage = { getItem: () => null, setItem: (_, value) => { saved = value; } };
+  // Exercise the real UI state transitions with screen rendering replaced by a captured result.
+  const makeApp = new Function("ENGINE", "CONTENT", "TITLES", "LESSONS", "SUBJECTS", "CLASS_OF", "CLASSES", "BUILD", "document", "localStorage", `const addEventListener = () => {}; ${app}
+    lesson = (flow) => { C().flow = flow; save(); };
+    showResults = (s, n, completed, reviewed) => ({ s, n, completed, reviewed });
+    return { state, openReview, results, upgrade, lessonResultsText, allResultsText };`);
+  const ui = makeApp({ libs: { maths: lib }, template: {}, teach }, { maths: { 8: L8 } }, { maths: { 8: "Number bases" } },
+    { maths: [8] }, { maths: "Maths" }, { maths: "form-1" }, { "form-1": "Form One" }, "test", { getElementById: () => ({}), documentElement: {} }, storage);
+  const original = { done: true, at: "2026-10-21T10:00:00Z", rows: [], stars: 2, review: [card.id, toTen.id] };
+  ui.state.lessons["maths:8"] = original;
+  const other = { lesson: 3, rows: [], flow: { steps: [{ kind: "card", card: 0 }], step: 0 } };
+  ui.state.current.maths = other;
+  ui.openReview("maths", 8);
+  const run = ui.state.current.maths;
+  assert.equal(run.reviewMode, true);
+  assert.equal(run.previousCurrent, other);
+  assert.equal(ui.upgrade(JSON.parse(saved)).current.maths.reviewMode, true);
+  ui.openReview("maths", 8);
+  assert.equal(ui.state.current.maths, run, "resumes without discarding the review");
+  let flow = teach.nextPhase(run.flow);
+  flow = teach.answerItem(flow, { correct: true }, 100);
+  flow = teach.answerItem(flow, { correct: false }, 100);
+  flow = teach.nextPhase(flow);
+  flow = teach.answerItem(flow, { correct: false }, 100);
+  flow = teach.nextPhase(flow);
+  run.rows.push({ phase: "practice", id: toTen.id, level: 1, result: "wrong", attempt: 2, seconds: 1, misconception: "" });
+  assert.equal(ui.results(flow).reviewed, true);
+  assert.equal(original.stars, 2);
+  assert.deepEqual(original.rows, []);
+  assert.equal(original.at, "2026-10-21T10:00:00Z");
+  assert.deepEqual(original.review, [toTen.id], "successful items clear; twice-missed items stay");
+  assert.equal(ui.state.current.maths, other, "another unfinished lesson is restored");
+  assert.match(ui.lessonResultsText("maths", 8), /Targeted review/);
+  assert.match(ui.allResultsText(), /Targeted review/);
+  ui.openReview("maths", 8);
+  flow = teach.answerItem(ui.state.current.maths.flow, { correct: true }, 100);
+  ui.results(flow);
+  assert.deepEqual(original.review, []);
+});
+
 test("library: place values, the scaffold line and its answers, the usual wrong answers", () => {
   assert.deepEqual(lib.placeValues("22", 4), [4, 1]);
   assert.deepEqual(lib.placeValues("123", 5), [25, 5, 1]);

@@ -11,5 +11,5 @@ import { subjectSuite } from "./subject-suite.js";
 subjectSuite({
   subject: "physics", dir: "form-2/physics", cls: "Form 2", spine: "form-2/physics", prefix: "p2-", numbering: "seq",
   lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 },
-  batch: Array.from({ length: 31 }, (_, i) => i + 1),
+  batch: Array.from({ length: 36 }, (_, i) => i + 1),
 });

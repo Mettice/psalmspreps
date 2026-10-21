@@ -1,4 +1,4 @@
-# Biology Form 2, Batch B2-1: authored answers for review
+# Biology Form 2, Batches B2-1, B2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -190,6 +190,21 @@ Regenerate with `npm run review:f2-biology`. Item IDs (TR-…) match `docs/teach
 | 176 | `b2-46-prevent` | 46 | multiple choice, 2 | climate |
 | 177 | `b2-46-spot` | 46 | spot the error, 3 | climate |
 | 178 | `b2-46-prevent-card` (card c46-3) | 46 | multiple choice, 1 | climate |
+| 179 | `b2-50-what` | 50 | multiple choice, 1 | waste-ozone |
+| 180 | `b2-50-role` | 50 | multiple choice, 1 | waste-ozone |
+| 181 | `b2-50-cause` | 50 | multiple choice, 2 | waste-ozone |
+| 182 | `b2-50-spot` | 50 | spot the error, 3 | waste-ozone |
+| 183 | `b2-50-cause-card` (card c50-3) | 50 | multiple choice, 1 | waste-ozone |
+| 184 | `b2-51-why` | 51 | multiple choice, 1 | waste-ozone |
+| 185 | `b2-51-type` | 51 | matching, 1 | waste-ozone |
+| 186 | `b2-51-site` | 51 | multiple choice, 2 | waste-ozone |
+| 187 | `b2-51-spot` | 51 | spot the error, 3 | waste-ozone |
+| 188 | `b2-51-site-card` (card c51-3) | 51 | multiple choice, 1 | waste-ozone |
+| 189 | `b2-52-pit` | 52 | multiple choice, 1 | waste-ozone |
+| 190 | `b2-52-wc` | 52 | multiple choice, 1 | waste-ozone |
+| 191 | `b2-52-hands` | 52 | multiple choice, 2 | waste-ozone |
+| 192 | `b2-52-spot` | 52 | spot the error, 3 | waste-ozone |
+| 193 | `b2-52-hands-card` (card c52-3) | 52 | multiple choice, 1 | waste-ozone |
 
 ### `b2-1-why` · Lesson 1 · multiple choice, level 1
 
@@ -11634,4 +11649,978 @@ Full working after a second miss:
 > So the answer is “planting trees”.  
 
 Sources: climate (The greenhouse effect, global warming and climate change: causes, effects (Sahel droughts, Lake Chad) and prevention)
+
+### `b2-50-what` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is ozone? | a gas made of three oxygen atoms (O₃) | a kind of cloud · a metal · water vapour | It is a gas, not a cloud. · It is not a metal. · That is H₂O. | O₃. |
+| Where is the ozone layer? | high in the atmosphere (the stratosphere) | under the ground · in the oceans · inside the sun | Not there. · Not there. · Not there. | About 15–35 km above the Earth. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Where is the ozone layer?
+
+- ◻️ under the ground  
+  _↳ feedback if chosen: Not there._
+- ◻️ inside the sun  
+  _↳ feedback if chosen: Not there._
+- ◻️ in the oceans  
+  _↳ feedback if chosen: Not there._
+- ✅ high in the atmosphere (the stratosphere)
+
+Full working after a second miss:
+
+> About 15–35 km above the Earth.  
+> So the answer is “high in the atmosphere (the stratosphere)”.  
+
+> Where is the ozone layer?
+
+- ◻️ in the oceans  
+  _↳ feedback if chosen: Not there._
+- ◻️ inside the sun  
+  _↳ feedback if chosen: Not there._
+- ✅ high in the atmosphere (the stratosphere)
+- ◻️ under the ground  
+  _↳ feedback if chosen: Not there._
+
+Full working after a second miss:
+
+> About 15–35 km above the Earth.  
+> So the answer is “high in the atmosphere (the stratosphere)”.  
+
+> What is ozone?
+
+- ◻️ a metal  
+  _↳ feedback if chosen: It is not a metal._
+- ◻️ water vapour  
+  _↳ feedback if chosen: That is H₂O._
+- ✅ a gas made of three oxygen atoms (O₃)
+- ◻️ a kind of cloud  
+  _↳ feedback if chosen: It is a gas, not a cloud._
+
+Full working after a second miss:
+
+> O₃.  
+> So the answer is “a gas made of three oxygen atoms (O₃)”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-50-role` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does the ozone layer do? | It absorbs harmful ultraviolet rays from the sun. | It makes rain. · It produces oxygen for breathing. · It causes earthquakes. | Not its role. · Plants produce our oxygen. · Not its role. | It is the Earth's sunscreen. |
+| Which disease can increase when the ozone layer thins? | skin cancer | malaria · cholera · goitre | Spread by mosquitoes. · Spread by dirty water. · Lack of iodine. | More UV damages the skin. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which disease can increase when the ozone layer thins?
+
+- ◻️ goitre  
+  _↳ feedback if chosen: Lack of iodine._
+- ◻️ malaria  
+  _↳ feedback if chosen: Spread by mosquitoes._
+- ✅ skin cancer
+- ◻️ cholera  
+  _↳ feedback if chosen: Spread by dirty water._
+
+Full working after a second miss:
+
+> More UV damages the skin.  
+> So the answer is “skin cancer”.  
+
+> What does the ozone layer do?
+
+- ◻️ It produces oxygen for breathing.  
+  _↳ feedback if chosen: Plants produce our oxygen._
+- ✅ It absorbs harmful ultraviolet rays from the sun.
+- ◻️ It makes rain.  
+  _↳ feedback if chosen: Not its role._
+- ◻️ It causes earthquakes.  
+  _↳ feedback if chosen: Not its role._
+
+Full working after a second miss:
+
+> It is the Earth's sunscreen.  
+> So the answer is “It absorbs harmful ultraviolet rays from the sun.”.  
+
+> What does the ozone layer do?
+
+- ◻️ It causes earthquakes.  
+  _↳ feedback if chosen: Not its role._
+- ◻️ It makes rain.  
+  _↳ feedback if chosen: Not its role._
+- ◻️ It produces oxygen for breathing.  
+  _↳ feedback if chosen: Plants produce our oxygen._
+- ✅ It absorbs harmful ultraviolet rays from the sun.
+
+Full working after a second miss:
+
+> It is the Earth's sunscreen.  
+> So the answer is “It absorbs harmful ultraviolet rays from the sun.”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-50-cause` · Lesson 50 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which chemicals destroy the ozone layer? | CFCs (chlorofluorocarbons) | oxygen and nitrogen · water and salt · sugar and starch | Natural gases of the air. · Not involved. · Not involved. | From old fridges and sprays. |
+| Which international agreement banned most CFCs? | the Montreal Protocol | the OHADA treaty · the Treaty of Versailles · the Port Louis treaty | That is business law. · That ended World War One. · That is OHADA. | Signed in 1987. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which international agreement banned most CFCs?
+
+- ✅ the Montreal Protocol
+- ◻️ the OHADA treaty  
+  _↳ feedback if chosen: That is business law._
+- ◻️ the Treaty of Versailles  
+  _↳ feedback if chosen: That ended World War One._
+- ◻️ the Port Louis treaty  
+  _↳ feedback if chosen: That is OHADA._
+
+Full working after a second miss:
+
+> Signed in 1987.  
+> So the answer is “the Montreal Protocol”.  
+
+> Which chemicals destroy the ozone layer?
+
+- ✅ CFCs (chlorofluorocarbons)
+- ◻️ oxygen and nitrogen  
+  _↳ feedback if chosen: Natural gases of the air._
+- ◻️ sugar and starch  
+  _↳ feedback if chosen: Not involved._
+- ◻️ water and salt  
+  _↳ feedback if chosen: Not involved._
+
+Full working after a second miss:
+
+> From old fridges and sprays.  
+> So the answer is “CFCs (chlorofluorocarbons)”.  
+
+> Which chemicals destroy the ozone layer?
+
+- ◻️ sugar and starch  
+  _↳ feedback if chosen: Not involved._
+- ◻️ oxygen and nitrogen  
+  _↳ feedback if chosen: Natural gases of the air._
+- ✅ CFCs (chlorofluorocarbons)
+- ◻️ water and salt  
+  _↳ feedback if chosen: Not involved._
+
+Full working after a second miss:
+
+> From old fridges and sprays.  
+> So the answer is “CFCs (chlorofluorocarbons)”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-50-spot` · Lesson 50 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Ozone absorbs ultraviolet rays.
+- ✅ CFCs damage the ozone layer.
+- ✅ UV rays can cause cataracts.
+- ✅ Ozone is O₃.
+- ❌ The ozone layer produces the oxygen we breathe.  
+  _↳ Plants produce it; ozone absorbs UV._
+- ❌ CFCs protect the ozone layer.  
+  _↳ They destroy it._
+- ❌ More UV is good for crops.  
+  _↳ Too much UV damages crops._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ The ozone layer produces the oxygen we breathe.  
+  _↳ explanation: Plants produce it; ozone absorbs UV._
+- ◻️ Ozone is O₃.
+- ◻️ CFCs damage the ozone layer.
+- ◻️ Ozone absorbs ultraviolet rays.
+
+Full working after a second miss:
+
+> The wrong statement is “The ozone layer produces the oxygen we breathe.”.  
+> Plants produce it; ozone absorbs UV.  
+
+> Which statement is wrong?
+
+- ◻️ Ozone absorbs ultraviolet rays.
+- ◻️ CFCs damage the ozone layer.
+- ◻️ UV rays can cause cataracts.
+- ✅ CFCs protect the ozone layer.  
+  _↳ explanation: They destroy it._
+
+Full working after a second miss:
+
+> The wrong statement is “CFCs protect the ozone layer.”.  
+> They destroy it.  
+
+> Which statement is wrong?
+
+- ◻️ Ozone is O₃.
+- ◻️ Ozone absorbs ultraviolet rays.
+- ✅ CFCs protect the ozone layer.  
+  _↳ explanation: They destroy it._
+- ◻️ CFCs damage the ozone layer.
+
+Full working after a second miss:
+
+> The wrong statement is “CFCs protect the ozone layer.”.  
+> They destroy it.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-50-cause-card` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which chemicals destroy the ozone layer? | CFCs (chlorofluorocarbons) | oxygen and nitrogen · water and salt · sugar and starch | Natural gases of the air. · Not involved. · Not involved. | From old fridges and sprays. |
+| Which international agreement banned most CFCs? | the Montreal Protocol | the OHADA treaty · the Treaty of Versailles · the Port Louis treaty | That is business law. · That ended World War One. · That is OHADA. | Signed in 1987. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which international agreement banned most CFCs?
+
+- ◻️ the Treaty of Versailles  
+  _↳ feedback if chosen: That ended World War One._
+- ◻️ the Port Louis treaty  
+  _↳ feedback if chosen: That is OHADA._
+- ◻️ the OHADA treaty  
+  _↳ feedback if chosen: That is business law._
+- ✅ the Montreal Protocol
+
+Full working after a second miss:
+
+> Signed in 1987.  
+> So the answer is “the Montreal Protocol”.  
+
+> Which chemicals destroy the ozone layer?
+
+- ◻️ oxygen and nitrogen  
+  _↳ feedback if chosen: Natural gases of the air._
+- ◻️ water and salt  
+  _↳ feedback if chosen: Not involved._
+- ◻️ sugar and starch  
+  _↳ feedback if chosen: Not involved._
+- ✅ CFCs (chlorofluorocarbons)
+
+Full working after a second miss:
+
+> From old fridges and sprays.  
+> So the answer is “CFCs (chlorofluorocarbons)”.  
+
+> Which chemicals destroy the ozone layer?
+
+- ◻️ oxygen and nitrogen  
+  _↳ feedback if chosen: Natural gases of the air._
+- ✅ CFCs (chlorofluorocarbons)
+- ◻️ water and salt  
+  _↳ feedback if chosen: Not involved._
+- ◻️ sugar and starch  
+  _↳ feedback if chosen: Not involved._
+
+Full working after a second miss:
+
+> From old fridges and sprays.  
+> So the answer is “CFCs (chlorofluorocarbons)”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-51-why` · Lesson 51 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is open defecation dangerous? | Germs in faeces spread diseases like cholera through flies and water. | It makes the soil too rich. · It is too expensive. · It has no effect. | Not the reason. · It costs nothing, but harms health. · It is dangerous. | Faeces contain germs. |
+| Which disease is spread by poor disposal of faeces? | cholera | goitre · night blindness · obesity | Lack of iodine. · Lack of vitamin A. · Too much food. | Faecal germs in water. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is open defecation dangerous?
+
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It is dangerous._
+- ◻️ It makes the soil too rich.  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ It is too expensive.  
+  _↳ feedback if chosen: It costs nothing, but harms health._
+- ✅ Germs in faeces spread diseases like cholera through flies and water.
+
+Full working after a second miss:
+
+> Faeces contain germs.  
+> So the answer is “Germs in faeces spread diseases like cholera through flies and water.”.  
+
+> Which disease is spread by poor disposal of faeces?
+
+- ◻️ obesity  
+  _↳ feedback if chosen: Too much food._
+- ◻️ goitre  
+  _↳ feedback if chosen: Lack of iodine._
+- ✅ cholera
+- ◻️ night blindness  
+  _↳ feedback if chosen: Lack of vitamin A._
+
+Full working after a second miss:
+
+> Faecal germs in water.  
+> So the answer is “cholera”.  
+
+> Which disease is spread by poor disposal of faeces?
+
+- ✅ cholera
+- ◻️ goitre  
+  _↳ feedback if chosen: Lack of iodine._
+- ◻️ night blindness  
+  _↳ feedback if chosen: Lack of vitamin A._
+- ◻️ obesity  
+  _↳ feedback if chosen: Too much food._
+
+Full working after a second miss:
+
+> Faecal germs in water.  
+> So the answer is “cholera”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-51-type` · Lesson 51 · matching, level 1
+
+Prompt: Match each latrine to its feature.
+
+Pairs (4 shown each time):
+
+- simple pit latrine → **a deep hole covered with a slab**
+- VIP latrine → **a vent pipe with a fly screen**
+- water closet → **flushed with piped water**
+- pour-flush latrine → **flushed with a bucket of water**
+- eco-san latrine → **separates urine and faeces to make manure**
+
+
+Three generated variants:
+
+> Match each latrine to its feature.
+
+Right-hand side (shuffled): a vent pipe with a fly screen · flushed with a bucket of water · separates urine and faeces to make manure · a deep hole covered with a slab
+- simple pit latrine → **a deep hole covered with a slab**
+- pour-flush latrine → **flushed with a bucket of water**
+- VIP latrine → **a vent pipe with a fly screen**
+- eco-san latrine → **separates urine and faeces to make manure**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> simple pit latrine → a deep hole covered with a slab  
+> pour-flush latrine → flushed with a bucket of water  
+> VIP latrine → a vent pipe with a fly screen  
+> eco-san latrine → separates urine and faeces to make manure  
+
+> Match each latrine to its feature.
+
+Right-hand side (shuffled): flushed with piped water · a deep hole covered with a slab · separates urine and faeces to make manure · a vent pipe with a fly screen
+- eco-san latrine → **separates urine and faeces to make manure**
+- water closet → **flushed with piped water**
+- simple pit latrine → **a deep hole covered with a slab**
+- VIP latrine → **a vent pipe with a fly screen**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> eco-san latrine → separates urine and faeces to make manure  
+> water closet → flushed with piped water  
+> simple pit latrine → a deep hole covered with a slab  
+> VIP latrine → a vent pipe with a fly screen  
+
+> Match each latrine to its feature.
+
+Right-hand side (shuffled): flushed with a bucket of water · a deep hole covered with a slab · separates urine and faeces to make manure · a vent pipe with a fly screen
+- VIP latrine → **a vent pipe with a fly screen**
+- pour-flush latrine → **flushed with a bucket of water**
+- simple pit latrine → **a deep hole covered with a slab**
+- eco-san latrine → **separates urine and faeces to make manure**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> VIP latrine → a vent pipe with a fly screen  
+> pour-flush latrine → flushed with a bucket of water  
+> simple pit latrine → a deep hole covered with a slab  
+> eco-san latrine → separates urine and faeces to make manure  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-51-site` · Lesson 51 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the minimum distance between a latrine and a well? | about 30 m | about 1 m · about 3 m · it does not matter | Far too close. · Too close. · It matters for health. | To protect the water. |
+| What is the vent pipe of a VIP latrine for? | to remove smells and trap flies | to bring in water · to light the latrine · to store waste | Not its role. · Not its role. · Not its role. | Air flows up; flies are trapped by the screen. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the vent pipe of a VIP latrine for?
+
+- ◻️ to store waste  
+  _↳ feedback if chosen: Not its role._
+- ◻️ to bring in water  
+  _↳ feedback if chosen: Not its role._
+- ◻️ to light the latrine  
+  _↳ feedback if chosen: Not its role._
+- ✅ to remove smells and trap flies
+
+Full working after a second miss:
+
+> Air flows up; flies are trapped by the screen.  
+> So the answer is “to remove smells and trap flies”.  
+
+> What is the vent pipe of a VIP latrine for?
+
+- ◻️ to bring in water  
+  _↳ feedback if chosen: Not its role._
+- ◻️ to light the latrine  
+  _↳ feedback if chosen: Not its role._
+- ◻️ to store waste  
+  _↳ feedback if chosen: Not its role._
+- ✅ to remove smells and trap flies
+
+Full working after a second miss:
+
+> Air flows up; flies are trapped by the screen.  
+> So the answer is “to remove smells and trap flies”.  
+
+> What is the vent pipe of a VIP latrine for?
+
+- ◻️ to bring in water  
+  _↳ feedback if chosen: Not its role._
+- ✅ to remove smells and trap flies
+- ◻️ to store waste  
+  _↳ feedback if chosen: Not its role._
+- ◻️ to light the latrine  
+  _↳ feedback if chosen: Not its role._
+
+Full working after a second miss:
+
+> Air flows up; flies are trapped by the screen.  
+> So the answer is “to remove smells and trap flies”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-51-spot` · Lesson 51 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A VIP latrine has a vent pipe.
+- ✅ Faeces contain germs.
+- ✅ A WC uses water to flush.
+- ✅ Latrines should be far from wells.
+- ❌ A latrine should be built right next to the well.  
+  _↳ At least 30 m away and downhill._
+- ❌ Open defecation keeps a village healthy.  
+  _↳ It spreads disease._
+- ❌ An eco-san latrine mixes waste into the river.  
+  _↳ It separates waste to make manure._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Open defecation keeps a village healthy.  
+  _↳ explanation: It spreads disease._
+- ◻️ A VIP latrine has a vent pipe.
+- ◻️ Faeces contain germs.
+- ◻️ A WC uses water to flush.
+
+Full working after a second miss:
+
+> The wrong statement is “Open defecation keeps a village healthy.”.  
+> It spreads disease.  
+
+> Which statement is wrong?
+
+- ◻️ Faeces contain germs.
+- ◻️ A WC uses water to flush.
+- ◻️ Latrines should be far from wells.
+- ✅ Open defecation keeps a village healthy.  
+  _↳ explanation: It spreads disease._
+
+Full working after a second miss:
+
+> The wrong statement is “Open defecation keeps a village healthy.”.  
+> It spreads disease.  
+
+> Which statement is wrong?
+
+- ✅ A latrine should be built right next to the well.  
+  _↳ explanation: At least 30 m away and downhill._
+- ◻️ A WC uses water to flush.
+- ◻️ Faeces contain germs.
+- ◻️ Latrines should be far from wells.
+
+Full working after a second miss:
+
+> The wrong statement is “A latrine should be built right next to the well.”.  
+> At least 30 m away and downhill.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-51-site-card` · Lesson 51 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the minimum distance between a latrine and a well? | about 30 m | about 1 m · about 3 m · it does not matter | Far too close. · Too close. · It matters for health. | To protect the water. |
+| What is the vent pipe of a VIP latrine for? | to remove smells and trap flies | to bring in water · to light the latrine · to store waste | Not its role. · Not its role. · Not its role. | Air flows up; flies are trapped by the screen. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the minimum distance between a latrine and a well?
+
+- ◻️ about 3 m  
+  _↳ feedback if chosen: Too close._
+- ✅ about 30 m
+- ◻️ about 1 m  
+  _↳ feedback if chosen: Far too close._
+- ◻️ it does not matter  
+  _↳ feedback if chosen: It matters for health._
+
+Full working after a second miss:
+
+> To protect the water.  
+> So the answer is “about 30 m”.  
+
+> What is the minimum distance between a latrine and a well?
+
+- ✅ about 30 m
+- ◻️ about 3 m  
+  _↳ feedback if chosen: Too close._
+- ◻️ about 1 m  
+  _↳ feedback if chosen: Far too close._
+- ◻️ it does not matter  
+  _↳ feedback if chosen: It matters for health._
+
+Full working after a second miss:
+
+> To protect the water.  
+> So the answer is “about 30 m”.  
+
+> What is the minimum distance between a latrine and a well?
+
+- ✅ about 30 m
+- ◻️ about 3 m  
+  _↳ feedback if chosen: Too close._
+- ◻️ it does not matter  
+  _↳ feedback if chosen: It matters for health._
+- ◻️ about 1 m  
+  _↳ feedback if chosen: Far too close._
+
+Full working after a second miss:
+
+> To protect the water.  
+> So the answer is “about 30 m”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-52-pit` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What can be sprinkled in a pit latrine to reduce smell and flies? | ash or lime | sugar · salt water · perfume only | It attracts flies. · Not effective. · It does not stop flies. | Ash and lime dry and disinfect. |
+| What should be done when a pit latrine is nearly full? | close it and dig a new one | keep using it until it overflows · pour water in it · throw plastics in it | Dangerous to health. · That makes it worse. · That makes it worse. | Then build a new pit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What can be sprinkled in a pit latrine to reduce smell and flies?
+
+- ◻️ sugar  
+  _↳ feedback if chosen: It attracts flies._
+- ◻️ perfume only  
+  _↳ feedback if chosen: It does not stop flies._
+- ◻️ salt water  
+  _↳ feedback if chosen: Not effective._
+- ✅ ash or lime
+
+Full working after a second miss:
+
+> Ash and lime dry and disinfect.  
+> So the answer is “ash or lime”.  
+
+> What should be done when a pit latrine is nearly full?
+
+- ◻️ pour water in it  
+  _↳ feedback if chosen: That makes it worse._
+- ✅ close it and dig a new one
+- ◻️ throw plastics in it  
+  _↳ feedback if chosen: That makes it worse._
+- ◻️ keep using it until it overflows  
+  _↳ feedback if chosen: Dangerous to health._
+
+Full working after a second miss:
+
+> Then build a new pit.  
+> So the answer is “close it and dig a new one”.  
+
+> What should be done when a pit latrine is nearly full?
+
+- ✅ close it and dig a new one
+- ◻️ pour water in it  
+  _↳ feedback if chosen: That makes it worse._
+- ◻️ keep using it until it overflows  
+  _↳ feedback if chosen: Dangerous to health._
+- ◻️ throw plastics in it  
+  _↳ feedback if chosen: That makes it worse._
+
+Full working after a second miss:
+
+> Then build a new pit.  
+> So the answer is “close it and dig a new one”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-52-wc` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What should never be flushed down a WC? | plastic bags and sanitary pads | toilet paper · water · urine | Toilet paper is made for it. · It is used to flush. · It is waste for the WC. | They block the pipes. |
+| How is the bowl of a WC cleaned? | with a brush and disinfectant | with sand and leaves · it never needs cleaning · with cooking oil | Not suitable. · It must be cleaned. · Not suitable. | Keep it clean and germ-free. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How is the bowl of a WC cleaned?
+
+- ◻️ with cooking oil  
+  _↳ feedback if chosen: Not suitable._
+- ◻️ it never needs cleaning  
+  _↳ feedback if chosen: It must be cleaned._
+- ✅ with a brush and disinfectant
+- ◻️ with sand and leaves  
+  _↳ feedback if chosen: Not suitable._
+
+Full working after a second miss:
+
+> Keep it clean and germ-free.  
+> So the answer is “with a brush and disinfectant”.  
+
+> What should never be flushed down a WC?
+
+- ◻️ urine  
+  _↳ feedback if chosen: It is waste for the WC._
+- ◻️ toilet paper  
+  _↳ feedback if chosen: Toilet paper is made for it._
+- ✅ plastic bags and sanitary pads
+- ◻️ water  
+  _↳ feedback if chosen: It is used to flush._
+
+Full working after a second miss:
+
+> They block the pipes.  
+> So the answer is “plastic bags and sanitary pads”.  
+
+> How is the bowl of a WC cleaned?
+
+- ◻️ it never needs cleaning  
+  _↳ feedback if chosen: It must be cleaned._
+- ✅ with a brush and disinfectant
+- ◻️ with cooking oil  
+  _↳ feedback if chosen: Not suitable._
+- ◻️ with sand and leaves  
+  _↳ feedback if chosen: Not suitable._
+
+Full working after a second miss:
+
+> Keep it clean and germ-free.  
+> So the answer is “with a brush and disinfectant”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-52-hands` · Lesson 52 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should hands be washed with soap after using the toilet? | to remove germs that cause diarrhoea and cholera | to make them smell of soap only · to warm them · it is not necessary | The main reason is germs. · Not the reason. · It is necessary. | Soap removes germs. |
+| What is a tippy-tap? | a simple hand-washing device made with a container of water | a kind of latrine · a toilet brush · a vent pipe | It is for washing hands. · Not a brush. · Not a pipe. | Often a jerrycan tipped with a foot pedal. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a tippy-tap?
+
+- ◻️ a vent pipe  
+  _↳ feedback if chosen: Not a pipe._
+- ◻️ a toilet brush  
+  _↳ feedback if chosen: Not a brush._
+- ◻️ a kind of latrine  
+  _↳ feedback if chosen: It is for washing hands._
+- ✅ a simple hand-washing device made with a container of water
+
+Full working after a second miss:
+
+> Often a jerrycan tipped with a foot pedal.  
+> So the answer is “a simple hand-washing device made with a container of water”.  
+
+> What is a tippy-tap?
+
+- ◻️ a vent pipe  
+  _↳ feedback if chosen: Not a pipe._
+- ✅ a simple hand-washing device made with a container of water
+- ◻️ a toilet brush  
+  _↳ feedback if chosen: Not a brush._
+- ◻️ a kind of latrine  
+  _↳ feedback if chosen: It is for washing hands._
+
+Full working after a second miss:
+
+> Often a jerrycan tipped with a foot pedal.  
+> So the answer is “a simple hand-washing device made with a container of water”.  
+
+> What is a tippy-tap?
+
+- ◻️ a vent pipe  
+  _↳ feedback if chosen: Not a pipe._
+- ◻️ a kind of latrine  
+  _↳ feedback if chosen: It is for washing hands._
+- ◻️ a toilet brush  
+  _↳ feedback if chosen: Not a brush._
+- ✅ a simple hand-washing device made with a container of water
+
+Full working after a second miss:
+
+> Often a jerrycan tipped with a foot pedal.  
+> So the answer is “a simple hand-washing device made with a container of water”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-52-spot` · Lesson 52 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Keep the latrine covered.
+- ✅ Flush the WC after use.
+- ✅ Wash hands after the toilet.
+- ✅ Repair leaking pipes.
+- ❌ Plastic bags can be thrown into the pit latrine.  
+  _↳ They fill the pit and do not rot._
+- ❌ A WC never needs cleaning.  
+  _↳ It must be cleaned regularly._
+- ❌ Washing hands after the toilet is not useful.  
+  _↳ It removes germs._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Keep the latrine covered.
+- ◻️ Wash hands after the toilet.
+- ◻️ Repair leaking pipes.
+- ✅ A WC never needs cleaning.  
+  _↳ explanation: It must be cleaned regularly._
+
+Full working after a second miss:
+
+> The wrong statement is “A WC never needs cleaning.”.  
+> It must be cleaned regularly.  
+
+> Which statement is wrong?
+
+- ✅ Plastic bags can be thrown into the pit latrine.  
+  _↳ explanation: They fill the pit and do not rot._
+- ◻️ Keep the latrine covered.
+- ◻️ Repair leaking pipes.
+- ◻️ Flush the WC after use.
+
+Full working after a second miss:
+
+> The wrong statement is “Plastic bags can be thrown into the pit latrine.”.  
+> They fill the pit and do not rot.  
+
+> Which statement is wrong?
+
+- ✅ Plastic bags can be thrown into the pit latrine.  
+  _↳ explanation: They fill the pit and do not rot._
+- ◻️ Wash hands after the toilet.
+- ◻️ Flush the WC after use.
+- ◻️ Keep the latrine covered.
+
+Full working after a second miss:
+
+> The wrong statement is “Plastic bags can be thrown into the pit latrine.”.  
+> They fill the pit and do not rot.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
+
+### `b2-52-hands-card` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should hands be washed with soap after using the toilet? | to remove germs that cause diarrhoea and cholera | to make them smell of soap only · to warm them · it is not necessary | The main reason is germs. · Not the reason. · It is necessary. | Soap removes germs. |
+| What is a tippy-tap? | a simple hand-washing device made with a container of water | a kind of latrine · a toilet brush · a vent pipe | It is for washing hands. · Not a brush. · Not a pipe. | Often a jerrycan tipped with a foot pedal. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should hands be washed with soap after using the toilet?
+
+- ◻️ to make them smell of soap only  
+  _↳ feedback if chosen: The main reason is germs._
+- ✅ to remove germs that cause diarrhoea and cholera
+- ◻️ it is not necessary  
+  _↳ feedback if chosen: It is necessary._
+- ◻️ to warm them  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> Soap removes germs.  
+> So the answer is “to remove germs that cause diarrhoea and cholera”.  
+
+> Why should hands be washed with soap after using the toilet?
+
+- ◻️ to warm them  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to make them smell of soap only  
+  _↳ feedback if chosen: The main reason is germs._
+- ✅ to remove germs that cause diarrhoea and cholera
+- ◻️ it is not necessary  
+  _↳ feedback if chosen: It is necessary._
+
+Full working after a second miss:
+
+> Soap removes germs.  
+> So the answer is “to remove germs that cause diarrhoea and cholera”.  
+
+> Why should hands be washed with soap after using the toilet?
+
+- ◻️ to make them smell of soap only  
+  _↳ feedback if chosen: The main reason is germs._
+- ✅ to remove germs that cause diarrhoea and cholera
+- ◻️ it is not necessary  
+  _↳ feedback if chosen: It is necessary._
+- ◻️ to warm them  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> Soap removes germs.  
+> So the answer is “to remove germs that cause diarrhoea and cholera”.  
+
+Sources: waste-ozone (The ozone layer (O₃, stratosphere 15–35 km, UV absorption, CFCs and halons, Montreal Protocol 1987); management of liquid waste: latrine types (pit, VIP, pour-flush, WC, eco-san), siting (≥ 30 m from wells, downhill), care of latrines and WCs, hand washing)
 

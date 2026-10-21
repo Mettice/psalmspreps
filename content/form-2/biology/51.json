@@ -1,0 +1,394 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 51,
+ "language": "en",
+ "prerequisites": [
+  38
+ ],
+ "skills": [
+  {
+   "id": "b2-51",
+   "name": "Management of liquid waste: latrines"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Human liquid waste (urine) and faeces must be disposed of safely, because they contain germs that cause cholera, typhoid, dysentery and worms. Open defecation spreads these diseases through flies, water and soil.\nA latrine is a place built to collect human waste safely.\nTypes:\n• simple pit latrine: a deep hole covered with a slab with a squat hole;\n• VIP latrine (ventilated improved pit): has a vent pipe with a fly screen, so it smells less and traps flies;\n• pour-flush latrine: a water seal (bend) is flushed with a bucket of water;\n• water closet (WC, flush toilet): uses piped water to flush waste into a septic tank or sewer;\n• ecological (eco-san) latrine: separates urine and faeces to make manure.\nA latrine should be at least 30 m from a well or spring and downhill from it.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why must a pit latrine be built far from a well and downhill from it?",
+  "steps": [
+   "Germs from the waste can soak through the soil.",
+   "If the latrine is close to or above the well, the germs can reach the drinking water."
+  ],
+  "answer": "So that germs from the waste do not reach the drinking water.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c51-1",
+    "status": "draft",
+    "idea": "Human waste contains germs of cholera, typhoid and worms.",
+    "vars": {},
+    "example": [
+     "Open defecation spreads disease."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-51-why"
+    }
+   },
+   {
+    "id": "c51-2",
+    "status": "draft",
+    "idea": "Types: pit latrine, VIP latrine, pour-flush latrine, water closet, eco-san latrine.",
+    "vars": {},
+    "example": [
+     "A VIP latrine has a vent pipe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-51-type"
+    }
+   },
+   {
+    "id": "c51-3",
+    "status": "draft",
+    "idea": "Build latrines at least {30} m from a well, and downhill from it.",
+    "vars": {},
+    "example": [
+     "Protect drinking water."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-51-site-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "waste-ozone"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is the minimum distance between a latrine and a well?",
+         "r": "about 30 m",
+         "w": [
+          "about 1 m",
+          "about 3 m",
+          "it does not matter"
+         ],
+         "e": [
+          "Far too close.",
+          "Too close.",
+          "It matters for health."
+         ],
+         "y": "To protect the water."
+        },
+        {
+         "q": "What is the vent pipe of a VIP latrine for?",
+         "r": "to remove smells and trap flies",
+         "w": [
+          "to bring in water",
+          "to light the latrine",
+          "to store waste"
+         ],
+         "e": [
+          "Not its role.",
+          "Not its role.",
+          "Not its role."
+         ],
+         "y": "Air flows up; flies are trapped by the screen."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-51-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is open defecation dangerous?",
+       "r": "Germs in faeces spread diseases like cholera through flies and water.",
+       "w": [
+        "It makes the soil too rich.",
+        "It is too expensive.",
+        "It has no effect."
+       ],
+       "e": [
+        "Not the reason.",
+        "It costs nothing, but harms health.",
+        "It is dangerous."
+       ],
+       "y": "Faeces contain germs."
+      },
+      {
+       "q": "Which disease is spread by poor disposal of faeces?",
+       "r": "cholera",
+       "w": [
+        "goitre",
+        "night blindness",
+        "obesity"
+       ],
+       "e": [
+        "Lack of iodine.",
+        "Lack of vitamin A.",
+        "Too much food."
+       ],
+       "y": "Faecal germs in water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-51-type",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "prompt": "Match each latrine to its feature.",
+   "pool": [
+    {
+     "left": "simple pit latrine",
+     "right": "a deep hole covered with a slab"
+    },
+    {
+     "left": "VIP latrine",
+     "right": "a vent pipe with a fly screen"
+    },
+    {
+     "left": "water closet",
+     "right": "flushed with piped water"
+    },
+    {
+     "left": "pour-flush latrine",
+     "right": "flushed with a bucket of water"
+    },
+    {
+     "left": "eco-san latrine",
+     "right": "separates urine and faeces to make manure"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "b2-51-site",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the minimum distance between a latrine and a well?",
+       "r": "about 30 m",
+       "w": [
+        "about 1 m",
+        "about 3 m",
+        "it does not matter"
+       ],
+       "e": [
+        "Far too close.",
+        "Too close.",
+        "It matters for health."
+       ],
+       "y": "To protect the water."
+      },
+      {
+       "q": "What is the vent pipe of a VIP latrine for?",
+       "r": "to remove smells and trap flies",
+       "w": [
+        "to bring in water",
+        "to light the latrine",
+        "to store waste"
+       ],
+       "e": [
+        "Not its role.",
+        "Not its role.",
+        "Not its role."
+       ],
+       "y": "Air flows up; flies are trapped by the screen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-51-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "waste-ozone"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A VIP latrine has a vent pipe.",
+      "truth": "true"
+     },
+     {
+      "text": "Faeces contain germs.",
+      "truth": "true"
+     },
+     {
+      "text": "A WC uses water to flush.",
+      "truth": "true"
+     },
+     {
+      "text": "Latrines should be far from wells.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A latrine should be built right next to the well.",
+      "truth": "false",
+      "explain": "At least 30 m away and downhill."
+     },
+     {
+      "text": "Open defecation keeps a village healthy.",
+      "truth": "false",
+      "explain": "It spreads disease."
+     },
+     {
+      "text": "An eco-san latrine mixes waste into the river.",
+      "truth": "false",
+      "explain": "It separates waste to make manure."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

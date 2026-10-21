@@ -1,0 +1,344 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 49,
+ "language": "en",
+ "prerequisites": [
+  24
+ ],
+ "skills": [
+  {
+   "id": "k2-49",
+   "name": "Action of heat on hydrates and oxides"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Heating can change substances.\nHydrates are crystals that contain water of crystallisation. On heating they lose this water and become anhydrous:\n• blue hydrated copper(II) sulphate (CuSO₄·5H₂O) → white anhydrous copper(II) sulphate (CuSO₄) + water;\n• washing soda (Na₂CO₃·10H₂O) loses water.\nMost metal oxides do not change on heating (CaO, MgO, CuO). A few decompose:\n• mercury(II) oxide (red) → mercury + oxygen: 2HgO → 2Hg + O₂.\nSome change colour while hot: zinc oxide is yellow when hot and white when cold.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What do you observe when blue copper(II) sulphate crystals are heated?",
+  "steps": [
+   "The water of crystallisation is driven off as steam.",
+   "The crystals turn into a white powder (anhydrous copper(II) sulphate)."
+  ],
+  "answer": "Steam is given off and the blue crystals turn white.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c49-1",
+    "status": "draft",
+    "idea": "Hydrates contain water of crystallisation; heating drives it off.",
+    "vars": {},
+    "example": [
+     "Blue CuSO₄·{5}H₂O → white CuSO₄."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-49-hyd"
+    }
+   },
+   {
+    "id": "c49-2",
+    "status": "draft",
+    "idea": "Most metal oxides do not change on heating; mercury(II) oxide decomposes.",
+    "vars": {},
+    "example": [
+     "{2}HgO → {2}Hg + O₂"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-49-ox-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "heat-action"
+     ],
+     "vars": {
+      "i": {
+       "pick": [
+        23,
+        24,
+        27
+       ]
+      }
+     },
+     "prompt": "Balance this decomposition: {eqBlank(i, 0)}. What number goes in the blank?",
+     "answer": "eqCoef(i, 0)",
+     "misconceptions": [
+      {
+       "id": "one",
+       "wrong": "1",
+       "explain": "With one, the oxygen atoms are not equal."
+      }
+     ],
+     "solution": [
+      "Count the oxygen atoms on both sides: {eqStr(i)}.",
+      "The number that balances it is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c49-3",
+    "status": "draft",
+    "idea": "Zinc oxide is yellow when hot and white when cold.",
+    "vars": {},
+    "example": [
+     "A colour change that is reversed on cooling."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-49-zno"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-49-hyd",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What colour is anhydrous copper(II) sulphate?",
+       "r": "white",
+       "w": [
+        "blue",
+        "green",
+        "red"
+       ],
+       "e": [
+        "Blue is the hydrated form.",
+        "Not its colour.",
+        "Not its colour."
+       ],
+       "y": "Without water it is white."
+      },
+      {
+       "q": "What is water of crystallisation?",
+       "r": "water that is part of the structure of a crystal",
+       "w": [
+        "rain water",
+        "water used to wash crystals",
+        "steam from a kettle"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "It is driven off by heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-49-ox",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      23,
+      24,
+      27
+     ]
+    }
+   },
+   "prompt": "Balance this decomposition: {eqBlank(i, 0)}. What number goes in the blank?",
+   "answer": "eqCoef(i, 0)",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "With one, the oxygen atoms are not equal."
+    }
+   ],
+   "solution": [
+    "Count the oxygen atoms on both sides: {eqStr(i)}.",
+    "The number that balances it is {answer}."
+   ]
+  },
+  {
+   "id": "k2-49-zno",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What happens to zinc oxide when it is heated?",
+       "r": "It turns yellow, then white again on cooling.",
+       "w": [
+        "It turns blue for ever.",
+        "It melts into water.",
+        "It burns with a flame."
+       ],
+       "e": [
+        "Not the change.",
+        "It does not melt here.",
+        "It does not burn."
+       ],
+       "y": "A reversible colour change."
+      },
+      {
+       "q": "Which oxide decomposes on heating to give a metal and oxygen?",
+       "r": "mercury(II) oxide",
+       "w": [
+        "calcium oxide",
+        "magnesium oxide",
+        "copper(II) oxide"
+       ],
+       "e": [
+        "Stable to heat.",
+        "Stable to heat.",
+        "Stable to heat."
+       ],
+       "y": "2HgO → 2Hg + O₂."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-49-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-action"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Hydrated copper(II) sulphate is blue.",
+      "truth": "true"
+     },
+     {
+      "text": "Heating drives off water of crystallisation.",
+      "truth": "true"
+     },
+     {
+      "text": "Zinc oxide is yellow when hot.",
+      "truth": "true"
+     },
+     {
+      "text": "Mercury(II) oxide gives oxygen on heating.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Anhydrous copper(II) sulphate is blue.",
+      "truth": "false",
+      "explain": "It is white."
+     },
+     {
+      "text": "All metal oxides decompose easily on heating.",
+      "truth": "false",
+      "explain": "Most are stable."
+     },
+     {
+      "text": "Heating a hydrate adds more water to it.",
+      "truth": "false",
+      "explain": "It removes water."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

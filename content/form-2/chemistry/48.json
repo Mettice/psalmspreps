@@ -1,0 +1,394 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 48,
+ "language": "en",
+ "prerequisites": [
+  47
+ ],
+ "skills": [
+  {
+   "id": "k2-48",
+   "name": "Uses of fossil fuels"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Crude oil is separated by fractional distillation into fractions with different boiling points:\n• refinery gas (cooking gas, butane): cooking and heating;\n• petrol: fuel for cars and motorbikes;\n• kerosene (paraffin): lamps, cooking stoves, aircraft fuel;\n• diesel: lorries, buses, generators, trains;\n• lubricating oil and wax: machines, candles;\n• bitumen: tarring roads and roofs.\nCoal: power stations, iron making. Natural gas: cooking, electricity (Kribi gas power station), making fertilisers.\nProblems: burning fossil fuels releases carbon dioxide (global warming), carbon monoxide and smoke (air pollution); oil spills harm sea life.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Which fraction of crude oil is used to tar roads, and why?",
+  "steps": [
+   "Bitumen is the thick, sticky residue left at the bottom of the column.",
+   "It is waterproof and binds stones together, so it makes road surfaces."
+  ],
+  "answer": "Bitumen: it is thick, sticky and waterproof.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c48-1",
+    "status": "draft",
+    "idea": "Fractions of crude oil: gas, petrol, kerosene, diesel, oil, bitumen.",
+    "vars": {},
+    "example": [
+     "Petrol for cars; diesel for lorries."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-48-use"
+    }
+   },
+   {
+    "id": "c48-2",
+    "status": "draft",
+    "idea": "Natural gas is used for cooking and to produce electricity.",
+    "vars": {},
+    "example": [
+     "The Kribi gas power station."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-48-gas"
+    }
+   },
+   {
+    "id": "c48-3",
+    "status": "draft",
+    "idea": "Burning fossil fuels releases carbon dioxide and pollutes the air.",
+    "vars": {},
+    "example": [
+     "Oil spills harm sea life."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-48-harm-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "fuels"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which gas from burning fossil fuels causes global warming?",
+         "r": "carbon dioxide",
+         "w": [
+          "oxygen",
+          "nitrogen",
+          "argon"
+         ],
+         "e": [
+          "Oxygen is used up.",
+          "Not from burning.",
+          "A noble gas."
+         ],
+         "y": "A greenhouse gas."
+        },
+        {
+         "q": "Why is an oil spill at sea harmful?",
+         "r": "It kills fish and birds and pollutes the water.",
+         "w": [
+          "It makes the sea cleaner.",
+          "It feeds the fish.",
+          "It has no effect."
+         ],
+         "e": [
+          "It pollutes.",
+          "Oil is poisonous.",
+          "It is harmful."
+         ],
+         "y": "Oil covers animals and water."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-48-use",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "fuels"
+   ],
+   "prompt": "Match each fraction to its use.",
+   "pool": [
+    {
+     "left": "petrol",
+     "right": "fuel for cars"
+    },
+    {
+     "left": "diesel",
+     "right": "fuel for lorries and generators"
+    },
+    {
+     "left": "kerosene",
+     "right": "lamps and aircraft fuel"
+    },
+    {
+     "left": "bitumen",
+     "right": "tarring roads"
+    },
+    {
+     "left": "cooking gas",
+     "right": "cooking"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "k2-48-gas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "fuels"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is natural gas used for in Cameroon?",
+       "r": "cooking and producing electricity",
+       "w": [
+        "making bitumen",
+        "tarring roads",
+        "making iron rust"
+       ],
+       "e": [
+        "Bitumen comes from crude oil.",
+        "That uses bitumen.",
+        "Not a use."
+       ],
+       "y": "The Kribi gas power station."
+      },
+      {
+       "q": "How is crude oil separated into fractions?",
+       "r": "by fractional distillation",
+       "w": [
+        "by filtration",
+        "by chromatography",
+        "by magnetism"
+       ],
+       "e": [
+        "Filtration separates solids.",
+        "That separates dyes.",
+        "Oil is not magnetic."
+       ],
+       "y": "Fractions have different boiling points."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-48-harm",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "fuels"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which gas from burning fossil fuels causes global warming?",
+       "r": "carbon dioxide",
+       "w": [
+        "oxygen",
+        "nitrogen",
+        "argon"
+       ],
+       "e": [
+        "Oxygen is used up.",
+        "Not from burning.",
+        "A noble gas."
+       ],
+       "y": "A greenhouse gas."
+      },
+      {
+       "q": "Why is an oil spill at sea harmful?",
+       "r": "It kills fish and birds and pollutes the water.",
+       "w": [
+        "It makes the sea cleaner.",
+        "It feeds the fish.",
+        "It has no effect."
+       ],
+       "e": [
+        "It pollutes.",
+        "Oil is poisonous.",
+        "It is harmful."
+       ],
+       "y": "Oil covers animals and water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-48-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "fuels"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Petrol is used in cars.",
+      "truth": "true"
+     },
+     {
+      "text": "Bitumen is used on roads.",
+      "truth": "true"
+     },
+     {
+      "text": "Diesel runs generators.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning fuels releases carbon dioxide.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Kerosene is used to tar roads.",
+      "truth": "false",
+      "explain": "Bitumen is used for roads; kerosene for lamps."
+     },
+     {
+      "text": "Burning fossil fuels cleans the air.",
+      "truth": "false",
+      "explain": "It pollutes the air."
+     },
+     {
+      "text": "Cooking gas comes from melted iron.",
+      "truth": "false",
+      "explain": "It is a fraction of crude oil or natural gas."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

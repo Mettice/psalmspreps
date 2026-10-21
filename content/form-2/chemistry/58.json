@@ -1,0 +1,439 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 58,
+ "language": "en",
+ "prerequisites": [
+  55
+ ],
+ "skills": [
+  {
+   "id": "k2-58",
+   "name": "Conductors and non-conductors (insulators)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Summary of how substances behave with electricity:\n• Conductors that are not changed: metals and graphite (solid). Electrons carry the current.\n• Conductors that are decomposed (electrolytes): molten ionic compounds and solutions of acids, bases and salts. Ions carry the current.\n• Non-conductors (insulators): non-metals (except graphite), plastics, rubber, glass, dry wood, porcelain; covalent liquids such as ethanol, kerosene, pure (distilled) water and sugar solution.\nPure water is a very poor conductor, but tap water and rain water conduct a little because they contain dissolved salts. That is why it is dangerous to touch switches with wet hands.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why is it dangerous to use an electric appliance with wet hands, although pure water is a poor conductor?",
+  "steps": [
+   "Tap water and sweat contain dissolved salts.",
+   "These ions let the water conduct, so current can pass through you."
+  ],
+  "answer": "Because ordinary water contains dissolved salts and conducts.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c58-1",
+    "status": "draft",
+    "idea": "Metals and graphite conduct without being changed.",
+    "vars": {},
+    "example": [
+     "Copper wires."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-58-class"
+    }
+   },
+   {
+    "id": "c58-2",
+    "status": "draft",
+    "idea": "Insulators: plastics, rubber, glass, dry wood, most non-metals.",
+    "vars": {},
+    "example": [
+     "Porcelain holds power lines."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-58-ins"
+    }
+   },
+   {
+    "id": "c58-3",
+    "status": "draft",
+    "idea": "Tap water conducts a little because it contains dissolved salts.",
+    "vars": {},
+    "example": [
+     "Never touch switches with wet hands."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-58-water-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "electrolysis"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does tap water conduct a little, while distilled water hardly conducts?",
+         "r": "Tap water contains dissolved salts (ions).",
+         "w": [
+          "Tap water is metal.",
+          "Distilled water is hotter.",
+          "Tap water has no ions."
+         ],
+         "e": [
+          "It is not a metal.",
+          "Temperature is not the reason.",
+          "It has ions."
+         ],
+         "y": "Ions carry the current."
+        },
+        {
+         "q": "Which safety rule follows from this?",
+         "r": "Never touch switches with wet hands.",
+         "w": [
+          "Always wash appliances while plugged in.",
+          "Pour water on electric fires.",
+          "Swim during a lightning storm."
+         ],
+         "e": [
+          "Dangerous.",
+          "Dangerous.",
+          "Dangerous."
+         ],
+         "y": "Water can carry current through you."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-58-class",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "an iron nail",
+       "a": "a conductor that is not changed",
+       "w": [
+        "an electrolyte that is decomposed",
+        "an insulator"
+       ]
+      },
+      {
+       "s": "salt solution",
+       "a": "an electrolyte that is decomposed",
+       "w": [
+        "a conductor that is not changed",
+        "an insulator"
+       ]
+      },
+      {
+       "s": "a rubber band",
+       "a": "an insulator",
+       "w": [
+        "a conductor that is not changed",
+        "an electrolyte that is decomposed"
+       ]
+      },
+      {
+       "s": "a graphite rod",
+       "a": "a conductor that is not changed",
+       "w": [
+        "an electrolyte that is decomposed",
+        "an insulator"
+       ]
+      },
+      {
+       "s": "kerosene",
+       "a": "an insulator",
+       "w": [
+        "a conductor that is not changed",
+        "an electrolyte that is decomposed"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "How does {X.s} behave with electricity?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "c"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "c",
+     "explain": "Metals and graphite conduct unchanged; ionic liquids conduct and decompose; the rest insulate."
+    }
+   ],
+   "solution": [
+    "Metals and graphite: conductors not changed; molten or dissolved ionic compounds: electrolytes; the rest: insulators.",
+    "So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "k2-58-ins",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which material is an insulator?",
+       "r": "glass",
+       "w": [
+        "copper",
+        "aluminium",
+        "graphite"
+       ],
+       "e": [
+        "A metal conductor.",
+        "A metal conductor.",
+        "Conducts."
+       ],
+       "y": "Glass does not conduct."
+      },
+      {
+       "q": "Why are power-line holders made of porcelain?",
+       "r": "Porcelain is an insulator.",
+       "w": [
+        "Porcelain conducts well.",
+        "Porcelain is a metal.",
+        "Porcelain is decomposed by current."
+       ],
+       "e": [
+        "It does not conduct.",
+        "It is a ceramic.",
+        "It is not."
+       ],
+       "y": "It stops current leaking to the pole."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-58-water",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does tap water conduct a little, while distilled water hardly conducts?",
+       "r": "Tap water contains dissolved salts (ions).",
+       "w": [
+        "Tap water is metal.",
+        "Distilled water is hotter.",
+        "Tap water has no ions."
+       ],
+       "e": [
+        "It is not a metal.",
+        "Temperature is not the reason.",
+        "It has ions."
+       ],
+       "y": "Ions carry the current."
+      },
+      {
+       "q": "Which safety rule follows from this?",
+       "r": "Never touch switches with wet hands.",
+       "w": [
+        "Always wash appliances while plugged in.",
+        "Pour water on electric fires.",
+        "Swim during a lightning storm."
+       ],
+       "e": [
+        "Dangerous.",
+        "Dangerous.",
+        "Dangerous."
+       ],
+       "y": "Water can carry current through you."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-58-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Metals conduct electricity.",
+      "truth": "true"
+     },
+     {
+      "text": "Rubber is an insulator.",
+      "truth": "true"
+     },
+     {
+      "text": "Salt solution is an electrolyte.",
+      "truth": "true"
+     },
+     {
+      "text": "Kerosene does not conduct.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Distilled water is a very good conductor.",
+      "truth": "false",
+      "explain": "It is a very poor conductor."
+     },
+     {
+      "text": "Plastic conducts better than copper.",
+      "truth": "false",
+      "explain": "Plastic is an insulator."
+     },
+     {
+      "text": "Graphite is an insulator.",
+      "truth": "false",
+      "explain": "Graphite conducts."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

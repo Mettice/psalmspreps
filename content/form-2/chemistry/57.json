@@ -1,0 +1,360 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 57,
+ "language": "en",
+ "prerequisites": [
+  56
+ ],
+ "skills": [
+  {
+   "id": "k2-57",
+   "name": "Action of electricity on aqueous solutions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In electrolysis, two rods called electrodes carry the current into the liquid (the electrolyte).\n• The cathode is the negative electrode: positive ions (metal ions, H⁺) go to it and metals or hydrogen are produced there.\n• The anode is the positive electrode: negative ions go to it and non-metals such as chlorine or oxygen are produced there.\nExamples (carbon electrodes):\n• copper(II) chloride solution: copper (pink-brown) at the cathode, chlorine (bleaches damp litmus) at the anode: CuCl₂ → Cu + Cl₂;\n• acidified water: hydrogen at the cathode and oxygen at the anode, twice as much hydrogen: 2H₂O → 2H₂ + O₂.\nUses: electroplating, purifying copper, extracting aluminium.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In the electrolysis of acidified water, {20} cm³ of hydrogen is collected. What volume of oxygen is collected at the same time?",
+  "steps": [
+   "{2}H₂O → {2}H₂ + O₂: twice as much hydrogen as oxygen.",
+   "Oxygen = {20} ÷ {2} = {10} cm³."
+  ],
+  "answer": "{10} cm³",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c57-1",
+    "status": "draft",
+    "idea": "The cathode is negative; the anode is positive.",
+    "vars": {},
+    "example": [
+     "Metals form at the cathode."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-57-elec"
+    }
+   },
+   {
+    "id": "c57-2",
+    "status": "draft",
+    "idea": "Copper(II) chloride solution gives copper at the cathode and chlorine at the anode.",
+    "vars": {},
+    "example": [
+     "Chlorine bleaches damp litmus."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-57-cucl"
+    }
+   },
+   {
+    "id": "c57-3",
+    "status": "draft",
+    "idea": "Water gives hydrogen at the cathode and oxygen at the anode, in the ratio {2} : {1}.",
+    "vars": {},
+    "example": [
+     "{20} cm³ of H₂ and {10} cm³ of O₂."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-57-water-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "electrolysis"
+     ],
+     "vars": {
+      "o": {
+       "int": [
+        3,
+        25
+       ]
+      },
+      "h": {
+       "expr": "2 * o"
+      }
+     },
+     "prompt": "In the electrolysis of acidified water, {h} cm³ of hydrogen is collected. What volume of oxygen is collected?",
+     "answer": "h / 2",
+     "misconceptions": [
+      {
+       "id": "double",
+       "wrong": "2 * h",
+       "explain": "There is LESS oxygen: half the hydrogen."
+      },
+      {
+       "id": "same",
+       "wrong": "h",
+       "explain": "The volumes are in the ratio {2} : {1}."
+      }
+     ],
+     "solution": [
+      "{2}H₂O → {2}H₂ + O₂: hydrogen is twice the oxygen.",
+      "{h} ÷ {2} = {answer} cm³."
+     ],
+     "unit": "cm³"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-57-elec",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the cathode?",
+       "r": "the negative electrode",
+       "w": [
+        "the positive electrode",
+        "the liquid",
+        "the cell"
+       ],
+       "e": [
+        "That is the anode.",
+        "That is the electrolyte.",
+        "That supplies the current."
+       ],
+       "y": "Positive ions go to it."
+      },
+      {
+       "q": "At which electrode are metals produced?",
+       "r": "the cathode",
+       "w": [
+        "the anode",
+        "both equally",
+        "neither"
+       ],
+       "e": [
+        "Non-metals form there.",
+        "Metals form at one.",
+        "They do form."
+       ],
+       "y": "Metal ions are positive."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-57-cucl",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what forms at the cathode?",
+       "r": "copper",
+       "w": [
+        "chlorine",
+        "oxygen",
+        "sodium"
+       ],
+       "e": [
+        "Chlorine forms at the anode.",
+        "Not here.",
+        "No sodium present."
+       ],
+       "y": "A pink-brown coating."
+      },
+      {
+       "q": "what forms at the anode?",
+       "r": "chlorine",
+       "w": [
+        "copper",
+        "hydrogen",
+        "carbon"
+       ],
+       "e": [
+        "Copper forms at the cathode.",
+        "Not here.",
+        "The electrode is carbon; it does not form."
+       ],
+       "y": "A gas that bleaches damp litmus."
+      }
+     ]
+    }
+   },
+   "prompt": "In the electrolysis of copper(II) chloride solution, {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-57-water",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "o": {
+     "int": [
+      3,
+      25
+     ]
+    },
+    "h": {
+     "expr": "2 * o"
+    }
+   },
+   "prompt": "In the electrolysis of acidified water, {h} cm³ of hydrogen is collected. What volume of oxygen is collected?",
+   "answer": "h / 2",
+   "misconceptions": [
+    {
+     "id": "double",
+     "wrong": "2 * h",
+     "explain": "There is LESS oxygen: half the hydrogen."
+    },
+    {
+     "id": "same",
+     "wrong": "h",
+     "explain": "The volumes are in the ratio {2} : {1}."
+    }
+   ],
+   "solution": [
+    "{2}H₂O → {2}H₂ + O₂: hydrogen is twice the oxygen.",
+    "{h} ÷ {2} = {answer} cm³."
+   ],
+   "unit": "cm³"
+  },
+  {
+   "id": "k2-57-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The anode is positive.",
+      "truth": "true"
+     },
+     {
+      "text": "Copper forms at the cathode.",
+      "truth": "true"
+     },
+     {
+      "text": "Chlorine bleaches damp litmus.",
+      "truth": "true"
+     },
+     {
+      "text": "Water gives twice as much hydrogen as oxygen.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Oxygen forms at the cathode in water electrolysis.",
+      "truth": "false",
+      "explain": "Hydrogen forms at the cathode; oxygen at the anode."
+     },
+     {
+      "text": "The cathode is the positive electrode.",
+      "truth": "false",
+      "explain": "It is negative."
+     },
+     {
+      "text": "Electrolysis is used to make wood.",
+      "truth": "false",
+      "explain": "It is used in electroplating and purifying metals."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

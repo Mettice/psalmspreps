@@ -1,0 +1,438 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 47,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k2-47",
+   "name": "Sources of energy: fossil fuels"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A fuel is a substance that burns in oxygen to release energy (heat and light).\nFossil fuels formed over millions of years from the remains of plants and animals buried under mud and rock, under heat and pressure:\n• coal: from ancient forests (a solid);\n• crude oil (petroleum): from tiny sea organisms (a liquid); it is refined into petrol, kerosene, diesel, gas and bitumen (SONARA refines oil at Limbe);\n• natural gas: mainly methane, found with oil (Cameroon produces gas off Kribi).\nFossil fuels are non-renewable: they are used up much faster than they form. Renewable sources (sun, wind, water, firewood if trees are replanted) can be replaced.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why is crude oil called a non-renewable fuel?",
+  "steps": [
+   "It took millions of years to form from buried sea organisms.",
+   "We use it much faster than it can form, so it will run out."
+  ],
+  "answer": "It forms over millions of years but is used up quickly.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c47-1",
+    "status": "draft",
+    "idea": "A fuel burns in oxygen to release heat and light.",
+    "vars": {},
+    "example": [
+     "Charcoal, kerosene and gas are fuels."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-47-fuel"
+    }
+   },
+   {
+    "id": "c47-2",
+    "status": "draft",
+    "idea": "Fossil fuels (coal, oil, gas) formed from buried plants and animals over millions of years.",
+    "vars": {},
+    "example": [
+     "Coal came from ancient forests."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-47-form"
+    }
+   },
+   {
+    "id": "c47-3",
+    "status": "draft",
+    "idea": "Fossil fuels are non-renewable: they will run out.",
+    "vars": {},
+    "example": [
+     "The sun and wind are renewable."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-47-renew-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "fuels"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are fossil fuels called non-renewable?",
+         "r": "They take millions of years to form but are used up quickly.",
+         "w": [
+          "They can be made in a day.",
+          "They come from the sun every day.",
+          "They never run out."
+         ],
+         "e": [
+          "They take millions of years.",
+          "That is solar energy.",
+          "They will run out."
+         ],
+         "y": "Use is faster than formation."
+        },
+        {
+         "q": "Which energy source is renewable?",
+         "r": "the sun",
+         "w": [
+          "coal",
+          "natural gas",
+          "petrol"
+         ],
+         "e": [
+          "Fossil fuel.",
+          "Fossil fuel.",
+          "Made from crude oil."
+         ],
+         "y": "The sun shines every day."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-47-fuel",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "fuels"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a fuel?",
+       "r": "a substance that burns to release energy",
+       "w": [
+        "a substance that puts out fires",
+        "a kind of water",
+        "a metal that rusts"
+       ],
+       "e": [
+        "That is an extinguisher.",
+        "Water does not burn.",
+        "Rusting is not burning."
+       ],
+       "y": "Fuels burn in oxygen."
+      },
+      {
+       "q": "Which of these is a fossil fuel?",
+       "r": "coal",
+       "w": [
+        "firewood",
+        "solar energy",
+        "wind"
+       ],
+       "e": [
+        "Wood is renewable if trees are replanted.",
+        "That is renewable.",
+        "That is renewable."
+       ],
+       "y": "Coal formed from ancient forests."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-47-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "fuels"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "From what did crude oil form?",
+       "r": "the remains of tiny sea organisms buried for millions of years",
+       "w": [
+        "volcanic lava",
+        "melted rocks",
+        "rain water"
+       ],
+       "e": [
+        "Not the origin.",
+        "Not the origin.",
+        "Not the origin."
+       ],
+       "y": "Heat and pressure changed them."
+      },
+      {
+       "q": "Which company refines crude oil at Limbe?",
+       "r": "SONARA",
+       "w": [
+        "SODECOTON",
+        "CAMRAIL",
+        "CDC"
+       ],
+       "e": [
+        "It processes cotton.",
+        "It runs the railway.",
+        "It runs plantations."
+       ],
+       "y": "The national refinery."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-47-renew",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "fuels"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are fossil fuels called non-renewable?",
+       "r": "They take millions of years to form but are used up quickly.",
+       "w": [
+        "They can be made in a day.",
+        "They come from the sun every day.",
+        "They never run out."
+       ],
+       "e": [
+        "They take millions of years.",
+        "That is solar energy.",
+        "They will run out."
+       ],
+       "y": "Use is faster than formation."
+      },
+      {
+       "q": "Which energy source is renewable?",
+       "r": "the sun",
+       "w": [
+        "coal",
+        "natural gas",
+        "petrol"
+       ],
+       "e": [
+        "Fossil fuel.",
+        "Fossil fuel.",
+        "Made from crude oil."
+       ],
+       "y": "The sun shines every day."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-47-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "fuels"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Coal is a fossil fuel.",
+      "truth": "true"
+     },
+     {
+      "text": "Natural gas is mainly methane.",
+      "truth": "true"
+     },
+     {
+      "text": "Crude oil is refined into petrol.",
+      "truth": "true"
+     },
+     {
+      "text": "Fossil fuels are non-renewable.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Fossil fuels form in a few weeks.",
+      "truth": "false",
+      "explain": "They take millions of years."
+     },
+     {
+      "text": "Solar energy is a fossil fuel.",
+      "truth": "false",
+      "explain": "It is renewable."
+     },
+     {
+      "text": "Petrol comes from coal.",
+      "truth": "false",
+      "explain": "It comes from crude oil."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

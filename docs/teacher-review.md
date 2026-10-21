@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-233 P1 items: 231 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3, Français intensif Term 2 3, Maths Term 3 3, English Term 3 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+237 P1 items: 235 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3, Français intensif Term 2 3, Maths Term 3 3, English Term 3 3, Physics Term 3 1, Chemistry Term 3 2, Biology Term 3 1). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -261,6 +261,10 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-W20 | Form 2 English Term 3: facts in the texts | open |
 | TR-W21 | Form 2 English Term 3: silent letters | open |
 | TR-W22 | Form 2 English Term 3: grammar rules | open |
+| TR-Q20 | Form 2 Physics: technology and project | open |
+| TR-J20 | Form 2 Chemistry: heat and electrolysis | open |
+| TR-J21 | Form 2 Chemistry: fuels | open |
+| TR-V20 | Form 2 Biology: ozone and sanitation | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -988,3 +992,25 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 - [ ] **TR-W20 [P1] Facts in the texts:** COVID-19 facts in the dialogue (spread by droplets, vaccines exist); the Ngondo (December, Wouri, the diver's message); Cameroon's festivals and music styles; Écrans Noirs; Manu Dibango (Douala 1933, Soul Makossa 1972, died 2020); Adah Mbeng and Ngum Rose are invented model artists. *Location:* rows 77, 81, 85, 89, 93, 94, 96.
 - [ ] **TR-W21 [P1] Silent letters instead of speech work:** rows 83 and 97 are listed as speech work (pronunciation of silent b, p, c, l). Without audio, they are taught as recognising and spelling the silent letters. Please confirm this is acceptable, or defer them like the other speech-work rows. *Location:* rows 83, 97.
 - [ ] **TR-W22 [P1] Grammar rules:** adverb order (manner, place, time), noun modifiers stay singular (a two-day festival), the three conditionals with « were » in the second, gerunds after enjoy/finish/stop/avoid and prepositions, apostrophes (actors'), conjunction rules (no although … but). *Location:* rows 79, 84, 87, 90, 99, 100.
+
+## Q (Term 3). Physics Form 2, Batch P2-3 (Term 3, rows 32–36), added 2026-10-21 (form-2 branch)
+
+5 lessons on technology and project: introduction to technology, making simple instruments, care and maintenance, how common appliances work, technical drawing. Reviewer: a Physics teacher.
+
+### P1
+- [ ] **TR-Q20 [P1] Technology and project:** the project steps, the simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane), fuses and maintenance, the appliance descriptions (thermostat, motor, fridge), technical-drawing conventions (dashed hidden edges, chain centre lines, views, scale). The practical making of instruments is described but must be done in class. *Location:* rows 32–36.
+
+## J (Term 3). Chemistry Form 2, Batch C2-3 (Term 3, rows 47–52 and 55–59), added 2026-10-21 (form-2 branch)
+
+11 lessons: fossil fuels and their uses, the action of heat on hydrates, oxides, carbonates and nitrates (with balanced equations from the table in science2.js), the change in mass on heating carbonates, reversibility (copper(II) sulphate), and the action of electricity on metals, non-metals, solid compounds and solutions, conductors and electrolytes. Rows 53, 54 and 60 are not lessons. Reviewer: a Chemistry teacher.
+
+### P1
+- [ ] **TR-J20 [P1] Heat and electrolysis equations:** the eleven new equations (carbonates of Cu, Zn, Mg; nitrates of Na, K, Cu, Pb; HgO; electrolysis of water, CuCl₂ and molten NaCl), the 44% mass loss of CaCO₃, ZnO yellow when hot, the gas tests. Molten NaCl replaces the usual PbBr₂ example because bromine is not in the app's element table. *Location:* rows 49–52, 55–59.
+- [ ] **TR-J21 [P1] Fuels:** fossil-fuel formation, the fractions of crude oil and their uses, SONARA at Limbe, the Kribi gas power station. *Location:* rows 47–48.
+
+## V (Term 3). Biology Form 2, Batch B2-3 (Term 3, rows 50–52), added 2026-10-21 (form-2 branch)
+
+3 lessons: the ozone layer, latrines and liquid waste, care of pit latrines and water closets. The eight catch-up rows and the integration, evaluation and remediation rows of Term 3 are not lessons. Reviewer: a Biology teacher.
+
+### P1
+- [ ] **TR-V20 [P1] Ozone and sanitation:** ozone layer altitude (15–35 km), CFCs and the Montreal Protocol (1987); latrine types, the 30 m distance from wells, care of latrines and WCs, the tippy-tap. *Location:* rows 50–52.

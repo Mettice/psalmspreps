@@ -127,6 +127,24 @@ Regenerate with `npm run review:f2-physics`. Item IDs (TR-…) match `docs/teach
 | 112 | `p2-31-adapt` | 31 | multiple choice, 2 | radiation-climate |
 | 113 | `p2-31-spot` | 31 | spot the error, 3 | radiation-climate |
 | 114 | `p2-31-adapt-card` (card c31-3) | 31 | multiple choice, 1 | radiation-climate |
+| 115 | `p2-32-what` | 32 | multiple choice, 1 | technology |
+| 116 | `p2-32-steps` | 32 | ordering, 1 | technology |
+| 117 | `p2-32-mat` | 32 | matching, 2 | technology |
+| 118 | `p2-32-spot` | 32 | spot the error, 3 | technology |
+| 119 | `p2-32-mat-card` (card c32-3) | 32 | matching, 1 | technology |
+| 120 | `p2-33-instr` | 33 | matching, 1 | technology |
+| 121 | `p2-33-pin` | 33 | multiple choice, 1 | technology |
+| 122 | `p2-33-safe` | 33 | spot the error, 3 | technology |
+| 123 | `p2-33-safe-card` (card c33-3) | 33 | spot the error, 1 | technology |
+| 124 | `p2-34-fuse` | 34 | multiple choice, 1 | technology |
+| 125 | `p2-34-habit` | 34 | multiple choice, 2 | technology |
+| 126 | `p2-34-spot` | 34 | spot the error, 3 | technology |
+| 127 | `p2-34-habit-card` (card c34-3) | 34 | multiple choice, 1 | technology |
+| 128 | `p2-35-energy` | 35 | matching, 1 | technology |
+| 129 | `p2-35-thermo` | 35 | multiple choice, 1 | technology |
+| 130 | `p2-35-spot` | 35 | spot the error, 3 | technology |
+| 131 | `p2-36-lines` | 36 | multiple choice, 1 | technology |
+| 132 | `p2-36-views` | 36 | multiple choice, 1 | technology |
 
 ### `p2-1-kind` · Lesson 1 · matching, level 1
 
@@ -7540,4 +7558,1141 @@ Full working after a second miss:
 > So the answer is “mitigation”.  
 
 Sources: radiation-climate (Kinds of radiation, emissions, the sun's radiation and the ozone layer, the greenhouse effect, global warming, climate change, adaptation and mitigation, sustainable management (national parks Korup, Waza, Dja))
+
+### `p2-32-what` · Lesson 32 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is technology? | using knowledge and tools to make things or solve practical problems | only computers · a kind of plant · a school subject about history | It is wider than computers. · Not the meaning. · Not the meaning. | Technology solves practical problems. |
+| Which is an example of traditional technology? | blacksmithing | a laptop · a smartphone · a satellite | Modern. · Modern. · Modern. | Making tools from iron by hand. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is technology?
+
+- ◻️ only computers  
+  _↳ feedback if chosen: It is wider than computers._
+- ◻️ a school subject about history  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a kind of plant  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ using knowledge and tools to make things or solve practical problems
+
+Full working after a second miss:
+
+> Technology solves practical problems.  
+> So the answer is “using knowledge and tools to make things or solve practical problems”.  
+
+> Which is an example of traditional technology?
+
+- ✅ blacksmithing
+- ◻️ a laptop  
+  _↳ feedback if chosen: Modern._
+- ◻️ a satellite  
+  _↳ feedback if chosen: Modern._
+- ◻️ a smartphone  
+  _↳ feedback if chosen: Modern._
+
+Full working after a second miss:
+
+> Making tools from iron by hand.  
+> So the answer is “blacksmithing”.  
+
+> Which is an example of traditional technology?
+
+- ◻️ a satellite  
+  _↳ feedback if chosen: Modern._
+- ◻️ a laptop  
+  _↳ feedback if chosen: Modern._
+- ◻️ a smartphone  
+  _↳ feedback if chosen: Modern._
+- ✅ blacksmithing
+
+Full working after a second miss:
+
+> Making tools from iron by hand.  
+> So the answer is “blacksmithing”.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-32-steps` · Lesson 32 · ordering, level 1
+
+Prompt: Put the steps of a technology project in order.
+
+Items in the right order:
+
+1. Identify the need
+2. Research and plan
+3. Make the object
+4. Test it
+5. Improve and present it
+
+
+Three generated variants:
+
+> Put the steps of a technology project in order.
+
+Shown as: Make the object · Research and plan · Improve and present it · Identify the need · Test it
+Correct order: Identify the need → Research and plan → Make the object → Test it → Improve and present it
+
+Full working after a second miss:
+
+> The correct order is: Identify the need → Research and plan → Make the object → Test it → Improve and present it.  
+
+> Put the steps of a technology project in order.
+
+Shown as: Identify the need · Make the object · Improve and present it · Research and plan · Test it
+Correct order: Identify the need → Research and plan → Make the object → Test it → Improve and present it
+
+Full working after a second miss:
+
+> The correct order is: Identify the need → Research and plan → Make the object → Test it → Improve and present it.  
+
+> Put the steps of a technology project in order.
+
+Shown as: Research and plan · Identify the need · Test it · Improve and present it · Make the object
+Correct order: Identify the need → Research and plan → Make the object → Test it → Improve and present it
+
+Full working after a second miss:
+
+> The correct order is: Identify the need → Research and plan → Make the object → Test it → Improve and present it.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-32-mat` · Lesson 32 · matching, level 2
+
+Prompt: Match each material to a reason it is chosen.
+
+Pairs (4 shown each time):
+
+- copper → **conducts electricity**
+- plastic → **insulates and is light**
+- steel → **is strong**
+- glass → **is transparent**
+- rubber → **is flexible and insulates**
+
+
+Three generated variants:
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): is strong · is transparent · is flexible and insulates · conducts electricity
+- copper → **conducts electricity**
+- steel → **is strong**
+- rubber → **is flexible and insulates**
+- glass → **is transparent**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> copper → conducts electricity  
+> steel → is strong  
+> rubber → is flexible and insulates  
+> glass → is transparent  
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): is flexible and insulates · is strong · is transparent · insulates and is light
+- steel → **is strong**
+- rubber → **is flexible and insulates**
+- glass → **is transparent**
+- plastic → **insulates and is light**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> steel → is strong  
+> rubber → is flexible and insulates  
+> glass → is transparent  
+> plastic → insulates and is light  
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): is flexible and insulates · is transparent · conducts electricity · insulates and is light
+- glass → **is transparent**
+- plastic → **insulates and is light**
+- rubber → **is flexible and insulates**
+- copper → **conducts electricity**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> glass → is transparent  
+> plastic → insulates and is light  
+> rubber → is flexible and insulates  
+> copper → conducts electricity  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-32-spot` · Lesson 32 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Technology applies scientific knowledge.
+- ✅ Pottery is a traditional technology.
+- ✅ A project ends by testing and improving.
+- ✅ Materials are chosen for their properties.
+- ❌ Technology only means computers.  
+  _↳ It includes tools, machines and traditional crafts._
+- ❌ We should present an object before testing it.  
+  _↳ Test it first._
+- ❌ Copper is chosen to insulate wires.  
+  _↳ Copper conducts; plastic insulates._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Materials are chosen for their properties.
+- ✅ We should present an object before testing it.  
+  _↳ explanation: Test it first._
+- ◻️ Technology applies scientific knowledge.
+- ◻️ Pottery is a traditional technology.
+
+Full working after a second miss:
+
+> The wrong statement is “We should present an object before testing it.”.  
+> Test it first.  
+
+> Which statement is wrong?
+
+- ◻️ Pottery is a traditional technology.
+- ◻️ A project ends by testing and improving.
+- ◻️ Technology applies scientific knowledge.
+- ✅ Technology only means computers.  
+  _↳ explanation: It includes tools, machines and traditional crafts._
+
+Full working after a second miss:
+
+> The wrong statement is “Technology only means computers.”.  
+> It includes tools, machines and traditional crafts.  
+
+> Which statement is wrong?
+
+- ◻️ Pottery is a traditional technology.
+- ✅ Copper is chosen to insulate wires.  
+  _↳ explanation: Copper conducts; plastic insulates._
+- ◻️ Materials are chosen for their properties.
+- ◻️ A project ends by testing and improving.
+
+Full working after a second miss:
+
+> The wrong statement is “Copper is chosen to insulate wires.”.  
+> Copper conducts; plastic insulates.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-32-mat-card` · Lesson 32 · matching, level 1
+
+Prompt: Match each material to a reason it is chosen.
+
+Pairs (4 shown each time):
+
+- copper → **conducts electricity**
+- plastic → **insulates and is light**
+- steel → **is strong**
+- glass → **is transparent**
+- rubber → **is flexible and insulates**
+
+
+Three generated variants:
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): is flexible and insulates · insulates and is light · is strong · is transparent
+- steel → **is strong**
+- rubber → **is flexible and insulates**
+- plastic → **insulates and is light**
+- glass → **is transparent**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> steel → is strong  
+> rubber → is flexible and insulates  
+> plastic → insulates and is light  
+> glass → is transparent  
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): is flexible and insulates · conducts electricity · insulates and is light · is strong
+- rubber → **is flexible and insulates**
+- copper → **conducts electricity**
+- steel → **is strong**
+- plastic → **insulates and is light**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> rubber → is flexible and insulates  
+> copper → conducts electricity  
+> steel → is strong  
+> plastic → insulates and is light  
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): conducts electricity · is strong · is transparent · insulates and is light
+- plastic → **insulates and is light**
+- glass → **is transparent**
+- copper → **conducts electricity**
+- steel → **is strong**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> plastic → insulates and is light  
+> glass → is transparent  
+> copper → conducts electricity  
+> steel → is strong  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-33-instr` · Lesson 33 · matching, level 1
+
+Prompt: Match each instrument to what it does.
+
+Pairs (4 shown each time):
+
+- rain gauge → **measures rainfall**
+- wind vane → **shows the direction of the wind**
+- periscope → **lets you see over walls**
+- pinhole camera → **forms an image of an object**
+- simple balance → **compares masses**
+
+
+Three generated variants:
+
+> Match each instrument to what it does.
+
+Right-hand side (shuffled): forms an image of an object · measures rainfall · shows the direction of the wind · lets you see over walls
+- periscope → **lets you see over walls**
+- rain gauge → **measures rainfall**
+- wind vane → **shows the direction of the wind**
+- pinhole camera → **forms an image of an object**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> periscope → lets you see over walls  
+> rain gauge → measures rainfall  
+> wind vane → shows the direction of the wind  
+> pinhole camera → forms an image of an object  
+
+> Match each instrument to what it does.
+
+Right-hand side (shuffled): compares masses · shows the direction of the wind · forms an image of an object · measures rainfall
+- pinhole camera → **forms an image of an object**
+- wind vane → **shows the direction of the wind**
+- simple balance → **compares masses**
+- rain gauge → **measures rainfall**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> pinhole camera → forms an image of an object  
+> wind vane → shows the direction of the wind  
+> simple balance → compares masses  
+> rain gauge → measures rainfall  
+
+> Match each instrument to what it does.
+
+Right-hand side (shuffled): forms an image of an object · shows the direction of the wind · measures rainfall · compares masses
+- simple balance → **compares masses**
+- wind vane → **shows the direction of the wind**
+- pinhole camera → **forms an image of an object**
+- rain gauge → **measures rainfall**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> simple balance → compares masses  
+> wind vane → shows the direction of the wind  
+> pinhole camera → forms an image of an object  
+> rain gauge → measures rainfall  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-33-pin` · Lesson 33 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What kind of image does a pinhole camera give? | upside down | the right way up and larger always · no image · a coloured photo printed at once | It is inverted. · It does form one. · It is only an image on the screen. | The rays cross at the hole. |
+| How are the mirrors placed in a periscope? | at 45° and parallel to each other | at 90° facing away · flat on the floor · at 10° | Not the arrangement. · Not the arrangement. · Not the angle. | Each mirror turns the light through 90°. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What kind of image does a pinhole camera give?
+
+- ◻️ no image  
+  _↳ feedback if chosen: It does form one._
+- ◻️ the right way up and larger always  
+  _↳ feedback if chosen: It is inverted._
+- ✅ upside down
+- ◻️ a coloured photo printed at once  
+  _↳ feedback if chosen: It is only an image on the screen._
+
+Full working after a second miss:
+
+> The rays cross at the hole.  
+> So the answer is “upside down”.  
+
+> How are the mirrors placed in a periscope?
+
+- ◻️ flat on the floor  
+  _↳ feedback if chosen: Not the arrangement._
+- ◻️ at 10°  
+  _↳ feedback if chosen: Not the angle._
+- ✅ at 45° and parallel to each other
+- ◻️ at 90° facing away  
+  _↳ feedback if chosen: Not the arrangement._
+
+Full working after a second miss:
+
+> Each mirror turns the light through 90°.  
+> So the answer is “at 45° and parallel to each other”.  
+
+> How are the mirrors placed in a periscope?
+
+- ◻️ flat on the floor  
+  _↳ feedback if chosen: Not the arrangement._
+- ◻️ at 10°  
+  _↳ feedback if chosen: Not the angle._
+- ✅ at 45° and parallel to each other
+- ◻️ at 90° facing away  
+  _↳ feedback if chosen: Not the arrangement._
+
+Full working after a second miss:
+
+> Each mirror turns the light through 90°.  
+> So the answer is “at 45° and parallel to each other”.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-33-safe` · Lesson 33 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A rain gauge measures rainfall.
+- ✅ Light travels in straight lines.
+- ✅ A wind vane points into the wind.
+- ✅ Cut away from your body.
+- ❌ A pinhole camera gives an image the right way up.  
+  _↳ It gives an upside-down image._
+- ❌ A periscope works with lenses only.  
+  _↳ It uses two plane mirrors._
+- ❌ Use cutting tools towards your hand.  
+  _↳ Always cut away from the body._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A rain gauge measures rainfall.
+- ◻️ Light travels in straight lines.
+- ◻️ A wind vane points into the wind.
+- ✅ A pinhole camera gives an image the right way up.  
+  _↳ explanation: It gives an upside-down image._
+
+Full working after a second miss:
+
+> The wrong statement is “A pinhole camera gives an image the right way up.”.  
+> It gives an upside-down image.  
+
+> Which statement is wrong?
+
+- ◻️ A wind vane points into the wind.
+- ◻️ Cut away from your body.
+- ✅ A periscope works with lenses only.  
+  _↳ explanation: It uses two plane mirrors._
+- ◻️ Light travels in straight lines.
+
+Full working after a second miss:
+
+> The wrong statement is “A periscope works with lenses only.”.  
+> It uses two plane mirrors.  
+
+> Which statement is wrong?
+
+- ✅ A periscope works with lenses only.  
+  _↳ explanation: It uses two plane mirrors._
+- ◻️ Light travels in straight lines.
+- ◻️ A rain gauge measures rainfall.
+- ◻️ Cut away from your body.
+
+Full working after a second miss:
+
+> The wrong statement is “A periscope works with lenses only.”.  
+> It uses two plane mirrors.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-33-safe-card` · Lesson 33 · spot the error, level 1
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A rain gauge measures rainfall.
+- ✅ Light travels in straight lines.
+- ✅ A wind vane points into the wind.
+- ✅ Cut away from your body.
+- ❌ A pinhole camera gives an image the right way up.  
+  _↳ It gives an upside-down image._
+- ❌ A periscope works with lenses only.  
+  _↳ It uses two plane mirrors._
+- ❌ Use cutting tools towards your hand.  
+  _↳ Always cut away from the body._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Cut away from your body.
+- ◻️ Light travels in straight lines.
+- ✅ Use cutting tools towards your hand.  
+  _↳ explanation: Always cut away from the body._
+- ◻️ A rain gauge measures rainfall.
+
+Full working after a second miss:
+
+> The wrong statement is “Use cutting tools towards your hand.”.  
+> Always cut away from the body.  
+
+> Which statement is wrong?
+
+- ✅ A periscope works with lenses only.  
+  _↳ explanation: It uses two plane mirrors._
+- ◻️ Cut away from your body.
+- ◻️ A rain gauge measures rainfall.
+- ◻️ A wind vane points into the wind.
+
+Full working after a second miss:
+
+> The wrong statement is “A periscope works with lenses only.”.  
+> It uses two plane mirrors.  
+
+> Which statement is wrong?
+
+- ◻️ A wind vane points into the wind.
+- ✅ Use cutting tools towards your hand.  
+  _↳ explanation: Always cut away from the body._
+- ◻️ A rain gauge measures rainfall.
+- ◻️ Light travels in straight lines.
+
+Full working after a second miss:
+
+> The wrong statement is “Use cutting tools towards your hand.”.  
+> Always cut away from the body.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-34-fuse` · Lesson 34 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does a fuse do? | It melts and cuts the circuit if too much current flows. | It makes the current stronger. · It stores electricity. · It cools the appliance. | It protects, not strengthens. · That is a battery. · Not its job. | It protects the appliance. |
+| What must you do before cleaning an electric fan? | switch it off and unplug it | pour water inside it · leave it running · touch the blades while it turns | Dangerous. · Dangerous. · Dangerous. | Avoid electric shock and injury. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What must you do before cleaning an electric fan?
+
+- ◻️ touch the blades while it turns  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ leave it running  
+  _↳ feedback if chosen: Dangerous._
+- ✅ switch it off and unplug it
+- ◻️ pour water inside it  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Avoid electric shock and injury.  
+> So the answer is “switch it off and unplug it”.  
+
+> What must you do before cleaning an electric fan?
+
+- ◻️ pour water inside it  
+  _↳ feedback if chosen: Dangerous._
+- ✅ switch it off and unplug it
+- ◻️ leave it running  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ touch the blades while it turns  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Avoid electric shock and injury.  
+> So the answer is “switch it off and unplug it”.  
+
+> What must you do before cleaning an electric fan?
+
+- ◻️ pour water inside it  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ leave it running  
+  _↳ feedback if chosen: Dangerous._
+- ✅ switch it off and unplug it
+- ◻️ touch the blades while it turns  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Avoid electric shock and injury.  
+> So the answer is “switch it off and unplug it”.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-34-habit` · Lesson 34 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should metal tools be oiled before storing them? | to stop them from rusting | to make them heavier · to make them slippery to hold · to clean the oil | Not the reason. · Not the reason. · Not the reason. | Oil keeps out air and water. |
+| Why should you not plug many appliances into one socket? | It overloads the socket and can cause a fire. | It saves electricity. · It makes appliances work faster. · It is required by the manual. | It does not. · It does not. · Not true. | Too much current heats the wires. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should you not plug many appliances into one socket?
+
+- ◻️ It is required by the manual.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It saves electricity.  
+  _↳ feedback if chosen: It does not._
+- ◻️ It makes appliances work faster.  
+  _↳ feedback if chosen: It does not._
+- ✅ It overloads the socket and can cause a fire.
+
+Full working after a second miss:
+
+> Too much current heats the wires.  
+> So the answer is “It overloads the socket and can cause a fire.”.  
+
+> Why should metal tools be oiled before storing them?
+
+- ✅ to stop them from rusting
+- ◻️ to make them heavier  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to make them slippery to hold  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to clean the oil  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> Oil keeps out air and water.  
+> So the answer is “to stop them from rusting”.  
+
+> Why should you not plug many appliances into one socket?
+
+- ◻️ It makes appliances work faster.  
+  _↳ feedback if chosen: It does not._
+- ◻️ It is required by the manual.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It saves electricity.  
+  _↳ feedback if chosen: It does not._
+- ✅ It overloads the socket and can cause a fire.
+
+Full working after a second miss:
+
+> Too much current heats the wires.  
+> So the answer is “It overloads the socket and can cause a fire.”.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-34-spot` · Lesson 34 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Read the user manual.
+- ✅ Unplug before cleaning.
+- ✅ Oil moving parts.
+- ✅ Replace damaged cables.
+- ❌ A fuse should be replaced with a thick nail.  
+  _↳ Use a fuse of the correct rating._
+- ❌ Clean a television with a wet cloth while it is on.  
+  _↳ Switch it off and unplug it first._
+- ❌ Maintenance makes tools wear out faster.  
+  _↳ It makes them last longer._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Read the user manual.
+- ✅ A fuse should be replaced with a thick nail.  
+  _↳ explanation: Use a fuse of the correct rating._
+- ◻️ Unplug before cleaning.
+- ◻️ Replace damaged cables.
+
+Full working after a second miss:
+
+> The wrong statement is “A fuse should be replaced with a thick nail.”.  
+> Use a fuse of the correct rating.  
+
+> Which statement is wrong?
+
+- ◻️ Oil moving parts.
+- ◻️ Read the user manual.
+- ✅ A fuse should be replaced with a thick nail.  
+  _↳ explanation: Use a fuse of the correct rating._
+- ◻️ Replace damaged cables.
+
+Full working after a second miss:
+
+> The wrong statement is “A fuse should be replaced with a thick nail.”.  
+> Use a fuse of the correct rating.  
+
+> Which statement is wrong?
+
+- ✅ Clean a television with a wet cloth while it is on.  
+  _↳ explanation: Switch it off and unplug it first._
+- ◻️ Oil moving parts.
+- ◻️ Unplug before cleaning.
+- ◻️ Read the user manual.
+
+Full working after a second miss:
+
+> The wrong statement is “Clean a television with a wet cloth while it is on.”.  
+> Switch it off and unplug it first.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-34-habit-card` · Lesson 34 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should metal tools be oiled before storing them? | to stop them from rusting | to make them heavier · to make them slippery to hold · to clean the oil | Not the reason. · Not the reason. · Not the reason. | Oil keeps out air and water. |
+| Why should you not plug many appliances into one socket? | It overloads the socket and can cause a fire. | It saves electricity. · It makes appliances work faster. · It is required by the manual. | It does not. · It does not. · Not true. | Too much current heats the wires. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should you not plug many appliances into one socket?
+
+- ◻️ It is required by the manual.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It makes appliances work faster.  
+  _↳ feedback if chosen: It does not._
+- ◻️ It saves electricity.  
+  _↳ feedback if chosen: It does not._
+- ✅ It overloads the socket and can cause a fire.
+
+Full working after a second miss:
+
+> Too much current heats the wires.  
+> So the answer is “It overloads the socket and can cause a fire.”.  
+
+> Why should metal tools be oiled before storing them?
+
+- ◻️ to make them slippery to hold  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to make them heavier  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to clean the oil  
+  _↳ feedback if chosen: Not the reason._
+- ✅ to stop them from rusting
+
+Full working after a second miss:
+
+> Oil keeps out air and water.  
+> So the answer is “to stop them from rusting”.  
+
+> Why should you not plug many appliances into one socket?
+
+- ◻️ It makes appliances work faster.  
+  _↳ feedback if chosen: It does not._
+- ✅ It overloads the socket and can cause a fire.
+- ◻️ It saves electricity.  
+  _↳ feedback if chosen: It does not._
+- ◻️ It is required by the manual.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Too much current heats the wires.  
+> So the answer is “It overloads the socket and can cause a fire.”.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-35-energy` · Lesson 35 · matching, level 1
+
+Prompt: Match each appliance to its main energy change.
+
+Pairs (4 shown each time):
+
+- electric fan → **electrical → kinetic**
+- filament bulb → **electrical → light and heat**
+- electric iron → **electrical → heat**
+- torch battery → **chemical → electrical**
+- loudspeaker → **electrical → sound**
+
+
+Three generated variants:
+
+> Match each appliance to its main energy change.
+
+Right-hand side (shuffled): electrical → light and heat · electrical → kinetic · chemical → electrical · electrical → heat
+- electric fan → **electrical → kinetic**
+- filament bulb → **electrical → light and heat**
+- torch battery → **chemical → electrical**
+- electric iron → **electrical → heat**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> electric fan → electrical → kinetic  
+> filament bulb → electrical → light and heat  
+> torch battery → chemical → electrical  
+> electric iron → electrical → heat  
+
+> Match each appliance to its main energy change.
+
+Right-hand side (shuffled): electrical → heat · electrical → light and heat · electrical → sound · chemical → electrical
+- loudspeaker → **electrical → sound**
+- filament bulb → **electrical → light and heat**
+- electric iron → **electrical → heat**
+- torch battery → **chemical → electrical**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> loudspeaker → electrical → sound  
+> filament bulb → electrical → light and heat  
+> electric iron → electrical → heat  
+> torch battery → chemical → electrical  
+
+> Match each appliance to its main energy change.
+
+Right-hand side (shuffled): electrical → kinetic · electrical → heat · electrical → sound · electrical → light and heat
+- electric iron → **electrical → heat**
+- filament bulb → **electrical → light and heat**
+- loudspeaker → **electrical → sound**
+- electric fan → **electrical → kinetic**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> electric iron → electrical → heat  
+> filament bulb → electrical → light and heat  
+> loudspeaker → electrical → sound  
+> electric fan → electrical → kinetic  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-35-thermo` · Lesson 35 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What keeps the temperature of an electric iron steady? | the thermostat | the plug · the handle · the cable | The plug connects to the socket. · The handle is for holding. · The cable carries current. | It switches the current off and on. |
+| Why are LED bulbs better than filament bulbs? | They use much less energy for the same light. | They are always hotter. · They need no electricity. · They make more noise. | They are cooler. · They do need electricity. · Not true. | Less energy is wasted as heat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why are LED bulbs better than filament bulbs?
+
+- ◻️ They make more noise.  
+  _↳ feedback if chosen: Not true._
+- ◻️ They are always hotter.  
+  _↳ feedback if chosen: They are cooler._
+- ✅ They use much less energy for the same light.
+- ◻️ They need no electricity.  
+  _↳ feedback if chosen: They do need electricity._
+
+Full working after a second miss:
+
+> Less energy is wasted as heat.  
+> So the answer is “They use much less energy for the same light.”.  
+
+> What keeps the temperature of an electric iron steady?
+
+- ◻️ the plug  
+  _↳ feedback if chosen: The plug connects to the socket._
+- ◻️ the handle  
+  _↳ feedback if chosen: The handle is for holding._
+- ✅ the thermostat
+- ◻️ the cable  
+  _↳ feedback if chosen: The cable carries current._
+
+Full working after a second miss:
+
+> It switches the current off and on.  
+> So the answer is “the thermostat”.  
+
+> What keeps the temperature of an electric iron steady?
+
+- ◻️ the plug  
+  _↳ feedback if chosen: The plug connects to the socket._
+- ✅ the thermostat
+- ◻️ the handle  
+  _↳ feedback if chosen: The handle is for holding._
+- ◻️ the cable  
+  _↳ feedback if chosen: The cable carries current._
+
+Full working after a second miss:
+
+> It switches the current off and on.  
+> So the answer is “the thermostat”.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-35-spot` · Lesson 35 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A fan uses a motor.
+- ✅ A radio changes waves into sound.
+- ✅ A torch uses chemical energy.
+- ✅ A fridge removes heat from inside.
+- ❌ A refrigerator makes cold by adding ice from outside.  
+  _↳ It pumps heat from inside to the back._
+- ❌ A thermostat makes an iron hotter and hotter without stopping.  
+  _↳ It switches it off when hot enough._
+- ❌ A filament bulb turns light into electricity.  
+  _↳ It turns electricity into light and heat._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ A filament bulb turns light into electricity.  
+  _↳ explanation: It turns electricity into light and heat._
+- ◻️ A radio changes waves into sound.
+- ◻️ A fridge removes heat from inside.
+- ◻️ A fan uses a motor.
+
+Full working after a second miss:
+
+> The wrong statement is “A filament bulb turns light into electricity.”.  
+> It turns electricity into light and heat.  
+
+> Which statement is wrong?
+
+- ◻️ A fridge removes heat from inside.
+- ◻️ A fan uses a motor.
+- ◻️ A torch uses chemical energy.
+- ✅ A thermostat makes an iron hotter and hotter without stopping.  
+  _↳ explanation: It switches it off when hot enough._
+
+Full working after a second miss:
+
+> The wrong statement is “A thermostat makes an iron hotter and hotter without stopping.”.  
+> It switches it off when hot enough.  
+
+> Which statement is wrong?
+
+- ◻️ A fridge removes heat from inside.
+- ◻️ A fan uses a motor.
+- ◻️ A torch uses chemical energy.
+- ✅ A filament bulb turns light into electricity.  
+  _↳ explanation: It turns electricity into light and heat._
+
+Full working after a second miss:
+
+> The wrong statement is “A filament bulb turns light into electricity.”.  
+> It turns electricity into light and heat.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-36-lines` · Lesson 36 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which line shows a hidden edge? | a dashed line | a thick continuous line · a chain line · a wavy line | That is a visible edge. · That is a centre line. · Not the convention. | Hidden edges are dashed. |
+| Which view of an object is seen from above? | the plan (top view) | the front view · the side view · the back view | Seen from the front. · Seen from the side. · Not one of the three main views. | The plan. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which line shows a hidden edge?
+
+- ✅ a dashed line
+- ◻️ a chain line  
+  _↳ feedback if chosen: That is a centre line._
+- ◻️ a wavy line  
+  _↳ feedback if chosen: Not the convention._
+- ◻️ a thick continuous line  
+  _↳ feedback if chosen: That is a visible edge._
+
+Full working after a second miss:
+
+> Hidden edges are dashed.  
+> So the answer is “a dashed line”.  
+
+> Which line shows a hidden edge?
+
+- ◻️ a chain line  
+  _↳ feedback if chosen: That is a centre line._
+- ◻️ a wavy line  
+  _↳ feedback if chosen: Not the convention._
+- ✅ a dashed line
+- ◻️ a thick continuous line  
+  _↳ feedback if chosen: That is a visible edge._
+
+Full working after a second miss:
+
+> Hidden edges are dashed.  
+> So the answer is “a dashed line”.  
+
+> Which line shows a hidden edge?
+
+- ✅ a dashed line
+- ◻️ a wavy line  
+  _↳ feedback if chosen: Not the convention._
+- ◻️ a thick continuous line  
+  _↳ feedback if chosen: That is a visible edge._
+- ◻️ a chain line  
+  _↳ feedback if chosen: That is a centre line._
+
+Full working after a second miss:
+
+> Hidden edges are dashed.  
+> So the answer is “a dashed line”.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
+
+### `p2-36-views` · Lesson 36 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which tool is used to draw circles? | compasses | a set square · a protractor · an eraser | It draws angles of 45°, 60°, 90°. · It measures angles. · It removes lines. | Compasses draw circles and arcs. |
+| What does a dimension line show? | a size, written above an arrowed line | a hidden edge · the centre of a circle · the colour of the object | That is a dashed line. · That is a centre line. · Drawings show shape and size. | Arrows mark where the size starts and ends. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does a dimension line show?
+
+- ✅ a size, written above an arrowed line
+- ◻️ the colour of the object  
+  _↳ feedback if chosen: Drawings show shape and size._
+- ◻️ the centre of a circle  
+  _↳ feedback if chosen: That is a centre line._
+- ◻️ a hidden edge  
+  _↳ feedback if chosen: That is a dashed line._
+
+Full working after a second miss:
+
+> Arrows mark where the size starts and ends.  
+> So the answer is “a size, written above an arrowed line”.  
+
+> What does a dimension line show?
+
+- ◻️ a hidden edge  
+  _↳ feedback if chosen: That is a dashed line._
+- ✅ a size, written above an arrowed line
+- ◻️ the colour of the object  
+  _↳ feedback if chosen: Drawings show shape and size._
+- ◻️ the centre of a circle  
+  _↳ feedback if chosen: That is a centre line._
+
+Full working after a second miss:
+
+> Arrows mark where the size starts and ends.  
+> So the answer is “a size, written above an arrowed line”.  
+
+> What does a dimension line show?
+
+- ◻️ the colour of the object  
+  _↳ feedback if chosen: Drawings show shape and size._
+- ✅ a size, written above an arrowed line
+- ◻️ a hidden edge  
+  _↳ feedback if chosen: That is a dashed line._
+- ◻️ the centre of a circle  
+  _↳ feedback if chosen: That is a centre line._
+
+Full working after a second miss:
+
+> Arrows mark where the size starts and ends.  
+> So the answer is “a size, written above an arrowed line”.  
+
+Sources: technology (Technology and project: definition, traditional and modern technology, project steps, materials; simple instruments (rain gauge, pinhole camera, periscope, balance, wind vane); preventive and corrective maintenance, fuses; how bulbs, irons (thermostat), fans, fridges, radios and torches work; technical drawing (lines, views, scale))
 

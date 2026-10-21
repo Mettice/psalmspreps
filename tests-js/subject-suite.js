@@ -7,7 +7,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { instantiate, check, renderWorked } from "../src/engine/template.js";
 import { renderCard, cardCheckTemplate, renderPaper, isDeferred, isAutoMarked } from "../src/engine/teach.js";
 
-const BAD_TEXT = /NaN|undefined|\[object Object\]|Infinity|\{|\}/;
+const BAD_TEXT = /\bNaN\b|undefined|\[object Object\]|Infinity|\{|\}/;
 const words = (t) => t.split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
 /**
  * Literal digits outside {…}. A bare 1 in front of a unit is allowed ("1 km = {factor('km', 'm')} m"): it is the

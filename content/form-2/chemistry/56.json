@@ -1,0 +1,357 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 56,
+ "language": "en",
+ "prerequisites": [
+  55
+ ],
+ "skills": [
+  {
+   "id": "k2-56",
+   "name": "Action of electricity on solid compounds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ionic compounds such as common salt (sodium chloride), lead(II) bromide and copper(II) chloride are made of charged particles called ions.\n• In the solid state the ions are held in fixed positions, so the solid does not conduct.\n• When the compound is melted (molten) or dissolved in water, the ions are free to move, so it conducts and is decomposed by the current. This decomposition by electricity is called electrolysis.\nCovalent compounds such as sugar, wax and ethanol do not conduct, even when melted.\nExample: molten sodium chloride → sodium (at the negative electrode) + chlorine (at the positive electrode): 2NaCl → 2Na + Cl₂.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why does solid salt not conduct electricity, while molten salt does?",
+  "steps": [
+   "Salt is made of ions.",
+   "In the solid the ions cannot move; in the melt they are free to move and carry the current."
+  ],
+  "answer": "In the solid the ions are fixed; when molten they can move.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c56-1",
+    "status": "draft",
+    "idea": "Ionic compounds are made of charged particles called ions.",
+    "vars": {},
+    "example": [
+     "Sodium chloride is ionic."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-56-ion"
+    }
+   },
+   {
+    "id": "c56-2",
+    "status": "draft",
+    "idea": "A solid ionic compound does not conduct; molten or dissolved, it does.",
+    "vars": {},
+    "example": [
+     "Molten salt conducts."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-56-state-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "electrolysis"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "solid sodium chloride",
+         "a": "no",
+         "y": "The ions are fixed in the solid."
+        },
+        {
+         "s": "molten sodium chloride",
+         "a": "yes",
+         "y": "The ions can move in the melt."
+        },
+        {
+         "s": "molten sugar",
+         "a": "no",
+         "y": "Sugar is covalent: no ions."
+        },
+        {
+         "s": "molten lead(II) bromide",
+         "a": "yes",
+         "y": "Ions can move in the melt."
+        },
+        {
+         "s": "solid copper(II) chloride",
+         "a": "no",
+         "y": "The ions are fixed in the solid."
+        }
+       ]
+      }
+     },
+     "prompt": "Does {X.s} conduct electricity?",
+     "correct": "{X.a}",
+     "distractors": [
+      {
+       "text": "{X.a == 'yes' ? 'no' : 'yes'}",
+       "misconception": "c"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "c",
+       "explain": "Ionic compounds conduct only when molten or dissolved; covalent compounds do not conduct."
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So: {answer}."
+     ],
+     "min_distractors": 1
+    }
+   },
+   {
+    "id": "c56-3",
+    "status": "draft",
+    "idea": "Electrolysis is the decomposition of a compound by electricity.",
+    "vars": {},
+    "example": [
+     "{2}NaCl → {2}Na + Cl₂"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-56-elec"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-56-ion",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are ions?",
+       "r": "charged particles",
+       "w": [
+        "neutral atoms only",
+        "metal wires",
+        "drops of water"
+       ],
+       "e": [
+        "Ions carry a charge.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Positive or negative charges."
+      },
+      {
+       "q": "Which compound is ionic?",
+       "r": "sodium chloride",
+       "w": [
+        "sugar",
+        "wax",
+        "ethanol"
+       ],
+       "e": [
+        "Covalent.",
+        "Covalent.",
+        "Covalent."
+       ],
+       "y": "Made of Na⁺ and Cl⁻ ions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-56-state",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "solid sodium chloride",
+       "a": "no",
+       "y": "The ions are fixed in the solid."
+      },
+      {
+       "s": "molten sodium chloride",
+       "a": "yes",
+       "y": "The ions can move in the melt."
+      },
+      {
+       "s": "molten sugar",
+       "a": "no",
+       "y": "Sugar is covalent: no ions."
+      },
+      {
+       "s": "molten lead(II) bromide",
+       "a": "yes",
+       "y": "Ions can move in the melt."
+      },
+      {
+       "s": "solid copper(II) chloride",
+       "a": "no",
+       "y": "The ions are fixed in the solid."
+      }
+     ]
+    }
+   },
+   "prompt": "Does {X.s} conduct electricity?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'yes' ? 'no' : 'yes'}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "c",
+     "explain": "Ionic compounds conduct only when molten or dissolved; covalent compounds do not conduct."
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "k2-56-elec",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      28,
+      30
+     ]
+    },
+    "k": {
+     "pick": [
+      0,
+      1
+     ]
+    }
+   },
+   "prompt": "Balance this electrolysis: {eqBlank(i, k)}. What number goes in the blank?",
+   "answer": "eqCoef(i, k)",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "With one, the atoms are not equal on both sides."
+    }
+   ],
+   "solution": [
+    "Count each element on both sides: {eqStr(i)}.",
+    "The number that balances it is {answer}."
+   ]
+  },
+  {
+   "id": "k2-56-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Solid salt does not conduct.",
+      "truth": "true"
+     },
+     {
+      "text": "Molten salt conducts.",
+      "truth": "true"
+     },
+     {
+      "text": "Sugar is covalent.",
+      "truth": "true"
+     },
+     {
+      "text": "Electrolysis decomposes a compound.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Solid sodium chloride conducts because it has ions.",
+      "truth": "false",
+      "explain": "The ions are fixed in the solid."
+     },
+     {
+      "text": "Molten sugar conducts electricity.",
+      "truth": "false",
+      "explain": "Sugar has no ions."
+     },
+     {
+      "text": "Electrolysis joins elements into compounds.",
+      "truth": "false",
+      "explain": "It decomposes compounds."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 55,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k2-55",
+   "name": "Action of electricity on metals and non-metals"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A conductor allows electric current to pass; an insulator does not.\nTest: connect a cell, a bulb and two wires with a gap; put the material in the gap. If the bulb lights, the material conducts.\n• Metals (copper, iron, aluminium, zinc) conduct electricity in the solid state because they have free electrons. They are not changed by the current (only warmed).\n• Most non-metals (sulphur, phosphorus, wood, plastic, glass, rubber) do not conduct: they are insulators.\n• Graphite (a form of carbon) is the exception: it is a non-metal that conducts; it is used for electrodes and pencil leads.\nUses: copper wires carry current; plastic and rubber cover them for safety.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A pupil puts a pencil lead (graphite) in the gap of the circuit and the bulb lights. What does this show?",
+  "steps": [
+   "The bulb lights only when current flows through the material.",
+   "So graphite conducts, although it is a non-metal."
+  ],
+  "answer": "Graphite conducts electricity.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c55-1",
+    "status": "draft",
+    "idea": "A conductor lets current pass; an insulator does not.",
+    "vars": {},
+    "example": [
+     "Copper conducts; plastic does not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-55-cond"
+    }
+   },
+   {
+    "id": "c55-2",
+    "status": "draft",
+    "idea": "Metals conduct because they have free electrons; most non-metals do not.",
+    "vars": {},
+    "example": [
+     "Iron conducts; sulphur does not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-55-kind"
+    }
+   },
+   {
+    "id": "c55-3",
+    "status": "draft",
+    "idea": "Graphite is a non-metal that conducts.",
+    "vars": {},
+    "example": [
+     "Used for electrodes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-55-test-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "electrolysis"
+     ],
+     "prompt": "Put the steps of the conduction test in order.",
+     "items": [
+      {
+       "text": "Connect a cell, a bulb and two wires with a gap"
+      },
+      {
+       "text": "Place the material across the gap"
+      },
+      {
+       "text": "Watch the bulb"
+      },
+      {
+       "text": "If it lights, the material conducts"
+      }
+     ],
+     "order": "as_written"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-55-cond",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "m": "copper",
+       "a": "yes",
+       "y": "Copper is a metal."
+      },
+      {
+       "m": "sulphur",
+       "a": "no",
+       "y": "Sulphur is a non-metal."
+      },
+      {
+       "m": "graphite",
+       "a": "yes",
+       "y": "Graphite is the non-metal that conducts."
+      },
+      {
+       "m": "plastic",
+       "a": "no",
+       "y": "Plastic is an insulator."
+      },
+      {
+       "m": "aluminium",
+       "a": "yes",
+       "y": "Aluminium is a metal."
+      },
+      {
+       "m": "dry wood",
+       "a": "no",
+       "y": "Dry wood is an insulator."
+      }
+     ]
+    }
+   },
+   "prompt": "Does {X.m} conduct electricity?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'yes' ? 'no' : 'yes'}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "c",
+     "explain": "Metals and graphite conduct; most non-metals do not."
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "k2-55-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do metals conduct electricity?",
+       "r": "They have free electrons that can move.",
+       "w": [
+        "They are heavy.",
+        "They are shiny only.",
+        "They contain water."
+       ],
+       "e": [
+        "Mass is not the reason.",
+        "Shine is not the reason.",
+        "They do not."
+       ],
+       "y": "Free electrons carry the current."
+      },
+      {
+       "q": "Why are electric wires covered with plastic?",
+       "r": "Plastic is an insulator and protects us from shocks.",
+       "w": [
+        "Plastic conducts better than copper.",
+        "To make the wire heavier.",
+        "To make the current faster."
+       ],
+       "e": [
+        "It does not conduct.",
+        "Not the reason.",
+        "Not the reason."
+       ],
+       "y": "Safety."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-55-test",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "prompt": "Put the steps of the conduction test in order.",
+   "items": [
+    {
+     "text": "Connect a cell, a bulb and two wires with a gap"
+    },
+    {
+     "text": "Place the material across the gap"
+    },
+    {
+     "text": "Watch the bulb"
+    },
+    {
+     "text": "If it lights, the material conducts"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "k2-55-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "electrolysis"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Copper conducts electricity.",
+      "truth": "true"
+     },
+     {
+      "text": "Plastic is an insulator.",
+      "truth": "true"
+     },
+     {
+      "text": "Graphite conducts.",
+      "truth": "true"
+     },
+     {
+      "text": "Sulphur is an insulator.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "All non-metals conduct electricity.",
+      "truth": "false",
+      "explain": "Most do not; graphite is the exception."
+     },
+     {
+      "text": "A metal is decomposed by the current.",
+      "truth": "false",
+      "explain": "A metal only warms up; it is not changed."
+     },
+     {
+      "text": "Rubber is used inside wires to carry current.",
+      "truth": "false",
+      "explain": "Rubber is an insulator used to cover wires."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

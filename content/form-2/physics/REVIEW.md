@@ -169,6 +169,11 @@ Full working after a second miss:
 | 29 | The Greenhouse Effect | draft | 3 | 4 | — |
 | 30 | Global warming | draft | 3 | 4 | — |
 | 31 | Climate change | draft | 3 | 4 | — |
+| 32 | Introduction to technology | draft | 3 | 4 | — |
+| 33 | Fabrication of common instruments | draft | 3 | 4 | — |
+| 34 | Care and maintenance | draft | 3 | 4 | — |
+| 35 | Principle of functionality of some common appliances | draft | 3 | 4 | — |
+| 36 | Technical drawing | draft | 3 | 4 | — |
 
 ## Lesson 1: Data: Importance and collection
 
@@ -6772,4 +6777,1010 @@ Full working after a second miss:
 
 > The wrong statement is “Adaptation means increasing greenhouse gases.”.  
 > Adaptation means living with the change.  
+
+## Lesson 32: Introduction to technology
+
+Prerequisites: none · Skill: p2-32 (Introduction to technology)
+
+**Note** (draft)
+
+> Technology is the use of scientific knowledge, tools, materials and skills to make things or solve practical problems.
+> Science explains how things work; technology applies this knowledge to make useful objects: a radio, a mobile phone, a hoe, a water filter, a solar panel.
+> Traditional technology: blacksmithing, weaving, pottery, carving, food processing with the mortar and grinding stone.
+> Modern technology: electronics, computers, machines, vehicles.
+> A technological project follows steps: identify the need → research and plan (sketch, list materials) → make the object → test it → improve it → present it.
+> Materials: wood, metal, plastic, glass, rubber, cardboard; they are chosen for their properties (strength, weight, cost, conductivity).
+
+**Card c32-1** (draft)
+
+> Technology uses scientific knowledge and tools to solve practical problems.
+>
+> _A solar panel uses light to make electricity._  
+
+Check question: `p2-32-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is an example of traditional technology?
+
+- ✅ blacksmithing
+- ◻️ a laptop  
+  _↳ feedback if chosen: Modern._
+- ◻️ a satellite  
+  _↳ feedback if chosen: Modern._
+- ◻️ a smartphone  
+  _↳ feedback if chosen: Modern._
+
+Full working after a second miss:
+
+> Making tools from iron by hand.  
+> So the answer is “blacksmithing”.  
+
+**Card c32-2** (draft)
+
+> A project: need, plan, make, test, improve, present.
+>
+> _Test the object before presenting it._  
+
+Check question: `p2-32-steps` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the steps of a technology project in order.
+
+Shown as: Improve and present it · Research and plan · Make the object · Test it · Identify the need
+Correct order: Identify the need → Research and plan → Make the object → Test it → Improve and present it
+
+Full working after a second miss:
+
+> The correct order is: Identify the need → Research and plan → Make the object → Test it → Improve and present it.  
+
+**Card c32-3** (draft)
+
+> Materials are chosen for their properties: strength, weight, cost, conductivity.
+>
+> _Copper for wires; plastic for covers._  
+
+Check question: `p2-32-mat-card` · matching, level 1 · **authored key**
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): conducts electricity · is flexible and insulates · is transparent · insulates and is light
+- copper → **conducts electricity**
+- glass → **is transparent**
+- rubber → **is flexible and insulates**
+- plastic → **insulates and is light**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> copper → conducts electricity  
+> glass → is transparent  
+> rubber → is flexible and insulates  
+> plastic → insulates and is light  
+
+**Worked example** (draft)
+
+> A village has dirty water. What steps would a technology club follow to make a simple water filter?
+
+1. Identify the need (clean water), then research and plan: sketch a bottle filled with layers of gravel, sand and charcoal.
+2. Make it, test it with dirty water, improve it, then present it.
+
+**Answer:** Need → plan → make → test → improve → present.
+
+**Practice** `p2-32-what` · multiple choice, level 1 · **authored key**
+
+> Which is an example of traditional technology?
+
+- ◻️ a satellite  
+  _↳ feedback if chosen: Modern._
+- ◻️ a laptop  
+  _↳ feedback if chosen: Modern._
+- ◻️ a smartphone  
+  _↳ feedback if chosen: Modern._
+- ✅ blacksmithing
+
+Full working after a second miss:
+
+> Making tools from iron by hand.  
+> So the answer is “blacksmithing”.  
+
+> What is technology?
+
+- ✅ using knowledge and tools to make things or solve practical problems
+- ◻️ only computers  
+  _↳ feedback if chosen: It is wider than computers._
+- ◻️ a kind of plant  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a school subject about history  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Technology solves practical problems.  
+> So the answer is “using knowledge and tools to make things or solve practical problems”.  
+
+**Practice** `p2-32-steps` · ordering, level 1 · **authored key**
+
+> Put the steps of a technology project in order.
+
+Shown as: Research and plan · Identify the need · Test it · Improve and present it · Make the object
+Correct order: Identify the need → Research and plan → Make the object → Test it → Improve and present it
+
+Full working after a second miss:
+
+> The correct order is: Identify the need → Research and plan → Make the object → Test it → Improve and present it.  
+
+> Put the steps of a technology project in order.
+
+Shown as: Identify the need · Improve and present it · Research and plan · Test it · Make the object
+Correct order: Identify the need → Research and plan → Make the object → Test it → Improve and present it
+
+Full working after a second miss:
+
+> The correct order is: Identify the need → Research and plan → Make the object → Test it → Improve and present it.  
+
+**Practice** `p2-32-mat` · matching, level 2 · **authored key**
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): is flexible and insulates · is transparent · conducts electricity · insulates and is light
+- glass → **is transparent**
+- plastic → **insulates and is light**
+- rubber → **is flexible and insulates**
+- copper → **conducts electricity**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> glass → is transparent  
+> plastic → insulates and is light  
+> rubber → is flexible and insulates  
+> copper → conducts electricity  
+
+> Match each material to a reason it is chosen.
+
+Right-hand side (shuffled): conducts electricity · insulates and is light · is transparent · is strong
+- steel → **is strong**
+- glass → **is transparent**
+- plastic → **insulates and is light**
+- copper → **conducts electricity**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> steel → is strong  
+> glass → is transparent  
+> plastic → insulates and is light  
+> copper → conducts electricity  
+
+**Practice** `p2-32-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Pottery is a traditional technology.
+- ✅ Copper is chosen to insulate wires.  
+  _↳ explanation: Copper conducts; plastic insulates._
+- ◻️ Materials are chosen for their properties.
+- ◻️ A project ends by testing and improving.
+
+Full working after a second miss:
+
+> The wrong statement is “Copper is chosen to insulate wires.”.  
+> Copper conducts; plastic insulates.  
+
+> Which statement is wrong?
+
+- ◻️ Technology applies scientific knowledge.
+- ◻️ Pottery is a traditional technology.
+- ◻️ A project ends by testing and improving.
+- ✅ Copper is chosen to insulate wires.  
+  _↳ explanation: Copper conducts; plastic insulates._
+
+Full working after a second miss:
+
+> The wrong statement is “Copper is chosen to insulate wires.”.  
+> Copper conducts; plastic insulates.  
+
+## Lesson 33: Fabrication of common instruments
+
+Prerequisites: 32 · Skill: p2-33 (Making simple instruments)
+
+**Note** (draft)
+
+> Simple instruments can be made from local materials:
+> • a rain gauge: a clear bottle with a funnel and a scale in millimetres, to measure rainfall;
+> • a pinhole camera: a closed box with a tiny hole on one side and tracing paper on the other; it gives an upside-down image (light travels in straight lines);
+> • a periscope: a tube with two plane mirrors at 45°, to see over walls;
+> • a simple balance: a ruler or stick hanging from its middle, with a pan at each end;
+> • a wind vane: an arrow on a pin that points into the wind;
+> • a simple electric circuit with a cell, a switch and a bulb.
+> Safety: use cutting tools carefully, away from the body; work under supervision with hot glue or soldering.
+
+**Card c33-1** (draft)
+
+> A rain gauge measures rainfall in millimetres.
+>
+> _A bottle, a funnel and a scale._  
+
+Check question: `p2-33-instr` · matching, level 1 · **authored key**, reused from practice
+
+> Match each instrument to what it does.
+
+Right-hand side (shuffled): shows the direction of the wind · forms an image of an object · lets you see over walls · compares masses
+- periscope → **lets you see over walls**
+- wind vane → **shows the direction of the wind**
+- pinhole camera → **forms an image of an object**
+- simple balance → **compares masses**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> periscope → lets you see over walls  
+> wind vane → shows the direction of the wind  
+> pinhole camera → forms an image of an object  
+> simple balance → compares masses  
+
+**Card c33-2** (draft)
+
+> A pinhole camera gives an upside-down image because light travels in straight lines.
+>
+> _The rays cross at the hole._  
+
+Check question: `p2-33-pin` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What kind of image does a pinhole camera give?
+
+- ◻️ a coloured photo printed at once  
+  _↳ feedback if chosen: It is only an image on the screen._
+- ◻️ the right way up and larger always  
+  _↳ feedback if chosen: It is inverted._
+- ◻️ no image  
+  _↳ feedback if chosen: It does form one._
+- ✅ upside down
+
+Full working after a second miss:
+
+> The rays cross at the hole.  
+> So the answer is “upside down”.  
+
+**Card c33-3** (draft)
+
+> A periscope uses two mirrors at 45° to see over walls.
+>
+> _Used in submarines._  
+
+Check question: `p2-33-safe-card` · spot the error, level 1 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ A periscope works with lenses only.  
+  _↳ explanation: It uses two plane mirrors._
+- ◻️ A rain gauge measures rainfall.
+- ◻️ A wind vane points into the wind.
+- ◻️ Cut away from your body.
+
+Full working after a second miss:
+
+> The wrong statement is “A periscope works with lenses only.”.  
+> It uses two plane mirrors.  
+
+**Worked example** (draft)
+
+> Why is the image in a pinhole camera upside down?
+
+1. Light travels in straight lines.
+2. Rays from the top of the object pass through the hole and reach the bottom of the screen, and the rays from the bottom reach the top.
+
+**Answer:** Because light travels in straight lines and the rays cross at the hole.
+
+**Practice** `p2-33-instr` · matching, level 1 · **authored key**
+
+> Match each instrument to what it does.
+
+Right-hand side (shuffled): forms an image of an object · shows the direction of the wind · measures rainfall · compares masses
+- simple balance → **compares masses**
+- wind vane → **shows the direction of the wind**
+- pinhole camera → **forms an image of an object**
+- rain gauge → **measures rainfall**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> simple balance → compares masses  
+> wind vane → shows the direction of the wind  
+> pinhole camera → forms an image of an object  
+> rain gauge → measures rainfall  
+
+> Match each instrument to what it does.
+
+Right-hand side (shuffled): shows the direction of the wind · lets you see over walls · forms an image of an object · measures rainfall
+- wind vane → **shows the direction of the wind**
+- pinhole camera → **forms an image of an object**
+- periscope → **lets you see over walls**
+- rain gauge → **measures rainfall**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> wind vane → shows the direction of the wind  
+> pinhole camera → forms an image of an object  
+> periscope → lets you see over walls  
+> rain gauge → measures rainfall  
+
+**Practice** `p2-33-pin` · multiple choice, level 1 · **authored key**
+
+> How are the mirrors placed in a periscope?
+
+- ◻️ flat on the floor  
+  _↳ feedback if chosen: Not the arrangement._
+- ◻️ at 10°  
+  _↳ feedback if chosen: Not the angle._
+- ✅ at 45° and parallel to each other
+- ◻️ at 90° facing away  
+  _↳ feedback if chosen: Not the arrangement._
+
+Full working after a second miss:
+
+> Each mirror turns the light through 90°.  
+> So the answer is “at 45° and parallel to each other”.  
+
+> How are the mirrors placed in a periscope?
+
+- ◻️ flat on the floor  
+  _↳ feedback if chosen: Not the arrangement._
+- ◻️ at 10°  
+  _↳ feedback if chosen: Not the angle._
+- ◻️ at 90° facing away  
+  _↳ feedback if chosen: Not the arrangement._
+- ✅ at 45° and parallel to each other
+
+Full working after a second miss:
+
+> Each mirror turns the light through 90°.  
+> So the answer is “at 45° and parallel to each other”.  
+
+**Practice** `p2-33-rain` · number, level 2 · computed by rule
+
+> A rain gauge shows 39 mm of rain on Monday, 8 mm on Tuesday and 32 mm on Wednesday. What is the total rainfall?
+
+Answer: **79 mm**
+
+Full working after a second miss:
+
+> Add the three readings.  
+> 39 + 8 + 32 = 79 mm.  
+
+> A rain gauge shows 2 mm of rain on Monday, 15 mm on Tuesday and 4 mm on Wednesday. What is the total rainfall?
+
+Answer: **21 mm**
+
+Full working after a second miss:
+
+> Add the three readings.  
+> 2 + 15 + 4 = 21 mm.  
+
+**Practice** `p2-33-safe` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ A periscope works with lenses only.  
+  _↳ explanation: It uses two plane mirrors._
+- ◻️ Light travels in straight lines.
+- ◻️ A rain gauge measures rainfall.
+- ◻️ Cut away from your body.
+
+Full working after a second miss:
+
+> The wrong statement is “A periscope works with lenses only.”.  
+> It uses two plane mirrors.  
+
+> Which statement is wrong?
+
+- ◻️ Light travels in straight lines.
+- ◻️ A rain gauge measures rainfall.
+- ✅ A pinhole camera gives an image the right way up.  
+  _↳ explanation: It gives an upside-down image._
+- ◻️ Cut away from your body.
+
+Full working after a second miss:
+
+> The wrong statement is “A pinhole camera gives an image the right way up.”.  
+> It gives an upside-down image.  
+
+## Lesson 34: Care and maintenance
+
+Prerequisites: 32 · Skill: p2-34 (Care and maintenance of tools and appliances)
+
+**Note** (draft)
+
+> Maintenance is keeping tools and appliances in good working condition so that they last longer and are safe.
+> • Preventive maintenance: regular care before a breakdown: cleaning, oiling moving parts, tightening screws, checking cables, keeping devices dry and covered.
+> • Corrective maintenance: repairing after a breakdown: replacing a fuse, a bulb or a worn part.
+> Good habits: read the user manual; switch off and unplug before cleaning; use the right voltage; do not overload sockets; store tools clean and dry; oil metal tools against rust; replace damaged cables at once.
+> A fuse is a thin wire that melts if too much current flows, cutting the circuit and protecting the appliance.
+
+**Card c34-1** (draft)
+
+> Preventive maintenance is regular care before a breakdown.
+>
+> _Oil the bicycle chain._  
+
+Check question: `p2-34-kind` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Is this preventive or corrective maintenance? Replacing a burnt bulb.
+
+- ◻️ preventive  
+  _↳ feedback if chosen: Ask: is the work done before or after a breakdown?_
+- ✅ corrective
+
+Full working after a second miss:
+
+> Preventive: before a breakdown; corrective: after a breakdown.  
+> So: corrective.  
+
+**Card c34-2** (draft)
+
+> Corrective maintenance is repairing after a breakdown.
+>
+> _Replace a melted fuse._  
+
+Check question: `p2-34-fuse` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What must you do before cleaning an electric fan?
+
+- ◻️ pour water inside it  
+  _↳ feedback if chosen: Dangerous._
+- ✅ switch it off and unplug it
+- ◻️ touch the blades while it turns  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ leave it running  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Avoid electric shock and injury.  
+> So the answer is “switch it off and unplug it”.  
+
+**Card c34-3** (draft)
+
+> Always switch off and unplug before cleaning an appliance.
+>
+> _Keep devices dry._  
+
+Check question: `p2-34-habit-card` · multiple choice, level 1 · **authored key**
+
+> Why should you not plug many appliances into one socket?
+
+- ◻️ It saves electricity.  
+  _↳ feedback if chosen: It does not._
+- ◻️ It is required by the manual.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It makes appliances work faster.  
+  _↳ feedback if chosen: It does not._
+- ✅ It overloads the socket and can cause a fire.
+
+Full working after a second miss:
+
+> Too much current heats the wires.  
+> So the answer is “It overloads the socket and can cause a fire.”.  
+
+**Worked example** (draft)
+
+> An iron stops working. The technician finds that the fuse in the plug has melted. What should be done, and why did it happen?
+
+1. The fuse melted because too much current flowed (a fault or overload).
+2. Find and repair the fault, then replace the fuse with one of the correct rating.
+
+**Answer:** Find the fault and replace the fuse with the correct rating.
+
+**Practice** `p2-34-kind` · multiple choice, level 1 · computed by rule
+
+> Is this preventive or corrective maintenance? Changing a broken cable of a radio.
+
+- ◻️ preventive  
+  _↳ feedback if chosen: Ask: is the work done before or after a breakdown?_
+- ✅ corrective
+
+Full working after a second miss:
+
+> Preventive: before a breakdown; corrective: after a breakdown.  
+> So: corrective.  
+
+> Is this preventive or corrective maintenance? Covering a television against dust.
+
+- ◻️ corrective  
+  _↳ feedback if chosen: Ask: is the work done before or after a breakdown?_
+- ✅ preventive
+
+Full working after a second miss:
+
+> Preventive: before a breakdown; corrective: after a breakdown.  
+> So: preventive.  
+
+**Practice** `p2-34-fuse` · multiple choice, level 1 · **authored key**
+
+> What must you do before cleaning an electric fan?
+
+- ◻️ pour water inside it  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ leave it running  
+  _↳ feedback if chosen: Dangerous._
+- ✅ switch it off and unplug it
+- ◻️ touch the blades while it turns  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Avoid electric shock and injury.  
+> So the answer is “switch it off and unplug it”.  
+
+> What does a fuse do?
+
+- ◻️ It stores electricity.  
+  _↳ feedback if chosen: That is a battery._
+- ✅ It melts and cuts the circuit if too much current flows.
+- ◻️ It cools the appliance.  
+  _↳ feedback if chosen: Not its job._
+- ◻️ It makes the current stronger.  
+  _↳ feedback if chosen: It protects, not strengthens._
+
+Full working after a second miss:
+
+> It protects the appliance.  
+> So the answer is “It melts and cuts the circuit if too much current flows.”.  
+
+**Practice** `p2-34-habit` · multiple choice, level 2 · **authored key**
+
+> Why should you not plug many appliances into one socket?
+
+- ◻️ It makes appliances work faster.  
+  _↳ feedback if chosen: It does not._
+- ◻️ It is required by the manual.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It saves electricity.  
+  _↳ feedback if chosen: It does not._
+- ✅ It overloads the socket and can cause a fire.
+
+Full working after a second miss:
+
+> Too much current heats the wires.  
+> So the answer is “It overloads the socket and can cause a fire.”.  
+
+> Why should metal tools be oiled before storing them?
+
+- ◻️ to make them heavier  
+  _↳ feedback if chosen: Not the reason._
+- ✅ to stop them from rusting
+- ◻️ to make them slippery to hold  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to clean the oil  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> Oil keeps out air and water.  
+> So the answer is “to stop them from rusting”.  
+
+**Practice** `p2-34-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Clean a television with a wet cloth while it is on.  
+  _↳ explanation: Switch it off and unplug it first._
+- ◻️ Oil moving parts.
+- ◻️ Unplug before cleaning.
+- ◻️ Read the user manual.
+
+Full working after a second miss:
+
+> The wrong statement is “Clean a television with a wet cloth while it is on.”.  
+> Switch it off and unplug it first.  
+
+> Which statement is wrong?
+
+- ◻️ Replace damaged cables.
+- ✅ Maintenance makes tools wear out faster.  
+  _↳ explanation: It makes them last longer._
+- ◻️ Unplug before cleaning.
+- ◻️ Oil moving parts.
+
+Full working after a second miss:
+
+> The wrong statement is “Maintenance makes tools wear out faster.”.  
+> It makes them last longer.  
+
+## Lesson 35: Principle of functionality of some common appliances
+
+Prerequisites: 34 · Skill: p2-35 (How some common appliances work)
+
+**Note** (draft)
+
+> • Electric bulb (filament lamp): current heats a thin tungsten filament until it glows (electrical → light and heat). LED bulbs use much less energy.
+> • Electric iron: current flows through a heating element; a thermostat (a bimetallic strip) switches it off when it is hot enough and on again when it cools.
+> • Electric fan: an electric motor turns the blades (electrical → kinetic energy).
+> • Refrigerator: a pump moves a cooling liquid that takes heat from inside and releases it at the back.
+> • Radio: receives radio waves and changes them into sound in the loudspeaker.
+> • Torch: a battery (chemical energy) lights a bulb when the switch closes the circuit.
+> Energy used = power × time; an appliance of high power uses more energy.
+
+**Card c35-1** (draft)
+
+> A filament bulb turns electrical energy into light and heat.
+>
+> _The filament glows._  
+
+Check question: `p2-35-energy` · matching, level 1 · **authored key**, reused from practice
+
+> Match each appliance to its main energy change.
+
+Right-hand side (shuffled): electrical → sound · electrical → heat · electrical → kinetic · electrical → light and heat
+- loudspeaker → **electrical → sound**
+- electric fan → **electrical → kinetic**
+- electric iron → **electrical → heat**
+- filament bulb → **electrical → light and heat**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> loudspeaker → electrical → sound  
+> electric fan → electrical → kinetic  
+> electric iron → electrical → heat  
+> filament bulb → electrical → light and heat  
+
+**Card c35-2** (draft)
+
+> A thermostat switches a heater off when it is hot enough.
+>
+> _An iron has a thermostat._  
+
+Check question: `p2-35-thermo` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why are LED bulbs better than filament bulbs?
+
+- ✅ They use much less energy for the same light.
+- ◻️ They need no electricity.  
+  _↳ feedback if chosen: They do need electricity._
+- ◻️ They are always hotter.  
+  _↳ feedback if chosen: They are cooler._
+- ◻️ They make more noise.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Less energy is wasted as heat.  
+> So the answer is “They use much less energy for the same light.”.  
+
+**Card c35-3** (draft)
+
+> A motor turns electrical energy into movement (kinetic energy).
+>
+> _A fan uses a motor._  
+
+Check question: `p2-35-power-card` · number, level 1 · computed by rule
+
+> A 200 W fan works for 10 hours. How much energy does it use in kilowatt-hours (kWh)?
+
+Answer: **2 kWh**
+- Typed **2000** (wh) → “That is in watt-hours: divide by 1000 for kWh.”
+
+Full working after a second miss:
+
+> Energy (kWh) = power (kW) × time (h).  
+> 200 W = 0.2 kW; 0.2 × 10 = 2 kWh.  
+
+**Worked example** (draft)
+
+> Why does an electric iron not keep getting hotter and hotter?
+
+1. It has a thermostat (a bimetallic strip).
+2. When the iron is hot enough, the strip bends and switches the current off; when it cools, it switches it on again.
+
+**Answer:** The thermostat switches the current off and on to keep the temperature steady.
+
+**Practice** `p2-35-energy` · matching, level 1 · **authored key**
+
+> Match each appliance to its main energy change.
+
+Right-hand side (shuffled): electrical → kinetic · electrical → heat · electrical → sound · electrical → light and heat
+- electric iron → **electrical → heat**
+- filament bulb → **electrical → light and heat**
+- loudspeaker → **electrical → sound**
+- electric fan → **electrical → kinetic**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> electric iron → electrical → heat  
+> filament bulb → electrical → light and heat  
+> loudspeaker → electrical → sound  
+> electric fan → electrical → kinetic  
+
+> Match each appliance to its main energy change.
+
+Right-hand side (shuffled): electrical → heat · chemical → electrical · electrical → kinetic · electrical → light and heat
+- filament bulb → **electrical → light and heat**
+- electric iron → **electrical → heat**
+- electric fan → **electrical → kinetic**
+- torch battery → **chemical → electrical**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> filament bulb → electrical → light and heat  
+> electric iron → electrical → heat  
+> electric fan → electrical → kinetic  
+> torch battery → chemical → electrical  
+
+**Practice** `p2-35-thermo` · multiple choice, level 1 · **authored key**
+
+> What keeps the temperature of an electric iron steady?
+
+- ◻️ the plug  
+  _↳ feedback if chosen: The plug connects to the socket._
+- ✅ the thermostat
+- ◻️ the handle  
+  _↳ feedback if chosen: The handle is for holding._
+- ◻️ the cable  
+  _↳ feedback if chosen: The cable carries current._
+
+Full working after a second miss:
+
+> It switches the current off and on.  
+> So the answer is “the thermostat”.  
+
+> Why are LED bulbs better than filament bulbs?
+
+- ◻️ They make more noise.  
+  _↳ feedback if chosen: Not true._
+- ◻️ They are always hotter.  
+  _↳ feedback if chosen: They are cooler._
+- ✅ They use much less energy for the same light.
+- ◻️ They need no electricity.  
+  _↳ feedback if chosen: They do need electricity._
+
+Full working after a second miss:
+
+> Less energy is wasted as heat.  
+> So the answer is “They use much less energy for the same light.”.  
+
+**Practice** `p2-35-power` · number, level 2 · computed by rule
+
+> A 200 W fan works for 5 hours. How much energy does it use in kilowatt-hours (kWh)?
+
+Answer: **1 kWh**
+- Typed **1000** (wh) → “That is in watt-hours: divide by 1000 for kWh.”
+
+Full working after a second miss:
+
+> Energy (kWh) = power (kW) × time (h).  
+> 200 W = 0.2 kW; 0.2 × 5 = 1 kWh.  
+
+> A 100 W fan works for 10 hours. How much energy does it use in kilowatt-hours (kWh)?
+
+Answer: **1 kWh**
+- Typed **1000** (wh) → “That is in watt-hours: divide by 1000 for kWh.”
+
+Full working after a second miss:
+
+> Energy (kWh) = power (kW) × time (h).  
+> 100 W = 0.1 kW; 0.1 × 10 = 1 kWh.  
+
+**Practice** `p2-35-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ A fridge removes heat from inside.
+- ◻️ A fan uses a motor.
+- ◻️ A torch uses chemical energy.
+- ✅ A filament bulb turns light into electricity.  
+  _↳ explanation: It turns electricity into light and heat._
+
+Full working after a second miss:
+
+> The wrong statement is “A filament bulb turns light into electricity.”.  
+> It turns electricity into light and heat.  
+
+> Which statement is wrong?
+
+- ✅ A filament bulb turns light into electricity.  
+  _↳ explanation: It turns electricity into light and heat._
+- ◻️ A fridge removes heat from inside.
+- ◻️ A torch uses chemical energy.
+- ◻️ A radio changes waves into sound.
+
+Full working after a second miss:
+
+> The wrong statement is “A filament bulb turns light into electricity.”.  
+> It turns electricity into light and heat.  
+
+## Lesson 36: Technical drawing
+
+Prerequisites: 32 · Skill: p2-36 (Technical drawing)
+
+**Note** (draft)
+
+> A technical drawing shows exactly how to make an object, with its shape and sizes.
+> Tools: a pencil (HB, 2H), a ruler, a set square, a protractor, compasses, an eraser.
+> Lines: thick continuous lines for visible edges; dashed lines for hidden edges; thin chain lines (long and short dashes) for centre lines; dimension lines with arrows and the size written above.
+> Views (orthographic projection): the front view (elevation), the side view and the top view (plan).
+> Scale: the ratio of the size on the drawing to the real size. Scale 1 : 10 means 1 cm on the drawing is 10 cm in reality.
+> Real length = drawing length × scale number; drawing length = real length ÷ scale number.
+
+**Card c36-1** (draft)
+
+> Dashed lines show hidden edges; thick lines show visible edges.
+>
+> _Centre lines are chain lines._  
+
+Check question: `p2-36-lines` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which line shows a hidden edge?
+
+- ◻️ a chain line  
+  _↳ feedback if chosen: That is a centre line._
+- ◻️ a wavy line  
+  _↳ feedback if chosen: Not the convention._
+- ✅ a dashed line
+- ◻️ a thick continuous line  
+  _↳ feedback if chosen: That is a visible edge._
+
+Full working after a second miss:
+
+> Hidden edges are dashed.  
+> So the answer is “a dashed line”.  
+
+**Card c36-2** (draft)
+
+> Front view, side view and top view (plan) show an object from three directions.
+>
+> _The plan is seen from above._  
+
+Check question: `p2-36-views` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What does a dimension line show?
+
+- ◻️ a hidden edge  
+  _↳ feedback if chosen: That is a dashed line._
+- ◻️ the colour of the object  
+  _↳ feedback if chosen: Drawings show shape and size._
+- ◻️ the centre of a circle  
+  _↳ feedback if chosen: That is a centre line._
+- ✅ a size, written above an arrowed line
+
+Full working after a second miss:
+
+> Arrows mark where the size starts and ends.  
+> So the answer is “a size, written above an arrowed line”.  
+
+**Card c36-3** (draft)
+
+> Scale 1 : k means 1 cm on paper is k cm in reality.
+>
+> _Scale 1 : 50: 2 cm → 100 cm._  
+
+Check question: `p2-36-scale-card` · number, level 1 · computed by rule
+
+> On a drawing at scale 1 : 20, a length measures 5 cm. What is the real length in cm?
+
+Answer: **100 cm**
+- Typed **0.25** (div) → “Multiply: the real object is bigger than the drawing.”
+
+Full working after a second miss:
+
+> Real length = drawing length × 20.  
+> 5 × 20 = 100 cm.  
+
+**Worked example** (draft)
+
+> On a drawing at scale 1 : 20, a table leg is 4 cm long. What is its real length?
+
+1. 1 cm on the drawing is 20 cm in reality.
+2. Real length = 4 × 20 = 80 cm.
+
+**Answer:** 80 cm
+
+**Practice** `p2-36-lines` · multiple choice, level 1 · **authored key**
+
+> Which line shows a hidden edge?
+
+- ✅ a dashed line
+- ◻️ a wavy line  
+  _↳ feedback if chosen: Not the convention._
+- ◻️ a thick continuous line  
+  _↳ feedback if chosen: That is a visible edge._
+- ◻️ a chain line  
+  _↳ feedback if chosen: That is a centre line._
+
+Full working after a second miss:
+
+> Hidden edges are dashed.  
+> So the answer is “a dashed line”.  
+
+> Which line shows a hidden edge?
+
+- ✅ a dashed line
+- ◻️ a wavy line  
+  _↳ feedback if chosen: Not the convention._
+- ◻️ a thick continuous line  
+  _↳ feedback if chosen: That is a visible edge._
+- ◻️ a chain line  
+  _↳ feedback if chosen: That is a centre line._
+
+Full working after a second miss:
+
+> Hidden edges are dashed.  
+> So the answer is “a dashed line”.  
+
+**Practice** `p2-36-scale` · number, level 2 · computed by rule
+
+> On a drawing at scale 1 : 50, a length measures 13 cm. What is the real length in cm?
+
+Answer: **650 cm**
+- Typed **0.26** (div) → “Multiply: the real object is bigger than the drawing.”
+
+Full working after a second miss:
+
+> Real length = drawing length × 50.  
+> 13 × 50 = 650 cm.  
+
+> On a drawing at scale 1 : 5, a length measures 11 cm. What is the real length in cm?
+
+Answer: **55 cm**
+- Typed **2.2** (div) → “Multiply: the real object is bigger than the drawing.”
+
+Full working after a second miss:
+
+> Real length = drawing length × 5.  
+> 11 × 5 = 55 cm.  
+
+**Practice** `p2-36-draw` · number, level 3 · computed by rule
+
+> A wall 600 cm long is drawn at scale 1 : 100. How long is it on the drawing?
+
+Answer: **6 cm**
+- Typed **60 000** (mul) → “Divide: the drawing is smaller than the real object.”
+
+Full working after a second miss:
+
+> Drawing length = real length ÷ 100.  
+> 600 ÷ 100 = 6 cm.  
+
+> A wall 120 cm long is drawn at scale 1 : 20. How long is it on the drawing?
+
+Answer: **6 cm**
+- Typed **2400** (mul) → “Divide: the drawing is smaller than the real object.”
+
+Full working after a second miss:
+
+> Drawing length = real length ÷ 20.  
+> 120 ÷ 20 = 6 cm.  
+
+**Practice** `p2-36-views` · multiple choice, level 1 · **authored key**
+
+> What does a dimension line show?
+
+- ◻️ the colour of the object  
+  _↳ feedback if chosen: Drawings show shape and size._
+- ✅ a size, written above an arrowed line
+- ◻️ a hidden edge  
+  _↳ feedback if chosen: That is a dashed line._
+- ◻️ the centre of a circle  
+  _↳ feedback if chosen: That is a centre line._
+
+Full working after a second miss:
+
+> Arrows mark where the size starts and ends.  
+> So the answer is “a size, written above an arrowed line”.  
+
+> What does a dimension line show?
+
+- ◻️ a hidden edge  
+  _↳ feedback if chosen: That is a dashed line._
+- ◻️ the colour of the object  
+  _↳ feedback if chosen: Drawings show shape and size._
+- ✅ a size, written above an arrowed line
+- ◻️ the centre of a circle  
+  _↳ feedback if chosen: That is a centre line._
+
+Full working after a second miss:
+
+> Arrows mark where the size starts and ends.  
+> So the answer is “a size, written above an arrowed line”.  
 

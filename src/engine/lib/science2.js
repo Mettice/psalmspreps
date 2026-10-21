@@ -265,11 +265,26 @@ const EQ = [
   ["potassium chlorate → potassium chloride + oxygen", [[2, "KClO3"]], [[2, "KCl"], [3, "O2"]]],
   ["hydrogen peroxide → water + oxygen", [[2, "H2O2"]], [[2, "H2O"], [1, "O2"]]],
   ["calcium oxide + water → calcium hydroxide", [[1, "CaO"], [1, "H2O"]], [[1, "Ca(OH)2"]]],
+  // Term 3 (2026-10-21): action of heat (indices 20-27) and electrolysis (28-30)
+  ["copper(II) carbonate → copper(II) oxide + carbon dioxide", [[1, "CuCO3"]], [[1, "CuO"], [1, "CO2"]]],
+  ["zinc carbonate → zinc oxide + carbon dioxide", [[1, "ZnCO3"]], [[1, "ZnO"], [1, "CO2"]]],
+  ["magnesium carbonate → magnesium oxide + carbon dioxide", [[1, "MgCO3"]], [[1, "MgO"], [1, "CO2"]]],
+  ["sodium nitrate → sodium nitrite + oxygen", [[2, "NaNO3"]], [[2, "NaNO2"], [1, "O2"]]],
+  ["potassium nitrate → potassium nitrite + oxygen", [[2, "KNO3"]], [[2, "KNO2"], [1, "O2"]]],
+  ["copper(II) nitrate → copper(II) oxide + nitrogen dioxide + oxygen", [[2, "Cu(NO3)2"]], [[2, "CuO"], [4, "NO2"], [1, "O2"]]],
+  ["lead(II) nitrate → lead(II) oxide + nitrogen dioxide + oxygen", [[2, "Pb(NO3)2"]], [[2, "PbO"], [4, "NO2"], [1, "O2"]]],
+  ["mercury(II) oxide → mercury + oxygen", [[2, "HgO"]], [[2, "Hg"], [1, "O2"]]],
+  ["water → hydrogen + oxygen (electrolysis)", [[2, "H2O"]], [[2, "H2"], [1, "O2"]]],
+  ["copper(II) chloride → copper + chlorine (electrolysis)", [[1, "CuCl2"]], [[1, "Cu"], [1, "Cl2"]]],
+  ["sodium chloride → sodium + chlorine (electrolysis of the melt)", [[2, "NaCl"]], [[2, "Na"], [1, "Cl2"]]],
 ];
 export const nEquations = () => EQ.length;
 /** Indices of the equations that only form a binary compound from elements (Term 2, row 24). */
 export const binaryEquations = () => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 export const otherEquations = () => [12, 13, 14, 15, 16, 17, 18, 19];
+/** Thermal decompositions taught in Term 3 (carbonates, nitrates, an oxide), and those that need a coefficient. */
+export const heatEquations = () => [14, 20, 21, 22, 23, 24, 25, 26, 27];
+export const heatBalancing = () => [23, 24, 25, 26, 27];
 export const eqWords = (i) => EQ[i][0];
 const side = (terms, coefs) => terms.map(([c, f], k) => `${(coefs ? coefs[k] : c) === 1 ? "" : coefs ? coefs[k] : c}${formula(f)}`).join(" + ");
 /** "2Mg + O₂ → 2MgO" (balanced), or with the given coefficients (to make wrong options). */

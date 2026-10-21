@@ -1,0 +1,318 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 35,
+ "language": "en",
+ "prerequisites": [
+  34
+ ],
+ "skills": [
+  {
+   "id": "p2-35",
+   "name": "How some common appliances work"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Electric bulb (filament lamp): current heats a thin tungsten filament until it glows (electrical → light and heat). LED bulbs use much less energy.\n• Electric iron: current flows through a heating element; a thermostat (a bimetallic strip) switches it off when it is hot enough and on again when it cools.\n• Electric fan: an electric motor turns the blades (electrical → kinetic energy).\n• Refrigerator: a pump moves a cooling liquid that takes heat from inside and releases it at the back.\n• Radio: receives radio waves and changes them into sound in the loudspeaker.\n• Torch: a battery (chemical energy) lights a bulb when the switch closes the circuit.\nEnergy used = power × time; an appliance of high power uses more energy.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why does an electric iron not keep getting hotter and hotter?",
+  "steps": [
+   "It has a thermostat (a bimetallic strip).",
+   "When the iron is hot enough, the strip bends and switches the current off; when it cools, it switches it on again."
+  ],
+  "answer": "The thermostat switches the current off and on to keep the temperature steady.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c35-1",
+    "status": "draft",
+    "idea": "A filament bulb turns electrical energy into light and heat.",
+    "vars": {},
+    "example": [
+     "The filament glows."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-35-energy"
+    }
+   },
+   {
+    "id": "c35-2",
+    "status": "draft",
+    "idea": "A thermostat switches a heater off when it is hot enough.",
+    "vars": {},
+    "example": [
+     "An iron has a thermostat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-35-thermo"
+    }
+   },
+   {
+    "id": "c35-3",
+    "status": "draft",
+    "idea": "A motor turns electrical energy into movement (kinetic energy).",
+    "vars": {},
+    "example": [
+     "A fan uses a motor."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-35-power-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "technology"
+     ],
+     "vars": {
+      "p": {
+       "pick": [
+        50,
+        60,
+        75,
+        100,
+        200,
+        500
+       ]
+      },
+      "h": {
+       "int": [
+        2,
+        10
+       ]
+      }
+     },
+     "prompt": "A {p} W fan works for {h} hours. How much energy does it use in kilowatt-hours (kWh)?",
+     "answer": "p * h / 1000",
+     "misconceptions": [
+      {
+       "id": "wh",
+       "wrong": "p * h",
+       "explain": "That is in watt-hours: divide by {1000} for kWh."
+      }
+     ],
+     "solution": [
+      "Energy (kWh) = power (kW) × time (h).",
+      "{p} W = {p / 1000} kW; {p / 1000} × {h} = {answer} kWh."
+     ],
+     "unit": "kWh"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-35-energy",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "prompt": "Match each appliance to its main energy change.",
+   "pool": [
+    {
+     "left": "electric fan",
+     "right": "electrical → kinetic"
+    },
+    {
+     "left": "filament bulb",
+     "right": "electrical → light and heat"
+    },
+    {
+     "left": "electric iron",
+     "right": "electrical → heat"
+    },
+    {
+     "left": "torch battery",
+     "right": "chemical → electrical"
+    },
+    {
+     "left": "loudspeaker",
+     "right": "electrical → sound"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-35-thermo",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What keeps the temperature of an electric iron steady?",
+       "r": "the thermostat",
+       "w": [
+        "the plug",
+        "the handle",
+        "the cable"
+       ],
+       "e": [
+        "The plug connects to the socket.",
+        "The handle is for holding.",
+        "The cable carries current."
+       ],
+       "y": "It switches the current off and on."
+      },
+      {
+       "q": "Why are LED bulbs better than filament bulbs?",
+       "r": "They use much less energy for the same light.",
+       "w": [
+        "They are always hotter.",
+        "They need no electricity.",
+        "They make more noise."
+       ],
+       "e": [
+        "They are cooler.",
+        "They do need electricity.",
+        "Not true."
+       ],
+       "y": "Less energy is wasted as heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-35-power",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      50,
+      60,
+      75,
+      100,
+      200,
+      500
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      10
+     ]
+    }
+   },
+   "prompt": "A {p} W fan works for {h} hours. How much energy does it use in kilowatt-hours (kWh)?",
+   "answer": "p * h / 1000",
+   "misconceptions": [
+    {
+     "id": "wh",
+     "wrong": "p * h",
+     "explain": "That is in watt-hours: divide by {1000} for kWh."
+    }
+   ],
+   "solution": [
+    "Energy (kWh) = power (kW) × time (h).",
+    "{p} W = {p / 1000} kW; {p / 1000} × {h} = {answer} kWh."
+   ],
+   "unit": "kWh"
+  },
+  {
+   "id": "p2-35-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A fan uses a motor.",
+      "truth": "true"
+     },
+     {
+      "text": "A radio changes waves into sound.",
+      "truth": "true"
+     },
+     {
+      "text": "A torch uses chemical energy.",
+      "truth": "true"
+     },
+     {
+      "text": "A fridge removes heat from inside.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A refrigerator makes cold by adding ice from outside.",
+      "truth": "false",
+      "explain": "It pumps heat from inside to the back."
+     },
+     {
+      "text": "A thermostat makes an iron hotter and hotter without stopping.",
+      "truth": "false",
+      "explain": "It switches it off when hot enough."
+     },
+     {
+      "text": "A filament bulb turns light into electricity.",
+      "truth": "false",
+      "explain": "It turns electricity into light and heat."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

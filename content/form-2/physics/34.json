@@ -1,0 +1,415 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 34,
+ "language": "en",
+ "prerequisites": [
+  32
+ ],
+ "skills": [
+  {
+   "id": "p2-34",
+   "name": "Care and maintenance of tools and appliances"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Maintenance is keeping tools and appliances in good working condition so that they last longer and are safe.\n• Preventive maintenance: regular care before a breakdown: cleaning, oiling moving parts, tightening screws, checking cables, keeping devices dry and covered.\n• Corrective maintenance: repairing after a breakdown: replacing a fuse, a bulb or a worn part.\nGood habits: read the user manual; switch off and unplug before cleaning; use the right voltage; do not overload sockets; store tools clean and dry; oil metal tools against rust; replace damaged cables at once.\nA fuse is a thin wire that melts if too much current flows, cutting the circuit and protecting the appliance.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An iron stops working. The technician finds that the fuse in the plug has melted. What should be done, and why did it happen?",
+  "steps": [
+   "The fuse melted because too much current flowed (a fault or overload).",
+   "Find and repair the fault, then replace the fuse with one of the correct rating."
+  ],
+  "answer": "Find the fault and replace the fuse with the correct rating.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c34-1",
+    "status": "draft",
+    "idea": "Preventive maintenance is regular care before a breakdown.",
+    "vars": {},
+    "example": [
+     "Oil the bicycle chain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-34-kind"
+    }
+   },
+   {
+    "id": "c34-2",
+    "status": "draft",
+    "idea": "Corrective maintenance is repairing after a breakdown.",
+    "vars": {},
+    "example": [
+     "Replace a melted fuse."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-34-fuse"
+    }
+   },
+   {
+    "id": "c34-3",
+    "status": "draft",
+    "idea": "Always switch off and unplug before cleaning an appliance.",
+    "vars": {},
+    "example": [
+     "Keep devices dry."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-34-habit-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "technology"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should metal tools be oiled before storing them?",
+         "r": "to stop them from rusting",
+         "w": [
+          "to make them heavier",
+          "to make them slippery to hold",
+          "to clean the oil"
+         ],
+         "e": [
+          "Not the reason.",
+          "Not the reason.",
+          "Not the reason."
+         ],
+         "y": "Oil keeps out air and water."
+        },
+        {
+         "q": "Why should you not plug many appliances into one socket?",
+         "r": "It overloads the socket and can cause a fire.",
+         "w": [
+          "It saves electricity.",
+          "It makes appliances work faster.",
+          "It is required by the manual."
+         ],
+         "e": [
+          "It does not.",
+          "It does not.",
+          "Not true."
+         ],
+         "y": "Too much current heats the wires."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-34-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Oiling a sewing machine every month.",
+       "a": "preventive"
+      },
+      {
+       "s": "Replacing a burnt bulb.",
+       "a": "corrective"
+      },
+      {
+       "s": "Dusting a computer and its fan.",
+       "a": "preventive"
+      },
+      {
+       "s": "Changing a broken cable of a radio.",
+       "a": "corrective"
+      },
+      {
+       "s": "Covering a television against dust.",
+       "a": "preventive"
+      }
+     ]
+    }
+   },
+   "prompt": "Is this preventive or corrective maintenance? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'preventive' ? 'corrective' : 'preventive'}",
+     "misconception": "k"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "k",
+     "explain": "Ask: is the work done before or after a breakdown?"
+    }
+   ],
+   "solution": [
+    "Preventive: before a breakdown; corrective: after a breakdown.",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "p2-34-fuse",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does a fuse do?",
+       "r": "It melts and cuts the circuit if too much current flows.",
+       "w": [
+        "It makes the current stronger.",
+        "It stores electricity.",
+        "It cools the appliance."
+       ],
+       "e": [
+        "It protects, not strengthens.",
+        "That is a battery.",
+        "Not its job."
+       ],
+       "y": "It protects the appliance."
+      },
+      {
+       "q": "What must you do before cleaning an electric fan?",
+       "r": "switch it off and unplug it",
+       "w": [
+        "pour water inside it",
+        "leave it running",
+        "touch the blades while it turns"
+       ],
+       "e": [
+        "Dangerous.",
+        "Dangerous.",
+        "Dangerous."
+       ],
+       "y": "Avoid electric shock and injury."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-34-habit",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should metal tools be oiled before storing them?",
+       "r": "to stop them from rusting",
+       "w": [
+        "to make them heavier",
+        "to make them slippery to hold",
+        "to clean the oil"
+       ],
+       "e": [
+        "Not the reason.",
+        "Not the reason.",
+        "Not the reason."
+       ],
+       "y": "Oil keeps out air and water."
+      },
+      {
+       "q": "Why should you not plug many appliances into one socket?",
+       "r": "It overloads the socket and can cause a fire.",
+       "w": [
+        "It saves electricity.",
+        "It makes appliances work faster.",
+        "It is required by the manual."
+       ],
+       "e": [
+        "It does not.",
+        "It does not.",
+        "Not true."
+       ],
+       "y": "Too much current heats the wires."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-34-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Read the user manual.",
+      "truth": "true"
+     },
+     {
+      "text": "Unplug before cleaning.",
+      "truth": "true"
+     },
+     {
+      "text": "Oil moving parts.",
+      "truth": "true"
+     },
+     {
+      "text": "Replace damaged cables.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A fuse should be replaced with a thick nail.",
+      "truth": "false",
+      "explain": "Use a fuse of the correct rating."
+     },
+     {
+      "text": "Clean a television with a wet cloth while it is on.",
+      "truth": "false",
+      "explain": "Switch it off and unplug it first."
+     },
+     {
+      "text": "Maintenance makes tools wear out faster.",
+      "truth": "false",
+      "explain": "It makes them last longer."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

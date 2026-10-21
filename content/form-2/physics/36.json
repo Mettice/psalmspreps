@@ -1,0 +1,356 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 36,
+ "language": "en",
+ "prerequisites": [
+  32
+ ],
+ "skills": [
+  {
+   "id": "p2-36",
+   "name": "Technical drawing"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A technical drawing shows exactly how to make an object, with its shape and sizes.\nTools: a pencil (HB, 2H), a ruler, a set square, a protractor, compasses, an eraser.\nLines: thick continuous lines for visible edges; dashed lines for hidden edges; thin chain lines (long and short dashes) for centre lines; dimension lines with arrows and the size written above.\nViews (orthographic projection): the front view (elevation), the side view and the top view (plan).\nScale: the ratio of the size on the drawing to the real size. Scale 1 : 10 means 1 cm on the drawing is 10 cm in reality.\nReal length = drawing length × scale number; drawing length = real length ÷ scale number.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": 4,
+   "k": 20
+  },
+  "problem": "On a drawing at scale {1} : {k}, a table leg is {d} cm long. What is its real length?",
+  "steps": [
+   "1 cm on the drawing is {k} cm in reality.",
+   "Real length = {d} × {k} = {d * k} cm."
+  ],
+  "answer": "{d * k} cm",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c36-1",
+    "status": "draft",
+    "idea": "Dashed lines show hidden edges; thick lines show visible edges.",
+    "vars": {},
+    "example": [
+     "Centre lines are chain lines."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-36-lines"
+    }
+   },
+   {
+    "id": "c36-2",
+    "status": "draft",
+    "idea": "Front view, side view and top view (plan) show an object from three directions.",
+    "vars": {},
+    "example": [
+     "The plan is seen from above."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-36-views"
+    }
+   },
+   {
+    "id": "c36-3",
+    "status": "draft",
+    "idea": "Scale {1} : k means {1} cm on paper is k cm in reality.",
+    "vars": {},
+    "example": [
+     "Scale {1} : {50}: {2} cm → {100} cm."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-36-scale-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "technology"
+     ],
+     "vars": {
+      "k": {
+       "pick": [
+        5,
+        10,
+        20,
+        50,
+        100
+       ]
+      },
+      "d": {
+       "int": [
+        2,
+        15
+       ]
+      }
+     },
+     "prompt": "On a drawing at scale 1 : {k}, a length measures {d} cm. What is the real length in cm?",
+     "answer": "d * k",
+     "misconceptions": [
+      {
+       "id": "div",
+       "wrong": "d / k",
+       "explain": "Multiply: the real object is bigger than the drawing."
+      }
+     ],
+     "solution": [
+      "Real length = drawing length × {k}.",
+      "{d} × {k} = {answer} cm."
+     ],
+     "unit": "cm"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-36-lines",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which line shows a hidden edge?",
+       "r": "a dashed line",
+       "w": [
+        "a thick continuous line",
+        "a chain line",
+        "a wavy line"
+       ],
+       "e": [
+        "That is a visible edge.",
+        "That is a centre line.",
+        "Not the convention."
+       ],
+       "y": "Hidden edges are dashed."
+      },
+      {
+       "q": "Which view of an object is seen from above?",
+       "r": "the plan (top view)",
+       "w": [
+        "the front view",
+        "the side view",
+        "the back view"
+       ],
+       "e": [
+        "Seen from the front.",
+        "Seen from the side.",
+        "Not one of the three main views."
+       ],
+       "y": "The plan."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-36-scale",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      5,
+      10,
+      20,
+      50,
+      100
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "On a drawing at scale 1 : {k}, a length measures {d} cm. What is the real length in cm?",
+   "answer": "d * k",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "d / k",
+     "explain": "Multiply: the real object is bigger than the drawing."
+    }
+   ],
+   "solution": [
+    "Real length = drawing length × {k}.",
+    "{d} × {k} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "p2-36-draw",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      10,
+      20,
+      50,
+      100
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "r": {
+     "expr": "n * k"
+    }
+   },
+   "prompt": "A wall {r} cm long is drawn at scale 1 : {k}. How long is it on the drawing?",
+   "answer": "r / k",
+   "misconceptions": [
+    {
+     "id": "mul",
+     "wrong": "r * k",
+     "explain": "Divide: the drawing is smaller than the real object."
+    }
+   ],
+   "solution": [
+    "Drawing length = real length ÷ {k}.",
+    "{r} ÷ {k} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "p2-36-views",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "technology"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which tool is used to draw circles?",
+       "r": "compasses",
+       "w": [
+        "a set square",
+        "a protractor",
+        "an eraser"
+       ],
+       "e": [
+        "It draws angles of 45°, 60°, 90°.",
+        "It measures angles.",
+        "It removes lines."
+       ],
+       "y": "Compasses draw circles and arcs."
+      },
+      {
+       "q": "What does a dimension line show?",
+       "r": "a size, written above an arrowed line",
+       "w": [
+        "a hidden edge",
+        "the centre of a circle",
+        "the colour of the object"
+       ],
+       "e": [
+        "That is a dashed line.",
+        "That is a centre line.",
+        "Drawings show shape and size."
+       ],
+       "y": "Arrows mark where the size starts and ends."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}
