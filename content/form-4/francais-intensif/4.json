@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 4,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  2
+ ],
+ "skills": [
+  {
+   "id": "fi4-4",
+   "name": "Préparer une saynète sur le partage des tâches"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une saynète est une courte scène jouée par des personnages. Chaque réplique appartient à un locuteur ; une didascalie indique une action, un ton ou une position sans être forcément prononcée. Un conflit de scène peut être un simple désaccord, résolu par un échange plutôt que par une humiliation. Prépare situation, difficulté et issue. Ce travail écrit aide à construire le dialogue ; il ne vérifie pas ta voix, ton jeu ou l’écoute réelle d’un partenaire.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras rédiger et organiser de courtes répliques faisant avancer une scène fictive. Acquis mobilisés : les mots sociaux et les pronoms indéfinis. Pour la suite : les questions orales préparées et le récit."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une saynète est une courte scène jouée par des personnages. Chaque réplique appartient à un locuteur ; une didascalie indique une action, un ton ou une position sans être forcément prononcée. Un conflit de scène peut être un simple désaccord, résolu par un échange plutôt que par une humiliation. Prépare situation, difficulté et issue. Ce travail écrit aide à construire le dialogue ; il ne vérifie pas ta voix, ton jeu ou l’écoute réelle d’un partenaire."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Scène originale, club fictif de Bamenda. Bih : « Les livres restent sur la table. Qui peut les ranger ? » Ayuk, regardant les fiches : « Je termine les étiquettes. Partageons les tâches. » Bih : « Je classe les livres ; tu vérifies les fiches. Ensuite, nous échangeons les rôles. » Les personnages trouvent une organisation sans attribuer les tâches à un genre."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Indique qui parle et ce que chaque intervention change. Garde les indications de jeu distinctes des paroles. Lis ensuite avec un partenaire si possible ; la réussite des questions à l’écran ne remplace pas cette pratique."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "réplique",
+    "meaning": "une parole attribuée à un personnage"
+   },
+   {
+    "word": "didascalie",
+    "meaning": "une indication écrite de jeu ou d’action"
+   },
+   {
+    "word": "difficulté de scène",
+    "meaning": "le problème donnant un enjeu au dialogue"
+   },
+   {
+    "word": "issue",
+    "meaning": "la situation obtenue à la fin de l’échange"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une réplique est toujours le titre général du livre.",
+   "right": "une parole attribuée à un personnage.",
+   "why": "Elle appartient ici à un tour de parole."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "La question de Bih constitue une réplique. Explique le choix.",
+  "steps": [
+   "une parole attribuée à un personnage.",
+   "Elle appartient ici à un tour de parole."
+  ],
+  "answer": "réplique",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-4-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "réplique : une parole attribuée à un personnage.",
+     "didascalie : une indication écrite de jeu ou d’action.",
+     "difficulté de scène : le problème donnant un enjeu au dialogue.",
+     "issue : la situation obtenue à la fin de l’échange."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-4-notions"
+    }
+   },
+   {
+    "id": "fi4-4-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "La question de Bih constitue une réplique.",
+     "Regardant les fiches indique une action d’Ayuk.",
+     "Les livres ne sont pas encore rangés.",
+     "Les personnages conviennent d’un partage des tâches."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-4-cas"
+    }
+   },
+   {
+    "id": "fi4-4-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une réplique est toujours le titre général du livre. Correction : Elle appartient ici à un tour de parole.",
+     "Chaque didascalie doit être prononcée comme parole du personnage. Correction : Elle peut guider le jeu sans être dite.",
+     "Une scène ne doit permettre de comprendre aucun enjeu. Correction : La difficulté rend les propositions pertinentes.",
+     "L’issue est forcément une insulte au public. Correction : Une résolution peut organiser les actions sans attaque."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-4-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "réplique : une parole attribuée à un personnage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle appartient ici à un tour de parole. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "didascalie : une indication écrite de jeu ou d’action.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle peut guider le jeu sans être dite. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "difficulté de scène : le problème donnant un enjeu au dialogue.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La difficulté rend les propositions pertinentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "issue : la situation obtenue à la fin de l’échange.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une résolution peut organiser les actions sans attaque. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une réplique est toujours le titre général du livre.",
+        "truth": "false",
+        "explain": "Elle appartient ici à un tour de parole."
+       },
+       {
+        "text": "Chaque didascalie doit être prononcée comme parole du personnage.",
+        "truth": "false",
+        "explain": "Elle peut guider le jeu sans être dite."
+       },
+       {
+        "text": "Une scène ne doit permettre de comprendre aucun enjeu.",
+        "truth": "false",
+        "explain": "La difficulté rend les propositions pertinentes."
+       },
+       {
+        "text": "L’issue est forcément une insulte au public.",
+        "truth": "false",
+        "explain": "Une résolution peut organiser les actions sans attaque."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-4-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une parole attribuée à un personnage ?",
+       "r": "réplique",
+       "w": [
+        "didascalie",
+        "difficulté de scène",
+        "issue"
+       ],
+       "e": [
+        "Cela désigne une indication écrite de jeu ou d’action, plutôt que la notion demandée.",
+        "Cela désigne le problème donnant un enjeu au dialogue, plutôt que la notion demandée.",
+        "Cela désigne la situation obtenue à la fin de l’échange, plutôt que la notion demandée."
+       ],
+       "y": "Elle appartient ici à un tour de parole."
+      },
+      {
+       "q": "Quel terme désigne une indication écrite de jeu ou d’action ?",
+       "r": "didascalie",
+       "w": [
+        "réplique",
+        "difficulté de scène",
+        "issue"
+       ],
+       "e": [
+        "Cela désigne une parole attribuée à un personnage, plutôt que la notion demandée.",
+        "Cela désigne le problème donnant un enjeu au dialogue, plutôt que la notion demandée.",
+        "Cela désigne la situation obtenue à la fin de l’échange, plutôt que la notion demandée."
+       ],
+       "y": "Elle peut guider le jeu sans être dite."
+      },
+      {
+       "q": "Quel terme désigne le problème donnant un enjeu au dialogue ?",
+       "r": "difficulté de scène",
+       "w": [
+        "réplique",
+        "didascalie",
+        "issue"
+       ],
+       "e": [
+        "Cela désigne une parole attribuée à un personnage, plutôt que la notion demandée.",
+        "Cela désigne une indication écrite de jeu ou d’action, plutôt que la notion demandée.",
+        "Cela désigne la situation obtenue à la fin de l’échange, plutôt que la notion demandée."
+       ],
+       "y": "La difficulté rend les propositions pertinentes."
+      },
+      {
+       "q": "Quel terme désigne la situation obtenue à la fin de l’échange ?",
+       "r": "issue",
+       "w": [
+        "réplique",
+        "didascalie",
+        "difficulté de scène"
+       ],
+       "e": [
+        "Cela désigne une parole attribuée à un personnage, plutôt que la notion demandée.",
+        "Cela désigne une indication écrite de jeu ou d’action, plutôt que la notion demandée.",
+        "Cela désigne le problème donnant un enjeu au dialogue, plutôt que la notion demandée."
+       ],
+       "y": "Une résolution peut organiser les actions sans attaque."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-4-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La question de Bih constitue une réplique.\nQuelle notion convient ?",
+       "r": "réplique",
+       "w": [
+        "didascalie",
+        "difficulté de scène",
+        "issue"
+       ],
+       "e": [
+        "Cela concerne une indication écrite de jeu ou d’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne le problème donnant un enjeu au dialogue. Compare cette définition avec le cas présenté.",
+        "Cela concerne la situation obtenue à la fin de l’échange. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle appartient ici à un tour de parole."
+      },
+      {
+       "q": "Regardant les fiches indique une action d’Ayuk.\nQuelle notion convient ?",
+       "r": "didascalie",
+       "w": [
+        "réplique",
+        "difficulté de scène",
+        "issue"
+       ],
+       "e": [
+        "Cela concerne une parole attribuée à un personnage. Compare cette définition avec le cas présenté.",
+        "Cela concerne le problème donnant un enjeu au dialogue. Compare cette définition avec le cas présenté.",
+        "Cela concerne la situation obtenue à la fin de l’échange. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle peut guider le jeu sans être dite."
+      },
+      {
+       "q": "Les livres ne sont pas encore rangés.\nQuelle notion convient ?",
+       "r": "difficulté de scène",
+       "w": [
+        "réplique",
+        "didascalie",
+        "issue"
+       ],
+       "e": [
+        "Cela concerne une parole attribuée à un personnage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une indication écrite de jeu ou d’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne la situation obtenue à la fin de l’échange. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La difficulté rend les propositions pertinentes."
+      },
+      {
+       "q": "Les personnages conviennent d’un partage des tâches.\nQuelle notion convient ?",
+       "r": "issue",
+       "w": [
+        "réplique",
+        "didascalie",
+        "difficulté de scène"
+       ],
+       "e": [
+        "Cela concerne une parole attribuée à un personnage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une indication écrite de jeu ou d’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne le problème donnant un enjeu au dialogue. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une résolution peut organiser les actions sans attaque."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-4-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel passage est une didascalie dans le modèle ?",
+       "r": "regardant les fiches",
+       "w": [
+        "Qui peut les ranger ?",
+        "Partageons les tâches.",
+        "Je classe les livres."
+       ],
+       "e": [
+        "Cette question est prononcée.",
+        "Cette proposition est une réplique.",
+        "Cette phrase appartient aux paroles de Bih."
+       ],
+       "y": "Distingue indication de jeu et parole."
+      },
+      {
+       "q": "Quelle réplique répond au problème des livres à ranger ?",
+       "r": "Répartissons le rangement et la vérification.",
+       "w": [
+        "Le ciel est parfois nuageux.",
+        "Personne ne doit comprendre la scène.",
+        "Ton nom prouve que tu dois tout faire."
+       ],
+       "e": [
+        "La phrase ne répond pas au problème.",
+        "La clarté est nécessaire.",
+        "Le nom ne justifie pas cette attribution."
+       ],
+       "y": "Fais avancer la scène."
+      },
+      {
+       "q": "Pourquoi nommer le locuteur avant chaque réplique ?",
+       "r": "Pour que le lecteur sache qui parle.",
+       "w": [
+        "Pour remplacer toute action par un numéro secret.",
+        "Pour prouver que le dialogue a réellement eu lieu.",
+        "Pour interdire les échanges."
+       ],
+       "e": [
+        "Le nom sert à identifier le locuteur.",
+        "Le dialogue est original et fictif.",
+        "L’alternance reste possible."
+       ],
+       "y": "Le repérage soutient la compréhension."
+      },
+      {
+       "q": "Que prouve une bonne réponse écrite sur cette scène ?",
+       "r": "La compréhension des éléments écrits étudiés.",
+       "w": [
+        "La qualité réelle de la voix.",
+        "La mémorisation orale complète.",
+        "L’écoute d’un enregistrement fourni."
+       ],
+       "e": [
+        "Aucune voix n’est analysée.",
+        "La récitation n’a pas eu lieu à l’écran.",
+        "Aucun enregistrement n’est fourni."
+       ],
+       "y": "Une pratique jouée reste distincte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-4-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "réplique",
+     "right": "La question de Bih constitue une réplique."
+    },
+    {
+     "left": "didascalie",
+     "right": "Regardant les fiches indique une action d’Ayuk."
+    },
+    {
+     "left": "difficulté de scène",
+     "right": "Les livres ne sont pas encore rangés."
+    },
+    {
+     "left": "issue",
+     "right": "Les personnages conviennent d’un partage des tâches."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-4-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "réplique : une parole attribuée à un personnage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle appartient ici à un tour de parole. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "didascalie : une indication écrite de jeu ou d’action.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle peut guider le jeu sans être dite. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "difficulté de scène : le problème donnant un enjeu au dialogue.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La difficulté rend les propositions pertinentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "issue : la situation obtenue à la fin de l’échange.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une résolution peut organiser les actions sans attaque. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une réplique est toujours le titre général du livre.",
+      "truth": "false",
+      "explain": "Elle appartient ici à un tour de parole."
+     },
+     {
+      "text": "Chaque didascalie doit être prononcée comme parole du personnage.",
+      "truth": "false",
+      "explain": "Elle peut guider le jeu sans être dite."
+     },
+     {
+      "text": "Une scène ne doit permettre de comprendre aucun enjeu.",
+      "truth": "false",
+      "explain": "La difficulté rend les propositions pertinentes."
+     },
+     {
+      "text": "L’issue est forcément une insulte au public.",
+      "truth": "false",
+      "explain": "Une résolution peut organiser les actions sans attaque."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

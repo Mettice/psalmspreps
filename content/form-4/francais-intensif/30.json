@@ -1,0 +1,555 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 30,
+ "language": "fr",
+ "prerequisites": [
+  23,
+  27,
+  29
+ ],
+ "skills": [
+  {
+   "id": "fi4-30",
+   "name": "Produire une affiche pour l’environnement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une affiche attire l’attention puis rend une action claire. Choisis un public, un titre lisible, une consigne et une raison. Une injonction générale comme soyez parfaits ne dit pas quoi faire. Pour la gestion des déchets, nomme les catégories autorisées dans la situation fictive et distingue tri, collecte et transformation. Ne promets pas un résultat universel. Les renseignements pratiques doivent correspondre au projet et être confirmés avant une affiche réelle.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras rédiger une affiche courte avec une action précise adaptée au public et une raison compréhensible. Acquis mobilisés : le lexique de l’environnement et les programmes. Pour la suite : la prévention écrite et la discussion collective."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une affiche attire l’attention puis rend une action claire. Choisis un public, un titre lisible, une consigne et une raison. Une injonction générale comme soyez parfaits ne dit pas quoi faire. Pour la gestion des déchets, nomme les catégories autorisées dans la situation fictive et distingue tri, collecte et transformation. Ne promets pas un résultat universel. Les renseignements pratiques doivent correspondre au projet et être confirmés avant une affiche réelle."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Affiche fictive du club : « Gardons notre coin lecture propre ! » « Déposons les papiers autorisés dans la boîte indiquée par l’enseignante. Gardons les passages dégagés. » « Séparer les papiers facilite leur collecte ; cela ne prouve pas qu’ils sont déjà recyclés. Ne touchons pas aux objets coupants ou inconnus : signalons-les à un adulte responsable. » « Projet de classe : vérifier les catégories et l’emplacement avant l’affichage. »"
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Rédige une consigne réalisable, explique son intérêt et vérifie ses limites. Fais ressortir les mots essentiels sans répéter tout un cours. Le lecteur doit comprendre l’action même s’il ne connaît pas le projet."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "public visé",
+    "meaning": "les destinataires auxquels l’affiche s’adresse"
+   },
+   {
+    "word": "consigne précise",
+    "meaning": "une action clairement formulée"
+   },
+   {
+    "word": "raison",
+    "meaning": "l’intérêt lié à l’action proposée"
+   },
+   {
+    "word": "renseignement pratique",
+    "meaning": "une indication utile pour appliquer le message"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une affiche doit toujours s’adresser secrètement à une personne absente.",
+   "right": "les destinataires auxquels l’affiche s’adresse.",
+   "why": "Le message doit être compréhensible pour son public."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "L’affiche du coin lecture vise les usagers de ce lieu. Explique le choix.",
+  "steps": [
+   "les destinataires auxquels l’affiche s’adresse.",
+   "Le message doit être compréhensible pour son public."
+  ],
+  "answer": "public visé",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-30-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "public visé : les destinataires auxquels l’affiche s’adresse.",
+     "consigne précise : une action clairement formulée.",
+     "raison : l’intérêt lié à l’action proposée.",
+     "renseignement pratique : une indication utile pour appliquer le message."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-30-notions"
+    }
+   },
+   {
+    "id": "fi4-30-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "L’affiche du coin lecture vise les usagers de ce lieu.",
+     "Déposer les papiers autorisés dans la boîte indique quoi et où.",
+     "La séparation facilite la collecte des papiers.",
+     "La boîte est celle indiquée par l’enseignante."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-30-cas"
+    }
+   },
+   {
+    "id": "fi4-30-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une affiche doit toujours s’adresser secrètement à une personne absente. Correction : Le message doit être compréhensible pour son public.",
+     "Soyez parfaits décrit exactement le tri demandé. Correction : Cette formule ne précise aucune action de tri.",
+     "Une raison peut garantir sans preuve que tout sera recyclé. Correction : L’intérêt doit rester proportionné à l’action.",
+     "Un lieu contradictoire ne gêne jamais l’application. Correction : L’action exige un repère cohérent et confirmé."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-30-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "public visé : les destinataires auxquels l’affiche s’adresse.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le message doit être compréhensible pour son public. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "consigne précise : une action clairement formulée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Cette formule ne précise aucune action de tri. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "raison : l’intérêt lié à l’action proposée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’intérêt doit rester proportionné à l’action. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "renseignement pratique : une indication utile pour appliquer le message.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’action exige un repère cohérent et confirmé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une affiche doit toujours s’adresser secrètement à une personne absente.",
+        "truth": "false",
+        "explain": "Le message doit être compréhensible pour son public."
+       },
+       {
+        "text": "Soyez parfaits décrit exactement le tri demandé.",
+        "truth": "false",
+        "explain": "Cette formule ne précise aucune action de tri."
+       },
+       {
+        "text": "Une raison peut garantir sans preuve que tout sera recyclé.",
+        "truth": "false",
+        "explain": "L’intérêt doit rester proportionné à l’action."
+       },
+       {
+        "text": "Un lieu contradictoire ne gêne jamais l’application.",
+        "truth": "false",
+        "explain": "L’action exige un repère cohérent et confirmé."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-30-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne les destinataires auxquels l’affiche s’adresse ?",
+       "r": "public visé",
+       "w": [
+        "consigne précise",
+        "raison",
+        "renseignement pratique"
+       ],
+       "e": [
+        "Cela désigne une action clairement formulée, plutôt que la notion demandée.",
+        "Cela désigne l’intérêt lié à l’action proposée, plutôt que la notion demandée.",
+        "Cela désigne une indication utile pour appliquer le message, plutôt que la notion demandée."
+       ],
+       "y": "Le message doit être compréhensible pour son public."
+      },
+      {
+       "q": "Quel terme désigne une action clairement formulée ?",
+       "r": "consigne précise",
+       "w": [
+        "public visé",
+        "raison",
+        "renseignement pratique"
+       ],
+       "e": [
+        "Cela désigne les destinataires auxquels l’affiche s’adresse, plutôt que la notion demandée.",
+        "Cela désigne l’intérêt lié à l’action proposée, plutôt que la notion demandée.",
+        "Cela désigne une indication utile pour appliquer le message, plutôt que la notion demandée."
+       ],
+       "y": "Cette formule ne précise aucune action de tri."
+      },
+      {
+       "q": "Quel terme désigne l’intérêt lié à l’action proposée ?",
+       "r": "raison",
+       "w": [
+        "public visé",
+        "consigne précise",
+        "renseignement pratique"
+       ],
+       "e": [
+        "Cela désigne les destinataires auxquels l’affiche s’adresse, plutôt que la notion demandée.",
+        "Cela désigne une action clairement formulée, plutôt que la notion demandée.",
+        "Cela désigne une indication utile pour appliquer le message, plutôt que la notion demandée."
+       ],
+       "y": "L’intérêt doit rester proportionné à l’action."
+      },
+      {
+       "q": "Quel terme désigne une indication utile pour appliquer le message ?",
+       "r": "renseignement pratique",
+       "w": [
+        "public visé",
+        "consigne précise",
+        "raison"
+       ],
+       "e": [
+        "Cela désigne les destinataires auxquels l’affiche s’adresse, plutôt que la notion demandée.",
+        "Cela désigne une action clairement formulée, plutôt que la notion demandée.",
+        "Cela désigne l’intérêt lié à l’action proposée, plutôt que la notion demandée."
+       ],
+       "y": "L’action exige un repère cohérent et confirmé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-30-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "L’affiche du coin lecture vise les usagers de ce lieu.\nQuelle notion convient ?",
+       "r": "public visé",
+       "w": [
+        "consigne précise",
+        "raison",
+        "renseignement pratique"
+       ],
+       "e": [
+        "Cela concerne une action clairement formulée. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’intérêt lié à l’action proposée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une indication utile pour appliquer le message. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le message doit être compréhensible pour son public."
+      },
+      {
+       "q": "Déposer les papiers autorisés dans la boîte indique quoi et où.\nQuelle notion convient ?",
+       "r": "consigne précise",
+       "w": [
+        "public visé",
+        "raison",
+        "renseignement pratique"
+       ],
+       "e": [
+        "Cela concerne les destinataires auxquels l’affiche s’adresse. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’intérêt lié à l’action proposée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une indication utile pour appliquer le message. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Cette formule ne précise aucune action de tri."
+      },
+      {
+       "q": "La séparation facilite la collecte des papiers.\nQuelle notion convient ?",
+       "r": "raison",
+       "w": [
+        "public visé",
+        "consigne précise",
+        "renseignement pratique"
+       ],
+       "e": [
+        "Cela concerne les destinataires auxquels l’affiche s’adresse. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action clairement formulée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une indication utile pour appliquer le message. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’intérêt doit rester proportionné à l’action."
+      },
+      {
+       "q": "La boîte est celle indiquée par l’enseignante.\nQuelle notion convient ?",
+       "r": "renseignement pratique",
+       "w": [
+        "public visé",
+        "consigne précise",
+        "raison"
+       ],
+       "e": [
+        "Cela concerne les destinataires auxquels l’affiche s’adresse. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action clairement formulée. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’intérêt lié à l’action proposée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’action exige un repère cohérent et confirmé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-30-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "L’affiche du coin lecture vise les usagers de ce lieu.",
+       "b": "L’affiche du coin lecture vise les usagers de ce lieu."
+      },
+      {
+       "a": "Déposer les papiers autorisés dans la boîte indique quoi et où.",
+       "b": "Déposer les papiers autorisés dans la boîte indique quoi et où."
+      },
+      {
+       "a": "La séparation facilite la collecte des papiers.",
+       "b": "La séparation facilite la collecte des papiers."
+      },
+      {
+       "a": "La boîte est celle indiquée par l’enseignante.",
+       "b": "La boîte est celle indiquée par l’enseignante."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-30-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "public visé",
+     "right": "L’affiche du coin lecture vise les usagers de ce lieu."
+    },
+    {
+     "left": "consigne précise",
+     "right": "Déposer les papiers autorisés dans la boîte indique quoi et où."
+    },
+    {
+     "left": "raison",
+     "right": "La séparation facilite la collecte des papiers."
+    },
+    {
+     "left": "renseignement pratique",
+     "right": "La boîte est celle indiquée par l’enseignante."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-30-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "public visé : les destinataires auxquels l’affiche s’adresse.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le message doit être compréhensible pour son public. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "consigne précise : une action clairement formulée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Cette formule ne précise aucune action de tri. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "raison : l’intérêt lié à l’action proposée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’intérêt doit rester proportionné à l’action. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "renseignement pratique : une indication utile pour appliquer le message.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’action exige un repère cohérent et confirmé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une affiche doit toujours s’adresser secrètement à une personne absente.",
+      "truth": "false",
+      "explain": "Le message doit être compréhensible pour son public."
+     },
+     {
+      "text": "Soyez parfaits décrit exactement le tri demandé.",
+      "truth": "false",
+      "explain": "Cette formule ne précise aucune action de tri."
+     },
+     {
+      "text": "Une raison peut garantir sans preuve que tout sera recyclé.",
+      "truth": "false",
+      "explain": "L’intérêt doit rester proportionné à l’action."
+     },
+     {
+      "text": "Un lieu contradictoire ne gêne jamais l’application.",
+      "truth": "false",
+      "explain": "L’action exige un repère cohérent et confirmé."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "prompt": "Rédige une affiche environnementale pour un club fictif : titre, public, action précise et raison. Distingue le projet des renseignements confirmés.",
+  "model": [
+   "Affiche fictive du club : « Gardons notre coin lecture propre ! »",
+   "« Déposons les papiers autorisés dans la boîte indiquée par l’enseignante. Gardons les passages dégagés. »",
+   "« Séparer les papiers facilite leur collecte ; cela ne prouve pas qu’ils sont déjà recyclés. Ne touchons pas aux objets coupants ou inconnus : signalons-les à un adulte responsable. »",
+   "« Projet de classe : vérifier les catégories et l’emplacement avant l’affichage. »"
+  ],
+  "checklist": [
+   "Mon action est claire et adaptée au public.",
+   "La raison n’annonce pas un résultat universel non prouvé.",
+   "Les renseignements et limites évitent une manipulation dangereuse."
+  ],
+  "vars": {},
+  "checks": []
+ }
+}

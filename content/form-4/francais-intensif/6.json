@@ -1,0 +1,559 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "fr",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "fi4-6",
+   "name": "Former et employer le passé composé"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé composé associe avoir ou être au présent à un participe passé. Il peut présenter un événement accompli dans un récit ou en lien avec le présent. Aider et finir prennent avoir dans les modèles actifs étudiés ; arriver et partir prennent être. Avec être, les verbes non pronominaux de ces modèles accordent le participe avec le sujet. Avec avoir, on n’accorde pas automatiquement avec le sujet ; la position du complément direct sera étudiée plus tard. L’infinitif ne remplace pas le participe après l’auxiliaire.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras construire un passé composé actif avec son auxiliaire et son participe dans les modèles étudiés. Acquis mobilisés : le présent des auxiliaires et les sujets. Pour la suite : l’accord avec être et le récit d’un incident."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le passé composé associe avoir ou être au présent à un participe passé. Il peut présenter un événement accompli dans un récit ou en lien avec le présent. Aider et finir prennent avoir dans les modèles actifs étudiés ; arriver et partir prennent être. Avec être, les verbes non pronominaux de ces modèles accordent le participe avec le sujet. Avec avoir, on n’accorde pas automatiquement avec le sujet ; la position du complément direct sera étudiée plus tard. L’infinitif ne remplace pas le participe après l’auxiliaire."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Scène originale : {cap(fr2PasseCompose(\"aider\",3))} le groupe, puis {fr2PasseCompose(\"arriver\",3)} à la bibliothèque. Compare {fr2PasseCompose(\"finir\",4)} et {fr2PasseCompose(\"partir\",7)}. L’auxiliaire porte la personne ; le participe complète la forme composée et peut recevoir les marques d’accord requises."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère infinitif, sujet et emploi actif. Choisis l’auxiliaire, conjugue-le puis ajoute le participe. Vérifie ensuite les accords nécessaires ; la présence d’un sujet féminin ne suffit pas à ajouter un e après avoir."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "auxiliaire",
+    "meaning": "avoir ou être conjugué dans la forme composée"
+   },
+   {
+    "word": "participe passé",
+    "meaning": "la forme verbale associée à l’auxiliaire"
+   },
+   {
+    "word": "accord avec être",
+    "meaning": "l’accord du participe avec le sujet dans les modèles non pronominaux"
+   },
+   {
+    "word": "emploi actif",
+    "meaning": "la construction demandée dans ces exercices"
+   }
+  ],
+  "mistake": {
+   "wrong": "L’auxiliaire reste toujours à l’infinitif.",
+   "right": "avoir ou être conjugué dans la forme composée.",
+   "why": "Il est conjugué au présent dans le passé composé."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris au passé composé : elle / arriver à la bibliothèque.",
+  "steps": [
+   "Arriver prend être dans cet emploi actif.",
+   "Avec elle, être donne {fr2Present(\"être\",3)} et le participe reçoit le féminin."
+  ],
+  "answer": "{cap(fr2PasseCompose(\"arriver\",3))} à la bibliothèque.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-6-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "auxiliaire : avoir ou être conjugué dans la forme composée.",
+     "participe passé : la forme verbale associée à l’auxiliaire.",
+     "accord avec être : l’accord du participe avec le sujet dans les modèles non pronominaux.",
+     "emploi actif : la construction demandée dans ces exercices."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-6-notions"
+    }
+   },
+   {
+    "id": "fi4-6-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Dans {fr2PasseCompose(\"finir\",3)}, avoir porte la personne.",
+     "Finir donne {fr2Participle(\"finir\")}.",
+     "{cap(fr2PasseCompose(\"arriver\",7))} porte le féminin pluriel.",
+     "{cap(fr2PasseCompose(\"aider\",3))} une voisine conserve le rôle de la personne qui aide."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-6-cas"
+    }
+   },
+   {
+    "id": "fi4-6-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "L’auxiliaire reste toujours à l’infinitif. Correction : Il est conjugué au présent dans le passé composé.",
+     "Le participe passé de finir est obligatoirement finir. Correction : Le participe se distingue de l’infinitif.",
+     "Les participes après être sont toujours sans accord. Correction : Le sujet commande ici genre et nombre.",
+     "Changer d’auxiliaire conserve forcément voix et sens. Correction : Le choix doit respecter la construction demandée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-6-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "auxiliaire : avoir ou être conjugué dans la forme composée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il est conjugué au présent dans le passé composé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "participe passé : la forme verbale associée à l’auxiliaire.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le participe se distingue de l’infinitif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "accord avec être : l’accord du participe avec le sujet dans les modèles non pronominaux.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet commande ici genre et nombre. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "emploi actif : la construction demandée dans ces exercices.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le choix doit respecter la construction demandée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’auxiliaire reste toujours à l’infinitif.",
+        "truth": "false",
+        "explain": "Il est conjugué au présent dans le passé composé."
+       },
+       {
+        "text": "Le participe passé de finir est obligatoirement finir.",
+        "truth": "false",
+        "explain": "Le participe se distingue de l’infinitif."
+       },
+       {
+        "text": "Les participes après être sont toujours sans accord.",
+        "truth": "false",
+        "explain": "Le sujet commande ici genre et nombre."
+       },
+       {
+        "text": "Changer d’auxiliaire conserve forcément voix et sens.",
+        "truth": "false",
+        "explain": "Le choix doit respecter la construction demandée."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-6-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne avoir ou être conjugué dans la forme composée ?",
+       "r": "auxiliaire",
+       "w": [
+        "participe passé",
+        "accord avec être",
+        "emploi actif"
+       ],
+       "e": [
+        "Cela désigne la forme verbale associée à l’auxiliaire, plutôt que la notion demandée.",
+        "Cela désigne l’accord du participe avec le sujet dans les modèles non pronominaux, plutôt que la notion demandée.",
+        "Cela désigne la construction demandée dans ces exercices, plutôt que la notion demandée."
+       ],
+       "y": "Il est conjugué au présent dans le passé composé."
+      },
+      {
+       "q": "Quel terme désigne la forme verbale associée à l’auxiliaire ?",
+       "r": "participe passé",
+       "w": [
+        "auxiliaire",
+        "accord avec être",
+        "emploi actif"
+       ],
+       "e": [
+        "Cela désigne avoir ou être conjugué dans la forme composée, plutôt que la notion demandée.",
+        "Cela désigne l’accord du participe avec le sujet dans les modèles non pronominaux, plutôt que la notion demandée.",
+        "Cela désigne la construction demandée dans ces exercices, plutôt que la notion demandée."
+       ],
+       "y": "Le participe se distingue de l’infinitif."
+      },
+      {
+       "q": "Quel terme désigne l’accord du participe avec le sujet dans les modèles non pronominaux ?",
+       "r": "accord avec être",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "emploi actif"
+       ],
+       "e": [
+        "Cela désigne avoir ou être conjugué dans la forme composée, plutôt que la notion demandée.",
+        "Cela désigne la forme verbale associée à l’auxiliaire, plutôt que la notion demandée.",
+        "Cela désigne la construction demandée dans ces exercices, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet commande ici genre et nombre."
+      },
+      {
+       "q": "Quel terme désigne la construction demandée dans ces exercices ?",
+       "r": "emploi actif",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "accord avec être"
+       ],
+       "e": [
+        "Cela désigne avoir ou être conjugué dans la forme composée, plutôt que la notion demandée.",
+        "Cela désigne la forme verbale associée à l’auxiliaire, plutôt que la notion demandée.",
+        "Cela désigne l’accord du participe avec le sujet dans les modèles non pronominaux, plutôt que la notion demandée."
+       ],
+       "y": "Le choix doit respecter la construction demandée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-6-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans {fr2PasseCompose(\"finir\",3)}, avoir porte la personne.\nQuelle notion convient ?",
+       "r": "auxiliaire",
+       "w": [
+        "participe passé",
+        "accord avec être",
+        "emploi actif"
+       ],
+       "e": [
+        "Cela concerne la forme verbale associée à l’auxiliaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord du participe avec le sujet dans les modèles non pronominaux. Compare cette définition avec le cas présenté.",
+        "Cela concerne la construction demandée dans ces exercices. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il est conjugué au présent dans le passé composé."
+      },
+      {
+       "q": "Finir donne {fr2Participle(\"finir\")}.\nQuelle notion convient ?",
+       "r": "participe passé",
+       "w": [
+        "auxiliaire",
+        "accord avec être",
+        "emploi actif"
+       ],
+       "e": [
+        "Cela concerne avoir ou être conjugué dans la forme composée. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord du participe avec le sujet dans les modèles non pronominaux. Compare cette définition avec le cas présenté.",
+        "Cela concerne la construction demandée dans ces exercices. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le participe se distingue de l’infinitif."
+      },
+      {
+       "q": "{cap(fr2PasseCompose(\"arriver\",7))} porte le féminin pluriel.\nQuelle notion convient ?",
+       "r": "accord avec être",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "emploi actif"
+       ],
+       "e": [
+        "Cela concerne avoir ou être conjugué dans la forme composée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme verbale associée à l’auxiliaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne la construction demandée dans ces exercices. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet commande ici genre et nombre."
+      },
+      {
+       "q": "{cap(fr2PasseCompose(\"aider\",3))} une voisine conserve le rôle de la personne qui aide.\nQuelle notion convient ?",
+       "r": "emploi actif",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "accord avec être"
+       ],
+       "e": [
+        "Cela concerne avoir ou être conjugué dans la forme composée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme verbale associée à l’auxiliaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord du participe avec le sujet dans les modèles non pronominaux. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le choix doit respecter la construction demandée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-6-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aider",
+      "finir",
+      "arriver",
+      "partir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé actif avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v,p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcOtherAux(v,p)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{fr2PcInfinitive(v,p)}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "temps"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "aux",
+     "explain": "L’auxiliaire ne convient pas à cet emploi actif du verbe."
+    },
+    {
+     "id": "inf",
+     "explain": "Après l’auxiliaire, il faut le participe passé, pas l’infinitif."
+    },
+    {
+     "id": "temps",
+     "explain": "Cette forme est à l’imparfait, non au passé composé demandé."
+    }
+   ],
+   "solution": [
+    "Choisis l’auxiliaire du verbe et conjugue-le au présent.",
+    "Ajoute le participe, puis vérifie l’accord : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-6-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "auxiliaire",
+     "right": "Dans {fr2PasseCompose(\"finir\",3)}, avoir porte la personne."
+    },
+    {
+     "left": "participe passé",
+     "right": "Finir donne {fr2Participle(\"finir\")}."
+    },
+    {
+     "left": "accord avec être",
+     "right": "{cap(fr2PasseCompose(\"arriver\",7))} porte le féminin pluriel."
+    },
+    {
+     "left": "emploi actif",
+     "right": "{cap(fr2PasseCompose(\"aider\",3))} une voisine conserve le rôle de la personne qui aide."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-6-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "auxiliaire : avoir ou être conjugué dans la forme composée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il est conjugué au présent dans le passé composé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "participe passé : la forme verbale associée à l’auxiliaire.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le participe se distingue de l’infinitif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "accord avec être : l’accord du participe avec le sujet dans les modèles non pronominaux.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet commande ici genre et nombre. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "emploi actif : la construction demandée dans ces exercices.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le choix doit respecter la construction demandée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’auxiliaire reste toujours à l’infinitif.",
+      "truth": "false",
+      "explain": "Il est conjugué au présent dans le passé composé."
+     },
+     {
+      "text": "Le participe passé de finir est obligatoirement finir.",
+      "truth": "false",
+      "explain": "Le participe se distingue de l’infinitif."
+     },
+     {
+      "text": "Les participes après être sont toujours sans accord.",
+      "truth": "false",
+      "explain": "Le sujet commande ici genre et nombre."
+     },
+     {
+      "text": "Changer d’auxiliaire conserve forcément voix et sens.",
+      "truth": "false",
+      "explain": "Le choix doit respecter la construction demandée."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

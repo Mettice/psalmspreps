@@ -28,7 +28,30 @@ const root = path.resolve(__dirname, '../../..');
       }).observe(document.body, { childList: true, subtree: true, characterData: true });
     });
     await page.evaluate((id) => { window.__only = [id]; }, subject);
-    await page.evaluate(fs.readFileSync(path.join(root, 'tools/authoring/walk.js'), 'utf8'));
+    // Keep the shared walker untouched. Miss every first try, but answer later
+    // card retries correctly so the app's two-missed-card stop guard stays intact.
+    // The first card and every practice item still show the full reveal path.
+    const cardRetry = `
+      const flow = C()?.flow, step = flow?.steps[flow.step];
+      const visibleOptions = [...document.querySelectorAll('button.option')];
+      if (step?.kind === 'card' && step.card > 0 && flow.phase === 'check' && flow.attempt === 1 && visibleOptions.length) {
+        const prompt = document.querySelector('.prompt')?.textContent;
+        const texts = visibleOptions.map((b) => b.textContent).sort().join('|');
+        let answer;
+        for (let offset = 0; offset < 500; offset++) {
+          const candidate = teach.itemQuestion(L(), { ...flow, seed: flow.seed + offset }, LIB());
+          if (candidate.prompt === prompt && candidate.options?.map((o) => o.text).sort().join('|') === texts) {
+            answer = candidate.answer; break;
+          }
+        }
+        const correct = visibleOptions.find((b) => b.textContent === answer);
+        if (!correct) throw Error('Cannot resolve the visible card retry');
+        correct.click(); continue;
+      }
+    `;
+    const walk = fs.readFileSync(path.join(root, 'tools/authoring/walk.js'), 'utf8')
+      .replace('const inp = document.querySelector', cardRetry + '\nconst inp = document.querySelector');
+    await page.evaluate(walk);
     await page.waitForFunction(() => window.__walk && !window.__walk.running, null, { timeout: 300000 });
     const result = await page.evaluate(() => window.__walk.result);
     console.log(subject + ': ' + result);
@@ -39,7 +62,7 @@ const root = path.resolve(__dirname, '../../..');
     for (const n of await page.evaluate((id) => LESSONS[id], subject)) {
       await page.evaluate(({ id, n }) => openLesson(id, n), { id: subject, n });
       const text = await page.locator('body').innerText();
-      const labels = subject === 'f4-french' ? ['Ton objectif et les liens', 'À la fin', 'Acquis mobilisés :', 'Pour la suite :'] : ['Your goal and connections', 'By the end', 'Builds on:', 'Leads to:'];
+      const labels = ['f4-french','f4-francais-intensif'].includes(subject) ? ['Ton objectif et les liens', 'À la fin', 'Acquis mobilisés :', 'Pour la suite :'] : ['Your goal and connections', 'By the end', 'Builds on:', 'Leads to:'];
       for (const label of labels) {
         if (!text.includes(label)) throw Error(`${subject}:${n}: missing visible ${label}`);
       }
@@ -48,6 +71,15 @@ const root = path.resolve(__dirname, '../../..');
     const shot = path.join(os.tmpdir(), `${subject}-goal.png`);
     await page.screenshot({ path: shot, fullPage: true });
     console.log('Goal screenshot: ' + shot);
+    if (subject === 'f4-francais-intensif') {
+      await page.evaluate((id) => openLesson(id, 51), subject);
+      await page.getByRole('button', { name: 'Suivant', exact: true }).click();
+      await page.getByRole('button', { name: 'Suivant', exact: true }).click();
+      if (await page.getByRole('img', { name: /Affiche inventée/ }).count() !== 1) throw Error('Missing Français intensif writing image');
+      const sceneShot = path.join(os.tmpdir(), `${subject}-writing.png`);
+      await page.screenshot({ path: sceneShot, fullPage: true });
+      console.log('Writing screenshot: ' + sceneShot);
+    }
     if (subject === 'f4-french') {
       await page.evaluate((id) => openLesson(id, 4), subject);
       await page.getByRole('button', { name: 'Suivant', exact: true }).click();

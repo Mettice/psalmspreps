@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 43,
+ "language": "fr",
+ "prerequisites": [
+  19,
+  41
+ ],
+ "skills": [
+  {
+   "id": "fi4-43",
+   "name": "Préparer une récitation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Réciter demande de connaître le texte et de le rendre intelligible. Prépare les groupes de sens, les pauses et les mots importants. La ponctuation aide, mais la fin de chaque ligne ne commande pas toujours la même pause. Une interprétation doit rester liée au texte. On peut expliquer un choix écrit de pause ou d’accentuation sans prétendre avoir évalué la voix, la mémoire ou la présence réelle. Le bref texte proposé est original.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras annoter un texte original selon le sens et justifier pauses et mots à mettre en valeur. Acquis mobilisés : les groupes de sens et les liaisons. Pour la suite : la lecture expressive et une prestation réelle."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Réciter demande de connaître le texte et de le rendre intelligible. Prépare les groupes de sens, les pauses et les mots importants. La ponctuation aide, mais la fin de chaque ligne ne commande pas toujours la même pause. Une interprétation doit rester liée au texte. On peut expliquer un choix écrit de pause ou d’accentuation sans prétendre avoir évalué la voix, la mémoire ou la présence réelle. Le bref texte proposé est original."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Texte original : « Près du livre ouvert, / Bih attend une réponse. / La cour se tait ; / une idée trouve sa place. » Le point-virgule relie des images dans cette création. Le groupe près du livre ouvert peut être préparé ensemble. Le professeur peut proposer une lecture, puis comparer plusieurs réalisations compatibles avec le sens."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Comprends les images avant de mémoriser. Annote les groupes et justifie tes pauses, puis essaie réellement avec un partenaire. Relis le texte pour corriger un oubli plutôt que d’inventer des mots en les attribuant à l’auteur."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fidélité au texte",
+    "meaning": "le respect des mots du texte choisi"
+   },
+   {
+    "word": "pause de sens",
+    "meaning": "une suspension aidant à comprendre un groupe"
+   },
+   {
+    "word": "mise en valeur",
+    "meaning": "un choix pour faire ressortir un mot pertinent"
+   },
+   {
+    "word": "interprétation justifiée",
+    "meaning": "une lecture liée aux indices du texte"
+   }
+  ],
+  "mistake": {
+   "wrong": "On peut changer tous les mots et prétendre citer exactement le texte.",
+   "right": "le respect des mots du texte choisi.",
+   "why": "Une interprétation n’autorise pas à déformer une citation."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih reste Bih dans la récitation du modèle. Explique le choix.",
+  "steps": [
+   "le respect des mots du texte choisi.",
+   "Une interprétation n’autorise pas à déformer une citation."
+  ],
+  "answer": "fidélité au texte",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-43-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "fidélité au texte : le respect des mots du texte choisi.",
+     "pause de sens : une suspension aidant à comprendre un groupe.",
+     "mise en valeur : un choix pour faire ressortir un mot pertinent.",
+     "interprétation justifiée : une lecture liée aux indices du texte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-43-notions"
+    }
+   },
+   {
+    "id": "fi4-43-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Bih reste Bih dans la récitation du modèle.",
+     "La virgule après ouvert peut aider la préparation.",
+     "Réponse peut être souligné dans une annotation justifiée.",
+     "L’attente d’une réponse soutient un ton préparé attentif."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-43-cas"
+    }
+   },
+   {
+    "id": "fi4-43-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "On peut changer tous les mots et prétendre citer exactement le texte. Correction : Une interprétation n’autorise pas à déformer une citation.",
+     "Chaque fin de ligne impose toujours la même durée de silence. Correction : Le sens et la ponctuation doivent être examinés.",
+     "Mettre un mot en valeur prouve sa présence dans un enregistrement absent. Correction : L’annotation ne produit pas de voix.",
+     "Toute interprétation est vraie même sans lien avec les mots. Correction : Les choix doivent être soutenus par les indices."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-43-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "fidélité au texte : le respect des mots du texte choisi.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une interprétation n’autorise pas à déformer une citation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "pause de sens : une suspension aidant à comprendre un groupe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens et la ponctuation doivent être examinés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "mise en valeur : un choix pour faire ressortir un mot pertinent.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’annotation ne produit pas de voix. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "interprétation justifiée : une lecture liée aux indices du texte.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les choix doivent être soutenus par les indices. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "On peut changer tous les mots et prétendre citer exactement le texte.",
+        "truth": "false",
+        "explain": "Une interprétation n’autorise pas à déformer une citation."
+       },
+       {
+        "text": "Chaque fin de ligne impose toujours la même durée de silence.",
+        "truth": "false",
+        "explain": "Le sens et la ponctuation doivent être examinés."
+       },
+       {
+        "text": "Mettre un mot en valeur prouve sa présence dans un enregistrement absent.",
+        "truth": "false",
+        "explain": "L’annotation ne produit pas de voix."
+       },
+       {
+        "text": "Toute interprétation est vraie même sans lien avec les mots.",
+        "truth": "false",
+        "explain": "Les choix doivent être soutenus par les indices."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-43-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le respect des mots du texte choisi ?",
+       "r": "fidélité au texte",
+       "w": [
+        "pause de sens",
+        "mise en valeur",
+        "interprétation justifiée"
+       ],
+       "e": [
+        "Cela désigne une suspension aidant à comprendre un groupe, plutôt que la notion demandée.",
+        "Cela désigne un choix pour faire ressortir un mot pertinent, plutôt que la notion demandée.",
+        "Cela désigne une lecture liée aux indices du texte, plutôt que la notion demandée."
+       ],
+       "y": "Une interprétation n’autorise pas à déformer une citation."
+      },
+      {
+       "q": "Quel terme désigne une suspension aidant à comprendre un groupe ?",
+       "r": "pause de sens",
+       "w": [
+        "fidélité au texte",
+        "mise en valeur",
+        "interprétation justifiée"
+       ],
+       "e": [
+        "Cela désigne le respect des mots du texte choisi, plutôt que la notion demandée.",
+        "Cela désigne un choix pour faire ressortir un mot pertinent, plutôt que la notion demandée.",
+        "Cela désigne une lecture liée aux indices du texte, plutôt que la notion demandée."
+       ],
+       "y": "Le sens et la ponctuation doivent être examinés."
+      },
+      {
+       "q": "Quel terme désigne un choix pour faire ressortir un mot pertinent ?",
+       "r": "mise en valeur",
+       "w": [
+        "fidélité au texte",
+        "pause de sens",
+        "interprétation justifiée"
+       ],
+       "e": [
+        "Cela désigne le respect des mots du texte choisi, plutôt que la notion demandée.",
+        "Cela désigne une suspension aidant à comprendre un groupe, plutôt que la notion demandée.",
+        "Cela désigne une lecture liée aux indices du texte, plutôt que la notion demandée."
+       ],
+       "y": "L’annotation ne produit pas de voix."
+      },
+      {
+       "q": "Quel terme désigne une lecture liée aux indices du texte ?",
+       "r": "interprétation justifiée",
+       "w": [
+        "fidélité au texte",
+        "pause de sens",
+        "mise en valeur"
+       ],
+       "e": [
+        "Cela désigne le respect des mots du texte choisi, plutôt que la notion demandée.",
+        "Cela désigne une suspension aidant à comprendre un groupe, plutôt que la notion demandée.",
+        "Cela désigne un choix pour faire ressortir un mot pertinent, plutôt que la notion demandée."
+       ],
+       "y": "Les choix doivent être soutenus par les indices."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-43-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih reste Bih dans la récitation du modèle.\nQuelle notion convient ?",
+       "r": "fidélité au texte",
+       "w": [
+        "pause de sens",
+        "mise en valeur",
+        "interprétation justifiée"
+       ],
+       "e": [
+        "Cela concerne une suspension aidant à comprendre un groupe. Compare cette définition avec le cas présenté.",
+        "Cela concerne un choix pour faire ressortir un mot pertinent. Compare cette définition avec le cas présenté.",
+        "Cela concerne une lecture liée aux indices du texte. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une interprétation n’autorise pas à déformer une citation."
+      },
+      {
+       "q": "La virgule après ouvert peut aider la préparation.\nQuelle notion convient ?",
+       "r": "pause de sens",
+       "w": [
+        "fidélité au texte",
+        "mise en valeur",
+        "interprétation justifiée"
+       ],
+       "e": [
+        "Cela concerne le respect des mots du texte choisi. Compare cette définition avec le cas présenté.",
+        "Cela concerne un choix pour faire ressortir un mot pertinent. Compare cette définition avec le cas présenté.",
+        "Cela concerne une lecture liée aux indices du texte. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens et la ponctuation doivent être examinés."
+      },
+      {
+       "q": "Réponse peut être souligné dans une annotation justifiée.\nQuelle notion convient ?",
+       "r": "mise en valeur",
+       "w": [
+        "fidélité au texte",
+        "pause de sens",
+        "interprétation justifiée"
+       ],
+       "e": [
+        "Cela concerne le respect des mots du texte choisi. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suspension aidant à comprendre un groupe. Compare cette définition avec le cas présenté.",
+        "Cela concerne une lecture liée aux indices du texte. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’annotation ne produit pas de voix."
+      },
+      {
+       "q": "L’attente d’une réponse soutient un ton préparé attentif.\nQuelle notion convient ?",
+       "r": "interprétation justifiée",
+       "w": [
+        "fidélité au texte",
+        "pause de sens",
+        "mise en valeur"
+       ],
+       "e": [
+        "Cela concerne le respect des mots du texte choisi. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suspension aidant à comprendre un groupe. Compare cette définition avec le cas présenté.",
+        "Cela concerne un choix pour faire ressortir un mot pertinent. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les choix doivent être soutenus par les indices."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-43-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel groupe peut être préparé comme unité de sens ?",
+       "r": "Près du livre ouvert",
+       "w": [
+        "Près du seulement en supprimant livre",
+        "Bih absent du texte",
+        "Une ordonnance médicale inventée"
+       ],
+       "e": [
+        "La coupure proposée retire le nom utile.",
+        "Bih est bien dans le modèle.",
+        "Le texte ne prescrit rien."
+       ],
+       "y": "Le groupe situe la scène."
+      },
+      {
+       "q": "Que permet la ponctuation dans cette préparation ?",
+       "r": "Proposer des pauses liées au sens.",
+       "w": [
+        "Garantir la mémoire complète.",
+        "Mesurer une voix non enregistrée.",
+        "Prouver la réalité de la scène fictive."
+       ],
+       "e": [
+        "La mémorisation doit être pratiquée.",
+        "Aucune voix n’est mesurée.",
+        "Le texte est une création."
+       ],
+       "y": "L’indice écrit guide sans certifier la prestation."
+      },
+      {
+       "q": "Quelle justification reste liée au texte ?",
+       "r": "L’attente d’une réponse motive mon choix de ton attentif.",
+       "w": [
+        "Une adresse privée absente impose mon ton.",
+        "Tous les poèmes ordonnent de crier.",
+        "Le nom Bih impose une identité réelle."
+       ],
+       "e": [
+        "L’adresse n’est pas dans le texte.",
+        "Cette règle n’existe pas.",
+        "Le personnage est fictif."
+       ],
+       "y": "Appuie le choix sur les mots."
+      },
+      {
+       "q": "Un mot oublié pendant la pratique doit d’abord conduire à quoi ?",
+       "r": "Relire le texte pour retrouver sa formulation.",
+       "w": [
+        "Attribuer une invention au texte original.",
+        "Accuser un camarade sans fait.",
+        "Déduire un défaut moral du récitant."
+       ],
+       "e": [
+        "Il faut garder la fidélité annoncée.",
+        "L’accusation ne résout pas l’oubli.",
+        "L’oubli ne justifie pas ce jugement."
+       ],
+       "y": "La préparation peut être reprise sans humiliation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-43-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "fidélité au texte",
+     "right": "Bih reste Bih dans la récitation du modèle."
+    },
+    {
+     "left": "pause de sens",
+     "right": "La virgule après ouvert peut aider la préparation."
+    },
+    {
+     "left": "mise en valeur",
+     "right": "Réponse peut être souligné dans une annotation justifiée."
+    },
+    {
+     "left": "interprétation justifiée",
+     "right": "L’attente d’une réponse soutient un ton préparé attentif."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-43-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "fidélité au texte : le respect des mots du texte choisi.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une interprétation n’autorise pas à déformer une citation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "pause de sens : une suspension aidant à comprendre un groupe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens et la ponctuation doivent être examinés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "mise en valeur : un choix pour faire ressortir un mot pertinent.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’annotation ne produit pas de voix. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "interprétation justifiée : une lecture liée aux indices du texte.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les choix doivent être soutenus par les indices. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On peut changer tous les mots et prétendre citer exactement le texte.",
+      "truth": "false",
+      "explain": "Une interprétation n’autorise pas à déformer une citation."
+     },
+     {
+      "text": "Chaque fin de ligne impose toujours la même durée de silence.",
+      "truth": "false",
+      "explain": "Le sens et la ponctuation doivent être examinés."
+     },
+     {
+      "text": "Mettre un mot en valeur prouve sa présence dans un enregistrement absent.",
+      "truth": "false",
+      "explain": "L’annotation ne produit pas de voix."
+     },
+     {
+      "text": "Toute interprétation est vraie même sans lien avec les mots.",
+      "truth": "false",
+      "explain": "Les choix doivent être soutenus par les indices."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 20,
+ "language": "fr",
+ "prerequisites": [
+  6,
+  13
+ ],
+ "skills": [
+  {
+   "id": "fi4-20",
+   "name": "Former le conditionnel présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le conditionnel présent se construit avec le radical du futur simple et les terminaisons -ais, -ais, -ait, -ions, -iez, -aient. Pour les verbes réguliers étudiés, le radical garde la base du futur ; être, avoir, aller et faire ont des bases particulières. Une même terminaison ne rend pas imparfait et conditionnel identiques : le radical compte aussi. Apprends la forme avec son sujet. La formation prépare ensuite le choix d’emploi dans une demande ou une hypothèse.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former le conditionnel présent en combinant radical du futur et terminaison personnelle. Acquis mobilisés : les formes de l’imparfait et les infinitifs connus. Pour la suite : les demandes polies et les hypothèses."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le conditionnel présent se construit avec le radical du futur simple et les terminaisons -ais, -ais, -ait, -ions, -iez, -aient. Pour les verbes réguliers étudiés, le radical garde la base du futur ; être, avoir, aller et faire ont des bases particulières. Une même terminaison ne rend pas imparfait et conditionnel identiques : le radical compte aussi. Apprends la forme avec son sujet. La formation prépare ensuite le choix d’emploi dans une demande ou une hypothèse."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles : {fr2With(0,fr2Conditionnel(\"aider\",0))}, {fr2With(4,fr2Conditionnel(\"finir\",4))}, {fr2With(3,fr2Conditionnel(\"être\",3))} et {fr2With(5,fr2Conditionnel(\"faire\",5))}. Compare {fr2With(0,fr2Imparfait(\"aider\",0))} et {fr2With(0,fr2Conditionnel(\"aider\",0))} : la terminaison ressemble, mais la base change."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie la personne, retrouve le radical du futur puis ajoute la terminaison. Relis les accents et l’élision avec je. N’ajoute pas une terminaison du futur à la place de celle du conditionnel."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "radical du futur",
+    "meaning": "la base servant aussi au conditionnel présent"
+   },
+   {
+    "word": "terminaison personnelle",
+    "meaning": "la marque adaptée au sujet dans le conditionnel"
+   },
+   {
+    "word": "base particulière",
+    "meaning": "un radical à connaître pour un verbe irrégulier"
+   },
+   {
+    "word": "distinction des temps",
+    "meaning": "la différence entre radical et terminaison dans les temps comparés"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le conditionnel utilise toujours le radical de l’imparfait.",
+   "right": "la base servant aussi au conditionnel présent.",
+   "why": "La base choisie est celle du futur."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Être emploie la base ser- dans le conditionnel. Explique le choix.",
+  "steps": [
+   "la base servant aussi au conditionnel présent.",
+   "La base choisie est celle du futur."
+  ],
+  "answer": "radical du futur",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-20-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "radical du futur : la base servant aussi au conditionnel présent.",
+     "terminaison personnelle : la marque adaptée au sujet dans le conditionnel.",
+     "base particulière : un radical à connaître pour un verbe irrégulier.",
+     "distinction des temps : la différence entre radical et terminaison dans les temps comparés."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-20-notions"
+    }
+   },
+   {
+    "id": "fi4-20-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Être emploie la base ser- dans le conditionnel.",
+     "Nous donne {fr2Conditionnel(\"aider\",4)}.",
+     "Faire donne {fr2Conditionnel(\"faire\",0)} avec je.",
+     "Aiderais diffère de aidais."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-20-cas"
+    }
+   },
+   {
+    "id": "fi4-20-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le conditionnel utilise toujours le radical de l’imparfait. Correction : La base choisie est celle du futur.",
+     "Nous au conditionnel prend toujours la terminaison de vous. Correction : Chaque personne doit être identifiée.",
+     "Faire donne forcément faireais avec je. Correction : Le radical du futur de faire est fer-.",
+     "Toute forme finissant en -ais est forcément un imparfait. Correction : Le radical permet aussi de reconnaître le temps."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-20-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "radical du futur : la base servant aussi au conditionnel présent.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La base choisie est celle du futur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "terminaison personnelle : la marque adaptée au sujet dans le conditionnel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Chaque personne doit être identifiée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "base particulière : un radical à connaître pour un verbe irrégulier.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le radical du futur de faire est fer-. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "distinction des temps : la différence entre radical et terminaison dans les temps comparés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le radical permet aussi de reconnaître le temps. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le conditionnel utilise toujours le radical de l’imparfait.",
+        "truth": "false",
+        "explain": "La base choisie est celle du futur."
+       },
+       {
+        "text": "Nous au conditionnel prend toujours la terminaison de vous.",
+        "truth": "false",
+        "explain": "Chaque personne doit être identifiée."
+       },
+       {
+        "text": "Faire donne forcément faireais avec je.",
+        "truth": "false",
+        "explain": "Le radical du futur de faire est fer-."
+       },
+       {
+        "text": "Toute forme finissant en -ais est forcément un imparfait.",
+        "truth": "false",
+        "explain": "Le radical permet aussi de reconnaître le temps."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-20-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la base servant aussi au conditionnel présent ?",
+       "r": "radical du futur",
+       "w": [
+        "terminaison personnelle",
+        "base particulière",
+        "distinction des temps"
+       ],
+       "e": [
+        "Cela désigne la marque adaptée au sujet dans le conditionnel, plutôt que la notion demandée.",
+        "Cela désigne un radical à connaître pour un verbe irrégulier, plutôt que la notion demandée.",
+        "Cela désigne la différence entre radical et terminaison dans les temps comparés, plutôt que la notion demandée."
+       ],
+       "y": "La base choisie est celle du futur."
+      },
+      {
+       "q": "Quel terme désigne la marque adaptée au sujet dans le conditionnel ?",
+       "r": "terminaison personnelle",
+       "w": [
+        "radical du futur",
+        "base particulière",
+        "distinction des temps"
+       ],
+       "e": [
+        "Cela désigne la base servant aussi au conditionnel présent, plutôt que la notion demandée.",
+        "Cela désigne un radical à connaître pour un verbe irrégulier, plutôt que la notion demandée.",
+        "Cela désigne la différence entre radical et terminaison dans les temps comparés, plutôt que la notion demandée."
+       ],
+       "y": "Chaque personne doit être identifiée."
+      },
+      {
+       "q": "Quel terme désigne un radical à connaître pour un verbe irrégulier ?",
+       "r": "base particulière",
+       "w": [
+        "radical du futur",
+        "terminaison personnelle",
+        "distinction des temps"
+       ],
+       "e": [
+        "Cela désigne la base servant aussi au conditionnel présent, plutôt que la notion demandée.",
+        "Cela désigne la marque adaptée au sujet dans le conditionnel, plutôt que la notion demandée.",
+        "Cela désigne la différence entre radical et terminaison dans les temps comparés, plutôt que la notion demandée."
+       ],
+       "y": "Le radical du futur de faire est fer-."
+      },
+      {
+       "q": "Quel terme désigne la différence entre radical et terminaison dans les temps comparés ?",
+       "r": "distinction des temps",
+       "w": [
+        "radical du futur",
+        "terminaison personnelle",
+        "base particulière"
+       ],
+       "e": [
+        "Cela désigne la base servant aussi au conditionnel présent, plutôt que la notion demandée.",
+        "Cela désigne la marque adaptée au sujet dans le conditionnel, plutôt que la notion demandée.",
+        "Cela désigne un radical à connaître pour un verbe irrégulier, plutôt que la notion demandée."
+       ],
+       "y": "Le radical permet aussi de reconnaître le temps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-20-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Être emploie la base ser- dans le conditionnel.\nQuelle notion convient ?",
+       "r": "radical du futur",
+       "w": [
+        "terminaison personnelle",
+        "base particulière",
+        "distinction des temps"
+       ],
+       "e": [
+        "Cela concerne la marque adaptée au sujet dans le conditionnel. Compare cette définition avec le cas présenté.",
+        "Cela concerne un radical à connaître pour un verbe irrégulier. Compare cette définition avec le cas présenté.",
+        "Cela concerne la différence entre radical et terminaison dans les temps comparés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La base choisie est celle du futur."
+      },
+      {
+       "q": "Nous donne {fr2Conditionnel(\"aider\",4)}.\nQuelle notion convient ?",
+       "r": "terminaison personnelle",
+       "w": [
+        "radical du futur",
+        "base particulière",
+        "distinction des temps"
+       ],
+       "e": [
+        "Cela concerne la base servant aussi au conditionnel présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne un radical à connaître pour un verbe irrégulier. Compare cette définition avec le cas présenté.",
+        "Cela concerne la différence entre radical et terminaison dans les temps comparés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Chaque personne doit être identifiée."
+      },
+      {
+       "q": "Faire donne {fr2Conditionnel(\"faire\",0)} avec je.\nQuelle notion convient ?",
+       "r": "base particulière",
+       "w": [
+        "radical du futur",
+        "terminaison personnelle",
+        "distinction des temps"
+       ],
+       "e": [
+        "Cela concerne la base servant aussi au conditionnel présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque adaptée au sujet dans le conditionnel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la différence entre radical et terminaison dans les temps comparés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le radical du futur de faire est fer-."
+      },
+      {
+       "q": "Aiderais diffère de aidais.\nQuelle notion convient ?",
+       "r": "distinction des temps",
+       "w": [
+        "radical du futur",
+        "terminaison personnelle",
+        "base particulière"
+       ],
+       "e": [
+        "Cela concerne la base servant aussi au conditionnel présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque adaptée au sujet dans le conditionnel. Compare cette définition avec le cas présenté.",
+        "Cela concerne un radical à connaître pour un verbe irrégulier. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le radical permet aussi de reconnaître le temps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-20-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aider",
+      "finir",
+      "être",
+      "avoir",
+      "aller",
+      "faire"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au conditionnel présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2Conditionnel(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2FuturSimple(v,p))}",
+     "misconception": "futur"
+    },
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "imparfait"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "futur",
+     "explain": "Cette terminaison donne un futur simple au lieu du conditionnel."
+    },
+    {
+     "id": "imparfait",
+     "explain": "Les terminaisons se ressemblent, mais le radical est ici celui de l’imparfait."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne porte pas la conjugaison demandée."
+    }
+   ],
+   "solution": [
+    "Prends le radical du futur et la terminaison personnelle du conditionnel.",
+    "La forme est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-20-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "radical du futur",
+     "right": "Être emploie la base ser- dans le conditionnel."
+    },
+    {
+     "left": "terminaison personnelle",
+     "right": "Nous donne {fr2Conditionnel(\"aider\",4)}."
+    },
+    {
+     "left": "base particulière",
+     "right": "Faire donne {fr2Conditionnel(\"faire\",0)} avec je."
+    },
+    {
+     "left": "distinction des temps",
+     "right": "Aiderais diffère de aidais."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-20-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "radical du futur : la base servant aussi au conditionnel présent.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La base choisie est celle du futur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "terminaison personnelle : la marque adaptée au sujet dans le conditionnel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Chaque personne doit être identifiée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "base particulière : un radical à connaître pour un verbe irrégulier.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le radical du futur de faire est fer-. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "distinction des temps : la différence entre radical et terminaison dans les temps comparés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le radical permet aussi de reconnaître le temps. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le conditionnel utilise toujours le radical de l’imparfait.",
+      "truth": "false",
+      "explain": "La base choisie est celle du futur."
+     },
+     {
+      "text": "Nous au conditionnel prend toujours la terminaison de vous.",
+      "truth": "false",
+      "explain": "Chaque personne doit être identifiée."
+     },
+     {
+      "text": "Faire donne forcément faireais avec je.",
+      "truth": "false",
+      "explain": "Le radical du futur de faire est fer-."
+     },
+     {
+      "text": "Toute forme finissant en -ais est forcément un imparfait.",
+      "truth": "false",
+      "explain": "Le radical permet aussi de reconnaître le temps."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

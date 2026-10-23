@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 11,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  9
+ ],
+ "skills": [
+  {
+   "id": "fi4-11",
+   "name": "Familles de mots et tâches partagées"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une famille morphologique réunit des mots liés par leur formation et leur sens : laver, lavage et laveur. Le champ lexical des tâches peut réunir lavage, rangement et cuisine sans radical commun. Une ressemblance de lettres seule ne prouve pas la parenté ; le sens doit rester lié. Des mots d’une famille peuvent changer de catégorie. La répartition des tâches du modèle est fictive et partagée ; aucune tâche n’est attribuée nécessairement à un genre ou à un membre de famille.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer une famille morphologique d’un champ lexical dans les activités du foyer ou du club. Acquis mobilisés : les mots sociaux et la description. Pour la suite : les reprises lexicales des récits et des affiches."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une famille morphologique réunit des mots liés par leur formation et leur sens : laver, lavage et laveur. Le champ lexical des tâches peut réunir lavage, rangement et cuisine sans radical commun. Une ressemblance de lettres seule ne prouve pas la parenté ; le sens doit rester lié. Des mots d’une famille peuvent changer de catégorie. La répartition des tâches du modèle est fictive et partagée ; aucune tâche n’est attribuée nécessairement à un genre ou à un membre de famille."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : laver et lavage ; ranger et rangement ; préparer et préparation ; nettoyer et nettoyage. Dans un club de Buea, Bih prépare les fiches, Ayuk range les livres et les rôles peuvent tourner. Ces mots appartiennent au même thème sans former tous une seule famille."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Cherche la base et le lien de sens. Distingue ensuite parenté morphologique et thème commun. Remplace une répétition par un dérivé seulement si sa catégorie et son sens conviennent à la phrase."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "famille morphologique",
+    "meaning": "des mots apparentés par formation et sens"
+   },
+   {
+    "word": "champ lexical",
+    "meaning": "des mots associés à un même domaine"
+   },
+   {
+    "word": "dérivation",
+    "meaning": "la formation d’un mot lié à une base"
+   },
+   {
+    "word": "catégorie grammaticale",
+    "meaning": "la classe du mot dans son emploi"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tous les mots de la maison forment une seule famille morphologique.",
+   "right": "des mots apparentés par formation et sens.",
+   "why": "Un même thème ne suffit pas à établir cette parenté."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ranger et rangement partagent une formation liée. Explique le choix.",
+  "steps": [
+   "des mots apparentés par formation et sens.",
+   "Un même thème ne suffit pas à établir cette parenté."
+  ],
+  "answer": "famille morphologique",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-11-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "famille morphologique : des mots apparentés par formation et sens.",
+     "champ lexical : des mots associés à un même domaine.",
+     "dérivation : la formation d’un mot lié à une base.",
+     "catégorie grammaticale : la classe du mot dans son emploi."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-11-notions"
+    }
+   },
+   {
+    "id": "fi4-11-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Ranger et rangement partagent une formation liée.",
+     "Lavage et cuisine relèvent des tâches sans même base.",
+     "Lavage se construit en lien avec laver.",
+     "Laver est un verbe et lavage un nom."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-11-cas"
+    }
+   },
+   {
+    "id": "fi4-11-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Tous les mots de la maison forment une seule famille morphologique. Correction : Un même thème ne suffit pas à établir cette parenté.",
+     "Un champ lexical impose un radical identique à tous les mots. Correction : Le domaine commun ne demande pas une base commune.",
+     "La dérivation signifie simplement déplacer une virgule. Correction : Elle concerne la formation lexicale.",
+     "Chaque mot d’une famille a obligatoirement la même classe. Correction : La parenté ne supprime pas les différences de catégorie."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-11-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "famille morphologique : des mots apparentés par formation et sens.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un même thème ne suffit pas à établir cette parenté. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "champ lexical : des mots associés à un même domaine.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le domaine commun ne demande pas une base commune. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "dérivation : la formation d’un mot lié à une base.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle concerne la formation lexicale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "catégorie grammaticale : la classe du mot dans son emploi.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La parenté ne supprime pas les différences de catégorie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tous les mots de la maison forment une seule famille morphologique.",
+        "truth": "false",
+        "explain": "Un même thème ne suffit pas à établir cette parenté."
+       },
+       {
+        "text": "Un champ lexical impose un radical identique à tous les mots.",
+        "truth": "false",
+        "explain": "Le domaine commun ne demande pas une base commune."
+       },
+       {
+        "text": "La dérivation signifie simplement déplacer une virgule.",
+        "truth": "false",
+        "explain": "Elle concerne la formation lexicale."
+       },
+       {
+        "text": "Chaque mot d’une famille a obligatoirement la même classe.",
+        "truth": "false",
+        "explain": "La parenté ne supprime pas les différences de catégorie."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-11-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne des mots apparentés par formation et sens ?",
+       "r": "famille morphologique",
+       "w": [
+        "champ lexical",
+        "dérivation",
+        "catégorie grammaticale"
+       ],
+       "e": [
+        "Cela désigne des mots associés à un même domaine, plutôt que la notion demandée.",
+        "Cela désigne la formation d’un mot lié à une base, plutôt que la notion demandée.",
+        "Cela désigne la classe du mot dans son emploi, plutôt que la notion demandée."
+       ],
+       "y": "Un même thème ne suffit pas à établir cette parenté."
+      },
+      {
+       "q": "Quel terme désigne des mots associés à un même domaine ?",
+       "r": "champ lexical",
+       "w": [
+        "famille morphologique",
+        "dérivation",
+        "catégorie grammaticale"
+       ],
+       "e": [
+        "Cela désigne des mots apparentés par formation et sens, plutôt que la notion demandée.",
+        "Cela désigne la formation d’un mot lié à une base, plutôt que la notion demandée.",
+        "Cela désigne la classe du mot dans son emploi, plutôt que la notion demandée."
+       ],
+       "y": "Le domaine commun ne demande pas une base commune."
+      },
+      {
+       "q": "Quel terme désigne la formation d’un mot lié à une base ?",
+       "r": "dérivation",
+       "w": [
+        "famille morphologique",
+        "champ lexical",
+        "catégorie grammaticale"
+       ],
+       "e": [
+        "Cela désigne des mots apparentés par formation et sens, plutôt que la notion demandée.",
+        "Cela désigne des mots associés à un même domaine, plutôt que la notion demandée.",
+        "Cela désigne la classe du mot dans son emploi, plutôt que la notion demandée."
+       ],
+       "y": "Elle concerne la formation lexicale."
+      },
+      {
+       "q": "Quel terme désigne la classe du mot dans son emploi ?",
+       "r": "catégorie grammaticale",
+       "w": [
+        "famille morphologique",
+        "champ lexical",
+        "dérivation"
+       ],
+       "e": [
+        "Cela désigne des mots apparentés par formation et sens, plutôt que la notion demandée.",
+        "Cela désigne des mots associés à un même domaine, plutôt que la notion demandée.",
+        "Cela désigne la formation d’un mot lié à une base, plutôt que la notion demandée."
+       ],
+       "y": "La parenté ne supprime pas les différences de catégorie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-11-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ranger et rangement partagent une formation liée.\nQuelle notion convient ?",
+       "r": "famille morphologique",
+       "w": [
+        "champ lexical",
+        "dérivation",
+        "catégorie grammaticale"
+       ],
+       "e": [
+        "Cela concerne des mots associés à un même domaine. Compare cette définition avec le cas présenté.",
+        "Cela concerne la formation d’un mot lié à une base. Compare cette définition avec le cas présenté.",
+        "Cela concerne la classe du mot dans son emploi. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un même thème ne suffit pas à établir cette parenté."
+      },
+      {
+       "q": "Lavage et cuisine relèvent des tâches sans même base.\nQuelle notion convient ?",
+       "r": "champ lexical",
+       "w": [
+        "famille morphologique",
+        "dérivation",
+        "catégorie grammaticale"
+       ],
+       "e": [
+        "Cela concerne des mots apparentés par formation et sens. Compare cette définition avec le cas présenté.",
+        "Cela concerne la formation d’un mot lié à une base. Compare cette définition avec le cas présenté.",
+        "Cela concerne la classe du mot dans son emploi. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le domaine commun ne demande pas une base commune."
+      },
+      {
+       "q": "Lavage se construit en lien avec laver.\nQuelle notion convient ?",
+       "r": "dérivation",
+       "w": [
+        "famille morphologique",
+        "champ lexical",
+        "catégorie grammaticale"
+       ],
+       "e": [
+        "Cela concerne des mots apparentés par formation et sens. Compare cette définition avec le cas présenté.",
+        "Cela concerne des mots associés à un même domaine. Compare cette définition avec le cas présenté.",
+        "Cela concerne la classe du mot dans son emploi. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle concerne la formation lexicale."
+      },
+      {
+       "q": "Laver est un verbe et lavage un nom.\nQuelle notion convient ?",
+       "r": "catégorie grammaticale",
+       "w": [
+        "famille morphologique",
+        "champ lexical",
+        "dérivation"
+       ],
+       "e": [
+        "Cela concerne des mots apparentés par formation et sens. Compare cette définition avec le cas présenté.",
+        "Cela concerne des mots associés à un même domaine. Compare cette définition avec le cas présenté.",
+        "Cela concerne la formation d’un mot lié à une base. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La parenté ne supprime pas les différences de catégorie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-11-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel nom est lié à laver par formation ?",
+       "r": "lavage",
+       "w": [
+        "rangement",
+        "cuisine",
+        "table"
+       ],
+       "e": [
+        "Ce nom est lié à ranger.",
+        "Le thème est proche, pas la base demandée.",
+        "Cet objet ne partage pas la formation de laver."
+       ],
+       "y": "Cherche forme et sens."
+      },
+      {
+       "q": "Quel rapprochement donne un champ de tâches plutôt qu’une seule famille ?",
+       "r": "lavage, rangement, cuisine",
+       "w": [
+        "laver, lavage, laveur",
+        "ranger, rangement",
+        "nettoyer, nettoyage"
+       ],
+       "e": [
+        "Ces mots partagent une famille de laver.",
+        "Ces mots sont apparentés autour de ranger.",
+        "Ces mots sont apparentés autour de nettoyer."
+       ],
+       "y": "Le thème commun n’impose pas le même radical."
+      },
+      {
+       "q": "Dans le rangement commence, rangement est quel type de mot ?",
+       "r": "un nom",
+       "w": [
+        "un verbe conjugué",
+        "un pronom personnel",
+        "une préposition"
+       ],
+       "e": [
+        "Commence est le verbe.",
+        "Le mot nomme ici une activité.",
+        "Il n’introduit pas de complément comme une préposition."
+       ],
+       "y": "Observe sa place avec le déterminant."
+      },
+      {
+       "q": "Quelle conclusion respecte le modèle du club ?",
+       "r": "Les rôles sont partagés et peuvent tourner.",
+       "w": [
+        "Ranger est réservé aux filles.",
+        "Préparer une fiche est réservé aux garçons.",
+        "Les rôles fictifs imposent la vie de chaque famille."
+       ],
+       "e": [
+        "Le modèle ne donne pas cette restriction.",
+        "Cette restriction n’est pas donnée.",
+        "Un exemple fictif n’impose pas une organisation réelle."
+       ],
+       "y": "Ne transforme pas les exemples en stéréotypes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-11-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "famille morphologique",
+     "right": "Ranger et rangement partagent une formation liée."
+    },
+    {
+     "left": "champ lexical",
+     "right": "Lavage et cuisine relèvent des tâches sans même base."
+    },
+    {
+     "left": "dérivation",
+     "right": "Lavage se construit en lien avec laver."
+    },
+    {
+     "left": "catégorie grammaticale",
+     "right": "Laver est un verbe et lavage un nom."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-11-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "famille morphologique : des mots apparentés par formation et sens.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un même thème ne suffit pas à établir cette parenté. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "champ lexical : des mots associés à un même domaine.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le domaine commun ne demande pas une base commune. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "dérivation : la formation d’un mot lié à une base.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle concerne la formation lexicale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "catégorie grammaticale : la classe du mot dans son emploi.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La parenté ne supprime pas les différences de catégorie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tous les mots de la maison forment une seule famille morphologique.",
+      "truth": "false",
+      "explain": "Un même thème ne suffit pas à établir cette parenté."
+     },
+     {
+      "text": "Un champ lexical impose un radical identique à tous les mots.",
+      "truth": "false",
+      "explain": "Le domaine commun ne demande pas une base commune."
+     },
+     {
+      "text": "La dérivation signifie simplement déplacer une virgule.",
+      "truth": "false",
+      "explain": "Elle concerne la formation lexicale."
+     },
+     {
+      "text": "Chaque mot d’une famille a obligatoirement la même classe.",
+      "truth": "false",
+      "explain": "La parenté ne supprime pas les différences de catégorie."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

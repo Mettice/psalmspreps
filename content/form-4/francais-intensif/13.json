@@ -1,0 +1,565 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 13,
+ "language": "fr",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "fi4-13",
+   "name": "Accorder le participe passé avec être"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans les modèles non pronominaux étudiés avec être, le participe passé s’accorde en genre et en nombre avec le sujet. Arrivé, arrivée, arrivés et arrivées représentent des accords différents du même participe. Cherche le sujet complet, même si un autre nom est voisin. Les constructions pronominales demandent d’autres analyses et ne sont pas couvertes par cette règle simplifiée. Un nom féminin placé dans un complément ne transforme pas automatiquement le sujet masculin.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras accorder un participe avec le sujet dans les emplois non pronominaux étudiés. Acquis mobilisés : la construction du passé composé. Pour la suite : le récit précis et la comparaison avec avoir."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Dans les modèles non pronominaux étudiés avec être, le participe passé s’accorde en genre et en nombre avec le sujet. Arrivé, arrivée, arrivés et arrivées représentent des accords différents du même participe. Cherche le sujet complet, même si un autre nom est voisin. Les constructions pronominales demandent d’autres analyses et ne sont pas couvertes par cette règle simplifiée. Un nom féminin placé dans un complément ne transforme pas automatiquement le sujet masculin."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles : {cap(fr2PasseCompose(\"arriver\",2))} à la bibliothèque ; {fr2PasseCompose(\"arriver\",3)} au club ; {fr2PasseCompose(\"partir\",6)} ; {fr2PasseCompose(\"partir\",7)}. Le lieu bibliothèque ne détermine pas le genre du sujet il. Ce sont les sujets des verbes qui expliquent les marques des participes."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Entoure être puis retrouve le sujet. Détermine genre et nombre, ajoute les marques nécessaires et vérifie l’emploi non pronominal. Justifie ton choix par le sujet plutôt que par le dernier nom lu."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sujet",
+    "meaning": "le groupe commandant ici l’accord avec être"
+   },
+   {
+    "word": "féminin singulier",
+    "meaning": "l’accord illustré par arrivée avec elle"
+   },
+   {
+    "word": "masculin pluriel",
+    "meaning": "l’accord illustré par partis avec ils"
+   },
+   {
+    "word": "féminin pluriel",
+    "meaning": "l’accord illustré par parties avec elles"
+   }
+  ],
+  "mistake": {
+   "wrong": "Club commande l’accord seulement parce qu’il est proche.",
+   "right": "le groupe commandant ici l’accord avec être.",
+   "why": "Le complément de lieu n’est pas le sujet."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans elle est arrivée au club, elle commande l’accord. Explique le choix.",
+  "steps": [
+   "le groupe commandant ici l’accord avec être.",
+   "Le complément de lieu n’est pas le sujet."
+  ],
+  "answer": "sujet",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-13-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "sujet : le groupe commandant ici l’accord avec être.",
+     "féminin singulier : l’accord illustré par arrivée avec elle.",
+     "masculin pluriel : l’accord illustré par partis avec ils.",
+     "féminin pluriel : l’accord illustré par parties avec elles."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-13-notions"
+    }
+   },
+   {
+    "id": "fi4-13-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Dans elle est arrivée au club, elle commande l’accord.",
+     "Avec elle : {fr2PasseCompose(\"arriver\",3)}.",
+     "Avec ils : {fr2PasseCompose(\"partir\",6)}.",
+     "Avec elles : {fr2PasseCompose(\"partir\",7)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-13-cas"
+    }
+   },
+   {
+    "id": "fi4-13-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Club commande l’accord seulement parce qu’il est proche. Correction : Le complément de lieu n’est pas le sujet.",
+     "Elle impose automatiquement arrivés. Correction : Le sujet est féminin singulier.",
+     "Ils impose automatiquement partie. Correction : Le sujet est masculin pluriel.",
+     "Elles impose automatiquement parti sans marques. Correction : Le sujet exige ici les marques féminine et plurielle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-13-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "sujet : le groupe commandant ici l’accord avec être.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le complément de lieu n’est pas le sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "féminin singulier : l’accord illustré par arrivée avec elle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet est féminin singulier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "masculin pluriel : l’accord illustré par partis avec ils.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet est masculin pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "féminin pluriel : l’accord illustré par parties avec elles.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet exige ici les marques féminine et plurielle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Club commande l’accord seulement parce qu’il est proche.",
+        "truth": "false",
+        "explain": "Le complément de lieu n’est pas le sujet."
+       },
+       {
+        "text": "Elle impose automatiquement arrivés.",
+        "truth": "false",
+        "explain": "Le sujet est féminin singulier."
+       },
+       {
+        "text": "Ils impose automatiquement partie.",
+        "truth": "false",
+        "explain": "Le sujet est masculin pluriel."
+       },
+       {
+        "text": "Elles impose automatiquement parti sans marques.",
+        "truth": "false",
+        "explain": "Le sujet exige ici les marques féminine et plurielle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-13-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le groupe commandant ici l’accord avec être ?",
+       "r": "sujet",
+       "w": [
+        "féminin singulier",
+        "masculin pluriel",
+        "féminin pluriel"
+       ],
+       "e": [
+        "Cela désigne l’accord illustré par arrivée avec elle, plutôt que la notion demandée.",
+        "Cela désigne l’accord illustré par partis avec ils, plutôt que la notion demandée.",
+        "Cela désigne l’accord illustré par parties avec elles, plutôt que la notion demandée."
+       ],
+       "y": "Le complément de lieu n’est pas le sujet."
+      },
+      {
+       "q": "Quel terme désigne l’accord illustré par arrivée avec elle ?",
+       "r": "féminin singulier",
+       "w": [
+        "sujet",
+        "masculin pluriel",
+        "féminin pluriel"
+       ],
+       "e": [
+        "Cela désigne le groupe commandant ici l’accord avec être, plutôt que la notion demandée.",
+        "Cela désigne l’accord illustré par partis avec ils, plutôt que la notion demandée.",
+        "Cela désigne l’accord illustré par parties avec elles, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet est féminin singulier."
+      },
+      {
+       "q": "Quel terme désigne l’accord illustré par partis avec ils ?",
+       "r": "masculin pluriel",
+       "w": [
+        "sujet",
+        "féminin singulier",
+        "féminin pluriel"
+       ],
+       "e": [
+        "Cela désigne le groupe commandant ici l’accord avec être, plutôt que la notion demandée.",
+        "Cela désigne l’accord illustré par arrivée avec elle, plutôt que la notion demandée.",
+        "Cela désigne l’accord illustré par parties avec elles, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet est masculin pluriel."
+      },
+      {
+       "q": "Quel terme désigne l’accord illustré par parties avec elles ?",
+       "r": "féminin pluriel",
+       "w": [
+        "sujet",
+        "féminin singulier",
+        "masculin pluriel"
+       ],
+       "e": [
+        "Cela désigne le groupe commandant ici l’accord avec être, plutôt que la notion demandée.",
+        "Cela désigne l’accord illustré par arrivée avec elle, plutôt que la notion demandée.",
+        "Cela désigne l’accord illustré par partis avec ils, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet exige ici les marques féminine et plurielle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-13-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans elle est arrivée au club, elle commande l’accord.\nQuelle notion convient ?",
+       "r": "sujet",
+       "w": [
+        "féminin singulier",
+        "masculin pluriel",
+        "féminin pluriel"
+       ],
+       "e": [
+        "Cela concerne l’accord illustré par arrivée avec elle. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord illustré par partis avec ils. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord illustré par parties avec elles. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le complément de lieu n’est pas le sujet."
+      },
+      {
+       "q": "Avec elle : {fr2PasseCompose(\"arriver\",3)}.\nQuelle notion convient ?",
+       "r": "féminin singulier",
+       "w": [
+        "sujet",
+        "masculin pluriel",
+        "féminin pluriel"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant ici l’accord avec être. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord illustré par partis avec ils. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord illustré par parties avec elles. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet est féminin singulier."
+      },
+      {
+       "q": "Avec ils : {fr2PasseCompose(\"partir\",6)}.\nQuelle notion convient ?",
+       "r": "masculin pluriel",
+       "w": [
+        "sujet",
+        "féminin singulier",
+        "féminin pluriel"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant ici l’accord avec être. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord illustré par arrivée avec elle. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord illustré par parties avec elles. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet est masculin pluriel."
+      },
+      {
+       "q": "Avec elles : {fr2PasseCompose(\"partir\",7)}.\nQuelle notion convient ?",
+       "r": "féminin pluriel",
+       "w": [
+        "sujet",
+        "féminin singulier",
+        "masculin pluriel"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant ici l’accord avec être. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord illustré par arrivée avec elle. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord illustré par partis avec ils. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet exige ici les marques féminine et plurielle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-13-accorder",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "arriver",
+      "partir",
+      "aller",
+      "tomber"
+     ]
+    },
+    "g": {
+     "pick": [
+      "m",
+      "f"
+     ]
+    },
+    "pl": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Complète le participe de « {v} » après être pour un sujet {fr2GenderNumber(g,pl)}.",
+   "correct": "{fr2Participle(v)+(g==\"f\" ? \"e\" : \"\")+(pl ? \"s\" : \"\")}",
+   "distractors": [
+    {
+     "text": "{fr2Participle(v)+(g==\"m\" ? \"e\" : \"\")+(pl ? \"s\" : \"\")}",
+     "misconception": "genre"
+    },
+    {
+     "text": "{fr2Participle(v)+(g==\"f\" ? \"e\" : \"\")+(!pl ? \"s\" : \"\")}",
+     "misconception": "nombre"
+    },
+    {
+     "text": "{fr2Participle(v)+(g==\"m\" ? \"e\" : \"\")+(!pl ? \"s\" : \"\")}",
+     "misconception": "deux"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "genre",
+     "explain": "Cette forme attribue au sujet l’autre genre."
+    },
+    {
+     "id": "nombre",
+     "explain": "Cette forme attribue au sujet l’autre nombre."
+    },
+    {
+     "id": "deux",
+     "explain": "Cette forme change à la fois genre et nombre du sujet."
+    }
+   ],
+   "solution": [
+    "Retrouve le sujet du verbe non pronominal étudié.",
+    "Le participe accordé est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-13-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "sujet",
+     "right": "Dans elle est arrivée au club, elle commande l’accord."
+    },
+    {
+     "left": "féminin singulier",
+     "right": "Avec elle : {fr2PasseCompose(\"arriver\",3)}."
+    },
+    {
+     "left": "masculin pluriel",
+     "right": "Avec ils : {fr2PasseCompose(\"partir\",6)}."
+    },
+    {
+     "left": "féminin pluriel",
+     "right": "Avec elles : {fr2PasseCompose(\"partir\",7)}."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-13-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "sujet : le groupe commandant ici l’accord avec être.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le complément de lieu n’est pas le sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "féminin singulier : l’accord illustré par arrivée avec elle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet est féminin singulier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "masculin pluriel : l’accord illustré par partis avec ils.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet est masculin pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "féminin pluriel : l’accord illustré par parties avec elles.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet exige ici les marques féminine et plurielle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Club commande l’accord seulement parce qu’il est proche.",
+      "truth": "false",
+      "explain": "Le complément de lieu n’est pas le sujet."
+     },
+     {
+      "text": "Elle impose automatiquement arrivés.",
+      "truth": "false",
+      "explain": "Le sujet est féminin singulier."
+     },
+     {
+      "text": "Ils impose automatiquement partie.",
+      "truth": "false",
+      "explain": "Le sujet est masculin pluriel."
+     },
+     {
+      "text": "Elles impose automatiquement parti sans marques.",
+      "truth": "false",
+      "explain": "Le sujet exige ici les marques féminine et plurielle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,611 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 27,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  11,
+  21
+ ],
+ "skills": [
+  {
+   "id": "fi4-27",
+   "name": "Lexique de l’environnement et de la planification familiale"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Deux champs sont réunis dans cette ligne du programme. Pour l’environnement, réduire concerne la quantité de déchets ; réemployer, un nouvel usage d’un objet adapté ; recycler, une transformation de matière. Le planning familial, ou planification familiale, concerne des choix informés sur le nombre d’enfants souhaité et l’espacement des naissances. Contraception désigne des moyens de prévenir une grossesse ; elle n’est pas synonyme de protection contre toutes les IST. Ce lexique général ne choisit aucune méthode pour une personne. Les questions personnelles relèvent d’un professionnel de santé qualifié.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer les termes environnementaux et ceux d’une information générale de santé sans leur prêter le même sens. Acquis mobilisés : les champs lexicaux et les lectures sociales. Pour la suite : les relatives, les affiches et les lectures de santé."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Deux champs sont réunis dans cette ligne du programme. Pour l’environnement, réduire concerne la quantité de déchets ; réemployer, un nouvel usage d’un objet adapté ; recycler, une transformation de matière. Le planning familial, ou planification familiale, concerne des choix informés sur le nombre d’enfants souhaité et l’espacement des naissances. Contraception désigne des moyens de prévenir une grossesse ; elle n’est pas synonyme de protection contre toutes les IST. Ce lexique général ne choisit aucune méthode pour une personne. Les questions personnelles relèvent d’un professionnel de santé qualifié."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Dialogue fictif : Le club prépare une affiche de réduction des déchets et une fiche de vocabulaire de santé. Bih sépare les thèmes au lieu de confondre recyclage et contraception. Ayuk propose d’expliquer prévention comme une intention de réduire un risque, en précisant ensuite de quel risque il s’agit. Aucun élève n’est invité à donner son histoire personnelle."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le domaine avant de définir le mot. Distingue une information générale d’un conseil individuel. N’ajoute pas une efficacité, une procédure ou une règle locale absente de la référence."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "réemploi",
+    "meaning": "un nouvel usage d’un objet adapté sans transformation de matière"
+   },
+   {
+    "word": "recyclage",
+    "meaning": "une transformation de matière pour produire une nouvelle ressource"
+   },
+   {
+    "word": "planification familiale",
+    "meaning": "une information et des choix sur naissances souhaitées et espacement"
+   },
+   {
+    "word": "contraception",
+    "meaning": "des moyens visant à prévenir une grossesse"
+   }
+  ],
+  "mistake": {
+   "wrong": "Réemployer prouve que toute la matière a déjà été recyclée.",
+   "right": "un nouvel usage d’un objet adapté sans transformation de matière.",
+   "why": "Le réemploi ne suppose pas cette transformation."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une boîte propre adaptée sert à nouveau de rangement. Explique le choix.",
+  "steps": [
+   "un nouvel usage d’un objet adapté sans transformation de matière.",
+   "Le réemploi ne suppose pas cette transformation."
+  ],
+  "answer": "réemploi",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-27-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "réemploi : un nouvel usage d’un objet adapté sans transformation de matière.",
+     "recyclage : une transformation de matière pour produire une nouvelle ressource.",
+     "planification familiale : une information et des choix sur naissances souhaitées et espacement.",
+     "contraception : des moyens visant à prévenir une grossesse."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-27-notions"
+    }
+   },
+   {
+    "id": "fi4-27-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Une boîte propre adaptée sert à nouveau de rangement.",
+     "Le mot désigne un processus après la collecte appropriée.",
+     "Une fiche définit le terme sans demander de confidence.",
+     "La définition précise le risque visé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-27-cas"
+    }
+   },
+   {
+    "id": "fi4-27-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Réemployer prouve que toute la matière a déjà été recyclée. Correction : Le réemploi ne suppose pas cette transformation.",
+     "Séparer deux boîtes prouve que tout est recyclé. Correction : Tri et transformation sont des étapes distinctes.",
+     "Ce terme autorise à imposer le même choix à chaque personne. Correction : Le sens concerne des choix informés, pas cette contrainte.",
+     "Tout contraceptif protège automatiquement de toutes les IST. Correction : Les protections ne sont pas identiques ; aucune méthode personnelle n’est choisie ici."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-27-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "réemploi : un nouvel usage d’un objet adapté sans transformation de matière.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le réemploi ne suppose pas cette transformation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "recyclage : une transformation de matière pour produire une nouvelle ressource.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Tri et transformation sont des étapes distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "planification familiale : une information et des choix sur naissances souhaitées et espacement.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens concerne des choix informés, pas cette contrainte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "contraception : des moyens visant à prévenir une grossesse.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les protections ne sont pas identiques ; aucune méthode personnelle n’est choisie ici. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Réemployer prouve que toute la matière a déjà été recyclée.",
+        "truth": "false",
+        "explain": "Le réemploi ne suppose pas cette transformation."
+       },
+       {
+        "text": "Séparer deux boîtes prouve que tout est recyclé.",
+        "truth": "false",
+        "explain": "Tri et transformation sont des étapes distinctes."
+       },
+       {
+        "text": "Ce terme autorise à imposer le même choix à chaque personne.",
+        "truth": "false",
+        "explain": "Le sens concerne des choix informés, pas cette contrainte."
+       },
+       {
+        "text": "Tout contraceptif protège automatiquement de toutes les IST.",
+        "truth": "false",
+        "explain": "Les protections ne sont pas identiques ; aucune méthode personnelle n’est choisie ici."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-27-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un nouvel usage d’un objet adapté sans transformation de matière ?",
+       "r": "réemploi",
+       "w": [
+        "recyclage",
+        "planification familiale",
+        "contraception"
+       ],
+       "e": [
+        "Cela désigne une transformation de matière pour produire une nouvelle ressource, plutôt que la notion demandée.",
+        "Cela désigne une information et des choix sur naissances souhaitées et espacement, plutôt que la notion demandée.",
+        "Cela désigne des moyens visant à prévenir une grossesse, plutôt que la notion demandée."
+       ],
+       "y": "Le réemploi ne suppose pas cette transformation."
+      },
+      {
+       "q": "Quel terme désigne une transformation de matière pour produire une nouvelle ressource ?",
+       "r": "recyclage",
+       "w": [
+        "réemploi",
+        "planification familiale",
+        "contraception"
+       ],
+       "e": [
+        "Cela désigne un nouvel usage d’un objet adapté sans transformation de matière, plutôt que la notion demandée.",
+        "Cela désigne une information et des choix sur naissances souhaitées et espacement, plutôt que la notion demandée.",
+        "Cela désigne des moyens visant à prévenir une grossesse, plutôt que la notion demandée."
+       ],
+       "y": "Tri et transformation sont des étapes distinctes."
+      },
+      {
+       "q": "Quel terme désigne une information et des choix sur naissances souhaitées et espacement ?",
+       "r": "planification familiale",
+       "w": [
+        "réemploi",
+        "recyclage",
+        "contraception"
+       ],
+       "e": [
+        "Cela désigne un nouvel usage d’un objet adapté sans transformation de matière, plutôt que la notion demandée.",
+        "Cela désigne une transformation de matière pour produire une nouvelle ressource, plutôt que la notion demandée.",
+        "Cela désigne des moyens visant à prévenir une grossesse, plutôt que la notion demandée."
+       ],
+       "y": "Le sens concerne des choix informés, pas cette contrainte."
+      },
+      {
+       "q": "Quel terme désigne des moyens visant à prévenir une grossesse ?",
+       "r": "contraception",
+       "w": [
+        "réemploi",
+        "recyclage",
+        "planification familiale"
+       ],
+       "e": [
+        "Cela désigne un nouvel usage d’un objet adapté sans transformation de matière, plutôt que la notion demandée.",
+        "Cela désigne une transformation de matière pour produire une nouvelle ressource, plutôt que la notion demandée.",
+        "Cela désigne une information et des choix sur naissances souhaitées et espacement, plutôt que la notion demandée."
+       ],
+       "y": "Les protections ne sont pas identiques ; aucune méthode personnelle n’est choisie ici."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-27-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une boîte propre adaptée sert à nouveau de rangement.\nQuelle notion convient ?",
+       "r": "réemploi",
+       "w": [
+        "recyclage",
+        "planification familiale",
+        "contraception"
+       ],
+       "e": [
+        "Cela concerne une transformation de matière pour produire une nouvelle ressource. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information et des choix sur naissances souhaitées et espacement. Compare cette définition avec le cas présenté.",
+        "Cela concerne des moyens visant à prévenir une grossesse. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le réemploi ne suppose pas cette transformation."
+      },
+      {
+       "q": "Le mot désigne un processus après la collecte appropriée.\nQuelle notion convient ?",
+       "r": "recyclage",
+       "w": [
+        "réemploi",
+        "planification familiale",
+        "contraception"
+       ],
+       "e": [
+        "Cela concerne un nouvel usage d’un objet adapté sans transformation de matière. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information et des choix sur naissances souhaitées et espacement. Compare cette définition avec le cas présenté.",
+        "Cela concerne des moyens visant à prévenir une grossesse. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Tri et transformation sont des étapes distinctes."
+      },
+      {
+       "q": "Une fiche définit le terme sans demander de confidence.\nQuelle notion convient ?",
+       "r": "planification familiale",
+       "w": [
+        "réemploi",
+        "recyclage",
+        "contraception"
+       ],
+       "e": [
+        "Cela concerne un nouvel usage d’un objet adapté sans transformation de matière. Compare cette définition avec le cas présenté.",
+        "Cela concerne une transformation de matière pour produire une nouvelle ressource. Compare cette définition avec le cas présenté.",
+        "Cela concerne des moyens visant à prévenir une grossesse. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens concerne des choix informés, pas cette contrainte."
+      },
+      {
+       "q": "La définition précise le risque visé.\nQuelle notion convient ?",
+       "r": "contraception",
+       "w": [
+        "réemploi",
+        "recyclage",
+        "planification familiale"
+       ],
+       "e": [
+        "Cela concerne un nouvel usage d’un objet adapté sans transformation de matière. Compare cette définition avec le cas présenté.",
+        "Cela concerne une transformation de matière pour produire une nouvelle ressource. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information et des choix sur naissances souhaitées et espacement. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les protections ne sont pas identiques ; aucune méthode personnelle n’est choisie ici."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-27-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une boîte adaptée sert de nouveau au rangement. Quel mot décrit l’action ?",
+       "r": "réemploi",
+       "w": [
+        "contraception",
+        "planification familiale",
+        "recyclage déjà prouvé"
+       ],
+       "e": [
+        "Le domaine n’est pas la grossesse.",
+        "Le domaine n’est pas l’espacement des naissances.",
+        "Aucune transformation n’est montrée."
+       ],
+       "y": "Distingue usage et transformation."
+      },
+      {
+       "q": "La fiche mentionne l’espacement des naissances souhaitées. Quel domaine est visé ?",
+       "r": "planification familiale",
+       "w": [
+        "tri des matières",
+        "famille morphologique de ranger",
+        "programme de chant"
+       ],
+       "e": [
+        "Le texte vise un choix de santé, pas des déchets.",
+        "Une famille lexicale n’est pas ce domaine.",
+        "Aucune mélodie n’est définie."
+       ],
+       "y": "Le contexte précise le champ."
+      },
+      {
+       "q": "Quelle phrase corrige une confusion sur la contraception ?",
+       "r": "Prévenir une grossesse ne signifie pas protéger automatiquement de toutes les IST.",
+       "w": [
+        "Tous les moyens ont exactement les mêmes protections.",
+        "Le mot donne à lui seul une prescription personnelle.",
+        "Une définition oblige à révéler sa vie privée."
+       ],
+       "e": [
+        "Les protections diffèrent.",
+        "Le choix individuel n’est pas fourni.",
+        "L’exercice ne demande aucune confidence."
+       ],
+       "y": "Garde la portée générale de la définition."
+      },
+      {
+       "q": "Pourquoi préciser le risque après prévention ?",
+       "r": "Parce que les moyens et protections dépendent du risque visé.",
+       "w": [
+        "Parce que prévention signifie toujours recyclage.",
+        "Parce que tout risque est identique.",
+        "Parce qu’une affiche garantit l’absence de maladie."
+       ],
+       "e": [
+        "Le domaine peut être différent.",
+        "Les risques ne sont pas interchangeables.",
+        "Informer ne garantit pas ce résultat."
+       ],
+       "y": "Le mot général demande un contexte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-27-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "réemploi",
+     "right": "Une boîte propre adaptée sert à nouveau de rangement."
+    },
+    {
+     "left": "recyclage",
+     "right": "Le mot désigne un processus après la collecte appropriée."
+    },
+    {
+     "left": "planification familiale",
+     "right": "Une fiche définit le terme sans demander de confidence."
+    },
+    {
+     "left": "contraception",
+     "right": "La définition précise le risque visé."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-27-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "réemploi : un nouvel usage d’un objet adapté sans transformation de matière.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le réemploi ne suppose pas cette transformation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "recyclage : une transformation de matière pour produire une nouvelle ressource.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Tri et transformation sont des étapes distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "planification familiale : une information et des choix sur naissances souhaitées et espacement.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens concerne des choix informés, pas cette contrainte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "contraception : des moyens visant à prévenir une grossesse.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les protections ne sont pas identiques ; aucune méthode personnelle n’est choisie ici. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Réemployer prouve que toute la matière a déjà été recyclée.",
+      "truth": "false",
+      "explain": "Le réemploi ne suppose pas cette transformation."
+     },
+     {
+      "text": "Séparer deux boîtes prouve que tout est recyclé.",
+      "truth": "false",
+      "explain": "Tri et transformation sont des étapes distinctes."
+     },
+     {
+      "text": "Ce terme autorise à imposer le même choix à chaque personne.",
+      "truth": "false",
+      "explain": "Le sens concerne des choix informés, pas cette contrainte."
+     },
+     {
+      "text": "Tout contraceptif protège automatiquement de toutes les IST.",
+      "truth": "false",
+      "explain": "Les protections ne sont pas identiques ; aucune méthode personnelle n’est choisie ici."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

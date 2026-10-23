@@ -1,0 +1,587 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 42,
+ "language": "fr",
+ "prerequisites": [
+  6,
+  13,
+  29
+ ],
+ "skills": [
+  {
+   "id": "fi4-42",
+   "name": "Accorder le participe avec avoir : COD antéposé"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Avec avoir, le participe passé ne s’accorde pas avec le sujet simplement parce qu’il est féminin ou pluriel. Dans les cas simples étudiés, il s’accorde avec le complément direct si ce complément est placé avant le verbe. Sans complément direct ou si celui-ci suit le verbe, le participe reste invariable dans ces modèles. Que peut reprendre un nom placé avant. Distingue complément direct et indirect. Les participes suivis d’infinitif, les verbes impersonnels et certains pronoms demandent des analyses particulières non étudiées ici.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras repérer le complément direct placé avant avoir et accorder le participe avec lui. Acquis mobilisés : le passé composé et les pronoms relatifs. Pour la suite : la relecture des textes et descriptions finales."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Avec avoir, le participe passé ne s’accorde pas avec le sujet simplement parce qu’il est féminin ou pluriel. Dans les cas simples étudiés, il s’accorde avec le complément direct si ce complément est placé avant le verbe. Sans complément direct ou si celui-ci suit le verbe, le participe reste invariable dans ces modèles. Que peut reprendre un nom placé avant. Distingue complément direct et indirect. Les participes suivis d’infinitif, les verbes impersonnels et certains pronoms demandent des analyses particulières non étudiées ici."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Compare : Bih a {fr2Participle(\"écrire\")} la lettre ; la lettre que Bih a {fr2Participle(\"écrire\")+\"e\"}. Les messages que Bih a {fr2Participle(\"lire\")+\"s\"} imposent le masculin pluriel. Dans elle a parlé aux voisines, aux voisines est indirect : il ne commande pas cet accord."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Pose la question portant sur l’objet direct, retrouve son référent et situe-le avant ou après le verbe. Détermine son genre et son nombre seulement si l’accord est requis. Ne prends pas automatiquement Bih comme référence du participe."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "complément direct",
+    "meaning": "un complément rattaché directement au verbe dans le modèle"
+   },
+   {
+    "word": "COD antéposé",
+    "meaning": "le complément direct repris avant la forme verbale"
+   },
+   {
+    "word": "COD postposé",
+    "meaning": "le complément direct placé après le verbe"
+   },
+   {
+    "word": "complément indirect",
+    "meaning": "un complément lié par la construction indirecte du verbe"
+   }
+  ],
+  "mistake": {
+   "wrong": "Chaque complément introduit par à est automatiquement direct.",
+   "right": "un complément rattaché directement au verbe dans le modèle.",
+   "why": "La construction indirecte doit être distinguée."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : les lettres que Bih a ___, avec écrire.",
+  "steps": [
+   "Que reprend les lettres, complément direct de écrire.",
+   "Il précède le verbe et est féminin pluriel."
+  ],
+  "answer": "{fr2Participle(\"écrire\")+\"es\"}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-42-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "complément direct : un complément rattaché directement au verbe dans le modèle.",
+     "COD antéposé : le complément direct repris avant la forme verbale.",
+     "COD postposé : le complément direct placé après le verbe.",
+     "complément indirect : un complément lié par la construction indirecte du verbe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-42-notions"
+    }
+   },
+   {
+    "id": "fi4-42-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "La lettre complète directement écrire.",
+     "Dans les lettres que Bih a écrites, que reprend les lettres.",
+     "Dans Bih a écrit les lettres, le complément suit écrit.",
+     "Aux voisines est indirect dans elle a parlé aux voisines."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-42-cas"
+    }
+   },
+   {
+    "id": "fi4-42-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Chaque complément introduit par à est automatiquement direct. Correction : La construction indirecte doit être distinguée.",
+     "Le nom le plus proche après le verbe décide toujours de l’accord. Correction : C’est le complément direct placé avant qui commande ici l’accord.",
+     "Un complément placé après impose ici écrites. Correction : Le participe reste invariable dans ce modèle avec avoir.",
+     "Le complément indirect commande toujours l’accord du participe avec avoir. Correction : La règle étudiée concerne le complément direct."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-42-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "complément direct : un complément rattaché directement au verbe dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La construction indirecte doit être distinguée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "COD antéposé : le complément direct repris avant la forme verbale.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : C’est le complément direct placé avant qui commande ici l’accord. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "COD postposé : le complément direct placé après le verbe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le participe reste invariable dans ce modèle avec avoir. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "complément indirect : un complément lié par la construction indirecte du verbe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La règle étudiée concerne le complément direct. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Chaque complément introduit par à est automatiquement direct.",
+        "truth": "false",
+        "explain": "La construction indirecte doit être distinguée."
+       },
+       {
+        "text": "Le nom le plus proche après le verbe décide toujours de l’accord.",
+        "truth": "false",
+        "explain": "C’est le complément direct placé avant qui commande ici l’accord."
+       },
+       {
+        "text": "Un complément placé après impose ici écrites.",
+        "truth": "false",
+        "explain": "Le participe reste invariable dans ce modèle avec avoir."
+       },
+       {
+        "text": "Le complément indirect commande toujours l’accord du participe avec avoir.",
+        "truth": "false",
+        "explain": "La règle étudiée concerne le complément direct."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-42-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un complément rattaché directement au verbe dans le modèle ?",
+       "r": "complément direct",
+       "w": [
+        "COD antéposé",
+        "COD postposé",
+        "complément indirect"
+       ],
+       "e": [
+        "Cela désigne le complément direct repris avant la forme verbale, plutôt que la notion demandée.",
+        "Cela désigne le complément direct placé après le verbe, plutôt que la notion demandée.",
+        "Cela désigne un complément lié par la construction indirecte du verbe, plutôt que la notion demandée."
+       ],
+       "y": "La construction indirecte doit être distinguée."
+      },
+      {
+       "q": "Quel terme désigne le complément direct repris avant la forme verbale ?",
+       "r": "COD antéposé",
+       "w": [
+        "complément direct",
+        "COD postposé",
+        "complément indirect"
+       ],
+       "e": [
+        "Cela désigne un complément rattaché directement au verbe dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le complément direct placé après le verbe, plutôt que la notion demandée.",
+        "Cela désigne un complément lié par la construction indirecte du verbe, plutôt que la notion demandée."
+       ],
+       "y": "C’est le complément direct placé avant qui commande ici l’accord."
+      },
+      {
+       "q": "Quel terme désigne le complément direct placé après le verbe ?",
+       "r": "COD postposé",
+       "w": [
+        "complément direct",
+        "COD antéposé",
+        "complément indirect"
+       ],
+       "e": [
+        "Cela désigne un complément rattaché directement au verbe dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le complément direct repris avant la forme verbale, plutôt que la notion demandée.",
+        "Cela désigne un complément lié par la construction indirecte du verbe, plutôt que la notion demandée."
+       ],
+       "y": "Le participe reste invariable dans ce modèle avec avoir."
+      },
+      {
+       "q": "Quel terme désigne un complément lié par la construction indirecte du verbe ?",
+       "r": "complément indirect",
+       "w": [
+        "complément direct",
+        "COD antéposé",
+        "COD postposé"
+       ],
+       "e": [
+        "Cela désigne un complément rattaché directement au verbe dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le complément direct repris avant la forme verbale, plutôt que la notion demandée.",
+        "Cela désigne le complément direct placé après le verbe, plutôt que la notion demandée."
+       ],
+       "y": "La règle étudiée concerne le complément direct."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-42-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La lettre complète directement écrire.\nQuelle notion convient ?",
+       "r": "complément direct",
+       "w": [
+        "COD antéposé",
+        "COD postposé",
+        "complément indirect"
+       ],
+       "e": [
+        "Cela concerne le complément direct repris avant la forme verbale. Compare cette définition avec le cas présenté.",
+        "Cela concerne le complément direct placé après le verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne un complément lié par la construction indirecte du verbe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La construction indirecte doit être distinguée."
+      },
+      {
+       "q": "Dans les lettres que Bih a écrites, que reprend les lettres.\nQuelle notion convient ?",
+       "r": "COD antéposé",
+       "w": [
+        "complément direct",
+        "COD postposé",
+        "complément indirect"
+       ],
+       "e": [
+        "Cela concerne un complément rattaché directement au verbe dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le complément direct placé après le verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne un complément lié par la construction indirecte du verbe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "C’est le complément direct placé avant qui commande ici l’accord."
+      },
+      {
+       "q": "Dans Bih a écrit les lettres, le complément suit écrit.\nQuelle notion convient ?",
+       "r": "COD postposé",
+       "w": [
+        "complément direct",
+        "COD antéposé",
+        "complément indirect"
+       ],
+       "e": [
+        "Cela concerne un complément rattaché directement au verbe dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le complément direct repris avant la forme verbale. Compare cette définition avec le cas présenté.",
+        "Cela concerne un complément lié par la construction indirecte du verbe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le participe reste invariable dans ce modèle avec avoir."
+      },
+      {
+       "q": "Aux voisines est indirect dans elle a parlé aux voisines.\nQuelle notion convient ?",
+       "r": "complément indirect",
+       "w": [
+        "complément direct",
+        "COD antéposé",
+        "COD postposé"
+       ],
+       "e": [
+        "Cela concerne un complément rattaché directement au verbe dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le complément direct repris avant la forme verbale. Compare cette définition avec le cas présenté.",
+        "Cela concerne le complément direct placé après le verbe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La règle étudiée concerne le complément direct."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-42-accorder",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "label": "la lettre",
+       "v": "écrire",
+       "g": "f",
+       "pl": false
+      },
+      {
+       "label": "les lettres",
+       "v": "écrire",
+       "g": "f",
+       "pl": true
+      },
+      {
+       "label": "le message",
+       "v": "lire",
+       "g": "m",
+       "pl": false
+      },
+      {
+       "label": "les messages",
+       "v": "lire",
+       "g": "m",
+       "pl": true
+      },
+      {
+       "label": "les affiches",
+       "v": "préparer",
+       "g": "f",
+       "pl": true
+      },
+      {
+       "label": "la fiche",
+       "v": "finir",
+       "g": "f",
+       "pl": false
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde le participe de « {X.v} » : « {X.label} que Bih a ___ ». Le groupe repris est {fr2GenderNumber(X.g,X.pl)}.",
+   "correct": "{fr2Participle(X.v)+(X.g==\"f\" ? \"e\" : \"\")+(X.pl ? \"s\" : \"\")}",
+   "distractors": [
+    {
+     "text": "{fr2Participle(X.v)+(X.g==\"m\" ? \"e\" : \"\")+(X.pl ? \"s\" : \"\")}",
+     "misconception": "genre"
+    },
+    {
+     "text": "{fr2Participle(X.v)+(X.g==\"f\" ? \"e\" : \"\")+(!X.pl ? \"s\" : \"\")}",
+     "misconception": "nombre"
+    },
+    {
+     "text": "{fr2Participle(X.v)+(X.g==\"m\" ? \"e\" : \"\")+(!X.pl ? \"s\" : \"\")}",
+     "misconception": "deux"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "genre",
+     "explain": "Le genre ne correspond pas au complément direct repris par que."
+    },
+    {
+     "id": "nombre",
+     "explain": "Le nombre ne correspond pas au complément direct repris par que."
+    },
+    {
+     "id": "deux",
+     "explain": "Cette forme change genre et nombre du complément direct."
+    }
+   ],
+   "solution": [
+    "Que reprend ici le complément direct placé avant le verbe.",
+    "Le participe s’accorde avec ce complément : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-42-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "complément direct",
+     "right": "La lettre complète directement écrire."
+    },
+    {
+     "left": "COD antéposé",
+     "right": "Dans les lettres que Bih a écrites, que reprend les lettres."
+    },
+    {
+     "left": "COD postposé",
+     "right": "Dans Bih a écrit les lettres, le complément suit écrit."
+    },
+    {
+     "left": "complément indirect",
+     "right": "Aux voisines est indirect dans elle a parlé aux voisines."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-42-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "complément direct : un complément rattaché directement au verbe dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La construction indirecte doit être distinguée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "COD antéposé : le complément direct repris avant la forme verbale.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : C’est le complément direct placé avant qui commande ici l’accord. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "COD postposé : le complément direct placé après le verbe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le participe reste invariable dans ce modèle avec avoir. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "complément indirect : un complément lié par la construction indirecte du verbe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La règle étudiée concerne le complément direct. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chaque complément introduit par à est automatiquement direct.",
+      "truth": "false",
+      "explain": "La construction indirecte doit être distinguée."
+     },
+     {
+      "text": "Le nom le plus proche après le verbe décide toujours de l’accord.",
+      "truth": "false",
+      "explain": "C’est le complément direct placé avant qui commande ici l’accord."
+     },
+     {
+      "text": "Un complément placé après impose ici écrites.",
+      "truth": "false",
+      "explain": "Le participe reste invariable dans ce modèle avec avoir."
+     },
+     {
+      "text": "Le complément indirect commande toujours l’accord du participe avec avoir.",
+      "truth": "false",
+      "explain": "La règle étudiée concerne le complément direct."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

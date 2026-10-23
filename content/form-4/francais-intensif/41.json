@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 41,
+ "language": "fr",
+ "prerequisites": [
+  19,
+  39
+ ],
+ "skills": [
+  {
+   "id": "fi4-41",
+   "name": "Préparer un chant collectif"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un chant associe texte, rythme et mélodie. À l’écrit, on peut préparer les paroles, les répétitions et les entrées du groupe. Un refrain revient ; un couplet développe un élément du texte. Une barre peut servir de repère de groupe de sens dans la préparation, sans fixer à elle seule les notes ou la durée. Les paroles ci-dessous sont originales et n’empruntent pas une chanson connue. Il faut un modèle vocal ou une mélodie choisie avec le professeur pour réellement chanter.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras repérer refrain groupes de sens et indications d’entrée dans un texte original à mettre en voix. Acquis mobilisés : les liaisons et les tours de parole. Pour la suite : la récitation et une pratique vocale accompagnée."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un chant associe texte, rythme et mélodie. À l’écrit, on peut préparer les paroles, les répétitions et les entrées du groupe. Un refrain revient ; un couplet développe un élément du texte. Une barre peut servir de repère de groupe de sens dans la préparation, sans fixer à elle seule les notes ou la durée. Les paroles ci-dessous sont originales et n’empruntent pas une chanson connue. Il faut un modèle vocal ou une mélodie choisie avec le professeur pour réellement chanter."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Paroles originales. Couplet : « Dans notre cour / une voix propose ; une autre répond / et le cercle écoute. » Refrain : « Laissons une place / à chaque voix. » Le refrain est repris après le couplet. Les barres montrent des groupes à préparer ; aucune note ou piste sonore n’est fournie."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère les reprises et les mots importants, puis note où le groupe entre. Pratique doucement avec un modèle et des pauses naturelles, sans forcer la voix. Les questions vérifient la lecture des paroles, pas la justesse d’une note."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "refrain",
+    "meaning": "la partie destinée à revenir dans le chant"
+   },
+   {
+    "word": "couplet",
+    "meaning": "une partie développant un élément des paroles"
+   },
+   {
+    "word": "groupe de sens",
+    "meaning": "une unité de mots préparée ensemble pour rester intelligible"
+   },
+   {
+    "word": "entrée collective",
+    "meaning": "le moment préparé pour commencer ensemble"
+   }
+  ],
+  "mistake": {
+   "wrong": "Un refrain doit forcément changer tous ses mots à chaque reprise.",
+   "right": "la partie destinée à revenir dans le chant.",
+   "why": "La répétition le rend reconnaissable."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Laissons une place à chaque voix revient dans le modèle. Explique le choix.",
+  "steps": [
+   "la partie destinée à revenir dans le chant.",
+   "La répétition le rend reconnaissable."
+  ],
+  "answer": "refrain",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-41-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "refrain : la partie destinée à revenir dans le chant.",
+     "couplet : une partie développant un élément des paroles.",
+     "groupe de sens : une unité de mots préparée ensemble pour rester intelligible.",
+     "entrée collective : le moment préparé pour commencer ensemble."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-41-notions"
+    }
+   },
+   {
+    "id": "fi4-41-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Laissons une place à chaque voix revient dans le modèle.",
+     "Dans notre cour décrit la scène du modèle.",
+     "Laissons une place forme un groupe dans le modèle.",
+     "Le groupe attend le signal avant le refrain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-41-cas"
+    }
+   },
+   {
+    "id": "fi4-41-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Un refrain doit forcément changer tous ses mots à chaque reprise. Correction : La répétition le rend reconnaissable.",
+     "Un couplet est obligatoirement un diagnostic de santé. Correction : Il développe ici la scène, pas une donnée médicale.",
+     "Toute barre écrite fixe forcément une note précise. Correction : La barre prépare ici le sens, pas les hauteurs musicales.",
+     "Une bonne réponse écrite prouve une entrée vocale synchronisée. Correction : L’entrée réelle doit être pratiquée et écoutée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-41-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "refrain : la partie destinée à revenir dans le chant.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La répétition le rend reconnaissable. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "couplet : une partie développant un élément des paroles.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il développe ici la scène, pas une donnée médicale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "groupe de sens : une unité de mots préparée ensemble pour rester intelligible.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La barre prépare ici le sens, pas les hauteurs musicales. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "entrée collective : le moment préparé pour commencer ensemble.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’entrée réelle doit être pratiquée et écoutée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un refrain doit forcément changer tous ses mots à chaque reprise.",
+        "truth": "false",
+        "explain": "La répétition le rend reconnaissable."
+       },
+       {
+        "text": "Un couplet est obligatoirement un diagnostic de santé.",
+        "truth": "false",
+        "explain": "Il développe ici la scène, pas une donnée médicale."
+       },
+       {
+        "text": "Toute barre écrite fixe forcément une note précise.",
+        "truth": "false",
+        "explain": "La barre prépare ici le sens, pas les hauteurs musicales."
+       },
+       {
+        "text": "Une bonne réponse écrite prouve une entrée vocale synchronisée.",
+        "truth": "false",
+        "explain": "L’entrée réelle doit être pratiquée et écoutée."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-41-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la partie destinée à revenir dans le chant ?",
+       "r": "refrain",
+       "w": [
+        "couplet",
+        "groupe de sens",
+        "entrée collective"
+       ],
+       "e": [
+        "Cela désigne une partie développant un élément des paroles, plutôt que la notion demandée.",
+        "Cela désigne une unité de mots préparée ensemble pour rester intelligible, plutôt que la notion demandée.",
+        "Cela désigne le moment préparé pour commencer ensemble, plutôt que la notion demandée."
+       ],
+       "y": "La répétition le rend reconnaissable."
+      },
+      {
+       "q": "Quel terme désigne une partie développant un élément des paroles ?",
+       "r": "couplet",
+       "w": [
+        "refrain",
+        "groupe de sens",
+        "entrée collective"
+       ],
+       "e": [
+        "Cela désigne la partie destinée à revenir dans le chant, plutôt que la notion demandée.",
+        "Cela désigne une unité de mots préparée ensemble pour rester intelligible, plutôt que la notion demandée.",
+        "Cela désigne le moment préparé pour commencer ensemble, plutôt que la notion demandée."
+       ],
+       "y": "Il développe ici la scène, pas une donnée médicale."
+      },
+      {
+       "q": "Quel terme désigne une unité de mots préparée ensemble pour rester intelligible ?",
+       "r": "groupe de sens",
+       "w": [
+        "refrain",
+        "couplet",
+        "entrée collective"
+       ],
+       "e": [
+        "Cela désigne la partie destinée à revenir dans le chant, plutôt que la notion demandée.",
+        "Cela désigne une partie développant un élément des paroles, plutôt que la notion demandée.",
+        "Cela désigne le moment préparé pour commencer ensemble, plutôt que la notion demandée."
+       ],
+       "y": "La barre prépare ici le sens, pas les hauteurs musicales."
+      },
+      {
+       "q": "Quel terme désigne le moment préparé pour commencer ensemble ?",
+       "r": "entrée collective",
+       "w": [
+        "refrain",
+        "couplet",
+        "groupe de sens"
+       ],
+       "e": [
+        "Cela désigne la partie destinée à revenir dans le chant, plutôt que la notion demandée.",
+        "Cela désigne une partie développant un élément des paroles, plutôt que la notion demandée.",
+        "Cela désigne une unité de mots préparée ensemble pour rester intelligible, plutôt que la notion demandée."
+       ],
+       "y": "L’entrée réelle doit être pratiquée et écoutée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-41-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Laissons une place à chaque voix revient dans le modèle.\nQuelle notion convient ?",
+       "r": "refrain",
+       "w": [
+        "couplet",
+        "groupe de sens",
+        "entrée collective"
+       ],
+       "e": [
+        "Cela concerne une partie développant un élément des paroles. Compare cette définition avec le cas présenté.",
+        "Cela concerne une unité de mots préparée ensemble pour rester intelligible. Compare cette définition avec le cas présenté.",
+        "Cela concerne le moment préparé pour commencer ensemble. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La répétition le rend reconnaissable."
+      },
+      {
+       "q": "Dans notre cour décrit la scène du modèle.\nQuelle notion convient ?",
+       "r": "couplet",
+       "w": [
+        "refrain",
+        "groupe de sens",
+        "entrée collective"
+       ],
+       "e": [
+        "Cela concerne la partie destinée à revenir dans le chant. Compare cette définition avec le cas présenté.",
+        "Cela concerne une unité de mots préparée ensemble pour rester intelligible. Compare cette définition avec le cas présenté.",
+        "Cela concerne le moment préparé pour commencer ensemble. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il développe ici la scène, pas une donnée médicale."
+      },
+      {
+       "q": "Laissons une place forme un groupe dans le modèle.\nQuelle notion convient ?",
+       "r": "groupe de sens",
+       "w": [
+        "refrain",
+        "couplet",
+        "entrée collective"
+       ],
+       "e": [
+        "Cela concerne la partie destinée à revenir dans le chant. Compare cette définition avec le cas présenté.",
+        "Cela concerne une partie développant un élément des paroles. Compare cette définition avec le cas présenté.",
+        "Cela concerne le moment préparé pour commencer ensemble. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La barre prépare ici le sens, pas les hauteurs musicales."
+      },
+      {
+       "q": "Le groupe attend le signal avant le refrain.\nQuelle notion convient ?",
+       "r": "entrée collective",
+       "w": [
+        "refrain",
+        "couplet",
+        "groupe de sens"
+       ],
+       "e": [
+        "Cela concerne la partie destinée à revenir dans le chant. Compare cette définition avec le cas présenté.",
+        "Cela concerne une partie développant un élément des paroles. Compare cette définition avec le cas présenté.",
+        "Cela concerne une unité de mots préparée ensemble pour rester intelligible. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’entrée réelle doit être pratiquée et écoutée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-41-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle partie revient dans le modèle ?",
+       "r": "Laissons une place à chaque voix.",
+       "w": [
+        "Le nom complet du professeur absent.",
+        "Une liste de notes fournie.",
+        "Un enregistrement caché."
+       ],
+       "e": [
+        "Ce nom n’est pas fourni.",
+        "Aucune notation musicale n’est donnée.",
+        "Il n’y a pas d’enregistrement."
+       ],
+       "y": "Le texte annonce le refrain."
+      },
+      {
+       "q": "Que signifient les barres de cette préparation ?",
+       "r": "Des groupes de sens à préparer.",
+       "w": [
+        "Des notes exactement imposées.",
+        "Une preuve de chant déjà réalisé.",
+        "Des adresses de personnes réelles."
+       ],
+       "e": [
+        "Les hauteurs ne sont pas fixées.",
+        "La préparation n’est pas la prestation.",
+        "Aucune adresse n’est donnée."
+       ],
+       "y": "Respecte la légende du modèle."
+      },
+      {
+       "q": "Pour commencer ensemble, que peut préparer le groupe ?",
+       "r": "Un signal d’entrée convenu.",
+       "w": [
+        "Une accusation contre un camarade.",
+        "Un changement secret sans avertir.",
+        "La suppression de toute écoute."
+       ],
+       "e": [
+        "Cela ne coordonne pas le début.",
+        "Les partenaires ne pourraient pas se coordonner.",
+        "L’écoute est utile au chant collectif."
+       ],
+       "y": "L’entrée doit être partagée."
+      },
+      {
+       "q": "Que manque-t-il pour évaluer la justesse chantée ?",
+       "r": "Une pratique sonore réellement entendue.",
+       "w": [
+        "Une nouvelle couleur de texte seulement.",
+        "Le nombre de pages du cahier.",
+        "Une opinion sur la valeur des personnes."
+       ],
+       "e": [
+        "La couleur ne produit pas de son.",
+        "Le nombre de pages n’établit pas la justesse.",
+        "La valeur d’une personne n’est pas la note chantée."
+       ],
+       "y": "L’écran enseigne la préparation écrite."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-41-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "refrain",
+     "right": "Laissons une place à chaque voix revient dans le modèle."
+    },
+    {
+     "left": "couplet",
+     "right": "Dans notre cour décrit la scène du modèle."
+    },
+    {
+     "left": "groupe de sens",
+     "right": "Laissons une place forme un groupe dans le modèle."
+    },
+    {
+     "left": "entrée collective",
+     "right": "Le groupe attend le signal avant le refrain."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-41-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "refrain : la partie destinée à revenir dans le chant.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La répétition le rend reconnaissable. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "couplet : une partie développant un élément des paroles.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il développe ici la scène, pas une donnée médicale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "groupe de sens : une unité de mots préparée ensemble pour rester intelligible.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La barre prépare ici le sens, pas les hauteurs musicales. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "entrée collective : le moment préparé pour commencer ensemble.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’entrée réelle doit être pratiquée et écoutée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un refrain doit forcément changer tous ses mots à chaque reprise.",
+      "truth": "false",
+      "explain": "La répétition le rend reconnaissable."
+     },
+     {
+      "text": "Un couplet est obligatoirement un diagnostic de santé.",
+      "truth": "false",
+      "explain": "Il développe ici la scène, pas une donnée médicale."
+     },
+     {
+      "text": "Toute barre écrite fixe forcément une note précise.",
+      "truth": "false",
+      "explain": "La barre prépare ici le sens, pas les hauteurs musicales."
+     },
+     {
+      "text": "Une bonne réponse écrite prouve une entrée vocale synchronisée.",
+      "truth": "false",
+      "explain": "L’entrée réelle doit être pratiquée et écoutée."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

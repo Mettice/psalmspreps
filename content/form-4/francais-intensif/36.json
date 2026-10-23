@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 36,
+ "language": "fr",
+ "prerequisites": [
+  11,
+  29
+ ],
+ "skills": [
+  {
+   "id": "fi4-36",
+   "name": "Former des noms composés"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un nom composé forme une unité de sens à partir de plusieurs éléments. Ceux-ci peuvent être séparés par des espaces, un trait d’union ou être soudés. La présence d’un trait d’union n’est donc pas le seul critère. On rencontre nom + nom, nom + préposition + nom, adjectif + nom et verbe + nom. Identifie la construction du mot réellement employé ; n’invente pas un composé pour chaque suite de mots. Le dictionnaire aide à vérifier sens et graphie.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras reconnaître une unité de sens construite avec plusieurs éléments et analyser ses composants. Acquis mobilisés : les familles de mots et les groupes nominaux. Pour la suite : les accords des noms composés."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un nom composé forme une unité de sens à partir de plusieurs éléments. Ceux-ci peuvent être séparés par des espaces, un trait d’union ou être soudés. La présence d’un trait d’union n’est donc pas le seul critère. On rencontre nom + nom, nom + préposition + nom, adjectif + nom et verbe + nom. Identifie la construction du mot réellement employé ; n’invente pas un composé pour chaque suite de mots. Le dictionnaire aide à vérifier sens et graphie."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles : chou-fleur associe des noms ; pomme de terre conserve une préposition ; coffre-fort associe un nom et un adjectif ; tire-bouchon associe une forme verbale et un nom. Le sens de pomme de terre ne se réduit pas à une pomme située sur le sol."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie l’unité nommée, puis les éléments et leur catégorie. Vérifie l’orthographe du composé. Garde distinctes sa formation et la règle de son pluriel, qui sera examinée ensuite."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "unité lexicale",
+    "meaning": "un ensemble employé comme un nom avec un sens établi"
+   },
+   {
+    "word": "nom et adjectif",
+    "meaning": "la structure illustrée par coffre-fort"
+   },
+   {
+    "word": "verbe et nom",
+    "meaning": "la structure illustrée par tire-bouchon"
+   },
+   {
+    "word": "nom préposition nom",
+    "meaning": "la structure illustrée par pomme de terre"
+   }
+  ],
+  "mistake": {
+   "wrong": "Toute suite de mots voisine forme nécessairement un nom composé.",
+   "right": "un ensemble employé comme un nom avec un sens établi.",
+   "why": "Le sens établi et la formation doivent être vérifiés."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Pomme de terre nomme une réalité déterminée. Explique le choix.",
+  "steps": [
+   "un ensemble employé comme un nom avec un sens établi.",
+   "Le sens établi et la formation doivent être vérifiés."
+  ],
+  "answer": "unité lexicale",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-36-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "unité lexicale : un ensemble employé comme un nom avec un sens établi.",
+     "nom et adjectif : la structure illustrée par coffre-fort.",
+     "verbe et nom : la structure illustrée par tire-bouchon.",
+     "nom préposition nom : la structure illustrée par pomme de terre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-36-notions"
+    }
+   },
+   {
+    "id": "fi4-36-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Pomme de terre nomme une réalité déterminée.",
+     "Fort qualifie coffre dans ce composé.",
+     "Tire est une forme verbale dans ce composé.",
+     "De relie les noms dans pomme de terre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-36-cas"
+    }
+   },
+   {
+    "id": "fi4-36-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Toute suite de mots voisine forme nécessairement un nom composé. Correction : Le sens établi et la formation doivent être vérifiés.",
+     "Fort est obligatoirement une préposition dans coffre-fort. Correction : L’analyse distingue nom et adjectif.",
+     "Tire est ici un adjectif de couleur. Correction : Le premier élément correspond au verbe tirer.",
+     "Tous les noms composés doivent s’écrire sans espace. Correction : Certains conservent espaces et préposition."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-36-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "unité lexicale : un ensemble employé comme un nom avec un sens établi.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens établi et la formation doivent être vérifiés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "nom et adjectif : la structure illustrée par coffre-fort.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’analyse distingue nom et adjectif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "verbe et nom : la structure illustrée par tire-bouchon.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le premier élément correspond au verbe tirer. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "nom préposition nom : la structure illustrée par pomme de terre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Certains conservent espaces et préposition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Toute suite de mots voisine forme nécessairement un nom composé.",
+        "truth": "false",
+        "explain": "Le sens établi et la formation doivent être vérifiés."
+       },
+       {
+        "text": "Fort est obligatoirement une préposition dans coffre-fort.",
+        "truth": "false",
+        "explain": "L’analyse distingue nom et adjectif."
+       },
+       {
+        "text": "Tire est ici un adjectif de couleur.",
+        "truth": "false",
+        "explain": "Le premier élément correspond au verbe tirer."
+       },
+       {
+        "text": "Tous les noms composés doivent s’écrire sans espace.",
+        "truth": "false",
+        "explain": "Certains conservent espaces et préposition."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-36-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un ensemble employé comme un nom avec un sens établi ?",
+       "r": "unité lexicale",
+       "w": [
+        "nom et adjectif",
+        "verbe et nom",
+        "nom préposition nom"
+       ],
+       "e": [
+        "Cela désigne la structure illustrée par coffre-fort, plutôt que la notion demandée.",
+        "Cela désigne la structure illustrée par tire-bouchon, plutôt que la notion demandée.",
+        "Cela désigne la structure illustrée par pomme de terre, plutôt que la notion demandée."
+       ],
+       "y": "Le sens établi et la formation doivent être vérifiés."
+      },
+      {
+       "q": "Quel terme désigne la structure illustrée par coffre-fort ?",
+       "r": "nom et adjectif",
+       "w": [
+        "unité lexicale",
+        "verbe et nom",
+        "nom préposition nom"
+       ],
+       "e": [
+        "Cela désigne un ensemble employé comme un nom avec un sens établi, plutôt que la notion demandée.",
+        "Cela désigne la structure illustrée par tire-bouchon, plutôt que la notion demandée.",
+        "Cela désigne la structure illustrée par pomme de terre, plutôt que la notion demandée."
+       ],
+       "y": "L’analyse distingue nom et adjectif."
+      },
+      {
+       "q": "Quel terme désigne la structure illustrée par tire-bouchon ?",
+       "r": "verbe et nom",
+       "w": [
+        "unité lexicale",
+        "nom et adjectif",
+        "nom préposition nom"
+       ],
+       "e": [
+        "Cela désigne un ensemble employé comme un nom avec un sens établi, plutôt que la notion demandée.",
+        "Cela désigne la structure illustrée par coffre-fort, plutôt que la notion demandée.",
+        "Cela désigne la structure illustrée par pomme de terre, plutôt que la notion demandée."
+       ],
+       "y": "Le premier élément correspond au verbe tirer."
+      },
+      {
+       "q": "Quel terme désigne la structure illustrée par pomme de terre ?",
+       "r": "nom préposition nom",
+       "w": [
+        "unité lexicale",
+        "nom et adjectif",
+        "verbe et nom"
+       ],
+       "e": [
+        "Cela désigne un ensemble employé comme un nom avec un sens établi, plutôt que la notion demandée.",
+        "Cela désigne la structure illustrée par coffre-fort, plutôt que la notion demandée.",
+        "Cela désigne la structure illustrée par tire-bouchon, plutôt que la notion demandée."
+       ],
+       "y": "Certains conservent espaces et préposition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-36-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Pomme de terre nomme une réalité déterminée.\nQuelle notion convient ?",
+       "r": "unité lexicale",
+       "w": [
+        "nom et adjectif",
+        "verbe et nom",
+        "nom préposition nom"
+       ],
+       "e": [
+        "Cela concerne la structure illustrée par coffre-fort. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure illustrée par tire-bouchon. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure illustrée par pomme de terre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens établi et la formation doivent être vérifiés."
+      },
+      {
+       "q": "Fort qualifie coffre dans ce composé.\nQuelle notion convient ?",
+       "r": "nom et adjectif",
+       "w": [
+        "unité lexicale",
+        "verbe et nom",
+        "nom préposition nom"
+       ],
+       "e": [
+        "Cela concerne un ensemble employé comme un nom avec un sens établi. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure illustrée par tire-bouchon. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure illustrée par pomme de terre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’analyse distingue nom et adjectif."
+      },
+      {
+       "q": "Tire est une forme verbale dans ce composé.\nQuelle notion convient ?",
+       "r": "verbe et nom",
+       "w": [
+        "unité lexicale",
+        "nom et adjectif",
+        "nom préposition nom"
+       ],
+       "e": [
+        "Cela concerne un ensemble employé comme un nom avec un sens établi. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure illustrée par coffre-fort. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure illustrée par pomme de terre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le premier élément correspond au verbe tirer."
+      },
+      {
+       "q": "De relie les noms dans pomme de terre.\nQuelle notion convient ?",
+       "r": "nom préposition nom",
+       "w": [
+        "unité lexicale",
+        "nom et adjectif",
+        "verbe et nom"
+       ],
+       "e": [
+        "Cela concerne un ensemble employé comme un nom avec un sens établi. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure illustrée par coffre-fort. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure illustrée par tire-bouchon. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Certains conservent espaces et préposition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-36-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle structure convient à coffre-fort ?",
+       "r": "nom + adjectif",
+       "w": [
+        "verbe + nom",
+        "nom + préposition + nom",
+        "adverbe seul"
+       ],
+       "e": [
+        "Coffre n’est pas ici un verbe.",
+        "Il n’y a pas de préposition dans ce composé.",
+        "Il comporte des éléments nominaux et adjectivaux."
+       ],
+       "y": "Analyse chaque élément."
+      },
+      {
+       "q": "Quelle structure convient à tire-bouchon ?",
+       "r": "verbe + nom",
+       "w": [
+        "adjectif + nom",
+        "pronom + verbe",
+        "nom + préposition + nom"
+       ],
+       "e": [
+        "Tire correspond ici au verbe tirer.",
+        "Tire n’est pas un pronom.",
+        "Le composé ne contient pas cette préposition."
+       ],
+       "y": "La structure est distincte du sens global."
+      },
+      {
+       "q": "Quel exemple conserve une préposition ?",
+       "r": "pomme de terre",
+       "w": [
+        "coffre-fort",
+        "chou-fleur",
+        "tire-bouchon"
+       ],
+       "e": [
+        "Fort est adjectif.",
+        "Les deux éléments sont nominaux.",
+        "Le premier élément est verbal."
+       ],
+       "y": "De est une préposition."
+      },
+      {
+       "q": "Pourquoi le trait d’union seul ne suffit-il pas ?",
+       "r": "Certains composés conservent des espaces ou sont soudés.",
+       "w": [
+        "Tout espace interdit la composition.",
+        "Chaque composé est un verbe conjugué.",
+        "Tout groupe de mots est automatiquement un composé."
+       ],
+       "e": [
+        "Pomme de terre contredit cette règle.",
+        "Le composé peut être un nom.",
+        "Une unité de sens établie est nécessaire."
+       ],
+       "y": "Vérifie sens, formation et graphie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-36-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "unité lexicale",
+     "right": "Pomme de terre nomme une réalité déterminée."
+    },
+    {
+     "left": "nom et adjectif",
+     "right": "Fort qualifie coffre dans ce composé."
+    },
+    {
+     "left": "verbe et nom",
+     "right": "Tire est une forme verbale dans ce composé."
+    },
+    {
+     "left": "nom préposition nom",
+     "right": "De relie les noms dans pomme de terre."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-36-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "unité lexicale : un ensemble employé comme un nom avec un sens établi.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens établi et la formation doivent être vérifiés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "nom et adjectif : la structure illustrée par coffre-fort.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’analyse distingue nom et adjectif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "verbe et nom : la structure illustrée par tire-bouchon.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le premier élément correspond au verbe tirer. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "nom préposition nom : la structure illustrée par pomme de terre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Certains conservent espaces et préposition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Toute suite de mots voisine forme nécessairement un nom composé.",
+      "truth": "false",
+      "explain": "Le sens établi et la formation doivent être vérifiés."
+     },
+     {
+      "text": "Fort est obligatoirement une préposition dans coffre-fort.",
+      "truth": "false",
+      "explain": "L’analyse distingue nom et adjectif."
+     },
+     {
+      "text": "Tire est ici un adjectif de couleur.",
+      "truth": "false",
+      "explain": "Le premier élément correspond au verbe tirer."
+     },
+     {
+      "text": "Tous les noms composés doivent s’écrire sans espace.",
+      "truth": "false",
+      "explain": "Certains conservent espaces et préposition."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

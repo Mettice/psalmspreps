@@ -1,0 +1,607 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 1,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi4-1",
+   "name": "Les mots des relations familiales et sociales"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mariage nomme une union dans le cadre évoqué ; divorce, sa dissolution légale. Un litige est un désaccord à résoudre ; toute discussion calme n’est pas une violence. Orphelinat désigne une institution d’accueil d’enfants orphelins. Déperdition scolaire évoque les pertes de parcours scolaire, notamment les abandons, sans expliquer chaque cause individuelle. Dot est un terme culturel dont le sens dépend du contexte : il ne faut pas supposer une pratique identique dans chaque communauté. Le lexique ne décrit pas à lui seul les règles juridiques locales.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras employer des termes précis dans une situation familiale fictive sans jugement sur les personnes. Acquis mobilisés : les descriptions et le vocabulaire de la classe précédente. Pour la suite : les pronoms indéfinis, la saynète et les lectures sociales."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Mariage nomme une union dans le cadre évoqué ; divorce, sa dissolution légale. Un litige est un désaccord à résoudre ; toute discussion calme n’est pas une violence. Orphelinat désigne une institution d’accueil d’enfants orphelins. Déperdition scolaire évoque les pertes de parcours scolaire, notamment les abandons, sans expliquer chaque cause individuelle. Dot est un terme culturel dont le sens dépend du contexte : il ne faut pas supposer une pratique identique dans chaque communauté. Le lexique ne décrit pas à lui seul les règles juridiques locales."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Dialogue original, à Bamenda : Bih prépare une saynète sur un litige concernant le partage des tâches. Ayuk demande de distinguer le désaccord d’une menace. La narratrice précise que les personnages sont inventés. Une autre scène évoquerait le mariage et la dot, mais devrait définir les mots employés plutôt que présenter toute tradition comme uniforme."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Relève le terme, vérifie son sens dans le passage et décris les faits sans inventer une responsabilité. Utilise une situation fictive ; personne ne doit raconter sa vie privée pour réussir cet exercice."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "litige",
+    "meaning": "un désaccord à résoudre entre parties"
+   },
+   {
+    "word": "divorce",
+    "meaning": "la dissolution légale d’un mariage"
+   },
+   {
+    "word": "orphelinat",
+    "meaning": "une institution accueillant des enfants orphelins"
+   },
+   {
+    "word": "déperdition scolaire",
+    "meaning": "des pertes dans les parcours de scolarisation"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le mot litige prouve que chaque personne est coupable.",
+   "right": "un désaccord à résoudre entre parties.",
+   "why": "Le désaccord ne suffit pas à établir les responsabilités."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Les personnages contestent la répartition d’une tâche. Explique le choix.",
+  "steps": [
+   "un désaccord à résoudre entre parties.",
+   "Le désaccord ne suffit pas à établir les responsabilités."
+  ],
+  "answer": "litige",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-1-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "litige : un désaccord à résoudre entre parties.",
+     "divorce : la dissolution légale d’un mariage.",
+     "orphelinat : une institution accueillant des enfants orphelins.",
+     "déperdition scolaire : des pertes dans les parcours de scolarisation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-1-notions"
+    }
+   },
+   {
+    "id": "fi4-1-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Les personnages contestent la répartition d’une tâche.",
+     "Un récit évoque la fin légale d’une union.",
+     "Le club destine des livres à une institution d’accueil.",
+     "Le passage examine des abandons du parcours scolaire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-1-cas"
+    }
+   },
+   {
+    "id": "fi4-1-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le mot litige prouve que chaque personne est coupable. Correction : Le désaccord ne suffit pas à établir les responsabilités.",
+     "Toute discussion familiale est automatiquement un divorce. Correction : Une discussion n’est pas la dissolution légale d’un mariage.",
+     "Le nom de l’institution explique toute l’histoire de chaque enfant. Correction : Les parcours individuels restent variés.",
+     "Un abandon scolaire mesure la valeur morale d’un élève. Correction : Les causes demandent des faits et ne justifient pas ce jugement."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-1-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "litige : un désaccord à résoudre entre parties.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le désaccord ne suffit pas à établir les responsabilités. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "divorce : la dissolution légale d’un mariage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une discussion n’est pas la dissolution légale d’un mariage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "orphelinat : une institution accueillant des enfants orphelins.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les parcours individuels restent variés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "déperdition scolaire : des pertes dans les parcours de scolarisation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les causes demandent des faits et ne justifient pas ce jugement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le mot litige prouve que chaque personne est coupable.",
+        "truth": "false",
+        "explain": "Le désaccord ne suffit pas à établir les responsabilités."
+       },
+       {
+        "text": "Toute discussion familiale est automatiquement un divorce.",
+        "truth": "false",
+        "explain": "Une discussion n’est pas la dissolution légale d’un mariage."
+       },
+       {
+        "text": "Le nom de l’institution explique toute l’histoire de chaque enfant.",
+        "truth": "false",
+        "explain": "Les parcours individuels restent variés."
+       },
+       {
+        "text": "Un abandon scolaire mesure la valeur morale d’un élève.",
+        "truth": "false",
+        "explain": "Les causes demandent des faits et ne justifient pas ce jugement."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-1-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un désaccord à résoudre entre parties ?",
+       "r": "litige",
+       "w": [
+        "divorce",
+        "orphelinat",
+        "déperdition scolaire"
+       ],
+       "e": [
+        "Cela désigne la dissolution légale d’un mariage, plutôt que la notion demandée.",
+        "Cela désigne une institution accueillant des enfants orphelins, plutôt que la notion demandée.",
+        "Cela désigne des pertes dans les parcours de scolarisation, plutôt que la notion demandée."
+       ],
+       "y": "Le désaccord ne suffit pas à établir les responsabilités."
+      },
+      {
+       "q": "Quel terme désigne la dissolution légale d’un mariage ?",
+       "r": "divorce",
+       "w": [
+        "litige",
+        "orphelinat",
+        "déperdition scolaire"
+       ],
+       "e": [
+        "Cela désigne un désaccord à résoudre entre parties, plutôt que la notion demandée.",
+        "Cela désigne une institution accueillant des enfants orphelins, plutôt que la notion demandée.",
+        "Cela désigne des pertes dans les parcours de scolarisation, plutôt que la notion demandée."
+       ],
+       "y": "Une discussion n’est pas la dissolution légale d’un mariage."
+      },
+      {
+       "q": "Quel terme désigne une institution accueillant des enfants orphelins ?",
+       "r": "orphelinat",
+       "w": [
+        "litige",
+        "divorce",
+        "déperdition scolaire"
+       ],
+       "e": [
+        "Cela désigne un désaccord à résoudre entre parties, plutôt que la notion demandée.",
+        "Cela désigne la dissolution légale d’un mariage, plutôt que la notion demandée.",
+        "Cela désigne des pertes dans les parcours de scolarisation, plutôt que la notion demandée."
+       ],
+       "y": "Les parcours individuels restent variés."
+      },
+      {
+       "q": "Quel terme désigne des pertes dans les parcours de scolarisation ?",
+       "r": "déperdition scolaire",
+       "w": [
+        "litige",
+        "divorce",
+        "orphelinat"
+       ],
+       "e": [
+        "Cela désigne un désaccord à résoudre entre parties, plutôt que la notion demandée.",
+        "Cela désigne la dissolution légale d’un mariage, plutôt que la notion demandée.",
+        "Cela désigne une institution accueillant des enfants orphelins, plutôt que la notion demandée."
+       ],
+       "y": "Les causes demandent des faits et ne justifient pas ce jugement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-1-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Les personnages contestent la répartition d’une tâche.\nQuelle notion convient ?",
+       "r": "litige",
+       "w": [
+        "divorce",
+        "orphelinat",
+        "déperdition scolaire"
+       ],
+       "e": [
+        "Cela concerne la dissolution légale d’un mariage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une institution accueillant des enfants orphelins. Compare cette définition avec le cas présenté.",
+        "Cela concerne des pertes dans les parcours de scolarisation. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le désaccord ne suffit pas à établir les responsabilités."
+      },
+      {
+       "q": "Un récit évoque la fin légale d’une union.\nQuelle notion convient ?",
+       "r": "divorce",
+       "w": [
+        "litige",
+        "orphelinat",
+        "déperdition scolaire"
+       ],
+       "e": [
+        "Cela concerne un désaccord à résoudre entre parties. Compare cette définition avec le cas présenté.",
+        "Cela concerne une institution accueillant des enfants orphelins. Compare cette définition avec le cas présenté.",
+        "Cela concerne des pertes dans les parcours de scolarisation. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une discussion n’est pas la dissolution légale d’un mariage."
+      },
+      {
+       "q": "Le club destine des livres à une institution d’accueil.\nQuelle notion convient ?",
+       "r": "orphelinat",
+       "w": [
+        "litige",
+        "divorce",
+        "déperdition scolaire"
+       ],
+       "e": [
+        "Cela concerne un désaccord à résoudre entre parties. Compare cette définition avec le cas présenté.",
+        "Cela concerne la dissolution légale d’un mariage. Compare cette définition avec le cas présenté.",
+        "Cela concerne des pertes dans les parcours de scolarisation. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les parcours individuels restent variés."
+      },
+      {
+       "q": "Le passage examine des abandons du parcours scolaire.\nQuelle notion convient ?",
+       "r": "déperdition scolaire",
+       "w": [
+        "litige",
+        "divorce",
+        "orphelinat"
+       ],
+       "e": [
+        "Cela concerne un désaccord à résoudre entre parties. Compare cette définition avec le cas présenté.",
+        "Cela concerne la dissolution légale d’un mariage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une institution accueillant des enfants orphelins. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les causes demandent des faits et ne justifient pas ce jugement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-1-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot convient au désaccord que les personnages cherchent à résoudre ?",
+       "r": "litige",
+       "w": [
+        "divorce",
+        "orphelinat",
+        "déperdition scolaire"
+       ],
+       "e": [
+        "Aucune dissolution légale n’est annoncée.",
+        "Ce terme nomme une institution.",
+        "Le désaccord ne porte pas ici sur les parcours scolaires."
+       ],
+       "y": "Garde le sens indiqué par la situation."
+      },
+      {
+       "q": "Le récit emploie dot sans définir une pratique locale. Quelle lecture est prudente ?",
+       "r": "Demander quel sens le récit donne à ce terme.",
+       "w": [
+        "Supposer une coutume identique partout.",
+        "En déduire toutes les règles du droit camerounais.",
+        "Attribuer cette pratique à chaque élève."
+       ],
+       "e": [
+        "Les pratiques et les sens peuvent varier.",
+        "Un mot du récit ne fournit pas ces règles.",
+        "Le passage ne décrit pas la vie des élèves."
+       ],
+       "y": "Le contexte doit préciser le sens culturel."
+      },
+      {
+       "q": "Pourquoi distinguer menace et désaccord calme ?",
+       "r": "Pour ne pas banaliser la violence ni confondre les situations.",
+       "w": [
+        "Parce que tous les mots sont synonymes.",
+        "Parce qu’une menace prouve un divorce.",
+        "Parce que les faits sont toujours inutiles."
+       ],
+       "e": [
+        "Les sens diffèrent.",
+        "Cette conséquence n’est pas établie.",
+        "Les faits permettent la distinction."
+       ],
+       "y": "La précision lexicale sert à comprendre."
+      },
+      {
+       "q": "Un personnage abandonne l’école. Que peut-on affirmer sans autre donnée ?",
+       "r": "Son parcours scolaire est interrompu dans le récit.",
+       "w": [
+        "Il n’a aucune valeur.",
+        "On connaît toutes les causes.",
+        "Chaque autre élève fera de même."
+       ],
+       "e": [
+        "C’est un jugement sans fondement.",
+        "Les causes ne sont pas toutes fournies.",
+        "Le cas ne prouve pas ce futur général."
+       ],
+       "y": "Sépare le fait décrit des conclusions ajoutées."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-1-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "litige",
+     "right": "Les personnages contestent la répartition d’une tâche."
+    },
+    {
+     "left": "divorce",
+     "right": "Un récit évoque la fin légale d’une union."
+    },
+    {
+     "left": "orphelinat",
+     "right": "Le club destine des livres à une institution d’accueil."
+    },
+    {
+     "left": "déperdition scolaire",
+     "right": "Le passage examine des abandons du parcours scolaire."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-1-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "litige : un désaccord à résoudre entre parties.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le désaccord ne suffit pas à établir les responsabilités. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "divorce : la dissolution légale d’un mariage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une discussion n’est pas la dissolution légale d’un mariage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "orphelinat : une institution accueillant des enfants orphelins.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les parcours individuels restent variés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "déperdition scolaire : des pertes dans les parcours de scolarisation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les causes demandent des faits et ne justifient pas ce jugement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le mot litige prouve que chaque personne est coupable.",
+      "truth": "false",
+      "explain": "Le désaccord ne suffit pas à établir les responsabilités."
+     },
+     {
+      "text": "Toute discussion familiale est automatiquement un divorce.",
+      "truth": "false",
+      "explain": "Une discussion n’est pas la dissolution légale d’un mariage."
+     },
+     {
+      "text": "Le nom de l’institution explique toute l’histoire de chaque enfant.",
+      "truth": "false",
+      "explain": "Les parcours individuels restent variés."
+     },
+     {
+      "text": "Un abandon scolaire mesure la valeur morale d’un élève.",
+      "truth": "false",
+      "explain": "Les causes demandent des faits et ne justifient pas ce jugement."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

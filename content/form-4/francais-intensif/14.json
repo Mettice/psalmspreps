@@ -1,0 +1,612 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 14,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  4,
+  11,
+  13
+ ],
+ "skills": [
+  {
+   "id": "fi4-14",
+   "name": "Lire un passage sur l’éducation des filles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Lire ce passage demande de distinguer les faits explicitement écrits, les raisons données, les projets et ce qui reste inconnu. Une inférence doit s’appuyer sur un indice ; elle ne doit pas transformer un cas fictif en vérité sur toute une population. Repère qui parle et à quoi renvoient les pronoms. Pour un thème de santé ou de société, sépare la compréhension du texte d’un diagnostic, d’une statistique ou d’une règle juridique absente.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras relever un obstacle et une proposition sans transformer une histoire en jugement général. Acquis mobilisés : les mots sociaux et les familles de tâches. Pour la suite : le récit et la discussion de propositions."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Lire ce passage demande de distinguer les faits explicitement écrits, les raisons données, les projets et ce qui reste inconnu. Une inférence doit s’appuyer sur un indice ; elle ne doit pas transformer un cas fictif en vérité sur toute une population. Repère qui parle et à quoi renvoient les pronoms. Pour un thème de santé ou de société, sépare la compréhension du texte d’un diagnostic, d’une statistique ou d’une règle juridique absente."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Passage original : Dans une école fictive de Bamenda, Bih explique que ses lectures sont souvent interrompues par des tâches à la maison. Ayuk propose de discuter une répartition plus équilibrée et un temps de lecture commun. L’enseignante précise que les filles et les garçons doivent pouvoir apprendre sans être réduits à des rôles fixes. Le club prépare une discussion ; le texte ne raconte pas encore de changement mesuré dans les résultats scolaires."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Relis la phrase utile, formule une réponse puis indique son appui. Pour une conclusion non écrite, vérifie qu’elle découle réellement des indices. Ne complète pas les informations manquantes avec un stéréotype ou un résultat imaginé."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "information explicite",
+    "meaning": "un élément directement donné par les mots du passage"
+   },
+   {
+    "word": "raison donnée",
+    "meaning": "une explication appuyée sur le contenu du passage"
+   },
+   {
+    "word": "projet",
+    "meaning": "une action envisagée qui n’est pas nécessairement réalisée"
+   },
+   {
+    "word": "limite du passage",
+    "meaning": "une information que ce texte ne permet pas d’établir"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout détail imaginé est une information explicite.",
+   "right": "un élément directement donné par les mots du passage.",
+   "why": "Un élément explicite doit se trouver dans le passage."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une action effectivement annoncée peut être relevée. Explique le choix.",
+  "steps": [
+   "un élément directement donné par les mots du passage.",
+   "Un élément explicite doit se trouver dans le passage."
+  ],
+  "answer": "information explicite",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-14-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "information explicite : un élément directement donné par les mots du passage.",
+     "raison donnée : une explication appuyée sur le contenu du passage.",
+     "projet : une action envisagée qui n’est pas nécessairement réalisée.",
+     "limite du passage : une information que ce texte ne permet pas d’établir."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-14-notions"
+    }
+   },
+   {
+    "id": "fi4-14-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Une action effectivement annoncée peut être relevée.",
+     "Une proposition peut être accompagnée de son motif.",
+     "Proposer une fiche ne prouve pas qu’elle est déjà utilisée.",
+     "Sans bilan fourni, on ne peut annoncer une réussite générale."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-14-cas"
+    }
+   },
+   {
+    "id": "fi4-14-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Tout détail imaginé est une information explicite. Correction : Un élément explicite doit se trouver dans le passage.",
+     "Une raison peut être inventée puis attribuée au narrateur. Correction : L’explication demandée doit rester liée au texte.",
+     "Toute proposition est un résultat définitivement mesuré. Correction : Il faut distinguer intention et réalisation.",
+     "Un cas fictif prouve automatiquement tous les cas réels. Correction : La portée de l’exemple reste limitée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-14-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "information explicite : un élément directement donné par les mots du passage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un élément explicite doit se trouver dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "raison donnée : une explication appuyée sur le contenu du passage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’explication demandée doit rester liée au texte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "projet : une action envisagée qui n’est pas nécessairement réalisée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut distinguer intention et réalisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "limite du passage : une information que ce texte ne permet pas d’établir.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La portée de l’exemple reste limitée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout détail imaginé est une information explicite.",
+        "truth": "false",
+        "explain": "Un élément explicite doit se trouver dans le passage."
+       },
+       {
+        "text": "Une raison peut être inventée puis attribuée au narrateur.",
+        "truth": "false",
+        "explain": "L’explication demandée doit rester liée au texte."
+       },
+       {
+        "text": "Toute proposition est un résultat définitivement mesuré.",
+        "truth": "false",
+        "explain": "Il faut distinguer intention et réalisation."
+       },
+       {
+        "text": "Un cas fictif prouve automatiquement tous les cas réels.",
+        "truth": "false",
+        "explain": "La portée de l’exemple reste limitée."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-14-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un élément directement donné par les mots du passage ?",
+       "r": "information explicite",
+       "w": [
+        "raison donnée",
+        "projet",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela désigne une explication appuyée sur le contenu du passage, plutôt que la notion demandée.",
+        "Cela désigne une action envisagée qui n’est pas nécessairement réalisée, plutôt que la notion demandée.",
+        "Cela désigne une information que ce texte ne permet pas d’établir, plutôt que la notion demandée."
+       ],
+       "y": "Un élément explicite doit se trouver dans le passage."
+      },
+      {
+       "q": "Quel terme désigne une explication appuyée sur le contenu du passage ?",
+       "r": "raison donnée",
+       "w": [
+        "information explicite",
+        "projet",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela désigne un élément directement donné par les mots du passage, plutôt que la notion demandée.",
+        "Cela désigne une action envisagée qui n’est pas nécessairement réalisée, plutôt que la notion demandée.",
+        "Cela désigne une information que ce texte ne permet pas d’établir, plutôt que la notion demandée."
+       ],
+       "y": "L’explication demandée doit rester liée au texte."
+      },
+      {
+       "q": "Quel terme désigne une action envisagée qui n’est pas nécessairement réalisée ?",
+       "r": "projet",
+       "w": [
+        "information explicite",
+        "raison donnée",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela désigne un élément directement donné par les mots du passage, plutôt que la notion demandée.",
+        "Cela désigne une explication appuyée sur le contenu du passage, plutôt que la notion demandée.",
+        "Cela désigne une information que ce texte ne permet pas d’établir, plutôt que la notion demandée."
+       ],
+       "y": "Il faut distinguer intention et réalisation."
+      },
+      {
+       "q": "Quel terme désigne une information que ce texte ne permet pas d’établir ?",
+       "r": "limite du passage",
+       "w": [
+        "information explicite",
+        "raison donnée",
+        "projet"
+       ],
+       "e": [
+        "Cela désigne un élément directement donné par les mots du passage, plutôt que la notion demandée.",
+        "Cela désigne une explication appuyée sur le contenu du passage, plutôt que la notion demandée.",
+        "Cela désigne une action envisagée qui n’est pas nécessairement réalisée, plutôt que la notion demandée."
+       ],
+       "y": "La portée de l’exemple reste limitée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-14-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une action effectivement annoncée peut être relevée.\nQuelle notion convient ?",
+       "r": "information explicite",
+       "w": [
+        "raison donnée",
+        "projet",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela concerne une explication appuyée sur le contenu du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action envisagée qui n’est pas nécessairement réalisée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information que ce texte ne permet pas d’établir. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un élément explicite doit se trouver dans le passage."
+      },
+      {
+       "q": "Une proposition peut être accompagnée de son motif.\nQuelle notion convient ?",
+       "r": "raison donnée",
+       "w": [
+        "information explicite",
+        "projet",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela concerne un élément directement donné par les mots du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action envisagée qui n’est pas nécessairement réalisée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information que ce texte ne permet pas d’établir. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’explication demandée doit rester liée au texte."
+      },
+      {
+       "q": "Proposer une fiche ne prouve pas qu’elle est déjà utilisée.\nQuelle notion convient ?",
+       "r": "projet",
+       "w": [
+        "information explicite",
+        "raison donnée",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela concerne un élément directement donné par les mots du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une explication appuyée sur le contenu du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information que ce texte ne permet pas d’établir. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut distinguer intention et réalisation."
+      },
+      {
+       "q": "Sans bilan fourni, on ne peut annoncer une réussite générale.\nQuelle notion convient ?",
+       "r": "limite du passage",
+       "w": [
+        "information explicite",
+        "raison donnée",
+        "projet"
+       ],
+       "e": [
+        "Cela concerne un élément directement donné par les mots du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une explication appuyée sur le contenu du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action envisagée qui n’est pas nécessairement réalisée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La portée de l’exemple reste limitée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-14-comprendre",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel obstacle Bih décrit-elle ?",
+       "r": "Des tâches interrompent souvent ses lectures.",
+       "w": [
+        "Elle ne sait pas le nom de son école.",
+        "Toutes les filles refusent de lire.",
+        "Un bilan prouve déjà la disparition de tout obstacle."
+       ],
+       "e": [
+        "Le nom n’est pas l’obstacle raconté.",
+        "Le passage ne dit pas cela et ne généralise pas ainsi.",
+        "Aucun tel bilan n’est fourni."
+       ],
+       "y": "Relève le fait décrit."
+      },
+      {
+       "q": "Quelle proposition Ayuk formule-t-il ?",
+       "r": "Discuter une répartition plus équilibrée et un temps commun.",
+       "w": [
+        "Réserver toute lecture aux garçons.",
+        "Supprimer toute discussion.",
+        "Publier l’adresse privée de Bih."
+       ],
+       "e": [
+        "La proposition vise le partage.",
+        "Une discussion est préparée.",
+        "Aucune adresse n’est demandée."
+       ],
+       "y": "Garde les deux aspects de sa proposition."
+      },
+      {
+       "q": "Quelle idée l’enseignante exprime-t-elle ?",
+       "r": "L’apprentissage ne doit pas être limité par des rôles fixes de genre.",
+       "w": [
+        "Les tâches ont un genre obligatoire.",
+        "Bih représente toutes les familles réelles.",
+        "Chaque obstacle a déjà disparu."
+       ],
+       "e": [
+        "Elle rejette cette fixation des rôles.",
+        "Le personnage est fictif.",
+        "Le passage ne donne pas ce résultat."
+       ],
+       "y": "N’ajoute pas de stéréotype."
+      },
+      {
+       "q": "Quelle conclusion dépasse le texte ?",
+       "r": "La discussion a déjà amélioré tous les résultats scolaires.",
+       "w": [
+        "Le club prépare une discussion.",
+        "Bih décrit des interruptions.",
+        "Ayuk propose un partage."
+       ],
+       "e": [
+        "La préparation est explicitement donnée.",
+        "Les interruptions sont dans le passage.",
+        "La proposition est bien écrite."
+       ],
+       "y": "Le résultat annoncé n’est pas mesuré."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-14-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "information explicite",
+     "right": "Une action effectivement annoncée peut être relevée."
+    },
+    {
+     "left": "raison donnée",
+     "right": "Une proposition peut être accompagnée de son motif."
+    },
+    {
+     "left": "projet",
+     "right": "Proposer une fiche ne prouve pas qu’elle est déjà utilisée."
+    },
+    {
+     "left": "limite du passage",
+     "right": "Sans bilan fourni, on ne peut annoncer une réussite générale."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-14-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "information explicite : un élément directement donné par les mots du passage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un élément explicite doit se trouver dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "raison donnée : une explication appuyée sur le contenu du passage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’explication demandée doit rester liée au texte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "projet : une action envisagée qui n’est pas nécessairement réalisée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut distinguer intention et réalisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "limite du passage : une information que ce texte ne permet pas d’établir.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La portée de l’exemple reste limitée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout détail imaginé est une information explicite.",
+      "truth": "false",
+      "explain": "Un élément explicite doit se trouver dans le passage."
+     },
+     {
+      "text": "Une raison peut être inventée puis attribuée au narrateur.",
+      "truth": "false",
+      "explain": "L’explication demandée doit rester liée au texte."
+     },
+     {
+      "text": "Toute proposition est un résultat définitivement mesuré.",
+      "truth": "false",
+      "explain": "Il faut distinguer intention et réalisation."
+     },
+     {
+      "text": "Un cas fictif prouve automatiquement tous les cas réels.",
+      "truth": "false",
+      "explain": "La portée de l’exemple reste limitée."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

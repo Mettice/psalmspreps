@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 49,
+ "language": "fr",
+ "prerequisites": [
+  36,
+  42
+ ],
+ "skills": [
+  {
+   "id": "fi4-49",
+   "name": "Mettre les noms composés au pluriel"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le pluriel des noms composés dépend de leur structure et parfois de leur sens. Dans les graphies traditionnelles retenues ici, les noms et adjectifs peuvent varier, tandis que les éléments verbaux et les prépositions ne prennent pas cette marque nominale. On écrit des coffres-forts, des choux-fleurs, des pommes de terre et des tire-bouchons. Il existe des exceptions et des graphies rectifiées admises ; une règle unique ajouter un s partout ne convient pas. Les exercices précisent leur convention et emploient des cas attestés.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir un pluriel traditionnel attesté en expliquant quels éléments varient. Acquis mobilisés : la formation des noms composés et les accords. Pour la suite : la relecture des écrits sur la santé et la communauté."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le pluriel des noms composés dépend de leur structure et parfois de leur sens. Dans les graphies traditionnelles retenues ici, les noms et adjectifs peuvent varier, tandis que les éléments verbaux et les prépositions ne prennent pas cette marque nominale. On écrit des coffres-forts, des choux-fleurs, des pommes de terre et des tire-bouchons. Il existe des exceptions et des graphies rectifiées admises ; une règle unique ajouter un s partout ne convient pas. Les exercices précisent leur convention et emploient des cas attestés."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles traditionnels : un coffre-fort → des coffres-forts ; un chou-fleur → des choux-fleurs ; une pomme de terre → des pommes de terre ; un tire-bouchon → des tire-bouchons. Tire garde sa forme verbale. Dans pommes de terre, le nom complément terre ne devient pas automatiquement pluriel."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie les composants, consulte la graphie du composé et applique la convention demandée. Explique les marques sans traiter une graphie rectifiée admise comme une faute universelle."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "nom et adjectif variables",
+    "meaning": "le modèle traditionnel de coffres-forts"
+   },
+   {
+    "word": "pluriel nominal particulier",
+    "meaning": "une forme comme choux dans choux-fleurs"
+   },
+   {
+    "word": "élément verbal invariable",
+    "meaning": "une forme verbale restant sans marque nominale plurielle"
+   },
+   {
+    "word": "complément conservé",
+    "meaning": "le groupe de terre maintenu dans pommes de terre"
+   }
+  ],
+  "mistake": {
+   "wrong": "Des coffre-fort est le pluriel traditionnel retenu.",
+   "right": "le modèle traditionnel de coffres-forts.",
+   "why": "Les deux éléments varient dans ce modèle."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Coffre et fort prennent ici la marque plurielle. Explique le choix.",
+  "steps": [
+   "le modèle traditionnel de coffres-forts.",
+   "Les deux éléments varient dans ce modèle."
+  ],
+  "answer": "nom et adjectif variables",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-49-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "nom et adjectif variables : le modèle traditionnel de coffres-forts.",
+     "pluriel nominal particulier : une forme comme choux dans choux-fleurs.",
+     "élément verbal invariable : une forme verbale restant sans marque nominale plurielle.",
+     "complément conservé : le groupe de terre maintenu dans pommes de terre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-49-notions"
+    }
+   },
+   {
+    "id": "fi4-49-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Coffre et fort prennent ici la marque plurielle.",
+     "Chou devient choux dans ce composé.",
+     "Tire reste tire dans des tire-bouchons.",
+     "Pommes reçoit la marque, de terre reste inchangé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-49-cas"
+    }
+   },
+   {
+    "id": "fi4-49-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Des coffre-fort est le pluriel traditionnel retenu. Correction : Les deux éléments varient dans ce modèle.",
+     "Chou prend toujours chous dans le modèle donné. Correction : Le pluriel du nom doit être connu.",
+     "Tire devient tires seulement parce que plusieurs objets sont nommés. Correction : Le premier élément est verbal, pas un nom à accorder.",
+     "Chaque élément de pommes de terre doit recevoir s. Correction : La préposition et le complément ne varient pas ainsi dans ce modèle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-49-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "nom et adjectif variables : le modèle traditionnel de coffres-forts.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les deux éléments varient dans ce modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "pluriel nominal particulier : une forme comme choux dans choux-fleurs.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le pluriel du nom doit être connu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "élément verbal invariable : une forme verbale restant sans marque nominale plurielle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le premier élément est verbal, pas un nom à accorder. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "complément conservé : le groupe de terre maintenu dans pommes de terre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La préposition et le complément ne varient pas ainsi dans ce modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Des coffre-fort est le pluriel traditionnel retenu.",
+        "truth": "false",
+        "explain": "Les deux éléments varient dans ce modèle."
+       },
+       {
+        "text": "Chou prend toujours chous dans le modèle donné.",
+        "truth": "false",
+        "explain": "Le pluriel du nom doit être connu."
+       },
+       {
+        "text": "Tire devient tires seulement parce que plusieurs objets sont nommés.",
+        "truth": "false",
+        "explain": "Le premier élément est verbal, pas un nom à accorder."
+       },
+       {
+        "text": "Chaque élément de pommes de terre doit recevoir s.",
+        "truth": "false",
+        "explain": "La préposition et le complément ne varient pas ainsi dans ce modèle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-49-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le modèle traditionnel de coffres-forts ?",
+       "r": "nom et adjectif variables",
+       "w": [
+        "pluriel nominal particulier",
+        "élément verbal invariable",
+        "complément conservé"
+       ],
+       "e": [
+        "Cela désigne une forme comme choux dans choux-fleurs, plutôt que la notion demandée.",
+        "Cela désigne une forme verbale restant sans marque nominale plurielle, plutôt que la notion demandée.",
+        "Cela désigne le groupe de terre maintenu dans pommes de terre, plutôt que la notion demandée."
+       ],
+       "y": "Les deux éléments varient dans ce modèle."
+      },
+      {
+       "q": "Quel terme désigne une forme comme choux dans choux-fleurs ?",
+       "r": "pluriel nominal particulier",
+       "w": [
+        "nom et adjectif variables",
+        "élément verbal invariable",
+        "complément conservé"
+       ],
+       "e": [
+        "Cela désigne le modèle traditionnel de coffres-forts, plutôt que la notion demandée.",
+        "Cela désigne une forme verbale restant sans marque nominale plurielle, plutôt que la notion demandée.",
+        "Cela désigne le groupe de terre maintenu dans pommes de terre, plutôt que la notion demandée."
+       ],
+       "y": "Le pluriel du nom doit être connu."
+      },
+      {
+       "q": "Quel terme désigne une forme verbale restant sans marque nominale plurielle ?",
+       "r": "élément verbal invariable",
+       "w": [
+        "nom et adjectif variables",
+        "pluriel nominal particulier",
+        "complément conservé"
+       ],
+       "e": [
+        "Cela désigne le modèle traditionnel de coffres-forts, plutôt que la notion demandée.",
+        "Cela désigne une forme comme choux dans choux-fleurs, plutôt que la notion demandée.",
+        "Cela désigne le groupe de terre maintenu dans pommes de terre, plutôt que la notion demandée."
+       ],
+       "y": "Le premier élément est verbal, pas un nom à accorder."
+      },
+      {
+       "q": "Quel terme désigne le groupe de terre maintenu dans pommes de terre ?",
+       "r": "complément conservé",
+       "w": [
+        "nom et adjectif variables",
+        "pluriel nominal particulier",
+        "élément verbal invariable"
+       ],
+       "e": [
+        "Cela désigne le modèle traditionnel de coffres-forts, plutôt que la notion demandée.",
+        "Cela désigne une forme comme choux dans choux-fleurs, plutôt que la notion demandée.",
+        "Cela désigne une forme verbale restant sans marque nominale plurielle, plutôt que la notion demandée."
+       ],
+       "y": "La préposition et le complément ne varient pas ainsi dans ce modèle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-49-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Coffre et fort prennent ici la marque plurielle.\nQuelle notion convient ?",
+       "r": "nom et adjectif variables",
+       "w": [
+        "pluriel nominal particulier",
+        "élément verbal invariable",
+        "complément conservé"
+       ],
+       "e": [
+        "Cela concerne une forme comme choux dans choux-fleurs. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme verbale restant sans marque nominale plurielle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le groupe de terre maintenu dans pommes de terre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les deux éléments varient dans ce modèle."
+      },
+      {
+       "q": "Chou devient choux dans ce composé.\nQuelle notion convient ?",
+       "r": "pluriel nominal particulier",
+       "w": [
+        "nom et adjectif variables",
+        "élément verbal invariable",
+        "complément conservé"
+       ],
+       "e": [
+        "Cela concerne le modèle traditionnel de coffres-forts. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme verbale restant sans marque nominale plurielle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le groupe de terre maintenu dans pommes de terre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le pluriel du nom doit être connu."
+      },
+      {
+       "q": "Tire reste tire dans des tire-bouchons.\nQuelle notion convient ?",
+       "r": "élément verbal invariable",
+       "w": [
+        "nom et adjectif variables",
+        "pluriel nominal particulier",
+        "complément conservé"
+       ],
+       "e": [
+        "Cela concerne le modèle traditionnel de coffres-forts. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme comme choux dans choux-fleurs. Compare cette définition avec le cas présenté.",
+        "Cela concerne le groupe de terre maintenu dans pommes de terre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le premier élément est verbal, pas un nom à accorder."
+      },
+      {
+       "q": "Pommes reçoit la marque, de terre reste inchangé.\nQuelle notion convient ?",
+       "r": "complément conservé",
+       "w": [
+        "nom et adjectif variables",
+        "pluriel nominal particulier",
+        "élément verbal invariable"
+       ],
+       "e": [
+        "Cela concerne le modèle traditionnel de coffres-forts. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme comme choux dans choux-fleurs. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme verbale restant sans marque nominale plurielle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La préposition et le complément ne varient pas ainsi dans ce modèle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-49-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choisis le pluriel traditionnel de un coffre-fort.",
+       "r": "des coffres-forts",
+       "w": [
+        "des coffre-fort",
+        "des coffres-fort",
+        "des coffre-forts"
+       ],
+       "e": [
+        "Les deux marques attendues manquent.",
+        "Fort doit aussi varier ici.",
+        "Coffre doit aussi varier ici."
+       ],
+       "y": "Nom et adjectif prennent le pluriel."
+      },
+      {
+       "q": "Choisis le pluriel traditionnel de un chou-fleur.",
+       "r": "des choux-fleurs",
+       "w": [
+        "des chous-fleurs",
+        "des chou-fleurs",
+        "des choux-fleur"
+       ],
+       "e": [
+        "Chou prend x au pluriel.",
+        "La première marque nominale manque.",
+        "Fleur doit aussi porter le pluriel ici."
+       ],
+       "y": "Les deux noms varient dans ce modèle."
+      },
+      {
+       "q": "Choisis le pluriel de une pomme de terre.",
+       "r": "des pommes de terre",
+       "w": [
+        "des pommes des terres",
+        "des pomme de terre",
+        "des pommes de terres"
+       ],
+       "e": [
+        "La construction de terre est conservée.",
+        "Pomme doit varier.",
+        "Terre reste singulier dans ce composé."
+       ],
+       "y": "Le complément conserve sa graphie."
+      },
+      {
+       "q": "Choisis le pluriel traditionnel de un tire-bouchon.",
+       "r": "des tire-bouchons",
+       "w": [
+        "des tires-bouchons",
+        "des tire-bouchon",
+        "des tires-bouchon"
+       ],
+       "e": [
+        "Tire est une forme verbale invariable ici.",
+        "Le nom bouchon prend le pluriel.",
+        "Le verbe a varié et le nom n’a pas reçu la marque attendue."
+       ],
+       "y": "Distingue élément verbal et nom."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-49-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "nom et adjectif variables",
+     "right": "Coffre et fort prennent ici la marque plurielle."
+    },
+    {
+     "left": "pluriel nominal particulier",
+     "right": "Chou devient choux dans ce composé."
+    },
+    {
+     "left": "élément verbal invariable",
+     "right": "Tire reste tire dans des tire-bouchons."
+    },
+    {
+     "left": "complément conservé",
+     "right": "Pommes reçoit la marque, de terre reste inchangé."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-49-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "nom et adjectif variables : le modèle traditionnel de coffres-forts.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les deux éléments varient dans ce modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "pluriel nominal particulier : une forme comme choux dans choux-fleurs.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le pluriel du nom doit être connu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "élément verbal invariable : une forme verbale restant sans marque nominale plurielle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le premier élément est verbal, pas un nom à accorder. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "complément conservé : le groupe de terre maintenu dans pommes de terre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La préposition et le complément ne varient pas ainsi dans ce modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Des coffre-fort est le pluriel traditionnel retenu.",
+      "truth": "false",
+      "explain": "Les deux éléments varient dans ce modèle."
+     },
+     {
+      "text": "Chou prend toujours chous dans le modèle donné.",
+      "truth": "false",
+      "explain": "Le pluriel du nom doit être connu."
+     },
+     {
+      "text": "Tire devient tires seulement parce que plusieurs objets sont nommés.",
+      "truth": "false",
+      "explain": "Le premier élément est verbal, pas un nom à accorder."
+     },
+     {
+      "text": "Chaque élément de pommes de terre doit recevoir s.",
+      "truth": "false",
+      "explain": "La préposition et le complément ne varient pas ainsi dans ce modèle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

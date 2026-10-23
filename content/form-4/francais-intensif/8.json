@@ -1,0 +1,609 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 8,
+ "language": "fr",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "fi4-8",
+   "name": "Préparer la mélodie de la phrase interrogative"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’intonation est le mouvement de la hauteur de la voix. Une question totale porte ici sur la confirmation d’une proposition et peut recevoir oui ou non. Une question partielle demande un élément, par exemple un lieu. Dans le modèle neutre étudié, tu viens ? peut avoir une fin montante ; où vas-tu ? peut avoir une fin descendante. Toutes les questions ne montent donc pas de la même façon. Les usages dépendent du contexte et de l’intention. Les indications écrites ne remplacent pas un modèle sonore.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras identifier une interrogation totale ou partielle et préparer une indication de courbe sans prétendre écouter un son. Acquis mobilisés : les répliques et les marques de question. Pour la suite : les liaisons et la prise de parole guidée."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "L’intonation est le mouvement de la hauteur de la voix. Une question totale porte ici sur la confirmation d’une proposition et peut recevoir oui ou non. Une question partielle demande un élément, par exemple un lieu. Dans le modèle neutre étudié, tu viens ? peut avoir une fin montante ; où vas-tu ? peut avoir une fin descendante. Toutes les questions ne montent donc pas de la même façon. Les usages dépendent du contexte et de l’intention. Les indications écrites ne remplacent pas un modèle sonore."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Dialogue original : Bih demande « Tu viens au club ? » pour confirmer la venue ; la flèche montante ↗ prépare ce modèle neutre. Puis elle demande « Où vas-tu ? » ; une fin descendante ↘ peut préparer la question partielle. Le point d’interrogation indique une question directe écrite, mais ne décrit pas à lui seul toute la mélodie."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère ce qui est demandé : confirmation ou information manquante. Annote le modèle prévu par le professeur puis compare-le à une voix réelle. Ne transforme pas une convention de préparation en règle absolue sur tous les accents ou intentions."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "interrogation totale",
+    "meaning": "une question portant sur la confirmation d’une proposition"
+   },
+   {
+    "word": "interrogation partielle",
+    "meaning": "une question demandant un élément de l’information"
+   },
+   {
+    "word": "courbe montante",
+    "meaning": "une hausse de hauteur en fin du modèle préparé"
+   },
+   {
+    "word": "courbe descendante",
+    "meaning": "une baisse de hauteur dans le modèle préparé"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une question totale demande obligatoirement le nom d’un lieu.",
+   "right": "une question portant sur la confirmation d’une proposition.",
+   "why": "Elle porte ici sur la venue entière."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Tu viens au club ? demande ici une confirmation. Explique le choix.",
+  "steps": [
+   "une question portant sur la confirmation d’une proposition.",
+   "Elle porte ici sur la venue entière."
+  ],
+  "answer": "interrogation totale",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-8-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "interrogation totale : une question portant sur la confirmation d’une proposition.",
+     "interrogation partielle : une question demandant un élément de l’information.",
+     "courbe montante : une hausse de hauteur en fin du modèle préparé.",
+     "courbe descendante : une baisse de hauteur dans le modèle préparé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-8-notions"
+    }
+   },
+   {
+    "id": "fi4-8-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Tu viens au club ? demande ici une confirmation.",
+     "Où vas-tu ? demande un lieu.",
+     "La flèche ↗ prépare le modèle neutre tu viens ?",
+     "La flèche ↘ peut préparer où vas-tu ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-8-cas"
+    }
+   },
+   {
+    "id": "fi4-8-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une question totale demande obligatoirement le nom d’un lieu. Correction : Elle porte ici sur la venue entière.",
+     "Où vas-tu ? ne peut recevoir qu’un oui sans autre information. Correction : L’élément demandé est le lieu.",
+     "Toute phrase interrogative finit forcément par la même hausse. Correction : Le type et le contexte peuvent modifier la courbe.",
+     "Une fin descendante prouve que ce n’est jamais une question. Correction : Une interrogation partielle peut avoir une fin descendante."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-8-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "interrogation totale : une question portant sur la confirmation d’une proposition.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle porte ici sur la venue entière. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "interrogation partielle : une question demandant un élément de l’information.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’élément demandé est le lieu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "courbe montante : une hausse de hauteur en fin du modèle préparé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le type et le contexte peuvent modifier la courbe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "courbe descendante : une baisse de hauteur dans le modèle préparé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une interrogation partielle peut avoir une fin descendante. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une question totale demande obligatoirement le nom d’un lieu.",
+        "truth": "false",
+        "explain": "Elle porte ici sur la venue entière."
+       },
+       {
+        "text": "Où vas-tu ? ne peut recevoir qu’un oui sans autre information.",
+        "truth": "false",
+        "explain": "L’élément demandé est le lieu."
+       },
+       {
+        "text": "Toute phrase interrogative finit forcément par la même hausse.",
+        "truth": "false",
+        "explain": "Le type et le contexte peuvent modifier la courbe."
+       },
+       {
+        "text": "Une fin descendante prouve que ce n’est jamais une question.",
+        "truth": "false",
+        "explain": "Une interrogation partielle peut avoir une fin descendante."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-8-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une question portant sur la confirmation d’une proposition ?",
+       "r": "interrogation totale",
+       "w": [
+        "interrogation partielle",
+        "courbe montante",
+        "courbe descendante"
+       ],
+       "e": [
+        "Cela désigne une question demandant un élément de l’information, plutôt que la notion demandée.",
+        "Cela désigne une hausse de hauteur en fin du modèle préparé, plutôt que la notion demandée.",
+        "Cela désigne une baisse de hauteur dans le modèle préparé, plutôt que la notion demandée."
+       ],
+       "y": "Elle porte ici sur la venue entière."
+      },
+      {
+       "q": "Quel terme désigne une question demandant un élément de l’information ?",
+       "r": "interrogation partielle",
+       "w": [
+        "interrogation totale",
+        "courbe montante",
+        "courbe descendante"
+       ],
+       "e": [
+        "Cela désigne une question portant sur la confirmation d’une proposition, plutôt que la notion demandée.",
+        "Cela désigne une hausse de hauteur en fin du modèle préparé, plutôt que la notion demandée.",
+        "Cela désigne une baisse de hauteur dans le modèle préparé, plutôt que la notion demandée."
+       ],
+       "y": "L’élément demandé est le lieu."
+      },
+      {
+       "q": "Quel terme désigne une hausse de hauteur en fin du modèle préparé ?",
+       "r": "courbe montante",
+       "w": [
+        "interrogation totale",
+        "interrogation partielle",
+        "courbe descendante"
+       ],
+       "e": [
+        "Cela désigne une question portant sur la confirmation d’une proposition, plutôt que la notion demandée.",
+        "Cela désigne une question demandant un élément de l’information, plutôt que la notion demandée.",
+        "Cela désigne une baisse de hauteur dans le modèle préparé, plutôt que la notion demandée."
+       ],
+       "y": "Le type et le contexte peuvent modifier la courbe."
+      },
+      {
+       "q": "Quel terme désigne une baisse de hauteur dans le modèle préparé ?",
+       "r": "courbe descendante",
+       "w": [
+        "interrogation totale",
+        "interrogation partielle",
+        "courbe montante"
+       ],
+       "e": [
+        "Cela désigne une question portant sur la confirmation d’une proposition, plutôt que la notion demandée.",
+        "Cela désigne une question demandant un élément de l’information, plutôt que la notion demandée.",
+        "Cela désigne une hausse de hauteur en fin du modèle préparé, plutôt que la notion demandée."
+       ],
+       "y": "Une interrogation partielle peut avoir une fin descendante."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-8-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Tu viens au club ? demande ici une confirmation.\nQuelle notion convient ?",
+       "r": "interrogation totale",
+       "w": [
+        "interrogation partielle",
+        "courbe montante",
+        "courbe descendante"
+       ],
+       "e": [
+        "Cela concerne une question demandant un élément de l’information. Compare cette définition avec le cas présenté.",
+        "Cela concerne une hausse de hauteur en fin du modèle préparé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une baisse de hauteur dans le modèle préparé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle porte ici sur la venue entière."
+      },
+      {
+       "q": "Où vas-tu ? demande un lieu.\nQuelle notion convient ?",
+       "r": "interrogation partielle",
+       "w": [
+        "interrogation totale",
+        "courbe montante",
+        "courbe descendante"
+       ],
+       "e": [
+        "Cela concerne une question portant sur la confirmation d’une proposition. Compare cette définition avec le cas présenté.",
+        "Cela concerne une hausse de hauteur en fin du modèle préparé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une baisse de hauteur dans le modèle préparé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’élément demandé est le lieu."
+      },
+      {
+       "q": "La flèche ↗ prépare le modèle neutre tu viens ?\nQuelle notion convient ?",
+       "r": "courbe montante",
+       "w": [
+        "interrogation totale",
+        "interrogation partielle",
+        "courbe descendante"
+       ],
+       "e": [
+        "Cela concerne une question portant sur la confirmation d’une proposition. Compare cette définition avec le cas présenté.",
+        "Cela concerne une question demandant un élément de l’information. Compare cette définition avec le cas présenté.",
+        "Cela concerne une baisse de hauteur dans le modèle préparé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le type et le contexte peuvent modifier la courbe."
+      },
+      {
+       "q": "La flèche ↘ peut préparer où vas-tu ?\nQuelle notion convient ?",
+       "r": "courbe descendante",
+       "w": [
+        "interrogation totale",
+        "interrogation partielle",
+        "courbe montante"
+       ],
+       "e": [
+        "Cela concerne une question portant sur la confirmation d’une proposition. Compare cette définition avec le cas présenté.",
+        "Cela concerne une question demandant un élément de l’information. Compare cette définition avec le cas présenté.",
+        "Cela concerne une hausse de hauteur en fin du modèle préparé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une interrogation partielle peut avoir une fin descendante."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-8-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Tu viens au club ? demande ici quel type d’information ?",
+       "r": "une confirmation",
+       "w": [
+        "le nom du lieu absent",
+        "la définition de club",
+        "le nom de chaque lecteur"
+       ],
+       "e": [
+        "Le lieu est déjà indiqué.",
+        "Ce n’est pas une demande de définition.",
+        "Ces identités ne sont pas demandées."
+       ],
+       "y": "C’est le modèle de question totale."
+      },
+      {
+       "q": "Où vas-tu ? attend quelle information ?",
+       "r": "un lieu",
+       "w": [
+        "seulement oui sans précision",
+        "une couleur nécessairement",
+        "un nombre de syllabes"
+       ],
+       "e": [
+        "La question porte sur où.",
+        "Aucune couleur n’est demandée.",
+        "Ce n’est pas l’information manquante."
+       ],
+       "y": "C’est le modèle partiel."
+      },
+      {
+       "q": "Quelle annotation décrit une hausse finale ?",
+       "r": "↗",
+       "w": [
+        "↘",
+        "absence de voix prouvée",
+        "diagnostic de l’audition"
+       ],
+       "e": [
+        "Cette flèche indique une baisse.",
+        "Une annotation n’établit pas cela.",
+        "L’exercice n’évalue pas l’audition."
+       ],
+       "y": "La flèche prépare la courbe."
+      },
+      {
+       "q": "Quelle affirmation respecte les modèles ?",
+       "r": "Une question partielle peut avoir une fin descendante.",
+       "w": [
+        "Toutes les questions montent toujours.",
+        "La ponctuation enregistre la voix.",
+        "Une réponse écrite mesure forcément la diction."
+       ],
+       "e": [
+        "Les modèles distinguent les types.",
+        "Le signe écrit ne fournit pas d’enregistrement.",
+        "La voix n’est pas évaluée."
+       ],
+       "y": "Une véritable pratique orale est nécessaire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-8-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "interrogation totale",
+     "right": "Tu viens au club ? demande ici une confirmation."
+    },
+    {
+     "left": "interrogation partielle",
+     "right": "Où vas-tu ? demande un lieu."
+    },
+    {
+     "left": "courbe montante",
+     "right": "La flèche ↗ prépare le modèle neutre tu viens ?"
+    },
+    {
+     "left": "courbe descendante",
+     "right": "La flèche ↘ peut préparer où vas-tu ?"
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-8-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "interrogation totale : une question portant sur la confirmation d’une proposition.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle porte ici sur la venue entière. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "interrogation partielle : une question demandant un élément de l’information.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’élément demandé est le lieu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "courbe montante : une hausse de hauteur en fin du modèle préparé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le type et le contexte peuvent modifier la courbe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "courbe descendante : une baisse de hauteur dans le modèle préparé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une interrogation partielle peut avoir une fin descendante. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une question totale demande obligatoirement le nom d’un lieu.",
+      "truth": "false",
+      "explain": "Elle porte ici sur la venue entière."
+     },
+     {
+      "text": "Où vas-tu ? ne peut recevoir qu’un oui sans autre information.",
+      "truth": "false",
+      "explain": "L’élément demandé est le lieu."
+     },
+     {
+      "text": "Toute phrase interrogative finit forcément par la même hausse.",
+      "truth": "false",
+      "explain": "Le type et le contexte peuvent modifier la courbe."
+     },
+     {
+      "text": "Une fin descendante prouve que ce n’est jamais une question.",
+      "truth": "false",
+      "explain": "Une interrogation partielle peut avoir une fin descendante."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

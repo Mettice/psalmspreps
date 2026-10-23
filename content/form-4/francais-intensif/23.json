@@ -1,0 +1,557 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 23,
+ "language": "fr",
+ "prerequisites": [
+  9,
+  17,
+  20,
+  21
+ ],
+ "skills": [
+  {
+   "id": "fi4-23",
+   "name": "Élaborer le programme d’un événement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un programme permet au destinataire de savoir ce qui est prévu, dans quel ordre, où et avec qui. Le titre annonce l’événement ; les étapes donnent activités et rôles. Les horaires sont nécessaires si la consigne les demande, mais un programme peut d’abord fixer un ordre relatif : accueil, activité, échange, clôture. Distingue ce qui est proposé de ce qui est confirmé. Une belle présentation ne compense pas un lieu absent ou des étapes incompatibles. Utilise des lieux et des responsables fictifs.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras rédiger un programme utilisable avec objet ordre lieux et rôles cohérents. Acquis mobilisés : les descriptions et les propositions au conditionnel. Pour la suite : les projets communautaires et les affiches."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un programme permet au destinataire de savoir ce qui est prévu, dans quel ordre, où et avec qui. Le titre annonce l’événement ; les étapes donnent activités et rôles. Les horaires sont nécessaires si la consigne les demande, mais un programme peut d’abord fixer un ordre relatif : accueil, activité, échange, clôture. Distingue ce qui est proposé de ce qui est confirmé. Une belle présentation ne compense pas un lieu absent ou des étapes incompatibles. Utilise des lieux et des responsables fictifs."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Programme proposé : rencontre du club de lecture imaginaire, lundi après les cours, dans la salle du club à Bamenda. Accueil : Bih présente l’objectif et répartit les fiches. Lecture partagée : Ayuk distribue les tours ; chaque participant peut proposer un passage original. Échange : le groupe compare les idées et note une question commune. Clôture : Bih récapitule ; tous participent au rangement. Le lieu et la disponibilité restent à confirmer avec l’enseignante."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Vérifie public, objectif, lieu et disponibilité. Ordonne les activités, attribue des rôles et indique les éléments encore à confirmer. Si des heures sont demandées, ajoute un horaire cohérent selon la consigne de classe."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "objectif",
+    "meaning": "ce que l’événement cherche à permettre"
+   },
+   {
+    "word": "ordre des activités",
+    "meaning": "la succession prévue des étapes"
+   },
+   {
+    "word": "rôle",
+    "meaning": "la tâche attribuée à un participant"
+   },
+   {
+    "word": "confirmation",
+    "meaning": "la vérification d’une condition encore incertaine"
+   }
+  ],
+  "mistake": {
+   "wrong": "Un objectif est seulement une couleur de titre.",
+   "right": "ce que l’événement cherche à permettre.",
+   "why": "Il exprime une intention de l’événement."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le club veut partager une lecture et des idées. Explique le choix.",
+  "steps": [
+   "ce que l’événement cherche à permettre.",
+   "Il exprime une intention de l’événement."
+  ],
+  "answer": "objectif",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-23-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "objectif : ce que l’événement cherche à permettre.",
+     "ordre des activités : la succession prévue des étapes.",
+     "rôle : la tâche attribuée à un participant.",
+     "confirmation : la vérification d’une condition encore incertaine."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-23-notions"
+    }
+   },
+   {
+    "id": "fi4-23-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le club veut partager une lecture et des idées.",
+     "L’accueil précède la lecture puis l’échange.",
+     "Ayuk distribue les tours de lecture.",
+     "La disponibilité de la salle reste à vérifier."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-23-cas"
+    }
+   },
+   {
+    "id": "fi4-23-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Un objectif est seulement une couleur de titre. Correction : Il exprime une intention de l’événement.",
+     "La clôture doit toujours précéder l’accueil sans explication. Correction : L’ordre doit permettre le déroulement annoncé.",
+     "Un rôle est nécessairement une adresse privée. Correction : Il indique ici une responsabilité dans l’activité.",
+     "Un lieu proposé est automatiquement réservé. Correction : Proposition et accord confirmé sont distincts."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-23-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "objectif : ce que l’événement cherche à permettre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il exprime une intention de l’événement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "ordre des activités : la succession prévue des étapes.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’ordre doit permettre le déroulement annoncé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "rôle : la tâche attribuée à un participant.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il indique ici une responsabilité dans l’activité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "confirmation : la vérification d’une condition encore incertaine.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Proposition et accord confirmé sont distincts. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un objectif est seulement une couleur de titre.",
+        "truth": "false",
+        "explain": "Il exprime une intention de l’événement."
+       },
+       {
+        "text": "La clôture doit toujours précéder l’accueil sans explication.",
+        "truth": "false",
+        "explain": "L’ordre doit permettre le déroulement annoncé."
+       },
+       {
+        "text": "Un rôle est nécessairement une adresse privée.",
+        "truth": "false",
+        "explain": "Il indique ici une responsabilité dans l’activité."
+       },
+       {
+        "text": "Un lieu proposé est automatiquement réservé.",
+        "truth": "false",
+        "explain": "Proposition et accord confirmé sont distincts."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-23-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne ce que l’événement cherche à permettre ?",
+       "r": "objectif",
+       "w": [
+        "ordre des activités",
+        "rôle",
+        "confirmation"
+       ],
+       "e": [
+        "Cela désigne la succession prévue des étapes, plutôt que la notion demandée.",
+        "Cela désigne la tâche attribuée à un participant, plutôt que la notion demandée.",
+        "Cela désigne la vérification d’une condition encore incertaine, plutôt que la notion demandée."
+       ],
+       "y": "Il exprime une intention de l’événement."
+      },
+      {
+       "q": "Quel terme désigne la succession prévue des étapes ?",
+       "r": "ordre des activités",
+       "w": [
+        "objectif",
+        "rôle",
+        "confirmation"
+       ],
+       "e": [
+        "Cela désigne ce que l’événement cherche à permettre, plutôt que la notion demandée.",
+        "Cela désigne la tâche attribuée à un participant, plutôt que la notion demandée.",
+        "Cela désigne la vérification d’une condition encore incertaine, plutôt que la notion demandée."
+       ],
+       "y": "L’ordre doit permettre le déroulement annoncé."
+      },
+      {
+       "q": "Quel terme désigne la tâche attribuée à un participant ?",
+       "r": "rôle",
+       "w": [
+        "objectif",
+        "ordre des activités",
+        "confirmation"
+       ],
+       "e": [
+        "Cela désigne ce que l’événement cherche à permettre, plutôt que la notion demandée.",
+        "Cela désigne la succession prévue des étapes, plutôt que la notion demandée.",
+        "Cela désigne la vérification d’une condition encore incertaine, plutôt que la notion demandée."
+       ],
+       "y": "Il indique ici une responsabilité dans l’activité."
+      },
+      {
+       "q": "Quel terme désigne la vérification d’une condition encore incertaine ?",
+       "r": "confirmation",
+       "w": [
+        "objectif",
+        "ordre des activités",
+        "rôle"
+       ],
+       "e": [
+        "Cela désigne ce que l’événement cherche à permettre, plutôt que la notion demandée.",
+        "Cela désigne la succession prévue des étapes, plutôt que la notion demandée.",
+        "Cela désigne la tâche attribuée à un participant, plutôt que la notion demandée."
+       ],
+       "y": "Proposition et accord confirmé sont distincts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-23-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le club veut partager une lecture et des idées.\nQuelle notion convient ?",
+       "r": "objectif",
+       "w": [
+        "ordre des activités",
+        "rôle",
+        "confirmation"
+       ],
+       "e": [
+        "Cela concerne la succession prévue des étapes. Compare cette définition avec le cas présenté.",
+        "Cela concerne la tâche attribuée à un participant. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification d’une condition encore incertaine. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il exprime une intention de l’événement."
+      },
+      {
+       "q": "L’accueil précède la lecture puis l’échange.\nQuelle notion convient ?",
+       "r": "ordre des activités",
+       "w": [
+        "objectif",
+        "rôle",
+        "confirmation"
+       ],
+       "e": [
+        "Cela concerne ce que l’événement cherche à permettre. Compare cette définition avec le cas présenté.",
+        "Cela concerne la tâche attribuée à un participant. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification d’une condition encore incertaine. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’ordre doit permettre le déroulement annoncé."
+      },
+      {
+       "q": "Ayuk distribue les tours de lecture.\nQuelle notion convient ?",
+       "r": "rôle",
+       "w": [
+        "objectif",
+        "ordre des activités",
+        "confirmation"
+       ],
+       "e": [
+        "Cela concerne ce que l’événement cherche à permettre. Compare cette définition avec le cas présenté.",
+        "Cela concerne la succession prévue des étapes. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification d’une condition encore incertaine. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il indique ici une responsabilité dans l’activité."
+      },
+      {
+       "q": "La disponibilité de la salle reste à vérifier.\nQuelle notion convient ?",
+       "r": "confirmation",
+       "w": [
+        "objectif",
+        "ordre des activités",
+        "rôle"
+       ],
+       "e": [
+        "Cela concerne ce que l’événement cherche à permettre. Compare cette définition avec le cas présenté.",
+        "Cela concerne la succession prévue des étapes. Compare cette définition avec le cas présenté.",
+        "Cela concerne la tâche attribuée à un participant. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Proposition et accord confirmé sont distincts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-23-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Le club veut partager une lecture et des idées.",
+       "b": "Le club veut partager une lecture et des idées."
+      },
+      {
+       "a": "L’accueil précède la lecture puis l’échange.",
+       "b": "L’accueil précède la lecture puis l’échange."
+      },
+      {
+       "a": "Ayuk distribue les tours de lecture.",
+       "b": "Ayuk distribue les tours de lecture."
+      },
+      {
+       "a": "La disponibilité de la salle reste à vérifier.",
+       "b": "La disponibilité de la salle reste à vérifier."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-23-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "objectif",
+     "right": "Le club veut partager une lecture et des idées."
+    },
+    {
+     "left": "ordre des activités",
+     "right": "L’accueil précède la lecture puis l’échange."
+    },
+    {
+     "left": "rôle",
+     "right": "Ayuk distribue les tours de lecture."
+    },
+    {
+     "left": "confirmation",
+     "right": "La disponibilité de la salle reste à vérifier."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-23-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "objectif : ce que l’événement cherche à permettre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il exprime une intention de l’événement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "ordre des activités : la succession prévue des étapes.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’ordre doit permettre le déroulement annoncé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "rôle : la tâche attribuée à un participant.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il indique ici une responsabilité dans l’activité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "confirmation : la vérification d’une condition encore incertaine.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Proposition et accord confirmé sont distincts. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un objectif est seulement une couleur de titre.",
+      "truth": "false",
+      "explain": "Il exprime une intention de l’événement."
+     },
+     {
+      "text": "La clôture doit toujours précéder l’accueil sans explication.",
+      "truth": "false",
+      "explain": "L’ordre doit permettre le déroulement annoncé."
+     },
+     {
+      "text": "Un rôle est nécessairement une adresse privée.",
+      "truth": "false",
+      "explain": "Il indique ici une responsabilité dans l’activité."
+     },
+     {
+      "text": "Un lieu proposé est automatiquement réservé.",
+      "truth": "false",
+      "explain": "Proposition et accord confirmé sont distincts."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "prompt": "Élabore le programme d’un événement scolaire fictif. Indique public, objectif, lieu, ordre des activités et rôles. Signale les conditions restant à confirmer.",
+  "model": [
+   "Programme proposé : rencontre du club de lecture imaginaire, lundi après les cours, dans la salle du club à Bamenda.",
+   "Accueil : Bih présente l’objectif et répartit les fiches.",
+   "Lecture partagée : Ayuk distribue les tours ; chaque participant peut proposer un passage original.",
+   "Échange : le groupe compare les idées et note une question commune.",
+   "Clôture : Bih récapitule ; tous participent au rangement. Le lieu et la disponibilité restent à confirmer avec l’enseignante."
+  ],
+  "checklist": [
+   "Le destinataire sait ce qui est prévu et dans quel ordre.",
+   "Les rôles et le lieu sont cohérents avec l’événement.",
+   "Je distingue proposition et confirmation ; je complète les horaires si la consigne les demande."
+  ],
+  "vars": {},
+  "checks": []
+ }
+}

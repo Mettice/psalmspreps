@@ -1,0 +1,38 @@
+# Français intensif — Form Four, premier trimestre
+
+| Ligne | Sujet | À la fin | Acquis mobilisés | Pour la suite |
+|---|---|---|---|---|
+| 1 | Les mots des relations familiales et sociales | employer des termes précis dans une situation familiale fictive sans jugement sur les personnes | les descriptions et le vocabulaire de la classe précédente | les pronoms indéfinis, la saynète et les lectures sociales |
+| 2 | Les pronoms indéfinis | choisir un pronom selon une quantité imprécise nulle ou partielle et le distinguer du déterminant | le vocabulaire social et le groupe nominal | les reprises claires dans une saynète et un récit |
+| 4 | Préparer une saynète sur le partage des tâches | rédiger et organiser de courtes répliques faisant avancer une scène fictive | les mots sociaux et les pronoms indéfinis | les questions orales préparées et le récit |
+| 6 | Former et employer le passé composé | construire un passé composé actif avec son auxiliaire et son participe dans les modèles étudiés | le présent des auxiliaires et les sujets | l’accord avec être et le récit d’un incident |
+| 8 | Préparer la mélodie de la phrase interrogative | identifier une interrogation totale ou partielle et préparer une indication de courbe sans prétendre écouter un son | les répliques et les marques de question | les liaisons et la prise de parole guidée |
+| 9 | Décrire une maison imaginaire | organiser une description pour que le lecteur situe les espaces et les objets | les questions et les groupes nominaux | les familles de mots et les récits situés |
+| 11 | Familles de mots et tâches partagées | distinguer une famille morphologique d’un champ lexical dans les activités du foyer ou du club | les mots sociaux et la description | les reprises lexicales des récits et des affiches |
+| 13 | Accorder le participe passé avec être | accorder un participe avec le sujet dans les emplois non pronominaux étudiés | la construction du passé composé | le récit précis et la comparaison avec avoir |
+| 14 | Lire un passage sur l’éducation des filles | relever un obstacle et une proposition sans transformer une histoire en jugement général | les mots sociaux et les familles de tâches | le récit et la discussion de propositions |
+| 17 | Raconter un incident domestique fictif | raconter une difficulté sans danger en reliant cadre événement réactions et issue | la description, le passé composé et ses accords | la comparaison des temps et les récits autonomes |
+| 19 | La liaison : préparation écrite | distinguer liaison obligatoire interdite et enchaînement dans des groupes écrits | les sujets, les mots et les questions orales préparées | une diction préparée pour la saynète et la récitation |
+| 20 | Former le conditionnel présent | former le conditionnel présent en combinant radical du futur et terminaison personnelle | les formes de l’imparfait et les infinitifs connus | les demandes polies et les hypothèses |
+| 21 | Lire un passage sur dot et mariage | distinguer une explication culturelle située d’une règle générale absente du texte | le lexique social et les propositions au conditionnel | le programme d’événement et une lecture respectueuse des situations |
+| 23 | Élaborer le programme d’un événement | rédiger un programme utilisable avec objet ordre lieux et rôles cohérents | les descriptions et les propositions au conditionnel | les projets communautaires et les affiches |
+| 25 | Employer le conditionnel présent | choisir le conditionnel pour une demande polie une hypothèse ou un futur du passé | la formation du conditionnel | les propositions discutées et les récits nuancés |
+| 27 | Lexique de l’environnement et de la planification familiale | distinguer les termes environnementaux et ceux d’une information générale de santé sans leur prêter le même sens | les champs lexicaux et les lectures sociales | les relatives, les affiches et les lectures de santé |
+| 29 | La subordonnée relative et ses pronoms | relier un nom à une relative en choisissant qui que dont ou où selon la fonction | les groupes nominaux et les reprises | l’accord avec avoir et les descriptions précises |
+| 30 | Produire une affiche pour l’environnement | rédiger une affiche courte avec une action précise adaptée au public et une raison compréhensible | le lexique de l’environnement et les programmes | la prévention écrite et la discussion collective |
+| 32 | Contraster imparfait et passé composé | justifier une alternance entre arrière-plan ou habitude et événement accompli dans un récit | le passé composé et les récits déjà rédigés | la relecture des textes de prévention et des récits |
+| 34 | Écrire un texte général de prévention | organiser un message qui relie risque action et limite sans promettre une guérison | le lexique de santé et l’affiche | la lecture critique de santé et la table ronde |
+| 36 | Former des noms composés | reconnaître une unité de sens construite avec plusieurs éléments et analyser ses composants | les familles de mots et les groupes nominaux | les accords des noms composés |
+| 38 | Lire un texte sur santé et malnutrition | identifier des facteurs et des limites de connaissance dans un texte général sans diagnostiquer une personne | le vocabulaire de prévention et les récits contrastés | la table ronde et la rédaction de santé |
+| 39 | Préparer une table ronde communautaire | organiser des tours de parole et répondre à une objection avec une raison pertinente | les propositions au conditionnel et les textes sur l’environnement | le chant, la récitation et la discussion réelle |
+| 41 | Préparer un chant collectif | repérer refrain groupes de sens et indications d’entrée dans un texte original à mettre en voix | les liaisons et les tours de parole | la récitation et une pratique vocale accompagnée |
+| 42 | Accorder le participe avec avoir : COD antéposé | repérer le complément direct placé avant avoir et accorder le participe avec lui | le passé composé et les pronoms relatifs | la relecture des textes et descriptions finales |
+| 43 | Préparer une récitation | annoter un texte original selon le sens et justifier pauses et mots à mettre en valeur | les groupes de sens et les liaisons | la lecture expressive et une prestation réelle |
+| 45 | Comparatif et superlatif de l’adjectif | comparer des qualités et situer un élément dans un ensemble en gardant les accords | les descriptions et les groupes nominaux | la lecture critique et la rédaction finale |
+| 48 | Lire un passage sur pandémies et IST | distinguer échelle de diffusion et mode de transmission tout en respectant la portée d’un texte général | les lectures de santé et l’analyse des messages | les accords des composés et l’écrit final |
+| 49 | Mettre les noms composés au pluriel | choisir un pluriel traditionnel attesté en expliquant quels éléments varient | la formation des noms composés et les accords | la relecture des écrits sur la santé et la communauté |
+| 51 | Écrire sur les effets du tabac de l’alcool et des drogues | produire à partir d’une image un message sourcé distinguant indice visible risque et aide | les textes de santé, les accords et les comparaisons | la rédaction autonome d’un message clair et respectueux |
+
+Trente leçons de langue en brouillon ; les intégrations 26 et 52 sont exclues. Les vingt lignes de lecture suivie restent en attente du titre, de l’auteur et de l’édition des œuvres prescrites : 3, 5, 7, 10, 12, 15, 16, 18, 22, 24, 28, 31, 33, 35, 37, 40, 44, 46, 47, 50.
+
+Les lignes orales préparent un travail écrit ; la voix, la mélodie, le chant et la récitation doivent être pratiqués réellement. Les textes et l’illustration sont originaux.

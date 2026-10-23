@@ -1,0 +1,553 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 17,
+ "language": "fr",
+ "prerequisites": [
+  6,
+  9,
+  13,
+  14
+ ],
+ "skills": [
+  {
+   "id": "fi4-17",
+   "name": "Raconter un incident domestique fictif"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un récit d’incident choisit un événement qui modifie une situation. Situe le cadre, présente la difficulté puis les réactions et l’issue. Un incident peut être un cahier égaré : il n’est pas nécessaire de raconter une blessure ou un drame privé. Les connecteurs ensuite, pendant ce temps et enfin organisent des relations différentes. Le cadre peut être à l’imparfait et les événements au passé composé. Les changements de temps doivent suivre le sens, pas le hasard.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras raconter une difficulté sans danger en reliant cadre événement réactions et issue. Acquis mobilisés : la description, le passé composé et ses accords. Pour la suite : la comparaison des temps et les récits autonomes."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un récit d’incident choisit un événement qui modifie une situation. Situe le cadre, présente la difficulté puis les réactions et l’issue. Un incident peut être un cahier égaré : il n’est pas nécessaire de raconter une blessure ou un drame privé. Les connecteurs ensuite, pendant ce temps et enfin organisent des relations différentes. Le cadre peut être à l’imparfait et les événements au passé composé. Les changements de temps doivent suivre le sens, pas le hasard."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Un soir, Bih préparait ses fiches dans une maison imaginaire. Au moment de ranger, elle a remarqué que le cahier du club manquait. Elle a demandé à Ayuk de l’aider à chercher. Pendant ce temps, il a vérifié la table ; Bih a regardé l’étagère. Enfin, elle a retrouvé le cahier sous une grande feuille. Les personnages ont terminé le rangement sans accuser personne."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Note les étapes avant d’écrire. Maintiens les mêmes personnages et explique les liens entre actions. Relis les temps et les accords. Une action de recherche suffit à construire le récit ; ne donne pas de consigne de manipulation dangereuse."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cadre",
+    "meaning": "les circonstances permettant de situer le récit"
+   },
+   {
+    "word": "élément perturbateur",
+    "meaning": "le fait changeant la situation initiale"
+   },
+   {
+    "word": "réaction",
+    "meaning": "une action répondant à la difficulté"
+   },
+   {
+    "word": "issue",
+    "meaning": "l’état obtenu après les actions"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le cadre est obligatoirement un diagnostic médical.",
+   "right": "les circonstances permettant de situer le récit.",
+   "why": "Il situe ici une action de rangement."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un soir et le lieu imaginaire donnent le cadre. Explique le choix.",
+  "steps": [
+   "les circonstances permettant de situer le récit.",
+   "Il situe ici une action de rangement."
+  ],
+  "answer": "cadre",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-17-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "cadre : les circonstances permettant de situer le récit.",
+     "élément perturbateur : le fait changeant la situation initiale.",
+     "réaction : une action répondant à la difficulté.",
+     "issue : l’état obtenu après les actions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-17-notions"
+    }
+   },
+   {
+    "id": "fi4-17-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Un soir et le lieu imaginaire donnent le cadre.",
+     "Le cahier semble manquer.",
+     "Les personnages cherchent à des endroits différents.",
+     "Bih retrouve le cahier."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-17-cas"
+    }
+   },
+   {
+    "id": "fi4-17-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le cadre est obligatoirement un diagnostic médical. Correction : Il situe ici une action de rangement.",
+     "Un élément perturbateur doit être une catastrophe réelle. Correction : Une petite difficulté fictive suffit.",
+     "Une réaction n’a aucun lien avec le problème raconté. Correction : La recherche répond à l’absence du cahier.",
+     "Une issue peut être annoncée sans lien avec aucune action. Correction : Le récit doit rendre la résolution compréhensible."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-17-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "cadre : les circonstances permettant de situer le récit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il situe ici une action de rangement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "élément perturbateur : le fait changeant la situation initiale.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une petite difficulté fictive suffit. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "réaction : une action répondant à la difficulté.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La recherche répond à l’absence du cahier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "issue : l’état obtenu après les actions.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le récit doit rendre la résolution compréhensible. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le cadre est obligatoirement un diagnostic médical.",
+        "truth": "false",
+        "explain": "Il situe ici une action de rangement."
+       },
+       {
+        "text": "Un élément perturbateur doit être une catastrophe réelle.",
+        "truth": "false",
+        "explain": "Une petite difficulté fictive suffit."
+       },
+       {
+        "text": "Une réaction n’a aucun lien avec le problème raconté.",
+        "truth": "false",
+        "explain": "La recherche répond à l’absence du cahier."
+       },
+       {
+        "text": "Une issue peut être annoncée sans lien avec aucune action.",
+        "truth": "false",
+        "explain": "Le récit doit rendre la résolution compréhensible."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-17-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne les circonstances permettant de situer le récit ?",
+       "r": "cadre",
+       "w": [
+        "élément perturbateur",
+        "réaction",
+        "issue"
+       ],
+       "e": [
+        "Cela désigne le fait changeant la situation initiale, plutôt que la notion demandée.",
+        "Cela désigne une action répondant à la difficulté, plutôt que la notion demandée.",
+        "Cela désigne l’état obtenu après les actions, plutôt que la notion demandée."
+       ],
+       "y": "Il situe ici une action de rangement."
+      },
+      {
+       "q": "Quel terme désigne le fait changeant la situation initiale ?",
+       "r": "élément perturbateur",
+       "w": [
+        "cadre",
+        "réaction",
+        "issue"
+       ],
+       "e": [
+        "Cela désigne les circonstances permettant de situer le récit, plutôt que la notion demandée.",
+        "Cela désigne une action répondant à la difficulté, plutôt que la notion demandée.",
+        "Cela désigne l’état obtenu après les actions, plutôt que la notion demandée."
+       ],
+       "y": "Une petite difficulté fictive suffit."
+      },
+      {
+       "q": "Quel terme désigne une action répondant à la difficulté ?",
+       "r": "réaction",
+       "w": [
+        "cadre",
+        "élément perturbateur",
+        "issue"
+       ],
+       "e": [
+        "Cela désigne les circonstances permettant de situer le récit, plutôt que la notion demandée.",
+        "Cela désigne le fait changeant la situation initiale, plutôt que la notion demandée.",
+        "Cela désigne l’état obtenu après les actions, plutôt que la notion demandée."
+       ],
+       "y": "La recherche répond à l’absence du cahier."
+      },
+      {
+       "q": "Quel terme désigne l’état obtenu après les actions ?",
+       "r": "issue",
+       "w": [
+        "cadre",
+        "élément perturbateur",
+        "réaction"
+       ],
+       "e": [
+        "Cela désigne les circonstances permettant de situer le récit, plutôt que la notion demandée.",
+        "Cela désigne le fait changeant la situation initiale, plutôt que la notion demandée.",
+        "Cela désigne une action répondant à la difficulté, plutôt que la notion demandée."
+       ],
+       "y": "Le récit doit rendre la résolution compréhensible."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-17-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un soir et le lieu imaginaire donnent le cadre.\nQuelle notion convient ?",
+       "r": "cadre",
+       "w": [
+        "élément perturbateur",
+        "réaction",
+        "issue"
+       ],
+       "e": [
+        "Cela concerne le fait changeant la situation initiale. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action répondant à la difficulté. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’état obtenu après les actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il situe ici une action de rangement."
+      },
+      {
+       "q": "Le cahier semble manquer.\nQuelle notion convient ?",
+       "r": "élément perturbateur",
+       "w": [
+        "cadre",
+        "réaction",
+        "issue"
+       ],
+       "e": [
+        "Cela concerne les circonstances permettant de situer le récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action répondant à la difficulté. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’état obtenu après les actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une petite difficulté fictive suffit."
+      },
+      {
+       "q": "Les personnages cherchent à des endroits différents.\nQuelle notion convient ?",
+       "r": "réaction",
+       "w": [
+        "cadre",
+        "élément perturbateur",
+        "issue"
+       ],
+       "e": [
+        "Cela concerne les circonstances permettant de situer le récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne le fait changeant la situation initiale. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’état obtenu après les actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La recherche répond à l’absence du cahier."
+      },
+      {
+       "q": "Bih retrouve le cahier.\nQuelle notion convient ?",
+       "r": "issue",
+       "w": [
+        "cadre",
+        "élément perturbateur",
+        "réaction"
+       ],
+       "e": [
+        "Cela concerne les circonstances permettant de situer le récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne le fait changeant la situation initiale. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action répondant à la difficulté. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le récit doit rendre la résolution compréhensible."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-17-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Un soir et le lieu imaginaire donnent le cadre.",
+       "b": "Un soir et le lieu imaginaire donnent le cadre."
+      },
+      {
+       "a": "Le cahier semble manquer.",
+       "b": "Le cahier semble manquer."
+      },
+      {
+       "a": "Les personnages cherchent à des endroits différents.",
+       "b": "Les personnages cherchent à des endroits différents."
+      },
+      {
+       "a": "Bih retrouve le cahier.",
+       "b": "Bih retrouve le cahier."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-17-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "cadre",
+     "right": "Un soir et le lieu imaginaire donnent le cadre."
+    },
+    {
+     "left": "élément perturbateur",
+     "right": "Le cahier semble manquer."
+    },
+    {
+     "left": "réaction",
+     "right": "Les personnages cherchent à des endroits différents."
+    },
+    {
+     "left": "issue",
+     "right": "Bih retrouve le cahier."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-17-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "cadre : les circonstances permettant de situer le récit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il situe ici une action de rangement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "élément perturbateur : le fait changeant la situation initiale.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une petite difficulté fictive suffit. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "réaction : une action répondant à la difficulté.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La recherche répond à l’absence du cahier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "issue : l’état obtenu après les actions.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le récit doit rendre la résolution compréhensible. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le cadre est obligatoirement un diagnostic médical.",
+      "truth": "false",
+      "explain": "Il situe ici une action de rangement."
+     },
+     {
+      "text": "Un élément perturbateur doit être une catastrophe réelle.",
+      "truth": "false",
+      "explain": "Une petite difficulté fictive suffit."
+     },
+     {
+      "text": "Une réaction n’a aucun lien avec le problème raconté.",
+      "truth": "false",
+      "explain": "La recherche répond à l’absence du cahier."
+     },
+     {
+      "text": "Une issue peut être annoncée sans lien avec aucune action.",
+      "truth": "false",
+      "explain": "Le récit doit rendre la résolution compréhensible."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "prompt": "Raconte un incident fictif sans danger : un objet de travail semble égaré puis est retrouvé. Situe la scène et relie difficulté, réactions et issue.",
+  "model": [
+   "Un soir, Bih préparait ses fiches dans une maison imaginaire. Au moment de ranger, elle a remarqué que le cahier du club manquait. Elle a demandé à Ayuk de l’aider à chercher. Pendant ce temps, il a vérifié la table ; Bih a regardé l’étagère. Enfin, elle a retrouvé le cahier sous une grande feuille. Les personnages ont terminé le rangement sans accuser personne."
+  ],
+  "checklist": [
+   "Le lecteur comprend la difficulté et sa résolution.",
+   "Les connecteurs correspondent aux liens entre actions.",
+   "Les pronoms, temps et accords gardent des référents clairs."
+  ],
+  "vars": {},
+  "checks": []
+ }
+}

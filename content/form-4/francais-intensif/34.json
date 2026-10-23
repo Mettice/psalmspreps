@@ -1,0 +1,554 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 34,
+ "language": "fr",
+ "prerequisites": [
+  27,
+  30,
+  32
+ ],
+ "skills": [
+  {
+   "id": "fi4-34",
+   "name": "Écrire un texte général de prévention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un texte de prévention explique un risque et une action destinée à le réduire. Il doit préciser le contexte, employer une source fiable et éviter les promesses absolues. L’hygiène des mains avec eau et savon contribue à réduire certains risques de transmission, mais ne garantit pas l’absence de toute maladie. Un texte scolaire général ne pose pas de diagnostic et ne choisit pas de traitement. Une consigne personnelle ou un problème de santé appelle un professionnel qualifié. Le but d’écriture reste la clarté du message.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras organiser un message qui relie risque action et limite sans promettre une guérison. Acquis mobilisés : le lexique de santé et l’affiche. Pour la suite : la lecture critique de santé et la table ronde."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un texte de prévention explique un risque et une action destinée à le réduire. Il doit préciser le contexte, employer une source fiable et éviter les promesses absolues. L’hygiène des mains avec eau et savon contribue à réduire certains risques de transmission, mais ne garantit pas l’absence de toute maladie. Un texte scolaire général ne pose pas de diagnostic et ne choisit pas de traitement. Une consigne personnelle ou un problème de santé appelle un professionnel qualifié. Le but d’écriture reste la clarté du message."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Texte original : « Des mains propres dans nos activités partagées » « Au club, nous manipulons des objets communs. L’hygiène des mains avec de l’eau et du savon contribue à réduire certains risques de transmission. Elle ne remplace pas toutes les autres mesures adaptées à une situation. » « Notre fiche explique un principe général. Elle ne dit pas qu’une personne est malade et ne prescrit aucun médicament. Pour une question personnelle, demandons l’aide d’un professionnel de santé qualifié. Vérifions la source avant de reprendre un message. »"
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Annonce le sujet, relie l’action au risque et formule une limite. Relis les mots toujours, jamais et garantit : exigent-ils une preuve que tu n’as pas ? Mentionne la source de classe vérifiée et garde un ton respectueux."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "risque",
+    "meaning": "une possibilité de dommage et non une certitude individuelle"
+   },
+   {
+    "word": "prévention",
+    "meaning": "une démarche visant à réduire un risque"
+   },
+   {
+    "word": "source fiable",
+    "meaning": "une référence identifiable et pertinente pour le message"
+   },
+   {
+    "word": "limite du message",
+    "meaning": "ce que le texte général ne peut décider pour une personne"
+   }
+  ],
+  "mistake": {
+   "wrong": "Nommer un risque diagnostique chaque lecteur.",
+   "right": "une possibilité de dommage et non une certitude individuelle.",
+   "why": "La possibilité générale ne fixe pas le cas personnel."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le texte évoque certains risques de transmission. Explique le choix.",
+  "steps": [
+   "une possibilité de dommage et non une certitude individuelle.",
+   "La possibilité générale ne fixe pas le cas personnel."
+  ],
+  "answer": "risque",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-34-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "risque : une possibilité de dommage et non une certitude individuelle.",
+     "prévention : une démarche visant à réduire un risque.",
+     "source fiable : une référence identifiable et pertinente pour le message.",
+     "limite du message : ce que le texte général ne peut décider pour une personne."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-34-notions"
+    }
+   },
+   {
+    "id": "fi4-34-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le texte évoque certains risques de transmission.",
+     "L’hygiène des mains contribue à réduire certains risques.",
+     "La fiche renvoie à une référence de santé vérifiée.",
+     "La fiche ne prescrit pas de médicament."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-34-cas"
+    }
+   },
+   {
+    "id": "fi4-34-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Nommer un risque diagnostique chaque lecteur. Correction : La possibilité générale ne fixe pas le cas personnel.",
+     "Prévenir garantit de ne jamais avoir aucune maladie. Correction : La réduction du risque n’est pas cette garantie totale.",
+     "Une rumeur anonyme suffit toujours comme preuve médicale. Correction : L’origine et la pertinence doivent être examinées.",
+     "Un texte scolaire remplace toute consultation personnelle. Correction : Une explication générale ne remplace pas cet accompagnement."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-34-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "risque : une possibilité de dommage et non une certitude individuelle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La possibilité générale ne fixe pas le cas personnel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "prévention : une démarche visant à réduire un risque.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La réduction du risque n’est pas cette garantie totale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "source fiable : une référence identifiable et pertinente pour le message.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’origine et la pertinence doivent être examinées. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "limite du message : ce que le texte général ne peut décider pour une personne.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une explication générale ne remplace pas cet accompagnement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Nommer un risque diagnostique chaque lecteur.",
+        "truth": "false",
+        "explain": "La possibilité générale ne fixe pas le cas personnel."
+       },
+       {
+        "text": "Prévenir garantit de ne jamais avoir aucune maladie.",
+        "truth": "false",
+        "explain": "La réduction du risque n’est pas cette garantie totale."
+       },
+       {
+        "text": "Une rumeur anonyme suffit toujours comme preuve médicale.",
+        "truth": "false",
+        "explain": "L’origine et la pertinence doivent être examinées."
+       },
+       {
+        "text": "Un texte scolaire remplace toute consultation personnelle.",
+        "truth": "false",
+        "explain": "Une explication générale ne remplace pas cet accompagnement."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-34-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une possibilité de dommage et non une certitude individuelle ?",
+       "r": "risque",
+       "w": [
+        "prévention",
+        "source fiable",
+        "limite du message"
+       ],
+       "e": [
+        "Cela désigne une démarche visant à réduire un risque, plutôt que la notion demandée.",
+        "Cela désigne une référence identifiable et pertinente pour le message, plutôt que la notion demandée.",
+        "Cela désigne ce que le texte général ne peut décider pour une personne, plutôt que la notion demandée."
+       ],
+       "y": "La possibilité générale ne fixe pas le cas personnel."
+      },
+      {
+       "q": "Quel terme désigne une démarche visant à réduire un risque ?",
+       "r": "prévention",
+       "w": [
+        "risque",
+        "source fiable",
+        "limite du message"
+       ],
+       "e": [
+        "Cela désigne une possibilité de dommage et non une certitude individuelle, plutôt que la notion demandée.",
+        "Cela désigne une référence identifiable et pertinente pour le message, plutôt que la notion demandée.",
+        "Cela désigne ce que le texte général ne peut décider pour une personne, plutôt que la notion demandée."
+       ],
+       "y": "La réduction du risque n’est pas cette garantie totale."
+      },
+      {
+       "q": "Quel terme désigne une référence identifiable et pertinente pour le message ?",
+       "r": "source fiable",
+       "w": [
+        "risque",
+        "prévention",
+        "limite du message"
+       ],
+       "e": [
+        "Cela désigne une possibilité de dommage et non une certitude individuelle, plutôt que la notion demandée.",
+        "Cela désigne une démarche visant à réduire un risque, plutôt que la notion demandée.",
+        "Cela désigne ce que le texte général ne peut décider pour une personne, plutôt que la notion demandée."
+       ],
+       "y": "L’origine et la pertinence doivent être examinées."
+      },
+      {
+       "q": "Quel terme désigne ce que le texte général ne peut décider pour une personne ?",
+       "r": "limite du message",
+       "w": [
+        "risque",
+        "prévention",
+        "source fiable"
+       ],
+       "e": [
+        "Cela désigne une possibilité de dommage et non une certitude individuelle, plutôt que la notion demandée.",
+        "Cela désigne une démarche visant à réduire un risque, plutôt que la notion demandée.",
+        "Cela désigne une référence identifiable et pertinente pour le message, plutôt que la notion demandée."
+       ],
+       "y": "Une explication générale ne remplace pas cet accompagnement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-34-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le texte évoque certains risques de transmission.\nQuelle notion convient ?",
+       "r": "risque",
+       "w": [
+        "prévention",
+        "source fiable",
+        "limite du message"
+       ],
+       "e": [
+        "Cela concerne une démarche visant à réduire un risque. Compare cette définition avec le cas présenté.",
+        "Cela concerne une référence identifiable et pertinente pour le message. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que le texte général ne peut décider pour une personne. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La possibilité générale ne fixe pas le cas personnel."
+      },
+      {
+       "q": "L’hygiène des mains contribue à réduire certains risques.\nQuelle notion convient ?",
+       "r": "prévention",
+       "w": [
+        "risque",
+        "source fiable",
+        "limite du message"
+       ],
+       "e": [
+        "Cela concerne une possibilité de dommage et non une certitude individuelle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une référence identifiable et pertinente pour le message. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que le texte général ne peut décider pour une personne. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La réduction du risque n’est pas cette garantie totale."
+      },
+      {
+       "q": "La fiche renvoie à une référence de santé vérifiée.\nQuelle notion convient ?",
+       "r": "source fiable",
+       "w": [
+        "risque",
+        "prévention",
+        "limite du message"
+       ],
+       "e": [
+        "Cela concerne une possibilité de dommage et non une certitude individuelle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une démarche visant à réduire un risque. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que le texte général ne peut décider pour une personne. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’origine et la pertinence doivent être examinées."
+      },
+      {
+       "q": "La fiche ne prescrit pas de médicament.\nQuelle notion convient ?",
+       "r": "limite du message",
+       "w": [
+        "risque",
+        "prévention",
+        "source fiable"
+       ],
+       "e": [
+        "Cela concerne une possibilité de dommage et non une certitude individuelle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une démarche visant à réduire un risque. Compare cette définition avec le cas présenté.",
+        "Cela concerne une référence identifiable et pertinente pour le message. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une explication générale ne remplace pas cet accompagnement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-34-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Le texte évoque certains risques de transmission.",
+       "b": "Le texte évoque certains risques de transmission."
+      },
+      {
+       "a": "L’hygiène des mains contribue à réduire certains risques.",
+       "b": "L’hygiène des mains contribue à réduire certains risques."
+      },
+      {
+       "a": "La fiche renvoie à une référence de santé vérifiée.",
+       "b": "La fiche renvoie à une référence de santé vérifiée."
+      },
+      {
+       "a": "La fiche ne prescrit pas de médicament.",
+       "b": "La fiche ne prescrit pas de médicament."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-34-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "risque",
+     "right": "Le texte évoque certains risques de transmission."
+    },
+    {
+     "left": "prévention",
+     "right": "L’hygiène des mains contribue à réduire certains risques."
+    },
+    {
+     "left": "source fiable",
+     "right": "La fiche renvoie à une référence de santé vérifiée."
+    },
+    {
+     "left": "limite du message",
+     "right": "La fiche ne prescrit pas de médicament."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-34-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "risque : une possibilité de dommage et non une certitude individuelle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La possibilité générale ne fixe pas le cas personnel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "prévention : une démarche visant à réduire un risque.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La réduction du risque n’est pas cette garantie totale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "source fiable : une référence identifiable et pertinente pour le message.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’origine et la pertinence doivent être examinées. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "limite du message : ce que le texte général ne peut décider pour une personne.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une explication générale ne remplace pas cet accompagnement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nommer un risque diagnostique chaque lecteur.",
+      "truth": "false",
+      "explain": "La possibilité générale ne fixe pas le cas personnel."
+     },
+     {
+      "text": "Prévenir garantit de ne jamais avoir aucune maladie.",
+      "truth": "false",
+      "explain": "La réduction du risque n’est pas cette garantie totale."
+     },
+     {
+      "text": "Une rumeur anonyme suffit toujours comme preuve médicale.",
+      "truth": "false",
+      "explain": "L’origine et la pertinence doivent être examinées."
+     },
+     {
+      "text": "Un texte scolaire remplace toute consultation personnelle.",
+      "truth": "false",
+      "explain": "Une explication générale ne remplace pas cet accompagnement."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "prompt": "Écris un court message général de prévention pour un club fictif, à partir de la référence de classe sur l’hygiène des mains. Relie risque, action et limite ; ne prescris aucun traitement.",
+  "model": [
+   "Texte original : « Des mains propres dans nos activités partagées »",
+   "« Au club, nous manipulons des objets communs. L’hygiène des mains avec de l’eau et du savon contribue à réduire certains risques de transmission. Elle ne remplace pas toutes les autres mesures adaptées à une situation. »",
+   "« Notre fiche explique un principe général. Elle ne dit pas qu’une personne est malade et ne prescrit aucun médicament. Pour une question personnelle, demandons l’aide d’un professionnel de santé qualifié. Vérifions la source avant de reprendre un message. »"
+  ],
+  "checklist": [
+   "Je distingue risque et diagnostic.",
+   "L’action et sa portée correspondent à la source vérifiée.",
+   "Le texte est organisé et ne promet ni guérison ni protection totale."
+  ],
+  "vars": {},
+  "checks": []
+ }
+}

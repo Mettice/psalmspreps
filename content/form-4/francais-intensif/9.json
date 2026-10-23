@@ -1,0 +1,551 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 9,
+ "language": "fr",
+ "prerequisites": [
+  2,
+  8
+ ],
+ "skills": [
+  {
+   "id": "fi4-9",
+   "name": "Décrire une maison imaginaire"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une description présente un lieu selon un parcours lisible. Commence par une vue d’ensemble, puis organise les détails de l’entrée vers le fond ou d’une pièce vers une autre. Des repères comme à gauche, au fond et près de guident le regard. Des adjectifs précis construisent une impression soutenue par les détails. N’accumule pas des objets sans lien spatial. La maison peut être inventée : aucune adresse réelle, photo du foyer ou confidence sur les conditions de vie n’est nécessaire.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras organiser une description pour que le lecteur situe les espaces et les objets. Acquis mobilisés : les questions et les groupes nominaux. Pour la suite : les familles de mots et les récits situés."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une description présente un lieu selon un parcours lisible. Commence par une vue d’ensemble, puis organise les détails de l’entrée vers le fond ou d’une pièce vers une autre. Des repères comme à gauche, au fond et près de guident le regard. Des adjectifs précis construisent une impression soutenue par les détails. N’accumule pas des objets sans lien spatial. La maison peut être inventée : aucune adresse réelle, photo du foyer ou confidence sur les conditions de vie n’est nécessaire."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Dans une maison imaginaire à Buea, une petite cour précède l’entrée. À gauche, une pièce claire contient une table et des chaises. Au fond, une étagère garde les livres du club. Une fenêtre donne sur la cour ; le passage reste dégagé entre la porte et la table. Ces détails donnent l’impression d’un lieu simple et organisé."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Dessine un plan rapide pour toi, choisis un parcours et rédige dans cet ordre. Vérifie que les repères ne se contredisent pas. Relis noms, adjectifs et reprises ; ajoute une impression fondée sur des détails."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "vue d’ensemble",
+    "meaning": "une présentation globale du lieu"
+   },
+   {
+    "word": "repère spatial",
+    "meaning": "une expression situant un élément"
+   },
+   {
+    "word": "parcours descriptif",
+    "meaning": "un ordre cohérent guidant le regard"
+   },
+   {
+    "word": "impression étayée",
+    "meaning": "un effet d’ensemble soutenu par les détails"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une description doit cacher le lieu décrit jusqu’à la fin.",
+   "right": "une présentation globale du lieu.",
+   "why": "La vue générale aide à situer les détails."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "La première phrase annonce une maison et sa cour. Explique le choix.",
+  "steps": [
+   "une présentation globale du lieu.",
+   "La vue générale aide à situer les détails."
+  ],
+  "answer": "vue d’ensemble",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-9-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "vue d’ensemble : une présentation globale du lieu.",
+     "repère spatial : une expression situant un élément.",
+     "parcours descriptif : un ordre cohérent guidant le regard.",
+     "impression étayée : un effet d’ensemble soutenu par les détails."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-9-notions"
+    }
+   },
+   {
+    "id": "fi4-9-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "La première phrase annonce une maison et sa cour.",
+     "À gauche situe une pièce dans le modèle.",
+     "Le modèle va de la cour à l’entrée puis au fond.",
+     "Le passage dégagé soutient l’idée d’organisation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-9-cas"
+    }
+   },
+   {
+    "id": "fi4-9-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une description doit cacher le lieu décrit jusqu’à la fin. Correction : La vue générale aide à situer les détails.",
+     "À gauche indique seulement un moment passé. Correction : Ce repère concerne l’espace.",
+     "Les positions peuvent se contredire sans gêner la description. Correction : Le lecteur doit pouvoir se représenter les relations.",
+     "Une impression doit toujours contredire tous les détails. Correction : Les détails doivent rendre l’effet compréhensible."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-9-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "vue d’ensemble : une présentation globale du lieu.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La vue générale aide à situer les détails. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "repère spatial : une expression situant un élément.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ce repère concerne l’espace. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "parcours descriptif : un ordre cohérent guidant le regard.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le lecteur doit pouvoir se représenter les relations. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "impression étayée : un effet d’ensemble soutenu par les détails.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les détails doivent rendre l’effet compréhensible. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une description doit cacher le lieu décrit jusqu’à la fin.",
+        "truth": "false",
+        "explain": "La vue générale aide à situer les détails."
+       },
+       {
+        "text": "À gauche indique seulement un moment passé.",
+        "truth": "false",
+        "explain": "Ce repère concerne l’espace."
+       },
+       {
+        "text": "Les positions peuvent se contredire sans gêner la description.",
+        "truth": "false",
+        "explain": "Le lecteur doit pouvoir se représenter les relations."
+       },
+       {
+        "text": "Une impression doit toujours contredire tous les détails.",
+        "truth": "false",
+        "explain": "Les détails doivent rendre l’effet compréhensible."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-9-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une présentation globale du lieu ?",
+       "r": "vue d’ensemble",
+       "w": [
+        "repère spatial",
+        "parcours descriptif",
+        "impression étayée"
+       ],
+       "e": [
+        "Cela désigne une expression situant un élément, plutôt que la notion demandée.",
+        "Cela désigne un ordre cohérent guidant le regard, plutôt que la notion demandée.",
+        "Cela désigne un effet d’ensemble soutenu par les détails, plutôt que la notion demandée."
+       ],
+       "y": "La vue générale aide à situer les détails."
+      },
+      {
+       "q": "Quel terme désigne une expression situant un élément ?",
+       "r": "repère spatial",
+       "w": [
+        "vue d’ensemble",
+        "parcours descriptif",
+        "impression étayée"
+       ],
+       "e": [
+        "Cela désigne une présentation globale du lieu, plutôt que la notion demandée.",
+        "Cela désigne un ordre cohérent guidant le regard, plutôt que la notion demandée.",
+        "Cela désigne un effet d’ensemble soutenu par les détails, plutôt que la notion demandée."
+       ],
+       "y": "Ce repère concerne l’espace."
+      },
+      {
+       "q": "Quel terme désigne un ordre cohérent guidant le regard ?",
+       "r": "parcours descriptif",
+       "w": [
+        "vue d’ensemble",
+        "repère spatial",
+        "impression étayée"
+       ],
+       "e": [
+        "Cela désigne une présentation globale du lieu, plutôt que la notion demandée.",
+        "Cela désigne une expression situant un élément, plutôt que la notion demandée.",
+        "Cela désigne un effet d’ensemble soutenu par les détails, plutôt que la notion demandée."
+       ],
+       "y": "Le lecteur doit pouvoir se représenter les relations."
+      },
+      {
+       "q": "Quel terme désigne un effet d’ensemble soutenu par les détails ?",
+       "r": "impression étayée",
+       "w": [
+        "vue d’ensemble",
+        "repère spatial",
+        "parcours descriptif"
+       ],
+       "e": [
+        "Cela désigne une présentation globale du lieu, plutôt que la notion demandée.",
+        "Cela désigne une expression situant un élément, plutôt que la notion demandée.",
+        "Cela désigne un ordre cohérent guidant le regard, plutôt que la notion demandée."
+       ],
+       "y": "Les détails doivent rendre l’effet compréhensible."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-9-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La première phrase annonce une maison et sa cour.\nQuelle notion convient ?",
+       "r": "vue d’ensemble",
+       "w": [
+        "repère spatial",
+        "parcours descriptif",
+        "impression étayée"
+       ],
+       "e": [
+        "Cela concerne une expression situant un élément. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ordre cohérent guidant le regard. Compare cette définition avec le cas présenté.",
+        "Cela concerne un effet d’ensemble soutenu par les détails. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La vue générale aide à situer les détails."
+      },
+      {
+       "q": "À gauche situe une pièce dans le modèle.\nQuelle notion convient ?",
+       "r": "repère spatial",
+       "w": [
+        "vue d’ensemble",
+        "parcours descriptif",
+        "impression étayée"
+       ],
+       "e": [
+        "Cela concerne une présentation globale du lieu. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ordre cohérent guidant le regard. Compare cette définition avec le cas présenté.",
+        "Cela concerne un effet d’ensemble soutenu par les détails. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ce repère concerne l’espace."
+      },
+      {
+       "q": "Le modèle va de la cour à l’entrée puis au fond.\nQuelle notion convient ?",
+       "r": "parcours descriptif",
+       "w": [
+        "vue d’ensemble",
+        "repère spatial",
+        "impression étayée"
+       ],
+       "e": [
+        "Cela concerne une présentation globale du lieu. Compare cette définition avec le cas présenté.",
+        "Cela concerne une expression situant un élément. Compare cette définition avec le cas présenté.",
+        "Cela concerne un effet d’ensemble soutenu par les détails. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le lecteur doit pouvoir se représenter les relations."
+      },
+      {
+       "q": "Le passage dégagé soutient l’idée d’organisation.\nQuelle notion convient ?",
+       "r": "impression étayée",
+       "w": [
+        "vue d’ensemble",
+        "repère spatial",
+        "parcours descriptif"
+       ],
+       "e": [
+        "Cela concerne une présentation globale du lieu. Compare cette définition avec le cas présenté.",
+        "Cela concerne une expression situant un élément. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ordre cohérent guidant le regard. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les détails doivent rendre l’effet compréhensible."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-9-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "La première phrase annonce une maison et sa cour.",
+       "b": "La première phrase annonce une maison et sa cour."
+      },
+      {
+       "a": "À gauche situe une pièce dans le modèle.",
+       "b": "À gauche situe une pièce dans le modèle."
+      },
+      {
+       "a": "Le modèle va de la cour à l’entrée puis au fond.",
+       "b": "Le modèle va de la cour à l’entrée puis au fond."
+      },
+      {
+       "a": "Le passage dégagé soutient l’idée d’organisation.",
+       "b": "Le passage dégagé soutient l’idée d’organisation."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-9-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "vue d’ensemble",
+     "right": "La première phrase annonce une maison et sa cour."
+    },
+    {
+     "left": "repère spatial",
+     "right": "À gauche situe une pièce dans le modèle."
+    },
+    {
+     "left": "parcours descriptif",
+     "right": "Le modèle va de la cour à l’entrée puis au fond."
+    },
+    {
+     "left": "impression étayée",
+     "right": "Le passage dégagé soutient l’idée d’organisation."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-9-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "vue d’ensemble : une présentation globale du lieu.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La vue générale aide à situer les détails. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "repère spatial : une expression situant un élément.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ce repère concerne l’espace. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "parcours descriptif : un ordre cohérent guidant le regard.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le lecteur doit pouvoir se représenter les relations. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "impression étayée : un effet d’ensemble soutenu par les détails.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les détails doivent rendre l’effet compréhensible. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une description doit cacher le lieu décrit jusqu’à la fin.",
+      "truth": "false",
+      "explain": "La vue générale aide à situer les détails."
+     },
+     {
+      "text": "À gauche indique seulement un moment passé.",
+      "truth": "false",
+      "explain": "Ce repère concerne l’espace."
+     },
+     {
+      "text": "Les positions peuvent se contredire sans gêner la description.",
+      "truth": "false",
+      "explain": "Le lecteur doit pouvoir se représenter les relations."
+     },
+     {
+      "text": "Une impression doit toujours contredire tous les détails.",
+      "truth": "false",
+      "explain": "Les détails doivent rendre l’effet compréhensible."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "prompt": "Décris une maison entièrement imaginaire. Présente l’ensemble puis guide le regard avec des repères cohérents. Termine par une impression appuyée sur les détails.",
+  "model": [
+   "Dans une maison imaginaire à Buea, une petite cour précède l’entrée. À gauche, une pièce claire contient une table et des chaises. Au fond, une étagère garde les livres du club. Une fenêtre donne sur la cour ; le passage reste dégagé entre la porte et la table. Ces détails donnent l’impression d’un lieu simple et organisé."
+  ],
+  "checklist": [
+   "Je nomme un lieu fictif sans adresse privée.",
+   "Mon parcours et mes repères permettent de situer les éléments.",
+   "Les adjectifs, accords et reprises restent cohérents."
+  ],
+  "vars": {},
+  "checks": []
+ }
+}

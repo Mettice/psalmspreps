@@ -1,0 +1,612 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 39,
+ "language": "fr",
+ "prerequisites": [
+  25,
+  27,
+  30,
+  38
+ ],
+ "skills": [
+  {
+   "id": "fi4-39",
+   "name": "Préparer une table ronde communautaire"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une table ronde permet à plusieurs participants de comparer des points de vue sur un sujet commun. Un modérateur distribue la parole et rappelle le sujet ; il ne décide pas automatiquement que toute opinion est vraie. Un argument soutient une proposition ; une objection signale une difficulté précise. Reformuler une idée avant d’y répondre évite de l’attaquer sous une forme déformée. La préparation écrite porte sur ces outils ; elle ne mesure pas l’écoute réelle d’un groupe.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras organiser des tours de parole et répondre à une objection avec une raison pertinente. Acquis mobilisés : les propositions au conditionnel et les textes sur l’environnement. Pour la suite : le chant, la récitation et la discussion réelle."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une table ronde permet à plusieurs participants de comparer des points de vue sur un sujet commun. Un modérateur distribue la parole et rappelle le sujet ; il ne décide pas automatiquement que toute opinion est vraie. Un argument soutient une proposition ; une objection signale une difficulté précise. Reformuler une idée avant d’y répondre évite de l’attaquer sous une forme déformée. La préparation écrite porte sur ces outils ; elle ne mesure pas l’écoute réelle d’un groupe."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Échange original : Le club de Douala discute un coin lecture partagé. Bih propose une rotation du rangement pour que chacun participe. Ayuk objecte que certains jours la salle est fermée. Le modérateur reformule cette limite ; Bih propose alors de vérifier les jours d’ouverture avant d’afficher le programme. La décision reste un projet à confirmer."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Prépare une position, une raison et une réponse à une limite plausible. Note un ordre de passage et une conclusion proportionnée. Pratique ensuite une discussion réelle en laissant finir les interventions."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "modération",
+    "meaning": "l’organisation des tours et le rappel du sujet"
+   },
+   {
+    "word": "argument",
+    "meaning": "une raison liée à la proposition défendue"
+   },
+   {
+    "word": "objection",
+    "meaning": "une difficulté précise à examiner"
+   },
+   {
+    "word": "reformulation",
+    "meaning": "une reprise fidèle d’une idée avant d’y répondre"
+   }
+  ],
+  "mistake": {
+   "wrong": "Modérer signifie interdire toute objection.",
+   "right": "l’organisation des tours et le rappel du sujet.",
+   "why": "Les objections pertinentes font partie de l’échange."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le modérateur invite Ayuk à exposer sa limite. Explique le choix.",
+  "steps": [
+   "l’organisation des tours et le rappel du sujet.",
+   "Les objections pertinentes font partie de l’échange."
+  ],
+  "answer": "modération",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-39-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "modération : l’organisation des tours et le rappel du sujet.",
+     "argument : une raison liée à la proposition défendue.",
+     "objection : une difficulté précise à examiner.",
+     "reformulation : une reprise fidèle d’une idée avant d’y répondre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-39-notions"
+    }
+   },
+   {
+    "id": "fi4-39-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le modérateur invite Ayuk à exposer sa limite.",
+     "La rotation permet de partager la tâche.",
+     "La salle fermée certains jours limite le programme.",
+     "Le modérateur rappelle la limite des jours fermés."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-39-cas"
+    }
+   },
+   {
+    "id": "fi4-39-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Modérer signifie interdire toute objection. Correction : Les objections pertinentes font partie de l’échange.",
+     "Parler plus fort constitue forcément une preuve. Correction : Le volume n’établit pas la pertinence de la raison.",
+     "Une objection est nécessairement une insulte. Correction : Elle peut porter sur une condition pratique.",
+     "Reformuler exige de rendre l’idée adverse absurde. Correction : La reprise doit garder le sens de l’intervention."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-39-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "modération : l’organisation des tours et le rappel du sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les objections pertinentes font partie de l’échange. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "argument : une raison liée à la proposition défendue.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le volume n’établit pas la pertinence de la raison. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "objection : une difficulté précise à examiner.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle peut porter sur une condition pratique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "reformulation : une reprise fidèle d’une idée avant d’y répondre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La reprise doit garder le sens de l’intervention. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Modérer signifie interdire toute objection.",
+        "truth": "false",
+        "explain": "Les objections pertinentes font partie de l’échange."
+       },
+       {
+        "text": "Parler plus fort constitue forcément une preuve.",
+        "truth": "false",
+        "explain": "Le volume n’établit pas la pertinence de la raison."
+       },
+       {
+        "text": "Une objection est nécessairement une insulte.",
+        "truth": "false",
+        "explain": "Elle peut porter sur une condition pratique."
+       },
+       {
+        "text": "Reformuler exige de rendre l’idée adverse absurde.",
+        "truth": "false",
+        "explain": "La reprise doit garder le sens de l’intervention."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-39-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne l’organisation des tours et le rappel du sujet ?",
+       "r": "modération",
+       "w": [
+        "argument",
+        "objection",
+        "reformulation"
+       ],
+       "e": [
+        "Cela désigne une raison liée à la proposition défendue, plutôt que la notion demandée.",
+        "Cela désigne une difficulté précise à examiner, plutôt que la notion demandée.",
+        "Cela désigne une reprise fidèle d’une idée avant d’y répondre, plutôt que la notion demandée."
+       ],
+       "y": "Les objections pertinentes font partie de l’échange."
+      },
+      {
+       "q": "Quel terme désigne une raison liée à la proposition défendue ?",
+       "r": "argument",
+       "w": [
+        "modération",
+        "objection",
+        "reformulation"
+       ],
+       "e": [
+        "Cela désigne l’organisation des tours et le rappel du sujet, plutôt que la notion demandée.",
+        "Cela désigne une difficulté précise à examiner, plutôt que la notion demandée.",
+        "Cela désigne une reprise fidèle d’une idée avant d’y répondre, plutôt que la notion demandée."
+       ],
+       "y": "Le volume n’établit pas la pertinence de la raison."
+      },
+      {
+       "q": "Quel terme désigne une difficulté précise à examiner ?",
+       "r": "objection",
+       "w": [
+        "modération",
+        "argument",
+        "reformulation"
+       ],
+       "e": [
+        "Cela désigne l’organisation des tours et le rappel du sujet, plutôt que la notion demandée.",
+        "Cela désigne une raison liée à la proposition défendue, plutôt que la notion demandée.",
+        "Cela désigne une reprise fidèle d’une idée avant d’y répondre, plutôt que la notion demandée."
+       ],
+       "y": "Elle peut porter sur une condition pratique."
+      },
+      {
+       "q": "Quel terme désigne une reprise fidèle d’une idée avant d’y répondre ?",
+       "r": "reformulation",
+       "w": [
+        "modération",
+        "argument",
+        "objection"
+       ],
+       "e": [
+        "Cela désigne l’organisation des tours et le rappel du sujet, plutôt que la notion demandée.",
+        "Cela désigne une raison liée à la proposition défendue, plutôt que la notion demandée.",
+        "Cela désigne une difficulté précise à examiner, plutôt que la notion demandée."
+       ],
+       "y": "La reprise doit garder le sens de l’intervention."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-39-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le modérateur invite Ayuk à exposer sa limite.\nQuelle notion convient ?",
+       "r": "modération",
+       "w": [
+        "argument",
+        "objection",
+        "reformulation"
+       ],
+       "e": [
+        "Cela concerne une raison liée à la proposition défendue. Compare cette définition avec le cas présenté.",
+        "Cela concerne une difficulté précise à examiner. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise fidèle d’une idée avant d’y répondre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les objections pertinentes font partie de l’échange."
+      },
+      {
+       "q": "La rotation permet de partager la tâche.\nQuelle notion convient ?",
+       "r": "argument",
+       "w": [
+        "modération",
+        "objection",
+        "reformulation"
+       ],
+       "e": [
+        "Cela concerne l’organisation des tours et le rappel du sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une difficulté précise à examiner. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise fidèle d’une idée avant d’y répondre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le volume n’établit pas la pertinence de la raison."
+      },
+      {
+       "q": "La salle fermée certains jours limite le programme.\nQuelle notion convient ?",
+       "r": "objection",
+       "w": [
+        "modération",
+        "argument",
+        "reformulation"
+       ],
+       "e": [
+        "Cela concerne l’organisation des tours et le rappel du sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une raison liée à la proposition défendue. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise fidèle d’une idée avant d’y répondre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle peut porter sur une condition pratique."
+      },
+      {
+       "q": "Le modérateur rappelle la limite des jours fermés.\nQuelle notion convient ?",
+       "r": "reformulation",
+       "w": [
+        "modération",
+        "argument",
+        "objection"
+       ],
+       "e": [
+        "Cela concerne l’organisation des tours et le rappel du sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une raison liée à la proposition défendue. Compare cette définition avec le cas présenté.",
+        "Cela concerne une difficulté précise à examiner. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La reprise doit garder le sens de l’intervention."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-39-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle réponse traite l’objection des jours fermés ?",
+       "r": "Vérifions l’ouverture avant d’afficher les séances.",
+       "w": [
+        "Insultons Ayuk.",
+        "Ignorons le calendrier.",
+        "Tout projet est déjà réussi."
+       ],
+       "e": [
+        "L’attaque ne traite pas la limite.",
+        "Le calendrier est précisément concerné.",
+        "Le résultat n’est pas fourni."
+       ],
+       "y": "Réponds au point concret."
+      },
+      {
+       "q": "Quelle reformulation est fidèle à Ayuk ?",
+       "r": "Tu signales que la salle n’est pas ouverte tous les jours.",
+       "w": [
+        "Tu détestes forcément tous les livres.",
+        "Tu refuses toute vie collective.",
+        "Tu connais déjà le résultat de chaque séance."
+       ],
+       "e": [
+        "Ce sentiment n’est pas exprimé.",
+        "La limite ne signifie pas ce refus global.",
+        "Aucun tel résultat n’est fourni."
+       ],
+       "y": "Ne change pas la portée de l’objection."
+      },
+      {
+       "q": "Que fait le modérateur dans le modèle ?",
+       "r": "Il organise et reformule les interventions.",
+       "w": [
+        "Il garantit la vérité de toute phrase.",
+        "Il remplace tous les participants.",
+        "Il interdit le sujet commun."
+       ],
+       "e": [
+        "Organiser ne certifie pas toute affirmation.",
+        "Les participants interviennent encore.",
+        "Le sujet reste le coin lecture."
+       ],
+       "y": "Distingue rôle et pouvoir de preuve."
+      },
+      {
+       "q": "Quelle conclusion est proportionnée ?",
+       "r": "Un programme sera proposé après vérification.",
+       "w": [
+        "La salle est désormais toujours ouverte.",
+        "La rotation a déjà prouvé son succès annuel.",
+        "Toute objection future est fausse."
+       ],
+       "e": [
+        "Cette ouverture n’a pas été établie.",
+        "Le projet n’est pas un bilan.",
+        "La conclusion n’interdit pas de nouvelles limites."
+       ],
+       "y": "Le groupe prépare une décision."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-39-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "modération",
+     "right": "Le modérateur invite Ayuk à exposer sa limite."
+    },
+    {
+     "left": "argument",
+     "right": "La rotation permet de partager la tâche."
+    },
+    {
+     "left": "objection",
+     "right": "La salle fermée certains jours limite le programme."
+    },
+    {
+     "left": "reformulation",
+     "right": "Le modérateur rappelle la limite des jours fermés."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-39-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "modération : l’organisation des tours et le rappel du sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les objections pertinentes font partie de l’échange. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "argument : une raison liée à la proposition défendue.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le volume n’établit pas la pertinence de la raison. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "objection : une difficulté précise à examiner.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle peut porter sur une condition pratique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "reformulation : une reprise fidèle d’une idée avant d’y répondre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La reprise doit garder le sens de l’intervention. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Modérer signifie interdire toute objection.",
+      "truth": "false",
+      "explain": "Les objections pertinentes font partie de l’échange."
+     },
+     {
+      "text": "Parler plus fort constitue forcément une preuve.",
+      "truth": "false",
+      "explain": "Le volume n’établit pas la pertinence de la raison."
+     },
+     {
+      "text": "Une objection est nécessairement une insulte.",
+      "truth": "false",
+      "explain": "Elle peut porter sur une condition pratique."
+     },
+     {
+      "text": "Reformuler exige de rendre l’idée adverse absurde.",
+      "truth": "false",
+      "explain": "La reprise doit garder le sens de l’intervention."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

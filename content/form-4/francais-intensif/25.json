@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 25,
+ "language": "fr",
+ "prerequisites": [
+  20,
+  23
+ ],
+ "skills": [
+  {
+   "id": "fi4-25",
+   "name": "Employer le conditionnel présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le conditionnel présent peut atténuer une demande, évoquer une conséquence hypothétique ou exprimer un futur vu depuis un repère passé. Dans le modèle si + imparfait, la conséquence peut être au conditionnel : si nous avions le matériel, nous aiderions. On ne met pas mécaniquement le conditionnel juste après si dans cette construction. Le sens dépend du contexte ; une information au conditionnel peut aussi être présentée avec réserve et ne devient pas un fait vérifié.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir le conditionnel pour une demande polie une hypothèse ou un futur du passé. Acquis mobilisés : la formation du conditionnel. Pour la suite : les propositions discutées et les récits nuancés."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le conditionnel présent peut atténuer une demande, évoquer une conséquence hypothétique ou exprimer un futur vu depuis un repère passé. Dans le modèle si + imparfait, la conséquence peut être au conditionnel : si nous avions le matériel, nous aiderions. On ne met pas mécaniquement le conditionnel juste après si dans cette construction. Le sens dépend du contexte ; une information au conditionnel peut aussi être présentée avec réserve et ne devient pas un fait vérifié."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Je {fr2Conditionnel(\"avoir\",0)} une question à vous poser. Si nous {fr2Imparfait(\"avoir\",4)} les fiches, nous {fr2Conditionnel(\"finir\",4)} ce travail. Bih annonçait qu’elle {fr2Conditionnel(\"arriver\",3)} plus tard. La politesse, la condition et le repère passé donnent des lectures différentes."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie l’intention et le repère temporel avant de choisir la forme. Dans l’hypothèse étudiée, distingue proposition en si et conséquence. Explique aussi ce qui est affirmé et ce qui reste seulement envisagé."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "demande atténuée",
+    "meaning": "une formulation rendant une demande moins directe"
+   },
+   {
+    "word": "conséquence hypothétique",
+    "meaning": "un résultat envisagé sous une condition"
+   },
+   {
+    "word": "futur du passé",
+    "meaning": "un événement postérieur envisagé depuis un repère passé"
+   },
+   {
+    "word": "réserve",
+    "meaning": "une présentation qui ne garantit pas à elle seule la vérité du fait"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le conditionnel rend toujours une demande agressive.",
+   "right": "une formulation rendant une demande moins directe.",
+   "why": "Il peut ici atténuer la formulation."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "J’aurais une question à poser prépare une demande. Explique le choix.",
+  "steps": [
+   "une formulation rendant une demande moins directe.",
+   "Il peut ici atténuer la formulation."
+  ],
+  "answer": "demande atténuée",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-25-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "demande atténuée : une formulation rendant une demande moins directe.",
+     "conséquence hypothétique : un résultat envisagé sous une condition.",
+     "futur du passé : un événement postérieur envisagé depuis un repère passé.",
+     "réserve : une présentation qui ne garantit pas à elle seule la vérité du fait."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-25-notions"
+    }
+   },
+   {
+    "id": "fi4-25-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "J’aurais une question à poser prépare une demande.",
+     "Si nous avions les fiches, nous finirions.",
+     "Elle annonçait qu’elle arriverait plus tard.",
+     "Un message à confirmer peut être formulé au conditionnel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-25-cas"
+    }
+   },
+   {
+    "id": "fi4-25-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le conditionnel rend toujours une demande agressive. Correction : Il peut ici atténuer la formulation.",
+     "Une conséquence envisagée prouve que la condition est réalisée. Correction : L’hypothèse ne confirme pas sa réalisation.",
+     "Le repère annonçait est obligatoirement un présent. Correction : Le futur est ici situé par rapport au passé.",
+     "Toute information au conditionnel est une preuve certaine. Correction : Le contexte et la vérification restent nécessaires."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-25-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "demande atténuée : une formulation rendant une demande moins directe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il peut ici atténuer la formulation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "conséquence hypothétique : un résultat envisagé sous une condition.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’hypothèse ne confirme pas sa réalisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "futur du passé : un événement postérieur envisagé depuis un repère passé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le futur est ici situé par rapport au passé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "réserve : une présentation qui ne garantit pas à elle seule la vérité du fait.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le contexte et la vérification restent nécessaires. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le conditionnel rend toujours une demande agressive.",
+        "truth": "false",
+        "explain": "Il peut ici atténuer la formulation."
+       },
+       {
+        "text": "Une conséquence envisagée prouve que la condition est réalisée.",
+        "truth": "false",
+        "explain": "L’hypothèse ne confirme pas sa réalisation."
+       },
+       {
+        "text": "Le repère annonçait est obligatoirement un présent.",
+        "truth": "false",
+        "explain": "Le futur est ici situé par rapport au passé."
+       },
+       {
+        "text": "Toute information au conditionnel est une preuve certaine.",
+        "truth": "false",
+        "explain": "Le contexte et la vérification restent nécessaires."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-25-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une formulation rendant une demande moins directe ?",
+       "r": "demande atténuée",
+       "w": [
+        "conséquence hypothétique",
+        "futur du passé",
+        "réserve"
+       ],
+       "e": [
+        "Cela désigne un résultat envisagé sous une condition, plutôt que la notion demandée.",
+        "Cela désigne un événement postérieur envisagé depuis un repère passé, plutôt que la notion demandée.",
+        "Cela désigne une présentation qui ne garantit pas à elle seule la vérité du fait, plutôt que la notion demandée."
+       ],
+       "y": "Il peut ici atténuer la formulation."
+      },
+      {
+       "q": "Quel terme désigne un résultat envisagé sous une condition ?",
+       "r": "conséquence hypothétique",
+       "w": [
+        "demande atténuée",
+        "futur du passé",
+        "réserve"
+       ],
+       "e": [
+        "Cela désigne une formulation rendant une demande moins directe, plutôt que la notion demandée.",
+        "Cela désigne un événement postérieur envisagé depuis un repère passé, plutôt que la notion demandée.",
+        "Cela désigne une présentation qui ne garantit pas à elle seule la vérité du fait, plutôt que la notion demandée."
+       ],
+       "y": "L’hypothèse ne confirme pas sa réalisation."
+      },
+      {
+       "q": "Quel terme désigne un événement postérieur envisagé depuis un repère passé ?",
+       "r": "futur du passé",
+       "w": [
+        "demande atténuée",
+        "conséquence hypothétique",
+        "réserve"
+       ],
+       "e": [
+        "Cela désigne une formulation rendant une demande moins directe, plutôt que la notion demandée.",
+        "Cela désigne un résultat envisagé sous une condition, plutôt que la notion demandée.",
+        "Cela désigne une présentation qui ne garantit pas à elle seule la vérité du fait, plutôt que la notion demandée."
+       ],
+       "y": "Le futur est ici situé par rapport au passé."
+      },
+      {
+       "q": "Quel terme désigne une présentation qui ne garantit pas à elle seule la vérité du fait ?",
+       "r": "réserve",
+       "w": [
+        "demande atténuée",
+        "conséquence hypothétique",
+        "futur du passé"
+       ],
+       "e": [
+        "Cela désigne une formulation rendant une demande moins directe, plutôt que la notion demandée.",
+        "Cela désigne un résultat envisagé sous une condition, plutôt que la notion demandée.",
+        "Cela désigne un événement postérieur envisagé depuis un repère passé, plutôt que la notion demandée."
+       ],
+       "y": "Le contexte et la vérification restent nécessaires."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-25-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "J’aurais une question à poser prépare une demande.\nQuelle notion convient ?",
+       "r": "demande atténuée",
+       "w": [
+        "conséquence hypothétique",
+        "futur du passé",
+        "réserve"
+       ],
+       "e": [
+        "Cela concerne un résultat envisagé sous une condition. Compare cette définition avec le cas présenté.",
+        "Cela concerne un événement postérieur envisagé depuis un repère passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une présentation qui ne garantit pas à elle seule la vérité du fait. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il peut ici atténuer la formulation."
+      },
+      {
+       "q": "Si nous avions les fiches, nous finirions.\nQuelle notion convient ?",
+       "r": "conséquence hypothétique",
+       "w": [
+        "demande atténuée",
+        "futur du passé",
+        "réserve"
+       ],
+       "e": [
+        "Cela concerne une formulation rendant une demande moins directe. Compare cette définition avec le cas présenté.",
+        "Cela concerne un événement postérieur envisagé depuis un repère passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une présentation qui ne garantit pas à elle seule la vérité du fait. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’hypothèse ne confirme pas sa réalisation."
+      },
+      {
+       "q": "Elle annonçait qu’elle arriverait plus tard.\nQuelle notion convient ?",
+       "r": "futur du passé",
+       "w": [
+        "demande atténuée",
+        "conséquence hypothétique",
+        "réserve"
+       ],
+       "e": [
+        "Cela concerne une formulation rendant une demande moins directe. Compare cette définition avec le cas présenté.",
+        "Cela concerne un résultat envisagé sous une condition. Compare cette définition avec le cas présenté.",
+        "Cela concerne une présentation qui ne garantit pas à elle seule la vérité du fait. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le futur est ici situé par rapport au passé."
+      },
+      {
+       "q": "Un message à confirmer peut être formulé au conditionnel.\nQuelle notion convient ?",
+       "r": "réserve",
+       "w": [
+        "demande atténuée",
+        "conséquence hypothétique",
+        "futur du passé"
+       ],
+       "e": [
+        "Cela concerne une formulation rendant une demande moins directe. Compare cette définition avec le cas présenté.",
+        "Cela concerne un résultat envisagé sous une condition. Compare cette définition avec le cas présenté.",
+        "Cela concerne un événement postérieur envisagé depuis un repère passé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le contexte et la vérification restent nécessaires."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-25-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans si nous avions les fiches, nous finirions, quelle forme suit si ?",
+       "r": "imparfait",
+       "w": [
+        "conditionnel présent",
+        "impératif",
+        "infinitif isolé"
+       ],
+       "e": [
+        "Dans cette hypothèse, si introduit ici l’imparfait.",
+        "La proposition n’est pas un ordre.",
+        "Avions est conjugué."
+       ],
+       "y": "Distingue condition et conséquence."
+      },
+      {
+       "q": "Quelle phrase atténue une demande ?",
+       "r": "J’aurais une question à vous poser.",
+       "w": [
+        "Je t’ordonne de te taire.",
+        "Tu n’as aucune valeur.",
+        "Le cahier est sur la table."
+       ],
+       "e": [
+        "C’est une injonction directe.",
+        "L’attaque ne formule pas la demande voulue.",
+        "Cette phrase décrit un lieu."
+       ],
+       "y": "Le conditionnel sert ici la politesse."
+      },
+      {
+       "q": "Dans elle annonçait qu’elle arriverait, arriverait situe quoi ?",
+       "r": "un événement postérieur vu depuis le passé",
+       "w": [
+        "un ordre sans sujet",
+        "un fait nécessairement antérieur à toute annonce",
+        "un infinitif"
+       ],
+       "e": [
+        "Le verbe a un sujet exprimé.",
+        "Le modèle présente une postériorité.",
+        "La forme est conjuguée."
+       ],
+       "y": "Le repère passé explique la valeur."
+      },
+      {
+       "q": "Un projet conditionnel prouve-t-il qu’il a réussi ?",
+       "r": "Non : réalisation et résultat demandent d’autres faits.",
+       "w": [
+        "Oui, toute hypothèse est un résultat.",
+        "Oui, le mot projet mesure une réussite.",
+        "Oui, les formes verbales remplacent toute observation."
+       ],
+       "e": [
+        "L’hypothèse n’est pas un résultat.",
+        "Le terme ne fournit aucune mesure.",
+        "La grammaire ne remplace pas les faits."
+       ],
+       "y": "Reste dans la portée du message."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-25-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "demande atténuée",
+     "right": "J’aurais une question à poser prépare une demande."
+    },
+    {
+     "left": "conséquence hypothétique",
+     "right": "Si nous avions les fiches, nous finirions."
+    },
+    {
+     "left": "futur du passé",
+     "right": "Elle annonçait qu’elle arriverait plus tard."
+    },
+    {
+     "left": "réserve",
+     "right": "Un message à confirmer peut être formulé au conditionnel."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-25-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "demande atténuée : une formulation rendant une demande moins directe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il peut ici atténuer la formulation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "conséquence hypothétique : un résultat envisagé sous une condition.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’hypothèse ne confirme pas sa réalisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "futur du passé : un événement postérieur envisagé depuis un repère passé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le futur est ici situé par rapport au passé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "réserve : une présentation qui ne garantit pas à elle seule la vérité du fait.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le contexte et la vérification restent nécessaires. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le conditionnel rend toujours une demande agressive.",
+      "truth": "false",
+      "explain": "Il peut ici atténuer la formulation."
+     },
+     {
+      "text": "Une conséquence envisagée prouve que la condition est réalisée.",
+      "truth": "false",
+      "explain": "L’hypothèse ne confirme pas sa réalisation."
+     },
+     {
+      "text": "Le repère annonçait est obligatoirement un présent.",
+      "truth": "false",
+      "explain": "Le futur est ici situé par rapport au passé."
+     },
+     {
+      "text": "Toute information au conditionnel est une preuve certaine.",
+      "truth": "false",
+      "explain": "Le contexte et la vérification restent nécessaires."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

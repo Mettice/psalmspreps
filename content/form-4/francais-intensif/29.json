@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 4",
+ "lesson_no": 29,
+ "language": "fr",
+ "prerequisites": [
+  2,
+  27
+ ],
+ "skills": [
+  {
+   "id": "fi4-29",
+   "name": "La subordonnée relative et ses pronoms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une subordonnée relative complète un antécédent repris par un pronom relatif. Qui peut être sujet ; que, complément direct ; dont reprend notamment une relation construite avec de ; où indique ici un lieu ou un moment. Choisis d’après la fonction dans la relative, pas seulement d’après personne ou objet. Le livre qui tombe comporte qui sujet même si livre est un objet. Distingue que relatif, avec antécédent, de que conjonction dans je pense que la salle est prête.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras relier un nom à une relative en choisissant qui que dont ou où selon la fonction. Acquis mobilisés : les groupes nominaux et les reprises. Pour la suite : l’accord avec avoir et les descriptions précises."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une subordonnée relative complète un antécédent repris par un pronom relatif. Qui peut être sujet ; que, complément direct ; dont reprend notamment une relation construite avec de ; où indique ici un lieu ou un moment. Choisis d’après la fonction dans la relative, pas seulement d’après personne ou objet. Le livre qui tombe comporte qui sujet même si livre est un objet. Distingue que relatif, avec antécédent, de que conjonction dans je pense que la salle est prête."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles : le groupe qui prépare la salle ; la fiche que Bih lit ; le projet dont Ayuk parle ; la salle où le club travaille. Reconstitue : le groupe prépare ; Bih lit la fiche ; Ayuk parle du projet ; le club travaille dans la salle. Chaque reconstruction explique le lien."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le nom repris, reconstitue la phrase simple dans la relative et demande quelle fonction manque. Vérifie ensuite le pronom et le sens. Ne remplace pas tous les noms d’objet par que."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "antécédent",
+    "meaning": "le nom ou groupe repris par le relatif"
+   },
+   {
+    "word": "qui sujet",
+    "meaning": "le relatif remplissant la place du sujet"
+   },
+   {
+    "word": "que complément direct",
+    "meaning": "le relatif reprenant ici un objet direct"
+   },
+   {
+    "word": "dont",
+    "meaning": "le relatif lié ici à une construction en de"
+   }
+  ],
+  "mistake": {
+   "wrong": "Bih est nécessairement l’antécédent parce que c’est une personne.",
+   "right": "le nom ou groupe repris par le relatif.",
+   "why": "L’antécédent est ce que le relatif reprend."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Fiche est repris dans la fiche que Bih lit. Explique le choix.",
+  "steps": [
+   "le nom ou groupe repris par le relatif.",
+   "L’antécédent est ce que le relatif reprend."
+  ],
+  "answer": "antécédent",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi4-29-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "antécédent : le nom ou groupe repris par le relatif.",
+     "qui sujet : le relatif remplissant la place du sujet.",
+     "que complément direct : le relatif reprenant ici un objet direct.",
+     "dont : le relatif lié ici à une construction en de."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-29-notions"
+    }
+   },
+   {
+    "id": "fi4-29-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Fiche est repris dans la fiche que Bih lit.",
+     "Le livre qui tombe reprend le sujet le livre.",
+     "La fiche que Bih lit reprend Bih lit la fiche.",
+     "Le projet dont Ayuk parle reprend parler du projet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi4-29-cas"
+    }
+   },
+   {
+    "id": "fi4-29-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Bih est nécessairement l’antécédent parce que c’est une personne. Correction : L’antécédent est ce que le relatif reprend.",
+     "Qui sujet ne peut jamais reprendre un objet inanimé. Correction : La fonction, non le caractère humain, décide ici.",
+     "Que dans ce modèle est le sujet de lit. Correction : Bih est sujet ; la fiche est complément direct.",
+     "Dont remplace automatiquement tout lieu introduit par dans. Correction : La relation étudiée est en de, pas en dans."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi4-29-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "langue-sante"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "antécédent : le nom ou groupe repris par le relatif.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’antécédent est ce que le relatif reprend. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "qui sujet : le relatif remplissant la place du sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La fonction, non le caractère humain, décide ici. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "que complément direct : le relatif reprenant ici un objet direct.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Bih est sujet ; la fiche est complément direct. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "dont : le relatif lié ici à une construction en de.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La relation étudiée est en de, pas en dans. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Bih est nécessairement l’antécédent parce que c’est une personne.",
+        "truth": "false",
+        "explain": "L’antécédent est ce que le relatif reprend."
+       },
+       {
+        "text": "Qui sujet ne peut jamais reprendre un objet inanimé.",
+        "truth": "false",
+        "explain": "La fonction, non le caractère humain, décide ici."
+       },
+       {
+        "text": "Que dans ce modèle est le sujet de lit.",
+        "truth": "false",
+        "explain": "Bih est sujet ; la fiche est complément direct."
+       },
+       {
+        "text": "Dont remplace automatiquement tout lieu introduit par dans.",
+        "truth": "false",
+        "explain": "La relation étudiée est en de, pas en dans."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi4-29-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le nom ou groupe repris par le relatif ?",
+       "r": "antécédent",
+       "w": [
+        "qui sujet",
+        "que complément direct",
+        "dont"
+       ],
+       "e": [
+        "Cela désigne le relatif remplissant la place du sujet, plutôt que la notion demandée.",
+        "Cela désigne le relatif reprenant ici un objet direct, plutôt que la notion demandée.",
+        "Cela désigne le relatif lié ici à une construction en de, plutôt que la notion demandée."
+       ],
+       "y": "L’antécédent est ce que le relatif reprend."
+      },
+      {
+       "q": "Quel terme désigne le relatif remplissant la place du sujet ?",
+       "r": "qui sujet",
+       "w": [
+        "antécédent",
+        "que complément direct",
+        "dont"
+       ],
+       "e": [
+        "Cela désigne le nom ou groupe repris par le relatif, plutôt que la notion demandée.",
+        "Cela désigne le relatif reprenant ici un objet direct, plutôt que la notion demandée.",
+        "Cela désigne le relatif lié ici à une construction en de, plutôt que la notion demandée."
+       ],
+       "y": "La fonction, non le caractère humain, décide ici."
+      },
+      {
+       "q": "Quel terme désigne le relatif reprenant ici un objet direct ?",
+       "r": "que complément direct",
+       "w": [
+        "antécédent",
+        "qui sujet",
+        "dont"
+       ],
+       "e": [
+        "Cela désigne le nom ou groupe repris par le relatif, plutôt que la notion demandée.",
+        "Cela désigne le relatif remplissant la place du sujet, plutôt que la notion demandée.",
+        "Cela désigne le relatif lié ici à une construction en de, plutôt que la notion demandée."
+       ],
+       "y": "Bih est sujet ; la fiche est complément direct."
+      },
+      {
+       "q": "Quel terme désigne le relatif lié ici à une construction en de ?",
+       "r": "dont",
+       "w": [
+        "antécédent",
+        "qui sujet",
+        "que complément direct"
+       ],
+       "e": [
+        "Cela désigne le nom ou groupe repris par le relatif, plutôt que la notion demandée.",
+        "Cela désigne le relatif remplissant la place du sujet, plutôt que la notion demandée.",
+        "Cela désigne le relatif reprenant ici un objet direct, plutôt que la notion demandée."
+       ],
+       "y": "La relation étudiée est en de, pas en dans."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-29-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Fiche est repris dans la fiche que Bih lit.\nQuelle notion convient ?",
+       "r": "antécédent",
+       "w": [
+        "qui sujet",
+        "que complément direct",
+        "dont"
+       ],
+       "e": [
+        "Cela concerne le relatif remplissant la place du sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne le relatif reprenant ici un objet direct. Compare cette définition avec le cas présenté.",
+        "Cela concerne le relatif lié ici à une construction en de. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’antécédent est ce que le relatif reprend."
+      },
+      {
+       "q": "Le livre qui tombe reprend le sujet le livre.\nQuelle notion convient ?",
+       "r": "qui sujet",
+       "w": [
+        "antécédent",
+        "que complément direct",
+        "dont"
+       ],
+       "e": [
+        "Cela concerne le nom ou groupe repris par le relatif. Compare cette définition avec le cas présenté.",
+        "Cela concerne le relatif reprenant ici un objet direct. Compare cette définition avec le cas présenté.",
+        "Cela concerne le relatif lié ici à une construction en de. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La fonction, non le caractère humain, décide ici."
+      },
+      {
+       "q": "La fiche que Bih lit reprend Bih lit la fiche.\nQuelle notion convient ?",
+       "r": "que complément direct",
+       "w": [
+        "antécédent",
+        "qui sujet",
+        "dont"
+       ],
+       "e": [
+        "Cela concerne le nom ou groupe repris par le relatif. Compare cette définition avec le cas présenté.",
+        "Cela concerne le relatif remplissant la place du sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne le relatif lié ici à une construction en de. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Bih est sujet ; la fiche est complément direct."
+      },
+      {
+       "q": "Le projet dont Ayuk parle reprend parler du projet.\nQuelle notion convient ?",
+       "r": "dont",
+       "w": [
+        "antécédent",
+        "qui sujet",
+        "que complément direct"
+       ],
+       "e": [
+        "Cela concerne le nom ou groupe repris par le relatif. Compare cette définition avec le cas présenté.",
+        "Cela concerne le relatif remplissant la place du sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne le relatif reprenant ici un objet direct. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La relation étudiée est en de, pas en dans."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-29-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le livre ___ tombe est fermé.",
+       "r": "qui",
+       "w": [
+        "que",
+        "dont",
+        "où"
+       ],
+       "e": [
+        "Il manque le sujet de tombe, pas un objet direct.",
+        "Tomber ne demande pas ici de ce livre.",
+        "Le livre n’est pas ici un repère de lieu ou de temps."
+       ],
+       "y": "Reconstitue le livre tombe."
+      },
+      {
+       "q": "La fiche ___ Bih lit est prête.",
+       "r": "que",
+       "w": [
+        "qui",
+        "dont",
+        "où"
+       ],
+       "e": [
+        "Bih est déjà le sujet de lit.",
+        "Lire demande ici un objet direct, non de.",
+        "La fiche est l’objet lu, pas le lieu."
+       ],
+       "y": "Reconstitue Bih lit la fiche."
+      },
+      {
+       "q": "Le projet ___ Ayuk parle avance.",
+       "r": "dont",
+       "w": [
+        "que",
+        "qui",
+        "où"
+       ],
+       "e": [
+        "Parler de exige ici la relation en de.",
+        "Ayuk est le sujet de parle.",
+        "Le projet n’est pas employé comme lieu."
+       ],
+       "y": "Reconstitue Ayuk parle du projet."
+      },
+      {
+       "q": "La salle ___ le club travaille est ouverte.",
+       "r": "où",
+       "w": [
+        "dont",
+        "que",
+        "qui"
+       ],
+       "e": [
+        "La relation de ce modèle est dans la salle, pas de.",
+        "La salle n’est pas l’objet direct de travaille.",
+        "Le club est déjà sujet."
+       ],
+       "y": "Le relatif reprend le lieu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-29-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "antécédent",
+     "right": "Fiche est repris dans la fiche que Bih lit."
+    },
+    {
+     "left": "qui sujet",
+     "right": "Le livre qui tombe reprend le sujet le livre."
+    },
+    {
+     "left": "que complément direct",
+     "right": "La fiche que Bih lit reprend Bih lit la fiche."
+    },
+    {
+     "left": "dont",
+     "right": "Le projet dont Ayuk parle reprend parler du projet."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi4-29-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "langue-sante"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "antécédent : le nom ou groupe repris par le relatif.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’antécédent est ce que le relatif reprend. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "qui sujet : le relatif remplissant la place du sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La fonction, non le caractère humain, décide ici. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "que complément direct : le relatif reprenant ici un objet direct.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Bih est sujet ; la fiche est complément direct. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "dont : le relatif lié ici à une construction en de.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La relation étudiée est en de, pas en dans. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bih est nécessairement l’antécédent parce que c’est une personne.",
+      "truth": "false",
+      "explain": "L’antécédent est ce que le relatif reprend."
+     },
+     {
+      "text": "Qui sujet ne peut jamais reprendre un objet inanimé.",
+      "truth": "false",
+      "explain": "La fonction, non le caractère humain, décide ici."
+     },
+     {
+      "text": "Que dans ce modèle est le sujet de lit.",
+      "truth": "false",
+      "explain": "Bih est sujet ; la fiche est complément direct."
+     },
+     {
+      "text": "Dont remplace automatiquement tout lieu introduit par dans.",
+      "truth": "false",
+      "explain": "La relation étudiée est en de, pas en dans."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}
