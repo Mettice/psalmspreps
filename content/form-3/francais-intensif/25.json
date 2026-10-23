@@ -1,0 +1,619 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 25,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-25",
+   "name": "Remplir une fiche de renseignements fictive"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une fiche organise les informations dans des rubriques. Lis chaque intitulé avant d’écrire : nom, prénom, classe, activité ou contact de l’organisme n’attendent pas le même contenu. Une case vide et une réponse inventée ne signifient pas la même chose. Pour cet exercice, toutes les données sont fictives ; ne donne ni ton adresse réelle ni un numéro privé. Une fiche officielle peut avoir d’autres exigences que le modèle scolaire.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Une fiche organise les informations dans des rubriques. Lis chaque intitulé avant d’écrire : nom, prénom, classe, activité ou contact de l’organisme n’attendent pas le même contenu. Une case vide et une réponse inventée ne signifient pas la même chose. Pour cet exercice, toutes les données sont fictives ; ne donne ni ton adresse réelle ni un numéro privé. Une fiche officielle peut avoir d’autres exigences que le modèle scolaire."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Modèle original : FICHE FICTIVE DU CLUB. Nom : Personnage A. Prénom : Bih. Classe : Form Three. Activité choisie : lecture. Observation : exemple scolaire sans adresse ni téléphone réels. Chaque donnée répond à sa rubrique ; ce modèle ne sert à aucune inscription réelle."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère les champs obligatoires dans la consigne, prépare des informations imaginaires cohérentes puis vérifie leur place. Écris lisiblement et ne déplace pas une réponse dans une rubrique sans rapport. Demande une clarification quand l’intitulé est ambigu."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "rubrique",
+    "meaning": "un intitulé précisant l’information attendue"
+   },
+   {
+    "word": "donnée fictive",
+    "meaning": "une information inventée et signalée pour l’exercice"
+   },
+   {
+    "word": "cohérence",
+    "meaning": "l’absence de contradictions entre les informations fournies"
+   },
+   {
+    "word": "vérification de champ",
+    "meaning": "le contrôle qu’une réponse est placée dans la bonne rubrique"
+   }
+  ],
+  "examples": [
+   "Activité choisie annonce le type de réponse à inscrire.",
+   "Personnage A évite de demander une identité réelle.",
+   "La classe et l’activité restent identiques dans toute la fiche."
+  ],
+  "mistake": {
+   "wrong": "Une rubrique ne donne aucun indice sur la réponse attendue.",
+   "right": "rubrique: un intitulé précisant l’information attendue.",
+   "why": "Elle précise justement la nature de l’information."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Activité choisie annonce le type de réponse à inscrire. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un intitulé précisant l’information attendue.",
+   "Elle précise justement la nature de l’information."
+  ],
+  "answer": "rubrique",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-25-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "rubrique: un intitulé précisant l’information attendue.",
+     "donnée fictive: une information inventée et signalée pour l’exercice.",
+     "cohérence: l’absence de contradictions entre les informations fournies.",
+     "vérification de champ: le contrôle qu’une réponse est placée dans la bonne rubrique."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-25-terms"
+    }
+   },
+   {
+    "id": "cfi3-25-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Activité choisie annonce le type de réponse à inscrire.",
+     "rubrique: un intitulé précisant l’information attendue."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-25-cases"
+    }
+   },
+   {
+    "id": "cfi3-25-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une rubrique ne donne aucun indice sur la réponse attendue.",
+     "Elle précise justement la nature de l’information."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-25-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "rubrique : un intitulé précisant l’information attendue.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : rubrique désigne un intitulé précisant l’information attendue. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "donnée fictive : une information inventée et signalée pour l’exercice.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : donnée fictive désigne une information inventée et signalée pour l’exercice. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "cohérence : l’absence de contradictions entre les informations fournies.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : cohérence désigne l’absence de contradictions entre les informations fournies. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "vérification de champ : le contrôle qu’une réponse est placée dans la bonne rubrique.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : vérification de champ désigne le contrôle qu’une réponse est placée dans la bonne rubrique. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une rubrique ne donne aucun indice sur la réponse attendue.",
+        "truth": "false",
+        "explain": "Elle précise justement la nature de l’information."
+       },
+       {
+        "text": "Une fiche de classe exige toujours une adresse privée réelle.",
+        "truth": "false",
+        "explain": "Cet exercice doit rester fictif."
+       },
+       {
+        "text": "Des réponses contradictoires rendent toujours la fiche plus claire.",
+        "truth": "false",
+        "explain": "Des données compatibles facilitent la compréhension."
+       },
+       {
+        "text": "On peut écrire n’importe quel contenu dans n’importe quelle case.",
+        "truth": "false",
+        "explain": "Chaque champ attend un type d’information précis."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-25-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un intitulé précisant l’information attendue ?",
+       "r": "rubrique",
+       "w": [
+        "donnée fictive",
+        "cohérence",
+        "vérification de champ"
+       ],
+       "e": [
+        "« donnée fictive » désigne une information inventée et signalée pour l’exercice. Ici, cherche un intitulé précisant l’information attendue.",
+        "« cohérence » désigne l’absence de contradictions entre les informations fournies. Ici, cherche un intitulé précisant l’information attendue.",
+        "« vérification de champ » désigne le contrôle qu’une réponse est placée dans la bonne rubrique. Ici, cherche un intitulé précisant l’information attendue."
+       ],
+       "y": "Un intitulé précisant l’information attendue."
+      },
+      {
+       "q": "Quel terme désigne : une information inventée et signalée pour l’exercice ?",
+       "r": "donnée fictive",
+       "w": [
+        "rubrique",
+        "cohérence",
+        "vérification de champ"
+       ],
+       "e": [
+        "« rubrique » désigne un intitulé précisant l’information attendue. Ici, cherche une information inventée et signalée pour l’exercice.",
+        "« cohérence » désigne l’absence de contradictions entre les informations fournies. Ici, cherche une information inventée et signalée pour l’exercice.",
+        "« vérification de champ » désigne le contrôle qu’une réponse est placée dans la bonne rubrique. Ici, cherche une information inventée et signalée pour l’exercice."
+       ],
+       "y": "Une information inventée et signalée pour l’exercice."
+      },
+      {
+       "q": "Quel terme désigne : l’absence de contradictions entre les informations fournies ?",
+       "r": "cohérence",
+       "w": [
+        "rubrique",
+        "donnée fictive",
+        "vérification de champ"
+       ],
+       "e": [
+        "« rubrique » désigne un intitulé précisant l’information attendue. Ici, cherche l’absence de contradictions entre les informations fournies.",
+        "« donnée fictive » désigne une information inventée et signalée pour l’exercice. Ici, cherche l’absence de contradictions entre les informations fournies.",
+        "« vérification de champ » désigne le contrôle qu’une réponse est placée dans la bonne rubrique. Ici, cherche l’absence de contradictions entre les informations fournies."
+       ],
+       "y": "L’absence de contradictions entre les informations fournies."
+      },
+      {
+       "q": "Quel terme désigne : le contrôle qu’une réponse est placée dans la bonne rubrique ?",
+       "r": "vérification de champ",
+       "w": [
+        "rubrique",
+        "donnée fictive",
+        "cohérence"
+       ],
+       "e": [
+        "« rubrique » désigne un intitulé précisant l’information attendue. Ici, cherche le contrôle qu’une réponse est placée dans la bonne rubrique.",
+        "« donnée fictive » désigne une information inventée et signalée pour l’exercice. Ici, cherche le contrôle qu’une réponse est placée dans la bonne rubrique.",
+        "« cohérence » désigne l’absence de contradictions entre les informations fournies. Ici, cherche le contrôle qu’une réponse est placée dans la bonne rubrique."
+       ],
+       "y": "Le contrôle qu’une réponse est placée dans la bonne rubrique."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-25-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Activité choisie annonce le type de réponse à inscrire.\nQuel terme s’applique le mieux ?",
+       "r": "rubrique",
+       "w": [
+        "donnée fictive",
+        "cohérence",
+        "vérification de champ"
+       ],
+       "e": [
+        "« donnée fictive » concerne une information inventée et signalée pour l’exercice. Le cas décrit plutôt un intitulé précisant l’information attendue.",
+        "« cohérence » concerne l’absence de contradictions entre les informations fournies. Le cas décrit plutôt un intitulé précisant l’information attendue.",
+        "« vérification de champ » concerne le contrôle qu’une réponse est placée dans la bonne rubrique. Le cas décrit plutôt un intitulé précisant l’information attendue."
+       ],
+       "y": "Activité choisie annonce le type de réponse à inscrire. Un intitulé précisant l’information attendue."
+      },
+      {
+       "q": "Personnage A évite de demander une identité réelle.\nQuel terme s’applique le mieux ?",
+       "r": "donnée fictive",
+       "w": [
+        "rubrique",
+        "cohérence",
+        "vérification de champ"
+       ],
+       "e": [
+        "« rubrique » concerne un intitulé précisant l’information attendue. Le cas décrit plutôt une information inventée et signalée pour l’exercice.",
+        "« cohérence » concerne l’absence de contradictions entre les informations fournies. Le cas décrit plutôt une information inventée et signalée pour l’exercice.",
+        "« vérification de champ » concerne le contrôle qu’une réponse est placée dans la bonne rubrique. Le cas décrit plutôt une information inventée et signalée pour l’exercice."
+       ],
+       "y": "Personnage A évite de demander une identité réelle. Une information inventée et signalée pour l’exercice."
+      },
+      {
+       "q": "La classe et l’activité restent identiques dans toute la fiche.\nQuel terme s’applique le mieux ?",
+       "r": "cohérence",
+       "w": [
+        "rubrique",
+        "donnée fictive",
+        "vérification de champ"
+       ],
+       "e": [
+        "« rubrique » concerne un intitulé précisant l’information attendue. Le cas décrit plutôt l’absence de contradictions entre les informations fournies.",
+        "« donnée fictive » concerne une information inventée et signalée pour l’exercice. Le cas décrit plutôt l’absence de contradictions entre les informations fournies.",
+        "« vérification de champ » concerne le contrôle qu’une réponse est placée dans la bonne rubrique. Le cas décrit plutôt l’absence de contradictions entre les informations fournies."
+       ],
+       "y": "La classe et l’activité restent identiques dans toute la fiche. L’absence de contradictions entre les informations fournies."
+      },
+      {
+       "q": "Le lecteur inscrit lecture dans activité, pas dans prénom.\nQuel terme s’applique le mieux ?",
+       "r": "vérification de champ",
+       "w": [
+        "rubrique",
+        "donnée fictive",
+        "cohérence"
+       ],
+       "e": [
+        "« rubrique » concerne un intitulé précisant l’information attendue. Le cas décrit plutôt le contrôle qu’une réponse est placée dans la bonne rubrique.",
+        "« donnée fictive » concerne une information inventée et signalée pour l’exercice. Le cas décrit plutôt le contrôle qu’une réponse est placée dans la bonne rubrique.",
+        "« cohérence » concerne l’absence de contradictions entre les informations fournies. Le cas décrit plutôt le contrôle qu’une réponse est placée dans la bonne rubrique."
+       ],
+       "y": "Le lecteur inscrit lecture dans activité, pas dans prénom. Le contrôle qu’une réponse est placée dans la bonne rubrique."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-25-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Activité choisie annonce le type de réponse à inscrire.\nQuelle explication justifie le classement ?",
+       "r": "Un intitulé précisant l’information attendue.",
+       "w": [
+        "Une information inventée et signalée pour l’exercice.",
+        "L’absence de contradictions entre les informations fournies.",
+        "Le contrôle qu’une réponse est placée dans la bonne rubrique."
+       ],
+       "e": [
+        "Cette explication correspond à « donnée fictive ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « cohérence ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vérification de champ ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Elle précise justement la nature de l’information."
+      },
+      {
+       "q": "Personnage A évite de demander une identité réelle.\nQuelle explication justifie le classement ?",
+       "r": "Une information inventée et signalée pour l’exercice.",
+       "w": [
+        "Un intitulé précisant l’information attendue.",
+        "L’absence de contradictions entre les informations fournies.",
+        "Le contrôle qu’une réponse est placée dans la bonne rubrique."
+       ],
+       "e": [
+        "Cette explication correspond à « rubrique ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « cohérence ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vérification de champ ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Cet exercice doit rester fictif."
+      },
+      {
+       "q": "La classe et l’activité restent identiques dans toute la fiche.\nQuelle explication justifie le classement ?",
+       "r": "L’absence de contradictions entre les informations fournies.",
+       "w": [
+        "Un intitulé précisant l’information attendue.",
+        "Une information inventée et signalée pour l’exercice.",
+        "Le contrôle qu’une réponse est placée dans la bonne rubrique."
+       ],
+       "e": [
+        "Cette explication correspond à « rubrique ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « donnée fictive ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vérification de champ ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Des données compatibles facilitent la compréhension."
+      },
+      {
+       "q": "Le lecteur inscrit lecture dans activité, pas dans prénom.\nQuelle explication justifie le classement ?",
+       "r": "Le contrôle qu’une réponse est placée dans la bonne rubrique.",
+       "w": [
+        "Un intitulé précisant l’information attendue.",
+        "Une information inventée et signalée pour l’exercice.",
+        "L’absence de contradictions entre les informations fournies."
+       ],
+       "e": [
+        "Cette explication correspond à « rubrique ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « donnée fictive ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « cohérence ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Chaque champ attend un type d’information précis."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-25-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "rubrique",
+     "right": "Activité choisie annonce le type de réponse à inscrire."
+    },
+    {
+     "left": "donnée fictive",
+     "right": "Personnage A évite de demander une identité réelle."
+    },
+    {
+     "left": "cohérence",
+     "right": "La classe et l’activité restent identiques dans toute la fiche."
+    },
+    {
+     "left": "vérification de champ",
+     "right": "Le lecteur inscrit lecture dans activité, pas dans prénom."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-25-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "rubrique : un intitulé précisant l’information attendue.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : rubrique désigne un intitulé précisant l’information attendue. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "donnée fictive : une information inventée et signalée pour l’exercice.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : donnée fictive désigne une information inventée et signalée pour l’exercice. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "cohérence : l’absence de contradictions entre les informations fournies.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : cohérence désigne l’absence de contradictions entre les informations fournies. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "vérification de champ : le contrôle qu’une réponse est placée dans la bonne rubrique.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : vérification de champ désigne le contrôle qu’une réponse est placée dans la bonne rubrique. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une rubrique ne donne aucun indice sur la réponse attendue.",
+      "truth": "false",
+      "explain": "Elle précise justement la nature de l’information."
+     },
+     {
+      "text": "Une fiche de classe exige toujours une adresse privée réelle.",
+      "truth": "false",
+      "explain": "Cet exercice doit rester fictif."
+     },
+     {
+      "text": "Des réponses contradictoires rendent toujours la fiche plus claire.",
+      "truth": "false",
+      "explain": "Des données compatibles facilitent la compréhension."
+     },
+     {
+      "text": "On peut écrire n’importe quel contenu dans n’importe quelle case.",
+      "truth": "false",
+      "explain": "Chaque champ attend un type d’information précis."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Crée une fiche de club entièrement fictive avec nom de personnage, prénom imaginaire, classe et activité. N’utilise aucune adresse ni aucun téléphone réel.",
+  "model": [
+   "FICHE FICTIVE DU CLUB. Nom : Personnage A. Prénom : Bih. Classe : Form Three. Activité choisie : lecture. Observation : exemple scolaire sans adresse ni téléphone réels. Chaque donnée répond à sa rubrique ; ce modèle ne sert à aucune inscription réelle."
+  ],
+  "checklist": [
+   "Je lis et complète chaque rubrique demandée.",
+   "Les réponses sont cohérentes et bien placées.",
+   "Toutes les données personnelles sont fictives."
+  ],
+  "checks": []
+ }
+}

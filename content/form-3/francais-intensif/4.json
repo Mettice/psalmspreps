@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-4",
+   "name": "Préparer un chant : sens et articulation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un chant associe un texte, un rythme et une mélodie. La préparation écrite aide à comprendre les paroles et à repérer des groupes de sens. Elle ne permet pas d’entendre une hauteur musicale ni de vérifier la justesse. Cette leçon utilise un texte original sans partition ; le chant réel doit être travaillé avec un enseignant ou un modèle sonore adapté. Un élève ne doit pas deviner une mélodie à partir de la seule ponctuation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Un chant associe un texte, un rythme et une mélodie. La préparation écrite aide à comprendre les paroles et à repérer des groupes de sens. Elle ne permet pas d’entendre une hauteur musicale ni de vérifier la justesse. Cette leçon utilise un texte original sans partition ; le chant réel doit être travaillé avec un enseignant ou un modèle sonore adapté. Un élève ne doit pas deviner une mélodie à partir de la seule ponctuation."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Paroles originales de préparation : « Dans notre cour, chacun prend place ; une voix répond à la voix. Nous partageons le même espace, et nous écoutons chaque fois. » Le texte évoque l’écoute et la vie commune. On peut expliquer son sens avant de le mettre en musique avec un modèle choisi par l’enseignant."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère les idées, les retours de mots et les limites des groupes de sens. Prépare une articulation compréhensible sans crier. Distingue ce que la page montre de ce que seul un modèle sonore peut fournir. La pratique de la mélodie reste une activité de classe."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "paroles",
+    "meaning": "le texte verbal d’un chant"
+   },
+   {
+    "word": "rythme",
+    "meaning": "l’organisation des durées et des accents dans la réalisation"
+   },
+   {
+    "word": "mélodie",
+    "meaning": "l’enchaînement des hauteurs musicales"
+   },
+   {
+    "word": "articulation",
+    "meaning": "la réalisation distincte des sons des mots"
+   }
+  ],
+  "examples": [
+   "Le lecteur explique le message de Dans notre cour.",
+   "L’enseignant propose une façon régulière d’enchaîner les paroles.",
+   "Un modèle sonore indique la succession des notes."
+  ],
+  "mistake": {
+   "wrong": "Les paroles sont uniquement les hauteurs musicales.",
+   "right": "paroles: le texte verbal d’un chant.",
+   "why": "Les paroles sont les mots, distincts de la mélodie."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le lecteur explique le message de Dans notre cour. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le texte verbal d’un chant.",
+   "Les paroles sont les mots, distincts de la mélodie."
+  ],
+  "answer": "paroles",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-4-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "paroles: le texte verbal d’un chant.",
+     "rythme: l’organisation des durées et des accents dans la réalisation.",
+     "mélodie: l’enchaînement des hauteurs musicales.",
+     "articulation: la réalisation distincte des sons des mots."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-4-terms"
+    }
+   },
+   {
+    "id": "cfi3-4-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le lecteur explique le message de Dans notre cour.",
+     "paroles: le texte verbal d’un chant."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-4-cases"
+    }
+   },
+   {
+    "id": "cfi3-4-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Les paroles sont uniquement les hauteurs musicales.",
+     "Les paroles sont les mots, distincts de la mélodie."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "paroles : le texte verbal d’un chant.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : paroles désigne le texte verbal d’un chant. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "rythme : l’organisation des durées et des accents dans la réalisation.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : rythme désigne l’organisation des durées et des accents dans la réalisation. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "mélodie : l’enchaînement des hauteurs musicales.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : mélodie désigne l’enchaînement des hauteurs musicales. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "articulation : la réalisation distincte des sons des mots.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : articulation désigne la réalisation distincte des sons des mots. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Les paroles sont uniquement les hauteurs musicales.",
+        "truth": "false",
+        "explain": "Les paroles sont les mots, distincts de la mélodie."
+       },
+       {
+        "text": "La durée des syllabes se lit toujours exactement dans les lettres seules.",
+        "truth": "false",
+        "explain": "Le texte seul ne fixe pas toutes les durées d’un chant."
+       },
+       {
+        "text": "Une page sans partition évalue à elle seule la justesse de la voix.",
+        "truth": "false",
+        "explain": "Il faut un modèle sonore ou musical pour travailler la mélodie."
+       },
+       {
+        "text": "Articuler consiste à avaler toutes les syllabes.",
+        "truth": "false",
+        "explain": "L’articulation vise à rendre les mots distincts."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le texte verbal d’un chant ?",
+       "r": "paroles",
+       "w": [
+        "rythme",
+        "mélodie",
+        "articulation"
+       ],
+       "e": [
+        "« rythme » désigne l’organisation des durées et des accents dans la réalisation. Ici, cherche le texte verbal d’un chant.",
+        "« mélodie » désigne l’enchaînement des hauteurs musicales. Ici, cherche le texte verbal d’un chant.",
+        "« articulation » désigne la réalisation distincte des sons des mots. Ici, cherche le texte verbal d’un chant."
+       ],
+       "y": "Le texte verbal d’un chant."
+      },
+      {
+       "q": "Quel terme désigne : l’organisation des durées et des accents dans la réalisation ?",
+       "r": "rythme",
+       "w": [
+        "paroles",
+        "mélodie",
+        "articulation"
+       ],
+       "e": [
+        "« paroles » désigne le texte verbal d’un chant. Ici, cherche l’organisation des durées et des accents dans la réalisation.",
+        "« mélodie » désigne l’enchaînement des hauteurs musicales. Ici, cherche l’organisation des durées et des accents dans la réalisation.",
+        "« articulation » désigne la réalisation distincte des sons des mots. Ici, cherche l’organisation des durées et des accents dans la réalisation."
+       ],
+       "y": "L’organisation des durées et des accents dans la réalisation."
+      },
+      {
+       "q": "Quel terme désigne : l’enchaînement des hauteurs musicales ?",
+       "r": "mélodie",
+       "w": [
+        "paroles",
+        "rythme",
+        "articulation"
+       ],
+       "e": [
+        "« paroles » désigne le texte verbal d’un chant. Ici, cherche l’enchaînement des hauteurs musicales.",
+        "« rythme » désigne l’organisation des durées et des accents dans la réalisation. Ici, cherche l’enchaînement des hauteurs musicales.",
+        "« articulation » désigne la réalisation distincte des sons des mots. Ici, cherche l’enchaînement des hauteurs musicales."
+       ],
+       "y": "L’enchaînement des hauteurs musicales."
+      },
+      {
+       "q": "Quel terme désigne : la réalisation distincte des sons des mots ?",
+       "r": "articulation",
+       "w": [
+        "paroles",
+        "rythme",
+        "mélodie"
+       ],
+       "e": [
+        "« paroles » désigne le texte verbal d’un chant. Ici, cherche la réalisation distincte des sons des mots.",
+        "« rythme » désigne l’organisation des durées et des accents dans la réalisation. Ici, cherche la réalisation distincte des sons des mots.",
+        "« mélodie » désigne l’enchaînement des hauteurs musicales. Ici, cherche la réalisation distincte des sons des mots."
+       ],
+       "y": "La réalisation distincte des sons des mots."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le lecteur explique le message de Dans notre cour.\nQuel terme s’applique le mieux ?",
+       "r": "paroles",
+       "w": [
+        "rythme",
+        "mélodie",
+        "articulation"
+       ],
+       "e": [
+        "« rythme » concerne l’organisation des durées et des accents dans la réalisation. Le cas décrit plutôt le texte verbal d’un chant.",
+        "« mélodie » concerne l’enchaînement des hauteurs musicales. Le cas décrit plutôt le texte verbal d’un chant.",
+        "« articulation » concerne la réalisation distincte des sons des mots. Le cas décrit plutôt le texte verbal d’un chant."
+       ],
+       "y": "Le lecteur explique le message de Dans notre cour. Le texte verbal d’un chant."
+      },
+      {
+       "q": "L’enseignant propose une façon régulière d’enchaîner les paroles.\nQuel terme s’applique le mieux ?",
+       "r": "rythme",
+       "w": [
+        "paroles",
+        "mélodie",
+        "articulation"
+       ],
+       "e": [
+        "« paroles » concerne le texte verbal d’un chant. Le cas décrit plutôt l’organisation des durées et des accents dans la réalisation.",
+        "« mélodie » concerne l’enchaînement des hauteurs musicales. Le cas décrit plutôt l’organisation des durées et des accents dans la réalisation.",
+        "« articulation » concerne la réalisation distincte des sons des mots. Le cas décrit plutôt l’organisation des durées et des accents dans la réalisation."
+       ],
+       "y": "L’enseignant propose une façon régulière d’enchaîner les paroles. L’organisation des durées et des accents dans la réalisation."
+      },
+      {
+       "q": "Un modèle sonore indique la succession des notes.\nQuel terme s’applique le mieux ?",
+       "r": "mélodie",
+       "w": [
+        "paroles",
+        "rythme",
+        "articulation"
+       ],
+       "e": [
+        "« paroles » concerne le texte verbal d’un chant. Le cas décrit plutôt l’enchaînement des hauteurs musicales.",
+        "« rythme » concerne l’organisation des durées et des accents dans la réalisation. Le cas décrit plutôt l’enchaînement des hauteurs musicales.",
+        "« articulation » concerne la réalisation distincte des sons des mots. Le cas décrit plutôt l’enchaînement des hauteurs musicales."
+       ],
+       "y": "Un modèle sonore indique la succession des notes. L’enchaînement des hauteurs musicales."
+      },
+      {
+       "q": "Le groupe prépare des mots compréhensibles sans crier.\nQuel terme s’applique le mieux ?",
+       "r": "articulation",
+       "w": [
+        "paroles",
+        "rythme",
+        "mélodie"
+       ],
+       "e": [
+        "« paroles » concerne le texte verbal d’un chant. Le cas décrit plutôt la réalisation distincte des sons des mots.",
+        "« rythme » concerne l’organisation des durées et des accents dans la réalisation. Le cas décrit plutôt la réalisation distincte des sons des mots.",
+        "« mélodie » concerne l’enchaînement des hauteurs musicales. Le cas décrit plutôt la réalisation distincte des sons des mots."
+       ],
+       "y": "Le groupe prépare des mots compréhensibles sans crier. La réalisation distincte des sons des mots."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-4-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le lecteur explique le message de Dans notre cour.\nQuelle explication justifie le classement ?",
+       "r": "Le texte verbal d’un chant.",
+       "w": [
+        "L’organisation des durées et des accents dans la réalisation.",
+        "L’enchaînement des hauteurs musicales.",
+        "La réalisation distincte des sons des mots."
+       ],
+       "e": [
+        "Cette explication correspond à « rythme ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « mélodie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « articulation ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les paroles sont les mots, distincts de la mélodie."
+      },
+      {
+       "q": "L’enseignant propose une façon régulière d’enchaîner les paroles.\nQuelle explication justifie le classement ?",
+       "r": "L’organisation des durées et des accents dans la réalisation.",
+       "w": [
+        "Le texte verbal d’un chant.",
+        "L’enchaînement des hauteurs musicales.",
+        "La réalisation distincte des sons des mots."
+       ],
+       "e": [
+        "Cette explication correspond à « paroles ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « mélodie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « articulation ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le texte seul ne fixe pas toutes les durées d’un chant."
+      },
+      {
+       "q": "Un modèle sonore indique la succession des notes.\nQuelle explication justifie le classement ?",
+       "r": "L’enchaînement des hauteurs musicales.",
+       "w": [
+        "Le texte verbal d’un chant.",
+        "L’organisation des durées et des accents dans la réalisation.",
+        "La réalisation distincte des sons des mots."
+       ],
+       "e": [
+        "Cette explication correspond à « paroles ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « rythme ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « articulation ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Il faut un modèle sonore ou musical pour travailler la mélodie."
+      },
+      {
+       "q": "Le groupe prépare des mots compréhensibles sans crier.\nQuelle explication justifie le classement ?",
+       "r": "La réalisation distincte des sons des mots.",
+       "w": [
+        "Le texte verbal d’un chant.",
+        "L’organisation des durées et des accents dans la réalisation.",
+        "L’enchaînement des hauteurs musicales."
+       ],
+       "e": [
+        "Cette explication correspond à « paroles ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « rythme ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « mélodie ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’articulation vise à rendre les mots distincts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-4-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "paroles",
+     "right": "Le lecteur explique le message de Dans notre cour."
+    },
+    {
+     "left": "rythme",
+     "right": "L’enseignant propose une façon régulière d’enchaîner les paroles."
+    },
+    {
+     "left": "mélodie",
+     "right": "Un modèle sonore indique la succession des notes."
+    },
+    {
+     "left": "articulation",
+     "right": "Le groupe prépare des mots compréhensibles sans crier."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "paroles : le texte verbal d’un chant.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : paroles désigne le texte verbal d’un chant. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "rythme : l’organisation des durées et des accents dans la réalisation.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : rythme désigne l’organisation des durées et des accents dans la réalisation. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "mélodie : l’enchaînement des hauteurs musicales.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : mélodie désigne l’enchaînement des hauteurs musicales. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "articulation : la réalisation distincte des sons des mots.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : articulation désigne la réalisation distincte des sons des mots. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Les paroles sont uniquement les hauteurs musicales.",
+      "truth": "false",
+      "explain": "Les paroles sont les mots, distincts de la mélodie."
+     },
+     {
+      "text": "La durée des syllabes se lit toujours exactement dans les lettres seules.",
+      "truth": "false",
+      "explain": "Le texte seul ne fixe pas toutes les durées d’un chant."
+     },
+     {
+      "text": "Une page sans partition évalue à elle seule la justesse de la voix.",
+      "truth": "false",
+      "explain": "Il faut un modèle sonore ou musical pour travailler la mélodie."
+     },
+     {
+      "text": "Articuler consiste à avaler toutes les syllabes.",
+      "truth": "false",
+      "explain": "L’articulation vise à rendre les mots distincts."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

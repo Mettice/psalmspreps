@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 20,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-20",
+   "name": "Distinguer les modèles écrits /o/ et /ɔ/"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une graphie est une façon d’écrire ; un symbole phonétique représente un son dans un modèle de prononciation. Plusieurs graphies peuvent représenter un même son et une graphie peut varier selon le mot. Les exemples servent à une observation écrite. Certains accents ne distinguent pas toutes les voyelles de la même manière, notamment /ɛ̃/ et /œ̃/. L’enseignant doit confirmer le modèle de la classe et fournir une pratique sonore ; aucun test d’écoute n’a lieu ici.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Une graphie est une façon d’écrire ; un symbole phonétique représente un son dans un modèle de prononciation. Plusieurs graphies peuvent représenter un même son et une graphie peut varier selon le mot. Les exemples servent à une observation écrite. Certains accents ne distinguent pas toutes les voyelles de la même manière, notamment /ɛ̃/ et /œ̃/. L’enseignant doit confirmer le modèle de la classe et fournir une pratique sonore ; aucun test d’écoute n’a lieu ici."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Modèles à observer : eau → /o/ ; rose → /o/ ; porte → /ɔ/ ; sol → /ɔ/. Compare le mot entier et son groupe plutôt que de généraliser une seule lettre à tous les mots. Dans une voyelle nasale, la notation ne signifie pas nécessairement qu’il faut prononcer une consonne n séparée après la voyelle."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère la graphie dans le modèle, compare la notation puis classe les exemples écrits. Vérifie les mots nouveaux dans un dictionnaire ou avec l’enseignant. La reconnaissance d’un mot écrit ne prouve pas la bonne réalisation de sa voyelle."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "eau",
+    "meaning": "le modèle écrit « eau » associé ici à « /o/ »"
+   },
+   {
+    "word": "rose",
+    "meaning": "le modèle écrit « rose » associé ici à « /o/ »"
+   },
+   {
+    "word": "porte",
+    "meaning": "le modèle écrit « porte » associé ici à « /ɔ/ »"
+   },
+   {
+    "word": "sol",
+    "meaning": "le modèle écrit « sol » associé ici à « /ɔ/ »"
+   }
+  ],
+  "examples": [
+   "eau est associé au groupe /o/ dans le modèle.",
+   "rose est associé au groupe /o/ dans le modèle.",
+   "porte est associé au groupe /ɔ/ dans le modèle."
+  ],
+  "mistake": {
+   "wrong": "Le modèle eau autorise à appliquer sa graphie à tous les autres mots.",
+   "right": "eau: le modèle écrit « eau » associé ici à « /o/ ».",
+   "why": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "eau est associé au groupe /o/ dans le modèle. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le modèle écrit « eau » associé ici à « /o/ ».",
+   "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+  ],
+  "answer": "eau",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-20-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "eau: le modèle écrit « eau » associé ici à « /o/ ».",
+     "rose: le modèle écrit « rose » associé ici à « /o/ ».",
+     "porte: le modèle écrit « porte » associé ici à « /ɔ/ ».",
+     "sol: le modèle écrit « sol » associé ici à « /ɔ/ »."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-20-terms"
+    }
+   },
+   {
+    "id": "cfi3-20-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "eau est associé au groupe /o/ dans le modèle.",
+     "eau: le modèle écrit « eau » associé ici à « /o/ »."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-20-cases"
+    }
+   },
+   {
+    "id": "cfi3-20-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Le modèle eau autorise à appliquer sa graphie à tous les autres mots.",
+     "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-20-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "eau : le modèle écrit « eau » associé ici à « /o/ ».",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : eau désigne le modèle écrit « eau » associé ici à « /o/ ». Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "rose : le modèle écrit « rose » associé ici à « /o/ ».",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : rose désigne le modèle écrit « rose » associé ici à « /o/ ». Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "porte : le modèle écrit « porte » associé ici à « /ɔ/ ».",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : porte désigne le modèle écrit « porte » associé ici à « /ɔ/ ». Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "sol : le modèle écrit « sol » associé ici à « /ɔ/ ».",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : sol désigne le modèle écrit « sol » associé ici à « /ɔ/ ». Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le modèle eau autorise à appliquer sa graphie à tous les autres mots.",
+        "truth": "false",
+        "explain": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+       },
+       {
+        "text": "Le modèle rose autorise à appliquer sa graphie à tous les autres mots.",
+        "truth": "false",
+        "explain": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+       },
+       {
+        "text": "Le modèle porte autorise à appliquer sa graphie à tous les autres mots.",
+        "truth": "false",
+        "explain": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+       },
+       {
+        "text": "Le modèle sol autorise à appliquer sa graphie à tous les autres mots.",
+        "truth": "false",
+        "explain": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-20-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le modèle écrit « eau » associé ici à « /o/ » ?",
+       "r": "eau",
+       "w": [
+        "rose",
+        "porte",
+        "sol"
+       ],
+       "e": [
+        "« rose » désigne le modèle écrit « rose » associé ici à « /o/ ». Ici, cherche le modèle écrit « eau » associé ici à « /o/ ».",
+        "« porte » désigne le modèle écrit « porte » associé ici à « /ɔ/ ». Ici, cherche le modèle écrit « eau » associé ici à « /o/ ».",
+        "« sol » désigne le modèle écrit « sol » associé ici à « /ɔ/ ». Ici, cherche le modèle écrit « eau » associé ici à « /o/ »."
+       ],
+       "y": "Le modèle écrit « eau » associé ici à « /o/ »."
+      },
+      {
+       "q": "Quel terme désigne : le modèle écrit « rose » associé ici à « /o/ » ?",
+       "r": "rose",
+       "w": [
+        "eau",
+        "porte",
+        "sol"
+       ],
+       "e": [
+        "« eau » désigne le modèle écrit « eau » associé ici à « /o/ ». Ici, cherche le modèle écrit « rose » associé ici à « /o/ ».",
+        "« porte » désigne le modèle écrit « porte » associé ici à « /ɔ/ ». Ici, cherche le modèle écrit « rose » associé ici à « /o/ ».",
+        "« sol » désigne le modèle écrit « sol » associé ici à « /ɔ/ ». Ici, cherche le modèle écrit « rose » associé ici à « /o/ »."
+       ],
+       "y": "Le modèle écrit « rose » associé ici à « /o/ »."
+      },
+      {
+       "q": "Quel terme désigne : le modèle écrit « porte » associé ici à « /ɔ/ » ?",
+       "r": "porte",
+       "w": [
+        "eau",
+        "rose",
+        "sol"
+       ],
+       "e": [
+        "« eau » désigne le modèle écrit « eau » associé ici à « /o/ ». Ici, cherche le modèle écrit « porte » associé ici à « /ɔ/ ».",
+        "« rose » désigne le modèle écrit « rose » associé ici à « /o/ ». Ici, cherche le modèle écrit « porte » associé ici à « /ɔ/ ».",
+        "« sol » désigne le modèle écrit « sol » associé ici à « /ɔ/ ». Ici, cherche le modèle écrit « porte » associé ici à « /ɔ/ »."
+       ],
+       "y": "Le modèle écrit « porte » associé ici à « /ɔ/ »."
+      },
+      {
+       "q": "Quel terme désigne : le modèle écrit « sol » associé ici à « /ɔ/ » ?",
+       "r": "sol",
+       "w": [
+        "eau",
+        "rose",
+        "porte"
+       ],
+       "e": [
+        "« eau » désigne le modèle écrit « eau » associé ici à « /o/ ». Ici, cherche le modèle écrit « sol » associé ici à « /ɔ/ ».",
+        "« rose » désigne le modèle écrit « rose » associé ici à « /o/ ». Ici, cherche le modèle écrit « sol » associé ici à « /ɔ/ ».",
+        "« porte » désigne le modèle écrit « porte » associé ici à « /ɔ/ ». Ici, cherche le modèle écrit « sol » associé ici à « /ɔ/ »."
+       ],
+       "y": "Le modèle écrit « sol » associé ici à « /ɔ/ »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-20-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "eau est associé au groupe /o/ dans le modèle.\nQuel terme s’applique le mieux ?",
+       "r": "eau",
+       "w": [
+        "rose",
+        "porte",
+        "sol"
+       ],
+       "e": [
+        "« rose » concerne le modèle écrit « rose » associé ici à « /o/ ». Le cas décrit plutôt le modèle écrit « eau » associé ici à « /o/ ».",
+        "« porte » concerne le modèle écrit « porte » associé ici à « /ɔ/ ». Le cas décrit plutôt le modèle écrit « eau » associé ici à « /o/ ».",
+        "« sol » concerne le modèle écrit « sol » associé ici à « /ɔ/ ». Le cas décrit plutôt le modèle écrit « eau » associé ici à « /o/ »."
+       ],
+       "y": "eau est associé au groupe /o/ dans le modèle. Le modèle écrit « eau » associé ici à « /o/ »."
+      },
+      {
+       "q": "rose est associé au groupe /o/ dans le modèle.\nQuel terme s’applique le mieux ?",
+       "r": "rose",
+       "w": [
+        "eau",
+        "porte",
+        "sol"
+       ],
+       "e": [
+        "« eau » concerne le modèle écrit « eau » associé ici à « /o/ ». Le cas décrit plutôt le modèle écrit « rose » associé ici à « /o/ ».",
+        "« porte » concerne le modèle écrit « porte » associé ici à « /ɔ/ ». Le cas décrit plutôt le modèle écrit « rose » associé ici à « /o/ ».",
+        "« sol » concerne le modèle écrit « sol » associé ici à « /ɔ/ ». Le cas décrit plutôt le modèle écrit « rose » associé ici à « /o/ »."
+       ],
+       "y": "rose est associé au groupe /o/ dans le modèle. Le modèle écrit « rose » associé ici à « /o/ »."
+      },
+      {
+       "q": "porte est associé au groupe /ɔ/ dans le modèle.\nQuel terme s’applique le mieux ?",
+       "r": "porte",
+       "w": [
+        "eau",
+        "rose",
+        "sol"
+       ],
+       "e": [
+        "« eau » concerne le modèle écrit « eau » associé ici à « /o/ ». Le cas décrit plutôt le modèle écrit « porte » associé ici à « /ɔ/ ».",
+        "« rose » concerne le modèle écrit « rose » associé ici à « /o/ ». Le cas décrit plutôt le modèle écrit « porte » associé ici à « /ɔ/ ».",
+        "« sol » concerne le modèle écrit « sol » associé ici à « /ɔ/ ». Le cas décrit plutôt le modèle écrit « porte » associé ici à « /ɔ/ »."
+       ],
+       "y": "porte est associé au groupe /ɔ/ dans le modèle. Le modèle écrit « porte » associé ici à « /ɔ/ »."
+      },
+      {
+       "q": "sol est associé au groupe /ɔ/ dans le modèle.\nQuel terme s’applique le mieux ?",
+       "r": "sol",
+       "w": [
+        "eau",
+        "rose",
+        "porte"
+       ],
+       "e": [
+        "« eau » concerne le modèle écrit « eau » associé ici à « /o/ ». Le cas décrit plutôt le modèle écrit « sol » associé ici à « /ɔ/ ».",
+        "« rose » concerne le modèle écrit « rose » associé ici à « /o/ ». Le cas décrit plutôt le modèle écrit « sol » associé ici à « /ɔ/ ».",
+        "« porte » concerne le modèle écrit « porte » associé ici à « /ɔ/ ». Le cas décrit plutôt le modèle écrit « sol » associé ici à « /ɔ/ »."
+       ],
+       "y": "sol est associé au groupe /ɔ/ dans le modèle. Le modèle écrit « sol » associé ici à « /ɔ/ »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-20-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "eau est associé au groupe /o/ dans le modèle.\nQuelle explication justifie le classement ?",
+       "r": "Le modèle écrit « eau » associé ici à « /o/ ».",
+       "w": [
+        "Le modèle écrit « rose » associé ici à « /o/ ».",
+        "Le modèle écrit « porte » associé ici à « /ɔ/ ».",
+        "Le modèle écrit « sol » associé ici à « /ɔ/ »."
+       ],
+       "e": [
+        "Cette explication correspond à « rose ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « porte ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sol ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+      },
+      {
+       "q": "rose est associé au groupe /o/ dans le modèle.\nQuelle explication justifie le classement ?",
+       "r": "Le modèle écrit « rose » associé ici à « /o/ ».",
+       "w": [
+        "Le modèle écrit « eau » associé ici à « /o/ ».",
+        "Le modèle écrit « porte » associé ici à « /ɔ/ ».",
+        "Le modèle écrit « sol » associé ici à « /ɔ/ »."
+       ],
+       "e": [
+        "Cette explication correspond à « eau ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « porte ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sol ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+      },
+      {
+       "q": "porte est associé au groupe /ɔ/ dans le modèle.\nQuelle explication justifie le classement ?",
+       "r": "Le modèle écrit « porte » associé ici à « /ɔ/ ».",
+       "w": [
+        "Le modèle écrit « eau » associé ici à « /o/ ».",
+        "Le modèle écrit « rose » associé ici à « /o/ ».",
+        "Le modèle écrit « sol » associé ici à « /ɔ/ »."
+       ],
+       "e": [
+        "Cette explication correspond à « eau ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « rose ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sol ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+      },
+      {
+       "q": "sol est associé au groupe /ɔ/ dans le modèle.\nQuelle explication justifie le classement ?",
+       "r": "Le modèle écrit « sol » associé ici à « /ɔ/ ».",
+       "w": [
+        "Le modèle écrit « eau » associé ici à « /o/ ».",
+        "Le modèle écrit « rose » associé ici à « /o/ ».",
+        "Le modèle écrit « porte » associé ici à « /ɔ/ »."
+       ],
+       "e": [
+        "Cette explication correspond à « eau ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « rose ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « porte ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-20-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "eau",
+     "right": "eau est associé au groupe /o/ dans le modèle."
+    },
+    {
+     "left": "rose",
+     "right": "rose est associé au groupe /o/ dans le modèle."
+    },
+    {
+     "left": "porte",
+     "right": "porte est associé au groupe /ɔ/ dans le modèle."
+    },
+    {
+     "left": "sol",
+     "right": "sol est associé au groupe /ɔ/ dans le modèle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-20-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "eau : le modèle écrit « eau » associé ici à « /o/ ».",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : eau désigne le modèle écrit « eau » associé ici à « /o/ ». Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "rose : le modèle écrit « rose » associé ici à « /o/ ».",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : rose désigne le modèle écrit « rose » associé ici à « /o/ ». Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "porte : le modèle écrit « porte » associé ici à « /ɔ/ ».",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : porte désigne le modèle écrit « porte » associé ici à « /ɔ/ ». Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "sol : le modèle écrit « sol » associé ici à « /ɔ/ ».",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : sol désigne le modèle écrit « sol » associé ici à « /ɔ/ ». Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le modèle eau autorise à appliquer sa graphie à tous les autres mots.",
+      "truth": "false",
+      "explain": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+     },
+     {
+      "text": "Le modèle rose autorise à appliquer sa graphie à tous les autres mots.",
+      "truth": "false",
+      "explain": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+     },
+     {
+      "text": "Le modèle porte autorise à appliquer sa graphie à tous les autres mots.",
+      "truth": "false",
+      "explain": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+     },
+     {
+      "text": "Le modèle sol autorise à appliquer sa graphie à tous les autres mots.",
+      "truth": "false",
+      "explain": "Apprends le modèle et vérifie les mots nouveaux au lieu de généraliser sans contrôle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 17,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-17",
+   "name": "Pronoms personnels COI : formes et fonctions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un complément indirect est lié au verbe par sa construction, souvent avec une préposition dans le groupe développé. Devant le verbe, les formes conjointes étudiées sont me, te, lui, nous, vous, leur. Après une préposition conservée, on emploie notamment moi, toi, lui, elle, nous, vous, eux, elles. Le titre du spine mêle ces séries : il faut les distinguer. Lui et leur conjoints remplacent des personnes selon la construction ; ils ne portent pas le genre comme elle ou elles.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Un complément indirect est lié au verbe par sa construction, souvent avec une préposition dans le groupe développé. Devant le verbe, les formes conjointes étudiées sont me, te, lui, nous, vous, leur. Après une préposition conservée, on emploie notamment moi, toi, lui, elle, nous, vous, eux, elles. Le titre du spine mêle ces séries : il faut les distinguer. Lui et leur conjoints remplacent des personnes selon la construction ; ils ne portent pas le genre comme elle ou elles."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Bih parle à Ayuk : Bih lui parle. Elle parle à ses camarades : elle leur parle. Pour insister avec certains verbes ou conserver une préposition, la construction diffère : elle pense à lui. On ne remplace donc pas automatiquement toute suite à + personne par le même pronom devant n’importe quel verbe."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Identifie le verbe, sa construction et la place du pronom. Distingue personne unique et groupe. Vérifie si la préposition reste présente ; n’écris pas elle leur parle comme s’il s’agissait de leur cahier, où leur est un déterminant."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "lui conjoint",
+    "meaning": "le pronom COI du modèle remplaçant à une personne devant parler"
+   },
+   {
+    "word": "leur conjoint",
+    "meaning": "le pronom COI du modèle remplaçant à plusieurs personnes devant parler"
+   },
+   {
+    "word": "forme disjointe",
+    "meaning": "une forme telle que moi ou toi après une préposition conservée"
+   },
+   {
+    "word": "construction verbale",
+    "meaning": "la manière dont le verbe introduit son complément"
+   }
+  ],
+  "examples": [
+   "Bih parle à Ayuk devient Bih lui parle.",
+   "Bih parle à ses camarades devient Bih leur parle.",
+   "Le groupe avec moi emploie une forme disjointe."
+  ],
+  "mistake": {
+   "wrong": "Lui devant parle signifie toujours un groupe de plusieurs destinataires.",
+   "right": "lui conjoint: le pronom COI du modèle remplaçant à une personne devant parler.",
+   "why": "Dans ce modèle, lui remplace une personne unique."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih parle à Ayuk devient Bih lui parle. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le pronom coi du modèle remplaçant à une personne devant parler.",
+   "Dans ce modèle, lui remplace une personne unique."
+  ],
+  "answer": "lui conjoint",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-17-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "lui conjoint: le pronom COI du modèle remplaçant à une personne devant parler.",
+     "leur conjoint: le pronom COI du modèle remplaçant à plusieurs personnes devant parler.",
+     "forme disjointe: une forme telle que moi ou toi après une préposition conservée.",
+     "construction verbale: la manière dont le verbe introduit son complément."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-17-terms"
+    }
+   },
+   {
+    "id": "cfi3-17-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Bih parle à Ayuk devient Bih lui parle.",
+     "lui conjoint: le pronom COI du modèle remplaçant à une personne devant parler."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-17-cases"
+    }
+   },
+   {
+    "id": "cfi3-17-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Lui devant parle signifie toujours un groupe de plusieurs destinataires.",
+     "Dans ce modèle, lui remplace une personne unique."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-17-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "lui conjoint : le pronom COI du modèle remplaçant à une personne devant parler.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : lui conjoint désigne le pronom COI du modèle remplaçant à une personne devant parler. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "leur conjoint : le pronom COI du modèle remplaçant à plusieurs personnes devant parler.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : leur conjoint désigne le pronom COI du modèle remplaçant à plusieurs personnes devant parler. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "forme disjointe : une forme telle que moi ou toi après une préposition conservée.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : forme disjointe désigne une forme telle que moi ou toi après une préposition conservée. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "construction verbale : la manière dont le verbe introduit son complément.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : construction verbale désigne la manière dont le verbe introduit son complément. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Lui devant parle signifie toujours un groupe de plusieurs destinataires.",
+        "truth": "false",
+        "explain": "Dans ce modèle, lui remplace une personne unique."
+       },
+       {
+        "text": "Le pronom leur devant le verbe prend toujours un s.",
+        "truth": "false",
+        "explain": "Le pronom COI leur reste invariable."
+       },
+       {
+        "text": "Après avec, on écrit obligatoirement avec me.",
+        "truth": "false",
+        "explain": "Après cette préposition, la forme attendue est moi."
+       },
+       {
+        "text": "Tous les verbes construisent leur complément exactement comme parler.",
+        "truth": "false",
+        "explain": "La pronominalisation dépend de la construction du verbe."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-17-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le pronom COI du modèle remplaçant à une personne devant parler ?",
+       "r": "lui conjoint",
+       "w": [
+        "leur conjoint",
+        "forme disjointe",
+        "construction verbale"
+       ],
+       "e": [
+        "« leur conjoint » désigne le pronom COI du modèle remplaçant à plusieurs personnes devant parler. Ici, cherche le pronom COI du modèle remplaçant à une personne devant parler.",
+        "« forme disjointe » désigne une forme telle que moi ou toi après une préposition conservée. Ici, cherche le pronom COI du modèle remplaçant à une personne devant parler.",
+        "« construction verbale » désigne la manière dont le verbe introduit son complément. Ici, cherche le pronom COI du modèle remplaçant à une personne devant parler."
+       ],
+       "y": "Le pronom coi du modèle remplaçant à une personne devant parler."
+      },
+      {
+       "q": "Quel terme désigne : le pronom COI du modèle remplaçant à plusieurs personnes devant parler ?",
+       "r": "leur conjoint",
+       "w": [
+        "lui conjoint",
+        "forme disjointe",
+        "construction verbale"
+       ],
+       "e": [
+        "« lui conjoint » désigne le pronom COI du modèle remplaçant à une personne devant parler. Ici, cherche le pronom COI du modèle remplaçant à plusieurs personnes devant parler.",
+        "« forme disjointe » désigne une forme telle que moi ou toi après une préposition conservée. Ici, cherche le pronom COI du modèle remplaçant à plusieurs personnes devant parler.",
+        "« construction verbale » désigne la manière dont le verbe introduit son complément. Ici, cherche le pronom COI du modèle remplaçant à plusieurs personnes devant parler."
+       ],
+       "y": "Le pronom coi du modèle remplaçant à plusieurs personnes devant parler."
+      },
+      {
+       "q": "Quel terme désigne : une forme telle que moi ou toi après une préposition conservée ?",
+       "r": "forme disjointe",
+       "w": [
+        "lui conjoint",
+        "leur conjoint",
+        "construction verbale"
+       ],
+       "e": [
+        "« lui conjoint » désigne le pronom COI du modèle remplaçant à une personne devant parler. Ici, cherche une forme telle que moi ou toi après une préposition conservée.",
+        "« leur conjoint » désigne le pronom COI du modèle remplaçant à plusieurs personnes devant parler. Ici, cherche une forme telle que moi ou toi après une préposition conservée.",
+        "« construction verbale » désigne la manière dont le verbe introduit son complément. Ici, cherche une forme telle que moi ou toi après une préposition conservée."
+       ],
+       "y": "Une forme telle que moi ou toi après une préposition conservée."
+      },
+      {
+       "q": "Quel terme désigne : la manière dont le verbe introduit son complément ?",
+       "r": "construction verbale",
+       "w": [
+        "lui conjoint",
+        "leur conjoint",
+        "forme disjointe"
+       ],
+       "e": [
+        "« lui conjoint » désigne le pronom COI du modèle remplaçant à une personne devant parler. Ici, cherche la manière dont le verbe introduit son complément.",
+        "« leur conjoint » désigne le pronom COI du modèle remplaçant à plusieurs personnes devant parler. Ici, cherche la manière dont le verbe introduit son complément.",
+        "« forme disjointe » désigne une forme telle que moi ou toi après une préposition conservée. Ici, cherche la manière dont le verbe introduit son complément."
+       ],
+       "y": "La manière dont le verbe introduit son complément."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-17-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih parle à Ayuk devient Bih lui parle.\nQuel terme s’applique le mieux ?",
+       "r": "lui conjoint",
+       "w": [
+        "leur conjoint",
+        "forme disjointe",
+        "construction verbale"
+       ],
+       "e": [
+        "« leur conjoint » concerne le pronom COI du modèle remplaçant à plusieurs personnes devant parler. Le cas décrit plutôt le pronom COI du modèle remplaçant à une personne devant parler.",
+        "« forme disjointe » concerne une forme telle que moi ou toi après une préposition conservée. Le cas décrit plutôt le pronom COI du modèle remplaçant à une personne devant parler.",
+        "« construction verbale » concerne la manière dont le verbe introduit son complément. Le cas décrit plutôt le pronom COI du modèle remplaçant à une personne devant parler."
+       ],
+       "y": "Bih parle à Ayuk devient Bih lui parle. Le pronom coi du modèle remplaçant à une personne devant parler."
+      },
+      {
+       "q": "Bih parle à ses camarades devient Bih leur parle.\nQuel terme s’applique le mieux ?",
+       "r": "leur conjoint",
+       "w": [
+        "lui conjoint",
+        "forme disjointe",
+        "construction verbale"
+       ],
+       "e": [
+        "« lui conjoint » concerne le pronom COI du modèle remplaçant à une personne devant parler. Le cas décrit plutôt le pronom COI du modèle remplaçant à plusieurs personnes devant parler.",
+        "« forme disjointe » concerne une forme telle que moi ou toi après une préposition conservée. Le cas décrit plutôt le pronom COI du modèle remplaçant à plusieurs personnes devant parler.",
+        "« construction verbale » concerne la manière dont le verbe introduit son complément. Le cas décrit plutôt le pronom COI du modèle remplaçant à plusieurs personnes devant parler."
+       ],
+       "y": "Bih parle à ses camarades devient Bih leur parle. Le pronom coi du modèle remplaçant à plusieurs personnes devant parler."
+      },
+      {
+       "q": "Le groupe avec moi emploie une forme disjointe.\nQuel terme s’applique le mieux ?",
+       "r": "forme disjointe",
+       "w": [
+        "lui conjoint",
+        "leur conjoint",
+        "construction verbale"
+       ],
+       "e": [
+        "« lui conjoint » concerne le pronom COI du modèle remplaçant à une personne devant parler. Le cas décrit plutôt une forme telle que moi ou toi après une préposition conservée.",
+        "« leur conjoint » concerne le pronom COI du modèle remplaçant à plusieurs personnes devant parler. Le cas décrit plutôt une forme telle que moi ou toi après une préposition conservée.",
+        "« construction verbale » concerne la manière dont le verbe introduit son complément. Le cas décrit plutôt une forme telle que moi ou toi après une préposition conservée."
+       ],
+       "y": "Le groupe avec moi emploie une forme disjointe. Une forme telle que moi ou toi après une préposition conservée."
+      },
+      {
+       "q": "Penser à lui conserve à dans le modèle.\nQuel terme s’applique le mieux ?",
+       "r": "construction verbale",
+       "w": [
+        "lui conjoint",
+        "leur conjoint",
+        "forme disjointe"
+       ],
+       "e": [
+        "« lui conjoint » concerne le pronom COI du modèle remplaçant à une personne devant parler. Le cas décrit plutôt la manière dont le verbe introduit son complément.",
+        "« leur conjoint » concerne le pronom COI du modèle remplaçant à plusieurs personnes devant parler. Le cas décrit plutôt la manière dont le verbe introduit son complément.",
+        "« forme disjointe » concerne une forme telle que moi ou toi après une préposition conservée. Le cas décrit plutôt la manière dont le verbe introduit son complément."
+       ],
+       "y": "Penser à lui conserve à dans le modèle. La manière dont le verbe introduit son complément."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-17-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih parle à Ayuk devient Bih lui parle.\nQuelle explication justifie le classement ?",
+       "r": "Le pronom coi du modèle remplaçant à une personne devant parler.",
+       "w": [
+        "Le pronom coi du modèle remplaçant à plusieurs personnes devant parler.",
+        "Une forme telle que moi ou toi après une préposition conservée.",
+        "La manière dont le verbe introduit son complément."
+       ],
+       "e": [
+        "Cette explication correspond à « leur conjoint ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « forme disjointe ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « construction verbale ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Dans ce modèle, lui remplace une personne unique."
+      },
+      {
+       "q": "Bih parle à ses camarades devient Bih leur parle.\nQuelle explication justifie le classement ?",
+       "r": "Le pronom coi du modèle remplaçant à plusieurs personnes devant parler.",
+       "w": [
+        "Le pronom coi du modèle remplaçant à une personne devant parler.",
+        "Une forme telle que moi ou toi après une préposition conservée.",
+        "La manière dont le verbe introduit son complément."
+       ],
+       "e": [
+        "Cette explication correspond à « lui conjoint ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « forme disjointe ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « construction verbale ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le pronom COI leur reste invariable."
+      },
+      {
+       "q": "Le groupe avec moi emploie une forme disjointe.\nQuelle explication justifie le classement ?",
+       "r": "Une forme telle que moi ou toi après une préposition conservée.",
+       "w": [
+        "Le pronom coi du modèle remplaçant à une personne devant parler.",
+        "Le pronom coi du modèle remplaçant à plusieurs personnes devant parler.",
+        "La manière dont le verbe introduit son complément."
+       ],
+       "e": [
+        "Cette explication correspond à « lui conjoint ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « leur conjoint ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « construction verbale ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Après cette préposition, la forme attendue est moi."
+      },
+      {
+       "q": "Penser à lui conserve à dans le modèle.\nQuelle explication justifie le classement ?",
+       "r": "La manière dont le verbe introduit son complément.",
+       "w": [
+        "Le pronom coi du modèle remplaçant à une personne devant parler.",
+        "Le pronom coi du modèle remplaçant à plusieurs personnes devant parler.",
+        "Une forme telle que moi ou toi après une préposition conservée."
+       ],
+       "e": [
+        "Cette explication correspond à « lui conjoint ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « leur conjoint ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « forme disjointe ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La pronominalisation dépend de la construction du verbe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-17-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "lui conjoint",
+     "right": "Bih parle à Ayuk devient Bih lui parle."
+    },
+    {
+     "left": "leur conjoint",
+     "right": "Bih parle à ses camarades devient Bih leur parle."
+    },
+    {
+     "left": "forme disjointe",
+     "right": "Le groupe avec moi emploie une forme disjointe."
+    },
+    {
+     "left": "construction verbale",
+     "right": "Penser à lui conserve à dans le modèle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-17-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "lui conjoint : le pronom COI du modèle remplaçant à une personne devant parler.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : lui conjoint désigne le pronom COI du modèle remplaçant à une personne devant parler. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "leur conjoint : le pronom COI du modèle remplaçant à plusieurs personnes devant parler.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : leur conjoint désigne le pronom COI du modèle remplaçant à plusieurs personnes devant parler. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "forme disjointe : une forme telle que moi ou toi après une préposition conservée.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : forme disjointe désigne une forme telle que moi ou toi après une préposition conservée. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "construction verbale : la manière dont le verbe introduit son complément.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : construction verbale désigne la manière dont le verbe introduit son complément. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Lui devant parle signifie toujours un groupe de plusieurs destinataires.",
+      "truth": "false",
+      "explain": "Dans ce modèle, lui remplace une personne unique."
+     },
+     {
+      "text": "Le pronom leur devant le verbe prend toujours un s.",
+      "truth": "false",
+      "explain": "Le pronom COI leur reste invariable."
+     },
+     {
+      "text": "Après avec, on écrit obligatoirement avec me.",
+      "truth": "false",
+      "explain": "Après cette préposition, la forme attendue est moi."
+     },
+     {
+      "text": "Tous les verbes construisent leur complément exactement comme parler.",
+      "truth": "false",
+      "explain": "La pronominalisation dépend de la construction du verbe."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

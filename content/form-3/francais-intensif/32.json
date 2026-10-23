@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 32,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-32",
+   "name": "Le lexique des structures et services sanitaires"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un hôpital est un établissement de soins ; un service d’urgences prend en charge des situations nécessitant une évaluation rapide ; les soins intensifs concernent une surveillance et des soins spécialisés ; une consultation est une rencontre professionnelle pour évaluer une situation de santé. Les services disponibles varient selon l’établissement. Ce vocabulaire n’indique pas à un élève comment trier ou traiter des patients et ne donne pas les coordonnées actuelles des services locaux.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Un hôpital est un établissement de soins ; un service d’urgences prend en charge des situations nécessitant une évaluation rapide ; les soins intensifs concernent une surveillance et des soins spécialisés ; une consultation est une rencontre professionnelle pour évaluer une situation de santé. Les services disponibles varient selon l’établissement. Ce vocabulaire n’indique pas à un élève comment trier ou traiter des patients et ne donne pas les coordonnées actuelles des services locaux."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans une fiche fictive, un personnage distingue l’établissement, son service et le rendez-vous de consultation. Il demande au personnel compétent où se présenter. Le texte ne prétend pas que chaque centre possède tous les services et ne remplace pas les instructions d’un professionnel."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis la phrase entière, relève les indices et compare les sens. Choisis un mot pour ce contexte, puis emploie-le dans une phrase originale. Un exemple n’autorise pas une généralisation à toutes les situations. Explique ton choix sans recopier une définition sans rapport."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "hôpital",
+    "meaning": "un établissement organisé pour des soins de santé"
+   },
+   {
+    "word": "urgences",
+    "meaning": "un service d’évaluation et de prise en charge de situations urgentes"
+   },
+   {
+    "word": "soins intensifs",
+    "meaning": "des soins et une surveillance spécialisés pour des patients qui en ont besoin"
+   },
+   {
+    "word": "consultation",
+    "meaning": "une rencontre avec un professionnel pour évaluer une situation de santé"
+   }
+  ],
+  "examples": [
+   "Le document nomme l’établissement où travaille une équipe de soins.",
+   "La fiche distingue un service destiné aux situations nécessitant une évaluation rapide.",
+   "Le texte nomme une unité de surveillance spécialisée."
+  ],
+  "mistake": {
+   "wrong": "Un hôpital est obligatoirement une salle de classe sans soins.",
+   "right": "hôpital: un établissement organisé pour des soins de santé.",
+   "why": "Le terme désigne ici un établissement sanitaire."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le document nomme l’établissement où travaille une équipe de soins. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un établissement organisé pour des soins de santé.",
+   "Le terme désigne ici un établissement sanitaire."
+  ],
+  "answer": "hôpital",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-32-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "hôpital: un établissement organisé pour des soins de santé.",
+     "urgences: un service d’évaluation et de prise en charge de situations urgentes.",
+     "soins intensifs: des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+     "consultation: une rencontre avec un professionnel pour évaluer une situation de santé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-32-terms"
+    }
+   },
+   {
+    "id": "cfi3-32-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le document nomme l’établissement où travaille une équipe de soins.",
+     "hôpital: un établissement organisé pour des soins de santé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-32-cases"
+    }
+   },
+   {
+    "id": "cfi3-32-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Un hôpital est obligatoirement une salle de classe sans soins.",
+     "Le terme désigne ici un établissement sanitaire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-32-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "hôpital : un établissement organisé pour des soins de santé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : hôpital désigne un établissement organisé pour des soins de santé. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "urgences : un service d’évaluation et de prise en charge de situations urgentes.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : urgences désigne un service d’évaluation et de prise en charge de situations urgentes. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "soins intensifs : des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : soins intensifs désigne des soins et une surveillance spécialisés pour des patients qui en ont besoin. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "consultation : une rencontre avec un professionnel pour évaluer une situation de santé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : consultation désigne une rencontre avec un professionnel pour évaluer une situation de santé. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un hôpital est obligatoirement une salle de classe sans soins.",
+        "truth": "false",
+        "explain": "Le terme désigne ici un établissement sanitaire."
+       },
+       {
+        "text": "Urgences signifie que des élèves doivent décider seuls des priorités médicales.",
+        "truth": "false",
+        "explain": "Le tri et les soins relèvent du personnel compétent."
+       },
+       {
+        "text": "Tous les établissements possèdent forcément une unité de soins intensifs.",
+        "truth": "false",
+        "explain": "Les capacités varient ; vérifie l’établissement."
+       },
+       {
+        "text": "Une consultation signifie obligatoirement une opération chirurgicale.",
+        "truth": "false",
+        "explain": "L’évaluation ne se confond pas avec une intervention chirurgicale."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-32-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un établissement organisé pour des soins de santé ?",
+       "r": "hôpital",
+       "w": [
+        "urgences",
+        "soins intensifs",
+        "consultation"
+       ],
+       "e": [
+        "« urgences » désigne un service d’évaluation et de prise en charge de situations urgentes. Ici, cherche un établissement organisé pour des soins de santé.",
+        "« soins intensifs » désigne des soins et une surveillance spécialisés pour des patients qui en ont besoin. Ici, cherche un établissement organisé pour des soins de santé.",
+        "« consultation » désigne une rencontre avec un professionnel pour évaluer une situation de santé. Ici, cherche un établissement organisé pour des soins de santé."
+       ],
+       "y": "Un établissement organisé pour des soins de santé."
+      },
+      {
+       "q": "Quel terme désigne : un service d’évaluation et de prise en charge de situations urgentes ?",
+       "r": "urgences",
+       "w": [
+        "hôpital",
+        "soins intensifs",
+        "consultation"
+       ],
+       "e": [
+        "« hôpital » désigne un établissement organisé pour des soins de santé. Ici, cherche un service d’évaluation et de prise en charge de situations urgentes.",
+        "« soins intensifs » désigne des soins et une surveillance spécialisés pour des patients qui en ont besoin. Ici, cherche un service d’évaluation et de prise en charge de situations urgentes.",
+        "« consultation » désigne une rencontre avec un professionnel pour évaluer une situation de santé. Ici, cherche un service d’évaluation et de prise en charge de situations urgentes."
+       ],
+       "y": "Un service d’évaluation et de prise en charge de situations urgentes."
+      },
+      {
+       "q": "Quel terme désigne : des soins et une surveillance spécialisés pour des patients qui en ont besoin ?",
+       "r": "soins intensifs",
+       "w": [
+        "hôpital",
+        "urgences",
+        "consultation"
+       ],
+       "e": [
+        "« hôpital » désigne un établissement organisé pour des soins de santé. Ici, cherche des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+        "« urgences » désigne un service d’évaluation et de prise en charge de situations urgentes. Ici, cherche des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+        "« consultation » désigne une rencontre avec un professionnel pour évaluer une situation de santé. Ici, cherche des soins et une surveillance spécialisés pour des patients qui en ont besoin."
+       ],
+       "y": "Des soins et une surveillance spécialisés pour des patients qui en ont besoin."
+      },
+      {
+       "q": "Quel terme désigne : une rencontre avec un professionnel pour évaluer une situation de santé ?",
+       "r": "consultation",
+       "w": [
+        "hôpital",
+        "urgences",
+        "soins intensifs"
+       ],
+       "e": [
+        "« hôpital » désigne un établissement organisé pour des soins de santé. Ici, cherche une rencontre avec un professionnel pour évaluer une situation de santé.",
+        "« urgences » désigne un service d’évaluation et de prise en charge de situations urgentes. Ici, cherche une rencontre avec un professionnel pour évaluer une situation de santé.",
+        "« soins intensifs » désigne des soins et une surveillance spécialisés pour des patients qui en ont besoin. Ici, cherche une rencontre avec un professionnel pour évaluer une situation de santé."
+       ],
+       "y": "Une rencontre avec un professionnel pour évaluer une situation de santé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-32-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le document nomme l’établissement où travaille une équipe de soins.\nQuel terme s’applique le mieux ?",
+       "r": "hôpital",
+       "w": [
+        "urgences",
+        "soins intensifs",
+        "consultation"
+       ],
+       "e": [
+        "« urgences » concerne un service d’évaluation et de prise en charge de situations urgentes. Le cas décrit plutôt un établissement organisé pour des soins de santé.",
+        "« soins intensifs » concerne des soins et une surveillance spécialisés pour des patients qui en ont besoin. Le cas décrit plutôt un établissement organisé pour des soins de santé.",
+        "« consultation » concerne une rencontre avec un professionnel pour évaluer une situation de santé. Le cas décrit plutôt un établissement organisé pour des soins de santé."
+       ],
+       "y": "Le document nomme l’établissement où travaille une équipe de soins. Un établissement organisé pour des soins de santé."
+      },
+      {
+       "q": "La fiche distingue un service destiné aux situations nécessitant une évaluation rapide.\nQuel terme s’applique le mieux ?",
+       "r": "urgences",
+       "w": [
+        "hôpital",
+        "soins intensifs",
+        "consultation"
+       ],
+       "e": [
+        "« hôpital » concerne un établissement organisé pour des soins de santé. Le cas décrit plutôt un service d’évaluation et de prise en charge de situations urgentes.",
+        "« soins intensifs » concerne des soins et une surveillance spécialisés pour des patients qui en ont besoin. Le cas décrit plutôt un service d’évaluation et de prise en charge de situations urgentes.",
+        "« consultation » concerne une rencontre avec un professionnel pour évaluer une situation de santé. Le cas décrit plutôt un service d’évaluation et de prise en charge de situations urgentes."
+       ],
+       "y": "La fiche distingue un service destiné aux situations nécessitant une évaluation rapide. Un service d’évaluation et de prise en charge de situations urgentes."
+      },
+      {
+       "q": "Le texte nomme une unité de surveillance spécialisée.\nQuel terme s’applique le mieux ?",
+       "r": "soins intensifs",
+       "w": [
+        "hôpital",
+        "urgences",
+        "consultation"
+       ],
+       "e": [
+        "« hôpital » concerne un établissement organisé pour des soins de santé. Le cas décrit plutôt des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+        "« urgences » concerne un service d’évaluation et de prise en charge de situations urgentes. Le cas décrit plutôt des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+        "« consultation » concerne une rencontre avec un professionnel pour évaluer une situation de santé. Le cas décrit plutôt des soins et une surveillance spécialisés pour des patients qui en ont besoin."
+       ],
+       "y": "Le texte nomme une unité de surveillance spécialisée. Des soins et une surveillance spécialisés pour des patients qui en ont besoin."
+      },
+      {
+       "q": "Un personnage se présente à un rendez-vous professionnel.\nQuel terme s’applique le mieux ?",
+       "r": "consultation",
+       "w": [
+        "hôpital",
+        "urgences",
+        "soins intensifs"
+       ],
+       "e": [
+        "« hôpital » concerne un établissement organisé pour des soins de santé. Le cas décrit plutôt une rencontre avec un professionnel pour évaluer une situation de santé.",
+        "« urgences » concerne un service d’évaluation et de prise en charge de situations urgentes. Le cas décrit plutôt une rencontre avec un professionnel pour évaluer une situation de santé.",
+        "« soins intensifs » concerne des soins et une surveillance spécialisés pour des patients qui en ont besoin. Le cas décrit plutôt une rencontre avec un professionnel pour évaluer une situation de santé."
+       ],
+       "y": "Un personnage se présente à un rendez-vous professionnel. Une rencontre avec un professionnel pour évaluer une situation de santé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-32-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le document nomme l’établissement où travaille une équipe de soins.\nQuelle explication justifie le classement ?",
+       "r": "Un établissement organisé pour des soins de santé.",
+       "w": [
+        "Un service d’évaluation et de prise en charge de situations urgentes.",
+        "Des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+        "Une rencontre avec un professionnel pour évaluer une situation de santé."
+       ],
+       "e": [
+        "Cette explication correspond à « urgences ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « soins intensifs ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « consultation ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le terme désigne ici un établissement sanitaire."
+      },
+      {
+       "q": "La fiche distingue un service destiné aux situations nécessitant une évaluation rapide.\nQuelle explication justifie le classement ?",
+       "r": "Un service d’évaluation et de prise en charge de situations urgentes.",
+       "w": [
+        "Un établissement organisé pour des soins de santé.",
+        "Des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+        "Une rencontre avec un professionnel pour évaluer une situation de santé."
+       ],
+       "e": [
+        "Cette explication correspond à « hôpital ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « soins intensifs ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « consultation ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le tri et les soins relèvent du personnel compétent."
+      },
+      {
+       "q": "Le texte nomme une unité de surveillance spécialisée.\nQuelle explication justifie le classement ?",
+       "r": "Des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+       "w": [
+        "Un établissement organisé pour des soins de santé.",
+        "Un service d’évaluation et de prise en charge de situations urgentes.",
+        "Une rencontre avec un professionnel pour évaluer une situation de santé."
+       ],
+       "e": [
+        "Cette explication correspond à « hôpital ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « urgences ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « consultation ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les capacités varient ; vérifie l’établissement."
+      },
+      {
+       "q": "Un personnage se présente à un rendez-vous professionnel.\nQuelle explication justifie le classement ?",
+       "r": "Une rencontre avec un professionnel pour évaluer une situation de santé.",
+       "w": [
+        "Un établissement organisé pour des soins de santé.",
+        "Un service d’évaluation et de prise en charge de situations urgentes.",
+        "Des soins et une surveillance spécialisés pour des patients qui en ont besoin."
+       ],
+       "e": [
+        "Cette explication correspond à « hôpital ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « urgences ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « soins intensifs ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’évaluation ne se confond pas avec une intervention chirurgicale."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-32-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "hôpital",
+     "right": "Le document nomme l’établissement où travaille une équipe de soins."
+    },
+    {
+     "left": "urgences",
+     "right": "La fiche distingue un service destiné aux situations nécessitant une évaluation rapide."
+    },
+    {
+     "left": "soins intensifs",
+     "right": "Le texte nomme une unité de surveillance spécialisée."
+    },
+    {
+     "left": "consultation",
+     "right": "Un personnage se présente à un rendez-vous professionnel."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-32-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "hôpital : un établissement organisé pour des soins de santé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : hôpital désigne un établissement organisé pour des soins de santé. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "urgences : un service d’évaluation et de prise en charge de situations urgentes.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : urgences désigne un service d’évaluation et de prise en charge de situations urgentes. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "soins intensifs : des soins et une surveillance spécialisés pour des patients qui en ont besoin.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : soins intensifs désigne des soins et une surveillance spécialisés pour des patients qui en ont besoin. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "consultation : une rencontre avec un professionnel pour évaluer une situation de santé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : consultation désigne une rencontre avec un professionnel pour évaluer une situation de santé. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un hôpital est obligatoirement une salle de classe sans soins.",
+      "truth": "false",
+      "explain": "Le terme désigne ici un établissement sanitaire."
+     },
+     {
+      "text": "Urgences signifie que des élèves doivent décider seuls des priorités médicales.",
+      "truth": "false",
+      "explain": "Le tri et les soins relèvent du personnel compétent."
+     },
+     {
+      "text": "Tous les établissements possèdent forcément une unité de soins intensifs.",
+      "truth": "false",
+      "explain": "Les capacités varient ; vérifie l’établissement."
+     },
+     {
+      "text": "Une consultation signifie obligatoirement une opération chirurgicale.",
+      "truth": "false",
+      "explain": "L’évaluation ne se confond pas avec une intervention chirurgicale."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

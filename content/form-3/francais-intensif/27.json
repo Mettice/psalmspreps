@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 27,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-27",
+   "name": "Le lexique des maladies et des symptômes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un nom de maladie ne se confond pas avec un symptôme. Le paludisme est une maladie parasitaire transmise notamment par certains moustiques infectés ; la grippe est une infection respiratoire virale. La fièvre est un symptôme possible de plusieurs affections ; la diarrhée décrit l’émission de selles molles ou liquides plus fréquentes que d’habitude. Ces mots aident à comprendre un texte, mais un symptôme isolé ne permet pas à un élève de diagnostiquer quelqu’un. L’évaluation et les soins relèvent de professionnels compétents.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Un nom de maladie ne se confond pas avec un symptôme. Le paludisme est une maladie parasitaire transmise notamment par certains moustiques infectés ; la grippe est une infection respiratoire virale. La fièvre est un symptôme possible de plusieurs affections ; la diarrhée décrit l’émission de selles molles ou liquides plus fréquentes que d’habitude. Ces mots aident à comprendre un texte, mais un symptôme isolé ne permet pas à un élève de diagnostiquer quelqu’un. L’évaluation et les soins relèvent de professionnels compétents."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans un dialogue fictif, Bih lit un document qui distingue nom de maladie et symptôme. Elle relève la fièvre sans conclure que la personne a nécessairement le paludisme. Un personnage demande un avis professionnel. Aucun médicament, dose ou traitement n’est prescrit dans l’exercice."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis la phrase entière, relève les indices et compare les sens. Choisis un mot pour ce contexte, puis emploie-le dans une phrase originale. Un exemple n’autorise pas une généralisation à toutes les situations. Explique ton choix sans recopier une définition sans rapport."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "paludisme",
+    "meaning": "la maladie parasitaire transmise notamment par certains moustiques infectés"
+   },
+   {
+    "word": "grippe",
+    "meaning": "une infection respiratoire causée par des virus grippaux"
+   },
+   {
+    "word": "fièvre",
+    "meaning": "un symptôme d’élévation de la température corporelle"
+   },
+   {
+    "word": "diarrhée",
+    "meaning": "l’émission de selles molles ou liquides plus fréquentes que d’habitude"
+   }
+  ],
+  "examples": [
+   "Un texte de santé associe cette maladie à un parasite et à des moustiques infectés.",
+   "Le document distingue une infection respiratoire virale de la maladie parasitaire.",
+   "Le dialogue relève un symptôme thermique sans poser de diagnostic."
+  ],
+  "mistake": {
+   "wrong": "Le paludisme est nécessairement causé par un manque de politesse.",
+   "right": "paludisme: la maladie parasitaire transmise notamment par certains moustiques infectés.",
+   "why": "Il s’agit d’une maladie parasitaire, pas d’un comportement moral."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un texte de santé associe cette maladie à un parasite et à des moustiques infectés. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "La maladie parasitaire transmise notamment par certains moustiques infectés.",
+   "Il s’agit d’une maladie parasitaire, pas d’un comportement moral."
+  ],
+  "answer": "paludisme",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-27-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "paludisme: la maladie parasitaire transmise notamment par certains moustiques infectés.",
+     "grippe: une infection respiratoire causée par des virus grippaux.",
+     "fièvre: un symptôme d’élévation de la température corporelle.",
+     "diarrhée: l’émission de selles molles ou liquides plus fréquentes que d’habitude."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-27-terms"
+    }
+   },
+   {
+    "id": "cfi3-27-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Un texte de santé associe cette maladie à un parasite et à des moustiques infectés.",
+     "paludisme: la maladie parasitaire transmise notamment par certains moustiques infectés."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-27-cases"
+    }
+   },
+   {
+    "id": "cfi3-27-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Le paludisme est nécessairement causé par un manque de politesse.",
+     "Il s’agit d’une maladie parasitaire, pas d’un comportement moral."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-27-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "paludisme : la maladie parasitaire transmise notamment par certains moustiques infectés.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : paludisme désigne la maladie parasitaire transmise notamment par certains moustiques infectés. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "grippe : une infection respiratoire causée par des virus grippaux.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : grippe désigne une infection respiratoire causée par des virus grippaux. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "fièvre : un symptôme d’élévation de la température corporelle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : fièvre désigne un symptôme d’élévation de la température corporelle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "diarrhée : l’émission de selles molles ou liquides plus fréquentes que d’habitude.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : diarrhée désigne l’émission de selles molles ou liquides plus fréquentes que d’habitude. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le paludisme est nécessairement causé par un manque de politesse.",
+        "truth": "false",
+        "explain": "Il s’agit d’une maladie parasitaire, pas d’un comportement moral."
+       },
+       {
+        "text": "La grippe est le nom de toutes les maladies sans exception.",
+        "truth": "false",
+        "explain": "Le mot désigne une infection particulière, pas toute maladie."
+       },
+       {
+        "text": "La fièvre prouve toujours à elle seule une maladie unique.",
+        "truth": "false",
+        "explain": "Plusieurs affections peuvent provoquer une fièvre."
+       },
+       {
+        "text": "Le mot diarrhée désigne exclusivement une douleur du bras.",
+        "truth": "false",
+        "explain": "Le terme concerne les selles, pas une douleur du bras."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-27-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : la maladie parasitaire transmise notamment par certains moustiques infectés ?",
+       "r": "paludisme",
+       "w": [
+        "grippe",
+        "fièvre",
+        "diarrhée"
+       ],
+       "e": [
+        "« grippe » désigne une infection respiratoire causée par des virus grippaux. Ici, cherche la maladie parasitaire transmise notamment par certains moustiques infectés.",
+        "« fièvre » désigne un symptôme d’élévation de la température corporelle. Ici, cherche la maladie parasitaire transmise notamment par certains moustiques infectés.",
+        "« diarrhée » désigne l’émission de selles molles ou liquides plus fréquentes que d’habitude. Ici, cherche la maladie parasitaire transmise notamment par certains moustiques infectés."
+       ],
+       "y": "La maladie parasitaire transmise notamment par certains moustiques infectés."
+      },
+      {
+       "q": "Quel terme désigne : une infection respiratoire causée par des virus grippaux ?",
+       "r": "grippe",
+       "w": [
+        "paludisme",
+        "fièvre",
+        "diarrhée"
+       ],
+       "e": [
+        "« paludisme » désigne la maladie parasitaire transmise notamment par certains moustiques infectés. Ici, cherche une infection respiratoire causée par des virus grippaux.",
+        "« fièvre » désigne un symptôme d’élévation de la température corporelle. Ici, cherche une infection respiratoire causée par des virus grippaux.",
+        "« diarrhée » désigne l’émission de selles molles ou liquides plus fréquentes que d’habitude. Ici, cherche une infection respiratoire causée par des virus grippaux."
+       ],
+       "y": "Une infection respiratoire causée par des virus grippaux."
+      },
+      {
+       "q": "Quel terme désigne : un symptôme d’élévation de la température corporelle ?",
+       "r": "fièvre",
+       "w": [
+        "paludisme",
+        "grippe",
+        "diarrhée"
+       ],
+       "e": [
+        "« paludisme » désigne la maladie parasitaire transmise notamment par certains moustiques infectés. Ici, cherche un symptôme d’élévation de la température corporelle.",
+        "« grippe » désigne une infection respiratoire causée par des virus grippaux. Ici, cherche un symptôme d’élévation de la température corporelle.",
+        "« diarrhée » désigne l’émission de selles molles ou liquides plus fréquentes que d’habitude. Ici, cherche un symptôme d’élévation de la température corporelle."
+       ],
+       "y": "Un symptôme d’élévation de la température corporelle."
+      },
+      {
+       "q": "Quel terme désigne : l’émission de selles molles ou liquides plus fréquentes que d’habitude ?",
+       "r": "diarrhée",
+       "w": [
+        "paludisme",
+        "grippe",
+        "fièvre"
+       ],
+       "e": [
+        "« paludisme » désigne la maladie parasitaire transmise notamment par certains moustiques infectés. Ici, cherche l’émission de selles molles ou liquides plus fréquentes que d’habitude.",
+        "« grippe » désigne une infection respiratoire causée par des virus grippaux. Ici, cherche l’émission de selles molles ou liquides plus fréquentes que d’habitude.",
+        "« fièvre » désigne un symptôme d’élévation de la température corporelle. Ici, cherche l’émission de selles molles ou liquides plus fréquentes que d’habitude."
+       ],
+       "y": "L’émission de selles molles ou liquides plus fréquentes que d’habitude."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-27-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un texte de santé associe cette maladie à un parasite et à des moustiques infectés.\nQuel terme s’applique le mieux ?",
+       "r": "paludisme",
+       "w": [
+        "grippe",
+        "fièvre",
+        "diarrhée"
+       ],
+       "e": [
+        "« grippe » concerne une infection respiratoire causée par des virus grippaux. Le cas décrit plutôt la maladie parasitaire transmise notamment par certains moustiques infectés.",
+        "« fièvre » concerne un symptôme d’élévation de la température corporelle. Le cas décrit plutôt la maladie parasitaire transmise notamment par certains moustiques infectés.",
+        "« diarrhée » concerne l’émission de selles molles ou liquides plus fréquentes que d’habitude. Le cas décrit plutôt la maladie parasitaire transmise notamment par certains moustiques infectés."
+       ],
+       "y": "Un texte de santé associe cette maladie à un parasite et à des moustiques infectés. La maladie parasitaire transmise notamment par certains moustiques infectés."
+      },
+      {
+       "q": "Le document distingue une infection respiratoire virale de la maladie parasitaire.\nQuel terme s’applique le mieux ?",
+       "r": "grippe",
+       "w": [
+        "paludisme",
+        "fièvre",
+        "diarrhée"
+       ],
+       "e": [
+        "« paludisme » concerne la maladie parasitaire transmise notamment par certains moustiques infectés. Le cas décrit plutôt une infection respiratoire causée par des virus grippaux.",
+        "« fièvre » concerne un symptôme d’élévation de la température corporelle. Le cas décrit plutôt une infection respiratoire causée par des virus grippaux.",
+        "« diarrhée » concerne l’émission de selles molles ou liquides plus fréquentes que d’habitude. Le cas décrit plutôt une infection respiratoire causée par des virus grippaux."
+       ],
+       "y": "Le document distingue une infection respiratoire virale de la maladie parasitaire. Une infection respiratoire causée par des virus grippaux."
+      },
+      {
+       "q": "Le dialogue relève un symptôme thermique sans poser de diagnostic.\nQuel terme s’applique le mieux ?",
+       "r": "fièvre",
+       "w": [
+        "paludisme",
+        "grippe",
+        "diarrhée"
+       ],
+       "e": [
+        "« paludisme » concerne la maladie parasitaire transmise notamment par certains moustiques infectés. Le cas décrit plutôt un symptôme d’élévation de la température corporelle.",
+        "« grippe » concerne une infection respiratoire causée par des virus grippaux. Le cas décrit plutôt un symptôme d’élévation de la température corporelle.",
+        "« diarrhée » concerne l’émission de selles molles ou liquides plus fréquentes que d’habitude. Le cas décrit plutôt un symptôme d’élévation de la température corporelle."
+       ],
+       "y": "Le dialogue relève un symptôme thermique sans poser de diagnostic. Un symptôme d’élévation de la température corporelle."
+      },
+      {
+       "q": "Le lecteur identifie ce terme dans un document sans choisir de traitement.\nQuel terme s’applique le mieux ?",
+       "r": "diarrhée",
+       "w": [
+        "paludisme",
+        "grippe",
+        "fièvre"
+       ],
+       "e": [
+        "« paludisme » concerne la maladie parasitaire transmise notamment par certains moustiques infectés. Le cas décrit plutôt l’émission de selles molles ou liquides plus fréquentes que d’habitude.",
+        "« grippe » concerne une infection respiratoire causée par des virus grippaux. Le cas décrit plutôt l’émission de selles molles ou liquides plus fréquentes que d’habitude.",
+        "« fièvre » concerne un symptôme d’élévation de la température corporelle. Le cas décrit plutôt l’émission de selles molles ou liquides plus fréquentes que d’habitude."
+       ],
+       "y": "Le lecteur identifie ce terme dans un document sans choisir de traitement. L’émission de selles molles ou liquides plus fréquentes que d’habitude."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-27-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un texte de santé associe cette maladie à un parasite et à des moustiques infectés.\nQuelle explication justifie le classement ?",
+       "r": "La maladie parasitaire transmise notamment par certains moustiques infectés.",
+       "w": [
+        "Une infection respiratoire causée par des virus grippaux.",
+        "Un symptôme d’élévation de la température corporelle.",
+        "L’émission de selles molles ou liquides plus fréquentes que d’habitude."
+       ],
+       "e": [
+        "Cette explication correspond à « grippe ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « fièvre ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diarrhée ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Il s’agit d’une maladie parasitaire, pas d’un comportement moral."
+      },
+      {
+       "q": "Le document distingue une infection respiratoire virale de la maladie parasitaire.\nQuelle explication justifie le classement ?",
+       "r": "Une infection respiratoire causée par des virus grippaux.",
+       "w": [
+        "La maladie parasitaire transmise notamment par certains moustiques infectés.",
+        "Un symptôme d’élévation de la température corporelle.",
+        "L’émission de selles molles ou liquides plus fréquentes que d’habitude."
+       ],
+       "e": [
+        "Cette explication correspond à « paludisme ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « fièvre ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diarrhée ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le mot désigne une infection particulière, pas toute maladie."
+      },
+      {
+       "q": "Le dialogue relève un symptôme thermique sans poser de diagnostic.\nQuelle explication justifie le classement ?",
+       "r": "Un symptôme d’élévation de la température corporelle.",
+       "w": [
+        "La maladie parasitaire transmise notamment par certains moustiques infectés.",
+        "Une infection respiratoire causée par des virus grippaux.",
+        "L’émission de selles molles ou liquides plus fréquentes que d’habitude."
+       ],
+       "e": [
+        "Cette explication correspond à « paludisme ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « grippe ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diarrhée ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Plusieurs affections peuvent provoquer une fièvre."
+      },
+      {
+       "q": "Le lecteur identifie ce terme dans un document sans choisir de traitement.\nQuelle explication justifie le classement ?",
+       "r": "L’émission de selles molles ou liquides plus fréquentes que d’habitude.",
+       "w": [
+        "La maladie parasitaire transmise notamment par certains moustiques infectés.",
+        "Une infection respiratoire causée par des virus grippaux.",
+        "Un symptôme d’élévation de la température corporelle."
+       ],
+       "e": [
+        "Cette explication correspond à « paludisme ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « grippe ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « fièvre ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le terme concerne les selles, pas une douleur du bras."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-27-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "paludisme",
+     "right": "Un texte de santé associe cette maladie à un parasite et à des moustiques infectés."
+    },
+    {
+     "left": "grippe",
+     "right": "Le document distingue une infection respiratoire virale de la maladie parasitaire."
+    },
+    {
+     "left": "fièvre",
+     "right": "Le dialogue relève un symptôme thermique sans poser de diagnostic."
+    },
+    {
+     "left": "diarrhée",
+     "right": "Le lecteur identifie ce terme dans un document sans choisir de traitement."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-27-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "paludisme : la maladie parasitaire transmise notamment par certains moustiques infectés.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : paludisme désigne la maladie parasitaire transmise notamment par certains moustiques infectés. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "grippe : une infection respiratoire causée par des virus grippaux.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : grippe désigne une infection respiratoire causée par des virus grippaux. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "fièvre : un symptôme d’élévation de la température corporelle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : fièvre désigne un symptôme d’élévation de la température corporelle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "diarrhée : l’émission de selles molles ou liquides plus fréquentes que d’habitude.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : diarrhée désigne l’émission de selles molles ou liquides plus fréquentes que d’habitude. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le paludisme est nécessairement causé par un manque de politesse.",
+      "truth": "false",
+      "explain": "Il s’agit d’une maladie parasitaire, pas d’un comportement moral."
+     },
+     {
+      "text": "La grippe est le nom de toutes les maladies sans exception.",
+      "truth": "false",
+      "explain": "Le mot désigne une infection particulière, pas toute maladie."
+     },
+     {
+      "text": "La fièvre prouve toujours à elle seule une maladie unique.",
+      "truth": "false",
+      "explain": "Plusieurs affections peuvent provoquer une fièvre."
+     },
+     {
+      "text": "Le mot diarrhée désigne exclusivement une douleur du bras.",
+      "truth": "false",
+      "explain": "Le terme concerne les selles, pas une douleur du bras."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

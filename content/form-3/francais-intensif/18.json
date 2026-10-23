@@ -1,0 +1,561 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 18,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-18",
+   "name": "Le présent des verbes du troisième groupe"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le troisième groupe rassemble des verbes de modèles variés. Il ne possède pas une seule série de terminaisons qui fonctionnerait pour tous. Apprends les formes par familles et par personnes : aller, faire, prendre, venir et lire ne gardent pas tous le même radical. Une irrégularité n’autorise pas à deviner n’importe quelle forme. Les verbes choisis sont présents dans la bibliothèque de conjugaison de l’application.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Le troisième groupe rassemble des verbes de modèles variés. Il ne possède pas une seule série de terminaisons qui fonctionnerait pour tous. Apprends les formes par familles et par personnes : aller, faire, prendre, venir et lire ne gardent pas tous le même radical. Une irrégularité n’autorise pas à deviner n’importe quelle forme. Les verbes choisis sont présents dans la bibliothèque de conjugaison de l’application."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Compare {fr2With(0,fr2Present('aller',0))} et {fr2With(4,fr2Present('aller',4))} ; puis {fr2With(0,fr2Present('prendre',0))} et {fr2With(4,fr2Present('prendre',4))}. La variation touche la base et la terminaison. Reconnaître le sujet reste nécessaire même lorsqu’on connaît le sens du verbe."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Trouve l’infinitif et le sujet. Choisis la base et la terminaison propres à ce verbe, puis relis le groupe complet. Une terminaison d’un autre sujet ne convient pas uniquement parce qu’elle se prononce de façon proche. Les modèles sont calculés par les bibliothèques de conjugaison."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "aller",
+    "meaning": "le modèle illustré par vais et allons"
+   },
+   {
+    "word": "faire",
+    "meaning": "le modèle illustré par fais et faites"
+   },
+   {
+    "word": "prendre",
+    "meaning": "le modèle présentant pren- aux personnes concernées"
+   },
+   {
+    "word": "venir",
+    "meaning": "le modèle illustré par viens et venons"
+   }
+  ],
+  "examples": [
+   "Avec nous : {fr2Present('aller',4)}.",
+   "Avec vous : {fr2Present('faire',5)}.",
+   "Avec nous : {fr2Present('prendre',4)}."
+  ],
+  "mistake": {
+   "wrong": "Aller se conjugue obligatoirement comme parler au présent.",
+   "right": "aller: le modèle illustré par vais et allons.",
+   "why": "Aller possède un modèle particulier."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Avec nous : {fr2Present('aller',4)}. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le modèle illustré par vais et allons.",
+   "Aller possède un modèle particulier."
+  ],
+  "answer": "aller",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-18-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "aller: le modèle illustré par vais et allons.",
+     "faire: le modèle illustré par fais et faites.",
+     "prendre: le modèle présentant pren- aux personnes concernées.",
+     "venir: le modèle illustré par viens et venons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-18-terms"
+    }
+   },
+   {
+    "id": "cfi3-18-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Avec nous : {fr2Present('aller',4)}.",
+     "aller: le modèle illustré par vais et allons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-18-cases"
+    }
+   },
+   {
+    "id": "cfi3-18-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Aller se conjugue obligatoirement comme parler au présent.",
+     "Aller possède un modèle particulier."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-18-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "aller : le modèle illustré par vais et allons.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : aller désigne le modèle illustré par vais et allons. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "faire : le modèle illustré par fais et faites.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : faire désigne le modèle illustré par fais et faites. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "prendre : le modèle présentant pren- aux personnes concernées.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : prendre désigne le modèle présentant pren- aux personnes concernées. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "venir : le modèle illustré par viens et venons.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : venir désigne le modèle illustré par viens et venons. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Aller se conjugue obligatoirement comme parler au présent.",
+        "truth": "false",
+        "explain": "Aller possède un modèle particulier."
+       },
+       {
+        "text": "Vous au présent de faire donne faisez.",
+        "truth": "false",
+        "explain": "La forme est particulière et se vérifie dans le modèle."
+       },
+       {
+        "text": "Nous au présent de prendre donne prendons.",
+        "truth": "false",
+        "explain": "Le modèle utilise prenons."
+       },
+       {
+        "text": "Venir suit obligatoirement le même modèle que finir.",
+        "truth": "false",
+        "explain": "Venir ne forme pas venissons dans ce modèle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-18-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le modèle illustré par vais et allons ?",
+       "r": "aller",
+       "w": [
+        "faire",
+        "prendre",
+        "venir"
+       ],
+       "e": [
+        "« faire » désigne le modèle illustré par fais et faites. Ici, cherche le modèle illustré par vais et allons.",
+        "« prendre » désigne le modèle présentant pren- aux personnes concernées. Ici, cherche le modèle illustré par vais et allons.",
+        "« venir » désigne le modèle illustré par viens et venons. Ici, cherche le modèle illustré par vais et allons."
+       ],
+       "y": "Le modèle illustré par vais et allons."
+      },
+      {
+       "q": "Quel terme désigne : le modèle illustré par fais et faites ?",
+       "r": "faire",
+       "w": [
+        "aller",
+        "prendre",
+        "venir"
+       ],
+       "e": [
+        "« aller » désigne le modèle illustré par vais et allons. Ici, cherche le modèle illustré par fais et faites.",
+        "« prendre » désigne le modèle présentant pren- aux personnes concernées. Ici, cherche le modèle illustré par fais et faites.",
+        "« venir » désigne le modèle illustré par viens et venons. Ici, cherche le modèle illustré par fais et faites."
+       ],
+       "y": "Le modèle illustré par fais et faites."
+      },
+      {
+       "q": "Quel terme désigne : le modèle présentant pren- aux personnes concernées ?",
+       "r": "prendre",
+       "w": [
+        "aller",
+        "faire",
+        "venir"
+       ],
+       "e": [
+        "« aller » désigne le modèle illustré par vais et allons. Ici, cherche le modèle présentant pren- aux personnes concernées.",
+        "« faire » désigne le modèle illustré par fais et faites. Ici, cherche le modèle présentant pren- aux personnes concernées.",
+        "« venir » désigne le modèle illustré par viens et venons. Ici, cherche le modèle présentant pren- aux personnes concernées."
+       ],
+       "y": "Le modèle présentant pren- aux personnes concernées."
+      },
+      {
+       "q": "Quel terme désigne : le modèle illustré par viens et venons ?",
+       "r": "venir",
+       "w": [
+        "aller",
+        "faire",
+        "prendre"
+       ],
+       "e": [
+        "« aller » désigne le modèle illustré par vais et allons. Ici, cherche le modèle illustré par viens et venons.",
+        "« faire » désigne le modèle illustré par fais et faites. Ici, cherche le modèle illustré par viens et venons.",
+        "« prendre » désigne le modèle présentant pren- aux personnes concernées. Ici, cherche le modèle illustré par viens et venons."
+       ],
+       "y": "Le modèle illustré par viens et venons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-18-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Avec nous : {fr2Present('aller',4)}.\nQuel terme s’applique le mieux ?",
+       "r": "aller",
+       "w": [
+        "faire",
+        "prendre",
+        "venir"
+       ],
+       "e": [
+        "« faire » concerne le modèle illustré par fais et faites. Le cas décrit plutôt le modèle illustré par vais et allons.",
+        "« prendre » concerne le modèle présentant pren- aux personnes concernées. Le cas décrit plutôt le modèle illustré par vais et allons.",
+        "« venir » concerne le modèle illustré par viens et venons. Le cas décrit plutôt le modèle illustré par vais et allons."
+       ],
+       "y": "Avec nous : {fr2Present('aller',4)}. Le modèle illustré par vais et allons."
+      },
+      {
+       "q": "Avec vous : {fr2Present('faire',5)}.\nQuel terme s’applique le mieux ?",
+       "r": "faire",
+       "w": [
+        "aller",
+        "prendre",
+        "venir"
+       ],
+       "e": [
+        "« aller » concerne le modèle illustré par vais et allons. Le cas décrit plutôt le modèle illustré par fais et faites.",
+        "« prendre » concerne le modèle présentant pren- aux personnes concernées. Le cas décrit plutôt le modèle illustré par fais et faites.",
+        "« venir » concerne le modèle illustré par viens et venons. Le cas décrit plutôt le modèle illustré par fais et faites."
+       ],
+       "y": "Avec vous : {fr2Present('faire',5)}. Le modèle illustré par fais et faites."
+      },
+      {
+       "q": "Avec nous : {fr2Present('prendre',4)}.\nQuel terme s’applique le mieux ?",
+       "r": "prendre",
+       "w": [
+        "aller",
+        "faire",
+        "venir"
+       ],
+       "e": [
+        "« aller » concerne le modèle illustré par vais et allons. Le cas décrit plutôt le modèle présentant pren- aux personnes concernées.",
+        "« faire » concerne le modèle illustré par fais et faites. Le cas décrit plutôt le modèle présentant pren- aux personnes concernées.",
+        "« venir » concerne le modèle illustré par viens et venons. Le cas décrit plutôt le modèle présentant pren- aux personnes concernées."
+       ],
+       "y": "Avec nous : {fr2Present('prendre',4)}. Le modèle présentant pren- aux personnes concernées."
+      },
+      {
+       "q": "Avec nous : {fr2Present('venir',4)}.\nQuel terme s’applique le mieux ?",
+       "r": "venir",
+       "w": [
+        "aller",
+        "faire",
+        "prendre"
+       ],
+       "e": [
+        "« aller » concerne le modèle illustré par vais et allons. Le cas décrit plutôt le modèle illustré par viens et venons.",
+        "« faire » concerne le modèle illustré par fais et faites. Le cas décrit plutôt le modèle illustré par viens et venons.",
+        "« prendre » concerne le modèle présentant pren- aux personnes concernées. Le cas décrit plutôt le modèle illustré par viens et venons."
+       ],
+       "y": "Avec nous : {fr2Present('venir',4)}. Le modèle illustré par viens et venons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-18-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aller",
+      "faire",
+      "prendre",
+      "venir",
+      "lire"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2Present(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2Present(v,(p+1)%8))}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{fr2With(p,fr2Present(v,(p+4)%8))}",
+     "misconception": "autre"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "infinitif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette terminaison appartient à un autre sujet ; garde la personne demandée."
+    },
+    {
+     "id": "autre",
+     "explain": "Tu as appliqué la forme d’une autre personne grammaticale."
+    },
+    {
+     "id": "infinitif",
+     "explain": "Tu as conservé l’infinitif au lieu de conjuguer le verbe."
+    }
+   ],
+   "solution": [
+    "Repère le sujet {fr2Pronoun(p)} et le verbe {v}.",
+    "La forme au présent est {answer}."
+   ],
+   "where": [
+    "fr2Present(v,p) != fr2Present(v,(p+1)%8)",
+    "fr2Present(v,p) != fr2Present(v,(p+4)%8)",
+    "fr2Present(v,(p+1)%8) != fr2Present(v,(p+4)%8)"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-18-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "aller",
+     "right": "Avec nous : {fr2Present('aller',4)}."
+    },
+    {
+     "left": "faire",
+     "right": "Avec vous : {fr2Present('faire',5)}."
+    },
+    {
+     "left": "prendre",
+     "right": "Avec nous : {fr2Present('prendre',4)}."
+    },
+    {
+     "left": "venir",
+     "right": "Avec nous : {fr2Present('venir',4)}."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-18-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "aller : le modèle illustré par vais et allons.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : aller désigne le modèle illustré par vais et allons. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "faire : le modèle illustré par fais et faites.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : faire désigne le modèle illustré par fais et faites. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "prendre : le modèle présentant pren- aux personnes concernées.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : prendre désigne le modèle présentant pren- aux personnes concernées. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "venir : le modèle illustré par viens et venons.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : venir désigne le modèle illustré par viens et venons. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Aller se conjugue obligatoirement comme parler au présent.",
+      "truth": "false",
+      "explain": "Aller possède un modèle particulier."
+     },
+     {
+      "text": "Vous au présent de faire donne faisez.",
+      "truth": "false",
+      "explain": "La forme est particulière et se vérifie dans le modèle."
+     },
+     {
+      "text": "Nous au présent de prendre donne prendons.",
+      "truth": "false",
+      "explain": "Le modèle utilise prenons."
+     },
+     {
+      "text": "Venir suit obligatoirement le même modèle que finir.",
+      "truth": "false",
+      "explain": "Venir ne forme pas venissons dans ce modèle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 44,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-44",
+   "name": "Les déterminants interrogatifs quel, quelle, quels et quelles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Quel, quelle, quels et quelles accompagnent un nom dans une question et s’accordent avec lui. La tradition scolaire les appelle souvent adjectifs interrogatifs ; la grammaire actuelle parle de déterminants interrogatifs. Le genre vient du nom et le nombre de la situation décrite. Ne les confonds pas avec qu’elle, contraction de que et elle dans une autre construction. La prononciation seule ne suffit pas à choisir la graphie.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Quel, quelle, quels et quelles accompagnent un nom dans une question et s’accordent avec lui. La tradition scolaire les appelle souvent adjectifs interrogatifs ; la grammaire actuelle parle de déterminants interrogatifs. Le genre vient du nom et le nombre de la situation décrite. Ne les confonds pas avec qu’elle, contraction de que et elle dans une autre construction. La prononciation seule ne suffit pas à choisir la graphie."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Quel livre ? Quelle activité ? Quels livres ? Quelles activités ? Ces groupes portent les marques du nom qu’ils introduisent. Le choix ne dépend pas du genre de la personne qui pose la question. Une élève peut demander quel livre, car livre reste masculin."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère le nom, trouve son genre et son nombre puis choisis la forme correspondante. Si tu vois qu’elle, vérifie s’il s’agit au contraire de que suivi du pronom elle. Dans l’exercice, les noms sont donnés pour rendre le choix explicite."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quel",
+    "meaning": "la forme interrogative masculine singulière"
+   },
+   {
+    "word": "quelle",
+    "meaning": "la forme interrogative féminine singulière"
+   },
+   {
+    "word": "quels",
+    "meaning": "la forme interrogative masculine plurielle"
+   },
+   {
+    "word": "quelles",
+    "meaning": "la forme interrogative féminine plurielle"
+   }
+  ],
+  "examples": [
+   "Quel livre accompagne livre au singulier.",
+   "Quelle activité accompagne activité au singulier.",
+   "Quels livres accompagne livres au pluriel."
+  ],
+  "mistake": {
+   "wrong": "Quel doit prendre un e parce que la personne qui questionne est une fille.",
+   "right": "quel: la forme interrogative masculine singulière.",
+   "why": "L’accord dépend du nom livre, pas du locuteur."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel livre accompagne livre au singulier. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "La forme interrogative masculine singulière.",
+   "L’accord dépend du nom livre, pas du locuteur."
+  ],
+  "answer": "quel",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-44-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "quel: la forme interrogative masculine singulière.",
+     "quelle: la forme interrogative féminine singulière.",
+     "quels: la forme interrogative masculine plurielle.",
+     "quelles: la forme interrogative féminine plurielle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-44-terms"
+    }
+   },
+   {
+    "id": "cfi3-44-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Quel livre accompagne livre au singulier.",
+     "quel: la forme interrogative masculine singulière."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-44-cases"
+    }
+   },
+   {
+    "id": "cfi3-44-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Quel doit prendre un e parce que la personne qui questionne est une fille.",
+     "L’accord dépend du nom livre, pas du locuteur."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-44-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "quel : la forme interrogative masculine singulière.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : quel désigne la forme interrogative masculine singulière. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "quelle : la forme interrogative féminine singulière.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : quelle désigne la forme interrogative féminine singulière. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "quels : la forme interrogative masculine plurielle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : quels désigne la forme interrogative masculine plurielle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "quelles : la forme interrogative féminine plurielle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : quelles désigne la forme interrogative féminine plurielle. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Quel doit prendre un e parce que la personne qui questionne est une fille.",
+        "truth": "false",
+        "explain": "L’accord dépend du nom livre, pas du locuteur."
+       },
+       {
+        "text": "Quelle est obligatoirement masculin pluriel.",
+        "truth": "false",
+        "explain": "Cette forme est féminin singulier."
+       },
+       {
+        "text": "Quels ne peut accompagner qu’un nom féminin singulier.",
+        "truth": "false",
+        "explain": "La forme marque masculin et pluriel."
+       },
+       {
+        "text": "Quelles signifie toujours que suivi du pronom elles.",
+        "truth": "false",
+        "explain": "Ici c’est un déterminant interrogatif accordé avec activités."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-44-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : la forme interrogative masculine singulière ?",
+       "r": "quel",
+       "w": [
+        "quelle",
+        "quels",
+        "quelles"
+       ],
+       "e": [
+        "« quelle » désigne la forme interrogative féminine singulière. Ici, cherche la forme interrogative masculine singulière.",
+        "« quels » désigne la forme interrogative masculine plurielle. Ici, cherche la forme interrogative masculine singulière.",
+        "« quelles » désigne la forme interrogative féminine plurielle. Ici, cherche la forme interrogative masculine singulière."
+       ],
+       "y": "La forme interrogative masculine singulière."
+      },
+      {
+       "q": "Quel terme désigne : la forme interrogative féminine singulière ?",
+       "r": "quelle",
+       "w": [
+        "quel",
+        "quels",
+        "quelles"
+       ],
+       "e": [
+        "« quel » désigne la forme interrogative masculine singulière. Ici, cherche la forme interrogative féminine singulière.",
+        "« quels » désigne la forme interrogative masculine plurielle. Ici, cherche la forme interrogative féminine singulière.",
+        "« quelles » désigne la forme interrogative féminine plurielle. Ici, cherche la forme interrogative féminine singulière."
+       ],
+       "y": "La forme interrogative féminine singulière."
+      },
+      {
+       "q": "Quel terme désigne : la forme interrogative masculine plurielle ?",
+       "r": "quels",
+       "w": [
+        "quel",
+        "quelle",
+        "quelles"
+       ],
+       "e": [
+        "« quel » désigne la forme interrogative masculine singulière. Ici, cherche la forme interrogative masculine plurielle.",
+        "« quelle » désigne la forme interrogative féminine singulière. Ici, cherche la forme interrogative masculine plurielle.",
+        "« quelles » désigne la forme interrogative féminine plurielle. Ici, cherche la forme interrogative masculine plurielle."
+       ],
+       "y": "La forme interrogative masculine plurielle."
+      },
+      {
+       "q": "Quel terme désigne : la forme interrogative féminine plurielle ?",
+       "r": "quelles",
+       "w": [
+        "quel",
+        "quelle",
+        "quels"
+       ],
+       "e": [
+        "« quel » désigne la forme interrogative masculine singulière. Ici, cherche la forme interrogative féminine plurielle.",
+        "« quelle » désigne la forme interrogative féminine singulière. Ici, cherche la forme interrogative féminine plurielle.",
+        "« quels » désigne la forme interrogative masculine plurielle. Ici, cherche la forme interrogative féminine plurielle."
+       ],
+       "y": "La forme interrogative féminine plurielle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-44-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel livre accompagne livre au singulier.\nQuel terme s’applique le mieux ?",
+       "r": "quel",
+       "w": [
+        "quelle",
+        "quels",
+        "quelles"
+       ],
+       "e": [
+        "« quelle » concerne la forme interrogative féminine singulière. Le cas décrit plutôt la forme interrogative masculine singulière.",
+        "« quels » concerne la forme interrogative masculine plurielle. Le cas décrit plutôt la forme interrogative masculine singulière.",
+        "« quelles » concerne la forme interrogative féminine plurielle. Le cas décrit plutôt la forme interrogative masculine singulière."
+       ],
+       "y": "Quel livre accompagne livre au singulier. La forme interrogative masculine singulière."
+      },
+      {
+       "q": "Quelle activité accompagne activité au singulier.\nQuel terme s’applique le mieux ?",
+       "r": "quelle",
+       "w": [
+        "quel",
+        "quels",
+        "quelles"
+       ],
+       "e": [
+        "« quel » concerne la forme interrogative masculine singulière. Le cas décrit plutôt la forme interrogative féminine singulière.",
+        "« quels » concerne la forme interrogative masculine plurielle. Le cas décrit plutôt la forme interrogative féminine singulière.",
+        "« quelles » concerne la forme interrogative féminine plurielle. Le cas décrit plutôt la forme interrogative féminine singulière."
+       ],
+       "y": "Quelle activité accompagne activité au singulier. La forme interrogative féminine singulière."
+      },
+      {
+       "q": "Quels livres accompagne livres au pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "quels",
+       "w": [
+        "quel",
+        "quelle",
+        "quelles"
+       ],
+       "e": [
+        "« quel » concerne la forme interrogative masculine singulière. Le cas décrit plutôt la forme interrogative masculine plurielle.",
+        "« quelle » concerne la forme interrogative féminine singulière. Le cas décrit plutôt la forme interrogative masculine plurielle.",
+        "« quelles » concerne la forme interrogative féminine plurielle. Le cas décrit plutôt la forme interrogative masculine plurielle."
+       ],
+       "y": "Quels livres accompagne livres au pluriel. La forme interrogative masculine plurielle."
+      },
+      {
+       "q": "Quelles activités accompagne activités au pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "quelles",
+       "w": [
+        "quel",
+        "quelle",
+        "quels"
+       ],
+       "e": [
+        "« quel » concerne la forme interrogative masculine singulière. Le cas décrit plutôt la forme interrogative féminine plurielle.",
+        "« quelle » concerne la forme interrogative féminine singulière. Le cas décrit plutôt la forme interrogative féminine plurielle.",
+        "« quels » concerne la forme interrogative masculine plurielle. Le cas décrit plutôt la forme interrogative féminine plurielle."
+       ],
+       "y": "Quelles activités accompagne activités au pluriel. La forme interrogative féminine plurielle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-44-accord",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : ___ livre choisis-tu ?",
+       "r": "Quel",
+       "w": [
+        "Quelle",
+        "Quels",
+        "Quelles"
+       ],
+       "e": [
+        "Livre est masculin, pas féminin.",
+        "Livre est singulier ici.",
+        "Cette forme change genre et nombre."
+       ],
+       "y": "Livre est masculin singulier."
+      },
+      {
+       "q": "Complète : ___ activité choisis-tu ?",
+       "r": "Quelle",
+       "w": [
+        "Quel",
+        "Quels",
+        "Quelles"
+       ],
+       "e": [
+        "Activité est féminin.",
+        "Cette forme change genre et nombre.",
+        "Activité est singulier ici."
+       ],
+       "y": "Activité est féminin singulier."
+      },
+      {
+       "q": "Complète : ___ livres choisis-tu ?",
+       "r": "Quels",
+       "w": [
+        "Quel",
+        "Quelle",
+        "Quelles"
+       ],
+       "e": [
+        "Livres est pluriel.",
+        "Cette forme change genre et nombre.",
+        "Livres est masculin."
+       ],
+       "y": "Livres est masculin pluriel."
+      },
+      {
+       "q": "Complète : ___ activités choisis-tu ?",
+       "r": "Quelles",
+       "w": [
+        "Quel",
+        "Quelle",
+        "Quels"
+       ],
+       "e": [
+        "Cette forme change genre et nombre.",
+        "Activités est pluriel.",
+        "Activités est féminin."
+       ],
+       "y": "Activités est féminin pluriel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-44-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "quel",
+     "right": "Quel livre accompagne livre au singulier."
+    },
+    {
+     "left": "quelle",
+     "right": "Quelle activité accompagne activité au singulier."
+    },
+    {
+     "left": "quels",
+     "right": "Quels livres accompagne livres au pluriel."
+    },
+    {
+     "left": "quelles",
+     "right": "Quelles activités accompagne activités au pluriel."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-44-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "quel : la forme interrogative masculine singulière.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : quel désigne la forme interrogative masculine singulière. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "quelle : la forme interrogative féminine singulière.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : quelle désigne la forme interrogative féminine singulière. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "quels : la forme interrogative masculine plurielle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : quels désigne la forme interrogative masculine plurielle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "quelles : la forme interrogative féminine plurielle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : quelles désigne la forme interrogative féminine plurielle. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Quel doit prendre un e parce que la personne qui questionne est une fille.",
+      "truth": "false",
+      "explain": "L’accord dépend du nom livre, pas du locuteur."
+     },
+     {
+      "text": "Quelle est obligatoirement masculin pluriel.",
+      "truth": "false",
+      "explain": "Cette forme est féminin singulier."
+     },
+     {
+      "text": "Quels ne peut accompagner qu’un nom féminin singulier.",
+      "truth": "false",
+      "explain": "La forme marque masculin et pluriel."
+     },
+     {
+      "text": "Quelles signifie toujours que suivi du pronom elles.",
+      "truth": "false",
+      "explain": "Ici c’est un déterminant interrogatif accordé avec activités."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

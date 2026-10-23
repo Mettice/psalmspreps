@@ -1,0 +1,561 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 38,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-38",
+   "name": "L’accord des adjectifs de couleur"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un adjectif de couleur simple comme bleu ou vert s’accorde généralement avec le nom. Certains noms employés comme couleurs, notamment orange et marron, restent invariables dans les modèles usuels. Rose est une exception qui s’accorde. Une couleur composée, comme bleu clair, reste généralement invariable. Ne décide pas à partir du seul nombre d’objets : vérifie la nature de l’expression de couleur et ses exceptions.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Un adjectif de couleur simple comme bleu ou vert s’accorde généralement avec le nom. Certains noms employés comme couleurs, notamment orange et marron, restent invariables dans les modèles usuels. Rose est une exception qui s’accorde. Une couleur composée, comme bleu clair, reste généralement invariable. Ne décide pas à partir du seul nombre d’objets : vérifie la nature de l’expression de couleur et ses exceptions."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Compare une robe {fr2Adj('bleu','f',false)}, des robes {fr2Adj('bleu','f',true)}, des tissus {fr2Adj('orange','m',true)} et des robes {fr2Adj('rose','f',true)}. La couleur composée bleu clair ne prend pas de marques dans des robes bleu clair. La ressemblance avec un nom de fruit ne fournit pas une règle sans exception."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Identifie le nom, son genre et son nombre. Demande ensuite si la couleur est un adjectif simple variable, un nom de couleur invariable ou une expression composée. Vérifie notamment rose au lieu d’appliquer aveuglément la règle des noms employés comme couleurs."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "adjectif simple variable",
+    "meaning": "une couleur simple recevant l’accord dans le modèle bleu"
+   },
+   {
+    "word": "nom de couleur invariable",
+    "meaning": "le modèle illustré par orange et marron"
+   },
+   {
+    "word": "exception rose",
+    "meaning": "un mot de couleur d’origine nominale qui s’accorde"
+   },
+   {
+    "word": "couleur composée",
+    "meaning": "une expression de couleur généralement invariable comme bleu clair"
+   }
+  ],
+  "examples": [
+   "Des robes {fr2Adj('bleu','f',true)} portent féminin et pluriel.",
+   "Des tissus {fr2Adj('orange','m',true)} conservent orange.",
+   "Des robes {fr2Adj('rose','f',true)} prennent le pluriel."
+  ],
+  "mistake": {
+   "wrong": "Bleu reste toujours invariable même lorsqu’il est adjectif simple.",
+   "right": "adjectif simple variable: une couleur simple recevant l’accord dans le modèle bleu.",
+   "why": "Bleu adjectif simple s’accorde ici avec robes."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Des robes {fr2Adj('bleu','f',true)} portent féminin et pluriel. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Une couleur simple recevant l’accord dans le modèle bleu.",
+   "Bleu adjectif simple s’accorde ici avec robes."
+  ],
+  "answer": "adjectif simple variable",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-38-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "adjectif simple variable: une couleur simple recevant l’accord dans le modèle bleu.",
+     "nom de couleur invariable: le modèle illustré par orange et marron.",
+     "exception rose: un mot de couleur d’origine nominale qui s’accorde.",
+     "couleur composée: une expression de couleur généralement invariable comme bleu clair."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-38-terms"
+    }
+   },
+   {
+    "id": "cfi3-38-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Des robes {fr2Adj('bleu','f',true)} portent féminin et pluriel.",
+     "adjectif simple variable: une couleur simple recevant l’accord dans le modèle bleu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-38-cases"
+    }
+   },
+   {
+    "id": "cfi3-38-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Bleu reste toujours invariable même lorsqu’il est adjectif simple.",
+     "Bleu adjectif simple s’accorde ici avec robes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-38-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "adjectif simple variable : une couleur simple recevant l’accord dans le modèle bleu.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : adjectif simple variable désigne une couleur simple recevant l’accord dans le modèle bleu. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "nom de couleur invariable : le modèle illustré par orange et marron.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : nom de couleur invariable désigne le modèle illustré par orange et marron. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "exception rose : un mot de couleur d’origine nominale qui s’accorde.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : exception rose désigne un mot de couleur d’origine nominale qui s’accorde. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "couleur composée : une expression de couleur généralement invariable comme bleu clair.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : couleur composée désigne une expression de couleur généralement invariable comme bleu clair. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Bleu reste toujours invariable même lorsqu’il est adjectif simple.",
+        "truth": "false",
+        "explain": "Bleu adjectif simple s’accorde ici avec robes."
+       },
+       {
+        "text": "Orange prend obligatoirement un s dans tous ses emplois de couleur.",
+        "truth": "false",
+        "explain": "Employé seul comme nom de couleur dans ce modèle, orange est invariable."
+       },
+       {
+        "text": "Rose est nécessairement invariable comme orange.",
+        "truth": "false",
+        "explain": "Rose fait partie des exceptions qui s’accordent."
+       },
+       {
+        "text": "Bleu clair doit obligatoirement devenir bleues claires dans cet emploi.",
+        "truth": "false",
+        "explain": "La couleur composée reste invariable dans ce modèle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-38-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : une couleur simple recevant l’accord dans le modèle bleu ?",
+       "r": "adjectif simple variable",
+       "w": [
+        "nom de couleur invariable",
+        "exception rose",
+        "couleur composée"
+       ],
+       "e": [
+        "« nom de couleur invariable » désigne le modèle illustré par orange et marron. Ici, cherche une couleur simple recevant l’accord dans le modèle bleu.",
+        "« exception rose » désigne un mot de couleur d’origine nominale qui s’accorde. Ici, cherche une couleur simple recevant l’accord dans le modèle bleu.",
+        "« couleur composée » désigne une expression de couleur généralement invariable comme bleu clair. Ici, cherche une couleur simple recevant l’accord dans le modèle bleu."
+       ],
+       "y": "Une couleur simple recevant l’accord dans le modèle bleu."
+      },
+      {
+       "q": "Quel terme désigne : le modèle illustré par orange et marron ?",
+       "r": "nom de couleur invariable",
+       "w": [
+        "adjectif simple variable",
+        "exception rose",
+        "couleur composée"
+       ],
+       "e": [
+        "« adjectif simple variable » désigne une couleur simple recevant l’accord dans le modèle bleu. Ici, cherche le modèle illustré par orange et marron.",
+        "« exception rose » désigne un mot de couleur d’origine nominale qui s’accorde. Ici, cherche le modèle illustré par orange et marron.",
+        "« couleur composée » désigne une expression de couleur généralement invariable comme bleu clair. Ici, cherche le modèle illustré par orange et marron."
+       ],
+       "y": "Le modèle illustré par orange et marron."
+      },
+      {
+       "q": "Quel terme désigne : un mot de couleur d’origine nominale qui s’accorde ?",
+       "r": "exception rose",
+       "w": [
+        "adjectif simple variable",
+        "nom de couleur invariable",
+        "couleur composée"
+       ],
+       "e": [
+        "« adjectif simple variable » désigne une couleur simple recevant l’accord dans le modèle bleu. Ici, cherche un mot de couleur d’origine nominale qui s’accorde.",
+        "« nom de couleur invariable » désigne le modèle illustré par orange et marron. Ici, cherche un mot de couleur d’origine nominale qui s’accorde.",
+        "« couleur composée » désigne une expression de couleur généralement invariable comme bleu clair. Ici, cherche un mot de couleur d’origine nominale qui s’accorde."
+       ],
+       "y": "Un mot de couleur d’origine nominale qui s’accorde."
+      },
+      {
+       "q": "Quel terme désigne : une expression de couleur généralement invariable comme bleu clair ?",
+       "r": "couleur composée",
+       "w": [
+        "adjectif simple variable",
+        "nom de couleur invariable",
+        "exception rose"
+       ],
+       "e": [
+        "« adjectif simple variable » désigne une couleur simple recevant l’accord dans le modèle bleu. Ici, cherche une expression de couleur généralement invariable comme bleu clair.",
+        "« nom de couleur invariable » désigne le modèle illustré par orange et marron. Ici, cherche une expression de couleur généralement invariable comme bleu clair.",
+        "« exception rose » désigne un mot de couleur d’origine nominale qui s’accorde. Ici, cherche une expression de couleur généralement invariable comme bleu clair."
+       ],
+       "y": "Une expression de couleur généralement invariable comme bleu clair."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-38-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Des robes {fr2Adj('bleu','f',true)} portent féminin et pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "adjectif simple variable",
+       "w": [
+        "nom de couleur invariable",
+        "exception rose",
+        "couleur composée"
+       ],
+       "e": [
+        "« nom de couleur invariable » concerne le modèle illustré par orange et marron. Le cas décrit plutôt une couleur simple recevant l’accord dans le modèle bleu.",
+        "« exception rose » concerne un mot de couleur d’origine nominale qui s’accorde. Le cas décrit plutôt une couleur simple recevant l’accord dans le modèle bleu.",
+        "« couleur composée » concerne une expression de couleur généralement invariable comme bleu clair. Le cas décrit plutôt une couleur simple recevant l’accord dans le modèle bleu."
+       ],
+       "y": "Des robes {fr2Adj('bleu','f',true)} portent féminin et pluriel. Une couleur simple recevant l’accord dans le modèle bleu."
+      },
+      {
+       "q": "Des tissus {fr2Adj('orange','m',true)} conservent orange.\nQuel terme s’applique le mieux ?",
+       "r": "nom de couleur invariable",
+       "w": [
+        "adjectif simple variable",
+        "exception rose",
+        "couleur composée"
+       ],
+       "e": [
+        "« adjectif simple variable » concerne une couleur simple recevant l’accord dans le modèle bleu. Le cas décrit plutôt le modèle illustré par orange et marron.",
+        "« exception rose » concerne un mot de couleur d’origine nominale qui s’accorde. Le cas décrit plutôt le modèle illustré par orange et marron.",
+        "« couleur composée » concerne une expression de couleur généralement invariable comme bleu clair. Le cas décrit plutôt le modèle illustré par orange et marron."
+       ],
+       "y": "Des tissus {fr2Adj('orange','m',true)} conservent orange. Le modèle illustré par orange et marron."
+      },
+      {
+       "q": "Des robes {fr2Adj('rose','f',true)} prennent le pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "exception rose",
+       "w": [
+        "adjectif simple variable",
+        "nom de couleur invariable",
+        "couleur composée"
+       ],
+       "e": [
+        "« adjectif simple variable » concerne une couleur simple recevant l’accord dans le modèle bleu. Le cas décrit plutôt un mot de couleur d’origine nominale qui s’accorde.",
+        "« nom de couleur invariable » concerne le modèle illustré par orange et marron. Le cas décrit plutôt un mot de couleur d’origine nominale qui s’accorde.",
+        "« couleur composée » concerne une expression de couleur généralement invariable comme bleu clair. Le cas décrit plutôt un mot de couleur d’origine nominale qui s’accorde."
+       ],
+       "y": "Des robes {fr2Adj('rose','f',true)} prennent le pluriel. Un mot de couleur d’origine nominale qui s’accorde."
+      },
+      {
+       "q": "Des robes bleu clair ne marquent pas le pluriel dans la couleur.\nQuel terme s’applique le mieux ?",
+       "r": "couleur composée",
+       "w": [
+        "adjectif simple variable",
+        "nom de couleur invariable",
+        "exception rose"
+       ],
+       "e": [
+        "« adjectif simple variable » concerne une couleur simple recevant l’accord dans le modèle bleu. Le cas décrit plutôt une expression de couleur généralement invariable comme bleu clair.",
+        "« nom de couleur invariable » concerne le modèle illustré par orange et marron. Le cas décrit plutôt une expression de couleur généralement invariable comme bleu clair.",
+        "« exception rose » concerne un mot de couleur d’origine nominale qui s’accorde. Le cas décrit plutôt une expression de couleur généralement invariable comme bleu clair."
+       ],
+       "y": "Des robes bleu clair ne marquent pas le pluriel dans la couleur. Une expression de couleur généralement invariable comme bleu clair."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-38-couleur",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "bleu",
+      "vert",
+      "blanc",
+      "noir"
+     ]
+    },
+    "g": {
+     "pick": [
+      "m",
+      "f"
+     ]
+    },
+    "pl": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Accorde la couleur simple « {a} » au {fr2GenderNumber(g,pl)}.",
+   "correct": "{fr2Adj(a,g,pl)}",
+   "distractors": [
+    {
+     "text": "{fr2Adj(a,fr2OtherGender(g),pl)}",
+     "misconception": "genre"
+    },
+    {
+     "text": "{fr2Adj(a,g,!pl)}",
+     "misconception": "nombre"
+    },
+    {
+     "text": "{fr2Adj(a,fr2OtherGender(g),!pl)}",
+     "misconception": "deux"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "genre",
+     "explain": "Cette couleur ne porte pas le genre demandé."
+    },
+    {
+     "id": "nombre",
+     "explain": "Cette couleur ne porte pas le nombre demandé."
+    },
+    {
+     "id": "deux",
+     "explain": "Cette forme change à la fois le genre et le nombre."
+    }
+   ],
+   "solution": [
+    "Il s’agit d’un adjectif de couleur simple variable.",
+    "La forme attendue est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-38-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "adjectif simple variable",
+     "right": "Des robes {fr2Adj('bleu','f',true)} portent féminin et pluriel."
+    },
+    {
+     "left": "nom de couleur invariable",
+     "right": "Des tissus {fr2Adj('orange','m',true)} conservent orange."
+    },
+    {
+     "left": "exception rose",
+     "right": "Des robes {fr2Adj('rose','f',true)} prennent le pluriel."
+    },
+    {
+     "left": "couleur composée",
+     "right": "Des robes bleu clair ne marquent pas le pluriel dans la couleur."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-38-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "adjectif simple variable : une couleur simple recevant l’accord dans le modèle bleu.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : adjectif simple variable désigne une couleur simple recevant l’accord dans le modèle bleu. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "nom de couleur invariable : le modèle illustré par orange et marron.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : nom de couleur invariable désigne le modèle illustré par orange et marron. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "exception rose : un mot de couleur d’origine nominale qui s’accorde.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : exception rose désigne un mot de couleur d’origine nominale qui s’accorde. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "couleur composée : une expression de couleur généralement invariable comme bleu clair.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : couleur composée désigne une expression de couleur généralement invariable comme bleu clair. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bleu reste toujours invariable même lorsqu’il est adjectif simple.",
+      "truth": "false",
+      "explain": "Bleu adjectif simple s’accorde ici avec robes."
+     },
+     {
+      "text": "Orange prend obligatoirement un s dans tous ses emplois de couleur.",
+      "truth": "false",
+      "explain": "Employé seul comme nom de couleur dans ce modèle, orange est invariable."
+     },
+     {
+      "text": "Rose est nécessairement invariable comme orange.",
+      "truth": "false",
+      "explain": "Rose fait partie des exceptions qui s’accordent."
+     },
+     {
+      "text": "Bleu clair doit obligatoirement devenir bleues claires dans cet emploi.",
+      "truth": "false",
+      "explain": "La couleur composée reste invariable dans ce modèle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

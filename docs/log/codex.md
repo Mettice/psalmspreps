@@ -46,3 +46,11 @@ Append one entry per session (see docs/AUTHORING.md, section 10).
 - Checked: npm test — 5281 pass; extra checks — 29 pass; Edge at 360 × 800 — 29/29 clean, zero errors/overflow; inspected first Learn page, generated review documents. Adapted own browser wrapper to discover split Form Three build pages. Initial walks failed to find the former single page; rebuilt and reran successfully on split pages.
 - Not checked: real oral performance or teacher approval. See TR-french-1–6 for terminology, curriculum depth, oral support, health vocabulary and contextual facts. Built HTML/PDF files excluded.
 - Remaining: 31 clear Français intensif rows; 16 prescribed-literature rows need the selected works and two ambiguous pronominal/passive rows need teacher clarification. History row 10 still needs regional campaign detail from the approved course text.
+
+## 2026-10-23 — Form Three Français intensif, Term One
+
+- Authored 31 clear non-literature rows: 1, 2, 4, 6–8, 10–13, 15–18, 20–22, 25, 27–29, 32–34, 36–38, 43, 44, 47, 50. Each has Learn, five questions, 3+ actual content variants and specific feedback. Four writing tasks use original models and entirely fictional personal/health data. Forms are computed with existing helpers; no shared library/engine change was needed.
+- Pending 16 literature rows: 3, 5, 9, 14, 19, 23, 24, 30, 31, 35, 39, 41, 42, 46, 48, 49. Asked for prescribed titles/authors/chapters; no reply yet, so no invented substitute. Rows 40/45 pending teacher clarification by user instruction. Integration 26/51 excluded.
+- Checked: npm test — 5474 pass; independent eight-form s’exclamer check — pass; extra quality check — 31 pass; Edge at 360 × 800 — 31/31 clean, zero errors/overflow. Inspected first Learn page and generated review documents.
+- Not checked: teacher approval, real voice/listening, musical performance. Wording corrections, pronunciation model variation, terminology and health vocabulary limitations are recorded in TR-fi-1–7. No real medical data or treatment is requested.
+- All seven assigned subjects now have the authored, unblocked Term One rows pushed after subject checks. History row 10 still has an identified campaign-depth gap; investigating further primary/scholarly references before closing the session.

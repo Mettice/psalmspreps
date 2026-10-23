@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-1",
+   "name": "Les antonymes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les antonymes expriment des sens opposés sur un même aspect. Pour trouver un contraire, identifie le sens exact du mot dans la phrase. Une porte ouverte s’oppose à une porte fermée ; une personne ouverte peut demander une autre opposition. Certains contraires prennent un préfixe, d’autres sont des mots différents. Une simple ressemblance de lettres ou de son ne crée pas une opposition.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Les antonymes expriment des sens opposés sur un même aspect. Pour trouver un contraire, identifie le sens exact du mot dans la phrase. Une porte ouverte s’oppose à une porte fermée ; une personne ouverte peut demander une autre opposition. Certains contraires prennent un préfixe, d’autres sont des mots différents. Une simple ressemblance de lettres ou de son ne crée pas une opposition."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans une classe fictive de Buea, Bih compare une boîte pleine et une boîte vide, une porte ouverte et une porte fermée. Elle oppose ensuite un passage large à un passage étroit. Chaque paire conserve le même objet ou le même axe de comparaison."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis la phrase entière, relève les indices et compare les sens. Choisis un mot pour ce contexte, puis emploie-le dans une phrase originale. Un exemple n’autorise pas une généralisation à toutes les situations. Explique ton choix sans recopier une définition sans rapport."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "vide",
+    "meaning": "contraire de plein pour un récipient sans contenu"
+   },
+   {
+    "word": "fermé",
+    "meaning": "contraire d’ouvert pour une porte"
+   },
+   {
+    "word": "étroit",
+    "meaning": "contraire de large pour un passage"
+   },
+   {
+    "word": "impoli",
+    "meaning": "contraire de poli pour un comportement"
+   }
+  ],
+  "examples": [
+   "La boîte ne contient rien : elle est vide.",
+   "La porte n’est plus ouverte : elle est fermée.",
+   "Le passage de faible largeur est étroit."
+  ],
+  "mistake": {
+   "wrong": "Vide signifie rempli jusqu’au bord.",
+   "right": "vide: contraire de plein pour un récipient sans contenu.",
+   "why": "L’opposition porte ici sur la présence de contenu."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "La boîte ne contient rien : elle est vide. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Contraire de plein pour un récipient sans contenu.",
+   "L’opposition porte ici sur la présence de contenu."
+  ],
+  "answer": "vide",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-1-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "vide: contraire de plein pour un récipient sans contenu.",
+     "fermé: contraire d’ouvert pour une porte.",
+     "étroit: contraire de large pour un passage.",
+     "impoli: contraire de poli pour un comportement."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-1-terms"
+    }
+   },
+   {
+    "id": "cfi3-1-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "La boîte ne contient rien : elle est vide.",
+     "vide: contraire de plein pour un récipient sans contenu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-1-cases"
+    }
+   },
+   {
+    "id": "cfi3-1-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Vide signifie rempli jusqu’au bord.",
+     "L’opposition porte ici sur la présence de contenu."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-1-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "vide : contraire de plein pour un récipient sans contenu.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : vide désigne contraire de plein pour un récipient sans contenu. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "fermé : contraire d’ouvert pour une porte.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : fermé désigne contraire d’ouvert pour une porte. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "étroit : contraire de large pour un passage.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : étroit désigne contraire de large pour un passage. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "impoli : contraire de poli pour un comportement.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : impoli désigne contraire de poli pour un comportement. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Vide signifie rempli jusqu’au bord.",
+        "truth": "false",
+        "explain": "L’opposition porte ici sur la présence de contenu."
+       },
+       {
+        "text": "Fermé est toujours synonyme d’ouvert.",
+        "truth": "false",
+        "explain": "Ce sont ici deux états opposés."
+       },
+       {
+        "text": "Étroit et large expriment toujours la même largeur.",
+        "truth": "false",
+        "explain": "Ils s’opposent sur la largeur."
+       },
+       {
+        "text": "On forme tous les antonymes avec le seul préfixe im-.",
+        "truth": "false",
+        "explain": "Les contraires se forment de plusieurs façons."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-1-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : contraire de plein pour un récipient sans contenu ?",
+       "r": "vide",
+       "w": [
+        "fermé",
+        "étroit",
+        "impoli"
+       ],
+       "e": [
+        "« fermé » désigne contraire d’ouvert pour une porte. Ici, cherche contraire de plein pour un récipient sans contenu.",
+        "« étroit » désigne contraire de large pour un passage. Ici, cherche contraire de plein pour un récipient sans contenu.",
+        "« impoli » désigne contraire de poli pour un comportement. Ici, cherche contraire de plein pour un récipient sans contenu."
+       ],
+       "y": "Contraire de plein pour un récipient sans contenu."
+      },
+      {
+       "q": "Quel terme désigne : contraire d’ouvert pour une porte ?",
+       "r": "fermé",
+       "w": [
+        "vide",
+        "étroit",
+        "impoli"
+       ],
+       "e": [
+        "« vide » désigne contraire de plein pour un récipient sans contenu. Ici, cherche contraire d’ouvert pour une porte.",
+        "« étroit » désigne contraire de large pour un passage. Ici, cherche contraire d’ouvert pour une porte.",
+        "« impoli » désigne contraire de poli pour un comportement. Ici, cherche contraire d’ouvert pour une porte."
+       ],
+       "y": "Contraire d’ouvert pour une porte."
+      },
+      {
+       "q": "Quel terme désigne : contraire de large pour un passage ?",
+       "r": "étroit",
+       "w": [
+        "vide",
+        "fermé",
+        "impoli"
+       ],
+       "e": [
+        "« vide » désigne contraire de plein pour un récipient sans contenu. Ici, cherche contraire de large pour un passage.",
+        "« fermé » désigne contraire d’ouvert pour une porte. Ici, cherche contraire de large pour un passage.",
+        "« impoli » désigne contraire de poli pour un comportement. Ici, cherche contraire de large pour un passage."
+       ],
+       "y": "Contraire de large pour un passage."
+      },
+      {
+       "q": "Quel terme désigne : contraire de poli pour un comportement ?",
+       "r": "impoli",
+       "w": [
+        "vide",
+        "fermé",
+        "étroit"
+       ],
+       "e": [
+        "« vide » désigne contraire de plein pour un récipient sans contenu. Ici, cherche contraire de poli pour un comportement.",
+        "« fermé » désigne contraire d’ouvert pour une porte. Ici, cherche contraire de poli pour un comportement.",
+        "« étroit » désigne contraire de large pour un passage. Ici, cherche contraire de poli pour un comportement."
+       ],
+       "y": "Contraire de poli pour un comportement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-1-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La boîte ne contient rien : elle est vide.\nQuel terme s’applique le mieux ?",
+       "r": "vide",
+       "w": [
+        "fermé",
+        "étroit",
+        "impoli"
+       ],
+       "e": [
+        "« fermé » concerne contraire d’ouvert pour une porte. Le cas décrit plutôt contraire de plein pour un récipient sans contenu.",
+        "« étroit » concerne contraire de large pour un passage. Le cas décrit plutôt contraire de plein pour un récipient sans contenu.",
+        "« impoli » concerne contraire de poli pour un comportement. Le cas décrit plutôt contraire de plein pour un récipient sans contenu."
+       ],
+       "y": "La boîte ne contient rien : elle est vide. Contraire de plein pour un récipient sans contenu."
+      },
+      {
+       "q": "La porte n’est plus ouverte : elle est fermée.\nQuel terme s’applique le mieux ?",
+       "r": "fermé",
+       "w": [
+        "vide",
+        "étroit",
+        "impoli"
+       ],
+       "e": [
+        "« vide » concerne contraire de plein pour un récipient sans contenu. Le cas décrit plutôt contraire d’ouvert pour une porte.",
+        "« étroit » concerne contraire de large pour un passage. Le cas décrit plutôt contraire d’ouvert pour une porte.",
+        "« impoli » concerne contraire de poli pour un comportement. Le cas décrit plutôt contraire d’ouvert pour une porte."
+       ],
+       "y": "La porte n’est plus ouverte : elle est fermée. Contraire d’ouvert pour une porte."
+      },
+      {
+       "q": "Le passage de faible largeur est étroit.\nQuel terme s’applique le mieux ?",
+       "r": "étroit",
+       "w": [
+        "vide",
+        "fermé",
+        "impoli"
+       ],
+       "e": [
+        "« vide » concerne contraire de plein pour un récipient sans contenu. Le cas décrit plutôt contraire de large pour un passage.",
+        "« fermé » concerne contraire d’ouvert pour une porte. Le cas décrit plutôt contraire de large pour un passage.",
+        "« impoli » concerne contraire de poli pour un comportement. Le cas décrit plutôt contraire de large pour un passage."
+       ],
+       "y": "Le passage de faible largeur est étroit. Contraire de large pour un passage."
+      },
+      {
+       "q": "Une réponse irrespectueuse est impolie.\nQuel terme s’applique le mieux ?",
+       "r": "impoli",
+       "w": [
+        "vide",
+        "fermé",
+        "étroit"
+       ],
+       "e": [
+        "« vide » concerne contraire de plein pour un récipient sans contenu. Le cas décrit plutôt contraire de poli pour un comportement.",
+        "« fermé » concerne contraire d’ouvert pour une porte. Le cas décrit plutôt contraire de poli pour un comportement.",
+        "« étroit » concerne contraire de large pour un passage. Le cas décrit plutôt contraire de poli pour un comportement."
+       ],
+       "y": "Une réponse irrespectueuse est impolie. Contraire de poli pour un comportement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-1-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La boîte ne contient rien : elle est vide.\nQuelle explication justifie le classement ?",
+       "r": "Contraire de plein pour un récipient sans contenu.",
+       "w": [
+        "Contraire d’ouvert pour une porte.",
+        "Contraire de large pour un passage.",
+        "Contraire de poli pour un comportement."
+       ],
+       "e": [
+        "Cette explication correspond à « fermé ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « étroit ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impoli ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’opposition porte ici sur la présence de contenu."
+      },
+      {
+       "q": "La porte n’est plus ouverte : elle est fermée.\nQuelle explication justifie le classement ?",
+       "r": "Contraire d’ouvert pour une porte.",
+       "w": [
+        "Contraire de plein pour un récipient sans contenu.",
+        "Contraire de large pour un passage.",
+        "Contraire de poli pour un comportement."
+       ],
+       "e": [
+        "Cette explication correspond à « vide ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « étroit ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impoli ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Ce sont ici deux états opposés."
+      },
+      {
+       "q": "Le passage de faible largeur est étroit.\nQuelle explication justifie le classement ?",
+       "r": "Contraire de large pour un passage.",
+       "w": [
+        "Contraire de plein pour un récipient sans contenu.",
+        "Contraire d’ouvert pour une porte.",
+        "Contraire de poli pour un comportement."
+       ],
+       "e": [
+        "Cette explication correspond à « vide ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « fermé ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impoli ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Ils s’opposent sur la largeur."
+      },
+      {
+       "q": "Une réponse irrespectueuse est impolie.\nQuelle explication justifie le classement ?",
+       "r": "Contraire de poli pour un comportement.",
+       "w": [
+        "Contraire de plein pour un récipient sans contenu.",
+        "Contraire d’ouvert pour une porte.",
+        "Contraire de large pour un passage."
+       ],
+       "e": [
+        "Cette explication correspond à « vide ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « fermé ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « étroit ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les contraires se forment de plusieurs façons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-1-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "vide",
+     "right": "La boîte ne contient rien : elle est vide."
+    },
+    {
+     "left": "fermé",
+     "right": "La porte n’est plus ouverte : elle est fermée."
+    },
+    {
+     "left": "étroit",
+     "right": "Le passage de faible largeur est étroit."
+    },
+    {
+     "left": "impoli",
+     "right": "Une réponse irrespectueuse est impolie."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-1-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "vide : contraire de plein pour un récipient sans contenu.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : vide désigne contraire de plein pour un récipient sans contenu. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "fermé : contraire d’ouvert pour une porte.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : fermé désigne contraire d’ouvert pour une porte. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "étroit : contraire de large pour un passage.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : étroit désigne contraire de large pour un passage. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "impoli : contraire de poli pour un comportement.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : impoli désigne contraire de poli pour un comportement. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Vide signifie rempli jusqu’au bord.",
+      "truth": "false",
+      "explain": "L’opposition porte ici sur la présence de contenu."
+     },
+     {
+      "text": "Fermé est toujours synonyme d’ouvert.",
+      "truth": "false",
+      "explain": "Ce sont ici deux états opposés."
+     },
+     {
+      "text": "Étroit et large expriment toujours la même largeur.",
+      "truth": "false",
+      "explain": "Ils s’opposent sur la largeur."
+     },
+     {
+      "text": "On forme tous les antonymes avec le seul préfixe im-.",
+      "truth": "false",
+      "explain": "Les contraires se forment de plusieurs façons."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

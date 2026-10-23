@@ -1,0 +1,564 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 34,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-34",
+   "name": "Le présent d’un verbe essentiellement pronominal"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un verbe pronominal se construit avec un pronom de même personne que le sujet. Un verbe essentiellement pronominal s’emploie ainsi dans le sens étudié : s’exclamer en est un exemple. Le pronom n’est pas facultatif. Au présent, on choisit à la fois la personne du verbe et le pronom correspondant. Devant une voyelle, me, te et se deviennent m’, t’ et s’. La leçon ne transforme pas ce verbe en voix passive ; cette autre formulation du spine reste en attente aux lignes concernées.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Un verbe pronominal se construit avec un pronom de même personne que le sujet. Un verbe essentiellement pronominal s’emploie ainsi dans le sens étudié : s’exclamer en est un exemple. Le pronom n’est pas facultatif. Au présent, on choisit à la fois la personne du verbe et le pronom correspondant. Devant une voyelle, me, te et se deviennent m’, t’ et s’. La leçon ne transforme pas ce verbe en voix passive ; cette autre formulation du spine reste en attente aux lignes concernées."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Modèles calculés pour s’exclamer : {fr2With(0,'m’'+fr2Present('exclamer',0))} ; {fr2With(1,'t’'+fr2Present('exclamer',1))} ; {fr2With(4,'nous '+fr2Present('exclamer',4))} ; {fr2With(6,'s’'+fr2Present('exclamer',6))}. Le sujet et le pronom ont la même personne. Exclamer est utilisé comme base de calcul régulière, pas comme un verbe non pronominal proposé à l’élève."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère le sujet, choisis le pronom réfléchi puis calcule la forme au présent. Vérifie l’élision et la terminaison. Ne confonds pas je m’exclame avec je lui parle : lui désigne alors une autre personne et ne rend pas le verbe pronominal."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "verbe essentiellement pronominal",
+    "meaning": "un verbe construit avec son pronom dans le sens lexical étudié"
+   },
+   {
+    "word": "même personne",
+    "meaning": "la correspondance du sujet et du pronom pronominal"
+   },
+   {
+    "word": "élision du pronom",
+    "meaning": "la réduction de me, te ou se devant la voyelle du verbe"
+   },
+   {
+    "word": "terminaison du présent",
+    "meaning": "la finale du verbe liée à son sujet"
+   }
+  ],
+  "examples": [
+   "S’exclamer est présenté avec son pronom dans ce sens.",
+   "Nous nous {fr2Present('exclamer',4)} conserve cette correspondance.",
+   "{fr2With(0,'m’'+fr2Present('exclamer',0))} emploie m’."
+  ],
+  "mistake": {
+   "wrong": "Dans ce sens, le pronom de s’exclamer est toujours facultatif.",
+   "right": "verbe essentiellement pronominal: un verbe construit avec son pronom dans le sens lexical étudié.",
+   "why": "Le pronom appartient à la construction étudiée."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "S’exclamer est présenté avec son pronom dans ce sens. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un verbe construit avec son pronom dans le sens lexical étudié.",
+   "Le pronom appartient à la construction étudiée."
+  ],
+  "answer": "verbe essentiellement pronominal",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-34-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "verbe essentiellement pronominal: un verbe construit avec son pronom dans le sens lexical étudié.",
+     "même personne: la correspondance du sujet et du pronom pronominal.",
+     "élision du pronom: la réduction de me, te ou se devant la voyelle du verbe.",
+     "terminaison du présent: la finale du verbe liée à son sujet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-34-terms"
+    }
+   },
+   {
+    "id": "cfi3-34-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "S’exclamer est présenté avec son pronom dans ce sens.",
+     "verbe essentiellement pronominal: un verbe construit avec son pronom dans le sens lexical étudié."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-34-cases"
+    }
+   },
+   {
+    "id": "cfi3-34-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Dans ce sens, le pronom de s’exclamer est toujours facultatif.",
+     "Le pronom appartient à la construction étudiée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-34-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "verbe essentiellement pronominal : un verbe construit avec son pronom dans le sens lexical étudié.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : verbe essentiellement pronominal désigne un verbe construit avec son pronom dans le sens lexical étudié. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "même personne : la correspondance du sujet et du pronom pronominal.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : même personne désigne la correspondance du sujet et du pronom pronominal. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "élision du pronom : la réduction de me, te ou se devant la voyelle du verbe.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : élision du pronom désigne la réduction de me, te ou se devant la voyelle du verbe. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "terminaison du présent : la finale du verbe liée à son sujet.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : terminaison du présent désigne la finale du verbe liée à son sujet. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Dans ce sens, le pronom de s’exclamer est toujours facultatif.",
+        "truth": "false",
+        "explain": "Le pronom appartient à la construction étudiée."
+       },
+       {
+        "text": "Nous s’exclament respecte la correspondance du modèle.",
+        "truth": "false",
+        "explain": "Nous exige nous et une forme verbale de nous."
+       },
+       {
+        "text": "Devant exclame, on doit écrire me exclame sans élision.",
+        "truth": "false",
+        "explain": "Me devient m’ devant la voyelle."
+       },
+       {
+        "text": "Vous vous exclament est la forme attendue.",
+        "truth": "false",
+        "explain": "Vous demande ici la terminaison -ez."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-34-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un verbe construit avec son pronom dans le sens lexical étudié ?",
+       "r": "verbe essentiellement pronominal",
+       "w": [
+        "même personne",
+        "élision du pronom",
+        "terminaison du présent"
+       ],
+       "e": [
+        "« même personne » désigne la correspondance du sujet et du pronom pronominal. Ici, cherche un verbe construit avec son pronom dans le sens lexical étudié.",
+        "« élision du pronom » désigne la réduction de me, te ou se devant la voyelle du verbe. Ici, cherche un verbe construit avec son pronom dans le sens lexical étudié.",
+        "« terminaison du présent » désigne la finale du verbe liée à son sujet. Ici, cherche un verbe construit avec son pronom dans le sens lexical étudié."
+       ],
+       "y": "Un verbe construit avec son pronom dans le sens lexical étudié."
+      },
+      {
+       "q": "Quel terme désigne : la correspondance du sujet et du pronom pronominal ?",
+       "r": "même personne",
+       "w": [
+        "verbe essentiellement pronominal",
+        "élision du pronom",
+        "terminaison du présent"
+       ],
+       "e": [
+        "« verbe essentiellement pronominal » désigne un verbe construit avec son pronom dans le sens lexical étudié. Ici, cherche la correspondance du sujet et du pronom pronominal.",
+        "« élision du pronom » désigne la réduction de me, te ou se devant la voyelle du verbe. Ici, cherche la correspondance du sujet et du pronom pronominal.",
+        "« terminaison du présent » désigne la finale du verbe liée à son sujet. Ici, cherche la correspondance du sujet et du pronom pronominal."
+       ],
+       "y": "La correspondance du sujet et du pronom pronominal."
+      },
+      {
+       "q": "Quel terme désigne : la réduction de me, te ou se devant la voyelle du verbe ?",
+       "r": "élision du pronom",
+       "w": [
+        "verbe essentiellement pronominal",
+        "même personne",
+        "terminaison du présent"
+       ],
+       "e": [
+        "« verbe essentiellement pronominal » désigne un verbe construit avec son pronom dans le sens lexical étudié. Ici, cherche la réduction de me, te ou se devant la voyelle du verbe.",
+        "« même personne » désigne la correspondance du sujet et du pronom pronominal. Ici, cherche la réduction de me, te ou se devant la voyelle du verbe.",
+        "« terminaison du présent » désigne la finale du verbe liée à son sujet. Ici, cherche la réduction de me, te ou se devant la voyelle du verbe."
+       ],
+       "y": "La réduction de me, te ou se devant la voyelle du verbe."
+      },
+      {
+       "q": "Quel terme désigne : la finale du verbe liée à son sujet ?",
+       "r": "terminaison du présent",
+       "w": [
+        "verbe essentiellement pronominal",
+        "même personne",
+        "élision du pronom"
+       ],
+       "e": [
+        "« verbe essentiellement pronominal » désigne un verbe construit avec son pronom dans le sens lexical étudié. Ici, cherche la finale du verbe liée à son sujet.",
+        "« même personne » désigne la correspondance du sujet et du pronom pronominal. Ici, cherche la finale du verbe liée à son sujet.",
+        "« élision du pronom » désigne la réduction de me, te ou se devant la voyelle du verbe. Ici, cherche la finale du verbe liée à son sujet."
+       ],
+       "y": "La finale du verbe liée à son sujet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-34-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "S’exclamer est présenté avec son pronom dans ce sens.\nQuel terme s’applique le mieux ?",
+       "r": "verbe essentiellement pronominal",
+       "w": [
+        "même personne",
+        "élision du pronom",
+        "terminaison du présent"
+       ],
+       "e": [
+        "« même personne » concerne la correspondance du sujet et du pronom pronominal. Le cas décrit plutôt un verbe construit avec son pronom dans le sens lexical étudié.",
+        "« élision du pronom » concerne la réduction de me, te ou se devant la voyelle du verbe. Le cas décrit plutôt un verbe construit avec son pronom dans le sens lexical étudié.",
+        "« terminaison du présent » concerne la finale du verbe liée à son sujet. Le cas décrit plutôt un verbe construit avec son pronom dans le sens lexical étudié."
+       ],
+       "y": "S’exclamer est présenté avec son pronom dans ce sens. Un verbe construit avec son pronom dans le sens lexical étudié."
+      },
+      {
+       "q": "Nous nous {fr2Present('exclamer',4)} conserve cette correspondance.\nQuel terme s’applique le mieux ?",
+       "r": "même personne",
+       "w": [
+        "verbe essentiellement pronominal",
+        "élision du pronom",
+        "terminaison du présent"
+       ],
+       "e": [
+        "« verbe essentiellement pronominal » concerne un verbe construit avec son pronom dans le sens lexical étudié. Le cas décrit plutôt la correspondance du sujet et du pronom pronominal.",
+        "« élision du pronom » concerne la réduction de me, te ou se devant la voyelle du verbe. Le cas décrit plutôt la correspondance du sujet et du pronom pronominal.",
+        "« terminaison du présent » concerne la finale du verbe liée à son sujet. Le cas décrit plutôt la correspondance du sujet et du pronom pronominal."
+       ],
+       "y": "Nous nous {fr2Present('exclamer',4)} conserve cette correspondance. La correspondance du sujet et du pronom pronominal."
+      },
+      {
+       "q": "{fr2With(0,'m’'+fr2Present('exclamer',0))} emploie m’.\nQuel terme s’applique le mieux ?",
+       "r": "élision du pronom",
+       "w": [
+        "verbe essentiellement pronominal",
+        "même personne",
+        "terminaison du présent"
+       ],
+       "e": [
+        "« verbe essentiellement pronominal » concerne un verbe construit avec son pronom dans le sens lexical étudié. Le cas décrit plutôt la réduction de me, te ou se devant la voyelle du verbe.",
+        "« même personne » concerne la correspondance du sujet et du pronom pronominal. Le cas décrit plutôt la réduction de me, te ou se devant la voyelle du verbe.",
+        "« terminaison du présent » concerne la finale du verbe liée à son sujet. Le cas décrit plutôt la réduction de me, te ou se devant la voyelle du verbe."
+       ],
+       "y": "{fr2With(0,'m’'+fr2Present('exclamer',0))} emploie m’. La réduction de me, te ou se devant la voyelle du verbe."
+      },
+      {
+       "q": "Avec vous, on obtient {fr2With(5,'vous '+fr2Present('exclamer',5))}.\nQuel terme s’applique le mieux ?",
+       "r": "terminaison du présent",
+       "w": [
+        "verbe essentiellement pronominal",
+        "même personne",
+        "élision du pronom"
+       ],
+       "e": [
+        "« verbe essentiellement pronominal » concerne un verbe construit avec son pronom dans le sens lexical étudié. Le cas décrit plutôt la finale du verbe liée à son sujet.",
+        "« même personne » concerne la correspondance du sujet et du pronom pronominal. Le cas décrit plutôt la finale du verbe liée à son sujet.",
+        "« élision du pronom » concerne la réduction de me, te ou se devant la voyelle du verbe. Le cas décrit plutôt la finale du verbe liée à son sujet."
+       ],
+       "y": "Avec vous, on obtient {fr2With(5,'vous '+fr2Present('exclamer',5))}. La finale du verbe liée à son sujet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-34-pronominal",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      0,
+      1,
+      4,
+      5,
+      6
+     ]
+    },
+    "R": [
+     "m’",
+     "t’",
+     "s’",
+     "s’",
+     "nous ",
+     "vous ",
+     "s’",
+     "s’"
+    ]
+   },
+   "prompt": "Conjugue s’exclamer au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,R[p]+fr2Present('exclamer',p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2Present('exclamer',p))}",
+     "misconception": "oubli"
+    },
+    {
+     "text": "{fr2With(p,R[(p+1)%8]+fr2Present('exclamer',p))}",
+     "misconception": "pronom"
+    },
+    {
+     "text": "{fr2With(p,R[p]+fr2Present('exclamer',(p+4)%8))}",
+     "misconception": "verbe"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "oubli",
+     "explain": "Il manque le pronom nécessaire à ce verbe essentiellement pronominal."
+    },
+    {
+     "id": "pronom",
+     "explain": "Le pronom ne correspond pas à la personne du sujet."
+    },
+    {
+     "id": "verbe",
+     "explain": "Le pronom convient, mais la terminaison verbale correspond à un autre sujet."
+    }
+   ],
+   "solution": [
+    "Associe le sujet à son pronom et à la terminaison du présent.",
+    "La construction complète est {answer}."
+   ],
+   "where": [
+    "R[p] != R[(p+1)%8]",
+    "fr2Present('exclamer',p) != fr2Present('exclamer',(p+4)%8)"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-34-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "verbe essentiellement pronominal",
+     "right": "S’exclamer est présenté avec son pronom dans ce sens."
+    },
+    {
+     "left": "même personne",
+     "right": "Nous nous {fr2Present('exclamer',4)} conserve cette correspondance."
+    },
+    {
+     "left": "élision du pronom",
+     "right": "{fr2With(0,'m’'+fr2Present('exclamer',0))} emploie m’."
+    },
+    {
+     "left": "terminaison du présent",
+     "right": "Avec vous, on obtient {fr2With(5,'vous '+fr2Present('exclamer',5))}."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-34-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "verbe essentiellement pronominal : un verbe construit avec son pronom dans le sens lexical étudié.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : verbe essentiellement pronominal désigne un verbe construit avec son pronom dans le sens lexical étudié. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "même personne : la correspondance du sujet et du pronom pronominal.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : même personne désigne la correspondance du sujet et du pronom pronominal. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "élision du pronom : la réduction de me, te ou se devant la voyelle du verbe.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : élision du pronom désigne la réduction de me, te ou se devant la voyelle du verbe. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "terminaison du présent : la finale du verbe liée à son sujet.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : terminaison du présent désigne la finale du verbe liée à son sujet. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Dans ce sens, le pronom de s’exclamer est toujours facultatif.",
+      "truth": "false",
+      "explain": "Le pronom appartient à la construction étudiée."
+     },
+     {
+      "text": "Nous s’exclament respecte la correspondance du modèle.",
+      "truth": "false",
+      "explain": "Nous exige nous et une forme verbale de nous."
+     },
+     {
+      "text": "Devant exclame, on doit écrire me exclame sans élision.",
+      "truth": "false",
+      "explain": "Me devient m’ devant la voyelle."
+     },
+     {
+      "text": "Vous vous exclament est la forme attendue.",
+      "truth": "false",
+      "explain": "Vous demande ici la terminaison -ez."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

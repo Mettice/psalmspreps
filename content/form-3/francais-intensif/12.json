@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-12",
+   "name": "Le présentatif c’est"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "C’est permet notamment d’identifier ou de caractériser ce que l’on présente. C’ vient de ce et est est une forme du verbe être. Ne confonds pas c’est avec s’est, qui appartient à une construction pronominale au passé composé. Pour présenter un nom pluriel dans le modèle scolaire formel, on emploie ce sont. Des usages oraux sont plus souples ; le modèle donne la construction attendue dans l’exercice, sans nier les variations de la langue.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "C’est permet notamment d’identifier ou de caractériser ce que l’on présente. C’ vient de ce et est est une forme du verbe être. Ne confonds pas c’est avec s’est, qui appartient à une construction pronominale au passé composé. Pour présenter un nom pluriel dans le modèle scolaire formel, on emploie ce sont. Des usages oraux sont plus souples ; le modèle donne la construction attendue dans l’exercice, sans nier les variations de la langue."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Bih montre un cahier : « C’{fr2Present('être',2)} le cahier du club. » Devant plusieurs cahiers, le modèle formel donne : « Ce {fr2Present('être',6)} les cahiers du club. » Dans ce contexte, le présentatif identifie un objet. L’apostrophe relie c’ à est ; elle ne transforme pas ce mot en un possessif."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Demande si la phrase présente ou identifie quelque chose. Vérifie ensuite la forme d’être et l’orthographe c’est. Ne remplace pas c’est par s’est uniquement parce que les deux se prononcent de façon proche."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "identification",
+    "meaning": "la présentation de ce que désigne un élément"
+   },
+   {
+    "word": "c’",
+    "meaning": "la forme élidée de ce dans c’est"
+   },
+   {
+    "word": "est",
+    "meaning": "la forme d’être présente dans c’est"
+   },
+   {
+    "word": "ce sont",
+    "meaning": "le présentatif formel du modèle devant un groupe nominal pluriel"
+   }
+  ],
+  "examples": [
+   "C’est le cahier du club identifie l’objet montré.",
+   "L’apostrophe de c’est suit la lettre c.",
+   "Dans c’est, être apparaît sous la forme {fr2Present('être',2)}."
+  ],
+  "mistake": {
+   "wrong": "Identifier un objet consiste toujours à raconter un événement futur.",
+   "right": "identification: la présentation de ce que désigne un élément.",
+   "why": "Le présentatif sert ici à dire de quel objet il s’agit."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "C’est le cahier du club identifie l’objet montré. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "La présentation de ce que désigne un élément.",
+   "Le présentatif sert ici à dire de quel objet il s’agit."
+  ],
+  "answer": "identification",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-12-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "identification: la présentation de ce que désigne un élément.",
+     "c’: la forme élidée de ce dans c’est.",
+     "est: la forme d’être présente dans c’est.",
+     "ce sont: le présentatif formel du modèle devant un groupe nominal pluriel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-12-terms"
+    }
+   },
+   {
+    "id": "cfi3-12-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "C’est le cahier du club identifie l’objet montré.",
+     "identification: la présentation de ce que désigne un élément."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-12-cases"
+    }
+   },
+   {
+    "id": "cfi3-12-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Identifier un objet consiste toujours à raconter un événement futur.",
+     "Le présentatif sert ici à dire de quel objet il s’agit."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-12-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "identification : la présentation de ce que désigne un élément.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : identification désigne la présentation de ce que désigne un élément. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "c’ : la forme élidée de ce dans c’est.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : c’ désigne la forme élidée de ce dans c’est. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "est : la forme d’être présente dans c’est.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : est désigne la forme d’être présente dans c’est. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "ce sont : le présentatif formel du modèle devant un groupe nominal pluriel.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : ce sont désigne le présentatif formel du modèle devant un groupe nominal pluriel. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Identifier un objet consiste toujours à raconter un événement futur.",
+        "truth": "false",
+        "explain": "Le présentatif sert ici à dire de quel objet il s’agit."
+       },
+       {
+        "text": "Le c de c’est est obligatoirement le pronom réfléchi se.",
+        "truth": "false",
+        "explain": "C’ représente ici ce, pas se."
+       },
+       {
+        "text": "Est est l’infinitif du verbe avoir.",
+        "truth": "false",
+        "explain": "Est est une forme d’être, pas d’avoir."
+       },
+       {
+        "text": "Le modèle scolaire exige toujours ce est les cahiers.",
+        "truth": "false",
+        "explain": "Ce sont convient au groupe pluriel dans ce modèle formel."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : la présentation de ce que désigne un élément ?",
+       "r": "identification",
+       "w": [
+        "c’",
+        "est",
+        "ce sont"
+       ],
+       "e": [
+        "« c’ » désigne la forme élidée de ce dans c’est. Ici, cherche la présentation de ce que désigne un élément.",
+        "« est » désigne la forme d’être présente dans c’est. Ici, cherche la présentation de ce que désigne un élément.",
+        "« ce sont » désigne le présentatif formel du modèle devant un groupe nominal pluriel. Ici, cherche la présentation de ce que désigne un élément."
+       ],
+       "y": "La présentation de ce que désigne un élément."
+      },
+      {
+       "q": "Quel terme désigne : la forme élidée de ce dans c’est ?",
+       "r": "c’",
+       "w": [
+        "identification",
+        "est",
+        "ce sont"
+       ],
+       "e": [
+        "« identification » désigne la présentation de ce que désigne un élément. Ici, cherche la forme élidée de ce dans c’est.",
+        "« est » désigne la forme d’être présente dans c’est. Ici, cherche la forme élidée de ce dans c’est.",
+        "« ce sont » désigne le présentatif formel du modèle devant un groupe nominal pluriel. Ici, cherche la forme élidée de ce dans c’est."
+       ],
+       "y": "La forme élidée de ce dans c’est."
+      },
+      {
+       "q": "Quel terme désigne : la forme d’être présente dans c’est ?",
+       "r": "est",
+       "w": [
+        "identification",
+        "c’",
+        "ce sont"
+       ],
+       "e": [
+        "« identification » désigne la présentation de ce que désigne un élément. Ici, cherche la forme d’être présente dans c’est.",
+        "« c’ » désigne la forme élidée de ce dans c’est. Ici, cherche la forme d’être présente dans c’est.",
+        "« ce sont » désigne le présentatif formel du modèle devant un groupe nominal pluriel. Ici, cherche la forme d’être présente dans c’est."
+       ],
+       "y": "La forme d’être présente dans c’est."
+      },
+      {
+       "q": "Quel terme désigne : le présentatif formel du modèle devant un groupe nominal pluriel ?",
+       "r": "ce sont",
+       "w": [
+        "identification",
+        "c’",
+        "est"
+       ],
+       "e": [
+        "« identification » désigne la présentation de ce que désigne un élément. Ici, cherche le présentatif formel du modèle devant un groupe nominal pluriel.",
+        "« c’ » désigne la forme élidée de ce dans c’est. Ici, cherche le présentatif formel du modèle devant un groupe nominal pluriel.",
+        "« est » désigne la forme d’être présente dans c’est. Ici, cherche le présentatif formel du modèle devant un groupe nominal pluriel."
+       ],
+       "y": "Le présentatif formel du modèle devant un groupe nominal pluriel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "C’est le cahier du club identifie l’objet montré.\nQuel terme s’applique le mieux ?",
+       "r": "identification",
+       "w": [
+        "c’",
+        "est",
+        "ce sont"
+       ],
+       "e": [
+        "« c’ » concerne la forme élidée de ce dans c’est. Le cas décrit plutôt la présentation de ce que désigne un élément.",
+        "« est » concerne la forme d’être présente dans c’est. Le cas décrit plutôt la présentation de ce que désigne un élément.",
+        "« ce sont » concerne le présentatif formel du modèle devant un groupe nominal pluriel. Le cas décrit plutôt la présentation de ce que désigne un élément."
+       ],
+       "y": "C’est le cahier du club identifie l’objet montré. La présentation de ce que désigne un élément."
+      },
+      {
+       "q": "L’apostrophe de c’est suit la lettre c.\nQuel terme s’applique le mieux ?",
+       "r": "c’",
+       "w": [
+        "identification",
+        "est",
+        "ce sont"
+       ],
+       "e": [
+        "« identification » concerne la présentation de ce que désigne un élément. Le cas décrit plutôt la forme élidée de ce dans c’est.",
+        "« est » concerne la forme d’être présente dans c’est. Le cas décrit plutôt la forme élidée de ce dans c’est.",
+        "« ce sont » concerne le présentatif formel du modèle devant un groupe nominal pluriel. Le cas décrit plutôt la forme élidée de ce dans c’est."
+       ],
+       "y": "L’apostrophe de c’est suit la lettre c. La forme élidée de ce dans c’est."
+      },
+      {
+       "q": "Dans c’est, être apparaît sous la forme {fr2Present('être',2)}.\nQuel terme s’applique le mieux ?",
+       "r": "est",
+       "w": [
+        "identification",
+        "c’",
+        "ce sont"
+       ],
+       "e": [
+        "« identification » concerne la présentation de ce que désigne un élément. Le cas décrit plutôt la forme d’être présente dans c’est.",
+        "« c’ » concerne la forme élidée de ce dans c’est. Le cas décrit plutôt la forme d’être présente dans c’est.",
+        "« ce sont » concerne le présentatif formel du modèle devant un groupe nominal pluriel. Le cas décrit plutôt la forme d’être présente dans c’est."
+       ],
+       "y": "Dans c’est, être apparaît sous la forme {fr2Present('être',2)}. La forme d’être présente dans c’est."
+      },
+      {
+       "q": "Ce {fr2Present('être',6)} les cahiers présente plusieurs objets.\nQuel terme s’applique le mieux ?",
+       "r": "ce sont",
+       "w": [
+        "identification",
+        "c’",
+        "est"
+       ],
+       "e": [
+        "« identification » concerne la présentation de ce que désigne un élément. Le cas décrit plutôt le présentatif formel du modèle devant un groupe nominal pluriel.",
+        "« c’ » concerne la forme élidée de ce dans c’est. Le cas décrit plutôt le présentatif formel du modèle devant un groupe nominal pluriel.",
+        "« est » concerne la forme d’être présente dans c’est. Le cas décrit plutôt le présentatif formel du modèle devant un groupe nominal pluriel."
+       ],
+       "y": "Ce {fr2Present('être',6)} les cahiers présente plusieurs objets. Le présentatif formel du modèle devant un groupe nominal pluriel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-12-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "C’est le cahier du club identifie l’objet montré.\nQuelle explication justifie le classement ?",
+       "r": "La présentation de ce que désigne un élément.",
+       "w": [
+        "La forme élidée de ce dans c’est.",
+        "La forme d’être présente dans c’est.",
+        "Le présentatif formel du modèle devant un groupe nominal pluriel."
+       ],
+       "e": [
+        "Cette explication correspond à « c’ ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « est ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « ce sont ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le présentatif sert ici à dire de quel objet il s’agit."
+      },
+      {
+       "q": "L’apostrophe de c’est suit la lettre c.\nQuelle explication justifie le classement ?",
+       "r": "La forme élidée de ce dans c’est.",
+       "w": [
+        "La présentation de ce que désigne un élément.",
+        "La forme d’être présente dans c’est.",
+        "Le présentatif formel du modèle devant un groupe nominal pluriel."
+       ],
+       "e": [
+        "Cette explication correspond à « identification ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « est ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « ce sont ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "C’ représente ici ce, pas se."
+      },
+      {
+       "q": "Dans c’est, être apparaît sous la forme {fr2Present('être',2)}.\nQuelle explication justifie le classement ?",
+       "r": "La forme d’être présente dans c’est.",
+       "w": [
+        "La présentation de ce que désigne un élément.",
+        "La forme élidée de ce dans c’est.",
+        "Le présentatif formel du modèle devant un groupe nominal pluriel."
+       ],
+       "e": [
+        "Cette explication correspond à « identification ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « c’ ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « ce sont ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Est est une forme d’être, pas d’avoir."
+      },
+      {
+       "q": "Ce {fr2Present('être',6)} les cahiers présente plusieurs objets.\nQuelle explication justifie le classement ?",
+       "r": "Le présentatif formel du modèle devant un groupe nominal pluriel.",
+       "w": [
+        "La présentation de ce que désigne un élément.",
+        "La forme élidée de ce dans c’est.",
+        "La forme d’être présente dans c’est."
+       ],
+       "e": [
+        "Cette explication correspond à « identification ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « c’ ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « est ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Ce sont convient au groupe pluriel dans ce modèle formel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-12-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "identification",
+     "right": "C’est le cahier du club identifie l’objet montré."
+    },
+    {
+     "left": "c’",
+     "right": "L’apostrophe de c’est suit la lettre c."
+    },
+    {
+     "left": "est",
+     "right": "Dans c’est, être apparaît sous la forme {fr2Present('être',2)}."
+    },
+    {
+     "left": "ce sont",
+     "right": "Ce {fr2Present('être',6)} les cahiers présente plusieurs objets."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-12-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "identification : la présentation de ce que désigne un élément.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : identification désigne la présentation de ce que désigne un élément. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "c’ : la forme élidée de ce dans c’est.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : c’ désigne la forme élidée de ce dans c’est. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "est : la forme d’être présente dans c’est.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : est désigne la forme d’être présente dans c’est. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "ce sont : le présentatif formel du modèle devant un groupe nominal pluriel.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : ce sont désigne le présentatif formel du modèle devant un groupe nominal pluriel. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Identifier un objet consiste toujours à raconter un événement futur.",
+      "truth": "false",
+      "explain": "Le présentatif sert ici à dire de quel objet il s’agit."
+     },
+     {
+      "text": "Le c de c’est est obligatoirement le pronom réfléchi se.",
+      "truth": "false",
+      "explain": "C’ représente ici ce, pas se."
+     },
+     {
+      "text": "Est est l’infinitif du verbe avoir.",
+      "truth": "false",
+      "explain": "Est est une forme d’être, pas d’avoir."
+     },
+     {
+      "text": "Le modèle scolaire exige toujours ce est les cahiers.",
+      "truth": "false",
+      "explain": "Ce sont convient au groupe pluriel dans ce modèle formel."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

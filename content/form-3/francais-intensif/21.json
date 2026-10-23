@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 21,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-21",
+   "name": "Le lexique de l’affection et du respect"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’affection peut concerner la famille, l’amitié ou d’autres relations. L’amitié, la tendresse, le respect et la confiance ne sont pas des synonymes parfaits. On peut exprimer un sentiment sans exiger qu’une autre personne partage le même sentiment. Respecter une limite fait partie d’une relation attentive. Les exemples sont fictifs et adaptés à la classe ; l’exercice ne demande aucune confidence personnelle.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "L’affection peut concerner la famille, l’amitié ou d’autres relations. L’amitié, la tendresse, le respect et la confiance ne sont pas des synonymes parfaits. On peut exprimer un sentiment sans exiger qu’une autre personne partage le même sentiment. Respecter une limite fait partie d’une relation attentive. Les exemples sont fictifs et adaptés à la classe ; l’exercice ne demande aucune confidence personnelle."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Bih remercie une amie qui l’a écoutée. Ayuk exprime de l’affection envers sa famille. Un personnage demande la permission avant de partager une histoire privée. Ces actions permettent de discuter les mots sans transformer le sentiment en droit de contrôler quelqu’un."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis la phrase entière, relève les indices et compare les sens. Choisis un mot pour ce contexte, puis emploie-le dans une phrase originale. Un exemple n’autorise pas une généralisation à toutes les situations. Explique ton choix sans recopier une définition sans rapport."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "amitié",
+    "meaning": "une relation d’attachement entre amis"
+   },
+   {
+    "word": "tendresse",
+    "meaning": "une affection exprimée avec douceur"
+   },
+   {
+    "word": "respect",
+    "meaning": "la considération accordée à la dignité et aux limites d’autrui"
+   },
+   {
+    "word": "confiance",
+    "meaning": "le fait de pouvoir compter sur une personne dans la relation décrite"
+   }
+  ],
+  "examples": [
+   "Bih entretient un lien amical avec une camarade.",
+   "Un personnage adresse une parole douce à un proche.",
+   "Un personnage accepte qu’une amie garde une histoire privée."
+  ],
+  "mistake": {
+   "wrong": "L’amitié donne le droit d’imposer toutes ses décisions à autrui.",
+   "right": "amitié: une relation d’attachement entre amis.",
+   "why": "Une relation amicale doit respecter les choix de l’autre."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih entretient un lien amical avec une camarade. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Une relation d’attachement entre amis.",
+   "Une relation amicale doit respecter les choix de l’autre."
+  ],
+  "answer": "amitié",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-21-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "amitié: une relation d’attachement entre amis.",
+     "tendresse: une affection exprimée avec douceur.",
+     "respect: la considération accordée à la dignité et aux limites d’autrui.",
+     "confiance: le fait de pouvoir compter sur une personne dans la relation décrite."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-21-terms"
+    }
+   },
+   {
+    "id": "cfi3-21-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Bih entretient un lien amical avec une camarade.",
+     "amitié: une relation d’attachement entre amis."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-21-cases"
+    }
+   },
+   {
+    "id": "cfi3-21-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "L’amitié donne le droit d’imposer toutes ses décisions à autrui.",
+     "Une relation amicale doit respecter les choix de l’autre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-21-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "amitié : une relation d’attachement entre amis.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : amitié désigne une relation d’attachement entre amis. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "tendresse : une affection exprimée avec douceur.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : tendresse désigne une affection exprimée avec douceur. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "respect : la considération accordée à la dignité et aux limites d’autrui.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : respect désigne la considération accordée à la dignité et aux limites d’autrui. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "confiance : le fait de pouvoir compter sur une personne dans la relation décrite.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : confiance désigne le fait de pouvoir compter sur une personne dans la relation décrite. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’amitié donne le droit d’imposer toutes ses décisions à autrui.",
+        "truth": "false",
+        "explain": "Une relation amicale doit respecter les choix de l’autre."
+       },
+       {
+        "text": "La tendresse signifie nécessairement une menace.",
+        "truth": "false",
+        "explain": "Elle évoque ici une expression douce de l’affection."
+       },
+       {
+        "text": "Respecter quelqu’un oblige à divulguer sa vie privée.",
+        "truth": "false",
+        "explain": "Le respect inclut la prise en compte des limites."
+       },
+       {
+        "text": "La confiance se renforce toujours en trahissant une confidence.",
+        "truth": "false",
+        "explain": "Tenir un engagement peut soutenir la confiance."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-21-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : une relation d’attachement entre amis ?",
+       "r": "amitié",
+       "w": [
+        "tendresse",
+        "respect",
+        "confiance"
+       ],
+       "e": [
+        "« tendresse » désigne une affection exprimée avec douceur. Ici, cherche une relation d’attachement entre amis.",
+        "« respect » désigne la considération accordée à la dignité et aux limites d’autrui. Ici, cherche une relation d’attachement entre amis.",
+        "« confiance » désigne le fait de pouvoir compter sur une personne dans la relation décrite. Ici, cherche une relation d’attachement entre amis."
+       ],
+       "y": "Une relation d’attachement entre amis."
+      },
+      {
+       "q": "Quel terme désigne : une affection exprimée avec douceur ?",
+       "r": "tendresse",
+       "w": [
+        "amitié",
+        "respect",
+        "confiance"
+       ],
+       "e": [
+        "« amitié » désigne une relation d’attachement entre amis. Ici, cherche une affection exprimée avec douceur.",
+        "« respect » désigne la considération accordée à la dignité et aux limites d’autrui. Ici, cherche une affection exprimée avec douceur.",
+        "« confiance » désigne le fait de pouvoir compter sur une personne dans la relation décrite. Ici, cherche une affection exprimée avec douceur."
+       ],
+       "y": "Une affection exprimée avec douceur."
+      },
+      {
+       "q": "Quel terme désigne : la considération accordée à la dignité et aux limites d’autrui ?",
+       "r": "respect",
+       "w": [
+        "amitié",
+        "tendresse",
+        "confiance"
+       ],
+       "e": [
+        "« amitié » désigne une relation d’attachement entre amis. Ici, cherche la considération accordée à la dignité et aux limites d’autrui.",
+        "« tendresse » désigne une affection exprimée avec douceur. Ici, cherche la considération accordée à la dignité et aux limites d’autrui.",
+        "« confiance » désigne le fait de pouvoir compter sur une personne dans la relation décrite. Ici, cherche la considération accordée à la dignité et aux limites d’autrui."
+       ],
+       "y": "La considération accordée à la dignité et aux limites d’autrui."
+      },
+      {
+       "q": "Quel terme désigne : le fait de pouvoir compter sur une personne dans la relation décrite ?",
+       "r": "confiance",
+       "w": [
+        "amitié",
+        "tendresse",
+        "respect"
+       ],
+       "e": [
+        "« amitié » désigne une relation d’attachement entre amis. Ici, cherche le fait de pouvoir compter sur une personne dans la relation décrite.",
+        "« tendresse » désigne une affection exprimée avec douceur. Ici, cherche le fait de pouvoir compter sur une personne dans la relation décrite.",
+        "« respect » désigne la considération accordée à la dignité et aux limites d’autrui. Ici, cherche le fait de pouvoir compter sur une personne dans la relation décrite."
+       ],
+       "y": "Le fait de pouvoir compter sur une personne dans la relation décrite."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-21-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih entretient un lien amical avec une camarade.\nQuel terme s’applique le mieux ?",
+       "r": "amitié",
+       "w": [
+        "tendresse",
+        "respect",
+        "confiance"
+       ],
+       "e": [
+        "« tendresse » concerne une affection exprimée avec douceur. Le cas décrit plutôt une relation d’attachement entre amis.",
+        "« respect » concerne la considération accordée à la dignité et aux limites d’autrui. Le cas décrit plutôt une relation d’attachement entre amis.",
+        "« confiance » concerne le fait de pouvoir compter sur une personne dans la relation décrite. Le cas décrit plutôt une relation d’attachement entre amis."
+       ],
+       "y": "Bih entretient un lien amical avec une camarade. Une relation d’attachement entre amis."
+      },
+      {
+       "q": "Un personnage adresse une parole douce à un proche.\nQuel terme s’applique le mieux ?",
+       "r": "tendresse",
+       "w": [
+        "amitié",
+        "respect",
+        "confiance"
+       ],
+       "e": [
+        "« amitié » concerne une relation d’attachement entre amis. Le cas décrit plutôt une affection exprimée avec douceur.",
+        "« respect » concerne la considération accordée à la dignité et aux limites d’autrui. Le cas décrit plutôt une affection exprimée avec douceur.",
+        "« confiance » concerne le fait de pouvoir compter sur une personne dans la relation décrite. Le cas décrit plutôt une affection exprimée avec douceur."
+       ],
+       "y": "Un personnage adresse une parole douce à un proche. Une affection exprimée avec douceur."
+      },
+      {
+       "q": "Un personnage accepte qu’une amie garde une histoire privée.\nQuel terme s’applique le mieux ?",
+       "r": "respect",
+       "w": [
+        "amitié",
+        "tendresse",
+        "confiance"
+       ],
+       "e": [
+        "« amitié » concerne une relation d’attachement entre amis. Le cas décrit plutôt la considération accordée à la dignité et aux limites d’autrui.",
+        "« tendresse » concerne une affection exprimée avec douceur. Le cas décrit plutôt la considération accordée à la dignité et aux limites d’autrui.",
+        "« confiance » concerne le fait de pouvoir compter sur une personne dans la relation décrite. Le cas décrit plutôt la considération accordée à la dignité et aux limites d’autrui."
+       ],
+       "y": "Un personnage accepte qu’une amie garde une histoire privée. La considération accordée à la dignité et aux limites d’autrui."
+      },
+      {
+       "q": "Une amie garde une confidence comme convenu.\nQuel terme s’applique le mieux ?",
+       "r": "confiance",
+       "w": [
+        "amitié",
+        "tendresse",
+        "respect"
+       ],
+       "e": [
+        "« amitié » concerne une relation d’attachement entre amis. Le cas décrit plutôt le fait de pouvoir compter sur une personne dans la relation décrite.",
+        "« tendresse » concerne une affection exprimée avec douceur. Le cas décrit plutôt le fait de pouvoir compter sur une personne dans la relation décrite.",
+        "« respect » concerne la considération accordée à la dignité et aux limites d’autrui. Le cas décrit plutôt le fait de pouvoir compter sur une personne dans la relation décrite."
+       ],
+       "y": "Une amie garde une confidence comme convenu. Le fait de pouvoir compter sur une personne dans la relation décrite."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-21-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih entretient un lien amical avec une camarade.\nQuelle explication justifie le classement ?",
+       "r": "Une relation d’attachement entre amis.",
+       "w": [
+        "Une affection exprimée avec douceur.",
+        "La considération accordée à la dignité et aux limites d’autrui.",
+        "Le fait de pouvoir compter sur une personne dans la relation décrite."
+       ],
+       "e": [
+        "Cette explication correspond à « tendresse ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « respect ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « confiance ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Une relation amicale doit respecter les choix de l’autre."
+      },
+      {
+       "q": "Un personnage adresse une parole douce à un proche.\nQuelle explication justifie le classement ?",
+       "r": "Une affection exprimée avec douceur.",
+       "w": [
+        "Une relation d’attachement entre amis.",
+        "La considération accordée à la dignité et aux limites d’autrui.",
+        "Le fait de pouvoir compter sur une personne dans la relation décrite."
+       ],
+       "e": [
+        "Cette explication correspond à « amitié ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « respect ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « confiance ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Elle évoque ici une expression douce de l’affection."
+      },
+      {
+       "q": "Un personnage accepte qu’une amie garde une histoire privée.\nQuelle explication justifie le classement ?",
+       "r": "La considération accordée à la dignité et aux limites d’autrui.",
+       "w": [
+        "Une relation d’attachement entre amis.",
+        "Une affection exprimée avec douceur.",
+        "Le fait de pouvoir compter sur une personne dans la relation décrite."
+       ],
+       "e": [
+        "Cette explication correspond à « amitié ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « tendresse ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « confiance ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le respect inclut la prise en compte des limites."
+      },
+      {
+       "q": "Une amie garde une confidence comme convenu.\nQuelle explication justifie le classement ?",
+       "r": "Le fait de pouvoir compter sur une personne dans la relation décrite.",
+       "w": [
+        "Une relation d’attachement entre amis.",
+        "Une affection exprimée avec douceur.",
+        "La considération accordée à la dignité et aux limites d’autrui."
+       ],
+       "e": [
+        "Cette explication correspond à « amitié ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « tendresse ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « respect ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Tenir un engagement peut soutenir la confiance."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-21-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "amitié",
+     "right": "Bih entretient un lien amical avec une camarade."
+    },
+    {
+     "left": "tendresse",
+     "right": "Un personnage adresse une parole douce à un proche."
+    },
+    {
+     "left": "respect",
+     "right": "Un personnage accepte qu’une amie garde une histoire privée."
+    },
+    {
+     "left": "confiance",
+     "right": "Une amie garde une confidence comme convenu."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-21-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "amitié : une relation d’attachement entre amis.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : amitié désigne une relation d’attachement entre amis. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "tendresse : une affection exprimée avec douceur.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : tendresse désigne une affection exprimée avec douceur. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "respect : la considération accordée à la dignité et aux limites d’autrui.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : respect désigne la considération accordée à la dignité et aux limites d’autrui. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "confiance : le fait de pouvoir compter sur une personne dans la relation décrite.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : confiance désigne le fait de pouvoir compter sur une personne dans la relation décrite. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’amitié donne le droit d’imposer toutes ses décisions à autrui.",
+      "truth": "false",
+      "explain": "Une relation amicale doit respecter les choix de l’autre."
+     },
+     {
+      "text": "La tendresse signifie nécessairement une menace.",
+      "truth": "false",
+      "explain": "Elle évoque ici une expression douce de l’affection."
+     },
+     {
+      "text": "Respecter quelqu’un oblige à divulguer sa vie privée.",
+      "truth": "false",
+      "explain": "Le respect inclut la prise en compte des limites."
+     },
+     {
+      "text": "La confiance se renforce toujours en trahissant une confidence.",
+      "truth": "false",
+      "explain": "Tenir un engagement peut soutenir la confiance."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

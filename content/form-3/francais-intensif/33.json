@@ -1,0 +1,555 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 33,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-33",
+   "name": "La phrase impérative"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’impératif sert notamment à donner une consigne, faire une demande ou proposer une action commune. Il se construit sans pronom sujet exprimé. Les personnes usuelles correspondent à tu, nous et vous. Dans le modèle régulier en -er, la forme de tu ne garde pas le s du présent ; les contextes avec y ou en demandent une attention particulière non développée ici. Une phrase impérative peut rester polie et n’exige pas toujours un point d’exclamation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "L’impératif sert notamment à donner une consigne, faire une demande ou proposer une action commune. Il se construit sans pronom sujet exprimé. Les personnes usuelles correspondent à tu, nous et vous. Dans le modèle régulier en -er, la forme de tu ne garde pas le s du présent ; les contextes avec y ou en demandent une attention particulière non développée ici. Une phrase impérative peut rester polie et n’exige pas toujours un point d’exclamation."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Avec travailler, les modèles sont {fr2Imperatif('travailler',0)}, {fr2Imperatif('travailler',1)} et {fr2Imperatif('travailler',2)}. Le modèle avec nous propose une action commune. Aucun pronom sujet ne précède ces formes. On peut ajouter s’il vous plaît à une demande selon la relation entre les personnes."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Identifie le destinataire ou le groupe, choisis la forme puis retire le pronom sujet de la phrase impérative. Vérifie la négation si la consigne interdit une action. Ne confonds pas absence de sujet écrit et absence de destinataire."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "consigne",
+    "meaning": "une instruction indiquant une action à réaliser"
+   },
+   {
+    "word": "absence de pronom sujet",
+    "meaning": "la construction de l’impératif sans tu, nous ou vous exprimé comme sujet"
+   },
+   {
+    "word": "action commune",
+    "meaning": "la proposition impliquant le locuteur et le groupe"
+   },
+   {
+    "word": "forme singulière en -er",
+    "meaning": "le modèle sans s de la personne correspondant à tu dans les cas étudiés"
+   }
+  ],
+  "examples": [
+   "Range le matériel donne une instruction dans le modèle.",
+   "{fr2Imperatif('travailler',2)} ne commence pas par vous sujet.",
+   "{fr2Imperatif('travailler',1)} invite le groupe à agir ensemble."
+  ],
+  "mistake": {
+   "wrong": "Une consigne ne peut jamais être exprimée poliment.",
+   "right": "consigne: une instruction indiquant une action à réaliser.",
+   "why": "L’instruction peut conserver une forme courtoise."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Range le matériel donne une instruction dans le modèle. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Une instruction indiquant une action à réaliser.",
+   "L’instruction peut conserver une forme courtoise."
+  ],
+  "answer": "consigne",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-33-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "consigne: une instruction indiquant une action à réaliser.",
+     "absence de pronom sujet: la construction de l’impératif sans tu, nous ou vous exprimé comme sujet.",
+     "action commune: la proposition impliquant le locuteur et le groupe.",
+     "forme singulière en -er: le modèle sans s de la personne correspondant à tu dans les cas étudiés."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-33-terms"
+    }
+   },
+   {
+    "id": "cfi3-33-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Range le matériel donne une instruction dans le modèle.",
+     "consigne: une instruction indiquant une action à réaliser."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-33-cases"
+    }
+   },
+   {
+    "id": "cfi3-33-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une consigne ne peut jamais être exprimée poliment.",
+     "L’instruction peut conserver une forme courtoise."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-33-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "consigne : une instruction indiquant une action à réaliser.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : consigne désigne une instruction indiquant une action à réaliser. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "absence de pronom sujet : la construction de l’impératif sans tu, nous ou vous exprimé comme sujet.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : absence de pronom sujet désigne la construction de l’impératif sans tu, nous ou vous exprimé comme sujet. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "action commune : la proposition impliquant le locuteur et le groupe.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : action commune désigne la proposition impliquant le locuteur et le groupe. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "forme singulière en -er : le modèle sans s de la personne correspondant à tu dans les cas étudiés.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : forme singulière en -er désigne le modèle sans s de la personne correspondant à tu dans les cas étudiés. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une consigne ne peut jamais être exprimée poliment.",
+        "truth": "false",
+        "explain": "L’instruction peut conserver une forme courtoise."
+       },
+       {
+        "text": "L’impératif exige toujours vous placé comme sujet avant le verbe.",
+        "truth": "false",
+        "explain": "Le sujet n’est pas exprimé ainsi dans le modèle."
+       },
+       {
+        "text": "La forme de nous exclut toujours le locuteur.",
+        "truth": "false",
+        "explain": "Elle peut proposer une action à laquelle le locuteur participe."
+       },
+       {
+        "text": "Tous les impératifs sans exception gardent exactement le s de tu au présent.",
+        "truth": "false",
+        "explain": "Les verbes et les contextes demandent une vérification ; le modèle en -er étudié n’a pas ce s."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-33-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : une instruction indiquant une action à réaliser ?",
+       "r": "consigne",
+       "w": [
+        "absence de pronom sujet",
+        "action commune",
+        "forme singulière en -er"
+       ],
+       "e": [
+        "« absence de pronom sujet » désigne la construction de l’impératif sans tu, nous ou vous exprimé comme sujet. Ici, cherche une instruction indiquant une action à réaliser.",
+        "« action commune » désigne la proposition impliquant le locuteur et le groupe. Ici, cherche une instruction indiquant une action à réaliser.",
+        "« forme singulière en -er » désigne le modèle sans s de la personne correspondant à tu dans les cas étudiés. Ici, cherche une instruction indiquant une action à réaliser."
+       ],
+       "y": "Une instruction indiquant une action à réaliser."
+      },
+      {
+       "q": "Quel terme désigne : la construction de l’impératif sans tu, nous ou vous exprimé comme sujet ?",
+       "r": "absence de pronom sujet",
+       "w": [
+        "consigne",
+        "action commune",
+        "forme singulière en -er"
+       ],
+       "e": [
+        "« consigne » désigne une instruction indiquant une action à réaliser. Ici, cherche la construction de l’impératif sans tu, nous ou vous exprimé comme sujet.",
+        "« action commune » désigne la proposition impliquant le locuteur et le groupe. Ici, cherche la construction de l’impératif sans tu, nous ou vous exprimé comme sujet.",
+        "« forme singulière en -er » désigne le modèle sans s de la personne correspondant à tu dans les cas étudiés. Ici, cherche la construction de l’impératif sans tu, nous ou vous exprimé comme sujet."
+       ],
+       "y": "La construction de l’impératif sans tu, nous ou vous exprimé comme sujet."
+      },
+      {
+       "q": "Quel terme désigne : la proposition impliquant le locuteur et le groupe ?",
+       "r": "action commune",
+       "w": [
+        "consigne",
+        "absence de pronom sujet",
+        "forme singulière en -er"
+       ],
+       "e": [
+        "« consigne » désigne une instruction indiquant une action à réaliser. Ici, cherche la proposition impliquant le locuteur et le groupe.",
+        "« absence de pronom sujet » désigne la construction de l’impératif sans tu, nous ou vous exprimé comme sujet. Ici, cherche la proposition impliquant le locuteur et le groupe.",
+        "« forme singulière en -er » désigne le modèle sans s de la personne correspondant à tu dans les cas étudiés. Ici, cherche la proposition impliquant le locuteur et le groupe."
+       ],
+       "y": "La proposition impliquant le locuteur et le groupe."
+      },
+      {
+       "q": "Quel terme désigne : le modèle sans s de la personne correspondant à tu dans les cas étudiés ?",
+       "r": "forme singulière en -er",
+       "w": [
+        "consigne",
+        "absence de pronom sujet",
+        "action commune"
+       ],
+       "e": [
+        "« consigne » désigne une instruction indiquant une action à réaliser. Ici, cherche le modèle sans s de la personne correspondant à tu dans les cas étudiés.",
+        "« absence de pronom sujet » désigne la construction de l’impératif sans tu, nous ou vous exprimé comme sujet. Ici, cherche le modèle sans s de la personne correspondant à tu dans les cas étudiés.",
+        "« action commune » désigne la proposition impliquant le locuteur et le groupe. Ici, cherche le modèle sans s de la personne correspondant à tu dans les cas étudiés."
+       ],
+       "y": "Le modèle sans s de la personne correspondant à tu dans les cas étudiés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-33-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Range le matériel donne une instruction dans le modèle.\nQuel terme s’applique le mieux ?",
+       "r": "consigne",
+       "w": [
+        "absence de pronom sujet",
+        "action commune",
+        "forme singulière en -er"
+       ],
+       "e": [
+        "« absence de pronom sujet » concerne la construction de l’impératif sans tu, nous ou vous exprimé comme sujet. Le cas décrit plutôt une instruction indiquant une action à réaliser.",
+        "« action commune » concerne la proposition impliquant le locuteur et le groupe. Le cas décrit plutôt une instruction indiquant une action à réaliser.",
+        "« forme singulière en -er » concerne le modèle sans s de la personne correspondant à tu dans les cas étudiés. Le cas décrit plutôt une instruction indiquant une action à réaliser."
+       ],
+       "y": "Range le matériel donne une instruction dans le modèle. Une instruction indiquant une action à réaliser."
+      },
+      {
+       "q": "{fr2Imperatif('travailler',2)} ne commence pas par vous sujet.\nQuel terme s’applique le mieux ?",
+       "r": "absence de pronom sujet",
+       "w": [
+        "consigne",
+        "action commune",
+        "forme singulière en -er"
+       ],
+       "e": [
+        "« consigne » concerne une instruction indiquant une action à réaliser. Le cas décrit plutôt la construction de l’impératif sans tu, nous ou vous exprimé comme sujet.",
+        "« action commune » concerne la proposition impliquant le locuteur et le groupe. Le cas décrit plutôt la construction de l’impératif sans tu, nous ou vous exprimé comme sujet.",
+        "« forme singulière en -er » concerne le modèle sans s de la personne correspondant à tu dans les cas étudiés. Le cas décrit plutôt la construction de l’impératif sans tu, nous ou vous exprimé comme sujet."
+       ],
+       "y": "{fr2Imperatif('travailler',2)} ne commence pas par vous sujet. La construction de l’impératif sans tu, nous ou vous exprimé comme sujet."
+      },
+      {
+       "q": "{fr2Imperatif('travailler',1)} invite le groupe à agir ensemble.\nQuel terme s’applique le mieux ?",
+       "r": "action commune",
+       "w": [
+        "consigne",
+        "absence de pronom sujet",
+        "forme singulière en -er"
+       ],
+       "e": [
+        "« consigne » concerne une instruction indiquant une action à réaliser. Le cas décrit plutôt la proposition impliquant le locuteur et le groupe.",
+        "« absence de pronom sujet » concerne la construction de l’impératif sans tu, nous ou vous exprimé comme sujet. Le cas décrit plutôt la proposition impliquant le locuteur et le groupe.",
+        "« forme singulière en -er » concerne le modèle sans s de la personne correspondant à tu dans les cas étudiés. Le cas décrit plutôt la proposition impliquant le locuteur et le groupe."
+       ],
+       "y": "{fr2Imperatif('travailler',1)} invite le groupe à agir ensemble. La proposition impliquant le locuteur et le groupe."
+      },
+      {
+       "q": "{fr2Imperatif('travailler',0)} ne garde pas le s du présent avec tu.\nQuel terme s’applique le mieux ?",
+       "r": "forme singulière en -er",
+       "w": [
+        "consigne",
+        "absence de pronom sujet",
+        "action commune"
+       ],
+       "e": [
+        "« consigne » concerne une instruction indiquant une action à réaliser. Le cas décrit plutôt le modèle sans s de la personne correspondant à tu dans les cas étudiés.",
+        "« absence de pronom sujet » concerne la construction de l’impératif sans tu, nous ou vous exprimé comme sujet. Le cas décrit plutôt le modèle sans s de la personne correspondant à tu dans les cas étudiés.",
+        "« action commune » concerne la proposition impliquant le locuteur et le groupe. Le cas décrit plutôt le modèle sans s de la personne correspondant à tu dans les cas étudiés."
+       ],
+       "y": "{fr2Imperatif('travailler',0)} ne garde pas le s du présent avec tu. Le modèle sans s de la personne correspondant à tu dans les cas étudiés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-33-imperatif",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "travailler",
+      "parler",
+      "jouer",
+      "finir"
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      2
+     ]
+    }
+   },
+   "prompt": "Donne l’impératif de « {v} » correspondant à « {fr2ImperPerson(k)} ».",
+   "correct": "{fr2Imperatif(v,k)}",
+   "distractors": [
+    {
+     "text": "{fr2Imperatif(v,(k+1)%3)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{v}",
+     "misconception": "infinitif"
+    },
+    {
+     "text": "{fr2ImperPerson(k)+' '+fr2Imperatif(v,k)}",
+     "misconception": "sujet"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette forme s’adresse à une autre personne ou à un autre groupe."
+    },
+    {
+     "id": "infinitif",
+     "explain": "Tu as gardé l’infinitif au lieu de former l’impératif personnel demandé."
+    },
+    {
+     "id": "sujet",
+     "explain": "Le modèle de l’impératif n’exprime pas ce pronom sujet avant le verbe."
+    }
+   ],
+   "solution": [
+    "Choisis la personne de la consigne.",
+    "L’impératif attendu est {answer}, sans pronom sujet."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-33-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "consigne",
+     "right": "Range le matériel donne une instruction dans le modèle."
+    },
+    {
+     "left": "absence de pronom sujet",
+     "right": "{fr2Imperatif('travailler',2)} ne commence pas par vous sujet."
+    },
+    {
+     "left": "action commune",
+     "right": "{fr2Imperatif('travailler',1)} invite le groupe à agir ensemble."
+    },
+    {
+     "left": "forme singulière en -er",
+     "right": "{fr2Imperatif('travailler',0)} ne garde pas le s du présent avec tu."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-33-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "consigne : une instruction indiquant une action à réaliser.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : consigne désigne une instruction indiquant une action à réaliser. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "absence de pronom sujet : la construction de l’impératif sans tu, nous ou vous exprimé comme sujet.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : absence de pronom sujet désigne la construction de l’impératif sans tu, nous ou vous exprimé comme sujet. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "action commune : la proposition impliquant le locuteur et le groupe.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : action commune désigne la proposition impliquant le locuteur et le groupe. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "forme singulière en -er : le modèle sans s de la personne correspondant à tu dans les cas étudiés.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : forme singulière en -er désigne le modèle sans s de la personne correspondant à tu dans les cas étudiés. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une consigne ne peut jamais être exprimée poliment.",
+      "truth": "false",
+      "explain": "L’instruction peut conserver une forme courtoise."
+     },
+     {
+      "text": "L’impératif exige toujours vous placé comme sujet avant le verbe.",
+      "truth": "false",
+      "explain": "Le sujet n’est pas exprimé ainsi dans le modèle."
+     },
+     {
+      "text": "La forme de nous exclut toujours le locuteur.",
+      "truth": "false",
+      "explain": "Elle peut proposer une action à laquelle le locuteur participe."
+     },
+     {
+      "text": "Tous les impératifs sans exception gardent exactement le s de tu au présent.",
+      "truth": "false",
+      "explain": "Les verbes et les contextes demandent une vérification ; le modèle en -er étudié n’a pas ce s."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

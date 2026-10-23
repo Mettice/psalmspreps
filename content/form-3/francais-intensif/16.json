@@ -1,0 +1,619 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 16,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-16",
+   "name": "Raconter une journée"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Raconter sa journée demande de sélectionner des activités et de les ordonner. Les repères le matin, ensuite et le soir aident le lecteur. Choisis un temps cohérent avec le projet : une journée habituelle et une journée achevée ne sont pas présentées de la même manière. Une liste sans lien donne moins de sens qu’un récit organisé. Tu peux raconter la journée d’un personnage imaginaire.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Raconter sa journée demande de sélectionner des activités et de les ordonner. Les repères le matin, ensuite et le soir aident le lecteur. Choisis un temps cohérent avec le projet : une journée habituelle et une journée achevée ne sont pas présentées de la même manière. Une liste sans lien donne moins de sens qu’un récit organisé. Tu peux raconter la journée d’un personnage imaginaire."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Modèle original : Le matin, un personnage imaginaire prépare son sac puis rejoint sa classe. Après les cours, il aide à ranger du matériel avant de relire ses notes. Le soir, il prépare le travail du lendemain. Le texte présente une journée habituelle au présent et relie les activités sans dévoiler une adresse personnelle."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Prépare les moments utiles, choisis le point de vue et le temps, puis relie les actions. Ajoute une précision pertinente plutôt que toutes les minutes de la journée. Relis les pronoms pour que le lecteur sache toujours qui agit."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "chronologie",
+    "meaning": "l’ordre temporel des activités"
+   },
+   {
+    "word": "repère temporel",
+    "meaning": "une expression situant l’action dans la journée"
+   },
+   {
+    "word": "cohérence des temps",
+    "meaning": "le choix de formes compatibles avec le récit voulu"
+   },
+   {
+    "word": "sélection des faits",
+    "meaning": "le choix d’activités utiles au récit"
+   }
+  ],
+  "examples": [
+   "Le matin précède le soir dans le récit linéaire.",
+   "Après les cours situe une activité.",
+   "Une journée habituelle peut être présentée au présent."
+  ],
+  "mistake": {
+   "wrong": "La chronologie signifie un classement des objets par couleur.",
+   "right": "chronologie: l’ordre temporel des activités.",
+   "why": "Elle concerne l’ordre dans le temps."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le matin précède le soir dans le récit linéaire. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "L’ordre temporel des activités.",
+   "Elle concerne l’ordre dans le temps."
+  ],
+  "answer": "chronologie",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-16-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "chronologie: l’ordre temporel des activités.",
+     "repère temporel: une expression situant l’action dans la journée.",
+     "cohérence des temps: le choix de formes compatibles avec le récit voulu.",
+     "sélection des faits: le choix d’activités utiles au récit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-16-terms"
+    }
+   },
+   {
+    "id": "cfi3-16-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le matin précède le soir dans le récit linéaire.",
+     "chronologie: l’ordre temporel des activités."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-16-cases"
+    }
+   },
+   {
+    "id": "cfi3-16-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "La chronologie signifie un classement des objets par couleur.",
+     "Elle concerne l’ordre dans le temps."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-16-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "chronologie : l’ordre temporel des activités.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : chronologie désigne l’ordre temporel des activités. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "repère temporel : une expression situant l’action dans la journée.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : repère temporel désigne une expression situant l’action dans la journée. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "cohérence des temps : le choix de formes compatibles avec le récit voulu.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : cohérence des temps désigne le choix de formes compatibles avec le récit voulu. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "sélection des faits : le choix d’activités utiles au récit.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : sélection des faits désigne le choix d’activités utiles au récit. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "La chronologie signifie un classement des objets par couleur.",
+        "truth": "false",
+        "explain": "Elle concerne l’ordre dans le temps."
+       },
+       {
+        "text": "Après les cours indique toujours une couleur.",
+        "truth": "false",
+        "explain": "L’expression donne un moment relatif."
+       },
+       {
+        "text": "On change de temps à chaque phrase sans aucun motif.",
+        "truth": "false",
+        "explain": "Les changements doivent avoir une justification dans le récit."
+       },
+       {
+        "text": "Une narration exige tous les détails privés sans exception.",
+        "truth": "false",
+        "explain": "Sélectionne les faits pertinents et protège la vie privée."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-16-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : l’ordre temporel des activités ?",
+       "r": "chronologie",
+       "w": [
+        "repère temporel",
+        "cohérence des temps",
+        "sélection des faits"
+       ],
+       "e": [
+        "« repère temporel » désigne une expression situant l’action dans la journée. Ici, cherche l’ordre temporel des activités.",
+        "« cohérence des temps » désigne le choix de formes compatibles avec le récit voulu. Ici, cherche l’ordre temporel des activités.",
+        "« sélection des faits » désigne le choix d’activités utiles au récit. Ici, cherche l’ordre temporel des activités."
+       ],
+       "y": "L’ordre temporel des activités."
+      },
+      {
+       "q": "Quel terme désigne : une expression situant l’action dans la journée ?",
+       "r": "repère temporel",
+       "w": [
+        "chronologie",
+        "cohérence des temps",
+        "sélection des faits"
+       ],
+       "e": [
+        "« chronologie » désigne l’ordre temporel des activités. Ici, cherche une expression situant l’action dans la journée.",
+        "« cohérence des temps » désigne le choix de formes compatibles avec le récit voulu. Ici, cherche une expression situant l’action dans la journée.",
+        "« sélection des faits » désigne le choix d’activités utiles au récit. Ici, cherche une expression situant l’action dans la journée."
+       ],
+       "y": "Une expression situant l’action dans la journée."
+      },
+      {
+       "q": "Quel terme désigne : le choix de formes compatibles avec le récit voulu ?",
+       "r": "cohérence des temps",
+       "w": [
+        "chronologie",
+        "repère temporel",
+        "sélection des faits"
+       ],
+       "e": [
+        "« chronologie » désigne l’ordre temporel des activités. Ici, cherche le choix de formes compatibles avec le récit voulu.",
+        "« repère temporel » désigne une expression situant l’action dans la journée. Ici, cherche le choix de formes compatibles avec le récit voulu.",
+        "« sélection des faits » désigne le choix d’activités utiles au récit. Ici, cherche le choix de formes compatibles avec le récit voulu."
+       ],
+       "y": "Le choix de formes compatibles avec le récit voulu."
+      },
+      {
+       "q": "Quel terme désigne : le choix d’activités utiles au récit ?",
+       "r": "sélection des faits",
+       "w": [
+        "chronologie",
+        "repère temporel",
+        "cohérence des temps"
+       ],
+       "e": [
+        "« chronologie » désigne l’ordre temporel des activités. Ici, cherche le choix d’activités utiles au récit.",
+        "« repère temporel » désigne une expression situant l’action dans la journée. Ici, cherche le choix d’activités utiles au récit.",
+        "« cohérence des temps » désigne le choix de formes compatibles avec le récit voulu. Ici, cherche le choix d’activités utiles au récit."
+       ],
+       "y": "Le choix d’activités utiles au récit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-16-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le matin précède le soir dans le récit linéaire.\nQuel terme s’applique le mieux ?",
+       "r": "chronologie",
+       "w": [
+        "repère temporel",
+        "cohérence des temps",
+        "sélection des faits"
+       ],
+       "e": [
+        "« repère temporel » concerne une expression situant l’action dans la journée. Le cas décrit plutôt l’ordre temporel des activités.",
+        "« cohérence des temps » concerne le choix de formes compatibles avec le récit voulu. Le cas décrit plutôt l’ordre temporel des activités.",
+        "« sélection des faits » concerne le choix d’activités utiles au récit. Le cas décrit plutôt l’ordre temporel des activités."
+       ],
+       "y": "Le matin précède le soir dans le récit linéaire. L’ordre temporel des activités."
+      },
+      {
+       "q": "Après les cours situe une activité.\nQuel terme s’applique le mieux ?",
+       "r": "repère temporel",
+       "w": [
+        "chronologie",
+        "cohérence des temps",
+        "sélection des faits"
+       ],
+       "e": [
+        "« chronologie » concerne l’ordre temporel des activités. Le cas décrit plutôt une expression situant l’action dans la journée.",
+        "« cohérence des temps » concerne le choix de formes compatibles avec le récit voulu. Le cas décrit plutôt une expression situant l’action dans la journée.",
+        "« sélection des faits » concerne le choix d’activités utiles au récit. Le cas décrit plutôt une expression situant l’action dans la journée."
+       ],
+       "y": "Après les cours situe une activité. Une expression situant l’action dans la journée."
+      },
+      {
+       "q": "Une journée habituelle peut être présentée au présent.\nQuel terme s’applique le mieux ?",
+       "r": "cohérence des temps",
+       "w": [
+        "chronologie",
+        "repère temporel",
+        "sélection des faits"
+       ],
+       "e": [
+        "« chronologie » concerne l’ordre temporel des activités. Le cas décrit plutôt le choix de formes compatibles avec le récit voulu.",
+        "« repère temporel » concerne une expression situant l’action dans la journée. Le cas décrit plutôt le choix de formes compatibles avec le récit voulu.",
+        "« sélection des faits » concerne le choix d’activités utiles au récit. Le cas décrit plutôt le choix de formes compatibles avec le récit voulu."
+       ],
+       "y": "Une journée habituelle peut être présentée au présent. Le choix de formes compatibles avec le récit voulu."
+      },
+      {
+       "q": "Le personnage garde les actions qui font comprendre sa journée.\nQuel terme s’applique le mieux ?",
+       "r": "sélection des faits",
+       "w": [
+        "chronologie",
+        "repère temporel",
+        "cohérence des temps"
+       ],
+       "e": [
+        "« chronologie » concerne l’ordre temporel des activités. Le cas décrit plutôt le choix d’activités utiles au récit.",
+        "« repère temporel » concerne une expression situant l’action dans la journée. Le cas décrit plutôt le choix d’activités utiles au récit.",
+        "« cohérence des temps » concerne le choix de formes compatibles avec le récit voulu. Le cas décrit plutôt le choix d’activités utiles au récit."
+       ],
+       "y": "Le personnage garde les actions qui font comprendre sa journée. Le choix d’activités utiles au récit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-16-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le matin précède le soir dans le récit linéaire.\nQuelle explication justifie le classement ?",
+       "r": "L’ordre temporel des activités.",
+       "w": [
+        "Une expression situant l’action dans la journée.",
+        "Le choix de formes compatibles avec le récit voulu.",
+        "Le choix d’activités utiles au récit."
+       ],
+       "e": [
+        "Cette explication correspond à « repère temporel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « cohérence des temps ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sélection des faits ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Elle concerne l’ordre dans le temps."
+      },
+      {
+       "q": "Après les cours situe une activité.\nQuelle explication justifie le classement ?",
+       "r": "Une expression situant l’action dans la journée.",
+       "w": [
+        "L’ordre temporel des activités.",
+        "Le choix de formes compatibles avec le récit voulu.",
+        "Le choix d’activités utiles au récit."
+       ],
+       "e": [
+        "Cette explication correspond à « chronologie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « cohérence des temps ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sélection des faits ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’expression donne un moment relatif."
+      },
+      {
+       "q": "Une journée habituelle peut être présentée au présent.\nQuelle explication justifie le classement ?",
+       "r": "Le choix de formes compatibles avec le récit voulu.",
+       "w": [
+        "L’ordre temporel des activités.",
+        "Une expression situant l’action dans la journée.",
+        "Le choix d’activités utiles au récit."
+       ],
+       "e": [
+        "Cette explication correspond à « chronologie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « repère temporel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sélection des faits ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les changements doivent avoir une justification dans le récit."
+      },
+      {
+       "q": "Le personnage garde les actions qui font comprendre sa journée.\nQuelle explication justifie le classement ?",
+       "r": "Le choix d’activités utiles au récit.",
+       "w": [
+        "L’ordre temporel des activités.",
+        "Une expression situant l’action dans la journée.",
+        "Le choix de formes compatibles avec le récit voulu."
+       ],
+       "e": [
+        "Cette explication correspond à « chronologie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « repère temporel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « cohérence des temps ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Sélectionne les faits pertinents et protège la vie privée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-16-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "chronologie",
+     "right": "Le matin précède le soir dans le récit linéaire."
+    },
+    {
+     "left": "repère temporel",
+     "right": "Après les cours situe une activité."
+    },
+    {
+     "left": "cohérence des temps",
+     "right": "Une journée habituelle peut être présentée au présent."
+    },
+    {
+     "left": "sélection des faits",
+     "right": "Le personnage garde les actions qui font comprendre sa journée."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-16-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "chronologie : l’ordre temporel des activités.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : chronologie désigne l’ordre temporel des activités. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "repère temporel : une expression situant l’action dans la journée.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : repère temporel désigne une expression situant l’action dans la journée. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "cohérence des temps : le choix de formes compatibles avec le récit voulu.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : cohérence des temps désigne le choix de formes compatibles avec le récit voulu. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "sélection des faits : le choix d’activités utiles au récit.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : sélection des faits désigne le choix d’activités utiles au récit. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La chronologie signifie un classement des objets par couleur.",
+      "truth": "false",
+      "explain": "Elle concerne l’ordre dans le temps."
+     },
+     {
+      "text": "Après les cours indique toujours une couleur.",
+      "truth": "false",
+      "explain": "L’expression donne un moment relatif."
+     },
+     {
+      "text": "On change de temps à chaque phrase sans aucun motif.",
+      "truth": "false",
+      "explain": "Les changements doivent avoir une justification dans le récit."
+     },
+     {
+      "text": "Une narration exige tous les détails privés sans exception.",
+      "truth": "false",
+      "explain": "Sélectionne les faits pertinents et protège la vie privée."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Raconte la journée habituelle d’un personnage imaginaire. Utilise un point de vue et des repères cohérents.",
+  "model": [
+   "Le matin, un personnage imaginaire prépare son sac puis rejoint sa classe. Après les cours, il aide à ranger du matériel avant de relire ses notes. Le soir, il prépare le travail du lendemain. Le texte présente une journée habituelle au présent et relie les activités sans dévoiler une adresse personnelle."
+  ],
+  "checklist": [
+   "Les activités suivent un ordre lisible.",
+   "Mes temps et pronoms restent cohérents.",
+   "Je choisis des détails utiles sans données privées."
+  ],
+  "checks": []
+ }
+}
