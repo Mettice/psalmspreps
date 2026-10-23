@@ -154,7 +154,7 @@ def use_class(name):
     m = re.fullmatch(r"form-(\d)|(lower|upper)-sixth", name)
     if not m:
         sys.exit(f"unknown class {name!r}: use form-1 … form-5, lower-sixth, upper-sixth")
-    SHEETS = ROOT / "data" / name.replace("-", "")
+    SHEETS = ROOT / "data" / {"lower-sixth": "lower6", "upper-sixth": "upper6"}.get(name, name.replace("-", ""))  # data/form4, data/lower6
     SPINE = ROOT / "data" / "spine" / name
     CLASS_LABEL = f"Form {m.group(1)}" if m.group(1) else f"{m.group(2).capitalize()} Sixth"
     val.load_rules = lambda stem: None
