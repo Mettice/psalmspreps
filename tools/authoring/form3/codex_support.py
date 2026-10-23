@@ -22,7 +22,7 @@ def fact(term, meaning, example, error, correction):
 
 def concept_lesson(subject, prefix, n, title, overview, application, method, facts, source,
                    prerequisites=(), language="en", replacement=None, paper=None,
-                   worked_override=None, learn_figure=None, lesson_subject=None):
+                   worked_override=None, learn_figure=None, lesson_subject=None, sections_override=None):
     assert len(facts) >= 4
     b = FR if language == "fr" else EN
     ident = f"{prefix}{n}"
@@ -68,7 +68,7 @@ def concept_lesson(subject, prefix, n, title, overview, application, method, fac
     note = overview
     if len(note.split()) > 145:
         raise ValueError(f"{ident}: summary too long")
-    sections = [("Comprendre les notions" if language == "fr" else "Understand the ideas", overview),
+    sections = sections_override or [("Comprendre les notions" if language == "fr" else "Understand the ideas", overview),
                 ("Appliquer dans une situation" if language == "fr" else "Apply the ideas locally", application),
                 ("Raisonner et vérifier" if language == "fr" else "Reason and check", method)]
     if learn_figure:

@@ -2765,282 +2765,288 @@ Prerequisites: none · Skill: y3-10 (Responses to German rule: resistance and pr
 
 **Note** (draft)
 
-> African responses included armed opposition, petitions, negotiation, evasion and defence of land or authority. Coastal conflict in {1884} must be distinguished from the later Duala land-expropriation protest associated with Rudolf Duala Manga Bell, executed in {1914}. Bakweri resistance is associated with Kuva Likenye and opposition to intrusion. Mamfe, Bangwa and Nso cases require attention to their own local sequence and sources, rather than being treated as one battle. Colonial accounts often frame resistance as disorder; historians must examine that standpoint.
+> Resistance to German expansion included armed defence, petitions and refusal of imposed demands. Bakweri, Bangwa, Mamfe/Cross River and Nso campaigns had distinct causes and sequences. Early coastal conflict must also be separated from the later Duala land protest associated with Rudolf Duala Manga Bell. Compare demand, response and consequence, keeping African decisions visible. An official label such as rebellion does not prove that a community had freely accepted colonial authority. A military defeat did not erase continuing opposition or the costs of colonial rule.
 
-**Learn: Understand the ideas** (draft)
+**Learn: Coastal and Bakweri responses** (draft)
 
-> African responses included armed opposition, petitions, negotiation, evasion and defence of land or authority. Coastal conflict in 1884 must be distinguished from the later Duala land-expropriation protest associated with Rudolf Duala Manga Bell, executed in 1914. Bakweri resistance is associated with Kuva Likenye and opposition to intrusion. Mamfe, Bangwa and Nso cases require attention to their own local sequence and sources, rather than being treated as one battle. Colonial accounts often frame resistance as disorder; historians must examine that standpoint.
+> Lock Priso’s opposition in 1884 differed from later Duala land petitions. Rudolf Duala Manga Bell challenged expropriation and was executed in 1914. Around Buea, Kuva Likenye defended Bakweri authority and land against intrusion. His forces repelled the German attack in 1891; a better-armed attack in 1894 defeated them. An early victory did not ensure permanent independence.
 
-**Learn: Apply the ideas locally** (draft)
+**Learn: Bangwa: recruitment and changing relations** (draft)
 
-> A petition against taking land is a form of resistance even when it is not a battlefield action. A regional comparison should ask what demand was opposed, which methods were used and what happened. The removal of Nso heritage during unequal colonial encounters also raises questions about coercion beyond an account of open warfare. No invented speech in this lesson is presented as an authentic quotation.
+> Asunganyi initially received Gustav Conrau, who recruited workers for coastal plantations in 1898. When Conrau sought more workers without the earlier recruits returning, relations deteriorated. Conrau was detained and died after attempting escape; accounts differ about the precise circumstances. Bangwa resistance met repeated German raids, destruction and seizures. Asunganyi continued opposition before his capture and exile in 1911. Initial cooperation did not mean unconditional consent.
 
-**Learn: Reason and check** (draft)
+**Learn: Mamfe and the Upper Cross River** (draft)
 
-> Use named local accounts and compare more than the colonial official's report. Keep early armed conflict separate from later legal and land protest. Teachers should supplement the detailed Mamfe, Bangwa and Nso campaign chronology from the approved course text; exact unsourced battle dates are not supplied here.
+> Colonial intrusion, coercion and commercial demands provoked opposition among communities around the Cross River. In 1904, Pückler-Limpurg’s expedition met armed resistance; he died during the fighting. Attacks also targeted trading posts. German forces retaliated through destructive campaigns, including burning settlements and crops and executing opponents. Colonial control followed severe repression. Mamfe is a regional label here, not proof that every community had one ruler or identical aims.
+
+**Learn: Nso: distinguish the encounters** (draft)
+
+> Nso defended its authority amid unequal colonial demands. Pavel’s armed presence must be distinguished from Houben’s attack in 1902 and the further campaign in 1906, after which German control and tribute demands were imposed. The palace suffered burning and looting during military violence. Ngonnso’s removal has a contested acquisition history: do not assign it to a particular battle without evidence. Compare local memory and colonial records, then explain each campaign’s causes, methods and consequences.
 
 **Learn: key words and examples** (draft)
 
-- **armed opposition**: resistance using organised force against intrusion
-- **petition and legal protest**: resistance through a formal written appeal or challenge
-- **land grievance**: opposition linked to loss or threatened loss of land
-- **source perspective**: the standpoint shaping how an event is described
+- **Bakweri resistance**: Kuva Likenye’s defence around Buea against German intrusion
+- **Bangwa resistance**: opposition associated with Asunganyi and demands for plantation workers
+- **Mamfe/Cross River resistance**: armed opposition to German intrusion in the Upper Cross River region
+- **Nso resistance**: defence of Nso authority through conflicts culminating in imposed control
+- **Duala land protest**: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell
 
-- A community fights an expedition seeking to impose authority.
-- Duala leaders challenge land expropriation through appeals.
-- Residents contest a plan to remove them from their land.
+- Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894.
+- A dispute over recruited workers precedes Bangwa resistance and German raids.
+- The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.
 
-Common mistake: “Only written petitions can count as resistance.” → “armed opposition: resistance using organised force against intrusion.”. Armed action is one form of resistance alongside non-military methods.
+Common mistake: “The Bakweri victory in 1891 prevented every later German attack.” → “Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.”. The initial success was followed by renewed attack and defeat in 1894.
 
 **Card cy3-10-terms** (draft)
 
 > Distinguish the lesson's concepts before applying them.
 >
-> _armed opposition: resistance using organised force against intrusion._  
-> _petition and legal protest: resistance through a formal written appeal or challenge._  
-> _land grievance: opposition linked to loss or threatened loss of land._  
-> _source perspective: the standpoint shaping how an event is described._  
+> _Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion._  
+> _Bangwa resistance: opposition associated with Asunganyi and demands for plantation workers._  
+> _Mamfe/Cross River resistance: armed opposition to German intrusion in the Upper Cross River region._  
+> _Nso resistance: defence of Nso authority through conflicts culminating in imposed control._  
+> _Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._  
 
 Check question: `y3-10-terms` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Which term means: opposition linked to loss or threatened loss of land ?
+> Which term means: defence of Nso authority through conflicts culminating in imposed control ?
 
-- ✅ land grievance
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest means resistance through a formal written appeal or challenge; the question instead describes opposition linked to loss or threatened loss of land._
-- ◻️ armed opposition  
-  _↳ feedback if chosen: armed opposition means resistance using organised force against intrusion; the question instead describes opposition linked to loss or threatened loss of land._
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective means the standpoint shaping how an event is described; the question instead describes opposition linked to loss or threatened loss of land._
+- ✅ Nso resistance
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes defence of Nso authority through conflicts culminating in imposed control._
+- ◻️ Bakweri resistance  
+  _↳ feedback if chosen: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes defence of Nso authority through conflicts culminating in imposed control._
+- ◻️ Mamfe/Cross River resistance  
+  _↳ feedback if chosen: Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region; the question instead describes defence of Nso authority through conflicts culminating in imposed control._
 
 Full working after a second miss:
 
-> Opposition linked to loss or threatened loss of land.  
-> So the answer is “land grievance”.  
+> Defence of nso authority through conflicts culminating in imposed control.  
+> So the answer is “Nso resistance”.  
 
 **Card cy3-10-cases** (draft)
 
 > Classify a case by its features, rather than by a familiar word alone.
 >
-> _A community fights an expedition seeking to impose authority._  
-> _armed opposition: resistance using organised force against intrusion._  
+> _Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894._  
+> _Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion._  
 
 Check question: `y3-10-cases` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Duala leaders challenge land expropriation through appeals.
+> The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.
 > Which term best fits this example?
 
-- ◻️ armed opposition  
-  _↳ feedback if chosen: armed opposition concerns resistance using organised force against intrusion. This case instead illustrates resistance through a formal written appeal or challenge._
-- ✅ petition and legal protest
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance concerns opposition linked to loss or threatened loss of land. This case instead illustrates resistance through a formal written appeal or challenge._
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective concerns the standpoint shaping how an event is described. This case instead illustrates resistance through a formal written appeal or challenge._
+- ◻️ Bakweri resistance  
+  _↳ feedback if chosen: Bakweri resistance concerns Kuva Likenye’s defence around Buea against German intrusion. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region._
+- ✅ Mamfe/Cross River resistance
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region._
+- ◻️ Nso resistance  
+  _↳ feedback if chosen: Nso resistance concerns defence of Nso authority through conflicts culminating in imposed control. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region._
 
 Full working after a second miss:
 
-> Duala leaders challenge land expropriation through appeals. Resistance through a formal written appeal or challenge.  
-> So the answer is “petition and legal protest”.  
+> The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals. Armed opposition to german intrusion in the upper cross river region.  
+> So the answer is “Mamfe/Cross River resistance”.  
 
 **Card cy3-10-repair** (draft)
 
 > Check that a claim agrees with the rule or definition it uses.
 >
-> _Only written petitions can count as resistance._  
-> _Armed action is one form of resistance alongside non-military methods._  
+> _The Bakweri victory in 1891 prevented every later German attack._  
+> _The initial success was followed by renewed attack and defeat in 1894._  
 
 Check question: `y3-10-repair-card` · spot the error, level 1 · **authored key**
 
 > Find the incorrect claim.
 
-- ◻️ land grievance: opposition linked to loss or threatened loss of land.  
-  _↳ explanation: This statement is correct: land grievance means opposition linked to loss or threatened loss of land. Look for a claim that conflicts with its definition._
-- ◻️ petition and legal protest: resistance through a formal written appeal or challenge.  
-  _↳ explanation: This statement is correct: petition and legal protest means resistance through a formal written appeal or challenge. Look for a claim that conflicts with its definition._
-- ✅ Land removal has no possible role in resistance.  
-  _↳ explanation: Land threatened livelihoods, authority and rights and could motivate protest._
-- ◻️ source perspective: the standpoint shaping how an event is described.  
-  _↳ explanation: This statement is correct: source perspective means the standpoint shaping how an event is described. Look for a claim that conflicts with its definition._
+- ◻️ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.  
+  _↳ explanation: This statement is correct: Nso resistance means defence of Nso authority through conflicts culminating in imposed control. Look for a claim that conflicts with its definition._
+- ✅ An initial agreement over workers proves Asunganyi accepted every later demand.  
+  _↳ explanation: The relationship changed when disputes over recruitment developed._
+- ◻️ Mamfe/Cross River resistance: armed opposition to German intrusion in the Upper Cross River region.  
+  _↳ explanation: This statement is correct: Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region. Look for a claim that conflicts with its definition._
+- ◻️ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.  
+  _↳ explanation: This statement is correct: Duala land protest means appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. Look for a claim that conflicts with its definition._
 
 Full working after a second miss:
 
-> The wrong statement is “Land removal has no possible role in resistance.”.  
-> Land threatened livelihoods, authority and rights and could motivate protest.  
+> The wrong statement is “An initial agreement over workers proves Asunganyi accepted every later demand.”.  
+> The relationship changed when disputes over recruitment developed.  
 
 **Worked example** (draft)
 
-> A community fights an expedition seeking to impose authority. Which concept applies?
+> Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894. Which concept applies?
 
 1. Identify the features of the case.
-2. Resistance using organised force against intrusion.
-3. Armed action is one form of resistance alongside non-military methods.
+2. Kuva likenye’s defence around buea against german intrusion.
+3. The initial success was followed by renewed attack and defeat in 1894.
 
-**Answer:** armed opposition
+**Answer:** Bakweri resistance
 
 **Practice** `y3-10-terms` · multiple choice, level 1 · **authored key**
 
-> Which term means: resistance through a formal written appeal or challenge ?
+> Which term means: armed opposition to German intrusion in the Upper Cross River region ?
 
-- ◻️ armed opposition  
-  _↳ feedback if chosen: armed opposition means resistance using organised force against intrusion; the question instead describes resistance through a formal written appeal or challenge._
-- ✅ petition and legal protest
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance means opposition linked to loss or threatened loss of land; the question instead describes resistance through a formal written appeal or challenge._
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective means the standpoint shaping how an event is described; the question instead describes resistance through a formal written appeal or challenge._
-
-Full working after a second miss:
-
-> Resistance through a formal written appeal or challenge.  
-> So the answer is “petition and legal protest”.  
-
-> Which term means: resistance using organised force against intrusion ?
-
-- ✅ armed opposition
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance means opposition linked to loss or threatened loss of land; the question instead describes resistance using organised force against intrusion._
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective means the standpoint shaping how an event is described; the question instead describes resistance using organised force against intrusion._
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest means resistance through a formal written appeal or challenge; the question instead describes resistance using organised force against intrusion._
+- ◻️ Bakweri resistance  
+  _↳ feedback if chosen: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes armed opposition to German intrusion in the Upper Cross River region._
+- ✅ Mamfe/Cross River resistance
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes armed opposition to German intrusion in the Upper Cross River region._
+- ◻️ Nso resistance  
+  _↳ feedback if chosen: Nso resistance means defence of Nso authority through conflicts culminating in imposed control; the question instead describes armed opposition to German intrusion in the Upper Cross River region._
 
 Full working after a second miss:
 
-> Resistance using organised force against intrusion.  
-> So the answer is “armed opposition”.  
+> Armed opposition to german intrusion in the upper cross river region.  
+> So the answer is “Mamfe/Cross River resistance”.  
+
+> Which term means: Kuva Likenye’s defence around Buea against German intrusion ?
+
+- ✅ Bakweri resistance
+- ◻️ Mamfe/Cross River resistance  
+  _↳ feedback if chosen: Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region; the question instead describes Kuva Likenye’s defence around Buea against German intrusion._
+- ◻️ Nso resistance  
+  _↳ feedback if chosen: Nso resistance means defence of Nso authority through conflicts culminating in imposed control; the question instead describes Kuva Likenye’s defence around Buea against German intrusion._
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes Kuva Likenye’s defence around Buea against German intrusion._
+
+Full working after a second miss:
+
+> Kuva likenye’s defence around buea against german intrusion.  
+> So the answer is “Bakweri resistance”.  
 
 **Practice** `y3-10-cases` · multiple choice, level 1 · **authored key**
 
-> A community fights an expedition seeking to impose authority.
+> Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894.
 > Which term best fits this example?
 
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance concerns opposition linked to loss or threatened loss of land. This case instead illustrates resistance using organised force against intrusion._
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective concerns the standpoint shaping how an event is described. This case instead illustrates resistance using organised force against intrusion._
-- ✅ armed opposition
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest concerns resistance through a formal written appeal or challenge. This case instead illustrates resistance using organised force against intrusion._
+- ◻️ Mamfe/Cross River resistance  
+  _↳ feedback if chosen: Mamfe/Cross River resistance concerns armed opposition to German intrusion in the Upper Cross River region. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
+- ◻️ Nso resistance  
+  _↳ feedback if chosen: Nso resistance concerns defence of Nso authority through conflicts culminating in imposed control. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
+- ✅ Bakweri resistance
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
 
 Full working after a second miss:
 
-> A community fights an expedition seeking to impose authority. Resistance using organised force against intrusion.  
-> So the answer is “armed opposition”.  
+> Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894. Kuva likenye’s defence around buea against german intrusion.  
+> So the answer is “Bakweri resistance”.  
 
-> Residents contest a plan to remove them from their land.
+> The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.
 > Which term best fits this example?
 
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective concerns the standpoint shaping how an event is described. This case instead illustrates opposition linked to loss or threatened loss of land._
-- ◻️ armed opposition  
-  _↳ feedback if chosen: armed opposition concerns resistance using organised force against intrusion. This case instead illustrates opposition linked to loss or threatened loss of land._
-- ✅ land grievance
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest concerns resistance through a formal written appeal or challenge. This case instead illustrates opposition linked to loss or threatened loss of land._
+- ◻️ Nso resistance  
+  _↳ feedback if chosen: Nso resistance concerns defence of Nso authority through conflicts culminating in imposed control. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region._
+- ◻️ Bakweri resistance  
+  _↳ feedback if chosen: Bakweri resistance concerns Kuva Likenye’s defence around Buea against German intrusion. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region._
+- ✅ Mamfe/Cross River resistance
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region._
 
 Full working after a second miss:
 
-> Residents contest a plan to remove them from their land. Opposition linked to loss or threatened loss of land.  
-> So the answer is “land grievance”.  
+> The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals. Armed opposition to german intrusion in the upper cross river region.  
+> So the answer is “Mamfe/Cross River resistance”.  
 
 **Practice** `y3-10-reason` · multiple choice, level 2 · **authored key**
 
-> An official calls opposition disorder while a local account describes defence of land.
+> Duala leaders contest land removal through petitions and legal appeals.
 > Which explanation justifies the classification?
 
-- ◻️ Opposition linked to loss or threatened loss of land.  
-  _↳ feedback if chosen: That explanation describes land grievance, rather than the relationship illustrated in this example._
-- ✅ The standpoint shaping how an event is described.
-- ◻️ Resistance through a formal written appeal or challenge.  
-  _↳ feedback if chosen: That explanation describes petition and legal protest, rather than the relationship illustrated in this example._
-- ◻️ Resistance using organised force against intrusion.  
-  _↳ feedback if chosen: That explanation describes armed opposition, rather than the relationship illustrated in this example._
+- ◻️ Armed opposition to german intrusion in the upper cross river region.  
+  _↳ feedback if chosen: That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example._
+- ✅ Appeals against colonial land expropriation associated with rudolf duala manga bell.
+- ◻️ Opposition associated with asunganyi and demands for plantation workers.  
+  _↳ feedback if chosen: That explanation describes Bangwa resistance, rather than the relationship illustrated in this example._
+- ◻️ Kuva likenye’s defence around buea against german intrusion.  
+  _↳ feedback if chosen: That explanation describes Bakweri resistance, rather than the relationship illustrated in this example._
 
 Full working after a second miss:
 
-> Compare the author's position and evidence rather than accepting labels as neutral.  
-> So the answer is “The standpoint shaping how an event is described.”.  
+> Formal appeals and land protest were also methods of resistance.  
+> So the answer is “Appeals against colonial land expropriation associated with rudolf duala manga bell.”.  
 
-> A community fights an expedition seeking to impose authority.
+> Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894.
 > Which explanation justifies the classification?
 
-- ◻️ Opposition linked to loss or threatened loss of land.  
-  _↳ feedback if chosen: That explanation describes land grievance, rather than the relationship illustrated in this example._
-- ◻️ The standpoint shaping how an event is described.  
-  _↳ feedback if chosen: That explanation describes source perspective, rather than the relationship illustrated in this example._
-- ◻️ Resistance through a formal written appeal or challenge.  
-  _↳ feedback if chosen: That explanation describes petition and legal protest, rather than the relationship illustrated in this example._
-- ✅ Resistance using organised force against intrusion.
+- ◻️ Armed opposition to german intrusion in the upper cross river region.  
+  _↳ feedback if chosen: That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example._
+- ◻️ Defence of nso authority through conflicts culminating in imposed control.  
+  _↳ feedback if chosen: That explanation describes Nso resistance, rather than the relationship illustrated in this example._
+- ◻️ Opposition associated with asunganyi and demands for plantation workers.  
+  _↳ feedback if chosen: That explanation describes Bangwa resistance, rather than the relationship illustrated in this example._
+- ✅ Kuva likenye’s defence around buea against german intrusion.
 
 Full working after a second miss:
 
-> Armed action is one form of resistance alongside non-military methods.  
-> So the answer is “Resistance using organised force against intrusion.”.  
+> The initial success was followed by renewed attack and defeat in 1894.  
+> So the answer is “Kuva likenye’s defence around buea against german intrusion.”.  
 
 **Practice** `y3-10-link` · matching, level 2 · **authored key**
 
 > Match each term to its example.
 
-Right-hand side (shuffled): Residents contest a plan to remove them from their land. · An official calls opposition disorder while a local account describes defence of land. · Duala leaders challenge land expropriation through appeals.
-- petition and legal protest → **Duala leaders challenge land expropriation through appeals.**
-- source perspective → **An official calls opposition disorder while a local account describes defence of land.**
-- land grievance → **Residents contest a plan to remove them from their land.**
+Right-hand side (shuffled): A dispute over recruited workers precedes Bangwa resistance and German raids. · Duala leaders contest land removal through petitions and legal appeals. · The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.
+- Bangwa resistance → **A dispute over recruited workers precedes Bangwa resistance and German raids.**
+- Mamfe/Cross River resistance → **The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.**
+- Duala land protest → **Duala leaders contest land removal through petitions and legal appeals.**
 
 Full working after a second miss:
 
 > The right pairs are:  
-> petition and legal protest → Duala leaders challenge land expropriation through appeals.  
-> source perspective → An official calls opposition disorder while a local account describes defence of land.  
-> land grievance → Residents contest a plan to remove them from their land.  
+> Bangwa resistance → A dispute over recruited workers precedes Bangwa resistance and German raids.  
+> Mamfe/Cross River resistance → The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.  
+> Duala land protest → Duala leaders contest land removal through petitions and legal appeals.  
 
 > Match each term to its example.
 
-Right-hand side (shuffled): Duala leaders challenge land expropriation through appeals. · Residents contest a plan to remove them from their land. · An official calls opposition disorder while a local account describes defence of land.
-- land grievance → **Residents contest a plan to remove them from their land.**
-- source perspective → **An official calls opposition disorder while a local account describes defence of land.**
-- petition and legal protest → **Duala leaders challenge land expropriation through appeals.**
+Right-hand side (shuffled): A dispute over recruited workers precedes Bangwa resistance and German raids. · Duala leaders contest land removal through petitions and legal appeals. · Nso encounters include the fighting of 1902 and the campaign of 1906.
+- Duala land protest → **Duala leaders contest land removal through petitions and legal appeals.**
+- Nso resistance → **Nso encounters include the fighting of 1902 and the campaign of 1906.**
+- Bangwa resistance → **A dispute over recruited workers precedes Bangwa resistance and German raids.**
 
 Full working after a second miss:
 
 > The right pairs are:  
-> land grievance → Residents contest a plan to remove them from their land.  
-> source perspective → An official calls opposition disorder while a local account describes defence of land.  
-> petition and legal protest → Duala leaders challenge land expropriation through appeals.  
+> Duala land protest → Duala leaders contest land removal through petitions and legal appeals.  
+> Nso resistance → Nso encounters include the fighting of 1902 and the campaign of 1906.  
+> Bangwa resistance → A dispute over recruited workers precedes Bangwa resistance and German raids.  
 
 **Practice** `y3-10-repair` · spot the error, level 3 · **authored key**
 
 > Find the incorrect claim.
 
-- ◻️ source perspective: the standpoint shaping how an event is described.  
-  _↳ explanation: This statement is correct: source perspective means the standpoint shaping how an event is described. Look for a claim that conflicts with its definition._
-- ✅ Only written petitions can count as resistance.  
-  _↳ explanation: Armed action is one form of resistance alongside non-military methods._
-- ◻️ land grievance: opposition linked to loss or threatened loss of land.  
-  _↳ explanation: This statement is correct: land grievance means opposition linked to loss or threatened loss of land. Look for a claim that conflicts with its definition._
-- ◻️ armed opposition: resistance using organised force against intrusion.  
-  _↳ explanation: This statement is correct: armed opposition means resistance using organised force against intrusion. Look for a claim that conflicts with its definition._
+- ◻️ Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.  
+  _↳ explanation: This statement is correct: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion. Look for a claim that conflicts with its definition._
+- ✅ The Bakweri victory in 1891 prevented every later German attack.  
+  _↳ explanation: The initial success was followed by renewed attack and defeat in 1894._
+- ◻️ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.  
+  _↳ explanation: This statement is correct: Nso resistance means defence of Nso authority through conflicts culminating in imposed control. Look for a claim that conflicts with its definition._
+- ◻️ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.  
+  _↳ explanation: This statement is correct: Duala land protest means appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. Look for a claim that conflicts with its definition._
 
 Full working after a second miss:
 
-> The wrong statement is “Only written petitions can count as resistance.”.  
-> Armed action is one form of resistance alongside non-military methods.  
+> The wrong statement is “The Bakweri victory in 1891 prevented every later German attack.”.  
+> The initial success was followed by renewed attack and defeat in 1894.  
 
 > Find the incorrect claim.
 
-- ◻️ petition and legal protest: resistance through a formal written appeal or challenge.  
-  _↳ explanation: This statement is correct: petition and legal protest means resistance through a formal written appeal or challenge. Look for a claim that conflicts with its definition._
-- ◻️ source perspective: the standpoint shaping how an event is described.  
-  _↳ explanation: This statement is correct: source perspective means the standpoint shaping how an event is described. Look for a claim that conflicts with its definition._
-- ✅ One official label settles every actor's motive.  
-  _↳ explanation: Compare the author's position and evidence rather than accepting labels as neutral._
-- ◻️ land grievance: opposition linked to loss or threatened loss of land.  
-  _↳ explanation: This statement is correct: land grievance means opposition linked to loss or threatened loss of land. Look for a claim that conflicts with its definition._
+- ◻️ Bangwa resistance: opposition associated with Asunganyi and demands for plantation workers.  
+  _↳ explanation: This statement is correct: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers. Look for a claim that conflicts with its definition._
+- ◻️ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.  
+  _↳ explanation: This statement is correct: Nso resistance means defence of Nso authority through conflicts culminating in imposed control. Look for a claim that conflicts with its definition._
+- ✅ An initial agreement over workers proves Asunganyi accepted every later demand.  
+  _↳ explanation: The relationship changed when disputes over recruitment developed._
+- ◻️ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.  
+  _↳ explanation: This statement is correct: Duala land protest means appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. Look for a claim that conflicts with its definition._
 
 Full working after a second miss:
 
-> The wrong statement is “One official label settles every actor's motive.”.  
-> Compare the author's position and evidence rather than accepting labels as neutral.  
+> The wrong statement is “An initial agreement over workers proves Asunganyi accepted every later demand.”.  
+> The relationship changed when disputes over recruitment developed.  
 
 ## Lesson 11: Political, Economic and social development in German Kamerun
 

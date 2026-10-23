@@ -187,7 +187,7 @@ Full working after a second miss:
 > Political power concentrated in a ruler and supporting institutions.  
 > So the answer is “centralised authority”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-1-cases` · Lesson 1 · multiple choice, level 1
 
@@ -262,7 +262,7 @@ Full working after a second miss:
 > Coastal traders link inland produce with overseas merchants. Exchange connecting different producer and buyer networks.  
 > So the answer is “intermediary trade”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-1-reason` · Lesson 1 · multiple choice, level 2
 
@@ -337,7 +337,7 @@ Full working after a second miss:
 > Farming and crafts were established activities before colonial annexation.  
 > So the answer is “Activities providing material goods and livelihoods.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-1-link` · Lesson 1 · matching, level 2
 
@@ -395,7 +395,7 @@ Full working after a second miss:
 > distributed authority → Councils and lineage heads share decisions in a community.  
 > intermediary trade → Coastal traders link inland produce with overseas merchants.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-1-repair` · Lesson 1 · spot the error, level 3
 
@@ -467,7 +467,7 @@ Full working after a second miss:
 > The wrong statement is “All precolonial communities lacked political institutions.”.  
 > Courts, rulers and other institutions existed in several different forms.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-1-repair-card` · Lesson 1 · spot the error, level 1
 
@@ -539,7 +539,7 @@ Full working after a second miss:
 > The wrong statement is “All precolonial communities lacked political institutions.”.  
 > Courts, rulers and other institutions existed in several different forms.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-2-terms` · Lesson 2 · multiple choice, level 1
 
@@ -607,7 +607,7 @@ Full working after a second miss:
 > Local actors pursuing their own aims in relationships.  
 > So the answer is “African agency”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-2-cases` · Lesson 2 · multiple choice, level 1
 
@@ -682,7 +682,7 @@ Full working after a second miss:
 > A coastal ruler negotiates conditions to protect trade and land. Local actors pursuing their own aims in relationships.  
 > So the answer is “African agency”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-2-reason` · Lesson 2 · multiple choice, level 2
 
@@ -757,7 +757,7 @@ Full working after a second miss:
 > Mission and governing roles differed even when their activities intersected.  
 > So the answer is “Religious work that could include schooling and translation.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-2-link` · Lesson 2 · matching, level 2
 
@@ -815,7 +815,7 @@ Full working after a second miss:
 > commercial contact → A merchant exchanges goods with coastal trading intermediaries.  
 > mission activity → A mission establishes a congregation and teaches reading.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-2-repair` · Lesson 2 · spot the error, level 3
 
@@ -887,7 +887,7 @@ Full working after a second miss:
 > The wrong statement is “Every mission worker was simply a colonial governor.”.  
 > Mission and governing roles differed even when their activities intersected.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-2-repair-card` · Lesson 2 · spot the error, level 1
 
@@ -959,7 +959,7 @@ Full working after a second miss:
 > The wrong statement is “One coastal station proves effective rule over every inland community.”.  
 > The extent of actual authority needs evidence; it cannot be assumed from a station.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-3-terms` · Lesson 3 · multiple choice, level 1
 
@@ -1027,7 +1027,7 @@ Full working after a second miss:
 > Discussion and signing of terms by particular parties.  
 > So the answer is “treaty negotiation”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-3-cases` · Lesson 3 · multiple choice, level 1
 
@@ -1102,7 +1102,7 @@ Full working after a second miss:
 > Coastal rulers and German representatives agree a document with stated conditions. Discussion and signing of terms by particular parties.  
 > So the answer is “treaty negotiation”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-3-reason` · Lesson 3 · multiple choice, level 2
 
@@ -1177,7 +1177,7 @@ Full working after a second miss:
 > The spread of control was a separate and contested process.  
 > So the answer is “Extension and enforcement of an initially asserted authority.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-3-link` · Lesson 3 · matching, level 2
 
@@ -1235,7 +1235,7 @@ Full working after a second miss:
 > treaty negotiation → Coastal rulers and German representatives agree a document with stated conditions.  
 > commercial pressure → German trading interests urge imperial involvement on the coast.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-3-repair` · Lesson 3 · spot the error, level 3
 
@@ -1307,7 +1307,7 @@ Full working after a second miss:
 > The wrong statement is “A treaty involving some coastal rulers automatically binds every inland polity.”.  
 > The parties' authority and the document's geographic scope must be examined.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-3-repair-card` · Lesson 3 · spot the error, level 1
 
@@ -1379,7 +1379,7 @@ Full working after a second miss:
 > The wrong statement is “A flag ceremony proves that all inhabitants freely consented.”.  
 > An assertion of authority is not evidence of universal consent.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-4-terms` · Lesson 4 · multiple choice, level 1
 
@@ -1447,7 +1447,7 @@ Full working after a second miss:
 > Religious work often linked to education or translation.  
 > So the answer is “missionary activity”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-4-cases` · Lesson 4 · multiple choice, level 1
 
@@ -1522,7 +1522,7 @@ Full working after a second miss:
 > A company establishes a trading station for goods. Business activity seeking returns from exchange or production.  
 > So the answer is “commercial enterprise”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-4-reason` · Lesson 4 · multiple choice, level 2
 
@@ -1597,7 +1597,7 @@ Full working after a second miss:
 > Activities and political relationships varied; one activity does not settle every motive.  
 > So the answer is “Religious work often linked to education or translation.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-4-link` · Lesson 4 · matching, level 2
 
@@ -1655,7 +1655,7 @@ Full working after a second miss:
 > exploration record → A traveller records routes learned with local guides.  
 > commercial enterprise → A company establishes a trading station for goods.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-4-repair` · Lesson 4 · spot the error, level 3
 
@@ -1727,7 +1727,7 @@ Full working after a second miss:
 > The wrong statement is “A European map proves that local people knew nothing about their land.”.  
 > Recorded maps often depended on existing African knowledge.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-4-repair-card` · Lesson 4 · spot the error, level 1
 
@@ -1799,7 +1799,7 @@ Full working after a second miss:
 > The wrong statement is “A company station is necessarily a charitable project with no commercial aims.”.  
 > Commercial enterprises seek economic returns, even when they also claim other aims.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-5-terms` · Lesson 5 · multiple choice, level 1
 
@@ -1867,7 +1867,7 @@ Full working after a second miss:
 > An aim concerning prestige power or rivalry.  
 > So the answer is “political motive”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-5-cases` · Lesson 5 · multiple choice, level 1
 
@@ -1942,7 +1942,7 @@ Full working after a second miss:
 > An imperial advocate claims an unequal civilising duty. A belief or claim used to legitimise expansion.  
 > So the answer is “ideological justification”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-5-reason` · Lesson 5 · multiple choice, level 2
 
@@ -2017,7 +2017,7 @@ Full working after a second miss:
 > Competition between states for influence is political.  
 > So the answer is “An aim concerning prestige power or rivalry.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-5-link` · Lesson 5 · matching, level 2
 
@@ -2075,7 +2075,7 @@ Full working after a second miss:
 > economic motive → A firm seeks access to produce and customers.  
 > political motive → A government fears a rival empire will claim a strategic coast.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-5-repair` · Lesson 5 · spot the error, level 3
 
@@ -2147,7 +2147,7 @@ Full working after a second miss:
 > The wrong statement is “A useful naval harbour matters only as a decorative landscape.”.  
 > Access and naval position can give a harbour strategic importance.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-5-repair-card` · Lesson 5 · spot the error, level 1
 
@@ -2219,7 +2219,7 @@ Full working after a second miss:
 > The wrong statement is “A useful naval harbour matters only as a decorative landscape.”.  
 > Access and naval position can give a harbour strategic importance.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-6-terms` · Lesson 6 · multiple choice, level 1
 
@@ -2287,7 +2287,7 @@ Full working after a second miss:
 > An agreement with particular rulers before the flag ceremony.  
 > So the answer is “coastal treaty”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-6-cases` · Lesson 6 · multiple choice, level 1
 
@@ -2362,7 +2362,7 @@ Full working after a second miss:
 > An imperial commissioner raises the German flag in July 1884. The german imperial commissioner associated with the flag ceremony.  
 > So the answer is “Gustav Nachtigal”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-6-reason` · Lesson 6 · multiple choice, level 2
 
@@ -2437,7 +2437,7 @@ Full working after a second miss:
 > The coastal treaty and the Berlin meeting were different events.  
 > So the answer is “An agreement with particular rulers before the flag ceremony.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-6-link` · Lesson 6 · matching, level 2
 
@@ -2495,7 +2495,7 @@ Full working after a second miss:
 > German trading firms → Representatives of Woermann and Jantzen and Thormählen participate in arrangements.  
 > Gustav Nachtigal → An imperial commissioner raises the German flag in July 1884.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-6-repair` · Lesson 6 · spot the error, level 3
 
@@ -2567,7 +2567,7 @@ Full working after a second miss:
 > The wrong statement is “Hewett was the German commissioner who raised the flag.”.  
 > The British consul and German imperial commissioner should not be confused.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-6-repair-card` · Lesson 6 · spot the error, level 1
 
@@ -2639,7 +2639,7 @@ Full working after a second miss:
 > The wrong statement is “Nachtigal was the British consul who arrived after the German claim.”.  
 > Nachtigal represented Germany; Hewett was the British consul.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-7-terms` · Lesson 7 · multiple choice, level 1
 
@@ -2707,7 +2707,7 @@ Full working after a second miss:
 > Working with a power in pursuit of specific local aims.  
 > So the answer is “negotiated cooperation”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-7-cases` · Lesson 7 · multiple choice, level 1
 
@@ -2782,7 +2782,7 @@ Full working after a second miss:
 > A coastal ruler seeks safeguards for land and trade in an agreement. Working with a power in pursuit of specific local aims.  
 > So the answer is “negotiated cooperation”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-7-reason` · Lesson 7 · multiple choice, level 2
 
@@ -2857,7 +2857,7 @@ Full working after a second miss:
 > Responses differed; Lock Priso provides a counterexample to universal acceptance.  
 > So the answer is “Refusal or resistance to an asserted claim.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-7-link` · Lesson 7 · matching, level 2
 
@@ -2915,7 +2915,7 @@ Full working after a second miss:
 > negotiated cooperation → A coastal ruler seeks safeguards for land and trade in an agreement.  
 > conditional expectation → A ruler expects land rights to remain protected.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-7-repair` · Lesson 7 · spot the error, level 3
 
@@ -2987,7 +2987,7 @@ Full working after a second miss:
 > The wrong statement is “Negotiation means the ruler had no interests of his own.”.  
 > Negotiators could pursue land, trade and political aims within unequal conditions.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-7-repair-card` · Lesson 7 · spot the error, level 1
 
@@ -3059,7 +3059,7 @@ Full working after a second miss:
 > The wrong statement is “Negotiation means the ruler had no interests of his own.”.  
 > Negotiators could pursue land, trade and political aims within unequal conditions.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-8-terms` · Lesson 8 · multiple choice, level 1
 
@@ -3127,7 +3127,7 @@ Full working after a second miss:
 > Absence of african peoples as equal conference decision makers.  
 > So the answer is “African exclusion”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-8-cases` · Lesson 8 · multiple choice, level 1
 
@@ -3202,7 +3202,7 @@ Full working after a second miss:
 > Representatives meet in Berlin under German diplomatic hosting. The german chancellor's organisation of the berlin meeting.  
 > So the answer is “Bismarck's hosting role”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-8-reason` · Lesson 8 · multiple choice, level 2
 
@@ -3277,7 +3277,7 @@ Full working after a second miss:
 > An imperial diplomatic conference was not an African popular vote.  
 > So the answer is “Absence of african peoples as equal conference decision makers.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-8-link` · Lesson 8 · matching, level 2
 
@@ -3335,7 +3335,7 @@ Full working after a second miss:
 > rules for colonial claims → Powers discuss notification and effective occupation.  
 > trade and navigation provisions → Delegates discuss navigation on the Congo and Niger.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-8-repair` · Lesson 8 · spot the error, level 3
 
@@ -3407,7 +3407,7 @@ Full working after a second miss:
 > The wrong statement is “A claim announced on paper always required no further action.”.  
 > The relevant occupation provisions were meant to regulate competing claims.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-8-repair-card` · Lesson 8 · spot the error, level 1
 
@@ -3479,7 +3479,7 @@ Full working after a second miss:
 > The wrong statement is “A claim announced on paper always required no further action.”.  
 > The relevant occupation provisions were meant to regulate competing claims.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-9-terms` · Lesson 9 · multiple choice, level 1
 
@@ -3547,7 +3547,7 @@ Full working after a second miss:
 > Cooperation between actors for particular aims.  
 > So the answer is “alliance”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-9-cases` · Lesson 9 · multiple choice, level 1
 
@@ -3622,7 +3622,7 @@ Full working after a second miss:
 > A local ruler cooperates with colonial agents against a rival. Cooperation between actors for particular aims.  
 > So the answer is “alliance”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-9-reason` · Lesson 9 · multiple choice, level 2
 
@@ -3697,7 +3697,7 @@ Full working after a second miss:
 > Alliances can be limited and change with circumstances.  
 > So the answer is “Cooperation between actors for particular aims.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-9-link` · Lesson 9 · matching, level 2
 
@@ -3755,7 +3755,7 @@ Full working after a second miss:
 > alliance → A local ruler cooperates with colonial agents against a rival.  
 > contested expansion → A claimed area contains communities that oppose imposed demands.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-9-repair` · Lesson 9 · spot the error, level 3
 
@@ -3827,7 +3827,7 @@ Full working after a second miss:
 > The wrong statement is “An armed punitive expedition is a neutral population survey.”.  
 > Its coercive purpose must be distinguished from observation alone.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-9-repair-card` · Lesson 9 · spot the error, level 1
 
@@ -3899,7 +3899,7 @@ Full working after a second miss:
 > The wrong statement is “An alliance proves permanent agreement on every later policy.”.  
 > Alliances can be limited and change with circumstances.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-10-terms` · Lesson 10 · multiple choice, level 1
 
@@ -3909,10 +3909,11 @@ Table `X` (one row is picked each time):
 
 | q | r | w | e | y |
 |---|---|---|---|---|
-| Which term means: resistance using organised force against intrusion ? | armed opposition | petition and legal protest · land grievance · source perspective | petition and legal protest means resistance through a formal written appeal or challenge; the question instead describes resistance using organised force against intrusion. · land grievance means opposition linked to loss or threatened loss of land; the question instead describes resistance using organised force against intrusion. · source perspective means the standpoint shaping how an event is described; the question instead describes resistance using organised force against intrusion. | Resistance using organised force against intrusion. |
-| Which term means: resistance through a formal written appeal or challenge ? | petition and legal protest | armed opposition · land grievance · source perspective | armed opposition means resistance using organised force against intrusion; the question instead describes resistance through a formal written appeal or challenge. · land grievance means opposition linked to loss or threatened loss of land; the question instead describes resistance through a formal written appeal or challenge. · source perspective means the standpoint shaping how an event is described; the question instead describes resistance through a formal written appeal or challenge. | Resistance through a formal written appeal or challenge. |
-| Which term means: opposition linked to loss or threatened loss of land ? | land grievance | armed opposition · petition and legal protest · source perspective | armed opposition means resistance using organised force against intrusion; the question instead describes opposition linked to loss or threatened loss of land. · petition and legal protest means resistance through a formal written appeal or challenge; the question instead describes opposition linked to loss or threatened loss of land. · source perspective means the standpoint shaping how an event is described; the question instead describes opposition linked to loss or threatened loss of land. | Opposition linked to loss or threatened loss of land. |
-| Which term means: the standpoint shaping how an event is described ? | source perspective | armed opposition · petition and legal protest · land grievance | armed opposition means resistance using organised force against intrusion; the question instead describes the standpoint shaping how an event is described. · petition and legal protest means resistance through a formal written appeal or challenge; the question instead describes the standpoint shaping how an event is described. · land grievance means opposition linked to loss or threatened loss of land; the question instead describes the standpoint shaping how an event is described. | The standpoint shaping how an event is described. |
+| Which term means: Kuva Likenye’s defence around Buea against German intrusion ? | Bakweri resistance | Bangwa resistance · Mamfe/Cross River resistance · Nso resistance | Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes Kuva Likenye’s defence around Buea against German intrusion. · Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region; the question instead describes Kuva Likenye’s defence around Buea against German intrusion. · Nso resistance means defence of Nso authority through conflicts culminating in imposed control; the question instead describes Kuva Likenye’s defence around Buea against German intrusion. | Kuva likenye’s defence around buea against german intrusion. |
+| Which term means: opposition associated with Asunganyi and demands for plantation workers ? | Bangwa resistance | Bakweri resistance · Mamfe/Cross River resistance · Nso resistance | Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes opposition associated with Asunganyi and demands for plantation workers. · Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region; the question instead describes opposition associated with Asunganyi and demands for plantation workers. · Nso resistance means defence of Nso authority through conflicts culminating in imposed control; the question instead describes opposition associated with Asunganyi and demands for plantation workers. | Opposition associated with asunganyi and demands for plantation workers. |
+| Which term means: armed opposition to German intrusion in the Upper Cross River region ? | Mamfe/Cross River resistance | Bakweri resistance · Bangwa resistance · Nso resistance | Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes armed opposition to German intrusion in the Upper Cross River region. · Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes armed opposition to German intrusion in the Upper Cross River region. · Nso resistance means defence of Nso authority through conflicts culminating in imposed control; the question instead describes armed opposition to German intrusion in the Upper Cross River region. | Armed opposition to german intrusion in the upper cross river region. |
+| Which term means: defence of Nso authority through conflicts culminating in imposed control ? | Nso resistance | Bakweri resistance · Bangwa resistance · Mamfe/Cross River resistance | Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes defence of Nso authority through conflicts culminating in imposed control. · Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes defence of Nso authority through conflicts culminating in imposed control. · Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region; the question instead describes defence of Nso authority through conflicts culminating in imposed control. | Defence of nso authority through conflicts culminating in imposed control. |
+| Which term means: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell ? | Duala land protest | Bakweri resistance · Bangwa resistance · Mamfe/Cross River resistance | Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. · Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. · Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. | Appeals against colonial land expropriation associated with rudolf duala manga bell. |
 
 Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
 
@@ -3922,52 +3923,52 @@ Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
 
 Three generated variants:
 
-> Which term means: the standpoint shaping how an event is described ?
+> Which term means: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell ?
 
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance means opposition linked to loss or threatened loss of land; the question instead describes the standpoint shaping how an event is described._
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest means resistance through a formal written appeal or challenge; the question instead describes the standpoint shaping how an event is described._
-- ◻️ armed opposition  
-  _↳ feedback if chosen: armed opposition means resistance using organised force against intrusion; the question instead describes the standpoint shaping how an event is described._
-- ✅ source perspective
-
-Full working after a second miss:
-
-> The standpoint shaping how an event is described.  
-> So the answer is “source perspective”.  
-
-> Which term means: the standpoint shaping how an event is described ?
-
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest means resistance through a formal written appeal or challenge; the question instead describes the standpoint shaping how an event is described._
-- ◻️ armed opposition  
-  _↳ feedback if chosen: armed opposition means resistance using organised force against intrusion; the question instead describes the standpoint shaping how an event is described._
-- ✅ source perspective
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance means opposition linked to loss or threatened loss of land; the question instead describes the standpoint shaping how an event is described._
+- ◻️ Mamfe/Cross River resistance  
+  _↳ feedback if chosen: Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
+- ◻️ Bakweri resistance  
+  _↳ feedback if chosen: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
+- ✅ Duala land protest
 
 Full working after a second miss:
 
-> The standpoint shaping how an event is described.  
-> So the answer is “source perspective”.  
+> Appeals against colonial land expropriation associated with rudolf duala manga bell.  
+> So the answer is “Duala land protest”.  
 
-> Which term means: resistance through a formal written appeal or challenge ?
+> Which term means: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell ?
 
-- ◻️ armed opposition  
-  _↳ feedback if chosen: armed opposition means resistance using organised force against intrusion; the question instead describes resistance through a formal written appeal or challenge._
-- ✅ petition and legal protest
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance means opposition linked to loss or threatened loss of land; the question instead describes resistance through a formal written appeal or challenge._
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective means the standpoint shaping how an event is described; the question instead describes resistance through a formal written appeal or challenge._
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
+- ◻️ Bakweri resistance  
+  _↳ feedback if chosen: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
+- ✅ Duala land protest
+- ◻️ Mamfe/Cross River resistance  
+  _↳ feedback if chosen: Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region; the question instead describes appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
 
 Full working after a second miss:
 
-> Resistance through a formal written appeal or challenge.  
-> So the answer is “petition and legal protest”.  
+> Appeals against colonial land expropriation associated with rudolf duala manga bell.  
+> So the answer is “Duala land protest”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+> Which term means: armed opposition to German intrusion in the Upper Cross River region ?
+
+- ◻️ Bakweri resistance  
+  _↳ feedback if chosen: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion; the question instead describes armed opposition to German intrusion in the Upper Cross River region._
+- ✅ Mamfe/Cross River resistance
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers; the question instead describes armed opposition to German intrusion in the Upper Cross River region._
+- ◻️ Nso resistance  
+  _↳ feedback if chosen: Nso resistance means defence of Nso authority through conflicts culminating in imposed control; the question instead describes armed opposition to German intrusion in the Upper Cross River region._
+
+Full working after a second miss:
+
+> Armed opposition to german intrusion in the upper cross river region.  
+> So the answer is “Mamfe/Cross River resistance”.  
+
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-10-cases` · Lesson 10 · multiple choice, level 1
 
@@ -3977,14 +3978,16 @@ Table `X` (one row is picked each time):
 
 | q | r | w | e | y |
 |---|---|---|---|---|
-| A community fights an expedition seeking to impose authority.
-Which term best fits this example? | armed opposition | petition and legal protest · land grievance · source perspective | petition and legal protest concerns resistance through a formal written appeal or challenge. This case instead illustrates resistance using organised force against intrusion. · land grievance concerns opposition linked to loss or threatened loss of land. This case instead illustrates resistance using organised force against intrusion. · source perspective concerns the standpoint shaping how an event is described. This case instead illustrates resistance using organised force against intrusion. | A community fights an expedition seeking to impose authority. Resistance using organised force against intrusion. |
-| Duala leaders challenge land expropriation through appeals.
-Which term best fits this example? | petition and legal protest | armed opposition · land grievance · source perspective | armed opposition concerns resistance using organised force against intrusion. This case instead illustrates resistance through a formal written appeal or challenge. · land grievance concerns opposition linked to loss or threatened loss of land. This case instead illustrates resistance through a formal written appeal or challenge. · source perspective concerns the standpoint shaping how an event is described. This case instead illustrates resistance through a formal written appeal or challenge. | Duala leaders challenge land expropriation through appeals. Resistance through a formal written appeal or challenge. |
-| Residents contest a plan to remove them from their land.
-Which term best fits this example? | land grievance | armed opposition · petition and legal protest · source perspective | armed opposition concerns resistance using organised force against intrusion. This case instead illustrates opposition linked to loss or threatened loss of land. · petition and legal protest concerns resistance through a formal written appeal or challenge. This case instead illustrates opposition linked to loss or threatened loss of land. · source perspective concerns the standpoint shaping how an event is described. This case instead illustrates opposition linked to loss or threatened loss of land. | Residents contest a plan to remove them from their land. Opposition linked to loss or threatened loss of land. |
-| An official calls opposition disorder while a local account describes defence of land.
-Which term best fits this example? | source perspective | armed opposition · petition and legal protest · land grievance | armed opposition concerns resistance using organised force against intrusion. This case instead illustrates the standpoint shaping how an event is described. · petition and legal protest concerns resistance through a formal written appeal or challenge. This case instead illustrates the standpoint shaping how an event is described. · land grievance concerns opposition linked to loss or threatened loss of land. This case instead illustrates the standpoint shaping how an event is described. | An official calls opposition disorder while a local account describes defence of land. The standpoint shaping how an event is described. |
+| Kuva Likenye’s forces repel the attack of {1891} before a renewed attack in {1894}.
+Which term best fits this example? | Bakweri resistance | Bangwa resistance · Mamfe/Cross River resistance · Nso resistance | Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion. · Mamfe/Cross River resistance concerns armed opposition to German intrusion in the Upper Cross River region. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion. · Nso resistance concerns defence of Nso authority through conflicts culminating in imposed control. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion. | Kuva Likenye’s forces repel the attack of {1891} before a renewed attack in {1894}. Kuva likenye’s defence around buea against german intrusion. |
+| A dispute over recruited workers precedes Bangwa resistance and German raids.
+Which term best fits this example? | Bangwa resistance | Bakweri resistance · Mamfe/Cross River resistance · Nso resistance | Bakweri resistance concerns Kuva Likenye’s defence around Buea against German intrusion. This case instead illustrates opposition associated with Asunganyi and demands for plantation workers. · Mamfe/Cross River resistance concerns armed opposition to German intrusion in the Upper Cross River region. This case instead illustrates opposition associated with Asunganyi and demands for plantation workers. · Nso resistance concerns defence of Nso authority through conflicts culminating in imposed control. This case instead illustrates opposition associated with Asunganyi and demands for plantation workers. | A dispute over recruited workers precedes Bangwa resistance and German raids. Opposition associated with asunganyi and demands for plantation workers. |
+| The fighting of {1904} includes attacks on an expedition and trading posts, followed by German reprisals.
+Which term best fits this example? | Mamfe/Cross River resistance | Bakweri resistance · Bangwa resistance · Nso resistance | Bakweri resistance concerns Kuva Likenye’s defence around Buea against German intrusion. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region. · Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region. · Nso resistance concerns defence of Nso authority through conflicts culminating in imposed control. This case instead illustrates armed opposition to German intrusion in the Upper Cross River region. | The fighting of {1904} includes attacks on an expedition and trading posts, followed by German reprisals. Armed opposition to german intrusion in the upper cross river region. |
+| Nso encounters include the fighting of {1902} and the campaign of {1906}.
+Which term best fits this example? | Nso resistance | Bakweri resistance · Bangwa resistance · Mamfe/Cross River resistance | Bakweri resistance concerns Kuva Likenye’s defence around Buea against German intrusion. This case instead illustrates defence of Nso authority through conflicts culminating in imposed control. · Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates defence of Nso authority through conflicts culminating in imposed control. · Mamfe/Cross River resistance concerns armed opposition to German intrusion in the Upper Cross River region. This case instead illustrates defence of Nso authority through conflicts culminating in imposed control. | Nso encounters include the fighting of {1902} and the campaign of {1906}. Defence of nso authority through conflicts culminating in imposed control. |
+| Duala leaders contest land removal through petitions and legal appeals.
+Which term best fits this example? | Duala land protest | Bakweri resistance · Bangwa resistance · Mamfe/Cross River resistance | Bakweri resistance concerns Kuva Likenye’s defence around Buea against German intrusion. This case instead illustrates appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. · Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. · Mamfe/Cross River resistance concerns armed opposition to German intrusion in the Upper Cross River region. This case instead illustrates appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. | Duala leaders contest land removal through petitions and legal appeals. Appeals against colonial land expropriation associated with rudolf duala manga bell. |
 
 Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
 
@@ -3994,55 +3997,55 @@ Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
 
 Three generated variants:
 
-> A community fights an expedition seeking to impose authority.
+> Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894.
 > Which term best fits this example?
 
-- ✅ armed opposition
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance concerns opposition linked to loss or threatened loss of land. This case instead illustrates resistance using organised force against intrusion._
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest concerns resistance through a formal written appeal or challenge. This case instead illustrates resistance using organised force against intrusion._
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective concerns the standpoint shaping how an event is described. This case instead illustrates resistance using organised force against intrusion._
+- ✅ Bakweri resistance
+- ◻️ Mamfe/Cross River resistance  
+  _↳ feedback if chosen: Mamfe/Cross River resistance concerns armed opposition to German intrusion in the Upper Cross River region. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
+- ◻️ Nso resistance  
+  _↳ feedback if chosen: Nso resistance concerns defence of Nso authority through conflicts culminating in imposed control. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
 
 Full working after a second miss:
 
-> A community fights an expedition seeking to impose authority. Resistance using organised force against intrusion.  
-> So the answer is “armed opposition”.  
+> Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894. Kuva likenye’s defence around buea against german intrusion.  
+> So the answer is “Bakweri resistance”.  
 
-> An official calls opposition disorder while a local account describes defence of land.
+> Duala leaders contest land removal through petitions and legal appeals.
 > Which term best fits this example?
 
-- ◻️ armed opposition  
-  _↳ feedback if chosen: armed opposition concerns resistance using organised force against intrusion. This case instead illustrates the standpoint shaping how an event is described._
-- ✅ source perspective
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest concerns resistance through a formal written appeal or challenge. This case instead illustrates the standpoint shaping how an event is described._
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance concerns opposition linked to loss or threatened loss of land. This case instead illustrates the standpoint shaping how an event is described._
+- ◻️ Bakweri resistance  
+  _↳ feedback if chosen: Bakweri resistance concerns Kuva Likenye’s defence around Buea against German intrusion. This case instead illustrates appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
+- ✅ Duala land protest
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
+- ◻️ Mamfe/Cross River resistance  
+  _↳ feedback if chosen: Mamfe/Cross River resistance concerns armed opposition to German intrusion in the Upper Cross River region. This case instead illustrates appeals against colonial land expropriation associated with Rudolf Duala Manga Bell._
 
 Full working after a second miss:
 
-> An official calls opposition disorder while a local account describes defence of land. The standpoint shaping how an event is described.  
-> So the answer is “source perspective”.  
+> Duala leaders contest land removal through petitions and legal appeals. Appeals against colonial land expropriation associated with rudolf duala manga bell.  
+> So the answer is “Duala land protest”.  
 
-> A community fights an expedition seeking to impose authority.
+> Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894.
 > Which term best fits this example?
 
-- ◻️ land grievance  
-  _↳ feedback if chosen: land grievance concerns opposition linked to loss or threatened loss of land. This case instead illustrates resistance using organised force against intrusion._
-- ◻️ source perspective  
-  _↳ feedback if chosen: source perspective concerns the standpoint shaping how an event is described. This case instead illustrates resistance using organised force against intrusion._
-- ✅ armed opposition
-- ◻️ petition and legal protest  
-  _↳ feedback if chosen: petition and legal protest concerns resistance through a formal written appeal or challenge. This case instead illustrates resistance using organised force against intrusion._
+- ◻️ Mamfe/Cross River resistance  
+  _↳ feedback if chosen: Mamfe/Cross River resistance concerns armed opposition to German intrusion in the Upper Cross River region. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
+- ◻️ Nso resistance  
+  _↳ feedback if chosen: Nso resistance concerns defence of Nso authority through conflicts culminating in imposed control. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
+- ✅ Bakweri resistance
+- ◻️ Bangwa resistance  
+  _↳ feedback if chosen: Bangwa resistance concerns opposition associated with Asunganyi and demands for plantation workers. This case instead illustrates Kuva Likenye’s defence around Buea against German intrusion._
 
 Full working after a second miss:
 
-> A community fights an expedition seeking to impose authority. Resistance using organised force against intrusion.  
-> So the answer is “armed opposition”.  
+> Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894. Kuva likenye’s defence around buea against german intrusion.  
+> So the answer is “Bakweri resistance”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-10-reason` · Lesson 10 · multiple choice, level 2
 
@@ -4052,14 +4055,16 @@ Table `X` (one row is picked each time):
 
 | q | r | w | e | y |
 |---|---|---|---|---|
-| A community fights an expedition seeking to impose authority.
-Which explanation justifies the classification? | Resistance using organised force against intrusion. | Resistance through a formal written appeal or challenge. · Opposition linked to loss or threatened loss of land. · The standpoint shaping how an event is described. | That explanation describes petition and legal protest, rather than the relationship illustrated in this example. · That explanation describes land grievance, rather than the relationship illustrated in this example. · That explanation describes source perspective, rather than the relationship illustrated in this example. | Armed action is one form of resistance alongside non-military methods. |
-| Duala leaders challenge land expropriation through appeals.
-Which explanation justifies the classification? | Resistance through a formal written appeal or challenge. | Resistance using organised force against intrusion. · Opposition linked to loss or threatened loss of land. · The standpoint shaping how an event is described. | That explanation describes armed opposition, rather than the relationship illustrated in this example. · That explanation describes land grievance, rather than the relationship illustrated in this example. · That explanation describes source perspective, rather than the relationship illustrated in this example. | An appeal can be an attempt to resist a specific colonial action. |
-| Residents contest a plan to remove them from their land.
-Which explanation justifies the classification? | Opposition linked to loss or threatened loss of land. | Resistance using organised force against intrusion. · Resistance through a formal written appeal or challenge. · The standpoint shaping how an event is described. | That explanation describes armed opposition, rather than the relationship illustrated in this example. · That explanation describes petition and legal protest, rather than the relationship illustrated in this example. · That explanation describes source perspective, rather than the relationship illustrated in this example. | Land threatened livelihoods, authority and rights and could motivate protest. |
-| An official calls opposition disorder while a local account describes defence of land.
-Which explanation justifies the classification? | The standpoint shaping how an event is described. | Resistance using organised force against intrusion. · Resistance through a formal written appeal or challenge. · Opposition linked to loss or threatened loss of land. | That explanation describes armed opposition, rather than the relationship illustrated in this example. · That explanation describes petition and legal protest, rather than the relationship illustrated in this example. · That explanation describes land grievance, rather than the relationship illustrated in this example. | Compare the author's position and evidence rather than accepting labels as neutral. |
+| Kuva Likenye’s forces repel the attack of {1891} before a renewed attack in {1894}.
+Which explanation justifies the classification? | Kuva likenye’s defence around buea against german intrusion. | Opposition associated with asunganyi and demands for plantation workers. · Armed opposition to german intrusion in the upper cross river region. · Defence of nso authority through conflicts culminating in imposed control. | That explanation describes Bangwa resistance, rather than the relationship illustrated in this example. · That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example. · That explanation describes Nso resistance, rather than the relationship illustrated in this example. | The initial success was followed by renewed attack and defeat in {1894}. |
+| A dispute over recruited workers precedes Bangwa resistance and German raids.
+Which explanation justifies the classification? | Opposition associated with asunganyi and demands for plantation workers. | Kuva likenye’s defence around buea against german intrusion. · Armed opposition to german intrusion in the upper cross river region. · Defence of nso authority through conflicts culminating in imposed control. | That explanation describes Bakweri resistance, rather than the relationship illustrated in this example. · That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example. · That explanation describes Nso resistance, rather than the relationship illustrated in this example. | The relationship changed when disputes over recruitment developed. |
+| The fighting of {1904} includes attacks on an expedition and trading posts, followed by German reprisals.
+Which explanation justifies the classification? | Armed opposition to german intrusion in the upper cross river region. | Kuva likenye’s defence around buea against german intrusion. · Opposition associated with asunganyi and demands for plantation workers. · Defence of nso authority through conflicts culminating in imposed control. | That explanation describes Bakweri resistance, rather than the relationship illustrated in this example. · That explanation describes Bangwa resistance, rather than the relationship illustrated in this example. · That explanation describes Nso resistance, rather than the relationship illustrated in this example. | The Cross River armed conflict and the coastal land petition were separate cases. |
+| Nso encounters include the fighting of {1902} and the campaign of {1906}.
+Which explanation justifies the classification? | Defence of nso authority through conflicts culminating in imposed control. | Kuva likenye’s defence around buea against german intrusion. · Opposition associated with asunganyi and demands for plantation workers. · Armed opposition to german intrusion in the upper cross river region. | That explanation describes Bakweri resistance, rather than the relationship illustrated in this example. · That explanation describes Bangwa resistance, rather than the relationship illustrated in this example. · That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example. | Separate the encounters and campaigns; the circumstances of Ngonnso’s removal also require careful sourcing. |
+| Duala leaders contest land removal through petitions and legal appeals.
+Which explanation justifies the classification? | Appeals against colonial land expropriation associated with rudolf duala manga bell. | Kuva likenye’s defence around buea against german intrusion. · Opposition associated with asunganyi and demands for plantation workers. · Armed opposition to german intrusion in the upper cross river region. | That explanation describes Bakweri resistance, rather than the relationship illustrated in this example. · That explanation describes Bangwa resistance, rather than the relationship illustrated in this example. · That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example. | Formal appeals and land protest were also methods of resistance. |
 
 Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
 
@@ -4069,55 +4074,55 @@ Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
 
 Three generated variants:
 
-> An official calls opposition disorder while a local account describes defence of land.
+> Duala leaders contest land removal through petitions and legal appeals.
 > Which explanation justifies the classification?
 
-- ◻️ Resistance through a formal written appeal or challenge.  
-  _↳ feedback if chosen: That explanation describes petition and legal protest, rather than the relationship illustrated in this example._
-- ◻️ Resistance using organised force against intrusion.  
-  _↳ feedback if chosen: That explanation describes armed opposition, rather than the relationship illustrated in this example._
-- ◻️ Opposition linked to loss or threatened loss of land.  
-  _↳ feedback if chosen: That explanation describes land grievance, rather than the relationship illustrated in this example._
-- ✅ The standpoint shaping how an event is described.
+- ◻️ Opposition associated with asunganyi and demands for plantation workers.  
+  _↳ feedback if chosen: That explanation describes Bangwa resistance, rather than the relationship illustrated in this example._
+- ◻️ Kuva likenye’s defence around buea against german intrusion.  
+  _↳ feedback if chosen: That explanation describes Bakweri resistance, rather than the relationship illustrated in this example._
+- ◻️ Armed opposition to german intrusion in the upper cross river region.  
+  _↳ feedback if chosen: That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example._
+- ✅ Appeals against colonial land expropriation associated with rudolf duala manga bell.
 
 Full working after a second miss:
 
-> Compare the author's position and evidence rather than accepting labels as neutral.  
-> So the answer is “The standpoint shaping how an event is described.”.  
+> Formal appeals and land protest were also methods of resistance.  
+> So the answer is “Appeals against colonial land expropriation associated with rudolf duala manga bell.”.  
 
-> An official calls opposition disorder while a local account describes defence of land.
+> Duala leaders contest land removal through petitions and legal appeals.
 > Which explanation justifies the classification?
 
-- ◻️ Resistance through a formal written appeal or challenge.  
-  _↳ feedback if chosen: That explanation describes petition and legal protest, rather than the relationship illustrated in this example._
-- ◻️ Resistance using organised force against intrusion.  
-  _↳ feedback if chosen: That explanation describes armed opposition, rather than the relationship illustrated in this example._
-- ◻️ Opposition linked to loss or threatened loss of land.  
-  _↳ feedback if chosen: That explanation describes land grievance, rather than the relationship illustrated in this example._
-- ✅ The standpoint shaping how an event is described.
+- ◻️ Opposition associated with asunganyi and demands for plantation workers.  
+  _↳ feedback if chosen: That explanation describes Bangwa resistance, rather than the relationship illustrated in this example._
+- ◻️ Kuva likenye’s defence around buea against german intrusion.  
+  _↳ feedback if chosen: That explanation describes Bakweri resistance, rather than the relationship illustrated in this example._
+- ◻️ Armed opposition to german intrusion in the upper cross river region.  
+  _↳ feedback if chosen: That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example._
+- ✅ Appeals against colonial land expropriation associated with rudolf duala manga bell.
 
 Full working after a second miss:
 
-> Compare the author's position and evidence rather than accepting labels as neutral.  
-> So the answer is “The standpoint shaping how an event is described.”.  
+> Formal appeals and land protest were also methods of resistance.  
+> So the answer is “Appeals against colonial land expropriation associated with rudolf duala manga bell.”.  
 
-> An official calls opposition disorder while a local account describes defence of land.
+> Duala leaders contest land removal through petitions and legal appeals.
 > Which explanation justifies the classification?
 
-- ◻️ Opposition linked to loss or threatened loss of land.  
-  _↳ feedback if chosen: That explanation describes land grievance, rather than the relationship illustrated in this example._
-- ✅ The standpoint shaping how an event is described.
-- ◻️ Resistance through a formal written appeal or challenge.  
-  _↳ feedback if chosen: That explanation describes petition and legal protest, rather than the relationship illustrated in this example._
-- ◻️ Resistance using organised force against intrusion.  
-  _↳ feedback if chosen: That explanation describes armed opposition, rather than the relationship illustrated in this example._
+- ◻️ Armed opposition to german intrusion in the upper cross river region.  
+  _↳ feedback if chosen: That explanation describes Mamfe/Cross River resistance, rather than the relationship illustrated in this example._
+- ✅ Appeals against colonial land expropriation associated with rudolf duala manga bell.
+- ◻️ Opposition associated with asunganyi and demands for plantation workers.  
+  _↳ feedback if chosen: That explanation describes Bangwa resistance, rather than the relationship illustrated in this example._
+- ◻️ Kuva likenye’s defence around buea against german intrusion.  
+  _↳ feedback if chosen: That explanation describes Bakweri resistance, rather than the relationship illustrated in this example._
 
 Full working after a second miss:
 
-> Compare the author's position and evidence rather than accepting labels as neutral.  
-> So the answer is “The standpoint shaping how an event is described.”.  
+> Formal appeals and land protest were also methods of resistance.  
+> So the answer is “Appeals against colonial land expropriation associated with rudolf duala manga bell.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-10-link` · Lesson 10 · matching, level 2
 
@@ -4125,57 +4130,58 @@ Prompt: Match each term to its example.
 
 Pairs (3 shown each time):
 
-- armed opposition → **A community fights an expedition seeking to impose authority.**
-- petition and legal protest → **Duala leaders challenge land expropriation through appeals.**
-- land grievance → **Residents contest a plan to remove them from their land.**
-- source perspective → **An official calls opposition disorder while a local account describes defence of land.**
+- Bakweri resistance → **Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894.**
+- Bangwa resistance → **A dispute over recruited workers precedes Bangwa resistance and German raids.**
+- Mamfe/Cross River resistance → **The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.**
+- Nso resistance → **Nso encounters include the fighting of 1902 and the campaign of 1906.**
+- Duala land protest → **Duala leaders contest land removal through petitions and legal appeals.**
 
 
 Three generated variants:
 
 > Match each term to its example.
 
-Right-hand side (shuffled): Residents contest a plan to remove them from their land. · Duala leaders challenge land expropriation through appeals. · An official calls opposition disorder while a local account describes defence of land.
-- source perspective → **An official calls opposition disorder while a local account describes defence of land.**
-- land grievance → **Residents contest a plan to remove them from their land.**
-- petition and legal protest → **Duala leaders challenge land expropriation through appeals.**
+Right-hand side (shuffled): Nso encounters include the fighting of 1902 and the campaign of 1906. · Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894. · Duala leaders contest land removal through petitions and legal appeals.
+- Duala land protest → **Duala leaders contest land removal through petitions and legal appeals.**
+- Bakweri resistance → **Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894.**
+- Nso resistance → **Nso encounters include the fighting of 1902 and the campaign of 1906.**
 
 Full working after a second miss:
 
 > The right pairs are:  
-> source perspective → An official calls opposition disorder while a local account describes defence of land.  
-> land grievance → Residents contest a plan to remove them from their land.  
-> petition and legal protest → Duala leaders challenge land expropriation through appeals.  
+> Duala land protest → Duala leaders contest land removal through petitions and legal appeals.  
+> Bakweri resistance → Kuva Likenye’s forces repel the attack of 1891 before a renewed attack in 1894.  
+> Nso resistance → Nso encounters include the fighting of 1902 and the campaign of 1906.  
 
 > Match each term to its example.
 
-Right-hand side (shuffled): A community fights an expedition seeking to impose authority. · An official calls opposition disorder while a local account describes defence of land. · Residents contest a plan to remove them from their land.
-- source perspective → **An official calls opposition disorder while a local account describes defence of land.**
-- land grievance → **Residents contest a plan to remove them from their land.**
-- armed opposition → **A community fights an expedition seeking to impose authority.**
+Right-hand side (shuffled): Nso encounters include the fighting of 1902 and the campaign of 1906. · A dispute over recruited workers precedes Bangwa resistance and German raids. · Duala leaders contest land removal through petitions and legal appeals.
+- Duala land protest → **Duala leaders contest land removal through petitions and legal appeals.**
+- Nso resistance → **Nso encounters include the fighting of 1902 and the campaign of 1906.**
+- Bangwa resistance → **A dispute over recruited workers precedes Bangwa resistance and German raids.**
 
 Full working after a second miss:
 
 > The right pairs are:  
-> source perspective → An official calls opposition disorder while a local account describes defence of land.  
-> land grievance → Residents contest a plan to remove them from their land.  
-> armed opposition → A community fights an expedition seeking to impose authority.  
+> Duala land protest → Duala leaders contest land removal through petitions and legal appeals.  
+> Nso resistance → Nso encounters include the fighting of 1902 and the campaign of 1906.  
+> Bangwa resistance → A dispute over recruited workers precedes Bangwa resistance and German raids.  
 
 > Match each term to its example.
 
-Right-hand side (shuffled): Residents contest a plan to remove them from their land. · An official calls opposition disorder while a local account describes defence of land. · Duala leaders challenge land expropriation through appeals.
-- petition and legal protest → **Duala leaders challenge land expropriation through appeals.**
-- source perspective → **An official calls opposition disorder while a local account describes defence of land.**
-- land grievance → **Residents contest a plan to remove them from their land.**
+Right-hand side (shuffled): A dispute over recruited workers precedes Bangwa resistance and German raids. · Duala leaders contest land removal through petitions and legal appeals. · The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.
+- Bangwa resistance → **A dispute over recruited workers precedes Bangwa resistance and German raids.**
+- Mamfe/Cross River resistance → **The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.**
+- Duala land protest → **Duala leaders contest land removal through petitions and legal appeals.**
 
 Full working after a second miss:
 
 > The right pairs are:  
-> petition and legal protest → Duala leaders challenge land expropriation through appeals.  
-> source perspective → An official calls opposition disorder while a local account describes defence of land.  
-> land grievance → Residents contest a plan to remove them from their land.  
+> Bangwa resistance → A dispute over recruited workers precedes Bangwa resistance and German raids.  
+> Mamfe/Cross River resistance → The fighting of 1904 includes attacks on an expedition and trading posts, followed by German reprisals.  
+> Duala land protest → Duala leaders contest land removal through petitions and legal appeals.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-10-repair` · Lesson 10 · spot the error, level 3
 
@@ -4183,71 +4189,74 @@ Prompt: Find the incorrect claim.
 
 Shows 3 correct and 1 wrong statement(s), drawn from:
 
-- ✅ armed opposition: resistance using organised force against intrusion.
-- ✅ petition and legal protest: resistance through a formal written appeal or challenge.
-- ✅ land grievance: opposition linked to loss or threatened loss of land.
-- ✅ source perspective: the standpoint shaping how an event is described.
-- ❌ Only written petitions can count as resistance.  
-  _↳ Armed action is one form of resistance alongside non-military methods._
-- ❌ A land petition proves its authors accepted every colonial policy.  
-  _↳ An appeal can be an attempt to resist a specific colonial action._
-- ❌ Land removal has no possible role in resistance.  
-  _↳ Land threatened livelihoods, authority and rights and could motivate protest._
-- ❌ One official label settles every actor's motive.  
-  _↳ Compare the author's position and evidence rather than accepting labels as neutral._
+- ✅ Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.
+- ✅ Bangwa resistance: opposition associated with Asunganyi and demands for plantation workers.
+- ✅ Mamfe/Cross River resistance: armed opposition to German intrusion in the Upper Cross River region.
+- ✅ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.
+- ✅ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.
+- ❌ The Bakweri victory in {1891} prevented every later German attack.  
+  _↳ The initial success was followed by renewed attack and defeat in {1894}._
+- ❌ An initial agreement over workers proves Asunganyi accepted every later demand.  
+  _↳ The relationship changed when disputes over recruitment developed._
+- ❌ The Mamfe conflict was simply the Duala land petition in the same place.  
+  _↳ The Cross River armed conflict and the coastal land petition were separate cases._
+- ❌ Pavel’s presence and every later Nso campaign were one event with no chronological difference.  
+  _↳ Separate the encounters and campaigns; the circumstances of Ngonnso’s removal also require careful sourcing._
+- ❌ Only a battlefield fight can count as resistance.  
+  _↳ Formal appeals and land protest were also methods of resistance._
 
 
 Three generated variants:
 
 > Find the incorrect claim.
 
-- ◻️ armed opposition: resistance using organised force against intrusion.  
-  _↳ explanation: This statement is correct: armed opposition means resistance using organised force against intrusion. Look for a claim that conflicts with its definition._
-- ◻️ source perspective: the standpoint shaping how an event is described.  
-  _↳ explanation: This statement is correct: source perspective means the standpoint shaping how an event is described. Look for a claim that conflicts with its definition._
-- ✅ One official label settles every actor's motive.  
-  _↳ explanation: Compare the author's position and evidence rather than accepting labels as neutral._
-- ◻️ petition and legal protest: resistance through a formal written appeal or challenge.  
-  _↳ explanation: This statement is correct: petition and legal protest means resistance through a formal written appeal or challenge. Look for a claim that conflicts with its definition._
+- ◻️ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.  
+  _↳ explanation: This statement is correct: Duala land protest means appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. Look for a claim that conflicts with its definition._
+- ✅ An initial agreement over workers proves Asunganyi accepted every later demand.  
+  _↳ explanation: The relationship changed when disputes over recruitment developed._
+- ◻️ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.  
+  _↳ explanation: This statement is correct: Nso resistance means defence of Nso authority through conflicts culminating in imposed control. Look for a claim that conflicts with its definition._
+- ◻️ Bangwa resistance: opposition associated with Asunganyi and demands for plantation workers.  
+  _↳ explanation: This statement is correct: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers. Look for a claim that conflicts with its definition._
 
 Full working after a second miss:
 
-> The wrong statement is “One official label settles every actor's motive.”.  
-> Compare the author's position and evidence rather than accepting labels as neutral.  
+> The wrong statement is “An initial agreement over workers proves Asunganyi accepted every later demand.”.  
+> The relationship changed when disputes over recruitment developed.  
 
 > Find the incorrect claim.
 
-- ◻️ land grievance: opposition linked to loss or threatened loss of land.  
-  _↳ explanation: This statement is correct: land grievance means opposition linked to loss or threatened loss of land. Look for a claim that conflicts with its definition._
-- ◻️ source perspective: the standpoint shaping how an event is described.  
-  _↳ explanation: This statement is correct: source perspective means the standpoint shaping how an event is described. Look for a claim that conflicts with its definition._
-- ◻️ armed opposition: resistance using organised force against intrusion.  
-  _↳ explanation: This statement is correct: armed opposition means resistance using organised force against intrusion. Look for a claim that conflicts with its definition._
-- ✅ Land removal has no possible role in resistance.  
-  _↳ explanation: Land threatened livelihoods, authority and rights and could motivate protest._
+- ✅ An initial agreement over workers proves Asunganyi accepted every later demand.  
+  _↳ explanation: The relationship changed when disputes over recruitment developed._
+- ◻️ Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.  
+  _↳ explanation: This statement is correct: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion. Look for a claim that conflicts with its definition._
+- ◻️ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.  
+  _↳ explanation: This statement is correct: Duala land protest means appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. Look for a claim that conflicts with its definition._
+- ◻️ Mamfe/Cross River resistance: armed opposition to German intrusion in the Upper Cross River region.  
+  _↳ explanation: This statement is correct: Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region. Look for a claim that conflicts with its definition._
 
 Full working after a second miss:
 
-> The wrong statement is “Land removal has no possible role in resistance.”.  
-> Land threatened livelihoods, authority and rights and could motivate protest.  
+> The wrong statement is “An initial agreement over workers proves Asunganyi accepted every later demand.”.  
+> The relationship changed when disputes over recruitment developed.  
 
 > Find the incorrect claim.
 
-- ◻️ source perspective: the standpoint shaping how an event is described.  
-  _↳ explanation: This statement is correct: source perspective means the standpoint shaping how an event is described. Look for a claim that conflicts with its definition._
-- ✅ Only written petitions can count as resistance.  
-  _↳ explanation: Armed action is one form of resistance alongside non-military methods._
-- ◻️ land grievance: opposition linked to loss or threatened loss of land.  
-  _↳ explanation: This statement is correct: land grievance means opposition linked to loss or threatened loss of land. Look for a claim that conflicts with its definition._
-- ◻️ armed opposition: resistance using organised force against intrusion.  
-  _↳ explanation: This statement is correct: armed opposition means resistance using organised force against intrusion. Look for a claim that conflicts with its definition._
+- ◻️ Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.  
+  _↳ explanation: This statement is correct: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion. Look for a claim that conflicts with its definition._
+- ✅ The Bakweri victory in 1891 prevented every later German attack.  
+  _↳ explanation: The initial success was followed by renewed attack and defeat in 1894._
+- ◻️ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.  
+  _↳ explanation: This statement is correct: Nso resistance means defence of Nso authority through conflicts culminating in imposed control. Look for a claim that conflicts with its definition._
+- ◻️ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.  
+  _↳ explanation: This statement is correct: Duala land protest means appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. Look for a claim that conflicts with its definition._
 
 Full working after a second miss:
 
-> The wrong statement is “Only written petitions can count as resistance.”.  
-> Armed action is one form of resistance alongside non-military methods.  
+> The wrong statement is “The Bakweri victory in 1891 prevented every later German attack.”.  
+> The initial success was followed by renewed attack and defeat in 1894.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-10-repair-card` · Lesson 10 · spot the error, level 1
 
@@ -4255,71 +4264,74 @@ Prompt: Find the incorrect claim.
 
 Shows 3 correct and 1 wrong statement(s), drawn from:
 
-- ✅ armed opposition: resistance using organised force against intrusion.
-- ✅ petition and legal protest: resistance through a formal written appeal or challenge.
-- ✅ land grievance: opposition linked to loss or threatened loss of land.
-- ✅ source perspective: the standpoint shaping how an event is described.
-- ❌ Only written petitions can count as resistance.  
-  _↳ Armed action is one form of resistance alongside non-military methods._
-- ❌ A land petition proves its authors accepted every colonial policy.  
-  _↳ An appeal can be an attempt to resist a specific colonial action._
-- ❌ Land removal has no possible role in resistance.  
-  _↳ Land threatened livelihoods, authority and rights and could motivate protest._
-- ❌ One official label settles every actor's motive.  
-  _↳ Compare the author's position and evidence rather than accepting labels as neutral._
+- ✅ Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.
+- ✅ Bangwa resistance: opposition associated with Asunganyi and demands for plantation workers.
+- ✅ Mamfe/Cross River resistance: armed opposition to German intrusion in the Upper Cross River region.
+- ✅ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.
+- ✅ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.
+- ❌ The Bakweri victory in {1891} prevented every later German attack.  
+  _↳ The initial success was followed by renewed attack and defeat in {1894}._
+- ❌ An initial agreement over workers proves Asunganyi accepted every later demand.  
+  _↳ The relationship changed when disputes over recruitment developed._
+- ❌ The Mamfe conflict was simply the Duala land petition in the same place.  
+  _↳ The Cross River armed conflict and the coastal land petition were separate cases._
+- ❌ Pavel’s presence and every later Nso campaign were one event with no chronological difference.  
+  _↳ Separate the encounters and campaigns; the circumstances of Ngonnso’s removal also require careful sourcing._
+- ❌ Only a battlefield fight can count as resistance.  
+  _↳ Formal appeals and land protest were also methods of resistance._
 
 
 Three generated variants:
 
 > Find the incorrect claim.
 
-- ✅ Land removal has no possible role in resistance.  
-  _↳ explanation: Land threatened livelihoods, authority and rights and could motivate protest._
-- ◻️ armed opposition: resistance using organised force against intrusion.  
-  _↳ explanation: This statement is correct: armed opposition means resistance using organised force against intrusion. Look for a claim that conflicts with its definition._
-- ◻️ source perspective: the standpoint shaping how an event is described.  
-  _↳ explanation: This statement is correct: source perspective means the standpoint shaping how an event is described. Look for a claim that conflicts with its definition._
-- ◻️ land grievance: opposition linked to loss or threatened loss of land.  
-  _↳ explanation: This statement is correct: land grievance means opposition linked to loss or threatened loss of land. Look for a claim that conflicts with its definition._
+- ◻️ Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.  
+  _↳ explanation: This statement is correct: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion. Look for a claim that conflicts with its definition._
+- ◻️ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.  
+  _↳ explanation: This statement is correct: Duala land protest means appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. Look for a claim that conflicts with its definition._
+- ✅ Only a battlefield fight can count as resistance.  
+  _↳ explanation: Formal appeals and land protest were also methods of resistance._
+- ◻️ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.  
+  _↳ explanation: This statement is correct: Nso resistance means defence of Nso authority through conflicts culminating in imposed control. Look for a claim that conflicts with its definition._
 
 Full working after a second miss:
 
-> The wrong statement is “Land removal has no possible role in resistance.”.  
-> Land threatened livelihoods, authority and rights and could motivate protest.  
+> The wrong statement is “Only a battlefield fight can count as resistance.”.  
+> Formal appeals and land protest were also methods of resistance.  
 
 > Find the incorrect claim.
 
-- ◻️ source perspective: the standpoint shaping how an event is described.  
-  _↳ explanation: This statement is correct: source perspective means the standpoint shaping how an event is described. Look for a claim that conflicts with its definition._
-- ◻️ armed opposition: resistance using organised force against intrusion.  
-  _↳ explanation: This statement is correct: armed opposition means resistance using organised force against intrusion. Look for a claim that conflicts with its definition._
-- ✅ A land petition proves its authors accepted every colonial policy.  
-  _↳ explanation: An appeal can be an attempt to resist a specific colonial action._
-- ◻️ petition and legal protest: resistance through a formal written appeal or challenge.  
-  _↳ explanation: This statement is correct: petition and legal protest means resistance through a formal written appeal or challenge. Look for a claim that conflicts with its definition._
+- ◻️ Bangwa resistance: opposition associated with Asunganyi and demands for plantation workers.  
+  _↳ explanation: This statement is correct: Bangwa resistance means opposition associated with Asunganyi and demands for plantation workers. Look for a claim that conflicts with its definition._
+- ◻️ Duala land protest: appeals against colonial land expropriation associated with Rudolf Duala Manga Bell.  
+  _↳ explanation: This statement is correct: Duala land protest means appeals against colonial land expropriation associated with Rudolf Duala Manga Bell. Look for a claim that conflicts with its definition._
+- ◻️ Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.  
+  _↳ explanation: This statement is correct: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion. Look for a claim that conflicts with its definition._
+- ✅ Pavel’s presence and every later Nso campaign were one event with no chronological difference.  
+  _↳ explanation: Separate the encounters and campaigns; the circumstances of Ngonnso’s removal also require careful sourcing._
 
 Full working after a second miss:
 
-> The wrong statement is “A land petition proves its authors accepted every colonial policy.”.  
-> An appeal can be an attempt to resist a specific colonial action.  
+> The wrong statement is “Pavel’s presence and every later Nso campaign were one event with no chronological difference.”.  
+> Separate the encounters and campaigns; the circumstances of Ngonnso’s removal also require careful sourcing.  
 
 > Find the incorrect claim.
 
-- ◻️ petition and legal protest: resistance through a formal written appeal or challenge.  
-  _↳ explanation: This statement is correct: petition and legal protest means resistance through a formal written appeal or challenge. Look for a claim that conflicts with its definition._
-- ◻️ land grievance: opposition linked to loss or threatened loss of land.  
-  _↳ explanation: This statement is correct: land grievance means opposition linked to loss or threatened loss of land. Look for a claim that conflicts with its definition._
-- ◻️ armed opposition: resistance using organised force against intrusion.  
-  _↳ explanation: This statement is correct: armed opposition means resistance using organised force against intrusion. Look for a claim that conflicts with its definition._
-- ✅ Only written petitions can count as resistance.  
-  _↳ explanation: Armed action is one form of resistance alongside non-military methods._
+- ◻️ Bakweri resistance: Kuva Likenye’s defence around Buea against German intrusion.  
+  _↳ explanation: This statement is correct: Bakweri resistance means Kuva Likenye’s defence around Buea against German intrusion. Look for a claim that conflicts with its definition._
+- ◻️ Nso resistance: defence of Nso authority through conflicts culminating in imposed control.  
+  _↳ explanation: This statement is correct: Nso resistance means defence of Nso authority through conflicts culminating in imposed control. Look for a claim that conflicts with its definition._
+- ✅ An initial agreement over workers proves Asunganyi accepted every later demand.  
+  _↳ explanation: The relationship changed when disputes over recruitment developed._
+- ◻️ Mamfe/Cross River resistance: armed opposition to German intrusion in the Upper Cross River region.  
+  _↳ explanation: This statement is correct: Mamfe/Cross River resistance means armed opposition to German intrusion in the Upper Cross River region. Look for a claim that conflicts with its definition._
 
 Full working after a second miss:
 
-> The wrong statement is “Only written petitions can count as resistance.”.  
-> Armed action is one form of resistance alongside non-military methods.  
+> The wrong statement is “An initial agreement over workers proves Asunganyi accepted every later demand.”.  
+> The relationship changed when disputes over recruitment developed.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-11-terms` · Lesson 11 · multiple choice, level 1
 
@@ -4387,7 +4399,7 @@ Full working after a second miss:
 > Benefits or services distributed unevenly.  
 > So the answer is “unequal access”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-11-cases` · Lesson 11 · multiple choice, level 1
 
@@ -4462,7 +4474,7 @@ Full working after a second miss:
 > Plantation produce is transported toward the coast for export. Production organised substantially for overseas markets.  
 > So the answer is “export orientation”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-11-reason` · Lesson 11 · multiple choice, level 2
 
@@ -4537,7 +4549,7 @@ Full working after a second miss:
 > Force, penalties and unequal authority must be considered when assessing labour.  
 > So the answer is “Work required through force or unequal colonial compulsion.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-11-link` · Lesson 11 · matching, level 2
 
@@ -4595,7 +4607,7 @@ Full working after a second miss:
 > export orientation → Plantation produce is transported toward the coast for export.  
 > coercive labour demand → Workers face imposed labour obligations linked to colonial projects.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-11-repair` · Lesson 11 · spot the error, level 3
 
@@ -4667,7 +4679,7 @@ Full working after a second miss:
 > The wrong statement is “The existence of one school proves universal schooling.”.  
 > An institution's existence does not establish equal access for everyone.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-11-repair-card` · Lesson 11 · spot the error, level 1
 
@@ -4739,7 +4751,7 @@ Full working after a second miss:
 > The wrong statement is “All colonial labour demands were freely chosen equal contracts.”.  
 > Force, penalties and unequal authority must be considered when assessing labour.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-12-terms` · Lesson 12 · multiple choice, level 1
 
@@ -4807,7 +4819,7 @@ Full working after a second miss:
 > Changes that divide or reshape established communities and networks.  
 > So the answer is “disruption of existing relations”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-12-cases` · Lesson 12 · multiple choice, level 1
 
@@ -4882,7 +4894,7 @@ Full working after a second miss:
 > A humanitarian claim is compared with evidence of coercion. A difference between proclaimed aims and actual practice.  
 > So the answer is “implementation gap”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-12-reason` · Lesson 12 · multiple choice, level 2
 
@@ -4957,7 +4969,7 @@ Full working after a second miss:
 > Affected peoples were not equal decision makers in the conference.  
 > So the answer is “Decisions made without the affected peoples as equal participants.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-12-link` · Lesson 12 · matching, level 2
 
@@ -5015,7 +5027,7 @@ Full working after a second miss:
 > disruption of existing relations → Later boundaries affect connected trading communities.  
 > imperial framework → States use conference rules when presenting colonial claims.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-12-repair` · Lesson 12 · spot the error, level 3
 
@@ -5087,7 +5099,7 @@ Full working after a second miss:
 > The wrong statement is “A framework means every conquest happened during the meeting itself.”.  
 > Rules and later implementation are distinct stages.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-12-repair-card` · Lesson 12 · spot the error, level 1
 
@@ -5159,7 +5171,7 @@ Full working after a second miss:
 > The wrong statement is “Every boundary necessarily followed all existing local relationships perfectly.”.  
 > Colonial boundary making could cut across existing connections.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-13-terms` · Lesson 13 · multiple choice, level 1
 
@@ -5227,7 +5239,7 @@ Full working after a second miss:
 > An asserted relationship of external protection and control.  
 > So the answer is “protectorate claim”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-13-cases` · Lesson 13 · multiple choice, level 1
 
@@ -5302,7 +5314,7 @@ Full working after a second miss:
 > A company is allowed particular trading or resource rights. A grant of specified rights such as commercial exploitation.  
 > So the answer is “concession”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-13-reason` · Lesson 13 · multiple choice, level 2
 
@@ -5377,7 +5389,7 @@ Full working after a second miss:
 > The label could accompany unequal external control.  
 > So the answer is “An asserted relationship of external protection and control.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-13-link` · Lesson 13 · matching, level 2
 
@@ -5435,7 +5447,7 @@ Full working after a second miss:
 > mandate → A former German territory is allocated for administration after the war.  
 > protectorate claim → An imperial state announces protection while claiming governing influence.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-13-repair` · Lesson 13 · spot the error, level 3
 
@@ -5507,7 +5519,7 @@ Full working after a second miss:
 > The wrong statement is “Protection terminology proves equality and freedom from domination.”.  
 > The label could accompany unequal external control.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-13-repair-card` · Lesson 13 · spot the error, level 1
 
@@ -5579,7 +5591,7 @@ Full working after a second miss:
 > The wrong statement is “Protection terminology proves equality and freedom from domination.”.  
 > The label could accompany unequal external control.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-15-terms` · Lesson 15 · multiple choice, level 1
 
@@ -5647,7 +5659,7 @@ Full working after a second miss:
 > An aim of protecting or extending exchange.  
 > So the answer is “commercial interest”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-15-cases` · Lesson 15 · multiple choice, level 1
 
@@ -5722,7 +5734,7 @@ Full working after a second miss:
 > An imagined ruler seeks an ally against a neighbouring opponent. Cooperation intended to reduce a threat or counter a rival.  
 > So the answer is “security alliance”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-15-reason` · Lesson 15 · multiple choice, level 2
 
@@ -5797,7 +5809,7 @@ Full working after a second miss:
 > Accommodation can occur within unequal and coercive conditions.  
 > So the answer is “Cooperation intended to preserve some room for local action.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-15-link` · Lesson 15 · matching, level 2
 
@@ -5855,7 +5867,7 @@ Full working after a second miss:
 > negotiated accommodation → A community negotiates under pressure to protect particular interests.  
 > security alliance → An imagined ruler seeks an ally against a neighbouring opponent.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-15-repair` · Lesson 15 · spot the error, level 3
 
@@ -5927,7 +5939,7 @@ Full working after a second miss:
 > The wrong statement is “A trade agreement can never reflect a trader's own economic interests.”.  
 > Commercial interests could motivate African as well as European actors.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-15-repair-card` · Lesson 15 · spot the error, level 1
 
@@ -5999,7 +6011,7 @@ Full working after a second miss:
 > The wrong statement is “An alliance proves unconditional support for every future colonial demand.”.  
 > A security alliance may pursue a limited aim rather than unconditional approval.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-16-terms` · Lesson 16 · multiple choice, level 1
 
@@ -6067,7 +6079,7 @@ Full working after a second miss:
 > Opposition to seizure or restriction of land.  
 > So the answer is “land grievance”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-16-cases` · Lesson 16 · multiple choice, level 1
 
@@ -6142,7 +6154,7 @@ Full working after a second miss:
 > Households object to workers being compelled away from their farms. Opposition to imposed work demands.  
 > So the answer is “labour grievance”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-16-reason` · Lesson 16 · multiple choice, level 2
 
@@ -6217,7 +6229,7 @@ Full working after a second miss:
 > Compulsion and its household costs can explain opposition.  
 > So the answer is “Opposition to imposed work demands.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-16-link` · Lesson 16 · matching, level 2
 
@@ -6275,7 +6287,7 @@ Full working after a second miss:
 > defence of sovereignty → A community rejects an outside authority's governing claim.  
 > land grievance → Farmers resist removal from fields they rely on.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-16-repair` · Lesson 16 · spot the error, level 3
 
@@ -6347,7 +6359,7 @@ Full working after a second miss:
 > The wrong statement is “Defending local political authority is merely a dispute about weather.”.  
 > The relevant issue is control over governing decisions.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-16-repair-card` · Lesson 16 · spot the error, level 1
 
@@ -6419,7 +6431,7 @@ Full working after a second miss:
 > The wrong statement is “Land loss cannot affect livelihoods.”.  
 > Land could sustain production, residence and authority, so its loss mattered.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-17-terms` · Lesson 17 · multiple choice, level 1
 
@@ -6487,7 +6499,7 @@ Full working after a second miss:
 > Imperial ethiopian leadership associated with mobilisation against italy.  
 > So the answer is “Menelik II's leadership”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-17-cases` · Lesson 17 · multiple choice, level 1
 
@@ -6562,7 +6574,7 @@ Full working after a second miss:
 > The invasion is defeated in a major battle and Ethiopian independence is upheld. The ethiopian defeat of the invading italian army in 1896.  
 > So the answer is “Adwa victory”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-17-reason` · Lesson 17 · multiple choice, level 2
 
@@ -6637,7 +6649,7 @@ Full working after a second miss:
 > The disputed political relationship was central, not a decorative detail.  
 > So the answer is “Conflicting claims about the relationship described by wuchale.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-17-link` · Lesson 17 · matching, level 2
 
@@ -6695,7 +6707,7 @@ Full working after a second miss:
 > Adwa victory → The invasion is defeated in a major battle and Ethiopian independence is upheld.  
 > treaty dispute → Italy claims a protectorate relationship that Ethiopia rejects.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-17-repair` · Lesson 17 · spot the error, level 3
 
@@ -6767,7 +6779,7 @@ Full working after a second miss:
 > The wrong statement is “Adwa established permanent Italian colonial control immediately after the battle.”.  
 > The battle defeated that attempt to impose colonial rule.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-17-repair-card` · Lesson 17 · spot the error, level 1
 
@@ -6839,7 +6851,7 @@ Full working after a second miss:
 > The wrong statement is “Adwa established permanent Italian colonial control immediately after the battle.”.  
 > The battle defeated that attempt to impose colonial rule.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-18-terms` · Lesson 18 · multiple choice, level 1
 
@@ -6907,7 +6919,7 @@ Full working after a second miss:
 > An approach claiming to govern through distinctions and selected local arrangements.  
 > So the answer is “association policy”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-18-cases` · Lesson 18 · multiple choice, level 1
 
@@ -6982,7 +6994,7 @@ Full working after a second miss:
 > An administration invokes local institutions while retaining imperial control. An approach claiming to govern through distinctions and selected local arrangements.  
 > So the answer is “association policy”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-18-reason` · Lesson 18 · multiple choice, level 2
 
@@ -7057,7 +7069,7 @@ Full working after a second miss:
 > The policy claim and actual limited, unequal application must be distinguished.  
 > So the answer is “An imperial claim of incorporating selected subjects into the coloniser's institutions and culture.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-18-link` · Lesson 18 · matching, level 2
 
@@ -7115,7 +7127,7 @@ Full working after a second miss:
 > direct administration → Officials directly supervise local decisions in a colonial district.  
 > indirect administration → A recognised ruler carries out demands under a colonial resident's authority.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-18-repair` · Lesson 18 · spot the error, level 3
 
@@ -7187,7 +7199,7 @@ Full working after a second miss:
 > The wrong statement is “Association necessarily removes imperial hierarchy.”.  
 > Using local arrangements does not abolish colonial subordination.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-18-repair-card` · Lesson 18 · spot the error, level 1
 
@@ -7259,7 +7271,7 @@ Full working after a second miss:
 > The wrong statement is “Indirect rule means full independence from colonial control.”.  
 > Local office remains subordinated to imperial authority.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-19-terms` · Lesson 19 · multiple choice, level 1
 
@@ -7327,7 +7339,7 @@ Full working after a second miss:
 > Imperial authority over the local administrative machinery.  
 > So the answer is “colonial supervision”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-19-cases` · Lesson 19 · multiple choice, level 1
 
@@ -7402,7 +7414,7 @@ Full working after a second miss:
 > A government with few European officials works through established offices. Reliance on existing machinery to limit staffing and costs.  
 > So the answer is “administrative economy”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-19-reason` · Lesson 19 · multiple choice, level 2
 
@@ -7477,7 +7489,7 @@ Full working after a second miss:
 > Limited staffing and costs helped encourage use of existing local institutions.  
 > So the answer is “Reliance on existing machinery to limit staffing and costs.”.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-19-link` · Lesson 19 · matching, level 2
 
@@ -7535,7 +7547,7 @@ Full working after a second miss:
 > colonial supervision → A resident directs policy and can challenge a ruler's conduct.  
 > local intermediary authority → A recognised emir and officials carry out administrative functions.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-19-repair` · Lesson 19 · spot the error, level 3
 
@@ -7607,7 +7619,7 @@ Full working after a second miss:
 > The wrong statement is “Indirect rule preserved every custom and power exactly unchanged.”.  
 > Colonial supervision and new functions could transform local institutions.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
 ### `y3-19-repair-card` · Lesson 19 · spot the error, level 1
 
@@ -7679,5 +7691,5 @@ Full working after a second miss:
 > The wrong statement is “A colonial resident has no relation to how indirect rule operates.”.  
 > Supervision is central to the subordinate status of the local machinery.  
 
-Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on the Berlin General Act; bpb colonial Cameroon history; Smithsonian Adwa object record; scholarly and archival studies of colonial rule)
+Sources: colonial-history (Cameroon MINREX historical chronology; German Foreign Office Political Archive on Berlin; bpb; Smithsonian Adwa record; scholarly colonial histories; Atlas der Abwesenheit (Kuva Likenye/Asunganyi); Rautenstrauch-Joest Museum Bangwa provenance; Njung dissertation on the Cross River; Splettstößer on Nso encounters)
 
