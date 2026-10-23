@@ -35,3 +35,16 @@
   - a confusing due-date prompt.
 - Not checked: no subject teacher has reviewed any of this yet. The SYSCOHADA account numbers and the VAT simplifications are listed in
   content/form-3/accounting/TEACHER-REVIEW.md (TR-A3-1 to TR-A3-6).
+
+## 2026-10-23 (night): Form 3 Term 1 merged into form-2
+
+- Merged f3-claude and f3-codex (Form 3 tip 23c1f1c) into form-2: no conflicts. Build now writes Form 3 Term 1 as four
+  files (form3-term-1-part-1 … 4). npm test 6215 pass. Browser walk at 360 px: all 281 lessons of the 13 Form 3
+  subjects clean (French and Français intensif walked with the French button labels).
+- Found by the walk: the Summary screen shows the note as written, so Geography 1 and 7 showed "{6371} km". Codex's
+  helper copied Learn text into the note; it now strips the fields (codex_support.plain). Also fixed 6 History notes
+  and Form 2 Computer Science notes 36, 37, 40 ("B{3}"). New check in subject-suite: no {digits} or {'text'} in a note.
+- Then merged all of f3-codex (Form 4 Logic and Economics); npm test 6406 pass. Codex's Form 4 notes were already clean.
+- ASSIGNMENTS: Form 4 split recorded (Claude numbers and sciences, Codex languages and humanities). AUTHORING:
+  the Form 4 "Your goal and connections" opening screen and LEARNING-PATH.md.
+- form-2 = f3-claude = 648620d, pushed. main untouched.
