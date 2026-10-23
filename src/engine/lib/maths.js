@@ -229,6 +229,21 @@ export const placeValues = (s, b) => { const L = String(s).length; return range(
 export const placeBlanks = (s) => [...String(s)].map((d) => `${d} × ___`).join(" + ") + " = ___";
 /** The answers to placeBlanks, in order: each place value, then the base-ten value. */
 export const placeAnswers = (s, b) => [...placeValues(s, b), fromBase(s, b)];
+// ---------------------------------------------------------------- base ten → base b: help after a miss (2026-10-24)
+/** The quotients and remainders of dividing n by b again and again, down to a quotient of 0. */
+const divisions = (n, b) => { const out = []; let q = n; do { out.push([Math.floor(q / b), q % b]); q = Math.floor(q / b); } while (q > 0); return out; };
+/**
+ * The division ladder as on paper, one box for each quotient and remainder, then the answer:
+ *   2 | 45
+ *   2 | ___ remainder ___
+ *       ___ remainder ___      (the last quotient, 0, is not divided again)
+ *   Remainders from the bottom up: ___
+ */
+export const divBlanks = (n, b) => [`${b} | ${fmt(n)}`,
+  ...divisions(n, b).map(([q]) => `${q > 0 ? `${b} | ` : ""}___ remainder ___`),
+  "Remainders from the bottom up: ___"].join("\n");
+/** The answers to divBlanks, in order: each quotient and its remainder, then the base-b numeral (a string). */
+export const divAnswers = (n, b) => [...divisions(n, b).flat(), toBase(n, b)];
 /** Usual wrong answers: the digits added, the digits multiplied, the place values read from the left. */
 export const digitSum = (s) => [...String(s)].reduce((a, d) => a + Number(d), 0);
 export const digitProduct = (s) => [...String(s)].reduce((a, d) => a * Number(d), 1);

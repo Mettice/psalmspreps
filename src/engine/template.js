@@ -202,6 +202,7 @@ export function instantiate(tpl, seed, lib, lesson = null) {
       const shown = values.map(show(lib));
       Object.assign(q, { parts, answerKind: "number", answerValues: values, answers: shown,
         answer: parts.map((p, i) => p + (i < shown.length ? shown[i] : "")).join("") });
+      if (tpl.base) q.base = evaluate(tpl.base, scope, lib);  // a division ladder ends with a base-b numeral
       q.verified = true;
       return withSolution(q, scope);
     }
@@ -388,7 +389,9 @@ export function check(q, response) {
   }
   if (q.type === "blanks") {
     // response: one typed value per blank. All must be right; the wrong ones are listed.
-    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], "number"));
+    // A text value is a base numeral ("101101"): compared as one, so "101101₂" and "0101101" are right too.
+    const kindOf = (v) => (typeof v === "string" ? "base" : "number");
+    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], kindOf(q.answerValues[i])));
     return wrong.length ? { correct: false, wrongBlanks: wrong } : { correct: true };
   }
   if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
