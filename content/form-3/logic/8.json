@@ -1,0 +1,599 @@
+{
+ "subject": "logic",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "l3-8",
+   "name": "Operations of the mind"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In the traditional school account, simple apprehension forms or grasps a concept without yet affirming or denying anything. Judgment affirms or denies a relation and is expressed in a proposition. Reasoning connects judgments so that one is supported by others. A term expresses a concept; a proposition can be true or false; an argument contains an inference. These operations are linked but are not interchangeable. Thinking of market alone does not assert that a market is open.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "In the traditional school account, simple apprehension forms or grasps a concept without yet affirming or denying anything. Judgment affirms or denies a relation and is expressed in a proposition. Reasoning connects judgments so that one is supported by others. A term expresses a concept; a proposition can be true or false; an argument contains an inference. These operations are linked but are not interchangeable. Thinking of market alone does not assert that a market is open."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Ngozi thinks about a market: she grasps an idea. She then judges that the market is open today. Finally she reasons that traders can enter because the market is open and entry is permitted. The last move needs premises and a conclusion. Each stage adds a different logical role, rather than simply a longer phrase."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Ask whether the example merely names something, asserts something or supports a claim from other claims. Do not classify every sentence as reasoning: a bare assertion gives no supporting inference. The traditional terminology is the course framework, not a claim that psychologists classify every thought this way."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "simple apprehension",
+    "meaning": "grasping a concept without affirming or denying"
+   },
+   {
+    "word": "judgment",
+    "meaning": "affirming or denying a relation"
+   },
+   {
+    "word": "reasoning",
+    "meaning": "drawing a supported judgment from other judgments"
+   },
+   {
+    "word": "term",
+    "meaning": "a linguistic expression of a concept"
+   }
+  ],
+  "examples": [
+   "A learner thinks of a library without claiming that it is open.",
+   "A learner asserts that the library is open today.",
+   "The rules allow entry when the library opens; it is open; so entry is allowed."
+  ],
+  "mistake": {
+   "wrong": "Merely thinking library asserts that every library is open.",
+   "right": "simple apprehension: grasping a concept without affirming or denying.",
+   "why": "The concept alone makes no affirmation about opening."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A learner thinks of a library without claiming that it is open. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Grasping a concept without affirming or denying.",
+   "The concept alone makes no affirmation about opening."
+  ],
+  "answer": "simple apprehension",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cl3-8-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "simple apprehension: grasping a concept without affirming or denying.",
+     "judgment: affirming or denying a relation.",
+     "reasoning: drawing a supported judgment from other judgments.",
+     "term: a linguistic expression of a concept."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-8-terms"
+    }
+   },
+   {
+    "id": "cl3-8-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A learner thinks of a library without claiming that it is open.",
+     "simple apprehension: grasping a concept without affirming or denying."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-8-cases"
+    }
+   },
+   {
+    "id": "cl3-8-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Merely thinking library asserts that every library is open.",
+     "The concept alone makes no affirmation about opening."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l3-8-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "intro-logic"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "simple apprehension: grasping a concept without affirming or denying.",
+        "truth": "true",
+        "explain": "This statement is correct: simple apprehension means grasping a concept without affirming or denying. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "judgment: affirming or denying a relation.",
+        "truth": "true",
+        "explain": "This statement is correct: judgment means affirming or denying a relation. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "reasoning: drawing a supported judgment from other judgments.",
+        "truth": "true",
+        "explain": "This statement is correct: reasoning means drawing a supported judgment from other judgments. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "term: a linguistic expression of a concept.",
+        "truth": "true",
+        "explain": "This statement is correct: term means a linguistic expression of a concept. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Merely thinking library asserts that every library is open.",
+        "truth": "false",
+        "explain": "The concept alone makes no affirmation about opening."
+       },
+       {
+        "text": "Every judgment already includes a supporting argument.",
+        "truth": "false",
+        "explain": "A judgment can be asserted without giving its reasons."
+       },
+       {
+        "text": "A single unsupported assertion is automatically an inference.",
+        "truth": "false",
+        "explain": "Reasoning requires a movement from supporting claims to a conclusion."
+       },
+       {
+        "text": "An isolated term must be true or false.",
+        "truth": "false",
+        "explain": "Truth and falsity apply to assertions, not an isolated term in this use."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l3-8-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: grasping a concept without affirming or denying ?",
+       "r": "simple apprehension",
+       "w": [
+        "judgment",
+        "reasoning",
+        "term"
+       ],
+       "e": [
+        "judgment means affirming or denying a relation; the question instead describes grasping a concept without affirming or denying.",
+        "reasoning means drawing a supported judgment from other judgments; the question instead describes grasping a concept without affirming or denying.",
+        "term means a linguistic expression of a concept; the question instead describes grasping a concept without affirming or denying."
+       ],
+       "y": "Grasping a concept without affirming or denying."
+      },
+      {
+       "q": "Which term means: affirming or denying a relation ?",
+       "r": "judgment",
+       "w": [
+        "simple apprehension",
+        "reasoning",
+        "term"
+       ],
+       "e": [
+        "simple apprehension means grasping a concept without affirming or denying; the question instead describes affirming or denying a relation.",
+        "reasoning means drawing a supported judgment from other judgments; the question instead describes affirming or denying a relation.",
+        "term means a linguistic expression of a concept; the question instead describes affirming or denying a relation."
+       ],
+       "y": "Affirming or denying a relation."
+      },
+      {
+       "q": "Which term means: drawing a supported judgment from other judgments ?",
+       "r": "reasoning",
+       "w": [
+        "simple apprehension",
+        "judgment",
+        "term"
+       ],
+       "e": [
+        "simple apprehension means grasping a concept without affirming or denying; the question instead describes drawing a supported judgment from other judgments.",
+        "judgment means affirming or denying a relation; the question instead describes drawing a supported judgment from other judgments.",
+        "term means a linguistic expression of a concept; the question instead describes drawing a supported judgment from other judgments."
+       ],
+       "y": "Drawing a supported judgment from other judgments."
+      },
+      {
+       "q": "Which term means: a linguistic expression of a concept ?",
+       "r": "term",
+       "w": [
+        "simple apprehension",
+        "judgment",
+        "reasoning"
+       ],
+       "e": [
+        "simple apprehension means grasping a concept without affirming or denying; the question instead describes a linguistic expression of a concept.",
+        "judgment means affirming or denying a relation; the question instead describes a linguistic expression of a concept.",
+        "reasoning means drawing a supported judgment from other judgments; the question instead describes a linguistic expression of a concept."
+       ],
+       "y": "A linguistic expression of a concept."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-8-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner thinks of a library without claiming that it is open.\nWhich term best fits this example?",
+       "r": "simple apprehension",
+       "w": [
+        "judgment",
+        "reasoning",
+        "term"
+       ],
+       "e": [
+        "judgment concerns affirming or denying a relation. This case instead illustrates grasping a concept without affirming or denying.",
+        "reasoning concerns drawing a supported judgment from other judgments. This case instead illustrates grasping a concept without affirming or denying.",
+        "term concerns a linguistic expression of a concept. This case instead illustrates grasping a concept without affirming or denying."
+       ],
+       "y": "A learner thinks of a library without claiming that it is open. Grasping a concept without affirming or denying."
+      },
+      {
+       "q": "A learner asserts that the library is open today.\nWhich term best fits this example?",
+       "r": "judgment",
+       "w": [
+        "simple apprehension",
+        "reasoning",
+        "term"
+       ],
+       "e": [
+        "simple apprehension concerns grasping a concept without affirming or denying. This case instead illustrates affirming or denying a relation.",
+        "reasoning concerns drawing a supported judgment from other judgments. This case instead illustrates affirming or denying a relation.",
+        "term concerns a linguistic expression of a concept. This case instead illustrates affirming or denying a relation."
+       ],
+       "y": "A learner asserts that the library is open today. Affirming or denying a relation."
+      },
+      {
+       "q": "The rules allow entry when the library opens; it is open; so entry is allowed.\nWhich term best fits this example?",
+       "r": "reasoning",
+       "w": [
+        "simple apprehension",
+        "judgment",
+        "term"
+       ],
+       "e": [
+        "simple apprehension concerns grasping a concept without affirming or denying. This case instead illustrates drawing a supported judgment from other judgments.",
+        "judgment concerns affirming or denying a relation. This case instead illustrates drawing a supported judgment from other judgments.",
+        "term concerns a linguistic expression of a concept. This case instead illustrates drawing a supported judgment from other judgments."
+       ],
+       "y": "The rules allow entry when the library opens; it is open; so entry is allowed. Drawing a supported judgment from other judgments."
+      },
+      {
+       "q": "The word library expresses an idea in a discussion.\nWhich term best fits this example?",
+       "r": "term",
+       "w": [
+        "simple apprehension",
+        "judgment",
+        "reasoning"
+       ],
+       "e": [
+        "simple apprehension concerns grasping a concept without affirming or denying. This case instead illustrates a linguistic expression of a concept.",
+        "judgment concerns affirming or denying a relation. This case instead illustrates a linguistic expression of a concept.",
+        "reasoning concerns drawing a supported judgment from other judgments. This case instead illustrates a linguistic expression of a concept."
+       ],
+       "y": "The word library expresses an idea in a discussion. A linguistic expression of a concept."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-8-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner thinks of a library without claiming that it is open.\nWhich explanation justifies the classification?",
+       "r": "Grasping a concept without affirming or denying.",
+       "w": [
+        "Affirming or denying a relation.",
+        "Drawing a supported judgment from other judgments.",
+        "A linguistic expression of a concept."
+       ],
+       "e": [
+        "That explanation describes judgment, rather than the relationship illustrated in this example.",
+        "That explanation describes reasoning, rather than the relationship illustrated in this example.",
+        "That explanation describes term, rather than the relationship illustrated in this example."
+       ],
+       "y": "The concept alone makes no affirmation about opening."
+      },
+      {
+       "q": "A learner asserts that the library is open today.\nWhich explanation justifies the classification?",
+       "r": "Affirming or denying a relation.",
+       "w": [
+        "Grasping a concept without affirming or denying.",
+        "Drawing a supported judgment from other judgments.",
+        "A linguistic expression of a concept."
+       ],
+       "e": [
+        "That explanation describes simple apprehension, rather than the relationship illustrated in this example.",
+        "That explanation describes reasoning, rather than the relationship illustrated in this example.",
+        "That explanation describes term, rather than the relationship illustrated in this example."
+       ],
+       "y": "A judgment can be asserted without giving its reasons."
+      },
+      {
+       "q": "The rules allow entry when the library opens; it is open; so entry is allowed.\nWhich explanation justifies the classification?",
+       "r": "Drawing a supported judgment from other judgments.",
+       "w": [
+        "Grasping a concept without affirming or denying.",
+        "Affirming or denying a relation.",
+        "A linguistic expression of a concept."
+       ],
+       "e": [
+        "That explanation describes simple apprehension, rather than the relationship illustrated in this example.",
+        "That explanation describes judgment, rather than the relationship illustrated in this example.",
+        "That explanation describes term, rather than the relationship illustrated in this example."
+       ],
+       "y": "Reasoning requires a movement from supporting claims to a conclusion."
+      },
+      {
+       "q": "The word library expresses an idea in a discussion.\nWhich explanation justifies the classification?",
+       "r": "A linguistic expression of a concept.",
+       "w": [
+        "Grasping a concept without affirming or denying.",
+        "Affirming or denying a relation.",
+        "Drawing a supported judgment from other judgments."
+       ],
+       "e": [
+        "That explanation describes simple apprehension, rather than the relationship illustrated in this example.",
+        "That explanation describes judgment, rather than the relationship illustrated in this example.",
+        "That explanation describes reasoning, rather than the relationship illustrated in this example."
+       ],
+       "y": "Truth and falsity apply to assertions, not an isolated term in this use."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-8-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "simple apprehension",
+     "right": "A learner thinks of a library without claiming that it is open."
+    },
+    {
+     "left": "judgment",
+     "right": "A learner asserts that the library is open today."
+    },
+    {
+     "left": "reasoning",
+     "right": "The rules allow entry when the library opens; it is open; so entry is allowed."
+    },
+    {
+     "left": "term",
+     "right": "The word library expresses an idea in a discussion."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l3-8-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "simple apprehension: grasping a concept without affirming or denying.",
+      "truth": "true",
+      "explain": "This statement is correct: simple apprehension means grasping a concept without affirming or denying. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "judgment: affirming or denying a relation.",
+      "truth": "true",
+      "explain": "This statement is correct: judgment means affirming or denying a relation. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "reasoning: drawing a supported judgment from other judgments.",
+      "truth": "true",
+      "explain": "This statement is correct: reasoning means drawing a supported judgment from other judgments. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "term: a linguistic expression of a concept.",
+      "truth": "true",
+      "explain": "This statement is correct: term means a linguistic expression of a concept. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Merely thinking library asserts that every library is open.",
+      "truth": "false",
+      "explain": "The concept alone makes no affirmation about opening."
+     },
+     {
+      "text": "Every judgment already includes a supporting argument.",
+      "truth": "false",
+      "explain": "A judgment can be asserted without giving its reasons."
+     },
+     {
+      "text": "A single unsupported assertion is automatically an inference.",
+      "truth": "false",
+      "explain": "Reasoning requires a movement from supporting claims to a conclusion."
+     },
+     {
+      "text": "An isolated term must be true or false.",
+      "truth": "false",
+      "explain": "Truth and falsity apply to assertions, not an isolated term in this use."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

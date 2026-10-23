@@ -1,0 +1,599 @@
+{
+ "subject": "logic",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "l3-1",
+   "name": "Basic notions of logic"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Logic studies how reasons support conclusions. An argument is not merely a quarrel: it contains claims offered as reasons and a claim those reasons are meant to support. Reasons are premises; the claim supported is the conclusion. An inference is the step from premises to conclusion. First identify what a speaker is trying to establish, then ask whether the reasons actually support it. A confident voice, popularity or repetition does not establish that an inference is good.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Logic studies how reasons support conclusions. An argument is not merely a quarrel: it contains claims offered as reasons and a claim those reasons are meant to support. Reasons are premises; the claim supported is the conclusion. An inference is the step from premises to conclusion. First identify what a speaker is trying to establish, then ask whether the reasons actually support it. A confident voice, popularity or repetition does not establish that an inference is good."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "At a Bamenda school, Bih argues that the library should open after lessons because pupils need a quiet place to read. The proposed opening is the conclusion; the need for quiet reading space is a reason. Another pupil might agree with the conclusion while questioning whether staffing makes the plan possible. Separate the proposal from its support before judging it."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Underline a proposed conclusion and list the reasons separately. Words such as because and therefore may help, but they are clues rather than guarantees. Ask whether a sentence is giving support or receiving support. A collection of unrelated statements is not automatically an argument."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "argument",
+    "meaning": "claims offered as reasons for a conclusion"
+   },
+   {
+    "word": "premise",
+    "meaning": "a claim offered as support"
+   },
+   {
+    "word": "conclusion",
+    "meaning": "the claim the reasons are intended to establish"
+   },
+   {
+    "word": "inference",
+    "meaning": "the reasoning step from premises to a conclusion"
+   }
+  ],
+  "examples": [
+   "Ayuk says the path is muddy, so the class should use the paved route.",
+   "Bih says: the classroom roof leaks; therefore the books need moving. Consider the leaking roof claim.",
+   "Nji says the clinic is nearer, so we should go there. Consider we should go there."
+  ],
+  "mistake": {
+   "wrong": "An argument must be an angry quarrel.",
+   "right": "argument: claims offered as reasons for a conclusion.",
+   "why": "A calm proposal with supporting reasons is an argument; anger is irrelevant."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ayuk says the path is muddy, so the class should use the paved route. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Claims offered as reasons for a conclusion.",
+   "A calm proposal with supporting reasons is an argument; anger is irrelevant."
+  ],
+  "answer": "argument",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cl3-1-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "argument: claims offered as reasons for a conclusion.",
+     "premise: a claim offered as support.",
+     "conclusion: the claim the reasons are intended to establish.",
+     "inference: the reasoning step from premises to a conclusion."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-1-terms"
+    }
+   },
+   {
+    "id": "cl3-1-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Ayuk says the path is muddy, so the class should use the paved route.",
+     "argument: claims offered as reasons for a conclusion."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-1-cases"
+    }
+   },
+   {
+    "id": "cl3-1-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "An argument must be an angry quarrel.",
+     "A calm proposal with supporting reasons is an argument; anger is irrelevant."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l3-1-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "intro-logic"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "argument: claims offered as reasons for a conclusion.",
+        "truth": "true",
+        "explain": "This statement is correct: argument means claims offered as reasons for a conclusion. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "premise: a claim offered as support.",
+        "truth": "true",
+        "explain": "This statement is correct: premise means a claim offered as support. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "conclusion: the claim the reasons are intended to establish.",
+        "truth": "true",
+        "explain": "This statement is correct: conclusion means the claim the reasons are intended to establish. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "inference: the reasoning step from premises to a conclusion.",
+        "truth": "true",
+        "explain": "This statement is correct: inference means the reasoning step from premises to a conclusion. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An argument must be an angry quarrel.",
+        "truth": "false",
+        "explain": "A calm proposal with supporting reasons is an argument; anger is irrelevant."
+       },
+       {
+        "text": "A premise is always the final claim being defended.",
+        "truth": "false",
+        "explain": "The leaking roof is a reason; moving the books is the conclusion."
+       },
+       {
+        "text": "A conclusion is necessarily the first sentence.",
+        "truth": "false",
+        "explain": "Its role as the supported claim matters, not its position."
+       },
+       {
+        "text": "An inference is just copying an unrelated sentence.",
+        "truth": "false",
+        "explain": "An inference links support to a conclusion; it is not mere copying."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l3-1-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: claims offered as reasons for a conclusion ?",
+       "r": "argument",
+       "w": [
+        "premise",
+        "conclusion",
+        "inference"
+       ],
+       "e": [
+        "premise means a claim offered as support; the question instead describes claims offered as reasons for a conclusion.",
+        "conclusion means the claim the reasons are intended to establish; the question instead describes claims offered as reasons for a conclusion.",
+        "inference means the reasoning step from premises to a conclusion; the question instead describes claims offered as reasons for a conclusion."
+       ],
+       "y": "Claims offered as reasons for a conclusion."
+      },
+      {
+       "q": "Which term means: a claim offered as support ?",
+       "r": "premise",
+       "w": [
+        "argument",
+        "conclusion",
+        "inference"
+       ],
+       "e": [
+        "argument means claims offered as reasons for a conclusion; the question instead describes a claim offered as support.",
+        "conclusion means the claim the reasons are intended to establish; the question instead describes a claim offered as support.",
+        "inference means the reasoning step from premises to a conclusion; the question instead describes a claim offered as support."
+       ],
+       "y": "A claim offered as support."
+      },
+      {
+       "q": "Which term means: the claim the reasons are intended to establish ?",
+       "r": "conclusion",
+       "w": [
+        "argument",
+        "premise",
+        "inference"
+       ],
+       "e": [
+        "argument means claims offered as reasons for a conclusion; the question instead describes the claim the reasons are intended to establish.",
+        "premise means a claim offered as support; the question instead describes the claim the reasons are intended to establish.",
+        "inference means the reasoning step from premises to a conclusion; the question instead describes the claim the reasons are intended to establish."
+       ],
+       "y": "The claim the reasons are intended to establish."
+      },
+      {
+       "q": "Which term means: the reasoning step from premises to a conclusion ?",
+       "r": "inference",
+       "w": [
+        "argument",
+        "premise",
+        "conclusion"
+       ],
+       "e": [
+        "argument means claims offered as reasons for a conclusion; the question instead describes the reasoning step from premises to a conclusion.",
+        "premise means a claim offered as support; the question instead describes the reasoning step from premises to a conclusion.",
+        "conclusion means the claim the reasons are intended to establish; the question instead describes the reasoning step from premises to a conclusion."
+       ],
+       "y": "The reasoning step from premises to a conclusion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-1-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk says the path is muddy, so the class should use the paved route.\nWhich term best fits this example?",
+       "r": "argument",
+       "w": [
+        "premise",
+        "conclusion",
+        "inference"
+       ],
+       "e": [
+        "premise concerns a claim offered as support. This case instead illustrates claims offered as reasons for a conclusion.",
+        "conclusion concerns the claim the reasons are intended to establish. This case instead illustrates claims offered as reasons for a conclusion.",
+        "inference concerns the reasoning step from premises to a conclusion. This case instead illustrates claims offered as reasons for a conclusion."
+       ],
+       "y": "Ayuk says the path is muddy, so the class should use the paved route. Claims offered as reasons for a conclusion."
+      },
+      {
+       "q": "Bih says: the classroom roof leaks; therefore the books need moving. Consider the leaking roof claim.\nWhich term best fits this example?",
+       "r": "premise",
+       "w": [
+        "argument",
+        "conclusion",
+        "inference"
+       ],
+       "e": [
+        "argument concerns claims offered as reasons for a conclusion. This case instead illustrates a claim offered as support.",
+        "conclusion concerns the claim the reasons are intended to establish. This case instead illustrates a claim offered as support.",
+        "inference concerns the reasoning step from premises to a conclusion. This case instead illustrates a claim offered as support."
+       ],
+       "y": "Bih says: the classroom roof leaks; therefore the books need moving. Consider the leaking roof claim. A claim offered as support."
+      },
+      {
+       "q": "Nji says the clinic is nearer, so we should go there. Consider we should go there.\nWhich term best fits this example?",
+       "r": "conclusion",
+       "w": [
+        "argument",
+        "premise",
+        "inference"
+       ],
+       "e": [
+        "argument concerns claims offered as reasons for a conclusion. This case instead illustrates the claim the reasons are intended to establish.",
+        "premise concerns a claim offered as support. This case instead illustrates the claim the reasons are intended to establish.",
+        "inference concerns the reasoning step from premises to a conclusion. This case instead illustrates the claim the reasons are intended to establish."
+       ],
+       "y": "Nji says the clinic is nearer, so we should go there. Consider we should go there. The claim the reasons are intended to establish."
+      },
+      {
+       "q": "A learner moves from all club members have badges and Bih is a member to Bih has a badge.\nWhich term best fits this example?",
+       "r": "inference",
+       "w": [
+        "argument",
+        "premise",
+        "conclusion"
+       ],
+       "e": [
+        "argument concerns claims offered as reasons for a conclusion. This case instead illustrates the reasoning step from premises to a conclusion.",
+        "premise concerns a claim offered as support. This case instead illustrates the reasoning step from premises to a conclusion.",
+        "conclusion concerns the claim the reasons are intended to establish. This case instead illustrates the reasoning step from premises to a conclusion."
+       ],
+       "y": "A learner moves from all club members have badges and Bih is a member to Bih has a badge. The reasoning step from premises to a conclusion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-1-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk says the path is muddy, so the class should use the paved route.\nWhich explanation justifies the classification?",
+       "r": "Claims offered as reasons for a conclusion.",
+       "w": [
+        "A claim offered as support.",
+        "The claim the reasons are intended to establish.",
+        "The reasoning step from premises to a conclusion."
+       ],
+       "e": [
+        "That explanation describes premise, rather than the relationship illustrated in this example.",
+        "That explanation describes conclusion, rather than the relationship illustrated in this example.",
+        "That explanation describes inference, rather than the relationship illustrated in this example."
+       ],
+       "y": "A calm proposal with supporting reasons is an argument; anger is irrelevant."
+      },
+      {
+       "q": "Bih says: the classroom roof leaks; therefore the books need moving. Consider the leaking roof claim.\nWhich explanation justifies the classification?",
+       "r": "A claim offered as support.",
+       "w": [
+        "Claims offered as reasons for a conclusion.",
+        "The claim the reasons are intended to establish.",
+        "The reasoning step from premises to a conclusion."
+       ],
+       "e": [
+        "That explanation describes argument, rather than the relationship illustrated in this example.",
+        "That explanation describes conclusion, rather than the relationship illustrated in this example.",
+        "That explanation describes inference, rather than the relationship illustrated in this example."
+       ],
+       "y": "The leaking roof is a reason; moving the books is the conclusion."
+      },
+      {
+       "q": "Nji says the clinic is nearer, so we should go there. Consider we should go there.\nWhich explanation justifies the classification?",
+       "r": "The claim the reasons are intended to establish.",
+       "w": [
+        "Claims offered as reasons for a conclusion.",
+        "A claim offered as support.",
+        "The reasoning step from premises to a conclusion."
+       ],
+       "e": [
+        "That explanation describes argument, rather than the relationship illustrated in this example.",
+        "That explanation describes premise, rather than the relationship illustrated in this example.",
+        "That explanation describes inference, rather than the relationship illustrated in this example."
+       ],
+       "y": "Its role as the supported claim matters, not its position."
+      },
+      {
+       "q": "A learner moves from all club members have badges and Bih is a member to Bih has a badge.\nWhich explanation justifies the classification?",
+       "r": "The reasoning step from premises to a conclusion.",
+       "w": [
+        "Claims offered as reasons for a conclusion.",
+        "A claim offered as support.",
+        "The claim the reasons are intended to establish."
+       ],
+       "e": [
+        "That explanation describes argument, rather than the relationship illustrated in this example.",
+        "That explanation describes premise, rather than the relationship illustrated in this example.",
+        "That explanation describes conclusion, rather than the relationship illustrated in this example."
+       ],
+       "y": "An inference links support to a conclusion; it is not mere copying."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-1-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "argument",
+     "right": "Ayuk says the path is muddy, so the class should use the paved route."
+    },
+    {
+     "left": "premise",
+     "right": "Bih says: the classroom roof leaks; therefore the books need moving. Consider the leaking roof claim."
+    },
+    {
+     "left": "conclusion",
+     "right": "Nji says the clinic is nearer, so we should go there. Consider we should go there."
+    },
+    {
+     "left": "inference",
+     "right": "A learner moves from all club members have badges and Bih is a member to Bih has a badge."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l3-1-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "argument: claims offered as reasons for a conclusion.",
+      "truth": "true",
+      "explain": "This statement is correct: argument means claims offered as reasons for a conclusion. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "premise: a claim offered as support.",
+      "truth": "true",
+      "explain": "This statement is correct: premise means a claim offered as support. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "conclusion: the claim the reasons are intended to establish.",
+      "truth": "true",
+      "explain": "This statement is correct: conclusion means the claim the reasons are intended to establish. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "inference: the reasoning step from premises to a conclusion.",
+      "truth": "true",
+      "explain": "This statement is correct: inference means the reasoning step from premises to a conclusion. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An argument must be an angry quarrel.",
+      "truth": "false",
+      "explain": "A calm proposal with supporting reasons is an argument; anger is irrelevant."
+     },
+     {
+      "text": "A premise is always the final claim being defended.",
+      "truth": "false",
+      "explain": "The leaking roof is a reason; moving the books is the conclusion."
+     },
+     {
+      "text": "A conclusion is necessarily the first sentence.",
+      "truth": "false",
+      "explain": "Its role as the supported claim matters, not its position."
+     },
+     {
+      "text": "An inference is just copying an unrelated sentence.",
+      "truth": "false",
+      "explain": "An inference links support to a conclusion; it is not mere copying."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

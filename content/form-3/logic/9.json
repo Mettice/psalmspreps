@@ -1,0 +1,601 @@
+{
+ "subject": "logic",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "l3-9",
+   "name": "Ideas and terms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An idea or concept is what we grasp mentally; a term is its expression in language. A term can contain several words, such as school library. In traditional terminology, intension or comprehension concerns the defining attributes of a concept, while extension concerns the things to which it applies. A more specific concept can have more defining attributes but fewer instances. Keep the meanings fixed when making that comparison; do not confuse the word's length with its logical role.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "An idea or concept is what we grasp mentally; a term is its expression in language. A term can contain several words, such as school library. In traditional terminology, intension or comprehension concerns the defining attributes of a concept, while extension concerns the things to which it applies. A more specific concept can have more defining attributes but fewer instances. Keep the meanings fixed when making that comparison; do not confuse the word's length with its logical role."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Library and school library can be compared in a Buea discussion. School library adds a qualifying attribute and applies to a narrower class of libraries. The expression contains several words but functions as one term. Counting letters would not tell us which objects fall within its extension."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Separate the expression, its meaning and the instances it covers. Give an example and a non-example when testing a proposed definition. Narrowing a concept is not the same as proving that a particular object exists. Teachers should confirm the course's preferred labels comprehension and extension."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "concept",
+    "meaning": "an idea grasped by the mind"
+   },
+   {
+    "word": "term",
+    "meaning": "a word or group of words expressing a concept"
+   },
+   {
+    "word": "intension",
+    "meaning": "the attributes included in a concept"
+   },
+   {
+    "word": "extension",
+    "meaning": "the things to which a concept applies"
+   }
+  ],
+  "examples": [
+   "A learner understands what a library is before choosing a word for it.",
+   "School library functions as one expression in a classification.",
+   "A school library adds belonging to a school to the general idea of a library."
+  ],
+  "mistake": {
+   "wrong": "An idea and the ink used to write a word are identical objects.",
+   "right": "concept: an idea grasped by the mind.",
+   "why": "The idea is its meaning, not the physical ink or sound."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A learner understands what a library is before choosing a word for it. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "An idea grasped by the mind.",
+   "The idea is its meaning, not the physical ink or sound."
+  ],
+  "answer": "concept",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cl3-9-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "concept: an idea grasped by the mind.",
+     "term: a word or group of words expressing a concept.",
+     "intension: the attributes included in a concept.",
+     "extension: the things to which a concept applies."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-9-terms"
+    }
+   },
+   {
+    "id": "cl3-9-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A learner understands what a library is before choosing a word for it.",
+     "concept: an idea grasped by the mind."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-9-cases"
+    }
+   },
+   {
+    "id": "cl3-9-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "An idea and the ink used to write a word are identical objects.",
+     "The idea is its meaning, not the physical ink or sound."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l3-9-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "intro-logic"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "concept: an idea grasped by the mind.",
+        "truth": "true",
+        "explain": "This statement is correct: concept means an idea grasped by the mind. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "term: a word or group of words expressing a concept.",
+        "truth": "true",
+        "explain": "This statement is correct: term means a word or group of words expressing a concept. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "intension: the attributes included in a concept.",
+        "truth": "true",
+        "explain": "This statement is correct: intension means the attributes included in a concept. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "extension: the things to which a concept applies.",
+        "truth": "true",
+        "explain": "This statement is correct: extension means the things to which a concept applies. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An idea and the ink used to write a word are identical objects.",
+        "truth": "false",
+        "explain": "The idea is its meaning, not the physical ink or sound."
+       },
+       {
+        "text": "A term must contain only a single word.",
+        "truth": "false",
+        "explain": "Several words can express one concept and function as a term."
+       },
+       {
+        "text": "Intension is the number of letters in the term.",
+        "truth": "false",
+        "explain": "Intension concerns attributes, not spelling length."
+       },
+       {
+        "text": "A narrower concept always applies to more things than its broader parent.",
+        "truth": "false",
+        "explain": "Adding a qualifying attribute restricts, rather than enlarges, the class in this comparison."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l3-9-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: an idea grasped by the mind ?",
+       "r": "concept",
+       "w": [
+        "term",
+        "intension",
+        "extension"
+       ],
+       "e": [
+        "term means a word or group of words expressing a concept; the question instead describes an idea grasped by the mind.",
+        "intension means the attributes included in a concept; the question instead describes an idea grasped by the mind.",
+        "extension means the things to which a concept applies; the question instead describes an idea grasped by the mind."
+       ],
+       "y": "An idea grasped by the mind."
+      },
+      {
+       "q": "Which term means: a word or group of words expressing a concept ?",
+       "r": "term",
+       "w": [
+        "concept",
+        "intension",
+        "extension"
+       ],
+       "e": [
+        "concept means an idea grasped by the mind; the question instead describes a word or group of words expressing a concept.",
+        "intension means the attributes included in a concept; the question instead describes a word or group of words expressing a concept.",
+        "extension means the things to which a concept applies; the question instead describes a word or group of words expressing a concept."
+       ],
+       "y": "A word or group of words expressing a concept."
+      },
+      {
+       "q": "Which term means: the attributes included in a concept ?",
+       "r": "intension",
+       "w": [
+        "concept",
+        "term",
+        "extension"
+       ],
+       "e": [
+        "concept means an idea grasped by the mind; the question instead describes the attributes included in a concept.",
+        "term means a word or group of words expressing a concept; the question instead describes the attributes included in a concept.",
+        "extension means the things to which a concept applies; the question instead describes the attributes included in a concept."
+       ],
+       "y": "The attributes included in a concept."
+      },
+      {
+       "q": "Which term means: the things to which a concept applies ?",
+       "r": "extension",
+       "w": [
+        "concept",
+        "term",
+        "intension"
+       ],
+       "e": [
+        "concept means an idea grasped by the mind; the question instead describes the things to which a concept applies.",
+        "term means a word or group of words expressing a concept; the question instead describes the things to which a concept applies.",
+        "intension means the attributes included in a concept; the question instead describes the things to which a concept applies."
+       ],
+       "y": "The things to which a concept applies."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-9-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner understands what a library is before choosing a word for it.\nWhich term best fits this example?",
+       "r": "concept",
+       "w": [
+        "term",
+        "intension",
+        "extension"
+       ],
+       "e": [
+        "term concerns a word or group of words expressing a concept. This case instead illustrates an idea grasped by the mind.",
+        "intension concerns the attributes included in a concept. This case instead illustrates an idea grasped by the mind.",
+        "extension concerns the things to which a concept applies. This case instead illustrates an idea grasped by the mind."
+       ],
+       "y": "A learner understands what a library is before choosing a word for it. An idea grasped by the mind."
+      },
+      {
+       "q": "School library functions as one expression in a classification.\nWhich term best fits this example?",
+       "r": "term",
+       "w": [
+        "concept",
+        "intension",
+        "extension"
+       ],
+       "e": [
+        "concept concerns an idea grasped by the mind. This case instead illustrates a word or group of words expressing a concept.",
+        "intension concerns the attributes included in a concept. This case instead illustrates a word or group of words expressing a concept.",
+        "extension concerns the things to which a concept applies. This case instead illustrates a word or group of words expressing a concept."
+       ],
+       "y": "School library functions as one expression in a classification. A word or group of words expressing a concept."
+      },
+      {
+       "q": "A school library adds belonging to a school to the general idea of a library.\nWhich term best fits this example?",
+       "r": "intension",
+       "w": [
+        "concept",
+        "term",
+        "extension"
+       ],
+       "e": [
+        "concept concerns an idea grasped by the mind. This case instead illustrates the attributes included in a concept.",
+        "term concerns a word or group of words expressing a concept. This case instead illustrates the attributes included in a concept.",
+        "extension concerns the things to which a concept applies. This case instead illustrates the attributes included in a concept."
+       ],
+       "y": "A school library adds belonging to a school to the general idea of a library. The attributes included in a concept."
+      },
+      {
+       "q": "A learner lists actual examples that qualify as school libraries.\nWhich term best fits this example?",
+       "r": "extension",
+       "w": [
+        "concept",
+        "term",
+        "intension"
+       ],
+       "e": [
+        "concept concerns an idea grasped by the mind. This case instead illustrates the things to which a concept applies.",
+        "term concerns a word or group of words expressing a concept. This case instead illustrates the things to which a concept applies.",
+        "intension concerns the attributes included in a concept. This case instead illustrates the things to which a concept applies."
+       ],
+       "y": "A learner lists actual examples that qualify as school libraries. The things to which a concept applies."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-9-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner understands what a library is before choosing a word for it.\nWhich explanation justifies the classification?",
+       "r": "An idea grasped by the mind.",
+       "w": [
+        "A word or group of words expressing a concept.",
+        "The attributes included in a concept.",
+        "The things to which a concept applies."
+       ],
+       "e": [
+        "That explanation describes term, rather than the relationship illustrated in this example.",
+        "That explanation describes intension, rather than the relationship illustrated in this example.",
+        "That explanation describes extension, rather than the relationship illustrated in this example."
+       ],
+       "y": "The idea is its meaning, not the physical ink or sound."
+      },
+      {
+       "q": "School library functions as one expression in a classification.\nWhich explanation justifies the classification?",
+       "r": "A word or group of words expressing a concept.",
+       "w": [
+        "An idea grasped by the mind.",
+        "The attributes included in a concept.",
+        "The things to which a concept applies."
+       ],
+       "e": [
+        "That explanation describes concept, rather than the relationship illustrated in this example.",
+        "That explanation describes intension, rather than the relationship illustrated in this example.",
+        "That explanation describes extension, rather than the relationship illustrated in this example."
+       ],
+       "y": "Several words can express one concept and function as a term."
+      },
+      {
+       "q": "A school library adds belonging to a school to the general idea of a library.\nWhich explanation justifies the classification?",
+       "r": "The attributes included in a concept.",
+       "w": [
+        "An idea grasped by the mind.",
+        "A word or group of words expressing a concept.",
+        "The things to which a concept applies."
+       ],
+       "e": [
+        "That explanation describes concept, rather than the relationship illustrated in this example.",
+        "That explanation describes term, rather than the relationship illustrated in this example.",
+        "That explanation describes extension, rather than the relationship illustrated in this example."
+       ],
+       "y": "Intension concerns attributes, not spelling length."
+      },
+      {
+       "q": "A learner lists actual examples that qualify as school libraries.\nWhich explanation justifies the classification?",
+       "r": "The things to which a concept applies.",
+       "w": [
+        "An idea grasped by the mind.",
+        "A word or group of words expressing a concept.",
+        "The attributes included in a concept."
+       ],
+       "e": [
+        "That explanation describes concept, rather than the relationship illustrated in this example.",
+        "That explanation describes term, rather than the relationship illustrated in this example.",
+        "That explanation describes intension, rather than the relationship illustrated in this example."
+       ],
+       "y": "Adding a qualifying attribute restricts, rather than enlarges, the class in this comparison."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-9-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "concept",
+     "right": "A learner understands what a library is before choosing a word for it."
+    },
+    {
+     "left": "term",
+     "right": "School library functions as one expression in a classification."
+    },
+    {
+     "left": "intension",
+     "right": "A school library adds belonging to a school to the general idea of a library."
+    },
+    {
+     "left": "extension",
+     "right": "A learner lists actual examples that qualify as school libraries."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l3-9-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "concept: an idea grasped by the mind.",
+      "truth": "true",
+      "explain": "This statement is correct: concept means an idea grasped by the mind. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "term: a word or group of words expressing a concept.",
+      "truth": "true",
+      "explain": "This statement is correct: term means a word or group of words expressing a concept. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "intension: the attributes included in a concept.",
+      "truth": "true",
+      "explain": "This statement is correct: intension means the attributes included in a concept. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "extension: the things to which a concept applies.",
+      "truth": "true",
+      "explain": "This statement is correct: extension means the things to which a concept applies. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An idea and the ink used to write a word are identical objects.",
+      "truth": "false",
+      "explain": "The idea is its meaning, not the physical ink or sound."
+     },
+     {
+      "text": "A term must contain only a single word.",
+      "truth": "false",
+      "explain": "Several words can express one concept and function as a term."
+     },
+     {
+      "text": "Intension is the number of letters in the term.",
+      "truth": "false",
+      "explain": "Intension concerns attributes, not spelling length."
+     },
+     {
+      "text": "A narrower concept always applies to more things than its broader parent.",
+      "truth": "false",
+      "explain": "Adding a qualifying attribute restricts, rather than enlarges, the class in this comparison."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
