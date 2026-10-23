@@ -1,0 +1,452 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  3,
+  4
+ ],
+ "skills": [
+  {
+   "id": "a3-5",
+   "name": "Accounting for investment transactions: fixed assets acquired"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Investment transactions buy fixed assets: items kept and used for more than one year (class 2): 231 Buildings, 241 Equipment, 244 Office furniture and equipment, 245 Transport equipment, 2183 Computer equipment.\nPurchase on credit: debit the asset account (HT), debit 4451 VAT recoverable on fixed assets, credit 481 Suppliers of fixed assets (TTC).\nPayment by bank: debit 481 Suppliers of fixed assets, credit 521 Bank.\nPurchase paid at once: credit 521 Bank (or 571 Cash) directly.\nFixed assets are not expenses: they are recorded in class 2.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Investing in fixed assets",
+    "text": "A fixed asset is something the enterprise keeps and uses for more than one year to do its work: buildings, machines, office furniture, computers, vehicles. They are recorded in class {2}, not as expenses.\nPaper, ink and fuel, used up quickly, are expenses (class {6})."
+   },
+   {
+    "heading": "The entries",
+    "text": "Bought on credit:\n• debit the asset account with the amount excluding tax (e.g. {'245 Transport equipment'});\n• debit {'4451 VAT recoverable on fixed assets'} with the VAT;\n• credit {'481 Suppliers of fixed assets'} with the amount including tax.\nWhen the supplier is paid: debit {'481'}, credit {'521 Bank'}. Paid at once: credit {'521 Bank'} directly instead of {'481'}."
+   },
+   {
+    "heading": "Why a separate supplier account?",
+    "text": "{'401 Suppliers'} is for suppliers of goods and services used in daily trading; {'481'} is for suppliers of fixed assets. Keeping them apart shows clearly how much the business owes for investments.\nExample: a van at {4000000} FCFA HT: VAT {770000} FCFA, TTC {4770000} FCFA owed to the supplier of fixed assets."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fixed asset",
+    "meaning": "an item kept and used for more than a year"
+   },
+   {
+    "word": "investment transaction",
+    "meaning": "the purchase of fixed assets"
+   },
+   {
+    "word": "supplier of fixed assets",
+    "meaning": "account {'481'}: amounts owed for fixed assets bought on credit"
+   }
+  ],
+  "examples": [
+   "{'245 Transport equipment'}",
+   "{'244 Office furniture'}",
+   "{'2183 Computer equipment'}",
+   "{'481 Suppliers of fixed assets'}"
+  ],
+  "mistake": {
+   "wrong": "A delivery van is recorded in {'601'} Purchases of goods",
+   "right": "It is a fixed asset: {'245'} Transport equipment",
+   "why": "{'601'} is for goods bought to resell; the van is used for years."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "ht": 4000000
+  },
+  "problem": "A business buys a delivery van for {ht} FCFA HT on credit (VAT {19.25}%). Give the entry.",
+  "steps": [
+   "VAT = {19.25}% × {ht} = {ht * 0.1925} FCFA; TTC = {ht * 1.1925} FCFA.",
+   "Debit {'245 Transport equipment'} {ht}; debit {'4451 VAT recoverable'} {ht * 0.1925}.",
+   "Credit {'481 Suppliers of fixed assets'} {ht * 1.1925}."
+  ],
+  "answer": "Dr {'245'} {ht}, Dr {'4451'} {ht * 0.1925} / Cr {'481'} {ht * 1.1925}",
+  "checks": [
+   "ht * 0.1925 == 770000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a5-1",
+    "status": "draft",
+    "idea": "A fixed asset is kept and used for more than a year.",
+    "vars": {},
+    "example": [
+     "A computer, a vehicle, a building"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-5-asset"
+    }
+   },
+   {
+    "id": "c3a5-2",
+    "status": "draft",
+    "idea": "Fixed assets bought on credit: credit Suppliers of fixed assets.",
+    "vars": {},
+    "example": [
+     "{'Cr 481 Suppliers of fixed assets'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-5-entry"
+    }
+   },
+   {
+    "id": "c3a5-3",
+    "status": "draft",
+    "idea": "The VAT on fixed assets is recoverable.",
+    "vars": {},
+    "example": [
+     "{'Dr 4451 VAT recoverable on fixed assets'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-5-ttc-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada-transactions"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        50
+       ]
+      },
+      "ht": {
+       "expr": "k * 4000"
+      },
+      "vat": {
+       "expr": "k * 770"
+      }
+     },
+     "prompt": "Equipment is bought for {ht} FCFA HT (VAT {19.25}%). What amount is credited to {'481'} Suppliers of fixed assets (FCFA)?",
+     "answer": "ht + vat",
+     "misconceptions": [
+      {
+       "id": "ht",
+       "wrong": "ht",
+       "explain": "The supplier is owed the amount including tax."
+      },
+      {
+       "id": "vat",
+       "wrong": "vat",
+       "explain": "That is only the VAT."
+      }
+     ],
+     "solution": [
+      "VAT = {vat} FCFA.",
+      "TTC = {ht} + {vat} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-5-asset",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A photocopier bought for the office, to be used for five years",
+       "r": "Yes: office equipment (class 2)",
+       "w": [
+        "No: it is an expense of the month",
+        "No: it is stock for sale",
+        "No: it is treasury"
+       ],
+       "e": [
+        "Items used for years are capitalised.",
+        "It is not bought to resell.",
+        "Treasury is cash and bank."
+       ],
+       "y": "Long-term use makes it a fixed asset."
+      },
+      {
+       "q": "Reams of paper used up in a month",
+       "r": "No: it is an expense (class 6)",
+       "w": [
+        "Yes: office equipment",
+        "Yes: a building",
+        "Yes: transport equipment"
+       ],
+       "e": [
+        "Paper is consumed quickly.",
+        "Not a building.",
+        "Not a vehicle."
+       ],
+       "y": "Consumables are expenses."
+      },
+      {
+       "q": "A lorry bought by a transport company",
+       "r": "Yes: transport equipment (245)",
+       "w": [
+        "No: it is a purchase of goods (601)",
+        "No: it is capital",
+        "No: it is a loan"
+       ],
+       "e": [
+        "The company uses it, it does not resell it.",
+        "Capital is the owner's contribution.",
+        "A loan is borrowed money."
+       ],
+       "y": "Used for many years: fixed asset."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this a fixed asset? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-5-entry",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Office furniture is bought on credit for 500 000 FCFA HT (VAT 96 250).",
+       "r": "Dr 244 Office furniture 500 000; Dr 4451 VAT 96 250 / Cr 481 Suppliers of fixed assets 596 250",
+       "w": [
+        "Dr 601 Purchases 596 250 / Cr 401 Suppliers 596 250",
+        "Dr 481 Suppliers 596 250 / Cr 244 Office furniture 596 250",
+        "Dr 244 Office furniture 596 250 / Cr 521 Bank 596 250"
+       ],
+       "e": [
+        "Furniture used by the business is a fixed asset, not goods for resale.",
+        "Reversed.",
+        "It was bought on credit, and the VAT is recorded separately."
+       ],
+       "y": "Asset HT and recoverable VAT debited; supplier of fixed assets credited TTC."
+      },
+      {
+       "q": "The supplier of fixed assets is paid 596 250 FCFA by cheque.",
+       "r": "Dr 481 Suppliers of fixed assets / Cr 521 Bank",
+       "w": [
+        "Dr 521 Bank / Cr 481 Suppliers of fixed assets",
+        "Dr 244 Office furniture / Cr 521 Bank",
+        "Dr 401 Suppliers / Cr 571 Cash"
+       ],
+       "e": [
+        "Reversed: money leaves the bank.",
+        "The asset was already recorded.",
+        "Paid by cheque from the bank, to the supplier of fixed assets."
+       ],
+       "y": "The debt falls; the bank falls."
+      },
+      {
+       "q": "A computer is bought and paid at once by bank: 800 000 FCFA HT, VAT 154 000.",
+       "r": "Dr 2183 Computer equipment 800 000; Dr 4451 VAT 154 000 / Cr 521 Bank 954 000",
+       "w": [
+        "Dr 601 Purchases 954 000 / Cr 521 Bank 954 000",
+        "Dr 2183 Computer equipment 954 000 / Cr 481 Suppliers 954 000",
+        "Dr 521 Bank 954 000 / Cr 2183 Computer equipment 954 000"
+       ],
+       "e": [
+        "A computer for use is a fixed asset.",
+        "It was paid at once by bank, and VAT is separate.",
+        "Reversed."
+       ],
+       "y": "Paid immediately: credit Bank."
+      }
+     ]
+    }
+   },
+   "prompt": "Which entry records this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-5-ttc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      50
+     ]
+    },
+    "ht": {
+     "expr": "k * 4000"
+    },
+    "vat": {
+     "expr": "k * 770"
+    }
+   },
+   "prompt": "Equipment is bought for {ht} FCFA HT (VAT {19.25}%). What amount is credited to {'481'} Suppliers of fixed assets (FCFA)?",
+   "answer": "ht + vat",
+   "misconceptions": [
+    {
+     "id": "ht",
+     "wrong": "ht",
+     "explain": "The supplier is owed the amount including tax."
+    },
+    {
+     "id": "vat",
+     "wrong": "vat",
+     "explain": "That is only the VAT."
+    }
+   ],
+   "solution": [
+    "VAT = {vat} FCFA.",
+    "TTC = {ht} + {vat} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a3-5-total",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "bk": {
+     "int": [
+      5,
+      25
+     ]
+    },
+    "vk": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "b": {
+     "expr": "bk * 400000"
+    },
+    "v": {
+     "expr": "vk * 400000"
+    },
+    "r": {
+     "int": [
+      1000000,
+      4000000
+     ],
+     "step": 500000
+    }
+   },
+   "prompt": "During the year a business buys a building for {b} FCFA and a vehicle for {v} FCFA (HT), and pays {r} FCFA to suppliers of fixed assets. If nothing was owed before, how much is still owed to suppliers of fixed assets, including VAT ({19.25}%) (FCFA)?",
+   "answer": "(b + v) * 11925 / 10000 - r",
+   "misconceptions": [
+    {
+     "id": "ht",
+     "wrong": "b + v - r",
+     "explain": "The suppliers are owed the amounts including VAT."
+    },
+    {
+     "id": "all",
+     "wrong": "(b + v) * 11925 / 10000",
+     "explain": "Subtract what has been paid."
+    }
+   ],
+   "solution": [
+    "TTC owed = ({b} + {v}) × {1.1925} = {(b + v) * 11925 / 10000} FCFA.",
+    "Still owed = {(b + v) * 11925 / 10000} − {r} = {answer} FCFA."
+   ],
+   "unit": "FCFA",
+   "where": [
+    "(b + v) * 11925 / 10000 > r"
+   ]
+  }
+ ]
+}

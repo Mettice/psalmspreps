@@ -19,3 +19,19 @@
 - Found and fixed my own bug before committing: roundTo(x, 2) rounds to the nearest 2, not to 2 decimal places. The unit form
   roundTo(x, 0.01) is correct, and no earlier content had the mistake.
 - Not checked: none of this has had a subject teacher's review (see content/form-3/maths/TEACHER-REVIEW.md, TR-M3-1 to TR-M3-13).
+
+## 2026-10-23 (evening), branch f3-claude
+
+- Form 3 Term 1 is complete for my subjects. Each was walked clean at 360 px:
+  - Physics: 17 lessons;
+  - Chemistry: 24;
+  - Biology: 18;
+  - Computer Science: 26;
+  - Accounting: 9 (rows 1–8 and 10).
+  Integration-activity rows are not written as lessons. 753 content tests pass.
+- Accounting: account numbers in cards and Learn screens are fixed text. Bank-item data stays plain.
+  Caught and fixed before committing:
+  - a floating-point answer (× 1.1925, now × 11925 / 10000);
+  - a confusing due-date prompt.
+- Not checked: no subject teacher has reviewed any of this yet. The SYSCOHADA account numbers and the VAT simplifications are listed in
+  content/form-3/accounting/TEACHER-REVIEW.md (TR-A3-1 to TR-A3-6).

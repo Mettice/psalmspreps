@@ -1,0 +1,452 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "a3-7",
+   "name": "Accounting for transactions with commercial containers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Commercial containers (emballages) such as crates, bottles and gas cylinders may be returnable. The customer pays a deposit (consignation) when goods are delivered in them and gets it back when they are returned.\nSeller:\n• Goods delivered with consigned containers: debit 411 Customers (goods TTC + deposit), credit 701 Sales and 443 VAT, and credit 4194 Customers, consigned containers (deposit). No VAT is charged on the deposit.\n• Containers returned: debit 4194, credit 411 (or 571 if refunded in cash) with the deposit refunded.\nBuyer: debit 4094 Suppliers, containers to be returned with the deposit paid; on return, credit 4094.\nContainers not returned are treated as sold (or bought).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Returnable containers",
+    "text": "Many goods come in returnable containers: crates of soft drinks and beer, gas cylinders, drums. The seller charges a deposit (consignation) to make sure the containers come back. When they are returned, the deposit is refunded.\nThe deposit is not income and no VAT is charged on it: it is money the seller must give back."
+   },
+   {
+    "heading": "The seller's entries",
+    "text": "• Containers delivered: debit {'411 Customers'}, credit {'4194 Customers, consigned containers'} with the deposits.\n• Containers returned: debit {'4194'}, credit {'411 Customers'} (or {'571 Cash'} if refunded in cash).\nExample: {20} crates at {500} FCFA = {10000} FCFA in deposits; {15} returned → refund {7500} FCFA."
+   },
+   {
+    "heading": "The buyer's entries and unreturned containers",
+    "text": "The buyer records deposits paid in {'4094 Suppliers, containers to be returned'}: debit when paid, credit when the containers go back.\nContainers that are not returned are treated as sold by the seller and bought by the buyer.\nKeeping track of deposits avoids losing money on missing crates."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "commercial containers",
+    "meaning": "packaging such as crates, bottles and cylinders"
+   },
+   {
+    "word": "deposit (consignation)",
+    "meaning": "money paid for returnable containers, refunded on return"
+   },
+   {
+    "word": "{'4194'}",
+    "meaning": "seller's account for deposits on consigned containers"
+   },
+   {
+    "word": "{'4094'}",
+    "meaning": "buyer's account for deposits paid on containers"
+   }
+  ],
+  "examples": [
+   "{30} crates × {500} = {15000} FCFA deposit",
+   "Return of {10} crates: refund {5000} FCFA"
+  ],
+  "mistake": {
+   "wrong": "Container deposits are credited to {'701'} Sales",
+   "right": "They are credited to {'4194'} Customers, consigned containers",
+   "why": "A deposit is refundable, so it is a debt, not income."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 20,
+   "dep": 500
+  },
+  "problem": "A drinks depot delivers drinks with {n} crates; the deposit is {dep} FCFA per crate. Find the deposit and the entry for it.",
+  "steps": [
+   "Deposit = {n} × {dep} = {n * dep} FCFA (no VAT on the deposit).",
+   "Debit {'411 Customers'} {n * dep}; credit {'4194 Customers, consigned containers'} {n * dep}."
+  ],
+  "answer": "Deposit {n * dep} FCFA: Dr {'411'} / Cr {'4194'}",
+  "checks": [
+   "n * dep == 10000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a7-1",
+    "status": "draft",
+    "idea": "Deposit = number of containers × deposit per container.",
+    "vars": {},
+    "example": [
+     "{12} crates × {500} = {6000} FCFA"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-7-dep"
+    }
+   },
+   {
+    "id": "c3a7-2",
+    "status": "draft",
+    "idea": "The seller credits {'4194'} with deposits received; no VAT on deposits.",
+    "vars": {},
+    "example": [
+     "{'Cr 4194 Customers, consigned containers'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-7-entry"
+    }
+   },
+   {
+    "id": "c3a7-3",
+    "status": "draft",
+    "idea": "Returned containers are refunded; unreturned ones are treated as sold.",
+    "vars": {},
+    "example": [
+     "{15} of {20} crates returned: refund {15} deposits."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-7-ret-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada-transactions"
+     ],
+     "vars": {
+      "n": {
+       "int": [
+        10,
+        50
+       ]
+      },
+      "d": {
+       "pick": [
+        500,
+        1000
+       ]
+      },
+      "r": {
+       "int": [
+        3,
+        40
+       ]
+      }
+     },
+     "prompt": "A customer received {n} crates (deposit {d} FCFA each) and returns {r} of them. How much deposit is refunded (FCFA)?",
+     "answer": "r * d",
+     "misconceptions": [
+      {
+       "id": "all",
+       "wrong": "n * d",
+       "explain": "Only the {r} returned crates are refunded."
+      },
+      {
+       "id": "kept",
+       "wrong": "(n - r) * d",
+       "explain": "That is the value of the crates not returned."
+      }
+     ],
+     "solution": [
+      "Refund = returned crates × deposit = {r} × {d}.",
+      "= {answer} FCFA."
+     ],
+     "unit": "FCFA",
+     "where": [
+      "r < n"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-7-dep",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      5,
+      60
+     ]
+    },
+    "d": {
+     "pick": [
+      300,
+      500,
+      1000,
+      1500
+     ]
+    }
+   },
+   "prompt": "A brewery depot delivers {n} crates with a deposit of {d} FCFA each. What is the total deposit (FCFA)?",
+   "answer": "n * d",
+   "misconceptions": [
+    {
+     "id": "vat",
+     "wrong": "n * d * 1.1925",
+     "explain": "No VAT is charged on container deposits."
+    }
+   ],
+   "solution": [
+    "Deposit = {n} × {d}.",
+    "= {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a3-7-entry",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Deposits of 10 000 FCFA are charged to a customer for crates delivered.",
+       "r": "Dr 411 Customers / Cr 4194 Customers, consigned containers",
+       "w": [
+        "Dr 4194 / Cr 411",
+        "Dr 411 / Cr 701 Sales",
+        "Dr 4094 / Cr 401"
+       ],
+       "e": [
+        "Reversed: that is the refund.",
+        "Deposits are not sales income.",
+        "Those are the buyer's accounts."
+       ],
+       "y": "The deposit is a debt to the customer until the crates come back."
+      },
+      {
+       "q": "The customer returns the crates and the 10 000 FCFA deposit is credited back to his account.",
+       "r": "Dr 4194 Customers, consigned containers / Cr 411 Customers",
+       "w": [
+        "Dr 411 / Cr 4194",
+        "Dr 701 Sales / Cr 411",
+        "Dr 4194 / Cr 701 Sales"
+       ],
+       "e": [
+        "That charges the deposit.",
+        "Sales were not involved.",
+        "The deposit is refunded, not sold."
+       ],
+       "y": "The debt to the customer is cancelled."
+      },
+      {
+       "q": "Cash is refunded to a customer who brings back crates worth 6 000 FCFA in deposits.",
+       "r": "Dr 4194 Customers, consigned containers / Cr 571 Cash",
+       "w": [
+        "Dr 571 Cash / Cr 4194",
+        "Dr 601 Purchases / Cr 571 Cash",
+        "Dr 4194 / Cr 701 Sales"
+       ],
+       "e": [
+        "Cash goes out, so Cash is credited.",
+        "No purchase of goods.",
+        "The deposit is refunded, not sold."
+       ],
+       "y": "Refund in cash cancels the deposit debt."
+      }
+     ]
+    }
+   },
+   "prompt": "Which entry does the SELLER make? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-7-ret",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      10,
+      50
+     ]
+    },
+    "d": {
+     "pick": [
+      500,
+      1000
+     ]
+    },
+    "r": {
+     "int": [
+      3,
+      40
+     ]
+    }
+   },
+   "prompt": "A customer received {n} crates (deposit {d} FCFA each) and returns {r} of them. How much deposit is refunded (FCFA)?",
+   "answer": "r * d",
+   "misconceptions": [
+    {
+     "id": "all",
+     "wrong": "n * d",
+     "explain": "Only the {r} returned crates are refunded."
+    },
+    {
+     "id": "kept",
+     "wrong": "(n - r) * d",
+     "explain": "That is the value of the crates not returned."
+    }
+   ],
+   "solution": [
+    "Refund = returned crates × deposit = {r} × {d}.",
+    "= {answer} FCFA."
+   ],
+   "unit": "FCFA",
+   "where": [
+    "r < n"
+   ]
+  },
+  {
+   "id": "a3-7-buyer",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which account does the BUYER debit when paying a deposit on containers to be returned?",
+       "r": "4094 Suppliers, containers to be returned",
+       "w": [
+        "4194 Customers, consigned containers",
+        "601 Purchases of goods",
+        "701 Sales"
+       ],
+       "e": [
+        "That is the seller's account.",
+        "The deposit is not a purchase of goods.",
+        "The buyer is not selling."
+       ],
+       "y": "The supplier owes the buyer the deposit back."
+      },
+      {
+       "q": "Why is no VAT charged on the deposit for returnable crates?",
+       "r": "The deposit is refundable, not a sale of the crates",
+       "w": [
+        "Crates are always free",
+        "VAT is only on services",
+        "Deposits are illegal"
+       ],
+       "e": [
+        "The customer pays a deposit.",
+        "VAT applies to goods too.",
+        "Deposits are normal."
+       ],
+       "y": "Only if the crates are kept do they become a sale."
+      },
+      {
+       "q": "A customer keeps 5 crates instead of returning them. How are they treated?",
+       "r": "As a sale of containers to the customer",
+       "w": [
+        "As a loan",
+        "As capital",
+        "They are ignored"
+       ],
+       "e": [
+        "Not a loan.",
+        "Not capital.",
+        "They must be accounted for."
+       ],
+       "y": "Unreturned containers are treated as sold (or bought)."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}
