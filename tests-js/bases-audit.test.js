@@ -49,7 +49,17 @@ test("number bases (Maths 8-10): every answer recomputed independently, right ty
             if (!check(q, r).correct) add(`${t.id}: typed "${r}" for ${p} marked wrong`);
           for (const mi of q.misconceptions) if (check(q, mi.value).correct) add(`${t.id}: hint ${mi.id} given for a right answer`);
         }
-        if (q.type === "blanks") {
+        if (q.type === "blanks" && (m = p.match(RE.tenToB))) {
+          // the division ladder: each quotient and remainder down to 0, then the remainders read upwards
+          const b = +m[2], want = [];
+          for (let x = +m[1]; x > 0; x = Math.floor(x / b)) want.push(Math.floor(x / b), x % b);
+          want.push(toB(+m[1], b));
+          if (JSON.stringify(q.answerValues) !== JSON.stringify(want)) add(`${t.id} ladder: ${q.answerValues} expected ${want}`);
+          if (q.parts.length !== want.length + 1) add(`${t.id} ladder: ${q.parts.length - 1} boxes for ${want.length} answers`);
+          const last = want.length - 1, typed = (s) => want.map((v, i) => (i === last ? s : String(v)));
+          for (const s of [want[last], want[last] + SUBD[b], `0${want[last]}`]) if (!check(q, typed(s)).correct) add(`${t.id} ladder: "${s}" marked wrong`);
+          if (check(q, typed([...want[last]].reverse().join(""))).correct && want[last] !== [...want[last]].reverse().join("")) add(`${t.id} ladder: reversed digits marked right`);
+        } else if (q.type === "blanks") {
           m = p.match(RE.bToTen) || p.match(RE.check);
           const digits = [...m[1]].map(Number), b = subOf(m[2]);
           const want = [...digits.map((_, i) => b ** (digits.length - 1 - i)), toTen(m[1], b)];

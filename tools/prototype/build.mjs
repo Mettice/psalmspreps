@@ -189,6 +189,12 @@ button:disabled { opacity: .45; cursor: default; box-shadow: none; }
 .blank { display: inline-block; min-width: 4.5em; border-bottom: 3px dotted var(--accent); line-height: 1.2; }
 input.blank-input { display: inline-block; width: 9em; max-width: 100%; min-height: 48px; padding: 6px 10px; font-size: 1.15rem; vertical-align: middle; }
 .sentence.blanks input.blank-input { width: 3.6em; margin: 2px 2px; text-align: center; }
+.sentence.blanks { white-space: pre-line; }
+.sentence.blanks input.blank-input.wide { width: 6.5em; }
+.base-tag { font-size: 1.5rem; margin-left: -4px; vertical-align: -0.35em; }
+.answer.has-base { gap: 0; }
+.answer.has-base input { flex: 0 1 10em; text-align: right; }
+.answer.has-base .base-tag { align-self: flex-end; margin: 0 0 6px 4px; }
 /* word tiles (word order, sorting): tap, never drag */
 .tiles { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
 button.tile { display: inline-flex; align-items: center; justify-content: center; width: auto; min-width: 48px; min-height: 48px; margin: 0; padding: 8px 14px; text-align: center; }

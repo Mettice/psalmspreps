@@ -202,6 +202,10 @@ function sorting(q, finish) {
   return [para(T("Tap a word, then tap its group. Tap a word in a group to take it out."), "muted"), wrap, done];
 }
 
+/** A base answer: the small base is printed after the box, so the pupil types only the digits (2026-10-24). */
+const baseTag = (q) => el("span", { class: "base-tag", "aria-label": T("in base {a}", { a: q.base }) }, LIB().sub(q.base));
+const baseTip = (q) => para(T("Type only the digits. The small {a} is already there.", { a: LIB().sub(q.base) }), "muted");
+
 /** Shows q; calls onAnswer({result, ms}) when the pupil answers or presses "I don't know". */
 function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const t0 = performance.now();
@@ -209,15 +213,18 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt), figureBox(q.figure)];
   if (q.type === "blanks") {
     // a step-by-step line: one small box per blank, all checked together (2026-10-19)
-    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off", class: "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
+    // a text value is a base numeral (the last box of a division ladder): a wider box, the base shown after it
+    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off",
+      class: typeof q.answerValues[i] === "string" ? "blank-input wide" : "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
     const go = () => { const v = inputs.map((x) => normaliseInput(x.value, q)); if (v.every(Boolean)) finish(v); else inputs[v.findIndex((x) => !x)].focus(); };
     inputs.forEach((x, i) => x.addEventListener("keydown", (e) => { if (e.key === "Enter") (i < inputs.length - 1 && !inputs[i + 1].value ? inputs[i + 1].focus() : go()); }));
     setTimeout(() => inputs[0].focus(), 50);
     body.push(para(T("Fill in each box, then check."), "muted"),
-      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i]] : [p]))), button(T("Check"), go, "primary"));
+      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i], q.base && typeof q.answerValues[i] === "string" ? baseTag(q) : null] : [p]))),
+      q.base ? baseTip(q) : null, button(T("Check"), go, "primary"));
   } else if (q.type === "numeric") {
     const { input, check: go } = answerBox(q, finish);
-    body.push(el("div", { class: "answer" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null), go);
+    body.push(el("div", { class: q.base ? "answer has-base" : "answer" }, input, q.base ? baseTag(q) : null, q.unit ? el("span", { class: "unit" }, q.unit) : null), q.base ? baseTip(q) : null, go);
   } else if (q.type === "cloze" && q.mode === "type") {
     const { input, check: go } = answerBox(q, finish, true);
     body.push(clozeSentence(q, input), go);

@@ -91,6 +91,12 @@ button:disabled { opacity: .45; cursor: default; box-shadow: none; }
 .blank { display: inline-block; min-width: 4.5em; border-bottom: 3px dotted var(--accent); line-height: 1.2; }
 input.blank-input { display: inline-block; width: 9em; max-width: 100%; min-height: 48px; padding: 6px 10px; font-size: 1.15rem; vertical-align: middle; }
 .sentence.blanks input.blank-input { width: 3.6em; margin: 2px 2px; text-align: center; }
+.sentence.blanks { white-space: pre-line; }
+.sentence.blanks input.blank-input.wide { width: 6.5em; }
+.base-tag { font-size: 1.5rem; margin-left: -4px; vertical-align: -0.35em; }
+.answer.has-base { gap: 0; }
+.answer.has-base input { flex: 0 1 10em; text-align: right; }
+.answer.has-base .base-tag { align-self: flex-end; margin: 0 0 6px 4px; }
 /* word tiles (word order, sorting): tap, never drag */
 .tiles { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
 button.tile { display: inline-flex; align-items: center; justify-content: center; width: auto; min-width: 48px; min-height: 48px; margin: 0; padding: 8px 14px; text-align: center; }
@@ -641,6 +647,21 @@ const placeValues = (s, b) => { const L = String(s).length; return range(0, L - 
 const placeBlanks = (s) => [...String(s)].map((d) => `${d} × ___`).join(" + ") + " = ___";
 /** The answers to placeBlanks, in order: each place value, then the base-ten value. */
 const placeAnswers = (s, b) => [...placeValues(s, b), fromBase(s, b)];
+// ---------------------------------------------------------------- base ten → base b: help after a miss (2026-10-24)
+/** The quotients and remainders of dividing n by b again and again, down to a quotient of 0. */
+const divisions = (n, b) => { const out = []; let q = n; do { out.push([Math.floor(q / b), q % b]); q = Math.floor(q / b); } while (q > 0); return out; };
+/**
+ * The division ladder as on paper, one box for each quotient and remainder, then the answer:
+ *   2 | 45
+ *   2 | ___ remainder ___
+ *       ___ remainder ___      (the last quotient, 0, is not divided again)
+ *   Remainders from the bottom up: ___
+ */
+const divBlanks = (n, b) => [`${b} | ${fmt(n)}`,
+  ...divisions(n, b).map(([q]) => `${q > 0 ? `${b} | ` : ""}___ remainder ___`),
+  "Remainders from the bottom up: ___"].join("\n");
+/** The answers to divBlanks, in order: each quotient and its remainder, then the base-b numeral (a string). */
+const divAnswers = (n, b) => [...divisions(n, b).flat(), toBase(n, b)];
 /** Usual wrong answers: the digits added, the digits multiplied, the place values read from the left. */
 const digitSum = (s) => [...String(s)].reduce((a, d) => a + Number(d), 0);
 const digitProduct = (s) => [...String(s)].reduce((a, d) => a * Number(d), 1);
@@ -758,7 +779,7 @@ function lineRule(r1, r2) {
   return perp ? "⊥" : "//";
 }
 
-return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, placeValues, placeBlanks, placeAnswers, digitSum, digitProduct, placeReversed, placeHeads, placeSteps, placeTable, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
+return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, placeValues, placeBlanks, placeAnswers, divBlanks, divAnswers, digitSum, digitProduct, placeReversed, placeHeads, placeSteps, placeTable, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
 })();
 __mods["lib/maths2.js"] = (() => {
 // Vetted functions for Form 2 Maths content (Term 1: integers, powers, primes, HCF and LCM, roots, sequences,
@@ -1907,6 +1928,7 @@ function instantiate(tpl, seed, lib, lesson = null) {
       const shown = values.map(show(lib));
       Object.assign(q, { parts, answerKind: "number", answerValues: values, answers: shown,
         answer: parts.map((p, i) => p + (i < shown.length ? shown[i] : "")).join("") });
+      if (tpl.base) q.base = evaluate(tpl.base, scope, lib);  // a division ladder ends with a base-b numeral
       q.verified = true;
       return withSolution(q, scope);
     }
@@ -2099,7 +2121,9 @@ function check(q, response) {
   }
   if (q.type === "blanks") {
     // response: one typed value per blank. All must be right; the wrong ones are listed.
-    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], "number"));
+    // A text value is a base numeral ("101101"): compared as one, so "101101₂" and "0101101" are right too.
+    const kindOf = (v) => (typeof v === "string" ? "base" : "number");
+    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], kindOf(q.answerValues[i])));
     return wrong.length ? { correct: false, wrongBlanks: wrong } : { correct: true };
   }
   if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
@@ -2459,7 +2483,7 @@ const CONTENT = {"f3-history":{"1":{"subject":"history","class":"Form 3","lesson
 const TITLES = {"f3-history":{"1":"Introduction: Political, social and economic life of Cameroon before annexation","2":"European powers on the coast of Cameroon before annexation","3":"European scramble for Cameroon:","4":"Activities of European Explorers, missionaries, traders, politicians, statesmen and soldiers on the rest of African coast before colonization (identify and state their contributions)","5":"Motives for European scramble for Africa: Political, Social and Economic","6":"Why and how the Germans succeeded to annex Cameroon","7":"Attitude of coastal chiefs towards the scramble and annexation of Cameroon","8":"The Berlin West African Conference: Participants, Reasons for the conference, Resolutions, Effects of the Conference on Cameroon","9":"Consolidation/Expansion of the German Imperial rule in Cameroon","10":"Reaction of the natives towards German annexation: Case studies, Douala war/Land case, Bakweri, Mamfe, Bangwa, Nso etc","11":"Political, Economic and social development in German Kamerun","12":"Effects and weaknesses of the Berlin West African conference on the rest of Africa","13":"Methods of Acquisition of African territories by European powers: Annexation, concession, protectorate, Negotiation, Military Conquest, Mandate","15":"Reasons for African collaboration with the Europeans","16":"General causes of African resistance","17":"Case studies of African resistances: 1. Abyssinia resistance 1896-specific causes, course and effects","18":"Main features/characteristics of European colonial policies in Africa 1900-1945","19":"The British Colonial Policy of Indirect Rule –Definition and reasons for implementation in Northern Nigeria"},"f3-economics":{"1":"T U 1: Lesson1-Fundamentals of economics: Part 1","2":"Fundamentals of economics: Part 2","3":"Introduction to the tools of economic analysis: Part 1","4":"Introduction to the tools of economic analysis: Part 2","5":"Practical work 1: Tools of economic analysis: Graphs and charts (Part 1)","6":"Practical work 1: Tools of economic analysis: Graphs and charts (Part 2)","7":"Utility concepts","8":"Practical work 2: Utility concepts","9":"Fundamental notions of economic systems: Part 1","10":"Fundamental notions of economic systems: Part 2","11":"Market economic system: Part 1","12":"Market economic system: Part 2","13":"Planned economic system","14":"Mixed economic system"},"f3-accounting":{"1":"Brief OHADA History , Chart of Accounts, Enterprises and Double Entry System","2":"Journal, Ledger and Trial Balance","3":"Calculation and accounting entries for VAT Recoverable, VAT Invoiced, VAT payable and VAT Credit","4":"Accounting for Financing Transactions (Capital and Loans Acquired)","5":"Accounting for Investment Transactions (Fixed Assets Acquired)","6":"Accounting for Trading Transactions (Purchases and Sales)","7":"Accounting for Transactions with Commercial Containers","8":"Accounting for Cash Settlement Transactions","10":"Accounting for Transactions with Trade Bills"}};
 const LESSONS = {"f3-history":[1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19],"f3-economics":[1,2,3,4,5,6,7,8,9,10,11,12,13,14],"f3-accounting":[1,2,3,4,5,6,7,8,10]};
 const SUBJECTS = {"f3-history":"History","f3-economics":"Economics","f3-accounting":"Accounting"};
-const CLASSES = {"form-1":"Form One","form-2":"Form Two","form-3":"Form Three"};
+const CLASSES = {"form-1":"Form One","form-2":"Form Two","form-3":"Form Three","form-4":"Form Four"};
 const CLASS_OF = {"f3-history":"form-3","f3-economics":"form-3","f3-accounting":"form-3"};
 const PAPER = {"f3-history":[],"f3-economics":[],"f3-accounting":[]};
 const MODE = "single";
@@ -2671,6 +2695,10 @@ function sorting(q, finish) {
   return [para(T("Tap a word, then tap its group. Tap a word in a group to take it out."), "muted"), wrap, done];
 }
 
+/** A base answer: the small base is printed after the box, so the pupil types only the digits (2026-10-24). */
+const baseTag = (q) => el("span", { class: "base-tag", "aria-label": T("in base {a}", { a: q.base }) }, LIB().sub(q.base));
+const baseTip = (q) => para(T("Type only the digits. The small {a} is already there.", { a: LIB().sub(q.base) }), "muted");
+
 /** Shows q; calls onAnswer({result, ms}) when the pupil answers or presses "I don't know". */
 function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const t0 = performance.now();
@@ -2678,15 +2706,18 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt), figureBox(q.figure)];
   if (q.type === "blanks") {
     // a step-by-step line: one small box per blank, all checked together (2026-10-19)
-    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off", class: "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
+    // a text value is a base numeral (the last box of a division ladder): a wider box, the base shown after it
+    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off",
+      class: typeof q.answerValues[i] === "string" ? "blank-input wide" : "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
     const go = () => { const v = inputs.map((x) => normaliseInput(x.value, q)); if (v.every(Boolean)) finish(v); else inputs[v.findIndex((x) => !x)].focus(); };
     inputs.forEach((x, i) => x.addEventListener("keydown", (e) => { if (e.key === "Enter") (i < inputs.length - 1 && !inputs[i + 1].value ? inputs[i + 1].focus() : go()); }));
     setTimeout(() => inputs[0].focus(), 50);
     body.push(para(T("Fill in each box, then check."), "muted"),
-      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i]] : [p]))), button(T("Check"), go, "primary"));
+      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i], q.base && typeof q.answerValues[i] === "string" ? baseTag(q) : null] : [p]))),
+      q.base ? baseTip(q) : null, button(T("Check"), go, "primary"));
   } else if (q.type === "numeric") {
     const { input, check: go } = answerBox(q, finish);
-    body.push(el("div", { class: "answer" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null), go);
+    body.push(el("div", { class: q.base ? "answer has-base" : "answer" }, input, q.base ? baseTag(q) : null, q.unit ? el("span", { class: "unit" }, q.unit) : null), q.base ? baseTip(q) : null, go);
   } else if (q.type === "cloze" && q.mode === "type") {
     const { input, check: go } = answerBox(q, finish, true);
     body.push(clozeSentence(q, input), go);
