@@ -1,0 +1,623 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-29",
+   "name": "Writing monetary amounts in words and figures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Figures use numerals, while words write an amount in language. When a form includes both, they must express the same amount and currency. Read place value carefully, especially zeros. Check the format requested by the teacher or form; separators and word conventions can vary. The exercise uses invented CFA-franc amounts, not a real payment. Matching words and figures is more important than copying a long number without checking it.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Figures use numerals, while words write an amount in language. When a form includes both, they must express the same amount and currency. Read place value carefully, especially zeros. Check the format requested by the teacher or form; separators and word conventions can vary. The exercise uses invented CFA-franc amounts, not a real payment. Matching words and figures is more important than copying a long number without checking it."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original model: An imaginary payment form gives the amount as {12500} CFA francs and as {words(12500)} CFA francs. The zeros and place values must agree in both versions. Reading only the first part of the phrase could change the amount. A learner should compare the full expression before signing any classroom model."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Group the amount by place value, write the words and reread them as a number. Keep the currency explicit. Do not add an extra zero or confuse hundreds with thousands. Ask the teacher which accepted number-word style to use in formal examination answers."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "figures",
+    "meaning": "a numerical written representation of an amount"
+   },
+   {
+    "word": "amount in words",
+    "meaning": "a linguistic representation of the same value"
+   },
+   {
+    "word": "currency label",
+    "meaning": "the unit identifying the money involved"
+   },
+   {
+    "word": "place-value check",
+    "meaning": "verification that digits and zeros express the intended value"
+   }
+  ],
+  "examples": [
+   "A model form writes the amount using numerals.",
+   "A form writes an amount as a number phrase.",
+   "The model identifies CFA francs rather than leaving the unit unstated."
+  ],
+  "mistake": {
+   "wrong": "Figures means the writer's personal signature.",
+   "right": "figures: a numerical written representation of an amount.",
+   "why": "Figures represent the number; a signature identifies a writer."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A model form writes the amount using numerals. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A numerical written representation of an amount.",
+   "Figures represent the number; a signature identifies a writer."
+  ],
+  "answer": "figures",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-29-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "figures: a numerical written representation of an amount.",
+     "amount in words: a linguistic representation of the same value.",
+     "currency label: the unit identifying the money involved.",
+     "place-value check: verification that digits and zeros express the intended value."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-29-terms"
+    }
+   },
+   {
+    "id": "ce3-29-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A model form writes the amount using numerals.",
+     "figures: a numerical written representation of an amount."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-29-cases"
+    }
+   },
+   {
+    "id": "ce3-29-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Figures means the writer's personal signature.",
+     "Figures represent the number; a signature identifies a writer."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-29-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "figures: a numerical written representation of an amount.",
+        "truth": "true",
+        "explain": "This statement is correct: figures means a numerical written representation of an amount. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "amount in words: a linguistic representation of the same value.",
+        "truth": "true",
+        "explain": "This statement is correct: amount in words means a linguistic representation of the same value. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "currency label: the unit identifying the money involved.",
+        "truth": "true",
+        "explain": "This statement is correct: currency label means the unit identifying the money involved. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "place-value check: verification that digits and zeros express the intended value.",
+        "truth": "true",
+        "explain": "This statement is correct: place-value check means verification that digits and zeros express the intended value. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Figures means the writer's personal signature.",
+        "truth": "false",
+        "explain": "Figures represent the number; a signature identifies a writer."
+       },
+       {
+        "text": "An amount in words may name any different value from the figures.",
+        "truth": "false",
+        "explain": "Both versions should express the same amount."
+       },
+       {
+        "text": "Every currency is interchangeable without conversion.",
+        "truth": "false",
+        "explain": "The currency label is part of what the amount means."
+       },
+       {
+        "text": "An extra zero never changes an amount.",
+        "truth": "false",
+        "explain": "Zeros can change place value and therefore the value written."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-29-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a numerical written representation of an amount ?",
+       "r": "figures",
+       "w": [
+        "amount in words",
+        "currency label",
+        "place-value check"
+       ],
+       "e": [
+        "amount in words means a linguistic representation of the same value; the question instead describes a numerical written representation of an amount.",
+        "currency label means the unit identifying the money involved; the question instead describes a numerical written representation of an amount.",
+        "place-value check means verification that digits and zeros express the intended value; the question instead describes a numerical written representation of an amount."
+       ],
+       "y": "A numerical written representation of an amount."
+      },
+      {
+       "q": "Which term means: a linguistic representation of the same value ?",
+       "r": "amount in words",
+       "w": [
+        "figures",
+        "currency label",
+        "place-value check"
+       ],
+       "e": [
+        "figures means a numerical written representation of an amount; the question instead describes a linguistic representation of the same value.",
+        "currency label means the unit identifying the money involved; the question instead describes a linguistic representation of the same value.",
+        "place-value check means verification that digits and zeros express the intended value; the question instead describes a linguistic representation of the same value."
+       ],
+       "y": "A linguistic representation of the same value."
+      },
+      {
+       "q": "Which term means: the unit identifying the money involved ?",
+       "r": "currency label",
+       "w": [
+        "figures",
+        "amount in words",
+        "place-value check"
+       ],
+       "e": [
+        "figures means a numerical written representation of an amount; the question instead describes the unit identifying the money involved.",
+        "amount in words means a linguistic representation of the same value; the question instead describes the unit identifying the money involved.",
+        "place-value check means verification that digits and zeros express the intended value; the question instead describes the unit identifying the money involved."
+       ],
+       "y": "The unit identifying the money involved."
+      },
+      {
+       "q": "Which term means: verification that digits and zeros express the intended value ?",
+       "r": "place-value check",
+       "w": [
+        "figures",
+        "amount in words",
+        "currency label"
+       ],
+       "e": [
+        "figures means a numerical written representation of an amount; the question instead describes verification that digits and zeros express the intended value.",
+        "amount in words means a linguistic representation of the same value; the question instead describes verification that digits and zeros express the intended value.",
+        "currency label means the unit identifying the money involved; the question instead describes verification that digits and zeros express the intended value."
+       ],
+       "y": "Verification that digits and zeros express the intended value."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-29-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A model form writes the amount using numerals.\nWhich term best fits this example?",
+       "r": "figures",
+       "w": [
+        "amount in words",
+        "currency label",
+        "place-value check"
+       ],
+       "e": [
+        "amount in words concerns a linguistic representation of the same value. This case instead illustrates a numerical written representation of an amount.",
+        "currency label concerns the unit identifying the money involved. This case instead illustrates a numerical written representation of an amount.",
+        "place-value check concerns verification that digits and zeros express the intended value. This case instead illustrates a numerical written representation of an amount."
+       ],
+       "y": "A model form writes the amount using numerals. A numerical written representation of an amount."
+      },
+      {
+       "q": "A form writes an amount as a number phrase.\nWhich term best fits this example?",
+       "r": "amount in words",
+       "w": [
+        "figures",
+        "currency label",
+        "place-value check"
+       ],
+       "e": [
+        "figures concerns a numerical written representation of an amount. This case instead illustrates a linguistic representation of the same value.",
+        "currency label concerns the unit identifying the money involved. This case instead illustrates a linguistic representation of the same value.",
+        "place-value check concerns verification that digits and zeros express the intended value. This case instead illustrates a linguistic representation of the same value."
+       ],
+       "y": "A form writes an amount as a number phrase. A linguistic representation of the same value."
+      },
+      {
+       "q": "The model identifies CFA francs rather than leaving the unit unstated.\nWhich term best fits this example?",
+       "r": "currency label",
+       "w": [
+        "figures",
+        "amount in words",
+        "place-value check"
+       ],
+       "e": [
+        "figures concerns a numerical written representation of an amount. This case instead illustrates the unit identifying the money involved.",
+        "amount in words concerns a linguistic representation of the same value. This case instead illustrates the unit identifying the money involved.",
+        "place-value check concerns verification that digits and zeros express the intended value. This case instead illustrates the unit identifying the money involved."
+       ],
+       "y": "The model identifies CFA francs rather than leaving the unit unstated. The unit identifying the money involved."
+      },
+      {
+       "q": "A learner rereads hundreds and thousands before accepting a form.\nWhich term best fits this example?",
+       "r": "place-value check",
+       "w": [
+        "figures",
+        "amount in words",
+        "currency label"
+       ],
+       "e": [
+        "figures concerns a numerical written representation of an amount. This case instead illustrates verification that digits and zeros express the intended value.",
+        "amount in words concerns a linguistic representation of the same value. This case instead illustrates verification that digits and zeros express the intended value.",
+        "currency label concerns the unit identifying the money involved. This case instead illustrates verification that digits and zeros express the intended value."
+       ],
+       "y": "A learner rereads hundreds and thousands before accepting a form. Verification that digits and zeros express the intended value."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-29-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A model form writes the amount using numerals.\nWhich explanation justifies the classification?",
+       "r": "A numerical written representation of an amount.",
+       "w": [
+        "A linguistic representation of the same value.",
+        "The unit identifying the money involved.",
+        "Verification that digits and zeros express the intended value."
+       ],
+       "e": [
+        "That explanation describes amount in words, rather than the relationship illustrated in this example.",
+        "That explanation describes currency label, rather than the relationship illustrated in this example.",
+        "That explanation describes place-value check, rather than the relationship illustrated in this example."
+       ],
+       "y": "Figures represent the number; a signature identifies a writer."
+      },
+      {
+       "q": "A form writes an amount as a number phrase.\nWhich explanation justifies the classification?",
+       "r": "A linguistic representation of the same value.",
+       "w": [
+        "A numerical written representation of an amount.",
+        "The unit identifying the money involved.",
+        "Verification that digits and zeros express the intended value."
+       ],
+       "e": [
+        "That explanation describes figures, rather than the relationship illustrated in this example.",
+        "That explanation describes currency label, rather than the relationship illustrated in this example.",
+        "That explanation describes place-value check, rather than the relationship illustrated in this example."
+       ],
+       "y": "Both versions should express the same amount."
+      },
+      {
+       "q": "The model identifies CFA francs rather than leaving the unit unstated.\nWhich explanation justifies the classification?",
+       "r": "The unit identifying the money involved.",
+       "w": [
+        "A numerical written representation of an amount.",
+        "A linguistic representation of the same value.",
+        "Verification that digits and zeros express the intended value."
+       ],
+       "e": [
+        "That explanation describes figures, rather than the relationship illustrated in this example.",
+        "That explanation describes amount in words, rather than the relationship illustrated in this example.",
+        "That explanation describes place-value check, rather than the relationship illustrated in this example."
+       ],
+       "y": "The currency label is part of what the amount means."
+      },
+      {
+       "q": "A learner rereads hundreds and thousands before accepting a form.\nWhich explanation justifies the classification?",
+       "r": "Verification that digits and zeros express the intended value.",
+       "w": [
+        "A numerical written representation of an amount.",
+        "A linguistic representation of the same value.",
+        "The unit identifying the money involved."
+       ],
+       "e": [
+        "That explanation describes figures, rather than the relationship illustrated in this example.",
+        "That explanation describes amount in words, rather than the relationship illustrated in this example.",
+        "That explanation describes currency label, rather than the relationship illustrated in this example."
+       ],
+       "y": "Zeros can change place value and therefore the value written."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-29-amount",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "amount": {
+     "expr": "a*100"
+    }
+   },
+   "prompt": "Write in figures: {words(amount)} CFA francs.",
+   "answer": "amount",
+   "misconceptions": [
+    {
+     "id": "tenfold",
+     "wrong": "amount*10",
+     "explain": "That adds a place-value zero and makes the amount ten times larger."
+    },
+    {
+     "id": "tenth",
+     "wrong": "amount/10",
+     "explain": "That removes a place-value zero and makes the amount ten times smaller."
+    }
+   ],
+   "solution": [
+    "Read the place values in the number phrase.",
+    "The amount is {answer} CFA francs."
+   ],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "e3-29-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "figures: a numerical written representation of an amount.",
+      "truth": "true",
+      "explain": "This statement is correct: figures means a numerical written representation of an amount. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "amount in words: a linguistic representation of the same value.",
+      "truth": "true",
+      "explain": "This statement is correct: amount in words means a linguistic representation of the same value. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "currency label: the unit identifying the money involved.",
+      "truth": "true",
+      "explain": "This statement is correct: currency label means the unit identifying the money involved. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "place-value check: verification that digits and zeros express the intended value.",
+      "truth": "true",
+      "explain": "This statement is correct: place-value check means verification that digits and zeros express the intended value. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Figures means the writer's personal signature.",
+      "truth": "false",
+      "explain": "Figures represent the number; a signature identifies a writer."
+     },
+     {
+      "text": "An amount in words may name any different value from the figures.",
+      "truth": "false",
+      "explain": "Both versions should express the same amount."
+     },
+     {
+      "text": "Every currency is interchangeable without conversion.",
+      "truth": "false",
+      "explain": "The currency label is part of what the amount means."
+     },
+     {
+      "text": "An extra zero never changes an amount.",
+      "truth": "false",
+      "explain": "Zeros can change place value and therefore the value written."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Write an imaginary amount of {12500} CFA francs in figures and words. Add a different amount of your own and check that both versions agree.",
+  "model": [
+   "An imaginary payment form gives the amount as {12500} CFA francs and as {words(12500)} CFA francs. The zeros and place values must agree in both versions. Reading only the first part of the phrase could change the amount. A learner should compare the full expression before signing any classroom model."
+  ],
+  "checklist": [
+   "My words and figures name the same amount.",
+   "I have checked zeros and place value.",
+   "I have stated the currency."
+  ],
+  "checks": []
+ }
+}

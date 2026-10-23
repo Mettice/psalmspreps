@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-24",
+   "name": "Quantifiers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Quantifiers express amounts or numbers. Many and a few commonly go with plural countable nouns; much and a little with uncountable nouns. Some and a lot of can work with both, subject to context. A few suggests some, whereas few emphasises not many; a little suggests some, whereas little emphasises a shortage. Use the noun's meaning in context: paper as a material differs from papers as documents. Avoid treating all nouns as countable merely because they refer to real objects.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Quantifiers express amounts or numbers. Many and a few commonly go with plural countable nouns; much and a little with uncountable nouns. Some and a lot of can work with both, subject to context. A few suggests some, whereas few emphasises not many; a little suggests some, whereas little emphasises a shortage. Use the noun's meaning in context: paper as a material differs from papers as documents. Avoid treating all nouns as countable merely because they refer to real objects."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "The club has a few books and a little time. It does not have much money, but many members can help. This uses books and members as countable, money and time as uncountable in these sentences. Changing a few to few can change the writer's emphasis even when both sentences are grammatical."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the noun and decide how it is being used. Choose the quantifier that fits both its countability and the intended emphasis. Check the rest of the sentence rather than accepting a word just because it is familiar."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "many",
+    "meaning": "a quantifier used with plural countable nouns"
+   },
+   {
+    "word": "much",
+    "meaning": "a quantifier used with uncountable nouns"
+   },
+   {
+    "word": "a few",
+    "meaning": "a quantifier indicating some countable items"
+   },
+   {
+    "word": "a little",
+    "meaning": "a quantifier indicating some uncountable amount"
+   }
+  ],
+  "examples": [
+   "Many pupils joined the club.",
+   "The club does not have much time.",
+   "A few books are available."
+  ],
+  "mistake": {
+   "wrong": "Many money is the neutral standard phrase.",
+   "right": "many: a quantifier used with plural countable nouns.",
+   "why": "Money is uncountable in this use; many belongs with plural countable nouns."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Many pupils joined the club. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A quantifier used with plural countable nouns.",
+   "Money is uncountable in this use; many belongs with plural countable nouns."
+  ],
+  "answer": "many",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-24-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "many: a quantifier used with plural countable nouns.",
+     "much: a quantifier used with uncountable nouns.",
+     "a few: a quantifier indicating some countable items.",
+     "a little: a quantifier indicating some uncountable amount."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-24-terms"
+    }
+   },
+   {
+    "id": "ce3-24-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Many pupils joined the club.",
+     "many: a quantifier used with plural countable nouns."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-24-cases"
+    }
+   },
+   {
+    "id": "ce3-24-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Many money is the neutral standard phrase.",
+     "Money is uncountable in this use; many belongs with plural countable nouns."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-24-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "many: a quantifier used with plural countable nouns.",
+        "truth": "true",
+        "explain": "This statement is correct: many means a quantifier used with plural countable nouns. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "much: a quantifier used with uncountable nouns.",
+        "truth": "true",
+        "explain": "This statement is correct: much means a quantifier used with uncountable nouns. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "a few: a quantifier indicating some countable items.",
+        "truth": "true",
+        "explain": "This statement is correct: a few means a quantifier indicating some countable items. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "a little: a quantifier indicating some uncountable amount.",
+        "truth": "true",
+        "explain": "This statement is correct: a little means a quantifier indicating some uncountable amount. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Many money is the neutral standard phrase.",
+        "truth": "false",
+        "explain": "Money is uncountable in this use; many belongs with plural countable nouns."
+       },
+       {
+        "text": "Much pupils is the standard plural countable pattern.",
+        "truth": "false",
+        "explain": "Pupils are countable; use many rather than much in this pattern."
+       },
+       {
+        "text": "A few time remains is the standard pattern.",
+        "truth": "false",
+        "explain": "A few needs a plural countable noun, such as books."
+       },
+       {
+        "text": "A little chairs are available is the standard pattern.",
+        "truth": "false",
+        "explain": "Chairs are countable; a little is for an uncountable amount."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-24-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a quantifier used with plural countable nouns ?",
+       "r": "many",
+       "w": [
+        "much",
+        "a few",
+        "a little"
+       ],
+       "e": [
+        "much means a quantifier used with uncountable nouns; the question instead describes a quantifier used with plural countable nouns.",
+        "a few means a quantifier indicating some countable items; the question instead describes a quantifier used with plural countable nouns.",
+        "a little means a quantifier indicating some uncountable amount; the question instead describes a quantifier used with plural countable nouns."
+       ],
+       "y": "A quantifier used with plural countable nouns."
+      },
+      {
+       "q": "Which term means: a quantifier used with uncountable nouns ?",
+       "r": "much",
+       "w": [
+        "many",
+        "a few",
+        "a little"
+       ],
+       "e": [
+        "many means a quantifier used with plural countable nouns; the question instead describes a quantifier used with uncountable nouns.",
+        "a few means a quantifier indicating some countable items; the question instead describes a quantifier used with uncountable nouns.",
+        "a little means a quantifier indicating some uncountable amount; the question instead describes a quantifier used with uncountable nouns."
+       ],
+       "y": "A quantifier used with uncountable nouns."
+      },
+      {
+       "q": "Which term means: a quantifier indicating some countable items ?",
+       "r": "a few",
+       "w": [
+        "many",
+        "much",
+        "a little"
+       ],
+       "e": [
+        "many means a quantifier used with plural countable nouns; the question instead describes a quantifier indicating some countable items.",
+        "much means a quantifier used with uncountable nouns; the question instead describes a quantifier indicating some countable items.",
+        "a little means a quantifier indicating some uncountable amount; the question instead describes a quantifier indicating some countable items."
+       ],
+       "y": "A quantifier indicating some countable items."
+      },
+      {
+       "q": "Which term means: a quantifier indicating some uncountable amount ?",
+       "r": "a little",
+       "w": [
+        "many",
+        "much",
+        "a few"
+       ],
+       "e": [
+        "many means a quantifier used with plural countable nouns; the question instead describes a quantifier indicating some uncountable amount.",
+        "much means a quantifier used with uncountable nouns; the question instead describes a quantifier indicating some uncountable amount.",
+        "a few means a quantifier indicating some countable items; the question instead describes a quantifier indicating some uncountable amount."
+       ],
+       "y": "A quantifier indicating some uncountable amount."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-24-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Many pupils joined the club.\nWhich term best fits this example?",
+       "r": "many",
+       "w": [
+        "much",
+        "a few",
+        "a little"
+       ],
+       "e": [
+        "much concerns a quantifier used with uncountable nouns. This case instead illustrates a quantifier used with plural countable nouns.",
+        "a few concerns a quantifier indicating some countable items. This case instead illustrates a quantifier used with plural countable nouns.",
+        "a little concerns a quantifier indicating some uncountable amount. This case instead illustrates a quantifier used with plural countable nouns."
+       ],
+       "y": "Many pupils joined the club. A quantifier used with plural countable nouns."
+      },
+      {
+       "q": "The club does not have much time.\nWhich term best fits this example?",
+       "r": "much",
+       "w": [
+        "many",
+        "a few",
+        "a little"
+       ],
+       "e": [
+        "many concerns a quantifier used with plural countable nouns. This case instead illustrates a quantifier used with uncountable nouns.",
+        "a few concerns a quantifier indicating some countable items. This case instead illustrates a quantifier used with uncountable nouns.",
+        "a little concerns a quantifier indicating some uncountable amount. This case instead illustrates a quantifier used with uncountable nouns."
+       ],
+       "y": "The club does not have much time. A quantifier used with uncountable nouns."
+      },
+      {
+       "q": "A few books are available.\nWhich term best fits this example?",
+       "r": "a few",
+       "w": [
+        "many",
+        "much",
+        "a little"
+       ],
+       "e": [
+        "many concerns a quantifier used with plural countable nouns. This case instead illustrates a quantifier indicating some countable items.",
+        "much concerns a quantifier used with uncountable nouns. This case instead illustrates a quantifier indicating some countable items.",
+        "a little concerns a quantifier indicating some uncountable amount. This case instead illustrates a quantifier indicating some countable items."
+       ],
+       "y": "A few books are available. A quantifier indicating some countable items."
+      },
+      {
+       "q": "A little water remains in the jug.\nWhich term best fits this example?",
+       "r": "a little",
+       "w": [
+        "many",
+        "much",
+        "a few"
+       ],
+       "e": [
+        "many concerns a quantifier used with plural countable nouns. This case instead illustrates a quantifier indicating some uncountable amount.",
+        "much concerns a quantifier used with uncountable nouns. This case instead illustrates a quantifier indicating some uncountable amount.",
+        "a few concerns a quantifier indicating some countable items. This case instead illustrates a quantifier indicating some uncountable amount."
+       ],
+       "y": "A little water remains in the jug. A quantifier indicating some uncountable amount."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-24-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Many pupils joined the club.\nWhich explanation justifies the classification?",
+       "r": "A quantifier used with plural countable nouns.",
+       "w": [
+        "A quantifier used with uncountable nouns.",
+        "A quantifier indicating some countable items.",
+        "A quantifier indicating some uncountable amount."
+       ],
+       "e": [
+        "That explanation describes much, rather than the relationship illustrated in this example.",
+        "That explanation describes a few, rather than the relationship illustrated in this example.",
+        "That explanation describes a little, rather than the relationship illustrated in this example."
+       ],
+       "y": "Money is uncountable in this use; many belongs with plural countable nouns."
+      },
+      {
+       "q": "The club does not have much time.\nWhich explanation justifies the classification?",
+       "r": "A quantifier used with uncountable nouns.",
+       "w": [
+        "A quantifier used with plural countable nouns.",
+        "A quantifier indicating some countable items.",
+        "A quantifier indicating some uncountable amount."
+       ],
+       "e": [
+        "That explanation describes many, rather than the relationship illustrated in this example.",
+        "That explanation describes a few, rather than the relationship illustrated in this example.",
+        "That explanation describes a little, rather than the relationship illustrated in this example."
+       ],
+       "y": "Pupils are countable; use many rather than much in this pattern."
+      },
+      {
+       "q": "A few books are available.\nWhich explanation justifies the classification?",
+       "r": "A quantifier indicating some countable items.",
+       "w": [
+        "A quantifier used with plural countable nouns.",
+        "A quantifier used with uncountable nouns.",
+        "A quantifier indicating some uncountable amount."
+       ],
+       "e": [
+        "That explanation describes many, rather than the relationship illustrated in this example.",
+        "That explanation describes much, rather than the relationship illustrated in this example.",
+        "That explanation describes a little, rather than the relationship illustrated in this example."
+       ],
+       "y": "A few needs a plural countable noun, such as books."
+      },
+      {
+       "q": "A little water remains in the jug.\nWhich explanation justifies the classification?",
+       "r": "A quantifier indicating some uncountable amount.",
+       "w": [
+        "A quantifier used with plural countable nouns.",
+        "A quantifier used with uncountable nouns.",
+        "A quantifier indicating some countable items."
+       ],
+       "e": [
+        "That explanation describes many, rather than the relationship illustrated in this example.",
+        "That explanation describes much, rather than the relationship illustrated in this example.",
+        "That explanation describes a few, rather than the relationship illustrated in this example."
+       ],
+       "y": "Chairs are countable; a little is for an uncountable amount."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-24-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "many",
+     "right": "Many pupils joined the club."
+    },
+    {
+     "left": "much",
+     "right": "The club does not have much time."
+    },
+    {
+     "left": "a few",
+     "right": "A few books are available."
+    },
+    {
+     "left": "a little",
+     "right": "A little water remains in the jug."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-24-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "many: a quantifier used with plural countable nouns.",
+      "truth": "true",
+      "explain": "This statement is correct: many means a quantifier used with plural countable nouns. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "much: a quantifier used with uncountable nouns.",
+      "truth": "true",
+      "explain": "This statement is correct: much means a quantifier used with uncountable nouns. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "a few: a quantifier indicating some countable items.",
+      "truth": "true",
+      "explain": "This statement is correct: a few means a quantifier indicating some countable items. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "a little: a quantifier indicating some uncountable amount.",
+      "truth": "true",
+      "explain": "This statement is correct: a little means a quantifier indicating some uncountable amount. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Many money is the neutral standard phrase.",
+      "truth": "false",
+      "explain": "Money is uncountable in this use; many belongs with plural countable nouns."
+     },
+     {
+      "text": "Much pupils is the standard plural countable pattern.",
+      "truth": "false",
+      "explain": "Pupils are countable; use many rather than much in this pattern."
+     },
+     {
+      "text": "A few time remains is the standard pattern.",
+      "truth": "false",
+      "explain": "A few needs a plural countable noun, such as books."
+     },
+     {
+      "text": "A little chairs are available is the standard pattern.",
+      "truth": "false",
+      "explain": "Chairs are countable; a little is for an uncountable amount."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

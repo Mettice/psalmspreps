@@ -22,7 +22,7 @@ def fact(term, meaning, example, error, correction):
 
 def concept_lesson(subject, prefix, n, title, overview, application, method, facts, source,
                    prerequisites=(), language="en", replacement=None, paper=None,
-                   worked_override=None, learn_figure=None):
+                   worked_override=None, learn_figure=None, lesson_subject=None):
     assert len(facts) >= 4
     b = FR if language == "fr" else EN
     ident = f"{prefix}{n}"
@@ -73,7 +73,7 @@ def concept_lesson(subject, prefix, n, title, overview, application, method, fac
                 ("Raisonner et vérifier" if language == "fr" else "Reason and check", method)]
     if learn_figure:
         sections[1] = (*sections[1], learn_figure)
-    L.lesson(subject, subject, n, (ident, title), prerequisites, note,
+    L.lesson(subject, lesson_subject or subject, n, (ident, title), prerequisites, note,
         worked_override or L.worked({}, facts[0]["example"] + (" Quelle notion s’applique ?" if language == "fr" else " Which concept applies?"),
             [("Relève les indices." if language == "fr" else "Identify the features of the case."), facts[0]["meaning"].capitalize() + ".", facts[0]["correction"]], facts[0]["term"]),
         cards, questions, paper=paper, lang=language,

@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-15",
+   "name": "Irregular comparison of adverbs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Some adverbs form comparisons irregularly. Well becomes better and best; badly becomes worse and worst. Far can become farther or further, depending on the use; course conventions should be stated. A comparative relates performances or situations; a superlative identifies the highest or lowest within a group in the relevant respect. Do not add more to better or attach -er to well. Distinguish the adjective good from the adverb well when describing how an action is performed.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Some adverbs form comparisons irregularly. Well becomes better and best; badly becomes worse and worst. Far can become farther or further, depending on the use; course conventions should be stated. A comparative relates performances or situations; a superlative identifies the highest or lowest within a group in the relevant respect. Do not add more to better or attach -er to well. Distinguish the adjective good from the adverb well when describing how an action is performed."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Bih reads well. After practice she reads better than before. In the stated group, she reads best. This compares a performance, not her worth as a person. A class should specify the comparison group and the criterion rather than treating best as a permanent label on a learner."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Find the verb being modified and the comparison intended. Use than when an explicit comparative clause needs it. Avoid double comparison such as more better. When several forms are standard, do not invent an incorrect rule just to force one option."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "well",
+    "meaning": "an adverb describing a good manner of performance"
+   },
+   {
+    "word": "better",
+    "meaning": "the comparative form of well in this use"
+   },
+   {
+    "word": "best",
+    "meaning": "the superlative form of well in this use"
+   },
+   {
+    "word": "worse",
+    "meaning": "the comparative form of badly"
+   }
+  ],
+  "examples": [
+   "Bih reads well.",
+   "Ayuk reads better than before.",
+   "Of the stated performances, Ngozi reads best."
+  ],
+  "mistake": {
+   "wrong": "Bih reads good is the neutral standard school adverb pattern.",
+   "right": "well: an adverb describing a good manner of performance.",
+   "why": "Well normally modifies the action here; good is an adjective."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih reads well. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "An adverb describing a good manner of performance.",
+   "Well normally modifies the action here; good is an adjective."
+  ],
+  "answer": "well",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-15-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "well: an adverb describing a good manner of performance.",
+     "better: the comparative form of well in this use.",
+     "best: the superlative form of well in this use.",
+     "worse: the comparative form of badly."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-15-terms"
+    }
+   },
+   {
+    "id": "ce3-15-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Bih reads well.",
+     "well: an adverb describing a good manner of performance."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-15-cases"
+    }
+   },
+   {
+    "id": "ce3-15-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Bih reads good is the neutral standard school adverb pattern.",
+     "Well normally modifies the action here; good is an adjective."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-15-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "well: an adverb describing a good manner of performance.",
+        "truth": "true",
+        "explain": "This statement is correct: well means an adverb describing a good manner of performance. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "better: the comparative form of well in this use.",
+        "truth": "true",
+        "explain": "This statement is correct: better means the comparative form of well in this use. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "best: the superlative form of well in this use.",
+        "truth": "true",
+        "explain": "This statement is correct: best means the superlative form of well in this use. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "worse: the comparative form of badly.",
+        "truth": "true",
+        "explain": "This statement is correct: worse means the comparative form of badly. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Bih reads good is the neutral standard school adverb pattern.",
+        "truth": "false",
+        "explain": "Well normally modifies the action here; good is an adjective."
+       },
+       {
+        "text": "Ayuk reads more better than before.",
+        "truth": "false",
+        "explain": "Better is already comparative, so more creates a double comparison."
+       },
+       {
+        "text": "The comparative of well is weller.",
+        "truth": "false",
+        "explain": "Well has the irregular forms better and best."
+       },
+       {
+        "text": "Badly always becomes badlyer.",
+        "truth": "false",
+        "explain": "The irregular comparison is worse, not badlyer."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-15-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: an adverb describing a good manner of performance ?",
+       "r": "well",
+       "w": [
+        "better",
+        "best",
+        "worse"
+       ],
+       "e": [
+        "better means the comparative form of well in this use; the question instead describes an adverb describing a good manner of performance.",
+        "best means the superlative form of well in this use; the question instead describes an adverb describing a good manner of performance.",
+        "worse means the comparative form of badly; the question instead describes an adverb describing a good manner of performance."
+       ],
+       "y": "An adverb describing a good manner of performance."
+      },
+      {
+       "q": "Which term means: the comparative form of well in this use ?",
+       "r": "better",
+       "w": [
+        "well",
+        "best",
+        "worse"
+       ],
+       "e": [
+        "well means an adverb describing a good manner of performance; the question instead describes the comparative form of well in this use.",
+        "best means the superlative form of well in this use; the question instead describes the comparative form of well in this use.",
+        "worse means the comparative form of badly; the question instead describes the comparative form of well in this use."
+       ],
+       "y": "The comparative form of well in this use."
+      },
+      {
+       "q": "Which term means: the superlative form of well in this use ?",
+       "r": "best",
+       "w": [
+        "well",
+        "better",
+        "worse"
+       ],
+       "e": [
+        "well means an adverb describing a good manner of performance; the question instead describes the superlative form of well in this use.",
+        "better means the comparative form of well in this use; the question instead describes the superlative form of well in this use.",
+        "worse means the comparative form of badly; the question instead describes the superlative form of well in this use."
+       ],
+       "y": "The superlative form of well in this use."
+      },
+      {
+       "q": "Which term means: the comparative form of badly ?",
+       "r": "worse",
+       "w": [
+        "well",
+        "better",
+        "best"
+       ],
+       "e": [
+        "well means an adverb describing a good manner of performance; the question instead describes the comparative form of badly.",
+        "better means the comparative form of well in this use; the question instead describes the comparative form of badly.",
+        "best means the superlative form of well in this use; the question instead describes the comparative form of badly."
+       ],
+       "y": "The comparative form of badly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-15-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih reads well.\nWhich term best fits this example?",
+       "r": "well",
+       "w": [
+        "better",
+        "best",
+        "worse"
+       ],
+       "e": [
+        "better concerns the comparative form of well in this use. This case instead illustrates an adverb describing a good manner of performance.",
+        "best concerns the superlative form of well in this use. This case instead illustrates an adverb describing a good manner of performance.",
+        "worse concerns the comparative form of badly. This case instead illustrates an adverb describing a good manner of performance."
+       ],
+       "y": "Bih reads well. An adverb describing a good manner of performance."
+      },
+      {
+       "q": "Ayuk reads better than before.\nWhich term best fits this example?",
+       "r": "better",
+       "w": [
+        "well",
+        "best",
+        "worse"
+       ],
+       "e": [
+        "well concerns an adverb describing a good manner of performance. This case instead illustrates the comparative form of well in this use.",
+        "best concerns the superlative form of well in this use. This case instead illustrates the comparative form of well in this use.",
+        "worse concerns the comparative form of badly. This case instead illustrates the comparative form of well in this use."
+       ],
+       "y": "Ayuk reads better than before. The comparative form of well in this use."
+      },
+      {
+       "q": "Of the stated performances, Ngozi reads best.\nWhich term best fits this example?",
+       "r": "best",
+       "w": [
+        "well",
+        "better",
+        "worse"
+       ],
+       "e": [
+        "well concerns an adverb describing a good manner of performance. This case instead illustrates the superlative form of well in this use.",
+        "better concerns the comparative form of well in this use. This case instead illustrates the superlative form of well in this use.",
+        "worse concerns the comparative form of badly. This case instead illustrates the superlative form of well in this use."
+       ],
+       "y": "Of the stated performances, Ngozi reads best. The superlative form of well in this use."
+      },
+      {
+       "q": "The damaged loudspeaker works worse than it did yesterday.\nWhich term best fits this example?",
+       "r": "worse",
+       "w": [
+        "well",
+        "better",
+        "best"
+       ],
+       "e": [
+        "well concerns an adverb describing a good manner of performance. This case instead illustrates the comparative form of badly.",
+        "better concerns the comparative form of well in this use. This case instead illustrates the comparative form of badly.",
+        "best concerns the superlative form of well in this use. This case instead illustrates the comparative form of badly."
+       ],
+       "y": "The damaged loudspeaker works worse than it did yesterday. The comparative form of badly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-15-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih reads well.\nWhich explanation justifies the classification?",
+       "r": "An adverb describing a good manner of performance.",
+       "w": [
+        "The comparative form of well in this use.",
+        "The superlative form of well in this use.",
+        "The comparative form of badly."
+       ],
+       "e": [
+        "That explanation describes better, rather than the relationship illustrated in this example.",
+        "That explanation describes best, rather than the relationship illustrated in this example.",
+        "That explanation describes worse, rather than the relationship illustrated in this example."
+       ],
+       "y": "Well normally modifies the action here; good is an adjective."
+      },
+      {
+       "q": "Ayuk reads better than before.\nWhich explanation justifies the classification?",
+       "r": "The comparative form of well in this use.",
+       "w": [
+        "An adverb describing a good manner of performance.",
+        "The superlative form of well in this use.",
+        "The comparative form of badly."
+       ],
+       "e": [
+        "That explanation describes well, rather than the relationship illustrated in this example.",
+        "That explanation describes best, rather than the relationship illustrated in this example.",
+        "That explanation describes worse, rather than the relationship illustrated in this example."
+       ],
+       "y": "Better is already comparative, so more creates a double comparison."
+      },
+      {
+       "q": "Of the stated performances, Ngozi reads best.\nWhich explanation justifies the classification?",
+       "r": "The superlative form of well in this use.",
+       "w": [
+        "An adverb describing a good manner of performance.",
+        "The comparative form of well in this use.",
+        "The comparative form of badly."
+       ],
+       "e": [
+        "That explanation describes well, rather than the relationship illustrated in this example.",
+        "That explanation describes better, rather than the relationship illustrated in this example.",
+        "That explanation describes worse, rather than the relationship illustrated in this example."
+       ],
+       "y": "Well has the irregular forms better and best."
+      },
+      {
+       "q": "The damaged loudspeaker works worse than it did yesterday.\nWhich explanation justifies the classification?",
+       "r": "The comparative form of badly.",
+       "w": [
+        "An adverb describing a good manner of performance.",
+        "The comparative form of well in this use.",
+        "The superlative form of well in this use."
+       ],
+       "e": [
+        "That explanation describes well, rather than the relationship illustrated in this example.",
+        "That explanation describes better, rather than the relationship illustrated in this example.",
+        "That explanation describes best, rather than the relationship illustrated in this example."
+       ],
+       "y": "The irregular comparison is worse, not badlyer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-15-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "well",
+     "right": "Bih reads well."
+    },
+    {
+     "left": "better",
+     "right": "Ayuk reads better than before."
+    },
+    {
+     "left": "best",
+     "right": "Of the stated performances, Ngozi reads best."
+    },
+    {
+     "left": "worse",
+     "right": "The damaged loudspeaker works worse than it did yesterday."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-15-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "well: an adverb describing a good manner of performance.",
+      "truth": "true",
+      "explain": "This statement is correct: well means an adverb describing a good manner of performance. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "better: the comparative form of well in this use.",
+      "truth": "true",
+      "explain": "This statement is correct: better means the comparative form of well in this use. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "best: the superlative form of well in this use.",
+      "truth": "true",
+      "explain": "This statement is correct: best means the superlative form of well in this use. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "worse: the comparative form of badly.",
+      "truth": "true",
+      "explain": "This statement is correct: worse means the comparative form of badly. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bih reads good is the neutral standard school adverb pattern.",
+      "truth": "false",
+      "explain": "Well normally modifies the action here; good is an adjective."
+     },
+     {
+      "text": "Ayuk reads more better than before.",
+      "truth": "false",
+      "explain": "Better is already comparative, so more creates a double comparison."
+     },
+     {
+      "text": "The comparative of well is weller.",
+      "truth": "false",
+      "explain": "Well has the irregular forms better and best."
+     },
+     {
+      "text": "Badly always becomes badlyer.",
+      "truth": "false",
+      "explain": "The irregular comparison is worse, not badlyer."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

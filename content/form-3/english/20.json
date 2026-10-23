@@ -1,0 +1,613 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-20",
+   "name": "Describing a process: preparing and serving a meal"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A process account explains stages in a logical order. State the goal and what is needed, then describe the main steps with sequence words. Choose a consistent form, such as imperatives for instructions or present-simple sentences for an explanation. Include relevant hygiene and serving arrangements without pretending that one simple account is a complete food-safety manual. Do not use the task as permission to handle hot equipment without appropriate adult supervision.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A process account explains stages in a logical order. State the goal and what is needed, then describe the main steps with sequence words. Choose a consistent form, such as imperatives for instructions or present-simple sentences for an explanation. Include relevant hygiene and serving arrangements without pretending that one simple account is a complete food-safety manual. Do not use the task as permission to handle hot equipment without appropriate adult supervision."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original model: To serve a simple family meal, first prepare a clean work area and gather the utensils. Next, follow an adult-approved recipe for the chosen dish. Keep serving materials clean and arrange the portions. Then invite the family and serve carefully. Finally, store or clear the remaining materials according to the household's safe routine."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Write the stages before drafting full sentences. Check that a reader could follow the order and that no required stage appears after the stage depending on it. Avoid unsupported cooking times or temperatures. The language task assesses the explanation's organisation."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "goal",
+    "meaning": "the intended result of a process"
+   },
+   {
+    "word": "sequence",
+    "meaning": "the logical order of the stages"
+   },
+   {
+    "word": "sequence marker",
+    "meaning": "a word or phrase showing a stage's position"
+   },
+   {
+    "word": "consistent instruction form",
+    "meaning": "a stable grammatical pattern across the steps"
+   }
+  ],
+  "examples": [
+   "The account explains how to prepare and serve the stated meal.",
+   "Gather utensils before using them.",
+   "First, next and finally guide the account."
+  ],
+  "mistake": {
+   "wrong": "A process needs no indication of what it is meant to achieve.",
+   "right": "goal: the intended result of a process.",
+   "why": "The goal tells the reader what the stages lead toward."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The account explains how to prepare and serve the stated meal. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "The intended result of a process.",
+   "The goal tells the reader what the stages lead toward."
+  ],
+  "answer": "goal",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-20-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "goal: the intended result of a process.",
+     "sequence: the logical order of the stages.",
+     "sequence marker: a word or phrase showing a stage's position.",
+     "consistent instruction form: a stable grammatical pattern across the steps."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-20-terms"
+    }
+   },
+   {
+    "id": "ce3-20-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The account explains how to prepare and serve the stated meal.",
+     "goal: the intended result of a process."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-20-cases"
+    }
+   },
+   {
+    "id": "ce3-20-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A process needs no indication of what it is meant to achieve.",
+     "The goal tells the reader what the stages lead toward."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-20-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "goal: the intended result of a process.",
+        "truth": "true",
+        "explain": "This statement is correct: goal means the intended result of a process. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "sequence: the logical order of the stages.",
+        "truth": "true",
+        "explain": "This statement is correct: sequence means the logical order of the stages. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "sequence marker: a word or phrase showing a stage's position.",
+        "truth": "true",
+        "explain": "This statement is correct: sequence marker means a word or phrase showing a stage's position. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "consistent instruction form: a stable grammatical pattern across the steps.",
+        "truth": "true",
+        "explain": "This statement is correct: consistent instruction form means a stable grammatical pattern across the steps. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A process needs no indication of what it is meant to achieve.",
+        "truth": "false",
+        "explain": "The goal tells the reader what the stages lead toward."
+       },
+       {
+        "text": "A dependent step should always appear before the step it needs.",
+        "truth": "false",
+        "explain": "A usable order respects how the stages depend on one another."
+       },
+       {
+        "text": "Finally should always introduce the first preparatory stage.",
+        "truth": "false",
+        "explain": "Finally normally marks a closing stage, not the initial preparation."
+       },
+       {
+        "text": "Random fragments are as clear as a consistent instruction pattern.",
+        "truth": "false",
+        "explain": "Parallel instruction forms make the process easier to follow."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-20-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: the intended result of a process ?",
+       "r": "goal",
+       "w": [
+        "sequence",
+        "sequence marker",
+        "consistent instruction form"
+       ],
+       "e": [
+        "sequence means the logical order of the stages; the question instead describes the intended result of a process.",
+        "sequence marker means a word or phrase showing a stage's position; the question instead describes the intended result of a process.",
+        "consistent instruction form means a stable grammatical pattern across the steps; the question instead describes the intended result of a process."
+       ],
+       "y": "The intended result of a process."
+      },
+      {
+       "q": "Which term means: the logical order of the stages ?",
+       "r": "sequence",
+       "w": [
+        "goal",
+        "sequence marker",
+        "consistent instruction form"
+       ],
+       "e": [
+        "goal means the intended result of a process; the question instead describes the logical order of the stages.",
+        "sequence marker means a word or phrase showing a stage's position; the question instead describes the logical order of the stages.",
+        "consistent instruction form means a stable grammatical pattern across the steps; the question instead describes the logical order of the stages."
+       ],
+       "y": "The logical order of the stages."
+      },
+      {
+       "q": "Which term means: a word or phrase showing a stage's position ?",
+       "r": "sequence marker",
+       "w": [
+        "goal",
+        "sequence",
+        "consistent instruction form"
+       ],
+       "e": [
+        "goal means the intended result of a process; the question instead describes a word or phrase showing a stage's position.",
+        "sequence means the logical order of the stages; the question instead describes a word or phrase showing a stage's position.",
+        "consistent instruction form means a stable grammatical pattern across the steps; the question instead describes a word or phrase showing a stage's position."
+       ],
+       "y": "A word or phrase showing a stage's position."
+      },
+      {
+       "q": "Which term means: a stable grammatical pattern across the steps ?",
+       "r": "consistent instruction form",
+       "w": [
+        "goal",
+        "sequence",
+        "sequence marker"
+       ],
+       "e": [
+        "goal means the intended result of a process; the question instead describes a stable grammatical pattern across the steps.",
+        "sequence means the logical order of the stages; the question instead describes a stable grammatical pattern across the steps.",
+        "sequence marker means a word or phrase showing a stage's position; the question instead describes a stable grammatical pattern across the steps."
+       ],
+       "y": "A stable grammatical pattern across the steps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-20-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The account explains how to prepare and serve the stated meal.\nWhich term best fits this example?",
+       "r": "goal",
+       "w": [
+        "sequence",
+        "sequence marker",
+        "consistent instruction form"
+       ],
+       "e": [
+        "sequence concerns the logical order of the stages. This case instead illustrates the intended result of a process.",
+        "sequence marker concerns a word or phrase showing a stage's position. This case instead illustrates the intended result of a process.",
+        "consistent instruction form concerns a stable grammatical pattern across the steps. This case instead illustrates the intended result of a process."
+       ],
+       "y": "The account explains how to prepare and serve the stated meal. The intended result of a process."
+      },
+      {
+       "q": "Gather utensils before using them.\nWhich term best fits this example?",
+       "r": "sequence",
+       "w": [
+        "goal",
+        "sequence marker",
+        "consistent instruction form"
+       ],
+       "e": [
+        "goal concerns the intended result of a process. This case instead illustrates the logical order of the stages.",
+        "sequence marker concerns a word or phrase showing a stage's position. This case instead illustrates the logical order of the stages.",
+        "consistent instruction form concerns a stable grammatical pattern across the steps. This case instead illustrates the logical order of the stages."
+       ],
+       "y": "Gather utensils before using them. The logical order of the stages."
+      },
+      {
+       "q": "First, next and finally guide the account.\nWhich term best fits this example?",
+       "r": "sequence marker",
+       "w": [
+        "goal",
+        "sequence",
+        "consistent instruction form"
+       ],
+       "e": [
+        "goal concerns the intended result of a process. This case instead illustrates a word or phrase showing a stage's position.",
+        "sequence concerns the logical order of the stages. This case instead illustrates a word or phrase showing a stage's position.",
+        "consistent instruction form concerns a stable grammatical pattern across the steps. This case instead illustrates a word or phrase showing a stage's position."
+       ],
+       "y": "First, next and finally guide the account. A word or phrase showing a stage's position."
+      },
+      {
+       "q": "Prepare the area, gather utensils and serve carefully use imperatives.\nWhich term best fits this example?",
+       "r": "consistent instruction form",
+       "w": [
+        "goal",
+        "sequence",
+        "sequence marker"
+       ],
+       "e": [
+        "goal concerns the intended result of a process. This case instead illustrates a stable grammatical pattern across the steps.",
+        "sequence concerns the logical order of the stages. This case instead illustrates a stable grammatical pattern across the steps.",
+        "sequence marker concerns a word or phrase showing a stage's position. This case instead illustrates a stable grammatical pattern across the steps."
+       ],
+       "y": "Prepare the area, gather utensils and serve carefully use imperatives. A stable grammatical pattern across the steps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-20-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The account explains how to prepare and serve the stated meal.\nWhich explanation justifies the classification?",
+       "r": "The intended result of a process.",
+       "w": [
+        "The logical order of the stages.",
+        "A word or phrase showing a stage's position.",
+        "A stable grammatical pattern across the steps."
+       ],
+       "e": [
+        "That explanation describes sequence, rather than the relationship illustrated in this example.",
+        "That explanation describes sequence marker, rather than the relationship illustrated in this example.",
+        "That explanation describes consistent instruction form, rather than the relationship illustrated in this example."
+       ],
+       "y": "The goal tells the reader what the stages lead toward."
+      },
+      {
+       "q": "Gather utensils before using them.\nWhich explanation justifies the classification?",
+       "r": "The logical order of the stages.",
+       "w": [
+        "The intended result of a process.",
+        "A word or phrase showing a stage's position.",
+        "A stable grammatical pattern across the steps."
+       ],
+       "e": [
+        "That explanation describes goal, rather than the relationship illustrated in this example.",
+        "That explanation describes sequence marker, rather than the relationship illustrated in this example.",
+        "That explanation describes consistent instruction form, rather than the relationship illustrated in this example."
+       ],
+       "y": "A usable order respects how the stages depend on one another."
+      },
+      {
+       "q": "First, next and finally guide the account.\nWhich explanation justifies the classification?",
+       "r": "A word or phrase showing a stage's position.",
+       "w": [
+        "The intended result of a process.",
+        "The logical order of the stages.",
+        "A stable grammatical pattern across the steps."
+       ],
+       "e": [
+        "That explanation describes goal, rather than the relationship illustrated in this example.",
+        "That explanation describes sequence, rather than the relationship illustrated in this example.",
+        "That explanation describes consistent instruction form, rather than the relationship illustrated in this example."
+       ],
+       "y": "Finally normally marks a closing stage, not the initial preparation."
+      },
+      {
+       "q": "Prepare the area, gather utensils and serve carefully use imperatives.\nWhich explanation justifies the classification?",
+       "r": "A stable grammatical pattern across the steps.",
+       "w": [
+        "The intended result of a process.",
+        "The logical order of the stages.",
+        "A word or phrase showing a stage's position."
+       ],
+       "e": [
+        "That explanation describes goal, rather than the relationship illustrated in this example.",
+        "That explanation describes sequence, rather than the relationship illustrated in this example.",
+        "That explanation describes sequence marker, rather than the relationship illustrated in this example."
+       ],
+       "y": "Parallel instruction forms make the process easier to follow."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-20-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "goal",
+     "right": "The account explains how to prepare and serve the stated meal."
+    },
+    {
+     "left": "sequence",
+     "right": "Gather utensils before using them."
+    },
+    {
+     "left": "sequence marker",
+     "right": "First, next and finally guide the account."
+    },
+    {
+     "left": "consistent instruction form",
+     "right": "Prepare the area, gather utensils and serve carefully use imperatives."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-20-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "goal: the intended result of a process.",
+      "truth": "true",
+      "explain": "This statement is correct: goal means the intended result of a process. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "sequence: the logical order of the stages.",
+      "truth": "true",
+      "explain": "This statement is correct: sequence means the logical order of the stages. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "sequence marker: a word or phrase showing a stage's position.",
+      "truth": "true",
+      "explain": "This statement is correct: sequence marker means a word or phrase showing a stage's position. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "consistent instruction form: a stable grammatical pattern across the steps.",
+      "truth": "true",
+      "explain": "This statement is correct: consistent instruction form means a stable grammatical pattern across the steps. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A process needs no indication of what it is meant to achieve.",
+      "truth": "false",
+      "explain": "The goal tells the reader what the stages lead toward."
+     },
+     {
+      "text": "A dependent step should always appear before the step it needs.",
+      "truth": "false",
+      "explain": "A usable order respects how the stages depend on one another."
+     },
+     {
+      "text": "Finally should always introduce the first preparatory stage.",
+      "truth": "false",
+      "explain": "Finally normally marks a closing stage, not the initial preparation."
+     },
+     {
+      "text": "Random fragments are as clear as a consistent instruction pattern.",
+      "truth": "false",
+      "explain": "Parallel instruction forms make the process easier to follow."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Describe how an imaginary household prepares and serves a familiar meal. Focus on clear language and order; use an adult-approved recipe rather than inventing safety instructions.",
+  "model": [
+   "To serve a simple family meal, first prepare a clean work area and gather the utensils. Next, follow an adult-approved recipe for the chosen dish. Keep serving materials clean and arrange the portions. Then invite the family and serve carefully. Finally, store or clear the remaining materials according to the household's safe routine."
+  ],
+  "checklist": [
+   "I state the result and necessary preparation.",
+   "The stages follow a usable order.",
+   "I use clear sequence markers and consistent forms."
+  ],
+  "checks": []
+ }
+}

@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-3",
+   "name": "Modals: obligation, advice and polite requests"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Must and have to can express obligation; should usually gives advice. Could you and would you can introduce polite requests. A modal is followed by the base verb: she must read, not must reads or must to read. Must not means prohibition; do not have to means absence of necessity. Context matters because a word can have more than one use. State the intended meaning rather than treating all modals as interchangeable.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Must and have to can express obligation; should usually gives advice. Could you and would you can introduce polite requests. A modal is followed by the base verb: she must read, not must reads or must to read. Must not means prohibition; do not have to means absence of necessity. Context matters because a word can have more than one use. State the intended meaning rather than treating all modals as interchangeable."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "At a Buea library, Bih must return the book by the agreed date. A friend says she should keep a reading list: that is advice. Bih asks, Could you explain the renewal rule? This is a request, not a statement about past ability. A notice saying visitors do not have to buy a book does not forbid buying one."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Choose the meaning first, then the form. Check the base verb after a modal. When correcting a sentence, preserve whether the speaker intended a requirement, a suggestion, permission or prohibition. Do not replace must not with do not have to: that changes the meaning."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "must + base verb",
+    "meaning": "a form expressing obligation in these examples"
+   },
+   {
+    "word": "should",
+    "meaning": "a modal expressing advice in this context"
+   },
+   {
+    "word": "polite request",
+    "meaning": "a courteous request using a form such as Could you"
+   },
+   {
+    "word": "absence of necessity",
+    "meaning": "the meaning of do not have to"
+   }
+  ],
+  "examples": [
+   "She must return the book.",
+   "You should make a reading plan.",
+   "Could you repeat the instruction, please?"
+  ],
+  "mistake": {
+   "wrong": "She must returns the book.",
+   "right": "must + base verb: a form expressing obligation in these examples.",
+   "why": "Use the base return after must, without a third-person -s."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "She must return the book. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A form expressing obligation in these examples.",
+   "Use the base return after must, without a third-person -s."
+  ],
+  "answer": "must + base verb",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-3-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "must + base verb: a form expressing obligation in these examples.",
+     "should: a modal expressing advice in this context.",
+     "polite request: a courteous request using a form such as Could you.",
+     "absence of necessity: the meaning of do not have to."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-3-terms"
+    }
+   },
+   {
+    "id": "ce3-3-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "She must return the book.",
+     "must + base verb: a form expressing obligation in these examples."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-3-cases"
+    }
+   },
+   {
+    "id": "ce3-3-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "She must returns the book.",
+     "Use the base return after must, without a third-person -s."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-3-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "must + base verb: a form expressing obligation in these examples.",
+        "truth": "true",
+        "explain": "This statement is correct: must + base verb means a form expressing obligation in these examples. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "should: a modal expressing advice in this context.",
+        "truth": "true",
+        "explain": "This statement is correct: should means a modal expressing advice in this context. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "polite request: a courteous request using a form such as Could you.",
+        "truth": "true",
+        "explain": "This statement is correct: polite request means a courteous request using a form such as Could you. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "absence of necessity: the meaning of do not have to.",
+        "truth": "true",
+        "explain": "This statement is correct: absence of necessity means the meaning of do not have to. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "She must returns the book.",
+        "truth": "false",
+        "explain": "Use the base return after must, without a third-person -s."
+       },
+       {
+        "text": "Should always expresses an unavoidable official requirement.",
+        "truth": "false",
+        "explain": "Advice recommends an action; it need not impose the same force as must."
+       },
+       {
+        "text": "Could you here can only describe past ability.",
+        "truth": "false",
+        "explain": "In this question, Could you is a conventional polite request."
+       },
+       {
+        "text": "Do not have to always means must not.",
+        "truth": "false",
+        "explain": "An action that is not required may still be permitted."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a form expressing obligation in these examples ?",
+       "r": "must + base verb",
+       "w": [
+        "should",
+        "polite request",
+        "absence of necessity"
+       ],
+       "e": [
+        "should means a modal expressing advice in this context; the question instead describes a form expressing obligation in these examples.",
+        "polite request means a courteous request using a form such as Could you; the question instead describes a form expressing obligation in these examples.",
+        "absence of necessity means the meaning of do not have to; the question instead describes a form expressing obligation in these examples."
+       ],
+       "y": "A form expressing obligation in these examples."
+      },
+      {
+       "q": "Which term means: a modal expressing advice in this context ?",
+       "r": "should",
+       "w": [
+        "must + base verb",
+        "polite request",
+        "absence of necessity"
+       ],
+       "e": [
+        "must + base verb means a form expressing obligation in these examples; the question instead describes a modal expressing advice in this context.",
+        "polite request means a courteous request using a form such as Could you; the question instead describes a modal expressing advice in this context.",
+        "absence of necessity means the meaning of do not have to; the question instead describes a modal expressing advice in this context."
+       ],
+       "y": "A modal expressing advice in this context."
+      },
+      {
+       "q": "Which term means: a courteous request using a form such as Could you ?",
+       "r": "polite request",
+       "w": [
+        "must + base verb",
+        "should",
+        "absence of necessity"
+       ],
+       "e": [
+        "must + base verb means a form expressing obligation in these examples; the question instead describes a courteous request using a form such as Could you.",
+        "should means a modal expressing advice in this context; the question instead describes a courteous request using a form such as Could you.",
+        "absence of necessity means the meaning of do not have to; the question instead describes a courteous request using a form such as Could you."
+       ],
+       "y": "A courteous request using a form such as could you."
+      },
+      {
+       "q": "Which term means: the meaning of do not have to ?",
+       "r": "absence of necessity",
+       "w": [
+        "must + base verb",
+        "should",
+        "polite request"
+       ],
+       "e": [
+        "must + base verb means a form expressing obligation in these examples; the question instead describes the meaning of do not have to.",
+        "should means a modal expressing advice in this context; the question instead describes the meaning of do not have to.",
+        "polite request means a courteous request using a form such as Could you; the question instead describes the meaning of do not have to."
+       ],
+       "y": "The meaning of do not have to."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "She must return the book.\nWhich term best fits this example?",
+       "r": "must + base verb",
+       "w": [
+        "should",
+        "polite request",
+        "absence of necessity"
+       ],
+       "e": [
+        "should concerns a modal expressing advice in this context. This case instead illustrates a form expressing obligation in these examples.",
+        "polite request concerns a courteous request using a form such as Could you. This case instead illustrates a form expressing obligation in these examples.",
+        "absence of necessity concerns the meaning of do not have to. This case instead illustrates a form expressing obligation in these examples."
+       ],
+       "y": "She must return the book. A form expressing obligation in these examples."
+      },
+      {
+       "q": "You should make a reading plan.\nWhich term best fits this example?",
+       "r": "should",
+       "w": [
+        "must + base verb",
+        "polite request",
+        "absence of necessity"
+       ],
+       "e": [
+        "must + base verb concerns a form expressing obligation in these examples. This case instead illustrates a modal expressing advice in this context.",
+        "polite request concerns a courteous request using a form such as Could you. This case instead illustrates a modal expressing advice in this context.",
+        "absence of necessity concerns the meaning of do not have to. This case instead illustrates a modal expressing advice in this context."
+       ],
+       "y": "You should make a reading plan. A modal expressing advice in this context."
+      },
+      {
+       "q": "Could you repeat the instruction, please?\nWhich term best fits this example?",
+       "r": "polite request",
+       "w": [
+        "must + base verb",
+        "should",
+        "absence of necessity"
+       ],
+       "e": [
+        "must + base verb concerns a form expressing obligation in these examples. This case instead illustrates a courteous request using a form such as Could you.",
+        "should concerns a modal expressing advice in this context. This case instead illustrates a courteous request using a form such as Could you.",
+        "absence of necessity concerns the meaning of do not have to. This case instead illustrates a courteous request using a form such as Could you."
+       ],
+       "y": "Could you repeat the instruction, please? A courteous request using a form such as could you."
+      },
+      {
+       "q": "You do not have to buy the book to use the reading room.\nWhich term best fits this example?",
+       "r": "absence of necessity",
+       "w": [
+        "must + base verb",
+        "should",
+        "polite request"
+       ],
+       "e": [
+        "must + base verb concerns a form expressing obligation in these examples. This case instead illustrates the meaning of do not have to.",
+        "should concerns a modal expressing advice in this context. This case instead illustrates the meaning of do not have to.",
+        "polite request concerns a courteous request using a form such as Could you. This case instead illustrates the meaning of do not have to."
+       ],
+       "y": "You do not have to buy the book to use the reading room. The meaning of do not have to."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-3-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "She must return the book.\nWhich explanation justifies the classification?",
+       "r": "A form expressing obligation in these examples.",
+       "w": [
+        "A modal expressing advice in this context.",
+        "A courteous request using a form such as could you.",
+        "The meaning of do not have to."
+       ],
+       "e": [
+        "That explanation describes should, rather than the relationship illustrated in this example.",
+        "That explanation describes polite request, rather than the relationship illustrated in this example.",
+        "That explanation describes absence of necessity, rather than the relationship illustrated in this example."
+       ],
+       "y": "Use the base return after must, without a third-person -s."
+      },
+      {
+       "q": "You should make a reading plan.\nWhich explanation justifies the classification?",
+       "r": "A modal expressing advice in this context.",
+       "w": [
+        "A form expressing obligation in these examples.",
+        "A courteous request using a form such as could you.",
+        "The meaning of do not have to."
+       ],
+       "e": [
+        "That explanation describes must + base verb, rather than the relationship illustrated in this example.",
+        "That explanation describes polite request, rather than the relationship illustrated in this example.",
+        "That explanation describes absence of necessity, rather than the relationship illustrated in this example."
+       ],
+       "y": "Advice recommends an action; it need not impose the same force as must."
+      },
+      {
+       "q": "Could you repeat the instruction, please?\nWhich explanation justifies the classification?",
+       "r": "A courteous request using a form such as could you.",
+       "w": [
+        "A form expressing obligation in these examples.",
+        "A modal expressing advice in this context.",
+        "The meaning of do not have to."
+       ],
+       "e": [
+        "That explanation describes must + base verb, rather than the relationship illustrated in this example.",
+        "That explanation describes should, rather than the relationship illustrated in this example.",
+        "That explanation describes absence of necessity, rather than the relationship illustrated in this example."
+       ],
+       "y": "In this question, Could you is a conventional polite request."
+      },
+      {
+       "q": "You do not have to buy the book to use the reading room.\nWhich explanation justifies the classification?",
+       "r": "The meaning of do not have to.",
+       "w": [
+        "A form expressing obligation in these examples.",
+        "A modal expressing advice in this context.",
+        "A courteous request using a form such as could you."
+       ],
+       "e": [
+        "That explanation describes must + base verb, rather than the relationship illustrated in this example.",
+        "That explanation describes should, rather than the relationship illustrated in this example.",
+        "That explanation describes polite request, rather than the relationship illustrated in this example."
+       ],
+       "y": "An action that is not required may still be permitted."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-3-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "must + base verb",
+     "right": "She must return the book."
+    },
+    {
+     "left": "should",
+     "right": "You should make a reading plan."
+    },
+    {
+     "left": "polite request",
+     "right": "Could you repeat the instruction, please?"
+    },
+    {
+     "left": "absence of necessity",
+     "right": "You do not have to buy the book to use the reading room."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "must + base verb: a form expressing obligation in these examples.",
+      "truth": "true",
+      "explain": "This statement is correct: must + base verb means a form expressing obligation in these examples. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "should: a modal expressing advice in this context.",
+      "truth": "true",
+      "explain": "This statement is correct: should means a modal expressing advice in this context. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "polite request: a courteous request using a form such as Could you.",
+      "truth": "true",
+      "explain": "This statement is correct: polite request means a courteous request using a form such as Could you. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "absence of necessity: the meaning of do not have to.",
+      "truth": "true",
+      "explain": "This statement is correct: absence of necessity means the meaning of do not have to. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "She must returns the book.",
+      "truth": "false",
+      "explain": "Use the base return after must, without a third-person -s."
+     },
+     {
+      "text": "Should always expresses an unavoidable official requirement.",
+      "truth": "false",
+      "explain": "Advice recommends an action; it need not impose the same force as must."
+     },
+     {
+      "text": "Could you here can only describe past ability.",
+      "truth": "false",
+      "explain": "In this question, Could you is a conventional polite request."
+     },
+     {
+      "text": "Do not have to always means must not.",
+      "truth": "false",
+      "explain": "An action that is not required may still be permitted."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

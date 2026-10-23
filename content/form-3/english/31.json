@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-31",
+   "name": "Understanding banking vocabulary and abbreviations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Bank-related language includes account, deposit, withdrawal and balance. Their meanings depend on the stated transaction and perspective. An abbreviation shortens a longer expression and should be expanded before use if its meaning is unfamiliar. Do not assume that every institution uses the same forms or charges. This is a fictional vocabulary exercise, not an instruction to open an account or a statement of current banking rules.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Bank-related language includes account, deposit, withdrawal and balance. Their meanings depend on the stated transaction and perspective. An abbreviation shortens a longer expression and should be expanded before use if its meaning is unfamiliar. Do not assume that every institution uses the same forms or charges. This is a fictional vocabulary exercise, not an instruction to open an account or a statement of current banking rules."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original notice: An imaginary school savings exercise records a deposit as money added and a withdrawal as money taken out. The balance records the amount remaining in the model account at that point. The label ATM expands to automated teller machine. The passage does not give permission to use another person's card or request real personal banking details."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Read from the account holder's stated perspective and check whether a movement adds or removes money. Expand an unfamiliar abbreviation from an appropriate source. Never infer a real fee, interest rate or account condition from a classroom example."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "deposit",
+    "meaning": "money added to the stated model account"
+   },
+   {
+    "word": "withdrawal",
+    "meaning": "money taken out of the stated model account"
+   },
+   {
+    "word": "balance",
+    "meaning": "the amount remaining at the stated point"
+   },
+   {
+    "word": "ATM",
+    "meaning": "the abbreviation for automated teller machine"
+   }
+  ],
+  "examples": [
+   "The record shows money paid into the imaginary account.",
+   "The record shows money removed from the imaginary account.",
+   "The model records what remains after its listed movements."
+  ],
+  "mistake": {
+   "wrong": "A deposit in this model always removes money from the account.",
+   "right": "deposit: money added to the stated model account.",
+   "why": "The model defines it as an addition."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The record shows money paid into the imaginary account. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Money added to the stated model account.",
+   "The model defines it as an addition."
+  ],
+  "answer": "deposit",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-31-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "deposit: money added to the stated model account.",
+     "withdrawal: money taken out of the stated model account.",
+     "balance: the amount remaining at the stated point.",
+     "ATM: the abbreviation for automated teller machine."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-31-terms"
+    }
+   },
+   {
+    "id": "ce3-31-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The record shows money paid into the imaginary account.",
+     "deposit: money added to the stated model account."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-31-cases"
+    }
+   },
+   {
+    "id": "ce3-31-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A deposit in this model always removes money from the account.",
+     "The model defines it as an addition."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-31-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "deposit: money added to the stated model account.",
+        "truth": "true",
+        "explain": "This statement is correct: deposit means money added to the stated model account. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "withdrawal: money taken out of the stated model account.",
+        "truth": "true",
+        "explain": "This statement is correct: withdrawal means money taken out of the stated model account. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "balance: the amount remaining at the stated point.",
+        "truth": "true",
+        "explain": "This statement is correct: balance means the amount remaining at the stated point. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "ATM: the abbreviation for automated teller machine.",
+        "truth": "true",
+        "explain": "This statement is correct: ATM means the abbreviation for automated teller machine. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A deposit in this model always removes money from the account.",
+        "truth": "false",
+        "explain": "The model defines it as an addition."
+       },
+       {
+        "text": "A withdrawal always increases the remaining balance.",
+        "truth": "false",
+        "explain": "Taking money out reduces what remains, other things equal."
+       },
+       {
+        "text": "A balance is necessarily identical to the latest single deposit.",
+        "truth": "false",
+        "explain": "It reflects the stated account position, not just one movement."
+       },
+       {
+        "text": "Knowing an abbreviation authorises use of someone else's card.",
+        "truth": "false",
+        "explain": "Vocabulary knowledge supplies no permission to access an account."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-31-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: money added to the stated model account ?",
+       "r": "deposit",
+       "w": [
+        "withdrawal",
+        "balance",
+        "ATM"
+       ],
+       "e": [
+        "withdrawal means money taken out of the stated model account; the question instead describes money added to the stated model account.",
+        "balance means the amount remaining at the stated point; the question instead describes money added to the stated model account.",
+        "ATM means the abbreviation for automated teller machine; the question instead describes money added to the stated model account."
+       ],
+       "y": "Money added to the stated model account."
+      },
+      {
+       "q": "Which term means: money taken out of the stated model account ?",
+       "r": "withdrawal",
+       "w": [
+        "deposit",
+        "balance",
+        "ATM"
+       ],
+       "e": [
+        "deposit means money added to the stated model account; the question instead describes money taken out of the stated model account.",
+        "balance means the amount remaining at the stated point; the question instead describes money taken out of the stated model account.",
+        "ATM means the abbreviation for automated teller machine; the question instead describes money taken out of the stated model account."
+       ],
+       "y": "Money taken out of the stated model account."
+      },
+      {
+       "q": "Which term means: the amount remaining at the stated point ?",
+       "r": "balance",
+       "w": [
+        "deposit",
+        "withdrawal",
+        "ATM"
+       ],
+       "e": [
+        "deposit means money added to the stated model account; the question instead describes the amount remaining at the stated point.",
+        "withdrawal means money taken out of the stated model account; the question instead describes the amount remaining at the stated point.",
+        "ATM means the abbreviation for automated teller machine; the question instead describes the amount remaining at the stated point."
+       ],
+       "y": "The amount remaining at the stated point."
+      },
+      {
+       "q": "Which term means: the abbreviation for automated teller machine ?",
+       "r": "ATM",
+       "w": [
+        "deposit",
+        "withdrawal",
+        "balance"
+       ],
+       "e": [
+        "deposit means money added to the stated model account; the question instead describes the abbreviation for automated teller machine.",
+        "withdrawal means money taken out of the stated model account; the question instead describes the abbreviation for automated teller machine.",
+        "balance means the amount remaining at the stated point; the question instead describes the abbreviation for automated teller machine."
+       ],
+       "y": "The abbreviation for automated teller machine."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-31-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The record shows money paid into the imaginary account.\nWhich term best fits this example?",
+       "r": "deposit",
+       "w": [
+        "withdrawal",
+        "balance",
+        "ATM"
+       ],
+       "e": [
+        "withdrawal concerns money taken out of the stated model account. This case instead illustrates money added to the stated model account.",
+        "balance concerns the amount remaining at the stated point. This case instead illustrates money added to the stated model account.",
+        "ATM concerns the abbreviation for automated teller machine. This case instead illustrates money added to the stated model account."
+       ],
+       "y": "The record shows money paid into the imaginary account. Money added to the stated model account."
+      },
+      {
+       "q": "The record shows money removed from the imaginary account.\nWhich term best fits this example?",
+       "r": "withdrawal",
+       "w": [
+        "deposit",
+        "balance",
+        "ATM"
+       ],
+       "e": [
+        "deposit concerns money added to the stated model account. This case instead illustrates money taken out of the stated model account.",
+        "balance concerns the amount remaining at the stated point. This case instead illustrates money taken out of the stated model account.",
+        "ATM concerns the abbreviation for automated teller machine. This case instead illustrates money taken out of the stated model account."
+       ],
+       "y": "The record shows money removed from the imaginary account. Money taken out of the stated model account."
+      },
+      {
+       "q": "The model records what remains after its listed movements.\nWhich term best fits this example?",
+       "r": "balance",
+       "w": [
+        "deposit",
+        "withdrawal",
+        "ATM"
+       ],
+       "e": [
+        "deposit concerns money added to the stated model account. This case instead illustrates the amount remaining at the stated point.",
+        "withdrawal concerns money taken out of the stated model account. This case instead illustrates the amount remaining at the stated point.",
+        "ATM concerns the abbreviation for automated teller machine. This case instead illustrates the amount remaining at the stated point."
+       ],
+       "y": "The model records what remains after its listed movements. The amount remaining at the stated point."
+      },
+      {
+       "q": "A label expands ATM as automated teller machine.\nWhich term best fits this example?",
+       "r": "ATM",
+       "w": [
+        "deposit",
+        "withdrawal",
+        "balance"
+       ],
+       "e": [
+        "deposit concerns money added to the stated model account. This case instead illustrates the abbreviation for automated teller machine.",
+        "withdrawal concerns money taken out of the stated model account. This case instead illustrates the abbreviation for automated teller machine.",
+        "balance concerns the amount remaining at the stated point. This case instead illustrates the abbreviation for automated teller machine."
+       ],
+       "y": "A label expands ATM as automated teller machine. The abbreviation for automated teller machine."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-31-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The record shows money paid into the imaginary account.\nWhich explanation justifies the classification?",
+       "r": "Money added to the stated model account.",
+       "w": [
+        "Money taken out of the stated model account.",
+        "The amount remaining at the stated point.",
+        "The abbreviation for automated teller machine."
+       ],
+       "e": [
+        "That explanation describes withdrawal, rather than the relationship illustrated in this example.",
+        "That explanation describes balance, rather than the relationship illustrated in this example.",
+        "That explanation describes ATM, rather than the relationship illustrated in this example."
+       ],
+       "y": "The model defines it as an addition."
+      },
+      {
+       "q": "The record shows money removed from the imaginary account.\nWhich explanation justifies the classification?",
+       "r": "Money taken out of the stated model account.",
+       "w": [
+        "Money added to the stated model account.",
+        "The amount remaining at the stated point.",
+        "The abbreviation for automated teller machine."
+       ],
+       "e": [
+        "That explanation describes deposit, rather than the relationship illustrated in this example.",
+        "That explanation describes balance, rather than the relationship illustrated in this example.",
+        "That explanation describes ATM, rather than the relationship illustrated in this example."
+       ],
+       "y": "Taking money out reduces what remains, other things equal."
+      },
+      {
+       "q": "The model records what remains after its listed movements.\nWhich explanation justifies the classification?",
+       "r": "The amount remaining at the stated point.",
+       "w": [
+        "Money added to the stated model account.",
+        "Money taken out of the stated model account.",
+        "The abbreviation for automated teller machine."
+       ],
+       "e": [
+        "That explanation describes deposit, rather than the relationship illustrated in this example.",
+        "That explanation describes withdrawal, rather than the relationship illustrated in this example.",
+        "That explanation describes ATM, rather than the relationship illustrated in this example."
+       ],
+       "y": "It reflects the stated account position, not just one movement."
+      },
+      {
+       "q": "A label expands ATM as automated teller machine.\nWhich explanation justifies the classification?",
+       "r": "The abbreviation for automated teller machine.",
+       "w": [
+        "Money added to the stated model account.",
+        "Money taken out of the stated model account.",
+        "The amount remaining at the stated point."
+       ],
+       "e": [
+        "That explanation describes deposit, rather than the relationship illustrated in this example.",
+        "That explanation describes withdrawal, rather than the relationship illustrated in this example.",
+        "That explanation describes balance, rather than the relationship illustrated in this example."
+       ],
+       "y": "Vocabulary knowledge supplies no permission to access an account."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-31-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "deposit",
+     "right": "The record shows money paid into the imaginary account."
+    },
+    {
+     "left": "withdrawal",
+     "right": "The record shows money removed from the imaginary account."
+    },
+    {
+     "left": "balance",
+     "right": "The model records what remains after its listed movements."
+    },
+    {
+     "left": "ATM",
+     "right": "A label expands ATM as automated teller machine."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-31-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "deposit: money added to the stated model account.",
+      "truth": "true",
+      "explain": "This statement is correct: deposit means money added to the stated model account. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "withdrawal: money taken out of the stated model account.",
+      "truth": "true",
+      "explain": "This statement is correct: withdrawal means money taken out of the stated model account. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "balance: the amount remaining at the stated point.",
+      "truth": "true",
+      "explain": "This statement is correct: balance means the amount remaining at the stated point. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "ATM: the abbreviation for automated teller machine.",
+      "truth": "true",
+      "explain": "This statement is correct: ATM means the abbreviation for automated teller machine. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A deposit in this model always removes money from the account.",
+      "truth": "false",
+      "explain": "The model defines it as an addition."
+     },
+     {
+      "text": "A withdrawal always increases the remaining balance.",
+      "truth": "false",
+      "explain": "Taking money out reduces what remains, other things equal."
+     },
+     {
+      "text": "A balance is necessarily identical to the latest single deposit.",
+      "truth": "false",
+      "explain": "It reflects the stated account position, not just one movement."
+     },
+     {
+      "text": "Knowing an abbreviation authorises use of someone else's card.",
+      "truth": "false",
+      "explain": "Vocabulary knowledge supplies no permission to access an account."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

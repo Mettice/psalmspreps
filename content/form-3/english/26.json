@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-26",
+   "name": "Discussing the management of people, time and money"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Planning assigns tasks, orders activities and checks resources. Delegation gives a suitable task to someone with a clear understanding of it; coordination helps related tasks fit together. A deadline states when work is due. A budget compares expected resources with planned uses. None guarantees success without checking progress. This lesson uses a fictional club rather than advising on a real household's finances or giving pupils authority over others.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Planning assigns tasks, orders activities and checks resources. Delegation gives a suitable task to someone with a clear understanding of it; coordination helps related tasks fit together. A deadline states when work is due. A budget compares expected resources with planned uses. None guarantees success without checking progress. This lesson uses a fictional club rather than advising on a real household's finances or giving pupils authority over others."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original dialogue: A club plans an exhibition. Bih asks who will label the displays, while Ayuk checks that labels are ready before visitors arrive. Members compare expected contributions with planned material costs. They reserve time to review progress and adjust a task if someone needs help. Giving orders without checking understanding would not provide the same coordination."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the goal, tasks, responsible people, timing and resources. Ask a clear question when an instruction is uncertain. Explain how one task depends on another. A plan should be reviewed when circumstances change rather than treated as a guarantee."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "delegation",
+    "meaning": "assigning a suitable task with clear responsibility"
+   },
+   {
+    "word": "coordination",
+    "meaning": "arranging related activities so they fit together"
+   },
+   {
+    "word": "deadline",
+    "meaning": "the time by which an activity should be completed"
+   },
+   {
+    "word": "budget",
+    "meaning": "a plan comparing resources with proposed uses"
+   }
+  ],
+  "examples": [
+   "Bih agrees to label the exhibition displays.",
+   "Labels are prepared before visitors need them.",
+   "Displays must be ready before the exhibition opens."
+  ],
+  "mistake": {
+   "wrong": "Delegation means assigning every task to nobody.",
+   "right": "delegation: assigning a suitable task with clear responsibility.",
+   "why": "A task needs an identified responsible person and clear instructions."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih agrees to label the exhibition displays. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Assigning a suitable task with clear responsibility.",
+   "A task needs an identified responsible person and clear instructions."
+  ],
+  "answer": "delegation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-26-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "delegation: assigning a suitable task with clear responsibility.",
+     "coordination: arranging related activities so they fit together.",
+     "deadline: the time by which an activity should be completed.",
+     "budget: a plan comparing resources with proposed uses."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-26-terms"
+    }
+   },
+   {
+    "id": "ce3-26-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Bih agrees to label the exhibition displays.",
+     "delegation: assigning a suitable task with clear responsibility."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-26-cases"
+    }
+   },
+   {
+    "id": "ce3-26-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Delegation means assigning every task to nobody.",
+     "A task needs an identified responsible person and clear instructions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-26-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "delegation: assigning a suitable task with clear responsibility.",
+        "truth": "true",
+        "explain": "This statement is correct: delegation means assigning a suitable task with clear responsibility. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "coordination: arranging related activities so they fit together.",
+        "truth": "true",
+        "explain": "This statement is correct: coordination means arranging related activities so they fit together. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "deadline: the time by which an activity should be completed.",
+        "truth": "true",
+        "explain": "This statement is correct: deadline means the time by which an activity should be completed. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "budget: a plan comparing resources with proposed uses.",
+        "truth": "true",
+        "explain": "This statement is correct: budget means a plan comparing resources with proposed uses. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Delegation means assigning every task to nobody.",
+        "truth": "false",
+        "explain": "A task needs an identified responsible person and clear instructions."
+       },
+       {
+        "text": "Related tasks never need to take account of one another.",
+        "truth": "false",
+        "explain": "Coordination checks dependencies and timing."
+       },
+       {
+        "text": "A deadline is the name of a person doing the task.",
+        "truth": "false",
+        "explain": "It states when work is due, not who performs it."
+       },
+       {
+        "text": "A budget guarantees that no unexpected cost can arise.",
+        "truth": "false",
+        "explain": "A plan supports decisions but needs review when circumstances change."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-26-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: assigning a suitable task with clear responsibility ?",
+       "r": "delegation",
+       "w": [
+        "coordination",
+        "deadline",
+        "budget"
+       ],
+       "e": [
+        "coordination means arranging related activities so they fit together; the question instead describes assigning a suitable task with clear responsibility.",
+        "deadline means the time by which an activity should be completed; the question instead describes assigning a suitable task with clear responsibility.",
+        "budget means a plan comparing resources with proposed uses; the question instead describes assigning a suitable task with clear responsibility."
+       ],
+       "y": "Assigning a suitable task with clear responsibility."
+      },
+      {
+       "q": "Which term means: arranging related activities so they fit together ?",
+       "r": "coordination",
+       "w": [
+        "delegation",
+        "deadline",
+        "budget"
+       ],
+       "e": [
+        "delegation means assigning a suitable task with clear responsibility; the question instead describes arranging related activities so they fit together.",
+        "deadline means the time by which an activity should be completed; the question instead describes arranging related activities so they fit together.",
+        "budget means a plan comparing resources with proposed uses; the question instead describes arranging related activities so they fit together."
+       ],
+       "y": "Arranging related activities so they fit together."
+      },
+      {
+       "q": "Which term means: the time by which an activity should be completed ?",
+       "r": "deadline",
+       "w": [
+        "delegation",
+        "coordination",
+        "budget"
+       ],
+       "e": [
+        "delegation means assigning a suitable task with clear responsibility; the question instead describes the time by which an activity should be completed.",
+        "coordination means arranging related activities so they fit together; the question instead describes the time by which an activity should be completed.",
+        "budget means a plan comparing resources with proposed uses; the question instead describes the time by which an activity should be completed."
+       ],
+       "y": "The time by which an activity should be completed."
+      },
+      {
+       "q": "Which term means: a plan comparing resources with proposed uses ?",
+       "r": "budget",
+       "w": [
+        "delegation",
+        "coordination",
+        "deadline"
+       ],
+       "e": [
+        "delegation means assigning a suitable task with clear responsibility; the question instead describes a plan comparing resources with proposed uses.",
+        "coordination means arranging related activities so they fit together; the question instead describes a plan comparing resources with proposed uses.",
+        "deadline means the time by which an activity should be completed; the question instead describes a plan comparing resources with proposed uses."
+       ],
+       "y": "A plan comparing resources with proposed uses."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-26-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih agrees to label the exhibition displays.\nWhich term best fits this example?",
+       "r": "delegation",
+       "w": [
+        "coordination",
+        "deadline",
+        "budget"
+       ],
+       "e": [
+        "coordination concerns arranging related activities so they fit together. This case instead illustrates assigning a suitable task with clear responsibility.",
+        "deadline concerns the time by which an activity should be completed. This case instead illustrates assigning a suitable task with clear responsibility.",
+        "budget concerns a plan comparing resources with proposed uses. This case instead illustrates assigning a suitable task with clear responsibility."
+       ],
+       "y": "Bih agrees to label the exhibition displays. Assigning a suitable task with clear responsibility."
+      },
+      {
+       "q": "Labels are prepared before visitors need them.\nWhich term best fits this example?",
+       "r": "coordination",
+       "w": [
+        "delegation",
+        "deadline",
+        "budget"
+       ],
+       "e": [
+        "delegation concerns assigning a suitable task with clear responsibility. This case instead illustrates arranging related activities so they fit together.",
+        "deadline concerns the time by which an activity should be completed. This case instead illustrates arranging related activities so they fit together.",
+        "budget concerns a plan comparing resources with proposed uses. This case instead illustrates arranging related activities so they fit together."
+       ],
+       "y": "Labels are prepared before visitors need them. Arranging related activities so they fit together."
+      },
+      {
+       "q": "Displays must be ready before the exhibition opens.\nWhich term best fits this example?",
+       "r": "deadline",
+       "w": [
+        "delegation",
+        "coordination",
+        "budget"
+       ],
+       "e": [
+        "delegation concerns assigning a suitable task with clear responsibility. This case instead illustrates the time by which an activity should be completed.",
+        "coordination concerns arranging related activities so they fit together. This case instead illustrates the time by which an activity should be completed.",
+        "budget concerns a plan comparing resources with proposed uses. This case instead illustrates the time by which an activity should be completed."
+       ],
+       "y": "Displays must be ready before the exhibition opens. The time by which an activity should be completed."
+      },
+      {
+       "q": "Members compare expected contributions with material costs.\nWhich term best fits this example?",
+       "r": "budget",
+       "w": [
+        "delegation",
+        "coordination",
+        "deadline"
+       ],
+       "e": [
+        "delegation concerns assigning a suitable task with clear responsibility. This case instead illustrates a plan comparing resources with proposed uses.",
+        "coordination concerns arranging related activities so they fit together. This case instead illustrates a plan comparing resources with proposed uses.",
+        "deadline concerns the time by which an activity should be completed. This case instead illustrates a plan comparing resources with proposed uses."
+       ],
+       "y": "Members compare expected contributions with material costs. A plan comparing resources with proposed uses."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-26-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih agrees to label the exhibition displays.\nWhich explanation justifies the classification?",
+       "r": "Assigning a suitable task with clear responsibility.",
+       "w": [
+        "Arranging related activities so they fit together.",
+        "The time by which an activity should be completed.",
+        "A plan comparing resources with proposed uses."
+       ],
+       "e": [
+        "That explanation describes coordination, rather than the relationship illustrated in this example.",
+        "That explanation describes deadline, rather than the relationship illustrated in this example.",
+        "That explanation describes budget, rather than the relationship illustrated in this example."
+       ],
+       "y": "A task needs an identified responsible person and clear instructions."
+      },
+      {
+       "q": "Labels are prepared before visitors need them.\nWhich explanation justifies the classification?",
+       "r": "Arranging related activities so they fit together.",
+       "w": [
+        "Assigning a suitable task with clear responsibility.",
+        "The time by which an activity should be completed.",
+        "A plan comparing resources with proposed uses."
+       ],
+       "e": [
+        "That explanation describes delegation, rather than the relationship illustrated in this example.",
+        "That explanation describes deadline, rather than the relationship illustrated in this example.",
+        "That explanation describes budget, rather than the relationship illustrated in this example."
+       ],
+       "y": "Coordination checks dependencies and timing."
+      },
+      {
+       "q": "Displays must be ready before the exhibition opens.\nWhich explanation justifies the classification?",
+       "r": "The time by which an activity should be completed.",
+       "w": [
+        "Assigning a suitable task with clear responsibility.",
+        "Arranging related activities so they fit together.",
+        "A plan comparing resources with proposed uses."
+       ],
+       "e": [
+        "That explanation describes delegation, rather than the relationship illustrated in this example.",
+        "That explanation describes coordination, rather than the relationship illustrated in this example.",
+        "That explanation describes budget, rather than the relationship illustrated in this example."
+       ],
+       "y": "It states when work is due, not who performs it."
+      },
+      {
+       "q": "Members compare expected contributions with material costs.\nWhich explanation justifies the classification?",
+       "r": "A plan comparing resources with proposed uses.",
+       "w": [
+        "Assigning a suitable task with clear responsibility.",
+        "Arranging related activities so they fit together.",
+        "The time by which an activity should be completed."
+       ],
+       "e": [
+        "That explanation describes delegation, rather than the relationship illustrated in this example.",
+        "That explanation describes coordination, rather than the relationship illustrated in this example.",
+        "That explanation describes deadline, rather than the relationship illustrated in this example."
+       ],
+       "y": "A plan supports decisions but needs review when circumstances change."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-26-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "delegation",
+     "right": "Bih agrees to label the exhibition displays."
+    },
+    {
+     "left": "coordination",
+     "right": "Labels are prepared before visitors need them."
+    },
+    {
+     "left": "deadline",
+     "right": "Displays must be ready before the exhibition opens."
+    },
+    {
+     "left": "budget",
+     "right": "Members compare expected contributions with material costs."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-26-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "delegation: assigning a suitable task with clear responsibility.",
+      "truth": "true",
+      "explain": "This statement is correct: delegation means assigning a suitable task with clear responsibility. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "coordination: arranging related activities so they fit together.",
+      "truth": "true",
+      "explain": "This statement is correct: coordination means arranging related activities so they fit together. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "deadline: the time by which an activity should be completed.",
+      "truth": "true",
+      "explain": "This statement is correct: deadline means the time by which an activity should be completed. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "budget: a plan comparing resources with proposed uses.",
+      "truth": "true",
+      "explain": "This statement is correct: budget means a plan comparing resources with proposed uses. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Delegation means assigning every task to nobody.",
+      "truth": "false",
+      "explain": "A task needs an identified responsible person and clear instructions."
+     },
+     {
+      "text": "Related tasks never need to take account of one another.",
+      "truth": "false",
+      "explain": "Coordination checks dependencies and timing."
+     },
+     {
+      "text": "A deadline is the name of a person doing the task.",
+      "truth": "false",
+      "explain": "It states when work is due, not who performs it."
+     },
+     {
+      "text": "A budget guarantees that no unexpected cost can arise.",
+      "truth": "false",
+      "explain": "A plan supports decisions but needs review when circumstances change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

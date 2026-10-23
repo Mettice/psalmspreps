@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-5",
+   "name": "Discussing ways of studying"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A useful discussion develops a suggestion with a reason, listens to another view and reaches a practical decision. Active recall means trying to retrieve information before checking a source; rereading means looking over it again. Both can have a role, but recognising a sentence is not the same as being able to explain it unaided. This is written preparation for speaking and listening; the screen cannot assess a learner's voice or listening comprehension.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A useful discussion develops a suggestion with a reason, listens to another view and reaches a practical decision. Active recall means trying to retrieve information before checking a source; rereading means looking over it again. Both can have a role, but recognising a sentence is not the same as being able to explain it unaided. This is written preparation for speaking and listening; the screen cannot assess a learner's voice or listening comprehension."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original dialogue: Bih says, I remember definitions while reading but cannot explain them later. Ayuk replies, Try closing the book and explaining one idea, then check what you missed. Bih asks, Could we practise together after chores? Ayuk agrees to alternate questions and give reasons for corrections. Their plan includes practice and feedback rather than copying answers."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "State a difficulty, suggest an action and explain why it may help. Invite a response with a specific question. When preparing a spoken exchange, write short turns and rehearse with a partner if available. Disagreement should address the method, not insult the speaker."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "active recall",
+    "meaning": "retrieving an idea before checking the source"
+   },
+   {
+    "word": "clarifying question",
+    "meaning": "a question seeking a clearer explanation"
+   },
+   {
+    "word": "reasoned suggestion",
+    "meaning": "a proposed action supported by an explanation"
+   },
+   {
+    "word": "constructive feedback",
+    "meaning": "a correction explaining what to improve"
+   }
+  ],
+  "examples": [
+   "Bih closes the book and explains a definition from memory.",
+   "Could you show how to check a recalled answer?",
+   "Try explaining aloud because it can reveal gaps."
+  ],
+  "mistake": {
+   "wrong": "Recognising a sentence while looking at it is always unaided recall.",
+   "right": "active recall: retrieving an idea before checking the source.",
+   "why": "Recall requires attempting retrieval without the answer in view."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih closes the book and explains a definition from memory. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Retrieving an idea before checking the source.",
+   "Recall requires attempting retrieval without the answer in view."
+  ],
+  "answer": "active recall",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-5-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "active recall: retrieving an idea before checking the source.",
+     "clarifying question: a question seeking a clearer explanation.",
+     "reasoned suggestion: a proposed action supported by an explanation.",
+     "constructive feedback: a correction explaining what to improve."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-5-terms"
+    }
+   },
+   {
+    "id": "ce3-5-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Bih closes the book and explains a definition from memory.",
+     "active recall: retrieving an idea before checking the source."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-5-cases"
+    }
+   },
+   {
+    "id": "ce3-5-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Recognising a sentence while looking at it is always unaided recall.",
+     "Recall requires attempting retrieval without the answer in view."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-5-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "active recall: retrieving an idea before checking the source.",
+        "truth": "true",
+        "explain": "This statement is correct: active recall means retrieving an idea before checking the source. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "clarifying question: a question seeking a clearer explanation.",
+        "truth": "true",
+        "explain": "This statement is correct: clarifying question means a question seeking a clearer explanation. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "reasoned suggestion: a proposed action supported by an explanation.",
+        "truth": "true",
+        "explain": "This statement is correct: reasoned suggestion means a proposed action supported by an explanation. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "constructive feedback: a correction explaining what to improve.",
+        "truth": "true",
+        "explain": "This statement is correct: constructive feedback means a correction explaining what to improve. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Recognising a sentence while looking at it is always unaided recall.",
+        "truth": "false",
+        "explain": "Recall requires attempting retrieval without the answer in view."
+       },
+       {
+        "text": "A clarifying question must change to an unrelated topic.",
+        "truth": "false",
+        "explain": "It helps make the current idea clearer."
+       },
+       {
+        "text": "A suggestion needs no explanation even when asked why it may help.",
+        "truth": "false",
+        "explain": "A reason connects the proposed action with its purpose."
+       },
+       {
+        "text": "Calling a learner stupid explains the missing idea.",
+        "truth": "false",
+        "explain": "Useful feedback identifies the work to improve without insulting the learner."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-5-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: retrieving an idea before checking the source ?",
+       "r": "active recall",
+       "w": [
+        "clarifying question",
+        "reasoned suggestion",
+        "constructive feedback"
+       ],
+       "e": [
+        "clarifying question means a question seeking a clearer explanation; the question instead describes retrieving an idea before checking the source.",
+        "reasoned suggestion means a proposed action supported by an explanation; the question instead describes retrieving an idea before checking the source.",
+        "constructive feedback means a correction explaining what to improve; the question instead describes retrieving an idea before checking the source."
+       ],
+       "y": "Retrieving an idea before checking the source."
+      },
+      {
+       "q": "Which term means: a question seeking a clearer explanation ?",
+       "r": "clarifying question",
+       "w": [
+        "active recall",
+        "reasoned suggestion",
+        "constructive feedback"
+       ],
+       "e": [
+        "active recall means retrieving an idea before checking the source; the question instead describes a question seeking a clearer explanation.",
+        "reasoned suggestion means a proposed action supported by an explanation; the question instead describes a question seeking a clearer explanation.",
+        "constructive feedback means a correction explaining what to improve; the question instead describes a question seeking a clearer explanation."
+       ],
+       "y": "A question seeking a clearer explanation."
+      },
+      {
+       "q": "Which term means: a proposed action supported by an explanation ?",
+       "r": "reasoned suggestion",
+       "w": [
+        "active recall",
+        "clarifying question",
+        "constructive feedback"
+       ],
+       "e": [
+        "active recall means retrieving an idea before checking the source; the question instead describes a proposed action supported by an explanation.",
+        "clarifying question means a question seeking a clearer explanation; the question instead describes a proposed action supported by an explanation.",
+        "constructive feedback means a correction explaining what to improve; the question instead describes a proposed action supported by an explanation."
+       ],
+       "y": "A proposed action supported by an explanation."
+      },
+      {
+       "q": "Which term means: a correction explaining what to improve ?",
+       "r": "constructive feedback",
+       "w": [
+        "active recall",
+        "clarifying question",
+        "reasoned suggestion"
+       ],
+       "e": [
+        "active recall means retrieving an idea before checking the source; the question instead describes a correction explaining what to improve.",
+        "clarifying question means a question seeking a clearer explanation; the question instead describes a correction explaining what to improve.",
+        "reasoned suggestion means a proposed action supported by an explanation; the question instead describes a correction explaining what to improve."
+       ],
+       "y": "A correction explaining what to improve."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-5-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih closes the book and explains a definition from memory.\nWhich term best fits this example?",
+       "r": "active recall",
+       "w": [
+        "clarifying question",
+        "reasoned suggestion",
+        "constructive feedback"
+       ],
+       "e": [
+        "clarifying question concerns a question seeking a clearer explanation. This case instead illustrates retrieving an idea before checking the source.",
+        "reasoned suggestion concerns a proposed action supported by an explanation. This case instead illustrates retrieving an idea before checking the source.",
+        "constructive feedback concerns a correction explaining what to improve. This case instead illustrates retrieving an idea before checking the source."
+       ],
+       "y": "Bih closes the book and explains a definition from memory. Retrieving an idea before checking the source."
+      },
+      {
+       "q": "Could you show how to check a recalled answer?\nWhich term best fits this example?",
+       "r": "clarifying question",
+       "w": [
+        "active recall",
+        "reasoned suggestion",
+        "constructive feedback"
+       ],
+       "e": [
+        "active recall concerns retrieving an idea before checking the source. This case instead illustrates a question seeking a clearer explanation.",
+        "reasoned suggestion concerns a proposed action supported by an explanation. This case instead illustrates a question seeking a clearer explanation.",
+        "constructive feedback concerns a correction explaining what to improve. This case instead illustrates a question seeking a clearer explanation."
+       ],
+       "y": "Could you show how to check a recalled answer? A question seeking a clearer explanation."
+      },
+      {
+       "q": "Try explaining aloud because it can reveal gaps.\nWhich term best fits this example?",
+       "r": "reasoned suggestion",
+       "w": [
+        "active recall",
+        "clarifying question",
+        "constructive feedback"
+       ],
+       "e": [
+        "active recall concerns retrieving an idea before checking the source. This case instead illustrates a proposed action supported by an explanation.",
+        "clarifying question concerns a question seeking a clearer explanation. This case instead illustrates a proposed action supported by an explanation.",
+        "constructive feedback concerns a correction explaining what to improve. This case instead illustrates a proposed action supported by an explanation."
+       ],
+       "y": "Try explaining aloud because it can reveal gaps. A proposed action supported by an explanation."
+      },
+      {
+       "q": "Ayuk identifies the missing idea and asks Bih to try again.\nWhich term best fits this example?",
+       "r": "constructive feedback",
+       "w": [
+        "active recall",
+        "clarifying question",
+        "reasoned suggestion"
+       ],
+       "e": [
+        "active recall concerns retrieving an idea before checking the source. This case instead illustrates a correction explaining what to improve.",
+        "clarifying question concerns a question seeking a clearer explanation. This case instead illustrates a correction explaining what to improve.",
+        "reasoned suggestion concerns a proposed action supported by an explanation. This case instead illustrates a correction explaining what to improve."
+       ],
+       "y": "Ayuk identifies the missing idea and asks Bih to try again. A correction explaining what to improve."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-5-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih closes the book and explains a definition from memory.\nWhich explanation justifies the classification?",
+       "r": "Retrieving an idea before checking the source.",
+       "w": [
+        "A question seeking a clearer explanation.",
+        "A proposed action supported by an explanation.",
+        "A correction explaining what to improve."
+       ],
+       "e": [
+        "That explanation describes clarifying question, rather than the relationship illustrated in this example.",
+        "That explanation describes reasoned suggestion, rather than the relationship illustrated in this example.",
+        "That explanation describes constructive feedback, rather than the relationship illustrated in this example."
+       ],
+       "y": "Recall requires attempting retrieval without the answer in view."
+      },
+      {
+       "q": "Could you show how to check a recalled answer?\nWhich explanation justifies the classification?",
+       "r": "A question seeking a clearer explanation.",
+       "w": [
+        "Retrieving an idea before checking the source.",
+        "A proposed action supported by an explanation.",
+        "A correction explaining what to improve."
+       ],
+       "e": [
+        "That explanation describes active recall, rather than the relationship illustrated in this example.",
+        "That explanation describes reasoned suggestion, rather than the relationship illustrated in this example.",
+        "That explanation describes constructive feedback, rather than the relationship illustrated in this example."
+       ],
+       "y": "It helps make the current idea clearer."
+      },
+      {
+       "q": "Try explaining aloud because it can reveal gaps.\nWhich explanation justifies the classification?",
+       "r": "A proposed action supported by an explanation.",
+       "w": [
+        "Retrieving an idea before checking the source.",
+        "A question seeking a clearer explanation.",
+        "A correction explaining what to improve."
+       ],
+       "e": [
+        "That explanation describes active recall, rather than the relationship illustrated in this example.",
+        "That explanation describes clarifying question, rather than the relationship illustrated in this example.",
+        "That explanation describes constructive feedback, rather than the relationship illustrated in this example."
+       ],
+       "y": "A reason connects the proposed action with its purpose."
+      },
+      {
+       "q": "Ayuk identifies the missing idea and asks Bih to try again.\nWhich explanation justifies the classification?",
+       "r": "A correction explaining what to improve.",
+       "w": [
+        "Retrieving an idea before checking the source.",
+        "A question seeking a clearer explanation.",
+        "A proposed action supported by an explanation."
+       ],
+       "e": [
+        "That explanation describes active recall, rather than the relationship illustrated in this example.",
+        "That explanation describes clarifying question, rather than the relationship illustrated in this example.",
+        "That explanation describes reasoned suggestion, rather than the relationship illustrated in this example."
+       ],
+       "y": "Useful feedback identifies the work to improve without insulting the learner."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-5-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "active recall",
+     "right": "Bih closes the book and explains a definition from memory."
+    },
+    {
+     "left": "clarifying question",
+     "right": "Could you show how to check a recalled answer?"
+    },
+    {
+     "left": "reasoned suggestion",
+     "right": "Try explaining aloud because it can reveal gaps."
+    },
+    {
+     "left": "constructive feedback",
+     "right": "Ayuk identifies the missing idea and asks Bih to try again."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-5-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "active recall: retrieving an idea before checking the source.",
+      "truth": "true",
+      "explain": "This statement is correct: active recall means retrieving an idea before checking the source. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "clarifying question: a question seeking a clearer explanation.",
+      "truth": "true",
+      "explain": "This statement is correct: clarifying question means a question seeking a clearer explanation. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "reasoned suggestion: a proposed action supported by an explanation.",
+      "truth": "true",
+      "explain": "This statement is correct: reasoned suggestion means a proposed action supported by an explanation. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "constructive feedback: a correction explaining what to improve.",
+      "truth": "true",
+      "explain": "This statement is correct: constructive feedback means a correction explaining what to improve. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Recognising a sentence while looking at it is always unaided recall.",
+      "truth": "false",
+      "explain": "Recall requires attempting retrieval without the answer in view."
+     },
+     {
+      "text": "A clarifying question must change to an unrelated topic.",
+      "truth": "false",
+      "explain": "It helps make the current idea clearer."
+     },
+     {
+      "text": "A suggestion needs no explanation even when asked why it may help.",
+      "truth": "false",
+      "explain": "A reason connects the proposed action with its purpose."
+     },
+     {
+      "text": "Calling a learner stupid explains the missing idea.",
+      "truth": "false",
+      "explain": "Useful feedback identifies the work to improve without insulting the learner."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

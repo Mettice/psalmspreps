@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-12",
+   "name": "Connectives expressing addition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Addition connectives link information without necessarily showing a cause or contrast. And joins similar grammatical units. Also commonly adds a point within a clause. Moreover and furthermore can add a further point between clauses or sentences. As well as adds related information, but its structure is not always interchangeable with and. Keep parallel forms and suitable punctuation. A word such as because introduces a reason, not merely an additional point.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Addition connectives link information without necessarily showing a cause or contrast. And joins similar grammatical units. Also commonly adds a point within a clause. Moreover and furthermore can add a further point between clauses or sentences. As well as adds related information, but its structure is not always interchangeable with and. Keep parallel forms and suitable punctuation. A word such as because introduces a reason, not merely an additional point."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "The school club reads stories and discusses them. It also keeps a reading journal. Moreover, members help younger pupils choose books. Each sentence adds information about the club. Replacing moreover with therefore would claim a result relationship that the writer has not established."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Ask what relationship the writer intends. Link words to words and clauses to clauses without creating fragments. Do not use a comma alone to join full sentences simply because an addition adverb appears. Read the result aloud with a partner if possible; the written task checks structure, not pronunciation."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "and",
+    "meaning": "a coordinator adding parallel elements"
+   },
+   {
+    "word": "also",
+    "meaning": "an adverb adding another point"
+   },
+   {
+    "word": "furthermore",
+    "meaning": "a connector adding a further supporting point"
+   },
+   {
+    "word": "because",
+    "meaning": "a connector giving a reason rather than simple addition"
+   }
+  ],
+  "examples": [
+   "The club reads and discusses stories.",
+   "The club also keeps a journal.",
+   "The room is quiet. Furthermore, it has useful books."
+  ],
+  "mistake": {
+   "wrong": "The club reads and discussion stories.",
+   "right": "and: a coordinator adding parallel elements.",
+   "why": "Join parallel forms: reads and discusses, not a verb and an unmatched noun."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The club reads and discusses stories. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A coordinator adding parallel elements.",
+   "Join parallel forms: reads and discusses, not a verb and an unmatched noun."
+  ],
+  "answer": "and",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-12-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "and: a coordinator adding parallel elements.",
+     "also: an adverb adding another point.",
+     "furthermore: a connector adding a further supporting point.",
+     "because: a connector giving a reason rather than simple addition."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-12-terms"
+    }
+   },
+   {
+    "id": "ce3-12-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The club reads and discusses stories.",
+     "and: a coordinator adding parallel elements."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-12-cases"
+    }
+   },
+   {
+    "id": "ce3-12-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "The club reads and discussion stories.",
+     "Join parallel forms: reads and discusses, not a verb and an unmatched noun."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-12-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "and: a coordinator adding parallel elements.",
+        "truth": "true",
+        "explain": "This statement is correct: and means a coordinator adding parallel elements. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "also: an adverb adding another point.",
+        "truth": "true",
+        "explain": "This statement is correct: also means an adverb adding another point. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "furthermore: a connector adding a further supporting point.",
+        "truth": "true",
+        "explain": "This statement is correct: furthermore means a connector adding a further supporting point. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "because: a connector giving a reason rather than simple addition.",
+        "truth": "true",
+        "explain": "This statement is correct: because means a connector giving a reason rather than simple addition. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The club reads and discussion stories.",
+        "truth": "false",
+        "explain": "Join parallel forms: reads and discusses, not a verb and an unmatched noun."
+       },
+       {
+        "text": "Also necessarily means that the first event caused the second.",
+        "truth": "false",
+        "explain": "Also adds information without by itself proving cause."
+       },
+       {
+        "text": "Furthermore always introduces the opposite view.",
+        "truth": "false",
+        "explain": "It adds a point; however more commonly marks contrast."
+       },
+       {
+        "text": "Because and also always express exactly the same relationship.",
+        "truth": "false",
+        "explain": "Because introduces a reason; also adds information."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a coordinator adding parallel elements ?",
+       "r": "and",
+       "w": [
+        "also",
+        "furthermore",
+        "because"
+       ],
+       "e": [
+        "also means an adverb adding another point; the question instead describes a coordinator adding parallel elements.",
+        "furthermore means a connector adding a further supporting point; the question instead describes a coordinator adding parallel elements.",
+        "because means a connector giving a reason rather than simple addition; the question instead describes a coordinator adding parallel elements."
+       ],
+       "y": "A coordinator adding parallel elements."
+      },
+      {
+       "q": "Which term means: an adverb adding another point ?",
+       "r": "also",
+       "w": [
+        "and",
+        "furthermore",
+        "because"
+       ],
+       "e": [
+        "and means a coordinator adding parallel elements; the question instead describes an adverb adding another point.",
+        "furthermore means a connector adding a further supporting point; the question instead describes an adverb adding another point.",
+        "because means a connector giving a reason rather than simple addition; the question instead describes an adverb adding another point."
+       ],
+       "y": "An adverb adding another point."
+      },
+      {
+       "q": "Which term means: a connector adding a further supporting point ?",
+       "r": "furthermore",
+       "w": [
+        "and",
+        "also",
+        "because"
+       ],
+       "e": [
+        "and means a coordinator adding parallel elements; the question instead describes a connector adding a further supporting point.",
+        "also means an adverb adding another point; the question instead describes a connector adding a further supporting point.",
+        "because means a connector giving a reason rather than simple addition; the question instead describes a connector adding a further supporting point."
+       ],
+       "y": "A connector adding a further supporting point."
+      },
+      {
+       "q": "Which term means: a connector giving a reason rather than simple addition ?",
+       "r": "because",
+       "w": [
+        "and",
+        "also",
+        "furthermore"
+       ],
+       "e": [
+        "and means a coordinator adding parallel elements; the question instead describes a connector giving a reason rather than simple addition.",
+        "also means an adverb adding another point; the question instead describes a connector giving a reason rather than simple addition.",
+        "furthermore means a connector adding a further supporting point; the question instead describes a connector giving a reason rather than simple addition."
+       ],
+       "y": "A connector giving a reason rather than simple addition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The club reads and discusses stories.\nWhich term best fits this example?",
+       "r": "and",
+       "w": [
+        "also",
+        "furthermore",
+        "because"
+       ],
+       "e": [
+        "also concerns an adverb adding another point. This case instead illustrates a coordinator adding parallel elements.",
+        "furthermore concerns a connector adding a further supporting point. This case instead illustrates a coordinator adding parallel elements.",
+        "because concerns a connector giving a reason rather than simple addition. This case instead illustrates a coordinator adding parallel elements."
+       ],
+       "y": "The club reads and discusses stories. A coordinator adding parallel elements."
+      },
+      {
+       "q": "The club also keeps a journal.\nWhich term best fits this example?",
+       "r": "also",
+       "w": [
+        "and",
+        "furthermore",
+        "because"
+       ],
+       "e": [
+        "and concerns a coordinator adding parallel elements. This case instead illustrates an adverb adding another point.",
+        "furthermore concerns a connector adding a further supporting point. This case instead illustrates an adverb adding another point.",
+        "because concerns a connector giving a reason rather than simple addition. This case instead illustrates an adverb adding another point."
+       ],
+       "y": "The club also keeps a journal. An adverb adding another point."
+      },
+      {
+       "q": "The room is quiet. Furthermore, it has useful books.\nWhich term best fits this example?",
+       "r": "furthermore",
+       "w": [
+        "and",
+        "also",
+        "because"
+       ],
+       "e": [
+        "and concerns a coordinator adding parallel elements. This case instead illustrates a connector adding a further supporting point.",
+        "also concerns an adverb adding another point. This case instead illustrates a connector adding a further supporting point.",
+        "because concerns a connector giving a reason rather than simple addition. This case instead illustrates a connector adding a further supporting point."
+       ],
+       "y": "The room is quiet. Furthermore, it has useful books. A connector adding a further supporting point."
+      },
+      {
+       "q": "Members meet indoors because it is raining.\nWhich term best fits this example?",
+       "r": "because",
+       "w": [
+        "and",
+        "also",
+        "furthermore"
+       ],
+       "e": [
+        "and concerns a coordinator adding parallel elements. This case instead illustrates a connector giving a reason rather than simple addition.",
+        "also concerns an adverb adding another point. This case instead illustrates a connector giving a reason rather than simple addition.",
+        "furthermore concerns a connector adding a further supporting point. This case instead illustrates a connector giving a reason rather than simple addition."
+       ],
+       "y": "Members meet indoors because it is raining. A connector giving a reason rather than simple addition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-12-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The club reads and discusses stories.\nWhich explanation justifies the classification?",
+       "r": "A coordinator adding parallel elements.",
+       "w": [
+        "An adverb adding another point.",
+        "A connector adding a further supporting point.",
+        "A connector giving a reason rather than simple addition."
+       ],
+       "e": [
+        "That explanation describes also, rather than the relationship illustrated in this example.",
+        "That explanation describes furthermore, rather than the relationship illustrated in this example.",
+        "That explanation describes because, rather than the relationship illustrated in this example."
+       ],
+       "y": "Join parallel forms: reads and discusses, not a verb and an unmatched noun."
+      },
+      {
+       "q": "The club also keeps a journal.\nWhich explanation justifies the classification?",
+       "r": "An adverb adding another point.",
+       "w": [
+        "A coordinator adding parallel elements.",
+        "A connector adding a further supporting point.",
+        "A connector giving a reason rather than simple addition."
+       ],
+       "e": [
+        "That explanation describes and, rather than the relationship illustrated in this example.",
+        "That explanation describes furthermore, rather than the relationship illustrated in this example.",
+        "That explanation describes because, rather than the relationship illustrated in this example."
+       ],
+       "y": "Also adds information without by itself proving cause."
+      },
+      {
+       "q": "The room is quiet. Furthermore, it has useful books.\nWhich explanation justifies the classification?",
+       "r": "A connector adding a further supporting point.",
+       "w": [
+        "A coordinator adding parallel elements.",
+        "An adverb adding another point.",
+        "A connector giving a reason rather than simple addition."
+       ],
+       "e": [
+        "That explanation describes and, rather than the relationship illustrated in this example.",
+        "That explanation describes also, rather than the relationship illustrated in this example.",
+        "That explanation describes because, rather than the relationship illustrated in this example."
+       ],
+       "y": "It adds a point; however more commonly marks contrast."
+      },
+      {
+       "q": "Members meet indoors because it is raining.\nWhich explanation justifies the classification?",
+       "r": "A connector giving a reason rather than simple addition.",
+       "w": [
+        "A coordinator adding parallel elements.",
+        "An adverb adding another point.",
+        "A connector adding a further supporting point."
+       ],
+       "e": [
+        "That explanation describes and, rather than the relationship illustrated in this example.",
+        "That explanation describes also, rather than the relationship illustrated in this example.",
+        "That explanation describes furthermore, rather than the relationship illustrated in this example."
+       ],
+       "y": "Because introduces a reason; also adds information."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-12-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "and",
+     "right": "The club reads and discusses stories."
+    },
+    {
+     "left": "also",
+     "right": "The club also keeps a journal."
+    },
+    {
+     "left": "furthermore",
+     "right": "The room is quiet. Furthermore, it has useful books."
+    },
+    {
+     "left": "because",
+     "right": "Members meet indoors because it is raining."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-12-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "and: a coordinator adding parallel elements.",
+      "truth": "true",
+      "explain": "This statement is correct: and means a coordinator adding parallel elements. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "also: an adverb adding another point.",
+      "truth": "true",
+      "explain": "This statement is correct: also means an adverb adding another point. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "furthermore: a connector adding a further supporting point.",
+      "truth": "true",
+      "explain": "This statement is correct: furthermore means a connector adding a further supporting point. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "because: a connector giving a reason rather than simple addition.",
+      "truth": "true",
+      "explain": "This statement is correct: because means a connector giving a reason rather than simple addition. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The club reads and discussion stories.",
+      "truth": "false",
+      "explain": "Join parallel forms: reads and discusses, not a verb and an unmatched noun."
+     },
+     {
+      "text": "Also necessarily means that the first event caused the second.",
+      "truth": "false",
+      "explain": "Also adds information without by itself proving cause."
+     },
+     {
+      "text": "Furthermore always introduces the opposite view.",
+      "truth": "false",
+      "explain": "It adds a point; however more commonly marks contrast."
+     },
+     {
+      "text": "Because and also always express exactly the same relationship.",
+      "truth": "false",
+      "explain": "Because introduces a reason; also adds information."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

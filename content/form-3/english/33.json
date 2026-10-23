@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-33",
+   "name": "Comparing means of transport"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A comparison needs a purpose and criteria. Distance, cost, travel time, accessibility and the nature of a load can affect a choice. One means of transport is not automatically best for every journey. Use comparatives with a clear basis and qualify claims when evidence is limited. The original passage presents conditions for discussion; it does not supply current fares or route availability.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A comparison needs a purpose and criteria. Distance, cost, travel time, accessibility and the nature of a load can affect a choice. One means of transport is not automatically best for every journey. Use comparatives with a clear basis and qualify claims when evidence is limited. The original passage presents conditions for discussion; it does not supply current fares or route availability."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original passage: An imaginary club must carry bulky displays to a nearby hall. Walking suits members carrying light personal bags, but the bulky items need suitable arranged transport. A distant journey raises different questions about time, cost and access. The club checks the actual conditions before choosing rather than assuming that the fastest option on one route is best everywhere."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the traveller's goal and constraints. Compare the same feature across alternatives and explain a trade-off. Avoid unsupported universal claims such as buses are always fastest. State what further information would be needed for a real decision."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "criterion",
+    "meaning": "a feature used to compare options"
+   },
+   {
+    "word": "constraint",
+    "meaning": "a condition limiting feasible choices"
+   },
+   {
+    "word": "trade-off",
+    "meaning": "giving up one advantage to gain another"
+   },
+   {
+    "word": "qualified comparison",
+    "meaning": "a comparison limited to its evidence and setting"
+   }
+  ],
+  "examples": [
+   "The club compares transport by load capacity.",
+   "Bulky displays cannot be carried like light personal bags.",
+   "A cheaper option may require a longer journey."
+  ],
+  "mistake": {
+   "wrong": "A criterion is merely a random unrelated word.",
+   "right": "criterion: a feature used to compare options.",
+   "why": "It is a relevant basis for comparison."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The club compares transport by load capacity. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A feature used to compare options.",
+   "It is a relevant basis for comparison."
+  ],
+  "answer": "criterion",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-33-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "criterion: a feature used to compare options.",
+     "constraint: a condition limiting feasible choices.",
+     "trade-off: giving up one advantage to gain another.",
+     "qualified comparison: a comparison limited to its evidence and setting."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-33-terms"
+    }
+   },
+   {
+    "id": "ce3-33-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The club compares transport by load capacity.",
+     "criterion: a feature used to compare options."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-33-cases"
+    }
+   },
+   {
+    "id": "ce3-33-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A criterion is merely a random unrelated word.",
+     "It is a relevant basis for comparison."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-33-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "criterion: a feature used to compare options.",
+        "truth": "true",
+        "explain": "This statement is correct: criterion means a feature used to compare options. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "constraint: a condition limiting feasible choices.",
+        "truth": "true",
+        "explain": "This statement is correct: constraint means a condition limiting feasible choices. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "trade-off: giving up one advantage to gain another.",
+        "truth": "true",
+        "explain": "This statement is correct: trade-off means giving up one advantage to gain another. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "qualified comparison: a comparison limited to its evidence and setting.",
+        "truth": "true",
+        "explain": "This statement is correct: qualified comparison means a comparison limited to its evidence and setting. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A criterion is merely a random unrelated word.",
+        "truth": "false",
+        "explain": "It is a relevant basis for comparison."
+       },
+       {
+        "text": "A physical limit never affects transport choice.",
+        "truth": "false",
+        "explain": "A constraint can rule out an otherwise attractive option."
+       },
+       {
+        "text": "Every choice must maximise all advantages simultaneously.",
+        "truth": "false",
+        "explain": "Options can offer different combinations of benefits and costs."
+       },
+       {
+        "text": "One journey proves the best vehicle for every trip.",
+        "truth": "false",
+        "explain": "Keep the conclusion within the conditions actually described."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-33-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a feature used to compare options ?",
+       "r": "criterion",
+       "w": [
+        "constraint",
+        "trade-off",
+        "qualified comparison"
+       ],
+       "e": [
+        "constraint means a condition limiting feasible choices; the question instead describes a feature used to compare options.",
+        "trade-off means giving up one advantage to gain another; the question instead describes a feature used to compare options.",
+        "qualified comparison means a comparison limited to its evidence and setting; the question instead describes a feature used to compare options."
+       ],
+       "y": "A feature used to compare options."
+      },
+      {
+       "q": "Which term means: a condition limiting feasible choices ?",
+       "r": "constraint",
+       "w": [
+        "criterion",
+        "trade-off",
+        "qualified comparison"
+       ],
+       "e": [
+        "criterion means a feature used to compare options; the question instead describes a condition limiting feasible choices.",
+        "trade-off means giving up one advantage to gain another; the question instead describes a condition limiting feasible choices.",
+        "qualified comparison means a comparison limited to its evidence and setting; the question instead describes a condition limiting feasible choices."
+       ],
+       "y": "A condition limiting feasible choices."
+      },
+      {
+       "q": "Which term means: giving up one advantage to gain another ?",
+       "r": "trade-off",
+       "w": [
+        "criterion",
+        "constraint",
+        "qualified comparison"
+       ],
+       "e": [
+        "criterion means a feature used to compare options; the question instead describes giving up one advantage to gain another.",
+        "constraint means a condition limiting feasible choices; the question instead describes giving up one advantage to gain another.",
+        "qualified comparison means a comparison limited to its evidence and setting; the question instead describes giving up one advantage to gain another."
+       ],
+       "y": "Giving up one advantage to gain another."
+      },
+      {
+       "q": "Which term means: a comparison limited to its evidence and setting ?",
+       "r": "qualified comparison",
+       "w": [
+        "criterion",
+        "constraint",
+        "trade-off"
+       ],
+       "e": [
+        "criterion means a feature used to compare options; the question instead describes a comparison limited to its evidence and setting.",
+        "constraint means a condition limiting feasible choices; the question instead describes a comparison limited to its evidence and setting.",
+        "trade-off means giving up one advantage to gain another; the question instead describes a comparison limited to its evidence and setting."
+       ],
+       "y": "A comparison limited to its evidence and setting."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-33-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The club compares transport by load capacity.\nWhich term best fits this example?",
+       "r": "criterion",
+       "w": [
+        "constraint",
+        "trade-off",
+        "qualified comparison"
+       ],
+       "e": [
+        "constraint concerns a condition limiting feasible choices. This case instead illustrates a feature used to compare options.",
+        "trade-off concerns giving up one advantage to gain another. This case instead illustrates a feature used to compare options.",
+        "qualified comparison concerns a comparison limited to its evidence and setting. This case instead illustrates a feature used to compare options."
+       ],
+       "y": "The club compares transport by load capacity. A feature used to compare options."
+      },
+      {
+       "q": "Bulky displays cannot be carried like light personal bags.\nWhich term best fits this example?",
+       "r": "constraint",
+       "w": [
+        "criterion",
+        "trade-off",
+        "qualified comparison"
+       ],
+       "e": [
+        "criterion concerns a feature used to compare options. This case instead illustrates a condition limiting feasible choices.",
+        "trade-off concerns giving up one advantage to gain another. This case instead illustrates a condition limiting feasible choices.",
+        "qualified comparison concerns a comparison limited to its evidence and setting. This case instead illustrates a condition limiting feasible choices."
+       ],
+       "y": "Bulky displays cannot be carried like light personal bags. A condition limiting feasible choices."
+      },
+      {
+       "q": "A cheaper option may require a longer journey.\nWhich term best fits this example?",
+       "r": "trade-off",
+       "w": [
+        "criterion",
+        "constraint",
+        "qualified comparison"
+       ],
+       "e": [
+        "criterion concerns a feature used to compare options. This case instead illustrates giving up one advantage to gain another.",
+        "constraint concerns a condition limiting feasible choices. This case instead illustrates giving up one advantage to gain another.",
+        "qualified comparison concerns a comparison limited to its evidence and setting. This case instead illustrates giving up one advantage to gain another."
+       ],
+       "y": "A cheaper option may require a longer journey. Giving up one advantage to gain another."
+      },
+      {
+       "q": "For this stated load, suitable arranged transport is more practical.\nWhich term best fits this example?",
+       "r": "qualified comparison",
+       "w": [
+        "criterion",
+        "constraint",
+        "trade-off"
+       ],
+       "e": [
+        "criterion concerns a feature used to compare options. This case instead illustrates a comparison limited to its evidence and setting.",
+        "constraint concerns a condition limiting feasible choices. This case instead illustrates a comparison limited to its evidence and setting.",
+        "trade-off concerns giving up one advantage to gain another. This case instead illustrates a comparison limited to its evidence and setting."
+       ],
+       "y": "For this stated load, suitable arranged transport is more practical. A comparison limited to its evidence and setting."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-33-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The club compares transport by load capacity.\nWhich explanation justifies the classification?",
+       "r": "A feature used to compare options.",
+       "w": [
+        "A condition limiting feasible choices.",
+        "Giving up one advantage to gain another.",
+        "A comparison limited to its evidence and setting."
+       ],
+       "e": [
+        "That explanation describes constraint, rather than the relationship illustrated in this example.",
+        "That explanation describes trade-off, rather than the relationship illustrated in this example.",
+        "That explanation describes qualified comparison, rather than the relationship illustrated in this example."
+       ],
+       "y": "It is a relevant basis for comparison."
+      },
+      {
+       "q": "Bulky displays cannot be carried like light personal bags.\nWhich explanation justifies the classification?",
+       "r": "A condition limiting feasible choices.",
+       "w": [
+        "A feature used to compare options.",
+        "Giving up one advantage to gain another.",
+        "A comparison limited to its evidence and setting."
+       ],
+       "e": [
+        "That explanation describes criterion, rather than the relationship illustrated in this example.",
+        "That explanation describes trade-off, rather than the relationship illustrated in this example.",
+        "That explanation describes qualified comparison, rather than the relationship illustrated in this example."
+       ],
+       "y": "A constraint can rule out an otherwise attractive option."
+      },
+      {
+       "q": "A cheaper option may require a longer journey.\nWhich explanation justifies the classification?",
+       "r": "Giving up one advantage to gain another.",
+       "w": [
+        "A feature used to compare options.",
+        "A condition limiting feasible choices.",
+        "A comparison limited to its evidence and setting."
+       ],
+       "e": [
+        "That explanation describes criterion, rather than the relationship illustrated in this example.",
+        "That explanation describes constraint, rather than the relationship illustrated in this example.",
+        "That explanation describes qualified comparison, rather than the relationship illustrated in this example."
+       ],
+       "y": "Options can offer different combinations of benefits and costs."
+      },
+      {
+       "q": "For this stated load, suitable arranged transport is more practical.\nWhich explanation justifies the classification?",
+       "r": "A comparison limited to its evidence and setting.",
+       "w": [
+        "A feature used to compare options.",
+        "A condition limiting feasible choices.",
+        "Giving up one advantage to gain another."
+       ],
+       "e": [
+        "That explanation describes criterion, rather than the relationship illustrated in this example.",
+        "That explanation describes constraint, rather than the relationship illustrated in this example.",
+        "That explanation describes trade-off, rather than the relationship illustrated in this example."
+       ],
+       "y": "Keep the conclusion within the conditions actually described."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-33-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "criterion",
+     "right": "The club compares transport by load capacity."
+    },
+    {
+     "left": "constraint",
+     "right": "Bulky displays cannot be carried like light personal bags."
+    },
+    {
+     "left": "trade-off",
+     "right": "A cheaper option may require a longer journey."
+    },
+    {
+     "left": "qualified comparison",
+     "right": "For this stated load, suitable arranged transport is more practical."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-33-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "criterion: a feature used to compare options.",
+      "truth": "true",
+      "explain": "This statement is correct: criterion means a feature used to compare options. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "constraint: a condition limiting feasible choices.",
+      "truth": "true",
+      "explain": "This statement is correct: constraint means a condition limiting feasible choices. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "trade-off: giving up one advantage to gain another.",
+      "truth": "true",
+      "explain": "This statement is correct: trade-off means giving up one advantage to gain another. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "qualified comparison: a comparison limited to its evidence and setting.",
+      "truth": "true",
+      "explain": "This statement is correct: qualified comparison means a comparison limited to its evidence and setting. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A criterion is merely a random unrelated word.",
+      "truth": "false",
+      "explain": "It is a relevant basis for comparison."
+     },
+     {
+      "text": "A physical limit never affects transport choice.",
+      "truth": "false",
+      "explain": "A constraint can rule out an otherwise attractive option."
+     },
+     {
+      "text": "Every choice must maximise all advantages simultaneously.",
+      "truth": "false",
+      "explain": "Options can offer different combinations of benefits and costs."
+     },
+     {
+      "text": "One journey proves the best vehicle for every trip.",
+      "truth": "false",
+      "explain": "Keep the conclusion within the conditions actually described."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

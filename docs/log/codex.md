@@ -31,3 +31,10 @@ Append one entry per session (see docs/AUTHORING.md, section 10).
 - Reference summaries include Cameroon MINREX, German Foreign Office archive, bpb, Smithsonian, scholarly histories and historical Hansard. No invented quotation is assigned to a historical person.
 - Not checked/unfinished depth: teacher approval and detailed Mamfe/Bangwa/Nso campaign coverage. Row 10 is introductory and needs the approved course text before claiming full exam coverage; see TR-history-4. Other contested taxonomy and chronology items are listed for review.
 - Remaining assigned subjects: English, French and Français intensif. Prescribed literature selection is pending; the three ambiguous French/FI rows remain pending by user instruction.
+
+## 2026-10-23 — Form Three English, Term One
+
+- Authored rows 2–39 (38 lessons); diagnostic row 1 excluded. Every lesson has Learn, five question templates, 3+ content variants and specific feedback. Writing rows include original models and paper tasks; schedule duration and money exercises are computed.
+- Checked: npm test — 5100 pass; extra content checks — 38 pass; real Edge at 360 × 800 — 38/38 lessons clean, zero errors/overflow. Inspected the first Learn page and generated REVIEW/AUTHORED documents.
+- Not checked: live speech/listening or teacher/examination approval. Pronunciation rows cover written sound-symbol recognition only, with audio/teacher practice still needed. Sensitive discussions require no personal disclosure; see TR-english-1–5.
+- Remaining: French and Français intensif; prescribed FI literary works await user selection. French row 18 and FI rows 40/45 stay pending teacher clarification by user instruction. History row 10's detailed regional campaigns still require the approved course text.

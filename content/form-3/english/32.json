@@ -1,0 +1,613 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-32",
+   "name": "Preparing a model cheque or payment order"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A payment form may request a date, payee, amount in figures, amount in words and an authorised signature. Exact layouts and rules differ by institution. Use a fictional classroom model and never supply real account information. The payee is the person or organisation to be paid. Words and figures must agree. A filled model is not a valid payment and does not demonstrate that funds are available. The teacher should confirm the examination's expected format.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A payment form may request a date, payee, amount in figures, amount in words and an authorised signature. Exact layouts and rules differ by institution. Use a fictional classroom model and never supply real account information. The payee is the person or organisation to be paid. Words and figures must agree. A filled model is not a valid payment and does not demonstrate that funds are available. The teacher should confirm the examination's expected format."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original model: Classroom model only. Date: {23} October {2026}. Payee: Imaginary School Book Club. Figures: {12500} CFA francs. Words: {words(12500)} CFA francs. Writer: an imaginary authorised signatory. No real account number or signature is included."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify each field before entering a value. Compare the two amount forms and check the recipient's name. Do not sign for another person or treat a copied sample as a real financial instruction. This exercise assesses form-reading and writing language."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "payee",
+    "meaning": "the named person or organisation to receive payment"
+   },
+   {
+    "word": "date field",
+    "meaning": "the field stating the payment document's date"
+   },
+   {
+    "word": "matching amounts",
+    "meaning": "words and figures expressing the same value"
+   },
+   {
+    "word": "authorised signatory",
+    "meaning": "a person entitled to sign in the stated arrangement"
+   }
+  ],
+  "examples": [
+   "The model names the Imaginary School Book Club as recipient.",
+   "A classroom model labels the document's date.",
+   "The model's written number phrase agrees with its figures."
+  ],
+  "mistake": {
+   "wrong": "The payee is always the bank's building address.",
+   "right": "payee: the named person or organisation to receive payment.",
+   "why": "The payee identifies the recipient, not a building location."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The model names the Imaginary School Book Club as recipient. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "The named person or organisation to receive payment.",
+   "The payee identifies the recipient, not a building location."
+  ],
+  "answer": "payee",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-32-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "payee: the named person or organisation to receive payment.",
+     "date field: the field stating the payment document's date.",
+     "matching amounts: words and figures expressing the same value.",
+     "authorised signatory: a person entitled to sign in the stated arrangement."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-32-terms"
+    }
+   },
+   {
+    "id": "ce3-32-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The model names the Imaginary School Book Club as recipient.",
+     "payee: the named person or organisation to receive payment."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-32-cases"
+    }
+   },
+   {
+    "id": "ce3-32-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "The payee is always the bank's building address.",
+     "The payee identifies the recipient, not a building location."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-32-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "payee: the named person or organisation to receive payment.",
+        "truth": "true",
+        "explain": "This statement is correct: payee means the named person or organisation to receive payment. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "date field: the field stating the payment document's date.",
+        "truth": "true",
+        "explain": "This statement is correct: date field means the field stating the payment document's date. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "matching amounts: words and figures expressing the same value.",
+        "truth": "true",
+        "explain": "This statement is correct: matching amounts means words and figures expressing the same value. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "authorised signatory: a person entitled to sign in the stated arrangement.",
+        "truth": "true",
+        "explain": "This statement is correct: authorised signatory means a person entitled to sign in the stated arrangement. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The payee is always the bank's building address.",
+        "truth": "false",
+        "explain": "The payee identifies the recipient, not a building location."
+       },
+       {
+        "text": "The date field is where an unrelated price list belongs.",
+        "truth": "false",
+        "explain": "Each field should contain its stated kind of information."
+       },
+       {
+        "text": "The amount in words should deliberately disagree with the figures.",
+        "truth": "false",
+        "explain": "A mismatch makes the document unclear or erroneous."
+       },
+       {
+        "text": "A pupil should practise by copying a real person's signature.",
+        "truth": "false",
+        "explain": "Use fictional practice rather than imitating or authorising a real signature."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-32-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: the named person or organisation to receive payment ?",
+       "r": "payee",
+       "w": [
+        "date field",
+        "matching amounts",
+        "authorised signatory"
+       ],
+       "e": [
+        "date field means the field stating the payment document's date; the question instead describes the named person or organisation to receive payment.",
+        "matching amounts means words and figures expressing the same value; the question instead describes the named person or organisation to receive payment.",
+        "authorised signatory means a person entitled to sign in the stated arrangement; the question instead describes the named person or organisation to receive payment."
+       ],
+       "y": "The named person or organisation to receive payment."
+      },
+      {
+       "q": "Which term means: the field stating the payment document's date ?",
+       "r": "date field",
+       "w": [
+        "payee",
+        "matching amounts",
+        "authorised signatory"
+       ],
+       "e": [
+        "payee means the named person or organisation to receive payment; the question instead describes the field stating the payment document's date.",
+        "matching amounts means words and figures expressing the same value; the question instead describes the field stating the payment document's date.",
+        "authorised signatory means a person entitled to sign in the stated arrangement; the question instead describes the field stating the payment document's date."
+       ],
+       "y": "The field stating the payment document's date."
+      },
+      {
+       "q": "Which term means: words and figures expressing the same value ?",
+       "r": "matching amounts",
+       "w": [
+        "payee",
+        "date field",
+        "authorised signatory"
+       ],
+       "e": [
+        "payee means the named person or organisation to receive payment; the question instead describes words and figures expressing the same value.",
+        "date field means the field stating the payment document's date; the question instead describes words and figures expressing the same value.",
+        "authorised signatory means a person entitled to sign in the stated arrangement; the question instead describes words and figures expressing the same value."
+       ],
+       "y": "Words and figures expressing the same value."
+      },
+      {
+       "q": "Which term means: a person entitled to sign in the stated arrangement ?",
+       "r": "authorised signatory",
+       "w": [
+        "payee",
+        "date field",
+        "matching amounts"
+       ],
+       "e": [
+        "payee means the named person or organisation to receive payment; the question instead describes a person entitled to sign in the stated arrangement.",
+        "date field means the field stating the payment document's date; the question instead describes a person entitled to sign in the stated arrangement.",
+        "matching amounts means words and figures expressing the same value; the question instead describes a person entitled to sign in the stated arrangement."
+       ],
+       "y": "A person entitled to sign in the stated arrangement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-32-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model names the Imaginary School Book Club as recipient.\nWhich term best fits this example?",
+       "r": "payee",
+       "w": [
+        "date field",
+        "matching amounts",
+        "authorised signatory"
+       ],
+       "e": [
+        "date field concerns the field stating the payment document's date. This case instead illustrates the named person or organisation to receive payment.",
+        "matching amounts concerns words and figures expressing the same value. This case instead illustrates the named person or organisation to receive payment.",
+        "authorised signatory concerns a person entitled to sign in the stated arrangement. This case instead illustrates the named person or organisation to receive payment."
+       ],
+       "y": "The model names the Imaginary School Book Club as recipient. The named person or organisation to receive payment."
+      },
+      {
+       "q": "A classroom model labels the document's date.\nWhich term best fits this example?",
+       "r": "date field",
+       "w": [
+        "payee",
+        "matching amounts",
+        "authorised signatory"
+       ],
+       "e": [
+        "payee concerns the named person or organisation to receive payment. This case instead illustrates the field stating the payment document's date.",
+        "matching amounts concerns words and figures expressing the same value. This case instead illustrates the field stating the payment document's date.",
+        "authorised signatory concerns a person entitled to sign in the stated arrangement. This case instead illustrates the field stating the payment document's date."
+       ],
+       "y": "A classroom model labels the document's date. The field stating the payment document's date."
+      },
+      {
+       "q": "The model's written number phrase agrees with its figures.\nWhich term best fits this example?",
+       "r": "matching amounts",
+       "w": [
+        "payee",
+        "date field",
+        "authorised signatory"
+       ],
+       "e": [
+        "payee concerns the named person or organisation to receive payment. This case instead illustrates words and figures expressing the same value.",
+        "date field concerns the field stating the payment document's date. This case instead illustrates words and figures expressing the same value.",
+        "authorised signatory concerns a person entitled to sign in the stated arrangement. This case instead illustrates words and figures expressing the same value."
+       ],
+       "y": "The model's written number phrase agrees with its figures. Words and figures expressing the same value."
+      },
+      {
+       "q": "The fictional model leaves a place for its authorised writer.\nWhich term best fits this example?",
+       "r": "authorised signatory",
+       "w": [
+        "payee",
+        "date field",
+        "matching amounts"
+       ],
+       "e": [
+        "payee concerns the named person or organisation to receive payment. This case instead illustrates a person entitled to sign in the stated arrangement.",
+        "date field concerns the field stating the payment document's date. This case instead illustrates a person entitled to sign in the stated arrangement.",
+        "matching amounts concerns words and figures expressing the same value. This case instead illustrates a person entitled to sign in the stated arrangement."
+       ],
+       "y": "The fictional model leaves a place for its authorised writer. A person entitled to sign in the stated arrangement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-32-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model names the Imaginary School Book Club as recipient.\nWhich explanation justifies the classification?",
+       "r": "The named person or organisation to receive payment.",
+       "w": [
+        "The field stating the payment document's date.",
+        "Words and figures expressing the same value.",
+        "A person entitled to sign in the stated arrangement."
+       ],
+       "e": [
+        "That explanation describes date field, rather than the relationship illustrated in this example.",
+        "That explanation describes matching amounts, rather than the relationship illustrated in this example.",
+        "That explanation describes authorised signatory, rather than the relationship illustrated in this example."
+       ],
+       "y": "The payee identifies the recipient, not a building location."
+      },
+      {
+       "q": "A classroom model labels the document's date.\nWhich explanation justifies the classification?",
+       "r": "The field stating the payment document's date.",
+       "w": [
+        "The named person or organisation to receive payment.",
+        "Words and figures expressing the same value.",
+        "A person entitled to sign in the stated arrangement."
+       ],
+       "e": [
+        "That explanation describes payee, rather than the relationship illustrated in this example.",
+        "That explanation describes matching amounts, rather than the relationship illustrated in this example.",
+        "That explanation describes authorised signatory, rather than the relationship illustrated in this example."
+       ],
+       "y": "Each field should contain its stated kind of information."
+      },
+      {
+       "q": "The model's written number phrase agrees with its figures.\nWhich explanation justifies the classification?",
+       "r": "Words and figures expressing the same value.",
+       "w": [
+        "The named person or organisation to receive payment.",
+        "The field stating the payment document's date.",
+        "A person entitled to sign in the stated arrangement."
+       ],
+       "e": [
+        "That explanation describes payee, rather than the relationship illustrated in this example.",
+        "That explanation describes date field, rather than the relationship illustrated in this example.",
+        "That explanation describes authorised signatory, rather than the relationship illustrated in this example."
+       ],
+       "y": "A mismatch makes the document unclear or erroneous."
+      },
+      {
+       "q": "The fictional model leaves a place for its authorised writer.\nWhich explanation justifies the classification?",
+       "r": "A person entitled to sign in the stated arrangement.",
+       "w": [
+        "The named person or organisation to receive payment.",
+        "The field stating the payment document's date.",
+        "Words and figures expressing the same value."
+       ],
+       "e": [
+        "That explanation describes payee, rather than the relationship illustrated in this example.",
+        "That explanation describes date field, rather than the relationship illustrated in this example.",
+        "That explanation describes matching amounts, rather than the relationship illustrated in this example."
+       ],
+       "y": "Use fictional practice rather than imitating or authorising a real signature."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-32-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "payee",
+     "right": "The model names the Imaginary School Book Club as recipient."
+    },
+    {
+     "left": "date field",
+     "right": "A classroom model labels the document's date."
+    },
+    {
+     "left": "matching amounts",
+     "right": "The model's written number phrase agrees with its figures."
+    },
+    {
+     "left": "authorised signatory",
+     "right": "The fictional model leaves a place for its authorised writer."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-32-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "payee: the named person or organisation to receive payment.",
+      "truth": "true",
+      "explain": "This statement is correct: payee means the named person or organisation to receive payment. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "date field: the field stating the payment document's date.",
+      "truth": "true",
+      "explain": "This statement is correct: date field means the field stating the payment document's date. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "matching amounts: words and figures expressing the same value.",
+      "truth": "true",
+      "explain": "This statement is correct: matching amounts means words and figures expressing the same value. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "authorised signatory: a person entitled to sign in the stated arrangement.",
+      "truth": "true",
+      "explain": "This statement is correct: authorised signatory means a person entitled to sign in the stated arrangement. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The payee is always the bank's building address.",
+      "truth": "false",
+      "explain": "The payee identifies the recipient, not a building location."
+     },
+     {
+      "text": "The date field is where an unrelated price list belongs.",
+      "truth": "false",
+      "explain": "Each field should contain its stated kind of information."
+     },
+     {
+      "text": "The amount in words should deliberately disagree with the figures.",
+      "truth": "false",
+      "explain": "A mismatch makes the document unclear or erroneous."
+     },
+     {
+      "text": "A pupil should practise by copying a real person's signature.",
+      "truth": "false",
+      "explain": "Use fictional practice rather than imitating or authorising a real signature."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Draw a fictional payment form in your exercise book with date, payee and matching amounts. Mark it CLASSROOM MODEL and do not use real account details or signatures.",
+  "model": [
+   "Classroom model only. Date: {23} October {2026}. Payee: Imaginary School Book Club. Figures: {12500} CFA francs. Words: {words(12500)} CFA francs. Writer: an imaginary authorised signatory. No real account number or signature is included."
+  ],
+  "checklist": [
+   "I label the required fields clearly.",
+   "The payee and matching amounts are correct.",
+   "The document is clearly fictional and contains no real account information."
+  ],
+  "checks": []
+ }
+}

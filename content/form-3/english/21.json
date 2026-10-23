@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-21",
+   "name": "Discussing professions and learning pathways"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An occupation is a kind of work. A duty is a task involved in it; a skill is an ability used to perform tasks; a qualification records a recognised educational or training achievement. These ideas are connected but not identical. Training routes and entry rules vary and may change. This lesson teaches how to ask about them, not current professional eligibility. Check exact requirements with the appropriate institution before making a real application.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "An occupation is a kind of work. A duty is a task involved in it; a skill is an ability used to perform tasks; a qualification records a recognised educational or training achievement. These ideas are connected but not identical. Training routes and entry rules vary and may change. This lesson teaches how to ask about them, not current professional eligibility. Check exact requirements with the appropriate institution before making a real application."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original dialogue: Ayuk asks what a laboratory worker does. Bih explains that duties may involve careful record-keeping and following supervised procedures. Ayuk asks which training route the relevant institution recognises. Bih says they should check the institution's current information rather than assume that liking science alone qualifies someone to practise."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Describe work with precise verbs, then ask how a skill relates to a duty. Distinguish general interest from a formal requirement. In a written comparison, avoid promising employment, a salary or admission. Label fictional examples clearly."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "occupation",
+    "meaning": "a type of work a person does"
+   },
+   {
+    "word": "duty",
+    "meaning": "a task or responsibility within a job"
+   },
+   {
+    "word": "skill",
+    "meaning": "an ability used to carry out work"
+   },
+   {
+    "word": "qualification",
+    "meaning": "a recognised educational or training achievement"
+   }
+  ],
+  "examples": [
+   "An imaginary character considers teaching as a career.",
+   "An imaginary worker keeps accurate laboratory records.",
+   "Careful observation helps a worker notice relevant changes."
+  ],
+  "mistake": {
+   "wrong": "An occupation is always a person's favourite school subject.",
+   "right": "occupation: a type of work a person does.",
+   "why": "A subject interest can inform a choice but is not itself an occupation."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An imaginary character considers teaching as a career. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A type of work a person does.",
+   "A subject interest can inform a choice but is not itself an occupation."
+  ],
+  "answer": "occupation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-21-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "occupation: a type of work a person does.",
+     "duty: a task or responsibility within a job.",
+     "skill: an ability used to carry out work.",
+     "qualification: a recognised educational or training achievement."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-21-terms"
+    }
+   },
+   {
+    "id": "ce3-21-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "An imaginary character considers teaching as a career.",
+     "occupation: a type of work a person does."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-21-cases"
+    }
+   },
+   {
+    "id": "ce3-21-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "An occupation is always a person's favourite school subject.",
+     "A subject interest can inform a choice but is not itself an occupation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-21-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "occupation: a type of work a person does.",
+        "truth": "true",
+        "explain": "This statement is correct: occupation means a type of work a person does. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "duty: a task or responsibility within a job.",
+        "truth": "true",
+        "explain": "This statement is correct: duty means a task or responsibility within a job. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "skill: an ability used to carry out work.",
+        "truth": "true",
+        "explain": "This statement is correct: skill means an ability used to carry out work. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "qualification: a recognised educational or training achievement.",
+        "truth": "true",
+        "explain": "This statement is correct: qualification means a recognised educational or training achievement. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An occupation is always a person's favourite school subject.",
+        "truth": "false",
+        "explain": "A subject interest can inform a choice but is not itself an occupation."
+       },
+       {
+        "text": "A duty is the certificate issued after training.",
+        "truth": "false",
+        "explain": "A duty is work performed; a certificate records an achievement."
+       },
+       {
+        "text": "Naming a skill proves the holder has every required licence.",
+        "truth": "false",
+        "explain": "An ability and a formal authorisation are different."
+       },
+       {
+        "text": "Every training route is identical across institutions and years.",
+        "truth": "false",
+        "explain": "Check the actual institution's current requirements."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-21-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a type of work a person does ?",
+       "r": "occupation",
+       "w": [
+        "duty",
+        "skill",
+        "qualification"
+       ],
+       "e": [
+        "duty means a task or responsibility within a job; the question instead describes a type of work a person does.",
+        "skill means an ability used to carry out work; the question instead describes a type of work a person does.",
+        "qualification means a recognised educational or training achievement; the question instead describes a type of work a person does."
+       ],
+       "y": "A type of work a person does."
+      },
+      {
+       "q": "Which term means: a task or responsibility within a job ?",
+       "r": "duty",
+       "w": [
+        "occupation",
+        "skill",
+        "qualification"
+       ],
+       "e": [
+        "occupation means a type of work a person does; the question instead describes a task or responsibility within a job.",
+        "skill means an ability used to carry out work; the question instead describes a task or responsibility within a job.",
+        "qualification means a recognised educational or training achievement; the question instead describes a task or responsibility within a job."
+       ],
+       "y": "A task or responsibility within a job."
+      },
+      {
+       "q": "Which term means: an ability used to carry out work ?",
+       "r": "skill",
+       "w": [
+        "occupation",
+        "duty",
+        "qualification"
+       ],
+       "e": [
+        "occupation means a type of work a person does; the question instead describes an ability used to carry out work.",
+        "duty means a task or responsibility within a job; the question instead describes an ability used to carry out work.",
+        "qualification means a recognised educational or training achievement; the question instead describes an ability used to carry out work."
+       ],
+       "y": "An ability used to carry out work."
+      },
+      {
+       "q": "Which term means: a recognised educational or training achievement ?",
+       "r": "qualification",
+       "w": [
+        "occupation",
+        "duty",
+        "skill"
+       ],
+       "e": [
+        "occupation means a type of work a person does; the question instead describes a recognised educational or training achievement.",
+        "duty means a task or responsibility within a job; the question instead describes a recognised educational or training achievement.",
+        "skill means an ability used to carry out work; the question instead describes a recognised educational or training achievement."
+       ],
+       "y": "A recognised educational or training achievement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-21-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An imaginary character considers teaching as a career.\nWhich term best fits this example?",
+       "r": "occupation",
+       "w": [
+        "duty",
+        "skill",
+        "qualification"
+       ],
+       "e": [
+        "duty concerns a task or responsibility within a job. This case instead illustrates a type of work a person does.",
+        "skill concerns an ability used to carry out work. This case instead illustrates a type of work a person does.",
+        "qualification concerns a recognised educational or training achievement. This case instead illustrates a type of work a person does."
+       ],
+       "y": "An imaginary character considers teaching as a career. A type of work a person does."
+      },
+      {
+       "q": "An imaginary worker keeps accurate laboratory records.\nWhich term best fits this example?",
+       "r": "duty",
+       "w": [
+        "occupation",
+        "skill",
+        "qualification"
+       ],
+       "e": [
+        "occupation concerns a type of work a person does. This case instead illustrates a task or responsibility within a job.",
+        "skill concerns an ability used to carry out work. This case instead illustrates a task or responsibility within a job.",
+        "qualification concerns a recognised educational or training achievement. This case instead illustrates a task or responsibility within a job."
+       ],
+       "y": "An imaginary worker keeps accurate laboratory records. A task or responsibility within a job."
+      },
+      {
+       "q": "Careful observation helps a worker notice relevant changes.\nWhich term best fits this example?",
+       "r": "skill",
+       "w": [
+        "occupation",
+        "duty",
+        "qualification"
+       ],
+       "e": [
+        "occupation concerns a type of work a person does. This case instead illustrates an ability used to carry out work.",
+        "duty concerns a task or responsibility within a job. This case instead illustrates an ability used to carry out work.",
+        "qualification concerns a recognised educational or training achievement. This case instead illustrates an ability used to carry out work."
+       ],
+       "y": "Careful observation helps a worker notice relevant changes. An ability used to carry out work."
+      },
+      {
+       "q": "A character asks which certificate an institution recognises.\nWhich term best fits this example?",
+       "r": "qualification",
+       "w": [
+        "occupation",
+        "duty",
+        "skill"
+       ],
+       "e": [
+        "occupation concerns a type of work a person does. This case instead illustrates a recognised educational or training achievement.",
+        "duty concerns a task or responsibility within a job. This case instead illustrates a recognised educational or training achievement.",
+        "skill concerns an ability used to carry out work. This case instead illustrates a recognised educational or training achievement."
+       ],
+       "y": "A character asks which certificate an institution recognises. A recognised educational or training achievement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-21-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An imaginary character considers teaching as a career.\nWhich explanation justifies the classification?",
+       "r": "A type of work a person does.",
+       "w": [
+        "A task or responsibility within a job.",
+        "An ability used to carry out work.",
+        "A recognised educational or training achievement."
+       ],
+       "e": [
+        "That explanation describes duty, rather than the relationship illustrated in this example.",
+        "That explanation describes skill, rather than the relationship illustrated in this example.",
+        "That explanation describes qualification, rather than the relationship illustrated in this example."
+       ],
+       "y": "A subject interest can inform a choice but is not itself an occupation."
+      },
+      {
+       "q": "An imaginary worker keeps accurate laboratory records.\nWhich explanation justifies the classification?",
+       "r": "A task or responsibility within a job.",
+       "w": [
+        "A type of work a person does.",
+        "An ability used to carry out work.",
+        "A recognised educational or training achievement."
+       ],
+       "e": [
+        "That explanation describes occupation, rather than the relationship illustrated in this example.",
+        "That explanation describes skill, rather than the relationship illustrated in this example.",
+        "That explanation describes qualification, rather than the relationship illustrated in this example."
+       ],
+       "y": "A duty is work performed; a certificate records an achievement."
+      },
+      {
+       "q": "Careful observation helps a worker notice relevant changes.\nWhich explanation justifies the classification?",
+       "r": "An ability used to carry out work.",
+       "w": [
+        "A type of work a person does.",
+        "A task or responsibility within a job.",
+        "A recognised educational or training achievement."
+       ],
+       "e": [
+        "That explanation describes occupation, rather than the relationship illustrated in this example.",
+        "That explanation describes duty, rather than the relationship illustrated in this example.",
+        "That explanation describes qualification, rather than the relationship illustrated in this example."
+       ],
+       "y": "An ability and a formal authorisation are different."
+      },
+      {
+       "q": "A character asks which certificate an institution recognises.\nWhich explanation justifies the classification?",
+       "r": "A recognised educational or training achievement.",
+       "w": [
+        "A type of work a person does.",
+        "A task or responsibility within a job.",
+        "An ability used to carry out work."
+       ],
+       "e": [
+        "That explanation describes occupation, rather than the relationship illustrated in this example.",
+        "That explanation describes duty, rather than the relationship illustrated in this example.",
+        "That explanation describes skill, rather than the relationship illustrated in this example."
+       ],
+       "y": "Check the actual institution's current requirements."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-21-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "occupation",
+     "right": "An imaginary character considers teaching as a career."
+    },
+    {
+     "left": "duty",
+     "right": "An imaginary worker keeps accurate laboratory records."
+    },
+    {
+     "left": "skill",
+     "right": "Careful observation helps a worker notice relevant changes."
+    },
+    {
+     "left": "qualification",
+     "right": "A character asks which certificate an institution recognises."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-21-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "occupation: a type of work a person does.",
+      "truth": "true",
+      "explain": "This statement is correct: occupation means a type of work a person does. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "duty: a task or responsibility within a job.",
+      "truth": "true",
+      "explain": "This statement is correct: duty means a task or responsibility within a job. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "skill: an ability used to carry out work.",
+      "truth": "true",
+      "explain": "This statement is correct: skill means an ability used to carry out work. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "qualification: a recognised educational or training achievement.",
+      "truth": "true",
+      "explain": "This statement is correct: qualification means a recognised educational or training achievement. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An occupation is always a person's favourite school subject.",
+      "truth": "false",
+      "explain": "A subject interest can inform a choice but is not itself an occupation."
+     },
+     {
+      "text": "A duty is the certificate issued after training.",
+      "truth": "false",
+      "explain": "A duty is work performed; a certificate records an achievement."
+     },
+     {
+      "text": "Naming a skill proves the holder has every required licence.",
+      "truth": "false",
+      "explain": "An ability and a formal authorisation are different."
+     },
+     {
+      "text": "Every training route is identical across institutions and years.",
+      "truth": "false",
+      "explain": "Check the actual institution's current requirements."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
