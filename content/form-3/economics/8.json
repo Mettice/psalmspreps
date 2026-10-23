@@ -1,0 +1,614 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "n3-8",
+   "name": "Practical preparation: a utility table"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A utility table can illustrate the relationship between total and marginal utility for one consumer in fixed circumstances. The figures are hypothetical. Read units in order. For an extra unit, subtract the previous total utility from the new total. Total utility rises when marginal utility is positive, stays unchanged when it is zero and falls when it is negative. A table can illustrate diminishing marginal utility without claiming that satisfaction is directly measurable in everyday life.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A utility table can illustrate the relationship between total and marginal utility for one consumer in fixed circumstances. The figures are hypothetical. Read units in order. For an extra unit, subtract the previous total utility from the new total. Total utility rises when marginal utility is positive, stays unchanged when it is zero and falls when it is negative. A table can illustrate diminishing marginal utility without claiming that satisfaction is directly measurable in everyday life."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Ngozi records an imagined example for portions of a snack. Each additional portion may add less satisfaction. Her exercise book needs separate columns for number consumed, total utility and marginal utility. Using one person's assumed values avoids pretending to compare different people's satisfaction. The practical asks you to calculate and interpret the differences, not to eat until uncomfortable."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Copy the hypothetical totals, compute consecutive differences and label the columns. When an increase becomes smaller, say marginal utility is diminishing; do not say total utility has fallen unless the difference is negative. Check each row against the preceding row rather than against zero."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "positive marginal utility",
+    "meaning": "an extra unit increasing total utility"
+   },
+   {
+    "word": "zero marginal utility",
+    "meaning": "an extra unit leaving total utility unchanged"
+   },
+   {
+    "word": "negative marginal utility",
+    "meaning": "an extra unit reducing total utility"
+   },
+   {
+    "word": "hypothetical utility table",
+    "meaning": "assumed values used to illustrate a relationship"
+   }
+  ],
+  "examples": [
+   "A hypothetical total rises after another portion.",
+   "A hypothetical total stays the same after another portion.",
+   "A hypothetical total decreases after another portion."
+  ],
+  "mistake": {
+   "wrong": "A positive increment lowers the total.",
+   "right": "positive marginal utility: an extra unit increasing total utility.",
+   "why": "A positive change adds to total utility."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A hypothetical total rises after another portion. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "An extra unit increasing total utility.",
+   "A positive change adds to total utility."
+  ],
+  "answer": "positive marginal utility",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-8-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "positive marginal utility: an extra unit increasing total utility.",
+     "zero marginal utility: an extra unit leaving total utility unchanged.",
+     "negative marginal utility: an extra unit reducing total utility.",
+     "hypothetical utility table: assumed values used to illustrate a relationship."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-8-terms"
+    }
+   },
+   {
+    "id": "cn3-8-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A hypothetical total rises after another portion.",
+     "positive marginal utility: an extra unit increasing total utility."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-8-cases"
+    }
+   },
+   {
+    "id": "cn3-8-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A positive increment lowers the total.",
+     "A positive change adds to total utility."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-8-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "positive marginal utility: an extra unit increasing total utility.",
+        "truth": "true",
+        "explain": "This statement is correct: positive marginal utility means an extra unit increasing total utility. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "zero marginal utility: an extra unit leaving total utility unchanged.",
+        "truth": "true",
+        "explain": "This statement is correct: zero marginal utility means an extra unit leaving total utility unchanged. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "negative marginal utility: an extra unit reducing total utility.",
+        "truth": "true",
+        "explain": "This statement is correct: negative marginal utility means an extra unit reducing total utility. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "hypothetical utility table: assumed values used to illustrate a relationship.",
+        "truth": "true",
+        "explain": "This statement is correct: hypothetical utility table means assumed values used to illustrate a relationship. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A positive increment lowers the total.",
+        "truth": "false",
+        "explain": "A positive change adds to total utility."
+       },
+       {
+        "text": "Zero additional satisfaction erases all previous satisfaction.",
+        "truth": "false",
+        "explain": "The total remains, but this extra unit adds nothing."
+       },
+       {
+        "text": "A negative increment must increase the total.",
+        "truth": "false",
+        "explain": "A negative change reduces the total."
+       },
+       {
+        "text": "Classroom utility figures prove exact measurements of everyone's happiness.",
+        "truth": "false",
+        "explain": "The figures are an illustration, not objective interpersonal measurements."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-8-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: an extra unit increasing total utility ?",
+       "r": "positive marginal utility",
+       "w": [
+        "zero marginal utility",
+        "negative marginal utility",
+        "hypothetical utility table"
+       ],
+       "e": [
+        "zero marginal utility means an extra unit leaving total utility unchanged; the question instead describes an extra unit increasing total utility.",
+        "negative marginal utility means an extra unit reducing total utility; the question instead describes an extra unit increasing total utility.",
+        "hypothetical utility table means assumed values used to illustrate a relationship; the question instead describes an extra unit increasing total utility."
+       ],
+       "y": "An extra unit increasing total utility."
+      },
+      {
+       "q": "Which term means: an extra unit leaving total utility unchanged ?",
+       "r": "zero marginal utility",
+       "w": [
+        "positive marginal utility",
+        "negative marginal utility",
+        "hypothetical utility table"
+       ],
+       "e": [
+        "positive marginal utility means an extra unit increasing total utility; the question instead describes an extra unit leaving total utility unchanged.",
+        "negative marginal utility means an extra unit reducing total utility; the question instead describes an extra unit leaving total utility unchanged.",
+        "hypothetical utility table means assumed values used to illustrate a relationship; the question instead describes an extra unit leaving total utility unchanged."
+       ],
+       "y": "An extra unit leaving total utility unchanged."
+      },
+      {
+       "q": "Which term means: an extra unit reducing total utility ?",
+       "r": "negative marginal utility",
+       "w": [
+        "positive marginal utility",
+        "zero marginal utility",
+        "hypothetical utility table"
+       ],
+       "e": [
+        "positive marginal utility means an extra unit increasing total utility; the question instead describes an extra unit reducing total utility.",
+        "zero marginal utility means an extra unit leaving total utility unchanged; the question instead describes an extra unit reducing total utility.",
+        "hypothetical utility table means assumed values used to illustrate a relationship; the question instead describes an extra unit reducing total utility."
+       ],
+       "y": "An extra unit reducing total utility."
+      },
+      {
+       "q": "Which term means: assumed values used to illustrate a relationship ?",
+       "r": "hypothetical utility table",
+       "w": [
+        "positive marginal utility",
+        "zero marginal utility",
+        "negative marginal utility"
+       ],
+       "e": [
+        "positive marginal utility means an extra unit increasing total utility; the question instead describes assumed values used to illustrate a relationship.",
+        "zero marginal utility means an extra unit leaving total utility unchanged; the question instead describes assumed values used to illustrate a relationship.",
+        "negative marginal utility means an extra unit reducing total utility; the question instead describes assumed values used to illustrate a relationship."
+       ],
+       "y": "Assumed values used to illustrate a relationship."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-8-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A hypothetical total rises after another portion.\nWhich term best fits this example?",
+       "r": "positive marginal utility",
+       "w": [
+        "zero marginal utility",
+        "negative marginal utility",
+        "hypothetical utility table"
+       ],
+       "e": [
+        "zero marginal utility concerns an extra unit leaving total utility unchanged. This case instead illustrates an extra unit increasing total utility.",
+        "negative marginal utility concerns an extra unit reducing total utility. This case instead illustrates an extra unit increasing total utility.",
+        "hypothetical utility table concerns assumed values used to illustrate a relationship. This case instead illustrates an extra unit increasing total utility."
+       ],
+       "y": "A hypothetical total rises after another portion. An extra unit increasing total utility."
+      },
+      {
+       "q": "A hypothetical total stays the same after another portion.\nWhich term best fits this example?",
+       "r": "zero marginal utility",
+       "w": [
+        "positive marginal utility",
+        "negative marginal utility",
+        "hypothetical utility table"
+       ],
+       "e": [
+        "positive marginal utility concerns an extra unit increasing total utility. This case instead illustrates an extra unit leaving total utility unchanged.",
+        "negative marginal utility concerns an extra unit reducing total utility. This case instead illustrates an extra unit leaving total utility unchanged.",
+        "hypothetical utility table concerns assumed values used to illustrate a relationship. This case instead illustrates an extra unit leaving total utility unchanged."
+       ],
+       "y": "A hypothetical total stays the same after another portion. An extra unit leaving total utility unchanged."
+      },
+      {
+       "q": "A hypothetical total decreases after another portion.\nWhich term best fits this example?",
+       "r": "negative marginal utility",
+       "w": [
+        "positive marginal utility",
+        "zero marginal utility",
+        "hypothetical utility table"
+       ],
+       "e": [
+        "positive marginal utility concerns an extra unit increasing total utility. This case instead illustrates an extra unit reducing total utility.",
+        "zero marginal utility concerns an extra unit leaving total utility unchanged. This case instead illustrates an extra unit reducing total utility.",
+        "hypothetical utility table concerns assumed values used to illustrate a relationship. This case instead illustrates an extra unit reducing total utility."
+       ],
+       "y": "A hypothetical total decreases after another portion. An extra unit reducing total utility."
+      },
+      {
+       "q": "A teacher invents totals for practice and labels them assumed utility units.\nWhich term best fits this example?",
+       "r": "hypothetical utility table",
+       "w": [
+        "positive marginal utility",
+        "zero marginal utility",
+        "negative marginal utility"
+       ],
+       "e": [
+        "positive marginal utility concerns an extra unit increasing total utility. This case instead illustrates assumed values used to illustrate a relationship.",
+        "zero marginal utility concerns an extra unit leaving total utility unchanged. This case instead illustrates assumed values used to illustrate a relationship.",
+        "negative marginal utility concerns an extra unit reducing total utility. This case instead illustrates assumed values used to illustrate a relationship."
+       ],
+       "y": "A teacher invents totals for practice and labels them assumed utility units. Assumed values used to illustrate a relationship."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-8-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A hypothetical total rises after another portion.\nWhich explanation justifies the classification?",
+       "r": "An extra unit increasing total utility.",
+       "w": [
+        "An extra unit leaving total utility unchanged.",
+        "An extra unit reducing total utility.",
+        "Assumed values used to illustrate a relationship."
+       ],
+       "e": [
+        "That explanation describes zero marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes negative marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes hypothetical utility table, rather than the relationship illustrated in this example."
+       ],
+       "y": "A positive change adds to total utility."
+      },
+      {
+       "q": "A hypothetical total stays the same after another portion.\nWhich explanation justifies the classification?",
+       "r": "An extra unit leaving total utility unchanged.",
+       "w": [
+        "An extra unit increasing total utility.",
+        "An extra unit reducing total utility.",
+        "Assumed values used to illustrate a relationship."
+       ],
+       "e": [
+        "That explanation describes positive marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes negative marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes hypothetical utility table, rather than the relationship illustrated in this example."
+       ],
+       "y": "The total remains, but this extra unit adds nothing."
+      },
+      {
+       "q": "A hypothetical total decreases after another portion.\nWhich explanation justifies the classification?",
+       "r": "An extra unit reducing total utility.",
+       "w": [
+        "An extra unit increasing total utility.",
+        "An extra unit leaving total utility unchanged.",
+        "Assumed values used to illustrate a relationship."
+       ],
+       "e": [
+        "That explanation describes positive marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes zero marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes hypothetical utility table, rather than the relationship illustrated in this example."
+       ],
+       "y": "A negative change reduces the total."
+      },
+      {
+       "q": "A teacher invents totals for practice and labels them assumed utility units.\nWhich explanation justifies the classification?",
+       "r": "Assumed values used to illustrate a relationship.",
+       "w": [
+        "An extra unit increasing total utility.",
+        "An extra unit leaving total utility unchanged.",
+        "An extra unit reducing total utility."
+       ],
+       "e": [
+        "That explanation describes positive marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes zero marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes negative marginal utility, rather than the relationship illustrated in this example."
+       ],
+       "y": "The figures are an illustration, not objective interpersonal measurements."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-8-difference",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "base": {
+     "int": [
+      20,
+      40
+     ]
+    },
+    "change": {
+     "pick": [
+      -5,
+      -2,
+      0,
+      3,
+      6
+     ]
+    }
+   },
+   "prompt": "An assumed utility total changes from {base} to {base+change} after an additional portion. Find marginal utility, including its sign.",
+   "answer": "change",
+   "misconceptions": [
+    {
+     "id": "reverse",
+     "wrong": "-change",
+     "explain": "You reversed the subtraction; use new total minus previous total.",
+     "when": "change != 0"
+    }
+   ],
+   "solution": [
+    "New total minus previous total = {base+change} − {base} = {answer}.",
+    "A negative answer means the extra portion reduced total utility."
+   ],
+   "signed": true,
+   "unit": "assumed utility units"
+  },
+  {
+   "id": "n3-8-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "positive marginal utility: an extra unit increasing total utility.",
+      "truth": "true",
+      "explain": "This statement is correct: positive marginal utility means an extra unit increasing total utility. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "zero marginal utility: an extra unit leaving total utility unchanged.",
+      "truth": "true",
+      "explain": "This statement is correct: zero marginal utility means an extra unit leaving total utility unchanged. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "negative marginal utility: an extra unit reducing total utility.",
+      "truth": "true",
+      "explain": "This statement is correct: negative marginal utility means an extra unit reducing total utility. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "hypothetical utility table: assumed values used to illustrate a relationship.",
+      "truth": "true",
+      "explain": "This statement is correct: hypothetical utility table means assumed values used to illustrate a relationship. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A positive increment lowers the total.",
+      "truth": "false",
+      "explain": "A positive change adds to total utility."
+     },
+     {
+      "text": "Zero additional satisfaction erases all previous satisfaction.",
+      "truth": "false",
+      "explain": "The total remains, but this extra unit adds nothing."
+     },
+     {
+      "text": "A negative increment must increase the total.",
+      "truth": "false",
+      "explain": "A negative change reduces the total."
+     },
+     {
+      "text": "Classroom utility figures prove exact measurements of everyone's happiness.",
+      "truth": "false",
+      "explain": "The figures are an illustration, not objective interpersonal measurements."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

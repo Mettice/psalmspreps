@@ -1,0 +1,602 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  11,
+  13
+ ],
+ "skills": [
+  {
+   "id": "n3-14",
+   "name": "Mixed economic system"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A mixed economy combines market exchange with public action and different ownership arrangements. Private firms and households make many decisions, while public bodies may provide services, regulate activities or pursue distributional aims. The balance varies across countries and sectors. Mixed does not mean an exact equal split. Regulation is not the same thing as ownership: a private firm can be regulated without becoming publicly owned. Evaluate a particular policy through its purpose, mechanism, costs and effects.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A mixed economy combines market exchange with public action and different ownership arrangements. Private firms and households make many decisions, while public bodies may provide services, regulate activities or pursue distributional aims. The balance varies across countries and sectors. Mixed does not mean an exact equal split. Regulation is not the same thing as ownership: a private firm can be regulated without becoming publicly owned. Evaluate a particular policy through its purpose, mechanism, costs and effects."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A family stall can trade in a market while a public body maintains a road used by buyers and sellers. Rules about weights and product information can shape private exchange. The presence of both activities illustrates a mixed arrangement; it does not supply a numerical share for the whole economy or prove that every intervention works well."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "For each example, ask who owns the resource, who makes decisions and what public action is involved. Do not equate mixed with random or unplanned. Compare a policy's intended effect with evidence about its actual effect, including trade-offs and unintended consequences."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "mixed economy",
+    "meaning": "a combination of market coordination and public action"
+   },
+   {
+    "word": "regulation",
+    "meaning": "rules shaping how an activity is carried out"
+   },
+   {
+    "word": "public provision",
+    "meaning": "a public body supplying or funding a service"
+   },
+   {
+    "word": "policy trade-off",
+    "meaning": "a cost or competing goal involved in a policy choice"
+   }
+  ],
+  "examples": [
+   "Private stalls trade alongside publicly provided infrastructure.",
+   "Rules require traders to use accurate weights.",
+   "A public body provides road maintenance."
+  ],
+  "mistake": {
+   "wrong": "A mixed economy must divide all activity into exactly equal halves.",
+   "right": "mixed economy: a combination of market coordination and public action.",
+   "why": "The balance varies; equal shares are not part of the definition."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Private stalls trade alongside publicly provided infrastructure. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A combination of market coordination and public action.",
+   "The balance varies; equal shares are not part of the definition."
+  ],
+  "answer": "mixed economy",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-14-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "mixed economy: a combination of market coordination and public action.",
+     "regulation: rules shaping how an activity is carried out.",
+     "public provision: a public body supplying or funding a service.",
+     "policy trade-off: a cost or competing goal involved in a policy choice."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-14-terms"
+    }
+   },
+   {
+    "id": "cn3-14-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Private stalls trade alongside publicly provided infrastructure.",
+     "mixed economy: a combination of market coordination and public action."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-14-cases"
+    }
+   },
+   {
+    "id": "cn3-14-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A mixed economy must divide all activity into exactly equal halves.",
+     "The balance varies; equal shares are not part of the definition."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-14-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "mixed economy: a combination of market coordination and public action.",
+        "truth": "true",
+        "explain": "This statement is correct: mixed economy means a combination of market coordination and public action. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "regulation: rules shaping how an activity is carried out.",
+        "truth": "true",
+        "explain": "This statement is correct: regulation means rules shaping how an activity is carried out. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "public provision: a public body supplying or funding a service.",
+        "truth": "true",
+        "explain": "This statement is correct: public provision means a public body supplying or funding a service. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "policy trade-off: a cost or competing goal involved in a policy choice.",
+        "truth": "true",
+        "explain": "This statement is correct: policy trade-off means a cost or competing goal involved in a policy choice. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A mixed economy must divide all activity into exactly equal halves.",
+        "truth": "false",
+        "explain": "The balance varies; equal shares are not part of the definition."
+       },
+       {
+        "text": "Regulating a firm necessarily transfers its ownership to the state.",
+        "truth": "false",
+        "explain": "Rules can apply while ownership remains private."
+       },
+       {
+        "text": "Public provision means no resources were needed.",
+        "truth": "false",
+        "explain": "Public services still use scarce labour, materials and funds."
+       },
+       {
+        "text": "A policy with benefits has no opportunity cost.",
+        "truth": "false",
+        "explain": "Benefits do not remove the alternatives forgone when resources are used."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-14-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a combination of market coordination and public action ?",
+       "r": "mixed economy",
+       "w": [
+        "regulation",
+        "public provision",
+        "policy trade-off"
+       ],
+       "e": [
+        "regulation means rules shaping how an activity is carried out; the question instead describes a combination of market coordination and public action.",
+        "public provision means a public body supplying or funding a service; the question instead describes a combination of market coordination and public action.",
+        "policy trade-off means a cost or competing goal involved in a policy choice; the question instead describes a combination of market coordination and public action."
+       ],
+       "y": "A combination of market coordination and public action."
+      },
+      {
+       "q": "Which term means: rules shaping how an activity is carried out ?",
+       "r": "regulation",
+       "w": [
+        "mixed economy",
+        "public provision",
+        "policy trade-off"
+       ],
+       "e": [
+        "mixed economy means a combination of market coordination and public action; the question instead describes rules shaping how an activity is carried out.",
+        "public provision means a public body supplying or funding a service; the question instead describes rules shaping how an activity is carried out.",
+        "policy trade-off means a cost or competing goal involved in a policy choice; the question instead describes rules shaping how an activity is carried out."
+       ],
+       "y": "Rules shaping how an activity is carried out."
+      },
+      {
+       "q": "Which term means: a public body supplying or funding a service ?",
+       "r": "public provision",
+       "w": [
+        "mixed economy",
+        "regulation",
+        "policy trade-off"
+       ],
+       "e": [
+        "mixed economy means a combination of market coordination and public action; the question instead describes a public body supplying or funding a service.",
+        "regulation means rules shaping how an activity is carried out; the question instead describes a public body supplying or funding a service.",
+        "policy trade-off means a cost or competing goal involved in a policy choice; the question instead describes a public body supplying or funding a service."
+       ],
+       "y": "A public body supplying or funding a service."
+      },
+      {
+       "q": "Which term means: a cost or competing goal involved in a policy choice ?",
+       "r": "policy trade-off",
+       "w": [
+        "mixed economy",
+        "regulation",
+        "public provision"
+       ],
+       "e": [
+        "mixed economy means a combination of market coordination and public action; the question instead describes a cost or competing goal involved in a policy choice.",
+        "regulation means rules shaping how an activity is carried out; the question instead describes a cost or competing goal involved in a policy choice.",
+        "public provision means a public body supplying or funding a service; the question instead describes a cost or competing goal involved in a policy choice."
+       ],
+       "y": "A cost or competing goal involved in a policy choice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-14-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Private stalls trade alongside publicly provided infrastructure.\nWhich term best fits this example?",
+       "r": "mixed economy",
+       "w": [
+        "regulation",
+        "public provision",
+        "policy trade-off"
+       ],
+       "e": [
+        "regulation concerns rules shaping how an activity is carried out. This case instead illustrates a combination of market coordination and public action.",
+        "public provision concerns a public body supplying or funding a service. This case instead illustrates a combination of market coordination and public action.",
+        "policy trade-off concerns a cost or competing goal involved in a policy choice. This case instead illustrates a combination of market coordination and public action."
+       ],
+       "y": "Private stalls trade alongside publicly provided infrastructure. A combination of market coordination and public action."
+      },
+      {
+       "q": "Rules require traders to use accurate weights.\nWhich term best fits this example?",
+       "r": "regulation",
+       "w": [
+        "mixed economy",
+        "public provision",
+        "policy trade-off"
+       ],
+       "e": [
+        "mixed economy concerns a combination of market coordination and public action. This case instead illustrates rules shaping how an activity is carried out.",
+        "public provision concerns a public body supplying or funding a service. This case instead illustrates rules shaping how an activity is carried out.",
+        "policy trade-off concerns a cost or competing goal involved in a policy choice. This case instead illustrates rules shaping how an activity is carried out."
+       ],
+       "y": "Rules require traders to use accurate weights. Rules shaping how an activity is carried out."
+      },
+      {
+       "q": "A public body provides road maintenance.\nWhich term best fits this example?",
+       "r": "public provision",
+       "w": [
+        "mixed economy",
+        "regulation",
+        "policy trade-off"
+       ],
+       "e": [
+        "mixed economy concerns a combination of market coordination and public action. This case instead illustrates a public body supplying or funding a service.",
+        "regulation concerns rules shaping how an activity is carried out. This case instead illustrates a public body supplying or funding a service.",
+        "policy trade-off concerns a cost or competing goal involved in a policy choice. This case instead illustrates a public body supplying or funding a service."
+       ],
+       "y": "A public body provides road maintenance. A public body supplying or funding a service."
+      },
+      {
+       "q": "Funds devoted to a road cannot simultaneously fund every alternative project.\nWhich term best fits this example?",
+       "r": "policy trade-off",
+       "w": [
+        "mixed economy",
+        "regulation",
+        "public provision"
+       ],
+       "e": [
+        "mixed economy concerns a combination of market coordination and public action. This case instead illustrates a cost or competing goal involved in a policy choice.",
+        "regulation concerns rules shaping how an activity is carried out. This case instead illustrates a cost or competing goal involved in a policy choice.",
+        "public provision concerns a public body supplying or funding a service. This case instead illustrates a cost or competing goal involved in a policy choice."
+       ],
+       "y": "Funds devoted to a road cannot simultaneously fund every alternative project. A cost or competing goal involved in a policy choice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-14-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Private stalls trade alongside publicly provided infrastructure.\nWhich explanation justifies the classification?",
+       "r": "A combination of market coordination and public action.",
+       "w": [
+        "Rules shaping how an activity is carried out.",
+        "A public body supplying or funding a service.",
+        "A cost or competing goal involved in a policy choice."
+       ],
+       "e": [
+        "That explanation describes regulation, rather than the relationship illustrated in this example.",
+        "That explanation describes public provision, rather than the relationship illustrated in this example.",
+        "That explanation describes policy trade-off, rather than the relationship illustrated in this example."
+       ],
+       "y": "The balance varies; equal shares are not part of the definition."
+      },
+      {
+       "q": "Rules require traders to use accurate weights.\nWhich explanation justifies the classification?",
+       "r": "Rules shaping how an activity is carried out.",
+       "w": [
+        "A combination of market coordination and public action.",
+        "A public body supplying or funding a service.",
+        "A cost or competing goal involved in a policy choice."
+       ],
+       "e": [
+        "That explanation describes mixed economy, rather than the relationship illustrated in this example.",
+        "That explanation describes public provision, rather than the relationship illustrated in this example.",
+        "That explanation describes policy trade-off, rather than the relationship illustrated in this example."
+       ],
+       "y": "Rules can apply while ownership remains private."
+      },
+      {
+       "q": "A public body provides road maintenance.\nWhich explanation justifies the classification?",
+       "r": "A public body supplying or funding a service.",
+       "w": [
+        "A combination of market coordination and public action.",
+        "Rules shaping how an activity is carried out.",
+        "A cost or competing goal involved in a policy choice."
+       ],
+       "e": [
+        "That explanation describes mixed economy, rather than the relationship illustrated in this example.",
+        "That explanation describes regulation, rather than the relationship illustrated in this example.",
+        "That explanation describes policy trade-off, rather than the relationship illustrated in this example."
+       ],
+       "y": "Public services still use scarce labour, materials and funds."
+      },
+      {
+       "q": "Funds devoted to a road cannot simultaneously fund every alternative project.\nWhich explanation justifies the classification?",
+       "r": "A cost or competing goal involved in a policy choice.",
+       "w": [
+        "A combination of market coordination and public action.",
+        "Rules shaping how an activity is carried out.",
+        "A public body supplying or funding a service."
+       ],
+       "e": [
+        "That explanation describes mixed economy, rather than the relationship illustrated in this example.",
+        "That explanation describes regulation, rather than the relationship illustrated in this example.",
+        "That explanation describes public provision, rather than the relationship illustrated in this example."
+       ],
+       "y": "Benefits do not remove the alternatives forgone when resources are used."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-14-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "mixed economy",
+     "right": "Private stalls trade alongside publicly provided infrastructure."
+    },
+    {
+     "left": "regulation",
+     "right": "Rules require traders to use accurate weights."
+    },
+    {
+     "left": "public provision",
+     "right": "A public body provides road maintenance."
+    },
+    {
+     "left": "policy trade-off",
+     "right": "Funds devoted to a road cannot simultaneously fund every alternative project."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "n3-14-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "mixed economy: a combination of market coordination and public action.",
+      "truth": "true",
+      "explain": "This statement is correct: mixed economy means a combination of market coordination and public action. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "regulation: rules shaping how an activity is carried out.",
+      "truth": "true",
+      "explain": "This statement is correct: regulation means rules shaping how an activity is carried out. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "public provision: a public body supplying or funding a service.",
+      "truth": "true",
+      "explain": "This statement is correct: public provision means a public body supplying or funding a service. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "policy trade-off: a cost or competing goal involved in a policy choice.",
+      "truth": "true",
+      "explain": "This statement is correct: policy trade-off means a cost or competing goal involved in a policy choice. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A mixed economy must divide all activity into exactly equal halves.",
+      "truth": "false",
+      "explain": "The balance varies; equal shares are not part of the definition."
+     },
+     {
+      "text": "Regulating a firm necessarily transfers its ownership to the state.",
+      "truth": "false",
+      "explain": "Rules can apply while ownership remains private."
+     },
+     {
+      "text": "Public provision means no resources were needed.",
+      "truth": "false",
+      "explain": "Public services still use scarce labour, materials and funds."
+     },
+     {
+      "text": "A policy with benefits has no opportunity cost.",
+      "truth": "false",
+      "explain": "Benefits do not remove the alternatives forgone when resources are used."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

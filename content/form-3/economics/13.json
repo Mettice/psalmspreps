@@ -1,0 +1,599 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-13",
+   "name": "Planned economic system"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A planned system relies substantially on central decisions about resource allocation and production. Planners may set targets, direct inputs and decide priorities. Public ownership is often important in the textbook model. Planning can coordinate large projects or priorities, but requires information about needs, resources and trade-offs. Weak information or incentives can lead to mismatches between targets and actual needs. Discuss the model without assuming that every public project makes an economy fully planned.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A planned system relies substantially on central decisions about resource allocation and production. Planners may set targets, direct inputs and decide priorities. Public ownership is often important in the textbook model. Planning can coordinate large projects or priorities, but requires information about needs, resources and trade-offs. Weak information or incentives can lead to mismatches between targets and actual needs. Discuss the model without assuming that every public project makes an economy fully planned."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "An imagined planning office allocates equipment to food production and housing under a common plan. It must decide what to make, how to use resources and who receives output. If information about local needs is poor, the plan can produce too much of one item and too little of another. This is a hypothetical model, not a claim about a particular government's current arrangements."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the decision maker and the instructions given. Compare intended priorities with the information needed to meet them. Consider both coordination benefits and the risks of rigid targets. Avoid the claim that money, choice or local planning must vanish in every economy using planning."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "central planning",
+    "meaning": "allocation coordinated substantially through central decisions"
+   },
+   {
+    "word": "production target",
+    "meaning": "an intended output level or goal in a plan"
+   },
+   {
+    "word": "information problem",
+    "meaning": "difficulty obtaining the knowledge needed for allocation"
+   },
+   {
+    "word": "coordination",
+    "meaning": "aligning related activities toward a goal"
+   }
+  ],
+  "examples": [
+   "An imagined office directs inputs to stated production targets.",
+   "A planning body sets the amount a workshop should produce.",
+   "An office lacks reliable reports of local demand."
+  ],
+  "mistake": {
+   "wrong": "Central planning means every producer independently follows only market prices.",
+   "right": "central planning: allocation coordinated substantially through central decisions.",
+   "why": "Central instructions are different from predominantly decentralised price coordination."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An imagined office directs inputs to stated production targets. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Allocation coordinated substantially through central decisions.",
+   "Central instructions are different from predominantly decentralised price coordination."
+  ],
+  "answer": "central planning",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-13-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "central planning: allocation coordinated substantially through central decisions.",
+     "production target: an intended output level or goal in a plan.",
+     "information problem: difficulty obtaining the knowledge needed for allocation.",
+     "coordination: aligning related activities toward a goal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-13-terms"
+    }
+   },
+   {
+    "id": "cn3-13-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "An imagined office directs inputs to stated production targets.",
+     "central planning: allocation coordinated substantially through central decisions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-13-cases"
+    }
+   },
+   {
+    "id": "cn3-13-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Central planning means every producer independently follows only market prices.",
+     "Central instructions are different from predominantly decentralised price coordination."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-13-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "central planning: allocation coordinated substantially through central decisions.",
+        "truth": "true",
+        "explain": "This statement is correct: central planning means allocation coordinated substantially through central decisions. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "production target: an intended output level or goal in a plan.",
+        "truth": "true",
+        "explain": "This statement is correct: production target means an intended output level or goal in a plan. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "information problem: difficulty obtaining the knowledge needed for allocation.",
+        "truth": "true",
+        "explain": "This statement is correct: information problem means difficulty obtaining the knowledge needed for allocation. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "coordination: aligning related activities toward a goal.",
+        "truth": "true",
+        "explain": "This statement is correct: coordination means aligning related activities toward a goal. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Central planning means every producer independently follows only market prices.",
+        "truth": "false",
+        "explain": "Central instructions are different from predominantly decentralised price coordination."
+       },
+       {
+        "text": "A target is proof that the output was achieved.",
+        "truth": "false",
+        "explain": "An intended goal and the actual result must be distinguished."
+       },
+       {
+        "text": "A central office automatically knows every local need.",
+        "truth": "false",
+        "explain": "Reliable and timely local knowledge is needed; it is not automatic."
+       },
+       {
+        "text": "Coordination eliminates every possible trade-off.",
+        "truth": "false",
+        "explain": "Activities can be aligned while scarce resources still require choices."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-13-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: allocation coordinated substantially through central decisions ?",
+       "r": "central planning",
+       "w": [
+        "production target",
+        "information problem",
+        "coordination"
+       ],
+       "e": [
+        "production target means an intended output level or goal in a plan; the question instead describes allocation coordinated substantially through central decisions.",
+        "information problem means difficulty obtaining the knowledge needed for allocation; the question instead describes allocation coordinated substantially through central decisions.",
+        "coordination means aligning related activities toward a goal; the question instead describes allocation coordinated substantially through central decisions."
+       ],
+       "y": "Allocation coordinated substantially through central decisions."
+      },
+      {
+       "q": "Which term means: an intended output level or goal in a plan ?",
+       "r": "production target",
+       "w": [
+        "central planning",
+        "information problem",
+        "coordination"
+       ],
+       "e": [
+        "central planning means allocation coordinated substantially through central decisions; the question instead describes an intended output level or goal in a plan.",
+        "information problem means difficulty obtaining the knowledge needed for allocation; the question instead describes an intended output level or goal in a plan.",
+        "coordination means aligning related activities toward a goal; the question instead describes an intended output level or goal in a plan."
+       ],
+       "y": "An intended output level or goal in a plan."
+      },
+      {
+       "q": "Which term means: difficulty obtaining the knowledge needed for allocation ?",
+       "r": "information problem",
+       "w": [
+        "central planning",
+        "production target",
+        "coordination"
+       ],
+       "e": [
+        "central planning means allocation coordinated substantially through central decisions; the question instead describes difficulty obtaining the knowledge needed for allocation.",
+        "production target means an intended output level or goal in a plan; the question instead describes difficulty obtaining the knowledge needed for allocation.",
+        "coordination means aligning related activities toward a goal; the question instead describes difficulty obtaining the knowledge needed for allocation."
+       ],
+       "y": "Difficulty obtaining the knowledge needed for allocation."
+      },
+      {
+       "q": "Which term means: aligning related activities toward a goal ?",
+       "r": "coordination",
+       "w": [
+        "central planning",
+        "production target",
+        "information problem"
+       ],
+       "e": [
+        "central planning means allocation coordinated substantially through central decisions; the question instead describes aligning related activities toward a goal.",
+        "production target means an intended output level or goal in a plan; the question instead describes aligning related activities toward a goal.",
+        "information problem means difficulty obtaining the knowledge needed for allocation; the question instead describes aligning related activities toward a goal."
+       ],
+       "y": "Aligning related activities toward a goal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-13-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An imagined office directs inputs to stated production targets.\nWhich term best fits this example?",
+       "r": "central planning",
+       "w": [
+        "production target",
+        "information problem",
+        "coordination"
+       ],
+       "e": [
+        "production target concerns an intended output level or goal in a plan. This case instead illustrates allocation coordinated substantially through central decisions.",
+        "information problem concerns difficulty obtaining the knowledge needed for allocation. This case instead illustrates allocation coordinated substantially through central decisions.",
+        "coordination concerns aligning related activities toward a goal. This case instead illustrates allocation coordinated substantially through central decisions."
+       ],
+       "y": "An imagined office directs inputs to stated production targets. Allocation coordinated substantially through central decisions."
+      },
+      {
+       "q": "A planning body sets the amount a workshop should produce.\nWhich term best fits this example?",
+       "r": "production target",
+       "w": [
+        "central planning",
+        "information problem",
+        "coordination"
+       ],
+       "e": [
+        "central planning concerns allocation coordinated substantially through central decisions. This case instead illustrates an intended output level or goal in a plan.",
+        "information problem concerns difficulty obtaining the knowledge needed for allocation. This case instead illustrates an intended output level or goal in a plan.",
+        "coordination concerns aligning related activities toward a goal. This case instead illustrates an intended output level or goal in a plan."
+       ],
+       "y": "A planning body sets the amount a workshop should produce. An intended output level or goal in a plan."
+      },
+      {
+       "q": "An office lacks reliable reports of local demand.\nWhich term best fits this example?",
+       "r": "information problem",
+       "w": [
+        "central planning",
+        "production target",
+        "coordination"
+       ],
+       "e": [
+        "central planning concerns allocation coordinated substantially through central decisions. This case instead illustrates difficulty obtaining the knowledge needed for allocation.",
+        "production target concerns an intended output level or goal in a plan. This case instead illustrates difficulty obtaining the knowledge needed for allocation.",
+        "coordination concerns aligning related activities toward a goal. This case instead illustrates difficulty obtaining the knowledge needed for allocation."
+       ],
+       "y": "An office lacks reliable reports of local demand. Difficulty obtaining the knowledge needed for allocation."
+      },
+      {
+       "q": "A plan links transport, materials and construction schedules.\nWhich term best fits this example?",
+       "r": "coordination",
+       "w": [
+        "central planning",
+        "production target",
+        "information problem"
+       ],
+       "e": [
+        "central planning concerns allocation coordinated substantially through central decisions. This case instead illustrates aligning related activities toward a goal.",
+        "production target concerns an intended output level or goal in a plan. This case instead illustrates aligning related activities toward a goal.",
+        "information problem concerns difficulty obtaining the knowledge needed for allocation. This case instead illustrates aligning related activities toward a goal."
+       ],
+       "y": "A plan links transport, materials and construction schedules. Aligning related activities toward a goal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-13-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An imagined office directs inputs to stated production targets.\nWhich explanation justifies the classification?",
+       "r": "Allocation coordinated substantially through central decisions.",
+       "w": [
+        "An intended output level or goal in a plan.",
+        "Difficulty obtaining the knowledge needed for allocation.",
+        "Aligning related activities toward a goal."
+       ],
+       "e": [
+        "That explanation describes production target, rather than the relationship illustrated in this example.",
+        "That explanation describes information problem, rather than the relationship illustrated in this example.",
+        "That explanation describes coordination, rather than the relationship illustrated in this example."
+       ],
+       "y": "Central instructions are different from predominantly decentralised price coordination."
+      },
+      {
+       "q": "A planning body sets the amount a workshop should produce.\nWhich explanation justifies the classification?",
+       "r": "An intended output level or goal in a plan.",
+       "w": [
+        "Allocation coordinated substantially through central decisions.",
+        "Difficulty obtaining the knowledge needed for allocation.",
+        "Aligning related activities toward a goal."
+       ],
+       "e": [
+        "That explanation describes central planning, rather than the relationship illustrated in this example.",
+        "That explanation describes information problem, rather than the relationship illustrated in this example.",
+        "That explanation describes coordination, rather than the relationship illustrated in this example."
+       ],
+       "y": "An intended goal and the actual result must be distinguished."
+      },
+      {
+       "q": "An office lacks reliable reports of local demand.\nWhich explanation justifies the classification?",
+       "r": "Difficulty obtaining the knowledge needed for allocation.",
+       "w": [
+        "Allocation coordinated substantially through central decisions.",
+        "An intended output level or goal in a plan.",
+        "Aligning related activities toward a goal."
+       ],
+       "e": [
+        "That explanation describes central planning, rather than the relationship illustrated in this example.",
+        "That explanation describes production target, rather than the relationship illustrated in this example.",
+        "That explanation describes coordination, rather than the relationship illustrated in this example."
+       ],
+       "y": "Reliable and timely local knowledge is needed; it is not automatic."
+      },
+      {
+       "q": "A plan links transport, materials and construction schedules.\nWhich explanation justifies the classification?",
+       "r": "Aligning related activities toward a goal.",
+       "w": [
+        "Allocation coordinated substantially through central decisions.",
+        "An intended output level or goal in a plan.",
+        "Difficulty obtaining the knowledge needed for allocation."
+       ],
+       "e": [
+        "That explanation describes central planning, rather than the relationship illustrated in this example.",
+        "That explanation describes production target, rather than the relationship illustrated in this example.",
+        "That explanation describes information problem, rather than the relationship illustrated in this example."
+       ],
+       "y": "Activities can be aligned while scarce resources still require choices."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-13-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "central planning",
+     "right": "An imagined office directs inputs to stated production targets."
+    },
+    {
+     "left": "production target",
+     "right": "A planning body sets the amount a workshop should produce."
+    },
+    {
+     "left": "information problem",
+     "right": "An office lacks reliable reports of local demand."
+    },
+    {
+     "left": "coordination",
+     "right": "A plan links transport, materials and construction schedules."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "n3-13-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "central planning: allocation coordinated substantially through central decisions.",
+      "truth": "true",
+      "explain": "This statement is correct: central planning means allocation coordinated substantially through central decisions. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "production target: an intended output level or goal in a plan.",
+      "truth": "true",
+      "explain": "This statement is correct: production target means an intended output level or goal in a plan. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "information problem: difficulty obtaining the knowledge needed for allocation.",
+      "truth": "true",
+      "explain": "This statement is correct: information problem means difficulty obtaining the knowledge needed for allocation. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "coordination: aligning related activities toward a goal.",
+      "truth": "true",
+      "explain": "This statement is correct: coordination means aligning related activities toward a goal. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Central planning means every producer independently follows only market prices.",
+      "truth": "false",
+      "explain": "Central instructions are different from predominantly decentralised price coordination."
+     },
+     {
+      "text": "A target is proof that the output was achieved.",
+      "truth": "false",
+      "explain": "An intended goal and the actual result must be distinguished."
+     },
+     {
+      "text": "A central office automatically knows every local need.",
+      "truth": "false",
+      "explain": "Reliable and timely local knowledge is needed; it is not automatic."
+     },
+     {
+      "text": "Coordination eliminates every possible trade-off.",
+      "truth": "false",
+      "explain": "Activities can be aligned while scarce resources still require choices."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

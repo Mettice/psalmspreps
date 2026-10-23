@@ -1,0 +1,599 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-3",
+   "name": "Tools of analysis: variables, tables and relationships"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Economists organise information using words, tables, diagrams and simple calculations. A variable can take different values, such as quantity sold. A table places observations in labelled rows and columns. Units identify what the values measure. A relationship describes how variables are associated. Association alone does not prove that one variable caused another to change: other influences may matter. Read the title, labels and units before using any values.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Economists organise information using words, tables, diagrams and simple calculations. A variable can take different values, such as quantity sold. A table places observations in labelled rows and columns. Units identify what the values measure. A relationship describes how variables are associated. Association alone does not prove that one variable caused another to change: other influences may matter. Read the title, labels and units before using any values."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A Bamenda trader records baskets of tomatoes sold on market days. A column headed baskets measures quantity, not CFA francs. A second column may record price per basket. Clear labels prevent a learner from adding a price to a quantity as though they measured the same thing. A record of higher sales on sunny days suggests a relationship to investigate, not proof that sunshine alone caused sales."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Name the variable and its unit. Read across the same row when comparing an observation. Keep price per item separate from total expenditure. When drawing a conclusion, say exactly which relationship the data show and which possible causes have not been checked."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "variable",
+    "meaning": "a quantity or characteristic that can take different values"
+   },
+   {
+    "word": "table",
+    "meaning": "information arranged in labelled rows and columns"
+   },
+   {
+    "word": "unit",
+    "meaning": "the measure in which a value is expressed"
+   },
+   {
+    "word": "association",
+    "meaning": "an observed relationship between variables"
+   }
+  ],
+  "examples": [
+   "The number of baskets sold changes from market day to market day.",
+   "A trader records each market day beside its quantity sold.",
+   "A heading says the price is in CFA francs per basket."
+  ],
+  "mistake": {
+   "wrong": "A variable must have the same value in every observation.",
+   "right": "variable: a quantity or characteristic that can take different values.",
+   "why": "It is called a variable because different values are possible."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The number of baskets sold changes from market day to market day. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A quantity or characteristic that can take different values.",
+   "It is called a variable because different values are possible."
+  ],
+  "answer": "variable",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-3-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "variable: a quantity or characteristic that can take different values.",
+     "table: information arranged in labelled rows and columns.",
+     "unit: the measure in which a value is expressed.",
+     "association: an observed relationship between variables."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-3-terms"
+    }
+   },
+   {
+    "id": "cn3-3-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The number of baskets sold changes from market day to market day.",
+     "variable: a quantity or characteristic that can take different values."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-3-cases"
+    }
+   },
+   {
+    "id": "cn3-3-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A variable must have the same value in every observation.",
+     "It is called a variable because different values are possible."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-3-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "variable: a quantity or characteristic that can take different values.",
+        "truth": "true",
+        "explain": "This statement is correct: variable means a quantity or characteristic that can take different values. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "table: information arranged in labelled rows and columns.",
+        "truth": "true",
+        "explain": "This statement is correct: table means information arranged in labelled rows and columns. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "unit: the measure in which a value is expressed.",
+        "truth": "true",
+        "explain": "This statement is correct: unit means the measure in which a value is expressed. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "association: an observed relationship between variables.",
+        "truth": "true",
+        "explain": "This statement is correct: association means an observed relationship between variables. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A variable must have the same value in every observation.",
+        "truth": "false",
+        "explain": "It is called a variable because different values are possible."
+       },
+       {
+        "text": "An unlabelled list always identifies the meaning of its values.",
+        "truth": "false",
+        "explain": "Rows, columns and headings are needed to make a table interpretable."
+       },
+       {
+        "text": "A price per basket is measured in baskets alone.",
+        "truth": "false",
+        "explain": "CFA francs per basket measures a unit price, not a physical quantity."
+       },
+       {
+        "text": "Every association proves a direct cause.",
+        "truth": "false",
+        "explain": "Other factors may explain a relationship; association alone does not establish causation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a quantity or characteristic that can take different values ?",
+       "r": "variable",
+       "w": [
+        "table",
+        "unit",
+        "association"
+       ],
+       "e": [
+        "table means information arranged in labelled rows and columns; the question instead describes a quantity or characteristic that can take different values.",
+        "unit means the measure in which a value is expressed; the question instead describes a quantity or characteristic that can take different values.",
+        "association means an observed relationship between variables; the question instead describes a quantity or characteristic that can take different values."
+       ],
+       "y": "A quantity or characteristic that can take different values."
+      },
+      {
+       "q": "Which term means: information arranged in labelled rows and columns ?",
+       "r": "table",
+       "w": [
+        "variable",
+        "unit",
+        "association"
+       ],
+       "e": [
+        "variable means a quantity or characteristic that can take different values; the question instead describes information arranged in labelled rows and columns.",
+        "unit means the measure in which a value is expressed; the question instead describes information arranged in labelled rows and columns.",
+        "association means an observed relationship between variables; the question instead describes information arranged in labelled rows and columns."
+       ],
+       "y": "Information arranged in labelled rows and columns."
+      },
+      {
+       "q": "Which term means: the measure in which a value is expressed ?",
+       "r": "unit",
+       "w": [
+        "variable",
+        "table",
+        "association"
+       ],
+       "e": [
+        "variable means a quantity or characteristic that can take different values; the question instead describes the measure in which a value is expressed.",
+        "table means information arranged in labelled rows and columns; the question instead describes the measure in which a value is expressed.",
+        "association means an observed relationship between variables; the question instead describes the measure in which a value is expressed."
+       ],
+       "y": "The measure in which a value is expressed."
+      },
+      {
+       "q": "Which term means: an observed relationship between variables ?",
+       "r": "association",
+       "w": [
+        "variable",
+        "table",
+        "unit"
+       ],
+       "e": [
+        "variable means a quantity or characteristic that can take different values; the question instead describes an observed relationship between variables.",
+        "table means information arranged in labelled rows and columns; the question instead describes an observed relationship between variables.",
+        "unit means the measure in which a value is expressed; the question instead describes an observed relationship between variables."
+       ],
+       "y": "An observed relationship between variables."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The number of baskets sold changes from market day to market day.\nWhich term best fits this example?",
+       "r": "variable",
+       "w": [
+        "table",
+        "unit",
+        "association"
+       ],
+       "e": [
+        "table concerns information arranged in labelled rows and columns. This case instead illustrates a quantity or characteristic that can take different values.",
+        "unit concerns the measure in which a value is expressed. This case instead illustrates a quantity or characteristic that can take different values.",
+        "association concerns an observed relationship between variables. This case instead illustrates a quantity or characteristic that can take different values."
+       ],
+       "y": "The number of baskets sold changes from market day to market day. A quantity or characteristic that can take different values."
+      },
+      {
+       "q": "A trader records each market day beside its quantity sold.\nWhich term best fits this example?",
+       "r": "table",
+       "w": [
+        "variable",
+        "unit",
+        "association"
+       ],
+       "e": [
+        "variable concerns a quantity or characteristic that can take different values. This case instead illustrates information arranged in labelled rows and columns.",
+        "unit concerns the measure in which a value is expressed. This case instead illustrates information arranged in labelled rows and columns.",
+        "association concerns an observed relationship between variables. This case instead illustrates information arranged in labelled rows and columns."
+       ],
+       "y": "A trader records each market day beside its quantity sold. Information arranged in labelled rows and columns."
+      },
+      {
+       "q": "A heading says the price is in CFA francs per basket.\nWhich term best fits this example?",
+       "r": "unit",
+       "w": [
+        "variable",
+        "table",
+        "association"
+       ],
+       "e": [
+        "variable concerns a quantity or characteristic that can take different values. This case instead illustrates the measure in which a value is expressed.",
+        "table concerns information arranged in labelled rows and columns. This case instead illustrates the measure in which a value is expressed.",
+        "association concerns an observed relationship between variables. This case instead illustrates the measure in which a value is expressed."
+       ],
+       "y": "A heading says the price is in CFA francs per basket. The measure in which a value is expressed."
+      },
+      {
+       "q": "Sunny market days in a small record also show higher sales.\nWhich term best fits this example?",
+       "r": "association",
+       "w": [
+        "variable",
+        "table",
+        "unit"
+       ],
+       "e": [
+        "variable concerns a quantity or characteristic that can take different values. This case instead illustrates an observed relationship between variables.",
+        "table concerns information arranged in labelled rows and columns. This case instead illustrates an observed relationship between variables.",
+        "unit concerns the measure in which a value is expressed. This case instead illustrates an observed relationship between variables."
+       ],
+       "y": "Sunny market days in a small record also show higher sales. An observed relationship between variables."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-3-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The number of baskets sold changes from market day to market day.\nWhich explanation justifies the classification?",
+       "r": "A quantity or characteristic that can take different values.",
+       "w": [
+        "Information arranged in labelled rows and columns.",
+        "The measure in which a value is expressed.",
+        "An observed relationship between variables."
+       ],
+       "e": [
+        "That explanation describes table, rather than the relationship illustrated in this example.",
+        "That explanation describes unit, rather than the relationship illustrated in this example.",
+        "That explanation describes association, rather than the relationship illustrated in this example."
+       ],
+       "y": "It is called a variable because different values are possible."
+      },
+      {
+       "q": "A trader records each market day beside its quantity sold.\nWhich explanation justifies the classification?",
+       "r": "Information arranged in labelled rows and columns.",
+       "w": [
+        "A quantity or characteristic that can take different values.",
+        "The measure in which a value is expressed.",
+        "An observed relationship between variables."
+       ],
+       "e": [
+        "That explanation describes variable, rather than the relationship illustrated in this example.",
+        "That explanation describes unit, rather than the relationship illustrated in this example.",
+        "That explanation describes association, rather than the relationship illustrated in this example."
+       ],
+       "y": "Rows, columns and headings are needed to make a table interpretable."
+      },
+      {
+       "q": "A heading says the price is in CFA francs per basket.\nWhich explanation justifies the classification?",
+       "r": "The measure in which a value is expressed.",
+       "w": [
+        "A quantity or characteristic that can take different values.",
+        "Information arranged in labelled rows and columns.",
+        "An observed relationship between variables."
+       ],
+       "e": [
+        "That explanation describes variable, rather than the relationship illustrated in this example.",
+        "That explanation describes table, rather than the relationship illustrated in this example.",
+        "That explanation describes association, rather than the relationship illustrated in this example."
+       ],
+       "y": "CFA francs per basket measures a unit price, not a physical quantity."
+      },
+      {
+       "q": "Sunny market days in a small record also show higher sales.\nWhich explanation justifies the classification?",
+       "r": "An observed relationship between variables.",
+       "w": [
+        "A quantity or characteristic that can take different values.",
+        "Information arranged in labelled rows and columns.",
+        "The measure in which a value is expressed."
+       ],
+       "e": [
+        "That explanation describes variable, rather than the relationship illustrated in this example.",
+        "That explanation describes table, rather than the relationship illustrated in this example.",
+        "That explanation describes unit, rather than the relationship illustrated in this example."
+       ],
+       "y": "Other factors may explain a relationship; association alone does not establish causation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-3-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "variable",
+     "right": "The number of baskets sold changes from market day to market day."
+    },
+    {
+     "left": "table",
+     "right": "A trader records each market day beside its quantity sold."
+    },
+    {
+     "left": "unit",
+     "right": "A heading says the price is in CFA francs per basket."
+    },
+    {
+     "left": "association",
+     "right": "Sunny market days in a small record also show higher sales."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "n3-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "variable: a quantity or characteristic that can take different values.",
+      "truth": "true",
+      "explain": "This statement is correct: variable means a quantity or characteristic that can take different values. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "table: information arranged in labelled rows and columns.",
+      "truth": "true",
+      "explain": "This statement is correct: table means information arranged in labelled rows and columns. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "unit: the measure in which a value is expressed.",
+      "truth": "true",
+      "explain": "This statement is correct: unit means the measure in which a value is expressed. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "association: an observed relationship between variables.",
+      "truth": "true",
+      "explain": "This statement is correct: association means an observed relationship between variables. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A variable must have the same value in every observation.",
+      "truth": "false",
+      "explain": "It is called a variable because different values are possible."
+     },
+     {
+      "text": "An unlabelled list always identifies the meaning of its values.",
+      "truth": "false",
+      "explain": "Rows, columns and headings are needed to make a table interpretable."
+     },
+     {
+      "text": "A price per basket is measured in baskets alone.",
+      "truth": "false",
+      "explain": "CFA francs per basket measures a unit price, not a physical quantity."
+     },
+     {
+      "text": "Every association proves a direct cause.",
+      "truth": "false",
+      "explain": "Other factors may explain a relationship; association alone does not establish causation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
