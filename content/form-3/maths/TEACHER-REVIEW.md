@@ -22,3 +22,10 @@ and the wording. Open items:
 - **TR-M3-9 (rows 16–19).** Angles are in degrees and the calculator is assumed to be in degree mode. Exact values: tan 30° = 1/√3 and
   sin 45° = 1/√2; the lesson also mentions the rationalised form √2/2. Sides and angles are given to 1 decimal place, distances to the
   nearest metre. The angle of depression is explained as equal to the angle of elevation (alternate angles).
+- **TR-M3-10 (rows 20–24).** In option lists a matrix is written on one line with semicolons between the rows, (2 3 ; 1 4); questions and
+  examples also draw the matrix with brackets. The inverse of a 2 × 2 matrix is written (1/|A|) × adj A. Inverse matrices are used to
+  solve simultaneous equations only where |A| = 1. Should other determinants be used too?
+- **TR-M3-11 (rows 25–26).** The congruence tests (SSS, SAS, ASA, RHS) and the proof reasons are written by hand. SSA and AAA are
+  taught as "not tests".
+- **TR-M3-12 (rows 27–30).** Thales is taught as AD/AB = AE/AC = DE/BC and AD/DB = AE/EC, with its converse. The contexts (map of a farm
+  near Kumba, river width, groundnut-oil tins priced in FCFA, minibus model) need a quick check that they are realistic.

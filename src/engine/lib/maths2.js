@@ -612,3 +612,17 @@ export function trigFig(base, height, hyp, angle = "θ", unit = "cm") {
   body += text(200, 178, lab(base)) + text(82, 104, lab(height), ` text-anchor="end"`) + text(212, 92, lab(hyp), ` text-anchor="start"`);
   return svg(340, 190, "A right-angled triangle with a marked angle", body);
 }
+/**
+ * Thales (intercept theorem): triangle ABC (A at the top) cut by DE parallel to BC, D on AB and E on AC.
+ * Each length is a number (cm), a letter, or "" to leave it unmarked: thalesFig(AD, DB, AE, EC, DE, BC).
+ */
+export function thalesFig(ad, db, ae, ec, de, bc, unit = "cm") {
+  const lab = (v) => (typeof v === "number" ? `${fmt(v)} ${unit}` : v);
+  const A = [170, 24], B = [40, 176], C = [300, 176], t = 0.45, D = [A[0] + (B[0] - A[0]) * t, A[1] + (B[1] - A[1]) * t], E = [A[0] + (C[0] - A[0]) * t, A[1] + (C[1] - A[1]) * t];
+  let body = `<path d="M${A} L${B} L${C} Z" stroke-width="1.5"/>` + line(D[0], D[1], E[0], E[1], ` stroke-width="1.5"`);
+  body += [["A", A, 0, -8], ["B", B, -10, 12], ["C", C, 10, 12], ["D", D, -12, 2], ["E", E, 12, 2]].map(([n, P, dx, dy]) => text(P[0] + dx, P[1] + dy, n, ` font-weight="bold"`)).join("");
+  body += text((A[0] + D[0]) / 2 - 14, (A[1] + D[1]) / 2, lab(ad), ` text-anchor="end"`) + text((D[0] + B[0]) / 2 - 14, (D[1] + B[1]) / 2, lab(db), ` text-anchor="end"`);
+  body += text((A[0] + E[0]) / 2 + 14, (A[1] + E[1]) / 2, lab(ae), ` text-anchor="start"`) + text((E[0] + C[0]) / 2 + 14, (E[1] + C[1]) / 2, lab(ec), ` text-anchor="start"`);
+  body += text((D[0] + E[0]) / 2, D[1] - 6, lab(de)) + text(170, 192, lab(bc));
+  return svg(340, 200, "Triangle ABC with DE parallel to BC", body);
+}

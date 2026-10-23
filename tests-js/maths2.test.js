@@ -147,7 +147,7 @@ test("Form 3: trigonometry in degrees, logarithms, 2 × 2 matrices and their dra
   assert.deepEqual(m.matT(A), [[2, 1], [3, 4]]); assert.deepEqual(m.adj2(A), [[4, -3], [-1, 2]]);
   assert.deepEqual(m.matMul(A, m.adj2(A)), [[5, 0], [0, 5]], "A × adj A = det A × I");
   assert.equal(m.matStr([[2, -3], [1, 4]]), "(2  −3 ; 1  4)");
-  for (const f of [m.matFig([["A", A], ["B", B]]), m.trigFig(12, 5, "x", 30), m.trigFig("adj", "opp", "hyp")]) {
+  for (const f of [m.matFig([["A", A], ["B", B]]), m.trigFig(12, 5, "x", 30), m.trigFig("adj", "opp", "hyp"), m.thalesFig(4, 6, "x", 9, "", 15)]) {
     assert.match(f, /^<svg [^>]*role="img"/); assert.doesNotMatch(f, /NaN|undefined/);
   }
 });

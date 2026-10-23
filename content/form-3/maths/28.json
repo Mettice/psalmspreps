@@ -1,0 +1,469 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [
+  27
+ ],
+ "skills": [
+  {
+   "id": "m3-28",
+   "name": "Areas and volumes of similar figures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "If two figures are similar with linear scale factor k:\n• lengths are multiplied by k;\n• areas are multiplied by k²;\n• volumes (and masses of the same material) are multiplied by k³.\nGoing back: if areas are in the ratio 4 : 9, lengths are in the ratio 2 : 3 (square roots); if volumes are in the ratio 8 : 27, lengths are 2 : 3 (cube roots).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Why areas grow faster",
+    "text": "Double every length of a {1} cm square: it becomes {2} cm by {2} cm, and its area goes from {1} cm² to {4} cm².\nArea is length × length, so a length factor k gives an area factor k × k = k².\nFor k = {3}, areas are multiplied by {9}. A floor plan drawn three times larger needs nine times as much paper."
+   },
+   {
+    "heading": "And volumes faster still",
+    "text": "Volume is length × length × length, so the volume factor is k³.\nDouble the sides of a cube: the volume is multiplied by {8}. A tin twice as tall (and similar) holds eight times as much.\nObjects made of the same material have mass proportional to volume, so masses also go up by k³."
+   },
+   {
+    "heading": "Working backwards",
+    "text": "If you know the ratio of areas, take square roots to get the length ratio: areas {16} : {25} → lengths {4} : {5}.\nIf you know the ratio of volumes, take cube roots: volumes {8} : {125} → lengths {2} : {5}.\nThen use the length ratio to find whatever you need."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "linear scale factor",
+    "meaning": "k, for lengths"
+   },
+   {
+    "word": "area factor",
+    "meaning": "k²"
+   },
+   {
+    "word": "volume factor",
+    "meaning": "k³"
+   }
+  ],
+  "examples": [
+   "k = {4}: area × {16}, volume × {64}",
+   "Volumes {27} : {64} → lengths {3} : {4} → areas {9} : {16}"
+  ],
+  "mistake": {
+   "wrong": "Lengths doubled, so the area is doubled",
+   "right": "The area is multiplied by {2}² = {4}",
+   "why": "Area uses two lengths, so the factor is applied twice."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 3,
+   "A": 5
+  },
+  "problem": "Two similar triangles have corresponding sides {2} cm and {2 * k} cm. The smaller has area {A} cm². Find the area of the larger.",
+  "steps": [
+   "Linear scale factor k = {2 * k} ÷ {2} = {k}.",
+   "Area scale factor = k² = {k * k}.",
+   "Larger area = {k * k} × {A} = {k * k * A} cm²."
+  ],
+  "answer": "{k * k * A} cm²",
+  "checks": [
+   "k * k * A == 45"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m28-1",
+    "status": "draft",
+    "idea": "Area scale factor = k².",
+    "vars": {},
+    "example": [
+     "k = {2}: areas are multiplied by {4}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-28-area"
+    }
+   },
+   {
+    "id": "c3m28-2",
+    "status": "draft",
+    "idea": "Volume scale factor = k³.",
+    "vars": {},
+    "example": [
+     "k = {2}: volumes are multiplied by {8}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-28-vol-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "similarity"
+     ],
+     "vars": {
+      "h": {
+       "int": [
+        4,
+        10
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        4
+       ]
+      },
+      "V": {
+       "int": [
+        50,
+        400
+       ],
+       "step": 50
+      }
+     },
+     "prompt": "Two similar tins of tomato paste have heights {h} cm and {h * k} cm. The small tin holds {V} cm³. How much does the large tin hold (cm³)?",
+     "answer": "k * k * k * V",
+     "misconceptions": [
+      {
+       "id": "lin",
+       "wrong": "k * V",
+       "explain": "Volumes use k³."
+      },
+      {
+       "id": "sq",
+       "wrong": "k * k * V",
+       "explain": "k² is for areas; volumes use k³."
+      }
+     ],
+     "solution": [
+      "k = {h * k} ÷ {h} = {k}.",
+      "Volume scale factor = {k}³ = {k * k * k}.",
+      "Volume = {k * k * k} × {V} = {answer} cm³."
+     ],
+     "unit": "cm³"
+    }
+   },
+   {
+    "id": "c3m28-3",
+    "status": "draft",
+    "idea": "From an area ratio, take square roots to get the length ratio.",
+    "vars": {},
+    "example": [
+     "Areas {9} : {25} → lengths {3} : {5}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-28-back-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "similarity"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        1,
+        4
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "m": {
+       "int": [
+        1,
+        3
+       ]
+      },
+      "n": {
+       "int": [
+        1,
+        5
+       ]
+      }
+     },
+     "prompt": "Two similar figures have areas {a * a * m} cm² and {b * b * m} cm². The smaller has a side of {a * n} cm. Find the matching side of the larger (cm).",
+     "answer": "b * n",
+     "misconceptions": [
+      {
+       "id": "nosqrt",
+       "wrong": "a * n * b * b / (a * a)",
+       "explain": "The area ratio is k²: take the square root to get the length ratio."
+      }
+     ],
+     "solution": [
+      "Area ratio {a * a * m} : {b * b * m} = {a * a} : {b * b}.",
+      "Length ratio = √ = {a} : {b}, so k = {b} ÷ {a}.",
+      "Side = {a * n} × {b} ÷ {a} = {answer} cm."
+     ],
+     "unit": "cm",
+     "where": [
+      "a < b",
+      "a * n * b * b / (a * a) != b * n"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-28-area",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "A": {
+     "int": [
+      2,
+      20
+     ]
+    }
+   },
+   "prompt": "Two similar shapes have linear scale factor {k}. The smaller has area {A} cm². Find the area of the larger (cm²).",
+   "answer": "k * k * A",
+   "misconceptions": [
+    {
+     "id": "lin",
+     "wrong": "k * A",
+     "explain": "Areas use k², not k: {k} × {k} = {k * k}."
+    },
+    {
+     "id": "cube",
+     "wrong": "k * k * k * A",
+     "explain": "k³ is for volumes; areas use k²."
+    }
+   ],
+   "solution": [
+    "Area scale factor = {k}² = {k * k}.",
+    "Area = {k * k} × {A} = {answer} cm²."
+   ],
+   "unit": "cm²"
+  },
+  {
+   "id": "m3-28-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      4,
+      10
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "V": {
+     "int": [
+      50,
+      400
+     ],
+     "step": 50
+    }
+   },
+   "prompt": "Two similar tins of tomato paste have heights {h} cm and {h * k} cm. The small tin holds {V} cm³. How much does the large tin hold (cm³)?",
+   "answer": "k * k * k * V",
+   "misconceptions": [
+    {
+     "id": "lin",
+     "wrong": "k * V",
+     "explain": "Volumes use k³."
+    },
+    {
+     "id": "sq",
+     "wrong": "k * k * V",
+     "explain": "k² is for areas; volumes use k³."
+    }
+   ],
+   "solution": [
+    "k = {h * k} ÷ {h} = {k}.",
+    "Volume scale factor = {k}³ = {k * k * k}.",
+    "Volume = {k * k * k} × {V} = {answer} cm³."
+   ],
+   "unit": "cm³"
+  },
+  {
+   "id": "m3-28-back",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "m": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "Two similar figures have areas {a * a * m} cm² and {b * b * m} cm². The smaller has a side of {a * n} cm. Find the matching side of the larger (cm).",
+   "answer": "b * n",
+   "misconceptions": [
+    {
+     "id": "nosqrt",
+     "wrong": "a * n * b * b / (a * a)",
+     "explain": "The area ratio is k²: take the square root to get the length ratio."
+    }
+   ],
+   "solution": [
+    "Area ratio {a * a * m} : {b * b * m} = {a * a} : {b * b}.",
+    "Length ratio = √ = {a} : {b}, so k = {b} ÷ {a}.",
+    "Side = {a * n} × {b} ÷ {a} = {answer} cm."
+   ],
+   "unit": "cm",
+   "where": [
+    "a < b",
+    "a * n * b * b / (a * a) != b * n"
+   ]
+  },
+  {
+   "id": "m3-28-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "M": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Two similar statues are made of the same wood. Their heights are {p} cm and {q} cm. The small one has mass {M} g. Find the mass of the large one (g).",
+   "answer": "M * q * q * q / (p * p * p)",
+   "misconceptions": [
+    {
+     "id": "lin",
+     "wrong": "M * q / p",
+     "explain": "Mass goes with volume: use k³, not k."
+    }
+   ],
+   "solution": [
+    "Mass is proportional to volume: factor k³.",
+    "k = {q} ÷ {p}; k³ = {q * q * q} ÷ {p * p * p}.",
+    "Mass = {M} × {q * q * q} ÷ {p * p * p} = {answer} g."
+   ],
+   "unit": "g",
+   "where": [
+    "p < q",
+    "(M * q * q * q) % (p * p * p) == 0"
+   ]
+  },
+  {
+   "id": "m3-28-volarea",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "A": {
+     "int": [
+      36,
+      900
+     ],
+     "step": 36
+    }
+   },
+   "prompt": "Two similar jugs have volumes {a * a * a} litres and {b * b * b} litres. The surface area of the small jug is {A} cm². Find the surface area of the large jug (cm²).",
+   "answer": "A * b * b / (a * a)",
+   "misconceptions": [
+    {
+     "id": "vol",
+     "wrong": "A * b * b * b / (a * a * a)",
+     "explain": "Areas use k², not k³: first find k from the cube root."
+    },
+    {
+     "id": "lin",
+     "wrong": "A * b / a",
+     "explain": "Areas use k²."
+    }
+   ],
+   "solution": [
+    "Volume ratio = k³ = {b * b * b} ÷ {a * a * a}, so k = {b} ÷ {a} (cube root).",
+    "Area factor = k² = {b * b} ÷ {a * a}.",
+    "Area = {A} × {b * b} ÷ {a * a} = {answer} cm²."
+   ],
+   "unit": "cm²",
+   "where": [
+    "a < b",
+    "(A * b * b) % (a * a) == 0"
+   ]
+  }
+ ]
+}
