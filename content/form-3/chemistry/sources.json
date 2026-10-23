@@ -1,0 +1,6 @@
+{
+ "_note": "Sources for Form 3 Chemistry (content/classes.json, form-3). Atomic data from src/engine/lib/chemistry.js and science2.js (atomicNumber, massNumber, shellList, valency; tested).",
+ "atoms": {"ref": "Form 3 Chemistry syllabus, Term 1: structure of the atom, diffusion and Brownian motion, subatomic particles, atomic and mass numbers", "checked": "Numbers of particles computed from the element table (science2.js); particle properties and experiments authored."},
+ "isotopes": {"ref": "Form 3 Chemistry syllabus, Term 1: isotopy and calculation of relative atomic mass", "checked": "RAM computed from isotope masses and abundances; natural abundances (Cl 75/25, Cu 69/31, B 20/80, Ne 90/10, Br 50/50) authored, rounded as in school textbooks."},
+ "mole": {"ref": "Form 3 Chemistry syllabus, Term 1: RAM of an element, the mole of atoms and the Avogadro constant", "checked": "Moles, masses and numbers of atoms computed (L = 6.02 × 10²³); RAMs rounded to whole numbers as in school data sheets."}
+}
