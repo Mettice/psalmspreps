@@ -3779,7 +3779,8 @@ return { COVERAGE, MASTERY, skillsOf, skillOf, emptyState, applyChecklist, apply
 __mods["teach.js"] = (() => {
 // Teach mode (decision 2026-10-02: the app is the pupil's main teacher).
 //
-//   cards (3-4: one idea + a tiny example + 1 level-1 check question each)
+//   optional Learn screens (sections, then key words, examples and a common mistake)
+//   → cards (3-4: one idea + a tiny example + 1 level-1 check question each)
 //   → worked example → optional subject activity (ordered questions + optional paper reflection)
 //   → practice (one question per template, levels 1 to 3) → the note, as a summary.
 //
@@ -3813,6 +3814,28 @@ function renderCard(card, lib) {
   };
 }
 
+/**
+ * The Learn screens before the cards (2026-10-23: pupils found a one-line idea too brief before the questions).
+ * learn: {status, vars?, checks?, sections: [{heading, text, figure?}], key_words?: [{word, meaning}],
+ * examples?: [text], mistake?: {wrong, right, why}}. One page per section, then one page of key words, examples
+ * and the common mistake. Every number is computed, as in cards.
+ */
+function renderLearn(lesson, lib) {
+  const l = lesson.learn;
+  const scope = sampleScope(l.vars, null, makeRng(1), lib);
+  const R = (t) => render(t, scope, lib, show(lib));
+  const pages = l.sections.map((s) => ({ heading: R(s.heading), text: R(s.text),
+    ...(s.figure ? { figure: String(evaluate(s.figure, scope, lib)) } : {}) }));
+  if (l.key_words?.length || l.examples?.length || l.mistake) {
+    pages.push({ words: (l.key_words || []).map((k) => ({ word: R(k.word), meaning: R(k.meaning) })),
+      examples: (l.examples || []).map(R),
+      ...(l.mistake ? { mistake: { wrong: R(l.mistake.wrong), right: R(l.mistake.right), why: R(l.mistake.why) } } : {}) });
+  }
+  return { pages, failedChecks: (l.checks || []).filter((c) => evaluate(c, scope, lib) !== true) };
+}
+const learnPages = (lesson) => (lesson.learn ? lesson.learn.sections.length
+  + (lesson.learn.key_words?.length || lesson.learn.examples?.length || lesson.learn.mistake ? 1 : 0) : 0);
+
 /** Practice list: every template of the lesson once, easiest first. */
 function practicePlan(lesson) {
   return [...lesson.questions].sort((a, b) => a.level - b.level).map((t) => t.id);
@@ -3826,6 +3849,7 @@ function practicePlan(lesson) {
 function lessonSteps(lesson) {
   if (isDeferred(lesson)) throw new Error(`lesson ${lesson.lesson_no} is deferred: ${lesson.deferred_reason}`);
   return [
+    ...Array.from({ length: learnPages(lesson) }, (_, i) => ({ kind: "learn", page: i })),
     ...lesson.teach.cards.map((_, i) => ({ kind: "card", card: i })),
     ...(lesson.worked_example ? [{ kind: "worked_example" }] : []),
     ...(lesson.activity?.stages || []).map((stage, i) => ({ kind: "activity", stage: i, template: stage.question.id })),
@@ -3955,7 +3979,7 @@ const isDone = (flow) => flow.step >= flow.steps.length;
 /** Steps the pupil missed twice, for the results and for later review. */
 const needsReview = (flow) => flow.log.filter((e) => e.needsReview).map((e) => flow.steps[e.step]);
 
-return { cardCheckTemplate, renderCard, practicePlan, lessonSteps, isDeferred, isAutoMarked, renderPaper, stepTemplate, startTeach, startReview, checkSeed, itemQuestion, exampleLike, cardQuestion, nextPhase, answerItem, answerCard, isDone, needsReview };
+return { cardCheckTemplate, renderCard, renderLearn, practicePlan, lessonSteps, isDeferred, isAutoMarked, renderPaper, stepTemplate, startTeach, startReview, checkSeed, itemQuestion, exampleLike, cardQuestion, nextPhase, answerItem, answerCard, isDone, needsReview };
 })();
 __mods["readiness.js"] = (() => {
 // Lesson 0: Primary 6 readiness check. Sets a readiness score and flags weak foundations.
@@ -4007,7 +4031,7 @@ const CLASSES = {"form-1":"Form One","form-2":"Form Two"};
 const CLASS_OF = {"f2-history":"form-2","f2-biology":"form-2","f2-computer-science":"form-2","f2-french":"form-2","f2-francais-intensif":"form-2","f2-accounting":"form-2"};
 const PAPER = {"f2-history":[],"f2-biology":[],"f2-computer-science":[],"f2-french":[81],"f2-francais-intensif":[110,117,122,124,128],"f2-accounting":[]};
 const MODE = "single";
-const BUILD = "2026-10-21";
+const BUILD = "2026-10-23";
 const VERSIONS = {};
 const SHARE = {};
 const TERM = 2;
@@ -4121,6 +4145,8 @@ const FR = {
   "Here is how to do it": "Voici comment faire", "Full working": "La solution complète", "We will come back to this one later.": "Nous reviendrons sur cette question plus tard.",
   "Continue": "Continuer", "Lesson {n} done": "Leçon {n} terminée", "You completed {a} questions.": "Tu as répondu à {a} questions.",
   "Here is one like it": "En voici un pareil", "Here is how to do this one": "Voici comment faire celui-ci", "Show the next step": "Voir l’étape suivante",
+  "Lesson {n} · Learn {a} of {b}": "Leçon {n} · J’apprends {a} sur {b}", "Key words and examples": "Mots clés et exemples", "Key words": "Mots clés",
+  "Examples": "Exemples", "Common mistake": "Erreur fréquente", "Wrong: {a}": "Faux : {a}", "Right: {a}": "Juste : {a}", "Now the key ideas": "Passons aux idées clés",
   "Step by step": "Étape par étape", "Fill in each box, then check.": "Remplis chaque case, puis vérifie.", "Box {a}": "Case {a}",
   "Next: Lesson {a}": "Suivant : Leçon {a}", "🔥 {a}-day streak": "🔥 {a} jours d’affilée", "New badge: {a}": "Nouveau badge : {a}", "All subjects": "Toutes les matières", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
 };
@@ -4579,6 +4605,18 @@ function lesson(flow, previous = null) {
   const go = (next, prev = null) => () => lesson(next, prev);
   const bar = progress(flow.step + 1, flow.steps.length);
 
+  if (step.kind === "learn") {
+    const pages = teach.renderLearn(Ln, LIB()).pages, p = pages[step.page];
+    const head = header(T("Lesson {n} · Learn {a} of {b}", { n, a: step.page + 1, b: pages.length }), p.heading || T("Key words and examples"));
+    const body = p.heading !== undefined ? [el("div", { class: "note" }, ...lines(p.text)), figureBox(p.figure)] : [
+      p.words.length ? el("div", { class: "example" }, el("div", { class: "kicker" }, T("Key words")),
+        ...p.words.map((k) => el("p", {}, el("strong", {}, k.word), " — ", k.meaning))) : null,
+      p.examples.length ? el("div", { class: "example" }, el("div", { class: "kicker" }, T("Examples")), el("ul", {}, p.examples.map((x) => el("li", {}, x)))) : null,
+      p.mistake ? el("div", { class: "hint" }, el("strong", {}, T("Common mistake")), para(T("Wrong: {a}", { a: p.mistake.wrong })),
+        para(T("Right: {a}", { a: p.mistake.right }), "strong"), para(p.mistake.why)) : null];
+    const last = step.page === pages.length - 1;
+    return screen(bar, head, ...body, button(T(last ? "Now the key ideas" : "Next"), go(teach.nextPhase(flow)), "primary"), toMenu());
+  }
   if (step.kind === "card" && flow.phase === "idea") {
     const c = teach.renderCard(Ln.teach.cards[step.card], LIB());
     return screen(bar, header(kicker, TITLES[S][n]), el("div", { class: "idea" }, c.idea), cardExample(c),
@@ -4829,7 +4867,7 @@ let RS = Object.keys(SUBJECTS)[0];  // subject shown in review mode
 /** Every reviewable part of a lesson, in teaching order: note, cards (with their check), worked example, practice. */
 function reviewItems(s, n) {
   const l = CONTENT[s][n];
-  const items = [{ id: "note", kind: "Note (summary)" }];
+  const items = [...(l.learn ? [{ id: "learn", kind: "Learn screens" }] : []), { id: "note", kind: "Note (summary)" }];
   for (const c of l.teach.cards) items.push({ id: c.id, kind: "Teach card", card: c });
   items.push({ id: "worked", kind: "Worked example" });
   for (const stage of l.activity?.stages || []) items.push({ id: stage.question.id, kind: `Subject activity · ${stage.title}`, tpl: stage.question });
@@ -4870,6 +4908,11 @@ function shownQuestion(q, tpl) {
 function itemBody(s, n, it, seed) {
   const l = CONTENT[s][n], lib = libs[s];
   if (it.id === "note") return [el("div", { class: "note" }, ...lines(l.note.text))];
+  if (it.id === "learn") {
+    return teach.renderLearn(l, lib).pages.flatMap((p) => (p.heading !== undefined ? [el("div", { class: "kicker" }, p.heading), el("div", { class: "note" }, ...lines(p.text)), figureBox(p.figure)] : [
+      el("div", { class: "kicker" }, "Key words"), ...p.words.map((k) => para(`${k.word} — ${k.meaning}`)), el("div", { class: "kicker" }, "Examples"), el("ul", {}, p.examples.map((x) => el("li", {}, x))),
+      ...(p.mistake ? [el("div", { class: "kicker" }, "Common mistake"), para(`Wrong: ${p.mistake.wrong}`), para(`Right: ${p.mistake.right}`, "strong"), para(p.mistake.why)] : [])]));
+  }
   if (it.id === "worked") {
     const w = renderWorked(l.worked_example, lib);
     return [el("div", { class: "strong pre" }, w.problem), figureBox(w.figure), el("ol", {}, w.steps.map((x) => el("li", {}, x))), para(`Answer: ${w.answer}`, "strong")];

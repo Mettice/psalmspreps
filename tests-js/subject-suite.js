@@ -5,7 +5,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import { instantiate, check, renderWorked } from "../src/engine/template.js";
-import { renderCard, cardCheckTemplate, renderPaper, isDeferred, isAutoMarked } from "../src/engine/teach.js";
+import { renderCard, cardCheckTemplate, renderPaper, renderLearn, isDeferred, isAutoMarked } from "../src/engine/teach.js";
 
 const BAD_TEXT = /\bNaN\b|undefined|\[object Object\]|Infinity|\{|\}/;
 const words = (t) => t.split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
@@ -69,6 +69,27 @@ export function subjectSuite({ subject, spine, lib, batch, prefix, numbering = "
       for (const t of [r.problem, r.answer, ...r.steps]) assert.ok(!BAD_TEXT.test(t), `lesson ${l.lesson_no}: ${t}`);
       if (we.figure) figureOk(r.figure, `lesson ${l.lesson_no} worked example`);
       if (l.paper_task) assert.deepEqual(renderPaper(l, lib).failedChecks, []);
+    }
+  });
+
+  // Learn screens (2026-10-23): optional; 1–4 sections of at most 120 words, at most 450 words in all.
+  test(`${subject}: Learn screens are draft, short enough, with no typed numbers, checks pass`, () => {
+    for (const l of TAUGHT.filter((x) => x.learn)) {
+      const L = l.learn, where = `lesson ${l.lesson_no} learn`;
+      assert.equal(L.status, "draft", where);
+      assert.ok(L.sections.length >= 1 && L.sections.length <= 4, `${where}: ${L.sections.length} sections`);
+      const texts = [...L.sections.flatMap((s) => [s.heading, s.text]), ...(L.key_words || []).flatMap((k) => [k.word, k.meaning]),
+        ...(L.examples || []), ...(L.mistake ? [L.mistake.wrong, L.mistake.right, L.mistake.why] : [])];
+      for (const s of L.sections) assert.ok(s.heading && words(s.text) <= 120, `${where}: section "${s.heading}" has ${words(s.text)} words`);
+      assert.ok(words(texts.join(" ")) <= 450, `${where}: ${words(texts.join(" "))} words in all`);
+      for (const t of texts) assert.equal(literalDigits(t), null, `${where}: "${t}"`);
+      const r = renderLearn(l, lib);
+      assert.deepEqual(r.failedChecks, [], where);
+      for (const p of r.pages) {
+        for (const t of [p.heading, p.text, ...(p.words || []).flatMap((k) => [k.word, k.meaning]), ...(p.examples || []),
+          ...(p.mistake ? Object.values(p.mistake) : [])].filter((x) => x !== undefined)) assert.ok(!BAD_TEXT.test(t), `${where}: ${t}`);
+        if (p.figure) figureOk(p.figure, where);
+      }
     }
   });
 

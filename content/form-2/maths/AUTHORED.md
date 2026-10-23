@@ -1,4 +1,4 @@
-# Maths Form 2, Batches M2-1, M2-2: authored answers for review
+# Maths Form 2, Batches M2-1, M2-2, M2-3: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.

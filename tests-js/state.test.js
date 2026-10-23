@@ -6,7 +6,7 @@ import * as lib from "../src/engine/lib/maths.js";
 import { instantiate, check, DONT_KNOW } from "../src/engine/template.js";
 import { buildReadiness, scoreReadiness } from "../src/engine/readiness.js";
 import { emptyState, applyChecklist, applyReadiness, masteryOf, coverageOf, skillOf, skillsOf } from "../src/engine/state.js";
-import { startTeach, nextPhase, answerItem, isDone, lessonSteps, practicePlan, cardCheckTemplate, itemQuestion, needsReview } from "../src/engine/teach.js";
+import { startTeach, nextPhase, answerItem, isDone, lessonSteps, practicePlan, cardCheckTemplate, itemQuestion, needsReview, renderLearn } from "../src/engine/teach.js";
 
 const DIR = new URL("../content/maths/", import.meta.url);
 const lessons = Object.fromEntries(readdirSync(DIR).filter((f) => /^\d+\.json$/.test(f))
@@ -79,6 +79,24 @@ test("teach flow: cards → worked example → one practice step per template (e
   assert.deepEqual(steps.filter((s) => s.kind === "practice").map((s) => s.template), plan);
   const levels = plan.map((id) => lessons[3].questions.find((t) => t.id === id).level);
   assert.deepEqual(levels, [...levels].sort());
+});
+
+test("teach flow: Learn screens come first, one per section plus key words; they are read, not answered", () => {
+  const learn = { status: "draft", vars: { a: 3, b: 4 }, sections: [{ heading: "Adding", text: "{a} + {b} = {a + b}" }, { heading: "Order", text: "Either order works." }],
+    key_words: [{ word: "sum", meaning: "the answer to an addition" }], mistake: { wrong: "{a} + {b} = {a * b}", right: "{a} + {b} = {a + b}", why: "Add, do not multiply." } };
+  const l = { ...lessons[3], learn };
+  const steps = lessonSteps(l);
+  assert.deepEqual(steps.slice(0, 4).map((s) => s.kind), ["learn", "learn", "learn", "card"]);
+  const r = renderLearn(l, lib);
+  assert.equal(r.pages.length, 3);
+  assert.equal(r.pages[0].text, "3 + 4 = 7");
+  assert.equal(r.pages[2].mistake.wrong, "3 + 4 = 12");
+  let f = startTeach(l, 1);
+  assert.equal(f.phase, "read");
+  f = nextPhase(nextPhase(nextPhase(f)));
+  assert.deepEqual([f.step, f.phase], [3, "idea"]);
+  const noWords = lessonSteps({ ...lessons[3], learn: { ...learn, key_words: undefined, mistake: undefined } });
+  assert.equal(noWords.filter((s) => s.kind === "learn").length, 2);
 });
 
 test("teach flow: right moves on; 1st miss → retry with a fresh variant; 2nd miss → reveal working, needs review", () => {

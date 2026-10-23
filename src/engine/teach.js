@@ -1,6 +1,7 @@
 // Teach mode (decision 2026-10-02: the app is the pupil's main teacher).
 //
-//   cards (3-4: one idea + a tiny example + 1 level-1 check question each)
+//   optional Learn screens (sections, then key words, examples and a common mistake)
+//   → cards (3-4: one idea + a tiny example + 1 level-1 check question each)
 //   → worked example → optional subject activity (ordered questions + optional paper reflection)
 //   → practice (one question per template, levels 1 to 3) → the note, as a summary.
 //
@@ -35,6 +36,28 @@ export function renderCard(card, lib) {
   };
 }
 
+/**
+ * The Learn screens before the cards (2026-10-23: pupils found a one-line idea too brief before the questions).
+ * learn: {status, vars?, checks?, sections: [{heading, text, figure?}], key_words?: [{word, meaning}],
+ * examples?: [text], mistake?: {wrong, right, why}}. One page per section, then one page of key words, examples
+ * and the common mistake. Every number is computed, as in cards.
+ */
+export function renderLearn(lesson, lib) {
+  const l = lesson.learn;
+  const scope = sampleScope(l.vars, null, makeRng(1), lib);
+  const R = (t) => render(t, scope, lib, show(lib));
+  const pages = l.sections.map((s) => ({ heading: R(s.heading), text: R(s.text),
+    ...(s.figure ? { figure: String(evaluate(s.figure, scope, lib)) } : {}) }));
+  if (l.key_words?.length || l.examples?.length || l.mistake) {
+    pages.push({ words: (l.key_words || []).map((k) => ({ word: R(k.word), meaning: R(k.meaning) })),
+      examples: (l.examples || []).map(R),
+      ...(l.mistake ? { mistake: { wrong: R(l.mistake.wrong), right: R(l.mistake.right), why: R(l.mistake.why) } } : {}) });
+  }
+  return { pages, failedChecks: (l.checks || []).filter((c) => evaluate(c, scope, lib) !== true) };
+}
+const learnPages = (lesson) => (lesson.learn ? lesson.learn.sections.length
+  + (lesson.learn.key_words?.length || lesson.learn.examples?.length || lesson.learn.mistake ? 1 : 0) : 0);
+
 /** Practice list: every template of the lesson once, easiest first. */
 export function practicePlan(lesson) {
   return [...lesson.questions].sort((a, b) => a.level - b.level).map((t) => t.id);
@@ -48,6 +71,7 @@ export function practicePlan(lesson) {
 export function lessonSteps(lesson) {
   if (isDeferred(lesson)) throw new Error(`lesson ${lesson.lesson_no} is deferred: ${lesson.deferred_reason}`);
   return [
+    ...Array.from({ length: learnPages(lesson) }, (_, i) => ({ kind: "learn", page: i })),
     ...lesson.teach.cards.map((_, i) => ({ kind: "card", card: i })),
     ...(lesson.worked_example ? [{ kind: "worked_example" }] : []),
     ...(lesson.activity?.stages || []).map((stage, i) => ({ kind: "activity", stage: i, template: stage.question.id })),

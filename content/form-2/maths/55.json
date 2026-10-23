@@ -15,6 +15,70 @@
   "text": "A prism is a solid with two identical, parallel faces called the bases, joined by rectangular faces called the lateral faces. In a right prism the lateral faces are perpendicular to the bases.\nA prism is named after the shape of its base: triangular prism, rectangular prism (cuboid), pentagonal prism, hexagonal prism. A cube is a rectangular prism with all faces square.\nVocabulary: a face is a flat surface; an edge is where two faces meet; a vertex (plural vertices) is a corner where edges meet. The height of the prism is the distance between the two bases.\nExamples: a Toblerone-style box (triangular prism), a matchbox or brick (cuboid), a pencil (hexagonal prism).",
   "checks": []
  },
+ "learn": {
+  "status": "draft",
+  "vars": {
+   "n": 6
+  },
+  "sections": [
+   {
+    "heading": "What is a prism?",
+    "text": "Look at a brick, a matchbox or an unsharpened pencil. Each one has two ends that are exactly the same shape and size, and the ends face each other like the two covers of a book. These two ends are called the bases of the prism.\nThe faces that join one base to the other are called the lateral faces (lateral means 'at the side'). In a right prism they stand straight up from the base, at right angles, so each lateral face is a rectangle.",
+    "figure": "prismFig(4)"
+   },
+   {
+    "heading": "How a prism gets its name",
+    "text": "A prism is named after the shape of its base, not after its sides.\n• Base a triangle → triangular prism.\n• Base a rectangle → rectangular prism (a cuboid). A cube is a cuboid whose faces are all squares.\n• Base a pentagon → pentagonal prism. Base a hexagon → hexagonal prism, like a pencil.\nTo name a prism, find the two identical ends first, then count the sides of one of them.",
+    "figure": "prismFig(3)"
+   },
+   {
+    "heading": "Faces, edges and vertices",
+    "text": "Every lateral face matches one side of the base. A hexagonal base has {n} sides, so a hexagonal prism has {n} lateral faces. Add the two bases: {n} + {2} = {prismFaces(n)} faces in all.\nIt has {n} edges round each base and {n} edges joining the bases: {prismEdges(n)} edges.\nIt has {n} corners on each base: {prismVertices(n)} vertices.",
+    "figure": "prismFig(6)"
+   }
+  ],
+  "key_words": [
+   {
+    "word": "base",
+    "meaning": "one of the two identical, parallel end faces"
+   },
+   {
+    "word": "lateral face",
+    "meaning": "a side face joining the two bases (a rectangle in a right prism)"
+   },
+   {
+    "word": "face",
+    "meaning": "a flat surface of the solid"
+   },
+   {
+    "word": "edge",
+    "meaning": "a line where two faces meet"
+   },
+   {
+    "word": "vertex (plural vertices)",
+    "meaning": "a corner where edges meet"
+   },
+   {
+    "word": "height",
+    "meaning": "the distance between the two bases"
+   }
+  ],
+  "examples": [
+   "A Toblerone box is a triangular prism: its two ends are triangles.",
+   "A brick and a matchbox are rectangular prisms (cuboids).",
+   "A pencil is a hexagonal prism: its ends have six sides."
+  ],
+  "mistake": {
+   "wrong": "A box with rectangular sides and triangle ends is a rectangular prism.",
+   "right": "It is a triangular prism.",
+   "why": "Name the prism after its two identical ends (the bases), not after its rectangular side faces: every right prism has rectangular sides."
+  },
+  "checks": [
+   "prismFaces(n) == n + 2",
+   "prismEdges(n) == 3 * n",
+   "prismVertices(n) == 2 * n"
+  ]
+ },
  "worked_example": {
   "status": "draft",
   "vars": {

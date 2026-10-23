@@ -16,7 +16,7 @@ let RS = Object.keys(SUBJECTS)[0];  // subject shown in review mode
 /** Every reviewable part of a lesson, in teaching order: note, cards (with their check), worked example, practice. */
 function reviewItems(s, n) {
   const l = CONTENT[s][n];
-  const items = [{ id: "note", kind: "Note (summary)" }];
+  const items = [...(l.learn ? [{ id: "learn", kind: "Learn screens" }] : []), { id: "note", kind: "Note (summary)" }];
   for (const c of l.teach.cards) items.push({ id: c.id, kind: "Teach card", card: c });
   items.push({ id: "worked", kind: "Worked example" });
   for (const stage of l.activity?.stages || []) items.push({ id: stage.question.id, kind: `Subject activity · ${stage.title}`, tpl: stage.question });
@@ -57,6 +57,11 @@ function shownQuestion(q, tpl) {
 function itemBody(s, n, it, seed) {
   const l = CONTENT[s][n], lib = libs[s];
   if (it.id === "note") return [el("div", { class: "note" }, ...lines(l.note.text))];
+  if (it.id === "learn") {
+    return teach.renderLearn(l, lib).pages.flatMap((p) => (p.heading !== undefined ? [el("div", { class: "kicker" }, p.heading), el("div", { class: "note" }, ...lines(p.text)), figureBox(p.figure)] : [
+      el("div", { class: "kicker" }, "Key words"), ...p.words.map((k) => para(`${k.word} — ${k.meaning}`)), el("div", { class: "kicker" }, "Examples"), el("ul", {}, p.examples.map((x) => el("li", {}, x))),
+      ...(p.mistake ? [el("div", { class: "kicker" }, "Common mistake"), para(`Wrong: ${p.mistake.wrong}`), para(`Right: ${p.mistake.right}`, "strong"), para(p.mistake.why)] : [])]));
+  }
   if (it.id === "worked") {
     const w = renderWorked(l.worked_example, lib);
     return [el("div", { class: "strong pre" }, w.problem), figureBox(w.figure), el("ol", {}, w.steps.map((x) => el("li", {}, x))), para(`Answer: ${w.answer}`, "strong")];

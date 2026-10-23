@@ -108,6 +108,8 @@ const FR = {
   "Here is how to do it": "Voici comment faire", "Full working": "La solution complète", "We will come back to this one later.": "Nous reviendrons sur cette question plus tard.",
   "Continue": "Continuer", "Lesson {n} done": "Leçon {n} terminée", "You completed {a} questions.": "Tu as répondu à {a} questions.",
   "Here is one like it": "En voici un pareil", "Here is how to do this one": "Voici comment faire celui-ci", "Show the next step": "Voir l’étape suivante",
+  "Lesson {n} · Learn {a} of {b}": "Leçon {n} · J’apprends {a} sur {b}", "Key words and examples": "Mots clés et exemples", "Key words": "Mots clés",
+  "Examples": "Exemples", "Common mistake": "Erreur fréquente", "Wrong: {a}": "Faux : {a}", "Right: {a}": "Juste : {a}", "Now the key ideas": "Passons aux idées clés",
   "Step by step": "Étape par étape", "Fill in each box, then check.": "Remplis chaque case, puis vérifie.", "Box {a}": "Case {a}",
   "Next: Lesson {a}": "Suivant : Leçon {a}", "🔥 {a}-day streak": "🔥 {a} jours d’affilée", "New badge: {a}": "Nouveau badge : {a}", "All subjects": "Toutes les matières", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
 };
@@ -566,6 +568,18 @@ function lesson(flow, previous = null) {
   const go = (next, prev = null) => () => lesson(next, prev);
   const bar = progress(flow.step + 1, flow.steps.length);
 
+  if (step.kind === "learn") {
+    const pages = teach.renderLearn(Ln, LIB()).pages, p = pages[step.page];
+    const head = header(T("Lesson {n} · Learn {a} of {b}", { n, a: step.page + 1, b: pages.length }), p.heading || T("Key words and examples"));
+    const body = p.heading !== undefined ? [el("div", { class: "note" }, ...lines(p.text)), figureBox(p.figure)] : [
+      p.words.length ? el("div", { class: "example" }, el("div", { class: "kicker" }, T("Key words")),
+        ...p.words.map((k) => el("p", {}, el("strong", {}, k.word), " — ", k.meaning))) : null,
+      p.examples.length ? el("div", { class: "example" }, el("div", { class: "kicker" }, T("Examples")), el("ul", {}, p.examples.map((x) => el("li", {}, x)))) : null,
+      p.mistake ? el("div", { class: "hint" }, el("strong", {}, T("Common mistake")), para(T("Wrong: {a}", { a: p.mistake.wrong })),
+        para(T("Right: {a}", { a: p.mistake.right }), "strong"), para(p.mistake.why)) : null];
+    const last = step.page === pages.length - 1;
+    return screen(bar, head, ...body, button(T(last ? "Now the key ideas" : "Next"), go(teach.nextPhase(flow)), "primary"), toMenu());
+  }
   if (step.kind === "card" && flow.phase === "idea") {
     const c = teach.renderCard(Ln.teach.cards[step.card], LIB());
     return screen(bar, header(kicker, TITLES[S][n]), el("div", { class: "idea" }, c.idea), cardExample(c),

@@ -13374,6 +13374,43 @@ Prerequisites: none · Skill: fr2-72 (Les pronoms indéfinis)
 > Un pronom indéfini désigne une personne ou une chose sans préciser exactement son identité ou sa quantité : quelqu’un, quelque chose, chacun, plusieurs, personne, rien. Il peut remplacer un groupe nominal.
 > Quelqu’un appelle : l’identité n’est pas précisée. Chacun répond à son tour : chaque personne est considérée séparément. Plusieurs participent : plus d’une personne. Le verbe s’accorde avec le sujet : chacun répond, plusieurs répondent.
 
+**Learn: Qu’est-ce qu’un pronom indéfini ?** (draft)
+
+> Un pronom remplace un nom. Un pronom indéfini remplace un nom quand on ne veut pas, ou on ne peut pas, dire exactement qui ou quoi, ni combien.
+> « Quelqu’un frappe à la porte. » On ne sait pas qui frappe.
+> « J’ai trouvé quelque chose sous la table. » On ne dit pas quel objet.
+> Les plus courants : quelqu’un, quelque chose, chacun, chacune, plusieurs, certains, tout, tous, personne, rien, aucun.
+
+**Learn: Le sens : une personne, plusieurs, aucune** (draft)
+
+> Chaque pronom indéfini dit une quantité.
+> • Une seule personne, sans dire laquelle : quelqu’un.
+> • Chaque personne, prise une par une : chacun, chacune.
+> • Plus d’une personne : plusieurs, certains, quelques-uns.
+> • Zéro personne : personne ; zéro chose : rien.
+> Avec personne et rien, on met ne devant le verbe : « Personne ne répond. » « Je ne vois rien. »
+
+**Learn: L’accord du verbe** (draft)
+
+> Le verbe s’accorde avec le pronom sujet.
+> • Quelqu’un, chacun, personne, rien, tout : verbe au singulier. « Chacun lit son message. » « Personne ne parle. »
+> • Plusieurs, certains, tous : verbe au pluriel. « Plusieurs lisent leurs messages. »
+> Attention : plusieurs est un pronom seulement s’il est employé seul. Dans « Plusieurs élèves parlent », plusieurs est un déterminant placé devant le nom élèves.
+
+**Learn: key words and examples** (draft)
+
+- **pronom**: mot qui remplace un nom pour éviter de le répéter
+- **pronom indéfini**: pronom qui ne précise pas qui, quoi ou combien
+- **déterminant**: mot placé devant un nom (plusieurs élèves, chaque élève)
+- **accord**: le verbe prend la marque du singulier ou du pluriel de son sujet
+
+- Quelqu’un a laissé un message sur le répondeur.
+- Chacune des filles présente son exposé.
+- Certains préfèrent écrire, d’autres préfèrent téléphoner.
+- Il n’y a personne dans la classe.
+
+Common mistake: “Chacun lisent son message.” → “Chacun lit son message.”. Chacun veut dire « chaque personne, une par une » : il est singulier, donc le verbe est au singulier.
+
 **Card c72-1** (draft)
 
 > Un pronom indéfini ne donne pas une identité précise.

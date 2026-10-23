@@ -20,7 +20,7 @@ import * as french from "../../src/engine/lib/french.js";
 import * as french2 from "../../src/engine/lib/french2.js";
 import { render } from "../../src/engine/expr.js";
 import { instantiate, renderWorked } from "../../src/engine/template.js";
-import { renderCard, cardCheckTemplate, practicePlan, renderPaper, isDeferred } from "../../src/engine/teach.js";
+import { renderCard, cardCheckTemplate, practicePlan, renderPaper, renderLearn, isDeferred } from "../../src/engine/teach.js";
 
 const SUBJECT = process.argv[2];
 const CONF = {
@@ -142,6 +142,9 @@ for (const l of lessons) {
   R.push(`## Lesson ${l.lesson_no}: ${meta[l.lesson_no].title}`, "");
   if (isDeferred(l)) { R.push(`**Deferred.** ${l.deferred_reason}`, ""); continue; }
   R.push(`Prerequisites: ${l.prerequisites.join(", ") || "none"} · Skill: ${l.skills.map((s) => `${s.id} (${s.name})`).join(", ")}`, "", "**Note** (draft)", "", quote(l.note.text), "");
+  if (l.learn) for (const p of renderLearn(l, lib).pages) R.push(...(p.heading !== undefined ? [`**Learn: ${p.heading}** (draft)`, "", quote(p.text), ""]
+    : ["**Learn: key words and examples** (draft)", "", ...p.words.map((k) => `- **${k.word}**: ${k.meaning}`), "", ...p.examples.map((x) => `- ${x}`), "",
+      ...(p.mistake ? [`Common mistake: “${p.mistake.wrong}” → “${p.mistake.right}”. ${p.mistake.why}`, ""] : [])]));
   l.teach.cards.forEach((c, i) => R.push(...cardBlock(l, c, 7 + i)));
   R.push(...workedBlock(l));
   if (l.activity) {
