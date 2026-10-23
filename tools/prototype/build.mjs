@@ -297,7 +297,7 @@ const engineLibsFor = (only) => `{ libs: { ${only.map((s) => {
 // `only`: the subjects a page carries (the single shareable file holds one class, so it stays small enough for
 // Bluetooth); the installable app's core page lists every subject and loads their lessons one at a time.
 const pick = (obj, only) => Object.fromEntries(Object.entries(obj).filter(([s]) => only.includes(s)));
-const page = ({ mode, contentJs, only = Object.keys(SUBJECTS), head = "", tail = "", versions = {}, term = null, lessonsJs = safeJson(pick(lessons, only)) }) => `<!doctype html>
+const page = ({ mode, contentJs, only = Object.keys(SUBJECTS), libsInCore = true, head = "", tail = "", versions = {}, term = null, lessonsJs = safeJson(pick(lessons, only)) }) => `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -311,8 +311,8 @@ ${head}<style>${css}</style>
 <script>
 "use strict";
 const __mods = {};
-${engineFor(only).map(bundleModule).join("\n")}
-const ENGINE = ${engineLibsFor(only)},
+${engineFor(libsInCore ? only : []).map(bundleModule).join("\n")}
+const ENGINE = ${libsInCore ? engineLibsFor(only) : "{ libs: {}"},
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${contentJs};
 const TITLES = ${safeJson(pick(titles, only))};
@@ -382,10 +382,15 @@ mkdirSync(new URL("icons/", PWA), { recursive: true });
 // updates on the same day kept the same name and a phone could reuse the old lessons until the next opening).
 // A changed subject gets a new address and is fetched on the first opening; an unchanged one stays saved.
 const fingerprint = (text) => createHash("sha256").update(text).digest("hex").slice(0, 12);
-const subjectJs = Object.fromEntries(Object.keys(SUBJECTS).map((s) => [s, `CONTENT[${JSON.stringify(s)}] = ${safeJson(content[s])};\n`]));
+// Each subject file carries the engine libraries it uses (2026-10-23), so the core page does not grow with every
+// class; a library another subject already loaded is not run twice.
+const subjectJs = Object.fromEntries(Object.keys(SUBJECTS).map((s) => [s, [
+  ...engineFor([s]).filter((p) => p.startsWith("lib/")).map((p) => `if (!__mods[${JSON.stringify(p)}]) ${bundleModule(p)}`),
+  `ENGINE.libs[${JSON.stringify(s)}] = ${LIB_ENTRIES[s]};`,
+  `CONTENT[${JSON.stringify(s)}] = ${safeJson(content[s])};\n`].join("\n")]));
 const versions = Object.fromEntries(Object.entries(subjectJs).map(([s, js]) => [s, fingerprint(js)]));
 const register = `<script>if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("sw.js"));</script>\n`;
-const shell = page({ mode: "pwa", contentJs: "{}", tail: register, versions,
+const shell = page({ mode: "pwa", contentJs: "{}", libsInCore: false, tail: register, versions,
   head: `<link rel="manifest" href="manifest.webmanifest">\n<link rel="icon" href="icons/icon-192.png">\n<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">\n` });
 const shellBytes = Buffer.byteLength(shell, "utf8");
 if (shellBytes > SHELL_MAX) throw new Error(`app core is ${shellBytes} bytes, over the ${SHELL_MAX} limit`);

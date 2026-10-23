@@ -163,6 +163,7 @@ test("installable app: the core page has the engine and screens but no lesson co
   assert.match(core, /<link rel="manifest" href="manifest\.webmanifest">/);
   assert.match(core, /navigator\.serviceWorker\.register\("sw\.js"\)/);
   assert.doesNotMatch(core, /"worked_example":{/, "no lesson content in the core page");
+  assert.doesNotMatch(core, /__mods\["lib\//, "no subject library in the core page (2026-10-23)");
   assert.doesNotMatch(core, /https?:\/\/(?!www\.w3\.org)/, "loads nothing from other sites");
   const lessons = constant(core, "LESSONS"), titles = constant(core, "TITLES");
   assert.deepEqual(Object.keys(lessons), [...FORM1, ...FORM2]);
@@ -173,8 +174,11 @@ test("installable app: one file per subject defines exactly that subject's lesso
   const core = pwaFile("index.html"), lessons = constant(core, "LESSONS");
   for (const s of Object.keys(lessons)) {
     const js = pwaFile(`subjects/${s}.js`);
-    const m = js.match(/^CONTENT\[("[a-z0-9-]+")\] = (.*);\n$/s);
+    // the libraries the subject uses (2026-10-23: not in the core page), then its lessons
+    const m = js.match(/\nCONTENT\[("[a-z0-9-]+")\] = (.*);\n$/s);
     assert.ok(m, `${s}: subject file format`);
+    assert.ok(js.includes(`ENGINE.libs[${JSON.stringify(s)}] = `), `${s}: sets its library`);
+    assert.match(js, /^if \(!__mods\["lib\/maths\.js"\]\) __mods\["lib\/maths\.js"\] = /, `${s}: maths library first`);
     assert.equal(JSON.parse(m[1]), s);
     const content = JSON.parse(m[2]);
     for (const n of lessons[s]) assert.equal(content[n]?.lesson_no, n, `${s} ${n}`);
