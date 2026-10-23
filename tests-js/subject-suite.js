@@ -16,6 +16,31 @@ const words = (t) => t.split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).lengt
 const literalDigits = (t) => t.replace(/(^|[^\d.,])1 (?=[A-Za-zµ°{])/g, "$1").replace(/\{[^{}]*(\{[^{}]*\}[^{}]*)*\}/g, "").match(/[0-9]/g);
 const SVG = /^<svg [^>]*role="img"[\s\S]*<\/svg>$/;
 
+/** Learn screens (2026-10-23): optional; 1–4 sections of at most 120 words, at most 450 words in all. Also used by
+ * the Form 1 Maths and English tests, which have their own suites. */
+export function learnSuite(subject, taught, lib) {
+  const figureOk = (f, where) => { assert.match(f, SVG, `${where}: figure is not an SVG`); assert.doesNotMatch(f, /NaN|undefined|Infinity/, where); };
+  test(`${subject}: Learn screens are draft, short enough, with no typed numbers, checks pass`, () => {
+    for (const l of taught.filter((x) => x.learn)) {
+      const L = l.learn, where = `lesson ${l.lesson_no} learn`;
+      assert.equal(L.status, "draft", where);
+      assert.ok(L.sections.length >= 1 && L.sections.length <= 4, `${where}: ${L.sections.length} sections`);
+      const texts = [...L.sections.flatMap((s) => [s.heading, s.text]), ...(L.key_words || []).flatMap((k) => [k.word, k.meaning]),
+        ...(L.examples || []), ...(L.mistake ? [L.mistake.wrong, L.mistake.right, L.mistake.why] : [])];
+      for (const s of L.sections) assert.ok(s.heading && words(s.text) <= 120, `${where}: section "${s.heading}" has ${words(s.text)} words`);
+      assert.ok(words(texts.join(" ")) <= 450, `${where}: ${words(texts.join(" "))} words in all`);
+      for (const t of texts) assert.equal(literalDigits(t), null, `${where}: "${t}"`);
+      const r = renderLearn(l, lib);
+      assert.deepEqual(r.failedChecks, [], where);
+      for (const p of r.pages) {
+        for (const t of [p.heading, p.text, ...(p.words || []).flatMap((k) => [k.word, k.meaning]), ...(p.examples || []),
+          ...(p.mistake ? Object.values(p.mistake) : [])].filter((x) => x !== undefined)) assert.ok(!BAD_TEXT.test(t), `${where}: ${t}`);
+        if (p.figure) figureOk(p.figure, where);
+      }
+    }
+  });
+}
+
 // numbering: "lesson" (the sheet's lesson numbers) or "seq" (the row's place in the year: Geography, whose practicals
 // PW1–PW5 have no lesson number and whose lessons come in parts that share one; every Form 2 subject, proposal G1).
 // Form 2 (2026-10-17): dir "form-2/maths", cls "Form 2", spine "form-2/mathematics".
@@ -72,26 +97,7 @@ export function subjectSuite({ subject, spine, lib, batch, prefix, numbering = "
     }
   });
 
-  // Learn screens (2026-10-23): optional; 1–4 sections of at most 120 words, at most 450 words in all.
-  test(`${subject}: Learn screens are draft, short enough, with no typed numbers, checks pass`, () => {
-    for (const l of TAUGHT.filter((x) => x.learn)) {
-      const L = l.learn, where = `lesson ${l.lesson_no} learn`;
-      assert.equal(L.status, "draft", where);
-      assert.ok(L.sections.length >= 1 && L.sections.length <= 4, `${where}: ${L.sections.length} sections`);
-      const texts = [...L.sections.flatMap((s) => [s.heading, s.text]), ...(L.key_words || []).flatMap((k) => [k.word, k.meaning]),
-        ...(L.examples || []), ...(L.mistake ? [L.mistake.wrong, L.mistake.right, L.mistake.why] : [])];
-      for (const s of L.sections) assert.ok(s.heading && words(s.text) <= 120, `${where}: section "${s.heading}" has ${words(s.text)} words`);
-      assert.ok(words(texts.join(" ")) <= 450, `${where}: ${words(texts.join(" "))} words in all`);
-      for (const t of texts) assert.equal(literalDigits(t), null, `${where}: "${t}"`);
-      const r = renderLearn(l, lib);
-      assert.deepEqual(r.failedChecks, [], where);
-      for (const p of r.pages) {
-        for (const t of [p.heading, p.text, ...(p.words || []).flatMap((k) => [k.word, k.meaning]), ...(p.examples || []),
-          ...(p.mistake ? Object.values(p.mistake) : [])].filter((x) => x !== undefined)) assert.ok(!BAD_TEXT.test(t), `${where}: ${t}`);
-        if (p.figure) figureOk(p.figure, where);
-      }
-    }
-  });
+  learnSuite(subject, TAUGHT, lib);
 
   test(`${subject}: 3–4 draft cards per lesson, no typed numbers, checks pass, level-1 check question`, () => {
     const ids = new Set();

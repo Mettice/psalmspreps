@@ -1,6 +1,7 @@
 // Content tests: every Maths template (lessons, teach-card checks, Lesson 0) across 1000 seeds,
 // worked examples, teach cards, notes, number style, sources.
 import { test } from "node:test";
+import { learnSuite } from "./subject-suite.js";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import * as lib from "../src/engine/lib/maths.js";
@@ -246,3 +247,5 @@ test("Lesson 16 note stays draft until 'orthogonal' is checked", () => {
   assert.equal(lessons[16].note.status, "draft");
   assert.match(lessons[16].note.review, /orthogonal/);
 });
+
+learnSuite("maths", Object.values(lessons), lib);

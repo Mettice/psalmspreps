@@ -1,6 +1,7 @@
 // English Batch E1 content tests (Lessons 1–16): every template across 1000 seeds, worked examples, teach
 // cards, notes, paper tasks, deferred speech-work lessons, sources. Same rules as the Maths content tests.
 import { test } from "node:test";
+import { learnSuite } from "./subject-suite.js";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import * as maths from "../src/engine/lib/maths.js";
@@ -200,3 +201,5 @@ test("typed answers: case- and space-insensitive, but the letters must be right"
   assert.equal(check(q, ` ${q.answer}   `).correct, true);
   assert.equal(check(q, q.answer + "x").correct, false);
 });
+
+learnSuite("english", Object.values(lessons).filter((l) => !isDeferred(l)), lib);
