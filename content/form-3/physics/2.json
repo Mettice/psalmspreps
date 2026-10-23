@@ -1,0 +1,569 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p3-2",
+   "name": "Scalar and vector quantities; measuring force"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A scalar quantity has size (magnitude) only: mass, time, distance, speed, temperature, energy.\nA vector quantity has size and direction: force, weight, displacement, velocity, acceleration.\nForces are measured in newtons (N) with a newton meter (spring balance). A beam balance compares masses.\nCombining forces along a line: same direction → add; opposite directions → subtract, and the resultant acts in the direction of the larger force.\nTwo forces at right angles: the resultant is found with Pythagoras.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Size only, or size and direction?",
+    "text": "Some quantities are fully described by a number and a unit: a mass of {50} kg, a time of {12} s, a temperature of {30} °C. These are scalars.\nOthers also need a direction: a force of {20} N to the left, a displacement of {3} km north. These are vectors.\nWeight is a vector: it is a force and it always acts downwards, towards the centre of the Earth."
+   },
+   {
+    "heading": "Measuring force",
+    "text": "A newton meter (spring balance) has a spring that stretches when you pull it; the scale shows the force in newtons (N).\nA beam balance compares an unknown mass with known masses. It gives mass, not force, so it reads the same on the Moon.\nIn the laboratory, handle these instruments gently: overloading a spring damages it."
+   },
+   {
+    "heading": "Adding forces",
+    "text": "Forces on the same line combine simply:\n• same direction: add them ({6} N + {4} N = {10} N);\n• opposite directions: subtract, and the resultant acts in the direction of the larger force ({6} N east and {4} N west give {2} N east).\nForces at right angles combine like the sides of a right-angled triangle: {3} N east and {4} N north give a resultant of {5} N."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "scalar",
+    "meaning": "a quantity with size only"
+   },
+   {
+    "word": "vector",
+    "meaning": "a quantity with size and direction"
+   },
+   {
+    "word": "resultant",
+    "meaning": "the single force with the same effect as several forces"
+   },
+   {
+    "word": "newton (N)",
+    "meaning": "the unit of force"
+   }
+  ],
+  "examples": [
+   "Scalars: mass, time, speed, energy",
+   "Vectors: force, weight, velocity, displacement",
+   "{8} N and {8} N in opposite directions: resultant {0} N"
+  ],
+  "mistake": {
+   "wrong": "{6} N east and {4} N west give {10} N",
+   "right": "They give {2} N east",
+   "why": "Forces in opposite directions work against each other: subtract them."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 12,
+   "b": 5
+  },
+  "problem": "Two boys pull a cart: one with {a} N to the east, the other with {b} N to the west. Find the resultant force.",
+  "steps": [
+   "Opposite directions: subtract.",
+   "{a} − {b} = {a - b} N.",
+   "The larger force is to the east, so the resultant is {a - b} N to the east."
+  ],
+  "answer": "{a - b} N to the east",
+  "checks": [
+   "a - b == 7"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p2-1",
+    "status": "draft",
+    "idea": "A vector has a direction; a scalar does not.",
+    "vars": {},
+    "example": [
+     "Force {20} N upwards is a vector; a mass of {20} kg is a scalar."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-2-type"
+    }
+   },
+   {
+    "id": "c3p2-2",
+    "status": "draft",
+    "idea": "A newton meter measures force in newtons.",
+    "vars": {},
+    "example": [
+     "The spring stretches more for a bigger pull."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-2-tool"
+    }
+   },
+   {
+    "id": "c3p2-3",
+    "status": "draft",
+    "idea": "Forces in the same direction add; in opposite directions they subtract.",
+    "vars": {},
+    "example": [
+     "{6} N and {4} N east: {10} N east. {6} N east and {4} N west: {2} N east."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-2-line-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "forces"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        3,
+        40
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        30
+       ]
+      },
+      "X": {
+       "pick": [
+        {
+         "d": "in the same direction",
+         "s": 1
+        },
+        {
+         "d": "in opposite directions",
+         "s": -1
+        }
+       ]
+      }
+     },
+     "prompt": "Forces of {a} N and {b} N act on a box {X.d}. Find the size of the resultant force (N).",
+     "answer": "X.s == 1 ? a + b : abs(a - b)",
+     "misconceptions": [
+      {
+       "id": "other",
+       "wrong": "X.s == 1 ? abs(a - b) : a + b",
+       "explain": "{X.s == 1 ? 'In the same direction the forces add.' : 'In opposite directions one force cancels part of the other: subtract.'}"
+      }
+     ],
+     "solution": [
+      "{X.s == 1 ? 'Same direction: add.' : 'Opposite directions: subtract.'}",
+      "{X.s == 1 ? a + ' + ' + b : max(a, b) + ' − ' + min(a, b)} = {answer} N."
+     ],
+     "unit": "N",
+     "where": [
+      "a != b"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-2-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is a vector quantity?",
+       "r": "force",
+       "w": [
+        "mass",
+        "time",
+        "temperature"
+       ],
+       "e": [
+        "Mass has size only.",
+        "Time has size only.",
+        "Temperature has size only."
+       ],
+       "y": "A force always acts in a direction."
+      },
+      {
+       "q": "Which of these is a scalar quantity?",
+       "r": "speed",
+       "w": [
+        "velocity",
+        "weight",
+        "displacement"
+       ],
+       "e": [
+        "Velocity is speed in a given direction.",
+        "Weight acts downwards: it has a direction.",
+        "Displacement is distance in a given direction."
+       ],
+       "y": "Speed has size only."
+      },
+      {
+       "q": "Why is weight a vector quantity?",
+       "r": "It has size and always acts downwards",
+       "w": [
+        "It is measured in kilograms",
+        "It can be large or small",
+        "It is measured with a balance"
+       ],
+       "e": [
+        "Weight is measured in newtons.",
+        "Every quantity can be large or small: that does not make it a vector.",
+        "A balance measures mass."
+       ],
+       "y": "Weight is a force towards the centre of the Earth."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-2-tool",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which instrument measures force directly?",
+       "r": "a newton meter (spring balance)",
+       "w": [
+        "a beam balance",
+        "a metre rule",
+        "a measuring cylinder"
+       ],
+       "e": [
+        "A beam balance compares masses.",
+        "A metre rule measures length.",
+        "A measuring cylinder measures volume."
+       ],
+       "y": "The spring stretches in proportion to the force."
+      },
+      {
+       "q": "What does a beam balance measure?",
+       "r": "mass",
+       "w": [
+        "weight in newtons",
+        "volume",
+        "density"
+       ],
+       "e": [
+        "It compares masses, so the answer does not change with g.",
+        "Volume needs a measuring cylinder.",
+        "Density needs mass and volume."
+       ],
+       "y": "A beam balance compares an unknown mass with known masses."
+      },
+      {
+       "q": "A spring balance reads {30} N. What does it show?",
+       "r": "a force of 30 N",
+       "w": [
+        "a mass of 30 kg",
+        "a mass of 30 g",
+        "a volume of 30 cm³"
+       ],
+       "e": [
+        "N is the unit of force, not mass.",
+        "N is the unit of force, not mass.",
+        "N is the unit of force."
+       ],
+       "y": "A spring balance shows force in newtons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-2-line",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      3,
+      40
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      30
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "d": "in the same direction",
+       "s": 1
+      },
+      {
+       "d": "in opposite directions",
+       "s": -1
+      }
+     ]
+    }
+   },
+   "prompt": "Forces of {a} N and {b} N act on a box {X.d}. Find the size of the resultant force (N).",
+   "answer": "X.s == 1 ? a + b : abs(a - b)",
+   "misconceptions": [
+    {
+     "id": "other",
+     "wrong": "X.s == 1 ? abs(a - b) : a + b",
+     "explain": "{X.s == 1 ? 'In the same direction the forces add.' : 'In opposite directions one force cancels part of the other: subtract.'}"
+    }
+   ],
+   "solution": [
+    "{X.s == 1 ? 'Same direction: add.' : 'Opposite directions: subtract.'}",
+    "{X.s == 1 ? a + ' + ' + b : max(a, b) + ' − ' + min(a, b)} = {answer} N."
+   ],
+   "unit": "N",
+   "where": [
+    "a != b"
+   ]
+  },
+  {
+   "id": "p3-2-dir",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A {20} N force pulls a box east and a {35} N force pulls it west. What is the resultant?",
+       "r": "15 N west",
+       "w": [
+        "15 N east",
+        "55 N west",
+        "55 N east"
+       ],
+       "e": [
+        "The larger force is to the west, so the resultant points west.",
+        "Opposite directions: subtract.",
+        "Opposite directions: subtract, and the larger force decides the direction."
+       ],
+       "y": "35 − 20 = 15 N, in the direction of the larger force."
+      },
+      {
+       "q": "Two equal forces of {10} N pull a rope in opposite directions. What is the resultant?",
+       "r": "0 N",
+       "w": [
+        "20 N",
+        "10 N",
+        "5 N"
+       ],
+       "e": [
+        "They act in opposite directions: subtract.",
+        "Each force cancels the other.",
+        "Opposite equal forces cancel completely."
+       ],
+       "y": "Equal and opposite forces are balanced: no resultant."
+      },
+      {
+       "q": "A {50} N push forward and {50} N friction act on a cart. The cart…",
+       "r": "has no resultant force",
+       "w": [
+        "has a resultant of 100 N",
+        "has a resultant of 50 N forward",
+        "has a resultant of 50 N backward"
+       ],
+       "e": [
+        "Friction acts in the opposite direction: subtract.",
+        "Friction cancels the push.",
+        "The push and friction are equal."
+       ],
+       "y": "Equal and opposite forces balance."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-2-right",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "T": {
+     "expr": "triple(i)"
+    },
+    "k": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "a": {
+     "expr": "T[0] * k"
+    },
+    "b": {
+     "expr": "T[1] * k"
+    },
+    "c": {
+     "expr": "T[2] * k"
+    }
+   },
+   "prompt": "Forces of {a} N (east) and {b} N (north) act on the same point. Find the size of the resultant force (N).",
+   "answer": "c",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "a + b",
+     "explain": "At right angles the forces do not simply add: use Pythagoras."
+    },
+    {
+     "id": "sub",
+     "wrong": "b - a",
+     "explain": "At right angles use Pythagoras: R² = a² + b²."
+    }
+   ],
+   "solution": [
+    "The forces are at right angles: use Pythagoras.",
+    "R² = {a}² + {b}² = {a * a} + {b * b} = {c * c}.",
+    "R = {answer} N."
+   ],
+   "unit": "N"
+  }
+ ]
+}

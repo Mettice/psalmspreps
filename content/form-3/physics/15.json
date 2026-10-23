@@ -1,0 +1,459 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "p3-15",
+   "name": "Force-extension graphs and uses of elastic materials"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A force-extension graph for a spring is a straight line through the origin up to the limit of proportionality; then it curves.\n• The gradient (force ÷ extension) is the spring constant k.\n• From the graph you can read the extension for any load, or the load for any extension.\nUses of elastic materials: spring balances, car and motorbike suspension, mattresses and chairs, catapults, bows, rubber bands, trampolines, shock absorbers.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Reading the graph",
+    "text": "Plot load (N) up the side and extension (cm) along the bottom. For a spring obeying Hooke's law you get a straight line through the origin.\nThe gradient (rise ÷ run) is the spring constant: if {8} N gives {4} cm, k = {2} N/cm.\nTo find the extension for a load, go across from the load to the line, then down.",
+    "figure": "lineGraph([0, 1, 2, 3, 4], [0, 2, 4, 6, 8], 'extension (cm)', 'load (N)')"
+   },
+   {
+    "heading": "Beyond the limit",
+    "text": "If you keep adding loads, the line eventually bends: this is the limit of proportionality. Soon after comes the elastic limit; beyond it the spring stays stretched.\nA steeper line means a stiffer spring (bigger k): it needs more force to stretch the same amount."
+   },
+   {
+    "heading": "Elastic materials at work",
+    "text": "• Spring balances measure force by extension.\n• Suspension springs and shock absorbers in cars, motorbikes and bicycles smooth out bumps.\n• Mattresses and chairs use springs or foam for comfort.\n• Catapults, bows and trampolines store energy when stretched and release it.\n• Rubber bands hold things together because they pull back."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "gradient",
+    "meaning": "rise ÷ run of a line; here load ÷ extension = k"
+   },
+   {
+    "word": "limit of proportionality",
+    "meaning": "where the graph stops being straight"
+   },
+   {
+    "word": "stiff",
+    "meaning": "hard to stretch: large spring constant"
+   }
+  ],
+  "examples": [
+   "Line through ({4} cm, {12} N): k = {3} N/cm",
+   "k = {5} N/cm, e = {4} cm: weight {20} N, mass {2} kg"
+  ],
+  "mistake": {
+   "wrong": "k = extension ÷ load",
+   "right": "k = load ÷ extension",
+   "why": "The spring constant is the force needed for each unit of extension."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 2
+  },
+  "problem": "The graph shows load against extension for a spring. Use it to find the spring constant.",
+  "steps": [
+   "Pick a point on the line: {6} N gives {6 / k} cm.",
+   "k = gradient = {6} ÷ {6 / k} = {k} N/cm."
+  ],
+  "answer": "{k} N/cm",
+  "checks": [
+   "k == 2"
+  ],
+  "figure": "lineGraph([0, 1, 2, 3, 4], [0, k, 2 * k, 3 * k, 4 * k], 'extension (cm)', 'load (N)')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p15-1",
+    "status": "draft",
+    "idea": "The gradient of the load-extension line is the spring constant.",
+    "vars": {},
+    "example": [
+     "{8} N for {4} cm: k = {2} N/cm"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-15-k"
+    }
+   },
+   {
+    "id": "c3p15-2",
+    "status": "draft",
+    "idea": "Read values straight from the line.",
+    "vars": {},
+    "example": [
+     "Go across from the load, then down to the extension."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-15-read-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "elasticity"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "x": {
+       "int": [
+        1,
+        4
+       ]
+      }
+     },
+     "prompt": "Use the graph: what extension does a load of {k * x} N give (cm)?",
+     "answer": "x",
+     "misconceptions": [
+      {
+       "id": "load",
+       "wrong": "k * x",
+       "explain": "{k * x} is the load; read across to the extension."
+      }
+     ],
+     "solution": [
+      "The line rises {k} N for every {1} cm.",
+      "{k * x} N ÷ {k} N/cm = {answer} cm."
+     ],
+     "unit": "cm",
+     "figure": "lineGraph([0, 1, 2, 3, 4], [0, k, 2 * k, 3 * k, 4 * k], 'extension (cm)', 'load (N)')",
+     "where": [
+      "k * x != x"
+     ]
+    }
+   },
+   {
+    "id": "c3p15-3",
+    "status": "draft",
+    "idea": "Springs are used where a force must be measured or a shock absorbed.",
+    "vars": {},
+    "example": [
+     "Spring balance, car suspension, mattress"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-15-use"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-15-k",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "Use the graph to find the spring constant (N/cm).",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "1 / k",
+     "explain": "k = load ÷ extension, not extension ÷ load."
+    }
+   ],
+   "solution": [
+    "Take a point on the line: {4 * k} N at {4} cm.",
+    "k = {4 * k} ÷ {4} = {answer} N/cm."
+   ],
+   "unit": "N/cm",
+   "figure": "lineGraph([0, 1, 2, 3, 4], [0, k, 2 * k, 3 * k, 4 * k], 'extension (cm)', 'load (N)')"
+  },
+  {
+   "id": "p3-15-read",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "x": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "Use the graph: what extension does a load of {k * x} N give (cm)?",
+   "answer": "x",
+   "misconceptions": [
+    {
+     "id": "load",
+     "wrong": "k * x",
+     "explain": "{k * x} is the load; read across to the extension."
+    }
+   ],
+   "solution": [
+    "The line rises {k} N for every {1} cm.",
+    "{k * x} N ÷ {k} N/cm = {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "lineGraph([0, 1, 2, 3, 4], [0, k, 2 * k, 3 * k, 4 * k], 'extension (cm)', 'load (N)')",
+   "where": [
+    "k * x != x"
+   ]
+  },
+  {
+   "id": "p3-15-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which device uses a spring to measure force?",
+       "r": "a spring balance (newton meter)",
+       "w": [
+        "a beam balance",
+        "a thermometer",
+        "a measuring cylinder"
+       ],
+       "e": [
+        "A beam balance compares masses without a spring.",
+        "A thermometer measures temperature.",
+        "A measuring cylinder measures volume."
+       ],
+       "y": "The extension of the spring shows the force."
+      },
+      {
+       "q": "Why do cars and motorbikes have springs in their suspension?",
+       "r": "To absorb shocks from bumps in the road",
+       "w": [
+        "To make the vehicle faster",
+        "To measure the speed",
+        "To make the vehicle heavier"
+       ],
+       "e": [
+        "Springs do not increase speed.",
+        "A speedometer measures speed.",
+        "That is not their purpose."
+       ],
+       "y": "The springs stretch and compress, giving a smoother ride."
+      },
+      {
+       "q": "Which of these does NOT use an elastic material for its job?",
+       "r": "a brick wall",
+       "w": [
+        "a catapult",
+        "a trampoline",
+        "a mattress"
+       ],
+       "e": [
+        "A catapult stores energy in stretched rubber.",
+        "A trampoline bounces back.",
+        "A mattress springs back."
+       ],
+       "y": "A wall must stay rigid; it does not use elasticity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-15-shape",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "On a load-extension graph for a spring, what does a straight line through the origin show?",
+       "r": "Extension is proportional to load (Hooke's law)",
+       "w": [
+        "The spring has broken",
+        "The load is constant",
+        "The spring is plastic"
+       ],
+       "e": [
+        "A broken spring gives no line.",
+        "The load changes along the axis.",
+        "A plastic material does not give a straight line through the origin."
+       ],
+       "y": "Straight line through the origin: direct proportion."
+      },
+      {
+       "q": "After a certain load the graph starts to curve. This point is…",
+       "r": "the limit of proportionality",
+       "w": [
+        "the origin",
+        "the spring constant",
+        "the zero error"
+       ],
+       "e": [
+        "The origin is where the line starts.",
+        "The spring constant is the gradient.",
+        "A zero error is a wrong starting reading."
+       ],
+       "y": "Beyond it, extension is no longer proportional to load."
+      },
+      {
+       "q": "Spring A has a steeper load-extension line than spring B. Which is stiffer?",
+       "r": "A",
+       "w": [
+        "B",
+        "They are equally stiff",
+        "It depends on their colour"
+       ],
+       "e": [
+        "B stretches more for the same load.",
+        "Different gradients mean different stiffness.",
+        "Colour does not matter."
+       ],
+       "y": "A steeper line means more load for each centimetre: a larger k."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-15-weigh",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "e": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "A spring has constant {k} N/cm. An unknown bunch of plantains stretches it by {e} cm. Find the weight (N) and the mass (kg) of the plantains. Give the mass.",
+   "answer": "k * e / 10",
+   "misconceptions": [
+    {
+     "id": "weight",
+     "wrong": "k * e",
+     "explain": "That is the weight in newtons. Divide by g = {10} N/kg for the mass."
+    }
+   ],
+   "solution": [
+    "Weight F = ke = {k} × {e} = {k * e} N.",
+    "Mass = W ÷ g = {k * e} ÷ {10} = {answer} kg."
+   ],
+   "unit": "kg"
+  }
+ ]
+}

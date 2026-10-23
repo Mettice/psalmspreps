@@ -1,0 +1,507 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "p3-12",
+   "name": "Atmospheric pressure and the simple barometer"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The atmosphere is a layer of air around the Earth; its weight presses on everything: this is atmospheric pressure, about 100 000 Pa (100 kPa) at sea level.\nDemonstrations: a can crushes when the air inside is removed (by steam then cooling); a card stays on an upturned glass of water; a straw works because the air pushes the drink up.\nThe simple mercury barometer: a tube full of mercury is upturned in a dish; the mercury falls until about 760 mm (0.76 m) is left. The air pressure holds up that column: p = ρgh.\nMercury is used because it is very dense (13 600 kg/m³), so the tube can be short; a water barometer would need about 10 m.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "An ocean of air",
+    "text": "We live at the bottom of an ocean of air many kilometres deep. That air has weight, and it presses on everything: this is atmospheric pressure, about {100000} Pa at sea level.\nWe do not feel it because the fluids in our body push outwards just as hard."
+   },
+   {
+    "heading": "Seeing it work",
+    "text": "• Boil a little water in a can, close it and cool it: the steam turns back to water, the pressure inside drops, and the outside air crushes the can.\n• A straw: you lower the pressure inside; the air pushes the drink up.\n• A full glass with a card on top can be turned over without spilling: the air holds up the card."
+   },
+   {
+    "heading": "The mercury barometer",
+    "text": "Fill a long glass tube with mercury, close the end and turn it upside down into a dish of mercury. The mercury falls until the column is about {760} mm high, leaving a vacuum at the top.\nThe air pressure on the dish holds up the column, so p = ρgh = {13600} × {10} × {0.76} ≈ {103360} Pa.\nMercury is used because it is so dense; with water the tube would need to be about {10} m tall."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "atmospheric pressure",
+    "meaning": "the pressure caused by the weight of the air"
+   },
+   {
+    "word": "barometer",
+    "meaning": "an instrument that measures atmospheric pressure"
+   },
+   {
+    "word": "vacuum",
+    "meaning": "a space with no air"
+   }
+  ],
+  "examples": [
+   "{760} mm of mercury ≈ {103} kPa",
+   "A water barometer needs about {10} m of water"
+  ],
+  "mistake": {
+   "wrong": "A straw sucks the drink up",
+   "right": "The air pushes the drink up when the pressure in the straw is lowered",
+   "why": "Suction is not a pulling force: atmospheric pressure does the work."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "h": 0.76,
+   "r": 13600
+  },
+  "problem": "A mercury barometer reads {h * 1000} mm. Find the atmospheric pressure (density of mercury {r} kg/m³, g = {10} N/kg).",
+  "steps": [
+   "h = {h * 1000} mm = {h} m.",
+   "p = ρgh = {r} × {10} × {h} = {liquidPressure(r, h)} Pa."
+  ],
+  "answer": "{liquidPressure(r, h)} Pa",
+  "checks": [
+   "liquidPressure(r, h) == 103360"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p12-1",
+    "status": "draft",
+    "idea": "The weight of the air above us causes atmospheric pressure, about {100} kPa.",
+    "vars": {},
+    "example": [
+     "A can crushes when the air inside is removed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-12-demo"
+    }
+   },
+   {
+    "id": "c3p12-2",
+    "status": "draft",
+    "idea": "A barometer's mercury column is held up by air pressure: p = ρgh.",
+    "vars": {},
+    "example": [
+     "{760} mm of mercury ≈ {103360} Pa"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-12-hg"
+    }
+   },
+   {
+    "id": "c3p12-3",
+    "status": "draft",
+    "idea": "Mercury is used because it is dense: the column is short.",
+    "vars": {},
+    "example": [
+     "Water would need a tube about {10} m tall."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-12-why-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "pressure"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is mercury used in a barometer rather than water?",
+         "r": "Mercury is very dense, so the column is short (about 76 cm)",
+         "w": [
+          "Mercury is cheaper than water",
+          "Water evaporates too fast to read",
+          "Mercury is lighter than water"
+         ],
+         "e": [
+          "Mercury is expensive.",
+          "The main reason is the height: water would need about 10 m.",
+          "Mercury is about 13.6 times denser than water."
+         ],
+         "y": "p = ρgh: a large ρ gives a small h."
+        },
+        {
+         "q": "What is in the space above the mercury in a barometer tube?",
+         "r": "A vacuum (almost nothing)",
+         "w": [
+          "Air",
+          "Water vapour",
+          "Mercury gas at high pressure"
+         ],
+         "e": [
+          "Air would push the mercury down and spoil the reading.",
+          "No water is in the tube.",
+          "There is only a tiny amount of mercury vapour."
+         ],
+         "y": "The tube was full of mercury before it was turned over; nothing replaced the mercury that fell."
+        },
+        {
+         "q": "If the barometer tube is tilted, what happens to the vertical height of the mercury column?",
+         "r": "It stays the same",
+         "w": [
+          "It increases",
+          "It decreases",
+          "It becomes zero"
+         ],
+         "e": [
+          "The mercury fills more of the tube, but the vertical height is fixed by air pressure.",
+          "Air pressure has not changed.",
+          "Air pressure still holds the mercury up."
+         ],
+         "y": "Only the vertical height depends on the air pressure."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-12-demo",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Steam fills a can, the lid is closed and the can is cooled. It collapses. Why?",
+       "r": "The steam condenses, the pressure inside falls, and the air outside crushes the can",
+       "w": [
+        "Cold water shrinks the metal",
+        "The steam pulls the walls in",
+        "The can becomes heavier"
+       ],
+       "e": [
+        "Cooling the metal this little does not crush it.",
+        "Steam does not pull; the outside air pushes.",
+        "Its weight barely changes."
+       ],
+       "y": "Atmospheric pressure outside is much larger than the pressure left inside."
+      },
+      {
+       "q": "How does a drinking straw work?",
+       "r": "You lower the pressure in the straw; atmospheric pressure pushes the drink up",
+       "w": [
+        "Your mouth pulls the drink up by suction force",
+        "The drink is lighter than air",
+        "The straw squeezes the drink"
+       ],
+       "e": [
+        "Suction is not a force: the outside air does the pushing.",
+        "Drinks are much denser than air.",
+        "The straw does not squeeze anything."
+       ],
+       "y": "Air pressure on the surface of the drink pushes it up the straw."
+      },
+      {
+       "q": "A card covers a full glass of water turned upside down, and the water does not fall. Why?",
+       "r": "Atmospheric pressure on the card is greater than the water pressure on it",
+       "w": [
+        "The card is glued by the water",
+        "Water has no weight",
+        "The glass is magnetic"
+       ],
+       "e": [
+        "Water does not glue strongly enough to hold the weight.",
+        "Water has weight.",
+        "Glass is not magnetic."
+       ],
+       "y": "The air pushes up on the card with about {100000} Pa."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-12-hg",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "mm": {
+     "int": [
+      680,
+      770
+     ],
+     "step": 10
+    }
+   },
+   "prompt": "A mercury barometer reads {mm} mm. Find the atmospheric pressure (Pa). Density of mercury = {13600} kg/m³, g = {10} N/kg.",
+   "answer": "liquidPressure(13600, mm / 1000)",
+   "misconceptions": [
+    {
+     "id": "mm",
+     "wrong": "13600 * 10 * mm",
+     "explain": "Change mm to metres first (÷ {1000})."
+    },
+    {
+     "id": "nog",
+     "wrong": "liquidPressure(13600, mm / 1000) / 10",
+     "explain": "Include g = {10} N/kg."
+    }
+   ],
+   "solution": [
+    "h = {mm} mm = {mm / 1000} m.",
+    "p = {13600} × {10} × {mm / 1000} = {answer} Pa."
+   ],
+   "unit": "Pa"
+  },
+  {
+   "id": "p3-12-water",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      95000,
+      104000
+     ],
+     "step": 1000
+    }
+   },
+   "prompt": "Atmospheric pressure is {p} Pa. How tall would the column be in a water barometer (m)? Density of water {1000} kg/m³.",
+   "answer": "p / 10000",
+   "misconceptions": [
+    {
+     "id": "nog",
+     "wrong": "p / 1000",
+     "explain": "Divide by ρg = {10000}, not just by ρ."
+    }
+   ],
+   "solution": [
+    "h = p ÷ (ρg) = {p} ÷ ({1000} × {10}).",
+    "h = {answer} m."
+   ],
+   "unit": "m"
+  },
+  {
+   "id": "p3-12-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is mercury used in a barometer rather than water?",
+       "r": "Mercury is very dense, so the column is short (about 76 cm)",
+       "w": [
+        "Mercury is cheaper than water",
+        "Water evaporates too fast to read",
+        "Mercury is lighter than water"
+       ],
+       "e": [
+        "Mercury is expensive.",
+        "The main reason is the height: water would need about 10 m.",
+        "Mercury is about 13.6 times denser than water."
+       ],
+       "y": "p = ρgh: a large ρ gives a small h."
+      },
+      {
+       "q": "What is in the space above the mercury in a barometer tube?",
+       "r": "A vacuum (almost nothing)",
+       "w": [
+        "Air",
+        "Water vapour",
+        "Mercury gas at high pressure"
+       ],
+       "e": [
+        "Air would push the mercury down and spoil the reading.",
+        "No water is in the tube.",
+        "There is only a tiny amount of mercury vapour."
+       ],
+       "y": "The tube was full of mercury before it was turned over; nothing replaced the mercury that fell."
+      },
+      {
+       "q": "If the barometer tube is tilted, what happens to the vertical height of the mercury column?",
+       "r": "It stays the same",
+       "w": [
+        "It increases",
+        "It decreases",
+        "It becomes zero"
+       ],
+       "e": [
+        "The mercury fills more of the tube, but the vertical height is fixed by air pressure.",
+        "Air pressure has not changed.",
+        "Air pressure still holds the mercury up."
+       ],
+       "y": "Only the vertical height depends on the air pressure."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-12-alt",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      700,
+      750
+     ],
+     "step": 5
+    }
+   },
+   "prompt": "At sea level in Limbe a barometer reads {760} mm of mercury; at the top of a hill it reads {r} mm. Find the difference in atmospheric pressure (Pa).",
+   "answer": "liquidPressure(13600, (760 - r) / 1000)",
+   "misconceptions": [
+    {
+     "id": "top",
+     "wrong": "liquidPressure(13600, r / 1000)",
+     "explain": "That is the pressure at the top. The question asks for the difference."
+    },
+    {
+     "id": "mm",
+     "wrong": "13600 * 10 * (760 - r)",
+     "explain": "Change mm to metres."
+    }
+   ],
+   "solution": [
+    "Difference in height = {760} − {r} = {760 - r} mm = {(760 - r) / 1000} m.",
+    "Δp = {13600} × {10} × {(760 - r) / 1000} = {answer} Pa."
+   ],
+   "unit": "Pa"
+  }
+ ]
+}

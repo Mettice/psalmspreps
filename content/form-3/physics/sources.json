@@ -1,0 +1,27 @@
+{
+ "_note": "Sources for Form 3 Physics (content/classes.json, form-3). Computed answers use src/engine/lib/physics.js and science2.js (tested); g = 10 N/kg (TR-P03).",
+ "measurement": {
+  "ref": "Form 3 Physics syllabus, Term 1: physical quantities, SI units, prefixes, standard form; measurement of mass, volume, temperature and time",
+  "checked": "Conversions computed by physics.js (convertUnit, factor, toKelvin; tested); instrument facts authored."
+ },
+ "forces": {
+  "ref": "Form 3 Physics syllabus, Term 1: scalar and vector quantities, measuring force, mass and weight, laboratory safety",
+  "checked": "Weights computed with W = mg (g = 10 N/kg on Earth, 1.6 N/kg on the Moon); classification and safety items authored."
+ },
+ "density": {
+  "ref": "Form 3 Physics syllabus, Term 1: density, its measurement for liquids, regular and irregular solids, and applications",
+  "checked": "Densities, masses and volumes computed by the engine; typical densities (water 1 g/cm³, aluminium 2.7, steel 7.9, concrete 2400 kg/m³) authored."
+ },
+ "pressure": {
+  "ref": "Form 3 Physics syllabus, Term 1: pressure in solids, liquids and the atmosphere; the simple barometer; effects on boiling points and health",
+  "checked": "P = F ÷ A and p = ρgh computed by science2.js (pressure, liquidPressure; tested), g = 10 N/kg; mercury 13 600 kg/m³ and atmospheric pressure ≈ 100 kPa authored; explanations authored."
+ },
+ "elasticity": {
+  "ref": "Form 3 Physics syllabus, Term 1: elasticity, Hooke's law, elastic limit, force-extension graphs and applications",
+  "checked": "F = ke and extensions computed; graphs drawn by science2.js lineGraph; applications authored."
+ },
+ "energy": {
+  "ref": "Form 3 Physics syllabus, Term 1: energy forms and sources (renewable and non-renewable), conservation of energy, transducers, energy flow diagrams, simple calculations",
+  "checked": "PE = mgh, KE = ½mv² and efficiency computed (g = 10 N/kg); forms, sources and transducers authored (Cameroon dams: Edéa, Song Loulou, Lagdo, Lom Pangar)."
+ }
+}

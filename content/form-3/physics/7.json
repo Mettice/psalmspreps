@@ -1,0 +1,391 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  4,
+  5
+ ],
+ "skills": [
+  {
+   "id": "p3-7",
+   "name": "Density: definition, calculation, units; density of a liquid"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Density is mass per unit volume: ρ = m ÷ V.\n• Units: kg/m³ (SI) or g/cm³. 1 g/cm³ = 1000 kg/m³. Water: 1 g/cm³ = 1000 kg/m³.\n• Rearranged: m = ρV and V = m ÷ ρ.\n• A solid floats in a liquid if its density is less than that of the liquid.\nDensity of a liquid: measure a volume in a measuring cylinder, find its mass by difference on a balance, then divide.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Heavy for its size",
+    "text": "A small iron nail sinks but a large log floats. The log has more mass, but it is less dense: each cubic centimetre of wood has less mass than a cubic centimetre of iron.\nDensity is mass per unit volume: ρ = m ÷ V (ρ is the Greek letter rho)."
+   },
+   {
+    "heading": "Units and rearranging",
+    "text": "Units: g/cm³ or, in SI, kg/m³. Since {1} g/cm³ = {1000} kg/m³, water has density {1} g/cm³ = {1000} kg/m³.\n• m = ρV: {200} cm³ of oil of density {0.9} g/cm³ has a mass of {180} g.\n• V = m ÷ ρ.\nTypical densities (g/cm³): cork {0.25}, wood {0.6}, palm oil {0.9}, water {1}, aluminium {2.7}, iron {7.9}, mercury {13.6}."
+   },
+   {
+    "heading": "Density of a liquid",
+    "text": "• Find the mass of an empty measuring cylinder.\n• Pour in some liquid and read its volume.\n• Find the new mass; subtract to get the mass of the liquid.\n• Divide: ρ = m ÷ V.\nObjects float in a liquid if they are less dense than it: that is why oil floats on water."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "density",
+    "meaning": "mass per unit volume, ρ = m ÷ V"
+   },
+   {
+    "word": "kg/m³",
+    "meaning": "the SI unit of density"
+   },
+   {
+    "word": "float",
+    "meaning": "stay on the surface: less dense than the liquid"
+   }
+  ],
+  "examples": [
+   "{60} g in {20} cm³: {3} g/cm³",
+   "{2.7} g/cm³ = {2700} kg/m³",
+   "Cork ({0.25} g/cm³) floats on water"
+  ],
+  "mistake": {
+   "wrong": "ρ = V ÷ m",
+   "right": "ρ = m ÷ V",
+   "why": "Density is mass per unit volume: mass on top, volume underneath."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 540,
+   "V": 200
+  },
+  "problem": "A block of aluminium has a mass of {m} g and a volume of {V} cm³. Find its density in g/cm³ and in kg/m³.",
+  "steps": [
+   "ρ = m ÷ V = {m} ÷ {V} = {m / V} g/cm³.",
+   "{1} g/cm³ = {1000} kg/m³, so ρ = {m / V * 1000} kg/m³."
+  ],
+  "answer": "{m / V} g/cm³ = {m / V * 1000} kg/m³",
+  "checks": [
+   "m / V == 2.7"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p7-1",
+    "status": "draft",
+    "idea": "Density = mass ÷ volume.",
+    "vars": {},
+    "example": [
+     "{60} g in {20} cm³: ρ = {3} g/cm³"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-7-rho"
+    }
+   },
+   {
+    "id": "c3p7-2",
+    "status": "draft",
+    "idea": "Mass = density × volume.",
+    "vars": {},
+    "example": [
+     "ρ = {8} g/cm³, V = {10} cm³: m = {80} g"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-7-m"
+    }
+   },
+   {
+    "id": "c3p7-3",
+    "status": "draft",
+    "idea": "{1} g/cm³ = {1000} kg/m³.",
+    "vars": {},
+    "example": [
+     "Water: {1} g/cm³ = {1000} kg/m³"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-7-conv-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "density"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        5,
+        200
+       ]
+      },
+      "r": {
+       "expr": "k / 10"
+      }
+     },
+     "prompt": "Convert a density of {r} g/cm³ to kg/m³.",
+     "answer": "r * 1000",
+     "misconceptions": [
+      {
+       "id": "div",
+       "wrong": "r / 1000",
+       "explain": "kg/m³ numbers are larger: multiply by {1000}."
+      }
+     ],
+     "solution": [
+      "{1} g/cm³ = {1000} kg/m³.",
+      "{r} × {1000} = {answer} kg/m³."
+     ],
+     "unit": "kg/m³"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-7-rho",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "V": {
+     "int": [
+      5,
+      40
+     ]
+    },
+    "k": {
+     "int": [
+      12,
+      90
+     ]
+    },
+    "m": {
+     "expr": "V * k / 10"
+    }
+   },
+   "prompt": "A stone has mass {m} g and volume {V} cm³. Find its density (g/cm³).",
+   "answer": "density(m, V)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "density(V, m)",
+     "explain": "Density is mass ÷ volume, not volume ÷ mass."
+    },
+    {
+     "id": "times",
+     "wrong": "m * V",
+     "explain": "Divide mass by volume."
+    }
+   ],
+   "solution": [
+    "ρ = m ÷ V = {m} ÷ {V}.",
+    "ρ = {answer} g/cm³."
+   ],
+   "unit": "g/cm³"
+  },
+  {
+   "id": "p3-7-m",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      0.8,
+      0.9,
+      0.92
+     ]
+    },
+    "V": {
+     "int": [
+      50,
+      500
+     ],
+     "step": 50
+    }
+   },
+   "prompt": "Cooking oil has a density of {r} g/cm³. Find the mass of {V} cm³ of it (g).",
+   "answer": "roundTo(r * V, 0.01)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(V / r, 0.01)",
+     "explain": "Mass = density × volume: multiply."
+    }
+   ],
+   "solution": [
+    "m = ρ × V = {r} × {V}.",
+    "m = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "p3-7-conv",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      5,
+      200
+     ]
+    },
+    "r": {
+     "expr": "k / 10"
+    }
+   },
+   "prompt": "Convert a density of {r} g/cm³ to kg/m³.",
+   "answer": "r * 1000",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "r / 1000",
+     "explain": "kg/m³ numbers are larger: multiply by {1000}."
+    }
+   ],
+   "solution": [
+    "{1} g/cm³ = {1000} kg/m³.",
+    "{r} × {1000} = {answer} kg/m³."
+   ],
+   "unit": "kg/m³"
+  },
+  {
+   "id": "p3-7-liquid",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "e": {
+     "int": [
+      80,
+      200
+     ]
+    },
+    "V": {
+     "pick": [
+      50,
+      100,
+      200
+     ]
+    },
+    "k": {
+     "int": [
+      7,
+      14
+     ]
+    },
+    "m": {
+     "expr": "V * k / 10"
+    }
+   },
+   "prompt": "An empty measuring cylinder has mass {e} g. With {V} cm³ of a liquid it has mass {e + m} g. Find the density of the liquid (g/cm³).",
+   "answer": "density(m, V)",
+   "misconceptions": [
+    {
+     "id": "total",
+     "wrong": "density(e + m, V)",
+     "explain": "Subtract the empty cylinder first: only the liquid's mass counts."
+    }
+   ],
+   "solution": [
+    "Mass of liquid = {e + m} − {e} = {m} g.",
+    "ρ = {m} ÷ {V} = {answer} g/cm³."
+   ],
+   "unit": "g/cm³"
+  },
+  {
+   "id": "p3-7-float",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "V": {
+     "int": [
+      20,
+      200
+     ],
+     "step": 10
+    },
+    "k": {
+     "pick": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      12,
+      15,
+      19,
+      27
+     ]
+    },
+    "m": {
+     "expr": "V * k / 10"
+    }
+   },
+   "prompt": "A solid has mass {m} g and volume {V} cm³. Will it float or sink in water (density {1} g/cm³)?",
+   "correct": "{m / V < 1 ? 'Float: its density is ' + fmt(density(m, V)) + ' g/cm³, less than water' : 'Sink: its density is ' + fmt(density(m, V)) + ' g/cm³, more than water'}",
+   "distractors": [
+    {
+     "text": "{m / V < 1 ? 'Sink: its density is ' + fmt(density(m, V)) + ' g/cm³, more than water' : 'Float: its density is ' + fmt(density(m, V)) + ' g/cm³, less than water'}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{m > 100 ? 'Sink: it is heavy' : 'Float: it is light'}",
+     "misconception": "heavy"
+    },
+    {
+     "text": "{'Float: all solids float in water'}",
+     "misconception": "all"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Compare carefully: {density(m, V)} is {m / V < 1 ? 'less' : 'more'} than {1}."
+    },
+    {
+     "id": "heavy",
+     "explain": "Floating depends on density, not on mass alone: a heavy log of wood floats."
+    },
+    {
+     "id": "all",
+     "explain": "A solid denser than water (like a stone) sinks."
+    }
+   ],
+   "solution": [
+    "ρ = {m} ÷ {V} = {density(m, V)} g/cm³.",
+    "Compare with water ({1} g/cm³): {answer}."
+   ],
+   "where": [
+    "(m > 100) == (m / V < 1)"
+   ]
+  }
+ ]
+}

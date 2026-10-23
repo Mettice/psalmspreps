@@ -1,0 +1,355 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p3-6",
+   "name": "Measure temperature and time"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Temperature tells how hot or cold a body is. It is measured with a thermometer, in degrees Celsius (°C) or in kelvin (K).\n• T(K) = T(°C) + 273. Water freezes at 0 °C (273 K) and boils at 100 °C (373 K) at normal pressure.\n• Laboratory thermometers use mercury or coloured alcohol; a clinical thermometer reads body temperature (about 37 °C).\nTime is measured with clocks and stopwatches. SI unit: the second. 1 min = 60 s, 1 h = 3600 s.\nTo time something short (a swing of a pendulum), time many swings and divide: period = total time ÷ number of swings.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Thermometers",
+    "text": "A liquid-in-glass thermometer has a bulb of mercury or coloured alcohol. When it warms, the liquid expands up the narrow tube; the scale shows the temperature.\nRead it where the liquid ends, with your eye level with that point. Wait until the level stops moving.\nA clinical thermometer has a narrow kink so the reading stays after you take it out of the mouth; it reads about {35} °C to {42} °C.",
+    "figure": "thermometer(28)"
+   },
+   {
+    "heading": "Celsius and kelvin",
+    "text": "Two temperature scales are used:\n• Celsius: water freezes at {0} °C and boils at {100} °C.\n• Kelvin (SI): T(K) = T(°C) + {273}.\nSo {0} °C = {273} K and {100} °C = {373} K. A hot day in Garoua at {40} °C is {313} K. There are no negative temperatures on the kelvin scale."
+   },
+   {
+    "heading": "Measuring time",
+    "text": "Time is measured with clocks, watches and stopwatches; the SI unit is the second. {1} min = {60} s and {1} h = {3600} s.\nYour reaction time when starting and stopping a stopwatch adds an error. To reduce it, time many events and divide.\nFor a pendulum, time {20} swings and divide by {20}; repeat three times and take the mean."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "temperature",
+    "meaning": "how hot or cold something is"
+   },
+   {
+    "word": "kelvin",
+    "meaning": "the SI unit of temperature: K = °C + {273}"
+   },
+   {
+    "word": "period",
+    "meaning": "the time for one complete swing"
+   }
+  ],
+  "examples": [
+   "{37} °C = {310} K",
+   "{2} min {15} s = {135} s",
+   "{20} swings in {30} s: period {1.5} s"
+  ],
+  "mistake": {
+   "wrong": "{300} K = {300} + {273} = {573} °C",
+   "right": "{300} K = {300} − {273} = {27} °C",
+   "why": "To go from kelvin to Celsius, subtract {273}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 20,
+   "t": 32
+  },
+  "problem": "A pendulum makes {n} complete swings in {t} s. Find its period.",
+  "steps": [
+   "Period = time for one swing = total time ÷ number of swings.",
+   "= {t} ÷ {n} = {t / n} s."
+  ],
+  "answer": "{t / n} s",
+  "checks": [
+   "t / n == 1.6"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p6-1",
+    "status": "draft",
+    "idea": "Read a thermometer where the liquid ends, eye level with the scale.",
+    "vars": {},
+    "example": [
+     "Each small mark on a {0}–{50} °C scale is {1} °C."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-6-read"
+    }
+   },
+   {
+    "id": "c3p6-2",
+    "status": "draft",
+    "idea": "Kelvin = degrees Celsius + {273}.",
+    "vars": {},
+    "example": [
+     "{27} °C = {300} K"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-6-k"
+    }
+   },
+   {
+    "id": "c3p6-3",
+    "status": "draft",
+    "idea": "Time many swings and divide to find one swing.",
+    "vars": {},
+    "example": [
+     "{10} swings in {15} s: one swing takes {1.5} s."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-6-period-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "measurement"
+     ],
+     "vars": {
+      "n": {
+       "pick": [
+        10,
+        20
+       ]
+      },
+      "base": {
+       "int": [
+        12,
+        30
+       ]
+      },
+      "t1": {
+       "expr": "base + 0.2"
+      },
+      "t2": {
+       "expr": "base + 0.4"
+      },
+      "t3": {
+       "expr": "base"
+      }
+     },
+     "prompt": "Bih times {n} swings of a pendulum three times: {t1} s, {t2} s and {t3} s. Find the period, using the mean time (s).",
+     "answer": "roundTo((t1 + t2 + t3) / 3 / n, 0.01)",
+     "misconceptions": [
+      {
+       "id": "mean",
+       "wrong": "roundTo((t1 + t2 + t3) / 3, 0.01)",
+       "explain": "That is the time for {n} swings. Divide by {n} for one swing."
+      },
+      {
+       "id": "sum",
+       "wrong": "roundTo((t1 + t2 + t3) / n, 0.01)",
+       "explain": "Find the mean of the three timings first (divide by {3})."
+      }
+     ],
+     "solution": [
+      "Mean time = ({t1} + {t2} + {t3}) ÷ {3} = {roundTo((t1 + t2 + t3) / 3, 0.01)} s.",
+      "Period = mean ÷ {n} = {answer} s."
+     ],
+     "unit": "s"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-6-read",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      12,
+      46
+     ]
+    }
+   },
+   "prompt": "What temperature does the thermometer show (°C)?",
+   "answer": "t",
+   "misconceptions": [
+    {
+     "id": "next",
+     "wrong": "t + 1",
+     "explain": "Read where the liquid ends, not the next mark."
+    }
+   ],
+   "solution": [
+    "Each small mark is {1} °C.",
+    "The liquid ends at {answer} °C."
+   ],
+   "unit": "°C",
+   "figure": "thermometer(t)"
+  },
+  {
+   "id": "p3-6-k",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "c": {
+     "int": [
+      -20,
+      100
+     ]
+    }
+   },
+   "prompt": "Convert {c} °C to kelvin.",
+   "answer": "toKelvin(c)",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "c - 273",
+     "explain": "Add {273} to change °C to kelvin."
+    }
+   ],
+   "solution": [
+    "T(K) = T(°C) + {273}.",
+    "{c} + {273} = {answer} K."
+   ],
+   "unit": "K"
+  },
+  {
+   "id": "p3-6-c",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      250,
+      400
+     ]
+    }
+   },
+   "prompt": "Convert {k} K to degrees Celsius.",
+   "answer": "toCelsius(k)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "k + 273",
+     "explain": "Subtract {273} to change kelvin to °C."
+    }
+   ],
+   "solution": [
+    "T(°C) = T(K) − {273}.",
+    "{k} − {273} = {answer} °C."
+   ],
+   "unit": "°C",
+   "signed": true
+  },
+  {
+   "id": "p3-6-time",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "s": {
+     "int": [
+      5,
+      55
+     ]
+    }
+   },
+   "prompt": "A race lasted {m} min {s} s. How many seconds is that?",
+   "answer": "60 * m + s",
+   "misconceptions": [
+    {
+     "id": "hundred",
+     "wrong": "100 * m + s",
+     "explain": "A minute is {60} s, not {100} s."
+    }
+   ],
+   "solution": [
+    "{1} min = {60} s, so {m} min = {60 * m} s.",
+    "{60 * m} + {s} = {answer} s."
+   ],
+   "unit": "s"
+  },
+  {
+   "id": "p3-6-period",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      10,
+      20
+     ]
+    },
+    "base": {
+     "int": [
+      12,
+      30
+     ]
+    },
+    "t1": {
+     "expr": "base + 0.2"
+    },
+    "t2": {
+     "expr": "base + 0.4"
+    },
+    "t3": {
+     "expr": "base"
+    }
+   },
+   "prompt": "Bih times {n} swings of a pendulum three times: {t1} s, {t2} s and {t3} s. Find the period, using the mean time (s).",
+   "answer": "roundTo((t1 + t2 + t3) / 3 / n, 0.01)",
+   "misconceptions": [
+    {
+     "id": "mean",
+     "wrong": "roundTo((t1 + t2 + t3) / 3, 0.01)",
+     "explain": "That is the time for {n} swings. Divide by {n} for one swing."
+    },
+    {
+     "id": "sum",
+     "wrong": "roundTo((t1 + t2 + t3) / n, 0.01)",
+     "explain": "Find the mean of the three timings first (divide by {3})."
+    }
+   ],
+   "solution": [
+    "Mean time = ({t1} + {t2} + {t3}) ÷ {3} = {roundTo((t1 + t2 + t3) / 3, 0.01)} s.",
+    "Period = mean ÷ {n} = {answer} s."
+   ],
+   "unit": "s"
+  }
+ ]
+}
