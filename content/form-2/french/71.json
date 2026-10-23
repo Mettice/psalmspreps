@@ -3,7 +3,9 @@
  "class": "Form 2",
  "lesson_no": 71,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  70
+ ],
  "skills": [
   {
    "id": "fr2-71",
@@ -12,174 +14,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier.\nLire, c’est repérer les informations explicites, relier les actions et justifier une réponse avec le texte. Une page trouvée sur Internet n’est pas automatiquement fiable.",
+  "text": "Pour comprendre un passage, relève les actions et leur ordre. Une raison explique pourquoi un personnage agit ; un projet indique ce qu’il compte faire. Lire une page ne prouve pas que toutes ses informations sont exactes. Le nom de l’auteur ou de l’organisme, la date et la comparaison de références peuvent aider à vérifier une information. Les questions portent sur le passage original ci-dessous : tu n’as pas besoin d’ouvrir Internet ni de créer un compte.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras répondre sur les actions d’un passage et distinguer recherche information et vérification. Acquis mobilisés : les messages et les questions. Pour la suite : la recherche sur Internet et l’écriture d’un paragraphe."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Pour comprendre un passage, relève les actions et leur ordre. Une raison explique pourquoi un personnage agit ; un projet indique ce qu’il compte faire. Lire une page ne prouve pas que toutes ses informations sont exactes. Le nom de l’auteur ou de l’organisme, la date et la comparaison de références peuvent aider à vérifier une information. Les questions portent sur le passage original ci-dessous : tu n’as pas besoin d’ouvrir Internet ni de créer un compte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Passage original : Bih prépare un exposé sur les marchés dans un club imaginaire de Bamenda. Elle note une question précise avant de chercher. Avec l’enseignante, elle compare une page dont l’organisme et la date sont indiqués à un message anonyme. Elle choisit de vérifier une affirmation et conserve le nom de la source pour la citer. Ayuk l’aide à organiser ses notes. Le passage ne donne pas encore le résultat final de l’exposé."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Relis la phrase utile avant de choisir. Distingue ce que le personnage fait de ce que tu imagines. Pour expliquer un choix, cite un indice du passage plutôt que d’inventer le succès de l’exposé."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "question de recherche",
+    "meaning": "ce qui guide la recherche d’information"
+   },
+   {
+    "word": "source identifiable",
+    "meaning": "une origine que l’on peut nommer"
+   },
+   {
+    "word": "vérification",
+    "meaning": "l’examen d’une affirmation avant de la reprendre"
+   },
+   {
+    "word": "limite du passage",
+    "meaning": "une information que ce texte ne donne pas"
+   }
+  ],
+  "mistake": {
+   "wrong": "Chercher exige de ne jamais savoir ce que l’on cherche.",
+   "right": "ce qui guide la recherche d’information.",
+   "why": "Une question précise oriente les choix."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?",
+  "problem": "Bih note une question avant de chercher. Explique le choix.",
   "steps": [
-   "Relève les indices précis du texte.",
-   "Ces éléments sont explicitement nommés."
+   "ce qui guide la recherche d’information.",
+   "Une question précise oriente les choix."
   ],
-  "answer": "Le nom de l’auteur et la date.",
+  "answer": "question de recherche",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c71-1",
+    "id": "fr2-71-c1",
     "status": "draft",
-    "idea": "Repère ce que fait le personnage.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Bih prépare un exposé sur les marchés."
+     "question de recherche : ce qui guide la recherche d’information.",
+     "source identifiable : une origine que l’on peut nommer.",
+     "vérification : l’examen d’une affirmation avant de la reprendre.",
+     "limite du passage : une information que ce texte ne donne pas."
     ],
     "checks": [],
     "check": {
-     "ref": "fr2-71-etape-1"
+     "ref": "fr2-71-notions"
     }
    },
    {
-    "id": "c71-2",
+    "id": "fr2-71-c2",
     "status": "draft",
-    "idea": "Relève les indices précis du texte.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Bih note le nom de l’auteur et la date."
+     "Bih note une question avant de chercher.",
+     "Une page indique un organisme et une date.",
+     "Bih compare des références avec l’enseignante.",
+     "Le bilan final de l’exposé n’est pas fourni."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-71-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "lecture"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?",
-         "r": "Le nom de l’auteur et la date.",
-         "w": [
-          "La couleur de son écran.",
-          "Le nombre de publicités."
-         ],
-         "y": "Ces éléments sont explicitement nommés."
-        },
-        {
-         "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?",
-         "r": "Une page n’indique aucune source.",
-         "w": [
-          "Elle veut changer de sujet.",
-          "La bibliothèque est fermée."
-         ],
-         "y": "L’absence de source est l’obstacle mentionné dans le texte."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fr2-71-cas"
     }
    },
    {
-    "id": "c71-3",
+    "id": "fr2-71-c3",
     "status": "draft",
-    "idea": "Justifie une interprétation par une action du personnage.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Vérifier l’auteur montre que Bih cherche une information fiable."
+     "Chercher exige de ne jamais savoir ce que l’on cherche. Correction : Une question précise oriente les choix.",
+     "Le premier résultat est toujours une preuve suffisante. Correction : L’ordre d’affichage ne garantit pas la fiabilité.",
+     "Comparer signifie recopier toute phrase sans l’examiner. Correction : La comparaison doit aider à contrôler le contenu.",
+     "Le projet prouve déjà la meilleure note de toute la classe. Correction : Le résultat n’est pas raconté."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-71-etape-3-card",
-     "type": "mcq",
+     "id": "fr2-71-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "lecture"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?",
-         "r": "Il faut vérifier les informations avant de les utiliser.",
-         "w": [
-          "Toute page en ligne est exacte.",
-          "Une publicité remplace une source."
-         ],
-         "y": "Elle vérifie l’auteur, la date et les sources avant de conserver les informations."
-        },
-        {
-         "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ?",
-         "r": "Non ; le texte dit seulement qu’elle doit être vérifiée.",
-         "w": [
-          "Oui, sans autre vérification.",
-          "Oui, parce qu’elle est courte."
-         ],
-         "y": "Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "question de recherche : ce qui guide la recherche d’information.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une question précise oriente les choix. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "source identifiable : une origine que l’on peut nommer.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’ordre d’affichage ne garantit pas la fiabilité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "vérification : l’examen d’une affirmation avant de la reprendre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La comparaison doit aider à contrôler le contenu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "limite du passage : une information que ce texte ne donne pas.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le résultat n’est pas raconté. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Chercher exige de ne jamais savoir ce que l’on cherche.",
+        "truth": "false",
+        "explain": "Une question précise oriente les choix."
+       },
+       {
+        "text": "Le premier résultat est toujours une preuve suffisante.",
+        "truth": "false",
+        "explain": "L’ordre d’affichage ne garantit pas la fiabilité."
+       },
+       {
+        "text": "Comparer signifie recopier toute phrase sans l’examiner.",
+        "truth": "false",
+        "explain": "La comparaison doit aider à contrôler le contenu."
+       },
+       {
+        "text": "Le projet prouve déjà la meilleure note de toute la classe.",
+        "truth": "false",
+        "explain": "Le résultat n’est pas raconté."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +185,75 @@
  },
  "questions": [
   {
-   "id": "fr2-71-etape-1",
+   "id": "fr2-71-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "lecture"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quel travail Bih prépare-t-elle ?",
-       "r": "Un exposé sur les marchés.",
+       "q": "Quel terme désigne ce qui guide la recherche d’information ?",
+       "r": "question de recherche",
        "w": [
-        "Une recette de cuisine.",
-        "Un match de football."
+        "source identifiable",
+        "vérification",
+        "limite du passage"
        ],
-       "y": "Le texte annonce son sujet dès la première phrase."
+       "e": [
+        "Cela désigne une origine que l’on peut nommer, plutôt que la notion demandée.",
+        "Cela désigne l’examen d’une affirmation avant de la reprendre, plutôt que la notion demandée.",
+        "Cela désigne une information que ce texte ne donne pas, plutôt que la notion demandée."
+       ],
+       "y": "Une question précise oriente les choix."
       },
       {
-       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Où travaille-t-elle ?",
-       "r": "À la bibliothèque.",
+       "q": "Quel terme désigne une origine que l’on peut nommer ?",
+       "r": "source identifiable",
        "w": [
-        "Au stade.",
-        "Dans un taxi."
+        "question de recherche",
+        "vérification",
+        "limite du passage"
        ],
-       "y": "Le lieu est donné dans la deuxième phrase."
+       "e": [
+        "Cela désigne ce qui guide la recherche d’information, plutôt que la notion demandée.",
+        "Cela désigne l’examen d’une affirmation avant de la reprendre, plutôt que la notion demandée.",
+        "Cela désigne une information que ce texte ne donne pas, plutôt que la notion demandée."
+       ],
+       "y": "L’ordre d’affichage ne garantit pas la fiabilité."
+      },
+      {
+       "q": "Quel terme désigne l’examen d’une affirmation avant de la reprendre ?",
+       "r": "vérification",
+       "w": [
+        "question de recherche",
+        "source identifiable",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela désigne ce qui guide la recherche d’information, plutôt que la notion demandée.",
+        "Cela désigne une origine que l’on peut nommer, plutôt que la notion demandée.",
+        "Cela désigne une information que ce texte ne donne pas, plutôt que la notion demandée."
+       ],
+       "y": "La comparaison doit aider à contrôler le contenu."
+      },
+      {
+       "q": "Quel terme désigne une information que ce texte ne donne pas ?",
+       "r": "limite du passage",
+       "w": [
+        "question de recherche",
+        "source identifiable",
+        "vérification"
+       ],
+       "e": [
+        "Cela désigne ce qui guide la recherche d’information, plutôt que la notion demandée.",
+        "Cela désigne une origine que l’on peut nommer, plutôt que la notion demandée.",
+        "Cela désigne l’examen d’une affirmation avant de la reprendre, plutôt que la notion demandée."
+       ],
+       "y": "Le résultat n’est pas raconté."
       }
      ]
     }
@@ -228,53 +268,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-71-etape-2",
+   "id": "fr2-71-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih note une question avant de chercher.\nQuelle notion convient ?",
+       "r": "question de recherche",
+       "w": [
+        "source identifiable",
+        "vérification",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela concerne une origine que l’on peut nommer. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’examen d’une affirmation avant de la reprendre. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information que ce texte ne donne pas. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une question précise oriente les choix."
+      },
+      {
+       "q": "Une page indique un organisme et une date.\nQuelle notion convient ?",
+       "r": "source identifiable",
+       "w": [
+        "question de recherche",
+        "vérification",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela concerne ce qui guide la recherche d’information. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’examen d’une affirmation avant de la reprendre. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information que ce texte ne donne pas. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’ordre d’affichage ne garantit pas la fiabilité."
+      },
+      {
+       "q": "Bih compare des références avec l’enseignante.\nQuelle notion convient ?",
+       "r": "vérification",
+       "w": [
+        "question de recherche",
+        "source identifiable",
+        "limite du passage"
+       ],
+       "e": [
+        "Cela concerne ce qui guide la recherche d’information. Compare cette définition avec le cas présenté.",
+        "Cela concerne une origine que l’on peut nommer. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information que ce texte ne donne pas. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La comparaison doit aider à contrôler le contenu."
+      },
+      {
+       "q": "Le bilan final de l’exposé n’est pas fourni.\nQuelle notion convient ?",
+       "r": "limite du passage",
+       "w": [
+        "question de recherche",
+        "source identifiable",
+        "vérification"
+       ],
+       "e": [
+        "Cela concerne ce qui guide la recherche d’information. Compare cette définition avec le cas présenté.",
+        "Cela concerne une origine que l’on peut nommer. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’examen d’une affirmation avant de la reprendre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le résultat n’est pas raconté."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-71-appliquer",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "lecture"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?",
-       "r": "Le nom de l’auteur et la date.",
+       "q": "Que fait Bih avant de chercher ?",
+       "r": "Elle note une question précise.",
        "w": [
-        "La couleur de son écran.",
-        "Le nombre de publicités."
+        "Elle publie un numéro privé.",
+        "Elle annonce un résultat déjà noté.",
+        "Elle invente la date de la page."
        ],
-       "y": "Ces éléments sont explicitement nommés."
+       "e": [
+        "Le passage ne demande aucun numéro.",
+        "Le résultat final n’est pas donné.",
+        "La date est un indice à relever, pas à inventer."
+       ],
+       "y": "L’ordre des actions est explicite."
       },
       {
-       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?",
-       "r": "Une page n’indique aucune source.",
+       "q": "Quels indices la page fournit-elle ?",
+       "r": "Le nom de l’organisme et la date.",
        "w": [
-        "Elle veut changer de sujet.",
-        "La bibliothèque est fermée."
+        "Le dossier privé de Bih.",
+        "Une garantie que toute phrase est vraie.",
+        "La note finale de l’exposé."
        ],
-       "y": "L’absence de source est l’obstacle mentionné dans le texte."
+       "e": [
+        "Aucun dossier n’est fourni.",
+        "Les indices aident sans tout garantir.",
+        "La note reste inconnue."
+       ],
+       "y": "Relève les informations présentes."
+      },
+      {
+       "q": "Pourquoi garder le nom de la source ?",
+       "r": "Pour pouvoir la citer.",
+       "w": [
+        "Pour prétendre avoir inventé le texte.",
+        "Pour supprimer toute vérification.",
+        "Pour garantir un résultat scolaire."
+       ],
+       "e": [
+        "Citer reconnaît l’origine.",
+        "La vérification reste nécessaire.",
+        "L’origine ne garantit pas la note."
+       ],
+       "y": "Le motif est annoncé."
+      },
+      {
+       "q": "Quelle conclusion dépasse le passage ?",
+       "r": "L’exposé a déjà obtenu un résultat final.",
+       "w": [
+        "Ayuk aide à organiser les notes.",
+        "Bih compare des références.",
+        "L’enseignante accompagne la recherche."
+       ],
+       "e": [
+        "Cette aide est écrite.",
+        "La comparaison est racontée.",
+        "L’accompagnement est donné."
+       ],
+       "y": "Le résultat final n’est pas fourni."
       }
      ]
     }
@@ -289,84 +488,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-71-etape-3",
-   "type": "mcq",
+   "id": "fr2-71-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "question de recherche",
+     "right": "Bih note une question avant de chercher."
+    },
+    {
+     "left": "source identifiable",
+     "right": "Une page indique un organisme et une date."
+    },
+    {
+     "left": "vérification",
+     "right": "Bih compare des références avec l’enseignante."
+    },
+    {
+     "left": "limite du passage",
+     "right": "Le bilan final de l’exposé n’est pas fourni."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-71-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "lecture"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?",
-       "r": "Il faut vérifier les informations avant de les utiliser.",
-       "w": [
-        "Toute page en ligne est exacte.",
-        "Une publicité remplace une source."
-       ],
-       "y": "Elle vérifie l’auteur, la date et les sources avant de conserver les informations."
-      },
-      {
-       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ?",
-       "r": "Non ; le texte dit seulement qu’elle doit être vérifiée.",
-       "w": [
-        "Oui, sans autre vérification.",
-        "Oui, parce qu’elle est courte."
-       ],
-       "y": "Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "question de recherche : ce qui guide la recherche d’information.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une question précise oriente les choix. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "source identifiable : une origine que l’on peut nommer.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’ordre d’affichage ne garantit pas la fiabilité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "vérification : l’examen d’une affirmation avant de la reprendre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La comparaison doit aider à contrôler le contenu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "limite du passage : une information que ce texte ne donne pas.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le résultat n’est pas raconté. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chercher exige de ne jamais savoir ce que l’on cherche.",
+      "truth": "false",
+      "explain": "Une question précise oriente les choix."
+     },
+     {
+      "text": "Le premier résultat est toujours une preuve suffisante.",
+      "truth": "false",
+      "explain": "L’ordre d’affichage ne garantit pas la fiabilité."
+     },
+     {
+      "text": "Comparer signifie recopier toute phrase sans l’examiner.",
+      "truth": "false",
+      "explain": "La comparaison doit aider à contrôler le contenu."
+     },
+     {
+      "text": "Le projet prouve déjà la meilleure note de toute la classe.",
+      "truth": "false",
+      "explain": "Le résultat n’est pas raconté."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

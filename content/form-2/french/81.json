@@ -3,7 +3,12 @@
  "class": "Form 2",
  "lesson_no": 81,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  70,
+  71,
+  77,
+  80
+ ],
  "skills": [
   {
    "id": "fr2-81",
@@ -12,174 +17,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Un paragraphe rassemble des phrases liées à une même idée. Pour expliquer comment utiliser une ressource numérique, présente le but, indique les étapes dans l’ordre, puis termine par le résultat ou un conseil. Utilise des phrases simples, des mots de liaison et une ponctuation claire. Relis pour vérifier le sens, les accords et les répétitions. Les phrases doivent former un ensemble, pas une liste de sujets sans rapport.",
+  "text": "Un paragraphe réunit des phrases autour d’une idée principale. Une ouverture peut annoncer cette idée, puis des détails la développent. Des mots comme d’abord et ensuite aident à suivre une démarche ; ils ne remplacent pas les actions elles-mêmes. Les pronoms doivent renvoyer clairement à des personnages ou objets. Relis les temps, les accords et les points. Un paragraphe court n’exige ni données privées ni phrases compliquées : la cohérence et la précision comptent.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras rédiger des phrases simples autour d’une même idée avec une progression et des reprises claires. Acquis mobilisés : les messages, la ponctuation et le présent. Pour la suite : les rédactions plus longues de la classe suivante."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un paragraphe réunit des phrases autour d’une idée principale. Une ouverture peut annoncer cette idée, puis des détails la développent. Des mots comme d’abord et ensuite aident à suivre une démarche ; ils ne remplacent pas les actions elles-mêmes. Les pronoms doivent renvoyer clairement à des personnages ou objets. Relis les temps, les accords et les points. Un paragraphe court n’exige ni données privées ni phrases compliquées : la cohérence et la précision comptent."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Le club de lecture imaginaire prépare une fiche. D’abord, Bih note les idées utiles. Ayuk lit les phrases et pose une question sur la source. Ensuite, le groupe vérifie le message avec l’enseignante. Les élèves gardent une version claire pour leur prochaine séance. Chaque phrase développe la même préparation sans annoncer une note finale inventée."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Écris l’idée principale avant de choisir les détails. Ordonne les actions puis rédige des phrases simples complètes. Relis en demandant qui agit et à quoi renvoie chaque pronom. Vérifie enfin ponctuation et conjugaison."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "idée principale",
+    "meaning": "le sujet commun développé par les phrases"
+   },
+   {
+    "word": "détail pertinent",
+    "meaning": "une information qui développe cette idée"
+   },
+   {
+    "word": "progression",
+    "meaning": "l’ordre dans lequel les idées ou actions avancent"
+   },
+   {
+    "word": "reprise claire",
+    "meaning": "un mot renvoyant à un référent identifiable"
+   }
+  ],
+  "mistake": {
+   "wrong": "Chaque phrase doit traiter un sujet sans rapport avec les autres.",
+   "right": "le sujet commun développé par les phrases.",
+   "why": "Le paragraphe demande une unité de sens."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Quel mot annonce la première étape ?",
+  "problem": "La préparation d’une fiche relie le modèle. Explique le choix.",
   "steps": [
-   "Range les étapes avec des mots de liaison.",
-   "D’abord introduit le commencement."
+   "le sujet commun développé par les phrases.",
+   "Le paragraphe demande une unité de sens."
   ],
-  "answer": "D’abord",
+  "answer": "idée principale",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c81-1",
+    "id": "fr2-81-c1",
     "status": "draft",
-    "idea": "Un paragraphe développe une même idée.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Je cherche un document pour mon exposé."
+     "idée principale : le sujet commun développé par les phrases.",
+     "détail pertinent : une information qui développe cette idée.",
+     "progression : l’ordre dans lequel les idées ou actions avancent.",
+     "reprise claire : un mot renvoyant à un référent identifiable."
     ],
     "checks": [],
     "check": {
-     "ref": "fr2-81-etape-1"
+     "ref": "fr2-81-notions"
     }
    },
    {
-    "id": "c81-2",
+    "id": "fr2-81-c2",
     "status": "draft",
-    "idea": "Range les étapes avec des mots de liaison.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "D’abord je cherche ; ensuite je vérifie."
+     "La préparation d’une fiche relie le modèle.",
+     "La vérification de la source soutient la préparation.",
+     "Ensuite relie des étapes successives.",
+     "Le groupe reprend ici le club déjà annoncé."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-81-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "expression"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quel mot annonce la première étape ?",
-         "r": "D’abord",
-         "w": [
-          "Enfin",
-          "Cependant"
-         ],
-         "y": "D’abord introduit le commencement."
-        },
-        {
-         "q": "Quelle suite est logique ?",
-         "r": "Chercher, vérifier, rédiger.",
-         "w": [
-          "Rédiger sans lire, puis inventer une source.",
-          "Conclure avant de choisir son sujet."
-         ],
-         "y": "On rassemble et vérifie les informations avant de rédiger."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fr2-81-cas"
     }
    },
    {
-    "id": "c81-3",
+    "id": "fr2-81-c3",
     "status": "draft",
-    "idea": "Relis le texte pour vérifier son unité et sa ponctuation.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Chaque phrase apporte une étape utile."
+     "Chaque phrase doit traiter un sujet sans rapport avec les autres. Correction : Le paragraphe demande une unité de sens.",
+     "Un détail est pertinent seulement parce qu’il révèle une adresse privée. Correction : La pertinence dépend du sujet, pas d’une confidence.",
+     "Un connecteur de succession signifie toujours une cause. Correction : Le lien doit correspondre à la relation voulue.",
+     "Un pronom peut changer de référent sans aucun indice à chaque emploi. Correction : Le lecteur doit pouvoir identifier le référent."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-81-etape-3-card",
-     "type": "mcq",
+     "id": "fr2-81-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "expression"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle phrase conclut utilement ?",
-         "r": "Enfin, je rédige avec les informations vérifiées.",
-         "w": [
-          "Mon ballon est neuf.",
-          "Je change de sujet à chaque phrase."
-         ],
-         "y": "Cette conclusion reprend le but de la recherche."
-        },
-        {
-         "q": "Que vérifier à la relecture ?",
-         "r": "Le lien des idées, les accords et la ponctuation.",
-         "w": [
-          "Seulement le nombre de pages.",
-          "Seulement la couleur du stylo."
-         ],
-         "y": "La qualité du paragraphe dépend de sa cohérence et de sa correction."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "idée principale : le sujet commun développé par les phrases.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le paragraphe demande une unité de sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "détail pertinent : une information qui développe cette idée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La pertinence dépend du sujet, pas d’une confidence. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "progression : l’ordre dans lequel les idées ou actions avancent.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le lien doit correspondre à la relation voulue. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "reprise claire : un mot renvoyant à un référent identifiable.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le lecteur doit pouvoir identifier le référent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Chaque phrase doit traiter un sujet sans rapport avec les autres.",
+        "truth": "false",
+        "explain": "Le paragraphe demande une unité de sens."
+       },
+       {
+        "text": "Un détail est pertinent seulement parce qu’il révèle une adresse privée.",
+        "truth": "false",
+        "explain": "La pertinence dépend du sujet, pas d’une confidence."
+       },
+       {
+        "text": "Un connecteur de succession signifie toujours une cause.",
+        "truth": "false",
+        "explain": "Le lien doit correspondre à la relation voulue."
+       },
+       {
+        "text": "Un pronom peut changer de référent sans aucun indice à chaque emploi.",
+        "truth": "false",
+        "explain": "Le lecteur doit pouvoir identifier le référent."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +188,75 @@
  },
  "questions": [
   {
-   "id": "fr2-81-etape-1",
+   "id": "fr2-81-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel début annonce un paragraphe sur une recherche ?",
-       "r": "Je cherche des informations pour mon exposé.",
+       "q": "Quel terme désigne le sujet commun développé par les phrases ?",
+       "r": "idée principale",
        "w": [
-        "Le ballon est rouge.",
-        "Mon repas est prêt."
+        "détail pertinent",
+        "progression",
+        "reprise claire"
        ],
-       "y": "Le début annonce le sujet de la recherche."
+       "e": [
+        "Cela désigne une information qui développe cette idée, plutôt que la notion demandée.",
+        "Cela désigne l’ordre dans lequel les idées ou actions avancent, plutôt que la notion demandée.",
+        "Cela désigne un mot renvoyant à un référent identifiable, plutôt que la notion demandée."
+       ],
+       "y": "Le paragraphe demande une unité de sens."
       },
       {
-       "q": "Quel détail reste dans ce sujet ?",
-       "r": "Je choisis des mots-clés précis.",
+       "q": "Quel terme désigne une information qui développe cette idée ?",
+       "r": "détail pertinent",
        "w": [
-        "Le gardien arrête un but.",
-        "Le riz cuit dans la marmite."
+        "idée principale",
+        "progression",
+        "reprise claire"
        ],
-       "y": "Les mots-clés concernent la recherche annoncée."
+       "e": [
+        "Cela désigne le sujet commun développé par les phrases, plutôt que la notion demandée.",
+        "Cela désigne l’ordre dans lequel les idées ou actions avancent, plutôt que la notion demandée.",
+        "Cela désigne un mot renvoyant à un référent identifiable, plutôt que la notion demandée."
+       ],
+       "y": "La pertinence dépend du sujet, pas d’une confidence."
+      },
+      {
+       "q": "Quel terme désigne l’ordre dans lequel les idées ou actions avancent ?",
+       "r": "progression",
+       "w": [
+        "idée principale",
+        "détail pertinent",
+        "reprise claire"
+       ],
+       "e": [
+        "Cela désigne le sujet commun développé par les phrases, plutôt que la notion demandée.",
+        "Cela désigne une information qui développe cette idée, plutôt que la notion demandée.",
+        "Cela désigne un mot renvoyant à un référent identifiable, plutôt que la notion demandée."
+       ],
+       "y": "Le lien doit correspondre à la relation voulue."
+      },
+      {
+       "q": "Quel terme désigne un mot renvoyant à un référent identifiable ?",
+       "r": "reprise claire",
+       "w": [
+        "idée principale",
+        "détail pertinent",
+        "progression"
+       ],
+       "e": [
+        "Cela désigne le sujet commun développé par les phrases, plutôt que la notion demandée.",
+        "Cela désigne une information qui développe cette idée, plutôt que la notion demandée.",
+        "Cela désigne l’ordre dans lequel les idées ou actions avancent, plutôt que la notion demandée."
+       ],
+       "y": "Le lecteur doit pouvoir identifier le référent."
       }
      ]
     }
@@ -228,53 +271,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-81-etape-2",
+   "id": "fr2-81-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La préparation d’une fiche relie le modèle.\nQuelle notion convient ?",
+       "r": "idée principale",
+       "w": [
+        "détail pertinent",
+        "progression",
+        "reprise claire"
+       ],
+       "e": [
+        "Cela concerne une information qui développe cette idée. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre dans lequel les idées ou actions avancent. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot renvoyant à un référent identifiable. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le paragraphe demande une unité de sens."
+      },
+      {
+       "q": "La vérification de la source soutient la préparation.\nQuelle notion convient ?",
+       "r": "détail pertinent",
+       "w": [
+        "idée principale",
+        "progression",
+        "reprise claire"
+       ],
+       "e": [
+        "Cela concerne le sujet commun développé par les phrases. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre dans lequel les idées ou actions avancent. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot renvoyant à un référent identifiable. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La pertinence dépend du sujet, pas d’une confidence."
+      },
+      {
+       "q": "Ensuite relie des étapes successives.\nQuelle notion convient ?",
+       "r": "progression",
+       "w": [
+        "idée principale",
+        "détail pertinent",
+        "reprise claire"
+       ],
+       "e": [
+        "Cela concerne le sujet commun développé par les phrases. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information qui développe cette idée. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot renvoyant à un référent identifiable. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le lien doit correspondre à la relation voulue."
+      },
+      {
+       "q": "Le groupe reprend ici le club déjà annoncé.\nQuelle notion convient ?",
+       "r": "reprise claire",
+       "w": [
+        "idée principale",
+        "détail pertinent",
+        "progression"
+       ],
+       "e": [
+        "Cela concerne le sujet commun développé par les phrases. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information qui développe cette idée. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre dans lequel les idées ou actions avancent. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le lecteur doit pouvoir identifier le référent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-81-appliquer",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel mot annonce la première étape ?",
-       "r": "D’abord",
+       "q": "Quelle phrase peut annoncer un paragraphe sur la préparation d’une fiche ?",
+       "r": "Le club prépare une fiche de lecture.",
        "w": [
-        "Enfin",
-        "Cependant"
+        "Les bananes sont mûres, sans lien avec la tâche.",
+        "Le résultat final est secret et le sujet absent.",
+        "Chaque mot doit changer de personnage."
        ],
-       "y": "D’abord introduit le commencement."
+       "e": [
+        "La phrase change de thème sans lien annoncé.",
+        "Un sujet absent ne guide pas le lecteur.",
+        "Les référents doivent rester compréhensibles."
+       ],
+       "y": "L’ouverture annonce l’idée principale."
       },
       {
-       "q": "Quelle suite est logique ?",
-       "r": "Chercher, vérifier, rédiger.",
+       "q": "Après le club prépare une fiche, quelle suite garde le thème ?",
+       "r": "Bih note les idées utiles.",
        "w": [
-        "Rédiger sans lire, puis inventer une source.",
-        "Conclure avant de choisir son sujet."
+        "La mer est profonde, sans lien expliqué.",
+        "Une identité privée doit être publiée.",
+        "Les mots ne doivent avoir aucun sens."
        ],
-       "y": "On rassemble et vérifie les informations avant de rédiger."
+       "e": [
+        "Le changement de sujet n’est pas relié.",
+        "La tâche ne demande pas de donnée privée.",
+        "La cohérence du sens est nécessaire."
+       ],
+       "y": "Le détail développe la préparation."
+      },
+      {
+       "q": "Pourquoi ensuite convient-il entre préparation et relecture ?",
+       "r": "Il indique une succession d’actions.",
+       "w": [
+        "Il signifie nécessairement parce que.",
+        "Il nomme un objet de la salle.",
+        "Il garantit que tout est vrai."
+       ],
+       "e": [
+        "Cause et succession sont distinctes.",
+        "C’est un repère de progression.",
+        "Un connecteur ne vérifie pas les informations."
+       ],
+       "y": "Le lien doit correspondre à l’ordre voulu."
+      },
+      {
+       "q": "Quelle relecture aide à suivre les personnages ?",
+       "r": "Vérifier à qui renvoie chaque pronom.",
+       "w": [
+        "Changer les noms sans prévenir à chaque phrase.",
+        "Supprimer tous les liens de sens.",
+        "Remplacer tous les points par des noms."
+       ],
+       "e": [
+        "Cela rend les référents confus.",
+        "Les liens sont nécessaires.",
+        "Les noms ne remplacent pas la ponctuation."
+       ],
+       "y": "Le lecteur doit savoir qui agit."
       }
      ]
     }
@@ -289,99 +491,136 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-81-etape-3",
-   "type": "mcq",
+   "id": "fr2-81-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "idée principale",
+     "right": "La préparation d’une fiche relie le modèle."
+    },
+    {
+     "left": "détail pertinent",
+     "right": "La vérification de la source soutient la préparation."
+    },
+    {
+     "left": "progression",
+     "right": "Ensuite relie des étapes successives."
+    },
+    {
+     "left": "reprise claire",
+     "right": "Le groupe reprend ici le club déjà annoncé."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-81-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle phrase conclut utilement ?",
-       "r": "Enfin, je rédige avec les informations vérifiées.",
-       "w": [
-        "Mon ballon est neuf.",
-        "Je change de sujet à chaque phrase."
-       ],
-       "y": "Cette conclusion reprend le but de la recherche."
-      },
-      {
-       "q": "Que vérifier à la relecture ?",
-       "r": "Le lien des idées, les accords et la ponctuation.",
-       "w": [
-        "Seulement le nombre de pages.",
-        "Seulement la couleur du stylo."
-       ],
-       "y": "La qualité du paragraphe dépend de sa cohérence et de sa correction."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "idée principale : le sujet commun développé par les phrases.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le paragraphe demande une unité de sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "détail pertinent : une information qui développe cette idée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La pertinence dépend du sujet, pas d’une confidence. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "progression : l’ordre dans lequel les idées ou actions avancent.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le lien doit correspondre à la relation voulue. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "reprise claire : un mot renvoyant à un référent identifiable.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le lecteur doit pouvoir identifier le référent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chaque phrase doit traiter un sujet sans rapport avec les autres.",
+      "truth": "false",
+      "explain": "Le paragraphe demande une unité de sens."
+     },
+     {
+      "text": "Un détail est pertinent seulement parce qu’il révèle une adresse privée.",
+      "truth": "false",
+      "explain": "La pertinence dépend du sujet, pas d’une confidence."
+     },
+     {
+      "text": "Un connecteur de succession signifie toujours une cause.",
+      "truth": "false",
+      "explain": "Le lien doit correspondre à la relation voulue."
+     },
+     {
+      "text": "Un pronom peut changer de référent sans aucun indice à chaque emploi.",
+      "truth": "false",
+      "explain": "Le lecteur doit pouvoir identifier le référent."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ],
  "paper_task": {
   "status": "draft",
-  "vars": {},
-  "prompt": "Écris un court paragraphe expliquant comment tu prépares un exposé avec une bibliothèque ou Internet. Utilise d’abord, ensuite et enfin.",
+  "prompt": "Rédige un court paragraphe au présent sur un club fictif qui prépare puis vérifie une fiche. Annonce le sujet, développe des étapes liées et garde les personnages identifiables.",
   "model": [
-   "Je prépare un exposé sur mon quartier. D’abord, je cherche des informations à la bibliothèque. Ensuite, je vérifie leur source avec mon professeur. Enfin, je rédige un paragraphe avec les informations retenues."
+   "Le club imaginaire prépare une fiche de lecture. D’abord, Bih note les idées utiles. Ayuk lit les phrases et demande quelle source les soutient. Ensuite, le groupe vérifie le message avec l’enseignante. Les élèves gardent une version claire pour la séance suivante."
   ],
   "checklist": [
-   "Mon paragraphe garde la même idée.",
-   "Mes étapes sont dans un ordre logique.",
-   "J’ai relu les accords et la ponctuation."
+   "Toutes mes phrases développent la même idée principale.",
+   "L’ordre et les reprises permettent de suivre qui agit.",
+   "Je vérifie phrases complètes, présent, accords, points et majuscules."
   ],
+  "vars": {},
   "checks": []
  }
 }

@@ -3,7 +3,9 @@
  "class": "Form 2",
  "lesson_no": 77,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  76
+ ],
  "skills": [
   {
    "id": "fr2-77",
@@ -12,174 +14,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Le point termine une phrase déclarative. La phrase suivante commence par une majuscule. La virgule sépare les éléments d’une énumération ou détache un groupe : Le soir, Bih écrit. On ne sépare normalement pas le sujet de son verbe par une virgule. Les deux-points annoncent notamment une liste ou une explication : Elle utilise trois outils : un clavier, une souris et un écran.",
+  "text": "Le point termine une phrase déclarative autonome. Une virgule peut séparer des éléments d’une liste ; elle ne remplace pas automatiquement tous les points. Dans une phrase simple sans groupe inséré, on ne sépare pas le sujet et son verbe par une virgule. Les deux-points peuvent annoncer une liste ou une explication. Le signe doit correspondre au lien de sens et à la construction. Plusieurs présentations peuvent être possibles : les exercices précisent celle qui est demandée.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras ponctuer une déclaration et une liste puis expliquer les séparations choisies. Acquis mobilisés : les sujets et les messages. Pour la suite : la construction d’un paragraphe clair."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le point termine une phrase déclarative autonome. Une virgule peut séparer des éléments d’une liste ; elle ne remplace pas automatiquement tous les points. Dans une phrase simple sans groupe inséré, on ne sépare pas le sujet et son verbe par une virgule. Les deux-points peuvent annoncer une liste ou une explication. Le signe doit correspondre au lien de sens et à la construction. Plusieurs présentations peuvent être possibles : les exercices précisent celle qui est demandée."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Bih prépare une fiche. Voici son matériel : un cahier, un crayon et un livre. Ayuk lit le message. Les points terminent les déclarations ; les deux-points annoncent le matériel ; la virgule sépare les premiers éléments de la liste. Aucun signe n’est placé au hasard entre Ayuk et lit."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Délimite d’abord les phrases et les groupes qui doivent rester ensemble. Choisis ensuite le signe et vérifie la majuscule après un point final. Lis le résultat pour contrôler le sens, pas seulement les pauses de respiration."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "point final",
+    "meaning": "le signe terminant ici une déclaration autonome"
+   },
+   {
+    "word": "virgule de liste",
+    "meaning": "une séparation entre éléments juxtaposés"
+   },
+   {
+    "word": "deux-points",
+    "meaning": "un signe annonçant ici une liste"
+   },
+   {
+    "word": "groupe sujet-verbe",
+    "meaning": "une construction qu’on ne coupe pas sans raison dans le modèle simple"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une virgule remplace toujours le point final dans tous les textes.",
+   "right": "le signe terminant ici une déclaration autonome.",
+   "why": "Les signes n’ont pas automatiquement le même rôle."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Quelle phrase est bien ponctuée ?",
+  "problem": "Bih prépare une fiche. constitue une déclaration terminée. Explique le choix.",
   "steps": [
-   "La virgule sépare les éléments d’une liste.",
-   "La virgule sépare clavier et souris, sans séparer le sujet du verbe."
+   "le signe terminant ici une déclaration autonome.",
+   "Les signes n’ont pas automatiquement le même rôle."
   ],
-  "answer": "Bih utilise un clavier, une souris et un écran.",
+  "answer": "point final",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c77-1",
+    "id": "fr2-77-c1",
     "status": "draft",
-    "idea": "Le point marque la fin d’une phrase déclarative.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Bih écrit. Nji lit."
+     "point final : le signe terminant ici une déclaration autonome.",
+     "virgule de liste : une séparation entre éléments juxtaposés.",
+     "deux-points : un signe annonçant ici une liste.",
+     "groupe sujet-verbe : une construction qu’on ne coupe pas sans raison dans le modèle simple."
     ],
     "checks": [],
     "check": {
-     "ref": "fr2-77-etape-1"
+     "ref": "fr2-77-notions"
     }
    },
    {
-    "id": "c77-2",
+    "id": "fr2-77-c2",
     "status": "draft",
-    "idea": "La virgule sépare les éléments d’une liste.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Je prends un cahier, un stylo et une règle."
+     "Bih prépare une fiche. constitue une déclaration terminée.",
+     "Un cahier, un crayon et un livre forme une liste.",
+     "Voici le matériel : introduit les objets.",
+     "Ayuk lit ne demande pas de virgule entre ses mots."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-77-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "expression"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle phrase est bien ponctuée ?",
-         "r": "Bih utilise un clavier, une souris et un écran.",
-         "w": [
-          "Bih, utilise un clavier une souris et un écran.",
-          "Bih utilise, un clavier une souris et un écran."
-         ],
-         "y": "La virgule sépare clavier et souris, sans séparer le sujet du verbe."
-        },
-        {
-         "q": "Quelle phrase détache correctement le moment ?",
-         "r": "Le soir, Bih écrit.",
-         "w": [
-          "Le soir Bih, écrit.",
-          "Le, soir Bih écrit."
-         ],
-         "y": "Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fr2-77-cas"
     }
    },
    {
-    "id": "c77-3",
+    "id": "fr2-77-c3",
     "status": "draft",
-    "idea": "Les deux-points peuvent annoncer une énumération.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Voici mes outils : un stylo et un cahier."
+     "Une virgule remplace toujours le point final dans tous les textes. Correction : Les signes n’ont pas automatiquement le même rôle.",
+     "Une liste impose une virgule après chaque lettre. Correction : On sépare les éléments, pas chaque caractère.",
+     "Les deux-points interdisent tout contenu après eux. Correction : Ils annoncent précisément ce qui suit.",
+     "Ayuk, lit est toujours obligatoire sans groupe inséré. Correction : La virgule ne doit pas séparer sans raison le sujet du verbe."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-77-etape-3-card",
-     "type": "mcq",
+     "id": "fr2-77-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "expression"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ?",
-         "r": "Les deux-points.",
-         "w": [
-          "Un point final seulement.",
-          "Une apostrophe."
-         ],
-         "y": "La liste précise les outils annoncés."
-        },
-        {
-         "q": "Quelle correction respecte sujet et verbe ?",
-         "r": "Nji envoie un message.",
-         "w": [
-          "Nji, envoie un message.",
-          "Nji envoie, un message."
-         ],
-         "y": "On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "point final : le signe terminant ici une déclaration autonome.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les signes n’ont pas automatiquement le même rôle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "virgule de liste : une séparation entre éléments juxtaposés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : On sépare les éléments, pas chaque caractère. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "deux-points : un signe annonçant ici une liste.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ils annoncent précisément ce qui suit. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "groupe sujet-verbe : une construction qu’on ne coupe pas sans raison dans le modèle simple.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La virgule ne doit pas séparer sans raison le sujet du verbe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une virgule remplace toujours le point final dans tous les textes.",
+        "truth": "false",
+        "explain": "Les signes n’ont pas automatiquement le même rôle."
+       },
+       {
+        "text": "Une liste impose une virgule après chaque lettre.",
+        "truth": "false",
+        "explain": "On sépare les éléments, pas chaque caractère."
+       },
+       {
+        "text": "Les deux-points interdisent tout contenu après eux.",
+        "truth": "false",
+        "explain": "Ils annoncent précisément ce qui suit."
+       },
+       {
+        "text": "Ayuk, lit est toujours obligatoire sans groupe inséré.",
+        "truth": "false",
+        "explain": "La virgule ne doit pas séparer sans raison le sujet du verbe."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +185,75 @@
  },
  "questions": [
   {
-   "id": "fr2-77-etape-1",
+   "id": "fr2-77-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel signe termine « Bih écrit un message » ?",
-       "r": "Un point.",
+       "q": "Quel terme désigne le signe terminant ici une déclaration autonome ?",
+       "r": "point final",
        "w": [
-        "Une virgule.",
-        "Une parenthèse seule."
+        "virgule de liste",
+        "deux-points",
+        "groupe sujet-verbe"
        ],
-       "y": "C’est une phrase déclarative complète."
+       "e": [
+        "Cela désigne une séparation entre éléments juxtaposés, plutôt que la notion demandée.",
+        "Cela désigne un signe annonçant ici une liste, plutôt que la notion demandée.",
+        "Cela désigne une construction qu’on ne coupe pas sans raison dans le modèle simple, plutôt que la notion demandée."
+       ],
+       "y": "Les signes n’ont pas automatiquement le même rôle."
       },
       {
-       "q": "Après un point, comment commence une nouvelle phrase ?",
-       "r": "Avec une majuscule.",
+       "q": "Quel terme désigne une séparation entre éléments juxtaposés ?",
+       "r": "virgule de liste",
        "w": [
-        "Toujours avec une virgule.",
-        "Sans aucune lettre."
+        "point final",
+        "deux-points",
+        "groupe sujet-verbe"
        ],
-       "y": "Une nouvelle phrase commence par une majuscule."
+       "e": [
+        "Cela désigne le signe terminant ici une déclaration autonome, plutôt que la notion demandée.",
+        "Cela désigne un signe annonçant ici une liste, plutôt que la notion demandée.",
+        "Cela désigne une construction qu’on ne coupe pas sans raison dans le modèle simple, plutôt que la notion demandée."
+       ],
+       "y": "On sépare les éléments, pas chaque caractère."
+      },
+      {
+       "q": "Quel terme désigne un signe annonçant ici une liste ?",
+       "r": "deux-points",
+       "w": [
+        "point final",
+        "virgule de liste",
+        "groupe sujet-verbe"
+       ],
+       "e": [
+        "Cela désigne le signe terminant ici une déclaration autonome, plutôt que la notion demandée.",
+        "Cela désigne une séparation entre éléments juxtaposés, plutôt que la notion demandée.",
+        "Cela désigne une construction qu’on ne coupe pas sans raison dans le modèle simple, plutôt que la notion demandée."
+       ],
+       "y": "Ils annoncent précisément ce qui suit."
+      },
+      {
+       "q": "Quel terme désigne une construction qu’on ne coupe pas sans raison dans le modèle simple ?",
+       "r": "groupe sujet-verbe",
+       "w": [
+        "point final",
+        "virgule de liste",
+        "deux-points"
+       ],
+       "e": [
+        "Cela désigne le signe terminant ici une déclaration autonome, plutôt que la notion demandée.",
+        "Cela désigne une séparation entre éléments juxtaposés, plutôt que la notion demandée.",
+        "Cela désigne un signe annonçant ici une liste, plutôt que la notion demandée."
+       ],
+       "y": "La virgule ne doit pas séparer sans raison le sujet du verbe."
       }
      ]
     }
@@ -228,53 +268,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-77-etape-2",
+   "id": "fr2-77-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih prépare une fiche. constitue une déclaration terminée.\nQuelle notion convient ?",
+       "r": "point final",
+       "w": [
+        "virgule de liste",
+        "deux-points",
+        "groupe sujet-verbe"
+       ],
+       "e": [
+        "Cela concerne une séparation entre éléments juxtaposés. Compare cette définition avec le cas présenté.",
+        "Cela concerne un signe annonçant ici une liste. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction qu’on ne coupe pas sans raison dans le modèle simple. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les signes n’ont pas automatiquement le même rôle."
+      },
+      {
+       "q": "Un cahier, un crayon et un livre forme une liste.\nQuelle notion convient ?",
+       "r": "virgule de liste",
+       "w": [
+        "point final",
+        "deux-points",
+        "groupe sujet-verbe"
+       ],
+       "e": [
+        "Cela concerne le signe terminant ici une déclaration autonome. Compare cette définition avec le cas présenté.",
+        "Cela concerne un signe annonçant ici une liste. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction qu’on ne coupe pas sans raison dans le modèle simple. Compare cette définition avec le cas présenté."
+       ],
+       "y": "On sépare les éléments, pas chaque caractère."
+      },
+      {
+       "q": "Voici le matériel : introduit les objets.\nQuelle notion convient ?",
+       "r": "deux-points",
+       "w": [
+        "point final",
+        "virgule de liste",
+        "groupe sujet-verbe"
+       ],
+       "e": [
+        "Cela concerne le signe terminant ici une déclaration autonome. Compare cette définition avec le cas présenté.",
+        "Cela concerne une séparation entre éléments juxtaposés. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction qu’on ne coupe pas sans raison dans le modèle simple. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ils annoncent précisément ce qui suit."
+      },
+      {
+       "q": "Ayuk lit ne demande pas de virgule entre ses mots.\nQuelle notion convient ?",
+       "r": "groupe sujet-verbe",
+       "w": [
+        "point final",
+        "virgule de liste",
+        "deux-points"
+       ],
+       "e": [
+        "Cela concerne le signe terminant ici une déclaration autonome. Compare cette définition avec le cas présenté.",
+        "Cela concerne une séparation entre éléments juxtaposés. Compare cette définition avec le cas présenté.",
+        "Cela concerne un signe annonçant ici une liste. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La virgule ne doit pas séparer sans raison le sujet du verbe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-77-appliquer",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quelle phrase est bien ponctuée ?",
-       "r": "Bih utilise un clavier, une souris et un écran.",
+       "q": "Termine cette déclaration autonome avec un point : Bih prépare le message",
+       "r": "Bih prépare le message.",
        "w": [
-        "Bih, utilise un clavier une souris et un écran.",
-        "Bih utilise, un clavier une souris et un écran."
+        "Bih prépare le message,",
+        "Bih prépare le message :",
+        "Bih, prépare, le message"
        ],
-       "y": "La virgule sépare clavier et souris, sans séparer le sujet du verbe."
+       "e": [
+        "La virgule ne clôt pas ici la déclaration autonome.",
+        "Aucune explication ou liste ne suit le deux-points.",
+        "Ces coupures séparent sans raison sujet, verbe et complément."
+       ],
+       "y": "La consigne demande une déclaration terminée."
       },
       {
-       "q": "Quelle phrase détache correctement le moment ?",
-       "r": "Le soir, Bih écrit.",
+       "q": "Choisis une liste simple correctement ponctuée.",
+       "r": "Le club utilise des cahiers, des fiches et des livres.",
        "w": [
-        "Le soir Bih, écrit.",
-        "Le, soir Bih écrit."
+        "Le club utilise des cahiers des fiches des livres.",
+        "Le club utilise, des cahiers, des fiches et des livres.",
+        "Le club, utilise des cahiers des fiches et des livres."
        ],
-       "y": "Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit."
+       "e": [
+        "Les éléments juxtaposés demandent une séparation claire.",
+        "Cette virgule sépare sans raison le verbe de son complément.",
+        "La virgule sépare ici sujet et verbe sans groupe inséré."
+       ],
+       "y": "La virgule sépare les premiers éléments de la liste."
+      },
+      {
+       "q": "Introduis une liste après voici le matériel.",
+       "r": "Voici le matériel : un cahier, une fiche et un livre.",
+       "w": [
+        "Voici le matériel, : un cahier une fiche un livre.",
+        "Voici le matériel : .",
+        "Voici : le matériel un cahier une fiche un livre"
+       ],
+       "e": [
+        "La combinaison et les éléments non séparés rendent la liste incorrecte.",
+        "Le deux-points n’introduit ici aucun contenu.",
+        "La coupure ne suit pas le groupe introducteur demandé."
+       ],
+       "y": "Le deux-points annonce la liste."
+      },
+      {
+       "q": "Choisis la phrase qui garde sujet et verbe ensemble sans groupe inséré.",
+       "r": "Ayuk lit le message.",
+       "w": [
+        "Ayuk, lit le message.",
+        "Ayuk : lit le message.",
+        "Ayuk. lit le message."
+       ],
+       "e": [
+        "La virgule sépare sans raison le sujet et le verbe.",
+        "Le deux-points n’introduit ici ni explication ni liste.",
+        "Le point coupe la phrase et laisse un début incorrect."
+       ],
+       "y": "La phrase simple garde sa construction."
       }
      ]
     }
@@ -289,85 +488,136 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-77-etape-3",
-   "type": "mcq",
+   "id": "fr2-77-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "point final",
+     "right": "Bih prépare une fiche. constitue une déclaration terminée."
+    },
+    {
+     "left": "virgule de liste",
+     "right": "Un cahier, un crayon et un livre forme une liste."
+    },
+    {
+     "left": "deux-points",
+     "right": "Voici le matériel : introduit les objets."
+    },
+    {
+     "left": "groupe sujet-verbe",
+     "right": "Ayuk lit ne demande pas de virgule entre ses mots."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-77-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ?",
-       "r": "Les deux-points.",
-       "w": [
-        "Un point final seulement.",
-        "Une apostrophe."
-       ],
-       "y": "La liste précise les outils annoncés."
-      },
-      {
-       "q": "Quelle correction respecte sujet et verbe ?",
-       "r": "Nji envoie un message.",
-       "w": [
-        "Nji, envoie un message.",
-        "Nji envoie, un message."
-       ],
-       "y": "On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "point final : le signe terminant ici une déclaration autonome.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les signes n’ont pas automatiquement le même rôle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "virgule de liste : une séparation entre éléments juxtaposés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : On sépare les éléments, pas chaque caractère. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "deux-points : un signe annonçant ici une liste.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ils annoncent précisément ce qui suit. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "groupe sujet-verbe : une construction qu’on ne coupe pas sans raison dans le modèle simple.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La virgule ne doit pas séparer sans raison le sujet du verbe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une virgule remplace toujours le point final dans tous les textes.",
+      "truth": "false",
+      "explain": "Les signes n’ont pas automatiquement le même rôle."
+     },
+     {
+      "text": "Une liste impose une virgule après chaque lettre.",
+      "truth": "false",
+      "explain": "On sépare les éléments, pas chaque caractère."
+     },
+     {
+      "text": "Les deux-points interdisent tout contenu après eux.",
+      "truth": "false",
+      "explain": "Ils annoncent précisément ce qui suit."
+     },
+     {
+      "text": "Ayuk, lit est toujours obligatoire sans groupe inséré.",
+      "truth": "false",
+      "explain": "La virgule ne doit pas séparer sans raison le sujet du verbe."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
- ]
+ ],
+ "paper_task": {
+  "status": "draft",
+  "prompt": "Rédige un bref message fictif qui annonce la préparation d’une fiche, énumère le matériel puis indique qui lit le résultat. Emploie un point final, une virgule de liste et des deux-points à bon escient.",
+  "model": [
+   "Bih prépare une fiche pour le club. Voici son matériel : un cahier, un crayon et un livre. Ayuk lit le message avant de le transmettre."
+  ],
+  "checklist": [
+   "Mes déclarations se terminent clairement.",
+   "La virgule sépare des éléments sans couper sujet et verbe.",
+   "Les deux-points annoncent bien la liste ; je vérifie les majuscules."
+  ],
+  "vars": {},
+  "checks": []
+ }
 }

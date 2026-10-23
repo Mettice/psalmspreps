@@ -4,7 +4,10 @@
  "lesson_no": 80,
  "language": "fr",
  "prerequisites": [
-  74
+  72,
+  74,
+  78,
+  79
  ],
  "skills": [
   {
@@ -14,182 +17,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Le présent exprime notamment une action en cours ou une habitude. On repère le sujet avant de conjuguer. Pour parler : je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. Attention aux verbes irréguliers : j’écris, nous écrivons ; je reçois, nous recevons. Envoyer donne j’envoie, nous envoyons. Une terminaison d’imparfait exprimerait ici un autre temps.",
+  "text": "Le présent peut décrire une action au moment envisagé ou une habitude actuelle. La personne et le verbe commandent la forme. Les verbes lire, écrire, recevoir, envoyer et faire ne suivent pas tous exactement parler. Pour écrire un message clair, repère le sujet avant de choisir la terminaison et la base. Avec je, une voyelle initiale peut demander une élision : j’écris. La présence d’aujourd’hui n’explique pas à elle seule chaque choix ; les exercices demandent explicitement le présent.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras conjuguer des verbes de communication au présent en respectant leur modèle et le sujet. Acquis mobilisés : les sujets indéfinis et la comparaison avec l’imparfait. Pour la suite : l’écriture d’un court paragraphe cohérent."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le présent peut décrire une action au moment envisagé ou une habitude actuelle. La personne et le verbe commandent la forme. Les verbes lire, écrire, recevoir, envoyer et faire ne suivent pas tous exactement parler. Pour écrire un message clair, repère le sujet avant de choisir la terminaison et la base. Avec je, une voyelle initiale peut demander une élision : j’écris. La présence d’aujourd’hui n’explique pas à elle seule chaque choix ; les exercices demandent explicitement le présent."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Au club, Bih {fr2Present(\"écrire\",3)} une fiche et Ayuk {fr2Present(\"lire\",2)} la consigne. Ensemble, ils {fr2Present(\"faire\",6)} une relecture. Compare {fr2With(0,fr2Present(\"recevoir\",0))}, {fr2With(4,fr2Present(\"recevoir\",4))} et {fr2With(5,fr2Present(\"envoyer\",5))}. Le changement de personne peut modifier aussi le radical."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le sujet, retrouve le modèle du verbe puis vérifie base, terminaison et élision. Réemploie ensuite une forme dans une phrase qui conserve le même référent. Ne déduis pas toute la conjugaison d’une seule finale."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sujet grammatical",
+    "meaning": "le groupe qui commande la personne du verbe"
+   },
+   {
+    "word": "forme personnelle",
+    "meaning": "une conjugaison adaptée au sujet"
+   },
+   {
+    "word": "modèle irrégulier",
+    "meaning": "une conjugaison qui ne suit pas entièrement parler"
+   },
+   {
+    "word": "élision",
+    "meaning": "la suppression écrite de la voyelle de je devant la forme adaptée"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le nom le plus proche après le verbe est toujours son sujet.",
+   "right": "le groupe qui commande la personne du verbe.",
+   "why": "La fonction grammaticale doit être identifiée."
+  }
  },
  "worked_example": {
   "status": "draft",
-  "vars": {
-   "v": "parler",
-   "p": 4
-  },
-  "problem": "Conjugue « {v} » au présent avec nous.",
+  "vars": {},
+  "problem": "Bih commande la forme de écrit dans le modèle. Explique le choix.",
   "steps": [
-   "Le sujet est nous.",
-   "La forme complète est {fr2Form2(v, p, 'présent')}."
+   "le groupe qui commande la personne du verbe.",
+   "La fonction grammaticale doit être identifiée."
   ],
-  "answer": "{fr2Form2(v, p, 'présent')}",
+  "answer": "sujet grammatical",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c80-1",
+    "id": "fr2-80-c1",
     "status": "draft",
-    "idea": "Le temps demandé est le présent.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Lis la consigne et repère le verbe à l’infinitif."
+     "sujet grammatical : le groupe qui commande la personne du verbe.",
+     "forme personnelle : une conjugaison adaptée au sujet.",
+     "modèle irrégulier : une conjugaison qui ne suit pas entièrement parler.",
+     "élision : la suppression écrite de la voyelle de je devant la forme adaptée."
     ],
     "checks": [],
     "check": {
-     "ref": "fr2-80-simple"
+     "ref": "fr2-80-notions"
     }
    },
    {
-    "id": "c80-2",
+    "id": "fr2-80-c2",
     "status": "draft",
-    "idea": "La terminaison dépend du sujet.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Avec nous, on emploie la première personne du pluriel."
+     "Bih commande la forme de écrit dans le modèle.",
+     "Nous donne {fr2Present(\"écrire\",4)}.",
+     "Vous donne {fr2Present(\"faire\",5)} avec faire.",
+     "{cap(fr2With(0,fr2Present(\"écrire\",0)))} emploie une apostrophe."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-80-forme-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "rule",
-     "sources": [
-      "conjugaison"
-     ],
-     "vars": {
-      "v": {
-       "pick": [
-        "parler",
-        "finir",
-        "envoyer",
-        "téléphoner",
-        "écrire",
-        "recevoir",
-        "faire",
-        "avoir"
-       ]
-      },
-      "p": {
-       "int": [
-        0,
-        7
-       ]
-      }
-     },
-     "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
-     "correct": "{fr2Form2(v, p, 'présent')}",
-     "distractors": [
-      {
-       "text": "{fr2Form2(v, p, 'imparfait')}",
-       "misconception": "temps"
-      },
-      {
-       "text": "{fr2Form2(v, (p + 4) % 8, 'présent')}",
-       "misconception": "sujet"
-      },
-      {
-       "text": "{fr2With(p, v)}",
-       "misconception": "inf"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "temps",
-       "explain": "Cette forme est au imparfait, pas au présent."
-      },
-      {
-       "id": "sujet",
-       "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-      },
-      {
-       "id": "inf",
-       "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-      }
-     ],
-     "solution": [
-      "Le temps demandé est le présent.",
-      "Le sujet est « {fr2Pronoun(p)} ».",
-      "La forme complète est : {answer}."
-     ],
-     "min_distractors": 2,
-     "lang": "fr"
+     "ref": "fr2-80-cas"
     }
    },
    {
-    "id": "c80-3",
+    "id": "fr2-80-c3",
     "status": "draft",
-    "idea": "Vérifie le temps et le sujet avant de valider.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Une forme correcte à un autre temps ne répond pas à la consigne."
+     "Le nom le plus proche après le verbe est toujours son sujet. Correction : La fonction grammaticale doit être identifiée.",
+     "Nous écrire est la conjugaison personnelle attendue. Correction : L’infinitif ne remplace pas la forme conjuguée.",
+     "Faire doit donner faisez avec vous. Correction : La forme particulière est faites.",
+     "Je écris est l’écriture attendue du modèle. Correction : Je s’élide devant la voyelle initiale de écris."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-80-emploi-card",
-     "type": "mcq",
+     "id": "fr2-80-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "conjugaison"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "En ce moment, Bih fait cette action. Quelle phrase est au présent ?",
-         "r": "Bih écrit un message.",
-         "w": [
-          "Bih écrivait un message.",
-          "Bih écrira un message."
-         ],
-         "y": "Écrit est au présent ; écrivait est à l’imparfait et écrira au futur."
-        },
-        {
-         "q": "Quelle phrase exprime une habitude au présent ?",
-         "r": "Chaque matin, nous lisons les nouvelles.",
-         "w": [
-          "Hier, nous avons lu les nouvelles.",
-          "Demain, nous lirons les nouvelles."
-         ],
-         "y": "Lisons est au présent et chaque matin indique une habitude."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "sujet grammatical : le groupe qui commande la personne du verbe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La fonction grammaticale doit être identifiée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "forme personnelle : une conjugaison adaptée au sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’infinitif ne remplace pas la forme conjuguée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "modèle irrégulier : une conjugaison qui ne suit pas entièrement parler.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La forme particulière est faites. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "élision : la suppression écrite de la voyelle de je devant la forme adaptée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Je s’élide devant la voyelle initiale de écris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le nom le plus proche après le verbe est toujours son sujet.",
+        "truth": "false",
+        "explain": "La fonction grammaticale doit être identifiée."
+       },
+       {
+        "text": "Nous écrire est la conjugaison personnelle attendue.",
+        "truth": "false",
+        "explain": "L’infinitif ne remplace pas la forme conjuguée."
+       },
+       {
+        "text": "Faire doit donner faisez avec vous.",
+        "truth": "false",
+        "explain": "La forme particulière est faites."
+       },
+       {
+        "text": "Je écris est l’écriture attendue du modèle.",
+        "truth": "false",
+        "explain": "Je s’élide devant la voyelle initiale de écris."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -197,161 +188,75 @@
  },
  "questions": [
   {
-   "id": "fr2-80-simple",
+   "id": "fr2-80-notions",
    "type": "mcq",
    "level": 1,
-   "review": "rule",
-   "sources": [
-    "conjugaison"
-   ],
-   "vars": {
-    "v": {
-     "pick": [
-      "parler",
-      "finir",
-      "envoyer"
-     ]
-    },
-    "p": {
-     "pick": [
-      2,
-      4,
-      6
-     ]
-    }
-   },
-   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
-   "correct": "{fr2Form2(v, p, 'présent')}",
-   "distractors": [
-    {
-     "text": "{fr2Form2(v, p, 'imparfait')}",
-     "misconception": "temps"
-    },
-    {
-     "text": "{fr2Form2(v, (p + 4) % 8, 'présent')}",
-     "misconception": "sujet"
-    },
-    {
-     "text": "{fr2With(p, v)}",
-     "misconception": "inf"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "temps",
-     "explain": "Cette forme est au imparfait, pas au présent."
-    },
-    {
-     "id": "sujet",
-     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-    },
-    {
-     "id": "inf",
-     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-    }
-   ],
-   "solution": [
-    "Le temps demandé est le présent.",
-    "Le sujet est « {fr2Pronoun(p)} ».",
-    "La forme complète est : {answer}."
-   ],
-   "min_distractors": 2,
-   "lang": "fr"
-  },
-  {
-   "id": "fr2-80-forme",
-   "type": "mcq",
-   "level": 2,
-   "review": "rule",
-   "sources": [
-    "conjugaison"
-   ],
-   "vars": {
-    "v": {
-     "pick": [
-      "parler",
-      "finir",
-      "envoyer",
-      "téléphoner",
-      "écrire",
-      "recevoir",
-      "faire",
-      "avoir"
-     ]
-    },
-    "p": {
-     "int": [
-      0,
-      7
-     ]
-    }
-   },
-   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
-   "correct": "{fr2Form2(v, p, 'présent')}",
-   "distractors": [
-    {
-     "text": "{fr2Form2(v, p, 'imparfait')}",
-     "misconception": "temps"
-    },
-    {
-     "text": "{fr2Form2(v, (p + 4) % 8, 'présent')}",
-     "misconception": "sujet"
-    },
-    {
-     "text": "{fr2With(p, v)}",
-     "misconception": "inf"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "temps",
-     "explain": "Cette forme est au imparfait, pas au présent."
-    },
-    {
-     "id": "sujet",
-     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-    },
-    {
-     "id": "inf",
-     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-    }
-   ],
-   "solution": [
-    "Le temps demandé est le présent.",
-    "Le sujet est « {fr2Pronoun(p)} ».",
-    "La forme complète est : {answer}."
-   ],
-   "min_distractors": 2,
-   "lang": "fr"
-  },
-  {
-   "id": "fr2-80-emploi",
-   "type": "mcq",
-   "level": 3,
    "review": "authored",
    "sources": [
-    "conjugaison"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "En ce moment, Bih fait cette action. Quelle phrase est au présent ?",
-       "r": "Bih écrit un message.",
+       "q": "Quel terme désigne le groupe qui commande la personne du verbe ?",
+       "r": "sujet grammatical",
        "w": [
-        "Bih écrivait un message.",
-        "Bih écrira un message."
+        "forme personnelle",
+        "modèle irrégulier",
+        "élision"
        ],
-       "y": "Écrit est au présent ; écrivait est à l’imparfait et écrira au futur."
+       "e": [
+        "Cela désigne une conjugaison adaptée au sujet, plutôt que la notion demandée.",
+        "Cela désigne une conjugaison qui ne suit pas entièrement parler, plutôt que la notion demandée.",
+        "Cela désigne la suppression écrite de la voyelle de je devant la forme adaptée, plutôt que la notion demandée."
+       ],
+       "y": "La fonction grammaticale doit être identifiée."
       },
       {
-       "q": "Quelle phrase exprime une habitude au présent ?",
-       "r": "Chaque matin, nous lisons les nouvelles.",
+       "q": "Quel terme désigne une conjugaison adaptée au sujet ?",
+       "r": "forme personnelle",
        "w": [
-        "Hier, nous avons lu les nouvelles.",
-        "Demain, nous lirons les nouvelles."
+        "sujet grammatical",
+        "modèle irrégulier",
+        "élision"
        ],
-       "y": "Lisons est au présent et chaque matin indique une habitude."
+       "e": [
+        "Cela désigne le groupe qui commande la personne du verbe, plutôt que la notion demandée.",
+        "Cela désigne une conjugaison qui ne suit pas entièrement parler, plutôt que la notion demandée.",
+        "Cela désigne la suppression écrite de la voyelle de je devant la forme adaptée, plutôt que la notion demandée."
+       ],
+       "y": "L’infinitif ne remplace pas la forme conjuguée."
+      },
+      {
+       "q": "Quel terme désigne une conjugaison qui ne suit pas entièrement parler ?",
+       "r": "modèle irrégulier",
+       "w": [
+        "sujet grammatical",
+        "forme personnelle",
+        "élision"
+       ],
+       "e": [
+        "Cela désigne le groupe qui commande la personne du verbe, plutôt que la notion demandée.",
+        "Cela désigne une conjugaison adaptée au sujet, plutôt que la notion demandée.",
+        "Cela désigne la suppression écrite de la voyelle de je devant la forme adaptée, plutôt que la notion demandée."
+       ],
+       "y": "La forme particulière est faites."
+      },
+      {
+       "q": "Quel terme désigne la suppression écrite de la voyelle de je devant la forme adaptée ?",
+       "r": "élision",
+       "w": [
+        "sujet grammatical",
+        "forme personnelle",
+        "modèle irrégulier"
+       ],
+       "e": [
+        "Cela désigne le groupe qui commande la personne du verbe, plutôt que la notion demandée.",
+        "Cela désigne une conjugaison adaptée au sujet, plutôt que la notion demandée.",
+        "Cela désigne une conjugaison qui ne suit pas entièrement parler, plutôt que la notion demandée."
+       ],
+       "y": "Je s’élide devant la voyelle initiale de écris."
       }
      ]
     }
@@ -366,23 +271,293 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-80-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih commande la forme de écrit dans le modèle.\nQuelle notion convient ?",
+       "r": "sujet grammatical",
+       "w": [
+        "forme personnelle",
+        "modèle irrégulier",
+        "élision"
+       ],
+       "e": [
+        "Cela concerne une conjugaison adaptée au sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conjugaison qui ne suit pas entièrement parler. Compare cette définition avec le cas présenté.",
+        "Cela concerne la suppression écrite de la voyelle de je devant la forme adaptée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La fonction grammaticale doit être identifiée."
+      },
+      {
+       "q": "Nous donne {fr2Present(\"écrire\",4)}.\nQuelle notion convient ?",
+       "r": "forme personnelle",
+       "w": [
+        "sujet grammatical",
+        "modèle irrégulier",
+        "élision"
+       ],
+       "e": [
+        "Cela concerne le groupe qui commande la personne du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conjugaison qui ne suit pas entièrement parler. Compare cette définition avec le cas présenté.",
+        "Cela concerne la suppression écrite de la voyelle de je devant la forme adaptée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’infinitif ne remplace pas la forme conjuguée."
+      },
+      {
+       "q": "Vous donne {fr2Present(\"faire\",5)} avec faire.\nQuelle notion convient ?",
+       "r": "modèle irrégulier",
+       "w": [
+        "sujet grammatical",
+        "forme personnelle",
+        "élision"
+       ],
+       "e": [
+        "Cela concerne le groupe qui commande la personne du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conjugaison adaptée au sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne la suppression écrite de la voyelle de je devant la forme adaptée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La forme particulière est faites."
+      },
+      {
+       "q": "{cap(fr2With(0,fr2Present(\"écrire\",0)))} emploie une apostrophe.\nQuelle notion convient ?",
+       "r": "élision",
+       "w": [
+        "sujet grammatical",
+        "forme personnelle",
+        "modèle irrégulier"
+       ],
+       "e": [
+        "Cela concerne le groupe qui commande la personne du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conjugaison adaptée au sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conjugaison qui ne suit pas entièrement parler. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Je s’élide devant la voyelle initiale de écris."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-80-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "envoyer",
+      "recevoir",
+      "lire",
+      "écrire",
+      "faire"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2Present(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "passe"
+    },
+    {
+     "text": "{fr2With(p,fr2FuturSimple(v,p))}",
+     "misconception": "futur"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "passe",
+     "explain": "Cette forme est à l’imparfait, pas au présent demandé."
+    },
+    {
+     "id": "futur",
+     "explain": "Cette forme est au futur simple."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne correspond pas à la forme personnelle demandée."
+    }
+   ],
+   "solution": [
+    "Repère le sujet et le présent demandé.",
+    "La forme est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-80-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "sujet grammatical",
+     "right": "Bih commande la forme de écrit dans le modèle."
+    },
+    {
+     "left": "forme personnelle",
+     "right": "Nous donne {fr2Present(\"écrire\",4)}."
+    },
+    {
+     "left": "modèle irrégulier",
+     "right": "Vous donne {fr2Present(\"faire\",5)} avec faire."
+    },
+    {
+     "left": "élision",
+     "right": "{cap(fr2With(0,fr2Present(\"écrire\",0)))} emploie une apostrophe."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-80-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "sujet grammatical : le groupe qui commande la personne du verbe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La fonction grammaticale doit être identifiée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "forme personnelle : une conjugaison adaptée au sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’infinitif ne remplace pas la forme conjuguée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "modèle irrégulier : une conjugaison qui ne suit pas entièrement parler.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La forme particulière est faites. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "élision : la suppression écrite de la voyelle de je devant la forme adaptée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Je s’élide devant la voyelle initiale de écris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le nom le plus proche après le verbe est toujours son sujet.",
+      "truth": "false",
+      "explain": "La fonction grammaticale doit être identifiée."
+     },
+     {
+      "text": "Nous écrire est la conjugaison personnelle attendue.",
+      "truth": "false",
+      "explain": "L’infinitif ne remplace pas la forme conjuguée."
+     },
+     {
+      "text": "Faire doit donner faisez avec vous.",
+      "truth": "false",
+      "explain": "La forme particulière est faites."
+     },
+     {
+      "text": "Je écris est l’écriture attendue du modèle.",
+      "truth": "false",
+      "explain": "Je s’élide devant la voyelle initiale de écris."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

@@ -3,7 +3,10 @@
  "class": "Form 2",
  "lesson_no": 74,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  72,
+  73
+ ],
  "skills": [
   {
    "id": "fr2-74",
@@ -12,183 +15,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "L’imparfait exprime une habitude ou une description dans le passé : autrefois, nous téléphonions le soir ; l’écran était petit.\nOn part de nous au présent, on enlève -ons, puis on ajoute -ais, -ais, -ait, -ions, -iez, -aient. Exception : être utilise le radical ét-. Nous envoyons donne j’envoyais ; nous finissons donne je finissais. Avec -ger : je mangeais, mais nous mangions. Avec -cer : je commençais, mais nous commencions.",
+  "text": "L’imparfait peut présenter une habitude ou un état dans un cadre passé. On le forme généralement à partir de nous au présent, sans -ons, avec -ais, -ais, -ait, -ions, -iez et -aient. Être utilise la base ét-. Certains verbes demandent un ajustement orthographique : je mangeais mais nous mangions. Une activité passée n’est pas automatiquement un imparfait ; le contexte et le rôle dans le récit comptent. Ici, la consigne demande explicitement ce temps.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former l’imparfait étudié et l’utiliser pour présenter une habitude ou un cadre passé. Acquis mobilisés : les sujets et les actions de communication. Pour la suite : la description et le court paragraphe."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "L’imparfait peut présenter une habitude ou un état dans un cadre passé. On le forme généralement à partir de nous au présent, sans -ons, avec -ais, -ais, -ait, -ions, -iez et -aient. Être utilise la base ét-. Certains verbes demandent un ajustement orthographique : je mangeais mais nous mangions. Une activité passée n’est pas automatiquement un imparfait ; le contexte et le rôle dans le récit comptent. Ici, la consigne demande explicitement ce temps."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Autrefois, Bih {fr2Imparfait(\"écrire\",3)} les messages du club dans un cahier. Ayuk {fr2Imparfait(\"lire\",2)} les annonces à voix haute. La salle {fr2Imparfait(\"être\",3)} calme. Compare {fr2With(0,fr2Imparfait(\"envoyer\",0))} et {fr2With(4,fr2Imparfait(\"envoyer\",4))} : chaque sujet garde sa marque personnelle."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le sujet et l’intention passée. Retrouve le radical, ajoute la terminaison puis vérifie l’orthographe. Explique s’il s’agit d’une habitude ou d’un cadre, sans confondre le temps avec une mesure de durée."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "habitude passée",
+    "meaning": "une action répétée dans un cadre passé"
+   },
+   {
+    "word": "cadre descriptif",
+    "meaning": "une présentation des circonstances du récit"
+   },
+   {
+    "word": "radical",
+    "meaning": "la base à laquelle on ajoute la terminaison"
+   },
+   {
+    "word": "terminaison personnelle",
+    "meaning": "la marque correspondant au sujet de l’imparfait"
+   }
+  ],
+  "mistake": {
+   "wrong": "L’imparfait décrit obligatoirement une habitude actuelle.",
+   "right": "une action répétée dans un cadre passé.",
+   "why": "Le cadre est ici passé."
+  }
  },
  "worked_example": {
   "status": "draft",
-  "vars": {
-   "v": "parler",
-   "p": 4
-  },
-  "problem": "Conjugue « {v} » au imparfait avec nous.",
+  "vars": {},
+  "problem": "Écris à l’imparfait : nous / écrire un message.",
   "steps": [
-   "Le sujet est nous.",
-   "La forme complète est {fr2Form2(v, p, 'imparfait')}."
+   "Au présent, nous donne {fr2Present(\"écrire\",4)}.",
+   "On garde la base écriv- et la terminaison -ions."
   ],
-  "answer": "{fr2Form2(v, p, 'imparfait')}",
+  "answer": "{cap(fr2With(4,fr2Imparfait(\"écrire\",4)))} un message.",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c74-1",
+    "id": "fr2-74-c1",
     "status": "draft",
-    "idea": "Le temps demandé est le imparfait.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Lis la consigne et repère le verbe à l’infinitif."
+     "habitude passée : une action répétée dans un cadre passé.",
+     "cadre descriptif : une présentation des circonstances du récit.",
+     "radical : la base à laquelle on ajoute la terminaison.",
+     "terminaison personnelle : la marque correspondant au sujet de l’imparfait."
     ],
     "checks": [],
     "check": {
-     "ref": "fr2-74-simple"
+     "ref": "fr2-74-notions"
     }
    },
    {
-    "id": "c74-2",
+    "id": "fr2-74-c2",
     "status": "draft",
-    "idea": "La terminaison dépend du sujet.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Avec nous, on emploie la première personne du pluriel."
+     "Chaque soir, Bih écrivait un message.",
+     "La salle était calme décrit le cadre.",
+     "Être utilise ét- dans le modèle.",
+     "Nous écrivions emploie la personne de nous."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-74-forme-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "rule",
-     "sources": [
-      "conjugaison"
-     ],
-     "vars": {
-      "v": {
-       "pick": [
-        "parler",
-        "finir",
-        "envoyer",
-        "téléphoner",
-        "être",
-        "avoir",
-        "faire",
-        "manger",
-        "commencer"
-       ]
-      },
-      "p": {
-       "int": [
-        0,
-        7
-       ]
-      }
-     },
-     "prompt": "Conjugue « {v} » au imparfait avec « {fr2Pronoun(p)} ».",
-     "correct": "{fr2Form2(v, p, 'imparfait')}",
-     "distractors": [
-      {
-       "text": "{fr2Form2(v, p, 'présent')}",
-       "misconception": "temps"
-      },
-      {
-       "text": "{fr2Form2(v, (p + 4) % 8, 'imparfait')}",
-       "misconception": "sujet"
-      },
-      {
-       "text": "{fr2With(p, v)}",
-       "misconception": "inf"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "temps",
-       "explain": "Cette forme est au présent, pas au imparfait."
-      },
-      {
-       "id": "sujet",
-       "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-      },
-      {
-       "id": "inf",
-       "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-      }
-     ],
-     "solution": [
-      "Le temps demandé est le imparfait.",
-      "Le sujet est « {fr2Pronoun(p)} ».",
-      "La forme complète est : {answer}."
-     ],
-     "min_distractors": 2,
-     "lang": "fr"
+     "ref": "fr2-74-cas"
     }
    },
    {
-    "id": "c74-3",
+    "id": "fr2-74-c3",
     "status": "draft",
-    "idea": "Vérifie le temps et le sujet avant de valider.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Une forme correcte à un autre temps ne répond pas à la consigne."
+     "L’imparfait décrit obligatoirement une habitude actuelle. Correction : Le cadre est ici passé.",
+     "Chaque description à l’imparfait est une prédiction future. Correction : Le modèle situe un état passé.",
+     "Tous les verbes gardent forcément leur infinitif entier à l’imparfait. Correction : La formation doit retrouver la base adaptée.",
+     "Nous au même temps impose toujours écriviez. Correction : La terminaison de vous n’est pas celle de nous."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-74-emploi-card",
-     "type": "mcq",
+     "id": "fr2-74-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "conjugaison"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Autrefois, c’était notre habitude. Quelle phrase convient ?",
-         "r": "Nous téléphonions le soir.",
-         "w": [
-          "Nous téléphonerons demain.",
-          "Nous téléphonons en ce moment."
-         ],
-         "y": "L’imparfait convient à une habitude passée."
-        },
-        {
-         "q": "Le récit décrit le matériel d’autrefois. Quelle phrase convient ?",
-         "r": "L’écran était petit.",
-         "w": [
-          "L’écran sera petit demain.",
-          "L’écran est petit aujourd’hui."
-         ],
-         "y": "Était est l’imparfait de être ; il décrit une situation passée."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "habitude passée : une action répétée dans un cadre passé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le cadre est ici passé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cadre descriptif : une présentation des circonstances du récit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle situe un état passé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "radical : la base à laquelle on ajoute la terminaison.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La formation doit retrouver la base adaptée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "terminaison personnelle : la marque correspondant au sujet de l’imparfait.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La terminaison de vous n’est pas celle de nous. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’imparfait décrit obligatoirement une habitude actuelle.",
+        "truth": "false",
+        "explain": "Le cadre est ici passé."
+       },
+       {
+        "text": "Chaque description à l’imparfait est une prédiction future.",
+        "truth": "false",
+        "explain": "Le modèle situe un état passé."
+       },
+       {
+        "text": "Tous les verbes gardent forcément leur infinitif entier à l’imparfait.",
+        "truth": "false",
+        "explain": "La formation doit retrouver la base adaptée."
+       },
+       {
+        "text": "Nous au même temps impose toujours écriviez.",
+        "truth": "false",
+        "explain": "La terminaison de vous n’est pas celle de nous."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -196,162 +186,75 @@
  },
  "questions": [
   {
-   "id": "fr2-74-simple",
+   "id": "fr2-74-notions",
    "type": "mcq",
    "level": 1,
-   "review": "rule",
-   "sources": [
-    "conjugaison"
-   ],
-   "vars": {
-    "v": {
-     "pick": [
-      "parler",
-      "finir",
-      "envoyer"
-     ]
-    },
-    "p": {
-     "pick": [
-      2,
-      4,
-      6
-     ]
-    }
-   },
-   "prompt": "Conjugue « {v} » au imparfait avec « {fr2Pronoun(p)} ».",
-   "correct": "{fr2Form2(v, p, 'imparfait')}",
-   "distractors": [
-    {
-     "text": "{fr2Form2(v, p, 'présent')}",
-     "misconception": "temps"
-    },
-    {
-     "text": "{fr2Form2(v, (p + 4) % 8, 'imparfait')}",
-     "misconception": "sujet"
-    },
-    {
-     "text": "{fr2With(p, v)}",
-     "misconception": "inf"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "temps",
-     "explain": "Cette forme est au présent, pas au imparfait."
-    },
-    {
-     "id": "sujet",
-     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-    },
-    {
-     "id": "inf",
-     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-    }
-   ],
-   "solution": [
-    "Le temps demandé est le imparfait.",
-    "Le sujet est « {fr2Pronoun(p)} ».",
-    "La forme complète est : {answer}."
-   ],
-   "min_distractors": 2,
-   "lang": "fr"
-  },
-  {
-   "id": "fr2-74-forme",
-   "type": "mcq",
-   "level": 2,
-   "review": "rule",
-   "sources": [
-    "conjugaison"
-   ],
-   "vars": {
-    "v": {
-     "pick": [
-      "parler",
-      "finir",
-      "envoyer",
-      "téléphoner",
-      "être",
-      "avoir",
-      "faire",
-      "manger",
-      "commencer"
-     ]
-    },
-    "p": {
-     "int": [
-      0,
-      7
-     ]
-    }
-   },
-   "prompt": "Conjugue « {v} » au imparfait avec « {fr2Pronoun(p)} ».",
-   "correct": "{fr2Form2(v, p, 'imparfait')}",
-   "distractors": [
-    {
-     "text": "{fr2Form2(v, p, 'présent')}",
-     "misconception": "temps"
-    },
-    {
-     "text": "{fr2Form2(v, (p + 4) % 8, 'imparfait')}",
-     "misconception": "sujet"
-    },
-    {
-     "text": "{fr2With(p, v)}",
-     "misconception": "inf"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "temps",
-     "explain": "Cette forme est au présent, pas au imparfait."
-    },
-    {
-     "id": "sujet",
-     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-    },
-    {
-     "id": "inf",
-     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-    }
-   ],
-   "solution": [
-    "Le temps demandé est le imparfait.",
-    "Le sujet est « {fr2Pronoun(p)} ».",
-    "La forme complète est : {answer}."
-   ],
-   "min_distractors": 2,
-   "lang": "fr"
-  },
-  {
-   "id": "fr2-74-emploi",
-   "type": "mcq",
-   "level": 3,
    "review": "authored",
    "sources": [
-    "conjugaison"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Autrefois, c’était notre habitude. Quelle phrase convient ?",
-       "r": "Nous téléphonions le soir.",
+       "q": "Quel terme désigne une action répétée dans un cadre passé ?",
+       "r": "habitude passée",
        "w": [
-        "Nous téléphonerons demain.",
-        "Nous téléphonons en ce moment."
+        "cadre descriptif",
+        "radical",
+        "terminaison personnelle"
        ],
-       "y": "L’imparfait convient à une habitude passée."
+       "e": [
+        "Cela désigne une présentation des circonstances du récit, plutôt que la notion demandée.",
+        "Cela désigne la base à laquelle on ajoute la terminaison, plutôt que la notion demandée.",
+        "Cela désigne la marque correspondant au sujet de l’imparfait, plutôt que la notion demandée."
+       ],
+       "y": "Le cadre est ici passé."
       },
       {
-       "q": "Le récit décrit le matériel d’autrefois. Quelle phrase convient ?",
-       "r": "L’écran était petit.",
+       "q": "Quel terme désigne une présentation des circonstances du récit ?",
+       "r": "cadre descriptif",
        "w": [
-        "L’écran sera petit demain.",
-        "L’écran est petit aujourd’hui."
+        "habitude passée",
+        "radical",
+        "terminaison personnelle"
        ],
-       "y": "Était est l’imparfait de être ; il décrit une situation passée."
+       "e": [
+        "Cela désigne une action répétée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne la base à laquelle on ajoute la terminaison, plutôt que la notion demandée.",
+        "Cela désigne la marque correspondant au sujet de l’imparfait, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle situe un état passé."
+      },
+      {
+       "q": "Quel terme désigne la base à laquelle on ajoute la terminaison ?",
+       "r": "radical",
+       "w": [
+        "habitude passée",
+        "cadre descriptif",
+        "terminaison personnelle"
+       ],
+       "e": [
+        "Cela désigne une action répétée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne une présentation des circonstances du récit, plutôt que la notion demandée.",
+        "Cela désigne la marque correspondant au sujet de l’imparfait, plutôt que la notion demandée."
+       ],
+       "y": "La formation doit retrouver la base adaptée."
+      },
+      {
+       "q": "Quel terme désigne la marque correspondant au sujet de l’imparfait ?",
+       "r": "terminaison personnelle",
+       "w": [
+        "habitude passée",
+        "cadre descriptif",
+        "radical"
+       ],
+       "e": [
+        "Cela désigne une action répétée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne une présentation des circonstances du récit, plutôt que la notion demandée.",
+        "Cela désigne la base à laquelle on ajoute la terminaison, plutôt que la notion demandée."
+       ],
+       "y": "La terminaison de vous n’est pas celle de nous."
       }
      ]
     }
@@ -366,23 +269,293 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-74-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chaque soir, Bih écrivait un message.\nQuelle notion convient ?",
+       "r": "habitude passée",
+       "w": [
+        "cadre descriptif",
+        "radical",
+        "terminaison personnelle"
+       ],
+       "e": [
+        "Cela concerne une présentation des circonstances du récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne la base à laquelle on ajoute la terminaison. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque correspondant au sujet de l’imparfait. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le cadre est ici passé."
+      },
+      {
+       "q": "La salle était calme décrit le cadre.\nQuelle notion convient ?",
+       "r": "cadre descriptif",
+       "w": [
+        "habitude passée",
+        "radical",
+        "terminaison personnelle"
+       ],
+       "e": [
+        "Cela concerne une action répétée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne la base à laquelle on ajoute la terminaison. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque correspondant au sujet de l’imparfait. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle situe un état passé."
+      },
+      {
+       "q": "Être utilise ét- dans le modèle.\nQuelle notion convient ?",
+       "r": "radical",
+       "w": [
+        "habitude passée",
+        "cadre descriptif",
+        "terminaison personnelle"
+       ],
+       "e": [
+        "Cela concerne une action répétée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une présentation des circonstances du récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque correspondant au sujet de l’imparfait. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La formation doit retrouver la base adaptée."
+      },
+      {
+       "q": "Nous écrivions emploie la personne de nous.\nQuelle notion convient ?",
+       "r": "terminaison personnelle",
+       "w": [
+        "habitude passée",
+        "cadre descriptif",
+        "radical"
+       ],
+       "e": [
+        "Cela concerne une action répétée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une présentation des circonstances du récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne la base à laquelle on ajoute la terminaison. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La terminaison de vous n’est pas celle de nous."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-74-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "envoyer",
+      "lire",
+      "écrire",
+      "manger",
+      "être"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » à l’imparfait avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2Imparfait(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2Present(v,p))}",
+     "misconception": "present"
+    },
+    {
+     "text": "{fr2With(p,fr2FuturSimple(v,p))}",
+     "misconception": "futur"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "present",
+     "explain": "Cette forme est au présent, pas à l’imparfait demandé."
+    },
+    {
+     "id": "futur",
+     "explain": "Cette forme situe l’action au futur simple."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne porte pas la personne et le temps demandés."
+    }
+   ],
+   "solution": [
+    "Le récit demande une forme à l’imparfait.",
+    "Repère la personne et la base : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-74-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "habitude passée",
+     "right": "Chaque soir, Bih écrivait un message."
+    },
+    {
+     "left": "cadre descriptif",
+     "right": "La salle était calme décrit le cadre."
+    },
+    {
+     "left": "radical",
+     "right": "Être utilise ét- dans le modèle."
+    },
+    {
+     "left": "terminaison personnelle",
+     "right": "Nous écrivions emploie la personne de nous."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-74-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "habitude passée : une action répétée dans un cadre passé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le cadre est ici passé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cadre descriptif : une présentation des circonstances du récit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle situe un état passé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "radical : la base à laquelle on ajoute la terminaison.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La formation doit retrouver la base adaptée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "terminaison personnelle : la marque correspondant au sujet de l’imparfait.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La terminaison de vous n’est pas celle de nous. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’imparfait décrit obligatoirement une habitude actuelle.",
+      "truth": "false",
+      "explain": "Le cadre est ici passé."
+     },
+     {
+      "text": "Chaque description à l’imparfait est une prédiction future.",
+      "truth": "false",
+      "explain": "Le modèle situe un état passé."
+     },
+     {
+      "text": "Tous les verbes gardent forcément leur infinitif entier à l’imparfait.",
+      "truth": "false",
+      "explain": "La formation doit retrouver la base adaptée."
+     },
+     {
+      "text": "Nous au même temps impose toujours écriviez.",
+      "truth": "false",
+      "explain": "La terminaison de vous n’est pas celle de nous."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

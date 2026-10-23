@@ -4,184 +4,182 @@
  "lesson_no": 76,
  "language": "fr",
  "prerequisites": [
-  72
+  72,
+  74,
+  75
  ],
  "skills": [
   {
    "id": "fr2-76",
-   "name": "Personne, rien, chacun : emploi des pronoms indéfinis"
+   "name": "Personne, rien, aucun et chacun"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Dans une phrase déclarative négative à l’écrit, personne et rien s’emploient normalement avec ne, sans pas : Personne ne répond. Je ne vois rien. Rien n’a changé.\nPersonne désigne ici l’absence de personne ; rien désigne l’absence de chose. On distingue le pronom personne du nom une personne. Chacun et chacune sont singuliers ; tous et toutes peuvent être des sujets pluriels. Ces règles concernent les exemples affirmés ou niés de la leçon, pas tous les emplois possibles de ces mots.",
+  "text": "Personne peut être un nom dans une personne ; dans personne ne parle, c’est un pronom négatif. Rien peut exprimer l’absence d’une chose : je ne vois rien. Dans les modèles négatifs étudiés, personne et rien s’emploient avec ne sans ajouter pas. Aucun reprend un élément dans une valeur nulle ; chacun considère les membres séparément et n’a pas cette valeur négative. Ces pronoms sujets sont singuliers dans les exemples. Le contexte décide de l’emploi : une même forme n’a pas toujours la même fonction.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras employer une négation et accorder le verbe sans confondre absence et répartition. Acquis mobilisés : les pronoms indéfinis et l’accord du sujet. Pour la suite : la ponctuation et les messages précis."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Personne peut être un nom dans une personne ; dans personne ne parle, c’est un pronom négatif. Rien peut exprimer l’absence d’une chose : je ne vois rien. Dans les modèles négatifs étudiés, personne et rien s’emploient avec ne sans ajouter pas. Aucun reprend un élément dans une valeur nulle ; chacun considère les membres séparément et n’a pas cette valeur négative. Ces pronoms sujets sont singuliers dans les exemples. Le contexte décide de l’emploi : une même forme n’a pas toujours la même fonction."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Personne ne {fr2Present(\"parler\",2)} dans la scène. Je ne {fr2Present(\"voir\",0)} rien sur la fiche. Aucun ne {fr2Present(\"lire\",2)} le message dans cet exemple négatif. Chacun {fr2Present(\"lire\",2)} sa question dans un autre exemple. Ces situations fictives ne décrivent pas un bilan de la classe."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Demande si la phrase exprime une absence ou une action répartie entre les membres. Vérifie ensuite ne, la place du pronom et le sujet. Ne transforme pas chacun en personne uniquement parce que le groupe contient différents membres."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "personne pronom négatif",
+    "meaning": "le pronom exprimant ici l’absence de personne"
+   },
+   {
+    "word": "rien pronom négatif",
+    "meaning": "le pronom exprimant ici l’absence de chose"
+   },
+   {
+    "word": "aucun pronom",
+    "meaning": "une reprise à valeur nulle dans le modèle"
+   },
+   {
+    "word": "chacun distributif",
+    "meaning": "une reprise considérant chaque membre séparément"
+   }
+  ],
+  "mistake": {
+   "wrong": "Personne est toujours un nom féminin précédé de une.",
+   "right": "le pronom exprimant ici l’absence de personne.",
+   "why": "L’emploi pronominal négatif diffère du nom une personne."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Quelle phrase convient à l’écrit scolaire ?",
+  "problem": "Personne ne parle est le modèle négatif. Explique le choix.",
   "steps": [
-   "À l’écrit, garde ne avec ces pronoms négatifs.",
-   "Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas."
+   "le pronom exprimant ici l’absence de personne.",
+   "L’emploi pronominal négatif diffère du nom une personne."
   ],
-  "answer": "Personne ne répond.",
+  "answer": "personne pronom négatif",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c76-1",
+    "id": "fr2-76-c1",
     "status": "draft",
-    "idea": "Personne et rien ne désignent pas la même chose.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Personne n’appelle ; je ne vois rien."
+     "personne pronom négatif : le pronom exprimant ici l’absence de personne.",
+     "rien pronom négatif : le pronom exprimant ici l’absence de chose.",
+     "aucun pronom : une reprise à valeur nulle dans le modèle.",
+     "chacun distributif : une reprise considérant chaque membre séparément."
     ],
     "checks": [],
     "check": {
-     "ref": "fr2-76-etape-1"
+     "ref": "fr2-76-notions"
     }
    },
    {
-    "id": "c76-2",
+    "id": "fr2-76-c2",
     "status": "draft",
-    "idea": "À l’écrit, garde ne avec ces pronoms négatifs.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Personne ne répond."
+     "Personne ne parle est le modèle négatif.",
+     "Je ne vois rien ne nomme aucun objet vu.",
+     "Aucun ne lit le message est au singulier.",
+     "Chacun lit présente une action pour chaque membre."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-76-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "grammaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle phrase convient à l’écrit scolaire ?",
-         "r": "Personne ne répond.",
-         "w": [
-          "Personne répond.",
-          "Personne ne répond pas."
-         ],
-         "y": "Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas."
-        },
-        {
-         "q": "Quelle phrase exprime l’absence de changement ?",
-         "r": "Rien n’a changé.",
-         "w": [
-          "Rien a changé.",
-          "Rien n’a pas changé."
-         ],
-         "y": "Rien négatif s’accompagne de ne, élidé devant a."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fr2-76-cas"
     }
    },
    {
-    "id": "c76-3",
+    "id": "fr2-76-c3",
     "status": "draft",
-    "idea": "Reconnais la fonction du mot dans la phrase.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Une personne arrive : personne est un nom."
+     "Personne est toujours un nom féminin précédé de une. Correction : L’emploi pronominal négatif diffère du nom une personne.",
+     "Rien signifie nécessairement plusieurs personnes identifiées. Correction : Il porte ici sur une absence de chose.",
+     "Aucun impose automatiquement lisent. Correction : Le pronom sujet est singulier ici.",
+     "Chacun signifie forcément personne ne lit. Correction : La répartition ne signifie pas absence."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-76-etape-3-card",
-     "type": "mcq",
+     "id": "fr2-76-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "grammaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Dans quelle phrase « personne » est-il un nom ?",
-         "r": "Une personne attend.",
-         "w": [
-          "Personne ne parle.",
-          "Je ne vois personne."
-         ],
-         "y": "Le déterminant une introduit ici le nom personne."
-        },
-        {
-         "q": "Quelle phrase respecte l’accord du sujet ?",
-         "r": "Chacune répond à son tour.",
-         "w": [
-          "Chacune répondent à son tour.",
-          "Tous répond à son tour."
-         ],
-         "y": "Chacune est singulier ; tous sujet pluriel commande répondent."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "personne pronom négatif : le pronom exprimant ici l’absence de personne.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’emploi pronominal négatif diffère du nom une personne. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "rien pronom négatif : le pronom exprimant ici l’absence de chose.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il porte ici sur une absence de chose. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "aucun pronom : une reprise à valeur nulle dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le pronom sujet est singulier ici. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "chacun distributif : une reprise considérant chaque membre séparément.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La répartition ne signifie pas absence. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Personne est toujours un nom féminin précédé de une.",
+        "truth": "false",
+        "explain": "L’emploi pronominal négatif diffère du nom une personne."
+       },
+       {
+        "text": "Rien signifie nécessairement plusieurs personnes identifiées.",
+        "truth": "false",
+        "explain": "Il porte ici sur une absence de chose."
+       },
+       {
+        "text": "Aucun impose automatiquement lisent.",
+        "truth": "false",
+        "explain": "Le pronom sujet est singulier ici."
+       },
+       {
+        "text": "Chacun signifie forcément personne ne lit.",
+        "truth": "false",
+        "explain": "La répartition ne signifie pas absence."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -189,33 +187,75 @@
  },
  "questions": [
   {
-   "id": "fr2-76-etape-1",
+   "id": "fr2-76-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Aucun être humain ne répond. Complète : ___ ne répond.",
-       "r": "Personne",
+       "q": "Quel terme désigne le pronom exprimant ici l’absence de personne ?",
+       "r": "personne pronom négatif",
        "w": [
-        "Rien",
-        "Plusieurs"
+        "rien pronom négatif",
+        "aucun pronom",
+        "chacun distributif"
        ],
-       "y": "Personne renvoie aux êtres humains ; rien aux choses."
+       "e": [
+        "Cela désigne le pronom exprimant ici l’absence de chose, plutôt que la notion demandée.",
+        "Cela désigne une reprise à valeur nulle dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une reprise considérant chaque membre séparément, plutôt que la notion demandée."
+       ],
+       "y": "L’emploi pronominal négatif diffère du nom une personne."
       },
       {
-       "q": "Il n’y a aucune chose à signaler. Complète : Je n’ai ___ à signaler.",
-       "r": "rien",
+       "q": "Quel terme désigne le pronom exprimant ici l’absence de chose ?",
+       "r": "rien pronom négatif",
        "w": [
-        "personne",
-        "chacun"
+        "personne pronom négatif",
+        "aucun pronom",
+        "chacun distributif"
        ],
-       "y": "Rien exprime ici l’absence de chose à signaler."
+       "e": [
+        "Cela désigne le pronom exprimant ici l’absence de personne, plutôt que la notion demandée.",
+        "Cela désigne une reprise à valeur nulle dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une reprise considérant chaque membre séparément, plutôt que la notion demandée."
+       ],
+       "y": "Il porte ici sur une absence de chose."
+      },
+      {
+       "q": "Quel terme désigne une reprise à valeur nulle dans le modèle ?",
+       "r": "aucun pronom",
+       "w": [
+        "personne pronom négatif",
+        "rien pronom négatif",
+        "chacun distributif"
+       ],
+       "e": [
+        "Cela désigne le pronom exprimant ici l’absence de personne, plutôt que la notion demandée.",
+        "Cela désigne le pronom exprimant ici l’absence de chose, plutôt que la notion demandée.",
+        "Cela désigne une reprise considérant chaque membre séparément, plutôt que la notion demandée."
+       ],
+       "y": "Le pronom sujet est singulier ici."
+      },
+      {
+       "q": "Quel terme désigne une reprise considérant chaque membre séparément ?",
+       "r": "chacun distributif",
+       "w": [
+        "personne pronom négatif",
+        "rien pronom négatif",
+        "aucun pronom"
+       ],
+       "e": [
+        "Cela désigne le pronom exprimant ici l’absence de personne, plutôt que la notion demandée.",
+        "Cela désigne le pronom exprimant ici l’absence de chose, plutôt que la notion demandée.",
+        "Cela désigne une reprise à valeur nulle dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "La répartition ne signifie pas absence."
       }
      ]
     }
@@ -230,53 +270,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-76-etape-2",
+   "id": "fr2-76-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Personne ne parle est le modèle négatif.\nQuelle notion convient ?",
+       "r": "personne pronom négatif",
+       "w": [
+        "rien pronom négatif",
+        "aucun pronom",
+        "chacun distributif"
+       ],
+       "e": [
+        "Cela concerne le pronom exprimant ici l’absence de chose. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise à valeur nulle dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise considérant chaque membre séparément. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’emploi pronominal négatif diffère du nom une personne."
+      },
+      {
+       "q": "Je ne vois rien ne nomme aucun objet vu.\nQuelle notion convient ?",
+       "r": "rien pronom négatif",
+       "w": [
+        "personne pronom négatif",
+        "aucun pronom",
+        "chacun distributif"
+       ],
+       "e": [
+        "Cela concerne le pronom exprimant ici l’absence de personne. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise à valeur nulle dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise considérant chaque membre séparément. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il porte ici sur une absence de chose."
+      },
+      {
+       "q": "Aucun ne lit le message est au singulier.\nQuelle notion convient ?",
+       "r": "aucun pronom",
+       "w": [
+        "personne pronom négatif",
+        "rien pronom négatif",
+        "chacun distributif"
+       ],
+       "e": [
+        "Cela concerne le pronom exprimant ici l’absence de personne. Compare cette définition avec le cas présenté.",
+        "Cela concerne le pronom exprimant ici l’absence de chose. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise considérant chaque membre séparément. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le pronom sujet est singulier ici."
+      },
+      {
+       "q": "Chacun lit présente une action pour chaque membre.\nQuelle notion convient ?",
+       "r": "chacun distributif",
+       "w": [
+        "personne pronom négatif",
+        "rien pronom négatif",
+        "aucun pronom"
+       ],
+       "e": [
+        "Cela concerne le pronom exprimant ici l’absence de personne. Compare cette définition avec le cas présenté.",
+        "Cela concerne le pronom exprimant ici l’absence de chose. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise à valeur nulle dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La répartition ne signifie pas absence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-76-appliquer",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quelle phrase convient à l’écrit scolaire ?",
-       "r": "Personne ne répond.",
+       "q": "Choisis le modèle scolaire négatif demandé avec personne sujet.",
+       "r": "Personne ne parle.",
        "w": [
-        "Personne répond.",
-        "Personne ne répond pas."
+        "Personne ne parle pas.",
+        "Personne ne parlent.",
+        "Chaque personne est obligatoirement absente parce que son nom est personne."
        ],
-       "y": "Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas."
+       "e": [
+        "Dans ce modèle négatif simple, personne et ne suffisent sans pas.",
+        "Le sujet pronominal est singulier.",
+        "Le nom une personne ne signifie pas absence."
+       ],
+       "y": "Distingue pronom, négation et accord."
       },
       {
-       "q": "Quelle phrase exprime l’absence de changement ?",
-       "r": "Rien n’a changé.",
+       "q": "Tu ne vois aucun objet sur la fiche. Quelle phrase conserve ce sens ?",
+       "r": "Je ne vois rien.",
        "w": [
-        "Rien a changé.",
-        "Rien n’a pas changé."
+        "Je ne vois personne.",
+        "Plusieurs objets sont visibles.",
+        "Chacun voit nécessairement tout."
        ],
-       "y": "Rien négatif s’accompagne de ne, élidé devant a."
+       "e": [
+        "Personne porte sur les personnes, pas les choses demandées.",
+        "Cela inverse l’absence donnée.",
+        "Le contexte ne justifie pas cette affirmation."
+       ],
+       "y": "Rien convient aux choses dans ce modèle."
+      },
+      {
+       "q": "Quel emploi de personne est nominal ?",
+       "r": "Une personne lit.",
+       "w": [
+        "Personne ne lit.",
+        "Je ne vois personne.",
+        "Personne ne parle."
+       ],
+       "e": [
+        "Dans personne ne lit, le pronom négatif est le sujet de lit.",
+        "Dans je ne vois personne, le pronom négatif est complément de vois.",
+        "Dans personne ne parle, le pronom négatif est sujet de parle, sans déterminant une."
+       ],
+       "y": "Le déterminant une accompagne le nom."
+      },
+      {
+       "q": "Quelle phrase répartit une action sans exprimer une absence ?",
+       "r": "Chacun lit sa question.",
+       "w": [
+        "Aucun ne lit.",
+        "Personne ne lit.",
+        "Je ne lis rien."
+       ],
+       "e": [
+        "Aucun exprime ici la valeur nulle.",
+        "Personne exprime l’absence.",
+        "Rien exprime une absence de chose lue."
+       ],
+       "y": "Chacun a une valeur distributive."
       }
      ]
     }
@@ -291,84 +490,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-76-etape-3",
-   "type": "mcq",
+   "id": "fr2-76-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "personne pronom négatif",
+     "right": "Personne ne parle est le modèle négatif."
+    },
+    {
+     "left": "rien pronom négatif",
+     "right": "Je ne vois rien ne nomme aucun objet vu."
+    },
+    {
+     "left": "aucun pronom",
+     "right": "Aucun ne lit le message est au singulier."
+    },
+    {
+     "left": "chacun distributif",
+     "right": "Chacun lit présente une action pour chaque membre."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-76-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Dans quelle phrase « personne » est-il un nom ?",
-       "r": "Une personne attend.",
-       "w": [
-        "Personne ne parle.",
-        "Je ne vois personne."
-       ],
-       "y": "Le déterminant une introduit ici le nom personne."
-      },
-      {
-       "q": "Quelle phrase respecte l’accord du sujet ?",
-       "r": "Chacune répond à son tour.",
-       "w": [
-        "Chacune répondent à son tour.",
-        "Tous répond à son tour."
-       ],
-       "y": "Chacune est singulier ; tous sujet pluriel commande répondent."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "personne pronom négatif : le pronom exprimant ici l’absence de personne.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’emploi pronominal négatif diffère du nom une personne. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "rien pronom négatif : le pronom exprimant ici l’absence de chose.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il porte ici sur une absence de chose. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "aucun pronom : une reprise à valeur nulle dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le pronom sujet est singulier ici. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "chacun distributif : une reprise considérant chaque membre séparément.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La répartition ne signifie pas absence. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Personne est toujours un nom féminin précédé de une.",
+      "truth": "false",
+      "explain": "L’emploi pronominal négatif diffère du nom une personne."
+     },
+     {
+      "text": "Rien signifie nécessairement plusieurs personnes identifiées.",
+      "truth": "false",
+      "explain": "Il porte ici sur une absence de chose."
+     },
+     {
+      "text": "Aucun impose automatiquement lisent.",
+      "truth": "false",
+      "explain": "Le pronom sujet est singulier ici."
+     },
+     {
+      "text": "Chacun signifie forcément personne ne lit.",
+      "truth": "false",
+      "explain": "La répartition ne signifie pas absence."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

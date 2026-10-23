@@ -3,183 +3,182 @@
  "class": "Form 2",
  "lesson_no": 73,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  71,
+  72
+ ],
  "skills": [
   {
    "id": "fr2-73",
-   "name": "Naviguer et chercher sur Internet"
+   "name": "Naviguer, chercher et télécharger"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Internet relie des réseaux d’ordinateurs. Sur le Web, un navigateur permet d’ouvrir des pages et de suivre des liens : naviguer ou surfer. Un moteur de recherche aide à trouver des pages à partir de mots-clés. Télécharger, c’est transférer un fichier vers son appareil. Envoyer un fichier vers un service distant, c’est le téléverser. Zapper signifie passer rapidement d’un contenu à un autre ; cela ne remplace pas une recherche attentive.",
+  "text": "Naviguer ou surfer consiste à passer entre des pages ou ressources en ligne. Chercher consiste à formuler une demande d’information ; un moteur de recherche propose des résultats. Télécharger reçoit un fichier depuis un service vers un appareil : cela ne signifie pas l’envoyer à tous les autres. Zapper peut signifier passer rapidement d’un contenu à un autre, sans forcément le lire. Ces actions ne prouvent pas la qualité d’une information. Les modèles se comprennent sans appareil connecté.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir le verbe correspondant à une action numérique décrite. Acquis mobilisés : le passage sur la recherche. Pour la suite : le lexique des TIC et la description d’une démarche."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Naviguer ou surfer consiste à passer entre des pages ou ressources en ligne. Chercher consiste à formuler une demande d’information ; un moteur de recherche propose des résultats. Télécharger reçoit un fichier depuis un service vers un appareil : cela ne signifie pas l’envoyer à tous les autres. Zapper peut signifier passer rapidement d’un contenu à un autre, sans forcément le lire. Ces actions ne prouvent pas la qualité d’une information. Les modèles se comprennent sans appareil connecté."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Scène originale : Bih cherche une explication pour le club. Elle navigue entre des pages, lit les indices de source puis demande à l’enseignante si un document est approprié avant de le télécharger. Ayuk remarque que zapper trop vite lui ferait manquer le contexte. Aucun fichier réel ni compte n’est nécessaire à l’exercice."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Décris d’abord ce qui passe, d’où et vers où. Choisis ensuite le verbe. Face à une demande inconnue ou à un fichier douteux, demande l’aide d’un adulte de confiance plutôt que d’exécuter une instruction au hasard."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "naviguer",
+    "meaning": "passer entre des pages ou ressources en ligne"
+   },
+   {
+    "word": "chercher",
+    "meaning": "formuler une demande pour trouver une information"
+   },
+   {
+    "word": "télécharger",
+    "meaning": "recevoir un fichier depuis un service vers un appareil"
+   },
+   {
+    "word": "zapper",
+    "meaning": "passer rapidement d’un contenu à un autre"
+   }
+  ],
+  "mistake": {
+   "wrong": "Naviguer signifie obligatoirement imprimer chaque page.",
+   "right": "passer entre des pages ou ressources en ligne.",
+   "why": "Passer entre pages n’exige pas cette impression."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Un document du site arrive sur ton appareil. Tu viens de…",
+  "problem": "Bih suit un lien vers une autre page. Explique le choix.",
   "steps": [
-   "Télécharger transfère un fichier vers ton appareil.",
-   "Le transfert depuis un service distant vers l’appareil est un téléchargement."
+   "passer entre des pages ou ressources en ligne.",
+   "Passer entre pages n’exige pas cette impression."
   ],
-  "answer": "le télécharger.",
+  "answer": "naviguer",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c73-1",
+    "id": "fr2-73-c1",
     "status": "draft",
-    "idea": "Un navigateur affiche les pages du Web.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "J’ouvre une page dans mon navigateur."
+     "naviguer : passer entre des pages ou ressources en ligne.",
+     "chercher : formuler une demande pour trouver une information.",
+     "télécharger : recevoir un fichier depuis un service vers un appareil.",
+     "zapper : passer rapidement d’un contenu à un autre."
     ],
     "checks": [],
     "check": {
-     "ref": "fr2-73-etape-1"
+     "ref": "fr2-73-notions"
     }
    },
    {
-    "id": "c73-2",
+    "id": "fr2-73-c2",
     "status": "draft",
-    "idea": "Télécharger transfère un fichier vers ton appareil.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Je télécharge un document pour le lire hors ligne."
+     "Bih suit un lien vers une autre page.",
+     "Le groupe utilise les mots de sa question.",
+     "Le modèle décrit un fichier reçu sur l’appareil.",
+     "Ayuk change de page sans finir le passage."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-73-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "vocabulaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Un document du site arrive sur ton appareil. Tu viens de…",
-         "r": "le télécharger.",
-         "w": [
-          "le supprimer.",
-          "l’imprimer."
-         ],
-         "y": "Le transfert depuis un service distant vers l’appareil est un téléchargement."
-        },
-        {
-         "q": "Tu envoies ton fichier vers un espace en ligne. Tu le…",
-         "r": "téléverses.",
-         "w": [
-          "déchires.",
-          "photocopies."
-         ],
-         "y": "Le transfert de l’appareil vers le service distant est un téléversement."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fr2-73-cas"
     }
    },
    {
-    "id": "c73-3",
+    "id": "fr2-73-c3",
     "status": "draft",
-    "idea": "Cherche avec des mots-clés précis, puis vérifie la source.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Je cherche marchés Cameroun et je lis les sources."
+     "Naviguer signifie obligatoirement imprimer chaque page. Correction : Passer entre pages n’exige pas cette impression.",
+     "Chercher garantit que le premier résultat est vrai. Correction : Un résultat doit encore être examiné.",
+     "Télécharger signifie forcément publier le fichier pour tous. Correction : Le sens du transfert n’est pas cette publication.",
+     "Zapper prouve une lecture approfondie de chaque texte. Correction : La rapidité peut au contraire faire manquer le contexte."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-73-etape-3-card",
-     "type": "mcq",
+     "id": "fr2-73-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "vocabulaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quel choix aide à rechercher un exposé sur les marchés ?",
-         "r": "Des mots-clés précis et une vérification des sources.",
-         "w": [
-          "Changer de page sans rien lire.",
-          "Croire la première publicité."
-         ],
-         "y": "Une recherche utile combine sélection et vérification."
-        },
-        {
-         "q": "Pourquoi zapper ne suffit-il pas pour préparer un exposé ?",
-         "r": "Il faut lire et vérifier les informations retenues.",
-         "w": [
-          "Une page courte est toujours fausse.",
-          "Un navigateur écrit l’exposé à notre place."
-         ],
-         "y": "Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "naviguer : passer entre des pages ou ressources en ligne.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Passer entre pages n’exige pas cette impression. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "chercher : formuler une demande pour trouver une information.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un résultat doit encore être examiné. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "télécharger : recevoir un fichier depuis un service vers un appareil.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens du transfert n’est pas cette publication. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "zapper : passer rapidement d’un contenu à un autre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La rapidité peut au contraire faire manquer le contexte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Naviguer signifie obligatoirement imprimer chaque page.",
+        "truth": "false",
+        "explain": "Passer entre pages n’exige pas cette impression."
+       },
+       {
+        "text": "Chercher garantit que le premier résultat est vrai.",
+        "truth": "false",
+        "explain": "Un résultat doit encore être examiné."
+       },
+       {
+        "text": "Télécharger signifie forcément publier le fichier pour tous.",
+        "truth": "false",
+        "explain": "Le sens du transfert n’est pas cette publication."
+       },
+       {
+        "text": "Zapper prouve une lecture approfondie de chaque texte.",
+        "truth": "false",
+        "explain": "La rapidité peut au contraire faire manquer le contexte."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +186,75 @@
  },
  "questions": [
   {
-   "id": "fr2-73-etape-1",
+   "id": "fr2-73-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel outil affiche des pages Web ?",
-       "r": "Un navigateur.",
+       "q": "Quel terme désigne passer entre des pages ou ressources en ligne ?",
+       "r": "naviguer",
        "w": [
-        "Une imprimante.",
-        "Un haut-parleur."
+        "chercher",
+        "télécharger",
+        "zapper"
        ],
-       "y": "Le navigateur permet de consulter des pages Web."
+       "e": [
+        "Cela désigne formuler une demande pour trouver une information, plutôt que la notion demandée.",
+        "Cela désigne recevoir un fichier depuis un service vers un appareil, plutôt que la notion demandée.",
+        "Cela désigne passer rapidement d’un contenu à un autre, plutôt que la notion demandée."
+       ],
+       "y": "Passer entre pages n’exige pas cette impression."
       },
       {
-       "q": "Surfer sur le Web, c’est…",
-       "r": "passer d’une page à une autre en suivant des liens.",
+       "q": "Quel terme désigne formuler une demande pour trouver une information ?",
+       "r": "chercher",
        "w": [
-        "imprimer tous ses fichiers.",
-        "éteindre un ordinateur."
+        "naviguer",
+        "télécharger",
+        "zapper"
        ],
-       "y": "Surfer et naviguer décrivent la consultation des pages."
+       "e": [
+        "Cela désigne passer entre des pages ou ressources en ligne, plutôt que la notion demandée.",
+        "Cela désigne recevoir un fichier depuis un service vers un appareil, plutôt que la notion demandée.",
+        "Cela désigne passer rapidement d’un contenu à un autre, plutôt que la notion demandée."
+       ],
+       "y": "Un résultat doit encore être examiné."
+      },
+      {
+       "q": "Quel terme désigne recevoir un fichier depuis un service vers un appareil ?",
+       "r": "télécharger",
+       "w": [
+        "naviguer",
+        "chercher",
+        "zapper"
+       ],
+       "e": [
+        "Cela désigne passer entre des pages ou ressources en ligne, plutôt que la notion demandée.",
+        "Cela désigne formuler une demande pour trouver une information, plutôt que la notion demandée.",
+        "Cela désigne passer rapidement d’un contenu à un autre, plutôt que la notion demandée."
+       ],
+       "y": "Le sens du transfert n’est pas cette publication."
+      },
+      {
+       "q": "Quel terme désigne passer rapidement d’un contenu à un autre ?",
+       "r": "zapper",
+       "w": [
+        "naviguer",
+        "chercher",
+        "télécharger"
+       ],
+       "e": [
+        "Cela désigne passer entre des pages ou ressources en ligne, plutôt que la notion demandée.",
+        "Cela désigne formuler une demande pour trouver une information, plutôt que la notion demandée.",
+        "Cela désigne recevoir un fichier depuis un service vers un appareil, plutôt que la notion demandée."
+       ],
+       "y": "La rapidité peut au contraire faire manquer le contexte."
       }
      ]
     }
@@ -228,53 +269,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-73-etape-2",
+   "id": "fr2-73-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih suit un lien vers une autre page.\nQuelle notion convient ?",
+       "r": "naviguer",
+       "w": [
+        "chercher",
+        "télécharger",
+        "zapper"
+       ],
+       "e": [
+        "Cela concerne formuler une demande pour trouver une information. Compare cette définition avec le cas présenté.",
+        "Cela concerne recevoir un fichier depuis un service vers un appareil. Compare cette définition avec le cas présenté.",
+        "Cela concerne passer rapidement d’un contenu à un autre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Passer entre pages n’exige pas cette impression."
+      },
+      {
+       "q": "Le groupe utilise les mots de sa question.\nQuelle notion convient ?",
+       "r": "chercher",
+       "w": [
+        "naviguer",
+        "télécharger",
+        "zapper"
+       ],
+       "e": [
+        "Cela concerne passer entre des pages ou ressources en ligne. Compare cette définition avec le cas présenté.",
+        "Cela concerne recevoir un fichier depuis un service vers un appareil. Compare cette définition avec le cas présenté.",
+        "Cela concerne passer rapidement d’un contenu à un autre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un résultat doit encore être examiné."
+      },
+      {
+       "q": "Le modèle décrit un fichier reçu sur l’appareil.\nQuelle notion convient ?",
+       "r": "télécharger",
+       "w": [
+        "naviguer",
+        "chercher",
+        "zapper"
+       ],
+       "e": [
+        "Cela concerne passer entre des pages ou ressources en ligne. Compare cette définition avec le cas présenté.",
+        "Cela concerne formuler une demande pour trouver une information. Compare cette définition avec le cas présenté.",
+        "Cela concerne passer rapidement d’un contenu à un autre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens du transfert n’est pas cette publication."
+      },
+      {
+       "q": "Ayuk change de page sans finir le passage.\nQuelle notion convient ?",
+       "r": "zapper",
+       "w": [
+        "naviguer",
+        "chercher",
+        "télécharger"
+       ],
+       "e": [
+        "Cela concerne passer entre des pages ou ressources en ligne. Compare cette définition avec le cas présenté.",
+        "Cela concerne formuler une demande pour trouver une information. Compare cette définition avec le cas présenté.",
+        "Cela concerne recevoir un fichier depuis un service vers un appareil. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La rapidité peut au contraire faire manquer le contexte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-73-contexte",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Un document du site arrive sur ton appareil. Tu viens de…",
-       "r": "le télécharger.",
+       "q": "Un fichier passe du service vers l’appareil du modèle. Quelle action est décrite ?",
+       "r": "télécharger",
        "w": [
-        "le supprimer.",
-        "l’imprimer."
+        "publier pour tout le monde",
+        "imprimer sur papier",
+        "rester hors ligne sans transfert"
        ],
-       "y": "Le transfert depuis un service distant vers l’appareil est un téléchargement."
+       "e": [
+        "La réception n’est pas la publication publique.",
+        "Aucun papier n’est produit.",
+        "Le modèle décrit bien un transfert."
+       ],
+       "y": "Vérifie la direction du fichier."
       },
       {
-       "q": "Tu envoies ton fichier vers un espace en ligne. Tu le…",
-       "r": "téléverses.",
+       "q": "Bih suit des liens entre des pages. Elle est en train de quoi ?",
+       "r": "naviguer",
        "w": [
-        "déchires.",
-        "photocopies."
+        "scanner une feuille",
+        "imprimer un message",
+        "effacer tout le réseau"
        ],
-       "y": "Le transfert de l’appareil vers le service distant est un téléversement."
+       "e": [
+        "Le texte ne décrit pas de numérisation.",
+        "Aucune impression n’est indiquée.",
+        "Le déplacement entre pages n’efface pas le réseau."
+       ],
+       "y": "Le passage entre pages définit l’action."
+      },
+      {
+       "q": "Ayuk passe très vite d’un contenu à l’autre sans finir. Quel verbe convient ici ?",
+       "r": "zapper",
+       "w": [
+        "tout vérifier en profondeur",
+        "archiver chaque document",
+        "rédiger une lettre complète"
+       ],
+       "e": [
+        "Le modèle précise qu’il ne termine pas la lecture.",
+        "La conservation n’est pas annoncée.",
+        "Il change de contenu, sans écrire cette lettre."
+       ],
+       "y": "Le contexte décide du sens."
+      },
+      {
+       "q": "Le premier résultat s’affiche. Quelle conclusion est justifiée ?",
+       "r": "Un résultat a été proposé et doit être examiné.",
+       "w": [
+        "Toute son information est garantie.",
+        "L’auteur de la page est forcément Bih.",
+        "Toutes les autres sources sont fausses."
+       ],
+       "e": [
+        "L’ordre d’affichage n’est pas une garantie.",
+        "L’auteur n’est pas donné.",
+        "Aucune telle comparaison n’est établie."
+       ],
+       "y": "Chercher et vérifier sont distincts."
       }
      ]
     }
@@ -289,84 +489,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-73-etape-3",
-   "type": "mcq",
+   "id": "fr2-73-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "naviguer",
+     "right": "Bih suit un lien vers une autre page."
+    },
+    {
+     "left": "chercher",
+     "right": "Le groupe utilise les mots de sa question."
+    },
+    {
+     "left": "télécharger",
+     "right": "Le modèle décrit un fichier reçu sur l’appareil."
+    },
+    {
+     "left": "zapper",
+     "right": "Ayuk change de page sans finir le passage."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-73-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quel choix aide à rechercher un exposé sur les marchés ?",
-       "r": "Des mots-clés précis et une vérification des sources.",
-       "w": [
-        "Changer de page sans rien lire.",
-        "Croire la première publicité."
-       ],
-       "y": "Une recherche utile combine sélection et vérification."
-      },
-      {
-       "q": "Pourquoi zapper ne suffit-il pas pour préparer un exposé ?",
-       "r": "Il faut lire et vérifier les informations retenues.",
-       "w": [
-        "Une page courte est toujours fausse.",
-        "Un navigateur écrit l’exposé à notre place."
-       ],
-       "y": "Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "naviguer : passer entre des pages ou ressources en ligne.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Passer entre pages n’exige pas cette impression. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "chercher : formuler une demande pour trouver une information.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un résultat doit encore être examiné. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "télécharger : recevoir un fichier depuis un service vers un appareil.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens du transfert n’est pas cette publication. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "zapper : passer rapidement d’un contenu à un autre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La rapidité peut au contraire faire manquer le contexte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Naviguer signifie obligatoirement imprimer chaque page.",
+      "truth": "false",
+      "explain": "Passer entre pages n’exige pas cette impression."
+     },
+     {
+      "text": "Chercher garantit que le premier résultat est vrai.",
+      "truth": "false",
+      "explain": "Un résultat doit encore être examiné."
+     },
+     {
+      "text": "Télécharger signifie forcément publier le fichier pour tous.",
+      "truth": "false",
+      "explain": "Le sens du transfert n’est pas cette publication."
+     },
+     {
+      "text": "Zapper prouve une lecture approfondie de chaque texte.",
+      "truth": "false",
+      "explain": "La rapidité peut au contraire faire manquer le contexte."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

@@ -3,183 +3,183 @@
  "class": "Form 2",
  "lesson_no": 78,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  71,
+  73,
+  76
+ ],
  "skills": [
   {
    "id": "fr2-78",
-   "name": "Le vocabulaire des TIC"
+   "name": "Nommer les outils et messages des TIC"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Les TIC sont les technologies de l’information et de la communication. Le matériel comprend les objets physiques : ordinateur, clavier, écran. Un logiciel est un programme. Le courriel est un message électronique. Une pièce jointe est un fichier ajouté au message. Un lien mène vers une ressource. Un mot de passe protège l’accès à un compte ; on ne le communique pas à un interlocuteur inconnu. Une visioconférence permet de se voir et de se parler à distance.",
+  "text": "Les TIC sont les technologies de l’information et de la communication. Un appareil comme un ordinateur ou une tablette permet d’utiliser des logiciels. Un navigateur affiche des pages du Web ; un moteur de recherche aide à trouver des ressources. Un courriel est un message électronique ; une pièce jointe accompagne ce message. Ces termes désignent des rôles différents. Un mot de passe protège un accès : l’exercice ne te demande jamais d’en fournir un. Les situations peuvent être comprises sur papier, sans compte ni appareil.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer appareil logiciel recherche et message dans des situations écrites. Acquis mobilisés : les actions de navigation et de téléchargement. Pour la suite : le présent des verbes et le paragraphe de démarche."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Les TIC sont les technologies de l’information et de la communication. Un appareil comme un ordinateur ou une tablette permet d’utiliser des logiciels. Un navigateur affiche des pages du Web ; un moteur de recherche aide à trouver des ressources. Un courriel est un message électronique ; une pièce jointe accompagne ce message. Ces termes désignent des rôles différents. Un mot de passe protège un accès : l’exercice ne te demande jamais d’en fournir un. Les situations peuvent être comprises sur papier, sans compte ni appareil."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Scène originale : Le club imaginaire prépare un courriel avec une fiche jointe. Bih distingue le navigateur qui affiche la page du moteur qui propose des résultats. Ayuk vérifie le destinataire avant de préparer l’envoi. Le texte ne donne ni adresse personnelle ni mot de passe."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Demande si le mot nomme un outil, une fonction ou un message. Ne confonds pas la page affichée avec tout Internet. Si une demande exige un code secret ou une donnée privée, cherche l’aide d’un adulte de confiance."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "navigateur",
+    "meaning": "un logiciel affichant des pages du Web"
+   },
+   {
+    "word": "moteur de recherche",
+    "meaning": "un service proposant des résultats pour une requête"
+   },
+   {
+    "word": "courriel",
+    "meaning": "un message électronique"
+   },
+   {
+    "word": "pièce jointe",
+    "meaning": "un fichier accompagnant un message"
+   }
+  ],
+  "mistake": {
+   "wrong": "Navigateur est forcément le nom de chaque destinataire.",
+   "right": "un logiciel affichant des pages du Web.",
+   "why": "Il s’agit du logiciel, pas d’une personne."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Un document ajouté à un courriel est…",
+  "problem": "Le modèle ouvre une page dans un navigateur. Explique le choix.",
   "steps": [
-   "Une pièce jointe accompagne un courriel.",
-   "La pièce jointe est un fichier envoyé avec le message."
+   "un logiciel affichant des pages du Web.",
+   "Il s’agit du logiciel, pas d’une personne."
   ],
-  "answer": "une pièce jointe.",
+  "answer": "navigateur",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c78-1",
+    "id": "fr2-78-c1",
     "status": "draft",
-    "idea": "Distingue matériel et logiciel.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Le clavier est un objet ; le navigateur est un programme."
+     "navigateur : un logiciel affichant des pages du Web.",
+     "moteur de recherche : un service proposant des résultats pour une requête.",
+     "courriel : un message électronique.",
+     "pièce jointe : un fichier accompagnant un message."
     ],
     "checks": [],
     "check": {
-     "ref": "fr2-78-etape-1"
+     "ref": "fr2-78-notions"
     }
    },
    {
-    "id": "c78-2",
+    "id": "fr2-78-c2",
     "status": "draft",
-    "idea": "Une pièce jointe accompagne un courriel.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "J’ajoute un document au message."
+     "Le modèle ouvre une page dans un navigateur.",
+     "Le club cherche des ressources avec des mots-clés.",
+     "Bih prépare un message destiné au club.",
+     "Une fiche est ajoutée au courriel du modèle."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-78-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "vocabulaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Un document ajouté à un courriel est…",
-         "r": "une pièce jointe.",
-         "w": [
-          "un clavier.",
-          "un mot de passe."
-         ],
-         "y": "La pièce jointe est un fichier envoyé avec le message."
-        },
-        {
-         "q": "Un élément cliquable mène vers une page : c’est…",
-         "r": "un lien.",
-         "w": [
-          "une imprimante.",
-          "un microphone."
-         ],
-         "y": "Le lien permet d’ouvrir une ressource."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fr2-78-cas"
     }
    },
    {
-    "id": "c78-3",
+    "id": "fr2-78-c3",
     "status": "draft",
-    "idea": "Choisis le mot qui convient à la situation.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Pour voir mon correspondant, j’utilise une visioconférence."
+     "Navigateur est forcément le nom de chaque destinataire. Correction : Il s’agit du logiciel, pas d’une personne.",
+     "Le moteur garantit que tous les résultats sont exacts. Correction : Il propose des ressources qui restent à vérifier.",
+     "Un courriel est toujours une feuille déjà imprimée. Correction : Le message est électronique ; une impression serait une autre action.",
+     "La pièce jointe est forcément le mot de passe du compte. Correction : C’est un fichier accompagnant le message, pas le secret d’accès."
     ],
     "checks": [],
     "check": {
-     "id": "fr2-78-etape-3-card",
-     "type": "mcq",
+     "id": "fr2-78-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "vocabulaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Tu veux voir et entendre ton correspondant à distance. Quel terme convient ?",
-         "r": "Une visioconférence.",
-         "w": [
-          "Une photocopie.",
-          "Une pièce jointe imprimée."
-         ],
-         "y": "La visioconférence transmet de l’image et du son."
-        },
-        {
-         "q": "Un inconnu réclame ton mot de passe. Que faire ?",
-         "r": "Ne pas le lui transmettre et demander conseil à un adulte de confiance.",
-         "w": [
-          "Le publier dans un message public.",
-          "L’envoyer pour gagner du temps."
-         ],
-         "y": "Un mot de passe protège le compte et ne se partage pas avec un inconnu."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "navigateur : un logiciel affichant des pages du Web.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il s’agit du logiciel, pas d’une personne. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "moteur de recherche : un service proposant des résultats pour une requête.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il propose des ressources qui restent à vérifier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "courriel : un message électronique.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le message est électronique ; une impression serait une autre action. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "pièce jointe : un fichier accompagnant un message.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : C’est un fichier accompagnant le message, pas le secret d’accès. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Navigateur est forcément le nom de chaque destinataire.",
+        "truth": "false",
+        "explain": "Il s’agit du logiciel, pas d’une personne."
+       },
+       {
+        "text": "Le moteur garantit que tous les résultats sont exacts.",
+        "truth": "false",
+        "explain": "Il propose des ressources qui restent à vérifier."
+       },
+       {
+        "text": "Un courriel est toujours une feuille déjà imprimée.",
+        "truth": "false",
+        "explain": "Le message est électronique ; une impression serait une autre action."
+       },
+       {
+        "text": "La pièce jointe est forcément le mot de passe du compte.",
+        "truth": "false",
+        "explain": "C’est un fichier accompagnant le message, pas le secret d’accès."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +187,75 @@
  },
  "questions": [
   {
-   "id": "fr2-78-etape-1",
+   "id": "fr2-78-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel élément est du matériel ?",
-       "r": "Un clavier.",
+       "q": "Quel terme désigne un logiciel affichant des pages du Web ?",
+       "r": "navigateur",
        "w": [
-        "Un logiciel de dessin.",
-        "Un navigateur."
+        "moteur de recherche",
+        "courriel",
+        "pièce jointe"
        ],
-       "y": "Le clavier est un objet physique."
+       "e": [
+        "Cela désigne un service proposant des résultats pour une requête, plutôt que la notion demandée.",
+        "Cela désigne un message électronique, plutôt que la notion demandée.",
+        "Cela désigne un fichier accompagnant un message, plutôt que la notion demandée."
+       ],
+       "y": "Il s’agit du logiciel, pas d’une personne."
       },
       {
-       "q": "Quel élément est un logiciel ?",
-       "r": "Un navigateur.",
+       "q": "Quel terme désigne un service proposant des résultats pour une requête ?",
+       "r": "moteur de recherche",
        "w": [
-        "Un écran.",
-        "Une souris."
+        "navigateur",
+        "courriel",
+        "pièce jointe"
        ],
-       "y": "Le navigateur est un programme, contrairement aux objets matériels."
+       "e": [
+        "Cela désigne un logiciel affichant des pages du Web, plutôt que la notion demandée.",
+        "Cela désigne un message électronique, plutôt que la notion demandée.",
+        "Cela désigne un fichier accompagnant un message, plutôt que la notion demandée."
+       ],
+       "y": "Il propose des ressources qui restent à vérifier."
+      },
+      {
+       "q": "Quel terme désigne un message électronique ?",
+       "r": "courriel",
+       "w": [
+        "navigateur",
+        "moteur de recherche",
+        "pièce jointe"
+       ],
+       "e": [
+        "Cela désigne un logiciel affichant des pages du Web, plutôt que la notion demandée.",
+        "Cela désigne un service proposant des résultats pour une requête, plutôt que la notion demandée.",
+        "Cela désigne un fichier accompagnant un message, plutôt que la notion demandée."
+       ],
+       "y": "Le message est électronique ; une impression serait une autre action."
+      },
+      {
+       "q": "Quel terme désigne un fichier accompagnant un message ?",
+       "r": "pièce jointe",
+       "w": [
+        "navigateur",
+        "moteur de recherche",
+        "courriel"
+       ],
+       "e": [
+        "Cela désigne un logiciel affichant des pages du Web, plutôt que la notion demandée.",
+        "Cela désigne un service proposant des résultats pour une requête, plutôt que la notion demandée.",
+        "Cela désigne un message électronique, plutôt que la notion demandée."
+       ],
+       "y": "C’est un fichier accompagnant le message, pas le secret d’accès."
       }
      ]
     }
@@ -228,53 +270,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-78-etape-2",
+   "id": "fr2-78-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le modèle ouvre une page dans un navigateur.\nQuelle notion convient ?",
+       "r": "navigateur",
+       "w": [
+        "moteur de recherche",
+        "courriel",
+        "pièce jointe"
+       ],
+       "e": [
+        "Cela concerne un service proposant des résultats pour une requête. Compare cette définition avec le cas présenté.",
+        "Cela concerne un message électronique. Compare cette définition avec le cas présenté.",
+        "Cela concerne un fichier accompagnant un message. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il s’agit du logiciel, pas d’une personne."
+      },
+      {
+       "q": "Le club cherche des ressources avec des mots-clés.\nQuelle notion convient ?",
+       "r": "moteur de recherche",
+       "w": [
+        "navigateur",
+        "courriel",
+        "pièce jointe"
+       ],
+       "e": [
+        "Cela concerne un logiciel affichant des pages du Web. Compare cette définition avec le cas présenté.",
+        "Cela concerne un message électronique. Compare cette définition avec le cas présenté.",
+        "Cela concerne un fichier accompagnant un message. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il propose des ressources qui restent à vérifier."
+      },
+      {
+       "q": "Bih prépare un message destiné au club.\nQuelle notion convient ?",
+       "r": "courriel",
+       "w": [
+        "navigateur",
+        "moteur de recherche",
+        "pièce jointe"
+       ],
+       "e": [
+        "Cela concerne un logiciel affichant des pages du Web. Compare cette définition avec le cas présenté.",
+        "Cela concerne un service proposant des résultats pour une requête. Compare cette définition avec le cas présenté.",
+        "Cela concerne un fichier accompagnant un message. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le message est électronique ; une impression serait une autre action."
+      },
+      {
+       "q": "Une fiche est ajoutée au courriel du modèle.\nQuelle notion convient ?",
+       "r": "pièce jointe",
+       "w": [
+        "navigateur",
+        "moteur de recherche",
+        "courriel"
+       ],
+       "e": [
+        "Cela concerne un logiciel affichant des pages du Web. Compare cette définition avec le cas présenté.",
+        "Cela concerne un service proposant des résultats pour une requête. Compare cette définition avec le cas présenté.",
+        "Cela concerne un message électronique. Compare cette définition avec le cas présenté."
+       ],
+       "y": "C’est un fichier accompagnant le message, pas le secret d’accès."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-78-contexte",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Un document ajouté à un courriel est…",
-       "r": "une pièce jointe.",
+       "q": "Quel outil affiche les pages du Web ?",
+       "r": "un navigateur",
        "w": [
-        "un clavier.",
-        "un mot de passe."
+        "une pièce jointe",
+        "un destinataire",
+        "un mot de passe"
        ],
-       "y": "La pièce jointe est un fichier envoyé avec le message."
+       "e": [
+        "Ce fichier n’est pas le logiciel d’affichage.",
+        "Le destinataire reçoit le message.",
+        "Le secret protège l’accès, sans afficher lui-même la page."
+       ],
+       "y": "Distingue les rôles."
       },
       {
-       "q": "Un élément cliquable mène vers une page : c’est…",
-       "r": "un lien.",
+       "q": "Le club formule une requête et reçoit des résultats. Quel service est utilisé ?",
+       "r": "un moteur de recherche",
        "w": [
-        "une imprimante.",
-        "un microphone."
+        "une impression papier",
+        "un clavier comme source de vérité",
+        "un mot de passe public"
        ],
-       "y": "Le lien permet d’ouvrir une ressource."
+       "e": [
+        "La situation décrit une recherche, pas une impression.",
+        "Le clavier sert à saisir, pas à garantir le contenu.",
+        "Un secret ne doit pas devenir public."
+       ],
+       "y": "La requête oriente la recherche."
+      },
+      {
+       "q": "Un fichier accompagne le courriel. Comment le nommer ?",
+       "r": "pièce jointe",
+       "w": [
+        "destinataire",
+        "mot de passe",
+        "navigateur"
+       ],
+       "e": [
+        "Le destinataire est la personne ou l’adresse visée.",
+        "Le fichier n’est pas le secret d’accès.",
+        "Le navigateur est un logiciel."
+       ],
+       "y": "Le rôle dans le message décide."
+      },
+      {
+       "q": "Une demande inconnue exige ton mot de passe. Quelle réaction convient ?",
+       "r": "Ne pas le communiquer et demander l’aide d’un adulte de confiance.",
+       "w": [
+        "Publier le secret pour toute la classe.",
+        "Le recopier dans l’exercice.",
+        "Supposer que toute demande est fiable."
+       ],
+       "e": [
+        "Le partage expose l’accès.",
+        "L’exercice ne demande aucun code secret.",
+        "L’origine doit être examinée."
+       ],
+       "y": "Garde le secret hors de cet exercice."
       }
      ]
     }
@@ -289,84 +490,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fr2-78-etape-3",
-   "type": "mcq",
+   "id": "fr2-78-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "navigateur",
+     "right": "Le modèle ouvre une page dans un navigateur."
+    },
+    {
+     "left": "moteur de recherche",
+     "right": "Le club cherche des ressources avec des mots-clés."
+    },
+    {
+     "left": "courriel",
+     "right": "Bih prépare un message destiné au club."
+    },
+    {
+     "left": "pièce jointe",
+     "right": "Une fiche est ajoutée au courriel du modèle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-78-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Tu veux voir et entendre ton correspondant à distance. Quel terme convient ?",
-       "r": "Une visioconférence.",
-       "w": [
-        "Une photocopie.",
-        "Une pièce jointe imprimée."
-       ],
-       "y": "La visioconférence transmet de l’image et du son."
-      },
-      {
-       "q": "Un inconnu réclame ton mot de passe. Que faire ?",
-       "r": "Ne pas le lui transmettre et demander conseil à un adulte de confiance.",
-       "w": [
-        "Le publier dans un message public.",
-        "L’envoyer pour gagner du temps."
-       ],
-       "y": "Un mot de passe protège le compte et ne se partage pas avec un inconnu."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "navigateur : un logiciel affichant des pages du Web.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il s’agit du logiciel, pas d’une personne. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "moteur de recherche : un service proposant des résultats pour une requête.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il propose des ressources qui restent à vérifier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "courriel : un message électronique.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le message est électronique ; une impression serait une autre action. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "pièce jointe : un fichier accompagnant un message.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : C’est un fichier accompagnant le message, pas le secret d’accès. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Navigateur est forcément le nom de chaque destinataire.",
+      "truth": "false",
+      "explain": "Il s’agit du logiciel, pas d’une personne."
+     },
+     {
+      "text": "Le moteur garantit que tous les résultats sont exacts.",
+      "truth": "false",
+      "explain": "Il propose des ressources qui restent à vérifier."
+     },
+     {
+      "text": "Un courriel est toujours une feuille déjà imprimée.",
+      "truth": "false",
+      "explain": "Le message est électronique ; une impression serait une autre action."
+     },
+     {
+      "text": "La pièce jointe est forcément le mot de passe du compte.",
+      "truth": "false",
+      "explain": "C’est un fichier accompagnant le message, pas le secret d’accès."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]
