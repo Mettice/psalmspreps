@@ -1,0 +1,680 @@
+{
+ "subject": "economics",
+ "class": "Form 4",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  6,
+  11
+ ],
+ "skills": [
+  {
+   "id": "n4-14",
+   "name": "Economies of scale"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Economies of scale occur when larger output scale lowers long-run average cost as the firm can vary all inputs. Internal economies arise within the firm, such as specialisation, technical indivisibilities or purchasing advantages. External economies can arise from an industry’s expansion, such as specialised suppliers or a relevant skills pool. Total cost can rise while average cost falls. A purchasing discount is useful only if storage, quality and demand make the larger order worthwhile. Size does not guarantee a cost saving.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain why larger scale can lower long-run average cost and calculate the saving per unit. Builds on: resources, finance and the cost of supplying output. Leads to: diseconomies of scale and the limits to expansion."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Economies of scale occur when larger output scale lowers long-run average cost as the firm can vary all inputs. Internal economies arise within the firm, such as specialisation, technical indivisibilities or purchasing advantages. External economies can arise from an industry’s expansion, such as specialised suppliers or a relevant skills pool. Total cost can rise while average cost falls. A purchasing discount is useful only if storage, quality and demand make the larger order worthwhile. Size does not guarantee a cost saving."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "A fictional Douala workshop compares complete production plans at different scales. Specialist equipment may spread its services over more output, and a larger firm may organise specialised tasks. A cluster of firms can also support a specialist supplier. These are possible mechanisms, not proof that every large firm is efficient or every observed cost fall comes from scale."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Compute average cost as total cost divided by comparable output. State whether the cause is internal to one firm or external through its industry. Separate long-run scale from a short-run change with fixed capacity. Lower cost may enable lower prices, but the actual price also depends on market conditions."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "internal economy",
+    "meaning": "a scale-related cost advantage arising within the firm"
+   },
+   {
+    "word": "external economy",
+    "meaning": "a benefit linked to expansion of the industry or cluster rather than one firm alone"
+   },
+   {
+    "word": "average cost",
+    "meaning": "total cost divided by the corresponding output"
+   },
+   {
+    "word": "purchasing economy",
+    "meaning": "a scale-related opportunity to obtain inputs on lower unit-cost terms"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every internal economy comes only from unrelated firms expanding.",
+   "right": "internal economy: a scale-related cost advantage arising within the firm.",
+   "why": "The source is within the expanding firm’s own organisation or technology."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Compare a smaller long-run plan costing {10000} for {20} units with a larger plan costing {16000} for {40} units.",
+  "steps": [
+   "Average costs: {10000/20} and {16000/40} CFA francs per unit.",
+   "The larger plan saves {10000/20-16000/40} per unit even though its total cost is higher."
+  ],
+  "answer": "Average cost falls by {10000/20-16000/40} CFA francs per unit.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n4-14-c1",
+    "status": "draft",
+    "idea": "Distinguish these features before judging a business.",
+    "vars": {},
+    "example": [
+     "internal economy: a scale-related cost advantage arising within the firm.",
+     "external economy: a benefit linked to expansion of the industry or cluster rather than one firm alone.",
+     "average cost: total cost divided by the corresponding output.",
+     "purchasing economy: a scale-related opportunity to obtain inputs on lower unit-cost terms."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n4-14-terms"
+    }
+   },
+   {
+    "id": "n4-14-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "The firm can justify specialised equipment as its scale expands.",
+     "Industry growth supports a specialised local supplier used by several firms.",
+     "The workshop compares cost per unit rather than total spending alone.",
+     "A larger appropriate order may obtain better input terms."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n4-14-cases"
+    }
+   },
+   {
+    "id": "n4-14-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "internal economy: The source is within the expanding firm’s own organisation or technology.",
+     "external economy: The benefit arises from the industry environment, not that personal work change.",
+     "average cost: Output may rise faster than total cost, reducing average cost.",
+     "purchasing economy: Storage, spoilage and demand can offset the apparent input-price saving."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n4-14-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "business"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The firm can justify specialised equipment as its scale expands.\nWhich explanation is appropriate?",
+         "r": "The source is within the expanding firm’s own organisation or technology.",
+         "w": [
+          "The benefit arises from the industry environment, not that personal work change.",
+          "Output may rise faster than total cost, reducing average cost.",
+          "Storage, spoilage and demand can offset the apparent input-price saving."
+         ],
+         "e": [
+          "That explanation addresses external economy, rather than the feature described here.",
+          "That explanation addresses average cost, rather than the feature described here.",
+          "That explanation addresses purchasing economy, rather than the feature described here."
+         ],
+         "y": "A scale-related cost advantage arising within the firm."
+        },
+        {
+         "q": "Industry growth supports a specialised local supplier used by several firms.\nWhich explanation is appropriate?",
+         "r": "The benefit arises from the industry environment, not that personal work change.",
+         "w": [
+          "The source is within the expanding firm’s own organisation or technology.",
+          "Output may rise faster than total cost, reducing average cost.",
+          "Storage, spoilage and demand can offset the apparent input-price saving."
+         ],
+         "e": [
+          "That explanation addresses internal economy, rather than the feature described here.",
+          "That explanation addresses average cost, rather than the feature described here.",
+          "That explanation addresses purchasing economy, rather than the feature described here."
+         ],
+         "y": "A benefit linked to expansion of the industry or cluster rather than one firm alone."
+        },
+        {
+         "q": "The workshop compares cost per unit rather than total spending alone.\nWhich explanation is appropriate?",
+         "r": "Output may rise faster than total cost, reducing average cost.",
+         "w": [
+          "The source is within the expanding firm’s own organisation or technology.",
+          "The benefit arises from the industry environment, not that personal work change.",
+          "Storage, spoilage and demand can offset the apparent input-price saving."
+         ],
+         "e": [
+          "That explanation addresses internal economy, rather than the feature described here.",
+          "That explanation addresses external economy, rather than the feature described here.",
+          "That explanation addresses purchasing economy, rather than the feature described here."
+         ],
+         "y": "Total cost divided by the corresponding output."
+        },
+        {
+         "q": "A larger appropriate order may obtain better input terms.\nWhich explanation is appropriate?",
+         "r": "Storage, spoilage and demand can offset the apparent input-price saving.",
+         "w": [
+          "The source is within the expanding firm’s own organisation or technology.",
+          "The benefit arises from the industry environment, not that personal work change.",
+          "Output may rise faster than total cost, reducing average cost."
+         ],
+         "e": [
+          "That explanation addresses internal economy, rather than the feature described here.",
+          "That explanation addresses external economy, rather than the feature described here.",
+          "That explanation addresses average cost, rather than the feature described here."
+         ],
+         "y": "A scale-related opportunity to obtain inputs on lower unit-cost terms."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n4-14-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a scale-related cost advantage arising within the firm?",
+       "r": "internal economy",
+       "w": [
+        "external economy",
+        "average cost",
+        "purchasing economy"
+       ],
+       "e": [
+        "external economy concerns a benefit linked to expansion of the industry or cluster rather than one firm alone, rather than the concept asked for.",
+        "average cost concerns total cost divided by the corresponding output, rather than the concept asked for.",
+        "purchasing economy concerns a scale-related opportunity to obtain inputs on lower unit-cost terms, rather than the concept asked for."
+       ],
+       "y": "A scale-related cost advantage arising within the firm."
+      },
+      {
+       "q": "Which term means a benefit linked to expansion of the industry or cluster rather than one firm alone?",
+       "r": "external economy",
+       "w": [
+        "internal economy",
+        "average cost",
+        "purchasing economy"
+       ],
+       "e": [
+        "internal economy concerns a scale-related cost advantage arising within the firm, rather than the concept asked for.",
+        "average cost concerns total cost divided by the corresponding output, rather than the concept asked for.",
+        "purchasing economy concerns a scale-related opportunity to obtain inputs on lower unit-cost terms, rather than the concept asked for."
+       ],
+       "y": "A benefit linked to expansion of the industry or cluster rather than one firm alone."
+      },
+      {
+       "q": "Which term means total cost divided by the corresponding output?",
+       "r": "average cost",
+       "w": [
+        "internal economy",
+        "external economy",
+        "purchasing economy"
+       ],
+       "e": [
+        "internal economy concerns a scale-related cost advantage arising within the firm, rather than the concept asked for.",
+        "external economy concerns a benefit linked to expansion of the industry or cluster rather than one firm alone, rather than the concept asked for.",
+        "purchasing economy concerns a scale-related opportunity to obtain inputs on lower unit-cost terms, rather than the concept asked for."
+       ],
+       "y": "Total cost divided by the corresponding output."
+      },
+      {
+       "q": "Which term means a scale-related opportunity to obtain inputs on lower unit-cost terms?",
+       "r": "purchasing economy",
+       "w": [
+        "internal economy",
+        "external economy",
+        "average cost"
+       ],
+       "e": [
+        "internal economy concerns a scale-related cost advantage arising within the firm, rather than the concept asked for.",
+        "external economy concerns a benefit linked to expansion of the industry or cluster rather than one firm alone, rather than the concept asked for.",
+        "average cost concerns total cost divided by the corresponding output, rather than the concept asked for."
+       ],
+       "y": "A scale-related opportunity to obtain inputs on lower unit-cost terms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-14-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The firm can justify specialised equipment as its scale expands.\nWhich concept best explains the highlighted feature?",
+       "r": "internal economy",
+       "w": [
+        "external economy",
+        "average cost",
+        "purchasing economy"
+       ],
+       "e": [
+        "That concerns a benefit linked to expansion of the industry or cluster rather than one firm alone. This case instead concerns a scale-related cost advantage arising within the firm.",
+        "That concerns total cost divided by the corresponding output. This case instead concerns a scale-related cost advantage arising within the firm.",
+        "That concerns a scale-related opportunity to obtain inputs on lower unit-cost terms. This case instead concerns a scale-related cost advantage arising within the firm."
+       ],
+       "y": "The source is within the expanding firm’s own organisation or technology."
+      },
+      {
+       "q": "Industry growth supports a specialised local supplier used by several firms.\nWhich concept best explains the highlighted feature?",
+       "r": "external economy",
+       "w": [
+        "internal economy",
+        "average cost",
+        "purchasing economy"
+       ],
+       "e": [
+        "That concerns a scale-related cost advantage arising within the firm. This case instead concerns a benefit linked to expansion of the industry or cluster rather than one firm alone.",
+        "That concerns total cost divided by the corresponding output. This case instead concerns a benefit linked to expansion of the industry or cluster rather than one firm alone.",
+        "That concerns a scale-related opportunity to obtain inputs on lower unit-cost terms. This case instead concerns a benefit linked to expansion of the industry or cluster rather than one firm alone."
+       ],
+       "y": "The benefit arises from the industry environment, not that personal work change."
+      },
+      {
+       "q": "The workshop compares cost per unit rather than total spending alone.\nWhich concept best explains the highlighted feature?",
+       "r": "average cost",
+       "w": [
+        "internal economy",
+        "external economy",
+        "purchasing economy"
+       ],
+       "e": [
+        "That concerns a scale-related cost advantage arising within the firm. This case instead concerns total cost divided by the corresponding output.",
+        "That concerns a benefit linked to expansion of the industry or cluster rather than one firm alone. This case instead concerns total cost divided by the corresponding output.",
+        "That concerns a scale-related opportunity to obtain inputs on lower unit-cost terms. This case instead concerns total cost divided by the corresponding output."
+       ],
+       "y": "Output may rise faster than total cost, reducing average cost."
+      },
+      {
+       "q": "A larger appropriate order may obtain better input terms.\nWhich concept best explains the highlighted feature?",
+       "r": "purchasing economy",
+       "w": [
+        "internal economy",
+        "external economy",
+        "average cost"
+       ],
+       "e": [
+        "That concerns a scale-related cost advantage arising within the firm. This case instead concerns a scale-related opportunity to obtain inputs on lower unit-cost terms.",
+        "That concerns a benefit linked to expansion of the industry or cluster rather than one firm alone. This case instead concerns a scale-related opportunity to obtain inputs on lower unit-cost terms.",
+        "That concerns total cost divided by the corresponding output. This case instead concerns a scale-related opportunity to obtain inputs on lower unit-cost terms."
+       ],
+       "y": "Storage, spoilage and demand can offset the apparent input-price saving."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-14-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The firm can justify specialised equipment as its scale expands.\nWhich explanation is appropriate?",
+       "r": "The source is within the expanding firm’s own organisation or technology.",
+       "w": [
+        "The benefit arises from the industry environment, not that personal work change.",
+        "Output may rise faster than total cost, reducing average cost.",
+        "Storage, spoilage and demand can offset the apparent input-price saving."
+       ],
+       "e": [
+        "That explanation addresses external economy, rather than the feature described here.",
+        "That explanation addresses average cost, rather than the feature described here.",
+        "That explanation addresses purchasing economy, rather than the feature described here."
+       ],
+       "y": "A scale-related cost advantage arising within the firm."
+      },
+      {
+       "q": "Industry growth supports a specialised local supplier used by several firms.\nWhich explanation is appropriate?",
+       "r": "The benefit arises from the industry environment, not that personal work change.",
+       "w": [
+        "The source is within the expanding firm’s own organisation or technology.",
+        "Output may rise faster than total cost, reducing average cost.",
+        "Storage, spoilage and demand can offset the apparent input-price saving."
+       ],
+       "e": [
+        "That explanation addresses internal economy, rather than the feature described here.",
+        "That explanation addresses average cost, rather than the feature described here.",
+        "That explanation addresses purchasing economy, rather than the feature described here."
+       ],
+       "y": "A benefit linked to expansion of the industry or cluster rather than one firm alone."
+      },
+      {
+       "q": "The workshop compares cost per unit rather than total spending alone.\nWhich explanation is appropriate?",
+       "r": "Output may rise faster than total cost, reducing average cost.",
+       "w": [
+        "The source is within the expanding firm’s own organisation or technology.",
+        "The benefit arises from the industry environment, not that personal work change.",
+        "Storage, spoilage and demand can offset the apparent input-price saving."
+       ],
+       "e": [
+        "That explanation addresses internal economy, rather than the feature described here.",
+        "That explanation addresses external economy, rather than the feature described here.",
+        "That explanation addresses purchasing economy, rather than the feature described here."
+       ],
+       "y": "Total cost divided by the corresponding output."
+      },
+      {
+       "q": "A larger appropriate order may obtain better input terms.\nWhich explanation is appropriate?",
+       "r": "Storage, spoilage and demand can offset the apparent input-price saving.",
+       "w": [
+        "The source is within the expanding firm’s own organisation or technology.",
+        "The benefit arises from the industry environment, not that personal work change.",
+        "Output may rise faster than total cost, reducing average cost."
+       ],
+       "e": [
+        "That explanation addresses internal economy, rather than the feature described here.",
+        "That explanation addresses external economy, rather than the feature described here.",
+        "That explanation addresses average cost, rather than the feature described here."
+       ],
+       "y": "A scale-related opportunity to obtain inputs on lower unit-cost terms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-14-average-saving",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "q": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "ac": {
+     "int": [
+      300,
+      600
+     ]
+    },
+    "save": {
+     "int": [
+      20,
+      100
+     ]
+    },
+    "c1": {
+     "expr": "q*ac"
+    },
+    "c2": {
+     "expr": "2*q*(ac-save)"
+    }
+   },
+   "prompt": "For comparable long-run production plans, an invented workshop can make {q} units at total cost {c1}, or {2*q} units at total cost {c2} CFA francs. How much lower is average cost per unit in the larger plan?",
+   "answer": "c1/q-c2/(2*q)",
+   "misconceptions": [
+    {
+     "id": "total",
+     "wrong": "c1-c2",
+     "explain": "Compare average costs, not a difference between total costs."
+    },
+    {
+     "id": "large",
+     "wrong": "c2/(2*q)",
+     "explain": "That is the new average cost, not the decrease in it."
+    }
+   ],
+   "solution": [
+    "Smaller-plan average cost = {c1}/{q} = {ac}.",
+    "Larger-plan average cost = {c2}/{2*q} = {ac-save}.",
+    "Saving per unit = {ac} − {ac-save} = {answer} CFA francs."
+   ],
+   "where": [],
+   "unit": "CFA francs per unit"
+  },
+  {
+   "id": "n4-14-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "internal economy: a scale-related cost advantage arising within the firm.",
+      "truth": "true",
+      "explain": "This is correct: a scale-related cost advantage arising within the firm. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "external economy: a benefit linked to expansion of the industry or cluster rather than one firm alone.",
+      "truth": "true",
+      "explain": "This is correct: a benefit linked to expansion of the industry or cluster rather than one firm alone. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "average cost: total cost divided by the corresponding output.",
+      "truth": "true",
+      "explain": "This is correct: total cost divided by the corresponding output. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "purchasing economy: a scale-related opportunity to obtain inputs on lower unit-cost terms.",
+      "truth": "true",
+      "explain": "This is correct: a scale-related opportunity to obtain inputs on lower unit-cost terms. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every internal economy comes only from unrelated firms expanding.",
+      "truth": "false",
+      "explain": "The source is within the expanding firm’s own organisation or technology."
+     },
+     {
+      "text": "External economies mean only the firm’s owner works longer hours.",
+      "truth": "false",
+      "explain": "The benefit arises from the industry environment, not that personal work change."
+     },
+     {
+      "text": "A higher total cost always proves a higher cost per unit.",
+      "truth": "false",
+      "explain": "Output may rise faster than total cost, reducing average cost."
+     },
+     {
+      "text": "Every bulk purchase must save overall resources regardless of waste.",
+      "truth": "false",
+      "explain": "Storage, spoilage and demand can offset the apparent input-price saving."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

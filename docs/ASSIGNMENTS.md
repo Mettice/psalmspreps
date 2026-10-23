@@ -40,9 +40,15 @@ python tools/content/add_learn.py content/<subject>/<n>.json .handoff/learn/<sub
 
 and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the live app (`main`).
 
-## Next (not started)
+## Form 4 continuation and next classes
 
-- Forms 4, 5, Lower and Upper Sixth Term 1: listed in `content/classes.json` (cinema subjects excepted); to be split
-  the same way once Form 3 Term 1 is done. Sheet errors in each class's `issues.md` need Dion's decisions first.
+- **Codex: Form 4 Term 1 Logic and Economics**, authorised by Dion on 2026-10-23 after the available Form 3 rows.
+  Continue in `C:\Users\efuet\preps-codex` on `f3-codex`; generators belong in `tools/authoring/form4/`.
+  Keep the established lesson sequence and add a visible measurable end goal, earlier knowledge and next-topic
+  connection to each opening Learn screen. See `content/form-4/logic/LEARNING-PATH.md`.
+
+- Remaining Form 4 subjects and Forms 5, Lower and Upper Sixth Term 1: listed in `content/classes.json`
+  (cinema subjects excepted); subject ownership is still to be split. Sheet errors in each class's `issues.md`
+  need Dion's decisions first.
 - Codex: bring Form 2 Term 3 French (70–81) and Français intensif (104–128) up to the quality bar (4+ questions,
   specific feedback, 3+ variants, Learn screens) when Form 3 is done.

@@ -1,0 +1,667 @@
+{
+ "subject": "economics",
+ "class": "Form 4",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "n4-3",
+   "name": "Joint-stock and limited-liability companies: ownership"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An incorporated company has a legal identity distinct from its owners. In the limited-liability company forms studied, owners’ ordinary responsibility for company debts is generally limited to their agreed contributions, subject to applicable rules and separate obligations such as guarantees. Shares represent ownership interests; the company’s property is not each shareholder’s personal property. Continuity can extend beyond a particular owner’s departure. A company may have a single owner where the legal form allows it, so counting owners alone does not establish the form.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish a company from its owners and calculate nominal issued share capital. Builds on: ownership and liability in sole proprietorships and partnerships. Leads to: company governance and the mix of equity and borrowing."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "An incorporated company has a legal identity distinct from its owners. In the limited-liability company forms studied, owners’ ordinary responsibility for company debts is generally limited to their agreed contributions, subject to applicable rules and separate obligations such as guarantees. Shares represent ownership interests; the company’s property is not each shareholder’s personal property. Continuity can extend beyond a particular owner’s departure. A company may have a single owner where the legal form allows it, so counting owners alone does not establish the form."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "An imaginary Douala processing company raises equity by issuing shares. A shareholder owns an interest, not a right to take a company vehicle home. The business may continue when an owner sells an interest under the applicable rules. All values in this exercise are nominal classroom amounts, not quoted market prices or legal minimum capital."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Separate company, shareholder and manager. Multiply the issued share count by nominal value to find nominal issued capital. Keep nominal value distinct from market price and the company’s total asset value. Limited liability is not a promise that a shareholder cannot lose an investment."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "separate legal identity",
+    "meaning": "the company being legally distinct from its owners"
+   },
+   {
+    "word": "limited liability",
+    "meaning": "owners’ ordinary debt exposure being limited as the legal form provides"
+   },
+   {
+    "word": "share",
+    "meaning": "an ownership interest in a company"
+   },
+   {
+    "word": "continuity",
+    "meaning": "the company’s ability to continue beyond a particular owner’s departure"
+   }
+  ],
+  "mistake": {
+   "wrong": "A shareholder’s ownership interest makes every company asset their personal possession.",
+   "right": "separate legal identity: the company being legally distinct from its owners.",
+   "why": "Company assets belong to the company, not individually to each shareholder."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Find nominal issued capital for {40} shares of {500} CFA francs.",
+  "steps": [
+   "Use the number actually issued, not an unused authorisation.",
+   "{40} × {500} = {40*500}."
+  ],
+  "answer": "{40*500} CFA francs.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n4-3-c1",
+    "status": "draft",
+    "idea": "Distinguish these features before judging a business.",
+    "vars": {},
+    "example": [
+     "separate legal identity: the company being legally distinct from its owners.",
+     "limited liability: owners’ ordinary debt exposure being limited as the legal form provides.",
+     "share: an ownership interest in a company.",
+     "continuity: the company’s ability to continue beyond a particular owner’s departure."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n4-3-terms"
+    }
+   },
+   {
+    "id": "n4-3-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "A shareholder cannot treat the company’s vehicle as personal property.",
+     "An investor’s agreed contribution is distinguished from the company’s total debt.",
+     "The model issues ownership interests to contributors.",
+     "The company remains while an ownership interest changes hands under its rules."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n4-3-cases"
+    }
+   },
+   {
+    "id": "n4-3-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "separate legal identity: Company assets belong to the company, not individually to each shareholder.",
+     "limited liability: It limits specified exposure, not investment losses or separate guarantees.",
+     "share: Ownership finance differs from a debt claim.",
+     "continuity: The distinct company can continue despite ownership changes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n4-3-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "business"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A shareholder cannot treat the company’s vehicle as personal property.\nWhich explanation is appropriate?",
+         "r": "Company assets belong to the company, not individually to each shareholder.",
+         "w": [
+          "It limits specified exposure, not investment losses or separate guarantees.",
+          "Ownership finance differs from a debt claim.",
+          "The distinct company can continue despite ownership changes."
+         ],
+         "e": [
+          "That explanation addresses limited liability, rather than the feature described here.",
+          "That explanation addresses share, rather than the feature described here.",
+          "That explanation addresses continuity, rather than the feature described here."
+         ],
+         "y": "The company being legally distinct from its owners."
+        },
+        {
+         "q": "An investor’s agreed contribution is distinguished from the company’s total debt.\nWhich explanation is appropriate?",
+         "r": "It limits specified exposure, not investment losses or separate guarantees.",
+         "w": [
+          "Company assets belong to the company, not individually to each shareholder.",
+          "Ownership finance differs from a debt claim.",
+          "The distinct company can continue despite ownership changes."
+         ],
+         "e": [
+          "That explanation addresses separate legal identity, rather than the feature described here.",
+          "That explanation addresses share, rather than the feature described here.",
+          "That explanation addresses continuity, rather than the feature described here."
+         ],
+         "y": "Owners’ ordinary debt exposure being limited as the legal form provides."
+        },
+        {
+         "q": "The model issues ownership interests to contributors.\nWhich explanation is appropriate?",
+         "r": "Ownership finance differs from a debt claim.",
+         "w": [
+          "Company assets belong to the company, not individually to each shareholder.",
+          "It limits specified exposure, not investment losses or separate guarantees.",
+          "The distinct company can continue despite ownership changes."
+         ],
+         "e": [
+          "That explanation addresses separate legal identity, rather than the feature described here.",
+          "That explanation addresses limited liability, rather than the feature described here.",
+          "That explanation addresses continuity, rather than the feature described here."
+         ],
+         "y": "An ownership interest in a company."
+        },
+        {
+         "q": "The company remains while an ownership interest changes hands under its rules.\nWhich explanation is appropriate?",
+         "r": "The distinct company can continue despite ownership changes.",
+         "w": [
+          "Company assets belong to the company, not individually to each shareholder.",
+          "It limits specified exposure, not investment losses or separate guarantees.",
+          "Ownership finance differs from a debt claim."
+         ],
+         "e": [
+          "That explanation addresses separate legal identity, rather than the feature described here.",
+          "That explanation addresses limited liability, rather than the feature described here.",
+          "That explanation addresses share, rather than the feature described here."
+         ],
+         "y": "The company’s ability to continue beyond a particular owner’s departure."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n4-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the company being legally distinct from its owners?",
+       "r": "separate legal identity",
+       "w": [
+        "limited liability",
+        "share",
+        "continuity"
+       ],
+       "e": [
+        "limited liability concerns owners’ ordinary debt exposure being limited as the legal form provides, rather than the concept asked for.",
+        "share concerns an ownership interest in a company, rather than the concept asked for.",
+        "continuity concerns the company’s ability to continue beyond a particular owner’s departure, rather than the concept asked for."
+       ],
+       "y": "The company being legally distinct from its owners."
+      },
+      {
+       "q": "Which term means owners’ ordinary debt exposure being limited as the legal form provides?",
+       "r": "limited liability",
+       "w": [
+        "separate legal identity",
+        "share",
+        "continuity"
+       ],
+       "e": [
+        "separate legal identity concerns the company being legally distinct from its owners, rather than the concept asked for.",
+        "share concerns an ownership interest in a company, rather than the concept asked for.",
+        "continuity concerns the company’s ability to continue beyond a particular owner’s departure, rather than the concept asked for."
+       ],
+       "y": "Owners’ ordinary debt exposure being limited as the legal form provides."
+      },
+      {
+       "q": "Which term means an ownership interest in a company?",
+       "r": "share",
+       "w": [
+        "separate legal identity",
+        "limited liability",
+        "continuity"
+       ],
+       "e": [
+        "separate legal identity concerns the company being legally distinct from its owners, rather than the concept asked for.",
+        "limited liability concerns owners’ ordinary debt exposure being limited as the legal form provides, rather than the concept asked for.",
+        "continuity concerns the company’s ability to continue beyond a particular owner’s departure, rather than the concept asked for."
+       ],
+       "y": "An ownership interest in a company."
+      },
+      {
+       "q": "Which term means the company’s ability to continue beyond a particular owner’s departure?",
+       "r": "continuity",
+       "w": [
+        "separate legal identity",
+        "limited liability",
+        "share"
+       ],
+       "e": [
+        "separate legal identity concerns the company being legally distinct from its owners, rather than the concept asked for.",
+        "limited liability concerns owners’ ordinary debt exposure being limited as the legal form provides, rather than the concept asked for.",
+        "share concerns an ownership interest in a company, rather than the concept asked for."
+       ],
+       "y": "The company’s ability to continue beyond a particular owner’s departure."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A shareholder cannot treat the company’s vehicle as personal property.\nWhich concept best explains the highlighted feature?",
+       "r": "separate legal identity",
+       "w": [
+        "limited liability",
+        "share",
+        "continuity"
+       ],
+       "e": [
+        "That concerns owners’ ordinary debt exposure being limited as the legal form provides. This case instead concerns the company being legally distinct from its owners.",
+        "That concerns an ownership interest in a company. This case instead concerns the company being legally distinct from its owners.",
+        "That concerns the company’s ability to continue beyond a particular owner’s departure. This case instead concerns the company being legally distinct from its owners."
+       ],
+       "y": "Company assets belong to the company, not individually to each shareholder."
+      },
+      {
+       "q": "An investor’s agreed contribution is distinguished from the company’s total debt.\nWhich concept best explains the highlighted feature?",
+       "r": "limited liability",
+       "w": [
+        "separate legal identity",
+        "share",
+        "continuity"
+       ],
+       "e": [
+        "That concerns the company being legally distinct from its owners. This case instead concerns owners’ ordinary debt exposure being limited as the legal form provides.",
+        "That concerns an ownership interest in a company. This case instead concerns owners’ ordinary debt exposure being limited as the legal form provides.",
+        "That concerns the company’s ability to continue beyond a particular owner’s departure. This case instead concerns owners’ ordinary debt exposure being limited as the legal form provides."
+       ],
+       "y": "It limits specified exposure, not investment losses or separate guarantees."
+      },
+      {
+       "q": "The model issues ownership interests to contributors.\nWhich concept best explains the highlighted feature?",
+       "r": "share",
+       "w": [
+        "separate legal identity",
+        "limited liability",
+        "continuity"
+       ],
+       "e": [
+        "That concerns the company being legally distinct from its owners. This case instead concerns an ownership interest in a company.",
+        "That concerns owners’ ordinary debt exposure being limited as the legal form provides. This case instead concerns an ownership interest in a company.",
+        "That concerns the company’s ability to continue beyond a particular owner’s departure. This case instead concerns an ownership interest in a company."
+       ],
+       "y": "Ownership finance differs from a debt claim."
+      },
+      {
+       "q": "The company remains while an ownership interest changes hands under its rules.\nWhich concept best explains the highlighted feature?",
+       "r": "continuity",
+       "w": [
+        "separate legal identity",
+        "limited liability",
+        "share"
+       ],
+       "e": [
+        "That concerns the company being legally distinct from its owners. This case instead concerns the company’s ability to continue beyond a particular owner’s departure.",
+        "That concerns owners’ ordinary debt exposure being limited as the legal form provides. This case instead concerns the company’s ability to continue beyond a particular owner’s departure.",
+        "That concerns an ownership interest in a company. This case instead concerns the company’s ability to continue beyond a particular owner’s departure."
+       ],
+       "y": "The distinct company can continue despite ownership changes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-3-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A shareholder cannot treat the company’s vehicle as personal property.\nWhich explanation is appropriate?",
+       "r": "Company assets belong to the company, not individually to each shareholder.",
+       "w": [
+        "It limits specified exposure, not investment losses or separate guarantees.",
+        "Ownership finance differs from a debt claim.",
+        "The distinct company can continue despite ownership changes."
+       ],
+       "e": [
+        "That explanation addresses limited liability, rather than the feature described here.",
+        "That explanation addresses share, rather than the feature described here.",
+        "That explanation addresses continuity, rather than the feature described here."
+       ],
+       "y": "The company being legally distinct from its owners."
+      },
+      {
+       "q": "An investor’s agreed contribution is distinguished from the company’s total debt.\nWhich explanation is appropriate?",
+       "r": "It limits specified exposure, not investment losses or separate guarantees.",
+       "w": [
+        "Company assets belong to the company, not individually to each shareholder.",
+        "Ownership finance differs from a debt claim.",
+        "The distinct company can continue despite ownership changes."
+       ],
+       "e": [
+        "That explanation addresses separate legal identity, rather than the feature described here.",
+        "That explanation addresses share, rather than the feature described here.",
+        "That explanation addresses continuity, rather than the feature described here."
+       ],
+       "y": "Owners’ ordinary debt exposure being limited as the legal form provides."
+      },
+      {
+       "q": "The model issues ownership interests to contributors.\nWhich explanation is appropriate?",
+       "r": "Ownership finance differs from a debt claim.",
+       "w": [
+        "Company assets belong to the company, not individually to each shareholder.",
+        "It limits specified exposure, not investment losses or separate guarantees.",
+        "The distinct company can continue despite ownership changes."
+       ],
+       "e": [
+        "That explanation addresses separate legal identity, rather than the feature described here.",
+        "That explanation addresses limited liability, rather than the feature described here.",
+        "That explanation addresses continuity, rather than the feature described here."
+       ],
+       "y": "An ownership interest in a company."
+      },
+      {
+       "q": "The company remains while an ownership interest changes hands under its rules.\nWhich explanation is appropriate?",
+       "r": "The distinct company can continue despite ownership changes.",
+       "w": [
+        "Company assets belong to the company, not individually to each shareholder.",
+        "It limits specified exposure, not investment losses or separate guarantees.",
+        "Ownership finance differs from a debt claim."
+       ],
+       "e": [
+        "That explanation addresses separate legal identity, rather than the feature described here.",
+        "That explanation addresses limited liability, rather than the feature described here.",
+        "That explanation addresses share, rather than the feature described here."
+       ],
+       "y": "The company’s ability to continue beyond a particular owner’s departure."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-3-shares",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      20,
+      90
+     ]
+    },
+    "v": {
+     "pick": [
+      100,
+      200,
+      500
+     ]
+    }
+   },
+   "prompt": "A fictional company issues {n} shares with nominal value {v} CFA francs per share. What is the nominal issued share capital?",
+   "answer": "n*v",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "n+v",
+     "explain": "Adding a share count to a currency value does not give capital."
+    },
+    {
+     "id": "one",
+     "wrong": "v",
+     "explain": "That is the value per share, not the value of all issued shares."
+    }
+   ],
+   "solution": [
+    "Nominal issued share capital = shares issued × nominal value.",
+    "{n} × {v} = {answer} CFA francs."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n4-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "separate legal identity: the company being legally distinct from its owners.",
+      "truth": "true",
+      "explain": "This is correct: the company being legally distinct from its owners. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "limited liability: owners’ ordinary debt exposure being limited as the legal form provides.",
+      "truth": "true",
+      "explain": "This is correct: owners’ ordinary debt exposure being limited as the legal form provides. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "share: an ownership interest in a company.",
+      "truth": "true",
+      "explain": "This is correct: an ownership interest in a company. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "continuity: the company’s ability to continue beyond a particular owner’s departure.",
+      "truth": "true",
+      "explain": "This is correct: the company’s ability to continue beyond a particular owner’s departure. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A shareholder’s ownership interest makes every company asset their personal possession.",
+      "truth": "false",
+      "explain": "Company assets belong to the company, not individually to each shareholder."
+     },
+     {
+      "text": "Limited liability guarantees that an investment cannot lose value.",
+      "truth": "false",
+      "explain": "It limits specified exposure, not investment losses or separate guarantees."
+     },
+     {
+      "text": "A share is always a loan repayable on a fixed maturity date.",
+      "truth": "false",
+      "explain": "Ownership finance differs from a debt claim."
+     },
+     {
+      "text": "A company must always close whenever one shareholder leaves.",
+      "truth": "false",
+      "explain": "The distinct company can continue despite ownership changes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

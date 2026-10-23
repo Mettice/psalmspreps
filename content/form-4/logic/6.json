@@ -1,0 +1,915 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  4,
+  5
+ ],
+ "skills": [
+  {
+   "id": "l4-6",
+   "name": "Symbolisation and Venn diagrams"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A shades S-only; E shades overlap; I puts x in overlap; O puts x in S-only. Shading means empty and x means at least one. Blank is unspecified. Keep the existence convention explicit.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to translate between a categorical statement, its A/E/I/O symbol and a correctly marked Venn diagram. Builds on: categorical forms and whole-class coverage. Leads to: clear symbolisation before combining claims in later arguments."
+   },
+   {
+    "heading": "Give the marks a fixed meaning",
+    "text": "The overlapping circles represent classes S and P. Their overlap contains shared members; S-only contains S outside P. Shading says a region is empty. An x asserts at least one object in a region. An unmarked region is unspecified, not necessarily occupied. Here we use the modern convention: a universal proposition alone adds no existence mark. An explicit existence assumption must be stated if a traditional treatment is used."
+   },
+   {
+    "heading": "Translate each form",
+    "text": "A, All S are P: shade S-only, because no S may be outside P. E, No S are P: shade the overlap. I, Some S are P: put x in the overlap. O, Some S are not P: put x in S-only. The example diagram shows A. Its blank overlap is not evidence of existence.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 190\\\" role=\\\"img\\\" aria-label=\\\"Categorical Venn diagram. Left circle S, right circle P. Shading means empty; x means existence.\\\"><defs><clipPath id=\\\"subject\\\"><circle cx=\\\"120\\\" cy=\\\"95\\\" r=\\\"65\\\"/></clipPath></defs><rect width=\\\"320\\\" height=\\\"190\\\" fill=\\\"white\\\"/><circle cx=\\\"120\\\" cy=\\\"95\\\" r=\\\"65\\\" fill=\\\"#b4c9bf\\\"/><g clip-path=\\\"url(#subject)\\\"><circle cx=\\\"195\\\" cy=\\\"95\\\" r=\\\"65\\\" fill=\\\"white\\\"/></g><g fill=\\\"none\\\" stroke=\\\"#233e31\\\" stroke-width=\\\"2\\\"><circle cx=\\\"120\\\" cy=\\\"95\\\" r=\\\"65\\\"/><circle cx=\\\"195\\\" cy=\\\"95\\\" r=\\\"65\\\"/></g><g font-size=\\\"18\\\" text-anchor=\\\"middle\\\" fill=\\\"#17251c\\\"><text x=\\\"105\\\" y=\\\"22\\\">S</text><text x=\\\"211\\\" y=\\\"22\\\">P</text></g></svg>\""
+   },
+   {
+    "heading": "Read back to check",
+    "text": "For an invented Bamenda club, let S be club members and P badge holders. An x in S-only represents a member without a badge, so it is O. Read your completed diagram back into words before accepting it. Changing shading to x reverses empty into occupied; placing the right kind of mark in the wrong region also changes the assertion."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "shading",
+    "meaning": "an assertion that a region is empty"
+   },
+   {
+    "word": "x mark",
+    "meaning": "an assertion of at least one object"
+   },
+   {
+    "word": "S-only",
+    "meaning": "S members outside P"
+   },
+   {
+    "word": "overlap",
+    "meaning": "members common to S and P"
+   }
+  ],
+  "mistake": {
+   "wrong": "Unshaded overlap proves shared members exist.",
+   "right": "Unmarked means unspecified.",
+   "why": "A universal diagram alone does not add the existence asserted by a particular form."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Represent No library books are loanable items with S for books and P for loanable items.",
+  "steps": [
+   "No denies that an object belongs to both classes.",
+   "The forbidden region is their overlap.",
+   "Shade the overlap; do not place an existence x."
+  ],
+  "answer": "E: overlap shaded.",
+  "checks": [],
+  "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 190\\\" role=\\\"img\\\" aria-label=\\\"Categorical Venn diagram. Left circle S, right circle P. Shading means empty; x means existence.\\\"><defs><clipPath id=\\\"subject\\\"><circle cx=\\\"120\\\" cy=\\\"95\\\" r=\\\"65\\\"/></clipPath></defs><rect width=\\\"320\\\" height=\\\"190\\\" fill=\\\"white\\\"/><g clip-path=\\\"url(#subject)\\\"><circle cx=\\\"195\\\" cy=\\\"95\\\" r=\\\"65\\\" fill=\\\"#b4c9bf\\\"/></g><g fill=\\\"none\\\" stroke=\\\"#233e31\\\" stroke-width=\\\"2\\\"><circle cx=\\\"120\\\" cy=\\\"95\\\" r=\\\"65\\\"/><circle cx=\\\"195\\\" cy=\\\"95\\\" r=\\\"65\\\"/></g><g font-size=\\\"18\\\" text-anchor=\\\"middle\\\" fill=\\\"#17251c\\\"><text x=\\\"105\\\" y=\\\"22\\\">S</text><text x=\\\"211\\\" y=\\\"22\\\">P</text></g></svg>\""
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-6-c1",
+    "status": "draft",
+    "idea": "Read the quantifier and copula before choosing a code.",
+    "vars": {},
+    "example": [
+     "A: all are; E: no are; I: some are; O: some are not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-6-symbol"
+    }
+   },
+   {
+    "id": "l4-6-c2",
+    "status": "draft",
+    "idea": "The region and the kind of mark both matter.",
+    "vars": {},
+    "example": [
+     "A: Shade the S-only region.",
+     "E: Shade the overlap of S and P.",
+     "I: Place x in the overlap.",
+     "O: Place x in the S-only region."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-6-mark"
+    }
+   },
+   {
+    "id": "l4-6-c3",
+    "status": "draft",
+    "idea": "Blank regions do not assert existence.",
+    "vars": {},
+    "example": [
+     "The A diagram shades S-only without adding x to the overlap."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-6-unmarked-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "categorical"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "An A diagram shades the S-only region for the classes club members and badge holders. What follows about the unshaded overlap?",
+         "r": "No existence is asserted there by the shading alone.",
+         "w": [
+          "It must contain exactly one member.",
+          "It must be empty because it is white.",
+          "It contains every object outside both classes."
+         ],
+         "e": [
+          "Only an existence mark asserts a member, and x does not mean exactly one.",
+          "Unshaded means unspecified, not empty.",
+          "The overlap contains shared S/P members, not objects outside both."
+         ],
+         "y": "Shading rules out objects in the shaded region; it does not populate any unshaded region."
+        },
+        {
+         "q": "An A diagram shades the S-only region for the classes library books and loanable items. What follows about the unshaded overlap?",
+         "r": "No existence is asserted there by the shading alone.",
+         "w": [
+          "It must contain exactly one member.",
+          "It must be empty because it is white.",
+          "It contains every object outside both classes."
+         ],
+         "e": [
+          "Only an existence mark asserts a member, and x does not mean exactly one.",
+          "Unshaded means unspecified, not empty.",
+          "The overlap contains shared S/P members, not objects outside both."
+         ],
+         "y": "Shading rules out objects in the shaded region; it does not populate any unshaded region."
+        },
+        {
+         "q": "An A diagram shades the S-only region for the classes school gardens and cultivated areas. What follows about the unshaded overlap?",
+         "r": "No existence is asserted there by the shading alone.",
+         "w": [
+          "It must contain exactly one member.",
+          "It must be empty because it is white.",
+          "It contains every object outside both classes."
+         ],
+         "e": [
+          "Only an existence mark asserts a member, and x does not mean exactly one.",
+          "Unshaded means unspecified, not empty.",
+          "The overlap contains shared S/P members, not objects outside both."
+         ],
+         "y": "Shading rules out objects in the shaded region; it does not populate any unshaded region."
+        },
+        {
+         "q": "An A diagram shades the S-only region for the classes reading rooms and quiet places. What follows about the unshaded overlap?",
+         "r": "No existence is asserted there by the shading alone.",
+         "w": [
+          "It must contain exactly one member.",
+          "It must be empty because it is white.",
+          "It contains every object outside both classes."
+         ],
+         "e": [
+          "Only an existence mark asserts a member, and x does not mean exactly one.",
+          "Unshaded means unspecified, not empty.",
+          "The overlap contains shared S/P members, not objects outside both."
+         ],
+         "y": "Shading rules out objects in the shaded region; it does not populate any unshaded region."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-6-symbol",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: All club members are badge holders.",
+       "r": "A — universal affirmative",
+       "w": [
+        "E — universal negative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal negative; this claim is universal and affirmative.",
+        "That form is particular affirmative; this claim is universal and affirmative.",
+        "That form is particular negative; this claim is universal and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: No club members are badge holders.",
+       "r": "E — universal negative",
+       "w": [
+        "A — universal affirmative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is universal and negative.",
+        "That form is particular affirmative; this claim is universal and negative.",
+        "That form is particular negative; this claim is universal and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some club members are badge holders.",
+       "r": "I — particular affirmative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and affirmative.",
+        "That form is universal negative; this claim is particular and affirmative.",
+        "That form is particular negative; this claim is particular and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some club members are not badge holders.",
+       "r": "O — particular negative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "I — particular affirmative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and negative.",
+        "That form is universal negative; this claim is particular and negative.",
+        "That form is particular affirmative; this claim is particular and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: All library books are loanable items.",
+       "r": "A — universal affirmative",
+       "w": [
+        "E — universal negative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal negative; this claim is universal and affirmative.",
+        "That form is particular affirmative; this claim is universal and affirmative.",
+        "That form is particular negative; this claim is universal and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: No library books are loanable items.",
+       "r": "E — universal negative",
+       "w": [
+        "A — universal affirmative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is universal and negative.",
+        "That form is particular affirmative; this claim is universal and negative.",
+        "That form is particular negative; this claim is universal and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some library books are loanable items.",
+       "r": "I — particular affirmative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and affirmative.",
+        "That form is universal negative; this claim is particular and affirmative.",
+        "That form is particular negative; this claim is particular and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some library books are not loanable items.",
+       "r": "O — particular negative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "I — particular affirmative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and negative.",
+        "That form is universal negative; this claim is particular and negative.",
+        "That form is particular affirmative; this claim is particular and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: All school gardens are cultivated areas.",
+       "r": "A — universal affirmative",
+       "w": [
+        "E — universal negative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal negative; this claim is universal and affirmative.",
+        "That form is particular affirmative; this claim is universal and affirmative.",
+        "That form is particular negative; this claim is universal and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: No school gardens are cultivated areas.",
+       "r": "E — universal negative",
+       "w": [
+        "A — universal affirmative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is universal and negative.",
+        "That form is particular affirmative; this claim is universal and negative.",
+        "That form is particular negative; this claim is universal and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some school gardens are cultivated areas.",
+       "r": "I — particular affirmative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and affirmative.",
+        "That form is universal negative; this claim is particular and affirmative.",
+        "That form is particular negative; this claim is particular and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some school gardens are not cultivated areas.",
+       "r": "O — particular negative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "I — particular affirmative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and negative.",
+        "That form is universal negative; this claim is particular and negative.",
+        "That form is particular affirmative; this claim is particular and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: All reading rooms are quiet places.",
+       "r": "A — universal affirmative",
+       "w": [
+        "E — universal negative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal negative; this claim is universal and affirmative.",
+        "That form is particular affirmative; this claim is universal and affirmative.",
+        "That form is particular negative; this claim is universal and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: No reading rooms are quiet places.",
+       "r": "E — universal negative",
+       "w": [
+        "A — universal affirmative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is universal and negative.",
+        "That form is particular affirmative; this claim is universal and negative.",
+        "That form is particular negative; this claim is universal and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some reading rooms are quiet places.",
+       "r": "I — particular affirmative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and affirmative.",
+        "That form is universal negative; this claim is particular and affirmative.",
+        "That form is particular negative; this claim is particular and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some reading rooms are not quiet places.",
+       "r": "O — particular negative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "I — particular affirmative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and negative.",
+        "That form is universal negative; this claim is particular and negative.",
+        "That form is particular affirmative; this claim is particular and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular negative."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-6-mark",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Using shading for empty and x for existence, represent All S are P.",
+       "r": "Shade the S-only region.",
+       "w": [
+        "Shade the overlap of S and P.",
+        "Place x in the overlap.",
+        "Place x in the S-only region."
+       ],
+       "e": [
+        "That marking represents No S are P., not the requested relation.",
+        "That marking represents Some S are P., not the requested relation.",
+        "That marking represents Some S are not P., not the requested relation."
+       ],
+       "y": "The A form requires this region to be empty or inhabited as stated."
+      },
+      {
+       "q": "Using shading for empty and x for existence, represent No S are P.",
+       "r": "Shade the overlap of S and P.",
+       "w": [
+        "Shade the S-only region.",
+        "Place x in the overlap.",
+        "Place x in the S-only region."
+       ],
+       "e": [
+        "That marking represents All S are P., not the requested relation.",
+        "That marking represents Some S are P., not the requested relation.",
+        "That marking represents Some S are not P., not the requested relation."
+       ],
+       "y": "The E form requires this region to be empty or inhabited as stated."
+      },
+      {
+       "q": "Using shading for empty and x for existence, represent Some S are P.",
+       "r": "Place x in the overlap.",
+       "w": [
+        "Shade the S-only region.",
+        "Shade the overlap of S and P.",
+        "Place x in the S-only region."
+       ],
+       "e": [
+        "That marking represents All S are P., not the requested relation.",
+        "That marking represents No S are P., not the requested relation.",
+        "That marking represents Some S are not P., not the requested relation."
+       ],
+       "y": "The I form requires this region to be empty or inhabited as stated."
+      },
+      {
+       "q": "Using shading for empty and x for existence, represent Some S are not P.",
+       "r": "Place x in the S-only region.",
+       "w": [
+        "Shade the S-only region.",
+        "Shade the overlap of S and P.",
+        "Place x in the overlap."
+       ],
+       "e": [
+        "That marking represents All S are P., not the requested relation.",
+        "That marking represents No S are P., not the requested relation.",
+        "That marking represents Some S are P., not the requested relation."
+       ],
+       "y": "The O form requires this region to be empty or inhabited as stated."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-6-read-diagram",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Read the marked diagram. S is the left circle; P the right. What does it assert?",
+       "r": "All S are P.",
+       "w": [
+        "No S are P.",
+        "Some S are P.",
+        "Some S are not P."
+       ],
+       "e": [
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one.",
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one.",
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one."
+       ],
+       "y": "The marks encode shade the s-only region.",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Categorical Venn diagram. Left circle S, right circle P. Shading means empty; x means existence.\"><defs><clipPath id=\"subject\"><circle cx=\"120\" cy=\"95\" r=\"65\"/></clipPath></defs><rect width=\"320\" height=\"190\" fill=\"white\"/><circle cx=\"120\" cy=\"95\" r=\"65\" fill=\"#b4c9bf\"/><g clip-path=\"url(#subject)\"><circle cx=\"195\" cy=\"95\" r=\"65\" fill=\"white\"/></g><g fill=\"none\" stroke=\"#233e31\" stroke-width=\"2\"><circle cx=\"120\" cy=\"95\" r=\"65\"/><circle cx=\"195\" cy=\"95\" r=\"65\"/></g><g font-size=\"18\" text-anchor=\"middle\" fill=\"#17251c\"><text x=\"105\" y=\"22\">S</text><text x=\"211\" y=\"22\">P</text></g></svg>"
+      },
+      {
+       "q": "Read the marked diagram. S is the left circle; P the right. What does it assert?",
+       "r": "No S are P.",
+       "w": [
+        "All S are P.",
+        "Some S are P.",
+        "Some S are not P."
+       ],
+       "e": [
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one.",
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one.",
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one."
+       ],
+       "y": "The marks encode shade the overlap of s and p.",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Categorical Venn diagram. Left circle S, right circle P. Shading means empty; x means existence.\"><defs><clipPath id=\"subject\"><circle cx=\"120\" cy=\"95\" r=\"65\"/></clipPath></defs><rect width=\"320\" height=\"190\" fill=\"white\"/><g clip-path=\"url(#subject)\"><circle cx=\"195\" cy=\"95\" r=\"65\" fill=\"#b4c9bf\"/></g><g fill=\"none\" stroke=\"#233e31\" stroke-width=\"2\"><circle cx=\"120\" cy=\"95\" r=\"65\"/><circle cx=\"195\" cy=\"95\" r=\"65\"/></g><g font-size=\"18\" text-anchor=\"middle\" fill=\"#17251c\"><text x=\"105\" y=\"22\">S</text><text x=\"211\" y=\"22\">P</text></g></svg>"
+      },
+      {
+       "q": "Read the marked diagram. S is the left circle; P the right. What does it assert?",
+       "r": "Some S are P.",
+       "w": [
+        "All S are P.",
+        "No S are P.",
+        "Some S are not P."
+       ],
+       "e": [
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one.",
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one.",
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one."
+       ],
+       "y": "The marks encode place x in the overlap.",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Categorical Venn diagram. Left circle S, right circle P. Shading means empty; x means existence.\"><defs><clipPath id=\"subject\"><circle cx=\"120\" cy=\"95\" r=\"65\"/></clipPath></defs><rect width=\"320\" height=\"190\" fill=\"white\"/><text x=\"158\" y=\"102\" text-anchor=\"middle\" font-size=\"26\">x</text><g fill=\"none\" stroke=\"#233e31\" stroke-width=\"2\"><circle cx=\"120\" cy=\"95\" r=\"65\"/><circle cx=\"195\" cy=\"95\" r=\"65\"/></g><g font-size=\"18\" text-anchor=\"middle\" fill=\"#17251c\"><text x=\"105\" y=\"22\">S</text><text x=\"211\" y=\"22\">P</text></g></svg>"
+      },
+      {
+       "q": "Read the marked diagram. S is the left circle; P the right. What does it assert?",
+       "r": "Some S are not P.",
+       "w": [
+        "All S are P.",
+        "No S are P.",
+        "Some S are P."
+       ],
+       "e": [
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one.",
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one.",
+        "That statement would use a different region or a different kind of mark. Shading means empty; x means at least one."
+       ],
+       "y": "The marks encode place x in the s-only region.",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Categorical Venn diagram. Left circle S, right circle P. Shading means empty; x means existence.\"><defs><clipPath id=\"subject\"><circle cx=\"120\" cy=\"95\" r=\"65\"/></clipPath></defs><rect width=\"320\" height=\"190\" fill=\"white\"/><text x=\"87\" y=\"102\" text-anchor=\"middle\" font-size=\"26\">x</text><g fill=\"none\" stroke=\"#233e31\" stroke-width=\"2\"><circle cx=\"120\" cy=\"95\" r=\"65\"/><circle cx=\"195\" cy=\"95\" r=\"65\"/></g><g font-size=\"18\" text-anchor=\"middle\" fill=\"#17251c\"><text x=\"105\" y=\"22\">S</text><text x=\"211\" y=\"22\">P</text></g></svg>"
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ],
+   "figure": "X.svg"
+  },
+  {
+   "id": "l4-6-unmarked",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An A diagram shades the S-only region for the classes club members and badge holders. What follows about the unshaded overlap?",
+       "r": "No existence is asserted there by the shading alone.",
+       "w": [
+        "It must contain exactly one member.",
+        "It must be empty because it is white.",
+        "It contains every object outside both classes."
+       ],
+       "e": [
+        "Only an existence mark asserts a member, and x does not mean exactly one.",
+        "Unshaded means unspecified, not empty.",
+        "The overlap contains shared S/P members, not objects outside both."
+       ],
+       "y": "Shading rules out objects in the shaded region; it does not populate any unshaded region."
+      },
+      {
+       "q": "An A diagram shades the S-only region for the classes library books and loanable items. What follows about the unshaded overlap?",
+       "r": "No existence is asserted there by the shading alone.",
+       "w": [
+        "It must contain exactly one member.",
+        "It must be empty because it is white.",
+        "It contains every object outside both classes."
+       ],
+       "e": [
+        "Only an existence mark asserts a member, and x does not mean exactly one.",
+        "Unshaded means unspecified, not empty.",
+        "The overlap contains shared S/P members, not objects outside both."
+       ],
+       "y": "Shading rules out objects in the shaded region; it does not populate any unshaded region."
+      },
+      {
+       "q": "An A diagram shades the S-only region for the classes school gardens and cultivated areas. What follows about the unshaded overlap?",
+       "r": "No existence is asserted there by the shading alone.",
+       "w": [
+        "It must contain exactly one member.",
+        "It must be empty because it is white.",
+        "It contains every object outside both classes."
+       ],
+       "e": [
+        "Only an existence mark asserts a member, and x does not mean exactly one.",
+        "Unshaded means unspecified, not empty.",
+        "The overlap contains shared S/P members, not objects outside both."
+       ],
+       "y": "Shading rules out objects in the shaded region; it does not populate any unshaded region."
+      },
+      {
+       "q": "An A diagram shades the S-only region for the classes reading rooms and quiet places. What follows about the unshaded overlap?",
+       "r": "No existence is asserted there by the shading alone.",
+       "w": [
+        "It must contain exactly one member.",
+        "It must be empty because it is white.",
+        "It contains every object outside both classes."
+       ],
+       "e": [
+        "Only an existence mark asserts a member, and x does not mean exactly one.",
+        "Unshaded means unspecified, not empty.",
+        "The overlap contains shared S/P members, not objects outside both."
+       ],
+       "y": "Shading rules out objects in the shaded region; it does not populate any unshaded region."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "Shading denotes an empty region.",
+      "truth": "true",
+      "explain": "This is a correct rule: Shading denotes an empty region. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "An x asserts at least one object in its region.",
+      "truth": "true",
+      "explain": "This is a correct rule: An x asserts at least one object in its region. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "An unmarked region has unspecified occupancy.",
+      "truth": "true",
+      "explain": "This is a correct rule: An unmarked region has unspecified occupancy. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "An A diagram shades S outside P.",
+      "truth": "true",
+      "explain": "This is a correct rule: An A diagram shades S outside P. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An x proves exactly one object exists in the region.",
+      "truth": "false",
+      "explain": "It asserts at least one, without an upper bound."
+     },
+     {
+      "text": "A white unmarked region must contain an object.",
+      "truth": "false",
+      "explain": "It may be empty or occupied; the diagram has not specified it."
+     },
+     {
+      "text": "No S are P is represented by x in the overlap.",
+      "truth": "false",
+      "explain": "That x represents Some S are P; No S are P shades the overlap."
+     },
+     {
+      "text": "All S are P automatically requires an existence x in the overlap under the stated convention.",
+      "truth": "false",
+      "explain": "The modern convention shades S-only; it adds no x without an existence premise."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

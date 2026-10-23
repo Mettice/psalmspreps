@@ -1,0 +1,1264 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "l4-3",
+   "name": "Properties: quantity and quality"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Quantity asks universal or particular; quality asks affirmative or negative. No S are P is universal negative. Analyse both properties independently, then check what a rewrite preserves or changes.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify quantity and quality independently and explain which property changes in a rewrite. Builds on: categorical claims and their quantifiers. Leads to: combining the properties to recognise A, E, I and O."
+   },
+   {
+    "heading": "Quantity asks how widely",
+    "text": "Universal propositions concern the entire subject class: All S are P and No S are P. Particular propositions assert at least one subject member: Some S are P and Some S are not P. Universal does not mean that every object in the world is included. It concerns the whole class named by the subject."
+   },
+   {
+    "heading": "Quality asks whether membership is affirmed",
+    "text": "Affirmative propositions attribute membership: All S are P and Some S are P. Negative propositions deny it: No S are P and Some S are not P. Negative does not mean rude, undesirable or false. A negative statement can be polite and true. Notice that No is universal in quantity despite denying overlap."
+   },
+   {
+    "heading": "Track a change precisely",
+    "text": "In an invented Bamenda club example, changing All members are readers to Some members are readers changes quantity while keeping affirmative quality. Changing Some members are readers to Some members are not readers changes quality while keeping particular quantity. Classify each property separately before combining them; the next lesson names the resulting patterns."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quantity",
+    "meaning": "universal or particular scope"
+   },
+   {
+    "word": "quality",
+    "meaning": "affirmation or denial of membership"
+   },
+   {
+    "word": "universal",
+    "meaning": "covering the whole subject class"
+   },
+   {
+    "word": "particular",
+    "meaning": "asserting at least one subject member"
+   }
+  ],
+  "mistake": {
+   "wrong": "No makes a claim particular.",
+   "right": "No S are P is universal and negative.",
+   "why": "It rules out overlap for the entire subject class."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Analyse Some library books are not loanable items.",
+  "steps": [
+   "Some asserts at least one subject member: particular quantity.",
+   "Are not denies membership: negative quality.",
+   "Keep these two properties separate before naming the whole form."
+  ],
+  "answer": "Particular quantity and negative quality.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-3-c1",
+    "status": "draft",
+    "idea": "All and no are universal; some is particular.",
+    "vars": {},
+    "example": [
+     "No school gardens are cultivated areas is universal in quantity, even if factually false."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-3-quantity"
+    }
+   },
+   {
+    "id": "l4-3-c2",
+    "status": "draft",
+    "idea": "Affirmation and denial determine quality.",
+    "vars": {},
+    "example": [
+     "Some S are P affirms; Some S are not P denies membership."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-3-quality"
+    }
+   },
+   {
+    "id": "l4-3-c3",
+    "status": "draft",
+    "idea": "Changing all to some changes scope, not affirmation.",
+    "vars": {},
+    "example": [
+     "All S are P and Some S are P remain affirmative."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-3-change-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "categorical"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Bih changes “All club members are badge holders” to “Some club members are badge holders.” What changes?",
+         "r": "Quantity changes; quality stays affirmative.",
+         "w": [
+          "Quality changes; quantity stays universal.",
+          "Both become negative.",
+          "Neither quantity nor quality changes."
+         ],
+         "e": [
+          "All becomes some, changing scope rather than affirmation.",
+          "Neither sentence denies membership.",
+          "The universal-to-particular change is significant."
+         ],
+         "y": "All and some differ in quantity, while both sentences affirm membership."
+        },
+        {
+         "q": "Bih changes “All library books are loanable items” to “Some library books are loanable items.” What changes?",
+         "r": "Quantity changes; quality stays affirmative.",
+         "w": [
+          "Quality changes; quantity stays universal.",
+          "Both become negative.",
+          "Neither quantity nor quality changes."
+         ],
+         "e": [
+          "All becomes some, changing scope rather than affirmation.",
+          "Neither sentence denies membership.",
+          "The universal-to-particular change is significant."
+         ],
+         "y": "All and some differ in quantity, while both sentences affirm membership."
+        },
+        {
+         "q": "Bih changes “All school gardens are cultivated areas” to “Some school gardens are cultivated areas.” What changes?",
+         "r": "Quantity changes; quality stays affirmative.",
+         "w": [
+          "Quality changes; quantity stays universal.",
+          "Both become negative.",
+          "Neither quantity nor quality changes."
+         ],
+         "e": [
+          "All becomes some, changing scope rather than affirmation.",
+          "Neither sentence denies membership.",
+          "The universal-to-particular change is significant."
+         ],
+         "y": "All and some differ in quantity, while both sentences affirm membership."
+        },
+        {
+         "q": "Bih changes “All reading rooms are quiet places” to “Some reading rooms are quiet places.” What changes?",
+         "r": "Quantity changes; quality stays affirmative.",
+         "w": [
+          "Quality changes; quantity stays universal.",
+          "Both become negative.",
+          "Neither quantity nor quality changes."
+         ],
+         "e": [
+          "All becomes some, changing scope rather than affirmation.",
+          "Neither sentence denies membership.",
+          "The universal-to-particular change is significant."
+         ],
+         "y": "All and some differ in quantity, while both sentences affirm membership."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-3-quantity",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Give the quantity of: All club members are badge holders.",
+       "r": "universal",
+       "w": [
+        "particular",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a universal proposition."
+      },
+      {
+       "q": "Give the quantity of: No club members are badge holders.",
+       "r": "universal",
+       "w": [
+        "particular",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a universal proposition."
+      },
+      {
+       "q": "Give the quantity of: Some club members are badge holders.",
+       "r": "particular",
+       "w": [
+        "universal",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a particular proposition."
+      },
+      {
+       "q": "Give the quantity of: Some club members are not badge holders.",
+       "r": "particular",
+       "w": [
+        "universal",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a particular proposition."
+      },
+      {
+       "q": "Give the quantity of: All library books are loanable items.",
+       "r": "universal",
+       "w": [
+        "particular",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a universal proposition."
+      },
+      {
+       "q": "Give the quantity of: No library books are loanable items.",
+       "r": "universal",
+       "w": [
+        "particular",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a universal proposition."
+      },
+      {
+       "q": "Give the quantity of: Some library books are loanable items.",
+       "r": "particular",
+       "w": [
+        "universal",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a particular proposition."
+      },
+      {
+       "q": "Give the quantity of: Some library books are not loanable items.",
+       "r": "particular",
+       "w": [
+        "universal",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a particular proposition."
+      },
+      {
+       "q": "Give the quantity of: All school gardens are cultivated areas.",
+       "r": "universal",
+       "w": [
+        "particular",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a universal proposition."
+      },
+      {
+       "q": "Give the quantity of: No school gardens are cultivated areas.",
+       "r": "universal",
+       "w": [
+        "particular",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a universal proposition."
+      },
+      {
+       "q": "Give the quantity of: Some school gardens are cultivated areas.",
+       "r": "particular",
+       "w": [
+        "universal",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a particular proposition."
+      },
+      {
+       "q": "Give the quantity of: Some school gardens are not cultivated areas.",
+       "r": "particular",
+       "w": [
+        "universal",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a particular proposition."
+      },
+      {
+       "q": "Give the quantity of: All reading rooms are quiet places.",
+       "r": "universal",
+       "w": [
+        "particular",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a universal proposition."
+      },
+      {
+       "q": "Give the quantity of: No reading rooms are quiet places.",
+       "r": "universal",
+       "w": [
+        "particular",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a universal proposition."
+      },
+      {
+       "q": "Give the quantity of: Some reading rooms are quiet places.",
+       "r": "particular",
+       "w": [
+        "universal",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a particular proposition."
+      },
+      {
+       "q": "Give the quantity of: Some reading rooms are not quiet places.",
+       "r": "particular",
+       "w": [
+        "universal",
+        "affirmative",
+        "negative"
+       ],
+       "e": [
+        "Check whether the claim covers all S or asserts at least one S.",
+        "Affirmative is a quality, not a quantity.",
+        "Negative is a quality, not a quantity."
+       ],
+       "y": "The quantifier makes this a particular proposition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-3-quality",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Give the quality of: All club members are badge holders.",
+       "r": "affirmative",
+       "w": [
+        "negative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is affirmative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: No club members are badge holders.",
+       "r": "negative",
+       "w": [
+        "affirmative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is negative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: Some club members are badge holders.",
+       "r": "affirmative",
+       "w": [
+        "negative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is affirmative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: Some club members are not badge holders.",
+       "r": "negative",
+       "w": [
+        "affirmative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is negative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: All library books are loanable items.",
+       "r": "affirmative",
+       "w": [
+        "negative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is affirmative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: No library books are loanable items.",
+       "r": "negative",
+       "w": [
+        "affirmative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is negative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: Some library books are loanable items.",
+       "r": "affirmative",
+       "w": [
+        "negative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is affirmative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: Some library books are not loanable items.",
+       "r": "negative",
+       "w": [
+        "affirmative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is negative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: All school gardens are cultivated areas.",
+       "r": "affirmative",
+       "w": [
+        "negative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is affirmative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: No school gardens are cultivated areas.",
+       "r": "negative",
+       "w": [
+        "affirmative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is negative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: Some school gardens are cultivated areas.",
+       "r": "affirmative",
+       "w": [
+        "negative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is affirmative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: Some school gardens are not cultivated areas.",
+       "r": "negative",
+       "w": [
+        "affirmative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is negative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: All reading rooms are quiet places.",
+       "r": "affirmative",
+       "w": [
+        "negative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is affirmative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: No reading rooms are quiet places.",
+       "r": "negative",
+       "w": [
+        "affirmative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is negative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: Some reading rooms are quiet places.",
+       "r": "affirmative",
+       "w": [
+        "negative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is affirmative; the quantifier alone does not settle quality."
+      },
+      {
+       "q": "Give the quality of: Some reading rooms are not quiet places.",
+       "r": "negative",
+       "w": [
+        "affirmative",
+        "universal",
+        "particular"
+       ],
+       "e": [
+        "Check whether membership is affirmed or denied.",
+        "Universal is a quantity, not a quality.",
+        "Particular is a quantity, not a quality."
+       ],
+       "y": "The relation is negative; the quantifier alone does not settle quality."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-3-combine",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Give the quantity and quality of: All club members are badge holders.",
+       "r": "universal affirmative",
+       "w": [
+        "universal negative",
+        "particular affirmative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it universal and the membership relation affirmative."
+      },
+      {
+       "q": "Give the quantity and quality of: No club members are badge holders.",
+       "r": "universal negative",
+       "w": [
+        "universal affirmative",
+        "particular affirmative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it universal and the membership relation negative."
+      },
+      {
+       "q": "Give the quantity and quality of: Some club members are badge holders.",
+       "r": "particular affirmative",
+       "w": [
+        "universal affirmative",
+        "universal negative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it particular and the membership relation affirmative."
+      },
+      {
+       "q": "Give the quantity and quality of: Some club members are not badge holders.",
+       "r": "particular negative",
+       "w": [
+        "universal affirmative",
+        "universal negative",
+        "particular affirmative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it particular and the membership relation negative."
+      },
+      {
+       "q": "Give the quantity and quality of: All library books are loanable items.",
+       "r": "universal affirmative",
+       "w": [
+        "universal negative",
+        "particular affirmative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it universal and the membership relation affirmative."
+      },
+      {
+       "q": "Give the quantity and quality of: No library books are loanable items.",
+       "r": "universal negative",
+       "w": [
+        "universal affirmative",
+        "particular affirmative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it universal and the membership relation negative."
+      },
+      {
+       "q": "Give the quantity and quality of: Some library books are loanable items.",
+       "r": "particular affirmative",
+       "w": [
+        "universal affirmative",
+        "universal negative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it particular and the membership relation affirmative."
+      },
+      {
+       "q": "Give the quantity and quality of: Some library books are not loanable items.",
+       "r": "particular negative",
+       "w": [
+        "universal affirmative",
+        "universal negative",
+        "particular affirmative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it particular and the membership relation negative."
+      },
+      {
+       "q": "Give the quantity and quality of: All school gardens are cultivated areas.",
+       "r": "universal affirmative",
+       "w": [
+        "universal negative",
+        "particular affirmative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it universal and the membership relation affirmative."
+      },
+      {
+       "q": "Give the quantity and quality of: No school gardens are cultivated areas.",
+       "r": "universal negative",
+       "w": [
+        "universal affirmative",
+        "particular affirmative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it universal and the membership relation negative."
+      },
+      {
+       "q": "Give the quantity and quality of: Some school gardens are cultivated areas.",
+       "r": "particular affirmative",
+       "w": [
+        "universal affirmative",
+        "universal negative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it particular and the membership relation affirmative."
+      },
+      {
+       "q": "Give the quantity and quality of: Some school gardens are not cultivated areas.",
+       "r": "particular negative",
+       "w": [
+        "universal affirmative",
+        "universal negative",
+        "particular affirmative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it particular and the membership relation negative."
+      },
+      {
+       "q": "Give the quantity and quality of: All reading rooms are quiet places.",
+       "r": "universal affirmative",
+       "w": [
+        "universal negative",
+        "particular affirmative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it universal and the membership relation affirmative."
+      },
+      {
+       "q": "Give the quantity and quality of: No reading rooms are quiet places.",
+       "r": "universal negative",
+       "w": [
+        "universal affirmative",
+        "particular affirmative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it universal and the membership relation negative."
+      },
+      {
+       "q": "Give the quantity and quality of: Some reading rooms are quiet places.",
+       "r": "particular affirmative",
+       "w": [
+        "universal affirmative",
+        "universal negative",
+        "particular negative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it particular and the membership relation affirmative."
+      },
+      {
+       "q": "Give the quantity and quality of: Some reading rooms are not quiet places.",
+       "r": "particular negative",
+       "w": [
+        "universal affirmative",
+        "universal negative",
+        "particular affirmative"
+       ],
+       "e": [
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence.",
+        "That combination does not match both the quantifier and the affirmation/denial in this sentence."
+       ],
+       "y": "The quantifier makes it particular and the membership relation negative."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-3-change",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih changes “All club members are badge holders” to “Some club members are badge holders.” What changes?",
+       "r": "Quantity changes; quality stays affirmative.",
+       "w": [
+        "Quality changes; quantity stays universal.",
+        "Both become negative.",
+        "Neither quantity nor quality changes."
+       ],
+       "e": [
+        "All becomes some, changing scope rather than affirmation.",
+        "Neither sentence denies membership.",
+        "The universal-to-particular change is significant."
+       ],
+       "y": "All and some differ in quantity, while both sentences affirm membership."
+      },
+      {
+       "q": "Bih changes “All library books are loanable items” to “Some library books are loanable items.” What changes?",
+       "r": "Quantity changes; quality stays affirmative.",
+       "w": [
+        "Quality changes; quantity stays universal.",
+        "Both become negative.",
+        "Neither quantity nor quality changes."
+       ],
+       "e": [
+        "All becomes some, changing scope rather than affirmation.",
+        "Neither sentence denies membership.",
+        "The universal-to-particular change is significant."
+       ],
+       "y": "All and some differ in quantity, while both sentences affirm membership."
+      },
+      {
+       "q": "Bih changes “All school gardens are cultivated areas” to “Some school gardens are cultivated areas.” What changes?",
+       "r": "Quantity changes; quality stays affirmative.",
+       "w": [
+        "Quality changes; quantity stays universal.",
+        "Both become negative.",
+        "Neither quantity nor quality changes."
+       ],
+       "e": [
+        "All becomes some, changing scope rather than affirmation.",
+        "Neither sentence denies membership.",
+        "The universal-to-particular change is significant."
+       ],
+       "y": "All and some differ in quantity, while both sentences affirm membership."
+      },
+      {
+       "q": "Bih changes “All reading rooms are quiet places” to “Some reading rooms are quiet places.” What changes?",
+       "r": "Quantity changes; quality stays affirmative.",
+       "w": [
+        "Quality changes; quantity stays universal.",
+        "Both become negative.",
+        "Neither quantity nor quality changes."
+       ],
+       "e": [
+        "All becomes some, changing scope rather than affirmation.",
+        "Neither sentence denies membership.",
+        "The universal-to-particular change is significant."
+       ],
+       "y": "All and some differ in quantity, while both sentences affirm membership."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "Quantity distinguishes universal and particular scope.",
+      "truth": "true",
+      "explain": "This is a correct rule: Quantity distinguishes universal and particular scope. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "Quality distinguishes affirmation and denial.",
+      "truth": "true",
+      "explain": "This is a correct rule: Quality distinguishes affirmation and denial. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "No S are P is universal and negative.",
+      "truth": "true",
+      "explain": "This is a correct rule: No S are P is universal and negative. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "Some S are P is particular and affirmative.",
+      "truth": "true",
+      "explain": "This is a correct rule: Some S are P is particular and affirmative. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "No S are P is particular because it contains no objects.",
+      "truth": "false",
+      "explain": "No covers the whole subject class by denying any overlap; it is universal in quantity."
+     },
+     {
+      "text": "A negative proposition must be an insulting remark.",
+      "truth": "false",
+      "explain": "Negative is a logical denial of membership, not a description of politeness."
+     },
+     {
+      "text": "Every particular claim is negative.",
+      "truth": "false",
+      "explain": "Some S are P is particular and affirmative."
+     },
+     {
+      "text": "All and some differ only in spelling, without a change in scope.",
+      "truth": "false",
+      "explain": "All concerns the whole subject class; some asserts at least one member."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

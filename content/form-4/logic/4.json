@@ -1,0 +1,891 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "l4-4",
+   "name": "Standard categorical forms: A, E, I and O"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A, E, I and O name the combinations of quantity and quality. Not all S are P translates as Some S are not P. Universal claims are refuted by appropriate counterexamples; a form label does not establish truth.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to classify and construct the standard forms and identify a counterexample to a universal claim. Builds on: quantity and quality as separate properties. Leads to: distribution and Venn diagrams, which depend on the exact form."
+   },
+   {
+    "heading": "Combine the properties",
+    "text": "A: All S are P, universal affirmative. E: No S are P, universal negative. I: Some S are P, particular affirmative. O: Some S are not P, particular negative. The letters abbreviate these structures; they do not rank the quality of a pupil’s work or establish truth. Keep the same S and P when comparing forms."
+   },
+   {
+    "heading": "Use the form, not a memorised topic",
+    "text": "For an invented library, All library books are loanable items is A. No library books are loanable items is E. Some library books are loanable items is I. Some library books are not loanable items is O. The topic is unchanged while quantity and quality vary. A negative form need not contain the separate word not: No signals E."
+   },
+   {
+    "heading": "Check what would refute a claim",
+    "text": "An S outside P refutes All S are P. An object in both classes refutes No S are P. Not all S are P therefore has O meaning, not E meaning: it leaves open whether other S belong to P. Particular claims need an existing example. Universal-to-particular inferences require an explicit existence assumption under the modern interpretation."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "A",
+    "meaning": "universal affirmative"
+   },
+   {
+    "word": "E",
+    "meaning": "universal negative"
+   },
+   {
+    "word": "I",
+    "meaning": "particular affirmative"
+   },
+   {
+    "word": "O",
+    "meaning": "particular negative"
+   }
+  ],
+  "mistake": {
+   "wrong": "Not all members are readers means no members are readers.",
+   "right": "It means some members are not readers.",
+   "why": "A counterexample to all need not exclude every possible reader."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Classify Not all library books are loanable items.",
+  "steps": [
+   "Denying all requires at least one library book outside the loanable class.",
+   "Rewrite: Some library books are not loanable items.",
+   "This has particular quantity and negative quality."
+  ],
+  "answer": "O — particular negative.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-4-c1",
+    "status": "draft",
+    "idea": "The letter records quantity and quality.",
+    "vars": {},
+    "example": [
+     "A: All S are P.",
+     "E: No S are P.",
+     "I: Some S are P.",
+     "O: Some S are not P."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-4-classify"
+    }
+   },
+   {
+    "id": "l4-4-c2",
+    "status": "draft",
+    "idea": "Construct the form by keeping the class terms fixed.",
+    "vars": {},
+    "example": [
+     "Change the quantifier and copula to change the categorical form."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-4-form"
+    }
+   },
+   {
+    "id": "l4-4-c3",
+    "status": "draft",
+    "idea": "Not all is weaker than no.",
+    "vars": {},
+    "example": [
+     "Some S outside P can refute all while other S remain in P."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "categorical"
+     ],
+     "prompt": "Find the incorrect claim, then read the reason for the correction.",
+     "pool": {
+      "right": [
+       {
+        "text": "A is universal affirmative.",
+        "truth": "true",
+        "explain": "This is a correct rule: A is universal affirmative. Look for a claim that breaks a rule taught in Learn."
+       },
+       {
+        "text": "E is universal negative.",
+        "truth": "true",
+        "explain": "This is a correct rule: E is universal negative. Look for a claim that breaks a rule taught in Learn."
+       },
+       {
+        "text": "I is particular affirmative.",
+        "truth": "true",
+        "explain": "This is a correct rule: I is particular affirmative. Look for a claim that breaks a rule taught in Learn."
+       },
+       {
+        "text": "O is particular negative.",
+        "truth": "true",
+        "explain": "This is a correct rule: O is particular negative. Look for a claim that breaks a rule taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Not all S are P means No S are P.",
+        "truth": "false",
+        "explain": "Not all says at least one S is outside P: O, not necessarily E."
+       },
+       {
+        "text": "Some S are not P has I form.",
+        "truth": "false",
+        "explain": "The denial of membership makes it O, particular negative."
+       },
+       {
+        "text": "One S outside P cannot affect an All S are P claim.",
+        "truth": "false",
+        "explain": "A single counterexample defeats the universal affirmative."
+       },
+       {
+        "text": "A form is true merely because it is labelled A.",
+        "truth": "false",
+        "explain": "The code identifies structure, not factual truth."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-4-classify",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: All club members are badge holders.",
+       "r": "A — universal affirmative",
+       "w": [
+        "E — universal negative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal negative; this claim is universal and affirmative.",
+        "That form is particular affirmative; this claim is universal and affirmative.",
+        "That form is particular negative; this claim is universal and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: No club members are badge holders.",
+       "r": "E — universal negative",
+       "w": [
+        "A — universal affirmative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is universal and negative.",
+        "That form is particular affirmative; this claim is universal and negative.",
+        "That form is particular negative; this claim is universal and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some club members are badge holders.",
+       "r": "I — particular affirmative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and affirmative.",
+        "That form is universal negative; this claim is particular and affirmative.",
+        "That form is particular negative; this claim is particular and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some club members are not badge holders.",
+       "r": "O — particular negative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "I — particular affirmative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and negative.",
+        "That form is universal negative; this claim is particular and negative.",
+        "That form is particular affirmative; this claim is particular and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: All library books are loanable items.",
+       "r": "A — universal affirmative",
+       "w": [
+        "E — universal negative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal negative; this claim is universal and affirmative.",
+        "That form is particular affirmative; this claim is universal and affirmative.",
+        "That form is particular negative; this claim is universal and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: No library books are loanable items.",
+       "r": "E — universal negative",
+       "w": [
+        "A — universal affirmative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is universal and negative.",
+        "That form is particular affirmative; this claim is universal and negative.",
+        "That form is particular negative; this claim is universal and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some library books are loanable items.",
+       "r": "I — particular affirmative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and affirmative.",
+        "That form is universal negative; this claim is particular and affirmative.",
+        "That form is particular negative; this claim is particular and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some library books are not loanable items.",
+       "r": "O — particular negative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "I — particular affirmative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and negative.",
+        "That form is universal negative; this claim is particular and negative.",
+        "That form is particular affirmative; this claim is particular and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: All school gardens are cultivated areas.",
+       "r": "A — universal affirmative",
+       "w": [
+        "E — universal negative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal negative; this claim is universal and affirmative.",
+        "That form is particular affirmative; this claim is universal and affirmative.",
+        "That form is particular negative; this claim is universal and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: No school gardens are cultivated areas.",
+       "r": "E — universal negative",
+       "w": [
+        "A — universal affirmative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is universal and negative.",
+        "That form is particular affirmative; this claim is universal and negative.",
+        "That form is particular negative; this claim is universal and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some school gardens are cultivated areas.",
+       "r": "I — particular affirmative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and affirmative.",
+        "That form is universal negative; this claim is particular and affirmative.",
+        "That form is particular negative; this claim is particular and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some school gardens are not cultivated areas.",
+       "r": "O — particular negative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "I — particular affirmative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and negative.",
+        "That form is universal negative; this claim is particular and negative.",
+        "That form is particular affirmative; this claim is particular and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: All reading rooms are quiet places.",
+       "r": "A — universal affirmative",
+       "w": [
+        "E — universal negative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal negative; this claim is universal and affirmative.",
+        "That form is particular affirmative; this claim is universal and affirmative.",
+        "That form is particular negative; this claim is universal and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: No reading rooms are quiet places.",
+       "r": "E — universal negative",
+       "w": [
+        "A — universal affirmative",
+        "I — particular affirmative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is universal and negative.",
+        "That form is particular affirmative; this claim is universal and negative.",
+        "That form is particular negative; this claim is universal and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: universal negative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some reading rooms are quiet places.",
+       "r": "I — particular affirmative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "O — particular negative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and affirmative.",
+        "That form is universal negative; this claim is particular and affirmative.",
+        "That form is particular negative; this claim is particular and affirmative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular affirmative."
+      },
+      {
+       "q": "Classify the form, without deciding whether the invented claim is true: Some reading rooms are not quiet places.",
+       "r": "O — particular negative",
+       "w": [
+        "A — universal affirmative",
+        "E — universal negative",
+        "I — particular affirmative"
+       ],
+       "e": [
+        "That form is universal affirmative; this claim is particular and negative.",
+        "That form is universal negative; this claim is particular and negative.",
+        "That form is particular affirmative; this claim is particular and negative."
+       ],
+       "y": "Read the quantifier and whether membership is affirmed or denied: particular negative."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-4-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choose the universal affirmative statement about the named classes.",
+       "r": "All club members are badge holders.",
+       "w": [
+        "No club members are badge holders.",
+        "Some club members are badge holders.",
+        "Some club members are not badge holders."
+       ],
+       "e": [
+        "That is universal negative, rather than universal affirmative.",
+        "That is particular affirmative, rather than universal affirmative.",
+        "That is particular negative, rather than universal affirmative."
+       ],
+       "y": "The form is A: universal affirmative."
+      },
+      {
+       "q": "Choose the universal negative statement about the named classes.",
+       "r": "No club members are badge holders.",
+       "w": [
+        "All club members are badge holders.",
+        "Some club members are badge holders.",
+        "Some club members are not badge holders."
+       ],
+       "e": [
+        "That is universal affirmative, rather than universal negative.",
+        "That is particular affirmative, rather than universal negative.",
+        "That is particular negative, rather than universal negative."
+       ],
+       "y": "The form is E: universal negative."
+      },
+      {
+       "q": "Choose the particular affirmative statement about the named classes.",
+       "r": "Some club members are badge holders.",
+       "w": [
+        "All club members are badge holders.",
+        "No club members are badge holders.",
+        "Some club members are not badge holders."
+       ],
+       "e": [
+        "That is universal affirmative, rather than particular affirmative.",
+        "That is universal negative, rather than particular affirmative.",
+        "That is particular negative, rather than particular affirmative."
+       ],
+       "y": "The form is I: particular affirmative."
+      },
+      {
+       "q": "Choose the particular negative statement about the named classes.",
+       "r": "Some club members are not badge holders.",
+       "w": [
+        "All club members are badge holders.",
+        "No club members are badge holders.",
+        "Some club members are badge holders."
+       ],
+       "e": [
+        "That is universal affirmative, rather than particular negative.",
+        "That is universal negative, rather than particular negative.",
+        "That is particular affirmative, rather than particular negative."
+       ],
+       "y": "The form is O: particular negative."
+      },
+      {
+       "q": "Choose the universal affirmative statement about the named classes.",
+       "r": "All library books are loanable items.",
+       "w": [
+        "No library books are loanable items.",
+        "Some library books are loanable items.",
+        "Some library books are not loanable items."
+       ],
+       "e": [
+        "That is universal negative, rather than universal affirmative.",
+        "That is particular affirmative, rather than universal affirmative.",
+        "That is particular negative, rather than universal affirmative."
+       ],
+       "y": "The form is A: universal affirmative."
+      },
+      {
+       "q": "Choose the universal negative statement about the named classes.",
+       "r": "No library books are loanable items.",
+       "w": [
+        "All library books are loanable items.",
+        "Some library books are loanable items.",
+        "Some library books are not loanable items."
+       ],
+       "e": [
+        "That is universal affirmative, rather than universal negative.",
+        "That is particular affirmative, rather than universal negative.",
+        "That is particular negative, rather than universal negative."
+       ],
+       "y": "The form is E: universal negative."
+      },
+      {
+       "q": "Choose the particular affirmative statement about the named classes.",
+       "r": "Some library books are loanable items.",
+       "w": [
+        "All library books are loanable items.",
+        "No library books are loanable items.",
+        "Some library books are not loanable items."
+       ],
+       "e": [
+        "That is universal affirmative, rather than particular affirmative.",
+        "That is universal negative, rather than particular affirmative.",
+        "That is particular negative, rather than particular affirmative."
+       ],
+       "y": "The form is I: particular affirmative."
+      },
+      {
+       "q": "Choose the particular negative statement about the named classes.",
+       "r": "Some library books are not loanable items.",
+       "w": [
+        "All library books are loanable items.",
+        "No library books are loanable items.",
+        "Some library books are loanable items."
+       ],
+       "e": [
+        "That is universal affirmative, rather than particular negative.",
+        "That is universal negative, rather than particular negative.",
+        "That is particular affirmative, rather than particular negative."
+       ],
+       "y": "The form is O: particular negative."
+      },
+      {
+       "q": "Choose the universal affirmative statement about the named classes.",
+       "r": "All school gardens are cultivated areas.",
+       "w": [
+        "No school gardens are cultivated areas.",
+        "Some school gardens are cultivated areas.",
+        "Some school gardens are not cultivated areas."
+       ],
+       "e": [
+        "That is universal negative, rather than universal affirmative.",
+        "That is particular affirmative, rather than universal affirmative.",
+        "That is particular negative, rather than universal affirmative."
+       ],
+       "y": "The form is A: universal affirmative."
+      },
+      {
+       "q": "Choose the universal negative statement about the named classes.",
+       "r": "No school gardens are cultivated areas.",
+       "w": [
+        "All school gardens are cultivated areas.",
+        "Some school gardens are cultivated areas.",
+        "Some school gardens are not cultivated areas."
+       ],
+       "e": [
+        "That is universal affirmative, rather than universal negative.",
+        "That is particular affirmative, rather than universal negative.",
+        "That is particular negative, rather than universal negative."
+       ],
+       "y": "The form is E: universal negative."
+      },
+      {
+       "q": "Choose the particular affirmative statement about the named classes.",
+       "r": "Some school gardens are cultivated areas.",
+       "w": [
+        "All school gardens are cultivated areas.",
+        "No school gardens are cultivated areas.",
+        "Some school gardens are not cultivated areas."
+       ],
+       "e": [
+        "That is universal affirmative, rather than particular affirmative.",
+        "That is universal negative, rather than particular affirmative.",
+        "That is particular negative, rather than particular affirmative."
+       ],
+       "y": "The form is I: particular affirmative."
+      },
+      {
+       "q": "Choose the particular negative statement about the named classes.",
+       "r": "Some school gardens are not cultivated areas.",
+       "w": [
+        "All school gardens are cultivated areas.",
+        "No school gardens are cultivated areas.",
+        "Some school gardens are cultivated areas."
+       ],
+       "e": [
+        "That is universal affirmative, rather than particular negative.",
+        "That is universal negative, rather than particular negative.",
+        "That is particular affirmative, rather than particular negative."
+       ],
+       "y": "The form is O: particular negative."
+      },
+      {
+       "q": "Choose the universal affirmative statement about the named classes.",
+       "r": "All reading rooms are quiet places.",
+       "w": [
+        "No reading rooms are quiet places.",
+        "Some reading rooms are quiet places.",
+        "Some reading rooms are not quiet places."
+       ],
+       "e": [
+        "That is universal negative, rather than universal affirmative.",
+        "That is particular affirmative, rather than universal affirmative.",
+        "That is particular negative, rather than universal affirmative."
+       ],
+       "y": "The form is A: universal affirmative."
+      },
+      {
+       "q": "Choose the universal negative statement about the named classes.",
+       "r": "No reading rooms are quiet places.",
+       "w": [
+        "All reading rooms are quiet places.",
+        "Some reading rooms are quiet places.",
+        "Some reading rooms are not quiet places."
+       ],
+       "e": [
+        "That is universal affirmative, rather than universal negative.",
+        "That is particular affirmative, rather than universal negative.",
+        "That is particular negative, rather than universal negative."
+       ],
+       "y": "The form is E: universal negative."
+      },
+      {
+       "q": "Choose the particular affirmative statement about the named classes.",
+       "r": "Some reading rooms are quiet places.",
+       "w": [
+        "All reading rooms are quiet places.",
+        "No reading rooms are quiet places.",
+        "Some reading rooms are not quiet places."
+       ],
+       "e": [
+        "That is universal affirmative, rather than particular affirmative.",
+        "That is universal negative, rather than particular affirmative.",
+        "That is particular negative, rather than particular affirmative."
+       ],
+       "y": "The form is I: particular affirmative."
+      },
+      {
+       "q": "Choose the particular negative statement about the named classes.",
+       "r": "Some reading rooms are not quiet places.",
+       "w": [
+        "All reading rooms are quiet places.",
+        "No reading rooms are quiet places.",
+        "Some reading rooms are quiet places."
+       ],
+       "e": [
+        "That is universal affirmative, rather than particular negative.",
+        "That is universal negative, rather than particular negative.",
+        "That is particular affirmative, rather than particular negative."
+       ],
+       "y": "The form is O: particular negative."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-4-counterexamples",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "inside": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "outside": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "An invented club has {inside} members with badges and {outside} without badges. How many counterexamples to All club members are badge holders are shown?",
+   "answer": "outside",
+   "misconceptions": [
+    {
+     "id": "inside",
+     "wrong": "inside",
+     "explain": "These members satisfy the claim instead of refuting it.",
+     "when": "inside != outside"
+    },
+    {
+     "id": "total",
+     "wrong": "inside+outside",
+     "explain": "Not every member is a counterexample; count only those without badges."
+    }
+   ],
+   "solution": [
+    "A counterexample must be a club member outside the badge-holder class.",
+    "There are {outside} such members, so the answer is {answer}."
+   ]
+  },
+  {
+   "id": "l4-4-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Match the code to its complete standard form.",
+   "pool": [
+    {
+     "left": "A",
+     "right": "All S are P."
+    },
+    {
+     "left": "E",
+     "right": "No S are P."
+    },
+    {
+     "left": "I",
+     "right": "Some S are P."
+    },
+    {
+     "left": "O",
+     "right": "Some S are not P."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l4-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "A is universal affirmative.",
+      "truth": "true",
+      "explain": "This is a correct rule: A is universal affirmative. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "E is universal negative.",
+      "truth": "true",
+      "explain": "This is a correct rule: E is universal negative. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "I is particular affirmative.",
+      "truth": "true",
+      "explain": "This is a correct rule: I is particular affirmative. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "O is particular negative.",
+      "truth": "true",
+      "explain": "This is a correct rule: O is particular negative. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Not all S are P means No S are P.",
+      "truth": "false",
+      "explain": "Not all says at least one S is outside P: O, not necessarily E."
+     },
+     {
+      "text": "Some S are not P has I form.",
+      "truth": "false",
+      "explain": "The denial of membership makes it O, particular negative."
+     },
+     {
+      "text": "One S outside P cannot affect an All S are P claim.",
+      "truth": "false",
+      "explain": "A single counterexample defeats the universal affirmative."
+     },
+     {
+      "text": "A form is true merely because it is labelled A.",
+      "truth": "false",
+      "explain": "The code identifies structure, not factual truth."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

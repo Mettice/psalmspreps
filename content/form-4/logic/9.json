@@ -1,0 +1,529 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "l4-9",
+   "name": "Disjunctive propositions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Inclusive OR permits either or both and fails only when both are false. Exclusive OR requires exactly one true alternative. State the intended reading. Denying one alternative of an accepted OR requires the other; affirming one does not exclude the other under inclusive OR.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish inclusive from exclusive or, evaluate each and infer the remaining alternative when one is denied. Builds on: compound propositions and truth-value evaluation in the conditional lesson. Leads to: accurate translation and later truth tables for logical connectives."
+   },
+   {
+    "heading": "Alternatives joined by or",
+    "text": "A disjunction combines propositions as P or Q. In the default formal convention here, or is inclusive: P, Q or both can make it true. Both false makes it false. For an invented Douala club notice, a message can be printed or sent electronically, allowing both methods. Do not silently read an extra not both into that statement."
+   },
+   {
+    "heading": "Exactly one is a different rule",
+    "text": "An exclusive disjunction requires one true alternative and one false alternative. A task that says choose drawing or poetry, but not both explicitly uses that rule. Both true then fails, as does both false. Ordinary either…or can depend on context, so these exercises always specify the reading instead of asking pupils to guess the speaker’s intention."
+   },
+   {
+    "heading": "What follows from denying an alternative",
+    "text": "If P or Q is accepted and P is false, Q must be true: otherwise both would be false. But if P is true, inclusive OR leaves Q open. This difference matters when translating everyday rules. Neither P nor Q denies both; it is not another spelling of P or Q."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "disjunct",
+    "meaning": "one component of an or-statement"
+   },
+   {
+    "word": "inclusive or",
+    "meaning": "at least one alternative, permitting both"
+   },
+   {
+    "word": "exclusive or",
+    "meaning": "exactly one true alternative"
+   },
+   {
+    "word": "neither…nor",
+    "meaning": "denial of both alternatives"
+   }
+  ],
+  "mistake": {
+   "wrong": "P OR Q and P prove that Q is false.",
+   "right": "Inclusive OR allows P and Q together.",
+   "why": "Only an added exclusive condition rules out both."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The fictional notice permits printing or electronic delivery, inclusively. Printing was not used. What must hold if the notice was followed?",
+  "steps": [
+   "At least one allowed method must have been used.",
+   "Printing is ruled out by the additional premise.",
+   "Without electronic delivery both alternatives would be false."
+  ],
+  "answer": "Electronic delivery was used.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-9-c1",
+    "status": "draft",
+    "idea": "Inclusive OR permits either or both.",
+    "vars": {},
+    "example": [
+     "A printed and electronic notice can satisfy inclusive OR."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-9-inclusive"
+    }
+   },
+   {
+    "id": "l4-9-c2",
+    "status": "draft",
+    "idea": "Inclusive OR fails only when both claims are false.",
+    "vars": {},
+    "example": [
+     "At least one true claim is enough; both true is allowed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-9-truth"
+    }
+   },
+   {
+    "id": "l4-9-c3",
+    "status": "draft",
+    "idea": "Exclusive OR needs different truth values.",
+    "vars": {},
+    "example": [
+     "Exactly one means both true is forbidden as well as both false."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-9-exclusive-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "categorical"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        0,
+        1
+       ]
+      },
+      "q": {
+       "int": [
+        0,
+        1
+       ]
+      }
+     },
+     "prompt": "Now use exclusive OR: exactly one claim must be true. P = {p}, Q = {q}, with {1} true and {0} false. Give its value.",
+     "answer": "p != q ? 1 : 0",
+     "misconceptions": [
+      {
+       "id": "inclusive",
+       "wrong": "p || q ? 1 : 0",
+       "explain": "Inclusive OR accepts both true; this question explicitly forbids that.",
+       "when": "p == 1 && q == 1"
+      },
+      {
+       "id": "same",
+       "wrong": "p == q ? 1 : 0",
+       "explain": "You accepted equal truth values, whereas exactly one requires different values."
+      }
+     ],
+     "solution": [
+      "Exactly one true means the truth values differ.",
+      "For these values the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-9-inclusive",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Read inclusive or: Bih reads or Ayuk writes. Which possibility is allowed?",
+       "r": "Either claim, including the possibility that both hold.",
+       "w": [
+        "Exactly one claim, with both forbidden.",
+        "Neither claim must hold for the disjunction to be true.",
+        "Both claims must hold together."
+       ],
+       "e": [
+        "That is exclusive or, not the specified inclusive reading.",
+        "Both false makes inclusive OR false.",
+        "That is AND; inclusive OR needs at least one."
+       ],
+       "y": "Inclusive OR permits either or both."
+      },
+      {
+       "q": "Read inclusive or: the club meets indoors or the club meets online. Which possibility is allowed?",
+       "r": "Either claim, including the possibility that both hold.",
+       "w": [
+        "Exactly one claim, with both forbidden.",
+        "Neither claim must hold for the disjunction to be true.",
+        "Both claims must hold together."
+       ],
+       "e": [
+        "That is exclusive or, not the specified inclusive reading.",
+        "Both false makes inclusive OR false.",
+        "That is AND; inclusive OR needs at least one."
+       ],
+       "y": "Inclusive OR permits either or both."
+      },
+      {
+       "q": "Read inclusive or: the notice is printed or the notice is sent electronically. Which possibility is allowed?",
+       "r": "Either claim, including the possibility that both hold.",
+       "w": [
+        "Exactly one claim, with both forbidden.",
+        "Neither claim must hold for the disjunction to be true.",
+        "Both claims must hold together."
+       ],
+       "e": [
+        "That is exclusive or, not the specified inclusive reading.",
+        "Both false makes inclusive OR false.",
+        "That is AND; inclusive OR needs at least one."
+       ],
+       "y": "Inclusive OR permits either or both."
+      },
+      {
+       "q": "Read inclusive or: a learner chooses drawing or a learner chooses poetry. Which possibility is allowed?",
+       "r": "Either claim, including the possibility that both hold.",
+       "w": [
+        "Exactly one claim, with both forbidden.",
+        "Neither claim must hold for the disjunction to be true.",
+        "Both claims must hold together."
+       ],
+       "e": [
+        "That is exclusive or, not the specified inclusive reading.",
+        "Both false makes inclusive OR false.",
+        "That is AND; inclusive OR needs at least one."
+       ],
+       "y": "Inclusive OR permits either or both."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-9-truth",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      1
+     ]
+    },
+    "q": {
+     "int": [
+      0,
+      1
+     ]
+    }
+   },
+   "prompt": "Use inclusive OR. P = {p}, Q = {q}, with {1} true and {0} false. Give the value of P OR Q.",
+   "answer": "p || q ? 1 : 0",
+   "misconceptions": [
+    {
+     "id": "and",
+     "wrong": "p && q ? 1 : 0",
+     "explain": "AND needs both; OR accepts either true claim.",
+     "when": "p != q"
+    },
+    {
+     "id": "exclusive",
+     "wrong": "p != q ? 1 : 0",
+     "explain": "That forbids both being true, which is exclusive OR.",
+     "when": "p == 1 && q == 1"
+    },
+    {
+     "id": "reverse",
+     "wrong": "p || q ? 0 : 1",
+     "explain": "That reverses the inclusive-OR value."
+    }
+   ],
+   "solution": [
+    "Inclusive OR is false only when both claims are false.",
+    "For these inputs the value is {answer}."
+   ]
+  },
+  {
+   "id": "l4-9-exclusive",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      1
+     ]
+    },
+    "q": {
+     "int": [
+      0,
+      1
+     ]
+    }
+   },
+   "prompt": "Now use exclusive OR: exactly one claim must be true. P = {p}, Q = {q}, with {1} true and {0} false. Give its value.",
+   "answer": "p != q ? 1 : 0",
+   "misconceptions": [
+    {
+     "id": "inclusive",
+     "wrong": "p || q ? 1 : 0",
+     "explain": "Inclusive OR accepts both true; this question explicitly forbids that.",
+     "when": "p == 1 && q == 1"
+    },
+    {
+     "id": "same",
+     "wrong": "p == q ? 1 : 0",
+     "explain": "You accepted equal truth values, whereas exactly one requires different values."
+    }
+   ],
+   "solution": [
+    "Exactly one true means the truth values differ.",
+    "For these values the answer is {answer}."
+   ]
+  },
+  {
+   "id": "l4-9-infer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Accept “Bih reads or Ayuk writes” inclusively, and also accept that “Bih reads” is false. What follows?",
+       "r": "Ayuk writes is true.",
+       "w": [
+        "Ayuk writes is false.",
+        "Bih reads is true.",
+        "Neither alternative’s truth is constrained."
+       ],
+       "e": [
+        "That would make both alternatives false, contrary to the accepted OR.",
+        "This contradicts the given denial of that alternative.",
+        "Denying one accepted alternative leaves the other required."
+       ],
+       "y": "The disjunction requires at least one true claim; the remaining claim must hold."
+      },
+      {
+       "q": "Accept “the club meets indoors or the club meets online” inclusively, and also accept that “the club meets indoors” is false. What follows?",
+       "r": "the club meets online is true.",
+       "w": [
+        "the club meets online is false.",
+        "the club meets indoors is true.",
+        "Neither alternative’s truth is constrained."
+       ],
+       "e": [
+        "That would make both alternatives false, contrary to the accepted OR.",
+        "This contradicts the given denial of that alternative.",
+        "Denying one accepted alternative leaves the other required."
+       ],
+       "y": "The disjunction requires at least one true claim; the remaining claim must hold."
+      },
+      {
+       "q": "Accept “the notice is printed or the notice is sent electronically” inclusively, and also accept that “the notice is printed” is false. What follows?",
+       "r": "the notice is sent electronically is true.",
+       "w": [
+        "the notice is sent electronically is false.",
+        "the notice is printed is true.",
+        "Neither alternative’s truth is constrained."
+       ],
+       "e": [
+        "That would make both alternatives false, contrary to the accepted OR.",
+        "This contradicts the given denial of that alternative.",
+        "Denying one accepted alternative leaves the other required."
+       ],
+       "y": "The disjunction requires at least one true claim; the remaining claim must hold."
+      },
+      {
+       "q": "Accept “a learner chooses drawing or a learner chooses poetry” inclusively, and also accept that “a learner chooses drawing” is false. What follows?",
+       "r": "a learner chooses poetry is true.",
+       "w": [
+        "a learner chooses poetry is false.",
+        "a learner chooses drawing is true.",
+        "Neither alternative’s truth is constrained."
+       ],
+       "e": [
+        "That would make both alternatives false, contrary to the accepted OR.",
+        "This contradicts the given denial of that alternative.",
+        "Denying one accepted alternative leaves the other required."
+       ],
+       "y": "The disjunction requires at least one true claim; the remaining claim must hold."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-9-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "Inclusive OR allows both alternatives to be true.",
+      "truth": "true",
+      "explain": "This is a correct rule: Inclusive OR allows both alternatives to be true. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "Exclusive OR requires exactly one true alternative.",
+      "truth": "true",
+      "explain": "This is a correct rule: Exclusive OR requires exactly one true alternative. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "Inclusive OR is false when both alternatives are false.",
+      "truth": "true",
+      "explain": "This is a correct rule: Inclusive OR is false when both alternatives are false. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "If an accepted OR has one false alternative, the other must be true.",
+      "truth": "true",
+      "explain": "This is a correct rule: If an accepted OR has one false alternative, the other must be true. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Either in ordinary speech always settles the inclusive/exclusive reading without context.",
+      "truth": "false",
+      "explain": "Ordinary wording can be ambiguous; state the intended convention."
+     },
+     {
+      "text": "P OR Q and P alone entail not Q under inclusive OR.",
+      "truth": "false",
+      "explain": "Both may be true, so P does not exclude Q."
+     },
+     {
+      "text": "Inclusive OR requires both claims to be true.",
+      "truth": "false",
+      "explain": "That is AND; OR requires at least one."
+     },
+     {
+      "text": "Neither P nor Q means inclusive P OR Q.",
+      "truth": "false",
+      "explain": "Neither denies both alternatives rather than accepting at least one."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,671 @@
+{
+ "subject": "economics",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  3,
+  4
+ ],
+ "skills": [
+  {
+   "id": "n4-6",
+   "name": "Capital structure of companies"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Capital structure describes the financing mix, especially equity and longer-term debt. Equity includes owners’ funds and retained earnings; debt requires repayment under agreed terms. In the stated school share-capital model, authorised capital is the permitted nominal ceiling, issued capital the nominal value allocated, called capital the amount requested on issued shares, and paid-up capital the amount actually received. These are distinct from a share’s market price. Legal terminology and permitted payment schedules vary; the model does not announce an OHADA filing rule or minimum capital.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish equity from debt and relate nominal issued, called and paid-up capital in a stated textbook model. Builds on: shares, shareholder returns and company financing needs. Leads to: the practical calculation of capital amounts."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Capital structure describes the financing mix, especially equity and longer-term debt. Equity includes owners’ funds and retained earnings; debt requires repayment under agreed terms. In the stated school share-capital model, authorised capital is the permitted nominal ceiling, issued capital the nominal value allocated, called capital the amount requested on issued shares, and paid-up capital the amount actually received. These are distinct from a share’s market price. Legal terminology and permitted payment schedules vary; the model does not announce an OHADA filing rule or minimum capital."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "An invented company may issue nominal shares but request only a stated instalment. If some called funds are unpaid, paid-up capital is below called capital. It may also borrow or retain earnings; neither is another issue of shares. Ordinary shares carry a residual ownership claim; preference shares have stated preferential rights. A debenture is a debt instrument. Reserve capital in some textbook treatments is uncalled capital reserved for a specified event, not retained-profit reserves."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Label the quantity, value per share and stage first. In a consistent instalment example, authorised ≥ issued ≥ called ≥ paid-up nominal amounts. Check unpaid calls separately. Debt interest, preferred distributions and ordinary dividends have different terms; no payment is risk-free merely because the example names it."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "equity finance",
+    "meaning": "owners’ financing interests, including retained earnings"
+   },
+   {
+    "word": "debt finance",
+    "meaning": "borrowed funds repayable under agreed terms"
+   },
+   {
+    "word": "called capital",
+    "meaning": "the amount requested on issued shares in the stated instalment model"
+   },
+   {
+    "word": "paid-up capital",
+    "meaning": "the called share-capital amount actually received in the model"
+   }
+  ],
+  "mistake": {
+   "wrong": "Retained earnings are automatically a new bank loan.",
+   "right": "equity finance: owners’ financing interests, including retained earnings.",
+   "why": "Retaining profit is internal equity financing, not borrowing."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A model issues {50} shares of nominal {1000} CFA francs, calls {600} per share and has unpaid calls of {2000}. Find issued, called and paid-up capital.",
+  "steps": [
+   "Issued: {50} × {1000} = {50*1000}.",
+   "Called: {50} × {600} = {50*600}.",
+   "Paid-up: {50*600} − {2000} = {50*600-2000}."
+  ],
+  "answer": "Issued {50*1000}; called {50*600}; paid-up {50*600-2000} CFA francs.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n4-6-c1",
+    "status": "draft",
+    "idea": "Distinguish these features before judging a business.",
+    "vars": {},
+    "example": [
+     "equity finance: owners’ financing interests, including retained earnings.",
+     "debt finance: borrowed funds repayable under agreed terms.",
+     "called capital: the amount requested on issued shares in the stated instalment model.",
+     "paid-up capital: the called share-capital amount actually received in the model."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n4-6-terms"
+    }
+   },
+   {
+    "id": "n4-6-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "The company keeps some profits rather than distributing them.",
+     "A lender provides funds with a stated repayment obligation.",
+     "The company requests part of the nominal amount allocated.",
+     "Some holders have paid, while another called amount remains unpaid."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n4-6-cases"
+    }
+   },
+   {
+    "id": "n4-6-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "equity finance: Retaining profit is internal equity financing, not borrowing.",
+     "debt finance: A debt claim differs from an ordinary equity interest.",
+     "called capital: A request creates called capital; receipts determine paid-up capital.",
+     "paid-up capital: Only actual received share-capital contributions enter paid-up capital here."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n4-6-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "business"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The company keeps some profits rather than distributing them.\nWhich explanation is appropriate?",
+         "r": "Retaining profit is internal equity financing, not borrowing.",
+         "w": [
+          "A debt claim differs from an ordinary equity interest.",
+          "A request creates called capital; receipts determine paid-up capital.",
+          "Only actual received share-capital contributions enter paid-up capital here."
+         ],
+         "e": [
+          "That explanation addresses debt finance, rather than the feature described here.",
+          "That explanation addresses called capital, rather than the feature described here.",
+          "That explanation addresses paid-up capital, rather than the feature described here."
+         ],
+         "y": "Owners’ financing interests, including retained earnings."
+        },
+        {
+         "q": "A lender provides funds with a stated repayment obligation.\nWhich explanation is appropriate?",
+         "r": "A debt claim differs from an ordinary equity interest.",
+         "w": [
+          "Retaining profit is internal equity financing, not borrowing.",
+          "A request creates called capital; receipts determine paid-up capital.",
+          "Only actual received share-capital contributions enter paid-up capital here."
+         ],
+         "e": [
+          "That explanation addresses equity finance, rather than the feature described here.",
+          "That explanation addresses called capital, rather than the feature described here.",
+          "That explanation addresses paid-up capital, rather than the feature described here."
+         ],
+         "y": "Borrowed funds repayable under agreed terms."
+        },
+        {
+         "q": "The company requests part of the nominal amount allocated.\nWhich explanation is appropriate?",
+         "r": "A request creates called capital; receipts determine paid-up capital.",
+         "w": [
+          "Retaining profit is internal equity financing, not borrowing.",
+          "A debt claim differs from an ordinary equity interest.",
+          "Only actual received share-capital contributions enter paid-up capital here."
+         ],
+         "e": [
+          "That explanation addresses equity finance, rather than the feature described here.",
+          "That explanation addresses debt finance, rather than the feature described here.",
+          "That explanation addresses paid-up capital, rather than the feature described here."
+         ],
+         "y": "The amount requested on issued shares in the stated instalment model."
+        },
+        {
+         "q": "Some holders have paid, while another called amount remains unpaid.\nWhich explanation is appropriate?",
+         "r": "Only actual received share-capital contributions enter paid-up capital here.",
+         "w": [
+          "Retaining profit is internal equity financing, not borrowing.",
+          "A debt claim differs from an ordinary equity interest.",
+          "A request creates called capital; receipts determine paid-up capital."
+         ],
+         "e": [
+          "That explanation addresses equity finance, rather than the feature described here.",
+          "That explanation addresses debt finance, rather than the feature described here.",
+          "That explanation addresses called capital, rather than the feature described here."
+         ],
+         "y": "The called share-capital amount actually received in the model."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n4-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means owners’ financing interests, including retained earnings?",
+       "r": "equity finance",
+       "w": [
+        "debt finance",
+        "called capital",
+        "paid-up capital"
+       ],
+       "e": [
+        "debt finance concerns borrowed funds repayable under agreed terms, rather than the concept asked for.",
+        "called capital concerns the amount requested on issued shares in the stated instalment model, rather than the concept asked for.",
+        "paid-up capital concerns the called share-capital amount actually received in the model, rather than the concept asked for."
+       ],
+       "y": "Owners’ financing interests, including retained earnings."
+      },
+      {
+       "q": "Which term means borrowed funds repayable under agreed terms?",
+       "r": "debt finance",
+       "w": [
+        "equity finance",
+        "called capital",
+        "paid-up capital"
+       ],
+       "e": [
+        "equity finance concerns owners’ financing interests, including retained earnings, rather than the concept asked for.",
+        "called capital concerns the amount requested on issued shares in the stated instalment model, rather than the concept asked for.",
+        "paid-up capital concerns the called share-capital amount actually received in the model, rather than the concept asked for."
+       ],
+       "y": "Borrowed funds repayable under agreed terms."
+      },
+      {
+       "q": "Which term means the amount requested on issued shares in the stated instalment model?",
+       "r": "called capital",
+       "w": [
+        "equity finance",
+        "debt finance",
+        "paid-up capital"
+       ],
+       "e": [
+        "equity finance concerns owners’ financing interests, including retained earnings, rather than the concept asked for.",
+        "debt finance concerns borrowed funds repayable under agreed terms, rather than the concept asked for.",
+        "paid-up capital concerns the called share-capital amount actually received in the model, rather than the concept asked for."
+       ],
+       "y": "The amount requested on issued shares in the stated instalment model."
+      },
+      {
+       "q": "Which term means the called share-capital amount actually received in the model?",
+       "r": "paid-up capital",
+       "w": [
+        "equity finance",
+        "debt finance",
+        "called capital"
+       ],
+       "e": [
+        "equity finance concerns owners’ financing interests, including retained earnings, rather than the concept asked for.",
+        "debt finance concerns borrowed funds repayable under agreed terms, rather than the concept asked for.",
+        "called capital concerns the amount requested on issued shares in the stated instalment model, rather than the concept asked for."
+       ],
+       "y": "The called share-capital amount actually received in the model."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The company keeps some profits rather than distributing them.\nWhich concept best explains the highlighted feature?",
+       "r": "equity finance",
+       "w": [
+        "debt finance",
+        "called capital",
+        "paid-up capital"
+       ],
+       "e": [
+        "That concerns borrowed funds repayable under agreed terms. This case instead concerns owners’ financing interests, including retained earnings.",
+        "That concerns the amount requested on issued shares in the stated instalment model. This case instead concerns owners’ financing interests, including retained earnings.",
+        "That concerns the called share-capital amount actually received in the model. This case instead concerns owners’ financing interests, including retained earnings."
+       ],
+       "y": "Retaining profit is internal equity financing, not borrowing."
+      },
+      {
+       "q": "A lender provides funds with a stated repayment obligation.\nWhich concept best explains the highlighted feature?",
+       "r": "debt finance",
+       "w": [
+        "equity finance",
+        "called capital",
+        "paid-up capital"
+       ],
+       "e": [
+        "That concerns owners’ financing interests, including retained earnings. This case instead concerns borrowed funds repayable under agreed terms.",
+        "That concerns the amount requested on issued shares in the stated instalment model. This case instead concerns borrowed funds repayable under agreed terms.",
+        "That concerns the called share-capital amount actually received in the model. This case instead concerns borrowed funds repayable under agreed terms."
+       ],
+       "y": "A debt claim differs from an ordinary equity interest."
+      },
+      {
+       "q": "The company requests part of the nominal amount allocated.\nWhich concept best explains the highlighted feature?",
+       "r": "called capital",
+       "w": [
+        "equity finance",
+        "debt finance",
+        "paid-up capital"
+       ],
+       "e": [
+        "That concerns owners’ financing interests, including retained earnings. This case instead concerns the amount requested on issued shares in the stated instalment model.",
+        "That concerns borrowed funds repayable under agreed terms. This case instead concerns the amount requested on issued shares in the stated instalment model.",
+        "That concerns the called share-capital amount actually received in the model. This case instead concerns the amount requested on issued shares in the stated instalment model."
+       ],
+       "y": "A request creates called capital; receipts determine paid-up capital."
+      },
+      {
+       "q": "Some holders have paid, while another called amount remains unpaid.\nWhich concept best explains the highlighted feature?",
+       "r": "paid-up capital",
+       "w": [
+        "equity finance",
+        "debt finance",
+        "called capital"
+       ],
+       "e": [
+        "That concerns owners’ financing interests, including retained earnings. This case instead concerns the called share-capital amount actually received in the model.",
+        "That concerns borrowed funds repayable under agreed terms. This case instead concerns the called share-capital amount actually received in the model.",
+        "That concerns the amount requested on issued shares in the stated instalment model. This case instead concerns the called share-capital amount actually received in the model."
+       ],
+       "y": "Only actual received share-capital contributions enter paid-up capital here."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-6-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The company keeps some profits rather than distributing them.\nWhich explanation is appropriate?",
+       "r": "Retaining profit is internal equity financing, not borrowing.",
+       "w": [
+        "A debt claim differs from an ordinary equity interest.",
+        "A request creates called capital; receipts determine paid-up capital.",
+        "Only actual received share-capital contributions enter paid-up capital here."
+       ],
+       "e": [
+        "That explanation addresses debt finance, rather than the feature described here.",
+        "That explanation addresses called capital, rather than the feature described here.",
+        "That explanation addresses paid-up capital, rather than the feature described here."
+       ],
+       "y": "Owners’ financing interests, including retained earnings."
+      },
+      {
+       "q": "A lender provides funds with a stated repayment obligation.\nWhich explanation is appropriate?",
+       "r": "A debt claim differs from an ordinary equity interest.",
+       "w": [
+        "Retaining profit is internal equity financing, not borrowing.",
+        "A request creates called capital; receipts determine paid-up capital.",
+        "Only actual received share-capital contributions enter paid-up capital here."
+       ],
+       "e": [
+        "That explanation addresses equity finance, rather than the feature described here.",
+        "That explanation addresses called capital, rather than the feature described here.",
+        "That explanation addresses paid-up capital, rather than the feature described here."
+       ],
+       "y": "Borrowed funds repayable under agreed terms."
+      },
+      {
+       "q": "The company requests part of the nominal amount allocated.\nWhich explanation is appropriate?",
+       "r": "A request creates called capital; receipts determine paid-up capital.",
+       "w": [
+        "Retaining profit is internal equity financing, not borrowing.",
+        "A debt claim differs from an ordinary equity interest.",
+        "Only actual received share-capital contributions enter paid-up capital here."
+       ],
+       "e": [
+        "That explanation addresses equity finance, rather than the feature described here.",
+        "That explanation addresses debt finance, rather than the feature described here.",
+        "That explanation addresses paid-up capital, rather than the feature described here."
+       ],
+       "y": "The amount requested on issued shares in the stated instalment model."
+      },
+      {
+       "q": "Some holders have paid, while another called amount remains unpaid.\nWhich explanation is appropriate?",
+       "r": "Only actual received share-capital contributions enter paid-up capital here.",
+       "w": [
+        "Retaining profit is internal equity financing, not borrowing.",
+        "A debt claim differs from an ordinary equity interest.",
+        "A request creates called capital; receipts determine paid-up capital."
+       ],
+       "e": [
+        "That explanation addresses equity finance, rather than the feature described here.",
+        "That explanation addresses debt finance, rather than the feature described here.",
+        "That explanation addresses called capital, rather than the feature described here."
+       ],
+       "y": "The called share-capital amount actually received in the model."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n4-6-issued",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "issued": {
+     "int": [
+      30,
+      90
+     ]
+    },
+    "nominal": 1000,
+    "called": {
+     "pick": [
+      200,
+      400,
+      600,
+      800
+     ]
+    }
+   },
+   "prompt": "In a textbook capital model, {issued} shares of nominal value {nominal} CFA francs have been issued. Only {called} CFA francs per issued share has been called. Calculate nominal issued capital, not called capital.",
+   "answer": "issued*nominal",
+   "misconceptions": [
+    {
+     "id": "called",
+     "wrong": "issued*called",
+     "explain": "That is called capital, not full nominal issued capital."
+    },
+    {
+     "id": "single",
+     "wrong": "nominal",
+     "explain": "That is nominal value per share, not the whole issue."
+    }
+   ],
+   "solution": [
+    "Issued capital uses nominal value, even if only part has been called.",
+    "{issued} × {nominal} = {answer} CFA francs."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n4-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "business"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "equity finance: owners’ financing interests, including retained earnings.",
+      "truth": "true",
+      "explain": "This is correct: owners’ financing interests, including retained earnings. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "debt finance: borrowed funds repayable under agreed terms.",
+      "truth": "true",
+      "explain": "This is correct: borrowed funds repayable under agreed terms. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "called capital: the amount requested on issued shares in the stated instalment model.",
+      "truth": "true",
+      "explain": "This is correct: the amount requested on issued shares in the stated instalment model. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "paid-up capital: the called share-capital amount actually received in the model.",
+      "truth": "true",
+      "explain": "This is correct: the called share-capital amount actually received in the model. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Retained earnings are automatically a new bank loan.",
+      "truth": "false",
+      "explain": "Retaining profit is internal equity financing, not borrowing."
+     },
+     {
+      "text": "A loan always gives the lender an identical ordinary-share ownership interest.",
+      "truth": "false",
+      "explain": "A debt claim differs from an ordinary equity interest."
+     },
+     {
+      "text": "Calling an amount proves every holder has already paid it.",
+      "truth": "false",
+      "explain": "A request creates called capital; receipts determine paid-up capital."
+     },
+     {
+      "text": "Paid-up capital includes all amounts merely authorised but never issued.",
+      "truth": "false",
+      "explain": "Only actual received share-capital contributions enter paid-up capital here."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
