@@ -1,0 +1,836 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  4,
+  6,
+  8,
+  9
+ ],
+ "skills": [
+  {
+   "id": "l4-10",
+   "name": "Other propositions and translation into standard form"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Translate only by checking the direction of restriction; translate not all as some…not. Treat singular claims under an explicit convention and clarify indefinite scope. Preserve exceptions and both parts of compound claims rather than forcing every sentence into one blanket categorical statement.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to translate only and not all accurately, recognise singular and indefinite cases, and preserve an exception. Builds on: sentence parts, categorical forms, conditionals and disjunctions. Leads to: Term Two’s translation into symbolic logic and later argument analysis."
+   },
+   {
+    "heading": "Preserve scope, not word order",
+    "text": "Only club members are voters means All voters are club members: being a member is required for voting in the fictional rule. It does not say every member votes. Not all members are voters means Some members are not voters. Identify who is restricted, then choose subject, predicate, quantifier and quality. An accurate rewrite preserves meaning even when it changes word order."
+   },
+   {
+    "heading": "Singular and indefinite claims",
+    "text": "Bih is a member is singular: it concerns an individual. One explicit standardisation treats S as persons identical with Bih, giving All persons identical with Bih are members; assume the name denotes a person. Teachers should confirm their course’s singular convention. Members are readers, without an explicit quantifier, is indefinite in the traditional classroom sense. Ask whether context means all or some; do not guess from the plural alone."
+   },
+   {
+    "heading": "Do not erase an exception",
+    "text": "For this explicit rule, every library book except damaged library books is loanable, and none of the damaged books is loanable. Preserve both parts: All undamaged library books are loanable items; No damaged library books are loanable items. One blanket All library books are loanable items would erase the exception. Other compound claims may require more than one categorical statement, or the conditional/disjunctive forms just studied."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "exclusive categorical wording",
+    "meaning": "only restricts one class to another; distinct from exclusive OR"
+   },
+   {
+    "word": "singular",
+    "meaning": "concerning a specified individual"
+   },
+   {
+    "word": "indefinite",
+    "meaning": "lacking an explicit quantifier in this school terminology"
+   },
+   {
+    "word": "exceptive",
+    "meaning": "expressing an exception that must be preserved"
+   }
+  ],
+  "mistake": {
+   "wrong": "Only members are voters means every member votes.",
+   "right": "It means every voter is a member.",
+   "why": "Only makes membership necessary for being a voter, without asserting that all members vote."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Translate Only badge holders are club voters.",
+  "steps": [
+   "The restricted group is club voters.",
+   "Every club voter must be within the badge-holder class.",
+   "The claim leaves open whether all badge holders vote."
+  ],
+  "answer": "All club voters are badge holders.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-10-c1",
+    "status": "draft",
+    "idea": "Only S are P translates as All P are S.",
+    "vars": {},
+    "example": [
+     "Only members are voters: All voters are members."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-10-only"
+    }
+   },
+   {
+    "id": "l4-10-c2",
+    "status": "draft",
+    "idea": "A singular claim specifies an individual.",
+    "vars": {},
+    "example": [
+     "Bih is a member differs from an explicit all-members claim."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-10-singular"
+    }
+   },
+   {
+    "id": "l4-10-c3",
+    "status": "draft",
+    "idea": "Not all means at least one exception, not no members.",
+    "vars": {},
+    "example": [
+     "Not all S are P: Some S are not P."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-10-not-all-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "categorical"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Preserve the meaning of Not all club members are badge holders.",
+         "r": "Some club members are not badge holders.",
+         "w": [
+          "No club members are badge holders.",
+          "All club members are badge holders.",
+          "Some club members are badge holders."
+         ],
+         "e": [
+          "No excludes every shared member, stronger than not all.",
+          "That asserts what the original denies.",
+          "That affirms membership but does not supply the required exception."
+         ],
+         "y": "Denying universal inclusion requires an existing S outside P: O."
+        },
+        {
+         "q": "Preserve the meaning of Not all library books are loanable items.",
+         "r": "Some library books are not loanable items.",
+         "w": [
+          "No library books are loanable items.",
+          "All library books are loanable items.",
+          "Some library books are loanable items."
+         ],
+         "e": [
+          "No excludes every shared member, stronger than not all.",
+          "That asserts what the original denies.",
+          "That affirms membership but does not supply the required exception."
+         ],
+         "y": "Denying universal inclusion requires an existing S outside P: O."
+        },
+        {
+         "q": "Preserve the meaning of Not all school gardens are cultivated areas.",
+         "r": "Some school gardens are not cultivated areas.",
+         "w": [
+          "No school gardens are cultivated areas.",
+          "All school gardens are cultivated areas.",
+          "Some school gardens are cultivated areas."
+         ],
+         "e": [
+          "No excludes every shared member, stronger than not all.",
+          "That asserts what the original denies.",
+          "That affirms membership but does not supply the required exception."
+         ],
+         "y": "Denying universal inclusion requires an existing S outside P: O."
+        },
+        {
+         "q": "Preserve the meaning of Not all reading rooms are quiet places.",
+         "r": "Some reading rooms are not quiet places.",
+         "w": [
+          "No reading rooms are quiet places.",
+          "All reading rooms are quiet places.",
+          "Some reading rooms are quiet places."
+         ],
+         "e": [
+          "No excludes every shared member, stronger than not all.",
+          "That asserts what the original denies.",
+          "That affirms membership but does not supply the required exception."
+         ],
+         "y": "Denying universal inclusion requires an existing S outside P: O."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-10-only",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Translate Only club members are badge holders into standard form.",
+       "r": "All badge holders are club members.",
+       "w": [
+        "All club members are badge holders.",
+        "No badge holders are club members.",
+        "Some club members are not badge holders."
+       ],
+       "e": [
+        "That reverses the restriction: only S permits P only within S.",
+        "That denies the membership required by only.",
+        "The original does not assert an existing counterexample within S."
+       ],
+       "y": "Only restricts who may belong to the predicate class: every P must be S."
+      },
+      {
+       "q": "Translate Only library books are loanable items into standard form.",
+       "r": "All loanable items are library books.",
+       "w": [
+        "All library books are loanable items.",
+        "No loanable items are library books.",
+        "Some library books are not loanable items."
+       ],
+       "e": [
+        "That reverses the restriction: only S permits P only within S.",
+        "That denies the membership required by only.",
+        "The original does not assert an existing counterexample within S."
+       ],
+       "y": "Only restricts who may belong to the predicate class: every P must be S."
+      },
+      {
+       "q": "Translate Only school gardens are cultivated areas into standard form.",
+       "r": "All cultivated areas are school gardens.",
+       "w": [
+        "All school gardens are cultivated areas.",
+        "No cultivated areas are school gardens.",
+        "Some school gardens are not cultivated areas."
+       ],
+       "e": [
+        "That reverses the restriction: only S permits P only within S.",
+        "That denies the membership required by only.",
+        "The original does not assert an existing counterexample within S."
+       ],
+       "y": "Only restricts who may belong to the predicate class: every P must be S."
+      },
+      {
+       "q": "Translate Only reading rooms are quiet places into standard form.",
+       "r": "All quiet places are reading rooms.",
+       "w": [
+        "All reading rooms are quiet places.",
+        "No quiet places are reading rooms.",
+        "Some reading rooms are not quiet places."
+       ],
+       "e": [
+        "That reverses the restriction: only S permits P only within S.",
+        "That denies the membership required by only.",
+        "The original does not assert an existing counterexample within S."
+       ],
+       "y": "Only restricts who may belong to the predicate class: every P must be S."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-10-singular",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "“Bih is a club member” is singular. Why?",
+       "r": "It makes a claim about a named individual.",
+       "w": [
+        "It explicitly quantifies every person.",
+        "It is automatically a question.",
+        "It asserts at least one exception to membership."
+       ],
+       "e": [
+        "The sentence concerns the named individual, not everyone.",
+        "It is written as an assertion.",
+        "The sentence affirms membership and provides no exception."
+       ],
+       "y": "Singular concerns a specified individual; its classroom standardisation convention must be stated."
+      },
+      {
+       "q": "“Ayuk is a reader” is singular. Why?",
+       "r": "It makes a claim about a named individual.",
+       "w": [
+        "It explicitly quantifies every person.",
+        "It is automatically a question.",
+        "It asserts at least one exception to membership."
+       ],
+       "e": [
+        "The sentence concerns the named individual, not everyone.",
+        "It is written as an assertion.",
+        "The sentence affirms membership and provides no exception."
+       ],
+       "y": "Singular concerns a specified individual; its classroom standardisation convention must be stated."
+      },
+      {
+       "q": "“Ngozi is a participant” is singular. Why?",
+       "r": "It makes a claim about a named individual.",
+       "w": [
+        "It explicitly quantifies every person.",
+        "It is automatically a question.",
+        "It asserts at least one exception to membership."
+       ],
+       "e": [
+        "The sentence concerns the named individual, not everyone.",
+        "It is written as an assertion.",
+        "The sentence affirms membership and provides no exception."
+       ],
+       "y": "Singular concerns a specified individual; its classroom standardisation convention must be stated."
+      },
+      {
+       "q": "“Nji is a badge holder” is singular. Why?",
+       "r": "It makes a claim about a named individual.",
+       "w": [
+        "It explicitly quantifies every person.",
+        "It is automatically a question.",
+        "It asserts at least one exception to membership."
+       ],
+       "e": [
+        "The sentence concerns the named individual, not everyone.",
+        "It is written as an assertion.",
+        "The sentence affirms membership and provides no exception."
+       ],
+       "y": "Singular concerns a specified individual; its classroom standardisation convention must be stated."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-10-not-all",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Preserve the meaning of Not all club members are badge holders.",
+       "r": "Some club members are not badge holders.",
+       "w": [
+        "No club members are badge holders.",
+        "All club members are badge holders.",
+        "Some club members are badge holders."
+       ],
+       "e": [
+        "No excludes every shared member, stronger than not all.",
+        "That asserts what the original denies.",
+        "That affirms membership but does not supply the required exception."
+       ],
+       "y": "Denying universal inclusion requires an existing S outside P: O."
+      },
+      {
+       "q": "Preserve the meaning of Not all library books are loanable items.",
+       "r": "Some library books are not loanable items.",
+       "w": [
+        "No library books are loanable items.",
+        "All library books are loanable items.",
+        "Some library books are loanable items."
+       ],
+       "e": [
+        "No excludes every shared member, stronger than not all.",
+        "That asserts what the original denies.",
+        "That affirms membership but does not supply the required exception."
+       ],
+       "y": "Denying universal inclusion requires an existing S outside P: O."
+      },
+      {
+       "q": "Preserve the meaning of Not all school gardens are cultivated areas.",
+       "r": "Some school gardens are not cultivated areas.",
+       "w": [
+        "No school gardens are cultivated areas.",
+        "All school gardens are cultivated areas.",
+        "Some school gardens are cultivated areas."
+       ],
+       "e": [
+        "No excludes every shared member, stronger than not all.",
+        "That asserts what the original denies.",
+        "That affirms membership but does not supply the required exception."
+       ],
+       "y": "Denying universal inclusion requires an existing S outside P: O."
+      },
+      {
+       "q": "Preserve the meaning of Not all reading rooms are quiet places.",
+       "r": "Some reading rooms are not quiet places.",
+       "w": [
+        "No reading rooms are quiet places.",
+        "All reading rooms are quiet places.",
+        "Some reading rooms are quiet places."
+       ],
+       "e": [
+        "No excludes every shared member, stronger than not all.",
+        "That asserts what the original denies.",
+        "That affirms membership but does not supply the required exception."
+       ],
+       "y": "Denying universal inclusion requires an existing S outside P: O."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-10-indefinite",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The isolated sentence “Club members are badge holders” gives no explicit quantifier. What should you do before fixing A or I?",
+       "r": "Ask whether the context intends every subject member or merely some.",
+       "w": [
+        "Always force A because every plural noun means all.",
+        "Always force I because all indefinite sentences mean some but not all.",
+        "Treat it as E solely because the quantifier is missing."
+       ],
+       "e": [
+        "Plural wording alone does not settle universal scope.",
+        "That invents both a fixed quantifier and a not-all restriction.",
+        "A missing quantifier does not establish universal denial."
+       ],
+       "y": "An indefinite statement needs contextual scope; do not manufacture certainty from missing information."
+      },
+      {
+       "q": "The isolated sentence “Library books are loanable items” gives no explicit quantifier. What should you do before fixing A or I?",
+       "r": "Ask whether the context intends every subject member or merely some.",
+       "w": [
+        "Always force A because every plural noun means all.",
+        "Always force I because all indefinite sentences mean some but not all.",
+        "Treat it as E solely because the quantifier is missing."
+       ],
+       "e": [
+        "Plural wording alone does not settle universal scope.",
+        "That invents both a fixed quantifier and a not-all restriction.",
+        "A missing quantifier does not establish universal denial."
+       ],
+       "y": "An indefinite statement needs contextual scope; do not manufacture certainty from missing information."
+      },
+      {
+       "q": "The isolated sentence “School gardens are cultivated areas” gives no explicit quantifier. What should you do before fixing A or I?",
+       "r": "Ask whether the context intends every subject member or merely some.",
+       "w": [
+        "Always force A because every plural noun means all.",
+        "Always force I because all indefinite sentences mean some but not all.",
+        "Treat it as E solely because the quantifier is missing."
+       ],
+       "e": [
+        "Plural wording alone does not settle universal scope.",
+        "That invents both a fixed quantifier and a not-all restriction.",
+        "A missing quantifier does not establish universal denial."
+       ],
+       "y": "An indefinite statement needs contextual scope; do not manufacture certainty from missing information."
+      },
+      {
+       "q": "The isolated sentence “Reading rooms are quiet places” gives no explicit quantifier. What should you do before fixing A or I?",
+       "r": "Ask whether the context intends every subject member or merely some.",
+       "w": [
+        "Always force A because every plural noun means all.",
+        "Always force I because all indefinite sentences mean some but not all.",
+        "Treat it as E solely because the quantifier is missing."
+       ],
+       "e": [
+        "Plural wording alone does not settle universal scope.",
+        "That invents both a fixed quantifier and a not-all restriction.",
+        "A missing quantifier does not establish universal denial."
+       ],
+       "y": "An indefinite statement needs contextual scope; do not manufacture certainty from missing information."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-10-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "Only S are P restricts every P to S.",
+      "truth": "true",
+      "explain": "This is a correct rule: Only S are P restricts every P to S. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "Not all S are P has O meaning.",
+      "truth": "true",
+      "explain": "This is a correct rule: Not all S are P has O meaning. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "A singular proposition concerns a specified individual.",
+      "truth": "true",
+      "explain": "This is a correct rule: A singular proposition concerns a specified individual. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "An unclear quantifier may need contextual clarification.",
+      "truth": "true",
+      "explain": "This is a correct rule: An unclear quantifier may need contextual clarification. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Only S are P always translates as All S are P.",
+      "truth": "false",
+      "explain": "Preserve the restriction: All P are S, not the reverse."
+     },
+     {
+      "text": "An indefinite plural sentence always explicitly asserts all.",
+      "truth": "false",
+      "explain": "The intended scope needs context; a plural noun is not an explicit all."
+     },
+     {
+      "text": "All S except Q are P is fully preserved by simply writing All S are P.",
+      "truth": "false",
+      "explain": "That discards the exception. The permitted S and the excluded Q need separate treatment."
+     },
+     {
+      "text": "A single A/E/I/O sentence always preserves every compound ordinary-language claim.",
+      "truth": "false",
+      "explain": "Some claims need more than one categorical statement, or a compound symbolic form."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  },
+  {
+   "id": "l4-10-exceptions",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fictional rule says: All club members outside the excluded group are voters, and none of the excluded club members are voters. Which rewrite preserves both parts?",
+       "r": "All non-excluded club members are voters; no excluded club members are voters.",
+       "w": [
+        "All club members are voters.",
+        "No club members are voters.",
+        "All voters are club members."
+       ],
+       "e": [
+        "This erases the stated excluded group.",
+        "This erases the permitted non-excluded group.",
+        "This reverses class inclusion and says nothing about the exception."
+       ],
+       "y": "Keep both the affirmative rule for the non-excluded class and the negative rule for the excluded class."
+      },
+      {
+       "q": "A fictional rule says: All library books outside the excluded group are loanable items, and none of the excluded library books are loanable items. Which rewrite preserves both parts?",
+       "r": "All non-excluded library books are loanable items; no excluded library books are loanable items.",
+       "w": [
+        "All library books are loanable items.",
+        "No library books are loanable items.",
+        "All loanable items are library books."
+       ],
+       "e": [
+        "This erases the stated excluded group.",
+        "This erases the permitted non-excluded group.",
+        "This reverses class inclusion and says nothing about the exception."
+       ],
+       "y": "Keep both the affirmative rule for the non-excluded class and the negative rule for the excluded class."
+      },
+      {
+       "q": "A fictional rule says: All school rooms outside the excluded group are available spaces, and none of the excluded school rooms are available spaces. Which rewrite preserves both parts?",
+       "r": "All non-excluded school rooms are available spaces; no excluded school rooms are available spaces.",
+       "w": [
+        "All school rooms are available spaces.",
+        "No school rooms are available spaces.",
+        "All available spaces are school rooms."
+       ],
+       "e": [
+        "This erases the stated excluded group.",
+        "This erases the permitted non-excluded group.",
+        "This reverses class inclusion and says nothing about the exception."
+       ],
+       "y": "Keep both the affirmative rule for the non-excluded class and the negative rule for the excluded class."
+      },
+      {
+       "q": "A fictional rule says: All submitted forms outside the excluded group are processable items, and none of the excluded submitted forms are processable items. Which rewrite preserves both parts?",
+       "r": "All non-excluded submitted forms are processable items; no excluded submitted forms are processable items.",
+       "w": [
+        "All submitted forms are processable items.",
+        "No submitted forms are processable items.",
+        "All processable items are submitted forms."
+       ],
+       "e": [
+        "This erases the stated excluded group.",
+        "This erases the permitted non-excluded group.",
+        "This reverses class inclusion and says nothing about the exception."
+       ],
+       "y": "Keep both the affirmative rule for the non-excluded class and the negative rule for the excluded class."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

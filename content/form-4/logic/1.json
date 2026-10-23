@@ -1,0 +1,1085 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "l4-1",
+   "name": "Structure of a proposition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A proposition asserts something. In standard categorical form, distinguish quantifier, subject term, copula and predicate term. Keep multiword terms intact. Parsing a claim does not verify its truth.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to separate quantifier, subject term, copula and predicate term in a standard categorical statement. Builds on: Form Three’s distinction between a term, a judgment and an argument. Leads to: categorical propositions, where these parts express a relation between classes."
+   },
+   {
+    "heading": "A claim has a structure",
+    "text": "A proposition expresses an assertion that can be true or false. A question or command does not automatically assert a proposition. The standard categorical model makes its parts visible: quantifier + subject term + copula + predicate term. The quantifier sets the scope; the subject names the class discussed; the copula links; the predicate names the class attributed or denied. Other propositions need different analyses, which come later."
+   },
+   {
+    "heading": "Follow the parts in a local example",
+    "text": "In an invented Buea club rule, All club members are badge holders, All is the quantifier, club members the subject term, are the copula and badge holders the predicate term. Both class expressions contain several words. A term is not restricted to one word, and naming the parts does not prove the club actually follows that rule."
+   },
+   {
+    "heading": "Keep whole terms together",
+    "text": "First identify what class is discussed. Then locate the relation and the class attributed to it. Finally check the quantifier. In Some library books are not loanable items, library books is the subject, loanable items the predicate and are not the negative copula in this school model. The words not and are do not create a new class name."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quantifier",
+    "meaning": "how much of the subject class is covered"
+   },
+   {
+    "word": "subject term",
+    "meaning": "the class about which the claim is made"
+   },
+   {
+    "word": "copula",
+    "meaning": "the linking expression joining subject and predicate"
+   },
+   {
+    "word": "predicate term",
+    "meaning": "the class attributed to, or denied of, the subject"
+   }
+  ],
+  "mistake": {
+   "wrong": "Each word is a separate logical term.",
+   "right": "Club members is one multiword term.",
+   "why": "Logical function depends on the expression’s role, not its word count."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Parse All library books are loanable items.",
+  "steps": [
+   "All states the scope.",
+   "Library books names the class discussed.",
+   "Are links that class to loanable items."
+  ],
+  "answer": "Quantifier: All; subject: library books; copula: are; predicate: loanable items.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-1-c1",
+    "status": "draft",
+    "idea": "Each part has a different job.",
+    "vars": {},
+    "example": [
+     "quantifier: All — how much of the subject class is covered.",
+     "subject term: club members — the class about which the claim is made.",
+     "copula: are — the linking expression joining subject and predicate.",
+     "predicate term: badge holders — the class attributed to, or denied of, the subject."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-1-parts"
+    }
+   },
+   {
+    "id": "l4-1-c2",
+    "status": "draft",
+    "idea": "The subject is the whole class being discussed.",
+    "vars": {},
+    "example": [
+     "All library books are loanable items: library books is the subject."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-1-subject"
+    }
+   },
+   {
+    "id": "l4-1-c3",
+    "status": "draft",
+    "idea": "A logical term can contain several words.",
+    "vars": {},
+    "example": [
+     "School gardens and cultivated areas each function as a term."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-1-boundaries-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "categorical"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "In “All club members are badge holders,” which expression is one complete logical term?",
+         "r": "club members",
+         "w": [
+          "All",
+          "are",
+          "All are"
+         ],
+         "e": [
+          "All is the quantifier.",
+          "Are is the copula.",
+          "This combines separate functions and omits the class expression."
+         ],
+         "y": "A logical term may contain several words while naming one class."
+        },
+        {
+         "q": "In “All library books are loanable items,” which expression is one complete logical term?",
+         "r": "library books",
+         "w": [
+          "All",
+          "are",
+          "All are"
+         ],
+         "e": [
+          "All is the quantifier.",
+          "Are is the copula.",
+          "This combines separate functions and omits the class expression."
+         ],
+         "y": "A logical term may contain several words while naming one class."
+        },
+        {
+         "q": "In “All school gardens are cultivated areas,” which expression is one complete logical term?",
+         "r": "school gardens",
+         "w": [
+          "All",
+          "are",
+          "All are"
+         ],
+         "e": [
+          "All is the quantifier.",
+          "Are is the copula.",
+          "This combines separate functions and omits the class expression."
+         ],
+         "y": "A logical term may contain several words while naming one class."
+        },
+        {
+         "q": "In “All reading rooms are quiet places,” which expression is one complete logical term?",
+         "r": "reading rooms",
+         "w": [
+          "All",
+          "are",
+          "All are"
+         ],
+         "e": [
+          "All is the quantifier.",
+          "Are is the copula.",
+          "This combines separate functions and omits the class expression."
+         ],
+         "y": "A logical term may contain several words while naming one class."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-1-parts",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In All club members are badge holders, what is the role of “All”?",
+       "r": "quantifier",
+       "w": [
+        "subject term",
+        "copula",
+        "predicate term"
+       ],
+       "e": [
+        "That role concerns the class about which the claim is made, rather than the selected expression.",
+        "That role concerns the linking expression joining subject and predicate, rather than the selected expression.",
+        "That role concerns the class attributed to, or denied of, the subject, rather than the selected expression."
+       ],
+       "y": "how much of the subject class is covered."
+      },
+      {
+       "q": "In All club members are badge holders, what is the role of “club members”?",
+       "r": "subject term",
+       "w": [
+        "quantifier",
+        "copula",
+        "predicate term"
+       ],
+       "e": [
+        "That role concerns how much of the subject class is covered, rather than the selected expression.",
+        "That role concerns the linking expression joining subject and predicate, rather than the selected expression.",
+        "That role concerns the class attributed to, or denied of, the subject, rather than the selected expression."
+       ],
+       "y": "the class about which the claim is made."
+      },
+      {
+       "q": "In All club members are badge holders, what is the role of “are”?",
+       "r": "copula",
+       "w": [
+        "quantifier",
+        "subject term",
+        "predicate term"
+       ],
+       "e": [
+        "That role concerns how much of the subject class is covered, rather than the selected expression.",
+        "That role concerns the class about which the claim is made, rather than the selected expression.",
+        "That role concerns the class attributed to, or denied of, the subject, rather than the selected expression."
+       ],
+       "y": "the linking expression joining subject and predicate."
+      },
+      {
+       "q": "In All club members are badge holders, what is the role of “badge holders”?",
+       "r": "predicate term",
+       "w": [
+        "quantifier",
+        "subject term",
+        "copula"
+       ],
+       "e": [
+        "That role concerns how much of the subject class is covered, rather than the selected expression.",
+        "That role concerns the class about which the claim is made, rather than the selected expression.",
+        "That role concerns the linking expression joining subject and predicate, rather than the selected expression."
+       ],
+       "y": "the class attributed to, or denied of, the subject."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-1-subject",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Identify the subject term: All club members are badge holders.",
+       "r": "club members",
+       "w": [
+        "badge holders",
+        "All",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about club members.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class club members."
+      },
+      {
+       "q": "Identify the subject term: No club members are badge holders.",
+       "r": "club members",
+       "w": [
+        "badge holders",
+        "No",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about club members.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class club members."
+      },
+      {
+       "q": "Identify the subject term: Some club members are badge holders.",
+       "r": "club members",
+       "w": [
+        "badge holders",
+        "Some",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about club members.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class club members."
+      },
+      {
+       "q": "Identify the subject term: Some club members are not badge holders.",
+       "r": "club members",
+       "w": [
+        "badge holders",
+        "Some",
+        "are not"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about club members.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class club members."
+      },
+      {
+       "q": "Identify the subject term: All library books are loanable items.",
+       "r": "library books",
+       "w": [
+        "loanable items",
+        "All",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about library books.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class library books."
+      },
+      {
+       "q": "Identify the subject term: No library books are loanable items.",
+       "r": "library books",
+       "w": [
+        "loanable items",
+        "No",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about library books.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class library books."
+      },
+      {
+       "q": "Identify the subject term: Some library books are loanable items.",
+       "r": "library books",
+       "w": [
+        "loanable items",
+        "Some",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about library books.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class library books."
+      },
+      {
+       "q": "Identify the subject term: Some library books are not loanable items.",
+       "r": "library books",
+       "w": [
+        "loanable items",
+        "Some",
+        "are not"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about library books.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class library books."
+      },
+      {
+       "q": "Identify the subject term: All school gardens are cultivated areas.",
+       "r": "school gardens",
+       "w": [
+        "cultivated areas",
+        "All",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about school gardens.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class school gardens."
+      },
+      {
+       "q": "Identify the subject term: No school gardens are cultivated areas.",
+       "r": "school gardens",
+       "w": [
+        "cultivated areas",
+        "No",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about school gardens.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class school gardens."
+      },
+      {
+       "q": "Identify the subject term: Some school gardens are cultivated areas.",
+       "r": "school gardens",
+       "w": [
+        "cultivated areas",
+        "Some",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about school gardens.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class school gardens."
+      },
+      {
+       "q": "Identify the subject term: Some school gardens are not cultivated areas.",
+       "r": "school gardens",
+       "w": [
+        "cultivated areas",
+        "Some",
+        "are not"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about school gardens.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class school gardens."
+      },
+      {
+       "q": "Identify the subject term: All reading rooms are quiet places.",
+       "r": "reading rooms",
+       "w": [
+        "quiet places",
+        "All",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about reading rooms.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class reading rooms."
+      },
+      {
+       "q": "Identify the subject term: No reading rooms are quiet places.",
+       "r": "reading rooms",
+       "w": [
+        "quiet places",
+        "No",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about reading rooms.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class reading rooms."
+      },
+      {
+       "q": "Identify the subject term: Some reading rooms are quiet places.",
+       "r": "reading rooms",
+       "w": [
+        "quiet places",
+        "Some",
+        "are"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about reading rooms.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class reading rooms."
+      },
+      {
+       "q": "Identify the subject term: Some reading rooms are not quiet places.",
+       "r": "reading rooms",
+       "w": [
+        "quiet places",
+        "Some",
+        "are not"
+       ],
+       "e": [
+        "That is the predicate class; the claim is made about reading rooms.",
+        "That is a quantifier, not the complete subject term.",
+        "The linking expression is not the subject class."
+       ],
+       "y": "The claim concerns the class reading rooms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-1-predicate",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Identify the complete predicate term: All club members are badge holders.",
+       "r": "badge holders",
+       "w": [
+        "club members",
+        "are",
+        "All club members are badge holders."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression badge holders."
+      },
+      {
+       "q": "Identify the complete predicate term: No club members are badge holders.",
+       "r": "badge holders",
+       "w": [
+        "club members",
+        "are",
+        "No club members are badge holders."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression badge holders."
+      },
+      {
+       "q": "Identify the complete predicate term: Some club members are badge holders.",
+       "r": "badge holders",
+       "w": [
+        "club members",
+        "are",
+        "Some club members are badge holders."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression badge holders."
+      },
+      {
+       "q": "Identify the complete predicate term: Some club members are not badge holders.",
+       "r": "badge holders",
+       "w": [
+        "club members",
+        "are not",
+        "Some club members are not badge holders."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression badge holders."
+      },
+      {
+       "q": "Identify the complete predicate term: All library books are loanable items.",
+       "r": "loanable items",
+       "w": [
+        "library books",
+        "are",
+        "All library books are loanable items."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression loanable items."
+      },
+      {
+       "q": "Identify the complete predicate term: No library books are loanable items.",
+       "r": "loanable items",
+       "w": [
+        "library books",
+        "are",
+        "No library books are loanable items."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression loanable items."
+      },
+      {
+       "q": "Identify the complete predicate term: Some library books are loanable items.",
+       "r": "loanable items",
+       "w": [
+        "library books",
+        "are",
+        "Some library books are loanable items."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression loanable items."
+      },
+      {
+       "q": "Identify the complete predicate term: Some library books are not loanable items.",
+       "r": "loanable items",
+       "w": [
+        "library books",
+        "are not",
+        "Some library books are not loanable items."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression loanable items."
+      },
+      {
+       "q": "Identify the complete predicate term: All school gardens are cultivated areas.",
+       "r": "cultivated areas",
+       "w": [
+        "school gardens",
+        "are",
+        "All school gardens are cultivated areas."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression cultivated areas."
+      },
+      {
+       "q": "Identify the complete predicate term: No school gardens are cultivated areas.",
+       "r": "cultivated areas",
+       "w": [
+        "school gardens",
+        "are",
+        "No school gardens are cultivated areas."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression cultivated areas."
+      },
+      {
+       "q": "Identify the complete predicate term: Some school gardens are cultivated areas.",
+       "r": "cultivated areas",
+       "w": [
+        "school gardens",
+        "are",
+        "Some school gardens are cultivated areas."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression cultivated areas."
+      },
+      {
+       "q": "Identify the complete predicate term: Some school gardens are not cultivated areas.",
+       "r": "cultivated areas",
+       "w": [
+        "school gardens",
+        "are not",
+        "Some school gardens are not cultivated areas."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression cultivated areas."
+      },
+      {
+       "q": "Identify the complete predicate term: All reading rooms are quiet places.",
+       "r": "quiet places",
+       "w": [
+        "reading rooms",
+        "are",
+        "All reading rooms are quiet places."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression quiet places."
+      },
+      {
+       "q": "Identify the complete predicate term: No reading rooms are quiet places.",
+       "r": "quiet places",
+       "w": [
+        "reading rooms",
+        "are",
+        "No reading rooms are quiet places."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression quiet places."
+      },
+      {
+       "q": "Identify the complete predicate term: Some reading rooms are quiet places.",
+       "r": "quiet places",
+       "w": [
+        "reading rooms",
+        "are",
+        "Some reading rooms are quiet places."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression quiet places."
+      },
+      {
+       "q": "Identify the complete predicate term: Some reading rooms are not quiet places.",
+       "r": "quiet places",
+       "w": [
+        "reading rooms",
+        "are not",
+        "Some reading rooms are not quiet places."
+       ],
+       "e": [
+        "That is the subject class, not the predicate.",
+        "The copula links the classes but is not the predicate class.",
+        "The whole proposition includes more than its predicate term."
+       ],
+       "y": "Keep the complete class expression quiet places."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-1-boundaries",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In “All club members are badge holders,” which expression is one complete logical term?",
+       "r": "club members",
+       "w": [
+        "All",
+        "are",
+        "All are"
+       ],
+       "e": [
+        "All is the quantifier.",
+        "Are is the copula.",
+        "This combines separate functions and omits the class expression."
+       ],
+       "y": "A logical term may contain several words while naming one class."
+      },
+      {
+       "q": "In “All library books are loanable items,” which expression is one complete logical term?",
+       "r": "library books",
+       "w": [
+        "All",
+        "are",
+        "All are"
+       ],
+       "e": [
+        "All is the quantifier.",
+        "Are is the copula.",
+        "This combines separate functions and omits the class expression."
+       ],
+       "y": "A logical term may contain several words while naming one class."
+      },
+      {
+       "q": "In “All school gardens are cultivated areas,” which expression is one complete logical term?",
+       "r": "school gardens",
+       "w": [
+        "All",
+        "are",
+        "All are"
+       ],
+       "e": [
+        "All is the quantifier.",
+        "Are is the copula.",
+        "This combines separate functions and omits the class expression."
+       ],
+       "y": "A logical term may contain several words while naming one class."
+      },
+      {
+       "q": "In “All reading rooms are quiet places,” which expression is one complete logical term?",
+       "r": "reading rooms",
+       "w": [
+        "All",
+        "are",
+        "All are"
+       ],
+       "e": [
+        "All is the quantifier.",
+        "Are is the copula.",
+        "This combines separate functions and omits the class expression."
+       ],
+       "y": "A logical term may contain several words while naming one class."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-1-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "A logical term can contain several words.",
+      "truth": "true",
+      "explain": "This is a correct rule: A logical term can contain several words. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "A quantifier indicates scope over the subject class.",
+      "truth": "true",
+      "explain": "This is a correct rule: A quantifier indicates scope over the subject class. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "A proposition makes a claim that can be true or false.",
+      "truth": "true",
+      "explain": "This is a correct rule: A proposition makes a claim that can be true or false. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "The copula connects the subject and predicate in this model.",
+      "truth": "true",
+      "explain": "This is a correct rule: The copula connects the subject and predicate in this model. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every individual word is a separate complete logical term.",
+      "truth": "false",
+      "explain": "Club members is a multiword expression functioning as one term."
+     },
+     {
+      "text": "The predicate is always the person speaking.",
+      "truth": "false",
+      "explain": "The predicate term names the class attributed to or denied of the subject."
+     },
+     {
+      "text": "A question is a true-or-false assertion merely because it ends with a sign.",
+      "truth": "false",
+      "explain": "A question asks for information; it does not by itself assert the requested claim."
+     },
+     {
+      "text": "Identifying sentence parts establishes the factual truth of a claim.",
+      "truth": "false",
+      "explain": "Parsing establishes structure; checking the facts is a separate task."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

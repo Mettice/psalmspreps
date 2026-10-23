@@ -1,0 +1,664 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  2,
+  4
+ ],
+ "skills": [
+  {
+   "id": "l4-8",
+   "name": "Hypothetical or conditional propositions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A conditional links antecedent to consequent without asserting either separately. Material implication is false only for true P and false Q. Preserve direction, distinguish necessary from sufficient, and do not confuse a truth function with causal evidence.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify antecedent and consequent, preserve the direction of a condition and recognise its counterexample. Builds on: a proposition as a truth-valued claim; categorical inclusion as a directed relation. Leads to: disjunctions and the later symbolic-logic truth tables."
+   },
+   {
+    "heading": "A compound with a direction",
+    "text": "If P then Q is a conditional: P is the antecedent and Q the consequent. Under the stated rule, P is sufficient for Q and Q necessary for P. The rule does not assert P, and it does not automatically reverse. If a fictional club meets, then its room is reserved does not say a reserved room guarantees a club meeting."
+   },
+   {
+    "heading": "Find the violating case",
+    "text": "For the material-conditional convention, the conditional is false only when P is true and Q false. True/true, false/true and false/false do not refute it. A false antecedent does not establish that a real causal explanation is good: truth-functional evaluation and causal evidence are different questions. These exercises state their convention explicitly."
+   },
+   {
+    "heading": "Use the relation carefully",
+    "text": "A club meeting without the required reservation refutes the invented rule. A reservation without a meeting need not refute it: another group could have booked the room. Do not infer P from Q alone. When translating only if, the condition following only if is necessary: P only if Q becomes If P then Q."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "antecedent",
+    "meaning": "the condition following if"
+   },
+   {
+    "word": "consequent",
+    "meaning": "the clause following then"
+   },
+   {
+    "word": "sufficient condition",
+    "meaning": "one that guarantees the consequent under the stated rule"
+   },
+   {
+    "word": "counterexample",
+    "meaning": "a case fulfilling P without Q"
+   }
+  ],
+  "mistake": {
+   "wrong": "If P then Q permits inferring P just from Q.",
+   "right": "The direction is from P to Q; the converse needs support.",
+   "why": "Q can be true for another reason."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A fictional rule says: If the club meets, the room is reserved. The room is reserved. Must the club meet?",
+  "steps": [
+   "P is the meeting; Q is the reservation.",
+   "The rule forbids P without Q.",
+   "Q without P remains possible: another activity may use the reservation."
+  ],
+  "answer": "No. Inferring P from Q alone reverses the rule.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-8-c1",
+    "status": "draft",
+    "idea": "Identify the if-clause before evaluating the whole claim.",
+    "vars": {},
+    "example": [
+     "If the club meets, the room is reserved: club meets is the antecedent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-8-antecedent"
+    }
+   },
+   {
+    "id": "l4-8-c2",
+    "status": "draft",
+    "idea": "The antecedent is sufficient for the consequent under the rule.",
+    "vars": {},
+    "example": [
+     "The reverse direction requires a separate rule."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-8-conditions"
+    }
+   },
+   {
+    "id": "l4-8-c3",
+    "status": "draft",
+    "idea": "A counterexample needs the condition without the required result.",
+    "vars": {},
+    "example": [
+     "True P, false Q is the violating case."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-8-counterexample-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "categorical"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which situation refutes If the club meets, then the room is reserved?",
+         "r": "the club meets is true, but the room is reserved is false.",
+         "w": [
+          "the club meets is false and the room is reserved is true.",
+          "the club meets is false and the room is reserved is false.",
+          "the club meets is true and the room is reserved is true."
+         ],
+         "e": [
+          "A false antecedent is not the violation specified by the rule.",
+          "Both false does not violate a material conditional.",
+          "This follows the required relation, rather than refuting it."
+         ],
+         "y": "A counterexample fulfils the stated condition without its required consequent."
+        },
+        {
+         "q": "Which situation refutes If Bih has an entry pass, then Bih may enter in this model?",
+         "r": "Bih has an entry pass is true, but Bih may enter in this model is false.",
+         "w": [
+          "Bih has an entry pass is false and Bih may enter in this model is true.",
+          "Bih has an entry pass is false and Bih may enter in this model is false.",
+          "Bih has an entry pass is true and Bih may enter in this model is true."
+         ],
+         "e": [
+          "A false antecedent is not the violation specified by the rule.",
+          "Both false does not violate a material conditional.",
+          "This follows the required relation, rather than refuting it."
+         ],
+         "y": "A counterexample fulfils the stated condition without its required consequent."
+        },
+        {
+         "q": "Which situation refutes If the form is accepted, then the required field is complete?",
+         "r": "the form is accepted is true, but the required field is complete is false.",
+         "w": [
+          "the form is accepted is false and the required field is complete is true.",
+          "the form is accepted is false and the required field is complete is false.",
+          "the form is accepted is true and the required field is complete is true."
+         ],
+         "e": [
+          "A false antecedent is not the violation specified by the rule.",
+          "Both false does not violate a material conditional.",
+          "This follows the required relation, rather than refuting it."
+         ],
+         "y": "A counterexample fulfils the stated condition without its required consequent."
+        },
+        {
+         "q": "Which situation refutes If the lamp receives power, then the circuit is closed in this model?",
+         "r": "the lamp receives power is true, but the circuit is closed in this model is false.",
+         "w": [
+          "the lamp receives power is false and the circuit is closed in this model is true.",
+          "the lamp receives power is false and the circuit is closed in this model is false.",
+          "the lamp receives power is true and the circuit is closed in this model is true."
+         ],
+         "e": [
+          "A false antecedent is not the violation specified by the rule.",
+          "Both false does not violate a material conditional.",
+          "This follows the required relation, rather than refuting it."
+         ],
+         "y": "A counterexample fulfils the stated condition without its required consequent."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-8-antecedent",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Identify the antecedent: If the club meets, then the room is reserved.",
+       "r": "the club meets",
+       "w": [
+        "the room is reserved",
+        "The conjunction of both clauses",
+        "The denial of the club meets"
+       ],
+       "e": [
+        "That is the consequent, the clause governed by then.",
+        "The antecedent is the if-clause, not the whole compound.",
+        "The antecedent is asserted as the condition; do not negate it."
+       ],
+       "y": "The antecedent is the clause following if."
+      },
+      {
+       "q": "Identify the antecedent: If Bih has an entry pass, then Bih may enter in this model.",
+       "r": "Bih has an entry pass",
+       "w": [
+        "Bih may enter in this model",
+        "The conjunction of both clauses",
+        "The denial of Bih has an entry pass"
+       ],
+       "e": [
+        "That is the consequent, the clause governed by then.",
+        "The antecedent is the if-clause, not the whole compound.",
+        "The antecedent is asserted as the condition; do not negate it."
+       ],
+       "y": "The antecedent is the clause following if."
+      },
+      {
+       "q": "Identify the antecedent: If the form is accepted, then the required field is complete.",
+       "r": "the form is accepted",
+       "w": [
+        "the required field is complete",
+        "The conjunction of both clauses",
+        "The denial of the form is accepted"
+       ],
+       "e": [
+        "That is the consequent, the clause governed by then.",
+        "The antecedent is the if-clause, not the whole compound.",
+        "The antecedent is asserted as the condition; do not negate it."
+       ],
+       "y": "The antecedent is the clause following if."
+      },
+      {
+       "q": "Identify the antecedent: If the lamp receives power, then the circuit is closed in this model.",
+       "r": "the lamp receives power",
+       "w": [
+        "the circuit is closed in this model",
+        "The conjunction of both clauses",
+        "The denial of the lamp receives power"
+       ],
+       "e": [
+        "That is the consequent, the clause governed by then.",
+        "The antecedent is the if-clause, not the whole compound.",
+        "The antecedent is asserted as the condition; do not negate it."
+       ],
+       "y": "The antecedent is the clause following if."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-8-conditions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In the stated rule If the club meets, then the room is reserved, which relation is expressed?",
+       "r": "the club meets is sufficient for the room is reserved under the rule.",
+       "w": [
+        "the room is reserved is sufficient for the club meets under the rule.",
+        "the club meets and the room is reserved are asserted to be identical claims.",
+        "Neither clause has any role in the condition."
+       ],
+       "e": [
+        "That reverses the stated direction.",
+        "The rule relates distinct claims rather than identifying them.",
+        "The antecedent and consequent play different roles."
+       ],
+       "y": "The rule guarantees the consequent when its antecedent holds; the reverse is not thereby asserted."
+      },
+      {
+       "q": "In the stated rule If Bih has an entry pass, then Bih may enter in this model, which relation is expressed?",
+       "r": "Bih has an entry pass is sufficient for Bih may enter in this model under the rule.",
+       "w": [
+        "Bih may enter in this model is sufficient for Bih has an entry pass under the rule.",
+        "Bih has an entry pass and Bih may enter in this model are asserted to be identical claims.",
+        "Neither clause has any role in the condition."
+       ],
+       "e": [
+        "That reverses the stated direction.",
+        "The rule relates distinct claims rather than identifying them.",
+        "The antecedent and consequent play different roles."
+       ],
+       "y": "The rule guarantees the consequent when its antecedent holds; the reverse is not thereby asserted."
+      },
+      {
+       "q": "In the stated rule If the form is accepted, then the required field is complete, which relation is expressed?",
+       "r": "the form is accepted is sufficient for the required field is complete under the rule.",
+       "w": [
+        "the required field is complete is sufficient for the form is accepted under the rule.",
+        "the form is accepted and the required field is complete are asserted to be identical claims.",
+        "Neither clause has any role in the condition."
+       ],
+       "e": [
+        "That reverses the stated direction.",
+        "The rule relates distinct claims rather than identifying them.",
+        "The antecedent and consequent play different roles."
+       ],
+       "y": "The rule guarantees the consequent when its antecedent holds; the reverse is not thereby asserted."
+      },
+      {
+       "q": "In the stated rule If the lamp receives power, then the circuit is closed in this model, which relation is expressed?",
+       "r": "the lamp receives power is sufficient for the circuit is closed in this model under the rule.",
+       "w": [
+        "the circuit is closed in this model is sufficient for the lamp receives power under the rule.",
+        "the lamp receives power and the circuit is closed in this model are asserted to be identical claims.",
+        "Neither clause has any role in the condition."
+       ],
+       "e": [
+        "That reverses the stated direction.",
+        "The rule relates distinct claims rather than identifying them.",
+        "The antecedent and consequent play different roles."
+       ],
+       "y": "The rule guarantees the consequent when its antecedent holds; the reverse is not thereby asserted."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-8-truth",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      1
+     ]
+    },
+    "q": {
+     "int": [
+      0,
+      1
+     ]
+    }
+   },
+   "prompt": "Use the material-conditional convention. P has value {p} and Q {q}; {1} means true and {0} false. Give the value of If P then Q.",
+   "answer": "!p || q ? 1 : 0",
+   "misconceptions": [
+    {
+     "id": "reverse",
+     "wrong": "!q || p ? 1 : 0",
+     "explain": "You evaluated the converse If Q then P instead.",
+     "when": "p != q"
+    },
+    {
+     "id": "and",
+     "wrong": "p && q ? 1 : 0",
+     "explain": "That treats the conditional as AND. A false antecedent does not make the material conditional false.",
+     "when": "p == 0"
+    },
+    {
+     "id": "negate",
+     "wrong": "!p || q ? 0 : 1",
+     "explain": "That reverses the required truth value."
+    }
+   ],
+   "solution": [
+    "Only a true antecedent with a false consequent makes this conditional false.",
+    "Here P = {p}, Q = {q}, so the value is {answer}."
+   ]
+  },
+  {
+   "id": "l4-8-counterexample",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which situation refutes If the club meets, then the room is reserved?",
+       "r": "the club meets is true, but the room is reserved is false.",
+       "w": [
+        "the club meets is false and the room is reserved is true.",
+        "the club meets is false and the room is reserved is false.",
+        "the club meets is true and the room is reserved is true."
+       ],
+       "e": [
+        "A false antecedent is not the violation specified by the rule.",
+        "Both false does not violate a material conditional.",
+        "This follows the required relation, rather than refuting it."
+       ],
+       "y": "A counterexample fulfils the stated condition without its required consequent."
+      },
+      {
+       "q": "Which situation refutes If Bih has an entry pass, then Bih may enter in this model?",
+       "r": "Bih has an entry pass is true, but Bih may enter in this model is false.",
+       "w": [
+        "Bih has an entry pass is false and Bih may enter in this model is true.",
+        "Bih has an entry pass is false and Bih may enter in this model is false.",
+        "Bih has an entry pass is true and Bih may enter in this model is true."
+       ],
+       "e": [
+        "A false antecedent is not the violation specified by the rule.",
+        "Both false does not violate a material conditional.",
+        "This follows the required relation, rather than refuting it."
+       ],
+       "y": "A counterexample fulfils the stated condition without its required consequent."
+      },
+      {
+       "q": "Which situation refutes If the form is accepted, then the required field is complete?",
+       "r": "the form is accepted is true, but the required field is complete is false.",
+       "w": [
+        "the form is accepted is false and the required field is complete is true.",
+        "the form is accepted is false and the required field is complete is false.",
+        "the form is accepted is true and the required field is complete is true."
+       ],
+       "e": [
+        "A false antecedent is not the violation specified by the rule.",
+        "Both false does not violate a material conditional.",
+        "This follows the required relation, rather than refuting it."
+       ],
+       "y": "A counterexample fulfils the stated condition without its required consequent."
+      },
+      {
+       "q": "Which situation refutes If the lamp receives power, then the circuit is closed in this model?",
+       "r": "the lamp receives power is true, but the circuit is closed in this model is false.",
+       "w": [
+        "the lamp receives power is false and the circuit is closed in this model is true.",
+        "the lamp receives power is false and the circuit is closed in this model is false.",
+        "the lamp receives power is true and the circuit is closed in this model is true."
+       ],
+       "e": [
+        "A false antecedent is not the violation specified by the rule.",
+        "Both false does not violate a material conditional.",
+        "This follows the required relation, rather than refuting it."
+       ],
+       "y": "A counterexample fulfils the stated condition without its required consequent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-8-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "The antecedent is the if-clause.",
+      "truth": "true",
+      "explain": "This is a correct rule: The antecedent is the if-clause. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "The consequent is the then-clause.",
+      "truth": "true",
+      "explain": "This is a correct rule: The consequent is the then-clause. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "A true P and false Q refute If P then Q.",
+      "truth": "true",
+      "explain": "This is a correct rule: A true P and false Q refute If P then Q. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "A conditional does not by itself assert its antecedent.",
+      "truth": "true",
+      "explain": "This is a correct rule: A conditional does not by itself assert its antecedent. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "If P then Q always also asserts If Q then P.",
+      "truth": "false",
+      "explain": "That converse needs separate support; P may not be the only sufficient condition for Q."
+     },
+     {
+      "text": "A false antecedent makes the material conditional false.",
+      "truth": "false",
+      "explain": "Only true P with false Q makes the material conditional false."
+     },
+     {
+      "text": "Q alone establishes P whenever If P then Q is accepted.",
+      "truth": "false",
+      "explain": "That affirms the consequent; Q may hold for another reason."
+     },
+     {
+      "text": "A formal conditional necessarily establishes a real causal connection.",
+      "truth": "false",
+      "explain": "A truth-functional relation is not by itself evidence of causation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

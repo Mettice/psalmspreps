@@ -1,0 +1,904 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "l4-5",
+   "name": "Distribution of terms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Distribution means whole-class coverage. A distributes S; E both; I neither; O P. Explain each using what the proposition covers. Do not confuse distribution with sample size or reverse an A claim without justification.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to state and justify which terms are distributed in each categorical form. Builds on: the A, E, I and O forms. Leads to: interpreting diagrams and avoiding illicit class-wide conclusions in later syllogisms."
+   },
+   {
+    "heading": "What distributed means",
+    "text": "A term is distributed when the proposition speaks about every member of the class it names. This concerns logical coverage, not how many objects a classroom sample contains. Ask separately about S and P. A: S only. E: both. I: neither. O: P only. Learn the pattern with its reason, rather than treating a quantifier as a signal that both terms are distributed."
+   },
+   {
+    "heading": "Why the affirmative forms differ",
+    "text": "All club members are badge holders covers every club member. It leaves open whether other badge holders exist, so P is undistributed. Some club members are badge holders covers selected members and does not exhaust either class. Thus A distributes S, while I distributes neither. Reversing an A statement would add a claim about the entire predicate class that the original did not make."
+   },
+   {
+    "heading": "Why negative predicates are distributed",
+    "text": "No S are P excludes every S from the whole P class, so both terms are distributed. Some S are not P selects at least one S and excludes that member from P as a whole: S is undistributed, P distributed. The claim does not assert that all S are outside P. Distribution will later help test whether a conclusion claims more class coverage than its premises supply."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "distributed",
+    "meaning": "covering every member of the term’s class"
+   },
+   {
+    "word": "undistributed",
+    "meaning": "not covering every member of the term’s class"
+   },
+   {
+    "word": "subject coverage",
+    "meaning": "whether every S is covered"
+   },
+   {
+    "word": "predicate coverage",
+    "meaning": "whether P is covered as a whole"
+   }
+  ],
+  "mistake": {
+   "wrong": "All S are P distributes both terms.",
+   "right": "It distributes S only.",
+   "why": "The statement permits P outside S, so it does not exhaust P."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Find the distributed terms in Some library books are not loanable items.",
+  "steps": [
+   "Some selects at least one book, not every library book: S is undistributed.",
+   "That selected book is excluded from the entire loanable-item class: P is distributed.",
+   "This is O form."
+  ],
+  "answer": "Predicate only.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-5-c1",
+    "status": "draft",
+    "idea": "Use class coverage for each term.",
+    "vars": {},
+    "example": [
+     "A: S only; E: both; I: neither; O: P only."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-5-coverage"
+    }
+   },
+   {
+    "id": "l4-5-c2",
+    "status": "draft",
+    "idea": "All covers every subject member, without exhausting the predicate.",
+    "vars": {},
+    "example": [
+     "All club members are badge holders still permits badge holders outside the club."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-5-why"
+    }
+   },
+   {
+    "id": "l4-5-c3",
+    "status": "draft",
+    "idea": "In O, the selected S is outside the whole P class.",
+    "vars": {},
+    "example": [
+     "Some S are not P: S undistributed, P distributed."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-5-negative-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "categorical"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "In Some club members are not badge holders, why is the predicate distributed?",
+         "r": "The selected subject member is excluded from the entire predicate class.",
+         "w": [
+          "All subject members have been discussed.",
+          "The subject member belongs to every predicate member.",
+          "Some means exactly half the predicate class."
+         ],
+         "e": [
+          "Some does not cover the entire subject class.",
+          "The claim denies membership in P rather than asserting this relation.",
+          "Some imposes no such fraction or predicate count."
+         ],
+         "y": "The selected S is outside P as a whole, so P is distributed while S is not."
+        },
+        {
+         "q": "In Some library books are not loanable items, why is the predicate distributed?",
+         "r": "The selected subject member is excluded from the entire predicate class.",
+         "w": [
+          "All subject members have been discussed.",
+          "The subject member belongs to every predicate member.",
+          "Some means exactly half the predicate class."
+         ],
+         "e": [
+          "Some does not cover the entire subject class.",
+          "The claim denies membership in P rather than asserting this relation.",
+          "Some imposes no such fraction or predicate count."
+         ],
+         "y": "The selected S is outside P as a whole, so P is distributed while S is not."
+        },
+        {
+         "q": "In Some school gardens are not cultivated areas, why is the predicate distributed?",
+         "r": "The selected subject member is excluded from the entire predicate class.",
+         "w": [
+          "All subject members have been discussed.",
+          "The subject member belongs to every predicate member.",
+          "Some means exactly half the predicate class."
+         ],
+         "e": [
+          "Some does not cover the entire subject class.",
+          "The claim denies membership in P rather than asserting this relation.",
+          "Some imposes no such fraction or predicate count."
+         ],
+         "y": "The selected S is outside P as a whole, so P is distributed while S is not."
+        },
+        {
+         "q": "In Some reading rooms are not quiet places, why is the predicate distributed?",
+         "r": "The selected subject member is excluded from the entire predicate class.",
+         "w": [
+          "All subject members have been discussed.",
+          "The subject member belongs to every predicate member.",
+          "Some means exactly half the predicate class."
+         ],
+         "e": [
+          "Some does not cover the entire subject class.",
+          "The claim denies membership in P rather than asserting this relation.",
+          "Some imposes no such fraction or predicate count."
+         ],
+         "y": "The selected S is outside P as a whole, so P is distributed while S is not."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-5-coverage",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which terms are distributed in: All club members are badge holders.",
+       "r": "Subject only",
+       "w": [
+        "Both subject and predicate",
+        "Neither term",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to E, not the present A form.",
+        "That coverage pattern belongs to I, not the present A form.",
+        "That coverage pattern belongs to O, not the present A form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the A pattern."
+      },
+      {
+       "q": "Which terms are distributed in: No club members are badge holders.",
+       "r": "Both subject and predicate",
+       "w": [
+        "Subject only",
+        "Neither term",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present E form.",
+        "That coverage pattern belongs to I, not the present E form.",
+        "That coverage pattern belongs to O, not the present E form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the E pattern."
+      },
+      {
+       "q": "Which terms are distributed in: Some club members are badge holders.",
+       "r": "Neither term",
+       "w": [
+        "Subject only",
+        "Both subject and predicate",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present I form.",
+        "That coverage pattern belongs to E, not the present I form.",
+        "That coverage pattern belongs to O, not the present I form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the I pattern."
+      },
+      {
+       "q": "Which terms are distributed in: Some club members are not badge holders.",
+       "r": "Predicate only",
+       "w": [
+        "Subject only",
+        "Both subject and predicate",
+        "Neither term"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present O form.",
+        "That coverage pattern belongs to E, not the present O form.",
+        "That coverage pattern belongs to I, not the present O form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the O pattern."
+      },
+      {
+       "q": "Which terms are distributed in: All library books are loanable items.",
+       "r": "Subject only",
+       "w": [
+        "Both subject and predicate",
+        "Neither term",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to E, not the present A form.",
+        "That coverage pattern belongs to I, not the present A form.",
+        "That coverage pattern belongs to O, not the present A form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the A pattern."
+      },
+      {
+       "q": "Which terms are distributed in: No library books are loanable items.",
+       "r": "Both subject and predicate",
+       "w": [
+        "Subject only",
+        "Neither term",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present E form.",
+        "That coverage pattern belongs to I, not the present E form.",
+        "That coverage pattern belongs to O, not the present E form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the E pattern."
+      },
+      {
+       "q": "Which terms are distributed in: Some library books are loanable items.",
+       "r": "Neither term",
+       "w": [
+        "Subject only",
+        "Both subject and predicate",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present I form.",
+        "That coverage pattern belongs to E, not the present I form.",
+        "That coverage pattern belongs to O, not the present I form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the I pattern."
+      },
+      {
+       "q": "Which terms are distributed in: Some library books are not loanable items.",
+       "r": "Predicate only",
+       "w": [
+        "Subject only",
+        "Both subject and predicate",
+        "Neither term"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present O form.",
+        "That coverage pattern belongs to E, not the present O form.",
+        "That coverage pattern belongs to I, not the present O form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the O pattern."
+      },
+      {
+       "q": "Which terms are distributed in: All school gardens are cultivated areas.",
+       "r": "Subject only",
+       "w": [
+        "Both subject and predicate",
+        "Neither term",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to E, not the present A form.",
+        "That coverage pattern belongs to I, not the present A form.",
+        "That coverage pattern belongs to O, not the present A form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the A pattern."
+      },
+      {
+       "q": "Which terms are distributed in: No school gardens are cultivated areas.",
+       "r": "Both subject and predicate",
+       "w": [
+        "Subject only",
+        "Neither term",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present E form.",
+        "That coverage pattern belongs to I, not the present E form.",
+        "That coverage pattern belongs to O, not the present E form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the E pattern."
+      },
+      {
+       "q": "Which terms are distributed in: Some school gardens are cultivated areas.",
+       "r": "Neither term",
+       "w": [
+        "Subject only",
+        "Both subject and predicate",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present I form.",
+        "That coverage pattern belongs to E, not the present I form.",
+        "That coverage pattern belongs to O, not the present I form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the I pattern."
+      },
+      {
+       "q": "Which terms are distributed in: Some school gardens are not cultivated areas.",
+       "r": "Predicate only",
+       "w": [
+        "Subject only",
+        "Both subject and predicate",
+        "Neither term"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present O form.",
+        "That coverage pattern belongs to E, not the present O form.",
+        "That coverage pattern belongs to I, not the present O form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the O pattern."
+      },
+      {
+       "q": "Which terms are distributed in: All reading rooms are quiet places.",
+       "r": "Subject only",
+       "w": [
+        "Both subject and predicate",
+        "Neither term",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to E, not the present A form.",
+        "That coverage pattern belongs to I, not the present A form.",
+        "That coverage pattern belongs to O, not the present A form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the A pattern."
+      },
+      {
+       "q": "Which terms are distributed in: No reading rooms are quiet places.",
+       "r": "Both subject and predicate",
+       "w": [
+        "Subject only",
+        "Neither term",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present E form.",
+        "That coverage pattern belongs to I, not the present E form.",
+        "That coverage pattern belongs to O, not the present E form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the E pattern."
+      },
+      {
+       "q": "Which terms are distributed in: Some reading rooms are quiet places.",
+       "r": "Neither term",
+       "w": [
+        "Subject only",
+        "Both subject and predicate",
+        "Predicate only"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present I form.",
+        "That coverage pattern belongs to E, not the present I form.",
+        "That coverage pattern belongs to O, not the present I form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the I pattern."
+      },
+      {
+       "q": "Which terms are distributed in: Some reading rooms are not quiet places.",
+       "r": "Predicate only",
+       "w": [
+        "Subject only",
+        "Both subject and predicate",
+        "Neither term"
+       ],
+       "e": [
+        "That coverage pattern belongs to A, not the present O form.",
+        "That coverage pattern belongs to E, not the present O form.",
+        "That coverage pattern belongs to I, not the present O form."
+       ],
+       "y": "Distribution means speaking about every member of the named class. Use the O pattern."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-5-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is the subject distributed in All club members are badge holders?",
+       "r": "The claim covers every member of the subject class.",
+       "w": [
+        "The subject expression has more letters.",
+        "The predicate class must have no other members.",
+        "Every affirmative proposition distributes both terms."
+       ],
+       "e": [
+        "Spelling length has no bearing on class coverage.",
+        "A does not exhaust P; predicate distribution does not follow.",
+        "I distributes neither and A only the subject."
+       ],
+       "y": "All ranges over the complete subject class; that is the relevant coverage."
+      },
+      {
+       "q": "Why is the subject distributed in All library books are loanable items?",
+       "r": "The claim covers every member of the subject class.",
+       "w": [
+        "The subject expression has more letters.",
+        "The predicate class must have no other members.",
+        "Every affirmative proposition distributes both terms."
+       ],
+       "e": [
+        "Spelling length has no bearing on class coverage.",
+        "A does not exhaust P; predicate distribution does not follow.",
+        "I distributes neither and A only the subject."
+       ],
+       "y": "All ranges over the complete subject class; that is the relevant coverage."
+      },
+      {
+       "q": "Why is the subject distributed in All school gardens are cultivated areas?",
+       "r": "The claim covers every member of the subject class.",
+       "w": [
+        "The subject expression has more letters.",
+        "The predicate class must have no other members.",
+        "Every affirmative proposition distributes both terms."
+       ],
+       "e": [
+        "Spelling length has no bearing on class coverage.",
+        "A does not exhaust P; predicate distribution does not follow.",
+        "I distributes neither and A only the subject."
+       ],
+       "y": "All ranges over the complete subject class; that is the relevant coverage."
+      },
+      {
+       "q": "Why is the subject distributed in All reading rooms are quiet places?",
+       "r": "The claim covers every member of the subject class.",
+       "w": [
+        "The subject expression has more letters.",
+        "The predicate class must have no other members.",
+        "Every affirmative proposition distributes both terms."
+       ],
+       "e": [
+        "Spelling length has no bearing on class coverage.",
+        "A does not exhaust P; predicate distribution does not follow.",
+        "I distributes neither and A only the subject."
+       ],
+       "y": "All ranges over the complete subject class; that is the relevant coverage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-5-negative",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In Some club members are not badge holders, why is the predicate distributed?",
+       "r": "The selected subject member is excluded from the entire predicate class.",
+       "w": [
+        "All subject members have been discussed.",
+        "The subject member belongs to every predicate member.",
+        "Some means exactly half the predicate class."
+       ],
+       "e": [
+        "Some does not cover the entire subject class.",
+        "The claim denies membership in P rather than asserting this relation.",
+        "Some imposes no such fraction or predicate count."
+       ],
+       "y": "The selected S is outside P as a whole, so P is distributed while S is not."
+      },
+      {
+       "q": "In Some library books are not loanable items, why is the predicate distributed?",
+       "r": "The selected subject member is excluded from the entire predicate class.",
+       "w": [
+        "All subject members have been discussed.",
+        "The subject member belongs to every predicate member.",
+        "Some means exactly half the predicate class."
+       ],
+       "e": [
+        "Some does not cover the entire subject class.",
+        "The claim denies membership in P rather than asserting this relation.",
+        "Some imposes no such fraction or predicate count."
+       ],
+       "y": "The selected S is outside P as a whole, so P is distributed while S is not."
+      },
+      {
+       "q": "In Some school gardens are not cultivated areas, why is the predicate distributed?",
+       "r": "The selected subject member is excluded from the entire predicate class.",
+       "w": [
+        "All subject members have been discussed.",
+        "The subject member belongs to every predicate member.",
+        "Some means exactly half the predicate class."
+       ],
+       "e": [
+        "Some does not cover the entire subject class.",
+        "The claim denies membership in P rather than asserting this relation.",
+        "Some imposes no such fraction or predicate count."
+       ],
+       "y": "The selected S is outside P as a whole, so P is distributed while S is not."
+      },
+      {
+       "q": "In Some reading rooms are not quiet places, why is the predicate distributed?",
+       "r": "The selected subject member is excluded from the entire predicate class.",
+       "w": [
+        "All subject members have been discussed.",
+        "The subject member belongs to every predicate member.",
+        "Some means exactly half the predicate class."
+       ],
+       "e": [
+        "Some does not cover the entire subject class.",
+        "The claim denies membership in P rather than asserting this relation.",
+        "Some imposes no such fraction or predicate count."
+       ],
+       "y": "The selected S is outside P as a whole, so P is distributed while S is not."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-5-reverse",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih says All club members are badge holders, so all badge holders must be club members. What is the error?",
+       "r": "The original A statement does not cover every member of the predicate class.",
+       "w": [
+        "The original has no subject class.",
+        "All always means some but not all.",
+        "The original is necessarily an O statement."
+       ],
+       "e": [
+        "The subject is explicitly named.",
+        "All covers the whole subject, not merely a selection.",
+        "All S are P is A, not O."
+       ],
+       "y": "The predicate is undistributed in A; other P may lie outside S."
+      },
+      {
+       "q": "Bih says All library books are loanable items, so all loanable items must be library books. What is the error?",
+       "r": "The original A statement does not cover every member of the predicate class.",
+       "w": [
+        "The original has no subject class.",
+        "All always means some but not all.",
+        "The original is necessarily an O statement."
+       ],
+       "e": [
+        "The subject is explicitly named.",
+        "All covers the whole subject, not merely a selection.",
+        "All S are P is A, not O."
+       ],
+       "y": "The predicate is undistributed in A; other P may lie outside S."
+      },
+      {
+       "q": "Bih says All school gardens are cultivated areas, so all cultivated areas must be school gardens. What is the error?",
+       "r": "The original A statement does not cover every member of the predicate class.",
+       "w": [
+        "The original has no subject class.",
+        "All always means some but not all.",
+        "The original is necessarily an O statement."
+       ],
+       "e": [
+        "The subject is explicitly named.",
+        "All covers the whole subject, not merely a selection.",
+        "All S are P is A, not O."
+       ],
+       "y": "The predicate is undistributed in A; other P may lie outside S."
+      },
+      {
+       "q": "Bih says All reading rooms are quiet places, so all quiet places must be reading rooms. What is the error?",
+       "r": "The original A statement does not cover every member of the predicate class.",
+       "w": [
+        "The original has no subject class.",
+        "All always means some but not all.",
+        "The original is necessarily an O statement."
+       ],
+       "e": [
+        "The subject is explicitly named.",
+        "All covers the whole subject, not merely a selection.",
+        "All S are P is A, not O."
+       ],
+       "y": "The predicate is undistributed in A; other P may lie outside S."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-5-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "A distributes its subject only.",
+      "truth": "true",
+      "explain": "This is a correct rule: A distributes its subject only. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "E distributes both terms.",
+      "truth": "true",
+      "explain": "This is a correct rule: E distributes both terms. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "I distributes neither term.",
+      "truth": "true",
+      "explain": "This is a correct rule: I distributes neither term. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "O distributes its predicate only.",
+      "truth": "true",
+      "explain": "This is a correct rule: O distributes its predicate only. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Distribution is the number of letters in a term.",
+      "truth": "false",
+      "explain": "It concerns whole-class coverage, not spelling."
+     },
+     {
+      "text": "Some S are P distributes its subject because some is a quantifier.",
+      "truth": "false",
+      "explain": "Some does not cover all S; I distributes neither term."
+     },
+     {
+      "text": "All S are P distributes P because every P must be S.",
+      "truth": "false",
+      "explain": "A includes every S in P but allows other P."
+     },
+     {
+      "text": "A negative proposition never distributes its predicate.",
+      "truth": "false",
+      "explain": "Both E and O distribute their predicate class."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

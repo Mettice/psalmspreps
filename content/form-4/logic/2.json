@@ -1,0 +1,724 @@
+{
+ "subject": "logic",
+ "class": "Form 4",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "l4-2",
+   "name": "Categorical propositions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Categorical claims relate classes. All includes every S in P; no excludes overlap; some asserts existence. Some does not mean not all. An inclusion need not reverse, and a claim’s form does not establish its truth.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to recognise a class-to-class assertion and explain what all, no and some commit it to. Builds on: identifying the subject, predicate, copula and quantifier. Leads to: quantity, quality and the standard categorical forms."
+   },
+   {
+    "heading": "Relating classes",
+    "text": "A categorical proposition affirms or denies membership relations between classes. All S are P says every S belongs to P. No S are P excludes shared members. Some S are P asserts at least one shared member; Some S are not P asserts at least one S outside P. S and P are class labels, not individual people’s initials in this use."
+   },
+   {
+    "heading": "Read only what is asserted",
+    "text": "For an invented Douala reading club, All members are badge holders allows badge holders who are not club members. It does not assert the reverse. Some members are readers means at least one, not exactly half and not necessarily fewer than all. No members are visitors excludes overlap; it does not prove that visitors do not exist."
+   },
+   {
+    "heading": "Form and truth are separate",
+    "text": "Translate the relation clearly before checking whether it is true. A false claim can still have categorical form. Under the modern diagram convention used later, universal claims alone do not assert that S exists; particular claims do. Traditional courses may add an existence assumption. State that assumption when needed rather than inferring a member from all alone."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "class",
+    "meaning": "a collection picked out by a term"
+   },
+   {
+    "word": "categorical proposition",
+    "meaning": "a quantified assertion relating subject and predicate classes"
+   },
+   {
+    "word": "some",
+    "meaning": "at least one"
+   },
+   {
+    "word": "overlap",
+    "meaning": "members belonging to both classes"
+   }
+  ],
+  "mistake": {
+   "wrong": "Some means some but never all.",
+   "right": "Some means at least one and is compatible with all.",
+   "why": "Not all is a further restriction absent from some alone."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Does All club members are badge holders also say All badge holders are club members?",
+  "steps": [
+   "The claim starts with the club-member class.",
+   "Each of its members must be a badge holder.",
+   "Other badge holders may exist outside that club."
+  ],
+  "answer": "No. The original inclusion does not automatically reverse.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l4-2-c1",
+    "status": "draft",
+    "idea": "A standard categorical assertion quantifies and relates two classes.",
+    "vars": {},
+    "example": [
+     "All school gardens are cultivated areas has explicit class terms and a copula."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-2-recognise"
+    }
+   },
+   {
+    "id": "l4-2-c2",
+    "status": "draft",
+    "idea": "Some means at least one, with no fixed upper limit.",
+    "vars": {},
+    "example": [
+     "Some library books are loanable items does not itself say that others are not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l4-2-some"
+    }
+   },
+   {
+    "id": "l4-2-c3",
+    "status": "draft",
+    "idea": "No S are P rules out overlap.",
+    "vars": {},
+    "example": [
+     "The predicate class can still have members outside S."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l4-2-no-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "categorical"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does “No club members are badge holders” rule out?",
+         "r": "Any member belonging to both named classes.",
+         "w": [
+          "Every object outside both classes.",
+          "Only one selected subject member.",
+          "The existence of the predicate class everywhere."
+         ],
+         "e": [
+          "The claim concerns overlap, not everything outside both classes.",
+          "No excludes overlap for the whole subject class.",
+          "The predicate class may exist outside the subject class."
+         ],
+         "y": "No S are P denies overlap, rather than denying that P has any members anywhere."
+        },
+        {
+         "q": "What does “No library books are loanable items” rule out?",
+         "r": "Any member belonging to both named classes.",
+         "w": [
+          "Every object outside both classes.",
+          "Only one selected subject member.",
+          "The existence of the predicate class everywhere."
+         ],
+         "e": [
+          "The claim concerns overlap, not everything outside both classes.",
+          "No excludes overlap for the whole subject class.",
+          "The predicate class may exist outside the subject class."
+         ],
+         "y": "No S are P denies overlap, rather than denying that P has any members anywhere."
+        },
+        {
+         "q": "What does “No school gardens are cultivated areas” rule out?",
+         "r": "Any member belonging to both named classes.",
+         "w": [
+          "Every object outside both classes.",
+          "Only one selected subject member.",
+          "The existence of the predicate class everywhere."
+         ],
+         "e": [
+          "The claim concerns overlap, not everything outside both classes.",
+          "No excludes overlap for the whole subject class.",
+          "The predicate class may exist outside the subject class."
+         ],
+         "y": "No S are P denies overlap, rather than denying that P has any members anywhere."
+        },
+        {
+         "q": "What does “No reading rooms are quiet places” rule out?",
+         "r": "Any member belonging to both named classes.",
+         "w": [
+          "Every object outside both classes.",
+          "Only one selected subject member.",
+          "The existence of the predicate class everywhere."
+         ],
+         "e": [
+          "The claim concerns overlap, not everything outside both classes.",
+          "No excludes overlap for the whole subject class.",
+          "The predicate class may exist outside the subject class."
+         ],
+         "y": "No S are P denies overlap, rather than denying that P has any members anywhere."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l4-2-recognise",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which option directly relates the named classes in standard categorical form?",
+       "r": "All club members are badge holders.",
+       "w": [
+        "If a meeting starts, club members arrive.",
+        "Are all club members badge holders?",
+        "Please contact the club members."
+       ],
+       "e": [
+        "This is a conditional construction, not the requested standard class form.",
+        "This asks a question instead of making the claim.",
+        "This is a request, not a categorical assertion."
+       ],
+       "y": "The selected statement explicitly quantifies a subject class and attributes a predicate class."
+      },
+      {
+       "q": "Which option directly relates the named classes in standard categorical form?",
+       "r": "All library books are loanable items.",
+       "w": [
+        "If a meeting starts, library books arrive.",
+        "Are all library books loanable items?",
+        "Please contact the library books."
+       ],
+       "e": [
+        "This is a conditional construction, not the requested standard class form.",
+        "This asks a question instead of making the claim.",
+        "This is a request, not a categorical assertion."
+       ],
+       "y": "The selected statement explicitly quantifies a subject class and attributes a predicate class."
+      },
+      {
+       "q": "Which option directly relates the named classes in standard categorical form?",
+       "r": "All school gardens are cultivated areas.",
+       "w": [
+        "If a meeting starts, school gardens arrive.",
+        "Are all school gardens cultivated areas?",
+        "Please contact the school gardens."
+       ],
+       "e": [
+        "This is a conditional construction, not the requested standard class form.",
+        "This asks a question instead of making the claim.",
+        "This is a request, not a categorical assertion."
+       ],
+       "y": "The selected statement explicitly quantifies a subject class and attributes a predicate class."
+      },
+      {
+       "q": "Which option directly relates the named classes in standard categorical form?",
+       "r": "All reading rooms are quiet places.",
+       "w": [
+        "If a meeting starts, reading rooms arrive.",
+        "Are all reading rooms quiet places?",
+        "Please contact the reading rooms."
+       ],
+       "e": [
+        "This is a conditional construction, not the requested standard class form.",
+        "This asks a question instead of making the claim.",
+        "This is a request, not a categorical assertion."
+       ],
+       "y": "The selected statement explicitly quantifies a subject class and attributes a predicate class."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-2-some",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In “Some club members are badge holders,” what does Some establish?",
+       "r": "At least one subject-class member belongs to the predicate class.",
+       "w": [
+        "Every subject member belongs.",
+        "Exactly half the subject members belong.",
+        "Some but certainly not all belong."
+       ],
+       "e": [
+        "Some does not assert a universal claim.",
+        "Some fixes no such fraction.",
+        "Some allows all to belong; it does not itself say not all."
+       ],
+       "y": "In this logical use, some means at least one."
+      },
+      {
+       "q": "In “Some library books are loanable items,” what does Some establish?",
+       "r": "At least one subject-class member belongs to the predicate class.",
+       "w": [
+        "Every subject member belongs.",
+        "Exactly half the subject members belong.",
+        "Some but certainly not all belong."
+       ],
+       "e": [
+        "Some does not assert a universal claim.",
+        "Some fixes no such fraction.",
+        "Some allows all to belong; it does not itself say not all."
+       ],
+       "y": "In this logical use, some means at least one."
+      },
+      {
+       "q": "In “Some school gardens are cultivated areas,” what does Some establish?",
+       "r": "At least one subject-class member belongs to the predicate class.",
+       "w": [
+        "Every subject member belongs.",
+        "Exactly half the subject members belong.",
+        "Some but certainly not all belong."
+       ],
+       "e": [
+        "Some does not assert a universal claim.",
+        "Some fixes no such fraction.",
+        "Some allows all to belong; it does not itself say not all."
+       ],
+       "y": "In this logical use, some means at least one."
+      },
+      {
+       "q": "In “Some reading rooms are quiet places,” what does Some establish?",
+       "r": "At least one subject-class member belongs to the predicate class.",
+       "w": [
+        "Every subject member belongs.",
+        "Exactly half the subject members belong.",
+        "Some but certainly not all belong."
+       ],
+       "e": [
+        "Some does not assert a universal claim.",
+        "Some fixes no such fraction.",
+        "Some allows all to belong; it does not itself say not all."
+       ],
+       "y": "In this logical use, some means at least one."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-2-no",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does “No club members are badge holders” rule out?",
+       "r": "Any member belonging to both named classes.",
+       "w": [
+        "Every object outside both classes.",
+        "Only one selected subject member.",
+        "The existence of the predicate class everywhere."
+       ],
+       "e": [
+        "The claim concerns overlap, not everything outside both classes.",
+        "No excludes overlap for the whole subject class.",
+        "The predicate class may exist outside the subject class."
+       ],
+       "y": "No S are P denies overlap, rather than denying that P has any members anywhere."
+      },
+      {
+       "q": "What does “No library books are loanable items” rule out?",
+       "r": "Any member belonging to both named classes.",
+       "w": [
+        "Every object outside both classes.",
+        "Only one selected subject member.",
+        "The existence of the predicate class everywhere."
+       ],
+       "e": [
+        "The claim concerns overlap, not everything outside both classes.",
+        "No excludes overlap for the whole subject class.",
+        "The predicate class may exist outside the subject class."
+       ],
+       "y": "No S are P denies overlap, rather than denying that P has any members anywhere."
+      },
+      {
+       "q": "What does “No school gardens are cultivated areas” rule out?",
+       "r": "Any member belonging to both named classes.",
+       "w": [
+        "Every object outside both classes.",
+        "Only one selected subject member.",
+        "The existence of the predicate class everywhere."
+       ],
+       "e": [
+        "The claim concerns overlap, not everything outside both classes.",
+        "No excludes overlap for the whole subject class.",
+        "The predicate class may exist outside the subject class."
+       ],
+       "y": "No S are P denies overlap, rather than denying that P has any members anywhere."
+      },
+      {
+       "q": "What does “No reading rooms are quiet places” rule out?",
+       "r": "Any member belonging to both named classes.",
+       "w": [
+        "Every object outside both classes.",
+        "Only one selected subject member.",
+        "The existence of the predicate class everywhere."
+       ],
+       "e": [
+        "The claim concerns overlap, not everything outside both classes.",
+        "No excludes overlap for the whole subject class.",
+        "The predicate class may exist outside the subject class."
+       ],
+       "y": "No S are P denies overlap, rather than denying that P has any members anywhere."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-2-direction",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Suppose All club members are badge holders. Which additional situation can still fit that claim?",
+       "r": "Some badge holders are outside the class of club members.",
+       "w": [
+        "A subject-class member is outside the predicate class.",
+        "No subject member can belong to the predicate class, even if a subject exists.",
+        "The claim automatically reverses to All badge holders are club members."
+       ],
+       "e": [
+        "That is a direct counterexample to All S are P.",
+        "An existing subject must belong to P under the stated universal.",
+        "Inclusion need not be an equality or a reversible relation."
+       ],
+       "y": "All S are P puts S inside P without exhausting P."
+      },
+      {
+       "q": "Suppose All library books are loanable items. Which additional situation can still fit that claim?",
+       "r": "Some loanable items are outside the class of library books.",
+       "w": [
+        "A subject-class member is outside the predicate class.",
+        "No subject member can belong to the predicate class, even if a subject exists.",
+        "The claim automatically reverses to All loanable items are library books."
+       ],
+       "e": [
+        "That is a direct counterexample to All S are P.",
+        "An existing subject must belong to P under the stated universal.",
+        "Inclusion need not be an equality or a reversible relation."
+       ],
+       "y": "All S are P puts S inside P without exhausting P."
+      },
+      {
+       "q": "Suppose All school gardens are cultivated areas. Which additional situation can still fit that claim?",
+       "r": "Some cultivated areas are outside the class of school gardens.",
+       "w": [
+        "A subject-class member is outside the predicate class.",
+        "No subject member can belong to the predicate class, even if a subject exists.",
+        "The claim automatically reverses to All cultivated areas are school gardens."
+       ],
+       "e": [
+        "That is a direct counterexample to All S are P.",
+        "An existing subject must belong to P under the stated universal.",
+        "Inclusion need not be an equality or a reversible relation."
+       ],
+       "y": "All S are P puts S inside P without exhausting P."
+      },
+      {
+       "q": "Suppose All reading rooms are quiet places. Which additional situation can still fit that claim?",
+       "r": "Some quiet places are outside the class of reading rooms.",
+       "w": [
+        "A subject-class member is outside the predicate class.",
+        "No subject member can belong to the predicate class, even if a subject exists.",
+        "The claim automatically reverses to All quiet places are reading rooms."
+       ],
+       "e": [
+        "That is a direct counterexample to All S are P.",
+        "An existing subject must belong to P under the stated universal.",
+        "Inclusion need not be an equality or a reversible relation."
+       ],
+       "y": "All S are P puts S inside P without exhausting P."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l4-2-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "categorical"
+   ],
+   "prompt": "Find the incorrect claim, then read the reason for the correction.",
+   "pool": {
+    "right": [
+     {
+      "text": "Some means at least one in these exercises.",
+      "truth": "true",
+      "explain": "This is a correct rule: Some means at least one in these exercises. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "A categorical proposition relates subject and predicate classes.",
+      "truth": "true",
+      "explain": "This is a correct rule: A categorical proposition relates subject and predicate classes. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "All S are P does not automatically mean All P are S.",
+      "truth": "true",
+      "explain": "This is a correct rule: All S are P does not automatically mean All P are S. Look for a claim that breaks a rule taught in Learn."
+     },
+     {
+      "text": "No S are P excludes overlap between the classes.",
+      "truth": "true",
+      "explain": "This is a correct rule: No S are P excludes overlap between the classes. Look for a claim that breaks a rule taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Some S are P necessarily means not all S are P.",
+      "truth": "false",
+      "explain": "Some is compatible with all; not all is an extra assertion."
+     },
+     {
+      "text": "All S are P is automatically an argument with premises and a conclusion.",
+      "truth": "false",
+      "explain": "It is one proposition; an argument requires supporting claims and an inference."
+     },
+     {
+      "text": "No S are P says that P cannot exist anywhere.",
+      "truth": "false",
+      "explain": "It excludes shared members, but P can have members outside S."
+     },
+     {
+      "text": "An invented class example is automatically an actual rule at every school.",
+      "truth": "false",
+      "explain": "The model illustrates logical structure, not a verified nationwide fact."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
