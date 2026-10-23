@@ -91,6 +91,12 @@ button:disabled { opacity: .45; cursor: default; box-shadow: none; }
 .blank { display: inline-block; min-width: 4.5em; border-bottom: 3px dotted var(--accent); line-height: 1.2; }
 input.blank-input { display: inline-block; width: 9em; max-width: 100%; min-height: 48px; padding: 6px 10px; font-size: 1.15rem; vertical-align: middle; }
 .sentence.blanks input.blank-input { width: 3.6em; margin: 2px 2px; text-align: center; }
+.sentence.blanks { white-space: pre-line; }
+.sentence.blanks input.blank-input.wide { width: 6.5em; }
+.base-tag { font-size: 1.5rem; margin-left: -4px; vertical-align: -0.35em; }
+.answer.has-base { gap: 0; }
+.answer.has-base input { flex: 0 1 10em; text-align: right; }
+.answer.has-base .base-tag { align-self: flex-end; margin: 0 0 6px 4px; }
 /* word tiles (word order, sorting): tap, never drag */
 .tiles { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
 button.tile { display: inline-flex; align-items: center; justify-content: center; width: auto; min-width: 48px; min-height: 48px; margin: 0; padding: 8px 14px; text-align: center; }
@@ -641,6 +647,21 @@ const placeValues = (s, b) => { const L = String(s).length; return range(0, L - 
 const placeBlanks = (s) => [...String(s)].map((d) => `${d} × ___`).join(" + ") + " = ___";
 /** The answers to placeBlanks, in order: each place value, then the base-ten value. */
 const placeAnswers = (s, b) => [...placeValues(s, b), fromBase(s, b)];
+// ---------------------------------------------------------------- base ten → base b: help after a miss (2026-10-24)
+/** The quotients and remainders of dividing n by b again and again, down to a quotient of 0. */
+const divisions = (n, b) => { const out = []; let q = n; do { out.push([Math.floor(q / b), q % b]); q = Math.floor(q / b); } while (q > 0); return out; };
+/**
+ * The division ladder as on paper, one box for each quotient and remainder, then the answer:
+ *   2 | 45
+ *   2 | ___ remainder ___
+ *       ___ remainder ___      (the last quotient, 0, is not divided again)
+ *   Remainders from the bottom up: ___
+ */
+const divBlanks = (n, b) => [`${b} | ${fmt(n)}`,
+  ...divisions(n, b).map(([q]) => `${q > 0 ? `${b} | ` : ""}___ remainder ___`),
+  "Remainders from the bottom up: ___"].join("\n");
+/** The answers to divBlanks, in order: each quotient and its remainder, then the base-b numeral (a string). */
+const divAnswers = (n, b) => [...divisions(n, b).flat(), toBase(n, b)];
 /** Usual wrong answers: the digits added, the digits multiplied, the place values read from the left. */
 const digitSum = (s) => [...String(s)].reduce((a, d) => a + Number(d), 0);
 const digitProduct = (s) => [...String(s)].reduce((a, d) => a * Number(d), 1);
@@ -758,7 +779,7 @@ function lineRule(r1, r2) {
   return perp ? "⊥" : "//";
 }
 
-return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, placeValues, placeBlanks, placeAnswers, digitSum, digitProduct, placeReversed, placeHeads, placeSteps, placeTable, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
+return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, placeValues, placeBlanks, placeAnswers, divBlanks, divAnswers, digitSum, digitProduct, placeReversed, placeHeads, placeSteps, placeTable, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
 })();
 __mods["lib/maths2.js"] = (() => {
 // Vetted functions for Form 2 Maths content (Term 1: integers, powers, primes, HCF and LCM, roots, sequences,
@@ -2521,6 +2542,7 @@ function instantiate(tpl, seed, lib, lesson = null) {
       const shown = values.map(show(lib));
       Object.assign(q, { parts, answerKind: "number", answerValues: values, answers: shown,
         answer: parts.map((p, i) => p + (i < shown.length ? shown[i] : "")).join("") });
+      if (tpl.base) q.base = evaluate(tpl.base, scope, lib);  // a division ladder ends with a base-b numeral
       q.verified = true;
       return withSolution(q, scope);
     }
@@ -2713,7 +2735,9 @@ function check(q, response) {
   }
   if (q.type === "blanks") {
     // response: one typed value per blank. All must be right; the wrong ones are listed.
-    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], "number"));
+    // A text value is a base numeral ("101101"): compared as one, so "101101₂" and "0101101" are right too.
+    const kindOf = (v) => (typeof v === "string" ? "base" : "number");
+    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], kindOf(q.answerValues[i])));
     return wrong.length ? { correct: false, wrongBlanks: wrong } : { correct: true };
   }
   if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
@@ -3073,7 +3097,7 @@ const CONTENT = {"f3-maths":{"2":{"subject":"mathematics","class":"Form 3","less
 const TITLES = {"f3-maths":{"2":"Algebraic expressions (Simplification)","3":"Expansions of algebraic expressions","4":"Factorisation of algebraic expressions","5":"Factorising quadratic trinomials","6":"Factorising difference of two squares","7":"Solving simple linear equations","8":"Solving simultaneous linear equations by elimination method","9":"Solving simultaneous linear equations by substitution method","10":"Building and solving equations from real life problems","11":"Solving quadratic equations by factorization","12":"Solving quadratic equations by of quadratic formula","13":"Transposition of formulae (Change of subject)","14":"Direct and inverse variation","15":"Joint Variation and graphs","16":"Right angled triangles and Pythagoras’ theorem","17":"Trigonometric ratios for acute angles, Sine and cosine of complementary angles","18":"Trigonometric ratio for special angles, use of calculators","19":"Solving triangles","20":"Definition and types of matrices","21":"Addition and subtraction, Scalar multiplication of matrices","22":"Multiplication of a matrix by another matrix","23":"Transpose, Determinant and adjoint of a matrix","24":"Inverse of a matrix","25":"Congruency and congruent plane figures","26":"Congruency in triangles (SSS, SAS, ASA, RHS)","27":"Similar plane figures and the constant of proportionality","28":"Areas and volume of similar plane figures","29":"Thales property and its converse","30":"Application of similarities to areas and volume","31":"Laws of indices","32":"Simple exponential equations","33":"Laws of logarithms","34":"simple logarithmic equations"},"f3-english":{"2":"Speaking: & Reading: Talk about dos and don'ts at school and at home","3":"Grammar: Modals expressing obligation, advice and polite requests","4":"Writing: Write school rules and regulations","5":"Speaking: & Listening: Discuss and share personal study experiences. Listen to a text on strategies for studying","6":"Writing: Draw a personal study timetable","7":"Grammar: Adverbs of frequency","8":"Speech Work: The sounds /ai/ and /aʊ/","9":"Speaking: & Listening: Discuss strategies of taking care of the elderly, siblings, handicaps/sick etc","10":"Writing: Informal Letter -Write a letter to/about family members","11":"Speaking: & Reading: Share views on common teenage problems in the school milieu/society","12":"Grammar: Connectives expressing addition","13":"Writing: Formal letter: Write to an authority about the deviant behaviour in your school","14":"Speaking: & Reading: share opinions about club activities","15":"Grammar: Irregular adverbial. e.g. well-better-best","16":"Speech Work: The sounds /ɔi/ and /əʊ/","17":"Writing: Descriptive -Describe activities carried out by a club in your school","18":"Speaking: & Reading: Compare and contrast table manners from different cultures. Read text on table manners","19":"Grammar: Active and passive voice","20":"Writing: Describing a process: Preparing and serving a particular meal","21":"Speaking: & Reading: List the various professions and give the type of study needed for each","22":"Writing: Expository: Choose a profession and write on the advantages and disadvantages","23":"Speaking: & Listening -Listen to a text on how a cash crop is cultivated and marketed","24":"Grammar: Quantifiers","25":"Writing: Article: The importance of cash crops to your my community","26":"Speaking: & Reading: Talk about the importance of managing people, time and money","27":"Vocabulary: Prefixes of negation","28":"Writing: A schedule: Draw a schedule of after school activities","29":"Writing: Write amounts/sums of money in figures and words","30":"Grammar: The future simple tense with will/shall and expressing the future through the present simple tense","31":"Speaking: & Vocabulary: Discuss the role of banks in business. Words and abbreviations related to banking","32":"Writing: Fill/write a cheque/ money order","33":"Speaking: & Reading: Discuss various means of transportation bringing out their advantages and disadvantages","34":"Grammar: Prepositions: Prepositions of, movement, place and manner in relation to travelling","35":"Writing: Narrative: Give an account of a journey you undertook by a particular means of transport","36":"Speaking: & Listening -Share ideas on sex education","37":"Grammar: Correlating conjunctions","38":"Vocabulary: Spelling rules","39":"Writing: Slogans: Write slogans on STIs"},"f3-physics":{"1":"Physical quantities: Definition, Examples, and Units. Prefixes and standard form of writing values","2":"Scalar and Vector physical quantities and some basic equipment used in the study of force: newton meter, balance, springs, masses etc","3":"Comparison between mass and weight. Safety rules for working with different equipment","4":"Measurement of mass. Conversions between different units of mass","5":"Measurement of volume","6":"Measurement of temperature and time","7":"Density: Definition, Calculation and Units. Measurement of the density of a liquid","8":"Describe and carry out experiments to measure the density of regular & irregular objects","9":"Applications of the density of a material in engineering works","10":"Pressure: Definition, calculation and units. Factors that affect pressure in solids and applications","11":"Pressure in liquids: Factors affecting pressure in liquids and Calculations. Characteristics of pressure in liquids and applications","12":"Atmospheric pressure: Definition, demonstration, and measurement using the simple barometer","13":"Effects of atmospheric pressure on the boiling points of liquids and on health","14":"Elasticity: Definition. Elastic and non-elastic materials. Hooke’s Law and elastic limit. Experimental verification of Hooke’s law","15":"Force-extension graph and application of elastic materials","16":"Energy: Definition, forms, sources – renewable and non-renewable","17":"The law of conservation of energy, application on transducers, and energy flow diagrams. Simple calculations on energy transformations"},"f3-chemistry":{"1":"Review of simple structure of the Atom","2":"Simple experiments to illustrate diffusion and Brownian motion","3":"Characteristics of subatomic particles","4":"Atomic number and mass number","5":"Isotopy and Calculation of Relative Atomic Mass (RAM)","6":"RAM of an element and mole of atoms","7":"A Mole of atoms and the Avogadro’s Constant","9":"Structure of the atom: Nucleus and electrons","10":". Electronic configuration of the first 20 elements of the Periodic Table","11":"Valence Electrons and the Periodic Table","12":"Electronic Configuration and Chemical Properties (Alkali metals and halogens)","13":"Electronic Configuration and Chemical Properties (Alkaline earth metals and halogens)","15":"The octet rule (Noble gas electronic configuration)","16":"Chemical Bond formation and the Octet rule","17":"Ionic bonding: Formation","18":"Properties of ionic compounds","19":"Covalent Bonding: Formation","20":"Properties of covalent compounds","21":"Structure and shapes of simple covalent molecules (VSERP theory)","22":"The metallic bond: Formation","23":"Properties of metals","24":"Crystals: Definition and types of crystal structures","25":"Properties of Substances related to bond type and structure","26":"Giant molecular structures: Diamond and graphite"}};
 const LESSONS = {"f3-maths":[2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34],"f3-english":[2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39],"f3-physics":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],"f3-chemistry":[1,2,3,4,5,6,7,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,25,26]};
 const SUBJECTS = {"f3-maths":"Maths","f3-english":"English","f3-physics":"Physics","f3-chemistry":"Chemistry"};
-const CLASSES = {"form-1":"Form One","form-2":"Form Two","form-3":"Form Three"};
+const CLASSES = {"form-1":"Form One","form-2":"Form Two","form-3":"Form Three","form-4":"Form Four"};
 const CLASS_OF = {"f3-maths":"form-3","f3-english":"form-3","f3-physics":"form-3","f3-chemistry":"form-3"};
 const PAPER = {"f3-maths":[],"f3-english":[4,6,10,13,17,20,22,25,28,29,32,35,39],"f3-physics":[],"f3-chemistry":[]};
 const MODE = "single";
@@ -3285,6 +3309,10 @@ function sorting(q, finish) {
   return [para(T("Tap a word, then tap its group. Tap a word in a group to take it out."), "muted"), wrap, done];
 }
 
+/** A base answer: the small base is printed after the box, so the pupil types only the digits (2026-10-24). */
+const baseTag = (q) => el("span", { class: "base-tag", "aria-label": T("in base {a}", { a: q.base }) }, LIB().sub(q.base));
+const baseTip = (q) => para(T("Type only the digits. The small {a} is already there.", { a: LIB().sub(q.base) }), "muted");
+
 /** Shows q; calls onAnswer({result, ms}) when the pupil answers or presses "I don't know". */
 function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const t0 = performance.now();
@@ -3292,15 +3320,18 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt), figureBox(q.figure)];
   if (q.type === "blanks") {
     // a step-by-step line: one small box per blank, all checked together (2026-10-19)
-    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off", class: "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
+    // a text value is a base numeral (the last box of a division ladder): a wider box, the base shown after it
+    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off",
+      class: typeof q.answerValues[i] === "string" ? "blank-input wide" : "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
     const go = () => { const v = inputs.map((x) => normaliseInput(x.value, q)); if (v.every(Boolean)) finish(v); else inputs[v.findIndex((x) => !x)].focus(); };
     inputs.forEach((x, i) => x.addEventListener("keydown", (e) => { if (e.key === "Enter") (i < inputs.length - 1 && !inputs[i + 1].value ? inputs[i + 1].focus() : go()); }));
     setTimeout(() => inputs[0].focus(), 50);
     body.push(para(T("Fill in each box, then check."), "muted"),
-      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i]] : [p]))), button(T("Check"), go, "primary"));
+      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i], q.base && typeof q.answerValues[i] === "string" ? baseTag(q) : null] : [p]))),
+      q.base ? baseTip(q) : null, button(T("Check"), go, "primary"));
   } else if (q.type === "numeric") {
     const { input, check: go } = answerBox(q, finish);
-    body.push(el("div", { class: "answer" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null), go);
+    body.push(el("div", { class: q.base ? "answer has-base" : "answer" }, input, q.base ? baseTag(q) : null, q.unit ? el("span", { class: "unit" }, q.unit) : null), q.base ? baseTip(q) : null, go);
   } else if (q.type === "cloze" && q.mode === "type") {
     const { input, check: go } = answerBox(q, finish, true);
     body.push(clozeSentence(q, input), go);

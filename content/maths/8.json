@@ -192,7 +192,12 @@
           "solution": [
             "{divSteps(n, b)}"
           ],
-          "base": "b"
+          "base": "b",
+          "scaffold": {
+            "text": "Divide by {b} again and again. Write each quotient on the next line, with its remainder beside it.\n{divBlanks(n, b)}",
+            "answers": "divAnswers(n, b)",
+            "hint": "Each line: divide the number above by {b}. Stop when the quotient is {0}, then read the remainders from the bottom up."
+          }
         }
       }
     ]
@@ -300,7 +305,12 @@
       "solution": [
         "{divSteps(n, b)}"
       ],
-      "base": "b"
+      "base": "b",
+      "scaffold": {
+        "text": "Divide by {b} again and again. Write each quotient on the next line, with its remainder beside it.\n{divBlanks(n, b)}",
+        "answers": "divAnswers(n, b)",
+        "hint": "Each line: divide the number above by {b}. Stop when the quotient is {0}, then read the remainders from the bottom up."
+      }
     },
     {
       "id": "m8-to-ten",

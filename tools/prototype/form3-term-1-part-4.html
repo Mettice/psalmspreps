@@ -91,6 +91,12 @@ button:disabled { opacity: .45; cursor: default; box-shadow: none; }
 .blank { display: inline-block; min-width: 4.5em; border-bottom: 3px dotted var(--accent); line-height: 1.2; }
 input.blank-input { display: inline-block; width: 9em; max-width: 100%; min-height: 48px; padding: 6px 10px; font-size: 1.15rem; vertical-align: middle; }
 .sentence.blanks input.blank-input { width: 3.6em; margin: 2px 2px; text-align: center; }
+.sentence.blanks { white-space: pre-line; }
+.sentence.blanks input.blank-input.wide { width: 6.5em; }
+.base-tag { font-size: 1.5rem; margin-left: -4px; vertical-align: -0.35em; }
+.answer.has-base { gap: 0; }
+.answer.has-base input { flex: 0 1 10em; text-align: right; }
+.answer.has-base .base-tag { align-self: flex-end; margin: 0 0 6px 4px; }
 /* word tiles (word order, sorting): tap, never drag */
 .tiles { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
 button.tile { display: inline-flex; align-items: center; justify-content: center; width: auto; min-width: 48px; min-height: 48px; margin: 0; padding: 8px 14px; text-align: center; }
@@ -641,6 +647,21 @@ const placeValues = (s, b) => { const L = String(s).length; return range(0, L - 
 const placeBlanks = (s) => [...String(s)].map((d) => `${d} × ___`).join(" + ") + " = ___";
 /** The answers to placeBlanks, in order: each place value, then the base-ten value. */
 const placeAnswers = (s, b) => [...placeValues(s, b), fromBase(s, b)];
+// ---------------------------------------------------------------- base ten → base b: help after a miss (2026-10-24)
+/** The quotients and remainders of dividing n by b again and again, down to a quotient of 0. */
+const divisions = (n, b) => { const out = []; let q = n; do { out.push([Math.floor(q / b), q % b]); q = Math.floor(q / b); } while (q > 0); return out; };
+/**
+ * The division ladder as on paper, one box for each quotient and remainder, then the answer:
+ *   2 | 45
+ *   2 | ___ remainder ___
+ *       ___ remainder ___      (the last quotient, 0, is not divided again)
+ *   Remainders from the bottom up: ___
+ */
+const divBlanks = (n, b) => [`${b} | ${fmt(n)}`,
+  ...divisions(n, b).map(([q]) => `${q > 0 ? `${b} | ` : ""}___ remainder ___`),
+  "Remainders from the bottom up: ___"].join("\n");
+/** The answers to divBlanks, in order: each quotient and its remainder, then the base-b numeral (a string). */
+const divAnswers = (n, b) => [...divisions(n, b).flat(), toBase(n, b)];
 /** Usual wrong answers: the digits added, the digits multiplied, the place values read from the left. */
 const digitSum = (s) => [...String(s)].reduce((a, d) => a + Number(d), 0);
 const digitProduct = (s) => [...String(s)].reduce((a, d) => a * Number(d), 1);
@@ -758,7 +779,7 @@ function lineRule(r1, r2) {
   return perp ? "⊥" : "//";
 }
 
-return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, placeValues, placeBlanks, placeAnswers, digitSum, digitProduct, placeReversed, placeHeads, placeSteps, placeTable, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
+return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, placeValues, placeBlanks, placeAnswers, divBlanks, divAnswers, digitSum, digitProduct, placeReversed, placeHeads, placeSteps, placeTable, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
 })();
 __mods["lib/english.js"] = (() => {
 // English word forms for templates. Rules plus authored exception tables; the tables are facts a teacher
@@ -1629,6 +1650,7 @@ function instantiate(tpl, seed, lib, lesson = null) {
       const shown = values.map(show(lib));
       Object.assign(q, { parts, answerKind: "number", answerValues: values, answers: shown,
         answer: parts.map((p, i) => p + (i < shown.length ? shown[i] : "")).join("") });
+      if (tpl.base) q.base = evaluate(tpl.base, scope, lib);  // a division ladder ends with a base-b numeral
       q.verified = true;
       return withSolution(q, scope);
     }
@@ -1821,7 +1843,9 @@ function check(q, response) {
   }
   if (q.type === "blanks") {
     // response: one typed value per blank. All must be right; the wrong ones are listed.
-    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], "number"));
+    // A text value is a base numeral ("101101"): compared as one, so "101101₂" and "0101101" are right too.
+    const kindOf = (v) => (typeof v === "string" ? "base" : "number");
+    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], kindOf(q.answerValues[i])));
     return wrong.length ? { correct: false, wrongBlanks: wrong } : { correct: true };
   }
   if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
@@ -2181,7 +2205,7 @@ const CONTENT = {"f3-logic":{"1":{"subject":"logic","class":"Form 3","lesson_no"
 const TITLES = {"f3-logic":{"1":"; Basic notions of logic","2":"Value of logic","3":"Divisions o Logic","4":"Types of Logic","6":"Laws of thought","7":"Significances of laws of thought","8":"Operations of the minds","9":"Definition of ideas and terms"},"f3-french":{"1":"Grammaire : L’adjectif qualificatif : emploi","2":"Conjugaison : Le passé composé : formation et emploi","3":"Vocabulaire : Synonyme","4":"Orthographe : La ponctuation","5":"Lecture : Texte adossé au module","6":"Expression écrite : Initiation à la description et au portrait","7":"Vocabulaire : Antonyme (suite)","8":"Grammaire : L’accord du participe passé avec être","9":"Grammaire : Les conjonctions de coordination","10":"Expression écrite : Initiation à la narration (raconter des petits événements)","11":"Expression orale : Sketches adossés au module","12":"Orthographe : Les doubles consonnes","13":"Grammaire : L’accord du GN avec l’adjectif qualificatif","14":"Conjugaison : L’imparfait de l’indicatif : formation et emploi (suite)","15":"Vocabulaire : Lexique de la sympathie et de l’antipathie","17":"Grammaire : Pluriel des noms en « al », « ail »","19":"Orthographe : Les lettres muettes (au milieu de mot) : sept fonctions","20":"Vocabulaire : Les maladies : épidémies, les pandémies et les endémies","21":"Expression orale : Chansons récitations, jeux de rôles, dialogues","22":"Lecture : Textes adossés au module","23":"Expression écrite : initiation à la description portrait (suite)","24":"Vocabulaire : Les sites touristiques","25":"Grammaire : Les adverbes de manière","26":"Orthographe : Les homophones : ver, vers, verre, vert","27":"Conjugaison : Le futur simple (suite","28":"Vocabulaire : L’hygiène et la salubrité","29":"Expression écrite : Initiation à la narration (suite)","30":"Vocabulaire : La protection de l’environnement 29","31":"Traduction : les adverbes de manière"},"f3-francais-intensif":{"1":"Vocabulaire : les antonymes","2":"Grammaire : Les présentatifs : voici-voilà","4":"Expression orale : Chant","6":"Conjugaison : Le présent de l’indicatif des verbes du 1er et groupe","7":"Expression orale : mélodie de la phrase déclarative. ( affirmative)","8":"Orthographe : les sons /o/","10":"Expression écrite : Décrire sa chambre à coucher","11":"Vocabulaire : Les synonymes","12":"Grammaire : Le gallicisme c’est","13":"Conjugaison : le présent de l’indicatif des verbes 2è groupe","15":"Expression orale : mélodie de la phrase déclarative (négative)","16":"Expression écrite : Raconter sa journée","17":"Grammaire : Les pronoms personnels COI : Moi, /Toi, Lui, nous, vous, leur","18":"Conjugaison : présent de l’indicatif des verbes du 3e groupe","20":"Orthographe : Les sons /o/ et /O/","21":"Vocabulaires : Lexique de l’amour","22":"Grammaire : Les pronoms personnels COI précédés d’une proposition","25":"Expression écrite : Remplir une fiche de renseignements","27":"Vocabulaire : Lexique des maladies courantes","28":"Grammaire : La phrase négative introduite ne pas : ne plus….ne jais","29":"Orthographe : Les sons /Ein/et /um/","32":"Vocabulaire : Lexique des structure sanitaires (hôpitai, urgences, soins intensifs…","33":"Grammaire : La phrase impérative","34":"Conjugaison : Verbes pronominaus au présent de l’indicatif. (essentiels-Voix active)","36":"Expression écrite : Remplir une fiche de santé","37":"Vocabulaire : Lexique lié à l’environnement : Le relief","38":"Grammaire : Accord des adjectifs de couleur","43":"Vocabulaire : Lexique de la végétation","44":"Grammaire : les adjectifs interrogatifs","47":"Vocabulaire : lexique lié à la gestion des déchets","50":"Expression orale : Mélodie de la phrase impérative"}};
 const LESSONS = {"f3-logic":[1,2,3,4,6,7,8,9],"f3-french":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,23,24,25,26,27,28,29,30,31],"f3-francais-intensif":[1,2,4,6,7,8,10,11,12,13,15,16,17,18,20,21,22,25,27,28,29,32,33,34,36,37,38,43,44,47,50]};
 const SUBJECTS = {"f3-logic":"Logic","f3-french":"French","f3-francais-intensif":"Français intensif"};
-const CLASSES = {"form-1":"Form One","form-2":"Form Two","form-3":"Form Three"};
+const CLASSES = {"form-1":"Form One","form-2":"Form Two","form-3":"Form Three","form-4":"Form Four"};
 const CLASS_OF = {"f3-logic":"form-3","f3-french":"form-3","f3-francais-intensif":"form-3"};
 const PAPER = {"f3-logic":[],"f3-french":[6,10,23,29],"f3-francais-intensif":[10,16,25,36]};
 const MODE = "single";
@@ -2393,6 +2417,10 @@ function sorting(q, finish) {
   return [para(T("Tap a word, then tap its group. Tap a word in a group to take it out."), "muted"), wrap, done];
 }
 
+/** A base answer: the small base is printed after the box, so the pupil types only the digits (2026-10-24). */
+const baseTag = (q) => el("span", { class: "base-tag", "aria-label": T("in base {a}", { a: q.base }) }, LIB().sub(q.base));
+const baseTip = (q) => para(T("Type only the digits. The small {a} is already there.", { a: LIB().sub(q.base) }), "muted");
+
 /** Shows q; calls onAnswer({result, ms}) when the pupil answers or presses "I don't know". */
 function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const t0 = performance.now();
@@ -2400,15 +2428,18 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt), figureBox(q.figure)];
   if (q.type === "blanks") {
     // a step-by-step line: one small box per blank, all checked together (2026-10-19)
-    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off", class: "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
+    // a text value is a base numeral (the last box of a division ladder): a wider box, the base shown after it
+    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off",
+      class: typeof q.answerValues[i] === "string" ? "blank-input wide" : "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
     const go = () => { const v = inputs.map((x) => normaliseInput(x.value, q)); if (v.every(Boolean)) finish(v); else inputs[v.findIndex((x) => !x)].focus(); };
     inputs.forEach((x, i) => x.addEventListener("keydown", (e) => { if (e.key === "Enter") (i < inputs.length - 1 && !inputs[i + 1].value ? inputs[i + 1].focus() : go()); }));
     setTimeout(() => inputs[0].focus(), 50);
     body.push(para(T("Fill in each box, then check."), "muted"),
-      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i]] : [p]))), button(T("Check"), go, "primary"));
+      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i], q.base && typeof q.answerValues[i] === "string" ? baseTag(q) : null] : [p]))),
+      q.base ? baseTip(q) : null, button(T("Check"), go, "primary"));
   } else if (q.type === "numeric") {
     const { input, check: go } = answerBox(q, finish);
-    body.push(el("div", { class: "answer" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null), go);
+    body.push(el("div", { class: q.base ? "answer has-base" : "answer" }, input, q.base ? baseTag(q) : null, q.unit ? el("span", { class: "unit" }, q.unit) : null), q.base ? baseTip(q) : null, go);
   } else if (q.type === "cloze" && q.mode === "type") {
     const { input, check: go } = answerBox(q, finish, true);
     body.push(clozeSentence(q, input), go);
