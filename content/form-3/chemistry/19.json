@@ -1,0 +1,545 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "k3-19",
+   "name": "Covalent bonding: formation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A covalent bond is a shared pair of electrons between two non-metal atoms. Each atom puts in one electron and both atoms count the pair, so both complete their outer shells.\n• Single bond: one shared pair (H–H, Cl–Cl). Double bond: two pairs (O=O). Triple bond: three pairs (N≡N).\n• Number of bonds an atom forms = electrons it needs to complete its shell: H 1, Cl 1, O 2, N 3, C 4.\n• Covalent substances are made of molecules: H₂, O₂, H₂O, NH₃, CH₄, CO₂.\nDot-and-cross diagrams show the shared pairs in the overlap of the two atoms' outer shells.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Sharing instead of transferring",
+    "text": "Two non-metal atoms both want to gain electrons, so neither will give electrons away. Instead they share.\nEach atom puts one electron into a pair that sits between the two nuclei. The shared pair is attracted by both nuclei: that is the covalent bond.\nBoth atoms count the shared electrons as their own, so both complete their outer shells."
+   },
+   {
+    "heading": "How many bonds?",
+    "text": "An atom forms as many covalent bonds as the electrons it is missing:\n• H ({1}) and Cl ({7}): one bond;\n• O ({6}): two;\n• N ({5}): three;\n• C ({4}): four.\nSo water is H–O–H, ammonia has three N–H bonds, and methane has four C–H bonds.\nSometimes two atoms share two pairs (a double bond, O=O, as in CO₂: O=C=O) or three pairs (a triple bond, N≡N)."
+   },
+   {
+    "heading": "Dot-and-cross diagrams",
+    "text": "Draw the outer shells of the atoms overlapping. Put the shared pairs in the overlap: one electron as a dot (from one atom) and one as a cross (from the other).\nElectrons that are not shared are lone pairs. In water, oxygen has two shared pairs and two lone pairs: {8} electrons in all."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "covalent bond",
+    "meaning": "a pair of electrons shared between two atoms"
+   },
+   {
+    "word": "molecule",
+    "meaning": "a group of atoms joined by covalent bonds"
+   },
+   {
+    "word": "double bond",
+    "meaning": "two shared pairs"
+   },
+   {
+    "word": "lone pair",
+    "meaning": "a pair of outer electrons not used in bonding"
+   }
+  ],
+  "examples": [
+   "{'H–Cl'}: one shared pair",
+   "{'O=C=O'}: two double bonds",
+   "{'NH₃'}: three single bonds, one lone pair"
+  ],
+  "mistake": {
+   "wrong": "In a covalent bond one atom gives an electron to the other",
+   "right": "In a covalent bond the atoms share a pair of electrons",
+   "why": "Transferring electrons is ionic bonding, between a metal and a non-metal."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Show how a molecule of methane, CH₄, is held together.",
+  "steps": [
+   "Carbon ({2}, {4}) needs {4} more electrons; each hydrogen needs {1}.",
+   "Carbon shares one pair with each of {4} hydrogen atoms.",
+   "Carbon now has {8} outer electrons and each hydrogen has {2}: all shells are full."
+  ],
+  "answer": "Four single covalent bonds (four shared pairs)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k19-1",
+    "status": "draft",
+    "idea": "A covalent bond is a shared pair of electrons.",
+    "vars": {},
+    "example": [
+     "H–H: each hydrogen gives one electron to the pair."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-19-pairs"
+    }
+   },
+   {
+    "id": "c3k19-2",
+    "status": "draft",
+    "idea": "An atom forms as many bonds as the electrons it needs.",
+    "vars": {},
+    "example": [
+     "Oxygen needs {2}: it forms {2} bonds."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-19-bonds"
+    }
+   },
+   {
+    "id": "c3k19-3",
+    "status": "draft",
+    "idea": "Two pairs make a double bond; three pairs a triple bond.",
+    "vars": {},
+    "example": [
+     "{'O=O'} (double), {'N≡N'} (triple)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-19-type-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What type of bond holds the two atoms in an oxygen molecule, O₂?",
+         "r": "a double covalent bond",
+         "w": [
+          "a single covalent bond",
+          "an ionic bond",
+          "a triple covalent bond"
+         ],
+         "e": [
+          "Each oxygen needs two electrons, so two pairs are shared.",
+          "Oxygen atoms are both non-metals: they share.",
+          "That is nitrogen, N₂."
+         ],
+         "y": "Two shared pairs: O=O."
+        },
+        {
+         "q": "Which molecule contains a triple bond?",
+         "r": "N₂",
+         "w": [
+          "H₂",
+          "Cl₂",
+          "O₂"
+         ],
+         "e": [
+          "H–H is single.",
+          "Cl–Cl is single.",
+          "O=O is double."
+         ],
+         "y": "Each nitrogen needs three electrons: N≡N."
+        },
+        {
+         "q": "In a covalent bond, the shared electrons come from…",
+         "r": "both atoms, one electron each",
+         "w": [
+          "the metal atom only",
+          "the nucleus",
+          "a third atom"
+         ],
+         "e": [
+          "There is no metal in a covalent bond.",
+          "Electrons are outside the nucleus.",
+          "Only the two bonded atoms are involved."
+         ],
+         "y": "Each atom gives one electron to the shared pair."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-19-pairs",
+   "type": "numeric",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "f": "H₂",
+       "n": "hydrogen",
+       "p": 1,
+       "b": "single"
+      },
+      {
+       "f": "Cl₂",
+       "n": "chlorine",
+       "p": 1,
+       "b": "single"
+      },
+      {
+       "f": "O₂",
+       "n": "oxygen",
+       "p": 2,
+       "b": "double"
+      },
+      {
+       "f": "N₂",
+       "n": "nitrogen",
+       "p": 3,
+       "b": "triple"
+      },
+      {
+       "f": "HCl",
+       "n": "hydrogen chloride",
+       "p": 1,
+       "b": "single"
+      },
+      {
+       "f": "H₂O",
+       "n": "water",
+       "p": 2,
+       "b": "two single"
+      },
+      {
+       "f": "NH₃",
+       "n": "ammonia",
+       "p": 3,
+       "b": "three single"
+      },
+      {
+       "f": "CH₄",
+       "n": "methane",
+       "p": 4,
+       "b": "four single"
+      },
+      {
+       "f": "CO₂",
+       "n": "carbon dioxide",
+       "p": 4,
+       "b": "two double"
+      }
+     ]
+    }
+   },
+   "prompt": "How many pairs of electrons are shared in a molecule of {X.n}, {X.f}?",
+   "answer": "X.p",
+   "misconceptions": [
+    {
+     "id": "atoms",
+     "wrong": "X.p * 2",
+     "explain": "Count pairs of electrons, not single electrons."
+    }
+   ],
+   "solution": [
+    "Count the shared pairs: {X.n} has {X.b} bond(s).",
+    "That is {answer} shared pair(s)."
+   ]
+  },
+  {
+   "id": "k3-19-bonds",
+   "type": "numeric",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "hydrogen",
+       "c": "1",
+       "k": 1
+      },
+      {
+       "n": "chlorine",
+       "c": "2, 8, 7",
+       "k": 1
+      },
+      {
+       "n": "oxygen",
+       "c": "2, 6",
+       "k": 2
+      },
+      {
+       "n": "nitrogen",
+       "c": "2, 5",
+       "k": 3
+      },
+      {
+       "n": "carbon",
+       "c": "2, 4",
+       "k": 4
+      },
+      {
+       "n": "sulphur",
+       "c": "2, 8, 6",
+       "k": 2
+      }
+     ]
+    }
+   },
+   "prompt": "How many covalent bonds does a {X.n} atom usually form? ({X.n}: {X.c})",
+   "answer": "X.k",
+   "misconceptions": [
+    {
+     "id": "outer",
+     "wrong": "8 - X.k",
+     "explain": "That is the number of outer electrons it already has. Count those it still needs."
+    }
+   ],
+   "solution": [
+    "It needs {X.k} more electron(s) to complete its outer shell.",
+    "So it forms {answer} bond(s)."
+   ],
+   "where": [
+    "8 - X.k != X.k"
+   ]
+  },
+  {
+   "id": "k3-19-type",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What type of bond holds the two atoms in an oxygen molecule, O₂?",
+       "r": "a double covalent bond",
+       "w": [
+        "a single covalent bond",
+        "an ionic bond",
+        "a triple covalent bond"
+       ],
+       "e": [
+        "Each oxygen needs two electrons, so two pairs are shared.",
+        "Oxygen atoms are both non-metals: they share.",
+        "That is nitrogen, N₂."
+       ],
+       "y": "Two shared pairs: O=O."
+      },
+      {
+       "q": "Which molecule contains a triple bond?",
+       "r": "N₂",
+       "w": [
+        "H₂",
+        "Cl₂",
+        "O₂"
+       ],
+       "e": [
+        "H–H is single.",
+        "Cl–Cl is single.",
+        "O=O is double."
+       ],
+       "y": "Each nitrogen needs three electrons: N≡N."
+      },
+      {
+       "q": "In a covalent bond, the shared electrons come from…",
+       "r": "both atoms, one electron each",
+       "w": [
+        "the metal atom only",
+        "the nucleus",
+        "a third atom"
+       ],
+       "e": [
+        "There is no metal in a covalent bond.",
+        "Electrons are outside the nucleus.",
+        "Only the two bonded atoms are involved."
+       ],
+       "y": "Each atom gives one electron to the shared pair."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-19-dot",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In a dot-and-cross diagram of water, how many electrons are in the outer shell of oxygen?",
+       "r": "8 (two shared pairs and two lone pairs)",
+       "w": [
+        "6",
+        "2",
+        "10"
+       ],
+       "e": [
+        "Count the shared electrons too.",
+        "That is hydrogen's shell.",
+        "Oxygen's second shell holds at most 8."
+       ],
+       "y": "The shared pairs complete oxygen's octet."
+      },
+      {
+       "q": "How many lone (non-bonding) pairs are on the nitrogen atom in ammonia, NH₃?",
+       "r": "one",
+       "w": [
+        "none",
+        "two",
+        "three"
+       ],
+       "e": [
+        "Nitrogen has 5 outer electrons; 3 are used in bonds.",
+        "Only 2 electrons are left over: one pair.",
+        "Three electrons are used in bonding."
+       ],
+       "y": "5 − 3 = 2 electrons left: one lone pair."
+      },
+      {
+       "q": "Why does hydrogen form only one covalent bond?",
+       "r": "Its only shell is full with two electrons",
+       "w": [
+        "It has no electrons",
+        "It needs eight electrons",
+        "It always loses its electron"
+       ],
+       "e": [
+        "Hydrogen has one electron.",
+        "Its first shell holds only two.",
+        "In covalent bonds it shares, not loses."
+       ],
+       "y": "One shared pair gives hydrogen two electrons, like helium."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

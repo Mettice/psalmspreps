@@ -1,0 +1,605 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  18,
+  20,
+  22
+ ],
+ "skills": [
+  {
+   "id": "k3-24",
+   "name": "Crystals: definition and types of crystal structure"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A crystal is a solid whose particles are arranged in a regular, repeating pattern (a lattice). Crystals have flat faces, straight edges and sharp angles.\nTypes of crystal structure, by the particles and bonds:\n• Ionic: positive and negative ions (NaCl, cubic crystals).\n• Giant covalent (macromolecular): atoms joined by covalent bonds throughout (diamond, graphite, quartz).\n• Simple molecular: molecules held by weak forces (ice, iodine, sugar).\n• Metallic: positive ions in a sea of electrons (copper, iron).\nCrystals can be grown by slowly cooling or evaporating a saturated solution (e.g. copper(II) sulphate).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Order inside, shape outside",
+    "text": "In a crystal, the particles (atoms, ions or molecules) are arranged in a regular pattern that repeats in every direction: a lattice.\nBecause of this inner order, crystals have flat faces, straight edges and fixed angles. Salt grains seen under a hand lens are little cubes."
+   },
+   {
+    "heading": "Four kinds of crystal",
+    "text": "Crystals are grouped by what the particles are and how they are bonded:\n• Ionic: positive and negative ions (salt, magnesium oxide).\n• Giant covalent: a network of covalently bonded atoms (diamond, graphite, quartz in sand).\n• Simple molecular: separate molecules held by weak forces (ice, iodine, sugar).\n• Metallic: metal ions in a sea of electrons (copper, iron, gold).\nThe type of crystal tells you a lot about its properties."
+   },
+   {
+    "heading": "Growing crystals",
+    "text": "Dissolve as much copper(II) sulphate as possible in hot water to make a saturated solution, filter it, and leave it to cool slowly or evaporate slowly.\nBlue crystals form as the water can no longer hold all the solute. Slow cooling gives large, well-shaped crystals; fast cooling gives many tiny ones."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "crystal",
+    "meaning": "a solid with a regular, repeating arrangement of particles"
+   },
+   {
+    "word": "lattice",
+    "meaning": "the repeating pattern of particles"
+   },
+   {
+    "word": "saturated solution",
+    "meaning": "a solution that can dissolve no more solute at that temperature"
+   }
+  ],
+  "examples": [
+   "Salt: ionic cubes",
+   "Sugar: simple molecular crystals",
+   "Diamond: giant covalent",
+   "Copper: metallic"
+  ],
+  "mistake": {
+   "wrong": "All crystals are made of ions",
+   "right": "Crystals can be made of ions, atoms, molecules or metal ions",
+   "why": "Ice and sugar crystals contain molecules; diamond contains atoms."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Classify the crystals of common salt, ice, diamond and copper.",
+  "steps": [
+   "Salt: Na⁺ and Cl⁻ ions → ionic.",
+   "Ice: H₂O molecules → simple molecular.",
+   "Diamond: carbon atoms all covalently bonded → giant covalent.",
+   "Copper: Cu²⁺ ions in a sea of electrons → metallic."
+  ],
+  "answer": "ionic, simple molecular, giant covalent, metallic",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k24-1",
+    "status": "draft",
+    "idea": "A crystal has a regular, repeating arrangement of particles.",
+    "vars": {},
+    "example": [
+     "Salt crystals are tiny cubes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-24-def"
+    }
+   },
+   {
+    "id": "c3k24-2",
+    "status": "draft",
+    "idea": "Four types: ionic, giant covalent, simple molecular, metallic.",
+    "vars": {},
+    "example": [
+     "Quartz (sand) is giant covalent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-24-type"
+    }
+   },
+   {
+    "id": "c3k24-3",
+    "status": "draft",
+    "idea": "Grow crystals by slowly cooling or evaporating a saturated solution.",
+    "vars": {},
+    "example": [
+     "Slow cooling gives larger crystals."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-24-grow-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How can large crystals of copper(II) sulphate be grown?",
+         "r": "Let a hot saturated solution cool slowly",
+         "w": [
+          "Boil the solution to dryness quickly",
+          "Add more water",
+          "Freeze it quickly"
+         ],
+         "e": [
+          "Fast evaporation gives tiny crystals.",
+          "Adding water dissolves crystals.",
+          "Fast cooling gives small crystals."
+         ],
+         "y": "Slow cooling lets particles join the lattice in order."
+        },
+        {
+         "q": "Why do slowly cooled solutions give larger crystals?",
+         "r": "Particles have time to join the lattice in a regular way",
+         "w": [
+          "The particles get bigger",
+          "Slow cooling adds more solute",
+          "The solvent becomes solid"
+         ],
+         "e": [
+          "The particles themselves do not grow.",
+          "No solute is added.",
+          "The water stays liquid."
+         ],
+         "y": "Fewer, larger crystals grow when particles are added gradually."
+        },
+        {
+         "q": "What is a saturated solution?",
+         "r": "one that cannot dissolve any more solute at that temperature",
+         "w": [
+          "one with no solute",
+          "one that has boiled",
+          "any coloured solution"
+         ],
+         "e": [
+          "That is pure solvent.",
+          "Boiling does not define it.",
+          "Colour does not define it."
+         ],
+         "y": "Cooling a saturated solution makes crystals form."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-24-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a crystal?",
+       "r": "a solid with its particles in a regular, repeating pattern",
+       "w": [
+        "any shiny solid",
+        "a liquid that has frozen quickly",
+        "a mixture of solids"
+       ],
+       "e": [
+        "Shininess is not the definition.",
+        "Quick freezing can give no crystals at all.",
+        "A crystal is one substance in a regular pattern."
+       ],
+       "y": "The regular lattice gives flat faces and sharp edges."
+      },
+      {
+       "q": "Which feature shows that a solid is crystalline?",
+       "r": "flat faces and sharp, regular angles",
+       "w": [
+        "a rough, irregular surface",
+        "it is soft",
+        "it is coloured"
+       ],
+       "e": [
+        "Irregular surfaces suggest no regular pattern.",
+        "Hardness does not decide it.",
+        "Colour does not decide it."
+       ],
+       "y": "The outer shape reflects the regular arrangement inside."
+      },
+      {
+       "q": "What shape are common salt crystals?",
+       "r": "cubes",
+       "w": [
+        "needles",
+        "spheres",
+        "hexagonal plates"
+       ],
+       "e": [
+        "Salt crystals are not needle-shaped.",
+        "Crystals have flat faces.",
+        "Salt's lattice is cubic."
+       ],
+       "y": "Na⁺ and Cl⁻ pack in a cubic lattice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-24-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "sodium chloride",
+       "r": "ionic",
+       "w": [
+        "metallic",
+        "simple molecular",
+        "giant covalent"
+       ],
+       "e": [
+        "There is no free electron sea.",
+        "It is made of ions, not molecules.",
+        "It has ions, not a network of covalent bonds."
+       ],
+       "y": "A lattice of Na⁺ and Cl⁻ ions."
+      },
+      {
+       "q": "ice",
+       "r": "simple molecular",
+       "w": [
+        "ionic",
+        "giant covalent",
+        "metallic"
+       ],
+       "e": [
+        "Water is covalent.",
+        "Ice melts at 0 °C: weak forces between molecules.",
+        "Water is not a metal."
+       ],
+       "y": "H₂O molecules held by weak forces."
+      },
+      {
+       "q": "quartz (silicon dioxide)",
+       "r": "giant covalent",
+       "w": [
+        "simple molecular",
+        "ionic",
+        "metallic"
+       ],
+       "e": [
+        "Quartz melts at about 1700 °C: not small molecules.",
+        "Silicon and oxygen are non-metals.",
+        "It has no free electrons."
+       ],
+       "y": "Every atom is covalently bonded to its neighbours throughout."
+      },
+      {
+       "q": "iron",
+       "r": "metallic",
+       "w": [
+        "ionic",
+        "giant covalent",
+        "simple molecular"
+       ],
+       "e": [
+        "Iron alone has no negative ions.",
+        "Iron atoms are not joined by shared pairs.",
+        "Iron is not molecular."
+       ],
+       "y": "Fe ions in a sea of delocalised electrons."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of crystal structure has {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-24-grow",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How can large crystals of copper(II) sulphate be grown?",
+       "r": "Let a hot saturated solution cool slowly",
+       "w": [
+        "Boil the solution to dryness quickly",
+        "Add more water",
+        "Freeze it quickly"
+       ],
+       "e": [
+        "Fast evaporation gives tiny crystals.",
+        "Adding water dissolves crystals.",
+        "Fast cooling gives small crystals."
+       ],
+       "y": "Slow cooling lets particles join the lattice in order."
+      },
+      {
+       "q": "Why do slowly cooled solutions give larger crystals?",
+       "r": "Particles have time to join the lattice in a regular way",
+       "w": [
+        "The particles get bigger",
+        "Slow cooling adds more solute",
+        "The solvent becomes solid"
+       ],
+       "e": [
+        "The particles themselves do not grow.",
+        "No solute is added.",
+        "The water stays liquid."
+       ],
+       "y": "Fewer, larger crystals grow when particles are added gradually."
+      },
+      {
+       "q": "What is a saturated solution?",
+       "r": "one that cannot dissolve any more solute at that temperature",
+       "w": [
+        "one with no solute",
+        "one that has boiled",
+        "any coloured solution"
+       ],
+       "e": [
+        "That is pure solvent.",
+        "Boiling does not define it.",
+        "Colour does not define it."
+       ],
+       "y": "Cooling a saturated solution makes crystals form."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-24-link",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A crystal melts at 1600 °C, does not conduct when molten, and is very hard. Its structure is…",
+       "r": "giant covalent",
+       "w": [
+        "ionic",
+        "metallic",
+        "simple molecular"
+       ],
+       "e": [
+        "A molten ionic compound conducts.",
+        "Metals conduct.",
+        "Simple molecular substances melt easily."
+       ],
+       "y": "Very high melting point and no conduction: giant covalent."
+      },
+      {
+       "q": "A crystal melts at 115 °C and does not conduct. Its structure is…",
+       "r": "simple molecular",
+       "w": [
+        "ionic",
+        "giant covalent",
+        "metallic"
+       ],
+       "e": [
+        "Ionic crystals melt much higher.",
+        "Giant covalent crystals melt much higher.",
+        "Metals conduct."
+       ],
+       "y": "Low melting point: weak forces between molecules (sulphur)."
+      },
+      {
+       "q": "A crystal conducts electricity as a solid and is malleable. Its structure is…",
+       "r": "metallic",
+       "w": [
+        "ionic",
+        "giant covalent",
+        "simple molecular"
+       ],
+       "e": [
+        "Solid ionic crystals do not conduct.",
+        "Most giant covalent crystals do not conduct and are brittle.",
+        "Molecular crystals do not conduct."
+       ],
+       "y": "Free electrons: metallic."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,648 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "k3-12",
+   "name": "Electronic configuration and chemical properties: alkali metals and halogens"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Alkali metals (group I: Li, Na, K) have 1 valence electron, which they lose easily to form +1 ions.\n• Soft, shiny when cut, stored under oil; react vigorously with water to give an alkaline hydroxide and hydrogen: 2Na + 2H₂O → 2NaOH + H₂.\n• Reactivity increases down the group (the outer electron is further from the nucleus and lost more easily): K > Na > Li.\nHalogens (group VII: F, Cl, Br, I) have 7 valence electrons and gain 1 to form −1 ions (halide ions).\n• Coloured, poisonous non-metals; diatomic molecules (Cl₂). Reactivity decreases down the group: F > Cl > Br > I.\n• They react with alkali metals to form salts: 2Na + Cl₂ → 2NaCl.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Group I: the alkali metals",
+    "text": "Lithium, sodium and potassium have {1} electron in the outer shell. They react by losing it to form ions with a +{1} charge: Na → Na⁺ + e⁻.\nThey are soft (they can be cut with a knife), shiny when freshly cut, and so reactive that they are stored under oil.\nWith water they fizz, giving hydrogen gas and an alkaline solution of the hydroxide: {'2Na + 2H₂O → 2NaOH + H₂'}. That is why they are called alkali metals."
+   },
+   {
+    "heading": "Reactivity down group I",
+    "text": "Going down the group, atoms have more shells, so the outer electron is further from the nucleus and more shielded. It is held less strongly and lost more easily.\nSo reactivity increases: lithium fizzes steadily, sodium melts into a ball and races around, potassium bursts into a lilac flame."
+   },
+   {
+    "heading": "Group VII: the halogens",
+    "text": "Fluorine, chlorine, bromine and iodine have {7} outer electrons. They react by gaining {1} electron to form −{1} ions (fluoride, chloride, bromide, iodide).\nThey are coloured, poisonous non-metals made of pairs of atoms (Cl₂). Going down the group, the extra electron is attracted less strongly, so reactivity decreases: fluorine is the most reactive.\nA more reactive halogen displaces a less reactive one from its salts."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "alkali metals",
+    "meaning": "group I: Li, Na, K…"
+   },
+   {
+    "word": "halogens",
+    "meaning": "group VII: F, Cl, Br, I"
+   },
+   {
+    "word": "halide",
+    "meaning": "a −{1} ion of a halogen"
+   },
+   {
+    "word": "displacement",
+    "meaning": "a more reactive element pushing a less reactive one out of a compound"
+   }
+  ],
+  "examples": [
+   "{'2K + 2H₂O → 2KOH + H₂'}",
+   "{'2Na + Cl₂ → 2NaCl'}",
+   "{'Cl₂ + 2KI → 2KCl + I₂'}"
+  ],
+  "mistake": {
+   "wrong": "Halogens get more reactive down the group, like alkali metals",
+   "right": "Halogen reactivity decreases down the group",
+   "why": "Halogens gain an electron, and that is harder when the outer shell is further from the nucleus."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain why potassium reacts more vigorously with water than sodium.",
+  "steps": [
+   "Both have {1} valence electron and react by losing it.",
+   "Potassium has more shells ({2}, {8}, {8}, {1}), so its outer electron is further from the nucleus.",
+   "It is held less strongly and lost more easily, so potassium is more reactive."
+  ],
+  "answer": "Its outer electron is further from the nucleus and is lost more easily",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k12-1",
+    "status": "draft",
+    "idea": "Alkali metals lose {1} electron to form +{1} ions; reactivity increases down the group.",
+    "vars": {},
+    "example": [
+     "Na → Na⁺ + e⁻"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-12-alk"
+    }
+   },
+   {
+    "id": "c3k12-2",
+    "status": "draft",
+    "idea": "Halogens gain {1} electron to form −{1} ions; reactivity decreases down the group.",
+    "vars": {},
+    "example": [
+     "Cl + e⁻ → Cl⁻"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-12-hal"
+    }
+   },
+   {
+    "id": "c3k12-3",
+    "status": "draft",
+    "idea": "Alkali metal + water → alkaline hydroxide + hydrogen.",
+    "vars": {},
+    "example": [
+     "{'2Na + 2H₂O → 2NaOH + H₂'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-12-water-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "groups"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Sodium is added to water. What are the products?",
+         "r": "sodium hydroxide and hydrogen",
+         "w": [
+          "sodium oxide and oxygen",
+          "sodium chloride and water",
+          "sodium and hydrogen chloride"
+         ],
+         "e": [
+          "The gas given off is hydrogen.",
+          "No chlorine is present.",
+          "Sodium reacts, so it is not left as sodium."
+         ],
+         "y": "2Na + 2H₂O → 2NaOH + H₂."
+        },
+        {
+         "q": "After potassium reacts with water, the solution turns universal indicator purple. Why?",
+         "r": "Potassium hydroxide is a strong alkali",
+         "w": [
+          "The solution is acidic",
+          "Hydrogen colours the indicator",
+          "Potassium is purple"
+         ],
+         "e": [
+          "Purple means alkaline.",
+          "Hydrogen gas escapes; it does not colour the solution.",
+          "Potassium is a silvery metal."
+         ],
+         "y": "Alkali metals form alkaline hydroxides."
+        },
+        {
+         "q": "What forms when sodium burns in chlorine?",
+         "r": "sodium chloride (common salt)",
+         "w": [
+          "sodium hydroxide",
+          "chlorine oxide",
+          "hydrogen chloride"
+         ],
+         "e": [
+          "No water is involved.",
+          "Oxygen is not involved.",
+          "No hydrogen is involved."
+         ],
+         "y": "2Na + Cl₂ → 2NaCl."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-12-alk",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "groups"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are sodium and potassium stored under oil?",
+       "r": "They react quickly with air and water",
+       "w": [
+        "They are poisonous gases",
+        "They dissolve in oil",
+        "They are too heavy"
+       ],
+       "e": [
+        "They are solid metals.",
+        "The oil keeps air and water away; they do not dissolve in it.",
+        "They are light metals."
+       ],
+       "y": "Oil keeps out the air and moisture."
+      },
+      {
+       "q": "Which alkali metal is the most reactive?",
+       "r": "potassium",
+       "w": [
+        "lithium",
+        "sodium",
+        "they are all equally reactive"
+       ],
+       "e": [
+        "Lithium is the least reactive of the three.",
+        "Sodium is less reactive than potassium.",
+        "Reactivity increases down the group."
+       ],
+       "y": "Potassium's outer electron is furthest from the nucleus."
+      },
+      {
+       "q": "What ion does an alkali metal form?",
+       "r": "a +1 ion",
+       "w": [
+        "a −1 ion",
+        "a +2 ion",
+        "no ion"
+       ],
+       "e": [
+        "Metals lose electrons, making positive ions.",
+        "Group I has one electron to lose.",
+        "They readily form ions."
+       ],
+       "y": "Losing the single outer electron gives +1."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-12-hal",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "groups"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which halogen is the most reactive?",
+       "r": "fluorine",
+       "w": [
+        "iodine",
+        "bromine",
+        "chlorine"
+       ],
+       "e": [
+        "Iodine is the least reactive.",
+        "Bromine is below chlorine.",
+        "Chlorine is below fluorine."
+       ],
+       "y": "Reactivity of halogens decreases down the group."
+      },
+      {
+       "q": "What ion does a halogen form?",
+       "r": "a −1 ion (halide)",
+       "w": [
+        "a +1 ion",
+        "a −7 ion",
+        "a +7 ion"
+       ],
+       "e": [
+        "Non-metals gain electrons.",
+        "It gains only one electron to fill its shell.",
+        "It gains, not loses, electrons."
+       ],
+       "y": "Seven outer electrons: gaining one fills the shell."
+      },
+      {
+       "q": "How does chlorine exist at room temperature?",
+       "r": "as a green-yellow gas of Cl₂ molecules",
+       "w": [
+        "as a shiny metal",
+        "as single Cl atoms",
+        "as a purple solid"
+       ],
+       "e": [
+        "Chlorine is a non-metal.",
+        "Chlorine atoms pair up into Cl₂.",
+        "That describes iodine."
+       ],
+       "y": "Halogens are diatomic: Cl₂."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-12-water",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "groups"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Sodium is added to water. What are the products?",
+       "r": "sodium hydroxide and hydrogen",
+       "w": [
+        "sodium oxide and oxygen",
+        "sodium chloride and water",
+        "sodium and hydrogen chloride"
+       ],
+       "e": [
+        "The gas given off is hydrogen.",
+        "No chlorine is present.",
+        "Sodium reacts, so it is not left as sodium."
+       ],
+       "y": "2Na + 2H₂O → 2NaOH + H₂."
+      },
+      {
+       "q": "After potassium reacts with water, the solution turns universal indicator purple. Why?",
+       "r": "Potassium hydroxide is a strong alkali",
+       "w": [
+        "The solution is acidic",
+        "Hydrogen colours the indicator",
+        "Potassium is purple"
+       ],
+       "e": [
+        "Purple means alkaline.",
+        "Hydrogen gas escapes; it does not colour the solution.",
+        "Potassium is a silvery metal."
+       ],
+       "y": "Alkali metals form alkaline hydroxides."
+      },
+      {
+       "q": "What forms when sodium burns in chlorine?",
+       "r": "sodium chloride (common salt)",
+       "w": [
+        "sodium hydroxide",
+        "chlorine oxide",
+        "hydrogen chloride"
+       ],
+       "e": [
+        "No water is involved.",
+        "Oxygen is not involved.",
+        "No hydrogen is involved."
+       ],
+       "y": "2Na + Cl₂ → 2NaCl."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-12-e",
+   "type": "numeric",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "groups"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "sodium",
+       "s": "Na",
+       "v": "lose",
+       "k": 1
+      },
+      {
+       "n": "potassium",
+       "s": "K",
+       "v": "lose",
+       "k": 1
+      },
+      {
+       "n": "lithium",
+       "s": "Li",
+       "v": "lose",
+       "k": 1
+      },
+      {
+       "n": "chlorine",
+       "s": "Cl",
+       "v": "gain",
+       "k": 1
+      },
+      {
+       "n": "fluorine",
+       "s": "F",
+       "v": "gain",
+       "k": 1
+      }
+     ]
+    }
+   },
+   "prompt": "How many electrons must {X.n} {X.v} to reach a full outer shell?",
+   "answer": "X.k",
+   "misconceptions": [
+    {
+     "id": "seven",
+     "wrong": "7",
+     "explain": "{X.v == 'lose' ? 'Losing seven would be much harder than losing one.' : 'It already has seven: it needs only one more.'}"
+    }
+   ],
+   "solution": [
+    "Configuration of {X.n}: {shells(atomicNumber(X.s))}.",
+    "It is easier to {X.v} {answer} electron(s) than to {X.v == 'lose' ? 'gain' : 'lose'} {8 - X.k}."
+   ]
+  },
+  {
+   "id": "k3-12-trend",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "groups"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does reactivity INCREASE down group I but DECREASE down group VII?",
+       "r": "Group I loses an electron (easier when far from the nucleus); group VII gains one (harder when far from the nucleus)",
+       "w": [
+        "Both groups gain electrons",
+        "Atoms get smaller down both groups",
+        "Group VII metals lose electrons"
+       ],
+       "e": [
+        "Group I metals lose electrons.",
+        "Atoms get larger down a group.",
+        "Halogens are non-metals that gain electrons."
+       ],
+       "y": "Distance from the nucleus helps losing but hinders gaining."
+      },
+      {
+       "q": "Chlorine water is added to potassium bromide solution and the solution turns orange. Why?",
+       "r": "Chlorine is more reactive and displaces bromine",
+       "w": [
+        "Bromine displaces chlorine",
+        "Potassium turns orange",
+        "No reaction happens"
+       ],
+       "e": [
+        "The less reactive halogen cannot displace a more reactive one.",
+        "Potassium ions are colourless.",
+        "The orange colour shows bromine has formed."
+       ],
+       "y": "Cl₂ + 2KBr → 2KCl + Br₂."
+      },
+      {
+       "q": "Rubidium is below potassium in group I. Predict its reaction with water.",
+       "r": "even more violent than potassium",
+       "w": [
+        "slower than lithium",
+        "no reaction",
+        "it forms an acid"
+       ],
+       "e": [
+        "It is lower in the group, so more reactive.",
+        "All alkali metals react with water.",
+        "It forms an alkaline hydroxide."
+       ],
+       "y": "Reactivity increases down group I."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

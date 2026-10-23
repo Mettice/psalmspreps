@@ -1,0 +1,470 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "k3-22",
+   "name": "The metallic bond: formation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In a metal, each atom releases its outer (valence) electrons. The atoms become positive ions arranged in a regular lattice, and the released electrons move freely among them: a 'sea' of delocalised electrons.\nThe metallic bond is the attraction between the positive ions and the sea of electrons.\n• Sodium gives 1 electron per atom, magnesium 2, aluminium 3: more delocalised electrons and higher ion charge give a stronger bond (aluminium melts higher than sodium).\n• The bond is not between particular pairs of atoms: it holds the whole lattice together.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Atoms that give up electrons",
+    "text": "Metal atoms have only {1}, {2} or {3} outer electrons, held loosely. In a piece of metal, every atom lets its outer electrons go.\nThe atoms become positive ions, packed tightly in a regular pattern (a lattice). The released electrons are free to move anywhere in the metal: they are delocalised."
+   },
+   {
+    "heading": "The sea of electrons",
+    "text": "Picture rows of positive ions sitting in a 'sea' of moving electrons. The ions are attracted to the negative sea all around them.\nThis attraction is the metallic bond. It does not join particular pairs of atoms; it holds the whole lattice together, which is why metals are strong."
+   },
+   {
+    "heading": "Stronger and weaker metallic bonds",
+    "text": "The more electrons each atom puts into the sea, and the higher the charge on the ions, the stronger the bonding.\n• Sodium (Na⁺, {1} electron each) is soft and melts at {98} °C.\n• Magnesium (Mg²⁺, {2} each) melts at {650} °C.\n• Aluminium (Al³⁺, {3} each) melts at {660} °C."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "metallic bond",
+    "meaning": "attraction between metal ions and delocalised electrons"
+   },
+   {
+    "word": "delocalised electrons",
+    "meaning": "electrons free to move through the whole metal"
+   },
+   {
+    "word": "lattice",
+    "meaning": "a regular repeating arrangement of particles"
+   }
+  ],
+  "examples": [
+   "Potassium: K⁺ ions, {1} free electron per atom",
+   "Calcium: Ca²⁺ ions, {2} free electrons per atom"
+  ],
+  "mistake": {
+   "wrong": "A metal is held together by negative ions",
+   "right": "A metal has positive ions held by a sea of free electrons",
+   "why": "Metal atoms lose electrons; there are no negative ions in a pure metal."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 12
+  },
+  "problem": "Describe the bonding in magnesium (atomic number {z}).",
+  "steps": [
+   "Magnesium ({shells(z)}) releases its {outerElectrons(z)} outer electrons.",
+   "It becomes Mg²⁺ ions in a regular lattice.",
+   "The released electrons move freely between the ions; the ions are held by attraction to this sea of electrons."
+  ],
+  "answer": "Mg²⁺ ions in a sea of delocalised electrons",
+  "checks": [
+   "outerElectrons(z) == 2"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k22-1",
+    "status": "draft",
+    "idea": "Metal atoms release their outer electrons into a shared sea.",
+    "vars": {},
+    "example": [
+     "Each sodium atom gives {1} electron."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-22-e"
+    }
+   },
+   {
+    "id": "c3k22-2",
+    "status": "draft",
+    "idea": "The metallic bond: positive ions attracted to delocalised electrons.",
+    "vars": {},
+    "example": [
+     "The electrons are not attached to any one ion."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-22-what"
+    }
+   },
+   {
+    "id": "c3k22-3",
+    "status": "draft",
+    "idea": "More delocalised electrons per atom: a stronger metallic bond.",
+    "vars": {},
+    "example": [
+     "Aluminium ({3}) melts higher than sodium ({1})."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-22-strong-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Aluminium (660 °C) melts at a higher temperature than sodium (98 °C). Why?",
+         "r": "Each Al atom gives 3 electrons and forms Al³⁺, so the attraction is stronger",
+         "w": [
+          "Aluminium is ionic",
+          "Sodium has more delocalised electrons",
+          "Aluminium is made of molecules"
+         ],
+         "e": [
+          "Aluminium is a metal: metallic bonding.",
+          "Sodium gives only 1 electron per atom.",
+          "Metals are not molecular."
+         ],
+         "y": "More electrons in the sea and higher charge on the ions: stronger metallic bonding."
+        },
+        {
+         "q": "Which metal would you expect to have the strongest metallic bonding?",
+         "r": "aluminium",
+         "w": [
+          "sodium",
+          "potassium",
+          "lithium"
+         ],
+         "e": [
+          "Sodium gives 1 electron per atom.",
+          "Potassium gives 1 and has larger ions.",
+          "Lithium gives 1 electron per atom."
+         ],
+         "y": "Aluminium gives 3 electrons per atom."
+        },
+        {
+         "q": "Why are metal ions not pushed apart, even though they are all positive?",
+         "r": "The sea of electrons between them holds them together",
+         "w": [
+          "They are neutral",
+          "They share pairs of electrons",
+          "They are held by negative ions"
+         ],
+         "e": [
+          "They are positive ions.",
+          "The electrons are not in fixed pairs.",
+          "There are no negative ions in a pure metal."
+         ],
+         "y": "The negative electron sea attracts all the ions."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-22-e",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Na",
+      "K",
+      "Be",
+      "Mg",
+      "Ca",
+      "Al"
+     ]
+    }
+   },
+   "prompt": "How many electrons does each {nameOf(X)} atom (atomic number {atomicNumber(X)}) give to the sea of electrons?",
+   "answer": "outerElectrons(atomicNumber(X))",
+   "misconceptions": [
+    {
+     "id": "all",
+     "wrong": "atomicNumber(X)",
+     "explain": "Only the outer electrons are released; inner electrons stay with the ion."
+    }
+   ],
+   "solution": [
+    "Configuration: {shells(atomicNumber(X))}.",
+    "It releases its {answer} outer electron(s)."
+   ]
+  },
+  {
+   "id": "k3-22-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a metallic bond?",
+       "r": "The attraction between positive metal ions and a sea of delocalised electrons",
+       "w": [
+        "A shared pair of electrons between two atoms",
+        "The attraction between positive and negative ions",
+        "A weak force between molecules"
+       ],
+       "e": [
+        "That is a covalent bond.",
+        "That is an ionic bond; there are no negative ions in a metal.",
+        "Metallic bonds are strong."
+       ],
+       "y": "Delocalised electrons hold the ions together."
+      },
+      {
+       "q": "In a lump of sodium, what particles make up the lattice?",
+       "r": "Na⁺ ions surrounded by free electrons",
+       "w": [
+        "Na atoms sharing pairs of electrons",
+        "Na⁺ and Cl⁻ ions",
+        "Na₂ molecules"
+       ],
+       "e": [
+        "Metals do not form shared pairs between atoms.",
+        "There is no chlorine.",
+        "Sodium is not made of molecules."
+       ],
+       "y": "Each atom gives up its outer electron to the sea."
+      },
+      {
+       "q": "What does 'delocalised' mean for the electrons in a metal?",
+       "r": "They are free to move through the whole lattice",
+       "w": [
+        "They are fixed to one atom",
+        "They are lost from the metal",
+        "They are in the nucleus"
+       ],
+       "e": [
+        "Those would be localised.",
+        "They stay in the metal.",
+        "Electrons are never in the nucleus."
+       ],
+       "y": "They belong to the whole lattice, not one ion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-22-charge",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Na",
+      "K",
+      "Mg",
+      "Ca",
+      "Al"
+     ]
+    }
+   },
+   "prompt": "What is the charge on the ions in the lattice of {nameOf(X)}? (atomic number {atomicNumber(X)})",
+   "answer": "outerElectrons(atomicNumber(X))",
+   "misconceptions": [
+    {
+     "id": "neg",
+     "wrong": "0 - outerElectrons(atomicNumber(X))",
+     "explain": "Losing electrons makes positive ions."
+    }
+   ],
+   "solution": [
+    "{nameOf(X)} releases {outerElectrons(atomicNumber(X))} electron(s) per atom.",
+    "So the ions are +{answer}."
+   ],
+   "signed": true
+  },
+  {
+   "id": "k3-22-strong",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Aluminium (660 °C) melts at a higher temperature than sodium (98 °C). Why?",
+       "r": "Each Al atom gives 3 electrons and forms Al³⁺, so the attraction is stronger",
+       "w": [
+        "Aluminium is ionic",
+        "Sodium has more delocalised electrons",
+        "Aluminium is made of molecules"
+       ],
+       "e": [
+        "Aluminium is a metal: metallic bonding.",
+        "Sodium gives only 1 electron per atom.",
+        "Metals are not molecular."
+       ],
+       "y": "More electrons in the sea and higher charge on the ions: stronger metallic bonding."
+      },
+      {
+       "q": "Which metal would you expect to have the strongest metallic bonding?",
+       "r": "aluminium",
+       "w": [
+        "sodium",
+        "potassium",
+        "lithium"
+       ],
+       "e": [
+        "Sodium gives 1 electron per atom.",
+        "Potassium gives 1 and has larger ions.",
+        "Lithium gives 1 electron per atom."
+       ],
+       "y": "Aluminium gives 3 electrons per atom."
+      },
+      {
+       "q": "Why are metal ions not pushed apart, even though they are all positive?",
+       "r": "The sea of electrons between them holds them together",
+       "w": [
+        "They are neutral",
+        "They share pairs of electrons",
+        "They are held by negative ions"
+       ],
+       "e": [
+        "They are positive ions.",
+        "The electrons are not in fixed pairs.",
+        "There are no negative ions in a pure metal."
+       ],
+       "y": "The negative electron sea attracts all the ions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

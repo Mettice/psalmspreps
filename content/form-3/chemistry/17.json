@@ -1,0 +1,536 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "k3-17",
+   "name": "Ionic bonding: formation and formulae of ionic compounds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In ionic bonding, a metal atom transfers electrons to a non-metal atom:\n• Na (2,8,1) loses 1 → Na⁺ (2,8); Cl (2,8,7) gains 1 → Cl⁻ (2,8,8). The ions attract: NaCl.\n• Mg (2,8,2) loses 2 → Mg²⁺; O (2,6) gains 2 → O²⁻: MgO.\nDot-and-cross diagrams show the outer electrons of each atom (dots for one, crosses for the other) and the charges of the ions.\nFormula: the total positive charge must equal the total negative charge. Mg²⁺ with Cl⁻ needs two Cl⁻: MgCl₂. Al³⁺ with O²⁻: Al₂O₃.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Transferring electrons",
+    "text": "When a metal meets a non-metal, the metal atom gives its outer electrons to the non-metal atom.\nSodium ({2},{8},{1}) gives its one outer electron to chlorine ({2},{8},{7}). Now sodium is Na⁺ ({2},{8}) and chlorine is Cl⁻ ({2},{8},{8}): both have full shells.\nThe positive and negative ions attract each other strongly. This attraction is the ionic bond."
+   },
+   {
+    "heading": "Dot-and-cross diagrams",
+    "text": "To show the transfer, draw the outer shells only: the metal's electrons as crosses (×) and the non-metal's as dots (•).\nAfter the transfer, draw each ion in square brackets with its charge outside, for example [Na]⁺ and [Cl]⁻ with eight electrons around chlorine.\nRemember: electrons move from the metal to the non-metal, never the other way."
+   },
+   {
+    "heading": "Writing formulae",
+    "text": "An ionic compound has no overall charge, so the charges must balance.\n• Na⁺ and Cl⁻: one of each, NaCl.\n• Mg²⁺ and Cl⁻: two chlorides, MgCl₂.\n• Al³⁺ and O²⁻: lowest common multiple {6}, so two Al and three O: Al₂O₃.\nUse the smallest whole numbers that balance."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "ion",
+    "meaning": "a charged particle"
+   },
+   {
+    "word": "dot-and-cross diagram",
+    "meaning": "a drawing of outer electrons showing transfer or sharing"
+   },
+   {
+    "word": "ionic lattice",
+    "meaning": "a giant regular arrangement of positive and negative ions"
+   }
+  ],
+  "examples": [
+   "{'K⁺ + Br⁻ → KBr'}",
+   "{'Ca²⁺ + O²⁻ → CaO'}",
+   "{'2Na⁺ + O²⁻ → Na₂O'}"
+  ],
+  "mistake": {
+   "wrong": "Chlorine gives an electron to sodium",
+   "right": "Sodium (the metal) gives an electron to chlorine",
+   "why": "Metals lose electrons; non-metals gain them."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Show how aluminium and oxygen form an ionic compound, and give its formula.",
+  "steps": [
+   "Al ({2},{8},{3}) loses {3} electrons → Al³⁺. O ({2},{6}) gains {2} → O²⁻.",
+   "Charges must balance: the lowest common multiple of {3} and {2} is {6}.",
+   "Two Al³⁺ give +{6}; three O²⁻ give −{6}."
+  ],
+  "answer": "{'Al₂O₃'}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k17-1",
+    "status": "draft",
+    "idea": "The metal loses electrons and the non-metal gains them.",
+    "vars": {},
+    "example": [
+     "{'Na → Na⁺ + e⁻'};  {'Cl + e⁻ → Cl⁻'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-17-formula"
+    }
+   },
+   {
+    "id": "c3k17-2",
+    "status": "draft",
+    "idea": "Balance the charges to get the formula.",
+    "vars": {},
+    "example": [
+     "{'Ca²⁺'} with {'Cl⁻'}: {'CaCl₂'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-17-ions-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "When magnesium reacts with oxygen, what ions form?",
+         "r": "Mg²⁺ and O²⁻",
+         "w": [
+          "Mg⁺ and O⁻",
+          "Mg²⁻ and O²⁺",
+          "Mg²⁺ and O⁻"
+         ],
+         "e": [
+          "Magnesium loses two electrons and oxygen gains two.",
+          "The metal becomes positive, the non-metal negative.",
+          "Oxygen gains two electrons, not one."
+         ],
+         "y": "Two electrons are transferred."
+        },
+        {
+         "q": "In sodium chloride, what is the electron arrangement of the chloride ion?",
+         "r": "2, 8, 8",
+         "w": [
+          "2, 8, 7",
+          "2, 8",
+          "2, 8, 8, 1"
+         ],
+         "e": [
+          "That is the chlorine atom.",
+          "That is the sodium ion.",
+          "Chloride gains one electron, giving 18 in all."
+         ],
+         "y": "Cl⁻ has 18 electrons: 2, 8, 8."
+        },
+        {
+         "q": "What holds the ions together in an ionic compound?",
+         "r": "Strong attraction between opposite charges",
+         "w": [
+          "Shared pairs of electrons",
+          "A sea of electrons",
+          "Weak forces between molecules"
+         ],
+         "e": [
+          "That is covalent bonding.",
+          "That is metallic bonding.",
+          "Ionic bonds are strong."
+         ],
+         "y": "Electrostatic attraction between + and − ions."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c3k17-3",
+    "status": "draft",
+    "idea": "The ions attract because they have opposite charges.",
+    "vars": {},
+    "example": [
+     "{'Na⁺'} and {'Cl⁻'} pack together in a giant lattice."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-17-e"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-17-formula",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "p": "Na",
+       "n": "O",
+       "w": "NaO2",
+       "d": "Na4O2"
+      },
+      {
+       "p": "K",
+       "n": "O",
+       "w": "KO2",
+       "d": "K4O2"
+      },
+      {
+       "p": "Li",
+       "n": "O",
+       "w": "LiO2",
+       "d": "Li4O2"
+      },
+      {
+       "p": "Na",
+       "n": "S",
+       "w": "NaS2",
+       "d": "Na4S2"
+      },
+      {
+       "p": "K",
+       "n": "S",
+       "w": "KS2",
+       "d": "K4S2"
+      },
+      {
+       "p": "Mg",
+       "n": "Cl",
+       "w": "Mg2Cl",
+       "d": "Mg2Cl4"
+      },
+      {
+       "p": "Ca",
+       "n": "Cl",
+       "w": "Ca2Cl",
+       "d": "Ca2Cl4"
+      },
+      {
+       "p": "Mg",
+       "n": "F",
+       "w": "Mg2F",
+       "d": "Mg2F4"
+      },
+      {
+       "p": "Ca",
+       "n": "F",
+       "w": "Ca2F",
+       "d": "Ca2F4"
+      },
+      {
+       "p": "Al",
+       "n": "Cl",
+       "w": "Al3Cl",
+       "d": "Al2Cl6"
+      },
+      {
+       "p": "Al",
+       "n": "F",
+       "w": "Al3F",
+       "d": "Al2F6"
+      },
+      {
+       "p": "Al",
+       "n": "O",
+       "w": "Al3O2",
+       "d": "Al4O6"
+      },
+      {
+       "p": "Al",
+       "n": "S",
+       "w": "Al3S2",
+       "d": "Al4S6"
+      }
+     ]
+    }
+   },
+   "prompt": "What is the formula of {compoundName(X.p, X.n)}?",
+   "correct": "{formula(compoundFormula(X.p, X.n))}",
+   "distractors": [
+    {
+     "text": "{formula(X.p + X.n)}",
+     "misconception": "one"
+    },
+    {
+     "text": "{formula(X.w)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{formula(X.d)}",
+     "misconception": "double"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "one",
+     "explain": "One of each does not balance +{valency(X.p)} and −{valency(X.n)}."
+    },
+    {
+     "id": "swap",
+     "explain": "The numbers are the wrong way round: the number of {X.n} comes from the charge of {X.p}."
+    },
+    {
+     "id": "double",
+     "explain": "Use the smallest whole numbers that balance the charges."
+    }
+   ],
+   "solution": [
+    "{X.p} forms an ion of charge +{valency(X.p)}; {X.n} forms an ion of charge −{valency(X.n)}.",
+    "The charges must balance: {answer}."
+   ]
+  },
+  {
+   "id": "k3-17-e",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      "Na",
+      "K",
+      "Li",
+      "Mg",
+      "Ca",
+      "Al"
+     ]
+    }
+   },
+   "prompt": "How many electrons does each {nameOf(P)} atom transfer when it forms an ionic compound?",
+   "answer": "valency(P)",
+   "misconceptions": [
+    {
+     "id": "gain",
+     "wrong": "8 - valency(P)",
+     "explain": "Metals lose their few outer electrons; they do not gain."
+    }
+   ],
+   "solution": [
+    "{nameOf(P)} has {valency(P)} outer electron(s).",
+    "It transfers all {answer} to the non-metal."
+   ]
+  },
+  {
+   "id": "k3-17-ions",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When magnesium reacts with oxygen, what ions form?",
+       "r": "Mg²⁺ and O²⁻",
+       "w": [
+        "Mg⁺ and O⁻",
+        "Mg²⁻ and O²⁺",
+        "Mg²⁺ and O⁻"
+       ],
+       "e": [
+        "Magnesium loses two electrons and oxygen gains two.",
+        "The metal becomes positive, the non-metal negative.",
+        "Oxygen gains two electrons, not one."
+       ],
+       "y": "Two electrons are transferred."
+      },
+      {
+       "q": "In sodium chloride, what is the electron arrangement of the chloride ion?",
+       "r": "2, 8, 8",
+       "w": [
+        "2, 8, 7",
+        "2, 8",
+        "2, 8, 8, 1"
+       ],
+       "e": [
+        "That is the chlorine atom.",
+        "That is the sodium ion.",
+        "Chloride gains one electron, giving 18 in all."
+       ],
+       "y": "Cl⁻ has 18 electrons: 2, 8, 8."
+      },
+      {
+       "q": "What holds the ions together in an ionic compound?",
+       "r": "Strong attraction between opposite charges",
+       "w": [
+        "Shared pairs of electrons",
+        "A sea of electrons",
+        "Weak forces between molecules"
+       ],
+       "e": [
+        "That is covalent bonding.",
+        "That is metallic bonding.",
+        "Ionic bonds are strong."
+       ],
+       "y": "Electrostatic attraction between + and − ions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-17-count",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      "Mg",
+      "Ca",
+      "Al",
+      "Na",
+      "K"
+     ]
+    },
+    "N": {
+     "pick": [
+      "Cl",
+      "F",
+      "O",
+      "S"
+     ]
+    }
+   },
+   "prompt": "In the formula of {compoundName(P, N)}, how many {nameOf(N)} ions are there for each formula unit? (Give the number of {N} in the formula.)",
+   "answer": "valency(P) / hcf(valency(P), valency(N))",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "valency(N) / hcf(valency(P), valency(N))",
+     "explain": "The number of {N} comes from the metal's charge (+{valency(P)})."
+    }
+   ],
+   "solution": [
+    "Charges: {P} +{valency(P)}, {N} −{valency(N)}.",
+    "Formula {formula(compoundFormula(P, N))}: there are {answer} {N} in it."
+   ],
+   "where": [
+    "valency(P) / hcf(valency(P), valency(N)) != valency(N) / hcf(valency(P), valency(N))",
+    "valency(P) / hcf(valency(P), valency(N)) != 1"
+   ]
+  },
+  {
+   "id": "k3-17-steps",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "prompt": "Put the steps of forming sodium chloride in order.",
+   "items": [
+    {
+     "text": "The sodium atom (2, 8, 1) loses its outer electron."
+    },
+    {
+     "text": "The chlorine atom (2, 8, 7) gains that electron."
+    },
+    {
+     "text": "Na⁺ (2, 8) and Cl⁻ (2, 8, 8) are formed, each with a full outer shell."
+    },
+    {
+     "text": "The oppositely charged ions attract to form an ionic lattice."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Start with the metal losing its electron."
+  }
+ ]
+}
