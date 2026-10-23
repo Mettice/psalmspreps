@@ -1,0 +1,425 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  2,
+  3
+ ],
+ "skills": [
+  {
+   "id": "m4-4",
+   "name": "Use the identities for the sum and the difference of two cubes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Two identities factorise a sum or a difference of two cubes:\n• a³ + b³ = (a + b)(a² − ab + b²)\n• a³ − b³ = (a − b)(a² + ab + b²)\nWrite each term as a cube first: 8 = 2³, 27x³ = (3x)³.\nFor example x³ − 8 = (x − 2)(x² + 2x + 4) and 27x³ + 1 = (3x + 1)(9x² − 3x + 1).\nSign rule: the small bracket has the same sign as the expression; the middle term of the long bracket has the opposite sign; the last term is always +.\nThe long bracket does not factorise further. Check by expanding.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to factorise a sum or a difference of two cubes with the right signs, and check by expanding.\nBuilds on: Lesson {3} (difference of two squares); Form Three cubes and cube roots.\nLeads to: factorising cubic polynomials with the factor theorem and solving cubic equations."
+   },
+   {
+    "heading": "Two identities",
+    "text": "A cube is a number times itself three times: {2}³ = {8}, ({mono(3, 'x')})³ = {mono(27, 'x³')}.\nExpand (a − b)(a² + ab + b²): a³ + a²b + ab² − a²b − ab² − b³. Four terms cancel, leaving a³ − b³.\nSo:\n• a³ − b³ = (a − b)(a² + ab + b²)\n• a³ + b³ = (a + b)(a² − ab + b²)\nSign rule: the small bracket has the same sign as the expression. The middle term of the long bracket has the opposite sign. The last term is always plus."
+   },
+   {
+    "heading": "Using them",
+    "text": "First write each term as a cube, then read off a and b.\n• {poly([1, 'x³'], [-125, ''])}: a = x, b = {5}, so ({poly([1, 'x'], [-5, ''])})({quad(1, 5, 25)}).\n• {poly([8, 'x³'], [27, ''])}: a = {mono(2, 'x')}, b = {3}, so ({poly([2, 'x'], [3, ''])})({quad(4, -6, 9)}).\nThe long bracket never factorises further with whole numbers. Take out a common factor first if there is one: {poly([2, 'x³'], [-16, ''])} = {2}({poly([1, 'x³'], [-8, ''])})."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cube",
+    "meaning": "a number multiplied by itself three times, such as {4}³ = {64}"
+   },
+   {
+    "word": "cube root",
+    "meaning": "the number whose cube is given: the cube root of {64} is {4}"
+   },
+   {
+    "word": "identity",
+    "meaning": "an equation that is true for every value of the letters"
+   }
+  ],
+  "examples": [
+   "{poly([1, 'x³'], [1, ''])} = ({poly([1, 'x'], [1, ''])})({quad(1, -1, 1)})",
+   "{poly([1, 'x³'], [-64, ''])} = ({poly([1, 'x'], [-4, ''])})({quad(1, 4, 16)})"
+  ],
+  "mistake": {
+   "wrong": "{poly([1, 'x³'], [-8, ''])} = ({poly([1, 'x'], [-2, ''])})³",
+   "right": "{poly([1, 'x³'], [-8, ''])} = ({poly([1, 'x'], [-2, ''])})({quad(1, 2, 4)})",
+   "why": "({poly([1, 'x'], [-2, ''])})³ = {poly([1, 'x³'], [-6, 'x²'], [12, 'x'], [-8, ''])}. A difference of cubes needs the long bracket."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2
+  },
+  "problem": "Factorise {poly([1, 'x³'], [-a ^ 3, ''])}.",
+  "steps": [
+   "Write each term as a cube: x³ and {a ^ 3} = {a}³.",
+   "Use a³ − b³ = (a − b)(a² + ab + b²) with a = x and b = {a}.",
+   "a² = x², ab = {mono(a, 'x')}, b² = {a * a}.",
+   "Check: x × ({quad(1, a, a * a)}) − {a} × ({quad(1, a, a * a)}) = {poly([1, 'x³'], [-a ^ 3, ''])}."
+  ],
+  "answer": "({poly([1, 'x'], [-a, ''])})({quad(1, a, a * a)})",
+  "checks": [
+   "a ^ 3 == 8"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m4-1",
+    "status": "draft",
+    "idea": "Before using an identity, write each term as a cube: {8} = {2}³, {64} = {4}³, {mono(27, 'x³')} = ({mono(3, 'x')})³.",
+    "vars": {},
+    "example": [
+     "{125} = {5}³ and {mono(8, 'x³')} = ({mono(2, 'x')})³"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-4-cube"
+    }
+   },
+   {
+    "id": "c4m4-2",
+    "status": "draft",
+    "idea": "Difference of two cubes: a³ − b³ = (a − b)(a² + ab + b²).",
+    "vars": {},
+    "example": [
+     "{poly([1, 'x³'], [-27, ''])} = ({poly([1, 'x'], [-3, ''])})({quad(1, 3, 9)})"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-4-diff"
+    }
+   },
+   {
+    "id": "c4m4-3",
+    "status": "draft",
+    "idea": "Sum of two cubes: a³ + b³ = (a + b)(a² − ab + b²). Only the small bracket keeps the + sign.",
+    "vars": {},
+    "example": [
+     "{poly([1, 'x³'], [64, ''])} = ({poly([1, 'x'], [4, ''])})({quad(1, -4, 16)})"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-4-sum-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-factorise"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        5
+       ]
+      }
+     },
+     "prompt": "Factorise {poly([k ^ 3, 'x³'], [1, ''])}.",
+     "correct": "({poly([k, 'x'], [1, ''])})({quad(k * k, -k, 1)})",
+     "distractors": [
+      {
+       "text": "({poly([k, 'x'], [1, ''])})({quad(k * k, k, 1)})",
+       "misconception": "midsign"
+      },
+      {
+       "text": "({poly([k, 'x'], [1, ''])})({quad(k, -k, 1)})",
+       "misconception": "nosq"
+      },
+      {
+       "text": "({poly([k ^ 3, 'x'], [1, ''])})({quad(1, -1, 1)})",
+       "misconception": "nocube"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "midsign",
+       "explain": "For a sum of cubes the middle term of the long bracket is minus: a² − ab + b²."
+      },
+      {
+       "id": "nosq",
+       "explain": "a² = ({mono(k, 'x')})² = {mono(k * k, 'x²')}: square the {k} too."
+      },
+      {
+       "id": "nocube",
+       "explain": "First write {mono(k ^ 3, 'x³')} as a cube: ({mono(k, 'x')})³. Then a = {mono(k, 'x')}."
+      }
+     ],
+     "solution": [
+      "{mono(k ^ 3, 'x³')} = ({mono(k, 'x')})³ and {1} = {1}³.",
+      "a³ + b³ = (a + b)(a² − ab + b²) with a = {mono(k, 'x')}, b = {1}.",
+      "a² = {mono(k * k, 'x²')}, ab = {mono(k, 'x')}, b² = {1}.",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-4-cube",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "n": {
+     "expr": "a ^ 3"
+    }
+   },
+   "prompt": "{n} is a cube number. It is the cube of which whole number?",
+   "answer": "a",
+   "misconceptions": [
+    {
+     "id": "third",
+     "wrong": "n / 3",
+     "explain": "Cubing is not multiplying by {3}: {a}³ = {a} × {a} × {a}."
+    },
+    {
+     "id": "square",
+     "wrong": "sqrtFloor(n)",
+     "explain": "That is near the square root. The cube root of {n} is {a}, because {a} × {a} × {a} = {n}."
+    }
+   ],
+   "solution": [
+    "Try whole numbers: {a} × {a} × {a} = {n}.",
+    "So {n} = {a}³ and the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m4-4-diff",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([1, 'x³'], [-a ^ 3, ''])}.",
+   "correct": "({poly([1, 'x'], [-a, ''])})({quad(1, a, a * a)})",
+   "distractors": [
+    {
+     "text": "({poly([1, 'x'], [-a, ''])})({quad(1, -a, a * a)})",
+     "misconception": "midsign"
+    },
+    {
+     "text": "({poly([1, 'x'], [a, ''])})({quad(1, -a, a * a)})",
+     "misconception": "sum"
+    },
+    {
+     "text": "({poly([1, 'x'], [-a, ''])})³",
+     "misconception": "cube"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "midsign",
+     "explain": "For a difference of cubes the long bracket is all plus: a² + ab + b²."
+    },
+    {
+     "id": "sum",
+     "explain": "That is the factorisation of x³ + {a ^ 3}, a sum. Here there is a minus sign."
+    },
+    {
+     "id": "cube",
+     "explain": "({poly([1, 'x'], [-a, ''])})³ expands to four terms with x² and x terms. It is not x³ − {a ^ 3}."
+    }
+   ],
+   "solution": [
+    "{a ^ 3} = {a}³, so use a³ − b³ = (a − b)(a² + ab + b²).",
+    "a = x, b = {a}: a² = x², ab = {mono(a, 'x')}, b² = {a * a}.",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m4-4-sum",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([k ^ 3, 'x³'], [1, ''])}.",
+   "correct": "({poly([k, 'x'], [1, ''])})({quad(k * k, -k, 1)})",
+   "distractors": [
+    {
+     "text": "({poly([k, 'x'], [1, ''])})({quad(k * k, k, 1)})",
+     "misconception": "midsign"
+    },
+    {
+     "text": "({poly([k, 'x'], [1, ''])})({quad(k, -k, 1)})",
+     "misconception": "nosq"
+    },
+    {
+     "text": "({poly([k ^ 3, 'x'], [1, ''])})({quad(1, -1, 1)})",
+     "misconception": "nocube"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "midsign",
+     "explain": "For a sum of cubes the middle term of the long bracket is minus: a² − ab + b²."
+    },
+    {
+     "id": "nosq",
+     "explain": "a² = ({mono(k, 'x')})² = {mono(k * k, 'x²')}: square the {k} too."
+    },
+    {
+     "id": "nocube",
+     "explain": "First write {mono(k ^ 3, 'x³')} as a cube: ({mono(k, 'x')})³. Then a = {mono(k, 'x')}."
+    }
+   ],
+   "solution": [
+    "{mono(k ^ 3, 'x³')} = ({mono(k, 'x')})³ and {1} = {1}³.",
+    "a³ + b³ = (a + b)(a² − ab + b²) with a = {mono(k, 'x')}, b = {1}.",
+    "a² = {mono(k * k, 'x²')}, ab = {mono(k, 'x')}, b² = {1}.",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m4-4-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "s": {
+     "pick": [
+      1,
+      -1
+     ]
+    }
+   },
+   "prompt": "Which identity factorises {poly([1, 'x³'], [s * a ^ 3, ''])}?",
+   "correct": "{s > 0 ? 'a³ + b³ = (a + b)(a² − ab + b²)' : 'a³ − b³ = (a − b)(a² + ab + b²)'}",
+   "distractors": [
+    {
+     "text": "{s > 0 ? 'a³ + b³ = (a + b)(a² + ab + b²)' : 'a³ − b³ = (a − b)(a² − ab + b²)'}",
+     "misconception": "mid"
+    },
+    {
+     "text": "{s > 0 ? 'a³ + b³ = (a + b)³' : 'a³ − b³ = (a − b)³'}",
+     "misconception": "cube"
+    },
+    {
+     "text": "a² − b² = (a + b)(a − b)",
+     "misconception": "squares"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "mid",
+     "explain": "The middle term of the long bracket has the opposite sign to the small bracket."
+    },
+    {
+     "id": "cube",
+     "explain": "(a ± b)³ expands to four terms. It is not a³ ± b³."
+    },
+    {
+     "id": "squares",
+     "explain": "That identity is for squares. x³ and {a ^ 3} = {a}³ are cubes."
+    }
+   ],
+   "solution": [
+    "{a ^ 3} = {a}³, so the expression is {s > 0 ? 'a sum' : 'a difference'} of two cubes.",
+    "The small bracket keeps the sign; the middle of the long bracket has the opposite sign.",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "m4-4-value",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "s": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "p": {
+     "int": [
+      1,
+      8
+     ]
+    }
+   },
+   "prompt": "Given that a + b = {s} and ab = {p}, use a³ + b³ = (a + b)(a² − ab + b²) to find a³ + b³. (Hint: a² + b² = (a + b)² − {2}ab.)",
+   "answer": "s * (s * s - 3 * p)",
+   "misconceptions": [
+    {
+     "id": "cube",
+     "wrong": "s ^ 3",
+     "explain": "(a + b)³ is not a³ + b³: it also has the terms {3}a²b + {3}ab²."
+    },
+    {
+     "id": "noab",
+     "wrong": "s * (s * s - 2 * p)",
+     "explain": "That is (a + b)(a² + b²). The long bracket is a² − ab + b²: subtract ab = {p} once more."
+    },
+    {
+     "id": "plusab",
+     "wrong": "s * (s * s - p)",
+     "explain": "a² + b² is (a + b)² − {2}ab, not (a + b)²; then subtract ab."
+    }
+   ],
+   "solution": [
+    "a² + b² = (a + b)² − {2}ab = {s * s} − {2 * p} = {s * s - 2 * p}.",
+    "a² − ab + b² = {s * s - 2 * p} − {p} = {s * s - 3 * p}.",
+    "a³ + b³ = {s} × {s * s - 3 * p} = {answer}."
+   ],
+   "where": [
+    "s * s - 3 * p > 0"
+   ]
+  }
+ ]
+}

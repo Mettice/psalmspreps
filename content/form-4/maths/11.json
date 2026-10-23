@@ -1,0 +1,467 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  7,
+  10
+ ],
+ "skills": [
+  {
+   "id": "m4-11",
+   "name": "Form a quadratic equation from its roots; sum and product of roots"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "If the roots are p and q, the equation is (x − p)(x − q) = 0, that is x² − (p + q)x + pq = 0.\nIn words: x² − (sum of roots)x + (product of roots) = 0.\nExample: roots 3 and −5: sum −2, product −15, so x² + 2x − 15 = 0.\nFractions: roots ½ and 3 give (2x − 1)(x − 3) = 0, that is 2x² − 7x + 3 = 0.\nFor ax² + bx + c = 0, the sum of the roots is −b/a and the product is c/a. Then α² + β² = (α + β)² − 2αβ, without finding the roots.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to write the equation that has two given roots, and find the sum, the product and expressions such as α² + β² without solving.\nBuilds on: Lesson {7} (roots from factors) and Lesson {10} (the formula).\nLeads to: checking answers to quadratic equations quickly and, in Form Five, harder problems on roots."
+   },
+   {
+    "heading": "From roots back to the equation",
+    "text": "Solving goes from the equation to the roots. Here we go backwards.\nIf x = {3} is a root, then x − {3} is a factor. If x = {-5} is a root, then x + {5} is a factor.\nSo the equation with roots {3} and {-5} is {lin2(1, -3, 1, 5)} = {0}, that is {quad(1, 2, -15)} = {0}.\nPattern: x² − (sum of roots)x + (product of roots) = {0}. Sum {-2}, product {-15}: x² − ({-2})x + ({-15}) = {quad(1, 2, -15)}.\nFor a fractional root such as {frac(1, 2)}, use the factor {mono(2, 'x')} − {1} to keep whole numbers."
+   },
+   {
+    "heading": "Sum and product for any quadratic",
+    "text": "Divide ax² + bx + c = {0} by a: x² + (b/a)x + c/a = {0}. Compare with x² − (sum)x + product:\n• sum of roots α + β = −b/a\n• product αβ = c/a\nExample: {quad(2, -7, 3)} = {0} has α + β = {frac(7, 2)} and αβ = {frac(3, 2)}.\nUse these to find other expressions without solving: α² + β² = (α + β)² − {2}αβ = {frac(49, 4)} − {3} = {frac(37, 4)}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sum of roots",
+    "meaning": "α + β = −b/a"
+   },
+   {
+    "word": "product of roots",
+    "meaning": "αβ = c/a"
+   },
+   {
+    "word": "α, β",
+    "meaning": "Greek letters alpha and beta, often used for the two roots"
+   }
+  ],
+  "examples": [
+   "roots {2} and {7}: {quad(1, -9, 14)} = {0}",
+   "roots {-1} and {-4}: {quad(1, 5, 4)} = {0}",
+   "{quad(1, -3, -10)} = {0}: sum {3}, product {-10}"
+  ],
+  "mistake": {
+   "wrong": "roots {2} and {7}: {quad(1, 9, 14)} = {0}",
+   "right": "{quad(1, -9, 14)} = {0}",
+   "why": "Check by putting x = {2} in: {4} + {18} + {14} is not {0}. The x term is minus the sum."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 3,
+   "q": -5
+  },
+  "problem": "Form the quadratic equation whose roots are {p} and {q}.",
+  "steps": [
+   "Sum of the roots: {p} + {br(q)} = {p + q}.",
+   "Product of the roots: {p} × {br(q)} = {p * q}.",
+   "x² − (sum)x + (product) = {0}.",
+   "Check: {lin2(1, -p, 1, -q)} = {quad(1, -(p + q), p * q)}."
+  ],
+  "answer": "{quad(1, -(p + q), p * q)} = {0}",
+  "checks": [
+   "p + q == -2",
+   "p * q == -15"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m11-1",
+    "status": "draft",
+    "idea": "Roots p and q come from the brackets (x − p)(x − q): the sign inside each bracket is opposite to the root.",
+    "vars": {},
+    "example": [
+     "roots {4} and {-2}: {lin2(1, -4, 1, 2)} = {0}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-11-form"
+    }
+   },
+   {
+    "id": "c4m11-2",
+    "status": "draft",
+    "idea": "x² − (sum of roots)x + (product of roots) = {0}.",
+    "vars": {},
+    "example": [
+     "roots {4} and {-2}: sum {2}, product {-8}: {quad(1, -2, -8)} = {0}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-11-sum"
+    }
+   },
+   {
+    "id": "c4m11-3",
+    "status": "draft",
+    "idea": "For ax² + bx + c = {0}: sum of roots = −b/a, product = c/a.",
+    "vars": {},
+    "example": [
+     "{quad(2, -6, 4)} = {0}: sum = {6}/{2} = {3}, product = {4}/{2} = {2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-11-prod-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "quadratic-equations"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "b": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "k": {
+       "int": [
+        -6,
+        6
+       ]
+      }
+     },
+     "prompt": "What is the product of the roots of {quad(a, b, a * k)} = {0}?",
+     "answer": "k",
+     "misconceptions": [
+      {
+       "id": "c",
+       "wrong": "a * k",
+       "explain": "Divide c by a: {a * k} ÷ {a} = {k}."
+      },
+      {
+       "id": "neg",
+       "wrong": "-k",
+       "explain": "The product is +c/a = {k}; only the sum has the minus sign."
+      },
+      {
+       "id": "sum",
+       "wrong": "-b / a",
+       "explain": "That is the sum of the roots. The product is c/a."
+      }
+     ],
+     "solution": [
+      "Divide by a = {a}: product = c/a = {a * k}/{a}.",
+      "So the product is {answer}."
+     ],
+     "where": [
+      "b != 0 && k != 0",
+      "k != -k",
+      "b % a != 0 || -b / a != k"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-11-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Which equation has roots {p} and {q}?",
+   "correct": "{quad(1, -(p + q), p * q)} = {0}",
+   "distractors": [
+    {
+     "text": "{quad(1, p + q, p * q)} = {0}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{quad(1, -(p + q), -p * q)} = {0}",
+     "misconception": "prod"
+    },
+    {
+     "text": "{quad(1, -p * q, p + q)} = {0}",
+     "misconception": "swap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "The x term is minus the sum: −({p + q})x. Check: x = {p} must make it {0}."
+    },
+    {
+     "id": "prod",
+     "explain": "The number term is the product {p} × {br(q)} = {p * q}."
+    },
+    {
+     "id": "swap",
+     "explain": "The x coefficient comes from the sum and the number from the product, not the other way round."
+    }
+   ],
+   "solution": [
+    "Sum = {p + q}, product = {p * q}.",
+    "x² − (sum)x + (product) = {0}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != q",
+    "p != 0 && q != 0",
+    "p + q != 0",
+    "p * q != p + q",
+    "p * q != -(p + q)"
+   ]
+  },
+  {
+   "id": "m4-11-sum",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -12,
+      12
+     ]
+    },
+    "c": {
+     "int": [
+      -12,
+      12
+     ]
+    }
+   },
+   "prompt": "What is the sum of the roots of {quad(1, b, c)} = {0}?",
+   "answer": "-b",
+   "misconceptions": [
+    {
+     "id": "b",
+     "wrong": "b",
+     "explain": "The equation is x² − (sum)x + product, so sum = −b = {-b}."
+    },
+    {
+     "id": "c",
+     "wrong": "c",
+     "explain": "{c} is the product of the roots. The sum is −b = {-b}."
+    }
+   ],
+   "solution": [
+    "For x² + bx + c = {0} the sum of the roots is −b.",
+    "Here b = {b}, so the sum is {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "b != c && -b != c"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-11-prod",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "What is the product of the roots of {quad(a, b, a * k)} = {0}?",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "c",
+     "wrong": "a * k",
+     "explain": "Divide c by a: {a * k} ÷ {a} = {k}."
+    },
+    {
+     "id": "neg",
+     "wrong": "-k",
+     "explain": "The product is +c/a = {k}; only the sum has the minus sign."
+    },
+    {
+     "id": "sum",
+     "wrong": "-b / a",
+     "explain": "That is the sum of the roots. The product is c/a."
+    }
+   ],
+   "solution": [
+    "Divide by a = {a}: product = c/a = {a * k}/{a}.",
+    "So the product is {answer}."
+   ],
+   "where": [
+    "b != 0 && k != 0",
+    "k != -k",
+    "b % a != 0 || -b / a != k"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-11-frac",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "q": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "Which equation with whole-number coefficients has roots {frac(1, d)} and {q}?",
+   "correct": "{quad(d, -(1 + d * q), q)} = {0}",
+   "distractors": [
+    {
+     "text": "{quad(1, -(1 + d * q), q)} = {0}",
+     "misconception": "noa"
+    },
+    {
+     "text": "{quad(d, 1 + d * q, q)} = {0}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{quad(d, -(1 + q), q)} = {0}",
+     "misconception": "mid"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "noa",
+     "explain": "Expand ({poly([d, 'x'], [-1, ''])})({poly([1, 'x'], [-q, ''])}): the x² term is {mono(d, 'x²')}."
+    },
+    {
+     "id": "sign",
+     "explain": "Put x = {q} in: the equation must give {0}. The middle term needs a minus sign."
+    },
+    {
+     "id": "mid",
+     "explain": "The middle term is {mono(d, 'x')} × {br(-q)} + {br(-1)} × x = {mono(-(1 + d * q), 'x')}."
+    }
+   ],
+   "solution": [
+    "x = {frac(1, d)} comes from {mono(d, 'x')} − {1} = {0}; x = {q} from x − {br(q)} = {0}.",
+    "({poly([d, 'x'], [-1, ''])})({poly([1, 'x'], [-q, ''])}) = {quad(d, -(1 + d * q), q)}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "q != 0",
+    "1 + d * q != 0",
+    "1 + q != 1 + d * q",
+    "-(1 + q) != 1 + d * q"
+   ]
+  },
+  {
+   "id": "m4-11-sym",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "α and β are the roots of {quad(1, b, c)} = {0}. Without solving, find α² + β².",
+   "answer": "b * b - 2 * c",
+   "misconceptions": [
+    {
+     "id": "sq",
+     "wrong": "b * b",
+     "explain": "(α + β)² also contains {2}αβ: subtract it. α² + β² = {b * b} − {2 * c}."
+    },
+    {
+     "id": "plus",
+     "wrong": "b * b + 2 * c",
+     "explain": "(α + β)² = α² + {2}αβ + β², so α² + β² = (α + β)² minus {2}αβ."
+    },
+    {
+     "id": "once",
+     "wrong": "b * b - c",
+     "explain": "Subtract {2}αβ = {2 * c}, not just αβ."
+    }
+   ],
+   "solution": [
+    "α + β = −b = {-b} and αβ = c = {c}.",
+    "α² + β² = (α + β)² − {2}αβ = {b * b} − {2} × {br(c)}.",
+    "= {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "b * b - 2 * c != b * b - c"
+   ],
+   "signed": true
+  }
+ ]
+}

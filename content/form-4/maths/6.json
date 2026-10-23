@@ -1,0 +1,568 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "m4-6",
+   "name": "Factorise quadratic trinomials ax² + bx + c with a ≠ 1"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To factorise ax² + bx + c when a is not 1, use the ac method.\n• Multiply a × c.\n• Find two numbers that multiply to ac and add to b.\n• Split the middle term with them, then factorise by grouping.\nExample: 2x² + 7x + 3. ac = 6; 6 and 1 multiply to 6 and add to 7. 2x² + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3).\nTake out any common factor first. Check by expanding.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to factorise trinomials such as {quad(2, 7, 3)} and {quad(3, -10, -8)} by the ac method, and check by expanding.\nBuilds on: Lesson {5} (product and sum for x² + bx + c) and Lesson {3} (grouping).\nLeads to: solving quadratic equations by factorisation (Lesson {7}) and the factor theorem."
+   },
+   {
+    "heading": "The ac method",
+    "text": "When the number in front of x² is not {1}, the product-and-sum trick needs one extra step.\nTake {quad(2, 7, 3)}.\n• Multiply a × c: {2} × {3} = {6}.\n• Find two numbers that multiply to {6} and add to {7}: {6} and {1}.\n• Split {mono(7, 'x')} into {mono(6, 'x')} + x: {poly([2, 'x²'], [6, 'x'], [1, 'x'], [3, ''])}.\n• Group: {mono(2, 'x')}(x + {3}) + {1}(x + {3}) = {lin2(2, 1, 1, 3)}."
+   },
+   {
+    "heading": "Negative numbers and checking",
+    "text": "The sign rules from Lesson {5} still apply to the two numbers.\nFor {quad(3, -10, -8)}: a × c = {-24}. The numbers {-12} and {2} multiply to {-24} and add to {-10}.\n{poly([3, 'x²'], [-12, 'x'], [2, 'x'], [-8, ''])} = {mono(3, 'x')}(x − {4}) + {2}(x − {4}) = {lin2(3, 2, 1, -4)}.\nCheck: {mono(3, 'x')} × {br(-4)} + {2} × x = {mono(-10, 'x')}. The middle term comes back, so the answer is right."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "coefficient",
+    "meaning": "the number multiplying a term, such as {3} in {mono(3, 'x²')}"
+   },
+   {
+    "word": "ac method",
+    "meaning": "splitting the middle term using two numbers that multiply to a × c and add to b"
+   },
+   {
+    "word": "split the middle term",
+    "meaning": "write bx as the sum of two x terms so that grouping works"
+   }
+  ],
+  "examples": [
+   "{quad(2, 5, 2)} = {lin2(2, 1, 1, 2)}",
+   "{quad(3, 1, -2)} = {lin2(3, -2, 1, 1)}",
+   "{quad(6, -7, 2)} = {lin2(2, -1, 3, -2)}"
+  ],
+  "mistake": {
+   "wrong": "{quad(2, 7, 3)} = {lin2(2, 3, 1, 1)}",
+   "right": "{quad(2, 7, 3)} = {lin2(2, 1, 1, 3)}",
+   "why": "Expand to check: {lin2(2, 3, 1, 1)} gives {mono(5, 'x')} in the middle, not {mono(7, 'x')}. The position of each number matters."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": -10,
+   "c": -8
+  },
+  "problem": "Factorise {quad(a, b, c)}.",
+  "steps": [
+   "Multiply a × c: {a} × {br(c)} = {a * c}.",
+   "Find two numbers with product {a * c} and sum {b}: {-12} and {2}.",
+   "Split the middle term: {poly([a, 'x²'], [-12, 'x'], [2, 'x'], [c, ''])}.",
+   "Group: {mono(3, 'x')}({poly([1, 'x'], [-4, ''])}) + {2}({poly([1, 'x'], [-4, ''])}) = {lin2(3, 2, 1, -4)}."
+  ],
+  "answer": "{lin2(3, 2, 1, -4)}",
+  "checks": [
+   "a * c == -24",
+   "-12 + 2 == b",
+   "-12 * 2 == a * c"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m6-1",
+    "status": "draft",
+    "idea": "The ac method starts by multiplying the first and last coefficients.",
+    "vars": {},
+    "example": [
+     "{quad(2, 7, 3)}: a × c = {2} × {3} = {6}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-6-ac"
+    }
+   },
+   {
+    "id": "c4m6-2",
+    "status": "draft",
+    "idea": "Find two numbers that multiply to ac and add to b, and use them to split the middle term.",
+    "vars": {},
+    "example": [
+     "{6} = {6} × {1} and {6} + {1} = {7}: {quad(2, 7, 3)} = {poly([2, 'x²'], [6, 'x'], [1, 'x'], [3, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-6-split"
+    }
+   },
+   {
+    "id": "c4m6-3",
+    "status": "draft",
+    "idea": "Group the four terms; the two brackets must match.",
+    "vars": {},
+    "example": [
+     "{mono(2, 'x')}(x + {3}) + {1}(x + {3}) = {lin2(2, 1, 1, 3)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-6-full-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-factorise"
+     ],
+     "vars": {
+      "r": {
+       "int": [
+        2,
+        4
+       ]
+      },
+      "s": {
+       "int": [
+        -5,
+        5
+       ]
+      },
+      "t": {
+       "int": [
+        1,
+        3
+       ]
+      },
+      "u": {
+       "int": [
+        -5,
+        5
+       ]
+      }
+     },
+     "prompt": "Factorise {quad(r * t, r * u + s * t, s * u)}.",
+     "correct": "{lin2(r, s, t, u)}",
+     "distractors": [
+      {
+       "text": "{lin2(r, u, t, s)}",
+       "misconception": "cross"
+      },
+      {
+       "text": "{lin2(r * t, s, 1, u)}",
+       "misconception": "aone"
+      },
+      {
+       "text": "{lin2(r, -s, t, -u)}",
+       "misconception": "sign"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "cross",
+       "explain": "Expand it: {lin2(r, u, t, s)} gives the middle term {mono(r * s + u * t, 'x')}, not {mono(r * u + s * t, 'x')}."
+      },
+      {
+       "id": "aone",
+       "explain": "Expand it: {lin2(r * t, s, 1, u)} gives the middle term {mono(r * t * u + s, 'x')}."
+      },
+      {
+       "id": "sign",
+       "explain": "Expand it: the middle term would be {mono(-(r * u + s * t), 'x')}."
+      }
+     ],
+     "solution": [
+      "a × c = {r * t} × {br(s * u)} = {r * t * s * u}; the numbers {r * u} and {s * t} multiply to {r * t * s * u} and add to {r * u + s * t}.",
+      "Split and group, then check: {lin2(r, s, t, u)} = {quad(r * t, r * u + s * t, s * u)}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "s != 0 && u != 0",
+      "r * u + s * t != 0",
+      "r * s + u * t != r * u + s * t",
+      "r * t * u + s != r * u + s * t",
+      "hcf(r, abs(s)) == 1 && hcf(t, abs(u)) == 1",
+      "s != u"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-6-ac",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "s": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "u": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "a": {
+     "expr": "r * t"
+    },
+    "b": {
+     "expr": "r * u + s * t"
+    },
+    "c": {
+     "expr": "s * u"
+    }
+   },
+   "prompt": "To factorise {quad(a, b, c)} by the ac method, which number do the two numbers multiply to?",
+   "answer": "a * c",
+   "misconceptions": [
+    {
+     "id": "c",
+     "wrong": "c",
+     "explain": "With a ≠ {1}, the numbers multiply to a × c = {a} × {br(c)}, not to c alone."
+    },
+    {
+     "id": "b",
+     "wrong": "b",
+     "explain": "{b} is what they add to. They multiply to a × c = {a * c}."
+    }
+   ],
+   "solution": [
+    "Multiply the coefficient of x² by the number term: {a} × {br(c)} = {answer}."
+   ],
+   "where": [
+    "s != 0 && u != 0",
+    "b != 0",
+    "a * c != b",
+    "hcf(r, abs(s)) == 1 && hcf(t, abs(u)) == 1"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-6-split",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "expr": "p * q / a"
+    }
+   },
+   "prompt": "To factorise {quad(a, p + q, c)}, the middle term is split using two numbers with product {a * c} and sum {p + q}. Which pair?",
+   "correct": "{p} and {q}",
+   "distractors": [
+    {
+     "text": "{a} and {c}",
+     "misconception": "ac"
+    },
+    {
+     "text": "{p * q} and {1}",
+     "misconception": "one"
+    },
+    {
+     "text": "{-p} and {-q}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ac",
+     "explain": "{a} and {c} multiply to {a * c}, but they add to {a + c}, not {p + q}."
+    },
+    {
+     "id": "one",
+     "explain": "{p * q} + {1} = {p * q + 1}, not {p + q}."
+    },
+    {
+     "id": "sign",
+     "explain": "{-p} + {br(-q)} = {-p - q}: the sum has the wrong sign."
+    }
+   ],
+   "solution": [
+    "Product: {p} × {br(q)} = {p * q} = {a} × {br(c)}.",
+    "Sum: {p} + {br(q)} = {p + q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != 0 && q != 0",
+    "(p * q) % a == 0",
+    "p + q != 0",
+    "a + c != p + q",
+    "p * q + 1 != p + q",
+    "p < q",
+    "p != -q",
+    "hcf3(a, abs(p + q), abs(c)) == 1"
+   ]
+  },
+  {
+   "id": "m4-6-full",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "s": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "u": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "Factorise {quad(r * t, r * u + s * t, s * u)}.",
+   "correct": "{lin2(r, s, t, u)}",
+   "distractors": [
+    {
+     "text": "{lin2(r, u, t, s)}",
+     "misconception": "cross"
+    },
+    {
+     "text": "{lin2(r * t, s, 1, u)}",
+     "misconception": "aone"
+    },
+    {
+     "text": "{lin2(r, -s, t, -u)}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "cross",
+     "explain": "Expand it: {lin2(r, u, t, s)} gives the middle term {mono(r * s + u * t, 'x')}, not {mono(r * u + s * t, 'x')}."
+    },
+    {
+     "id": "aone",
+     "explain": "Expand it: {lin2(r * t, s, 1, u)} gives the middle term {mono(r * t * u + s, 'x')}."
+    },
+    {
+     "id": "sign",
+     "explain": "Expand it: the middle term would be {mono(-(r * u + s * t), 'x')}."
+    }
+   ],
+   "solution": [
+    "a × c = {r * t} × {br(s * u)} = {r * t * s * u}; the numbers {r * u} and {s * t} multiply to {r * t * s * u} and add to {r * u + s * t}.",
+    "Split and group, then check: {lin2(r, s, t, u)} = {quad(r * t, r * u + s * t, s * u)}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "s != 0 && u != 0",
+    "r * u + s * t != 0",
+    "r * s + u * t != r * u + s * t",
+    "r * t * u + s != r * u + s * t",
+    "hcf(r, abs(s)) == 1 && hcf(t, abs(u)) == 1",
+    "s != u"
+   ]
+  },
+  {
+   "id": "m4-6-find",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "s": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "u": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "{quad(r * t, r * u + s * t, s * u)} = ({poly([r, 'x'], [s, ''])})({mono(t, 'x')} + k). What is k?",
+   "answer": "u",
+   "misconceptions": [
+    {
+     "id": "prod",
+     "wrong": "s * u",
+     "explain": "{s * u} is the whole number term. k is the number that times {s} gives {s * u}: {u}."
+    },
+    {
+     "id": "neg",
+     "wrong": "-u",
+     "explain": "Check: {s} × {br(-u)} = {-s * u}, not {s * u}."
+    }
+   ],
+   "solution": [
+    "The last terms multiply to {s * u}: {s} × k = {s * u}, so k = {u}.",
+    "Check the middle: {mono(r, 'x')} × {br(u)} + {s} × {mono(t, 'x')} = {mono(r * u + s * t, 'x')}."
+   ],
+   "where": [
+    "s != 0 && u != 0",
+    "r * u + s * t != 0",
+    "s * u != u",
+    "hcf(r, abs(s)) == 1 && hcf(t, abs(u)) == 1"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-6-common",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "r": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "s": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "u": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "Factorise completely {quad(k * r * t, k * (r * u + s * t), k * s * u)}.",
+   "correct": "{k}{lin2(r, s, t, u)}",
+   "distractors": [
+    {
+     "text": "{lin2(r, s, t, u)}",
+     "misconception": "lost"
+    },
+    {
+     "text": "{k}({quad(r * t, r * u + s * t, s * u)})",
+     "misconception": "stop"
+    },
+    {
+     "text": "{lin2(k * r, s, t, k * u)}",
+     "misconception": "both"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "lost",
+     "explain": "Expand it: that gives {quad(r * t, r * u + s * t, s * u)}. The common factor {k} is missing."
+    },
+    {
+     "id": "stop",
+     "explain": "'Completely' means factorise the trinomial too: {quad(r * t, r * u + s * t, s * u)} = {lin2(r, s, t, u)}."
+    },
+    {
+     "id": "both",
+     "explain": "{k} was put into both brackets, which multiplies by {k * k}. Put it in front once."
+    }
+   ],
+   "solution": [
+    "Every coefficient is a multiple of {k}: take {k} out first.",
+    "Then factorise {quad(r * t, r * u + s * t, s * u)} = {lin2(r, s, t, u)}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "s != 0 && u != 0",
+    "r * u + s * t != 0",
+    "hcf(r, abs(s)) == 1 && hcf(t, abs(u)) == 1",
+    "s != u"
+   ]
+  }
+ ]
+}

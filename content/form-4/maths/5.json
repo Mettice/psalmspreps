@@ -1,0 +1,484 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  2,
+  3
+ ],
+ "skills": [
+  {
+   "id": "m4-5",
+   "name": "Factorise quadratic trinomials x² + bx + c"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To factorise x² + bx + c, find two numbers that multiply to c and add to b. Then x² + bx + c = (x + p)(x + q).\n• x² + 7x + 12: 3 × 4 = 12 and 3 + 4 = 7, so (x + 3)(x + 4).\n• x² − 2x − 15: −5 × 3 = −15 and −5 + 3 = −2, so (x − 5)(x + 3).\nSigns: if c is positive, both numbers have the sign of b. If c is negative, the numbers have opposite signs and the larger one has the sign of b.\nCheck by expanding: the middle term must come back.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to factorise any trinomial x² + bx + c with whole numbers, choosing the signs correctly.\nBuilds on: Lesson {2} (expanding (x + p)(x + q)) and Lesson {3} (factorising by grouping).\nLeads to: Lesson {6} (trinomials with a number in front of x²) and solving quadratic equations by factorisation."
+   },
+   {
+    "heading": "Product and sum",
+    "text": "Expand {lin2(1, 3, 1, 4)}: x² + {mono(4, 'x')} + {mono(3, 'x')} + {12} = {quad(1, 7, 12)}.\nThe two numbers {3} and {4} multiply to give {12} and add to give {7}. So to factorise {quad(1, 7, 12)}, ask: which two numbers multiply to {12} and add to {7}?\nList the factor pairs of {12}: {1} × {12}, {2} × {6}, {3} × {4}. Only {3} and {4} add to {7}.\nThen {quad(1, 7, 12)} = {lin2(1, 3, 1, 4)}."
+   },
+   {
+    "heading": "Getting the signs right",
+    "text": "• c positive, b positive: both numbers positive. {quad(1, 8, 15)} = {lin2(1, 3, 1, 5)}.\n• c positive, b negative: both negative. {quad(1, -8, 15)} = {lin2(1, -3, 1, -5)}.\n• c negative: one positive, one negative. The larger has the sign of b. {quad(1, -2, -15)} = {lin2(1, -5, 1, 3)}.\nAlways expand to check. Common factors come out first: {quad(2, 14, 24)} = {2}({quad(1, 7, 12)})."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "trinomial",
+    "meaning": "an expression with three terms, such as {quad(1, 5, 6)}"
+   },
+   {
+    "word": "quadratic",
+    "meaning": "with x² as the highest power of x"
+   },
+   {
+    "word": "factor pair",
+    "meaning": "two whole numbers that multiply to a given number"
+   }
+  ],
+  "examples": [
+   "{quad(1, 5, 6)} = {lin2(1, 2, 1, 3)}",
+   "{quad(1, -9, 14)} = {lin2(1, -2, 1, -7)}",
+   "{quad(1, 4, -21)} = {lin2(1, 7, 1, -3)}"
+  ],
+  "mistake": {
+   "wrong": "{quad(1, -2, -15)} = {lin2(1, 5, 1, -3)}",
+   "right": "{quad(1, -2, -15)} = {lin2(1, -5, 1, 3)}",
+   "why": "{5} + {br(-3)} = {2}, but the middle term is {mono(-2, 'x')}. The larger number takes the sign of b: {-5} and {3}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": -5,
+   "q": 3
+  },
+  "problem": "Factorise {quad(1, p + q, p * q)}.",
+  "steps": [
+   "Look for two numbers with product {p * q} and sum {p + q}.",
+   "The product is negative, so the numbers have opposite signs.",
+   "Pairs with product {p * q}: … {p} and {q} add to {p + q}.",
+   "Check: {lin2(1, p, 1, q)} = {quad(1, p + q, p * q)}."
+  ],
+  "answer": "{lin2(1, p, 1, q)}",
+  "checks": [
+   "p * q == -15",
+   "p + q == -2"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m5-1",
+    "status": "draft",
+    "idea": "For x² + bx + c, look for two numbers whose product is c and whose sum is b.",
+    "vars": {},
+    "example": [
+     "{quad(1, 9, 20)}: {4} × {5} = {20} and {4} + {5} = {9}, so {lin2(1, 4, 1, 5)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-5-pos"
+    }
+   },
+   {
+    "id": "c4m5-2",
+    "status": "draft",
+    "idea": "If c is positive and b is negative, both numbers are negative.",
+    "vars": {},
+    "example": [
+     "{quad(1, -8, 15)}: {br(-3)} × {br(-5)} = {15}, {-3} + {br(-5)} = {-8}, so {lin2(1, -3, 1, -5)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-5-neg"
+    }
+   },
+   {
+    "id": "c4m5-3",
+    "status": "draft",
+    "idea": "If c is negative, the two numbers have opposite signs; the larger one has the sign of b.",
+    "vars": {},
+    "example": [
+     "{quad(1, 2, -24)}: {6} × {br(-4)} = {-24} and {6} + {br(-4)} = {2}, so {lin2(1, 6, 1, -4)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-5-mixed-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-factorise"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        1,
+        12
+       ]
+      },
+      "q": {
+       "int": [
+        -12,
+        -1
+       ]
+      }
+     },
+     "prompt": "Factorise {quad(1, p + q, p * q)}.",
+     "correct": "{lin2(1, p, 1, q)}",
+     "distractors": [
+      {
+       "text": "{lin2(1, -p, 1, -q)}",
+       "misconception": "swap"
+      },
+      {
+       "text": "{lin2(1, -p, 1, q)}",
+       "misconception": "pos"
+      },
+      {
+       "text": "{lin2(1, p, 1, -q)}",
+       "misconception": "pos2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "swap",
+       "explain": "Expand it: the middle term would be {mono(-(p + q), 'x')}. Swap the signs."
+      },
+      {
+       "id": "pos",
+       "explain": "{br(-p)} × {br(q)} = {-p * q}: the product would be positive."
+      },
+      {
+       "id": "pos2",
+       "explain": "{p} × {br(-q)} = {-p * q}: the product would be positive."
+      }
+     ],
+     "solution": [
+      "The product {p * q} is negative: the numbers have opposite signs.",
+      "{p} × {br(q)} = {p * q} and {p} + {br(q)} = {p + q}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "p + q != 0",
+      "p != -q"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-5-pos",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise {quad(1, p + q, p * q)}.",
+   "correct": "{lin2(1, p, 1, q)}",
+   "distractors": [
+    {
+     "text": "{lin2(1, p * q, 1, 1)}",
+     "misconception": "one"
+    },
+    {
+     "text": "{lin2(1, p + q, 1, p * q)}",
+     "misconception": "bc"
+    },
+    {
+     "text": "{lin2(1, -p, 1, -q)}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "one",
+     "explain": "{p * q} × {1} = {p * q}, but {p * q} + {1} = {p * q + 1}, not {p + q}."
+    },
+    {
+     "id": "bc",
+     "explain": "The numbers in the brackets must multiply to {p * q} and add to {p + q}. {p + q} and {p * q} do not."
+    },
+    {
+     "id": "sign",
+     "explain": "{br(-p)} + {br(-q)} = {-p - q}. The middle term is +{p + q}x, so both numbers are positive."
+    }
+   ],
+   "solution": [
+    "Two numbers with product {p * q} and sum {p + q}: {p} and {q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p < q",
+    "p * q != p + q"
+   ]
+  },
+  {
+   "id": "m4-5-neg",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise {quad(1, -(p + q), p * q)}.",
+   "correct": "{lin2(1, -p, 1, -q)}",
+   "distractors": [
+    {
+     "text": "{lin2(1, p, 1, q)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{lin2(1, p, 1, -q)}",
+     "misconception": "mixed"
+    },
+    {
+     "text": "{lin2(1, -p * q, 1, -1)}",
+     "misconception": "one"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "{lin2(1, p, 1, q)} expands to {quad(1, p + q, p * q)}: the middle sign is wrong."
+    },
+    {
+     "id": "mixed",
+     "explain": "One plus and one minus give a negative product, {-p * q}. Here the product is +{p * q}."
+    },
+    {
+     "id": "one",
+     "explain": "{br(-p * q)} + {br(-1)} = {-p * q - 1}, not {-(p + q)}."
+    }
+   ],
+   "solution": [
+    "The product +{p * q} is positive and the sum {-(p + q)} is negative: both numbers are negative.",
+    "{br(-p)} × {br(-q)} = {p * q} and {-p} + {br(-q)} = {-(p + q)}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p < q",
+    "p * q != p + q",
+    "p * q + 1 != p + q"
+   ]
+  },
+  {
+   "id": "m4-5-mixed",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "q": {
+     "int": [
+      -12,
+      -1
+     ]
+    }
+   },
+   "prompt": "Factorise {quad(1, p + q, p * q)}.",
+   "correct": "{lin2(1, p, 1, q)}",
+   "distractors": [
+    {
+     "text": "{lin2(1, -p, 1, -q)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{lin2(1, -p, 1, q)}",
+     "misconception": "pos"
+    },
+    {
+     "text": "{lin2(1, p, 1, -q)}",
+     "misconception": "pos2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Expand it: the middle term would be {mono(-(p + q), 'x')}. Swap the signs."
+    },
+    {
+     "id": "pos",
+     "explain": "{br(-p)} × {br(q)} = {-p * q}: the product would be positive."
+    },
+    {
+     "id": "pos2",
+     "explain": "{p} × {br(-q)} = {-p * q}: the product would be positive."
+    }
+   ],
+   "solution": [
+    "The product {p * q} is negative: the numbers have opposite signs.",
+    "{p} × {br(q)} = {p * q} and {p} + {br(q)} = {p + q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p + q != 0",
+    "p != -q"
+   ]
+  },
+  {
+   "id": "m4-5-find",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "{quad(1, p + q, p * q)} = (x + {br(p)})(x + k). What is k?",
+   "answer": "q",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "p + q",
+     "explain": "k is not the middle coefficient. The two numbers multiply to {p * q}: k = {q}."
+    },
+    {
+     "id": "neg",
+     "wrong": "-q",
+     "explain": "Check: {p} × {br(-q)} = {-p * q}, not {p * q}."
+    }
+   ],
+   "solution": [
+    "The two numbers multiply to {p * q}: {p} × k = {p * q}, so k = {q}.",
+    "Check the sum: {p} + {br(q)} = {p + q}."
+   ],
+   "where": [
+    "p != 0 && q != 0",
+    "p + q != 0",
+    "p != q",
+    "p + q != q"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-5-spot",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Ayuk factorised {quad(1, p + q, p * q)} as {lin2(1, -p, 1, -q)}. What went wrong?",
+   "correct": "The signs are swapped: the answer is {lin2(1, p, 1, q)}",
+   "distractors": [
+    {
+     "text": "Nothing: it is correct",
+     "misconception": "ok"
+    },
+    {
+     "text": "The numbers should be {p * q} and {1}",
+     "misconception": "one"
+    },
+    {
+     "text": "It cannot be factorised",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ok",
+     "explain": "Expand it: Ayuk's brackets give {mono(-(p + q), 'x')}, not {mono(p + q, 'x')}."
+    },
+    {
+     "id": "one",
+     "explain": "{p * q} + {1} = {p * q + 1}, not {p + q}."
+    },
+    {
+     "id": "none",
+     "explain": "It does factorise: {p} and {q} multiply to {p * q} and add to {p + q}."
+    }
+   ],
+   "solution": [
+    "Expand Ayuk's answer: {lin2(1, -p, 1, -q)} = {quad(1, -(p + q), p * q)}.",
+    "The middle term has the wrong sign. The right factorisation is {lin2(1, p, 1, q)}.",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "p != 0 && q != 0",
+    "p + q != 0",
+    "p * q + 1 != p + q",
+    "p < q"
+   ]
+  }
+ ]
+}

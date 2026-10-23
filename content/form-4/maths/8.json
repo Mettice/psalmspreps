@@ -1,0 +1,451 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  2,
+  7
+ ],
+ "skills": [
+  {
+   "id": "m4-8",
+   "name": "Solve quadratic equations by completing the square"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Completing the square writes x² + bx + c as (x + b/2)² + something.\nx² + bx = (x + b/2)² − (b/2)². Add (b/2)² to make a perfect square.\nExample: x² + 6x + 2 = 0 → (x + 3)² − 9 + 2 = 0 → (x + 3)² = 7 → x + 3 = ±√7 → x = −3 ± √7.\nDo not forget the ± when you take a square root: both roots count.\nIf the coefficient of x² is not 1, divide the whole equation by it first.\nThe completed square also gives the minimum value of x² + bx + c: it is c − (b/2)², reached when x = −b/2.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to complete the square for x² + bx + c and use it to solve equations that do not factorise, with exact (surd) answers.\nBuilds on: Lesson {2} (the perfect square (a + b)²) and Lesson {7} (solving by factorisation).\nLeads to: Lesson {9}, where completing the square on ax² + bx + c gives the quadratic formula."
+   },
+   {
+    "heading": "Making a perfect square",
+    "text": "From Lesson {2}: ({poly([1, 'x'], [3, ''])})² = {quad(1, 6, 9)}. The {6} is twice {3}, and the {9} is {3}².\nSo to turn {quad(1, 6, 0)} into a perfect square, take half of {6}, which is {3}, and add {3}² = {9}.\nIn general: x² + bx = (x + b/{2})² − (b/{2})².\n• {quad(1, 6, 2)} = ({poly([1, 'x'], [3, ''])})² − {9} + {2} = ({poly([1, 'x'], [3, ''])})² − {7}.\n• {quad(1, -4, 1)} = ({poly([1, 'x'], [-2, ''])})² − {4} + {1} = ({poly([1, 'x'], [-2, ''])})² − {3}."
+   },
+   {
+    "heading": "Solving with it",
+    "text": "Solve {quad(1, 6, 2)} = {0}.\n• Complete the square: ({poly([1, 'x'], [3, ''])})² − {7} = {0}, so ({poly([1, 'x'], [3, ''])})² = {7}.\n• Take the square root, both signs: x + {3} = ±√{7}.\n• x = {-3} + √{7} or x = {-3} − √{7}. As decimals: {roundTo(-3 + sqrt(7), 0.01)} or {roundTo(-3 - sqrt(7), 0.01)}.\nIf the number in front of x² is not {1}, divide every term by it first: {quad(2, 8, -6)} = {0} becomes {quad(1, 4, -3)} = {0}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "perfect square",
+    "meaning": "an expression equal to (x + p)²"
+   },
+   {
+    "word": "completing the square",
+    "meaning": "writing x² + bx + c as (x + p)² + q"
+   },
+   {
+    "word": "surd",
+    "meaning": "a root that is not a whole number, such as √{7}, left exact"
+   },
+   {
+    "word": "±",
+    "meaning": "plus or minus: both signs give a root"
+   }
+  ],
+  "examples": [
+   "{quad(1, 8, 0)} = ({poly([1, 'x'], [4, ''])})² − {16}",
+   "({poly([1, 'x'], [-1, ''])})² = {5} → x = {1} ± √{5}",
+   "minimum of {quad(1, -6, 11)} = {11} − {9} = {2}"
+  ],
+  "mistake": {
+   "wrong": "({poly([1, 'x'], [3, ''])})² = {7} → x = {-3} + √{7}",
+   "right": "x = {-3} + √{7} or x = {-3} − √{7}",
+   "why": "√{7} and −√{7} both square to {7}. Taking the square root needs ±, or one root is lost."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "h": 3,
+   "c": 2
+  },
+  "problem": "Solve {quad(1, 2 * h, c)} = {0} by completing the square. Leave the answer as a surd.",
+  "steps": [
+   "Half the coefficient of x is {h}, and {h}² = {h * h}.",
+   "{quad(1, 2 * h, 0)} = (x + {h})² − {h * h}, so the equation is (x + {h})² − {h * h} + {c} = {0}.",
+   "(x + {h})² = {h * h - c}.",
+   "x + {h} = ±√{h * h - c}, so x = {-h} ± √{h * h - c}."
+  ],
+  "answer": "x = {-h} + √{h * h - c} or x = {-h} − √{h * h - c}",
+  "checks": [
+   "h * h - c == 7"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m8-1",
+    "status": "draft",
+    "idea": "To make x² + bx a perfect square, add the square of half of b.",
+    "vars": {},
+    "example": [
+     "{quad(1, 10, 0)} + {25} = ({poly([1, 'x'], [5, ''])})², because half of {10} is {5} and {5}² = {25}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-8-add"
+    }
+   },
+   {
+    "id": "c4m8-2",
+    "status": "draft",
+    "idea": "x² + bx + c = (x + b/{2})² − (b/{2})² + c.",
+    "vars": {},
+    "example": [
+     "{quad(1, 8, 3)} = ({poly([1, 'x'], [4, ''])})² − {16} + {3} = ({poly([1, 'x'], [4, ''])})² − {13}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-8-form"
+    }
+   },
+   {
+    "id": "c4m8-3",
+    "status": "draft",
+    "idea": "Taking a square root gives two answers: + and −.",
+    "vars": {},
+    "example": [
+     "({poly([1, 'x'], [2, ''])})² = {9} → x + {2} = {3} or x + {2} = {-3} → x = {1} or x = {-5}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-8-root-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "quadratic-equations"
+     ],
+     "vars": {
+      "h": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        9
+       ]
+      }
+     },
+     "prompt": "Solve ({poly([1, 'x'], [h, ''])})² = {k * k}. Give the larger root.",
+     "answer": "k - h",
+     "misconceptions": [
+      {
+       "id": "plush",
+       "wrong": "k + h",
+       "explain": "Subtract {h} from both sides: x = {k} − {br(h)} = {k - h}."
+      },
+      {
+       "id": "square",
+       "wrong": "k * k - h",
+       "explain": "First take the square root: x + {br(h)} = ±{k}."
+      },
+      {
+       "id": "small",
+       "wrong": "-k - h",
+       "explain": "That is the smaller root. The larger is {k - h}."
+      }
+     ],
+     "solution": [
+      "x + {br(h)} = {k} or x + {br(h)} = {-k}.",
+      "x = {k - h} or x = {-k - h}.",
+      "The larger root is {answer}."
+     ],
+     "where": [
+      "h != 0",
+      "k != h && k != -h"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-8-add",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "What number must be added to {quad(1, 2 * h, 0)} to make a perfect square?",
+   "answer": "h * h",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "h",
+     "explain": "Half of {2 * h} is {h}, but you add its square: {h}² = {h * h}."
+    },
+    {
+     "id": "bsq",
+     "wrong": "4 * h * h",
+     "explain": "Square half of b, not b itself: ({h})² = {h * h}."
+    }
+   ],
+   "solution": [
+    "Half of {2 * h} is {h}.",
+    "{h}² = {answer}, and {quad(1, 2 * h, h * h)} = ({poly([1, 'x'], [h, ''])})²."
+   ],
+   "where": [
+    "h != 0 && h != 1 && h != -1"
+   ]
+  },
+  {
+   "id": "m4-8-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -12,
+      12
+     ]
+    }
+   },
+   "prompt": "Write {quad(1, 2 * h, c)} in the form (x + p)² + q.",
+   "correct": "({poly([1, 'x'], [h, ''])})² {c - h * h >= 0 ? '+' : '−'} {abs(c - h * h)}",
+   "distractors": [
+    {
+     "text": "({poly([1, 'x'], [h, ''])})² {c + h * h >= 0 ? '+' : '−'} {abs(c + h * h)}",
+     "misconception": "plus"
+    },
+    {
+     "text": "({poly([1, 'x'], [2 * h, ''])})² {c - 4 * h * h >= 0 ? '+' : '−'} {abs(c - 4 * h * h)}",
+     "misconception": "full"
+    },
+    {
+     "text": "({poly([1, 'x'], [h, ''])})² {c >= 0 ? '+' : '−'} {abs(c)}",
+     "misconception": "forgot"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "plus",
+     "explain": "({poly([1, 'x'], [h, ''])})² is {h * h} too big, so subtract {h * h}: q = {c} − {h * h}."
+    },
+    {
+     "id": "full",
+     "explain": "Use half of {2 * h}, which is {h}, inside the bracket."
+    },
+    {
+     "id": "forgot",
+     "explain": "({poly([1, 'x'], [h, ''])})² already adds {h * h}. Take it away again: q = {c - h * h}."
+    }
+   ],
+   "solution": [
+    "Half of {2 * h} is {h}: {quad(1, 2 * h, 0)} = ({poly([1, 'x'], [h, ''])})² − {h * h}.",
+    "Add {c}: q = {c} − {h * h} = {c - h * h}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "h != 0",
+    "c != 0",
+    "c - h * h != 0",
+    "c + h * h != 0"
+   ]
+  },
+  {
+   "id": "m4-8-root",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve ({poly([1, 'x'], [h, ''])})² = {k * k}. Give the larger root.",
+   "answer": "k - h",
+   "misconceptions": [
+    {
+     "id": "plush",
+     "wrong": "k + h",
+     "explain": "Subtract {h} from both sides: x = {k} − {br(h)} = {k - h}."
+    },
+    {
+     "id": "square",
+     "wrong": "k * k - h",
+     "explain": "First take the square root: x + {br(h)} = ±{k}."
+    },
+    {
+     "id": "small",
+     "wrong": "-k - h",
+     "explain": "That is the smaller root. The larger is {k - h}."
+    }
+   ],
+   "solution": [
+    "x + {br(h)} = {k} or x + {br(h)} = {-k}.",
+    "x = {k - h} or x = {-k - h}.",
+    "The larger root is {answer}."
+   ],
+   "where": [
+    "h != 0",
+    "k != h && k != -h"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-8-surd",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {quad(1, 2 * h, c)} = {0} by completing the square.",
+   "correct": "x = {-h} ± √{h * h - c}",
+   "distractors": [
+    {
+     "text": "x = {h} ± √{h * h - c}",
+     "misconception": "sign"
+    },
+    {
+     "text": "x = {-h} ± √{h * h + c}",
+     "misconception": "plus"
+    },
+    {
+     "text": "x = {-h} + √{h * h - c} only",
+     "misconception": "one"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "x + {h} = ±√… gives x = {-h} ± √…: move {h} across and its sign changes."
+    },
+    {
+     "id": "plus",
+     "explain": "(x + {h})² = {h * h} − {br(c)} = {h * h - c}: the {c} moves across with its sign changed."
+    },
+    {
+     "id": "one",
+     "explain": "A square root has two signs: x + {h} = +√{h * h - c} or −√{h * h - c}."
+    }
+   ],
+   "solution": [
+    "(x + {h})² − {h * h} + {br(c)} = {0}, so (x + {h})² = {h * h - c}.",
+    "x + {h} = ±√{h * h - c}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "c != 0",
+    "h * h - c > 1",
+    "!isPerfectSquare(h * h - c)",
+    "!isPerfectSquare(h * h + c) || h * h + c <= 0",
+    "h * h + c > 0"
+   ]
+  },
+  {
+   "id": "m4-8-min",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -12,
+      12
+     ]
+    }
+   },
+   "prompt": "By completing the square, find the minimum value of {quad(1, 2 * h, c)}.",
+   "answer": "c - h * h",
+   "misconceptions": [
+    {
+     "id": "c",
+     "wrong": "c",
+     "explain": "x = {0} is not where the minimum is. Complete the square: the minimum is {c} − {h * h}."
+    },
+    {
+     "id": "x",
+     "wrong": "-h",
+     "explain": "{-h} is the value of x at the minimum. The minimum value itself is {c - h * h}."
+    },
+    {
+     "id": "plus",
+     "wrong": "c + h * h",
+     "explain": "({poly([1, 'x'], [h, ''])})² is {h * h} too big: subtract {h * h}, do not add it."
+    }
+   ],
+   "solution": [
+    "{quad(1, 2 * h, c)} = ({poly([1, 'x'], [h, ''])})² + {br(c - h * h)}.",
+    "A square is never negative, so the smallest it can be is {0}, when x = {-h}.",
+    "The minimum value is {answer}."
+   ],
+   "where": [
+    "h != 0",
+    "c - h * h != -h",
+    "c != 0"
+   ],
+   "signed": true
+  }
+ ]
+}

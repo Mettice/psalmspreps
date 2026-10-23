@@ -626,3 +626,19 @@ export function thalesFig(ad, db, ae, ec, de, bc, unit = "cm") {
   body += text((D[0] + E[0]) / 2, D[1] - 6, lab(de)) + text(170, 192, lab(bc));
   return svg(340, 200, "Triangle ABC with DE parallel to BC", body);
 }
+
+// ---------------------------------------------------------------- Form 4 algebra and surds (2026-10-24)
+/** The largest k with k² dividing n: √n = k√(n ÷ k²). */
+export function surdOut(n) { let k = 1; for (let i = 2; i * i <= n; i++) if (n % (i * i) === 0) k = i; return k; }
+/** What stays under the root: √12 → 3. */
+export const surdIn = (n) => n / surdOut(n) ** 2;
+/** √n in simplest form: 12 → "2√3", 9 → "3", 7 → "√7"; with a coefficient c: c√n simplified (c = 3, n = 8 → "6√2"). */
+export function surd(n, c = 1) {
+  const k = c * surdOut(n), m = surdIn(n);
+  if (m === 1) return fmt(k);
+  return `${k === 1 ? "" : k === -1 ? "−" : fmt(k)}√${m}`;
+}
+/** A product of two linear brackets: lin2(2, 3, 1, -4) → "(2x + 3)(x − 4)". */
+export const lin2 = (a, b, c, d, v = "x") => `(${poly([a, v], [b, ""])})(${poly([c, v], [d, ""])})`;
+/** ax² + bx + c, zero terms left out: quad(1, -5, 6) → "x² − 5x + 6". */
+export const quad = (a, b, c, v = "x") => poly([a, `${v}²`], [b, v], [c, ""]);

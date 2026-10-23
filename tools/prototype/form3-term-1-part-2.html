@@ -1417,7 +1417,23 @@ function thalesFig(ad, db, ae, ec, de, bc, unit = "cm") {
   return svg(340, 200, "Triangle ABC with DE parallel to BC", body);
 }
 
-return { br, pw, powExpand, signWord, powNoSign, isPrime, primeFactors, factorProduct, factorise, ladder, numFactors, factorsOf, multiplesOf, hcf, lcm, hcf3, lcm3, isSquare, isCube, seqTerms, geoTerms, squaresList, cubesList, triangleOk, pt, mono, poly, bracket, ineq, holds, flipOp, strictOp, looseOp, opWords, solutionsIn, coordPlane, numberLine, ineqLine, bisectorFig, segmentFig, angleAt, anglePair, pairEqual, angleLetter, parallelFig, crossFig, triangleFig, rightTriFig, TRIPLES, triple, nTriples, isRightTriangle, frac, fracRaw, mixed, fAddN, fAddD, fAdd, fSub, fMul, fDiv, lcmOf, fAddWrong, fDivWrong, roundTo, sigFig, sigFigStr, countSig, dec, isPerfectSquare, root, sqrtInt, interval, intervalIneq, inInterval, intsIn, pctOf, pctChange, simpleInterest, compound, polyName, angleSum, interiorRegular, exteriorRegular, regularFig, trapeziumFig, parallelogramFig, reflectX, halfTurn, symLines, symShapes, hasPointSym, circlesPos, CIRCLE_POSITIONS, otherPositions, tA, tB, tC, sqrtFloor, smallestSet, sqrt, pairPhrase, isLowest, aOrAn, prismFaces, prismEdges, prismVertices, pyramidFaces, pyramidEdges, pyramidVertices, baseName, lateralArea, prismTotalArea, prismVolume, sqPyramidArea, sphereArea, sphereVolume, sorted, listStr, meanOf, medianOf, modeOf, rangeOf, freqMean, freqTotal, freqSumXF, freqMode, freqModeUnique, pieAngle, countEach, prismFig, pyramidFig, sphereFig, barChartFig, pieFig, sinD, cosD, tanD, asinD, acosD, atanD, log10, logb, det2, matAdd, matSub, matScale, matMul, matT, adj2, matStr, matFig, trigFig, thalesFig };
+// ---------------------------------------------------------------- Form 4 algebra and surds (2026-10-24)
+/** The largest k with k² dividing n: √n = k√(n ÷ k²). */
+function surdOut(n) { let k = 1; for (let i = 2; i * i <= n; i++) if (n % (i * i) === 0) k = i; return k; }
+/** What stays under the root: √12 → 3. */
+const surdIn = (n) => n / surdOut(n) ** 2;
+/** √n in simplest form: 12 → "2√3", 9 → "3", 7 → "√7"; with a coefficient c: c√n simplified (c = 3, n = 8 → "6√2"). */
+function surd(n, c = 1) {
+  const k = c * surdOut(n), m = surdIn(n);
+  if (m === 1) return fmt(k);
+  return `${k === 1 ? "" : k === -1 ? "−" : fmt(k)}√${m}`;
+}
+/** A product of two linear brackets: lin2(2, 3, 1, -4) → "(2x + 3)(x − 4)". */
+const lin2 = (a, b, c, d, v = "x") => `(${poly([a, v], [b, ""])})(${poly([c, v], [d, ""])})`;
+/** ax² + bx + c, zero terms left out: quad(1, -5, 6) → "x² − 5x + 6". */
+const quad = (a, b, c, v = "x") => poly([a, `${v}²`], [b, v], [c, ""]);
+
+return { br, pw, powExpand, signWord, powNoSign, isPrime, primeFactors, factorProduct, factorise, ladder, numFactors, factorsOf, multiplesOf, hcf, lcm, hcf3, lcm3, isSquare, isCube, seqTerms, geoTerms, squaresList, cubesList, triangleOk, pt, mono, poly, bracket, ineq, holds, flipOp, strictOp, looseOp, opWords, solutionsIn, coordPlane, numberLine, ineqLine, bisectorFig, segmentFig, angleAt, anglePair, pairEqual, angleLetter, parallelFig, crossFig, triangleFig, rightTriFig, TRIPLES, triple, nTriples, isRightTriangle, frac, fracRaw, mixed, fAddN, fAddD, fAdd, fSub, fMul, fDiv, lcmOf, fAddWrong, fDivWrong, roundTo, sigFig, sigFigStr, countSig, dec, isPerfectSquare, root, sqrtInt, interval, intervalIneq, inInterval, intsIn, pctOf, pctChange, simpleInterest, compound, polyName, angleSum, interiorRegular, exteriorRegular, regularFig, trapeziumFig, parallelogramFig, reflectX, halfTurn, symLines, symShapes, hasPointSym, circlesPos, CIRCLE_POSITIONS, otherPositions, tA, tB, tC, sqrtFloor, smallestSet, sqrt, pairPhrase, isLowest, aOrAn, prismFaces, prismEdges, prismVertices, pyramidFaces, pyramidEdges, pyramidVertices, baseName, lateralArea, prismTotalArea, prismVolume, sqPyramidArea, sphereArea, sphereVolume, sorted, listStr, meanOf, medianOf, modeOf, rangeOf, freqMean, freqTotal, freqSumXF, freqMode, freqModeUnique, pieAngle, countEach, prismFig, pyramidFig, sphereFig, barChartFig, pieFig, sinD, cosD, tanD, asinD, acosD, atanD, log10, logb, det2, matAdd, matSub, matScale, matMul, matT, adj2, matStr, matFig, trigFig, thalesFig, surdOut, surdIn, surd, lin2, quad };
 })();
 __mods["lib/english.js"] = (() => {
 // English word forms for templates. Rules plus authored exception tables; the tables are facts a teacher
