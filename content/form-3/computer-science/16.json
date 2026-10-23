@@ -1,0 +1,509 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "s3-16",
+   "name": "Data capture: forms, data logging, validation and verification"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Manual (indirect) data capture: data is collected first (paper forms, questionnaires, interviews), then typed in. A good form has clear questions, boxes for each character, tick boxes where possible and instructions.\nData logging: sensors take readings automatically at regular intervals and store them (weather stations, river levels, hospital monitors).\nValidation: the computer checks that data is sensible and allowed (range check, type check, length check, presence check, format check). It cannot prove data is correct.\nVerification: checks that data was copied correctly (double entry, or visual check against the original).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Collecting data by hand",
+    "text": "Some data must be collected from people: opinions, personal details, survey answers. This is done with forms, questionnaires and interviews, and the data is typed in later (indirect capture).\nA good form has clear questions and instructions, a box for each character, tick boxes for choices, and enough space. Good forms mean fewer errors when the data is entered."
+   },
+   {
+    "heading": "Data logging",
+    "text": "Data logging uses sensors connected to a logger or computer to take readings automatically at fixed intervals, for example every {10} minutes.\nUses: weather stations, river and flood levels, temperature of vaccine fridges, patients' heart rates.\nReadings per hour = {60} ÷ interval in minutes. Every {10} minutes gives {6} an hour and {144} a day."
+   },
+   {
+    "heading": "Checking data",
+    "text": "• Validation is done by the computer: is the data sensible? Range check (mark {0}–{20}), type check (a number, not text), length check (exactly {9} digits), presence check (not empty), format check (DD/MM/YYYY).\n• Verification checks that data was copied correctly: typing it twice (double entry) or comparing with the original document.\nValidation can accept data that is sensible but wrong; verification helps catch those mistakes."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "validation",
+    "meaning": "automatic check that data is sensible"
+   },
+   {
+    "word": "verification",
+    "meaning": "check that data was entered correctly"
+   },
+   {
+    "word": "data logging",
+    "meaning": "automatic recording of sensor readings over time"
+   },
+   {
+    "word": "questionnaire",
+    "meaning": "a set of questions to collect information from people"
+   }
+  ],
+  "examples": [
+   "Mark {25} out of {20}: range check fails",
+   "Typing a password twice: verification",
+   "Logger every {30} minutes: {48} readings a day"
+  ],
+  "mistake": {
+   "wrong": "Validation proves the data is correct",
+   "right": "Validation only checks the data is sensible",
+   "why": "A wrong but sensible value passes validation."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 144,
+   "h": 24
+  },
+  "problem": "A weather station in Garoua logs the temperature every {60 * h / n} minutes. How many readings does it store in {h} hours?",
+  "steps": [
+   "Readings per hour = {60} ÷ {60 * h / n} = {n / h}.",
+   "In {h} hours: {n / h} × {h} = {n} readings."
+  ],
+  "answer": "{n} readings",
+  "checks": [
+   "60 * h / n == 10"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s16-1",
+    "status": "draft",
+    "idea": "Validation checks data is sensible; verification checks it was copied correctly.",
+    "vars": {},
+    "example": [
+     "Age {250}: rejected by a range check."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-16-vv"
+    }
+   },
+   {
+    "id": "c3s16-2",
+    "status": "draft",
+    "idea": "Range, type, length, presence and format checks.",
+    "vars": {},
+    "example": [
+     "A phone number must have {9} digits: length check."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-16-check"
+    }
+   },
+   {
+    "id": "c3s16-3",
+    "status": "draft",
+    "idea": "Data logging: sensors record readings at set intervals.",
+    "vars": {},
+    "example": [
+     "River level logged every hour"
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-16-log-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "data-capture"
+     ],
+     "vars": {
+      "m": {
+       "pick": [
+        5,
+        10,
+        15,
+        20,
+        30,
+        60
+       ]
+      },
+      "d": {
+       "int": [
+        1,
+        7
+       ]
+      }
+     },
+     "prompt": "A data logger records the level of the river Benue every {m} minutes. How many readings are stored in {d} days?",
+     "answer": "d * 24 * 60 / m",
+     "misconceptions": [
+      {
+       "id": "hours",
+       "wrong": "d * 24",
+       "explain": "That is the number of hours. Multiply by readings per hour."
+      }
+     ],
+     "solution": [
+      "Readings per hour = {60} ÷ {m} = {60 / m}.",
+      "Hours in {d} days = {d * 24}.",
+      "Readings = {60 / m} × {d * 24} = {answer}."
+     ],
+     "where": [
+      "d * 24 * 60 / m != d * 24"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-16-vv",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-capture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is validation?",
+       "r": "An automatic check that data is sensible and allowed",
+       "w": [
+        "Proof that data is correct",
+        "Copying data twice",
+        "Printing the data"
+       ],
+       "e": [
+        "Sensible data can still be wrong.",
+        "That is double-entry verification.",
+        "Printing is output."
+       ],
+       "y": "Validation rejects impossible data."
+      },
+      {
+       "q": "What is verification?",
+       "r": "Checking that data has been copied or entered correctly",
+       "w": [
+        "Checking that data is within a range",
+        "Deleting old data",
+        "Encrypting data"
+       ],
+       "e": [
+        "That is a validation range check.",
+        "Not related.",
+        "That is security."
+       ],
+       "y": "Double entry or comparing with the original."
+      },
+      {
+       "q": "A pupil's age is entered as 14 instead of 15. Validation accepts it. Why?",
+       "r": "14 is a sensible age, so validation cannot tell it is wrong",
+       "w": [
+        "Validation is broken",
+        "Ages are never checked",
+        "14 is not a number"
+       ],
+       "e": [
+        "It worked as designed.",
+        "A range check was applied.",
+        "It is a number."
+       ],
+       "y": "Validation checks sense, not truth: verification catches copying errors."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-16-check",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-capture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A mark must be between 0 and 20.",
+       "r": "range check",
+       "w": [
+        "length check",
+        "type check",
+        "presence check"
+       ],
+       "e": [
+        "Length counts characters.",
+        "Type checks numbers vs text.",
+        "Presence checks a field is not empty."
+       ],
+       "y": "Limits on the value: range check."
+      },
+      {
+       "q": "The 'surname' box cannot be left empty.",
+       "r": "presence check",
+       "w": [
+        "range check",
+        "format check",
+        "type check"
+       ],
+       "e": [
+        "No limits on value.",
+        "No pattern is required.",
+        "Not about number vs text."
+       ],
+       "y": "Something must be entered."
+      },
+      {
+       "q": "A phone number must contain exactly 9 digits.",
+       "r": "length check",
+       "w": [
+        "range check",
+        "presence check",
+        "spell check"
+       ],
+       "e": [
+        "It is the number of characters that matters.",
+        "It is more than just not empty.",
+        "Not about spelling."
+       ],
+       "y": "Counting characters: length check."
+      },
+      {
+       "q": "A date must be written DD/MM/YYYY.",
+       "r": "format check",
+       "w": [
+        "length check",
+        "presence check",
+        "range check"
+       ],
+       "e": [
+        "The pattern matters, not just the length.",
+        "More than presence.",
+        "Not just limits."
+       ],
+       "y": "A required pattern: format check."
+      }
+     ]
+    }
+   },
+   "prompt": "Which validation check is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-16-log",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "data-capture"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      60
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      7
+     ]
+    }
+   },
+   "prompt": "A data logger records the level of the river Benue every {m} minutes. How many readings are stored in {d} days?",
+   "answer": "d * 24 * 60 / m",
+   "misconceptions": [
+    {
+     "id": "hours",
+     "wrong": "d * 24",
+     "explain": "That is the number of hours. Multiply by readings per hour."
+    }
+   ],
+   "solution": [
+    "Readings per hour = {60} ÷ {m} = {60 / m}.",
+    "Hours in {d} days = {d * 24}.",
+    "Readings = {60 / m} × {d * 24} = {answer}."
+   ],
+   "where": [
+    "d * 24 * 60 / m != d * 24"
+   ]
+  },
+  {
+   "id": "s3-16-form",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "data-capture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a feature of a well-designed data capture form?",
+       "r": "Separate boxes for each character and tick boxes for choices",
+       "w": [
+        "One large box for all the answers",
+        "Questions with no instructions",
+        "Very small writing to save paper"
+       ],
+       "e": [
+        "One box makes data hard to read and enter.",
+        "Instructions reduce mistakes.",
+        "Small writing causes errors."
+       ],
+       "y": "Clear, structured forms reduce errors."
+      },
+      {
+       "q": "Why might a researcher use a questionnaire instead of sensors?",
+       "r": "To collect people's opinions, which sensors cannot measure",
+       "w": [
+        "Questionnaires are always faster",
+        "Sensors cannot measure temperature",
+        "Questionnaires need no reading"
+       ],
+       "e": [
+        "They are often slower.",
+        "Sensors measure temperature well.",
+        "People must read them."
+       ],
+       "y": "Opinions and personal information need questions."
+      },
+      {
+       "q": "Why is data logging better than a person taking readings for a week?",
+       "r": "It works continuously and accurately without breaks",
+       "w": [
+        "It is always cheaper than everything",
+        "It never needs power",
+        "It makes the weather better"
+       ],
+       "e": [
+        "Equipment has costs.",
+        "Loggers need batteries or power.",
+        "It only records."
+       ],
+       "y": "No missed readings, no tired observer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

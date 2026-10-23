@@ -63,6 +63,59 @@ Rules the computed answers use are listed in the subject’s library tests; ever
 | 49 | `s3-12-cool-card` (card c3s12-3) | 12 | multiple choice, 1 | hardware |
 | 50 | `s3-13-which` | 13 | multiple choice, 1 | hardware |
 | 51 | `s3-13-usb` | 13 | multiple choice, 1 | hardware |
+| 52 | `s3-15-match` | 15 | multiple choice, 1 | data-capture |
+| 53 | `s3-15-omr` | 15 | multiple choice, 1 | data-capture |
+| 54 | `s3-15-why` | 15 | multiple choice, 2 | data-capture |
+| 55 | `s3-15-best` | 15 | multiple choice, 3 | data-capture |
+| 56 | `s3-15-why-card` (card c3s15-3) | 15 | multiple choice, 1 | data-capture |
+| 57 | `s3-16-vv` | 16 | multiple choice, 1 | data-capture |
+| 58 | `s3-16-check` | 16 | multiple choice, 1 | data-capture |
+| 59 | `s3-16-form` | 16 | multiple choice, 3 | data-capture |
+| 60 | `s3-18-order` | 18 | ordering, 1 | algorithms |
+| 61 | `s3-18-stage` | 18 | multiple choice, 1 | algorithms |
+| 62 | `s3-18-test` | 18 | multiple choice, 2 | algorithms |
+| 63 | `s3-18-why` | 18 | multiple choice, 3 | algorithms |
+| 64 | `s3-18-test-card` (card c3s18-3) | 18 | multiple choice, 1 | algorithms |
+| 65 | `s3-19-decomp` | 19 | multiple choice, 1 | algorithms |
+| 66 | `s3-19-ipo` | 19 | multiple choice, 1 | algorithms |
+| 67 | `s3-19-rep` | 19 | multiple choice, 2 | algorithms |
+| 68 | `s3-19-avg` | 19 | ordering, 3 | algorithms |
+| 69 | `s3-19-rep-card` (card c3s19-3) | 19 | multiple choice, 1 | algorithms |
+| 70 | `s3-20-def` | 20 | multiple choice, 1 | algorithms |
+| 71 | `s3-20-prop` | 20 | multiple choice, 1 | algorithms |
+| 72 | `s3-21-kind` | 21 | multiple choice, 2 | algorithms |
+| 73 | `s3-21-kind-card` (card c3s21-3) | 21 | multiple choice, 1 | algorithms |
+| 74 | `s3-22-symbol` | 22 | multiple choice, 1 | algorithms |
+| 75 | `s3-22-dec` | 22 | multiple choice, 1 | algorithms |
+| 76 | `s3-24-which` | 24 | multiple choice, 1 | software |
+| 77 | `s3-25-which` | 25 | multiple choice, 1 | software |
+| 78 | `s3-25-term` | 25 | multiple choice, 1 | software |
+| 79 | `s3-25-slides` | 25 | multiple choice, 3 | software |
+| 80 | `s3-26-which` | 26 | multiple choice, 1 | software |
+| 81 | `s3-26-util` | 26 | multiple choice, 1 | software |
+| 82 | `s3-26-type` | 26 | multiple choice, 2 | software |
+| 83 | `s3-26-choose` | 26 | multiple choice, 3 | software |
+| 84 | `s3-26-type-card` (card c3s26-3) | 26 | multiple choice, 1 | software |
+| 85 | `s3-28-type` | 28 | multiple choice, 1 | software |
+| 86 | `s3-28-which` | 28 | multiple choice, 1 | software |
+| 87 | `s3-28-ethic` | 28 | multiple choice, 2 | software |
+| 88 | `s3-28-case` | 28 | multiple choice, 3 | software |
+| 89 | `s3-28-ethic-card` (card c3s28-3) | 28 | multiple choice, 1 | software |
+| 90 | `s3-29-def` | 29 | multiple choice, 1 | software |
+| 91 | `s3-29-ex` | 29 | multiple choice, 1 | software |
+| 92 | `s3-29-pro` | 29 | multiple choice, 2 | software |
+| 93 | `s3-29-case` | 29 | multiple choice, 3 | software |
+| 94 | `s3-29-pro-card` (card c3s29-2) | 29 | multiple choice, 1 | software |
+| 95 | `s3-30-term` | 30 | multiple choice, 1 | software |
+| 96 | `s3-30-can` | 30 | multiple choice, 2 | software |
+| 97 | `s3-30-cc0` | 30 | multiple choice, 1 | software |
+| 98 | `s3-30-choose` | 30 | multiple choice, 3 | software |
+| 99 | `s3-30-can-card` (card c3s30-2) | 30 | multiple choice, 1 | software |
+| 100 | `s3-32-which` | 32 | multiple choice, 1 | software |
+| 101 | `s3-32-adv` | 32 | multiple choice, 1 | software |
+| 102 | `s3-32-choose` | 32 | multiple choice, 2 | software |
+| 103 | `s3-32-compare` | 32 | multiple choice, 3 | software |
+| 104 | `s3-32-choose-card` (card c3s32-3) | 32 | multiple choice, 1 | software |
 
 ### `s3-1-def` · Lesson 1 · multiple choice, level 1
 
@@ -3445,4 +3498,3529 @@ Full working after a second miss:
 > So the answer is Universal Serial Bus.  
 
 Sources: hardware (Form 3 Computer Science syllabus, Term 1: the processor, the processor cycle, primary and secondary storage, other internal components, ports)
+
+### `s3-15-match` · Lesson 15 · multiple choice, level 1
+
+Prompt: Which data capture method is used? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A cashier scans the striped code on a tin of milk. | barcode reader | OMR · MICR · biometrics | OMR reads pencil marks. · MICR reads magnetic ink on cheques. · Biometrics identify people. | Barcodes identify products. |
+| A bank reads the special numbers at the bottom of a cheque. | MICR | OCR · RFID · QR code | OCR reads ordinary print. · RFID uses radio tags. · QR codes are square patterns. | Magnetic ink is hard to forge. |
+| A phone camera reads a square pattern to pay for goods. | QR code | barcode · OMR · magnetic stripe | Barcodes are lines. · OMR reads marks on forms. · A stripe is swiped. | QR codes are two-dimensional and read by cameras. |
+| A worker's attendance is recorded by placing a finger on a scanner. | biometrics | RFID · OCR · barcode reader | RFID uses a tag. · OCR reads text. · A barcode is printed. | Fingerprints are unique to each person. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which data capture method is used? A cashier scans the striped code on a tin of milk.
+
+- ◻️ biometrics  
+  _↳ feedback if chosen: Biometrics identify people._
+- ✅ barcode reader
+- ◻️ MICR  
+  _↳ feedback if chosen: MICR reads magnetic ink on cheques._
+- ◻️ OMR  
+  _↳ feedback if chosen: OMR reads pencil marks._
+
+Full working after a second miss:
+
+> Barcodes identify products.  
+> So the answer is barcode reader.  
+
+> Which data capture method is used? A phone camera reads a square pattern to pay for goods.
+
+- ✅ QR code
+- ◻️ magnetic stripe  
+  _↳ feedback if chosen: A stripe is swiped._
+- ◻️ OMR  
+  _↳ feedback if chosen: OMR reads marks on forms._
+- ◻️ barcode  
+  _↳ feedback if chosen: Barcodes are lines._
+
+Full working after a second miss:
+
+> QR codes are two-dimensional and read by cameras.  
+> So the answer is QR code.  
+
+> Which data capture method is used? A bank reads the special numbers at the bottom of a cheque.
+
+- ◻️ RFID  
+  _↳ feedback if chosen: RFID uses radio tags._
+- ◻️ QR code  
+  _↳ feedback if chosen: QR codes are square patterns._
+- ✅ MICR
+- ◻️ OCR  
+  _↳ feedback if chosen: OCR reads ordinary print._
+
+Full working after a second miss:
+
+> Magnetic ink is hard to forge.  
+> So the answer is MICR.  
+
+Sources: data-capture (Form 3 Computer Science syllabus, Term 1: data capture technologies)
+
+### `s3-15-omr` · Lesson 15 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the difference between OMR and OCR? | OMR reads the position of marks; OCR reads printed letters and numbers | They are exactly the same · OMR reads magnetic ink; OCR reads barcodes · OCR reads pencil marks only | They do different jobs. · Magnetic ink is MICR; barcodes have their own readers. · OCR reads characters, not just marks. | Marks vs characters. |
+| Which method turns a scanned printed page into text you can edit? | OCR | OMR · MICR · RFID | OMR reads marks. · MICR reads magnetic ink. · RFID reads radio tags. | Optical character recognition. |
+| Which method reads a tag on a cow's ear without touching it? | RFID | OMR · barcode reader · MICR | OMR needs a paper form. · Barcodes need line of sight and can get dirty. · MICR is for cheques. | Radio waves read the tag from a distance. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which method turns a scanned printed page into text you can edit?
+
+- ◻️ OMR  
+  _↳ feedback if chosen: OMR reads marks._
+- ◻️ RFID  
+  _↳ feedback if chosen: RFID reads radio tags._
+- ◻️ MICR  
+  _↳ feedback if chosen: MICR reads magnetic ink._
+- ✅ OCR
+
+Full working after a second miss:
+
+> Optical character recognition.  
+> So the answer is OCR.  
+
+> Which method turns a scanned printed page into text you can edit?
+
+- ◻️ OMR  
+  _↳ feedback if chosen: OMR reads marks._
+- ◻️ RFID  
+  _↳ feedback if chosen: RFID reads radio tags._
+- ◻️ MICR  
+  _↳ feedback if chosen: MICR reads magnetic ink._
+- ✅ OCR
+
+Full working after a second miss:
+
+> Optical character recognition.  
+> So the answer is OCR.  
+
+> Which method turns a scanned printed page into text you can edit?
+
+- ◻️ MICR  
+  _↳ feedback if chosen: MICR reads magnetic ink._
+- ✅ OCR
+- ◻️ OMR  
+  _↳ feedback if chosen: OMR reads marks._
+- ◻️ RFID  
+  _↳ feedback if chosen: RFID reads radio tags._
+
+Full working after a second miss:
+
+> Optical character recognition.  
+> So the answer is OCR.  
+
+Sources: data-capture (Form 3 Computer Science syllabus, Term 1: data capture technologies)
+
+### `s3-15-why` · Lesson 15 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is scanning barcodes better than typing product codes at a till? | It is faster and reduces typing errors | It is slower but prettier · It needs no computer · It works without electricity | It is faster. · A computer looks up the price. · Scanners need power. | Automatic capture is quick and accurate. |
+| Which is a disadvantage of biometric attendance systems? | They store personal data that must be protected and can fail with dirty or injured fingers | They are always slower than paper · They never need power · They cannot identify anyone | They are usually faster. · They need power. · They identify people well. | Privacy and reliability must be considered. |
+| Why do banks use chip-and-PIN cards instead of only magnetic stripes? | The chip is harder to copy, and the PIN proves the user | Chips are cheaper than paper · Stripes hold more money · PINs make cards heavier | Cost is not the reason. · Cards do not hold money physically. · Weight is irrelevant. | Better security against fraud. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do banks use chip-and-PIN cards instead of only magnetic stripes?
+
+- ◻️ Chips are cheaper than paper  
+  _↳ feedback if chosen: Cost is not the reason._
+- ✅ The chip is harder to copy, and the PIN proves the user
+- ◻️ PINs make cards heavier  
+  _↳ feedback if chosen: Weight is irrelevant._
+- ◻️ Stripes hold more money  
+  _↳ feedback if chosen: Cards do not hold money physically._
+
+Full working after a second miss:
+
+> Better security against fraud.  
+> So the answer is The chip is harder to copy, and the PIN proves the user.  
+
+> Why do banks use chip-and-PIN cards instead of only magnetic stripes?
+
+- ◻️ Chips are cheaper than paper  
+  _↳ feedback if chosen: Cost is not the reason._
+- ◻️ Stripes hold more money  
+  _↳ feedback if chosen: Cards do not hold money physically._
+- ◻️ PINs make cards heavier  
+  _↳ feedback if chosen: Weight is irrelevant._
+- ✅ The chip is harder to copy, and the PIN proves the user
+
+Full working after a second miss:
+
+> Better security against fraud.  
+> So the answer is The chip is harder to copy, and the PIN proves the user.  
+
+> Which is a disadvantage of biometric attendance systems?
+
+- ◻️ They cannot identify anyone  
+  _↳ feedback if chosen: They identify people well._
+- ◻️ They are always slower than paper  
+  _↳ feedback if chosen: They are usually faster._
+- ◻️ They never need power  
+  _↳ feedback if chosen: They need power._
+- ✅ They store personal data that must be protected and can fail with dirty or injured fingers
+
+Full working after a second miss:
+
+> Privacy and reliability must be considered.  
+> So the answer is They store personal data that must be protected and can fail with dirty or injured fingers.  
+
+Sources: data-capture (Form 3 Computer Science syllabus, Term 1: data capture technologies)
+
+### `s3-15-best` · Lesson 15 · multiple choice, level 3
+
+Prompt: Which method is best? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Recording the temperature of a vaccine fridge every 10 minutes, day and night | a temperature sensor with data logging | a person writing it down · OMR forms · a barcode reader | A person cannot do it all night reliably. · OMR is for marked forms. · Barcodes identify products. | Sensors record automatically and continuously. |
+| Charging motorists at a toll gate without stopping | RFID tags on the vehicles | MICR · OCR of handwritten notes · OMR sheets | MICR is for cheques. · Handwriting is slow and unreliable. · OMR needs forms. | RFID is read at a distance. |
+| Turning an old printed school register into a computer document | scanning with OCR | RFID · biometrics · MICR | RFID reads tags. · Biometrics identify people. · MICR reads magnetic ink. | OCR converts printed text. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which method is best? Turning an old printed school register into a computer document
+
+- ◻️ RFID  
+  _↳ feedback if chosen: RFID reads tags._
+- ✅ scanning with OCR
+- ◻️ MICR  
+  _↳ feedback if chosen: MICR reads magnetic ink._
+- ◻️ biometrics  
+  _↳ feedback if chosen: Biometrics identify people._
+
+Full working after a second miss:
+
+> OCR converts printed text.  
+> So the answer is scanning with OCR.  
+
+> Which method is best? Charging motorists at a toll gate without stopping
+
+- ◻️ OCR of handwritten notes  
+  _↳ feedback if chosen: Handwriting is slow and unreliable._
+- ✅ RFID tags on the vehicles
+- ◻️ OMR sheets  
+  _↳ feedback if chosen: OMR needs forms._
+- ◻️ MICR  
+  _↳ feedback if chosen: MICR is for cheques._
+
+Full working after a second miss:
+
+> RFID is read at a distance.  
+> So the answer is RFID tags on the vehicles.  
+
+> Which method is best? Turning an old printed school register into a computer document
+
+- ✅ scanning with OCR
+- ◻️ MICR  
+  _↳ feedback if chosen: MICR reads magnetic ink._
+- ◻️ biometrics  
+  _↳ feedback if chosen: Biometrics identify people._
+- ◻️ RFID  
+  _↳ feedback if chosen: RFID reads tags._
+
+Full working after a second miss:
+
+> OCR converts printed text.  
+> So the answer is scanning with OCR.  
+
+Sources: data-capture (Form 3 Computer Science syllabus, Term 1: data capture technologies)
+
+### `s3-15-why-card` · Lesson 15 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is scanning barcodes better than typing product codes at a till? | It is faster and reduces typing errors | It is slower but prettier · It needs no computer · It works without electricity | It is faster. · A computer looks up the price. · Scanners need power. | Automatic capture is quick and accurate. |
+| Which is a disadvantage of biometric attendance systems? | They store personal data that must be protected and can fail with dirty or injured fingers | They are always slower than paper · They never need power · They cannot identify anyone | They are usually faster. · They need power. · They identify people well. | Privacy and reliability must be considered. |
+| Why do banks use chip-and-PIN cards instead of only magnetic stripes? | The chip is harder to copy, and the PIN proves the user | Chips are cheaper than paper · Stripes hold more money · PINs make cards heavier | Cost is not the reason. · Cards do not hold money physically. · Weight is irrelevant. | Better security against fraud. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do banks use chip-and-PIN cards instead of only magnetic stripes?
+
+- ◻️ Stripes hold more money  
+  _↳ feedback if chosen: Cards do not hold money physically._
+- ◻️ PINs make cards heavier  
+  _↳ feedback if chosen: Weight is irrelevant._
+- ◻️ Chips are cheaper than paper  
+  _↳ feedback if chosen: Cost is not the reason._
+- ✅ The chip is harder to copy, and the PIN proves the user
+
+Full working after a second miss:
+
+> Better security against fraud.  
+> So the answer is The chip is harder to copy, and the PIN proves the user.  
+
+> Why is scanning barcodes better than typing product codes at a till?
+
+- ◻️ It works without electricity  
+  _↳ feedback if chosen: Scanners need power._
+- ◻️ It is slower but prettier  
+  _↳ feedback if chosen: It is faster._
+- ◻️ It needs no computer  
+  _↳ feedback if chosen: A computer looks up the price._
+- ✅ It is faster and reduces typing errors
+
+Full working after a second miss:
+
+> Automatic capture is quick and accurate.  
+> So the answer is It is faster and reduces typing errors.  
+
+> Which is a disadvantage of biometric attendance systems?
+
+- ◻️ They cannot identify anyone  
+  _↳ feedback if chosen: They identify people well._
+- ✅ They store personal data that must be protected and can fail with dirty or injured fingers
+- ◻️ They are always slower than paper  
+  _↳ feedback if chosen: They are usually faster._
+- ◻️ They never need power  
+  _↳ feedback if chosen: They need power._
+
+Full working after a second miss:
+
+> Privacy and reliability must be considered.  
+> So the answer is They store personal data that must be protected and can fail with dirty or injured fingers.  
+
+Sources: data-capture (Form 3 Computer Science syllabus, Term 1: data capture technologies)
+
+### `s3-16-vv` · Lesson 16 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is validation? | An automatic check that data is sensible and allowed | Proof that data is correct · Copying data twice · Printing the data | Sensible data can still be wrong. · That is double-entry verification. · Printing is output. | Validation rejects impossible data. |
+| What is verification? | Checking that data has been copied or entered correctly | Checking that data is within a range · Deleting old data · Encrypting data | That is a validation range check. · Not related. · That is security. | Double entry or comparing with the original. |
+| A pupil's age is entered as 14 instead of 15. Validation accepts it. Why? | 14 is a sensible age, so validation cannot tell it is wrong | Validation is broken · Ages are never checked · 14 is not a number | It worked as designed. · A range check was applied. · It is a number. | Validation checks sense, not truth: verification catches copying errors. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A pupil's age is entered as 14 instead of 15. Validation accepts it. Why?
+
+- ◻️ Validation is broken  
+  _↳ feedback if chosen: It worked as designed._
+- ◻️ Ages are never checked  
+  _↳ feedback if chosen: A range check was applied._
+- ✅ 14 is a sensible age, so validation cannot tell it is wrong
+- ◻️ 14 is not a number  
+  _↳ feedback if chosen: It is a number._
+
+Full working after a second miss:
+
+> Validation checks sense, not truth: verification catches copying errors.  
+> So the answer is 14 is a sensible age, so validation cannot tell it is wrong.  
+
+> A pupil's age is entered as 14 instead of 15. Validation accepts it. Why?
+
+- ◻️ 14 is not a number  
+  _↳ feedback if chosen: It is a number._
+- ◻️ Ages are never checked  
+  _↳ feedback if chosen: A range check was applied._
+- ◻️ Validation is broken  
+  _↳ feedback if chosen: It worked as designed._
+- ✅ 14 is a sensible age, so validation cannot tell it is wrong
+
+Full working after a second miss:
+
+> Validation checks sense, not truth: verification catches copying errors.  
+> So the answer is 14 is a sensible age, so validation cannot tell it is wrong.  
+
+> A pupil's age is entered as 14 instead of 15. Validation accepts it. Why?
+
+- ◻️ Validation is broken  
+  _↳ feedback if chosen: It worked as designed._
+- ◻️ 14 is not a number  
+  _↳ feedback if chosen: It is a number._
+- ◻️ Ages are never checked  
+  _↳ feedback if chosen: A range check was applied._
+- ✅ 14 is a sensible age, so validation cannot tell it is wrong
+
+Full working after a second miss:
+
+> Validation checks sense, not truth: verification catches copying errors.  
+> So the answer is 14 is a sensible age, so validation cannot tell it is wrong.  
+
+Sources: data-capture (Form 3 Computer Science syllabus, Term 1: data capture technologies)
+
+### `s3-16-check` · Lesson 16 · multiple choice, level 1
+
+Prompt: Which validation check is this? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A mark must be between 0 and 20. | range check | length check · type check · presence check | Length counts characters. · Type checks numbers vs text. · Presence checks a field is not empty. | Limits on the value: range check. |
+| The 'surname' box cannot be left empty. | presence check | range check · format check · type check | No limits on value. · No pattern is required. · Not about number vs text. | Something must be entered. |
+| A phone number must contain exactly 9 digits. | length check | range check · presence check · spell check | It is the number of characters that matters. · It is more than just not empty. · Not about spelling. | Counting characters: length check. |
+| A date must be written DD/MM/YYYY. | format check | length check · presence check · range check | The pattern matters, not just the length. · More than presence. · Not just limits. | A required pattern: format check. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which validation check is this? A mark must be between 0 and 20.
+
+- ◻️ length check  
+  _↳ feedback if chosen: Length counts characters._
+- ◻️ type check  
+  _↳ feedback if chosen: Type checks numbers vs text._
+- ✅ range check
+- ◻️ presence check  
+  _↳ feedback if chosen: Presence checks a field is not empty._
+
+Full working after a second miss:
+
+> Limits on the value: range check.  
+> So the answer is range check.  
+
+> Which validation check is this? The 'surname' box cannot be left empty.
+
+- ◻️ range check  
+  _↳ feedback if chosen: No limits on value._
+- ✅ presence check
+- ◻️ format check  
+  _↳ feedback if chosen: No pattern is required._
+- ◻️ type check  
+  _↳ feedback if chosen: Not about number vs text._
+
+Full working after a second miss:
+
+> Something must be entered.  
+> So the answer is presence check.  
+
+> Which validation check is this? The 'surname' box cannot be left empty.
+
+- ◻️ type check  
+  _↳ feedback if chosen: Not about number vs text._
+- ✅ presence check
+- ◻️ format check  
+  _↳ feedback if chosen: No pattern is required._
+- ◻️ range check  
+  _↳ feedback if chosen: No limits on value._
+
+Full working after a second miss:
+
+> Something must be entered.  
+> So the answer is presence check.  
+
+Sources: data-capture (Form 3 Computer Science syllabus, Term 1: data capture technologies)
+
+### `s3-16-form` · Lesson 16 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a feature of a well-designed data capture form? | Separate boxes for each character and tick boxes for choices | One large box for all the answers · Questions with no instructions · Very small writing to save paper | One box makes data hard to read and enter. · Instructions reduce mistakes. · Small writing causes errors. | Clear, structured forms reduce errors. |
+| Why might a researcher use a questionnaire instead of sensors? | To collect people's opinions, which sensors cannot measure | Questionnaires are always faster · Sensors cannot measure temperature · Questionnaires need no reading | They are often slower. · Sensors measure temperature well. · People must read them. | Opinions and personal information need questions. |
+| Why is data logging better than a person taking readings for a week? | It works continuously and accurately without breaks | It is always cheaper than everything · It never needs power · It makes the weather better | Equipment has costs. · Loggers need batteries or power. · It only records. | No missed readings, no tired observer. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a feature of a well-designed data capture form?
+
+- ✅ Separate boxes for each character and tick boxes for choices
+- ◻️ Very small writing to save paper  
+  _↳ feedback if chosen: Small writing causes errors._
+- ◻️ Questions with no instructions  
+  _↳ feedback if chosen: Instructions reduce mistakes._
+- ◻️ One large box for all the answers  
+  _↳ feedback if chosen: One box makes data hard to read and enter._
+
+Full working after a second miss:
+
+> Clear, structured forms reduce errors.  
+> So the answer is Separate boxes for each character and tick boxes for choices.  
+
+> Which is a feature of a well-designed data capture form?
+
+- ✅ Separate boxes for each character and tick boxes for choices
+- ◻️ One large box for all the answers  
+  _↳ feedback if chosen: One box makes data hard to read and enter._
+- ◻️ Questions with no instructions  
+  _↳ feedback if chosen: Instructions reduce mistakes._
+- ◻️ Very small writing to save paper  
+  _↳ feedback if chosen: Small writing causes errors._
+
+Full working after a second miss:
+
+> Clear, structured forms reduce errors.  
+> So the answer is Separate boxes for each character and tick boxes for choices.  
+
+> Which is a feature of a well-designed data capture form?
+
+- ◻️ Very small writing to save paper  
+  _↳ feedback if chosen: Small writing causes errors._
+- ✅ Separate boxes for each character and tick boxes for choices
+- ◻️ One large box for all the answers  
+  _↳ feedback if chosen: One box makes data hard to read and enter._
+- ◻️ Questions with no instructions  
+  _↳ feedback if chosen: Instructions reduce mistakes._
+
+Full working after a second miss:
+
+> Clear, structured forms reduce errors.  
+> So the answer is Separate boxes for each character and tick boxes for choices.  
+
+Sources: data-capture (Form 3 Computer Science syllabus, Term 1: data capture technologies)
+
+### `s3-18-order` · Lesson 18 · ordering, level 1
+
+Prompt: Put the stages of the program development life cycle in order.
+
+Items in the right order:
+
+1. Analysis
+2. Design
+3. Coding
+4. Testing
+5. Implementation
+6. Maintenance
+
+
+Three generated variants:
+
+> Put the stages of the program development life cycle in order.
+
+Shown as: Maintenance · Coding · Analysis · Design · Testing · Implementation
+Correct order: Analysis → Design → Coding → Testing → Implementation → Maintenance
+
+Hint (draft): Understand, plan, write, check, install, look after.
+
+Full working after a second miss:
+
+> The correct order is: Analysis → Design → Coding → Testing → Implementation → Maintenance.  
+
+> Put the stages of the program development life cycle in order.
+
+Shown as: Implementation · Maintenance · Testing · Coding · Analysis · Design
+Correct order: Analysis → Design → Coding → Testing → Implementation → Maintenance
+
+Hint (draft): Understand, plan, write, check, install, look after.
+
+Full working after a second miss:
+
+> The correct order is: Analysis → Design → Coding → Testing → Implementation → Maintenance.  
+
+> Put the stages of the program development life cycle in order.
+
+Shown as: Implementation · Analysis · Coding · Maintenance · Design · Testing
+Correct order: Analysis → Design → Coding → Testing → Implementation → Maintenance
+
+Hint (draft): Understand, plan, write, check, install, look after.
+
+Full working after a second miss:
+
+> The correct order is: Analysis → Design → Coding → Testing → Implementation → Maintenance.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-18-stage` · Lesson 18 · multiple choice, level 1
+
+Prompt: Which stage is this? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Programmers draw a flowchart of the solution. | design | analysis · coding · maintenance | Analysis finds the requirements. · Coding writes the program. · Maintenance comes after release. | Planning the solution is design. |
+| The program is updated a year later to add a new feature. | maintenance | testing · analysis · coding | Testing is before release. · Analysis is at the start. · Coding is the first writing of the program. | Changes after release are maintenance. |
+| The team writes instructions in Python. | coding | design · implementation · analysis | Design plans; it does not write the language. · Implementation installs the finished program. · Analysis studies the problem. | Writing program code is coding. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which stage is this? Programmers draw a flowchart of the solution.
+
+- ◻️ analysis  
+  _↳ feedback if chosen: Analysis finds the requirements._
+- ◻️ coding  
+  _↳ feedback if chosen: Coding writes the program._
+- ✅ design
+- ◻️ maintenance  
+  _↳ feedback if chosen: Maintenance comes after release._
+
+Full working after a second miss:
+
+> Planning the solution is design.  
+> So the answer is design.  
+
+> Which stage is this? The program is updated a year later to add a new feature.
+
+- ◻️ analysis  
+  _↳ feedback if chosen: Analysis is at the start._
+- ✅ maintenance
+- ◻️ coding  
+  _↳ feedback if chosen: Coding is the first writing of the program._
+- ◻️ testing  
+  _↳ feedback if chosen: Testing is before release._
+
+Full working after a second miss:
+
+> Changes after release are maintenance.  
+> So the answer is maintenance.  
+
+> Which stage is this? Programmers draw a flowchart of the solution.
+
+- ◻️ analysis  
+  _↳ feedback if chosen: Analysis finds the requirements._
+- ◻️ maintenance  
+  _↳ feedback if chosen: Maintenance comes after release._
+- ✅ design
+- ◻️ coding  
+  _↳ feedback if chosen: Coding writes the program._
+
+Full working after a second miss:
+
+> Planning the solution is design.  
+> So the answer is design.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-18-test` · Lesson 18 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A program accepts marks from 0 to 20. Which is boundary test data? | 20 | 12 · -5 · abc | 12 is normal data. · -5 is erroneous (out of range). · abc is erroneous (wrong type). | Boundary data is at the edge of the allowed range. |
+| Which is erroneous test data for the same program? | 25 | 0 · 10 · 20 | 0 is a boundary value. · 10 is normal. · 20 is a boundary value. | Erroneous data should be rejected. |
+| Why do programmers test with erroneous data? | To check the program rejects bad data correctly | To make it crash on purpose for fun · Because normal data is never used · To slow the program down | It is to check robustness. · Normal data is also tested. · Speed is not the aim. | Good programs handle mistakes safely. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do programmers test with erroneous data?
+
+- ✅ To check the program rejects bad data correctly
+- ◻️ Because normal data is never used  
+  _↳ feedback if chosen: Normal data is also tested._
+- ◻️ To make it crash on purpose for fun  
+  _↳ feedback if chosen: It is to check robustness._
+- ◻️ To slow the program down  
+  _↳ feedback if chosen: Speed is not the aim._
+
+Full working after a second miss:
+
+> Good programs handle mistakes safely.  
+> So the answer is To check the program rejects bad data correctly.  
+
+> Why do programmers test with erroneous data?
+
+- ◻️ Because normal data is never used  
+  _↳ feedback if chosen: Normal data is also tested._
+- ✅ To check the program rejects bad data correctly
+- ◻️ To make it crash on purpose for fun  
+  _↳ feedback if chosen: It is to check robustness._
+- ◻️ To slow the program down  
+  _↳ feedback if chosen: Speed is not the aim._
+
+Full working after a second miss:
+
+> Good programs handle mistakes safely.  
+> So the answer is To check the program rejects bad data correctly.  
+
+> Why do programmers test with erroneous data?
+
+- ◻️ To slow the program down  
+  _↳ feedback if chosen: Speed is not the aim._
+- ✅ To check the program rejects bad data correctly
+- ◻️ To make it crash on purpose for fun  
+  _↳ feedback if chosen: It is to check robustness._
+- ◻️ Because normal data is never used  
+  _↳ feedback if chosen: Normal data is also tested._
+
+Full working after a second miss:
+
+> Good programs handle mistakes safely.  
+> So the answer is To check the program rejects bad data correctly.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-18-why` · Lesson 18 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is analysis done before coding? | To understand exactly what the program must do, so effort is not wasted | Because coding is easy · Analysis is optional · To choose the colour of the screen only | Coding without understanding leads to the wrong program. · Skipping it causes problems. · It covers much more. | A clear problem statement guides everything after. |
+| Why is maintenance part of the cycle? | Users find errors and needs change after the program is released | Programs never change · It replaces testing · It is the first stage | They often need updates. · Testing still happens before release. · It is the last stage. | Software is updated throughout its life. |
+| What is debugging? | Finding and fixing errors in a program | Removing insects from the computer · Writing the user guide · Installing the program | The name comes from that story, but it means fixing errors. · That is documentation. · That is implementation. | Debugging happens mainly during testing. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is analysis done before coding?
+
+- ◻️ Analysis is optional  
+  _↳ feedback if chosen: Skipping it causes problems._
+- ◻️ Because coding is easy  
+  _↳ feedback if chosen: Coding without understanding leads to the wrong program._
+- ✅ To understand exactly what the program must do, so effort is not wasted
+- ◻️ To choose the colour of the screen only  
+  _↳ feedback if chosen: It covers much more._
+
+Full working after a second miss:
+
+> A clear problem statement guides everything after.  
+> So the answer is To understand exactly what the program must do, so effort is not wasted.  
+
+> Why is maintenance part of the cycle?
+
+- ◻️ Programs never change  
+  _↳ feedback if chosen: They often need updates._
+- ◻️ It is the first stage  
+  _↳ feedback if chosen: It is the last stage._
+- ◻️ It replaces testing  
+  _↳ feedback if chosen: Testing still happens before release._
+- ✅ Users find errors and needs change after the program is released
+
+Full working after a second miss:
+
+> Software is updated throughout its life.  
+> So the answer is Users find errors and needs change after the program is released.  
+
+> Why is analysis done before coding?
+
+- ◻️ Analysis is optional  
+  _↳ feedback if chosen: Skipping it causes problems._
+- ✅ To understand exactly what the program must do, so effort is not wasted
+- ◻️ Because coding is easy  
+  _↳ feedback if chosen: Coding without understanding leads to the wrong program._
+- ◻️ To choose the colour of the screen only  
+  _↳ feedback if chosen: It covers much more._
+
+Full working after a second miss:
+
+> A clear problem statement guides everything after.  
+> So the answer is To understand exactly what the program must do, so effort is not wasted.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-18-test-card` · Lesson 18 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A program accepts marks from 0 to 20. Which is boundary test data? | 20 | 12 · -5 · abc | 12 is normal data. · -5 is erroneous (out of range). · abc is erroneous (wrong type). | Boundary data is at the edge of the allowed range. |
+| Which is erroneous test data for the same program? | 25 | 0 · 10 · 20 | 0 is a boundary value. · 10 is normal. · 20 is a boundary value. | Erroneous data should be rejected. |
+| Why do programmers test with erroneous data? | To check the program rejects bad data correctly | To make it crash on purpose for fun · Because normal data is never used · To slow the program down | It is to check robustness. · Normal data is also tested. · Speed is not the aim. | Good programs handle mistakes safely. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A program accepts marks from 0 to 20. Which is boundary test data?
+
+- ✅ 20
+- ◻️ 12  
+  _↳ feedback if chosen: 12 is normal data._
+- ◻️ -5  
+  _↳ feedback if chosen: -5 is erroneous (out of range)._
+- ◻️ abc  
+  _↳ feedback if chosen: abc is erroneous (wrong type)._
+
+Full working after a second miss:
+
+> Boundary data is at the edge of the allowed range.  
+> So the answer is 20.  
+
+> A program accepts marks from 0 to 20. Which is boundary test data?
+
+- ◻️ -5  
+  _↳ feedback if chosen: -5 is erroneous (out of range)._
+- ◻️ 12  
+  _↳ feedback if chosen: 12 is normal data._
+- ✅ 20
+- ◻️ abc  
+  _↳ feedback if chosen: abc is erroneous (wrong type)._
+
+Full working after a second miss:
+
+> Boundary data is at the edge of the allowed range.  
+> So the answer is 20.  
+
+> A program accepts marks from 0 to 20. Which is boundary test data?
+
+- ◻️ 12  
+  _↳ feedback if chosen: 12 is normal data._
+- ◻️ -5  
+  _↳ feedback if chosen: -5 is erroneous (out of range)._
+- ✅ 20
+- ◻️ abc  
+  _↳ feedback if chosen: abc is erroneous (wrong type)._
+
+Full working after a second miss:
+
+> Boundary data is at the edge of the allowed range.  
+> So the answer is 20.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-19-decomp` · Lesson 19 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is decomposition? | Breaking a problem into smaller, easier sub-problems | Letting a problem rot · Writing a program in one long line · Deleting parts of a program | Not in computing. · That is the opposite. · It is about planning, not deleting. | Small parts are easier to understand, solve and test. |
+| Which is a good sub-problem of 'run a school shop'? | Record the daily sales | Do everything · Buy a computer game · Go on holiday | That is the whole problem. · Not part of running the shop. · Not part of the problem. | A sub-problem is one clear part of the whole. |
+| Why does decomposition help teams of programmers? | Different people can work on different parts at the same time | It means no one needs to test · It makes programs longer for no reason · It removes the need for design | Each part must still be tested. · Clarity, not length, is the aim. · It is part of design. | Smaller tasks can be shared out. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a good sub-problem of 'run a school shop'?
+
+- ◻️ Go on holiday  
+  _↳ feedback if chosen: Not part of the problem._
+- ✅ Record the daily sales
+- ◻️ Buy a computer game  
+  _↳ feedback if chosen: Not part of running the shop._
+- ◻️ Do everything  
+  _↳ feedback if chosen: That is the whole problem._
+
+Full working after a second miss:
+
+> A sub-problem is one clear part of the whole.  
+> So the answer is Record the daily sales.  
+
+> Which is a good sub-problem of 'run a school shop'?
+
+- ◻️ Buy a computer game  
+  _↳ feedback if chosen: Not part of running the shop._
+- ◻️ Do everything  
+  _↳ feedback if chosen: That is the whole problem._
+- ◻️ Go on holiday  
+  _↳ feedback if chosen: Not part of the problem._
+- ✅ Record the daily sales
+
+Full working after a second miss:
+
+> A sub-problem is one clear part of the whole.  
+> So the answer is Record the daily sales.  
+
+> Which is a good sub-problem of 'run a school shop'?
+
+- ◻️ Buy a computer game  
+  _↳ feedback if chosen: Not part of running the shop._
+- ✅ Record the daily sales
+- ◻️ Go on holiday  
+  _↳ feedback if chosen: Not part of the problem._
+- ◻️ Do everything  
+  _↳ feedback if chosen: That is the whole problem._
+
+Full working after a second miss:
+
+> A sub-problem is one clear part of the whole.  
+> So the answer is Record the daily sales.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-19-ipo` · Lesson 19 · multiple choice, level 1
+
+Prompt: In 'calculate the area of a rectangle and display it', which is the {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| input | the length and the width | length × width · showing the area on the screen · the rectangle's colour | That is the process. · That is the output. · Colour is not needed. | Inputs are the data the program needs. |
+| process | multiplying length by width | typing the length · displaying the answer · turning on the computer | That is input. · That is output. · Not part of the algorithm. | Processing changes inputs into results. |
+| output | displaying the area | entering the width · multiplying the numbers · saving the keyboard | That is input. · That is processing. · Not meaningful. | Outputs are the results shown or stored. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In 'calculate the area of a rectangle and display it', which is the output?
+
+- ✅ displaying the area
+- ◻️ multiplying the numbers  
+  _↳ feedback if chosen: That is processing._
+- ◻️ entering the width  
+  _↳ feedback if chosen: That is input._
+- ◻️ saving the keyboard  
+  _↳ feedback if chosen: Not meaningful._
+
+Full working after a second miss:
+
+> Outputs are the results shown or stored.  
+> So the answer is displaying the area.  
+
+> In 'calculate the area of a rectangle and display it', which is the process?
+
+- ◻️ typing the length  
+  _↳ feedback if chosen: That is input._
+- ◻️ turning on the computer  
+  _↳ feedback if chosen: Not part of the algorithm._
+- ◻️ displaying the answer  
+  _↳ feedback if chosen: That is output._
+- ✅ multiplying length by width
+
+Full working after a second miss:
+
+> Processing changes inputs into results.  
+> So the answer is multiplying length by width.  
+
+> In 'calculate the area of a rectangle and display it', which is the input?
+
+- ◻️ length × width  
+  _↳ feedback if chosen: That is the process._
+- ✅ the length and the width
+- ◻️ showing the area on the screen  
+  _↳ feedback if chosen: That is the output._
+- ◻️ the rectangle's colour  
+  _↳ feedback if chosen: Colour is not needed._
+
+Full working after a second miss:
+
+> Inputs are the data the program needs.  
+> So the answer is the length and the width.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-19-rep` · Lesson 19 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is pseudocode? | A structured, English-like way of writing an algorithm | A real programming language that runs · A drawing with shapes · A secret code | It does not run on a computer. · That is a flowchart. · It is meant to be easy to read. | It lets you plan without worrying about a language's rules. |
+| What does a structure diagram show? | How a problem is broken into sub-problems | The colours of a program's screens · The wiring inside a computer · A list of test results | That is screen design. · That is hardware. · That is a test log. | A top-down view of the decomposition. |
+| Which way of representing a solution uses standard symbols joined by arrows? | a flowchart | pseudocode · a paragraph · a spreadsheet | Pseudocode uses text. · A paragraph is plain prose. · A spreadsheet is application software. | Ovals, rectangles, diamonds and parallelograms. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does a structure diagram show?
+
+- ◻️ The wiring inside a computer  
+  _↳ feedback if chosen: That is hardware._
+- ✅ How a problem is broken into sub-problems
+- ◻️ The colours of a program's screens  
+  _↳ feedback if chosen: That is screen design._
+- ◻️ A list of test results  
+  _↳ feedback if chosen: That is a test log._
+
+Full working after a second miss:
+
+> A top-down view of the decomposition.  
+> So the answer is How a problem is broken into sub-problems.  
+
+> What is pseudocode?
+
+- ◻️ A drawing with shapes  
+  _↳ feedback if chosen: That is a flowchart._
+- ◻️ A secret code  
+  _↳ feedback if chosen: It is meant to be easy to read._
+- ✅ A structured, English-like way of writing an algorithm
+- ◻️ A real programming language that runs  
+  _↳ feedback if chosen: It does not run on a computer._
+
+Full working after a second miss:
+
+> It lets you plan without worrying about a language's rules.  
+> So the answer is A structured, English-like way of writing an algorithm.  
+
+> Which way of representing a solution uses standard symbols joined by arrows?
+
+- ◻️ pseudocode  
+  _↳ feedback if chosen: Pseudocode uses text._
+- ✅ a flowchart
+- ◻️ a paragraph  
+  _↳ feedback if chosen: A paragraph is plain prose._
+- ◻️ a spreadsheet  
+  _↳ feedback if chosen: A spreadsheet is application software._
+
+Full working after a second miss:
+
+> Ovals, rectangles, diamonds and parallelograms.  
+> So the answer is a flowchart.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-19-avg` · Lesson 19 · ordering, level 3
+
+Prompt: Put the steps of an algorithm to find the average of three marks in order.
+
+Items in the right order:
+
+1. Start
+2. Input the three marks
+3. Add the marks to get the total
+4. Divide the total by three
+5. Output the average
+6. Stop
+
+
+Three generated variants:
+
+> Put the steps of an algorithm to find the average of three marks in order.
+
+Shown as: Input the three marks · Add the marks to get the total · Output the average · Start · Stop · Divide the total by three
+Correct order: Start → Input the three marks → Add the marks to get the total → Divide the total by three → Output the average → Stop
+
+Hint (draft): Input, process, output, between start and stop.
+
+Full working after a second miss:
+
+> The correct order is: Start → Input the three marks → Add the marks to get the total → Divide the total by three → Output the average → Stop.  
+
+> Put the steps of an algorithm to find the average of three marks in order.
+
+Shown as: Divide the total by three · Start · Output the average · Add the marks to get the total · Stop · Input the three marks
+Correct order: Start → Input the three marks → Add the marks to get the total → Divide the total by three → Output the average → Stop
+
+Hint (draft): Input, process, output, between start and stop.
+
+Full working after a second miss:
+
+> The correct order is: Start → Input the three marks → Add the marks to get the total → Divide the total by three → Output the average → Stop.  
+
+> Put the steps of an algorithm to find the average of three marks in order.
+
+Shown as: Divide the total by three · Input the three marks · Add the marks to get the total · Stop · Start · Output the average
+Correct order: Start → Input the three marks → Add the marks to get the total → Divide the total by three → Output the average → Stop
+
+Hint (draft): Input, process, output, between start and stop.
+
+Full working after a second miss:
+
+> The correct order is: Start → Input the three marks → Add the marks to get the total → Divide the total by three → Output the average → Stop.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-19-rep-card` · Lesson 19 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is pseudocode? | A structured, English-like way of writing an algorithm | A real programming language that runs · A drawing with shapes · A secret code | It does not run on a computer. · That is a flowchart. · It is meant to be easy to read. | It lets you plan without worrying about a language's rules. |
+| What does a structure diagram show? | How a problem is broken into sub-problems | The colours of a program's screens · The wiring inside a computer · A list of test results | That is screen design. · That is hardware. · That is a test log. | A top-down view of the decomposition. |
+| Which way of representing a solution uses standard symbols joined by arrows? | a flowchart | pseudocode · a paragraph · a spreadsheet | Pseudocode uses text. · A paragraph is plain prose. · A spreadsheet is application software. | Ovals, rectangles, diamonds and parallelograms. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which way of representing a solution uses standard symbols joined by arrows?
+
+- ✅ a flowchart
+- ◻️ pseudocode  
+  _↳ feedback if chosen: Pseudocode uses text._
+- ◻️ a spreadsheet  
+  _↳ feedback if chosen: A spreadsheet is application software._
+- ◻️ a paragraph  
+  _↳ feedback if chosen: A paragraph is plain prose._
+
+Full working after a second miss:
+
+> Ovals, rectangles, diamonds and parallelograms.  
+> So the answer is a flowchart.  
+
+> What does a structure diagram show?
+
+- ◻️ The wiring inside a computer  
+  _↳ feedback if chosen: That is hardware._
+- ◻️ A list of test results  
+  _↳ feedback if chosen: That is a test log._
+- ◻️ The colours of a program's screens  
+  _↳ feedback if chosen: That is screen design._
+- ✅ How a problem is broken into sub-problems
+
+Full working after a second miss:
+
+> A top-down view of the decomposition.  
+> So the answer is How a problem is broken into sub-problems.  
+
+> What is pseudocode?
+
+- ◻️ A drawing with shapes  
+  _↳ feedback if chosen: That is a flowchart._
+- ◻️ A real programming language that runs  
+  _↳ feedback if chosen: It does not run on a computer._
+- ✅ A structured, English-like way of writing an algorithm
+- ◻️ A secret code  
+  _↳ feedback if chosen: It is meant to be easy to read._
+
+Full working after a second miss:
+
+> It lets you plan without worrying about a language's rules.  
+> So the answer is A structured, English-like way of writing an algorithm.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-20-def` · Lesson 20 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is an algorithm? | A finite, ordered set of clear steps to solve a problem | A type of computer · A programming language · A random list of ideas | Hardware is not an algorithm. · Languages are used to code algorithms. · The steps must be ordered and clear. | Algorithms can be followed by people or computers. |
+| Which is an example of an algorithm in daily life? | the steps to send money with mobile money | a photograph · a song's tune · a football | A photo is not a set of steps. · A tune is not instructions. · An object is not a process. | Ordered steps that achieve a goal. |
+| Why must an algorithm be finite? | It must end after a number of steps and give a result | It must run forever · It must have exactly ten steps · It must use a computer | Then there would be no result. · Any number of steps is allowed, but it must end. · People can follow algorithms too. | An endless process never produces an answer. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is an algorithm?
+
+- ✅ A finite, ordered set of clear steps to solve a problem
+- ◻️ A type of computer  
+  _↳ feedback if chosen: Hardware is not an algorithm._
+- ◻️ A random list of ideas  
+  _↳ feedback if chosen: The steps must be ordered and clear._
+- ◻️ A programming language  
+  _↳ feedback if chosen: Languages are used to code algorithms._
+
+Full working after a second miss:
+
+> Algorithms can be followed by people or computers.  
+> So the answer is A finite, ordered set of clear steps to solve a problem.  
+
+> Which is an example of an algorithm in daily life?
+
+- ✅ the steps to send money with mobile money
+- ◻️ a photograph  
+  _↳ feedback if chosen: A photo is not a set of steps._
+- ◻️ a song's tune  
+  _↳ feedback if chosen: A tune is not instructions._
+- ◻️ a football  
+  _↳ feedback if chosen: An object is not a process._
+
+Full working after a second miss:
+
+> Ordered steps that achieve a goal.  
+> So the answer is the steps to send money with mobile money.  
+
+> What is an algorithm?
+
+- ◻️ A programming language  
+  _↳ feedback if chosen: Languages are used to code algorithms._
+- ◻️ A random list of ideas  
+  _↳ feedback if chosen: The steps must be ordered and clear._
+- ◻️ A type of computer  
+  _↳ feedback if chosen: Hardware is not an algorithm._
+- ✅ A finite, ordered set of clear steps to solve a problem
+
+Full working after a second miss:
+
+> Algorithms can be followed by people or computers.  
+> So the answer is A finite, ordered set of clear steps to solve a problem.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-20-prop` · Lesson 20 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which step is too ambiguous for an algorithm? | Cook the rice for a while. | Cook the rice for 20 minutes. · Add 2 cups of water. · Turn off the gas. | 20 minutes is clear. · 2 cups is clear. · That is clear. | 'A while' has no definite meaning. |
+| Why does the order of steps matter? | Doing steps in the wrong order can give a wrong result | It never matters · Computers sort the steps themselves · Only the first step matters | It does: you cannot drain rice before cooking it. · Computers follow the given order. · Every step matters. | Sequence is a key property. |
+| An algorithm has no output. What is wrong? | It gives no result, so it does not solve the problem | Nothing: outputs are optional · It is too short · It has too many inputs | A useful algorithm produces a result. · Length is not the problem. · Inputs are not the issue. | Algorithms must produce an output. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does the order of steps matter?
+
+- ◻️ Computers sort the steps themselves  
+  _↳ feedback if chosen: Computers follow the given order._
+- ✅ Doing steps in the wrong order can give a wrong result
+- ◻️ Only the first step matters  
+  _↳ feedback if chosen: Every step matters._
+- ◻️ It never matters  
+  _↳ feedback if chosen: It does: you cannot drain rice before cooking it._
+
+Full working after a second miss:
+
+> Sequence is a key property.  
+> So the answer is Doing steps in the wrong order can give a wrong result.  
+
+> An algorithm has no output. What is wrong?
+
+- ◻️ Nothing: outputs are optional  
+  _↳ feedback if chosen: A useful algorithm produces a result._
+- ✅ It gives no result, so it does not solve the problem
+- ◻️ It is too short  
+  _↳ feedback if chosen: Length is not the problem._
+- ◻️ It has too many inputs  
+  _↳ feedback if chosen: Inputs are not the issue._
+
+Full working after a second miss:
+
+> Algorithms must produce an output.  
+> So the answer is It gives no result, so it does not solve the problem.  
+
+> An algorithm has no output. What is wrong?
+
+- ◻️ Nothing: outputs are optional  
+  _↳ feedback if chosen: A useful algorithm produces a result._
+- ✅ It gives no result, so it does not solve the problem
+- ◻️ It has too many inputs  
+  _↳ feedback if chosen: Inputs are not the issue._
+- ◻️ It is too short  
+  _↳ feedback if chosen: Length is not the problem._
+
+Full working after a second miss:
+
+> Algorithms must produce an output.  
+> So the answer is It gives no result, so it does not solve the problem.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-21-kind` · Lesson 21 · multiple choice, level 2
+
+Prompt: Which kind of instruction is this? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| IF temperature > 30 THEN OUTPUT 'Hot' ENDIF | selection | iteration · assignment · input | Nothing is repeated. · No value is stored. · No data is read. | IF chooses a path. |
+| WHILE balance > 0 DO … ENDWHILE | iteration | selection · output · assignment | It repeats, not just chooses once. · It does not print. · It does not store a value by itself. | A loop repeats while the condition is true. |
+| total ← total + price | assignment | selection · iteration · output | No choice is made. · Nothing repeats here. · Nothing is displayed. | A new value is stored in total. |
+| INPUT name | input | output · selection · iteration | Nothing is displayed. · No choice is made. · Nothing repeats. | Data is read into the variable name. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which kind of instruction is this? total ← total + price
+
+- ◻️ iteration  
+  _↳ feedback if chosen: Nothing repeats here._
+- ✅ assignment
+- ◻️ selection  
+  _↳ feedback if chosen: No choice is made._
+- ◻️ output  
+  _↳ feedback if chosen: Nothing is displayed._
+
+Full working after a second miss:
+
+> A new value is stored in total.  
+> So the answer is assignment.  
+
+> Which kind of instruction is this? WHILE balance > 0 DO … ENDWHILE
+
+- ◻️ assignment  
+  _↳ feedback if chosen: It does not store a value by itself._
+- ◻️ output  
+  _↳ feedback if chosen: It does not print._
+- ✅ iteration
+- ◻️ selection  
+  _↳ feedback if chosen: It repeats, not just chooses once._
+
+Full working after a second miss:
+
+> A loop repeats while the condition is true.  
+> So the answer is iteration.  
+
+> Which kind of instruction is this? total ← total + price
+
+- ◻️ selection  
+  _↳ feedback if chosen: No choice is made._
+- ◻️ iteration  
+  _↳ feedback if chosen: Nothing repeats here._
+- ✅ assignment
+- ◻️ output  
+  _↳ feedback if chosen: Nothing is displayed._
+
+Full working after a second miss:
+
+> A new value is stored in total.  
+> So the answer is assignment.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-21-kind-card` · Lesson 21 · multiple choice, level 1
+
+Prompt: Which kind of instruction is this? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| IF temperature > 30 THEN OUTPUT 'Hot' ENDIF | selection | iteration · assignment · input | Nothing is repeated. · No value is stored. · No data is read. | IF chooses a path. |
+| WHILE balance > 0 DO … ENDWHILE | iteration | selection · output · assignment | It repeats, not just chooses once. · It does not print. · It does not store a value by itself. | A loop repeats while the condition is true. |
+| total ← total + price | assignment | selection · iteration · output | No choice is made. · Nothing repeats here. · Nothing is displayed. | A new value is stored in total. |
+| INPUT name | input | output · selection · iteration | Nothing is displayed. · No choice is made. · Nothing repeats. | Data is read into the variable name. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which kind of instruction is this? IF temperature > 30 THEN OUTPUT 'Hot' ENDIF
+
+- ✅ selection
+- ◻️ iteration  
+  _↳ feedback if chosen: Nothing is repeated._
+- ◻️ assignment  
+  _↳ feedback if chosen: No value is stored._
+- ◻️ input  
+  _↳ feedback if chosen: No data is read._
+
+Full working after a second miss:
+
+> IF chooses a path.  
+> So the answer is selection.  
+
+> Which kind of instruction is this? INPUT name
+
+- ✅ input
+- ◻️ selection  
+  _↳ feedback if chosen: No choice is made._
+- ◻️ output  
+  _↳ feedback if chosen: Nothing is displayed._
+- ◻️ iteration  
+  _↳ feedback if chosen: Nothing repeats._
+
+Full working after a second miss:
+
+> Data is read into the variable name.  
+> So the answer is input.  
+
+> Which kind of instruction is this? total ← total + price
+
+- ◻️ output  
+  _↳ feedback if chosen: Nothing is displayed._
+- ✅ assignment
+- ◻️ selection  
+  _↳ feedback if chosen: No choice is made._
+- ◻️ iteration  
+  _↳ feedback if chosen: Nothing repeats here._
+
+Full working after a second miss:
+
+> A new value is stored in total.  
+> So the answer is assignment.  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-22-symbol` · Lesson 22 · multiple choice, level 1
+
+Prompt: Which flowchart symbol is used for this? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| 'Is the number greater than 50?' | diamond (decision) | rectangle (process) · parallelogram (input/output) · oval (terminal) | A process does a calculation. · Input/output reads or shows data. · Terminals are Start and Stop. | A yes/no question is a decision. |
+| 'Read the price' | parallelogram (input/output) | diamond (decision) · rectangle (process) · oval (terminal) | No question is asked. · Reading data is input. · It is not Start or Stop. | Input and output use parallelograms. |
+| 'total ← price × quantity' | rectangle (process) | parallelogram (input/output) · diamond (decision) · oval (terminal) | Nothing is read or shown. · No question is asked. · It is not Start or Stop. | Calculations are processes. |
+| 'Start' | oval (terminal) | rectangle (process) · diamond (decision) · parallelogram (input/output) | Not a calculation. · Not a question. · Not input or output. | Start and Stop are terminals. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which flowchart symbol is used for this? 'Start'
+
+- ◻️ rectangle (process)  
+  _↳ feedback if chosen: Not a calculation._
+- ◻️ diamond (decision)  
+  _↳ feedback if chosen: Not a question._
+- ✅ oval (terminal)
+- ◻️ parallelogram (input/output)  
+  _↳ feedback if chosen: Not input or output._
+
+Full working after a second miss:
+
+> Start and Stop are terminals.  
+> So the answer is oval (terminal).  
+
+> Which flowchart symbol is used for this? 'Is the number greater than 50?'
+
+- ◻️ rectangle (process)  
+  _↳ feedback if chosen: A process does a calculation._
+- ◻️ oval (terminal)  
+  _↳ feedback if chosen: Terminals are Start and Stop._
+- ✅ diamond (decision)
+- ◻️ parallelogram (input/output)  
+  _↳ feedback if chosen: Input/output reads or shows data._
+
+Full working after a second miss:
+
+> A yes/no question is a decision.  
+> So the answer is diamond (decision).  
+
+> Which flowchart symbol is used for this? 'Read the price'
+
+- ◻️ diamond (decision)  
+  _↳ feedback if chosen: No question is asked._
+- ◻️ oval (terminal)  
+  _↳ feedback if chosen: It is not Start or Stop._
+- ✅ parallelogram (input/output)
+- ◻️ rectangle (process)  
+  _↳ feedback if chosen: Reading data is input._
+
+Full working after a second miss:
+
+> Input and output use parallelograms.  
+> So the answer is parallelogram (input/output).  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-22-dec` · Lesson 22 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How many exits does a decision symbol have? | two (Yes and No) | one · none · four | A decision chooses between two paths. · It must lead somewhere. · Only two answers to a yes/no question. | One path for Yes, one for No. |
+| How is a loop shown on a flowchart? | by an arrow going back to an earlier step | by a double oval · by a red rectangle · it cannot be shown | Not a standard symbol. · Colour does not mean anything. · Loops are common in flowcharts. | Flow returns to repeat steps. |
+| Which symbol starts every flowchart? | an oval labelled Start | a diamond · a parallelogram · a rectangle | Diamonds are decisions. · Parallelograms are input/output. · Rectangles are processes. | Terminals mark the beginning and end. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which symbol starts every flowchart?
+
+- ◻️ a parallelogram  
+  _↳ feedback if chosen: Parallelograms are input/output._
+- ◻️ a rectangle  
+  _↳ feedback if chosen: Rectangles are processes._
+- ✅ an oval labelled Start
+- ◻️ a diamond  
+  _↳ feedback if chosen: Diamonds are decisions._
+
+Full working after a second miss:
+
+> Terminals mark the beginning and end.  
+> So the answer is an oval labelled Start.  
+
+> Which symbol starts every flowchart?
+
+- ✅ an oval labelled Start
+- ◻️ a parallelogram  
+  _↳ feedback if chosen: Parallelograms are input/output._
+- ◻️ a rectangle  
+  _↳ feedback if chosen: Rectangles are processes._
+- ◻️ a diamond  
+  _↳ feedback if chosen: Diamonds are decisions._
+
+Full working after a second miss:
+
+> Terminals mark the beginning and end.  
+> So the answer is an oval labelled Start.  
+
+> How many exits does a decision symbol have?
+
+- ◻️ one  
+  _↳ feedback if chosen: A decision chooses between two paths._
+- ◻️ four  
+  _↳ feedback if chosen: Only two answers to a yes/no question._
+- ✅ two (Yes and No)
+- ◻️ none  
+  _↳ feedback if chosen: It must lead somewhere._
+
+Full working after a second miss:
+
+> One path for Yes, one for No.  
+> So the answer is two (Yes and No).  
+
+Sources: algorithms (Form 3 Computer Science syllabus, Term 1: program development life cycle, decomposition, notions of algorithms, algorithmic instructions, flowcharts)
+
+### `s3-24-which` · Lesson 24 · multiple choice, level 1
+
+Prompt: Which software is best? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Writing a letter of application for a job | word processor | spreadsheet · web browser · antivirus | Spreadsheets are for numbers and tables of data. · Browsers display web pages. · Antivirus protects the computer. | Word processors format text documents. |
+| Keeping the monthly accounts of a provision store | spreadsheet | word processor · presentation software · photo editor | Word processors are weak at calculations. · Presentations show slides. · Photo editors change images. | Spreadsheets calculate totals automatically. |
+| Sending the same letter to 200 parents with each name filled in | word processor with mail merge | spreadsheet only · a drawing program · a calculator | A spreadsheet can hold the names, but the letters are merged in a word processor. · Not for letters. · Not for documents. | Mail merge combines a letter with a list of names. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which software is best? Keeping the monthly accounts of a provision store
+
+- ◻️ presentation software  
+  _↳ feedback if chosen: Presentations show slides._
+- ✅ spreadsheet
+- ◻️ photo editor  
+  _↳ feedback if chosen: Photo editors change images._
+- ◻️ word processor  
+  _↳ feedback if chosen: Word processors are weak at calculations._
+
+Full working after a second miss:
+
+> Spreadsheets calculate totals automatically.  
+> So the answer is spreadsheet.  
+
+> Which software is best? Keeping the monthly accounts of a provision store
+
+- ✅ spreadsheet
+- ◻️ photo editor  
+  _↳ feedback if chosen: Photo editors change images._
+- ◻️ word processor  
+  _↳ feedback if chosen: Word processors are weak at calculations._
+- ◻️ presentation software  
+  _↳ feedback if chosen: Presentations show slides._
+
+Full working after a second miss:
+
+> Spreadsheets calculate totals automatically.  
+> So the answer is spreadsheet.  
+
+> Which software is best? Writing a letter of application for a job
+
+- ◻️ antivirus  
+  _↳ feedback if chosen: Antivirus protects the computer._
+- ✅ word processor
+- ◻️ web browser  
+  _↳ feedback if chosen: Browsers display web pages._
+- ◻️ spreadsheet  
+  _↳ feedback if chosen: Spreadsheets are for numbers and tables of data._
+
+Full working after a second miss:
+
+> Word processors format text documents.  
+> So the answer is word processor.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-25-which` · Lesson 25 · multiple choice, level 1
+
+Prompt: Which software is best? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Showing slides at a school science fair | presentation software | database software · spreadsheet · antivirus | Databases store and search data. · Spreadsheets calculate. · Antivirus protects. | Slides with pictures and animation. |
+| Storing and searching the records of 1500 pupils | database software | presentation software · word processor · drawing program | Presentations are for showing slides. · Hard to search many records. · Not for records. | Databases search and sort large data sets. |
+| Finding all pupils who still owe fees | a database query | a slide transition · a word count · a spell check | Transitions are for slides. · Word count is for documents. · Spell check is for text. | Queries select matching records. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which software is best? Finding all pupils who still owe fees
+
+- ✅ a database query
+- ◻️ a spell check  
+  _↳ feedback if chosen: Spell check is for text._
+- ◻️ a slide transition  
+  _↳ feedback if chosen: Transitions are for slides._
+- ◻️ a word count  
+  _↳ feedback if chosen: Word count is for documents._
+
+Full working after a second miss:
+
+> Queries select matching records.  
+> So the answer is a database query.  
+
+> Which software is best? Finding all pupils who still owe fees
+
+- ◻️ a spell check  
+  _↳ feedback if chosen: Spell check is for text._
+- ◻️ a word count  
+  _↳ feedback if chosen: Word count is for documents._
+- ◻️ a slide transition  
+  _↳ feedback if chosen: Transitions are for slides._
+- ✅ a database query
+
+Full working after a second miss:
+
+> Queries select matching records.  
+> So the answer is a database query.  
+
+> Which software is best? Finding all pupils who still owe fees
+
+- ◻️ a word count  
+  _↳ feedback if chosen: Word count is for documents._
+- ◻️ a slide transition  
+  _↳ feedback if chosen: Transitions are for slides._
+- ◻️ a spell check  
+  _↳ feedback if chosen: Spell check is for text._
+- ✅ a database query
+
+Full working after a second miss:
+
+> Queries select matching records.  
+> So the answer is a database query.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-25-term` · Lesson 25 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| In a database table of pupils, what is a record? | all the data about one pupil (one row) | one column, such as Surname · the whole database · a printed report | That is a field. · A database can have many tables. · A report is output. | Each row is a record. |
+| What is a field? | one category of data, such as Date of birth (a column) | one pupil's data · a slide · a formula | That is a record. · Slides are for presentations. · Formulas are for spreadsheets. | Each column is a field. |
+| Why is Pupil ID used as the key field rather than Surname? | IDs are unique; surnames can be repeated | Surnames are too long · IDs are always numbers less than 10 · Key fields must be names | Length is not the reason. · IDs can be any length. · Key fields must be unique. | A primary key identifies each record. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is Pupil ID used as the key field rather than Surname?
+
+- ✅ IDs are unique; surnames can be repeated
+- ◻️ IDs are always numbers less than 10  
+  _↳ feedback if chosen: IDs can be any length._
+- ◻️ Surnames are too long  
+  _↳ feedback if chosen: Length is not the reason._
+- ◻️ Key fields must be names  
+  _↳ feedback if chosen: Key fields must be unique._
+
+Full working after a second miss:
+
+> A primary key identifies each record.  
+> So the answer is IDs are unique; surnames can be repeated.  
+
+> Why is Pupil ID used as the key field rather than Surname?
+
+- ✅ IDs are unique; surnames can be repeated
+- ◻️ Surnames are too long  
+  _↳ feedback if chosen: Length is not the reason._
+- ◻️ Key fields must be names  
+  _↳ feedback if chosen: Key fields must be unique._
+- ◻️ IDs are always numbers less than 10  
+  _↳ feedback if chosen: IDs can be any length._
+
+Full working after a second miss:
+
+> A primary key identifies each record.  
+> So the answer is IDs are unique; surnames can be repeated.  
+
+> In a database table of pupils, what is a record?
+
+- ◻️ one column, such as Surname  
+  _↳ feedback if chosen: That is a field._
+- ◻️ the whole database  
+  _↳ feedback if chosen: A database can have many tables._
+- ✅ all the data about one pupil (one row)
+- ◻️ a printed report  
+  _↳ feedback if chosen: A report is output._
+
+Full working after a second miss:
+
+> Each row is a record.  
+> So the answer is all the data about one pupil (one row).  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-25-slides` · Lesson 25 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is good advice for presentation slides? | Use few words, large clear text and relevant pictures | Fill every slide with long paragraphs · Use tiny text to fit more · Add as many animations as possible | Audiences cannot read long paragraphs while listening. · Tiny text cannot be read from the back. · Too many animations distract. | Slides support the speaker; they do not replace the talk. |
+| What is a slide transition? | the visual effect when moving from one slide to the next | a type of database · a spreadsheet formula · a printer setting | Not a database. · Not a formula. · Not a printer setting. | Transitions are applied between slides. |
+| Why is a database better than a word-processed list for 1500 pupils' records? | It can quickly search, sort and report on the data | It makes the text bold · It checks spelling · It adds animations | Formatting is a word-processing feature. · That is not the main benefit. · That is presentation software. | Databases manage large, structured data. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is good advice for presentation slides?
+
+- ◻️ Use tiny text to fit more  
+  _↳ feedback if chosen: Tiny text cannot be read from the back._
+- ◻️ Add as many animations as possible  
+  _↳ feedback if chosen: Too many animations distract._
+- ✅ Use few words, large clear text and relevant pictures
+- ◻️ Fill every slide with long paragraphs  
+  _↳ feedback if chosen: Audiences cannot read long paragraphs while listening._
+
+Full working after a second miss:
+
+> Slides support the speaker; they do not replace the talk.  
+> So the answer is Use few words, large clear text and relevant pictures.  
+
+> What is a slide transition?
+
+- ✅ the visual effect when moving from one slide to the next
+- ◻️ a printer setting  
+  _↳ feedback if chosen: Not a printer setting._
+- ◻️ a type of database  
+  _↳ feedback if chosen: Not a database._
+- ◻️ a spreadsheet formula  
+  _↳ feedback if chosen: Not a formula._
+
+Full working after a second miss:
+
+> Transitions are applied between slides.  
+> So the answer is the visual effect when moving from one slide to the next.  
+
+> Which is good advice for presentation slides?
+
+- ◻️ Fill every slide with long paragraphs  
+  _↳ feedback if chosen: Audiences cannot read long paragraphs while listening._
+- ◻️ Use tiny text to fit more  
+  _↳ feedback if chosen: Tiny text cannot be read from the back._
+- ✅ Use few words, large clear text and relevant pictures
+- ◻️ Add as many animations as possible  
+  _↳ feedback if chosen: Too many animations distract._
+
+Full working after a second miss:
+
+> Slides support the speaker; they do not replace the talk.  
+> So the answer is Use few words, large clear text and relevant pictures.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-26-which` · Lesson 26 · multiple choice, level 1
+
+Prompt: Which software is best? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Cutting and joining clips for a school video | video editing software | spreadsheet · database · antivirus | Spreadsheets calculate. · Databases store records. · Antivirus protects. | Multimedia software edits audio and video. |
+| Finding information about volcanoes online | a web browser with a search engine | a word processor · a photo editor · a compression utility | Word processors write documents. · Photo editors change images. · Zip tools shrink files. | Browsers display web pages; search engines find them. |
+| Holding a lesson by video call with pupils at home | video-conferencing software (e.g. Zoom, Google Meet) | a spreadsheet · a drawing program · a database | Not for calls. · Not for calls. · Not for calls. | Communication software connects people live. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which software is best? Holding a lesson by video call with pupils at home
+
+- ◻️ a database  
+  _↳ feedback if chosen: Not for calls._
+- ◻️ a drawing program  
+  _↳ feedback if chosen: Not for calls._
+- ◻️ a spreadsheet  
+  _↳ feedback if chosen: Not for calls._
+- ✅ video-conferencing software (e.g. Zoom, Google Meet)
+
+Full working after a second miss:
+
+> Communication software connects people live.  
+> So the answer is video-conferencing software (e.g. Zoom, Google Meet).  
+
+> Which software is best? Cutting and joining clips for a school video
+
+- ✅ video editing software
+- ◻️ spreadsheet  
+  _↳ feedback if chosen: Spreadsheets calculate._
+- ◻️ database  
+  _↳ feedback if chosen: Databases store records._
+- ◻️ antivirus  
+  _↳ feedback if chosen: Antivirus protects._
+
+Full working after a second miss:
+
+> Multimedia software edits audio and video.  
+> So the answer is video editing software.  
+
+> Which software is best? Finding information about volcanoes online
+
+- ◻️ a photo editor  
+  _↳ feedback if chosen: Photo editors change images._
+- ✅ a web browser with a search engine
+- ◻️ a compression utility  
+  _↳ feedback if chosen: Zip tools shrink files._
+- ◻️ a word processor  
+  _↳ feedback if chosen: Word processors write documents._
+
+Full working after a second miss:
+
+> Browsers display web pages; search engines find them.  
+> So the answer is a web browser with a search engine.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-26-util` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does antivirus software do? | detects and removes malicious software | edits photos · writes letters · speeds up the internet connection | That is graphics software. · That is a word processor. · It does not change the connection speed. | A utility that protects the system. |
+| Why compress (zip) a folder before e-mailing it? | To make the file smaller and send it as one file | To make it bigger · To delete it · To print it | Compression reduces size. · The data is kept. · Printing is separate. | Smaller files send faster. |
+| Which is a utility program? | backup software | a game · a web browser · a presentation program | Games are entertainment. · Browsers are applications. · Presentations are applications. | Utilities maintain and protect the computer. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why compress (zip) a folder before e-mailing it?
+
+- ✅ To make the file smaller and send it as one file
+- ◻️ To delete it  
+  _↳ feedback if chosen: The data is kept._
+- ◻️ To make it bigger  
+  _↳ feedback if chosen: Compression reduces size._
+- ◻️ To print it  
+  _↳ feedback if chosen: Printing is separate._
+
+Full working after a second miss:
+
+> Smaller files send faster.  
+> So the answer is To make the file smaller and send it as one file.  
+
+> Why compress (zip) a folder before e-mailing it?
+
+- ◻️ To delete it  
+  _↳ feedback if chosen: The data is kept._
+- ◻️ To print it  
+  _↳ feedback if chosen: Printing is separate._
+- ◻️ To make it bigger  
+  _↳ feedback if chosen: Compression reduces size._
+- ✅ To make the file smaller and send it as one file
+
+Full working after a second miss:
+
+> Smaller files send faster.  
+> So the answer is To make the file smaller and send it as one file.  
+
+> What does antivirus software do?
+
+- ◻️ edits photos  
+  _↳ feedback if chosen: That is graphics software._
+- ◻️ writes letters  
+  _↳ feedback if chosen: That is a word processor._
+- ✅ detects and removes malicious software
+- ◻️ speeds up the internet connection  
+  _↳ feedback if chosen: It does not change the connection speed._
+
+Full working after a second miss:
+
+> A utility that protects the system.  
+> So the answer is detects and removes malicious software.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-26-type` · Lesson 26 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is specialist software? | software for managing patients in a hospital | a word processor · a spreadsheet · a web browser | A word processor is general-purpose. · A spreadsheet is general-purpose. · A browser is general-purpose. | It is made for one particular job. |
+| Which is general-purpose software? | a spreadsheet | a school timetabling program · payroll software for one company · airline booking software | That does one specific job. · That does one specific job. · That does one specific job. | Spreadsheets can be used for many tasks. |
+| A photographer wants to brighten and crop photos. Which kind of software? | photo-editing (graphics) software | database software · accounting software · an e-mail program | Databases store records. · Accounting software keeps accounts. · E-mail sends messages. | Graphics software changes images. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is specialist software?
+
+- ◻️ a spreadsheet  
+  _↳ feedback if chosen: A spreadsheet is general-purpose._
+- ✅ software for managing patients in a hospital
+- ◻️ a web browser  
+  _↳ feedback if chosen: A browser is general-purpose._
+- ◻️ a word processor  
+  _↳ feedback if chosen: A word processor is general-purpose._
+
+Full working after a second miss:
+
+> It is made for one particular job.  
+> So the answer is software for managing patients in a hospital.  
+
+> A photographer wants to brighten and crop photos. Which kind of software?
+
+- ◻️ an e-mail program  
+  _↳ feedback if chosen: E-mail sends messages._
+- ◻️ database software  
+  _↳ feedback if chosen: Databases store records._
+- ◻️ accounting software  
+  _↳ feedback if chosen: Accounting software keeps accounts._
+- ✅ photo-editing (graphics) software
+
+Full working after a second miss:
+
+> Graphics software changes images.  
+> So the answer is photo-editing (graphics) software.  
+
+> Which is general-purpose software?
+
+- ◻️ airline booking software  
+  _↳ feedback if chosen: That does one specific job._
+- ◻️ payroll software for one company  
+  _↳ feedback if chosen: That does one specific job._
+- ✅ a spreadsheet
+- ◻️ a school timetabling program  
+  _↳ feedback if chosen: That does one specific job._
+
+Full working after a second miss:
+
+> Spreadsheets can be used for many tasks.  
+> So the answer is a spreadsheet.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-26-choose` · Lesson 26 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A small business sells clothes in Bafoussam market. Which pair of software would help it most? | a spreadsheet for sales and stock, and a messaging app for customers | a video game and a photo editor · a flight simulator and a database of stars · only an antivirus | Not useful for running the shop. · Not relevant. · Protection alone does not run the business. | Choose software that matches the tasks. |
+| Why should you keep antivirus software updated? | New viruses appear all the time and updates help detect them | Updates make the screen brighter · Old versions are faster · Updates delete your files | Not related. · Speed is not the reason. · They should not delete your files. | Up-to-date definitions recognise new threats. |
+| Why might a school choose free open-source software like LibreOffice? | It does the same everyday tasks without licence fees | It cannot open any files · It needs no computer · It is illegal | It opens common file types. · It runs on a computer. · It is legal and free. | Saves money on licences. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A small business sells clothes in Bafoussam market. Which pair of software would help it most?
+
+- ◻️ only an antivirus  
+  _↳ feedback if chosen: Protection alone does not run the business._
+- ◻️ a flight simulator and a database of stars  
+  _↳ feedback if chosen: Not relevant._
+- ◻️ a video game and a photo editor  
+  _↳ feedback if chosen: Not useful for running the shop._
+- ✅ a spreadsheet for sales and stock, and a messaging app for customers
+
+Full working after a second miss:
+
+> Choose software that matches the tasks.  
+> So the answer is a spreadsheet for sales and stock, and a messaging app for customers.  
+
+> Why should you keep antivirus software updated?
+
+- ◻️ Updates delete your files  
+  _↳ feedback if chosen: They should not delete your files._
+- ◻️ Updates make the screen brighter  
+  _↳ feedback if chosen: Not related._
+- ✅ New viruses appear all the time and updates help detect them
+- ◻️ Old versions are faster  
+  _↳ feedback if chosen: Speed is not the reason._
+
+Full working after a second miss:
+
+> Up-to-date definitions recognise new threats.  
+> So the answer is New viruses appear all the time and updates help detect them.  
+
+> Why might a school choose free open-source software like LibreOffice?
+
+- ◻️ It is illegal  
+  _↳ feedback if chosen: It is legal and free._
+- ✅ It does the same everyday tasks without licence fees
+- ◻️ It needs no computer  
+  _↳ feedback if chosen: It runs on a computer._
+- ◻️ It cannot open any files  
+  _↳ feedback if chosen: It opens common file types._
+
+Full working after a second miss:
+
+> Saves money on licences.  
+> So the answer is It does the same everyday tasks without licence fees.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-26-type-card` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is specialist software? | software for managing patients in a hospital | a word processor · a spreadsheet · a web browser | A word processor is general-purpose. · A spreadsheet is general-purpose. · A browser is general-purpose. | It is made for one particular job. |
+| Which is general-purpose software? | a spreadsheet | a school timetabling program · payroll software for one company · airline booking software | That does one specific job. · That does one specific job. · That does one specific job. | Spreadsheets can be used for many tasks. |
+| A photographer wants to brighten and crop photos. Which kind of software? | photo-editing (graphics) software | database software · accounting software · an e-mail program | Databases store records. · Accounting software keeps accounts. · E-mail sends messages. | Graphics software changes images. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A photographer wants to brighten and crop photos. Which kind of software?
+
+- ◻️ accounting software  
+  _↳ feedback if chosen: Accounting software keeps accounts._
+- ✅ photo-editing (graphics) software
+- ◻️ an e-mail program  
+  _↳ feedback if chosen: E-mail sends messages._
+- ◻️ database software  
+  _↳ feedback if chosen: Databases store records._
+
+Full working after a second miss:
+
+> Graphics software changes images.  
+> So the answer is photo-editing (graphics) software.  
+
+> Which is specialist software?
+
+- ◻️ a web browser  
+  _↳ feedback if chosen: A browser is general-purpose._
+- ◻️ a word processor  
+  _↳ feedback if chosen: A word processor is general-purpose._
+- ◻️ a spreadsheet  
+  _↳ feedback if chosen: A spreadsheet is general-purpose._
+- ✅ software for managing patients in a hospital
+
+Full working after a second miss:
+
+> It is made for one particular job.  
+> So the answer is software for managing patients in a hospital.  
+
+> A photographer wants to brighten and crop photos. Which kind of software?
+
+- ◻️ accounting software  
+  _↳ feedback if chosen: Accounting software keeps accounts._
+- ◻️ database software  
+  _↳ feedback if chosen: Databases store records._
+- ✅ photo-editing (graphics) software
+- ◻️ an e-mail program  
+  _↳ feedback if chosen: E-mail sends messages._
+
+Full working after a second miss:
+
+> Graphics software changes images.  
+> So the answer is photo-editing (graphics) software.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-28-type` · Lesson 28 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is intellectual property? | A creation of the mind, such as an invention, song or program | Land owned by a school · A computer's hard disk · Money in a bank | That is physical property. · That is hardware. · That is money. | Ideas and creative works can belong to their creators. |
+| Which protects a new song? | copyright | a patent · a trademark · a warranty | Patents protect inventions. · Trademarks protect brands. · Warranties cover faulty products. | Creative works are protected by copyright. |
+| What is software piracy? | Copying or using software without a licence | Buying software legally · Writing your own program · Updating your software | That respects copyright. · That creates new IP. · That is maintenance. | It is illegal and can spread malware. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is intellectual property?
+
+- ✅ A creation of the mind, such as an invention, song or program
+- ◻️ Money in a bank  
+  _↳ feedback if chosen: That is money._
+- ◻️ A computer's hard disk  
+  _↳ feedback if chosen: That is hardware._
+- ◻️ Land owned by a school  
+  _↳ feedback if chosen: That is physical property._
+
+Full working after a second miss:
+
+> Ideas and creative works can belong to their creators.  
+> So the answer is A creation of the mind, such as an invention, song or program.  
+
+> What is intellectual property?
+
+- ✅ A creation of the mind, such as an invention, song or program
+- ◻️ Money in a bank  
+  _↳ feedback if chosen: That is money._
+- ◻️ A computer's hard disk  
+  _↳ feedback if chosen: That is hardware._
+- ◻️ Land owned by a school  
+  _↳ feedback if chosen: That is physical property._
+
+Full working after a second miss:
+
+> Ideas and creative works can belong to their creators.  
+> So the answer is A creation of the mind, such as an invention, song or program.  
+
+> What is software piracy?
+
+- ◻️ Updating your software  
+  _↳ feedback if chosen: That is maintenance._
+- ✅ Copying or using software without a licence
+- ◻️ Writing your own program  
+  _↳ feedback if chosen: That creates new IP._
+- ◻️ Buying software legally  
+  _↳ feedback if chosen: That respects copyright._
+
+Full working after a second miss:
+
+> It is illegal and can spread malware.  
+> So the answer is Copying or using software without a licence.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-28-which` · Lesson 28 · multiple choice, level 1
+
+Prompt: Which kind of protection fits? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A new design of solar water pump | patent | trademark · copyright of a song · nothing is needed | A trademark protects a brand. · It is not a creative work like a song. · Inventions can be protected. | Inventions are protected by patents. |
+| The name and logo of a drink company | trademark | patent · copyright · warranty | It is not an invention. · Brand names are trademarks. · A warranty is a promise about quality. | Trademarks protect brand identity. |
+| The code of a mobile app | copyright | trademark · patent only · nothing | The app's name may be a trademark, but the code is copyright. · Code is usually protected by copyright. · It is protected. | Software code is a creative work. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which kind of protection fits? A new design of solar water pump
+
+- ◻️ nothing is needed  
+  _↳ feedback if chosen: Inventions can be protected._
+- ◻️ trademark  
+  _↳ feedback if chosen: A trademark protects a brand._
+- ✅ patent
+- ◻️ copyright of a song  
+  _↳ feedback if chosen: It is not a creative work like a song._
+
+Full working after a second miss:
+
+> Inventions are protected by patents.  
+> So the answer is patent.  
+
+> Which kind of protection fits? A new design of solar water pump
+
+- ◻️ nothing is needed  
+  _↳ feedback if chosen: Inventions can be protected._
+- ✅ patent
+- ◻️ copyright of a song  
+  _↳ feedback if chosen: It is not a creative work like a song._
+- ◻️ trademark  
+  _↳ feedback if chosen: A trademark protects a brand._
+
+Full working after a second miss:
+
+> Inventions are protected by patents.  
+> So the answer is patent.  
+
+> Which kind of protection fits? The name and logo of a drink company
+
+- ◻️ copyright  
+  _↳ feedback if chosen: Brand names are trademarks._
+- ◻️ warranty  
+  _↳ feedback if chosen: A warranty is a promise about quality._
+- ◻️ patent  
+  _↳ feedback if chosen: It is not an invention._
+- ✅ trademark
+
+Full working after a second miss:
+
+> Trademarks protect brand identity.  
+> So the answer is trademark.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-28-ethic` · Lesson 28 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which action respects intellectual property? | Quoting a text and naming the author and source | Copying a classmate's homework · Downloading a film from an illegal site · Selling copied CDs | That is plagiarism. · That is piracy. · That is piracy and counterfeiting. | Citing gives credit to the creator. |
+| What is plagiarism? | Presenting someone else's work as your own | Writing a story yourself · Asking a teacher for help · Reading a library book | That is original work. · Asking for help is fine. · Reading is fine. | Always credit your sources. |
+| Why does IP protection matter? | It rewards creators so they keep inventing and creating | It stops all sharing of ideas · It makes software free for everyone · It protects only rich people | Sharing with permission is allowed. · Creators may charge for their work. · It protects all creators. | Creators earn from their work. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does IP protection matter?
+
+- ✅ It rewards creators so they keep inventing and creating
+- ◻️ It protects only rich people  
+  _↳ feedback if chosen: It protects all creators._
+- ◻️ It makes software free for everyone  
+  _↳ feedback if chosen: Creators may charge for their work._
+- ◻️ It stops all sharing of ideas  
+  _↳ feedback if chosen: Sharing with permission is allowed._
+
+Full working after a second miss:
+
+> Creators earn from their work.  
+> So the answer is It rewards creators so they keep inventing and creating.  
+
+> Why does IP protection matter?
+
+- ◻️ It stops all sharing of ideas  
+  _↳ feedback if chosen: Sharing with permission is allowed._
+- ◻️ It makes software free for everyone  
+  _↳ feedback if chosen: Creators may charge for their work._
+- ◻️ It protects only rich people  
+  _↳ feedback if chosen: It protects all creators._
+- ✅ It rewards creators so they keep inventing and creating
+
+Full working after a second miss:
+
+> Creators earn from their work.  
+> So the answer is It rewards creators so they keep inventing and creating.  
+
+> Which action respects intellectual property?
+
+- ◻️ Selling copied CDs  
+  _↳ feedback if chosen: That is piracy and counterfeiting._
+- ◻️ Downloading a film from an illegal site  
+  _↳ feedback if chosen: That is piracy._
+- ✅ Quoting a text and naming the author and source
+- ◻️ Copying a classmate's homework  
+  _↳ feedback if chosen: That is plagiarism._
+
+Full working after a second miss:
+
+> Citing gives credit to the creator.  
+> So the answer is Quoting a text and naming the author and source.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-28-case` · Lesson 28 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A street seller in Douala sells copied DVDs of Nollywood films. What is the problem? | It is piracy: the film makers lose money and it breaks copyright law | Nothing, films are free · It is legal if the price is low · Only the buyer breaks the law | Films are protected by copyright. · Price does not make it legal. · Selling pirated copies is illegal. | Copyright protects the creators' income. |
+| A school wants to install software on 30 computers but bought one licence. What should it do? | Buy enough licences or use free open-source software | Copy the one licence to all computers · Install it and hide the computers · Use a pirated version | That breaks the licence. · Hiding does not make it legal. · That is piracy. | Use software within its licence terms. |
+| Which organisation helps protect patents and trademarks for Cameroon and other member states? | OAPI (African Intellectual Property Organisation) | FIFA · the World Health Organisation · MTN | FIFA governs football. · WHO works on health. · MTN is a telecom company. | OAPI is based in Yaoundé. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A school wants to install software on 30 computers but bought one licence. What should it do?
+
+- ◻️ Copy the one licence to all computers  
+  _↳ feedback if chosen: That breaks the licence._
+- ◻️ Install it and hide the computers  
+  _↳ feedback if chosen: Hiding does not make it legal._
+- ✅ Buy enough licences or use free open-source software
+- ◻️ Use a pirated version  
+  _↳ feedback if chosen: That is piracy._
+
+Full working after a second miss:
+
+> Use software within its licence terms.  
+> So the answer is Buy enough licences or use free open-source software.  
+
+> A street seller in Douala sells copied DVDs of Nollywood films. What is the problem?
+
+- ✅ It is piracy: the film makers lose money and it breaks copyright law
+- ◻️ Nothing, films are free  
+  _↳ feedback if chosen: Films are protected by copyright._
+- ◻️ Only the buyer breaks the law  
+  _↳ feedback if chosen: Selling pirated copies is illegal._
+- ◻️ It is legal if the price is low  
+  _↳ feedback if chosen: Price does not make it legal._
+
+Full working after a second miss:
+
+> Copyright protects the creators' income.  
+> So the answer is It is piracy: the film makers lose money and it breaks copyright law.  
+
+> Which organisation helps protect patents and trademarks for Cameroon and other member states?
+
+- ◻️ FIFA  
+  _↳ feedback if chosen: FIFA governs football._
+- ◻️ the World Health Organisation  
+  _↳ feedback if chosen: WHO works on health._
+- ◻️ MTN  
+  _↳ feedback if chosen: MTN is a telecom company._
+- ✅ OAPI (African Intellectual Property Organisation)
+
+Full working after a second miss:
+
+> OAPI is based in Yaoundé.  
+> So the answer is OAPI (African Intellectual Property Organisation).  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-28-ethic-card` · Lesson 28 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which action respects intellectual property? | Quoting a text and naming the author and source | Copying a classmate's homework · Downloading a film from an illegal site · Selling copied CDs | That is plagiarism. · That is piracy. · That is piracy and counterfeiting. | Citing gives credit to the creator. |
+| What is plagiarism? | Presenting someone else's work as your own | Writing a story yourself · Asking a teacher for help · Reading a library book | That is original work. · Asking for help is fine. · Reading is fine. | Always credit your sources. |
+| Why does IP protection matter? | It rewards creators so they keep inventing and creating | It stops all sharing of ideas · It makes software free for everyone · It protects only rich people | Sharing with permission is allowed. · Creators may charge for their work. · It protects all creators. | Creators earn from their work. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does IP protection matter?
+
+- ✅ It rewards creators so they keep inventing and creating
+- ◻️ It protects only rich people  
+  _↳ feedback if chosen: It protects all creators._
+- ◻️ It stops all sharing of ideas  
+  _↳ feedback if chosen: Sharing with permission is allowed._
+- ◻️ It makes software free for everyone  
+  _↳ feedback if chosen: Creators may charge for their work._
+
+Full working after a second miss:
+
+> Creators earn from their work.  
+> So the answer is It rewards creators so they keep inventing and creating.  
+
+> Which action respects intellectual property?
+
+- ✅ Quoting a text and naming the author and source
+- ◻️ Selling copied CDs  
+  _↳ feedback if chosen: That is piracy and counterfeiting._
+- ◻️ Copying a classmate's homework  
+  _↳ feedback if chosen: That is plagiarism._
+- ◻️ Downloading a film from an illegal site  
+  _↳ feedback if chosen: That is piracy._
+
+Full working after a second miss:
+
+> Citing gives credit to the creator.  
+> So the answer is Quoting a text and naming the author and source.  
+
+> Why does IP protection matter?
+
+- ◻️ It stops all sharing of ideas  
+  _↳ feedback if chosen: Sharing with permission is allowed._
+- ◻️ It protects only rich people  
+  _↳ feedback if chosen: It protects all creators._
+- ◻️ It makes software free for everyone  
+  _↳ feedback if chosen: Creators may charge for their work._
+- ✅ It rewards creators so they keep inventing and creating
+
+Full working after a second miss:
+
+> Creators earn from their work.  
+> So the answer is It rewards creators so they keep inventing and creating.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-29-def` · Lesson 29 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is DRM? | Technology that controls how digital content can be used and copied | A kind of computer virus · A type of printer · A way to make files bigger | It protects content; it is not malware. · Not hardware. · Not about size. | Digital rights management protects copyright. |
+| What is the main purpose of DRM? | to protect copyright and reduce piracy | to speed up downloads · to fix spelling · to cool the computer | Not about speed. · Not about spelling. · Not hardware. | Creators control how their work is used. |
+| Which content commonly uses DRM? | films on streaming services | a handwritten letter · a chalkboard lesson · a paper newspaper | Not digital. · Not digital. · Not digital. | DRM applies to digital content. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the main purpose of DRM?
+
+- ◻️ to fix spelling  
+  _↳ feedback if chosen: Not about spelling._
+- ◻️ to speed up downloads  
+  _↳ feedback if chosen: Not about speed._
+- ✅ to protect copyright and reduce piracy
+- ◻️ to cool the computer  
+  _↳ feedback if chosen: Not hardware._
+
+Full working after a second miss:
+
+> Creators control how their work is used.  
+> So the answer is to protect copyright and reduce piracy.  
+
+> What is the main purpose of DRM?
+
+- ◻️ to cool the computer  
+  _↳ feedback if chosen: Not hardware._
+- ◻️ to fix spelling  
+  _↳ feedback if chosen: Not about spelling._
+- ◻️ to speed up downloads  
+  _↳ feedback if chosen: Not about speed._
+- ✅ to protect copyright and reduce piracy
+
+Full working after a second miss:
+
+> Creators control how their work is used.  
+> So the answer is to protect copyright and reduce piracy.  
+
+> What is DRM?
+
+- ✅ Technology that controls how digital content can be used and copied
+- ◻️ A kind of computer virus  
+  _↳ feedback if chosen: It protects content; it is not malware._
+- ◻️ A type of printer  
+  _↳ feedback if chosen: Not hardware._
+- ◻️ A way to make files bigger  
+  _↳ feedback if chosen: Not about size._
+
+Full working after a second miss:
+
+> Digital rights management protects copyright.  
+> So the answer is Technology that controls how digital content can be used and copied.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-29-ex` · Lesson 29 · multiple choice, level 1
+
+Prompt: Which DRM method is this? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A code must be typed in before a program can be used. | licence key / product activation | watermark · region code · a strong password for your e-mail | A watermark marks content. · Region codes limit where discs play. · That protects an account, not a product licence. | The key proves the copy is licensed. |
+| A faint logo is printed across a photo. | watermark | licence key · encryption · region code | Keys unlock software. · Encryption scrambles data. · Region codes restrict playback by region. | Watermarks show ownership. |
+| An e-book can be read in its app but cannot be copied or printed. | copy and print restrictions | a patent · a virus · a backup | Patents protect inventions. · Not malware. · A backup is a copy, the opposite. | The app enforces the licence. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which DRM method is this? An e-book can be read in its app but cannot be copied or printed.
+
+- ✅ copy and print restrictions
+- ◻️ a patent  
+  _↳ feedback if chosen: Patents protect inventions._
+- ◻️ a backup  
+  _↳ feedback if chosen: A backup is a copy, the opposite._
+- ◻️ a virus  
+  _↳ feedback if chosen: Not malware._
+
+Full working after a second miss:
+
+> The app enforces the licence.  
+> So the answer is copy and print restrictions.  
+
+> Which DRM method is this? An e-book can be read in its app but cannot be copied or printed.
+
+- ✅ copy and print restrictions
+- ◻️ a patent  
+  _↳ feedback if chosen: Patents protect inventions._
+- ◻️ a virus  
+  _↳ feedback if chosen: Not malware._
+- ◻️ a backup  
+  _↳ feedback if chosen: A backup is a copy, the opposite._
+
+Full working after a second miss:
+
+> The app enforces the licence.  
+> So the answer is copy and print restrictions.  
+
+> Which DRM method is this? An e-book can be read in its app but cannot be copied or printed.
+
+- ◻️ a patent  
+  _↳ feedback if chosen: Patents protect inventions._
+- ◻️ a virus  
+  _↳ feedback if chosen: Not malware._
+- ◻️ a backup  
+  _↳ feedback if chosen: A backup is a copy, the opposite._
+- ✅ copy and print restrictions
+
+Full working after a second miss:
+
+> The app enforces the licence.  
+> So the answer is copy and print restrictions.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-29-pro` · Lesson 29 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an advantage of DRM for a musician? | It helps stop illegal copies, protecting income | It makes all music free · It improves the sound quality · It removes the need for a licence | It controls, not frees, use. · It does not change the sound. · It enforces the licence. | Less piracy, more sales. |
+| Which is a disadvantage of DRM for users? | Content may stop working if the service closes or there is no internet to check the licence | It makes films longer · It adds viruses · It always costs nothing | It does not change length. · It is not malware. · That is not a disadvantage. | Users depend on the provider. |
+| Why do some people say DRM is too strict? | It can stop legal uses, like moving a song you bought to a new device | It allows unlimited copying · It is never used · It makes files smaller | It restricts copying. · It is widely used. · Not related. | Strict controls can affect honest buyers. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a disadvantage of DRM for users?
+
+- ◻️ It makes films longer  
+  _↳ feedback if chosen: It does not change length._
+- ◻️ It adds viruses  
+  _↳ feedback if chosen: It is not malware._
+- ◻️ It always costs nothing  
+  _↳ feedback if chosen: That is not a disadvantage._
+- ✅ Content may stop working if the service closes or there is no internet to check the licence
+
+Full working after a second miss:
+
+> Users depend on the provider.  
+> So the answer is Content may stop working if the service closes or there is no internet to check the licence.  
+
+> Which is an advantage of DRM for a musician?
+
+- ✅ It helps stop illegal copies, protecting income
+- ◻️ It makes all music free  
+  _↳ feedback if chosen: It controls, not frees, use._
+- ◻️ It improves the sound quality  
+  _↳ feedback if chosen: It does not change the sound._
+- ◻️ It removes the need for a licence  
+  _↳ feedback if chosen: It enforces the licence._
+
+Full working after a second miss:
+
+> Less piracy, more sales.  
+> So the answer is It helps stop illegal copies, protecting income.  
+
+> Which is an advantage of DRM for a musician?
+
+- ◻️ It removes the need for a licence  
+  _↳ feedback if chosen: It enforces the licence._
+- ◻️ It improves the sound quality  
+  _↳ feedback if chosen: It does not change the sound._
+- ✅ It helps stop illegal copies, protecting income
+- ◻️ It makes all music free  
+  _↳ feedback if chosen: It controls, not frees, use._
+
+Full working after a second miss:
+
+> Less piracy, more sales.  
+> So the answer is It helps stop illegal copies, protecting income.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-29-case` · Lesson 29 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A friend offers a 'cracked' version of a paid game that removes the licence check. What should you do? | Refuse: it breaks copyright and may contain malware | Install it, it is free · Share it with the class · Sell copies | Free does not make it legal. · That spreads piracy. · That is illegal. | Cracked software is illegal and risky. |
+| Why do streaming apps limit the number of devices per account? | To stop one paid account being shared by many people | To save battery · To make videos clearer · Because phones cannot play videos | Not the reason. · Not related. · Phones can play videos. | The licence is for the subscriber. |
+| Which is a fair balance between creators and users? | Paying for content while having reasonable rights to use what you bought | All content always free · Users have no rights at all · Copying everything for friends | Creators need income. · Buyers deserve fair use. · That is piracy. | Both creators' and users' interests matter. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do streaming apps limit the number of devices per account?
+
+- ✅ To stop one paid account being shared by many people
+- ◻️ Because phones cannot play videos  
+  _↳ feedback if chosen: Phones can play videos._
+- ◻️ To make videos clearer  
+  _↳ feedback if chosen: Not related._
+- ◻️ To save battery  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> The licence is for the subscriber.  
+> So the answer is To stop one paid account being shared by many people.  
+
+> A friend offers a 'cracked' version of a paid game that removes the licence check. What should you do?
+
+- ✅ Refuse: it breaks copyright and may contain malware
+- ◻️ Sell copies  
+  _↳ feedback if chosen: That is illegal._
+- ◻️ Share it with the class  
+  _↳ feedback if chosen: That spreads piracy._
+- ◻️ Install it, it is free  
+  _↳ feedback if chosen: Free does not make it legal._
+
+Full working after a second miss:
+
+> Cracked software is illegal and risky.  
+> So the answer is Refuse: it breaks copyright and may contain malware.  
+
+> Which is a fair balance between creators and users?
+
+- ◻️ All content always free  
+  _↳ feedback if chosen: Creators need income._
+- ◻️ Copying everything for friends  
+  _↳ feedback if chosen: That is piracy._
+- ✅ Paying for content while having reasonable rights to use what you bought
+- ◻️ Users have no rights at all  
+  _↳ feedback if chosen: Buyers deserve fair use._
+
+Full working after a second miss:
+
+> Both creators' and users' interests matter.  
+> So the answer is Paying for content while having reasonable rights to use what you bought.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-29-pro-card` · Lesson 29 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an advantage of DRM for a musician? | It helps stop illegal copies, protecting income | It makes all music free · It improves the sound quality · It removes the need for a licence | It controls, not frees, use. · It does not change the sound. · It enforces the licence. | Less piracy, more sales. |
+| Which is a disadvantage of DRM for users? | Content may stop working if the service closes or there is no internet to check the licence | It makes films longer · It adds viruses · It always costs nothing | It does not change length. · It is not malware. · That is not a disadvantage. | Users depend on the provider. |
+| Why do some people say DRM is too strict? | It can stop legal uses, like moving a song you bought to a new device | It allows unlimited copying · It is never used · It makes files smaller | It restricts copying. · It is widely used. · Not related. | Strict controls can affect honest buyers. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is an advantage of DRM for a musician?
+
+- ◻️ It makes all music free  
+  _↳ feedback if chosen: It controls, not frees, use._
+- ✅ It helps stop illegal copies, protecting income
+- ◻️ It removes the need for a licence  
+  _↳ feedback if chosen: It enforces the licence._
+- ◻️ It improves the sound quality  
+  _↳ feedback if chosen: It does not change the sound._
+
+Full working after a second miss:
+
+> Less piracy, more sales.  
+> So the answer is It helps stop illegal copies, protecting income.  
+
+> Why do some people say DRM is too strict?
+
+- ◻️ It is never used  
+  _↳ feedback if chosen: It is widely used._
+- ✅ It can stop legal uses, like moving a song you bought to a new device
+- ◻️ It makes files smaller  
+  _↳ feedback if chosen: Not related._
+- ◻️ It allows unlimited copying  
+  _↳ feedback if chosen: It restricts copying._
+
+Full working after a second miss:
+
+> Strict controls can affect honest buyers.  
+> So the answer is It can stop legal uses, like moving a song you bought to a new device.  
+
+> Why do some people say DRM is too strict?
+
+- ◻️ It allows unlimited copying  
+  _↳ feedback if chosen: It restricts copying._
+- ✅ It can stop legal uses, like moving a song you bought to a new device
+- ◻️ It is never used  
+  _↳ feedback if chosen: It is widely used._
+- ◻️ It makes files smaller  
+  _↳ feedback if chosen: Not related._
+
+Full working after a second miss:
+
+> Strict controls can affect honest buyers.  
+> So the answer is It can stop legal uses, like moving a song you bought to a new device.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-30-term` · Lesson 30 · multiple choice, level 1
+
+Prompt: What does this Creative Commons term mean? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| BY | Attribution: give credit to the creator | Buy before using · No changes allowed · No commercial use | CC licences do not require buying. · That is ND. · That is NC. | Every CC licence except {'CC0'} needs attribution. |
+| NC | NonCommercial: not for making money | No credit needed · New copies only · No changes allowed | Credit is BY. · Not a CC term. · That is ND. | Use only for non-commercial purposes. |
+| ND | NoDerivatives: share only as it is, without changes | No downloading · No credit · No sharing at all | Downloading is allowed. · Credit is still needed (BY). · Sharing is allowed. | You may not adapt or remix it. |
+| SA | ShareAlike: share new versions under the same licence | Sell anywhere · Secret access · Same author only | Not a CC term. · Not a CC term. · Not a CC term. | Adaptations keep the same freedoms. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does this Creative Commons term mean? NC
+
+- ◻️ No credit needed  
+  _↳ feedback if chosen: Credit is BY._
+- ✅ NonCommercial: not for making money
+- ◻️ No changes allowed  
+  _↳ feedback if chosen: That is ND._
+- ◻️ New copies only  
+  _↳ feedback if chosen: Not a CC term._
+
+Full working after a second miss:
+
+> Use only for non-commercial purposes.  
+> So the answer is NonCommercial: not for making money.  
+
+> What does this Creative Commons term mean? ND
+
+- ◻️ No downloading  
+  _↳ feedback if chosen: Downloading is allowed._
+- ✅ NoDerivatives: share only as it is, without changes
+- ◻️ No sharing at all  
+  _↳ feedback if chosen: Sharing is allowed._
+- ◻️ No credit  
+  _↳ feedback if chosen: Credit is still needed (BY)._
+
+Full working after a second miss:
+
+> You may not adapt or remix it.  
+> So the answer is NoDerivatives: share only as it is, without changes.  
+
+> What does this Creative Commons term mean? SA
+
+- ◻️ Same author only  
+  _↳ feedback if chosen: Not a CC term._
+- ✅ ShareAlike: share new versions under the same licence
+- ◻️ Sell anywhere  
+  _↳ feedback if chosen: Not a CC term._
+- ◻️ Secret access  
+  _↳ feedback if chosen: Not a CC term._
+
+Full working after a second miss:
+
+> Adaptations keep the same freedoms.  
+> So the answer is ShareAlike: share new versions under the same licence.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-30-can` · Lesson 30 · multiple choice, level 2
+
+Prompt: Is this use allowed? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Using a CC BY-ND photo, with credit, unchanged, in a school magazine | Yes | No, CC works can never be used · No, credit is not allowed · Only if you change the photo | CC licences allow use under conditions. · Credit is required (BY). · ND forbids changes. | Credit given and no changes: allowed. |
+| Cropping and colouring a CC BY-ND drawing for a poster | No | Yes, always · Yes, if you do not give credit · Yes, if the poster is pink | ND forbids changes. · Credit is still required, and changes are still forbidden. · Colour is irrelevant. | ND means no derivatives. |
+| Selling T-shirts printed with a CC BY-NC image | No (without the creator's permission) | Yes, always · Yes, if you give credit · Yes, if sold cheaply | NC forbids commercial use. · Credit does not remove the NC condition. · Any sale is commercial. | Commercial use needs permission. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is this use allowed? Using a CC BY-ND photo, with credit, unchanged, in a school magazine
+
+- ◻️ No, CC works can never be used  
+  _↳ feedback if chosen: CC licences allow use under conditions._
+- ✅ Yes
+- ◻️ Only if you change the photo  
+  _↳ feedback if chosen: ND forbids changes._
+- ◻️ No, credit is not allowed  
+  _↳ feedback if chosen: Credit is required (BY)._
+
+Full working after a second miss:
+
+> Credit given and no changes: allowed.  
+> So the answer is Yes.  
+
+> Is this use allowed? Selling T-shirts printed with a CC BY-NC image
+
+- ◻️ Yes, always  
+  _↳ feedback if chosen: NC forbids commercial use._
+- ✅ No (without the creator's permission)
+- ◻️ Yes, if you give credit  
+  _↳ feedback if chosen: Credit does not remove the NC condition._
+- ◻️ Yes, if sold cheaply  
+  _↳ feedback if chosen: Any sale is commercial._
+
+Full working after a second miss:
+
+> Commercial use needs permission.  
+> So the answer is No (without the creator's permission).  
+
+> Is this use allowed? Cropping and colouring a CC BY-ND drawing for a poster
+
+- ◻️ Yes, if you do not give credit  
+  _↳ feedback if chosen: Credit is still required, and changes are still forbidden._
+- ◻️ Yes, if the poster is pink  
+  _↳ feedback if chosen: Colour is irrelevant._
+- ◻️ Yes, always  
+  _↳ feedback if chosen: ND forbids changes._
+- ✅ No
+
+Full working after a second miss:
+
+> ND means no derivatives.  
+> So the answer is No.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-30-cc0` · Lesson 30 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does {'CC0'} mean? | No rights reserved: anyone may use it for any purpose | Copyright zero years · Cannot copy at all · Credit required on page 0 | It means the creator gives up rights. · The opposite. · No such rule. | {'CC0'} places work in the public domain. |
+| Why do creators use Creative Commons licences? | To share their work while keeping some rights | To stop anyone using it · To make it illegal to share · To earn money from every use automatically | All rights reserved would do that. · CC encourages sharing. · CC does not collect payments. | Easy, clear permission to reuse. |
+| Where are many CC-licensed images found? | Wikipedia and Wikimedia Commons | Only in paid magazines · Inside computer processors · On bank cards | Paid magazines are usually all rights reserved. · Not relevant. · Not relevant. | Their licence is shown with each file. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do creators use Creative Commons licences?
+
+- ◻️ To stop anyone using it  
+  _↳ feedback if chosen: All rights reserved would do that._
+- ✅ To share their work while keeping some rights
+- ◻️ To make it illegal to share  
+  _↳ feedback if chosen: CC encourages sharing._
+- ◻️ To earn money from every use automatically  
+  _↳ feedback if chosen: CC does not collect payments._
+
+Full working after a second miss:
+
+> Easy, clear permission to reuse.  
+> So the answer is To share their work while keeping some rights.  
+
+> Why do creators use Creative Commons licences?
+
+- ◻️ To stop anyone using it  
+  _↳ feedback if chosen: All rights reserved would do that._
+- ✅ To share their work while keeping some rights
+- ◻️ To earn money from every use automatically  
+  _↳ feedback if chosen: CC does not collect payments._
+- ◻️ To make it illegal to share  
+  _↳ feedback if chosen: CC encourages sharing._
+
+Full working after a second miss:
+
+> Easy, clear permission to reuse.  
+> So the answer is To share their work while keeping some rights.  
+
+> Why do creators use Creative Commons licences?
+
+- ◻️ To earn money from every use automatically  
+  _↳ feedback if chosen: CC does not collect payments._
+- ◻️ To stop anyone using it  
+  _↳ feedback if chosen: All rights reserved would do that._
+- ◻️ To make it illegal to share  
+  _↳ feedback if chosen: CC encourages sharing._
+- ✅ To share their work while keeping some rights
+
+Full working after a second miss:
+
+> Easy, clear permission to reuse.  
+> So the answer is To share their work while keeping some rights.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-30-choose` · Lesson 30 · multiple choice, level 3
+
+Prompt: Which licence should the creator choose? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Ayuk wants anyone to use and change his photos, even for business, as long as he is credited. | CC BY | CC BY-NC-ND · all rights reserved · CC BY-ND | That forbids business use and changes. · That forbids reuse without permission. · That forbids changes. | BY alone allows any use with credit. |
+| A teacher wants other teachers to adapt her worksheets for free, and share their versions the same way, but not sell them. | CC BY-NC-SA | {'CC0'} · CC BY-ND · all rights reserved | {'CC0'} would allow selling. · ND forbids adapting. · That forbids reuse. | Credit, non-commercial, share alike. |
+| A photographer wants people to share his photos unchanged and never use them for business. | CC BY-NC-ND | CC BY · CC BY-SA · {'CC0'} | That allows business use and changes. · That allows changes and business use. · That gives up all rights. | The strictest Creative Commons licence. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which licence should the creator choose? A photographer wants people to share his photos unchanged and never use them for business.
+
+- ◻️ CC BY  
+  _↳ feedback if chosen: That allows business use and changes._
+- ✅ CC BY-NC-ND
+- ◻️ CC BY-SA  
+  _↳ feedback if chosen: That allows changes and business use._
+- ◻️ CC0  
+  _↳ feedback if chosen: That gives up all rights._
+
+Full working after a second miss:
+
+> The strictest Creative Commons licence.  
+> So the answer is CC BY-NC-ND.  
+
+> Which licence should the creator choose? A photographer wants people to share his photos unchanged and never use them for business.
+
+- ✅ CC BY-NC-ND
+- ◻️ CC0  
+  _↳ feedback if chosen: That gives up all rights._
+- ◻️ CC BY  
+  _↳ feedback if chosen: That allows business use and changes._
+- ◻️ CC BY-SA  
+  _↳ feedback if chosen: That allows changes and business use._
+
+Full working after a second miss:
+
+> The strictest Creative Commons licence.  
+> So the answer is CC BY-NC-ND.  
+
+> Which licence should the creator choose? Ayuk wants anyone to use and change his photos, even for business, as long as he is credited.
+
+- ◻️ CC BY-ND  
+  _↳ feedback if chosen: That forbids changes._
+- ✅ CC BY
+- ◻️ CC BY-NC-ND  
+  _↳ feedback if chosen: That forbids business use and changes._
+- ◻️ all rights reserved  
+  _↳ feedback if chosen: That forbids reuse without permission._
+
+Full working after a second miss:
+
+> BY alone allows any use with credit.  
+> So the answer is CC BY.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-30-can-card` · Lesson 30 · multiple choice, level 1
+
+Prompt: Is this use allowed? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Using a CC BY-ND photo, with credit, unchanged, in a school magazine | Yes | No, CC works can never be used · No, credit is not allowed · Only if you change the photo | CC licences allow use under conditions. · Credit is required (BY). · ND forbids changes. | Credit given and no changes: allowed. |
+| Cropping and colouring a CC BY-ND drawing for a poster | No | Yes, always · Yes, if you do not give credit · Yes, if the poster is pink | ND forbids changes. · Credit is still required, and changes are still forbidden. · Colour is irrelevant. | ND means no derivatives. |
+| Selling T-shirts printed with a CC BY-NC image | No (without the creator's permission) | Yes, always · Yes, if you give credit · Yes, if sold cheaply | NC forbids commercial use. · Credit does not remove the NC condition. · Any sale is commercial. | Commercial use needs permission. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is this use allowed? Cropping and colouring a CC BY-ND drawing for a poster
+
+- ◻️ Yes, if the poster is pink  
+  _↳ feedback if chosen: Colour is irrelevant._
+- ◻️ Yes, if you do not give credit  
+  _↳ feedback if chosen: Credit is still required, and changes are still forbidden._
+- ◻️ Yes, always  
+  _↳ feedback if chosen: ND forbids changes._
+- ✅ No
+
+Full working after a second miss:
+
+> ND means no derivatives.  
+> So the answer is No.  
+
+> Is this use allowed? Selling T-shirts printed with a CC BY-NC image
+
+- ◻️ Yes, if you give credit  
+  _↳ feedback if chosen: Credit does not remove the NC condition._
+- ✅ No (without the creator's permission)
+- ◻️ Yes, always  
+  _↳ feedback if chosen: NC forbids commercial use._
+- ◻️ Yes, if sold cheaply  
+  _↳ feedback if chosen: Any sale is commercial._
+
+Full working after a second miss:
+
+> Commercial use needs permission.  
+> So the answer is No (without the creator's permission).  
+
+> Is this use allowed? Using a CC BY-ND photo, with credit, unchanged, in a school magazine
+
+- ◻️ No, CC works can never be used  
+  _↳ feedback if chosen: CC licences allow use under conditions._
+- ◻️ Only if you change the photo  
+  _↳ feedback if chosen: ND forbids changes._
+- ◻️ No, credit is not allowed  
+  _↳ feedback if chosen: Credit is required (BY)._
+- ✅ Yes
+
+Full working after a second miss:
+
+> Credit given and no changes: allowed.  
+> So the answer is Yes.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-32-which` · Lesson 32 · multiple choice, level 1
+
+Prompt: Is this off-the-shelf or bespoke? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A school buys LibreOffice for its computers. | off-the-shelf | bespoke · hardware · a utility only | It was not written specially for the school. · It is software. · It is an office suite, not just a utility. | Ready-made for many users. |
+| A hospital pays programmers to build a system for its own patient records. | bespoke | off-the-shelf · open-source game · an antivirus | It is made for one client. · It is not a game. · It is not a security utility. | Custom-written for one organisation. |
+| A family installs a popular antivirus program. | off-the-shelf | bespoke · firmware · a database | Millions use the same program. · Firmware is built into hardware. · It is a utility. | Packaged for many users. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is this off-the-shelf or bespoke? A school buys LibreOffice for its computers.
+
+- ◻️ bespoke  
+  _↳ feedback if chosen: It was not written specially for the school._
+- ◻️ a utility only  
+  _↳ feedback if chosen: It is an office suite, not just a utility._
+- ✅ off-the-shelf
+- ◻️ hardware  
+  _↳ feedback if chosen: It is software._
+
+Full working after a second miss:
+
+> Ready-made for many users.  
+> So the answer is off-the-shelf.  
+
+> Is this off-the-shelf or bespoke? A family installs a popular antivirus program.
+
+- ◻️ firmware  
+  _↳ feedback if chosen: Firmware is built into hardware._
+- ◻️ a database  
+  _↳ feedback if chosen: It is a utility._
+- ◻️ bespoke  
+  _↳ feedback if chosen: Millions use the same program._
+- ✅ off-the-shelf
+
+Full working after a second miss:
+
+> Packaged for many users.  
+> So the answer is off-the-shelf.  
+
+> Is this off-the-shelf or bespoke? A family installs a popular antivirus program.
+
+- ✅ off-the-shelf
+- ◻️ bespoke  
+  _↳ feedback if chosen: Millions use the same program._
+- ◻️ a database  
+  _↳ feedback if chosen: It is a utility._
+- ◻️ firmware  
+  _↳ feedback if chosen: Firmware is built into hardware._
+
+Full working after a second miss:
+
+> Packaged for many users.  
+> So the answer is off-the-shelf.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-32-adv` · Lesson 32 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an advantage of off-the-shelf software? | It is cheaper and available immediately | It is made exactly for one user · Only one company can use it · It never needs updates | That is bespoke. · Many can use it. · It is updated often. | Costs are shared among many buyers. |
+| Which is an advantage of bespoke software? | It does exactly what the organisation needs | It is always cheaper · It is ready at once · It has many unused features | It is usually more expensive. · It takes time to develop. · It is built to need. | Designed around the user's processes. |
+| Which is a disadvantage of bespoke software? | It is expensive and takes a long time to develop | It cannot be changed · It is used by millions · It has lots of online tutorials | It can be changed by the developers. · It is for one organisation. · Help may be limited. | Paying developers for months costs a lot. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a disadvantage of bespoke software?
+
+- ◻️ It is used by millions  
+  _↳ feedback if chosen: It is for one organisation._
+- ◻️ It cannot be changed  
+  _↳ feedback if chosen: It can be changed by the developers._
+- ✅ It is expensive and takes a long time to develop
+- ◻️ It has lots of online tutorials  
+  _↳ feedback if chosen: Help may be limited._
+
+Full working after a second miss:
+
+> Paying developers for months costs a lot.  
+> So the answer is It is expensive and takes a long time to develop.  
+
+> Which is a disadvantage of bespoke software?
+
+- ✅ It is expensive and takes a long time to develop
+- ◻️ It cannot be changed  
+  _↳ feedback if chosen: It can be changed by the developers._
+- ◻️ It has lots of online tutorials  
+  _↳ feedback if chosen: Help may be limited._
+- ◻️ It is used by millions  
+  _↳ feedback if chosen: It is for one organisation._
+
+Full working after a second miss:
+
+> Paying developers for months costs a lot.  
+> So the answer is It is expensive and takes a long time to develop.  
+
+> Which is an advantage of bespoke software?
+
+- ◻️ It has many unused features  
+  _↳ feedback if chosen: It is built to need._
+- ◻️ It is ready at once  
+  _↳ feedback if chosen: It takes time to develop._
+- ✅ It does exactly what the organisation needs
+- ◻️ It is always cheaper  
+  _↳ feedback if chosen: It is usually more expensive._
+
+Full working after a second miss:
+
+> Designed around the user's processes.  
+> So the answer is It does exactly what the organisation needs.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-32-choose` · Lesson 32 · multiple choice, level 2
+
+Prompt: Which should they choose? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A student needs software to type assignments. | off-the-shelf word processor | bespoke software built for her · a custom bank system · no software at all | Far too costly for a common need. · Not relevant. · She needs a word processor. | Common needs are met by packaged software. |
+| A national electricity company needs to bill millions of customers with its own tariffs and meters. | bespoke software (or heavily customised) | a simple word processor · a free game · a photo editor | Not suitable for billing millions. · Not relevant. · Not relevant. | Unique, large-scale needs justify custom software. |
+| A new business must start next week with standard needs and little money. | off-the-shelf software | bespoke software · wait two years for custom software · write code by hand on paper | It takes too long and costs too much. · The business cannot wait. · Not practical. | Fast and cheap. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which should they choose? A new business must start next week with standard needs and little money.
+
+- ◻️ bespoke software  
+  _↳ feedback if chosen: It takes too long and costs too much._
+- ◻️ wait two years for custom software  
+  _↳ feedback if chosen: The business cannot wait._
+- ✅ off-the-shelf software
+- ◻️ write code by hand on paper  
+  _↳ feedback if chosen: Not practical._
+
+Full working after a second miss:
+
+> Fast and cheap.  
+> So the answer is off-the-shelf software.  
+
+> Which should they choose? A student needs software to type assignments.
+
+- ◻️ no software at all  
+  _↳ feedback if chosen: She needs a word processor._
+- ✅ off-the-shelf word processor
+- ◻️ a custom bank system  
+  _↳ feedback if chosen: Not relevant._
+- ◻️ bespoke software built for her  
+  _↳ feedback if chosen: Far too costly for a common need._
+
+Full working after a second miss:
+
+> Common needs are met by packaged software.  
+> So the answer is off-the-shelf word processor.  
+
+> Which should they choose? A new business must start next week with standard needs and little money.
+
+- ◻️ wait two years for custom software  
+  _↳ feedback if chosen: The business cannot wait._
+- ✅ off-the-shelf software
+- ◻️ bespoke software  
+  _↳ feedback if chosen: It takes too long and costs too much._
+- ◻️ write code by hand on paper  
+  _↳ feedback if chosen: Not practical._
+
+Full working after a second miss:
+
+> Fast and cheap.  
+> So the answer is off-the-shelf software.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-32-compare` · Lesson 32 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why might off-the-shelf software be more reliable than new bespoke software? | Many users have already tested it and bugs have been fixed | It is written by one person · It is never updated · It has no users | Big teams usually make it. · It is updated often. · It has many users. | Wide use finds and fixes bugs. |
+| A company using bespoke software finds its developer has closed down. What is the main risk? | No one may be able to fix or update the software | The software becomes free · The computer stops working · Nothing changes | Price is not the issue. · Hardware is not affected. · Support is lost. | Bespoke software depends on its developers. |
+| What is customised off-the-shelf software? | Packaged software whose settings or add-ons are adjusted for one organisation | Software written from nothing · A computer virus · Hardware only | That is fully bespoke. · Not malware. · It is software. | A middle way: cheaper than bespoke, closer to needs than plain packaged software. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is customised off-the-shelf software?
+
+- ◻️ Hardware only  
+  _↳ feedback if chosen: It is software._
+- ✅ Packaged software whose settings or add-ons are adjusted for one organisation
+- ◻️ Software written from nothing  
+  _↳ feedback if chosen: That is fully bespoke._
+- ◻️ A computer virus  
+  _↳ feedback if chosen: Not malware._
+
+Full working after a second miss:
+
+> A middle way: cheaper than bespoke, closer to needs than plain packaged software.  
+> So the answer is Packaged software whose settings or add-ons are adjusted for one organisation.  
+
+> A company using bespoke software finds its developer has closed down. What is the main risk?
+
+- ◻️ The software becomes free  
+  _↳ feedback if chosen: Price is not the issue._
+- ◻️ The computer stops working  
+  _↳ feedback if chosen: Hardware is not affected._
+- ◻️ Nothing changes  
+  _↳ feedback if chosen: Support is lost._
+- ✅ No one may be able to fix or update the software
+
+Full working after a second miss:
+
+> Bespoke software depends on its developers.  
+> So the answer is No one may be able to fix or update the software.  
+
+> Why might off-the-shelf software be more reliable than new bespoke software?
+
+- ◻️ It has no users  
+  _↳ feedback if chosen: It has many users._
+- ◻️ It is never updated  
+  _↳ feedback if chosen: It is updated often._
+- ✅ Many users have already tested it and bugs have been fixed
+- ◻️ It is written by one person  
+  _↳ feedback if chosen: Big teams usually make it._
+
+Full working after a second miss:
+
+> Wide use finds and fixes bugs.  
+> So the answer is Many users have already tested it and bugs have been fixed.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
+
+### `s3-32-choose-card` · Lesson 32 · multiple choice, level 1
+
+Prompt: Which should they choose? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A student needs software to type assignments. | off-the-shelf word processor | bespoke software built for her · a custom bank system · no software at all | Far too costly for a common need. · Not relevant. · She needs a word processor. | Common needs are met by packaged software. |
+| A national electricity company needs to bill millions of customers with its own tariffs and meters. | bespoke software (or heavily customised) | a simple word processor · a free game · a photo editor | Not suitable for billing millions. · Not relevant. · Not relevant. | Unique, large-scale needs justify custom software. |
+| A new business must start next week with standard needs and little money. | off-the-shelf software | bespoke software · wait two years for custom software · write code by hand on paper | It takes too long and costs too much. · The business cannot wait. · Not practical. | Fast and cheap. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which should they choose? A student needs software to type assignments.
+
+- ◻️ a custom bank system  
+  _↳ feedback if chosen: Not relevant._
+- ✅ off-the-shelf word processor
+- ◻️ no software at all  
+  _↳ feedback if chosen: She needs a word processor._
+- ◻️ bespoke software built for her  
+  _↳ feedback if chosen: Far too costly for a common need._
+
+Full working after a second miss:
+
+> Common needs are met by packaged software.  
+> So the answer is off-the-shelf word processor.  
+
+> Which should they choose? A new business must start next week with standard needs and little money.
+
+- ◻️ bespoke software  
+  _↳ feedback if chosen: It takes too long and costs too much._
+- ◻️ wait two years for custom software  
+  _↳ feedback if chosen: The business cannot wait._
+- ◻️ write code by hand on paper  
+  _↳ feedback if chosen: Not practical._
+- ✅ off-the-shelf software
+
+Full working after a second miss:
+
+> Fast and cheap.  
+> So the answer is off-the-shelf software.  
+
+> Which should they choose? A student needs software to type assignments.
+
+- ◻️ bespoke software built for her  
+  _↳ feedback if chosen: Far too costly for a common need._
+- ◻️ no software at all  
+  _↳ feedback if chosen: She needs a word processor._
+- ◻️ a custom bank system  
+  _↳ feedback if chosen: Not relevant._
+- ✅ off-the-shelf word processor
+
+Full working after a second miss:
+
+> Common needs are met by packaged software.  
+> So the answer is off-the-shelf word processor.  
+
+Sources: software (Form 3 Computer Science syllabus, Term 1: common application software, intellectual property, digital rights management, Creative Commons licences, off-the-shelf and bespoke software)
 

@@ -1,0 +1,529 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s3-18",
+   "name": "The program development life cycle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Programs are developed in stages:\n• Analysis: understand the problem and the requirements (inputs, processes, outputs).\n• Design: plan the solution with algorithms, flowcharts or pseudocode, and the user interface.\n• Coding: write the program in a programming language.\n• Testing: run it with normal, boundary and erroneous data to find and fix errors (debugging).\n• Implementation/deployment: install it for users and train them.\n• Maintenance: fix new errors, update and improve it over time.\nDocumentation is written throughout (user guide, technical notes).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "From problem to program",
+    "text": "Good programs are not written in one go. Developers follow a cycle of stages.\n• Analysis: understand the problem and what the users need. What are the inputs, processes and outputs?\n• Design: plan the solution as an algorithm, a flowchart or pseudocode, and design the screens."
+   },
+   {
+    "heading": "Building and checking",
+    "text": "• Coding: write the program in a programming language such as Python.\n• Testing: run it with test data and fix errors (debugging). Use normal data (typical values), boundary data (at the edges, e.g. {0} and {20} for marks out of {20}) and erroneous data (values that should be rejected, e.g. {25} or 'abc')."
+   },
+   {
+    "heading": "After release",
+    "text": "• Implementation: install the program, move existing data into it and train the users.\n• Maintenance: fix errors found later, adapt to new needs and improve it.\nDocumentation (a user guide and technical notes) is written along the way. When big changes are needed, the cycle starts again with analysis."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "analysis",
+    "meaning": "understanding the problem and requirements"
+   },
+   {
+    "word": "design",
+    "meaning": "planning the solution"
+   },
+   {
+    "word": "testing",
+    "meaning": "checking the program with test data"
+   },
+   {
+    "word": "maintenance",
+    "meaning": "keeping the program working and up to date"
+   },
+   {
+    "word": "boundary data",
+    "meaning": "values at the edge of the allowed range"
+   }
+  ],
+  "examples": [
+   "Flowchart drawing: design",
+   "Typing code: coding",
+   "Fixing a bug reported by users: maintenance"
+  ],
+  "mistake": {
+   "wrong": "Start by writing code straight away",
+   "right": "Start with analysis and design",
+   "why": "Without a clear plan, the program may solve the wrong problem."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A school wants a program to calculate pupils' averages. In which stage do the programmers find out which subjects and marks it must handle?",
+  "steps": [
+   "Finding out what the program must do comes first, before any planning or coding.",
+   "That is analysis: identifying inputs (marks), processes (averaging) and outputs (reports)."
+  ],
+  "answer": "Analysis",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s18-1",
+    "status": "draft",
+    "idea": "Analysis → design → coding → testing → implementation → maintenance.",
+    "vars": {},
+    "example": [
+     "Then the cycle may start again."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-18-order"
+    }
+   },
+   {
+    "id": "c3s18-2",
+    "status": "draft",
+    "idea": "Design plans the solution before coding.",
+    "vars": {},
+    "example": [
+     "Algorithms, flowcharts, pseudocode"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-18-stage"
+    }
+   },
+   {
+    "id": "c3s18-3",
+    "status": "draft",
+    "idea": "Testing uses normal, boundary and erroneous data.",
+    "vars": {},
+    "example": [
+     "For marks {0}–{20}: test {12}, {20} and {-5}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-18-test-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "algorithms"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A program accepts marks from 0 to 20. Which is boundary test data?",
+         "r": "20",
+         "w": [
+          "12",
+          "-5",
+          "abc"
+         ],
+         "e": [
+          "12 is normal data.",
+          "-5 is erroneous (out of range).",
+          "abc is erroneous (wrong type)."
+         ],
+         "y": "Boundary data is at the edge of the allowed range."
+        },
+        {
+         "q": "Which is erroneous test data for the same program?",
+         "r": "25",
+         "w": [
+          "0",
+          "10",
+          "20"
+         ],
+         "e": [
+          "0 is a boundary value.",
+          "10 is normal.",
+          "20 is a boundary value."
+         ],
+         "y": "Erroneous data should be rejected."
+        },
+        {
+         "q": "Why do programmers test with erroneous data?",
+         "r": "To check the program rejects bad data correctly",
+         "w": [
+          "To make it crash on purpose for fun",
+          "Because normal data is never used",
+          "To slow the program down"
+         ],
+         "e": [
+          "It is to check robustness.",
+          "Normal data is also tested.",
+          "Speed is not the aim."
+         ],
+         "y": "Good programs handle mistakes safely."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-18-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "prompt": "Put the stages of the program development life cycle in order.",
+   "items": [
+    {
+     "text": "Analysis"
+    },
+    {
+     "text": "Design"
+    },
+    {
+     "text": "Coding"
+    },
+    {
+     "text": "Testing"
+    },
+    {
+     "text": "Implementation"
+    },
+    {
+     "text": "Maintenance"
+    }
+   ],
+   "order": "as_written",
+   "hint": "Understand, plan, write, check, install, look after."
+  },
+  {
+   "id": "s3-18-stage",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Programmers draw a flowchart of the solution.",
+       "r": "design",
+       "w": [
+        "analysis",
+        "coding",
+        "maintenance"
+       ],
+       "e": [
+        "Analysis finds the requirements.",
+        "Coding writes the program.",
+        "Maintenance comes after release."
+       ],
+       "y": "Planning the solution is design."
+      },
+      {
+       "q": "The program is updated a year later to add a new feature.",
+       "r": "maintenance",
+       "w": [
+        "testing",
+        "analysis",
+        "coding"
+       ],
+       "e": [
+        "Testing is before release.",
+        "Analysis is at the start.",
+        "Coding is the first writing of the program."
+       ],
+       "y": "Changes after release are maintenance."
+      },
+      {
+       "q": "The team writes instructions in Python.",
+       "r": "coding",
+       "w": [
+        "design",
+        "implementation",
+        "analysis"
+       ],
+       "e": [
+        "Design plans; it does not write the language.",
+        "Implementation installs the finished program.",
+        "Analysis studies the problem."
+       ],
+       "y": "Writing program code is coding."
+      }
+     ]
+    }
+   },
+   "prompt": "Which stage is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-18-test",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A program accepts marks from 0 to 20. Which is boundary test data?",
+       "r": "20",
+       "w": [
+        "12",
+        "-5",
+        "abc"
+       ],
+       "e": [
+        "12 is normal data.",
+        "-5 is erroneous (out of range).",
+        "abc is erroneous (wrong type)."
+       ],
+       "y": "Boundary data is at the edge of the allowed range."
+      },
+      {
+       "q": "Which is erroneous test data for the same program?",
+       "r": "25",
+       "w": [
+        "0",
+        "10",
+        "20"
+       ],
+       "e": [
+        "0 is a boundary value.",
+        "10 is normal.",
+        "20 is a boundary value."
+       ],
+       "y": "Erroneous data should be rejected."
+      },
+      {
+       "q": "Why do programmers test with erroneous data?",
+       "r": "To check the program rejects bad data correctly",
+       "w": [
+        "To make it crash on purpose for fun",
+        "Because normal data is never used",
+        "To slow the program down"
+       ],
+       "e": [
+        "It is to check robustness.",
+        "Normal data is also tested.",
+        "Speed is not the aim."
+       ],
+       "y": "Good programs handle mistakes safely."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-18-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is analysis done before coding?",
+       "r": "To understand exactly what the program must do, so effort is not wasted",
+       "w": [
+        "Because coding is easy",
+        "Analysis is optional",
+        "To choose the colour of the screen only"
+       ],
+       "e": [
+        "Coding without understanding leads to the wrong program.",
+        "Skipping it causes problems.",
+        "It covers much more."
+       ],
+       "y": "A clear problem statement guides everything after."
+      },
+      {
+       "q": "Why is maintenance part of the cycle?",
+       "r": "Users find errors and needs change after the program is released",
+       "w": [
+        "Programs never change",
+        "It replaces testing",
+        "It is the first stage"
+       ],
+       "e": [
+        "They often need updates.",
+        "Testing still happens before release.",
+        "It is the last stage."
+       ],
+       "y": "Software is updated throughout its life."
+      },
+      {
+       "q": "What is debugging?",
+       "r": "Finding and fixing errors in a program",
+       "w": [
+        "Removing insects from the computer",
+        "Writing the user guide",
+        "Installing the program"
+       ],
+       "e": [
+        "The name comes from that story, but it means fixing errors.",
+        "That is documentation.",
+        "That is implementation."
+       ],
+       "y": "Debugging happens mainly during testing."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

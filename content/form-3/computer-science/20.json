@@ -1,0 +1,460 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "s3-20",
+   "name": "Algorithms: meaning and properties"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An algorithm is a finite, ordered set of clear steps that solves a problem.\nProperties of a good algorithm:\n• Finite: it ends after a number of steps.\n• Definite (unambiguous): each step has one clear meaning.\n• Ordered: steps are in the right sequence.\n• Has inputs and outputs.\n• Effective: each step can actually be done.\nEveryday examples: a recipe, directions to a friend's house, the steps to make a mobile-money transfer.\nTracing an algorithm means following it step by step with values to check what it does.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "What an algorithm is",
+    "text": "An algorithm is a finite, ordered set of clear steps that solves a problem. Computers run algorithms written as programs, but people use algorithms every day too: a recipe for puff-puff, directions to a friend's house, the steps for a mobile-money transfer."
+   },
+   {
+    "heading": "A good algorithm is…",
+    "text": "• Finite: it stops after a number of steps.\n• Definite: every step is clear. 'Add some salt' is vague; 'add {5} g of salt' is definite.\n• Ordered: the steps come in the correct sequence.\n• It takes inputs and produces outputs.\n• Effective: each step can actually be carried out."
+   },
+   {
+    "heading": "Tracing",
+    "text": "To check an algorithm, trace it: follow it step by step with real values and record each variable in a table.\nSET total TO {10}; REPEAT {3} TIMES: total ← total + {5}; OUTPUT total. Trace: {10} → {15} → {20} → {25}. Output {25}.\nTracing finds mistakes before the algorithm is coded."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "algorithm",
+    "meaning": "a finite, ordered set of clear steps to solve a problem"
+   },
+   {
+    "word": "trace",
+    "meaning": "follow an algorithm step by step with values"
+   },
+   {
+    "word": "variable",
+    "meaning": "a named store whose value can change"
+   },
+   {
+    "word": "ambiguous",
+    "meaning": "having more than one possible meaning"
+   }
+  ],
+  "examples": [
+   "Recipe: an everyday algorithm",
+   "Trace: {10} → {15} → {20} → {25}",
+   "Swap two variables using a sum"
+  ],
+  "mistake": {
+   "wrong": "'Fry until ready' is a precise step",
+   "right": "Say exactly when: 'fry for {5} minutes or until golden brown'",
+   "why": "Each step must have one clear meaning."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 7,
+   "b": 4
+  },
+  "problem": "Trace: SET x TO {a}; SET y TO {b}; SET x TO x + y; SET y TO x − y; OUTPUT x, y.",
+  "steps": [
+   "x = {a}, y = {b}.",
+   "x = {a} + {b} = {a + b}.",
+   "y = {a + b} − {b} = {a}."
+  ],
+  "answer": "x = {a + b}, y = {a}",
+  "checks": [
+   "a + b == 11"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s20-1",
+    "status": "draft",
+    "idea": "An algorithm is a finite, ordered list of clear steps.",
+    "vars": {},
+    "example": [
+     "A recipe for puff-puff is an algorithm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-20-def"
+    }
+   },
+   {
+    "id": "c3s20-2",
+    "status": "draft",
+    "idea": "Each step must be clear (unambiguous) and possible.",
+    "vars": {},
+    "example": [
+     "'Add some salt' is vague; 'add {5} g of salt' is clear."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-20-prop"
+    }
+   },
+   {
+    "id": "c3s20-3",
+    "status": "draft",
+    "idea": "Trace an algorithm by following it with values.",
+    "vars": {},
+    "example": [
+     "Keep a table of each variable's value."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-20-trace-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algorithms"
+     ],
+     "vars": {
+      "s": {
+       "int": [
+        0,
+        20
+       ]
+      },
+      "d": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "n": {
+       "int": [
+        2,
+        8
+       ]
+      }
+     },
+     "prompt": "Trace: SET total TO {s}; REPEAT {n} TIMES: total ← total + {d}; OUTPUT total. What is output?",
+     "answer": "traceAdd(s, d, n)",
+     "misconceptions": [
+      {
+       "id": "once",
+       "wrong": "s + d",
+       "explain": "The addition happens {n} times, not once."
+      },
+      {
+       "id": "nostart",
+       "wrong": "n * d",
+       "explain": "Remember the starting value {s}."
+      }
+     ],
+     "solution": [
+      "Start: total = {s}.",
+      "Each of the {n} repeats adds {d}: {n} × {d} = {n * d}.",
+      "Output: {s} + {n * d} = {answer}."
+     ],
+     "where": [
+      "s != 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-20-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is an algorithm?",
+       "r": "A finite, ordered set of clear steps to solve a problem",
+       "w": [
+        "A type of computer",
+        "A programming language",
+        "A random list of ideas"
+       ],
+       "e": [
+        "Hardware is not an algorithm.",
+        "Languages are used to code algorithms.",
+        "The steps must be ordered and clear."
+       ],
+       "y": "Algorithms can be followed by people or computers."
+      },
+      {
+       "q": "Which is an example of an algorithm in daily life?",
+       "r": "the steps to send money with mobile money",
+       "w": [
+        "a photograph",
+        "a song's tune",
+        "a football"
+       ],
+       "e": [
+        "A photo is not a set of steps.",
+        "A tune is not instructions.",
+        "An object is not a process."
+       ],
+       "y": "Ordered steps that achieve a goal."
+      },
+      {
+       "q": "Why must an algorithm be finite?",
+       "r": "It must end after a number of steps and give a result",
+       "w": [
+        "It must run forever",
+        "It must have exactly ten steps",
+        "It must use a computer"
+       ],
+       "e": [
+        "Then there would be no result.",
+        "Any number of steps is allowed, but it must end.",
+        "People can follow algorithms too."
+       ],
+       "y": "An endless process never produces an answer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-20-prop",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which step is too ambiguous for an algorithm?",
+       "r": "Cook the rice for a while.",
+       "w": [
+        "Cook the rice for 20 minutes.",
+        "Add 2 cups of water.",
+        "Turn off the gas."
+       ],
+       "e": [
+        "20 minutes is clear.",
+        "2 cups is clear.",
+        "That is clear."
+       ],
+       "y": "'A while' has no definite meaning."
+      },
+      {
+       "q": "Why does the order of steps matter?",
+       "r": "Doing steps in the wrong order can give a wrong result",
+       "w": [
+        "It never matters",
+        "Computers sort the steps themselves",
+        "Only the first step matters"
+       ],
+       "e": [
+        "It does: you cannot drain rice before cooking it.",
+        "Computers follow the given order.",
+        "Every step matters."
+       ],
+       "y": "Sequence is a key property."
+      },
+      {
+       "q": "An algorithm has no output. What is wrong?",
+       "r": "It gives no result, so it does not solve the problem",
+       "w": [
+        "Nothing: outputs are optional",
+        "It is too short",
+        "It has too many inputs"
+       ],
+       "e": [
+        "A useful algorithm produces a result.",
+        "Length is not the problem.",
+        "Inputs are not the issue."
+       ],
+       "y": "Algorithms must produce an output."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-20-trace",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "s": {
+     "int": [
+      0,
+      20
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      8
+     ]
+    }
+   },
+   "prompt": "Trace: SET total TO {s}; REPEAT {n} TIMES: total ← total + {d}; OUTPUT total. What is output?",
+   "answer": "traceAdd(s, d, n)",
+   "misconceptions": [
+    {
+     "id": "once",
+     "wrong": "s + d",
+     "explain": "The addition happens {n} times, not once."
+    },
+    {
+     "id": "nostart",
+     "wrong": "n * d",
+     "explain": "Remember the starting value {s}."
+    }
+   ],
+   "solution": [
+    "Start: total = {s}.",
+    "Each of the {n} repeats adds {d}: {n} × {d} = {n * d}.",
+    "Output: {s} + {n * d} = {answer}."
+   ],
+   "where": [
+    "s != 0"
+   ]
+  },
+  {
+   "id": "s3-20-swap",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      30
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      30
+     ]
+    }
+   },
+   "prompt": "Trace: SET x TO {a}; SET y TO {b}; SET x TO x + y; SET y TO x − y; SET x TO x − y; OUTPUT x. What is output?",
+   "answer": "b",
+   "misconceptions": [
+    {
+     "id": "first",
+     "wrong": "a",
+     "explain": "Follow each step: the values have been swapped."
+    },
+    {
+     "id": "sum",
+     "wrong": "a + b",
+     "explain": "That is x after the third line; there are more steps."
+    }
+   ],
+   "solution": [
+    "x = {a}, y = {b}.",
+    "x = {a} + {b} = {a + b}; y = {a + b} − {b} = {a}.",
+    "x = {a + b} − {a} = {b}. Output: {answer}."
+   ],
+   "where": [
+    "a != b"
+   ]
+  }
+ ]
+}

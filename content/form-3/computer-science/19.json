@@ -1,0 +1,528 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "s3-19",
+   "name": "Decomposition and ways of representing solutions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Decomposition: breaking a big problem into smaller sub-problems that are easier to solve, then combining their solutions.\nExample: 'organise a school sports day' → plan events, prepare the field, register athletes, record results, award prizes.\nSolutions can be represented as:\n• structure diagrams (showing the sub-problems);\n• algorithms in plain steps;\n• pseudocode (structured English-like statements);\n• flowcharts (diagrams with standard symbols).\nEach part should have clear inputs, processing and outputs (IPO).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Breaking problems down",
+    "text": "Big problems are hard to solve in one go. Decomposition means splitting a problem into smaller sub-problems, solving each, and putting the solutions together.\n'Organise the school sports day' becomes: plan the events, prepare the field, register athletes, record results, award prizes. Each part can be given to a different team."
+   },
+   {
+    "heading": "Input, process, output",
+    "text": "For each part, ask:\n• Input: what data does it need?\n• Process: what must be done with the data?\n• Output: what result must be shown or stored?\nFor a report card: input the marks, process them (total, average, grade), output the printed report."
+   },
+   {
+    "heading": "Showing the solution",
+    "text": "• A structure diagram shows the problem at the top and its sub-problems below.\n• An algorithm can be written as numbered steps.\n• Pseudocode uses structured English-like statements such as INPUT, OUTPUT, IF … THEN … ELSE, FOR … NEXT.\n• A flowchart shows the same steps with standard shapes and arrows.\nAll of them describe the steps before any real code is written."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "decomposition",
+    "meaning": "breaking a problem into smaller parts"
+   },
+   {
+    "word": "sub-problem",
+    "meaning": "one smaller part of a big problem"
+   },
+   {
+    "word": "pseudocode",
+    "meaning": "structured English-like description of an algorithm"
+   },
+   {
+    "word": "IPO",
+    "meaning": "input, process, output"
+   }
+  ],
+  "examples": [
+   "Report card: input marks, average, print",
+   "Sports day: five sub-problems",
+   "Pseudocode: INPUT mark"
+  ],
+  "mistake": {
+   "wrong": "Decomposition makes the problem bigger",
+   "right": "Decomposition makes each part smaller and easier",
+   "why": "The whole problem is the same; it is just tackled piece by piece."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Decompose the problem 'calculate and print a pupil's report card'.",
+  "steps": [
+   "Input: read the pupil's name and marks.",
+   "Process: work out the total, average and grade for each subject.",
+   "Output: print the report card."
+  ],
+  "answer": "Input marks → process (total, average, grade) → output report",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s19-1",
+    "status": "draft",
+    "idea": "Decomposition breaks a big problem into smaller parts.",
+    "vars": {},
+    "example": [
+     "Cooking a meal: buy food, prepare, cook, serve."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-19-decomp"
+    }
+   },
+   {
+    "id": "c3s19-2",
+    "status": "draft",
+    "idea": "Every part has inputs, processing and outputs.",
+    "vars": {},
+    "example": [
+     "Input: marks; process: average; output: report"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-19-ipo"
+    }
+   },
+   {
+    "id": "c3s19-3",
+    "status": "draft",
+    "idea": "Solutions can be shown as pseudocode or flowcharts.",
+    "vars": {},
+    "example": [
+     "Both describe the same algorithm."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-19-rep-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "algorithms"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is pseudocode?",
+         "r": "A structured, English-like way of writing an algorithm",
+         "w": [
+          "A real programming language that runs",
+          "A drawing with shapes",
+          "A secret code"
+         ],
+         "e": [
+          "It does not run on a computer.",
+          "That is a flowchart.",
+          "It is meant to be easy to read."
+         ],
+         "y": "It lets you plan without worrying about a language's rules."
+        },
+        {
+         "q": "What does a structure diagram show?",
+         "r": "How a problem is broken into sub-problems",
+         "w": [
+          "The colours of a program's screens",
+          "The wiring inside a computer",
+          "A list of test results"
+         ],
+         "e": [
+          "That is screen design.",
+          "That is hardware.",
+          "That is a test log."
+         ],
+         "y": "A top-down view of the decomposition."
+        },
+        {
+         "q": "Which way of representing a solution uses standard symbols joined by arrows?",
+         "r": "a flowchart",
+         "w": [
+          "pseudocode",
+          "a paragraph",
+          "a spreadsheet"
+         ],
+         "e": [
+          "Pseudocode uses text.",
+          "A paragraph is plain prose.",
+          "A spreadsheet is application software."
+         ],
+         "y": "Ovals, rectangles, diamonds and parallelograms."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-19-decomp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is decomposition?",
+       "r": "Breaking a problem into smaller, easier sub-problems",
+       "w": [
+        "Letting a problem rot",
+        "Writing a program in one long line",
+        "Deleting parts of a program"
+       ],
+       "e": [
+        "Not in computing.",
+        "That is the opposite.",
+        "It is about planning, not deleting."
+       ],
+       "y": "Small parts are easier to understand, solve and test."
+      },
+      {
+       "q": "Which is a good sub-problem of 'run a school shop'?",
+       "r": "Record the daily sales",
+       "w": [
+        "Do everything",
+        "Buy a computer game",
+        "Go on holiday"
+       ],
+       "e": [
+        "That is the whole problem.",
+        "Not part of running the shop.",
+        "Not part of the problem."
+       ],
+       "y": "A sub-problem is one clear part of the whole."
+      },
+      {
+       "q": "Why does decomposition help teams of programmers?",
+       "r": "Different people can work on different parts at the same time",
+       "w": [
+        "It means no one needs to test",
+        "It makes programs longer for no reason",
+        "It removes the need for design"
+       ],
+       "e": [
+        "Each part must still be tested.",
+        "Clarity, not length, is the aim.",
+        "It is part of design."
+       ],
+       "y": "Smaller tasks can be shared out."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-19-ipo",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "input",
+       "r": "the length and the width",
+       "w": [
+        "length × width",
+        "showing the area on the screen",
+        "the rectangle's colour"
+       ],
+       "e": [
+        "That is the process.",
+        "That is the output.",
+        "Colour is not needed."
+       ],
+       "y": "Inputs are the data the program needs."
+      },
+      {
+       "q": "process",
+       "r": "multiplying length by width",
+       "w": [
+        "typing the length",
+        "displaying the answer",
+        "turning on the computer"
+       ],
+       "e": [
+        "That is input.",
+        "That is output.",
+        "Not part of the algorithm."
+       ],
+       "y": "Processing changes inputs into results."
+      },
+      {
+       "q": "output",
+       "r": "displaying the area",
+       "w": [
+        "entering the width",
+        "multiplying the numbers",
+        "saving the keyboard"
+       ],
+       "e": [
+        "That is input.",
+        "That is processing.",
+        "Not meaningful."
+       ],
+       "y": "Outputs are the results shown or stored."
+      }
+     ]
+    }
+   },
+   "prompt": "In 'calculate the area of a rectangle and display it', which is the {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-19-rep",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is pseudocode?",
+       "r": "A structured, English-like way of writing an algorithm",
+       "w": [
+        "A real programming language that runs",
+        "A drawing with shapes",
+        "A secret code"
+       ],
+       "e": [
+        "It does not run on a computer.",
+        "That is a flowchart.",
+        "It is meant to be easy to read."
+       ],
+       "y": "It lets you plan without worrying about a language's rules."
+      },
+      {
+       "q": "What does a structure diagram show?",
+       "r": "How a problem is broken into sub-problems",
+       "w": [
+        "The colours of a program's screens",
+        "The wiring inside a computer",
+        "A list of test results"
+       ],
+       "e": [
+        "That is screen design.",
+        "That is hardware.",
+        "That is a test log."
+       ],
+       "y": "A top-down view of the decomposition."
+      },
+      {
+       "q": "Which way of representing a solution uses standard symbols joined by arrows?",
+       "r": "a flowchart",
+       "w": [
+        "pseudocode",
+        "a paragraph",
+        "a spreadsheet"
+       ],
+       "e": [
+        "Pseudocode uses text.",
+        "A paragraph is plain prose.",
+        "A spreadsheet is application software."
+       ],
+       "y": "Ovals, rectangles, diamonds and parallelograms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-19-avg",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "prompt": "Put the steps of an algorithm to find the average of three marks in order.",
+   "items": [
+    {
+     "text": "Start"
+    },
+    {
+     "text": "Input the three marks"
+    },
+    {
+     "text": "Add the marks to get the total"
+    },
+    {
+     "text": "Divide the total by three"
+    },
+    {
+     "text": "Output the average"
+    },
+    {
+     "text": "Stop"
+    }
+   ],
+   "order": "as_written",
+   "hint": "Input, process, output, between start and stop."
+  }
+ ]
+}

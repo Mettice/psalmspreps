@@ -1,0 +1,476 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "s3-21",
+   "name": "Algorithmic instructions: input, output, assignment, selection and iteration"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Basic instructions used in pseudocode:\n• INPUT / READ: get data. OUTPUT / PRINT: show results.\n• Assignment: store a value in a variable, e.g. total ← total + mark.\n• Sequence: steps carried out one after another.\n• Selection: IF condition THEN … ELSE … ENDIF chooses between paths.\n• Iteration (loops): FOR i ← 1 TO n … NEXT i (a fixed number of times); WHILE condition DO … ENDWHILE (while a condition is true); REPEAT … UNTIL condition.\nComparison operators: =, <>, <, >, <=, >=.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The building blocks",
+    "text": "Every algorithm is made from a few kinds of instruction:\n• Input (INPUT, READ): get data, e.g. INPUT mark.\n• Output (OUTPUT, PRINT): show results.\n• Assignment: store a value in a variable, e.g. total ← total + mark (read the arrow as 'becomes').\n• Sequence: carry out steps in order, one after another."
+   },
+   {
+    "heading": "Selection",
+    "text": "Selection lets an algorithm choose. IF condition THEN … ELSE … ENDIF.\nIF mark >= {10} THEN OUTPUT 'Pass' ELSE OUTPUT 'Fail' ENDIF.\nConditions use comparison operators: = (equal), <> (not equal), <, >, <=, >=. Only one branch runs."
+   },
+   {
+    "heading": "Iteration (loops)",
+    "text": "Loops repeat steps:\n• FOR i ← {1} TO {5} … NEXT i: repeats a fixed number of times ({5}).\n• WHILE condition DO … ENDWHILE: repeats while the condition is true (it may run zero times).\n• REPEAT … UNTIL condition: runs at least once, until the condition becomes true.\ntotal ← {0}; FOR i ← {1} TO {4}: total ← total + i gives {1} + {2} + {3} + {4} = {10}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "assignment",
+    "meaning": "storing a value in a variable"
+   },
+   {
+    "word": "selection",
+    "meaning": "choosing between paths with IF"
+   },
+   {
+    "word": "iteration",
+    "meaning": "repeating steps in a loop"
+   },
+   {
+    "word": "condition",
+    "meaning": "a test that is true or false"
+   }
+  ],
+  "examples": [
+   "IF x > {0} THEN OUTPUT 'positive'",
+   "FOR i ← {1} TO {3}: OUTPUT i",
+   "count ← count + {1}"
+  ],
+  "mistake": {
+   "wrong": "FOR i ← {2} TO {5} runs {3} times",
+   "right": "It runs {4} times: {2}, {3}, {4}, {5}",
+   "why": "Count both the first and last values: last − first + {1}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 13
+  },
+  "problem": "What is output? INPUT mark (mark = {m}); IF mark >= {10} THEN OUTPUT 'Pass' ELSE OUTPUT 'Fail' ENDIF.",
+  "steps": [
+   "mark = {m}.",
+   "Is {m} >= {10}? {m >= 10 ? 'Yes' : 'No'}.",
+   "So the output is {m >= 10 ? 'Pass' : 'Fail'}."
+  ],
+  "answer": "{m >= 10 ? 'Pass' : 'Fail'}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s21-1",
+    "status": "draft",
+    "idea": "Selection: IF … THEN … ELSE chooses what to do.",
+    "vars": {},
+    "example": [
+     "IF age >= {18} THEN OUTPUT 'Adult'"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-21-if"
+    }
+   },
+   {
+    "id": "c3s21-2",
+    "status": "draft",
+    "idea": "Iteration repeats steps: FOR, WHILE, REPEAT … UNTIL.",
+    "vars": {},
+    "example": [
+     "FOR i ← {1} TO {5}: OUTPUT i prints {1} to {5}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-21-loop"
+    }
+   },
+   {
+    "id": "c3s21-3",
+    "status": "draft",
+    "idea": "Assignment stores a value: total ← total + x.",
+    "vars": {},
+    "example": [
+     "The arrow means 'becomes'."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-21-kind-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "algorithms"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "IF temperature > 30 THEN OUTPUT 'Hot' ENDIF",
+         "r": "selection",
+         "w": [
+          "iteration",
+          "assignment",
+          "input"
+         ],
+         "e": [
+          "Nothing is repeated.",
+          "No value is stored.",
+          "No data is read."
+         ],
+         "y": "IF chooses a path."
+        },
+        {
+         "q": "WHILE balance > 0 DO … ENDWHILE",
+         "r": "iteration",
+         "w": [
+          "selection",
+          "output",
+          "assignment"
+         ],
+         "e": [
+          "It repeats, not just chooses once.",
+          "It does not print.",
+          "It does not store a value by itself."
+         ],
+         "y": "A loop repeats while the condition is true."
+        },
+        {
+         "q": "total ← total + price",
+         "r": "assignment",
+         "w": [
+          "selection",
+          "iteration",
+          "output"
+         ],
+         "e": [
+          "No choice is made.",
+          "Nothing repeats here.",
+          "Nothing is displayed."
+         ],
+         "y": "A new value is stored in total."
+        },
+        {
+         "q": "INPUT name",
+         "r": "input",
+         "w": [
+          "output",
+          "selection",
+          "iteration"
+         ],
+         "e": [
+          "Nothing is displayed.",
+          "No choice is made.",
+          "Nothing repeats."
+         ],
+         "y": "Data is read into the variable name."
+        }
+       ]
+      }
+     },
+     "prompt": "Which kind of instruction is this? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-21-if",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      0,
+      20
+     ]
+    },
+    "p": {
+     "pick": [
+      10,
+      12
+     ]
+    }
+   },
+   "prompt": "What is output? mark ← {m}; IF mark >= {p} THEN OUTPUT 'Pass' ELSE OUTPUT 'Fail' ENDIF",
+   "correct": "{traceIf(m, p - 1, 'Pass', 'Fail')}",
+   "distractors": [
+    {
+     "text": "{traceIf(m, p - 1, 'Fail', 'Pass')}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{str(m)}",
+     "misconception": "mark"
+    },
+    {
+     "text": "{'Pass Fail'}",
+     "misconception": "both"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Check the condition: {m} >= {p} is {m >= p ? 'true' : 'false'}."
+    },
+    {
+     "id": "mark",
+     "explain": "The mark itself is not output; only Pass or Fail."
+    },
+    {
+     "id": "both",
+     "explain": "Only one branch of IF … ELSE runs."
+    }
+   ],
+   "solution": [
+    "Is {m} >= {p}? {m >= p ? 'Yes' : 'No'}.",
+    "So {answer} is output."
+   ]
+  },
+  {
+   "id": "s3-21-loop",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      6,
+      15
+     ]
+    }
+   },
+   "prompt": "How many times is 'Hello' printed? FOR i ← {a} TO {b}: OUTPUT 'Hello' NEXT i",
+   "answer": "b - a + 1",
+   "misconceptions": [
+    {
+     "id": "minus",
+     "wrong": "b - a",
+     "explain": "Count both ends: add {1}."
+    },
+    {
+     "id": "b",
+     "wrong": "b",
+     "explain": "The loop starts at {a}, not {1}."
+    }
+   ],
+   "solution": [
+    "i takes the values {a}, {a + 1}, …, {b}.",
+    "That is {b} − {a} + {1} = {answer} times."
+   ],
+   "where": [
+    "a != 1"
+   ]
+  },
+  {
+   "id": "s3-21-kind",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "IF temperature > 30 THEN OUTPUT 'Hot' ENDIF",
+       "r": "selection",
+       "w": [
+        "iteration",
+        "assignment",
+        "input"
+       ],
+       "e": [
+        "Nothing is repeated.",
+        "No value is stored.",
+        "No data is read."
+       ],
+       "y": "IF chooses a path."
+      },
+      {
+       "q": "WHILE balance > 0 DO … ENDWHILE",
+       "r": "iteration",
+       "w": [
+        "selection",
+        "output",
+        "assignment"
+       ],
+       "e": [
+        "It repeats, not just chooses once.",
+        "It does not print.",
+        "It does not store a value by itself."
+       ],
+       "y": "A loop repeats while the condition is true."
+      },
+      {
+       "q": "total ← total + price",
+       "r": "assignment",
+       "w": [
+        "selection",
+        "iteration",
+        "output"
+       ],
+       "e": [
+        "No choice is made.",
+        "Nothing repeats here.",
+        "Nothing is displayed."
+       ],
+       "y": "A new value is stored in total."
+      },
+      {
+       "q": "INPUT name",
+       "r": "input",
+       "w": [
+        "output",
+        "selection",
+        "iteration"
+       ],
+       "e": [
+        "Nothing is displayed.",
+        "No choice is made.",
+        "Nothing repeats."
+       ],
+       "y": "Data is read into the variable name."
+      }
+     ]
+    }
+   },
+   "prompt": "Which kind of instruction is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-21-sum",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      3,
+      12
+     ]
+    }
+   },
+   "prompt": "What is output? total ← {0}; FOR i ← {1} TO {n}: total ← total + i NEXT i; OUTPUT total",
+   "answer": "n * (n + 1) / 2",
+   "misconceptions": [
+    {
+     "id": "n",
+     "wrong": "n",
+     "explain": "That is the last value of i. total adds up every i."
+    },
+    {
+     "id": "square",
+     "wrong": "n * n",
+     "explain": "Add {1} + {2} + … + {n}, not {n} × {n}."
+    }
+   ],
+   "solution": [
+    "The loop adds {1} + {2} + … + {n}.",
+    "Sum = {n} × {n + 1} ÷ {2} = {answer}."
+   ]
+  }
+ ]
+}
