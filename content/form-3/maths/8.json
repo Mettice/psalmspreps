@@ -1,0 +1,564 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "m3-8",
+   "name": "Solve simultaneous linear equations by elimination"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Two equations with two unknowns, solved together, are simultaneous equations. The solution is a pair (x, y) that makes both true.\nElimination method:\n• Make the coefficients of one unknown the same size (multiply one or both equations if needed).\n• Same signs → subtract the equations; opposite signs → add them. That unknown disappears.\n• Solve for the other unknown, then substitute back to find the first.\n• Check in both original equations.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Two equations, two unknowns",
+    "text": "Ayuk buys pens and books. One equation such as x + y = {7} has many solutions ({1} and {6}, {2} and {5}…). A second fact, such as x − y = {1}, narrows it down to one pair that makes both true: x = {4}, y = {3}.\nEquations solved together like this are simultaneous equations. The solution is always a pair of values."
+   },
+   {
+    "heading": "Elimination: make one unknown disappear",
+    "text": "Look at the coefficients of one unknown.\n• Opposite signs, same size ({mono(2, 'y')} and {mono(-2, 'y')}): add the equations.\n• Same sign, same size ({mono(3, 'x')} and {mono(3, 'x')}): subtract them.\nThat unknown is eliminated, leaving one equation with one unknown. Solve it, then substitute the value into either original equation to find the other unknown."
+   },
+   {
+    "heading": "When nothing matches yet",
+    "text": "In {poly([2, 'x'], [3, 'y'])} = {13} and {poly([5, 'x'], [1, 'y'])} = {13}, no coefficients match. Multiply the second equation by {3}: {poly([15, 'x'], [3, 'y'])} = {39}.\nNow both have {mono(3, 'y')}. Subtract the first: {mono(13, 'x')} = {26}, so x = {2}. Then {5} × {2} + y = {13} gives y = {3}.\nRemember to multiply every term, including the number on the right."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "simultaneous equations",
+    "meaning": "two equations solved together for the same unknowns"
+   },
+   {
+    "word": "eliminate",
+    "meaning": "remove one unknown by adding or subtracting the equations"
+   },
+   {
+    "word": "substitute",
+    "meaning": "put a known value in place of a letter"
+   }
+  ],
+  "examples": [
+   "{poly([1, 'x'], [1, 'y'])} = {10}, {poly([1, 'x'], [-1, 'y'])} = {2} → x = {6}, y = {4}",
+   "{poly([2, 'x'], [1, 'y'])} = {8}, {poly([1, 'x'], [1, 'y'])} = {5} → subtract: x = {3}, y = {2}"
+  ],
+  "mistake": {
+   "wrong": "{poly([2, 'x'], [1, 'y'])} = {7} times {3}: {poly([6, 'x'], [3, 'y'])} = {7}",
+   "right": "{poly([6, 'x'], [3, 'y'])} = {21}",
+   "why": "Multiplying an equation means multiplying every term on both sides, the number on the right too."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": 3,
+   "t": -1,
+   "a": 2,
+   "b": 3,
+   "c": 5,
+   "d": 1
+  },
+  "problem": "Solve {poly([a, 'x'], [b, 'y'])} = {a * s + b * t} and {poly([c, 'x'], [d, 'y'])} = {c * s + d * t}.",
+  "steps": [
+   "Multiply the second equation by {b} so both have {mono(b, 'y')}: {poly([c * b, 'x'], [d * b, 'y'])} = {(c * s + d * t) * b}.",
+   "Same sign: subtract the first equation from it: {mono(c * b - a, 'x')} = {(c * s + d * t) * b - (a * s + b * t)}, so x = {s}.",
+   "Substitute x = {s} in the second equation: {c * s} + y = {c * s + d * t}, so y = {t}.",
+   "Check in the first: {a} × {s} + {b} × {br(t)} = {a * s + b * t}. ✓"
+  ],
+  "answer": "{'x = ' + fmt(s) + ', y = ' + fmt(t)}",
+  "checks": [
+   "c * b - a == 13"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m8-1",
+    "status": "draft",
+    "idea": "Opposite signs in front of the same unknown: add the equations to eliminate it.",
+    "vars": {},
+    "example": [
+     "{poly([1, 'x'], [1, 'y'])} = {7} and {poly([1, 'x'], [-1, 'y'])} = {1}: adding gives {mono(2, 'x')} = {8}, so x = {4}, y = {3}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-8-which"
+    }
+   },
+   {
+    "id": "c3m8-2",
+    "status": "draft",
+    "idea": "Same sign: subtract one equation from the other.",
+    "vars": {},
+    "example": [
+     "{poly([3, 'x'], [2, 'y'])} = {12} and {poly([1, 'x'], [2, 'y'])} = {8}: subtracting gives {mono(2, 'x')} = {4}, so x = {2}, y = {3}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-8-add"
+    }
+   },
+   {
+    "id": "c3m8-3",
+    "status": "draft",
+    "idea": "If no coefficients match, multiply an equation first so that they do.",
+    "vars": {},
+    "example": [
+     "{poly([2, 'x'], [1, 'y'])} = {7} times {3} gives {poly([6, 'x'], [3, 'y'])} = {21}, which matches {mono(3, 'y')} in another equation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-8-mult-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "simultaneous"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "c": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "s": {
+       "int": [
+        -6,
+        9
+       ]
+      },
+      "t": {
+       "int": [
+        -6,
+        9
+       ]
+      }
+     },
+     "prompt": "Solve {poly([a, 'x'], [b, 'y'])} = {a * s + b * t} and {poly([c, 'x'], [1, 'y'])} = {c * s + t}. What is y?",
+     "answer": "t",
+     "misconceptions": [
+      {
+       "id": "x",
+       "wrong": "s",
+       "explain": "That is x. The question asks for y."
+      },
+      {
+       "id": "nomult",
+       "wrong": "(a * s + b * t - (c * s + t)) / (b - 1)",
+       "explain": "Subtracting without first making the x coefficients equal leaves x in the equation."
+      }
+     ],
+     "solution": [
+      "Multiply the second equation by {a}: {poly([a * c, 'x'], [a, 'y'])} = {a * (c * s + t)}.",
+      "Multiply the first by {c}: {poly([a * c, 'x'], [b * c, 'y'])} = {c * (a * s + b * t)}.",
+      "Subtract: {mono(b * c - a, 'y')} = {c * (a * s + b * t) - a * (c * s + t)}, so y = {answer}."
+     ],
+     "where": [
+      "b * c != a",
+      "a != c",
+      "s != t",
+      "b != 1",
+      "(a * s + b * t - (c * s + t)) / (b - 1) != t"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-8-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "g": {
+     "pick": [
+      1,
+      -1
+     ]
+    },
+    "s": {
+     "int": [
+      -6,
+      9
+     ]
+    },
+    "t": {
+     "int": [
+      -6,
+      9
+     ]
+    }
+   },
+   "prompt": "To eliminate y from {poly([a, 'x'], [b, 'y'])} = {a * s + b * t} and {poly([c, 'x'], [g * b, 'y'])} = {c * s + g * b * t}, what should you do?",
+   "correct": "{g == -1 ? 'Add the two equations' : 'Subtract one equation from the other'}",
+   "distractors": [
+    {
+     "text": "{g == -1 ? 'Subtract one equation from the other' : 'Add the two equations'}",
+     "misconception": "op"
+    },
+    {
+     "text": "{'Multiply the first equation by ' + b}",
+     "misconception": "mult"
+    },
+    {
+     "text": "Divide both equations by y",
+     "misconception": "div"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "op",
+     "explain": "{g == -1 ? 'Subtracting gives ' + mono(2 * b, 'y') + ': y is still there. Opposite signs cancel when you add.' : 'Adding gives ' + mono(2 * b, 'y') + ': y is still there. Equal terms cancel when you subtract.'}"
+    },
+    {
+     "id": "mult",
+     "explain": "The y coefficients already have the same size, {b}: no need to multiply."
+    },
+    {
+     "id": "div",
+     "explain": "You cannot divide by an unknown; eliminate y by adding or subtracting the equations."
+    }
+   ],
+   "solution": [
+    "The y terms are {mono(b, 'y')} and {mono(g * b, 'y')}.",
+    "{g == -1 ? 'Opposite signs: adding makes them cancel.' : 'Same sign: subtracting makes them cancel.'}",
+    "So: {answer}."
+   ],
+   "where": [
+    "a != c"
+   ]
+  },
+  {
+   "id": "m3-8-add",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "s": {
+     "int": [
+      -6,
+      9
+     ]
+    },
+    "t": {
+     "int": [
+      -6,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, 'y'])} = {a * s + b * t} and {poly([c, 'x'], [-b, 'y'])} = {c * s - b * t}. What is x?",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "((a * s + b * t) - (c * s - b * t)) / (a - c)",
+     "explain": "Subtracting keeps the y terms: {mono(b, 'y')} − ({mono(-b, 'y')}) = {mono(2 * b, 'y')}. Add instead."
+    }
+   ],
+   "solution": [
+    "Add the equations: the y terms cancel. {mono(a + c, 'x')} = {(a + c) * s}.",
+    "Divide by {a + c}: x = {answer}."
+   ],
+   "where": [
+    "a != c",
+    "s != 0",
+    "((a * s + b * t) - (c * s - b * t)) / (a - c) != s"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-8-mult",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "s": {
+     "int": [
+      -6,
+      9
+     ]
+    },
+    "t": {
+     "int": [
+      -6,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, 'y'])} = {a * s + b * t} and {poly([c, 'x'], [1, 'y'])} = {c * s + t}. What is y?",
+   "answer": "t",
+   "misconceptions": [
+    {
+     "id": "x",
+     "wrong": "s",
+     "explain": "That is x. The question asks for y."
+    },
+    {
+     "id": "nomult",
+     "wrong": "(a * s + b * t - (c * s + t)) / (b - 1)",
+     "explain": "Subtracting without first making the x coefficients equal leaves x in the equation."
+    }
+   ],
+   "solution": [
+    "Multiply the second equation by {a}: {poly([a * c, 'x'], [a, 'y'])} = {a * (c * s + t)}.",
+    "Multiply the first by {c}: {poly([a * c, 'x'], [b * c, 'y'])} = {c * (a * s + b * t)}.",
+    "Subtract: {mono(b * c - a, 'y')} = {c * (a * s + b * t) - a * (c * s + t)}, so y = {answer}."
+   ],
+   "where": [
+    "b * c != a",
+    "a != c",
+    "s != t",
+    "b != 1",
+    "(a * s + b * t - (c * s + t)) / (b - 1) != t"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-8-x",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "s": {
+     "int": [
+      -6,
+      9
+     ]
+    },
+    "t": {
+     "int": [
+      -6,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, 'y'])} = {a * s + b * t} and {poly([c, 'x'], [d, 'y'])} = {c * s + d * t}. What is x?",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "y",
+     "wrong": "t",
+     "explain": "That is y. The question asks for x."
+    }
+   ],
+   "solution": [
+    "Make the y coefficients equal: multiply the first equation by {d} and the second by {b}.",
+    "{mono(a * d, 'x')} − {mono(c * b, 'x')} = {d * (a * s + b * t)} − {b * (c * s + d * t)}, so {mono(a * d - b * c, 'x')} = {(a * d - b * c) * s}.",
+    "x = {answer}."
+   ],
+   "where": [
+    "a * d != b * c",
+    "b != d",
+    "s != t"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-8-pair",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "s": {
+     "int": [
+      -6,
+      9
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, 'y'])} = {a * s + b * t} and {poly([c, 'x'], [-d, 'y'])} = {c * s - d * t}.",
+   "correct": "{'x = ' + fmt(s) + ', y = ' + fmt(t)}",
+   "distractors": [
+    {
+     "text": "{'x = ' + fmt(t) + ', y = ' + fmt(s)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{'x = ' + fmt(-s) + ', y = ' + fmt(-t)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{'x = ' + fmt(s) + ', y = ' + fmt(-t)}",
+     "misconception": "ysign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Check in the first equation: {a} × {br(t)} + {b} × {br(s)} = {a * t + b * s}, not {a * s + b * t}."
+    },
+    {
+     "id": "sign",
+     "explain": "Check in the first equation: {a} × {br(-s)} + {b} × {br(-t)} = {-(a * s + b * t)}, not {a * s + b * t}."
+    },
+    {
+     "id": "ysign",
+     "explain": "Check in the first equation: {a} × {br(s)} + {b} × {br(-t)} = {a * s - b * t}, not {a * s + b * t}."
+    }
+   ],
+   "solution": [
+    "Multiply to match the y coefficients, then add (the signs are opposite).",
+    "x = {s}; substitute back: y = {t}.",
+    "Check: {a} × {br(s)} + {b} × {br(t)} = {a * s + b * t}. ✓",
+    "So {answer}."
+   ],
+   "where": [
+    "a * d != -b * c",
+    "a * d + b * c != 0",
+    "s != t",
+    "s != 0",
+    "a * t + b * s != a * s + b * t",
+    "a * s - b * t != a * s + b * t"
+   ]
+  }
+ ]
+}

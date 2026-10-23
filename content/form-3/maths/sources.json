@@ -1,4 +1,31 @@
 {
  "_note": "Sources for Form 3 Maths (content/classes.json, form-3). Rules are computed by src/engine/lib/maths.js and maths2.js (poly, mono, bracket, br).",
- "algebra-simplify": {"ref": "Form 3 Mathematics syllabus, Term 1: algebraic expressions (simplification, expansion); standard algebra conventions (like terms, laws of indices for products and quotients of terms, distributive law)", "checked": "Answers computed by the engine from the distributive law and index laws; checked by 1000-seed tests."}
+ "algebra-simplify": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: algebraic expressions (simplification, expansion); standard algebra conventions (like terms, laws of indices for products and quotients of terms, distributive law)",
+  "checked": "Answers computed by the engine from the distributive law and index laws; checked by 1000-seed tests."
+ },
+ "algebra-expand": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: expansion of algebraic expressions; identities (a + b)², (a − b)², (a + b)(a − b)",
+  "checked": "Answers computed by the engine from the distributive law; checked by 1000-seed tests."
+ },
+ "algebra-factorise": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: factorisation (common factor, grouping, quadratic trinomials, difference of two squares)",
+  "checked": "Every factorised answer is generated from its factors and its expansion is checked by the tests (1000 seeds)."
+ },
+ "algebra-equations": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: solving linear equations (brackets, unknowns on both sides, fractions)",
+  "checked": "Equations are built from a chosen integer solution; the engine verifies each answer."
+ },
+ "simultaneous": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: simultaneous linear equations (elimination, substitution, graphical meaning)",
+  "checked": "Each pair of equations is built from a chosen integer solution; the engine checks it in both equations."
+ },
+ "word-problems": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: building and solving equations from real-life problems",
+  "checked": "Problems are generated from their solution; answers verified by the engine (1000 seeds)."
+ },
+ "quadratic-equations": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: quadratic equations by factorisation and by the quadratic formula; discriminant",
+  "checked": "Roots computed from the factors or the formula; tests check every variant."
+ }
 }

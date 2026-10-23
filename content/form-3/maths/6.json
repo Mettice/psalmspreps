@@ -1,0 +1,425 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  3,
+  4
+ ],
+ "skills": [
+  {
+   "id": "m3-6",
+   "name": "Factorise a difference of two squares"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A difference of two squares factorises as a² − b² = (a + b)(a − b).\n• Recognise it: two terms, both perfect squares, with a minus between them: x² − 25, 9y² − 4.\n• Take the square roots: x² − 25 = (x + 5)(x − 5); 9y² − 4 = (3y + 2)(3y − 2).\n• Take out a common factor first: 2x² − 18 = 2(x² − 9) = 2(x + 3)(x − 3).\n• A sum of two squares, x² + 25, does not factorise this way.\n• It helps in arithmetic: 53² − 47² = (53 + 47)(53 − 47) = 100 × 6 = 600.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Spotting a difference of two squares",
+    "text": "Last lesson's pattern backwards: (a + b)(a − b) = a² − b². So any expression of the form a² − b² can be factorised at once.\nCheck three things:\n• exactly two terms;\n• each term is a perfect square ({mono(1, 'x²')}, {mono(25, '')}, {mono(9, 'y²')}, {mono(4, 'a²')} …);\n• a minus sign between them.\nPerfect squares to know: {1}, {4}, {9}, {16}, {25}, {36}, {49}, {64}, {81}, {100}, {121}, {144}."
+   },
+   {
+    "heading": "Factorising it",
+    "text": "Take the square root of each term. One bracket gets plus, the other minus.\n• {poly([1, 'x²'], [-36, ''])} = {'(' + poly([1, 'x'], [6, '']) + ')' + '(' + poly([1, 'x'], [-6, '']) + ')'}\n• {poly([4, 'a²'], [-25, ''])} = {'(' + poly([2, 'a'], [5, '']) + ')' + '(' + poly([2, 'a'], [-5, '']) + ')'}, because {mono(4, 'a²')} = ({mono(2, 'a')})².\nLook for a common factor first: {poly([3, 'x²'], [-12, ''])} = {bracket(3, [1, 'x²'], [-4, ''])} = {3}{'(' + poly([1, 'x'], [2, '']) + ')' + '(' + poly([1, 'x'], [-2, '']) + ')'}.\nA sum such as x² + {9} cannot be factorised this way."
+   },
+   {
+    "heading": "A shortcut in arithmetic",
+    "text": "The same pattern makes some sums easy without a calculator:\n{38}² − {32}² = ({38} + {32})({38} − {32}) = {70} × {6} = {420}.\nThat is much quicker than squaring both numbers. Examiners like this type of question."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "perfect square",
+    "meaning": "a number or term that is something squared, like {49} = {7}²"
+   },
+   {
+    "word": "difference",
+    "meaning": "the result of a subtraction"
+   },
+   {
+    "word": "square root",
+    "meaning": "the number that was squared"
+   }
+  ],
+  "examples": [
+   "{poly([1, 'y²'], [-81, ''])} = {'(' + poly([1, 'y'], [9, '']) + ')' + '(' + poly([1, 'y'], [-9, '']) + ')'}",
+   "{poly([16, 'x²'], [-1, ''])} = {'(' + poly([4, 'x'], [1, '']) + ')' + '(' + poly([4, 'x'], [-1, '']) + ')'}",
+   "{75}² − {25}² = {100} × {50} = {5000}"
+  ],
+  "mistake": {
+   "wrong": "{poly([1, 'x²'], [-16, ''])} = {'(' + poly([1, 'x'], [-4, '']) + ')' + '²'}",
+   "right": "{poly([1, 'x²'], [-16, ''])} = {'(' + poly([1, 'x'], [4, '']) + ')' + '(' + poly([1, 'x'], [-4, '']) + ')'}",
+   "why": "{'(' + poly([1, 'x'], [-4, '']) + ')' + '²'} expands to {poly([1, 'x²'], [-8, 'x'], [16, ''])}. A difference of squares needs one plus bracket and one minus bracket."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 3,
+   "m": 4
+  },
+  "problem": "Factorise fully {poly([k, 'x²'], [-k * m * m, ''])}.",
+  "steps": [
+   "Common factor first: {poly([k, 'x²'], [-k * m * m, ''])} = {bracket(k, [1, 'x²'], [-m * m, ''])}.",
+   "x² − {m * m} is a difference of two squares: x² and {m}².",
+   "So x² − {m * m} = {'(' + poly([1, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [-m, '']) + ')'}."
+  ],
+  "answer": "{k}{'(' + poly([1, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [-m, '']) + ')'}",
+  "checks": [
+   "k * m * m == 48"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m6-1",
+    "status": "draft",
+    "idea": "a² − b² = (a + b)(a − b): one bracket with plus, one with minus.",
+    "vars": {},
+    "example": [
+     "{poly([1, 'x²'], [-49, ''])} = {'(' + poly([1, 'x'], [7, '']) + ')' + '(' + poly([1, 'x'], [-7, '']) + ')'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-6-x"
+    }
+   },
+   {
+    "id": "c3m6-2",
+    "status": "draft",
+    "idea": "Find the square root of each term, including the numbers in front.",
+    "vars": {},
+    "example": [
+     "{poly([9, 'y²'], [-4, ''])} = {'(' + poly([3, 'y'], [2, '']) + ')' + '(' + poly([3, 'y'], [-2, '']) + ')'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-6-coef-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-factorise"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "q": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "prompt": "Factorise {poly([p * p, 'x²'], [-q * q, 'y²'])}.",
+     "correct": "{'(' + poly([p, 'x'], [q, 'y']) + ')(' + poly([p, 'x'], [-q, 'y']) + ')'}",
+     "distractors": [
+      {
+       "text": "{'(' + poly([p, 'x'], [-q, 'y']) + ')²'}",
+       "misconception": "square"
+      },
+      {
+       "text": "{'(' + poly([p * p, 'x'], [q * q, 'y']) + ')(' + poly([p * p, 'x'], [-q * q, 'y']) + ')'}",
+       "misconception": "noroot"
+      },
+      {
+       "text": "{'(' + poly([p, 'x'], [q, 'y']) + ')²'}",
+       "misconception": "plus"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "square",
+       "explain": "Expand it: there is a middle term {mono(-2 * p * q, 'xy')}."
+      },
+      {
+       "id": "noroot",
+       "explain": "Take square roots: √{p * p} = {p} and √{q * q} = {q}."
+      },
+      {
+       "id": "plus",
+       "explain": "Expand it: the last term is +{mono(q * q, 'y²')}, but we need −{mono(q * q, 'y²')}."
+      }
+     ],
+     "solution": [
+      "{mono(p * p, 'x²')} = ({mono(p, 'x')})² and {mono(q * q, 'y²')} = ({mono(q, 'y')})².",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "p != q"
+     ]
+    }
+   },
+   {
+    "id": "c3m6-3",
+    "status": "draft",
+    "idea": "Use the pattern to work out differences of squares quickly.",
+    "vars": {},
+    "example": [
+     "{53}² − {47}² = ({53} + {47})({53} − {47}) = {100} × {6} = {600}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-6-calc"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-6-x",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([1, 'x²'], [-k * k, ''])}.",
+   "correct": "{'(' + poly([1, 'x'], [k, '']) + ')' + '(' + poly([1, 'x'], [-k, '']) + ')'}",
+   "distractors": [
+    {
+     "text": "{'(' + poly([1, 'x'], [-k, '']) + ')' + '²'}",
+     "misconception": "square"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [k * k, '']) + ')' + '(' + poly([1, 'x'], [-k * k, '']) + ')'}",
+     "misconception": "noroot"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [k, '']) + ')' + '²'}",
+     "misconception": "plus"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "square",
+     "explain": "Expand it: you get a middle term {mono(-2 * k, 'x')} and +{k * k}."
+    },
+    {
+     "id": "noroot",
+     "explain": "Take the square root of {k * k}: it is {k}."
+    },
+    {
+     "id": "plus",
+     "explain": "Expand it: you get +{k * k}, but we need −{k * k}."
+    }
+   ],
+   "solution": [
+    "x² − {k * k} = x² − {k}².",
+    "a² − b² = (a + b)(a − b), so the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-6-calc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "N": {
+     "int": [
+      20,
+      90
+     ],
+     "step": 10
+    },
+    "d": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "Use a² − b² = (a + b)(a − b) to work out {N + d}² − {N - d}².",
+   "answer": "4 * N * d",
+   "misconceptions": [
+    {
+     "id": "sq",
+     "wrong": "4 * d * d",
+     "explain": "That is ({N + d} − {N - d})² only; multiply the sum by the difference."
+    }
+   ],
+   "solution": [
+    "({N + d} + {N - d})({N + d} − {N - d}) = {2 * N} × {2 * d}.",
+    "= {answer}."
+   ]
+  },
+  {
+   "id": "m3-6-coef",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([p * p, 'x²'], [-q * q, 'y²'])}.",
+   "correct": "{'(' + poly([p, 'x'], [q, 'y']) + ')(' + poly([p, 'x'], [-q, 'y']) + ')'}",
+   "distractors": [
+    {
+     "text": "{'(' + poly([p, 'x'], [-q, 'y']) + ')²'}",
+     "misconception": "square"
+    },
+    {
+     "text": "{'(' + poly([p * p, 'x'], [q * q, 'y']) + ')(' + poly([p * p, 'x'], [-q * q, 'y']) + ')'}",
+     "misconception": "noroot"
+    },
+    {
+     "text": "{'(' + poly([p, 'x'], [q, 'y']) + ')²'}",
+     "misconception": "plus"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "square",
+     "explain": "Expand it: there is a middle term {mono(-2 * p * q, 'xy')}."
+    },
+    {
+     "id": "noroot",
+     "explain": "Take square roots: √{p * p} = {p} and √{q * q} = {q}."
+    },
+    {
+     "id": "plus",
+     "explain": "Expand it: the last term is +{mono(q * q, 'y²')}, but we need −{mono(q * q, 'y²')}."
+    }
+   ],
+   "solution": [
+    "{mono(p * p, 'x²')} = ({mono(p, 'x')})² and {mono(q * q, 'y²')} = ({mono(q, 'y')})².",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != q"
+   ]
+  },
+  {
+   "id": "m3-6-find",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      3,
+      15
+     ]
+    }
+   },
+   "prompt": "{poly([1, 'x²'], [-k * k, ''])} = (x + a)(x − a) with a positive. Find a.",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "k * k / 2",
+     "explain": "Halving is not the square root: {k} × {k} = {k * k}."
+    },
+    {
+     "id": "sq",
+     "wrong": "k * k",
+     "explain": "a is the square root of {k * k}, not {k * k} itself."
+    }
+   ],
+   "solution": [
+    "x² − {k * k} = x² − {k}².",
+    "So a = {answer}."
+   ]
+  },
+  {
+   "id": "m3-6-full",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise fully {poly([k, 'x²'], [-k * m * m, ''])}.",
+   "correct": "{k}{'(' + poly([1, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [-m, '']) + ')'}",
+   "distractors": [
+    {
+     "text": "{'(' + poly([1, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [-m, '']) + ')'}",
+     "misconception": "lostk"
+    },
+    {
+     "text": "{bracket(k, [1, 'x²'], [-m * m, ''])}",
+     "misconception": "notfull"
+    },
+    {
+     "text": "{k}{'(' + poly([1, 'x'], [-m, '']) + ')' + '²'}",
+     "misconception": "square"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "lostk",
+     "explain": "Expand it: you get {poly([1, 'x²'], [-m * m, ''])}, not {poly([k, 'x²'], [-k * m * m, ''])}. Keep the {k}."
+    },
+    {
+     "id": "notfull",
+     "explain": "Not fully factorised: x² − {m * m} is a difference of two squares."
+    },
+    {
+     "id": "square",
+     "explain": "Expand it: a square gives a middle term. The difference of squares needs one + bracket and one − bracket."
+    }
+   ],
+   "solution": [
+    "Common factor first: {bracket(k, [1, 'x²'], [-m * m, ''])}.",
+    "Then x² − {m * m} = {'(' + poly([1, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [-m, '']) + ')'}. So the answer is {answer}."
+   ],
+   "where": [
+    "k != m * m"
+   ]
+  }
+ ]
+}
