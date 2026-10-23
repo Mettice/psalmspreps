@@ -558,3 +558,57 @@ export function pieFig(labels, values) {
   });
   return svg(260, 210, "A pie chart", body);
 }
+
+// ---------------------------------------------------------------- Form 3 (2026-10-23): trigonometry, logarithms, matrices
+const RAD = Math.PI / 180;
+/** Trigonometric ratios of an angle in degrees, and the inverse ratios in degrees. */
+export const sinD = (x) => Math.sin(x * RAD);
+export const cosD = (x) => Math.cos(x * RAD);
+export const tanD = (x) => Math.tan(x * RAD);
+export const asinD = (r) => Math.asin(r) / RAD;
+export const acosD = (r) => Math.acos(r) / RAD;
+export const atanD = (r) => Math.atan(r) / RAD;
+/** Logarithms: log10(1000) = 3; logb(2, 8) = 3 (exact for exact powers). */
+export const log10 = (x) => Math.log10(x);
+export const logb = (b, x) => { const v = Math.log(x) / Math.log(b), r = Math.round(v); return Math.abs(v - r) < 1e-9 ? r : v; };
+/** 2 × 2 matrices as [[a, b], [c, d]]. */
+export const det2 = (m) => m[0][0] * m[1][1] - m[0][1] * m[1][0];
+export const matAdd = (p, q) => p.map((r, i) => r.map((v, j) => v + q[i][j]));
+export const matSub = (p, q) => p.map((r, i) => r.map((v, j) => v - q[i][j]));
+export const matScale = (k, p) => p.map((r) => r.map((v) => k * v));
+export const matMul = (p, q) => p.map((r) => q[0].map((_, j) => r.reduce((s, v, k) => s + v * q[k][j], 0)));
+export const matT = (p) => p[0].map((_, j) => p.map((r) => r[j]));
+/** The adjoint (adjugate) of a 2 × 2 matrix: swap the leading diagonal, change the signs of the other. */
+export const adj2 = (m) => [[m[1][1], -m[0][1]], [-m[1][0], m[0][0]]];
+/** A matrix written on one line, rows separated by semicolons: "(2  3 ; 1  4)". */
+export const matStr = (m) => `(${m.map((r) => r.map(fmt).join("  ")).join(" ; ")})`;
+/**
+ * Named matrices drawn with brackets: matFig([["A", [[2, 3], [1, 4]]], ["B", [[0, 1], [5, 2]]]]).
+ * Any size up to 3 × 3; entries are written with fmt.
+ */
+export function matFig(named) {
+  const cw = 34, rh = 22;
+  let x = 10, body = "", h = 0;
+  for (const [name, m] of named) {
+    const rows = m.length, cols = m[0].length, H = rows * rh + 8, W = cols * cw;
+    h = Math.max(h, H + 10);
+    body += text(x + 12, 10 + H / 2 + 4, `${name} =`, ` text-anchor="middle"`);
+    const bx = x + 30;
+    body += `<path d="M${bx + 6} 10 q-6 ${H / 2} 0 ${H}" stroke-width="1.3"/><path d="M${bx + W + 6} 10 q6 ${H / 2} 0 ${H}" stroke-width="1.3"/>`;
+    m.forEach((r, i) => r.forEach((v, j) => { body += text(bx + 6 + cw * j + cw / 2, 10 + 4 + rh * i + rh / 2 + 4, fmt(v)); }));
+    x = bx + W + 30;
+  }
+  return svg(Math.max(x, 120), h + 10, `Matrices ${named.map(([n]) => n).join(" and ")}`, body);
+}
+/**
+ * A right-angled triangle for trigonometry: the right angle at the bottom left, the marked angle θ at the bottom right.
+ * base (adjacent), height (opposite), hyp: a number (with unit), a letter, or "" to leave the side blank.
+ */
+export function trigFig(base, height, hyp, angle = "θ", unit = "cm") {
+  const lab = (v) => (typeof v === "number" ? `${fmt(v)} ${unit}` : v);
+  // room on the left for a word label ("opposite") beside the vertical side
+  let body = `<path d="M90 160 L310 160 L90 40 Z" stroke-width="1.5"/><path d="M90 148 h12 v12"/>`;
+  body += `<path d="M278 160 A32 32 0 0 0 281.9 144.7"/>` + text(262, 154, typeof angle === "number" ? `${fmt(angle)}°` : angle);
+  body += text(200, 178, lab(base)) + text(82, 104, lab(height), ` text-anchor="end"`) + text(212, 92, lab(hyp), ` text-anchor="start"`);
+  return svg(340, 190, "A right-angled triangle with a marked angle", body);
+}

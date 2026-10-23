@@ -1,0 +1,470 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "m3-18",
+   "name": "Trigonometric ratios of 30°, 45° and 60°; using a calculator"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Exact values to learn:\n• sin 30° = 1/2, cos 30° = √3/2, tan 30° = 1/√3\n• sin 45° = cos 45° = 1/√2 (= √2/2), tan 45° = 1\n• sin 60° = √3/2, cos 60° = 1/2, tan 60° = √3\nThey come from half an equilateral triangle (30°, 60°) and half a square (45°).\nCalculator: check it is in degree mode (D or DEG). sin 37° ≈ 0.6018. To find an angle from a ratio use the inverse key: sin⁻¹(0.5) = 30°.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Where the exact values come from",
+    "text": "Half of a square with side {1}: the angles are {45}°, {45}° and {90}°; the diagonal is √{2}. So sin {45}° = cos {45}° = {1} ÷ √{2} and tan {45}° = {1}.\nHalf of an equilateral triangle with side {2}: the angles are {30}°, {60}° and {90}°; the sides are {1}, √{3} and {2}. So:\n• sin {30}° = {frac(1, 2)}, cos {30}° = √{3} ÷ {2}, tan {30}° = {1} ÷ √{3}\n• sin {60}° = √{3} ÷ {2}, cos {60}° = {frac(1, 2)}, tan {60}° = √{3}."
+   },
+   {
+    "heading": "Using a calculator",
+    "text": "First check the calculator shows D or DEG (degree mode). In radian mode every answer is wrong.\nTo find sin {37}°, press sin {37} = and read about {roundTo(sinD(37), 0.0001)}.\nTo find an angle from a ratio, use the inverse: SHIFT then sin gives sin⁻¹. If sin θ = {0.5}, then θ = sin⁻¹({0.5}) = {30}°.\nKeep four decimal places while working; round only the final answer."
+   },
+   {
+    "heading": "Angles of elevation",
+    "text": "Look up at the top of a tree: the angle between the level ground and your line of sight is the angle of elevation. Looking down from a cliff gives an angle of depression.\nIf you stand {20} m from a tree and the elevation is {35}°, the height h satisfies tan {35}° = h ÷ {20}, so h = {20} × tan {35}° ≈ {roundTo(20 * tanD(35), 0.1)} m."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "exact value",
+    "meaning": "a value written with fractions and roots, not rounded"
+   },
+   {
+    "word": "degree mode",
+    "meaning": "the calculator setting for angles in degrees"
+   },
+   {
+    "word": "inverse ratio",
+    "meaning": "sin⁻¹, cos⁻¹, tan⁻¹: from a ratio back to the angle"
+   },
+   {
+    "word": "angle of elevation",
+    "meaning": "the angle looking up from the horizontal"
+   }
+  ],
+  "examples": [
+   "cos {60}° = {frac(1, 2)}",
+   "tan {30}° × tan {60}° = {1}",
+   "cos⁻¹({0.5}) = {60}°"
+  ],
+  "mistake": {
+   "wrong": "sin {30}° = {roundTo(sinD(30 * 57.29577951), 0.0001)} on the calculator",
+   "right": "sin {30}° = {0.5}",
+   "why": "That value comes from radian mode. Set the calculator to degrees (DEG)."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": 25,
+   "A": 35
+  },
+  "problem": "From a point {d} m from the foot of a tree, the angle of elevation of the top is {A}°. Find the height of the tree to {1} decimal place.",
+  "steps": [
+   "tan {A}° = height ÷ {d}.",
+   "height = {d} × tan {A}° ≈ {d} × {roundTo(tanD(A), 0.0001)}.",
+   "height ≈ {roundTo(d * tanD(A), 0.1)} m."
+  ],
+  "answer": "{roundTo(d * tanD(A), 0.1)} m",
+  "checks": [
+   "roundTo(d * tanD(A), 0.1) == 17.5"
+  ],
+  "figure": "trigFig(d, 'h', '', A, 'm')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m18-1",
+    "status": "draft",
+    "idea": "Learn the exact values for {30}°, {45}° and {60}°.",
+    "vars": {},
+    "example": [
+     "sin {30}° = {frac(1, 2)}, tan {45}° = {1}, cos {60}° = {frac(1, 2)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-18-exact"
+    }
+   },
+   {
+    "id": "c3m18-2",
+    "status": "draft",
+    "idea": "Use a calculator in degree mode; round as the question asks.",
+    "vars": {},
+    "example": [
+     "sin {37}° ≈ {roundTo(sinD(37), 0.0001)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-18-calc"
+    }
+   },
+   {
+    "id": "c3m18-3",
+    "status": "draft",
+    "idea": "The inverse key gives the angle: sin⁻¹, cos⁻¹, tan⁻¹.",
+    "vars": {},
+    "example": [
+     "tan θ = {1} → θ = tan⁻¹({1}) = {45}°"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-18-inv-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "trigonometry"
+     ],
+     "vars": {
+      "R": {
+       "pick": [
+        "sin",
+        "cos",
+        "tan"
+       ]
+      },
+      "n": {
+       "int": [
+        12,
+        95
+       ]
+      },
+      "r": {
+       "expr": "n / 100"
+      }
+     },
+     "prompt": "{R} θ = {r}. Find the acute angle θ to {1} decimal place.",
+     "answer": "roundTo(R == 'sin' ? asinD(r) : R == 'cos' ? acosD(r) : atanD(r), 0.1)",
+     "misconceptions": [
+      {
+       "id": "recip",
+       "wrong": "roundTo(1 / r, 0.1)",
+       "explain": "{R}⁻¹ is the inverse function (the angle), not {1} ÷ {r}."
+      }
+     ],
+     "solution": [
+      "Use the inverse key: θ = {R}⁻¹({r}).",
+      "θ ≈ {answer}°."
+     ],
+     "unit": "°"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-18-exact",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "sin 30°",
+       "r": "1/2",
+       "w": [
+        "√3/2",
+        "1/√2",
+        "√3"
+       ],
+       "e": [
+        "√3/2 is sin 60° (or cos 30°).",
+        "1/√2 is sin 45°.",
+        "√3 is tan 60°."
+       ],
+       "y": "sin 30° = 1/2 (half an equilateral triangle)."
+      },
+      {
+       "q": "cos 30°",
+       "r": "√3/2",
+       "w": [
+        "1/2",
+        "1/√3",
+        "1"
+       ],
+       "e": [
+        "1/2 is cos 60°.",
+        "1/√3 is tan 30°.",
+        "cos 30° is less than 1."
+       ],
+       "y": "cos 30° = √3/2."
+      },
+      {
+       "q": "tan 45°",
+       "r": "1",
+       "w": [
+        "1/√2",
+        "√3",
+        "1/2"
+       ],
+       "e": [
+        "1/√2 is sin 45° and cos 45°.",
+        "√3 is tan 60°.",
+        "1/2 is sin 30°."
+       ],
+       "y": "In half a square, opposite = adjacent, so tan 45° = 1."
+      },
+      {
+       "q": "tan 60°",
+       "r": "√3",
+       "w": [
+        "1/√3",
+        "√3/2",
+        "1"
+       ],
+       "e": [
+        "1/√3 is tan 30°.",
+        "√3/2 is sin 60°.",
+        "1 is tan 45°."
+       ],
+       "y": "tan 60° = √3."
+      },
+      {
+       "q": "sin 45°",
+       "r": "1/√2",
+       "w": [
+        "1",
+        "1/2",
+        "√3/2"
+       ],
+       "e": [
+        "1 is tan 45°.",
+        "1/2 is sin 30°.",
+        "√3/2 is sin 60°."
+       ],
+       "y": "sin 45° = 1/√2 = √2/2."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the exact value of {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-18-calc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "R": {
+     "pick": [
+      "sin",
+      "cos",
+      "tan"
+     ]
+    },
+    "A": {
+     "int": [
+      5,
+      80
+     ]
+    }
+   },
+   "prompt": "Use a calculator: find {R} {A}° to {4} decimal places.",
+   "answer": "roundTo(R == 'sin' ? sinD(A) : R == 'cos' ? cosD(A) : tanD(A), 0.0001)",
+   "misconceptions": [
+    {
+     "id": "other",
+     "wrong": "roundTo(R == 'sin' ? cosD(A) : sinD(A), 0.0001)",
+     "explain": "Check you pressed the right key: {R}, not {R == 'sin' ? 'cos' : 'sin'}."
+    }
+   ],
+   "solution": [
+    "Set the calculator to degrees (DEG).",
+    "{R} {A}° ≈ {answer}."
+   ],
+   "where": [
+    "A != 30 && A != 45 && A != 60",
+    "A != 45"
+   ]
+  },
+  {
+   "id": "m3-18-inv",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "R": {
+     "pick": [
+      "sin",
+      "cos",
+      "tan"
+     ]
+    },
+    "n": {
+     "int": [
+      12,
+      95
+     ]
+    },
+    "r": {
+     "expr": "n / 100"
+    }
+   },
+   "prompt": "{R} θ = {r}. Find the acute angle θ to {1} decimal place.",
+   "answer": "roundTo(R == 'sin' ? asinD(r) : R == 'cos' ? acosD(r) : atanD(r), 0.1)",
+   "misconceptions": [
+    {
+     "id": "recip",
+     "wrong": "roundTo(1 / r, 0.1)",
+     "explain": "{R}⁻¹ is the inverse function (the angle), not {1} ÷ {r}."
+    }
+   ],
+   "solution": [
+    "Use the inverse key: θ = {R}⁻¹({r}).",
+    "θ ≈ {answer}°."
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m3-18-value",
+   "type": "numeric",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "e": "sin 30° + cos 60°",
+       "s": "1/2 + 1/2",
+       "v": 1
+      },
+      {
+       "e": "4 sin 30° × tan 45°",
+       "s": "4 × 1/2 × 1",
+       "v": 2
+      },
+      {
+       "e": "tan 45° − cos 60°",
+       "s": "1 − 1/2",
+       "v": 0.5
+      },
+      {
+       "e": "2 cos 60° + 3 tan 45°",
+       "s": "2 × 1/2 + 3 × 1",
+       "v": 4
+      },
+      {
+       "e": "sin² 45° + cos² 45°",
+       "s": "(1/√2)² + (1/√2)² = 1/2 + 1/2",
+       "v": 1
+      },
+      {
+       "e": "tan 60° × tan 30°",
+       "s": "√3 × 1/√3",
+       "v": 1
+      }
+     ]
+    }
+   },
+   "prompt": "Without a calculator, find the value of {X.e}.",
+   "answer": "X.v",
+   "solution": [
+    "{X.s}",
+    "= {answer}."
+   ]
+  },
+  {
+   "id": "m3-18-tree",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      8,
+      40
+     ]
+    },
+    "A": {
+     "int": [
+      20,
+      65
+     ]
+    }
+   },
+   "prompt": "From a point {d} m from the foot of a tree on level ground, the angle of elevation of the top of the tree is {A}°. Find the height of the tree to {1} decimal place.",
+   "answer": "roundTo(d * tanD(A), 0.1)",
+   "misconceptions": [
+    {
+     "id": "sin",
+     "wrong": "roundTo(d * sinD(A), 0.1)",
+     "explain": "The distance {d} m is adjacent to the angle and the height is opposite: use tan."
+    },
+    {
+     "id": "div",
+     "wrong": "roundTo(d / tanD(A), 0.1)",
+     "explain": "height = {d} × tan {A}°: multiply."
+    }
+   ],
+   "solution": [
+    "tan {A}° = height ÷ {d}.",
+    "height = {d} × tan {A}° ≈ {d} × {roundTo(tanD(A), 0.0001)} ≈ {answer} m."
+   ],
+   "unit": "m",
+   "figure": "trigFig(d, 'h', '', A, 'm')",
+   "where": [
+    "A != 45"
+   ]
+  }
+ ]
+}

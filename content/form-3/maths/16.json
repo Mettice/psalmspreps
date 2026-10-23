@@ -1,0 +1,533 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m3-16",
+   "name": "Use Pythagoras' theorem in right-angled triangles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In a right-angled triangle the longest side, opposite the right angle, is the hypotenuse.\nPythagoras' theorem: hypotenuse² = sum of the squares of the other two sides, c² = a² + b².\n• Hypotenuse: c = √(a² + b²).\n• Shorter side: a = √(c² − b²).\n• Converse: if c² = a² + b², the triangle has a right angle; otherwise it does not.\nPythagorean triples are whole-number sides: 3, 4, 5; 5, 12, 13; 8, 15, 17 (and multiples).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The longest side",
+    "text": "A right-angled triangle has one angle of {90}°. The side opposite it is the longest side, the hypotenuse.\nPythagoras (a Greek mathematician) found that the square on the hypotenuse equals the sum of the squares on the other two sides:\nc² = a² + b², where c is the hypotenuse.\nWith sides {3} cm and {4} cm: c² = {9} + {16} = {25}, so c = {5} cm.",
+    "figure": "rightTriFig(3, 4, 5)"
+   },
+   {
+    "heading": "Finding a shorter side",
+    "text": "If you know the hypotenuse and one side, rearrange: a² = c² − b².\nA ladder {10} m long reaches {8} m up a wall. The foot is √({100} − {64}) = √{36} = {6} m from the wall.\nAlways ask first: which side is the hypotenuse? If you are looking for it, add the squares; if you know it, subtract."
+   },
+   {
+    "heading": "Is it right-angled?",
+    "text": "The theorem also works backwards (its converse). For a triangle with sides {8}, {15} and {17}: {8}² + {15}² = {64} + {225} = {289} = {17}². So it has a right angle.\nFor {6}, {8}, {11}: {36} + {64} = {100}, but {11}² = {121}. Not right-angled.\nBuilders in Cameroon use the {3}-{4}-{5} rule with a rope to set out a square corner for a house."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "hypotenuse",
+    "meaning": "the longest side, opposite the right angle"
+   },
+   {
+    "word": "Pythagorean triple",
+    "meaning": "three whole numbers that fit c² = a² + b²"
+   },
+   {
+    "word": "converse",
+    "meaning": "the theorem used backwards, to test for a right angle"
+   }
+  ],
+  "examples": [
+   "{5}, {12}, {13}: {25} + {144} = {169}",
+   "Sides {1} and {1}: hypotenuse √{2} ≈ {1.41}",
+   "{9}, {12}, {15} is {3} × ({3}, {4}, {5})"
+  ],
+  "mistake": {
+   "wrong": "Sides {6} and {8}: hypotenuse = {6} + {8} = {14}",
+   "right": "c² = {36} + {64} = {100}, so c = {10}",
+   "why": "Square the sides first, add the squares, then take the square root."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 6,
+   "b": 8
+  },
+  "problem": "A right-angled triangle has shorter sides {a} cm and {b} cm. Find the hypotenuse.",
+  "steps": [
+   "c² = a² + b² = {a}² + {b}² = {a * a} + {b * b} = {a * a + b * b}.",
+   "c = √{a * a + b * b} = {sqrt(a * a + b * b)} cm."
+  ],
+  "answer": "{sqrt(a * a + b * b)} cm",
+  "checks": [
+   "a * a + b * b == 100"
+  ],
+  "figure": "rightTriFig(a, b, 'c')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m16-1",
+    "status": "draft",
+    "idea": "The hypotenuse is the longest side, opposite the right angle: c² = a² + b².",
+    "vars": {},
+    "example": [
+     "Sides {3} cm and {4} cm: c² = {9} + {16} = {25}, c = {5} cm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-16-hyp"
+    }
+   },
+   {
+    "id": "c3m16-2",
+    "status": "draft",
+    "idea": "For a shorter side, subtract: a² = c² − b².",
+    "vars": {},
+    "example": [
+     "Hypotenuse {13}, side {5}: a² = {169} − {25} = {144}, a = {12}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-16-leg"
+    }
+   },
+   {
+    "id": "c3m16-3",
+    "status": "draft",
+    "idea": "If c² = a² + b² for the longest side c, the triangle is right-angled.",
+    "vars": {},
+    "example": [
+     "{8}, {15}, {17}: {64} + {225} = {289} = {17}². Right-angled."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-16-test-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "pythagoras"
+     ],
+     "vars": {
+      "s": {
+       "pick": [
+        [
+         6,
+         8,
+         10
+        ],
+        [
+         5,
+         12,
+         13
+        ],
+        [
+         8,
+         15,
+         17
+        ],
+        [
+         7,
+         24,
+         25
+        ],
+        [
+         9,
+         12,
+         15
+        ],
+        [
+         6,
+         8,
+         11
+        ],
+        [
+         5,
+         11,
+         13
+        ],
+        [
+         7,
+         9,
+         12
+        ],
+        [
+         8,
+         14,
+         17
+        ],
+        [
+         4,
+         6,
+         7
+        ]
+       ]
+      }
+     },
+     "prompt": "A triangle has sides {s[0]} cm, {s[1]} cm and {s[2]} cm. Is it right-angled?",
+     "correct": "{isRightTriangle(s[0], s[1], s[2]) ? 'Yes: ' + s[0] * s[0] + ' + ' + s[1] * s[1] + ' = ' + s[2] * s[2] : 'No: ' + s[0] * s[0] + ' + ' + s[1] * s[1] + ' ≠ ' + s[2] * s[2]}",
+     "distractors": [
+      {
+       "text": "{isRightTriangle(s[0], s[1], s[2]) ? 'No: ' + s[0] * s[0] + ' + ' + s[1] * s[1] + ' ≠ ' + s[2] * s[2] : 'Yes: ' + s[0] * s[0] + ' + ' + s[1] * s[1] + ' = ' + s[2] * s[2]}",
+       "misconception": "flip"
+      },
+      {
+       "text": "{'Yes: ' + s[0] + ' + ' + s[1] + ' > ' + s[2]}",
+       "misconception": "sides"
+      },
+      {
+       "text": "{'It cannot be decided without the angles'}",
+       "misconception": "angles"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "flip",
+       "explain": "Compare carefully: {s[0] * s[0]} + {s[1] * s[1]} = {s[0] * s[0] + s[1] * s[1]} and {s[2]}² = {s[2] * s[2]}."
+      },
+      {
+       "id": "sides",
+       "explain": "Compare the squares of the sides, not the sides themselves."
+      },
+      {
+       "id": "angles",
+       "explain": "The converse of Pythagoras decides it from the sides alone."
+      }
+     ],
+     "solution": [
+      "Square the two shorter sides and add: {s[0] * s[0]} + {s[1] * s[1]} = {s[0] * s[0] + s[1] * s[1]}.",
+      "The longest side squared is {s[2] * s[2]}.",
+      "So: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-16-hyp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pythagoras"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "T": {
+     "expr": "triple(i)"
+    },
+    "k": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "a": {
+     "expr": "T[0] * k"
+    },
+    "b": {
+     "expr": "T[1] * k"
+    },
+    "c": {
+     "expr": "T[2] * k"
+    }
+   },
+   "prompt": "A right-angled triangle has shorter sides {a} cm and {b} cm. Find the hypotenuse in cm.",
+   "answer": "c",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "a + b",
+     "explain": "Add the squares, not the sides: {a * a} + {b * b} = {c * c}, then take the square root."
+    },
+    {
+     "id": "nosqrt",
+     "wrong": "c * c",
+     "explain": "{c * c} is c². Take the square root."
+    }
+   ],
+   "solution": [
+    "c² = {a}² + {b}² = {a * a} + {b * b} = {c * c}.",
+    "c = √{c * c} = {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "rightTriFig(a, b, 'c')"
+  },
+  {
+   "id": "m3-16-leg",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pythagoras"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "T": {
+     "expr": "triple(i)"
+    },
+    "k": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "a": {
+     "expr": "T[0] * k"
+    },
+    "b": {
+     "expr": "T[1] * k"
+    },
+    "c": {
+     "expr": "T[2] * k"
+    }
+   },
+   "prompt": "The hypotenuse of a right-angled triangle is {c} cm and one side is {b} cm. Find the third side in cm.",
+   "answer": "a",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "sqrt(c * c + b * b)",
+     "explain": "c is the hypotenuse, the longest side: subtract, a² = c² − b²."
+    },
+    {
+     "id": "diff",
+     "wrong": "c - b",
+     "explain": "Subtract the squares, not the sides, then take the square root."
+    }
+   ],
+   "solution": [
+    "a² = c² − b² = {c * c} − {b * b} = {a * a}.",
+    "a = √{a * a} = {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "rightTriFig('a', b, c)",
+   "where": [
+    "c - b != a"
+   ]
+  },
+  {
+   "id": "m3-16-dec",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pythagoras"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "A right-angled triangle has shorter sides {p} cm and {q} cm. Find the hypotenuse to {1} decimal place.",
+   "answer": "roundTo(sqrt(p * p + q * q), 0.1)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "p + q",
+     "explain": "Add the squares, then take the square root: √({p * p} + {q * q})."
+    }
+   ],
+   "solution": [
+    "c² = {p * p} + {q * q} = {p * p + q * q}.",
+    "c = √{p * p + q * q} ≈ {roundTo(sqrt(p * p + q * q), 0.0001)} ≈ {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "rightTriFig(p, q, 'c')",
+   "where": [
+    "!isPerfectSquare(p * p + q * q)"
+   ]
+  },
+  {
+   "id": "m3-16-test",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pythagoras"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      [
+       6,
+       8,
+       10
+      ],
+      [
+       5,
+       12,
+       13
+      ],
+      [
+       8,
+       15,
+       17
+      ],
+      [
+       7,
+       24,
+       25
+      ],
+      [
+       9,
+       12,
+       15
+      ],
+      [
+       6,
+       8,
+       11
+      ],
+      [
+       5,
+       11,
+       13
+      ],
+      [
+       7,
+       9,
+       12
+      ],
+      [
+       8,
+       14,
+       17
+      ],
+      [
+       4,
+       6,
+       7
+      ]
+     ]
+    }
+   },
+   "prompt": "A triangle has sides {s[0]} cm, {s[1]} cm and {s[2]} cm. Is it right-angled?",
+   "correct": "{isRightTriangle(s[0], s[1], s[2]) ? 'Yes: ' + s[0] * s[0] + ' + ' + s[1] * s[1] + ' = ' + s[2] * s[2] : 'No: ' + s[0] * s[0] + ' + ' + s[1] * s[1] + ' ≠ ' + s[2] * s[2]}",
+   "distractors": [
+    {
+     "text": "{isRightTriangle(s[0], s[1], s[2]) ? 'No: ' + s[0] * s[0] + ' + ' + s[1] * s[1] + ' ≠ ' + s[2] * s[2] : 'Yes: ' + s[0] * s[0] + ' + ' + s[1] * s[1] + ' = ' + s[2] * s[2]}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{'Yes: ' + s[0] + ' + ' + s[1] + ' > ' + s[2]}",
+     "misconception": "sides"
+    },
+    {
+     "text": "{'It cannot be decided without the angles'}",
+     "misconception": "angles"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Compare carefully: {s[0] * s[0]} + {s[1] * s[1]} = {s[0] * s[0] + s[1] * s[1]} and {s[2]}² = {s[2] * s[2]}."
+    },
+    {
+     "id": "sides",
+     "explain": "Compare the squares of the sides, not the sides themselves."
+    },
+    {
+     "id": "angles",
+     "explain": "The converse of Pythagoras decides it from the sides alone."
+    }
+   ],
+   "solution": [
+    "Square the two shorter sides and add: {s[0] * s[0]} + {s[1] * s[1]} = {s[0] * s[0] + s[1] * s[1]}.",
+    "The longest side squared is {s[2] * s[2]}.",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "m3-16-ladder",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "pythagoras"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      0,
+      2,
+      4
+     ]
+    },
+    "T": {
+     "expr": "triple(i)"
+    },
+    "k": {
+     "pick": [
+      0.5,
+      1
+     ]
+    },
+    "a": {
+     "expr": "T[0] * k"
+    },
+    "b": {
+     "expr": "T[1] * k"
+    },
+    "c": {
+     "expr": "T[2] * k"
+    }
+   },
+   "prompt": "A ladder {c} m long leans against a vertical wall. Its foot is {a} m from the wall on level ground. How high up the wall does it reach (m)?",
+   "answer": "b",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "sqrt(c * c + a * a)",
+     "explain": "The ladder is the longest side: subtract, h² = {c}² − {a}²."
+    },
+    {
+     "id": "diff",
+     "wrong": "c - a",
+     "explain": "Subtract the squares, then take the square root."
+    }
+   ],
+   "solution": [
+    "The ladder is the hypotenuse: h² = {c}² − {a}² = {c * c} − {a * a} = {b * b}.",
+    "h = √{b * b} = {answer} m."
+   ],
+   "unit": "m",
+   "figure": "rightTriFig(a, 'h', c, 'm')",
+   "where": [
+    "c - a != b"
+   ]
+  }
+ ]
+}

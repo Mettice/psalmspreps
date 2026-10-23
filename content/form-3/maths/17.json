@@ -1,0 +1,490 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "m3-17",
+   "name": "Sine, cosine and tangent of an acute angle; complementary angles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In a right-angled triangle, name the sides from the marked angle θ: the hypotenuse (longest), the opposite side (facing θ) and the adjacent side (next to θ, not the hypotenuse).\n• sin θ = opposite ÷ hypotenuse\n• cos θ = adjacent ÷ hypotenuse\n• tan θ = opposite ÷ adjacent\nMemory aid: SOH CAH TOA.\nComplementary angles add to 90°: sin θ = cos(90° − θ) and cos θ = sin(90° − θ). For example sin 40° = cos 50°.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Naming the sides from the angle",
+    "text": "Mark the angle θ you are interested in. Then name the three sides:\n• the hypotenuse: the longest side, opposite the right angle;\n• the opposite side: the side facing θ;\n• the adjacent side: the side next to θ that is not the hypotenuse.\nIf you choose the other acute angle, opposite and adjacent swap over.",
+    "figure": "trigFig('adjacent', 'opposite', 'hypotenuse')"
+   },
+   {
+    "heading": "Three ratios",
+    "text": "For a given angle, the ratios of the sides are always the same, however big the triangle:\n• sin θ = opposite ÷ hypotenuse\n• cos θ = adjacent ÷ hypotenuse\n• tan θ = opposite ÷ adjacent\nRemember SOH CAH TOA. In the triangle with sides {3}, {4}, {5} and θ opposite the side {3}: sin θ = {frac(3, 5)}, cos θ = {frac(4, 5)}, tan θ = {frac(3, 4)}.\nsin and cos are always less than {1}, because the hypotenuse is the longest side."
+   },
+   {
+    "heading": "Complementary angles",
+    "text": "The two acute angles of a right-angled triangle add up to {90}°: they are complementary.\nThe side opposite one is adjacent to the other. So sin θ = cos({90}° − θ) and cos θ = sin({90}° − θ).\nFor example sin {30}° = cos {60}° = {0.5}, and cos {20}° = sin {70}°."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "opposite",
+    "meaning": "the side facing the angle"
+   },
+   {
+    "word": "adjacent",
+    "meaning": "the side next to the angle, not the hypotenuse"
+   },
+   {
+    "word": "SOH CAH TOA",
+    "meaning": "sin = O ÷ H, cos = A ÷ H, tan = O ÷ A"
+   },
+   {
+    "word": "complementary angles",
+    "meaning": "two angles that add up to {90}°"
+   }
+  ],
+  "examples": [
+   "Sides {5}, {12}, {13}, θ facing {5}: sin θ = {frac(5, 13)}",
+   "tan θ = {frac(12, 5)} for the other angle",
+   "cos {35}° = sin {55}°"
+  ],
+  "mistake": {
+   "wrong": "sin θ = adjacent ÷ hypotenuse",
+   "right": "sin θ = opposite ÷ hypotenuse (SOH)",
+   "why": "Name the sides from θ first. The opposite side faces θ; the adjacent side touches it."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 4,
+   "b": 3,
+   "c": 5
+  },
+  "problem": "In the triangle, write sin θ, cos θ and tan θ as fractions.",
+  "steps": [
+   "Opposite θ: {b} cm. Adjacent to θ: {a} cm. Hypotenuse: {c} cm.",
+   "sin θ = {b} ÷ {c} = {frac(b, c)}.",
+   "cos θ = {a} ÷ {c} = {frac(a, c)}.",
+   "tan θ = {b} ÷ {a} = {frac(b, a)}."
+  ],
+  "answer": "sin θ = {frac(b, c)}, cos θ = {frac(a, c)}, tan θ = {frac(b, a)}",
+  "checks": [
+   "a * a + b * b == c * c"
+  ],
+  "figure": "trigFig(a, b, c)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m17-1",
+    "status": "draft",
+    "idea": "SOH: sin θ = opposite ÷ hypotenuse.",
+    "vars": {},
+    "example": [
+     "Opposite {3}, hypotenuse {5}: sin θ = {frac(3, 5)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-17-ratio"
+    }
+   },
+   {
+    "id": "c3m17-2",
+    "status": "draft",
+    "idea": "CAH and TOA: cos θ = adjacent ÷ hypotenuse; tan θ = opposite ÷ adjacent.",
+    "vars": {},
+    "example": [
+     "Adjacent {4}: cos θ = {frac(4, 5)}, tan θ = {frac(3, 4)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-17-name"
+    }
+   },
+   {
+    "id": "c3m17-3",
+    "status": "draft",
+    "idea": "Complementary angles: sin θ = cos({90}° − θ).",
+    "vars": {},
+    "example": [
+     "sin {40}° = cos {50}°; cos {25}° = sin {65}°"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-17-comp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "trigonometry"
+     ],
+     "vars": {
+      "A": {
+       "int": [
+        10,
+        80
+       ]
+      }
+     },
+     "prompt": "Which statement is true?",
+     "correct": "{'sin ' + A + '° = cos ' + (90 - A) + '°'}",
+     "distractors": [
+      {
+       "text": "{'sin ' + A + '° = cos ' + A + '°'}",
+       "misconception": "same"
+      },
+      {
+       "text": "{'sin ' + A + '° = sin ' + (90 - A) + '°'}",
+       "misconception": "sinsin"
+      },
+      {
+       "text": "{'cos ' + A + '° = cos ' + (90 - A) + '°'}",
+       "misconception": "coscos"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "same",
+       "explain": "sin and cos of the same angle are equal only at {45}°."
+      },
+      {
+       "id": "sinsin",
+       "explain": "The complement turns sine into cosine: sin θ = cos({90}° − θ)."
+      },
+      {
+       "id": "coscos",
+       "explain": "The complement turns cosine into sine: cos θ = sin({90}° − θ)."
+      }
+     ],
+     "solution": [
+      "{A}° + {90 - A}° = {90}°: complementary angles.",
+      "The sine of an angle equals the cosine of its complement. So: {answer}."
+     ],
+     "where": [
+      "A != 45"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-17-ratio",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "T": {
+     "expr": "triple(i)"
+    },
+    "k": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "a": {
+     "expr": "T[0] * k"
+    },
+    "b": {
+     "expr": "T[1] * k"
+    },
+    "c": {
+     "expr": "T[2] * k"
+    },
+    "R": {
+     "pick": [
+      "sin θ",
+      "cos θ",
+      "tan θ"
+     ]
+    }
+   },
+   "prompt": "In the triangle, what is {R}?",
+   "correct": "{R == 'sin θ' ? frac(b, c) : R == 'cos θ' ? frac(a, c) : frac(b, a)}",
+   "distractors": [
+    {
+     "text": "{R == 'sin θ' ? frac(a, c) : R == 'cos θ' ? frac(b, c) : frac(a, b)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{R == 'sin θ' ? frac(c, b) : R == 'cos θ' ? frac(c, a) : frac(b, c)}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{R == 'sin θ' ? frac(b, a) : R == 'cos θ' ? frac(b, a) : frac(a, c)}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Name the sides from θ: the opposite side faces θ ({b}), the adjacent side touches θ ({a})."
+    },
+    {
+     "id": "flip",
+     "explain": "{R == 'tan θ' ? 'tan θ uses opposite and adjacent, not the hypotenuse.' : 'The hypotenuse goes at the bottom: the ratio is less than one.'}"
+    },
+    {
+     "id": "other",
+     "explain": "Use SOH CAH TOA: {R == 'sin θ' ? 'S = O ÷ H' : R == 'cos θ' ? 'C = A ÷ H' : 'T = O ÷ A'}."
+    }
+   ],
+   "solution": [
+    "Opposite θ: {b}; adjacent: {a}; hypotenuse: {c}.",
+    "{R == 'sin θ' ? 'sin θ = opposite ÷ hypotenuse' : R == 'cos θ' ? 'cos θ = adjacent ÷ hypotenuse' : 'tan θ = opposite ÷ adjacent'} = {answer}."
+   ],
+   "figure": "trigFig(a, b, c)",
+   "where": [
+    "a != b"
+   ]
+  },
+  {
+   "id": "m3-17-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which ratio is opposite ÷ hypotenuse?",
+       "r": "sin θ",
+       "w": [
+        "cos θ",
+        "tan θ",
+        "hyp θ"
+       ],
+       "e": [
+        "cos θ is adjacent ÷ hypotenuse.",
+        "tan θ is opposite ÷ adjacent.",
+        "There is no ratio called hyp θ."
+       ],
+       "y": "SOH: sine is opposite over hypotenuse."
+      },
+      {
+       "q": "Which ratio is opposite ÷ adjacent?",
+       "r": "tan θ",
+       "w": [
+        "sin θ",
+        "cos θ",
+        "sec θ"
+       ],
+       "e": [
+        "sin θ is opposite ÷ hypotenuse.",
+        "cos θ is adjacent ÷ hypotenuse.",
+        "Not used in Form 3: TOA gives tan."
+       ],
+       "y": "TOA: tangent is opposite over adjacent."
+      },
+      {
+       "q": "Which side is the adjacent side for the angle θ?",
+       "r": "The side next to θ that is not the hypotenuse",
+       "w": [
+        "The side facing θ",
+        "The longest side",
+        "Any side touching the right angle"
+       ],
+       "e": [
+        "The side facing θ is the opposite side.",
+        "The longest side is the hypotenuse.",
+        "One of the sides at the right angle is opposite θ."
+       ],
+       "y": "Adjacent means next to: it touches θ but is not the hypotenuse."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-17-compnum",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "A": {
+     "int": [
+      10,
+      80
+     ]
+    }
+   },
+   "prompt": "Given that cos {A}° ≈ {roundTo(cosD(A), 0.0001)}, write down the value of sin {90 - A}°.",
+   "answer": "roundTo(cosD(A), 0.0001)",
+   "misconceptions": [
+    {
+     "id": "sinA",
+     "wrong": "roundTo(sinD(A), 0.0001)",
+     "explain": "That is sin {A}°. Use sin({90}° − θ) = cos θ."
+    }
+   ],
+   "solution": [
+    "{A}° and {90 - A}° add to {90}°: they are complementary.",
+    "sin({90} − θ) = cos θ, so sin {90 - A}° = cos {A}° ≈ {answer}."
+   ],
+   "where": [
+    "A != 45"
+   ]
+  },
+  {
+   "id": "m3-17-opp",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "A": {
+     "int": [
+      15,
+      75
+     ]
+    }
+   },
+   "prompt": "In a right-angled triangle the hypotenuse is {h} cm and the marked angle is {A}°. Find the side opposite the angle, to {1} decimal place.",
+   "answer": "roundTo(h * sinD(A), 0.1)",
+   "misconceptions": [
+    {
+     "id": "cos",
+     "wrong": "roundTo(h * cosD(A), 0.1)",
+     "explain": "That is the adjacent side (cos). The opposite side uses sin."
+    },
+    {
+     "id": "div",
+     "wrong": "roundTo(h / sinD(A), 0.1)",
+     "explain": "opposite = hypotenuse × sin θ: multiply, do not divide."
+    }
+   ],
+   "solution": [
+    "sin {A}° = opposite ÷ {h}.",
+    "opposite = {h} × sin {A}° ≈ {h} × {roundTo(sinD(A), 0.0001)} ≈ {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "trigFig('', 'x', h, A)",
+   "where": [
+    "A != 45"
+   ]
+  },
+  {
+   "id": "m3-17-comp",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "A": {
+     "int": [
+      10,
+      80
+     ]
+    }
+   },
+   "prompt": "Which statement is true?",
+   "correct": "{'sin ' + A + '° = cos ' + (90 - A) + '°'}",
+   "distractors": [
+    {
+     "text": "{'sin ' + A + '° = cos ' + A + '°'}",
+     "misconception": "same"
+    },
+    {
+     "text": "{'sin ' + A + '° = sin ' + (90 - A) + '°'}",
+     "misconception": "sinsin"
+    },
+    {
+     "text": "{'cos ' + A + '° = cos ' + (90 - A) + '°'}",
+     "misconception": "coscos"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "same",
+     "explain": "sin and cos of the same angle are equal only at {45}°."
+    },
+    {
+     "id": "sinsin",
+     "explain": "The complement turns sine into cosine: sin θ = cos({90}° − θ)."
+    },
+    {
+     "id": "coscos",
+     "explain": "The complement turns cosine into sine: cos θ = sin({90}° − θ)."
+    }
+   ],
+   "solution": [
+    "{A}° + {90 - A}° = {90}°: complementary angles.",
+    "The sine of an angle equals the cosine of its complement. So: {answer}."
+   ],
+   "where": [
+    "A != 45"
+   ]
+  }
+ ]
+}

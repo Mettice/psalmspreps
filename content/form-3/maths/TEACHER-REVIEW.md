@@ -15,3 +15,10 @@ and the wording. Open items:
   book prices are multiples of 50 FCFA. Are they realistic?
 - **TR-M3-6 (row 12).** The quadratic formula is shown as x = (−b ± √(b² − 4ac)) ÷ 2a. Roots are given to 2 decimal places;
   the app accepts −1.6 and −1.60 as the same answer. The discriminant decides the number of roots (two, one repeated, none).
+- **TR-M3-7 (row 13).** The rearranged formulae (v = u + at, P = 2l + 2w, y = mx + c, A = ½(a + b)h, A = πr², E = ½mv²,
+  ax + b = cx + d, y = (x + 1) ÷ (x − 1), p = (a + b) ÷ a) and the explanation of each wrong option were written by hand. Please check them.
+- **TR-M3-8 (rows 14–15).** Variation is written as y = kx, y = k ÷ x, z = kxy, z = kx ÷ y. Partial variation (y = a + bx), listed in some
+  textbooks, is not covered yet. Should it be?
+- **TR-M3-9 (rows 16–19).** Angles are in degrees and the calculator is assumed to be in degree mode. Exact values: tan 30° = 1/√3 and
+  sin 45° = 1/√2; the lesson also mentions the rationalised form √2/2. Sides and angles are given to 1 decimal place, distances to the
+  nearest metre. The angle of depression is explained as equal to the angle of elevation (alternate angles).
