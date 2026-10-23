@@ -1,0 +1,732 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "g4-13",
+   "name": "The Mediterranean biome"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mediterranean-type climates have generally hot or warm dry summers and milder wetter winters. They occur around the Mediterranean Sea and in other western-margin regions, including parts of California, central Chile, the Cape and southwestern Australia. Seasons reverse between hemispheres. Vegetation often includes evergreen shrubs and trees with small tough leaves; woodland and more open formations vary with site and disturbance. Summer drought influences growth, fire risk and cultivation. The biome is not defined by rain falling only in the warmest season.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to relate dry summers and wetter winters to plant adaptations and seasonal land-use constraints. Builds on: hot-desert aridity and seasonal vegetation responses. Leads to: comparing Cameroon’s environments with global biome patterns."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Mediterranean-type climates have generally hot or warm dry summers and milder wetter winters. They occur around the Mediterranean Sea and in other western-margin regions, including parts of California, central Chile, the Cape and southwestern Australia. Seasons reverse between hemispheres. Vegetation often includes evergreen shrubs and trees with small tough leaves; woodland and more open formations vary with site and disturbance. Summer drought influences growth, fire risk and cultivation. The biome is not defined by rain falling only in the warmest season."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "The chart is an invented northern-hemisphere record with summer dryness and wetter cooler-season months. A southern-hemisphere example would shift the seasonal calendar. Olives, vines and other crops are associated with parts of Mediterranean agriculture, but their viability depends on local conditions and management. Irrigation may supplement water but has costs and resource limits. Cameroon’s tropical seasons should not be relabelled Mediterranean merely because some months are dry.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 278\\\" role=\\\"img\\\" aria-label=\\\"Invented monthly rainfall chart, January to December, millimetres\\\" font-family=\\\"sans-serif\\\" fill=\\\"#183428\\\"><rect width=\\\"320\\\" height=\\\"278\\\" fill=\\\"#fffdf5\\\"/><text x=\\\"8\\\" y=\\\"18\\\" font-size=\\\"12\\\">Invented monthly rainfall (mm)</text><path d=\\\"M34 224.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"228.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(0) + \"</text><path d=\\\"M34 180.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"184.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(100) + \"</text><path d=\\\"M34 136.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"140.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(200) + \"</text><path d=\\\"M34 92.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"96.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(300) + \"</text><path d=\\\"M34 48.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"52.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(400) + \"</text><rect x=\\\"38\\\" y=\\\"180.0\\\" width=\\\"16\\\" height=\\\"44.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"46\\\" y=\\\"175.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(100) + \"</text><text x=\\\"46\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"61\\\" y=\\\"184.4\\\" width=\\\"16\\\" height=\\\"39.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"69\\\" y=\\\"179.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(90) + \"</text><text x=\\\"69\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">F</text><rect x=\\\"84\\\" y=\\\"193.2\\\" width=\\\"16\\\" height=\\\"30.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"92\\\" y=\\\"188.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(70) + \"</text><text x=\\\"92\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"107\\\" y=\\\"206.4\\\" width=\\\"16\\\" height=\\\"17.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"115\\\" y=\\\"201.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(40) + \"</text><text x=\\\"115\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"130\\\" y=\\\"215.2\\\" width=\\\"16\\\" height=\\\"8.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"138\\\" y=\\\"210.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(20) + \"</text><text x=\\\"138\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"153\\\" y=\\\"221.8\\\" width=\\\"16\\\" height=\\\"2.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"161\\\" y=\\\"216.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(5) + \"</text><text x=\\\"161\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"176\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"184\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"184\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"199\\\" y=\\\"221.8\\\" width=\\\"16\\\" height=\\\"2.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"207\\\" y=\\\"216.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(5) + \"</text><text x=\\\"207\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"222\\\" y=\\\"210.8\\\" width=\\\"16\\\" height=\\\"13.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"230\\\" y=\\\"205.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(30) + \"</text><text x=\\\"230\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">S</text><rect x=\\\"245\\\" y=\\\"193.2\\\" width=\\\"16\\\" height=\\\"30.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"253\\\" y=\\\"188.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(70) + \"</text><text x=\\\"253\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">O</text><rect x=\\\"268\\\" y=\\\"184.4\\\" width=\\\"16\\\" height=\\\"39.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"276\\\" y=\\\"179.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(90) + \"</text><text x=\\\"276\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">N</text><rect x=\\\"291\\\" y=\\\"180.0\\\" width=\\\"16\\\" height=\\\"44.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"299\\\" y=\\\"175.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(100) + \"</text><text x=\\\"299\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">D</text><text x=\\\"8\\\" y=\\\"263\\\" font-size=\\\"10\\\">Jan to Dec; model data, not a town record.</text></svg>\""
+   },
+   {
+    "heading": "Apply and check",
+    "text": "State which hemisphere is used before naming summer months. Explain how tough leaves or seasonal growth help with drought, without treating all shrubs as identical. A humid winter and dry summer are a pattern, not a promise that every year has equal rain. Compare climate evidence rather than assigning a biome from a crop name alone."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "summer drought",
+    "meaning": "a dry period coinciding with the warm season"
+   },
+   {
+    "word": "sclerophyll feature",
+    "meaning": "small tough leaves helping plants cope with seasonal stress"
+   },
+   {
+    "word": "hemisphere contrast",
+    "meaning": "opposite seasonal calendars north and south of the Equator"
+   },
+   {
+    "word": "resource constraint",
+    "meaning": "a limit affecting how people use seasonal water and land"
+   }
+  ],
+  "mistake": {
+   "wrong": "Mediterranean rainfall is necessarily greatest in every summer month.",
+   "right": "a dry period coinciding with the warm season.",
+   "why": "The characteristic contrast is dry summer and wetter cooler season."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The northern-hemisphere model has little rain during its summer months. Explain the relationship.",
+  "steps": [
+   "a dry period coinciding with the warm season.",
+   "The characteristic contrast is dry summer and wetter cooler season."
+  ],
+  "answer": "summer drought",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-13-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "summer drought: a dry period coinciding with the warm season.",
+     "sclerophyll feature: small tough leaves helping plants cope with seasonal stress.",
+     "hemisphere contrast: opposite seasonal calendars north and south of the Equator.",
+     "resource constraint: a limit affecting how people use seasonal water and land."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-13-terms"
+    }
+   },
+   {
+    "id": "g4-13-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "The northern-hemisphere model has little rain during its summer months.",
+     "An evergreen shrub has firm leaves with a resistant surface.",
+     "The Cape’s summer occurs in a different part of the year from the Mediterranean basin’s summer.",
+     "A farm considers available water before extending irrigated cultivation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-13-cases"
+    }
+   },
+   {
+    "id": "g4-13-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "The characteristic contrast is dry summer and wetter cooler season.",
+     "Tough-leaved vegetation includes features associated with limiting water loss.",
+     "Seasonal timing reverses between hemispheres.",
+     "Irrigation reallocates a finite resource and requires suitable management."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-13-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "biomes"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The northern-hemisphere model has little rain during its summer months.\nWhich explanation follows?",
+         "r": "The characteristic contrast is dry summer and wetter cooler season.",
+         "w": [
+          "Tough-leaved vegetation includes features associated with limiting water loss.",
+          "Seasonal timing reverses between hemispheres.",
+          "Irrigation reallocates a finite resource and requires suitable management."
+         ],
+         "e": [
+          "That explanation addresses sclerophyll feature, rather than the process or relationship in this case.",
+          "That explanation addresses hemisphere contrast, rather than the process or relationship in this case.",
+          "That explanation addresses resource constraint, rather than the process or relationship in this case."
+         ],
+         "y": "a dry period coinciding with the warm season."
+        },
+        {
+         "q": "An evergreen shrub has firm leaves with a resistant surface.\nWhich explanation follows?",
+         "r": "Tough-leaved vegetation includes features associated with limiting water loss.",
+         "w": [
+          "The characteristic contrast is dry summer and wetter cooler season.",
+          "Seasonal timing reverses between hemispheres.",
+          "Irrigation reallocates a finite resource and requires suitable management."
+         ],
+         "e": [
+          "That explanation addresses summer drought, rather than the process or relationship in this case.",
+          "That explanation addresses hemisphere contrast, rather than the process or relationship in this case.",
+          "That explanation addresses resource constraint, rather than the process or relationship in this case."
+         ],
+         "y": "small tough leaves helping plants cope with seasonal stress."
+        },
+        {
+         "q": "The Cape’s summer occurs in a different part of the year from the Mediterranean basin’s summer.\nWhich explanation follows?",
+         "r": "Seasonal timing reverses between hemispheres.",
+         "w": [
+          "The characteristic contrast is dry summer and wetter cooler season.",
+          "Tough-leaved vegetation includes features associated with limiting water loss.",
+          "Irrigation reallocates a finite resource and requires suitable management."
+         ],
+         "e": [
+          "That explanation addresses summer drought, rather than the process or relationship in this case.",
+          "That explanation addresses sclerophyll feature, rather than the process or relationship in this case.",
+          "That explanation addresses resource constraint, rather than the process or relationship in this case."
+         ],
+         "y": "opposite seasonal calendars north and south of the Equator."
+        },
+        {
+         "q": "A farm considers available water before extending irrigated cultivation.\nWhich explanation follows?",
+         "r": "Irrigation reallocates a finite resource and requires suitable management.",
+         "w": [
+          "The characteristic contrast is dry summer and wetter cooler season.",
+          "Tough-leaved vegetation includes features associated with limiting water loss.",
+          "Seasonal timing reverses between hemispheres."
+         ],
+         "e": [
+          "That explanation addresses summer drought, rather than the process or relationship in this case.",
+          "That explanation addresses sclerophyll feature, rather than the process or relationship in this case.",
+          "That explanation addresses hemisphere contrast, rather than the process or relationship in this case."
+         ],
+         "y": "a limit affecting how people use seasonal water and land."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-13-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a dry period coinciding with the warm season?",
+       "r": "summer drought",
+       "w": [
+        "sclerophyll feature",
+        "hemisphere contrast",
+        "resource constraint"
+       ],
+       "e": [
+        "That concerns small tough leaves helping plants cope with seasonal stress, rather than the feature asked for.",
+        "That concerns opposite seasonal calendars north and south of the Equator, rather than the feature asked for.",
+        "That concerns a limit affecting how people use seasonal water and land, rather than the feature asked for."
+       ],
+       "y": "The characteristic contrast is dry summer and wetter cooler season."
+      },
+      {
+       "q": "Which term means small tough leaves helping plants cope with seasonal stress?",
+       "r": "sclerophyll feature",
+       "w": [
+        "summer drought",
+        "hemisphere contrast",
+        "resource constraint"
+       ],
+       "e": [
+        "That concerns a dry period coinciding with the warm season, rather than the feature asked for.",
+        "That concerns opposite seasonal calendars north and south of the Equator, rather than the feature asked for.",
+        "That concerns a limit affecting how people use seasonal water and land, rather than the feature asked for."
+       ],
+       "y": "Tough-leaved vegetation includes features associated with limiting water loss."
+      },
+      {
+       "q": "Which term means opposite seasonal calendars north and south of the Equator?",
+       "r": "hemisphere contrast",
+       "w": [
+        "summer drought",
+        "sclerophyll feature",
+        "resource constraint"
+       ],
+       "e": [
+        "That concerns a dry period coinciding with the warm season, rather than the feature asked for.",
+        "That concerns small tough leaves helping plants cope with seasonal stress, rather than the feature asked for.",
+        "That concerns a limit affecting how people use seasonal water and land, rather than the feature asked for."
+       ],
+       "y": "Seasonal timing reverses between hemispheres."
+      },
+      {
+       "q": "Which term means a limit affecting how people use seasonal water and land?",
+       "r": "resource constraint",
+       "w": [
+        "summer drought",
+        "sclerophyll feature",
+        "hemisphere contrast"
+       ],
+       "e": [
+        "That concerns a dry period coinciding with the warm season, rather than the feature asked for.",
+        "That concerns small tough leaves helping plants cope with seasonal stress, rather than the feature asked for.",
+        "That concerns opposite seasonal calendars north and south of the Equator, rather than the feature asked for."
+       ],
+       "y": "Irrigation reallocates a finite resource and requires suitable management."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-13-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The northern-hemisphere model has little rain during its summer months.\nWhich feature is illustrated?",
+       "r": "summer drought",
+       "w": [
+        "sclerophyll feature",
+        "hemisphere contrast",
+        "resource constraint"
+       ],
+       "e": [
+        "That identifies small tough leaves helping plants cope with seasonal stress. Read the case for evidence of a dry period coinciding with the warm season.",
+        "That identifies opposite seasonal calendars north and south of the Equator. Read the case for evidence of a dry period coinciding with the warm season.",
+        "That identifies a limit affecting how people use seasonal water and land. Read the case for evidence of a dry period coinciding with the warm season."
+       ],
+       "y": "The characteristic contrast is dry summer and wetter cooler season."
+      },
+      {
+       "q": "An evergreen shrub has firm leaves with a resistant surface.\nWhich feature is illustrated?",
+       "r": "sclerophyll feature",
+       "w": [
+        "summer drought",
+        "hemisphere contrast",
+        "resource constraint"
+       ],
+       "e": [
+        "That identifies a dry period coinciding with the warm season. Read the case for evidence of small tough leaves helping plants cope with seasonal stress.",
+        "That identifies opposite seasonal calendars north and south of the Equator. Read the case for evidence of small tough leaves helping plants cope with seasonal stress.",
+        "That identifies a limit affecting how people use seasonal water and land. Read the case for evidence of small tough leaves helping plants cope with seasonal stress."
+       ],
+       "y": "Tough-leaved vegetation includes features associated with limiting water loss."
+      },
+      {
+       "q": "The Cape’s summer occurs in a different part of the year from the Mediterranean basin’s summer.\nWhich feature is illustrated?",
+       "r": "hemisphere contrast",
+       "w": [
+        "summer drought",
+        "sclerophyll feature",
+        "resource constraint"
+       ],
+       "e": [
+        "That identifies a dry period coinciding with the warm season. Read the case for evidence of opposite seasonal calendars north and south of the Equator.",
+        "That identifies small tough leaves helping plants cope with seasonal stress. Read the case for evidence of opposite seasonal calendars north and south of the Equator.",
+        "That identifies a limit affecting how people use seasonal water and land. Read the case for evidence of opposite seasonal calendars north and south of the Equator."
+       ],
+       "y": "Seasonal timing reverses between hemispheres."
+      },
+      {
+       "q": "A farm considers available water before extending irrigated cultivation.\nWhich feature is illustrated?",
+       "r": "resource constraint",
+       "w": [
+        "summer drought",
+        "sclerophyll feature",
+        "hemisphere contrast"
+       ],
+       "e": [
+        "That identifies a dry period coinciding with the warm season. Read the case for evidence of a limit affecting how people use seasonal water and land.",
+        "That identifies small tough leaves helping plants cope with seasonal stress. Read the case for evidence of a limit affecting how people use seasonal water and land.",
+        "That identifies opposite seasonal calendars north and south of the Equator. Read the case for evidence of a limit affecting how people use seasonal water and land."
+       ],
+       "y": "Irrigation reallocates a finite resource and requires suitable management."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-13-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The northern-hemisphere model has little rain during its summer months.\nWhich explanation follows?",
+       "r": "The characteristic contrast is dry summer and wetter cooler season.",
+       "w": [
+        "Tough-leaved vegetation includes features associated with limiting water loss.",
+        "Seasonal timing reverses between hemispheres.",
+        "Irrigation reallocates a finite resource and requires suitable management."
+       ],
+       "e": [
+        "That explanation addresses sclerophyll feature, rather than the process or relationship in this case.",
+        "That explanation addresses hemisphere contrast, rather than the process or relationship in this case.",
+        "That explanation addresses resource constraint, rather than the process or relationship in this case."
+       ],
+       "y": "a dry period coinciding with the warm season."
+      },
+      {
+       "q": "An evergreen shrub has firm leaves with a resistant surface.\nWhich explanation follows?",
+       "r": "Tough-leaved vegetation includes features associated with limiting water loss.",
+       "w": [
+        "The characteristic contrast is dry summer and wetter cooler season.",
+        "Seasonal timing reverses between hemispheres.",
+        "Irrigation reallocates a finite resource and requires suitable management."
+       ],
+       "e": [
+        "That explanation addresses summer drought, rather than the process or relationship in this case.",
+        "That explanation addresses hemisphere contrast, rather than the process or relationship in this case.",
+        "That explanation addresses resource constraint, rather than the process or relationship in this case."
+       ],
+       "y": "small tough leaves helping plants cope with seasonal stress."
+      },
+      {
+       "q": "The Cape’s summer occurs in a different part of the year from the Mediterranean basin’s summer.\nWhich explanation follows?",
+       "r": "Seasonal timing reverses between hemispheres.",
+       "w": [
+        "The characteristic contrast is dry summer and wetter cooler season.",
+        "Tough-leaved vegetation includes features associated with limiting water loss.",
+        "Irrigation reallocates a finite resource and requires suitable management."
+       ],
+       "e": [
+        "That explanation addresses summer drought, rather than the process or relationship in this case.",
+        "That explanation addresses sclerophyll feature, rather than the process or relationship in this case.",
+        "That explanation addresses resource constraint, rather than the process or relationship in this case."
+       ],
+       "y": "opposite seasonal calendars north and south of the Equator."
+      },
+      {
+       "q": "A farm considers available water before extending irrigated cultivation.\nWhich explanation follows?",
+       "r": "Irrigation reallocates a finite resource and requires suitable management.",
+       "w": [
+        "The characteristic contrast is dry summer and wetter cooler season.",
+        "Tough-leaved vegetation includes features associated with limiting water loss.",
+        "Seasonal timing reverses between hemispheres."
+       ],
+       "e": [
+        "That explanation addresses summer drought, rather than the process or relationship in this case.",
+        "That explanation addresses sclerophyll feature, rather than the process or relationship in this case.",
+        "That explanation addresses hemisphere contrast, rather than the process or relationship in this case."
+       ],
+       "y": "a limit affecting how people use seasonal water and land."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-13-rain-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": [
+        100,
+        90,
+        70,
+        40,
+        20,
+        5,
+        0,
+        5,
+        30,
+        70,
+        90,
+        100
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"180.0\" width=\"16\" height=\"44.0\" fill=\"#448d98\"/><text x=\"46\" y=\"175.0\" text-anchor=\"middle\" font-size=\"10\">{100}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"184.4\" width=\"16\" height=\"39.6\" fill=\"#448d98\"/><text x=\"69\" y=\"179.4\" text-anchor=\"middle\" font-size=\"10\">{90}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"193.2\" width=\"16\" height=\"30.8\" fill=\"#448d98\"/><text x=\"92\" y=\"188.2\" text-anchor=\"middle\" font-size=\"10\">{70}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"206.4\" width=\"16\" height=\"17.6\" fill=\"#448d98\"/><text x=\"115\" y=\"201.4\" text-anchor=\"middle\" font-size=\"10\">{40}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"138\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"221.8\" width=\"16\" height=\"2.2\" fill=\"#448d98\"/><text x=\"161\" y=\"216.8\" text-anchor=\"middle\" font-size=\"10\">{5}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"184\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"221.8\" width=\"16\" height=\"2.2\" fill=\"#448d98\"/><text x=\"207\" y=\"216.8\" text-anchor=\"middle\" font-size=\"10\">{5}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"210.8\" width=\"16\" height=\"13.2\" fill=\"#448d98\"/><text x=\"230\" y=\"205.8\" text-anchor=\"middle\" font-size=\"10\">{30}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"193.2\" width=\"16\" height=\"30.8\" fill=\"#448d98\"/><text x=\"253\" y=\"188.2\" text-anchor=\"middle\" font-size=\"10\">{70}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"184.4\" width=\"16\" height=\"39.6\" fill=\"#448d98\"/><text x=\"276\" y=\"179.4\" text-anchor=\"middle\" font-size=\"10\">{90}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"180.0\" width=\"16\" height=\"44.0\" fill=\"#448d98\"/><text x=\"299\" y=\"175.0\" text-anchor=\"middle\" font-size=\"10\">{100}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        105,
+        95,
+        75,
+        45,
+        25,
+        10,
+        0,
+        10,
+        35,
+        75,
+        95,
+        105
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"177.8\" width=\"16\" height=\"46.2\" fill=\"#448d98\"/><text x=\"46\" y=\"172.8\" text-anchor=\"middle\" font-size=\"10\">{105}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"182.2\" width=\"16\" height=\"41.8\" fill=\"#448d98\"/><text x=\"69\" y=\"177.2\" text-anchor=\"middle\" font-size=\"10\">{95}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"191.0\" width=\"16\" height=\"33.0\" fill=\"#448d98\"/><text x=\"92\" y=\"186.0\" text-anchor=\"middle\" font-size=\"10\">{75}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"204.2\" width=\"16\" height=\"19.8\" fill=\"#448d98\"/><text x=\"115\" y=\"199.2\" text-anchor=\"middle\" font-size=\"10\">{45}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"213.0\" width=\"16\" height=\"11.0\" fill=\"#448d98\"/><text x=\"138\" y=\"208.0\" text-anchor=\"middle\" font-size=\"10\">{25}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"219.6\" width=\"16\" height=\"4.4\" fill=\"#448d98\"/><text x=\"161\" y=\"214.6\" text-anchor=\"middle\" font-size=\"10\">{10}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"184\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"219.6\" width=\"16\" height=\"4.4\" fill=\"#448d98\"/><text x=\"207\" y=\"214.6\" text-anchor=\"middle\" font-size=\"10\">{10}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"208.6\" width=\"16\" height=\"15.4\" fill=\"#448d98\"/><text x=\"230\" y=\"203.6\" text-anchor=\"middle\" font-size=\"10\">{35}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"191.0\" width=\"16\" height=\"33.0\" fill=\"#448d98\"/><text x=\"253\" y=\"186.0\" text-anchor=\"middle\" font-size=\"10\">{75}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"182.2\" width=\"16\" height=\"41.8\" fill=\"#448d98\"/><text x=\"276\" y=\"177.2\" text-anchor=\"middle\" font-size=\"10\">{95}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"177.8\" width=\"16\" height=\"46.2\" fill=\"#448d98\"/><text x=\"299\" y=\"172.8\" text-anchor=\"middle\" font-size=\"10\">{105}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        110,
+        100,
+        80,
+        50,
+        30,
+        15,
+        0,
+        15,
+        40,
+        80,
+        100,
+        110
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"175.6\" width=\"16\" height=\"48.4\" fill=\"#448d98\"/><text x=\"46\" y=\"170.6\" text-anchor=\"middle\" font-size=\"10\">{110}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"180.0\" width=\"16\" height=\"44.0\" fill=\"#448d98\"/><text x=\"69\" y=\"175.0\" text-anchor=\"middle\" font-size=\"10\">{100}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"188.8\" width=\"16\" height=\"35.2\" fill=\"#448d98\"/><text x=\"92\" y=\"183.8\" text-anchor=\"middle\" font-size=\"10\">{80}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"202.0\" width=\"16\" height=\"22.0\" fill=\"#448d98\"/><text x=\"115\" y=\"197.0\" text-anchor=\"middle\" font-size=\"10\">{50}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"210.8\" width=\"16\" height=\"13.2\" fill=\"#448d98\"/><text x=\"138\" y=\"205.8\" text-anchor=\"middle\" font-size=\"10\">{30}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"217.4\" width=\"16\" height=\"6.6\" fill=\"#448d98\"/><text x=\"161\" y=\"212.4\" text-anchor=\"middle\" font-size=\"10\">{15}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"184\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"217.4\" width=\"16\" height=\"6.6\" fill=\"#448d98\"/><text x=\"207\" y=\"212.4\" text-anchor=\"middle\" font-size=\"10\">{15}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"206.4\" width=\"16\" height=\"17.6\" fill=\"#448d98\"/><text x=\"230\" y=\"201.4\" text-anchor=\"middle\" font-size=\"10\">{40}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"188.8\" width=\"16\" height=\"35.2\" fill=\"#448d98\"/><text x=\"253\" y=\"183.8\" text-anchor=\"middle\" font-size=\"10\">{80}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"180.0\" width=\"16\" height=\"44.0\" fill=\"#448d98\"/><text x=\"276\" y=\"175.0\" text-anchor=\"middle\" font-size=\"10\">{100}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"175.6\" width=\"16\" height=\"48.4\" fill=\"#448d98\"/><text x=\"299\" y=\"170.6\" text-anchor=\"middle\" font-size=\"10\">{110}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        115,
+        105,
+        85,
+        55,
+        35,
+        20,
+        0,
+        20,
+        45,
+        85,
+        105,
+        115
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"173.4\" width=\"16\" height=\"50.6\" fill=\"#448d98\"/><text x=\"46\" y=\"168.4\" text-anchor=\"middle\" font-size=\"10\">{115}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"177.8\" width=\"16\" height=\"46.2\" fill=\"#448d98\"/><text x=\"69\" y=\"172.8\" text-anchor=\"middle\" font-size=\"10\">{105}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"186.6\" width=\"16\" height=\"37.4\" fill=\"#448d98\"/><text x=\"92\" y=\"181.6\" text-anchor=\"middle\" font-size=\"10\">{85}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"199.8\" width=\"16\" height=\"24.2\" fill=\"#448d98\"/><text x=\"115\" y=\"194.8\" text-anchor=\"middle\" font-size=\"10\">{55}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"208.6\" width=\"16\" height=\"15.4\" fill=\"#448d98\"/><text x=\"138\" y=\"203.6\" text-anchor=\"middle\" font-size=\"10\">{35}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"161\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"184\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"207\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"204.2\" width=\"16\" height=\"19.8\" fill=\"#448d98\"/><text x=\"230\" y=\"199.2\" text-anchor=\"middle\" font-size=\"10\">{45}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"186.6\" width=\"16\" height=\"37.4\" fill=\"#448d98\"/><text x=\"253\" y=\"181.6\" text-anchor=\"middle\" font-size=\"10\">{85}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"177.8\" width=\"16\" height=\"46.2\" fill=\"#448d98\"/><text x=\"276\" y=\"172.8\" text-anchor=\"middle\" font-size=\"10\">{105}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"173.4\" width=\"16\" height=\"50.6\" fill=\"#448d98\"/><text x=\"299\" y=\"168.4\" text-anchor=\"middle\" font-size=\"10\">{115}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      }
+     ]
+    }
+   },
+   "prompt": "Read the invented monthly rainfall chart. Add the labels above all monthly bars to obtain the annual total in mm; the vertical-axis tick labels are not extra observations.",
+   "answer": "sum(X.r)",
+   "misconceptions": [
+    {
+     "id": "mean",
+     "wrong": "meanOf(X.r)",
+     "explain": "That is a monthly mean, not the sum for the year."
+    },
+    {
+     "id": "range",
+     "wrong": "rangeOf(X.r)",
+     "explain": "That is the difference between wettest and driest months, not the annual total."
+    },
+    {
+     "id": "tenfold",
+     "wrong": "sum(X.r)*10",
+     "explain": "That multiplies an already millimetre total by ten without a unit conversion."
+    }
+   ],
+   "solution": [
+    "Add each monthly amount once.",
+    "The annual rainfall of this classroom record is {answer} mm. A real biome classification also needs temperature and other evidence."
+   ],
+   "unit": "mm",
+   "figure": "X.svg"
+  },
+  {
+   "id": "g4-13-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "biomes"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "summer drought: a dry period coinciding with the warm season.",
+      "truth": "true",
+      "explain": "This distinction is correct: The characteristic contrast is dry summer and wetter cooler season. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "sclerophyll feature: small tough leaves helping plants cope with seasonal stress.",
+      "truth": "true",
+      "explain": "This distinction is correct: Tough-leaved vegetation includes features associated with limiting water loss. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "hemisphere contrast: opposite seasonal calendars north and south of the Equator.",
+      "truth": "true",
+      "explain": "This distinction is correct: Seasonal timing reverses between hemispheres. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "resource constraint: a limit affecting how people use seasonal water and land.",
+      "truth": "true",
+      "explain": "This distinction is correct: Irrigation reallocates a finite resource and requires suitable management. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mediterranean rainfall is necessarily greatest in every summer month.",
+      "truth": "false",
+      "explain": "The characteristic contrast is dry summer and wetter cooler season."
+     },
+     {
+      "text": "Every Mediterranean plant loses all water immediately through huge soft leaves.",
+      "truth": "false",
+      "explain": "Tough-leaved vegetation includes features associated with limiting water loss."
+     },
+     {
+      "text": "Summer occurs in the same months in both hemispheres.",
+      "truth": "false",
+      "explain": "Seasonal timing reverses between hemispheres."
+     },
+     {
+      "text": "Irrigation creates unlimited fresh water with no costs or consequences.",
+      "truth": "false",
+      "explain": "Irrigation reallocates a finite resource and requires suitable management."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,739 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  8,
+  9,
+  10
+ ],
+ "skills": [
+  {
+   "id": "g4-11",
+   "name": "The tropical monsoon biome"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A monsoon is a seasonal change in prevailing circulation, often associated with strongly seasonal rainfall. Tropical monsoon landscapes occur notably in South and Southeast Asia, although monsoon systems also influence other regions. Moist-season growth contrasts with a drier period; seasonal forests can include deciduous trees. A monsoon is not simply one violent rainstorm. Relief, distance from the sea and the direction of moist winds create local differences, so not every monsoon coast has the same wet months or vegetation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to connect seasonal wind circulation and rainfall to seasonal forest and farming constraints. Builds on: seasonality in savannah and rainforest comparisons. Leads to: desert and Mediterranean contrasts and Cameroon climate types."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "A monsoon is a seasonal change in prevailing circulation, often associated with strongly seasonal rainfall. Tropical monsoon landscapes occur notably in South and Southeast Asia, although monsoon systems also influence other regions. Moist-season growth contrasts with a drier period; seasonal forests can include deciduous trees. A monsoon is not simply one violent rainstorm. Relief, distance from the sea and the direction of moist winds create local differences, so not every monsoon coast has the same wet months or vegetation."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In a South Asian teaching example, a concentrated rainy season supports water-demanding cultivation while a drier period requires different planning. The invented chart shows strong seasonality without claiming a real town’s measurements. Cameroon’s wet coast is influenced by moist seasonal circulation, but its rainfall regime should be described locally rather than copying an Asian calendar or assuming one identical global monsoon biome.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 278\\\" role=\\\"img\\\" aria-label=\\\"Invented monthly rainfall chart, January to December, millimetres\\\" font-family=\\\"sans-serif\\\" fill=\\\"#183428\\\"><rect width=\\\"320\\\" height=\\\"278\\\" fill=\\\"#fffdf5\\\"/><text x=\\\"8\\\" y=\\\"18\\\" font-size=\\\"12\\\">Invented monthly rainfall (mm)</text><path d=\\\"M34 224.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"228.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(0) + \"</text><path d=\\\"M34 180.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"184.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(100) + \"</text><path d=\\\"M34 136.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"140.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(200) + \"</text><path d=\\\"M34 92.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"96.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(300) + \"</text><path d=\\\"M34 48.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"52.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(400) + \"</text><rect x=\\\"38\\\" y=\\\"219.6\\\" width=\\\"16\\\" height=\\\"4.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"46\\\" y=\\\"214.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(10) + \"</text><text x=\\\"46\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"61\\\" y=\\\"219.6\\\" width=\\\"16\\\" height=\\\"4.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"69\\\" y=\\\"214.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(10) + \"</text><text x=\\\"69\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">F</text><rect x=\\\"84\\\" y=\\\"215.2\\\" width=\\\"16\\\" height=\\\"8.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"92\\\" y=\\\"210.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(20) + \"</text><text x=\\\"92\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"107\\\" y=\\\"197.6\\\" width=\\\"16\\\" height=\\\"26.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"115\\\" y=\\\"192.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(60) + \"</text><text x=\\\"115\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"130\\\" y=\\\"166.8\\\" width=\\\"16\\\" height=\\\"57.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"138\\\" y=\\\"161.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(130) + \"</text><text x=\\\"138\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"153\\\" y=\\\"100.8\\\" width=\\\"16\\\" height=\\\"123.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"161\\\" y=\\\"95.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(280) + \"</text><text x=\\\"161\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"176\\\" y=\\\"70.0\\\" width=\\\"16\\\" height=\\\"154.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"184\\\" y=\\\"65.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(350) + \"</text><text x=\\\"184\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"199\\\" y=\\\"83.19999999999999\\\" width=\\\"16\\\" height=\\\"140.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"207\\\" y=\\\"78.19999999999999\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(320) + \"</text><text x=\\\"207\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"222\\\" y=\\\"118.4\\\" width=\\\"16\\\" height=\\\"105.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"230\\\" y=\\\"113.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(240) + \"</text><text x=\\\"230\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">S</text><rect x=\\\"245\\\" y=\\\"184.4\\\" width=\\\"16\\\" height=\\\"39.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"253\\\" y=\\\"179.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(90) + \"</text><text x=\\\"253\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">O</text><rect x=\\\"268\\\" y=\\\"210.8\\\" width=\\\"16\\\" height=\\\"13.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"276\\\" y=\\\"205.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(30) + \"</text><text x=\\\"276\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">N</text><rect x=\\\"291\\\" y=\\\"219.6\\\" width=\\\"16\\\" height=\\\"4.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"299\\\" y=\\\"214.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(10) + \"</text><text x=\\\"299\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">D</text><text x=\\\"8\\\" y=\\\"263\\\" font-size=\\\"10\\\">Jan to Dec; model data, not a town record.</text></svg>\""
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Link wind source, moisture and rainfall season. Distinguish a climatic pattern over years from one storm or flood. Explain how timing and reliability matter to cultivation, then identify the limits of the supplied record. A rainfall chart alone does not prove wind reversal, soil type or the safest crop choice."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "monsoon circulation",
+    "meaning": "a seasonal change in prevailing atmospheric circulation"
+   },
+   {
+    "word": "seasonal forest",
+    "meaning": "forest vegetation responding to a pronounced season of reduced moisture"
+   },
+   {
+    "word": "rainfall timing",
+    "meaning": "the distribution of rain through seasons rather than only its annual sum"
+   },
+   {
+    "word": "regional variation",
+    "meaning": "differences within and between monsoon-influenced regions"
+   }
+  ],
+  "mistake": {
+   "wrong": "Monsoon means one brief thunderstorm only.",
+   "right": "a seasonal change in prevailing atmospheric circulation.",
+   "why": "It describes a seasonal circulation pattern rather than one isolated storm."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A region’s prevailing winds change with the seasonal circulation. Explain the relationship.",
+  "steps": [
+   "a seasonal change in prevailing atmospheric circulation.",
+   "It describes a seasonal circulation pattern rather than one isolated storm."
+  ],
+  "answer": "monsoon circulation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-11-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "monsoon circulation: a seasonal change in prevailing atmospheric circulation.",
+     "seasonal forest: forest vegetation responding to a pronounced season of reduced moisture.",
+     "rainfall timing: the distribution of rain through seasons rather than only its annual sum.",
+     "regional variation: differences within and between monsoon-influenced regions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-11-terms"
+    }
+   },
+   {
+    "id": "g4-11-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A region’s prevailing winds change with the seasonal circulation.",
+     "Some trees shed leaves during a drier part of the year.",
+     "A large share of the model rain falls in a limited group of months.",
+     "A windward coast receives a different pattern from a sheltered interior."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-11-cases"
+    }
+   },
+   {
+    "id": "g4-11-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "It describes a seasonal circulation pattern rather than one isolated storm.",
+     "Seasonal tropical forest differs from an assumed continuously wet model.",
+     "The timing and reliability of rainfall also influence water availability.",
+     "Relief, circulation and location change the local seasonal pattern."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-11-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "biomes",
+      "monsoon"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A region’s prevailing winds change with the seasonal circulation.\nWhich explanation follows?",
+         "r": "It describes a seasonal circulation pattern rather than one isolated storm.",
+         "w": [
+          "Seasonal tropical forest differs from an assumed continuously wet model.",
+          "The timing and reliability of rainfall also influence water availability.",
+          "Relief, circulation and location change the local seasonal pattern."
+         ],
+         "e": [
+          "That explanation addresses seasonal forest, rather than the process or relationship in this case.",
+          "That explanation addresses rainfall timing, rather than the process or relationship in this case.",
+          "That explanation addresses regional variation, rather than the process or relationship in this case."
+         ],
+         "y": "a seasonal change in prevailing atmospheric circulation."
+        },
+        {
+         "q": "Some trees shed leaves during a drier part of the year.\nWhich explanation follows?",
+         "r": "Seasonal tropical forest differs from an assumed continuously wet model.",
+         "w": [
+          "It describes a seasonal circulation pattern rather than one isolated storm.",
+          "The timing and reliability of rainfall also influence water availability.",
+          "Relief, circulation and location change the local seasonal pattern."
+         ],
+         "e": [
+          "That explanation addresses monsoon circulation, rather than the process or relationship in this case.",
+          "That explanation addresses rainfall timing, rather than the process or relationship in this case.",
+          "That explanation addresses regional variation, rather than the process or relationship in this case."
+         ],
+         "y": "forest vegetation responding to a pronounced season of reduced moisture."
+        },
+        {
+         "q": "A large share of the model rain falls in a limited group of months.\nWhich explanation follows?",
+         "r": "The timing and reliability of rainfall also influence water availability.",
+         "w": [
+          "It describes a seasonal circulation pattern rather than one isolated storm.",
+          "Seasonal tropical forest differs from an assumed continuously wet model.",
+          "Relief, circulation and location change the local seasonal pattern."
+         ],
+         "e": [
+          "That explanation addresses monsoon circulation, rather than the process or relationship in this case.",
+          "That explanation addresses seasonal forest, rather than the process or relationship in this case.",
+          "That explanation addresses regional variation, rather than the process or relationship in this case."
+         ],
+         "y": "the distribution of rain through seasons rather than only its annual sum."
+        },
+        {
+         "q": "A windward coast receives a different pattern from a sheltered interior.\nWhich explanation follows?",
+         "r": "Relief, circulation and location change the local seasonal pattern.",
+         "w": [
+          "It describes a seasonal circulation pattern rather than one isolated storm.",
+          "Seasonal tropical forest differs from an assumed continuously wet model.",
+          "The timing and reliability of rainfall also influence water availability."
+         ],
+         "e": [
+          "That explanation addresses monsoon circulation, rather than the process or relationship in this case.",
+          "That explanation addresses seasonal forest, rather than the process or relationship in this case.",
+          "That explanation addresses rainfall timing, rather than the process or relationship in this case."
+         ],
+         "y": "differences within and between monsoon-influenced regions."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-11-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "monsoon"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a seasonal change in prevailing atmospheric circulation?",
+       "r": "monsoon circulation",
+       "w": [
+        "seasonal forest",
+        "rainfall timing",
+        "regional variation"
+       ],
+       "e": [
+        "That concerns forest vegetation responding to a pronounced season of reduced moisture, rather than the feature asked for.",
+        "That concerns the distribution of rain through seasons rather than only its annual sum, rather than the feature asked for.",
+        "That concerns differences within and between monsoon-influenced regions, rather than the feature asked for."
+       ],
+       "y": "It describes a seasonal circulation pattern rather than one isolated storm."
+      },
+      {
+       "q": "Which term means forest vegetation responding to a pronounced season of reduced moisture?",
+       "r": "seasonal forest",
+       "w": [
+        "monsoon circulation",
+        "rainfall timing",
+        "regional variation"
+       ],
+       "e": [
+        "That concerns a seasonal change in prevailing atmospheric circulation, rather than the feature asked for.",
+        "That concerns the distribution of rain through seasons rather than only its annual sum, rather than the feature asked for.",
+        "That concerns differences within and between monsoon-influenced regions, rather than the feature asked for."
+       ],
+       "y": "Seasonal tropical forest differs from an assumed continuously wet model."
+      },
+      {
+       "q": "Which term means the distribution of rain through seasons rather than only its annual sum?",
+       "r": "rainfall timing",
+       "w": [
+        "monsoon circulation",
+        "seasonal forest",
+        "regional variation"
+       ],
+       "e": [
+        "That concerns a seasonal change in prevailing atmospheric circulation, rather than the feature asked for.",
+        "That concerns forest vegetation responding to a pronounced season of reduced moisture, rather than the feature asked for.",
+        "That concerns differences within and between monsoon-influenced regions, rather than the feature asked for."
+       ],
+       "y": "The timing and reliability of rainfall also influence water availability."
+      },
+      {
+       "q": "Which term means differences within and between monsoon-influenced regions?",
+       "r": "regional variation",
+       "w": [
+        "monsoon circulation",
+        "seasonal forest",
+        "rainfall timing"
+       ],
+       "e": [
+        "That concerns a seasonal change in prevailing atmospheric circulation, rather than the feature asked for.",
+        "That concerns forest vegetation responding to a pronounced season of reduced moisture, rather than the feature asked for.",
+        "That concerns the distribution of rain through seasons rather than only its annual sum, rather than the feature asked for."
+       ],
+       "y": "Relief, circulation and location change the local seasonal pattern."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-11-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "monsoon"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A region’s prevailing winds change with the seasonal circulation.\nWhich feature is illustrated?",
+       "r": "monsoon circulation",
+       "w": [
+        "seasonal forest",
+        "rainfall timing",
+        "regional variation"
+       ],
+       "e": [
+        "That identifies forest vegetation responding to a pronounced season of reduced moisture. Read the case for evidence of a seasonal change in prevailing atmospheric circulation.",
+        "That identifies the distribution of rain through seasons rather than only its annual sum. Read the case for evidence of a seasonal change in prevailing atmospheric circulation.",
+        "That identifies differences within and between monsoon-influenced regions. Read the case for evidence of a seasonal change in prevailing atmospheric circulation."
+       ],
+       "y": "It describes a seasonal circulation pattern rather than one isolated storm."
+      },
+      {
+       "q": "Some trees shed leaves during a drier part of the year.\nWhich feature is illustrated?",
+       "r": "seasonal forest",
+       "w": [
+        "monsoon circulation",
+        "rainfall timing",
+        "regional variation"
+       ],
+       "e": [
+        "That identifies a seasonal change in prevailing atmospheric circulation. Read the case for evidence of forest vegetation responding to a pronounced season of reduced moisture.",
+        "That identifies the distribution of rain through seasons rather than only its annual sum. Read the case for evidence of forest vegetation responding to a pronounced season of reduced moisture.",
+        "That identifies differences within and between monsoon-influenced regions. Read the case for evidence of forest vegetation responding to a pronounced season of reduced moisture."
+       ],
+       "y": "Seasonal tropical forest differs from an assumed continuously wet model."
+      },
+      {
+       "q": "A large share of the model rain falls in a limited group of months.\nWhich feature is illustrated?",
+       "r": "rainfall timing",
+       "w": [
+        "monsoon circulation",
+        "seasonal forest",
+        "regional variation"
+       ],
+       "e": [
+        "That identifies a seasonal change in prevailing atmospheric circulation. Read the case for evidence of the distribution of rain through seasons rather than only its annual sum.",
+        "That identifies forest vegetation responding to a pronounced season of reduced moisture. Read the case for evidence of the distribution of rain through seasons rather than only its annual sum.",
+        "That identifies differences within and between monsoon-influenced regions. Read the case for evidence of the distribution of rain through seasons rather than only its annual sum."
+       ],
+       "y": "The timing and reliability of rainfall also influence water availability."
+      },
+      {
+       "q": "A windward coast receives a different pattern from a sheltered interior.\nWhich feature is illustrated?",
+       "r": "regional variation",
+       "w": [
+        "monsoon circulation",
+        "seasonal forest",
+        "rainfall timing"
+       ],
+       "e": [
+        "That identifies a seasonal change in prevailing atmospheric circulation. Read the case for evidence of differences within and between monsoon-influenced regions.",
+        "That identifies forest vegetation responding to a pronounced season of reduced moisture. Read the case for evidence of differences within and between monsoon-influenced regions.",
+        "That identifies the distribution of rain through seasons rather than only its annual sum. Read the case for evidence of differences within and between monsoon-influenced regions."
+       ],
+       "y": "Relief, circulation and location change the local seasonal pattern."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-11-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "monsoon"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A region’s prevailing winds change with the seasonal circulation.\nWhich explanation follows?",
+       "r": "It describes a seasonal circulation pattern rather than one isolated storm.",
+       "w": [
+        "Seasonal tropical forest differs from an assumed continuously wet model.",
+        "The timing and reliability of rainfall also influence water availability.",
+        "Relief, circulation and location change the local seasonal pattern."
+       ],
+       "e": [
+        "That explanation addresses seasonal forest, rather than the process or relationship in this case.",
+        "That explanation addresses rainfall timing, rather than the process or relationship in this case.",
+        "That explanation addresses regional variation, rather than the process or relationship in this case."
+       ],
+       "y": "a seasonal change in prevailing atmospheric circulation."
+      },
+      {
+       "q": "Some trees shed leaves during a drier part of the year.\nWhich explanation follows?",
+       "r": "Seasonal tropical forest differs from an assumed continuously wet model.",
+       "w": [
+        "It describes a seasonal circulation pattern rather than one isolated storm.",
+        "The timing and reliability of rainfall also influence water availability.",
+        "Relief, circulation and location change the local seasonal pattern."
+       ],
+       "e": [
+        "That explanation addresses monsoon circulation, rather than the process or relationship in this case.",
+        "That explanation addresses rainfall timing, rather than the process or relationship in this case.",
+        "That explanation addresses regional variation, rather than the process or relationship in this case."
+       ],
+       "y": "forest vegetation responding to a pronounced season of reduced moisture."
+      },
+      {
+       "q": "A large share of the model rain falls in a limited group of months.\nWhich explanation follows?",
+       "r": "The timing and reliability of rainfall also influence water availability.",
+       "w": [
+        "It describes a seasonal circulation pattern rather than one isolated storm.",
+        "Seasonal tropical forest differs from an assumed continuously wet model.",
+        "Relief, circulation and location change the local seasonal pattern."
+       ],
+       "e": [
+        "That explanation addresses monsoon circulation, rather than the process or relationship in this case.",
+        "That explanation addresses seasonal forest, rather than the process or relationship in this case.",
+        "That explanation addresses regional variation, rather than the process or relationship in this case."
+       ],
+       "y": "the distribution of rain through seasons rather than only its annual sum."
+      },
+      {
+       "q": "A windward coast receives a different pattern from a sheltered interior.\nWhich explanation follows?",
+       "r": "Relief, circulation and location change the local seasonal pattern.",
+       "w": [
+        "It describes a seasonal circulation pattern rather than one isolated storm.",
+        "Seasonal tropical forest differs from an assumed continuously wet model.",
+        "The timing and reliability of rainfall also influence water availability."
+       ],
+       "e": [
+        "That explanation addresses monsoon circulation, rather than the process or relationship in this case.",
+        "That explanation addresses seasonal forest, rather than the process or relationship in this case.",
+        "That explanation addresses rainfall timing, rather than the process or relationship in this case."
+       ],
+       "y": "differences within and between monsoon-influenced regions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-11-rain-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": [
+        10,
+        10,
+        20,
+        60,
+        130,
+        280,
+        350,
+        320,
+        240,
+        90,
+        30,
+        10
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"219.6\" width=\"16\" height=\"4.4\" fill=\"#448d98\"/><text x=\"46\" y=\"214.6\" text-anchor=\"middle\" font-size=\"10\">{10}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"219.6\" width=\"16\" height=\"4.4\" fill=\"#448d98\"/><text x=\"69\" y=\"214.6\" text-anchor=\"middle\" font-size=\"10\">{10}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"92\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"197.6\" width=\"16\" height=\"26.4\" fill=\"#448d98\"/><text x=\"115\" y=\"192.6\" text-anchor=\"middle\" font-size=\"10\">{60}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"166.8\" width=\"16\" height=\"57.2\" fill=\"#448d98\"/><text x=\"138\" y=\"161.8\" text-anchor=\"middle\" font-size=\"10\">{130}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"100.8\" width=\"16\" height=\"123.2\" fill=\"#448d98\"/><text x=\"161\" y=\"95.8\" text-anchor=\"middle\" font-size=\"10\">{280}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"70.0\" width=\"16\" height=\"154.0\" fill=\"#448d98\"/><text x=\"184\" y=\"65.0\" text-anchor=\"middle\" font-size=\"10\">{350}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"83.19999999999999\" width=\"16\" height=\"140.8\" fill=\"#448d98\"/><text x=\"207\" y=\"78.19999999999999\" text-anchor=\"middle\" font-size=\"10\">{320}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"118.4\" width=\"16\" height=\"105.6\" fill=\"#448d98\"/><text x=\"230\" y=\"113.4\" text-anchor=\"middle\" font-size=\"10\">{240}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"184.4\" width=\"16\" height=\"39.6\" fill=\"#448d98\"/><text x=\"253\" y=\"179.4\" text-anchor=\"middle\" font-size=\"10\">{90}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"210.8\" width=\"16\" height=\"13.2\" fill=\"#448d98\"/><text x=\"276\" y=\"205.8\" text-anchor=\"middle\" font-size=\"10\">{30}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"219.6\" width=\"16\" height=\"4.4\" fill=\"#448d98\"/><text x=\"299\" y=\"214.6\" text-anchor=\"middle\" font-size=\"10\">{10}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        15,
+        15,
+        25,
+        65,
+        135,
+        285,
+        355,
+        325,
+        245,
+        95,
+        35,
+        15
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"217.4\" width=\"16\" height=\"6.6\" fill=\"#448d98\"/><text x=\"46\" y=\"212.4\" text-anchor=\"middle\" font-size=\"10\">{15}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"217.4\" width=\"16\" height=\"6.6\" fill=\"#448d98\"/><text x=\"69\" y=\"212.4\" text-anchor=\"middle\" font-size=\"10\">{15}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"213.0\" width=\"16\" height=\"11.0\" fill=\"#448d98\"/><text x=\"92\" y=\"208.0\" text-anchor=\"middle\" font-size=\"10\">{25}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"195.4\" width=\"16\" height=\"28.6\" fill=\"#448d98\"/><text x=\"115\" y=\"190.4\" text-anchor=\"middle\" font-size=\"10\">{65}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"164.6\" width=\"16\" height=\"59.4\" fill=\"#448d98\"/><text x=\"138\" y=\"159.6\" text-anchor=\"middle\" font-size=\"10\">{135}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"98.6\" width=\"16\" height=\"125.4\" fill=\"#448d98\"/><text x=\"161\" y=\"93.6\" text-anchor=\"middle\" font-size=\"10\">{285}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"67.80000000000001\" width=\"16\" height=\"156.2\" fill=\"#448d98\"/><text x=\"184\" y=\"62.80000000000001\" text-anchor=\"middle\" font-size=\"10\">{355}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"81.0\" width=\"16\" height=\"143.0\" fill=\"#448d98\"/><text x=\"207\" y=\"76.0\" text-anchor=\"middle\" font-size=\"10\">{325}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"116.2\" width=\"16\" height=\"107.8\" fill=\"#448d98\"/><text x=\"230\" y=\"111.2\" text-anchor=\"middle\" font-size=\"10\">{245}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"182.2\" width=\"16\" height=\"41.8\" fill=\"#448d98\"/><text x=\"253\" y=\"177.2\" text-anchor=\"middle\" font-size=\"10\">{95}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"208.6\" width=\"16\" height=\"15.4\" fill=\"#448d98\"/><text x=\"276\" y=\"203.6\" text-anchor=\"middle\" font-size=\"10\">{35}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"217.4\" width=\"16\" height=\"6.6\" fill=\"#448d98\"/><text x=\"299\" y=\"212.4\" text-anchor=\"middle\" font-size=\"10\">{15}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        20,
+        20,
+        30,
+        70,
+        140,
+        290,
+        360,
+        330,
+        250,
+        100,
+        40,
+        20
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"46\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"69\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"210.8\" width=\"16\" height=\"13.2\" fill=\"#448d98\"/><text x=\"92\" y=\"205.8\" text-anchor=\"middle\" font-size=\"10\">{30}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"193.2\" width=\"16\" height=\"30.8\" fill=\"#448d98\"/><text x=\"115\" y=\"188.2\" text-anchor=\"middle\" font-size=\"10\">{70}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"162.4\" width=\"16\" height=\"61.6\" fill=\"#448d98\"/><text x=\"138\" y=\"157.4\" text-anchor=\"middle\" font-size=\"10\">{140}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"96.4\" width=\"16\" height=\"127.6\" fill=\"#448d98\"/><text x=\"161\" y=\"91.4\" text-anchor=\"middle\" font-size=\"10\">{290}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"65.6\" width=\"16\" height=\"158.4\" fill=\"#448d98\"/><text x=\"184\" y=\"60.599999999999994\" text-anchor=\"middle\" font-size=\"10\">{360}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"78.80000000000001\" width=\"16\" height=\"145.2\" fill=\"#448d98\"/><text x=\"207\" y=\"73.80000000000001\" text-anchor=\"middle\" font-size=\"10\">{330}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"114.0\" width=\"16\" height=\"110.0\" fill=\"#448d98\"/><text x=\"230\" y=\"109.0\" text-anchor=\"middle\" font-size=\"10\">{250}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"180.0\" width=\"16\" height=\"44.0\" fill=\"#448d98\"/><text x=\"253\" y=\"175.0\" text-anchor=\"middle\" font-size=\"10\">{100}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"206.4\" width=\"16\" height=\"17.6\" fill=\"#448d98\"/><text x=\"276\" y=\"201.4\" text-anchor=\"middle\" font-size=\"10\">{40}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"299\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        25,
+        25,
+        35,
+        75,
+        145,
+        295,
+        365,
+        335,
+        255,
+        105,
+        45,
+        25
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"213.0\" width=\"16\" height=\"11.0\" fill=\"#448d98\"/><text x=\"46\" y=\"208.0\" text-anchor=\"middle\" font-size=\"10\">{25}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"213.0\" width=\"16\" height=\"11.0\" fill=\"#448d98\"/><text x=\"69\" y=\"208.0\" text-anchor=\"middle\" font-size=\"10\">{25}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"208.6\" width=\"16\" height=\"15.4\" fill=\"#448d98\"/><text x=\"92\" y=\"203.6\" text-anchor=\"middle\" font-size=\"10\">{35}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"191.0\" width=\"16\" height=\"33.0\" fill=\"#448d98\"/><text x=\"115\" y=\"186.0\" text-anchor=\"middle\" font-size=\"10\">{75}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"160.2\" width=\"16\" height=\"63.8\" fill=\"#448d98\"/><text x=\"138\" y=\"155.2\" text-anchor=\"middle\" font-size=\"10\">{145}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"94.19999999999999\" width=\"16\" height=\"129.8\" fill=\"#448d98\"/><text x=\"161\" y=\"89.19999999999999\" text-anchor=\"middle\" font-size=\"10\">{295}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"63.400000000000006\" width=\"16\" height=\"160.6\" fill=\"#448d98\"/><text x=\"184\" y=\"58.400000000000006\" text-anchor=\"middle\" font-size=\"10\">{365}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"76.6\" width=\"16\" height=\"147.4\" fill=\"#448d98\"/><text x=\"207\" y=\"71.6\" text-anchor=\"middle\" font-size=\"10\">{335}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"111.8\" width=\"16\" height=\"112.2\" fill=\"#448d98\"/><text x=\"230\" y=\"106.8\" text-anchor=\"middle\" font-size=\"10\">{255}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"177.8\" width=\"16\" height=\"46.2\" fill=\"#448d98\"/><text x=\"253\" y=\"172.8\" text-anchor=\"middle\" font-size=\"10\">{105}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"204.2\" width=\"16\" height=\"19.8\" fill=\"#448d98\"/><text x=\"276\" y=\"199.2\" text-anchor=\"middle\" font-size=\"10\">{45}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"213.0\" width=\"16\" height=\"11.0\" fill=\"#448d98\"/><text x=\"299\" y=\"208.0\" text-anchor=\"middle\" font-size=\"10\">{25}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      }
+     ]
+    }
+   },
+   "prompt": "Read the invented monthly rainfall chart. Add the labels above all monthly bars to obtain the annual total in mm; the vertical-axis tick labels are not extra observations.",
+   "answer": "sum(X.r)",
+   "misconceptions": [
+    {
+     "id": "mean",
+     "wrong": "meanOf(X.r)",
+     "explain": "That is a monthly mean, not the sum for the year."
+    },
+    {
+     "id": "range",
+     "wrong": "rangeOf(X.r)",
+     "explain": "That is the difference between wettest and driest months, not the annual total."
+    },
+    {
+     "id": "tenfold",
+     "wrong": "sum(X.r)*10",
+     "explain": "That multiplies an already millimetre total by ten without a unit conversion."
+    }
+   ],
+   "solution": [
+    "Add each monthly amount once.",
+    "The annual rainfall of this classroom record is {answer} mm. A real biome classification also needs temperature and other evidence."
+   ],
+   "unit": "mm",
+   "figure": "X.svg"
+  },
+  {
+   "id": "g4-11-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "monsoon"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "monsoon circulation: a seasonal change in prevailing atmospheric circulation.",
+      "truth": "true",
+      "explain": "This distinction is correct: It describes a seasonal circulation pattern rather than one isolated storm. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "seasonal forest: forest vegetation responding to a pronounced season of reduced moisture.",
+      "truth": "true",
+      "explain": "This distinction is correct: Seasonal tropical forest differs from an assumed continuously wet model. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "rainfall timing: the distribution of rain through seasons rather than only its annual sum.",
+      "truth": "true",
+      "explain": "This distinction is correct: The timing and reliability of rainfall also influence water availability. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "regional variation: differences within and between monsoon-influenced regions.",
+      "truth": "true",
+      "explain": "This distinction is correct: Relief, circulation and location change the local seasonal pattern. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Monsoon means one brief thunderstorm only.",
+      "truth": "false",
+      "explain": "It describes a seasonal circulation pattern rather than one isolated storm."
+     },
+     {
+      "text": "All tropical forests must remain equally moist every month.",
+      "truth": "false",
+      "explain": "Seasonal tropical forest differs from an assumed continuously wet model."
+     },
+     {
+      "text": "Identical annual totals guarantee identical agricultural conditions.",
+      "truth": "false",
+      "explain": "The timing and reliability of rainfall also influence water availability."
+     },
+     {
+      "text": "Every monsoon region has exactly the same rainy calendar.",
+      "truth": "false",
+      "explain": "Relief, circulation and location change the local seasonal pattern."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

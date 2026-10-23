@@ -47,6 +47,17 @@ const root = path.resolve(__dirname, '../../..');
     const shot = path.join(os.tmpdir(), `${subject}-goal.png`);
     await page.screenshot({ path: shot, fullPage: true });
     console.log('Goal screenshot: ' + shot);
+    if (subject === 'f4-geography') {
+      for (const [n, name, suffix] of [[3, /Illustrative soil profile/, 'profile'], [5, /Classroom erosion priority map/, 'erosion'], [11, /Invented monthly rainfall chart/, 'rainfall']]) {
+        await page.evaluate(({id,n}) => openLesson(id,n), {id:subject,n});
+        await page.getByRole('button', { name: 'Next', exact: true }).click();
+        await page.getByRole('button', { name: 'Next', exact: true }).click();
+        if (await page.getByRole('img', { name }).count() !== 1) throw Error('Missing Geography figure: '+suffix);
+        const figureShot=path.join(os.tmpdir(), `${subject}-${suffix}.png`);
+        await page.screenshot({ path:figureShot, fullPage:true });
+        console.log('Geography screenshot: '+figureShot);
+      }
+    }
     if (subject === 'f4-history') {
       await page.evaluate((id) => openLesson(id, 14), subject);
       await page.getByRole('button', { name: 'Next', exact: true }).click();
