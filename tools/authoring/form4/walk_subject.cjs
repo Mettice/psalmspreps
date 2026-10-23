@@ -46,5 +46,14 @@ const root = path.resolve(__dirname, '../../..');
       await page.screenshot({ path: diagramShot, fullPage: true });
       console.log('Venn screenshot: ' + diagramShot);
     }
+    if (subject === 'f4-economics') {
+      await page.evaluate((id) => openLesson(id, 7), subject);
+      await page.getByRole('button', { name: 'Next', exact: true }).click();
+      await page.getByRole('button', { name: 'Next', exact: true }).click();
+      if (await page.getByRole('img', { name: /Classroom capital reconciliation/ }).count() !== 1) throw Error('Missing capital table');
+      const capitalShot = path.join(os.tmpdir(), `${subject}-capital.png`);
+      await page.screenshot({ path: capitalShot, fullPage: true });
+      console.log('Capital screenshot: ' + capitalShot);
+    }
   } finally { await browser.close(); }
 })().catch((e) => { console.error(e); process.exitCode = 1; });

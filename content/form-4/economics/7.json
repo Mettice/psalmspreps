@@ -1,0 +1,813 @@
+{
+ "subject": "economics",
+ "class": "Form 4",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "n4-7",
+   "name": "Practical preparation: capital calculations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "This practical uses a simplified classroom record, not an actual share issue. Start by labelling authorised and issued share counts, nominal value, the call per share and unpaid calls. Multiply a share count by a per-share amount to obtain capital in CFA francs. Called but unpaid is arrears; issued but not yet called is uncalled. Unissued shares are neither called nor paid-up capital. A diagram of gaps or a table can help keep these distinctions visible.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to calculate authorised, issued, called, paid-up and uncalled amounts from a labelled fictional record. Builds on: the company-capital distinctions just learned. Leads to: judging financing constraints and later growth plans."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "This practical uses a simplified classroom record, not an actual share issue. Start by labelling authorised and issued share counts, nominal value, the call per share and unpaid calls. Multiply a share count by a per-share amount to obtain capital in CFA francs. Called but unpaid is arrears; issued but not yet called is uncalled. Unissued shares are neither called nor paid-up capital. A diagram of gaps or a table can help keep these distinctions visible."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Record these model columns in an exercise book: share count, nominal value, amount called and amount received. For issued shares, split nominal capital into called and uncalled; split called into paid-up and arrears. The same money must not be added twice. The displayed table matches the worked example and helps check the stages before independent questions.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 280\\\" role=\\\"img\\\" aria-label=\\\"Classroom capital reconciliation table in CFA francs\\\"><rect width=\\\"320\\\" height=\\\"280\\\" rx=\\\"8\\\" fill=\\\"#f3f2ed\\\"/><g fill=\\\"#243c30\\\" font-family=\\\"sans-serif\\\" font-size=\\\"14\\\"><text x=\\\"12\\\" y=\\\"24\\\">CFA francs - classroom model</text>\"+\"<text x=\\\"12\\\" y=\\\"56\\\">Authorised ceiling</text><text x=\\\"307\\\" y=\\\"56\\\" text-anchor=\\\"end\\\">\"+fmt(80*1000)+\"</text>\"+\"<text x=\\\"12\\\" y=\\\"91\\\">Issued nominal</text><text x=\\\"307\\\" y=\\\"91\\\" text-anchor=\\\"end\\\">\"+fmt(50*1000)+\"</text>\"+\"<text x=\\\"12\\\" y=\\\"126\\\">Called</text><text x=\\\"307\\\" y=\\\"126\\\" text-anchor=\\\"end\\\">\"+fmt(50*600)+\"</text>\"+\"<text x=\\\"12\\\" y=\\\"161\\\">Paid-up</text><text x=\\\"307\\\" y=\\\"161\\\" text-anchor=\\\"end\\\">\"+fmt(50*600-2000)+\"</text>\"+\"<text x=\\\"12\\\" y=\\\"196\\\">Uncalled on issue</text><text x=\\\"307\\\" y=\\\"196\\\" text-anchor=\\\"end\\\">\"+fmt(50*(1000-600))+\"</text>\"+\"<text x=\\\"12\\\" y=\\\"231\\\">Arrears</text><text x=\\\"307\\\" y=\\\"231\\\" text-anchor=\\\"end\\\">\"+fmt(2000)+\"</text>\"+\"</g></svg>\""
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Check units and identities: issued = called + uncalled; called = paid-up + arrears. Authorised minus issued is the unissued ceiling. These equalities concern the stated instalment model; they are not a balance-sheet total including debt or profit reserves. Correct a heading error before doing arithmetic."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "nominal issue",
+    "meaning": "issued share count multiplied by nominal value"
+   },
+   {
+    "word": "arrears",
+    "meaning": "called share contributions not yet received"
+   },
+   {
+    "word": "uncalled capital",
+    "meaning": "the unrequested nominal amount on already issued shares"
+   },
+   {
+    "word": "reconciliation",
+    "meaning": "checking that component amounts sum to the stated total"
+   }
+  ],
+  "mistake": {
+   "wrong": "Issued capital is always the number of shares without a currency unit.",
+   "right": "nominal issue: issued share count multiplied by nominal value.",
+   "why": "Multiplying by currency per share produces a capital amount."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A classroom record has {80} authorised shares, {50} issued shares, nominal value {1000}, a call of {600} per share and arrears of {2000} CFA francs. Reconcile the stages.",
+  "steps": [
+   "Authorised = {80*1000}; issued = {50*1000} CFA francs.",
+   "Called = {50*600}; paid-up = {50*600-2000} CFA francs.",
+   "Uncalled on the issue = {50*(1000-600)}. Check: {50*600}+{50*(1000-600)} = {50*1000}."
+  ],
+  "answer": "Called {50*600} = paid-up {50*600-2000} + arrears {2000} CFA francs.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n4-7-c1",
+    "status": "draft",
+    "idea": "Distinguish these features before judging a business.",
+    "vars": {},
+    "example": [
+     "nominal issue: issued share count multiplied by nominal value.",
+     "arrears: called share contributions not yet received.",
+     "uncalled capital: the unrequested nominal amount on already issued shares.",
+     "reconciliation: checking that component amounts sum to the stated total."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n4-7-terms-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "business"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which term means issued share count multiplied by nominal value?",
+         "r": "nominal issue",
+         "w": [
+          "arrears",
+          "uncalled capital",
+          "reconciliation"
+         ],
+         "e": [
+          "arrears concerns called share contributions not yet received, rather than the concept asked for.",
+          "uncalled capital concerns the unrequested nominal amount on already issued shares, rather than the concept asked for.",
+          "reconciliation concerns checking that component amounts sum to the stated total, rather than the concept asked for."
+         ],
+         "y": "Issued share count multiplied by nominal value."
+        },
+        {
+         "q": "Which term means called share contributions not yet received?",
+         "r": "arrears",
+         "w": [
+          "nominal issue",
+          "uncalled capital",
+          "reconciliation"
+         ],
+         "e": [
+          "nominal issue concerns issued share count multiplied by nominal value, rather than the concept asked for.",
+          "uncalled capital concerns the unrequested nominal amount on already issued shares, rather than the concept asked for.",
+          "reconciliation concerns checking that component amounts sum to the stated total, rather than the concept asked for."
+         ],
+         "y": "Called share contributions not yet received."
+        },
+        {
+         "q": "Which term means the unrequested nominal amount on already issued shares?",
+         "r": "uncalled capital",
+         "w": [
+          "nominal issue",
+          "arrears",
+          "reconciliation"
+         ],
+         "e": [
+          "nominal issue concerns issued share count multiplied by nominal value, rather than the concept asked for.",
+          "arrears concerns called share contributions not yet received, rather than the concept asked for.",
+          "reconciliation concerns checking that component amounts sum to the stated total, rather than the concept asked for."
+         ],
+         "y": "The unrequested nominal amount on already issued shares."
+        },
+        {
+         "q": "Which term means checking that component amounts sum to the stated total?",
+         "r": "reconciliation",
+         "w": [
+          "nominal issue",
+          "arrears",
+          "uncalled capital"
+         ],
+         "e": [
+          "nominal issue concerns issued share count multiplied by nominal value, rather than the concept asked for.",
+          "arrears concerns called share contributions not yet received, rather than the concept asked for.",
+          "uncalled capital concerns the unrequested nominal amount on already issued shares, rather than the concept asked for."
+         ],
+         "y": "Checking that component amounts sum to the stated total."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "n4-7-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "A pupil multiplies allocated shares by their face value.",
+     "The model records a requested amount that remains unpaid.",
+     "Issued nominal capital exceeds the amount requested so far.",
+     "The pupil verifies that paid-up plus arrears equals called."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n4-7-cases-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "business"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A pupil multiplies allocated shares by their face value.\nWhich concept best explains the highlighted feature?",
+         "r": "nominal issue",
+         "w": [
+          "arrears",
+          "uncalled capital",
+          "reconciliation"
+         ],
+         "e": [
+          "That concerns called share contributions not yet received. This case instead concerns issued share count multiplied by nominal value.",
+          "That concerns the unrequested nominal amount on already issued shares. This case instead concerns issued share count multiplied by nominal value.",
+          "That concerns checking that component amounts sum to the stated total. This case instead concerns issued share count multiplied by nominal value."
+         ],
+         "y": "Multiplying by currency per share produces a capital amount."
+        },
+        {
+         "q": "The model records a requested amount that remains unpaid.\nWhich concept best explains the highlighted feature?",
+         "r": "arrears",
+         "w": [
+          "nominal issue",
+          "uncalled capital",
+          "reconciliation"
+         ],
+         "e": [
+          "That concerns issued share count multiplied by nominal value. This case instead concerns called share contributions not yet received.",
+          "That concerns the unrequested nominal amount on already issued shares. This case instead concerns called share contributions not yet received.",
+          "That concerns checking that component amounts sum to the stated total. This case instead concerns called share contributions not yet received."
+         ],
+         "y": "Arrears were requested; uncalled capital was not."
+        },
+        {
+         "q": "Issued nominal capital exceeds the amount requested so far.\nWhich concept best explains the highlighted feature?",
+         "r": "uncalled capital",
+         "w": [
+          "nominal issue",
+          "arrears",
+          "reconciliation"
+         ],
+         "e": [
+          "That concerns issued share count multiplied by nominal value. This case instead concerns the unrequested nominal amount on already issued shares.",
+          "That concerns called share contributions not yet received. This case instead concerns the unrequested nominal amount on already issued shares.",
+          "That concerns checking that component amounts sum to the stated total. This case instead concerns the unrequested nominal amount on already issued shares."
+         ],
+         "y": "These gaps concern different stages: issue first, then call."
+        },
+        {
+         "q": "The pupil verifies that paid-up plus arrears equals called.\nWhich concept best explains the highlighted feature?",
+         "r": "reconciliation",
+         "w": [
+          "nominal issue",
+          "arrears",
+          "uncalled capital"
+         ],
+         "e": [
+          "That concerns issued share count multiplied by nominal value. This case instead concerns checking that component amounts sum to the stated total.",
+          "That concerns called share contributions not yet received. This case instead concerns checking that component amounts sum to the stated total.",
+          "That concerns the unrequested nominal amount on already issued shares. This case instead concerns checking that component amounts sum to the stated total."
+         ],
+         "y": "Overlapping stages must be reconciled, not counted as independent funds."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "n4-7-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "nominal issue: Multiplying by currency per share produces a capital amount.",
+     "arrears: Arrears were requested; uncalled capital was not.",
+     "uncalled capital: These gaps concern different stages: issue first, then call.",
+     "reconciliation: Overlapping stages must be reconciled, not counted as independent funds."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n4-7-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "business"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A pupil multiplies allocated shares by their face value.\nWhich explanation is appropriate?",
+         "r": "Multiplying by currency per share produces a capital amount.",
+         "w": [
+          "Arrears were requested; uncalled capital was not.",
+          "These gaps concern different stages: issue first, then call.",
+          "Overlapping stages must be reconciled, not counted as independent funds."
+         ],
+         "e": [
+          "That explanation addresses arrears, rather than the feature described here.",
+          "That explanation addresses uncalled capital, rather than the feature described here.",
+          "That explanation addresses reconciliation, rather than the feature described here."
+         ],
+         "y": "Issued share count multiplied by nominal value."
+        },
+        {
+         "q": "The model records a requested amount that remains unpaid.\nWhich explanation is appropriate?",
+         "r": "Arrears were requested; uncalled capital was not.",
+         "w": [
+          "Multiplying by currency per share produces a capital amount.",
+          "These gaps concern different stages: issue first, then call.",
+          "Overlapping stages must be reconciled, not counted as independent funds."
+         ],
+         "e": [
+          "That explanation addresses nominal issue, rather than the feature described here.",
+          "That explanation addresses uncalled capital, rather than the feature described here.",
+          "That explanation addresses reconciliation, rather than the feature described here."
+         ],
+         "y": "Called share contributions not yet received."
+        },
+        {
+         "q": "Issued nominal capital exceeds the amount requested so far.\nWhich explanation is appropriate?",
+         "r": "These gaps concern different stages: issue first, then call.",
+         "w": [
+          "Multiplying by currency per share produces a capital amount.",
+          "Arrears were requested; uncalled capital was not.",
+          "Overlapping stages must be reconciled, not counted as independent funds."
+         ],
+         "e": [
+          "That explanation addresses nominal issue, rather than the feature described here.",
+          "That explanation addresses arrears, rather than the feature described here.",
+          "That explanation addresses reconciliation, rather than the feature described here."
+         ],
+         "y": "The unrequested nominal amount on already issued shares."
+        },
+        {
+         "q": "The pupil verifies that paid-up plus arrears equals called.\nWhich explanation is appropriate?",
+         "r": "Overlapping stages must be reconciled, not counted as independent funds.",
+         "w": [
+          "Multiplying by currency per share produces a capital amount.",
+          "Arrears were requested; uncalled capital was not.",
+          "These gaps concern different stages: issue first, then call."
+         ],
+         "e": [
+          "That explanation addresses nominal issue, rather than the feature described here.",
+          "That explanation addresses arrears, rather than the feature described here.",
+          "That explanation addresses uncalled capital, rather than the feature described here."
+         ],
+         "y": "Checking that component amounts sum to the stated total."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n4-7-authorised",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      6,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "issued": {
+     "expr": "b*10"
+    },
+    "authorised": {
+     "expr": "a*10"
+    },
+    "nominal": 1000,
+    "called": {
+     "pick": [
+      400,
+      600,
+      800
+     ]
+    },
+    "unpaidShares": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "calledTotal": {
+     "expr": "issued*called"
+    },
+    "arrears": {
+     "expr": "unpaidShares*called"
+    },
+    "paid": {
+     "expr": "calledTotal-arrears"
+    }
+   },
+   "prompt": "Textbook model: {authorised} shares are authorised at nominal {nominal} CFA francs each. What is authorised nominal capital?",
+   "answer": "authorised*nominal",
+   "misconceptions": [
+    {
+     "id": "issued",
+     "wrong": "issued*nominal",
+     "explain": "That is the smaller issued amount, not the authorisation ceiling."
+    },
+    {
+     "id": "count",
+     "wrong": "authorised",
+     "explain": "That is a number of shares, not a currency capital amount."
+    }
+   ],
+   "solution": [
+    "Multiply the authorised ceiling count by nominal value.",
+    "{authorised} × {nominal} = {answer}."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n4-7-issued",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      6,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "issued": {
+     "expr": "b*10"
+    },
+    "authorised": {
+     "expr": "a*10"
+    },
+    "nominal": 1000,
+    "called": {
+     "pick": [
+      400,
+      600,
+      800
+     ]
+    },
+    "unpaidShares": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "calledTotal": {
+     "expr": "issued*called"
+    },
+    "arrears": {
+     "expr": "unpaidShares*called"
+    },
+    "paid": {
+     "expr": "calledTotal-arrears"
+    }
+   },
+   "prompt": "Textbook model: {issued} of {authorised} authorised shares are issued at nominal {nominal} CFA francs each. Find nominal issued capital.",
+   "answer": "issued*nominal",
+   "misconceptions": [
+    {
+     "id": "ceiling",
+     "wrong": "authorised*nominal",
+     "explain": "That is authorised capital, including unissued shares."
+    },
+    {
+     "id": "called",
+     "wrong": "calledTotal",
+     "explain": "Called capital uses the requested instalment, not the full nominal issued amount."
+    }
+   ],
+   "solution": [
+    "Use the shares actually allocated.",
+    "{issued} × {nominal} = {answer}."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n4-7-called",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      6,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "issued": {
+     "expr": "b*10"
+    },
+    "authorised": {
+     "expr": "a*10"
+    },
+    "nominal": 1000,
+    "called": {
+     "pick": [
+      400,
+      600,
+      800
+     ]
+    },
+    "unpaidShares": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "calledTotal": {
+     "expr": "issued*called"
+    },
+    "arrears": {
+     "expr": "unpaidShares*called"
+    },
+    "paid": {
+     "expr": "calledTotal-arrears"
+    }
+   },
+   "prompt": "Textbook model: {issued} shares are issued; the call is {called} CFA francs per share. Find called capital.",
+   "answer": "calledTotal",
+   "misconceptions": [
+    {
+     "id": "nominal",
+     "wrong": "issued*nominal",
+     "explain": "That is the full nominal issue, not the amount called."
+    },
+    {
+     "id": "paid",
+     "wrong": "paid",
+     "explain": "Paid-up subtracts unpaid calls, which is a later step."
+    }
+   ],
+   "solution": [
+    "Use issued shares multiplied by the call per share.",
+    "{issued} × {called} = {answer}."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n4-7-paid",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      6,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "issued": {
+     "expr": "b*10"
+    },
+    "authorised": {
+     "expr": "a*10"
+    },
+    "nominal": 1000,
+    "called": {
+     "pick": [
+      400,
+      600,
+      800
+     ]
+    },
+    "unpaidShares": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "calledTotal": {
+     "expr": "issued*called"
+    },
+    "arrears": {
+     "expr": "unpaidShares*called"
+    },
+    "paid": {
+     "expr": "calledTotal-arrears"
+    }
+   },
+   "prompt": "Textbook model: called capital is {calledTotal} CFA francs, including unpaid calls of {arrears}. Calculate paid-up capital.",
+   "answer": "paid",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "calledTotal+arrears",
+     "explain": "Unpaid calls are not receipts; subtract them."
+    },
+    {
+     "id": "called",
+     "wrong": "calledTotal",
+     "explain": "This includes amounts still unpaid."
+    }
+   ],
+   "solution": [
+    "Subtract the called amount that has not been received.",
+    "{calledTotal} − {arrears} = {answer}."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n4-7-uncalled",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "business"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      6,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "issued": {
+     "expr": "b*10"
+    },
+    "authorised": {
+     "expr": "a*10"
+    },
+    "nominal": 1000,
+    "called": {
+     "pick": [
+      400,
+      600,
+      800
+     ]
+    },
+    "unpaidShares": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "calledTotal": {
+     "expr": "issued*called"
+    },
+    "arrears": {
+     "expr": "unpaidShares*called"
+    },
+    "paid": {
+     "expr": "calledTotal-arrears"
+    }
+   },
+   "prompt": "Textbook model: {issued} shares have nominal value {nominal} CFA francs each, but only {called} per share has been called. Calculate uncalled capital on those issued shares.",
+   "answer": "issued*(nominal-called)",
+   "misconceptions": [
+    {
+     "id": "unissued",
+     "wrong": "(authorised-issued)*nominal",
+     "explain": "That is unissued authorised capital, a different gap."
+    },
+    {
+     "id": "arrears",
+     "wrong": "arrears",
+     "explain": "Arrears are called but unpaid; uncalled has not yet been requested."
+    }
+   ],
+   "solution": [
+    "Uncalled per share = {nominal} − {called} = {nominal-called}.",
+    "Across {issued} issued shares, uncalled capital = {answer}."
+   ],
+   "where": [
+    "issued*(nominal-called) != (authorised-issued)*nominal",
+    "issued*(nominal-called) != arrears"
+   ],
+   "unit": "CFA francs"
+  }
+ ]
+}
