@@ -1,0 +1,726 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "b3-2",
+   "name": "Ultrastructure of plant and animal cells"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Under the electron microscope cells show many organelles:\n• Nucleus: contains DNA, controls the cell. • Mitochondria: aerobic respiration, release energy. • Ribosomes: make proteins.\n• Endoplasmic reticulum (ER): transport channels; rough ER has ribosomes. • Golgi body: packages and secretes substances.\n• Cell membrane: partially permeable, controls entry and exit. • Cytoplasm: where most reactions happen.\nOnly in plant cells: cellulose cell wall (support), chloroplasts (photosynthesis), large permanent vacuole with cell sap.\nAnimal cells have small temporary vacuoles and centrioles (used in cell division).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Seeing more detail",
+    "text": "With a light microscope you see the cell wall, membrane, cytoplasm, nucleus, vacuole and chloroplasts. An electron microscope magnifies much more and shows the ultrastructure: many tiny organelles, each with a job.\n• Nucleus: holds the DNA and controls the cell.\n• Mitochondria: aerobic respiration releases energy.\n• Ribosomes: make proteins.\n• Endoplasmic reticulum: a network of channels; rough ER is covered in ribosomes.\n• Golgi body: packages substances for export."
+   },
+   {
+    "heading": "Plant cells",
+    "text": "Plant cells have, in addition:\n• a cellulose cell wall, which gives shape and support;\n• chloroplasts, where photosynthesis happens;\n• a large permanent vacuole full of cell sap, which keeps the cell firm.\nInside the wall is the cell membrane, which is partially permeable: it controls what enters and leaves.",
+    "figure": "plantCell(0)"
+   },
+   {
+    "heading": "Animal cells",
+    "text": "Animal cells have a membrane, cytoplasm, nucleus, mitochondria, ribosomes, ER and Golgi, but no cell wall, no chloroplasts and only small temporary vacuoles. They have centrioles, which help in cell division.\nCells that do a lot of work have more of certain organelles: muscle cells are packed with mitochondria; gland cells with ribosomes and Golgi bodies.",
+    "figure": "animalCell(0)"
+   }
+  ],
+  "key_words": [
+   {
+    "word": "organelle",
+    "meaning": "a structure with a particular job inside a cell"
+   },
+   {
+    "word": "mitochondrion",
+    "meaning": "organelle of aerobic respiration (plural: mitochondria)"
+   },
+   {
+    "word": "ribosome",
+    "meaning": "tiny organelle that makes proteins"
+   },
+   {
+    "word": "partially permeable",
+    "meaning": "letting some substances through but not others"
+   }
+  ],
+  "examples": [
+   "Nucleus: control",
+   "Chloroplast: photosynthesis",
+   "Golgi body: packaging and secretion"
+  ],
+  "mistake": {
+   "wrong": "Plant cells do not have mitochondria because they have chloroplasts",
+   "right": "Plant cells have both: they photosynthesise and also respire",
+   "why": "All living cells respire, day and night, so plant cells need mitochondria too."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give three differences between a palisade cell of a leaf and a cell from the lining of your cheek.",
+  "steps": [
+   "The leaf cell has a cellulose cell wall; the cheek cell has only a cell membrane.",
+   "The leaf cell has chloroplasts; the cheek cell has none.",
+   "The leaf cell has a large permanent vacuole; the cheek cell has only small temporary vacuoles."
+  ],
+  "answer": "Cell wall, chloroplasts and a large vacuole in the plant cell only",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b2-1",
+    "status": "draft",
+    "idea": "Each organelle has a job.",
+    "vars": {},
+    "example": [
+     "Mitochondria release energy by respiration."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-2-func"
+    }
+   },
+   {
+    "id": "c3b2-2",
+    "status": "draft",
+    "idea": "Plant cells have a cell wall, chloroplasts and a large vacuole.",
+    "vars": {},
+    "example": [
+     "Animal cells have none of these."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-2-plant"
+    }
+   },
+   {
+    "id": "c3b2-3",
+    "status": "draft",
+    "idea": "Use the lettered drawing to name parts.",
+    "vars": {},
+    "example": [
+     "Find the green discs: the chloroplasts."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-2-letter-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "cells"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        0,
+        719
+       ]
+      },
+      "i": {
+       "int": [
+        0,
+        5
+       ]
+      }
+     },
+     "prompt": "In the drawing of a plant cell, which letter labels the {plantPart(i)}?",
+     "correct": "{bioLetter(k, 6, i)}",
+     "distractors": [
+      {
+       "text": "{bioLetter(k, 6, (i + 1) % 6)}",
+       "misconception": "a"
+      },
+      {
+       "text": "{bioLetter(k, 6, (i + 2) % 6)}",
+       "misconception": "b"
+      },
+      {
+       "text": "{bioLetter(k, 6, (i + 3) % 6)}",
+       "misconception": "c"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "a",
+       "explain": "That is the {plantPart((i + 1) % 6)}."
+      },
+      {
+       "id": "b",
+       "explain": "That is the {plantPart((i + 2) % 6)}."
+      },
+      {
+       "id": "c",
+       "explain": "That is the {plantPart((i + 3) % 6)}."
+      }
+     ],
+     "solution": [
+      "The {plantPart(i)} is labelled {answer}."
+     ],
+     "figure": "plantCell(k)"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-2-func",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "o": "nucleus",
+       "f": "controls the cell's activities and contains the DNA (genetic material)"
+      },
+      {
+       "o": "mitochondrion",
+       "f": "carries out aerobic respiration, releasing energy"
+      },
+      {
+       "o": "ribosome",
+       "f": "makes proteins"
+      },
+      {
+       "o": "chloroplast",
+       "f": "carries out photosynthesis"
+      },
+      {
+       "o": "cell membrane",
+       "f": "controls what enters and leaves the cell"
+      },
+      {
+       "o": "cell wall",
+       "f": "gives the plant cell shape and support"
+      },
+      {
+       "o": "vacuole",
+       "f": "stores cell sap and keeps the plant cell firm (turgid)"
+      },
+      {
+       "o": "rough endoplasmic reticulum",
+       "f": "transports proteins made by its ribosomes"
+      },
+      {
+       "o": "Golgi body",
+       "f": "packages and sends out substances made by the cell"
+      }
+     ]
+    },
+    "Y": {
+     "pick": [
+      {
+       "o": "nucleus",
+       "f": "controls the cell's activities and contains the DNA (genetic material)"
+      },
+      {
+       "o": "mitochondrion",
+       "f": "carries out aerobic respiration, releasing energy"
+      },
+      {
+       "o": "ribosome",
+       "f": "makes proteins"
+      },
+      {
+       "o": "chloroplast",
+       "f": "carries out photosynthesis"
+      },
+      {
+       "o": "cell membrane",
+       "f": "controls what enters and leaves the cell"
+      },
+      {
+       "o": "cell wall",
+       "f": "gives the plant cell shape and support"
+      },
+      {
+       "o": "vacuole",
+       "f": "stores cell sap and keeps the plant cell firm (turgid)"
+      },
+      {
+       "o": "rough endoplasmic reticulum",
+       "f": "transports proteins made by its ribosomes"
+      },
+      {
+       "o": "Golgi body",
+       "f": "packages and sends out substances made by the cell"
+      }
+     ]
+    },
+    "Z": {
+     "pick": [
+      {
+       "o": "nucleus",
+       "f": "controls the cell's activities and contains the DNA (genetic material)"
+      },
+      {
+       "o": "mitochondrion",
+       "f": "carries out aerobic respiration, releasing energy"
+      },
+      {
+       "o": "ribosome",
+       "f": "makes proteins"
+      },
+      {
+       "o": "chloroplast",
+       "f": "carries out photosynthesis"
+      },
+      {
+       "o": "cell membrane",
+       "f": "controls what enters and leaves the cell"
+      },
+      {
+       "o": "cell wall",
+       "f": "gives the plant cell shape and support"
+      },
+      {
+       "o": "vacuole",
+       "f": "stores cell sap and keeps the plant cell firm (turgid)"
+      },
+      {
+       "o": "rough endoplasmic reticulum",
+       "f": "transports proteins made by its ribosomes"
+      },
+      {
+       "o": "Golgi body",
+       "f": "packages and sends out substances made by the cell"
+      }
+     ]
+    },
+    "W": {
+     "pick": [
+      {
+       "o": "nucleus",
+       "f": "controls the cell's activities and contains the DNA (genetic material)"
+      },
+      {
+       "o": "mitochondrion",
+       "f": "carries out aerobic respiration, releasing energy"
+      },
+      {
+       "o": "ribosome",
+       "f": "makes proteins"
+      },
+      {
+       "o": "chloroplast",
+       "f": "carries out photosynthesis"
+      },
+      {
+       "o": "cell membrane",
+       "f": "controls what enters and leaves the cell"
+      },
+      {
+       "o": "cell wall",
+       "f": "gives the plant cell shape and support"
+      },
+      {
+       "o": "vacuole",
+       "f": "stores cell sap and keeps the plant cell firm (turgid)"
+      },
+      {
+       "o": "rough endoplasmic reticulum",
+       "f": "transports proteins made by its ribosomes"
+      },
+      {
+       "o": "Golgi body",
+       "f": "packages and sends out substances made by the cell"
+      }
+     ]
+    }
+   },
+   "prompt": "What is the function of the {X.o}?",
+   "correct": "{X.f}",
+   "distractors": [
+    {
+     "text": "{Y.f}",
+     "misconception": "y"
+    },
+    {
+     "text": "{Z.f}",
+     "misconception": "z"
+    },
+    {
+     "text": "{W.f}",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "y",
+     "explain": "That is the job of the {Y.o}."
+    },
+    {
+     "id": "z",
+     "explain": "That is the job of the {Z.o}."
+    },
+    {
+     "id": "w",
+     "explain": "That is the job of the {W.o}."
+    }
+   ],
+   "solution": [
+    "The {X.o} {X.f}.",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "X.o != Y.o && X.o != Z.o && X.o != W.o && Y.o != Z.o && Y.o != W.o && Z.o != W.o"
+   ]
+  },
+  {
+   "id": "b3-2-plant",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which structure is found in plant cells but not in animal cells?",
+       "r": "cell wall",
+       "w": [
+        "cell membrane",
+        "nucleus",
+        "mitochondrion"
+       ],
+       "e": [
+        "Both have a cell membrane.",
+        "Both have a nucleus.",
+        "Both have mitochondria."
+       ],
+       "y": "Only plant cells have a cellulose cell wall."
+      },
+      {
+       "q": "Which structure is found in both plant and animal cells?",
+       "r": "mitochondrion",
+       "w": [
+        "chloroplast",
+        "cellulose cell wall",
+        "large permanent vacuole"
+       ],
+       "e": [
+        "Only plant cells have chloroplasts.",
+        "Only plant cells have a cell wall.",
+        "Animal cells have only small vacuoles."
+       ],
+       "y": "Both kinds of cell respire."
+      },
+      {
+       "q": "Which structure is found in animal cells but not in most plant cells?",
+       "r": "centrioles",
+       "w": [
+        "chloroplasts",
+        "cell wall",
+        "cell membrane"
+       ],
+       "e": [
+        "Chloroplasts are plant structures.",
+        "The cell wall is a plant structure.",
+        "Both have a membrane."
+       ],
+       "y": "Centrioles help animal cells divide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-2-letter",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      719
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      5
+     ]
+    }
+   },
+   "prompt": "In the drawing of a plant cell, which letter labels the {plantPart(i)}?",
+   "correct": "{bioLetter(k, 6, i)}",
+   "distractors": [
+    {
+     "text": "{bioLetter(k, 6, (i + 1) % 6)}",
+     "misconception": "a"
+    },
+    {
+     "text": "{bioLetter(k, 6, (i + 2) % 6)}",
+     "misconception": "b"
+    },
+    {
+     "text": "{bioLetter(k, 6, (i + 3) % 6)}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "a",
+     "explain": "That is the {plantPart((i + 1) % 6)}."
+    },
+    {
+     "id": "b",
+     "explain": "That is the {plantPart((i + 2) % 6)}."
+    },
+    {
+     "id": "c",
+     "explain": "That is the {plantPart((i + 3) % 6)}."
+    }
+   ],
+   "solution": [
+    "The {plantPart(i)} is labelled {answer}."
+   ],
+   "figure": "plantCell(k)"
+  },
+  {
+   "id": "b3-2-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which cells would have the most mitochondria?",
+       "r": "muscle cells, which need a lot of energy",
+       "w": [
+        "fat storage cells",
+        "dead xylem cells",
+        "red blood cells of mammals"
+       ],
+       "e": [
+        "Fat cells mostly store fat.",
+        "Dead cells have no organelles.",
+        "Mature red blood cells have no mitochondria."
+       ],
+       "y": "Active cells need much respiration."
+      },
+      {
+       "q": "A cell makes and sends out many enzymes (proteins). Which organelles will it have many of?",
+       "r": "ribosomes, rough ER and Golgi bodies",
+       "w": [
+        "chloroplasts",
+        "large vacuoles",
+        "cell walls"
+       ],
+       "e": [
+        "Chloroplasts make sugar, not enzymes.",
+        "Vacuoles store sap.",
+        "Cell walls give support."
+       ],
+       "y": "Proteins are made on ribosomes, moved by rough ER and packaged by Golgi."
+      },
+      {
+       "q": "Root hair cells have no chloroplasts. Why?",
+       "r": "They are underground, where there is no light for photosynthesis",
+       "w": [
+        "They are animal cells",
+        "They make proteins only",
+        "They have no nucleus"
+       ],
+       "e": [
+        "They are plant cells.",
+        "That is not the reason.",
+        "They have a nucleus."
+       ],
+       "y": "Chloroplasts would be useless in the dark."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-2-compare",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A cell has a nucleus, mitochondria, a cellulose wall and chloroplasts. It is…",
+       "r": "a plant cell",
+       "w": [
+        "an animal cell",
+        "a bacterium",
+        "a virus"
+       ],
+       "e": [
+        "Animal cells have no cell wall or chloroplasts.",
+        "Bacteria have no nucleus.",
+        "A virus is not a cell."
+       ],
+       "y": "Wall and chloroplasts: plant."
+      },
+      {
+       "q": "A cell has DNA free in the cytoplasm, a cell wall and no mitochondria. It is…",
+       "r": "a bacterium",
+       "w": [
+        "a plant cell",
+        "an animal cell",
+        "a yeast cell"
+       ],
+       "e": [
+        "Plant cells have a nucleus and mitochondria.",
+        "Animal cells have a nucleus and no wall.",
+        "Yeast is a eukaryote with a nucleus."
+       ],
+       "y": "No nucleus and no mitochondria: prokaryote."
+      },
+      {
+       "q": "Why is the cell membrane described as partially permeable?",
+       "r": "It lets some substances through but not others",
+       "w": [
+        "It lets everything through",
+        "It lets nothing through",
+        "It is only partly made"
+       ],
+       "e": [
+        "Then it could not control entry.",
+        "Then the cell could not take in food or oxygen.",
+        "It is complete."
+       ],
+       "y": "It controls which substances enter and leave."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

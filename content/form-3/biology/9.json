@@ -1,0 +1,545 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "b3-9",
+   "name": "Classification: reasons and the five-kingdom system"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Classification is sorting living things into groups by their shared features. It makes the huge variety of life easier to study, name and identify, and shows relationships.\nThe five kingdoms: Prokaryotae (Monera: bacteria), Protoctista (Amoeba, Spirogyra, Plasmodium), Fungi (moulds, mushrooms, yeast), Plantae (plants), Animalia (animals).\nLevels (largest to smallest): kingdom, phylum, class, order, family, genus, species.\nBinomial system (Linnaeus): every species has two Latin names, genus then species, e.g. Homo sapiens (human), Zea mays (maize). The genus starts with a capital letter; both names are written in italics or underlined.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Why classify?",
+    "text": "There are millions of kinds of living things. Sorting them into groups by the features they share makes them easier to study, to name and to identify, and shows which organisms are related.\nFor example, all animals with a backbone (fish, frogs, lizards, birds, mammals) are grouped as vertebrates."
+   },
+   {
+    "heading": "Five kingdoms",
+    "text": "• Prokaryotae (Monera): bacteria; no true nucleus.\n• Protoctista: mostly single-celled eukaryotes such as Amoeba, Spirogyra and Plasmodium.\n• Fungi: moulds, mushrooms and yeast; no chlorophyll, feed by absorbing food.\n• Plantae: multicellular, photosynthesise, cellulose cell walls.\n• Animalia: multicellular, feed on other organisms, no cell walls.\nEach kingdom is divided again: phylum, class, order, family, genus and species."
+   },
+   {
+    "heading": "Two-part names",
+    "text": "Common names change from place to place (maize, corn, 'kon'). Scientists use the binomial system invented by Linnaeus: every species has a two-part Latin name, genus then species.\n• Human: Homo sapiens. • Maize: Zea mays. • Lion: Panthera leo.\nThe genus starts with a capital letter, the species with a small one, and the name is printed in italics (underlined when handwritten)."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "classification",
+    "meaning": "sorting organisms into groups by shared features"
+   },
+   {
+    "word": "kingdom",
+    "meaning": "the largest group"
+   },
+   {
+    "word": "species",
+    "meaning": "organisms that can breed together to give fertile offspring"
+   },
+   {
+    "word": "binomial name",
+    "meaning": "genus + species, e.g. Homo sapiens"
+   }
+  ],
+  "examples": [
+   "Kingdom Fungi: yeast",
+   "Kingdom Protoctista: Plasmodium",
+   "Panthera leo and Panthera pardus: same genus"
+  ],
+  "mistake": {
+   "wrong": "Homo Sapiens",
+   "right": "Homo sapiens",
+   "why": "Only the genus name begins with a capital letter."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Write the scientific name of maize correctly and say what each part means.",
+  "steps": [
+   "The genus is Zea and the species is mays.",
+   "The genus starts with a capital, the species with a small letter, both italic (underlined when handwritten)."
+  ],
+  "answer": "Zea mays: genus Zea, species mays",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b9-1",
+    "status": "draft",
+    "idea": "Classification groups organisms by shared features.",
+    "vars": {},
+    "example": [
+     "Animals with backbones are vertebrates."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-9-why"
+    }
+   },
+   {
+    "id": "c3b9-2",
+    "status": "draft",
+    "idea": "Five kingdoms: Prokaryotae, Protoctista, Fungi, Plantae, Animalia.",
+    "vars": {},
+    "example": [
+     "Mushrooms are in kingdom Fungi."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-9-kingdom"
+    }
+   },
+   {
+    "id": "c3b9-3",
+    "status": "draft",
+    "idea": "A scientific name is genus + species: Homo sapiens.",
+    "vars": {},
+    "example": [
+     "Genus with a capital letter; species small."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-9-name-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is the correct way to write the scientific name of humans?",
+         "r": "Homo sapiens",
+         "w": [
+          "homo Sapiens",
+          "Homo Sapiens",
+          "HOMO SAPIENS"
+         ],
+         "e": [
+          "The genus takes the capital, not the species.",
+          "The species name starts with a small letter.",
+          "Only the first letter of the genus is capital."
+         ],
+         "y": "Genus with a capital, species small, in italics."
+        },
+        {
+         "q": "Two organisms are called Panthera leo and Panthera pardus. What does this tell you?",
+         "r": "They belong to the same genus",
+         "w": [
+          "They are the same species",
+          "They are in different kingdoms",
+          "They are unrelated"
+         ],
+         "e": [
+          "Their species names differ.",
+          "Same genus means same kingdom.",
+          "Same genus shows a close relationship."
+         ],
+         "y": "Lion and leopard share the genus Panthera."
+        },
+        {
+         "q": "In Zea mays (maize), what is 'mays'?",
+         "r": "the species name",
+         "w": [
+          "the genus name",
+          "the family name",
+          "the kingdom name"
+         ],
+         "e": [
+          "Zea is the genus.",
+          "Families are not part of the binomial name.",
+          "Kingdoms are not part of the name."
+         ],
+         "y": "The second name is the species."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-9-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do biologists classify living things?",
+       "r": "To make the variety of life easier to study and identify",
+       "w": [
+        "To make organisms grow faster",
+        "To change their features",
+        "To reduce the number of species"
+       ],
+       "e": [
+        "Classification does not affect growth.",
+        "It describes features; it does not change them.",
+        "It does not change how many species there are."
+       ],
+       "y": "Grouping shows similarities and relationships."
+      },
+      {
+       "q": "Organisms are put in the same group because they…",
+       "r": "share important features",
+       "w": [
+        "live in the same place",
+        "are the same colour",
+        "are the same size"
+       ],
+       "e": [
+        "A fish and a frog may share a pond but are in different classes.",
+        "Colour is not a reliable feature.",
+        "Size is not used."
+       ],
+       "y": "Shared body features show relationships."
+      },
+      {
+       "q": "Which is the smallest group in classification?",
+       "r": "species",
+       "w": [
+        "kingdom",
+        "family",
+        "genus"
+       ],
+       "e": [
+        "Kingdom is the largest.",
+        "A family contains several genera.",
+        "A genus contains several species."
+       ],
+       "y": "Members of a species can breed together to give fertile young."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-9-kingdom",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A mushroom",
+       "r": "Fungi",
+       "w": [
+        "Plantae",
+        "Protoctista",
+        "Prokaryotae"
+       ],
+       "e": [
+        "Mushrooms have no chlorophyll and do not photosynthesise.",
+        "Protoctists are mostly single-celled.",
+        "Prokaryotes have no nucleus."
+       ],
+       "y": "Fungi feed by absorbing food; their walls are made of chitin."
+      },
+      {
+       "q": "Amoeba",
+       "r": "Protoctista",
+       "w": [
+        "Animalia",
+        "Fungi",
+        "Prokaryotae"
+       ],
+       "e": [
+        "Animals are multicellular.",
+        "Amoeba is not a fungus.",
+        "Amoeba has a nucleus."
+       ],
+       "y": "A single eukaryotic cell: protoctist."
+      },
+      {
+       "q": "A bacterium causing cholera",
+       "r": "Prokaryotae",
+       "w": [
+        "Protoctista",
+        "Fungi",
+        "Animalia"
+       ],
+       "e": [
+        "Protoctists have a nucleus.",
+        "Bacteria are not fungi.",
+        "Bacteria are not animals."
+       ],
+       "y": "No true nucleus: prokaryote."
+      },
+      {
+       "q": "A mango tree",
+       "r": "Plantae",
+       "w": [
+        "Fungi",
+        "Protoctista",
+        "Animalia"
+       ],
+       "e": [
+        "Fungi do not photosynthesise.",
+        "Protoctists are simple, mostly single-celled.",
+        "Animals do not photosynthesise."
+       ],
+       "y": "Multicellular, photosynthesises, cellulose walls: plant."
+      }
+     ]
+    }
+   },
+   "prompt": "To which kingdom does this belong? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-9-levels",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "prompt": "Put the levels of classification in order from largest to smallest.",
+   "items": [
+    {
+     "text": "kingdom"
+    },
+    {
+     "text": "phylum"
+    },
+    {
+     "text": "class"
+    },
+    {
+     "text": "order"
+    },
+    {
+     "text": "family"
+    },
+    {
+     "text": "genus"
+    },
+    {
+     "text": "species"
+    }
+   ],
+   "order": "as_written",
+   "hint": "'King Philip Came Over For Good Soup'."
+  },
+  {
+   "id": "b3-9-name",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is the correct way to write the scientific name of humans?",
+       "r": "Homo sapiens",
+       "w": [
+        "homo Sapiens",
+        "Homo Sapiens",
+        "HOMO SAPIENS"
+       ],
+       "e": [
+        "The genus takes the capital, not the species.",
+        "The species name starts with a small letter.",
+        "Only the first letter of the genus is capital."
+       ],
+       "y": "Genus with a capital, species small, in italics."
+      },
+      {
+       "q": "Two organisms are called Panthera leo and Panthera pardus. What does this tell you?",
+       "r": "They belong to the same genus",
+       "w": [
+        "They are the same species",
+        "They are in different kingdoms",
+        "They are unrelated"
+       ],
+       "e": [
+        "Their species names differ.",
+        "Same genus means same kingdom.",
+        "Same genus shows a close relationship."
+       ],
+       "y": "Lion and leopard share the genus Panthera."
+      },
+      {
+       "q": "In Zea mays (maize), what is 'mays'?",
+       "r": "the species name",
+       "w": [
+        "the genus name",
+        "the family name",
+        "the kingdom name"
+       ],
+       "e": [
+        "Zea is the genus.",
+        "Families are not part of the binomial name.",
+        "Kingdoms are not part of the name."
+       ],
+       "y": "The second name is the species."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

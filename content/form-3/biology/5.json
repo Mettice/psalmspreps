@@ -1,0 +1,566 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "b3-5",
+   "name": "The water cycle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Water moves continuously between the sea, the air, the land and living things: the water cycle.\n• Evaporation: the sun heats seas, rivers and lakes; water vapour rises.\n• Transpiration: plants lose water vapour from their leaves; with evaporation from soil it is evapotranspiration.\n• Condensation: rising vapour cools and forms tiny droplets: clouds.\n• Precipitation: droplets join and fall as rain (or hail).\n• Infiltration (into the soil), runoff (into streams and rivers) and groundwater flow return water to the sea.\nAnimals take in water by drinking and in food, and return it by breathing out, sweating and excreting.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Water on the move",
+    "text": "The same water has been used again and again for millions of years. It moves round and round between the sea, the air and the land: the water cycle.\nThe sun provides the energy: it heats seas, lakes and rivers, and water evaporates."
+   },
+   {
+    "heading": "The main stages",
+    "text": "• Evaporation: liquid water becomes vapour.\n• Transpiration: plants release water vapour from their leaves.\n• Condensation: vapour rises, cools and forms droplets: clouds and mist.\n• Precipitation: droplets join and fall as rain.\n• Infiltration and runoff: rain soaks into the soil or flows into streams, rivers and back to the sea.\nSalt does not evaporate, so rain is fresh water."
+   },
+   {
+    "heading": "Living things in the cycle",
+    "text": "Plants take water from the soil and transpire it; animals drink and eat water and return it by breathing out, sweating and excreting.\nForests put a lot of water vapour into the air, so cutting them down can reduce local rainfall. Concrete and bare soil reduce infiltration and increase floods."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "evaporation",
+    "meaning": "liquid water becoming vapour"
+   },
+   {
+    "word": "condensation",
+    "meaning": "vapour cooling into droplets"
+   },
+   {
+    "word": "precipitation",
+    "meaning": "rain, hail or snow falling"
+   },
+   {
+    "word": "transpiration",
+    "meaning": "loss of water vapour from leaves"
+   }
+  ],
+  "examples": [
+   "Morning mist: condensation",
+   "Drying clothes: evaporation",
+   "Flooded streets after a storm: runoff"
+  ],
+  "mistake": {
+   "wrong": "Clouds are made of water vapour",
+   "right": "Clouds are made of tiny droplets of liquid water",
+   "why": "Water vapour is invisible; clouds form when it condenses."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Describe the path of a drop of water from the Atlantic Ocean at Kribi to a farm near Ebolowa and back.",
+  "steps": [
+   "The sun heats the sea: water evaporates.",
+   "The vapour rises, cools and condenses into clouds, which the wind carries inland.",
+   "Rain falls on the farm; some soaks into the soil and is taken up by plants, then transpired; some runs off into rivers that flow back to the ocean."
+  ],
+  "answer": "Evaporation → condensation → precipitation → infiltration/runoff (and transpiration) → back to the sea",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b5-1",
+    "status": "draft",
+    "idea": "Evaporation: liquid water becomes vapour when heated.",
+    "vars": {},
+    "example": [
+     "Puddles dry after the rain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-5-proc"
+    }
+   },
+   {
+    "id": "c3b5-2",
+    "status": "draft",
+    "idea": "Condensation: vapour cools and becomes droplets (clouds).",
+    "vars": {},
+    "example": [
+     "Mist on Mount Cameroon in the morning"
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-5-step-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "water"
+     ],
+     "prompt": "Put these stages of the water cycle in order, starting at the sea.",
+     "items": [
+      {
+       "text": "Water evaporates from the sea."
+      },
+      {
+       "text": "Water vapour rises and cools."
+      },
+      {
+       "text": "It condenses into clouds."
+      },
+      {
+       "text": "Rain falls on the land."
+      },
+      {
+       "text": "Rivers carry the water back to the sea."
+      }
+     ],
+     "order": "as_written",
+     "hint": "Evaporation starts it; rivers finish it."
+    }
+   },
+   {
+    "id": "c3b5-3",
+    "status": "draft",
+    "idea": "Plants return water to the air by transpiration.",
+    "vars": {},
+    "example": [
+     "Forests make the air humid."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-5-living-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "water"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How do animals return water to the water cycle?",
+         "r": "By breathing out, sweating and excreting urine",
+         "w": [
+          "Only by drinking",
+          "By photosynthesis",
+          "They do not return water"
+         ],
+         "e": [
+          "Drinking takes water in.",
+          "Animals do not photosynthesise.",
+          "They lose water in several ways."
+         ],
+         "y": "Water leaves animals as vapour and liquid."
+        },
+        {
+         "q": "Why does cutting down large forests reduce rainfall in an area?",
+         "r": "Less transpiration puts less water vapour into the air",
+         "w": [
+          "Trees make clouds directly",
+          "Forests cool the sea",
+          "Trees store all the rain"
+         ],
+         "e": [
+          "Trees release vapour; clouds form by condensation.",
+          "Forests do not cool the sea.",
+          "Most water passes through trees, not stays."
+         ],
+         "y": "Transpiration is a big source of vapour over land."
+        },
+        {
+         "q": "What energy source drives the water cycle?",
+         "r": "the sun",
+         "w": [
+          "the wind only",
+          "the moon",
+          "volcanoes"
+         ],
+         "e": [
+          "Wind moves clouds but the sun causes evaporation.",
+          "The moon causes tides, not evaporation.",
+          "Volcanoes are not the main driver."
+         ],
+         "y": "Solar heat evaporates water."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-5-proc",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Water vapour cools high in the sky and forms clouds.",
+       "r": "condensation",
+       "w": [
+        "evaporation",
+        "transpiration",
+        "infiltration"
+       ],
+       "e": [
+        "Evaporation turns liquid into vapour.",
+        "Transpiration is water loss from leaves.",
+        "Infiltration is water soaking into soil."
+       ],
+       "y": "Vapour → droplets is condensation."
+      },
+      {
+       "q": "Water is lost as vapour from the leaves of a cocoa tree.",
+       "r": "transpiration",
+       "w": [
+        "precipitation",
+        "condensation",
+        "runoff"
+       ],
+       "e": [
+        "Precipitation is rain falling.",
+        "Condensation forms droplets.",
+        "Runoff is water flowing over land."
+       ],
+       "y": "Water loss from leaves is transpiration."
+      },
+      {
+       "q": "Rain falls on the ground.",
+       "r": "precipitation",
+       "w": [
+        "evaporation",
+        "transpiration",
+        "condensation"
+       ],
+       "e": [
+        "Evaporation sends water up.",
+        "Transpiration is from leaves.",
+        "Condensation forms clouds."
+       ],
+       "y": "Water falling from clouds is precipitation."
+      },
+      {
+       "q": "Rain water soaks into the soil.",
+       "r": "infiltration",
+       "w": [
+        "runoff",
+        "evaporation",
+        "condensation"
+       ],
+       "e": [
+        "Runoff flows over the surface.",
+        "Evaporation sends water into the air.",
+        "Condensation happens in the air."
+       ],
+       "y": "Water entering the soil is infiltration."
+      }
+     ]
+    }
+   },
+   "prompt": "Which process is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-5-step",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "water"
+   ],
+   "prompt": "Put these stages of the water cycle in order, starting at the sea.",
+   "items": [
+    {
+     "text": "Water evaporates from the sea."
+    },
+    {
+     "text": "Water vapour rises and cools."
+    },
+    {
+     "text": "It condenses into clouds."
+    },
+    {
+     "text": "Rain falls on the land."
+    },
+    {
+     "text": "Rivers carry the water back to the sea."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Evaporation starts it; rivers finish it."
+  },
+  {
+   "id": "b3-5-living",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "water"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How do animals return water to the water cycle?",
+       "r": "By breathing out, sweating and excreting urine",
+       "w": [
+        "Only by drinking",
+        "By photosynthesis",
+        "They do not return water"
+       ],
+       "e": [
+        "Drinking takes water in.",
+        "Animals do not photosynthesise.",
+        "They lose water in several ways."
+       ],
+       "y": "Water leaves animals as vapour and liquid."
+      },
+      {
+       "q": "Why does cutting down large forests reduce rainfall in an area?",
+       "r": "Less transpiration puts less water vapour into the air",
+       "w": [
+        "Trees make clouds directly",
+        "Forests cool the sea",
+        "Trees store all the rain"
+       ],
+       "e": [
+        "Trees release vapour; clouds form by condensation.",
+        "Forests do not cool the sea.",
+        "Most water passes through trees, not stays."
+       ],
+       "y": "Transpiration is a big source of vapour over land."
+      },
+      {
+       "q": "What energy source drives the water cycle?",
+       "r": "the sun",
+       "w": [
+        "the wind only",
+        "the moon",
+        "volcanoes"
+       ],
+       "e": [
+        "Wind moves clouds but the sun causes evaporation.",
+        "The moon causes tides, not evaporation.",
+        "Volcanoes are not the main driver."
+       ],
+       "y": "Solar heat evaporates water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-5-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "water"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is the water cycle important to living things?",
+       "r": "It returns fresh water to the land again and again",
+       "w": [
+        "It makes the sea salty",
+        "It removes all water from the land",
+        "It stops plants transpiring"
+       ],
+       "e": [
+        "Salt is not the purpose.",
+        "It brings water back.",
+        "Transpiration is part of the cycle."
+       ],
+       "y": "Evaporation leaves salt behind, so rain is fresh water."
+      },
+      {
+       "q": "Why is rain water fresh even though much of it comes from the sea?",
+       "r": "Salt does not evaporate; only water does",
+       "w": [
+        "Clouds filter the salt",
+        "The wind removes salt",
+        "Sea water is fresh"
+       ],
+       "e": [
+        "There is no filter.",
+        "Salt stays in the sea.",
+        "Sea water is salty."
+       ],
+       "y": "Evaporation leaves dissolved salts behind."
+      },
+      {
+       "q": "Paving large areas of a town with concrete increases flooding. Why?",
+       "r": "Less water infiltrates, so more runs off",
+       "w": [
+        "Concrete makes more rain",
+        "Concrete increases transpiration",
+        "Concrete evaporates water"
+       ],
+       "e": [
+        "Concrete does not change rainfall.",
+        "Concrete has no leaves.",
+        "It mainly stops infiltration."
+       ],
+       "y": "Water that cannot soak in flows over the surface."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

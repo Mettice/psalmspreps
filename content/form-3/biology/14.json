@@ -1,0 +1,611 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "b3-14",
+   "name": "Prokaryotae: bacteria"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Bacteria are single-celled prokaryotes (no true nucleus), about 1–10 µm long.\nStructure: cell wall, cell membrane, cytoplasm, circular DNA (nucleoid), plasmids, ribosomes; some have a slime capsule and flagella.\nShapes: cocci (spheres), bacilli (rods), spirilla (spirals), vibrios (commas).\nReproduction: binary fission (one cell splits into two); in good conditions every 20–30 minutes, so numbers double quickly. Some form resistant spores.\nImportance: decomposers (recycling nutrients), nitrogen fixation in legume roots, making yoghurt and cheese, sewage treatment; but some cause disease (cholera, typhoid, tuberculosis, tetanus) and spoil food.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Simple but successful",
+    "text": "Bacteria are tiny single cells, about {1}–{10} µm long. They are prokaryotes: their DNA is a loop lying free in the cytoplasm, not inside a nucleus.\nA typical bacterium has a cell wall, cell membrane, cytoplasm with ribosomes, a DNA loop and often small rings of DNA called plasmids. Some have a slimy capsule and whip-like flagella for movement."
+   },
+   {
+    "heading": "Shapes and growth",
+    "text": "Bacteria are named by shape: cocci (spheres), bacilli (rods), spirilla (spirals) and vibrios (commas).\nThey reproduce by binary fission: one cell splits into two. In warm, moist conditions with food this can happen every {20}–{30} minutes, so one bacterium can become {64} in two hours ({6} doublings).\nSome form tough spores that survive heat and drought."
+   },
+   {
+    "heading": "Friends and enemies",
+    "text": "Useful: decomposers recycle nutrients; nitrogen-fixing bacteria in bean and groundnut nodules enrich soil; bacteria make yoghurt and cheese and clean sewage.\nHarmful: cholera, typhoid, tuberculosis and tetanus are bacterial diseases; bacteria also spoil food. Antibiotics can kill bacteria, but must be used properly to avoid resistance."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "binary fission",
+    "meaning": "splitting of one cell into two"
+   },
+   {
+    "word": "plasmid",
+    "meaning": "a small ring of extra DNA in a bacterium"
+   },
+   {
+    "word": "decomposer",
+    "meaning": "an organism that breaks down dead matter"
+   },
+   {
+    "word": "nitrogen fixation",
+    "meaning": "turning nitrogen gas into compounds plants can use"
+   }
+  ],
+  "examples": [
+   "Bacilli: tuberculosis",
+   "Vibrio: cholera",
+   "{1} bacterium, {5} doublings: {32}"
+  ],
+  "mistake": {
+   "wrong": "All bacteria cause disease",
+   "right": "Most bacteria are harmless or useful",
+   "why": "Only some bacteria are pathogens; many recycle nutrients or make food."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n0": 10,
+   "g": 20,
+   "t": 120
+  },
+  "problem": "A bacterium divides every {g} minutes. Starting with {n0} bacteria, how many will there be after {t} minutes?",
+  "steps": [
+   "Number of divisions = {t} ÷ {g} = {t / g}.",
+   "Each division doubles the number: {n0} × {2}{sup(t / g)} = {n0} × {2 ^ (t / g)} = {n0 * 2 ^ (t / g)}."
+  ],
+  "answer": "{n0 * 2 ^ (t / g)} bacteria",
+  "checks": [
+   "n0 * 2 ^ (t / g) == 640"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b14-1",
+    "status": "draft",
+    "idea": "Bacteria are prokaryotes: no true nucleus, DNA free in the cytoplasm.",
+    "vars": {},
+    "example": [
+     "They also have a cell wall and ribosomes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-14-struct"
+    }
+   },
+   {
+    "id": "c3b14-2",
+    "status": "draft",
+    "idea": "Shapes: cocci (round), bacilli (rods), spirilla (spirals).",
+    "vars": {},
+    "example": [
+     "Cholera bacteria are comma-shaped (vibrios)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-14-shape"
+    }
+   },
+   {
+    "id": "c3b14-3",
+    "status": "draft",
+    "idea": "Binary fission doubles the number at each generation.",
+    "vars": {},
+    "example": [
+     "{3} generations: × {8}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-14-grow-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "classification"
+     ],
+     "vars": {
+      "n0": {
+       "pick": [
+        1,
+        2,
+        5,
+        10
+       ]
+      },
+      "g": {
+       "pick": [
+        20,
+        30
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        8
+       ]
+      },
+      "t": {
+       "expr": "g * k"
+      }
+     },
+     "prompt": "A bacterium divides every {g} minutes. Starting with {n0} bacteria, how many will there be after {t} minutes?",
+     "answer": "n0 * 2 ^ (t / g)",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "n0 + 2 * (t / g)",
+       "explain": "Each division doubles the number; do not add {2} each time."
+      },
+      {
+       "id": "mult",
+       "wrong": "n0 * 2 * (t / g)",
+       "explain": "Doubling repeatedly means a power of {2}, not × {2} × the number of divisions."
+      }
+     ],
+     "solution": [
+      "Divisions = {t} ÷ {g} = {t / g}.",
+      "Number = {n0} × {2}{sup(t / g)} = {answer}."
+     ],
+     "where": [
+      "n0 * 2 ^ (t / g) <= 10000"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-14-struct",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which structure does a bacterium NOT have?",
+       "r": "a true nucleus",
+       "w": [
+        "a cell wall",
+        "ribosomes",
+        "a cell membrane"
+       ],
+       "e": [
+        "Bacteria have a cell wall.",
+        "They have (small) ribosomes.",
+        "They have a cell membrane."
+       ],
+       "y": "Their DNA lies free in the cytoplasm."
+      },
+      {
+       "q": "What is the function of a bacterium's flagellum?",
+       "r": "movement",
+       "w": [
+        "photosynthesis",
+        "storing DNA",
+        "making proteins"
+       ],
+       "e": [
+        "Most bacteria do not photosynthesise.",
+        "DNA is in the cytoplasm.",
+        "Ribosomes make proteins."
+       ],
+       "y": "The whip-like flagellum spins to move the cell."
+      },
+      {
+       "q": "What are plasmids?",
+       "r": "small extra rings of DNA in bacteria",
+       "w": [
+        "food stores",
+        "cell walls",
+        "flagella"
+       ],
+       "e": [
+        "They are genetic material.",
+        "The wall surrounds the cell.",
+        "Flagella are for movement."
+       ],
+       "y": "Plasmids often carry genes such as antibiotic resistance."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-14-shape",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Rod-shaped bacteria are called…",
+       "r": "bacilli",
+       "w": [
+        "cocci",
+        "spirilla",
+        "vibrios"
+       ],
+       "e": [
+        "Cocci are spheres.",
+        "Spirilla are spirals.",
+        "Vibrios are comma-shaped."
+       ],
+       "y": "Bacillus means little rod."
+      },
+      {
+       "q": "Spherical bacteria are called…",
+       "r": "cocci",
+       "w": [
+        "bacilli",
+        "spirilla",
+        "vibrios"
+       ],
+       "e": [
+        "Bacilli are rods.",
+        "Spirilla are spirals.",
+        "Vibrios are commas."
+       ],
+       "y": "Coccus means berry."
+      },
+      {
+       "q": "The cholera bacterium is comma-shaped. It is a…",
+       "r": "vibrio",
+       "w": [
+        "coccus",
+        "bacillus",
+        "spirillum"
+       ],
+       "e": [
+        "Cocci are round.",
+        "Bacilli are straight rods.",
+        "Spirilla are spirals."
+       ],
+       "y": "Vibrio cholerae is comma-shaped."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-14-grow",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "n0": {
+     "pick": [
+      1,
+      2,
+      5,
+      10
+     ]
+    },
+    "g": {
+     "pick": [
+      20,
+      30
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "t": {
+     "expr": "g * k"
+    }
+   },
+   "prompt": "A bacterium divides every {g} minutes. Starting with {n0} bacteria, how many will there be after {t} minutes?",
+   "answer": "n0 * 2 ^ (t / g)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "n0 + 2 * (t / g)",
+     "explain": "Each division doubles the number; do not add {2} each time."
+    },
+    {
+     "id": "mult",
+     "wrong": "n0 * 2 * (t / g)",
+     "explain": "Doubling repeatedly means a power of {2}, not × {2} × the number of divisions."
+    }
+   ],
+   "solution": [
+    "Divisions = {t} ÷ {g} = {t / g}.",
+    "Number = {n0} × {2}{sup(t / g)} = {answer}."
+   ],
+   "where": [
+    "n0 * 2 ^ (t / g) <= 10000"
+   ]
+  },
+  {
+   "id": "b3-14-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How do bacteria in the root nodules of beans help farmers?",
+       "r": "They fix nitrogen from the air into compounds the plant can use",
+       "w": [
+        "They kill pests",
+        "They make the roots hard",
+        "They produce sugar from sunlight"
+       ],
+       "e": [
+        "They do not kill pests.",
+        "That is not their role.",
+        "They do not photosynthesise."
+       ],
+       "y": "Nitrogen fixation enriches the soil."
+      },
+      {
+       "q": "Which is a useful activity of bacteria?",
+       "r": "turning milk into yoghurt",
+       "w": [
+        "causing cholera",
+        "spoiling food",
+        "causing tetanus"
+       ],
+       "e": [
+        "That is harmful.",
+        "That is harmful.",
+        "That is harmful."
+       ],
+       "y": "Lactobacillus turns milk sugar into lactic acid."
+      },
+      {
+       "q": "Why are bacteria important in nature as decomposers?",
+       "r": "They break down dead matter and return nutrients to the soil",
+       "w": [
+        "They make dead matter last forever",
+        "They photosynthesise",
+        "They produce oxygen for animals"
+       ],
+       "e": [
+        "They break it down.",
+        "Decomposers do not photosynthesise.",
+        "Decomposition uses oxygen."
+       ],
+       "y": "Recycling keeps soils fertile."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-14-harm",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Cholera spreads through dirty drinking water. Which measure best prevents it?",
+       "r": "Boiling or treating drinking water and using clean latrines",
+       "w": [
+        "Sleeping under a mosquito net",
+        "Taking a vaccine against measles",
+        "Eating more sugar"
+       ],
+       "e": [
+        "Nets stop mosquitoes, not cholera.",
+        "The measles vaccine does not protect against cholera.",
+        "Diet does not stop the bacteria."
+       ],
+       "y": "Cholera bacteria come from faeces in water."
+      },
+      {
+       "q": "Why is tetanus a risk after a cut with a rusty nail in the soil?",
+       "r": "Tetanus bacteria (spores) in soil can enter the wound",
+       "w": [
+        "Rust is a virus",
+        "Iron causes tetanus",
+        "The nail is too sharp"
+       ],
+       "e": [
+        "Rust is iron oxide.",
+        "Iron is not the cause.",
+        "Sharpness is not the cause."
+       ],
+       "y": "Clean the wound and keep tetanus vaccination up to date."
+      },
+      {
+       "q": "Bacteria divide every 20 minutes. Why does food left out on a hot day spoil quickly?",
+       "r": "Warmth lets bacteria divide fast, so their numbers grow very rapidly",
+       "w": [
+        "Heat makes food grow",
+        "Bacteria die in heat",
+        "Food turns into bacteria"
+       ],
+       "e": [
+        "Food does not grow.",
+        "Moderate warmth speeds them up.",
+        "Bacteria come from outside."
+       ],
+       "y": "Doubling every 20 minutes gives millions in hours."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

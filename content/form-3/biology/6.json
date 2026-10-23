@@ -1,0 +1,478 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "b3-6",
+   "name": "Diffusion and active transport across cell membranes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Diffusion: the net movement of particles from a region of higher concentration to a region of lower concentration, down a concentration gradient. It needs no energy from the cell.\nExamples: oxygen into blood in the lungs; carbon dioxide into a leaf; digested food into blood in the small intestine.\nFaster with: a steeper concentration gradient, higher temperature, larger surface area, shorter distance (thin surfaces).\nSmall organisms have a large surface area to volume ratio, so diffusion alone can supply them.\nActive transport: movement of particles against a concentration gradient (low to high), using energy from respiration and carrier proteins. Examples: root hairs taking in mineral ions from dilute soil water; glucose absorption in the gut.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Down the gradient",
+    "text": "Particles in liquids and gases move about at random. Where there are many of them (high concentration) more move away than come in, so overall they spread to where there are few. This net movement is diffusion.\nThe difference in concentration is the concentration gradient; diffusion goes 'down' it. It needs no energy from the cell.\nOxygen diffuses from the air in the lungs into the blood; carbon dioxide diffuses into a leaf from the air."
+   },
+   {
+    "heading": "Speeding up diffusion",
+    "text": "Diffusion is faster when:\n• the concentration gradient is steeper;\n• the temperature is higher;\n• the surface area is larger;\n• the distance is shorter (thin walls).\nSmall organisms have a large surface area compared with their volume (a {1} cm cube has {6} cm² for {1} cm³; a {3} cm cube only {2} cm² per cm³), so diffusion can supply them. Big animals need lungs, gills and blood."
+   },
+   {
+    "heading": "Against the gradient: active transport",
+    "text": "Sometimes a cell must take in a substance that is already more concentrated inside it, for example a root hair taking in nitrate ions from very dilute soil water.\nIt uses carrier proteins in the membrane and energy from respiration. This is active transport: from low to high concentration, using energy.\nIf respiration stops (no oxygen, poison), active transport stops."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "diffusion",
+    "meaning": "net movement from high to low concentration"
+   },
+   {
+    "word": "concentration gradient",
+    "meaning": "a difference in concentration between two regions"
+   },
+   {
+    "word": "active transport",
+    "meaning": "movement against a concentration gradient using energy"
+   }
+  ],
+  "examples": [
+   "CO₂ into a leaf: diffusion",
+   "Mineral ions into root hairs: active transport",
+   "Cube side {2} cm: ratio {3} : {1}"
+  ],
+  "mistake": {
+   "wrong": "Active transport moves substances from high to low concentration",
+   "right": "Active transport moves them from low to high, using energy",
+   "why": "Moving down the gradient needs no energy; that is diffusion."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "l": 2
+  },
+  "problem": "Find the surface area to volume ratio of a cube of side {l} cm.",
+  "steps": [
+   "Surface area = {6} × {l}² = {6 * l * l} cm².",
+   "Volume = {l}³ = {l * l * l} cm³.",
+   "Ratio = {6 * l * l} ÷ {l * l * l} = {6 / l} : {1}."
+  ],
+  "answer": "{6 / l} : {1}",
+  "checks": [
+   "6 / l == 3"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b6-1",
+    "status": "draft",
+    "idea": "Diffusion: from high to low concentration, with no energy needed.",
+    "vars": {},
+    "example": [
+     "Oxygen diffuses from the air sacs into the blood."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-6-def"
+    }
+   },
+   {
+    "id": "c3b6-2",
+    "status": "draft",
+    "idea": "Active transport: from low to high concentration, using energy.",
+    "vars": {},
+    "example": [
+     "Root hairs take in nitrate ions from dilute soil water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-6-active"
+    }
+   },
+   {
+    "id": "c3b6-3",
+    "status": "draft",
+    "idea": "Smaller objects have a larger surface area to volume ratio.",
+    "vars": {},
+    "example": [
+     "Cube of side {1} cm: {6} : {1}; side {3} cm: {2} : {1}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-6-ratio-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "l": {
+       "int": [
+        1,
+        6
+       ]
+      }
+     },
+     "prompt": "Find the surface area to volume ratio of a cube of side {l} cm. Give the first number of the ratio n : {1}.",
+     "answer": "roundTo(6 / l, 0.01)",
+     "misconceptions": [
+      {
+       "id": "flip",
+       "wrong": "roundTo(l / 6, 0.01)",
+       "explain": "Surface area ÷ volume, not volume ÷ surface area."
+      },
+      {
+       "id": "area",
+       "wrong": "6 * l * l",
+       "explain": "Divide by the volume as well."
+      }
+     ],
+     "solution": [
+      "Surface area = {6} × {l}² = {6 * l * l} cm²; volume = {l}³ = {l * l * l} cm³.",
+      "Ratio = {6 * l * l} ÷ {l * l * l} = {answer} : {1}."
+     ],
+     "where": [
+      "l != 6"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-6-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is diffusion?",
+       "r": "Net movement of particles from high to low concentration",
+       "w": [
+        "Movement of water only, through a membrane",
+        "Movement from low to high concentration using energy",
+        "Movement of particles that stops at once"
+       ],
+       "e": [
+        "That describes osmosis.",
+        "That is active transport.",
+        "Particles keep moving."
+       ],
+       "y": "Particles spread down the concentration gradient."
+      },
+      {
+       "q": "Which is an example of diffusion?",
+       "r": "Oxygen moving from the air sacs into the blood",
+       "w": [
+        "A root hair taking up ions from dilute soil water",
+        "Food moving down the gut by muscle contraction",
+        "Blood pumped by the heart"
+       ],
+       "e": [
+        "That is against the gradient: active transport.",
+        "That is peristalsis.",
+        "That is pumping (mass flow)."
+       ],
+       "y": "Oxygen is more concentrated in the air sacs than in the blood arriving."
+      },
+      {
+       "q": "Does diffusion need energy from respiration?",
+       "r": "No: particles move by their own random motion",
+       "w": [
+        "Yes, always",
+        "Only in plants",
+        "Only in animals"
+       ],
+       "e": [
+        "It is passive.",
+        "It is passive in all organisms.",
+        "It is passive in all organisms."
+       ],
+       "y": "Diffusion is a passive process."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-6-active",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do root hair cells need active transport to take in mineral ions?",
+       "r": "The ions are more concentrated inside the cell than in the soil water",
+       "w": [
+        "Ions cannot dissolve in water",
+        "Soil has no ions",
+        "Diffusion is faster"
+       ],
+       "e": [
+        "Ions are dissolved in soil water.",
+        "Soil water contains dilute ions.",
+        "Diffusion would carry ions out, not in."
+       ],
+       "y": "Moving against the gradient needs energy."
+      },
+      {
+       "q": "Where does the energy for active transport come from?",
+       "r": "respiration in the cell's mitochondria",
+       "w": [
+        "the sun directly",
+        "diffusion",
+        "the cell wall"
+       ],
+       "e": [
+        "Sunlight is used in photosynthesis.",
+        "Diffusion releases no usable energy.",
+        "The cell wall does not supply energy."
+       ],
+       "y": "Respiration releases the energy carriers use."
+      },
+      {
+       "q": "A poison stops respiration in root cells. What happens to the uptake of mineral ions?",
+       "r": "It falls, because active transport stops",
+       "w": [
+        "It rises",
+        "It stays the same",
+        "Only water uptake stops"
+       ],
+       "e": [
+        "Without energy, carriers cannot work.",
+        "It needs energy.",
+        "Mineral uptake is the process that needs energy."
+       ],
+       "y": "No respiration, no energy for active transport."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-6-ratio",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      1,
+      6
+     ]
+    }
+   },
+   "prompt": "Find the surface area to volume ratio of a cube of side {l} cm. Give the first number of the ratio n : {1}.",
+   "answer": "roundTo(6 / l, 0.01)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "roundTo(l / 6, 0.01)",
+     "explain": "Surface area ÷ volume, not volume ÷ surface area."
+    },
+    {
+     "id": "area",
+     "wrong": "6 * l * l",
+     "explain": "Divide by the volume as well."
+    }
+   ],
+   "solution": [
+    "Surface area = {6} × {l}² = {6 * l * l} cm²; volume = {l}³ = {l * l * l} cm³.",
+    "Ratio = {6 * l * l} ÷ {l * l * l} = {answer} : {1}."
+   ],
+   "where": [
+    "l != 6"
+   ]
+  },
+  {
+   "id": "b3-6-rate",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which change makes diffusion of oxygen into the blood faster?",
+       "r": "a thinner wall between air and blood",
+       "w": [
+        "a thicker wall",
+        "a smaller surface area",
+        "a lower concentration of oxygen in the air sacs"
+       ],
+       "e": [
+        "A thicker wall is a longer distance.",
+        "Less surface means less diffusion.",
+        "That reduces the gradient."
+       ],
+       "y": "A shorter distance speeds diffusion."
+      },
+      {
+       "q": "Why can an amoeba rely on diffusion alone for its oxygen, but a cow cannot?",
+       "r": "The amoeba is tiny, with a large surface area to volume ratio",
+       "w": [
+        "The amoeba does not respire",
+        "The cow lives in water",
+        "The cow has no surface"
+       ],
+       "e": [
+        "Amoeba respires.",
+        "The cow lives on land.",
+        "Its body surface is small compared with its volume."
+       ],
+       "y": "Large animals need lungs and blood to deliver oxygen."
+      },
+      {
+       "q": "Why do villi in the small intestine speed up absorption?",
+       "r": "They greatly increase the surface area",
+       "w": [
+        "They make the wall thicker",
+        "They slow the blood",
+        "They stop active transport"
+       ],
+       "e": [
+        "Villi have thin walls.",
+        "Blood flow keeps the gradient steep.",
+        "They also use active transport."
+       ],
+       "y": "More surface, more diffusion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

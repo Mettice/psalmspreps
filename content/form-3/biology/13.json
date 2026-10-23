@@ -1,0 +1,550 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "b3-13",
+   "name": "Viruses: characteristics, the T2 virus and how viruses replicate"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Viruses are extremely small particles (20–300 nm), seen only with an electron microscope. They are not cells.\n• They have a protein coat (capsid) around genetic material (DNA or RNA); no cytoplasm, no organelles, no respiration or nutrition of their own.\n• They can reproduce only inside a living host cell (they are obligate parasites); outside a host some can be crystallised.\nT2 bacteriophage (infects bacteria): head (protein capsid with DNA), tail (hollow sheath), tail fibres and base plate.\nReplication: attach to host → inject DNA → host makes new virus DNA and protein coats → new viruses assemble → host cell bursts, releasing them.\nDiseases: HIV/AIDS, measles, polio, influenza, COVID-19, yellow fever. Antibiotics do not work against viruses; vaccines prevent many viral diseases.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Particles on the edge of life",
+    "text": "Viruses are far smaller than bacteria and can be seen only with an electron microscope. A virus is not a cell: it is a protein coat (capsid) wrapped round a little genetic material, DNA or RNA.\nIt has no cytoplasm, no ribosomes, does not feed or respire, and cannot reproduce on its own. Outside a living cell it is inactive; some viruses can even be crystallised like salt."
+   },
+   {
+    "heading": "The {'T2'} bacteriophage",
+    "text": "{'T2'} infects bacteria. It has a head (a protein capsid holding DNA), a hollow tail, a base plate and tail fibres.\n• It attaches to a bacterium with its tail fibres.\n• It injects its DNA through the tail.\n• The bacterium's machinery is taken over and makes new virus DNA and coats.\n• New viruses assemble, the bacterium bursts, and they are released to infect more cells."
+   },
+   {
+    "heading": "Viruses and health",
+    "text": "Viruses cause HIV/AIDS, measles, polio, influenza, yellow fever and {'COVID-19'}. They also attack crops (cassava mosaic) and livestock.\nAntibiotics do not work on viruses. Vaccines (measles, polio, yellow fever) help the body resist them, and hygiene and safe behaviour stop their spread."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "virus",
+    "meaning": "a particle of genetic material in a protein coat that reproduces only inside host cells"
+   },
+   {
+    "word": "capsid",
+    "meaning": "the protein coat of a virus"
+   },
+   {
+    "word": "host",
+    "meaning": "the living organism a parasite lives in"
+   },
+   {
+    "word": "bacteriophage",
+    "meaning": "a virus that infects bacteria"
+   }
+  ],
+  "examples": [
+   "HIV: infects white blood cells",
+   "Measles: prevented by vaccine",
+   "{'T2'}: infects bacteria"
+  ],
+  "mistake": {
+   "wrong": "Antibiotics cure viral infections",
+   "right": "Antibiotics act on bacteria, not viruses",
+   "why": "Viruses have none of the structures antibiotics attack."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give two reasons why many biologists say viruses are not living organisms.",
+  "steps": [
+   "They are not made of cells: just genetic material inside a protein coat.",
+   "They cannot feed, respire or reproduce on their own; they reproduce only inside living host cells."
+  ],
+  "answer": "Not cells; cannot carry out life processes outside a host",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b13-1",
+    "status": "draft",
+    "idea": "A virus is genetic material in a protein coat; it is not a cell.",
+    "vars": {},
+    "example": [
+     "No cytoplasm, no nucleus, no ribosomes"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-13-char"
+    }
+   },
+   {
+    "id": "c3b13-2",
+    "status": "draft",
+    "idea": "Viruses reproduce only inside living host cells.",
+    "vars": {},
+    "example": [
+     "HIV reproduces inside white blood cells."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-13-rep-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "prompt": "Put the stages of replication of a T2 virus in order.",
+     "items": [
+      {
+       "text": "The virus attaches to the bacterium with its tail fibres."
+      },
+      {
+       "text": "It injects its DNA into the bacterium."
+      },
+      {
+       "text": "The bacterium makes new virus DNA and protein coats."
+      },
+      {
+       "text": "New viruses are assembled inside the cell."
+      },
+      {
+       "text": "The bacterium bursts and releases the new viruses."
+      }
+     ],
+     "order": "as_written",
+     "hint": "Attach, inject, copy, assemble, burst."
+    }
+   },
+   {
+    "id": "c3b13-3",
+    "status": "draft",
+    "idea": "Antibiotics do not kill viruses; vaccines help prevent viral diseases.",
+    "vars": {},
+    "example": [
+     "The measles vaccine protects children."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-13-disease-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which disease is caused by a virus?",
+         "r": "measles",
+         "w": [
+          "cholera",
+          "malaria",
+          "tuberculosis"
+         ],
+         "e": [
+          "Cholera is caused by a bacterium.",
+          "Malaria is caused by a protoctist (Plasmodium).",
+          "TB is caused by a bacterium."
+         ],
+         "y": "Measles, HIV, polio and influenza are viral."
+        },
+        {
+         "q": "Why are antibiotics not given to cure a common cold?",
+         "r": "Colds are caused by viruses, and antibiotics do not affect viruses",
+         "w": [
+          "Colds are caused by bacteria",
+          "Antibiotics are too expensive",
+          "Colds are not diseases"
+         ],
+         "e": [
+          "Colds are viral.",
+          "Cost is not the reason.",
+          "A cold is an infection."
+         ],
+         "y": "Antibiotics act on bacterial structures that viruses lack."
+        },
+        {
+         "q": "How can the spread of HIV be reduced?",
+         "r": "Avoiding contact with infected blood and practising safe sex",
+         "w": [
+          "Taking antibiotics",
+          "Sleeping under a net",
+          "Drinking boiled water only"
+         ],
+         "e": [
+          "Antibiotics do not kill HIV.",
+          "Nets stop mosquitoes; HIV is not carried by mosquitoes.",
+          "HIV is not spread by water."
+         ],
+         "y": "HIV spreads through blood and sexual fluids."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-13-char",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a virus made of?",
+       "r": "genetic material (DNA or RNA) inside a protein coat",
+       "w": [
+        "a cell with a nucleus",
+        "cytoplasm and a cell wall",
+        "a single bacterium"
+       ],
+       "e": [
+        "Viruses are not cells.",
+        "They have no cytoplasm or wall.",
+        "A bacterium is a cell; a virus is not."
+       ],
+       "y": "Just a capsid around nucleic acid."
+      },
+      {
+       "q": "Which is true of viruses?",
+       "r": "They can reproduce only inside a living host cell",
+       "w": [
+        "They can be seen with a school light microscope",
+        "They respire like bacteria",
+        "They are killed by antibiotics"
+       ],
+       "e": [
+        "They are far too small; an electron microscope is needed.",
+        "They do not respire.",
+        "Antibiotics act on bacteria, not viruses."
+       ],
+       "y": "They are obligate parasites."
+      },
+      {
+       "q": "How big are viruses compared with bacteria?",
+       "r": "much smaller",
+       "w": [
+        "much larger",
+        "the same size",
+        "larger than human cells"
+       ],
+       "e": [
+        "Bacteria are about 1–10 µm; viruses about 0.02–0.3 µm.",
+        "They are far smaller.",
+        "Human cells are far larger."
+       ],
+       "y": "Viruses are measured in nanometres."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-13-rep",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "prompt": "Put the stages of replication of a T2 virus in order.",
+   "items": [
+    {
+     "text": "The virus attaches to the bacterium with its tail fibres."
+    },
+    {
+     "text": "It injects its DNA into the bacterium."
+    },
+    {
+     "text": "The bacterium makes new virus DNA and protein coats."
+    },
+    {
+     "text": "New viruses are assembled inside the cell."
+    },
+    {
+     "text": "The bacterium bursts and releases the new viruses."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Attach, inject, copy, assemble, burst."
+  },
+  {
+   "id": "b3-13-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part of a T2 virus contains its DNA?",
+       "r": "the head (capsid)",
+       "w": [
+        "the tail fibres",
+        "the base plate",
+        "the tail sheath only"
+       ],
+       "e": [
+        "Tail fibres attach to the host.",
+        "The base plate anchors the virus.",
+        "The tail injects the DNA but does not store it."
+       ],
+       "y": "The DNA is packed in the head."
+      },
+      {
+       "q": "What is the job of the tail fibres of a T2 virus?",
+       "r": "to attach the virus to the host bacterium",
+       "w": [
+        "to store DNA",
+        "to make proteins",
+        "to digest the host"
+       ],
+       "e": [
+        "DNA is in the head.",
+        "The virus cannot make proteins itself.",
+        "Viruses do not digest."
+       ],
+       "y": "They grip special sites on the bacterium."
+      },
+      {
+       "q": "What does a T2 bacteriophage infect?",
+       "r": "bacteria",
+       "w": [
+        "humans",
+        "plants",
+        "fungi"
+       ],
+       "e": [
+        "It infects bacteria only.",
+        "It infects bacteria only.",
+        "It infects bacteria only."
+       ],
+       "y": "'Bacteriophage' means 'bacteria eater'."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-13-disease",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which disease is caused by a virus?",
+       "r": "measles",
+       "w": [
+        "cholera",
+        "malaria",
+        "tuberculosis"
+       ],
+       "e": [
+        "Cholera is caused by a bacterium.",
+        "Malaria is caused by a protoctist (Plasmodium).",
+        "TB is caused by a bacterium."
+       ],
+       "y": "Measles, HIV, polio and influenza are viral."
+      },
+      {
+       "q": "Why are antibiotics not given to cure a common cold?",
+       "r": "Colds are caused by viruses, and antibiotics do not affect viruses",
+       "w": [
+        "Colds are caused by bacteria",
+        "Antibiotics are too expensive",
+        "Colds are not diseases"
+       ],
+       "e": [
+        "Colds are viral.",
+        "Cost is not the reason.",
+        "A cold is an infection."
+       ],
+       "y": "Antibiotics act on bacterial structures that viruses lack."
+      },
+      {
+       "q": "How can the spread of HIV be reduced?",
+       "r": "Avoiding contact with infected blood and practising safe sex",
+       "w": [
+        "Taking antibiotics",
+        "Sleeping under a net",
+        "Drinking boiled water only"
+       ],
+       "e": [
+        "Antibiotics do not kill HIV.",
+        "Nets stop mosquitoes; HIV is not carried by mosquitoes.",
+        "HIV is not spread by water."
+       ],
+       "y": "HIV spreads through blood and sexual fluids."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}
