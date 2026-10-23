@@ -59,6 +59,16 @@ test("number bases (Maths 8-10): every answer recomputed independently, right ty
           const last = want.length - 1, typed = (s) => want.map((v, i) => (i === last ? s : String(v)));
           for (const s of [want[last], want[last] + SUBD[b], `0${want[last]}`]) if (!check(q, typed(s)).correct) add(`${t.id} ladder: "${s}" marked wrong`);
           if (check(q, typed([...want[last]].reverse().join(""))).correct && want[last] !== [...want[last]].reverse().join("")) add(`${t.id} ladder: reversed digits marked right`);
+        } else if (q.type === "blanks" && (m = p.match(RE.bToB))) {
+          // through base ten: the place values and the base-ten number, then the ladder in the new base
+          const b1 = subOf(m[2]), b2 = +m[3], ten = toTen(m[1], b1), digits = [...m[1]];
+          const want = [...digits.map((_, i) => b1 ** (digits.length - 1 - i)), ten];
+          for (let x = ten; x > 0; x = Math.floor(x / b2)) want.push(Math.floor(x / b2), x % b2);
+          want.push(toB(ten, b2));
+          if (JSON.stringify(q.answerValues) !== JSON.stringify(want)) add(`${t.id} steps: ${q.answerValues} expected ${want}`);
+          if (q.parts.length !== want.length + 1) add(`${t.id} steps: ${q.parts.length - 1} boxes for ${want.length} answers`);
+          if (q.parts.join("").includes(`${b2} | ${ten}`)) add(`${t.id} steps: the base-ten number is given away`);
+          if (!check(q, want.map(String)).correct) add(`${t.id} steps: right boxes marked wrong`);
         } else if (q.type === "blanks") {
           m = p.match(RE.bToTen) || p.match(RE.check);
           const digits = [...m[1]].map(Number), b = subOf(m[2]);

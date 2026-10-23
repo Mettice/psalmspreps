@@ -19,15 +19,18 @@
       "place_value": "Place value up to millions",
       "operations": "The four operations",
       "tables": "Multiplication tables",
-      "word_problems": "Simple word problems"
+      "word_problems": "Simple word problems",
+      "remainders": "Division with remainders"
     },
     "weak_if_below": 0.66,
-    "_weak_rule": "An area is weak when fewer than two thirds of its questions are right (1 of 3, or 2 of 4).",
+    "_weak_rule": "An area is weak when fewer than two thirds of its questions are right (1 of 2, 1 of 3, or 2 of 4).",
+    "_remainders": "Added 2026-10-24: number bases (Lesson 8) are repeated division with remainders; a pupil who cannot find 47 ÷ 5 = 9 remainder 2 needs that first.",
     "items": [
       {"template": "r-pv-value"}, {"template": "r-pv-words"}, {"template": "r-pv-order"},
       {"template": "r-add"}, {"template": "r-sub"}, {"template": "r-mul"}, {"template": "r-div"},
       {"template": "r-table-mul"}, {"template": "r-table-div"}, {"template": "r-table-missing"},
-      {"template": "r-wp-change"}, {"template": "r-wp-bags"}, {"template": "r-wp-difference"}
+      {"template": "r-wp-change"}, {"template": "r-wp-bags"}, {"template": "r-wp-difference"},
+      {"template": "r-rem-steps"}, {"template": "r-rem-left"}
     ]
   },
   "questions": [
@@ -219,6 +222,30 @@
       "verify": "answer + b == a",
       "misconceptions": [
         {"id": "added", "wrong": "a + b", "explain": "'How many more' means find the difference: {a} − {b}."}
+      ]
+    },
+    {
+      "id": "r-rem-steps",
+      "area": "remainders",
+      "type": "blanks",
+      "level": 1,
+      "vars": {"d": {"int": [3, 9]}, "q": {"int": [4, 12]}, "r": {"int": [1, "d - 1"]}, "n": {"expr": "d * q + r"}},
+      "prompt": "Divide. Write the answer and what is left over.",
+      "text": "{n} ÷ {d} = ___ remainder ___",
+      "answers": "[q, r]"
+    },
+    {
+      "id": "r-rem-left",
+      "area": "remainders",
+      "type": "numeric",
+      "level": 2,
+      "vars": {"k": {"int": [3, 9]}, "each": {"int": [3, 15]}, "r": {"int": [1, "k - 1"]}, "n": {"expr": "each * k + r"}},
+      "prompt": "Ayuk shares {n} sweets equally among {k} children. Each child gets as many as possible. How many sweets are left over?",
+      "answer": "r",
+      "verify": "answer < k && (n - answer) % k == 0",
+      "misconceptions": [
+        {"id": "gave-quotient", "wrong": "each", "explain": "{each} is how many each child gets. The question asks what is left: {n} ÷ {k} = {each} remainder {r}."},
+        {"id": "gave-zero", "wrong": "0", "explain": "{k} × {each} = {k * each}, so {n} − {k * each} = {r} sweets are left."}
       ]
     }
   ]

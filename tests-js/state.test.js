@@ -4,9 +4,9 @@ import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import * as lib from "../src/engine/lib/maths.js";
 import { instantiate, check, DONT_KNOW } from "../src/engine/template.js";
-import { buildReadiness, scoreReadiness } from "../src/engine/readiness.js";
+import { buildReadiness, scoreReadiness, readinessValidity } from "../src/engine/readiness.js";
 import { emptyState, applyChecklist, applyReadiness, masteryOf, coverageOf, skillOf, skillsOf } from "../src/engine/state.js";
-import { startTeach, nextPhase, answerItem, isDone, lessonSteps, practicePlan, cardCheckTemplate, itemQuestion, needsReview, renderLearn } from "../src/engine/teach.js";
+import { startTeach, nextPhase, answerItem, isDone, lessonSteps, practicePlan, cardCheckTemplate, itemQuestion, needsReview, renderLearn, isStuck, easyStep } from "../src/engine/teach.js";
 
 const DIR = new URL("../content/maths/", import.meta.url);
 const lessons = Object.fromEntries(readdirSync(DIR).filter((f) => /^\d+\.json$/.test(f))
@@ -41,9 +41,9 @@ const resultsFor = (pattern) => l0.readiness.items.map((it, i) => ({ template: i
 
 test("readiness: score, per-area results and weak foundations", () => {
   const all = scoreReadiness(l0, resultsFor(() => true));
-  assert.deepEqual([all.right, all.asked, all.percent, all.weak], [13, 13, 100, []]);
+  assert.deepEqual([all.right, all.asked, all.percent, all.weak], [15, 15, 100, []]);
   const none = scoreReadiness(l0, resultsFor(() => false));
-  assert.deepEqual(none.weak.sort(), ["operations", "place_value", "tables", "word_problems"]);
+  assert.deepEqual(none.weak.sort(), ["operations", "place_value", "remainders", "tables", "word_problems"]);
   // tables all wrong, everything else right: only tables is weak
   const area = (id) => l0.questions.find((t) => t.id === id).area;
   const tablesWeak = scoreReadiness(l0, resultsFor((it) => area(it.template) !== "tables"));
@@ -59,8 +59,19 @@ test("readiness sets no Form 1 mastery and no coverage", () => {
   const after = applyReadiness(before, scoreReadiness(l0, resultsFor(() => false)), "2026-10-02");
   assert.deepEqual(after.mastery, before.mastery);
   assert.deepEqual(after.coverage, before.coverage);
-  assert.deepEqual(after.readiness.weak.length, 4);
+  assert.deepEqual(after.readiness.weak.length, 5);
   assert.equal(masteryOf(after, "m3"), "unknown");
+});
+
+test("readiness skipped through is not used: 80% or more \"I don't know\" or under 3 seconds (2026-10-24)", () => {
+  const rows = (k, result, seconds) => Array.from({ length: k }, () => ({ result, seconds }));
+  assert.equal(readinessValidity([]).valid, false);
+  assert.equal(readinessValidity(rows(13, "idk", 1)).valid, false);
+  assert.equal(readinessValidity(rows(13, "wrong", 1.2)).valid, false);             // tapped through
+  assert.equal(readinessValidity([...rows(11, "idk", 6), ...rows(2, "wrong", 20)]).valid, false);  // 11 of 13 skipped
+  assert.equal(readinessValidity(rows(13, "wrong", 25)).valid, true);              // tried and got them wrong: real
+  assert.equal(readinessValidity([...rows(10, "idk", 6), ...rows(5, "right", 20)]).valid, true);   // 10 of 15
+  assert.deepEqual(readinessValidity(rows(13, "idk", 1)), { valid: false, skipped: 13, asked: 13 });
 });
 
 test("readiness questions build and verify for many seeds", () => {
@@ -164,4 +175,43 @@ test("I don't know: incorrect, no misconception, shows hint (if any) and worked 
   assert.deepEqual(check(noHint, DONT_KNOW).show, ["worked_example"]);
   const mcq = instantiate(lessons[3].questions.find((t) => t.id === "m3-value-of-digit"), 5, lib, 3);
   assert.equal(check(mcq, DONT_KNOW).misconception, null);
+});
+
+// ---------------------------------------------------------------- stuck guard and step-by-step run (2026-10-24)
+// A pupil spent 33 minutes on Lesson 8 and missed 4 of 5 card questions: the lesson now stops kindly instead.
+const answerAs = (flow, results) => results.reduce((f, [ok, ms]) => {
+  let g = f.phase === "idea" || f.phase === "retry" ? nextPhase(f) : f;
+  g = answerItem(g, { correct: ok }, ms);
+  return g.phase === "reveal" ? nextPhase(g) : g;
+}, flow);
+
+test("stuck guard: two cards missed twice stop the lesson; one is not enough", () => {
+  const l8 = lessons[8];
+  const one = answerAs(startTeach(l8, 1), [[true, 8000], [false, 5000], [false, 45000]]);
+  assert.equal(isStuck(one), false);
+  const two = answerAs(one, [[false, 287000], [false, 183000]]);
+  assert.equal(isStuck(two), true);
+  // the easy question to end on: the level-1 card he got right (card 1)
+  assert.equal(easyStep(l8, two), 0);
+});
+
+test("stuck guard: 15 minutes with fewer than half right stops the lesson; slow but mostly right does not", () => {
+  const l8 = lessons[8];
+  const slowWrong = answerAs(startTeach(l8, 1), [[true, 300000], [false, 300000], [true, 300000], [false, 300000]]);
+  assert.equal(isStuck(slowWrong), false, "half right is not fewer than half");
+  const worse = answerAs(slowWrong, [[false, 60000]]);
+  assert.equal(isStuck(worse), true);
+  const slowRight = answerAs(startTeach(l8, 1), [[true, 400000], [true, 400000], [true, 400000]]);
+  assert.equal(isStuck(slowRight), false);
+});
+
+test("step-by-step run: a lesson that came back asks scaffolded questions from the first try", () => {
+  const l8 = lessons[8];
+  const plain = startTeach(l8, 5), guided = startTeach(l8, 5, { guided: true });
+  const atCard = (f, i) => ({ ...f, step: f.steps.findIndex((s) => s.kind === "card" && s.card === i), phase: "check" });
+  // card 2 (base b to base ten) and card 3 (base ten to base b) have a step-by-step form; card 1 does not
+  assert.equal(itemQuestion(l8, atCard(plain, 1), lib).type, "numeric");
+  assert.equal(itemQuestion(l8, atCard(guided, 1), lib).type, "blanks");
+  assert.equal(itemQuestion(l8, atCard(guided, 2), lib).type, "blanks");
+  assert.equal(itemQuestion(l8, atCard(guided, 0), lib).type, "mcq");
 });

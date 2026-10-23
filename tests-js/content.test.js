@@ -17,7 +17,7 @@ const spine = JSON.parse(readFileSync(new URL("../data/spine/mathematics.json", 
 const spineLessons = spine.terms.flatMap((t) => t.lessons);
 const BATCH = Array.from({ length: 17 }, (_, i) => i);  // Lesson 0 + Lessons 1-16
 const FORM1 = Object.values(lessons).filter((l) => !l.kind);
-const TYPES = new Set(["mcq", "numeric", "spot_error", "ordering"]);
+const TYPES = new Set(["mcq", "numeric", "spot_error", "ordering", "blanks"]);  // blanks: readiness 47 ÷ 5 = ___ remainder ___
 const BAD_TEXT = /NaN|undefined|\[object Object\]|Infinity/;
 
 const words = (t) => t.split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;

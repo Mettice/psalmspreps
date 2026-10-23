@@ -31,7 +31,8 @@ test("prototype: builds under 1.5 MB, no external resources, engine runs", () =>
   const ENGINE = new Function(`${script}; return ENGINE;`)();
   const l0 = JSON.parse(readFileSync(new URL("content/maths/0.json", ROOT), "utf8"));
   const qs = ENGINE.readiness.buildReadiness(l0, 3, ENGINE.libs.maths);
-  assert.equal(qs.length, 13);
+  assert.equal(qs.length, l0.readiness.items.length);
+  assert.ok(qs.length <= l0.readiness.max_questions);
   assert.ok(qs.every((q) => q.verified));
   // English questions build with the inlined English library.
   const e3 = JSON.parse(readFileSync(new URL("content/english/3.json", ROOT), "utf8"));
@@ -113,7 +114,8 @@ test("prototype: motion off under prefers-reduced-motion; 48px tap targets; text
   // (since 2026-10-17 the last line also sends teachers with ?review to the review list)
   // (since 2026-10-17 pupils start on the home screen: streak, stars, one tile per subject)
   assert.match(html, /\nif \(new URLSearchParams\(location\.search\)\.has\("review"\)\) reviewHome\(\); else home\(\);\s*<\/script>/);
-  assert.match(html, /const check = s === "maths" && !state\.readiness;/);
+  // (since 2026-10-24 also when the saved check was skipped through: readinessValidity)
+  assert.match(html, /const check = s === "maths" && \(!state\.readiness \|\| !readiness\.readinessValidity\(state\.readiness\.rows\)\.valid\);/);
   // readiness must stay neutral: no flash, shake or check icon on that path
   const readinessCode = html.slice(html.indexOf("function readinessQ"), html.indexOf("function readinessDone"));
   assert.doesNotMatch(readinessCode, /flash|shake|checkIcon|Correct/);

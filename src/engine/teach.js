@@ -110,9 +110,9 @@ const isItem = (step) => step?.kind === "card" || step?.kind === "practice" || s
  *   "retry"  after a first miss: feedback, and for cards the example again, then a fresh variant
  *   "reveal" after a second miss: the correct answer with full working, then move on
  */
-export function startTeach(lesson, seed) {
+export function startTeach(lesson, seed, { guided = false } = {}) {
   const steps = lessonSteps(lesson);
-  return { lesson: lesson.lesson_no, steps, step: 0, attempt: 0, phase: phaseFor(steps[0]), seed, log: [] };
+  return { lesson: lesson.lesson_no, steps, step: 0, attempt: 0, phase: phaseFor(steps[0]), seed, log: [], ...(guided ? { guided: true } : {}) };
 }
 
 /** Revisit only flagged cards/questions, keeping their explanations and two-try help. */
@@ -142,7 +142,8 @@ const signature = (q) => JSON.stringify([q.prompt, q.options?.map((o) => o.text)
  */
 export function itemQuestion(lesson, flow, lib, previous = null) {
   const base = stepTemplate(lesson, flow.steps[flow.step]);
-  const tpl = flow.attempt === 1 ? scaffoldTemplate(base) : base;
+  // Guided run (the lesson came back after the pupil was stuck, 2026-10-24): step by step from the first try.
+  const tpl = flow.attempt === 1 || flow.guided ? scaffoldTemplate(base) : base;
   return freshVariant(tpl, checkSeed(flow), lib, lesson.lesson_no, previous);
 }
 function freshVariant(tpl, seed, lib, lessonNo, previous) {
@@ -197,6 +198,29 @@ export function answerItem(flow, result, ms) {
 export const answerCard = answerItem;
 
 export const isDone = (flow) => flow.step >= flow.steps.length;
+
+/**
+ * Stuck guard (2026-10-24, after a pupil spent 33 minutes on one lesson and missed most cards): true when two
+ * cards were missed twice, or after 15 minutes of answering with fewer than half right. The lesson then ends kindly
+ * and comes back later, step by step.
+ */
+export const STUCK = { cardsMissedTwice: 2, minutes: 15, rightBelow: 0.5 };
+export function isStuck(flow) {
+  const missedCards = flow.log.filter((e) => e.needsReview && e.kind === "card").length;
+  if (missedCards >= STUCK.cardsMissedTwice) return true;
+  const ms = flow.log.reduce((t, e) => t + (e.ms || 0), 0);
+  const right = flow.log.filter((e) => e.correct).length;
+  return ms >= STUCK.minutes * 60000 && right < STUCK.rightBelow * flow.log.length;
+}
+/**
+ * The easy question to end a stuck lesson on: a level-1 step the pupil got right in this run (the last one), else
+ * the first card. Returns a step index.
+ */
+export function easyStep(lesson, flow) {
+  const level1 = (i) => stepTemplate(lesson, flow.steps[i])?.level === 1;
+  const right = flow.log.filter((e) => e.correct && level1(e.step)).map((e) => e.step);
+  return right.length ? right[right.length - 1] : flow.steps.findIndex((x) => x.kind === "card");
+}
 
 /** Steps the pupil missed twice, for the results and for later review. */
 export const needsReview = (flow) => flow.log.filter((e) => e.needsReview).map((e) => flow.steps[e.step]);
