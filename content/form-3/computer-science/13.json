@@ -1,0 +1,448 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "s3-13",
+   "name": "Computer ports and connectors"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A port is a socket where a device is connected to the computer.\n• USB (Universal Serial Bus): keyboards, mice, flash drives, printers, phones; USB-C is small and reversible and can also charge.\n• HDMI: high-definition video and sound to monitors, TVs and projectors. VGA: older analogue video port.\n• Ethernet (RJ45): wired network/internet cable.\n• Audio jacks (3.5 mm): headphones and microphones.\n• Power port: connects the charger or power cable.\nData transfer speed is measured in bits or bytes per second; transfer time = file size ÷ transfer speed.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ports connect devices",
+    "text": "Look at the side of a laptop or the back of a desktop: the sockets are ports. Each type of port is shaped for a certain kind of plug and job, so devices cannot easily be connected wrongly."
+   },
+   {
+    "heading": "Common ports",
+    "text": "• USB: keyboards, mice, flash drives, printers, phones. USB-C is small, reversible and can carry data, video and power.\n• HDMI: digital video and sound to a monitor, TV or projector. VGA is an older video port still found on some projectors.\n• Ethernet ({'RJ45'}): a network cable to a router or switch.\n• Audio jacks ({3.5} mm): headphones and microphones.\n• Power or charging port."
+   },
+   {
+    "heading": "How fast?",
+    "text": "Ports and cables move data at different speeds, measured in megabytes per second (MB/s) or megabits per second.\nTransfer time = file size ÷ transfer speed. A {600} MB video at {40} MB/s takes {15} s; the same file at {10} MB/s takes {60} s.\nChange units first: {1} GB = {1024} MB."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "port",
+    "meaning": "a socket for connecting a device"
+   },
+   {
+    "word": "USB",
+    "meaning": "Universal Serial Bus, for many devices"
+   },
+   {
+    "word": "HDMI",
+    "meaning": "a port for video and sound"
+   },
+   {
+    "word": "Ethernet",
+    "meaning": "a port for a wired network cable"
+   },
+   {
+    "word": "transfer speed",
+    "meaning": "how much data moves each second"
+   }
+  ],
+  "examples": [
+   "Flash drive: USB",
+   "Projector: HDMI",
+   "Router cable: Ethernet",
+   "{200} MB at {50} MB/s: {4} s"
+  ],
+  "mistake": {
+   "wrong": "Time = file size × speed",
+   "right": "Time = file size ÷ speed",
+   "why": "A faster port must give a shorter time, so divide by the speed."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": 600,
+   "r": 40
+  },
+  "problem": "A {f} MB video is copied to a flash drive through a USB port that transfers {r} MB/s. How long does it take?",
+  "steps": [
+   "Time = size ÷ speed.",
+   "= {f} ÷ {r} = {f / r} s."
+  ],
+  "answer": "{f / r} s",
+  "checks": [
+   "f / r == 15"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s13-1",
+    "status": "draft",
+    "idea": "Each port is designed for certain connections.",
+    "vars": {},
+    "example": [
+     "HDMI to the projector; USB to the flash drive"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-13-which"
+    }
+   },
+   {
+    "id": "c3s13-2",
+    "status": "draft",
+    "idea": "USB connects many devices and can charge them.",
+    "vars": {},
+    "example": [
+     "Phones, printers, keyboards"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-13-usb"
+    }
+   },
+   {
+    "id": "c3s13-3",
+    "status": "draft",
+    "idea": "Transfer time = file size ÷ transfer speed.",
+    "vars": {},
+    "example": [
+     "{100} MB at {20} MB/s: {5} s"
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-13-time-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "hardware"
+     ],
+     "vars": {
+      "r": {
+       "pick": [
+        10,
+        20,
+        25,
+        40,
+        50
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        40
+       ]
+      },
+      "f": {
+       "expr": "r * k"
+      }
+     },
+     "prompt": "A {f} MB file is copied at {r} MB/s. How many seconds does it take?",
+     "answer": "f / r",
+     "misconceptions": [
+      {
+       "id": "mult",
+       "wrong": "f * r",
+       "explain": "Time = size ÷ speed: divide."
+      }
+     ],
+     "solution": [
+      "Time = size ÷ speed = {f} ÷ {r}.",
+      "= {answer} s."
+     ],
+     "unit": "s"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-13-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "To connect a laptop to a projector for a class presentation with sound.",
+       "r": "HDMI",
+       "w": [
+        "Ethernet",
+        "3.5 mm audio jack",
+        "power port"
+       ],
+       "e": [
+        "Ethernet is for networking.",
+        "The audio jack carries sound only.",
+        "The power port is for charging."
+       ],
+       "y": "HDMI carries video and sound."
+      },
+      {
+       "q": "To plug in a network cable from the school router.",
+       "r": "Ethernet (RJ45)",
+       "w": [
+        "HDMI",
+        "USB",
+        "VGA"
+       ],
+       "e": [
+        "HDMI is for video.",
+        "USB is for devices.",
+        "VGA is old video."
+       ],
+       "y": "Wired networking uses Ethernet."
+      },
+      {
+       "q": "To connect a flash drive.",
+       "r": "USB",
+       "w": [
+        "HDMI",
+        "Ethernet",
+        "audio jack"
+       ],
+       "e": [
+        "HDMI is for displays.",
+        "Ethernet is for networks.",
+        "The audio jack is for sound."
+       ],
+       "y": "Flash drives use USB."
+      }
+     ]
+    }
+   },
+   "prompt": "Which port would you use? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-13-usb",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does USB stand for?",
+       "r": "Universal Serial Bus",
+       "w": [
+        "Universal System Battery",
+        "United Storage Board",
+        "Ultra Speed Byte"
+       ],
+       "e": [
+        "Not a battery.",
+        "Not a board.",
+        "Not a unit."
+       ],
+       "y": "A universal way to connect many devices."
+      },
+      {
+       "q": "Which is an advantage of USB-C?",
+       "r": "It is reversible and can carry data, video and power",
+       "w": [
+        "It only works with mice",
+        "It is the oldest kind of port",
+        "It cannot charge devices"
+       ],
+       "e": [
+        "It works with many devices.",
+        "It is newer.",
+        "It can charge."
+       ],
+       "y": "One small connector for many uses."
+      },
+      {
+       "q": "Which device usually connects through a 3.5 mm jack?",
+       "r": "headphones",
+       "w": [
+        "a printer",
+        "a projector",
+        "a network cable"
+       ],
+       "e": [
+        "Printers use USB or Wi-Fi.",
+        "Projectors use HDMI or VGA.",
+        "Network cables use Ethernet."
+       ],
+       "y": "The jack carries audio."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-13-time",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      10,
+      20,
+      25,
+      40,
+      50
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      40
+     ]
+    },
+    "f": {
+     "expr": "r * k"
+    }
+   },
+   "prompt": "A {f} MB file is copied at {r} MB/s. How many seconds does it take?",
+   "answer": "f / r",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "f * r",
+     "explain": "Time = size ÷ speed: divide."
+    }
+   ],
+   "solution": [
+    "Time = size ÷ speed = {f} ÷ {r}.",
+    "= {answer} s."
+   ],
+   "unit": "s"
+  },
+  {
+   "id": "s3-13-gb",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "g": {
+     "pick": [
+      1,
+      2,
+      4
+     ]
+    },
+    "r": {
+     "pick": [
+      16,
+      32,
+      64,
+      128
+     ]
+    }
+   },
+   "prompt": "A {g} GB film is copied through a USB port at {r} MB/s. How many seconds does it take? (Use {1} GB = {1024} MB.)",
+   "answer": "g * 1024 / r",
+   "misconceptions": [
+    {
+     "id": "nounit",
+     "wrong": "g / r",
+     "explain": "Change GB to MB first."
+    },
+    {
+     "id": "thousand",
+     "wrong": "g * 1000 / r",
+     "explain": "{1} GB = {1024} MB."
+    }
+   ],
+   "solution": [
+    "{g} GB = {g * 1024} MB.",
+    "Time = {g * 1024} ÷ {r} = {answer} s."
+   ],
+   "unit": "s"
+  }
+ ]
+}

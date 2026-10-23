@@ -1,0 +1,595 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "s3-12",
+   "name": "Other internal components: motherboard, power supply, cards, cooling"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Inside the system unit:\n• Motherboard: the main circuit board; it connects the CPU, RAM, storage and expansion cards through buses (pathways for data).\n• Power supply unit (PSU): converts mains AC electricity into the low DC voltages the parts need.\n• Expansion cards: graphics card (GPU, for images and video), sound card, network interface card (NIC, for wired or wireless networking).\n• Cooling: heat sinks and fans (or liquid cooling) carry heat away from the CPU and GPU.\n• CMOS battery: keeps the clock and BIOS settings when the computer is off.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The motherboard and buses",
+    "text": "Open a desktop computer's case and the biggest circuit board is the motherboard. The CPU, RAM, storage connectors and expansion slots are all on it.\nBuses are sets of tiny copper pathways carrying data, addresses and control signals between these parts. A small CMOS battery keeps the clock and start-up settings."
+   },
+   {
+    "heading": "Power and cards",
+    "text": "The power supply unit (PSU) takes mains electricity (about {220} V AC in Cameroon) and turns it into the low, steady DC voltages the parts need. A surge protector or UPS protects it from power cuts and spikes.\nExpansion cards add abilities:\n• graphics card (GPU): images, video and games;\n• sound card: audio;\n• network interface card (NIC): wired or Wi-Fi connections."
+   },
+   {
+    "heading": "Keeping cool",
+    "text": "The CPU and GPU produce a lot of heat. Heat sinks (metal fins) and fans carry it away; some computers use liquid cooling.\nIf the fans are blocked by dust, the computer overheats, slows down, freezes or shuts off. Keep vents clear and clean dust regularly."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "motherboard",
+    "meaning": "the main circuit board connecting all components"
+   },
+   {
+    "word": "bus",
+    "meaning": "a set of pathways carrying data between components"
+   },
+   {
+    "word": "power supply unit",
+    "meaning": "converts mains AC to low-voltage DC"
+   },
+   {
+    "word": "expansion card",
+    "meaning": "a board added to give extra abilities"
+   },
+   {
+    "word": "heat sink",
+    "meaning": "metal fins that carry heat away"
+   }
+  ],
+  "examples": [
+   "GPU: games and video",
+   "NIC: Wi-Fi",
+   "PSU: power",
+   "CMOS battery: clock"
+  ],
+  "mistake": {
+   "wrong": "The power supply stores files when the computer is off",
+   "right": "The power supply only provides electricity; files are on storage devices",
+   "why": "Each component has its own job."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A computer's fan stops working. What problem may follow, and why?",
+  "steps": [
+   "The CPU produces heat when it works.",
+   "Without the fan, heat is not carried away, so the CPU gets too hot.",
+   "It may slow down to protect itself, freeze, or be damaged."
+  ],
+  "answer": "Overheating: slowing down, crashing or damage",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s12-1",
+    "status": "draft",
+    "idea": "The motherboard connects all the parts.",
+    "vars": {},
+    "example": [
+     "CPU, RAM and cards plug into it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-12-part"
+    }
+   },
+   {
+    "id": "c3s12-2",
+    "status": "draft",
+    "idea": "The power supply changes mains AC into low-voltage DC.",
+    "vars": {},
+    "example": [
+     "Mains is about {220} V; parts use {12} V or less."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-12-psu"
+    }
+   },
+   {
+    "id": "c3s12-3",
+    "status": "draft",
+    "idea": "Fans and heat sinks stop the processor overheating.",
+    "vars": {},
+    "example": [
+     "Dust in the fans makes a computer hot and slow."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-12-cool-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hardware"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does a CPU have a heat sink and fan?",
+         "r": "To carry away heat so the CPU does not overheat",
+         "w": [
+          "To make the computer louder",
+          "To store data",
+          "To charge the battery"
+         ],
+         "e": [
+          "Noise is a side effect.",
+          "They do not store data.",
+          "They do not charge anything."
+         ],
+         "y": "Overheating slows or damages the CPU."
+        },
+        {
+         "q": "A computer in a dusty room often shuts down suddenly. A likely cause is…",
+         "r": "dust blocking the fans, causing overheating",
+         "w": [
+          "too much RAM",
+          "a new keyboard",
+          "a clean screen"
+         ],
+         "e": [
+          "More RAM does not cause shutdowns.",
+          "Keyboards do not cause this.",
+          "A clean screen is not a cause."
+         ],
+         "y": "Clean the fans and vents regularly."
+        },
+        {
+         "q": "Which part would a video editor most likely upgrade for smoother video?",
+         "r": "the graphics card",
+         "w": [
+          "the CMOS battery",
+          "the case colour",
+          "the power cable length"
+         ],
+         "e": [
+          "The CMOS battery keeps the clock.",
+          "Colour does not affect performance.",
+          "Cable length is irrelevant."
+         ],
+         "y": "The GPU processes images and video."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-12-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "It is the main circuit board that connects all the other parts.",
+       "r": "motherboard",
+       "w": [
+        "power supply unit",
+        "graphics card",
+        "hard disk"
+       ],
+       "e": [
+        "The PSU provides power.",
+        "The graphics card makes images.",
+        "The hard disk stores data."
+       ],
+       "y": "Everything plugs into the motherboard."
+      },
+      {
+       "q": "It processes images and video for the screen.",
+       "r": "graphics card (GPU)",
+       "w": [
+        "sound card",
+        "network card",
+        "CMOS battery"
+       ],
+       "e": [
+        "The sound card handles audio.",
+        "The network card handles connections.",
+        "The CMOS battery keeps settings."
+       ],
+       "y": "Gamers and video editors need a good GPU."
+      },
+      {
+       "q": "It lets the computer connect to a network.",
+       "r": "network interface card (NIC)",
+       "w": [
+        "graphics card",
+        "power supply unit",
+        "heat sink"
+       ],
+       "e": [
+        "The GPU handles graphics.",
+        "The PSU provides power.",
+        "The heat sink cools the CPU."
+       ],
+       "y": "Wired (Ethernet) or wireless (Wi-Fi) connections."
+      }
+     ]
+    }
+   },
+   "prompt": "Which component does this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-12-psu",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the power supply unit do?",
+       "r": "Changes mains AC electricity into low-voltage DC for the components",
+       "w": [
+        "Stores files",
+        "Makes images",
+        "Cools the processor"
+       ],
+       "e": [
+        "Storage devices store files.",
+        "The graphics card makes images.",
+        "Fans and heat sinks cool."
+       ],
+       "y": "Components need steady low-voltage DC."
+      },
+      {
+       "q": "Why does a desktop computer keep the right time after being switched off?",
+       "r": "A small CMOS battery on the motherboard powers the clock",
+       "w": [
+        "The hard disk counts the time",
+        "The mouse remembers it",
+        "The monitor stores it"
+       ],
+       "e": [
+        "The disk stores files, not a running clock.",
+        "The mouse is an input device.",
+        "The monitor is an output device."
+       ],
+       "y": "The coin battery keeps the clock and settings."
+      },
+      {
+       "q": "What is a bus on the motherboard?",
+       "r": "a set of pathways that carry data between components",
+       "w": [
+        "a vehicle for computers",
+        "a type of virus",
+        "a cooling fan"
+       ],
+       "e": [
+        "It is not a vehicle.",
+        "Not malware.",
+        "Not a fan."
+       ],
+       "y": "Data travels along buses between CPU, RAM and devices."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-12-cool",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does a CPU have a heat sink and fan?",
+       "r": "To carry away heat so the CPU does not overheat",
+       "w": [
+        "To make the computer louder",
+        "To store data",
+        "To charge the battery"
+       ],
+       "e": [
+        "Noise is a side effect.",
+        "They do not store data.",
+        "They do not charge anything."
+       ],
+       "y": "Overheating slows or damages the CPU."
+      },
+      {
+       "q": "A computer in a dusty room often shuts down suddenly. A likely cause is…",
+       "r": "dust blocking the fans, causing overheating",
+       "w": [
+        "too much RAM",
+        "a new keyboard",
+        "a clean screen"
+       ],
+       "e": [
+        "More RAM does not cause shutdowns.",
+        "Keyboards do not cause this.",
+        "A clean screen is not a cause."
+       ],
+       "y": "Clean the fans and vents regularly."
+      },
+      {
+       "q": "Which part would a video editor most likely upgrade for smoother video?",
+       "r": "the graphics card",
+       "w": [
+        "the CMOS battery",
+        "the case colour",
+        "the power cable length"
+       ],
+       "e": [
+        "The CMOS battery keeps the clock.",
+        "Colour does not affect performance.",
+        "Cable length is irrelevant."
+       ],
+       "y": "The GPU processes images and video."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-12-fault",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The computer shows no lights and no fans spin when switched on, although the socket works.",
+       "r": "the power supply unit",
+       "w": [
+        "the graphics card",
+        "the hard disk",
+        "the keyboard"
+       ],
+       "e": [
+        "A faulty GPU would still let fans spin.",
+        "Fans would still spin.",
+        "A keyboard fault does not stop power."
+       ],
+       "y": "No power to any part points to the PSU."
+      },
+      {
+       "q": "The date and time reset to the year 2000 every time the computer is turned on.",
+       "r": "the CMOS battery",
+       "w": [
+        "the CPU",
+        "the monitor",
+        "the mouse"
+       ],
+       "e": [
+        "A CPU fault would stop the computer.",
+        "The monitor only displays.",
+        "The mouse is an input device."
+       ],
+       "y": "A flat CMOS battery loses the clock settings."
+      },
+      {
+       "q": "The computer works, but there is no Wi-Fi or network connection on any website.",
+       "r": "the network interface card (or its driver)",
+       "w": [
+        "the RAM",
+        "the power supply",
+        "the fan"
+       ],
+       "e": [
+        "RAM faults cause crashes, not just no network.",
+        "The computer has power.",
+        "The fan does not affect networking."
+       ],
+       "y": "Networking depends on the NIC."
+      }
+     ]
+    }
+   },
+   "prompt": "Which component is most likely faulty? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

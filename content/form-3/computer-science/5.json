@@ -1,0 +1,526 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "s3-5",
+   "name": "Robots and their applications"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A robot is a programmable machine that can sense its surroundings and carry out actions automatically.\nMain parts: sensors (detect light, distance, touch, sound…), a controller/processor running a program, actuators (motors, grippers, wheels) and a power supply.\nApplications: manufacturing (welding, painting cars), medicine (surgical robots), homes (robot vacuum cleaners), agriculture (harvesting, spraying drones), exploration (Mars rovers, deep-sea robots), dangerous work (bomb disposal), warehouses and deliveries.\nAdvantages: work non-stop, accurate, do dangerous or boring work. Disadvantages: expensive, need maintenance and power, may replace some jobs, cannot handle every unexpected situation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "What makes a robot",
+    "text": "A robot is a machine that can be programmed to sense what is around it and act on its own.\n• Sensors detect the surroundings: light, distance, touch, sound, temperature, cameras.\n• A controller (processor) runs a program that decides what to do.\n• Actuators carry out actions: motors, wheels, arms, grippers.\n• A power supply (battery or mains) runs it all.\nSense → decide → act, again and again."
+   },
+   {
+    "heading": "Where robots work",
+    "text": "• Industry: welding, painting and assembling cars, packing goods.\n• Medicine: surgical robots, robots that carry medicines in hospitals.\n• Homes: robot vacuum cleaners and lawn mowers.\n• Agriculture: drones that spray crops, harvesting robots.\n• Exploration and danger: Mars rovers, deep-sea robots, bomb-disposal robots, robots inside damaged nuclear plants."
+   },
+   {
+    "heading": "For and against",
+    "text": "Advantages: they work without rest, very accurately, and can do dangerous, dirty or boring jobs.\nDisadvantages: they are expensive to buy, run and repair; they need power; they may replace some workers; and they can fail in situations their program did not expect."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "robot",
+    "meaning": "a programmable machine that senses and acts automatically"
+   },
+   {
+    "word": "sensor",
+    "meaning": "a device that detects something in the surroundings"
+   },
+   {
+    "word": "actuator",
+    "meaning": "a part that produces movement"
+   },
+   {
+    "word": "controller",
+    "meaning": "the processor running the robot's program"
+   }
+  ],
+  "examples": [
+   "Car-factory welding robot",
+   "Robot vacuum cleaner",
+   "Mars rover",
+   "Crop-spraying drone"
+  ],
+  "mistake": {
+   "wrong": "A robot must look like a human",
+   "right": "Most robots do not look human; they are built for their job",
+   "why": "What makes a robot is sensing, deciding and acting, not its shape."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain how a robot vacuum cleaner avoids a chair.",
+  "steps": [
+   "Its sensors (bump or distance sensors) detect the chair in front.",
+   "The processor runs its program and decides to turn.",
+   "The actuators (wheel motors) turn it away and it carries on cleaning."
+  ],
+  "answer": "Sensor detects, processor decides, actuators act",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s5-1",
+    "status": "draft",
+    "idea": "A robot senses, decides with a program and acts.",
+    "vars": {},
+    "example": [
+     "Sensor → processor → actuator"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-5-part"
+    }
+   },
+   {
+    "id": "c3s5-2",
+    "status": "draft",
+    "idea": "Robots are used in factories, hospitals, farms and exploration.",
+    "vars": {},
+    "example": [
+     "A Mars rover explores another planet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-5-use"
+    }
+   },
+   {
+    "id": "c3s5-3",
+    "status": "draft",
+    "idea": "Robots do dangerous, repetitive or precise work.",
+    "vars": {},
+    "example": [
+     "Bomb-disposal robots keep people safe."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-5-adv-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computing-society"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is an advantage of robots in factories?",
+         "r": "They can work continuously with high accuracy",
+         "w": [
+          "They never need repairs",
+          "They cost nothing",
+          "They can do every job better than people"
+         ],
+         "e": [
+          "They need maintenance.",
+          "They are expensive.",
+          "They cannot handle every task."
+         ],
+         "y": "Consistent, non-stop work."
+        },
+        {
+         "q": "Which is a disadvantage of using robots?",
+         "r": "They are expensive and may replace some workers",
+         "w": [
+          "They are always too slow",
+          "They cannot be programmed",
+          "They never make products"
+         ],
+         "e": [
+          "Many are fast.",
+          "They are programmable by definition.",
+          "They make many products."
+         ],
+         "y": "Costs and job changes are real concerns."
+        },
+        {
+         "q": "Why are robots used for bomb disposal?",
+         "r": "They keep people away from danger",
+         "w": [
+          "They enjoy it",
+          "Bombs cannot hurt robots",
+          "They are cheaper than a broom"
+         ],
+         "e": [
+          "Robots have no feelings.",
+          "A bomb can destroy a robot, but no life is lost.",
+          "That is not the reason."
+         ],
+         "y": "Dangerous work is a key use of robots."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-5-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part of a robot detects its surroundings?",
+       "r": "sensors",
+       "w": [
+        "actuators",
+        "the battery",
+        "the body frame"
+       ],
+       "e": [
+        "Actuators produce movement.",
+        "The battery gives power.",
+        "The frame holds the parts."
+       ],
+       "y": "Sensors detect light, distance, touch and more."
+      },
+      {
+       "q": "Which part of a robot makes it move?",
+       "r": "actuators such as motors",
+       "w": [
+        "sensors",
+        "the program only",
+        "the camera"
+       ],
+       "e": [
+        "Sensors detect.",
+        "The program decides but cannot move anything itself.",
+        "A camera is a sensor."
+       ],
+       "y": "Motors, grippers and wheels are actuators."
+      },
+      {
+       "q": "What is the role of the robot's program?",
+       "r": "To decide what to do from the sensor information",
+       "w": [
+        "To provide electricity",
+        "To detect light",
+        "To grip objects"
+       ],
+       "e": [
+        "The power supply does that.",
+        "Sensors do that.",
+        "Grippers do that."
+       ],
+       "y": "The controller runs the program."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-5-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "It welds car bodies on a factory line, day and night.",
+       "r": "an industrial robot",
+       "w": [
+        "a medical robot",
+        "a domestic robot",
+        "an exploration robot"
+       ],
+       "e": [
+        "It is not in a hospital.",
+        "It is not in a home.",
+        "It is not exploring."
+       ],
+       "y": "Factory robots do repetitive, precise work."
+      },
+      {
+       "q": "It helps a surgeon make very small, precise cuts.",
+       "r": "a medical robot",
+       "w": [
+        "an industrial robot",
+        "a domestic robot",
+        "a toy robot"
+       ],
+       "e": [
+        "It is not in a factory.",
+        "It is not a home helper.",
+        "It is a serious medical tool."
+       ],
+       "y": "Surgical robots improve precision."
+      },
+      {
+       "q": "It drives over the surface of Mars, taking photos and samples.",
+       "r": "an exploration robot (rover)",
+       "w": [
+        "a domestic robot",
+        "a medical robot",
+        "an industrial robot"
+       ],
+       "e": [
+        "It is far from any home.",
+        "It is not medical.",
+        "It is not in a factory."
+       ],
+       "y": "Rovers explore places people cannot easily reach."
+      }
+     ]
+    }
+   },
+   "prompt": "Which kind of robot is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-5-adv",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of robots in factories?",
+       "r": "They can work continuously with high accuracy",
+       "w": [
+        "They never need repairs",
+        "They cost nothing",
+        "They can do every job better than people"
+       ],
+       "e": [
+        "They need maintenance.",
+        "They are expensive.",
+        "They cannot handle every task."
+       ],
+       "y": "Consistent, non-stop work."
+      },
+      {
+       "q": "Which is a disadvantage of using robots?",
+       "r": "They are expensive and may replace some workers",
+       "w": [
+        "They are always too slow",
+        "They cannot be programmed",
+        "They never make products"
+       ],
+       "e": [
+        "Many are fast.",
+        "They are programmable by definition.",
+        "They make many products."
+       ],
+       "y": "Costs and job changes are real concerns."
+      },
+      {
+       "q": "Why are robots used for bomb disposal?",
+       "r": "They keep people away from danger",
+       "w": [
+        "They enjoy it",
+        "Bombs cannot hurt robots",
+        "They are cheaper than a broom"
+       ],
+       "e": [
+        "Robots have no feelings.",
+        "A bomb can destroy a robot, but no life is lost.",
+        "That is not the reason."
+       ],
+       "y": "Dangerous work is a key use of robots."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-5-loop",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "prompt": "Put the steps of a delivery robot avoiding an obstacle in order.",
+   "items": [
+    {
+     "text": "The distance sensor detects an object ahead."
+    },
+    {
+     "text": "The processor compares the distance with a set limit."
+    },
+    {
+     "text": "The program decides to turn."
+    },
+    {
+     "text": "The motors turn the wheels."
+    },
+    {
+     "text": "The robot continues towards its destination."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Sense, process, decide, act."
+  }
+ ]
+}

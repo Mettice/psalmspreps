@@ -1,0 +1,472 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "s3-9",
+   "name": "The fetch-decode-execute cycle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The CPU repeats the fetch-decode-execute cycle billions of times a second:\n• Fetch: the control unit gets the next instruction from main memory (RAM), using the address in the program counter (PC); the PC then increases to point to the next instruction.\n• Decode: the control unit works out what the instruction means.\n• Execute: the instruction is carried out, e.g. the ALU adds two numbers and the result goes into the accumulator, or data is stored in memory.\nThen the cycle starts again with the next instruction. Programs and data are both kept in memory (the stored-program idea).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "One instruction at a time",
+    "text": "A program is a list of instructions stored in main memory (RAM). The CPU carries them out one after another in a repeating cycle: fetch, decode, execute.\nAt {3} GHz, a core can repeat this cycle billions of times every second."
+   },
+   {
+    "heading": "The three stages",
+    "text": "• Fetch: the control unit looks at the program counter (PC), which holds the address of the next instruction, and copies that instruction from RAM into the CPU. The PC then increases by one.\n• Decode: the control unit works out what the instruction means and what is needed.\n• Execute: the instruction is carried out: the ALU may add or compare numbers and put the result in the accumulator, or data may be moved to or from memory."
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Everything a computer does, from showing a letter on the screen to playing a video, is built from millions of these simple cycles.\nBecause programs and data are both stored in memory, the computer can switch from one program to another just by loading different instructions: this is the stored-program idea."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fetch",
+    "meaning": "copy the next instruction from memory into the CPU"
+   },
+   {
+    "word": "decode",
+    "meaning": "work out what the instruction means"
+   },
+   {
+    "word": "execute",
+    "meaning": "carry out the instruction"
+   },
+   {
+    "word": "program counter",
+    "meaning": "register holding the address of the next instruction"
+   },
+   {
+    "word": "accumulator",
+    "meaning": "register that holds results from the ALU"
+   }
+  ],
+  "examples": [
+   "ADD: executed in the ALU",
+   "PC: {100} → {101} after a fetch",
+   "Cycle repeated billions of times a second"
+  ],
+  "mistake": {
+   "wrong": "The CPU decodes before fetching",
+   "right": "The order is fetch, decode, execute",
+   "why": "The CPU must first get the instruction before it can understand it."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Describe what happens in one cycle when the instruction 'ADD {5}' is processed.",
+  "steps": [
+   "Fetch: the CU reads the instruction 'ADD {5}' from the RAM address held in the program counter; the PC moves on by one.",
+   "Decode: the CU recognises an addition instruction.",
+   "Execute: the ALU adds {5} to the value in the accumulator and stores the result there."
+  ],
+  "answer": "Fetch, decode, execute (ALU adds and stores the result)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s9-1",
+    "status": "draft",
+    "idea": "Fetch → decode → execute, repeated.",
+    "vars": {},
+    "example": [
+     "Billions of cycles every second"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-9-order"
+    }
+   },
+   {
+    "id": "c3s9-2",
+    "status": "draft",
+    "idea": "The program counter holds the address of the next instruction.",
+    "vars": {},
+    "example": [
+     "After a fetch it increases by {1}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-9-pc"
+    }
+   },
+   {
+    "id": "c3s9-3",
+    "status": "draft",
+    "idea": "The ALU executes calculations; the result goes to the accumulator.",
+    "vars": {},
+    "example": [
+     "ADD, SUBTRACT, COMPARE"
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-9-stage-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hardware"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The ALU adds two numbers.",
+         "r": "execute",
+         "w": [
+          "fetch",
+          "decode",
+          "store the program on disk"
+         ],
+         "e": [
+          "Fetching only collects the instruction.",
+          "Decoding works out what to do.",
+          "That is not part of the cycle."
+         ],
+         "y": "Carrying out the instruction is execution."
+        },
+        {
+         "q": "The control unit works out what the instruction means.",
+         "r": "decode",
+         "w": [
+          "fetch",
+          "execute",
+          "input"
+         ],
+         "e": [
+          "Fetch collects it.",
+          "Execute carries it out.",
+          "Input is from devices."
+         ],
+         "y": "Decoding interprets the instruction."
+        },
+        {
+         "q": "The instruction is copied from RAM into the CPU.",
+         "r": "fetch",
+         "w": [
+          "decode",
+          "execute",
+          "output"
+         ],
+         "e": [
+          "Decoding comes after.",
+          "Execution comes last.",
+          "Output goes to devices."
+         ],
+         "y": "Fetching brings the instruction into the CPU."
+        }
+       ]
+      }
+     },
+     "prompt": "In which stage of the cycle does this happen? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-9-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "prompt": "Put the stages of the processor cycle in order.",
+   "items": [
+    {
+     "text": "Fetch the instruction from memory."
+    },
+    {
+     "text": "Decode the instruction."
+    },
+    {
+     "text": "Execute the instruction."
+    },
+    {
+     "text": "Fetch the next instruction."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Get it, understand it, do it."
+  },
+  {
+   "id": "s3-9-pc",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the program counter (PC) hold?",
+       "r": "the memory address of the next instruction",
+       "w": [
+        "the result of a calculation",
+        "the number of programs installed",
+        "the clock speed"
+       ],
+       "e": [
+        "That is the accumulator.",
+        "That is not a register's job.",
+        "That is a property of the clock."
+       ],
+       "y": "The PC points to where the next instruction is."
+      },
+      {
+       "q": "What happens to the program counter after an instruction is fetched?",
+       "r": "It increases to point to the next instruction",
+       "w": [
+        "It is set to zero",
+        "It is deleted",
+        "It stores the answer"
+       ],
+       "e": [
+        "Only at the start of a program.",
+        "Registers are not deleted.",
+        "The accumulator stores answers."
+       ],
+       "y": "It moves on so the next fetch gets the next instruction."
+      },
+      {
+       "q": "Where are instructions fetched from?",
+       "r": "main memory (RAM)",
+       "w": [
+        "the keyboard",
+        "the printer",
+        "the monitor"
+       ],
+       "e": [
+        "The keyboard is an input device.",
+        "The printer is an output device.",
+        "The monitor is an output device."
+       ],
+       "y": "Programs are loaded into RAM to run."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-9-stage",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The ALU adds two numbers.",
+       "r": "execute",
+       "w": [
+        "fetch",
+        "decode",
+        "store the program on disk"
+       ],
+       "e": [
+        "Fetching only collects the instruction.",
+        "Decoding works out what to do.",
+        "That is not part of the cycle."
+       ],
+       "y": "Carrying out the instruction is execution."
+      },
+      {
+       "q": "The control unit works out what the instruction means.",
+       "r": "decode",
+       "w": [
+        "fetch",
+        "execute",
+        "input"
+       ],
+       "e": [
+        "Fetch collects it.",
+        "Execute carries it out.",
+        "Input is from devices."
+       ],
+       "y": "Decoding interprets the instruction."
+      },
+      {
+       "q": "The instruction is copied from RAM into the CPU.",
+       "r": "fetch",
+       "w": [
+        "decode",
+        "execute",
+        "output"
+       ],
+       "e": [
+        "Decoding comes after.",
+        "Execution comes last.",
+        "Output goes to devices."
+       ],
+       "y": "Fetching brings the instruction into the CPU."
+      }
+     ]
+    }
+   },
+   "prompt": "In which stage of the cycle does this happen? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-9-count",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "g": {
+     "expr": "k"
+    },
+    "t": {
+     "int": [
+      1,
+      10
+     ]
+    }
+   },
+   "prompt": "A simple processor completes one fetch-decode-execute cycle every clock cycle. At {g} GHz, how many million instructions can it complete in {t} milliseconds?",
+   "answer": "g * t",
+   "misconceptions": [
+    {
+     "id": "sec",
+     "wrong": "g * 1000",
+     "explain": "That is for a whole second. Multiply by {t} ÷ {1000}."
+    }
+   ],
+   "solution": [
+    "{g} GHz = {g * 1000} million cycles per second.",
+    "{t} ms = {t} ÷ {1000} s.",
+    "Instructions = {g * 1000} × {t / 1000} = {answer} million."
+   ]
+  }
+ ]
+}

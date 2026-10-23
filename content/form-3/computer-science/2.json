@@ -1,0 +1,590 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "s3-2",
+   "name": "Applications of Artificial Intelligence in society"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "AI is used in many areas:\n• Health: reading X-rays and scans, predicting disease outbreaks, chatbots giving health information.\n• Agriculture: apps that identify crop diseases from a photo (e.g. cassava or cocoa leaves), weather prediction, drones monitoring fields.\n• Education: tutoring apps that adapt to the learner, automatic translation.\n• Business and banking: fraud detection in mobile money, customer-service chatbots, recommendations.\n• Transport and security: navigation apps, traffic control, face recognition, self-driving vehicles.\n• Daily life: voice assistants, spam filters, smartphone cameras.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "AI around us",
+    "text": "AI is already in many everyday tools: voice typing, phone cameras that sharpen photos, video and music recommendations, spam filters and translation apps.\nIt works best where there is a lot of data and a clear task."
+   },
+   {
+    "heading": "AI in Cameroon's key sectors",
+    "text": "• Health: programs that read X-rays and scans, help diagnose tuberculosis or malaria, and predict outbreaks.\n• Agriculture: phone apps that identify diseases of cassava, maize or cocoa from a photo; weather forecasting; drones watching large farms.\n• Education: tutoring apps that adapt to each learner; automatic translation between English and French.\n• Business and banking: fraud detection in mobile money; chatbots answering customers."
+   },
+   {
+    "heading": "Transport, security and choices",
+    "text": "Navigation apps predict traffic; some cities use AI to control traffic lights; face recognition is used for security; self-driving vehicles are being tested.\nAI suits tasks with clear patterns. For decisions that need human values, such as justice, people must stay in charge."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "application",
+    "meaning": "a practical use"
+   },
+   {
+    "word": "chatbot",
+    "meaning": "a program that holds a conversation in text or speech"
+   },
+   {
+    "word": "fraud detection",
+    "meaning": "spotting dishonest transactions"
+   },
+   {
+    "word": "image recognition",
+    "meaning": "identifying what is in a picture"
+   }
+  ],
+  "examples": [
+   "Cassava disease app",
+   "Mobile-money fraud alert",
+   "English-French translation app"
+  ],
+  "mistake": {
+   "wrong": "AI can replace doctors completely",
+   "right": "AI helps doctors, who still make the decisions",
+   "why": "AI can be wrong; professionals check its results and care for patients."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A farmer near Bafoussam photographs a spotted cassava leaf with a phone app, which names the disease. Explain how AI helps here.",
+  "steps": [
+   "The app was trained on thousands of labelled photos of healthy and diseased leaves.",
+   "It compares the new photo with the patterns it learned.",
+   "It gives a likely diagnosis quickly, without an expert on the farm."
+  ],
+  "answer": "Image recognition trained on labelled leaf photos",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s2-1",
+    "status": "draft",
+    "idea": "AI helps health workers read scans and spot diseases.",
+    "vars": {},
+    "example": [
+     "Detecting tuberculosis on chest X-rays"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-2-area"
+    }
+   },
+   {
+    "id": "c3s2-2",
+    "status": "draft",
+    "idea": "Farmers use AI apps to identify crop diseases from photos.",
+    "vars": {},
+    "example": [
+     "Cassava mosaic disease"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-2-farm"
+    }
+   },
+   {
+    "id": "c3s2-3",
+    "status": "draft",
+    "idea": "Banks use AI to detect fraud.",
+    "vars": {},
+    "example": [
+     "An unusual mobile-money transfer is flagged."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-2-bank-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computing-society"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How does AI help detect fraud in mobile money?",
+         "r": "It learns normal spending patterns and flags unusual transactions",
+         "w": [
+          "It reads customers' minds",
+          "It stops all transfers",
+          "It prints receipts"
+         ],
+         "e": [
+          "AI uses data, not mind-reading.",
+          "Most transfers are normal.",
+          "Receipts are not fraud detection."
+         ],
+         "y": "Unusual patterns may be fraud."
+        },
+        {
+         "q": "A company's website answers customers' questions automatically at night. This is…",
+         "r": "an AI chatbot",
+         "w": [
+          "a printer",
+          "an antivirus",
+          "a spreadsheet"
+         ],
+         "e": [
+          "A printer outputs paper.",
+          "Antivirus protects against malware.",
+          "A spreadsheet calculates."
+         ],
+         "y": "Chatbots use AI to understand and reply to text."
+        },
+        {
+         "q": "A navigation app suggests a faster route around traffic in Yaoundé. Which AI ability is used?",
+         "r": "predicting traffic from live data",
+         "w": [
+          "recognising faces",
+          "translating languages",
+          "detecting crop disease"
+         ],
+         "e": [
+          "Faces are not involved.",
+          "No translation is needed.",
+          "No crops are involved."
+         ],
+         "y": "It learns traffic patterns from many phones."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-2-area",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A program highlights signs of tuberculosis on chest X-rays.",
+       "r": "health",
+       "w": [
+        "agriculture",
+        "banking",
+        "entertainment"
+       ],
+       "e": [
+        "Crops are not involved.",
+        "No money is involved.",
+        "It is a medical use."
+       ],
+       "y": "AI supports doctors in diagnosis."
+      },
+      {
+       "q": "An app names the disease on a photographed cocoa pod.",
+       "r": "agriculture",
+       "w": [
+        "health",
+        "transport",
+        "banking"
+       ],
+       "e": [
+        "It is about a crop, not a person.",
+        "Nothing is being moved.",
+        "No money is involved."
+       ],
+       "y": "AI helps farmers protect crops."
+      },
+      {
+       "q": "A mobile-money company blocks a strange transfer at 3 a.m.",
+       "r": "banking (fraud detection)",
+       "w": [
+        "education",
+        "health",
+        "agriculture"
+       ],
+       "e": [
+        "Nothing is being taught.",
+        "No medical use.",
+        "No crops involved."
+       ],
+       "y": "AI spots unusual patterns in transactions."
+      }
+     ]
+    }
+   },
+   "prompt": "In which area is AI being used here? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-2-farm",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which AI application helps a farmer most directly?",
+       "r": "an app that identifies crop pests and diseases from photos",
+       "w": [
+        "a music recommendation app",
+        "a video game",
+        "a face filter for selfies"
+       ],
+       "e": [
+        "Music does not help crops.",
+        "Games are entertainment.",
+        "Face filters are entertainment."
+       ],
+       "y": "Early diagnosis saves harvests."
+      },
+      {
+       "q": "How can AI help farmers plan planting?",
+       "r": "By predicting the weather from large amounts of data",
+       "w": [
+        "By planting the seeds itself always",
+        "By changing the rain",
+        "By making soil"
+       ],
+       "e": [
+        "Some robots plant, but planning uses prediction.",
+        "AI cannot control rain.",
+        "AI cannot make soil."
+       ],
+       "y": "Forecasts help choose planting dates."
+      },
+      {
+       "q": "Drones with cameras fly over large farms. What can AI do with their pictures?",
+       "r": "Spot areas with sick plants or missing water",
+       "w": [
+        "Water the fields by itself",
+        "Sell the crops",
+        "Make the plants grow faster directly"
+       ],
+       "e": [
+        "The drone camera only collects images.",
+        "Selling is a business task.",
+        "AI cannot make plants grow."
+       ],
+       "y": "Image analysis finds problems early."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-2-bank",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does AI help detect fraud in mobile money?",
+       "r": "It learns normal spending patterns and flags unusual transactions",
+       "w": [
+        "It reads customers' minds",
+        "It stops all transfers",
+        "It prints receipts"
+       ],
+       "e": [
+        "AI uses data, not mind-reading.",
+        "Most transfers are normal.",
+        "Receipts are not fraud detection."
+       ],
+       "y": "Unusual patterns may be fraud."
+      },
+      {
+       "q": "A company's website answers customers' questions automatically at night. This is…",
+       "r": "an AI chatbot",
+       "w": [
+        "a printer",
+        "an antivirus",
+        "a spreadsheet"
+       ],
+       "e": [
+        "A printer outputs paper.",
+        "Antivirus protects against malware.",
+        "A spreadsheet calculates."
+       ],
+       "y": "Chatbots use AI to understand and reply to text."
+      },
+      {
+       "q": "A navigation app suggests a faster route around traffic in Yaoundé. Which AI ability is used?",
+       "r": "predicting traffic from live data",
+       "w": [
+        "recognising faces",
+        "translating languages",
+        "detecting crop disease"
+       ],
+       "e": [
+        "Faces are not involved.",
+        "No translation is needed.",
+        "No crops are involved."
+       ],
+       "y": "It learns traffic patterns from many phones."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-2-choose",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which problem is AI LEAST suited to solve on its own?",
+       "r": "deciding a fair punishment in a court case",
+       "w": [
+        "sorting spam e-mails",
+        "recognising handwriting",
+        "translating a menu"
+       ],
+       "e": [
+        "Spam sorting is a typical AI task.",
+        "Handwriting recognition is a typical AI task.",
+        "Translation is a typical AI task."
+       ],
+       "y": "Justice needs human values and judgement."
+      },
+      {
+       "q": "A school wants to give pupils extra practice that adapts to each one's level. Which AI use fits?",
+       "r": "an adaptive tutoring app",
+       "w": [
+        "a face-recognition camera",
+        "a fraud detector",
+        "a self-driving bus"
+       ],
+       "e": [
+        "Cameras do not tutor.",
+        "Fraud detection is for banks.",
+        "Transport is not tutoring."
+       ],
+       "y": "Adaptive apps choose the next question from the pupil's answers."
+      },
+      {
+       "q": "Why do AI health tools still need doctors?",
+       "r": "AI can be wrong, and doctors decide treatment and talk with patients",
+       "w": [
+        "AI tools are always right",
+        "Doctors are faster than computers at everything",
+        "AI cannot read data"
+       ],
+       "e": [
+        "AI makes mistakes.",
+        "Not at everything.",
+        "Reading data is what AI does."
+       ],
+       "y": "AI supports, it does not replace, professional judgement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

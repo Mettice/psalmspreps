@@ -1,0 +1,593 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "s3-6",
+   "name": "Control systems, virtual reality and augmented reality"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A computer control system uses sensors to monitor conditions, a processor to compare readings with a set value, and actuators to make changes; the cycle repeats (feedback).\nExamples: automatic doors, traffic lights, air conditioning and thermostats, greenhouse watering, automatic street lights.\nVirtual reality (VR): a fully computer-generated world that the user enters with a headset; used for games, training pilots and surgeons, virtual tours.\nAugmented reality (AR): computer information placed on top of the real world, usually through a phone camera or smart glasses; used for navigation arrows, furniture apps, educational models, games.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Computers in control",
+    "text": "Many everyday machines are run by computer control systems:\n• sensors measure a condition (temperature, light, movement, moisture);\n• a processor compares the reading with a set (target) value and decides;\n• actuators make a change (switch a fan, motor, pump or lamp on or off).\nThe sensor keeps measuring, so the system checks the effect of its own action: this is feedback. Examples: automatic doors, traffic lights, thermostats, greenhouse watering, automatic street lights."
+   },
+   {
+    "heading": "Virtual reality (VR)",
+    "text": "VR replaces what you see and hear with a computer-made world. You wear a headset with a screen for each eye and often hold controllers.\nIt is used for games, training pilots, drivers and surgeons safely, and visiting places you cannot travel to. Some people feel dizzy, and headsets can be expensive."
+   },
+   {
+    "heading": "Augmented reality (AR)",
+    "text": "AR keeps the real world in view and adds computer information on top, usually through a phone camera or smart glasses.\nExamples: navigation arrows on the street, apps that show how a sofa would look in your room, {3}-D models of the heart on your desk, and games that place characters in your surroundings.\nRemember: VR = a new world; AR = extra information on the real world."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "control system",
+    "meaning": "a system that senses, decides and acts automatically"
+   },
+   {
+    "word": "feedback",
+    "meaning": "measuring the result of an action and using it to decide the next action"
+   },
+   {
+    "word": "virtual reality",
+    "meaning": "a fully computer-generated world"
+   },
+   {
+    "word": "augmented reality",
+    "meaning": "computer information added to the real world"
+   }
+  ],
+  "examples": [
+   "Thermostat: temperature sensor + air conditioner",
+   "VR: pilot training",
+   "AR: navigation arrows on the phone camera"
+  ],
+  "mistake": {
+   "wrong": "AR and VR are the same",
+   "right": "VR replaces the real world; AR adds to it",
+   "why": "In AR you still see your real surroundings."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "set": 24
+  },
+  "problem": "Describe how an air-conditioning control system keeps a room at {set} °C.",
+  "steps": [
+   "A temperature sensor measures the room temperature.",
+   "The processor compares it with the set value of {set} °C.",
+   "If it is higher, the processor switches the cooling on (actuator); if lower, it switches it off.",
+   "The sensor keeps measuring, so the loop repeats (feedback)."
+  ],
+  "answer": "Sensor → compare with {set} °C → switch cooling on or off → repeat",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s6-1",
+    "status": "draft",
+    "idea": "Control systems: sensor → processor (compare) → actuator, repeated.",
+    "vars": {},
+    "example": [
+     "A street light switches on when the light sensor reads 'dark'."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-6-loop"
+    }
+   },
+   {
+    "id": "c3s6-2",
+    "status": "draft",
+    "idea": "VR replaces the real world with a computer-made one.",
+    "vars": {},
+    "example": [
+     "A headset shows a {3}-D virtual classroom."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-6-vrar"
+    }
+   },
+   {
+    "id": "c3s6-3",
+    "status": "draft",
+    "idea": "AR adds computer information to the real world.",
+    "vars": {},
+    "example": [
+     "A phone shows arrows on the street for directions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-6-which-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computing-society"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Plants in a greenhouse need water when the soil is dry.",
+         "r": "a moisture sensor that switches on a water pump",
+         "w": [
+          "a light sensor that switches on a fan",
+          "a sound sensor that opens a door",
+          "a motion sensor that switches on a radio"
+         ],
+         "e": [
+          "Light is not the problem.",
+          "Sound is not relevant.",
+          "Motion is not relevant."
+         ],
+         "y": "Measure soil moisture; act with a pump."
+        },
+        {
+         "q": "Street lights in Limbe should come on at dusk.",
+         "r": "a light sensor that switches on the lamps when it gets dark",
+         "w": [
+          "a temperature sensor",
+          "a moisture sensor",
+          "a weight sensor"
+         ],
+         "e": [
+          "Temperature does not show dusk reliably.",
+          "Moisture is not relevant.",
+          "Weight is not relevant."
+         ],
+         "y": "Light level decides when to switch."
+        },
+        {
+         "q": "A room must not get warmer than 26 °C.",
+         "r": "a temperature sensor controlling a fan or air conditioner",
+         "w": [
+          "a light sensor controlling the lamps",
+          "a motion sensor controlling the door",
+          "a moisture sensor controlling a pump"
+         ],
+         "e": [
+          "Light does not measure temperature.",
+          "Doors do not control heat directly.",
+          "Moisture is not temperature."
+         ],
+         "y": "Sense temperature; act by cooling."
+        }
+       ]
+      }
+     },
+     "prompt": "Which control system fits? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-6-loop",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In an automatic door, what is the sensor?",
+       "r": "a motion (infrared) sensor above the door",
+       "w": [
+        "the motor that opens the door",
+        "the door handle",
+        "the glass"
+       ],
+       "e": [
+        "The motor is the actuator.",
+        "A handle is manual.",
+        "Glass does not sense."
+       ],
+       "y": "It detects a person approaching."
+      },
+      {
+       "q": "What does the processor do in a control system?",
+       "r": "Compares sensor readings with set values and decides what to do",
+       "w": [
+        "Measures the temperature",
+        "Moves the parts",
+        "Supplies the power"
+       ],
+       "e": [
+        "Sensors measure.",
+        "Actuators move.",
+        "The power supply does that."
+       ],
+       "y": "It is the decision-maker."
+      },
+      {
+       "q": "Why is a control system called a feedback loop?",
+       "r": "The result of each action is measured again by the sensor",
+       "w": [
+        "It feeds people",
+        "It only works once",
+        "It has no sensors"
+       ],
+       "e": [
+        "It is not about food.",
+        "It repeats continuously.",
+        "Sensors are essential."
+       ],
+       "y": "Measure, act, measure again."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-6-vrar",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A trainee pilot wears a headset and flies in a fully computer-made sky.",
+       "r": "virtual reality (VR)",
+       "w": [
+        "augmented reality (AR)",
+        "neither",
+        "a control system"
+       ],
+       "e": [
+        "AR keeps the real world in view.",
+        "It is a computer-made world.",
+        "No sensors control a device here."
+       ],
+       "y": "Fully virtual surroundings: VR."
+      },
+      {
+       "q": "A phone camera shows the street with arrows drawn on it to guide you.",
+       "r": "augmented reality (AR)",
+       "w": [
+        "virtual reality (VR)",
+        "neither",
+        "a robot"
+       ],
+       "e": [
+        "The real street is still visible.",
+        "Information is added to the real view.",
+        "Nothing moves by itself."
+       ],
+       "y": "Information on top of the real world: AR."
+      },
+      {
+       "q": "An app places a 3-D model of a heart on your desk through the phone camera.",
+       "r": "augmented reality (AR)",
+       "w": [
+        "virtual reality (VR)",
+        "a control system",
+        "a deepfake"
+       ],
+       "e": [
+        "Your real desk is still seen.",
+        "Nothing is being controlled.",
+        "It is not fake news; it is a learning model."
+       ],
+       "y": "A virtual object added to the real scene."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this VR or AR? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-6-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Plants in a greenhouse need water when the soil is dry.",
+       "r": "a moisture sensor that switches on a water pump",
+       "w": [
+        "a light sensor that switches on a fan",
+        "a sound sensor that opens a door",
+        "a motion sensor that switches on a radio"
+       ],
+       "e": [
+        "Light is not the problem.",
+        "Sound is not relevant.",
+        "Motion is not relevant."
+       ],
+       "y": "Measure soil moisture; act with a pump."
+      },
+      {
+       "q": "Street lights in Limbe should come on at dusk.",
+       "r": "a light sensor that switches on the lamps when it gets dark",
+       "w": [
+        "a temperature sensor",
+        "a moisture sensor",
+        "a weight sensor"
+       ],
+       "e": [
+        "Temperature does not show dusk reliably.",
+        "Moisture is not relevant.",
+        "Weight is not relevant."
+       ],
+       "y": "Light level decides when to switch."
+      },
+      {
+       "q": "A room must not get warmer than 26 °C.",
+       "r": "a temperature sensor controlling a fan or air conditioner",
+       "w": [
+        "a light sensor controlling the lamps",
+        "a motion sensor controlling the door",
+        "a moisture sensor controlling a pump"
+       ],
+       "e": [
+        "Light does not measure temperature.",
+        "Doors do not control heat directly.",
+        "Moisture is not temperature."
+       ],
+       "y": "Sense temperature; act by cooling."
+      }
+     ]
+    }
+   },
+   "prompt": "Which control system fits? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-6-adv",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is VR useful for training surgeons?",
+       "r": "They can practise many times without risk to real patients",
+       "w": [
+        "It replaces medical school",
+        "Patients prefer it",
+        "It is cheaper than any book"
+       ],
+       "e": [
+        "It supports, not replaces, training.",
+        "Patients are not involved.",
+        "That is not the main reason."
+       ],
+       "y": "Safe, repeatable practice."
+      },
+      {
+       "q": "Which is a disadvantage of VR headsets?",
+       "r": "Some users feel dizzy and they can be expensive",
+       "w": [
+        "They show nothing",
+        "They only work outdoors",
+        "They make phones faster"
+       ],
+       "e": [
+        "They show a virtual world.",
+        "They work indoors.",
+        "That is not related."
+       ],
+       "y": "Motion sickness and cost are common problems."
+      },
+      {
+       "q": "Why are computer control systems used for traffic lights?",
+       "r": "They react to traffic and work all day without a person",
+       "w": [
+        "They stop all cars",
+        "They need a police officer at each light",
+        "They work only at night"
+       ],
+       "e": [
+        "They manage traffic, not stop it.",
+        "They work automatically.",
+        "They work all the time."
+       ],
+       "y": "Sensors can detect queues and change timings."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

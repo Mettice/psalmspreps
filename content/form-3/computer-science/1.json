@@ -1,0 +1,588 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s3-1",
+   "name": "Introduction to Artificial Intelligence"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Artificial Intelligence (AI) is the ability of a computer system to do tasks that normally need human intelligence: recognising speech and images, understanding language, learning from examples, making decisions.\n• Machine learning: the system learns patterns from large amounts of data instead of being given every rule.\n• Narrow (weak) AI does one kind of task (a spam filter, a chess program, a voice assistant); general AI that can do any intellectual task like a person does not yet exist.\n• AI systems need data, algorithms and computing power; they can make mistakes and copy biases in their data.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Machines that seem to think",
+    "text": "Artificial Intelligence (AI) is the ability of computer systems to do tasks that normally need human intelligence: recognising speech, understanding and translating language, recognising faces and objects, playing games and making decisions.\nA voice assistant on a phone, a translation app and a spam filter all use AI."
+   },
+   {
+    "heading": "Learning from data",
+    "text": "Most modern AI uses machine learning. Instead of writing every rule, programmers give the system a lot of examples (data) and an algorithm that finds the patterns.\nA spam filter learns from thousands of e-mails marked 'spam' or 'not spam'; then it can sort new e-mails.\nAI needs three things: data, algorithms and computing power."
+   },
+   {
+    "heading": "What AI can and cannot do",
+    "text": "All AI in use today is narrow: each system does one kind of task. A chess program cannot drive a car. General AI, able to do any task like a person, does not exist yet.\nAI can make mistakes and can copy unfairness hidden in its data, so its results must be checked by people."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "artificial intelligence",
+    "meaning": "computer systems doing tasks that need human-like intelligence"
+   },
+   {
+    "word": "machine learning",
+    "meaning": "learning patterns from data"
+   },
+   {
+    "word": "data",
+    "meaning": "facts and examples used to train a system"
+   },
+   {
+    "word": "narrow AI",
+    "meaning": "AI designed for one kind of task"
+   }
+  ],
+  "examples": [
+   "Voice typing on a phone",
+   "Face unlock",
+   "Video recommendations"
+  ],
+  "mistake": {
+   "wrong": "Every computer program is AI",
+   "right": "Only systems that learn or do intelligent tasks are AI",
+   "why": "A calculator follows fixed rules; it does not learn."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is a calculator an example of AI? Explain.",
+  "steps": [
+   "A calculator follows fixed rules that a programmer wrote; it does not learn or adapt.",
+   "AI systems learn patterns from data or handle tasks like recognising speech.",
+   "So a calculator is not AI."
+  ],
+  "answer": "No: it follows fixed rules and does not learn",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s1-1",
+    "status": "draft",
+    "idea": "AI: computers doing tasks that normally need human intelligence.",
+    "vars": {},
+    "example": [
+     "Recognising faces in photos"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-1-def"
+    }
+   },
+   {
+    "id": "c3s1-2",
+    "status": "draft",
+    "idea": "Machine learning: learning patterns from data.",
+    "vars": {},
+    "example": [
+     "A spam filter learns from many marked e-mails."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-1-ml"
+    }
+   },
+   {
+    "id": "c3s1-3",
+    "status": "draft",
+    "idea": "Today's AI is narrow: each system does one kind of task.",
+    "vars": {},
+    "example": [
+     "A chess program cannot drive a car."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-1-narrow-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computing-society"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is narrow (weak) AI?",
+         "r": "AI that does one specific kind of task",
+         "w": [
+          "AI that can do any task a person can",
+          "AI that is very small",
+          "AI that works without data"
+         ],
+         "e": [
+          "That would be general AI, which does not yet exist.",
+          "Size is not meant.",
+          "AI needs data."
+         ],
+         "y": "Every AI in use today is narrow."
+        },
+        {
+         "q": "Which is NOT a task usually done by AI today?",
+         "r": "Feeling emotions like a human",
+         "w": [
+          "Translating text",
+          "Recognising faces",
+          "Recommending videos"
+         ],
+         "e": [
+          "Translation apps use AI.",
+          "Face recognition uses AI.",
+          "Recommendation systems use AI."
+         ],
+         "y": "AI imitates some intelligent tasks; it does not feel."
+        },
+        {
+         "q": "An AI chess program beats a champion. Can it therefore drive a car?",
+         "r": "No: it was built and trained only for chess",
+         "w": [
+          "Yes, it is intelligent",
+          "Yes, if it has wheels",
+          "Only at night"
+         ],
+         "e": [
+          "Its intelligence is narrow.",
+          "Driving needs different training and sensors.",
+          "Time of day is irrelevant."
+         ],
+         "y": "Narrow AI does not transfer to other tasks."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-1-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is Artificial Intelligence?",
+       "r": "Computer systems doing tasks that normally need human intelligence",
+       "w": [
+        "Any machine with a screen",
+        "A robot that looks like a person",
+        "Storing data on the internet"
+       ],
+       "e": [
+        "A screen does not make a machine intelligent.",
+        "AI does not need a body or a human shape.",
+        "That is cloud storage."
+       ],
+       "y": "Examples: understanding speech, recognising images, making decisions."
+      },
+      {
+       "q": "Which is an example of AI?",
+       "r": "A phone app that recognises spoken words",
+       "w": [
+        "A desk calculator",
+        "A light switch",
+        "A printed timetable"
+       ],
+       "e": [
+        "A calculator follows fixed rules.",
+        "A switch has no intelligence.",
+        "A timetable is just data."
+       ],
+       "y": "Speech recognition is a typical AI task."
+      },
+      {
+       "q": "Which three things does an AI system need?",
+       "r": "data, algorithms and computing power",
+       "w": [
+        "only electricity",
+        "a keyboard, mouse and printer",
+        "a human operator at all times"
+       ],
+       "e": [
+        "Electricity alone does nothing.",
+        "Those are input/output devices.",
+        "Many AI systems run automatically."
+       ],
+       "y": "AI learns from data using algorithms run on powerful computers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-1-ml",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is machine learning?",
+       "r": "A way for computers to learn patterns from data",
+       "w": [
+        "Teaching machines to walk",
+        "Repairing computers",
+        "Typing faster"
+       ],
+       "e": [
+        "That is robotics.",
+        "That is maintenance.",
+        "That is a keyboard skill."
+       ],
+       "y": "The more good examples, the better it learns."
+      },
+      {
+       "q": "A spam filter is trained with thousands of e-mails marked 'spam' or 'not spam'. What is this data for?",
+       "r": "To let the filter learn the patterns of spam",
+       "w": [
+        "To delete all e-mails",
+        "To slow the computer",
+        "To make the e-mails longer"
+       ],
+       "e": [
+        "It sorts e-mails; it does not delete all.",
+        "That is not the aim.",
+        "It does not change the e-mails."
+       ],
+       "y": "Labelled examples teach the system."
+      },
+      {
+       "q": "Why can an AI system trained on poor or one-sided data give unfair results?",
+       "r": "It learns whatever patterns, including biases, are in its data",
+       "w": [
+        "Computers are always fair",
+        "Data has no effect on AI",
+        "AI ignores its training"
+       ],
+       "e": [
+        "They copy patterns from data.",
+        "Data shapes what AI learns.",
+        "Training is how AI learns."
+       ],
+       "y": "Biased data gives biased AI."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-1-narrow",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is narrow (weak) AI?",
+       "r": "AI that does one specific kind of task",
+       "w": [
+        "AI that can do any task a person can",
+        "AI that is very small",
+        "AI that works without data"
+       ],
+       "e": [
+        "That would be general AI, which does not yet exist.",
+        "Size is not meant.",
+        "AI needs data."
+       ],
+       "y": "Every AI in use today is narrow."
+      },
+      {
+       "q": "Which is NOT a task usually done by AI today?",
+       "r": "Feeling emotions like a human",
+       "w": [
+        "Translating text",
+        "Recognising faces",
+        "Recommending videos"
+       ],
+       "e": [
+        "Translation apps use AI.",
+        "Face recognition uses AI.",
+        "Recommendation systems use AI."
+       ],
+       "y": "AI imitates some intelligent tasks; it does not feel."
+      },
+      {
+       "q": "An AI chess program beats a champion. Can it therefore drive a car?",
+       "r": "No: it was built and trained only for chess",
+       "w": [
+        "Yes, it is intelligent",
+        "Yes, if it has wheels",
+        "Only at night"
+       ],
+       "e": [
+        "Its intelligence is narrow.",
+        "Driving needs different training and sensors.",
+        "Time of day is irrelevant."
+       ],
+       "y": "Narrow AI does not transfer to other tasks."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-1-limit",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should people check answers given by AI tools?",
+       "r": "AI can make mistakes and give confident but wrong answers",
+       "w": [
+        "AI is never wrong",
+        "Checking slows the computer",
+        "AI answers are always copied"
+       ],
+       "e": [
+        "AI makes errors.",
+        "Checking is about accuracy, not speed.",
+        "Not always."
+       ],
+       "y": "Human judgement is still needed."
+      },
+      {
+       "q": "Which shows the difference between a normal program and an AI system?",
+       "r": "The AI system improves its results by learning from new data",
+       "w": [
+        "The AI system has no instructions",
+        "A normal program uses no electricity",
+        "The AI system always uses a robot"
+       ],
+       "e": [
+        "AI still runs on algorithms.",
+        "All programs need power.",
+        "Most AI is software only."
+       ],
+       "y": "Learning from data is the key difference."
+      },
+      {
+       "q": "Self-driving cars use AI. What do they mainly need to learn from?",
+       "r": "Large amounts of sensor data from real driving",
+       "w": [
+        "Only the driver's voice",
+        "Paper maps",
+        "The colour of the car"
+       ],
+       "e": [
+        "Voice alone cannot steer.",
+        "Paper maps are not live data.",
+        "Colour is irrelevant."
+       ],
+       "y": "Cameras and sensors provide examples of roads, signs and people."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}
