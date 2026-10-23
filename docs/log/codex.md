@@ -23,3 +23,11 @@ Append one entry per session (see docs/AUTHORING.md, section 10).
 - Checked: npm test — 4750 tests pass; extra quality checks — 16 lessons pass; real Edge at 360 × 800 — 16/16 lessons clean, zero errors/overflow. Generated review documents and inspected the first Learn page. Built HTML and PDFs are not staged.
 - Sources: NASA/NOAA/USGS reference summaries consulted; direct USGS Dynamic Earth pages returned 403. Not checked: local teacher approval, regional geological detail or school-specific emergency adaptation. Those are in TEACHER-REVIEW.md.
 - Remaining: History, English, French and Français intensif. Prescribed literature choice remains pending; the three ambiguous French/FI rows remain pending as instructed.
+
+## 2026-10-23 — Form Three History, Term One
+
+- Wrote rows 1–13 and 15–19: 18 drafts with Learn and five questions each. Guided-work row 14 excluded. Preserved African agency and source perspective, distinguished coastal annexation from inland control and Berlin from later boundary making. All displayed dates use expressions.
+- Checked: npm test — 4865 pass; extra quality checks — 18 pass; Edge at 360 × 800 — 18/18 clean with zero errors/overflow. Generated review documents; inspected the first Learn page. Built HTML and PDFs excluded.
+- Reference summaries include Cameroon MINREX, German Foreign Office archive, bpb, Smithsonian, scholarly histories and historical Hansard. No invented quotation is assigned to a historical person.
+- Not checked/unfinished depth: teacher approval and detailed Mamfe/Bangwa/Nso campaign coverage. Row 10 is introductory and needs the approved course text before claiming full exam coverage; see TR-history-4. Other contested taxonomy and chronology items are listed for review.
+- Remaining assigned subjects: English, French and Français intensif. Prescribed literature selection is pending; the three ambiguous French/FI rows remain pending by user instruction.
