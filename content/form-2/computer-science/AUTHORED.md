@@ -1,4 +1,4 @@
-# Computer Science Form 2, Batches S2-1, S2-2: authored answers for review
+# Computer Science Form 2, Batches S2-1, S2-2, S2-3: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.

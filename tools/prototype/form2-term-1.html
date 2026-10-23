@@ -1321,7 +1321,75 @@ function pieFig(labels, values) {
   return svg(260, 210, "A pie chart", body);
 }
 
-return { br, pw, powExpand, signWord, powNoSign, isPrime, primeFactors, factorProduct, factorise, ladder, numFactors, factorsOf, multiplesOf, hcf, lcm, hcf3, lcm3, isSquare, isCube, seqTerms, geoTerms, squaresList, cubesList, triangleOk, pt, mono, poly, bracket, ineq, holds, flipOp, strictOp, looseOp, opWords, solutionsIn, coordPlane, numberLine, ineqLine, bisectorFig, segmentFig, angleAt, anglePair, pairEqual, angleLetter, parallelFig, crossFig, triangleFig, rightTriFig, TRIPLES, triple, nTriples, isRightTriangle, frac, fracRaw, mixed, fAddN, fAddD, fAdd, fSub, fMul, fDiv, lcmOf, fAddWrong, fDivWrong, roundTo, sigFig, sigFigStr, countSig, dec, isPerfectSquare, root, sqrtInt, interval, intervalIneq, inInterval, intsIn, pctOf, pctChange, simpleInterest, compound, polyName, angleSum, interiorRegular, exteriorRegular, regularFig, trapeziumFig, parallelogramFig, reflectX, halfTurn, symLines, symShapes, hasPointSym, circlesPos, CIRCLE_POSITIONS, otherPositions, tA, tB, tC, sqrtFloor, smallestSet, sqrt, pairPhrase, isLowest, aOrAn, prismFaces, prismEdges, prismVertices, pyramidFaces, pyramidEdges, pyramidVertices, baseName, lateralArea, prismTotalArea, prismVolume, sqPyramidArea, sphereArea, sphereVolume, sorted, listStr, meanOf, medianOf, modeOf, rangeOf, freqMean, freqTotal, freqSumXF, freqMode, freqModeUnique, pieAngle, countEach, prismFig, pyramidFig, sphereFig, barChartFig, pieFig };
+// ---------------------------------------------------------------- Form 3 (2026-10-23): trigonometry, logarithms, matrices
+const RAD = Math.PI / 180;
+/** Trigonometric ratios of an angle in degrees, and the inverse ratios in degrees. */
+const sinD = (x) => Math.sin(x * RAD);
+const cosD = (x) => Math.cos(x * RAD);
+const tanD = (x) => Math.tan(x * RAD);
+const asinD = (r) => Math.asin(r) / RAD;
+const acosD = (r) => Math.acos(r) / RAD;
+const atanD = (r) => Math.atan(r) / RAD;
+/** Logarithms: log10(1000) = 3; logb(2, 8) = 3 (exact for exact powers). */
+const log10 = (x) => Math.log10(x);
+const logb = (b, x) => { const v = Math.log(x) / Math.log(b), r = Math.round(v); return Math.abs(v - r) < 1e-9 ? r : v; };
+/** 2 × 2 matrices as [[a, b], [c, d]]. */
+const det2 = (m) => m[0][0] * m[1][1] - m[0][1] * m[1][0];
+const matAdd = (p, q) => p.map((r, i) => r.map((v, j) => v + q[i][j]));
+const matSub = (p, q) => p.map((r, i) => r.map((v, j) => v - q[i][j]));
+const matScale = (k, p) => p.map((r) => r.map((v) => k * v));
+const matMul = (p, q) => p.map((r) => q[0].map((_, j) => r.reduce((s, v, k) => s + v * q[k][j], 0)));
+const matT = (p) => p[0].map((_, j) => p.map((r) => r[j]));
+/** The adjoint (adjugate) of a 2 × 2 matrix: swap the leading diagonal, change the signs of the other. */
+const adj2 = (m) => [[m[1][1], -m[0][1]], [-m[1][0], m[0][0]]];
+/** A matrix written on one line, rows separated by semicolons: "(2  3 ; 1  4)". */
+const matStr = (m) => `(${m.map((r) => r.map(fmt).join("  ")).join(" ; ")})`;
+/**
+ * Named matrices drawn with brackets: matFig([["A", [[2, 3], [1, 4]]], ["B", [[0, 1], [5, 2]]]]).
+ * Any size up to 3 × 3; entries are written with fmt.
+ */
+function matFig(named) {
+  const cw = 34, rh = 22;
+  let x = 10, body = "", h = 0;
+  for (const [name, m] of named) {
+    const rows = m.length, cols = m[0].length, H = rows * rh + 8, W = cols * cw;
+    h = Math.max(h, H + 10);
+    body += text(x + 12, 10 + H / 2 + 4, `${name} =`, ` text-anchor="middle"`);
+    const bx = x + 30;
+    body += `<path d="M${bx + 6} 10 q-6 ${H / 2} 0 ${H}" stroke-width="1.3"/><path d="M${bx + W + 6} 10 q6 ${H / 2} 0 ${H}" stroke-width="1.3"/>`;
+    m.forEach((r, i) => r.forEach((v, j) => { body += text(bx + 6 + cw * j + cw / 2, 10 + 4 + rh * i + rh / 2 + 4, fmt(v)); }));
+    x = bx + W + 30;
+  }
+  return svg(Math.max(x, 120), h + 10, `Matrices ${named.map(([n]) => n).join(" and ")}`, body);
+}
+/**
+ * A right-angled triangle for trigonometry: the right angle at the bottom left, the marked angle θ at the bottom right.
+ * base (adjacent), height (opposite), hyp: a number (with unit), a letter, or "" to leave the side blank.
+ */
+function trigFig(base, height, hyp, angle = "θ", unit = "cm") {
+  const lab = (v) => (typeof v === "number" ? `${fmt(v)} ${unit}` : v);
+  // room on the left for a word label ("opposite") beside the vertical side
+  let body = `<path d="M90 160 L310 160 L90 40 Z" stroke-width="1.5"/><path d="M90 148 h12 v12"/>`;
+  body += `<path d="M278 160 A32 32 0 0 0 281.9 144.7"/>` + text(262, 154, typeof angle === "number" ? `${fmt(angle)}°` : angle);
+  body += text(200, 178, lab(base)) + text(82, 104, lab(height), ` text-anchor="end"`) + text(212, 92, lab(hyp), ` text-anchor="start"`);
+  return svg(340, 190, "A right-angled triangle with a marked angle", body);
+}
+/**
+ * Thales (intercept theorem): triangle ABC (A at the top) cut by DE parallel to BC, D on AB and E on AC.
+ * Each length is a number (cm), a letter, or "" to leave it unmarked: thalesFig(AD, DB, AE, EC, DE, BC).
+ */
+function thalesFig(ad, db, ae, ec, de, bc, unit = "cm") {
+  const lab = (v) => (typeof v === "number" ? `${fmt(v)} ${unit}` : v);
+  const A = [170, 24], B = [40, 176], C = [300, 176], t = 0.45, D = [A[0] + (B[0] - A[0]) * t, A[1] + (B[1] - A[1]) * t], E = [A[0] + (C[0] - A[0]) * t, A[1] + (C[1] - A[1]) * t];
+  let body = `<path d="M${A} L${B} L${C} Z" stroke-width="1.5"/>` + line(D[0], D[1], E[0], E[1], ` stroke-width="1.5"`);
+  body += [["A", A, 0, -8], ["B", B, -10, 12], ["C", C, 10, 12], ["D", D, -12, 2], ["E", E, 12, 2]].map(([n, P, dx, dy]) => text(P[0] + dx, P[1] + dy, n, ` font-weight="bold"`)).join("");
+  body += text((A[0] + D[0]) / 2 - 14, (A[1] + D[1]) / 2, lab(ad), ` text-anchor="end"`) + text((D[0] + B[0]) / 2 - 14, (D[1] + B[1]) / 2, lab(db), ` text-anchor="end"`);
+  body += text((A[0] + E[0]) / 2 + 14, (A[1] + E[1]) / 2, lab(ae), ` text-anchor="start"`) + text((E[0] + C[0]) / 2 + 14, (E[1] + C[1]) / 2, lab(ec), ` text-anchor="start"`);
+  body += text((D[0] + E[0]) / 2, D[1] - 6, lab(de)) + text(170, 192, lab(bc));
+  return svg(340, 200, "Triangle ABC with DE parallel to BC", body);
+}
+
+return { br, pw, powExpand, signWord, powNoSign, isPrime, primeFactors, factorProduct, factorise, ladder, numFactors, factorsOf, multiplesOf, hcf, lcm, hcf3, lcm3, isSquare, isCube, seqTerms, geoTerms, squaresList, cubesList, triangleOk, pt, mono, poly, bracket, ineq, holds, flipOp, strictOp, looseOp, opWords, solutionsIn, coordPlane, numberLine, ineqLine, bisectorFig, segmentFig, angleAt, anglePair, pairEqual, angleLetter, parallelFig, crossFig, triangleFig, rightTriFig, TRIPLES, triple, nTriples, isRightTriangle, frac, fracRaw, mixed, fAddN, fAddD, fAdd, fSub, fMul, fDiv, lcmOf, fAddWrong, fDivWrong, roundTo, sigFig, sigFigStr, countSig, dec, isPerfectSquare, root, sqrtInt, interval, intervalIneq, inInterval, intsIn, pctOf, pctChange, simpleInterest, compound, polyName, angleSum, interiorRegular, exteriorRegular, regularFig, trapeziumFig, parallelogramFig, reflectX, halfTurn, symLines, symShapes, hasPointSym, circlesPos, CIRCLE_POSITIONS, otherPositions, tA, tB, tC, sqrtFloor, smallestSet, sqrt, pairPhrase, isLowest, aOrAn, prismFaces, prismEdges, prismVertices, pyramidFaces, pyramidEdges, pyramidVertices, baseName, lateralArea, prismTotalArea, prismVolume, sqPyramidArea, sphereArea, sphereVolume, sorted, listStr, meanOf, medianOf, modeOf, rangeOf, freqMean, freqTotal, freqSumXF, freqMode, freqModeUnique, pieAngle, countEach, prismFig, pyramidFig, sphereFig, barChartFig, pieFig, sinD, cosD, tanD, asinD, acosD, atanD, log10, logb, det2, matAdd, matSub, matScale, matMul, matT, adj2, matStr, matFig, trigFig, thalesFig };
 })();
 __mods["lib/english.js"] = (() => {
 // English word forms for templates. Rules plus authored exception tables; the tables are facts a teacher
@@ -4151,7 +4219,7 @@ const FR = {
   "Next: Lesson {a}": "Suivant : Leçon {a}", "🔥 {a}-day streak": "🔥 {a} jours d’affilée", "New badge: {a}": "Nouveau badge : {a}", "All subjects": "Toutes les matières", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
 };
 /** A label for the pupil: in French inside a French lesson, otherwise English. {x} are filled from v. */
-const inFrench = (s) => /^(f\d-)?(french|francais-intensif)$/.test(s);  // french, f2-french, f3-francais-intensif …
+const inFrench = (s) => /^((f\d|[lu]6)-)?(french|francais-intensif)$/.test(s);  // french, f2-french, l6-francais-intensif …
 const T = (text, v = {}) => ((inFrench(S) && FR[text]) || text).replace(/\{(\w)\}/g, (_, k) => v[k]);
 
 // ---------------------------------------------------------------- one question, any type
@@ -4345,7 +4413,7 @@ const STYLE = {
   maths: ["#1d4ed8", "🔢"], english: ["#6d28d9", "📖"], physics: ["#b45309", "⚡"], chemistry: ["#0f766e", "🧪"], geography: ["#2e7d32", "🌍"],
   "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"], accounting: ["#556b2f", "🧾"], "francais-intensif": ["#6a1b9a", "📖"],
 };
-const styleOf = (s) => STYLE[s] || STYLE[s.replace(/^f\d-/, "")];  // a Form 2, 3 … subject looks like its Form One subject
+const styleOf = (s) => STYLE[s] || STYLE[s.replace(/^(f\d|[lu]6)-/, "")];  // a Form 2 … Upper Sixth subject looks like its Form One subject
 const colourOf = (s) => (styleOf(s) || ["#1f6f4a"])[0];
 const iconOf = (s) => (styleOf(s) || ["", "📘"])[1];
 const tinted = (s, ...kids) => { const e = el(...kids); e.style.setProperty("--subj", colourOf(s)); return e; };

@@ -4,6 +4,7 @@ Each term has its own definition, concrete application, false claim and correcti
 Distractor feedback identifies the alternative concept rather than revealing a key.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -14,6 +15,11 @@ import banks_fr as FR
 
 ROOT = Path(__file__).resolve().parents[3]
 L.use_class("form-3", "Form 3")
+
+
+def plain(text):
+    """{1884} → 1884 and {'B3'} → B3: Learn text is rendered, the note is not."""
+    return re.sub(r"\{'([^'{}]*)'\}|\{(\d+)\}", lambda m: m.group(1) if m.group(1) is not None else m.group(2), text)
 
 
 def fact(term, meaning, example, error, correction):
@@ -65,7 +71,7 @@ def concept_lesson(subject, prefix, n, title, overview, application, method, fac
                     [facts[0]["example"], facts[0]["term"] + ": " + facts[0]["meaning"] + "."], questions[1]["id"]),
              L.card(f"c{ident}-repair", "Vérifie la relation entre l’affirmation et sa justification." if language == "fr" else "Check that a claim agrees with the rule or definition it uses.",
                     [facts[0]["error"], facts[0]["correction"]], questions[4]["id"])]
-    note = overview
+    note = plain(overview)  # the summary screen shows the note as written, so no {…} fields
     if len(note.split()) > 145:
         raise ValueError(f"{ident}: summary too long")
     sections = sections_override or [("Comprendre les notions" if language == "fr" else "Understand the ideas", overview),
