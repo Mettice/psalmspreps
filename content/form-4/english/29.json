@@ -1,0 +1,548 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [
+  4,
+  25
+ ],
+ "skills": [
+  {
+   "id": "e4-29",
+   "name": "Simple past and past perfect"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The simple past can tell a completed past sequence. The past perfect uses had + past participle to look back from a later past point. It helps show an earlier event or situation relevant at that point. Do not use had plus the simple-past form when the participle differs. Past perfect is not required for every earlier event if order is already clear; use it to make the intended perspective clear rather than marking ordinary chronological narration wrong.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to show the order of past events with simple past and had plus a participle. Builds on: simple past and the overview of perfect forms. Leads to: clear chronology in narratives and reports."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "The simple past can tell a completed past sequence. The past perfect uses had + past participle to look back from a later past point. It helps show an earlier event or situation relevant at that point. Do not use had plus the simple-past form when the participle differs. Past perfect is not required for every earlier event if order is already clear; use it to make the intended perspective clear rather than marking ordinary chronological narration wrong."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: When Ayuk arrived, Bih had {participle('write')} the note. Writing came before the later arrival. Compare Bih {past('write')} the note and then Ayuk arrived, which directly narrates the sequence. Had written supplies the look-back relationship; had wrote does not give the standard form."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Choose the later past reference point, identify the earlier event and select a participle. Keep the same event order when rewriting. A sequence word such as before can already clarify order, so context should determine whether past perfect is needed or simply useful."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "simple-past sequence",
+    "meaning": "completed events narrated in their stated order"
+   },
+   {
+    "word": "past perfect",
+    "meaning": "had plus a past participle looking back from a past point"
+   },
+   {
+    "word": "later reference point",
+    "meaning": "the past event from which an earlier situation is viewed"
+   },
+   {
+    "word": "chronological signal",
+    "meaning": "wording clarifying the order of events"
+   }
+  ],
+  "mistake": {
+   "wrong": "A past narrative cannot use more than one simple-past verb.",
+   "right": "simple-past sequence: completed events narrated in their stated order.",
+   "why": "Simple past can narrate a chronological sequence."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih wrote the note and then Ayuk arrived. Explain the selected feature.",
+  "steps": [
+   "Completed events narrated in their stated order.",
+   "Simple past can narrate a chronological sequence."
+  ],
+  "answer": "simple-past sequence",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-29-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "simple-past sequence: completed events narrated in their stated order.",
+     "past perfect: had plus a past participle looking back from a past point.",
+     "later reference point: the past event from which an earlier situation is viewed.",
+     "chronological signal: wording clarifying the order of events."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-29-terms"
+    }
+   },
+   {
+    "id": "e4-29-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Bih wrote the note and then Ayuk arrived.",
+     "Bih had {participle('write')} the note before the later arrival.",
+     "Ayuk’s arrival is the later point in when he arrived, Bih had written.",
+     "Then and before can help show the sequence."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-29-cases"
+    }
+   },
+   {
+    "id": "e4-29-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A past narrative cannot use more than one simple-past verb. Correction: Simple past can narrate a chronological sequence.",
+     "Had wrote is the standard perfect form of write. Correction: Had takes the participle written.",
+     "The later reference point must always occur in the future. Correction: Both events can be past; the reference point is later within that past.",
+     "Every earlier action must use past perfect even when the order is already clear. Correction: Context and intended perspective determine the tense choice."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-29-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "simple-past sequence: completed events narrated in their stated order.",
+        "truth": "true",
+        "explain": "This is correct: completed events narrated in their stated order. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "past perfect: had plus a past participle looking back from a past point.",
+        "truth": "true",
+        "explain": "This is correct: had plus a past participle looking back from a past point. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "later reference point: the past event from which an earlier situation is viewed.",
+        "truth": "true",
+        "explain": "This is correct: the past event from which an earlier situation is viewed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "chronological signal: wording clarifying the order of events.",
+        "truth": "true",
+        "explain": "This is correct: wording clarifying the order of events. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A past narrative cannot use more than one simple-past verb.",
+        "truth": "false",
+        "explain": "Simple past can narrate a chronological sequence."
+       },
+       {
+        "text": "Had wrote is the standard perfect form of write.",
+        "truth": "false",
+        "explain": "Had takes the participle written."
+       },
+       {
+        "text": "The later reference point must always occur in the future.",
+        "truth": "false",
+        "explain": "Both events can be past; the reference point is later within that past."
+       },
+       {
+        "text": "Every earlier action must use past perfect even when the order is already clear.",
+        "truth": "false",
+        "explain": "Context and intended perspective determine the tense choice."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-29-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means completed events narrated in their stated order?",
+       "r": "simple-past sequence",
+       "w": [
+        "past perfect",
+        "later reference point",
+        "chronological signal"
+       ],
+       "e": [
+        "That concerns had plus a past participle looking back from a past point, rather than completed events narrated in their stated order.",
+        "That concerns the past event from which an earlier situation is viewed, rather than completed events narrated in their stated order.",
+        "That concerns wording clarifying the order of events, rather than completed events narrated in their stated order."
+       ],
+       "y": "Simple past can narrate a chronological sequence."
+      },
+      {
+       "q": "Which term means had plus a past participle looking back from a past point?",
+       "r": "past perfect",
+       "w": [
+        "simple-past sequence",
+        "later reference point",
+        "chronological signal"
+       ],
+       "e": [
+        "That concerns completed events narrated in their stated order, rather than had plus a past participle looking back from a past point.",
+        "That concerns the past event from which an earlier situation is viewed, rather than had plus a past participle looking back from a past point.",
+        "That concerns wording clarifying the order of events, rather than had plus a past participle looking back from a past point."
+       ],
+       "y": "Had takes the participle written."
+      },
+      {
+       "q": "Which term means the past event from which an earlier situation is viewed?",
+       "r": "later reference point",
+       "w": [
+        "simple-past sequence",
+        "past perfect",
+        "chronological signal"
+       ],
+       "e": [
+        "That concerns completed events narrated in their stated order, rather than the past event from which an earlier situation is viewed.",
+        "That concerns had plus a past participle looking back from a past point, rather than the past event from which an earlier situation is viewed.",
+        "That concerns wording clarifying the order of events, rather than the past event from which an earlier situation is viewed."
+       ],
+       "y": "Both events can be past; the reference point is later within that past."
+      },
+      {
+       "q": "Which term means wording clarifying the order of events?",
+       "r": "chronological signal",
+       "w": [
+        "simple-past sequence",
+        "past perfect",
+        "later reference point"
+       ],
+       "e": [
+        "That concerns completed events narrated in their stated order, rather than wording clarifying the order of events.",
+        "That concerns had plus a past participle looking back from a past point, rather than wording clarifying the order of events.",
+        "That concerns the past event from which an earlier situation is viewed, rather than wording clarifying the order of events."
+       ],
+       "y": "Context and intended perspective determine the tense choice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-29-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih wrote the note and then Ayuk arrived.\nWhich description best fits the selected feature?",
+       "r": "simple-past sequence",
+       "w": [
+        "past perfect",
+        "later reference point",
+        "chronological signal"
+       ],
+       "e": [
+        "That means had plus a past participle looking back from a past point. The selected feature instead illustrates completed events narrated in their stated order.",
+        "That means the past event from which an earlier situation is viewed. The selected feature instead illustrates completed events narrated in their stated order.",
+        "That means wording clarifying the order of events. The selected feature instead illustrates completed events narrated in their stated order."
+       ],
+       "y": "Simple past can narrate a chronological sequence."
+      },
+      {
+       "q": "Bih had {participle('write')} the note before the later arrival.\nWhich description best fits the selected feature?",
+       "r": "past perfect",
+       "w": [
+        "simple-past sequence",
+        "later reference point",
+        "chronological signal"
+       ],
+       "e": [
+        "That means completed events narrated in their stated order. The selected feature instead illustrates had plus a past participle looking back from a past point.",
+        "That means the past event from which an earlier situation is viewed. The selected feature instead illustrates had plus a past participle looking back from a past point.",
+        "That means wording clarifying the order of events. The selected feature instead illustrates had plus a past participle looking back from a past point."
+       ],
+       "y": "Had takes the participle written."
+      },
+      {
+       "q": "Ayuk’s arrival is the later point in when he arrived, Bih had written.\nWhich description best fits the selected feature?",
+       "r": "later reference point",
+       "w": [
+        "simple-past sequence",
+        "past perfect",
+        "chronological signal"
+       ],
+       "e": [
+        "That means completed events narrated in their stated order. The selected feature instead illustrates the past event from which an earlier situation is viewed.",
+        "That means had plus a past participle looking back from a past point. The selected feature instead illustrates the past event from which an earlier situation is viewed.",
+        "That means wording clarifying the order of events. The selected feature instead illustrates the past event from which an earlier situation is viewed."
+       ],
+       "y": "Both events can be past; the reference point is later within that past."
+      },
+      {
+       "q": "Then and before can help show the sequence.\nWhich description best fits the selected feature?",
+       "r": "chronological signal",
+       "w": [
+        "simple-past sequence",
+        "past perfect",
+        "later reference point"
+       ],
+       "e": [
+        "That means completed events narrated in their stated order. The selected feature instead illustrates wording clarifying the order of events.",
+        "That means had plus a past participle looking back from a past point. The selected feature instead illustrates wording clarifying the order of events.",
+        "That means the past event from which an earlier situation is viewed. The selected feature instead illustrates wording clarifying the order of events."
+       ],
+       "y": "Context and intended perspective determine the tense choice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-29-participle",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "take",
+      "choose",
+      "write",
+      "see"
+     ]
+    }
+   },
+   "prompt": "Complete the look-back: Before the later meeting, Bih had ___ the item. Base verb: {v}.",
+   "correct": "{participle(v)}",
+   "distractors": [
+    {
+     "text": "{past(v)}",
+     "misconception": "past"
+    },
+    {
+     "text": "{v}",
+     "misconception": "base"
+    },
+    {
+     "text": "{ing(v)}",
+     "misconception": "ing"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "past",
+     "explain": "That is the simple-past form, not the participle needed after had."
+    },
+    {
+     "id": "base",
+     "explain": "Had requires the participle here, not the base form."
+    },
+    {
+     "id": "ing",
+     "explain": "Had plus -ing alone does not form this past perfect."
+    }
+   ],
+   "solution": [
+    "The pattern is had + past participle.",
+    "The participle of {v} is {answer}."
+   ]
+  },
+  {
+   "id": "e4-29-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "simple-past sequence",
+     "right": "Bih wrote the note and then Ayuk arrived."
+    },
+    {
+     "left": "past perfect",
+     "right": "Bih had {participle('write')} the note before the later arrival."
+    },
+    {
+     "left": "later reference point",
+     "right": "Ayuk’s arrival is the later point in when he arrived, Bih had written."
+    },
+    {
+     "left": "chronological signal",
+     "right": "Then and before can help show the sequence."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-29-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "simple-past sequence: completed events narrated in their stated order.",
+      "truth": "true",
+      "explain": "This is correct: completed events narrated in their stated order. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "past perfect: had plus a past participle looking back from a past point.",
+      "truth": "true",
+      "explain": "This is correct: had plus a past participle looking back from a past point. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "later reference point: the past event from which an earlier situation is viewed.",
+      "truth": "true",
+      "explain": "This is correct: the past event from which an earlier situation is viewed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "chronological signal: wording clarifying the order of events.",
+      "truth": "true",
+      "explain": "This is correct: wording clarifying the order of events. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A past narrative cannot use more than one simple-past verb.",
+      "truth": "false",
+      "explain": "Simple past can narrate a chronological sequence."
+     },
+     {
+      "text": "Had wrote is the standard perfect form of write.",
+      "truth": "false",
+      "explain": "Had takes the participle written."
+     },
+     {
+      "text": "The later reference point must always occur in the future.",
+      "truth": "false",
+      "explain": "Both events can be past; the reference point is later within that past."
+     },
+     {
+      "text": "Every earlier action must use past perfect even when the order is already clear.",
+      "truth": "false",
+      "explain": "Context and intended perspective determine the tense choice."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

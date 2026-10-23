@@ -1,0 +1,547 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  8,
+  16,
+  17,
+  21
+ ],
+ "skills": [
+  {
+   "id": "e4-22",
+   "name": "Argumentative essays"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An argumentative essay defends a position through reasons. A claim needs support that bears on it; repeating a preference is not evidence. A counterargument presents a relevant objection, and a response explains how the writer addresses it. A conclusion should follow the discussion rather than introduce an unsupported new case. An argument can be firm without insulting opponents. Do not invent statistics, expert quotations or universal outcomes merely to make a paragraph sound persuasive.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to develop a position with reasons, relevant support and a fair response to a counterargument. Builds on: essay focus, contextual evidence and conditional reasoning. Leads to: stronger paragraph structure and balanced formal argument."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "An argumentative essay defends a position through reasons. A claim needs support that bears on it; repeating a preference is not evidence. A counterargument presents a relevant objection, and a response explains how the writer addresses it. A conclusion should follow the discussion rather than introduce an unsupported new case. An argument can be firm without insulting opponents. Do not invent statistics, expert quotations or universal outcomes merely to make a paragraph sound persuasive."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: Original model: A school reading club can be useful when it provides structured discussion. Members can compare interpretations and explain their reasons rather than merely exchange answers. Some may object that meetings take time from individual study. This concern matters, so a club should use suitable meeting times and focused tasks. Participation should be purposeful, not compulsory busywork. A well-organised club can therefore complement individual reading, although its value depends on how members use it."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Choose a clear position and outline reasons with examples. Present an objection accurately before answering it. Qualify a claim when the evidence has limits. Check whether the conclusion is supported and whether the reader can distinguish an invented illustration from a verified statistic."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "position",
+    "meaning": "the main view the writer defends"
+   },
+   {
+    "word": "relevant support",
+    "meaning": "a reason or example bearing on the stated claim"
+   },
+   {
+    "word": "counterargument",
+    "meaning": "a relevant objection to the writer’s view"
+   },
+   {
+    "word": "reasoned response",
+    "meaning": "an answer explaining how an objection is addressed or limits the view"
+   }
+  ],
+  "mistake": {
+   "wrong": "An argument must change to an unrelated position in every paragraph.",
+   "right": "position: the main view the writer defends.",
+   "why": "A clear position organises the reasoning."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The model supports a purposeful reading club. Explain the selected feature.",
+  "steps": [
+   "The main view the writer defends.",
+   "A clear position organises the reasoning."
+  ],
+  "answer": "position",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-22-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "position: the main view the writer defends.",
+     "relevant support: a reason or example bearing on the stated claim.",
+     "counterargument: a relevant objection to the writer’s view.",
+     "reasoned response: an answer explaining how an objection is addressed or limits the view."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-22-terms"
+    }
+   },
+   {
+    "id": "e4-22-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The model supports a purposeful reading club.",
+     "Comparing interpretations illustrates a learning benefit.",
+     "The model recognises the time that meetings use.",
+     "Focused tasks and suitable timing answer part of the time concern."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-22-cases"
+    }
+   },
+   {
+    "id": "e4-22-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "An argument must change to an unrelated position in every paragraph. Correction: A clear position organises the reasoning.",
+     "Any impressive number counts as evidence even if invented. Correction: Support must be relevant and honestly presented.",
+     "A counterargument must be an insult to the writer. Correction: An objection can address costs or reasoning without attacking a person.",
+     "Ignoring an objection automatically refutes it. Correction: A response needs an explanation, not silence or repetition."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-22-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "position: the main view the writer defends.",
+        "truth": "true",
+        "explain": "This is correct: the main view the writer defends. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "relevant support: a reason or example bearing on the stated claim.",
+        "truth": "true",
+        "explain": "This is correct: a reason or example bearing on the stated claim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "counterargument: a relevant objection to the writer’s view.",
+        "truth": "true",
+        "explain": "This is correct: a relevant objection to the writer’s view. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "reasoned response: an answer explaining how an objection is addressed or limits the view.",
+        "truth": "true",
+        "explain": "This is correct: an answer explaining how an objection is addressed or limits the view. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An argument must change to an unrelated position in every paragraph.",
+        "truth": "false",
+        "explain": "A clear position organises the reasoning."
+       },
+       {
+        "text": "Any impressive number counts as evidence even if invented.",
+        "truth": "false",
+        "explain": "Support must be relevant and honestly presented."
+       },
+       {
+        "text": "A counterargument must be an insult to the writer.",
+        "truth": "false",
+        "explain": "An objection can address costs or reasoning without attacking a person."
+       },
+       {
+        "text": "Ignoring an objection automatically refutes it.",
+        "truth": "false",
+        "explain": "A response needs an explanation, not silence or repetition."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-22-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the main view the writer defends?",
+       "r": "position",
+       "w": [
+        "relevant support",
+        "counterargument",
+        "reasoned response"
+       ],
+       "e": [
+        "That concerns a reason or example bearing on the stated claim, rather than the main view the writer defends.",
+        "That concerns a relevant objection to the writer’s view, rather than the main view the writer defends.",
+        "That concerns an answer explaining how an objection is addressed or limits the view, rather than the main view the writer defends."
+       ],
+       "y": "A clear position organises the reasoning."
+      },
+      {
+       "q": "Which term means a reason or example bearing on the stated claim?",
+       "r": "relevant support",
+       "w": [
+        "position",
+        "counterargument",
+        "reasoned response"
+       ],
+       "e": [
+        "That concerns the main view the writer defends, rather than a reason or example bearing on the stated claim.",
+        "That concerns a relevant objection to the writer’s view, rather than a reason or example bearing on the stated claim.",
+        "That concerns an answer explaining how an objection is addressed or limits the view, rather than a reason or example bearing on the stated claim."
+       ],
+       "y": "Support must be relevant and honestly presented."
+      },
+      {
+       "q": "Which term means a relevant objection to the writer’s view?",
+       "r": "counterargument",
+       "w": [
+        "position",
+        "relevant support",
+        "reasoned response"
+       ],
+       "e": [
+        "That concerns the main view the writer defends, rather than a relevant objection to the writer’s view.",
+        "That concerns a reason or example bearing on the stated claim, rather than a relevant objection to the writer’s view.",
+        "That concerns an answer explaining how an objection is addressed or limits the view, rather than a relevant objection to the writer’s view."
+       ],
+       "y": "An objection can address costs or reasoning without attacking a person."
+      },
+      {
+       "q": "Which term means an answer explaining how an objection is addressed or limits the view?",
+       "r": "reasoned response",
+       "w": [
+        "position",
+        "relevant support",
+        "counterargument"
+       ],
+       "e": [
+        "That concerns the main view the writer defends, rather than an answer explaining how an objection is addressed or limits the view.",
+        "That concerns a reason or example bearing on the stated claim, rather than an answer explaining how an objection is addressed or limits the view.",
+        "That concerns a relevant objection to the writer’s view, rather than an answer explaining how an objection is addressed or limits the view."
+       ],
+       "y": "A response needs an explanation, not silence or repetition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-22-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model supports a purposeful reading club.\nWhich description best fits the selected feature?",
+       "r": "position",
+       "w": [
+        "relevant support",
+        "counterargument",
+        "reasoned response"
+       ],
+       "e": [
+        "That means a reason or example bearing on the stated claim. The selected feature instead illustrates the main view the writer defends.",
+        "That means a relevant objection to the writer’s view. The selected feature instead illustrates the main view the writer defends.",
+        "That means an answer explaining how an objection is addressed or limits the view. The selected feature instead illustrates the main view the writer defends."
+       ],
+       "y": "A clear position organises the reasoning."
+      },
+      {
+       "q": "Comparing interpretations illustrates a learning benefit.\nWhich description best fits the selected feature?",
+       "r": "relevant support",
+       "w": [
+        "position",
+        "counterargument",
+        "reasoned response"
+       ],
+       "e": [
+        "That means the main view the writer defends. The selected feature instead illustrates a reason or example bearing on the stated claim.",
+        "That means a relevant objection to the writer’s view. The selected feature instead illustrates a reason or example bearing on the stated claim.",
+        "That means an answer explaining how an objection is addressed or limits the view. The selected feature instead illustrates a reason or example bearing on the stated claim."
+       ],
+       "y": "Support must be relevant and honestly presented."
+      },
+      {
+       "q": "The model recognises the time that meetings use.\nWhich description best fits the selected feature?",
+       "r": "counterargument",
+       "w": [
+        "position",
+        "relevant support",
+        "reasoned response"
+       ],
+       "e": [
+        "That means the main view the writer defends. The selected feature instead illustrates a relevant objection to the writer’s view.",
+        "That means a reason or example bearing on the stated claim. The selected feature instead illustrates a relevant objection to the writer’s view.",
+        "That means an answer explaining how an objection is addressed or limits the view. The selected feature instead illustrates a relevant objection to the writer’s view."
+       ],
+       "y": "An objection can address costs or reasoning without attacking a person."
+      },
+      {
+       "q": "Focused tasks and suitable timing answer part of the time concern.\nWhich description best fits the selected feature?",
+       "r": "reasoned response",
+       "w": [
+        "position",
+        "relevant support",
+        "counterargument"
+       ],
+       "e": [
+        "That means the main view the writer defends. The selected feature instead illustrates an answer explaining how an objection is addressed or limits the view.",
+        "That means a reason or example bearing on the stated claim. The selected feature instead illustrates an answer explaining how an objection is addressed or limits the view.",
+        "That means a relevant objection to the writer’s view. The selected feature instead illustrates an answer explaining how an objection is addressed or limits the view."
+       ],
+       "y": "A response needs an explanation, not silence or repetition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-22-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "A clear purpose guides the response.",
+       "b": "A clear purpose guides the response."
+      },
+      {
+       "a": "The audience shapes the language.",
+       "b": "The audience shapes the language."
+      },
+      {
+       "a": "Supporting details develop the main idea.",
+       "b": "Supporting details develop the main idea."
+      },
+      {
+       "a": "A final check improves the draft.",
+       "b": "A final check improves the draft."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e4-22-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "position",
+     "right": "The model supports a purposeful reading club."
+    },
+    {
+     "left": "relevant support",
+     "right": "Comparing interpretations illustrates a learning benefit."
+    },
+    {
+     "left": "counterargument",
+     "right": "The model recognises the time that meetings use."
+    },
+    {
+     "left": "reasoned response",
+     "right": "Focused tasks and suitable timing answer part of the time concern."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-22-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "position: the main view the writer defends.",
+      "truth": "true",
+      "explain": "This is correct: the main view the writer defends. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "relevant support: a reason or example bearing on the stated claim.",
+      "truth": "true",
+      "explain": "This is correct: a reason or example bearing on the stated claim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "counterargument: a relevant objection to the writer’s view.",
+      "truth": "true",
+      "explain": "This is correct: a relevant objection to the writer’s view. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "reasoned response: an answer explaining how an objection is addressed or limits the view.",
+      "truth": "true",
+      "explain": "This is correct: an answer explaining how an objection is addressed or limits the view. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An argument must change to an unrelated position in every paragraph.",
+      "truth": "false",
+      "explain": "A clear position organises the reasoning."
+     },
+     {
+      "text": "Any impressive number counts as evidence even if invented.",
+      "truth": "false",
+      "explain": "Support must be relevant and honestly presented."
+     },
+     {
+      "text": "A counterargument must be an insult to the writer.",
+      "truth": "false",
+      "explain": "An objection can address costs or reasoning without attacking a person."
+     },
+     {
+      "text": "Ignoring an objection automatically refutes it.",
+      "truth": "false",
+      "explain": "A response needs an explanation, not silence or repetition."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Write an argumentative essay on whether a school club can complement individual study. State a view, develop reasons, address a fair objection and reach a supported conclusion. Label invented examples and do not fabricate statistics.",
+  "model": [
+   "Original model: A school reading club can be useful when it provides structured discussion. Members can compare interpretations and explain their reasons rather than merely exchange answers. Some may object that meetings take time from individual study. This concern matters, so a club should use suitable meeting times and focused tasks. Participation should be purposeful, not compulsory busywork. A well-organised club can therefore complement individual reading, although its value depends on how members use it."
+  ],
+  "checklist": [
+   "My position and reasons are clear.",
+   "My support is relevant and I address an objection fairly.",
+   "My conclusion follows my reasoning and my language remains respectful."
+  ]
+ }
+}

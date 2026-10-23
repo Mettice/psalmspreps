@@ -1,0 +1,604 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  12,
+  17
+ ],
+ "skills": [
+  {
+   "id": "e4-18",
+   "name": "Prepositions of time, place, purpose and direction"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Prepositions express relations such as time, location or movement. In a simple school model, at can mark a clock time, on a day/date and in a longer period. In and on can locate something inside a space or on a surface; to can mark destination and into movement inside. For + noun can express purpose or intended use; to + base verb is an infinitive purpose construction, not the same grammatical pattern. Fixed combinations and context create exceptions, so do not apply a single word rule everywhere.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to choose a preposition or related purpose construction from the meaning of the whole phrase. Builds on: adverbials and clause relationships. Leads to: accurate descriptions, reports and movement narratives."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Prepositions express relations such as time, location or movement. In a simple school model, at can mark a clock time, on a day/date and in a longer period. In and on can locate something inside a space or on a surface; to can mark destination and into movement inside. For + noun can express purpose or intended use; to + base verb is an infinitive purpose construction, not the same grammatical pattern. Fixed combinations and context create exceptions, so do not apply a single word rule everywhere."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: The club meets on Monday in the afternoon. Bih waits at the entrance, walks into the room and puts a notebook on the table. A shelf is for books; members gather to read. The direction into differs from a position already in the room. Read the complete relation before choosing a small word."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Ask whether the phrase gives time, position, movement or purpose. Check what follows: for a noun, to a base verb in the purpose model. Do not confuse the prepositional use of to before a destination with every infinitive use of to."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "time relation",
+    "meaning": "a phrase locating an event in a temporal frame"
+   },
+   {
+    "word": "position",
+    "meaning": "a location without asserting movement into it"
+   },
+   {
+    "word": "direction",
+    "meaning": "a relation showing movement towards or into a place"
+   },
+   {
+    "word": "purpose construction",
+    "meaning": "wording expressing intended use or aim"
+   }
+  ],
+  "mistake": {
+   "wrong": "On Monday gives the direction of movement.",
+   "right": "time relation: a phrase locating an event in a temporal frame.",
+   "why": "The named day locates time rather than destination."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The club meets on Monday. Explain the selected feature.",
+  "steps": [
+   "A phrase locating an event in a temporal frame.",
+   "The named day locates time rather than destination."
+  ],
+  "answer": "time relation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-18-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "time relation: a phrase locating an event in a temporal frame.",
+     "position: a location without asserting movement into it.",
+     "direction: a relation showing movement towards or into a place.",
+     "purpose construction: wording expressing intended use or aim."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-18-terms"
+    }
+   },
+   {
+    "id": "e4-18-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The club meets on Monday.",
+     "The notebook is on the table.",
+     "Bih walks into the room.",
+     "A shelf is for books; members meet to read."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-18-cases"
+    }
+   },
+   {
+    "id": "e4-18-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "On Monday gives the direction of movement. Correction: The named day locates time rather than destination.",
+     "On the table always means moving inside the table. Correction: It states where the notebook is in this model.",
+     "Into can only describe a stationary position with no movement. Correction: Into expresses the movement inside here.",
+     "For books and to read must have identical grammatical structure. Correction: A noun phrase after for differs from an infinitive after to."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-18-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "time relation: a phrase locating an event in a temporal frame.",
+        "truth": "true",
+        "explain": "This is correct: a phrase locating an event in a temporal frame. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "position: a location without asserting movement into it.",
+        "truth": "true",
+        "explain": "This is correct: a location without asserting movement into it. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "direction: a relation showing movement towards or into a place.",
+        "truth": "true",
+        "explain": "This is correct: a relation showing movement towards or into a place. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "purpose construction: wording expressing intended use or aim.",
+        "truth": "true",
+        "explain": "This is correct: wording expressing intended use or aim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "On Monday gives the direction of movement.",
+        "truth": "false",
+        "explain": "The named day locates time rather than destination."
+       },
+       {
+        "text": "On the table always means moving inside the table.",
+        "truth": "false",
+        "explain": "It states where the notebook is in this model."
+       },
+       {
+        "text": "Into can only describe a stationary position with no movement.",
+        "truth": "false",
+        "explain": "Into expresses the movement inside here."
+       },
+       {
+        "text": "For books and to read must have identical grammatical structure.",
+        "truth": "false",
+        "explain": "A noun phrase after for differs from an infinitive after to."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-18-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a phrase locating an event in a temporal frame?",
+       "r": "time relation",
+       "w": [
+        "position",
+        "direction",
+        "purpose construction"
+       ],
+       "e": [
+        "That concerns a location without asserting movement into it, rather than a phrase locating an event in a temporal frame.",
+        "That concerns a relation showing movement towards or into a place, rather than a phrase locating an event in a temporal frame.",
+        "That concerns wording expressing intended use or aim, rather than a phrase locating an event in a temporal frame."
+       ],
+       "y": "The named day locates time rather than destination."
+      },
+      {
+       "q": "Which term means a location without asserting movement into it?",
+       "r": "position",
+       "w": [
+        "time relation",
+        "direction",
+        "purpose construction"
+       ],
+       "e": [
+        "That concerns a phrase locating an event in a temporal frame, rather than a location without asserting movement into it.",
+        "That concerns a relation showing movement towards or into a place, rather than a location without asserting movement into it.",
+        "That concerns wording expressing intended use or aim, rather than a location without asserting movement into it."
+       ],
+       "y": "It states where the notebook is in this model."
+      },
+      {
+       "q": "Which term means a relation showing movement towards or into a place?",
+       "r": "direction",
+       "w": [
+        "time relation",
+        "position",
+        "purpose construction"
+       ],
+       "e": [
+        "That concerns a phrase locating an event in a temporal frame, rather than a relation showing movement towards or into a place.",
+        "That concerns a location without asserting movement into it, rather than a relation showing movement towards or into a place.",
+        "That concerns wording expressing intended use or aim, rather than a relation showing movement towards or into a place."
+       ],
+       "y": "Into expresses the movement inside here."
+      },
+      {
+       "q": "Which term means wording expressing intended use or aim?",
+       "r": "purpose construction",
+       "w": [
+        "time relation",
+        "position",
+        "direction"
+       ],
+       "e": [
+        "That concerns a phrase locating an event in a temporal frame, rather than wording expressing intended use or aim.",
+        "That concerns a location without asserting movement into it, rather than wording expressing intended use or aim.",
+        "That concerns a relation showing movement towards or into a place, rather than wording expressing intended use or aim."
+       ],
+       "y": "A noun phrase after for differs from an infinitive after to."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-18-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The club meets on Monday.\nWhich description best fits the selected feature?",
+       "r": "time relation",
+       "w": [
+        "position",
+        "direction",
+        "purpose construction"
+       ],
+       "e": [
+        "That means a location without asserting movement into it. The selected feature instead illustrates a phrase locating an event in a temporal frame.",
+        "That means a relation showing movement towards or into a place. The selected feature instead illustrates a phrase locating an event in a temporal frame.",
+        "That means wording expressing intended use or aim. The selected feature instead illustrates a phrase locating an event in a temporal frame."
+       ],
+       "y": "The named day locates time rather than destination."
+      },
+      {
+       "q": "The notebook is on the table.\nWhich description best fits the selected feature?",
+       "r": "position",
+       "w": [
+        "time relation",
+        "direction",
+        "purpose construction"
+       ],
+       "e": [
+        "That means a phrase locating an event in a temporal frame. The selected feature instead illustrates a location without asserting movement into it.",
+        "That means a relation showing movement towards or into a place. The selected feature instead illustrates a location without asserting movement into it.",
+        "That means wording expressing intended use or aim. The selected feature instead illustrates a location without asserting movement into it."
+       ],
+       "y": "It states where the notebook is in this model."
+      },
+      {
+       "q": "Bih walks into the room.\nWhich description best fits the selected feature?",
+       "r": "direction",
+       "w": [
+        "time relation",
+        "position",
+        "purpose construction"
+       ],
+       "e": [
+        "That means a phrase locating an event in a temporal frame. The selected feature instead illustrates a relation showing movement towards or into a place.",
+        "That means a location without asserting movement into it. The selected feature instead illustrates a relation showing movement towards or into a place.",
+        "That means wording expressing intended use or aim. The selected feature instead illustrates a relation showing movement towards or into a place."
+       ],
+       "y": "Into expresses the movement inside here."
+      },
+      {
+       "q": "A shelf is for books; members meet to read.\nWhich description best fits the selected feature?",
+       "r": "purpose construction",
+       "w": [
+        "time relation",
+        "position",
+        "direction"
+       ],
+       "e": [
+        "That means a phrase locating an event in a temporal frame. The selected feature instead illustrates wording expressing intended use or aim.",
+        "That means a location without asserting movement into it. The selected feature instead illustrates wording expressing intended use or aim.",
+        "That means a relation showing movement towards or into a place. The selected feature instead illustrates wording expressing intended use or aim."
+       ],
+       "y": "A noun phrase after for differs from an infinitive after to."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-18-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complete the day phrase: We meet ___ Monday.",
+       "r": "on",
+       "w": [
+        "into",
+        "through",
+        "under"
+       ],
+       "e": [
+        "Into expresses a different relation.",
+        "Through is not the day preposition in this model.",
+        "Under does not mark the day here."
+       ],
+       "y": "Use on for the named day in this model."
+      },
+      {
+       "q": "Choose the movement inside.",
+       "r": "Bih walks into the room.",
+       "w": [
+        "Bih walks under Monday.",
+        "Bih walks for read.",
+        "Bih walks in tomorrow the room."
+       ],
+       "e": [
+        "This mixes place and time without sense.",
+        "For read is not the required movement pattern.",
+        "The phrase is malformed and does not give the requested model."
+       ],
+       "y": "Into marks movement inside."
+      },
+      {
+       "q": "Complete the purpose: We meet ___ discuss books.",
+       "r": "to",
+       "w": [
+        "for",
+        "on",
+        "at"
+       ],
+       "e": [
+        "For would need another construction, such as for discussion.",
+        "On does not form this infinitive purpose.",
+        "At does not form this infinitive purpose."
+       ],
+       "y": "To plus base discuss expresses the purpose."
+      },
+      {
+       "q": "Complete the surface position: The book is ___ the table.",
+       "r": "on",
+       "w": [
+        "into",
+        "towards",
+        "throughout"
+       ],
+       "e": [
+        "Into suggests movement inside, not the stated surface position.",
+        "Towards gives direction.",
+        "Throughout does not express this ordinary surface relation."
+       ],
+       "y": "On expresses the surface position."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-18-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "time relation",
+     "right": "The club meets on Monday."
+    },
+    {
+     "left": "position",
+     "right": "The notebook is on the table."
+    },
+    {
+     "left": "direction",
+     "right": "Bih walks into the room."
+    },
+    {
+     "left": "purpose construction",
+     "right": "A shelf is for books; members meet to read."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-18-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "time relation: a phrase locating an event in a temporal frame.",
+      "truth": "true",
+      "explain": "This is correct: a phrase locating an event in a temporal frame. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "position: a location without asserting movement into it.",
+      "truth": "true",
+      "explain": "This is correct: a location without asserting movement into it. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "direction: a relation showing movement towards or into a place.",
+      "truth": "true",
+      "explain": "This is correct: a relation showing movement towards or into a place. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "purpose construction: wording expressing intended use or aim.",
+      "truth": "true",
+      "explain": "This is correct: wording expressing intended use or aim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On Monday gives the direction of movement.",
+      "truth": "false",
+      "explain": "The named day locates time rather than destination."
+     },
+     {
+      "text": "On the table always means moving inside the table.",
+      "truth": "false",
+      "explain": "It states where the notebook is in this model."
+     },
+     {
+      "text": "Into can only describe a stationary position with no movement.",
+      "truth": "false",
+      "explain": "Into expresses the movement inside here."
+     },
+     {
+      "text": "For books and to read must have identical grammatical structure.",
+      "truth": "false",
+      "explain": "A noun phrase after for differs from an infinitive after to."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,603 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "e4-15",
+   "name": "Future reference with will and other forms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Will + base verb can express a prediction, offer or decision, depending on context. Do not add -s or to to the lexical verb after will. Future reference also uses other patterns: be going to for a prior intention or evidence-based prediction, present progressive for an arrangement and simple present for a timetable. These uses overlap in real language. An exercise should specify its intended context rather than mark every alternative future form wrong.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to form will plus a base verb and choose a future expression suited to its context. Builds on: the simple present/past contrast and auxiliary patterns. Leads to: conditional sentences about possible future situations."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Will + base verb can express a prediction, offer or decision, depending on context. Do not add -s or to to the lexical verb after will. Future reference also uses other patterns: be going to for a prior intention or evidence-based prediction, present progressive for an arrangement and simple present for a timetable. These uses overlap in real language. An exercise should specify its intended context rather than mark every alternative future form wrong."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original dialogue: Bih notices the books on the floor and says, I will help. Ayuk already has a plan: I am going to organise the shelf. Their agreed meeting is tomorrow, while the printed timetable gives a fixed opening time. Each choice presents the future differently; will does not automatically mean a guaranteed fact."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify prediction, immediate offer, prior plan, arrangement or timetable. Check the auxiliary and base form. A question with will places it before the subject. Keep the same meaning when correcting the form rather than inventing a new intention."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "will + base verb",
+    "meaning": "a future-reference pattern without an added -s or to"
+   },
+   {
+    "word": "immediate offer",
+    "meaning": "a willingness to act expressed in response to the situation"
+   },
+   {
+    "word": "prior intention",
+    "meaning": "a plan already formed before the current exchange"
+   },
+   {
+    "word": "timetable reference",
+    "meaning": "future reference using a scheduled event"
+   }
+  ],
+  "mistake": {
+   "wrong": "Bih will helps is the standard pattern.",
+   "right": "will + base verb: a future-reference pattern without an added -s or to.",
+   "why": "The lexical verb stays in its base form after will."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih will help with the books. Explain the selected feature.",
+  "steps": [
+   "A future-reference pattern without an added -s or to.",
+   "The lexical verb stays in its base form after will."
+  ],
+  "answer": "will + base verb",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-15-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "will + base verb: a future-reference pattern without an added -s or to.",
+     "immediate offer: a willingness to act expressed in response to the situation.",
+     "prior intention: a plan already formed before the current exchange.",
+     "timetable reference: future reference using a scheduled event."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-15-terms"
+    }
+   },
+   {
+    "id": "e4-15-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Bih will help with the books.",
+     "Seeing a difficulty, Bih says I will help.",
+     "Ayuk says he is going to organise the shelf he planned to sort.",
+     "The printed notice says the room opens tomorrow morning."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-15-cases"
+    }
+   },
+   {
+    "id": "e4-15-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Bih will helps is the standard pattern. Correction: The lexical verb stays in its base form after will.",
+     "An immediate offer must always describe a completed past event. Correction: The speaker offers a response at that point.",
+     "Every future plan can only be expressed with one form in every context. Correction: Going to is a useful model for the prior intention, without excluding all alternatives.",
+     "A present form can never refer to a scheduled future event. Correction: Simple present can describe timetable events."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-15-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "will + base verb: a future-reference pattern without an added -s or to.",
+        "truth": "true",
+        "explain": "This is correct: a future-reference pattern without an added -s or to. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "immediate offer: a willingness to act expressed in response to the situation.",
+        "truth": "true",
+        "explain": "This is correct: a willingness to act expressed in response to the situation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "prior intention: a plan already formed before the current exchange.",
+        "truth": "true",
+        "explain": "This is correct: a plan already formed before the current exchange. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "timetable reference: future reference using a scheduled event.",
+        "truth": "true",
+        "explain": "This is correct: future reference using a scheduled event. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Bih will helps is the standard pattern.",
+        "truth": "false",
+        "explain": "The lexical verb stays in its base form after will."
+       },
+       {
+        "text": "An immediate offer must always describe a completed past event.",
+        "truth": "false",
+        "explain": "The speaker offers a response at that point."
+       },
+       {
+        "text": "Every future plan can only be expressed with one form in every context.",
+        "truth": "false",
+        "explain": "Going to is a useful model for the prior intention, without excluding all alternatives."
+       },
+       {
+        "text": "A present form can never refer to a scheduled future event.",
+        "truth": "false",
+        "explain": "Simple present can describe timetable events."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-15-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a future-reference pattern without an added -s or to?",
+       "r": "will + base verb",
+       "w": [
+        "immediate offer",
+        "prior intention",
+        "timetable reference"
+       ],
+       "e": [
+        "That concerns a willingness to act expressed in response to the situation, rather than a future-reference pattern without an added -s or to.",
+        "That concerns a plan already formed before the current exchange, rather than a future-reference pattern without an added -s or to.",
+        "That concerns future reference using a scheduled event, rather than a future-reference pattern without an added -s or to."
+       ],
+       "y": "The lexical verb stays in its base form after will."
+      },
+      {
+       "q": "Which term means a willingness to act expressed in response to the situation?",
+       "r": "immediate offer",
+       "w": [
+        "will + base verb",
+        "prior intention",
+        "timetable reference"
+       ],
+       "e": [
+        "That concerns a future-reference pattern without an added -s or to, rather than a willingness to act expressed in response to the situation.",
+        "That concerns a plan already formed before the current exchange, rather than a willingness to act expressed in response to the situation.",
+        "That concerns future reference using a scheduled event, rather than a willingness to act expressed in response to the situation."
+       ],
+       "y": "The speaker offers a response at that point."
+      },
+      {
+       "q": "Which term means a plan already formed before the current exchange?",
+       "r": "prior intention",
+       "w": [
+        "will + base verb",
+        "immediate offer",
+        "timetable reference"
+       ],
+       "e": [
+        "That concerns a future-reference pattern without an added -s or to, rather than a plan already formed before the current exchange.",
+        "That concerns a willingness to act expressed in response to the situation, rather than a plan already formed before the current exchange.",
+        "That concerns future reference using a scheduled event, rather than a plan already formed before the current exchange."
+       ],
+       "y": "Going to is a useful model for the prior intention, without excluding all alternatives."
+      },
+      {
+       "q": "Which term means future reference using a scheduled event?",
+       "r": "timetable reference",
+       "w": [
+        "will + base verb",
+        "immediate offer",
+        "prior intention"
+       ],
+       "e": [
+        "That concerns a future-reference pattern without an added -s or to, rather than future reference using a scheduled event.",
+        "That concerns a willingness to act expressed in response to the situation, rather than future reference using a scheduled event.",
+        "That concerns a plan already formed before the current exchange, rather than future reference using a scheduled event."
+       ],
+       "y": "Simple present can describe timetable events."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-15-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih will help with the books.\nWhich description best fits the selected feature?",
+       "r": "will + base verb",
+       "w": [
+        "immediate offer",
+        "prior intention",
+        "timetable reference"
+       ],
+       "e": [
+        "That means a willingness to act expressed in response to the situation. The selected feature instead illustrates a future-reference pattern without an added -s or to.",
+        "That means a plan already formed before the current exchange. The selected feature instead illustrates a future-reference pattern without an added -s or to.",
+        "That means future reference using a scheduled event. The selected feature instead illustrates a future-reference pattern without an added -s or to."
+       ],
+       "y": "The lexical verb stays in its base form after will."
+      },
+      {
+       "q": "Seeing a difficulty, Bih says I will help.\nWhich description best fits the selected feature?",
+       "r": "immediate offer",
+       "w": [
+        "will + base verb",
+        "prior intention",
+        "timetable reference"
+       ],
+       "e": [
+        "That means a future-reference pattern without an added -s or to. The selected feature instead illustrates a willingness to act expressed in response to the situation.",
+        "That means a plan already formed before the current exchange. The selected feature instead illustrates a willingness to act expressed in response to the situation.",
+        "That means future reference using a scheduled event. The selected feature instead illustrates a willingness to act expressed in response to the situation."
+       ],
+       "y": "The speaker offers a response at that point."
+      },
+      {
+       "q": "Ayuk says he is going to organise the shelf he planned to sort.\nWhich description best fits the selected feature?",
+       "r": "prior intention",
+       "w": [
+        "will + base verb",
+        "immediate offer",
+        "timetable reference"
+       ],
+       "e": [
+        "That means a future-reference pattern without an added -s or to. The selected feature instead illustrates a plan already formed before the current exchange.",
+        "That means a willingness to act expressed in response to the situation. The selected feature instead illustrates a plan already formed before the current exchange.",
+        "That means future reference using a scheduled event. The selected feature instead illustrates a plan already formed before the current exchange."
+       ],
+       "y": "Going to is a useful model for the prior intention, without excluding all alternatives."
+      },
+      {
+       "q": "The printed notice says the room opens tomorrow morning.\nWhich description best fits the selected feature?",
+       "r": "timetable reference",
+       "w": [
+        "will + base verb",
+        "immediate offer",
+        "prior intention"
+       ],
+       "e": [
+        "That means a future-reference pattern without an added -s or to. The selected feature instead illustrates future reference using a scheduled event.",
+        "That means a willingness to act expressed in response to the situation. The selected feature instead illustrates future reference using a scheduled event.",
+        "That means a plan already formed before the current exchange. The selected feature instead illustrates future reference using a scheduled event."
+       ],
+       "y": "Simple present can describe timetable events."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-15-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complete: Bih will ___ the list.",
+       "r": "write",
+       "w": [
+        "writes",
+        "to write",
+        "writing"
+       ],
+       "e": [
+        "Do not add third-person -s after will.",
+        "Will takes a base verb without to.",
+        "An -ing form does not complete this simple will pattern."
+       ],
+       "y": "Will is followed by the base write."
+      },
+      {
+       "q": "Choose the correct question.",
+       "r": "Will Ayuk bring the book?",
+       "w": [
+        "Will Ayuk brings the book?",
+        "Does Ayuk will bring the book?",
+        "Will bring Ayuk the book?"
+       ],
+       "e": [
+        "Use bring without -s.",
+        "Do not combine does and will in this question.",
+        "Place the subject after will."
+       ],
+       "y": "Will precedes the subject and base verb."
+      },
+      {
+       "q": "Choose the complete going-to plan.",
+       "r": "Bih is going to read.",
+       "w": [
+        "Bih going to read.",
+        "Bih is going read.",
+        "Bih is go to read."
+       ],
+       "e": [
+        "The finite form of be is missing.",
+        "The infinitive marker to is missing in this pattern.",
+        "Use going after be here."
+       ],
+       "y": "The pattern is be going to + base verb."
+      },
+      {
+       "q": "Choose a correctly formed negative with will.",
+       "r": "Ayuk will not leave yet.",
+       "w": [
+        "Ayuk will not left yet.",
+        "Ayuk does not will leave yet.",
+        "Ayuk will not leaves yet."
+       ],
+       "e": [
+        "Use base leave after will.",
+        "Will itself forms this negative without does.",
+        "Do not add -s after will."
+       ],
+       "y": "Will not takes the base verb."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-15-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "will + base verb",
+     "right": "Bih will help with the books."
+    },
+    {
+     "left": "immediate offer",
+     "right": "Seeing a difficulty, Bih says I will help."
+    },
+    {
+     "left": "prior intention",
+     "right": "Ayuk says he is going to organise the shelf he planned to sort."
+    },
+    {
+     "left": "timetable reference",
+     "right": "The printed notice says the room opens tomorrow morning."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-15-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "will + base verb: a future-reference pattern without an added -s or to.",
+      "truth": "true",
+      "explain": "This is correct: a future-reference pattern without an added -s or to. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "immediate offer: a willingness to act expressed in response to the situation.",
+      "truth": "true",
+      "explain": "This is correct: a willingness to act expressed in response to the situation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "prior intention: a plan already formed before the current exchange.",
+      "truth": "true",
+      "explain": "This is correct: a plan already formed before the current exchange. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "timetable reference: future reference using a scheduled event.",
+      "truth": "true",
+      "explain": "This is correct: future reference using a scheduled event. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bih will helps is the standard pattern.",
+      "truth": "false",
+      "explain": "The lexical verb stays in its base form after will."
+     },
+     {
+      "text": "An immediate offer must always describe a completed past event.",
+      "truth": "false",
+      "explain": "The speaker offers a response at that point."
+     },
+     {
+      "text": "Every future plan can only be expressed with one form in every context.",
+      "truth": "false",
+      "explain": "Going to is a useful model for the prior intention, without excluding all alternatives."
+     },
+     {
+      "text": "A present form can never refer to a scheduled future event.",
+      "truth": "false",
+      "explain": "Simple present can describe timetable events."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

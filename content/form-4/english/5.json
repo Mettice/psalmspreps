@@ -1,0 +1,545 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  3,
+  4
+ ],
+ "skills": [
+  {
+   "id": "e4-5",
+   "name": "Introduction to directed writing"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Directed writing provides a situation and specific instructions. Identify your role, audience, purpose and required form before drafting. Underline every content point and decide where it belongs. A fluent response can still fail its purpose if it omits an essential instruction or uses the wrong format. Use a suitable tone and distinguish information given by the task from assumptions. Check the completed text against the directions rather than marking it by length alone.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to produce a response that fulfils the specified purpose, audience, form and content points. Builds on: sentence accuracy and familiar school communication. Leads to: essay planning, letters and later talks or reports."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Directed writing provides a situation and specific instructions. Identify your role, audience, purpose and required form before drafting. Underline every content point and decide where it belongs. A fluent response can still fail its purpose if it omits an essential instruction or uses the wrong format. Use a suitable tone and distinguish information given by the task from assumptions. Check the completed text against the directions rather than marking it by length alone."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: CLASSROOM MODEL NOTICE. Reading Club Meeting. Members are invited to a planning meeting in the school library on Monday afternoon. We will choose a shared reading activity and agree how to care for borrowed books. Please bring a suggestion and a notebook. Issued by the fictional club secretary. The model gives audience, place, time and purpose without claiming an actual school event."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Make a short checklist from the prompt. Plan the order, draft the required form and check each point. Add only suitable invented details where the task permits them. Do not replace a requested notice with an unrelated essay simply because its sentences are correct."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "purpose",
+    "meaning": "the result the writing is intended to achieve"
+   },
+   {
+    "word": "audience",
+    "meaning": "the intended readers of the response"
+   },
+   {
+    "word": "required form",
+    "meaning": "the kind of text specified in the instructions"
+   },
+   {
+    "word": "content checklist",
+    "meaning": "a record of the points the prompt requires"
+   }
+  ],
+  "mistake": {
+   "wrong": "A response fulfils every task merely by containing correct spelling.",
+   "right": "purpose: the result the writing is intended to achieve.",
+   "why": "Correct language must also serve the requested purpose."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The notice invites members to a planning meeting. Explain the selected feature.",
+  "steps": [
+   "The result the writing is intended to achieve.",
+   "Correct language must also serve the requested purpose."
+  ],
+  "answer": "purpose",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-5-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "purpose: the result the writing is intended to achieve.",
+     "audience: the intended readers of the response.",
+     "required form: the kind of text specified in the instructions.",
+     "content checklist: a record of the points the prompt requires."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-5-terms"
+    }
+   },
+   {
+    "id": "e4-5-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The notice invites members to a planning meeting.",
+     "The notice addresses reading-club members.",
+     "The instruction asks for a notice rather than an essay.",
+     "The writer checks that place, time and purpose are included."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-5-cases"
+    }
+   },
+   {
+    "id": "e4-5-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A response fulfils every task merely by containing correct spelling. Correction: Correct language must also serve the requested purpose.",
+     "Audience can never affect tone or what must be explained. Correction: Readers’ needs help determine the language and details.",
+     "A notice and a private letter always have the same layout. Correction: The form affects layout and conventions.",
+     "A writer should ignore the required details after choosing a title. Correction: A final checklist catches omissions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-5-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "purpose: the result the writing is intended to achieve.",
+        "truth": "true",
+        "explain": "This is correct: the result the writing is intended to achieve. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "audience: the intended readers of the response.",
+        "truth": "true",
+        "explain": "This is correct: the intended readers of the response. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "required form: the kind of text specified in the instructions.",
+        "truth": "true",
+        "explain": "This is correct: the kind of text specified in the instructions. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "content checklist: a record of the points the prompt requires.",
+        "truth": "true",
+        "explain": "This is correct: a record of the points the prompt requires. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A response fulfils every task merely by containing correct spelling.",
+        "truth": "false",
+        "explain": "Correct language must also serve the requested purpose."
+       },
+       {
+        "text": "Audience can never affect tone or what must be explained.",
+        "truth": "false",
+        "explain": "Readers’ needs help determine the language and details."
+       },
+       {
+        "text": "A notice and a private letter always have the same layout.",
+        "truth": "false",
+        "explain": "The form affects layout and conventions."
+       },
+       {
+        "text": "A writer should ignore the required details after choosing a title.",
+        "truth": "false",
+        "explain": "A final checklist catches omissions."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-5-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the result the writing is intended to achieve?",
+       "r": "purpose",
+       "w": [
+        "audience",
+        "required form",
+        "content checklist"
+       ],
+       "e": [
+        "That concerns the intended readers of the response, rather than the result the writing is intended to achieve.",
+        "That concerns the kind of text specified in the instructions, rather than the result the writing is intended to achieve.",
+        "That concerns a record of the points the prompt requires, rather than the result the writing is intended to achieve."
+       ],
+       "y": "Correct language must also serve the requested purpose."
+      },
+      {
+       "q": "Which term means the intended readers of the response?",
+       "r": "audience",
+       "w": [
+        "purpose",
+        "required form",
+        "content checklist"
+       ],
+       "e": [
+        "That concerns the result the writing is intended to achieve, rather than the intended readers of the response.",
+        "That concerns the kind of text specified in the instructions, rather than the intended readers of the response.",
+        "That concerns a record of the points the prompt requires, rather than the intended readers of the response."
+       ],
+       "y": "Readers’ needs help determine the language and details."
+      },
+      {
+       "q": "Which term means the kind of text specified in the instructions?",
+       "r": "required form",
+       "w": [
+        "purpose",
+        "audience",
+        "content checklist"
+       ],
+       "e": [
+        "That concerns the result the writing is intended to achieve, rather than the kind of text specified in the instructions.",
+        "That concerns the intended readers of the response, rather than the kind of text specified in the instructions.",
+        "That concerns a record of the points the prompt requires, rather than the kind of text specified in the instructions."
+       ],
+       "y": "The form affects layout and conventions."
+      },
+      {
+       "q": "Which term means a record of the points the prompt requires?",
+       "r": "content checklist",
+       "w": [
+        "purpose",
+        "audience",
+        "required form"
+       ],
+       "e": [
+        "That concerns the result the writing is intended to achieve, rather than a record of the points the prompt requires.",
+        "That concerns the intended readers of the response, rather than a record of the points the prompt requires.",
+        "That concerns the kind of text specified in the instructions, rather than a record of the points the prompt requires."
+       ],
+       "y": "A final checklist catches omissions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-5-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The notice invites members to a planning meeting.\nWhich description best fits the selected feature?",
+       "r": "purpose",
+       "w": [
+        "audience",
+        "required form",
+        "content checklist"
+       ],
+       "e": [
+        "That means the intended readers of the response. The selected feature instead illustrates the result the writing is intended to achieve.",
+        "That means the kind of text specified in the instructions. The selected feature instead illustrates the result the writing is intended to achieve.",
+        "That means a record of the points the prompt requires. The selected feature instead illustrates the result the writing is intended to achieve."
+       ],
+       "y": "Correct language must also serve the requested purpose."
+      },
+      {
+       "q": "The notice addresses reading-club members.\nWhich description best fits the selected feature?",
+       "r": "audience",
+       "w": [
+        "purpose",
+        "required form",
+        "content checklist"
+       ],
+       "e": [
+        "That means the result the writing is intended to achieve. The selected feature instead illustrates the intended readers of the response.",
+        "That means the kind of text specified in the instructions. The selected feature instead illustrates the intended readers of the response.",
+        "That means a record of the points the prompt requires. The selected feature instead illustrates the intended readers of the response."
+       ],
+       "y": "Readers’ needs help determine the language and details."
+      },
+      {
+       "q": "The instruction asks for a notice rather than an essay.\nWhich description best fits the selected feature?",
+       "r": "required form",
+       "w": [
+        "purpose",
+        "audience",
+        "content checklist"
+       ],
+       "e": [
+        "That means the result the writing is intended to achieve. The selected feature instead illustrates the kind of text specified in the instructions.",
+        "That means the intended readers of the response. The selected feature instead illustrates the kind of text specified in the instructions.",
+        "That means a record of the points the prompt requires. The selected feature instead illustrates the kind of text specified in the instructions."
+       ],
+       "y": "The form affects layout and conventions."
+      },
+      {
+       "q": "The writer checks that place, time and purpose are included.\nWhich description best fits the selected feature?",
+       "r": "content checklist",
+       "w": [
+        "purpose",
+        "audience",
+        "required form"
+       ],
+       "e": [
+        "That means the result the writing is intended to achieve. The selected feature instead illustrates a record of the points the prompt requires.",
+        "That means the intended readers of the response. The selected feature instead illustrates a record of the points the prompt requires.",
+        "That means the kind of text specified in the instructions. The selected feature instead illustrates a record of the points the prompt requires."
+       ],
+       "y": "A final checklist catches omissions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-5-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "A clear purpose guides the response.",
+       "b": "A clear purpose guides the response."
+      },
+      {
+       "a": "The audience shapes the language.",
+       "b": "The audience shapes the language."
+      },
+      {
+       "a": "Supporting details develop the main idea.",
+       "b": "Supporting details develop the main idea."
+      },
+      {
+       "a": "A final check improves the draft.",
+       "b": "A final check improves the draft."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e4-5-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "purpose",
+     "right": "The notice invites members to a planning meeting."
+    },
+    {
+     "left": "audience",
+     "right": "The notice addresses reading-club members."
+    },
+    {
+     "left": "required form",
+     "right": "The instruction asks for a notice rather than an essay."
+    },
+    {
+     "left": "content checklist",
+     "right": "The writer checks that place, time and purpose are included."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-5-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "purpose: the result the writing is intended to achieve.",
+      "truth": "true",
+      "explain": "This is correct: the result the writing is intended to achieve. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "audience: the intended readers of the response.",
+      "truth": "true",
+      "explain": "This is correct: the intended readers of the response. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "required form: the kind of text specified in the instructions.",
+      "truth": "true",
+      "explain": "This is correct: the kind of text specified in the instructions. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "content checklist: a record of the points the prompt requires.",
+      "truth": "true",
+      "explain": "This is correct: a record of the points the prompt requires. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A response fulfils every task merely by containing correct spelling.",
+      "truth": "false",
+      "explain": "Correct language must also serve the requested purpose."
+     },
+     {
+      "text": "Audience can never affect tone or what must be explained.",
+      "truth": "false",
+      "explain": "Readers’ needs help determine the language and details."
+     },
+     {
+      "text": "A notice and a private letter always have the same layout.",
+      "truth": "false",
+      "explain": "The form affects layout and conventions."
+     },
+     {
+      "text": "A writer should ignore the required details after choosing a title.",
+      "truth": "false",
+      "explain": "A final checklist catches omissions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "You are secretary of a fictional school reading club. Write a notice inviting members to a planning meeting. Give the audience, place, time, purpose and something members should bring. Use no private contact details.",
+  "model": [
+   "CLASSROOM MODEL NOTICE. Reading Club Meeting. Members are invited to a planning meeting in the school library on Monday afternoon. We will choose a shared reading activity and agree how to care for borrowed books. Please bring a suggestion and a notebook. Issued by the fictional club secretary. The model gives audience, place, time and purpose without claiming an actual school event."
+  ],
+  "checklist": [
+   "My notice fulfils the stated role, audience and purpose.",
+   "Every required content point appears.",
+   "My tone, layout, sentences and spelling suit a notice."
+  ]
+ }
+}

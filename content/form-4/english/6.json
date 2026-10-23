@@ -1,0 +1,683 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "e4-6",
+   "name": "Written preparation: studying-skills listening script"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "This is written preparation for a listening lesson. Read the original script for meaning, key information and unknown words. It provides no audio and cannot assess listening comprehension. A teacher or recording should later supply an oral version; the questions here assess the written script. Identify the main idea and locate evidence for each answer. A question may concern a detail, reason, sequence or word in context. If the text omits information, do not supply an invented fact. A plausible outcome is not necessarily a reported result.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to extract the main idea and supporting details from an original study-skills script. Builds on: directed writing and organising task points. Leads to: later listening practice and evidence-based reading."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "This is written preparation for a listening lesson. Read the original script for meaning, key information and unknown words. It provides no audio and cannot assess listening comprehension. A teacher or recording should later supply an oral version; the questions here assess the written script. Identify the main idea and locate evidence for each answer. A question may concern a detail, reason, sequence or word in context. If the text omits information, do not supply an invented fact. A plausible outcome is not necessarily a reported result."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original script: Bih recognises definitions while reading but cannot explain them later. Ayuk suggests closing the book, recalling one idea and then checking it. They agree to alternate questions after household tasks. Bih says the first attempt may show gaps; correcting those gaps matters more than copying an answer. Their plan does not promise instant success or give a fixed study timetable for every pupil."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Read the whole passage before answering. Point to a phrase supporting the answer and explain any inference. When summarising, preserve who did what and whether an action was planned or completed. These original classroom texts are not extracts from prescribed literature."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "explicit detail",
+    "meaning": "information directly stated in the passage"
+   },
+   {
+    "word": "supported inference",
+    "meaning": "an interpretation linked to clues in the passage"
+   },
+   {
+    "word": "main idea",
+    "meaning": "the central message organising the passage"
+   },
+   {
+    "word": "information not supplied",
+    "meaning": "a detail the passage does not allow the reader to determine"
+   }
+  ],
+  "mistake": {
+   "wrong": "An explicit detail is always something invented by the reader.",
+   "right": "explicit detail: information directly stated in the passage.",
+   "why": "Direct information appears in the passage."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The reader repeats a place or action the passage actually states. Explain the selected feature.",
+  "steps": [
+   "Information directly stated in the passage.",
+   "Direct information appears in the passage."
+  ],
+  "answer": "explicit detail",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-6-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "explicit detail: information directly stated in the passage.",
+     "supported inference: an interpretation linked to clues in the passage.",
+     "main idea: the central message organising the passage.",
+     "information not supplied: a detail the passage does not allow the reader to determine."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-6-terms"
+    }
+   },
+   {
+    "id": "e4-6-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The reader repeats a place or action the passage actually states.",
+     "The reader explains a possible intention using described actions.",
+     "A summary brings together the important actions without unrelated additions.",
+     "The reader refuses to invent a price or result that is absent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-6-cases"
+    }
+   },
+   {
+    "id": "e4-6-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "An explicit detail is always something invented by the reader. Correction: Direct information appears in the passage.",
+     "Any private guess is a proven inference. Correction: An inference needs textual support.",
+     "A random minor word always gives the complete main idea. Correction: The main idea must represent the relevant whole.",
+     "An absent detail must always be replaced with a guessed number. Correction: A faithful answer acknowledges missing information."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-6-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "explicit detail: information directly stated in the passage.",
+        "truth": "true",
+        "explain": "This is correct: information directly stated in the passage. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "supported inference: an interpretation linked to clues in the passage.",
+        "truth": "true",
+        "explain": "This is correct: an interpretation linked to clues in the passage. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "main idea: the central message organising the passage.",
+        "truth": "true",
+        "explain": "This is correct: the central message organising the passage. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "information not supplied: a detail the passage does not allow the reader to determine.",
+        "truth": "true",
+        "explain": "This is correct: a detail the passage does not allow the reader to determine. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An explicit detail is always something invented by the reader.",
+        "truth": "false",
+        "explain": "Direct information appears in the passage."
+       },
+       {
+        "text": "Any private guess is a proven inference.",
+        "truth": "false",
+        "explain": "An inference needs textual support."
+       },
+       {
+        "text": "A random minor word always gives the complete main idea.",
+        "truth": "false",
+        "explain": "The main idea must represent the relevant whole."
+       },
+       {
+        "text": "An absent detail must always be replaced with a guessed number.",
+        "truth": "false",
+        "explain": "A faithful answer acknowledges missing information."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means information directly stated in the passage?",
+       "r": "explicit detail",
+       "w": [
+        "supported inference",
+        "main idea",
+        "information not supplied"
+       ],
+       "e": [
+        "That concerns an interpretation linked to clues in the passage, rather than information directly stated in the passage.",
+        "That concerns the central message organising the passage, rather than information directly stated in the passage.",
+        "That concerns a detail the passage does not allow the reader to determine, rather than information directly stated in the passage."
+       ],
+       "y": "Direct information appears in the passage."
+      },
+      {
+       "q": "Which term means an interpretation linked to clues in the passage?",
+       "r": "supported inference",
+       "w": [
+        "explicit detail",
+        "main idea",
+        "information not supplied"
+       ],
+       "e": [
+        "That concerns information directly stated in the passage, rather than an interpretation linked to clues in the passage.",
+        "That concerns the central message organising the passage, rather than an interpretation linked to clues in the passage.",
+        "That concerns a detail the passage does not allow the reader to determine, rather than an interpretation linked to clues in the passage."
+       ],
+       "y": "An inference needs textual support."
+      },
+      {
+       "q": "Which term means the central message organising the passage?",
+       "r": "main idea",
+       "w": [
+        "explicit detail",
+        "supported inference",
+        "information not supplied"
+       ],
+       "e": [
+        "That concerns information directly stated in the passage, rather than the central message organising the passage.",
+        "That concerns an interpretation linked to clues in the passage, rather than the central message organising the passage.",
+        "That concerns a detail the passage does not allow the reader to determine, rather than the central message organising the passage."
+       ],
+       "y": "The main idea must represent the relevant whole."
+      },
+      {
+       "q": "Which term means a detail the passage does not allow the reader to determine?",
+       "r": "information not supplied",
+       "w": [
+        "explicit detail",
+        "supported inference",
+        "main idea"
+       ],
+       "e": [
+        "That concerns information directly stated in the passage, rather than a detail the passage does not allow the reader to determine.",
+        "That concerns an interpretation linked to clues in the passage, rather than a detail the passage does not allow the reader to determine.",
+        "That concerns the central message organising the passage, rather than a detail the passage does not allow the reader to determine."
+       ],
+       "y": "A faithful answer acknowledges missing information."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The reader repeats a place or action the passage actually states.\nWhich description best fits the selected feature?",
+       "r": "explicit detail",
+       "w": [
+        "supported inference",
+        "main idea",
+        "information not supplied"
+       ],
+       "e": [
+        "That means an interpretation linked to clues in the passage. The selected feature instead illustrates information directly stated in the passage.",
+        "That means the central message organising the passage. The selected feature instead illustrates information directly stated in the passage.",
+        "That means a detail the passage does not allow the reader to determine. The selected feature instead illustrates information directly stated in the passage."
+       ],
+       "y": "Direct information appears in the passage."
+      },
+      {
+       "q": "The reader explains a possible intention using described actions.\nWhich description best fits the selected feature?",
+       "r": "supported inference",
+       "w": [
+        "explicit detail",
+        "main idea",
+        "information not supplied"
+       ],
+       "e": [
+        "That means information directly stated in the passage. The selected feature instead illustrates an interpretation linked to clues in the passage.",
+        "That means the central message organising the passage. The selected feature instead illustrates an interpretation linked to clues in the passage.",
+        "That means a detail the passage does not allow the reader to determine. The selected feature instead illustrates an interpretation linked to clues in the passage."
+       ],
+       "y": "An inference needs textual support."
+      },
+      {
+       "q": "A summary brings together the important actions without unrelated additions.\nWhich description best fits the selected feature?",
+       "r": "main idea",
+       "w": [
+        "explicit detail",
+        "supported inference",
+        "information not supplied"
+       ],
+       "e": [
+        "That means information directly stated in the passage. The selected feature instead illustrates the central message organising the passage.",
+        "That means an interpretation linked to clues in the passage. The selected feature instead illustrates the central message organising the passage.",
+        "That means a detail the passage does not allow the reader to determine. The selected feature instead illustrates the central message organising the passage."
+       ],
+       "y": "The main idea must represent the relevant whole."
+      },
+      {
+       "q": "The reader refuses to invent a price or result that is absent.\nWhich description best fits the selected feature?",
+       "r": "information not supplied",
+       "w": [
+        "explicit detail",
+        "supported inference",
+        "main idea"
+       ],
+       "e": [
+        "That means information directly stated in the passage. The selected feature instead illustrates a detail the passage does not allow the reader to determine.",
+        "That means an interpretation linked to clues in the passage. The selected feature instead illustrates a detail the passage does not allow the reader to determine.",
+        "That means the central message organising the passage. The selected feature instead illustrates a detail the passage does not allow the reader to determine."
+       ],
+       "y": "A faithful answer acknowledges missing information."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-6-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Original script: Bih recognises definitions while reading but cannot explain them later. Ayuk suggests closing the book, recalling one idea and then checking it. They agree to alternate questions after household tasks. Bih says the first attempt may show gaps; correcting those gaps matters more than copying an answer. Their plan does not promise instant success or give a fixed study timetable for every pupil.\nWhat difficulty does Bih describe?",
+       "r": "Recognising definitions but failing to explain them later.",
+       "w": [
+        "Being unable to open any book.",
+        "Having no household tasks.",
+        "Winning a prize for every answer."
+       ],
+       "e": [
+        "The script describes recall difficulty, not opening books.",
+        "Household tasks are mentioned.",
+        "No prize is reported."
+       ],
+       "y": "The opening states her difficulty."
+      },
+      {
+       "q": "Original script: Bih recognises definitions while reading but cannot explain them later. Ayuk suggests closing the book, recalling one idea and then checking it. They agree to alternate questions after household tasks. Bih says the first attempt may show gaps; correcting those gaps matters more than copying an answer. Their plan does not promise instant success or give a fixed study timetable for every pupil.\nWhat action does Ayuk suggest before checking?",
+       "r": "Close the book and recall an idea.",
+       "w": [
+        "Copy the answer while looking at it.",
+        "Never check any attempt.",
+        "Destroy the notes."
+       ],
+       "e": [
+        "Copying is contrasted with recall.",
+        "Checking is part of the suggestion.",
+        "This action is absent."
+       ],
+       "y": "The script describes recall before checking."
+      },
+      {
+       "q": "Original script: Bih recognises definitions while reading but cannot explain them later. Ayuk suggests closing the book, recalling one idea and then checking it. They agree to alternate questions after household tasks. Bih says the first attempt may show gaps; correcting those gaps matters more than copying an answer. Their plan does not promise instant success or give a fixed study timetable for every pupil.\nWhat is the value of finding a gap?",
+       "r": "It identifies something to correct.",
+       "w": [
+        "It proves the pupil can never learn.",
+        "It guarantees a prize.",
+        "It means every source is false."
+       ],
+       "e": [
+        "The script treats gaps as improvable.",
+        "No prize guarantee appears.",
+        "A recall gap does not disprove the source."
+       ],
+       "y": "Correction, not copying, is emphasised."
+      },
+      {
+       "q": "Original script: Bih recognises definitions while reading but cannot explain them later. Ayuk suggests closing the book, recalling one idea and then checking it. They agree to alternate questions after household tasks. Bih says the first attempt may show gaps; correcting those gaps matters more than copying an answer. Their plan does not promise instant success or give a fixed study timetable for every pupil.\nWhich claim is not supported?",
+       "r": "The plan guarantees immediate success for every pupil.",
+       "w": [
+        "The learners alternate questions.",
+        "They work after household tasks.",
+        "They check recalled ideas."
+       ],
+       "e": [
+        "That action is stated.",
+        "That timing is stated.",
+        "Checking is stated."
+       ],
+       "y": "The script expressly avoids a success guarantee."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-6-evidence",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Check this reading claim about the original passage: A missing price or name can be guessed and reported as stated fact.",
+       "r": "No: report only what the passage supplies or supports.",
+       "w": [
+        "Yes: every guess is an explicit detail.",
+        "Yes: a familiar name must be the writer’s chosen name.",
+        "Yes: a price from another story must apply."
+       ],
+       "e": [
+        "A guess is not direct information.",
+        "Familiarity does not provide textual evidence.",
+        "A different story supplies no fact about this passage."
+       ],
+       "y": "Missing information stays unestablished."
+      },
+      {
+       "q": "Check this reading claim about the original passage: A summary should preserve the central actions rather than add an unrelated event.",
+       "r": "Yes: keep the summary faithful to the passage.",
+       "w": [
+        "No: summaries must invent a new ending.",
+        "No: any unrelated opinion replaces the main idea.",
+        "No: a summary must be longer than every source text."
+       ],
+       "e": [
+        "A summary does not invent a resolution.",
+        "An unrelated opinion is not a faithful summary.",
+        "Length alone is not the criterion."
+       ],
+       "y": "Select and connect the important points without invention."
+      },
+      {
+       "q": "Check this reading claim about the original passage: A proposed action proves that the action has already been completed.",
+       "r": "No: a proposal and a completed event are different.",
+       "w": [
+        "Yes: every suggestion is a reported result.",
+        "Yes: future wording is always past evidence.",
+        "Yes: planning proves every intended outcome."
+       ],
+       "e": [
+        "A suggestion is not a result.",
+        "Tense and meaning matter.",
+        "A plan can fail or change."
+       ],
+       "y": "Preserve the status and time of the action."
+      },
+      {
+       "q": "Check this reading claim about the original passage: An inference should be linked to a clue, rather than just an interesting possibility.",
+       "r": "Yes: explain which textual detail supports it.",
+       "w": [
+        "No: evidence is irrelevant.",
+        "No: all possible events are proven.",
+        "No: a confident voice establishes every claim."
+       ],
+       "e": [
+        "Evidence matters to the inference.",
+        "Possible is not the same as established.",
+        "Confidence does not replace textual support."
+       ],
+       "y": "A defensible inference uses evidence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "explicit detail: information directly stated in the passage.",
+      "truth": "true",
+      "explain": "This is correct: information directly stated in the passage. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "supported inference: an interpretation linked to clues in the passage.",
+      "truth": "true",
+      "explain": "This is correct: an interpretation linked to clues in the passage. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "main idea: the central message organising the passage.",
+      "truth": "true",
+      "explain": "This is correct: the central message organising the passage. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "information not supplied: a detail the passage does not allow the reader to determine.",
+      "truth": "true",
+      "explain": "This is correct: a detail the passage does not allow the reader to determine. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An explicit detail is always something invented by the reader.",
+      "truth": "false",
+      "explain": "Direct information appears in the passage."
+     },
+     {
+      "text": "Any private guess is a proven inference.",
+      "truth": "false",
+      "explain": "An inference needs textual support."
+     },
+     {
+      "text": "A random minor word always gives the complete main idea.",
+      "truth": "false",
+      "explain": "The main idea must represent the relevant whole."
+     },
+     {
+      "text": "An absent detail must always be replaced with a guessed number.",
+      "truth": "false",
+      "explain": "A faithful answer acknowledges missing information."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

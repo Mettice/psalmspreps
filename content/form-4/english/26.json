@@ -1,0 +1,620 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  24,
+  25
+ ],
+ "skills": [
+  {
+   "id": "e4-26",
+   "name": "Numbers, figures, words and currency names"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Figures represent numbers with numerals; words express the same number in language. Read place value and zeros carefully, then preserve the currency unit. An amount in CFA francs is not automatically the same purchasing value as the same numeral in another currency. This lesson names currencies but supplies no exchange-rate exercise or payment instruction. Number-word conventions can vary; the model follows the written model shown here and the teacher should confirm accepted examination styles.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to match a number phrase to its figure and name the currencies in a checked country list. Builds on: word meaning, written forms and place-value knowledge. Leads to: a written money script and precise quantities in reports."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Figures represent numbers with numerals; words express the same number in language. Read place value and zeros carefully, then preserve the currency unit. An amount in CFA francs is not automatically the same purchasing value as the same numeral in another currency. This lesson names currencies but supplies no exchange-rate exercise or payment instruction. Number-word conventions can vary; the model follows the written model shown here and the teacher should confirm accepted examination styles."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model amount: {12500} CFA francs is {words(12500)} CFA francs. Country examples: Cameroon uses the Central African CFA franc, XAF; Nigeria the naira, NGN; Ghana the Ghana cedi, GHS; the United Kingdom pound sterling, GBP. Codes help distinguish currencies with similar names. These names do not imply that any two currencies can be interchanged without considering conversion."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Group digits by place value, read the full phrase and check the unit. When speaking is practised later, a teacher should check how the amount is pronounced; this screen checks written recognition. Do not infer a current exchange rate from a country/currency list."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "figures",
+    "meaning": "a numerical written representation"
+   },
+   {
+    "word": "number words",
+    "meaning": "a linguistic written representation of a number"
+   },
+   {
+    "word": "place value",
+    "meaning": "the value determined by a digit’s position"
+   },
+   {
+    "word": "currency label",
+    "meaning": "the unit identifying which money an amount refers to"
+   }
+  ],
+  "mistake": {
+   "wrong": "Figures means a person’s bank signature.",
+   "right": "figures: a numerical written representation.",
+   "why": "Figures represent a number rather than identifying a signatory."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Express {12500} CFA francs in words.",
+  "steps": [
+   "Separate the place values.",
+   "Use the number phrase {words(12500)} and preserve CFA francs."
+  ],
+  "answer": "{words(12500)} CFA francs.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-26-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "figures: a numerical written representation.",
+     "number words: a linguistic written representation of a number.",
+     "place value: the value determined by a digit’s position.",
+     "currency label: the unit identifying which money an amount refers to."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-26-terms"
+    }
+   },
+   {
+    "id": "e4-26-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The model writes an amount using numerals.",
+     "The phrase {words(12500)} represents the model amount.",
+     "The learner checks zeros before accepting an amount.",
+     "The amount names CFA francs instead of leaving the unit unknown."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-26-cases"
+    }
+   },
+   {
+    "id": "e4-26-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Figures means a person’s bank signature. Correction: Figures represent a number rather than identifying a signatory.",
+     "Words and figures may disagree without changing the amount. Correction: Both representations should express the same value.",
+     "An added zero never changes a number’s value. Correction: A zero can change the place values of the other digits.",
+     "Identical numerals in every currency necessarily buy the same amount. Correction: Currency identity and value cannot be inferred from the numeral alone."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-26-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "figures: a numerical written representation.",
+        "truth": "true",
+        "explain": "This is correct: a numerical written representation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "number words: a linguistic written representation of a number.",
+        "truth": "true",
+        "explain": "This is correct: a linguistic written representation of a number. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "place value: the value determined by a digit’s position.",
+        "truth": "true",
+        "explain": "This is correct: the value determined by a digit’s position. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "currency label: the unit identifying which money an amount refers to.",
+        "truth": "true",
+        "explain": "This is correct: the unit identifying which money an amount refers to. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Figures means a person’s bank signature.",
+        "truth": "false",
+        "explain": "Figures represent a number rather than identifying a signatory."
+       },
+       {
+        "text": "Words and figures may disagree without changing the amount.",
+        "truth": "false",
+        "explain": "Both representations should express the same value."
+       },
+       {
+        "text": "An added zero never changes a number’s value.",
+        "truth": "false",
+        "explain": "A zero can change the place values of the other digits."
+       },
+       {
+        "text": "Identical numerals in every currency necessarily buy the same amount.",
+        "truth": "false",
+        "explain": "Currency identity and value cannot be inferred from the numeral alone."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-26-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a numerical written representation?",
+       "r": "figures",
+       "w": [
+        "number words",
+        "place value",
+        "currency label"
+       ],
+       "e": [
+        "That concerns a linguistic written representation of a number, rather than a numerical written representation.",
+        "That concerns the value determined by a digit’s position, rather than a numerical written representation.",
+        "That concerns the unit identifying which money an amount refers to, rather than a numerical written representation."
+       ],
+       "y": "Figures represent a number rather than identifying a signatory."
+      },
+      {
+       "q": "Which term means a linguistic written representation of a number?",
+       "r": "number words",
+       "w": [
+        "figures",
+        "place value",
+        "currency label"
+       ],
+       "e": [
+        "That concerns a numerical written representation, rather than a linguistic written representation of a number.",
+        "That concerns the value determined by a digit’s position, rather than a linguistic written representation of a number.",
+        "That concerns the unit identifying which money an amount refers to, rather than a linguistic written representation of a number."
+       ],
+       "y": "Both representations should express the same value."
+      },
+      {
+       "q": "Which term means the value determined by a digit’s position?",
+       "r": "place value",
+       "w": [
+        "figures",
+        "number words",
+        "currency label"
+       ],
+       "e": [
+        "That concerns a numerical written representation, rather than the value determined by a digit’s position.",
+        "That concerns a linguistic written representation of a number, rather than the value determined by a digit’s position.",
+        "That concerns the unit identifying which money an amount refers to, rather than the value determined by a digit’s position."
+       ],
+       "y": "A zero can change the place values of the other digits."
+      },
+      {
+       "q": "Which term means the unit identifying which money an amount refers to?",
+       "r": "currency label",
+       "w": [
+        "figures",
+        "number words",
+        "place value"
+       ],
+       "e": [
+        "That concerns a numerical written representation, rather than the unit identifying which money an amount refers to.",
+        "That concerns a linguistic written representation of a number, rather than the unit identifying which money an amount refers to.",
+        "That concerns the value determined by a digit’s position, rather than the unit identifying which money an amount refers to."
+       ],
+       "y": "Currency identity and value cannot be inferred from the numeral alone."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-26-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model writes an amount using numerals.\nWhich description best fits the selected feature?",
+       "r": "figures",
+       "w": [
+        "number words",
+        "place value",
+        "currency label"
+       ],
+       "e": [
+        "That means a linguistic written representation of a number. The selected feature instead illustrates a numerical written representation.",
+        "That means the value determined by a digit’s position. The selected feature instead illustrates a numerical written representation.",
+        "That means the unit identifying which money an amount refers to. The selected feature instead illustrates a numerical written representation."
+       ],
+       "y": "Figures represent a number rather than identifying a signatory."
+      },
+      {
+       "q": "The phrase {words(12500)} represents the model amount.\nWhich description best fits the selected feature?",
+       "r": "number words",
+       "w": [
+        "figures",
+        "place value",
+        "currency label"
+       ],
+       "e": [
+        "That means a numerical written representation. The selected feature instead illustrates a linguistic written representation of a number.",
+        "That means the value determined by a digit’s position. The selected feature instead illustrates a linguistic written representation of a number.",
+        "That means the unit identifying which money an amount refers to. The selected feature instead illustrates a linguistic written representation of a number."
+       ],
+       "y": "Both representations should express the same value."
+      },
+      {
+       "q": "The learner checks zeros before accepting an amount.\nWhich description best fits the selected feature?",
+       "r": "place value",
+       "w": [
+        "figures",
+        "number words",
+        "currency label"
+       ],
+       "e": [
+        "That means a numerical written representation. The selected feature instead illustrates the value determined by a digit’s position.",
+        "That means a linguistic written representation of a number. The selected feature instead illustrates the value determined by a digit’s position.",
+        "That means the unit identifying which money an amount refers to. The selected feature instead illustrates the value determined by a digit’s position."
+       ],
+       "y": "A zero can change the place values of the other digits."
+      },
+      {
+       "q": "The amount names CFA francs instead of leaving the unit unknown.\nWhich description best fits the selected feature?",
+       "r": "currency label",
+       "w": [
+        "figures",
+        "number words",
+        "place value"
+       ],
+       "e": [
+        "That means a numerical written representation. The selected feature instead illustrates the unit identifying which money an amount refers to.",
+        "That means a linguistic written representation of a number. The selected feature instead illustrates the unit identifying which money an amount refers to.",
+        "That means the value determined by a digit’s position. The selected feature instead illustrates the unit identifying which money an amount refers to."
+       ],
+       "y": "Currency identity and value cannot be inferred from the numeral alone."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-26-amount",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "amount": {
+     "expr": "a*1000+b*100"
+    }
+   },
+   "prompt": "Write this classroom amount in figures: {words(amount)} CFA francs.",
+   "answer": "amount",
+   "misconceptions": [
+    {
+     "id": "tenfold",
+     "wrong": "amount*10",
+     "explain": "An extra place-value zero makes this ten times too large."
+    },
+    {
+     "id": "short",
+     "wrong": "amount/10",
+     "explain": "Removing a place-value zero makes this ten times too small."
+    }
+   ],
+   "solution": [
+    "Read the complete number phrase and its place values.",
+    "The amount is {answer} CFA francs."
+   ],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "e4-26-currency",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Match the country to the currency name/code in this lesson: Cameroon.",
+       "r": "Central African CFA franc (XAF)",
+       "w": [
+        "naira (NGN)",
+        "Ghana cedi (GHS)",
+        "pound sterling (GBP)"
+       ],
+       "e": [
+        "naira (NGN) belongs to Nigeria in this list, rather than Cameroon.",
+        "Ghana cedi (GHS) belongs to Ghana in this list, rather than Cameroon.",
+        "pound sterling (GBP) belongs to United Kingdom in this list, rather than Cameroon."
+       ],
+       "y": "The country/currency pair is Cameroon — Central African CFA franc (XAF)."
+      },
+      {
+       "q": "Match the country to the currency name/code in this lesson: Nigeria.",
+       "r": "naira (NGN)",
+       "w": [
+        "Central African CFA franc (XAF)",
+        "Ghana cedi (GHS)",
+        "pound sterling (GBP)"
+       ],
+       "e": [
+        "Central African CFA franc (XAF) belongs to Cameroon in this list, rather than Nigeria.",
+        "Ghana cedi (GHS) belongs to Ghana in this list, rather than Nigeria.",
+        "pound sterling (GBP) belongs to United Kingdom in this list, rather than Nigeria."
+       ],
+       "y": "The country/currency pair is Nigeria — naira (NGN)."
+      },
+      {
+       "q": "Match the country to the currency name/code in this lesson: Ghana.",
+       "r": "Ghana cedi (GHS)",
+       "w": [
+        "Central African CFA franc (XAF)",
+        "naira (NGN)",
+        "pound sterling (GBP)"
+       ],
+       "e": [
+        "Central African CFA franc (XAF) belongs to Cameroon in this list, rather than Ghana.",
+        "naira (NGN) belongs to Nigeria in this list, rather than Ghana.",
+        "pound sterling (GBP) belongs to United Kingdom in this list, rather than Ghana."
+       ],
+       "y": "The country/currency pair is Ghana — Ghana cedi (GHS)."
+      },
+      {
+       "q": "Match the country to the currency name/code in this lesson: United Kingdom.",
+       "r": "pound sterling (GBP)",
+       "w": [
+        "Central African CFA franc (XAF)",
+        "naira (NGN)",
+        "Ghana cedi (GHS)"
+       ],
+       "e": [
+        "Central African CFA franc (XAF) belongs to Cameroon in this list, rather than United Kingdom.",
+        "naira (NGN) belongs to Nigeria in this list, rather than United Kingdom.",
+        "Ghana cedi (GHS) belongs to Ghana in this list, rather than United Kingdom."
+       ],
+       "y": "The country/currency pair is United Kingdom — pound sterling (GBP)."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-26-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "figures: a numerical written representation.",
+      "truth": "true",
+      "explain": "This is correct: a numerical written representation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "number words: a linguistic written representation of a number.",
+      "truth": "true",
+      "explain": "This is correct: a linguistic written representation of a number. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "place value: the value determined by a digit’s position.",
+      "truth": "true",
+      "explain": "This is correct: the value determined by a digit’s position. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "currency label: the unit identifying which money an amount refers to.",
+      "truth": "true",
+      "explain": "This is correct: the unit identifying which money an amount refers to. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Figures means a person’s bank signature.",
+      "truth": "false",
+      "explain": "Figures represent a number rather than identifying a signatory."
+     },
+     {
+      "text": "Words and figures may disagree without changing the amount.",
+      "truth": "false",
+      "explain": "Both representations should express the same value."
+     },
+     {
+      "text": "An added zero never changes a number’s value.",
+      "truth": "false",
+      "explain": "A zero can change the place values of the other digits."
+     },
+     {
+      "text": "Identical numerals in every currency necessarily buy the same amount.",
+      "truth": "false",
+      "explain": "Currency identity and value cannot be inferred from the numeral alone."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

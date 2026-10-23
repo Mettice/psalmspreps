@@ -37,6 +37,16 @@ const root = path.resolve(__dirname, '../../..');
     const shot = path.join(os.tmpdir(), `${subject}-goal.png`);
     await page.screenshot({ path: shot, fullPage: true });
     console.log('Goal screenshot: ' + shot);
+    if (subject === 'f4-english') {
+      await page.evaluate((id) => openLesson(id, 19), subject);
+      await page.getByRole('button', { name: 'Next', exact: true }).click();
+      await page.getByRole('button', { name: 'Next', exact: true }).click();
+      const text = await page.locator('body').innerText();
+      for (const label of ['chair', 'judge', '/tʃ/', '/dʒ/']) if (!text.includes(label)) throw Error('Missing pronunciation model: ' + label);
+      const phoneticShot = path.join(os.tmpdir(), `${subject}-sounds.png`);
+      await page.screenshot({ path: phoneticShot, fullPage: true });
+      console.log('Sound model screenshot: ' + phoneticShot);
+    }
     if (subject === 'f4-logic') {
       await page.evaluate((id) => openLesson(id, 6), subject);
       await page.getByRole('button', { name: 'Next', exact: true }).click();

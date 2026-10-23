@@ -1,0 +1,603 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "e4-24",
+   "name": "Homonyms, homophones and homographs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Homophones share pronunciation while differing in meaning; their spellings may differ, as with hear and here. Homographs share spelling but differ in meaning and may differ in pronunciation, as with lead a group and lead the metal. Homonym has both a broad dictionary use and a narrower school use for words sharing spelling and pronunciation with different meanings. This lesson states the narrower use when needed. Categories can overlap, so do not force one exclusive label where the question has not specified its criterion.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish sound, spelling and meaning while recognising that terminology can overlap. Builds on: context clues, word classes and written sound symbols. Leads to: editing narrative vocabulary and avoiding wrong-word spellings."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Homophones share pronunciation while differing in meaning; their spellings may differ, as with hear and here. Homographs share spelling but differ in meaning and may differ in pronunciation, as with lead a group and lead the metal. Homonym has both a broad dictionary use and a narrower school use for words sharing spelling and pronunciation with different meanings. This lesson states the narrower use when needed. Categories can overlap, so do not force one exclusive label where the question has not specified its criterion."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original set: Hear the speaker here. A bat can be an animal or sports equipment in the narrow homonym model. Lead a group differs from lead the metal in the pronunciation model. Spell-check alone may not detect a word that is spelled correctly but has the wrong meaning for the sentence."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Ask whether the exercise compares sound, spelling or both. Read the context to identify meaning. The screen can compare written examples and transcriptions, but actual pronunciation needs a teacher or recording. Confirm the school’s preferred homonym terminology."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "homophone relation",
+    "meaning": "shared pronunciation with different meanings"
+   },
+   {
+    "word": "homograph relation",
+    "meaning": "shared spelling with different meanings"
+   },
+   {
+    "word": "narrow homonym use",
+    "meaning": "shared spelling and pronunciation with different meanings in the specified school model"
+   },
+   {
+    "word": "contextual word choice",
+    "meaning": "selecting the meaning and spelling required by the sentence"
+   }
+  ],
+  "mistake": {
+   "wrong": "Homophones must have identical meanings.",
+   "right": "homophone relation: shared pronunciation with different meanings.",
+   "why": "The shared sound does not make their meanings identical."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Hear and here illustrate a sound-based relation. Explain the selected feature.",
+  "steps": [
+   "Shared pronunciation with different meanings.",
+   "The shared sound does not make their meanings identical."
+  ],
+  "answer": "homophone relation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-24-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "homophone relation: shared pronunciation with different meanings.",
+     "homograph relation: shared spelling with different meanings.",
+     "narrow homonym use: shared spelling and pronunciation with different meanings in the specified school model.",
+     "contextual word choice: selecting the meaning and spelling required by the sentence."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-24-terms"
+    }
+   },
+   {
+    "id": "e4-24-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Hear and here illustrate a sound-based relation.",
+     "Lead a group and lead the metal share their written form.",
+     "Bat the animal and bat the sports item illustrate the narrow model.",
+     "Hear the speaker here uses each word in its proper role."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-24-cases"
+    }
+   },
+   {
+    "id": "e4-24-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Homophones must have identical meanings. Correction: The shared sound does not make their meanings identical.",
+     "Homographs must always have the same pronunciation. Correction: The relation is based on spelling; pronunciation can differ.",
+     "The word homonym has only one definition in every source. Correction: Dictionaries and courses can use broad or narrow definitions; state the convention.",
+     "A correct spelling guarantees the right word for the context. Correction: A word can be spelled correctly but express the wrong meaning."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-24-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "homophone relation: shared pronunciation with different meanings.",
+        "truth": "true",
+        "explain": "This is correct: shared pronunciation with different meanings. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "homograph relation: shared spelling with different meanings.",
+        "truth": "true",
+        "explain": "This is correct: shared spelling with different meanings. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "narrow homonym use: shared spelling and pronunciation with different meanings in the specified school model.",
+        "truth": "true",
+        "explain": "This is correct: shared spelling and pronunciation with different meanings in the specified school model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "contextual word choice: selecting the meaning and spelling required by the sentence.",
+        "truth": "true",
+        "explain": "This is correct: selecting the meaning and spelling required by the sentence. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Homophones must have identical meanings.",
+        "truth": "false",
+        "explain": "The shared sound does not make their meanings identical."
+       },
+       {
+        "text": "Homographs must always have the same pronunciation.",
+        "truth": "false",
+        "explain": "The relation is based on spelling; pronunciation can differ."
+       },
+       {
+        "text": "The word homonym has only one definition in every source.",
+        "truth": "false",
+        "explain": "Dictionaries and courses can use broad or narrow definitions; state the convention."
+       },
+       {
+        "text": "A correct spelling guarantees the right word for the context.",
+        "truth": "false",
+        "explain": "A word can be spelled correctly but express the wrong meaning."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-24-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means shared pronunciation with different meanings?",
+       "r": "homophone relation",
+       "w": [
+        "homograph relation",
+        "narrow homonym use",
+        "contextual word choice"
+       ],
+       "e": [
+        "That concerns shared spelling with different meanings, rather than shared pronunciation with different meanings.",
+        "That concerns shared spelling and pronunciation with different meanings in the specified school model, rather than shared pronunciation with different meanings.",
+        "That concerns selecting the meaning and spelling required by the sentence, rather than shared pronunciation with different meanings."
+       ],
+       "y": "The shared sound does not make their meanings identical."
+      },
+      {
+       "q": "Which term means shared spelling with different meanings?",
+       "r": "homograph relation",
+       "w": [
+        "homophone relation",
+        "narrow homonym use",
+        "contextual word choice"
+       ],
+       "e": [
+        "That concerns shared pronunciation with different meanings, rather than shared spelling with different meanings.",
+        "That concerns shared spelling and pronunciation with different meanings in the specified school model, rather than shared spelling with different meanings.",
+        "That concerns selecting the meaning and spelling required by the sentence, rather than shared spelling with different meanings."
+       ],
+       "y": "The relation is based on spelling; pronunciation can differ."
+      },
+      {
+       "q": "Which term means shared spelling and pronunciation with different meanings in the specified school model?",
+       "r": "narrow homonym use",
+       "w": [
+        "homophone relation",
+        "homograph relation",
+        "contextual word choice"
+       ],
+       "e": [
+        "That concerns shared pronunciation with different meanings, rather than shared spelling and pronunciation with different meanings in the specified school model.",
+        "That concerns shared spelling with different meanings, rather than shared spelling and pronunciation with different meanings in the specified school model.",
+        "That concerns selecting the meaning and spelling required by the sentence, rather than shared spelling and pronunciation with different meanings in the specified school model."
+       ],
+       "y": "Dictionaries and courses can use broad or narrow definitions; state the convention."
+      },
+      {
+       "q": "Which term means selecting the meaning and spelling required by the sentence?",
+       "r": "contextual word choice",
+       "w": [
+        "homophone relation",
+        "homograph relation",
+        "narrow homonym use"
+       ],
+       "e": [
+        "That concerns shared pronunciation with different meanings, rather than selecting the meaning and spelling required by the sentence.",
+        "That concerns shared spelling with different meanings, rather than selecting the meaning and spelling required by the sentence.",
+        "That concerns shared spelling and pronunciation with different meanings in the specified school model, rather than selecting the meaning and spelling required by the sentence."
+       ],
+       "y": "A word can be spelled correctly but express the wrong meaning."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-24-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Hear and here illustrate a sound-based relation.\nWhich description best fits the selected feature?",
+       "r": "homophone relation",
+       "w": [
+        "homograph relation",
+        "narrow homonym use",
+        "contextual word choice"
+       ],
+       "e": [
+        "That means shared spelling with different meanings. The selected feature instead illustrates shared pronunciation with different meanings.",
+        "That means shared spelling and pronunciation with different meanings in the specified school model. The selected feature instead illustrates shared pronunciation with different meanings.",
+        "That means selecting the meaning and spelling required by the sentence. The selected feature instead illustrates shared pronunciation with different meanings."
+       ],
+       "y": "The shared sound does not make their meanings identical."
+      },
+      {
+       "q": "Lead a group and lead the metal share their written form.\nWhich description best fits the selected feature?",
+       "r": "homograph relation",
+       "w": [
+        "homophone relation",
+        "narrow homonym use",
+        "contextual word choice"
+       ],
+       "e": [
+        "That means shared pronunciation with different meanings. The selected feature instead illustrates shared spelling with different meanings.",
+        "That means shared spelling and pronunciation with different meanings in the specified school model. The selected feature instead illustrates shared spelling with different meanings.",
+        "That means selecting the meaning and spelling required by the sentence. The selected feature instead illustrates shared spelling with different meanings."
+       ],
+       "y": "The relation is based on spelling; pronunciation can differ."
+      },
+      {
+       "q": "Bat the animal and bat the sports item illustrate the narrow model.\nWhich description best fits the selected feature?",
+       "r": "narrow homonym use",
+       "w": [
+        "homophone relation",
+        "homograph relation",
+        "contextual word choice"
+       ],
+       "e": [
+        "That means shared pronunciation with different meanings. The selected feature instead illustrates shared spelling and pronunciation with different meanings in the specified school model.",
+        "That means shared spelling with different meanings. The selected feature instead illustrates shared spelling and pronunciation with different meanings in the specified school model.",
+        "That means selecting the meaning and spelling required by the sentence. The selected feature instead illustrates shared spelling and pronunciation with different meanings in the specified school model."
+       ],
+       "y": "Dictionaries and courses can use broad or narrow definitions; state the convention."
+      },
+      {
+       "q": "Hear the speaker here uses each word in its proper role.\nWhich description best fits the selected feature?",
+       "r": "contextual word choice",
+       "w": [
+        "homophone relation",
+        "homograph relation",
+        "narrow homonym use"
+       ],
+       "e": [
+        "That means shared pronunciation with different meanings. The selected feature instead illustrates selecting the meaning and spelling required by the sentence.",
+        "That means shared spelling with different meanings. The selected feature instead illustrates selecting the meaning and spelling required by the sentence.",
+        "That means shared spelling and pronunciation with different meanings in the specified school model. The selected feature instead illustrates selecting the meaning and spelling required by the sentence."
+       ],
+       "y": "A word can be spelled correctly but express the wrong meaning."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-24-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complete the request to listen: ___ the speaker.",
+       "r": "Hear",
+       "w": [
+        "Here",
+        "Hair",
+        "Hare"
+       ],
+       "e": [
+        "Here indicates place.",
+        "Hair names a different thing.",
+        "Hare names an animal."
+       ],
+       "y": "Hear expresses listening to sound."
+      },
+      {
+       "q": "Which criterion identifies homographs?",
+       "r": "shared spelling",
+       "w": [
+        "identical meanings",
+        "different spelling in every case",
+        "same sentence length"
+       ],
+       "e": [
+        "The meanings differ.",
+        "Homographs share spelling.",
+        "Sentence length is irrelevant."
+       ],
+       "y": "Graph concerns the written form."
+      },
+      {
+       "q": "Under the stated narrow model, which pair is a homonym example?",
+       "r": "bat the animal / bat the sports item",
+       "w": [
+        "hear / here, as different spellings",
+        "large / small",
+        "read / reader, as a word-family pair"
+       ],
+       "e": [
+        "This pair shares sound but not spelling.",
+        "These are contrasting meanings with different forms.",
+        "A suffix relation is different from the stated homonym relation."
+       ],
+       "y": "The narrow example shares spelling and pronunciation with different meanings."
+      },
+      {
+       "q": "Choose the place word: Put the bag ___.",
+       "r": "here",
+       "w": [
+        "hear",
+        "hair",
+        "hare"
+       ],
+       "e": [
+        "Hear concerns sound.",
+        "Hair does not fill the place role.",
+        "Hare does not fill the place role."
+       ],
+       "y": "Here locates the bag."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-24-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "homophone relation",
+     "right": "Hear and here illustrate a sound-based relation."
+    },
+    {
+     "left": "homograph relation",
+     "right": "Lead a group and lead the metal share their written form."
+    },
+    {
+     "left": "narrow homonym use",
+     "right": "Bat the animal and bat the sports item illustrate the narrow model."
+    },
+    {
+     "left": "contextual word choice",
+     "right": "Hear the speaker here uses each word in its proper role."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-24-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "homophone relation: shared pronunciation with different meanings.",
+      "truth": "true",
+      "explain": "This is correct: shared pronunciation with different meanings. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "homograph relation: shared spelling with different meanings.",
+      "truth": "true",
+      "explain": "This is correct: shared spelling with different meanings. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "narrow homonym use: shared spelling and pronunciation with different meanings in the specified school model.",
+      "truth": "true",
+      "explain": "This is correct: shared spelling and pronunciation with different meanings in the specified school model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "contextual word choice: selecting the meaning and spelling required by the sentence.",
+      "truth": "true",
+      "explain": "This is correct: selecting the meaning and spelling required by the sentence. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Homophones must have identical meanings.",
+      "truth": "false",
+      "explain": "The shared sound does not make their meanings identical."
+     },
+     {
+      "text": "Homographs must always have the same pronunciation.",
+      "truth": "false",
+      "explain": "The relation is based on spelling; pronunciation can differ."
+     },
+     {
+      "text": "The word homonym has only one definition in every source.",
+      "truth": "false",
+      "explain": "Dictionaries and courses can use broad or narrow definitions; state the convention."
+     },
+     {
+      "text": "A correct spelling guarantees the right word for the context.",
+      "truth": "false",
+      "explain": "A word can be spelled correctly but express the wrong meaning."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
