@@ -1,0 +1,599 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-17",
+   "name": "Earthquakes: processes, impacts and preparedness"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An earthquake is shaking caused by a sudden release of energy, commonly involving movement on a fault. The focus is the origin within Earth; the epicentre is directly above it on the surface. Effects include ground shaking and possible damage, landslides or other secondary hazards depending on the setting. Magnitude measures event size; intensity describes observed effects at a place. Preparedness and safer buildings can reduce losses. A school lesson cannot predict the precise time of the next damaging earthquake.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "An earthquake is shaking caused by a sudden release of energy, commonly involving movement on a fault. The focus is the origin within Earth; the epicentre is directly above it on the surface. Effects include ground shaking and possible damage, landslides or other secondary hazards depending on the setting. Magnitude measures event size; intensity describes observed effects at a place. Preparedness and safer buildings can reduce losses. A school lesson cannot predict the precise time of the next damaging earthquake."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A classroom can practise recognised protective actions before an event. If indoors when shaking begins, drop, cover your head and neck under a nearby sturdy table where possible, and hold on; stay clear of windows. Do not rush down stairs during shaking. Actual emergency instructions must be adapted by responsible local authorities to the building and setting."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Distinguish the cause, the location terms and the measured effects. Do not say that a single magnitude gives identical damage everywhere: distance, ground and buildings matter. Practise the school's plan with an adult. During a real emergency, follow responsible local instructions and trained responders."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "focus",
+    "meaning": "the origin of an earthquake within Earth"
+   },
+   {
+    "word": "epicentre",
+    "meaning": "the surface point directly above the focus"
+   },
+   {
+    "word": "intensity",
+    "meaning": "the observed shaking effects at a particular place"
+   },
+   {
+    "word": "protective action",
+    "meaning": "prepared behaviour reducing exposure to falling objects during shaking"
+   }
+  ],
+  "examples": [
+   "A diagram marks where fault movement releases energy below ground.",
+   "A map marks the position above the underground origin.",
+   "Two towns report different damage from the same event."
+  ],
+  "mistake": {
+   "wrong": "The focus is always the point directly above the earthquake on the surface.",
+   "right": "focus: the origin of an earthquake within Earth.",
+   "why": "The surface point above the focus is the epicentre."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A diagram marks where fault movement releases energy below ground. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "The origin of an earthquake within earth.",
+   "The surface point above the focus is the epicentre."
+  ],
+  "answer": "focus",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-17-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "focus: the origin of an earthquake within Earth.",
+     "epicentre: the surface point directly above the focus.",
+     "intensity: the observed shaking effects at a particular place.",
+     "protective action: prepared behaviour reducing exposure to falling objects during shaking."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-17-terms"
+    }
+   },
+   {
+    "id": "cg3-17-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A diagram marks where fault movement releases energy below ground.",
+     "focus: the origin of an earthquake within Earth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-17-cases"
+    }
+   },
+   {
+    "id": "cg3-17-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "The focus is always the point directly above the earthquake on the surface.",
+     "The surface point above the focus is the epicentre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-17-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "focus: the origin of an earthquake within Earth.",
+        "truth": "true",
+        "explain": "This statement is correct: focus means the origin of an earthquake within Earth. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "epicentre: the surface point directly above the focus.",
+        "truth": "true",
+        "explain": "This statement is correct: epicentre means the surface point directly above the focus. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "intensity: the observed shaking effects at a particular place.",
+        "truth": "true",
+        "explain": "This statement is correct: intensity means the observed shaking effects at a particular place. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "protective action: prepared behaviour reducing exposure to falling objects during shaking.",
+        "truth": "true",
+        "explain": "This statement is correct: protective action means prepared behaviour reducing exposure to falling objects during shaking. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The focus is always the point directly above the earthquake on the surface.",
+        "truth": "false",
+        "explain": "The surface point above the focus is the epicentre."
+       },
+       {
+        "text": "The epicentre is necessarily the deepest point inside the core.",
+        "truth": "false",
+        "explain": "Epicentre is a surface location, not a core depth."
+       },
+       {
+        "text": "One event must produce identical observed effects in every town.",
+        "truth": "false",
+        "explain": "Local ground, distance and buildings can change observed intensity."
+       },
+       {
+        "text": "Running down stairs during shaking is the recommended first indoor action.",
+        "truth": "false",
+        "explain": "USGS guidance advises staying indoors during shaking and using Drop, Cover and Hold On rather than rushing outside."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-17-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: the origin of an earthquake within Earth ?",
+       "r": "focus",
+       "w": [
+        "epicentre",
+        "intensity",
+        "protective action"
+       ],
+       "e": [
+        "epicentre means the surface point directly above the focus; the question instead describes the origin of an earthquake within Earth.",
+        "intensity means the observed shaking effects at a particular place; the question instead describes the origin of an earthquake within Earth.",
+        "protective action means prepared behaviour reducing exposure to falling objects during shaking; the question instead describes the origin of an earthquake within Earth."
+       ],
+       "y": "The origin of an earthquake within earth."
+      },
+      {
+       "q": "Which term means: the surface point directly above the focus ?",
+       "r": "epicentre",
+       "w": [
+        "focus",
+        "intensity",
+        "protective action"
+       ],
+       "e": [
+        "focus means the origin of an earthquake within Earth; the question instead describes the surface point directly above the focus.",
+        "intensity means the observed shaking effects at a particular place; the question instead describes the surface point directly above the focus.",
+        "protective action means prepared behaviour reducing exposure to falling objects during shaking; the question instead describes the surface point directly above the focus."
+       ],
+       "y": "The surface point directly above the focus."
+      },
+      {
+       "q": "Which term means: the observed shaking effects at a particular place ?",
+       "r": "intensity",
+       "w": [
+        "focus",
+        "epicentre",
+        "protective action"
+       ],
+       "e": [
+        "focus means the origin of an earthquake within Earth; the question instead describes the observed shaking effects at a particular place.",
+        "epicentre means the surface point directly above the focus; the question instead describes the observed shaking effects at a particular place.",
+        "protective action means prepared behaviour reducing exposure to falling objects during shaking; the question instead describes the observed shaking effects at a particular place."
+       ],
+       "y": "The observed shaking effects at a particular place."
+      },
+      {
+       "q": "Which term means: prepared behaviour reducing exposure to falling objects during shaking ?",
+       "r": "protective action",
+       "w": [
+        "focus",
+        "epicentre",
+        "intensity"
+       ],
+       "e": [
+        "focus means the origin of an earthquake within Earth; the question instead describes prepared behaviour reducing exposure to falling objects during shaking.",
+        "epicentre means the surface point directly above the focus; the question instead describes prepared behaviour reducing exposure to falling objects during shaking.",
+        "intensity means the observed shaking effects at a particular place; the question instead describes prepared behaviour reducing exposure to falling objects during shaking."
+       ],
+       "y": "Prepared behaviour reducing exposure to falling objects during shaking."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-17-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A diagram marks where fault movement releases energy below ground.\nWhich term best fits this example?",
+       "r": "focus",
+       "w": [
+        "epicentre",
+        "intensity",
+        "protective action"
+       ],
+       "e": [
+        "epicentre concerns the surface point directly above the focus. This case instead illustrates the origin of an earthquake within Earth.",
+        "intensity concerns the observed shaking effects at a particular place. This case instead illustrates the origin of an earthquake within Earth.",
+        "protective action concerns prepared behaviour reducing exposure to falling objects during shaking. This case instead illustrates the origin of an earthquake within Earth."
+       ],
+       "y": "A diagram marks where fault movement releases energy below ground. The origin of an earthquake within earth."
+      },
+      {
+       "q": "A map marks the position above the underground origin.\nWhich term best fits this example?",
+       "r": "epicentre",
+       "w": [
+        "focus",
+        "intensity",
+        "protective action"
+       ],
+       "e": [
+        "focus concerns the origin of an earthquake within Earth. This case instead illustrates the surface point directly above the focus.",
+        "intensity concerns the observed shaking effects at a particular place. This case instead illustrates the surface point directly above the focus.",
+        "protective action concerns prepared behaviour reducing exposure to falling objects during shaking. This case instead illustrates the surface point directly above the focus."
+       ],
+       "y": "A map marks the position above the underground origin. The surface point directly above the focus."
+      },
+      {
+       "q": "Two towns report different damage from the same event.\nWhich term best fits this example?",
+       "r": "intensity",
+       "w": [
+        "focus",
+        "epicentre",
+        "protective action"
+       ],
+       "e": [
+        "focus concerns the origin of an earthquake within Earth. This case instead illustrates the observed shaking effects at a particular place.",
+        "epicentre concerns the surface point directly above the focus. This case instead illustrates the observed shaking effects at a particular place.",
+        "protective action concerns prepared behaviour reducing exposure to falling objects during shaking. This case instead illustrates the observed shaking effects at a particular place."
+       ],
+       "y": "Two towns report different damage from the same event. The observed shaking effects at a particular place."
+      },
+      {
+       "q": "An indoor pupil takes nearby sturdy cover, protects the head and holds on away from windows.\nWhich term best fits this example?",
+       "r": "protective action",
+       "w": [
+        "focus",
+        "epicentre",
+        "intensity"
+       ],
+       "e": [
+        "focus concerns the origin of an earthquake within Earth. This case instead illustrates prepared behaviour reducing exposure to falling objects during shaking.",
+        "epicentre concerns the surface point directly above the focus. This case instead illustrates prepared behaviour reducing exposure to falling objects during shaking.",
+        "intensity concerns the observed shaking effects at a particular place. This case instead illustrates prepared behaviour reducing exposure to falling objects during shaking."
+       ],
+       "y": "An indoor pupil takes nearby sturdy cover, protects the head and holds on away from windows. Prepared behaviour reducing exposure to falling objects during shaking."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-17-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A diagram marks where fault movement releases energy below ground.\nWhich explanation justifies the classification?",
+       "r": "The origin of an earthquake within earth.",
+       "w": [
+        "The surface point directly above the focus.",
+        "The observed shaking effects at a particular place.",
+        "Prepared behaviour reducing exposure to falling objects during shaking."
+       ],
+       "e": [
+        "That explanation describes epicentre, rather than the relationship illustrated in this example.",
+        "That explanation describes intensity, rather than the relationship illustrated in this example.",
+        "That explanation describes protective action, rather than the relationship illustrated in this example."
+       ],
+       "y": "The surface point above the focus is the epicentre."
+      },
+      {
+       "q": "A map marks the position above the underground origin.\nWhich explanation justifies the classification?",
+       "r": "The surface point directly above the focus.",
+       "w": [
+        "The origin of an earthquake within earth.",
+        "The observed shaking effects at a particular place.",
+        "Prepared behaviour reducing exposure to falling objects during shaking."
+       ],
+       "e": [
+        "That explanation describes focus, rather than the relationship illustrated in this example.",
+        "That explanation describes intensity, rather than the relationship illustrated in this example.",
+        "That explanation describes protective action, rather than the relationship illustrated in this example."
+       ],
+       "y": "Epicentre is a surface location, not a core depth."
+      },
+      {
+       "q": "Two towns report different damage from the same event.\nWhich explanation justifies the classification?",
+       "r": "The observed shaking effects at a particular place.",
+       "w": [
+        "The origin of an earthquake within earth.",
+        "The surface point directly above the focus.",
+        "Prepared behaviour reducing exposure to falling objects during shaking."
+       ],
+       "e": [
+        "That explanation describes focus, rather than the relationship illustrated in this example.",
+        "That explanation describes epicentre, rather than the relationship illustrated in this example.",
+        "That explanation describes protective action, rather than the relationship illustrated in this example."
+       ],
+       "y": "Local ground, distance and buildings can change observed intensity."
+      },
+      {
+       "q": "An indoor pupil takes nearby sturdy cover, protects the head and holds on away from windows.\nWhich explanation justifies the classification?",
+       "r": "Prepared behaviour reducing exposure to falling objects during shaking.",
+       "w": [
+        "The origin of an earthquake within earth.",
+        "The surface point directly above the focus.",
+        "The observed shaking effects at a particular place."
+       ],
+       "e": [
+        "That explanation describes focus, rather than the relationship illustrated in this example.",
+        "That explanation describes epicentre, rather than the relationship illustrated in this example.",
+        "That explanation describes intensity, rather than the relationship illustrated in this example."
+       ],
+       "y": "USGS guidance advises staying indoors during shaking and using Drop, Cover and Hold On rather than rushing outside."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-17-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "focus",
+     "right": "A diagram marks where fault movement releases energy below ground."
+    },
+    {
+     "left": "epicentre",
+     "right": "A map marks the position above the underground origin."
+    },
+    {
+     "left": "intensity",
+     "right": "Two towns report different damage from the same event."
+    },
+    {
+     "left": "protective action",
+     "right": "An indoor pupil takes nearby sturdy cover, protects the head and holds on away from windows."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-17-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "focus: the origin of an earthquake within Earth.",
+      "truth": "true",
+      "explain": "This statement is correct: focus means the origin of an earthquake within Earth. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "epicentre: the surface point directly above the focus.",
+      "truth": "true",
+      "explain": "This statement is correct: epicentre means the surface point directly above the focus. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "intensity: the observed shaking effects at a particular place.",
+      "truth": "true",
+      "explain": "This statement is correct: intensity means the observed shaking effects at a particular place. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "protective action: prepared behaviour reducing exposure to falling objects during shaking.",
+      "truth": "true",
+      "explain": "This statement is correct: protective action means prepared behaviour reducing exposure to falling objects during shaking. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The focus is always the point directly above the earthquake on the surface.",
+      "truth": "false",
+      "explain": "The surface point above the focus is the epicentre."
+     },
+     {
+      "text": "The epicentre is necessarily the deepest point inside the core.",
+      "truth": "false",
+      "explain": "Epicentre is a surface location, not a core depth."
+     },
+     {
+      "text": "One event must produce identical observed effects in every town.",
+      "truth": "false",
+      "explain": "Local ground, distance and buildings can change observed intensity."
+     },
+     {
+      "text": "Running down stairs during shaking is the recommended first indoor action.",
+      "truth": "false",
+      "explain": "USGS guidance advises staying indoors during shaking and using Drop, Cover and Hold On rather than rushing outside."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

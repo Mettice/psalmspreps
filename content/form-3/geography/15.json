@@ -1,0 +1,600 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-15",
+   "name": "Volcanicity: intrusive and extrusive features"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Volcanicity includes movement and emplacement of molten material in or onto Earth's crust. Magma remains below the surface; lava is magma erupted onto the surface. Intrusive features form below ground. A dyke cuts across existing layers; a sill lies along them. Extrusive features include lava flows and volcanic cones. Eruptions can also release ash and gases. Not all volcanic hazards are slow lava flows, and not every intrusion reaches the surface.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Volcanicity includes movement and emplacement of molten material in or onto Earth's crust. Magma remains below the surface; lava is magma erupted onto the surface. Intrusive features form below ground. A dyke cuts across existing layers; a sill lies along them. Extrusive features include lava flows and volcanic cones. Eruptions can also release ash and gases. Not all volcanic hazards are slow lava flows, and not every intrusion reaches the surface."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Near Mount Cameroon, volcanic landforms can be discussed through maps and teacher-selected observations. This lesson is classroom preparation, not an invitation to approach an active vent. A section drawing distinguishes a sheet cutting layers from one following them. Classification depends on their relationship to the rock layers rather than only on the page's up/down direction.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" role=\\\"img\\\" aria-label=\\\"Cross-section: a dyke cuts layers, a sill follows them, lava lies above the surface\\\" viewBox=\\\"0 0 340 220\\\"><g stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\"><path d=\\\"M10 65H330M10 110H330M10 155H330M10 195H330\\\"/><path d=\\\"M90 195L125 65L139 65L104 195Z\\\" fill=\\\"#b55a4b\\\"/><rect x=\\\"139\\\" y=\\\"103\\\" width=\\\"150\\\" height=\\\"14\\\" fill=\\\"#b55a4b\\\"/><path d=\\\"M125 65L160 40L208 65Z\\\" fill=\\\"#b55a4b\\\"/></g><g fill=\\\"currentColor\\\" font-family=\\\"sans-serif\\\" font-size=\\\"12\\\"><text x=\\\"15\\\" y=\\\"30\\\">lava at surface</text><text x=\\\"15\\\" y=\\\"95\\\">rock layers</text><text x=\\\"155\\\" y=\\\"95\\\">sill follows a layer</text><text x=\\\"130\\\" y=\\\"180\\\">dyke cuts layers</text><text x=\\\"15\\\" y=\\\"216\\\">Schematic, not to scale</text></g></svg>\""
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Ask whether the molten material stayed below ground or erupted. For a sheet intrusion, inspect whether it cuts across or follows the existing layers. Use correct terms for ash and gases, and keep physical landforms separate from the human effects of an eruption."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "magma",
+    "meaning": "molten material beneath Earth's surface"
+   },
+   {
+    "word": "lava",
+    "meaning": "molten material erupted onto the surface"
+   },
+   {
+    "word": "dyke",
+    "meaning": "a sheet intrusion cutting across existing layers"
+   },
+   {
+    "word": "sill",
+    "meaning": "a sheet intrusion lying along existing layers"
+   }
+  ],
+  "examples": [
+   "Molten material occupies a chamber below a volcano.",
+   "Molten material flows over the land during an eruption.",
+   "A molten sheet crosses older rock beds."
+  ],
+  "mistake": {
+   "wrong": "All underground molten material is called surface lava.",
+   "right": "magma: molten material beneath Earth's surface.",
+   "why": "Use magma below the surface and lava after eruption."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Molten material occupies a chamber below a volcano. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Molten material beneath earth's surface.",
+   "Use magma below the surface and lava after eruption."
+  ],
+  "answer": "magma",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-15-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "magma: molten material beneath Earth's surface.",
+     "lava: molten material erupted onto the surface.",
+     "dyke: a sheet intrusion cutting across existing layers.",
+     "sill: a sheet intrusion lying along existing layers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-15-terms"
+    }
+   },
+   {
+    "id": "cg3-15-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Molten material occupies a chamber below a volcano.",
+     "magma: molten material beneath Earth's surface."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-15-cases"
+    }
+   },
+   {
+    "id": "cg3-15-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "All underground molten material is called surface lava.",
+     "Use magma below the surface and lava after eruption."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-15-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "magma: molten material beneath Earth's surface.",
+        "truth": "true",
+        "explain": "This statement is correct: magma means molten material beneath Earth's surface. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "lava: molten material erupted onto the surface.",
+        "truth": "true",
+        "explain": "This statement is correct: lava means molten material erupted onto the surface. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "dyke: a sheet intrusion cutting across existing layers.",
+        "truth": "true",
+        "explain": "This statement is correct: dyke means a sheet intrusion cutting across existing layers. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "sill: a sheet intrusion lying along existing layers.",
+        "truth": "true",
+        "explain": "This statement is correct: sill means a sheet intrusion lying along existing layers. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "All underground molten material is called surface lava.",
+        "truth": "false",
+        "explain": "Use magma below the surface and lava after eruption."
+       },
+       {
+        "text": "Lava is only unheated sediment carried by a river.",
+        "truth": "false",
+        "explain": "Lava is erupted molten material, not ordinary river sediment."
+       },
+       {
+        "text": "Every sheet intrusion that follows a bedding plane is a dyke.",
+        "truth": "false",
+        "explain": "Following bedding is characteristic of a sill; cutting across is a dyke."
+       },
+       {
+        "text": "A sill is defined only by being drawn horizontally on the page.",
+        "truth": "false",
+        "explain": "Its relationship to the existing layers defines it, even if the layers are tilted."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-15-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: molten material beneath Earth's surface ?",
+       "r": "magma",
+       "w": [
+        "lava",
+        "dyke",
+        "sill"
+       ],
+       "e": [
+        "lava means molten material erupted onto the surface; the question instead describes molten material beneath Earth's surface.",
+        "dyke means a sheet intrusion cutting across existing layers; the question instead describes molten material beneath Earth's surface.",
+        "sill means a sheet intrusion lying along existing layers; the question instead describes molten material beneath Earth's surface."
+       ],
+       "y": "Molten material beneath earth's surface."
+      },
+      {
+       "q": "Which term means: molten material erupted onto the surface ?",
+       "r": "lava",
+       "w": [
+        "magma",
+        "dyke",
+        "sill"
+       ],
+       "e": [
+        "magma means molten material beneath Earth's surface; the question instead describes molten material erupted onto the surface.",
+        "dyke means a sheet intrusion cutting across existing layers; the question instead describes molten material erupted onto the surface.",
+        "sill means a sheet intrusion lying along existing layers; the question instead describes molten material erupted onto the surface."
+       ],
+       "y": "Molten material erupted onto the surface."
+      },
+      {
+       "q": "Which term means: a sheet intrusion cutting across existing layers ?",
+       "r": "dyke",
+       "w": [
+        "magma",
+        "lava",
+        "sill"
+       ],
+       "e": [
+        "magma means molten material beneath Earth's surface; the question instead describes a sheet intrusion cutting across existing layers.",
+        "lava means molten material erupted onto the surface; the question instead describes a sheet intrusion cutting across existing layers.",
+        "sill means a sheet intrusion lying along existing layers; the question instead describes a sheet intrusion cutting across existing layers."
+       ],
+       "y": "A sheet intrusion cutting across existing layers."
+      },
+      {
+       "q": "Which term means: a sheet intrusion lying along existing layers ?",
+       "r": "sill",
+       "w": [
+        "magma",
+        "lava",
+        "dyke"
+       ],
+       "e": [
+        "magma means molten material beneath Earth's surface; the question instead describes a sheet intrusion lying along existing layers.",
+        "lava means molten material erupted onto the surface; the question instead describes a sheet intrusion lying along existing layers.",
+        "dyke means a sheet intrusion cutting across existing layers; the question instead describes a sheet intrusion lying along existing layers."
+       ],
+       "y": "A sheet intrusion lying along existing layers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-15-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Molten material occupies a chamber below a volcano.\nWhich term best fits this example?",
+       "r": "magma",
+       "w": [
+        "lava",
+        "dyke",
+        "sill"
+       ],
+       "e": [
+        "lava concerns molten material erupted onto the surface. This case instead illustrates molten material beneath Earth's surface.",
+        "dyke concerns a sheet intrusion cutting across existing layers. This case instead illustrates molten material beneath Earth's surface.",
+        "sill concerns a sheet intrusion lying along existing layers. This case instead illustrates molten material beneath Earth's surface."
+       ],
+       "y": "Molten material occupies a chamber below a volcano. Molten material beneath earth's surface."
+      },
+      {
+       "q": "Molten material flows over the land during an eruption.\nWhich term best fits this example?",
+       "r": "lava",
+       "w": [
+        "magma",
+        "dyke",
+        "sill"
+       ],
+       "e": [
+        "magma concerns molten material beneath Earth's surface. This case instead illustrates molten material erupted onto the surface.",
+        "dyke concerns a sheet intrusion cutting across existing layers. This case instead illustrates molten material erupted onto the surface.",
+        "sill concerns a sheet intrusion lying along existing layers. This case instead illustrates molten material erupted onto the surface."
+       ],
+       "y": "Molten material flows over the land during an eruption. Molten material erupted onto the surface."
+      },
+      {
+       "q": "A molten sheet crosses older rock beds.\nWhich term best fits this example?",
+       "r": "dyke",
+       "w": [
+        "magma",
+        "lava",
+        "sill"
+       ],
+       "e": [
+        "magma concerns molten material beneath Earth's surface. This case instead illustrates a sheet intrusion cutting across existing layers.",
+        "lava concerns molten material erupted onto the surface. This case instead illustrates a sheet intrusion cutting across existing layers.",
+        "sill concerns a sheet intrusion lying along existing layers. This case instead illustrates a sheet intrusion cutting across existing layers."
+       ],
+       "y": "A molten sheet crosses older rock beds. A sheet intrusion cutting across existing layers."
+      },
+      {
+       "q": "A molten sheet is emplaced between rock beds.\nWhich term best fits this example?",
+       "r": "sill",
+       "w": [
+        "magma",
+        "lava",
+        "dyke"
+       ],
+       "e": [
+        "magma concerns molten material beneath Earth's surface. This case instead illustrates a sheet intrusion lying along existing layers.",
+        "lava concerns molten material erupted onto the surface. This case instead illustrates a sheet intrusion lying along existing layers.",
+        "dyke concerns a sheet intrusion cutting across existing layers. This case instead illustrates a sheet intrusion lying along existing layers."
+       ],
+       "y": "A molten sheet is emplaced between rock beds. A sheet intrusion lying along existing layers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-15-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Molten material occupies a chamber below a volcano.\nWhich explanation justifies the classification?",
+       "r": "Molten material beneath earth's surface.",
+       "w": [
+        "Molten material erupted onto the surface.",
+        "A sheet intrusion cutting across existing layers.",
+        "A sheet intrusion lying along existing layers."
+       ],
+       "e": [
+        "That explanation describes lava, rather than the relationship illustrated in this example.",
+        "That explanation describes dyke, rather than the relationship illustrated in this example.",
+        "That explanation describes sill, rather than the relationship illustrated in this example."
+       ],
+       "y": "Use magma below the surface and lava after eruption."
+      },
+      {
+       "q": "Molten material flows over the land during an eruption.\nWhich explanation justifies the classification?",
+       "r": "Molten material erupted onto the surface.",
+       "w": [
+        "Molten material beneath earth's surface.",
+        "A sheet intrusion cutting across existing layers.",
+        "A sheet intrusion lying along existing layers."
+       ],
+       "e": [
+        "That explanation describes magma, rather than the relationship illustrated in this example.",
+        "That explanation describes dyke, rather than the relationship illustrated in this example.",
+        "That explanation describes sill, rather than the relationship illustrated in this example."
+       ],
+       "y": "Lava is erupted molten material, not ordinary river sediment."
+      },
+      {
+       "q": "A molten sheet crosses older rock beds.\nWhich explanation justifies the classification?",
+       "r": "A sheet intrusion cutting across existing layers.",
+       "w": [
+        "Molten material beneath earth's surface.",
+        "Molten material erupted onto the surface.",
+        "A sheet intrusion lying along existing layers."
+       ],
+       "e": [
+        "That explanation describes magma, rather than the relationship illustrated in this example.",
+        "That explanation describes lava, rather than the relationship illustrated in this example.",
+        "That explanation describes sill, rather than the relationship illustrated in this example."
+       ],
+       "y": "Following bedding is characteristic of a sill; cutting across is a dyke."
+      },
+      {
+       "q": "A molten sheet is emplaced between rock beds.\nWhich explanation justifies the classification?",
+       "r": "A sheet intrusion lying along existing layers.",
+       "w": [
+        "Molten material beneath earth's surface.",
+        "Molten material erupted onto the surface.",
+        "A sheet intrusion cutting across existing layers."
+       ],
+       "e": [
+        "That explanation describes magma, rather than the relationship illustrated in this example.",
+        "That explanation describes lava, rather than the relationship illustrated in this example.",
+        "That explanation describes dyke, rather than the relationship illustrated in this example."
+       ],
+       "y": "Its relationship to the existing layers defines it, even if the layers are tilted."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-15-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "magma",
+     "right": "Molten material occupies a chamber below a volcano."
+    },
+    {
+     "left": "lava",
+     "right": "Molten material flows over the land during an eruption."
+    },
+    {
+     "left": "dyke",
+     "right": "A molten sheet crosses older rock beds."
+    },
+    {
+     "left": "sill",
+     "right": "A molten sheet is emplaced between rock beds."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-15-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "magma: molten material beneath Earth's surface.",
+      "truth": "true",
+      "explain": "This statement is correct: magma means molten material beneath Earth's surface. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "lava: molten material erupted onto the surface.",
+      "truth": "true",
+      "explain": "This statement is correct: lava means molten material erupted onto the surface. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "dyke: a sheet intrusion cutting across existing layers.",
+      "truth": "true",
+      "explain": "This statement is correct: dyke means a sheet intrusion cutting across existing layers. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "sill: a sheet intrusion lying along existing layers.",
+      "truth": "true",
+      "explain": "This statement is correct: sill means a sheet intrusion lying along existing layers. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "All underground molten material is called surface lava.",
+      "truth": "false",
+      "explain": "Use magma below the surface and lava after eruption."
+     },
+     {
+      "text": "Lava is only unheated sediment carried by a river.",
+      "truth": "false",
+      "explain": "Lava is erupted molten material, not ordinary river sediment."
+     },
+     {
+      "text": "Every sheet intrusion that follows a bedding plane is a dyke.",
+      "truth": "false",
+      "explain": "Following bedding is characteristic of a sill; cutting across is a dyke."
+     },
+     {
+      "text": "A sill is defined only by being drawn horizontally on the page.",
+      "truth": "false",
+      "explain": "Its relationship to the existing layers defines it, even if the layers are tilted."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

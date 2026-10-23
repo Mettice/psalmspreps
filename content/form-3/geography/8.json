@@ -1,0 +1,531 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "g3-8",
+   "name": "Practical preparation: calculating time and date"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A time-and-date exercise needs both an offset and a calendar check. Work in minutes after midnight to avoid mixing hours and minutes. Add the eastward time difference or subtract the westward difference. A result at or beyond the next midnight belongs to the following day; a negative result belongs to the preceding day. This guided practical uses ideal meridians, not current civil-zone regulations. State both the clock result and any date change when requested.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A time-and-date exercise needs both an offset and a calendar check. Work in minutes after midnight to avoid mixing hours and minutes. Add the eastward time difference or subtract the westward difference. A result at or beyond the next midnight belongs to the following day; a negative result belongs to the preceding day. This guided practical uses ideal meridians, not current civil-zone regulations. State both the clock result and any date change when requested."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A hypothetical point east of Greenwich is ahead. If the starting time is late at night, adding the offset may cross midnight. A point west can instead fall on the previous day when the starting time is early. In an exercise book, separate longitude difference, time offset, adjusted minutes and date change into labelled steps."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Do not discard a negative sign before deciding the date. Reduce the clock value to one day only after recording whether the calculation crossed midnight. A Date Line journey and an ordinary offset calculation need careful interpretation of the convention stated in the question."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "time offset",
+    "meaning": "the signed time difference applied to a starting time"
+   },
+   {
+    "word": "following day",
+    "meaning": "the calendar result when a calculation passes the next midnight"
+   },
+   {
+    "word": "preceding day",
+    "meaning": "the calendar result when a calculation goes before the starting midnight"
+   },
+   {
+    "word": "clock normalisation",
+    "meaning": "expressing adjusted time within a single day's clock"
+   }
+  ],
+  "examples": [
+   "A learner adds an eastern meridian's difference to Greenwich time.",
+   "An evening time plus an eastern offset exceeds a full day's minutes.",
+   "An early time minus a western offset produces negative minutes."
+  ],
+  "mistake": {
+   "wrong": "An offset can be ignored whenever it is inconvenient.",
+   "right": "time offset: the signed time difference applied to a starting time.",
+   "why": "The offset is what connects the two times in the exercise."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A learner adds an eastern meridian's difference to Greenwich time. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "The signed time difference applied to a starting time.",
+   "The offset is what connects the two times in the exercise."
+  ],
+  "answer": "time offset",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-8-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "time offset: the signed time difference applied to a starting time.",
+     "following day: the calendar result when a calculation passes the next midnight.",
+     "preceding day: the calendar result when a calculation goes before the starting midnight.",
+     "clock normalisation: expressing adjusted time within a single day's clock."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-8-terms"
+    }
+   },
+   {
+    "id": "cg3-8-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A learner adds an eastern meridian's difference to Greenwich time.",
+     "time offset: the signed time difference applied to a starting time."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-8-cases"
+    }
+   },
+   {
+    "id": "cg3-8-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "An offset can be ignored whenever it is inconvenient.",
+     "The offset is what connects the two times in the exercise."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-8-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "time offset: the signed time difference applied to a starting time.",
+        "truth": "true",
+        "explain": "This statement is correct: time offset means the signed time difference applied to a starting time. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "following day: the calendar result when a calculation passes the next midnight.",
+        "truth": "true",
+        "explain": "This statement is correct: following day means the calendar result when a calculation passes the next midnight. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "preceding day: the calendar result when a calculation goes before the starting midnight.",
+        "truth": "true",
+        "explain": "This statement is correct: preceding day means the calendar result when a calculation goes before the starting midnight. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "clock normalisation: expressing adjusted time within a single day's clock.",
+        "truth": "true",
+        "explain": "This statement is correct: clock normalisation means expressing adjusted time within a single day's clock. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An offset can be ignored whenever it is inconvenient.",
+        "truth": "false",
+        "explain": "The offset is what connects the two times in the exercise."
+       },
+       {
+        "text": "Passing the next midnight leaves the date unchanged.",
+        "truth": "false",
+        "explain": "A complete day crossed advances the date."
+       },
+       {
+        "text": "A negative adjusted minute value means the next day.",
+        "truth": "false",
+        "explain": "Going backward across midnight reaches the previous day."
+       },
+       {
+        "text": "Reducing a clock value proves that no date change occurred.",
+        "truth": "false",
+        "explain": "Clock display and calendar day must be recorded separately."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-8-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: the signed time difference applied to a starting time ?",
+       "r": "time offset",
+       "w": [
+        "following day",
+        "preceding day",
+        "clock normalisation"
+       ],
+       "e": [
+        "following day means the calendar result when a calculation passes the next midnight; the question instead describes the signed time difference applied to a starting time.",
+        "preceding day means the calendar result when a calculation goes before the starting midnight; the question instead describes the signed time difference applied to a starting time.",
+        "clock normalisation means expressing adjusted time within a single day's clock; the question instead describes the signed time difference applied to a starting time."
+       ],
+       "y": "The signed time difference applied to a starting time."
+      },
+      {
+       "q": "Which term means: the calendar result when a calculation passes the next midnight ?",
+       "r": "following day",
+       "w": [
+        "time offset",
+        "preceding day",
+        "clock normalisation"
+       ],
+       "e": [
+        "time offset means the signed time difference applied to a starting time; the question instead describes the calendar result when a calculation passes the next midnight.",
+        "preceding day means the calendar result when a calculation goes before the starting midnight; the question instead describes the calendar result when a calculation passes the next midnight.",
+        "clock normalisation means expressing adjusted time within a single day's clock; the question instead describes the calendar result when a calculation passes the next midnight."
+       ],
+       "y": "The calendar result when a calculation passes the next midnight."
+      },
+      {
+       "q": "Which term means: the calendar result when a calculation goes before the starting midnight ?",
+       "r": "preceding day",
+       "w": [
+        "time offset",
+        "following day",
+        "clock normalisation"
+       ],
+       "e": [
+        "time offset means the signed time difference applied to a starting time; the question instead describes the calendar result when a calculation goes before the starting midnight.",
+        "following day means the calendar result when a calculation passes the next midnight; the question instead describes the calendar result when a calculation goes before the starting midnight.",
+        "clock normalisation means expressing adjusted time within a single day's clock; the question instead describes the calendar result when a calculation goes before the starting midnight."
+       ],
+       "y": "The calendar result when a calculation goes before the starting midnight."
+      },
+      {
+       "q": "Which term means: expressing adjusted time within a single day's clock ?",
+       "r": "clock normalisation",
+       "w": [
+        "time offset",
+        "following day",
+        "preceding day"
+       ],
+       "e": [
+        "time offset means the signed time difference applied to a starting time; the question instead describes expressing adjusted time within a single day's clock.",
+        "following day means the calendar result when a calculation passes the next midnight; the question instead describes expressing adjusted time within a single day's clock.",
+        "preceding day means the calendar result when a calculation goes before the starting midnight; the question instead describes expressing adjusted time within a single day's clock."
+       ],
+       "y": "Expressing adjusted time within a single day's clock."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-8-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner adds an eastern meridian's difference to Greenwich time.\nWhich term best fits this example?",
+       "r": "time offset",
+       "w": [
+        "following day",
+        "preceding day",
+        "clock normalisation"
+       ],
+       "e": [
+        "following day concerns the calendar result when a calculation passes the next midnight. This case instead illustrates the signed time difference applied to a starting time.",
+        "preceding day concerns the calendar result when a calculation goes before the starting midnight. This case instead illustrates the signed time difference applied to a starting time.",
+        "clock normalisation concerns expressing adjusted time within a single day's clock. This case instead illustrates the signed time difference applied to a starting time."
+       ],
+       "y": "A learner adds an eastern meridian's difference to Greenwich time. The signed time difference applied to a starting time."
+      },
+      {
+       "q": "An evening time plus an eastern offset exceeds a full day's minutes.\nWhich term best fits this example?",
+       "r": "following day",
+       "w": [
+        "time offset",
+        "preceding day",
+        "clock normalisation"
+       ],
+       "e": [
+        "time offset concerns the signed time difference applied to a starting time. This case instead illustrates the calendar result when a calculation passes the next midnight.",
+        "preceding day concerns the calendar result when a calculation goes before the starting midnight. This case instead illustrates the calendar result when a calculation passes the next midnight.",
+        "clock normalisation concerns expressing adjusted time within a single day's clock. This case instead illustrates the calendar result when a calculation passes the next midnight."
+       ],
+       "y": "An evening time plus an eastern offset exceeds a full day's minutes. The calendar result when a calculation passes the next midnight."
+      },
+      {
+       "q": "An early time minus a western offset produces negative minutes.\nWhich term best fits this example?",
+       "r": "preceding day",
+       "w": [
+        "time offset",
+        "following day",
+        "clock normalisation"
+       ],
+       "e": [
+        "time offset concerns the signed time difference applied to a starting time. This case instead illustrates the calendar result when a calculation goes before the starting midnight.",
+        "following day concerns the calendar result when a calculation passes the next midnight. This case instead illustrates the calendar result when a calculation goes before the starting midnight.",
+        "clock normalisation concerns expressing adjusted time within a single day's clock. This case instead illustrates the calendar result when a calculation goes before the starting midnight."
+       ],
+       "y": "An early time minus a western offset produces negative minutes. The calendar result when a calculation goes before the starting midnight."
+      },
+      {
+       "q": "A learner keeps the date change separate while reducing the clock time.\nWhich term best fits this example?",
+       "r": "clock normalisation",
+       "w": [
+        "time offset",
+        "following day",
+        "preceding day"
+       ],
+       "e": [
+        "time offset concerns the signed time difference applied to a starting time. This case instead illustrates expressing adjusted time within a single day's clock.",
+        "following day concerns the calendar result when a calculation passes the next midnight. This case instead illustrates expressing adjusted time within a single day's clock.",
+        "preceding day concerns the calendar result when a calculation goes before the starting midnight. This case instead illustrates expressing adjusted time within a single day's clock."
+       ],
+       "y": "A learner keeps the date change separate while reducing the clock time. Expressing adjusted time within a single day's clock."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-8-time",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      30,
+      720,
+      1410
+     ]
+    },
+    "to": {
+     "pick": [
+      -30,
+      0,
+      30
+     ]
+    }
+   },
+   "prompt": "Greenwich local time is {clock(t)}. An ideal point lies {lon(to)}. Give the adjusted time in minutes after the starting midnight, before reducing it to a clock display.",
+   "answer": "t+to*4",
+   "solution": [
+    "East adds time; west subtracts.",
+    "{t} + ({to} × {4}) = {answer} minutes."
+   ],
+   "signed": true,
+   "unit": "minutes"
+  },
+  {
+   "id": "g3-8-date",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      30,
+      720,
+      1410
+     ]
+    },
+    "to": {
+     "pick": [
+      -30,
+      0,
+      30
+     ]
+    },
+    "m": {
+     "expr": "t+to*4"
+    }
+   },
+   "prompt": "Starting at {clock(t)} in Greenwich local time, calculate the day change at {lon(to)}: use {-1} for previous day, {0} for same day, {1} for next day.",
+   "answer": "m < 0 ? -1 : m >= 1440 ? 1 : 0",
+   "solution": [
+    "Adjusted minutes = {t} + ({to} × {4}) = {m}.",
+    "Compare with {0} and {1440}; the day-change code is {answer}."
+   ],
+   "signed": true
+  },
+  {
+   "id": "g3-8-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "time offset: the signed time difference applied to a starting time.",
+      "truth": "true",
+      "explain": "This statement is correct: time offset means the signed time difference applied to a starting time. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "following day: the calendar result when a calculation passes the next midnight.",
+      "truth": "true",
+      "explain": "This statement is correct: following day means the calendar result when a calculation passes the next midnight. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "preceding day: the calendar result when a calculation goes before the starting midnight.",
+      "truth": "true",
+      "explain": "This statement is correct: preceding day means the calendar result when a calculation goes before the starting midnight. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "clock normalisation: expressing adjusted time within a single day's clock.",
+      "truth": "true",
+      "explain": "This statement is correct: clock normalisation means expressing adjusted time within a single day's clock. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An offset can be ignored whenever it is inconvenient.",
+      "truth": "false",
+      "explain": "The offset is what connects the two times in the exercise."
+     },
+     {
+      "text": "Passing the next midnight leaves the date unchanged.",
+      "truth": "false",
+      "explain": "A complete day crossed advances the date."
+     },
+     {
+      "text": "A negative adjusted minute value means the next day.",
+      "truth": "false",
+      "explain": "Going backward across midnight reaches the previous day."
+     },
+     {
+      "text": "Reducing a clock value proves that no date change occurred.",
+      "truth": "false",
+      "explain": "Clock display and calendar day must be recorded separately."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

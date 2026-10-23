@@ -1,0 +1,606 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-7",
+   "name": "Local time, standard time and zones"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Longitude affects local solar time because Earth rotates. Places farther east are ahead of places farther west in the ideal longitude calculation. Earth turns through {360} degrees in about {24} hours, so {15} degrees corresponds to {1} hour and {1} degree to {4} minutes. Standard time is an adopted common time for a region, rather than a different clock for every meridian. Real civil zones follow political decisions and may differ from ideal equal-width zones.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Longitude affects local solar time because Earth rotates. Places farther east are ahead of places farther west in the ideal longitude calculation. Earth turns through {360} degrees in about {24} hours, so {15} degrees corresponds to {1} hour and {1} degree to {4} minutes. Standard time is an adopted common time for a region, rather than a different clock for every meridian. Real civil zones follow political decisions and may differ from ideal equal-width zones."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "For an exercise, suppose local time at Greenwich is {720} minutes after midnight. At {15} degrees east the ideal local solar time is {780} minutes after midnight. The example illustrates rotation, not a statement that every country on that meridian uses the same current civil clock. Always distinguish a theoretical longitude exercise from a real journey timetable."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Calculate the longitude difference, convert degrees to minutes and choose the sign: east ahead, west behind. Check whether the resulting minutes lie outside the current day. When asked about a real standard zone, use the stated offset rather than silently replacing it with longitude."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "local solar time",
+    "meaning": "time related to the Sun at a particular longitude"
+   },
+   {
+    "word": "standard time",
+    "meaning": "a common clock time adopted for a region"
+   },
+   {
+    "word": "east ahead",
+    "meaning": "the sign convention that adds time toward greater eastern longitude"
+   },
+   {
+    "word": "ideal time zone",
+    "meaning": "a simplified longitudinal band used in teaching time differences"
+   }
+  ],
+  "examples": [
+   "An ideal calculation gives different noon times at different meridians.",
+   "Several towns use a shared official clock despite different longitudes.",
+   "A theoretical point east of Greenwich reaches solar noon earlier."
+  ],
+  "mistake": {
+   "wrong": "Every longitude has local solar noon at the same instant.",
+   "right": "local solar time: time related to the Sun at a particular longitude.",
+   "why": "Rotation brings different meridians toward the Sun at different times."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An ideal calculation gives different noon times at different meridians. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Time related to the sun at a particular longitude.",
+   "Rotation brings different meridians toward the Sun at different times."
+  ],
+  "answer": "local solar time",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-7-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "local solar time: time related to the Sun at a particular longitude.",
+     "standard time: a common clock time adopted for a region.",
+     "east ahead: the sign convention that adds time toward greater eastern longitude.",
+     "ideal time zone: a simplified longitudinal band used in teaching time differences."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-7-terms"
+    }
+   },
+   {
+    "id": "cg3-7-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "An ideal calculation gives different noon times at different meridians.",
+     "local solar time: time related to the Sun at a particular longitude."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-7-cases"
+    }
+   },
+   {
+    "id": "cg3-7-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Every longitude has local solar noon at the same instant.",
+     "Rotation brings different meridians toward the Sun at different times."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-7-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "local solar time: time related to the Sun at a particular longitude.",
+        "truth": "true",
+        "explain": "This statement is correct: local solar time means time related to the Sun at a particular longitude. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "standard time: a common clock time adopted for a region.",
+        "truth": "true",
+        "explain": "This statement is correct: standard time means a common clock time adopted for a region. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "east ahead: the sign convention that adds time toward greater eastern longitude.",
+        "truth": "true",
+        "explain": "This statement is correct: east ahead means the sign convention that adds time toward greater eastern longitude. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "ideal time zone: a simplified longitudinal band used in teaching time differences.",
+        "truth": "true",
+        "explain": "This statement is correct: ideal time zone means a simplified longitudinal band used in teaching time differences. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every longitude has local solar noon at the same instant.",
+        "truth": "false",
+        "explain": "Rotation brings different meridians toward the Sun at different times."
+       },
+       {
+        "text": "Standard time must differ at every street corner.",
+        "truth": "false",
+        "explain": "Its purpose is a shared regional convention rather than a separate solar clock everywhere."
+       },
+       {
+        "text": "Moving east in a longitude calculation always subtracts time.",
+        "truth": "false",
+        "explain": "Eastward longitude is ahead, so add the corresponding time difference."
+       },
+       {
+        "text": "Every actual civil border follows an ideal meridian exactly.",
+        "truth": "false",
+        "explain": "Civil zones can depart from the simplified angular model."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-7-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: time related to the Sun at a particular longitude ?",
+       "r": "local solar time",
+       "w": [
+        "standard time",
+        "east ahead",
+        "ideal time zone"
+       ],
+       "e": [
+        "standard time means a common clock time adopted for a region; the question instead describes time related to the Sun at a particular longitude.",
+        "east ahead means the sign convention that adds time toward greater eastern longitude; the question instead describes time related to the Sun at a particular longitude.",
+        "ideal time zone means a simplified longitudinal band used in teaching time differences; the question instead describes time related to the Sun at a particular longitude."
+       ],
+       "y": "Time related to the sun at a particular longitude."
+      },
+      {
+       "q": "Which term means: a common clock time adopted for a region ?",
+       "r": "standard time",
+       "w": [
+        "local solar time",
+        "east ahead",
+        "ideal time zone"
+       ],
+       "e": [
+        "local solar time means time related to the Sun at a particular longitude; the question instead describes a common clock time adopted for a region.",
+        "east ahead means the sign convention that adds time toward greater eastern longitude; the question instead describes a common clock time adopted for a region.",
+        "ideal time zone means a simplified longitudinal band used in teaching time differences; the question instead describes a common clock time adopted for a region."
+       ],
+       "y": "A common clock time adopted for a region."
+      },
+      {
+       "q": "Which term means: the sign convention that adds time toward greater eastern longitude ?",
+       "r": "east ahead",
+       "w": [
+        "local solar time",
+        "standard time",
+        "ideal time zone"
+       ],
+       "e": [
+        "local solar time means time related to the Sun at a particular longitude; the question instead describes the sign convention that adds time toward greater eastern longitude.",
+        "standard time means a common clock time adopted for a region; the question instead describes the sign convention that adds time toward greater eastern longitude.",
+        "ideal time zone means a simplified longitudinal band used in teaching time differences; the question instead describes the sign convention that adds time toward greater eastern longitude."
+       ],
+       "y": "The sign convention that adds time toward greater eastern longitude."
+      },
+      {
+       "q": "Which term means: a simplified longitudinal band used in teaching time differences ?",
+       "r": "ideal time zone",
+       "w": [
+        "local solar time",
+        "standard time",
+        "east ahead"
+       ],
+       "e": [
+        "local solar time means time related to the Sun at a particular longitude; the question instead describes a simplified longitudinal band used in teaching time differences.",
+        "standard time means a common clock time adopted for a region; the question instead describes a simplified longitudinal band used in teaching time differences.",
+        "east ahead means the sign convention that adds time toward greater eastern longitude; the question instead describes a simplified longitudinal band used in teaching time differences."
+       ],
+       "y": "A simplified longitudinal band used in teaching time differences."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-7-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An ideal calculation gives different noon times at different meridians.\nWhich term best fits this example?",
+       "r": "local solar time",
+       "w": [
+        "standard time",
+        "east ahead",
+        "ideal time zone"
+       ],
+       "e": [
+        "standard time concerns a common clock time adopted for a region. This case instead illustrates time related to the Sun at a particular longitude.",
+        "east ahead concerns the sign convention that adds time toward greater eastern longitude. This case instead illustrates time related to the Sun at a particular longitude.",
+        "ideal time zone concerns a simplified longitudinal band used in teaching time differences. This case instead illustrates time related to the Sun at a particular longitude."
+       ],
+       "y": "An ideal calculation gives different noon times at different meridians. Time related to the sun at a particular longitude."
+      },
+      {
+       "q": "Several towns use a shared official clock despite different longitudes.\nWhich term best fits this example?",
+       "r": "standard time",
+       "w": [
+        "local solar time",
+        "east ahead",
+        "ideal time zone"
+       ],
+       "e": [
+        "local solar time concerns time related to the Sun at a particular longitude. This case instead illustrates a common clock time adopted for a region.",
+        "east ahead concerns the sign convention that adds time toward greater eastern longitude. This case instead illustrates a common clock time adopted for a region.",
+        "ideal time zone concerns a simplified longitudinal band used in teaching time differences. This case instead illustrates a common clock time adopted for a region."
+       ],
+       "y": "Several towns use a shared official clock despite different longitudes. A common clock time adopted for a region."
+      },
+      {
+       "q": "A theoretical point east of Greenwich reaches solar noon earlier.\nWhich term best fits this example?",
+       "r": "east ahead",
+       "w": [
+        "local solar time",
+        "standard time",
+        "ideal time zone"
+       ],
+       "e": [
+        "local solar time concerns time related to the Sun at a particular longitude. This case instead illustrates the sign convention that adds time toward greater eastern longitude.",
+        "standard time concerns a common clock time adopted for a region. This case instead illustrates the sign convention that adds time toward greater eastern longitude.",
+        "ideal time zone concerns a simplified longitudinal band used in teaching time differences. This case instead illustrates the sign convention that adds time toward greater eastern longitude."
+       ],
+       "y": "A theoretical point east of Greenwich reaches solar noon earlier. The sign convention that adds time toward greater eastern longitude."
+      },
+      {
+       "q": "A classroom globe divides an ideal day into equal angular bands.\nWhich term best fits this example?",
+       "r": "ideal time zone",
+       "w": [
+        "local solar time",
+        "standard time",
+        "east ahead"
+       ],
+       "e": [
+        "local solar time concerns time related to the Sun at a particular longitude. This case instead illustrates a simplified longitudinal band used in teaching time differences.",
+        "standard time concerns a common clock time adopted for a region. This case instead illustrates a simplified longitudinal band used in teaching time differences.",
+        "east ahead concerns the sign convention that adds time toward greater eastern longitude. This case instead illustrates a simplified longitudinal band used in teaching time differences."
+       ],
+       "y": "A classroom globe divides an ideal day into equal angular bands. A simplified longitudinal band used in teaching time differences."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-7-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An ideal calculation gives different noon times at different meridians.\nWhich explanation justifies the classification?",
+       "r": "Time related to the sun at a particular longitude.",
+       "w": [
+        "A common clock time adopted for a region.",
+        "The sign convention that adds time toward greater eastern longitude.",
+        "A simplified longitudinal band used in teaching time differences."
+       ],
+       "e": [
+        "That explanation describes standard time, rather than the relationship illustrated in this example.",
+        "That explanation describes east ahead, rather than the relationship illustrated in this example.",
+        "That explanation describes ideal time zone, rather than the relationship illustrated in this example."
+       ],
+       "y": "Rotation brings different meridians toward the Sun at different times."
+      },
+      {
+       "q": "Several towns use a shared official clock despite different longitudes.\nWhich explanation justifies the classification?",
+       "r": "A common clock time adopted for a region.",
+       "w": [
+        "Time related to the sun at a particular longitude.",
+        "The sign convention that adds time toward greater eastern longitude.",
+        "A simplified longitudinal band used in teaching time differences."
+       ],
+       "e": [
+        "That explanation describes local solar time, rather than the relationship illustrated in this example.",
+        "That explanation describes east ahead, rather than the relationship illustrated in this example.",
+        "That explanation describes ideal time zone, rather than the relationship illustrated in this example."
+       ],
+       "y": "Its purpose is a shared regional convention rather than a separate solar clock everywhere."
+      },
+      {
+       "q": "A theoretical point east of Greenwich reaches solar noon earlier.\nWhich explanation justifies the classification?",
+       "r": "The sign convention that adds time toward greater eastern longitude.",
+       "w": [
+        "Time related to the sun at a particular longitude.",
+        "A common clock time adopted for a region.",
+        "A simplified longitudinal band used in teaching time differences."
+       ],
+       "e": [
+        "That explanation describes local solar time, rather than the relationship illustrated in this example.",
+        "That explanation describes standard time, rather than the relationship illustrated in this example.",
+        "That explanation describes ideal time zone, rather than the relationship illustrated in this example."
+       ],
+       "y": "Eastward longitude is ahead, so add the corresponding time difference."
+      },
+      {
+       "q": "A classroom globe divides an ideal day into equal angular bands.\nWhich explanation justifies the classification?",
+       "r": "A simplified longitudinal band used in teaching time differences.",
+       "w": [
+        "Time related to the sun at a particular longitude.",
+        "A common clock time adopted for a region.",
+        "The sign convention that adds time toward greater eastern longitude."
+       ],
+       "e": [
+        "That explanation describes local solar time, rather than the relationship illustrated in this example.",
+        "That explanation describes standard time, rather than the relationship illustrated in this example.",
+        "That explanation describes east ahead, rather than the relationship illustrated in this example."
+       ],
+       "y": "Civil zones can depart from the simplified angular model."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-7-offset",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      1,
+      30
+     ]
+    }
+   },
+   "prompt": "Two ideal meridians differ by {d} degrees. Find their local-time difference in minutes.",
+   "answer": "d*4",
+   "misconceptions": [
+    {
+     "id": "hours",
+     "wrong": "d/15",
+     "explain": "That gives hours, but the question asks for minutes."
+    },
+    {
+     "id": "divide",
+     "wrong": "d/4",
+     "explain": "Multiply degrees by minutes per degree; do not divide."
+    }
+   ],
+   "solution": [
+    "Each degree corresponds to {4} minutes.",
+    "{d} × {4} = {answer} minutes."
+   ],
+   "unit": "minutes"
+  },
+  {
+   "id": "g3-7-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "local solar time: time related to the Sun at a particular longitude.",
+      "truth": "true",
+      "explain": "This statement is correct: local solar time means time related to the Sun at a particular longitude. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "standard time: a common clock time adopted for a region.",
+      "truth": "true",
+      "explain": "This statement is correct: standard time means a common clock time adopted for a region. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "east ahead: the sign convention that adds time toward greater eastern longitude.",
+      "truth": "true",
+      "explain": "This statement is correct: east ahead means the sign convention that adds time toward greater eastern longitude. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "ideal time zone: a simplified longitudinal band used in teaching time differences.",
+      "truth": "true",
+      "explain": "This statement is correct: ideal time zone means a simplified longitudinal band used in teaching time differences. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every longitude has local solar noon at the same instant.",
+      "truth": "false",
+      "explain": "Rotation brings different meridians toward the Sun at different times."
+     },
+     {
+      "text": "Standard time must differ at every street corner.",
+      "truth": "false",
+      "explain": "Its purpose is a shared regional convention rather than a separate solar clock everywhere."
+     },
+     {
+      "text": "Moving east in a longitude calculation always subtracts time.",
+      "truth": "false",
+      "explain": "Eastward longitude is ahead, so add the corresponding time difference."
+     },
+     {
+      "text": "Every actual civil border follows an ideal meridian exactly.",
+      "truth": "false",
+      "explain": "Civil zones can depart from the simplified angular model."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

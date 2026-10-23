@@ -1,0 +1,599 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-13",
+   "name": "Continental drift: evidence and limitations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Continental drift proposes that continents have changed position over geological time. Wegener assembled evidence including the broad fit of continental margins, matching fossil distributions and corresponding rocks and ancient climatic indicators. Pangaea names a former supercontinent in this account. The early proposal lacked a convincing mechanism accepted at the time. Later seafloor and plate evidence helped develop plate tectonics. A similar outline alone is suggestive, not the entire argument.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Continental drift proposes that continents have changed position over geological time. Wegener assembled evidence including the broad fit of continental margins, matching fossil distributions and corresponding rocks and ancient climatic indicators. Pangaea names a former supercontinent in this account. The early proposal lacked a convincing mechanism accepted at the time. Later seafloor and plate evidence helped develop plate tectonics. A similar outline alone is suggestive, not the entire argument."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A learner compares continental margins across the Atlantic and then asks whether fossils and rock patterns also correspond. Several independent observations can support a reconstruction better than one jigsaw resemblance. Cameroon is part of the African plate framework, but an exact reconstruction needs geological evidence rather than simply moving modern political borders on paper."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Separate the proposal, the supporting observations and the later mechanism. Use geological rather than national boundaries when considering continental history. Do not describe the early theory's incomplete mechanism as proof that every observation it used was worthless."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "continental drift",
+    "meaning": "change in continental positions over geological time"
+   },
+   {
+    "word": "Pangaea",
+    "meaning": "a former supercontinent in continental reconstructions"
+   },
+   {
+    "word": "corresponding evidence",
+    "meaning": "independent matching geological or fossil patterns across separated land masses"
+   },
+   {
+    "word": "mechanism problem",
+    "meaning": "the difficulty of explaining what could move the continents in the early proposal"
+   }
+  ],
+  "examples": [
+   "A reconstruction places now-separated continental masses together in the past.",
+   "A model joins major continental masses into one ancient landmass.",
+   "Similar fossil and rock patterns are compared across an ocean."
+  ],
+  "mistake": {
+   "wrong": "Continental drift concerns daily changes in national borders.",
+   "right": "continental drift: change in continental positions over geological time.",
+   "why": "The concept concerns geological land masses over long times, not political administration."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A reconstruction places now-separated continental masses together in the past. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Change in continental positions over geological time.",
+   "The concept concerns geological land masses over long times, not political administration."
+  ],
+  "answer": "continental drift",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-13-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "continental drift: change in continental positions over geological time.",
+     "Pangaea: a former supercontinent in continental reconstructions.",
+     "corresponding evidence: independent matching geological or fossil patterns across separated land masses.",
+     "mechanism problem: the difficulty of explaining what could move the continents in the early proposal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-13-terms"
+    }
+   },
+   {
+    "id": "cg3-13-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A reconstruction places now-separated continental masses together in the past.",
+     "continental drift: change in continental positions over geological time."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-13-cases"
+    }
+   },
+   {
+    "id": "cg3-13-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Continental drift concerns daily changes in national borders.",
+     "The concept concerns geological land masses over long times, not political administration."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-13-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "continental drift: change in continental positions over geological time.",
+        "truth": "true",
+        "explain": "This statement is correct: continental drift means change in continental positions over geological time. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "Pangaea: a former supercontinent in continental reconstructions.",
+        "truth": "true",
+        "explain": "This statement is correct: Pangaea means a former supercontinent in continental reconstructions. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "corresponding evidence: independent matching geological or fossil patterns across separated land masses.",
+        "truth": "true",
+        "explain": "This statement is correct: corresponding evidence means independent matching geological or fossil patterns across separated land masses. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "mechanism problem: the difficulty of explaining what could move the continents in the early proposal.",
+        "truth": "true",
+        "explain": "This statement is correct: mechanism problem means the difficulty of explaining what could move the continents in the early proposal. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Continental drift concerns daily changes in national borders.",
+        "truth": "false",
+        "explain": "The concept concerns geological land masses over long times, not political administration."
+       },
+       {
+        "text": "Pangaea is the present name of a single Cameroonian town.",
+        "truth": "false",
+        "explain": "Pangaea refers to an ancient continental configuration."
+       },
+       {
+        "text": "The coastline outline is the only evidence ever considered.",
+        "truth": "false",
+        "explain": "Fossils, rocks and ancient climate indicators provide additional lines of evidence."
+       },
+       {
+        "text": "Evidence for positions automatically explains the force causing movement.",
+        "truth": "false",
+        "explain": "A reconstruction and a physical mechanism answer different questions."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-13-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: change in continental positions over geological time ?",
+       "r": "continental drift",
+       "w": [
+        "Pangaea",
+        "corresponding evidence",
+        "mechanism problem"
+       ],
+       "e": [
+        "Pangaea means a former supercontinent in continental reconstructions; the question instead describes change in continental positions over geological time.",
+        "corresponding evidence means independent matching geological or fossil patterns across separated land masses; the question instead describes change in continental positions over geological time.",
+        "mechanism problem means the difficulty of explaining what could move the continents in the early proposal; the question instead describes change in continental positions over geological time."
+       ],
+       "y": "Change in continental positions over geological time."
+      },
+      {
+       "q": "Which term means: a former supercontinent in continental reconstructions ?",
+       "r": "Pangaea",
+       "w": [
+        "continental drift",
+        "corresponding evidence",
+        "mechanism problem"
+       ],
+       "e": [
+        "continental drift means change in continental positions over geological time; the question instead describes a former supercontinent in continental reconstructions.",
+        "corresponding evidence means independent matching geological or fossil patterns across separated land masses; the question instead describes a former supercontinent in continental reconstructions.",
+        "mechanism problem means the difficulty of explaining what could move the continents in the early proposal; the question instead describes a former supercontinent in continental reconstructions."
+       ],
+       "y": "A former supercontinent in continental reconstructions."
+      },
+      {
+       "q": "Which term means: independent matching geological or fossil patterns across separated land masses ?",
+       "r": "corresponding evidence",
+       "w": [
+        "continental drift",
+        "Pangaea",
+        "mechanism problem"
+       ],
+       "e": [
+        "continental drift means change in continental positions over geological time; the question instead describes independent matching geological or fossil patterns across separated land masses.",
+        "Pangaea means a former supercontinent in continental reconstructions; the question instead describes independent matching geological or fossil patterns across separated land masses.",
+        "mechanism problem means the difficulty of explaining what could move the continents in the early proposal; the question instead describes independent matching geological or fossil patterns across separated land masses."
+       ],
+       "y": "Independent matching geological or fossil patterns across separated land masses."
+      },
+      {
+       "q": "Which term means: the difficulty of explaining what could move the continents in the early proposal ?",
+       "r": "mechanism problem",
+       "w": [
+        "continental drift",
+        "Pangaea",
+        "corresponding evidence"
+       ],
+       "e": [
+        "continental drift means change in continental positions over geological time; the question instead describes the difficulty of explaining what could move the continents in the early proposal.",
+        "Pangaea means a former supercontinent in continental reconstructions; the question instead describes the difficulty of explaining what could move the continents in the early proposal.",
+        "corresponding evidence means independent matching geological or fossil patterns across separated land masses; the question instead describes the difficulty of explaining what could move the continents in the early proposal."
+       ],
+       "y": "The difficulty of explaining what could move the continents in the early proposal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-13-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A reconstruction places now-separated continental masses together in the past.\nWhich term best fits this example?",
+       "r": "continental drift",
+       "w": [
+        "Pangaea",
+        "corresponding evidence",
+        "mechanism problem"
+       ],
+       "e": [
+        "Pangaea concerns a former supercontinent in continental reconstructions. This case instead illustrates change in continental positions over geological time.",
+        "corresponding evidence concerns independent matching geological or fossil patterns across separated land masses. This case instead illustrates change in continental positions over geological time.",
+        "mechanism problem concerns the difficulty of explaining what could move the continents in the early proposal. This case instead illustrates change in continental positions over geological time."
+       ],
+       "y": "A reconstruction places now-separated continental masses together in the past. Change in continental positions over geological time."
+      },
+      {
+       "q": "A model joins major continental masses into one ancient landmass.\nWhich term best fits this example?",
+       "r": "Pangaea",
+       "w": [
+        "continental drift",
+        "corresponding evidence",
+        "mechanism problem"
+       ],
+       "e": [
+        "continental drift concerns change in continental positions over geological time. This case instead illustrates a former supercontinent in continental reconstructions.",
+        "corresponding evidence concerns independent matching geological or fossil patterns across separated land masses. This case instead illustrates a former supercontinent in continental reconstructions.",
+        "mechanism problem concerns the difficulty of explaining what could move the continents in the early proposal. This case instead illustrates a former supercontinent in continental reconstructions."
+       ],
+       "y": "A model joins major continental masses into one ancient landmass. A former supercontinent in continental reconstructions."
+      },
+      {
+       "q": "Similar fossil and rock patterns are compared across an ocean.\nWhich term best fits this example?",
+       "r": "corresponding evidence",
+       "w": [
+        "continental drift",
+        "Pangaea",
+        "mechanism problem"
+       ],
+       "e": [
+        "continental drift concerns change in continental positions over geological time. This case instead illustrates independent matching geological or fossil patterns across separated land masses.",
+        "Pangaea concerns a former supercontinent in continental reconstructions. This case instead illustrates independent matching geological or fossil patterns across separated land masses.",
+        "mechanism problem concerns the difficulty of explaining what could move the continents in the early proposal. This case instead illustrates independent matching geological or fossil patterns across separated land masses."
+       ],
+       "y": "Similar fossil and rock patterns are compared across an ocean. Independent matching geological or fossil patterns across separated land masses."
+      },
+      {
+       "q": "A reviewer asks how the proposed movement would occur.\nWhich term best fits this example?",
+       "r": "mechanism problem",
+       "w": [
+        "continental drift",
+        "Pangaea",
+        "corresponding evidence"
+       ],
+       "e": [
+        "continental drift concerns change in continental positions over geological time. This case instead illustrates the difficulty of explaining what could move the continents in the early proposal.",
+        "Pangaea concerns a former supercontinent in continental reconstructions. This case instead illustrates the difficulty of explaining what could move the continents in the early proposal.",
+        "corresponding evidence concerns independent matching geological or fossil patterns across separated land masses. This case instead illustrates the difficulty of explaining what could move the continents in the early proposal."
+       ],
+       "y": "A reviewer asks how the proposed movement would occur. The difficulty of explaining what could move the continents in the early proposal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-13-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A reconstruction places now-separated continental masses together in the past.\nWhich explanation justifies the classification?",
+       "r": "Change in continental positions over geological time.",
+       "w": [
+        "A former supercontinent in continental reconstructions.",
+        "Independent matching geological or fossil patterns across separated land masses.",
+        "The difficulty of explaining what could move the continents in the early proposal."
+       ],
+       "e": [
+        "That explanation describes Pangaea, rather than the relationship illustrated in this example.",
+        "That explanation describes corresponding evidence, rather than the relationship illustrated in this example.",
+        "That explanation describes mechanism problem, rather than the relationship illustrated in this example."
+       ],
+       "y": "The concept concerns geological land masses over long times, not political administration."
+      },
+      {
+       "q": "A model joins major continental masses into one ancient landmass.\nWhich explanation justifies the classification?",
+       "r": "A former supercontinent in continental reconstructions.",
+       "w": [
+        "Change in continental positions over geological time.",
+        "Independent matching geological or fossil patterns across separated land masses.",
+        "The difficulty of explaining what could move the continents in the early proposal."
+       ],
+       "e": [
+        "That explanation describes continental drift, rather than the relationship illustrated in this example.",
+        "That explanation describes corresponding evidence, rather than the relationship illustrated in this example.",
+        "That explanation describes mechanism problem, rather than the relationship illustrated in this example."
+       ],
+       "y": "Pangaea refers to an ancient continental configuration."
+      },
+      {
+       "q": "Similar fossil and rock patterns are compared across an ocean.\nWhich explanation justifies the classification?",
+       "r": "Independent matching geological or fossil patterns across separated land masses.",
+       "w": [
+        "Change in continental positions over geological time.",
+        "A former supercontinent in continental reconstructions.",
+        "The difficulty of explaining what could move the continents in the early proposal."
+       ],
+       "e": [
+        "That explanation describes continental drift, rather than the relationship illustrated in this example.",
+        "That explanation describes Pangaea, rather than the relationship illustrated in this example.",
+        "That explanation describes mechanism problem, rather than the relationship illustrated in this example."
+       ],
+       "y": "Fossils, rocks and ancient climate indicators provide additional lines of evidence."
+      },
+      {
+       "q": "A reviewer asks how the proposed movement would occur.\nWhich explanation justifies the classification?",
+       "r": "The difficulty of explaining what could move the continents in the early proposal.",
+       "w": [
+        "Change in continental positions over geological time.",
+        "A former supercontinent in continental reconstructions.",
+        "Independent matching geological or fossil patterns across separated land masses."
+       ],
+       "e": [
+        "That explanation describes continental drift, rather than the relationship illustrated in this example.",
+        "That explanation describes Pangaea, rather than the relationship illustrated in this example.",
+        "That explanation describes corresponding evidence, rather than the relationship illustrated in this example."
+       ],
+       "y": "A reconstruction and a physical mechanism answer different questions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-13-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "continental drift",
+     "right": "A reconstruction places now-separated continental masses together in the past."
+    },
+    {
+     "left": "Pangaea",
+     "right": "A model joins major continental masses into one ancient landmass."
+    },
+    {
+     "left": "corresponding evidence",
+     "right": "Similar fossil and rock patterns are compared across an ocean."
+    },
+    {
+     "left": "mechanism problem",
+     "right": "A reviewer asks how the proposed movement would occur."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-13-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "continental drift: change in continental positions over geological time.",
+      "truth": "true",
+      "explain": "This statement is correct: continental drift means change in continental positions over geological time. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "Pangaea: a former supercontinent in continental reconstructions.",
+      "truth": "true",
+      "explain": "This statement is correct: Pangaea means a former supercontinent in continental reconstructions. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "corresponding evidence: independent matching geological or fossil patterns across separated land masses.",
+      "truth": "true",
+      "explain": "This statement is correct: corresponding evidence means independent matching geological or fossil patterns across separated land masses. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "mechanism problem: the difficulty of explaining what could move the continents in the early proposal.",
+      "truth": "true",
+      "explain": "This statement is correct: mechanism problem means the difficulty of explaining what could move the continents in the early proposal. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Continental drift concerns daily changes in national borders.",
+      "truth": "false",
+      "explain": "The concept concerns geological land masses over long times, not political administration."
+     },
+     {
+      "text": "Pangaea is the present name of a single Cameroonian town.",
+      "truth": "false",
+      "explain": "Pangaea refers to an ancient continental configuration."
+     },
+     {
+      "text": "The coastline outline is the only evidence ever considered.",
+      "truth": "false",
+      "explain": "Fossils, rocks and ancient climate indicators provide additional lines of evidence."
+     },
+     {
+      "text": "Evidence for positions automatically explains the force causing movement.",
+      "truth": "false",
+      "explain": "A reconstruction and a physical mechanism answer different questions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

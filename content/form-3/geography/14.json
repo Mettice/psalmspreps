@@ -1,0 +1,602 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  11,
+  13
+ ],
+ "skills": [
+  {
+   "id": "g3-14",
+   "name": "Plate tectonics"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Plate tectonics explains movement of rigid lithospheric plates and many associated landforms. Divergent boundaries move apart; convergent boundaries move toward one another; transform boundaries slide past. Plates include crust and uppermost mantle. They do not simply equal individual continents: one plate can carry both continental and oceanic areas. Earthquakes and much volcanism occur near boundaries, although not all volcanic activity is exactly on a plate edge. Mantle processes and forces including slab pull contribute to movement.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Plate tectonics explains movement of rigid lithospheric plates and many associated landforms. Divergent boundaries move apart; convergent boundaries move toward one another; transform boundaries slide past. Plates include crust and uppermost mantle. They do not simply equal individual continents: one plate can carry both continental and oceanic areas. Earthquakes and much volcanism occur near boundaries, although not all volcanic activity is exactly on a plate edge. Mantle processes and forces including slab pull contribute to movement."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A class can model boundaries with card pieces: separate them, bring them together and slide them side by side. The model shows relative movement rather than the full physics. Do not use every Cameroonian volcanic feature as proof of a present plate boundary: the Cameroon Volcanic Line requires more specific regional explanation."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify relative movement before predicting the associated process. Convergence can involve subduction or continental collision, depending on plate types. Distinguish a plate from its crustal surface and from a country's political boundary."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "divergent boundary",
+    "meaning": "a boundary where plates move apart"
+   },
+   {
+    "word": "convergent boundary",
+    "meaning": "a boundary where plates move toward one another"
+   },
+   {
+    "word": "transform boundary",
+    "meaning": "a boundary where plates slide past one another"
+   },
+   {
+    "word": "lithospheric plate",
+    "meaning": "a rigid piece of crust and uppermost mantle"
+   }
+  ],
+  "examples": [
+   "Model plates separate and new material can rise into the gap.",
+   "An oceanic plate descends beneath another plate in a model.",
+   "Model plates move sideways alongside each other."
+  ],
+  "mistake": {
+   "wrong": "Divergence means plates necessarily collide head-on.",
+   "right": "divergent boundary: a boundary where plates move apart.",
+   "why": "Moving apart is divergence; collision is convergence."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Model plates separate and new material can rise into the gap. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A boundary where plates move apart.",
+   "Moving apart is divergence; collision is convergence."
+  ],
+  "answer": "divergent boundary",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-14-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "divergent boundary: a boundary where plates move apart.",
+     "convergent boundary: a boundary where plates move toward one another.",
+     "transform boundary: a boundary where plates slide past one another.",
+     "lithospheric plate: a rigid piece of crust and uppermost mantle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-14-terms"
+    }
+   },
+   {
+    "id": "cg3-14-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Model plates separate and new material can rise into the gap.",
+     "divergent boundary: a boundary where plates move apart."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-14-cases"
+    }
+   },
+   {
+    "id": "cg3-14-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Divergence means plates necessarily collide head-on.",
+     "Moving apart is divergence; collision is convergence."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-14-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "divergent boundary: a boundary where plates move apart.",
+        "truth": "true",
+        "explain": "This statement is correct: divergent boundary means a boundary where plates move apart. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "convergent boundary: a boundary where plates move toward one another.",
+        "truth": "true",
+        "explain": "This statement is correct: convergent boundary means a boundary where plates move toward one another. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "transform boundary: a boundary where plates slide past one another.",
+        "truth": "true",
+        "explain": "This statement is correct: transform boundary means a boundary where plates slide past one another. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "lithospheric plate: a rigid piece of crust and uppermost mantle.",
+        "truth": "true",
+        "explain": "This statement is correct: lithospheric plate means a rigid piece of crust and uppermost mantle. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Divergence means plates necessarily collide head-on.",
+        "truth": "false",
+        "explain": "Moving apart is divergence; collision is convergence."
+       },
+       {
+        "text": "All convergence creates the same landform regardless of plate type.",
+        "truth": "false",
+        "explain": "Subduction and continental collision have different outcomes."
+       },
+       {
+        "text": "A transform boundary requires the plates to move directly apart.",
+        "truth": "false",
+        "explain": "Sideways relative sliding distinguishes the transform case."
+       },
+       {
+        "text": "Every plate is identical to exactly one continent.",
+        "truth": "false",
+        "explain": "Plate boundaries and continental outlines are not identical."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-14-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a boundary where plates move apart ?",
+       "r": "divergent boundary",
+       "w": [
+        "convergent boundary",
+        "transform boundary",
+        "lithospheric plate"
+       ],
+       "e": [
+        "convergent boundary means a boundary where plates move toward one another; the question instead describes a boundary where plates move apart.",
+        "transform boundary means a boundary where plates slide past one another; the question instead describes a boundary where plates move apart.",
+        "lithospheric plate means a rigid piece of crust and uppermost mantle; the question instead describes a boundary where plates move apart."
+       ],
+       "y": "A boundary where plates move apart."
+      },
+      {
+       "q": "Which term means: a boundary where plates move toward one another ?",
+       "r": "convergent boundary",
+       "w": [
+        "divergent boundary",
+        "transform boundary",
+        "lithospheric plate"
+       ],
+       "e": [
+        "divergent boundary means a boundary where plates move apart; the question instead describes a boundary where plates move toward one another.",
+        "transform boundary means a boundary where plates slide past one another; the question instead describes a boundary where plates move toward one another.",
+        "lithospheric plate means a rigid piece of crust and uppermost mantle; the question instead describes a boundary where plates move toward one another."
+       ],
+       "y": "A boundary where plates move toward one another."
+      },
+      {
+       "q": "Which term means: a boundary where plates slide past one another ?",
+       "r": "transform boundary",
+       "w": [
+        "divergent boundary",
+        "convergent boundary",
+        "lithospheric plate"
+       ],
+       "e": [
+        "divergent boundary means a boundary where plates move apart; the question instead describes a boundary where plates slide past one another.",
+        "convergent boundary means a boundary where plates move toward one another; the question instead describes a boundary where plates slide past one another.",
+        "lithospheric plate means a rigid piece of crust and uppermost mantle; the question instead describes a boundary where plates slide past one another."
+       ],
+       "y": "A boundary where plates slide past one another."
+      },
+      {
+       "q": "Which term means: a rigid piece of crust and uppermost mantle ?",
+       "r": "lithospheric plate",
+       "w": [
+        "divergent boundary",
+        "convergent boundary",
+        "transform boundary"
+       ],
+       "e": [
+        "divergent boundary means a boundary where plates move apart; the question instead describes a rigid piece of crust and uppermost mantle.",
+        "convergent boundary means a boundary where plates move toward one another; the question instead describes a rigid piece of crust and uppermost mantle.",
+        "transform boundary means a boundary where plates slide past one another; the question instead describes a rigid piece of crust and uppermost mantle."
+       ],
+       "y": "A rigid piece of crust and uppermost mantle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-14-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Model plates separate and new material can rise into the gap.\nWhich term best fits this example?",
+       "r": "divergent boundary",
+       "w": [
+        "convergent boundary",
+        "transform boundary",
+        "lithospheric plate"
+       ],
+       "e": [
+        "convergent boundary concerns a boundary where plates move toward one another. This case instead illustrates a boundary where plates move apart.",
+        "transform boundary concerns a boundary where plates slide past one another. This case instead illustrates a boundary where plates move apart.",
+        "lithospheric plate concerns a rigid piece of crust and uppermost mantle. This case instead illustrates a boundary where plates move apart."
+       ],
+       "y": "Model plates separate and new material can rise into the gap. A boundary where plates move apart."
+      },
+      {
+       "q": "An oceanic plate descends beneath another plate in a model.\nWhich term best fits this example?",
+       "r": "convergent boundary",
+       "w": [
+        "divergent boundary",
+        "transform boundary",
+        "lithospheric plate"
+       ],
+       "e": [
+        "divergent boundary concerns a boundary where plates move apart. This case instead illustrates a boundary where plates move toward one another.",
+        "transform boundary concerns a boundary where plates slide past one another. This case instead illustrates a boundary where plates move toward one another.",
+        "lithospheric plate concerns a rigid piece of crust and uppermost mantle. This case instead illustrates a boundary where plates move toward one another."
+       ],
+       "y": "An oceanic plate descends beneath another plate in a model. A boundary where plates move toward one another."
+      },
+      {
+       "q": "Model plates move sideways alongside each other.\nWhich term best fits this example?",
+       "r": "transform boundary",
+       "w": [
+        "divergent boundary",
+        "convergent boundary",
+        "lithospheric plate"
+       ],
+       "e": [
+        "divergent boundary concerns a boundary where plates move apart. This case instead illustrates a boundary where plates slide past one another.",
+        "convergent boundary concerns a boundary where plates move toward one another. This case instead illustrates a boundary where plates slide past one another.",
+        "lithospheric plate concerns a rigid piece of crust and uppermost mantle. This case instead illustrates a boundary where plates slide past one another."
+       ],
+       "y": "Model plates move sideways alongside each other. A boundary where plates slide past one another."
+      },
+      {
+       "q": "A plate model includes both its surface crust and underlying rigid mantle.\nWhich term best fits this example?",
+       "r": "lithospheric plate",
+       "w": [
+        "divergent boundary",
+        "convergent boundary",
+        "transform boundary"
+       ],
+       "e": [
+        "divergent boundary concerns a boundary where plates move apart. This case instead illustrates a rigid piece of crust and uppermost mantle.",
+        "convergent boundary concerns a boundary where plates move toward one another. This case instead illustrates a rigid piece of crust and uppermost mantle.",
+        "transform boundary concerns a boundary where plates slide past one another. This case instead illustrates a rigid piece of crust and uppermost mantle."
+       ],
+       "y": "A plate model includes both its surface crust and underlying rigid mantle. A rigid piece of crust and uppermost mantle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-14-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Model plates separate and new material can rise into the gap.\nWhich explanation justifies the classification?",
+       "r": "A boundary where plates move apart.",
+       "w": [
+        "A boundary where plates move toward one another.",
+        "A boundary where plates slide past one another.",
+        "A rigid piece of crust and uppermost mantle."
+       ],
+       "e": [
+        "That explanation describes convergent boundary, rather than the relationship illustrated in this example.",
+        "That explanation describes transform boundary, rather than the relationship illustrated in this example.",
+        "That explanation describes lithospheric plate, rather than the relationship illustrated in this example."
+       ],
+       "y": "Moving apart is divergence; collision is convergence."
+      },
+      {
+       "q": "An oceanic plate descends beneath another plate in a model.\nWhich explanation justifies the classification?",
+       "r": "A boundary where plates move toward one another.",
+       "w": [
+        "A boundary where plates move apart.",
+        "A boundary where plates slide past one another.",
+        "A rigid piece of crust and uppermost mantle."
+       ],
+       "e": [
+        "That explanation describes divergent boundary, rather than the relationship illustrated in this example.",
+        "That explanation describes transform boundary, rather than the relationship illustrated in this example.",
+        "That explanation describes lithospheric plate, rather than the relationship illustrated in this example."
+       ],
+       "y": "Subduction and continental collision have different outcomes."
+      },
+      {
+       "q": "Model plates move sideways alongside each other.\nWhich explanation justifies the classification?",
+       "r": "A boundary where plates slide past one another.",
+       "w": [
+        "A boundary where plates move apart.",
+        "A boundary where plates move toward one another.",
+        "A rigid piece of crust and uppermost mantle."
+       ],
+       "e": [
+        "That explanation describes divergent boundary, rather than the relationship illustrated in this example.",
+        "That explanation describes convergent boundary, rather than the relationship illustrated in this example.",
+        "That explanation describes lithospheric plate, rather than the relationship illustrated in this example."
+       ],
+       "y": "Sideways relative sliding distinguishes the transform case."
+      },
+      {
+       "q": "A plate model includes both its surface crust and underlying rigid mantle.\nWhich explanation justifies the classification?",
+       "r": "A rigid piece of crust and uppermost mantle.",
+       "w": [
+        "A boundary where plates move apart.",
+        "A boundary where plates move toward one another.",
+        "A boundary where plates slide past one another."
+       ],
+       "e": [
+        "That explanation describes divergent boundary, rather than the relationship illustrated in this example.",
+        "That explanation describes convergent boundary, rather than the relationship illustrated in this example.",
+        "That explanation describes transform boundary, rather than the relationship illustrated in this example."
+       ],
+       "y": "Plate boundaries and continental outlines are not identical."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-14-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "divergent boundary",
+     "right": "Model plates separate and new material can rise into the gap."
+    },
+    {
+     "left": "convergent boundary",
+     "right": "An oceanic plate descends beneath another plate in a model."
+    },
+    {
+     "left": "transform boundary",
+     "right": "Model plates move sideways alongside each other."
+    },
+    {
+     "left": "lithospheric plate",
+     "right": "A plate model includes both its surface crust and underlying rigid mantle."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-14-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "divergent boundary: a boundary where plates move apart.",
+      "truth": "true",
+      "explain": "This statement is correct: divergent boundary means a boundary where plates move apart. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "convergent boundary: a boundary where plates move toward one another.",
+      "truth": "true",
+      "explain": "This statement is correct: convergent boundary means a boundary where plates move toward one another. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "transform boundary: a boundary where plates slide past one another.",
+      "truth": "true",
+      "explain": "This statement is correct: transform boundary means a boundary where plates slide past one another. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "lithospheric plate: a rigid piece of crust and uppermost mantle.",
+      "truth": "true",
+      "explain": "This statement is correct: lithospheric plate means a rigid piece of crust and uppermost mantle. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Divergence means plates necessarily collide head-on.",
+      "truth": "false",
+      "explain": "Moving apart is divergence; collision is convergence."
+     },
+     {
+      "text": "All convergence creates the same landform regardless of plate type.",
+      "truth": "false",
+      "explain": "Subduction and continental collision have different outcomes."
+     },
+     {
+      "text": "A transform boundary requires the plates to move directly apart.",
+      "truth": "false",
+      "explain": "Sideways relative sliding distinguishes the transform case."
+     },
+     {
+      "text": "Every plate is identical to exactly one continent.",
+      "truth": "false",
+      "explain": "Plate boundaries and continental outlines are not identical."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

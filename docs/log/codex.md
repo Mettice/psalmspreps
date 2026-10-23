@@ -16,3 +16,10 @@ Append one entry per session (see docs/AUTHORING.md, section 10).
 - Checked: npm test — 4647 tests pass; extra quality checks — 14 lessons pass; real Edge at 360 × 800 — 14/14 lessons clean with zero errors/overflow. Review documents generated. No built HTML or PDFs staged.
 - Not checked: local teacher approval, original empirical surveys (data are explicitly hypothetical), or current economic-policy facts (none asserted). See subject TEACHER-REVIEW.md.
 - Remaining: Geography, History, English, French and Français intensif. Prescribed literature choice is still pending; ambiguous rows remain excluded as instructed.
+
+## 2026-10-23 — Form Three Geography, Term One
+
+- Wrote rows 1 and 3–17, with rows 4, 6 and 8 as guided practical preparation. Further-study row 2 excluded. Sixteen lessons have Learn, five questions, computed graticule readings/time offsets/date carries, and SVG cross-sections and rotation diagrams.
+- Checked: npm test — 4750 tests pass; extra quality checks — 16 lessons pass; real Edge at 360 × 800 — 16/16 lessons clean, zero errors/overflow. Generated review documents and inspected the first Learn page. Built HTML and PDFs are not staged.
+- Sources: NASA/NOAA/USGS reference summaries consulted; direct USGS Dynamic Earth pages returned 403. Not checked: local teacher approval, regional geological detail or school-specific emergency adaptation. Those are in TEACHER-REVIEW.md.
+- Remaining: History, English, French and Français intensif. Prescribed literature choice remains pending; the three ambiguous French/FI rows remain pending as instructed.

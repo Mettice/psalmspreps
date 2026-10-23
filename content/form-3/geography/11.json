@@ -1,0 +1,600 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-11",
+   "name": "The internal structure of Earth"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Earth's main compositional layers are crust, mantle and core. The crust is the thin outer layer; the mantle beneath it is mostly solid rock that can flow very slowly over geological time. The core is largely iron-rich material: its outer part is liquid and its inner part solid. The lithosphere is a mechanical layer including crust and uppermost mantle, not a synonym for crust alone. Much evidence comes from seismic waves and other indirect observations, not a borehole reaching the core.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Earth's main compositional layers are crust, mantle and core. The crust is the thin outer layer; the mantle beneath it is mostly solid rock that can flow very slowly over geological time. The core is largely iron-rich material: its outer part is liquid and its inner part solid. The lithosphere is a mechanical layer including crust and uppermost mantle, not a synonym for crust alone. Much evidence comes from seismic waves and other indirect observations, not a borehole reaching the core."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A schematic cross-section helps a class in Buea distinguish layers, but the diagram is not to scale. The thin crust would otherwise be difficult to show. Do not interpret the whole mantle as an open underground sea of liquid lava. Different temperatures, pressures and material properties explain why layers behave differently.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" role=\\\"img\\\" aria-label=\\\"Schematic Earth layers, not to scale\\\" viewBox=\\\"0 0 340 220\\\"><circle cx=\\\"112\\\" cy=\\\"110\\\" r=\\\"98\\\" fill=\\\"#877b67\\\"/><circle cx=\\\"112\\\" cy=\\\"110\\\" r=\\\"91\\\" fill=\\\"#bb8150\\\"/><circle cx=\\\"112\\\" cy=\\\"110\\\" r=\\\"54\\\" fill=\\\"#e5b24c\\\"/><circle cx=\\\"112\\\" cy=\\\"110\\\" r=\\\"25\\\" fill=\\\"#f5d98a\\\"/><g font-family=\\\"sans-serif\\\" font-size=\\\"12\\\" fill=\\\"currentColor\\\"><text x=\\\"218\\\" y=\\\"28\\\">crust (thin)</text><text x=\\\"218\\\" y=\\\"70\\\">mantle</text><text x=\\\"218\\\" y=\\\"114\\\">outer core</text><text x=\\\"218\\\" y=\\\"158\\\">inner core</text><text x=\\\"12\\\" y=\\\"216\\\">Schematic: not to scale</text></g><g stroke=\\\"currentColor\\\"><path d=\\\"M150 20H215M185 65H215M160 110H215M130 125L210 155\\\"/></g></svg>\""
+   },
+   {
+    "heading": "Reason and check",
+    "text": "State whether a classification concerns composition or mechanical behaviour. Identify crust, mantle, outer core and inner core without swapping solid and liquid. A drawing illustrates a model; examine the observations supporting that model rather than treating coloured bands as direct photographs of the interior."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "crust",
+    "meaning": "Earth's thin outer compositional layer"
+   },
+   {
+    "word": "mantle",
+    "meaning": "mostly solid rock below the crust that can flow slowly over long times"
+   },
+   {
+    "word": "outer core",
+    "meaning": "the liquid part of the iron-rich core"
+   },
+   {
+    "word": "inner core",
+    "meaning": "the solid central part of the core"
+   }
+  ],
+  "examples": [
+   "A rock sample is collected from the planet's outer surface.",
+   "A model explains slow deformation below the rigid outer shell.",
+   "A model places a liquid metallic layer around the inner core."
+  ],
+  "mistake": {
+   "wrong": "The crust alone includes the entire mantle.",
+   "right": "crust: Earth's thin outer compositional layer.",
+   "why": "Crust and mantle are distinct compositional layers."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A rock sample is collected from the planet's outer surface. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Earth's thin outer compositional layer.",
+   "Crust and mantle are distinct compositional layers."
+  ],
+  "answer": "crust",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-11-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "crust: Earth's thin outer compositional layer.",
+     "mantle: mostly solid rock below the crust that can flow slowly over long times.",
+     "outer core: the liquid part of the iron-rich core.",
+     "inner core: the solid central part of the core."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-11-terms"
+    }
+   },
+   {
+    "id": "cg3-11-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A rock sample is collected from the planet's outer surface.",
+     "crust: Earth's thin outer compositional layer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-11-cases"
+    }
+   },
+   {
+    "id": "cg3-11-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "The crust alone includes the entire mantle.",
+     "Crust and mantle are distinct compositional layers."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-11-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "crust: Earth's thin outer compositional layer.",
+        "truth": "true",
+        "explain": "This statement is correct: crust means Earth's thin outer compositional layer. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "mantle: mostly solid rock below the crust that can flow slowly over long times.",
+        "truth": "true",
+        "explain": "This statement is correct: mantle means mostly solid rock below the crust that can flow slowly over long times. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "outer core: the liquid part of the iron-rich core.",
+        "truth": "true",
+        "explain": "This statement is correct: outer core means the liquid part of the iron-rich core. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "inner core: the solid central part of the core.",
+        "truth": "true",
+        "explain": "This statement is correct: inner core means the solid central part of the core. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The crust alone includes the entire mantle.",
+        "truth": "false",
+        "explain": "Crust and mantle are distinct compositional layers."
+       },
+       {
+        "text": "The whole mantle is liquid lava.",
+        "truth": "false",
+        "explain": "The mantle is predominantly solid, though it can deform slowly."
+       },
+       {
+        "text": "The outer core is the rocky continental crust.",
+        "truth": "false",
+        "explain": "The outer core is deep metallic material, not surface crust."
+       },
+       {
+        "text": "Inner and outer core must both be liquid.",
+        "truth": "false",
+        "explain": "The inner core is solid while the outer core is liquid."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-11-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: Earth's thin outer compositional layer ?",
+       "r": "crust",
+       "w": [
+        "mantle",
+        "outer core",
+        "inner core"
+       ],
+       "e": [
+        "mantle means mostly solid rock below the crust that can flow slowly over long times; the question instead describes Earth's thin outer compositional layer.",
+        "outer core means the liquid part of the iron-rich core; the question instead describes Earth's thin outer compositional layer.",
+        "inner core means the solid central part of the core; the question instead describes Earth's thin outer compositional layer."
+       ],
+       "y": "Earth's thin outer compositional layer."
+      },
+      {
+       "q": "Which term means: mostly solid rock below the crust that can flow slowly over long times ?",
+       "r": "mantle",
+       "w": [
+        "crust",
+        "outer core",
+        "inner core"
+       ],
+       "e": [
+        "crust means Earth's thin outer compositional layer; the question instead describes mostly solid rock below the crust that can flow slowly over long times.",
+        "outer core means the liquid part of the iron-rich core; the question instead describes mostly solid rock below the crust that can flow slowly over long times.",
+        "inner core means the solid central part of the core; the question instead describes mostly solid rock below the crust that can flow slowly over long times."
+       ],
+       "y": "Mostly solid rock below the crust that can flow slowly over long times."
+      },
+      {
+       "q": "Which term means: the liquid part of the iron-rich core ?",
+       "r": "outer core",
+       "w": [
+        "crust",
+        "mantle",
+        "inner core"
+       ],
+       "e": [
+        "crust means Earth's thin outer compositional layer; the question instead describes the liquid part of the iron-rich core.",
+        "mantle means mostly solid rock below the crust that can flow slowly over long times; the question instead describes the liquid part of the iron-rich core.",
+        "inner core means the solid central part of the core; the question instead describes the liquid part of the iron-rich core."
+       ],
+       "y": "The liquid part of the iron-rich core."
+      },
+      {
+       "q": "Which term means: the solid central part of the core ?",
+       "r": "inner core",
+       "w": [
+        "crust",
+        "mantle",
+        "outer core"
+       ],
+       "e": [
+        "crust means Earth's thin outer compositional layer; the question instead describes the solid central part of the core.",
+        "mantle means mostly solid rock below the crust that can flow slowly over long times; the question instead describes the solid central part of the core.",
+        "outer core means the liquid part of the iron-rich core; the question instead describes the solid central part of the core."
+       ],
+       "y": "The solid central part of the core."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-11-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A rock sample is collected from the planet's outer surface.\nWhich term best fits this example?",
+       "r": "crust",
+       "w": [
+        "mantle",
+        "outer core",
+        "inner core"
+       ],
+       "e": [
+        "mantle concerns mostly solid rock below the crust that can flow slowly over long times. This case instead illustrates Earth's thin outer compositional layer.",
+        "outer core concerns the liquid part of the iron-rich core. This case instead illustrates Earth's thin outer compositional layer.",
+        "inner core concerns the solid central part of the core. This case instead illustrates Earth's thin outer compositional layer."
+       ],
+       "y": "A rock sample is collected from the planet's outer surface. Earth's thin outer compositional layer."
+      },
+      {
+       "q": "A model explains slow deformation below the rigid outer shell.\nWhich term best fits this example?",
+       "r": "mantle",
+       "w": [
+        "crust",
+        "outer core",
+        "inner core"
+       ],
+       "e": [
+        "crust concerns Earth's thin outer compositional layer. This case instead illustrates mostly solid rock below the crust that can flow slowly over long times.",
+        "outer core concerns the liquid part of the iron-rich core. This case instead illustrates mostly solid rock below the crust that can flow slowly over long times.",
+        "inner core concerns the solid central part of the core. This case instead illustrates mostly solid rock below the crust that can flow slowly over long times."
+       ],
+       "y": "A model explains slow deformation below the rigid outer shell. Mostly solid rock below the crust that can flow slowly over long times."
+      },
+      {
+       "q": "A model places a liquid metallic layer around the inner core.\nWhich term best fits this example?",
+       "r": "outer core",
+       "w": [
+        "crust",
+        "mantle",
+        "inner core"
+       ],
+       "e": [
+        "crust concerns Earth's thin outer compositional layer. This case instead illustrates the liquid part of the iron-rich core.",
+        "mantle concerns mostly solid rock below the crust that can flow slowly over long times. This case instead illustrates the liquid part of the iron-rich core.",
+        "inner core concerns the solid central part of the core. This case instead illustrates the liquid part of the iron-rich core."
+       ],
+       "y": "A model places a liquid metallic layer around the inner core. The liquid part of the iron-rich core."
+      },
+      {
+       "q": "A model identifies the solid centre below the liquid outer core.\nWhich term best fits this example?",
+       "r": "inner core",
+       "w": [
+        "crust",
+        "mantle",
+        "outer core"
+       ],
+       "e": [
+        "crust concerns Earth's thin outer compositional layer. This case instead illustrates the solid central part of the core.",
+        "mantle concerns mostly solid rock below the crust that can flow slowly over long times. This case instead illustrates the solid central part of the core.",
+        "outer core concerns the liquid part of the iron-rich core. This case instead illustrates the solid central part of the core."
+       ],
+       "y": "A model identifies the solid centre below the liquid outer core. The solid central part of the core."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-11-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A rock sample is collected from the planet's outer surface.\nWhich explanation justifies the classification?",
+       "r": "Earth's thin outer compositional layer.",
+       "w": [
+        "Mostly solid rock below the crust that can flow slowly over long times.",
+        "The liquid part of the iron-rich core.",
+        "The solid central part of the core."
+       ],
+       "e": [
+        "That explanation describes mantle, rather than the relationship illustrated in this example.",
+        "That explanation describes outer core, rather than the relationship illustrated in this example.",
+        "That explanation describes inner core, rather than the relationship illustrated in this example."
+       ],
+       "y": "Crust and mantle are distinct compositional layers."
+      },
+      {
+       "q": "A model explains slow deformation below the rigid outer shell.\nWhich explanation justifies the classification?",
+       "r": "Mostly solid rock below the crust that can flow slowly over long times.",
+       "w": [
+        "Earth's thin outer compositional layer.",
+        "The liquid part of the iron-rich core.",
+        "The solid central part of the core."
+       ],
+       "e": [
+        "That explanation describes crust, rather than the relationship illustrated in this example.",
+        "That explanation describes outer core, rather than the relationship illustrated in this example.",
+        "That explanation describes inner core, rather than the relationship illustrated in this example."
+       ],
+       "y": "The mantle is predominantly solid, though it can deform slowly."
+      },
+      {
+       "q": "A model places a liquid metallic layer around the inner core.\nWhich explanation justifies the classification?",
+       "r": "The liquid part of the iron-rich core.",
+       "w": [
+        "Earth's thin outer compositional layer.",
+        "Mostly solid rock below the crust that can flow slowly over long times.",
+        "The solid central part of the core."
+       ],
+       "e": [
+        "That explanation describes crust, rather than the relationship illustrated in this example.",
+        "That explanation describes mantle, rather than the relationship illustrated in this example.",
+        "That explanation describes inner core, rather than the relationship illustrated in this example."
+       ],
+       "y": "The outer core is deep metallic material, not surface crust."
+      },
+      {
+       "q": "A model identifies the solid centre below the liquid outer core.\nWhich explanation justifies the classification?",
+       "r": "The solid central part of the core.",
+       "w": [
+        "Earth's thin outer compositional layer.",
+        "Mostly solid rock below the crust that can flow slowly over long times.",
+        "The liquid part of the iron-rich core."
+       ],
+       "e": [
+        "That explanation describes crust, rather than the relationship illustrated in this example.",
+        "That explanation describes mantle, rather than the relationship illustrated in this example.",
+        "That explanation describes outer core, rather than the relationship illustrated in this example."
+       ],
+       "y": "The inner core is solid while the outer core is liquid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-11-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "crust",
+     "right": "A rock sample is collected from the planet's outer surface."
+    },
+    {
+     "left": "mantle",
+     "right": "A model explains slow deformation below the rigid outer shell."
+    },
+    {
+     "left": "outer core",
+     "right": "A model places a liquid metallic layer around the inner core."
+    },
+    {
+     "left": "inner core",
+     "right": "A model identifies the solid centre below the liquid outer core."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-11-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "crust: Earth's thin outer compositional layer.",
+      "truth": "true",
+      "explain": "This statement is correct: crust means Earth's thin outer compositional layer. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "mantle: mostly solid rock below the crust that can flow slowly over long times.",
+      "truth": "true",
+      "explain": "This statement is correct: mantle means mostly solid rock below the crust that can flow slowly over long times. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "outer core: the liquid part of the iron-rich core.",
+      "truth": "true",
+      "explain": "This statement is correct: outer core means the liquid part of the iron-rich core. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "inner core: the solid central part of the core.",
+      "truth": "true",
+      "explain": "This statement is correct: inner core means the solid central part of the core. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The crust alone includes the entire mantle.",
+      "truth": "false",
+      "explain": "Crust and mantle are distinct compositional layers."
+     },
+     {
+      "text": "The whole mantle is liquid lava.",
+      "truth": "false",
+      "explain": "The mantle is predominantly solid, though it can deform slowly."
+     },
+     {
+      "text": "The outer core is the rocky continental crust.",
+      "truth": "false",
+      "explain": "The outer core is deep metallic material, not surface crust."
+     },
+     {
+      "text": "Inner and outer core must both be liquid.",
+      "truth": "false",
+      "explain": "The inner core is solid while the outer core is liquid."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

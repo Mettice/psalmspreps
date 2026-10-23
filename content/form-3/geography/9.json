@@ -1,0 +1,600 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-9",
+   "name": "Earth's rotation and its effects"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rotation is Earth's turning about its axis, approximately once per day. As a place turns into and out of sunlight, it experiences day and night. The apparent daily movement of the Sun across the sky is mainly a result of this rotation. Longitude-related local-time differences and the Coriolis effect are other consequences. Rotation is different from revolution around the Sun. The model used here treats the Sun's incoming rays as parallel.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Rotation is Earth's turning about its axis, approximately once per day. As a place turns into and out of sunlight, it experiences day and night. The apparent daily movement of the Sun across the sky is mainly a result of this rotation. Longitude-related local-time differences and the Coriolis effect are other consequences. Rotation is different from revolution around the Sun. The model used here treats the Sun's incoming rays as parallel."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "On the diagram, a town on the side facing the Sun is in daylight. A town turning toward the illuminated side experiences sunrise; one turning away experiences sunset. A pupil in Cameroon sees the daily change between light and darkness, but should not infer from that observation that the Sun travels around Earth each day.",
+    "figure": "dayNight(180)"
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the axis and direction of turning. Locate the lit half before deciding whether a marked town is in day or night. State which movement explains the effect: daily turning is rotation, while the yearly orbit is revolution."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "rotation",
+    "meaning": "Earth's turning about its axis"
+   },
+   {
+    "word": "daylight",
+    "meaning": "the state of facing the Sun's illumination"
+   },
+   {
+    "word": "sunrise",
+    "meaning": "a place turning into the illuminated part of Earth"
+   },
+   {
+    "word": "sunset",
+    "meaning": "a place turning away from the illuminated part"
+   }
+  ],
+  "examples": [
+   "A marked town moves from the lit side to the dark side as the globe spins.",
+   "A town lies on the illuminated half of the diagram.",
+   "A marked town enters the sunlit half as the globe turns."
+  ],
+  "mistake": {
+   "wrong": "Rotation means Earth's yearly journey around the Sun.",
+   "right": "rotation: Earth's turning about its axis.",
+   "why": "The yearly journey is revolution; rotation is spinning about the axis."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A marked town moves from the lit side to the dark side as the globe spins. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Earth's turning about its axis.",
+   "The yearly journey is revolution; rotation is spinning about the axis."
+  ],
+  "answer": "rotation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-9-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "rotation: Earth's turning about its axis.",
+     "daylight: the state of facing the Sun's illumination.",
+     "sunrise: a place turning into the illuminated part of Earth.",
+     "sunset: a place turning away from the illuminated part."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-9-terms"
+    }
+   },
+   {
+    "id": "cg3-9-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A marked town moves from the lit side to the dark side as the globe spins.",
+     "rotation: Earth's turning about its axis."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-9-cases"
+    }
+   },
+   {
+    "id": "cg3-9-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Rotation means Earth's yearly journey around the Sun.",
+     "The yearly journey is revolution; rotation is spinning about the axis."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-9-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "rotation: Earth's turning about its axis.",
+        "truth": "true",
+        "explain": "This statement is correct: rotation means Earth's turning about its axis. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "daylight: the state of facing the Sun's illumination.",
+        "truth": "true",
+        "explain": "This statement is correct: daylight means the state of facing the Sun's illumination. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "sunrise: a place turning into the illuminated part of Earth.",
+        "truth": "true",
+        "explain": "This statement is correct: sunrise means a place turning into the illuminated part of Earth. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "sunset: a place turning away from the illuminated part.",
+        "truth": "true",
+        "explain": "This statement is correct: sunset means a place turning away from the illuminated part. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Rotation means Earth's yearly journey around the Sun.",
+        "truth": "false",
+        "explain": "The yearly journey is revolution; rotation is spinning about the axis."
+       },
+       {
+        "text": "Every point on Earth is in daylight simultaneously.",
+        "truth": "false",
+        "explain": "Only part of the rotating planet faces sunlight at once."
+       },
+       {
+        "text": "Sunrise is a town turning from daylight into darkness.",
+        "truth": "false",
+        "explain": "That transition is sunset, not sunrise."
+       },
+       {
+        "text": "Sunset proves the Sun has stopped emitting light.",
+        "truth": "false",
+        "explain": "The local change follows Earth's turning, not the Sun switching off."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-9-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: Earth's turning about its axis ?",
+       "r": "rotation",
+       "w": [
+        "daylight",
+        "sunrise",
+        "sunset"
+       ],
+       "e": [
+        "daylight means the state of facing the Sun's illumination; the question instead describes Earth's turning about its axis.",
+        "sunrise means a place turning into the illuminated part of Earth; the question instead describes Earth's turning about its axis.",
+        "sunset means a place turning away from the illuminated part; the question instead describes Earth's turning about its axis."
+       ],
+       "y": "Earth's turning about its axis."
+      },
+      {
+       "q": "Which term means: the state of facing the Sun's illumination ?",
+       "r": "daylight",
+       "w": [
+        "rotation",
+        "sunrise",
+        "sunset"
+       ],
+       "e": [
+        "rotation means Earth's turning about its axis; the question instead describes the state of facing the Sun's illumination.",
+        "sunrise means a place turning into the illuminated part of Earth; the question instead describes the state of facing the Sun's illumination.",
+        "sunset means a place turning away from the illuminated part; the question instead describes the state of facing the Sun's illumination."
+       ],
+       "y": "The state of facing the sun's illumination."
+      },
+      {
+       "q": "Which term means: a place turning into the illuminated part of Earth ?",
+       "r": "sunrise",
+       "w": [
+        "rotation",
+        "daylight",
+        "sunset"
+       ],
+       "e": [
+        "rotation means Earth's turning about its axis; the question instead describes a place turning into the illuminated part of Earth.",
+        "daylight means the state of facing the Sun's illumination; the question instead describes a place turning into the illuminated part of Earth.",
+        "sunset means a place turning away from the illuminated part; the question instead describes a place turning into the illuminated part of Earth."
+       ],
+       "y": "A place turning into the illuminated part of earth."
+      },
+      {
+       "q": "Which term means: a place turning away from the illuminated part ?",
+       "r": "sunset",
+       "w": [
+        "rotation",
+        "daylight",
+        "sunrise"
+       ],
+       "e": [
+        "rotation means Earth's turning about its axis; the question instead describes a place turning away from the illuminated part.",
+        "daylight means the state of facing the Sun's illumination; the question instead describes a place turning away from the illuminated part.",
+        "sunrise means a place turning into the illuminated part of Earth; the question instead describes a place turning away from the illuminated part."
+       ],
+       "y": "A place turning away from the illuminated part."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-9-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A marked town moves from the lit side to the dark side as the globe spins.\nWhich term best fits this example?",
+       "r": "rotation",
+       "w": [
+        "daylight",
+        "sunrise",
+        "sunset"
+       ],
+       "e": [
+        "daylight concerns the state of facing the Sun's illumination. This case instead illustrates Earth's turning about its axis.",
+        "sunrise concerns a place turning into the illuminated part of Earth. This case instead illustrates Earth's turning about its axis.",
+        "sunset concerns a place turning away from the illuminated part. This case instead illustrates Earth's turning about its axis."
+       ],
+       "y": "A marked town moves from the lit side to the dark side as the globe spins. Earth's turning about its axis."
+      },
+      {
+       "q": "A town lies on the illuminated half of the diagram.\nWhich term best fits this example?",
+       "r": "daylight",
+       "w": [
+        "rotation",
+        "sunrise",
+        "sunset"
+       ],
+       "e": [
+        "rotation concerns Earth's turning about its axis. This case instead illustrates the state of facing the Sun's illumination.",
+        "sunrise concerns a place turning into the illuminated part of Earth. This case instead illustrates the state of facing the Sun's illumination.",
+        "sunset concerns a place turning away from the illuminated part. This case instead illustrates the state of facing the Sun's illumination."
+       ],
+       "y": "A town lies on the illuminated half of the diagram. The state of facing the sun's illumination."
+      },
+      {
+       "q": "A marked town enters the sunlit half as the globe turns.\nWhich term best fits this example?",
+       "r": "sunrise",
+       "w": [
+        "rotation",
+        "daylight",
+        "sunset"
+       ],
+       "e": [
+        "rotation concerns Earth's turning about its axis. This case instead illustrates a place turning into the illuminated part of Earth.",
+        "daylight concerns the state of facing the Sun's illumination. This case instead illustrates a place turning into the illuminated part of Earth.",
+        "sunset concerns a place turning away from the illuminated part. This case instead illustrates a place turning into the illuminated part of Earth."
+       ],
+       "y": "A marked town enters the sunlit half as the globe turns. A place turning into the illuminated part of earth."
+      },
+      {
+       "q": "A marked town moves from the sunlit side into darkness.\nWhich term best fits this example?",
+       "r": "sunset",
+       "w": [
+        "rotation",
+        "daylight",
+        "sunrise"
+       ],
+       "e": [
+        "rotation concerns Earth's turning about its axis. This case instead illustrates a place turning away from the illuminated part.",
+        "daylight concerns the state of facing the Sun's illumination. This case instead illustrates a place turning away from the illuminated part.",
+        "sunrise concerns a place turning into the illuminated part of Earth. This case instead illustrates a place turning away from the illuminated part."
+       ],
+       "y": "A marked town moves from the sunlit side into darkness. A place turning away from the illuminated part."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-9-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A marked town moves from the lit side to the dark side as the globe spins.\nWhich explanation justifies the classification?",
+       "r": "Earth's turning about its axis.",
+       "w": [
+        "The state of facing the sun's illumination.",
+        "A place turning into the illuminated part of earth.",
+        "A place turning away from the illuminated part."
+       ],
+       "e": [
+        "That explanation describes daylight, rather than the relationship illustrated in this example.",
+        "That explanation describes sunrise, rather than the relationship illustrated in this example.",
+        "That explanation describes sunset, rather than the relationship illustrated in this example."
+       ],
+       "y": "The yearly journey is revolution; rotation is spinning about the axis."
+      },
+      {
+       "q": "A town lies on the illuminated half of the diagram.\nWhich explanation justifies the classification?",
+       "r": "The state of facing the sun's illumination.",
+       "w": [
+        "Earth's turning about its axis.",
+        "A place turning into the illuminated part of earth.",
+        "A place turning away from the illuminated part."
+       ],
+       "e": [
+        "That explanation describes rotation, rather than the relationship illustrated in this example.",
+        "That explanation describes sunrise, rather than the relationship illustrated in this example.",
+        "That explanation describes sunset, rather than the relationship illustrated in this example."
+       ],
+       "y": "Only part of the rotating planet faces sunlight at once."
+      },
+      {
+       "q": "A marked town enters the sunlit half as the globe turns.\nWhich explanation justifies the classification?",
+       "r": "A place turning into the illuminated part of earth.",
+       "w": [
+        "Earth's turning about its axis.",
+        "The state of facing the sun's illumination.",
+        "A place turning away from the illuminated part."
+       ],
+       "e": [
+        "That explanation describes rotation, rather than the relationship illustrated in this example.",
+        "That explanation describes daylight, rather than the relationship illustrated in this example.",
+        "That explanation describes sunset, rather than the relationship illustrated in this example."
+       ],
+       "y": "That transition is sunset, not sunrise."
+      },
+      {
+       "q": "A marked town moves from the sunlit side into darkness.\nWhich explanation justifies the classification?",
+       "r": "A place turning away from the illuminated part.",
+       "w": [
+        "Earth's turning about its axis.",
+        "The state of facing the sun's illumination.",
+        "A place turning into the illuminated part of earth."
+       ],
+       "e": [
+        "That explanation describes rotation, rather than the relationship illustrated in this example.",
+        "That explanation describes daylight, rather than the relationship illustrated in this example.",
+        "That explanation describes sunrise, rather than the relationship illustrated in this example."
+       ],
+       "y": "The local change follows Earth's turning, not the Sun switching off."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-9-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "rotation",
+     "right": "A marked town moves from the lit side to the dark side as the globe spins."
+    },
+    {
+     "left": "daylight",
+     "right": "A town lies on the illuminated half of the diagram."
+    },
+    {
+     "left": "sunrise",
+     "right": "A marked town enters the sunlit half as the globe turns."
+    },
+    {
+     "left": "sunset",
+     "right": "A marked town moves from the sunlit side into darkness."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-9-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "rotation: Earth's turning about its axis.",
+      "truth": "true",
+      "explain": "This statement is correct: rotation means Earth's turning about its axis. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "daylight: the state of facing the Sun's illumination.",
+      "truth": "true",
+      "explain": "This statement is correct: daylight means the state of facing the Sun's illumination. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "sunrise: a place turning into the illuminated part of Earth.",
+      "truth": "true",
+      "explain": "This statement is correct: sunrise means a place turning into the illuminated part of Earth. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "sunset: a place turning away from the illuminated part.",
+      "truth": "true",
+      "explain": "This statement is correct: sunset means a place turning away from the illuminated part. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Rotation means Earth's yearly journey around the Sun.",
+      "truth": "false",
+      "explain": "The yearly journey is revolution; rotation is spinning about the axis."
+     },
+     {
+      "text": "Every point on Earth is in daylight simultaneously.",
+      "truth": "false",
+      "explain": "Only part of the rotating planet faces sunlight at once."
+     },
+     {
+      "text": "Sunrise is a town turning from daylight into darkness.",
+      "truth": "false",
+      "explain": "That transition is sunset, not sunrise."
+     },
+     {
+      "text": "Sunset proves the Sun has stopped emitting light.",
+      "truth": "false",
+      "explain": "The local change follows Earth's turning, not the Sun switching off."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
