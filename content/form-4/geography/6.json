@@ -1,0 +1,682 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  1,
+  5
+ ],
+ "skills": [
+  {
+   "id": "g4-6",
+   "name": "The ecosystem"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An ecosystem includes a community of organisms interacting with its non-living environment. A population consists of one species in an area; a community includes populations of different species. A habitat is where an organism lives, while its niche concerns its role and use of resources. Light, water, temperature and soil influence organisms; organisms can also modify these conditions. An ecosystem can be a pond, woodland or a larger landscape, so a boundary is chosen to suit the question.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify interacting living and non-living components and locate a model habitat on a grid. Builds on: soil as an open system and conservation. Leads to: energy transfer and nutrient cycling."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "An ecosystem includes a community of organisms interacting with its non-living environment. A population consists of one species in an area; a community includes populations of different species. A habitat is where an organism lives, while its niche concerns its role and use of resources. Light, water, temperature and soil influence organisms; organisms can also modify these conditions. An ecosystem can be a pond, woodland or a larger landscape, so a boundary is chosen to suit the question."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In a fictional school pond near Yaoundé, algae, insects and microbes interact with light, water and mineral nutrients. Water is an abiotic component even when it contains living organisms. The grid exercise locates a model pond using eastings before northings; it is not a real pond survey. A site label locates a place but does not measure its biodiversity or water quality."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Separate population, community and ecosystem by what each includes. Describe one interaction rather than only naming organisms. Check the map’s labelled lines before recording a grid square. Use classroom records rather than entering ponds or collecting unknown organisms."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "population",
+    "meaning": "members of one species living in the stated area"
+   },
+   {
+    "word": "community",
+    "meaning": "interacting populations of different species"
+   },
+   {
+    "word": "abiotic component",
+    "meaning": "a non-living environmental factor"
+   },
+   {
+    "word": "ecosystem interaction",
+    "meaning": "a link between organisms and their physical environment"
+   }
+  ],
+  "mistake": {
+   "wrong": "A population must contain every species in a habitat.",
+   "right": "members of one species living in the stated area.",
+   "why": "A population concerns one species; the community includes different populations."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The record counts one frog species in the model pond. Explain the relationship.",
+  "steps": [
+   "members of one species living in the stated area.",
+   "A population concerns one species; the community includes different populations."
+  ],
+  "answer": "population",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-6-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "population: members of one species living in the stated area.",
+     "community: interacting populations of different species.",
+     "abiotic component: a non-living environmental factor.",
+     "ecosystem interaction: a link between organisms and their physical environment."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-6-terms"
+    }
+   },
+   {
+    "id": "g4-6-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "The record counts one frog species in the model pond.",
+     "The model record describes algae, insects and frogs together.",
+     "Sunlight and water temperature affect the model pond.",
+     "Plants alter shade while light conditions influence plant growth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-6-cases"
+    }
+   },
+   {
+    "id": "g4-6-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "A population concerns one species; the community includes different populations.",
+     "Those are abiotic conditions; a community consists of living populations.",
+     "An ecosystem includes non-living conditions as well as organisms.",
+     "Influence can run in both directions between organisms and environmental conditions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-6-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ecosystem"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The record counts one frog species in the model pond.\nWhich explanation follows?",
+         "r": "A population concerns one species; the community includes different populations.",
+         "w": [
+          "Those are abiotic conditions; a community consists of living populations.",
+          "An ecosystem includes non-living conditions as well as organisms.",
+          "Influence can run in both directions between organisms and environmental conditions."
+         ],
+         "e": [
+          "That explanation addresses community, rather than the process or relationship in this case.",
+          "That explanation addresses abiotic component, rather than the process or relationship in this case.",
+          "That explanation addresses ecosystem interaction, rather than the process or relationship in this case."
+         ],
+         "y": "members of one species living in the stated area."
+        },
+        {
+         "q": "The model record describes algae, insects and frogs together.\nWhich explanation follows?",
+         "r": "Those are abiotic conditions; a community consists of living populations.",
+         "w": [
+          "A population concerns one species; the community includes different populations.",
+          "An ecosystem includes non-living conditions as well as organisms.",
+          "Influence can run in both directions between organisms and environmental conditions."
+         ],
+         "e": [
+          "That explanation addresses population, rather than the process or relationship in this case.",
+          "That explanation addresses abiotic component, rather than the process or relationship in this case.",
+          "That explanation addresses ecosystem interaction, rather than the process or relationship in this case."
+         ],
+         "y": "interacting populations of different species."
+        },
+        {
+         "q": "Sunlight and water temperature affect the model pond.\nWhich explanation follows?",
+         "r": "An ecosystem includes non-living conditions as well as organisms.",
+         "w": [
+          "A population concerns one species; the community includes different populations.",
+          "Those are abiotic conditions; a community consists of living populations.",
+          "Influence can run in both directions between organisms and environmental conditions."
+         ],
+         "e": [
+          "That explanation addresses population, rather than the process or relationship in this case.",
+          "That explanation addresses community, rather than the process or relationship in this case.",
+          "That explanation addresses ecosystem interaction, rather than the process or relationship in this case."
+         ],
+         "y": "a non-living environmental factor."
+        },
+        {
+         "q": "Plants alter shade while light conditions influence plant growth.\nWhich explanation follows?",
+         "r": "Influence can run in both directions between organisms and environmental conditions.",
+         "w": [
+          "A population concerns one species; the community includes different populations.",
+          "Those are abiotic conditions; a community consists of living populations.",
+          "An ecosystem includes non-living conditions as well as organisms."
+         ],
+         "e": [
+          "That explanation addresses population, rather than the process or relationship in this case.",
+          "That explanation addresses community, rather than the process or relationship in this case.",
+          "That explanation addresses abiotic component, rather than the process or relationship in this case."
+         ],
+         "y": "a link between organisms and their physical environment."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ecosystem"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means members of one species living in the stated area?",
+       "r": "population",
+       "w": [
+        "community",
+        "abiotic component",
+        "ecosystem interaction"
+       ],
+       "e": [
+        "That concerns interacting populations of different species, rather than the feature asked for.",
+        "That concerns a non-living environmental factor, rather than the feature asked for.",
+        "That concerns a link between organisms and their physical environment, rather than the feature asked for."
+       ],
+       "y": "A population concerns one species; the community includes different populations."
+      },
+      {
+       "q": "Which term means interacting populations of different species?",
+       "r": "community",
+       "w": [
+        "population",
+        "abiotic component",
+        "ecosystem interaction"
+       ],
+       "e": [
+        "That concerns members of one species living in the stated area, rather than the feature asked for.",
+        "That concerns a non-living environmental factor, rather than the feature asked for.",
+        "That concerns a link between organisms and their physical environment, rather than the feature asked for."
+       ],
+       "y": "Those are abiotic conditions; a community consists of living populations."
+      },
+      {
+       "q": "Which term means a non-living environmental factor?",
+       "r": "abiotic component",
+       "w": [
+        "population",
+        "community",
+        "ecosystem interaction"
+       ],
+       "e": [
+        "That concerns members of one species living in the stated area, rather than the feature asked for.",
+        "That concerns interacting populations of different species, rather than the feature asked for.",
+        "That concerns a link between organisms and their physical environment, rather than the feature asked for."
+       ],
+       "y": "An ecosystem includes non-living conditions as well as organisms."
+      },
+      {
+       "q": "Which term means a link between organisms and their physical environment?",
+       "r": "ecosystem interaction",
+       "w": [
+        "population",
+        "community",
+        "abiotic component"
+       ],
+       "e": [
+        "That concerns members of one species living in the stated area, rather than the feature asked for.",
+        "That concerns interacting populations of different species, rather than the feature asked for.",
+        "That concerns a non-living environmental factor, rather than the feature asked for."
+       ],
+       "y": "Influence can run in both directions between organisms and environmental conditions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ecosystem"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The record counts one frog species in the model pond.\nWhich feature is illustrated?",
+       "r": "population",
+       "w": [
+        "community",
+        "abiotic component",
+        "ecosystem interaction"
+       ],
+       "e": [
+        "That identifies interacting populations of different species. Read the case for evidence of members of one species living in the stated area.",
+        "That identifies a non-living environmental factor. Read the case for evidence of members of one species living in the stated area.",
+        "That identifies a link between organisms and their physical environment. Read the case for evidence of members of one species living in the stated area."
+       ],
+       "y": "A population concerns one species; the community includes different populations."
+      },
+      {
+       "q": "The model record describes algae, insects and frogs together.\nWhich feature is illustrated?",
+       "r": "community",
+       "w": [
+        "population",
+        "abiotic component",
+        "ecosystem interaction"
+       ],
+       "e": [
+        "That identifies members of one species living in the stated area. Read the case for evidence of interacting populations of different species.",
+        "That identifies a non-living environmental factor. Read the case for evidence of interacting populations of different species.",
+        "That identifies a link between organisms and their physical environment. Read the case for evidence of interacting populations of different species."
+       ],
+       "y": "Those are abiotic conditions; a community consists of living populations."
+      },
+      {
+       "q": "Sunlight and water temperature affect the model pond.\nWhich feature is illustrated?",
+       "r": "abiotic component",
+       "w": [
+        "population",
+        "community",
+        "ecosystem interaction"
+       ],
+       "e": [
+        "That identifies members of one species living in the stated area. Read the case for evidence of a non-living environmental factor.",
+        "That identifies interacting populations of different species. Read the case for evidence of a non-living environmental factor.",
+        "That identifies a link between organisms and their physical environment. Read the case for evidence of a non-living environmental factor."
+       ],
+       "y": "An ecosystem includes non-living conditions as well as organisms."
+      },
+      {
+       "q": "Plants alter shade while light conditions influence plant growth.\nWhich feature is illustrated?",
+       "r": "ecosystem interaction",
+       "w": [
+        "population",
+        "community",
+        "abiotic component"
+       ],
+       "e": [
+        "That identifies members of one species living in the stated area. Read the case for evidence of a link between organisms and their physical environment.",
+        "That identifies interacting populations of different species. Read the case for evidence of a link between organisms and their physical environment.",
+        "That identifies a non-living environmental factor. Read the case for evidence of a link between organisms and their physical environment."
+       ],
+       "y": "Influence can run in both directions between organisms and environmental conditions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-6-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ecosystem"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The record counts one frog species in the model pond.\nWhich explanation follows?",
+       "r": "A population concerns one species; the community includes different populations.",
+       "w": [
+        "Those are abiotic conditions; a community consists of living populations.",
+        "An ecosystem includes non-living conditions as well as organisms.",
+        "Influence can run in both directions between organisms and environmental conditions."
+       ],
+       "e": [
+        "That explanation addresses community, rather than the process or relationship in this case.",
+        "That explanation addresses abiotic component, rather than the process or relationship in this case.",
+        "That explanation addresses ecosystem interaction, rather than the process or relationship in this case."
+       ],
+       "y": "members of one species living in the stated area."
+      },
+      {
+       "q": "The model record describes algae, insects and frogs together.\nWhich explanation follows?",
+       "r": "Those are abiotic conditions; a community consists of living populations.",
+       "w": [
+        "A population concerns one species; the community includes different populations.",
+        "An ecosystem includes non-living conditions as well as organisms.",
+        "Influence can run in both directions between organisms and environmental conditions."
+       ],
+       "e": [
+        "That explanation addresses population, rather than the process or relationship in this case.",
+        "That explanation addresses abiotic component, rather than the process or relationship in this case.",
+        "That explanation addresses ecosystem interaction, rather than the process or relationship in this case."
+       ],
+       "y": "interacting populations of different species."
+      },
+      {
+       "q": "Sunlight and water temperature affect the model pond.\nWhich explanation follows?",
+       "r": "An ecosystem includes non-living conditions as well as organisms.",
+       "w": [
+        "A population concerns one species; the community includes different populations.",
+        "Those are abiotic conditions; a community consists of living populations.",
+        "Influence can run in both directions between organisms and environmental conditions."
+       ],
+       "e": [
+        "That explanation addresses population, rather than the process or relationship in this case.",
+        "That explanation addresses community, rather than the process or relationship in this case.",
+        "That explanation addresses ecosystem interaction, rather than the process or relationship in this case."
+       ],
+       "y": "a non-living environmental factor."
+      },
+      {
+       "q": "Plants alter shade while light conditions influence plant growth.\nWhich explanation follows?",
+       "r": "Influence can run in both directions between organisms and environmental conditions.",
+       "w": [
+        "A population concerns one species; the community includes different populations.",
+        "Those are abiotic conditions; a community consists of living populations.",
+        "An ecosystem includes non-living conditions as well as organisms."
+       ],
+       "e": [
+        "That explanation addresses population, rather than the process or relationship in this case.",
+        "That explanation addresses community, rather than the process or relationship in this case.",
+        "That explanation addresses abiotic component, rather than the process or relationship in this case."
+       ],
+       "y": "a link between organisms and their physical environment."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-6-habitat-grid",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ecosystem"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "y": {
+     "int": [
+      0,
+      4
+     ]
+    }
+   },
+   "prompt": "An invented pond habitat is marked P. Read its four-figure grid square: eastings first, then northings.",
+   "correct": "{grid4(20+x,60+y)}",
+   "distractors": [
+    {
+     "text": "{grid4(60+y,20+x)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{grid4(21+x,60+y)}",
+     "misconception": "east"
+    },
+    {
+     "text": "{grid4(20+x,61+y)}",
+     "misconception": "north"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "That reads northings before eastings."
+    },
+    {
+     "id": "east",
+     "explain": "That uses the line east of the square instead of its western edge."
+    },
+    {
+     "id": "north",
+     "explain": "That uses the line north of the square instead of its southern edge."
+    }
+   ],
+   "solution": [
+    "Find the grid line immediately west of P, then immediately south.",
+    "The square is {answer}."
+   ],
+   "figure": "gridMap(20,60,[['P',x+0.5,y+0.5]])"
+  },
+  {
+   "id": "g4-6-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ecosystem"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "population: members of one species living in the stated area.",
+      "truth": "true",
+      "explain": "This distinction is correct: A population concerns one species; the community includes different populations. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "community: interacting populations of different species.",
+      "truth": "true",
+      "explain": "This distinction is correct: Those are abiotic conditions; a community consists of living populations. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "abiotic component: a non-living environmental factor.",
+      "truth": "true",
+      "explain": "This distinction is correct: An ecosystem includes non-living conditions as well as organisms. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "ecosystem interaction: a link between organisms and their physical environment.",
+      "truth": "true",
+      "explain": "This distinction is correct: Influence can run in both directions between organisms and environmental conditions. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A population must contain every species in a habitat.",
+      "truth": "false",
+      "explain": "A population concerns one species; the community includes different populations."
+     },
+     {
+      "text": "A community includes only the pond’s water and temperature.",
+      "truth": "false",
+      "explain": "Those are abiotic conditions; a community consists of living populations."
+     },
+     {
+      "text": "Everything inside an ecosystem must itself be alive.",
+      "truth": "false",
+      "explain": "An ecosystem includes non-living conditions as well as organisms."
+     },
+     {
+      "text": "Organisms can never change their surroundings.",
+      "truth": "false",
+      "explain": "Influence can run in both directions between organisms and environmental conditions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

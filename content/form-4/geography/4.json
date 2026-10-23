@@ -1,0 +1,671 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  2,
+  3
+ ],
+ "skills": [
+  {
+   "id": "g4-4",
+   "name": "Soil erosion"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Soil erosion is detachment and movement of soil by water, wind or other agents. It differs from weathering, which breaks down material in place. Raindrop impact can detach exposed particles; runoff transports them. Sheet wash removes a thin surface layer, while concentrated flow can form rills and gullies. Deposition occurs when transported material settles. Slope, cover, rainfall intensity, soil condition and land use interact. Removing topsoil can reduce rooting depth and nutrient stores and send sediment into watercourses.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish detachment transport and deposition and explain how cover and runoff influence loss. Builds on: soil properties and the profile. Leads to: choosing measures that address erosion processes."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Soil erosion is detachment and movement of soil by water, wind or other agents. It differs from weathering, which breaks down material in place. Raindrop impact can detach exposed particles; runoff transports them. Sheet wash removes a thin surface layer, while concentrated flow can form rills and gullies. Deposition occurs when transported material settles. Slope, cover, rainfall intensity, soil condition and land use interact. Removing topsoil can reduce rooting depth and nutrient stores and send sediment into watercourses."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "An invented school comparison uses equal areas and equal rainfall to compare covered and bare soil. A measured difference supports a conclusion about those models under those conditions; it does not establish a national erosion rate. On western highland slopes, exposed ground and concentrated runoff help explain risk, while vegetation and stable structure can reduce it. Wind erosion is also relevant where dry loose surfaces lack protection."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Trace source, pathway and deposit. Distinguish evidence of detachment from evidence of accumulated sediment. Compare like conditions before attributing all differences to cover. Do not inspect active gullies or enter floodwater; the lesson uses drawings and supplied measurements."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "detachment",
+    "meaning": "separation of soil particles from the surface"
+   },
+   {
+    "word": "transport",
+    "meaning": "movement of detached material by an agent"
+   },
+   {
+    "word": "concentrated runoff",
+    "meaning": "surface flow gathered into channels that can cut soil"
+   },
+   {
+    "word": "deposition",
+    "meaning": "settling of transported material when carrying capacity falls"
+   }
+  ],
+  "mistake": {
+   "wrong": "A detached particle must already have reached the sea.",
+   "right": "separation of soil particles from the surface.",
+   "why": "Detachment is the start of removal, distinct from later transport and deposition."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Raindrops strike exposed ground and loosen particles. Explain the relationship.",
+  "steps": [
+   "separation of soil particles from the surface.",
+   "Detachment is the start of removal, distinct from later transport and deposition."
+  ],
+  "answer": "detachment",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-4-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "detachment: separation of soil particles from the surface.",
+     "transport: movement of detached material by an agent.",
+     "concentrated runoff: surface flow gathered into channels that can cut soil.",
+     "deposition: settling of transported material when carrying capacity falls."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-4-terms"
+    }
+   },
+   {
+    "id": "g4-4-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "Raindrops strike exposed ground and loosen particles.",
+     "Runoff carries loosened soil downslope.",
+     "Water follows an unprotected track and deepens a rill.",
+     "Sediment accumulates where runoff slows near a slope’s foot."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-4-cases"
+    }
+   },
+   {
+    "id": "g4-4-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Detachment is the start of removal, distinct from later transport and deposition.",
+     "Transport distinguishes removal by erosion from weathering in place.",
+     "Flow can converge and increase local erosive action.",
+     "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-4-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "soil"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Raindrops strike exposed ground and loosen particles.\nWhich explanation follows?",
+         "r": "Detachment is the start of removal, distinct from later transport and deposition.",
+         "w": [
+          "Transport distinguishes removal by erosion from weathering in place.",
+          "Flow can converge and increase local erosive action.",
+          "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+         ],
+         "e": [
+          "That explanation addresses transport, rather than the process or relationship in this case.",
+          "That explanation addresses concentrated runoff, rather than the process or relationship in this case.",
+          "That explanation addresses deposition, rather than the process or relationship in this case."
+         ],
+         "y": "separation of soil particles from the surface."
+        },
+        {
+         "q": "Runoff carries loosened soil downslope.\nWhich explanation follows?",
+         "r": "Transport distinguishes removal by erosion from weathering in place.",
+         "w": [
+          "Detachment is the start of removal, distinct from later transport and deposition.",
+          "Flow can converge and increase local erosive action.",
+          "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+         ],
+         "e": [
+          "That explanation addresses detachment, rather than the process or relationship in this case.",
+          "That explanation addresses concentrated runoff, rather than the process or relationship in this case.",
+          "That explanation addresses deposition, rather than the process or relationship in this case."
+         ],
+         "y": "movement of detached material by an agent."
+        },
+        {
+         "q": "Water follows an unprotected track and deepens a rill.\nWhich explanation follows?",
+         "r": "Flow can converge and increase local erosive action.",
+         "w": [
+          "Detachment is the start of removal, distinct from later transport and deposition.",
+          "Transport distinguishes removal by erosion from weathering in place.",
+          "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+         ],
+         "e": [
+          "That explanation addresses detachment, rather than the process or relationship in this case.",
+          "That explanation addresses transport, rather than the process or relationship in this case.",
+          "That explanation addresses deposition, rather than the process or relationship in this case."
+         ],
+         "y": "surface flow gathered into channels that can cut soil."
+        },
+        {
+         "q": "Sediment accumulates where runoff slows near a slope’s foot.\nWhich explanation follows?",
+         "r": "Deposition shows accumulation but requires more evidence to trace all sources and quantities.",
+         "w": [
+          "Detachment is the start of removal, distinct from later transport and deposition.",
+          "Transport distinguishes removal by erosion from weathering in place.",
+          "Flow can converge and increase local erosive action."
+         ],
+         "e": [
+          "That explanation addresses detachment, rather than the process or relationship in this case.",
+          "That explanation addresses transport, rather than the process or relationship in this case.",
+          "That explanation addresses concentrated runoff, rather than the process or relationship in this case."
+         ],
+         "y": "settling of transported material when carrying capacity falls."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means separation of soil particles from the surface?",
+       "r": "detachment",
+       "w": [
+        "transport",
+        "concentrated runoff",
+        "deposition"
+       ],
+       "e": [
+        "That concerns movement of detached material by an agent, rather than the feature asked for.",
+        "That concerns surface flow gathered into channels that can cut soil, rather than the feature asked for.",
+        "That concerns settling of transported material when carrying capacity falls, rather than the feature asked for."
+       ],
+       "y": "Detachment is the start of removal, distinct from later transport and deposition."
+      },
+      {
+       "q": "Which term means movement of detached material by an agent?",
+       "r": "transport",
+       "w": [
+        "detachment",
+        "concentrated runoff",
+        "deposition"
+       ],
+       "e": [
+        "That concerns separation of soil particles from the surface, rather than the feature asked for.",
+        "That concerns surface flow gathered into channels that can cut soil, rather than the feature asked for.",
+        "That concerns settling of transported material when carrying capacity falls, rather than the feature asked for."
+       ],
+       "y": "Transport distinguishes removal by erosion from weathering in place."
+      },
+      {
+       "q": "Which term means surface flow gathered into channels that can cut soil?",
+       "r": "concentrated runoff",
+       "w": [
+        "detachment",
+        "transport",
+        "deposition"
+       ],
+       "e": [
+        "That concerns separation of soil particles from the surface, rather than the feature asked for.",
+        "That concerns movement of detached material by an agent, rather than the feature asked for.",
+        "That concerns settling of transported material when carrying capacity falls, rather than the feature asked for."
+       ],
+       "y": "Flow can converge and increase local erosive action."
+      },
+      {
+       "q": "Which term means settling of transported material when carrying capacity falls?",
+       "r": "deposition",
+       "w": [
+        "detachment",
+        "transport",
+        "concentrated runoff"
+       ],
+       "e": [
+        "That concerns separation of soil particles from the surface, rather than the feature asked for.",
+        "That concerns movement of detached material by an agent, rather than the feature asked for.",
+        "That concerns surface flow gathered into channels that can cut soil, rather than the feature asked for."
+       ],
+       "y": "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Raindrops strike exposed ground and loosen particles.\nWhich feature is illustrated?",
+       "r": "detachment",
+       "w": [
+        "transport",
+        "concentrated runoff",
+        "deposition"
+       ],
+       "e": [
+        "That identifies movement of detached material by an agent. Read the case for evidence of separation of soil particles from the surface.",
+        "That identifies surface flow gathered into channels that can cut soil. Read the case for evidence of separation of soil particles from the surface.",
+        "That identifies settling of transported material when carrying capacity falls. Read the case for evidence of separation of soil particles from the surface."
+       ],
+       "y": "Detachment is the start of removal, distinct from later transport and deposition."
+      },
+      {
+       "q": "Runoff carries loosened soil downslope.\nWhich feature is illustrated?",
+       "r": "transport",
+       "w": [
+        "detachment",
+        "concentrated runoff",
+        "deposition"
+       ],
+       "e": [
+        "That identifies separation of soil particles from the surface. Read the case for evidence of movement of detached material by an agent.",
+        "That identifies surface flow gathered into channels that can cut soil. Read the case for evidence of movement of detached material by an agent.",
+        "That identifies settling of transported material when carrying capacity falls. Read the case for evidence of movement of detached material by an agent."
+       ],
+       "y": "Transport distinguishes removal by erosion from weathering in place."
+      },
+      {
+       "q": "Water follows an unprotected track and deepens a rill.\nWhich feature is illustrated?",
+       "r": "concentrated runoff",
+       "w": [
+        "detachment",
+        "transport",
+        "deposition"
+       ],
+       "e": [
+        "That identifies separation of soil particles from the surface. Read the case for evidence of surface flow gathered into channels that can cut soil.",
+        "That identifies movement of detached material by an agent. Read the case for evidence of surface flow gathered into channels that can cut soil.",
+        "That identifies settling of transported material when carrying capacity falls. Read the case for evidence of surface flow gathered into channels that can cut soil."
+       ],
+       "y": "Flow can converge and increase local erosive action."
+      },
+      {
+       "q": "Sediment accumulates where runoff slows near a slope’s foot.\nWhich feature is illustrated?",
+       "r": "deposition",
+       "w": [
+        "detachment",
+        "transport",
+        "concentrated runoff"
+       ],
+       "e": [
+        "That identifies separation of soil particles from the surface. Read the case for evidence of settling of transported material when carrying capacity falls.",
+        "That identifies movement of detached material by an agent. Read the case for evidence of settling of transported material when carrying capacity falls.",
+        "That identifies surface flow gathered into channels that can cut soil. Read the case for evidence of settling of transported material when carrying capacity falls."
+       ],
+       "y": "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-4-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Raindrops strike exposed ground and loosen particles.\nWhich explanation follows?",
+       "r": "Detachment is the start of removal, distinct from later transport and deposition.",
+       "w": [
+        "Transport distinguishes removal by erosion from weathering in place.",
+        "Flow can converge and increase local erosive action.",
+        "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+       ],
+       "e": [
+        "That explanation addresses transport, rather than the process or relationship in this case.",
+        "That explanation addresses concentrated runoff, rather than the process or relationship in this case.",
+        "That explanation addresses deposition, rather than the process or relationship in this case."
+       ],
+       "y": "separation of soil particles from the surface."
+      },
+      {
+       "q": "Runoff carries loosened soil downslope.\nWhich explanation follows?",
+       "r": "Transport distinguishes removal by erosion from weathering in place.",
+       "w": [
+        "Detachment is the start of removal, distinct from later transport and deposition.",
+        "Flow can converge and increase local erosive action.",
+        "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+       ],
+       "e": [
+        "That explanation addresses detachment, rather than the process or relationship in this case.",
+        "That explanation addresses concentrated runoff, rather than the process or relationship in this case.",
+        "That explanation addresses deposition, rather than the process or relationship in this case."
+       ],
+       "y": "movement of detached material by an agent."
+      },
+      {
+       "q": "Water follows an unprotected track and deepens a rill.\nWhich explanation follows?",
+       "r": "Flow can converge and increase local erosive action.",
+       "w": [
+        "Detachment is the start of removal, distinct from later transport and deposition.",
+        "Transport distinguishes removal by erosion from weathering in place.",
+        "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+       ],
+       "e": [
+        "That explanation addresses detachment, rather than the process or relationship in this case.",
+        "That explanation addresses transport, rather than the process or relationship in this case.",
+        "That explanation addresses deposition, rather than the process or relationship in this case."
+       ],
+       "y": "surface flow gathered into channels that can cut soil."
+      },
+      {
+       "q": "Sediment accumulates where runoff slows near a slope’s foot.\nWhich explanation follows?",
+       "r": "Deposition shows accumulation but requires more evidence to trace all sources and quantities.",
+       "w": [
+        "Detachment is the start of removal, distinct from later transport and deposition.",
+        "Transport distinguishes removal by erosion from weathering in place.",
+        "Flow can converge and increase local erosive action."
+       ],
+       "e": [
+        "That explanation addresses detachment, rather than the process or relationship in this case.",
+        "That explanation addresses transport, rather than the process or relationship in this case.",
+        "That explanation addresses concentrated runoff, rather than the process or relationship in this case."
+       ],
+       "y": "settling of transported material when carrying capacity falls."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-4-loss",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "bare": {
+     "int": [
+      30,
+      70
+     ]
+    },
+    "covered": {
+     "int": [
+      5,
+      20
+     ]
+    }
+   },
+   "prompt": "In equal-area classroom runoff models under the same rain, bare soil loses {bare} g and covered soil loses {covered} g. How much more soil is lost from the bare model?",
+   "answer": "bare-covered",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "bare+covered",
+     "explain": "That adds both losses rather than comparing them."
+    },
+    {
+     "id": "bare",
+     "wrong": "bare",
+     "explain": "That repeats the bare tray’s loss instead of the difference."
+    },
+    {
+     "id": "reverse",
+     "wrong": "covered-bare",
+     "explain": "That reverses the requested bare-minus-covered comparison."
+    }
+   ],
+   "solution": [
+    "Compare like areas and rainfall conditions.",
+    "Difference = {bare} − {covered} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "g4-4-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "detachment: separation of soil particles from the surface.",
+      "truth": "true",
+      "explain": "This distinction is correct: Detachment is the start of removal, distinct from later transport and deposition. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "transport: movement of detached material by an agent.",
+      "truth": "true",
+      "explain": "This distinction is correct: Transport distinguishes removal by erosion from weathering in place. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "concentrated runoff: surface flow gathered into channels that can cut soil.",
+      "truth": "true",
+      "explain": "This distinction is correct: Flow can converge and increase local erosive action. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "deposition: settling of transported material when carrying capacity falls.",
+      "truth": "true",
+      "explain": "This distinction is correct: Deposition shows accumulation but requires more evidence to trace all sources and quantities. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A detached particle must already have reached the sea.",
+      "truth": "false",
+      "explain": "Detachment is the start of removal, distinct from later transport and deposition."
+     },
+     {
+      "text": "Erosion means only rock breakdown without movement.",
+      "truth": "false",
+      "explain": "Transport distinguishes removal by erosion from weathering in place."
+     },
+     {
+      "text": "Every slope receives equal flow everywhere.",
+      "truth": "false",
+      "explain": "Flow can converge and increase local erosive action."
+     },
+     {
+      "text": "A sediment deposit identifies the exact amount lost from every upstream field.",
+      "truth": "false",
+      "explain": "Deposition shows accumulation but requires more evidence to trace all sources and quantities."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

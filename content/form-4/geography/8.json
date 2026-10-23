@@ -1,0 +1,737 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "g4-8",
+   "name": "The tropical rainforest biome"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Tropical rainforests occur in warm humid parts of the tropics, including southern Cameroon and the wider Congo Basin, Amazonia and Southeast Asia. Broad-leaved trees form a canopy with emergents and shaded lower layers. Lianas and epiphytes use tree structure in different ways. Warmth and moisture often support rapid decomposition and nutrient cycling, while many strongly weathered soils retain limited readily available nutrients. Forest richness does not prove deep, uniformly fertile soil. Rainfall seasonality varies within the broad rainforest category.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to connect year-round moisture and warmth to forest structure and interpret a model rainfall chart. Builds on: ecosystem functioning and nutrient cycling. Leads to: comparison with seasonal savannah and monsoon landscapes."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Tropical rainforests occur in warm humid parts of the tropics, including southern Cameroon and the wider Congo Basin, Amazonia and Southeast Asia. Broad-leaved trees form a canopy with emergents and shaded lower layers. Lianas and epiphytes use tree structure in different ways. Warmth and moisture often support rapid decomposition and nutrient cycling, while many strongly weathered soils retain limited readily available nutrients. Forest richness does not prove deep, uniformly fertile soil. Rainfall seasonality varies within the broad rainforest category."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "Southern Cameroon supplies a local setting for comparing forest cover, cultivation and conservation. Farming and logging can provide livelihoods but alter habitat, canopy and nutrient pathways; outcomes depend on methods and intensity. The chart is an invented warm-region rainfall record with moisture in every month, not measured data for Douala or a test proving rainforest from rainfall alone.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 278\\\" role=\\\"img\\\" aria-label=\\\"Invented monthly rainfall chart, January to December, millimetres\\\" font-family=\\\"sans-serif\\\" fill=\\\"#183428\\\"><rect width=\\\"320\\\" height=\\\"278\\\" fill=\\\"#fffdf5\\\"/><text x=\\\"8\\\" y=\\\"18\\\" font-size=\\\"12\\\">Invented monthly rainfall (mm)</text><path d=\\\"M34 224.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"228.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(0) + \"</text><path d=\\\"M34 180.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"184.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(100) + \"</text><path d=\\\"M34 136.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"140.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(200) + \"</text><path d=\\\"M34 92.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"96.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(300) + \"</text><path d=\\\"M34 48.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"52.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(400) + \"</text><rect x=\\\"38\\\" y=\\\"144.8\\\" width=\\\"16\\\" height=\\\"79.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"46\\\" y=\\\"139.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(180) + \"</text><text x=\\\"46\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"61\\\" y=\\\"153.6\\\" width=\\\"16\\\" height=\\\"70.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"69\\\" y=\\\"148.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(160) + \"</text><text x=\\\"69\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">F</text><rect x=\\\"84\\\" y=\\\"136.0\\\" width=\\\"16\\\" height=\\\"88.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"92\\\" y=\\\"131.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(200) + \"</text><text x=\\\"92\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"107\\\" y=\\\"127.2\\\" width=\\\"16\\\" height=\\\"96.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"115\\\" y=\\\"122.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(220) + \"</text><text x=\\\"115\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"130\\\" y=\\\"118.4\\\" width=\\\"16\\\" height=\\\"105.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"138\\\" y=\\\"113.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(240) + \"</text><text x=\\\"138\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"153\\\" y=\\\"144.8\\\" width=\\\"16\\\" height=\\\"79.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"161\\\" y=\\\"139.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(180) + \"</text><text x=\\\"161\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"176\\\" y=\\\"153.6\\\" width=\\\"16\\\" height=\\\"70.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"184\\\" y=\\\"148.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(160) + \"</text><text x=\\\"184\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"199\\\" y=\\\"144.8\\\" width=\\\"16\\\" height=\\\"79.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"207\\\" y=\\\"139.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(180) + \"</text><text x=\\\"207\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"222\\\" y=\\\"127.2\\\" width=\\\"16\\\" height=\\\"96.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"230\\\" y=\\\"122.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(220) + \"</text><text x=\\\"230\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">S</text><rect x=\\\"245\\\" y=\\\"118.4\\\" width=\\\"16\\\" height=\\\"105.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"253\\\" y=\\\"113.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(240) + \"</text><text x=\\\"253\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">O</text><rect x=\\\"268\\\" y=\\\"127.2\\\" width=\\\"16\\\" height=\\\"96.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"276\\\" y=\\\"122.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(220) + \"</text><text x=\\\"276\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">N</text><rect x=\\\"291\\\" y=\\\"136.0\\\" width=\\\"16\\\" height=\\\"88.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"299\\\" y=\\\"131.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(200) + \"</text><text x=\\\"299\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">D</text><text x=\\\"8\\\" y=\\\"263\\\" font-size=\\\"10\\\">Jan to Dec; model data, not a town record.</text></svg>\""
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Explain a link: shade affects understorey growth; continuous moisture supports growth and decomposition; clearing changes both habitat and soil exposure. Distinguish a liana rooted in soil from an epiphyte growing on a plant for support. Read seasonality before adding monthly totals and state the limits of the model."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "canopy structure",
+    "meaning": "overlapping forest layers influencing light below"
+   },
+   {
+    "word": "rapid nutrient cycling",
+    "meaning": "relatively quick transfer through litter decomposition and plant uptake in warm moist conditions"
+   },
+   {
+    "word": "epiphyte",
+    "meaning": "a plant growing on another plant for support without being defined as a parasite"
+   },
+   {
+    "word": "land-use impact",
+    "meaning": "change in forest structure and processes caused by human activity"
+   }
+  ],
+  "mistake": {
+   "wrong": "All rainforest plants receive the same light at ground level.",
+   "right": "overlapping forest layers influencing light below.",
+   "why": "Canopy interception creates differences in light between layers."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Tall crowns shade a lower layer of the model forest. Explain the relationship.",
+  "steps": [
+   "overlapping forest layers influencing light below.",
+   "Canopy interception creates differences in light between layers."
+  ],
+  "answer": "canopy structure",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-8-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "canopy structure: overlapping forest layers influencing light below.",
+     "rapid nutrient cycling: relatively quick transfer through litter decomposition and plant uptake in warm moist conditions.",
+     "epiphyte: a plant growing on another plant for support without being defined as a parasite.",
+     "land-use impact: change in forest structure and processes caused by human activity."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-8-terms"
+    }
+   },
+   {
+    "id": "g4-8-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "Tall crowns shade a lower layer of the model forest.",
+     "Litter breaks down and plants take up released nutrients.",
+     "An orchid grows on a tree branch while obtaining resources from its surroundings.",
+     "Clearing alters shade, habitat and the supply of litter."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-8-cases"
+    }
+   },
+   {
+    "id": "g4-8-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Canopy interception creates differences in light between layers.",
+     "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+     "Support and parasitism are different relationships.",
+     "Removing cover and biomass changes more than the number of visible trees."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-8-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "biomes",
+      "country"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Tall crowns shade a lower layer of the model forest.\nWhich explanation follows?",
+         "r": "Canopy interception creates differences in light between layers.",
+         "w": [
+          "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+          "Support and parasitism are different relationships.",
+          "Removing cover and biomass changes more than the number of visible trees."
+         ],
+         "e": [
+          "That explanation addresses rapid nutrient cycling, rather than the process or relationship in this case.",
+          "That explanation addresses epiphyte, rather than the process or relationship in this case.",
+          "That explanation addresses land-use impact, rather than the process or relationship in this case."
+         ],
+         "y": "overlapping forest layers influencing light below."
+        },
+        {
+         "q": "Litter breaks down and plants take up released nutrients.\nWhich explanation follows?",
+         "r": "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+         "w": [
+          "Canopy interception creates differences in light between layers.",
+          "Support and parasitism are different relationships.",
+          "Removing cover and biomass changes more than the number of visible trees."
+         ],
+         "e": [
+          "That explanation addresses canopy structure, rather than the process or relationship in this case.",
+          "That explanation addresses epiphyte, rather than the process or relationship in this case.",
+          "That explanation addresses land-use impact, rather than the process or relationship in this case."
+         ],
+         "y": "relatively quick transfer through litter decomposition and plant uptake in warm moist conditions."
+        },
+        {
+         "q": "An orchid grows on a tree branch while obtaining resources from its surroundings.\nWhich explanation follows?",
+         "r": "Support and parasitism are different relationships.",
+         "w": [
+          "Canopy interception creates differences in light between layers.",
+          "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+          "Removing cover and biomass changes more than the number of visible trees."
+         ],
+         "e": [
+          "That explanation addresses canopy structure, rather than the process or relationship in this case.",
+          "That explanation addresses rapid nutrient cycling, rather than the process or relationship in this case.",
+          "That explanation addresses land-use impact, rather than the process or relationship in this case."
+         ],
+         "y": "a plant growing on another plant for support without being defined as a parasite."
+        },
+        {
+         "q": "Clearing alters shade, habitat and the supply of litter.\nWhich explanation follows?",
+         "r": "Removing cover and biomass changes more than the number of visible trees.",
+         "w": [
+          "Canopy interception creates differences in light between layers.",
+          "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+          "Support and parasitism are different relationships."
+         ],
+         "e": [
+          "That explanation addresses canopy structure, rather than the process or relationship in this case.",
+          "That explanation addresses rapid nutrient cycling, rather than the process or relationship in this case.",
+          "That explanation addresses epiphyte, rather than the process or relationship in this case."
+         ],
+         "y": "change in forest structure and processes caused by human activity."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-8-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "country"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means overlapping forest layers influencing light below?",
+       "r": "canopy structure",
+       "w": [
+        "rapid nutrient cycling",
+        "epiphyte",
+        "land-use impact"
+       ],
+       "e": [
+        "That concerns relatively quick transfer through litter decomposition and plant uptake in warm moist conditions, rather than the feature asked for.",
+        "That concerns a plant growing on another plant for support without being defined as a parasite, rather than the feature asked for.",
+        "That concerns change in forest structure and processes caused by human activity, rather than the feature asked for."
+       ],
+       "y": "Canopy interception creates differences in light between layers."
+      },
+      {
+       "q": "Which term means relatively quick transfer through litter decomposition and plant uptake in warm moist conditions?",
+       "r": "rapid nutrient cycling",
+       "w": [
+        "canopy structure",
+        "epiphyte",
+        "land-use impact"
+       ],
+       "e": [
+        "That concerns overlapping forest layers influencing light below, rather than the feature asked for.",
+        "That concerns a plant growing on another plant for support without being defined as a parasite, rather than the feature asked for.",
+        "That concerns change in forest structure and processes caused by human activity, rather than the feature asked for."
+       ],
+       "y": "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store."
+      },
+      {
+       "q": "Which term means a plant growing on another plant for support without being defined as a parasite?",
+       "r": "epiphyte",
+       "w": [
+        "canopy structure",
+        "rapid nutrient cycling",
+        "land-use impact"
+       ],
+       "e": [
+        "That concerns overlapping forest layers influencing light below, rather than the feature asked for.",
+        "That concerns relatively quick transfer through litter decomposition and plant uptake in warm moist conditions, rather than the feature asked for.",
+        "That concerns change in forest structure and processes caused by human activity, rather than the feature asked for."
+       ],
+       "y": "Support and parasitism are different relationships."
+      },
+      {
+       "q": "Which term means change in forest structure and processes caused by human activity?",
+       "r": "land-use impact",
+       "w": [
+        "canopy structure",
+        "rapid nutrient cycling",
+        "epiphyte"
+       ],
+       "e": [
+        "That concerns overlapping forest layers influencing light below, rather than the feature asked for.",
+        "That concerns relatively quick transfer through litter decomposition and plant uptake in warm moist conditions, rather than the feature asked for.",
+        "That concerns a plant growing on another plant for support without being defined as a parasite, rather than the feature asked for."
+       ],
+       "y": "Removing cover and biomass changes more than the number of visible trees."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-8-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "country"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Tall crowns shade a lower layer of the model forest.\nWhich feature is illustrated?",
+       "r": "canopy structure",
+       "w": [
+        "rapid nutrient cycling",
+        "epiphyte",
+        "land-use impact"
+       ],
+       "e": [
+        "That identifies relatively quick transfer through litter decomposition and plant uptake in warm moist conditions. Read the case for evidence of overlapping forest layers influencing light below.",
+        "That identifies a plant growing on another plant for support without being defined as a parasite. Read the case for evidence of overlapping forest layers influencing light below.",
+        "That identifies change in forest structure and processes caused by human activity. Read the case for evidence of overlapping forest layers influencing light below."
+       ],
+       "y": "Canopy interception creates differences in light between layers."
+      },
+      {
+       "q": "Litter breaks down and plants take up released nutrients.\nWhich feature is illustrated?",
+       "r": "rapid nutrient cycling",
+       "w": [
+        "canopy structure",
+        "epiphyte",
+        "land-use impact"
+       ],
+       "e": [
+        "That identifies overlapping forest layers influencing light below. Read the case for evidence of relatively quick transfer through litter decomposition and plant uptake in warm moist conditions.",
+        "That identifies a plant growing on another plant for support without being defined as a parasite. Read the case for evidence of relatively quick transfer through litter decomposition and plant uptake in warm moist conditions.",
+        "That identifies change in forest structure and processes caused by human activity. Read the case for evidence of relatively quick transfer through litter decomposition and plant uptake in warm moist conditions."
+       ],
+       "y": "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store."
+      },
+      {
+       "q": "An orchid grows on a tree branch while obtaining resources from its surroundings.\nWhich feature is illustrated?",
+       "r": "epiphyte",
+       "w": [
+        "canopy structure",
+        "rapid nutrient cycling",
+        "land-use impact"
+       ],
+       "e": [
+        "That identifies overlapping forest layers influencing light below. Read the case for evidence of a plant growing on another plant for support without being defined as a parasite.",
+        "That identifies relatively quick transfer through litter decomposition and plant uptake in warm moist conditions. Read the case for evidence of a plant growing on another plant for support without being defined as a parasite.",
+        "That identifies change in forest structure and processes caused by human activity. Read the case for evidence of a plant growing on another plant for support without being defined as a parasite."
+       ],
+       "y": "Support and parasitism are different relationships."
+      },
+      {
+       "q": "Clearing alters shade, habitat and the supply of litter.\nWhich feature is illustrated?",
+       "r": "land-use impact",
+       "w": [
+        "canopy structure",
+        "rapid nutrient cycling",
+        "epiphyte"
+       ],
+       "e": [
+        "That identifies overlapping forest layers influencing light below. Read the case for evidence of change in forest structure and processes caused by human activity.",
+        "That identifies relatively quick transfer through litter decomposition and plant uptake in warm moist conditions. Read the case for evidence of change in forest structure and processes caused by human activity.",
+        "That identifies a plant growing on another plant for support without being defined as a parasite. Read the case for evidence of change in forest structure and processes caused by human activity."
+       ],
+       "y": "Removing cover and biomass changes more than the number of visible trees."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-8-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "country"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Tall crowns shade a lower layer of the model forest.\nWhich explanation follows?",
+       "r": "Canopy interception creates differences in light between layers.",
+       "w": [
+        "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+        "Support and parasitism are different relationships.",
+        "Removing cover and biomass changes more than the number of visible trees."
+       ],
+       "e": [
+        "That explanation addresses rapid nutrient cycling, rather than the process or relationship in this case.",
+        "That explanation addresses epiphyte, rather than the process or relationship in this case.",
+        "That explanation addresses land-use impact, rather than the process or relationship in this case."
+       ],
+       "y": "overlapping forest layers influencing light below."
+      },
+      {
+       "q": "Litter breaks down and plants take up released nutrients.\nWhich explanation follows?",
+       "r": "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+       "w": [
+        "Canopy interception creates differences in light between layers.",
+        "Support and parasitism are different relationships.",
+        "Removing cover and biomass changes more than the number of visible trees."
+       ],
+       "e": [
+        "That explanation addresses canopy structure, rather than the process or relationship in this case.",
+        "That explanation addresses epiphyte, rather than the process or relationship in this case.",
+        "That explanation addresses land-use impact, rather than the process or relationship in this case."
+       ],
+       "y": "relatively quick transfer through litter decomposition and plant uptake in warm moist conditions."
+      },
+      {
+       "q": "An orchid grows on a tree branch while obtaining resources from its surroundings.\nWhich explanation follows?",
+       "r": "Support and parasitism are different relationships.",
+       "w": [
+        "Canopy interception creates differences in light between layers.",
+        "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+        "Removing cover and biomass changes more than the number of visible trees."
+       ],
+       "e": [
+        "That explanation addresses canopy structure, rather than the process or relationship in this case.",
+        "That explanation addresses rapid nutrient cycling, rather than the process or relationship in this case.",
+        "That explanation addresses land-use impact, rather than the process or relationship in this case."
+       ],
+       "y": "a plant growing on another plant for support without being defined as a parasite."
+      },
+      {
+       "q": "Clearing alters shade, habitat and the supply of litter.\nWhich explanation follows?",
+       "r": "Removing cover and biomass changes more than the number of visible trees.",
+       "w": [
+        "Canopy interception creates differences in light between layers.",
+        "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store.",
+        "Support and parasitism are different relationships."
+       ],
+       "e": [
+        "That explanation addresses canopy structure, rather than the process or relationship in this case.",
+        "That explanation addresses rapid nutrient cycling, rather than the process or relationship in this case.",
+        "That explanation addresses epiphyte, rather than the process or relationship in this case."
+       ],
+       "y": "change in forest structure and processes caused by human activity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-8-rain-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": [
+        180,
+        160,
+        200,
+        220,
+        240,
+        180,
+        160,
+        180,
+        220,
+        240,
+        220,
+        200
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"144.8\" width=\"16\" height=\"79.2\" fill=\"#448d98\"/><text x=\"46\" y=\"139.8\" text-anchor=\"middle\" font-size=\"10\">{180}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"153.6\" width=\"16\" height=\"70.4\" fill=\"#448d98\"/><text x=\"69\" y=\"148.6\" text-anchor=\"middle\" font-size=\"10\">{160}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"136.0\" width=\"16\" height=\"88.0\" fill=\"#448d98\"/><text x=\"92\" y=\"131.0\" text-anchor=\"middle\" font-size=\"10\">{200}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"127.2\" width=\"16\" height=\"96.8\" fill=\"#448d98\"/><text x=\"115\" y=\"122.2\" text-anchor=\"middle\" font-size=\"10\">{220}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"118.4\" width=\"16\" height=\"105.6\" fill=\"#448d98\"/><text x=\"138\" y=\"113.4\" text-anchor=\"middle\" font-size=\"10\">{240}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"144.8\" width=\"16\" height=\"79.2\" fill=\"#448d98\"/><text x=\"161\" y=\"139.8\" text-anchor=\"middle\" font-size=\"10\">{180}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"153.6\" width=\"16\" height=\"70.4\" fill=\"#448d98\"/><text x=\"184\" y=\"148.6\" text-anchor=\"middle\" font-size=\"10\">{160}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"144.8\" width=\"16\" height=\"79.2\" fill=\"#448d98\"/><text x=\"207\" y=\"139.8\" text-anchor=\"middle\" font-size=\"10\">{180}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"127.2\" width=\"16\" height=\"96.8\" fill=\"#448d98\"/><text x=\"230\" y=\"122.2\" text-anchor=\"middle\" font-size=\"10\">{220}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"118.4\" width=\"16\" height=\"105.6\" fill=\"#448d98\"/><text x=\"253\" y=\"113.4\" text-anchor=\"middle\" font-size=\"10\">{240}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"127.2\" width=\"16\" height=\"96.8\" fill=\"#448d98\"/><text x=\"276\" y=\"122.2\" text-anchor=\"middle\" font-size=\"10\">{220}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"136.0\" width=\"16\" height=\"88.0\" fill=\"#448d98\"/><text x=\"299\" y=\"131.0\" text-anchor=\"middle\" font-size=\"10\">{200}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        185,
+        165,
+        205,
+        225,
+        245,
+        185,
+        165,
+        185,
+        225,
+        245,
+        225,
+        205
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"142.6\" width=\"16\" height=\"81.4\" fill=\"#448d98\"/><text x=\"46\" y=\"137.6\" text-anchor=\"middle\" font-size=\"10\">{185}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"151.4\" width=\"16\" height=\"72.6\" fill=\"#448d98\"/><text x=\"69\" y=\"146.4\" text-anchor=\"middle\" font-size=\"10\">{165}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"133.8\" width=\"16\" height=\"90.2\" fill=\"#448d98\"/><text x=\"92\" y=\"128.8\" text-anchor=\"middle\" font-size=\"10\">{205}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"125.0\" width=\"16\" height=\"99.0\" fill=\"#448d98\"/><text x=\"115\" y=\"120.0\" text-anchor=\"middle\" font-size=\"10\">{225}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"116.2\" width=\"16\" height=\"107.8\" fill=\"#448d98\"/><text x=\"138\" y=\"111.2\" text-anchor=\"middle\" font-size=\"10\">{245}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"142.6\" width=\"16\" height=\"81.4\" fill=\"#448d98\"/><text x=\"161\" y=\"137.6\" text-anchor=\"middle\" font-size=\"10\">{185}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"151.4\" width=\"16\" height=\"72.6\" fill=\"#448d98\"/><text x=\"184\" y=\"146.4\" text-anchor=\"middle\" font-size=\"10\">{165}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"142.6\" width=\"16\" height=\"81.4\" fill=\"#448d98\"/><text x=\"207\" y=\"137.6\" text-anchor=\"middle\" font-size=\"10\">{185}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"125.0\" width=\"16\" height=\"99.0\" fill=\"#448d98\"/><text x=\"230\" y=\"120.0\" text-anchor=\"middle\" font-size=\"10\">{225}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"116.2\" width=\"16\" height=\"107.8\" fill=\"#448d98\"/><text x=\"253\" y=\"111.2\" text-anchor=\"middle\" font-size=\"10\">{245}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"125.0\" width=\"16\" height=\"99.0\" fill=\"#448d98\"/><text x=\"276\" y=\"120.0\" text-anchor=\"middle\" font-size=\"10\">{225}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"133.8\" width=\"16\" height=\"90.2\" fill=\"#448d98\"/><text x=\"299\" y=\"128.8\" text-anchor=\"middle\" font-size=\"10\">{205}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        190,
+        170,
+        210,
+        230,
+        250,
+        190,
+        170,
+        190,
+        230,
+        250,
+        230,
+        210
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"140.4\" width=\"16\" height=\"83.6\" fill=\"#448d98\"/><text x=\"46\" y=\"135.4\" text-anchor=\"middle\" font-size=\"10\">{190}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"149.2\" width=\"16\" height=\"74.8\" fill=\"#448d98\"/><text x=\"69\" y=\"144.2\" text-anchor=\"middle\" font-size=\"10\">{170}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"131.6\" width=\"16\" height=\"92.4\" fill=\"#448d98\"/><text x=\"92\" y=\"126.6\" text-anchor=\"middle\" font-size=\"10\">{210}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"122.8\" width=\"16\" height=\"101.2\" fill=\"#448d98\"/><text x=\"115\" y=\"117.8\" text-anchor=\"middle\" font-size=\"10\">{230}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"114.0\" width=\"16\" height=\"110.0\" fill=\"#448d98\"/><text x=\"138\" y=\"109.0\" text-anchor=\"middle\" font-size=\"10\">{250}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"140.4\" width=\"16\" height=\"83.6\" fill=\"#448d98\"/><text x=\"161\" y=\"135.4\" text-anchor=\"middle\" font-size=\"10\">{190}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"149.2\" width=\"16\" height=\"74.8\" fill=\"#448d98\"/><text x=\"184\" y=\"144.2\" text-anchor=\"middle\" font-size=\"10\">{170}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"140.4\" width=\"16\" height=\"83.6\" fill=\"#448d98\"/><text x=\"207\" y=\"135.4\" text-anchor=\"middle\" font-size=\"10\">{190}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"122.8\" width=\"16\" height=\"101.2\" fill=\"#448d98\"/><text x=\"230\" y=\"117.8\" text-anchor=\"middle\" font-size=\"10\">{230}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"114.0\" width=\"16\" height=\"110.0\" fill=\"#448d98\"/><text x=\"253\" y=\"109.0\" text-anchor=\"middle\" font-size=\"10\">{250}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"122.8\" width=\"16\" height=\"101.2\" fill=\"#448d98\"/><text x=\"276\" y=\"117.8\" text-anchor=\"middle\" font-size=\"10\">{230}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"131.6\" width=\"16\" height=\"92.4\" fill=\"#448d98\"/><text x=\"299\" y=\"126.6\" text-anchor=\"middle\" font-size=\"10\">{210}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        195,
+        175,
+        215,
+        235,
+        255,
+        195,
+        175,
+        195,
+        235,
+        255,
+        235,
+        215
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"138.2\" width=\"16\" height=\"85.8\" fill=\"#448d98\"/><text x=\"46\" y=\"133.2\" text-anchor=\"middle\" font-size=\"10\">{195}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"147.0\" width=\"16\" height=\"77.0\" fill=\"#448d98\"/><text x=\"69\" y=\"142.0\" text-anchor=\"middle\" font-size=\"10\">{175}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"129.4\" width=\"16\" height=\"94.6\" fill=\"#448d98\"/><text x=\"92\" y=\"124.4\" text-anchor=\"middle\" font-size=\"10\">{215}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"120.6\" width=\"16\" height=\"103.4\" fill=\"#448d98\"/><text x=\"115\" y=\"115.6\" text-anchor=\"middle\" font-size=\"10\">{235}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"111.8\" width=\"16\" height=\"112.2\" fill=\"#448d98\"/><text x=\"138\" y=\"106.8\" text-anchor=\"middle\" font-size=\"10\">{255}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"138.2\" width=\"16\" height=\"85.8\" fill=\"#448d98\"/><text x=\"161\" y=\"133.2\" text-anchor=\"middle\" font-size=\"10\">{195}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"147.0\" width=\"16\" height=\"77.0\" fill=\"#448d98\"/><text x=\"184\" y=\"142.0\" text-anchor=\"middle\" font-size=\"10\">{175}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"138.2\" width=\"16\" height=\"85.8\" fill=\"#448d98\"/><text x=\"207\" y=\"133.2\" text-anchor=\"middle\" font-size=\"10\">{195}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"120.6\" width=\"16\" height=\"103.4\" fill=\"#448d98\"/><text x=\"230\" y=\"115.6\" text-anchor=\"middle\" font-size=\"10\">{235}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"111.8\" width=\"16\" height=\"112.2\" fill=\"#448d98\"/><text x=\"253\" y=\"106.8\" text-anchor=\"middle\" font-size=\"10\">{255}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"120.6\" width=\"16\" height=\"103.4\" fill=\"#448d98\"/><text x=\"276\" y=\"115.6\" text-anchor=\"middle\" font-size=\"10\">{235}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"129.4\" width=\"16\" height=\"94.6\" fill=\"#448d98\"/><text x=\"299\" y=\"124.4\" text-anchor=\"middle\" font-size=\"10\">{215}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      }
+     ]
+    }
+   },
+   "prompt": "Read the invented monthly rainfall chart. Add the labels above all monthly bars to obtain the annual total in mm; the vertical-axis tick labels are not extra observations.",
+   "answer": "sum(X.r)",
+   "misconceptions": [
+    {
+     "id": "mean",
+     "wrong": "meanOf(X.r)",
+     "explain": "That is a monthly mean, not the sum for the year."
+    },
+    {
+     "id": "range",
+     "wrong": "rangeOf(X.r)",
+     "explain": "That is the difference between wettest and driest months, not the annual total."
+    },
+    {
+     "id": "tenfold",
+     "wrong": "sum(X.r)*10",
+     "explain": "That multiplies an already millimetre total by ten without a unit conversion."
+    }
+   ],
+   "solution": [
+    "Add each monthly amount once.",
+    "The annual rainfall of this classroom record is {answer} mm. A real biome classification also needs temperature and other evidence."
+   ],
+   "unit": "mm",
+   "figure": "X.svg"
+  },
+  {
+   "id": "g4-8-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "country"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "canopy structure: overlapping forest layers influencing light below.",
+      "truth": "true",
+      "explain": "This distinction is correct: Canopy interception creates differences in light between layers. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "rapid nutrient cycling: relatively quick transfer through litter decomposition and plant uptake in warm moist conditions.",
+      "truth": "true",
+      "explain": "This distinction is correct: Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "epiphyte: a plant growing on another plant for support without being defined as a parasite.",
+      "truth": "true",
+      "explain": "This distinction is correct: Support and parasitism are different relationships. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "land-use impact: change in forest structure and processes caused by human activity.",
+      "truth": "true",
+      "explain": "This distinction is correct: Removing cover and biomass changes more than the number of visible trees. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "All rainforest plants receive the same light at ground level.",
+      "truth": "false",
+      "explain": "Canopy interception creates differences in light between layers."
+     },
+     {
+      "text": "High forest biomass proves every nutrient remains permanently in topsoil.",
+      "truth": "false",
+      "explain": "Large nutrient stores can be in vegetation and cycling material rather than a rich enduring soil store."
+     },
+     {
+      "text": "Every plant using a tree for support must feed parasitically on it.",
+      "truth": "false",
+      "explain": "Support and parasitism are different relationships."
+     },
+     {
+      "text": "Clearing cannot change erosion exposure or ecosystem processes.",
+      "truth": "false",
+      "explain": "Removing cover and biomass changes more than the number of visible trees."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

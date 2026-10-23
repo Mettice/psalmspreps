@@ -1,0 +1,610 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 14,
+ "language": "fr",
+ "prerequisites": [
+  8,
+  13
+ ],
+ "skills": [
+  {
+   "id": "fr4-14",
+   "name": "Les familles de mots"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une famille de mots réunit des mots liés par leur formation et leur sens, souvent autour d’un radical commun. Chanter, chant et chanteur appartiennent à une même famille. Un champ lexical rassemble des mots d’un même domaine sans exiger une base commune : médecin, hôpital et consultation peuvent relever de la santé sans former une seule famille morphologique. Une ressemblance sonore n’établit pas davantage une parenté. Certains radicaux changent de forme ; le dictionnaire aide à vérifier les cas moins transparents.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras regrouper des mots selon un lien de formation et de sens et distinguer une famille d’un simple thème. Acquis mobilisés : l’affixation et le vocabulaire en contexte. Pour la suite : l’enrichissement de la narration et des thèmes environnementaux."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une famille de mots réunit des mots liés par leur formation et leur sens, souvent autour d’un radical commun. Chanter, chant et chanteur appartiennent à une même famille. Un champ lexical rassemble des mots d’un même domaine sans exiger une base commune : médecin, hôpital et consultation peuvent relever de la santé sans former une seule famille morphologique. Une ressemblance sonore n’établit pas davantage une parenté. Certains radicaux changent de forme ; le dictionnaire aide à vérifier les cas moins transparents."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : dent, dentiste, dentaire ; lait, laitier, laiterie ; terre, terrain, terrestre. Dans une description de marché, lait et vendeur partagent un contexte possible mais pas nécessairement la même famille. Il faut conserver la distinction entre un thème de récit et une relation de formation des mots."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Cherche une base et un lien de sens, puis teste le mot complet dans le contexte. N’exclus pas automatiquement une variation du radical, mais ne rapproche pas des homophones sans preuve. Écris une phrase originale avec des mots d’une famille en évitant les répétitions inutiles."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "famille morphologique",
+    "meaning": "des mots liés par leur formation et leur sens"
+   },
+   {
+    "word": "radical",
+    "meaning": "un élément commun ou apparenté dans les formations étudiées"
+   },
+   {
+    "word": "champ lexical",
+    "meaning": "un ensemble de mots associés à un même domaine"
+   },
+   {
+    "word": "homophonie",
+    "meaning": "une ressemblance de prononciation sans parenté morphologique automatique"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une famille réunit obligatoirement tous les mots d’un même thème.",
+   "right": "des mots liés par leur formation et leur sens.",
+   "why": "Le lien de formation distingue famille et simple thème."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dent, dentiste et dentaire sont rapprochés. Explique le choix.",
+  "steps": [
+   "des mots liés par leur formation et leur sens.",
+   "Le lien de formation distingue famille et simple thème."
+  ],
+  "answer": "famille morphologique",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-14-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "famille morphologique : des mots liés par leur formation et leur sens.",
+     "radical : un élément commun ou apparenté dans les formations étudiées.",
+     "champ lexical : un ensemble de mots associés à un même domaine.",
+     "homophonie : une ressemblance de prononciation sans parenté morphologique automatique."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-14-notions"
+    }
+   },
+   {
+    "id": "fr4-14-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Dent, dentiste et dentaire sont rapprochés.",
+     "Chant se retrouve dans chanter et chanteur.",
+     "Médecin, hôpital et consultation renvoient à la santé.",
+     "Mer et mère ne deviennent pas une famille par le seul son."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-14-cas"
+    }
+   },
+   {
+    "id": "fr4-14-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une famille réunit obligatoirement tous les mots d’un même thème. Correction : Le lien de formation distingue famille et simple thème.",
+     "Un radical est le seul accent visible d’un mot. Correction : Il concerne la base lexicale de la formation.",
+     "Tous les mots du champ de la santé ont forcément la même base. Correction : Un thème commun n’impose pas une même formation.",
+     "Deux mots de même prononciation ont toujours la même formation. Correction : Le son seul ne prouve pas une parenté de mots."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-14-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "famille morphologique : des mots liés par leur formation et leur sens.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le lien de formation distingue famille et simple thème. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "radical : un élément commun ou apparenté dans les formations étudiées.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il concerne la base lexicale de la formation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "champ lexical : un ensemble de mots associés à un même domaine.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un thème commun n’impose pas une même formation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "homophonie : une ressemblance de prononciation sans parenté morphologique automatique.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le son seul ne prouve pas une parenté de mots. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une famille réunit obligatoirement tous les mots d’un même thème.",
+        "truth": "false",
+        "explain": "Le lien de formation distingue famille et simple thème."
+       },
+       {
+        "text": "Un radical est le seul accent visible d’un mot.",
+        "truth": "false",
+        "explain": "Il concerne la base lexicale de la formation."
+       },
+       {
+        "text": "Tous les mots du champ de la santé ont forcément la même base.",
+        "truth": "false",
+        "explain": "Un thème commun n’impose pas une même formation."
+       },
+       {
+        "text": "Deux mots de même prononciation ont toujours la même formation.",
+        "truth": "false",
+        "explain": "Le son seul ne prouve pas une parenté de mots."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-14-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne des mots liés par leur formation et leur sens ?",
+       "r": "famille morphologique",
+       "w": [
+        "radical",
+        "champ lexical",
+        "homophonie"
+       ],
+       "e": [
+        "Cela désigne un élément commun ou apparenté dans les formations étudiées, plutôt que la notion demandée.",
+        "Cela désigne un ensemble de mots associés à un même domaine, plutôt que la notion demandée.",
+        "Cela désigne une ressemblance de prononciation sans parenté morphologique automatique, plutôt que la notion demandée."
+       ],
+       "y": "Le lien de formation distingue famille et simple thème."
+      },
+      {
+       "q": "Quel terme désigne un élément commun ou apparenté dans les formations étudiées ?",
+       "r": "radical",
+       "w": [
+        "famille morphologique",
+        "champ lexical",
+        "homophonie"
+       ],
+       "e": [
+        "Cela désigne des mots liés par leur formation et leur sens, plutôt que la notion demandée.",
+        "Cela désigne un ensemble de mots associés à un même domaine, plutôt que la notion demandée.",
+        "Cela désigne une ressemblance de prononciation sans parenté morphologique automatique, plutôt que la notion demandée."
+       ],
+       "y": "Il concerne la base lexicale de la formation."
+      },
+      {
+       "q": "Quel terme désigne un ensemble de mots associés à un même domaine ?",
+       "r": "champ lexical",
+       "w": [
+        "famille morphologique",
+        "radical",
+        "homophonie"
+       ],
+       "e": [
+        "Cela désigne des mots liés par leur formation et leur sens, plutôt que la notion demandée.",
+        "Cela désigne un élément commun ou apparenté dans les formations étudiées, plutôt que la notion demandée.",
+        "Cela désigne une ressemblance de prononciation sans parenté morphologique automatique, plutôt que la notion demandée."
+       ],
+       "y": "Un thème commun n’impose pas une même formation."
+      },
+      {
+       "q": "Quel terme désigne une ressemblance de prononciation sans parenté morphologique automatique ?",
+       "r": "homophonie",
+       "w": [
+        "famille morphologique",
+        "radical",
+        "champ lexical"
+       ],
+       "e": [
+        "Cela désigne des mots liés par leur formation et leur sens, plutôt que la notion demandée.",
+        "Cela désigne un élément commun ou apparenté dans les formations étudiées, plutôt que la notion demandée.",
+        "Cela désigne un ensemble de mots associés à un même domaine, plutôt que la notion demandée."
+       ],
+       "y": "Le son seul ne prouve pas une parenté de mots."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-14-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dent, dentiste et dentaire sont rapprochés.\nQuelle notion convient ?",
+       "r": "famille morphologique",
+       "w": [
+        "radical",
+        "champ lexical",
+        "homophonie"
+       ],
+       "e": [
+        "Cela concerne un élément commun ou apparenté dans les formations étudiées. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ensemble de mots associés à un même domaine. Compare cette définition avec le cas présenté.",
+        "Cela concerne une ressemblance de prononciation sans parenté morphologique automatique. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le lien de formation distingue famille et simple thème."
+      },
+      {
+       "q": "Chant se retrouve dans chanter et chanteur.\nQuelle notion convient ?",
+       "r": "radical",
+       "w": [
+        "famille morphologique",
+        "champ lexical",
+        "homophonie"
+       ],
+       "e": [
+        "Cela concerne des mots liés par leur formation et leur sens. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ensemble de mots associés à un même domaine. Compare cette définition avec le cas présenté.",
+        "Cela concerne une ressemblance de prononciation sans parenté morphologique automatique. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il concerne la base lexicale de la formation."
+      },
+      {
+       "q": "Médecin, hôpital et consultation renvoient à la santé.\nQuelle notion convient ?",
+       "r": "champ lexical",
+       "w": [
+        "famille morphologique",
+        "radical",
+        "homophonie"
+       ],
+       "e": [
+        "Cela concerne des mots liés par leur formation et leur sens. Compare cette définition avec le cas présenté.",
+        "Cela concerne un élément commun ou apparenté dans les formations étudiées. Compare cette définition avec le cas présenté.",
+        "Cela concerne une ressemblance de prononciation sans parenté morphologique automatique. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un thème commun n’impose pas une même formation."
+      },
+      {
+       "q": "Mer et mère ne deviennent pas une famille par le seul son.\nQuelle notion convient ?",
+       "r": "homophonie",
+       "w": [
+        "famille morphologique",
+        "radical",
+        "champ lexical"
+       ],
+       "e": [
+        "Cela concerne des mots liés par leur formation et leur sens. Compare cette définition avec le cas présenté.",
+        "Cela concerne un élément commun ou apparenté dans les formations étudiées. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ensemble de mots associés à un même domaine. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le son seul ne prouve pas une parenté de mots."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-14-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choisis la famille cohérente autour de dent.",
+       "r": "dent, dentiste, dentaire",
+       "w": [
+        "dent, hôpital, ordonnance",
+        "dent, demain, dehors",
+        "dent, lait, table"
+       ],
+       "e": [
+        "C’est un voisinage thématique, pas une seule base.",
+        "La formation et le sens ne sont pas communs.",
+        "Le regroupement mélange des bases différentes."
+       ],
+       "y": "La parenté dépasse le simple thème."
+      },
+      {
+       "q": "Choisis la famille cohérente autour de lait.",
+       "r": "lait, laitier, laiterie",
+       "w": [
+        "lait, marché, vendeur",
+        "lait, lit, lui",
+        "lait, pluie, cour"
+       ],
+       "e": [
+        "Le contexte commercial ne crée pas une famille morphologique.",
+        "La ressemblance graphique ne suffit pas.",
+        "Ces mots n’ont pas la base demandée."
+       ],
+       "y": "Les trois mots sont liés par forme et sens."
+      },
+      {
+       "q": "Choisis la famille cohérente autour de chant.",
+       "r": "chant, chanter, chanteur",
+       "w": [
+        "chant, danse, spectacle",
+        "chant, champ, chambre",
+        "chant, livre, pluie"
+       ],
+       "e": [
+        "Ces mots peuvent partager un thème artistique sans la même base.",
+        "La proximité visuelle ou sonore ne suffit pas.",
+        "Les bases ne correspondent pas."
+       ],
+       "y": "La formation relie ces mots."
+      },
+      {
+       "q": "Médecin, hôpital et consultation forment surtout ici quoi ?",
+       "r": "un champ lexical de la santé",
+       "w": [
+        "une seule conjugaison",
+        "trois formes d’un seul pronom",
+        "une famille fondée sur un radical unique"
+       ],
+       "e": [
+        "Ce sont des mots lexicaux, non une série de formes verbales.",
+        "Ce ne sont pas trois formes pronominales.",
+        "Le thème commun ne fournit pas un radical unique."
+       ],
+       "y": "Le critère est ici le domaine de sens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-14-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "famille morphologique",
+     "right": "Dent, dentiste et dentaire sont rapprochés."
+    },
+    {
+     "left": "radical",
+     "right": "Chant se retrouve dans chanter et chanteur."
+    },
+    {
+     "left": "champ lexical",
+     "right": "Médecin, hôpital et consultation renvoient à la santé."
+    },
+    {
+     "left": "homophonie",
+     "right": "Mer et mère ne deviennent pas une famille par le seul son."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-14-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "famille morphologique : des mots liés par leur formation et leur sens.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le lien de formation distingue famille et simple thème. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "radical : un élément commun ou apparenté dans les formations étudiées.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il concerne la base lexicale de la formation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "champ lexical : un ensemble de mots associés à un même domaine.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un thème commun n’impose pas une même formation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "homophonie : une ressemblance de prononciation sans parenté morphologique automatique.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le son seul ne prouve pas une parenté de mots. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une famille réunit obligatoirement tous les mots d’un même thème.",
+      "truth": "false",
+      "explain": "Le lien de formation distingue famille et simple thème."
+     },
+     {
+      "text": "Un radical est le seul accent visible d’un mot.",
+      "truth": "false",
+      "explain": "Il concerne la base lexicale de la formation."
+     },
+     {
+      "text": "Tous les mots du champ de la santé ont forcément la même base.",
+      "truth": "false",
+      "explain": "Un thème commun n’impose pas une même formation."
+     },
+     {
+      "text": "Deux mots de même prononciation ont toujours la même formation.",
+      "truth": "false",
+      "explain": "Le son seul ne prouve pas une parenté de mots."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,601 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e4-3",
+   "name": "Parts of speech and a tense overview"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A word’s class depends on its use: book is a noun in the book and a verb in book a room. Nouns name, verbs form the clause’s action or state, adjectives describe nouns and adverbs can modify actions or other expressions. Time and grammatical tense are related but not identical. Simple present often expresses habits; simple past presents completed past events. Progressive forms use be + -ing; perfect forms use have + past participle. This is an overview, not a claim that every form has only one meaning.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify word functions in context and distinguish common tense/aspect patterns. Builds on: Form Three’s sentence patterns and verb forms. Leads to: choosing accurate simple forms, clause patterns and narrative tenses."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A word’s class depends on its use: book is a noun in the book and a verb in book a room. Nouns name, verbs form the clause’s action or state, adjectives describe nouns and adverbs can modify actions or other expressions. Time and grammatical tense are related but not identical. Simple present often expresses habits; simple past presents completed past events. Progressive forms use be + -ing; perfect forms use have + past participle. This is an overview, not a claim that every form has only one meaning."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original capsule: Bih reads after chores: present habit. Yesterday she {past('write')} a note: simple past. She is {ing('read')} now: present progressive. She has {participle('write')} the note: present perfect. By the later meeting she had {participle('write')} it: past perfect. She will read tomorrow: future reference. Read the whole time context before choosing a form."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Ask what the word does in this sentence, then identify the finite verb and any auxiliary. Do not label every -ly word an adverb without checking its function. A past participle is not automatically the same as the simple past. Later lessons practise particular contrasts in more depth."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "noun",
+    "meaning": "a word naming an entity or idea in the stated use"
+   },
+   {
+    "word": "verb",
+    "meaning": "a word functioning in the clause’s action or state pattern"
+   },
+   {
+    "word": "adjective",
+    "meaning": "a word describing a noun in the stated pattern"
+   },
+   {
+    "word": "adverb",
+    "meaning": "a word modifying how or when an action occurs in the stated pattern"
+   }
+  ],
+  "mistake": {
+   "wrong": "Book must be a verb in every sentence.",
+   "right": "noun: a word naming an entity or idea in the stated use.",
+   "why": "Word class depends on use; the book uses book as a noun."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In the book is here, book names an object. Explain the selected feature.",
+  "steps": [
+   "A word naming an entity or idea in the stated use.",
+   "Word class depends on use; the book uses book as a noun."
+  ],
+  "answer": "noun",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-3-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "noun: a word naming an entity or idea in the stated use.",
+     "verb: a word functioning in the clause’s action or state pattern.",
+     "adjective: a word describing a noun in the stated pattern.",
+     "adverb: a word modifying how or when an action occurs in the stated pattern."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-3-terms"
+    }
+   },
+   {
+    "id": "e4-3-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "In the book is here, book names an object.",
+     "In book a room, book expresses the action.",
+     "In a quiet room, quiet describes room.",
+     "In Bih reads quietly, quietly modifies reads."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-3-cases"
+    }
+   },
+   {
+    "id": "e4-3-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Book must be a verb in every sentence. Correction: Word class depends on use; the book uses book as a noun.",
+     "A word’s spelling fixes one class in every use. Correction: The same spelling can have a different grammatical function.",
+     "Quiet in a quiet room modifies only a verb. Correction: It describes the noun room, so it is adjectival here.",
+     "Every adjective and adverb can be exchanged without changing the construction. Correction: Choose the form that fits what it modifies."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-3-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "noun: a word naming an entity or idea in the stated use.",
+        "truth": "true",
+        "explain": "This is correct: a word naming an entity or idea in the stated use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "verb: a word functioning in the clause’s action or state pattern.",
+        "truth": "true",
+        "explain": "This is correct: a word functioning in the clause’s action or state pattern. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "adjective: a word describing a noun in the stated pattern.",
+        "truth": "true",
+        "explain": "This is correct: a word describing a noun in the stated pattern. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "adverb: a word modifying how or when an action occurs in the stated pattern.",
+        "truth": "true",
+        "explain": "This is correct: a word modifying how or when an action occurs in the stated pattern. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Book must be a verb in every sentence.",
+        "truth": "false",
+        "explain": "Word class depends on use; the book uses book as a noun."
+       },
+       {
+        "text": "A word’s spelling fixes one class in every use.",
+        "truth": "false",
+        "explain": "The same spelling can have a different grammatical function."
+       },
+       {
+        "text": "Quiet in a quiet room modifies only a verb.",
+        "truth": "false",
+        "explain": "It describes the noun room, so it is adjectival here."
+       },
+       {
+        "text": "Every adjective and adverb can be exchanged without changing the construction.",
+        "truth": "false",
+        "explain": "Choose the form that fits what it modifies."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a word naming an entity or idea in the stated use?",
+       "r": "noun",
+       "w": [
+        "verb",
+        "adjective",
+        "adverb"
+       ],
+       "e": [
+        "That concerns a word functioning in the clause’s action or state pattern, rather than a word naming an entity or idea in the stated use.",
+        "That concerns a word describing a noun in the stated pattern, rather than a word naming an entity or idea in the stated use.",
+        "That concerns a word modifying how or when an action occurs in the stated pattern, rather than a word naming an entity or idea in the stated use."
+       ],
+       "y": "Word class depends on use; the book uses book as a noun."
+      },
+      {
+       "q": "Which term means a word functioning in the clause’s action or state pattern?",
+       "r": "verb",
+       "w": [
+        "noun",
+        "adjective",
+        "adverb"
+       ],
+       "e": [
+        "That concerns a word naming an entity or idea in the stated use, rather than a word functioning in the clause’s action or state pattern.",
+        "That concerns a word describing a noun in the stated pattern, rather than a word functioning in the clause’s action or state pattern.",
+        "That concerns a word modifying how or when an action occurs in the stated pattern, rather than a word functioning in the clause’s action or state pattern."
+       ],
+       "y": "The same spelling can have a different grammatical function."
+      },
+      {
+       "q": "Which term means a word describing a noun in the stated pattern?",
+       "r": "adjective",
+       "w": [
+        "noun",
+        "verb",
+        "adverb"
+       ],
+       "e": [
+        "That concerns a word naming an entity or idea in the stated use, rather than a word describing a noun in the stated pattern.",
+        "That concerns a word functioning in the clause’s action or state pattern, rather than a word describing a noun in the stated pattern.",
+        "That concerns a word modifying how or when an action occurs in the stated pattern, rather than a word describing a noun in the stated pattern."
+       ],
+       "y": "It describes the noun room, so it is adjectival here."
+      },
+      {
+       "q": "Which term means a word modifying how or when an action occurs in the stated pattern?",
+       "r": "adverb",
+       "w": [
+        "noun",
+        "verb",
+        "adjective"
+       ],
+       "e": [
+        "That concerns a word naming an entity or idea in the stated use, rather than a word modifying how or when an action occurs in the stated pattern.",
+        "That concerns a word functioning in the clause’s action or state pattern, rather than a word modifying how or when an action occurs in the stated pattern.",
+        "That concerns a word describing a noun in the stated pattern, rather than a word modifying how or when an action occurs in the stated pattern."
+       ],
+       "y": "Choose the form that fits what it modifies."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In the book is here, book names an object.\nWhich description best fits the selected feature?",
+       "r": "noun",
+       "w": [
+        "verb",
+        "adjective",
+        "adverb"
+       ],
+       "e": [
+        "That means a word functioning in the clause’s action or state pattern. The selected feature instead illustrates a word naming an entity or idea in the stated use.",
+        "That means a word describing a noun in the stated pattern. The selected feature instead illustrates a word naming an entity or idea in the stated use.",
+        "That means a word modifying how or when an action occurs in the stated pattern. The selected feature instead illustrates a word naming an entity or idea in the stated use."
+       ],
+       "y": "Word class depends on use; the book uses book as a noun."
+      },
+      {
+       "q": "In book a room, book expresses the action.\nWhich description best fits the selected feature?",
+       "r": "verb",
+       "w": [
+        "noun",
+        "adjective",
+        "adverb"
+       ],
+       "e": [
+        "That means a word naming an entity or idea in the stated use. The selected feature instead illustrates a word functioning in the clause’s action or state pattern.",
+        "That means a word describing a noun in the stated pattern. The selected feature instead illustrates a word functioning in the clause’s action or state pattern.",
+        "That means a word modifying how or when an action occurs in the stated pattern. The selected feature instead illustrates a word functioning in the clause’s action or state pattern."
+       ],
+       "y": "The same spelling can have a different grammatical function."
+      },
+      {
+       "q": "In a quiet room, quiet describes room.\nWhich description best fits the selected feature?",
+       "r": "adjective",
+       "w": [
+        "noun",
+        "verb",
+        "adverb"
+       ],
+       "e": [
+        "That means a word naming an entity or idea in the stated use. The selected feature instead illustrates a word describing a noun in the stated pattern.",
+        "That means a word functioning in the clause’s action or state pattern. The selected feature instead illustrates a word describing a noun in the stated pattern.",
+        "That means a word modifying how or when an action occurs in the stated pattern. The selected feature instead illustrates a word describing a noun in the stated pattern."
+       ],
+       "y": "It describes the noun room, so it is adjectival here."
+      },
+      {
+       "q": "In Bih reads quietly, quietly modifies reads.\nWhich description best fits the selected feature?",
+       "r": "adverb",
+       "w": [
+        "noun",
+        "verb",
+        "adjective"
+       ],
+       "e": [
+        "That means a word naming an entity or idea in the stated use. The selected feature instead illustrates a word modifying how or when an action occurs in the stated pattern.",
+        "That means a word functioning in the clause’s action or state pattern. The selected feature instead illustrates a word modifying how or when an action occurs in the stated pattern.",
+        "That means a word describing a noun in the stated pattern. The selected feature instead illustrates a word modifying how or when an action occurs in the stated pattern."
+       ],
+       "y": "Choose the form that fits what it modifies."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-3-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choose the action in progress now.",
+       "r": "Bih is reading now.",
+       "w": [
+        "Bih reading now.",
+        "Bih is read now.",
+        "Bih has read yesterday."
+       ],
+       "e": [
+        "A finite auxiliary is missing.",
+        "The progressive needs -ing after be.",
+        "This combines present perfect with a definite past time and does not give the requested progressive."
+       ],
+       "y": "Be plus -ing gives the stated action in progress."
+      },
+      {
+       "q": "Choose the complete present-perfect pattern.",
+       "r": "Ayuk has written the note.",
+       "w": [
+        "Ayuk has wrote the note.",
+        "Ayuk have written the note.",
+        "Ayuk written the note."
+       ],
+       "e": [
+        "Use the participle written after has.",
+        "A singular third-person subject takes has.",
+        "The finite auxiliary is missing."
+       ],
+       "y": "Use has + past participle with this subject."
+      },
+      {
+       "q": "Which word is an adjective in a careful learner?",
+       "r": "careful",
+       "w": [
+        "learner",
+        "a",
+        "carefully"
+       ],
+       "e": [
+        "Learner is the noun being described.",
+        "A is a determiner.",
+        "Carefully is not the adjective used in this phrase."
+       ],
+       "y": "Careful describes the noun learner."
+      },
+      {
+       "q": "Choose the completed past event.",
+       "r": "Bih wrote yesterday.",
+       "w": [
+        "Bih writes yesterday.",
+        "Bih writing yesterday.",
+        "Bih has wrote yesterday."
+       ],
+       "e": [
+        "The simple-present form does not fit this completed-event model.",
+        "A finite verb is missing.",
+        "Use the past wrote here, not has plus wrote."
+       ],
+       "y": "The definite completed past context uses the simple past."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-3-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "noun",
+     "right": "In the book is here, book names an object."
+    },
+    {
+     "left": "verb",
+     "right": "In book a room, book expresses the action."
+    },
+    {
+     "left": "adjective",
+     "right": "In a quiet room, quiet describes room."
+    },
+    {
+     "left": "adverb",
+     "right": "In Bih reads quietly, quietly modifies reads."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "noun: a word naming an entity or idea in the stated use.",
+      "truth": "true",
+      "explain": "This is correct: a word naming an entity or idea in the stated use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "verb: a word functioning in the clause’s action or state pattern.",
+      "truth": "true",
+      "explain": "This is correct: a word functioning in the clause’s action or state pattern. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "adjective: a word describing a noun in the stated pattern.",
+      "truth": "true",
+      "explain": "This is correct: a word describing a noun in the stated pattern. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "adverb: a word modifying how or when an action occurs in the stated pattern.",
+      "truth": "true",
+      "explain": "This is correct: a word modifying how or when an action occurs in the stated pattern. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Book must be a verb in every sentence.",
+      "truth": "false",
+      "explain": "Word class depends on use; the book uses book as a noun."
+     },
+     {
+      "text": "A word’s spelling fixes one class in every use.",
+      "truth": "false",
+      "explain": "The same spelling can have a different grammatical function."
+     },
+     {
+      "text": "Quiet in a quiet room modifies only a verb.",
+      "truth": "false",
+      "explain": "It describes the noun room, so it is adjectival here."
+     },
+     {
+      "text": "Every adjective and adverb can be exchanged without changing the construction.",
+      "truth": "false",
+      "explain": "Choose the form that fits what it modifies."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

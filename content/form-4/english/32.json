@@ -1,0 +1,548 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  23,
+  25,
+  28,
+  29,
+  31
+ ],
+ "skills": [
+  {
+   "id": "e4-32",
+   "name": "Writing a factual report"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A report presents information for a stated reader and purpose. A heading, introduction, organised findings and a conclusion or recommendations can help. Exact format depends on the task. Separate what was observed from an inference and from what should happen next. Use clear factual wording and appropriate tense. A fictional classroom report must be labelled as such; it should not claim that a real school event or inspection occurred. A report differs from a story seeking suspense or an essay primarily defending a personal preference.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to organise findings and recommendations while separating observation, inference and proposal. Builds on: narrative chronology, audience and formal-purpose writing. Leads to: later evidence-based summaries and reports."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A report presents information for a stated reader and purpose. A heading, introduction, organised findings and a conclusion or recommendations can help. Exact format depends on the task. Separate what was observed from an inference and from what should happen next. Use clear factual wording and appropriate tense. A fictional classroom report must be labelled as such; it should not claim that a real school event or inspection occurred. A report differs from a story seeking suspense or an essay primarily defending a personal preference."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: FICTIONAL CLASSROOM REPORT: Reading-room materials. Purpose: to review the model room’s organisation. Findings: some books were placed away from their labelled shelves, and the borrowing notice was not easily visible. The record does not establish who moved the books. Recommendation: place the notice where readers can see it and agree how returned materials are sorted. A later check should establish whether the arrangement works. Prepared by an imaginary club secretary."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the reader, purpose and permitted information. Group findings logically and link each recommendation to a finding. Do not invent a responsible person when the evidence does not identify one. Check headings, sentence accuracy and whether an inference is being presented as if directly observed."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "finding",
+    "meaning": "information established by the stated observation or record"
+   },
+   {
+    "word": "inference",
+    "meaning": "an interpretation drawn from evidence rather than directly observed"
+   },
+   {
+    "word": "recommendation",
+    "meaning": "a proposed action responding to the findings"
+   },
+   {
+    "word": "report purpose",
+    "meaning": "the information need that guides the report’s selection and organisation"
+   }
+  ],
+  "mistake": {
+   "wrong": "A finding must always name a culprit even when none is known.",
+   "right": "finding: information established by the stated observation or record.",
+   "why": "Report only what the record supports."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The fictional record notes books away from labelled shelves. Explain the selected feature.",
+  "steps": [
+   "Information established by the stated observation or record.",
+   "Report only what the record supports."
+  ],
+  "answer": "finding",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-32-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "finding: information established by the stated observation or record.",
+     "inference: an interpretation drawn from evidence rather than directly observed.",
+     "recommendation: a proposed action responding to the findings.",
+     "report purpose: the information need that guides the report’s selection and organisation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-32-terms"
+    }
+   },
+   {
+    "id": "e4-32-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The fictional record notes books away from labelled shelves.",
+     "A writer suggests a possible organisational cause but marks it as a possibility.",
+     "The model proposes making the borrowing notice easier to see.",
+     "The model reviews organisation for a fictional club reader."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-32-cases"
+    }
+   },
+   {
+    "id": "e4-32-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A finding must always name a culprit even when none is known. Correction: Report only what the record supports.",
+     "An inference is automatically a directly witnessed event. Correction: Distinguish an interpretation from an observation.",
+     "A recommendation proves the proposed action has already happened. Correction: It proposes a future response, not an accomplished event.",
+     "A report must ignore its intended reader and question. Correction: Purpose shapes relevant findings and presentation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-32-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "finding: information established by the stated observation or record.",
+        "truth": "true",
+        "explain": "This is correct: information established by the stated observation or record. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "inference: an interpretation drawn from evidence rather than directly observed.",
+        "truth": "true",
+        "explain": "This is correct: an interpretation drawn from evidence rather than directly observed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "recommendation: a proposed action responding to the findings.",
+        "truth": "true",
+        "explain": "This is correct: a proposed action responding to the findings. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "report purpose: the information need that guides the report’s selection and organisation.",
+        "truth": "true",
+        "explain": "This is correct: the information need that guides the report’s selection and organisation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A finding must always name a culprit even when none is known.",
+        "truth": "false",
+        "explain": "Report only what the record supports."
+       },
+       {
+        "text": "An inference is automatically a directly witnessed event.",
+        "truth": "false",
+        "explain": "Distinguish an interpretation from an observation."
+       },
+       {
+        "text": "A recommendation proves the proposed action has already happened.",
+        "truth": "false",
+        "explain": "It proposes a future response, not an accomplished event."
+       },
+       {
+        "text": "A report must ignore its intended reader and question.",
+        "truth": "false",
+        "explain": "Purpose shapes relevant findings and presentation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-32-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means information established by the stated observation or record?",
+       "r": "finding",
+       "w": [
+        "inference",
+        "recommendation",
+        "report purpose"
+       ],
+       "e": [
+        "That concerns an interpretation drawn from evidence rather than directly observed, rather than information established by the stated observation or record.",
+        "That concerns a proposed action responding to the findings, rather than information established by the stated observation or record.",
+        "That concerns the information need that guides the report’s selection and organisation, rather than information established by the stated observation or record."
+       ],
+       "y": "Report only what the record supports."
+      },
+      {
+       "q": "Which term means an interpretation drawn from evidence rather than directly observed?",
+       "r": "inference",
+       "w": [
+        "finding",
+        "recommendation",
+        "report purpose"
+       ],
+       "e": [
+        "That concerns information established by the stated observation or record, rather than an interpretation drawn from evidence rather than directly observed.",
+        "That concerns a proposed action responding to the findings, rather than an interpretation drawn from evidence rather than directly observed.",
+        "That concerns the information need that guides the report’s selection and organisation, rather than an interpretation drawn from evidence rather than directly observed."
+       ],
+       "y": "Distinguish an interpretation from an observation."
+      },
+      {
+       "q": "Which term means a proposed action responding to the findings?",
+       "r": "recommendation",
+       "w": [
+        "finding",
+        "inference",
+        "report purpose"
+       ],
+       "e": [
+        "That concerns information established by the stated observation or record, rather than a proposed action responding to the findings.",
+        "That concerns an interpretation drawn from evidence rather than directly observed, rather than a proposed action responding to the findings.",
+        "That concerns the information need that guides the report’s selection and organisation, rather than a proposed action responding to the findings."
+       ],
+       "y": "It proposes a future response, not an accomplished event."
+      },
+      {
+       "q": "Which term means the information need that guides the report’s selection and organisation?",
+       "r": "report purpose",
+       "w": [
+        "finding",
+        "inference",
+        "recommendation"
+       ],
+       "e": [
+        "That concerns information established by the stated observation or record, rather than the information need that guides the report’s selection and organisation.",
+        "That concerns an interpretation drawn from evidence rather than directly observed, rather than the information need that guides the report’s selection and organisation.",
+        "That concerns a proposed action responding to the findings, rather than the information need that guides the report’s selection and organisation."
+       ],
+       "y": "Purpose shapes relevant findings and presentation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-32-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The fictional record notes books away from labelled shelves.\nWhich description best fits the selected feature?",
+       "r": "finding",
+       "w": [
+        "inference",
+        "recommendation",
+        "report purpose"
+       ],
+       "e": [
+        "That means an interpretation drawn from evidence rather than directly observed. The selected feature instead illustrates information established by the stated observation or record.",
+        "That means a proposed action responding to the findings. The selected feature instead illustrates information established by the stated observation or record.",
+        "That means the information need that guides the report’s selection and organisation. The selected feature instead illustrates information established by the stated observation or record."
+       ],
+       "y": "Report only what the record supports."
+      },
+      {
+       "q": "A writer suggests a possible organisational cause but marks it as a possibility.\nWhich description best fits the selected feature?",
+       "r": "inference",
+       "w": [
+        "finding",
+        "recommendation",
+        "report purpose"
+       ],
+       "e": [
+        "That means information established by the stated observation or record. The selected feature instead illustrates an interpretation drawn from evidence rather than directly observed.",
+        "That means a proposed action responding to the findings. The selected feature instead illustrates an interpretation drawn from evidence rather than directly observed.",
+        "That means the information need that guides the report’s selection and organisation. The selected feature instead illustrates an interpretation drawn from evidence rather than directly observed."
+       ],
+       "y": "Distinguish an interpretation from an observation."
+      },
+      {
+       "q": "The model proposes making the borrowing notice easier to see.\nWhich description best fits the selected feature?",
+       "r": "recommendation",
+       "w": [
+        "finding",
+        "inference",
+        "report purpose"
+       ],
+       "e": [
+        "That means information established by the stated observation or record. The selected feature instead illustrates a proposed action responding to the findings.",
+        "That means an interpretation drawn from evidence rather than directly observed. The selected feature instead illustrates a proposed action responding to the findings.",
+        "That means the information need that guides the report’s selection and organisation. The selected feature instead illustrates a proposed action responding to the findings."
+       ],
+       "y": "It proposes a future response, not an accomplished event."
+      },
+      {
+       "q": "The model reviews organisation for a fictional club reader.\nWhich description best fits the selected feature?",
+       "r": "report purpose",
+       "w": [
+        "finding",
+        "inference",
+        "recommendation"
+       ],
+       "e": [
+        "That means information established by the stated observation or record. The selected feature instead illustrates the information need that guides the report’s selection and organisation.",
+        "That means an interpretation drawn from evidence rather than directly observed. The selected feature instead illustrates the information need that guides the report’s selection and organisation.",
+        "That means a proposed action responding to the findings. The selected feature instead illustrates the information need that guides the report’s selection and organisation."
+       ],
+       "y": "Purpose shapes relevant findings and presentation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-32-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "A clear purpose guides the response.",
+       "b": "A clear purpose guides the response."
+      },
+      {
+       "a": "The audience shapes the language.",
+       "b": "The audience shapes the language."
+      },
+      {
+       "a": "Supporting details develop the main idea.",
+       "b": "Supporting details develop the main idea."
+      },
+      {
+       "a": "A final check improves the draft.",
+       "b": "A final check improves the draft."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e4-32-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "finding",
+     "right": "The fictional record notes books away from labelled shelves."
+    },
+    {
+     "left": "inference",
+     "right": "A writer suggests a possible organisational cause but marks it as a possibility."
+    },
+    {
+     "left": "recommendation",
+     "right": "The model proposes making the borrowing notice easier to see."
+    },
+    {
+     "left": "report purpose",
+     "right": "The model reviews organisation for a fictional club reader."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-32-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "finding: information established by the stated observation or record.",
+      "truth": "true",
+      "explain": "This is correct: information established by the stated observation or record. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "inference: an interpretation drawn from evidence rather than directly observed.",
+      "truth": "true",
+      "explain": "This is correct: an interpretation drawn from evidence rather than directly observed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "recommendation: a proposed action responding to the findings.",
+      "truth": "true",
+      "explain": "This is correct: a proposed action responding to the findings. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "report purpose: the information need that guides the report’s selection and organisation.",
+      "truth": "true",
+      "explain": "This is correct: the information need that guides the report’s selection and organisation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A finding must always name a culprit even when none is known.",
+      "truth": "false",
+      "explain": "Report only what the record supports."
+     },
+     {
+      "text": "An inference is automatically a directly witnessed event.",
+      "truth": "false",
+      "explain": "Distinguish an interpretation from an observation."
+     },
+     {
+      "text": "A recommendation proves the proposed action has already happened.",
+      "truth": "false",
+      "explain": "It proposes a future response, not an accomplished event."
+     },
+     {
+      "text": "A report must ignore its intended reader and question.",
+      "truth": "false",
+      "explain": "Purpose shapes relevant findings and presentation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Write a clearly labelled fictional report on the organisation of a school resource. Give purpose, findings and linked recommendations. Separate known facts, uncertain interpretations and proposed actions; do not accuse a real person.",
+  "model": [
+   "FICTIONAL CLASSROOM REPORT: Reading-room materials. Purpose: to review the model room’s organisation. Findings: some books were placed away from their labelled shelves, and the borrowing notice was not easily visible. The record does not establish who moved the books. Recommendation: place the notice where readers can see it and agree how returned materials are sorted. A later check should establish whether the arrangement works. Prepared by an imaginary club secretary."
+  ],
+  "checklist": [
+   "My headings and order suit the purpose.",
+   "I distinguish findings, inferences and recommendations.",
+   "Each recommendation relates to evidence; I invent no culprit."
+  ]
+ }
+}

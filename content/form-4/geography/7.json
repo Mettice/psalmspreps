@@ -1,0 +1,672 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "g4-7",
+   "name": "How ecosystems function"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Producers fix energy into organic material, usually through photosynthesis. Consumers obtain food by eating organisms or their products. Food-chain arrows point from the food source towards the consumer, showing transfer. Decomposers break down dead organic matter and help return nutrients to available pools. Energy flows through the system and much becomes dispersed heat; nutrients can cycle between organisms and the environment. A fixed transfer percentage is a teaching assumption, not a law applying to every link.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to trace energy flow and nutrient cycling and calculate a transfer using an explicitly assumed efficiency. Builds on: ecosystem components and interactions. Leads to: biomes and responses to environmental change."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Producers fix energy into organic material, usually through photosynthesis. Consumers obtain food by eating organisms or their products. Food-chain arrows point from the food source towards the consumer, showing transfer. Decomposers break down dead organic matter and help return nutrients to available pools. Energy flows through the system and much becomes dispersed heat; nutrients can cycle between organisms and the environment. A fixed transfer percentage is a teaching assumption, not a law applying to every link."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "A model chain in a grass plot is grass → grasshopper → frog. The arrow from grass to grasshopper indicates feeding and transfer towards the consumer. Dead material from every level can enter decomposition, not only material from the last consumer. Removing vegetation can affect food, shade, habitat and soil, so consequences can spread through more than one pathway."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Follow each arrow and state what moves. Distinguish energy transfer from mineral nutrient recycling: decomposers do not send all lost heat back to plants as usable food energy. For a percentage model, calculate the fraction of the stated input and retain kJ as the unit. Predict a possible effect, then identify evidence needed to test it."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "producer",
+    "meaning": "an organism making organic material from inorganic sources"
+   },
+   {
+    "word": "consumer",
+    "meaning": "an organism obtaining organic food from other organisms"
+   },
+   {
+    "word": "decomposition",
+    "meaning": "breakdown of dead organic matter helping recycle nutrients"
+   },
+   {
+    "word": "energy flow",
+    "meaning": "transfer with energy becoming dispersed heat rather than complete recycling"
+   }
+  ],
+  "mistake": {
+   "wrong": "A producer obtains all its food only by eating frogs.",
+   "right": "an organism making organic material from inorganic sources.",
+   "why": "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Grass uses sunlight in photosynthesis. Explain the relationship.",
+  "steps": [
+   "an organism making organic material from inorganic sources.",
+   "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer."
+  ],
+  "answer": "producer",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-7-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "producer: an organism making organic material from inorganic sources.",
+     "consumer: an organism obtaining organic food from other organisms.",
+     "decomposition: breakdown of dead organic matter helping recycle nutrients.",
+     "energy flow: transfer with energy becoming dispersed heat rather than complete recycling."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-7-terms"
+    }
+   },
+   {
+    "id": "g4-7-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "Grass uses sunlight in photosynthesis.",
+     "A grasshopper feeds on grass in the model chain.",
+     "Microbes act on dead material from several trophic levels.",
+     "Less of the stated model energy reaches the next trophic level."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-7-cases"
+    }
+   },
+   {
+    "id": "g4-7-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+     "The convention here points from food to consumer to show transfer.",
+     "Dead matter and waste arise at different levels, not only the top.",
+     "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-7-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ecosystem"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Grass uses sunlight in photosynthesis.\nWhich explanation follows?",
+         "r": "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+         "w": [
+          "The convention here points from food to consumer to show transfer.",
+          "Dead matter and waste arise at different levels, not only the top.",
+          "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+         ],
+         "e": [
+          "That explanation addresses consumer, rather than the process or relationship in this case.",
+          "That explanation addresses decomposition, rather than the process or relationship in this case.",
+          "That explanation addresses energy flow, rather than the process or relationship in this case."
+         ],
+         "y": "an organism making organic material from inorganic sources."
+        },
+        {
+         "q": "A grasshopper feeds on grass in the model chain.\nWhich explanation follows?",
+         "r": "The convention here points from food to consumer to show transfer.",
+         "w": [
+          "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+          "Dead matter and waste arise at different levels, not only the top.",
+          "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+         ],
+         "e": [
+          "That explanation addresses producer, rather than the process or relationship in this case.",
+          "That explanation addresses decomposition, rather than the process or relationship in this case.",
+          "That explanation addresses energy flow, rather than the process or relationship in this case."
+         ],
+         "y": "an organism obtaining organic food from other organisms."
+        },
+        {
+         "q": "Microbes act on dead material from several trophic levels.\nWhich explanation follows?",
+         "r": "Dead matter and waste arise at different levels, not only the top.",
+         "w": [
+          "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+          "The convention here points from food to consumer to show transfer.",
+          "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+         ],
+         "e": [
+          "That explanation addresses producer, rather than the process or relationship in this case.",
+          "That explanation addresses consumer, rather than the process or relationship in this case.",
+          "That explanation addresses energy flow, rather than the process or relationship in this case."
+         ],
+         "y": "breakdown of dead organic matter helping recycle nutrients."
+        },
+        {
+         "q": "Less of the stated model energy reaches the next trophic level.\nWhich explanation follows?",
+         "r": "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop.",
+         "w": [
+          "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+          "The convention here points from food to consumer to show transfer.",
+          "Dead matter and waste arise at different levels, not only the top."
+         ],
+         "e": [
+          "That explanation addresses producer, rather than the process or relationship in this case.",
+          "That explanation addresses consumer, rather than the process or relationship in this case.",
+          "That explanation addresses decomposition, rather than the process or relationship in this case."
+         ],
+         "y": "transfer with energy becoming dispersed heat rather than complete recycling."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-7-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ecosystem"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means an organism making organic material from inorganic sources?",
+       "r": "producer",
+       "w": [
+        "consumer",
+        "decomposition",
+        "energy flow"
+       ],
+       "e": [
+        "That concerns an organism obtaining organic food from other organisms, rather than the feature asked for.",
+        "That concerns breakdown of dead organic matter helping recycle nutrients, rather than the feature asked for.",
+        "That concerns transfer with energy becoming dispersed heat rather than complete recycling, rather than the feature asked for."
+       ],
+       "y": "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer."
+      },
+      {
+       "q": "Which term means an organism obtaining organic food from other organisms?",
+       "r": "consumer",
+       "w": [
+        "producer",
+        "decomposition",
+        "energy flow"
+       ],
+       "e": [
+        "That concerns an organism making organic material from inorganic sources, rather than the feature asked for.",
+        "That concerns breakdown of dead organic matter helping recycle nutrients, rather than the feature asked for.",
+        "That concerns transfer with energy becoming dispersed heat rather than complete recycling, rather than the feature asked for."
+       ],
+       "y": "The convention here points from food to consumer to show transfer."
+      },
+      {
+       "q": "Which term means breakdown of dead organic matter helping recycle nutrients?",
+       "r": "decomposition",
+       "w": [
+        "producer",
+        "consumer",
+        "energy flow"
+       ],
+       "e": [
+        "That concerns an organism making organic material from inorganic sources, rather than the feature asked for.",
+        "That concerns an organism obtaining organic food from other organisms, rather than the feature asked for.",
+        "That concerns transfer with energy becoming dispersed heat rather than complete recycling, rather than the feature asked for."
+       ],
+       "y": "Dead matter and waste arise at different levels, not only the top."
+      },
+      {
+       "q": "Which term means transfer with energy becoming dispersed heat rather than complete recycling?",
+       "r": "energy flow",
+       "w": [
+        "producer",
+        "consumer",
+        "decomposition"
+       ],
+       "e": [
+        "That concerns an organism making organic material from inorganic sources, rather than the feature asked for.",
+        "That concerns an organism obtaining organic food from other organisms, rather than the feature asked for.",
+        "That concerns breakdown of dead organic matter helping recycle nutrients, rather than the feature asked for."
+       ],
+       "y": "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-7-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ecosystem"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Grass uses sunlight in photosynthesis.\nWhich feature is illustrated?",
+       "r": "producer",
+       "w": [
+        "consumer",
+        "decomposition",
+        "energy flow"
+       ],
+       "e": [
+        "That identifies an organism obtaining organic food from other organisms. Read the case for evidence of an organism making organic material from inorganic sources.",
+        "That identifies breakdown of dead organic matter helping recycle nutrients. Read the case for evidence of an organism making organic material from inorganic sources.",
+        "That identifies transfer with energy becoming dispersed heat rather than complete recycling. Read the case for evidence of an organism making organic material from inorganic sources."
+       ],
+       "y": "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer."
+      },
+      {
+       "q": "A grasshopper feeds on grass in the model chain.\nWhich feature is illustrated?",
+       "r": "consumer",
+       "w": [
+        "producer",
+        "decomposition",
+        "energy flow"
+       ],
+       "e": [
+        "That identifies an organism making organic material from inorganic sources. Read the case for evidence of an organism obtaining organic food from other organisms.",
+        "That identifies breakdown of dead organic matter helping recycle nutrients. Read the case for evidence of an organism obtaining organic food from other organisms.",
+        "That identifies transfer with energy becoming dispersed heat rather than complete recycling. Read the case for evidence of an organism obtaining organic food from other organisms."
+       ],
+       "y": "The convention here points from food to consumer to show transfer."
+      },
+      {
+       "q": "Microbes act on dead material from several trophic levels.\nWhich feature is illustrated?",
+       "r": "decomposition",
+       "w": [
+        "producer",
+        "consumer",
+        "energy flow"
+       ],
+       "e": [
+        "That identifies an organism making organic material from inorganic sources. Read the case for evidence of breakdown of dead organic matter helping recycle nutrients.",
+        "That identifies an organism obtaining organic food from other organisms. Read the case for evidence of breakdown of dead organic matter helping recycle nutrients.",
+        "That identifies transfer with energy becoming dispersed heat rather than complete recycling. Read the case for evidence of breakdown of dead organic matter helping recycle nutrients."
+       ],
+       "y": "Dead matter and waste arise at different levels, not only the top."
+      },
+      {
+       "q": "Less of the stated model energy reaches the next trophic level.\nWhich feature is illustrated?",
+       "r": "energy flow",
+       "w": [
+        "producer",
+        "consumer",
+        "decomposition"
+       ],
+       "e": [
+        "That identifies an organism making organic material from inorganic sources. Read the case for evidence of transfer with energy becoming dispersed heat rather than complete recycling.",
+        "That identifies an organism obtaining organic food from other organisms. Read the case for evidence of transfer with energy becoming dispersed heat rather than complete recycling.",
+        "That identifies breakdown of dead organic matter helping recycle nutrients. Read the case for evidence of transfer with energy becoming dispersed heat rather than complete recycling."
+       ],
+       "y": "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-7-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ecosystem"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Grass uses sunlight in photosynthesis.\nWhich explanation follows?",
+       "r": "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+       "w": [
+        "The convention here points from food to consumer to show transfer.",
+        "Dead matter and waste arise at different levels, not only the top.",
+        "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+       ],
+       "e": [
+        "That explanation addresses consumer, rather than the process or relationship in this case.",
+        "That explanation addresses decomposition, rather than the process or relationship in this case.",
+        "That explanation addresses energy flow, rather than the process or relationship in this case."
+       ],
+       "y": "an organism making organic material from inorganic sources."
+      },
+      {
+       "q": "A grasshopper feeds on grass in the model chain.\nWhich explanation follows?",
+       "r": "The convention here points from food to consumer to show transfer.",
+       "w": [
+        "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+        "Dead matter and waste arise at different levels, not only the top.",
+        "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+       ],
+       "e": [
+        "That explanation addresses producer, rather than the process or relationship in this case.",
+        "That explanation addresses decomposition, rather than the process or relationship in this case.",
+        "That explanation addresses energy flow, rather than the process or relationship in this case."
+       ],
+       "y": "an organism obtaining organic food from other organisms."
+      },
+      {
+       "q": "Microbes act on dead material from several trophic levels.\nWhich explanation follows?",
+       "r": "Dead matter and waste arise at different levels, not only the top.",
+       "w": [
+        "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+        "The convention here points from food to consumer to show transfer.",
+        "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+       ],
+       "e": [
+        "That explanation addresses producer, rather than the process or relationship in this case.",
+        "That explanation addresses consumer, rather than the process or relationship in this case.",
+        "That explanation addresses energy flow, rather than the process or relationship in this case."
+       ],
+       "y": "breakdown of dead organic matter helping recycle nutrients."
+      },
+      {
+       "q": "Less of the stated model energy reaches the next trophic level.\nWhich explanation follows?",
+       "r": "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop.",
+       "w": [
+        "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer.",
+        "The convention here points from food to consumer to show transfer.",
+        "Dead matter and waste arise at different levels, not only the top."
+       ],
+       "e": [
+        "That explanation addresses producer, rather than the process or relationship in this case.",
+        "That explanation addresses consumer, rather than the process or relationship in this case.",
+        "That explanation addresses decomposition, rather than the process or relationship in this case."
+       ],
+       "y": "transfer with energy becoming dispersed heat rather than complete recycling."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-7-transfer",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ecosystem"
+   ],
+   "vars": {
+    "input": {
+     "int": [
+      10,
+      50
+     ],
+     "step": 10
+    },
+    "rate": {
+     "pick": [
+      5,
+      10,
+      20
+     ]
+    }
+   },
+   "prompt": "A simplified food-chain model has {input} kJ available at one trophic level and assumes {rate}% transfers to the next. Calculate the transferred energy. The percentage is a model assumption, not a universal rule.",
+   "answer": "input*rate/100",
+   "misconceptions": [
+    {
+     "id": "no-percent",
+     "wrong": "input*rate",
+     "explain": "That treats the percentage as a whole-number multiplier and omits division by one hundred."
+    },
+    {
+     "id": "percent",
+     "wrong": "rate",
+     "explain": "That repeats the percentage rather than calculating an energy amount."
+    },
+    {
+     "id": "all",
+     "wrong": "input",
+     "explain": "That assumes complete transfer, contrary to the stated percentage."
+    }
+   ],
+   "solution": [
+    "Multiply the available energy by the assumed fraction.",
+    "Transfer = {input} × {rate}/{100} = {answer} kJ."
+   ],
+   "unit": "kJ"
+  },
+  {
+   "id": "g4-7-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ecosystem"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "producer: an organism making organic material from inorganic sources.",
+      "truth": "true",
+      "explain": "This distinction is correct: A photosynthetic producer fixes energy into organic material rather than feeding as a consumer. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "consumer: an organism obtaining organic food from other organisms.",
+      "truth": "true",
+      "explain": "This distinction is correct: The convention here points from food to consumer to show transfer. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "decomposition: breakdown of dead organic matter helping recycle nutrients.",
+      "truth": "true",
+      "explain": "This distinction is correct: Dead matter and waste arise at different levels, not only the top. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "energy flow: transfer with energy becoming dispersed heat rather than complete recycling.",
+      "truth": "true",
+      "explain": "This distinction is correct: Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A producer obtains all its food only by eating frogs.",
+      "truth": "false",
+      "explain": "A photosynthetic producer fixes energy into organic material rather than feeding as a consumer."
+     },
+     {
+      "text": "A feeding arrow must point from the eater back to its food.",
+      "truth": "false",
+      "explain": "The convention here points from food to consumer to show transfer."
+     },
+     {
+      "text": "Only the last animal in a chain can provide decomposer material.",
+      "truth": "false",
+      "explain": "Dead matter and waste arise at different levels, not only the top."
+     },
+     {
+      "text": "All dispersed heat is immediately recycled into plant food.",
+      "truth": "false",
+      "explain": "Nutrients cycle, while energy flow needs continued input and is not a closed reusable heat loop."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

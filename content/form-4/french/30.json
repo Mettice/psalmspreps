@@ -1,0 +1,576 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 30,
+ "language": "fr",
+ "prerequisites": [
+  10,
+  15,
+  28,
+  29
+ ],
+ "skills": [
+  {
+   "id": "fr4-30",
+   "name": "L’accord du sujet et du verbe"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le verbe s’accorde en personne et en nombre avec son sujet grammatical. Un complément placé près du verbe ne devient pas automatiquement le sujet. Dans le groupe d’élèves arrive, le noyau groupe est singulier ; dans les élèves du groupe arrivent, le noyau élèves est pluriel. Des sujets coordonnés par et appellent normalement le pluriel dans les modèles étudiés. Certaines constructions collectives ou particulières exigent une analyse plus fine ; cette leçon utilise des cas explicites sans étendre mécaniquement une règle à toute expression de quantité.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras retrouver le sujet grammatical malgré un complément voisin et accorder le présent. Acquis mobilisés : les sujets, les pronoms et les formes verbales étudiées. Pour la suite : la relecture d’une lettre et des productions autonomes."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le verbe s’accorde en personne et en nombre avec son sujet grammatical. Un complément placé près du verbe ne devient pas automatiquement le sujet. Dans le groupe d’élèves arrive, le noyau groupe est singulier ; dans les élèves du groupe arrivent, le noyau élèves est pluriel. Des sujets coordonnés par et appellent normalement le pluriel dans les modèles étudiés. Certaines constructions collectives ou particulières exigent une analyse plus fine ; cette leçon utilise des cas explicites sans étendre mécaniquement une règle à toute expression de quantité."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Le groupe d’élèves {fr2Present(\"arriver\",2)}. Les élèves du groupe {fr2Present(\"arriver\",6)}. Bih et Ayuk {fr2Present(\"travailler\",6)}. Le frère des voisines {fr2Present(\"finir\",2)}. Trouve le noyau ou la coordination, puis vérifie la forme ; le mot le plus proche n’est pas une règle d’accord."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Encadre le sujet complet, distingue son noyau de ses compléments et détermine personne et nombre. Relis ensuite la terminaison. Ne transforme pas une phrase à la seule vue d’un nom pluriel voisin. Vérifie ces accords dans une phrase originale puis dans ta lettre."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sujet grammatical",
+    "meaning": "le groupe commandant l’accord du verbe"
+   },
+   {
+    "word": "noyau du groupe",
+    "meaning": "le mot central déterminant ici le nombre du groupe sujet"
+   },
+   {
+    "word": "coordination",
+    "meaning": "l’association de sujets appelant ici un accord pluriel"
+   },
+   {
+    "word": "complément du nom",
+    "meaning": "un groupe précisant le nom sans être à lui seul le sujet"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le sujet est toujours le dernier nom rencontré.",
+   "right": "le groupe commandant l’accord du verbe.",
+   "why": "Il faut identifier la fonction, pas seulement la proximité."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le groupe d’élèves est le sujet complet du premier modèle. Explique le choix.",
+  "steps": [
+   "le groupe commandant l’accord du verbe.",
+   "Il faut identifier la fonction, pas seulement la proximité."
+  ],
+  "answer": "sujet grammatical",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-30-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "sujet grammatical : le groupe commandant l’accord du verbe.",
+     "noyau du groupe : le mot central déterminant ici le nombre du groupe sujet.",
+     "coordination : l’association de sujets appelant ici un accord pluriel.",
+     "complément du nom : un groupe précisant le nom sans être à lui seul le sujet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-30-notions"
+    }
+   },
+   {
+    "id": "fr4-30-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le groupe d’élèves est le sujet complet du premier modèle.",
+     "Groupe est le noyau de le groupe d’élèves.",
+     "Bih et Ayuk {fr2Present(\"travailler\",6)}.",
+     "Des voisines complète frère dans le frère des voisines."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-30-cas"
+    }
+   },
+   {
+    "id": "fr4-30-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le sujet est toujours le dernier nom rencontré. Correction : Il faut identifier la fonction, pas seulement la proximité.",
+     "Le complément d’élèves transforme automatiquement groupe en pluriel. Correction : Dans ce modèle, le noyau singulier commande l’accord.",
+     "Deux sujets distincts liés par et imposent ici le singulier. Correction : Le modèle coordonne les personnes et appelle le pluriel.",
+     "Un complément nominal remplace toujours le sujet de la phrase. Correction : Sa fonction de précision ne lui donne pas automatiquement le rôle de sujet."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-30-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "sujet grammatical : le groupe commandant l’accord du verbe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut identifier la fonction, pas seulement la proximité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "noyau du groupe : le mot central déterminant ici le nombre du groupe sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Dans ce modèle, le noyau singulier commande l’accord. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "coordination : l’association de sujets appelant ici un accord pluriel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle coordonne les personnes et appelle le pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "complément du nom : un groupe précisant le nom sans être à lui seul le sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Sa fonction de précision ne lui donne pas automatiquement le rôle de sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le sujet est toujours le dernier nom rencontré.",
+        "truth": "false",
+        "explain": "Il faut identifier la fonction, pas seulement la proximité."
+       },
+       {
+        "text": "Le complément d’élèves transforme automatiquement groupe en pluriel.",
+        "truth": "false",
+        "explain": "Dans ce modèle, le noyau singulier commande l’accord."
+       },
+       {
+        "text": "Deux sujets distincts liés par et imposent ici le singulier.",
+        "truth": "false",
+        "explain": "Le modèle coordonne les personnes et appelle le pluriel."
+       },
+       {
+        "text": "Un complément nominal remplace toujours le sujet de la phrase.",
+        "truth": "false",
+        "explain": "Sa fonction de précision ne lui donne pas automatiquement le rôle de sujet."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-30-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le groupe commandant l’accord du verbe ?",
+       "r": "sujet grammatical",
+       "w": [
+        "noyau du groupe",
+        "coordination",
+        "complément du nom"
+       ],
+       "e": [
+        "Cela désigne le mot central déterminant ici le nombre du groupe sujet, plutôt que la notion demandée.",
+        "Cela désigne l’association de sujets appelant ici un accord pluriel, plutôt que la notion demandée.",
+        "Cela désigne un groupe précisant le nom sans être à lui seul le sujet, plutôt que la notion demandée."
+       ],
+       "y": "Il faut identifier la fonction, pas seulement la proximité."
+      },
+      {
+       "q": "Quel terme désigne le mot central déterminant ici le nombre du groupe sujet ?",
+       "r": "noyau du groupe",
+       "w": [
+        "sujet grammatical",
+        "coordination",
+        "complément du nom"
+       ],
+       "e": [
+        "Cela désigne le groupe commandant l’accord du verbe, plutôt que la notion demandée.",
+        "Cela désigne l’association de sujets appelant ici un accord pluriel, plutôt que la notion demandée.",
+        "Cela désigne un groupe précisant le nom sans être à lui seul le sujet, plutôt que la notion demandée."
+       ],
+       "y": "Dans ce modèle, le noyau singulier commande l’accord."
+      },
+      {
+       "q": "Quel terme désigne l’association de sujets appelant ici un accord pluriel ?",
+       "r": "coordination",
+       "w": [
+        "sujet grammatical",
+        "noyau du groupe",
+        "complément du nom"
+       ],
+       "e": [
+        "Cela désigne le groupe commandant l’accord du verbe, plutôt que la notion demandée.",
+        "Cela désigne le mot central déterminant ici le nombre du groupe sujet, plutôt que la notion demandée.",
+        "Cela désigne un groupe précisant le nom sans être à lui seul le sujet, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle coordonne les personnes et appelle le pluriel."
+      },
+      {
+       "q": "Quel terme désigne un groupe précisant le nom sans être à lui seul le sujet ?",
+       "r": "complément du nom",
+       "w": [
+        "sujet grammatical",
+        "noyau du groupe",
+        "coordination"
+       ],
+       "e": [
+        "Cela désigne le groupe commandant l’accord du verbe, plutôt que la notion demandée.",
+        "Cela désigne le mot central déterminant ici le nombre du groupe sujet, plutôt que la notion demandée.",
+        "Cela désigne l’association de sujets appelant ici un accord pluriel, plutôt que la notion demandée."
+       ],
+       "y": "Sa fonction de précision ne lui donne pas automatiquement le rôle de sujet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-30-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le groupe d’élèves est le sujet complet du premier modèle.\nQuelle notion convient ?",
+       "r": "sujet grammatical",
+       "w": [
+        "noyau du groupe",
+        "coordination",
+        "complément du nom"
+       ],
+       "e": [
+        "Cela concerne le mot central déterminant ici le nombre du groupe sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association de sujets appelant ici un accord pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne un groupe précisant le nom sans être à lui seul le sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut identifier la fonction, pas seulement la proximité."
+      },
+      {
+       "q": "Groupe est le noyau de le groupe d’élèves.\nQuelle notion convient ?",
+       "r": "noyau du groupe",
+       "w": [
+        "sujet grammatical",
+        "coordination",
+        "complément du nom"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant l’accord du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association de sujets appelant ici un accord pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne un groupe précisant le nom sans être à lui seul le sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Dans ce modèle, le noyau singulier commande l’accord."
+      },
+      {
+       "q": "Bih et Ayuk {fr2Present(\"travailler\",6)}.\nQuelle notion convient ?",
+       "r": "coordination",
+       "w": [
+        "sujet grammatical",
+        "noyau du groupe",
+        "complément du nom"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant l’accord du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne le mot central déterminant ici le nombre du groupe sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne un groupe précisant le nom sans être à lui seul le sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle coordonne les personnes et appelle le pluriel."
+      },
+      {
+       "q": "Des voisines complète frère dans le frère des voisines.\nQuelle notion convient ?",
+       "r": "complément du nom",
+       "w": [
+        "sujet grammatical",
+        "noyau du groupe",
+        "coordination"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant l’accord du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne le mot central déterminant ici le nombre du groupe sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association de sujets appelant ici un accord pluriel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Sa fonction de précision ne lui donne pas automatiquement le rôle de sujet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-30-accord",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "text": "Le groupe d’élèves",
+       "p": 2
+      },
+      {
+       "text": "Les élèves du groupe",
+       "p": 6
+      },
+      {
+       "text": "Bih et Ayuk",
+       "p": 6
+      },
+      {
+       "text": "Le frère des voisines",
+       "p": 2
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "arriver",
+      "finir",
+      "travailler",
+      "choisir"
+     ]
+    }
+   },
+   "prompt": "Au présent, complète : « {S.text} ___ ». Verbe : {v}. Repère le sujet complet.",
+   "correct": "{fr2Present(v,S.p)}",
+   "distractors": [
+    {
+     "text": "{fr2Present(v,S.p==2 ? 6 : 2)}",
+     "misconception": "nombre"
+    },
+    {
+     "text": "{fr2Present(v,4)}",
+     "misconception": "nous"
+    },
+    {
+     "text": "{fr2Present(v,5)}",
+     "misconception": "vous"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nombre",
+     "explain": "Tu as accordé avec un nombre différent de celui du sujet grammatical."
+    },
+    {
+     "id": "nous",
+     "explain": "Aucun nous n’est le sujet de la phrase donnée."
+    },
+    {
+     "id": "vous",
+     "explain": "Le sujet donné ne correspond pas à vous."
+    }
+   ],
+   "solution": [
+    "Le sujet complet est {S.text}.",
+    "Le noyau ou la coordination impose ici {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-30-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "sujet grammatical",
+     "right": "Le groupe d’élèves est le sujet complet du premier modèle."
+    },
+    {
+     "left": "noyau du groupe",
+     "right": "Groupe est le noyau de le groupe d’élèves."
+    },
+    {
+     "left": "coordination",
+     "right": "Bih et Ayuk {fr2Present(\"travailler\",6)}."
+    },
+    {
+     "left": "complément du nom",
+     "right": "Des voisines complète frère dans le frère des voisines."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-30-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "sujet grammatical : le groupe commandant l’accord du verbe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut identifier la fonction, pas seulement la proximité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "noyau du groupe : le mot central déterminant ici le nombre du groupe sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Dans ce modèle, le noyau singulier commande l’accord. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "coordination : l’association de sujets appelant ici un accord pluriel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle coordonne les personnes et appelle le pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "complément du nom : un groupe précisant le nom sans être à lui seul le sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Sa fonction de précision ne lui donne pas automatiquement le rôle de sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le sujet est toujours le dernier nom rencontré.",
+      "truth": "false",
+      "explain": "Il faut identifier la fonction, pas seulement la proximité."
+     },
+     {
+      "text": "Le complément d’élèves transforme automatiquement groupe en pluriel.",
+      "truth": "false",
+      "explain": "Dans ce modèle, le noyau singulier commande l’accord."
+     },
+     {
+      "text": "Deux sujets distincts liés par et imposent ici le singulier.",
+      "truth": "false",
+      "explain": "Le modèle coordonne les personnes et appelle le pluriel."
+     },
+     {
+      "text": "Un complément nominal remplace toujours le sujet de la phrase.",
+      "truth": "false",
+      "explain": "Sa fonction de précision ne lui donne pas automatiquement le rôle de sujet."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

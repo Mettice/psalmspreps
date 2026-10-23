@@ -1,0 +1,611 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 19,
+ "language": "fr",
+ "prerequisites": [
+  4,
+  17,
+  18
+ ],
+ "skills": [
+  {
+   "id": "fr4-19",
+   "name": "Préparer un débat sur l’environnement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un débat met en relation des positions et leurs raisons. Un argument doit soutenir la proposition ; un exemple l’illustre sans prouver à lui seul une règle universelle. Écouter une objection permet de préciser une condition ou une limite. Une concession reconnaît un point pertinent sans renoncer forcément à toute sa position. Attaquer une personne ne répond pas à son raisonnement. Les échanges ci-dessous préparent le langage du débat, sans évaluer une écoute ou une prise de parole réellement enregistrée.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras formuler un avis soutenu par une raison et répondre respectueusement à une objection. Acquis mobilisés : le vocabulaire de l’environnement et les expressions de nécessité. Pour la suite : la lecture critique et les productions argumentées."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un débat met en relation des positions et leurs raisons. Un argument doit soutenir la proposition ; un exemple l’illustre sans prouver à lui seul une règle universelle. Écouter une objection permet de préciser une condition ou une limite. Une concession reconnaît un point pertinent sans renoncer forcément à toute sa position. Attaquer une personne ne répond pas à son raisonnement. Les échanges ci-dessous préparent le langage du débat, sans évaluer une écoute ou une prise de parole réellement enregistrée."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Dialogue original : Bih propose de réemployer des boîtes propres pour limiter certains achats. Ayuk accepte l’idée mais demande si les boîtes conviennent au rangement prévu. Bih reconnaît cette condition et suggère de vérifier avec l’enseignante. Ils distinguent une préférence, un argument et une condition pratique. Le dialogue ne prouve pas que tout objet peut être réemployé sans examen."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Annonce ton avis, donne une raison liée au sujet et réponds à l’objection précise. Emploie je comprends ce point, cependant pour nuancer si nécessaire. Prépare des tours courts, puis pratique un échange réel avec un partenaire en respectant les règles de la classe."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "avis",
+    "meaning": "une position proposée sur le sujet"
+   },
+   {
+    "word": "argument",
+    "meaning": "une raison soutenant la proposition"
+   },
+   {
+    "word": "objection",
+    "meaning": "une difficulté ou limite opposée à une proposition"
+   },
+   {
+    "word": "concession",
+    "meaning": "la reconnaissance d’un point pertinent avant de préciser sa position"
+   }
+  ],
+  "mistake": {
+   "wrong": "Un avis personnel constitue toujours une preuve générale.",
+   "right": "une position proposée sur le sujet.",
+   "why": "Une position demande un appui pertinent."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih préfère examiner le réemploi de boîtes. Explique le choix.",
+  "steps": [
+   "une position proposée sur le sujet.",
+   "Une position demande un appui pertinent."
+  ],
+  "answer": "avis",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-19-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "avis : une position proposée sur le sujet.",
+     "argument : une raison soutenant la proposition.",
+     "objection : une difficulté ou limite opposée à une proposition.",
+     "concession : la reconnaissance d’un point pertinent avant de préciser sa position."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-19-notions"
+    }
+   },
+   {
+    "id": "fr4-19-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Bih préfère examiner le réemploi de boîtes.",
+     "Limiter certains achats explique l’intérêt proposé.",
+     "Ayuk demande si les boîtes conviennent réellement.",
+     "Bih admet la nécessité d’une vérification."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-19-cas"
+    }
+   },
+   {
+    "id": "fr4-19-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Un avis personnel constitue toujours une preuve générale. Correction : Une position demande un appui pertinent.",
+     "Une phrase sans rapport suffit à défendre n’importe quelle position. Correction : La raison doit porter sur la proposition discutée.",
+     "Une objection doit obligatoirement être une insulte. Correction : Une difficulté peut être discutée sans dégrader la personne.",
+     "Reconnaître une limite signifie toujours que tout argument précédent est faux. Correction : Une position peut être précisée sans abandonner tout son fondement."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-19-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "avis : une position proposée sur le sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une position demande un appui pertinent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "argument : une raison soutenant la proposition.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La raison doit porter sur la proposition discutée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "objection : une difficulté ou limite opposée à une proposition.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une difficulté peut être discutée sans dégrader la personne. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "concession : la reconnaissance d’un point pertinent avant de préciser sa position.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une position peut être précisée sans abandonner tout son fondement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un avis personnel constitue toujours une preuve générale.",
+        "truth": "false",
+        "explain": "Une position demande un appui pertinent."
+       },
+       {
+        "text": "Une phrase sans rapport suffit à défendre n’importe quelle position.",
+        "truth": "false",
+        "explain": "La raison doit porter sur la proposition discutée."
+       },
+       {
+        "text": "Une objection doit obligatoirement être une insulte.",
+        "truth": "false",
+        "explain": "Une difficulté peut être discutée sans dégrader la personne."
+       },
+       {
+        "text": "Reconnaître une limite signifie toujours que tout argument précédent est faux.",
+        "truth": "false",
+        "explain": "Une position peut être précisée sans abandonner tout son fondement."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-19-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une position proposée sur le sujet ?",
+       "r": "avis",
+       "w": [
+        "argument",
+        "objection",
+        "concession"
+       ],
+       "e": [
+        "Cela désigne une raison soutenant la proposition, plutôt que la notion demandée.",
+        "Cela désigne une difficulté ou limite opposée à une proposition, plutôt que la notion demandée.",
+        "Cela désigne la reconnaissance d’un point pertinent avant de préciser sa position, plutôt que la notion demandée."
+       ],
+       "y": "Une position demande un appui pertinent."
+      },
+      {
+       "q": "Quel terme désigne une raison soutenant la proposition ?",
+       "r": "argument",
+       "w": [
+        "avis",
+        "objection",
+        "concession"
+       ],
+       "e": [
+        "Cela désigne une position proposée sur le sujet, plutôt que la notion demandée.",
+        "Cela désigne une difficulté ou limite opposée à une proposition, plutôt que la notion demandée.",
+        "Cela désigne la reconnaissance d’un point pertinent avant de préciser sa position, plutôt que la notion demandée."
+       ],
+       "y": "La raison doit porter sur la proposition discutée."
+      },
+      {
+       "q": "Quel terme désigne une difficulté ou limite opposée à une proposition ?",
+       "r": "objection",
+       "w": [
+        "avis",
+        "argument",
+        "concession"
+       ],
+       "e": [
+        "Cela désigne une position proposée sur le sujet, plutôt que la notion demandée.",
+        "Cela désigne une raison soutenant la proposition, plutôt que la notion demandée.",
+        "Cela désigne la reconnaissance d’un point pertinent avant de préciser sa position, plutôt que la notion demandée."
+       ],
+       "y": "Une difficulté peut être discutée sans dégrader la personne."
+      },
+      {
+       "q": "Quel terme désigne la reconnaissance d’un point pertinent avant de préciser sa position ?",
+       "r": "concession",
+       "w": [
+        "avis",
+        "argument",
+        "objection"
+       ],
+       "e": [
+        "Cela désigne une position proposée sur le sujet, plutôt que la notion demandée.",
+        "Cela désigne une raison soutenant la proposition, plutôt que la notion demandée.",
+        "Cela désigne une difficulté ou limite opposée à une proposition, plutôt que la notion demandée."
+       ],
+       "y": "Une position peut être précisée sans abandonner tout son fondement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-19-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih préfère examiner le réemploi de boîtes.\nQuelle notion convient ?",
+       "r": "avis",
+       "w": [
+        "argument",
+        "objection",
+        "concession"
+       ],
+       "e": [
+        "Cela concerne une raison soutenant la proposition. Compare cette définition avec le cas présenté.",
+        "Cela concerne une difficulté ou limite opposée à une proposition. Compare cette définition avec le cas présenté.",
+        "Cela concerne la reconnaissance d’un point pertinent avant de préciser sa position. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une position demande un appui pertinent."
+      },
+      {
+       "q": "Limiter certains achats explique l’intérêt proposé.\nQuelle notion convient ?",
+       "r": "argument",
+       "w": [
+        "avis",
+        "objection",
+        "concession"
+       ],
+       "e": [
+        "Cela concerne une position proposée sur le sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une difficulté ou limite opposée à une proposition. Compare cette définition avec le cas présenté.",
+        "Cela concerne la reconnaissance d’un point pertinent avant de préciser sa position. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La raison doit porter sur la proposition discutée."
+      },
+      {
+       "q": "Ayuk demande si les boîtes conviennent réellement.\nQuelle notion convient ?",
+       "r": "objection",
+       "w": [
+        "avis",
+        "argument",
+        "concession"
+       ],
+       "e": [
+        "Cela concerne une position proposée sur le sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une raison soutenant la proposition. Compare cette définition avec le cas présenté.",
+        "Cela concerne la reconnaissance d’un point pertinent avant de préciser sa position. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une difficulté peut être discutée sans dégrader la personne."
+      },
+      {
+       "q": "Bih admet la nécessité d’une vérification.\nQuelle notion convient ?",
+       "r": "concession",
+       "w": [
+        "avis",
+        "argument",
+        "objection"
+       ],
+       "e": [
+        "Cela concerne une position proposée sur le sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une raison soutenant la proposition. Compare cette définition avec le cas présenté.",
+        "Cela concerne une difficulté ou limite opposée à une proposition. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une position peut être précisée sans abandonner tout son fondement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-19-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "On te demande pourquoi réemployer une boîte adaptée. Choisis une raison liée à la proposition.",
+       "r": "Cela peut éviter un nouvel achat dans ce cas.",
+       "w": [
+        "Parce que tous ceux qui hésitent sont idiots.",
+        "Parce que demain est un nom de personne.",
+        "Parce que toute boîte règle instantanément tous les problèmes."
+       ],
+       "e": [
+        "L’insulte ne justifie pas la proposition.",
+        "La phrase n’apporte pas de raison liée.",
+        "La généralisation dépasse le cas."
+       ],
+       "y": "Relie bénéfice et situation."
+      },
+      {
+       "q": "On objecte que certaines boîtes sont inadaptées. Choisis une réponse.",
+       "r": "Vérifions celles qui conviennent avant de les utiliser.",
+       "w": [
+        "Ignorons toute propriété de l’objet.",
+        "Toute objection est interdite.",
+        "L’insulte prouve que la boîte convient."
+       ],
+       "e": [
+        "L’adaptation est précisément la question.",
+        "Débattre permet d’examiner les objections.",
+        "Une attaque personnelle n’établit pas la propriété."
+       ],
+       "y": "Réponds à la limite soulevée."
+      },
+      {
+       "q": "Choisis une concession suivie d’une précision.",
+       "r": "La vérification est nécessaire ; mon idée concerne les boîtes adaptées.",
+       "w": [
+        "La vérification est inutile puisque je parle fort.",
+        "Tout objet convient parce que je le veux.",
+        "Celui qui pose une question ne vaut rien."
+       ],
+       "e": [
+        "Le volume ne remplace pas l’examen.",
+        "La volonté n’établit pas l’adaptation.",
+        "C’est une attaque contre la personne."
+       ],
+       "y": "Reconnais le point pertinent sans élargir ta proposition."
+      },
+      {
+       "q": "Un seul exemple de réemploi réussi permet de conclure quoi ?",
+       "r": "Le cas décrit peut fonctionner, sans prouver que tous les objets conviennent.",
+       "w": [
+        "Tous les déchets sont désormais recyclés.",
+        "Aucune limite ne pourra jamais apparaître.",
+        "Tous les matériaux ont la même composition."
+       ],
+       "e": [
+        "Le cas ne porte pas sur tout le recyclage.",
+        "Un exemple ne supprime pas toutes les limites.",
+        "La composition n’est pas établie."
+       ],
+       "y": "Garde une conclusion proportionnée à l’exemple."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-19-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "avis",
+     "right": "Bih préfère examiner le réemploi de boîtes."
+    },
+    {
+     "left": "argument",
+     "right": "Limiter certains achats explique l’intérêt proposé."
+    },
+    {
+     "left": "objection",
+     "right": "Ayuk demande si les boîtes conviennent réellement."
+    },
+    {
+     "left": "concession",
+     "right": "Bih admet la nécessité d’une vérification."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-19-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "avis : une position proposée sur le sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une position demande un appui pertinent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "argument : une raison soutenant la proposition.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La raison doit porter sur la proposition discutée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "objection : une difficulté ou limite opposée à une proposition.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une difficulté peut être discutée sans dégrader la personne. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "concession : la reconnaissance d’un point pertinent avant de préciser sa position.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une position peut être précisée sans abandonner tout son fondement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un avis personnel constitue toujours une preuve générale.",
+      "truth": "false",
+      "explain": "Une position demande un appui pertinent."
+     },
+     {
+      "text": "Une phrase sans rapport suffit à défendre n’importe quelle position.",
+      "truth": "false",
+      "explain": "La raison doit porter sur la proposition discutée."
+     },
+     {
+      "text": "Une objection doit obligatoirement être une insulte.",
+      "truth": "false",
+      "explain": "Une difficulté peut être discutée sans dégrader la personne."
+     },
+     {
+      "text": "Reconnaître une limite signifie toujours que tout argument précédent est faux.",
+      "truth": "false",
+      "explain": "Une position peut être précisée sans abandonner tout son fondement."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

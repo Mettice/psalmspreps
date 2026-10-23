@@ -1,0 +1,604 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  3,
+  12
+ ],
+ "skills": [
+  {
+   "id": "e4-16",
+   "name": "Context clues and collocation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A context clue is evidence from surrounding language. A definition, contrast, example or consequence can help explain an unfamiliar word. The clue supports a meaning; it does not justify any guess that sounds interesting. A collocation is a conventional word combination, such as make a decision or heavy rain. A synonym may fit a definition yet sound unnatural with a particular partner. Check grammar and meaning together, and use a dictionary when the context is insufficient.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to infer a supported word meaning from context and choose a natural word combination. Builds on: word classes and sentence meaning. Leads to: careful reading of trade passages and precise writing."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A context clue is evidence from surrounding language. A definition, contrast, example or consequence can help explain an unfamiliar word. The clue supports a meaning; it does not justify any guess that sounds interesting. A collocation is a conventional word combination, such as make a decision or heavy rain. A synonym may fit a definition yet sound unnatural with a particular partner. Check grammar and meaning together, and use a dictionary when the context is insufficient."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original example: The path was slippery, so Bih moved carefully to avoid falling. The consequence supports a surface on which slipping is easy. A club can make a decision and do homework, but exchanging make and do mechanically creates unnatural combinations. Heavy rain is ordinary wording; strong rain is not the neutral model taught here."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Locate the exact clue and explain how it supports your interpretation. Separate a contextual inference from a fact not given. When choosing a collocation, consider the whole phrase rather than the isolated meaning of one word."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "definition clue",
+    "meaning": "surrounding wording that explains the unfamiliar expression"
+   },
+   {
+    "word": "contrast clue",
+    "meaning": "opposed wording that helps reveal a meaning"
+   },
+   {
+    "word": "collocation",
+    "meaning": "a conventional combination of words"
+   },
+   {
+    "word": "supported inference",
+    "meaning": "a conclusion linked to clues actually provided"
+   }
+  ],
+  "mistake": {
+   "wrong": "A definition clue requires no explanatory wording.",
+   "right": "definition clue: surrounding wording that explains the unfamiliar expression.",
+   "why": "The nearby explanation supplies the meaning."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The passage explains a kiosk as a small stall. Explain the selected feature.",
+  "steps": [
+   "Surrounding wording that explains the unfamiliar expression.",
+   "The nearby explanation supplies the meaning."
+  ],
+  "answer": "definition clue",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-16-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "definition clue: surrounding wording that explains the unfamiliar expression.",
+     "contrast clue: opposed wording that helps reveal a meaning.",
+     "collocation: a conventional combination of words.",
+     "supported inference: a conclusion linked to clues actually provided."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-16-terms"
+    }
+   },
+   {
+    "id": "e4-16-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The passage explains a kiosk as a small stall.",
+     "Unlike the dry floor, the wet path was slippery.",
+     "The group makes a decision.",
+     "Moving carefully to avoid falling supports slippery as easy to slip on."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-16-cases"
+    }
+   },
+   {
+    "id": "e4-16-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A definition clue requires no explanatory wording. Correction: The nearby explanation supplies the meaning.",
+     "A contrast always means the words are synonyms. Correction: Opposition can distinguish the relevant properties.",
+     "Any synonym can replace any word in a collocation naturally. Correction: Conventional combinations constrain the choice.",
+     "A guess with no textual clue is automatically proven. Correction: An inference must connect to evidence in the passage."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-16-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "definition clue: surrounding wording that explains the unfamiliar expression.",
+        "truth": "true",
+        "explain": "This is correct: surrounding wording that explains the unfamiliar expression. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "contrast clue: opposed wording that helps reveal a meaning.",
+        "truth": "true",
+        "explain": "This is correct: opposed wording that helps reveal a meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "collocation: a conventional combination of words.",
+        "truth": "true",
+        "explain": "This is correct: a conventional combination of words. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "supported inference: a conclusion linked to clues actually provided.",
+        "truth": "true",
+        "explain": "This is correct: a conclusion linked to clues actually provided. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A definition clue requires no explanatory wording.",
+        "truth": "false",
+        "explain": "The nearby explanation supplies the meaning."
+       },
+       {
+        "text": "A contrast always means the words are synonyms.",
+        "truth": "false",
+        "explain": "Opposition can distinguish the relevant properties."
+       },
+       {
+        "text": "Any synonym can replace any word in a collocation naturally.",
+        "truth": "false",
+        "explain": "Conventional combinations constrain the choice."
+       },
+       {
+        "text": "A guess with no textual clue is automatically proven.",
+        "truth": "false",
+        "explain": "An inference must connect to evidence in the passage."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-16-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means surrounding wording that explains the unfamiliar expression?",
+       "r": "definition clue",
+       "w": [
+        "contrast clue",
+        "collocation",
+        "supported inference"
+       ],
+       "e": [
+        "That concerns opposed wording that helps reveal a meaning, rather than surrounding wording that explains the unfamiliar expression.",
+        "That concerns a conventional combination of words, rather than surrounding wording that explains the unfamiliar expression.",
+        "That concerns a conclusion linked to clues actually provided, rather than surrounding wording that explains the unfamiliar expression."
+       ],
+       "y": "The nearby explanation supplies the meaning."
+      },
+      {
+       "q": "Which term means opposed wording that helps reveal a meaning?",
+       "r": "contrast clue",
+       "w": [
+        "definition clue",
+        "collocation",
+        "supported inference"
+       ],
+       "e": [
+        "That concerns surrounding wording that explains the unfamiliar expression, rather than opposed wording that helps reveal a meaning.",
+        "That concerns a conventional combination of words, rather than opposed wording that helps reveal a meaning.",
+        "That concerns a conclusion linked to clues actually provided, rather than opposed wording that helps reveal a meaning."
+       ],
+       "y": "Opposition can distinguish the relevant properties."
+      },
+      {
+       "q": "Which term means a conventional combination of words?",
+       "r": "collocation",
+       "w": [
+        "definition clue",
+        "contrast clue",
+        "supported inference"
+       ],
+       "e": [
+        "That concerns surrounding wording that explains the unfamiliar expression, rather than a conventional combination of words.",
+        "That concerns opposed wording that helps reveal a meaning, rather than a conventional combination of words.",
+        "That concerns a conclusion linked to clues actually provided, rather than a conventional combination of words."
+       ],
+       "y": "Conventional combinations constrain the choice."
+      },
+      {
+       "q": "Which term means a conclusion linked to clues actually provided?",
+       "r": "supported inference",
+       "w": [
+        "definition clue",
+        "contrast clue",
+        "collocation"
+       ],
+       "e": [
+        "That concerns surrounding wording that explains the unfamiliar expression, rather than a conclusion linked to clues actually provided.",
+        "That concerns opposed wording that helps reveal a meaning, rather than a conclusion linked to clues actually provided.",
+        "That concerns a conventional combination of words, rather than a conclusion linked to clues actually provided."
+       ],
+       "y": "An inference must connect to evidence in the passage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-16-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The passage explains a kiosk as a small stall.\nWhich description best fits the selected feature?",
+       "r": "definition clue",
+       "w": [
+        "contrast clue",
+        "collocation",
+        "supported inference"
+       ],
+       "e": [
+        "That means opposed wording that helps reveal a meaning. The selected feature instead illustrates surrounding wording that explains the unfamiliar expression.",
+        "That means a conventional combination of words. The selected feature instead illustrates surrounding wording that explains the unfamiliar expression.",
+        "That means a conclusion linked to clues actually provided. The selected feature instead illustrates surrounding wording that explains the unfamiliar expression."
+       ],
+       "y": "The nearby explanation supplies the meaning."
+      },
+      {
+       "q": "Unlike the dry floor, the wet path was slippery.\nWhich description best fits the selected feature?",
+       "r": "contrast clue",
+       "w": [
+        "definition clue",
+        "collocation",
+        "supported inference"
+       ],
+       "e": [
+        "That means surrounding wording that explains the unfamiliar expression. The selected feature instead illustrates opposed wording that helps reveal a meaning.",
+        "That means a conventional combination of words. The selected feature instead illustrates opposed wording that helps reveal a meaning.",
+        "That means a conclusion linked to clues actually provided. The selected feature instead illustrates opposed wording that helps reveal a meaning."
+       ],
+       "y": "Opposition can distinguish the relevant properties."
+      },
+      {
+       "q": "The group makes a decision.\nWhich description best fits the selected feature?",
+       "r": "collocation",
+       "w": [
+        "definition clue",
+        "contrast clue",
+        "supported inference"
+       ],
+       "e": [
+        "That means surrounding wording that explains the unfamiliar expression. The selected feature instead illustrates a conventional combination of words.",
+        "That means opposed wording that helps reveal a meaning. The selected feature instead illustrates a conventional combination of words.",
+        "That means a conclusion linked to clues actually provided. The selected feature instead illustrates a conventional combination of words."
+       ],
+       "y": "Conventional combinations constrain the choice."
+      },
+      {
+       "q": "Moving carefully to avoid falling supports slippery as easy to slip on.\nWhich description best fits the selected feature?",
+       "r": "supported inference",
+       "w": [
+        "definition clue",
+        "contrast clue",
+        "collocation"
+       ],
+       "e": [
+        "That means surrounding wording that explains the unfamiliar expression. The selected feature instead illustrates a conclusion linked to clues actually provided.",
+        "That means opposed wording that helps reveal a meaning. The selected feature instead illustrates a conclusion linked to clues actually provided.",
+        "That means a conventional combination of words. The selected feature instead illustrates a conclusion linked to clues actually provided."
+       ],
+       "y": "An inference must connect to evidence in the passage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-16-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complete the neutral collocation: ___ a decision.",
+       "r": "make",
+       "w": [
+        "do",
+        "performing",
+        "strong"
+       ],
+       "e": [
+        "Do is not the ordinary collocation here.",
+        "This form does not fit the verb slot.",
+        "Strong does not fill the verb slot."
+       ],
+       "y": "Make a decision is the model combination."
+      },
+      {
+       "q": "Complete the neutral collocation: ___ homework.",
+       "r": "do",
+       "w": [
+        "make",
+        "heavy",
+        "decision"
+       ],
+       "e": [
+        "Make is not the neutral model for this activity.",
+        "Heavy is not the required verb.",
+        "Decision is a noun, not the required verb."
+       ],
+       "y": "Do homework is the model combination."
+      },
+      {
+       "q": "The path was slippery, so Bih moved carefully to avoid falling. Which meaning is best supported?",
+       "r": "easy to slip on",
+       "w": [
+        "guaranteed to be dry",
+        "full of books",
+        "closed forever"
+       ],
+       "e": [
+        "The fall risk does not prove dryness.",
+        "No books are mentioned.",
+        "No permanent closure is stated."
+       ],
+       "y": "The fall risk supports the surface meaning."
+      },
+      {
+       "q": "Choose the neutral combination.",
+       "r": "heavy rain",
+       "w": [
+        "do rain",
+        "make rain, meaning the natural weather intensity",
+        "homework rain"
+       ],
+       "e": [
+        "Do does not express rainfall intensity here.",
+        "Make rain changes the meaning to causing rain.",
+        "Homework does not form this phrase."
+       ],
+       "y": "Heavy naturally describes the rain’s intensity in this model."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-16-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "definition clue",
+     "right": "The passage explains a kiosk as a small stall."
+    },
+    {
+     "left": "contrast clue",
+     "right": "Unlike the dry floor, the wet path was slippery."
+    },
+    {
+     "left": "collocation",
+     "right": "The group makes a decision."
+    },
+    {
+     "left": "supported inference",
+     "right": "Moving carefully to avoid falling supports slippery as easy to slip on."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-16-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "definition clue: surrounding wording that explains the unfamiliar expression.",
+      "truth": "true",
+      "explain": "This is correct: surrounding wording that explains the unfamiliar expression. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "contrast clue: opposed wording that helps reveal a meaning.",
+      "truth": "true",
+      "explain": "This is correct: opposed wording that helps reveal a meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "collocation: a conventional combination of words.",
+      "truth": "true",
+      "explain": "This is correct: a conventional combination of words. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "supported inference: a conclusion linked to clues actually provided.",
+      "truth": "true",
+      "explain": "This is correct: a conclusion linked to clues actually provided. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A definition clue requires no explanatory wording.",
+      "truth": "false",
+      "explain": "The nearby explanation supplies the meaning."
+     },
+     {
+      "text": "A contrast always means the words are synonyms.",
+      "truth": "false",
+      "explain": "Opposition can distinguish the relevant properties."
+     },
+     {
+      "text": "Any synonym can replace any word in a collocation naturally.",
+      "truth": "false",
+      "explain": "Conventional combinations constrain the choice."
+     },
+     {
+      "text": "A guess with no textual clue is automatically proven.",
+      "truth": "false",
+      "explain": "An inference must connect to evidence in the passage."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

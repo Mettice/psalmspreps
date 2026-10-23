@@ -1,0 +1,732 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "g4-12",
+   "name": "The hot desert biome"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Hot deserts have severe water limitation, often with low and unreliable rainfall and high evaporative demand. Many lie in subtropical belts, such as the Sahara, but position, rain shadows and ocean influences matter. Ground may be rocky, stony or sandy; deserts are not all sand dunes. Vegetation is usually sparse, with adaptations such as reduced leaves, water storage, deep or spreading roots and rapid growth after rain. Some animals avoid daytime heat or conserve water. Not every desert is hot, though this lesson concerns hot deserts.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain aridity and adaptations and distinguish low rainfall from absence of life. Builds on: seasonal moisture limitation and monsoon contrasts. Leads to: Mediterranean drought and the drier parts of Cameroon."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Hot deserts have severe water limitation, often with low and unreliable rainfall and high evaporative demand. Many lie in subtropical belts, such as the Sahara, but position, rain shadows and ocean influences matter. Ground may be rocky, stony or sandy; deserts are not all sand dunes. Vegetation is usually sparse, with adaptations such as reduced leaves, water storage, deep or spreading roots and rapid growth after rain. Some animals avoid daytime heat or conserve water. Not every desert is hot, though this lesson concerns hot deserts."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "An invented desert chart has very small monthly amounts. Its annual total illustrates dryness, while temperature and evaporation evidence would strengthen a water-deficit explanation. Oases concentrate water locally; they do not remove aridity across the whole desert. Pastoralism and irrigated cultivation face water and land constraints. Overuse of scarce water or poor drainage under irrigation can create additional problems, including salinity.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 278\\\" role=\\\"img\\\" aria-label=\\\"Invented monthly rainfall chart, January to December, millimetres\\\" font-family=\\\"sans-serif\\\" fill=\\\"#183428\\\"><rect width=\\\"320\\\" height=\\\"278\\\" fill=\\\"#fffdf5\\\"/><text x=\\\"8\\\" y=\\\"18\\\" font-size=\\\"12\\\">Invented monthly rainfall (mm)</text><path d=\\\"M34 224.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"228.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(0) + \"</text><path d=\\\"M34 180.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"184.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(100) + \"</text><path d=\\\"M34 136.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"140.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(200) + \"</text><path d=\\\"M34 92.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"96.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(300) + \"</text><path d=\\\"M34 48.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"52.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(400) + \"</text><rect x=\\\"38\\\" y=\\\"221.8\\\" width=\\\"16\\\" height=\\\"2.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"46\\\" y=\\\"216.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(5) + \"</text><text x=\\\"46\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"61\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"69\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"69\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">F</text><rect x=\\\"84\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"92\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"92\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"107\\\" y=\\\"221.8\\\" width=\\\"16\\\" height=\\\"2.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"115\\\" y=\\\"216.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(5) + \"</text><text x=\\\"115\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"130\\\" y=\\\"219.6\\\" width=\\\"16\\\" height=\\\"4.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"138\\\" y=\\\"214.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(10) + \"</text><text x=\\\"138\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"153\\\" y=\\\"217.4\\\" width=\\\"16\\\" height=\\\"6.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"161\\\" y=\\\"212.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(15) + \"</text><text x=\\\"161\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"176\\\" y=\\\"215.2\\\" width=\\\"16\\\" height=\\\"8.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"184\\\" y=\\\"210.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(20) + \"</text><text x=\\\"184\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"199\\\" y=\\\"217.4\\\" width=\\\"16\\\" height=\\\"6.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"207\\\" y=\\\"212.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(15) + \"</text><text x=\\\"207\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"222\\\" y=\\\"221.8\\\" width=\\\"16\\\" height=\\\"2.2\\\" fill=\\\"#448d98\\\"/><text x=\\\"230\\\" y=\\\"216.8\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(5) + \"</text><text x=\\\"230\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">S</text><rect x=\\\"245\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"253\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"253\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">O</text><rect x=\\\"268\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"276\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"276\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">N</text><rect x=\\\"291\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"299\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"299\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">D</text><text x=\\\"8\\\" y=\\\"263\\\" font-size=\\\"10\\\">Jan to Dec; model data, not a town record.</text></svg>\""
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Explain each adaptation’s relationship to water or heat without claiming that all plants share it. Distinguish drought, a temporary shortage relative to usual conditions, from aridity, a long-term climatic condition. The Far North of Cameroon includes semi-arid landscapes; do not label the entire region a true hot desert merely because it has a long dry season."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "aridity",
+    "meaning": "a long-term climatic shortage of available moisture"
+   },
+   {
+    "word": "water-conserving adaptation",
+    "meaning": "a feature reducing loss or improving access to scarce water"
+   },
+   {
+    "word": "local water source",
+    "meaning": "a concentration of accessible water within a drier landscape"
+   },
+   {
+    "word": "surface diversity",
+    "meaning": "rocky stony and sandy surfaces rather than dunes alone"
+   }
+  ],
+  "mistake": {
+   "wrong": "One rain shower permanently ends climatic aridity.",
+   "right": "a long-term climatic shortage of available moisture.",
+   "why": "A brief event does not replace the longer-term moisture regime."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A desert region receives little reliable rain relative to evaporative demand. Explain the relationship.",
+  "steps": [
+   "a long-term climatic shortage of available moisture.",
+   "A brief event does not replace the longer-term moisture regime."
+  ],
+  "answer": "aridity",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-12-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "aridity: a long-term climatic shortage of available moisture.",
+     "water-conserving adaptation: a feature reducing loss or improving access to scarce water.",
+     "local water source: a concentration of accessible water within a drier landscape.",
+     "surface diversity: rocky stony and sandy surfaces rather than dunes alone."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-12-terms"
+    }
+   },
+   {
+    "id": "g4-12-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A desert region receives little reliable rain relative to evaporative demand.",
+     "A model plant has reduced leaves and a water-storing stem.",
+     "An oasis supports growth around a water supply.",
+     "A desert photograph shows bare rock and gravel instead of sand dunes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-12-cases"
+    }
+   },
+   {
+    "id": "g4-12-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "A brief event does not replace the longer-term moisture regime.",
+     "Adaptations differ but commonly address scarce moisture or high heat loads.",
+     "A local supply can support life without changing regional aridity.",
+     "Desert classification concerns aridity, not one required surface material."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-12-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "biomes"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A desert region receives little reliable rain relative to evaporative demand.\nWhich explanation follows?",
+         "r": "A brief event does not replace the longer-term moisture regime.",
+         "w": [
+          "Adaptations differ but commonly address scarce moisture or high heat loads.",
+          "A local supply can support life without changing regional aridity.",
+          "Desert classification concerns aridity, not one required surface material."
+         ],
+         "e": [
+          "That explanation addresses water-conserving adaptation, rather than the process or relationship in this case.",
+          "That explanation addresses local water source, rather than the process or relationship in this case.",
+          "That explanation addresses surface diversity, rather than the process or relationship in this case."
+         ],
+         "y": "a long-term climatic shortage of available moisture."
+        },
+        {
+         "q": "A model plant has reduced leaves and a water-storing stem.\nWhich explanation follows?",
+         "r": "Adaptations differ but commonly address scarce moisture or high heat loads.",
+         "w": [
+          "A brief event does not replace the longer-term moisture regime.",
+          "A local supply can support life without changing regional aridity.",
+          "Desert classification concerns aridity, not one required surface material."
+         ],
+         "e": [
+          "That explanation addresses aridity, rather than the process or relationship in this case.",
+          "That explanation addresses local water source, rather than the process or relationship in this case.",
+          "That explanation addresses surface diversity, rather than the process or relationship in this case."
+         ],
+         "y": "a feature reducing loss or improving access to scarce water."
+        },
+        {
+         "q": "An oasis supports growth around a water supply.\nWhich explanation follows?",
+         "r": "A local supply can support life without changing regional aridity.",
+         "w": [
+          "A brief event does not replace the longer-term moisture regime.",
+          "Adaptations differ but commonly address scarce moisture or high heat loads.",
+          "Desert classification concerns aridity, not one required surface material."
+         ],
+         "e": [
+          "That explanation addresses aridity, rather than the process or relationship in this case.",
+          "That explanation addresses water-conserving adaptation, rather than the process or relationship in this case.",
+          "That explanation addresses surface diversity, rather than the process or relationship in this case."
+         ],
+         "y": "a concentration of accessible water within a drier landscape."
+        },
+        {
+         "q": "A desert photograph shows bare rock and gravel instead of sand dunes.\nWhich explanation follows?",
+         "r": "Desert classification concerns aridity, not one required surface material.",
+         "w": [
+          "A brief event does not replace the longer-term moisture regime.",
+          "Adaptations differ but commonly address scarce moisture or high heat loads.",
+          "A local supply can support life without changing regional aridity."
+         ],
+         "e": [
+          "That explanation addresses aridity, rather than the process or relationship in this case.",
+          "That explanation addresses water-conserving adaptation, rather than the process or relationship in this case.",
+          "That explanation addresses local water source, rather than the process or relationship in this case."
+         ],
+         "y": "rocky stony and sandy surfaces rather than dunes alone."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a long-term climatic shortage of available moisture?",
+       "r": "aridity",
+       "w": [
+        "water-conserving adaptation",
+        "local water source",
+        "surface diversity"
+       ],
+       "e": [
+        "That concerns a feature reducing loss or improving access to scarce water, rather than the feature asked for.",
+        "That concerns a concentration of accessible water within a drier landscape, rather than the feature asked for.",
+        "That concerns rocky stony and sandy surfaces rather than dunes alone, rather than the feature asked for."
+       ],
+       "y": "A brief event does not replace the longer-term moisture regime."
+      },
+      {
+       "q": "Which term means a feature reducing loss or improving access to scarce water?",
+       "r": "water-conserving adaptation",
+       "w": [
+        "aridity",
+        "local water source",
+        "surface diversity"
+       ],
+       "e": [
+        "That concerns a long-term climatic shortage of available moisture, rather than the feature asked for.",
+        "That concerns a concentration of accessible water within a drier landscape, rather than the feature asked for.",
+        "That concerns rocky stony and sandy surfaces rather than dunes alone, rather than the feature asked for."
+       ],
+       "y": "Adaptations differ but commonly address scarce moisture or high heat loads."
+      },
+      {
+       "q": "Which term means a concentration of accessible water within a drier landscape?",
+       "r": "local water source",
+       "w": [
+        "aridity",
+        "water-conserving adaptation",
+        "surface diversity"
+       ],
+       "e": [
+        "That concerns a long-term climatic shortage of available moisture, rather than the feature asked for.",
+        "That concerns a feature reducing loss or improving access to scarce water, rather than the feature asked for.",
+        "That concerns rocky stony and sandy surfaces rather than dunes alone, rather than the feature asked for."
+       ],
+       "y": "A local supply can support life without changing regional aridity."
+      },
+      {
+       "q": "Which term means rocky stony and sandy surfaces rather than dunes alone?",
+       "r": "surface diversity",
+       "w": [
+        "aridity",
+        "water-conserving adaptation",
+        "local water source"
+       ],
+       "e": [
+        "That concerns a long-term climatic shortage of available moisture, rather than the feature asked for.",
+        "That concerns a feature reducing loss or improving access to scarce water, rather than the feature asked for.",
+        "That concerns a concentration of accessible water within a drier landscape, rather than the feature asked for."
+       ],
+       "y": "Desert classification concerns aridity, not one required surface material."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A desert region receives little reliable rain relative to evaporative demand.\nWhich feature is illustrated?",
+       "r": "aridity",
+       "w": [
+        "water-conserving adaptation",
+        "local water source",
+        "surface diversity"
+       ],
+       "e": [
+        "That identifies a feature reducing loss or improving access to scarce water. Read the case for evidence of a long-term climatic shortage of available moisture.",
+        "That identifies a concentration of accessible water within a drier landscape. Read the case for evidence of a long-term climatic shortage of available moisture.",
+        "That identifies rocky stony and sandy surfaces rather than dunes alone. Read the case for evidence of a long-term climatic shortage of available moisture."
+       ],
+       "y": "A brief event does not replace the longer-term moisture regime."
+      },
+      {
+       "q": "A model plant has reduced leaves and a water-storing stem.\nWhich feature is illustrated?",
+       "r": "water-conserving adaptation",
+       "w": [
+        "aridity",
+        "local water source",
+        "surface diversity"
+       ],
+       "e": [
+        "That identifies a long-term climatic shortage of available moisture. Read the case for evidence of a feature reducing loss or improving access to scarce water.",
+        "That identifies a concentration of accessible water within a drier landscape. Read the case for evidence of a feature reducing loss or improving access to scarce water.",
+        "That identifies rocky stony and sandy surfaces rather than dunes alone. Read the case for evidence of a feature reducing loss or improving access to scarce water."
+       ],
+       "y": "Adaptations differ but commonly address scarce moisture or high heat loads."
+      },
+      {
+       "q": "An oasis supports growth around a water supply.\nWhich feature is illustrated?",
+       "r": "local water source",
+       "w": [
+        "aridity",
+        "water-conserving adaptation",
+        "surface diversity"
+       ],
+       "e": [
+        "That identifies a long-term climatic shortage of available moisture. Read the case for evidence of a concentration of accessible water within a drier landscape.",
+        "That identifies a feature reducing loss or improving access to scarce water. Read the case for evidence of a concentration of accessible water within a drier landscape.",
+        "That identifies rocky stony and sandy surfaces rather than dunes alone. Read the case for evidence of a concentration of accessible water within a drier landscape."
+       ],
+       "y": "A local supply can support life without changing regional aridity."
+      },
+      {
+       "q": "A desert photograph shows bare rock and gravel instead of sand dunes.\nWhich feature is illustrated?",
+       "r": "surface diversity",
+       "w": [
+        "aridity",
+        "water-conserving adaptation",
+        "local water source"
+       ],
+       "e": [
+        "That identifies a long-term climatic shortage of available moisture. Read the case for evidence of rocky stony and sandy surfaces rather than dunes alone.",
+        "That identifies a feature reducing loss or improving access to scarce water. Read the case for evidence of rocky stony and sandy surfaces rather than dunes alone.",
+        "That identifies a concentration of accessible water within a drier landscape. Read the case for evidence of rocky stony and sandy surfaces rather than dunes alone."
+       ],
+       "y": "Desert classification concerns aridity, not one required surface material."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-12-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A desert region receives little reliable rain relative to evaporative demand.\nWhich explanation follows?",
+       "r": "A brief event does not replace the longer-term moisture regime.",
+       "w": [
+        "Adaptations differ but commonly address scarce moisture or high heat loads.",
+        "A local supply can support life without changing regional aridity.",
+        "Desert classification concerns aridity, not one required surface material."
+       ],
+       "e": [
+        "That explanation addresses water-conserving adaptation, rather than the process or relationship in this case.",
+        "That explanation addresses local water source, rather than the process or relationship in this case.",
+        "That explanation addresses surface diversity, rather than the process or relationship in this case."
+       ],
+       "y": "a long-term climatic shortage of available moisture."
+      },
+      {
+       "q": "A model plant has reduced leaves and a water-storing stem.\nWhich explanation follows?",
+       "r": "Adaptations differ but commonly address scarce moisture or high heat loads.",
+       "w": [
+        "A brief event does not replace the longer-term moisture regime.",
+        "A local supply can support life without changing regional aridity.",
+        "Desert classification concerns aridity, not one required surface material."
+       ],
+       "e": [
+        "That explanation addresses aridity, rather than the process or relationship in this case.",
+        "That explanation addresses local water source, rather than the process or relationship in this case.",
+        "That explanation addresses surface diversity, rather than the process or relationship in this case."
+       ],
+       "y": "a feature reducing loss or improving access to scarce water."
+      },
+      {
+       "q": "An oasis supports growth around a water supply.\nWhich explanation follows?",
+       "r": "A local supply can support life without changing regional aridity.",
+       "w": [
+        "A brief event does not replace the longer-term moisture regime.",
+        "Adaptations differ but commonly address scarce moisture or high heat loads.",
+        "Desert classification concerns aridity, not one required surface material."
+       ],
+       "e": [
+        "That explanation addresses aridity, rather than the process or relationship in this case.",
+        "That explanation addresses water-conserving adaptation, rather than the process or relationship in this case.",
+        "That explanation addresses surface diversity, rather than the process or relationship in this case."
+       ],
+       "y": "a concentration of accessible water within a drier landscape."
+      },
+      {
+       "q": "A desert photograph shows bare rock and gravel instead of sand dunes.\nWhich explanation follows?",
+       "r": "Desert classification concerns aridity, not one required surface material.",
+       "w": [
+        "A brief event does not replace the longer-term moisture regime.",
+        "Adaptations differ but commonly address scarce moisture or high heat loads.",
+        "A local supply can support life without changing regional aridity."
+       ],
+       "e": [
+        "That explanation addresses aridity, rather than the process or relationship in this case.",
+        "That explanation addresses water-conserving adaptation, rather than the process or relationship in this case.",
+        "That explanation addresses local water source, rather than the process or relationship in this case."
+       ],
+       "y": "rocky stony and sandy surfaces rather than dunes alone."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-12-rain-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": [
+        5,
+        0,
+        0,
+        5,
+        10,
+        15,
+        20,
+        15,
+        5,
+        0,
+        0,
+        0
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"221.8\" width=\"16\" height=\"2.2\" fill=\"#448d98\"/><text x=\"46\" y=\"216.8\" text-anchor=\"middle\" font-size=\"10\">{5}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"69\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"92\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"221.8\" width=\"16\" height=\"2.2\" fill=\"#448d98\"/><text x=\"115\" y=\"216.8\" text-anchor=\"middle\" font-size=\"10\">{5}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"219.6\" width=\"16\" height=\"4.4\" fill=\"#448d98\"/><text x=\"138\" y=\"214.6\" text-anchor=\"middle\" font-size=\"10\">{10}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"217.4\" width=\"16\" height=\"6.6\" fill=\"#448d98\"/><text x=\"161\" y=\"212.4\" text-anchor=\"middle\" font-size=\"10\">{15}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"184\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"217.4\" width=\"16\" height=\"6.6\" fill=\"#448d98\"/><text x=\"207\" y=\"212.4\" text-anchor=\"middle\" font-size=\"10\">{15}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"221.8\" width=\"16\" height=\"2.2\" fill=\"#448d98\"/><text x=\"230\" y=\"216.8\" text-anchor=\"middle\" font-size=\"10\">{5}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"253\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"276\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"299\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        6,
+        0,
+        0,
+        6,
+        11,
+        16,
+        21,
+        16,
+        6,
+        0,
+        0,
+        0
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"221.36\" width=\"16\" height=\"2.64\" fill=\"#448d98\"/><text x=\"46\" y=\"216.36\" text-anchor=\"middle\" font-size=\"10\">{6}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"69\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"92\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"221.36\" width=\"16\" height=\"2.64\" fill=\"#448d98\"/><text x=\"115\" y=\"216.36\" text-anchor=\"middle\" font-size=\"10\">{6}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"219.16\" width=\"16\" height=\"4.84\" fill=\"#448d98\"/><text x=\"138\" y=\"214.16\" text-anchor=\"middle\" font-size=\"10\">{11}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"216.96\" width=\"16\" height=\"7.04\" fill=\"#448d98\"/><text x=\"161\" y=\"211.96\" text-anchor=\"middle\" font-size=\"10\">{16}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"214.76\" width=\"16\" height=\"9.24\" fill=\"#448d98\"/><text x=\"184\" y=\"209.76\" text-anchor=\"middle\" font-size=\"10\">{21}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"216.96\" width=\"16\" height=\"7.04\" fill=\"#448d98\"/><text x=\"207\" y=\"211.96\" text-anchor=\"middle\" font-size=\"10\">{16}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"221.36\" width=\"16\" height=\"2.64\" fill=\"#448d98\"/><text x=\"230\" y=\"216.36\" text-anchor=\"middle\" font-size=\"10\">{6}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"253\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"276\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"299\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        7,
+        0,
+        0,
+        7,
+        12,
+        17,
+        22,
+        17,
+        7,
+        0,
+        0,
+        0
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"220.92\" width=\"16\" height=\"3.08\" fill=\"#448d98\"/><text x=\"46\" y=\"215.92\" text-anchor=\"middle\" font-size=\"10\">{7}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"69\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"92\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"220.92\" width=\"16\" height=\"3.08\" fill=\"#448d98\"/><text x=\"115\" y=\"215.92\" text-anchor=\"middle\" font-size=\"10\">{7}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"218.72\" width=\"16\" height=\"5.28\" fill=\"#448d98\"/><text x=\"138\" y=\"213.72\" text-anchor=\"middle\" font-size=\"10\">{12}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"216.52\" width=\"16\" height=\"7.48\" fill=\"#448d98\"/><text x=\"161\" y=\"211.52\" text-anchor=\"middle\" font-size=\"10\">{17}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"214.32\" width=\"16\" height=\"9.68\" fill=\"#448d98\"/><text x=\"184\" y=\"209.32\" text-anchor=\"middle\" font-size=\"10\">{22}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"216.52\" width=\"16\" height=\"7.48\" fill=\"#448d98\"/><text x=\"207\" y=\"211.52\" text-anchor=\"middle\" font-size=\"10\">{17}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"220.92\" width=\"16\" height=\"3.08\" fill=\"#448d98\"/><text x=\"230\" y=\"215.92\" text-anchor=\"middle\" font-size=\"10\">{7}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"253\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"276\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"299\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        8,
+        0,
+        0,
+        8,
+        13,
+        18,
+        23,
+        18,
+        8,
+        0,
+        0,
+        0
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"220.48\" width=\"16\" height=\"3.52\" fill=\"#448d98\"/><text x=\"46\" y=\"215.48\" text-anchor=\"middle\" font-size=\"10\">{8}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"69\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"92\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"220.48\" width=\"16\" height=\"3.52\" fill=\"#448d98\"/><text x=\"115\" y=\"215.48\" text-anchor=\"middle\" font-size=\"10\">{8}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"218.28\" width=\"16\" height=\"5.72\" fill=\"#448d98\"/><text x=\"138\" y=\"213.28\" text-anchor=\"middle\" font-size=\"10\">{13}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"216.08\" width=\"16\" height=\"7.92\" fill=\"#448d98\"/><text x=\"161\" y=\"211.08\" text-anchor=\"middle\" font-size=\"10\">{18}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"213.88\" width=\"16\" height=\"10.12\" fill=\"#448d98\"/><text x=\"184\" y=\"208.88\" text-anchor=\"middle\" font-size=\"10\">{23}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"216.08\" width=\"16\" height=\"7.92\" fill=\"#448d98\"/><text x=\"207\" y=\"211.08\" text-anchor=\"middle\" font-size=\"10\">{18}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"220.48\" width=\"16\" height=\"3.52\" fill=\"#448d98\"/><text x=\"230\" y=\"215.48\" text-anchor=\"middle\" font-size=\"10\">{8}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"253\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"276\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"299\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      }
+     ]
+    }
+   },
+   "prompt": "Read the invented monthly rainfall chart. Add the labels above all monthly bars to obtain the annual total in mm; the vertical-axis tick labels are not extra observations.",
+   "answer": "sum(X.r)",
+   "misconceptions": [
+    {
+     "id": "mean",
+     "wrong": "meanOf(X.r)",
+     "explain": "That is a monthly mean, not the sum for the year."
+    },
+    {
+     "id": "range",
+     "wrong": "rangeOf(X.r)",
+     "explain": "That is the difference between wettest and driest months, not the annual total."
+    },
+    {
+     "id": "tenfold",
+     "wrong": "sum(X.r)*10",
+     "explain": "That multiplies an already millimetre total by ten without a unit conversion."
+    }
+   ],
+   "solution": [
+    "Add each monthly amount once.",
+    "The annual rainfall of this classroom record is {answer} mm. A real biome classification also needs temperature and other evidence."
+   ],
+   "unit": "mm",
+   "figure": "X.svg"
+  },
+  {
+   "id": "g4-12-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "biomes"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "aridity: a long-term climatic shortage of available moisture.",
+      "truth": "true",
+      "explain": "This distinction is correct: A brief event does not replace the longer-term moisture regime. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "water-conserving adaptation: a feature reducing loss or improving access to scarce water.",
+      "truth": "true",
+      "explain": "This distinction is correct: Adaptations differ but commonly address scarce moisture or high heat loads. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "local water source: a concentration of accessible water within a drier landscape.",
+      "truth": "true",
+      "explain": "This distinction is correct: A local supply can support life without changing regional aridity. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "surface diversity: rocky stony and sandy surfaces rather than dunes alone.",
+      "truth": "true",
+      "explain": "This distinction is correct: Desert classification concerns aridity, not one required surface material. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "One rain shower permanently ends climatic aridity.",
+      "truth": "false",
+      "explain": "A brief event does not replace the longer-term moisture regime."
+     },
+     {
+      "text": "Every desert plant must have large permanently exposed soft leaves.",
+      "truth": "false",
+      "explain": "Adaptations differ but commonly address scarce moisture or high heat loads."
+     },
+     {
+      "text": "One oasis proves that the surrounding desert is uniformly wet.",
+      "truth": "false",
+      "explain": "A local supply can support life without changing regional aridity."
+     },
+     {
+      "text": "A place without dunes cannot be a desert.",
+      "truth": "false",
+      "explain": "Desert classification concerns aridity, not one required surface material."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

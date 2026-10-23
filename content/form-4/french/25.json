@@ -1,0 +1,611 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 25,
+ "language": "fr",
+ "prerequisites": [
+  17,
+  19,
+  24
+ ],
+ "skills": [
+  {
+   "id": "fr4-25",
+   "name": "Lire un texte sur la gestion des déchets"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Comprendre un texte demande de relever les faits, de relier les indices et de distinguer une inférence d’une invention. Une information explicite est écrite ; une inférence s’appuie sur le passage sans prétendre être une citation. L’idée principale rassemble les éléments importants. Si un nom, un prix ou un résultat manque, on le dit au lieu de le deviner. Lis aussi le temps des verbes : une préparation n’est pas le compte rendu d’une action achevée.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer observations, projet et résultat dans un passage original sur les déchets. Acquis mobilisés : le vocabulaire environnemental et le débat argumenté. Pour la suite : la traduction et la rédaction de textes précis."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Comprendre un texte demande de relever les faits, de relier les indices et de distinguer une inférence d’une invention. Une information explicite est écrite ; une inférence s’appuie sur le passage sans prétendre être une citation. L’idée principale rassemble les éléments importants. Si un nom, un prix ou un résultat manque, on le dit au lieu de le deviner. Lis aussi le temps des verbes : une préparation n’est pas le compte rendu d’une action achevée."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Texte original : Dans une école imaginaire de Douala, le club constate que des papiers restent près des salles. Bih propose une affiche expliquant les catégories de la collecte. Ayuk demande de vérifier les consignes avec l’enseignante avant d’installer les boîtes. Le groupe prépare le texte mais n’a pas encore réalisé l’installation. Aucun élève ne doit toucher aux déchets coupants ou inconnus. Le passage ne donne pas le résultat d’une collecte."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Lis l’ensemble, puis retrouve un indice pour chaque réponse. Justifie ce que le passage permet de conclure et nomme ce qu’il ne précise pas. Rédige ensuite une courte phrase originale résumant l’action centrale sans inventer de donnée."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "information explicite",
+    "meaning": "un renseignement directement indiqué dans le passage"
+   },
+   {
+    "word": "inférence justifiée",
+    "meaning": "une conclusion appuyée sur des indices du passage"
+   },
+   {
+    "word": "idée principale",
+    "meaning": "le sens général rassemblant les actions importantes"
+   },
+   {
+    "word": "information absente",
+    "meaning": "un renseignement que le passage ne permet pas d’établir"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une information explicite est obligatoirement un détail inventé.",
+   "right": "un renseignement directement indiqué dans le passage.",
+   "why": "Le texte lui-même fournit l’information."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le lecteur reprend un lieu ou une action effectivement écrit. Explique le choix.",
+  "steps": [
+   "un renseignement directement indiqué dans le passage.",
+   "Le texte lui-même fournit l’information."
+  ],
+  "answer": "information explicite",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-25-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "information explicite : un renseignement directement indiqué dans le passage.",
+     "inférence justifiée : une conclusion appuyée sur des indices du passage.",
+     "idée principale : le sens général rassemblant les actions importantes.",
+     "information absente : un renseignement que le passage ne permet pas d’établir."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-25-notions"
+    }
+   },
+   {
+    "id": "fr4-25-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le lecteur reprend un lieu ou une action effectivement écrit.",
+     "Le lecteur explique une intention à partir des actions décrites.",
+     "Le lecteur résume le problème et la réponse décrite.",
+     "Le lecteur refuse de donner un prix non mentionné."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-25-cas"
+    }
+   },
+   {
+    "id": "fr4-25-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une information explicite est obligatoirement un détail inventé. Correction : Le texte lui-même fournit l’information.",
+     "Toute supposition est une preuve tirée du texte. Correction : Une conclusion doit rester liée à des indices.",
+     "Un mot secondaire suffit toujours à résumer tout le passage. Correction : Le résumé doit représenter l’ensemble pertinent.",
+     "Une donnée absente devient un fait dès qu’on la devine. Correction : Il faut reconnaître les limites du passage."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-25-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "information explicite : un renseignement directement indiqué dans le passage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le texte lui-même fournit l’information. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "inférence justifiée : une conclusion appuyée sur des indices du passage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une conclusion doit rester liée à des indices. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "idée principale : le sens général rassemblant les actions importantes.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le résumé doit représenter l’ensemble pertinent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "information absente : un renseignement que le passage ne permet pas d’établir.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut reconnaître les limites du passage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une information explicite est obligatoirement un détail inventé.",
+        "truth": "false",
+        "explain": "Le texte lui-même fournit l’information."
+       },
+       {
+        "text": "Toute supposition est une preuve tirée du texte.",
+        "truth": "false",
+        "explain": "Une conclusion doit rester liée à des indices."
+       },
+       {
+        "text": "Un mot secondaire suffit toujours à résumer tout le passage.",
+        "truth": "false",
+        "explain": "Le résumé doit représenter l’ensemble pertinent."
+       },
+       {
+        "text": "Une donnée absente devient un fait dès qu’on la devine.",
+        "truth": "false",
+        "explain": "Il faut reconnaître les limites du passage."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-25-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un renseignement directement indiqué dans le passage ?",
+       "r": "information explicite",
+       "w": [
+        "inférence justifiée",
+        "idée principale",
+        "information absente"
+       ],
+       "e": [
+        "Cela désigne une conclusion appuyée sur des indices du passage, plutôt que la notion demandée.",
+        "Cela désigne le sens général rassemblant les actions importantes, plutôt que la notion demandée.",
+        "Cela désigne un renseignement que le passage ne permet pas d’établir, plutôt que la notion demandée."
+       ],
+       "y": "Le texte lui-même fournit l’information."
+      },
+      {
+       "q": "Quel terme désigne une conclusion appuyée sur des indices du passage ?",
+       "r": "inférence justifiée",
+       "w": [
+        "information explicite",
+        "idée principale",
+        "information absente"
+       ],
+       "e": [
+        "Cela désigne un renseignement directement indiqué dans le passage, plutôt que la notion demandée.",
+        "Cela désigne le sens général rassemblant les actions importantes, plutôt que la notion demandée.",
+        "Cela désigne un renseignement que le passage ne permet pas d’établir, plutôt que la notion demandée."
+       ],
+       "y": "Une conclusion doit rester liée à des indices."
+      },
+      {
+       "q": "Quel terme désigne le sens général rassemblant les actions importantes ?",
+       "r": "idée principale",
+       "w": [
+        "information explicite",
+        "inférence justifiée",
+        "information absente"
+       ],
+       "e": [
+        "Cela désigne un renseignement directement indiqué dans le passage, plutôt que la notion demandée.",
+        "Cela désigne une conclusion appuyée sur des indices du passage, plutôt que la notion demandée.",
+        "Cela désigne un renseignement que le passage ne permet pas d’établir, plutôt que la notion demandée."
+       ],
+       "y": "Le résumé doit représenter l’ensemble pertinent."
+      },
+      {
+       "q": "Quel terme désigne un renseignement que le passage ne permet pas d’établir ?",
+       "r": "information absente",
+       "w": [
+        "information explicite",
+        "inférence justifiée",
+        "idée principale"
+       ],
+       "e": [
+        "Cela désigne un renseignement directement indiqué dans le passage, plutôt que la notion demandée.",
+        "Cela désigne une conclusion appuyée sur des indices du passage, plutôt que la notion demandée.",
+        "Cela désigne le sens général rassemblant les actions importantes, plutôt que la notion demandée."
+       ],
+       "y": "Il faut reconnaître les limites du passage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-25-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le lecteur reprend un lieu ou une action effectivement écrit.\nQuelle notion convient ?",
+       "r": "information explicite",
+       "w": [
+        "inférence justifiée",
+        "idée principale",
+        "information absente"
+       ],
+       "e": [
+        "Cela concerne une conclusion appuyée sur des indices du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sens général rassemblant les actions importantes. Compare cette définition avec le cas présenté.",
+        "Cela concerne un renseignement que le passage ne permet pas d’établir. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le texte lui-même fournit l’information."
+      },
+      {
+       "q": "Le lecteur explique une intention à partir des actions décrites.\nQuelle notion convient ?",
+       "r": "inférence justifiée",
+       "w": [
+        "information explicite",
+        "idée principale",
+        "information absente"
+       ],
+       "e": [
+        "Cela concerne un renseignement directement indiqué dans le passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sens général rassemblant les actions importantes. Compare cette définition avec le cas présenté.",
+        "Cela concerne un renseignement que le passage ne permet pas d’établir. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une conclusion doit rester liée à des indices."
+      },
+      {
+       "q": "Le lecteur résume le problème et la réponse décrite.\nQuelle notion convient ?",
+       "r": "idée principale",
+       "w": [
+        "information explicite",
+        "inférence justifiée",
+        "information absente"
+       ],
+       "e": [
+        "Cela concerne un renseignement directement indiqué dans le passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conclusion appuyée sur des indices du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne un renseignement que le passage ne permet pas d’établir. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le résumé doit représenter l’ensemble pertinent."
+      },
+      {
+       "q": "Le lecteur refuse de donner un prix non mentionné.\nQuelle notion convient ?",
+       "r": "information absente",
+       "w": [
+        "information explicite",
+        "inférence justifiée",
+        "idée principale"
+       ],
+       "e": [
+        "Cela concerne un renseignement directement indiqué dans le passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conclusion appuyée sur des indices du passage. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sens général rassemblant les actions importantes. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut reconnaître les limites du passage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-25-comprendre",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Texte original : Dans une école imaginaire de Douala, le club constate que des papiers restent près des salles. Bih propose une affiche expliquant les catégories de la collecte. Ayuk demande de vérifier les consignes avec l’enseignante avant d’installer les boîtes. Le groupe prépare le texte mais n’a pas encore réalisé l’installation. Aucun élève ne doit toucher aux déchets coupants ou inconnus. Le passage ne donne pas le résultat d’une collecte.\nQuelle observation motive le projet ?",
+       "r": "Des papiers restent près des salles.",
+       "w": [
+        "L’installation est déjà terminée.",
+        "Tous les matériaux sont déjà recyclés.",
+        "Aucun papier n’existe dans l’école."
+       ],
+       "e": [
+        "L’installation reste à réaliser.",
+        "Le recyclage achevé n’est pas affirmé.",
+        "Cela contredit l’observation."
+       ],
+       "y": "Le texte part d’un constat précis."
+      },
+      {
+       "q": "Texte original : Dans une école imaginaire de Douala, le club constate que des papiers restent près des salles. Bih propose une affiche expliquant les catégories de la collecte. Ayuk demande de vérifier les consignes avec l’enseignante avant d’installer les boîtes. Le groupe prépare le texte mais n’a pas encore réalisé l’installation. Aucun élève ne doit toucher aux déchets coupants ou inconnus. Le passage ne donne pas le résultat d’une collecte.\nQue demande Ayuk avant l’installation ?",
+       "r": "Vérifier les consignes avec l’enseignante.",
+       "w": [
+        "Toucher aux déchets inconnus.",
+        "Annoncer un résultat déjà mesuré.",
+        "Ignorer toutes les catégories."
+       ],
+       "e": [
+        "La consigne exclut cette manipulation.",
+        "Aucun résultat n’est fourni.",
+        "Les catégories doivent être expliquées."
+       ],
+       "y": "La vérification précède l’action."
+      },
+      {
+       "q": "Texte original : Dans une école imaginaire de Douala, le club constate que des papiers restent près des salles. Bih propose une affiche expliquant les catégories de la collecte. Ayuk demande de vérifier les consignes avec l’enseignante avant d’installer les boîtes. Le groupe prépare le texte mais n’a pas encore réalisé l’installation. Aucun élève ne doit toucher aux déchets coupants ou inconnus. Le passage ne donne pas le résultat d’une collecte.\nQuel état d’avancement est indiqué ?",
+       "r": "Le texte est préparé, mais l’installation n’est pas encore réalisée.",
+       "w": [
+        "Tout le recyclage est définitivement accompli.",
+        "Une collecte mesurée prouve déjà le succès.",
+        "Le passage raconte un résultat chiffré."
+       ],
+       "e": [
+        "Le projet n’équivaut pas à un recyclage achevé.",
+        "Aucune mesure de collecte n’est donnée.",
+        "Il ne contient pas ce résultat."
+       ],
+       "y": "Préparation et résultat doivent être distingués."
+      },
+      {
+       "q": "Texte original : Dans une école imaginaire de Douala, le club constate que des papiers restent près des salles. Bih propose une affiche expliquant les catégories de la collecte. Ayuk demande de vérifier les consignes avec l’enseignante avant d’installer les boîtes. Le groupe prépare le texte mais n’a pas encore réalisé l’installation. Aucun élève ne doit toucher aux déchets coupants ou inconnus. Le passage ne donne pas le résultat d’une collecte.\nQuelle affirmation dépasse le passage ?",
+       "r": "La collecte a déjà prouvé son efficacité.",
+       "w": [
+        "Bih propose une affiche.",
+        "Ayuk demande une vérification.",
+        "Le groupe prépare le texte."
+       ],
+       "e": [
+        "La proposition est écrite.",
+        "La demande est explicite.",
+        "La préparation est indiquée."
+       ],
+       "y": "Un résultat non fourni ne doit pas être ajouté."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-25-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "information explicite",
+     "right": "Le lecteur reprend un lieu ou une action effectivement écrit."
+    },
+    {
+     "left": "inférence justifiée",
+     "right": "Le lecteur explique une intention à partir des actions décrites."
+    },
+    {
+     "left": "idée principale",
+     "right": "Le lecteur résume le problème et la réponse décrite."
+    },
+    {
+     "left": "information absente",
+     "right": "Le lecteur refuse de donner un prix non mentionné."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-25-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "information explicite : un renseignement directement indiqué dans le passage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le texte lui-même fournit l’information. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "inférence justifiée : une conclusion appuyée sur des indices du passage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une conclusion doit rester liée à des indices. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "idée principale : le sens général rassemblant les actions importantes.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le résumé doit représenter l’ensemble pertinent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "information absente : un renseignement que le passage ne permet pas d’établir.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut reconnaître les limites du passage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une information explicite est obligatoirement un détail inventé.",
+      "truth": "false",
+      "explain": "Le texte lui-même fournit l’information."
+     },
+     {
+      "text": "Toute supposition est une preuve tirée du texte.",
+      "truth": "false",
+      "explain": "Une conclusion doit rester liée à des indices."
+     },
+     {
+      "text": "Un mot secondaire suffit toujours à résumer tout le passage.",
+      "truth": "false",
+      "explain": "Le résumé doit représenter l’ensemble pertinent."
+     },
+     {
+      "text": "Une donnée absente devient un fait dès qu’on la devine.",
+      "truth": "false",
+      "explain": "Il faut reconnaître les limites du passage."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

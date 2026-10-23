@@ -1,0 +1,544 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "e4-8",
+   "name": "Essay planning, thesis statements and topic sentences"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An essay needs a focus and an order that helps the reader. A thesis statement presents the controlling idea or position; a topic sentence gives the main idea of a paragraph. Supporting details explain, illustrate or qualify that idea. A plan is an outline, not the final essay. An introduction should prepare the reader for the focus, while a conclusion draws together the developed ideas. Avoid claiming that every essay type needs an identical rigid formula.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to plan a focused essay with a controlling idea and paragraphs that develop it. Builds on: directed-writing purpose and sentence accuracy. Leads to: argumentative and narrative writing with an organised structure."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "An essay needs a focus and an order that helps the reader. A thesis statement presents the controlling idea or position; a topic sentence gives the main idea of a paragraph. Supporting details explain, illustrate or qualify that idea. A plan is an outline, not the final essay. An introduction should prepare the reader for the focus, while a conclusion draws together the developed ideas. Avoid claiming that every essay type needs an identical rigid formula."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: Original plan on reading clubs: Focus: a club can support reading when members participate. Paragraph idea: shared discussion clarifies understanding. Support: members compare reasons for an interpretation. Paragraph idea: organisation makes participation possible. Support: clear roles and suitable meeting times. Ending: the club’s value depends on active use. A sample topic sentence is Shared discussion helps members test their understanding."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "State one manageable focus. Group related points and give each paragraph a clear role. Check that evidence supports the paragraph idea and that the paragraph serves the overall focus. Do not confuse a paragraph’s opening sentence with the whole essay’s thesis."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "thesis statement",
+    "meaning": "the essay’s controlling idea or position"
+   },
+   {
+    "word": "topic sentence",
+    "meaning": "the main idea guiding a paragraph"
+   },
+   {
+    "word": "supporting detail",
+    "meaning": "an explanation or example developing a paragraph’s idea"
+   },
+   {
+    "word": "plan",
+    "meaning": "an outline arranging ideas before drafting"
+   }
+  ],
+  "mistake": {
+   "wrong": "A thesis must list every possible unrelated topic.",
+   "right": "thesis statement: the essay’s controlling idea or position.",
+   "why": "A controlling idea gives the essay focus."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The planned essay argues that participation makes a reading club useful. Explain the selected feature.",
+  "steps": [
+   "The essay’s controlling idea or position.",
+   "A controlling idea gives the essay focus."
+  ],
+  "answer": "thesis statement",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-8-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "thesis statement: the essay’s controlling idea or position.",
+     "topic sentence: the main idea guiding a paragraph.",
+     "supporting detail: an explanation or example developing a paragraph’s idea.",
+     "plan: an outline arranging ideas before drafting."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-8-terms"
+    }
+   },
+   {
+    "id": "e4-8-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The planned essay argues that participation makes a reading club useful.",
+     "Shared discussion helps members test their understanding introduces one paragraph.",
+     "Members compare reasons for their interpretations illustrates useful discussion.",
+     "The writer groups discussion and organisation in separate paragraph ideas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-8-cases"
+    }
+   },
+   {
+    "id": "e4-8-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A thesis must list every possible unrelated topic. Correction: A controlling idea gives the essay focus.",
+     "A topic sentence must always be the entire essay’s conclusion. Correction: It guides the paragraph’s development.",
+     "Any unrelated anecdote automatically supports a paragraph. Correction: Support must connect to the specific idea.",
+     "An outline is automatically a finished essay. Correction: The plan guides later development into connected prose."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-8-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "thesis statement: the essay’s controlling idea or position.",
+        "truth": "true",
+        "explain": "This is correct: the essay’s controlling idea or position. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "topic sentence: the main idea guiding a paragraph.",
+        "truth": "true",
+        "explain": "This is correct: the main idea guiding a paragraph. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "supporting detail: an explanation or example developing a paragraph’s idea.",
+        "truth": "true",
+        "explain": "This is correct: an explanation or example developing a paragraph’s idea. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "plan: an outline arranging ideas before drafting.",
+        "truth": "true",
+        "explain": "This is correct: an outline arranging ideas before drafting. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A thesis must list every possible unrelated topic.",
+        "truth": "false",
+        "explain": "A controlling idea gives the essay focus."
+       },
+       {
+        "text": "A topic sentence must always be the entire essay’s conclusion.",
+        "truth": "false",
+        "explain": "It guides the paragraph’s development."
+       },
+       {
+        "text": "Any unrelated anecdote automatically supports a paragraph.",
+        "truth": "false",
+        "explain": "Support must connect to the specific idea."
+       },
+       {
+        "text": "An outline is automatically a finished essay.",
+        "truth": "false",
+        "explain": "The plan guides later development into connected prose."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-8-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the essay’s controlling idea or position?",
+       "r": "thesis statement",
+       "w": [
+        "topic sentence",
+        "supporting detail",
+        "plan"
+       ],
+       "e": [
+        "That concerns the main idea guiding a paragraph, rather than the essay’s controlling idea or position.",
+        "That concerns an explanation or example developing a paragraph’s idea, rather than the essay’s controlling idea or position.",
+        "That concerns an outline arranging ideas before drafting, rather than the essay’s controlling idea or position."
+       ],
+       "y": "A controlling idea gives the essay focus."
+      },
+      {
+       "q": "Which term means the main idea guiding a paragraph?",
+       "r": "topic sentence",
+       "w": [
+        "thesis statement",
+        "supporting detail",
+        "plan"
+       ],
+       "e": [
+        "That concerns the essay’s controlling idea or position, rather than the main idea guiding a paragraph.",
+        "That concerns an explanation or example developing a paragraph’s idea, rather than the main idea guiding a paragraph.",
+        "That concerns an outline arranging ideas before drafting, rather than the main idea guiding a paragraph."
+       ],
+       "y": "It guides the paragraph’s development."
+      },
+      {
+       "q": "Which term means an explanation or example developing a paragraph’s idea?",
+       "r": "supporting detail",
+       "w": [
+        "thesis statement",
+        "topic sentence",
+        "plan"
+       ],
+       "e": [
+        "That concerns the essay’s controlling idea or position, rather than an explanation or example developing a paragraph’s idea.",
+        "That concerns the main idea guiding a paragraph, rather than an explanation or example developing a paragraph’s idea.",
+        "That concerns an outline arranging ideas before drafting, rather than an explanation or example developing a paragraph’s idea."
+       ],
+       "y": "Support must connect to the specific idea."
+      },
+      {
+       "q": "Which term means an outline arranging ideas before drafting?",
+       "r": "plan",
+       "w": [
+        "thesis statement",
+        "topic sentence",
+        "supporting detail"
+       ],
+       "e": [
+        "That concerns the essay’s controlling idea or position, rather than an outline arranging ideas before drafting.",
+        "That concerns the main idea guiding a paragraph, rather than an outline arranging ideas before drafting.",
+        "That concerns an explanation or example developing a paragraph’s idea, rather than an outline arranging ideas before drafting."
+       ],
+       "y": "The plan guides later development into connected prose."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-8-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The planned essay argues that participation makes a reading club useful.\nWhich description best fits the selected feature?",
+       "r": "thesis statement",
+       "w": [
+        "topic sentence",
+        "supporting detail",
+        "plan"
+       ],
+       "e": [
+        "That means the main idea guiding a paragraph. The selected feature instead illustrates the essay’s controlling idea or position.",
+        "That means an explanation or example developing a paragraph’s idea. The selected feature instead illustrates the essay’s controlling idea or position.",
+        "That means an outline arranging ideas before drafting. The selected feature instead illustrates the essay’s controlling idea or position."
+       ],
+       "y": "A controlling idea gives the essay focus."
+      },
+      {
+       "q": "Shared discussion helps members test their understanding introduces one paragraph.\nWhich description best fits the selected feature?",
+       "r": "topic sentence",
+       "w": [
+        "thesis statement",
+        "supporting detail",
+        "plan"
+       ],
+       "e": [
+        "That means the essay’s controlling idea or position. The selected feature instead illustrates the main idea guiding a paragraph.",
+        "That means an explanation or example developing a paragraph’s idea. The selected feature instead illustrates the main idea guiding a paragraph.",
+        "That means an outline arranging ideas before drafting. The selected feature instead illustrates the main idea guiding a paragraph."
+       ],
+       "y": "It guides the paragraph’s development."
+      },
+      {
+       "q": "Members compare reasons for their interpretations illustrates useful discussion.\nWhich description best fits the selected feature?",
+       "r": "supporting detail",
+       "w": [
+        "thesis statement",
+        "topic sentence",
+        "plan"
+       ],
+       "e": [
+        "That means the essay’s controlling idea or position. The selected feature instead illustrates an explanation or example developing a paragraph’s idea.",
+        "That means the main idea guiding a paragraph. The selected feature instead illustrates an explanation or example developing a paragraph’s idea.",
+        "That means an outline arranging ideas before drafting. The selected feature instead illustrates an explanation or example developing a paragraph’s idea."
+       ],
+       "y": "Support must connect to the specific idea."
+      },
+      {
+       "q": "The writer groups discussion and organisation in separate paragraph ideas.\nWhich description best fits the selected feature?",
+       "r": "plan",
+       "w": [
+        "thesis statement",
+        "topic sentence",
+        "supporting detail"
+       ],
+       "e": [
+        "That means the essay’s controlling idea or position. The selected feature instead illustrates an outline arranging ideas before drafting.",
+        "That means the main idea guiding a paragraph. The selected feature instead illustrates an outline arranging ideas before drafting.",
+        "That means an explanation or example developing a paragraph’s idea. The selected feature instead illustrates an outline arranging ideas before drafting."
+       ],
+       "y": "The plan guides later development into connected prose."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-8-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "A clear purpose guides the response.",
+       "b": "A clear purpose guides the response."
+      },
+      {
+       "a": "The audience shapes the language.",
+       "b": "The audience shapes the language."
+      },
+      {
+       "a": "Supporting details develop the main idea.",
+       "b": "Supporting details develop the main idea."
+      },
+      {
+       "a": "A final check improves the draft.",
+       "b": "A final check improves the draft."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e4-8-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "thesis statement",
+     "right": "The planned essay argues that participation makes a reading club useful."
+    },
+    {
+     "left": "topic sentence",
+     "right": "Shared discussion helps members test their understanding introduces one paragraph."
+    },
+    {
+     "left": "supporting detail",
+     "right": "Members compare reasons for their interpretations illustrates useful discussion."
+    },
+    {
+     "left": "plan",
+     "right": "The writer groups discussion and organisation in separate paragraph ideas."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-8-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "thesis statement: the essay’s controlling idea or position.",
+      "truth": "true",
+      "explain": "This is correct: the essay’s controlling idea or position. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "topic sentence: the main idea guiding a paragraph.",
+      "truth": "true",
+      "explain": "This is correct: the main idea guiding a paragraph. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "supporting detail: an explanation or example developing a paragraph’s idea.",
+      "truth": "true",
+      "explain": "This is correct: an explanation or example developing a paragraph’s idea. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "plan: an outline arranging ideas before drafting.",
+      "truth": "true",
+      "explain": "This is correct: an outline arranging ideas before drafting. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A thesis must list every possible unrelated topic.",
+      "truth": "false",
+      "explain": "A controlling idea gives the essay focus."
+     },
+     {
+      "text": "A topic sentence must always be the entire essay’s conclusion.",
+      "truth": "false",
+      "explain": "It guides the paragraph’s development."
+     },
+     {
+      "text": "Any unrelated anecdote automatically supports a paragraph.",
+      "truth": "false",
+      "explain": "Support must connect to the specific idea."
+     },
+     {
+      "text": "An outline is automatically a finished essay.",
+      "truth": "false",
+      "explain": "The plan guides later development into connected prose."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Plan an essay on how a school club can help learners. Write a controlling statement, paragraph ideas with support and a proposed conclusion. Develop one planned paragraph into prose.",
+  "model": [
+   "Original plan on reading clubs: Focus: a club can support reading when members participate. Paragraph idea: shared discussion clarifies understanding. Support: members compare reasons for an interpretation. Paragraph idea: organisation makes participation possible. Support: clear roles and suitable meeting times. Ending: the club’s value depends on active use. A sample topic sentence is Shared discussion helps members test their understanding."
+  ],
+  "checklist": [
+   "My focus is clear and manageable.",
+   "Each planned paragraph has relevant support.",
+   "My developed paragraph follows its topic sentence."
+  ]
+ }
+}

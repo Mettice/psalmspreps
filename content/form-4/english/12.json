@@ -1,0 +1,603 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "e4-12",
+   "name": "Adverbs of frequency, place and manner"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Frequency tells how often, place tells where and manner tells how an action happens. Often, outside and carefully illustrate these functions. A common frequency position is before an ordinary main verb but after be: Bih often reads; she is often early. Manner and place positions depend on the clause and emphasis. Some standard alternatives are possible, so a preferred model is not the only grammatical order. Not every -ly word is an adverb, and not every adverb ends in -ly.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify what an adverb contributes and choose a suitable position in a clear model sentence. Builds on: word classes, verb uses and adverbial phrases. Leads to: precise description and narrative detail."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Frequency tells how often, place tells where and manner tells how an action happens. Often, outside and carefully illustrate these functions. A common frequency position is before an ordinary main verb but after be: Bih often reads; she is often early. Manner and place positions depend on the clause and emphasis. Some standard alternatives are possible, so a preferred model is not the only grammatical order. Not every -ly word is an adverb, and not every adverb ends in -ly."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: Ayuk often studies outside. He reads carefully. Often describes frequency, outside location and carefully manner. Compare a careful reader with reads carefully: the adjective describes the noun, while the adverb modifies the action. Never already has negative force in the neutral standard pattern used here."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Ask which question the expression answers: how often, where or how. Check its relation to the verb and the rest of the sentence. Avoid unnecessary double negatives and preserve meaning when moving an adverb. Accept a standard alternative order when context supports it."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "frequency",
+    "meaning": "how often an event happens"
+   },
+   {
+    "word": "place",
+    "meaning": "where an event occurs"
+   },
+   {
+    "word": "manner",
+    "meaning": "how an action is performed"
+   },
+   {
+    "word": "adjective/adverb contrast",
+    "meaning": "choosing a describing form according to what it modifies"
+   }
+  ],
+  "mistake": {
+   "wrong": "Often tells the colour of the book.",
+   "right": "frequency: how often an event happens.",
+   "why": "Often describes recurrence, not colour."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ayuk often reads after supper. Explain the selected feature.",
+  "steps": [
+   "How often an event happens.",
+   "Often describes recurrence, not colour."
+  ],
+  "answer": "frequency",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-12-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "frequency: how often an event happens.",
+     "place: where an event occurs.",
+     "manner: how an action is performed.",
+     "adjective/adverb contrast: choosing a describing form according to what it modifies."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-12-terms"
+    }
+   },
+   {
+    "id": "e4-12-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Ayuk often reads after supper.",
+     "Ayuk studies outside.",
+     "Bih reads carefully.",
+     "A careful reader reads carefully."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-12-cases"
+    }
+   },
+   {
+    "id": "e4-12-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Often tells the colour of the book. Correction: Often describes recurrence, not colour.",
+     "Outside here specifies how often he studies. Correction: It locates the activity rather than giving its frequency.",
+     "Carefully must be an adjective describing Bih’s height. Correction: It modifies how she reads.",
+     "A carefully reader is the neutral adjective pattern. Correction: Use careful to modify reader and carefully to modify reads."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-12-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "frequency: how often an event happens.",
+        "truth": "true",
+        "explain": "This is correct: how often an event happens. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "place: where an event occurs.",
+        "truth": "true",
+        "explain": "This is correct: where an event occurs. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "manner: how an action is performed.",
+        "truth": "true",
+        "explain": "This is correct: how an action is performed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "adjective/adverb contrast: choosing a describing form according to what it modifies.",
+        "truth": "true",
+        "explain": "This is correct: choosing a describing form according to what it modifies. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Often tells the colour of the book.",
+        "truth": "false",
+        "explain": "Often describes recurrence, not colour."
+       },
+       {
+        "text": "Outside here specifies how often he studies.",
+        "truth": "false",
+        "explain": "It locates the activity rather than giving its frequency."
+       },
+       {
+        "text": "Carefully must be an adjective describing Bih’s height.",
+        "truth": "false",
+        "explain": "It modifies how she reads."
+       },
+       {
+        "text": "A carefully reader is the neutral adjective pattern.",
+        "truth": "false",
+        "explain": "Use careful to modify reader and carefully to modify reads."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means how often an event happens?",
+       "r": "frequency",
+       "w": [
+        "place",
+        "manner",
+        "adjective/adverb contrast"
+       ],
+       "e": [
+        "That concerns where an event occurs, rather than how often an event happens.",
+        "That concerns how an action is performed, rather than how often an event happens.",
+        "That concerns choosing a describing form according to what it modifies, rather than how often an event happens."
+       ],
+       "y": "Often describes recurrence, not colour."
+      },
+      {
+       "q": "Which term means where an event occurs?",
+       "r": "place",
+       "w": [
+        "frequency",
+        "manner",
+        "adjective/adverb contrast"
+       ],
+       "e": [
+        "That concerns how often an event happens, rather than where an event occurs.",
+        "That concerns how an action is performed, rather than where an event occurs.",
+        "That concerns choosing a describing form according to what it modifies, rather than where an event occurs."
+       ],
+       "y": "It locates the activity rather than giving its frequency."
+      },
+      {
+       "q": "Which term means how an action is performed?",
+       "r": "manner",
+       "w": [
+        "frequency",
+        "place",
+        "adjective/adverb contrast"
+       ],
+       "e": [
+        "That concerns how often an event happens, rather than how an action is performed.",
+        "That concerns where an event occurs, rather than how an action is performed.",
+        "That concerns choosing a describing form according to what it modifies, rather than how an action is performed."
+       ],
+       "y": "It modifies how she reads."
+      },
+      {
+       "q": "Which term means choosing a describing form according to what it modifies?",
+       "r": "adjective/adverb contrast",
+       "w": [
+        "frequency",
+        "place",
+        "manner"
+       ],
+       "e": [
+        "That concerns how often an event happens, rather than choosing a describing form according to what it modifies.",
+        "That concerns where an event occurs, rather than choosing a describing form according to what it modifies.",
+        "That concerns how an action is performed, rather than choosing a describing form according to what it modifies."
+       ],
+       "y": "Use careful to modify reader and carefully to modify reads."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk often reads after supper.\nWhich description best fits the selected feature?",
+       "r": "frequency",
+       "w": [
+        "place",
+        "manner",
+        "adjective/adverb contrast"
+       ],
+       "e": [
+        "That means where an event occurs. The selected feature instead illustrates how often an event happens.",
+        "That means how an action is performed. The selected feature instead illustrates how often an event happens.",
+        "That means choosing a describing form according to what it modifies. The selected feature instead illustrates how often an event happens."
+       ],
+       "y": "Often describes recurrence, not colour."
+      },
+      {
+       "q": "Ayuk studies outside.\nWhich description best fits the selected feature?",
+       "r": "place",
+       "w": [
+        "frequency",
+        "manner",
+        "adjective/adverb contrast"
+       ],
+       "e": [
+        "That means how often an event happens. The selected feature instead illustrates where an event occurs.",
+        "That means how an action is performed. The selected feature instead illustrates where an event occurs.",
+        "That means choosing a describing form according to what it modifies. The selected feature instead illustrates where an event occurs."
+       ],
+       "y": "It locates the activity rather than giving its frequency."
+      },
+      {
+       "q": "Bih reads carefully.\nWhich description best fits the selected feature?",
+       "r": "manner",
+       "w": [
+        "frequency",
+        "place",
+        "adjective/adverb contrast"
+       ],
+       "e": [
+        "That means how often an event happens. The selected feature instead illustrates how an action is performed.",
+        "That means where an event occurs. The selected feature instead illustrates how an action is performed.",
+        "That means choosing a describing form according to what it modifies. The selected feature instead illustrates how an action is performed."
+       ],
+       "y": "It modifies how she reads."
+      },
+      {
+       "q": "A careful reader reads carefully.\nWhich description best fits the selected feature?",
+       "r": "adjective/adverb contrast",
+       "w": [
+        "frequency",
+        "place",
+        "manner"
+       ],
+       "e": [
+        "That means how often an event happens. The selected feature instead illustrates choosing a describing form according to what it modifies.",
+        "That means where an event occurs. The selected feature instead illustrates choosing a describing form according to what it modifies.",
+        "That means how an action is performed. The selected feature instead illustrates choosing a describing form according to what it modifies."
+       ],
+       "y": "Use careful to modify reader and carefully to modify reads."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-12-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choose the manner form: Bih checks the work ___.",
+       "r": "carefully",
+       "w": [
+        "careful",
+        "carefulness",
+        "care"
+       ],
+       "e": [
+        "Careful is the adjective.",
+        "Carefulness is a noun.",
+        "Care is not the manner adverb required."
+       ],
+       "y": "The adverb modifies checks."
+      },
+      {
+       "q": "Which word tells place in Ayuk often studies outside?",
+       "r": "outside",
+       "w": [
+        "often",
+        "studies",
+        "Ayuk"
+       ],
+       "e": [
+        "Often gives frequency.",
+        "Studies is the verb.",
+        "Ayuk is the subject."
+       ],
+       "y": "Outside locates the studying."
+      },
+      {
+       "q": "Choose the common neutral position with be.",
+       "r": "Bih is often early.",
+       "w": [
+        "Bih often early.",
+        "Bih is oftenly early.",
+        "Bih is early oftenly."
+       ],
+       "e": [
+        "The finite verb is missing.",
+        "Oftenly is not the standard adverb.",
+        "Oftenly is not the standard adverb."
+       ],
+       "y": "Often commonly follows be."
+      },
+      {
+       "q": "Choose the standard neutral negative-frequency model.",
+       "r": "Ayuk never misses the club.",
+       "w": [
+        "Ayuk does not never miss the club.",
+        "Ayuk never miss the club, as a present habit.",
+        "Ayuk is never misses the club."
+       ],
+       "e": [
+        "Never already supplies the negative meaning in this pattern.",
+        "The singular subject needs misses.",
+        "Do not add be before this simple-present verb."
+       ],
+       "y": "Never and subject agreement fit the model."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-12-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "frequency",
+     "right": "Ayuk often reads after supper."
+    },
+    {
+     "left": "place",
+     "right": "Ayuk studies outside."
+    },
+    {
+     "left": "manner",
+     "right": "Bih reads carefully."
+    },
+    {
+     "left": "adjective/adverb contrast",
+     "right": "A careful reader reads carefully."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-12-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "frequency: how often an event happens.",
+      "truth": "true",
+      "explain": "This is correct: how often an event happens. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "place: where an event occurs.",
+      "truth": "true",
+      "explain": "This is correct: where an event occurs. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "manner: how an action is performed.",
+      "truth": "true",
+      "explain": "This is correct: how an action is performed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "adjective/adverb contrast: choosing a describing form according to what it modifies.",
+      "truth": "true",
+      "explain": "This is correct: choosing a describing form according to what it modifies. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Often tells the colour of the book.",
+      "truth": "false",
+      "explain": "Often describes recurrence, not colour."
+     },
+     {
+      "text": "Outside here specifies how often he studies.",
+      "truth": "false",
+      "explain": "It locates the activity rather than giving its frequency."
+     },
+     {
+      "text": "Carefully must be an adjective describing Bih’s height.",
+      "truth": "false",
+      "explain": "It modifies how she reads."
+     },
+     {
+      "text": "A carefully reader is the neutral adjective pattern.",
+      "truth": "false",
+      "explain": "Use careful to modify reader and carefully to modify reads."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

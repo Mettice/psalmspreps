@@ -1,0 +1,604 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  3,
+  11
+ ],
+ "skills": [
+  {
+   "id": "e4-21",
+   "name": "Sentence types and communicative purpose"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A declarative normally states information; an interrogative normally asks a question; an imperative can give an instruction or request; an exclamative expresses a strong reaction through its construction. Form and communicative purpose can differ: Could you close the door? is interrogative in form but can function as a polite request. An exclamation mark alone does not turn every sentence into an exclamative structure. Read the grammar and situation, not merely the final sign.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish declarative, interrogative, imperative and exclamative forms without relying on punctuation alone. Builds on: verb and clause patterns in statements and questions. Leads to: argumentative writing and sentence-structure analysis."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A declarative normally states information; an interrogative normally asks a question; an imperative can give an instruction or request; an exclamative expresses a strong reaction through its construction. Form and communicative purpose can differ: Could you close the door? is interrogative in form but can function as a polite request. An exclamation mark alone does not turn every sentence into an exclamative structure. Read the grammar and situation, not merely the final sign."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: Bih has the book. Has Bih brought it? Bring the book, please. What a useful book it is! The imperative normally omits the subject you. A question can also request an action, so identify whether an exercise asks for grammatical form or communicative purpose."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Find the finite verb, subject pattern and any imperative or exclamative construction. Label form and function separately when needed. Use punctuation to support the construction instead of letting it decide everything by itself."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "declarative",
+    "meaning": "a statement-form clause in the model"
+   },
+   {
+    "word": "interrogative",
+    "meaning": "a question-form clause in the model"
+   },
+   {
+    "word": "imperative",
+    "meaning": "a directive form normally without an expressed you subject"
+   },
+   {
+    "word": "exclamative",
+    "meaning": "a construction expressing a strong reaction, such as what a or how"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every declarative must ask a direct question.",
+   "right": "declarative: a statement-form clause in the model.",
+   "why": "This form states information."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih has the book. Explain the selected feature.",
+  "steps": [
+   "A statement-form clause in the model.",
+   "This form states information."
+  ],
+  "answer": "declarative",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-21-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "declarative: a statement-form clause in the model.",
+     "interrogative: a question-form clause in the model.",
+     "imperative: a directive form normally without an expressed you subject.",
+     "exclamative: a construction expressing a strong reaction, such as what a or how."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-21-terms"
+    }
+   },
+   {
+    "id": "e4-21-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Bih has the book.",
+     "Has Bih brought the book?",
+     "Bring the book, please.",
+     "What a useful book it is!"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-21-cases"
+    }
+   },
+   {
+    "id": "e4-21-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every declarative must ask a direct question. Correction: This form states information.",
+     "A polite request can never use interrogative form. Correction: A question form can function as a request in context.",
+     "An imperative always needs you written before the base verb. Correction: The directive model normally leaves you unexpressed.",
+     "Any sentence becomes an exclamative structure solely by adding an exclamation mark. Correction: The construction, not just the mark, matters."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-21-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "declarative: a statement-form clause in the model.",
+        "truth": "true",
+        "explain": "This is correct: a statement-form clause in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "interrogative: a question-form clause in the model.",
+        "truth": "true",
+        "explain": "This is correct: a question-form clause in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "imperative: a directive form normally without an expressed you subject.",
+        "truth": "true",
+        "explain": "This is correct: a directive form normally without an expressed you subject. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "exclamative: a construction expressing a strong reaction, such as what a or how.",
+        "truth": "true",
+        "explain": "This is correct: a construction expressing a strong reaction, such as what a or how. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every declarative must ask a direct question.",
+        "truth": "false",
+        "explain": "This form states information."
+       },
+       {
+        "text": "A polite request can never use interrogative form.",
+        "truth": "false",
+        "explain": "A question form can function as a request in context."
+       },
+       {
+        "text": "An imperative always needs you written before the base verb.",
+        "truth": "false",
+        "explain": "The directive model normally leaves you unexpressed."
+       },
+       {
+        "text": "Any sentence becomes an exclamative structure solely by adding an exclamation mark.",
+        "truth": "false",
+        "explain": "The construction, not just the mark, matters."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-21-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a statement-form clause in the model?",
+       "r": "declarative",
+       "w": [
+        "interrogative",
+        "imperative",
+        "exclamative"
+       ],
+       "e": [
+        "That concerns a question-form clause in the model, rather than a statement-form clause in the model.",
+        "That concerns a directive form normally without an expressed you subject, rather than a statement-form clause in the model.",
+        "That concerns a construction expressing a strong reaction, such as what a or how, rather than a statement-form clause in the model."
+       ],
+       "y": "This form states information."
+      },
+      {
+       "q": "Which term means a question-form clause in the model?",
+       "r": "interrogative",
+       "w": [
+        "declarative",
+        "imperative",
+        "exclamative"
+       ],
+       "e": [
+        "That concerns a statement-form clause in the model, rather than a question-form clause in the model.",
+        "That concerns a directive form normally without an expressed you subject, rather than a question-form clause in the model.",
+        "That concerns a construction expressing a strong reaction, such as what a or how, rather than a question-form clause in the model."
+       ],
+       "y": "A question form can function as a request in context."
+      },
+      {
+       "q": "Which term means a directive form normally without an expressed you subject?",
+       "r": "imperative",
+       "w": [
+        "declarative",
+        "interrogative",
+        "exclamative"
+       ],
+       "e": [
+        "That concerns a statement-form clause in the model, rather than a directive form normally without an expressed you subject.",
+        "That concerns a question-form clause in the model, rather than a directive form normally without an expressed you subject.",
+        "That concerns a construction expressing a strong reaction, such as what a or how, rather than a directive form normally without an expressed you subject."
+       ],
+       "y": "The directive model normally leaves you unexpressed."
+      },
+      {
+       "q": "Which term means a construction expressing a strong reaction, such as what a or how?",
+       "r": "exclamative",
+       "w": [
+        "declarative",
+        "interrogative",
+        "imperative"
+       ],
+       "e": [
+        "That concerns a statement-form clause in the model, rather than a construction expressing a strong reaction, such as what a or how.",
+        "That concerns a question-form clause in the model, rather than a construction expressing a strong reaction, such as what a or how.",
+        "That concerns a directive form normally without an expressed you subject, rather than a construction expressing a strong reaction, such as what a or how."
+       ],
+       "y": "The construction, not just the mark, matters."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-21-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih has the book.\nWhich description best fits the selected feature?",
+       "r": "declarative",
+       "w": [
+        "interrogative",
+        "imperative",
+        "exclamative"
+       ],
+       "e": [
+        "That means a question-form clause in the model. The selected feature instead illustrates a statement-form clause in the model.",
+        "That means a directive form normally without an expressed you subject. The selected feature instead illustrates a statement-form clause in the model.",
+        "That means a construction expressing a strong reaction, such as what a or how. The selected feature instead illustrates a statement-form clause in the model."
+       ],
+       "y": "This form states information."
+      },
+      {
+       "q": "Has Bih brought the book?\nWhich description best fits the selected feature?",
+       "r": "interrogative",
+       "w": [
+        "declarative",
+        "imperative",
+        "exclamative"
+       ],
+       "e": [
+        "That means a statement-form clause in the model. The selected feature instead illustrates a question-form clause in the model.",
+        "That means a directive form normally without an expressed you subject. The selected feature instead illustrates a question-form clause in the model.",
+        "That means a construction expressing a strong reaction, such as what a or how. The selected feature instead illustrates a question-form clause in the model."
+       ],
+       "y": "A question form can function as a request in context."
+      },
+      {
+       "q": "Bring the book, please.\nWhich description best fits the selected feature?",
+       "r": "imperative",
+       "w": [
+        "declarative",
+        "interrogative",
+        "exclamative"
+       ],
+       "e": [
+        "That means a statement-form clause in the model. The selected feature instead illustrates a directive form normally without an expressed you subject.",
+        "That means a question-form clause in the model. The selected feature instead illustrates a directive form normally without an expressed you subject.",
+        "That means a construction expressing a strong reaction, such as what a or how. The selected feature instead illustrates a directive form normally without an expressed you subject."
+       ],
+       "y": "The directive model normally leaves you unexpressed."
+      },
+      {
+       "q": "What a useful book it is!\nWhich description best fits the selected feature?",
+       "r": "exclamative",
+       "w": [
+        "declarative",
+        "interrogative",
+        "imperative"
+       ],
+       "e": [
+        "That means a statement-form clause in the model. The selected feature instead illustrates a construction expressing a strong reaction, such as what a or how.",
+        "That means a question-form clause in the model. The selected feature instead illustrates a construction expressing a strong reaction, such as what a or how.",
+        "That means a directive form normally without an expressed you subject. The selected feature instead illustrates a construction expressing a strong reaction, such as what a or how."
+       ],
+       "y": "The construction, not just the mark, matters."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-21-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Identify the form of Could you pass the book?",
+       "r": "interrogative",
+       "w": [
+        "declarative",
+        "imperative form",
+        "noun phrase only"
+       ],
+       "e": [
+        "It has question structure.",
+        "Its request function does not change its interrogative form.",
+        "It is a full question clause."
+       ],
+       "y": "Separate grammatical question form from request function."
+      },
+      {
+       "q": "Choose the imperative form.",
+       "r": "Read the notice, please.",
+       "w": [
+        "Did you read the notice?",
+        "You read the notice yesterday.",
+        "What a clear notice it is!"
+       ],
+       "e": [
+        "This is interrogative.",
+        "This is declarative in the given past context.",
+        "This is exclamative."
+       ],
+       "y": "The base verb directs an action without an expressed subject."
+      },
+      {
+       "q": "Choose the exclamative construction.",
+       "r": "What a clear explanation that is!",
+       "w": [
+        "Is the explanation clear?",
+        "The explanation is clear.",
+        "Explain clearly, please."
+       ],
+       "e": [
+        "This asks a question.",
+        "This is a declarative statement.",
+        "This gives an instruction."
+       ],
+       "y": "What a introduces the exclamative model."
+      },
+      {
+       "q": "Identify the form of Bih finished the task.",
+       "r": "declarative",
+       "w": [
+        "interrogative",
+        "imperative",
+        "exclamative construction"
+       ],
+       "e": [
+        "There is no question structure here.",
+        "It reports an event instead of directing Bih.",
+        "It lacks the exclamative construction studied."
+       ],
+       "y": "The clause presents a statement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-21-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "declarative",
+     "right": "Bih has the book."
+    },
+    {
+     "left": "interrogative",
+     "right": "Has Bih brought the book?"
+    },
+    {
+     "left": "imperative",
+     "right": "Bring the book, please."
+    },
+    {
+     "left": "exclamative",
+     "right": "What a useful book it is!"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-21-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "declarative: a statement-form clause in the model.",
+      "truth": "true",
+      "explain": "This is correct: a statement-form clause in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "interrogative: a question-form clause in the model.",
+      "truth": "true",
+      "explain": "This is correct: a question-form clause in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "imperative: a directive form normally without an expressed you subject.",
+      "truth": "true",
+      "explain": "This is correct: a directive form normally without an expressed you subject. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "exclamative: a construction expressing a strong reaction, such as what a or how.",
+      "truth": "true",
+      "explain": "This is correct: a construction expressing a strong reaction, such as what a or how. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every declarative must ask a direct question.",
+      "truth": "false",
+      "explain": "This form states information."
+     },
+     {
+      "text": "A polite request can never use interrogative form.",
+      "truth": "false",
+      "explain": "A question form can function as a request in context."
+     },
+     {
+      "text": "An imperative always needs you written before the base verb.",
+      "truth": "false",
+      "explain": "The directive model normally leaves you unexpressed."
+     },
+     {
+      "text": "Any sentence becomes an exclamative structure solely by adding an exclamation mark.",
+      "truth": "false",
+      "explain": "The construction, not just the mark, matters."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

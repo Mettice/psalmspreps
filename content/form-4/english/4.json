@@ -1,0 +1,627 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "e4-4",
+   "name": "Simple present and simple past"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The simple present commonly expresses habits or general states; the simple past commonly presents a completed event in a past context. For a third-person singular present subject, ordinary verbs usually add -s or -es. Past negatives and questions with did use the base verb: did not go, not did not went. Be has its own forms. Time words guide interpretation but do not replace reading the meaning. Compare the present habit with the completed past event before choosing a form.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to choose between a present habit and a completed past event and form a past negative correctly. Builds on: parts of speech and the tense overview. Leads to: transitivity, future forms and later narrative tense contrasts."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "The simple present commonly expresses habits or general states; the simple past commonly presents a completed event in a past context. For a third-person singular present subject, ordinary verbs usually add -s or -es. Past negatives and questions with did use the base verb: did not go, not did not went. Be has its own forms. Time words guide interpretation but do not replace reading the meaning. Compare the present habit with the completed past event before choosing a form."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original contrast: Bih {thirdPerson('buy')} materials on market days. Yesterday she {past('buy')} an item. She did not buy it the day before. The negative uses did to carry the past; bought must not be added after did. In a habit report, yesterday cannot simply be attached to the present form without changing the intended construction."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the time frame and whether the sentence is affirmative, negative or a question. Check subject agreement in the present and irregular forms in the past. Preserve the meaning when correcting; do not add two past markers around did."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "present habit",
+    "meaning": "a repeated activity described with the simple present"
+   },
+   {
+    "word": "completed past event",
+    "meaning": "an action presented as finished in its past context"
+   },
+   {
+    "word": "past negative",
+    "meaning": "did not followed by the base verb for an ordinary verb"
+   },
+   {
+    "word": "present agreement",
+    "meaning": "the third-person singular form with an appropriate subject"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every habitual sentence must be a past event.",
+   "right": "present habit: a repeated activity described with the simple present.",
+   "why": "The simple present can report a repeated activity."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih buys supplies on market days. Explain the selected feature.",
+  "steps": [
+   "A repeated activity described with the simple present.",
+   "The simple present can report a repeated activity."
+  ],
+  "answer": "present habit",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-4-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "present habit: a repeated activity described with the simple present.",
+     "completed past event: an action presented as finished in its past context.",
+     "past negative: did not followed by the base verb for an ordinary verb.",
+     "present agreement: the third-person singular form with an appropriate subject."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-4-terms"
+    }
+   },
+   {
+    "id": "e4-4-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Bih buys supplies on market days.",
+     "Yesterday Bih {past('buy')} an item.",
+     "Bih did not buy the item.",
+     "Ayuk {thirdPerson('choose')} the book in the stated habit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-4-cases"
+    }
+   },
+   {
+    "id": "e4-4-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every habitual sentence must be a past event. Correction: The simple present can report a repeated activity.",
+     "Yesterday Bih buy the item is the standard affirmative model. Correction: Use the simple past for the completed event in this model.",
+     "Bih did not bought the item is the standard model. Correction: Did carries the past; the following verb stays in the base form.",
+     "He choose is always the neutral school agreement pattern. Correction: The singular third-person subject requires the appropriate present form."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "present habit: a repeated activity described with the simple present.",
+        "truth": "true",
+        "explain": "This is correct: a repeated activity described with the simple present. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "completed past event: an action presented as finished in its past context.",
+        "truth": "true",
+        "explain": "This is correct: an action presented as finished in its past context. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "past negative: did not followed by the base verb for an ordinary verb.",
+        "truth": "true",
+        "explain": "This is correct: did not followed by the base verb for an ordinary verb. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "present agreement: the third-person singular form with an appropriate subject.",
+        "truth": "true",
+        "explain": "This is correct: the third-person singular form with an appropriate subject. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every habitual sentence must be a past event.",
+        "truth": "false",
+        "explain": "The simple present can report a repeated activity."
+       },
+       {
+        "text": "Yesterday Bih buy the item is the standard affirmative model.",
+        "truth": "false",
+        "explain": "Use the simple past for the completed event in this model."
+       },
+       {
+        "text": "Bih did not bought the item is the standard model.",
+        "truth": "false",
+        "explain": "Did carries the past; the following verb stays in the base form."
+       },
+       {
+        "text": "He choose is always the neutral school agreement pattern.",
+        "truth": "false",
+        "explain": "The singular third-person subject requires the appropriate present form."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a repeated activity described with the simple present?",
+       "r": "present habit",
+       "w": [
+        "completed past event",
+        "past negative",
+        "present agreement"
+       ],
+       "e": [
+        "That concerns an action presented as finished in its past context, rather than a repeated activity described with the simple present.",
+        "That concerns did not followed by the base verb for an ordinary verb, rather than a repeated activity described with the simple present.",
+        "That concerns the third-person singular form with an appropriate subject, rather than a repeated activity described with the simple present."
+       ],
+       "y": "The simple present can report a repeated activity."
+      },
+      {
+       "q": "Which term means an action presented as finished in its past context?",
+       "r": "completed past event",
+       "w": [
+        "present habit",
+        "past negative",
+        "present agreement"
+       ],
+       "e": [
+        "That concerns a repeated activity described with the simple present, rather than an action presented as finished in its past context.",
+        "That concerns did not followed by the base verb for an ordinary verb, rather than an action presented as finished in its past context.",
+        "That concerns the third-person singular form with an appropriate subject, rather than an action presented as finished in its past context."
+       ],
+       "y": "Use the simple past for the completed event in this model."
+      },
+      {
+       "q": "Which term means did not followed by the base verb for an ordinary verb?",
+       "r": "past negative",
+       "w": [
+        "present habit",
+        "completed past event",
+        "present agreement"
+       ],
+       "e": [
+        "That concerns a repeated activity described with the simple present, rather than did not followed by the base verb for an ordinary verb.",
+        "That concerns an action presented as finished in its past context, rather than did not followed by the base verb for an ordinary verb.",
+        "That concerns the third-person singular form with an appropriate subject, rather than did not followed by the base verb for an ordinary verb."
+       ],
+       "y": "Did carries the past; the following verb stays in the base form."
+      },
+      {
+       "q": "Which term means the third-person singular form with an appropriate subject?",
+       "r": "present agreement",
+       "w": [
+        "present habit",
+        "completed past event",
+        "past negative"
+       ],
+       "e": [
+        "That concerns a repeated activity described with the simple present, rather than the third-person singular form with an appropriate subject.",
+        "That concerns an action presented as finished in its past context, rather than the third-person singular form with an appropriate subject.",
+        "That concerns did not followed by the base verb for an ordinary verb, rather than the third-person singular form with an appropriate subject."
+       ],
+       "y": "The singular third-person subject requires the appropriate present form."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih buys supplies on market days.\nWhich description best fits the selected feature?",
+       "r": "present habit",
+       "w": [
+        "completed past event",
+        "past negative",
+        "present agreement"
+       ],
+       "e": [
+        "That means an action presented as finished in its past context. The selected feature instead illustrates a repeated activity described with the simple present.",
+        "That means did not followed by the base verb for an ordinary verb. The selected feature instead illustrates a repeated activity described with the simple present.",
+        "That means the third-person singular form with an appropriate subject. The selected feature instead illustrates a repeated activity described with the simple present."
+       ],
+       "y": "The simple present can report a repeated activity."
+      },
+      {
+       "q": "Yesterday Bih {past('buy')} an item.\nWhich description best fits the selected feature?",
+       "r": "completed past event",
+       "w": [
+        "present habit",
+        "past negative",
+        "present agreement"
+       ],
+       "e": [
+        "That means a repeated activity described with the simple present. The selected feature instead illustrates an action presented as finished in its past context.",
+        "That means did not followed by the base verb for an ordinary verb. The selected feature instead illustrates an action presented as finished in its past context.",
+        "That means the third-person singular form with an appropriate subject. The selected feature instead illustrates an action presented as finished in its past context."
+       ],
+       "y": "Use the simple past for the completed event in this model."
+      },
+      {
+       "q": "Bih did not buy the item.\nWhich description best fits the selected feature?",
+       "r": "past negative",
+       "w": [
+        "present habit",
+        "completed past event",
+        "present agreement"
+       ],
+       "e": [
+        "That means a repeated activity described with the simple present. The selected feature instead illustrates did not followed by the base verb for an ordinary verb.",
+        "That means an action presented as finished in its past context. The selected feature instead illustrates did not followed by the base verb for an ordinary verb.",
+        "That means the third-person singular form with an appropriate subject. The selected feature instead illustrates did not followed by the base verb for an ordinary verb."
+       ],
+       "y": "Did carries the past; the following verb stays in the base form."
+      },
+      {
+       "q": "Ayuk {thirdPerson('choose')} the book in the stated habit.\nWhich description best fits the selected feature?",
+       "r": "present agreement",
+       "w": [
+        "present habit",
+        "completed past event",
+        "past negative"
+       ],
+       "e": [
+        "That means a repeated activity described with the simple present. The selected feature instead illustrates the third-person singular form with an appropriate subject.",
+        "That means an action presented as finished in its past context. The selected feature instead illustrates the third-person singular form with an appropriate subject.",
+        "That means did not followed by the base verb for an ordinary verb. The selected feature instead illustrates the third-person singular form with an appropriate subject."
+       ],
+       "y": "The singular third-person subject requires the appropriate present form."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-4-verb",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "buy",
+      "choose",
+      "make",
+      "take"
+     ]
+    }
+   },
+   "prompt": "Complete the finished past event: Yesterday Bih ___ the item. Base verb: {v}.",
+   "correct": "{past(v)}",
+   "distractors": [
+    {
+     "text": "{v}",
+     "misconception": "base"
+    },
+    {
+     "text": "{thirdPerson(v)}",
+     "misconception": "present"
+    },
+    {
+     "text": "{ing(v)}",
+     "misconception": "progressive"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "base",
+     "explain": "The base form alone does not mark this affirmative completed past event."
+    },
+    {
+     "id": "present",
+     "explain": "That is a third-person present form, not the past required."
+    },
+    {
+     "id": "progressive",
+     "explain": "An -ing form alone is not a finite simple-past verb."
+    }
+   ],
+   "solution": [
+    "The event is presented as completed yesterday.",
+    "Use the simple past of {v}: {answer}."
+   ]
+  },
+  {
+   "id": "e4-4-repair-pattern",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Correct the past negative.",
+       "r": "Bih did not go.",
+       "w": [
+        "Bih did not went.",
+        "Bih do not went.",
+        "Bih not went."
+       ],
+       "e": [
+        "After did use go.",
+        "The auxiliary and lexical form are wrong for this past negative.",
+        "An ordinary past negative needs did not in this model."
+       ],
+       "y": "Did not takes the base go."
+      },
+      {
+       "q": "Correct the question about a past purchase.",
+       "r": "Did Ayuk buy it?",
+       "w": [
+        "Did Ayuk bought it?",
+        "Does Ayuk bought it?",
+        "Did Ayuk buys it?"
+       ],
+       "e": [
+        "Use buy after did.",
+        "This mixes present auxiliary with a past form.",
+        "Do not add third-person -s after did."
+       ],
+       "y": "Did carries the past in the question."
+      },
+      {
+       "q": "Choose the ordinary present habit with she.",
+       "r": "She reads after chores.",
+       "w": [
+        "She read every evening, in the stated present habit.",
+        "She reading after chores.",
+        "She do reads after chores."
+       ],
+       "e": [
+        "The explicit present-habit context needs third-person agreement.",
+        "The phrase lacks a finite verb.",
+        "After do the ordinary form would be base; this is not the requested neutral habit pattern."
+       ],
+       "y": "She takes reads in this model."
+      },
+      {
+       "q": "Choose the finished event in the stated past context.",
+       "r": "They arrived yesterday.",
+       "w": [
+        "They arrives yesterday.",
+        "They arriving yesterday.",
+        "They did arrived yesterday."
+       ],
+       "e": [
+        "That present singular form does not fit.",
+        "A finite verb is missing.",
+        "Did would take arrive, not arrived."
+       ],
+       "y": "Arrived is a finite simple-past form."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "present habit: a repeated activity described with the simple present.",
+      "truth": "true",
+      "explain": "This is correct: a repeated activity described with the simple present. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "completed past event: an action presented as finished in its past context.",
+      "truth": "true",
+      "explain": "This is correct: an action presented as finished in its past context. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "past negative: did not followed by the base verb for an ordinary verb.",
+      "truth": "true",
+      "explain": "This is correct: did not followed by the base verb for an ordinary verb. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "present agreement: the third-person singular form with an appropriate subject.",
+      "truth": "true",
+      "explain": "This is correct: the third-person singular form with an appropriate subject. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every habitual sentence must be a past event.",
+      "truth": "false",
+      "explain": "The simple present can report a repeated activity."
+     },
+     {
+      "text": "Yesterday Bih buy the item is the standard affirmative model.",
+      "truth": "false",
+      "explain": "Use the simple past for the completed event in this model."
+     },
+     {
+      "text": "Bih did not bought the item is the standard model.",
+      "truth": "false",
+      "explain": "Did carries the past; the following verb stays in the base form."
+     },
+     {
+      "text": "He choose is always the neutral school agreement pattern.",
+      "truth": "false",
+      "explain": "The singular third-person subject requires the appropriate present form."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

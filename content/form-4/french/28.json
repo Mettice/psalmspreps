@@ -1,0 +1,610 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 28,
+ "language": "fr",
+ "prerequisites": [
+  13,
+  23
+ ],
+ "skills": [
+  {
+   "id": "fr4-28",
+   "name": "Fonctions de l’adjectif qualificatif"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’adjectif épithète liée accompagne directement le nom dans le groupe nominal : une cour calme. L’attribut du sujet passe par un verbe attributif : la cour est calme. Un adjectif détaché, souvent appelé épithète détachée ou apposition adjectivale dans les cours, est séparé du groupe par une ponctuation : Calme, Bih écoute. La terminologie doit rester cohérente avec celle du professeur. Ne confonds pas cet adjectif avec un adverbe : calmement modifie ici le verbe, sans qualifier un nom par accord.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer l’épithète liée, l’attribut et l’adjectif détaché en identifiant le nom qualifié. Acquis mobilisés : l’accord adjectival, les comparatifs et la phrase complexe. Pour la suite : l’impératif et la précision des descriptions écrites."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "L’adjectif épithète liée accompagne directement le nom dans le groupe nominal : une cour calme. L’attribut du sujet passe par un verbe attributif : la cour est calme. Un adjectif détaché, souvent appelé épithète détachée ou apposition adjectivale dans les cours, est séparé du groupe par une ponctuation : Calme, Bih écoute. La terminologie doit rester cohérente avec celle du professeur. Ne confonds pas cet adjectif avec un adverbe : calmement modifie ici le verbe, sans qualifier un nom par accord."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Une petite cour accueille le groupe. La cour est calme. Fatiguée, Bih s’assoit. Elle parle calmement. Petite accompagne cour ; calme est relié au sujet par est ; fatiguée se rapporte à Bih malgré son détachement ; calmement caractérise la manière de parler. La seule proximité des mots ne suffit pas à attribuer une fonction."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Retrouve le mot caractérisé et le lien syntaxique. Vérifie le verbe attributif ou le détachement. Examine la ponctuation et l’accord, sans supposer qu’un adjectif placé avant le nom change de classe. Réécris une description originale en variant la fonction d’un même adjectif."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "épithète liée",
+    "meaning": "un adjectif directement intégré au groupe nominal"
+   },
+   {
+    "word": "attribut du sujet",
+    "meaning": "un adjectif relié au sujet par un verbe attributif"
+   },
+   {
+    "word": "adjectif détaché",
+    "meaning": "un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation"
+   },
+   {
+    "word": "adverbe",
+    "meaning": "un mot modifiant notamment la manière de l’action dans le modèle"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une épithète liée exige toujours un verbe être entre le nom et l’adjectif.",
+   "right": "un adjectif directement intégré au groupe nominal.",
+   "why": "Elle appartient directement au groupe nominal."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans une cour calme, calme accompagne cour. Explique le choix.",
+  "steps": [
+   "un adjectif directement intégré au groupe nominal.",
+   "Elle appartient directement au groupe nominal."
+  ],
+  "answer": "épithète liée",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-28-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "épithète liée : un adjectif directement intégré au groupe nominal.",
+     "attribut du sujet : un adjectif relié au sujet par un verbe attributif.",
+     "adjectif détaché : un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation.",
+     "adverbe : un mot modifiant notamment la manière de l’action dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-28-notions"
+    }
+   },
+   {
+    "id": "fr4-28-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Dans une cour calme, calme accompagne cour.",
+     "Dans la cour est calme, calme qualifie le sujet.",
+     "Fatiguée, Bih s’assoit contient un adjectif détaché rapporté à Bih.",
+     "Dans elle parle calmement, calmement porte sur parle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-28-cas"
+    }
+   },
+   {
+    "id": "fr4-28-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une épithète liée exige toujours un verbe être entre le nom et l’adjectif. Correction : Elle appartient directement au groupe nominal.",
+     "Tout mot après être est nécessairement un COD. Correction : Dans ce modèle, le verbe relie une propriété au sujet.",
+     "Un adjectif détaché ne peut jamais avoir de lien d’accord. Correction : Le détachement ne supprime pas le nom ou pronom qualifié.",
+     "Calmement doit prendre le féminin pluriel du nom cour. Correction : Cet adverbe n’est pas l’adjectif qualifiant cour."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-28-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "épithète liée : un adjectif directement intégré au groupe nominal.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle appartient directement au groupe nominal. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "attribut du sujet : un adjectif relié au sujet par un verbe attributif.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Dans ce modèle, le verbe relie une propriété au sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "adjectif détaché : un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le détachement ne supprime pas le nom ou pronom qualifié. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "adverbe : un mot modifiant notamment la manière de l’action dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Cet adverbe n’est pas l’adjectif qualifiant cour. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une épithète liée exige toujours un verbe être entre le nom et l’adjectif.",
+        "truth": "false",
+        "explain": "Elle appartient directement au groupe nominal."
+       },
+       {
+        "text": "Tout mot après être est nécessairement un COD.",
+        "truth": "false",
+        "explain": "Dans ce modèle, le verbe relie une propriété au sujet."
+       },
+       {
+        "text": "Un adjectif détaché ne peut jamais avoir de lien d’accord.",
+        "truth": "false",
+        "explain": "Le détachement ne supprime pas le nom ou pronom qualifié."
+       },
+       {
+        "text": "Calmement doit prendre le féminin pluriel du nom cour.",
+        "truth": "false",
+        "explain": "Cet adverbe n’est pas l’adjectif qualifiant cour."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-28-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un adjectif directement intégré au groupe nominal ?",
+       "r": "épithète liée",
+       "w": [
+        "attribut du sujet",
+        "adjectif détaché",
+        "adverbe"
+       ],
+       "e": [
+        "Cela désigne un adjectif relié au sujet par un verbe attributif, plutôt que la notion demandée.",
+        "Cela désigne un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation, plutôt que la notion demandée.",
+        "Cela désigne un mot modifiant notamment la manière de l’action dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Elle appartient directement au groupe nominal."
+      },
+      {
+       "q": "Quel terme désigne un adjectif relié au sujet par un verbe attributif ?",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète liée",
+        "adjectif détaché",
+        "adverbe"
+       ],
+       "e": [
+        "Cela désigne un adjectif directement intégré au groupe nominal, plutôt que la notion demandée.",
+        "Cela désigne un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation, plutôt que la notion demandée.",
+        "Cela désigne un mot modifiant notamment la manière de l’action dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Dans ce modèle, le verbe relie une propriété au sujet."
+      },
+      {
+       "q": "Quel terme désigne un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation ?",
+       "r": "adjectif détaché",
+       "w": [
+        "épithète liée",
+        "attribut du sujet",
+        "adverbe"
+       ],
+       "e": [
+        "Cela désigne un adjectif directement intégré au groupe nominal, plutôt que la notion demandée.",
+        "Cela désigne un adjectif relié au sujet par un verbe attributif, plutôt que la notion demandée.",
+        "Cela désigne un mot modifiant notamment la manière de l’action dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Le détachement ne supprime pas le nom ou pronom qualifié."
+      },
+      {
+       "q": "Quel terme désigne un mot modifiant notamment la manière de l’action dans le modèle ?",
+       "r": "adverbe",
+       "w": [
+        "épithète liée",
+        "attribut du sujet",
+        "adjectif détaché"
+       ],
+       "e": [
+        "Cela désigne un adjectif directement intégré au groupe nominal, plutôt que la notion demandée.",
+        "Cela désigne un adjectif relié au sujet par un verbe attributif, plutôt que la notion demandée.",
+        "Cela désigne un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation, plutôt que la notion demandée."
+       ],
+       "y": "Cet adverbe n’est pas l’adjectif qualifiant cour."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-28-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans une cour calme, calme accompagne cour.\nQuelle notion convient ?",
+       "r": "épithète liée",
+       "w": [
+        "attribut du sujet",
+        "adjectif détaché",
+        "adverbe"
+       ],
+       "e": [
+        "Cela concerne un adjectif relié au sujet par un verbe attributif. Compare cette définition avec le cas présenté.",
+        "Cela concerne un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot modifiant notamment la manière de l’action dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle appartient directement au groupe nominal."
+      },
+      {
+       "q": "Dans la cour est calme, calme qualifie le sujet.\nQuelle notion convient ?",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète liée",
+        "adjectif détaché",
+        "adverbe"
+       ],
+       "e": [
+        "Cela concerne un adjectif directement intégré au groupe nominal. Compare cette définition avec le cas présenté.",
+        "Cela concerne un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot modifiant notamment la manière de l’action dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Dans ce modèle, le verbe relie une propriété au sujet."
+      },
+      {
+       "q": "Fatiguée, Bih s’assoit contient un adjectif détaché rapporté à Bih.\nQuelle notion convient ?",
+       "r": "adjectif détaché",
+       "w": [
+        "épithète liée",
+        "attribut du sujet",
+        "adverbe"
+       ],
+       "e": [
+        "Cela concerne un adjectif directement intégré au groupe nominal. Compare cette définition avec le cas présenté.",
+        "Cela concerne un adjectif relié au sujet par un verbe attributif. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot modifiant notamment la manière de l’action dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le détachement ne supprime pas le nom ou pronom qualifié."
+      },
+      {
+       "q": "Dans elle parle calmement, calmement porte sur parle.\nQuelle notion convient ?",
+       "r": "adverbe",
+       "w": [
+        "épithète liée",
+        "attribut du sujet",
+        "adjectif détaché"
+       ],
+       "e": [
+        "Cela concerne un adjectif directement intégré au groupe nominal. Compare cette définition avec le cas présenté.",
+        "Cela concerne un adjectif relié au sujet par un verbe attributif. Compare cette définition avec le cas présenté.",
+        "Cela concerne un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Cet adverbe n’est pas l’adjectif qualifiant cour."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-28-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Analyse calme dans une cour calme.",
+       "r": "épithète liée",
+       "w": [
+        "attribut du sujet",
+        "adjectif détaché",
+        "adverbe"
+       ],
+       "e": [
+        "Aucun verbe attributif ne relie ici l’adjectif.",
+        "L’adjectif est intégré au groupe sans détachement.",
+        "Calme qualifie le nom."
+       ],
+       "y": "Il accompagne directement cour."
+      },
+      {
+       "q": "Analyse calme dans la cour est calme.",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète liée",
+        "adjectif détaché",
+        "adverbe"
+       ],
+       "e": [
+        "L’adjectif passe ici par est.",
+        "Il n’est pas détaché par une virgule.",
+        "Il qualifie le sujet, non la manière d’une action."
+       ],
+       "y": "Est relie la qualité au sujet."
+      },
+      {
+       "q": "Analyse fatiguée dans Fatiguée, Bih s’assoit.",
+       "r": "adjectif détaché",
+       "w": [
+        "épithète liée",
+        "attribut du sujet",
+        "adverbe"
+       ],
+       "e": [
+        "La virgule marque le détachement.",
+        "Aucun verbe attributif ne porte la relation.",
+        "Fatiguée qualifie Bih et s’accorde."
+       ],
+       "y": "La relation adjectivale demeure malgré la séparation."
+      },
+      {
+       "q": "Analyse calmement dans Elle parle calmement.",
+       "r": "adverbe",
+       "w": [
+        "épithète liée",
+        "attribut du sujet",
+        "adjectif détaché"
+       ],
+       "e": [
+        "Le mot ne qualifie pas un nom dans un groupe.",
+        "Il n’est pas lié au sujet par un verbe attributif.",
+        "Ce n’est pas un adjectif séparé qualifiant elle."
+       ],
+       "y": "Il exprime ici la manière de parler."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-28-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "épithète liée",
+     "right": "Dans une cour calme, calme accompagne cour."
+    },
+    {
+     "left": "attribut du sujet",
+     "right": "Dans la cour est calme, calme qualifie le sujet."
+    },
+    {
+     "left": "adjectif détaché",
+     "right": "Fatiguée, Bih s’assoit contient un adjectif détaché rapporté à Bih."
+    },
+    {
+     "left": "adverbe",
+     "right": "Dans elle parle calmement, calmement porte sur parle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-28-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "épithète liée : un adjectif directement intégré au groupe nominal.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle appartient directement au groupe nominal. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "attribut du sujet : un adjectif relié au sujet par un verbe attributif.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Dans ce modèle, le verbe relie une propriété au sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "adjectif détaché : un adjectif qualifiant un nom ou pronom tout en étant séparé par la ponctuation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le détachement ne supprime pas le nom ou pronom qualifié. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "adverbe : un mot modifiant notamment la manière de l’action dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Cet adverbe n’est pas l’adjectif qualifiant cour. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une épithète liée exige toujours un verbe être entre le nom et l’adjectif.",
+      "truth": "false",
+      "explain": "Elle appartient directement au groupe nominal."
+     },
+     {
+      "text": "Tout mot après être est nécessairement un COD.",
+      "truth": "false",
+      "explain": "Dans ce modèle, le verbe relie une propriété au sujet."
+     },
+     {
+      "text": "Un adjectif détaché ne peut jamais avoir de lien d’accord.",
+      "truth": "false",
+      "explain": "Le détachement ne supprime pas le nom ou pronom qualifié."
+     },
+     {
+      "text": "Calmement doit prendre le féminin pluriel du nom cour.",
+      "truth": "false",
+      "explain": "Cet adverbe n’est pas l’adjectif qualifiant cour."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

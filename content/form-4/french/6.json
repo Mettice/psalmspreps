@@ -1,0 +1,558 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr4-6",
+   "name": "Le passé simple : verbes des premier et deuxième groupes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé simple est surtout employé dans le récit écrit. Il présente notamment des événements achevés faisant avancer l’histoire, tandis que l’imparfait peut installer le décor ou une habitude. Les verbes réguliers en -er suivent un modèle en -ai, -as, -a, -âmes, -âtes, -èrent. Les verbes du deuxième groupe suivent -is, -is, -it, -îmes, -îtes, -irent. Certains changements orthographiques conservent le son du radical. Une forme doit toujours être lue avec son sujet et son contexte.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former le passé simple étudié et distinguer un événement achevé d’un arrière-plan. Acquis mobilisés : les sujets, les groupes verbaux et les récits de la classe précédente. Pour la suite : l’enchaînement narratif et la comparaison avec le passé composé."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le passé simple est surtout employé dans le récit écrit. Il présente notamment des événements achevés faisant avancer l’histoire, tandis que l’imparfait peut installer le décor ou une habitude. Les verbes réguliers en -er suivent un modèle en -ai, -as, -a, -âmes, -âtes, -èrent. Les verbes du deuxième groupe suivent -is, -is, -it, -îmes, -îtes, -irent. Certains changements orthographiques conservent le son du radical. Une forme doit toujours être lue avec son sujet et son contexte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Le soir était calme. Bih {fr2PasseSimple(\"parler\",3)} au groupe, puis les élèves {fr2PasseSimple(\"finir\",6)} leur affiche. Était calme fournit l’arrière-plan ; les événements suivants font progresser le récit. Compare {fr2With(4,fr2PasseSimple(\"aider\",4))} et {fr2With(5,fr2PasseSimple(\"choisir\",5))} : les marques personnelles et les accents ne sont pas interchangeables."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère l’infinitif et le groupe, choisis la personne, puis vérifie la terminaison. Ne généralise pas le modèle de finir à tous les verbes en -ir. Écris ensuite une courte suite d’actions originale en conservant le même cadre narratif."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "événement narratif",
+    "meaning": "un fait présenté comme achevé et faisant avancer le récit"
+   },
+   {
+    "word": "modèle en -er",
+    "meaning": "les terminaisons régulières étudiées avec parler ou aider"
+   },
+   {
+    "word": "deuxième groupe",
+    "meaning": "les verbes réguliers du type finir au modèle en -is"
+   },
+   {
+    "word": "arrière-plan",
+    "meaning": "les circonstances ou habitudes qui entourent les événements"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le passé simple décrit obligatoirement une habitude encore actuelle.",
+   "right": "un fait présenté comme achevé et faisant avancer le récit.",
+   "why": "Il présente ici les événements accomplis de la narration."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih {fr2PasseSimple(\"parler\",3)}, puis le groupe {fr2PasseSimple(\"finir\",2)} son affiche. Explique le choix.",
+  "steps": [
+   "un fait présenté comme achevé et faisant avancer le récit.",
+   "Il présente ici les événements accomplis de la narration."
+  ],
+  "answer": "événement narratif",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-6-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "événement narratif : un fait présenté comme achevé et faisant avancer le récit.",
+     "modèle en -er : les terminaisons régulières étudiées avec parler ou aider.",
+     "deuxième groupe : les verbes réguliers du type finir au modèle en -is.",
+     "arrière-plan : les circonstances ou habitudes qui entourent les événements."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-6-notions"
+    }
+   },
+   {
+    "id": "fr4-6-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Bih {fr2PasseSimple(\"parler\",3)}, puis le groupe {fr2PasseSimple(\"finir\",2)} son affiche.",
+     "{fr2With(4,fr2PasseSimple(\"aider\",4))} porte une terminaison du modèle en -er.",
+     "{fr2With(5,fr2PasseSimple(\"finir\",5))} suit le modèle de finir.",
+     "Le soir était calme installe le cadre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-6-cas"
+    }
+   },
+   {
+    "id": "fr4-6-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le passé simple décrit obligatoirement une habitude encore actuelle. Correction : Il présente ici les événements accomplis de la narration.",
+     "Tous les groupes ont exactement les terminaisons de finir. Correction : Le modèle dépend du groupe et du verbe.",
+     "Tout infinitif en -ir appartient automatiquement au deuxième groupe. Correction : Des verbes comme partir ne suivent pas toute la conjugaison de finir.",
+     "Tous les verbes d’un récit doivent être au même temps. Correction : L’imparfait et le passé simple peuvent avoir des rôles complémentaires."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-6-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "événement narratif : un fait présenté comme achevé et faisant avancer le récit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il présente ici les événements accomplis de la narration. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "modèle en -er : les terminaisons régulières étudiées avec parler ou aider.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle dépend du groupe et du verbe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "deuxième groupe : les verbes réguliers du type finir au modèle en -is.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Des verbes comme partir ne suivent pas toute la conjugaison de finir. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "arrière-plan : les circonstances ou habitudes qui entourent les événements.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’imparfait et le passé simple peuvent avoir des rôles complémentaires. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le passé simple décrit obligatoirement une habitude encore actuelle.",
+        "truth": "false",
+        "explain": "Il présente ici les événements accomplis de la narration."
+       },
+       {
+        "text": "Tous les groupes ont exactement les terminaisons de finir.",
+        "truth": "false",
+        "explain": "Le modèle dépend du groupe et du verbe."
+       },
+       {
+        "text": "Tout infinitif en -ir appartient automatiquement au deuxième groupe.",
+        "truth": "false",
+        "explain": "Des verbes comme partir ne suivent pas toute la conjugaison de finir."
+       },
+       {
+        "text": "Tous les verbes d’un récit doivent être au même temps.",
+        "truth": "false",
+        "explain": "L’imparfait et le passé simple peuvent avoir des rôles complémentaires."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-6-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un fait présenté comme achevé et faisant avancer le récit ?",
+       "r": "événement narratif",
+       "w": [
+        "modèle en -er",
+        "deuxième groupe",
+        "arrière-plan"
+       ],
+       "e": [
+        "Cela désigne les terminaisons régulières étudiées avec parler ou aider, plutôt que la notion demandée.",
+        "Cela désigne les verbes réguliers du type finir au modèle en -is, plutôt que la notion demandée.",
+        "Cela désigne les circonstances ou habitudes qui entourent les événements, plutôt que la notion demandée."
+       ],
+       "y": "Il présente ici les événements accomplis de la narration."
+      },
+      {
+       "q": "Quel terme désigne les terminaisons régulières étudiées avec parler ou aider ?",
+       "r": "modèle en -er",
+       "w": [
+        "événement narratif",
+        "deuxième groupe",
+        "arrière-plan"
+       ],
+       "e": [
+        "Cela désigne un fait présenté comme achevé et faisant avancer le récit, plutôt que la notion demandée.",
+        "Cela désigne les verbes réguliers du type finir au modèle en -is, plutôt que la notion demandée.",
+        "Cela désigne les circonstances ou habitudes qui entourent les événements, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle dépend du groupe et du verbe."
+      },
+      {
+       "q": "Quel terme désigne les verbes réguliers du type finir au modèle en -is ?",
+       "r": "deuxième groupe",
+       "w": [
+        "événement narratif",
+        "modèle en -er",
+        "arrière-plan"
+       ],
+       "e": [
+        "Cela désigne un fait présenté comme achevé et faisant avancer le récit, plutôt que la notion demandée.",
+        "Cela désigne les terminaisons régulières étudiées avec parler ou aider, plutôt que la notion demandée.",
+        "Cela désigne les circonstances ou habitudes qui entourent les événements, plutôt que la notion demandée."
+       ],
+       "y": "Des verbes comme partir ne suivent pas toute la conjugaison de finir."
+      },
+      {
+       "q": "Quel terme désigne les circonstances ou habitudes qui entourent les événements ?",
+       "r": "arrière-plan",
+       "w": [
+        "événement narratif",
+        "modèle en -er",
+        "deuxième groupe"
+       ],
+       "e": [
+        "Cela désigne un fait présenté comme achevé et faisant avancer le récit, plutôt que la notion demandée.",
+        "Cela désigne les terminaisons régulières étudiées avec parler ou aider, plutôt que la notion demandée.",
+        "Cela désigne les verbes réguliers du type finir au modèle en -is, plutôt que la notion demandée."
+       ],
+       "y": "L’imparfait et le passé simple peuvent avoir des rôles complémentaires."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-6-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih {fr2PasseSimple(\"parler\",3)}, puis le groupe {fr2PasseSimple(\"finir\",2)} son affiche.\nQuelle notion convient ?",
+       "r": "événement narratif",
+       "w": [
+        "modèle en -er",
+        "deuxième groupe",
+        "arrière-plan"
+       ],
+       "e": [
+        "Cela concerne les terminaisons régulières étudiées avec parler ou aider. Compare cette définition avec le cas présenté.",
+        "Cela concerne les verbes réguliers du type finir au modèle en -is. Compare cette définition avec le cas présenté.",
+        "Cela concerne les circonstances ou habitudes qui entourent les événements. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il présente ici les événements accomplis de la narration."
+      },
+      {
+       "q": "{fr2With(4,fr2PasseSimple(\"aider\",4))} porte une terminaison du modèle en -er.\nQuelle notion convient ?",
+       "r": "modèle en -er",
+       "w": [
+        "événement narratif",
+        "deuxième groupe",
+        "arrière-plan"
+       ],
+       "e": [
+        "Cela concerne un fait présenté comme achevé et faisant avancer le récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne les verbes réguliers du type finir au modèle en -is. Compare cette définition avec le cas présenté.",
+        "Cela concerne les circonstances ou habitudes qui entourent les événements. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle dépend du groupe et du verbe."
+      },
+      {
+       "q": "{fr2With(5,fr2PasseSimple(\"finir\",5))} suit le modèle de finir.\nQuelle notion convient ?",
+       "r": "deuxième groupe",
+       "w": [
+        "événement narratif",
+        "modèle en -er",
+        "arrière-plan"
+       ],
+       "e": [
+        "Cela concerne un fait présenté comme achevé et faisant avancer le récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne les terminaisons régulières étudiées avec parler ou aider. Compare cette définition avec le cas présenté.",
+        "Cela concerne les circonstances ou habitudes qui entourent les événements. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Des verbes comme partir ne suivent pas toute la conjugaison de finir."
+      },
+      {
+       "q": "Le soir était calme installe le cadre.\nQuelle notion convient ?",
+       "r": "arrière-plan",
+       "w": [
+        "événement narratif",
+        "modèle en -er",
+        "deuxième groupe"
+       ],
+       "e": [
+        "Cela concerne un fait présenté comme achevé et faisant avancer le récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne les terminaisons régulières étudiées avec parler ou aider. Compare cette définition avec le cas présenté.",
+        "Cela concerne les verbes réguliers du type finir au modèle en -is. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’imparfait et le passé simple peuvent avoir des rôles complémentaires."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-6-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "aider",
+      "finir",
+      "choisir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "temps": "passé simple"
+   },
+   "prompt": "Conjugue « {v} » à l’indicatif {temps}, à la voix active, avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2PasseSimple(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2PasseCompose(v,p)}",
+     "misconception": "compose"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette terminaison appartient à un autre temps ; conserve le temps demandé."
+    },
+    {
+     "id": "compose",
+     "explain": "Tu as choisi un temps composé au lieu de la forme simple demandée."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne porte pas l’accord personnel nécessaire ici."
+    }
+   ],
+   "solution": [
+    "Repère le sujet et le temps demandé.",
+    "La forme complète est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-6-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "événement narratif",
+     "right": "Bih {fr2PasseSimple(\"parler\",3)}, puis le groupe {fr2PasseSimple(\"finir\",2)} son affiche."
+    },
+    {
+     "left": "modèle en -er",
+     "right": "{fr2With(4,fr2PasseSimple(\"aider\",4))} porte une terminaison du modèle en -er."
+    },
+    {
+     "left": "deuxième groupe",
+     "right": "{fr2With(5,fr2PasseSimple(\"finir\",5))} suit le modèle de finir."
+    },
+    {
+     "left": "arrière-plan",
+     "right": "Le soir était calme installe le cadre."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-6-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "événement narratif : un fait présenté comme achevé et faisant avancer le récit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il présente ici les événements accomplis de la narration. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "modèle en -er : les terminaisons régulières étudiées avec parler ou aider.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle dépend du groupe et du verbe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "deuxième groupe : les verbes réguliers du type finir au modèle en -is.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Des verbes comme partir ne suivent pas toute la conjugaison de finir. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "arrière-plan : les circonstances ou habitudes qui entourent les événements.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’imparfait et le passé simple peuvent avoir des rôles complémentaires. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le passé simple décrit obligatoirement une habitude encore actuelle.",
+      "truth": "false",
+      "explain": "Il présente ici les événements accomplis de la narration."
+     },
+     {
+      "text": "Tous les groupes ont exactement les terminaisons de finir.",
+      "truth": "false",
+      "explain": "Le modèle dépend du groupe et du verbe."
+     },
+     {
+      "text": "Tout infinitif en -ir appartient automatiquement au deuxième groupe.",
+      "truth": "false",
+      "explain": "Des verbes comme partir ne suivent pas toute la conjugaison de finir."
+     },
+     {
+      "text": "Tous les verbes d’un récit doivent être au même temps.",
+      "truth": "false",
+      "explain": "L’imparfait et le passé simple peuvent avoir des rôles complémentaires."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

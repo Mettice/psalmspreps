@@ -1,0 +1,737 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "g4-9",
+   "name": "Tropical savannah: climate and vegetation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Tropical savannah is characterised by grasses with varying tree or shrub cover and marked seasonal water limitation. It occurs across parts of Africa, South America and Australia. Cameroon’s broad transition from wetter southern forests towards more seasonal northern landscapes provides local examples. A rainy season supports growth; a dry season constrains water availability. Root systems, leaf shedding and fire responses vary by species. Climate, soil, herbivory, fire and human activity all influence the balance between grasses and woody plants.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain seasonal moisture stress and relate grass-tree structure to rainfall fire and land use. Builds on: rainforest structure and the role of moisture. Leads to: savannah soils, wildlife and human activity."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Tropical savannah is characterised by grasses with varying tree or shrub cover and marked seasonal water limitation. It occurs across parts of Africa, South America and Australia. Cameroon’s broad transition from wetter southern forests towards more seasonal northern landscapes provides local examples. A rainy season supports growth; a dry season constrains water availability. Root systems, leaf shedding and fire responses vary by species. Climate, soil, herbivory, fire and human activity all influence the balance between grasses and woody plants."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "A classroom record shows wet months followed by several months with little rain. This helps explain seasonal grass growth and water stress but does not establish an exact vegetation boundary. Some savannah trees shed leaves, while grasses can regrow from protected basal parts. Dense gallery vegetation may follow a watercourse within a more open landscape; a river corridor does not make every surrounding slope rainforest.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 278\\\" role=\\\"img\\\" aria-label=\\\"Invented monthly rainfall chart, January to December, millimetres\\\" font-family=\\\"sans-serif\\\" fill=\\\"#183428\\\"><rect width=\\\"320\\\" height=\\\"278\\\" fill=\\\"#fffdf5\\\"/><text x=\\\"8\\\" y=\\\"18\\\" font-size=\\\"12\\\">Invented monthly rainfall (mm)</text><path d=\\\"M34 224.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"228.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(0) + \"</text><path d=\\\"M34 180.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"184.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(100) + \"</text><path d=\\\"M34 136.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"140.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(200) + \"</text><path d=\\\"M34 92.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"96.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(300) + \"</text><path d=\\\"M34 48.0H315\\\" stroke=\\\"#d8ddda\\\"/><text x=\\\"29\\\" y=\\\"52.0\\\" text-anchor=\\\"end\\\" font-size=\\\"9\\\">\" + fmt(400) + \"</text><rect x=\\\"38\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"46\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"46\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"61\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"69\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"69\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">F</text><rect x=\\\"84\\\" y=\\\"215.2\\\" width=\\\"16\\\" height=\\\"8.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"92\\\" y=\\\"210.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(20) + \"</text><text x=\\\"92\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"107\\\" y=\\\"197.6\\\" width=\\\"16\\\" height=\\\"26.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"115\\\" y=\\\"192.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(60) + \"</text><text x=\\\"115\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"130\\\" y=\\\"162.4\\\" width=\\\"16\\\" height=\\\"61.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"138\\\" y=\\\"157.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(140) + \"</text><text x=\\\"138\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">M</text><rect x=\\\"153\\\" y=\\\"136.0\\\" width=\\\"16\\\" height=\\\"88.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"161\\\" y=\\\"131.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(200) + \"</text><text x=\\\"161\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"176\\\" y=\\\"118.4\\\" width=\\\"16\\\" height=\\\"105.6\\\" fill=\\\"#448d98\\\"/><text x=\\\"184\\\" y=\\\"113.4\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(240) + \"</text><text x=\\\"184\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">J</text><rect x=\\\"199\\\" y=\\\"127.2\\\" width=\\\"16\\\" height=\\\"96.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"207\\\" y=\\\"122.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(220) + \"</text><text x=\\\"207\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">A</text><rect x=\\\"222\\\" y=\\\"153.6\\\" width=\\\"16\\\" height=\\\"70.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"230\\\" y=\\\"148.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(160) + \"</text><text x=\\\"230\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">S</text><rect x=\\\"245\\\" y=\\\"193.2\\\" width=\\\"16\\\" height=\\\"30.8\\\" fill=\\\"#448d98\\\"/><text x=\\\"253\\\" y=\\\"188.2\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(70) + \"</text><text x=\\\"253\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">O</text><rect x=\\\"268\\\" y=\\\"219.6\\\" width=\\\"16\\\" height=\\\"4.4\\\" fill=\\\"#448d98\\\"/><text x=\\\"276\\\" y=\\\"214.6\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(10) + \"</text><text x=\\\"276\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">N</text><rect x=\\\"291\\\" y=\\\"224.0\\\" width=\\\"16\\\" height=\\\"0.0\\\" fill=\\\"#448d98\\\"/><text x=\\\"299\\\" y=\\\"219.0\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">\" + fmt(0) + \"</text><text x=\\\"299\\\" y=\\\"241\\\" text-anchor=\\\"middle\\\" font-size=\\\"10\\\">D</text><text x=\\\"8\\\" y=\\\"263\\\" font-size=\\\"10\\\">Jan to Dec; model data, not a town record.</text></svg>\""
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Compare distributions across the year rather than annual totals alone. Explain how a plant feature relates to a seasonal constraint, without claiming every species has one adaptation. Do not equate all savannah with recent forest clearing, or all fire with a beneficial outcome. Use regional evidence and acknowledge human modification."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "seasonal water stress",
+    "meaning": "a dry period limiting water availability despite a rainy season"
+   },
+   {
+    "word": "grass-tree mosaic",
+    "meaning": "grass cover combined with variable woody vegetation"
+   },
+   {
+    "word": "drought response",
+    "meaning": "a feature or behaviour helping plants cope with reduced water availability"
+   },
+   {
+    "word": "multiple controls",
+    "meaning": "interacting climate soil disturbance and grazing influences on vegetation"
+   }
+  ],
+  "mistake": {
+   "wrong": "One wet month guarantees unlimited water throughout the year.",
+   "right": "a dry period limiting water availability despite a rainy season.",
+   "why": "Timing of rain and storage determine dry-season conditions as well as the annual total."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The model grassland becomes dry between concentrated rainy months. Explain the relationship.",
+  "steps": [
+   "a dry period limiting water availability despite a rainy season.",
+   "Timing of rain and storage determine dry-season conditions as well as the annual total."
+  ],
+  "answer": "seasonal water stress",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-9-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "seasonal water stress: a dry period limiting water availability despite a rainy season.",
+     "grass-tree mosaic: grass cover combined with variable woody vegetation.",
+     "drought response: a feature or behaviour helping plants cope with reduced water availability.",
+     "multiple controls: interacting climate soil disturbance and grazing influences on vegetation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-9-terms"
+    }
+   },
+   {
+    "id": "g4-9-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "The model grassland becomes dry between concentrated rainy months.",
+     "A landscape contains grass between scattered trees and denser patches.",
+     "Some trees shed leaves as moisture becomes scarce.",
+     "Similar rainfall areas differ with soil, grazing and fire history."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-9-cases"
+    }
+   },
+   {
+    "id": "g4-9-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+     "Savannah includes a range of tree and shrub cover.",
+     "Reducing active leaf area can reduce water demand, depending on the species.",
+     "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-9-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "biomes",
+      "country"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The model grassland becomes dry between concentrated rainy months.\nWhich explanation follows?",
+         "r": "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+         "w": [
+          "Savannah includes a range of tree and shrub cover.",
+          "Reducing active leaf area can reduce water demand, depending on the species.",
+          "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+         ],
+         "e": [
+          "That explanation addresses grass-tree mosaic, rather than the process or relationship in this case.",
+          "That explanation addresses drought response, rather than the process or relationship in this case.",
+          "That explanation addresses multiple controls, rather than the process or relationship in this case."
+         ],
+         "y": "a dry period limiting water availability despite a rainy season."
+        },
+        {
+         "q": "A landscape contains grass between scattered trees and denser patches.\nWhich explanation follows?",
+         "r": "Savannah includes a range of tree and shrub cover.",
+         "w": [
+          "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+          "Reducing active leaf area can reduce water demand, depending on the species.",
+          "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+         ],
+         "e": [
+          "That explanation addresses seasonal water stress, rather than the process or relationship in this case.",
+          "That explanation addresses drought response, rather than the process or relationship in this case.",
+          "That explanation addresses multiple controls, rather than the process or relationship in this case."
+         ],
+         "y": "grass cover combined with variable woody vegetation."
+        },
+        {
+         "q": "Some trees shed leaves as moisture becomes scarce.\nWhich explanation follows?",
+         "r": "Reducing active leaf area can reduce water demand, depending on the species.",
+         "w": [
+          "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+          "Savannah includes a range of tree and shrub cover.",
+          "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+         ],
+         "e": [
+          "That explanation addresses seasonal water stress, rather than the process or relationship in this case.",
+          "That explanation addresses grass-tree mosaic, rather than the process or relationship in this case.",
+          "That explanation addresses multiple controls, rather than the process or relationship in this case."
+         ],
+         "y": "a feature or behaviour helping plants cope with reduced water availability."
+        },
+        {
+         "q": "Similar rainfall areas differ with soil, grazing and fire history.\nWhich explanation follows?",
+         "r": "Vegetation reflects several controls and histories, not a single universal rainfall rule.",
+         "w": [
+          "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+          "Savannah includes a range of tree and shrub cover.",
+          "Reducing active leaf area can reduce water demand, depending on the species."
+         ],
+         "e": [
+          "That explanation addresses seasonal water stress, rather than the process or relationship in this case.",
+          "That explanation addresses grass-tree mosaic, rather than the process or relationship in this case.",
+          "That explanation addresses drought response, rather than the process or relationship in this case."
+         ],
+         "y": "interacting climate soil disturbance and grazing influences on vegetation."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-9-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "country"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a dry period limiting water availability despite a rainy season?",
+       "r": "seasonal water stress",
+       "w": [
+        "grass-tree mosaic",
+        "drought response",
+        "multiple controls"
+       ],
+       "e": [
+        "That concerns grass cover combined with variable woody vegetation, rather than the feature asked for.",
+        "That concerns a feature or behaviour helping plants cope with reduced water availability, rather than the feature asked for.",
+        "That concerns interacting climate soil disturbance and grazing influences on vegetation, rather than the feature asked for."
+       ],
+       "y": "Timing of rain and storage determine dry-season conditions as well as the annual total."
+      },
+      {
+       "q": "Which term means grass cover combined with variable woody vegetation?",
+       "r": "grass-tree mosaic",
+       "w": [
+        "seasonal water stress",
+        "drought response",
+        "multiple controls"
+       ],
+       "e": [
+        "That concerns a dry period limiting water availability despite a rainy season, rather than the feature asked for.",
+        "That concerns a feature or behaviour helping plants cope with reduced water availability, rather than the feature asked for.",
+        "That concerns interacting climate soil disturbance and grazing influences on vegetation, rather than the feature asked for."
+       ],
+       "y": "Savannah includes a range of tree and shrub cover."
+      },
+      {
+       "q": "Which term means a feature or behaviour helping plants cope with reduced water availability?",
+       "r": "drought response",
+       "w": [
+        "seasonal water stress",
+        "grass-tree mosaic",
+        "multiple controls"
+       ],
+       "e": [
+        "That concerns a dry period limiting water availability despite a rainy season, rather than the feature asked for.",
+        "That concerns grass cover combined with variable woody vegetation, rather than the feature asked for.",
+        "That concerns interacting climate soil disturbance and grazing influences on vegetation, rather than the feature asked for."
+       ],
+       "y": "Reducing active leaf area can reduce water demand, depending on the species."
+      },
+      {
+       "q": "Which term means interacting climate soil disturbance and grazing influences on vegetation?",
+       "r": "multiple controls",
+       "w": [
+        "seasonal water stress",
+        "grass-tree mosaic",
+        "drought response"
+       ],
+       "e": [
+        "That concerns a dry period limiting water availability despite a rainy season, rather than the feature asked for.",
+        "That concerns grass cover combined with variable woody vegetation, rather than the feature asked for.",
+        "That concerns a feature or behaviour helping plants cope with reduced water availability, rather than the feature asked for."
+       ],
+       "y": "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-9-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "country"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model grassland becomes dry between concentrated rainy months.\nWhich feature is illustrated?",
+       "r": "seasonal water stress",
+       "w": [
+        "grass-tree mosaic",
+        "drought response",
+        "multiple controls"
+       ],
+       "e": [
+        "That identifies grass cover combined with variable woody vegetation. Read the case for evidence of a dry period limiting water availability despite a rainy season.",
+        "That identifies a feature or behaviour helping plants cope with reduced water availability. Read the case for evidence of a dry period limiting water availability despite a rainy season.",
+        "That identifies interacting climate soil disturbance and grazing influences on vegetation. Read the case for evidence of a dry period limiting water availability despite a rainy season."
+       ],
+       "y": "Timing of rain and storage determine dry-season conditions as well as the annual total."
+      },
+      {
+       "q": "A landscape contains grass between scattered trees and denser patches.\nWhich feature is illustrated?",
+       "r": "grass-tree mosaic",
+       "w": [
+        "seasonal water stress",
+        "drought response",
+        "multiple controls"
+       ],
+       "e": [
+        "That identifies a dry period limiting water availability despite a rainy season. Read the case for evidence of grass cover combined with variable woody vegetation.",
+        "That identifies a feature or behaviour helping plants cope with reduced water availability. Read the case for evidence of grass cover combined with variable woody vegetation.",
+        "That identifies interacting climate soil disturbance and grazing influences on vegetation. Read the case for evidence of grass cover combined with variable woody vegetation."
+       ],
+       "y": "Savannah includes a range of tree and shrub cover."
+      },
+      {
+       "q": "Some trees shed leaves as moisture becomes scarce.\nWhich feature is illustrated?",
+       "r": "drought response",
+       "w": [
+        "seasonal water stress",
+        "grass-tree mosaic",
+        "multiple controls"
+       ],
+       "e": [
+        "That identifies a dry period limiting water availability despite a rainy season. Read the case for evidence of a feature or behaviour helping plants cope with reduced water availability.",
+        "That identifies grass cover combined with variable woody vegetation. Read the case for evidence of a feature or behaviour helping plants cope with reduced water availability.",
+        "That identifies interacting climate soil disturbance and grazing influences on vegetation. Read the case for evidence of a feature or behaviour helping plants cope with reduced water availability."
+       ],
+       "y": "Reducing active leaf area can reduce water demand, depending on the species."
+      },
+      {
+       "q": "Similar rainfall areas differ with soil, grazing and fire history.\nWhich feature is illustrated?",
+       "r": "multiple controls",
+       "w": [
+        "seasonal water stress",
+        "grass-tree mosaic",
+        "drought response"
+       ],
+       "e": [
+        "That identifies a dry period limiting water availability despite a rainy season. Read the case for evidence of interacting climate soil disturbance and grazing influences on vegetation.",
+        "That identifies grass cover combined with variable woody vegetation. Read the case for evidence of interacting climate soil disturbance and grazing influences on vegetation.",
+        "That identifies a feature or behaviour helping plants cope with reduced water availability. Read the case for evidence of interacting climate soil disturbance and grazing influences on vegetation."
+       ],
+       "y": "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-9-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "country"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model grassland becomes dry between concentrated rainy months.\nWhich explanation follows?",
+       "r": "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+       "w": [
+        "Savannah includes a range of tree and shrub cover.",
+        "Reducing active leaf area can reduce water demand, depending on the species.",
+        "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+       ],
+       "e": [
+        "That explanation addresses grass-tree mosaic, rather than the process or relationship in this case.",
+        "That explanation addresses drought response, rather than the process or relationship in this case.",
+        "That explanation addresses multiple controls, rather than the process or relationship in this case."
+       ],
+       "y": "a dry period limiting water availability despite a rainy season."
+      },
+      {
+       "q": "A landscape contains grass between scattered trees and denser patches.\nWhich explanation follows?",
+       "r": "Savannah includes a range of tree and shrub cover.",
+       "w": [
+        "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+        "Reducing active leaf area can reduce water demand, depending on the species.",
+        "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+       ],
+       "e": [
+        "That explanation addresses seasonal water stress, rather than the process or relationship in this case.",
+        "That explanation addresses drought response, rather than the process or relationship in this case.",
+        "That explanation addresses multiple controls, rather than the process or relationship in this case."
+       ],
+       "y": "grass cover combined with variable woody vegetation."
+      },
+      {
+       "q": "Some trees shed leaves as moisture becomes scarce.\nWhich explanation follows?",
+       "r": "Reducing active leaf area can reduce water demand, depending on the species.",
+       "w": [
+        "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+        "Savannah includes a range of tree and shrub cover.",
+        "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+       ],
+       "e": [
+        "That explanation addresses seasonal water stress, rather than the process or relationship in this case.",
+        "That explanation addresses grass-tree mosaic, rather than the process or relationship in this case.",
+        "That explanation addresses multiple controls, rather than the process or relationship in this case."
+       ],
+       "y": "a feature or behaviour helping plants cope with reduced water availability."
+      },
+      {
+       "q": "Similar rainfall areas differ with soil, grazing and fire history.\nWhich explanation follows?",
+       "r": "Vegetation reflects several controls and histories, not a single universal rainfall rule.",
+       "w": [
+        "Timing of rain and storage determine dry-season conditions as well as the annual total.",
+        "Savannah includes a range of tree and shrub cover.",
+        "Reducing active leaf area can reduce water demand, depending on the species."
+       ],
+       "e": [
+        "That explanation addresses seasonal water stress, rather than the process or relationship in this case.",
+        "That explanation addresses grass-tree mosaic, rather than the process or relationship in this case.",
+        "That explanation addresses drought response, rather than the process or relationship in this case."
+       ],
+       "y": "interacting climate soil disturbance and grazing influences on vegetation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-9-rain-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "biomes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": [
+        0,
+        0,
+        20,
+        60,
+        140,
+        200,
+        240,
+        220,
+        160,
+        70,
+        10,
+        0
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"46\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"69\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"92\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"197.6\" width=\"16\" height=\"26.4\" fill=\"#448d98\"/><text x=\"115\" y=\"192.6\" text-anchor=\"middle\" font-size=\"10\">{60}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"162.4\" width=\"16\" height=\"61.6\" fill=\"#448d98\"/><text x=\"138\" y=\"157.4\" text-anchor=\"middle\" font-size=\"10\">{140}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"136.0\" width=\"16\" height=\"88.0\" fill=\"#448d98\"/><text x=\"161\" y=\"131.0\" text-anchor=\"middle\" font-size=\"10\">{200}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"118.4\" width=\"16\" height=\"105.6\" fill=\"#448d98\"/><text x=\"184\" y=\"113.4\" text-anchor=\"middle\" font-size=\"10\">{240}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"127.2\" width=\"16\" height=\"96.8\" fill=\"#448d98\"/><text x=\"207\" y=\"122.2\" text-anchor=\"middle\" font-size=\"10\">{220}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"153.6\" width=\"16\" height=\"70.4\" fill=\"#448d98\"/><text x=\"230\" y=\"148.6\" text-anchor=\"middle\" font-size=\"10\">{160}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"193.2\" width=\"16\" height=\"30.8\" fill=\"#448d98\"/><text x=\"253\" y=\"188.2\" text-anchor=\"middle\" font-size=\"10\">{70}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"219.6\" width=\"16\" height=\"4.4\" fill=\"#448d98\"/><text x=\"276\" y=\"214.6\" text-anchor=\"middle\" font-size=\"10\">{10}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"299\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        0,
+        0,
+        25,
+        65,
+        145,
+        205,
+        245,
+        225,
+        165,
+        75,
+        15,
+        0
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"46\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"69\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"213.0\" width=\"16\" height=\"11.0\" fill=\"#448d98\"/><text x=\"92\" y=\"208.0\" text-anchor=\"middle\" font-size=\"10\">{25}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"195.4\" width=\"16\" height=\"28.6\" fill=\"#448d98\"/><text x=\"115\" y=\"190.4\" text-anchor=\"middle\" font-size=\"10\">{65}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"160.2\" width=\"16\" height=\"63.8\" fill=\"#448d98\"/><text x=\"138\" y=\"155.2\" text-anchor=\"middle\" font-size=\"10\">{145}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"133.8\" width=\"16\" height=\"90.2\" fill=\"#448d98\"/><text x=\"161\" y=\"128.8\" text-anchor=\"middle\" font-size=\"10\">{205}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"116.2\" width=\"16\" height=\"107.8\" fill=\"#448d98\"/><text x=\"184\" y=\"111.2\" text-anchor=\"middle\" font-size=\"10\">{245}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"125.0\" width=\"16\" height=\"99.0\" fill=\"#448d98\"/><text x=\"207\" y=\"120.0\" text-anchor=\"middle\" font-size=\"10\">{225}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"151.4\" width=\"16\" height=\"72.6\" fill=\"#448d98\"/><text x=\"230\" y=\"146.4\" text-anchor=\"middle\" font-size=\"10\">{165}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"191.0\" width=\"16\" height=\"33.0\" fill=\"#448d98\"/><text x=\"253\" y=\"186.0\" text-anchor=\"middle\" font-size=\"10\">{75}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"217.4\" width=\"16\" height=\"6.6\" fill=\"#448d98\"/><text x=\"276\" y=\"212.4\" text-anchor=\"middle\" font-size=\"10\">{15}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"299\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        0,
+        0,
+        30,
+        70,
+        150,
+        210,
+        250,
+        230,
+        170,
+        80,
+        20,
+        0
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"46\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"69\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"210.8\" width=\"16\" height=\"13.2\" fill=\"#448d98\"/><text x=\"92\" y=\"205.8\" text-anchor=\"middle\" font-size=\"10\">{30}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"193.2\" width=\"16\" height=\"30.8\" fill=\"#448d98\"/><text x=\"115\" y=\"188.2\" text-anchor=\"middle\" font-size=\"10\">{70}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"158.0\" width=\"16\" height=\"66.0\" fill=\"#448d98\"/><text x=\"138\" y=\"153.0\" text-anchor=\"middle\" font-size=\"10\">{150}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"131.6\" width=\"16\" height=\"92.4\" fill=\"#448d98\"/><text x=\"161\" y=\"126.6\" text-anchor=\"middle\" font-size=\"10\">{210}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"114.0\" width=\"16\" height=\"110.0\" fill=\"#448d98\"/><text x=\"184\" y=\"109.0\" text-anchor=\"middle\" font-size=\"10\">{250}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"122.8\" width=\"16\" height=\"101.2\" fill=\"#448d98\"/><text x=\"207\" y=\"117.8\" text-anchor=\"middle\" font-size=\"10\">{230}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"149.2\" width=\"16\" height=\"74.8\" fill=\"#448d98\"/><text x=\"230\" y=\"144.2\" text-anchor=\"middle\" font-size=\"10\">{170}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"188.8\" width=\"16\" height=\"35.2\" fill=\"#448d98\"/><text x=\"253\" y=\"183.8\" text-anchor=\"middle\" font-size=\"10\">{80}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"215.2\" width=\"16\" height=\"8.8\" fill=\"#448d98\"/><text x=\"276\" y=\"210.2\" text-anchor=\"middle\" font-size=\"10\">{20}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"299\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      },
+      {
+       "r": [
+        0,
+        0,
+        35,
+        75,
+        155,
+        215,
+        255,
+        235,
+        175,
+        85,
+        25,
+        0
+       ],
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Invented monthly rainfall chart, January to December, millimetres\" font-family=\"sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"278\" fill=\"#fffdf5\"/><text x=\"8\" y=\"18\" font-size=\"12\">Invented monthly rainfall (mm)</text><path d=\"M34 224.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"228.0\" text-anchor=\"end\" font-size=\"9\">{0}</text><path d=\"M34 180.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"184.0\" text-anchor=\"end\" font-size=\"9\">{100}</text><path d=\"M34 136.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"140.0\" text-anchor=\"end\" font-size=\"9\">{200}</text><path d=\"M34 92.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"96.0\" text-anchor=\"end\" font-size=\"9\">{300}</text><path d=\"M34 48.0H315\" stroke=\"#d8ddda\"/><text x=\"29\" y=\"52.0\" text-anchor=\"end\" font-size=\"9\">{400}</text><rect x=\"38\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"46\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"46\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"61\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"69\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"69\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">F</text><rect x=\"84\" y=\"208.6\" width=\"16\" height=\"15.4\" fill=\"#448d98\"/><text x=\"92\" y=\"203.6\" text-anchor=\"middle\" font-size=\"10\">{35}</text><text x=\"92\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"107\" y=\"191.0\" width=\"16\" height=\"33.0\" fill=\"#448d98\"/><text x=\"115\" y=\"186.0\" text-anchor=\"middle\" font-size=\"10\">{75}</text><text x=\"115\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"130\" y=\"155.8\" width=\"16\" height=\"68.2\" fill=\"#448d98\"/><text x=\"138\" y=\"150.8\" text-anchor=\"middle\" font-size=\"10\">{155}</text><text x=\"138\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">M</text><rect x=\"153\" y=\"129.4\" width=\"16\" height=\"94.6\" fill=\"#448d98\"/><text x=\"161\" y=\"124.4\" text-anchor=\"middle\" font-size=\"10\">{215}</text><text x=\"161\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"176\" y=\"111.8\" width=\"16\" height=\"112.2\" fill=\"#448d98\"/><text x=\"184\" y=\"106.8\" text-anchor=\"middle\" font-size=\"10\">{255}</text><text x=\"184\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">J</text><rect x=\"199\" y=\"120.6\" width=\"16\" height=\"103.4\" fill=\"#448d98\"/><text x=\"207\" y=\"115.6\" text-anchor=\"middle\" font-size=\"10\">{235}</text><text x=\"207\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">A</text><rect x=\"222\" y=\"147.0\" width=\"16\" height=\"77.0\" fill=\"#448d98\"/><text x=\"230\" y=\"142.0\" text-anchor=\"middle\" font-size=\"10\">{175}</text><text x=\"230\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">S</text><rect x=\"245\" y=\"186.6\" width=\"16\" height=\"37.4\" fill=\"#448d98\"/><text x=\"253\" y=\"181.6\" text-anchor=\"middle\" font-size=\"10\">{85}</text><text x=\"253\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">O</text><rect x=\"268\" y=\"213.0\" width=\"16\" height=\"11.0\" fill=\"#448d98\"/><text x=\"276\" y=\"208.0\" text-anchor=\"middle\" font-size=\"10\">{25}</text><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">N</text><rect x=\"291\" y=\"224.0\" width=\"16\" height=\"0.0\" fill=\"#448d98\"/><text x=\"299\" y=\"219.0\" text-anchor=\"middle\" font-size=\"10\">{0}</text><text x=\"299\" y=\"241\" text-anchor=\"middle\" font-size=\"10\">D</text><text x=\"8\" y=\"263\" font-size=\"10\">Jan to Dec; model data, not a town record.</text></svg>"
+      }
+     ]
+    }
+   },
+   "prompt": "Read the invented monthly rainfall chart. Add the labels above all monthly bars to obtain the annual total in mm; the vertical-axis tick labels are not extra observations.",
+   "answer": "sum(X.r)",
+   "misconceptions": [
+    {
+     "id": "mean",
+     "wrong": "meanOf(X.r)",
+     "explain": "That is a monthly mean, not the sum for the year."
+    },
+    {
+     "id": "range",
+     "wrong": "rangeOf(X.r)",
+     "explain": "That is the difference between wettest and driest months, not the annual total."
+    },
+    {
+     "id": "tenfold",
+     "wrong": "sum(X.r)*10",
+     "explain": "That multiplies an already millimetre total by ten without a unit conversion."
+    }
+   ],
+   "solution": [
+    "Add each monthly amount once.",
+    "The annual rainfall of this classroom record is {answer} mm. A real biome classification also needs temperature and other evidence."
+   ],
+   "unit": "mm",
+   "figure": "X.svg"
+  },
+  {
+   "id": "g4-9-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "biomes",
+    "country"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "seasonal water stress: a dry period limiting water availability despite a rainy season.",
+      "truth": "true",
+      "explain": "This distinction is correct: Timing of rain and storage determine dry-season conditions as well as the annual total. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "grass-tree mosaic: grass cover combined with variable woody vegetation.",
+      "truth": "true",
+      "explain": "This distinction is correct: Savannah includes a range of tree and shrub cover. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "drought response: a feature or behaviour helping plants cope with reduced water availability.",
+      "truth": "true",
+      "explain": "This distinction is correct: Reducing active leaf area can reduce water demand, depending on the species. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "multiple controls: interacting climate soil disturbance and grazing influences on vegetation.",
+      "truth": "true",
+      "explain": "This distinction is correct: Vegetation reflects several controls and histories, not a single universal rainfall rule. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "One wet month guarantees unlimited water throughout the year.",
+      "truth": "false",
+      "explain": "Timing of rain and storage determine dry-season conditions as well as the annual total."
+     },
+     {
+      "text": "Every savannah is entirely treeless.",
+      "truth": "false",
+      "explain": "Savannah includes a range of tree and shrub cover."
+     },
+     {
+      "text": "Leaf shedding always increases water loss by enlarging the active leaf area.",
+      "truth": "false",
+      "explain": "Reducing active leaf area can reduce water demand, depending on the species."
+     },
+     {
+      "text": "Rainfall alone fixes every tree at every site.",
+      "truth": "false",
+      "explain": "Vegetation reflects several controls and histories, not a single universal rainfall rule."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

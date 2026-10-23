@@ -1,0 +1,552 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 9,
+ "language": "fr",
+ "prerequisites": [
+  6,
+  7,
+  8
+ ],
+ "skills": [
+  {
+   "id": "fr4-9",
+   "name": "Raconter et enchaîner les événements"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un récit situe des personnages, un cadre et des événements. Les connecteurs aident le lecteur à suivre l’ordre et les relations : d’abord, puis et enfin organisent la succession ; parce que explique une cause ; pourtant marque un contraste. Ils ne sont pas interchangeables. Une liste de connecteurs ne remplace pas des actions liées. Choisis un point de vue et conserve les référents des pronoms. Le décor et l’événement peuvent employer des temps différents de façon cohérente.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras rédiger un court récit original dont les événements et les liens restent cohérents. Acquis mobilisés : les temps narratifs et les mots formés par affixation. Pour la suite : le passé composé, l’imparfait et la lettre racontant une activité."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un récit situe des personnages, un cadre et des événements. Les connecteurs aident le lecteur à suivre l’ordre et les relations : d’abord, puis et enfin organisent la succession ; parce que explique une cause ; pourtant marque un contraste. Ils ne sont pas interchangeables. Une liste de connecteurs ne remplace pas des actions liées. Choisis un point de vue et conserve les référents des pronoms. Le décor et l’événement peuvent employer des temps différents de façon cohérente."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Un soir, Bih rangeait les livres du club. D’abord, elle chercha le cahier de prêt, mais il manquait. Elle demanda alors à Ayuk où il l’avait posé. Il montra une étagère voisine. Bih y retrouva le cahier et vérifia les retours. Enfin, le groupe put préparer la séance. La recherche prit du temps ; pourtant, personne n’accusa un camarade sans vérifier."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Prépare cadre, difficulté, actions et issue. Choisis un connecteur selon la relation voulue, puis relis le temps et les reprises. N’ajoute pas parce que pour une simple succession. Le récit peut être entièrement inventé ; aucun événement privé n’est exigé."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cadre",
+    "meaning": "le lieu le moment et les circonstances de l’histoire"
+   },
+   {
+    "word": "succession",
+    "meaning": "l’ordre des événements dans la narration"
+   },
+   {
+    "word": "cause",
+    "meaning": "une relation expliquant pourquoi un fait se produit"
+   },
+   {
+    "word": "cohérence",
+    "meaning": "la continuité des temps référents et actions"
+   }
+  ],
+  "mistake": {
+   "wrong": "Un récit doit empêcher le lecteur de situer toute action.",
+   "right": "le lieu le moment et les circonstances de l’histoire.",
+   "why": "Le cadre aide à comprendre le déroulement."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un soir situe l’activité du club. Explique le choix.",
+  "steps": [
+   "le lieu le moment et les circonstances de l’histoire.",
+   "Le cadre aide à comprendre le déroulement."
+  ],
+  "answer": "cadre",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-9-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "cadre : le lieu le moment et les circonstances de l’histoire.",
+     "succession : l’ordre des événements dans la narration.",
+     "cause : une relation expliquant pourquoi un fait se produit.",
+     "cohérence : la continuité des temps référents et actions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-9-notions"
+    }
+   },
+   {
+    "id": "fr4-9-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Un soir situe l’activité du club.",
+     "D’abord, puis et enfin peuvent organiser la suite.",
+     "Parce que introduit une explication dans une phrase adaptée.",
+     "Le lecteur peut suivre qui cherche puis retrouve le cahier."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-9-cas"
+    }
+   },
+   {
+    "id": "fr4-9-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Un récit doit empêcher le lecteur de situer toute action. Correction : Le cadre aide à comprendre le déroulement.",
+     "Parce que signifie toujours exactement ensuite. Correction : Cause et succession sont des relations différentes.",
+     "Tout connecteur peut exprimer n’importe quelle relation sans changer le sens. Correction : Le mot de liaison doit correspondre au lien voulu.",
+     "Un personnage peut changer d’identité sans explication à chaque phrase. Correction : Les reprises doivent permettre de suivre la même situation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-9-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "cadre : le lieu le moment et les circonstances de l’histoire.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le cadre aide à comprendre le déroulement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "succession : l’ordre des événements dans la narration.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Cause et succession sont des relations différentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cause : une relation expliquant pourquoi un fait se produit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le mot de liaison doit correspondre au lien voulu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cohérence : la continuité des temps référents et actions.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les reprises doivent permettre de suivre la même situation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un récit doit empêcher le lecteur de situer toute action.",
+        "truth": "false",
+        "explain": "Le cadre aide à comprendre le déroulement."
+       },
+       {
+        "text": "Parce que signifie toujours exactement ensuite.",
+        "truth": "false",
+        "explain": "Cause et succession sont des relations différentes."
+       },
+       {
+        "text": "Tout connecteur peut exprimer n’importe quelle relation sans changer le sens.",
+        "truth": "false",
+        "explain": "Le mot de liaison doit correspondre au lien voulu."
+       },
+       {
+        "text": "Un personnage peut changer d’identité sans explication à chaque phrase.",
+        "truth": "false",
+        "explain": "Les reprises doivent permettre de suivre la même situation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-9-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le lieu le moment et les circonstances de l’histoire ?",
+       "r": "cadre",
+       "w": [
+        "succession",
+        "cause",
+        "cohérence"
+       ],
+       "e": [
+        "Cela désigne l’ordre des événements dans la narration, plutôt que la notion demandée.",
+        "Cela désigne une relation expliquant pourquoi un fait se produit, plutôt que la notion demandée.",
+        "Cela désigne la continuité des temps référents et actions, plutôt que la notion demandée."
+       ],
+       "y": "Le cadre aide à comprendre le déroulement."
+      },
+      {
+       "q": "Quel terme désigne l’ordre des événements dans la narration ?",
+       "r": "succession",
+       "w": [
+        "cadre",
+        "cause",
+        "cohérence"
+       ],
+       "e": [
+        "Cela désigne le lieu le moment et les circonstances de l’histoire, plutôt que la notion demandée.",
+        "Cela désigne une relation expliquant pourquoi un fait se produit, plutôt que la notion demandée.",
+        "Cela désigne la continuité des temps référents et actions, plutôt que la notion demandée."
+       ],
+       "y": "Cause et succession sont des relations différentes."
+      },
+      {
+       "q": "Quel terme désigne une relation expliquant pourquoi un fait se produit ?",
+       "r": "cause",
+       "w": [
+        "cadre",
+        "succession",
+        "cohérence"
+       ],
+       "e": [
+        "Cela désigne le lieu le moment et les circonstances de l’histoire, plutôt que la notion demandée.",
+        "Cela désigne l’ordre des événements dans la narration, plutôt que la notion demandée.",
+        "Cela désigne la continuité des temps référents et actions, plutôt que la notion demandée."
+       ],
+       "y": "Le mot de liaison doit correspondre au lien voulu."
+      },
+      {
+       "q": "Quel terme désigne la continuité des temps référents et actions ?",
+       "r": "cohérence",
+       "w": [
+        "cadre",
+        "succession",
+        "cause"
+       ],
+       "e": [
+        "Cela désigne le lieu le moment et les circonstances de l’histoire, plutôt que la notion demandée.",
+        "Cela désigne l’ordre des événements dans la narration, plutôt que la notion demandée.",
+        "Cela désigne une relation expliquant pourquoi un fait se produit, plutôt que la notion demandée."
+       ],
+       "y": "Les reprises doivent permettre de suivre la même situation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-9-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un soir situe l’activité du club.\nQuelle notion convient ?",
+       "r": "cadre",
+       "w": [
+        "succession",
+        "cause",
+        "cohérence"
+       ],
+       "e": [
+        "Cela concerne l’ordre des événements dans la narration. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation expliquant pourquoi un fait se produit. Compare cette définition avec le cas présenté.",
+        "Cela concerne la continuité des temps référents et actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le cadre aide à comprendre le déroulement."
+      },
+      {
+       "q": "D’abord, puis et enfin peuvent organiser la suite.\nQuelle notion convient ?",
+       "r": "succession",
+       "w": [
+        "cadre",
+        "cause",
+        "cohérence"
+       ],
+       "e": [
+        "Cela concerne le lieu le moment et les circonstances de l’histoire. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation expliquant pourquoi un fait se produit. Compare cette définition avec le cas présenté.",
+        "Cela concerne la continuité des temps référents et actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Cause et succession sont des relations différentes."
+      },
+      {
+       "q": "Parce que introduit une explication dans une phrase adaptée.\nQuelle notion convient ?",
+       "r": "cause",
+       "w": [
+        "cadre",
+        "succession",
+        "cohérence"
+       ],
+       "e": [
+        "Cela concerne le lieu le moment et les circonstances de l’histoire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre des événements dans la narration. Compare cette définition avec le cas présenté.",
+        "Cela concerne la continuité des temps référents et actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le mot de liaison doit correspondre au lien voulu."
+      },
+      {
+       "q": "Le lecteur peut suivre qui cherche puis retrouve le cahier.\nQuelle notion convient ?",
+       "r": "cohérence",
+       "w": [
+        "cadre",
+        "succession",
+        "cause"
+       ],
+       "e": [
+        "Cela concerne le lieu le moment et les circonstances de l’histoire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre des événements dans la narration. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation expliquant pourquoi un fait se produit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les reprises doivent permettre de suivre la même situation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-9-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Je prépare un texte adapté au destinataire.",
+       "b": "Je prépare un texte adapté au destinataire."
+      },
+      {
+       "a": "Un paragraphe développe une idée claire.",
+       "b": "Un paragraphe développe une idée claire."
+      },
+      {
+       "a": "Les liens rendent le texte compréhensible.",
+       "b": "Les liens rendent le texte compréhensible."
+      },
+      {
+       "a": "Je relis les accords avant de terminer.",
+       "b": "Je relis les accords avant de terminer."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-9-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "cadre",
+     "right": "Un soir situe l’activité du club."
+    },
+    {
+     "left": "succession",
+     "right": "D’abord, puis et enfin peuvent organiser la suite."
+    },
+    {
+     "left": "cause",
+     "right": "Parce que introduit une explication dans une phrase adaptée."
+    },
+    {
+     "left": "cohérence",
+     "right": "Le lecteur peut suivre qui cherche puis retrouve le cahier."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-9-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "cadre : le lieu le moment et les circonstances de l’histoire.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le cadre aide à comprendre le déroulement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "succession : l’ordre des événements dans la narration.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Cause et succession sont des relations différentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cause : une relation expliquant pourquoi un fait se produit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le mot de liaison doit correspondre au lien voulu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cohérence : la continuité des temps référents et actions.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les reprises doivent permettre de suivre la même situation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un récit doit empêcher le lecteur de situer toute action.",
+      "truth": "false",
+      "explain": "Le cadre aide à comprendre le déroulement."
+     },
+     {
+      "text": "Parce que signifie toujours exactement ensuite.",
+      "truth": "false",
+      "explain": "Cause et succession sont des relations différentes."
+     },
+     {
+      "text": "Tout connecteur peut exprimer n’importe quelle relation sans changer le sens.",
+      "truth": "false",
+      "explain": "Le mot de liaison doit correspondre au lien voulu."
+     },
+     {
+      "text": "Un personnage peut changer d’identité sans explication à chaque phrase.",
+      "truth": "false",
+      "explain": "Les reprises doivent permettre de suivre la même situation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Raconte une difficulté résolue dans un club ou une situation communautaire fictive. Situe le cadre, lie les actions et donne une issue. Emploie des connecteurs adaptés, sans imposer le même temps à tous les verbes.",
+  "model": [
+   "Un soir, Bih rangeait les livres du club. D’abord, elle chercha le cahier de prêt, mais il manquait. Elle demanda alors à Ayuk où il l’avait posé. Il montra une étagère voisine. Bih y retrouva le cahier et vérifia les retours. Enfin, le groupe put préparer la séance. La recherche prit du temps ; pourtant, personne n’accusa un camarade sans vérifier."
+  ],
+  "checklist": [
+   "Le lecteur suit les personnages et l’ordre des actions.",
+   "Chaque connecteur exprime la relation voulue.",
+   "Les pronoms, temps, accords et détails restent cohérents."
+  ]
+ }
+}

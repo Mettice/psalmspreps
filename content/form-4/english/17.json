@@ -1,0 +1,604 @@
+{
+ "subject": "english-language",
+ "class": "Form 4",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  4,
+  15
+ ],
+ "skills": [
+  {
+   "id": "e4-17",
+   "name": "Conditional sentences"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A conditional links a condition and a result. Common zero-condition models use present forms for general patterns. A first-condition model uses if + present and will + base for a possible future. A second-condition model commonly uses if + past and would + base for an imagined present or future. A third-condition model uses if + past perfect and would have + participle for an unreal past. These are useful patterns, not a claim that every possible conditional must fit one rigid template.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to match a common conditional pattern to its meaning and correct a malformed clause. Builds on: past, present and future-reference forms. Leads to: reasoned argument and later imagined or past situations."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A conditional links a condition and a result. Common zero-condition models use present forms for general patterns. A first-condition model uses if + present and will + base for a possible future. A second-condition model commonly uses if + past and would + base for an imagined present or future. A third-condition model uses if + past perfect and would have + participle for an unreal past. These are useful patterns, not a claim that every possible conditional must fit one rigid template."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: If the room is available, the club meets there as a general rule. If it is available tomorrow, we will meet there. If we had another room, we would share the work. If we had booked earlier, we would have obtained the room. The last situation is imagined about the past; it does not report that the earlier booking actually happened."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Choose the intended time and degree of reality before the form. In the ordinary first-condition model, do not insert will into the if-clause simply because the time is future. Other modal uses exist, so a special context can justify another construction. Clause order can change without reversing the condition and result."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "zero-condition model",
+    "meaning": "a condition/result pattern describing a general relationship"
+   },
+   {
+    "word": "first-condition model",
+    "meaning": "a common if-present/will-base pattern for a possible future"
+   },
+   {
+    "word": "second-condition model",
+    "meaning": "an if-past/would-base pattern for an imagined present or future"
+   },
+   {
+    "word": "third-condition model",
+    "meaning": "an if-past-perfect/would-have-participle pattern for an unreal past"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every conditional necessarily concerns one future event.",
+   "right": "zero-condition model: a condition/result pattern describing a general relationship.",
+   "why": "A zero-condition model can describe a general pattern."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "If the room is available, the club meets there under its general rule. Explain the selected feature.",
+  "steps": [
+   "A condition/result pattern describing a general relationship.",
+   "A zero-condition model can describe a general pattern."
+  ],
+  "answer": "zero-condition model",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e4-17-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "zero-condition model: a condition/result pattern describing a general relationship.",
+     "first-condition model: a common if-present/will-base pattern for a possible future.",
+     "second-condition model: an if-past/would-base pattern for an imagined present or future.",
+     "third-condition model: an if-past-perfect/would-have-participle pattern for an unreal past."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-17-terms"
+    }
+   },
+   {
+    "id": "e4-17-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "If the room is available, the club meets there under its general rule.",
+     "If the room is free tomorrow, we will meet there.",
+     "If we had another room now, we would use it.",
+     "If we had booked earlier, we would have obtained the room."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e4-17-cases"
+    }
+   },
+   {
+    "id": "e4-17-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every conditional necessarily concerns one future event. Correction: A zero-condition model can describe a general pattern.",
+     "The ordinary first-condition model always requires will in both clauses. Correction: Use present in the if-clause and will plus base in the result here.",
+     "The past form here proves the imagined room existed yesterday. Correction: The past form can mark hypothetical distance rather than past time.",
+     "The third-condition model reports that the earlier condition actually happened. Correction: The model imagines a past alternative, rather than asserting its occurrence."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e4-17-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "zero-condition model: a condition/result pattern describing a general relationship.",
+        "truth": "true",
+        "explain": "This is correct: a condition/result pattern describing a general relationship. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "first-condition model: a common if-present/will-base pattern for a possible future.",
+        "truth": "true",
+        "explain": "This is correct: a common if-present/will-base pattern for a possible future. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "second-condition model: an if-past/would-base pattern for an imagined present or future.",
+        "truth": "true",
+        "explain": "This is correct: an if-past/would-base pattern for an imagined present or future. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "third-condition model: an if-past-perfect/would-have-participle pattern for an unreal past.",
+        "truth": "true",
+        "explain": "This is correct: an if-past-perfect/would-have-participle pattern for an unreal past. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every conditional necessarily concerns one future event.",
+        "truth": "false",
+        "explain": "A zero-condition model can describe a general pattern."
+       },
+       {
+        "text": "The ordinary first-condition model always requires will in both clauses.",
+        "truth": "false",
+        "explain": "Use present in the if-clause and will plus base in the result here."
+       },
+       {
+        "text": "The past form here proves the imagined room existed yesterday.",
+        "truth": "false",
+        "explain": "The past form can mark hypothetical distance rather than past time."
+       },
+       {
+        "text": "The third-condition model reports that the earlier condition actually happened.",
+        "truth": "false",
+        "explain": "The model imagines a past alternative, rather than asserting its occurrence."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e4-17-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a condition/result pattern describing a general relationship?",
+       "r": "zero-condition model",
+       "w": [
+        "first-condition model",
+        "second-condition model",
+        "third-condition model"
+       ],
+       "e": [
+        "That concerns a common if-present/will-base pattern for a possible future, rather than a condition/result pattern describing a general relationship.",
+        "That concerns an if-past/would-base pattern for an imagined present or future, rather than a condition/result pattern describing a general relationship.",
+        "That concerns an if-past-perfect/would-have-participle pattern for an unreal past, rather than a condition/result pattern describing a general relationship."
+       ],
+       "y": "A zero-condition model can describe a general pattern."
+      },
+      {
+       "q": "Which term means a common if-present/will-base pattern for a possible future?",
+       "r": "first-condition model",
+       "w": [
+        "zero-condition model",
+        "second-condition model",
+        "third-condition model"
+       ],
+       "e": [
+        "That concerns a condition/result pattern describing a general relationship, rather than a common if-present/will-base pattern for a possible future.",
+        "That concerns an if-past/would-base pattern for an imagined present or future, rather than a common if-present/will-base pattern for a possible future.",
+        "That concerns an if-past-perfect/would-have-participle pattern for an unreal past, rather than a common if-present/will-base pattern for a possible future."
+       ],
+       "y": "Use present in the if-clause and will plus base in the result here."
+      },
+      {
+       "q": "Which term means an if-past/would-base pattern for an imagined present or future?",
+       "r": "second-condition model",
+       "w": [
+        "zero-condition model",
+        "first-condition model",
+        "third-condition model"
+       ],
+       "e": [
+        "That concerns a condition/result pattern describing a general relationship, rather than an if-past/would-base pattern for an imagined present or future.",
+        "That concerns a common if-present/will-base pattern for a possible future, rather than an if-past/would-base pattern for an imagined present or future.",
+        "That concerns an if-past-perfect/would-have-participle pattern for an unreal past, rather than an if-past/would-base pattern for an imagined present or future."
+       ],
+       "y": "The past form can mark hypothetical distance rather than past time."
+      },
+      {
+       "q": "Which term means an if-past-perfect/would-have-participle pattern for an unreal past?",
+       "r": "third-condition model",
+       "w": [
+        "zero-condition model",
+        "first-condition model",
+        "second-condition model"
+       ],
+       "e": [
+        "That concerns a condition/result pattern describing a general relationship, rather than an if-past-perfect/would-have-participle pattern for an unreal past.",
+        "That concerns a common if-present/will-base pattern for a possible future, rather than an if-past-perfect/would-have-participle pattern for an unreal past.",
+        "That concerns an if-past/would-base pattern for an imagined present or future, rather than an if-past-perfect/would-have-participle pattern for an unreal past."
+       ],
+       "y": "The model imagines a past alternative, rather than asserting its occurrence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-17-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "If the room is available, the club meets there under its general rule.\nWhich description best fits the selected feature?",
+       "r": "zero-condition model",
+       "w": [
+        "first-condition model",
+        "second-condition model",
+        "third-condition model"
+       ],
+       "e": [
+        "That means a common if-present/will-base pattern for a possible future. The selected feature instead illustrates a condition/result pattern describing a general relationship.",
+        "That means an if-past/would-base pattern for an imagined present or future. The selected feature instead illustrates a condition/result pattern describing a general relationship.",
+        "That means an if-past-perfect/would-have-participle pattern for an unreal past. The selected feature instead illustrates a condition/result pattern describing a general relationship."
+       ],
+       "y": "A zero-condition model can describe a general pattern."
+      },
+      {
+       "q": "If the room is free tomorrow, we will meet there.\nWhich description best fits the selected feature?",
+       "r": "first-condition model",
+       "w": [
+        "zero-condition model",
+        "second-condition model",
+        "third-condition model"
+       ],
+       "e": [
+        "That means a condition/result pattern describing a general relationship. The selected feature instead illustrates a common if-present/will-base pattern for a possible future.",
+        "That means an if-past/would-base pattern for an imagined present or future. The selected feature instead illustrates a common if-present/will-base pattern for a possible future.",
+        "That means an if-past-perfect/would-have-participle pattern for an unreal past. The selected feature instead illustrates a common if-present/will-base pattern for a possible future."
+       ],
+       "y": "Use present in the if-clause and will plus base in the result here."
+      },
+      {
+       "q": "If we had another room now, we would use it.\nWhich description best fits the selected feature?",
+       "r": "second-condition model",
+       "w": [
+        "zero-condition model",
+        "first-condition model",
+        "third-condition model"
+       ],
+       "e": [
+        "That means a condition/result pattern describing a general relationship. The selected feature instead illustrates an if-past/would-base pattern for an imagined present or future.",
+        "That means a common if-present/will-base pattern for a possible future. The selected feature instead illustrates an if-past/would-base pattern for an imagined present or future.",
+        "That means an if-past-perfect/would-have-participle pattern for an unreal past. The selected feature instead illustrates an if-past/would-base pattern for an imagined present or future."
+       ],
+       "y": "The past form can mark hypothetical distance rather than past time."
+      },
+      {
+       "q": "If we had booked earlier, we would have obtained the room.\nWhich description best fits the selected feature?",
+       "r": "third-condition model",
+       "w": [
+        "zero-condition model",
+        "first-condition model",
+        "second-condition model"
+       ],
+       "e": [
+        "That means a condition/result pattern describing a general relationship. The selected feature instead illustrates an if-past-perfect/would-have-participle pattern for an unreal past.",
+        "That means a common if-present/will-base pattern for a possible future. The selected feature instead illustrates an if-past-perfect/would-have-participle pattern for an unreal past.",
+        "That means an if-past/would-base pattern for an imagined present or future. The selected feature instead illustrates an if-past-perfect/would-have-participle pattern for an unreal past."
+       ],
+       "y": "The model imagines a past alternative, rather than asserting its occurrence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-17-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choose the ordinary possible-future model.",
+       "r": "If Bih arrives early, she will help.",
+       "w": [
+        "If Bih will arrives early, she will help.",
+        "If Bih arrive early, she will helped.",
+        "If Bih arrived yesterday, she will helped yesterday."
+       ],
+       "e": [
+        "The ordinary if-clause uses present, with correct agreement.",
+        "Arrives and help are required in this pattern.",
+        "This mixes incompatible time and verb patterns."
+       ],
+       "y": "If-present links to will plus base."
+      },
+      {
+       "q": "Choose the imagined present/future model.",
+       "r": "If Ayuk had more time, he would read.",
+       "w": [
+        "If Ayuk had more time, he would reads.",
+        "If Ayuk has more time, he would to read.",
+        "If Ayuk had more time, he will reading."
+       ],
+       "e": [
+        "Use base read after would.",
+        "Would does not take to in this pattern.",
+        "Will reading does not form the requested model."
+       ],
+       "y": "If-past plus would-base fits the stated imagined situation."
+      },
+      {
+       "q": "Choose the unreal-past model.",
+       "r": "If Bih had left earlier, she would have arrived on time.",
+       "w": [
+        "If Bih had leave earlier, she would have arrived on time.",
+        "If Bih had left earlier, she would have arrive on time.",
+        "If Bih had left earlier, she would has arrived on time."
+       ],
+       "e": [
+        "Had takes the participle left.",
+        "Have takes the participle arrived.",
+        "Would is followed by base have."
+       ],
+       "y": "Both perfect patterns need the appropriate participles."
+      },
+      {
+       "q": "Which reformulation preserves the conditional relationship?",
+       "r": "We will meet if the room is free.",
+       "w": [
+        "The room is free if we will meet, with the same asserted condition.",
+        "We will meet although the room is free, with identical meaning.",
+        "The room was free because we met, with identical meaning."
+       ],
+       "e": [
+        "That changes the condition’s direction and form.",
+        "Although expresses concession, not the same condition.",
+        "That invents past time and a causal relationship."
+       ],
+       "y": "Moving the if-clause does not reverse which event is the condition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e4-17-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "zero-condition model",
+     "right": "If the room is available, the club meets there under its general rule."
+    },
+    {
+     "left": "first-condition model",
+     "right": "If the room is free tomorrow, we will meet there."
+    },
+    {
+     "left": "second-condition model",
+     "right": "If we had another room now, we would use it."
+    },
+    {
+     "left": "third-condition model",
+     "right": "If we had booked earlier, we would have obtained the room."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e4-17-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "zero-condition model: a condition/result pattern describing a general relationship.",
+      "truth": "true",
+      "explain": "This is correct: a condition/result pattern describing a general relationship. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "first-condition model: a common if-present/will-base pattern for a possible future.",
+      "truth": "true",
+      "explain": "This is correct: a common if-present/will-base pattern for a possible future. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "second-condition model: an if-past/would-base pattern for an imagined present or future.",
+      "truth": "true",
+      "explain": "This is correct: an if-past/would-base pattern for an imagined present or future. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "third-condition model: an if-past-perfect/would-have-participle pattern for an unreal past.",
+      "truth": "true",
+      "explain": "This is correct: an if-past-perfect/would-have-participle pattern for an unreal past. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every conditional necessarily concerns one future event.",
+      "truth": "false",
+      "explain": "A zero-condition model can describe a general pattern."
+     },
+     {
+      "text": "The ordinary first-condition model always requires will in both clauses.",
+      "truth": "false",
+      "explain": "Use present in the if-clause and will plus base in the result here."
+     },
+     {
+      "text": "The past form here proves the imagined room existed yesterday.",
+      "truth": "false",
+      "explain": "The past form can mark hypothetical distance rather than past time."
+     },
+     {
+      "text": "The third-condition model reports that the earlier condition actually happened.",
+      "truth": "false",
+      "explain": "The model imagines a past alternative, rather than asserting its occurrence."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

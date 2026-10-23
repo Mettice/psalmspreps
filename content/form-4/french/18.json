@@ -1,0 +1,553 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 18,
+ "language": "fr",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "fr4-18",
+   "name": "Les verbes impersonnels"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans un emploi impersonnel, il ne renvoie pas à un être ou à un objet identifiable. Les expressions météorologiques telles que il pleut ou il neige fournissent des modèles courants. Falloir exprime notamment une nécessité : il faut attendre ou il faut que le groupe soit prêt. Il faut distinguer ces emplois d’un il personnel reprenant un garçon ou un objet masculin. Certains verbes peuvent aussi avoir des emplois figurés ou personnels ; on ne généralise pas le modèle à tous les contextes.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras reconnaître un il impersonnel et former les modèles météorologiques réguliers étudiés. Acquis mobilisés : les sujets et les formes personnelles de l’indicatif. Pour la suite : il faut que et les constructions de nécessité."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Dans un emploi impersonnel, il ne renvoie pas à un être ou à un objet identifiable. Les expressions météorologiques telles que il pleut ou il neige fournissent des modèles courants. Falloir exprime notamment une nécessité : il faut attendre ou il faut que le groupe soit prêt. Il faut distinguer ces emplois d’un il personnel reprenant un garçon ou un objet masculin. Certains verbes peuvent aussi avoir des emplois figurés ou personnels ; on ne généralise pas le modèle à tous les contextes."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles de reconnaissance : il pleut décrit un phénomène ; il faut indique une nécessité. Pour les verbes réguliers étudiés : il {fr2Present(\"neiger\",2)}, il {fr2Present(\"venter\",2)}, il {fr2Present(\"tonner\",2)} et il {fr2Present(\"geler\",2)}. Ce sont des exemples de langue, pas une prévision pour Buea. Dans Ayuk arrive ; il sourit, le second il reprend une personne et n’a pas le même fonctionnement."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Demande si il a un référent identifiable. Examine ensuite la construction, plutôt que d’inventer un nom caché pour chaque sujet. Après il faut, distingue l’infinitif sans sujet propre de la proposition en que. Réemploie une expression dans un exemple fictif, sans prétendre décrire la météo actuelle."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "il impersonnel",
+    "meaning": "un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis"
+   },
+   {
+    "word": "phénomène météorologique",
+    "meaning": "un événement de temps exprimé par le modèle impersonnel"
+   },
+   {
+    "word": "nécessité",
+    "meaning": "ce que falloir peut présenter comme requis"
+   },
+   {
+    "word": "il personnel",
+    "meaning": "un pronom renvoyant à un référent identifiable"
+   }
+  ],
+  "mistake": {
+   "wrong": "Chaque il doit reprendre un homme mentionné auparavant.",
+   "right": "un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis.",
+   "why": "Certains emplois de il n’ont pas ce référent personnel."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans il pleut, il ne nomme pas une personne qui ferait la pluie. Explique le choix.",
+  "steps": [
+   "un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis.",
+   "Certains emplois de il n’ont pas ce référent personnel."
+  ],
+  "answer": "il impersonnel",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-18-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "il impersonnel : un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis.",
+     "phénomène météorologique : un événement de temps exprimé par le modèle impersonnel.",
+     "nécessité : ce que falloir peut présenter comme requis.",
+     "il personnel : un pronom renvoyant à un référent identifiable."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-18-notions"
+    }
+   },
+   {
+    "id": "fr4-18-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Dans il pleut, il ne nomme pas une personne qui ferait la pluie.",
+     "Il {fr2Present(\"neiger\",2)} est un exemple de langue.",
+     "Il faut attendre présente une nécessité dans la situation.",
+     "Ayuk arrive ; il sourit reprend Ayuk."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-18-cas"
+    }
+   },
+   {
+    "id": "fr4-18-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Chaque il doit reprendre un homme mentionné auparavant. Correction : Certains emplois de il n’ont pas ce référent personnel.",
+     "Un exemple grammatical prouve qu’il neige actuellement à Buea. Correction : Le modèle de conjugaison ne constitue pas une observation météorologique.",
+     "Il faut décrit toujours uniquement de la pluie. Correction : Le sens de nécessité diffère de l’exemple météorologique.",
+     "Le il de il sourit est toujours le même emploi que dans il pleut. Correction : Le référent identifiable distingue ici les emplois."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-18-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "il impersonnel : un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Certains emplois de il n’ont pas ce référent personnel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "phénomène météorologique : un événement de temps exprimé par le modèle impersonnel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle de conjugaison ne constitue pas une observation météorologique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "nécessité : ce que falloir peut présenter comme requis.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens de nécessité diffère de l’exemple météorologique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "il personnel : un pronom renvoyant à un référent identifiable.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le référent identifiable distingue ici les emplois. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Chaque il doit reprendre un homme mentionné auparavant.",
+        "truth": "false",
+        "explain": "Certains emplois de il n’ont pas ce référent personnel."
+       },
+       {
+        "text": "Un exemple grammatical prouve qu’il neige actuellement à Buea.",
+        "truth": "false",
+        "explain": "Le modèle de conjugaison ne constitue pas une observation météorologique."
+       },
+       {
+        "text": "Il faut décrit toujours uniquement de la pluie.",
+        "truth": "false",
+        "explain": "Le sens de nécessité diffère de l’exemple météorologique."
+       },
+       {
+        "text": "Le il de il sourit est toujours le même emploi que dans il pleut.",
+        "truth": "false",
+        "explain": "Le référent identifiable distingue ici les emplois."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-18-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis ?",
+       "r": "il impersonnel",
+       "w": [
+        "phénomène météorologique",
+        "nécessité",
+        "il personnel"
+       ],
+       "e": [
+        "Cela désigne un événement de temps exprimé par le modèle impersonnel, plutôt que la notion demandée.",
+        "Cela désigne ce que falloir peut présenter comme requis, plutôt que la notion demandée.",
+        "Cela désigne un pronom renvoyant à un référent identifiable, plutôt que la notion demandée."
+       ],
+       "y": "Certains emplois de il n’ont pas ce référent personnel."
+      },
+      {
+       "q": "Quel terme désigne un événement de temps exprimé par le modèle impersonnel ?",
+       "r": "phénomène météorologique",
+       "w": [
+        "il impersonnel",
+        "nécessité",
+        "il personnel"
+       ],
+       "e": [
+        "Cela désigne un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis, plutôt que la notion demandée.",
+        "Cela désigne ce que falloir peut présenter comme requis, plutôt que la notion demandée.",
+        "Cela désigne un pronom renvoyant à un référent identifiable, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle de conjugaison ne constitue pas une observation météorologique."
+      },
+      {
+       "q": "Quel terme désigne ce que falloir peut présenter comme requis ?",
+       "r": "nécessité",
+       "w": [
+        "il impersonnel",
+        "phénomène météorologique",
+        "il personnel"
+       ],
+       "e": [
+        "Cela désigne un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis, plutôt que la notion demandée.",
+        "Cela désigne un événement de temps exprimé par le modèle impersonnel, plutôt que la notion demandée.",
+        "Cela désigne un pronom renvoyant à un référent identifiable, plutôt que la notion demandée."
+       ],
+       "y": "Le sens de nécessité diffère de l’exemple météorologique."
+      },
+      {
+       "q": "Quel terme désigne un pronom renvoyant à un référent identifiable ?",
+       "r": "il personnel",
+       "w": [
+        "il impersonnel",
+        "phénomène météorologique",
+        "nécessité"
+       ],
+       "e": [
+        "Cela désigne un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis, plutôt que la notion demandée.",
+        "Cela désigne un événement de temps exprimé par le modèle impersonnel, plutôt que la notion demandée.",
+        "Cela désigne ce que falloir peut présenter comme requis, plutôt que la notion demandée."
+       ],
+       "y": "Le référent identifiable distingue ici les emplois."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-18-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans il pleut, il ne nomme pas une personne qui ferait la pluie.\nQuelle notion convient ?",
+       "r": "il impersonnel",
+       "w": [
+        "phénomène météorologique",
+        "nécessité",
+        "il personnel"
+       ],
+       "e": [
+        "Cela concerne un événement de temps exprimé par le modèle impersonnel. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que falloir peut présenter comme requis. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom renvoyant à un référent identifiable. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Certains emplois de il n’ont pas ce référent personnel."
+      },
+      {
+       "q": "Il {fr2Present(\"neiger\",2)} est un exemple de langue.\nQuelle notion convient ?",
+       "r": "phénomène météorologique",
+       "w": [
+        "il impersonnel",
+        "nécessité",
+        "il personnel"
+       ],
+       "e": [
+        "Cela concerne un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que falloir peut présenter comme requis. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom renvoyant à un référent identifiable. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle de conjugaison ne constitue pas une observation météorologique."
+      },
+      {
+       "q": "Il faut attendre présente une nécessité dans la situation.\nQuelle notion convient ?",
+       "r": "nécessité",
+       "w": [
+        "il impersonnel",
+        "phénomène météorologique",
+        "il personnel"
+       ],
+       "e": [
+        "Cela concerne un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis. Compare cette définition avec le cas présenté.",
+        "Cela concerne un événement de temps exprimé par le modèle impersonnel. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom renvoyant à un référent identifiable. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens de nécessité diffère de l’exemple météorologique."
+      },
+      {
+       "q": "Ayuk arrive ; il sourit reprend Ayuk.\nQuelle notion convient ?",
+       "r": "il personnel",
+       "w": [
+        "il impersonnel",
+        "phénomène météorologique",
+        "nécessité"
+       ],
+       "e": [
+        "Cela concerne un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis. Compare cette définition avec le cas présenté.",
+        "Cela concerne un événement de temps exprimé par le modèle impersonnel. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que falloir peut présenter comme requis. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le référent identifiable distingue ici les emplois."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-18-forme",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "neiger",
+      "venter",
+      "tonner",
+      "geler"
+     ]
+    }
+   },
+   "prompt": "Complète l’emploi météorologique impersonnel au présent : « {v} ». Choisis le groupe complet.",
+   "correct": "il {fr2Present(v,2)}",
+   "distractors": [
+    {
+     "text": "nous {fr2Present(v,4)}",
+     "misconception": "pluriel"
+    },
+    {
+     "text": "je {fr2Present(v,0)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "il {v}",
+     "misconception": "infinitif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pluriel",
+     "explain": "Le modèle météorologique impersonnel demandé ne prend pas nous comme sujet."
+    },
+    {
+     "id": "personne",
+     "explain": "Je ne correspond pas au sujet impersonnel demandé."
+    },
+    {
+     "id": "infinitif",
+     "explain": "Le verbe doit être conjugué au présent après il."
+    }
+   ],
+   "solution": [
+    "Dans l’emploi météorologique demandé, il ne renvoie pas à une personne.",
+    "Le groupe est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-18-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "il impersonnel",
+     "right": "Dans il pleut, il ne nomme pas une personne qui ferait la pluie."
+    },
+    {
+     "left": "phénomène météorologique",
+     "right": "Il {fr2Present(\"neiger\",2)} est un exemple de langue."
+    },
+    {
+     "left": "nécessité",
+     "right": "Il faut attendre présente une nécessité dans la situation."
+    },
+    {
+     "left": "il personnel",
+     "right": "Ayuk arrive ; il sourit reprend Ayuk."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-18-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "il impersonnel : un sujet grammatical ne renvoyant pas ici à une personne ou un objet précis.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Certains emplois de il n’ont pas ce référent personnel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "phénomène météorologique : un événement de temps exprimé par le modèle impersonnel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle de conjugaison ne constitue pas une observation météorologique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "nécessité : ce que falloir peut présenter comme requis.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens de nécessité diffère de l’exemple météorologique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "il personnel : un pronom renvoyant à un référent identifiable.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le référent identifiable distingue ici les emplois. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chaque il doit reprendre un homme mentionné auparavant.",
+      "truth": "false",
+      "explain": "Certains emplois de il n’ont pas ce référent personnel."
+     },
+     {
+      "text": "Un exemple grammatical prouve qu’il neige actuellement à Buea.",
+      "truth": "false",
+      "explain": "Le modèle de conjugaison ne constitue pas une observation météorologique."
+     },
+     {
+      "text": "Il faut décrit toujours uniquement de la pluie.",
+      "truth": "false",
+      "explain": "Le sens de nécessité diffère de l’exemple météorologique."
+     },
+     {
+      "text": "Le il de il sourit est toujours le même emploi que dans il pleut.",
+      "truth": "false",
+      "explain": "Le référent identifiable distingue ici les emplois."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

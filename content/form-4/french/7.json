@@ -1,0 +1,611 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 7,
+ "language": "fr",
+ "prerequisites": [
+  3,
+  5,
+  6
+ ],
+ "skills": [
+  {
+   "id": "fr4-7",
+   "name": "Les homophones : si, ci, scie, s’y"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Des homophones se ressemblent à l’oral mais s’écrivent différemment selon leur sens et leur fonction. Si peut introduire une condition ; -ci apparaît notamment avec un démonstratif comme ce livre-ci ; scie est ici un nom d’outil ; s’y associe le pronom se élidé et y. Chaque forme a d’autres contextes possibles : la leçon ne réduit pas si à une seule valeur. Pour écrire, analyse la phrase plutôt que de recopier une sonorité imaginée. Cette activité écrite ne vérifie pas une écoute réelle.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir une graphie selon sa fonction et le sens de la phrase. Acquis mobilisés : les pronoms compléments et les phrases de récit. Pour la suite : l’affixation et la relecture d’une narration."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Des homophones se ressemblent à l’oral mais s’écrivent différemment selon leur sens et leur fonction. Si peut introduire une condition ; -ci apparaît notamment avec un démonstratif comme ce livre-ci ; scie est ici un nom d’outil ; s’y associe le pronom se élidé et y. Chaque forme a d’autres contextes possibles : la leçon ne réduit pas si à une seule valeur. Pour écrire, analyse la phrase plutôt que de recopier une sonorité imaginée. Cette activité écrite ne vérifie pas une écoute réelle."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Si le groupe est prêt, nous partirons. Ces livres-ci sont disponibles. Le mot scie nomme ici un outil, sans consigne de manipulation. Bih connaît le lieu et s’y prépare. Dans le dernier modèle, y reprend un complément annoncé ; l’apostrophe marque l’élision de se."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Cherche une condition, un démonstratif, un nom ou une construction pronominale. Vérifie l’apostrophe et le trait d’union. Réemploie une graphie dans une phrase nouvelle qui rende son sens identifiable. Une bonne réponse à l’écrit ne prouve pas une prononciation ou une audition correcte."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "si",
+    "meaning": "une graphie introduisant notamment une condition"
+   },
+   {
+    "word": "ci",
+    "meaning": "une particule présente dans certains démonstratifs"
+   },
+   {
+    "word": "scie",
+    "meaning": "le nom d’un outil dans l’emploi étudié"
+   },
+   {
+    "word": "s’y",
+    "meaning": "la suite de se élidé et du pronom y"
+   }
+  ],
+  "mistake": {
+   "wrong": "Si est toujours le nom d’un outil.",
+   "right": "une graphie introduisant notamment une condition.",
+   "why": "Le contexte conditionnel distingue cette graphie."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Si le groupe est prêt introduit ici une condition. Explique le choix.",
+  "steps": [
+   "une graphie introduisant notamment une condition.",
+   "Le contexte conditionnel distingue cette graphie."
+  ],
+  "answer": "si",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-7-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "si : une graphie introduisant notamment une condition.",
+     "ci : une particule présente dans certains démonstratifs.",
+     "scie : le nom d’un outil dans l’emploi étudié.",
+     "s’y : la suite de se élidé et du pronom y."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-7-notions"
+    }
+   },
+   {
+    "id": "fr4-7-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Si le groupe est prêt introduit ici une condition.",
+     "Ces livres-ci comporte un trait d’union avant ci.",
+     "Une scie est un groupe nominal.",
+     "Bih s’y prépare reprend une construction pronominale."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-7-cas"
+    }
+   },
+   {
+    "id": "fr4-7-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Si est toujours le nom d’un outil. Correction : Le contexte conditionnel distingue cette graphie.",
+     "Dans ces livres-ci, ci doit s’écrire s’y. Correction : La construction démonstrative demande -ci.",
+     "Le nom de l’outil s’écrit obligatoirement si. Correction : L’article et le sens du nom orientent la graphie.",
+     "S’y est toujours une particule démonstrative après livres. Correction : Il faut reconnaître les pronoms et leur reprise."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-7-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "si : une graphie introduisant notamment une condition.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le contexte conditionnel distingue cette graphie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "ci : une particule présente dans certains démonstratifs.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La construction démonstrative demande -ci. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "scie : le nom d’un outil dans l’emploi étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’article et le sens du nom orientent la graphie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "s’y : la suite de se élidé et du pronom y.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut reconnaître les pronoms et leur reprise. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Si est toujours le nom d’un outil.",
+        "truth": "false",
+        "explain": "Le contexte conditionnel distingue cette graphie."
+       },
+       {
+        "text": "Dans ces livres-ci, ci doit s’écrire s’y.",
+        "truth": "false",
+        "explain": "La construction démonstrative demande -ci."
+       },
+       {
+        "text": "Le nom de l’outil s’écrit obligatoirement si.",
+        "truth": "false",
+        "explain": "L’article et le sens du nom orientent la graphie."
+       },
+       {
+        "text": "S’y est toujours une particule démonstrative après livres.",
+        "truth": "false",
+        "explain": "Il faut reconnaître les pronoms et leur reprise."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-7-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une graphie introduisant notamment une condition ?",
+       "r": "si",
+       "w": [
+        "ci",
+        "scie",
+        "s’y"
+       ],
+       "e": [
+        "Cela désigne une particule présente dans certains démonstratifs, plutôt que la notion demandée.",
+        "Cela désigne le nom d’un outil dans l’emploi étudié, plutôt que la notion demandée.",
+        "Cela désigne la suite de se élidé et du pronom y, plutôt que la notion demandée."
+       ],
+       "y": "Le contexte conditionnel distingue cette graphie."
+      },
+      {
+       "q": "Quel terme désigne une particule présente dans certains démonstratifs ?",
+       "r": "ci",
+       "w": [
+        "si",
+        "scie",
+        "s’y"
+       ],
+       "e": [
+        "Cela désigne une graphie introduisant notamment une condition, plutôt que la notion demandée.",
+        "Cela désigne le nom d’un outil dans l’emploi étudié, plutôt que la notion demandée.",
+        "Cela désigne la suite de se élidé et du pronom y, plutôt que la notion demandée."
+       ],
+       "y": "La construction démonstrative demande -ci."
+      },
+      {
+       "q": "Quel terme désigne le nom d’un outil dans l’emploi étudié ?",
+       "r": "scie",
+       "w": [
+        "si",
+        "ci",
+        "s’y"
+       ],
+       "e": [
+        "Cela désigne une graphie introduisant notamment une condition, plutôt que la notion demandée.",
+        "Cela désigne une particule présente dans certains démonstratifs, plutôt que la notion demandée.",
+        "Cela désigne la suite de se élidé et du pronom y, plutôt que la notion demandée."
+       ],
+       "y": "L’article et le sens du nom orientent la graphie."
+      },
+      {
+       "q": "Quel terme désigne la suite de se élidé et du pronom y ?",
+       "r": "s’y",
+       "w": [
+        "si",
+        "ci",
+        "scie"
+       ],
+       "e": [
+        "Cela désigne une graphie introduisant notamment une condition, plutôt que la notion demandée.",
+        "Cela désigne une particule présente dans certains démonstratifs, plutôt que la notion demandée.",
+        "Cela désigne le nom d’un outil dans l’emploi étudié, plutôt que la notion demandée."
+       ],
+       "y": "Il faut reconnaître les pronoms et leur reprise."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-7-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Si le groupe est prêt introduit ici une condition.\nQuelle notion convient ?",
+       "r": "si",
+       "w": [
+        "ci",
+        "scie",
+        "s’y"
+       ],
+       "e": [
+        "Cela concerne une particule présente dans certains démonstratifs. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom d’un outil dans l’emploi étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la suite de se élidé et du pronom y. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le contexte conditionnel distingue cette graphie."
+      },
+      {
+       "q": "Ces livres-ci comporte un trait d’union avant ci.\nQuelle notion convient ?",
+       "r": "ci",
+       "w": [
+        "si",
+        "scie",
+        "s’y"
+       ],
+       "e": [
+        "Cela concerne une graphie introduisant notamment une condition. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom d’un outil dans l’emploi étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la suite de se élidé et du pronom y. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La construction démonstrative demande -ci."
+      },
+      {
+       "q": "Une scie est un groupe nominal.\nQuelle notion convient ?",
+       "r": "scie",
+       "w": [
+        "si",
+        "ci",
+        "s’y"
+       ],
+       "e": [
+        "Cela concerne une graphie introduisant notamment une condition. Compare cette définition avec le cas présenté.",
+        "Cela concerne une particule présente dans certains démonstratifs. Compare cette définition avec le cas présenté.",
+        "Cela concerne la suite de se élidé et du pronom y. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’article et le sens du nom orientent la graphie."
+      },
+      {
+       "q": "Bih s’y prépare reprend une construction pronominale.\nQuelle notion convient ?",
+       "r": "s’y",
+       "w": [
+        "si",
+        "ci",
+        "scie"
+       ],
+       "e": [
+        "Cela concerne une graphie introduisant notamment une condition. Compare cette définition avec le cas présenté.",
+        "Cela concerne une particule présente dans certains démonstratifs. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom d’un outil dans l’emploi étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut reconnaître les pronoms et leur reprise."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-7-graphie",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une condition est introduite dans « ___ le groupe est prêt, nous partirons ».",
+       "r": "si",
+       "w": [
+        "ci",
+        "scie",
+        "s’y"
+       ],
+       "e": [
+        "Cette graphie correspond ici à une particule liée au démonstratif, pas à la construction demandée.",
+        "Cette graphie correspond ici à un nom d’outil, pas à la construction demandée.",
+        "Cette graphie correspond ici à la suite se plus y, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande une condition."
+      },
+      {
+       "q": "Dans « ces livres-___ », on ajoute une particule démonstrative.",
+       "r": "ci",
+       "w": [
+        "si",
+        "scie",
+        "s’y"
+       ],
+       "e": [
+        "Cette graphie correspond ici à une condition, pas à la construction demandée.",
+        "Cette graphie correspond ici à un nom d’outil, pas à la construction demandée.",
+        "Cette graphie correspond ici à la suite se plus y, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande une particule liée au démonstratif."
+      },
+      {
+       "q": "Le nom de l’outil dans « une ___ » doit être choisi.",
+       "r": "scie",
+       "w": [
+        "si",
+        "ci",
+        "s’y"
+       ],
+       "e": [
+        "Cette graphie correspond ici à une condition, pas à la construction demandée.",
+        "Cette graphie correspond ici à une particule liée au démonstratif, pas à la construction demandée.",
+        "Cette graphie correspond ici à la suite se plus y, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande un nom d’outil."
+      },
+      {
+       "q": "Dans « Bih ___ prépare », on reprend se et le lieu déjà annoncé.",
+       "r": "s’y",
+       "w": [
+        "si",
+        "ci",
+        "scie"
+       ],
+       "e": [
+        "Cette graphie correspond ici à une condition, pas à la construction demandée.",
+        "Cette graphie correspond ici à une particule liée au démonstratif, pas à la construction demandée.",
+        "Cette graphie correspond ici à un nom d’outil, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande la suite se plus y."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-7-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "si",
+     "right": "Si le groupe est prêt introduit ici une condition."
+    },
+    {
+     "left": "ci",
+     "right": "Ces livres-ci comporte un trait d’union avant ci."
+    },
+    {
+     "left": "scie",
+     "right": "Une scie est un groupe nominal."
+    },
+    {
+     "left": "s’y",
+     "right": "Bih s’y prépare reprend une construction pronominale."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-7-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "si : une graphie introduisant notamment une condition.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le contexte conditionnel distingue cette graphie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "ci : une particule présente dans certains démonstratifs.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La construction démonstrative demande -ci. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "scie : le nom d’un outil dans l’emploi étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’article et le sens du nom orientent la graphie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "s’y : la suite de se élidé et du pronom y.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut reconnaître les pronoms et leur reprise. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Si est toujours le nom d’un outil.",
+      "truth": "false",
+      "explain": "Le contexte conditionnel distingue cette graphie."
+     },
+     {
+      "text": "Dans ces livres-ci, ci doit s’écrire s’y.",
+      "truth": "false",
+      "explain": "La construction démonstrative demande -ci."
+     },
+     {
+      "text": "Le nom de l’outil s’écrit obligatoirement si.",
+      "truth": "false",
+      "explain": "L’article et le sens du nom orientent la graphie."
+     },
+     {
+      "text": "S’y est toujours une particule démonstrative après livres.",
+      "truth": "false",
+      "explain": "Il faut reconnaître les pronoms et leur reprise."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

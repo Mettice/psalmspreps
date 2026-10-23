@@ -1,0 +1,678 @@
+{
+ "subject": "geography",
+ "class": "Form 4",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "g4-2",
+   "name": "Soil characteristics"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texture describes the relative proportions of sand, silt and clay in fine earth. Structure describes particle aggregation. Porosity concerns pore volume; permeability concerns water movement through connected pores. Clay can hold much water yet drain slowly. Soil pH below 7 is acidic, around 7 neutral and above 7 alkaline under the usual reference conditions. Colour can suggest organic matter, minerals or drainage conditions but cannot establish fertility on its own. No single property gives a complete suitability assessment.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish texture structure porosity and chemical reaction and calculate a missing particle fraction. Builds on: soil components and pore contents. Leads to: reading a soil profile and explaining erosion risk."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Texture describes the relative proportions of sand, silt and clay in fine earth. Structure describes particle aggregation. Porosity concerns pore volume; permeability concerns water movement through connected pores. Clay can hold much water yet drain slowly. Soil pH below {7} is acidic, around {7} neutral and above {7} alkaline under the usual reference conditions. Colour can suggest organic matter, minerals or drainage conditions but cannot establish fertility on its own. No single property gives a complete suitability assessment."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "Compare an aggregated garden soil with a compacted path near a Bamenda school. Similar mineral texture does not guarantee the same structure or infiltration. In a simplified laboratory record, the sand, silt and clay masses account for the entire stated fine-earth sample. This bookkeeping task is not enough to assign a formal texture-class name without the relevant classification chart."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "State which property the evidence measures. Do not confuse particle size with aggregate arrangement, or water storage with rapid flow. A pH value describes reaction, not a direct score for every nutrient. Use the supplied masses consistently and leave out no fraction."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "texture",
+    "meaning": "the relative proportions of sand silt and clay in the fine-earth fraction"
+   },
+   {
+    "word": "structure",
+    "meaning": "the arrangement of particles into aggregates"
+   },
+   {
+    "word": "permeability",
+    "meaning": "the ease with which water moves through connected pore spaces"
+   },
+   {
+    "word": "soil reaction",
+    "meaning": "the acidity or alkalinity described by pH"
+   }
+  ],
+  "mistake": {
+   "wrong": "Texture means only the arrangement of aggregates.",
+   "right": "the relative proportions of sand silt and clay in the fine-earth fraction.",
+   "why": "Particle-size proportions describe texture; aggregate arrangement describes structure."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A record compares the sample’s sand, silt and clay shares. Explain the relationship.",
+  "steps": [
+   "the relative proportions of sand silt and clay in the fine-earth fraction.",
+   "Particle-size proportions describe texture; aggregate arrangement describes structure."
+  ],
+  "answer": "texture",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g4-2-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "texture: the relative proportions of sand silt and clay in the fine-earth fraction.",
+     "structure: the arrangement of particles into aggregates.",
+     "permeability: the ease with which water moves through connected pore spaces.",
+     "soil reaction: the acidity or alkalinity described by pH."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-2-terms"
+    }
+   },
+   {
+    "id": "g4-2-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A record compares the sample’s sand, silt and clay shares.",
+     "Two similar-textured soils differ in whether their aggregates remain stable.",
+     "Water moves slowly through a compacted surface despite pores elsewhere in the soil.",
+     "A laboratory report describes a sample as acidic."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-2-cases"
+    }
+   },
+   {
+    "id": "g4-2-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+     "Management and organic matter can change aggregation without changing mineral texture.",
+     "Connections, sizes and obstructions affect water movement as well as total pore volume.",
+     "Reaction and nutrient status require evidence beyond colour."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g4-2-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "soil"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A record compares the sample’s sand, silt and clay shares.\nWhich explanation follows?",
+         "r": "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+         "w": [
+          "Management and organic matter can change aggregation without changing mineral texture.",
+          "Connections, sizes and obstructions affect water movement as well as total pore volume.",
+          "Reaction and nutrient status require evidence beyond colour."
+         ],
+         "e": [
+          "That explanation addresses structure, rather than the process or relationship in this case.",
+          "That explanation addresses permeability, rather than the process or relationship in this case.",
+          "That explanation addresses soil reaction, rather than the process or relationship in this case."
+         ],
+         "y": "the relative proportions of sand silt and clay in the fine-earth fraction."
+        },
+        {
+         "q": "Two similar-textured soils differ in whether their aggregates remain stable.\nWhich explanation follows?",
+         "r": "Management and organic matter can change aggregation without changing mineral texture.",
+         "w": [
+          "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+          "Connections, sizes and obstructions affect water movement as well as total pore volume.",
+          "Reaction and nutrient status require evidence beyond colour."
+         ],
+         "e": [
+          "That explanation addresses texture, rather than the process or relationship in this case.",
+          "That explanation addresses permeability, rather than the process or relationship in this case.",
+          "That explanation addresses soil reaction, rather than the process or relationship in this case."
+         ],
+         "y": "the arrangement of particles into aggregates."
+        },
+        {
+         "q": "Water moves slowly through a compacted surface despite pores elsewhere in the soil.\nWhich explanation follows?",
+         "r": "Connections, sizes and obstructions affect water movement as well as total pore volume.",
+         "w": [
+          "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+          "Management and organic matter can change aggregation without changing mineral texture.",
+          "Reaction and nutrient status require evidence beyond colour."
+         ],
+         "e": [
+          "That explanation addresses texture, rather than the process or relationship in this case.",
+          "That explanation addresses structure, rather than the process or relationship in this case.",
+          "That explanation addresses soil reaction, rather than the process or relationship in this case."
+         ],
+         "y": "the ease with which water moves through connected pore spaces."
+        },
+        {
+         "q": "A laboratory report describes a sample as acidic.\nWhich explanation follows?",
+         "r": "Reaction and nutrient status require evidence beyond colour.",
+         "w": [
+          "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+          "Management and organic matter can change aggregation without changing mineral texture.",
+          "Connections, sizes and obstructions affect water movement as well as total pore volume."
+         ],
+         "e": [
+          "That explanation addresses texture, rather than the process or relationship in this case.",
+          "That explanation addresses structure, rather than the process or relationship in this case.",
+          "That explanation addresses permeability, rather than the process or relationship in this case."
+         ],
+         "y": "the acidity or alkalinity described by pH."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the relative proportions of sand silt and clay in the fine-earth fraction?",
+       "r": "texture",
+       "w": [
+        "structure",
+        "permeability",
+        "soil reaction"
+       ],
+       "e": [
+        "That concerns the arrangement of particles into aggregates, rather than the feature asked for.",
+        "That concerns the ease with which water moves through connected pore spaces, rather than the feature asked for.",
+        "That concerns the acidity or alkalinity described by pH, rather than the feature asked for."
+       ],
+       "y": "Particle-size proportions describe texture; aggregate arrangement describes structure."
+      },
+      {
+       "q": "Which term means the arrangement of particles into aggregates?",
+       "r": "structure",
+       "w": [
+        "texture",
+        "permeability",
+        "soil reaction"
+       ],
+       "e": [
+        "That concerns the relative proportions of sand silt and clay in the fine-earth fraction, rather than the feature asked for.",
+        "That concerns the ease with which water moves through connected pore spaces, rather than the feature asked for.",
+        "That concerns the acidity or alkalinity described by pH, rather than the feature asked for."
+       ],
+       "y": "Management and organic matter can change aggregation without changing mineral texture."
+      },
+      {
+       "q": "Which term means the ease with which water moves through connected pore spaces?",
+       "r": "permeability",
+       "w": [
+        "texture",
+        "structure",
+        "soil reaction"
+       ],
+       "e": [
+        "That concerns the relative proportions of sand silt and clay in the fine-earth fraction, rather than the feature asked for.",
+        "That concerns the arrangement of particles into aggregates, rather than the feature asked for.",
+        "That concerns the acidity or alkalinity described by pH, rather than the feature asked for."
+       ],
+       "y": "Connections, sizes and obstructions affect water movement as well as total pore volume."
+      },
+      {
+       "q": "Which term means the acidity or alkalinity described by pH?",
+       "r": "soil reaction",
+       "w": [
+        "texture",
+        "structure",
+        "permeability"
+       ],
+       "e": [
+        "That concerns the relative proportions of sand silt and clay in the fine-earth fraction, rather than the feature asked for.",
+        "That concerns the arrangement of particles into aggregates, rather than the feature asked for.",
+        "That concerns the ease with which water moves through connected pore spaces, rather than the feature asked for."
+       ],
+       "y": "Reaction and nutrient status require evidence beyond colour."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A record compares the sample’s sand, silt and clay shares.\nWhich feature is illustrated?",
+       "r": "texture",
+       "w": [
+        "structure",
+        "permeability",
+        "soil reaction"
+       ],
+       "e": [
+        "That identifies the arrangement of particles into aggregates. Read the case for evidence of the relative proportions of sand silt and clay in the fine-earth fraction.",
+        "That identifies the ease with which water moves through connected pore spaces. Read the case for evidence of the relative proportions of sand silt and clay in the fine-earth fraction.",
+        "That identifies the acidity or alkalinity described by pH. Read the case for evidence of the relative proportions of sand silt and clay in the fine-earth fraction."
+       ],
+       "y": "Particle-size proportions describe texture; aggregate arrangement describes structure."
+      },
+      {
+       "q": "Two similar-textured soils differ in whether their aggregates remain stable.\nWhich feature is illustrated?",
+       "r": "structure",
+       "w": [
+        "texture",
+        "permeability",
+        "soil reaction"
+       ],
+       "e": [
+        "That identifies the relative proportions of sand silt and clay in the fine-earth fraction. Read the case for evidence of the arrangement of particles into aggregates.",
+        "That identifies the ease with which water moves through connected pore spaces. Read the case for evidence of the arrangement of particles into aggregates.",
+        "That identifies the acidity or alkalinity described by pH. Read the case for evidence of the arrangement of particles into aggregates."
+       ],
+       "y": "Management and organic matter can change aggregation without changing mineral texture."
+      },
+      {
+       "q": "Water moves slowly through a compacted surface despite pores elsewhere in the soil.\nWhich feature is illustrated?",
+       "r": "permeability",
+       "w": [
+        "texture",
+        "structure",
+        "soil reaction"
+       ],
+       "e": [
+        "That identifies the relative proportions of sand silt and clay in the fine-earth fraction. Read the case for evidence of the ease with which water moves through connected pore spaces.",
+        "That identifies the arrangement of particles into aggregates. Read the case for evidence of the ease with which water moves through connected pore spaces.",
+        "That identifies the acidity or alkalinity described by pH. Read the case for evidence of the ease with which water moves through connected pore spaces."
+       ],
+       "y": "Connections, sizes and obstructions affect water movement as well as total pore volume."
+      },
+      {
+       "q": "A laboratory report describes a sample as acidic.\nWhich feature is illustrated?",
+       "r": "soil reaction",
+       "w": [
+        "texture",
+        "structure",
+        "permeability"
+       ],
+       "e": [
+        "That identifies the relative proportions of sand silt and clay in the fine-earth fraction. Read the case for evidence of the acidity or alkalinity described by pH.",
+        "That identifies the arrangement of particles into aggregates. Read the case for evidence of the acidity or alkalinity described by pH.",
+        "That identifies the ease with which water moves through connected pore spaces. Read the case for evidence of the acidity or alkalinity described by pH."
+       ],
+       "y": "Reaction and nutrient status require evidence beyond colour."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-2-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A record compares the sample’s sand, silt and clay shares.\nWhich explanation follows?",
+       "r": "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+       "w": [
+        "Management and organic matter can change aggregation without changing mineral texture.",
+        "Connections, sizes and obstructions affect water movement as well as total pore volume.",
+        "Reaction and nutrient status require evidence beyond colour."
+       ],
+       "e": [
+        "That explanation addresses structure, rather than the process or relationship in this case.",
+        "That explanation addresses permeability, rather than the process or relationship in this case.",
+        "That explanation addresses soil reaction, rather than the process or relationship in this case."
+       ],
+       "y": "the relative proportions of sand silt and clay in the fine-earth fraction."
+      },
+      {
+       "q": "Two similar-textured soils differ in whether their aggregates remain stable.\nWhich explanation follows?",
+       "r": "Management and organic matter can change aggregation without changing mineral texture.",
+       "w": [
+        "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+        "Connections, sizes and obstructions affect water movement as well as total pore volume.",
+        "Reaction and nutrient status require evidence beyond colour."
+       ],
+       "e": [
+        "That explanation addresses texture, rather than the process or relationship in this case.",
+        "That explanation addresses permeability, rather than the process or relationship in this case.",
+        "That explanation addresses soil reaction, rather than the process or relationship in this case."
+       ],
+       "y": "the arrangement of particles into aggregates."
+      },
+      {
+       "q": "Water moves slowly through a compacted surface despite pores elsewhere in the soil.\nWhich explanation follows?",
+       "r": "Connections, sizes and obstructions affect water movement as well as total pore volume.",
+       "w": [
+        "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+        "Management and organic matter can change aggregation without changing mineral texture.",
+        "Reaction and nutrient status require evidence beyond colour."
+       ],
+       "e": [
+        "That explanation addresses texture, rather than the process or relationship in this case.",
+        "That explanation addresses structure, rather than the process or relationship in this case.",
+        "That explanation addresses soil reaction, rather than the process or relationship in this case."
+       ],
+       "y": "the ease with which water moves through connected pore spaces."
+      },
+      {
+       "q": "A laboratory report describes a sample as acidic.\nWhich explanation follows?",
+       "r": "Reaction and nutrient status require evidence beyond colour.",
+       "w": [
+        "Particle-size proportions describe texture; aggregate arrangement describes structure.",
+        "Management and organic matter can change aggregation without changing mineral texture.",
+        "Connections, sizes and obstructions affect water movement as well as total pore volume."
+       ],
+       "e": [
+        "That explanation addresses texture, rather than the process or relationship in this case.",
+        "That explanation addresses structure, rather than the process or relationship in this case.",
+        "That explanation addresses permeability, rather than the process or relationship in this case."
+       ],
+       "y": "the acidity or alkalinity described by pH."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g4-2-clay",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "total": {
+     "pick": [
+      100,
+      150,
+      200
+     ]
+    },
+    "sand": {
+     "int": [
+      20,
+      50
+     ]
+    },
+    "silt": {
+     "int": [
+      10,
+      30
+     ]
+    }
+   },
+   "prompt": "A simplified dry fine-earth sample has mass {total} g: sand {sand} g, silt {silt} g, and the remainder clay. Find the clay mass.",
+   "answer": "total-sand-silt",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "sand+silt",
+     "explain": "That is the combined sand and silt, not the remaining clay.",
+     "when": "total != 2*(sand+silt)"
+    },
+    {
+     "id": "omit",
+     "wrong": "total-sand",
+     "explain": "That leaves silt inside the supposed clay mass."
+    },
+    {
+     "id": "total",
+     "wrong": "total",
+     "explain": "That reports the whole sample rather than its clay fraction."
+    }
+   ],
+   "solution": [
+    "Add the sand and silt masses: {sand+silt} g.",
+    "Subtract from the complete sample: {total} − {sand+silt} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "g4-2-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "texture: the relative proportions of sand silt and clay in the fine-earth fraction.",
+      "truth": "true",
+      "explain": "This distinction is correct: Particle-size proportions describe texture; aggregate arrangement describes structure. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "structure: the arrangement of particles into aggregates.",
+      "truth": "true",
+      "explain": "This distinction is correct: Management and organic matter can change aggregation without changing mineral texture. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "permeability: the ease with which water moves through connected pore spaces.",
+      "truth": "true",
+      "explain": "This distinction is correct: Connections, sizes and obstructions affect water movement as well as total pore volume. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "soil reaction: the acidity or alkalinity described by pH.",
+      "truth": "true",
+      "explain": "This distinction is correct: Reaction and nutrient status require evidence beyond colour. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Texture means only the arrangement of aggregates.",
+      "truth": "false",
+      "explain": "Particle-size proportions describe texture; aggregate arrangement describes structure."
+     },
+     {
+      "text": "Identical texture guarantees identical aggregation.",
+      "truth": "false",
+      "explain": "Management and organic matter can change aggregation without changing mineral texture."
+     },
+     {
+      "text": "Total pore volume alone determines every flow rate.",
+      "truth": "false",
+      "explain": "Connections, sizes and obstructions affect water movement as well as total pore volume."
+     },
+     {
+      "text": "Dark colour proves a neutral pH and high fertility.",
+      "truth": "false",
+      "explain": "Reaction and nutrient status require evidence beyond colour."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
