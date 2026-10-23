@@ -1,0 +1,619 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 29,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-29",
+   "name": "La narration : organiser un récit"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un récit raconte des événements liés. Il présente une situation initiale, un événement qui la modifie, des actions et une issue. Les connecteurs temporels guident le lecteur. Le choix des temps distingue notamment les circonstances et les événements accomplis. Un récit inventé doit rester cohérent avec ses propres personnages et lieux ; il n’a pas besoin d’être le compte rendu d’une expérience privée.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Un récit raconte des événements liés. Il présente une situation initiale, un événement qui la modifie, des actions et une issue. Les connecteurs temporels guident le lecteur. Le choix des temps distingue notamment les circonstances et les événements accomplis. Un récit inventé doit rester cohérent avec ses propres personnages et lieux ; il n’a pas besoin d’être le compte rendu d’une expérience privée."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Modèle original : Ayuk prépare une affiche pour le club. Une averse mouille le premier dessin resté près d’une fenêtre. Il demande de l’aide et reprend le travail sur une feuille sèche. Le groupe installe ensuite l’affiche à l’abri. L’incident change la préparation, mais le récit se termine par une solution cohérente."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Prépare un petit plan avant de rédiger : qui, où, difficulté, actions, résultat. Conserve le même point de vue et vérifie à qui renvoient les pronoms. La conclusion doit répondre à ce qui a été engagé dans le récit, sans ajouter un sujet sans rapport."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "situation initiale",
+    "meaning": "le contexte de départ du récit"
+   },
+   {
+    "word": "élément perturbateur",
+    "meaning": "l’événement qui modifie la situation de départ"
+   },
+   {
+    "word": "enchaînement",
+    "meaning": "le lien logique et temporel entre les actions"
+   },
+   {
+    "word": "dénouement",
+    "meaning": "l’issue de la difficulté racontée"
+   }
+  ],
+  "examples": [
+   "Le début présente le personnage et son activité.",
+   "Un objet manque ou un dessin est abîmé.",
+   "Le personnage cherche une solution après avoir rencontré la difficulté."
+  ],
+  "mistake": {
+   "wrong": "Le lecteur doit deviner tous les personnages sans indice.",
+   "right": "situation initiale: le contexte de départ du récit.",
+   "why": "Un début apporte les repères nécessaires."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le début présente le personnage et son activité. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le contexte de départ du récit.",
+   "Un début apporte les repères nécessaires."
+  ],
+  "answer": "situation initiale",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-29-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "situation initiale: le contexte de départ du récit.",
+     "élément perturbateur: l’événement qui modifie la situation de départ.",
+     "enchaînement: le lien logique et temporel entre les actions.",
+     "dénouement: l’issue de la difficulté racontée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-29-terms"
+    }
+   },
+   {
+    "id": "cfr3-29-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le début présente le personnage et son activité.",
+     "situation initiale: le contexte de départ du récit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-29-cases"
+    }
+   },
+   {
+    "id": "cfr3-29-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Le lecteur doit deviner tous les personnages sans indice.",
+     "Un début apporte les repères nécessaires."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-29-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "situation initiale : le contexte de départ du récit.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : situation initiale désigne le contexte de départ du récit. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "élément perturbateur : l’événement qui modifie la situation de départ.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : élément perturbateur désigne l’événement qui modifie la situation de départ. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "enchaînement : le lien logique et temporel entre les actions.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : enchaînement désigne le lien logique et temporel entre les actions. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "dénouement : l’issue de la difficulté racontée.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : dénouement désigne l’issue de la difficulté racontée. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le lecteur doit deviner tous les personnages sans indice.",
+        "truth": "false",
+        "explain": "Un début apporte les repères nécessaires."
+       },
+       {
+        "text": "Un événement perturbateur ne change jamais la situation.",
+        "truth": "false",
+        "explain": "Il déclenche ici une difficulté à résoudre."
+       },
+       {
+        "text": "Des actions sans lien garantissent un récit clair.",
+        "truth": "false",
+        "explain": "Les étapes doivent pouvoir être suivies."
+       },
+       {
+        "text": "Le dénouement doit ignorer complètement la difficulté.",
+        "truth": "false",
+        "explain": "L’issue se rattache au problème du récit."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-29-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le contexte de départ du récit ?",
+       "r": "situation initiale",
+       "w": [
+        "élément perturbateur",
+        "enchaînement",
+        "dénouement"
+       ],
+       "e": [
+        "« élément perturbateur » désigne l’événement qui modifie la situation de départ. Ici, cherche le contexte de départ du récit.",
+        "« enchaînement » désigne le lien logique et temporel entre les actions. Ici, cherche le contexte de départ du récit.",
+        "« dénouement » désigne l’issue de la difficulté racontée. Ici, cherche le contexte de départ du récit."
+       ],
+       "y": "Le contexte de départ du récit."
+      },
+      {
+       "q": "Quel terme désigne : l’événement qui modifie la situation de départ ?",
+       "r": "élément perturbateur",
+       "w": [
+        "situation initiale",
+        "enchaînement",
+        "dénouement"
+       ],
+       "e": [
+        "« situation initiale » désigne le contexte de départ du récit. Ici, cherche l’événement qui modifie la situation de départ.",
+        "« enchaînement » désigne le lien logique et temporel entre les actions. Ici, cherche l’événement qui modifie la situation de départ.",
+        "« dénouement » désigne l’issue de la difficulté racontée. Ici, cherche l’événement qui modifie la situation de départ."
+       ],
+       "y": "L’événement qui modifie la situation de départ."
+      },
+      {
+       "q": "Quel terme désigne : le lien logique et temporel entre les actions ?",
+       "r": "enchaînement",
+       "w": [
+        "situation initiale",
+        "élément perturbateur",
+        "dénouement"
+       ],
+       "e": [
+        "« situation initiale » désigne le contexte de départ du récit. Ici, cherche le lien logique et temporel entre les actions.",
+        "« élément perturbateur » désigne l’événement qui modifie la situation de départ. Ici, cherche le lien logique et temporel entre les actions.",
+        "« dénouement » désigne l’issue de la difficulté racontée. Ici, cherche le lien logique et temporel entre les actions."
+       ],
+       "y": "Le lien logique et temporel entre les actions."
+      },
+      {
+       "q": "Quel terme désigne : l’issue de la difficulté racontée ?",
+       "r": "dénouement",
+       "w": [
+        "situation initiale",
+        "élément perturbateur",
+        "enchaînement"
+       ],
+       "e": [
+        "« situation initiale » désigne le contexte de départ du récit. Ici, cherche l’issue de la difficulté racontée.",
+        "« élément perturbateur » désigne l’événement qui modifie la situation de départ. Ici, cherche l’issue de la difficulté racontée.",
+        "« enchaînement » désigne le lien logique et temporel entre les actions. Ici, cherche l’issue de la difficulté racontée."
+       ],
+       "y": "L’issue de la difficulté racontée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-29-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le début présente le personnage et son activité.\nQuel terme s’applique le mieux ?",
+       "r": "situation initiale",
+       "w": [
+        "élément perturbateur",
+        "enchaînement",
+        "dénouement"
+       ],
+       "e": [
+        "« élément perturbateur » concerne l’événement qui modifie la situation de départ. Le cas décrit plutôt le contexte de départ du récit.",
+        "« enchaînement » concerne le lien logique et temporel entre les actions. Le cas décrit plutôt le contexte de départ du récit.",
+        "« dénouement » concerne l’issue de la difficulté racontée. Le cas décrit plutôt le contexte de départ du récit."
+       ],
+       "y": "Le début présente le personnage et son activité. Le contexte de départ du récit."
+      },
+      {
+       "q": "Un objet manque ou un dessin est abîmé.\nQuel terme s’applique le mieux ?",
+       "r": "élément perturbateur",
+       "w": [
+        "situation initiale",
+        "enchaînement",
+        "dénouement"
+       ],
+       "e": [
+        "« situation initiale » concerne le contexte de départ du récit. Le cas décrit plutôt l’événement qui modifie la situation de départ.",
+        "« enchaînement » concerne le lien logique et temporel entre les actions. Le cas décrit plutôt l’événement qui modifie la situation de départ.",
+        "« dénouement » concerne l’issue de la difficulté racontée. Le cas décrit plutôt l’événement qui modifie la situation de départ."
+       ],
+       "y": "Un objet manque ou un dessin est abîmé. L’événement qui modifie la situation de départ."
+      },
+      {
+       "q": "Le personnage cherche une solution après avoir rencontré la difficulté.\nQuel terme s’applique le mieux ?",
+       "r": "enchaînement",
+       "w": [
+        "situation initiale",
+        "élément perturbateur",
+        "dénouement"
+       ],
+       "e": [
+        "« situation initiale » concerne le contexte de départ du récit. Le cas décrit plutôt le lien logique et temporel entre les actions.",
+        "« élément perturbateur » concerne l’événement qui modifie la situation de départ. Le cas décrit plutôt le lien logique et temporel entre les actions.",
+        "« dénouement » concerne l’issue de la difficulté racontée. Le cas décrit plutôt le lien logique et temporel entre les actions."
+       ],
+       "y": "Le personnage cherche une solution après avoir rencontré la difficulté. Le lien logique et temporel entre les actions."
+      },
+      {
+       "q": "La fin montre la solution apportée au problème.\nQuel terme s’applique le mieux ?",
+       "r": "dénouement",
+       "w": [
+        "situation initiale",
+        "élément perturbateur",
+        "enchaînement"
+       ],
+       "e": [
+        "« situation initiale » concerne le contexte de départ du récit. Le cas décrit plutôt l’issue de la difficulté racontée.",
+        "« élément perturbateur » concerne l’événement qui modifie la situation de départ. Le cas décrit plutôt l’issue de la difficulté racontée.",
+        "« enchaînement » concerne le lien logique et temporel entre les actions. Le cas décrit plutôt l’issue de la difficulté racontée."
+       ],
+       "y": "La fin montre la solution apportée au problème. L’issue de la difficulté racontée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-29-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le début présente le personnage et son activité.\nQuelle explication justifie le classement ?",
+       "r": "Le contexte de départ du récit.",
+       "w": [
+        "L’événement qui modifie la situation de départ.",
+        "Le lien logique et temporel entre les actions.",
+        "L’issue de la difficulté racontée."
+       ],
+       "e": [
+        "Cette explication correspond à « élément perturbateur ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « enchaînement ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « dénouement ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Un début apporte les repères nécessaires."
+      },
+      {
+       "q": "Un objet manque ou un dessin est abîmé.\nQuelle explication justifie le classement ?",
+       "r": "L’événement qui modifie la situation de départ.",
+       "w": [
+        "Le contexte de départ du récit.",
+        "Le lien logique et temporel entre les actions.",
+        "L’issue de la difficulté racontée."
+       ],
+       "e": [
+        "Cette explication correspond à « situation initiale ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « enchaînement ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « dénouement ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Il déclenche ici une difficulté à résoudre."
+      },
+      {
+       "q": "Le personnage cherche une solution après avoir rencontré la difficulté.\nQuelle explication justifie le classement ?",
+       "r": "Le lien logique et temporel entre les actions.",
+       "w": [
+        "Le contexte de départ du récit.",
+        "L’événement qui modifie la situation de départ.",
+        "L’issue de la difficulté racontée."
+       ],
+       "e": [
+        "Cette explication correspond à « situation initiale ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « élément perturbateur ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « dénouement ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les étapes doivent pouvoir être suivies."
+      },
+      {
+       "q": "La fin montre la solution apportée au problème.\nQuelle explication justifie le classement ?",
+       "r": "L’issue de la difficulté racontée.",
+       "w": [
+        "Le contexte de départ du récit.",
+        "L’événement qui modifie la situation de départ.",
+        "Le lien logique et temporel entre les actions."
+       ],
+       "e": [
+        "Cette explication correspond à « situation initiale ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « élément perturbateur ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « enchaînement ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’issue se rattache au problème du récit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-29-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "situation initiale",
+     "right": "Le début présente le personnage et son activité."
+    },
+    {
+     "left": "élément perturbateur",
+     "right": "Un objet manque ou un dessin est abîmé."
+    },
+    {
+     "left": "enchaînement",
+     "right": "Le personnage cherche une solution après avoir rencontré la difficulté."
+    },
+    {
+     "left": "dénouement",
+     "right": "La fin montre la solution apportée au problème."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-29-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "situation initiale : le contexte de départ du récit.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : situation initiale désigne le contexte de départ du récit. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "élément perturbateur : l’événement qui modifie la situation de départ.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : élément perturbateur désigne l’événement qui modifie la situation de départ. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "enchaînement : le lien logique et temporel entre les actions.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : enchaînement désigne le lien logique et temporel entre les actions. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "dénouement : l’issue de la difficulté racontée.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : dénouement désigne l’issue de la difficulté racontée. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le lecteur doit deviner tous les personnages sans indice.",
+      "truth": "false",
+      "explain": "Un début apporte les repères nécessaires."
+     },
+     {
+      "text": "Un événement perturbateur ne change jamais la situation.",
+      "truth": "false",
+      "explain": "Il déclenche ici une difficulté à résoudre."
+     },
+     {
+      "text": "Des actions sans lien garantissent un récit clair.",
+      "truth": "false",
+      "explain": "Les étapes doivent pouvoir être suivies."
+     },
+     {
+      "text": "Le dénouement doit ignorer complètement la difficulté.",
+      "truth": "false",
+      "explain": "L’issue se rattache au problème du récit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Écris un récit original situé dans un cadre camerounais de ton choix. Présente un personnage, une difficulté, les actions liées et une issue cohérente.",
+  "model": [
+   "Ayuk prépare une affiche pour le club. Une averse mouille le premier dessin resté près d’une fenêtre. Il demande de l’aide et reprend le travail sur une feuille sèche. Le groupe installe ensuite l’affiche à l’abri. L’incident change la préparation, mais le récit se termine par une solution cohérente."
+  ],
+  "checklist": [
+   "Le lecteur connaît le contexte et la difficulté.",
+   "Les actions suivent un ordre compréhensible.",
+   "Je vérifie les temps, les pronoms et la cohérence de la fin."
+  ],
+  "checks": []
+ }
+}

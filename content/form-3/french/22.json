@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 22,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-22",
+   "name": "Lecture : comprendre un texte original du module"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Comprendre un texte demande de relever ce qui est dit, de relier les indices et de distinguer une déduction d’une invention. L’idée principale résume l’ensemble ; un détail répond à une question précise. Une inférence doit s’appuyer sur des éléments du passage. Si l’information manque, indique qu’elle n’est pas précisée au lieu de lui attribuer une valeur imaginaire. Ce passage original remplace seulement un support de lecture, pas une œuvre littéraire prescrite.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Comprendre un texte demande de relever ce qui est dit, de relier les indices et de distinguer une déduction d’une invention. L’idée principale résume l’ensemble ; un détail répond à une question précise. Une inférence doit s’appuyer sur des éléments du passage. Si l’information manque, indique qu’elle n’est pas précisée au lieu de lui attribuer une valeur imaginaire. Ce passage original remplace seulement un support de lecture, pas une œuvre littéraire prescrite."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Texte original : À Douala, un club prépare une cour plus propre. Ayuk dessine une affiche, Bih propose de séparer les déchets selon les consignes de l’école. Une enseignante vérifie le projet avant l’activité. Le groupe décide de ne pas toucher aux déchets coupants ou inconnus. Le texte présente une préparation, pas le compte rendu d’un résultat déjà obtenu."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis le passage entièrement, puis formule son sujet. Pour chaque réponse, retrouve un indice. Une question de cause demande pourquoi ; une question de lieu demande où. En résumant, conserve l’action principale sans ajouter de noms, de prix ou de résultats absents."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "information explicite",
+    "meaning": "un renseignement directement donné par le texte"
+   },
+   {
+    "word": "inférence justifiée",
+    "meaning": "une conclusion appuyée sur les indices du passage"
+   },
+   {
+    "word": "idée principale",
+    "meaning": "le sens général qui rassemble les actions importantes"
+   },
+   {
+    "word": "information absente",
+    "meaning": "un renseignement que le passage ne permet pas de déterminer"
+   }
+  ],
+  "examples": [
+   "Le lecteur reprend un lieu effectivement nommé dans le passage.",
+   "Le lecteur explique une intention en citant les actions décrites.",
+   "Le lecteur résume l’action centrale sans recopier chaque détail."
+  ],
+  "mistake": {
+   "wrong": "Une information explicite est toujours inventée par le lecteur.",
+   "right": "information explicite: un renseignement directement donné par le texte.",
+   "why": "Elle figure directement dans le passage."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le lecteur reprend un lieu effectivement nommé dans le passage. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un renseignement directement donné par le texte.",
+   "Elle figure directement dans le passage."
+  ],
+  "answer": "information explicite",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-22-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "information explicite: un renseignement directement donné par le texte.",
+     "inférence justifiée: une conclusion appuyée sur les indices du passage.",
+     "idée principale: le sens général qui rassemble les actions importantes.",
+     "information absente: un renseignement que le passage ne permet pas de déterminer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-22-terms"
+    }
+   },
+   {
+    "id": "cfr3-22-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le lecteur reprend un lieu effectivement nommé dans le passage.",
+     "information explicite: un renseignement directement donné par le texte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-22-cases"
+    }
+   },
+   {
+    "id": "cfr3-22-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une information explicite est toujours inventée par le lecteur.",
+     "Elle figure directement dans le passage."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-22-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "information explicite : un renseignement directement donné par le texte.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : information explicite désigne un renseignement directement donné par le texte. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "inférence justifiée : une conclusion appuyée sur les indices du passage.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : inférence justifiée désigne une conclusion appuyée sur les indices du passage. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "idée principale : le sens général qui rassemble les actions importantes.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : idée principale désigne le sens général qui rassemble les actions importantes. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "information absente : un renseignement que le passage ne permet pas de déterminer.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : information absente désigne un renseignement que le passage ne permet pas de déterminer. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une information explicite est toujours inventée par le lecteur.",
+        "truth": "false",
+        "explain": "Elle figure directement dans le passage."
+       },
+       {
+        "text": "Toute supposition personnelle est une inférence prouvée.",
+        "truth": "false",
+        "explain": "Une inférence doit être soutenue par des indices."
+       },
+       {
+        "text": "Un détail sans rapport suffit toujours à résumer tout le texte.",
+        "truth": "false",
+        "explain": "Le résumé doit représenter l’ensemble pertinent."
+       },
+       {
+        "text": "Un prix absent doit être remplacé par un montant deviné.",
+        "truth": "false",
+        "explain": "Dire non précisé est plus fidèle que fabriquer une information."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-22-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un renseignement directement donné par le texte ?",
+       "r": "information explicite",
+       "w": [
+        "inférence justifiée",
+        "idée principale",
+        "information absente"
+       ],
+       "e": [
+        "« inférence justifiée » désigne une conclusion appuyée sur les indices du passage. Ici, cherche un renseignement directement donné par le texte.",
+        "« idée principale » désigne le sens général qui rassemble les actions importantes. Ici, cherche un renseignement directement donné par le texte.",
+        "« information absente » désigne un renseignement que le passage ne permet pas de déterminer. Ici, cherche un renseignement directement donné par le texte."
+       ],
+       "y": "Un renseignement directement donné par le texte."
+      },
+      {
+       "q": "Quel terme désigne : une conclusion appuyée sur les indices du passage ?",
+       "r": "inférence justifiée",
+       "w": [
+        "information explicite",
+        "idée principale",
+        "information absente"
+       ],
+       "e": [
+        "« information explicite » désigne un renseignement directement donné par le texte. Ici, cherche une conclusion appuyée sur les indices du passage.",
+        "« idée principale » désigne le sens général qui rassemble les actions importantes. Ici, cherche une conclusion appuyée sur les indices du passage.",
+        "« information absente » désigne un renseignement que le passage ne permet pas de déterminer. Ici, cherche une conclusion appuyée sur les indices du passage."
+       ],
+       "y": "Une conclusion appuyée sur les indices du passage."
+      },
+      {
+       "q": "Quel terme désigne : le sens général qui rassemble les actions importantes ?",
+       "r": "idée principale",
+       "w": [
+        "information explicite",
+        "inférence justifiée",
+        "information absente"
+       ],
+       "e": [
+        "« information explicite » désigne un renseignement directement donné par le texte. Ici, cherche le sens général qui rassemble les actions importantes.",
+        "« inférence justifiée » désigne une conclusion appuyée sur les indices du passage. Ici, cherche le sens général qui rassemble les actions importantes.",
+        "« information absente » désigne un renseignement que le passage ne permet pas de déterminer. Ici, cherche le sens général qui rassemble les actions importantes."
+       ],
+       "y": "Le sens général qui rassemble les actions importantes."
+      },
+      {
+       "q": "Quel terme désigne : un renseignement que le passage ne permet pas de déterminer ?",
+       "r": "information absente",
+       "w": [
+        "information explicite",
+        "inférence justifiée",
+        "idée principale"
+       ],
+       "e": [
+        "« information explicite » désigne un renseignement directement donné par le texte. Ici, cherche un renseignement que le passage ne permet pas de déterminer.",
+        "« inférence justifiée » désigne une conclusion appuyée sur les indices du passage. Ici, cherche un renseignement que le passage ne permet pas de déterminer.",
+        "« idée principale » désigne le sens général qui rassemble les actions importantes. Ici, cherche un renseignement que le passage ne permet pas de déterminer."
+       ],
+       "y": "Un renseignement que le passage ne permet pas de déterminer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-22-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le lecteur reprend un lieu effectivement nommé dans le passage.\nQuel terme s’applique le mieux ?",
+       "r": "information explicite",
+       "w": [
+        "inférence justifiée",
+        "idée principale",
+        "information absente"
+       ],
+       "e": [
+        "« inférence justifiée » concerne une conclusion appuyée sur les indices du passage. Le cas décrit plutôt un renseignement directement donné par le texte.",
+        "« idée principale » concerne le sens général qui rassemble les actions importantes. Le cas décrit plutôt un renseignement directement donné par le texte.",
+        "« information absente » concerne un renseignement que le passage ne permet pas de déterminer. Le cas décrit plutôt un renseignement directement donné par le texte."
+       ],
+       "y": "Le lecteur reprend un lieu effectivement nommé dans le passage. Un renseignement directement donné par le texte."
+      },
+      {
+       "q": "Le lecteur explique une intention en citant les actions décrites.\nQuel terme s’applique le mieux ?",
+       "r": "inférence justifiée",
+       "w": [
+        "information explicite",
+        "idée principale",
+        "information absente"
+       ],
+       "e": [
+        "« information explicite » concerne un renseignement directement donné par le texte. Le cas décrit plutôt une conclusion appuyée sur les indices du passage.",
+        "« idée principale » concerne le sens général qui rassemble les actions importantes. Le cas décrit plutôt une conclusion appuyée sur les indices du passage.",
+        "« information absente » concerne un renseignement que le passage ne permet pas de déterminer. Le cas décrit plutôt une conclusion appuyée sur les indices du passage."
+       ],
+       "y": "Le lecteur explique une intention en citant les actions décrites. Une conclusion appuyée sur les indices du passage."
+      },
+      {
+       "q": "Le lecteur résume l’action centrale sans recopier chaque détail.\nQuel terme s’applique le mieux ?",
+       "r": "idée principale",
+       "w": [
+        "information explicite",
+        "inférence justifiée",
+        "information absente"
+       ],
+       "e": [
+        "« information explicite » concerne un renseignement directement donné par le texte. Le cas décrit plutôt le sens général qui rassemble les actions importantes.",
+        "« inférence justifiée » concerne une conclusion appuyée sur les indices du passage. Le cas décrit plutôt le sens général qui rassemble les actions importantes.",
+        "« information absente » concerne un renseignement que le passage ne permet pas de déterminer. Le cas décrit plutôt le sens général qui rassemble les actions importantes."
+       ],
+       "y": "Le lecteur résume l’action centrale sans recopier chaque détail. Le sens général qui rassemble les actions importantes."
+      },
+      {
+       "q": "Le lecteur refuse d’inventer un prix non indiqué.\nQuel terme s’applique le mieux ?",
+       "r": "information absente",
+       "w": [
+        "information explicite",
+        "inférence justifiée",
+        "idée principale"
+       ],
+       "e": [
+        "« information explicite » concerne un renseignement directement donné par le texte. Le cas décrit plutôt un renseignement que le passage ne permet pas de déterminer.",
+        "« inférence justifiée » concerne une conclusion appuyée sur les indices du passage. Le cas décrit plutôt un renseignement que le passage ne permet pas de déterminer.",
+        "« idée principale » concerne le sens général qui rassemble les actions importantes. Le cas décrit plutôt un renseignement que le passage ne permet pas de déterminer."
+       ],
+       "y": "Le lecteur refuse d’inventer un prix non indiqué. Un renseignement que le passage ne permet pas de déterminer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-22-lire",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que prépare le club ?",
+       "r": "Une cour plus propre.",
+       "w": [
+        "Un examen médical.",
+        "Une nouvelle gare.",
+        "Un concert déjà terminé."
+       ],
+       "e": [
+        "Le texte prépare un projet de cour, pas des soins.",
+        "Aucune gare n’est évoquée.",
+        "Il s’agit d’une préparation, pas d’un concert achevé."
+       ],
+       "y": "Le projet de propreté est indiqué au début."
+      },
+      {
+       "q": "Que propose Bih ?",
+       "r": "Séparer les déchets selon les consignes.",
+       "w": [
+        "Toucher tous les objets inconnus.",
+        "Annuler toute vérification.",
+        "Acheter des billets."
+       ],
+       "e": [
+        "Le groupe évite les déchets inconnus.",
+        "L’enseignante vérifie justement le projet.",
+        "Aucun billet n’est mentionné."
+       ],
+       "y": "Le passage attribue cette proposition à Bih."
+      },
+      {
+       "q": "Quel indice montre une précaution ?",
+       "r": "Le groupe décide de ne pas toucher les déchets coupants.",
+       "w": [
+        "Tous les déchets sont déjà recyclés.",
+        "Ayuk exerce comme médecin.",
+        "Personne ne vérifie le projet."
+       ],
+       "e": [
+        "Le texte ne rapporte pas un recyclage déjà accompli.",
+        "Ayuk dessine une affiche ; aucun métier n’est annoncé.",
+        "Une enseignante vérifie le projet."
+       ],
+       "y": "Cette décision évite une manipulation risquée dans le projet."
+      },
+      {
+       "q": "Quel résultat peut-on affirmer ?",
+       "r": "Le projet a été préparé, mais le résultat final n’est pas donné.",
+       "w": [
+        "La cour est déjà entièrement nettoyée.",
+        "Le club a gagné un prix.",
+        "Tous les déchets ont disparu."
+       ],
+       "e": [
+        "Le texte distingue préparation et résultat.",
+        "Aucun prix n’est annoncé.",
+        "La disparition des déchets n’est pas rapportée."
+       ],
+       "y": "La dernière phrase limite explicitement ce qui est établi."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte original : À Douala, un club prépare une cour plus propre. Ayuk dessine une affiche, Bih propose de séparer les déchets selon les consignes de l’école. Une enseignante vérifie le projet avant l’activité. Le groupe décide de ne pas toucher aux déchets coupants ou inconnus. Le texte présente une préparation, pas le compte rendu d’un résultat déjà obtenu.\n{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-22-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "information explicite",
+     "right": "Le lecteur reprend un lieu effectivement nommé dans le passage."
+    },
+    {
+     "left": "inférence justifiée",
+     "right": "Le lecteur explique une intention en citant les actions décrites."
+    },
+    {
+     "left": "idée principale",
+     "right": "Le lecteur résume l’action centrale sans recopier chaque détail."
+    },
+    {
+     "left": "information absente",
+     "right": "Le lecteur refuse d’inventer un prix non indiqué."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-22-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "information explicite : un renseignement directement donné par le texte.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : information explicite désigne un renseignement directement donné par le texte. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "inférence justifiée : une conclusion appuyée sur les indices du passage.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : inférence justifiée désigne une conclusion appuyée sur les indices du passage. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "idée principale : le sens général qui rassemble les actions importantes.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : idée principale désigne le sens général qui rassemble les actions importantes. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "information absente : un renseignement que le passage ne permet pas de déterminer.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : information absente désigne un renseignement que le passage ne permet pas de déterminer. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une information explicite est toujours inventée par le lecteur.",
+      "truth": "false",
+      "explain": "Elle figure directement dans le passage."
+     },
+     {
+      "text": "Toute supposition personnelle est une inférence prouvée.",
+      "truth": "false",
+      "explain": "Une inférence doit être soutenue par des indices."
+     },
+     {
+      "text": "Un détail sans rapport suffit toujours à résumer tout le texte.",
+      "truth": "false",
+      "explain": "Le résumé doit représenter l’ensemble pertinent."
+     },
+     {
+      "text": "Un prix absent doit être remplacé par un montant deviné.",
+      "truth": "false",
+      "explain": "Dire non précisé est plus fidèle que fabriquer une information."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

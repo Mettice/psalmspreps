@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 28,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-28",
+   "name": "Hygiène et salubrité : les mots des gestes quotidiens"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’hygiène désigne des pratiques qui contribuent à préserver la santé. La salubrité concerne notamment les conditions favorables à la santé dans un milieu. On peut décrire le lavage des mains à l’eau et au savon, la gestion appropriée des déchets et l’entretien des lieux. Propre à l’œil ne veut pas dire exempt de tous les risques. Le cours apprend le vocabulaire et ne remplace pas les consignes sanitaires locales ou les conseils professionnels.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "L’hygiène désigne des pratiques qui contribuent à préserver la santé. La salubrité concerne notamment les conditions favorables à la santé dans un milieu. On peut décrire le lavage des mains à l’eau et au savon, la gestion appropriée des déchets et l’entretien des lieux. Propre à l’œil ne veut pas dire exempt de tous les risques. Le cours apprend le vocabulaire et ne remplace pas les consignes sanitaires locales ou les conseils professionnels."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans une préparation fictive, le club identifie le point d’eau, les consignes de dépôt des déchets et les tâches autorisées par l’enseignante. Il évite de manipuler des objets coupants ou inconnus. Le texte distingue un geste d’hygiène personnel de l’organisation d’un milieu plus salubre, sans promettre une absence totale de maladie."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "hygiène",
+    "meaning": "des pratiques contribuant à préserver la santé"
+   },
+   {
+    "word": "salubrité",
+    "meaning": "des conditions d’un milieu favorables à la santé"
+   },
+   {
+    "word": "déchet",
+    "meaning": "une matière ou un objet dont on se défait"
+   },
+   {
+    "word": "consigne sanitaire",
+    "meaning": "une instruction appropriée concernant la protection de la santé"
+   }
+  ],
+  "examples": [
+   "Un texte décrit le lavage des mains à l’eau et au savon.",
+   "Le club examine les conditions de propreté et de gestion des déchets d’un lieu.",
+   "Un papier usagé rejoint le dépôt prévu par l’école."
+  ],
+  "mistake": {
+   "wrong": "L’hygiène garantit qu’aucune maladie n’est jamais possible.",
+   "right": "hygiène: des pratiques contribuant à préserver la santé.",
+   "why": "Elle contribue à la prévention sans offrir de garantie absolue."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un texte décrit le lavage des mains à l’eau et au savon. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Des pratiques contribuant à préserver la santé.",
+   "Elle contribue à la prévention sans offrir de garantie absolue."
+  ],
+  "answer": "hygiène",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-28-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "hygiène: des pratiques contribuant à préserver la santé.",
+     "salubrité: des conditions d’un milieu favorables à la santé.",
+     "déchet: une matière ou un objet dont on se défait.",
+     "consigne sanitaire: une instruction appropriée concernant la protection de la santé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-28-terms"
+    }
+   },
+   {
+    "id": "cfr3-28-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Un texte décrit le lavage des mains à l’eau et au savon.",
+     "hygiène: des pratiques contribuant à préserver la santé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-28-cases"
+    }
+   },
+   {
+    "id": "cfr3-28-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "L’hygiène garantit qu’aucune maladie n’est jamais possible.",
+     "Elle contribue à la prévention sans offrir de garantie absolue."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-28-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "hygiène : des pratiques contribuant à préserver la santé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : hygiène désigne des pratiques contribuant à préserver la santé. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "salubrité : des conditions d’un milieu favorables à la santé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : salubrité désigne des conditions d’un milieu favorables à la santé. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "déchet : une matière ou un objet dont on se défait.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : déchet désigne une matière ou un objet dont on se défait. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "consigne sanitaire : une instruction appropriée concernant la protection de la santé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : consigne sanitaire désigne une instruction appropriée concernant la protection de la santé. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’hygiène garantit qu’aucune maladie n’est jamais possible.",
+        "truth": "false",
+        "explain": "Elle contribue à la prévention sans offrir de garantie absolue."
+       },
+       {
+        "text": "La salubrité concerne uniquement la couleur des vêtements.",
+        "truth": "false",
+        "explain": "Elle porte sur les conditions du milieu."
+       },
+       {
+        "text": "Tout déchet inconnu doit être touché à mains nues par les élèves.",
+        "truth": "false",
+        "explain": "Respecte les consignes et ne manipule pas les objets dangereux ou inconnus."
+       },
+       {
+        "text": "Une phrase de vocabulaire remplace toute consigne locale.",
+        "truth": "false",
+        "explain": "Le vocabulaire aide à comprendre les consignes, sans les remplacer."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-28-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : des pratiques contribuant à préserver la santé ?",
+       "r": "hygiène",
+       "w": [
+        "salubrité",
+        "déchet",
+        "consigne sanitaire"
+       ],
+       "e": [
+        "« salubrité » désigne des conditions d’un milieu favorables à la santé. Ici, cherche des pratiques contribuant à préserver la santé.",
+        "« déchet » désigne une matière ou un objet dont on se défait. Ici, cherche des pratiques contribuant à préserver la santé.",
+        "« consigne sanitaire » désigne une instruction appropriée concernant la protection de la santé. Ici, cherche des pratiques contribuant à préserver la santé."
+       ],
+       "y": "Des pratiques contribuant à préserver la santé."
+      },
+      {
+       "q": "Quel terme désigne : des conditions d’un milieu favorables à la santé ?",
+       "r": "salubrité",
+       "w": [
+        "hygiène",
+        "déchet",
+        "consigne sanitaire"
+       ],
+       "e": [
+        "« hygiène » désigne des pratiques contribuant à préserver la santé. Ici, cherche des conditions d’un milieu favorables à la santé.",
+        "« déchet » désigne une matière ou un objet dont on se défait. Ici, cherche des conditions d’un milieu favorables à la santé.",
+        "« consigne sanitaire » désigne une instruction appropriée concernant la protection de la santé. Ici, cherche des conditions d’un milieu favorables à la santé."
+       ],
+       "y": "Des conditions d’un milieu favorables à la santé."
+      },
+      {
+       "q": "Quel terme désigne : une matière ou un objet dont on se défait ?",
+       "r": "déchet",
+       "w": [
+        "hygiène",
+        "salubrité",
+        "consigne sanitaire"
+       ],
+       "e": [
+        "« hygiène » désigne des pratiques contribuant à préserver la santé. Ici, cherche une matière ou un objet dont on se défait.",
+        "« salubrité » désigne des conditions d’un milieu favorables à la santé. Ici, cherche une matière ou un objet dont on se défait.",
+        "« consigne sanitaire » désigne une instruction appropriée concernant la protection de la santé. Ici, cherche une matière ou un objet dont on se défait."
+       ],
+       "y": "Une matière ou un objet dont on se défait."
+      },
+      {
+       "q": "Quel terme désigne : une instruction appropriée concernant la protection de la santé ?",
+       "r": "consigne sanitaire",
+       "w": [
+        "hygiène",
+        "salubrité",
+        "déchet"
+       ],
+       "e": [
+        "« hygiène » désigne des pratiques contribuant à préserver la santé. Ici, cherche une instruction appropriée concernant la protection de la santé.",
+        "« salubrité » désigne des conditions d’un milieu favorables à la santé. Ici, cherche une instruction appropriée concernant la protection de la santé.",
+        "« déchet » désigne une matière ou un objet dont on se défait. Ici, cherche une instruction appropriée concernant la protection de la santé."
+       ],
+       "y": "Une instruction appropriée concernant la protection de la santé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-28-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un texte décrit le lavage des mains à l’eau et au savon.\nQuel terme s’applique le mieux ?",
+       "r": "hygiène",
+       "w": [
+        "salubrité",
+        "déchet",
+        "consigne sanitaire"
+       ],
+       "e": [
+        "« salubrité » concerne des conditions d’un milieu favorables à la santé. Le cas décrit plutôt des pratiques contribuant à préserver la santé.",
+        "« déchet » concerne une matière ou un objet dont on se défait. Le cas décrit plutôt des pratiques contribuant à préserver la santé.",
+        "« consigne sanitaire » concerne une instruction appropriée concernant la protection de la santé. Le cas décrit plutôt des pratiques contribuant à préserver la santé."
+       ],
+       "y": "Un texte décrit le lavage des mains à l’eau et au savon. Des pratiques contribuant à préserver la santé."
+      },
+      {
+       "q": "Le club examine les conditions de propreté et de gestion des déchets d’un lieu.\nQuel terme s’applique le mieux ?",
+       "r": "salubrité",
+       "w": [
+        "hygiène",
+        "déchet",
+        "consigne sanitaire"
+       ],
+       "e": [
+        "« hygiène » concerne des pratiques contribuant à préserver la santé. Le cas décrit plutôt des conditions d’un milieu favorables à la santé.",
+        "« déchet » concerne une matière ou un objet dont on se défait. Le cas décrit plutôt des conditions d’un milieu favorables à la santé.",
+        "« consigne sanitaire » concerne une instruction appropriée concernant la protection de la santé. Le cas décrit plutôt des conditions d’un milieu favorables à la santé."
+       ],
+       "y": "Le club examine les conditions de propreté et de gestion des déchets d’un lieu. Des conditions d’un milieu favorables à la santé."
+      },
+      {
+       "q": "Un papier usagé rejoint le dépôt prévu par l’école.\nQuel terme s’applique le mieux ?",
+       "r": "déchet",
+       "w": [
+        "hygiène",
+        "salubrité",
+        "consigne sanitaire"
+       ],
+       "e": [
+        "« hygiène » concerne des pratiques contribuant à préserver la santé. Le cas décrit plutôt une matière ou un objet dont on se défait.",
+        "« salubrité » concerne des conditions d’un milieu favorables à la santé. Le cas décrit plutôt une matière ou un objet dont on se défait.",
+        "« consigne sanitaire » concerne une instruction appropriée concernant la protection de la santé. Le cas décrit plutôt une matière ou un objet dont on se défait."
+       ],
+       "y": "Un papier usagé rejoint le dépôt prévu par l’école. Une matière ou un objet dont on se défait."
+      },
+      {
+       "q": "L’enseignante explique quelles tâches sont autorisées.\nQuel terme s’applique le mieux ?",
+       "r": "consigne sanitaire",
+       "w": [
+        "hygiène",
+        "salubrité",
+        "déchet"
+       ],
+       "e": [
+        "« hygiène » concerne des pratiques contribuant à préserver la santé. Le cas décrit plutôt une instruction appropriée concernant la protection de la santé.",
+        "« salubrité » concerne des conditions d’un milieu favorables à la santé. Le cas décrit plutôt une instruction appropriée concernant la protection de la santé.",
+        "« déchet » concerne une matière ou un objet dont on se défait. Le cas décrit plutôt une instruction appropriée concernant la protection de la santé."
+       ],
+       "y": "L’enseignante explique quelles tâches sont autorisées. Une instruction appropriée concernant la protection de la santé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-28-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un texte décrit le lavage des mains à l’eau et au savon.\nQuelle explication justifie le classement ?",
+       "r": "Des pratiques contribuant à préserver la santé.",
+       "w": [
+        "Des conditions d’un milieu favorables à la santé.",
+        "Une matière ou un objet dont on se défait.",
+        "Une instruction appropriée concernant la protection de la santé."
+       ],
+       "e": [
+        "Cette explication correspond à « salubrité ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « déchet ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « consigne sanitaire ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Elle contribue à la prévention sans offrir de garantie absolue."
+      },
+      {
+       "q": "Le club examine les conditions de propreté et de gestion des déchets d’un lieu.\nQuelle explication justifie le classement ?",
+       "r": "Des conditions d’un milieu favorables à la santé.",
+       "w": [
+        "Des pratiques contribuant à préserver la santé.",
+        "Une matière ou un objet dont on se défait.",
+        "Une instruction appropriée concernant la protection de la santé."
+       ],
+       "e": [
+        "Cette explication correspond à « hygiène ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « déchet ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « consigne sanitaire ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Elle porte sur les conditions du milieu."
+      },
+      {
+       "q": "Un papier usagé rejoint le dépôt prévu par l’école.\nQuelle explication justifie le classement ?",
+       "r": "Une matière ou un objet dont on se défait.",
+       "w": [
+        "Des pratiques contribuant à préserver la santé.",
+        "Des conditions d’un milieu favorables à la santé.",
+        "Une instruction appropriée concernant la protection de la santé."
+       ],
+       "e": [
+        "Cette explication correspond à « hygiène ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « salubrité ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « consigne sanitaire ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Respecte les consignes et ne manipule pas les objets dangereux ou inconnus."
+      },
+      {
+       "q": "L’enseignante explique quelles tâches sont autorisées.\nQuelle explication justifie le classement ?",
+       "r": "Une instruction appropriée concernant la protection de la santé.",
+       "w": [
+        "Des pratiques contribuant à préserver la santé.",
+        "Des conditions d’un milieu favorables à la santé.",
+        "Une matière ou un objet dont on se défait."
+       ],
+       "e": [
+        "Cette explication correspond à « hygiène ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « salubrité ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « déchet ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le vocabulaire aide à comprendre les consignes, sans les remplacer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-28-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "hygiène",
+     "right": "Un texte décrit le lavage des mains à l’eau et au savon."
+    },
+    {
+     "left": "salubrité",
+     "right": "Le club examine les conditions de propreté et de gestion des déchets d’un lieu."
+    },
+    {
+     "left": "déchet",
+     "right": "Un papier usagé rejoint le dépôt prévu par l’école."
+    },
+    {
+     "left": "consigne sanitaire",
+     "right": "L’enseignante explique quelles tâches sont autorisées."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-28-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "hygiène : des pratiques contribuant à préserver la santé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : hygiène désigne des pratiques contribuant à préserver la santé. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "salubrité : des conditions d’un milieu favorables à la santé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : salubrité désigne des conditions d’un milieu favorables à la santé. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "déchet : une matière ou un objet dont on se défait.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : déchet désigne une matière ou un objet dont on se défait. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "consigne sanitaire : une instruction appropriée concernant la protection de la santé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : consigne sanitaire désigne une instruction appropriée concernant la protection de la santé. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’hygiène garantit qu’aucune maladie n’est jamais possible.",
+      "truth": "false",
+      "explain": "Elle contribue à la prévention sans offrir de garantie absolue."
+     },
+     {
+      "text": "La salubrité concerne uniquement la couleur des vêtements.",
+      "truth": "false",
+      "explain": "Elle porte sur les conditions du milieu."
+     },
+     {
+      "text": "Tout déchet inconnu doit être touché à mains nues par les élèves.",
+      "truth": "false",
+      "explain": "Respecte les consignes et ne manipule pas les objets dangereux ou inconnus."
+     },
+     {
+      "text": "Une phrase de vocabulaire remplace toute consigne locale.",
+      "truth": "false",
+      "explain": "Le vocabulaire aide à comprendre les consignes, sans les remplacer."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

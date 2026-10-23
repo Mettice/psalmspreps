@@ -14,7 +14,17 @@ const root = path.resolve(__dirname, '../../..');
   try {
     const page = await browser.newPage({ viewport: { width: 360, height: 800 } });
     await page.emulateMedia({ reducedMotion: 'reduce' });
-    await page.goto(pathToFileURL(path.join(root, 'tools/prototype/form3-term-1.html')).href);
+    const prototypeDir = path.join(root, 'tools/prototype');
+    const candidates = fs.readdirSync(prototypeDir).filter((f) => /^form3-term-1(?:-part-\d+)?\.html$/.test(f));
+    let found = false;
+    for (const file of candidates) {
+      await page.goto(pathToFileURL(path.join(prototypeDir, file)).href);
+      if (await page.evaluate((id) => typeof LESSONS !== 'undefined' && Array.isArray(LESSONS[id]) && LESSONS[id].length > 0, subject)) {
+        found = true;
+        break;
+      }
+    }
+    if (!found) throw Error(`No built Term One page contains ${subject}`);
     await page.evaluate((id) => { window.__only = [id]; }, subject);
     await page.evaluate(fs.readFileSync(path.join(root, 'tools/authoring/walk.js'), 'utf8'));
     await page.waitForFunction(() => window.__walk && !window.__walk.running, null, { timeout: 300000 });

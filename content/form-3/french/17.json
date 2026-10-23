@@ -1,0 +1,552 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 17,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-17",
+   "name": "Le pluriel des noms en -al et -ail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Beaucoup de noms en -al forment leur pluriel en -aux, mais bal, carnaval et festival gardent notamment -s. La plupart des noms en -ail prennent -s ; certains, comme travail et vitrail, ont un pluriel en -aux. Il faut apprendre les exceptions plutôt que transformer automatiquement toute finale. Le déterminant pluriel s’accorde avec le nom choisi. Un mot ressemblant à un autre n’appartient pas nécessairement au même modèle.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Beaucoup de noms en -al forment leur pluriel en -aux, mais bal, carnaval et festival gardent notamment -s. La plupart des noms en -ail prennent -s ; certains, comme travail et vitrail, ont un pluriel en -aux. Il faut apprendre les exceptions plutôt que transformer automatiquement toute finale. Le déterminant pluriel s’accorde avec le nom choisi. Un mot ressemblant à un autre n’appartient pas nécessairement au même modèle."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "À partir des noms du modèle : cheval → {fr2NounPlural('cheval')}, festival → {fr2NounPlural('festival')}, détail → {fr2NounPlural('détail')}, travail → {fr2NounPlural('travail')}. La comparaison révèle un modèle fréquent et des exceptions. Le pluriel doit être vérifié mot par mot lorsque le nom n’est pas connu."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère la finale, propose le modèle et vérifie si le mot fait exception. Ne confonds pas les deux séries : tous les -ail ne deviennent pas -aux et tous les -al ne prennent pas -s."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "modèle -al vers -aux",
+    "meaning": "le pluriel fréquent illustré par cheval"
+   },
+   {
+    "word": "exception en -als",
+    "meaning": "le pluriel illustré par festival"
+   },
+   {
+    "word": "modèle -ail vers -ails",
+    "meaning": "le pluriel fréquent illustré par détail"
+   },
+   {
+    "word": "exception -ail vers -aux",
+    "meaning": "le pluriel illustré par travail"
+   }
+  ],
+  "examples": [
+   "Cheval devient {fr2NounPlural('cheval')}.",
+   "Festival devient {fr2NounPlural('festival')}.",
+   "Détail devient {fr2NounPlural('détail')}."
+  ],
+  "mistake": {
+   "wrong": "Tous les noms en -al se terminent obligatoirement par -als au pluriel.",
+   "right": "modèle -al vers -aux: le pluriel fréquent illustré par cheval.",
+   "why": "Cheval suit ici le modèle en -aux."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Cheval devient {fr2NounPlural('cheval')}. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le pluriel fréquent illustré par cheval.",
+   "Cheval suit ici le modèle en -aux."
+  ],
+  "answer": "modèle -al vers -aux",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-17-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "modèle -al vers -aux: le pluriel fréquent illustré par cheval.",
+     "exception en -als: le pluriel illustré par festival.",
+     "modèle -ail vers -ails: le pluriel fréquent illustré par détail.",
+     "exception -ail vers -aux: le pluriel illustré par travail."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-17-terms"
+    }
+   },
+   {
+    "id": "cfr3-17-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Cheval devient {fr2NounPlural('cheval')}.",
+     "modèle -al vers -aux: le pluriel fréquent illustré par cheval."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-17-cases"
+    }
+   },
+   {
+    "id": "cfr3-17-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Tous les noms en -al se terminent obligatoirement par -als au pluriel.",
+     "Cheval suit ici le modèle en -aux."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-17-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "modèle -al vers -aux : le pluriel fréquent illustré par cheval.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : modèle -al vers -aux désigne le pluriel fréquent illustré par cheval. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "exception en -als : le pluriel illustré par festival.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : exception en -als désigne le pluriel illustré par festival. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "modèle -ail vers -ails : le pluriel fréquent illustré par détail.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : modèle -ail vers -ails désigne le pluriel fréquent illustré par détail. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "exception -ail vers -aux : le pluriel illustré par travail.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : exception -ail vers -aux désigne le pluriel illustré par travail. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tous les noms en -al se terminent obligatoirement par -als au pluriel.",
+        "truth": "false",
+        "explain": "Cheval suit ici le modèle en -aux."
+       },
+       {
+        "text": "Festival a obligatoirement pour pluriel festivaux.",
+        "truth": "false",
+        "explain": "Festival conserve sa base et prend -s."
+       },
+       {
+        "text": "Tous les noms en -ail deviennent -aux.",
+        "truth": "false",
+        "explain": "La plupart prennent -s ; détail suit ce modèle."
+       },
+       {
+        "text": "Le pluriel de travail est toujours travails dans le modèle étudié.",
+        "truth": "false",
+        "explain": "Travail fait partie des exceptions en -aux."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-17-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le pluriel fréquent illustré par cheval ?",
+       "r": "modèle -al vers -aux",
+       "w": [
+        "exception en -als",
+        "modèle -ail vers -ails",
+        "exception -ail vers -aux"
+       ],
+       "e": [
+        "« exception en -als » désigne le pluriel illustré par festival. Ici, cherche le pluriel fréquent illustré par cheval.",
+        "« modèle -ail vers -ails » désigne le pluriel fréquent illustré par détail. Ici, cherche le pluriel fréquent illustré par cheval.",
+        "« exception -ail vers -aux » désigne le pluriel illustré par travail. Ici, cherche le pluriel fréquent illustré par cheval."
+       ],
+       "y": "Le pluriel fréquent illustré par cheval."
+      },
+      {
+       "q": "Quel terme désigne : le pluriel illustré par festival ?",
+       "r": "exception en -als",
+       "w": [
+        "modèle -al vers -aux",
+        "modèle -ail vers -ails",
+        "exception -ail vers -aux"
+       ],
+       "e": [
+        "« modèle -al vers -aux » désigne le pluriel fréquent illustré par cheval. Ici, cherche le pluriel illustré par festival.",
+        "« modèle -ail vers -ails » désigne le pluriel fréquent illustré par détail. Ici, cherche le pluriel illustré par festival.",
+        "« exception -ail vers -aux » désigne le pluriel illustré par travail. Ici, cherche le pluriel illustré par festival."
+       ],
+       "y": "Le pluriel illustré par festival."
+      },
+      {
+       "q": "Quel terme désigne : le pluriel fréquent illustré par détail ?",
+       "r": "modèle -ail vers -ails",
+       "w": [
+        "modèle -al vers -aux",
+        "exception en -als",
+        "exception -ail vers -aux"
+       ],
+       "e": [
+        "« modèle -al vers -aux » désigne le pluriel fréquent illustré par cheval. Ici, cherche le pluriel fréquent illustré par détail.",
+        "« exception en -als » désigne le pluriel illustré par festival. Ici, cherche le pluriel fréquent illustré par détail.",
+        "« exception -ail vers -aux » désigne le pluriel illustré par travail. Ici, cherche le pluriel fréquent illustré par détail."
+       ],
+       "y": "Le pluriel fréquent illustré par détail."
+      },
+      {
+       "q": "Quel terme désigne : le pluriel illustré par travail ?",
+       "r": "exception -ail vers -aux",
+       "w": [
+        "modèle -al vers -aux",
+        "exception en -als",
+        "modèle -ail vers -ails"
+       ],
+       "e": [
+        "« modèle -al vers -aux » désigne le pluriel fréquent illustré par cheval. Ici, cherche le pluriel illustré par travail.",
+        "« exception en -als » désigne le pluriel illustré par festival. Ici, cherche le pluriel illustré par travail.",
+        "« modèle -ail vers -ails » désigne le pluriel fréquent illustré par détail. Ici, cherche le pluriel illustré par travail."
+       ],
+       "y": "Le pluriel illustré par travail."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-17-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Cheval devient {fr2NounPlural('cheval')}.\nQuel terme s’applique le mieux ?",
+       "r": "modèle -al vers -aux",
+       "w": [
+        "exception en -als",
+        "modèle -ail vers -ails",
+        "exception -ail vers -aux"
+       ],
+       "e": [
+        "« exception en -als » concerne le pluriel illustré par festival. Le cas décrit plutôt le pluriel fréquent illustré par cheval.",
+        "« modèle -ail vers -ails » concerne le pluriel fréquent illustré par détail. Le cas décrit plutôt le pluriel fréquent illustré par cheval.",
+        "« exception -ail vers -aux » concerne le pluriel illustré par travail. Le cas décrit plutôt le pluriel fréquent illustré par cheval."
+       ],
+       "y": "Cheval devient {fr2NounPlural('cheval')}. Le pluriel fréquent illustré par cheval."
+      },
+      {
+       "q": "Festival devient {fr2NounPlural('festival')}.\nQuel terme s’applique le mieux ?",
+       "r": "exception en -als",
+       "w": [
+        "modèle -al vers -aux",
+        "modèle -ail vers -ails",
+        "exception -ail vers -aux"
+       ],
+       "e": [
+        "« modèle -al vers -aux » concerne le pluriel fréquent illustré par cheval. Le cas décrit plutôt le pluriel illustré par festival.",
+        "« modèle -ail vers -ails » concerne le pluriel fréquent illustré par détail. Le cas décrit plutôt le pluriel illustré par festival.",
+        "« exception -ail vers -aux » concerne le pluriel illustré par travail. Le cas décrit plutôt le pluriel illustré par festival."
+       ],
+       "y": "Festival devient {fr2NounPlural('festival')}. Le pluriel illustré par festival."
+      },
+      {
+       "q": "Détail devient {fr2NounPlural('détail')}.\nQuel terme s’applique le mieux ?",
+       "r": "modèle -ail vers -ails",
+       "w": [
+        "modèle -al vers -aux",
+        "exception en -als",
+        "exception -ail vers -aux"
+       ],
+       "e": [
+        "« modèle -al vers -aux » concerne le pluriel fréquent illustré par cheval. Le cas décrit plutôt le pluriel fréquent illustré par détail.",
+        "« exception en -als » concerne le pluriel illustré par festival. Le cas décrit plutôt le pluriel fréquent illustré par détail.",
+        "« exception -ail vers -aux » concerne le pluriel illustré par travail. Le cas décrit plutôt le pluriel fréquent illustré par détail."
+       ],
+       "y": "Détail devient {fr2NounPlural('détail')}. Le pluriel fréquent illustré par détail."
+      },
+      {
+       "q": "Travail devient {fr2NounPlural('travail')}.\nQuel terme s’applique le mieux ?",
+       "r": "exception -ail vers -aux",
+       "w": [
+        "modèle -al vers -aux",
+        "exception en -als",
+        "modèle -ail vers -ails"
+       ],
+       "e": [
+        "« modèle -al vers -aux » concerne le pluriel fréquent illustré par cheval. Le cas décrit plutôt le pluriel illustré par travail.",
+        "« exception en -als » concerne le pluriel illustré par festival. Le cas décrit plutôt le pluriel illustré par travail.",
+        "« modèle -ail vers -ails » concerne le pluriel fréquent illustré par détail. Le cas décrit plutôt le pluriel illustré par travail."
+       ],
+       "y": "Travail devient {fr2NounPlural('travail')}. Le pluriel illustré par travail."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-17-pluriel",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "cheval",
+      "festival",
+      "détail",
+      "travail",
+      "journal",
+      "bal",
+      "vitrail"
+     ]
+    }
+   },
+   "prompt": "Choisis le pluriel de « {n} ».",
+   "correct": "{fr2NounPlural(n)}",
+   "distractors": [
+    {
+     "text": "{fr2NounNaive(n)}",
+     "misconception": "modele"
+    },
+    {
+     "text": "{n}",
+     "misconception": "singulier"
+    },
+    {
+     "text": "{n+'es'}",
+     "misconception": "lettres"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "modele",
+     "explain": "Ce mot ne suit pas le modèle que tu as appliqué ; vérifie les exceptions."
+    },
+    {
+     "id": "singulier",
+     "explain": "Cette forme reste au singulier."
+    },
+    {
+     "id": "lettres",
+     "explain": "On ne forme pas ce pluriel en ajoutant arbitrairement -es."
+    }
+   ],
+   "solution": [
+    "Vérifie le modèle et ses exceptions.",
+    "Le pluriel attendu est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-17-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "modèle -al vers -aux",
+     "right": "Cheval devient {fr2NounPlural('cheval')}."
+    },
+    {
+     "left": "exception en -als",
+     "right": "Festival devient {fr2NounPlural('festival')}."
+    },
+    {
+     "left": "modèle -ail vers -ails",
+     "right": "Détail devient {fr2NounPlural('détail')}."
+    },
+    {
+     "left": "exception -ail vers -aux",
+     "right": "Travail devient {fr2NounPlural('travail')}."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-17-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "modèle -al vers -aux : le pluriel fréquent illustré par cheval.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : modèle -al vers -aux désigne le pluriel fréquent illustré par cheval. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "exception en -als : le pluriel illustré par festival.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : exception en -als désigne le pluriel illustré par festival. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "modèle -ail vers -ails : le pluriel fréquent illustré par détail.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : modèle -ail vers -ails désigne le pluriel fréquent illustré par détail. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "exception -ail vers -aux : le pluriel illustré par travail.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : exception -ail vers -aux désigne le pluriel illustré par travail. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tous les noms en -al se terminent obligatoirement par -als au pluriel.",
+      "truth": "false",
+      "explain": "Cheval suit ici le modèle en -aux."
+     },
+     {
+      "text": "Festival a obligatoirement pour pluriel festivaux.",
+      "truth": "false",
+      "explain": "Festival conserve sa base et prend -s."
+     },
+     {
+      "text": "Tous les noms en -ail deviennent -aux.",
+      "truth": "false",
+      "explain": "La plupart prennent -s ; détail suit ce modèle."
+     },
+     {
+      "text": "Le pluriel de travail est toujours travails dans le modèle étudié.",
+      "truth": "false",
+      "explain": "Travail fait partie des exceptions en -aux."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 19,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-19",
+   "name": "Les lettres muettes à l’intérieur des mots"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une lettre peut être écrite sans correspondre à un son prononcé dans le modèle étudié. Une consonne muette ne disparaît donc pas de l’orthographe. L’observation des familles et le dictionnaire aident à mémoriser la graphie. La prononciation varie parfois selon le contexte ou l’accent : cette leçon porte sur quelques modèles écrits et non sur une règle universelle concernant toutes les consonnes. Le libellé « sept fonctions » du spine reste à vérifier par l’enseignant.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Une lettre peut être écrite sans correspondre à un son prononcé dans le modèle étudié. Une consonne muette ne disparaît donc pas de l’orthographe. L’observation des familles et le dictionnaire aident à mémoriser la graphie. La prononciation varie parfois selon le contexte ou l’accent : cette leçon porte sur quelques modèles écrits et non sur une règle universelle concernant toutes les consonnes. Le libellé « sept fonctions » du spine reste à vérifier par l’enseignant."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "On compare les graphies rhume, théâtre, compter et automne. Le h intérieur des deux premiers ne correspond pas à un son autonome ; le p de compter et le n d’automne sont muets dans les modèles usuels considérés. Il faut néanmoins les conserver à l’écrit. Une pratique audio avec l’enseignant complète cette observation."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "rhume",
+    "meaning": "un modèle écrit comportant un h intérieur sans son autonome"
+   },
+   {
+    "word": "théâtre",
+    "meaning": "un modèle écrit avec h non prononcé dans th"
+   },
+   {
+    "word": "compter",
+    "meaning": "un modèle dont le p intérieur est muet"
+   },
+   {
+    "word": "automne",
+    "meaning": "un modèle dont le n est muet"
+   }
+  ],
+  "examples": [
+   "On conserve le h de rhume même sans son autonome.",
+   "Le groupe th de théâtre ne donne pas un son h séparé.",
+   "Le lecteur repère le p écrit dans compter."
+  ],
+  "mistake": {
+   "wrong": "Une lettre muette doit toujours être supprimée à l’écrit.",
+   "right": "rhume: un modèle écrit comportant un h intérieur sans son autonome.",
+   "why": "L’orthographe conserve cette lettre."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "On conserve le h de rhume même sans son autonome. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un modèle écrit comportant un h intérieur sans son autonome.",
+   "L’orthographe conserve cette lettre."
+  ],
+  "answer": "rhume",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-19-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "rhume: un modèle écrit comportant un h intérieur sans son autonome.",
+     "théâtre: un modèle écrit avec h non prononcé dans th.",
+     "compter: un modèle dont le p intérieur est muet.",
+     "automne: un modèle dont le n est muet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-19-terms"
+    }
+   },
+   {
+    "id": "cfr3-19-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "On conserve le h de rhume même sans son autonome.",
+     "rhume: un modèle écrit comportant un h intérieur sans son autonome."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-19-cases"
+    }
+   },
+   {
+    "id": "cfr3-19-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une lettre muette doit toujours être supprimée à l’écrit.",
+     "L’orthographe conserve cette lettre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-19-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "rhume : un modèle écrit comportant un h intérieur sans son autonome.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : rhume désigne un modèle écrit comportant un h intérieur sans son autonome. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "théâtre : un modèle écrit avec h non prononcé dans th.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : théâtre désigne un modèle écrit avec h non prononcé dans th. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "compter : un modèle dont le p intérieur est muet.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : compter désigne un modèle dont le p intérieur est muet. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "automne : un modèle dont le n est muet.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : automne désigne un modèle dont le n est muet. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une lettre muette doit toujours être supprimée à l’écrit.",
+        "truth": "false",
+        "explain": "L’orthographe conserve cette lettre."
+       },
+       {
+        "text": "Théâtre se prononce nécessairement avec un souffle h séparé.",
+        "truth": "false",
+        "explain": "Le h ne correspond pas ici à un son autonome."
+       },
+       {
+        "text": "Le p de compter est nécessairement prononcé dans le modèle courant.",
+        "truth": "false",
+        "explain": "Le p reste écrit sans être prononcé dans ce modèle."
+       },
+       {
+        "text": "Le n d’automne doit être supprimé de la graphie parce qu’il est muet.",
+        "truth": "false",
+        "explain": "Prononciation et orthographe ne se confondent pas."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-19-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un modèle écrit comportant un h intérieur sans son autonome ?",
+       "r": "rhume",
+       "w": [
+        "théâtre",
+        "compter",
+        "automne"
+       ],
+       "e": [
+        "« théâtre » désigne un modèle écrit avec h non prononcé dans th. Ici, cherche un modèle écrit comportant un h intérieur sans son autonome.",
+        "« compter » désigne un modèle dont le p intérieur est muet. Ici, cherche un modèle écrit comportant un h intérieur sans son autonome.",
+        "« automne » désigne un modèle dont le n est muet. Ici, cherche un modèle écrit comportant un h intérieur sans son autonome."
+       ],
+       "y": "Un modèle écrit comportant un h intérieur sans son autonome."
+      },
+      {
+       "q": "Quel terme désigne : un modèle écrit avec h non prononcé dans th ?",
+       "r": "théâtre",
+       "w": [
+        "rhume",
+        "compter",
+        "automne"
+       ],
+       "e": [
+        "« rhume » désigne un modèle écrit comportant un h intérieur sans son autonome. Ici, cherche un modèle écrit avec h non prononcé dans th.",
+        "« compter » désigne un modèle dont le p intérieur est muet. Ici, cherche un modèle écrit avec h non prononcé dans th.",
+        "« automne » désigne un modèle dont le n est muet. Ici, cherche un modèle écrit avec h non prononcé dans th."
+       ],
+       "y": "Un modèle écrit avec h non prononcé dans th."
+      },
+      {
+       "q": "Quel terme désigne : un modèle dont le p intérieur est muet ?",
+       "r": "compter",
+       "w": [
+        "rhume",
+        "théâtre",
+        "automne"
+       ],
+       "e": [
+        "« rhume » désigne un modèle écrit comportant un h intérieur sans son autonome. Ici, cherche un modèle dont le p intérieur est muet.",
+        "« théâtre » désigne un modèle écrit avec h non prononcé dans th. Ici, cherche un modèle dont le p intérieur est muet.",
+        "« automne » désigne un modèle dont le n est muet. Ici, cherche un modèle dont le p intérieur est muet."
+       ],
+       "y": "Un modèle dont le p intérieur est muet."
+      },
+      {
+       "q": "Quel terme désigne : un modèle dont le n est muet ?",
+       "r": "automne",
+       "w": [
+        "rhume",
+        "théâtre",
+        "compter"
+       ],
+       "e": [
+        "« rhume » désigne un modèle écrit comportant un h intérieur sans son autonome. Ici, cherche un modèle dont le n est muet.",
+        "« théâtre » désigne un modèle écrit avec h non prononcé dans th. Ici, cherche un modèle dont le n est muet.",
+        "« compter » désigne un modèle dont le p intérieur est muet. Ici, cherche un modèle dont le n est muet."
+       ],
+       "y": "Un modèle dont le n est muet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-19-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "On conserve le h de rhume même sans son autonome.\nQuel terme s’applique le mieux ?",
+       "r": "rhume",
+       "w": [
+        "théâtre",
+        "compter",
+        "automne"
+       ],
+       "e": [
+        "« théâtre » concerne un modèle écrit avec h non prononcé dans th. Le cas décrit plutôt un modèle écrit comportant un h intérieur sans son autonome.",
+        "« compter » concerne un modèle dont le p intérieur est muet. Le cas décrit plutôt un modèle écrit comportant un h intérieur sans son autonome.",
+        "« automne » concerne un modèle dont le n est muet. Le cas décrit plutôt un modèle écrit comportant un h intérieur sans son autonome."
+       ],
+       "y": "On conserve le h de rhume même sans son autonome. Un modèle écrit comportant un h intérieur sans son autonome."
+      },
+      {
+       "q": "Le groupe th de théâtre ne donne pas un son h séparé.\nQuel terme s’applique le mieux ?",
+       "r": "théâtre",
+       "w": [
+        "rhume",
+        "compter",
+        "automne"
+       ],
+       "e": [
+        "« rhume » concerne un modèle écrit comportant un h intérieur sans son autonome. Le cas décrit plutôt un modèle écrit avec h non prononcé dans th.",
+        "« compter » concerne un modèle dont le p intérieur est muet. Le cas décrit plutôt un modèle écrit avec h non prononcé dans th.",
+        "« automne » concerne un modèle dont le n est muet. Le cas décrit plutôt un modèle écrit avec h non prononcé dans th."
+       ],
+       "y": "Le groupe th de théâtre ne donne pas un son h séparé. Un modèle écrit avec h non prononcé dans th."
+      },
+      {
+       "q": "Le lecteur repère le p écrit dans compter.\nQuel terme s’applique le mieux ?",
+       "r": "compter",
+       "w": [
+        "rhume",
+        "théâtre",
+        "automne"
+       ],
+       "e": [
+        "« rhume » concerne un modèle écrit comportant un h intérieur sans son autonome. Le cas décrit plutôt un modèle dont le p intérieur est muet.",
+        "« théâtre » concerne un modèle écrit avec h non prononcé dans th. Le cas décrit plutôt un modèle dont le p intérieur est muet.",
+        "« automne » concerne un modèle dont le n est muet. Le cas décrit plutôt un modèle dont le p intérieur est muet."
+       ],
+       "y": "Le lecteur repère le p écrit dans compter. Un modèle dont le p intérieur est muet."
+      },
+      {
+       "q": "Le n d’automne est conservé dans la graphie.\nQuel terme s’applique le mieux ?",
+       "r": "automne",
+       "w": [
+        "rhume",
+        "théâtre",
+        "compter"
+       ],
+       "e": [
+        "« rhume » concerne un modèle écrit comportant un h intérieur sans son autonome. Le cas décrit plutôt un modèle dont le n est muet.",
+        "« théâtre » concerne un modèle écrit avec h non prononcé dans th. Le cas décrit plutôt un modèle dont le n est muet.",
+        "« compter » concerne un modèle dont le p intérieur est muet. Le cas décrit plutôt un modèle dont le n est muet."
+       ],
+       "y": "Le n d’automne est conservé dans la graphie. Un modèle dont le n est muet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-19-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "On conserve le h de rhume même sans son autonome.\nQuelle explication justifie le classement ?",
+       "r": "Un modèle écrit comportant un h intérieur sans son autonome.",
+       "w": [
+        "Un modèle écrit avec h non prononcé dans th.",
+        "Un modèle dont le p intérieur est muet.",
+        "Un modèle dont le n est muet."
+       ],
+       "e": [
+        "Cette explication correspond à « théâtre ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « compter ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « automne ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’orthographe conserve cette lettre."
+      },
+      {
+       "q": "Le groupe th de théâtre ne donne pas un son h séparé.\nQuelle explication justifie le classement ?",
+       "r": "Un modèle écrit avec h non prononcé dans th.",
+       "w": [
+        "Un modèle écrit comportant un h intérieur sans son autonome.",
+        "Un modèle dont le p intérieur est muet.",
+        "Un modèle dont le n est muet."
+       ],
+       "e": [
+        "Cette explication correspond à « rhume ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « compter ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « automne ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le h ne correspond pas ici à un son autonome."
+      },
+      {
+       "q": "Le lecteur repère le p écrit dans compter.\nQuelle explication justifie le classement ?",
+       "r": "Un modèle dont le p intérieur est muet.",
+       "w": [
+        "Un modèle écrit comportant un h intérieur sans son autonome.",
+        "Un modèle écrit avec h non prononcé dans th.",
+        "Un modèle dont le n est muet."
+       ],
+       "e": [
+        "Cette explication correspond à « rhume ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « théâtre ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « automne ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le p reste écrit sans être prononcé dans ce modèle."
+      },
+      {
+       "q": "Le n d’automne est conservé dans la graphie.\nQuelle explication justifie le classement ?",
+       "r": "Un modèle dont le n est muet.",
+       "w": [
+        "Un modèle écrit comportant un h intérieur sans son autonome.",
+        "Un modèle écrit avec h non prononcé dans th.",
+        "Un modèle dont le p intérieur est muet."
+       ],
+       "e": [
+        "Cette explication correspond à « rhume ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « théâtre ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « compter ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Prononciation et orthographe ne se confondent pas."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-19-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "rhume",
+     "right": "On conserve le h de rhume même sans son autonome."
+    },
+    {
+     "left": "théâtre",
+     "right": "Le groupe th de théâtre ne donne pas un son h séparé."
+    },
+    {
+     "left": "compter",
+     "right": "Le lecteur repère le p écrit dans compter."
+    },
+    {
+     "left": "automne",
+     "right": "Le n d’automne est conservé dans la graphie."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-19-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "rhume : un modèle écrit comportant un h intérieur sans son autonome.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : rhume désigne un modèle écrit comportant un h intérieur sans son autonome. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "théâtre : un modèle écrit avec h non prononcé dans th.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : théâtre désigne un modèle écrit avec h non prononcé dans th. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "compter : un modèle dont le p intérieur est muet.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : compter désigne un modèle dont le p intérieur est muet. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "automne : un modèle dont le n est muet.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : automne désigne un modèle dont le n est muet. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une lettre muette doit toujours être supprimée à l’écrit.",
+      "truth": "false",
+      "explain": "L’orthographe conserve cette lettre."
+     },
+     {
+      "text": "Théâtre se prononce nécessairement avec un souffle h séparé.",
+      "truth": "false",
+      "explain": "Le h ne correspond pas ici à un son autonome."
+     },
+     {
+      "text": "Le p de compter est nécessairement prononcé dans le modèle courant.",
+      "truth": "false",
+      "explain": "Le p reste écrit sans être prononcé dans ce modèle."
+     },
+     {
+      "text": "Le n d’automne doit être supprimé de la graphie parce qu’il est muet.",
+      "truth": "false",
+      "explain": "Prononciation et orthographe ne se confondent pas."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

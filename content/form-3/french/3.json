@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-3",
+   "name": "Les synonymes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Des synonymes ont des sens proches dans un contexte donné. Ils ne sont pas toujours interchangeables : le registre, l’intensité et les mots voisins comptent. Une substitution réussie conserve l’idée voulue et la construction. Cherche un adjectif pour remplacer un adjectif, sauf si tu reconstruis toute la phrase. Un synonyme ne signifie pas le contraire et ne se définit pas par une simple ressemblance sonore.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Des synonymes ont des sens proches dans un contexte donné. Ils ne sont pas toujours interchangeables : le registre, l’intensité et les mots voisins comptent. Une substitution réussie conserve l’idée voulue et la construction. Cherche un adjectif pour remplacer un adjectif, sauf si tu reconstruis toute la phrase. Un synonyme ne signifie pas le contraire et ne se définit pas par une simple ressemblance sonore."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans un récit original situé à Bamenda, une élève est contente d’aider. Heureuse peut convenir ici. Une tâche difficile peut être décrite comme ardue dans un registre plus soutenu. Le remplacement doit rester adapté au lecteur ; rapide et pressé ne décrivent pas toujours la même chose."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "heureux",
+    "meaning": "proche de content dans le contexte d’une satisfaction"
+   },
+   {
+    "word": "ardue",
+    "meaning": "proche de difficile pour une tâche exigeante"
+   },
+   {
+    "word": "paisible",
+    "meaning": "proche de calme pour une ambiance sans agitation"
+   },
+   {
+    "word": "vaste",
+    "meaning": "proche de grand pour une étendue importante"
+   }
+  ],
+  "examples": [
+   "Bih est contente de retrouver son amie ; elle en est heureuse.",
+   "La tâche difficile est qualifiée d’ardue.",
+   "Le jardin calme offre une ambiance paisible."
+  ],
+  "mistake": {
+   "wrong": "Heureux signifie toujours triste.",
+   "right": "heureux: proche de content dans le contexte d’une satisfaction.",
+   "why": "Heureux exprime ici une satisfaction, non la tristesse."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih est contente de retrouver son amie ; elle en est heureuse. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Proche de content dans le contexte d’une satisfaction.",
+   "Heureux exprime ici une satisfaction, non la tristesse."
+  ],
+  "answer": "heureux",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-3-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "heureux: proche de content dans le contexte d’une satisfaction.",
+     "ardue: proche de difficile pour une tâche exigeante.",
+     "paisible: proche de calme pour une ambiance sans agitation.",
+     "vaste: proche de grand pour une étendue importante."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-3-terms"
+    }
+   },
+   {
+    "id": "cfr3-3-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Bih est contente de retrouver son amie ; elle en est heureuse.",
+     "heureux: proche de content dans le contexte d’une satisfaction."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-3-cases"
+    }
+   },
+   {
+    "id": "cfr3-3-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Heureux signifie toujours triste.",
+     "Heureux exprime ici une satisfaction, non la tristesse."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-3-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "heureux : proche de content dans le contexte d’une satisfaction.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : heureux désigne proche de content dans le contexte d’une satisfaction. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "ardue : proche de difficile pour une tâche exigeante.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : ardue désigne proche de difficile pour une tâche exigeante. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "paisible : proche de calme pour une ambiance sans agitation.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : paisible désigne proche de calme pour une ambiance sans agitation. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "vaste : proche de grand pour une étendue importante.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : vaste désigne proche de grand pour une étendue importante. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Heureux signifie toujours triste.",
+        "truth": "false",
+        "explain": "Heureux exprime ici une satisfaction, non la tristesse."
+       },
+       {
+        "text": "Ardue signifie toujours facile.",
+        "truth": "false",
+        "explain": "Une tâche ardue demande un effort."
+       },
+       {
+        "text": "Paisible décrit obligatoirement une bagarre bruyante.",
+        "truth": "false",
+        "explain": "Paisible convient ici à l’absence d’agitation."
+       },
+       {
+        "text": "Vaste signifie étroit dans tous les contextes.",
+        "truth": "false",
+        "explain": "Vaste insiste ici sur une étendue importante."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : proche de content dans le contexte d’une satisfaction ?",
+       "r": "heureux",
+       "w": [
+        "ardue",
+        "paisible",
+        "vaste"
+       ],
+       "e": [
+        "« ardue » désigne proche de difficile pour une tâche exigeante. Ici, cherche proche de content dans le contexte d’une satisfaction.",
+        "« paisible » désigne proche de calme pour une ambiance sans agitation. Ici, cherche proche de content dans le contexte d’une satisfaction.",
+        "« vaste » désigne proche de grand pour une étendue importante. Ici, cherche proche de content dans le contexte d’une satisfaction."
+       ],
+       "y": "Proche de content dans le contexte d’une satisfaction."
+      },
+      {
+       "q": "Quel terme désigne : proche de difficile pour une tâche exigeante ?",
+       "r": "ardue",
+       "w": [
+        "heureux",
+        "paisible",
+        "vaste"
+       ],
+       "e": [
+        "« heureux » désigne proche de content dans le contexte d’une satisfaction. Ici, cherche proche de difficile pour une tâche exigeante.",
+        "« paisible » désigne proche de calme pour une ambiance sans agitation. Ici, cherche proche de difficile pour une tâche exigeante.",
+        "« vaste » désigne proche de grand pour une étendue importante. Ici, cherche proche de difficile pour une tâche exigeante."
+       ],
+       "y": "Proche de difficile pour une tâche exigeante."
+      },
+      {
+       "q": "Quel terme désigne : proche de calme pour une ambiance sans agitation ?",
+       "r": "paisible",
+       "w": [
+        "heureux",
+        "ardue",
+        "vaste"
+       ],
+       "e": [
+        "« heureux » désigne proche de content dans le contexte d’une satisfaction. Ici, cherche proche de calme pour une ambiance sans agitation.",
+        "« ardue » désigne proche de difficile pour une tâche exigeante. Ici, cherche proche de calme pour une ambiance sans agitation.",
+        "« vaste » désigne proche de grand pour une étendue importante. Ici, cherche proche de calme pour une ambiance sans agitation."
+       ],
+       "y": "Proche de calme pour une ambiance sans agitation."
+      },
+      {
+       "q": "Quel terme désigne : proche de grand pour une étendue importante ?",
+       "r": "vaste",
+       "w": [
+        "heureux",
+        "ardue",
+        "paisible"
+       ],
+       "e": [
+        "« heureux » désigne proche de content dans le contexte d’une satisfaction. Ici, cherche proche de grand pour une étendue importante.",
+        "« ardue » désigne proche de difficile pour une tâche exigeante. Ici, cherche proche de grand pour une étendue importante.",
+        "« paisible » désigne proche de calme pour une ambiance sans agitation. Ici, cherche proche de grand pour une étendue importante."
+       ],
+       "y": "Proche de grand pour une étendue importante."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih est contente de retrouver son amie ; elle en est heureuse.\nQuel terme s’applique le mieux ?",
+       "r": "heureux",
+       "w": [
+        "ardue",
+        "paisible",
+        "vaste"
+       ],
+       "e": [
+        "« ardue » concerne proche de difficile pour une tâche exigeante. Le cas décrit plutôt proche de content dans le contexte d’une satisfaction.",
+        "« paisible » concerne proche de calme pour une ambiance sans agitation. Le cas décrit plutôt proche de content dans le contexte d’une satisfaction.",
+        "« vaste » concerne proche de grand pour une étendue importante. Le cas décrit plutôt proche de content dans le contexte d’une satisfaction."
+       ],
+       "y": "Bih est contente de retrouver son amie ; elle en est heureuse. Proche de content dans le contexte d’une satisfaction."
+      },
+      {
+       "q": "La tâche difficile est qualifiée d’ardue.\nQuel terme s’applique le mieux ?",
+       "r": "ardue",
+       "w": [
+        "heureux",
+        "paisible",
+        "vaste"
+       ],
+       "e": [
+        "« heureux » concerne proche de content dans le contexte d’une satisfaction. Le cas décrit plutôt proche de difficile pour une tâche exigeante.",
+        "« paisible » concerne proche de calme pour une ambiance sans agitation. Le cas décrit plutôt proche de difficile pour une tâche exigeante.",
+        "« vaste » concerne proche de grand pour une étendue importante. Le cas décrit plutôt proche de difficile pour une tâche exigeante."
+       ],
+       "y": "La tâche difficile est qualifiée d’ardue. Proche de difficile pour une tâche exigeante."
+      },
+      {
+       "q": "Le jardin calme offre une ambiance paisible.\nQuel terme s’applique le mieux ?",
+       "r": "paisible",
+       "w": [
+        "heureux",
+        "ardue",
+        "vaste"
+       ],
+       "e": [
+        "« heureux » concerne proche de content dans le contexte d’une satisfaction. Le cas décrit plutôt proche de calme pour une ambiance sans agitation.",
+        "« ardue » concerne proche de difficile pour une tâche exigeante. Le cas décrit plutôt proche de calme pour une ambiance sans agitation.",
+        "« vaste » concerne proche de grand pour une étendue importante. Le cas décrit plutôt proche de calme pour une ambiance sans agitation."
+       ],
+       "y": "Le jardin calme offre une ambiance paisible. Proche de calme pour une ambiance sans agitation."
+      },
+      {
+       "q": "Une grande étendue est décrite comme vaste.\nQuel terme s’applique le mieux ?",
+       "r": "vaste",
+       "w": [
+        "heureux",
+        "ardue",
+        "paisible"
+       ],
+       "e": [
+        "« heureux » concerne proche de content dans le contexte d’une satisfaction. Le cas décrit plutôt proche de grand pour une étendue importante.",
+        "« ardue » concerne proche de difficile pour une tâche exigeante. Le cas décrit plutôt proche de grand pour une étendue importante.",
+        "« paisible » concerne proche de calme pour une ambiance sans agitation. Le cas décrit plutôt proche de grand pour une étendue importante."
+       ],
+       "y": "Une grande étendue est décrite comme vaste. Proche de grand pour une étendue importante."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-3-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih est contente de retrouver son amie ; elle en est heureuse.\nQuelle explication justifie le classement ?",
+       "r": "Proche de content dans le contexte d’une satisfaction.",
+       "w": [
+        "Proche de difficile pour une tâche exigeante.",
+        "Proche de calme pour une ambiance sans agitation.",
+        "Proche de grand pour une étendue importante."
+       ],
+       "e": [
+        "Cette explication correspond à « ardue ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « paisible ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vaste ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Heureux exprime ici une satisfaction, non la tristesse."
+      },
+      {
+       "q": "La tâche difficile est qualifiée d’ardue.\nQuelle explication justifie le classement ?",
+       "r": "Proche de difficile pour une tâche exigeante.",
+       "w": [
+        "Proche de content dans le contexte d’une satisfaction.",
+        "Proche de calme pour une ambiance sans agitation.",
+        "Proche de grand pour une étendue importante."
+       ],
+       "e": [
+        "Cette explication correspond à « heureux ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « paisible ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vaste ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Une tâche ardue demande un effort."
+      },
+      {
+       "q": "Le jardin calme offre une ambiance paisible.\nQuelle explication justifie le classement ?",
+       "r": "Proche de calme pour une ambiance sans agitation.",
+       "w": [
+        "Proche de content dans le contexte d’une satisfaction.",
+        "Proche de difficile pour une tâche exigeante.",
+        "Proche de grand pour une étendue importante."
+       ],
+       "e": [
+        "Cette explication correspond à « heureux ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « ardue ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vaste ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Paisible convient ici à l’absence d’agitation."
+      },
+      {
+       "q": "Une grande étendue est décrite comme vaste.\nQuelle explication justifie le classement ?",
+       "r": "Proche de grand pour une étendue importante.",
+       "w": [
+        "Proche de content dans le contexte d’une satisfaction.",
+        "Proche de difficile pour une tâche exigeante.",
+        "Proche de calme pour une ambiance sans agitation."
+       ],
+       "e": [
+        "Cette explication correspond à « heureux ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « ardue ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « paisible ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Vaste insiste ici sur une étendue importante."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-3-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "heureux",
+     "right": "Bih est contente de retrouver son amie ; elle en est heureuse."
+    },
+    {
+     "left": "ardue",
+     "right": "La tâche difficile est qualifiée d’ardue."
+    },
+    {
+     "left": "paisible",
+     "right": "Le jardin calme offre une ambiance paisible."
+    },
+    {
+     "left": "vaste",
+     "right": "Une grande étendue est décrite comme vaste."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "heureux : proche de content dans le contexte d’une satisfaction.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : heureux désigne proche de content dans le contexte d’une satisfaction. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "ardue : proche de difficile pour une tâche exigeante.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : ardue désigne proche de difficile pour une tâche exigeante. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "paisible : proche de calme pour une ambiance sans agitation.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : paisible désigne proche de calme pour une ambiance sans agitation. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "vaste : proche de grand pour une étendue importante.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : vaste désigne proche de grand pour une étendue importante. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Heureux signifie toujours triste.",
+      "truth": "false",
+      "explain": "Heureux exprime ici une satisfaction, non la tristesse."
+     },
+     {
+      "text": "Ardue signifie toujours facile.",
+      "truth": "false",
+      "explain": "Une tâche ardue demande un effort."
+     },
+     {
+      "text": "Paisible décrit obligatoirement une bagarre bruyante.",
+      "truth": "false",
+      "explain": "Paisible convient ici à l’absence d’agitation."
+     },
+     {
+      "text": "Vaste signifie étroit dans tous les contextes.",
+      "truth": "false",
+      "explain": "Vaste insiste ici sur une étendue importante."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

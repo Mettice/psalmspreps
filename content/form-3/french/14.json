@@ -1,0 +1,562 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 14,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-14",
+   "name": "L’imparfait : formation et emploi"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’imparfait présente notamment une habitude passée, une description ou une action en cours dans le passé. Pour beaucoup de verbes, on prend le radical de nous au présent sans -ons et on ajoute -ais, -ais, -ait, -ions, -iez, -aient. Être emploie le radical ét-. Certaines graphies conservent un e ou une cédille selon la voyelle suivante. Le choix du temps dépend du sens, pas seulement de la présence du mot hier.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "L’imparfait présente notamment une habitude passée, une description ou une action en cours dans le passé. Pour beaucoup de verbes, on prend le radical de nous au présent sans -ons et on ajoute -ais, -ais, -ait, -ions, -iez, -aient. Être emploie le radical ét-. Certaines graphies conservent un e ou une cédille selon la voyelle suivante. Le choix du temps dépend du sens, pas seulement de la présence du mot hier."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans un récit original, Bih évoque une habitude : chaque soir, {fr2With(3,fr2Imparfait('travailler',3))}. Pour le décor : {fr2With(2,fr2Imparfait('être',2))} calme. Ces formes ne donnent pas à elles seules une liste d’événements achevés. Elles installent une durée, un état ou une répétition selon la phrase."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Trouve le radical approprié et la personne. Vérifie ensuite l’usage : habitude, description ou action en cours. Ne remplace pas systématiquement tous les passés composés d’un récit par des imparfaits, car cela change la façon de présenter les événements."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "habitude passée",
+    "meaning": "une action répétée dans un cadre passé"
+   },
+   {
+    "word": "description passée",
+    "meaning": "la présentation d’un état ou d’un décor dans le passé"
+   },
+   {
+    "word": "radical",
+    "meaning": "la base à laquelle on ajoute les terminaisons"
+   },
+   {
+    "word": "terminaison",
+    "meaning": "la partie qui marque notamment la personne à ce temps"
+   }
+  ],
+  "examples": [
+   "Chaque soir, {fr2With(3,fr2Imparfait('travailler',3))} au même endroit.",
+   "Le lieu {fr2Imparfait('être',2)} calme dans le récit.",
+   "Pour travailler, le modèle utilise la base travaill-."
+  ],
+  "mistake": {
+   "wrong": "Une habitude passée ne peut jamais être exprimée à l’imparfait.",
+   "right": "habitude passée: une action répétée dans un cadre passé.",
+   "why": "L’imparfait convient couramment à la répétition passée."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Chaque soir, {fr2With(3,fr2Imparfait('travailler',3))} au même endroit. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Une action répétée dans un cadre passé.",
+   "L’imparfait convient couramment à la répétition passée."
+  ],
+  "answer": "habitude passée",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-14-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "habitude passée: une action répétée dans un cadre passé.",
+     "description passée: la présentation d’un état ou d’un décor dans le passé.",
+     "radical: la base à laquelle on ajoute les terminaisons.",
+     "terminaison: la partie qui marque notamment la personne à ce temps."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-14-terms"
+    }
+   },
+   {
+    "id": "cfr3-14-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Chaque soir, {fr2With(3,fr2Imparfait('travailler',3))} au même endroit.",
+     "habitude passée: une action répétée dans un cadre passé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-14-cases"
+    }
+   },
+   {
+    "id": "cfr3-14-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une habitude passée ne peut jamais être exprimée à l’imparfait.",
+     "L’imparfait convient couramment à la répétition passée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-14-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "habitude passée : une action répétée dans un cadre passé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : habitude passée désigne une action répétée dans un cadre passé. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "description passée : la présentation d’un état ou d’un décor dans le passé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : description passée désigne la présentation d’un état ou d’un décor dans le passé. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "radical : la base à laquelle on ajoute les terminaisons.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : radical désigne la base à laquelle on ajoute les terminaisons. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "terminaison : la partie qui marque notamment la personne à ce temps.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : terminaison désigne la partie qui marque notamment la personne à ce temps. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une habitude passée ne peut jamais être exprimée à l’imparfait.",
+        "truth": "false",
+        "explain": "L’imparfait convient couramment à la répétition passée."
+       },
+       {
+        "text": "Toute description passée doit obligatoirement être au futur.",
+        "truth": "false",
+        "explain": "L’imparfait peut installer le décor passé."
+       },
+       {
+        "text": "Le radical de tous les verbes à l’imparfait est toujours ét-.",
+        "truth": "false",
+        "explain": "Ét- est le radical particulier d’être, pas de tous les verbes."
+       },
+       {
+        "text": "Nous impose toujours la terminaison -ait.",
+        "truth": "false",
+        "explain": "À l’imparfait, nous prend -ions."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-14-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : une action répétée dans un cadre passé ?",
+       "r": "habitude passée",
+       "w": [
+        "description passée",
+        "radical",
+        "terminaison"
+       ],
+       "e": [
+        "« description passée » désigne la présentation d’un état ou d’un décor dans le passé. Ici, cherche une action répétée dans un cadre passé.",
+        "« radical » désigne la base à laquelle on ajoute les terminaisons. Ici, cherche une action répétée dans un cadre passé.",
+        "« terminaison » désigne la partie qui marque notamment la personne à ce temps. Ici, cherche une action répétée dans un cadre passé."
+       ],
+       "y": "Une action répétée dans un cadre passé."
+      },
+      {
+       "q": "Quel terme désigne : la présentation d’un état ou d’un décor dans le passé ?",
+       "r": "description passée",
+       "w": [
+        "habitude passée",
+        "radical",
+        "terminaison"
+       ],
+       "e": [
+        "« habitude passée » désigne une action répétée dans un cadre passé. Ici, cherche la présentation d’un état ou d’un décor dans le passé.",
+        "« radical » désigne la base à laquelle on ajoute les terminaisons. Ici, cherche la présentation d’un état ou d’un décor dans le passé.",
+        "« terminaison » désigne la partie qui marque notamment la personne à ce temps. Ici, cherche la présentation d’un état ou d’un décor dans le passé."
+       ],
+       "y": "La présentation d’un état ou d’un décor dans le passé."
+      },
+      {
+       "q": "Quel terme désigne : la base à laquelle on ajoute les terminaisons ?",
+       "r": "radical",
+       "w": [
+        "habitude passée",
+        "description passée",
+        "terminaison"
+       ],
+       "e": [
+        "« habitude passée » désigne une action répétée dans un cadre passé. Ici, cherche la base à laquelle on ajoute les terminaisons.",
+        "« description passée » désigne la présentation d’un état ou d’un décor dans le passé. Ici, cherche la base à laquelle on ajoute les terminaisons.",
+        "« terminaison » désigne la partie qui marque notamment la personne à ce temps. Ici, cherche la base à laquelle on ajoute les terminaisons."
+       ],
+       "y": "La base à laquelle on ajoute les terminaisons."
+      },
+      {
+       "q": "Quel terme désigne : la partie qui marque notamment la personne à ce temps ?",
+       "r": "terminaison",
+       "w": [
+        "habitude passée",
+        "description passée",
+        "radical"
+       ],
+       "e": [
+        "« habitude passée » désigne une action répétée dans un cadre passé. Ici, cherche la partie qui marque notamment la personne à ce temps.",
+        "« description passée » désigne la présentation d’un état ou d’un décor dans le passé. Ici, cherche la partie qui marque notamment la personne à ce temps.",
+        "« radical » désigne la base à laquelle on ajoute les terminaisons. Ici, cherche la partie qui marque notamment la personne à ce temps."
+       ],
+       "y": "La partie qui marque notamment la personne à ce temps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-14-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chaque soir, {fr2With(3,fr2Imparfait('travailler',3))} au même endroit.\nQuel terme s’applique le mieux ?",
+       "r": "habitude passée",
+       "w": [
+        "description passée",
+        "radical",
+        "terminaison"
+       ],
+       "e": [
+        "« description passée » concerne la présentation d’un état ou d’un décor dans le passé. Le cas décrit plutôt une action répétée dans un cadre passé.",
+        "« radical » concerne la base à laquelle on ajoute les terminaisons. Le cas décrit plutôt une action répétée dans un cadre passé.",
+        "« terminaison » concerne la partie qui marque notamment la personne à ce temps. Le cas décrit plutôt une action répétée dans un cadre passé."
+       ],
+       "y": "Chaque soir, {fr2With(3,fr2Imparfait('travailler',3))} au même endroit. Une action répétée dans un cadre passé."
+      },
+      {
+       "q": "Le lieu {fr2Imparfait('être',2)} calme dans le récit.\nQuel terme s’applique le mieux ?",
+       "r": "description passée",
+       "w": [
+        "habitude passée",
+        "radical",
+        "terminaison"
+       ],
+       "e": [
+        "« habitude passée » concerne une action répétée dans un cadre passé. Le cas décrit plutôt la présentation d’un état ou d’un décor dans le passé.",
+        "« radical » concerne la base à laquelle on ajoute les terminaisons. Le cas décrit plutôt la présentation d’un état ou d’un décor dans le passé.",
+        "« terminaison » concerne la partie qui marque notamment la personne à ce temps. Le cas décrit plutôt la présentation d’un état ou d’un décor dans le passé."
+       ],
+       "y": "Le lieu {fr2Imparfait('être',2)} calme dans le récit. La présentation d’un état ou d’un décor dans le passé."
+      },
+      {
+       "q": "Pour travailler, le modèle utilise la base travaill-.\nQuel terme s’applique le mieux ?",
+       "r": "radical",
+       "w": [
+        "habitude passée",
+        "description passée",
+        "terminaison"
+       ],
+       "e": [
+        "« habitude passée » concerne une action répétée dans un cadre passé. Le cas décrit plutôt la base à laquelle on ajoute les terminaisons.",
+        "« description passée » concerne la présentation d’un état ou d’un décor dans le passé. Le cas décrit plutôt la base à laquelle on ajoute les terminaisons.",
+        "« terminaison » concerne la partie qui marque notamment la personne à ce temps. Le cas décrit plutôt la base à laquelle on ajoute les terminaisons."
+       ],
+       "y": "Pour travailler, le modèle utilise la base travaill-. La base à laquelle on ajoute les terminaisons."
+      },
+      {
+       "q": "Avec nous, le modèle donne {fr2Imparfait('travailler',4)}.\nQuel terme s’applique le mieux ?",
+       "r": "terminaison",
+       "w": [
+        "habitude passée",
+        "description passée",
+        "radical"
+       ],
+       "e": [
+        "« habitude passée » concerne une action répétée dans un cadre passé. Le cas décrit plutôt la partie qui marque notamment la personne à ce temps.",
+        "« description passée » concerne la présentation d’un état ou d’un décor dans le passé. Le cas décrit plutôt la partie qui marque notamment la personne à ce temps.",
+        "« radical » concerne la base à laquelle on ajoute les terminaisons. Le cas décrit plutôt la partie qui marque notamment la personne à ce temps."
+       ],
+       "y": "Avec nous, le modèle donne {fr2Imparfait('travailler',4)}. La partie qui marque notamment la personne à ce temps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-14-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "travailler",
+      "finir",
+      "être",
+      "manger"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "tense": "imparfait"
+   },
+   "prompt": "Conjugue « {v} » à {tense}, avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2Imparfait(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,(p+1)%8))}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,(p+4)%8))}",
+     "misconception": "personne2"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "infinitif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette terminaison correspond à un autre sujet. Accorde le verbe avec {fr2Pronoun(p)}."
+    },
+    {
+     "id": "personne2",
+     "explain": "Tu as changé la personne grammaticale ; conserve le sujet demandé."
+    },
+    {
+     "id": "infinitif",
+     "explain": "L’infinitif nomme le verbe, mais ici il faut le conjuguer au temps demandé."
+    }
+   ],
+   "solution": [
+    "Repère le sujet : {fr2Pronoun(p)}.",
+    "Choisis la forme de {v} à {tense} pour ce sujet.",
+    "La forme complète est {answer}."
+   ],
+   "where": [
+    "fr2Imparfait(v,p) != fr2Imparfait(v,(p+1)%8)",
+    "fr2Imparfait(v,p) != fr2Imparfait(v,(p+4)%8)",
+    "fr2Imparfait(v,(p+1)%8) != fr2Imparfait(v,(p+4)%8)"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-14-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "habitude passée",
+     "right": "Chaque soir, {fr2With(3,fr2Imparfait('travailler',3))} au même endroit."
+    },
+    {
+     "left": "description passée",
+     "right": "Le lieu {fr2Imparfait('être',2)} calme dans le récit."
+    },
+    {
+     "left": "radical",
+     "right": "Pour travailler, le modèle utilise la base travaill-."
+    },
+    {
+     "left": "terminaison",
+     "right": "Avec nous, le modèle donne {fr2Imparfait('travailler',4)}."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-14-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "habitude passée : une action répétée dans un cadre passé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : habitude passée désigne une action répétée dans un cadre passé. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "description passée : la présentation d’un état ou d’un décor dans le passé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : description passée désigne la présentation d’un état ou d’un décor dans le passé. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "radical : la base à laquelle on ajoute les terminaisons.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : radical désigne la base à laquelle on ajoute les terminaisons. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "terminaison : la partie qui marque notamment la personne à ce temps.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : terminaison désigne la partie qui marque notamment la personne à ce temps. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une habitude passée ne peut jamais être exprimée à l’imparfait.",
+      "truth": "false",
+      "explain": "L’imparfait convient couramment à la répétition passée."
+     },
+     {
+      "text": "Toute description passée doit obligatoirement être au futur.",
+      "truth": "false",
+      "explain": "L’imparfait peut installer le décor passé."
+     },
+     {
+      "text": "Le radical de tous les verbes à l’imparfait est toujours ét-.",
+      "truth": "false",
+      "explain": "Ét- est le radical particulier d’être, pas de tous les verbes."
+     },
+     {
+      "text": "Nous impose toujours la terminaison -ait.",
+      "truth": "false",
+      "explain": "À l’imparfait, nous prend -ions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

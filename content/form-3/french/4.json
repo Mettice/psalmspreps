@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-4",
+   "name": "La ponctuation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La ponctuation organise l’écrit et aide à comprendre les relations entre les idées. Le point termine une phrase déclarative ; le point d’interrogation marque une question directe ; les deux-points peuvent annoncer une explication ou une liste ; la virgule sépare notamment les éléments d’une énumération. Une virgule ne doit pas séparer au hasard le sujet de son verbe. Les signes ne sont pas seulement des pauses respiratoires : ils contribuent à la structure et au sens.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "La ponctuation organise l’écrit et aide à comprendre les relations entre les idées. Le point termine une phrase déclarative ; le point d’interrogation marque une question directe ; les deux-points peuvent annoncer une explication ou une liste ; la virgule sépare notamment les éléments d’une énumération. Une virgule ne doit pas séparer au hasard le sujet de son verbe. Les signes ne sont pas seulement des pauses respiratoires : ils contribuent à la structure et au sens."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Texte original : Bih prépare son sac : cahier, livre et règle. Le sac est prêt. Ayuk demande : « Où est la règle ? » La liste suit les deux-points ; les éléments sont séparés ; la question directe porte le signe qui convient. Une ponctuation différente pourrait brouiller qui parle ou ce qui est demandé."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère les limites des phrases, les listes et les paroles rapportées. Choisis le signe selon la fonction. Relis pour vérifier les majuscules et l’espacement français avant les signes doubles. Ne place pas un point d’interrogation uniquement parce qu’un mot comme pourquoi apparaît dans une interrogation indirecte."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "point",
+    "meaning": "le signe terminant une phrase déclarative ordinaire"
+   },
+   {
+    "word": "point d’interrogation",
+    "meaning": "le signe d’une question directe"
+   },
+   {
+    "word": "deux-points",
+    "meaning": "un signe pouvant annoncer une liste ou une explication"
+   },
+   {
+    "word": "virgule",
+    "meaning": "un signe séparant notamment des éléments d’une énumération"
+   }
+  ],
+  "examples": [
+   "Le sac est prêt.",
+   "Où est la règle ?",
+   "Voici le matériel : livre, cahier et règle."
+  ],
+  "mistake": {
+   "wrong": "Une phrase déclarative doit toujours finir par une virgule isolée.",
+   "right": "point: le signe terminant une phrase déclarative ordinaire.",
+   "why": "Le point marque ici la fin de la phrase."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le sac est prêt. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le signe terminant une phrase déclarative ordinaire.",
+   "Le point marque ici la fin de la phrase."
+  ],
+  "answer": "point",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-4-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "point: le signe terminant une phrase déclarative ordinaire.",
+     "point d’interrogation: le signe d’une question directe.",
+     "deux-points: un signe pouvant annoncer une liste ou une explication.",
+     "virgule: un signe séparant notamment des éléments d’une énumération."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-4-terms"
+    }
+   },
+   {
+    "id": "cfr3-4-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le sac est prêt.",
+     "point: le signe terminant une phrase déclarative ordinaire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-4-cases"
+    }
+   },
+   {
+    "id": "cfr3-4-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une phrase déclarative doit toujours finir par une virgule isolée.",
+     "Le point marque ici la fin de la phrase."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "point : le signe terminant une phrase déclarative ordinaire.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : point désigne le signe terminant une phrase déclarative ordinaire. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "point d’interrogation : le signe d’une question directe.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : point d’interrogation désigne le signe d’une question directe. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "deux-points : un signe pouvant annoncer une liste ou une explication.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : deux-points désigne un signe pouvant annoncer une liste ou une explication. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "virgule : un signe séparant notamment des éléments d’une énumération.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : virgule désigne un signe séparant notamment des éléments d’une énumération. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une phrase déclarative doit toujours finir par une virgule isolée.",
+        "truth": "false",
+        "explain": "Le point marque ici la fin de la phrase."
+       },
+       {
+        "text": "Toute phrase contenant où est une question directe.",
+        "truth": "false",
+        "explain": "Le sens et la structure décident ; je sais où elle est n’est pas une question directe."
+       },
+       {
+        "text": "Les deux-points suppriment le besoin d’une liste annoncée.",
+        "truth": "false",
+        "explain": "Ils annoncent ici ce que la suite précise."
+       },
+       {
+        "text": "On sépare toujours le sujet de son verbe par une virgule.",
+        "truth": "false",
+        "explain": "Ne coupe pas arbitrairement le lien entre sujet et verbe."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le signe terminant une phrase déclarative ordinaire ?",
+       "r": "point",
+       "w": [
+        "point d’interrogation",
+        "deux-points",
+        "virgule"
+       ],
+       "e": [
+        "« point d’interrogation » désigne le signe d’une question directe. Ici, cherche le signe terminant une phrase déclarative ordinaire.",
+        "« deux-points » désigne un signe pouvant annoncer une liste ou une explication. Ici, cherche le signe terminant une phrase déclarative ordinaire.",
+        "« virgule » désigne un signe séparant notamment des éléments d’une énumération. Ici, cherche le signe terminant une phrase déclarative ordinaire."
+       ],
+       "y": "Le signe terminant une phrase déclarative ordinaire."
+      },
+      {
+       "q": "Quel terme désigne : le signe d’une question directe ?",
+       "r": "point d’interrogation",
+       "w": [
+        "point",
+        "deux-points",
+        "virgule"
+       ],
+       "e": [
+        "« point » désigne le signe terminant une phrase déclarative ordinaire. Ici, cherche le signe d’une question directe.",
+        "« deux-points » désigne un signe pouvant annoncer une liste ou une explication. Ici, cherche le signe d’une question directe.",
+        "« virgule » désigne un signe séparant notamment des éléments d’une énumération. Ici, cherche le signe d’une question directe."
+       ],
+       "y": "Le signe d’une question directe."
+      },
+      {
+       "q": "Quel terme désigne : un signe pouvant annoncer une liste ou une explication ?",
+       "r": "deux-points",
+       "w": [
+        "point",
+        "point d’interrogation",
+        "virgule"
+       ],
+       "e": [
+        "« point » désigne le signe terminant une phrase déclarative ordinaire. Ici, cherche un signe pouvant annoncer une liste ou une explication.",
+        "« point d’interrogation » désigne le signe d’une question directe. Ici, cherche un signe pouvant annoncer une liste ou une explication.",
+        "« virgule » désigne un signe séparant notamment des éléments d’une énumération. Ici, cherche un signe pouvant annoncer une liste ou une explication."
+       ],
+       "y": "Un signe pouvant annoncer une liste ou une explication."
+      },
+      {
+       "q": "Quel terme désigne : un signe séparant notamment des éléments d’une énumération ?",
+       "r": "virgule",
+       "w": [
+        "point",
+        "point d’interrogation",
+        "deux-points"
+       ],
+       "e": [
+        "« point » désigne le signe terminant une phrase déclarative ordinaire. Ici, cherche un signe séparant notamment des éléments d’une énumération.",
+        "« point d’interrogation » désigne le signe d’une question directe. Ici, cherche un signe séparant notamment des éléments d’une énumération.",
+        "« deux-points » désigne un signe pouvant annoncer une liste ou une explication. Ici, cherche un signe séparant notamment des éléments d’une énumération."
+       ],
+       "y": "Un signe séparant notamment des éléments d’une énumération."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le sac est prêt.\nQuel terme s’applique le mieux ?",
+       "r": "point",
+       "w": [
+        "point d’interrogation",
+        "deux-points",
+        "virgule"
+       ],
+       "e": [
+        "« point d’interrogation » concerne le signe d’une question directe. Le cas décrit plutôt le signe terminant une phrase déclarative ordinaire.",
+        "« deux-points » concerne un signe pouvant annoncer une liste ou une explication. Le cas décrit plutôt le signe terminant une phrase déclarative ordinaire.",
+        "« virgule » concerne un signe séparant notamment des éléments d’une énumération. Le cas décrit plutôt le signe terminant une phrase déclarative ordinaire."
+       ],
+       "y": "Le sac est prêt. Le signe terminant une phrase déclarative ordinaire."
+      },
+      {
+       "q": "Où est la règle ?\nQuel terme s’applique le mieux ?",
+       "r": "point d’interrogation",
+       "w": [
+        "point",
+        "deux-points",
+        "virgule"
+       ],
+       "e": [
+        "« point » concerne le signe terminant une phrase déclarative ordinaire. Le cas décrit plutôt le signe d’une question directe.",
+        "« deux-points » concerne un signe pouvant annoncer une liste ou une explication. Le cas décrit plutôt le signe d’une question directe.",
+        "« virgule » concerne un signe séparant notamment des éléments d’une énumération. Le cas décrit plutôt le signe d’une question directe."
+       ],
+       "y": "Où est la règle ? Le signe d’une question directe."
+      },
+      {
+       "q": "Voici le matériel : livre, cahier et règle.\nQuel terme s’applique le mieux ?",
+       "r": "deux-points",
+       "w": [
+        "point",
+        "point d’interrogation",
+        "virgule"
+       ],
+       "e": [
+        "« point » concerne le signe terminant une phrase déclarative ordinaire. Le cas décrit plutôt un signe pouvant annoncer une liste ou une explication.",
+        "« point d’interrogation » concerne le signe d’une question directe. Le cas décrit plutôt un signe pouvant annoncer une liste ou une explication.",
+        "« virgule » concerne un signe séparant notamment des éléments d’une énumération. Le cas décrit plutôt un signe pouvant annoncer une liste ou une explication."
+       ],
+       "y": "Voici le matériel : livre, cahier et règle. Un signe pouvant annoncer une liste ou une explication."
+      },
+      {
+       "q": "Le sac contient un livre, un cahier et une règle.\nQuel terme s’applique le mieux ?",
+       "r": "virgule",
+       "w": [
+        "point",
+        "point d’interrogation",
+        "deux-points"
+       ],
+       "e": [
+        "« point » concerne le signe terminant une phrase déclarative ordinaire. Le cas décrit plutôt un signe séparant notamment des éléments d’une énumération.",
+        "« point d’interrogation » concerne le signe d’une question directe. Le cas décrit plutôt un signe séparant notamment des éléments d’une énumération.",
+        "« deux-points » concerne un signe pouvant annoncer une liste ou une explication. Le cas décrit plutôt un signe séparant notamment des éléments d’une énumération."
+       ],
+       "y": "Le sac contient un livre, un cahier et une règle. Un signe séparant notamment des éléments d’une énumération."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-4-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le sac est prêt.\nQuelle explication justifie le classement ?",
+       "r": "Le signe terminant une phrase déclarative ordinaire.",
+       "w": [
+        "Le signe d’une question directe.",
+        "Un signe pouvant annoncer une liste ou une explication.",
+        "Un signe séparant notamment des éléments d’une énumération."
+       ],
+       "e": [
+        "Cette explication correspond à « point d’interrogation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « deux-points ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « virgule ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le point marque ici la fin de la phrase."
+      },
+      {
+       "q": "Où est la règle ?\nQuelle explication justifie le classement ?",
+       "r": "Le signe d’une question directe.",
+       "w": [
+        "Le signe terminant une phrase déclarative ordinaire.",
+        "Un signe pouvant annoncer une liste ou une explication.",
+        "Un signe séparant notamment des éléments d’une énumération."
+       ],
+       "e": [
+        "Cette explication correspond à « point ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « deux-points ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « virgule ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le sens et la structure décident ; je sais où elle est n’est pas une question directe."
+      },
+      {
+       "q": "Voici le matériel : livre, cahier et règle.\nQuelle explication justifie le classement ?",
+       "r": "Un signe pouvant annoncer une liste ou une explication.",
+       "w": [
+        "Le signe terminant une phrase déclarative ordinaire.",
+        "Le signe d’une question directe.",
+        "Un signe séparant notamment des éléments d’une énumération."
+       ],
+       "e": [
+        "Cette explication correspond à « point ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « point d’interrogation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « virgule ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Ils annoncent ici ce que la suite précise."
+      },
+      {
+       "q": "Le sac contient un livre, un cahier et une règle.\nQuelle explication justifie le classement ?",
+       "r": "Un signe séparant notamment des éléments d’une énumération.",
+       "w": [
+        "Le signe terminant une phrase déclarative ordinaire.",
+        "Le signe d’une question directe.",
+        "Un signe pouvant annoncer une liste ou une explication."
+       ],
+       "e": [
+        "Cette explication correspond à « point ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « point d’interrogation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « deux-points ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Ne coupe pas arbitrairement le lien entre sujet et verbe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-4-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "point",
+     "right": "Le sac est prêt."
+    },
+    {
+     "left": "point d’interrogation",
+     "right": "Où est la règle ?"
+    },
+    {
+     "left": "deux-points",
+     "right": "Voici le matériel : livre, cahier et règle."
+    },
+    {
+     "left": "virgule",
+     "right": "Le sac contient un livre, un cahier et une règle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "point : le signe terminant une phrase déclarative ordinaire.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : point désigne le signe terminant une phrase déclarative ordinaire. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "point d’interrogation : le signe d’une question directe.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : point d’interrogation désigne le signe d’une question directe. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "deux-points : un signe pouvant annoncer une liste ou une explication.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : deux-points désigne un signe pouvant annoncer une liste ou une explication. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "virgule : un signe séparant notamment des éléments d’une énumération.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : virgule désigne un signe séparant notamment des éléments d’une énumération. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une phrase déclarative doit toujours finir par une virgule isolée.",
+      "truth": "false",
+      "explain": "Le point marque ici la fin de la phrase."
+     },
+     {
+      "text": "Toute phrase contenant où est une question directe.",
+      "truth": "false",
+      "explain": "Le sens et la structure décident ; je sais où elle est n’est pas une question directe."
+     },
+     {
+      "text": "Les deux-points suppriment le besoin d’une liste annoncée.",
+      "truth": "false",
+      "explain": "Ils annoncent ici ce que la suite précise."
+     },
+     {
+      "text": "On sépare toujours le sujet de son verbe par une virgule.",
+      "truth": "false",
+      "explain": "Ne coupe pas arbitrairement le lien entre sujet et verbe."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

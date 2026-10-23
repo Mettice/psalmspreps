@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-1",
+   "name": "L’adjectif qualificatif : emploi"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’adjectif qualificatif exprime une caractéristique d’un nom ou d’un pronom. Épithète, il accompagne directement le nom ; attribut du sujet, il lui est relié par un verbe comme être. Il reçoit généralement le genre et le nombre du nom auquel il se rapporte. Sa place peut modifier le sens : un ancien professeur n’est pas nécessairement un professeur âgé. Observe donc la relation grammaticale et le contexte, pas seulement la position du mot.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "L’adjectif qualificatif exprime une caractéristique d’un nom ou d’un pronom. Épithète, il accompagne directement le nom ; attribut du sujet, il lui est relié par un verbe comme être. Il reçoit généralement le genre et le nombre du nom auquel il se rapporte. Sa place peut modifier le sens : un ancien professeur n’est pas nécessairement un professeur âgé. Observe donc la relation grammaticale et le contexte, pas seulement la position du mot."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "À Buea, Bih décrit une cour calme. Calme est épithète de cour. Dans la cour est calme, le même adjectif est attribut du sujet. Dans des cours propres, le nom pluriel commande {fr2Adj('propre','f',true)}. L’adjectif ne s’accorde pas avec le nom le plus proche par hasard : il faut retrouver celui qu’il qualifie."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Trouve d’abord le nom qualifié, puis son genre et son nombre. Vérifie si l’adjectif accompagne ce nom ou passe par un verbe attributif. Certains adjectifs gardent la même forme au masculin et au féminin ; cela ne signifie pas qu’ils n’ont aucune relation d’accord."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "épithète",
+    "meaning": "un adjectif directement rattaché au nom"
+   },
+   {
+    "word": "attribut du sujet",
+    "meaning": "un adjectif relié au sujet par un verbe attributif"
+   },
+   {
+    "word": "accord",
+    "meaning": "la relation de genre et de nombre entre le nom et l’adjectif"
+   },
+   {
+    "word": "effet de place",
+    "meaning": "une différence de sens liée à la position de certains adjectifs"
+   }
+  ],
+  "examples": [
+   "Dans une cour calme, calme accompagne directement cour.",
+   "Dans la cour est calme, calme caractérise le sujet à travers est.",
+   "Le groupe des cours {fr2Adj('propre','f',true)} porte la marque du pluriel."
+  ],
+  "mistake": {
+   "wrong": "Tout adjectif après un nom est obligatoirement attribut.",
+   "right": "épithète: un adjectif directement rattaché au nom.",
+   "why": "L’attribut passe par un verbe attributif ; la seule position ne suffit pas."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans une cour calme, calme accompagne directement cour. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un adjectif directement rattaché au nom.",
+   "L’attribut passe par un verbe attributif ; la seule position ne suffit pas."
+  ],
+  "answer": "épithète",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-1-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "épithète: un adjectif directement rattaché au nom.",
+     "attribut du sujet: un adjectif relié au sujet par un verbe attributif.",
+     "accord: la relation de genre et de nombre entre le nom et l’adjectif.",
+     "effet de place: une différence de sens liée à la position de certains adjectifs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-1-terms"
+    }
+   },
+   {
+    "id": "cfr3-1-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Dans une cour calme, calme accompagne directement cour.",
+     "épithète: un adjectif directement rattaché au nom."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-1-cases"
+    }
+   },
+   {
+    "id": "cfr3-1-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Tout adjectif après un nom est obligatoirement attribut.",
+     "L’attribut passe par un verbe attributif ; la seule position ne suffit pas."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-1-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "épithète : un adjectif directement rattaché au nom.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : épithète désigne un adjectif directement rattaché au nom. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "attribut du sujet : un adjectif relié au sujet par un verbe attributif.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : attribut du sujet désigne un adjectif relié au sujet par un verbe attributif. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "accord : la relation de genre et de nombre entre le nom et l’adjectif.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : accord désigne la relation de genre et de nombre entre le nom et l’adjectif. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "effet de place : une différence de sens liée à la position de certains adjectifs.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : effet de place désigne une différence de sens liée à la position de certains adjectifs. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout adjectif après un nom est obligatoirement attribut.",
+        "truth": "false",
+        "explain": "L’attribut passe par un verbe attributif ; la seule position ne suffit pas."
+       },
+       {
+        "text": "Un attribut du sujet qualifie nécessairement un complément sans rapport.",
+        "truth": "false",
+        "explain": "Retrouve le sujet auquel le verbe relie la qualité."
+       },
+       {
+        "text": "L’adjectif reçoit son nombre du mot placé le plus loin.",
+        "truth": "false",
+        "explain": "Il reçoit l’accord du nom qu’il qualifie."
+       },
+       {
+        "text": "Ancien devant professeur signifie toujours très âgé.",
+        "truth": "false",
+        "explain": "Ici ancien signifie qui exerçait auparavant ; le contexte décide du sens."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-1-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un adjectif directement rattaché au nom ?",
+       "r": "épithète",
+       "w": [
+        "attribut du sujet",
+        "accord",
+        "effet de place"
+       ],
+       "e": [
+        "« attribut du sujet » désigne un adjectif relié au sujet par un verbe attributif. Ici, cherche un adjectif directement rattaché au nom.",
+        "« accord » désigne la relation de genre et de nombre entre le nom et l’adjectif. Ici, cherche un adjectif directement rattaché au nom.",
+        "« effet de place » désigne une différence de sens liée à la position de certains adjectifs. Ici, cherche un adjectif directement rattaché au nom."
+       ],
+       "y": "Un adjectif directement rattaché au nom."
+      },
+      {
+       "q": "Quel terme désigne : un adjectif relié au sujet par un verbe attributif ?",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète",
+        "accord",
+        "effet de place"
+       ],
+       "e": [
+        "« épithète » désigne un adjectif directement rattaché au nom. Ici, cherche un adjectif relié au sujet par un verbe attributif.",
+        "« accord » désigne la relation de genre et de nombre entre le nom et l’adjectif. Ici, cherche un adjectif relié au sujet par un verbe attributif.",
+        "« effet de place » désigne une différence de sens liée à la position de certains adjectifs. Ici, cherche un adjectif relié au sujet par un verbe attributif."
+       ],
+       "y": "Un adjectif relié au sujet par un verbe attributif."
+      },
+      {
+       "q": "Quel terme désigne : la relation de genre et de nombre entre le nom et l’adjectif ?",
+       "r": "accord",
+       "w": [
+        "épithète",
+        "attribut du sujet",
+        "effet de place"
+       ],
+       "e": [
+        "« épithète » désigne un adjectif directement rattaché au nom. Ici, cherche la relation de genre et de nombre entre le nom et l’adjectif.",
+        "« attribut du sujet » désigne un adjectif relié au sujet par un verbe attributif. Ici, cherche la relation de genre et de nombre entre le nom et l’adjectif.",
+        "« effet de place » désigne une différence de sens liée à la position de certains adjectifs. Ici, cherche la relation de genre et de nombre entre le nom et l’adjectif."
+       ],
+       "y": "La relation de genre et de nombre entre le nom et l’adjectif."
+      },
+      {
+       "q": "Quel terme désigne : une différence de sens liée à la position de certains adjectifs ?",
+       "r": "effet de place",
+       "w": [
+        "épithète",
+        "attribut du sujet",
+        "accord"
+       ],
+       "e": [
+        "« épithète » désigne un adjectif directement rattaché au nom. Ici, cherche une différence de sens liée à la position de certains adjectifs.",
+        "« attribut du sujet » désigne un adjectif relié au sujet par un verbe attributif. Ici, cherche une différence de sens liée à la position de certains adjectifs.",
+        "« accord » désigne la relation de genre et de nombre entre le nom et l’adjectif. Ici, cherche une différence de sens liée à la position de certains adjectifs."
+       ],
+       "y": "Une différence de sens liée à la position de certains adjectifs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-1-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans une cour calme, calme accompagne directement cour.\nQuel terme s’applique le mieux ?",
+       "r": "épithète",
+       "w": [
+        "attribut du sujet",
+        "accord",
+        "effet de place"
+       ],
+       "e": [
+        "« attribut du sujet » concerne un adjectif relié au sujet par un verbe attributif. Le cas décrit plutôt un adjectif directement rattaché au nom.",
+        "« accord » concerne la relation de genre et de nombre entre le nom et l’adjectif. Le cas décrit plutôt un adjectif directement rattaché au nom.",
+        "« effet de place » concerne une différence de sens liée à la position de certains adjectifs. Le cas décrit plutôt un adjectif directement rattaché au nom."
+       ],
+       "y": "Dans une cour calme, calme accompagne directement cour. Un adjectif directement rattaché au nom."
+      },
+      {
+       "q": "Dans la cour est calme, calme caractérise le sujet à travers est.\nQuel terme s’applique le mieux ?",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète",
+        "accord",
+        "effet de place"
+       ],
+       "e": [
+        "« épithète » concerne un adjectif directement rattaché au nom. Le cas décrit plutôt un adjectif relié au sujet par un verbe attributif.",
+        "« accord » concerne la relation de genre et de nombre entre le nom et l’adjectif. Le cas décrit plutôt un adjectif relié au sujet par un verbe attributif.",
+        "« effet de place » concerne une différence de sens liée à la position de certains adjectifs. Le cas décrit plutôt un adjectif relié au sujet par un verbe attributif."
+       ],
+       "y": "Dans la cour est calme, calme caractérise le sujet à travers est. Un adjectif relié au sujet par un verbe attributif."
+      },
+      {
+       "q": "Le groupe des cours {fr2Adj('propre','f',true)} porte la marque du pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "accord",
+       "w": [
+        "épithète",
+        "attribut du sujet",
+        "effet de place"
+       ],
+       "e": [
+        "« épithète » concerne un adjectif directement rattaché au nom. Le cas décrit plutôt la relation de genre et de nombre entre le nom et l’adjectif.",
+        "« attribut du sujet » concerne un adjectif relié au sujet par un verbe attributif. Le cas décrit plutôt la relation de genre et de nombre entre le nom et l’adjectif.",
+        "« effet de place » concerne une différence de sens liée à la position de certains adjectifs. Le cas décrit plutôt la relation de genre et de nombre entre le nom et l’adjectif."
+       ],
+       "y": "Le groupe des cours {fr2Adj('propre','f',true)} porte la marque du pluriel. La relation de genre et de nombre entre le nom et l’adjectif."
+      },
+      {
+       "q": "Un ancien professeur a cessé d’exercer cette fonction.\nQuel terme s’applique le mieux ?",
+       "r": "effet de place",
+       "w": [
+        "épithète",
+        "attribut du sujet",
+        "accord"
+       ],
+       "e": [
+        "« épithète » concerne un adjectif directement rattaché au nom. Le cas décrit plutôt une différence de sens liée à la position de certains adjectifs.",
+        "« attribut du sujet » concerne un adjectif relié au sujet par un verbe attributif. Le cas décrit plutôt une différence de sens liée à la position de certains adjectifs.",
+        "« accord » concerne la relation de genre et de nombre entre le nom et l’adjectif. Le cas décrit plutôt une différence de sens liée à la position de certains adjectifs."
+       ],
+       "y": "Un ancien professeur a cessé d’exercer cette fonction. Une différence de sens liée à la position de certains adjectifs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-1-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans une cour calme, calme accompagne directement cour.\nQuelle explication justifie le classement ?",
+       "r": "Un adjectif directement rattaché au nom.",
+       "w": [
+        "Un adjectif relié au sujet par un verbe attributif.",
+        "La relation de genre et de nombre entre le nom et l’adjectif.",
+        "Une différence de sens liée à la position de certains adjectifs."
+       ],
+       "e": [
+        "Cette explication correspond à « attribut du sujet ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « accord ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « effet de place ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’attribut passe par un verbe attributif ; la seule position ne suffit pas."
+      },
+      {
+       "q": "Dans la cour est calme, calme caractérise le sujet à travers est.\nQuelle explication justifie le classement ?",
+       "r": "Un adjectif relié au sujet par un verbe attributif.",
+       "w": [
+        "Un adjectif directement rattaché au nom.",
+        "La relation de genre et de nombre entre le nom et l’adjectif.",
+        "Une différence de sens liée à la position de certains adjectifs."
+       ],
+       "e": [
+        "Cette explication correspond à « épithète ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « accord ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « effet de place ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Retrouve le sujet auquel le verbe relie la qualité."
+      },
+      {
+       "q": "Le groupe des cours {fr2Adj('propre','f',true)} porte la marque du pluriel.\nQuelle explication justifie le classement ?",
+       "r": "La relation de genre et de nombre entre le nom et l’adjectif.",
+       "w": [
+        "Un adjectif directement rattaché au nom.",
+        "Un adjectif relié au sujet par un verbe attributif.",
+        "Une différence de sens liée à la position de certains adjectifs."
+       ],
+       "e": [
+        "Cette explication correspond à « épithète ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « attribut du sujet ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « effet de place ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Il reçoit l’accord du nom qu’il qualifie."
+      },
+      {
+       "q": "Un ancien professeur a cessé d’exercer cette fonction.\nQuelle explication justifie le classement ?",
+       "r": "Une différence de sens liée à la position de certains adjectifs.",
+       "w": [
+        "Un adjectif directement rattaché au nom.",
+        "Un adjectif relié au sujet par un verbe attributif.",
+        "La relation de genre et de nombre entre le nom et l’adjectif."
+       ],
+       "e": [
+        "Cette explication correspond à « épithète ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « attribut du sujet ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « accord ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Ici ancien signifie qui exerçait auparavant ; le contexte décide du sens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-1-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "épithète",
+     "right": "Dans une cour calme, calme accompagne directement cour."
+    },
+    {
+     "left": "attribut du sujet",
+     "right": "Dans la cour est calme, calme caractérise le sujet à travers est."
+    },
+    {
+     "left": "accord",
+     "right": "Le groupe des cours {fr2Adj('propre','f',true)} porte la marque du pluriel."
+    },
+    {
+     "left": "effet de place",
+     "right": "Un ancien professeur a cessé d’exercer cette fonction."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-1-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "épithète : un adjectif directement rattaché au nom.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : épithète désigne un adjectif directement rattaché au nom. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "attribut du sujet : un adjectif relié au sujet par un verbe attributif.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : attribut du sujet désigne un adjectif relié au sujet par un verbe attributif. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "accord : la relation de genre et de nombre entre le nom et l’adjectif.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : accord désigne la relation de genre et de nombre entre le nom et l’adjectif. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "effet de place : une différence de sens liée à la position de certains adjectifs.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : effet de place désigne une différence de sens liée à la position de certains adjectifs. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout adjectif après un nom est obligatoirement attribut.",
+      "truth": "false",
+      "explain": "L’attribut passe par un verbe attributif ; la seule position ne suffit pas."
+     },
+     {
+      "text": "Un attribut du sujet qualifie nécessairement un complément sans rapport.",
+      "truth": "false",
+      "explain": "Retrouve le sujet auquel le verbe relie la qualité."
+     },
+     {
+      "text": "L’adjectif reçoit son nombre du mot placé le plus loin.",
+      "truth": "false",
+      "explain": "Il reçoit l’accord du nom qu’il qualifie."
+     },
+     {
+      "text": "Ancien devant professeur signifie toujours très âgé.",
+      "truth": "false",
+      "explain": "Ici ancien signifie qui exerçait auparavant ; le contexte décide du sens."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

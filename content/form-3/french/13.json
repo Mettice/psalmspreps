@@ -1,0 +1,562 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 13,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-13",
+   "name": "L’accord de l’adjectif dans le groupe nominal"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le nom noyau donne son genre et son nombre à l’adjectif qui le qualifie. Le déterminant aide à repérer le nombre, mais il faut connaître le genre du nom. Beaucoup d’adjectifs ajoutent -e au féminin et -s au pluriel ; d’autres changent davantage ou gardent la même forme. La règle ne consiste donc pas à ajouter automatiquement toutes les lettres possibles. Vérifie la forme propre à l’adjectif.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Le nom noyau donne son genre et son nombre à l’adjectif qui le qualifie. Le déterminant aide à repérer le nombre, mais il faut connaître le genre du nom. Beaucoup d’adjectifs ajoutent -e au féminin et -s au pluriel ; d’autres changent davantage ou gardent la même forme. La règle ne consiste donc pas à ajouter automatiquement toutes les lettres possibles. Vérifie la forme propre à l’adjectif."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Compare une cour {fr2Adj('propre','f',false)} et des cours {fr2Adj('propre','f',true)} ; un arbre {fr2Adj('grand','m',false)} et des maisons {fr2Adj('grand','f',true)}. Propre possède déjà un e final au masculin. Ajouter un autre e pour fabriquer le féminin serait une application aveugle de la règle."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Identifie nom, genre et nombre, puis choisis la forme de l’adjectif. Relis tout le groupe nominal. Si l’adjectif ne change pas à l’écrit pour un trait donné, conserve quand même l’analyse grammaticale qui justifie l’accord."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "nom noyau",
+    "meaning": "le nom qui commande l’accord dans le groupe étudié"
+   },
+   {
+    "word": "genre",
+    "meaning": "la catégorie masculin ou féminin du nom"
+   },
+   {
+    "word": "nombre",
+    "meaning": "la distinction entre singulier et pluriel"
+   },
+   {
+    "word": "forme particulière",
+    "meaning": "une réalisation d’accord propre à un adjectif"
+   }
+  ],
+  "examples": [
+   "Dans des cours propres, cours commande le pluriel.",
+   "Cour est un nom féminin dans ce groupe.",
+   "Des cours désigne ici un groupe pluriel."
+  ],
+  "mistake": {
+   "wrong": "L’adjectif choisit son nombre au hasard.",
+   "right": "nom noyau: le nom qui commande l’accord dans le groupe étudié.",
+   "why": "Il dépend du nom qu’il qualifie."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans des cours propres, cours commande le pluriel. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le nom qui commande l’accord dans le groupe étudié.",
+   "Il dépend du nom qu’il qualifie."
+  ],
+  "answer": "nom noyau",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-13-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "nom noyau: le nom qui commande l’accord dans le groupe étudié.",
+     "genre: la catégorie masculin ou féminin du nom.",
+     "nombre: la distinction entre singulier et pluriel.",
+     "forme particulière: une réalisation d’accord propre à un adjectif."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-13-terms"
+    }
+   },
+   {
+    "id": "cfr3-13-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Dans des cours propres, cours commande le pluriel.",
+     "nom noyau: le nom qui commande l’accord dans le groupe étudié."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-13-cases"
+    }
+   },
+   {
+    "id": "cfr3-13-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "L’adjectif choisit son nombre au hasard.",
+     "Il dépend du nom qu’il qualifie."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-13-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "nom noyau : le nom qui commande l’accord dans le groupe étudié.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : nom noyau désigne le nom qui commande l’accord dans le groupe étudié. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "genre : la catégorie masculin ou féminin du nom.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : genre désigne la catégorie masculin ou féminin du nom. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "nombre : la distinction entre singulier et pluriel.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : nombre désigne la distinction entre singulier et pluriel. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "forme particulière : une réalisation d’accord propre à un adjectif.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : forme particulière désigne une réalisation d’accord propre à un adjectif. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’adjectif choisit son nombre au hasard.",
+        "truth": "false",
+        "explain": "Il dépend du nom qu’il qualifie."
+       },
+       {
+        "text": "La terminaison visible d’un seul mot suffit à connaître tous les genres.",
+        "truth": "false",
+        "explain": "Le genre lexical doit être vérifié lorsqu’il est inconnu."
+       },
+       {
+        "text": "Des commande obligatoirement le singulier.",
+        "truth": "false",
+        "explain": "Des introduit ici un nom pluriel."
+       },
+       {
+        "text": "On ajoute toujours un e supplémentaire à propre au féminin.",
+        "truth": "false",
+        "explain": "Propre possède déjà cette terminaison au masculin et au féminin."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-13-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le nom qui commande l’accord dans le groupe étudié ?",
+       "r": "nom noyau",
+       "w": [
+        "genre",
+        "nombre",
+        "forme particulière"
+       ],
+       "e": [
+        "« genre » désigne la catégorie masculin ou féminin du nom. Ici, cherche le nom qui commande l’accord dans le groupe étudié.",
+        "« nombre » désigne la distinction entre singulier et pluriel. Ici, cherche le nom qui commande l’accord dans le groupe étudié.",
+        "« forme particulière » désigne une réalisation d’accord propre à un adjectif. Ici, cherche le nom qui commande l’accord dans le groupe étudié."
+       ],
+       "y": "Le nom qui commande l’accord dans le groupe étudié."
+      },
+      {
+       "q": "Quel terme désigne : la catégorie masculin ou féminin du nom ?",
+       "r": "genre",
+       "w": [
+        "nom noyau",
+        "nombre",
+        "forme particulière"
+       ],
+       "e": [
+        "« nom noyau » désigne le nom qui commande l’accord dans le groupe étudié. Ici, cherche la catégorie masculin ou féminin du nom.",
+        "« nombre » désigne la distinction entre singulier et pluriel. Ici, cherche la catégorie masculin ou féminin du nom.",
+        "« forme particulière » désigne une réalisation d’accord propre à un adjectif. Ici, cherche la catégorie masculin ou féminin du nom."
+       ],
+       "y": "La catégorie masculin ou féminin du nom."
+      },
+      {
+       "q": "Quel terme désigne : la distinction entre singulier et pluriel ?",
+       "r": "nombre",
+       "w": [
+        "nom noyau",
+        "genre",
+        "forme particulière"
+       ],
+       "e": [
+        "« nom noyau » désigne le nom qui commande l’accord dans le groupe étudié. Ici, cherche la distinction entre singulier et pluriel.",
+        "« genre » désigne la catégorie masculin ou féminin du nom. Ici, cherche la distinction entre singulier et pluriel.",
+        "« forme particulière » désigne une réalisation d’accord propre à un adjectif. Ici, cherche la distinction entre singulier et pluriel."
+       ],
+       "y": "La distinction entre singulier et pluriel."
+      },
+      {
+       "q": "Quel terme désigne : une réalisation d’accord propre à un adjectif ?",
+       "r": "forme particulière",
+       "w": [
+        "nom noyau",
+        "genre",
+        "nombre"
+       ],
+       "e": [
+        "« nom noyau » désigne le nom qui commande l’accord dans le groupe étudié. Ici, cherche une réalisation d’accord propre à un adjectif.",
+        "« genre » désigne la catégorie masculin ou féminin du nom. Ici, cherche une réalisation d’accord propre à un adjectif.",
+        "« nombre » désigne la distinction entre singulier et pluriel. Ici, cherche une réalisation d’accord propre à un adjectif."
+       ],
+       "y": "Une réalisation d’accord propre à un adjectif."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-13-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans des cours propres, cours commande le pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "nom noyau",
+       "w": [
+        "genre",
+        "nombre",
+        "forme particulière"
+       ],
+       "e": [
+        "« genre » concerne la catégorie masculin ou féminin du nom. Le cas décrit plutôt le nom qui commande l’accord dans le groupe étudié.",
+        "« nombre » concerne la distinction entre singulier et pluriel. Le cas décrit plutôt le nom qui commande l’accord dans le groupe étudié.",
+        "« forme particulière » concerne une réalisation d’accord propre à un adjectif. Le cas décrit plutôt le nom qui commande l’accord dans le groupe étudié."
+       ],
+       "y": "Dans des cours propres, cours commande le pluriel. Le nom qui commande l’accord dans le groupe étudié."
+      },
+      {
+       "q": "Cour est un nom féminin dans ce groupe.\nQuel terme s’applique le mieux ?",
+       "r": "genre",
+       "w": [
+        "nom noyau",
+        "nombre",
+        "forme particulière"
+       ],
+       "e": [
+        "« nom noyau » concerne le nom qui commande l’accord dans le groupe étudié. Le cas décrit plutôt la catégorie masculin ou féminin du nom.",
+        "« nombre » concerne la distinction entre singulier et pluriel. Le cas décrit plutôt la catégorie masculin ou féminin du nom.",
+        "« forme particulière » concerne une réalisation d’accord propre à un adjectif. Le cas décrit plutôt la catégorie masculin ou féminin du nom."
+       ],
+       "y": "Cour est un nom féminin dans ce groupe. La catégorie masculin ou féminin du nom."
+      },
+      {
+       "q": "Des cours désigne ici un groupe pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "nombre",
+       "w": [
+        "nom noyau",
+        "genre",
+        "forme particulière"
+       ],
+       "e": [
+        "« nom noyau » concerne le nom qui commande l’accord dans le groupe étudié. Le cas décrit plutôt la distinction entre singulier et pluriel.",
+        "« genre » concerne la catégorie masculin ou féminin du nom. Le cas décrit plutôt la distinction entre singulier et pluriel.",
+        "« forme particulière » concerne une réalisation d’accord propre à un adjectif. Le cas décrit plutôt la distinction entre singulier et pluriel."
+       ],
+       "y": "Des cours désigne ici un groupe pluriel. La distinction entre singulier et pluriel."
+      },
+      {
+       "q": "Le féminin de propre reste {fr2Adj('propre','f',false)}.\nQuel terme s’applique le mieux ?",
+       "r": "forme particulière",
+       "w": [
+        "nom noyau",
+        "genre",
+        "nombre"
+       ],
+       "e": [
+        "« nom noyau » concerne le nom qui commande l’accord dans le groupe étudié. Le cas décrit plutôt une réalisation d’accord propre à un adjectif.",
+        "« genre » concerne la catégorie masculin ou féminin du nom. Le cas décrit plutôt une réalisation d’accord propre à un adjectif.",
+        "« nombre » concerne la distinction entre singulier et pluriel. Le cas décrit plutôt une réalisation d’accord propre à un adjectif."
+       ],
+       "y": "Le féminin de propre reste {fr2Adj('propre','f',false)}. Une réalisation d’accord propre à un adjectif."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-13-accord",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "petit",
+      "grand",
+      "vert",
+      "bleu",
+      "blanc"
+     ]
+    },
+    "g": {
+     "pick": [
+      "m",
+      "f"
+     ]
+    },
+    "pl": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Accorde « {a} » au {fr2GenderNumber(g,pl)}.",
+   "correct": "{fr2Adj(a,g,pl)}",
+   "distractors": [
+    {
+     "text": "{fr2Adj(a,fr2OtherGender(g),pl)}",
+     "misconception": "genre"
+    },
+    {
+     "text": "{fr2Adj(a,g,!pl)}",
+     "misconception": "nombre"
+    },
+    {
+     "text": "{fr2Adj(a,fr2OtherGender(g),!pl)}",
+     "misconception": "deux"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "genre",
+     "explain": "Le nombre convient, mais pas le genre demandé."
+    },
+    {
+     "id": "nombre",
+     "explain": "Le genre convient, mais pas le nombre demandé."
+    },
+    {
+     "id": "deux",
+     "explain": "Cette forme change à la fois le genre et le nombre demandés."
+    }
+   ],
+   "solution": [
+    "Relève le genre et le nombre demandés.",
+    "La forme est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-13-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "nom noyau",
+     "right": "Dans des cours propres, cours commande le pluriel."
+    },
+    {
+     "left": "genre",
+     "right": "Cour est un nom féminin dans ce groupe."
+    },
+    {
+     "left": "nombre",
+     "right": "Des cours désigne ici un groupe pluriel."
+    },
+    {
+     "left": "forme particulière",
+     "right": "Le féminin de propre reste {fr2Adj('propre','f',false)}."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-13-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "nom noyau : le nom qui commande l’accord dans le groupe étudié.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : nom noyau désigne le nom qui commande l’accord dans le groupe étudié. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "genre : la catégorie masculin ou féminin du nom.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : genre désigne la catégorie masculin ou féminin du nom. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "nombre : la distinction entre singulier et pluriel.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : nombre désigne la distinction entre singulier et pluriel. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "forme particulière : une réalisation d’accord propre à un adjectif.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : forme particulière désigne une réalisation d’accord propre à un adjectif. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’adjectif choisit son nombre au hasard.",
+      "truth": "false",
+      "explain": "Il dépend du nom qu’il qualifie."
+     },
+     {
+      "text": "La terminaison visible d’un seul mot suffit à connaître tous les genres.",
+      "truth": "false",
+      "explain": "Le genre lexical doit être vérifié lorsqu’il est inconnu."
+     },
+     {
+      "text": "Des commande obligatoirement le singulier.",
+      "truth": "false",
+      "explain": "Des introduit ici un nom pluriel."
+     },
+     {
+      "text": "On ajoute toujours un e supplémentaire à propre au féminin.",
+      "truth": "false",
+      "explain": "Propre possède déjà cette terminaison au masculin et au féminin."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

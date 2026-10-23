@@ -1,0 +1,590 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 31,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-31",
+   "name": "Traduction : les adverbes de manière"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Traduire demande de comprendre le sens de la phrase, pas seulement de remplacer chaque mot isolé. L’adverbe de manière anglais et son équivalent français n’ont pas nécessairement la même construction. En français, l’adverbe reste invariable. Lis le verbe et l’intention avant de choisir. Une traduction peut avoir plusieurs formulations correctes ; les modèles de cette leçon donnent des équivalents usuels, sans prétendre exclure tout synonyme adapté.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Traduire demande de comprendre le sens de la phrase, pas seulement de remplacer chaque mot isolé. L’adverbe de manière anglais et son équivalent français n’ont pas nécessairement la même construction. En français, l’adverbe reste invariable. Lis le verbe et l’intention avant de choisir. Une traduction peut avoir plusieurs formulations correctes ; les modèles de cette leçon donnent des équivalents usuels, sans prétendre exclure tout synonyme adapté."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Exemples de traduction : slowly → {fr2Adverb('lent')}, politely → {fr2Adverb('poli')}, carefully → avec soin, happily → {fr2Adverb('heureux')}. Avec soin est une locution adverbiale : une expression peut rendre un seul mot. Il ne faut pas fabriquer un mot inexistant pour conserver le même nombre de mots."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Détermine comment l’action se réalise, propose l’équivalent et relis toute la phrase française. Vérifie les accords éventuels ailleurs dans la phrase sans accorder l’adverbe. Distingue adjectif et adverbe ; une traduction doit être correcte dans les deux langues."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "équivalence de sens",
+    "meaning": "la conservation de l’idée pertinente plutôt que des lettres du mot source"
+   },
+   {
+    "word": "locution adverbiale",
+    "meaning": "un groupe de mots jouant le rôle d’un adverbe"
+   },
+   {
+    "word": "contexte verbal",
+    "meaning": "l’action dont la manière doit être traduite"
+   },
+   {
+    "word": "invariabilité de l’adverbe",
+    "meaning": "l’absence d’accord de l’adverbe français avec le sujet"
+   }
+  ],
+  "examples": [
+   "Slowly peut être rendu par {fr2Adverb('lent')}.",
+   "Carefully peut être rendu par avec soin.",
+   "Le lecteur examine le verbe associé à politely."
+  ],
+  "mistake": {
+   "wrong": "Traduire oblige à conserver exactement les mêmes lettres.",
+   "right": "équivalence de sens: la conservation de l’idée pertinente plutôt que des lettres du mot source.",
+   "why": "Les langues utilisent des formes différentes pour une idée proche."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Slowly peut être rendu par {fr2Adverb('lent')}. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "La conservation de l’idée pertinente plutôt que des lettres du mot source.",
+   "Les langues utilisent des formes différentes pour une idée proche."
+  ],
+  "answer": "équivalence de sens",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-31-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "équivalence de sens: la conservation de l’idée pertinente plutôt que des lettres du mot source.",
+     "locution adverbiale: un groupe de mots jouant le rôle d’un adverbe.",
+     "contexte verbal: l’action dont la manière doit être traduite.",
+     "invariabilité de l’adverbe: l’absence d’accord de l’adverbe français avec le sujet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-31-terms"
+    }
+   },
+   {
+    "id": "cfr3-31-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Slowly peut être rendu par {fr2Adverb('lent')}.",
+     "équivalence de sens: la conservation de l’idée pertinente plutôt que des lettres du mot source."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-31-cases"
+    }
+   },
+   {
+    "id": "cfr3-31-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Traduire oblige à conserver exactement les mêmes lettres.",
+     "Les langues utilisent des formes différentes pour une idée proche."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-31-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "équivalence de sens : la conservation de l’idée pertinente plutôt que des lettres du mot source.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : équivalence de sens désigne la conservation de l’idée pertinente plutôt que des lettres du mot source. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "locution adverbiale : un groupe de mots jouant le rôle d’un adverbe.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : locution adverbiale désigne un groupe de mots jouant le rôle d’un adverbe. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "contexte verbal : l’action dont la manière doit être traduite.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : contexte verbal désigne l’action dont la manière doit être traduite. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "invariabilité de l’adverbe : l’absence d’accord de l’adverbe français avec le sujet.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : invariabilité de l’adverbe désigne l’absence d’accord de l’adverbe français avec le sujet. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Traduire oblige à conserver exactement les mêmes lettres.",
+        "truth": "false",
+        "explain": "Les langues utilisent des formes différentes pour une idée proche."
+       },
+       {
+        "text": "Un mot anglais doit toujours devenir exactement un mot français.",
+        "truth": "false",
+        "explain": "Une expression peut rendre le sens d’un mot."
+       },
+       {
+        "text": "L’adverbe se traduit toujours sans lire la phrase.",
+        "truth": "false",
+        "explain": "La construction et le contexte peuvent modifier le choix."
+       },
+       {
+        "text": "Tous les adverbes français prennent un s quand le sujet est pluriel.",
+        "truth": "false",
+        "explain": "L’adverbe ne reçoit pas cet accord."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-31-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : la conservation de l’idée pertinente plutôt que des lettres du mot source ?",
+       "r": "équivalence de sens",
+       "w": [
+        "locution adverbiale",
+        "contexte verbal",
+        "invariabilité de l’adverbe"
+       ],
+       "e": [
+        "« locution adverbiale » désigne un groupe de mots jouant le rôle d’un adverbe. Ici, cherche la conservation de l’idée pertinente plutôt que des lettres du mot source.",
+        "« contexte verbal » désigne l’action dont la manière doit être traduite. Ici, cherche la conservation de l’idée pertinente plutôt que des lettres du mot source.",
+        "« invariabilité de l’adverbe » désigne l’absence d’accord de l’adverbe français avec le sujet. Ici, cherche la conservation de l’idée pertinente plutôt que des lettres du mot source."
+       ],
+       "y": "La conservation de l’idée pertinente plutôt que des lettres du mot source."
+      },
+      {
+       "q": "Quel terme désigne : un groupe de mots jouant le rôle d’un adverbe ?",
+       "r": "locution adverbiale",
+       "w": [
+        "équivalence de sens",
+        "contexte verbal",
+        "invariabilité de l’adverbe"
+       ],
+       "e": [
+        "« équivalence de sens » désigne la conservation de l’idée pertinente plutôt que des lettres du mot source. Ici, cherche un groupe de mots jouant le rôle d’un adverbe.",
+        "« contexte verbal » désigne l’action dont la manière doit être traduite. Ici, cherche un groupe de mots jouant le rôle d’un adverbe.",
+        "« invariabilité de l’adverbe » désigne l’absence d’accord de l’adverbe français avec le sujet. Ici, cherche un groupe de mots jouant le rôle d’un adverbe."
+       ],
+       "y": "Un groupe de mots jouant le rôle d’un adverbe."
+      },
+      {
+       "q": "Quel terme désigne : l’action dont la manière doit être traduite ?",
+       "r": "contexte verbal",
+       "w": [
+        "équivalence de sens",
+        "locution adverbiale",
+        "invariabilité de l’adverbe"
+       ],
+       "e": [
+        "« équivalence de sens » désigne la conservation de l’idée pertinente plutôt que des lettres du mot source. Ici, cherche l’action dont la manière doit être traduite.",
+        "« locution adverbiale » désigne un groupe de mots jouant le rôle d’un adverbe. Ici, cherche l’action dont la manière doit être traduite.",
+        "« invariabilité de l’adverbe » désigne l’absence d’accord de l’adverbe français avec le sujet. Ici, cherche l’action dont la manière doit être traduite."
+       ],
+       "y": "L’action dont la manière doit être traduite."
+      },
+      {
+       "q": "Quel terme désigne : l’absence d’accord de l’adverbe français avec le sujet ?",
+       "r": "invariabilité de l’adverbe",
+       "w": [
+        "équivalence de sens",
+        "locution adverbiale",
+        "contexte verbal"
+       ],
+       "e": [
+        "« équivalence de sens » désigne la conservation de l’idée pertinente plutôt que des lettres du mot source. Ici, cherche l’absence d’accord de l’adverbe français avec le sujet.",
+        "« locution adverbiale » désigne un groupe de mots jouant le rôle d’un adverbe. Ici, cherche l’absence d’accord de l’adverbe français avec le sujet.",
+        "« contexte verbal » désigne l’action dont la manière doit être traduite. Ici, cherche l’absence d’accord de l’adverbe français avec le sujet."
+       ],
+       "y": "L’absence d’accord de l’adverbe français avec le sujet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-31-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Slowly peut être rendu par {fr2Adverb('lent')}.\nQuel terme s’applique le mieux ?",
+       "r": "équivalence de sens",
+       "w": [
+        "locution adverbiale",
+        "contexte verbal",
+        "invariabilité de l’adverbe"
+       ],
+       "e": [
+        "« locution adverbiale » concerne un groupe de mots jouant le rôle d’un adverbe. Le cas décrit plutôt la conservation de l’idée pertinente plutôt que des lettres du mot source.",
+        "« contexte verbal » concerne l’action dont la manière doit être traduite. Le cas décrit plutôt la conservation de l’idée pertinente plutôt que des lettres du mot source.",
+        "« invariabilité de l’adverbe » concerne l’absence d’accord de l’adverbe français avec le sujet. Le cas décrit plutôt la conservation de l’idée pertinente plutôt que des lettres du mot source."
+       ],
+       "y": "Slowly peut être rendu par {fr2Adverb('lent')}. La conservation de l’idée pertinente plutôt que des lettres du mot source."
+      },
+      {
+       "q": "Carefully peut être rendu par avec soin.\nQuel terme s’applique le mieux ?",
+       "r": "locution adverbiale",
+       "w": [
+        "équivalence de sens",
+        "contexte verbal",
+        "invariabilité de l’adverbe"
+       ],
+       "e": [
+        "« équivalence de sens » concerne la conservation de l’idée pertinente plutôt que des lettres du mot source. Le cas décrit plutôt un groupe de mots jouant le rôle d’un adverbe.",
+        "« contexte verbal » concerne l’action dont la manière doit être traduite. Le cas décrit plutôt un groupe de mots jouant le rôle d’un adverbe.",
+        "« invariabilité de l’adverbe » concerne l’absence d’accord de l’adverbe français avec le sujet. Le cas décrit plutôt un groupe de mots jouant le rôle d’un adverbe."
+       ],
+       "y": "Carefully peut être rendu par avec soin. Un groupe de mots jouant le rôle d’un adverbe."
+      },
+      {
+       "q": "Le lecteur examine le verbe associé à politely.\nQuel terme s’applique le mieux ?",
+       "r": "contexte verbal",
+       "w": [
+        "équivalence de sens",
+        "locution adverbiale",
+        "invariabilité de l’adverbe"
+       ],
+       "e": [
+        "« équivalence de sens » concerne la conservation de l’idée pertinente plutôt que des lettres du mot source. Le cas décrit plutôt l’action dont la manière doit être traduite.",
+        "« locution adverbiale » concerne un groupe de mots jouant le rôle d’un adverbe. Le cas décrit plutôt l’action dont la manière doit être traduite.",
+        "« invariabilité de l’adverbe » concerne l’absence d’accord de l’adverbe français avec le sujet. Le cas décrit plutôt l’action dont la manière doit être traduite."
+       ],
+       "y": "Le lecteur examine le verbe associé à politely. L’action dont la manière doit être traduite."
+      },
+      {
+       "q": "Politely correspond ici à {fr2Adverb('poli')} quel que soit le nombre du sujet.\nQuel terme s’applique le mieux ?",
+       "r": "invariabilité de l’adverbe",
+       "w": [
+        "équivalence de sens",
+        "locution adverbiale",
+        "contexte verbal"
+       ],
+       "e": [
+        "« équivalence de sens » concerne la conservation de l’idée pertinente plutôt que des lettres du mot source. Le cas décrit plutôt l’absence d’accord de l’adverbe français avec le sujet.",
+        "« locution adverbiale » concerne un groupe de mots jouant le rôle d’un adverbe. Le cas décrit plutôt l’absence d’accord de l’adverbe français avec le sujet.",
+        "« contexte verbal » concerne l’action dont la manière doit être traduite. Le cas décrit plutôt l’absence d’accord de l’adverbe français avec le sujet."
+       ],
+       "y": "Politely correspond ici à {fr2Adverb('poli')} quel que soit le nombre du sujet. L’absence d’accord de l’adverbe français avec le sujet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-31-traduire",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choisis l’équivalent de slowly dans ce modèle.",
+       "r": "{fr2Adverb('lent')}",
+       "w": [
+        "lent",
+        "vite",
+        "{fr2Adverb('lent')+'s'}"
+       ],
+       "e": [
+        "Lent est un adjectif ; ici il faut la manière.",
+        "Vite inverse la manière exprimée.",
+        "L’adverbe ne prend pas de pluriel."
+       ],
+       "y": "Slowly exprime la lenteur de l’action."
+      },
+      {
+       "q": "Choisis l’équivalent de politely dans ce modèle.",
+       "r": "{fr2Adverb('poli')}",
+       "w": [
+        "poli",
+        "brutalement",
+        "{fr2Adverb('poli')+'s'}"
+       ],
+       "e": [
+        "Poli est l’adjectif, pas l’adverbe demandé.",
+        "Cette manière ne conserve pas la courtoisie exprimée.",
+        "L’adverbe reste invariable."
+       ],
+       "y": "Politely décrit une manière courtoise."
+      },
+      {
+       "q": "Choisis l’équivalent de carefully dans le modèle proposé.",
+       "r": "avec soin",
+       "w": [
+        "sans soin",
+        "négligemment",
+        "soigneux"
+       ],
+       "e": [
+        "Sans soin inverse la manière.",
+        "Négligemment n’exprime pas le soin demandé.",
+        "Soigneux est un adjectif ; une locution de manière convient ici."
+       ],
+       "y": "Une locution peut rendre un adverbe anglais."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-31-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "équivalence de sens",
+     "right": "Slowly peut être rendu par {fr2Adverb('lent')}."
+    },
+    {
+     "left": "locution adverbiale",
+     "right": "Carefully peut être rendu par avec soin."
+    },
+    {
+     "left": "contexte verbal",
+     "right": "Le lecteur examine le verbe associé à politely."
+    },
+    {
+     "left": "invariabilité de l’adverbe",
+     "right": "Politely correspond ici à {fr2Adverb('poli')} quel que soit le nombre du sujet."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-31-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "équivalence de sens : la conservation de l’idée pertinente plutôt que des lettres du mot source.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : équivalence de sens désigne la conservation de l’idée pertinente plutôt que des lettres du mot source. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "locution adverbiale : un groupe de mots jouant le rôle d’un adverbe.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : locution adverbiale désigne un groupe de mots jouant le rôle d’un adverbe. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "contexte verbal : l’action dont la manière doit être traduite.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : contexte verbal désigne l’action dont la manière doit être traduite. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "invariabilité de l’adverbe : l’absence d’accord de l’adverbe français avec le sujet.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : invariabilité de l’adverbe désigne l’absence d’accord de l’adverbe français avec le sujet. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Traduire oblige à conserver exactement les mêmes lettres.",
+      "truth": "false",
+      "explain": "Les langues utilisent des formes différentes pour une idée proche."
+     },
+     {
+      "text": "Un mot anglais doit toujours devenir exactement un mot français.",
+      "truth": "false",
+      "explain": "Une expression peut rendre le sens d’un mot."
+     },
+     {
+      "text": "L’adverbe se traduit toujours sans lire la phrase.",
+      "truth": "false",
+      "explain": "La construction et le contexte peuvent modifier le choix."
+     },
+     {
+      "text": "Tous les adverbes français prennent un s quand le sujet est pluriel.",
+      "truth": "false",
+      "explain": "L’adverbe ne reçoit pas cet accord."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

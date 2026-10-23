@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 21,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-21",
+   "name": "Préparer une récitation ou un jeu de rôle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La préparation écrite d’un oral clarifie le message, les rôles et les groupes de sens. Une réplique correspond à une prise de parole ; une didascalie donne une indication de jeu ; l’articulation rend les mots distincts ; l’intonation contribue à l’intention. Le texte affiché permet de préparer ces éléments, mais il ne peut ni entendre ni noter la voix. Une récitation réelle ou un chant nécessite un modèle et une pratique avec un enseignant.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "La préparation écrite d’un oral clarifie le message, les rôles et les groupes de sens. Une réplique correspond à une prise de parole ; une didascalie donne une indication de jeu ; l’articulation rend les mots distincts ; l’intonation contribue à l’intention. Le texte affiché permet de préparer ces éléments, mais il ne peut ni entendre ni noter la voix. Une récitation réelle ou un chant nécessite un modèle et une pratique avec un enseignant."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Petit texte original : « Notre cour accueille nos pas ; chaque geste y laisse sa trace. Un papier rejoint le panier, et le lieu retrouve sa place. » On peut préparer les groupes de sens puis expliquer le message avec ses propres mots. Ce texte n’est pas une œuvre prescrite."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère qui parle, ce que la personne veut et où les idées se séparent. Prépare une diction compréhensible sans transformer chaque mot en cri. Pour un chant, la mélodie doit venir d’un modèle approprié ; aucune hauteur musicale n’est évaluée ici."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "réplique",
+    "meaning": "une prise de parole d’un personnage"
+   },
+   {
+    "word": "didascalie",
+    "meaning": "une indication de jeu distincte des paroles"
+   },
+   {
+    "word": "groupe de sens",
+    "meaning": "un ensemble de mots formant une unité compréhensible à l’oral"
+   },
+   {
+    "word": "intention",
+    "meaning": "le but expressif de la prise de parole"
+   }
+  ],
+  "examples": [
+   "Dans un dialogue, une ligne attribuée à Bih constitue sa prise de parole.",
+   "La mention à voix calme indique comment jouer la scène.",
+   "Le lecteur prépare une pause à la fin d’une idée."
+  ],
+  "mistake": {
+   "wrong": "Une réplique ne peut appartenir à aucun personnage.",
+   "right": "réplique: une prise de parole d’un personnage.",
+   "why": "L’attribution aide à comprendre qui parle."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans un dialogue, une ligne attribuée à Bih constitue sa prise de parole. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Une prise de parole d’un personnage.",
+   "L’attribution aide à comprendre qui parle."
+  ],
+  "answer": "réplique",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-21-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "réplique: une prise de parole d’un personnage.",
+     "didascalie: une indication de jeu distincte des paroles.",
+     "groupe de sens: un ensemble de mots formant une unité compréhensible à l’oral.",
+     "intention: le but expressif de la prise de parole."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-21-terms"
+    }
+   },
+   {
+    "id": "cfr3-21-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Dans un dialogue, une ligne attribuée à Bih constitue sa prise de parole.",
+     "réplique: une prise de parole d’un personnage."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-21-cases"
+    }
+   },
+   {
+    "id": "cfr3-21-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une réplique ne peut appartenir à aucun personnage.",
+     "L’attribution aide à comprendre qui parle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-21-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "réplique : une prise de parole d’un personnage.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : réplique désigne une prise de parole d’un personnage. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "didascalie : une indication de jeu distincte des paroles.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : didascalie désigne une indication de jeu distincte des paroles. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "groupe de sens : un ensemble de mots formant une unité compréhensible à l’oral.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : groupe de sens désigne un ensemble de mots formant une unité compréhensible à l’oral. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "intention : le but expressif de la prise de parole.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : intention désigne le but expressif de la prise de parole. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une réplique ne peut appartenir à aucun personnage.",
+        "truth": "false",
+        "explain": "L’attribution aide à comprendre qui parle."
+       },
+       {
+        "text": "Toute indication de jeu doit forcément être prononcée comme une réplique.",
+        "truth": "false",
+        "explain": "Une didascalie guide le jeu, sans être nécessairement dite."
+       },
+       {
+        "text": "Une pause au milieu de chaque mot facilite toujours le sens.",
+        "truth": "false",
+        "explain": "Les pauses doivent respecter les unités de sens."
+       },
+       {
+        "text": "Toutes les phrases ont obligatoirement la même intention.",
+        "truth": "false",
+        "explain": "Demander, informer et exprimer une émotion appellent des intentions différentes."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-21-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : une prise de parole d’un personnage ?",
+       "r": "réplique",
+       "w": [
+        "didascalie",
+        "groupe de sens",
+        "intention"
+       ],
+       "e": [
+        "« didascalie » désigne une indication de jeu distincte des paroles. Ici, cherche une prise de parole d’un personnage.",
+        "« groupe de sens » désigne un ensemble de mots formant une unité compréhensible à l’oral. Ici, cherche une prise de parole d’un personnage.",
+        "« intention » désigne le but expressif de la prise de parole. Ici, cherche une prise de parole d’un personnage."
+       ],
+       "y": "Une prise de parole d’un personnage."
+      },
+      {
+       "q": "Quel terme désigne : une indication de jeu distincte des paroles ?",
+       "r": "didascalie",
+       "w": [
+        "réplique",
+        "groupe de sens",
+        "intention"
+       ],
+       "e": [
+        "« réplique » désigne une prise de parole d’un personnage. Ici, cherche une indication de jeu distincte des paroles.",
+        "« groupe de sens » désigne un ensemble de mots formant une unité compréhensible à l’oral. Ici, cherche une indication de jeu distincte des paroles.",
+        "« intention » désigne le but expressif de la prise de parole. Ici, cherche une indication de jeu distincte des paroles."
+       ],
+       "y": "Une indication de jeu distincte des paroles."
+      },
+      {
+       "q": "Quel terme désigne : un ensemble de mots formant une unité compréhensible à l’oral ?",
+       "r": "groupe de sens",
+       "w": [
+        "réplique",
+        "didascalie",
+        "intention"
+       ],
+       "e": [
+        "« réplique » désigne une prise de parole d’un personnage. Ici, cherche un ensemble de mots formant une unité compréhensible à l’oral.",
+        "« didascalie » désigne une indication de jeu distincte des paroles. Ici, cherche un ensemble de mots formant une unité compréhensible à l’oral.",
+        "« intention » désigne le but expressif de la prise de parole. Ici, cherche un ensemble de mots formant une unité compréhensible à l’oral."
+       ],
+       "y": "Un ensemble de mots formant une unité compréhensible à l’oral."
+      },
+      {
+       "q": "Quel terme désigne : le but expressif de la prise de parole ?",
+       "r": "intention",
+       "w": [
+        "réplique",
+        "didascalie",
+        "groupe de sens"
+       ],
+       "e": [
+        "« réplique » désigne une prise de parole d’un personnage. Ici, cherche le but expressif de la prise de parole.",
+        "« didascalie » désigne une indication de jeu distincte des paroles. Ici, cherche le but expressif de la prise de parole.",
+        "« groupe de sens » désigne un ensemble de mots formant une unité compréhensible à l’oral. Ici, cherche le but expressif de la prise de parole."
+       ],
+       "y": "Le but expressif de la prise de parole."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-21-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans un dialogue, une ligne attribuée à Bih constitue sa prise de parole.\nQuel terme s’applique le mieux ?",
+       "r": "réplique",
+       "w": [
+        "didascalie",
+        "groupe de sens",
+        "intention"
+       ],
+       "e": [
+        "« didascalie » concerne une indication de jeu distincte des paroles. Le cas décrit plutôt une prise de parole d’un personnage.",
+        "« groupe de sens » concerne un ensemble de mots formant une unité compréhensible à l’oral. Le cas décrit plutôt une prise de parole d’un personnage.",
+        "« intention » concerne le but expressif de la prise de parole. Le cas décrit plutôt une prise de parole d’un personnage."
+       ],
+       "y": "Dans un dialogue, une ligne attribuée à Bih constitue sa prise de parole. Une prise de parole d’un personnage."
+      },
+      {
+       "q": "La mention à voix calme indique comment jouer la scène.\nQuel terme s’applique le mieux ?",
+       "r": "didascalie",
+       "w": [
+        "réplique",
+        "groupe de sens",
+        "intention"
+       ],
+       "e": [
+        "« réplique » concerne une prise de parole d’un personnage. Le cas décrit plutôt une indication de jeu distincte des paroles.",
+        "« groupe de sens » concerne un ensemble de mots formant une unité compréhensible à l’oral. Le cas décrit plutôt une indication de jeu distincte des paroles.",
+        "« intention » concerne le but expressif de la prise de parole. Le cas décrit plutôt une indication de jeu distincte des paroles."
+       ],
+       "y": "La mention à voix calme indique comment jouer la scène. Une indication de jeu distincte des paroles."
+      },
+      {
+       "q": "Le lecteur prépare une pause à la fin d’une idée.\nQuel terme s’applique le mieux ?",
+       "r": "groupe de sens",
+       "w": [
+        "réplique",
+        "didascalie",
+        "intention"
+       ],
+       "e": [
+        "« réplique » concerne une prise de parole d’un personnage. Le cas décrit plutôt un ensemble de mots formant une unité compréhensible à l’oral.",
+        "« didascalie » concerne une indication de jeu distincte des paroles. Le cas décrit plutôt un ensemble de mots formant une unité compréhensible à l’oral.",
+        "« intention » concerne le but expressif de la prise de parole. Le cas décrit plutôt un ensemble de mots formant une unité compréhensible à l’oral."
+       ],
+       "y": "Le lecteur prépare une pause à la fin d’une idée. Un ensemble de mots formant une unité compréhensible à l’oral."
+      },
+      {
+       "q": "Une demande polie cherche une réponse sans agresser.\nQuel terme s’applique le mieux ?",
+       "r": "intention",
+       "w": [
+        "réplique",
+        "didascalie",
+        "groupe de sens"
+       ],
+       "e": [
+        "« réplique » concerne une prise de parole d’un personnage. Le cas décrit plutôt le but expressif de la prise de parole.",
+        "« didascalie » concerne une indication de jeu distincte des paroles. Le cas décrit plutôt le but expressif de la prise de parole.",
+        "« groupe de sens » concerne un ensemble de mots formant une unité compréhensible à l’oral. Le cas décrit plutôt le but expressif de la prise de parole."
+       ],
+       "y": "Une demande polie cherche une réponse sans agresser. Le but expressif de la prise de parole."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-21-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans un dialogue, une ligne attribuée à Bih constitue sa prise de parole.\nQuelle explication justifie le classement ?",
+       "r": "Une prise de parole d’un personnage.",
+       "w": [
+        "Une indication de jeu distincte des paroles.",
+        "Un ensemble de mots formant une unité compréhensible à l’oral.",
+        "Le but expressif de la prise de parole."
+       ],
+       "e": [
+        "Cette explication correspond à « didascalie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « groupe de sens ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « intention ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’attribution aide à comprendre qui parle."
+      },
+      {
+       "q": "La mention à voix calme indique comment jouer la scène.\nQuelle explication justifie le classement ?",
+       "r": "Une indication de jeu distincte des paroles.",
+       "w": [
+        "Une prise de parole d’un personnage.",
+        "Un ensemble de mots formant une unité compréhensible à l’oral.",
+        "Le but expressif de la prise de parole."
+       ],
+       "e": [
+        "Cette explication correspond à « réplique ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « groupe de sens ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « intention ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Une didascalie guide le jeu, sans être nécessairement dite."
+      },
+      {
+       "q": "Le lecteur prépare une pause à la fin d’une idée.\nQuelle explication justifie le classement ?",
+       "r": "Un ensemble de mots formant une unité compréhensible à l’oral.",
+       "w": [
+        "Une prise de parole d’un personnage.",
+        "Une indication de jeu distincte des paroles.",
+        "Le but expressif de la prise de parole."
+       ],
+       "e": [
+        "Cette explication correspond à « réplique ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « didascalie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « intention ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les pauses doivent respecter les unités de sens."
+      },
+      {
+       "q": "Une demande polie cherche une réponse sans agresser.\nQuelle explication justifie le classement ?",
+       "r": "Le but expressif de la prise de parole.",
+       "w": [
+        "Une prise de parole d’un personnage.",
+        "Une indication de jeu distincte des paroles.",
+        "Un ensemble de mots formant une unité compréhensible à l’oral."
+       ],
+       "e": [
+        "Cette explication correspond à « réplique ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « didascalie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « groupe de sens ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Demander, informer et exprimer une émotion appellent des intentions différentes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-21-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "réplique",
+     "right": "Dans un dialogue, une ligne attribuée à Bih constitue sa prise de parole."
+    },
+    {
+     "left": "didascalie",
+     "right": "La mention à voix calme indique comment jouer la scène."
+    },
+    {
+     "left": "groupe de sens",
+     "right": "Le lecteur prépare une pause à la fin d’une idée."
+    },
+    {
+     "left": "intention",
+     "right": "Une demande polie cherche une réponse sans agresser."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-21-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "réplique : une prise de parole d’un personnage.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : réplique désigne une prise de parole d’un personnage. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "didascalie : une indication de jeu distincte des paroles.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : didascalie désigne une indication de jeu distincte des paroles. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "groupe de sens : un ensemble de mots formant une unité compréhensible à l’oral.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : groupe de sens désigne un ensemble de mots formant une unité compréhensible à l’oral. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "intention : le but expressif de la prise de parole.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : intention désigne le but expressif de la prise de parole. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une réplique ne peut appartenir à aucun personnage.",
+      "truth": "false",
+      "explain": "L’attribution aide à comprendre qui parle."
+     },
+     {
+      "text": "Toute indication de jeu doit forcément être prononcée comme une réplique.",
+      "truth": "false",
+      "explain": "Une didascalie guide le jeu, sans être nécessairement dite."
+     },
+     {
+      "text": "Une pause au milieu de chaque mot facilite toujours le sens.",
+      "truth": "false",
+      "explain": "Les pauses doivent respecter les unités de sens."
+     },
+     {
+      "text": "Toutes les phrases ont obligatoirement la même intention.",
+      "truth": "false",
+      "explain": "Demander, informer et exprimer une émotion appellent des intentions différentes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

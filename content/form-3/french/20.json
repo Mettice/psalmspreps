@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 20,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-20",
+   "name": "Maladies : épidémie, pandémie et endémie"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ces termes décrivent la présence et l’étendue d’une maladie dans une population, pas la valeur d’une personne. Une endémie correspond à une présence habituelle dans une zone ; une épidémie à une augmentation au-delà de ce qui est attendu dans une population et une période données ; une pandémie à une épidémie largement étendue à l’échelle internationale. L’étendue ne suffit pas à décrire la gravité de chaque cas. Le diagnostic relève d’un professionnel de santé.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Ces termes décrivent la présence et l’étendue d’une maladie dans une population, pas la valeur d’une personne. Une endémie correspond à une présence habituelle dans une zone ; une épidémie à une augmentation au-delà de ce qui est attendu dans une population et une période données ; une pandémie à une épidémie largement étendue à l’échelle internationale. L’étendue ne suffit pas à décrire la gravité de chaque cas. Le diagnostic relève d’un professionnel de santé."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans des situations fictives, un rapport décrit une présence habituelle dans une zone, puis une hausse inhabituelle de cas. Un autre suit une propagation internationale très large. Le lecteur classe les descriptions sans inventer de seuil numérique ni annoncer une situation sanitaire actuelle au Cameroun."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "endémie",
+    "meaning": "la présence habituelle d’une maladie dans une zone donnée"
+   },
+   {
+    "word": "épidémie",
+    "meaning": "une augmentation de cas au-delà de l’attendu dans une population et une période"
+   },
+   {
+    "word": "pandémie",
+    "meaning": "une épidémie largement propagée à l’échelle internationale"
+   },
+   {
+    "word": "diagnostic",
+    "meaning": "l’identification médicale d’une affection par une personne compétente"
+   }
+  ],
+  "examples": [
+   "Un rapport fictif décrit une présence durable attendue dans une zone.",
+   "Le rapport fictif relève une hausse inhabituelle de cas.",
+   "Le modèle décrit une propagation internationale très étendue."
+  ],
+  "mistake": {
+   "wrong": "Endémique signifie sans danger pour toute personne.",
+   "right": "endémie: la présence habituelle d’une maladie dans une zone donnée.",
+   "why": "La présence habituelle ne supprime pas les conséquences possibles."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un rapport fictif décrit une présence durable attendue dans une zone. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "La présence habituelle d’une maladie dans une zone donnée.",
+   "La présence habituelle ne supprime pas les conséquences possibles."
+  ],
+  "answer": "endémie",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-20-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "endémie: la présence habituelle d’une maladie dans une zone donnée.",
+     "épidémie: une augmentation de cas au-delà de l’attendu dans une population et une période.",
+     "pandémie: une épidémie largement propagée à l’échelle internationale.",
+     "diagnostic: l’identification médicale d’une affection par une personne compétente."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-20-terms"
+    }
+   },
+   {
+    "id": "cfr3-20-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Un rapport fictif décrit une présence durable attendue dans une zone.",
+     "endémie: la présence habituelle d’une maladie dans une zone donnée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-20-cases"
+    }
+   },
+   {
+    "id": "cfr3-20-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Endémique signifie sans danger pour toute personne.",
+     "La présence habituelle ne supprime pas les conséquences possibles."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-20-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "endémie : la présence habituelle d’une maladie dans une zone donnée.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : endémie désigne la présence habituelle d’une maladie dans une zone donnée. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "épidémie : une augmentation de cas au-delà de l’attendu dans une population et une période.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : épidémie désigne une augmentation de cas au-delà de l’attendu dans une population et une période. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "pandémie : une épidémie largement propagée à l’échelle internationale.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : pandémie désigne une épidémie largement propagée à l’échelle internationale. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "diagnostic : l’identification médicale d’une affection par une personne compétente.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : diagnostic désigne l’identification médicale d’une affection par une personne compétente. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Endémique signifie sans danger pour toute personne.",
+        "truth": "false",
+        "explain": "La présence habituelle ne supprime pas les conséquences possibles."
+       },
+       {
+        "text": "Une épidémie exige que tous les habitants soient malades.",
+        "truth": "false",
+        "explain": "Elle concerne un excès par rapport à l’attendu, pas nécessairement toute la population."
+       },
+       {
+        "text": "Pandémie signifie obligatoirement que chaque cas est plus grave que tout autre.",
+        "truth": "false",
+        "explain": "Le terme porte sur l’étendue, pas sur une comparaison automatique des cas."
+       },
+       {
+        "text": "Un exercice de vocabulaire suffit à diagnostiquer un camarade.",
+        "truth": "false",
+        "explain": "Le classement lexical ne remplace pas une évaluation médicale."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-20-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : la présence habituelle d’une maladie dans une zone donnée ?",
+       "r": "endémie",
+       "w": [
+        "épidémie",
+        "pandémie",
+        "diagnostic"
+       ],
+       "e": [
+        "« épidémie » désigne une augmentation de cas au-delà de l’attendu dans une population et une période. Ici, cherche la présence habituelle d’une maladie dans une zone donnée.",
+        "« pandémie » désigne une épidémie largement propagée à l’échelle internationale. Ici, cherche la présence habituelle d’une maladie dans une zone donnée.",
+        "« diagnostic » désigne l’identification médicale d’une affection par une personne compétente. Ici, cherche la présence habituelle d’une maladie dans une zone donnée."
+       ],
+       "y": "La présence habituelle d’une maladie dans une zone donnée."
+      },
+      {
+       "q": "Quel terme désigne : une augmentation de cas au-delà de l’attendu dans une population et une période ?",
+       "r": "épidémie",
+       "w": [
+        "endémie",
+        "pandémie",
+        "diagnostic"
+       ],
+       "e": [
+        "« endémie » désigne la présence habituelle d’une maladie dans une zone donnée. Ici, cherche une augmentation de cas au-delà de l’attendu dans une population et une période.",
+        "« pandémie » désigne une épidémie largement propagée à l’échelle internationale. Ici, cherche une augmentation de cas au-delà de l’attendu dans une population et une période.",
+        "« diagnostic » désigne l’identification médicale d’une affection par une personne compétente. Ici, cherche une augmentation de cas au-delà de l’attendu dans une population et une période."
+       ],
+       "y": "Une augmentation de cas au-delà de l’attendu dans une population et une période."
+      },
+      {
+       "q": "Quel terme désigne : une épidémie largement propagée à l’échelle internationale ?",
+       "r": "pandémie",
+       "w": [
+        "endémie",
+        "épidémie",
+        "diagnostic"
+       ],
+       "e": [
+        "« endémie » désigne la présence habituelle d’une maladie dans une zone donnée. Ici, cherche une épidémie largement propagée à l’échelle internationale.",
+        "« épidémie » désigne une augmentation de cas au-delà de l’attendu dans une population et une période. Ici, cherche une épidémie largement propagée à l’échelle internationale.",
+        "« diagnostic » désigne l’identification médicale d’une affection par une personne compétente. Ici, cherche une épidémie largement propagée à l’échelle internationale."
+       ],
+       "y": "Une épidémie largement propagée à l’échelle internationale."
+      },
+      {
+       "q": "Quel terme désigne : l’identification médicale d’une affection par une personne compétente ?",
+       "r": "diagnostic",
+       "w": [
+        "endémie",
+        "épidémie",
+        "pandémie"
+       ],
+       "e": [
+        "« endémie » désigne la présence habituelle d’une maladie dans une zone donnée. Ici, cherche l’identification médicale d’une affection par une personne compétente.",
+        "« épidémie » désigne une augmentation de cas au-delà de l’attendu dans une population et une période. Ici, cherche l’identification médicale d’une affection par une personne compétente.",
+        "« pandémie » désigne une épidémie largement propagée à l’échelle internationale. Ici, cherche l’identification médicale d’une affection par une personne compétente."
+       ],
+       "y": "L’identification médicale d’une affection par une personne compétente."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-20-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un rapport fictif décrit une présence durable attendue dans une zone.\nQuel terme s’applique le mieux ?",
+       "r": "endémie",
+       "w": [
+        "épidémie",
+        "pandémie",
+        "diagnostic"
+       ],
+       "e": [
+        "« épidémie » concerne une augmentation de cas au-delà de l’attendu dans une population et une période. Le cas décrit plutôt la présence habituelle d’une maladie dans une zone donnée.",
+        "« pandémie » concerne une épidémie largement propagée à l’échelle internationale. Le cas décrit plutôt la présence habituelle d’une maladie dans une zone donnée.",
+        "« diagnostic » concerne l’identification médicale d’une affection par une personne compétente. Le cas décrit plutôt la présence habituelle d’une maladie dans une zone donnée."
+       ],
+       "y": "Un rapport fictif décrit une présence durable attendue dans une zone. La présence habituelle d’une maladie dans une zone donnée."
+      },
+      {
+       "q": "Le rapport fictif relève une hausse inhabituelle de cas.\nQuel terme s’applique le mieux ?",
+       "r": "épidémie",
+       "w": [
+        "endémie",
+        "pandémie",
+        "diagnostic"
+       ],
+       "e": [
+        "« endémie » concerne la présence habituelle d’une maladie dans une zone donnée. Le cas décrit plutôt une augmentation de cas au-delà de l’attendu dans une population et une période.",
+        "« pandémie » concerne une épidémie largement propagée à l’échelle internationale. Le cas décrit plutôt une augmentation de cas au-delà de l’attendu dans une population et une période.",
+        "« diagnostic » concerne l’identification médicale d’une affection par une personne compétente. Le cas décrit plutôt une augmentation de cas au-delà de l’attendu dans une population et une période."
+       ],
+       "y": "Le rapport fictif relève une hausse inhabituelle de cas. Une augmentation de cas au-delà de l’attendu dans une population et une période."
+      },
+      {
+       "q": "Le modèle décrit une propagation internationale très étendue.\nQuel terme s’applique le mieux ?",
+       "r": "pandémie",
+       "w": [
+        "endémie",
+        "épidémie",
+        "diagnostic"
+       ],
+       "e": [
+        "« endémie » concerne la présence habituelle d’une maladie dans une zone donnée. Le cas décrit plutôt une épidémie largement propagée à l’échelle internationale.",
+        "« épidémie » concerne une augmentation de cas au-delà de l’attendu dans une population et une période. Le cas décrit plutôt une épidémie largement propagée à l’échelle internationale.",
+        "« diagnostic » concerne l’identification médicale d’une affection par une personne compétente. Le cas décrit plutôt une épidémie largement propagée à l’échelle internationale."
+       ],
+       "y": "Le modèle décrit une propagation internationale très étendue. Une épidémie largement propagée à l’échelle internationale."
+      },
+      {
+       "q": "Un professionnel évalue une situation individuelle.\nQuel terme s’applique le mieux ?",
+       "r": "diagnostic",
+       "w": [
+        "endémie",
+        "épidémie",
+        "pandémie"
+       ],
+       "e": [
+        "« endémie » concerne la présence habituelle d’une maladie dans une zone donnée. Le cas décrit plutôt l’identification médicale d’une affection par une personne compétente.",
+        "« épidémie » concerne une augmentation de cas au-delà de l’attendu dans une population et une période. Le cas décrit plutôt l’identification médicale d’une affection par une personne compétente.",
+        "« pandémie » concerne une épidémie largement propagée à l’échelle internationale. Le cas décrit plutôt l’identification médicale d’une affection par une personne compétente."
+       ],
+       "y": "Un professionnel évalue une situation individuelle. L’identification médicale d’une affection par une personne compétente."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-20-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un rapport fictif décrit une présence durable attendue dans une zone.\nQuelle explication justifie le classement ?",
+       "r": "La présence habituelle d’une maladie dans une zone donnée.",
+       "w": [
+        "Une augmentation de cas au-delà de l’attendu dans une population et une période.",
+        "Une épidémie largement propagée à l’échelle internationale.",
+        "L’identification médicale d’une affection par une personne compétente."
+       ],
+       "e": [
+        "Cette explication correspond à « épidémie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « pandémie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diagnostic ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La présence habituelle ne supprime pas les conséquences possibles."
+      },
+      {
+       "q": "Le rapport fictif relève une hausse inhabituelle de cas.\nQuelle explication justifie le classement ?",
+       "r": "Une augmentation de cas au-delà de l’attendu dans une population et une période.",
+       "w": [
+        "La présence habituelle d’une maladie dans une zone donnée.",
+        "Une épidémie largement propagée à l’échelle internationale.",
+        "L’identification médicale d’une affection par une personne compétente."
+       ],
+       "e": [
+        "Cette explication correspond à « endémie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « pandémie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diagnostic ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Elle concerne un excès par rapport à l’attendu, pas nécessairement toute la population."
+      },
+      {
+       "q": "Le modèle décrit une propagation internationale très étendue.\nQuelle explication justifie le classement ?",
+       "r": "Une épidémie largement propagée à l’échelle internationale.",
+       "w": [
+        "La présence habituelle d’une maladie dans une zone donnée.",
+        "Une augmentation de cas au-delà de l’attendu dans une population et une période.",
+        "L’identification médicale d’une affection par une personne compétente."
+       ],
+       "e": [
+        "Cette explication correspond à « endémie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « épidémie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diagnostic ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le terme porte sur l’étendue, pas sur une comparaison automatique des cas."
+      },
+      {
+       "q": "Un professionnel évalue une situation individuelle.\nQuelle explication justifie le classement ?",
+       "r": "L’identification médicale d’une affection par une personne compétente.",
+       "w": [
+        "La présence habituelle d’une maladie dans une zone donnée.",
+        "Une augmentation de cas au-delà de l’attendu dans une population et une période.",
+        "Une épidémie largement propagée à l’échelle internationale."
+       ],
+       "e": [
+        "Cette explication correspond à « endémie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « épidémie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « pandémie ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le classement lexical ne remplace pas une évaluation médicale."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-20-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "endémie",
+     "right": "Un rapport fictif décrit une présence durable attendue dans une zone."
+    },
+    {
+     "left": "épidémie",
+     "right": "Le rapport fictif relève une hausse inhabituelle de cas."
+    },
+    {
+     "left": "pandémie",
+     "right": "Le modèle décrit une propagation internationale très étendue."
+    },
+    {
+     "left": "diagnostic",
+     "right": "Un professionnel évalue une situation individuelle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-20-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "endémie : la présence habituelle d’une maladie dans une zone donnée.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : endémie désigne la présence habituelle d’une maladie dans une zone donnée. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "épidémie : une augmentation de cas au-delà de l’attendu dans une population et une période.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : épidémie désigne une augmentation de cas au-delà de l’attendu dans une population et une période. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "pandémie : une épidémie largement propagée à l’échelle internationale.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : pandémie désigne une épidémie largement propagée à l’échelle internationale. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "diagnostic : l’identification médicale d’une affection par une personne compétente.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : diagnostic désigne l’identification médicale d’une affection par une personne compétente. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Endémique signifie sans danger pour toute personne.",
+      "truth": "false",
+      "explain": "La présence habituelle ne supprime pas les conséquences possibles."
+     },
+     {
+      "text": "Une épidémie exige que tous les habitants soient malades.",
+      "truth": "false",
+      "explain": "Elle concerne un excès par rapport à l’attendu, pas nécessairement toute la population."
+     },
+     {
+      "text": "Pandémie signifie obligatoirement que chaque cas est plus grave que tout autre.",
+      "truth": "false",
+      "explain": "Le terme porte sur l’étendue, pas sur une comparaison automatique des cas."
+     },
+     {
+      "text": "Un exercice de vocabulaire suffit à diagnostiquer un camarade.",
+      "truth": "false",
+      "explain": "Le classement lexical ne remplace pas une évaluation médicale."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

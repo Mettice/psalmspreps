@@ -38,3 +38,11 @@ Append one entry per session (see docs/AUTHORING.md, section 10).
 - Checked: npm test — 5100 pass; extra content checks — 38 pass; real Edge at 360 × 800 — 38/38 lessons clean, zero errors/overflow. Inspected the first Learn page and generated REVIEW/AUTHORED documents.
 - Not checked: live speech/listening or teacher/examination approval. Pronunciation rows cover written sound-symbol recognition only, with audio/teacher practice still needed. Sensitive discussions require no personal disclosure; see TR-english-1–5.
 - Remaining: French and Français intensif; prescribed FI literary works await user selection. French row 18 and FI rows 40/45 stay pending teacher clarification by user instruction. History row 10's detailed regional campaigns still require the approved course text.
+
+## 2026-10-23 — Form Three French, Term One
+
+- Authored 29 rows: 1–15, 17, 19–31. Every lesson has Learn and five questions with 3+ actual content variants and specific feedback; descriptions/narratives use original paper tasks. Conjugation, agreement, adverb and plural exercises use existing French helpers. Original reading tasks test passage evidence.
+- Row 18 remains pending teacher clarification by Dion's instruction. Integration rows 16/32 excluded. Row 19 teaches clear internal silent-letter examples while its corrupted phrase remains a teacher-review item.
+- Checked: npm test — 5281 pass; extra checks — 29 pass; Edge at 360 × 800 — 29/29 clean, zero errors/overflow; inspected first Learn page, generated review documents. Adapted own browser wrapper to discover split Form Three build pages. Initial walks failed to find the former single page; rebuilt and reran successfully on split pages.
+- Not checked: real oral performance or teacher approval. See TR-french-1–6 for terminology, curriculum depth, oral support, health vocabulary and contextual facts. Built HTML/PDF files excluded.
+- Remaining: 31 clear Français intensif rows; 16 prescribed-literature rows need the selected works and two ambiguous pronominal/passive rows need teacher clarification. History row 10 still needs regional campaign detail from the approved course text.
