@@ -129,7 +129,7 @@ test("prototype: inside French lessons the pupil's labels are French; elsewhere 
   const html = page();
   assert.ok(html.includes("const T = (text, v = {}) => ((inFrench(S) && FR[text]) || text)"), "the label helper is in the page");
   const inFrench = new Function(`${html.match(/const inFrench = [^;\n]*;/)[0]} return inFrench;`)();
-  for (const s of ["french", "f2-french", "f2-francais-intensif", "f3-french", "f3-francais-intensif"]) assert.ok(inFrench(s), `${s} uses the French labels`);
+  for (const s of ["french", "f2-french", "f2-francais-intensif", "f3-french", "f3-francais-intensif", "l6-french", "u6-francais-intensif"]) assert.ok(inFrench(s), `${s} uses the French labels`);
   for (const s of ["maths", "f2-english", "f3-physics", "frenchy"]) assert.ok(!inFrench(s), `${s} stays English`);
   for (const fr of ["Vérifier", "Je ne sais pas", "Retour aux leçons", "Leçon {n} · Idée {a} sur {b}", "Bravo !"]) assert.ok(html.includes(fr), fr);
   for (const en of ['button("Check"', "button(\"I don't know\"", '{}, "Correct!")']) assert.ok(!html.includes(en), `still hard-coded: ${en}`);

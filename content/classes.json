@@ -1,23 +1,1099 @@
 {
- "_note": "Classes from Form 3 on (2026-10-23). Forms 1 and 2 are still configured in tools/prototype/build.mjs. A subject here is built, tested (tests-js/classes-content.test.js) and rendered for review (npm run review -- <id>) from the lesson files present in content/<class>/<dir>/: no per-batch list to edit. Subject id = <prefix>-<dir>. lesson_subject: the `subject` field of its lessons; ids: the start of every template, card-check and skill id; libs: src/engine/lib modules (in order); lang: fr for lessons in French.",
+ "_note": "Classes from Form 3 on (2026-10-23). Forms 1 and 2 are still configured in tools/prototype/build.mjs. A subject here is built, tested (tests-js/classes-content.test.js) and rendered for review (npm run review -- <id>) from the lesson files present in content/<class>/<dir>/: no per-batch list to edit. Subject id = <prefix>-<dir>. lesson_subject: the `subject` field of its lessons; ids: the start of every template, card-check and skill id; libs: src/engine/lib modules (in order); lang: fr for lessons in French. Cinema subjects (Lower and Upper Sixth) are not listed yet: Dion to decide (2026-10-23).",
  "form-3": {
   "name": "Form Three",
   "cls": "Form 3",
   "prefix": "f3",
   "subjects": {
-   "maths": { "name": "Maths", "spine": "mathematics", "lesson_subject": "mathematics", "ids": "m3-", "libs": ["maths", "maths2"] },
-   "english": { "name": "English", "spine": "english-language", "lesson_subject": "english-language", "ids": "e3-", "libs": ["maths", "english"] },
-   "physics": { "name": "Physics", "spine": "physics", "lesson_subject": "physics", "ids": "p3-", "libs": ["maths", "english", "physics", "chemistry", "biology", "maths2", "science2"] },
-   "chemistry": { "name": "Chemistry", "spine": "chemistry", "lesson_subject": "chemistry", "ids": "k3-", "libs": ["maths", "english", "physics", "chemistry", "biology", "maths2", "science2"] },
-   "biology": { "name": "Biology", "spine": "biology", "lesson_subject": "biology", "ids": "b3-", "libs": ["maths", "english", "physics", "chemistry", "biology", "maths2", "science2"] },
-   "computer-science": { "name": "Computer Science", "spine": "computer-science", "lesson_subject": "computer-science", "ids": "s3-", "libs": ["maths", "english", "computerscience", "maths2", "science2"] },
-   "geography": { "name": "Geography", "spine": "geography", "lesson_subject": "geography", "ids": "g3-", "libs": ["maths", "english", "geography", "maths2"] },
-   "history": { "name": "History", "spine": "history", "lesson_subject": "history", "ids": "y3-", "libs": ["maths", "english", "history"] },
-   "economics": { "name": "Economics", "spine": "economics", "lesson_subject": "economics", "ids": "n3-", "libs": ["maths", "english", "maths2"] },
-   "accounting": { "name": "Accounting", "spine": "accounting", "lesson_subject": "accounting", "ids": "a3-", "libs": ["maths", "english", "maths2"] },
-   "logic": { "name": "Logic", "spine": "logic", "lesson_subject": "logic", "ids": "l3-", "libs": ["maths", "english"] },
-   "french": { "name": "French", "spine": "french", "lesson_subject": "french", "ids": "fr3-", "libs": ["maths", "english", "french", "french2"], "lang": "fr" },
-   "francais-intensif": { "name": "Français intensif", "spine": "francais-intensif", "lesson_subject": "francais-intensif", "ids": "fi3-", "libs": ["maths", "english", "french", "french2"], "lang": "fr" }
+   "maths": {
+    "name": "Maths",
+    "spine": "mathematics",
+    "lesson_subject": "mathematics",
+    "ids": "m3-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "english": {
+    "name": "English",
+    "spine": "english-language",
+    "lesson_subject": "english-language",
+    "ids": "e3-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "physics": {
+    "name": "Physics",
+    "spine": "physics",
+    "lesson_subject": "physics",
+    "ids": "p3-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "chemistry": {
+    "name": "Chemistry",
+    "spine": "chemistry",
+    "lesson_subject": "chemistry",
+    "ids": "k3-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "biology": {
+    "name": "Biology",
+    "spine": "biology",
+    "lesson_subject": "biology",
+    "ids": "b3-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "computer-science": {
+    "name": "Computer Science",
+    "spine": "computer-science",
+    "lesson_subject": "computer-science",
+    "ids": "s3-",
+    "libs": [
+     "maths",
+     "english",
+     "computerscience",
+     "maths2",
+     "science2"
+    ]
+   },
+   "geography": {
+    "name": "Geography",
+    "spine": "geography",
+    "lesson_subject": "geography",
+    "ids": "g3-",
+    "libs": [
+     "maths",
+     "english",
+     "geography",
+     "maths2"
+    ]
+   },
+   "history": {
+    "name": "History",
+    "spine": "history",
+    "lesson_subject": "history",
+    "ids": "y3-",
+    "libs": [
+     "maths",
+     "english",
+     "history"
+    ]
+   },
+   "economics": {
+    "name": "Economics",
+    "spine": "economics",
+    "lesson_subject": "economics",
+    "ids": "n3-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "accounting": {
+    "name": "Accounting",
+    "spine": "accounting",
+    "lesson_subject": "accounting",
+    "ids": "a3-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "logic": {
+    "name": "Logic",
+    "spine": "logic",
+    "lesson_subject": "logic",
+    "ids": "l3-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "french": {
+    "name": "French",
+    "spine": "french",
+    "lesson_subject": "french",
+    "ids": "fr3-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "francais-intensif": {
+    "name": "Français intensif",
+    "spine": "francais-intensif",
+    "lesson_subject": "francais-intensif",
+    "ids": "fi3-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   }
+  }
+ },
+ "form-4": {
+  "name": "Form Four",
+  "cls": "Form 4",
+  "prefix": "f4",
+  "subjects": {
+   "accounting": {
+    "name": "Accounting",
+    "spine": "accounting",
+    "lesson_subject": "accounting",
+    "ids": "a4-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "additional-maths": {
+    "name": "Additional Maths",
+    "spine": "additional-mathematics",
+    "lesson_subject": "additional-mathematics",
+    "ids": "am4-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "biology": {
+    "name": "Biology",
+    "spine": "biology",
+    "lesson_subject": "biology",
+    "ids": "b4-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "chemistry": {
+    "name": "Chemistry",
+    "spine": "chemistry",
+    "lesson_subject": "chemistry",
+    "ids": "k4-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "computer-science": {
+    "name": "Computer Science",
+    "spine": "computer-science",
+    "lesson_subject": "computer-science",
+    "ids": "s4-",
+    "libs": [
+     "maths",
+     "english",
+     "computerscience",
+     "maths2",
+     "science2"
+    ]
+   },
+   "economics": {
+    "name": "Economics",
+    "spine": "economics",
+    "lesson_subject": "economics",
+    "ids": "n4-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "english": {
+    "name": "English",
+    "spine": "english-language",
+    "lesson_subject": "english-language",
+    "ids": "e4-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "food-nutrition": {
+    "name": "Food and Nutrition",
+    "spine": "food-and-nutrition",
+    "lesson_subject": "food-and-nutrition",
+    "ids": "fn4-",
+    "libs": [
+     "maths",
+     "english",
+     "homeeconomics",
+     "maths2",
+     "science2"
+    ]
+   },
+   "francais-intensif": {
+    "name": "Français intensif",
+    "spine": "francais-intensif",
+    "lesson_subject": "francais-intensif",
+    "ids": "fi4-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "french": {
+    "name": "French",
+    "spine": "french",
+    "lesson_subject": "french",
+    "ids": "fr4-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "geography": {
+    "name": "Geography",
+    "spine": "geography-ok",
+    "lesson_subject": "geography",
+    "ids": "g4-",
+    "libs": [
+     "maths",
+     "english",
+     "geography",
+     "maths2"
+    ]
+   },
+   "geology": {
+    "name": "Geology",
+    "spine": "geology",
+    "lesson_subject": "geology",
+    "ids": "gl4-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "history": {
+    "name": "History",
+    "spine": "history",
+    "lesson_subject": "history",
+    "ids": "y4-",
+    "libs": [
+     "maths",
+     "english",
+     "history"
+    ]
+   },
+   "human-biology": {
+    "name": "Human Biology",
+    "spine": "human-biology",
+    "lesson_subject": "human-biology",
+    "ids": "hb4-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "literature": {
+    "name": "Literature in English",
+    "spine": "literature-in-english",
+    "lesson_subject": "literature-in-english",
+    "ids": "lit4-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "logic": {
+    "name": "Logic",
+    "spine": "logic",
+    "lesson_subject": "logic",
+    "ids": "l4-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "maths": {
+    "name": "Maths",
+    "spine": "mathematics",
+    "lesson_subject": "mathematics",
+    "ids": "m4-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "physics": {
+    "name": "Physics",
+    "spine": "physics",
+    "lesson_subject": "physics",
+    "ids": "p4-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   }
+  }
+ },
+ "form-5": {
+  "name": "Form Five",
+  "cls": "Form 5",
+  "prefix": "f5",
+  "subjects": {
+   "accounting": {
+    "name": "Accounting",
+    "spine": "accounting",
+    "lesson_subject": "accounting",
+    "ids": "a5-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "additional-maths": {
+    "name": "Additional Maths",
+    "spine": "additional-mathematics",
+    "lesson_subject": "additional-mathematics",
+    "ids": "am5-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "biology": {
+    "name": "Biology",
+    "spine": "biology",
+    "lesson_subject": "biology",
+    "ids": "b5-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "chemistry": {
+    "name": "Chemistry",
+    "spine": "chemistry",
+    "lesson_subject": "chemistry",
+    "ids": "k5-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "computer-science": {
+    "name": "Computer Science",
+    "spine": "computer-science",
+    "lesson_subject": "computer-science",
+    "ids": "s5-",
+    "libs": [
+     "maths",
+     "english",
+     "computerscience",
+     "maths2",
+     "science2"
+    ]
+   },
+   "economics": {
+    "name": "Economics",
+    "spine": "economics",
+    "lesson_subject": "economics",
+    "ids": "n5-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "english": {
+    "name": "English",
+    "spine": "english-language",
+    "lesson_subject": "english-language",
+    "ids": "e5-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "food-nutrition": {
+    "name": "Food and Nutrition",
+    "spine": "food-and-nutrition",
+    "lesson_subject": "food-and-nutrition",
+    "ids": "fn5-",
+    "libs": [
+     "maths",
+     "english",
+     "homeeconomics",
+     "maths2",
+     "science2"
+    ]
+   },
+   "francais-intensif": {
+    "name": "Français intensif",
+    "spine": "francais-intensif",
+    "lesson_subject": "francais-intensif",
+    "ids": "fi5-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "french": {
+    "name": "French",
+    "spine": "french",
+    "lesson_subject": "french",
+    "ids": "fr5-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "geography": {
+    "name": "Geography",
+    "spine": "geography-ok",
+    "lesson_subject": "geography",
+    "ids": "g5-",
+    "libs": [
+     "maths",
+     "english",
+     "geography",
+     "maths2"
+    ]
+   },
+   "geology": {
+    "name": "Geology",
+    "spine": "geology",
+    "lesson_subject": "geology",
+    "ids": "gl5-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "history": {
+    "name": "History",
+    "spine": "history",
+    "lesson_subject": "history",
+    "ids": "y5-",
+    "libs": [
+     "maths",
+     "english",
+     "history"
+    ]
+   },
+   "human-biology": {
+    "name": "Human Biology",
+    "spine": "human-biology",
+    "lesson_subject": "human-biology",
+    "ids": "hb5-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "literature": {
+    "name": "Literature in English",
+    "spine": "literature-in-english",
+    "lesson_subject": "literature-in-english",
+    "ids": "lit5-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "logic": {
+    "name": "Logic",
+    "spine": "logic",
+    "lesson_subject": "logic",
+    "ids": "l5-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "maths": {
+    "name": "Maths",
+    "spine": "mathematics",
+    "lesson_subject": "mathematics",
+    "ids": "m5-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "physics": {
+    "name": "Physics",
+    "spine": "physics",
+    "lesson_subject": "physics",
+    "ids": "p5-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   }
+  }
+ },
+ "lower-sixth": {
+  "name": "Lower Sixth",
+  "cls": "Lower Sixth",
+  "prefix": "l6",
+  "subjects": {
+   "accounting": {
+    "name": "Accounting",
+    "spine": "accounting",
+    "lesson_subject": "accounting",
+    "ids": "al6-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "african-history": {
+    "name": "African History",
+    "spine": "african-history",
+    "lesson_subject": "african-history",
+    "ids": "ahl6-",
+    "libs": [
+     "maths",
+     "english",
+     "history"
+    ]
+   },
+   "biology": {
+    "name": "Biology",
+    "spine": "biology",
+    "lesson_subject": "biology",
+    "ids": "bl6-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "cameroon-history": {
+    "name": "Cameroon History",
+    "spine": "cameroon-history",
+    "lesson_subject": "cameroon-history",
+    "ids": "chl6-",
+    "libs": [
+     "maths",
+     "english",
+     "history"
+    ]
+   },
+   "chemistry": {
+    "name": "Chemistry",
+    "spine": "chemistry",
+    "lesson_subject": "chemistry",
+    "ids": "kl6-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "computer-science": {
+    "name": "Computer Science",
+    "spine": "computer-science",
+    "lesson_subject": "computer-science",
+    "ids": "sl6-",
+    "libs": [
+     "maths",
+     "english",
+     "computerscience",
+     "maths2",
+     "science2"
+    ]
+   },
+   "economics": {
+    "name": "Economics",
+    "spine": "economics",
+    "lesson_subject": "economics",
+    "ids": "nl6-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "english": {
+    "name": "English",
+    "spine": "english-language",
+    "lesson_subject": "english-language",
+    "ids": "el6-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "francais-intensif": {
+    "name": "Français intensif",
+    "spine": "francais-intensif",
+    "lesson_subject": "francais-intensif",
+    "ids": "fil6-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "french": {
+    "name": "French",
+    "spine": "french",
+    "lesson_subject": "french",
+    "ids": "frl6-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "further-maths": {
+    "name": "Further Maths",
+    "spine": "further-mathematics",
+    "lesson_subject": "further-mathematics",
+    "ids": "fml6-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "geography": {
+    "name": "Geography",
+    "spine": "geography-ok",
+    "lesson_subject": "geography",
+    "ids": "gl6-",
+    "libs": [
+     "maths",
+     "english",
+     "geography",
+     "maths2"
+    ]
+   },
+   "geology": {
+    "name": "Geology",
+    "spine": "geology",
+    "lesson_subject": "geology",
+    "ids": "gll6-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "ict": {
+    "name": "ICT",
+    "spine": "ict",
+    "lesson_subject": "ict",
+    "ids": "ictl6-",
+    "libs": [
+     "maths",
+     "english",
+     "computerscience",
+     "maths2",
+     "science2"
+    ]
+   },
+   "literature": {
+    "name": "Literature in English",
+    "spine": "literature-in-english",
+    "lesson_subject": "literature-in-english",
+    "ids": "litl6-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "maths": {
+    "name": "Maths",
+    "spine": "mathematics",
+    "lesson_subject": "mathematics",
+    "ids": "ml6-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "philosophy": {
+    "name": "Philosophy",
+    "spine": "philosophy",
+    "lesson_subject": "philosophy",
+    "ids": "phil6-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "physics": {
+    "name": "Physics",
+    "spine": "physics",
+    "lesson_subject": "physics",
+    "ids": "pl6-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "world-history": {
+    "name": "World History",
+    "spine": "world-history",
+    "lesson_subject": "world-history",
+    "ids": "whl6-",
+    "libs": [
+     "maths",
+     "english",
+     "history"
+    ]
+   }
+  }
+ },
+ "upper-sixth": {
+  "name": "Upper Sixth",
+  "cls": "Upper Sixth",
+  "prefix": "u6",
+  "subjects": {
+   "accounting": {
+    "name": "Accounting",
+    "spine": "accounting",
+    "lesson_subject": "accounting",
+    "ids": "au6-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "biology": {
+    "name": "Biology",
+    "spine": "biology",
+    "lesson_subject": "biology",
+    "ids": "bu6-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "cameroon-history": {
+    "name": "Cameroon History",
+    "spine": "cameroon-history",
+    "lesson_subject": "cameroon-history",
+    "ids": "chu6-",
+    "libs": [
+     "maths",
+     "english",
+     "history"
+    ]
+   },
+   "chemistry": {
+    "name": "Chemistry",
+    "spine": "chemistry",
+    "lesson_subject": "chemistry",
+    "ids": "ku6-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "computer-science": {
+    "name": "Computer Science",
+    "spine": "computer-science",
+    "lesson_subject": "computer-science",
+    "ids": "su6-",
+    "libs": [
+     "maths",
+     "english",
+     "computerscience",
+     "maths2",
+     "science2"
+    ]
+   },
+   "economics": {
+    "name": "Economics",
+    "spine": "economics",
+    "lesson_subject": "economics",
+    "ids": "nu6-",
+    "libs": [
+     "maths",
+     "english",
+     "maths2"
+    ]
+   },
+   "english": {
+    "name": "English",
+    "spine": "english-language",
+    "lesson_subject": "english-language",
+    "ids": "eu6-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "francais-intensif": {
+    "name": "Français intensif",
+    "spine": "francais-intensif",
+    "lesson_subject": "francais-intensif",
+    "ids": "fiu6-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "french": {
+    "name": "French",
+    "spine": "french",
+    "lesson_subject": "french",
+    "ids": "fru6-",
+    "libs": [
+     "maths",
+     "english",
+     "french",
+     "french2"
+    ],
+    "lang": "fr"
+   },
+   "further-maths": {
+    "name": "Further Maths",
+    "spine": "further-mathematics",
+    "lesson_subject": "further-mathematics",
+    "ids": "fmu6-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "geography": {
+    "name": "Geography",
+    "spine": "geography-ok",
+    "lesson_subject": "geography",
+    "ids": "gu6-",
+    "libs": [
+     "maths",
+     "english",
+     "geography",
+     "maths2"
+    ]
+   },
+   "geology": {
+    "name": "Geology",
+    "spine": "geology",
+    "lesson_subject": "geology",
+    "ids": "glu6-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "ict": {
+    "name": "ICT",
+    "spine": "ict",
+    "lesson_subject": "ict",
+    "ids": "ictu6-",
+    "libs": [
+     "maths",
+     "english",
+     "computerscience",
+     "maths2",
+     "science2"
+    ]
+   },
+   "literature": {
+    "name": "Literature in English",
+    "spine": "literature-in-english",
+    "lesson_subject": "literature-in-english",
+    "ids": "litu6-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "philosophy": {
+    "name": "Philosophy",
+    "spine": "philosophy",
+    "lesson_subject": "philosophy",
+    "ids": "phiu6-",
+    "libs": [
+     "maths",
+     "english"
+    ]
+   },
+   "physics": {
+    "name": "Physics",
+    "spine": "physics",
+    "lesson_subject": "physics",
+    "ids": "pu6-",
+    "libs": [
+     "maths",
+     "english",
+     "physics",
+     "chemistry",
+     "biology",
+     "maths2",
+     "science2"
+    ]
+   },
+   "pure-maths-mechanics": {
+    "name": "Pure Maths with Mechanics",
+    "spine": "pure-mathematics-with-mechanics",
+    "lesson_subject": "pure-mathematics-with-mechanics",
+    "ids": "pmmu6-",
+    "libs": [
+     "maths",
+     "maths2",
+     "physics"
+    ]
+   },
+   "pure-maths-statistics": {
+    "name": "Pure Maths with Statistics",
+    "spine": "pure-mathematics-with-statistics",
+    "lesson_subject": "pure-mathematics-with-statistics",
+    "ids": "pmsu6-",
+    "libs": [
+     "maths",
+     "maths2"
+    ]
+   },
+   "world-history": {
+    "name": "World History",
+    "spine": "world-history",
+    "lesson_subject": "world-history",
+    "ids": "whu6-",
+    "libs": [
+     "maths",
+     "english",
+     "history"
+    ]
+   }
   }
  }
 }

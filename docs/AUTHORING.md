@@ -142,7 +142,7 @@ no instructions that need a computer the pupil may not have — describe and sho
 Classes from Form 3 on are listed in `content/classes.json` (id prefix, spine, libraries, language). The build,
 `tests-js/classes-content.test.js` and `npm run review -- <id>` read it, and a subject's lessons are the files
 in its folder — no batch list to edit. Adding a class or subject to `classes.json` is the integrator's job:
-ask if yours is missing. Form 3 is listed; Forms 4, 5, Lower and Upper Sixth have spines but are not listed yet.
+ask if yours is missing. Every class from Form 3 to Upper Sixth is listed (87 subjects); the cinema subjects of the Sixth Form are not, until Dion decides. Ids: f4-maths, f5-…, l6-… (Lower Sixth), u6-… (Upper Sixth).
 
 ## 8. Checking your work
 

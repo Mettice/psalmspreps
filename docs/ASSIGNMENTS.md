@@ -8,10 +8,10 @@ Rules: `docs/AUTHORING.md`. Each author logs in `docs/log/<author>.md`.
 | Class | Term 1 rows | Listed in content/classes.json |
 |---|---|---|
 | Form 3 | 294 | yes |
-| Form 4 | 469 | not yet |
-| Form 5 | 449 | not yet |
-| Lower Sixth | 801 | not yet |
-| Upper Sixth | 897 | not yet |
+| Form 4 | 469 | yes |
+| Form 5 | 449 | yes |
+| Lower Sixth | 801 | yes |
+| Upper Sixth | 897 | yes |
 
 About 2,900 Term 1 rows in all (some sixth-form sheets look inflated by the parser; see each `issues.md`).
 At the pace so far (30–50 good lessons per author per long session), Form 3 Term 1 is a few sessions per author;
@@ -42,7 +42,7 @@ and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the
 
 ## Next (not started)
 
-- Forms 4, 5, Lower and Upper Sixth Term 1: Claude adds them to `content/classes.json` (libraries, id prefixes),
-  then splits them the same way. Sheet errors in each class's `issues.md` need Dion's decisions first.
+- Forms 4, 5, Lower and Upper Sixth Term 1: listed in `content/classes.json` (cinema subjects excepted); to be split
+  the same way once Form 3 Term 1 is done. Sheet errors in each class's `issues.md` need Dion's decisions first.
 - Codex: bring Form 2 Term 3 French (70–81) and Français intensif (104–128) up to the quality bar (4+ questions,
   specific feedback, 3+ variants, Learn screens) when Form 3 is done.

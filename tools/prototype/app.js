@@ -114,7 +114,7 @@ const FR = {
   "Next: Lesson {a}": "Suivant : Leçon {a}", "🔥 {a}-day streak": "🔥 {a} jours d’affilée", "New badge: {a}": "Nouveau badge : {a}", "All subjects": "Toutes les matières", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
 };
 /** A label for the pupil: in French inside a French lesson, otherwise English. {x} are filled from v. */
-const inFrench = (s) => /^(f\d-)?(french|francais-intensif)$/.test(s);  // french, f2-french, f3-francais-intensif …
+const inFrench = (s) => /^((f\d|[lu]6)-)?(french|francais-intensif)$/.test(s);  // french, f2-french, l6-francais-intensif …
 const T = (text, v = {}) => ((inFrench(S) && FR[text]) || text).replace(/\{(\w)\}/g, (_, k) => v[k]);
 
 // ---------------------------------------------------------------- one question, any type
@@ -308,7 +308,7 @@ const STYLE = {
   maths: ["#1d4ed8", "🔢"], english: ["#6d28d9", "📖"], physics: ["#b45309", "⚡"], chemistry: ["#0f766e", "🧪"], geography: ["#2e7d32", "🌍"],
   "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"], accounting: ["#556b2f", "🧾"], "francais-intensif": ["#6a1b9a", "📖"],
 };
-const styleOf = (s) => STYLE[s] || STYLE[s.replace(/^f\d-/, "")];  // a Form 2, 3 … subject looks like its Form One subject
+const styleOf = (s) => STYLE[s] || STYLE[s.replace(/^(f\d|[lu]6)-/, "")];  // a Form 2 … Upper Sixth subject looks like its Form One subject
 const colourOf = (s) => (styleOf(s) || ["#1f6f4a"])[0];
 const iconOf = (s) => (styleOf(s) || ["", "📘"])[1];
 const tinted = (s, ...kids) => { const e = el(...kids); e.style.setProperty("--subj", colourOf(s)); return e; };
