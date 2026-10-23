@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 50,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-50",
+   "name": "Préparer la mélodie d’une phrase impérative"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’intonation organise la voix et contribue à l’intention. La structure grammaticale et la ponctuation donnent des indices, mais elles ne fixent pas chaque mouvement de hauteur. Une phrase peut être informative, expressive ou contrastive selon le contexte. Cette leçon prépare la lecture écrite et les groupes de sens ; elle ne teste ni l’écoute ni la prononciation. Une réalisation sonore guidée par l’enseignant reste nécessaire.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "L’intonation organise la voix et contribue à l’intention. La structure grammaticale et la ponctuation donnent des indices, mais elles ne fixent pas chaque mouvement de hauteur. Une phrase peut être informative, expressive ou contrastive selon le contexte. Cette leçon prépare la lecture écrite et les groupes de sens ; elle ne teste ni l’écoute ni la prononciation. Une réalisation sonore guidée par l’enseignant reste nécessaire."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Phrase modèle : {fr2Imperatif('écouter',1)} la consigne. Le verbe {fr2Imperatif('écouter',1)} invite le groupe à agir. Le ton peut exprimer une demande calme ou une consigne ferme selon le contexte. Un ordre ne doit pas être automatiquement crié ; la voix ne peut pas être évaluée sur cette page."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Identifie d’abord la structure et le sens. Marque les groupes de sens sur le texte, puis explique l’intention sans inventer un son que tu n’as pas entendu. Compare ensuite des réalisations avec l’enseignant. Ne confonds pas négation et interrogation, ni impératif et cri."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "structure grammaticale",
+    "meaning": "l’organisation des mots indépendamment d’une réalisation particulière de la voix"
+   },
+   {
+    "word": "intonation",
+    "meaning": "l’évolution de la hauteur de la voix dans l’énoncé"
+   },
+   {
+    "word": "groupe de sens",
+    "meaning": "une unité de mots à garder compréhensible dans la diction"
+   },
+   {
+    "word": "intention du locuteur",
+    "meaning": "le but de la prise de parole dans son contexte"
+   }
+  ],
+  "examples": [
+   "Une négation peut rester dans une phrase déclarative.",
+   "Un modèle sonore permet de comparer une fin montante et une fin descendante.",
+   "Le lecteur prépare une séparation après une idée complète."
+  ],
+  "mistake": {
+   "wrong": "La présence de ne transforme toujours la phrase en question.",
+   "right": "structure grammaticale: l’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+   "why": "La négation et le type interrogatif sont deux analyses distinctes."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une négation peut rester dans une phrase déclarative. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "L’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+   "La négation et le type interrogatif sont deux analyses distinctes."
+  ],
+  "answer": "structure grammaticale",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-50-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "structure grammaticale: l’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+     "intonation: l’évolution de la hauteur de la voix dans l’énoncé.",
+     "groupe de sens: une unité de mots à garder compréhensible dans la diction.",
+     "intention du locuteur: le but de la prise de parole dans son contexte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-50-terms"
+    }
+   },
+   {
+    "id": "cfi3-50-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Une négation peut rester dans une phrase déclarative.",
+     "structure grammaticale: l’organisation des mots indépendamment d’une réalisation particulière de la voix."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-50-cases"
+    }
+   },
+   {
+    "id": "cfi3-50-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "La présence de ne transforme toujours la phrase en question.",
+     "La négation et le type interrogatif sont deux analyses distinctes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-50-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "structure grammaticale : l’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : structure grammaticale désigne l’organisation des mots indépendamment d’une réalisation particulière de la voix. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "intonation : l’évolution de la hauteur de la voix dans l’énoncé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : intonation désigne l’évolution de la hauteur de la voix dans l’énoncé. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "groupe de sens : une unité de mots à garder compréhensible dans la diction.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : groupe de sens désigne une unité de mots à garder compréhensible dans la diction. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "intention du locuteur : le but de la prise de parole dans son contexte.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : intention du locuteur désigne le but de la prise de parole dans son contexte. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "La présence de ne transforme toujours la phrase en question.",
+        "truth": "false",
+        "explain": "La négation et le type interrogatif sont deux analyses distinctes."
+       },
+       {
+        "text": "Une page muette permet d’entendre réellement la voix.",
+        "truth": "false",
+        "explain": "Le texte prépare ; un modèle sonore fournit le son."
+       },
+       {
+        "text": "Couper chaque mot au milieu facilite toujours le sens.",
+        "truth": "false",
+        "explain": "Les coupures doivent respecter les unités de sens."
+       },
+       {
+        "text": "Toutes les phrases impératives doivent obligatoirement être criées.",
+        "truth": "false",
+        "explain": "La force et la hauteur dépendent du contexte et de l’intention."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-50-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : l’organisation des mots indépendamment d’une réalisation particulière de la voix ?",
+       "r": "structure grammaticale",
+       "w": [
+        "intonation",
+        "groupe de sens",
+        "intention du locuteur"
+       ],
+       "e": [
+        "« intonation » désigne l’évolution de la hauteur de la voix dans l’énoncé. Ici, cherche l’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+        "« groupe de sens » désigne une unité de mots à garder compréhensible dans la diction. Ici, cherche l’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+        "« intention du locuteur » désigne le but de la prise de parole dans son contexte. Ici, cherche l’organisation des mots indépendamment d’une réalisation particulière de la voix."
+       ],
+       "y": "L’organisation des mots indépendamment d’une réalisation particulière de la voix."
+      },
+      {
+       "q": "Quel terme désigne : l’évolution de la hauteur de la voix dans l’énoncé ?",
+       "r": "intonation",
+       "w": [
+        "structure grammaticale",
+        "groupe de sens",
+        "intention du locuteur"
+       ],
+       "e": [
+        "« structure grammaticale » désigne l’organisation des mots indépendamment d’une réalisation particulière de la voix. Ici, cherche l’évolution de la hauteur de la voix dans l’énoncé.",
+        "« groupe de sens » désigne une unité de mots à garder compréhensible dans la diction. Ici, cherche l’évolution de la hauteur de la voix dans l’énoncé.",
+        "« intention du locuteur » désigne le but de la prise de parole dans son contexte. Ici, cherche l’évolution de la hauteur de la voix dans l’énoncé."
+       ],
+       "y": "L’évolution de la hauteur de la voix dans l’énoncé."
+      },
+      {
+       "q": "Quel terme désigne : une unité de mots à garder compréhensible dans la diction ?",
+       "r": "groupe de sens",
+       "w": [
+        "structure grammaticale",
+        "intonation",
+        "intention du locuteur"
+       ],
+       "e": [
+        "« structure grammaticale » désigne l’organisation des mots indépendamment d’une réalisation particulière de la voix. Ici, cherche une unité de mots à garder compréhensible dans la diction.",
+        "« intonation » désigne l’évolution de la hauteur de la voix dans l’énoncé. Ici, cherche une unité de mots à garder compréhensible dans la diction.",
+        "« intention du locuteur » désigne le but de la prise de parole dans son contexte. Ici, cherche une unité de mots à garder compréhensible dans la diction."
+       ],
+       "y": "Une unité de mots à garder compréhensible dans la diction."
+      },
+      {
+       "q": "Quel terme désigne : le but de la prise de parole dans son contexte ?",
+       "r": "intention du locuteur",
+       "w": [
+        "structure grammaticale",
+        "intonation",
+        "groupe de sens"
+       ],
+       "e": [
+        "« structure grammaticale » désigne l’organisation des mots indépendamment d’une réalisation particulière de la voix. Ici, cherche le but de la prise de parole dans son contexte.",
+        "« intonation » désigne l’évolution de la hauteur de la voix dans l’énoncé. Ici, cherche le but de la prise de parole dans son contexte.",
+        "« groupe de sens » désigne une unité de mots à garder compréhensible dans la diction. Ici, cherche le but de la prise de parole dans son contexte."
+       ],
+       "y": "Le but de la prise de parole dans son contexte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-50-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une négation peut rester dans une phrase déclarative.\nQuel terme s’applique le mieux ?",
+       "r": "structure grammaticale",
+       "w": [
+        "intonation",
+        "groupe de sens",
+        "intention du locuteur"
+       ],
+       "e": [
+        "« intonation » concerne l’évolution de la hauteur de la voix dans l’énoncé. Le cas décrit plutôt l’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+        "« groupe de sens » concerne une unité de mots à garder compréhensible dans la diction. Le cas décrit plutôt l’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+        "« intention du locuteur » concerne le but de la prise de parole dans son contexte. Le cas décrit plutôt l’organisation des mots indépendamment d’une réalisation particulière de la voix."
+       ],
+       "y": "Une négation peut rester dans une phrase déclarative. L’organisation des mots indépendamment d’une réalisation particulière de la voix."
+      },
+      {
+       "q": "Un modèle sonore permet de comparer une fin montante et une fin descendante.\nQuel terme s’applique le mieux ?",
+       "r": "intonation",
+       "w": [
+        "structure grammaticale",
+        "groupe de sens",
+        "intention du locuteur"
+       ],
+       "e": [
+        "« structure grammaticale » concerne l’organisation des mots indépendamment d’une réalisation particulière de la voix. Le cas décrit plutôt l’évolution de la hauteur de la voix dans l’énoncé.",
+        "« groupe de sens » concerne une unité de mots à garder compréhensible dans la diction. Le cas décrit plutôt l’évolution de la hauteur de la voix dans l’énoncé.",
+        "« intention du locuteur » concerne le but de la prise de parole dans son contexte. Le cas décrit plutôt l’évolution de la hauteur de la voix dans l’énoncé."
+       ],
+       "y": "Un modèle sonore permet de comparer une fin montante et une fin descendante. L’évolution de la hauteur de la voix dans l’énoncé."
+      },
+      {
+       "q": "Le lecteur prépare une séparation après une idée complète.\nQuel terme s’applique le mieux ?",
+       "r": "groupe de sens",
+       "w": [
+        "structure grammaticale",
+        "intonation",
+        "intention du locuteur"
+       ],
+       "e": [
+        "« structure grammaticale » concerne l’organisation des mots indépendamment d’une réalisation particulière de la voix. Le cas décrit plutôt une unité de mots à garder compréhensible dans la diction.",
+        "« intonation » concerne l’évolution de la hauteur de la voix dans l’énoncé. Le cas décrit plutôt une unité de mots à garder compréhensible dans la diction.",
+        "« intention du locuteur » concerne le but de la prise de parole dans son contexte. Le cas décrit plutôt une unité de mots à garder compréhensible dans la diction."
+       ],
+       "y": "Le lecteur prépare une séparation après une idée complète. Une unité de mots à garder compréhensible dans la diction."
+      },
+      {
+       "q": "La même structure peut être dite calmement pour informer.\nQuel terme s’applique le mieux ?",
+       "r": "intention du locuteur",
+       "w": [
+        "structure grammaticale",
+        "intonation",
+        "groupe de sens"
+       ],
+       "e": [
+        "« structure grammaticale » concerne l’organisation des mots indépendamment d’une réalisation particulière de la voix. Le cas décrit plutôt le but de la prise de parole dans son contexte.",
+        "« intonation » concerne l’évolution de la hauteur de la voix dans l’énoncé. Le cas décrit plutôt le but de la prise de parole dans son contexte.",
+        "« groupe de sens » concerne une unité de mots à garder compréhensible dans la diction. Le cas décrit plutôt le but de la prise de parole dans son contexte."
+       ],
+       "y": "La même structure peut être dite calmement pour informer. Le but de la prise de parole dans son contexte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-50-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une négation peut rester dans une phrase déclarative.\nQuelle explication justifie le classement ?",
+       "r": "L’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+       "w": [
+        "L’évolution de la hauteur de la voix dans l’énoncé.",
+        "Une unité de mots à garder compréhensible dans la diction.",
+        "Le but de la prise de parole dans son contexte."
+       ],
+       "e": [
+        "Cette explication correspond à « intonation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « groupe de sens ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « intention du locuteur ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La négation et le type interrogatif sont deux analyses distinctes."
+      },
+      {
+       "q": "Un modèle sonore permet de comparer une fin montante et une fin descendante.\nQuelle explication justifie le classement ?",
+       "r": "L’évolution de la hauteur de la voix dans l’énoncé.",
+       "w": [
+        "L’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+        "Une unité de mots à garder compréhensible dans la diction.",
+        "Le but de la prise de parole dans son contexte."
+       ],
+       "e": [
+        "Cette explication correspond à « structure grammaticale ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « groupe de sens ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « intention du locuteur ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le texte prépare ; un modèle sonore fournit le son."
+      },
+      {
+       "q": "Le lecteur prépare une séparation après une idée complète.\nQuelle explication justifie le classement ?",
+       "r": "Une unité de mots à garder compréhensible dans la diction.",
+       "w": [
+        "L’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+        "L’évolution de la hauteur de la voix dans l’énoncé.",
+        "Le but de la prise de parole dans son contexte."
+       ],
+       "e": [
+        "Cette explication correspond à « structure grammaticale ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « intonation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « intention du locuteur ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les coupures doivent respecter les unités de sens."
+      },
+      {
+       "q": "La même structure peut être dite calmement pour informer.\nQuelle explication justifie le classement ?",
+       "r": "Le but de la prise de parole dans son contexte.",
+       "w": [
+        "L’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+        "L’évolution de la hauteur de la voix dans l’énoncé.",
+        "Une unité de mots à garder compréhensible dans la diction."
+       ],
+       "e": [
+        "Cette explication correspond à « structure grammaticale ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « intonation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « groupe de sens ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La force et la hauteur dépendent du contexte et de l’intention."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-50-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "structure grammaticale",
+     "right": "Une négation peut rester dans une phrase déclarative."
+    },
+    {
+     "left": "intonation",
+     "right": "Un modèle sonore permet de comparer une fin montante et une fin descendante."
+    },
+    {
+     "left": "groupe de sens",
+     "right": "Le lecteur prépare une séparation après une idée complète."
+    },
+    {
+     "left": "intention du locuteur",
+     "right": "La même structure peut être dite calmement pour informer."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-50-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "structure grammaticale : l’organisation des mots indépendamment d’une réalisation particulière de la voix.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : structure grammaticale désigne l’organisation des mots indépendamment d’une réalisation particulière de la voix. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "intonation : l’évolution de la hauteur de la voix dans l’énoncé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : intonation désigne l’évolution de la hauteur de la voix dans l’énoncé. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "groupe de sens : une unité de mots à garder compréhensible dans la diction.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : groupe de sens désigne une unité de mots à garder compréhensible dans la diction. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "intention du locuteur : le but de la prise de parole dans son contexte.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : intention du locuteur désigne le but de la prise de parole dans son contexte. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La présence de ne transforme toujours la phrase en question.",
+      "truth": "false",
+      "explain": "La négation et le type interrogatif sont deux analyses distinctes."
+     },
+     {
+      "text": "Une page muette permet d’entendre réellement la voix.",
+      "truth": "false",
+      "explain": "Le texte prépare ; un modèle sonore fournit le son."
+     },
+     {
+      "text": "Couper chaque mot au milieu facilite toujours le sens.",
+      "truth": "false",
+      "explain": "Les coupures doivent respecter les unités de sens."
+     },
+     {
+      "text": "Toutes les phrases impératives doivent obligatoirement être criées.",
+      "truth": "false",
+      "explain": "La force et la hauteur dépendent du contexte et de l’intention."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

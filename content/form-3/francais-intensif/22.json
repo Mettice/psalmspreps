@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 22,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-22",
+   "name": "Pronoms personnels après une préposition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Après une préposition conservée comme avec, pour ou chez, on emploie les formes disjointes moi, toi, lui, elle, nous, vous, eux, elles. Leur n’est pas la forme attendue dans avec eux. Attention : préposition et proposition sont deux termes différents ; la ligne du spine semble employer le second à la place du premier. La transformation dépend toujours du verbe : penser à lui ne se construit pas exactement comme lui parler.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Après une préposition conservée comme avec, pour ou chez, on emploie les formes disjointes moi, toi, lui, elle, nous, vous, eux, elles. Leur n’est pas la forme attendue dans avec eux. Attention : préposition et proposition sont deux termes différents ; la ligne du spine semble employer le second à la place du premier. La transformation dépend toujours du verbe : penser à lui ne se construit pas exactement comme lui parler."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Bih travaille avec moi ; le livre reste chez elle ; Ayuk apporte un cahier pour eux ; un personnage pense à toi. Dans chaque modèle, le pronom suit une préposition présente à l’écrit. Le choix du pronom respecte la personne et le nombre du groupe remplacé."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère la préposition, le référent et le nombre. Choisis la forme disjointe appropriée et relis le groupe entier. Ne remplace pas eux par leur après avec et ne transforme pas mécaniquement penser à elle en lui penser."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "moi",
+    "meaning": "la forme disjointe de la personne qui parle"
+   },
+   {
+    "word": "toi",
+    "meaning": "la forme disjointe de la personne tutoyée"
+   },
+   {
+    "word": "elle",
+    "meaning": "la forme disjointe féminine singulière du modèle"
+   },
+   {
+    "word": "eux",
+    "meaning": "la forme disjointe masculine plurielle du modèle"
+   }
+  ],
+  "examples": [
+   "Le modèle écrit avec moi.",
+   "Le modèle écrit pour toi.",
+   "Chez elle renvoie à une personne féminine singulière."
+  ],
+  "mistake": {
+   "wrong": "Après avec, la forme me remplace toujours moi.",
+   "right": "moi: la forme disjointe de la personne qui parle.",
+   "why": "Me est une forme conjointe ; ici on attend moi."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le modèle écrit avec moi. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "La forme disjointe de la personne qui parle.",
+   "Me est une forme conjointe ; ici on attend moi."
+  ],
+  "answer": "moi",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-22-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "moi: la forme disjointe de la personne qui parle.",
+     "toi: la forme disjointe de la personne tutoyée.",
+     "elle: la forme disjointe féminine singulière du modèle.",
+     "eux: la forme disjointe masculine plurielle du modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-22-terms"
+    }
+   },
+   {
+    "id": "cfi3-22-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le modèle écrit avec moi.",
+     "moi: la forme disjointe de la personne qui parle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-22-cases"
+    }
+   },
+   {
+    "id": "cfi3-22-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Après avec, la forme me remplace toujours moi.",
+     "Me est une forme conjointe ; ici on attend moi."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-22-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "moi : la forme disjointe de la personne qui parle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : moi désigne la forme disjointe de la personne qui parle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "toi : la forme disjointe de la personne tutoyée.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : toi désigne la forme disjointe de la personne tutoyée. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "elle : la forme disjointe féminine singulière du modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : elle désigne la forme disjointe féminine singulière du modèle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "eux : la forme disjointe masculine plurielle du modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : eux désigne la forme disjointe masculine plurielle du modèle. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Après avec, la forme me remplace toujours moi.",
+        "truth": "false",
+        "explain": "Me est une forme conjointe ; ici on attend moi."
+       },
+       {
+        "text": "Pour te est un groupe complet équivalent à pour toi sans autre verbe.",
+        "truth": "false",
+        "explain": "Le groupe prépositionnel complet demande ici toi."
+       },
+       {
+        "text": "Chez elle désigne obligatoirement un groupe masculin pluriel.",
+        "truth": "false",
+        "explain": "Le référent étudié est féminin singulier."
+       },
+       {
+        "text": "Avec leur est la forme disjointe attendue pour ce groupe.",
+        "truth": "false",
+        "explain": "Après avec, on emploie ici eux, pas leur."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-22-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : la forme disjointe de la personne qui parle ?",
+       "r": "moi",
+       "w": [
+        "toi",
+        "elle",
+        "eux"
+       ],
+       "e": [
+        "« toi » désigne la forme disjointe de la personne tutoyée. Ici, cherche la forme disjointe de la personne qui parle.",
+        "« elle » désigne la forme disjointe féminine singulière du modèle. Ici, cherche la forme disjointe de la personne qui parle.",
+        "« eux » désigne la forme disjointe masculine plurielle du modèle. Ici, cherche la forme disjointe de la personne qui parle."
+       ],
+       "y": "La forme disjointe de la personne qui parle."
+      },
+      {
+       "q": "Quel terme désigne : la forme disjointe de la personne tutoyée ?",
+       "r": "toi",
+       "w": [
+        "moi",
+        "elle",
+        "eux"
+       ],
+       "e": [
+        "« moi » désigne la forme disjointe de la personne qui parle. Ici, cherche la forme disjointe de la personne tutoyée.",
+        "« elle » désigne la forme disjointe féminine singulière du modèle. Ici, cherche la forme disjointe de la personne tutoyée.",
+        "« eux » désigne la forme disjointe masculine plurielle du modèle. Ici, cherche la forme disjointe de la personne tutoyée."
+       ],
+       "y": "La forme disjointe de la personne tutoyée."
+      },
+      {
+       "q": "Quel terme désigne : la forme disjointe féminine singulière du modèle ?",
+       "r": "elle",
+       "w": [
+        "moi",
+        "toi",
+        "eux"
+       ],
+       "e": [
+        "« moi » désigne la forme disjointe de la personne qui parle. Ici, cherche la forme disjointe féminine singulière du modèle.",
+        "« toi » désigne la forme disjointe de la personne tutoyée. Ici, cherche la forme disjointe féminine singulière du modèle.",
+        "« eux » désigne la forme disjointe masculine plurielle du modèle. Ici, cherche la forme disjointe féminine singulière du modèle."
+       ],
+       "y": "La forme disjointe féminine singulière du modèle."
+      },
+      {
+       "q": "Quel terme désigne : la forme disjointe masculine plurielle du modèle ?",
+       "r": "eux",
+       "w": [
+        "moi",
+        "toi",
+        "elle"
+       ],
+       "e": [
+        "« moi » désigne la forme disjointe de la personne qui parle. Ici, cherche la forme disjointe masculine plurielle du modèle.",
+        "« toi » désigne la forme disjointe de la personne tutoyée. Ici, cherche la forme disjointe masculine plurielle du modèle.",
+        "« elle » désigne la forme disjointe féminine singulière du modèle. Ici, cherche la forme disjointe masculine plurielle du modèle."
+       ],
+       "y": "La forme disjointe masculine plurielle du modèle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-22-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le modèle écrit avec moi.\nQuel terme s’applique le mieux ?",
+       "r": "moi",
+       "w": [
+        "toi",
+        "elle",
+        "eux"
+       ],
+       "e": [
+        "« toi » concerne la forme disjointe de la personne tutoyée. Le cas décrit plutôt la forme disjointe de la personne qui parle.",
+        "« elle » concerne la forme disjointe féminine singulière du modèle. Le cas décrit plutôt la forme disjointe de la personne qui parle.",
+        "« eux » concerne la forme disjointe masculine plurielle du modèle. Le cas décrit plutôt la forme disjointe de la personne qui parle."
+       ],
+       "y": "Le modèle écrit avec moi. La forme disjointe de la personne qui parle."
+      },
+      {
+       "q": "Le modèle écrit pour toi.\nQuel terme s’applique le mieux ?",
+       "r": "toi",
+       "w": [
+        "moi",
+        "elle",
+        "eux"
+       ],
+       "e": [
+        "« moi » concerne la forme disjointe de la personne qui parle. Le cas décrit plutôt la forme disjointe de la personne tutoyée.",
+        "« elle » concerne la forme disjointe féminine singulière du modèle. Le cas décrit plutôt la forme disjointe de la personne tutoyée.",
+        "« eux » concerne la forme disjointe masculine plurielle du modèle. Le cas décrit plutôt la forme disjointe de la personne tutoyée."
+       ],
+       "y": "Le modèle écrit pour toi. La forme disjointe de la personne tutoyée."
+      },
+      {
+       "q": "Chez elle renvoie à une personne féminine singulière.\nQuel terme s’applique le mieux ?",
+       "r": "elle",
+       "w": [
+        "moi",
+        "toi",
+        "eux"
+       ],
+       "e": [
+        "« moi » concerne la forme disjointe de la personne qui parle. Le cas décrit plutôt la forme disjointe féminine singulière du modèle.",
+        "« toi » concerne la forme disjointe de la personne tutoyée. Le cas décrit plutôt la forme disjointe féminine singulière du modèle.",
+        "« eux » concerne la forme disjointe masculine plurielle du modèle. Le cas décrit plutôt la forme disjointe féminine singulière du modèle."
+       ],
+       "y": "Chez elle renvoie à une personne féminine singulière. La forme disjointe féminine singulière du modèle."
+      },
+      {
+       "q": "Avec eux renvoie au groupe masculin ou mixte étudié.\nQuel terme s’applique le mieux ?",
+       "r": "eux",
+       "w": [
+        "moi",
+        "toi",
+        "elle"
+       ],
+       "e": [
+        "« moi » concerne la forme disjointe de la personne qui parle. Le cas décrit plutôt la forme disjointe masculine plurielle du modèle.",
+        "« toi » concerne la forme disjointe de la personne tutoyée. Le cas décrit plutôt la forme disjointe masculine plurielle du modèle.",
+        "« elle » concerne la forme disjointe féminine singulière du modèle. Le cas décrit plutôt la forme disjointe masculine plurielle du modèle."
+       ],
+       "y": "Avec eux renvoie au groupe masculin ou mixte étudié. La forme disjointe masculine plurielle du modèle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-22-completer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : Bih travaille avec ___ (la personne qui parle).",
+       "r": "moi",
+       "w": [
+        "me",
+        "je",
+        "mon"
+       ],
+       "e": [
+        "Me est une forme conjointe, pas la forme après avec.",
+        "Je est une forme sujet.",
+        "Mon est un déterminant possessif."
+       ],
+       "y": "Après avec, la personne qui parle est représentée par moi."
+      },
+      {
+       "q": "Complète : Le cahier est pour ___ (la personne tutoyée).",
+       "r": "toi",
+       "w": [
+        "te",
+        "tu",
+        "ton"
+       ],
+       "e": [
+        "Te est une forme conjointe.",
+        "Tu est une forme sujet.",
+        "Ton accompagne un nom comme déterminant."
+       ],
+       "y": "La forme disjointe attendue est toi."
+      },
+      {
+       "q": "Complète : Bih vient avec ___ (le groupe masculin désigné).",
+       "r": "eux",
+       "w": [
+        "leur",
+        "ils",
+        "les"
+       ],
+       "e": [
+        "Leur est ici une forme conjointe ou un déterminant, pas la forme après avec.",
+        "Ils est une forme sujet.",
+        "Les est une forme conjointe ou un article."
+       ],
+       "y": "Avec conserve une forme disjointe : eux."
+      },
+      {
+       "q": "Complète : Le livre reste chez ___ (Bih, personne féminine).",
+       "r": "elle",
+       "w": [
+        "lui",
+        "la",
+        "elles"
+       ],
+       "e": [
+        "Lui disjoint est masculin dans ce groupe.",
+        "La ne forme pas ce groupe prépositionnel complet.",
+        "Elles changerait le nombre du référent."
+       ],
+       "y": "Bih est ici le référent féminin singulier, donc elle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-22-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "moi",
+     "right": "Le modèle écrit avec moi."
+    },
+    {
+     "left": "toi",
+     "right": "Le modèle écrit pour toi."
+    },
+    {
+     "left": "elle",
+     "right": "Chez elle renvoie à une personne féminine singulière."
+    },
+    {
+     "left": "eux",
+     "right": "Avec eux renvoie au groupe masculin ou mixte étudié."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-22-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "moi : la forme disjointe de la personne qui parle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : moi désigne la forme disjointe de la personne qui parle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "toi : la forme disjointe de la personne tutoyée.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : toi désigne la forme disjointe de la personne tutoyée. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "elle : la forme disjointe féminine singulière du modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : elle désigne la forme disjointe féminine singulière du modèle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "eux : la forme disjointe masculine plurielle du modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : eux désigne la forme disjointe masculine plurielle du modèle. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Après avec, la forme me remplace toujours moi.",
+      "truth": "false",
+      "explain": "Me est une forme conjointe ; ici on attend moi."
+     },
+     {
+      "text": "Pour te est un groupe complet équivalent à pour toi sans autre verbe.",
+      "truth": "false",
+      "explain": "Le groupe prépositionnel complet demande ici toi."
+     },
+     {
+      "text": "Chez elle désigne obligatoirement un groupe masculin pluriel.",
+      "truth": "false",
+      "explain": "Le référent étudié est féminin singulier."
+     },
+     {
+      "text": "Avec leur est la forme disjointe attendue pour ce groupe.",
+      "truth": "false",
+      "explain": "Après avec, on emploie ici eux, pas leur."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

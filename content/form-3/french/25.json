@@ -1,0 +1,553 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 25,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-25",
+   "name": "Les adverbes de manière"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un adverbe de manière précise comment une action se réalise. Il est invariable. Beaucoup se forment sur le féminin de l’adjectif suivi de -ment ; d’autres suivent une autre graphie. Prudence : l’adverbe ne qualifie pas le nom comme un adjectif et ne prend pas son pluriel. La formation doit être vérifiée, surtout pour les mots en -ant, -ent et les formes particulières.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Un adverbe de manière précise comment une action se réalise. Il est invariable. Beaucoup se forment sur le féminin de l’adjectif suivi de -ment ; d’autres suivent une autre graphie. Prudence : l’adverbe ne qualifie pas le nom comme un adjectif et ne prend pas son pluriel. La formation doit être vérifiée, surtout pour les mots en -ant, -ent et les formes particulières."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Bih répond {fr2Adverb('lent')}, Ayuk parle {fr2Adverb('poli')}, et le groupe agit {fr2Adverb('prudent')}. Ces mots précisent la manière de répondre, parler ou agir. Comparons une réponse polie et répondre {fr2Adverb('poli')} : la fonction change, donc la forme aussi."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère le verbe modifié, demande comment et choisis l’adverbe. Vérifie la formation au lieu d’ajouter -ment sans réflexion. Ne lui donne pas de marque de genre ou de nombre."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "manière",
+    "meaning": "la façon dont se déroule l’action"
+   },
+   {
+    "word": "invariabilité",
+    "meaning": "l’absence d’accord de l’adverbe en genre et en nombre"
+   },
+   {
+    "word": "formation régulière",
+    "meaning": "une construction fréquente sur le féminin suivi de -ment"
+   },
+   {
+    "word": "forme particulière",
+    "meaning": "une graphie qui nécessite une règle ou une mémorisation adaptée"
+   }
+  ],
+  "examples": [
+   "La question comment porte sur la façon de faire.",
+   "Un même adverbe accompagne un sujet singulier ou pluriel.",
+   "Lent donne {fr2Adverb('lent')} dans le modèle."
+  ],
+  "mistake": {
+   "wrong": "La manière signifie toujours combien d’objets existent.",
+   "right": "manière: la façon dont se déroule l’action.",
+   "why": "Comment vise la façon ; combien vise une quantité."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "La question comment porte sur la façon de faire. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "La façon dont se déroule l’action.",
+   "Comment vise la façon ; combien vise une quantité."
+  ],
+  "answer": "manière",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-25-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "manière: la façon dont se déroule l’action.",
+     "invariabilité: l’absence d’accord de l’adverbe en genre et en nombre.",
+     "formation régulière: une construction fréquente sur le féminin suivi de -ment.",
+     "forme particulière: une graphie qui nécessite une règle ou une mémorisation adaptée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-25-terms"
+    }
+   },
+   {
+    "id": "cfr3-25-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "La question comment porte sur la façon de faire.",
+     "manière: la façon dont se déroule l’action."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-25-cases"
+    }
+   },
+   {
+    "id": "cfr3-25-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "La manière signifie toujours combien d’objets existent.",
+     "Comment vise la façon ; combien vise une quantité."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-25-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "manière : la façon dont se déroule l’action.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : manière désigne la façon dont se déroule l’action. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "invariabilité : l’absence d’accord de l’adverbe en genre et en nombre.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : invariabilité désigne l’absence d’accord de l’adverbe en genre et en nombre. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "formation régulière : une construction fréquente sur le féminin suivi de -ment.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : formation régulière désigne une construction fréquente sur le féminin suivi de -ment. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "forme particulière : une graphie qui nécessite une règle ou une mémorisation adaptée.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : forme particulière désigne une graphie qui nécessite une règle ou une mémorisation adaptée. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "La manière signifie toujours combien d’objets existent.",
+        "truth": "false",
+        "explain": "Comment vise la façon ; combien vise une quantité."
+       },
+       {
+        "text": "Un adverbe prend toujours -s avec un sujet pluriel.",
+        "truth": "false",
+        "explain": "L’adverbe ne s’accorde pas avec le sujet."
+       },
+       {
+        "text": "On ajoute toujours -ment à n’importe quel mot sans changement.",
+        "truth": "false",
+        "explain": "La base et les exceptions doivent être vérifiées."
+       },
+       {
+        "text": "Prudent donne obligatoirement prudentement.",
+        "truth": "false",
+        "explain": "Les adjectifs en -ent donnent souvent un adverbe en -emment."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-25-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : la façon dont se déroule l’action ?",
+       "r": "manière",
+       "w": [
+        "invariabilité",
+        "formation régulière",
+        "forme particulière"
+       ],
+       "e": [
+        "« invariabilité » désigne l’absence d’accord de l’adverbe en genre et en nombre. Ici, cherche la façon dont se déroule l’action.",
+        "« formation régulière » désigne une construction fréquente sur le féminin suivi de -ment. Ici, cherche la façon dont se déroule l’action.",
+        "« forme particulière » désigne une graphie qui nécessite une règle ou une mémorisation adaptée. Ici, cherche la façon dont se déroule l’action."
+       ],
+       "y": "La façon dont se déroule l’action."
+      },
+      {
+       "q": "Quel terme désigne : l’absence d’accord de l’adverbe en genre et en nombre ?",
+       "r": "invariabilité",
+       "w": [
+        "manière",
+        "formation régulière",
+        "forme particulière"
+       ],
+       "e": [
+        "« manière » désigne la façon dont se déroule l’action. Ici, cherche l’absence d’accord de l’adverbe en genre et en nombre.",
+        "« formation régulière » désigne une construction fréquente sur le féminin suivi de -ment. Ici, cherche l’absence d’accord de l’adverbe en genre et en nombre.",
+        "« forme particulière » désigne une graphie qui nécessite une règle ou une mémorisation adaptée. Ici, cherche l’absence d’accord de l’adverbe en genre et en nombre."
+       ],
+       "y": "L’absence d’accord de l’adverbe en genre et en nombre."
+      },
+      {
+       "q": "Quel terme désigne : une construction fréquente sur le féminin suivi de -ment ?",
+       "r": "formation régulière",
+       "w": [
+        "manière",
+        "invariabilité",
+        "forme particulière"
+       ],
+       "e": [
+        "« manière » désigne la façon dont se déroule l’action. Ici, cherche une construction fréquente sur le féminin suivi de -ment.",
+        "« invariabilité » désigne l’absence d’accord de l’adverbe en genre et en nombre. Ici, cherche une construction fréquente sur le féminin suivi de -ment.",
+        "« forme particulière » désigne une graphie qui nécessite une règle ou une mémorisation adaptée. Ici, cherche une construction fréquente sur le féminin suivi de -ment."
+       ],
+       "y": "Une construction fréquente sur le féminin suivi de -ment."
+      },
+      {
+       "q": "Quel terme désigne : une graphie qui nécessite une règle ou une mémorisation adaptée ?",
+       "r": "forme particulière",
+       "w": [
+        "manière",
+        "invariabilité",
+        "formation régulière"
+       ],
+       "e": [
+        "« manière » désigne la façon dont se déroule l’action. Ici, cherche une graphie qui nécessite une règle ou une mémorisation adaptée.",
+        "« invariabilité » désigne l’absence d’accord de l’adverbe en genre et en nombre. Ici, cherche une graphie qui nécessite une règle ou une mémorisation adaptée.",
+        "« formation régulière » désigne une construction fréquente sur le féminin suivi de -ment. Ici, cherche une graphie qui nécessite une règle ou une mémorisation adaptée."
+       ],
+       "y": "Une graphie qui nécessite une règle ou une mémorisation adaptée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-25-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La question comment porte sur la façon de faire.\nQuel terme s’applique le mieux ?",
+       "r": "manière",
+       "w": [
+        "invariabilité",
+        "formation régulière",
+        "forme particulière"
+       ],
+       "e": [
+        "« invariabilité » concerne l’absence d’accord de l’adverbe en genre et en nombre. Le cas décrit plutôt la façon dont se déroule l’action.",
+        "« formation régulière » concerne une construction fréquente sur le féminin suivi de -ment. Le cas décrit plutôt la façon dont se déroule l’action.",
+        "« forme particulière » concerne une graphie qui nécessite une règle ou une mémorisation adaptée. Le cas décrit plutôt la façon dont se déroule l’action."
+       ],
+       "y": "La question comment porte sur la façon de faire. La façon dont se déroule l’action."
+      },
+      {
+       "q": "Un même adverbe accompagne un sujet singulier ou pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "invariabilité",
+       "w": [
+        "manière",
+        "formation régulière",
+        "forme particulière"
+       ],
+       "e": [
+        "« manière » concerne la façon dont se déroule l’action. Le cas décrit plutôt l’absence d’accord de l’adverbe en genre et en nombre.",
+        "« formation régulière » concerne une construction fréquente sur le féminin suivi de -ment. Le cas décrit plutôt l’absence d’accord de l’adverbe en genre et en nombre.",
+        "« forme particulière » concerne une graphie qui nécessite une règle ou une mémorisation adaptée. Le cas décrit plutôt l’absence d’accord de l’adverbe en genre et en nombre."
+       ],
+       "y": "Un même adverbe accompagne un sujet singulier ou pluriel. L’absence d’accord de l’adverbe en genre et en nombre."
+      },
+      {
+       "q": "Lent donne {fr2Adverb('lent')} dans le modèle.\nQuel terme s’applique le mieux ?",
+       "r": "formation régulière",
+       "w": [
+        "manière",
+        "invariabilité",
+        "forme particulière"
+       ],
+       "e": [
+        "« manière » concerne la façon dont se déroule l’action. Le cas décrit plutôt une construction fréquente sur le féminin suivi de -ment.",
+        "« invariabilité » concerne l’absence d’accord de l’adverbe en genre et en nombre. Le cas décrit plutôt une construction fréquente sur le féminin suivi de -ment.",
+        "« forme particulière » concerne une graphie qui nécessite une règle ou une mémorisation adaptée. Le cas décrit plutôt une construction fréquente sur le féminin suivi de -ment."
+       ],
+       "y": "Lent donne {fr2Adverb('lent')} dans le modèle. Une construction fréquente sur le féminin suivi de -ment."
+      },
+      {
+       "q": "Prudent donne {fr2Adverb('prudent')}.\nQuel terme s’applique le mieux ?",
+       "r": "forme particulière",
+       "w": [
+        "manière",
+        "invariabilité",
+        "formation régulière"
+       ],
+       "e": [
+        "« manière » concerne la façon dont se déroule l’action. Le cas décrit plutôt une graphie qui nécessite une règle ou une mémorisation adaptée.",
+        "« invariabilité » concerne l’absence d’accord de l’adverbe en genre et en nombre. Le cas décrit plutôt une graphie qui nécessite une règle ou une mémorisation adaptée.",
+        "« formation régulière » concerne une construction fréquente sur le féminin suivi de -ment. Le cas décrit plutôt une graphie qui nécessite une règle ou une mémorisation adaptée."
+       ],
+       "y": "Prudent donne {fr2Adverb('prudent')}. Une graphie qui nécessite une règle ou une mémorisation adaptée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-25-forme",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "lent",
+      "doux",
+      "heureux",
+      "prudent",
+      "patient"
+     ]
+    }
+   },
+   "prompt": "Forme l’adverbe de manière correspondant à « {a} ».",
+   "correct": "{fr2Adverb(a)}",
+   "distractors": [
+    {
+     "text": "{a}",
+     "misconception": "adj"
+    },
+    {
+     "text": "{fr2Adverb(a)+'s'}",
+     "misconception": "accord"
+    },
+    {
+     "text": "{a+'ment'}",
+     "misconception": "base"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "adj",
+     "explain": "Tu as gardé l’adjectif au lieu de former l’adverbe."
+    },
+    {
+     "id": "accord",
+     "explain": "L’adverbe est invariable ; ne lui ajoute pas un pluriel."
+    },
+    {
+     "id": "base",
+     "explain": "Vérifie la base et la graphie particulière avant d’ajouter la terminaison."
+    }
+   ],
+   "solution": [
+    "L’adverbe décrit comment l’action se réalise et reste invariable.",
+    "La forme est {answer}."
+   ],
+   "where": [
+    "fr2Adverb(a) != a+'ment'"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-25-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "manière",
+     "right": "La question comment porte sur la façon de faire."
+    },
+    {
+     "left": "invariabilité",
+     "right": "Un même adverbe accompagne un sujet singulier ou pluriel."
+    },
+    {
+     "left": "formation régulière",
+     "right": "Lent donne {fr2Adverb('lent')} dans le modèle."
+    },
+    {
+     "left": "forme particulière",
+     "right": "Prudent donne {fr2Adverb('prudent')}."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-25-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "manière : la façon dont se déroule l’action.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : manière désigne la façon dont se déroule l’action. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "invariabilité : l’absence d’accord de l’adverbe en genre et en nombre.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : invariabilité désigne l’absence d’accord de l’adverbe en genre et en nombre. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "formation régulière : une construction fréquente sur le féminin suivi de -ment.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : formation régulière désigne une construction fréquente sur le féminin suivi de -ment. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "forme particulière : une graphie qui nécessite une règle ou une mémorisation adaptée.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : forme particulière désigne une graphie qui nécessite une règle ou une mémorisation adaptée. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La manière signifie toujours combien d’objets existent.",
+      "truth": "false",
+      "explain": "Comment vise la façon ; combien vise une quantité."
+     },
+     {
+      "text": "Un adverbe prend toujours -s avec un sujet pluriel.",
+      "truth": "false",
+      "explain": "L’adverbe ne s’accorde pas avec le sujet."
+     },
+     {
+      "text": "On ajoute toujours -ment à n’importe quel mot sans changement.",
+      "truth": "false",
+      "explain": "La base et les exceptions doivent être vérifiées."
+     },
+     {
+      "text": "Prudent donne obligatoirement prudentement.",
+      "truth": "false",
+      "explain": "Les adjectifs en -ent donnent souvent un adverbe en -emment."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

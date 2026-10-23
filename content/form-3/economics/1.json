@@ -1,0 +1,599 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-1",
+   "name": "Fundamentals: scarcity, wants and choice"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Economics examines choices about scarce resources and the production, distribution and use of goods and services. A want is a desire for something; resources are means used to satisfy wants. Scarcity means resources are limited relative to the wants they could satisfy. It affects rich as well as poor people. Because not every want can be met at once, people rank alternatives and choose. A school, household or government also faces choices about time, land, labour and materials.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Economics examines choices about scarce resources and the production, distribution and use of goods and services. A want is a desire for something; resources are means used to satisfy wants. Scarcity means resources are limited relative to the wants they could satisfy. It affects rich as well as poor people. Because not every want can be met at once, people rank alternatives and choose. A school, household or government also faces choices about time, land, labour and materials."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Bih has one free afternoon. She wants to revise, help at a stall and visit a friend. Even if no money changes hands, time is scarce. A school in Buea may have enough land for a garden or an extra play area but not both on the same plot. Economics asks how such choices are made and what must be given up."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the decision maker, the resource constraint and the alternatives. Do not define scarcity simply as having no money: a well-funded club may still lack time or space. Explain the connection: limited resources in relation to wants make choice necessary."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "want",
+    "meaning": "a desire for a good, service or activity"
+   },
+   {
+    "word": "resource",
+    "meaning": "a means that can help satisfy wants"
+   },
+   {
+    "word": "scarcity",
+    "meaning": "limited resources relative to competing wants"
+   },
+   {
+    "word": "choice",
+    "meaning": "selection between alternatives"
+   }
+  ],
+  "examples": [
+   "Ayuk would like a bicycle for travel.",
+   "A school uses land, teachers' time and books.",
+   "A club has time for either a debate or a match this afternoon."
+  ],
+  "mistake": {
+   "wrong": "Every want is automatically satisfied.",
+   "right": "want: a desire for a good, service or activity.",
+   "why": "A desire is a want; satisfying it depends on available resources."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ayuk would like a bicycle for travel. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A desire for a good, service or activity.",
+   "A desire is a want; satisfying it depends on available resources."
+  ],
+  "answer": "want",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-1-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "want: a desire for a good, service or activity.",
+     "resource: a means that can help satisfy wants.",
+     "scarcity: limited resources relative to competing wants.",
+     "choice: selection between alternatives."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-1-terms"
+    }
+   },
+   {
+    "id": "cn3-1-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Ayuk would like a bicycle for travel.",
+     "want: a desire for a good, service or activity."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-1-cases"
+    }
+   },
+   {
+    "id": "cn3-1-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Every want is automatically satisfied.",
+     "A desire is a want; satisfying it depends on available resources."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-1-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "want: a desire for a good, service or activity.",
+        "truth": "true",
+        "explain": "This statement is correct: want means a desire for a good, service or activity. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "resource: a means that can help satisfy wants.",
+        "truth": "true",
+        "explain": "This statement is correct: resource means a means that can help satisfy wants. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "scarcity: limited resources relative to competing wants.",
+        "truth": "true",
+        "explain": "This statement is correct: scarcity means limited resources relative to competing wants. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "choice: selection between alternatives.",
+        "truth": "true",
+        "explain": "This statement is correct: choice means selection between alternatives. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every want is automatically satisfied.",
+        "truth": "false",
+        "explain": "A desire is a want; satisfying it depends on available resources."
+       },
+       {
+        "text": "Only cash can be a resource.",
+        "truth": "false",
+        "explain": "Time, land and labour can be resources as well as money."
+       },
+       {
+        "text": "Scarcity affects only people with no income.",
+        "truth": "false",
+        "explain": "All decision makers can face limits relative to their wants."
+       },
+       {
+        "text": "Choice is unnecessary when resources are scarce.",
+        "truth": "false",
+        "explain": "Scarcity makes selection necessary because all wants cannot be met together."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-1-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a desire for a good, service or activity ?",
+       "r": "want",
+       "w": [
+        "resource",
+        "scarcity",
+        "choice"
+       ],
+       "e": [
+        "resource means a means that can help satisfy wants; the question instead describes a desire for a good, service or activity.",
+        "scarcity means limited resources relative to competing wants; the question instead describes a desire for a good, service or activity.",
+        "choice means selection between alternatives; the question instead describes a desire for a good, service or activity."
+       ],
+       "y": "A desire for a good, service or activity."
+      },
+      {
+       "q": "Which term means: a means that can help satisfy wants ?",
+       "r": "resource",
+       "w": [
+        "want",
+        "scarcity",
+        "choice"
+       ],
+       "e": [
+        "want means a desire for a good, service or activity; the question instead describes a means that can help satisfy wants.",
+        "scarcity means limited resources relative to competing wants; the question instead describes a means that can help satisfy wants.",
+        "choice means selection between alternatives; the question instead describes a means that can help satisfy wants."
+       ],
+       "y": "A means that can help satisfy wants."
+      },
+      {
+       "q": "Which term means: limited resources relative to competing wants ?",
+       "r": "scarcity",
+       "w": [
+        "want",
+        "resource",
+        "choice"
+       ],
+       "e": [
+        "want means a desire for a good, service or activity; the question instead describes limited resources relative to competing wants.",
+        "resource means a means that can help satisfy wants; the question instead describes limited resources relative to competing wants.",
+        "choice means selection between alternatives; the question instead describes limited resources relative to competing wants."
+       ],
+       "y": "Limited resources relative to competing wants."
+      },
+      {
+       "q": "Which term means: selection between alternatives ?",
+       "r": "choice",
+       "w": [
+        "want",
+        "resource",
+        "scarcity"
+       ],
+       "e": [
+        "want means a desire for a good, service or activity; the question instead describes selection between alternatives.",
+        "resource means a means that can help satisfy wants; the question instead describes selection between alternatives.",
+        "scarcity means limited resources relative to competing wants; the question instead describes selection between alternatives."
+       ],
+       "y": "Selection between alternatives."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-1-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk would like a bicycle for travel.\nWhich term best fits this example?",
+       "r": "want",
+       "w": [
+        "resource",
+        "scarcity",
+        "choice"
+       ],
+       "e": [
+        "resource concerns a means that can help satisfy wants. This case instead illustrates a desire for a good, service or activity.",
+        "scarcity concerns limited resources relative to competing wants. This case instead illustrates a desire for a good, service or activity.",
+        "choice concerns selection between alternatives. This case instead illustrates a desire for a good, service or activity."
+       ],
+       "y": "Ayuk would like a bicycle for travel. A desire for a good, service or activity."
+      },
+      {
+       "q": "A school uses land, teachers' time and books.\nWhich term best fits this example?",
+       "r": "resource",
+       "w": [
+        "want",
+        "scarcity",
+        "choice"
+       ],
+       "e": [
+        "want concerns a desire for a good, service or activity. This case instead illustrates a means that can help satisfy wants.",
+        "scarcity concerns limited resources relative to competing wants. This case instead illustrates a means that can help satisfy wants.",
+        "choice concerns selection between alternatives. This case instead illustrates a means that can help satisfy wants."
+       ],
+       "y": "A school uses land, teachers' time and books. A means that can help satisfy wants."
+      },
+      {
+       "q": "A club has time for either a debate or a match this afternoon.\nWhich term best fits this example?",
+       "r": "scarcity",
+       "w": [
+        "want",
+        "resource",
+        "choice"
+       ],
+       "e": [
+        "want concerns a desire for a good, service or activity. This case instead illustrates limited resources relative to competing wants.",
+        "resource concerns a means that can help satisfy wants. This case instead illustrates limited resources relative to competing wants.",
+        "choice concerns selection between alternatives. This case instead illustrates limited resources relative to competing wants."
+       ],
+       "y": "A club has time for either a debate or a match this afternoon. Limited resources relative to competing wants."
+      },
+      {
+       "q": "Bih decides to revise rather than visit a friend.\nWhich term best fits this example?",
+       "r": "choice",
+       "w": [
+        "want",
+        "resource",
+        "scarcity"
+       ],
+       "e": [
+        "want concerns a desire for a good, service or activity. This case instead illustrates selection between alternatives.",
+        "resource concerns a means that can help satisfy wants. This case instead illustrates selection between alternatives.",
+        "scarcity concerns limited resources relative to competing wants. This case instead illustrates selection between alternatives."
+       ],
+       "y": "Bih decides to revise rather than visit a friend. Selection between alternatives."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-1-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk would like a bicycle for travel.\nWhich explanation justifies the classification?",
+       "r": "A desire for a good, service or activity.",
+       "w": [
+        "A means that can help satisfy wants.",
+        "Limited resources relative to competing wants.",
+        "Selection between alternatives."
+       ],
+       "e": [
+        "That explanation describes resource, rather than the relationship illustrated in this example.",
+        "That explanation describes scarcity, rather than the relationship illustrated in this example.",
+        "That explanation describes choice, rather than the relationship illustrated in this example."
+       ],
+       "y": "A desire is a want; satisfying it depends on available resources."
+      },
+      {
+       "q": "A school uses land, teachers' time and books.\nWhich explanation justifies the classification?",
+       "r": "A means that can help satisfy wants.",
+       "w": [
+        "A desire for a good, service or activity.",
+        "Limited resources relative to competing wants.",
+        "Selection between alternatives."
+       ],
+       "e": [
+        "That explanation describes want, rather than the relationship illustrated in this example.",
+        "That explanation describes scarcity, rather than the relationship illustrated in this example.",
+        "That explanation describes choice, rather than the relationship illustrated in this example."
+       ],
+       "y": "Time, land and labour can be resources as well as money."
+      },
+      {
+       "q": "A club has time for either a debate or a match this afternoon.\nWhich explanation justifies the classification?",
+       "r": "Limited resources relative to competing wants.",
+       "w": [
+        "A desire for a good, service or activity.",
+        "A means that can help satisfy wants.",
+        "Selection between alternatives."
+       ],
+       "e": [
+        "That explanation describes want, rather than the relationship illustrated in this example.",
+        "That explanation describes resource, rather than the relationship illustrated in this example.",
+        "That explanation describes choice, rather than the relationship illustrated in this example."
+       ],
+       "y": "All decision makers can face limits relative to their wants."
+      },
+      {
+       "q": "Bih decides to revise rather than visit a friend.\nWhich explanation justifies the classification?",
+       "r": "Selection between alternatives.",
+       "w": [
+        "A desire for a good, service or activity.",
+        "A means that can help satisfy wants.",
+        "Limited resources relative to competing wants."
+       ],
+       "e": [
+        "That explanation describes want, rather than the relationship illustrated in this example.",
+        "That explanation describes resource, rather than the relationship illustrated in this example.",
+        "That explanation describes scarcity, rather than the relationship illustrated in this example."
+       ],
+       "y": "Scarcity makes selection necessary because all wants cannot be met together."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-1-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "want",
+     "right": "Ayuk would like a bicycle for travel."
+    },
+    {
+     "left": "resource",
+     "right": "A school uses land, teachers' time and books."
+    },
+    {
+     "left": "scarcity",
+     "right": "A club has time for either a debate or a match this afternoon."
+    },
+    {
+     "left": "choice",
+     "right": "Bih decides to revise rather than visit a friend."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "n3-1-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "want: a desire for a good, service or activity.",
+      "truth": "true",
+      "explain": "This statement is correct: want means a desire for a good, service or activity. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "resource: a means that can help satisfy wants.",
+      "truth": "true",
+      "explain": "This statement is correct: resource means a means that can help satisfy wants. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "scarcity: limited resources relative to competing wants.",
+      "truth": "true",
+      "explain": "This statement is correct: scarcity means limited resources relative to competing wants. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "choice: selection between alternatives.",
+      "truth": "true",
+      "explain": "This statement is correct: choice means selection between alternatives. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every want is automatically satisfied.",
+      "truth": "false",
+      "explain": "A desire is a want; satisfying it depends on available resources."
+     },
+     {
+      "text": "Only cash can be a resource.",
+      "truth": "false",
+      "explain": "Time, land and labour can be resources as well as money."
+     },
+     {
+      "text": "Scarcity affects only people with no income.",
+      "truth": "false",
+      "explain": "All decision makers can face limits relative to their wants."
+     },
+     {
+      "text": "Choice is unnecessary when resources are scarce.",
+      "truth": "false",
+      "explain": "Scarcity makes selection necessary because all wants cannot be met together."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

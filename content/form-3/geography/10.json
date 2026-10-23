@@ -1,0 +1,599 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-10",
+   "name": "Earth's revolution, tilt and seasons"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Revolution is Earth's orbit around the Sun. Together with the tilt of the axis, it changes the angle of incoming sunlight and the duration of daylight through the year. This produces opposite seasonal tendencies in the northern and southern hemispheres. Seasons are not explained simply by changing distance from the Sun. Tropical Cameroon commonly describes rainfall seasons rather than copying every temperate seasonal label. Local rainfall also depends on atmospheric conditions; an orbit diagram alone is not a full account of Cameroon's rainfall.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Revolution is Earth's orbit around the Sun. Together with the tilt of the axis, it changes the angle of incoming sunlight and the duration of daylight through the year. This produces opposite seasonal tendencies in the northern and southern hemispheres. Seasons are not explained simply by changing distance from the Sun. Tropical Cameroon commonly describes rainfall seasons rather than copying every temperate seasonal label. Local rainfall also depends on atmospheric conditions; an orbit diagram alone is not a full account of Cameroon's rainfall."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "When the northern hemisphere tilts toward the Sun, sunlight is generally more direct there and days are longer away from the Equator. The southern hemisphere has the opposite tendency. Near the Equator, seasonal daylight variation is smaller. A learner should connect the global mechanism to local conditions without claiming that every place has identical seasons."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Track the same tilted axis around the orbit while keeping its direction approximately parallel in the diagram. Compare sunlight angle and daylight duration. Distinguish the daily cycle from the yearly one, and avoid using Earth's distance as the principal explanation of opposite hemispheric seasons."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "revolution",
+    "meaning": "Earth's orbital movement around the Sun"
+   },
+   {
+    "word": "axial tilt",
+    "meaning": "the inclination that changes seasonal illumination during revolution"
+   },
+   {
+    "word": "daylight duration",
+    "meaning": "the length of time a place remains illuminated"
+   },
+   {
+    "word": "local seasonal pattern",
+    "meaning": "a region's experienced annual weather cycle"
+   }
+  ],
+  "examples": [
+   "A model carries Earth around a yearly path.",
+   "The northern hemisphere leans toward the Sun during part of the orbit.",
+   "A hemisphere tilted sunward has longer days in its summer season away from the Equator."
+  ],
+  "mistake": {
+   "wrong": "Revolution is only a globe spinning in place.",
+   "right": "revolution: Earth's orbital movement around the Sun.",
+   "why": "Spinning is rotation; revolution is the orbital movement."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A model carries Earth around a yearly path. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Earth's orbital movement around the sun.",
+   "Spinning is rotation; revolution is the orbital movement."
+  ],
+  "answer": "revolution",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-10-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "revolution: Earth's orbital movement around the Sun.",
+     "axial tilt: the inclination that changes seasonal illumination during revolution.",
+     "daylight duration: the length of time a place remains illuminated.",
+     "local seasonal pattern: a region's experienced annual weather cycle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-10-terms"
+    }
+   },
+   {
+    "id": "cg3-10-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A model carries Earth around a yearly path.",
+     "revolution: Earth's orbital movement around the Sun."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-10-cases"
+    }
+   },
+   {
+    "id": "cg3-10-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Revolution is only a globe spinning in place.",
+     "Spinning is rotation; revolution is the orbital movement."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-10-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "revolution: Earth's orbital movement around the Sun.",
+        "truth": "true",
+        "explain": "This statement is correct: revolution means Earth's orbital movement around the Sun. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "axial tilt: the inclination that changes seasonal illumination during revolution.",
+        "truth": "true",
+        "explain": "This statement is correct: axial tilt means the inclination that changes seasonal illumination during revolution. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "daylight duration: the length of time a place remains illuminated.",
+        "truth": "true",
+        "explain": "This statement is correct: daylight duration means the length of time a place remains illuminated. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "local seasonal pattern: a region's experienced annual weather cycle.",
+        "truth": "true",
+        "explain": "This statement is correct: local seasonal pattern means a region's experienced annual weather cycle. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Revolution is only a globe spinning in place.",
+        "truth": "false",
+        "explain": "Spinning is rotation; revolution is the orbital movement."
+       },
+       {
+        "text": "Opposite hemispheric seasons are caused only by both hemispheres changing their distance together.",
+        "truth": "false",
+        "explain": "Tilt changes how the hemispheres receive sunlight in opposite ways."
+       },
+       {
+        "text": "The length of daylight is identical at every latitude throughout the year.",
+        "truth": "false",
+        "explain": "Latitude and season affect daylight duration."
+       },
+       {
+        "text": "Every Cameroonian locality must copy a temperate four-season calendar exactly.",
+        "truth": "false",
+        "explain": "Local rainfall patterns need local climatic explanation rather than identical imported labels."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-10-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: Earth's orbital movement around the Sun ?",
+       "r": "revolution",
+       "w": [
+        "axial tilt",
+        "daylight duration",
+        "local seasonal pattern"
+       ],
+       "e": [
+        "axial tilt means the inclination that changes seasonal illumination during revolution; the question instead describes Earth's orbital movement around the Sun.",
+        "daylight duration means the length of time a place remains illuminated; the question instead describes Earth's orbital movement around the Sun.",
+        "local seasonal pattern means a region's experienced annual weather cycle; the question instead describes Earth's orbital movement around the Sun."
+       ],
+       "y": "Earth's orbital movement around the sun."
+      },
+      {
+       "q": "Which term means: the inclination that changes seasonal illumination during revolution ?",
+       "r": "axial tilt",
+       "w": [
+        "revolution",
+        "daylight duration",
+        "local seasonal pattern"
+       ],
+       "e": [
+        "revolution means Earth's orbital movement around the Sun; the question instead describes the inclination that changes seasonal illumination during revolution.",
+        "daylight duration means the length of time a place remains illuminated; the question instead describes the inclination that changes seasonal illumination during revolution.",
+        "local seasonal pattern means a region's experienced annual weather cycle; the question instead describes the inclination that changes seasonal illumination during revolution."
+       ],
+       "y": "The inclination that changes seasonal illumination during revolution."
+      },
+      {
+       "q": "Which term means: the length of time a place remains illuminated ?",
+       "r": "daylight duration",
+       "w": [
+        "revolution",
+        "axial tilt",
+        "local seasonal pattern"
+       ],
+       "e": [
+        "revolution means Earth's orbital movement around the Sun; the question instead describes the length of time a place remains illuminated.",
+        "axial tilt means the inclination that changes seasonal illumination during revolution; the question instead describes the length of time a place remains illuminated.",
+        "local seasonal pattern means a region's experienced annual weather cycle; the question instead describes the length of time a place remains illuminated."
+       ],
+       "y": "The length of time a place remains illuminated."
+      },
+      {
+       "q": "Which term means: a region's experienced annual weather cycle ?",
+       "r": "local seasonal pattern",
+       "w": [
+        "revolution",
+        "axial tilt",
+        "daylight duration"
+       ],
+       "e": [
+        "revolution means Earth's orbital movement around the Sun; the question instead describes a region's experienced annual weather cycle.",
+        "axial tilt means the inclination that changes seasonal illumination during revolution; the question instead describes a region's experienced annual weather cycle.",
+        "daylight duration means the length of time a place remains illuminated; the question instead describes a region's experienced annual weather cycle."
+       ],
+       "y": "A region's experienced annual weather cycle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-10-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A model carries Earth around a yearly path.\nWhich term best fits this example?",
+       "r": "revolution",
+       "w": [
+        "axial tilt",
+        "daylight duration",
+        "local seasonal pattern"
+       ],
+       "e": [
+        "axial tilt concerns the inclination that changes seasonal illumination during revolution. This case instead illustrates Earth's orbital movement around the Sun.",
+        "daylight duration concerns the length of time a place remains illuminated. This case instead illustrates Earth's orbital movement around the Sun.",
+        "local seasonal pattern concerns a region's experienced annual weather cycle. This case instead illustrates Earth's orbital movement around the Sun."
+       ],
+       "y": "A model carries Earth around a yearly path. Earth's orbital movement around the sun."
+      },
+      {
+       "q": "The northern hemisphere leans toward the Sun during part of the orbit.\nWhich term best fits this example?",
+       "r": "axial tilt",
+       "w": [
+        "revolution",
+        "daylight duration",
+        "local seasonal pattern"
+       ],
+       "e": [
+        "revolution concerns Earth's orbital movement around the Sun. This case instead illustrates the inclination that changes seasonal illumination during revolution.",
+        "daylight duration concerns the length of time a place remains illuminated. This case instead illustrates the inclination that changes seasonal illumination during revolution.",
+        "local seasonal pattern concerns a region's experienced annual weather cycle. This case instead illustrates the inclination that changes seasonal illumination during revolution."
+       ],
+       "y": "The northern hemisphere leans toward the Sun during part of the orbit. The inclination that changes seasonal illumination during revolution."
+      },
+      {
+       "q": "A hemisphere tilted sunward has longer days in its summer season away from the Equator.\nWhich term best fits this example?",
+       "r": "daylight duration",
+       "w": [
+        "revolution",
+        "axial tilt",
+        "local seasonal pattern"
+       ],
+       "e": [
+        "revolution concerns Earth's orbital movement around the Sun. This case instead illustrates the length of time a place remains illuminated.",
+        "axial tilt concerns the inclination that changes seasonal illumination during revolution. This case instead illustrates the length of time a place remains illuminated.",
+        "local seasonal pattern concerns a region's experienced annual weather cycle. This case instead illustrates the length of time a place remains illuminated."
+       ],
+       "y": "A hemisphere tilted sunward has longer days in its summer season away from the Equator. The length of time a place remains illuminated."
+      },
+      {
+       "q": "A Cameroonian class distinguishes wet and dry periods when discussing its locality.\nWhich term best fits this example?",
+       "r": "local seasonal pattern",
+       "w": [
+        "revolution",
+        "axial tilt",
+        "daylight duration"
+       ],
+       "e": [
+        "revolution concerns Earth's orbital movement around the Sun. This case instead illustrates a region's experienced annual weather cycle.",
+        "axial tilt concerns the inclination that changes seasonal illumination during revolution. This case instead illustrates a region's experienced annual weather cycle.",
+        "daylight duration concerns the length of time a place remains illuminated. This case instead illustrates a region's experienced annual weather cycle."
+       ],
+       "y": "A Cameroonian class distinguishes wet and dry periods when discussing its locality. A region's experienced annual weather cycle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-10-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A model carries Earth around a yearly path.\nWhich explanation justifies the classification?",
+       "r": "Earth's orbital movement around the sun.",
+       "w": [
+        "The inclination that changes seasonal illumination during revolution.",
+        "The length of time a place remains illuminated.",
+        "A region's experienced annual weather cycle."
+       ],
+       "e": [
+        "That explanation describes axial tilt, rather than the relationship illustrated in this example.",
+        "That explanation describes daylight duration, rather than the relationship illustrated in this example.",
+        "That explanation describes local seasonal pattern, rather than the relationship illustrated in this example."
+       ],
+       "y": "Spinning is rotation; revolution is the orbital movement."
+      },
+      {
+       "q": "The northern hemisphere leans toward the Sun during part of the orbit.\nWhich explanation justifies the classification?",
+       "r": "The inclination that changes seasonal illumination during revolution.",
+       "w": [
+        "Earth's orbital movement around the sun.",
+        "The length of time a place remains illuminated.",
+        "A region's experienced annual weather cycle."
+       ],
+       "e": [
+        "That explanation describes revolution, rather than the relationship illustrated in this example.",
+        "That explanation describes daylight duration, rather than the relationship illustrated in this example.",
+        "That explanation describes local seasonal pattern, rather than the relationship illustrated in this example."
+       ],
+       "y": "Tilt changes how the hemispheres receive sunlight in opposite ways."
+      },
+      {
+       "q": "A hemisphere tilted sunward has longer days in its summer season away from the Equator.\nWhich explanation justifies the classification?",
+       "r": "The length of time a place remains illuminated.",
+       "w": [
+        "Earth's orbital movement around the sun.",
+        "The inclination that changes seasonal illumination during revolution.",
+        "A region's experienced annual weather cycle."
+       ],
+       "e": [
+        "That explanation describes revolution, rather than the relationship illustrated in this example.",
+        "That explanation describes axial tilt, rather than the relationship illustrated in this example.",
+        "That explanation describes local seasonal pattern, rather than the relationship illustrated in this example."
+       ],
+       "y": "Latitude and season affect daylight duration."
+      },
+      {
+       "q": "A Cameroonian class distinguishes wet and dry periods when discussing its locality.\nWhich explanation justifies the classification?",
+       "r": "A region's experienced annual weather cycle.",
+       "w": [
+        "Earth's orbital movement around the sun.",
+        "The inclination that changes seasonal illumination during revolution.",
+        "The length of time a place remains illuminated."
+       ],
+       "e": [
+        "That explanation describes revolution, rather than the relationship illustrated in this example.",
+        "That explanation describes axial tilt, rather than the relationship illustrated in this example.",
+        "That explanation describes daylight duration, rather than the relationship illustrated in this example."
+       ],
+       "y": "Local rainfall patterns need local climatic explanation rather than identical imported labels."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-10-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "revolution",
+     "right": "A model carries Earth around a yearly path."
+    },
+    {
+     "left": "axial tilt",
+     "right": "The northern hemisphere leans toward the Sun during part of the orbit."
+    },
+    {
+     "left": "daylight duration",
+     "right": "A hemisphere tilted sunward has longer days in its summer season away from the Equator."
+    },
+    {
+     "left": "local seasonal pattern",
+     "right": "A Cameroonian class distinguishes wet and dry periods when discussing its locality."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-10-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "revolution: Earth's orbital movement around the Sun.",
+      "truth": "true",
+      "explain": "This statement is correct: revolution means Earth's orbital movement around the Sun. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "axial tilt: the inclination that changes seasonal illumination during revolution.",
+      "truth": "true",
+      "explain": "This statement is correct: axial tilt means the inclination that changes seasonal illumination during revolution. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "daylight duration: the length of time a place remains illuminated.",
+      "truth": "true",
+      "explain": "This statement is correct: daylight duration means the length of time a place remains illuminated. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "local seasonal pattern: a region's experienced annual weather cycle.",
+      "truth": "true",
+      "explain": "This statement is correct: local seasonal pattern means a region's experienced annual weather cycle. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Revolution is only a globe spinning in place.",
+      "truth": "false",
+      "explain": "Spinning is rotation; revolution is the orbital movement."
+     },
+     {
+      "text": "Opposite hemispheric seasons are caused only by both hemispheres changing their distance together.",
+      "truth": "false",
+      "explain": "Tilt changes how the hemispheres receive sunlight in opposite ways."
+     },
+     {
+      "text": "The length of daylight is identical at every latitude throughout the year.",
+      "truth": "false",
+      "explain": "Latitude and season affect daylight duration."
+     },
+     {
+      "text": "Every Cameroonian locality must copy a temperate four-season calendar exactly.",
+      "truth": "false",
+      "explain": "Local rainfall patterns need local climatic explanation rather than identical imported labels."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,599 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-3",
+   "name": "Latitude and longitude"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Latitude measures angular position north or south of the Equator. Longitude measures angular position east or west of the Greenwich meridian. Parallels join places of equal latitude; meridians connect the poles. Write latitude first and include the hemisphere. A coordinate without its hemisphere can describe more than one location. Cameroon is in the northern and eastern hemispheres, but classroom points on an invented grid are not surveyed locations of actual towns.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Latitude measures angular position north or south of the Equator. Longitude measures angular position east or west of the Greenwich meridian. Parallels join places of equal latitude; meridians connect the poles. Write latitude first and include the hemisphere. A coordinate without its hemisphere can describe more than one location. Cameroon is in the northern and eastern hemispheres, but classroom points on an invented grid are not surveyed locations of actual towns."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A learner locating a place near Buea first identifies the Equator and the Greenwich reference, then reads north/south and east/west separately. On a graticule, trace the place to the labelled lines. Do not swap a parallel with a meridian just because both appear as straight lines on a flat diagram."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the reference line, read the angle and add the hemisphere. If a point is between marked lines, estimate consistently with the scale. A grid reference based on eastings and northings is a different system from a latitude-longitude coordinate."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "latitude",
+    "meaning": "angular position north or south of the Equator"
+   },
+   {
+    "word": "longitude",
+    "meaning": "angular position east or west of Greenwich"
+   },
+   {
+    "word": "parallel",
+    "meaning": "a line joining equal latitudes"
+   },
+   {
+    "word": "meridian",
+    "meaning": "a line joining the poles at a given longitude"
+   }
+  ],
+  "examples": [
+   "A coordinate gives a place's northward angle from the Equator.",
+   "A coordinate gives a place's eastward angle from the prime meridian.",
+   "A learner follows the Equator around a globe."
+  ],
+  "mistake": {
+   "wrong": "Latitude is measured east from Greenwich.",
+   "right": "latitude: angular position north or south of the Equator.",
+   "why": "East/west from Greenwich describes longitude, not latitude."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A coordinate gives a place's northward angle from the Equator. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Angular position north or south of the equator.",
+   "East/west from Greenwich describes longitude, not latitude."
+  ],
+  "answer": "latitude",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-3-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "latitude: angular position north or south of the Equator.",
+     "longitude: angular position east or west of Greenwich.",
+     "parallel: a line joining equal latitudes.",
+     "meridian: a line joining the poles at a given longitude."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-3-terms"
+    }
+   },
+   {
+    "id": "cg3-3-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A coordinate gives a place's northward angle from the Equator.",
+     "latitude: angular position north or south of the Equator."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-3-cases"
+    }
+   },
+   {
+    "id": "cg3-3-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Latitude is measured east from Greenwich.",
+     "East/west from Greenwich describes longitude, not latitude."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-3-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "latitude: angular position north or south of the Equator.",
+        "truth": "true",
+        "explain": "This statement is correct: latitude means angular position north or south of the Equator. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "longitude: angular position east or west of Greenwich.",
+        "truth": "true",
+        "explain": "This statement is correct: longitude means angular position east or west of Greenwich. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "parallel: a line joining equal latitudes.",
+        "truth": "true",
+        "explain": "This statement is correct: parallel means a line joining equal latitudes. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "meridian: a line joining the poles at a given longitude.",
+        "truth": "true",
+        "explain": "This statement is correct: meridian means a line joining the poles at a given longitude. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Latitude is measured east from Greenwich.",
+        "truth": "false",
+        "explain": "East/west from Greenwich describes longitude, not latitude."
+       },
+       {
+        "text": "Longitude is measured north from the Equator.",
+        "truth": "false",
+        "explain": "North/south from the Equator describes latitude."
+       },
+       {
+        "text": "Every parallel passes through both poles.",
+        "truth": "false",
+        "explain": "Meridians connect the poles; parallels circle at constant latitude."
+       },
+       {
+        "text": "A meridian is a small circle parallel to the Equator.",
+        "truth": "false",
+        "explain": "A meridian runs between poles rather than parallel to the Equator."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: angular position north or south of the Equator ?",
+       "r": "latitude",
+       "w": [
+        "longitude",
+        "parallel",
+        "meridian"
+       ],
+       "e": [
+        "longitude means angular position east or west of Greenwich; the question instead describes angular position north or south of the Equator.",
+        "parallel means a line joining equal latitudes; the question instead describes angular position north or south of the Equator.",
+        "meridian means a line joining the poles at a given longitude; the question instead describes angular position north or south of the Equator."
+       ],
+       "y": "Angular position north or south of the equator."
+      },
+      {
+       "q": "Which term means: angular position east or west of Greenwich ?",
+       "r": "longitude",
+       "w": [
+        "latitude",
+        "parallel",
+        "meridian"
+       ],
+       "e": [
+        "latitude means angular position north or south of the Equator; the question instead describes angular position east or west of Greenwich.",
+        "parallel means a line joining equal latitudes; the question instead describes angular position east or west of Greenwich.",
+        "meridian means a line joining the poles at a given longitude; the question instead describes angular position east or west of Greenwich."
+       ],
+       "y": "Angular position east or west of greenwich."
+      },
+      {
+       "q": "Which term means: a line joining equal latitudes ?",
+       "r": "parallel",
+       "w": [
+        "latitude",
+        "longitude",
+        "meridian"
+       ],
+       "e": [
+        "latitude means angular position north or south of the Equator; the question instead describes a line joining equal latitudes.",
+        "longitude means angular position east or west of Greenwich; the question instead describes a line joining equal latitudes.",
+        "meridian means a line joining the poles at a given longitude; the question instead describes a line joining equal latitudes."
+       ],
+       "y": "A line joining equal latitudes."
+      },
+      {
+       "q": "Which term means: a line joining the poles at a given longitude ?",
+       "r": "meridian",
+       "w": [
+        "latitude",
+        "longitude",
+        "parallel"
+       ],
+       "e": [
+        "latitude means angular position north or south of the Equator; the question instead describes a line joining the poles at a given longitude.",
+        "longitude means angular position east or west of Greenwich; the question instead describes a line joining the poles at a given longitude.",
+        "parallel means a line joining equal latitudes; the question instead describes a line joining the poles at a given longitude."
+       ],
+       "y": "A line joining the poles at a given longitude."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A coordinate gives a place's northward angle from the Equator.\nWhich term best fits this example?",
+       "r": "latitude",
+       "w": [
+        "longitude",
+        "parallel",
+        "meridian"
+       ],
+       "e": [
+        "longitude concerns angular position east or west of Greenwich. This case instead illustrates angular position north or south of the Equator.",
+        "parallel concerns a line joining equal latitudes. This case instead illustrates angular position north or south of the Equator.",
+        "meridian concerns a line joining the poles at a given longitude. This case instead illustrates angular position north or south of the Equator."
+       ],
+       "y": "A coordinate gives a place's northward angle from the Equator. Angular position north or south of the equator."
+      },
+      {
+       "q": "A coordinate gives a place's eastward angle from the prime meridian.\nWhich term best fits this example?",
+       "r": "longitude",
+       "w": [
+        "latitude",
+        "parallel",
+        "meridian"
+       ],
+       "e": [
+        "latitude concerns angular position north or south of the Equator. This case instead illustrates angular position east or west of Greenwich.",
+        "parallel concerns a line joining equal latitudes. This case instead illustrates angular position east or west of Greenwich.",
+        "meridian concerns a line joining the poles at a given longitude. This case instead illustrates angular position east or west of Greenwich."
+       ],
+       "y": "A coordinate gives a place's eastward angle from the prime meridian. Angular position east or west of greenwich."
+      },
+      {
+       "q": "A learner follows the Equator around a globe.\nWhich term best fits this example?",
+       "r": "parallel",
+       "w": [
+        "latitude",
+        "longitude",
+        "meridian"
+       ],
+       "e": [
+        "latitude concerns angular position north or south of the Equator. This case instead illustrates a line joining equal latitudes.",
+        "longitude concerns angular position east or west of Greenwich. This case instead illustrates a line joining equal latitudes.",
+        "meridian concerns a line joining the poles at a given longitude. This case instead illustrates a line joining equal latitudes."
+       ],
+       "y": "A learner follows the Equator around a globe. A line joining equal latitudes."
+      },
+      {
+       "q": "A learner traces Greenwich's reference line from pole to pole.\nWhich term best fits this example?",
+       "r": "meridian",
+       "w": [
+        "latitude",
+        "longitude",
+        "parallel"
+       ],
+       "e": [
+        "latitude concerns angular position north or south of the Equator. This case instead illustrates a line joining the poles at a given longitude.",
+        "longitude concerns angular position east or west of Greenwich. This case instead illustrates a line joining the poles at a given longitude.",
+        "parallel concerns a line joining equal latitudes. This case instead illustrates a line joining the poles at a given longitude."
+       ],
+       "y": "A learner traces Greenwich's reference line from pole to pole. A line joining the poles at a given longitude."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-3-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A coordinate gives a place's northward angle from the Equator.\nWhich explanation justifies the classification?",
+       "r": "Angular position north or south of the equator.",
+       "w": [
+        "Angular position east or west of greenwich.",
+        "A line joining equal latitudes.",
+        "A line joining the poles at a given longitude."
+       ],
+       "e": [
+        "That explanation describes longitude, rather than the relationship illustrated in this example.",
+        "That explanation describes parallel, rather than the relationship illustrated in this example.",
+        "That explanation describes meridian, rather than the relationship illustrated in this example."
+       ],
+       "y": "East/west from Greenwich describes longitude, not latitude."
+      },
+      {
+       "q": "A coordinate gives a place's eastward angle from the prime meridian.\nWhich explanation justifies the classification?",
+       "r": "Angular position east or west of greenwich.",
+       "w": [
+        "Angular position north or south of the equator.",
+        "A line joining equal latitudes.",
+        "A line joining the poles at a given longitude."
+       ],
+       "e": [
+        "That explanation describes latitude, rather than the relationship illustrated in this example.",
+        "That explanation describes parallel, rather than the relationship illustrated in this example.",
+        "That explanation describes meridian, rather than the relationship illustrated in this example."
+       ],
+       "y": "North/south from the Equator describes latitude."
+      },
+      {
+       "q": "A learner follows the Equator around a globe.\nWhich explanation justifies the classification?",
+       "r": "A line joining equal latitudes.",
+       "w": [
+        "Angular position north or south of the equator.",
+        "Angular position east or west of greenwich.",
+        "A line joining the poles at a given longitude."
+       ],
+       "e": [
+        "That explanation describes latitude, rather than the relationship illustrated in this example.",
+        "That explanation describes longitude, rather than the relationship illustrated in this example.",
+        "That explanation describes meridian, rather than the relationship illustrated in this example."
+       ],
+       "y": "Meridians connect the poles; parallels circle at constant latitude."
+      },
+      {
+       "q": "A learner traces Greenwich's reference line from pole to pole.\nWhich explanation justifies the classification?",
+       "r": "A line joining the poles at a given longitude.",
+       "w": [
+        "Angular position north or south of the equator.",
+        "Angular position east or west of greenwich.",
+        "A line joining equal latitudes."
+       ],
+       "e": [
+        "That explanation describes latitude, rather than the relationship illustrated in this example.",
+        "That explanation describes longitude, rather than the relationship illustrated in this example.",
+        "That explanation describes parallel, rather than the relationship illustrated in this example."
+       ],
+       "y": "A meridian runs between poles rather than parallel to the Equator."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-3-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "latitude",
+     "right": "A coordinate gives a place's northward angle from the Equator."
+    },
+    {
+     "left": "longitude",
+     "right": "A coordinate gives a place's eastward angle from the prime meridian."
+    },
+    {
+     "left": "parallel",
+     "right": "A learner follows the Equator around a globe."
+    },
+    {
+     "left": "meridian",
+     "right": "A learner traces Greenwich's reference line from pole to pole."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "latitude: angular position north or south of the Equator.",
+      "truth": "true",
+      "explain": "This statement is correct: latitude means angular position north or south of the Equator. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "longitude: angular position east or west of Greenwich.",
+      "truth": "true",
+      "explain": "This statement is correct: longitude means angular position east or west of Greenwich. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "parallel: a line joining equal latitudes.",
+      "truth": "true",
+      "explain": "This statement is correct: parallel means a line joining equal latitudes. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "meridian: a line joining the poles at a given longitude.",
+      "truth": "true",
+      "explain": "This statement is correct: meridian means a line joining the poles at a given longitude. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Latitude is measured east from Greenwich.",
+      "truth": "false",
+      "explain": "East/west from Greenwich describes longitude, not latitude."
+     },
+     {
+      "text": "Longitude is measured north from the Equator.",
+      "truth": "false",
+      "explain": "North/south from the Equator describes latitude."
+     },
+     {
+      "text": "Every parallel passes through both poles.",
+      "truth": "false",
+      "explain": "Meridians connect the poles; parallels circle at constant latitude."
+     },
+     {
+      "text": "A meridian is a small circle parallel to the Equator.",
+      "truth": "false",
+      "explain": "A meridian runs between poles rather than parallel to the Equator."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

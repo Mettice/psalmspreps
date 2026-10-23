@@ -1,0 +1,599 @@
+{
+ "subject": "logic",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "l3-3",
+   "name": "Divisions of logic"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A traditional school distinction separates formal logic, which examines the structure of reasoning, from material or applied assessment, which examines its content and truth. Other classifications distinguish deductive and inductive reasoning. These classifications answer different questions and should not be treated as identical. A valid deductive form preserves truth if its premises are true; checking that form does not establish the truth of the premises. Investigating a claim about a local market still requires evidence.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A traditional school distinction separates formal logic, which examines the structure of reasoning, from material or applied assessment, which examines its content and truth. Other classifications distinguish deductive and inductive reasoning. These classifications answer different questions and should not be treated as identical. A valid deductive form preserves truth if its premises are true; checking that form does not establish the truth of the premises. Investigating a claim about a local market still requires evidence."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Suppose all members of a hypothetical Buea club have cards and Ayuk is a member. The form supports the conclusion that Ayuk has a card. Whether that club really issued cards is a separate factual question. A survey predicting attendance from previous meetings makes another kind of move: it offers probable, not guaranteed, support."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Ask first whether the exercise concerns form, factual content or strength of inference. Do not label an argument false merely because its form is invalid: truth applies to statements, while validity applies to deductive reasoning. Traditional labels vary between textbooks; compare the reasoning task as well as the name."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "formal logic",
+    "meaning": "assessment of the structure of an inference"
+   },
+   {
+    "word": "material assessment",
+    "meaning": "examination of the content or factual truth of claims"
+   },
+   {
+    "word": "deductive assessment",
+    "meaning": "asking whether true premises would guarantee the conclusion"
+   },
+   {
+    "word": "inductive assessment",
+    "meaning": "judging how strongly evidence supports a probable conclusion"
+   }
+  ],
+  "examples": [
+   "A learner checks the pattern all members have cards; Bih is a member; therefore Bih has a card.",
+   "A learner checks the actual club register to see whether Bih belongs.",
+   "A learner asks if a counterexample could leave the premises true but the conclusion false."
+  ],
+  "mistake": {
+   "wrong": "Formal validity proves that every premise is factually true.",
+   "right": "formal logic: assessment of the structure of an inference.",
+   "why": "A valid pattern preserves truth conditionally; premise truth needs separate checking."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A learner checks the pattern all members have cards; Bih is a member; therefore Bih has a card. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Assessment of the structure of an inference.",
+   "A valid pattern preserves truth conditionally; premise truth needs separate checking."
+  ],
+  "answer": "formal logic",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cl3-3-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "formal logic: assessment of the structure of an inference.",
+     "material assessment: examination of the content or factual truth of claims.",
+     "deductive assessment: asking whether true premises would guarantee the conclusion.",
+     "inductive assessment: judging how strongly evidence supports a probable conclusion."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-3-terms"
+    }
+   },
+   {
+    "id": "cl3-3-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A learner checks the pattern all members have cards; Bih is a member; therefore Bih has a card.",
+     "formal logic: assessment of the structure of an inference."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-3-cases"
+    }
+   },
+   {
+    "id": "cl3-3-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Formal validity proves that every premise is factually true.",
+     "A valid pattern preserves truth conditionally; premise truth needs separate checking."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l3-3-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "intro-logic"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "formal logic: assessment of the structure of an inference.",
+        "truth": "true",
+        "explain": "This statement is correct: formal logic means assessment of the structure of an inference. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "material assessment: examination of the content or factual truth of claims.",
+        "truth": "true",
+        "explain": "This statement is correct: material assessment means examination of the content or factual truth of claims. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "deductive assessment: asking whether true premises would guarantee the conclusion.",
+        "truth": "true",
+        "explain": "This statement is correct: deductive assessment means asking whether true premises would guarantee the conclusion. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "inductive assessment: judging how strongly evidence supports a probable conclusion.",
+        "truth": "true",
+        "explain": "This statement is correct: inductive assessment means judging how strongly evidence supports a probable conclusion. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Formal validity proves that every premise is factually true.",
+        "truth": "false",
+        "explain": "A valid pattern preserves truth conditionally; premise truth needs separate checking."
+       },
+       {
+        "text": "Checking a register is only an examination of sentence shape.",
+        "truth": "false",
+        "explain": "Consulting a register checks content, not just logical form."
+       },
+       {
+        "text": "Any plausible conclusion is deductively valid.",
+        "truth": "false",
+        "explain": "Deductive validity excludes a true-premise, false-conclusion counterexample."
+       },
+       {
+        "text": "A sample guarantees every future case.",
+        "truth": "false",
+        "explain": "An induction can support a probability without guaranteeing all cases."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l3-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: assessment of the structure of an inference ?",
+       "r": "formal logic",
+       "w": [
+        "material assessment",
+        "deductive assessment",
+        "inductive assessment"
+       ],
+       "e": [
+        "material assessment means examination of the content or factual truth of claims; the question instead describes assessment of the structure of an inference.",
+        "deductive assessment means asking whether true premises would guarantee the conclusion; the question instead describes assessment of the structure of an inference.",
+        "inductive assessment means judging how strongly evidence supports a probable conclusion; the question instead describes assessment of the structure of an inference."
+       ],
+       "y": "Assessment of the structure of an inference."
+      },
+      {
+       "q": "Which term means: examination of the content or factual truth of claims ?",
+       "r": "material assessment",
+       "w": [
+        "formal logic",
+        "deductive assessment",
+        "inductive assessment"
+       ],
+       "e": [
+        "formal logic means assessment of the structure of an inference; the question instead describes examination of the content or factual truth of claims.",
+        "deductive assessment means asking whether true premises would guarantee the conclusion; the question instead describes examination of the content or factual truth of claims.",
+        "inductive assessment means judging how strongly evidence supports a probable conclusion; the question instead describes examination of the content or factual truth of claims."
+       ],
+       "y": "Examination of the content or factual truth of claims."
+      },
+      {
+       "q": "Which term means: asking whether true premises would guarantee the conclusion ?",
+       "r": "deductive assessment",
+       "w": [
+        "formal logic",
+        "material assessment",
+        "inductive assessment"
+       ],
+       "e": [
+        "formal logic means assessment of the structure of an inference; the question instead describes asking whether true premises would guarantee the conclusion.",
+        "material assessment means examination of the content or factual truth of claims; the question instead describes asking whether true premises would guarantee the conclusion.",
+        "inductive assessment means judging how strongly evidence supports a probable conclusion; the question instead describes asking whether true premises would guarantee the conclusion."
+       ],
+       "y": "Asking whether true premises would guarantee the conclusion."
+      },
+      {
+       "q": "Which term means: judging how strongly evidence supports a probable conclusion ?",
+       "r": "inductive assessment",
+       "w": [
+        "formal logic",
+        "material assessment",
+        "deductive assessment"
+       ],
+       "e": [
+        "formal logic means assessment of the structure of an inference; the question instead describes judging how strongly evidence supports a probable conclusion.",
+        "material assessment means examination of the content or factual truth of claims; the question instead describes judging how strongly evidence supports a probable conclusion.",
+        "deductive assessment means asking whether true premises would guarantee the conclusion; the question instead describes judging how strongly evidence supports a probable conclusion."
+       ],
+       "y": "Judging how strongly evidence supports a probable conclusion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner checks the pattern all members have cards; Bih is a member; therefore Bih has a card.\nWhich term best fits this example?",
+       "r": "formal logic",
+       "w": [
+        "material assessment",
+        "deductive assessment",
+        "inductive assessment"
+       ],
+       "e": [
+        "material assessment concerns examination of the content or factual truth of claims. This case instead illustrates assessment of the structure of an inference.",
+        "deductive assessment concerns asking whether true premises would guarantee the conclusion. This case instead illustrates assessment of the structure of an inference.",
+        "inductive assessment concerns judging how strongly evidence supports a probable conclusion. This case instead illustrates assessment of the structure of an inference."
+       ],
+       "y": "A learner checks the pattern all members have cards; Bih is a member; therefore Bih has a card. Assessment of the structure of an inference."
+      },
+      {
+       "q": "A learner checks the actual club register to see whether Bih belongs.\nWhich term best fits this example?",
+       "r": "material assessment",
+       "w": [
+        "formal logic",
+        "deductive assessment",
+        "inductive assessment"
+       ],
+       "e": [
+        "formal logic concerns assessment of the structure of an inference. This case instead illustrates examination of the content or factual truth of claims.",
+        "deductive assessment concerns asking whether true premises would guarantee the conclusion. This case instead illustrates examination of the content or factual truth of claims.",
+        "inductive assessment concerns judging how strongly evidence supports a probable conclusion. This case instead illustrates examination of the content or factual truth of claims."
+       ],
+       "y": "A learner checks the actual club register to see whether Bih belongs. Examination of the content or factual truth of claims."
+      },
+      {
+       "q": "A learner asks if a counterexample could leave the premises true but the conclusion false.\nWhich term best fits this example?",
+       "r": "deductive assessment",
+       "w": [
+        "formal logic",
+        "material assessment",
+        "inductive assessment"
+       ],
+       "e": [
+        "formal logic concerns assessment of the structure of an inference. This case instead illustrates asking whether true premises would guarantee the conclusion.",
+        "material assessment concerns examination of the content or factual truth of claims. This case instead illustrates asking whether true premises would guarantee the conclusion.",
+        "inductive assessment concerns judging how strongly evidence supports a probable conclusion. This case instead illustrates asking whether true premises would guarantee the conclusion."
+       ],
+       "y": "A learner asks if a counterexample could leave the premises true but the conclusion false. Asking whether true premises would guarantee the conclusion."
+      },
+      {
+       "q": "A learner evaluates how representative a market survey is before generalising.\nWhich term best fits this example?",
+       "r": "inductive assessment",
+       "w": [
+        "formal logic",
+        "material assessment",
+        "deductive assessment"
+       ],
+       "e": [
+        "formal logic concerns assessment of the structure of an inference. This case instead illustrates judging how strongly evidence supports a probable conclusion.",
+        "material assessment concerns examination of the content or factual truth of claims. This case instead illustrates judging how strongly evidence supports a probable conclusion.",
+        "deductive assessment concerns asking whether true premises would guarantee the conclusion. This case instead illustrates judging how strongly evidence supports a probable conclusion."
+       ],
+       "y": "A learner evaluates how representative a market survey is before generalising. Judging how strongly evidence supports a probable conclusion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-3-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner checks the pattern all members have cards; Bih is a member; therefore Bih has a card.\nWhich explanation justifies the classification?",
+       "r": "Assessment of the structure of an inference.",
+       "w": [
+        "Examination of the content or factual truth of claims.",
+        "Asking whether true premises would guarantee the conclusion.",
+        "Judging how strongly evidence supports a probable conclusion."
+       ],
+       "e": [
+        "That explanation describes material assessment, rather than the relationship illustrated in this example.",
+        "That explanation describes deductive assessment, rather than the relationship illustrated in this example.",
+        "That explanation describes inductive assessment, rather than the relationship illustrated in this example."
+       ],
+       "y": "A valid pattern preserves truth conditionally; premise truth needs separate checking."
+      },
+      {
+       "q": "A learner checks the actual club register to see whether Bih belongs.\nWhich explanation justifies the classification?",
+       "r": "Examination of the content or factual truth of claims.",
+       "w": [
+        "Assessment of the structure of an inference.",
+        "Asking whether true premises would guarantee the conclusion.",
+        "Judging how strongly evidence supports a probable conclusion."
+       ],
+       "e": [
+        "That explanation describes formal logic, rather than the relationship illustrated in this example.",
+        "That explanation describes deductive assessment, rather than the relationship illustrated in this example.",
+        "That explanation describes inductive assessment, rather than the relationship illustrated in this example."
+       ],
+       "y": "Consulting a register checks content, not just logical form."
+      },
+      {
+       "q": "A learner asks if a counterexample could leave the premises true but the conclusion false.\nWhich explanation justifies the classification?",
+       "r": "Asking whether true premises would guarantee the conclusion.",
+       "w": [
+        "Assessment of the structure of an inference.",
+        "Examination of the content or factual truth of claims.",
+        "Judging how strongly evidence supports a probable conclusion."
+       ],
+       "e": [
+        "That explanation describes formal logic, rather than the relationship illustrated in this example.",
+        "That explanation describes material assessment, rather than the relationship illustrated in this example.",
+        "That explanation describes inductive assessment, rather than the relationship illustrated in this example."
+       ],
+       "y": "Deductive validity excludes a true-premise, false-conclusion counterexample."
+      },
+      {
+       "q": "A learner evaluates how representative a market survey is before generalising.\nWhich explanation justifies the classification?",
+       "r": "Judging how strongly evidence supports a probable conclusion.",
+       "w": [
+        "Assessment of the structure of an inference.",
+        "Examination of the content or factual truth of claims.",
+        "Asking whether true premises would guarantee the conclusion."
+       ],
+       "e": [
+        "That explanation describes formal logic, rather than the relationship illustrated in this example.",
+        "That explanation describes material assessment, rather than the relationship illustrated in this example.",
+        "That explanation describes deductive assessment, rather than the relationship illustrated in this example."
+       ],
+       "y": "An induction can support a probability without guaranteeing all cases."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-3-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "formal logic",
+     "right": "A learner checks the pattern all members have cards; Bih is a member; therefore Bih has a card."
+    },
+    {
+     "left": "material assessment",
+     "right": "A learner checks the actual club register to see whether Bih belongs."
+    },
+    {
+     "left": "deductive assessment",
+     "right": "A learner asks if a counterexample could leave the premises true but the conclusion false."
+    },
+    {
+     "left": "inductive assessment",
+     "right": "A learner evaluates how representative a market survey is before generalising."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l3-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "formal logic: assessment of the structure of an inference.",
+      "truth": "true",
+      "explain": "This statement is correct: formal logic means assessment of the structure of an inference. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "material assessment: examination of the content or factual truth of claims.",
+      "truth": "true",
+      "explain": "This statement is correct: material assessment means examination of the content or factual truth of claims. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "deductive assessment: asking whether true premises would guarantee the conclusion.",
+      "truth": "true",
+      "explain": "This statement is correct: deductive assessment means asking whether true premises would guarantee the conclusion. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "inductive assessment: judging how strongly evidence supports a probable conclusion.",
+      "truth": "true",
+      "explain": "This statement is correct: inductive assessment means judging how strongly evidence supports a probable conclusion. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Formal validity proves that every premise is factually true.",
+      "truth": "false",
+      "explain": "A valid pattern preserves truth conditionally; premise truth needs separate checking."
+     },
+     {
+      "text": "Checking a register is only an examination of sentence shape.",
+      "truth": "false",
+      "explain": "Consulting a register checks content, not just logical form."
+     },
+     {
+      "text": "Any plausible conclusion is deductively valid.",
+      "truth": "false",
+      "explain": "Deductive validity excludes a true-premise, false-conclusion counterexample."
+     },
+     {
+      "text": "A sample guarantees every future case.",
+      "truth": "false",
+      "explain": "An induction can support a probability without guaranteeing all cases."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,612 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-7",
+   "name": "Utility: total and marginal satisfaction"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Utility is the satisfaction a consumer obtains from consuming a good or service. It is subjective: people can value the same item differently. Total utility is satisfaction from all units consumed in a stated situation. Marginal utility is the change in total utility from an additional unit. Diminishing marginal utility means successive units add less satisfaction, other conditions held constant. Falling marginal utility need not mean falling total utility while each additional gain remains positive.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Utility is the satisfaction a consumer obtains from consuming a good or service. It is subjective: people can value the same item differently. Total utility is satisfaction from all units consumed in a stated situation. Marginal utility is the change in total utility from an additional unit. Diminishing marginal utility means successive units add less satisfaction, other conditions held constant. Falling marginal utility need not mean falling total utility while each additional gain remains positive."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "After walking in warm weather, Ayuk may value the first cup of water highly. A later cup can add less satisfaction. In a classroom numerical illustration, utility units are assumed, not scientifically measured happiness. They should not be used to claim that one person's satisfaction is objectively comparable with another's."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Keep total and additional satisfaction separate. Subtract consecutive total-utility values to calculate marginal utility for that increment. Check whether the increment is positive, zero or negative before stating how total utility changes. Hold the consumer and circumstances fixed when discussing diminishing marginal utility."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "utility",
+    "meaning": "satisfaction obtained from consuming a good or service"
+   },
+   {
+    "word": "total utility",
+    "meaning": "satisfaction from all units consumed in a stated situation"
+   },
+   {
+    "word": "marginal utility",
+    "meaning": "the change in total satisfaction from an additional unit"
+   },
+   {
+    "word": "diminishing marginal utility",
+    "meaning": "successive additional units adding less satisfaction with other conditions fixed"
+   }
+  ],
+  "examples": [
+   "Bih enjoys reading a borrowed novel.",
+   "A record describes Ayuk's satisfaction from all cups so far.",
+   "A learner compares satisfaction before and after one more cup."
+  ],
+  "mistake": {
+   "wrong": "Utility always means the money price of a good.",
+   "right": "utility: satisfaction obtained from consuming a good or service.",
+   "why": "Price is a payment; utility is satisfaction."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih enjoys reading a borrowed novel. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Satisfaction obtained from consuming a good or service.",
+   "Price is a payment; utility is satisfaction."
+  ],
+  "answer": "utility",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-7-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "utility: satisfaction obtained from consuming a good or service.",
+     "total utility: satisfaction from all units consumed in a stated situation.",
+     "marginal utility: the change in total satisfaction from an additional unit.",
+     "diminishing marginal utility: successive additional units adding less satisfaction with other conditions fixed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-7-terms"
+    }
+   },
+   {
+    "id": "cn3-7-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Bih enjoys reading a borrowed novel.",
+     "utility: satisfaction obtained from consuming a good or service."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-7-cases"
+    }
+   },
+   {
+    "id": "cn3-7-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Utility always means the money price of a good.",
+     "Price is a payment; utility is satisfaction."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-7-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "utility: satisfaction obtained from consuming a good or service.",
+        "truth": "true",
+        "explain": "This statement is correct: utility means satisfaction obtained from consuming a good or service. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "total utility: satisfaction from all units consumed in a stated situation.",
+        "truth": "true",
+        "explain": "This statement is correct: total utility means satisfaction from all units consumed in a stated situation. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "marginal utility: the change in total satisfaction from an additional unit.",
+        "truth": "true",
+        "explain": "This statement is correct: marginal utility means the change in total satisfaction from an additional unit. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "diminishing marginal utility: successive additional units adding less satisfaction with other conditions fixed.",
+        "truth": "true",
+        "explain": "This statement is correct: diminishing marginal utility means successive additional units adding less satisfaction with other conditions fixed. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Utility always means the money price of a good.",
+        "truth": "false",
+        "explain": "Price is a payment; utility is satisfaction."
+       },
+       {
+        "text": "Total utility refers only to the last additional cup.",
+        "truth": "false",
+        "explain": "The last increment is marginal utility, not total utility."
+       },
+       {
+        "text": "Marginal utility is the total from every cup added together.",
+        "truth": "false",
+        "explain": "Marginal utility measures the increment from the extra unit."
+       },
+       {
+        "text": "Falling marginal utility always makes total utility fall.",
+        "truth": "false",
+        "explain": "Positive but smaller gains still increase total utility."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-7-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: satisfaction obtained from consuming a good or service ?",
+       "r": "utility",
+       "w": [
+        "total utility",
+        "marginal utility",
+        "diminishing marginal utility"
+       ],
+       "e": [
+        "total utility means satisfaction from all units consumed in a stated situation; the question instead describes satisfaction obtained from consuming a good or service.",
+        "marginal utility means the change in total satisfaction from an additional unit; the question instead describes satisfaction obtained from consuming a good or service.",
+        "diminishing marginal utility means successive additional units adding less satisfaction with other conditions fixed; the question instead describes satisfaction obtained from consuming a good or service."
+       ],
+       "y": "Satisfaction obtained from consuming a good or service."
+      },
+      {
+       "q": "Which term means: satisfaction from all units consumed in a stated situation ?",
+       "r": "total utility",
+       "w": [
+        "utility",
+        "marginal utility",
+        "diminishing marginal utility"
+       ],
+       "e": [
+        "utility means satisfaction obtained from consuming a good or service; the question instead describes satisfaction from all units consumed in a stated situation.",
+        "marginal utility means the change in total satisfaction from an additional unit; the question instead describes satisfaction from all units consumed in a stated situation.",
+        "diminishing marginal utility means successive additional units adding less satisfaction with other conditions fixed; the question instead describes satisfaction from all units consumed in a stated situation."
+       ],
+       "y": "Satisfaction from all units consumed in a stated situation."
+      },
+      {
+       "q": "Which term means: the change in total satisfaction from an additional unit ?",
+       "r": "marginal utility",
+       "w": [
+        "utility",
+        "total utility",
+        "diminishing marginal utility"
+       ],
+       "e": [
+        "utility means satisfaction obtained from consuming a good or service; the question instead describes the change in total satisfaction from an additional unit.",
+        "total utility means satisfaction from all units consumed in a stated situation; the question instead describes the change in total satisfaction from an additional unit.",
+        "diminishing marginal utility means successive additional units adding less satisfaction with other conditions fixed; the question instead describes the change in total satisfaction from an additional unit."
+       ],
+       "y": "The change in total satisfaction from an additional unit."
+      },
+      {
+       "q": "Which term means: successive additional units adding less satisfaction with other conditions fixed ?",
+       "r": "diminishing marginal utility",
+       "w": [
+        "utility",
+        "total utility",
+        "marginal utility"
+       ],
+       "e": [
+        "utility means satisfaction obtained from consuming a good or service; the question instead describes successive additional units adding less satisfaction with other conditions fixed.",
+        "total utility means satisfaction from all units consumed in a stated situation; the question instead describes successive additional units adding less satisfaction with other conditions fixed.",
+        "marginal utility means the change in total satisfaction from an additional unit; the question instead describes successive additional units adding less satisfaction with other conditions fixed."
+       ],
+       "y": "Successive additional units adding less satisfaction with other conditions fixed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-7-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih enjoys reading a borrowed novel.\nWhich term best fits this example?",
+       "r": "utility",
+       "w": [
+        "total utility",
+        "marginal utility",
+        "diminishing marginal utility"
+       ],
+       "e": [
+        "total utility concerns satisfaction from all units consumed in a stated situation. This case instead illustrates satisfaction obtained from consuming a good or service.",
+        "marginal utility concerns the change in total satisfaction from an additional unit. This case instead illustrates satisfaction obtained from consuming a good or service.",
+        "diminishing marginal utility concerns successive additional units adding less satisfaction with other conditions fixed. This case instead illustrates satisfaction obtained from consuming a good or service."
+       ],
+       "y": "Bih enjoys reading a borrowed novel. Satisfaction obtained from consuming a good or service."
+      },
+      {
+       "q": "A record describes Ayuk's satisfaction from all cups so far.\nWhich term best fits this example?",
+       "r": "total utility",
+       "w": [
+        "utility",
+        "marginal utility",
+        "diminishing marginal utility"
+       ],
+       "e": [
+        "utility concerns satisfaction obtained from consuming a good or service. This case instead illustrates satisfaction from all units consumed in a stated situation.",
+        "marginal utility concerns the change in total satisfaction from an additional unit. This case instead illustrates satisfaction from all units consumed in a stated situation.",
+        "diminishing marginal utility concerns successive additional units adding less satisfaction with other conditions fixed. This case instead illustrates satisfaction from all units consumed in a stated situation."
+       ],
+       "y": "A record describes Ayuk's satisfaction from all cups so far. Satisfaction from all units consumed in a stated situation."
+      },
+      {
+       "q": "A learner compares satisfaction before and after one more cup.\nWhich term best fits this example?",
+       "r": "marginal utility",
+       "w": [
+        "utility",
+        "total utility",
+        "diminishing marginal utility"
+       ],
+       "e": [
+        "utility concerns satisfaction obtained from consuming a good or service. This case instead illustrates the change in total satisfaction from an additional unit.",
+        "total utility concerns satisfaction from all units consumed in a stated situation. This case instead illustrates the change in total satisfaction from an additional unit.",
+        "diminishing marginal utility concerns successive additional units adding less satisfaction with other conditions fixed. This case instead illustrates the change in total satisfaction from an additional unit."
+       ],
+       "y": "A learner compares satisfaction before and after one more cup. The change in total satisfaction from an additional unit."
+      },
+      {
+       "q": "Ayuk's later cups each add less satisfaction than the earlier cup.\nWhich term best fits this example?",
+       "r": "diminishing marginal utility",
+       "w": [
+        "utility",
+        "total utility",
+        "marginal utility"
+       ],
+       "e": [
+        "utility concerns satisfaction obtained from consuming a good or service. This case instead illustrates successive additional units adding less satisfaction with other conditions fixed.",
+        "total utility concerns satisfaction from all units consumed in a stated situation. This case instead illustrates successive additional units adding less satisfaction with other conditions fixed.",
+        "marginal utility concerns the change in total satisfaction from an additional unit. This case instead illustrates successive additional units adding less satisfaction with other conditions fixed."
+       ],
+       "y": "Ayuk's later cups each add less satisfaction than the earlier cup. Successive additional units adding less satisfaction with other conditions fixed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-7-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih enjoys reading a borrowed novel.\nWhich explanation justifies the classification?",
+       "r": "Satisfaction obtained from consuming a good or service.",
+       "w": [
+        "Satisfaction from all units consumed in a stated situation.",
+        "The change in total satisfaction from an additional unit.",
+        "Successive additional units adding less satisfaction with other conditions fixed."
+       ],
+       "e": [
+        "That explanation describes total utility, rather than the relationship illustrated in this example.",
+        "That explanation describes marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes diminishing marginal utility, rather than the relationship illustrated in this example."
+       ],
+       "y": "Price is a payment; utility is satisfaction."
+      },
+      {
+       "q": "A record describes Ayuk's satisfaction from all cups so far.\nWhich explanation justifies the classification?",
+       "r": "Satisfaction from all units consumed in a stated situation.",
+       "w": [
+        "Satisfaction obtained from consuming a good or service.",
+        "The change in total satisfaction from an additional unit.",
+        "Successive additional units adding less satisfaction with other conditions fixed."
+       ],
+       "e": [
+        "That explanation describes utility, rather than the relationship illustrated in this example.",
+        "That explanation describes marginal utility, rather than the relationship illustrated in this example.",
+        "That explanation describes diminishing marginal utility, rather than the relationship illustrated in this example."
+       ],
+       "y": "The last increment is marginal utility, not total utility."
+      },
+      {
+       "q": "A learner compares satisfaction before and after one more cup.\nWhich explanation justifies the classification?",
+       "r": "The change in total satisfaction from an additional unit.",
+       "w": [
+        "Satisfaction obtained from consuming a good or service.",
+        "Satisfaction from all units consumed in a stated situation.",
+        "Successive additional units adding less satisfaction with other conditions fixed."
+       ],
+       "e": [
+        "That explanation describes utility, rather than the relationship illustrated in this example.",
+        "That explanation describes total utility, rather than the relationship illustrated in this example.",
+        "That explanation describes diminishing marginal utility, rather than the relationship illustrated in this example."
+       ],
+       "y": "Marginal utility measures the increment from the extra unit."
+      },
+      {
+       "q": "Ayuk's later cups each add less satisfaction than the earlier cup.\nWhich explanation justifies the classification?",
+       "r": "Successive additional units adding less satisfaction with other conditions fixed.",
+       "w": [
+        "Satisfaction obtained from consuming a good or service.",
+        "Satisfaction from all units consumed in a stated situation.",
+        "The change in total satisfaction from an additional unit."
+       ],
+       "e": [
+        "That explanation describes utility, rather than the relationship illustrated in this example.",
+        "That explanation describes total utility, rather than the relationship illustrated in this example.",
+        "That explanation describes marginal utility, rather than the relationship illustrated in this example."
+       ],
+       "y": "Positive but smaller gains still increase total utility."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-7-mu",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "before": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "gain": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "In an assumed classroom utility table, total utility rises from {before} to {before+gain} units after one extra item. Find marginal utility.",
+   "answer": "gain",
+   "misconceptions": [
+    {
+     "id": "total",
+     "wrong": "before+gain",
+     "explain": "You reported the new total rather than the extra satisfaction."
+    },
+    {
+     "id": "add",
+     "wrong": "before+before+gain",
+     "explain": "Subtract the previous total; adding totals counts earlier satisfaction again."
+    }
+   ],
+   "solution": [
+    "Marginal utility = new total − previous total.",
+    "{before+gain} − {before} = {answer} assumed utility units."
+   ],
+   "unit": "assumed utility units"
+  },
+  {
+   "id": "n3-7-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "utility: satisfaction obtained from consuming a good or service.",
+      "truth": "true",
+      "explain": "This statement is correct: utility means satisfaction obtained from consuming a good or service. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "total utility: satisfaction from all units consumed in a stated situation.",
+      "truth": "true",
+      "explain": "This statement is correct: total utility means satisfaction from all units consumed in a stated situation. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "marginal utility: the change in total satisfaction from an additional unit.",
+      "truth": "true",
+      "explain": "This statement is correct: marginal utility means the change in total satisfaction from an additional unit. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "diminishing marginal utility: successive additional units adding less satisfaction with other conditions fixed.",
+      "truth": "true",
+      "explain": "This statement is correct: diminishing marginal utility means successive additional units adding less satisfaction with other conditions fixed. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Utility always means the money price of a good.",
+      "truth": "false",
+      "explain": "Price is a payment; utility is satisfaction."
+     },
+     {
+      "text": "Total utility refers only to the last additional cup.",
+      "truth": "false",
+      "explain": "The last increment is marginal utility, not total utility."
+     },
+     {
+      "text": "Marginal utility is the total from every cup added together.",
+      "truth": "false",
+      "explain": "Marginal utility measures the increment from the extra unit."
+     },
+     {
+      "text": "Falling marginal utility always makes total utility fall.",
+      "truth": "false",
+      "explain": "Positive but smaller gains still increase total utility."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

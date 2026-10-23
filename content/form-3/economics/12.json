@@ -1,0 +1,601 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "n3-12",
+   "name": "Market system: strengths and limits"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Market incentives can encourage innovation and responsiveness, but market outcomes also have limits. An externality affects people outside the transaction. A public good is non-rival and non-excludable in the technical sense, not simply anything government owns. Unequal purchasing power can make access unequal. Monopoly power may weaken competition. Assess a market outcome by the evidence and the criterion being used, rather than assuming that private exchange always produces the best social result.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Market incentives can encourage innovation and responsiveness, but market outcomes also have limits. An externality affects people outside the transaction. A public good is non-rival and non-excludable in the technical sense, not simply anything government owns. Unequal purchasing power can make access unequal. Monopoly power may weaken competition. Assess a market outcome by the evidence and the criterion being used, rather than assuming that private exchange always produces the best social result."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Smoke from a workshop may affect neighbouring households that did not buy its product. A buyer and seller may not account for that effect in their transaction. Another example is a shared warning signal: excluding non-payers can be difficult, and one person's hearing it need not prevent others hearing it. These cases explain why a price alone may not capture every social cost or benefit."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify who is affected and whether they are party to the exchange. For a public-good claim, test both rivalry and exclusion. Do not call every publicly provided service a pure public good. Distinguish efficient production from fair access: they are different criteria."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "externality",
+    "meaning": "an effect on a third party not fully reflected in the transaction"
+   },
+   {
+    "word": "public good",
+    "meaning": "a good that is non-rival and non-excludable"
+   },
+   {
+    "word": "market power",
+    "meaning": "ability to influence market conditions rather than merely accept them"
+   },
+   {
+    "word": "inequality of access",
+    "meaning": "differences in ability to obtain goods or services"
+   }
+  ],
+  "examples": [
+   "Workshop smoke affects neighbouring residents.",
+   "A common warning signal can alert many people without one person's hearing excluding others.",
+   "A dominant supplier has few rivals and can influence its price."
+  ],
+  "mistake": {
+   "wrong": "Only the buyer and seller can ever be affected by production.",
+   "right": "externality: an effect on a third party not fully reflected in the transaction.",
+   "why": "Effects on neighbours are precisely the third-party issue."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Workshop smoke affects neighbouring residents. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "An effect on a third party not fully reflected in the transaction.",
+   "Effects on neighbours are precisely the third-party issue."
+  ],
+  "answer": "externality",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-12-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "externality: an effect on a third party not fully reflected in the transaction.",
+     "public good: a good that is non-rival and non-excludable.",
+     "market power: ability to influence market conditions rather than merely accept them.",
+     "inequality of access: differences in ability to obtain goods or services."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-12-terms"
+    }
+   },
+   {
+    "id": "cn3-12-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Workshop smoke affects neighbouring residents.",
+     "externality: an effect on a third party not fully reflected in the transaction."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-12-cases"
+    }
+   },
+   {
+    "id": "cn3-12-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Only the buyer and seller can ever be affected by production.",
+     "Effects on neighbours are precisely the third-party issue."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-12-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "externality: an effect on a third party not fully reflected in the transaction.",
+        "truth": "true",
+        "explain": "This statement is correct: externality means an effect on a third party not fully reflected in the transaction. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "public good: a good that is non-rival and non-excludable.",
+        "truth": "true",
+        "explain": "This statement is correct: public good means a good that is non-rival and non-excludable. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "market power: ability to influence market conditions rather than merely accept them.",
+        "truth": "true",
+        "explain": "This statement is correct: market power means ability to influence market conditions rather than merely accept them. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "inequality of access: differences in ability to obtain goods or services.",
+        "truth": "true",
+        "explain": "This statement is correct: inequality of access means differences in ability to obtain goods or services. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Only the buyer and seller can ever be affected by production.",
+        "truth": "false",
+        "explain": "Effects on neighbours are precisely the third-party issue."
+       },
+       {
+        "text": "Every government-owned item is automatically a pure public good.",
+        "truth": "false",
+        "explain": "Ownership is not the test; non-rivalry and non-excludability are."
+       },
+       {
+        "text": "Having few alternatives guarantees vigorous competition.",
+        "truth": "false",
+        "explain": "Weak alternatives can strengthen a dominant supplier's influence."
+       },
+       {
+        "text": "Willingness to buy always means ability to pay.",
+        "truth": "false",
+        "explain": "A desire to buy and the purchasing power to buy are distinct."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: an effect on a third party not fully reflected in the transaction ?",
+       "r": "externality",
+       "w": [
+        "public good",
+        "market power",
+        "inequality of access"
+       ],
+       "e": [
+        "public good means a good that is non-rival and non-excludable; the question instead describes an effect on a third party not fully reflected in the transaction.",
+        "market power means ability to influence market conditions rather than merely accept them; the question instead describes an effect on a third party not fully reflected in the transaction.",
+        "inequality of access means differences in ability to obtain goods or services; the question instead describes an effect on a third party not fully reflected in the transaction."
+       ],
+       "y": "An effect on a third party not fully reflected in the transaction."
+      },
+      {
+       "q": "Which term means: a good that is non-rival and non-excludable ?",
+       "r": "public good",
+       "w": [
+        "externality",
+        "market power",
+        "inequality of access"
+       ],
+       "e": [
+        "externality means an effect on a third party not fully reflected in the transaction; the question instead describes a good that is non-rival and non-excludable.",
+        "market power means ability to influence market conditions rather than merely accept them; the question instead describes a good that is non-rival and non-excludable.",
+        "inequality of access means differences in ability to obtain goods or services; the question instead describes a good that is non-rival and non-excludable."
+       ],
+       "y": "A good that is non-rival and non-excludable."
+      },
+      {
+       "q": "Which term means: ability to influence market conditions rather than merely accept them ?",
+       "r": "market power",
+       "w": [
+        "externality",
+        "public good",
+        "inequality of access"
+       ],
+       "e": [
+        "externality means an effect on a third party not fully reflected in the transaction; the question instead describes ability to influence market conditions rather than merely accept them.",
+        "public good means a good that is non-rival and non-excludable; the question instead describes ability to influence market conditions rather than merely accept them.",
+        "inequality of access means differences in ability to obtain goods or services; the question instead describes ability to influence market conditions rather than merely accept them."
+       ],
+       "y": "Ability to influence market conditions rather than merely accept them."
+      },
+      {
+       "q": "Which term means: differences in ability to obtain goods or services ?",
+       "r": "inequality of access",
+       "w": [
+        "externality",
+        "public good",
+        "market power"
+       ],
+       "e": [
+        "externality means an effect on a third party not fully reflected in the transaction; the question instead describes differences in ability to obtain goods or services.",
+        "public good means a good that is non-rival and non-excludable; the question instead describes differences in ability to obtain goods or services.",
+        "market power means ability to influence market conditions rather than merely accept them; the question instead describes differences in ability to obtain goods or services."
+       ],
+       "y": "Differences in ability to obtain goods or services."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Workshop smoke affects neighbouring residents.\nWhich term best fits this example?",
+       "r": "externality",
+       "w": [
+        "public good",
+        "market power",
+        "inequality of access"
+       ],
+       "e": [
+        "public good concerns a good that is non-rival and non-excludable. This case instead illustrates an effect on a third party not fully reflected in the transaction.",
+        "market power concerns ability to influence market conditions rather than merely accept them. This case instead illustrates an effect on a third party not fully reflected in the transaction.",
+        "inequality of access concerns differences in ability to obtain goods or services. This case instead illustrates an effect on a third party not fully reflected in the transaction."
+       ],
+       "y": "Workshop smoke affects neighbouring residents. An effect on a third party not fully reflected in the transaction."
+      },
+      {
+       "q": "A common warning signal can alert many people without one person's hearing excluding others.\nWhich term best fits this example?",
+       "r": "public good",
+       "w": [
+        "externality",
+        "market power",
+        "inequality of access"
+       ],
+       "e": [
+        "externality concerns an effect on a third party not fully reflected in the transaction. This case instead illustrates a good that is non-rival and non-excludable.",
+        "market power concerns ability to influence market conditions rather than merely accept them. This case instead illustrates a good that is non-rival and non-excludable.",
+        "inequality of access concerns differences in ability to obtain goods or services. This case instead illustrates a good that is non-rival and non-excludable."
+       ],
+       "y": "A common warning signal can alert many people without one person's hearing excluding others. A good that is non-rival and non-excludable."
+      },
+      {
+       "q": "A dominant supplier has few rivals and can influence its price.\nWhich term best fits this example?",
+       "r": "market power",
+       "w": [
+        "externality",
+        "public good",
+        "inequality of access"
+       ],
+       "e": [
+        "externality concerns an effect on a third party not fully reflected in the transaction. This case instead illustrates ability to influence market conditions rather than merely accept them.",
+        "public good concerns a good that is non-rival and non-excludable. This case instead illustrates ability to influence market conditions rather than merely accept them.",
+        "inequality of access concerns differences in ability to obtain goods or services. This case instead illustrates ability to influence market conditions rather than merely accept them."
+       ],
+       "y": "A dominant supplier has few rivals and can influence its price. Ability to influence market conditions rather than merely accept them."
+      },
+      {
+       "q": "Households with different budgets cannot all buy the same basket.\nWhich term best fits this example?",
+       "r": "inequality of access",
+       "w": [
+        "externality",
+        "public good",
+        "market power"
+       ],
+       "e": [
+        "externality concerns an effect on a third party not fully reflected in the transaction. This case instead illustrates differences in ability to obtain goods or services.",
+        "public good concerns a good that is non-rival and non-excludable. This case instead illustrates differences in ability to obtain goods or services.",
+        "market power concerns ability to influence market conditions rather than merely accept them. This case instead illustrates differences in ability to obtain goods or services."
+       ],
+       "y": "Households with different budgets cannot all buy the same basket. Differences in ability to obtain goods or services."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-12-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Workshop smoke affects neighbouring residents.\nWhich explanation justifies the classification?",
+       "r": "An effect on a third party not fully reflected in the transaction.",
+       "w": [
+        "A good that is non-rival and non-excludable.",
+        "Ability to influence market conditions rather than merely accept them.",
+        "Differences in ability to obtain goods or services."
+       ],
+       "e": [
+        "That explanation describes public good, rather than the relationship illustrated in this example.",
+        "That explanation describes market power, rather than the relationship illustrated in this example.",
+        "That explanation describes inequality of access, rather than the relationship illustrated in this example."
+       ],
+       "y": "Effects on neighbours are precisely the third-party issue."
+      },
+      {
+       "q": "A common warning signal can alert many people without one person's hearing excluding others.\nWhich explanation justifies the classification?",
+       "r": "A good that is non-rival and non-excludable.",
+       "w": [
+        "An effect on a third party not fully reflected in the transaction.",
+        "Ability to influence market conditions rather than merely accept them.",
+        "Differences in ability to obtain goods or services."
+       ],
+       "e": [
+        "That explanation describes externality, rather than the relationship illustrated in this example.",
+        "That explanation describes market power, rather than the relationship illustrated in this example.",
+        "That explanation describes inequality of access, rather than the relationship illustrated in this example."
+       ],
+       "y": "Ownership is not the test; non-rivalry and non-excludability are."
+      },
+      {
+       "q": "A dominant supplier has few rivals and can influence its price.\nWhich explanation justifies the classification?",
+       "r": "Ability to influence market conditions rather than merely accept them.",
+       "w": [
+        "An effect on a third party not fully reflected in the transaction.",
+        "A good that is non-rival and non-excludable.",
+        "Differences in ability to obtain goods or services."
+       ],
+       "e": [
+        "That explanation describes externality, rather than the relationship illustrated in this example.",
+        "That explanation describes public good, rather than the relationship illustrated in this example.",
+        "That explanation describes inequality of access, rather than the relationship illustrated in this example."
+       ],
+       "y": "Weak alternatives can strengthen a dominant supplier's influence."
+      },
+      {
+       "q": "Households with different budgets cannot all buy the same basket.\nWhich explanation justifies the classification?",
+       "r": "Differences in ability to obtain goods or services.",
+       "w": [
+        "An effect on a third party not fully reflected in the transaction.",
+        "A good that is non-rival and non-excludable.",
+        "Ability to influence market conditions rather than merely accept them."
+       ],
+       "e": [
+        "That explanation describes externality, rather than the relationship illustrated in this example.",
+        "That explanation describes public good, rather than the relationship illustrated in this example.",
+        "That explanation describes market power, rather than the relationship illustrated in this example."
+       ],
+       "y": "A desire to buy and the purchasing power to buy are distinct."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-12-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "externality",
+     "right": "Workshop smoke affects neighbouring residents."
+    },
+    {
+     "left": "public good",
+     "right": "A common warning signal can alert many people without one person's hearing excluding others."
+    },
+    {
+     "left": "market power",
+     "right": "A dominant supplier has few rivals and can influence its price."
+    },
+    {
+     "left": "inequality of access",
+     "right": "Households with different budgets cannot all buy the same basket."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "n3-12-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "externality: an effect on a third party not fully reflected in the transaction.",
+      "truth": "true",
+      "explain": "This statement is correct: externality means an effect on a third party not fully reflected in the transaction. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "public good: a good that is non-rival and non-excludable.",
+      "truth": "true",
+      "explain": "This statement is correct: public good means a good that is non-rival and non-excludable. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "market power: ability to influence market conditions rather than merely accept them.",
+      "truth": "true",
+      "explain": "This statement is correct: market power means ability to influence market conditions rather than merely accept them. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "inequality of access: differences in ability to obtain goods or services.",
+      "truth": "true",
+      "explain": "This statement is correct: inequality of access means differences in ability to obtain goods or services. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Only the buyer and seller can ever be affected by production.",
+      "truth": "false",
+      "explain": "Effects on neighbours are precisely the third-party issue."
+     },
+     {
+      "text": "Every government-owned item is automatically a pure public good.",
+      "truth": "false",
+      "explain": "Ownership is not the test; non-rivalry and non-excludability are."
+     },
+     {
+      "text": "Having few alternatives guarantees vigorous competition.",
+      "truth": "false",
+      "explain": "Weak alternatives can strengthen a dominant supplier's influence."
+     },
+     {
+      "text": "Willingness to buy always means ability to pay.",
+      "truth": "false",
+      "explain": "A desire to buy and the purchasing power to buy are distinct."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

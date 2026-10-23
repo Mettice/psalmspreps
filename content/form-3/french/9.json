@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-9",
+   "name": "Les conjonctions de coordination"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une conjonction de coordination relie des éléments de même fonction ou des propositions. Et ajoute, mais oppose, ou présente une alternative, car introduit une explication dans les modèles étudiés. La relation voulue compte plus qu’une liste apprise par cœur. Ne confonds pas ou sans accent, qui propose un choix, avec où, qui peut indiquer un lieu. Un mot de liaison ne rend pas automatiquement logique une relation absente du texte.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Une conjonction de coordination relie des éléments de même fonction ou des propositions. Et ajoute, mais oppose, ou présente une alternative, car introduit une explication dans les modèles étudiés. La relation voulue compte plus qu’une liste apprise par cœur. Ne confonds pas ou sans accent, qui propose un choix, avec où, qui peut indiquer un lieu. Un mot de liaison ne rend pas automatiquement logique une relation absente du texte."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Bih apporte un livre et un cahier. Ayuk veut venir, mais il doit finir une tâche. Le groupe choisit la salle ou la cour. Il se réunit dedans, car il pleut. Chaque liaison a une fonction différente : remplacer car par mais modifierait la relation annoncée."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère les éléments reliés et formule la relation : addition, opposition, choix ou explication. Choisis ensuite la conjonction adaptée. Vérifie que les deux parties se construisent correctement et que la ponctuation soutient la lecture."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "et",
+    "meaning": "une liaison d’addition"
+   },
+   {
+    "word": "mais",
+    "meaning": "une liaison d’opposition"
+   },
+   {
+    "word": "ou",
+    "meaning": "une liaison présentant une alternative"
+   },
+   {
+    "word": "car",
+    "meaning": "une liaison donnant une explication"
+   }
+  ],
+  "examples": [
+   "Bih apporte un cahier et un livre.",
+   "Ayuk veut venir, mais une tâche le retient.",
+   "Le groupe choisit la salle ou la cour."
+  ],
+  "mistake": {
+   "wrong": "Et indique nécessairement une opposition.",
+   "right": "et: une liaison d’addition.",
+   "why": "Et ajoute ici un élément."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih apporte un cahier et un livre. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Une liaison d’addition.",
+   "Et ajoute ici un élément."
+  ],
+  "answer": "et",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-9-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "et: une liaison d’addition.",
+     "mais: une liaison d’opposition.",
+     "ou: une liaison présentant une alternative.",
+     "car: une liaison donnant une explication."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-9-terms"
+    }
+   },
+   {
+    "id": "cfr3-9-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Bih apporte un cahier et un livre.",
+     "et: une liaison d’addition."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-9-cases"
+    }
+   },
+   {
+    "id": "cfr3-9-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Et indique nécessairement une opposition.",
+     "Et ajoute ici un élément."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-9-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "et : une liaison d’addition.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : et désigne une liaison d’addition. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "mais : une liaison d’opposition.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : mais désigne une liaison d’opposition. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "ou : une liaison présentant une alternative.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : ou désigne une liaison présentant une alternative. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "car : une liaison donnant une explication.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : car désigne une liaison donnant une explication. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Et indique nécessairement une opposition.",
+        "truth": "false",
+        "explain": "Et ajoute ici un élément."
+       },
+       {
+        "text": "Mais signifie toujours exactement la même chose que car.",
+        "truth": "false",
+        "explain": "Mais oppose les deux idées ; car explique."
+       },
+       {
+        "text": "Ou et où ont toujours la même fonction.",
+        "truth": "false",
+        "explain": "Ou propose un choix ; où porte un accent et a un autre emploi."
+       },
+       {
+        "text": "Car retire toute relation explicative.",
+        "truth": "false",
+        "explain": "La pluie donne ici la raison du choix."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-9-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : une liaison d’addition ?",
+       "r": "et",
+       "w": [
+        "mais",
+        "ou",
+        "car"
+       ],
+       "e": [
+        "« mais » désigne une liaison d’opposition. Ici, cherche une liaison d’addition.",
+        "« ou » désigne une liaison présentant une alternative. Ici, cherche une liaison d’addition.",
+        "« car » désigne une liaison donnant une explication. Ici, cherche une liaison d’addition."
+       ],
+       "y": "Une liaison d’addition."
+      },
+      {
+       "q": "Quel terme désigne : une liaison d’opposition ?",
+       "r": "mais",
+       "w": [
+        "et",
+        "ou",
+        "car"
+       ],
+       "e": [
+        "« et » désigne une liaison d’addition. Ici, cherche une liaison d’opposition.",
+        "« ou » désigne une liaison présentant une alternative. Ici, cherche une liaison d’opposition.",
+        "« car » désigne une liaison donnant une explication. Ici, cherche une liaison d’opposition."
+       ],
+       "y": "Une liaison d’opposition."
+      },
+      {
+       "q": "Quel terme désigne : une liaison présentant une alternative ?",
+       "r": "ou",
+       "w": [
+        "et",
+        "mais",
+        "car"
+       ],
+       "e": [
+        "« et » désigne une liaison d’addition. Ici, cherche une liaison présentant une alternative.",
+        "« mais » désigne une liaison d’opposition. Ici, cherche une liaison présentant une alternative.",
+        "« car » désigne une liaison donnant une explication. Ici, cherche une liaison présentant une alternative."
+       ],
+       "y": "Une liaison présentant une alternative."
+      },
+      {
+       "q": "Quel terme désigne : une liaison donnant une explication ?",
+       "r": "car",
+       "w": [
+        "et",
+        "mais",
+        "ou"
+       ],
+       "e": [
+        "« et » désigne une liaison d’addition. Ici, cherche une liaison donnant une explication.",
+        "« mais » désigne une liaison d’opposition. Ici, cherche une liaison donnant une explication.",
+        "« ou » désigne une liaison présentant une alternative. Ici, cherche une liaison donnant une explication."
+       ],
+       "y": "Une liaison donnant une explication."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-9-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih apporte un cahier et un livre.\nQuel terme s’applique le mieux ?",
+       "r": "et",
+       "w": [
+        "mais",
+        "ou",
+        "car"
+       ],
+       "e": [
+        "« mais » concerne une liaison d’opposition. Le cas décrit plutôt une liaison d’addition.",
+        "« ou » concerne une liaison présentant une alternative. Le cas décrit plutôt une liaison d’addition.",
+        "« car » concerne une liaison donnant une explication. Le cas décrit plutôt une liaison d’addition."
+       ],
+       "y": "Bih apporte un cahier et un livre. Une liaison d’addition."
+      },
+      {
+       "q": "Ayuk veut venir, mais une tâche le retient.\nQuel terme s’applique le mieux ?",
+       "r": "mais",
+       "w": [
+        "et",
+        "ou",
+        "car"
+       ],
+       "e": [
+        "« et » concerne une liaison d’addition. Le cas décrit plutôt une liaison d’opposition.",
+        "« ou » concerne une liaison présentant une alternative. Le cas décrit plutôt une liaison d’opposition.",
+        "« car » concerne une liaison donnant une explication. Le cas décrit plutôt une liaison d’opposition."
+       ],
+       "y": "Ayuk veut venir, mais une tâche le retient. Une liaison d’opposition."
+      },
+      {
+       "q": "Le groupe choisit la salle ou la cour.\nQuel terme s’applique le mieux ?",
+       "r": "ou",
+       "w": [
+        "et",
+        "mais",
+        "car"
+       ],
+       "e": [
+        "« et » concerne une liaison d’addition. Le cas décrit plutôt une liaison présentant une alternative.",
+        "« mais » concerne une liaison d’opposition. Le cas décrit plutôt une liaison présentant une alternative.",
+        "« car » concerne une liaison donnant une explication. Le cas décrit plutôt une liaison présentant une alternative."
+       ],
+       "y": "Le groupe choisit la salle ou la cour. Une liaison présentant une alternative."
+      },
+      {
+       "q": "Le groupe reste dedans, car il pleut.\nQuel terme s’applique le mieux ?",
+       "r": "car",
+       "w": [
+        "et",
+        "mais",
+        "ou"
+       ],
+       "e": [
+        "« et » concerne une liaison d’addition. Le cas décrit plutôt une liaison donnant une explication.",
+        "« mais » concerne une liaison d’opposition. Le cas décrit plutôt une liaison donnant une explication.",
+        "« ou » concerne une liaison présentant une alternative. Le cas décrit plutôt une liaison donnant une explication."
+       ],
+       "y": "Le groupe reste dedans, car il pleut. Une liaison donnant une explication."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-9-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih apporte un cahier et un livre.\nQuelle explication justifie le classement ?",
+       "r": "Une liaison d’addition.",
+       "w": [
+        "Une liaison d’opposition.",
+        "Une liaison présentant une alternative.",
+        "Une liaison donnant une explication."
+       ],
+       "e": [
+        "Cette explication correspond à « mais ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « ou ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « car ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Et ajoute ici un élément."
+      },
+      {
+       "q": "Ayuk veut venir, mais une tâche le retient.\nQuelle explication justifie le classement ?",
+       "r": "Une liaison d’opposition.",
+       "w": [
+        "Une liaison d’addition.",
+        "Une liaison présentant une alternative.",
+        "Une liaison donnant une explication."
+       ],
+       "e": [
+        "Cette explication correspond à « et ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « ou ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « car ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Mais oppose les deux idées ; car explique."
+      },
+      {
+       "q": "Le groupe choisit la salle ou la cour.\nQuelle explication justifie le classement ?",
+       "r": "Une liaison présentant une alternative.",
+       "w": [
+        "Une liaison d’addition.",
+        "Une liaison d’opposition.",
+        "Une liaison donnant une explication."
+       ],
+       "e": [
+        "Cette explication correspond à « et ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « mais ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « car ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Ou propose un choix ; où porte un accent et a un autre emploi."
+      },
+      {
+       "q": "Le groupe reste dedans, car il pleut.\nQuelle explication justifie le classement ?",
+       "r": "Une liaison donnant une explication.",
+       "w": [
+        "Une liaison d’addition.",
+        "Une liaison d’opposition.",
+        "Une liaison présentant une alternative."
+       ],
+       "e": [
+        "Cette explication correspond à « et ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « mais ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « ou ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La pluie donne ici la raison du choix."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-9-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "et",
+     "right": "Bih apporte un cahier et un livre."
+    },
+    {
+     "left": "mais",
+     "right": "Ayuk veut venir, mais une tâche le retient."
+    },
+    {
+     "left": "ou",
+     "right": "Le groupe choisit la salle ou la cour."
+    },
+    {
+     "left": "car",
+     "right": "Le groupe reste dedans, car il pleut."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-9-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "et : une liaison d’addition.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : et désigne une liaison d’addition. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "mais : une liaison d’opposition.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : mais désigne une liaison d’opposition. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "ou : une liaison présentant une alternative.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : ou désigne une liaison présentant une alternative. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "car : une liaison donnant une explication.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : car désigne une liaison donnant une explication. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Et indique nécessairement une opposition.",
+      "truth": "false",
+      "explain": "Et ajoute ici un élément."
+     },
+     {
+      "text": "Mais signifie toujours exactement la même chose que car.",
+      "truth": "false",
+      "explain": "Mais oppose les deux idées ; car explique."
+     },
+     {
+      "text": "Ou et où ont toujours la même fonction.",
+      "truth": "false",
+      "explain": "Ou propose un choix ; où porte un accent et a un autre emploi."
+     },
+     {
+      "text": "Car retire toute relation explicative.",
+      "truth": "false",
+      "explain": "La pluie donne ici la raison du choix."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

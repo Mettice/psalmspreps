@@ -1,0 +1,613 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-22",
+   "name": "Expository writing: a profession's advantages and challenges"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Expository writing explains a topic through organised points, reasons and examples. Introduce the profession, then discuss advantages and challenges fairly. Distinguish facts you have checked from personal preferences. Training, working conditions and entry requirements can differ by place and change over time, so do not invent a guaranteed qualification route or income. End by bringing the explanation together rather than adding an unrelated claim.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Expository writing explains a topic through organised points, reasons and examples. Introduce the profession, then discuss advantages and challenges fairly. Distinguish facts you have checked from personal preferences. Training, working conditions and entry requirements can differ by place and change over time, so do not invent a guaranteed qualification route or income. End by bringing the explanation together rather than adding an unrelated claim."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original model: Teaching can allow a person to help learners understand new ideas. It also requires preparation, patience and continued learning. A teacher may find progress rewarding, while managing a busy class can be challenging. The training and registration requirements should be checked with an appropriate institution. The profession therefore needs both interest in learners and a realistic understanding of its responsibilities."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Make a plan with introduction, advantages, challenges and conclusion. Support each point with an explanation rather than praise or criticism alone. Avoid treating one person's preference as a universal fact. A balanced account can still reach a reasoned personal view."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "explanation",
+    "meaning": "a point developed with reasons and examples"
+   },
+   {
+    "word": "advantage",
+    "meaning": "a potential positive feature of an occupation"
+   },
+   {
+    "word": "challenge",
+    "meaning": "a difficulty or demand that should be considered"
+   },
+   {
+    "word": "balanced conclusion",
+    "meaning": "an ending reflecting the points actually discussed"
+   }
+  ],
+  "examples": [
+   "The writer explains why lesson preparation takes time.",
+   "Helping a learner understand can be rewarding.",
+   "Managing several tasks requires organisation."
+  ],
+  "mistake": {
+   "wrong": "A list of unsupported adjectives is a fully developed explanation.",
+   "right": "explanation: a point developed with reasons and examples.",
+   "why": "Explain how or why a point holds rather than listing labels."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The writer explains why lesson preparation takes time. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A point developed with reasons and examples.",
+   "Explain how or why a point holds rather than listing labels."
+  ],
+  "answer": "explanation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-22-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "explanation: a point developed with reasons and examples.",
+     "advantage: a potential positive feature of an occupation.",
+     "challenge: a difficulty or demand that should be considered.",
+     "balanced conclusion: an ending reflecting the points actually discussed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-22-terms"
+    }
+   },
+   {
+    "id": "ce3-22-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The writer explains why lesson preparation takes time.",
+     "explanation: a point developed with reasons and examples."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-22-cases"
+    }
+   },
+   {
+    "id": "ce3-22-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A list of unsupported adjectives is a fully developed explanation.",
+     "Explain how or why a point holds rather than listing labels."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-22-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "explanation: a point developed with reasons and examples.",
+        "truth": "true",
+        "explain": "This statement is correct: explanation means a point developed with reasons and examples. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "advantage: a potential positive feature of an occupation.",
+        "truth": "true",
+        "explain": "This statement is correct: advantage means a potential positive feature of an occupation. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "challenge: a difficulty or demand that should be considered.",
+        "truth": "true",
+        "explain": "This statement is correct: challenge means a difficulty or demand that should be considered. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "balanced conclusion: an ending reflecting the points actually discussed.",
+        "truth": "true",
+        "explain": "This statement is correct: balanced conclusion means an ending reflecting the points actually discussed. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A list of unsupported adjectives is a fully developed explanation.",
+        "truth": "false",
+        "explain": "Explain how or why a point holds rather than listing labels."
+       },
+       {
+        "text": "An advantage proves there are no difficulties in the occupation.",
+        "truth": "false",
+        "explain": "A positive feature can coexist with challenges."
+       },
+       {
+        "text": "Naming a challenge means every worker must fail.",
+        "truth": "false",
+        "explain": "A challenge is a demand, not a guarantee of failure."
+       },
+       {
+        "text": "A conclusion should introduce an entirely unrelated occupation.",
+        "truth": "false",
+        "explain": "An ending should draw together the account's supported points."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-22-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a point developed with reasons and examples ?",
+       "r": "explanation",
+       "w": [
+        "advantage",
+        "challenge",
+        "balanced conclusion"
+       ],
+       "e": [
+        "advantage means a potential positive feature of an occupation; the question instead describes a point developed with reasons and examples.",
+        "challenge means a difficulty or demand that should be considered; the question instead describes a point developed with reasons and examples.",
+        "balanced conclusion means an ending reflecting the points actually discussed; the question instead describes a point developed with reasons and examples."
+       ],
+       "y": "A point developed with reasons and examples."
+      },
+      {
+       "q": "Which term means: a potential positive feature of an occupation ?",
+       "r": "advantage",
+       "w": [
+        "explanation",
+        "challenge",
+        "balanced conclusion"
+       ],
+       "e": [
+        "explanation means a point developed with reasons and examples; the question instead describes a potential positive feature of an occupation.",
+        "challenge means a difficulty or demand that should be considered; the question instead describes a potential positive feature of an occupation.",
+        "balanced conclusion means an ending reflecting the points actually discussed; the question instead describes a potential positive feature of an occupation."
+       ],
+       "y": "A potential positive feature of an occupation."
+      },
+      {
+       "q": "Which term means: a difficulty or demand that should be considered ?",
+       "r": "challenge",
+       "w": [
+        "explanation",
+        "advantage",
+        "balanced conclusion"
+       ],
+       "e": [
+        "explanation means a point developed with reasons and examples; the question instead describes a difficulty or demand that should be considered.",
+        "advantage means a potential positive feature of an occupation; the question instead describes a difficulty or demand that should be considered.",
+        "balanced conclusion means an ending reflecting the points actually discussed; the question instead describes a difficulty or demand that should be considered."
+       ],
+       "y": "A difficulty or demand that should be considered."
+      },
+      {
+       "q": "Which term means: an ending reflecting the points actually discussed ?",
+       "r": "balanced conclusion",
+       "w": [
+        "explanation",
+        "advantage",
+        "challenge"
+       ],
+       "e": [
+        "explanation means a point developed with reasons and examples; the question instead describes an ending reflecting the points actually discussed.",
+        "advantage means a potential positive feature of an occupation; the question instead describes an ending reflecting the points actually discussed.",
+        "challenge means a difficulty or demand that should be considered; the question instead describes an ending reflecting the points actually discussed."
+       ],
+       "y": "An ending reflecting the points actually discussed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-22-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The writer explains why lesson preparation takes time.\nWhich term best fits this example?",
+       "r": "explanation",
+       "w": [
+        "advantage",
+        "challenge",
+        "balanced conclusion"
+       ],
+       "e": [
+        "advantage concerns a potential positive feature of an occupation. This case instead illustrates a point developed with reasons and examples.",
+        "challenge concerns a difficulty or demand that should be considered. This case instead illustrates a point developed with reasons and examples.",
+        "balanced conclusion concerns an ending reflecting the points actually discussed. This case instead illustrates a point developed with reasons and examples."
+       ],
+       "y": "The writer explains why lesson preparation takes time. A point developed with reasons and examples."
+      },
+      {
+       "q": "Helping a learner understand can be rewarding.\nWhich term best fits this example?",
+       "r": "advantage",
+       "w": [
+        "explanation",
+        "challenge",
+        "balanced conclusion"
+       ],
+       "e": [
+        "explanation concerns a point developed with reasons and examples. This case instead illustrates a potential positive feature of an occupation.",
+        "challenge concerns a difficulty or demand that should be considered. This case instead illustrates a potential positive feature of an occupation.",
+        "balanced conclusion concerns an ending reflecting the points actually discussed. This case instead illustrates a potential positive feature of an occupation."
+       ],
+       "y": "Helping a learner understand can be rewarding. A potential positive feature of an occupation."
+      },
+      {
+       "q": "Managing several tasks requires organisation.\nWhich term best fits this example?",
+       "r": "challenge",
+       "w": [
+        "explanation",
+        "advantage",
+        "balanced conclusion"
+       ],
+       "e": [
+        "explanation concerns a point developed with reasons and examples. This case instead illustrates a difficulty or demand that should be considered.",
+        "advantage concerns a potential positive feature of an occupation. This case instead illustrates a difficulty or demand that should be considered.",
+        "balanced conclusion concerns an ending reflecting the points actually discussed. This case instead illustrates a difficulty or demand that should be considered."
+       ],
+       "y": "Managing several tasks requires organisation. A difficulty or demand that should be considered."
+      },
+      {
+       "q": "The writer weighs rewards against responsibilities.\nWhich term best fits this example?",
+       "r": "balanced conclusion",
+       "w": [
+        "explanation",
+        "advantage",
+        "challenge"
+       ],
+       "e": [
+        "explanation concerns a point developed with reasons and examples. This case instead illustrates an ending reflecting the points actually discussed.",
+        "advantage concerns a potential positive feature of an occupation. This case instead illustrates an ending reflecting the points actually discussed.",
+        "challenge concerns a difficulty or demand that should be considered. This case instead illustrates an ending reflecting the points actually discussed."
+       ],
+       "y": "The writer weighs rewards against responsibilities. An ending reflecting the points actually discussed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-22-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The writer explains why lesson preparation takes time.\nWhich explanation justifies the classification?",
+       "r": "A point developed with reasons and examples.",
+       "w": [
+        "A potential positive feature of an occupation.",
+        "A difficulty or demand that should be considered.",
+        "An ending reflecting the points actually discussed."
+       ],
+       "e": [
+        "That explanation describes advantage, rather than the relationship illustrated in this example.",
+        "That explanation describes challenge, rather than the relationship illustrated in this example.",
+        "That explanation describes balanced conclusion, rather than the relationship illustrated in this example."
+       ],
+       "y": "Explain how or why a point holds rather than listing labels."
+      },
+      {
+       "q": "Helping a learner understand can be rewarding.\nWhich explanation justifies the classification?",
+       "r": "A potential positive feature of an occupation.",
+       "w": [
+        "A point developed with reasons and examples.",
+        "A difficulty or demand that should be considered.",
+        "An ending reflecting the points actually discussed."
+       ],
+       "e": [
+        "That explanation describes explanation, rather than the relationship illustrated in this example.",
+        "That explanation describes challenge, rather than the relationship illustrated in this example.",
+        "That explanation describes balanced conclusion, rather than the relationship illustrated in this example."
+       ],
+       "y": "A positive feature can coexist with challenges."
+      },
+      {
+       "q": "Managing several tasks requires organisation.\nWhich explanation justifies the classification?",
+       "r": "A difficulty or demand that should be considered.",
+       "w": [
+        "A point developed with reasons and examples.",
+        "A potential positive feature of an occupation.",
+        "An ending reflecting the points actually discussed."
+       ],
+       "e": [
+        "That explanation describes explanation, rather than the relationship illustrated in this example.",
+        "That explanation describes advantage, rather than the relationship illustrated in this example.",
+        "That explanation describes balanced conclusion, rather than the relationship illustrated in this example."
+       ],
+       "y": "A challenge is a demand, not a guarantee of failure."
+      },
+      {
+       "q": "The writer weighs rewards against responsibilities.\nWhich explanation justifies the classification?",
+       "r": "An ending reflecting the points actually discussed.",
+       "w": [
+        "A point developed with reasons and examples.",
+        "A potential positive feature of an occupation.",
+        "A difficulty or demand that should be considered."
+       ],
+       "e": [
+        "That explanation describes explanation, rather than the relationship illustrated in this example.",
+        "That explanation describes advantage, rather than the relationship illustrated in this example.",
+        "That explanation describes challenge, rather than the relationship illustrated in this example."
+       ],
+       "y": "An ending should draw together the account's supported points."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-22-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "explanation",
+     "right": "The writer explains why lesson preparation takes time."
+    },
+    {
+     "left": "advantage",
+     "right": "Helping a learner understand can be rewarding."
+    },
+    {
+     "left": "challenge",
+     "right": "Managing several tasks requires organisation."
+    },
+    {
+     "left": "balanced conclusion",
+     "right": "The writer weighs rewards against responsibilities."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-22-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "explanation: a point developed with reasons and examples.",
+      "truth": "true",
+      "explain": "This statement is correct: explanation means a point developed with reasons and examples. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "advantage: a potential positive feature of an occupation.",
+      "truth": "true",
+      "explain": "This statement is correct: advantage means a potential positive feature of an occupation. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "challenge: a difficulty or demand that should be considered.",
+      "truth": "true",
+      "explain": "This statement is correct: challenge means a difficulty or demand that should be considered. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "balanced conclusion: an ending reflecting the points actually discussed.",
+      "truth": "true",
+      "explain": "This statement is correct: balanced conclusion means an ending reflecting the points actually discussed. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A list of unsupported adjectives is a fully developed explanation.",
+      "truth": "false",
+      "explain": "Explain how or why a point holds rather than listing labels."
+     },
+     {
+      "text": "An advantage proves there are no difficulties in the occupation.",
+      "truth": "false",
+      "explain": "A positive feature can coexist with challenges."
+     },
+     {
+      "text": "Naming a challenge means every worker must fail.",
+      "truth": "false",
+      "explain": "A challenge is a demand, not a guarantee of failure."
+     },
+     {
+      "text": "A conclusion should introduce an entirely unrelated occupation.",
+      "truth": "false",
+      "explain": "An ending should draw together the account's supported points."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Choose an imaginary character considering a profession. Explain possible advantages and challenges without inventing current entry requirements or guaranteed earnings.",
+  "model": [
+   "Teaching can allow a person to help learners understand new ideas. It also requires preparation, patience and continued learning. A teacher may find progress rewarding, while managing a busy class can be challenging. The training and registration requirements should be checked with an appropriate institution. The profession therefore needs both interest in learners and a realistic understanding of its responsibilities."
+  ],
+  "checklist": [
+   "I introduce and explain the profession.",
+   "I support both advantages and challenges.",
+   "My conclusion follows the discussion."
+  ],
+  "checks": []
+ }
+}

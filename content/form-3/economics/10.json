@@ -1,0 +1,601 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "n3-10",
+   "name": "Economic systems: ownership and coordination"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Systems differ in who owns productive resources and how decisions are coordinated. Private ownership places assets under individuals or firms. Public ownership places assets under the state or a public body. Markets coordinate many decisions through exchange and prices; planning coordinates through deliberate decisions and instructions. Traditional arrangements may rely on custom. Actual economies combine institutions, so a single private shop or state project cannot by itself classify an entire national economy.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Systems differ in who owns productive resources and how decisions are coordinated. Private ownership places assets under individuals or firms. Public ownership places assets under the state or a public body. Markets coordinate many decisions through exchange and prices; planning coordinates through deliberate decisions and instructions. Traditional arrangements may rely on custom. Actual economies combine institutions, so a single private shop or state project cannot by itself classify an entire national economy."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A family stall in Bamenda may be privately owned, while a public service belongs to a state body. A school can plan its timetable even within a wider market economy. Distinguish the institution being described from the whole country's system. Classification should use ownership and coordination together, rather than whether money appears in the story."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Ask who controls the resource, who makes the decision and what coordinates other decisions. Do not assume public ownership means nobody is responsible, or private ownership means no rules apply. Use mixed arrangements when the evidence shows more than one mechanism."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "private ownership",
+    "meaning": "productive assets controlled by private individuals or firms"
+   },
+   {
+    "word": "public ownership",
+    "meaning": "productive assets owned by the state or a public body"
+   },
+   {
+    "word": "market coordination",
+    "meaning": "decisions linked through exchange and prices"
+   },
+   {
+    "word": "planning",
+    "meaning": "deliberate coordination through decisions and instructions"
+   }
+  ],
+  "examples": [
+   "A family owns and operates its stall.",
+   "A public body owns a service's equipment.",
+   "Buyers and sellers adjust purchases and sales through prices."
+  ],
+  "mistake": {
+   "wrong": "A private stall must be owned by the state.",
+   "right": "private ownership: productive assets controlled by private individuals or firms.",
+   "why": "Private ownership distinguishes the family's control from public ownership."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A family owns and operates its stall. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Productive assets controlled by private individuals or firms.",
+   "Private ownership distinguishes the family's control from public ownership."
+  ],
+  "answer": "private ownership",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-10-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "private ownership: productive assets controlled by private individuals or firms.",
+     "public ownership: productive assets owned by the state or a public body.",
+     "market coordination: decisions linked through exchange and prices.",
+     "planning: deliberate coordination through decisions and instructions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-10-terms"
+    }
+   },
+   {
+    "id": "cn3-10-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A family owns and operates its stall.",
+     "private ownership: productive assets controlled by private individuals or firms."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-10-cases"
+    }
+   },
+   {
+    "id": "cn3-10-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A private stall must be owned by the state.",
+     "Private ownership distinguishes the family's control from public ownership."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-10-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "private ownership: productive assets controlled by private individuals or firms.",
+        "truth": "true",
+        "explain": "This statement is correct: private ownership means productive assets controlled by private individuals or firms. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "public ownership: productive assets owned by the state or a public body.",
+        "truth": "true",
+        "explain": "This statement is correct: public ownership means productive assets owned by the state or a public body. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "market coordination: decisions linked through exchange and prices.",
+        "truth": "true",
+        "explain": "This statement is correct: market coordination means decisions linked through exchange and prices. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "planning: deliberate coordination through decisions and instructions.",
+        "truth": "true",
+        "explain": "This statement is correct: planning means deliberate coordination through decisions and instructions. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A private stall must be owned by the state.",
+        "truth": "false",
+        "explain": "Private ownership distinguishes the family's control from public ownership."
+       },
+       {
+        "text": "Public ownership means the equipment belongs to no institution.",
+        "truth": "false",
+        "explain": "A public owner remains an identifiable body with responsibilities."
+       },
+       {
+        "text": "A price mechanism means all decisions are issued as central instructions.",
+        "truth": "false",
+        "explain": "Market exchange is different from central allocation instructions."
+       },
+       {
+        "text": "Planning cannot occur anywhere within a market economy.",
+        "truth": "false",
+        "explain": "Firms and public bodies can plan even when wider coordination uses markets."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-10-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: productive assets controlled by private individuals or firms ?",
+       "r": "private ownership",
+       "w": [
+        "public ownership",
+        "market coordination",
+        "planning"
+       ],
+       "e": [
+        "public ownership means productive assets owned by the state or a public body; the question instead describes productive assets controlled by private individuals or firms.",
+        "market coordination means decisions linked through exchange and prices; the question instead describes productive assets controlled by private individuals or firms.",
+        "planning means deliberate coordination through decisions and instructions; the question instead describes productive assets controlled by private individuals or firms."
+       ],
+       "y": "Productive assets controlled by private individuals or firms."
+      },
+      {
+       "q": "Which term means: productive assets owned by the state or a public body ?",
+       "r": "public ownership",
+       "w": [
+        "private ownership",
+        "market coordination",
+        "planning"
+       ],
+       "e": [
+        "private ownership means productive assets controlled by private individuals or firms; the question instead describes productive assets owned by the state or a public body.",
+        "market coordination means decisions linked through exchange and prices; the question instead describes productive assets owned by the state or a public body.",
+        "planning means deliberate coordination through decisions and instructions; the question instead describes productive assets owned by the state or a public body."
+       ],
+       "y": "Productive assets owned by the state or a public body."
+      },
+      {
+       "q": "Which term means: decisions linked through exchange and prices ?",
+       "r": "market coordination",
+       "w": [
+        "private ownership",
+        "public ownership",
+        "planning"
+       ],
+       "e": [
+        "private ownership means productive assets controlled by private individuals or firms; the question instead describes decisions linked through exchange and prices.",
+        "public ownership means productive assets owned by the state or a public body; the question instead describes decisions linked through exchange and prices.",
+        "planning means deliberate coordination through decisions and instructions; the question instead describes decisions linked through exchange and prices."
+       ],
+       "y": "Decisions linked through exchange and prices."
+      },
+      {
+       "q": "Which term means: deliberate coordination through decisions and instructions ?",
+       "r": "planning",
+       "w": [
+        "private ownership",
+        "public ownership",
+        "market coordination"
+       ],
+       "e": [
+        "private ownership means productive assets controlled by private individuals or firms; the question instead describes deliberate coordination through decisions and instructions.",
+        "public ownership means productive assets owned by the state or a public body; the question instead describes deliberate coordination through decisions and instructions.",
+        "market coordination means decisions linked through exchange and prices; the question instead describes deliberate coordination through decisions and instructions."
+       ],
+       "y": "Deliberate coordination through decisions and instructions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-10-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A family owns and operates its stall.\nWhich term best fits this example?",
+       "r": "private ownership",
+       "w": [
+        "public ownership",
+        "market coordination",
+        "planning"
+       ],
+       "e": [
+        "public ownership concerns productive assets owned by the state or a public body. This case instead illustrates productive assets controlled by private individuals or firms.",
+        "market coordination concerns decisions linked through exchange and prices. This case instead illustrates productive assets controlled by private individuals or firms.",
+        "planning concerns deliberate coordination through decisions and instructions. This case instead illustrates productive assets controlled by private individuals or firms."
+       ],
+       "y": "A family owns and operates its stall. Productive assets controlled by private individuals or firms."
+      },
+      {
+       "q": "A public body owns a service's equipment.\nWhich term best fits this example?",
+       "r": "public ownership",
+       "w": [
+        "private ownership",
+        "market coordination",
+        "planning"
+       ],
+       "e": [
+        "private ownership concerns productive assets controlled by private individuals or firms. This case instead illustrates productive assets owned by the state or a public body.",
+        "market coordination concerns decisions linked through exchange and prices. This case instead illustrates productive assets owned by the state or a public body.",
+        "planning concerns deliberate coordination through decisions and instructions. This case instead illustrates productive assets owned by the state or a public body."
+       ],
+       "y": "A public body owns a service's equipment. Productive assets owned by the state or a public body."
+      },
+      {
+       "q": "Buyers and sellers adjust purchases and sales through prices.\nWhich term best fits this example?",
+       "r": "market coordination",
+       "w": [
+        "private ownership",
+        "public ownership",
+        "planning"
+       ],
+       "e": [
+        "private ownership concerns productive assets controlled by private individuals or firms. This case instead illustrates decisions linked through exchange and prices.",
+        "public ownership concerns productive assets owned by the state or a public body. This case instead illustrates decisions linked through exchange and prices.",
+        "planning concerns deliberate coordination through decisions and instructions. This case instead illustrates decisions linked through exchange and prices."
+       ],
+       "y": "Buyers and sellers adjust purchases and sales through prices. Decisions linked through exchange and prices."
+      },
+      {
+       "q": "A body allocates inputs according to a production plan.\nWhich term best fits this example?",
+       "r": "planning",
+       "w": [
+        "private ownership",
+        "public ownership",
+        "market coordination"
+       ],
+       "e": [
+        "private ownership concerns productive assets controlled by private individuals or firms. This case instead illustrates deliberate coordination through decisions and instructions.",
+        "public ownership concerns productive assets owned by the state or a public body. This case instead illustrates deliberate coordination through decisions and instructions.",
+        "market coordination concerns decisions linked through exchange and prices. This case instead illustrates deliberate coordination through decisions and instructions."
+       ],
+       "y": "A body allocates inputs according to a production plan. Deliberate coordination through decisions and instructions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-10-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A family owns and operates its stall.\nWhich explanation justifies the classification?",
+       "r": "Productive assets controlled by private individuals or firms.",
+       "w": [
+        "Productive assets owned by the state or a public body.",
+        "Decisions linked through exchange and prices.",
+        "Deliberate coordination through decisions and instructions."
+       ],
+       "e": [
+        "That explanation describes public ownership, rather than the relationship illustrated in this example.",
+        "That explanation describes market coordination, rather than the relationship illustrated in this example.",
+        "That explanation describes planning, rather than the relationship illustrated in this example."
+       ],
+       "y": "Private ownership distinguishes the family's control from public ownership."
+      },
+      {
+       "q": "A public body owns a service's equipment.\nWhich explanation justifies the classification?",
+       "r": "Productive assets owned by the state or a public body.",
+       "w": [
+        "Productive assets controlled by private individuals or firms.",
+        "Decisions linked through exchange and prices.",
+        "Deliberate coordination through decisions and instructions."
+       ],
+       "e": [
+        "That explanation describes private ownership, rather than the relationship illustrated in this example.",
+        "That explanation describes market coordination, rather than the relationship illustrated in this example.",
+        "That explanation describes planning, rather than the relationship illustrated in this example."
+       ],
+       "y": "A public owner remains an identifiable body with responsibilities."
+      },
+      {
+       "q": "Buyers and sellers adjust purchases and sales through prices.\nWhich explanation justifies the classification?",
+       "r": "Decisions linked through exchange and prices.",
+       "w": [
+        "Productive assets controlled by private individuals or firms.",
+        "Productive assets owned by the state or a public body.",
+        "Deliberate coordination through decisions and instructions."
+       ],
+       "e": [
+        "That explanation describes private ownership, rather than the relationship illustrated in this example.",
+        "That explanation describes public ownership, rather than the relationship illustrated in this example.",
+        "That explanation describes planning, rather than the relationship illustrated in this example."
+       ],
+       "y": "Market exchange is different from central allocation instructions."
+      },
+      {
+       "q": "A body allocates inputs according to a production plan.\nWhich explanation justifies the classification?",
+       "r": "Deliberate coordination through decisions and instructions.",
+       "w": [
+        "Productive assets controlled by private individuals or firms.",
+        "Productive assets owned by the state or a public body.",
+        "Decisions linked through exchange and prices."
+       ],
+       "e": [
+        "That explanation describes private ownership, rather than the relationship illustrated in this example.",
+        "That explanation describes public ownership, rather than the relationship illustrated in this example.",
+        "That explanation describes market coordination, rather than the relationship illustrated in this example."
+       ],
+       "y": "Firms and public bodies can plan even when wider coordination uses markets."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-10-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "private ownership",
+     "right": "A family owns and operates its stall."
+    },
+    {
+     "left": "public ownership",
+     "right": "A public body owns a service's equipment."
+    },
+    {
+     "left": "market coordination",
+     "right": "Buyers and sellers adjust purchases and sales through prices."
+    },
+    {
+     "left": "planning",
+     "right": "A body allocates inputs according to a production plan."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "n3-10-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "private ownership: productive assets controlled by private individuals or firms.",
+      "truth": "true",
+      "explain": "This statement is correct: private ownership means productive assets controlled by private individuals or firms. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "public ownership: productive assets owned by the state or a public body.",
+      "truth": "true",
+      "explain": "This statement is correct: public ownership means productive assets owned by the state or a public body. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "market coordination: decisions linked through exchange and prices.",
+      "truth": "true",
+      "explain": "This statement is correct: market coordination means decisions linked through exchange and prices. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "planning: deliberate coordination through decisions and instructions.",
+      "truth": "true",
+      "explain": "This statement is correct: planning means deliberate coordination through decisions and instructions. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A private stall must be owned by the state.",
+      "truth": "false",
+      "explain": "Private ownership distinguishes the family's control from public ownership."
+     },
+     {
+      "text": "Public ownership means the equipment belongs to no institution.",
+      "truth": "false",
+      "explain": "A public owner remains an identifiable body with responsibilities."
+     },
+     {
+      "text": "A price mechanism means all decisions are issued as central instructions.",
+      "truth": "false",
+      "explain": "Market exchange is different from central allocation instructions."
+     },
+     {
+      "text": "Planning cannot occur anywhere within a market economy.",
+      "truth": "false",
+      "explain": "Firms and public bodies can plan even when wider coordination uses markets."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

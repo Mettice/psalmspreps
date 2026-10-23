@@ -1,0 +1,629 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-28",
+   "name": "An after-school schedule"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A timetable organises activities into realistic periods. Begin with fixed commitments, including school, travel, chores, meals and rest. Add study periods that match your priorities and available energy. Allow transitions and breaks. A timetable is a plan to review, not a claim that every learner has identical responsibilities or resources. Use headings and consistent time notation so another person can understand it.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A timetable organises activities into realistic periods. Begin with fixed commitments, including school, travel, chores, meals and rest. Add study periods that match your priorities and available energy. Allow transitions and breaks. A timetable is a plan to review, not a claim that every learner has identical responsibilities or resources. Use headings and consistent time notation so another person can understand it."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original model: Draft schedule: After the journey home, I complete the agreed household task. I then revise one topic, take a short break and practise questions. After the evening meal, I check the next day's books. I leave time for rest and adjust the plan when a task takes longer."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "List fixed commitments before choosing optional tasks. Check that periods do not overlap and that the total fits the available time. Review the plan after trying it; do not promise that a timetable alone guarantees success."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "time slot",
+    "meaning": "a stated period assigned to an activity"
+   },
+   {
+    "word": "priority",
+    "meaning": "an activity given importance when time is limited"
+   },
+   {
+    "word": "buffer",
+    "meaning": "unallocated allowance for delays or transitions"
+   },
+   {
+    "word": "review",
+    "meaning": "checking and adjusting a plan after use"
+   }
+  ],
+  "examples": [
+   "A learner sets aside an interval after chores for reading.",
+   "Bih allocates revision time before optional recreation.",
+   "The plan allows time to move from a chore to study."
+  ],
+  "mistake": {
+   "wrong": "A timetable needs no indication of when an activity happens.",
+   "right": "time slot: a stated period assigned to an activity.",
+   "why": "Time slots make the plan usable rather than an unsequenced wish list."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A learner sets aside an interval after chores for reading. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A stated period assigned to an activity.",
+   "Time slots make the plan usable rather than an unsequenced wish list."
+  ],
+  "answer": "time slot",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-28-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "time slot: a stated period assigned to an activity.",
+     "priority: an activity given importance when time is limited.",
+     "buffer: unallocated allowance for delays or transitions.",
+     "review: checking and adjusting a plan after use."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-28-terms"
+    }
+   },
+   {
+    "id": "ce3-28-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A learner sets aside an interval after chores for reading.",
+     "time slot: a stated period assigned to an activity."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-28-cases"
+    }
+   },
+   {
+    "id": "ce3-28-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A timetable needs no indication of when an activity happens.",
+     "Time slots make the plan usable rather than an unsequenced wish list."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-28-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "time slot: a stated period assigned to an activity.",
+        "truth": "true",
+        "explain": "This statement is correct: time slot means a stated period assigned to an activity. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "priority: an activity given importance when time is limited.",
+        "truth": "true",
+        "explain": "This statement is correct: priority means an activity given importance when time is limited. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "buffer: unallocated allowance for delays or transitions.",
+        "truth": "true",
+        "explain": "This statement is correct: buffer means unallocated allowance for delays or transitions. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "review: checking and adjusting a plan after use.",
+        "truth": "true",
+        "explain": "This statement is correct: review means checking and adjusting a plan after use. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A timetable needs no indication of when an activity happens.",
+        "truth": "false",
+        "explain": "Time slots make the plan usable rather than an unsequenced wish list."
+       },
+       {
+        "text": "Every optional activity must always displace an urgent task.",
+        "truth": "false",
+        "explain": "Priorities help allocate limited time to the most important needs."
+       },
+       {
+        "text": "A workable plan assumes every activity ends at exactly the predicted instant.",
+        "truth": "false",
+        "explain": "Allowances make a plan less fragile when tasks take longer."
+       },
+       {
+        "text": "Changing an unrealistic plan always means planning has failed.",
+        "truth": "false",
+        "explain": "Review can improve a plan using experience."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-28-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a stated period assigned to an activity ?",
+       "r": "time slot",
+       "w": [
+        "priority",
+        "buffer",
+        "review"
+       ],
+       "e": [
+        "priority means an activity given importance when time is limited; the question instead describes a stated period assigned to an activity.",
+        "buffer means unallocated allowance for delays or transitions; the question instead describes a stated period assigned to an activity.",
+        "review means checking and adjusting a plan after use; the question instead describes a stated period assigned to an activity."
+       ],
+       "y": "A stated period assigned to an activity."
+      },
+      {
+       "q": "Which term means: an activity given importance when time is limited ?",
+       "r": "priority",
+       "w": [
+        "time slot",
+        "buffer",
+        "review"
+       ],
+       "e": [
+        "time slot means a stated period assigned to an activity; the question instead describes an activity given importance when time is limited.",
+        "buffer means unallocated allowance for delays or transitions; the question instead describes an activity given importance when time is limited.",
+        "review means checking and adjusting a plan after use; the question instead describes an activity given importance when time is limited."
+       ],
+       "y": "An activity given importance when time is limited."
+      },
+      {
+       "q": "Which term means: unallocated allowance for delays or transitions ?",
+       "r": "buffer",
+       "w": [
+        "time slot",
+        "priority",
+        "review"
+       ],
+       "e": [
+        "time slot means a stated period assigned to an activity; the question instead describes unallocated allowance for delays or transitions.",
+        "priority means an activity given importance when time is limited; the question instead describes unallocated allowance for delays or transitions.",
+        "review means checking and adjusting a plan after use; the question instead describes unallocated allowance for delays or transitions."
+       ],
+       "y": "Unallocated allowance for delays or transitions."
+      },
+      {
+       "q": "Which term means: checking and adjusting a plan after use ?",
+       "r": "review",
+       "w": [
+        "time slot",
+        "priority",
+        "buffer"
+       ],
+       "e": [
+        "time slot means a stated period assigned to an activity; the question instead describes checking and adjusting a plan after use.",
+        "priority means an activity given importance when time is limited; the question instead describes checking and adjusting a plan after use.",
+        "buffer means unallocated allowance for delays or transitions; the question instead describes checking and adjusting a plan after use."
+       ],
+       "y": "Checking and adjusting a plan after use."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-28-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner sets aside an interval after chores for reading.\nWhich term best fits this example?",
+       "r": "time slot",
+       "w": [
+        "priority",
+        "buffer",
+        "review"
+       ],
+       "e": [
+        "priority concerns an activity given importance when time is limited. This case instead illustrates a stated period assigned to an activity.",
+        "buffer concerns unallocated allowance for delays or transitions. This case instead illustrates a stated period assigned to an activity.",
+        "review concerns checking and adjusting a plan after use. This case instead illustrates a stated period assigned to an activity."
+       ],
+       "y": "A learner sets aside an interval after chores for reading. A stated period assigned to an activity."
+      },
+      {
+       "q": "Bih allocates revision time before optional recreation.\nWhich term best fits this example?",
+       "r": "priority",
+       "w": [
+        "time slot",
+        "buffer",
+        "review"
+       ],
+       "e": [
+        "time slot concerns a stated period assigned to an activity. This case instead illustrates an activity given importance when time is limited.",
+        "buffer concerns unallocated allowance for delays or transitions. This case instead illustrates an activity given importance when time is limited.",
+        "review concerns checking and adjusting a plan after use. This case instead illustrates an activity given importance when time is limited."
+       ],
+       "y": "Bih allocates revision time before optional recreation. An activity given importance when time is limited."
+      },
+      {
+       "q": "The plan allows time to move from a chore to study.\nWhich term best fits this example?",
+       "r": "buffer",
+       "w": [
+        "time slot",
+        "priority",
+        "review"
+       ],
+       "e": [
+        "time slot concerns a stated period assigned to an activity. This case instead illustrates unallocated allowance for delays or transitions.",
+        "priority concerns an activity given importance when time is limited. This case instead illustrates unallocated allowance for delays or transitions.",
+        "review concerns checking and adjusting a plan after use. This case instead illustrates unallocated allowance for delays or transitions."
+       ],
+       "y": "The plan allows time to move from a chore to study. Unallocated allowance for delays or transitions."
+      },
+      {
+       "q": "Ayuk changes a timetable after finding a slot unrealistic.\nWhich term best fits this example?",
+       "r": "review",
+       "w": [
+        "time slot",
+        "priority",
+        "buffer"
+       ],
+       "e": [
+        "time slot concerns a stated period assigned to an activity. This case instead illustrates checking and adjusting a plan after use.",
+        "priority concerns an activity given importance when time is limited. This case instead illustrates checking and adjusting a plan after use.",
+        "buffer concerns unallocated allowance for delays or transitions. This case instead illustrates checking and adjusting a plan after use."
+       ],
+       "y": "Ayuk changes a timetable after finding a slot unrealistic. Checking and adjusting a plan after use."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-28-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner sets aside an interval after chores for reading.\nWhich explanation justifies the classification?",
+       "r": "A stated period assigned to an activity.",
+       "w": [
+        "An activity given importance when time is limited.",
+        "Unallocated allowance for delays or transitions.",
+        "Checking and adjusting a plan after use."
+       ],
+       "e": [
+        "That explanation describes priority, rather than the relationship illustrated in this example.",
+        "That explanation describes buffer, rather than the relationship illustrated in this example.",
+        "That explanation describes review, rather than the relationship illustrated in this example."
+       ],
+       "y": "Time slots make the plan usable rather than an unsequenced wish list."
+      },
+      {
+       "q": "Bih allocates revision time before optional recreation.\nWhich explanation justifies the classification?",
+       "r": "An activity given importance when time is limited.",
+       "w": [
+        "A stated period assigned to an activity.",
+        "Unallocated allowance for delays or transitions.",
+        "Checking and adjusting a plan after use."
+       ],
+       "e": [
+        "That explanation describes time slot, rather than the relationship illustrated in this example.",
+        "That explanation describes buffer, rather than the relationship illustrated in this example.",
+        "That explanation describes review, rather than the relationship illustrated in this example."
+       ],
+       "y": "Priorities help allocate limited time to the most important needs."
+      },
+      {
+       "q": "The plan allows time to move from a chore to study.\nWhich explanation justifies the classification?",
+       "r": "Unallocated allowance for delays or transitions.",
+       "w": [
+        "A stated period assigned to an activity.",
+        "An activity given importance when time is limited.",
+        "Checking and adjusting a plan after use."
+       ],
+       "e": [
+        "That explanation describes time slot, rather than the relationship illustrated in this example.",
+        "That explanation describes priority, rather than the relationship illustrated in this example.",
+        "That explanation describes review, rather than the relationship illustrated in this example."
+       ],
+       "y": "Allowances make a plan less fragile when tasks take longer."
+      },
+      {
+       "q": "Ayuk changes a timetable after finding a slot unrealistic.\nWhich explanation justifies the classification?",
+       "r": "Checking and adjusting a plan after use.",
+       "w": [
+        "A stated period assigned to an activity.",
+        "An activity given importance when time is limited.",
+        "Unallocated allowance for delays or transitions."
+       ],
+       "e": [
+        "That explanation describes time slot, rather than the relationship illustrated in this example.",
+        "That explanation describes priority, rather than the relationship illustrated in this example.",
+        "That explanation describes buffer, rather than the relationship illustrated in this example."
+       ],
+       "y": "Review can improve a plan using experience."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-28-minutes",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "start": {
+     "int": [
+      13,
+      16
+     ]
+    },
+    "length": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "end": {
+     "expr": "start+length"
+    }
+   },
+   "prompt": "An imaginary study period begins at {start}:00 and ends at {end}:00 on the same afternoon. How many minutes are available?",
+   "answer": "(end-start)*60",
+   "misconceptions": [
+    {
+     "id": "hours",
+     "wrong": "end-start",
+     "explain": "That is the number of hours; the answer requested is in minutes."
+    },
+    {
+     "id": "sum",
+     "wrong": "(end+start)*60",
+     "explain": "Use the difference between end and start, not their sum."
+    }
+   ],
+   "solution": [
+    "Duration in hours = {end} − {start} = {end-start}.",
+    "Multiply by {60}: {answer} minutes."
+   ],
+   "unit": "minutes"
+  },
+  {
+   "id": "e3-28-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "time slot: a stated period assigned to an activity.",
+      "truth": "true",
+      "explain": "This statement is correct: time slot means a stated period assigned to an activity. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "priority: an activity given importance when time is limited.",
+      "truth": "true",
+      "explain": "This statement is correct: priority means an activity given importance when time is limited. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "buffer: unallocated allowance for delays or transitions.",
+      "truth": "true",
+      "explain": "This statement is correct: buffer means unallocated allowance for delays or transitions. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "review: checking and adjusting a plan after use.",
+      "truth": "true",
+      "explain": "This statement is correct: review means checking and adjusting a plan after use. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A timetable needs no indication of when an activity happens.",
+      "truth": "false",
+      "explain": "Time slots make the plan usable rather than an unsequenced wish list."
+     },
+     {
+      "text": "Every optional activity must always displace an urgent task.",
+      "truth": "false",
+      "explain": "Priorities help allocate limited time to the most important needs."
+     },
+     {
+      "text": "A workable plan assumes every activity ends at exactly the predicted instant.",
+      "truth": "false",
+      "explain": "Allowances make a plan less fragile when tasks take longer."
+     },
+     {
+      "text": "Changing an unrealistic plan always means planning has failed.",
+      "truth": "false",
+      "explain": "Review can improve a plan using experience."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Draw a personal or imaginary after-school timetable in your exercise book. Show fixed commitments, study, transitions and rest. Keep private household details fictional if preferred.",
+  "model": [
+   "Draft schedule: After the journey home, I complete the agreed household task. I then revise one topic, take a short break and practise questions. After the evening meal, I check the next day's books. I leave time for rest and adjust the plan when a task takes longer."
+  ],
+  "checklist": [
+   "My time periods are clear and do not overlap.",
+   "I have allowed for chores, travel, meals and rest.",
+   "I have identified a change to make if the plan proves unrealistic."
+  ],
+  "checks": []
+ }
+}

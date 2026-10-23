@@ -1,0 +1,620 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-2",
+   "name": "Fundamentals: scale of preference and opportunity cost"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A scale of preference ranks wants in order of importance to a decision maker. Choice depends on this ranking and on available resources. Opportunity cost is the value of the next-best alternative forgone, not all rejected alternatives added together. It can involve time or an activity rather than money. A monetary cost is an amount paid; it need not measure the full opportunity cost. State what was actually given up and what the decision maker would otherwise have chosen.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A scale of preference ranks wants in order of importance to a decision maker. Choice depends on this ranking and on available resources. Opportunity cost is the value of the next-best alternative forgone, not all rejected alternatives added together. It can involve time or an activity rather than money. A monetary cost is an amount paid; it need not measure the full opportunity cost. State what was actually given up and what the decision maker would otherwise have chosen."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Ngozi ranks repairing her school bag above buying a novel, and the novel above buying a bracelet. If she can afford only one, choosing the repair gives up the novel as the next-best alternative. The bracelet is also not bought, but it is not added to the opportunity cost. If she later receives more resources, the feasible set can change without changing the meaning of opportunity cost."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "List feasible alternatives, rank them and identify the best rejected option. Do not confuse the chosen benefit with what is forgone. If an exercise asks for a remaining balance, subtract spending from the available budget and keep CFA francs in the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "scale of preference",
+    "meaning": "a ranking of wants in order of importance"
+   },
+   {
+    "word": "opportunity cost",
+    "meaning": "the next-best alternative forgone by a choice"
+   },
+   {
+    "word": "monetary cost",
+    "meaning": "the amount paid for a purchase"
+   },
+   {
+    "word": "budget constraint",
+    "meaning": "the resource limit on affordable choices"
+   }
+  ],
+  "examples": [
+   "Bih places school-bag repair above a novel and a bracelet.",
+   "Bih chooses bag repair; the novel was her best rejected option.",
+   "A trader pays for a notebook."
+  ],
+  "mistake": {
+   "wrong": "A preference ranking lists all items as equally important.",
+   "right": "scale of preference: a ranking of wants in order of importance.",
+   "why": "A scale of preference shows priority, rather than an unranked list."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih places school-bag repair above a novel and a bracelet. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A ranking of wants in order of importance.",
+   "A scale of preference shows priority, rather than an unranked list."
+  ],
+  "answer": "scale of preference",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-2-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "scale of preference: a ranking of wants in order of importance.",
+     "opportunity cost: the next-best alternative forgone by a choice.",
+     "monetary cost: the amount paid for a purchase.",
+     "budget constraint: the resource limit on affordable choices."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-2-terms"
+    }
+   },
+   {
+    "id": "cn3-2-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Bih places school-bag repair above a novel and a bracelet.",
+     "scale of preference: a ranking of wants in order of importance."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-2-cases"
+    }
+   },
+   {
+    "id": "cn3-2-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A preference ranking lists all items as equally important.",
+     "A scale of preference shows priority, rather than an unranked list."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-2-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "scale of preference: a ranking of wants in order of importance.",
+        "truth": "true",
+        "explain": "This statement is correct: scale of preference means a ranking of wants in order of importance. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "opportunity cost: the next-best alternative forgone by a choice.",
+        "truth": "true",
+        "explain": "This statement is correct: opportunity cost means the next-best alternative forgone by a choice. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "monetary cost: the amount paid for a purchase.",
+        "truth": "true",
+        "explain": "This statement is correct: monetary cost means the amount paid for a purchase. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "budget constraint: the resource limit on affordable choices.",
+        "truth": "true",
+        "explain": "This statement is correct: budget constraint means the resource limit on affordable choices. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A preference ranking lists all items as equally important.",
+        "truth": "false",
+        "explain": "A scale of preference shows priority, rather than an unranked list."
+       },
+       {
+        "text": "Opportunity cost is the sum of every rejected option.",
+        "truth": "false",
+        "explain": "Use the best forgone alternative, not the total of all alternatives."
+       },
+       {
+        "text": "The chosen notebook itself is the money paid.",
+        "truth": "false",
+        "explain": "Distinguish the item obtained from the payment made."
+       },
+       {
+        "text": "A high preference makes any item affordable.",
+        "truth": "false",
+        "explain": "Preference does not remove the resource constraint."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a ranking of wants in order of importance ?",
+       "r": "scale of preference",
+       "w": [
+        "opportunity cost",
+        "monetary cost",
+        "budget constraint"
+       ],
+       "e": [
+        "opportunity cost means the next-best alternative forgone by a choice; the question instead describes a ranking of wants in order of importance.",
+        "monetary cost means the amount paid for a purchase; the question instead describes a ranking of wants in order of importance.",
+        "budget constraint means the resource limit on affordable choices; the question instead describes a ranking of wants in order of importance."
+       ],
+       "y": "A ranking of wants in order of importance."
+      },
+      {
+       "q": "Which term means: the next-best alternative forgone by a choice ?",
+       "r": "opportunity cost",
+       "w": [
+        "scale of preference",
+        "monetary cost",
+        "budget constraint"
+       ],
+       "e": [
+        "scale of preference means a ranking of wants in order of importance; the question instead describes the next-best alternative forgone by a choice.",
+        "monetary cost means the amount paid for a purchase; the question instead describes the next-best alternative forgone by a choice.",
+        "budget constraint means the resource limit on affordable choices; the question instead describes the next-best alternative forgone by a choice."
+       ],
+       "y": "The next-best alternative forgone by a choice."
+      },
+      {
+       "q": "Which term means: the amount paid for a purchase ?",
+       "r": "monetary cost",
+       "w": [
+        "scale of preference",
+        "opportunity cost",
+        "budget constraint"
+       ],
+       "e": [
+        "scale of preference means a ranking of wants in order of importance; the question instead describes the amount paid for a purchase.",
+        "opportunity cost means the next-best alternative forgone by a choice; the question instead describes the amount paid for a purchase.",
+        "budget constraint means the resource limit on affordable choices; the question instead describes the amount paid for a purchase."
+       ],
+       "y": "The amount paid for a purchase."
+      },
+      {
+       "q": "Which term means: the resource limit on affordable choices ?",
+       "r": "budget constraint",
+       "w": [
+        "scale of preference",
+        "opportunity cost",
+        "monetary cost"
+       ],
+       "e": [
+        "scale of preference means a ranking of wants in order of importance; the question instead describes the resource limit on affordable choices.",
+        "opportunity cost means the next-best alternative forgone by a choice; the question instead describes the resource limit on affordable choices.",
+        "monetary cost means the amount paid for a purchase; the question instead describes the resource limit on affordable choices."
+       ],
+       "y": "The resource limit on affordable choices."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih places school-bag repair above a novel and a bracelet.\nWhich term best fits this example?",
+       "r": "scale of preference",
+       "w": [
+        "opportunity cost",
+        "monetary cost",
+        "budget constraint"
+       ],
+       "e": [
+        "opportunity cost concerns the next-best alternative forgone by a choice. This case instead illustrates a ranking of wants in order of importance.",
+        "monetary cost concerns the amount paid for a purchase. This case instead illustrates a ranking of wants in order of importance.",
+        "budget constraint concerns the resource limit on affordable choices. This case instead illustrates a ranking of wants in order of importance."
+       ],
+       "y": "Bih places school-bag repair above a novel and a bracelet. A ranking of wants in order of importance."
+      },
+      {
+       "q": "Bih chooses bag repair; the novel was her best rejected option.\nWhich term best fits this example?",
+       "r": "opportunity cost",
+       "w": [
+        "scale of preference",
+        "monetary cost",
+        "budget constraint"
+       ],
+       "e": [
+        "scale of preference concerns a ranking of wants in order of importance. This case instead illustrates the next-best alternative forgone by a choice.",
+        "monetary cost concerns the amount paid for a purchase. This case instead illustrates the next-best alternative forgone by a choice.",
+        "budget constraint concerns the resource limit on affordable choices. This case instead illustrates the next-best alternative forgone by a choice."
+       ],
+       "y": "Bih chooses bag repair; the novel was her best rejected option. The next-best alternative forgone by a choice."
+      },
+      {
+       "q": "A trader pays for a notebook.\nWhich term best fits this example?",
+       "r": "monetary cost",
+       "w": [
+        "scale of preference",
+        "opportunity cost",
+        "budget constraint"
+       ],
+       "e": [
+        "scale of preference concerns a ranking of wants in order of importance. This case instead illustrates the amount paid for a purchase.",
+        "opportunity cost concerns the next-best alternative forgone by a choice. This case instead illustrates the amount paid for a purchase.",
+        "budget constraint concerns the resource limit on affordable choices. This case instead illustrates the amount paid for a purchase."
+       ],
+       "y": "A trader pays for a notebook. The amount paid for a purchase."
+      },
+      {
+       "q": "Ayuk cannot buy a basket costing more than the money he has.\nWhich term best fits this example?",
+       "r": "budget constraint",
+       "w": [
+        "scale of preference",
+        "opportunity cost",
+        "monetary cost"
+       ],
+       "e": [
+        "scale of preference concerns a ranking of wants in order of importance. This case instead illustrates the resource limit on affordable choices.",
+        "opportunity cost concerns the next-best alternative forgone by a choice. This case instead illustrates the resource limit on affordable choices.",
+        "monetary cost concerns the amount paid for a purchase. This case instead illustrates the resource limit on affordable choices."
+       ],
+       "y": "Ayuk cannot buy a basket costing more than the money he has. The resource limit on affordable choices."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-2-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih places school-bag repair above a novel and a bracelet.\nWhich explanation justifies the classification?",
+       "r": "A ranking of wants in order of importance.",
+       "w": [
+        "The next-best alternative forgone by a choice.",
+        "The amount paid for a purchase.",
+        "The resource limit on affordable choices."
+       ],
+       "e": [
+        "That explanation describes opportunity cost, rather than the relationship illustrated in this example.",
+        "That explanation describes monetary cost, rather than the relationship illustrated in this example.",
+        "That explanation describes budget constraint, rather than the relationship illustrated in this example."
+       ],
+       "y": "A scale of preference shows priority, rather than an unranked list."
+      },
+      {
+       "q": "Bih chooses bag repair; the novel was her best rejected option.\nWhich explanation justifies the classification?",
+       "r": "The next-best alternative forgone by a choice.",
+       "w": [
+        "A ranking of wants in order of importance.",
+        "The amount paid for a purchase.",
+        "The resource limit on affordable choices."
+       ],
+       "e": [
+        "That explanation describes scale of preference, rather than the relationship illustrated in this example.",
+        "That explanation describes monetary cost, rather than the relationship illustrated in this example.",
+        "That explanation describes budget constraint, rather than the relationship illustrated in this example."
+       ],
+       "y": "Use the best forgone alternative, not the total of all alternatives."
+      },
+      {
+       "q": "A trader pays for a notebook.\nWhich explanation justifies the classification?",
+       "r": "The amount paid for a purchase.",
+       "w": [
+        "A ranking of wants in order of importance.",
+        "The next-best alternative forgone by a choice.",
+        "The resource limit on affordable choices."
+       ],
+       "e": [
+        "That explanation describes scale of preference, rather than the relationship illustrated in this example.",
+        "That explanation describes opportunity cost, rather than the relationship illustrated in this example.",
+        "That explanation describes budget constraint, rather than the relationship illustrated in this example."
+       ],
+       "y": "Distinguish the item obtained from the payment made."
+      },
+      {
+       "q": "Ayuk cannot buy a basket costing more than the money he has.\nWhich explanation justifies the classification?",
+       "r": "The resource limit on affordable choices.",
+       "w": [
+        "A ranking of wants in order of importance.",
+        "The next-best alternative forgone by a choice.",
+        "The amount paid for a purchase."
+       ],
+       "e": [
+        "That explanation describes scale of preference, rather than the relationship illustrated in this example.",
+        "That explanation describes opportunity cost, rather than the relationship illustrated in this example.",
+        "That explanation describes monetary cost, rather than the relationship illustrated in this example."
+       ],
+       "y": "Preference does not remove the resource constraint."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-2-balance",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "budget": {
+     "expr": "a*500"
+    },
+    "cost": {
+     "expr": "b*500"
+    }
+   },
+   "prompt": "Ngozi has {budget} CFA francs and pays {cost} CFA francs to repair a bag. How much remains?",
+   "answer": "budget-cost",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "budget+cost",
+     "explain": "Spending reduces the balance; you added the payment instead of subtracting it."
+    },
+    {
+     "id": "spent",
+     "wrong": "cost",
+     "explain": "That is the amount spent, not the amount remaining."
+    }
+   ],
+   "solution": [
+    "Remaining budget = {budget} − {cost} = {answer} CFA francs."
+   ],
+   "where": [
+    "budget-cost != cost"
+   ],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n3-2-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "scale of preference: a ranking of wants in order of importance.",
+      "truth": "true",
+      "explain": "This statement is correct: scale of preference means a ranking of wants in order of importance. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "opportunity cost: the next-best alternative forgone by a choice.",
+      "truth": "true",
+      "explain": "This statement is correct: opportunity cost means the next-best alternative forgone by a choice. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "monetary cost: the amount paid for a purchase.",
+      "truth": "true",
+      "explain": "This statement is correct: monetary cost means the amount paid for a purchase. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "budget constraint: the resource limit on affordable choices.",
+      "truth": "true",
+      "explain": "This statement is correct: budget constraint means the resource limit on affordable choices. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A preference ranking lists all items as equally important.",
+      "truth": "false",
+      "explain": "A scale of preference shows priority, rather than an unranked list."
+     },
+     {
+      "text": "Opportunity cost is the sum of every rejected option.",
+      "truth": "false",
+      "explain": "Use the best forgone alternative, not the total of all alternatives."
+     },
+     {
+      "text": "The chosen notebook itself is the money paid.",
+      "truth": "false",
+      "explain": "Distinguish the item obtained from the payment made."
+     },
+     {
+      "text": "A high preference makes any item affordable.",
+      "truth": "false",
+      "explain": "Preference does not remove the resource constraint."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

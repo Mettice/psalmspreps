@@ -1,0 +1,599 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-5",
+   "name": "Great circles and the International Date Line"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A great circle is formed when a plane through Earth's centre cuts its surface, dividing the sphere into equal hemispheres. The Equator is a great circle; a meridian paired with its opposite also forms one. Other parallels are small circles. On a sphere, the shorter great-circle arc gives a shortest surface route between suitable points. The International Date Line is a civil-date boundary broadly near the opposite meridian to Greenwich, with deviations. Crossing it westward adds a day; eastward subtracts a day.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A great circle is formed when a plane through Earth's centre cuts its surface, dividing the sphere into equal hemispheres. The Equator is a great circle; a meridian paired with its opposite also forms one. Other parallels are small circles. On a sphere, the shorter great-circle arc gives a shortest surface route between suitable points. The International Date Line is a civil-date boundary broadly near the opposite meridian to Greenwich, with deviations. Crossing it westward adds a day; eastward subtracts a day."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A route drawn straight on a flat world map is not necessarily the shortest route on a globe. A traveller crossing the Date Line must adjust the calendar as well as the clock. A time difference near midnight can also change a date without crossing the line, so keep the two reasons for date changes distinct."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Ask whether the cutting plane passes through the centre. For date exercises, identify travel direction and state the adopted line convention. Actual civil boundaries and standard-time decisions are irregular; do not treat the diagram as an exact map of present national rules."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "great circle",
+    "meaning": "a circle dividing a sphere into equal hemispheres"
+   },
+   {
+    "word": "small circle",
+    "meaning": "a circle whose plane does not pass through the sphere's centre"
+   },
+   {
+    "word": "westward date-line crossing",
+    "meaning": "a crossing convention that advances the calendar by a day"
+   },
+   {
+    "word": "eastward date-line crossing",
+    "meaning": "a crossing convention that moves the calendar back a day"
+   }
+  ],
+  "examples": [
+   "The Equator's plane passes through Earth's centre.",
+   "A parallel north of the Equator divides unequal surface portions.",
+   "An idealised traveller crosses the Date Line toward the west."
+  ],
+  "mistake": {
+   "wrong": "Every parallel is a great circle.",
+   "right": "great circle: a circle dividing a sphere into equal hemispheres.",
+   "why": "Only a parallel through the centre, the Equator, is a great circle."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The Equator's plane passes through Earth's centre. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A circle dividing a sphere into equal hemispheres.",
+   "Only a parallel through the centre, the Equator, is a great circle."
+  ],
+  "answer": "great circle",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-5-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "great circle: a circle dividing a sphere into equal hemispheres.",
+     "small circle: a circle whose plane does not pass through the sphere's centre.",
+     "westward date-line crossing: a crossing convention that advances the calendar by a day.",
+     "eastward date-line crossing: a crossing convention that moves the calendar back a day."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-5-terms"
+    }
+   },
+   {
+    "id": "cg3-5-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The Equator's plane passes through Earth's centre.",
+     "great circle: a circle dividing a sphere into equal hemispheres."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-5-cases"
+    }
+   },
+   {
+    "id": "cg3-5-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Every parallel is a great circle.",
+     "Only a parallel through the centre, the Equator, is a great circle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-5-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "great circle: a circle dividing a sphere into equal hemispheres.",
+        "truth": "true",
+        "explain": "This statement is correct: great circle means a circle dividing a sphere into equal hemispheres. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "small circle: a circle whose plane does not pass through the sphere's centre.",
+        "truth": "true",
+        "explain": "This statement is correct: small circle means a circle whose plane does not pass through the sphere's centre. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "westward date-line crossing: a crossing convention that advances the calendar by a day.",
+        "truth": "true",
+        "explain": "This statement is correct: westward date-line crossing means a crossing convention that advances the calendar by a day. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "eastward date-line crossing: a crossing convention that moves the calendar back a day.",
+        "truth": "true",
+        "explain": "This statement is correct: eastward date-line crossing means a crossing convention that moves the calendar back a day. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every parallel is a great circle.",
+        "truth": "false",
+        "explain": "Only a parallel through the centre, the Equator, is a great circle."
+       },
+       {
+        "text": "A small circle must divide Earth into equal hemispheres.",
+        "truth": "false",
+        "explain": "Its offset plane does not cut through the centre."
+       },
+       {
+        "text": "Westward Date Line travel always subtracts a calendar day.",
+        "truth": "false",
+        "explain": "Under the standard crossing convention, westward travel adds a day."
+       },
+       {
+        "text": "Eastward Date Line travel always adds a calendar day.",
+        "truth": "false",
+        "explain": "Under the standard crossing convention, eastward travel subtracts a day."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-5-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a circle dividing a sphere into equal hemispheres ?",
+       "r": "great circle",
+       "w": [
+        "small circle",
+        "westward date-line crossing",
+        "eastward date-line crossing"
+       ],
+       "e": [
+        "small circle means a circle whose plane does not pass through the sphere's centre; the question instead describes a circle dividing a sphere into equal hemispheres.",
+        "westward date-line crossing means a crossing convention that advances the calendar by a day; the question instead describes a circle dividing a sphere into equal hemispheres.",
+        "eastward date-line crossing means a crossing convention that moves the calendar back a day; the question instead describes a circle dividing a sphere into equal hemispheres."
+       ],
+       "y": "A circle dividing a sphere into equal hemispheres."
+      },
+      {
+       "q": "Which term means: a circle whose plane does not pass through the sphere's centre ?",
+       "r": "small circle",
+       "w": [
+        "great circle",
+        "westward date-line crossing",
+        "eastward date-line crossing"
+       ],
+       "e": [
+        "great circle means a circle dividing a sphere into equal hemispheres; the question instead describes a circle whose plane does not pass through the sphere's centre.",
+        "westward date-line crossing means a crossing convention that advances the calendar by a day; the question instead describes a circle whose plane does not pass through the sphere's centre.",
+        "eastward date-line crossing means a crossing convention that moves the calendar back a day; the question instead describes a circle whose plane does not pass through the sphere's centre."
+       ],
+       "y": "A circle whose plane does not pass through the sphere's centre."
+      },
+      {
+       "q": "Which term means: a crossing convention that advances the calendar by a day ?",
+       "r": "westward date-line crossing",
+       "w": [
+        "great circle",
+        "small circle",
+        "eastward date-line crossing"
+       ],
+       "e": [
+        "great circle means a circle dividing a sphere into equal hemispheres; the question instead describes a crossing convention that advances the calendar by a day.",
+        "small circle means a circle whose plane does not pass through the sphere's centre; the question instead describes a crossing convention that advances the calendar by a day.",
+        "eastward date-line crossing means a crossing convention that moves the calendar back a day; the question instead describes a crossing convention that advances the calendar by a day."
+       ],
+       "y": "A crossing convention that advances the calendar by a day."
+      },
+      {
+       "q": "Which term means: a crossing convention that moves the calendar back a day ?",
+       "r": "eastward date-line crossing",
+       "w": [
+        "great circle",
+        "small circle",
+        "westward date-line crossing"
+       ],
+       "e": [
+        "great circle means a circle dividing a sphere into equal hemispheres; the question instead describes a crossing convention that moves the calendar back a day.",
+        "small circle means a circle whose plane does not pass through the sphere's centre; the question instead describes a crossing convention that moves the calendar back a day.",
+        "westward date-line crossing means a crossing convention that advances the calendar by a day; the question instead describes a crossing convention that moves the calendar back a day."
+       ],
+       "y": "A crossing convention that moves the calendar back a day."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-5-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The Equator's plane passes through Earth's centre.\nWhich term best fits this example?",
+       "r": "great circle",
+       "w": [
+        "small circle",
+        "westward date-line crossing",
+        "eastward date-line crossing"
+       ],
+       "e": [
+        "small circle concerns a circle whose plane does not pass through the sphere's centre. This case instead illustrates a circle dividing a sphere into equal hemispheres.",
+        "westward date-line crossing concerns a crossing convention that advances the calendar by a day. This case instead illustrates a circle dividing a sphere into equal hemispheres.",
+        "eastward date-line crossing concerns a crossing convention that moves the calendar back a day. This case instead illustrates a circle dividing a sphere into equal hemispheres."
+       ],
+       "y": "The Equator's plane passes through Earth's centre. A circle dividing a sphere into equal hemispheres."
+      },
+      {
+       "q": "A parallel north of the Equator divides unequal surface portions.\nWhich term best fits this example?",
+       "r": "small circle",
+       "w": [
+        "great circle",
+        "westward date-line crossing",
+        "eastward date-line crossing"
+       ],
+       "e": [
+        "great circle concerns a circle dividing a sphere into equal hemispheres. This case instead illustrates a circle whose plane does not pass through the sphere's centre.",
+        "westward date-line crossing concerns a crossing convention that advances the calendar by a day. This case instead illustrates a circle whose plane does not pass through the sphere's centre.",
+        "eastward date-line crossing concerns a crossing convention that moves the calendar back a day. This case instead illustrates a circle whose plane does not pass through the sphere's centre."
+       ],
+       "y": "A parallel north of the Equator divides unequal surface portions. A circle whose plane does not pass through the sphere's centre."
+      },
+      {
+       "q": "An idealised traveller crosses the Date Line toward the west.\nWhich term best fits this example?",
+       "r": "westward date-line crossing",
+       "w": [
+        "great circle",
+        "small circle",
+        "eastward date-line crossing"
+       ],
+       "e": [
+        "great circle concerns a circle dividing a sphere into equal hemispheres. This case instead illustrates a crossing convention that advances the calendar by a day.",
+        "small circle concerns a circle whose plane does not pass through the sphere's centre. This case instead illustrates a crossing convention that advances the calendar by a day.",
+        "eastward date-line crossing concerns a crossing convention that moves the calendar back a day. This case instead illustrates a crossing convention that advances the calendar by a day."
+       ],
+       "y": "An idealised traveller crosses the Date Line toward the west. A crossing convention that advances the calendar by a day."
+      },
+      {
+       "q": "An idealised traveller crosses the Date Line toward the east.\nWhich term best fits this example?",
+       "r": "eastward date-line crossing",
+       "w": [
+        "great circle",
+        "small circle",
+        "westward date-line crossing"
+       ],
+       "e": [
+        "great circle concerns a circle dividing a sphere into equal hemispheres. This case instead illustrates a crossing convention that moves the calendar back a day.",
+        "small circle concerns a circle whose plane does not pass through the sphere's centre. This case instead illustrates a crossing convention that moves the calendar back a day.",
+        "westward date-line crossing concerns a crossing convention that advances the calendar by a day. This case instead illustrates a crossing convention that moves the calendar back a day."
+       ],
+       "y": "An idealised traveller crosses the Date Line toward the east. A crossing convention that moves the calendar back a day."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-5-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The Equator's plane passes through Earth's centre.\nWhich explanation justifies the classification?",
+       "r": "A circle dividing a sphere into equal hemispheres.",
+       "w": [
+        "A circle whose plane does not pass through the sphere's centre.",
+        "A crossing convention that advances the calendar by a day.",
+        "A crossing convention that moves the calendar back a day."
+       ],
+       "e": [
+        "That explanation describes small circle, rather than the relationship illustrated in this example.",
+        "That explanation describes westward date-line crossing, rather than the relationship illustrated in this example.",
+        "That explanation describes eastward date-line crossing, rather than the relationship illustrated in this example."
+       ],
+       "y": "Only a parallel through the centre, the Equator, is a great circle."
+      },
+      {
+       "q": "A parallel north of the Equator divides unequal surface portions.\nWhich explanation justifies the classification?",
+       "r": "A circle whose plane does not pass through the sphere's centre.",
+       "w": [
+        "A circle dividing a sphere into equal hemispheres.",
+        "A crossing convention that advances the calendar by a day.",
+        "A crossing convention that moves the calendar back a day."
+       ],
+       "e": [
+        "That explanation describes great circle, rather than the relationship illustrated in this example.",
+        "That explanation describes westward date-line crossing, rather than the relationship illustrated in this example.",
+        "That explanation describes eastward date-line crossing, rather than the relationship illustrated in this example."
+       ],
+       "y": "Its offset plane does not cut through the centre."
+      },
+      {
+       "q": "An idealised traveller crosses the Date Line toward the west.\nWhich explanation justifies the classification?",
+       "r": "A crossing convention that advances the calendar by a day.",
+       "w": [
+        "A circle dividing a sphere into equal hemispheres.",
+        "A circle whose plane does not pass through the sphere's centre.",
+        "A crossing convention that moves the calendar back a day."
+       ],
+       "e": [
+        "That explanation describes great circle, rather than the relationship illustrated in this example.",
+        "That explanation describes small circle, rather than the relationship illustrated in this example.",
+        "That explanation describes eastward date-line crossing, rather than the relationship illustrated in this example."
+       ],
+       "y": "Under the standard crossing convention, westward travel adds a day."
+      },
+      {
+       "q": "An idealised traveller crosses the Date Line toward the east.\nWhich explanation justifies the classification?",
+       "r": "A crossing convention that moves the calendar back a day.",
+       "w": [
+        "A circle dividing a sphere into equal hemispheres.",
+        "A circle whose plane does not pass through the sphere's centre.",
+        "A crossing convention that advances the calendar by a day."
+       ],
+       "e": [
+        "That explanation describes great circle, rather than the relationship illustrated in this example.",
+        "That explanation describes small circle, rather than the relationship illustrated in this example.",
+        "That explanation describes westward date-line crossing, rather than the relationship illustrated in this example."
+       ],
+       "y": "Under the standard crossing convention, eastward travel subtracts a day."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-5-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "great circle",
+     "right": "The Equator's plane passes through Earth's centre."
+    },
+    {
+     "left": "small circle",
+     "right": "A parallel north of the Equator divides unequal surface portions."
+    },
+    {
+     "left": "westward date-line crossing",
+     "right": "An idealised traveller crosses the Date Line toward the west."
+    },
+    {
+     "left": "eastward date-line crossing",
+     "right": "An idealised traveller crosses the Date Line toward the east."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-5-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "great circle: a circle dividing a sphere into equal hemispheres.",
+      "truth": "true",
+      "explain": "This statement is correct: great circle means a circle dividing a sphere into equal hemispheres. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "small circle: a circle whose plane does not pass through the sphere's centre.",
+      "truth": "true",
+      "explain": "This statement is correct: small circle means a circle whose plane does not pass through the sphere's centre. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "westward date-line crossing: a crossing convention that advances the calendar by a day.",
+      "truth": "true",
+      "explain": "This statement is correct: westward date-line crossing means a crossing convention that advances the calendar by a day. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "eastward date-line crossing: a crossing convention that moves the calendar back a day.",
+      "truth": "true",
+      "explain": "This statement is correct: eastward date-line crossing means a crossing convention that moves the calendar back a day. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every parallel is a great circle.",
+      "truth": "false",
+      "explain": "Only a parallel through the centre, the Equator, is a great circle."
+     },
+     {
+      "text": "A small circle must divide Earth into equal hemispheres.",
+      "truth": "false",
+      "explain": "Its offset plane does not cut through the centre."
+     },
+     {
+      "text": "Westward Date Line travel always subtracts a calendar day.",
+      "truth": "false",
+      "explain": "Under the standard crossing convention, westward travel adds a day."
+     },
+     {
+      "text": "Eastward Date Line travel always adds a calendar day.",
+      "truth": "false",
+      "explain": "Under the standard crossing convention, eastward travel subtracts a day."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

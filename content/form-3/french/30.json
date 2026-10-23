@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 30,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-30",
+   "name": "Protéger l’environnement : choisir des verbes précis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Protéger un milieu demande de comprendre les actions décrites. Réduire évite une partie des déchets à la source ; réutiliser donne un nouvel usage à un objet approprié ; recycler transforme une matière par une filière adaptée ; préserver cherche à maintenir un milieu ou une ressource. Ces verbes ne sont pas interchangeables. Le tri dépend des installations locales : mettre un objet dans un panier ne prouve pas qu’il sera effectivement recyclé.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Protéger un milieu demande de comprendre les actions décrites. Réduire évite une partie des déchets à la source ; réutiliser donne un nouvel usage à un objet approprié ; recycler transforme une matière par une filière adaptée ; préserver cherche à maintenir un milieu ou une ressource. Ces verbes ne sont pas interchangeables. Le tri dépend des installations locales : mettre un objet dans un panier ne prouve pas qu’il sera effectivement recyclé."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans un projet scolaire fictif, Bih propose d’éviter les feuilles inutiles. Ayuk réemploie une boîte propre pour ranger du matériel. L’enseignante vérifie quelles matières une filière locale accepte. Le groupe respecte les plantes du jardin. Chacune de ces actions porte un sens différent et doit rester adaptée aux consignes de l’école."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "réduire",
+    "meaning": "diminuer la quantité utilisée ou produite à la source"
+   },
+   {
+    "word": "réutiliser",
+    "meaning": "employer à nouveau un objet approprié"
+   },
+   {
+    "word": "recycler",
+    "meaning": "transformer une matière par une filière appropriée"
+   },
+   {
+    "word": "préserver",
+    "meaning": "maintenir un milieu ou une ressource en évitant sa dégradation"
+   }
+  ],
+  "examples": [
+   "Le club évite des feuilles inutiles.",
+   "Une boîte propre sert ensuite au rangement.",
+   "Une matière acceptée est orientée vers une filière de transformation."
+  ],
+  "mistake": {
+   "wrong": "Réduire signifie nécessairement produire davantage de déchets.",
+   "right": "réduire: diminuer la quantité utilisée ou produite à la source.",
+   "why": "Le but est de diminuer la quantité à la source."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le club évite des feuilles inutiles. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Diminuer la quantité utilisée ou produite à la source.",
+   "Le but est de diminuer la quantité à la source."
+  ],
+  "answer": "réduire",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-30-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "réduire: diminuer la quantité utilisée ou produite à la source.",
+     "réutiliser: employer à nouveau un objet approprié.",
+     "recycler: transformer une matière par une filière appropriée.",
+     "préserver: maintenir un milieu ou une ressource en évitant sa dégradation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-30-terms"
+    }
+   },
+   {
+    "id": "cfr3-30-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le club évite des feuilles inutiles.",
+     "réduire: diminuer la quantité utilisée ou produite à la source."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-30-cases"
+    }
+   },
+   {
+    "id": "cfr3-30-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Réduire signifie nécessairement produire davantage de déchets.",
+     "Le but est de diminuer la quantité à la source."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-30-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "réduire : diminuer la quantité utilisée ou produite à la source.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : réduire désigne diminuer la quantité utilisée ou produite à la source. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "réutiliser : employer à nouveau un objet approprié.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : réutiliser désigne employer à nouveau un objet approprié. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "recycler : transformer une matière par une filière appropriée.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : recycler désigne transformer une matière par une filière appropriée. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "préserver : maintenir un milieu ou une ressource en évitant sa dégradation.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : préserver désigne maintenir un milieu ou une ressource en évitant sa dégradation. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Réduire signifie nécessairement produire davantage de déchets.",
+        "truth": "false",
+        "explain": "Le but est de diminuer la quantité à la source."
+       },
+       {
+        "text": "Toute réutilisation exige de transformer la matière industriellement.",
+        "truth": "false",
+        "explain": "Un nouvel usage peut conserver l’objet."
+       },
+       {
+        "text": "Trier un objet prouve automatiquement qu’il est recyclé.",
+        "truth": "false",
+        "explain": "Le recyclage dépend d’une filière effective."
+       },
+       {
+        "text": "Préserver un jardin signifie obligatoirement l’abîmer.",
+        "truth": "false",
+        "explain": "La préservation vise à éviter sa dégradation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-30-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : diminuer la quantité utilisée ou produite à la source ?",
+       "r": "réduire",
+       "w": [
+        "réutiliser",
+        "recycler",
+        "préserver"
+       ],
+       "e": [
+        "« réutiliser » désigne employer à nouveau un objet approprié. Ici, cherche diminuer la quantité utilisée ou produite à la source.",
+        "« recycler » désigne transformer une matière par une filière appropriée. Ici, cherche diminuer la quantité utilisée ou produite à la source.",
+        "« préserver » désigne maintenir un milieu ou une ressource en évitant sa dégradation. Ici, cherche diminuer la quantité utilisée ou produite à la source."
+       ],
+       "y": "Diminuer la quantité utilisée ou produite à la source."
+      },
+      {
+       "q": "Quel terme désigne : employer à nouveau un objet approprié ?",
+       "r": "réutiliser",
+       "w": [
+        "réduire",
+        "recycler",
+        "préserver"
+       ],
+       "e": [
+        "« réduire » désigne diminuer la quantité utilisée ou produite à la source. Ici, cherche employer à nouveau un objet approprié.",
+        "« recycler » désigne transformer une matière par une filière appropriée. Ici, cherche employer à nouveau un objet approprié.",
+        "« préserver » désigne maintenir un milieu ou une ressource en évitant sa dégradation. Ici, cherche employer à nouveau un objet approprié."
+       ],
+       "y": "Employer à nouveau un objet approprié."
+      },
+      {
+       "q": "Quel terme désigne : transformer une matière par une filière appropriée ?",
+       "r": "recycler",
+       "w": [
+        "réduire",
+        "réutiliser",
+        "préserver"
+       ],
+       "e": [
+        "« réduire » désigne diminuer la quantité utilisée ou produite à la source. Ici, cherche transformer une matière par une filière appropriée.",
+        "« réutiliser » désigne employer à nouveau un objet approprié. Ici, cherche transformer une matière par une filière appropriée.",
+        "« préserver » désigne maintenir un milieu ou une ressource en évitant sa dégradation. Ici, cherche transformer une matière par une filière appropriée."
+       ],
+       "y": "Transformer une matière par une filière appropriée."
+      },
+      {
+       "q": "Quel terme désigne : maintenir un milieu ou une ressource en évitant sa dégradation ?",
+       "r": "préserver",
+       "w": [
+        "réduire",
+        "réutiliser",
+        "recycler"
+       ],
+       "e": [
+        "« réduire » désigne diminuer la quantité utilisée ou produite à la source. Ici, cherche maintenir un milieu ou une ressource en évitant sa dégradation.",
+        "« réutiliser » désigne employer à nouveau un objet approprié. Ici, cherche maintenir un milieu ou une ressource en évitant sa dégradation.",
+        "« recycler » désigne transformer une matière par une filière appropriée. Ici, cherche maintenir un milieu ou une ressource en évitant sa dégradation."
+       ],
+       "y": "Maintenir un milieu ou une ressource en évitant sa dégradation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-30-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le club évite des feuilles inutiles.\nQuel terme s’applique le mieux ?",
+       "r": "réduire",
+       "w": [
+        "réutiliser",
+        "recycler",
+        "préserver"
+       ],
+       "e": [
+        "« réutiliser » concerne employer à nouveau un objet approprié. Le cas décrit plutôt diminuer la quantité utilisée ou produite à la source.",
+        "« recycler » concerne transformer une matière par une filière appropriée. Le cas décrit plutôt diminuer la quantité utilisée ou produite à la source.",
+        "« préserver » concerne maintenir un milieu ou une ressource en évitant sa dégradation. Le cas décrit plutôt diminuer la quantité utilisée ou produite à la source."
+       ],
+       "y": "Le club évite des feuilles inutiles. Diminuer la quantité utilisée ou produite à la source."
+      },
+      {
+       "q": "Une boîte propre sert ensuite au rangement.\nQuel terme s’applique le mieux ?",
+       "r": "réutiliser",
+       "w": [
+        "réduire",
+        "recycler",
+        "préserver"
+       ],
+       "e": [
+        "« réduire » concerne diminuer la quantité utilisée ou produite à la source. Le cas décrit plutôt employer à nouveau un objet approprié.",
+        "« recycler » concerne transformer une matière par une filière appropriée. Le cas décrit plutôt employer à nouveau un objet approprié.",
+        "« préserver » concerne maintenir un milieu ou une ressource en évitant sa dégradation. Le cas décrit plutôt employer à nouveau un objet approprié."
+       ],
+       "y": "Une boîte propre sert ensuite au rangement. Employer à nouveau un objet approprié."
+      },
+      {
+       "q": "Une matière acceptée est orientée vers une filière de transformation.\nQuel terme s’applique le mieux ?",
+       "r": "recycler",
+       "w": [
+        "réduire",
+        "réutiliser",
+        "préserver"
+       ],
+       "e": [
+        "« réduire » concerne diminuer la quantité utilisée ou produite à la source. Le cas décrit plutôt transformer une matière par une filière appropriée.",
+        "« réutiliser » concerne employer à nouveau un objet approprié. Le cas décrit plutôt transformer une matière par une filière appropriée.",
+        "« préserver » concerne maintenir un milieu ou une ressource en évitant sa dégradation. Le cas décrit plutôt transformer une matière par une filière appropriée."
+       ],
+       "y": "Une matière acceptée est orientée vers une filière de transformation. Transformer une matière par une filière appropriée."
+      },
+      {
+       "q": "Les élèves respectent les plantations du jardin.\nQuel terme s’applique le mieux ?",
+       "r": "préserver",
+       "w": [
+        "réduire",
+        "réutiliser",
+        "recycler"
+       ],
+       "e": [
+        "« réduire » concerne diminuer la quantité utilisée ou produite à la source. Le cas décrit plutôt maintenir un milieu ou une ressource en évitant sa dégradation.",
+        "« réutiliser » concerne employer à nouveau un objet approprié. Le cas décrit plutôt maintenir un milieu ou une ressource en évitant sa dégradation.",
+        "« recycler » concerne transformer une matière par une filière appropriée. Le cas décrit plutôt maintenir un milieu ou une ressource en évitant sa dégradation."
+       ],
+       "y": "Les élèves respectent les plantations du jardin. Maintenir un milieu ou une ressource en évitant sa dégradation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-30-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le club évite des feuilles inutiles.\nQuelle explication justifie le classement ?",
+       "r": "Diminuer la quantité utilisée ou produite à la source.",
+       "w": [
+        "Employer à nouveau un objet approprié.",
+        "Transformer une matière par une filière appropriée.",
+        "Maintenir un milieu ou une ressource en évitant sa dégradation."
+       ],
+       "e": [
+        "Cette explication correspond à « réutiliser ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « recycler ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « préserver ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le but est de diminuer la quantité à la source."
+      },
+      {
+       "q": "Une boîte propre sert ensuite au rangement.\nQuelle explication justifie le classement ?",
+       "r": "Employer à nouveau un objet approprié.",
+       "w": [
+        "Diminuer la quantité utilisée ou produite à la source.",
+        "Transformer une matière par une filière appropriée.",
+        "Maintenir un milieu ou une ressource en évitant sa dégradation."
+       ],
+       "e": [
+        "Cette explication correspond à « réduire ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « recycler ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « préserver ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Un nouvel usage peut conserver l’objet."
+      },
+      {
+       "q": "Une matière acceptée est orientée vers une filière de transformation.\nQuelle explication justifie le classement ?",
+       "r": "Transformer une matière par une filière appropriée.",
+       "w": [
+        "Diminuer la quantité utilisée ou produite à la source.",
+        "Employer à nouveau un objet approprié.",
+        "Maintenir un milieu ou une ressource en évitant sa dégradation."
+       ],
+       "e": [
+        "Cette explication correspond à « réduire ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « réutiliser ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « préserver ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le recyclage dépend d’une filière effective."
+      },
+      {
+       "q": "Les élèves respectent les plantations du jardin.\nQuelle explication justifie le classement ?",
+       "r": "Maintenir un milieu ou une ressource en évitant sa dégradation.",
+       "w": [
+        "Diminuer la quantité utilisée ou produite à la source.",
+        "Employer à nouveau un objet approprié.",
+        "Transformer une matière par une filière appropriée."
+       ],
+       "e": [
+        "Cette explication correspond à « réduire ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « réutiliser ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « recycler ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La préservation vise à éviter sa dégradation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-30-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "réduire",
+     "right": "Le club évite des feuilles inutiles."
+    },
+    {
+     "left": "réutiliser",
+     "right": "Une boîte propre sert ensuite au rangement."
+    },
+    {
+     "left": "recycler",
+     "right": "Une matière acceptée est orientée vers une filière de transformation."
+    },
+    {
+     "left": "préserver",
+     "right": "Les élèves respectent les plantations du jardin."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-30-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "réduire : diminuer la quantité utilisée ou produite à la source.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : réduire désigne diminuer la quantité utilisée ou produite à la source. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "réutiliser : employer à nouveau un objet approprié.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : réutiliser désigne employer à nouveau un objet approprié. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "recycler : transformer une matière par une filière appropriée.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : recycler désigne transformer une matière par une filière appropriée. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "préserver : maintenir un milieu ou une ressource en évitant sa dégradation.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : préserver désigne maintenir un milieu ou une ressource en évitant sa dégradation. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Réduire signifie nécessairement produire davantage de déchets.",
+      "truth": "false",
+      "explain": "Le but est de diminuer la quantité à la source."
+     },
+     {
+      "text": "Toute réutilisation exige de transformer la matière industriellement.",
+      "truth": "false",
+      "explain": "Un nouvel usage peut conserver l’objet."
+     },
+     {
+      "text": "Trier un objet prouve automatiquement qu’il est recyclé.",
+      "truth": "false",
+      "explain": "Le recyclage dépend d’une filière effective."
+     },
+     {
+      "text": "Préserver un jardin signifie obligatoirement l’abîmer.",
+      "truth": "false",
+      "explain": "La préservation vise à éviter sa dégradation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 26,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-26",
+   "name": "Homophones : ver, vers, verre et vert"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Des homophones se prononcent de la même façon dans le modèle étudié mais ont des graphies et des sens différents. Ver nomme un animal ; vers peut être une préposition de direction ; verre désigne un matériau ou un récipient ; vert est notamment un adjectif de couleur. D’autres sens existent, comme un vers de poésie. La phrase et la catégorie grammaticale permettent de choisir la graphie.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Des homophones se prononcent de la même façon dans le modèle étudié mais ont des graphies et des sens différents. Ver nomme un animal ; vers peut être une préposition de direction ; verre désigne un matériau ou un récipient ; vert est notamment un adjectif de couleur. D’autres sens existent, comme un vers de poésie. La phrase et la catégorie grammaticale permettent de choisir la graphie."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Bih voit un ver près du jardin. Ayuk marche vers la porte. Un verre reste sur la table. Le tissu est vert. Un remplacement guidé seulement par le son produirait des phrases incohérentes ; il faut comprendre la relation et l’objet nommé."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "ver",
+    "meaning": "le nom d’un animal dans le modèle"
+   },
+   {
+    "word": "vers",
+    "meaning": "la préposition indiquant une direction dans le modèle"
+   },
+   {
+    "word": "verre",
+    "meaning": "le nom du récipient ou du matériau dans le modèle"
+   },
+   {
+    "word": "vert",
+    "meaning": "l’adjectif de couleur au masculin singulier"
+   }
+  ],
+  "examples": [
+   "Un ver remue dans la terre du jardin.",
+   "Ayuk se dirige vers la porte.",
+   "Le verre contient de l’eau."
+  ],
+  "mistake": {
+   "wrong": "L’animal du modèle s’écrit nécessairement verre.",
+   "right": "ver: le nom d’un animal dans le modèle.",
+   "why": "Ver nomme ici l’animal."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un ver remue dans la terre du jardin. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le nom d’un animal dans le modèle.",
+   "Ver nomme ici l’animal."
+  ],
+  "answer": "ver",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-26-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "ver: le nom d’un animal dans le modèle.",
+     "vers: la préposition indiquant une direction dans le modèle.",
+     "verre: le nom du récipient ou du matériau dans le modèle.",
+     "vert: l’adjectif de couleur au masculin singulier."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-26-terms"
+    }
+   },
+   {
+    "id": "cfr3-26-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Un ver remue dans la terre du jardin.",
+     "ver: le nom d’un animal dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-26-cases"
+    }
+   },
+   {
+    "id": "cfr3-26-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "L’animal du modèle s’écrit nécessairement verre.",
+     "Ver nomme ici l’animal."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-26-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "ver : le nom d’un animal dans le modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : ver désigne le nom d’un animal dans le modèle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "vers : la préposition indiquant une direction dans le modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : vers désigne la préposition indiquant une direction dans le modèle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "verre : le nom du récipient ou du matériau dans le modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : verre désigne le nom du récipient ou du matériau dans le modèle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "vert : l’adjectif de couleur au masculin singulier.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : vert désigne l’adjectif de couleur au masculin singulier. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’animal du modèle s’écrit nécessairement verre.",
+        "truth": "false",
+        "explain": "Ver nomme ici l’animal."
+       },
+       {
+        "text": "Vers indiquant une direction doit prendre un t final.",
+        "truth": "false",
+        "explain": "La préposition s’écrit vers."
+       },
+       {
+        "text": "Le récipient du modèle s’écrit ver.",
+        "truth": "false",
+        "explain": "Le récipient s’écrit verre."
+       },
+       {
+        "text": "L’adjectif de couleur vert est toujours la préposition vers.",
+        "truth": "false",
+        "explain": "La fonction et le sens distinguent vert de vers."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-26-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le nom d’un animal dans le modèle ?",
+       "r": "ver",
+       "w": [
+        "vers",
+        "verre",
+        "vert"
+       ],
+       "e": [
+        "« vers » désigne la préposition indiquant une direction dans le modèle. Ici, cherche le nom d’un animal dans le modèle.",
+        "« verre » désigne le nom du récipient ou du matériau dans le modèle. Ici, cherche le nom d’un animal dans le modèle.",
+        "« vert » désigne l’adjectif de couleur au masculin singulier. Ici, cherche le nom d’un animal dans le modèle."
+       ],
+       "y": "Le nom d’un animal dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne : la préposition indiquant une direction dans le modèle ?",
+       "r": "vers",
+       "w": [
+        "ver",
+        "verre",
+        "vert"
+       ],
+       "e": [
+        "« ver » désigne le nom d’un animal dans le modèle. Ici, cherche la préposition indiquant une direction dans le modèle.",
+        "« verre » désigne le nom du récipient ou du matériau dans le modèle. Ici, cherche la préposition indiquant une direction dans le modèle.",
+        "« vert » désigne l’adjectif de couleur au masculin singulier. Ici, cherche la préposition indiquant une direction dans le modèle."
+       ],
+       "y": "La préposition indiquant une direction dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne : le nom du récipient ou du matériau dans le modèle ?",
+       "r": "verre",
+       "w": [
+        "ver",
+        "vers",
+        "vert"
+       ],
+       "e": [
+        "« ver » désigne le nom d’un animal dans le modèle. Ici, cherche le nom du récipient ou du matériau dans le modèle.",
+        "« vers » désigne la préposition indiquant une direction dans le modèle. Ici, cherche le nom du récipient ou du matériau dans le modèle.",
+        "« vert » désigne l’adjectif de couleur au masculin singulier. Ici, cherche le nom du récipient ou du matériau dans le modèle."
+       ],
+       "y": "Le nom du récipient ou du matériau dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne : l’adjectif de couleur au masculin singulier ?",
+       "r": "vert",
+       "w": [
+        "ver",
+        "vers",
+        "verre"
+       ],
+       "e": [
+        "« ver » désigne le nom d’un animal dans le modèle. Ici, cherche l’adjectif de couleur au masculin singulier.",
+        "« vers » désigne la préposition indiquant une direction dans le modèle. Ici, cherche l’adjectif de couleur au masculin singulier.",
+        "« verre » désigne le nom du récipient ou du matériau dans le modèle. Ici, cherche l’adjectif de couleur au masculin singulier."
+       ],
+       "y": "L’adjectif de couleur au masculin singulier."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-26-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un ver remue dans la terre du jardin.\nQuel terme s’applique le mieux ?",
+       "r": "ver",
+       "w": [
+        "vers",
+        "verre",
+        "vert"
+       ],
+       "e": [
+        "« vers » concerne la préposition indiquant une direction dans le modèle. Le cas décrit plutôt le nom d’un animal dans le modèle.",
+        "« verre » concerne le nom du récipient ou du matériau dans le modèle. Le cas décrit plutôt le nom d’un animal dans le modèle.",
+        "« vert » concerne l’adjectif de couleur au masculin singulier. Le cas décrit plutôt le nom d’un animal dans le modèle."
+       ],
+       "y": "Un ver remue dans la terre du jardin. Le nom d’un animal dans le modèle."
+      },
+      {
+       "q": "Ayuk se dirige vers la porte.\nQuel terme s’applique le mieux ?",
+       "r": "vers",
+       "w": [
+        "ver",
+        "verre",
+        "vert"
+       ],
+       "e": [
+        "« ver » concerne le nom d’un animal dans le modèle. Le cas décrit plutôt la préposition indiquant une direction dans le modèle.",
+        "« verre » concerne le nom du récipient ou du matériau dans le modèle. Le cas décrit plutôt la préposition indiquant une direction dans le modèle.",
+        "« vert » concerne l’adjectif de couleur au masculin singulier. Le cas décrit plutôt la préposition indiquant une direction dans le modèle."
+       ],
+       "y": "Ayuk se dirige vers la porte. La préposition indiquant une direction dans le modèle."
+      },
+      {
+       "q": "Le verre contient de l’eau.\nQuel terme s’applique le mieux ?",
+       "r": "verre",
+       "w": [
+        "ver",
+        "vers",
+        "vert"
+       ],
+       "e": [
+        "« ver » concerne le nom d’un animal dans le modèle. Le cas décrit plutôt le nom du récipient ou du matériau dans le modèle.",
+        "« vers » concerne la préposition indiquant une direction dans le modèle. Le cas décrit plutôt le nom du récipient ou du matériau dans le modèle.",
+        "« vert » concerne l’adjectif de couleur au masculin singulier. Le cas décrit plutôt le nom du récipient ou du matériau dans le modèle."
+       ],
+       "y": "Le verre contient de l’eau. Le nom du récipient ou du matériau dans le modèle."
+      },
+      {
+       "q": "Le tissu vert est posé sur la table.\nQuel terme s’applique le mieux ?",
+       "r": "vert",
+       "w": [
+        "ver",
+        "vers",
+        "verre"
+       ],
+       "e": [
+        "« ver » concerne le nom d’un animal dans le modèle. Le cas décrit plutôt l’adjectif de couleur au masculin singulier.",
+        "« vers » concerne la préposition indiquant une direction dans le modèle. Le cas décrit plutôt l’adjectif de couleur au masculin singulier.",
+        "« verre » concerne le nom du récipient ou du matériau dans le modèle. Le cas décrit plutôt l’adjectif de couleur au masculin singulier."
+       ],
+       "y": "Le tissu vert est posé sur la table. L’adjectif de couleur au masculin singulier."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-26-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un ver remue dans la terre du jardin.\nQuelle explication justifie le classement ?",
+       "r": "Le nom d’un animal dans le modèle.",
+       "w": [
+        "La préposition indiquant une direction dans le modèle.",
+        "Le nom du récipient ou du matériau dans le modèle.",
+        "L’adjectif de couleur au masculin singulier."
+       ],
+       "e": [
+        "Cette explication correspond à « vers ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « verre ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vert ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Ver nomme ici l’animal."
+      },
+      {
+       "q": "Ayuk se dirige vers la porte.\nQuelle explication justifie le classement ?",
+       "r": "La préposition indiquant une direction dans le modèle.",
+       "w": [
+        "Le nom d’un animal dans le modèle.",
+        "Le nom du récipient ou du matériau dans le modèle.",
+        "L’adjectif de couleur au masculin singulier."
+       ],
+       "e": [
+        "Cette explication correspond à « ver ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « verre ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vert ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La préposition s’écrit vers."
+      },
+      {
+       "q": "Le verre contient de l’eau.\nQuelle explication justifie le classement ?",
+       "r": "Le nom du récipient ou du matériau dans le modèle.",
+       "w": [
+        "Le nom d’un animal dans le modèle.",
+        "La préposition indiquant une direction dans le modèle.",
+        "L’adjectif de couleur au masculin singulier."
+       ],
+       "e": [
+        "Cette explication correspond à « ver ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vers ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vert ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le récipient s’écrit verre."
+      },
+      {
+       "q": "Le tissu vert est posé sur la table.\nQuelle explication justifie le classement ?",
+       "r": "L’adjectif de couleur au masculin singulier.",
+       "w": [
+        "Le nom d’un animal dans le modèle.",
+        "La préposition indiquant une direction dans le modèle.",
+        "Le nom du récipient ou du matériau dans le modèle."
+       ],
+       "e": [
+        "Cette explication correspond à « ver ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vers ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « verre ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La fonction et le sens distinguent vert de vers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-26-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "ver",
+     "right": "Un ver remue dans la terre du jardin."
+    },
+    {
+     "left": "vers",
+     "right": "Ayuk se dirige vers la porte."
+    },
+    {
+     "left": "verre",
+     "right": "Le verre contient de l’eau."
+    },
+    {
+     "left": "vert",
+     "right": "Le tissu vert est posé sur la table."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-26-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "ver : le nom d’un animal dans le modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : ver désigne le nom d’un animal dans le modèle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "vers : la préposition indiquant une direction dans le modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : vers désigne la préposition indiquant une direction dans le modèle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "verre : le nom du récipient ou du matériau dans le modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : verre désigne le nom du récipient ou du matériau dans le modèle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "vert : l’adjectif de couleur au masculin singulier.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : vert désigne l’adjectif de couleur au masculin singulier. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’animal du modèle s’écrit nécessairement verre.",
+      "truth": "false",
+      "explain": "Ver nomme ici l’animal."
+     },
+     {
+      "text": "Vers indiquant une direction doit prendre un t final.",
+      "truth": "false",
+      "explain": "La préposition s’écrit vers."
+     },
+     {
+      "text": "Le récipient du modèle s’écrit ver.",
+      "truth": "false",
+      "explain": "Le récipient s’écrit verre."
+     },
+     {
+      "text": "L’adjectif de couleur vert est toujours la préposition vers.",
+      "truth": "false",
+      "explain": "La fonction et le sens distinguent vert de vers."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

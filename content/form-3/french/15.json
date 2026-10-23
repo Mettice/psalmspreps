@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 15,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-15",
+   "name": "Exprimer la sympathie et l’antipathie"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "On peut exprimer une appréciation ou un désaccord sans attaquer la dignité d’une personne. La sympathie peut se manifester par une parole accueillante ; l’antipathie désigne un sentiment défavorable, mais n’autorise ni insulte ni discrimination. Distingue un sentiment, un jugement sur un comportement et une règle de conduite. Pour discuter en classe, utilise des personnages fictifs et explique les raisons sans répandre de rumeurs.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "On peut exprimer une appréciation ou un désaccord sans attaquer la dignité d’une personne. La sympathie peut se manifester par une parole accueillante ; l’antipathie désigne un sentiment défavorable, mais n’autorise ni insulte ni discrimination. Distingue un sentiment, un jugement sur un comportement et une règle de conduite. Pour discuter en classe, utilise des personnages fictifs et explique les raisons sans répandre de rumeurs."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dialogue original : Bih apprécie l’accueil d’une camarade. Ayuk dit qu’un comportement moqueur lui déplaît. Bih propose d’en parler calmement. Ils décrivent des actes précis, sans conclure qu’une origine ou une apparence rend une personne mauvaise."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sympathie",
+    "meaning": "un sentiment favorable envers une personne"
+   },
+   {
+    "word": "antipathie",
+    "meaning": "un sentiment défavorable envers une personne"
+   },
+   {
+    "word": "désaccord",
+    "meaning": "une opposition à une idée ou à un comportement"
+   },
+   {
+    "word": "courtoisie",
+    "meaning": "une manière respectueuse de s’adresser à autrui"
+   }
+  ],
+  "examples": [
+   "Bih apprécie l’accueil aimable de sa camarade.",
+   "Un personnage éprouve de l’antipathie sans l’exprimer par une insulte.",
+   "Ayuk critique une moquerie précise."
+  ],
+  "mistake": {
+   "wrong": "La sympathie signifie toujours le rejet d’une personne.",
+   "right": "sympathie: un sentiment favorable envers une personne.",
+   "why": "Elle désigne ici une disposition favorable."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih apprécie l’accueil aimable de sa camarade. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un sentiment favorable envers une personne.",
+   "Elle désigne ici une disposition favorable."
+  ],
+  "answer": "sympathie",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-15-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "sympathie: un sentiment favorable envers une personne.",
+     "antipathie: un sentiment défavorable envers une personne.",
+     "désaccord: une opposition à une idée ou à un comportement.",
+     "courtoisie: une manière respectueuse de s’adresser à autrui."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-15-terms"
+    }
+   },
+   {
+    "id": "cfr3-15-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Bih apprécie l’accueil aimable de sa camarade.",
+     "sympathie: un sentiment favorable envers une personne."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-15-cases"
+    }
+   },
+   {
+    "id": "cfr3-15-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "La sympathie signifie toujours le rejet d’une personne.",
+     "Elle désigne ici une disposition favorable."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-15-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "sympathie : un sentiment favorable envers une personne.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : sympathie désigne un sentiment favorable envers une personne. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "antipathie : un sentiment défavorable envers une personne.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : antipathie désigne un sentiment défavorable envers une personne. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "désaccord : une opposition à une idée ou à un comportement.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : désaccord désigne une opposition à une idée ou à un comportement. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "courtoisie : une manière respectueuse de s’adresser à autrui.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : courtoisie désigne une manière respectueuse de s’adresser à autrui. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "La sympathie signifie toujours le rejet d’une personne.",
+        "truth": "false",
+        "explain": "Elle désigne ici une disposition favorable."
+       },
+       {
+        "text": "Ressentir de l’antipathie oblige à humilier quelqu’un.",
+        "truth": "false",
+        "explain": "Un sentiment n’autorise pas l’humiliation."
+       },
+       {
+        "text": "Désapprouver une idée impose de détester toute la personne.",
+        "truth": "false",
+        "explain": "On peut discuter un acte en respectant la personne."
+       },
+       {
+        "text": "La courtoisie exige de renoncer à toute critique.",
+        "truth": "false",
+        "explain": "Une critique peut être claire et respectueuse."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-15-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un sentiment favorable envers une personne ?",
+       "r": "sympathie",
+       "w": [
+        "antipathie",
+        "désaccord",
+        "courtoisie"
+       ],
+       "e": [
+        "« antipathie » désigne un sentiment défavorable envers une personne. Ici, cherche un sentiment favorable envers une personne.",
+        "« désaccord » désigne une opposition à une idée ou à un comportement. Ici, cherche un sentiment favorable envers une personne.",
+        "« courtoisie » désigne une manière respectueuse de s’adresser à autrui. Ici, cherche un sentiment favorable envers une personne."
+       ],
+       "y": "Un sentiment favorable envers une personne."
+      },
+      {
+       "q": "Quel terme désigne : un sentiment défavorable envers une personne ?",
+       "r": "antipathie",
+       "w": [
+        "sympathie",
+        "désaccord",
+        "courtoisie"
+       ],
+       "e": [
+        "« sympathie » désigne un sentiment favorable envers une personne. Ici, cherche un sentiment défavorable envers une personne.",
+        "« désaccord » désigne une opposition à une idée ou à un comportement. Ici, cherche un sentiment défavorable envers une personne.",
+        "« courtoisie » désigne une manière respectueuse de s’adresser à autrui. Ici, cherche un sentiment défavorable envers une personne."
+       ],
+       "y": "Un sentiment défavorable envers une personne."
+      },
+      {
+       "q": "Quel terme désigne : une opposition à une idée ou à un comportement ?",
+       "r": "désaccord",
+       "w": [
+        "sympathie",
+        "antipathie",
+        "courtoisie"
+       ],
+       "e": [
+        "« sympathie » désigne un sentiment favorable envers une personne. Ici, cherche une opposition à une idée ou à un comportement.",
+        "« antipathie » désigne un sentiment défavorable envers une personne. Ici, cherche une opposition à une idée ou à un comportement.",
+        "« courtoisie » désigne une manière respectueuse de s’adresser à autrui. Ici, cherche une opposition à une idée ou à un comportement."
+       ],
+       "y": "Une opposition à une idée ou à un comportement."
+      },
+      {
+       "q": "Quel terme désigne : une manière respectueuse de s’adresser à autrui ?",
+       "r": "courtoisie",
+       "w": [
+        "sympathie",
+        "antipathie",
+        "désaccord"
+       ],
+       "e": [
+        "« sympathie » désigne un sentiment favorable envers une personne. Ici, cherche une manière respectueuse de s’adresser à autrui.",
+        "« antipathie » désigne un sentiment défavorable envers une personne. Ici, cherche une manière respectueuse de s’adresser à autrui.",
+        "« désaccord » désigne une opposition à une idée ou à un comportement. Ici, cherche une manière respectueuse de s’adresser à autrui."
+       ],
+       "y": "Une manière respectueuse de s’adresser à autrui."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-15-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih apprécie l’accueil aimable de sa camarade.\nQuel terme s’applique le mieux ?",
+       "r": "sympathie",
+       "w": [
+        "antipathie",
+        "désaccord",
+        "courtoisie"
+       ],
+       "e": [
+        "« antipathie » concerne un sentiment défavorable envers une personne. Le cas décrit plutôt un sentiment favorable envers une personne.",
+        "« désaccord » concerne une opposition à une idée ou à un comportement. Le cas décrit plutôt un sentiment favorable envers une personne.",
+        "« courtoisie » concerne une manière respectueuse de s’adresser à autrui. Le cas décrit plutôt un sentiment favorable envers une personne."
+       ],
+       "y": "Bih apprécie l’accueil aimable de sa camarade. Un sentiment favorable envers une personne."
+      },
+      {
+       "q": "Un personnage éprouve de l’antipathie sans l’exprimer par une insulte.\nQuel terme s’applique le mieux ?",
+       "r": "antipathie",
+       "w": [
+        "sympathie",
+        "désaccord",
+        "courtoisie"
+       ],
+       "e": [
+        "« sympathie » concerne un sentiment favorable envers une personne. Le cas décrit plutôt un sentiment défavorable envers une personne.",
+        "« désaccord » concerne une opposition à une idée ou à un comportement. Le cas décrit plutôt un sentiment défavorable envers une personne.",
+        "« courtoisie » concerne une manière respectueuse de s’adresser à autrui. Le cas décrit plutôt un sentiment défavorable envers une personne."
+       ],
+       "y": "Un personnage éprouve de l’antipathie sans l’exprimer par une insulte. Un sentiment défavorable envers une personne."
+      },
+      {
+       "q": "Ayuk critique une moquerie précise.\nQuel terme s’applique le mieux ?",
+       "r": "désaccord",
+       "w": [
+        "sympathie",
+        "antipathie",
+        "courtoisie"
+       ],
+       "e": [
+        "« sympathie » concerne un sentiment favorable envers une personne. Le cas décrit plutôt une opposition à une idée ou à un comportement.",
+        "« antipathie » concerne un sentiment défavorable envers une personne. Le cas décrit plutôt une opposition à une idée ou à un comportement.",
+        "« courtoisie » concerne une manière respectueuse de s’adresser à autrui. Le cas décrit plutôt une opposition à une idée ou à un comportement."
+       ],
+       "y": "Ayuk critique une moquerie précise. Une opposition à une idée ou à un comportement."
+      },
+      {
+       "q": "Bih demande calmement une explication.\nQuel terme s’applique le mieux ?",
+       "r": "courtoisie",
+       "w": [
+        "sympathie",
+        "antipathie",
+        "désaccord"
+       ],
+       "e": [
+        "« sympathie » concerne un sentiment favorable envers une personne. Le cas décrit plutôt une manière respectueuse de s’adresser à autrui.",
+        "« antipathie » concerne un sentiment défavorable envers une personne. Le cas décrit plutôt une manière respectueuse de s’adresser à autrui.",
+        "« désaccord » concerne une opposition à une idée ou à un comportement. Le cas décrit plutôt une manière respectueuse de s’adresser à autrui."
+       ],
+       "y": "Bih demande calmement une explication. Une manière respectueuse de s’adresser à autrui."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-15-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih apprécie l’accueil aimable de sa camarade.\nQuelle explication justifie le classement ?",
+       "r": "Un sentiment favorable envers une personne.",
+       "w": [
+        "Un sentiment défavorable envers une personne.",
+        "Une opposition à une idée ou à un comportement.",
+        "Une manière respectueuse de s’adresser à autrui."
+       ],
+       "e": [
+        "Cette explication correspond à « antipathie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « désaccord ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « courtoisie ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Elle désigne ici une disposition favorable."
+      },
+      {
+       "q": "Un personnage éprouve de l’antipathie sans l’exprimer par une insulte.\nQuelle explication justifie le classement ?",
+       "r": "Un sentiment défavorable envers une personne.",
+       "w": [
+        "Un sentiment favorable envers une personne.",
+        "Une opposition à une idée ou à un comportement.",
+        "Une manière respectueuse de s’adresser à autrui."
+       ],
+       "e": [
+        "Cette explication correspond à « sympathie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « désaccord ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « courtoisie ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Un sentiment n’autorise pas l’humiliation."
+      },
+      {
+       "q": "Ayuk critique une moquerie précise.\nQuelle explication justifie le classement ?",
+       "r": "Une opposition à une idée ou à un comportement.",
+       "w": [
+        "Un sentiment favorable envers une personne.",
+        "Un sentiment défavorable envers une personne.",
+        "Une manière respectueuse de s’adresser à autrui."
+       ],
+       "e": [
+        "Cette explication correspond à « sympathie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « antipathie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « courtoisie ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "On peut discuter un acte en respectant la personne."
+      },
+      {
+       "q": "Bih demande calmement une explication.\nQuelle explication justifie le classement ?",
+       "r": "Une manière respectueuse de s’adresser à autrui.",
+       "w": [
+        "Un sentiment favorable envers une personne.",
+        "Un sentiment défavorable envers une personne.",
+        "Une opposition à une idée ou à un comportement."
+       ],
+       "e": [
+        "Cette explication correspond à « sympathie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « antipathie ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « désaccord ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Une critique peut être claire et respectueuse."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-15-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "sympathie",
+     "right": "Bih apprécie l’accueil aimable de sa camarade."
+    },
+    {
+     "left": "antipathie",
+     "right": "Un personnage éprouve de l’antipathie sans l’exprimer par une insulte."
+    },
+    {
+     "left": "désaccord",
+     "right": "Ayuk critique une moquerie précise."
+    },
+    {
+     "left": "courtoisie",
+     "right": "Bih demande calmement une explication."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-15-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "sympathie : un sentiment favorable envers une personne.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : sympathie désigne un sentiment favorable envers une personne. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "antipathie : un sentiment défavorable envers une personne.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : antipathie désigne un sentiment défavorable envers une personne. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "désaccord : une opposition à une idée ou à un comportement.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : désaccord désigne une opposition à une idée ou à un comportement. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "courtoisie : une manière respectueuse de s’adresser à autrui.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : courtoisie désigne une manière respectueuse de s’adresser à autrui. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La sympathie signifie toujours le rejet d’une personne.",
+      "truth": "false",
+      "explain": "Elle désigne ici une disposition favorable."
+     },
+     {
+      "text": "Ressentir de l’antipathie oblige à humilier quelqu’un.",
+      "truth": "false",
+      "explain": "Un sentiment n’autorise pas l’humiliation."
+     },
+     {
+      "text": "Désapprouver une idée impose de détester toute la personne.",
+      "truth": "false",
+      "explain": "On peut discuter un acte en respectant la personne."
+     },
+     {
+      "text": "La courtoisie exige de renoncer à toute critique.",
+      "truth": "false",
+      "explain": "Une critique peut être claire et respectueuse."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

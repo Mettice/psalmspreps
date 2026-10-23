@@ -1,0 +1,530 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "g3-6",
+   "name": "Practical preparation: locating a longitude"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To locate a point, read latitude and longitude from their reference lines and include the hemispheres. This guided practical uses an invented graticule on screen. Start with the parallel through the point, then the meridian. Check the spacing of the labelled lines before estimating an intermediate value. Record the coordinate in your exercise book with latitude first. The practice checks written map reading, not the accuracy of a real field survey.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "To locate a point, read latitude and longitude from their reference lines and include the hemispheres. This guided practical uses an invented graticule on screen. Start with the parallel through the point, then the meridian. Check the spacing of the labelled lines before estimating an intermediate value. Record the coordinate in your exercise book with latitude first. The practice checks written map reading, not the accuracy of a real field survey."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "The diagram marks A on an invented grid. All points used here lie north of the Equator and east of Greenwich. Trace A horizontally to the latitude labels, and vertically to the longitude labels. Because each point lies on labelled lines, no estimate is needed in these examples. These coordinates are not being presented as actual locations of named Cameroonian towns.",
+    "figure": "graticule(0,0,10,[['A',20,30]])"
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Write the reference line and hemisphere beside each value. Check that the value you read belongs to the correct axis. For an actual map, consult its key and projection as well. Swapping the two values moves the point and changes its meaning."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "latitude reading",
+    "meaning": "the north/south angle read from the parallel through a point"
+   },
+   {
+    "word": "longitude reading",
+    "meaning": "the east/west angle read from the meridian through a point"
+   },
+   {
+    "word": "hemisphere label",
+    "meaning": "the direction that completes an angular coordinate"
+   },
+   {
+    "word": "coordinate order",
+    "meaning": "latitude followed by longitude"
+   }
+  ],
+  "examples": [
+   "A learner follows A's horizontal line to the northward labels.",
+   "A learner follows A's vertical line to the eastward labels.",
+   "A learner writes north or south after the latitude angle."
+  ],
+  "mistake": {
+   "wrong": "Read longitude labels to obtain latitude.",
+   "right": "latitude reading: the north/south angle read from the parallel through a point.",
+   "why": "Use the parallel's latitude label, not the meridian's longitude label."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A learner follows A's horizontal line to the northward labels. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "The north/south angle read from the parallel through a point.",
+   "Use the parallel's latitude label, not the meridian's longitude label."
+  ],
+  "answer": "latitude reading",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-6-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "latitude reading: the north/south angle read from the parallel through a point.",
+     "longitude reading: the east/west angle read from the meridian through a point.",
+     "hemisphere label: the direction that completes an angular coordinate.",
+     "coordinate order: latitude followed by longitude."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-6-terms"
+    }
+   },
+   {
+    "id": "cg3-6-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A learner follows A's horizontal line to the northward labels.",
+     "latitude reading: the north/south angle read from the parallel through a point."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-6-cases"
+    }
+   },
+   {
+    "id": "cg3-6-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Read longitude labels to obtain latitude.",
+     "Use the parallel's latitude label, not the meridian's longitude label."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-6-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "latitude reading: the north/south angle read from the parallel through a point.",
+        "truth": "true",
+        "explain": "This statement is correct: latitude reading means the north/south angle read from the parallel through a point. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "longitude reading: the east/west angle read from the meridian through a point.",
+        "truth": "true",
+        "explain": "This statement is correct: longitude reading means the east/west angle read from the meridian through a point. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "hemisphere label: the direction that completes an angular coordinate.",
+        "truth": "true",
+        "explain": "This statement is correct: hemisphere label means the direction that completes an angular coordinate. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "coordinate order: latitude followed by longitude.",
+        "truth": "true",
+        "explain": "This statement is correct: coordinate order means latitude followed by longitude. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Read longitude labels to obtain latitude.",
+        "truth": "false",
+        "explain": "Use the parallel's latitude label, not the meridian's longitude label."
+       },
+       {
+        "text": "Read latitude labels to obtain longitude.",
+        "truth": "false",
+        "explain": "Use the meridian's longitude label, not the parallel's latitude label."
+       },
+       {
+        "text": "A bare angle always gives one unique global location.",
+        "truth": "false",
+        "explain": "Without direction and the other coordinate, a bare angle is incomplete."
+       },
+       {
+        "text": "The two angles may always be swapped without changing the location.",
+        "truth": "false",
+        "explain": "Latitude and longitude perform different roles, so their order matters."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: the north/south angle read from the parallel through a point ?",
+       "r": "latitude reading",
+       "w": [
+        "longitude reading",
+        "hemisphere label",
+        "coordinate order"
+       ],
+       "e": [
+        "longitude reading means the east/west angle read from the meridian through a point; the question instead describes the north/south angle read from the parallel through a point.",
+        "hemisphere label means the direction that completes an angular coordinate; the question instead describes the north/south angle read from the parallel through a point.",
+        "coordinate order means latitude followed by longitude; the question instead describes the north/south angle read from the parallel through a point."
+       ],
+       "y": "The north/south angle read from the parallel through a point."
+      },
+      {
+       "q": "Which term means: the east/west angle read from the meridian through a point ?",
+       "r": "longitude reading",
+       "w": [
+        "latitude reading",
+        "hemisphere label",
+        "coordinate order"
+       ],
+       "e": [
+        "latitude reading means the north/south angle read from the parallel through a point; the question instead describes the east/west angle read from the meridian through a point.",
+        "hemisphere label means the direction that completes an angular coordinate; the question instead describes the east/west angle read from the meridian through a point.",
+        "coordinate order means latitude followed by longitude; the question instead describes the east/west angle read from the meridian through a point."
+       ],
+       "y": "The east/west angle read from the meridian through a point."
+      },
+      {
+       "q": "Which term means: the direction that completes an angular coordinate ?",
+       "r": "hemisphere label",
+       "w": [
+        "latitude reading",
+        "longitude reading",
+        "coordinate order"
+       ],
+       "e": [
+        "latitude reading means the north/south angle read from the parallel through a point; the question instead describes the direction that completes an angular coordinate.",
+        "longitude reading means the east/west angle read from the meridian through a point; the question instead describes the direction that completes an angular coordinate.",
+        "coordinate order means latitude followed by longitude; the question instead describes the direction that completes an angular coordinate."
+       ],
+       "y": "The direction that completes an angular coordinate."
+      },
+      {
+       "q": "Which term means: latitude followed by longitude ?",
+       "r": "coordinate order",
+       "w": [
+        "latitude reading",
+        "longitude reading",
+        "hemisphere label"
+       ],
+       "e": [
+        "latitude reading means the north/south angle read from the parallel through a point; the question instead describes latitude followed by longitude.",
+        "longitude reading means the east/west angle read from the meridian through a point; the question instead describes latitude followed by longitude.",
+        "hemisphere label means the direction that completes an angular coordinate; the question instead describes latitude followed by longitude."
+       ],
+       "y": "Latitude followed by longitude."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner follows A's horizontal line to the northward labels.\nWhich term best fits this example?",
+       "r": "latitude reading",
+       "w": [
+        "longitude reading",
+        "hemisphere label",
+        "coordinate order"
+       ],
+       "e": [
+        "longitude reading concerns the east/west angle read from the meridian through a point. This case instead illustrates the north/south angle read from the parallel through a point.",
+        "hemisphere label concerns the direction that completes an angular coordinate. This case instead illustrates the north/south angle read from the parallel through a point.",
+        "coordinate order concerns latitude followed by longitude. This case instead illustrates the north/south angle read from the parallel through a point."
+       ],
+       "y": "A learner follows A's horizontal line to the northward labels. The north/south angle read from the parallel through a point."
+      },
+      {
+       "q": "A learner follows A's vertical line to the eastward labels.\nWhich term best fits this example?",
+       "r": "longitude reading",
+       "w": [
+        "latitude reading",
+        "hemisphere label",
+        "coordinate order"
+       ],
+       "e": [
+        "latitude reading concerns the north/south angle read from the parallel through a point. This case instead illustrates the east/west angle read from the meridian through a point.",
+        "hemisphere label concerns the direction that completes an angular coordinate. This case instead illustrates the east/west angle read from the meridian through a point.",
+        "coordinate order concerns latitude followed by longitude. This case instead illustrates the east/west angle read from the meridian through a point."
+       ],
+       "y": "A learner follows A's vertical line to the eastward labels. The east/west angle read from the meridian through a point."
+      },
+      {
+       "q": "A learner writes north or south after the latitude angle.\nWhich term best fits this example?",
+       "r": "hemisphere label",
+       "w": [
+        "latitude reading",
+        "longitude reading",
+        "coordinate order"
+       ],
+       "e": [
+        "latitude reading concerns the north/south angle read from the parallel through a point. This case instead illustrates the direction that completes an angular coordinate.",
+        "longitude reading concerns the east/west angle read from the meridian through a point. This case instead illustrates the direction that completes an angular coordinate.",
+        "coordinate order concerns latitude followed by longitude. This case instead illustrates the direction that completes an angular coordinate."
+       ],
+       "y": "A learner writes north or south after the latitude angle. The direction that completes an angular coordinate."
+      },
+      {
+       "q": "A learner records the north/south value before the east/west value.\nWhich term best fits this example?",
+       "r": "coordinate order",
+       "w": [
+        "latitude reading",
+        "longitude reading",
+        "hemisphere label"
+       ],
+       "e": [
+        "latitude reading concerns the north/south angle read from the parallel through a point. This case instead illustrates latitude followed by longitude.",
+        "longitude reading concerns the east/west angle read from the meridian through a point. This case instead illustrates latitude followed by longitude.",
+        "hemisphere label concerns the direction that completes an angular coordinate. This case instead illustrates latitude followed by longitude."
+       ],
+       "y": "A learner records the north/south value before the east/west value. Latitude followed by longitude."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-6-longitude",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "la": {
+     "pick": [
+      10,
+      20,
+      30
+     ]
+    },
+    "lo": {
+     "pick": [
+      10,
+      20,
+      30
+     ]
+    }
+   },
+   "prompt": "Read point A on the graticule. Give its longitude in degrees east.",
+   "answer": "lo",
+   "solution": [
+    "Read the vertical meridian through A.",
+    "The angle is {answer} degrees east."
+   ],
+   "figure": "graticule(0,0,10,[['A',la,lo]])",
+   "unit": "degrees east"
+  },
+  {
+   "id": "g3-6-latitude",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "la": {
+     "pick": [
+      10,
+      20,
+      30
+     ]
+    },
+    "lo": {
+     "pick": [
+      10,
+      20,
+      30
+     ]
+    }
+   },
+   "prompt": "Read point A on the graticule. Give its latitude in degrees north.",
+   "answer": "la",
+   "solution": [
+    "Read the horizontal parallel through A.",
+    "The angle is {answer} degrees north."
+   ],
+   "figure": "graticule(0,0,10,[['A',la,lo]])",
+   "unit": "degrees north"
+  },
+  {
+   "id": "g3-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "latitude reading: the north/south angle read from the parallel through a point.",
+      "truth": "true",
+      "explain": "This statement is correct: latitude reading means the north/south angle read from the parallel through a point. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "longitude reading: the east/west angle read from the meridian through a point.",
+      "truth": "true",
+      "explain": "This statement is correct: longitude reading means the east/west angle read from the meridian through a point. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "hemisphere label: the direction that completes an angular coordinate.",
+      "truth": "true",
+      "explain": "This statement is correct: hemisphere label means the direction that completes an angular coordinate. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "coordinate order: latitude followed by longitude.",
+      "truth": "true",
+      "explain": "This statement is correct: coordinate order means latitude followed by longitude. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Read longitude labels to obtain latitude.",
+      "truth": "false",
+      "explain": "Use the parallel's latitude label, not the meridian's longitude label."
+     },
+     {
+      "text": "Read latitude labels to obtain longitude.",
+      "truth": "false",
+      "explain": "Use the meridian's longitude label, not the parallel's latitude label."
+     },
+     {
+      "text": "A bare angle always gives one unique global location.",
+      "truth": "false",
+      "explain": "Without direction and the other coordinate, a bare angle is incomplete."
+     },
+     {
+      "text": "The two angles may always be swapped without changing the location.",
+      "truth": "false",
+      "explain": "Latitude and longitude perform different roles, so their order matters."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

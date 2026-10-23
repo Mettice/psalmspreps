@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-19",
+   "name": "Active and passive voice"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In an active clause, the subject performs the action: Bih writes the notice. In a passive clause, the affected participant becomes the subject: the notice is written by Bih. A basic passive uses the appropriate form of be plus the past participle. Keep tense and number consistent. The agent can be omitted when unknown or unimportant. Not every verb can be passivised in the same way; use clear transitive examples with an object.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "In an active clause, the subject performs the action: Bih writes the notice. In a passive clause, the affected participant becomes the subject: the notice is written by Bih. A basic passive uses the appropriate form of be plus the past participle. Keep tense and number consistent. The agent can be omitted when unknown or unimportant. Not every verb can be passivised in the same way; use clear transitive examples with an object."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "The club cleans the room becomes the room is cleaned by the club. For a completed past action, Bih wrote the notice becomes the notice was written by Bih. Changing written to wrote after was confuses the past participle with the simple past. The passive changes focus; it does not automatically change who performed the event."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify subject, verb and object. Move the affected object to subject position, select be for the tense and number, then use the participle. Include by + agent only when useful. Check the result still describes the same action and time."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "active voice",
+    "meaning": "a clause whose subject performs the stated action"
+   },
+   {
+    "word": "passive voice",
+    "meaning": "a clause focusing on an affected subject with be plus participle"
+   },
+   {
+    "word": "agent",
+    "meaning": "the performer named in a passive by-phrase"
+   },
+   {
+    "word": "tense preservation",
+    "meaning": "keeping the action's time when changing voice"
+   }
+  ],
+  "examples": [
+   "Bih writes the notice.",
+   "The notice is written by Bih.",
+   "In the notice was written by Ayuk, consider Ayuk's role."
+  ],
+  "mistake": {
+   "wrong": "Every sentence containing an action word is necessarily passive.",
+   "right": "active voice: a clause whose subject performs the stated action.",
+   "why": "Bih is the actor-subject here, so the clause is active."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih writes the notice. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A clause whose subject performs the stated action.",
+   "Bih is the actor-subject here, so the clause is active."
+  ],
+  "answer": "active voice",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-19-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "active voice: a clause whose subject performs the stated action.",
+     "passive voice: a clause focusing on an affected subject with be plus participle.",
+     "agent: the performer named in a passive by-phrase.",
+     "tense preservation: keeping the action's time when changing voice."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-19-terms"
+    }
+   },
+   {
+    "id": "ce3-19-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Bih writes the notice.",
+     "active voice: a clause whose subject performs the stated action."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-19-cases"
+    }
+   },
+   {
+    "id": "ce3-19-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Every sentence containing an action word is necessarily passive.",
+     "Bih is the actor-subject here, so the clause is active."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-19-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "active voice: a clause whose subject performs the stated action.",
+        "truth": "true",
+        "explain": "This statement is correct: active voice means a clause whose subject performs the stated action. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "passive voice: a clause focusing on an affected subject with be plus participle.",
+        "truth": "true",
+        "explain": "This statement is correct: passive voice means a clause focusing on an affected subject with be plus participle. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "agent: the performer named in a passive by-phrase.",
+        "truth": "true",
+        "explain": "This statement is correct: agent means the performer named in a passive by-phrase. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "tense preservation: keeping the action's time when changing voice.",
+        "truth": "true",
+        "explain": "This statement is correct: tense preservation means keeping the action's time when changing voice. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every sentence containing an action word is necessarily passive.",
+        "truth": "false",
+        "explain": "Bih is the actor-subject here, so the clause is active."
+       },
+       {
+        "text": "The notice is wrote by Bih.",
+        "truth": "false",
+        "explain": "After passive be use the participle written, not simple-past wrote."
+       },
+       {
+        "text": "The by-phrase always names the object affected rather than the actor.",
+        "truth": "false",
+        "explain": "Ayuk is the performer named as agent."
+       },
+       {
+        "text": "Every past active clause becomes a present passive clause.",
+        "truth": "false",
+        "explain": "A voice change should preserve the intended tense."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-19-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a clause whose subject performs the stated action ?",
+       "r": "active voice",
+       "w": [
+        "passive voice",
+        "agent",
+        "tense preservation"
+       ],
+       "e": [
+        "passive voice means a clause focusing on an affected subject with be plus participle; the question instead describes a clause whose subject performs the stated action.",
+        "agent means the performer named in a passive by-phrase; the question instead describes a clause whose subject performs the stated action.",
+        "tense preservation means keeping the action's time when changing voice; the question instead describes a clause whose subject performs the stated action."
+       ],
+       "y": "A clause whose subject performs the stated action."
+      },
+      {
+       "q": "Which term means: a clause focusing on an affected subject with be plus participle ?",
+       "r": "passive voice",
+       "w": [
+        "active voice",
+        "agent",
+        "tense preservation"
+       ],
+       "e": [
+        "active voice means a clause whose subject performs the stated action; the question instead describes a clause focusing on an affected subject with be plus participle.",
+        "agent means the performer named in a passive by-phrase; the question instead describes a clause focusing on an affected subject with be plus participle.",
+        "tense preservation means keeping the action's time when changing voice; the question instead describes a clause focusing on an affected subject with be plus participle."
+       ],
+       "y": "A clause focusing on an affected subject with be plus participle."
+      },
+      {
+       "q": "Which term means: the performer named in a passive by-phrase ?",
+       "r": "agent",
+       "w": [
+        "active voice",
+        "passive voice",
+        "tense preservation"
+       ],
+       "e": [
+        "active voice means a clause whose subject performs the stated action; the question instead describes the performer named in a passive by-phrase.",
+        "passive voice means a clause focusing on an affected subject with be plus participle; the question instead describes the performer named in a passive by-phrase.",
+        "tense preservation means keeping the action's time when changing voice; the question instead describes the performer named in a passive by-phrase."
+       ],
+       "y": "The performer named in a passive by-phrase."
+      },
+      {
+       "q": "Which term means: keeping the action's time when changing voice ?",
+       "r": "tense preservation",
+       "w": [
+        "active voice",
+        "passive voice",
+        "agent"
+       ],
+       "e": [
+        "active voice means a clause whose subject performs the stated action; the question instead describes keeping the action's time when changing voice.",
+        "passive voice means a clause focusing on an affected subject with be plus participle; the question instead describes keeping the action's time when changing voice.",
+        "agent means the performer named in a passive by-phrase; the question instead describes keeping the action's time when changing voice."
+       ],
+       "y": "Keeping the action's time when changing voice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-19-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih writes the notice.\nWhich term best fits this example?",
+       "r": "active voice",
+       "w": [
+        "passive voice",
+        "agent",
+        "tense preservation"
+       ],
+       "e": [
+        "passive voice concerns a clause focusing on an affected subject with be plus participle. This case instead illustrates a clause whose subject performs the stated action.",
+        "agent concerns the performer named in a passive by-phrase. This case instead illustrates a clause whose subject performs the stated action.",
+        "tense preservation concerns keeping the action's time when changing voice. This case instead illustrates a clause whose subject performs the stated action."
+       ],
+       "y": "Bih writes the notice. A clause whose subject performs the stated action."
+      },
+      {
+       "q": "The notice is written by Bih.\nWhich term best fits this example?",
+       "r": "passive voice",
+       "w": [
+        "active voice",
+        "agent",
+        "tense preservation"
+       ],
+       "e": [
+        "active voice concerns a clause whose subject performs the stated action. This case instead illustrates a clause focusing on an affected subject with be plus participle.",
+        "agent concerns the performer named in a passive by-phrase. This case instead illustrates a clause focusing on an affected subject with be plus participle.",
+        "tense preservation concerns keeping the action's time when changing voice. This case instead illustrates a clause focusing on an affected subject with be plus participle."
+       ],
+       "y": "The notice is written by Bih. A clause focusing on an affected subject with be plus participle."
+      },
+      {
+       "q": "In the notice was written by Ayuk, consider Ayuk's role.\nWhich term best fits this example?",
+       "r": "agent",
+       "w": [
+        "active voice",
+        "passive voice",
+        "tense preservation"
+       ],
+       "e": [
+        "active voice concerns a clause whose subject performs the stated action. This case instead illustrates the performer named in a passive by-phrase.",
+        "passive voice concerns a clause focusing on an affected subject with be plus participle. This case instead illustrates the performer named in a passive by-phrase.",
+        "tense preservation concerns keeping the action's time when changing voice. This case instead illustrates the performer named in a passive by-phrase."
+       ],
+       "y": "In the notice was written by Ayuk, consider Ayuk's role. The performer named in a passive by-phrase."
+      },
+      {
+       "q": "Bih wrote the notice becomes the notice was written by Bih.\nWhich term best fits this example?",
+       "r": "tense preservation",
+       "w": [
+        "active voice",
+        "passive voice",
+        "agent"
+       ],
+       "e": [
+        "active voice concerns a clause whose subject performs the stated action. This case instead illustrates keeping the action's time when changing voice.",
+        "passive voice concerns a clause focusing on an affected subject with be plus participle. This case instead illustrates keeping the action's time when changing voice.",
+        "agent concerns the performer named in a passive by-phrase. This case instead illustrates keeping the action's time when changing voice."
+       ],
+       "y": "Bih wrote the notice becomes the notice was written by Bih. Keeping the action's time when changing voice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-19-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih writes the notice.\nWhich explanation justifies the classification?",
+       "r": "A clause whose subject performs the stated action.",
+       "w": [
+        "A clause focusing on an affected subject with be plus participle.",
+        "The performer named in a passive by-phrase.",
+        "Keeping the action's time when changing voice."
+       ],
+       "e": [
+        "That explanation describes passive voice, rather than the relationship illustrated in this example.",
+        "That explanation describes agent, rather than the relationship illustrated in this example.",
+        "That explanation describes tense preservation, rather than the relationship illustrated in this example."
+       ],
+       "y": "Bih is the actor-subject here, so the clause is active."
+      },
+      {
+       "q": "The notice is written by Bih.\nWhich explanation justifies the classification?",
+       "r": "A clause focusing on an affected subject with be plus participle.",
+       "w": [
+        "A clause whose subject performs the stated action.",
+        "The performer named in a passive by-phrase.",
+        "Keeping the action's time when changing voice."
+       ],
+       "e": [
+        "That explanation describes active voice, rather than the relationship illustrated in this example.",
+        "That explanation describes agent, rather than the relationship illustrated in this example.",
+        "That explanation describes tense preservation, rather than the relationship illustrated in this example."
+       ],
+       "y": "After passive be use the participle written, not simple-past wrote."
+      },
+      {
+       "q": "In the notice was written by Ayuk, consider Ayuk's role.\nWhich explanation justifies the classification?",
+       "r": "The performer named in a passive by-phrase.",
+       "w": [
+        "A clause whose subject performs the stated action.",
+        "A clause focusing on an affected subject with be plus participle.",
+        "Keeping the action's time when changing voice."
+       ],
+       "e": [
+        "That explanation describes active voice, rather than the relationship illustrated in this example.",
+        "That explanation describes passive voice, rather than the relationship illustrated in this example.",
+        "That explanation describes tense preservation, rather than the relationship illustrated in this example."
+       ],
+       "y": "Ayuk is the performer named as agent."
+      },
+      {
+       "q": "Bih wrote the notice becomes the notice was written by Bih.\nWhich explanation justifies the classification?",
+       "r": "Keeping the action's time when changing voice.",
+       "w": [
+        "A clause whose subject performs the stated action.",
+        "A clause focusing on an affected subject with be plus participle.",
+        "The performer named in a passive by-phrase."
+       ],
+       "e": [
+        "That explanation describes active voice, rather than the relationship illustrated in this example.",
+        "That explanation describes passive voice, rather than the relationship illustrated in this example.",
+        "That explanation describes agent, rather than the relationship illustrated in this example."
+       ],
+       "y": "A voice change should preserve the intended tense."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-19-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "active voice",
+     "right": "Bih writes the notice."
+    },
+    {
+     "left": "passive voice",
+     "right": "The notice is written by Bih."
+    },
+    {
+     "left": "agent",
+     "right": "In the notice was written by Ayuk, consider Ayuk's role."
+    },
+    {
+     "left": "tense preservation",
+     "right": "Bih wrote the notice becomes the notice was written by Bih."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-19-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "active voice: a clause whose subject performs the stated action.",
+      "truth": "true",
+      "explain": "This statement is correct: active voice means a clause whose subject performs the stated action. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "passive voice: a clause focusing on an affected subject with be plus participle.",
+      "truth": "true",
+      "explain": "This statement is correct: passive voice means a clause focusing on an affected subject with be plus participle. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "agent: the performer named in a passive by-phrase.",
+      "truth": "true",
+      "explain": "This statement is correct: agent means the performer named in a passive by-phrase. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "tense preservation: keeping the action's time when changing voice.",
+      "truth": "true",
+      "explain": "This statement is correct: tense preservation means keeping the action's time when changing voice. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every sentence containing an action word is necessarily passive.",
+      "truth": "false",
+      "explain": "Bih is the actor-subject here, so the clause is active."
+     },
+     {
+      "text": "The notice is wrote by Bih.",
+      "truth": "false",
+      "explain": "After passive be use the participle written, not simple-past wrote."
+     },
+     {
+      "text": "The by-phrase always names the object affected rather than the actor.",
+      "truth": "false",
+      "explain": "Ayuk is the performer named as agent."
+     },
+     {
+      "text": "Every past active clause becomes a present passive clause.",
+      "truth": "false",
+      "explain": "A voice change should preserve the intended tense."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

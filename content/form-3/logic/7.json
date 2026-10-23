@@ -1,0 +1,601 @@
+{
+ "subject": "logic",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "l3-7",
+   "name": "The significance of the laws of thought"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The classical laws help keep reasoning stable and detect incompatible claims. Their use requires care with meaning, time and conditions. Identity discourages equivocation: using one word with different meanings as if it were unchanged. Non-contradiction exposes claims that cannot hold together under the same conditions. Excluded middle concerns P and its exact negation, not any pair of opposite-sounding words. Unknown does not mean false; neither does disagreement by itself settle the facts.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "The classical laws help keep reasoning stable and detect incompatible claims. Their use requires care with meaning, time and conditions. Identity discourages equivocation: using one word with different meanings as if it were unchanged. Non-contradiction exposes claims that cannot hold together under the same conditions. Excluded middle concerns P and its exact negation, not any pair of opposite-sounding words. Unknown does not mean false; neither does disagreement by itself settle the facts."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A notice says the Bamenda club meeting is cancelled. Another says it is not cancelled for the same meeting at the same time. The class should check the date and source rather than accept both unchanged. If a second notice concerns next week's meeting, the statements may be compatible. Precision prevents unnecessary disputes."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Restate both claims using the same terms. Match their times and subjects. Ask whether one is genuinely the negation of the other. If information is missing, suspend judgment and investigate. Logical rules organise evidence; they do not supply the missing timetable or observe the meeting for us."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "equivocation",
+    "meaning": "switching a word's meaning within reasoning"
+   },
+   {
+    "word": "contradictory claims",
+    "meaning": "claims that negate one another under the same conditions"
+   },
+   {
+    "word": "exact negation",
+    "meaning": "denial of the same proposition rather than a different claim"
+   },
+   {
+    "word": "suspended judgment",
+    "meaning": "withholding a decision when evidence is insufficient"
+   }
+  ],
+  "examples": [
+   "A learner moves from saving at a bank to sitting on a river bank as though bank meant the same thing.",
+   "The same meeting is cancelled and the same meeting is not cancelled.",
+   "The denial of the room is open now is the room is not open now."
+  ],
+  "mistake": {
+   "wrong": "Repeating the same spelling guarantees the same meaning.",
+   "right": "equivocation: switching a word's meaning within reasoning.",
+   "why": "One spelling can have different meanings; this switch breaks the reasoning."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A learner moves from saving at a bank to sitting on a river bank as though bank meant the same thing. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Switching a word's meaning within reasoning.",
+   "One spelling can have different meanings; this switch breaks the reasoning."
+  ],
+  "answer": "equivocation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cl3-7-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "equivocation: switching a word's meaning within reasoning.",
+     "contradictory claims: claims that negate one another under the same conditions.",
+     "exact negation: denial of the same proposition rather than a different claim.",
+     "suspended judgment: withholding a decision when evidence is insufficient."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-7-terms"
+    }
+   },
+   {
+    "id": "cl3-7-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A learner moves from saving at a bank to sitting on a river bank as though bank meant the same thing.",
+     "equivocation: switching a word's meaning within reasoning."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-7-cases"
+    }
+   },
+   {
+    "id": "cl3-7-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Repeating the same spelling guarantees the same meaning.",
+     "One spelling can have different meanings; this switch breaks the reasoning."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l3-7-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "intro-logic"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "equivocation: switching a word's meaning within reasoning.",
+        "truth": "true",
+        "explain": "This statement is correct: equivocation means switching a word's meaning within reasoning. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "contradictory claims: claims that negate one another under the same conditions.",
+        "truth": "true",
+        "explain": "This statement is correct: contradictory claims means claims that negate one another under the same conditions. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "exact negation: denial of the same proposition rather than a different claim.",
+        "truth": "true",
+        "explain": "This statement is correct: exact negation means denial of the same proposition rather than a different claim. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "suspended judgment: withholding a decision when evidence is insufficient.",
+        "truth": "true",
+        "explain": "This statement is correct: suspended judgment means withholding a decision when evidence is insufficient. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Repeating the same spelling guarantees the same meaning.",
+        "truth": "false",
+        "explain": "One spelling can have different meanings; this switch breaks the reasoning."
+       },
+       {
+        "text": "Any disagreement about different meetings is a contradiction.",
+        "truth": "false",
+        "explain": "A genuine contradiction needs the same meeting and conditions."
+       },
+       {
+        "text": "The denial of the room is open is the room is large.",
+        "truth": "false",
+        "explain": "Large concerns size, not whether the room is open."
+       },
+       {
+        "text": "Uncertainty proves the meeting is not cancelled.",
+        "truth": "false",
+        "explain": "Lack of knowledge establishes neither alternative; investigate."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l3-7-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: switching a word's meaning within reasoning ?",
+       "r": "equivocation",
+       "w": [
+        "contradictory claims",
+        "exact negation",
+        "suspended judgment"
+       ],
+       "e": [
+        "contradictory claims means claims that negate one another under the same conditions; the question instead describes switching a word's meaning within reasoning.",
+        "exact negation means denial of the same proposition rather than a different claim; the question instead describes switching a word's meaning within reasoning.",
+        "suspended judgment means withholding a decision when evidence is insufficient; the question instead describes switching a word's meaning within reasoning."
+       ],
+       "y": "Switching a word's meaning within reasoning."
+      },
+      {
+       "q": "Which term means: claims that negate one another under the same conditions ?",
+       "r": "contradictory claims",
+       "w": [
+        "equivocation",
+        "exact negation",
+        "suspended judgment"
+       ],
+       "e": [
+        "equivocation means switching a word's meaning within reasoning; the question instead describes claims that negate one another under the same conditions.",
+        "exact negation means denial of the same proposition rather than a different claim; the question instead describes claims that negate one another under the same conditions.",
+        "suspended judgment means withholding a decision when evidence is insufficient; the question instead describes claims that negate one another under the same conditions."
+       ],
+       "y": "Claims that negate one another under the same conditions."
+      },
+      {
+       "q": "Which term means: denial of the same proposition rather than a different claim ?",
+       "r": "exact negation",
+       "w": [
+        "equivocation",
+        "contradictory claims",
+        "suspended judgment"
+       ],
+       "e": [
+        "equivocation means switching a word's meaning within reasoning; the question instead describes denial of the same proposition rather than a different claim.",
+        "contradictory claims means claims that negate one another under the same conditions; the question instead describes denial of the same proposition rather than a different claim.",
+        "suspended judgment means withholding a decision when evidence is insufficient; the question instead describes denial of the same proposition rather than a different claim."
+       ],
+       "y": "Denial of the same proposition rather than a different claim."
+      },
+      {
+       "q": "Which term means: withholding a decision when evidence is insufficient ?",
+       "r": "suspended judgment",
+       "w": [
+        "equivocation",
+        "contradictory claims",
+        "exact negation"
+       ],
+       "e": [
+        "equivocation means switching a word's meaning within reasoning; the question instead describes withholding a decision when evidence is insufficient.",
+        "contradictory claims means claims that negate one another under the same conditions; the question instead describes withholding a decision when evidence is insufficient.",
+        "exact negation means denial of the same proposition rather than a different claim; the question instead describes withholding a decision when evidence is insufficient."
+       ],
+       "y": "Withholding a decision when evidence is insufficient."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-7-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner moves from saving at a bank to sitting on a river bank as though bank meant the same thing.\nWhich term best fits this example?",
+       "r": "equivocation",
+       "w": [
+        "contradictory claims",
+        "exact negation",
+        "suspended judgment"
+       ],
+       "e": [
+        "contradictory claims concerns claims that negate one another under the same conditions. This case instead illustrates switching a word's meaning within reasoning.",
+        "exact negation concerns denial of the same proposition rather than a different claim. This case instead illustrates switching a word's meaning within reasoning.",
+        "suspended judgment concerns withholding a decision when evidence is insufficient. This case instead illustrates switching a word's meaning within reasoning."
+       ],
+       "y": "A learner moves from saving at a bank to sitting on a river bank as though bank meant the same thing. Switching a word's meaning within reasoning."
+      },
+      {
+       "q": "The same meeting is cancelled and the same meeting is not cancelled.\nWhich term best fits this example?",
+       "r": "contradictory claims",
+       "w": [
+        "equivocation",
+        "exact negation",
+        "suspended judgment"
+       ],
+       "e": [
+        "equivocation concerns switching a word's meaning within reasoning. This case instead illustrates claims that negate one another under the same conditions.",
+        "exact negation concerns denial of the same proposition rather than a different claim. This case instead illustrates claims that negate one another under the same conditions.",
+        "suspended judgment concerns withholding a decision when evidence is insufficient. This case instead illustrates claims that negate one another under the same conditions."
+       ],
+       "y": "The same meeting is cancelled and the same meeting is not cancelled. Claims that negate one another under the same conditions."
+      },
+      {
+       "q": "The denial of the room is open now is the room is not open now.\nWhich term best fits this example?",
+       "r": "exact negation",
+       "w": [
+        "equivocation",
+        "contradictory claims",
+        "suspended judgment"
+       ],
+       "e": [
+        "equivocation concerns switching a word's meaning within reasoning. This case instead illustrates denial of the same proposition rather than a different claim.",
+        "contradictory claims concerns claims that negate one another under the same conditions. This case instead illustrates denial of the same proposition rather than a different claim.",
+        "suspended judgment concerns withholding a decision when evidence is insufficient. This case instead illustrates denial of the same proposition rather than a different claim."
+       ],
+       "y": "The denial of the room is open now is the room is not open now. Denial of the same proposition rather than a different claim."
+      },
+      {
+       "q": "Bih has not checked the notice and says she does not yet know if the meeting is cancelled.\nWhich term best fits this example?",
+       "r": "suspended judgment",
+       "w": [
+        "equivocation",
+        "contradictory claims",
+        "exact negation"
+       ],
+       "e": [
+        "equivocation concerns switching a word's meaning within reasoning. This case instead illustrates withholding a decision when evidence is insufficient.",
+        "contradictory claims concerns claims that negate one another under the same conditions. This case instead illustrates withholding a decision when evidence is insufficient.",
+        "exact negation concerns denial of the same proposition rather than a different claim. This case instead illustrates withholding a decision when evidence is insufficient."
+       ],
+       "y": "Bih has not checked the notice and says she does not yet know if the meeting is cancelled. Withholding a decision when evidence is insufficient."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-7-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A learner moves from saving at a bank to sitting on a river bank as though bank meant the same thing.\nWhich explanation justifies the classification?",
+       "r": "Switching a word's meaning within reasoning.",
+       "w": [
+        "Claims that negate one another under the same conditions.",
+        "Denial of the same proposition rather than a different claim.",
+        "Withholding a decision when evidence is insufficient."
+       ],
+       "e": [
+        "That explanation describes contradictory claims, rather than the relationship illustrated in this example.",
+        "That explanation describes exact negation, rather than the relationship illustrated in this example.",
+        "That explanation describes suspended judgment, rather than the relationship illustrated in this example."
+       ],
+       "y": "One spelling can have different meanings; this switch breaks the reasoning."
+      },
+      {
+       "q": "The same meeting is cancelled and the same meeting is not cancelled.\nWhich explanation justifies the classification?",
+       "r": "Claims that negate one another under the same conditions.",
+       "w": [
+        "Switching a word's meaning within reasoning.",
+        "Denial of the same proposition rather than a different claim.",
+        "Withholding a decision when evidence is insufficient."
+       ],
+       "e": [
+        "That explanation describes equivocation, rather than the relationship illustrated in this example.",
+        "That explanation describes exact negation, rather than the relationship illustrated in this example.",
+        "That explanation describes suspended judgment, rather than the relationship illustrated in this example."
+       ],
+       "y": "A genuine contradiction needs the same meeting and conditions."
+      },
+      {
+       "q": "The denial of the room is open now is the room is not open now.\nWhich explanation justifies the classification?",
+       "r": "Denial of the same proposition rather than a different claim.",
+       "w": [
+        "Switching a word's meaning within reasoning.",
+        "Claims that negate one another under the same conditions.",
+        "Withholding a decision when evidence is insufficient."
+       ],
+       "e": [
+        "That explanation describes equivocation, rather than the relationship illustrated in this example.",
+        "That explanation describes contradictory claims, rather than the relationship illustrated in this example.",
+        "That explanation describes suspended judgment, rather than the relationship illustrated in this example."
+       ],
+       "y": "Large concerns size, not whether the room is open."
+      },
+      {
+       "q": "Bih has not checked the notice and says she does not yet know if the meeting is cancelled.\nWhich explanation justifies the classification?",
+       "r": "Withholding a decision when evidence is insufficient.",
+       "w": [
+        "Switching a word's meaning within reasoning.",
+        "Claims that negate one another under the same conditions.",
+        "Denial of the same proposition rather than a different claim."
+       ],
+       "e": [
+        "That explanation describes equivocation, rather than the relationship illustrated in this example.",
+        "That explanation describes contradictory claims, rather than the relationship illustrated in this example.",
+        "That explanation describes exact negation, rather than the relationship illustrated in this example."
+       ],
+       "y": "Lack of knowledge establishes neither alternative; investigate."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-7-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "equivocation",
+     "right": "A learner moves from saving at a bank to sitting on a river bank as though bank meant the same thing."
+    },
+    {
+     "left": "contradictory claims",
+     "right": "The same meeting is cancelled and the same meeting is not cancelled."
+    },
+    {
+     "left": "exact negation",
+     "right": "The denial of the room is open now is the room is not open now."
+    },
+    {
+     "left": "suspended judgment",
+     "right": "Bih has not checked the notice and says she does not yet know if the meeting is cancelled."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l3-7-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "equivocation: switching a word's meaning within reasoning.",
+      "truth": "true",
+      "explain": "This statement is correct: equivocation means switching a word's meaning within reasoning. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "contradictory claims: claims that negate one another under the same conditions.",
+      "truth": "true",
+      "explain": "This statement is correct: contradictory claims means claims that negate one another under the same conditions. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "exact negation: denial of the same proposition rather than a different claim.",
+      "truth": "true",
+      "explain": "This statement is correct: exact negation means denial of the same proposition rather than a different claim. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "suspended judgment: withholding a decision when evidence is insufficient.",
+      "truth": "true",
+      "explain": "This statement is correct: suspended judgment means withholding a decision when evidence is insufficient. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Repeating the same spelling guarantees the same meaning.",
+      "truth": "false",
+      "explain": "One spelling can have different meanings; this switch breaks the reasoning."
+     },
+     {
+      "text": "Any disagreement about different meetings is a contradiction.",
+      "truth": "false",
+      "explain": "A genuine contradiction needs the same meeting and conditions."
+     },
+     {
+      "text": "The denial of the room is open is the room is large.",
+      "truth": "false",
+      "explain": "Large concerns size, not whether the room is open."
+     },
+     {
+      "text": "Uncertainty proves the meeting is not cancelled.",
+      "truth": "false",
+      "explain": "Lack of knowledge establishes neither alternative; investigate."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

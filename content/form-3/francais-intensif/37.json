@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 37,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-37",
+   "name": "Le lexique du relief"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le relief décrit les formes de la surface terrestre. Une montagne présente une élévation importante ; un plateau est une surface relativement plane en altitude ; une plaine présente peu de dénivelé à une altitude généralement plus basse ; une vallée forme un creux allongé entre des reliefs. Ces catégories sont des modèles descriptifs, pas des mesures absolues identiques partout. Un plateau n’est pas une plaine uniquement parce que son sommet est relativement plat.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Le relief décrit les formes de la surface terrestre. Une montagne présente une élévation importante ; un plateau est une surface relativement plane en altitude ; une plaine présente peu de dénivelé à une altitude généralement plus basse ; une vallée forme un creux allongé entre des reliefs. Ces catégories sont des modèles descriptifs, pas des mesures absolues identiques partout. Un plateau n’est pas une plaine uniquement parce que son sommet est relativement plat."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Une lecture scolaire de paysages camerounais peut distinguer une montagne, un plateau, une plaine et une vallée. Pour un croquis fictif, le lecteur observe la forme et la position plutôt que le seul mot haut ou plat. Il décrit les indices avant de choisir une catégorie."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis la phrase entière, relève les indices et compare les sens. Choisis un mot pour ce contexte, puis emploie-le dans une phrase originale. Un exemple n’autorise pas une généralisation à toutes les situations. Explique ton choix sans recopier une définition sans rapport."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "montagne",
+    "meaning": "une élévation importante du terrain dans le modèle"
+   },
+   {
+    "word": "plateau",
+    "meaning": "une surface relativement plane située en altitude"
+   },
+   {
+    "word": "plaine",
+    "meaning": "une étendue avec peu de dénivelé, généralement à plus basse altitude"
+   },
+   {
+    "word": "vallée",
+    "meaning": "un creux allongé entre des reliefs"
+   }
+  ],
+  "examples": [
+   "Le croquis montre un relief élevé et marqué.",
+   "Le sommet étendu et relativement plat est élevé par rapport aux zones voisines.",
+   "Le croquis présente une zone basse et peu accidentée."
+  ],
+  "mistake": {
+   "wrong": "Une montagne est nécessairement une surface basse sans élévation.",
+   "right": "montagne: une élévation importante du terrain dans le modèle.",
+   "why": "La catégorie souligne une élévation importante."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le croquis montre un relief élevé et marqué. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Une élévation importante du terrain dans le modèle.",
+   "La catégorie souligne une élévation importante."
+  ],
+  "answer": "montagne",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-37-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "montagne: une élévation importante du terrain dans le modèle.",
+     "plateau: une surface relativement plane située en altitude.",
+     "plaine: une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+     "vallée: un creux allongé entre des reliefs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-37-terms"
+    }
+   },
+   {
+    "id": "cfi3-37-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le croquis montre un relief élevé et marqué.",
+     "montagne: une élévation importante du terrain dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-37-cases"
+    }
+   },
+   {
+    "id": "cfi3-37-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une montagne est nécessairement une surface basse sans élévation.",
+     "La catégorie souligne une élévation importante."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-37-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "montagne : une élévation importante du terrain dans le modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : montagne désigne une élévation importante du terrain dans le modèle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "plateau : une surface relativement plane située en altitude.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : plateau désigne une surface relativement plane située en altitude. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "plaine : une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : plaine désigne une étendue avec peu de dénivelé, généralement à plus basse altitude. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "vallée : un creux allongé entre des reliefs.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : vallée désigne un creux allongé entre des reliefs. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une montagne est nécessairement une surface basse sans élévation.",
+        "truth": "false",
+        "explain": "La catégorie souligne une élévation importante."
+       },
+       {
+        "text": "Toute surface plane est obligatoirement une plaine basse.",
+        "truth": "false",
+        "explain": "La position élevée aide ici à distinguer le plateau."
+       },
+       {
+        "text": "Une plaine exige toujours une pente extrêmement forte.",
+        "truth": "false",
+        "explain": "Le modèle souligne un faible dénivelé."
+       },
+       {
+        "text": "Toute vallée est le sommet le plus élevé du paysage.",
+        "truth": "false",
+        "explain": "La vallée est ici un creux entre les reliefs."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-37-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : une élévation importante du terrain dans le modèle ?",
+       "r": "montagne",
+       "w": [
+        "plateau",
+        "plaine",
+        "vallée"
+       ],
+       "e": [
+        "« plateau » désigne une surface relativement plane située en altitude. Ici, cherche une élévation importante du terrain dans le modèle.",
+        "« plaine » désigne une étendue avec peu de dénivelé, généralement à plus basse altitude. Ici, cherche une élévation importante du terrain dans le modèle.",
+        "« vallée » désigne un creux allongé entre des reliefs. Ici, cherche une élévation importante du terrain dans le modèle."
+       ],
+       "y": "Une élévation importante du terrain dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne : une surface relativement plane située en altitude ?",
+       "r": "plateau",
+       "w": [
+        "montagne",
+        "plaine",
+        "vallée"
+       ],
+       "e": [
+        "« montagne » désigne une élévation importante du terrain dans le modèle. Ici, cherche une surface relativement plane située en altitude.",
+        "« plaine » désigne une étendue avec peu de dénivelé, généralement à plus basse altitude. Ici, cherche une surface relativement plane située en altitude.",
+        "« vallée » désigne un creux allongé entre des reliefs. Ici, cherche une surface relativement plane située en altitude."
+       ],
+       "y": "Une surface relativement plane située en altitude."
+      },
+      {
+       "q": "Quel terme désigne : une étendue avec peu de dénivelé, généralement à plus basse altitude ?",
+       "r": "plaine",
+       "w": [
+        "montagne",
+        "plateau",
+        "vallée"
+       ],
+       "e": [
+        "« montagne » désigne une élévation importante du terrain dans le modèle. Ici, cherche une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+        "« plateau » désigne une surface relativement plane située en altitude. Ici, cherche une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+        "« vallée » désigne un creux allongé entre des reliefs. Ici, cherche une étendue avec peu de dénivelé, généralement à plus basse altitude."
+       ],
+       "y": "Une étendue avec peu de dénivelé, généralement à plus basse altitude."
+      },
+      {
+       "q": "Quel terme désigne : un creux allongé entre des reliefs ?",
+       "r": "vallée",
+       "w": [
+        "montagne",
+        "plateau",
+        "plaine"
+       ],
+       "e": [
+        "« montagne » désigne une élévation importante du terrain dans le modèle. Ici, cherche un creux allongé entre des reliefs.",
+        "« plateau » désigne une surface relativement plane située en altitude. Ici, cherche un creux allongé entre des reliefs.",
+        "« plaine » désigne une étendue avec peu de dénivelé, généralement à plus basse altitude. Ici, cherche un creux allongé entre des reliefs."
+       ],
+       "y": "Un creux allongé entre des reliefs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-37-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le croquis montre un relief élevé et marqué.\nQuel terme s’applique le mieux ?",
+       "r": "montagne",
+       "w": [
+        "plateau",
+        "plaine",
+        "vallée"
+       ],
+       "e": [
+        "« plateau » concerne une surface relativement plane située en altitude. Le cas décrit plutôt une élévation importante du terrain dans le modèle.",
+        "« plaine » concerne une étendue avec peu de dénivelé, généralement à plus basse altitude. Le cas décrit plutôt une élévation importante du terrain dans le modèle.",
+        "« vallée » concerne un creux allongé entre des reliefs. Le cas décrit plutôt une élévation importante du terrain dans le modèle."
+       ],
+       "y": "Le croquis montre un relief élevé et marqué. Une élévation importante du terrain dans le modèle."
+      },
+      {
+       "q": "Le sommet étendu et relativement plat est élevé par rapport aux zones voisines.\nQuel terme s’applique le mieux ?",
+       "r": "plateau",
+       "w": [
+        "montagne",
+        "plaine",
+        "vallée"
+       ],
+       "e": [
+        "« montagne » concerne une élévation importante du terrain dans le modèle. Le cas décrit plutôt une surface relativement plane située en altitude.",
+        "« plaine » concerne une étendue avec peu de dénivelé, généralement à plus basse altitude. Le cas décrit plutôt une surface relativement plane située en altitude.",
+        "« vallée » concerne un creux allongé entre des reliefs. Le cas décrit plutôt une surface relativement plane située en altitude."
+       ],
+       "y": "Le sommet étendu et relativement plat est élevé par rapport aux zones voisines. Une surface relativement plane située en altitude."
+      },
+      {
+       "q": "Le croquis présente une zone basse et peu accidentée.\nQuel terme s’applique le mieux ?",
+       "r": "plaine",
+       "w": [
+        "montagne",
+        "plateau",
+        "vallée"
+       ],
+       "e": [
+        "« montagne » concerne une élévation importante du terrain dans le modèle. Le cas décrit plutôt une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+        "« plateau » concerne une surface relativement plane située en altitude. Le cas décrit plutôt une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+        "« vallée » concerne un creux allongé entre des reliefs. Le cas décrit plutôt une étendue avec peu de dénivelé, généralement à plus basse altitude."
+       ],
+       "y": "Le croquis présente une zone basse et peu accidentée. Une étendue avec peu de dénivelé, généralement à plus basse altitude."
+      },
+      {
+       "q": "Un espace bas et allongé sépare les versants.\nQuel terme s’applique le mieux ?",
+       "r": "vallée",
+       "w": [
+        "montagne",
+        "plateau",
+        "plaine"
+       ],
+       "e": [
+        "« montagne » concerne une élévation importante du terrain dans le modèle. Le cas décrit plutôt un creux allongé entre des reliefs.",
+        "« plateau » concerne une surface relativement plane située en altitude. Le cas décrit plutôt un creux allongé entre des reliefs.",
+        "« plaine » concerne une étendue avec peu de dénivelé, généralement à plus basse altitude. Le cas décrit plutôt un creux allongé entre des reliefs."
+       ],
+       "y": "Un espace bas et allongé sépare les versants. Un creux allongé entre des reliefs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-37-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le croquis montre un relief élevé et marqué.\nQuelle explication justifie le classement ?",
+       "r": "Une élévation importante du terrain dans le modèle.",
+       "w": [
+        "Une surface relativement plane située en altitude.",
+        "Une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+        "Un creux allongé entre des reliefs."
+       ],
+       "e": [
+        "Cette explication correspond à « plateau ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « plaine ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vallée ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La catégorie souligne une élévation importante."
+      },
+      {
+       "q": "Le sommet étendu et relativement plat est élevé par rapport aux zones voisines.\nQuelle explication justifie le classement ?",
+       "r": "Une surface relativement plane située en altitude.",
+       "w": [
+        "Une élévation importante du terrain dans le modèle.",
+        "Une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+        "Un creux allongé entre des reliefs."
+       ],
+       "e": [
+        "Cette explication correspond à « montagne ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « plaine ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vallée ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La position élevée aide ici à distinguer le plateau."
+      },
+      {
+       "q": "Le croquis présente une zone basse et peu accidentée.\nQuelle explication justifie le classement ?",
+       "r": "Une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+       "w": [
+        "Une élévation importante du terrain dans le modèle.",
+        "Une surface relativement plane située en altitude.",
+        "Un creux allongé entre des reliefs."
+       ],
+       "e": [
+        "Cette explication correspond à « montagne ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « plateau ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « vallée ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le modèle souligne un faible dénivelé."
+      },
+      {
+       "q": "Un espace bas et allongé sépare les versants.\nQuelle explication justifie le classement ?",
+       "r": "Un creux allongé entre des reliefs.",
+       "w": [
+        "Une élévation importante du terrain dans le modèle.",
+        "Une surface relativement plane située en altitude.",
+        "Une étendue avec peu de dénivelé, généralement à plus basse altitude."
+       ],
+       "e": [
+        "Cette explication correspond à « montagne ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « plateau ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « plaine ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La vallée est ici un creux entre les reliefs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-37-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "montagne",
+     "right": "Le croquis montre un relief élevé et marqué."
+    },
+    {
+     "left": "plateau",
+     "right": "Le sommet étendu et relativement plat est élevé par rapport aux zones voisines."
+    },
+    {
+     "left": "plaine",
+     "right": "Le croquis présente une zone basse et peu accidentée."
+    },
+    {
+     "left": "vallée",
+     "right": "Un espace bas et allongé sépare les versants."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-37-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "montagne : une élévation importante du terrain dans le modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : montagne désigne une élévation importante du terrain dans le modèle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "plateau : une surface relativement plane située en altitude.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : plateau désigne une surface relativement plane située en altitude. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "plaine : une étendue avec peu de dénivelé, généralement à plus basse altitude.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : plaine désigne une étendue avec peu de dénivelé, généralement à plus basse altitude. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "vallée : un creux allongé entre des reliefs.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : vallée désigne un creux allongé entre des reliefs. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une montagne est nécessairement une surface basse sans élévation.",
+      "truth": "false",
+      "explain": "La catégorie souligne une élévation importante."
+     },
+     {
+      "text": "Toute surface plane est obligatoirement une plaine basse.",
+      "truth": "false",
+      "explain": "La position élevée aide ici à distinguer le plateau."
+     },
+     {
+      "text": "Une plaine exige toujours une pente extrêmement forte.",
+      "truth": "false",
+      "explain": "Le modèle souligne un faible dénivelé."
+     },
+     {
+      "text": "Toute vallée est le sommet le plus élevé du paysage.",
+      "truth": "false",
+      "explain": "La vallée est ici un creux entre les reliefs."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

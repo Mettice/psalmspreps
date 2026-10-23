@@ -1,0 +1,599 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-12",
+   "name": "Rocks and the rock cycle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A rock is an aggregate of minerals or other natural solid material. Igneous rocks form when molten material cools and solidifies. Sedimentary rocks form through accumulation and consolidation of sediment, or other sedimentary processes. Metamorphic rocks form when existing rock changes under heat, pressure or fluids without melting completely. The rock cycle links formation, weathering, erosion, deposition, burial, change and melting. It has several pathways, not one compulsory route for every rock.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A rock is an aggregate of minerals or other natural solid material. Igneous rocks form when molten material cools and solidifies. Sedimentary rocks form through accumulation and consolidation of sediment, or other sedimentary processes. Metamorphic rocks form when existing rock changes under heat, pressure or fluids without melting completely. The rock cycle links formation, weathering, erosion, deposition, burial, change and melting. It has several pathways, not one compulsory route for every rock."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A Cameroonian class may compare basalt from a volcanic area with layered sedimentary material and a metamorphic sample supplied by a teacher. Observation helps suggest a classification, but colour alone is not decisive. Ask about texture, minerals and how the sample formed. A rock can pass through several changes over long geological times."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Classify by formation, then use observations as supporting evidence. Do not call any heated rock igneous unless melting and solidification are involved. Distinguish transport from deposition: moving material and laying it down are different stages."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "igneous rock",
+    "meaning": "rock formed by cooling and solidification of molten material"
+   },
+   {
+    "word": "sedimentary rock",
+    "meaning": "rock formed by sedimentary accumulation or related processes"
+   },
+   {
+    "word": "metamorphic rock",
+    "meaning": "existing rock changed without complete melting"
+   },
+   {
+    "word": "rock cycle",
+    "meaning": "linked processes that transform rocks along different pathways"
+   }
+  ],
+  "examples": [
+   "Lava cools into solid basalt.",
+   "Deposited grains are compacted and cemented.",
+   "Heat and pressure alter an existing rock while it remains largely solid."
+  ],
+  "mistake": {
+   "wrong": "All rocks with layers must have crystallised from lava.",
+   "right": "igneous rock: rock formed by cooling and solidification of molten material.",
+   "why": "Layering alone does not establish molten origin; ask how the rock formed."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Lava cools into solid basalt. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Rock formed by cooling and solidification of molten material.",
+   "Layering alone does not establish molten origin; ask how the rock formed."
+  ],
+  "answer": "igneous rock",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-12-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "igneous rock: rock formed by cooling and solidification of molten material.",
+     "sedimentary rock: rock formed by sedimentary accumulation or related processes.",
+     "metamorphic rock: existing rock changed without complete melting.",
+     "rock cycle: linked processes that transform rocks along different pathways."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-12-terms"
+    }
+   },
+   {
+    "id": "cg3-12-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Lava cools into solid basalt.",
+     "igneous rock: rock formed by cooling and solidification of molten material."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-12-cases"
+    }
+   },
+   {
+    "id": "cg3-12-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "All rocks with layers must have crystallised from lava.",
+     "Layering alone does not establish molten origin; ask how the rock formed."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-12-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "igneous rock: rock formed by cooling and solidification of molten material.",
+        "truth": "true",
+        "explain": "This statement is correct: igneous rock means rock formed by cooling and solidification of molten material. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "sedimentary rock: rock formed by sedimentary accumulation or related processes.",
+        "truth": "true",
+        "explain": "This statement is correct: sedimentary rock means rock formed by sedimentary accumulation or related processes. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "metamorphic rock: existing rock changed without complete melting.",
+        "truth": "true",
+        "explain": "This statement is correct: metamorphic rock means existing rock changed without complete melting. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "rock cycle: linked processes that transform rocks along different pathways.",
+        "truth": "true",
+        "explain": "This statement is correct: rock cycle means linked processes that transform rocks along different pathways. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "All rocks with layers must have crystallised from lava.",
+        "truth": "false",
+        "explain": "Layering alone does not establish molten origin; ask how the rock formed."
+       },
+       {
+        "text": "Sediment must melt completely before forming sedimentary rock.",
+        "truth": "false",
+        "explain": "Compaction and cementation can form rock without complete melting."
+       },
+       {
+        "text": "Metamorphism always requires total melting.",
+        "truth": "false",
+        "explain": "Complete melting leads toward igneous formation on cooling, not solid-state metamorphism."
+       },
+       {
+        "text": "Every rock must follow one identical fixed sequence.",
+        "truth": "false",
+        "explain": "Different histories follow different pathways in the cycle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: rock formed by cooling and solidification of molten material ?",
+       "r": "igneous rock",
+       "w": [
+        "sedimentary rock",
+        "metamorphic rock",
+        "rock cycle"
+       ],
+       "e": [
+        "sedimentary rock means rock formed by sedimentary accumulation or related processes; the question instead describes rock formed by cooling and solidification of molten material.",
+        "metamorphic rock means existing rock changed without complete melting; the question instead describes rock formed by cooling and solidification of molten material.",
+        "rock cycle means linked processes that transform rocks along different pathways; the question instead describes rock formed by cooling and solidification of molten material."
+       ],
+       "y": "Rock formed by cooling and solidification of molten material."
+      },
+      {
+       "q": "Which term means: rock formed by sedimentary accumulation or related processes ?",
+       "r": "sedimentary rock",
+       "w": [
+        "igneous rock",
+        "metamorphic rock",
+        "rock cycle"
+       ],
+       "e": [
+        "igneous rock means rock formed by cooling and solidification of molten material; the question instead describes rock formed by sedimentary accumulation or related processes.",
+        "metamorphic rock means existing rock changed without complete melting; the question instead describes rock formed by sedimentary accumulation or related processes.",
+        "rock cycle means linked processes that transform rocks along different pathways; the question instead describes rock formed by sedimentary accumulation or related processes."
+       ],
+       "y": "Rock formed by sedimentary accumulation or related processes."
+      },
+      {
+       "q": "Which term means: existing rock changed without complete melting ?",
+       "r": "metamorphic rock",
+       "w": [
+        "igneous rock",
+        "sedimentary rock",
+        "rock cycle"
+       ],
+       "e": [
+        "igneous rock means rock formed by cooling and solidification of molten material; the question instead describes existing rock changed without complete melting.",
+        "sedimentary rock means rock formed by sedimentary accumulation or related processes; the question instead describes existing rock changed without complete melting.",
+        "rock cycle means linked processes that transform rocks along different pathways; the question instead describes existing rock changed without complete melting."
+       ],
+       "y": "Existing rock changed without complete melting."
+      },
+      {
+       "q": "Which term means: linked processes that transform rocks along different pathways ?",
+       "r": "rock cycle",
+       "w": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock"
+       ],
+       "e": [
+        "igneous rock means rock formed by cooling and solidification of molten material; the question instead describes linked processes that transform rocks along different pathways.",
+        "sedimentary rock means rock formed by sedimentary accumulation or related processes; the question instead describes linked processes that transform rocks along different pathways.",
+        "metamorphic rock means existing rock changed without complete melting; the question instead describes linked processes that transform rocks along different pathways."
+       ],
+       "y": "Linked processes that transform rocks along different pathways."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Lava cools into solid basalt.\nWhich term best fits this example?",
+       "r": "igneous rock",
+       "w": [
+        "sedimentary rock",
+        "metamorphic rock",
+        "rock cycle"
+       ],
+       "e": [
+        "sedimentary rock concerns rock formed by sedimentary accumulation or related processes. This case instead illustrates rock formed by cooling and solidification of molten material.",
+        "metamorphic rock concerns existing rock changed without complete melting. This case instead illustrates rock formed by cooling and solidification of molten material.",
+        "rock cycle concerns linked processes that transform rocks along different pathways. This case instead illustrates rock formed by cooling and solidification of molten material."
+       ],
+       "y": "Lava cools into solid basalt. Rock formed by cooling and solidification of molten material."
+      },
+      {
+       "q": "Deposited grains are compacted and cemented.\nWhich term best fits this example?",
+       "r": "sedimentary rock",
+       "w": [
+        "igneous rock",
+        "metamorphic rock",
+        "rock cycle"
+       ],
+       "e": [
+        "igneous rock concerns rock formed by cooling and solidification of molten material. This case instead illustrates rock formed by sedimentary accumulation or related processes.",
+        "metamorphic rock concerns existing rock changed without complete melting. This case instead illustrates rock formed by sedimentary accumulation or related processes.",
+        "rock cycle concerns linked processes that transform rocks along different pathways. This case instead illustrates rock formed by sedimentary accumulation or related processes."
+       ],
+       "y": "Deposited grains are compacted and cemented. Rock formed by sedimentary accumulation or related processes."
+      },
+      {
+       "q": "Heat and pressure alter an existing rock while it remains largely solid.\nWhich term best fits this example?",
+       "r": "metamorphic rock",
+       "w": [
+        "igneous rock",
+        "sedimentary rock",
+        "rock cycle"
+       ],
+       "e": [
+        "igneous rock concerns rock formed by cooling and solidification of molten material. This case instead illustrates existing rock changed without complete melting.",
+        "sedimentary rock concerns rock formed by sedimentary accumulation or related processes. This case instead illustrates existing rock changed without complete melting.",
+        "rock cycle concerns linked processes that transform rocks along different pathways. This case instead illustrates existing rock changed without complete melting."
+       ],
+       "y": "Heat and pressure alter an existing rock while it remains largely solid. Existing rock changed without complete melting."
+      },
+      {
+       "q": "An existing rock weathers, is buried or melts under different conditions.\nWhich term best fits this example?",
+       "r": "rock cycle",
+       "w": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock"
+       ],
+       "e": [
+        "igneous rock concerns rock formed by cooling and solidification of molten material. This case instead illustrates linked processes that transform rocks along different pathways.",
+        "sedimentary rock concerns rock formed by sedimentary accumulation or related processes. This case instead illustrates linked processes that transform rocks along different pathways.",
+        "metamorphic rock concerns existing rock changed without complete melting. This case instead illustrates linked processes that transform rocks along different pathways."
+       ],
+       "y": "An existing rock weathers, is buried or melts under different conditions. Linked processes that transform rocks along different pathways."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-12-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Lava cools into solid basalt.\nWhich explanation justifies the classification?",
+       "r": "Rock formed by cooling and solidification of molten material.",
+       "w": [
+        "Rock formed by sedimentary accumulation or related processes.",
+        "Existing rock changed without complete melting.",
+        "Linked processes that transform rocks along different pathways."
+       ],
+       "e": [
+        "That explanation describes sedimentary rock, rather than the relationship illustrated in this example.",
+        "That explanation describes metamorphic rock, rather than the relationship illustrated in this example.",
+        "That explanation describes rock cycle, rather than the relationship illustrated in this example."
+       ],
+       "y": "Layering alone does not establish molten origin; ask how the rock formed."
+      },
+      {
+       "q": "Deposited grains are compacted and cemented.\nWhich explanation justifies the classification?",
+       "r": "Rock formed by sedimentary accumulation or related processes.",
+       "w": [
+        "Rock formed by cooling and solidification of molten material.",
+        "Existing rock changed without complete melting.",
+        "Linked processes that transform rocks along different pathways."
+       ],
+       "e": [
+        "That explanation describes igneous rock, rather than the relationship illustrated in this example.",
+        "That explanation describes metamorphic rock, rather than the relationship illustrated in this example.",
+        "That explanation describes rock cycle, rather than the relationship illustrated in this example."
+       ],
+       "y": "Compaction and cementation can form rock without complete melting."
+      },
+      {
+       "q": "Heat and pressure alter an existing rock while it remains largely solid.\nWhich explanation justifies the classification?",
+       "r": "Existing rock changed without complete melting.",
+       "w": [
+        "Rock formed by cooling and solidification of molten material.",
+        "Rock formed by sedimentary accumulation or related processes.",
+        "Linked processes that transform rocks along different pathways."
+       ],
+       "e": [
+        "That explanation describes igneous rock, rather than the relationship illustrated in this example.",
+        "That explanation describes sedimentary rock, rather than the relationship illustrated in this example.",
+        "That explanation describes rock cycle, rather than the relationship illustrated in this example."
+       ],
+       "y": "Complete melting leads toward igneous formation on cooling, not solid-state metamorphism."
+      },
+      {
+       "q": "An existing rock weathers, is buried or melts under different conditions.\nWhich explanation justifies the classification?",
+       "r": "Linked processes that transform rocks along different pathways.",
+       "w": [
+        "Rock formed by cooling and solidification of molten material.",
+        "Rock formed by sedimentary accumulation or related processes.",
+        "Existing rock changed without complete melting."
+       ],
+       "e": [
+        "That explanation describes igneous rock, rather than the relationship illustrated in this example.",
+        "That explanation describes sedimentary rock, rather than the relationship illustrated in this example.",
+        "That explanation describes metamorphic rock, rather than the relationship illustrated in this example."
+       ],
+       "y": "Different histories follow different pathways in the cycle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-12-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "igneous rock",
+     "right": "Lava cools into solid basalt."
+    },
+    {
+     "left": "sedimentary rock",
+     "right": "Deposited grains are compacted and cemented."
+    },
+    {
+     "left": "metamorphic rock",
+     "right": "Heat and pressure alter an existing rock while it remains largely solid."
+    },
+    {
+     "left": "rock cycle",
+     "right": "An existing rock weathers, is buried or melts under different conditions."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-12-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "igneous rock: rock formed by cooling and solidification of molten material.",
+      "truth": "true",
+      "explain": "This statement is correct: igneous rock means rock formed by cooling and solidification of molten material. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "sedimentary rock: rock formed by sedimentary accumulation or related processes.",
+      "truth": "true",
+      "explain": "This statement is correct: sedimentary rock means rock formed by sedimentary accumulation or related processes. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "metamorphic rock: existing rock changed without complete melting.",
+      "truth": "true",
+      "explain": "This statement is correct: metamorphic rock means existing rock changed without complete melting. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "rock cycle: linked processes that transform rocks along different pathways.",
+      "truth": "true",
+      "explain": "This statement is correct: rock cycle means linked processes that transform rocks along different pathways. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "All rocks with layers must have crystallised from lava.",
+      "truth": "false",
+      "explain": "Layering alone does not establish molten origin; ask how the rock formed."
+     },
+     {
+      "text": "Sediment must melt completely before forming sedimentary rock.",
+      "truth": "false",
+      "explain": "Compaction and cementation can form rock without complete melting."
+     },
+     {
+      "text": "Metamorphism always requires total melting.",
+      "truth": "false",
+      "explain": "Complete melting leads toward igneous formation on cooling, not solid-state metamorphism."
+     },
+     {
+      "text": "Every rock must follow one identical fixed sequence.",
+      "truth": "false",
+      "explain": "Different histories follow different pathways in the cycle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

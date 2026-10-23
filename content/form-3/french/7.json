@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-7",
+   "name": "Les antonymes : suite"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Des antonymes expriment des sens opposés sur un même axe. Le contexte détermine l’opposition utile : clair peut s’opposer à sombre pour la lumière, mais à obscur pour une explication. Tous les mots n’ont pas un antonyme unique. Un préfixe peut former un contraire, mais il ne s’ajoute pas mécaniquement à tous les mots. Conserve la catégorie grammaticale et le sens de la phrase.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Des antonymes expriment des sens opposés sur un même axe. Le contexte détermine l’opposition utile : clair peut s’opposer à sombre pour la lumière, mais à obscur pour une explication. Tous les mots n’ont pas un antonyme unique. Un préfixe peut former un contraire, mais il ne s’ajoute pas mécaniquement à tous les mots. Conserve la catégorie grammaticale et le sens de la phrase."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans une salle imaginaire, une porte ouverte devient fermée. Un passage large s’oppose à un passage étroit. Une réponse polie peut être opposée à une réponse impolie. Ces oppositions ne sont pas des mots proches : elles changent la caractéristique décrite."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fermé",
+    "meaning": "contraire d’ouvert pour une porte"
+   },
+   {
+    "word": "étroit",
+    "meaning": "contraire de large pour un passage"
+   },
+   {
+    "word": "impoli",
+    "meaning": "contraire de poli pour un comportement"
+   },
+   {
+    "word": "sombre",
+    "meaning": "contraire de clair pour un lieu peu éclairé"
+   }
+  ],
+  "examples": [
+   "Une porte qui n’est plus ouverte est fermée.",
+   "Un passage de faible largeur est étroit.",
+   "Une réponse irrespectueuse est impolie."
+  ],
+  "mistake": {
+   "wrong": "Fermé est synonyme d’ouvert dans cet exemple.",
+   "right": "fermé: contraire d’ouvert pour une porte.",
+   "why": "Les états décrits sont opposés."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une porte qui n’est plus ouverte est fermée. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Contraire d’ouvert pour une porte.",
+   "Les états décrits sont opposés."
+  ],
+  "answer": "fermé",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-7-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "fermé: contraire d’ouvert pour une porte.",
+     "étroit: contraire de large pour un passage.",
+     "impoli: contraire de poli pour un comportement.",
+     "sombre: contraire de clair pour un lieu peu éclairé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-7-terms"
+    }
+   },
+   {
+    "id": "cfr3-7-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Une porte qui n’est plus ouverte est fermée.",
+     "fermé: contraire d’ouvert pour une porte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-7-cases"
+    }
+   },
+   {
+    "id": "cfr3-7-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Fermé est synonyme d’ouvert dans cet exemple.",
+     "Les états décrits sont opposés."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-7-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "fermé : contraire d’ouvert pour une porte.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : fermé désigne contraire d’ouvert pour une porte. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "étroit : contraire de large pour un passage.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : étroit désigne contraire de large pour un passage. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "impoli : contraire de poli pour un comportement.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : impoli désigne contraire de poli pour un comportement. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "sombre : contraire de clair pour un lieu peu éclairé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : sombre désigne contraire de clair pour un lieu peu éclairé. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Fermé est synonyme d’ouvert dans cet exemple.",
+        "truth": "false",
+        "explain": "Les états décrits sont opposés."
+       },
+       {
+        "text": "Étroit signifie toujours très large.",
+        "truth": "false",
+        "explain": "Les deux mots s’opposent sur la largeur."
+       },
+       {
+        "text": "Tous les contraires se forment en ajoutant exactement le même préfixe.",
+        "truth": "false",
+        "explain": "Les formations varient ; vérifie le mot."
+       },
+       {
+        "text": "Clair garde exactement le même contraire dans tous ses sens.",
+        "truth": "false",
+        "explain": "Choisis l’opposition selon le sens de clair dans la phrase."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-7-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : contraire d’ouvert pour une porte ?",
+       "r": "fermé",
+       "w": [
+        "étroit",
+        "impoli",
+        "sombre"
+       ],
+       "e": [
+        "« étroit » désigne contraire de large pour un passage. Ici, cherche contraire d’ouvert pour une porte.",
+        "« impoli » désigne contraire de poli pour un comportement. Ici, cherche contraire d’ouvert pour une porte.",
+        "« sombre » désigne contraire de clair pour un lieu peu éclairé. Ici, cherche contraire d’ouvert pour une porte."
+       ],
+       "y": "Contraire d’ouvert pour une porte."
+      },
+      {
+       "q": "Quel terme désigne : contraire de large pour un passage ?",
+       "r": "étroit",
+       "w": [
+        "fermé",
+        "impoli",
+        "sombre"
+       ],
+       "e": [
+        "« fermé » désigne contraire d’ouvert pour une porte. Ici, cherche contraire de large pour un passage.",
+        "« impoli » désigne contraire de poli pour un comportement. Ici, cherche contraire de large pour un passage.",
+        "« sombre » désigne contraire de clair pour un lieu peu éclairé. Ici, cherche contraire de large pour un passage."
+       ],
+       "y": "Contraire de large pour un passage."
+      },
+      {
+       "q": "Quel terme désigne : contraire de poli pour un comportement ?",
+       "r": "impoli",
+       "w": [
+        "fermé",
+        "étroit",
+        "sombre"
+       ],
+       "e": [
+        "« fermé » désigne contraire d’ouvert pour une porte. Ici, cherche contraire de poli pour un comportement.",
+        "« étroit » désigne contraire de large pour un passage. Ici, cherche contraire de poli pour un comportement.",
+        "« sombre » désigne contraire de clair pour un lieu peu éclairé. Ici, cherche contraire de poli pour un comportement."
+       ],
+       "y": "Contraire de poli pour un comportement."
+      },
+      {
+       "q": "Quel terme désigne : contraire de clair pour un lieu peu éclairé ?",
+       "r": "sombre",
+       "w": [
+        "fermé",
+        "étroit",
+        "impoli"
+       ],
+       "e": [
+        "« fermé » désigne contraire d’ouvert pour une porte. Ici, cherche contraire de clair pour un lieu peu éclairé.",
+        "« étroit » désigne contraire de large pour un passage. Ici, cherche contraire de clair pour un lieu peu éclairé.",
+        "« impoli » désigne contraire de poli pour un comportement. Ici, cherche contraire de clair pour un lieu peu éclairé."
+       ],
+       "y": "Contraire de clair pour un lieu peu éclairé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-7-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une porte qui n’est plus ouverte est fermée.\nQuel terme s’applique le mieux ?",
+       "r": "fermé",
+       "w": [
+        "étroit",
+        "impoli",
+        "sombre"
+       ],
+       "e": [
+        "« étroit » concerne contraire de large pour un passage. Le cas décrit plutôt contraire d’ouvert pour une porte.",
+        "« impoli » concerne contraire de poli pour un comportement. Le cas décrit plutôt contraire d’ouvert pour une porte.",
+        "« sombre » concerne contraire de clair pour un lieu peu éclairé. Le cas décrit plutôt contraire d’ouvert pour une porte."
+       ],
+       "y": "Une porte qui n’est plus ouverte est fermée. Contraire d’ouvert pour une porte."
+      },
+      {
+       "q": "Un passage de faible largeur est étroit.\nQuel terme s’applique le mieux ?",
+       "r": "étroit",
+       "w": [
+        "fermé",
+        "impoli",
+        "sombre"
+       ],
+       "e": [
+        "« fermé » concerne contraire d’ouvert pour une porte. Le cas décrit plutôt contraire de large pour un passage.",
+        "« impoli » concerne contraire de poli pour un comportement. Le cas décrit plutôt contraire de large pour un passage.",
+        "« sombre » concerne contraire de clair pour un lieu peu éclairé. Le cas décrit plutôt contraire de large pour un passage."
+       ],
+       "y": "Un passage de faible largeur est étroit. Contraire de large pour un passage."
+      },
+      {
+       "q": "Une réponse irrespectueuse est impolie.\nQuel terme s’applique le mieux ?",
+       "r": "impoli",
+       "w": [
+        "fermé",
+        "étroit",
+        "sombre"
+       ],
+       "e": [
+        "« fermé » concerne contraire d’ouvert pour une porte. Le cas décrit plutôt contraire de poli pour un comportement.",
+        "« étroit » concerne contraire de large pour un passage. Le cas décrit plutôt contraire de poli pour un comportement.",
+        "« sombre » concerne contraire de clair pour un lieu peu éclairé. Le cas décrit plutôt contraire de poli pour un comportement."
+       ],
+       "y": "Une réponse irrespectueuse est impolie. Contraire de poli pour un comportement."
+      },
+      {
+       "q": "La pièce peu éclairée est sombre.\nQuel terme s’applique le mieux ?",
+       "r": "sombre",
+       "w": [
+        "fermé",
+        "étroit",
+        "impoli"
+       ],
+       "e": [
+        "« fermé » concerne contraire d’ouvert pour une porte. Le cas décrit plutôt contraire de clair pour un lieu peu éclairé.",
+        "« étroit » concerne contraire de large pour un passage. Le cas décrit plutôt contraire de clair pour un lieu peu éclairé.",
+        "« impoli » concerne contraire de poli pour un comportement. Le cas décrit plutôt contraire de clair pour un lieu peu éclairé."
+       ],
+       "y": "La pièce peu éclairée est sombre. Contraire de clair pour un lieu peu éclairé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-7-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une porte qui n’est plus ouverte est fermée.\nQuelle explication justifie le classement ?",
+       "r": "Contraire d’ouvert pour une porte.",
+       "w": [
+        "Contraire de large pour un passage.",
+        "Contraire de poli pour un comportement.",
+        "Contraire de clair pour un lieu peu éclairé."
+       ],
+       "e": [
+        "Cette explication correspond à « étroit ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impoli ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sombre ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les états décrits sont opposés."
+      },
+      {
+       "q": "Un passage de faible largeur est étroit.\nQuelle explication justifie le classement ?",
+       "r": "Contraire de large pour un passage.",
+       "w": [
+        "Contraire d’ouvert pour une porte.",
+        "Contraire de poli pour un comportement.",
+        "Contraire de clair pour un lieu peu éclairé."
+       ],
+       "e": [
+        "Cette explication correspond à « fermé ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impoli ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sombre ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les deux mots s’opposent sur la largeur."
+      },
+      {
+       "q": "Une réponse irrespectueuse est impolie.\nQuelle explication justifie le classement ?",
+       "r": "Contraire de poli pour un comportement.",
+       "w": [
+        "Contraire d’ouvert pour une porte.",
+        "Contraire de large pour un passage.",
+        "Contraire de clair pour un lieu peu éclairé."
+       ],
+       "e": [
+        "Cette explication correspond à « fermé ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « étroit ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « sombre ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les formations varient ; vérifie le mot."
+      },
+      {
+       "q": "La pièce peu éclairée est sombre.\nQuelle explication justifie le classement ?",
+       "r": "Contraire de clair pour un lieu peu éclairé.",
+       "w": [
+        "Contraire d’ouvert pour une porte.",
+        "Contraire de large pour un passage.",
+        "Contraire de poli pour un comportement."
+       ],
+       "e": [
+        "Cette explication correspond à « fermé ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « étroit ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impoli ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Choisis l’opposition selon le sens de clair dans la phrase."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-7-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "fermé",
+     "right": "Une porte qui n’est plus ouverte est fermée."
+    },
+    {
+     "left": "étroit",
+     "right": "Un passage de faible largeur est étroit."
+    },
+    {
+     "left": "impoli",
+     "right": "Une réponse irrespectueuse est impolie."
+    },
+    {
+     "left": "sombre",
+     "right": "La pièce peu éclairée est sombre."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-7-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "fermé : contraire d’ouvert pour une porte.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : fermé désigne contraire d’ouvert pour une porte. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "étroit : contraire de large pour un passage.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : étroit désigne contraire de large pour un passage. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "impoli : contraire de poli pour un comportement.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : impoli désigne contraire de poli pour un comportement. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "sombre : contraire de clair pour un lieu peu éclairé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : sombre désigne contraire de clair pour un lieu peu éclairé. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Fermé est synonyme d’ouvert dans cet exemple.",
+      "truth": "false",
+      "explain": "Les états décrits sont opposés."
+     },
+     {
+      "text": "Étroit signifie toujours très large.",
+      "truth": "false",
+      "explain": "Les deux mots s’opposent sur la largeur."
+     },
+     {
+      "text": "Tous les contraires se forment en ajoutant exactement le même préfixe.",
+      "truth": "false",
+      "explain": "Les formations varient ; vérifie le mot."
+     },
+     {
+      "text": "Clair garde exactement le même contraire dans tous ses sens.",
+      "truth": "false",
+      "explain": "Choisis l’opposition selon le sens de clair dans la phrase."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

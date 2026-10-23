@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 24,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-24",
+   "name": "Les sites touristiques : décrire un lieu"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Décrire un site demande un nom, une localisation vérifiée, des caractéristiques et une raison de l’intérêt présenté. Distingue un site naturel, un patrimoine culturel et une installation d’accueil. Au Cameroun, le ministère chargé du tourisme présente notamment les lacs jumeaux de Manengouba, la grotte de Ngog-lituba et le site de Mindif. Cette leçon apprend le vocabulaire descriptif ; elle ne fournit ni itinéraire, ni tarifs, ni avis de sécurité actuels.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Décrire un site demande un nom, une localisation vérifiée, des caractéristiques et une raison de l’intérêt présenté. Distingue un site naturel, un patrimoine culturel et une installation d’accueil. Au Cameroun, le ministère chargé du tourisme présente notamment les lacs jumeaux de Manengouba, la grotte de Ngog-lituba et le site de Mindif. Cette leçon apprend le vocabulaire descriptif ; elle ne fournit ni itinéraire, ni tarifs, ni avis de sécurité actuels."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Un dépliant scolaire original présente un lieu par sa nature puis par son intérêt. Il distingue ce qui peut être observé d’une formule publicitaire comme le meilleur lieu du monde. Les noms réels cités sont des exemples documentaires ; les horaires et les conditions de visite doivent être vérifiés avant un déplacement."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "site naturel",
+    "meaning": "un lieu dont l’intérêt porte notamment sur le milieu physique"
+   },
+   {
+    "word": "patrimoine culturel",
+    "meaning": "des éléments auxquels une communauté reconnaît une valeur culturelle"
+   },
+   {
+    "word": "localisation",
+    "meaning": "l’indication vérifiée de la situation d’un lieu"
+   },
+   {
+    "word": "formule promotionnelle",
+    "meaning": "une expression destinée à valoriser un lieu"
+   }
+  ],
+  "examples": [
+   "Un dépliant décrit un paysage de lacs.",
+   "Un texte explique l’intérêt d’un objet ou d’un bâtiment transmis.",
+   "Le rédacteur vérifie où se trouve le site avant de l’indiquer."
+  ],
+  "mistake": {
+   "wrong": "Tout paysage est obligatoirement un bâtiment construit.",
+   "right": "site naturel: un lieu dont l’intérêt porte notamment sur le milieu physique.",
+   "why": "Un milieu naturel et un édifice ne sont pas la même catégorie."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un dépliant décrit un paysage de lacs. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un lieu dont l’intérêt porte notamment sur le milieu physique.",
+   "Un milieu naturel et un édifice ne sont pas la même catégorie."
+  ],
+  "answer": "site naturel",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-24-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "site naturel: un lieu dont l’intérêt porte notamment sur le milieu physique.",
+     "patrimoine culturel: des éléments auxquels une communauté reconnaît une valeur culturelle.",
+     "localisation: l’indication vérifiée de la situation d’un lieu.",
+     "formule promotionnelle: une expression destinée à valoriser un lieu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-24-terms"
+    }
+   },
+   {
+    "id": "cfr3-24-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Un dépliant décrit un paysage de lacs.",
+     "site naturel: un lieu dont l’intérêt porte notamment sur le milieu physique."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-24-cases"
+    }
+   },
+   {
+    "id": "cfr3-24-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Tout paysage est obligatoirement un bâtiment construit.",
+     "Un milieu naturel et un édifice ne sont pas la même catégorie."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-24-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "site naturel : un lieu dont l’intérêt porte notamment sur le milieu physique.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : site naturel désigne un lieu dont l’intérêt porte notamment sur le milieu physique. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "patrimoine culturel : des éléments auxquels une communauté reconnaît une valeur culturelle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : patrimoine culturel désigne des éléments auxquels une communauté reconnaît une valeur culturelle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "localisation : l’indication vérifiée de la situation d’un lieu.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : localisation désigne l’indication vérifiée de la situation d’un lieu. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "formule promotionnelle : une expression destinée à valoriser un lieu.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : formule promotionnelle désigne une expression destinée à valoriser un lieu. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout paysage est obligatoirement un bâtiment construit.",
+        "truth": "false",
+        "explain": "Un milieu naturel et un édifice ne sont pas la même catégorie."
+       },
+       {
+        "text": "Le patrimoine culturel ne peut avoir aucun lien avec les communautés.",
+        "truth": "false",
+        "explain": "La valeur culturelle implique une relation aux personnes et à leur histoire."
+       },
+       {
+        "text": "Une localisation inventée rend un dépliant plus exact.",
+        "truth": "false",
+        "explain": "Une information géographique doit être vérifiée."
+       },
+       {
+        "text": "Un superlatif publicitaire prouve une comparaison scientifique complète.",
+        "truth": "false",
+        "explain": "Une formule persuasive ne vaut pas une preuve objective."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-24-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un lieu dont l’intérêt porte notamment sur le milieu physique ?",
+       "r": "site naturel",
+       "w": [
+        "patrimoine culturel",
+        "localisation",
+        "formule promotionnelle"
+       ],
+       "e": [
+        "« patrimoine culturel » désigne des éléments auxquels une communauté reconnaît une valeur culturelle. Ici, cherche un lieu dont l’intérêt porte notamment sur le milieu physique.",
+        "« localisation » désigne l’indication vérifiée de la situation d’un lieu. Ici, cherche un lieu dont l’intérêt porte notamment sur le milieu physique.",
+        "« formule promotionnelle » désigne une expression destinée à valoriser un lieu. Ici, cherche un lieu dont l’intérêt porte notamment sur le milieu physique."
+       ],
+       "y": "Un lieu dont l’intérêt porte notamment sur le milieu physique."
+      },
+      {
+       "q": "Quel terme désigne : des éléments auxquels une communauté reconnaît une valeur culturelle ?",
+       "r": "patrimoine culturel",
+       "w": [
+        "site naturel",
+        "localisation",
+        "formule promotionnelle"
+       ],
+       "e": [
+        "« site naturel » désigne un lieu dont l’intérêt porte notamment sur le milieu physique. Ici, cherche des éléments auxquels une communauté reconnaît une valeur culturelle.",
+        "« localisation » désigne l’indication vérifiée de la situation d’un lieu. Ici, cherche des éléments auxquels une communauté reconnaît une valeur culturelle.",
+        "« formule promotionnelle » désigne une expression destinée à valoriser un lieu. Ici, cherche des éléments auxquels une communauté reconnaît une valeur culturelle."
+       ],
+       "y": "Des éléments auxquels une communauté reconnaît une valeur culturelle."
+      },
+      {
+       "q": "Quel terme désigne : l’indication vérifiée de la situation d’un lieu ?",
+       "r": "localisation",
+       "w": [
+        "site naturel",
+        "patrimoine culturel",
+        "formule promotionnelle"
+       ],
+       "e": [
+        "« site naturel » désigne un lieu dont l’intérêt porte notamment sur le milieu physique. Ici, cherche l’indication vérifiée de la situation d’un lieu.",
+        "« patrimoine culturel » désigne des éléments auxquels une communauté reconnaît une valeur culturelle. Ici, cherche l’indication vérifiée de la situation d’un lieu.",
+        "« formule promotionnelle » désigne une expression destinée à valoriser un lieu. Ici, cherche l’indication vérifiée de la situation d’un lieu."
+       ],
+       "y": "L’indication vérifiée de la situation d’un lieu."
+      },
+      {
+       "q": "Quel terme désigne : une expression destinée à valoriser un lieu ?",
+       "r": "formule promotionnelle",
+       "w": [
+        "site naturel",
+        "patrimoine culturel",
+        "localisation"
+       ],
+       "e": [
+        "« site naturel » désigne un lieu dont l’intérêt porte notamment sur le milieu physique. Ici, cherche une expression destinée à valoriser un lieu.",
+        "« patrimoine culturel » désigne des éléments auxquels une communauté reconnaît une valeur culturelle. Ici, cherche une expression destinée à valoriser un lieu.",
+        "« localisation » désigne l’indication vérifiée de la situation d’un lieu. Ici, cherche une expression destinée à valoriser un lieu."
+       ],
+       "y": "Une expression destinée à valoriser un lieu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-24-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un dépliant décrit un paysage de lacs.\nQuel terme s’applique le mieux ?",
+       "r": "site naturel",
+       "w": [
+        "patrimoine culturel",
+        "localisation",
+        "formule promotionnelle"
+       ],
+       "e": [
+        "« patrimoine culturel » concerne des éléments auxquels une communauté reconnaît une valeur culturelle. Le cas décrit plutôt un lieu dont l’intérêt porte notamment sur le milieu physique.",
+        "« localisation » concerne l’indication vérifiée de la situation d’un lieu. Le cas décrit plutôt un lieu dont l’intérêt porte notamment sur le milieu physique.",
+        "« formule promotionnelle » concerne une expression destinée à valoriser un lieu. Le cas décrit plutôt un lieu dont l’intérêt porte notamment sur le milieu physique."
+       ],
+       "y": "Un dépliant décrit un paysage de lacs. Un lieu dont l’intérêt porte notamment sur le milieu physique."
+      },
+      {
+       "q": "Un texte explique l’intérêt d’un objet ou d’un bâtiment transmis.\nQuel terme s’applique le mieux ?",
+       "r": "patrimoine culturel",
+       "w": [
+        "site naturel",
+        "localisation",
+        "formule promotionnelle"
+       ],
+       "e": [
+        "« site naturel » concerne un lieu dont l’intérêt porte notamment sur le milieu physique. Le cas décrit plutôt des éléments auxquels une communauté reconnaît une valeur culturelle.",
+        "« localisation » concerne l’indication vérifiée de la situation d’un lieu. Le cas décrit plutôt des éléments auxquels une communauté reconnaît une valeur culturelle.",
+        "« formule promotionnelle » concerne une expression destinée à valoriser un lieu. Le cas décrit plutôt des éléments auxquels une communauté reconnaît une valeur culturelle."
+       ],
+       "y": "Un texte explique l’intérêt d’un objet ou d’un bâtiment transmis. Des éléments auxquels une communauté reconnaît une valeur culturelle."
+      },
+      {
+       "q": "Le rédacteur vérifie où se trouve le site avant de l’indiquer.\nQuel terme s’applique le mieux ?",
+       "r": "localisation",
+       "w": [
+        "site naturel",
+        "patrimoine culturel",
+        "formule promotionnelle"
+       ],
+       "e": [
+        "« site naturel » concerne un lieu dont l’intérêt porte notamment sur le milieu physique. Le cas décrit plutôt l’indication vérifiée de la situation d’un lieu.",
+        "« patrimoine culturel » concerne des éléments auxquels une communauté reconnaît une valeur culturelle. Le cas décrit plutôt l’indication vérifiée de la situation d’un lieu.",
+        "« formule promotionnelle » concerne une expression destinée à valoriser un lieu. Le cas décrit plutôt l’indication vérifiée de la situation d’un lieu."
+       ],
+       "y": "Le rédacteur vérifie où se trouve le site avant de l’indiquer. L’indication vérifiée de la situation d’un lieu."
+      },
+      {
+       "q": "Le meilleur lieu du monde exprime une appréciation publicitaire.\nQuel terme s’applique le mieux ?",
+       "r": "formule promotionnelle",
+       "w": [
+        "site naturel",
+        "patrimoine culturel",
+        "localisation"
+       ],
+       "e": [
+        "« site naturel » concerne un lieu dont l’intérêt porte notamment sur le milieu physique. Le cas décrit plutôt une expression destinée à valoriser un lieu.",
+        "« patrimoine culturel » concerne des éléments auxquels une communauté reconnaît une valeur culturelle. Le cas décrit plutôt une expression destinée à valoriser un lieu.",
+        "« localisation » concerne l’indication vérifiée de la situation d’un lieu. Le cas décrit plutôt une expression destinée à valoriser un lieu."
+       ],
+       "y": "Le meilleur lieu du monde exprime une appréciation publicitaire. Une expression destinée à valoriser un lieu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-24-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un dépliant décrit un paysage de lacs.\nQuelle explication justifie le classement ?",
+       "r": "Un lieu dont l’intérêt porte notamment sur le milieu physique.",
+       "w": [
+        "Des éléments auxquels une communauté reconnaît une valeur culturelle.",
+        "L’indication vérifiée de la situation d’un lieu.",
+        "Une expression destinée à valoriser un lieu."
+       ],
+       "e": [
+        "Cette explication correspond à « patrimoine culturel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « localisation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « formule promotionnelle ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Un milieu naturel et un édifice ne sont pas la même catégorie."
+      },
+      {
+       "q": "Un texte explique l’intérêt d’un objet ou d’un bâtiment transmis.\nQuelle explication justifie le classement ?",
+       "r": "Des éléments auxquels une communauté reconnaît une valeur culturelle.",
+       "w": [
+        "Un lieu dont l’intérêt porte notamment sur le milieu physique.",
+        "L’indication vérifiée de la situation d’un lieu.",
+        "Une expression destinée à valoriser un lieu."
+       ],
+       "e": [
+        "Cette explication correspond à « site naturel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « localisation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « formule promotionnelle ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La valeur culturelle implique une relation aux personnes et à leur histoire."
+      },
+      {
+       "q": "Le rédacteur vérifie où se trouve le site avant de l’indiquer.\nQuelle explication justifie le classement ?",
+       "r": "L’indication vérifiée de la situation d’un lieu.",
+       "w": [
+        "Un lieu dont l’intérêt porte notamment sur le milieu physique.",
+        "Des éléments auxquels une communauté reconnaît une valeur culturelle.",
+        "Une expression destinée à valoriser un lieu."
+       ],
+       "e": [
+        "Cette explication correspond à « site naturel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « patrimoine culturel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « formule promotionnelle ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Une information géographique doit être vérifiée."
+      },
+      {
+       "q": "Le meilleur lieu du monde exprime une appréciation publicitaire.\nQuelle explication justifie le classement ?",
+       "r": "Une expression destinée à valoriser un lieu.",
+       "w": [
+        "Un lieu dont l’intérêt porte notamment sur le milieu physique.",
+        "Des éléments auxquels une communauté reconnaît une valeur culturelle.",
+        "L’indication vérifiée de la situation d’un lieu."
+       ],
+       "e": [
+        "Cette explication correspond à « site naturel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « patrimoine culturel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « localisation ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Une formule persuasive ne vaut pas une preuve objective."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-24-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "site naturel",
+     "right": "Un dépliant décrit un paysage de lacs."
+    },
+    {
+     "left": "patrimoine culturel",
+     "right": "Un texte explique l’intérêt d’un objet ou d’un bâtiment transmis."
+    },
+    {
+     "left": "localisation",
+     "right": "Le rédacteur vérifie où se trouve le site avant de l’indiquer."
+    },
+    {
+     "left": "formule promotionnelle",
+     "right": "Le meilleur lieu du monde exprime une appréciation publicitaire."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-24-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "site naturel : un lieu dont l’intérêt porte notamment sur le milieu physique.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : site naturel désigne un lieu dont l’intérêt porte notamment sur le milieu physique. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "patrimoine culturel : des éléments auxquels une communauté reconnaît une valeur culturelle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : patrimoine culturel désigne des éléments auxquels une communauté reconnaît une valeur culturelle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "localisation : l’indication vérifiée de la situation d’un lieu.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : localisation désigne l’indication vérifiée de la situation d’un lieu. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "formule promotionnelle : une expression destinée à valoriser un lieu.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : formule promotionnelle désigne une expression destinée à valoriser un lieu. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout paysage est obligatoirement un bâtiment construit.",
+      "truth": "false",
+      "explain": "Un milieu naturel et un édifice ne sont pas la même catégorie."
+     },
+     {
+      "text": "Le patrimoine culturel ne peut avoir aucun lien avec les communautés.",
+      "truth": "false",
+      "explain": "La valeur culturelle implique une relation aux personnes et à leur histoire."
+     },
+     {
+      "text": "Une localisation inventée rend un dépliant plus exact.",
+      "truth": "false",
+      "explain": "Une information géographique doit être vérifiée."
+     },
+     {
+      "text": "Un superlatif publicitaire prouve une comparaison scientifique complète.",
+      "truth": "false",
+      "explain": "Une formule persuasive ne vaut pas une preuve objective."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

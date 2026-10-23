@@ -1,0 +1,599 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-1",
+   "name": "Earth: shape, size and evidence"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Earth is approximately spherical, with a slight equatorial bulge and flattening at the poles. Its mean radius is about {6371} km; its equatorial diameter is about {12756} km. A globe models this shape; a flat map represents selected features with some distortion. Evidence includes observations from space, a curved shadow during a lunar eclipse and changes in visible stars with latitude. A single local horizon observation needs careful interpretation because hills and atmospheric effects matter. Circumnavigation is consistent with the shape, but modern direct observation gives stronger evidence than an isolated travel story.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Earth is approximately spherical, with a slight equatorial bulge and flattening at the poles. Its mean radius is about {6371} km; its equatorial diameter is about {12756} km. A globe models this shape; a flat map represents selected features with some distortion. Evidence includes observations from space, a curved shadow during a lunar eclipse and changes in visible stars with latitude. A single local horizon observation needs careful interpretation because hills and atmospheric effects matter. Circumnavigation is consistent with the shape, but modern direct observation gives stronger evidence than an isolated travel story."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A pupil in Buea can compare a globe with a flat wall map. The map is convenient for routes, while the globe better represents the whole planet's shape. Neither is the planet itself. A ship disappearing hull-first over a clear sea can illustrate curvature, but one obscured view should not be treated as a complete proof by itself."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Separate an observation from the conclusion it supports. Use several independent lines of evidence. Do not confuse spherical with perfectly smooth: mountains and valleys are small surface irregularities relative to the planet. State whether a measurement is approximate rather than pretending every model is exact."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "oblate shape",
+    "meaning": "a near-sphere slightly flattened at the poles"
+   },
+   {
+    "word": "globe",
+    "meaning": "a reduced model of Earth's whole shape"
+   },
+   {
+    "word": "map projection",
+    "meaning": "a method of representing a curved surface on a plane"
+   },
+   {
+    "word": "supporting evidence",
+    "meaning": "observations that help test an explanation"
+   }
+  ],
+  "examples": [
+   "A model shows a small equatorial bulge.",
+   "A class uses a spherical model to compare hemispheres.",
+   "A wall map stretches some regions when the globe is flattened."
+  ],
+  "mistake": {
+   "wrong": "Earth is a perfectly flat circular plate.",
+   "right": "oblate shape: a near-sphere slightly flattened at the poles.",
+   "why": "The global evidence supports a near-spherical planet with slight polar flattening."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A model shows a small equatorial bulge. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A near-sphere slightly flattened at the poles.",
+   "The global evidence supports a near-spherical planet with slight polar flattening."
+  ],
+  "answer": "oblate shape",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-1-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "oblate shape: a near-sphere slightly flattened at the poles.",
+     "globe: a reduced model of Earth's whole shape.",
+     "map projection: a method of representing a curved surface on a plane.",
+     "supporting evidence: observations that help test an explanation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-1-terms"
+    }
+   },
+   {
+    "id": "cg3-1-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A model shows a small equatorial bulge.",
+     "oblate shape: a near-sphere slightly flattened at the poles."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-1-cases"
+    }
+   },
+   {
+    "id": "cg3-1-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Earth is a perfectly flat circular plate.",
+     "The global evidence supports a near-spherical planet with slight polar flattening."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-1-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "oblate shape: a near-sphere slightly flattened at the poles.",
+        "truth": "true",
+        "explain": "This statement is correct: oblate shape means a near-sphere slightly flattened at the poles. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "globe: a reduced model of Earth's whole shape.",
+        "truth": "true",
+        "explain": "This statement is correct: globe means a reduced model of Earth's whole shape. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "map projection: a method of representing a curved surface on a plane.",
+        "truth": "true",
+        "explain": "This statement is correct: map projection means a method of representing a curved surface on a plane. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "supporting evidence: observations that help test an explanation.",
+        "truth": "true",
+        "explain": "This statement is correct: supporting evidence means observations that help test an explanation. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Earth is a perfectly flat circular plate.",
+        "truth": "false",
+        "explain": "The global evidence supports a near-spherical planet with slight polar flattening."
+       },
+       {
+        "text": "A globe has no scale because it is round.",
+        "truth": "false",
+        "explain": "A globe is a scaled model, not the full-sized planet."
+       },
+       {
+        "text": "Every flat world map preserves every shape, area and distance exactly.",
+        "truth": "false",
+        "explain": "Flattening a curved surface introduces trade-offs and distortion."
+       },
+       {
+        "text": "One obstructed view disproves every independent observation.",
+        "truth": "false",
+        "explain": "Assess several lines of evidence and the conditions of each observation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-1-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a near-sphere slightly flattened at the poles ?",
+       "r": "oblate shape",
+       "w": [
+        "globe",
+        "map projection",
+        "supporting evidence"
+       ],
+       "e": [
+        "globe means a reduced model of Earth's whole shape; the question instead describes a near-sphere slightly flattened at the poles.",
+        "map projection means a method of representing a curved surface on a plane; the question instead describes a near-sphere slightly flattened at the poles.",
+        "supporting evidence means observations that help test an explanation; the question instead describes a near-sphere slightly flattened at the poles."
+       ],
+       "y": "A near-sphere slightly flattened at the poles."
+      },
+      {
+       "q": "Which term means: a reduced model of Earth's whole shape ?",
+       "r": "globe",
+       "w": [
+        "oblate shape",
+        "map projection",
+        "supporting evidence"
+       ],
+       "e": [
+        "oblate shape means a near-sphere slightly flattened at the poles; the question instead describes a reduced model of Earth's whole shape.",
+        "map projection means a method of representing a curved surface on a plane; the question instead describes a reduced model of Earth's whole shape.",
+        "supporting evidence means observations that help test an explanation; the question instead describes a reduced model of Earth's whole shape."
+       ],
+       "y": "A reduced model of earth's whole shape."
+      },
+      {
+       "q": "Which term means: a method of representing a curved surface on a plane ?",
+       "r": "map projection",
+       "w": [
+        "oblate shape",
+        "globe",
+        "supporting evidence"
+       ],
+       "e": [
+        "oblate shape means a near-sphere slightly flattened at the poles; the question instead describes a method of representing a curved surface on a plane.",
+        "globe means a reduced model of Earth's whole shape; the question instead describes a method of representing a curved surface on a plane.",
+        "supporting evidence means observations that help test an explanation; the question instead describes a method of representing a curved surface on a plane."
+       ],
+       "y": "A method of representing a curved surface on a plane."
+      },
+      {
+       "q": "Which term means: observations that help test an explanation ?",
+       "r": "supporting evidence",
+       "w": [
+        "oblate shape",
+        "globe",
+        "map projection"
+       ],
+       "e": [
+        "oblate shape means a near-sphere slightly flattened at the poles; the question instead describes observations that help test an explanation.",
+        "globe means a reduced model of Earth's whole shape; the question instead describes observations that help test an explanation.",
+        "map projection means a method of representing a curved surface on a plane; the question instead describes observations that help test an explanation."
+       ],
+       "y": "Observations that help test an explanation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-1-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A model shows a small equatorial bulge.\nWhich term best fits this example?",
+       "r": "oblate shape",
+       "w": [
+        "globe",
+        "map projection",
+        "supporting evidence"
+       ],
+       "e": [
+        "globe concerns a reduced model of Earth's whole shape. This case instead illustrates a near-sphere slightly flattened at the poles.",
+        "map projection concerns a method of representing a curved surface on a plane. This case instead illustrates a near-sphere slightly flattened at the poles.",
+        "supporting evidence concerns observations that help test an explanation. This case instead illustrates a near-sphere slightly flattened at the poles."
+       ],
+       "y": "A model shows a small equatorial bulge. A near-sphere slightly flattened at the poles."
+      },
+      {
+       "q": "A class uses a spherical model to compare hemispheres.\nWhich term best fits this example?",
+       "r": "globe",
+       "w": [
+        "oblate shape",
+        "map projection",
+        "supporting evidence"
+       ],
+       "e": [
+        "oblate shape concerns a near-sphere slightly flattened at the poles. This case instead illustrates a reduced model of Earth's whole shape.",
+        "map projection concerns a method of representing a curved surface on a plane. This case instead illustrates a reduced model of Earth's whole shape.",
+        "supporting evidence concerns observations that help test an explanation. This case instead illustrates a reduced model of Earth's whole shape."
+       ],
+       "y": "A class uses a spherical model to compare hemispheres. A reduced model of earth's whole shape."
+      },
+      {
+       "q": "A wall map stretches some regions when the globe is flattened.\nWhich term best fits this example?",
+       "r": "map projection",
+       "w": [
+        "oblate shape",
+        "globe",
+        "supporting evidence"
+       ],
+       "e": [
+        "oblate shape concerns a near-sphere slightly flattened at the poles. This case instead illustrates a method of representing a curved surface on a plane.",
+        "globe concerns a reduced model of Earth's whole shape. This case instead illustrates a method of representing a curved surface on a plane.",
+        "supporting evidence concerns observations that help test an explanation. This case instead illustrates a method of representing a curved surface on a plane."
+       ],
+       "y": "A wall map stretches some regions when the globe is flattened. A method of representing a curved surface on a plane."
+      },
+      {
+       "q": "Images from space and a lunar-eclipse shadow agree with curvature.\nWhich term best fits this example?",
+       "r": "supporting evidence",
+       "w": [
+        "oblate shape",
+        "globe",
+        "map projection"
+       ],
+       "e": [
+        "oblate shape concerns a near-sphere slightly flattened at the poles. This case instead illustrates observations that help test an explanation.",
+        "globe concerns a reduced model of Earth's whole shape. This case instead illustrates observations that help test an explanation.",
+        "map projection concerns a method of representing a curved surface on a plane. This case instead illustrates observations that help test an explanation."
+       ],
+       "y": "Images from space and a lunar-eclipse shadow agree with curvature. Observations that help test an explanation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-1-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A model shows a small equatorial bulge.\nWhich explanation justifies the classification?",
+       "r": "A near-sphere slightly flattened at the poles.",
+       "w": [
+        "A reduced model of earth's whole shape.",
+        "A method of representing a curved surface on a plane.",
+        "Observations that help test an explanation."
+       ],
+       "e": [
+        "That explanation describes globe, rather than the relationship illustrated in this example.",
+        "That explanation describes map projection, rather than the relationship illustrated in this example.",
+        "That explanation describes supporting evidence, rather than the relationship illustrated in this example."
+       ],
+       "y": "The global evidence supports a near-spherical planet with slight polar flattening."
+      },
+      {
+       "q": "A class uses a spherical model to compare hemispheres.\nWhich explanation justifies the classification?",
+       "r": "A reduced model of earth's whole shape.",
+       "w": [
+        "A near-sphere slightly flattened at the poles.",
+        "A method of representing a curved surface on a plane.",
+        "Observations that help test an explanation."
+       ],
+       "e": [
+        "That explanation describes oblate shape, rather than the relationship illustrated in this example.",
+        "That explanation describes map projection, rather than the relationship illustrated in this example.",
+        "That explanation describes supporting evidence, rather than the relationship illustrated in this example."
+       ],
+       "y": "A globe is a scaled model, not the full-sized planet."
+      },
+      {
+       "q": "A wall map stretches some regions when the globe is flattened.\nWhich explanation justifies the classification?",
+       "r": "A method of representing a curved surface on a plane.",
+       "w": [
+        "A near-sphere slightly flattened at the poles.",
+        "A reduced model of earth's whole shape.",
+        "Observations that help test an explanation."
+       ],
+       "e": [
+        "That explanation describes oblate shape, rather than the relationship illustrated in this example.",
+        "That explanation describes globe, rather than the relationship illustrated in this example.",
+        "That explanation describes supporting evidence, rather than the relationship illustrated in this example."
+       ],
+       "y": "Flattening a curved surface introduces trade-offs and distortion."
+      },
+      {
+       "q": "Images from space and a lunar-eclipse shadow agree with curvature.\nWhich explanation justifies the classification?",
+       "r": "Observations that help test an explanation.",
+       "w": [
+        "A near-sphere slightly flattened at the poles.",
+        "A reduced model of earth's whole shape.",
+        "A method of representing a curved surface on a plane."
+       ],
+       "e": [
+        "That explanation describes oblate shape, rather than the relationship illustrated in this example.",
+        "That explanation describes globe, rather than the relationship illustrated in this example.",
+        "That explanation describes map projection, rather than the relationship illustrated in this example."
+       ],
+       "y": "Assess several lines of evidence and the conditions of each observation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-1-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "oblate shape",
+     "right": "A model shows a small equatorial bulge."
+    },
+    {
+     "left": "globe",
+     "right": "A class uses a spherical model to compare hemispheres."
+    },
+    {
+     "left": "map projection",
+     "right": "A wall map stretches some regions when the globe is flattened."
+    },
+    {
+     "left": "supporting evidence",
+     "right": "Images from space and a lunar-eclipse shadow agree with curvature."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-1-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "oblate shape: a near-sphere slightly flattened at the poles.",
+      "truth": "true",
+      "explain": "This statement is correct: oblate shape means a near-sphere slightly flattened at the poles. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "globe: a reduced model of Earth's whole shape.",
+      "truth": "true",
+      "explain": "This statement is correct: globe means a reduced model of Earth's whole shape. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "map projection: a method of representing a curved surface on a plane.",
+      "truth": "true",
+      "explain": "This statement is correct: map projection means a method of representing a curved surface on a plane. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "supporting evidence: observations that help test an explanation.",
+      "truth": "true",
+      "explain": "This statement is correct: supporting evidence means observations that help test an explanation. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Earth is a perfectly flat circular plate.",
+      "truth": "false",
+      "explain": "The global evidence supports a near-spherical planet with slight polar flattening."
+     },
+     {
+      "text": "A globe has no scale because it is round.",
+      "truth": "false",
+      "explain": "A globe is a scaled model, not the full-sized planet."
+     },
+     {
+      "text": "Every flat world map preserves every shape, area and distance exactly.",
+      "truth": "false",
+      "explain": "Flattening a curved surface introduces trade-offs and distortion."
+     },
+     {
+      "text": "One obstructed view disproves every independent observation.",
+      "truth": "false",
+      "explain": "Assess several lines of evidence and the conditions of each observation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

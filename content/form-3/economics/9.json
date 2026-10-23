@@ -1,0 +1,599 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-9",
+   "name": "Economic systems: the basic allocation questions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An economic system organises how resources are owned, production is coordinated and output is distributed. Every society faces what to produce, how to produce and for whom to produce. What concerns the goods and services chosen. How concerns methods and resource combinations. For whom concerns who receives output and on what basis. These questions arise because resources are scarce. A system's label alone does not tell us whether every outcome is fair or efficient.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "An economic system organises how resources are owned, production is coordinated and output is distributed. Every society faces what to produce, how to produce and for whom to produce. What concerns the goods and services chosen. How concerns methods and resource combinations. For whom concerns who receives output and on what basis. These questions arise because resources are scarce. A system's label alone does not tell us whether every outcome is fair or efficient."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A community near Buea may decide whether land should support food crops or housing. That is a what question. Choosing hand tools or machinery concerns how. Deciding who receives housing or can buy food concerns for whom. A single project can involve all these questions, but they remain analytically different."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify what decision is being made before naming the question. Look for product, method or recipient. Do not turn a question about production technique into one about ownership without evidence. Systems can combine different ways of answering the allocation questions."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "what to produce",
+    "meaning": "which goods and services to make"
+   },
+   {
+    "word": "how to produce",
+    "meaning": "which techniques and resource combinations to use"
+   },
+   {
+    "word": "for whom to produce",
+    "meaning": "who receives output and on what basis"
+   },
+   {
+    "word": "allocation",
+    "meaning": "assigning scarce resources among competing uses"
+   }
+  ],
+  "examples": [
+   "A community chooses between a clinic building and a market shelter.",
+   "A farmer chooses between hand tools and a hired machine.",
+   "A housing scheme decides which households qualify."
+  ],
+  "mistake": {
+   "wrong": "Choosing the product is only a question about the buyer's identity.",
+   "right": "what to produce: which goods and services to make.",
+   "why": "What concerns the output selected, not who eventually receives it."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A community chooses between a clinic building and a market shelter. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Which goods and services to make.",
+   "What concerns the output selected, not who eventually receives it."
+  ],
+  "answer": "what to produce",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-9-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "what to produce: which goods and services to make.",
+     "how to produce: which techniques and resource combinations to use.",
+     "for whom to produce: who receives output and on what basis.",
+     "allocation: assigning scarce resources among competing uses."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-9-terms"
+    }
+   },
+   {
+    "id": "cn3-9-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A community chooses between a clinic building and a market shelter.",
+     "what to produce: which goods and services to make."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-9-cases"
+    }
+   },
+   {
+    "id": "cn3-9-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Choosing the product is only a question about the buyer's identity.",
+     "What concerns the output selected, not who eventually receives it."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-9-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "what to produce: which goods and services to make.",
+        "truth": "true",
+        "explain": "This statement is correct: what to produce means which goods and services to make. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "how to produce: which techniques and resource combinations to use.",
+        "truth": "true",
+        "explain": "This statement is correct: how to produce means which techniques and resource combinations to use. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "for whom to produce: who receives output and on what basis.",
+        "truth": "true",
+        "explain": "This statement is correct: for whom to produce means who receives output and on what basis. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "allocation: assigning scarce resources among competing uses.",
+        "truth": "true",
+        "explain": "This statement is correct: allocation means assigning scarce resources among competing uses. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Choosing the product is only a question about the buyer's identity.",
+        "truth": "false",
+        "explain": "What concerns the output selected, not who eventually receives it."
+       },
+       {
+        "text": "A choice of technique answers only what product to make.",
+        "truth": "false",
+        "explain": "The product may stay fixed while the production method changes."
+       },
+       {
+        "text": "Distribution is identical to choosing a machine.",
+        "truth": "false",
+        "explain": "Recipients concern distribution; machinery concerns technique."
+       },
+       {
+        "text": "Allocation is unnecessary when land has competing uses.",
+        "truth": "false",
+        "explain": "Competing uses are precisely why allocation decisions are needed."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-9-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: which goods and services to make ?",
+       "r": "what to produce",
+       "w": [
+        "how to produce",
+        "for whom to produce",
+        "allocation"
+       ],
+       "e": [
+        "how to produce means which techniques and resource combinations to use; the question instead describes which goods and services to make.",
+        "for whom to produce means who receives output and on what basis; the question instead describes which goods and services to make.",
+        "allocation means assigning scarce resources among competing uses; the question instead describes which goods and services to make."
+       ],
+       "y": "Which goods and services to make."
+      },
+      {
+       "q": "Which term means: which techniques and resource combinations to use ?",
+       "r": "how to produce",
+       "w": [
+        "what to produce",
+        "for whom to produce",
+        "allocation"
+       ],
+       "e": [
+        "what to produce means which goods and services to make; the question instead describes which techniques and resource combinations to use.",
+        "for whom to produce means who receives output and on what basis; the question instead describes which techniques and resource combinations to use.",
+        "allocation means assigning scarce resources among competing uses; the question instead describes which techniques and resource combinations to use."
+       ],
+       "y": "Which techniques and resource combinations to use."
+      },
+      {
+       "q": "Which term means: who receives output and on what basis ?",
+       "r": "for whom to produce",
+       "w": [
+        "what to produce",
+        "how to produce",
+        "allocation"
+       ],
+       "e": [
+        "what to produce means which goods and services to make; the question instead describes who receives output and on what basis.",
+        "how to produce means which techniques and resource combinations to use; the question instead describes who receives output and on what basis.",
+        "allocation means assigning scarce resources among competing uses; the question instead describes who receives output and on what basis."
+       ],
+       "y": "Who receives output and on what basis."
+      },
+      {
+       "q": "Which term means: assigning scarce resources among competing uses ?",
+       "r": "allocation",
+       "w": [
+        "what to produce",
+        "how to produce",
+        "for whom to produce"
+       ],
+       "e": [
+        "what to produce means which goods and services to make; the question instead describes assigning scarce resources among competing uses.",
+        "how to produce means which techniques and resource combinations to use; the question instead describes assigning scarce resources among competing uses.",
+        "for whom to produce means who receives output and on what basis; the question instead describes assigning scarce resources among competing uses."
+       ],
+       "y": "Assigning scarce resources among competing uses."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-9-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A community chooses between a clinic building and a market shelter.\nWhich term best fits this example?",
+       "r": "what to produce",
+       "w": [
+        "how to produce",
+        "for whom to produce",
+        "allocation"
+       ],
+       "e": [
+        "how to produce concerns which techniques and resource combinations to use. This case instead illustrates which goods and services to make.",
+        "for whom to produce concerns who receives output and on what basis. This case instead illustrates which goods and services to make.",
+        "allocation concerns assigning scarce resources among competing uses. This case instead illustrates which goods and services to make."
+       ],
+       "y": "A community chooses between a clinic building and a market shelter. Which goods and services to make."
+      },
+      {
+       "q": "A farmer chooses between hand tools and a hired machine.\nWhich term best fits this example?",
+       "r": "how to produce",
+       "w": [
+        "what to produce",
+        "for whom to produce",
+        "allocation"
+       ],
+       "e": [
+        "what to produce concerns which goods and services to make. This case instead illustrates which techniques and resource combinations to use.",
+        "for whom to produce concerns who receives output and on what basis. This case instead illustrates which techniques and resource combinations to use.",
+        "allocation concerns assigning scarce resources among competing uses. This case instead illustrates which techniques and resource combinations to use."
+       ],
+       "y": "A farmer chooses between hand tools and a hired machine. Which techniques and resource combinations to use."
+      },
+      {
+       "q": "A housing scheme decides which households qualify.\nWhich term best fits this example?",
+       "r": "for whom to produce",
+       "w": [
+        "what to produce",
+        "how to produce",
+        "allocation"
+       ],
+       "e": [
+        "what to produce concerns which goods and services to make. This case instead illustrates who receives output and on what basis.",
+        "how to produce concerns which techniques and resource combinations to use. This case instead illustrates who receives output and on what basis.",
+        "allocation concerns assigning scarce resources among competing uses. This case instead illustrates who receives output and on what basis."
+       ],
+       "y": "A housing scheme decides which households qualify. Who receives output and on what basis."
+      },
+      {
+       "q": "A village divides available land between housing and farming.\nWhich term best fits this example?",
+       "r": "allocation",
+       "w": [
+        "what to produce",
+        "how to produce",
+        "for whom to produce"
+       ],
+       "e": [
+        "what to produce concerns which goods and services to make. This case instead illustrates assigning scarce resources among competing uses.",
+        "how to produce concerns which techniques and resource combinations to use. This case instead illustrates assigning scarce resources among competing uses.",
+        "for whom to produce concerns who receives output and on what basis. This case instead illustrates assigning scarce resources among competing uses."
+       ],
+       "y": "A village divides available land between housing and farming. Assigning scarce resources among competing uses."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-9-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A community chooses between a clinic building and a market shelter.\nWhich explanation justifies the classification?",
+       "r": "Which goods and services to make.",
+       "w": [
+        "Which techniques and resource combinations to use.",
+        "Who receives output and on what basis.",
+        "Assigning scarce resources among competing uses."
+       ],
+       "e": [
+        "That explanation describes how to produce, rather than the relationship illustrated in this example.",
+        "That explanation describes for whom to produce, rather than the relationship illustrated in this example.",
+        "That explanation describes allocation, rather than the relationship illustrated in this example."
+       ],
+       "y": "What concerns the output selected, not who eventually receives it."
+      },
+      {
+       "q": "A farmer chooses between hand tools and a hired machine.\nWhich explanation justifies the classification?",
+       "r": "Which techniques and resource combinations to use.",
+       "w": [
+        "Which goods and services to make.",
+        "Who receives output and on what basis.",
+        "Assigning scarce resources among competing uses."
+       ],
+       "e": [
+        "That explanation describes what to produce, rather than the relationship illustrated in this example.",
+        "That explanation describes for whom to produce, rather than the relationship illustrated in this example.",
+        "That explanation describes allocation, rather than the relationship illustrated in this example."
+       ],
+       "y": "The product may stay fixed while the production method changes."
+      },
+      {
+       "q": "A housing scheme decides which households qualify.\nWhich explanation justifies the classification?",
+       "r": "Who receives output and on what basis.",
+       "w": [
+        "Which goods and services to make.",
+        "Which techniques and resource combinations to use.",
+        "Assigning scarce resources among competing uses."
+       ],
+       "e": [
+        "That explanation describes what to produce, rather than the relationship illustrated in this example.",
+        "That explanation describes how to produce, rather than the relationship illustrated in this example.",
+        "That explanation describes allocation, rather than the relationship illustrated in this example."
+       ],
+       "y": "Recipients concern distribution; machinery concerns technique."
+      },
+      {
+       "q": "A village divides available land between housing and farming.\nWhich explanation justifies the classification?",
+       "r": "Assigning scarce resources among competing uses.",
+       "w": [
+        "Which goods and services to make.",
+        "Which techniques and resource combinations to use.",
+        "Who receives output and on what basis."
+       ],
+       "e": [
+        "That explanation describes what to produce, rather than the relationship illustrated in this example.",
+        "That explanation describes how to produce, rather than the relationship illustrated in this example.",
+        "That explanation describes for whom to produce, rather than the relationship illustrated in this example."
+       ],
+       "y": "Competing uses are precisely why allocation decisions are needed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-9-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "what to produce",
+     "right": "A community chooses between a clinic building and a market shelter."
+    },
+    {
+     "left": "how to produce",
+     "right": "A farmer chooses between hand tools and a hired machine."
+    },
+    {
+     "left": "for whom to produce",
+     "right": "A housing scheme decides which households qualify."
+    },
+    {
+     "left": "allocation",
+     "right": "A village divides available land between housing and farming."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "n3-9-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "what to produce: which goods and services to make.",
+      "truth": "true",
+      "explain": "This statement is correct: what to produce means which goods and services to make. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "how to produce: which techniques and resource combinations to use.",
+      "truth": "true",
+      "explain": "This statement is correct: how to produce means which techniques and resource combinations to use. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "for whom to produce: who receives output and on what basis.",
+      "truth": "true",
+      "explain": "This statement is correct: for whom to produce means who receives output and on what basis. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "allocation: assigning scarce resources among competing uses.",
+      "truth": "true",
+      "explain": "This statement is correct: allocation means assigning scarce resources among competing uses. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Choosing the product is only a question about the buyer's identity.",
+      "truth": "false",
+      "explain": "What concerns the output selected, not who eventually receives it."
+     },
+     {
+      "text": "A choice of technique answers only what product to make.",
+      "truth": "false",
+      "explain": "The product may stay fixed while the production method changes."
+     },
+     {
+      "text": "Distribution is identical to choosing a machine.",
+      "truth": "false",
+      "explain": "Recipients concern distribution; machinery concerns technique."
+     },
+     {
+      "text": "Allocation is unnecessary when land has competing uses.",
+      "truth": "false",
+      "explain": "Competing uses are precisely why allocation decisions are needed."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

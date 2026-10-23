@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-7",
+   "name": "Adverbs of frequency"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Adverbs of frequency say how often an action happens. Always indicates every relevant occasion; usually and often indicate frequent occurrence; sometimes is less regular; never means no occasions. Their exact numerical frequency is not fixed. A common position is before an ordinary main verb but after be: Bih often reads; Bih is often early. Some adverbs allow other positions. Do not mark a different standard position wrong merely because it is not the model's preferred pattern.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Adverbs of frequency say how often an action happens. Always indicates every relevant occasion; usually and often indicate frequent occurrence; sometimes is less regular; never means no occasions. Their exact numerical frequency is not fixed. A common position is before an ordinary main verb but after be: Bih often reads; Bih is often early. Some adverbs allow other positions. Do not mark a different standard position wrong merely because it is not the model's preferred pattern."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Bih usually studies after chores, but sometimes she studies at the library. Ayuk is often early for the reading club. These sentences describe habits, not how fast or carefully the learners work. A timetable can help a learner report a habit accurately rather than claiming always after one observed occasion."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Ask whether the word concerns frequency, manner or time. For the simple pattern, place it before an ordinary main verb and after be. Keep the meaning when changing word order. Never is already negative in standard school usage: avoid adding an unnecessary not."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "frequency",
+    "meaning": "how often something happens"
+   },
+   {
+    "word": "before the main verb",
+    "meaning": "the common position in a simple affirmative sentence"
+   },
+   {
+    "word": "after be",
+    "meaning": "the common position with a simple form of be"
+   },
+   {
+    "word": "never",
+    "meaning": "a frequency adverb meaning on no occasions"
+   }
+  ],
+  "examples": [
+   "Bih often visits the library.",
+   "Ayuk usually reads after supper.",
+   "Bih is often early."
+  ],
+  "mistake": {
+   "wrong": "Often tells us how fast Bih walks.",
+   "right": "frequency: how often something happens.",
+   "why": "Often concerns repetition, not speed or manner."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih often visits the library. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "How often something happens.",
+   "Often concerns repetition, not speed or manner."
+  ],
+  "answer": "frequency",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-7-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "frequency: how often something happens.",
+     "before the main verb: the common position in a simple affirmative sentence.",
+     "after be: the common position with a simple form of be.",
+     "never: a frequency adverb meaning on no occasions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-7-terms"
+    }
+   },
+   {
+    "id": "ce3-7-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Bih often visits the library.",
+     "frequency: how often something happens."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-7-cases"
+    }
+   },
+   {
+    "id": "ce3-7-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Often tells us how fast Bih walks.",
+     "Often concerns repetition, not speed or manner."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-7-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "frequency: how often something happens.",
+        "truth": "true",
+        "explain": "This statement is correct: frequency means how often something happens. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "before the main verb: the common position in a simple affirmative sentence.",
+        "truth": "true",
+        "explain": "This statement is correct: before the main verb means the common position in a simple affirmative sentence. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "after be: the common position with a simple form of be.",
+        "truth": "true",
+        "explain": "This statement is correct: after be means the common position with a simple form of be. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "never: a frequency adverb meaning on no occasions.",
+        "truth": "true",
+        "explain": "This statement is correct: never means a frequency adverb meaning on no occasions. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Often tells us how fast Bih walks.",
+        "truth": "false",
+        "explain": "Often concerns repetition, not speed or manner."
+       },
+       {
+        "text": "Ayuk reads usually after supper is the only possible standard order.",
+        "truth": "false",
+        "explain": "The common neutral pattern places usually before the main verb; other positions need context."
+       },
+       {
+        "text": "Bih often is early is always the only possible neutral order.",
+        "truth": "false",
+        "explain": "The common neutral pattern is be + frequency adverb."
+       },
+       {
+        "text": "I do not never attend is the standard neutral form for never attending.",
+        "truth": "false",
+        "explain": "Never already supplies negative meaning in standard school usage."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-7-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: how often something happens ?",
+       "r": "frequency",
+       "w": [
+        "before the main verb",
+        "after be",
+        "never"
+       ],
+       "e": [
+        "before the main verb means the common position in a simple affirmative sentence; the question instead describes how often something happens.",
+        "after be means the common position with a simple form of be; the question instead describes how often something happens.",
+        "never means a frequency adverb meaning on no occasions; the question instead describes how often something happens."
+       ],
+       "y": "How often something happens."
+      },
+      {
+       "q": "Which term means: the common position in a simple affirmative sentence ?",
+       "r": "before the main verb",
+       "w": [
+        "frequency",
+        "after be",
+        "never"
+       ],
+       "e": [
+        "frequency means how often something happens; the question instead describes the common position in a simple affirmative sentence.",
+        "after be means the common position with a simple form of be; the question instead describes the common position in a simple affirmative sentence.",
+        "never means a frequency adverb meaning on no occasions; the question instead describes the common position in a simple affirmative sentence."
+       ],
+       "y": "The common position in a simple affirmative sentence."
+      },
+      {
+       "q": "Which term means: the common position with a simple form of be ?",
+       "r": "after be",
+       "w": [
+        "frequency",
+        "before the main verb",
+        "never"
+       ],
+       "e": [
+        "frequency means how often something happens; the question instead describes the common position with a simple form of be.",
+        "before the main verb means the common position in a simple affirmative sentence; the question instead describes the common position with a simple form of be.",
+        "never means a frequency adverb meaning on no occasions; the question instead describes the common position with a simple form of be."
+       ],
+       "y": "The common position with a simple form of be."
+      },
+      {
+       "q": "Which term means: a frequency adverb meaning on no occasions ?",
+       "r": "never",
+       "w": [
+        "frequency",
+        "before the main verb",
+        "after be"
+       ],
+       "e": [
+        "frequency means how often something happens; the question instead describes a frequency adverb meaning on no occasions.",
+        "before the main verb means the common position in a simple affirmative sentence; the question instead describes a frequency adverb meaning on no occasions.",
+        "after be means the common position with a simple form of be; the question instead describes a frequency adverb meaning on no occasions."
+       ],
+       "y": "A frequency adverb meaning on no occasions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-7-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih often visits the library.\nWhich term best fits this example?",
+       "r": "frequency",
+       "w": [
+        "before the main verb",
+        "after be",
+        "never"
+       ],
+       "e": [
+        "before the main verb concerns the common position in a simple affirmative sentence. This case instead illustrates how often something happens.",
+        "after be concerns the common position with a simple form of be. This case instead illustrates how often something happens.",
+        "never concerns a frequency adverb meaning on no occasions. This case instead illustrates how often something happens."
+       ],
+       "y": "Bih often visits the library. How often something happens."
+      },
+      {
+       "q": "Ayuk usually reads after supper.\nWhich term best fits this example?",
+       "r": "before the main verb",
+       "w": [
+        "frequency",
+        "after be",
+        "never"
+       ],
+       "e": [
+        "frequency concerns how often something happens. This case instead illustrates the common position in a simple affirmative sentence.",
+        "after be concerns the common position with a simple form of be. This case instead illustrates the common position in a simple affirmative sentence.",
+        "never concerns a frequency adverb meaning on no occasions. This case instead illustrates the common position in a simple affirmative sentence."
+       ],
+       "y": "Ayuk usually reads after supper. The common position in a simple affirmative sentence."
+      },
+      {
+       "q": "Bih is often early.\nWhich term best fits this example?",
+       "r": "after be",
+       "w": [
+        "frequency",
+        "before the main verb",
+        "never"
+       ],
+       "e": [
+        "frequency concerns how often something happens. This case instead illustrates the common position with a simple form of be.",
+        "before the main verb concerns the common position in a simple affirmative sentence. This case instead illustrates the common position with a simple form of be.",
+        "never concerns a frequency adverb meaning on no occasions. This case instead illustrates the common position with a simple form of be."
+       ],
+       "y": "Bih is often early. The common position with a simple form of be."
+      },
+      {
+       "q": "In the stated habit, the learner never misses the club.\nWhich term best fits this example?",
+       "r": "never",
+       "w": [
+        "frequency",
+        "before the main verb",
+        "after be"
+       ],
+       "e": [
+        "frequency concerns how often something happens. This case instead illustrates a frequency adverb meaning on no occasions.",
+        "before the main verb concerns the common position in a simple affirmative sentence. This case instead illustrates a frequency adverb meaning on no occasions.",
+        "after be concerns the common position with a simple form of be. This case instead illustrates a frequency adverb meaning on no occasions."
+       ],
+       "y": "In the stated habit, the learner never misses the club. A frequency adverb meaning on no occasions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-7-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih often visits the library.\nWhich explanation justifies the classification?",
+       "r": "How often something happens.",
+       "w": [
+        "The common position in a simple affirmative sentence.",
+        "The common position with a simple form of be.",
+        "A frequency adverb meaning on no occasions."
+       ],
+       "e": [
+        "That explanation describes before the main verb, rather than the relationship illustrated in this example.",
+        "That explanation describes after be, rather than the relationship illustrated in this example.",
+        "That explanation describes never, rather than the relationship illustrated in this example."
+       ],
+       "y": "Often concerns repetition, not speed or manner."
+      },
+      {
+       "q": "Ayuk usually reads after supper.\nWhich explanation justifies the classification?",
+       "r": "The common position in a simple affirmative sentence.",
+       "w": [
+        "How often something happens.",
+        "The common position with a simple form of be.",
+        "A frequency adverb meaning on no occasions."
+       ],
+       "e": [
+        "That explanation describes frequency, rather than the relationship illustrated in this example.",
+        "That explanation describes after be, rather than the relationship illustrated in this example.",
+        "That explanation describes never, rather than the relationship illustrated in this example."
+       ],
+       "y": "The common neutral pattern places usually before the main verb; other positions need context."
+      },
+      {
+       "q": "Bih is often early.\nWhich explanation justifies the classification?",
+       "r": "The common position with a simple form of be.",
+       "w": [
+        "How often something happens.",
+        "The common position in a simple affirmative sentence.",
+        "A frequency adverb meaning on no occasions."
+       ],
+       "e": [
+        "That explanation describes frequency, rather than the relationship illustrated in this example.",
+        "That explanation describes before the main verb, rather than the relationship illustrated in this example.",
+        "That explanation describes never, rather than the relationship illustrated in this example."
+       ],
+       "y": "The common neutral pattern is be + frequency adverb."
+      },
+      {
+       "q": "In the stated habit, the learner never misses the club.\nWhich explanation justifies the classification?",
+       "r": "A frequency adverb meaning on no occasions.",
+       "w": [
+        "How often something happens.",
+        "The common position in a simple affirmative sentence.",
+        "The common position with a simple form of be."
+       ],
+       "e": [
+        "That explanation describes frequency, rather than the relationship illustrated in this example.",
+        "That explanation describes before the main verb, rather than the relationship illustrated in this example.",
+        "That explanation describes after be, rather than the relationship illustrated in this example."
+       ],
+       "y": "Never already supplies negative meaning in standard school usage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-7-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "frequency",
+     "right": "Bih often visits the library."
+    },
+    {
+     "left": "before the main verb",
+     "right": "Ayuk usually reads after supper."
+    },
+    {
+     "left": "after be",
+     "right": "Bih is often early."
+    },
+    {
+     "left": "never",
+     "right": "In the stated habit, the learner never misses the club."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-7-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "frequency: how often something happens.",
+      "truth": "true",
+      "explain": "This statement is correct: frequency means how often something happens. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "before the main verb: the common position in a simple affirmative sentence.",
+      "truth": "true",
+      "explain": "This statement is correct: before the main verb means the common position in a simple affirmative sentence. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "after be: the common position with a simple form of be.",
+      "truth": "true",
+      "explain": "This statement is correct: after be means the common position with a simple form of be. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "never: a frequency adverb meaning on no occasions.",
+      "truth": "true",
+      "explain": "This statement is correct: never means a frequency adverb meaning on no occasions. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Often tells us how fast Bih walks.",
+      "truth": "false",
+      "explain": "Often concerns repetition, not speed or manner."
+     },
+     {
+      "text": "Ayuk reads usually after supper is the only possible standard order.",
+      "truth": "false",
+      "explain": "The common neutral pattern places usually before the main verb; other positions need context."
+     },
+     {
+      "text": "Bih often is early is always the only possible neutral order.",
+      "truth": "false",
+      "explain": "The common neutral pattern is be + frequency adverb."
+     },
+     {
+      "text": "I do not never attend is the standard neutral form for never attending.",
+      "truth": "false",
+      "explain": "Never already supplies negative meaning in standard school usage."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

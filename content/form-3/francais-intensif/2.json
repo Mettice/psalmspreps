@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-2",
+   "name": "Les présentatifs : voici et voilà"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Voici et voilà servent à présenter ou à montrer une personne, un objet ou une information. Dans un contraste spatial simple, voici présente ce qui est proche du locuteur et voilà ce qui est plus éloigné. Ce n’est pas leur seul emploi : ils peuvent aussi organiser un discours ou reprendre une information. Ces formes restent invariables devant un nom singulier ou pluriel. Elles ne sont pas des déterminants possessifs.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Voici et voilà servent à présenter ou à montrer une personne, un objet ou une information. Dans un contraste spatial simple, voici présente ce qui est proche du locuteur et voilà ce qui est plus éloigné. Ce n’est pas leur seul emploi : ils peuvent aussi organiser un discours ou reprendre une information. Ces formes restent invariables devant un nom singulier ou pluriel. Elles ne sont pas des déterminants possessifs."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans le modèle spatial, Bih tient un cahier et dit : « Voici mon cahier. » Elle montre plus loin une affiche : « Voilà l’affiche du club. » Elle peut présenter plusieurs livres sans ajouter de marque de pluriel à voici. Dans un exposé, voici le projet annonce aussi une information à expliquer."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Demande-toi si le mot présente quelque chose et si le contexte impose une opposition proche/éloigné. Ne transforme pas une préférence de présentation en interdiction de tout autre emploi standard. Observe le nom après le présentatif sans accorder voici ou voilà."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "voici",
+    "meaning": "le présentatif du proche dans le contraste spatial étudié"
+   },
+   {
+    "word": "voilà",
+    "meaning": "le présentatif de l’éloigné dans le contraste spatial étudié"
+   },
+   {
+    "word": "présentation d’information",
+    "meaning": "l’emploi d’un présentatif pour introduire un contenu"
+   },
+   {
+    "word": "invariabilité",
+    "meaning": "l’absence de variation du présentatif selon le nom"
+   }
+  ],
+  "examples": [
+   "Bih tient le cahier : voici mon cahier.",
+   "Bih montre l’affiche plus loin : voilà l’affiche.",
+   "Voici le projet annonce ce qui va être expliqué."
+  ],
+  "mistake": {
+   "wrong": "Voici doit toujours prendre un s devant plusieurs objets.",
+   "right": "voici: le présentatif du proche dans le contraste spatial étudié.",
+   "why": "Le présentatif reste invariable."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih tient le cahier : voici mon cahier. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le présentatif du proche dans le contraste spatial étudié.",
+   "Le présentatif reste invariable."
+  ],
+  "answer": "voici",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-2-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "voici: le présentatif du proche dans le contraste spatial étudié.",
+     "voilà: le présentatif de l’éloigné dans le contraste spatial étudié.",
+     "présentation d’information: l’emploi d’un présentatif pour introduire un contenu.",
+     "invariabilité: l’absence de variation du présentatif selon le nom."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-2-terms"
+    }
+   },
+   {
+    "id": "cfi3-2-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Bih tient le cahier : voici mon cahier.",
+     "voici: le présentatif du proche dans le contraste spatial étudié."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-2-cases"
+    }
+   },
+   {
+    "id": "cfi3-2-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Voici doit toujours prendre un s devant plusieurs objets.",
+     "Le présentatif reste invariable."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-2-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "voici : le présentatif du proche dans le contraste spatial étudié.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : voici désigne le présentatif du proche dans le contraste spatial étudié. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "voilà : le présentatif de l’éloigné dans le contraste spatial étudié.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : voilà désigne le présentatif de l’éloigné dans le contraste spatial étudié. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "présentation d’information : l’emploi d’un présentatif pour introduire un contenu.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : présentation d’information désigne l’emploi d’un présentatif pour introduire un contenu. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "invariabilité : l’absence de variation du présentatif selon le nom.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : invariabilité désigne l’absence de variation du présentatif selon le nom. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Voici doit toujours prendre un s devant plusieurs objets.",
+        "truth": "false",
+        "explain": "Le présentatif reste invariable."
+       },
+       {
+        "text": "Voilà ne peut présenter que des noms singuliers.",
+        "truth": "false",
+        "explain": "On peut présenter plusieurs objets avec le même mot."
+       },
+       {
+        "text": "Un présentatif ne peut jamais organiser le discours.",
+        "truth": "false",
+        "explain": "Son emploi dépasse le seul contraste de distance."
+       },
+       {
+        "text": "Le pluriel exige obligatoirement voicis.",
+        "truth": "false",
+        "explain": "Voici ne reçoit pas le pluriel du nom."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le présentatif du proche dans le contraste spatial étudié ?",
+       "r": "voici",
+       "w": [
+        "voilà",
+        "présentation d’information",
+        "invariabilité"
+       ],
+       "e": [
+        "« voilà » désigne le présentatif de l’éloigné dans le contraste spatial étudié. Ici, cherche le présentatif du proche dans le contraste spatial étudié.",
+        "« présentation d’information » désigne l’emploi d’un présentatif pour introduire un contenu. Ici, cherche le présentatif du proche dans le contraste spatial étudié.",
+        "« invariabilité » désigne l’absence de variation du présentatif selon le nom. Ici, cherche le présentatif du proche dans le contraste spatial étudié."
+       ],
+       "y": "Le présentatif du proche dans le contraste spatial étudié."
+      },
+      {
+       "q": "Quel terme désigne : le présentatif de l’éloigné dans le contraste spatial étudié ?",
+       "r": "voilà",
+       "w": [
+        "voici",
+        "présentation d’information",
+        "invariabilité"
+       ],
+       "e": [
+        "« voici » désigne le présentatif du proche dans le contraste spatial étudié. Ici, cherche le présentatif de l’éloigné dans le contraste spatial étudié.",
+        "« présentation d’information » désigne l’emploi d’un présentatif pour introduire un contenu. Ici, cherche le présentatif de l’éloigné dans le contraste spatial étudié.",
+        "« invariabilité » désigne l’absence de variation du présentatif selon le nom. Ici, cherche le présentatif de l’éloigné dans le contraste spatial étudié."
+       ],
+       "y": "Le présentatif de l’éloigné dans le contraste spatial étudié."
+      },
+      {
+       "q": "Quel terme désigne : l’emploi d’un présentatif pour introduire un contenu ?",
+       "r": "présentation d’information",
+       "w": [
+        "voici",
+        "voilà",
+        "invariabilité"
+       ],
+       "e": [
+        "« voici » désigne le présentatif du proche dans le contraste spatial étudié. Ici, cherche l’emploi d’un présentatif pour introduire un contenu.",
+        "« voilà » désigne le présentatif de l’éloigné dans le contraste spatial étudié. Ici, cherche l’emploi d’un présentatif pour introduire un contenu.",
+        "« invariabilité » désigne l’absence de variation du présentatif selon le nom. Ici, cherche l’emploi d’un présentatif pour introduire un contenu."
+       ],
+       "y": "L’emploi d’un présentatif pour introduire un contenu."
+      },
+      {
+       "q": "Quel terme désigne : l’absence de variation du présentatif selon le nom ?",
+       "r": "invariabilité",
+       "w": [
+        "voici",
+        "voilà",
+        "présentation d’information"
+       ],
+       "e": [
+        "« voici » désigne le présentatif du proche dans le contraste spatial étudié. Ici, cherche l’absence de variation du présentatif selon le nom.",
+        "« voilà » désigne le présentatif de l’éloigné dans le contraste spatial étudié. Ici, cherche l’absence de variation du présentatif selon le nom.",
+        "« présentation d’information » désigne l’emploi d’un présentatif pour introduire un contenu. Ici, cherche l’absence de variation du présentatif selon le nom."
+       ],
+       "y": "L’absence de variation du présentatif selon le nom."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih tient le cahier : voici mon cahier.\nQuel terme s’applique le mieux ?",
+       "r": "voici",
+       "w": [
+        "voilà",
+        "présentation d’information",
+        "invariabilité"
+       ],
+       "e": [
+        "« voilà » concerne le présentatif de l’éloigné dans le contraste spatial étudié. Le cas décrit plutôt le présentatif du proche dans le contraste spatial étudié.",
+        "« présentation d’information » concerne l’emploi d’un présentatif pour introduire un contenu. Le cas décrit plutôt le présentatif du proche dans le contraste spatial étudié.",
+        "« invariabilité » concerne l’absence de variation du présentatif selon le nom. Le cas décrit plutôt le présentatif du proche dans le contraste spatial étudié."
+       ],
+       "y": "Bih tient le cahier : voici mon cahier. Le présentatif du proche dans le contraste spatial étudié."
+      },
+      {
+       "q": "Bih montre l’affiche plus loin : voilà l’affiche.\nQuel terme s’applique le mieux ?",
+       "r": "voilà",
+       "w": [
+        "voici",
+        "présentation d’information",
+        "invariabilité"
+       ],
+       "e": [
+        "« voici » concerne le présentatif du proche dans le contraste spatial étudié. Le cas décrit plutôt le présentatif de l’éloigné dans le contraste spatial étudié.",
+        "« présentation d’information » concerne l’emploi d’un présentatif pour introduire un contenu. Le cas décrit plutôt le présentatif de l’éloigné dans le contraste spatial étudié.",
+        "« invariabilité » concerne l’absence de variation du présentatif selon le nom. Le cas décrit plutôt le présentatif de l’éloigné dans le contraste spatial étudié."
+       ],
+       "y": "Bih montre l’affiche plus loin : voilà l’affiche. Le présentatif de l’éloigné dans le contraste spatial étudié."
+      },
+      {
+       "q": "Voici le projet annonce ce qui va être expliqué.\nQuel terme s’applique le mieux ?",
+       "r": "présentation d’information",
+       "w": [
+        "voici",
+        "voilà",
+        "invariabilité"
+       ],
+       "e": [
+        "« voici » concerne le présentatif du proche dans le contraste spatial étudié. Le cas décrit plutôt l’emploi d’un présentatif pour introduire un contenu.",
+        "« voilà » concerne le présentatif de l’éloigné dans le contraste spatial étudié. Le cas décrit plutôt l’emploi d’un présentatif pour introduire un contenu.",
+        "« invariabilité » concerne l’absence de variation du présentatif selon le nom. Le cas décrit plutôt l’emploi d’un présentatif pour introduire un contenu."
+       ],
+       "y": "Voici le projet annonce ce qui va être expliqué. L’emploi d’un présentatif pour introduire un contenu."
+      },
+      {
+       "q": "Voici des livres conserve la même forme de voici.\nQuel terme s’applique le mieux ?",
+       "r": "invariabilité",
+       "w": [
+        "voici",
+        "voilà",
+        "présentation d’information"
+       ],
+       "e": [
+        "« voici » concerne le présentatif du proche dans le contraste spatial étudié. Le cas décrit plutôt l’absence de variation du présentatif selon le nom.",
+        "« voilà » concerne le présentatif de l’éloigné dans le contraste spatial étudié. Le cas décrit plutôt l’absence de variation du présentatif selon le nom.",
+        "« présentation d’information » concerne l’emploi d’un présentatif pour introduire un contenu. Le cas décrit plutôt l’absence de variation du présentatif selon le nom."
+       ],
+       "y": "Voici des livres conserve la même forme de voici. L’absence de variation du présentatif selon le nom."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-2-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih tient le cahier : voici mon cahier.\nQuelle explication justifie le classement ?",
+       "r": "Le présentatif du proche dans le contraste spatial étudié.",
+       "w": [
+        "Le présentatif de l’éloigné dans le contraste spatial étudié.",
+        "L’emploi d’un présentatif pour introduire un contenu.",
+        "L’absence de variation du présentatif selon le nom."
+       ],
+       "e": [
+        "Cette explication correspond à « voilà ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « présentation d’information ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « invariabilité ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le présentatif reste invariable."
+      },
+      {
+       "q": "Bih montre l’affiche plus loin : voilà l’affiche.\nQuelle explication justifie le classement ?",
+       "r": "Le présentatif de l’éloigné dans le contraste spatial étudié.",
+       "w": [
+        "Le présentatif du proche dans le contraste spatial étudié.",
+        "L’emploi d’un présentatif pour introduire un contenu.",
+        "L’absence de variation du présentatif selon le nom."
+       ],
+       "e": [
+        "Cette explication correspond à « voici ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « présentation d’information ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « invariabilité ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "On peut présenter plusieurs objets avec le même mot."
+      },
+      {
+       "q": "Voici le projet annonce ce qui va être expliqué.\nQuelle explication justifie le classement ?",
+       "r": "L’emploi d’un présentatif pour introduire un contenu.",
+       "w": [
+        "Le présentatif du proche dans le contraste spatial étudié.",
+        "Le présentatif de l’éloigné dans le contraste spatial étudié.",
+        "L’absence de variation du présentatif selon le nom."
+       ],
+       "e": [
+        "Cette explication correspond à « voici ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « voilà ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « invariabilité ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Son emploi dépasse le seul contraste de distance."
+      },
+      {
+       "q": "Voici des livres conserve la même forme de voici.\nQuelle explication justifie le classement ?",
+       "r": "L’absence de variation du présentatif selon le nom.",
+       "w": [
+        "Le présentatif du proche dans le contraste spatial étudié.",
+        "Le présentatif de l’éloigné dans le contraste spatial étudié.",
+        "L’emploi d’un présentatif pour introduire un contenu."
+       ],
+       "e": [
+        "Cette explication correspond à « voici ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « voilà ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « présentation d’information ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Voici ne reçoit pas le pluriel du nom."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-2-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "voici",
+     "right": "Bih tient le cahier : voici mon cahier."
+    },
+    {
+     "left": "voilà",
+     "right": "Bih montre l’affiche plus loin : voilà l’affiche."
+    },
+    {
+     "left": "présentation d’information",
+     "right": "Voici le projet annonce ce qui va être expliqué."
+    },
+    {
+     "left": "invariabilité",
+     "right": "Voici des livres conserve la même forme de voici."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-2-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "voici : le présentatif du proche dans le contraste spatial étudié.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : voici désigne le présentatif du proche dans le contraste spatial étudié. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "voilà : le présentatif de l’éloigné dans le contraste spatial étudié.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : voilà désigne le présentatif de l’éloigné dans le contraste spatial étudié. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "présentation d’information : l’emploi d’un présentatif pour introduire un contenu.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : présentation d’information désigne l’emploi d’un présentatif pour introduire un contenu. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "invariabilité : l’absence de variation du présentatif selon le nom.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : invariabilité désigne l’absence de variation du présentatif selon le nom. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Voici doit toujours prendre un s devant plusieurs objets.",
+      "truth": "false",
+      "explain": "Le présentatif reste invariable."
+     },
+     {
+      "text": "Voilà ne peut présenter que des noms singuliers.",
+      "truth": "false",
+      "explain": "On peut présenter plusieurs objets avec le même mot."
+     },
+     {
+      "text": "Un présentatif ne peut jamais organiser le discours.",
+      "truth": "false",
+      "explain": "Son emploi dépasse le seul contraste de distance."
+     },
+     {
+      "text": "Le pluriel exige obligatoirement voicis.",
+      "truth": "false",
+      "explain": "Voici ne reçoit pas le pluriel du nom."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

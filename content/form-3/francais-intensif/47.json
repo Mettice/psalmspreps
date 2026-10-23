@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 47,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-47",
+   "name": "Le lexique de la gestion des déchets"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La gestion des déchets comprend la réduction à la source, la collecte, le tri et des traitements appropriés. Collecter signifie rassembler pour une prise en charge ; trier sépare selon des catégories ; recycler transforme une matière par une filière adaptée ; un déchet dangereux nécessite des précautions particulières. Le tri seul ne garantit pas un recyclage effectif. Les élèves doivent suivre les consignes locales et ne pas manipuler d’objets coupants, médicaux ou inconnus.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "La gestion des déchets comprend la réduction à la source, la collecte, le tri et des traitements appropriés. Collecter signifie rassembler pour une prise en charge ; trier sépare selon des catégories ; recycler transforme une matière par une filière adaptée ; un déchet dangereux nécessite des précautions particulières. Le tri seul ne garantit pas un recyclage effectif. Les élèves doivent suivre les consignes locales et ne pas manipuler d’objets coupants, médicaux ou inconnus."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Dans un projet fictif, un club lit les consignes de l’école avant d’agir. Il distingue le rassemblement des papiers autorisés, leur séparation selon les catégories acceptées et le traitement par une filière. Il confie au personnel compétent le signalement d’un objet dangereux au lieu de le toucher pour une démonstration."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis la phrase entière, relève les indices et compare les sens. Choisis un mot pour ce contexte, puis emploie-le dans une phrase originale. Un exemple n’autorise pas une généralisation à toutes les situations. Explique ton choix sans recopier une définition sans rapport."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "collecte",
+    "meaning": "le rassemblement de déchets pour leur prise en charge"
+   },
+   {
+    "word": "tri",
+    "meaning": "la séparation des déchets selon des catégories pertinentes"
+   },
+   {
+    "word": "recyclage",
+    "meaning": "la transformation d’une matière par une filière adaptée"
+   },
+   {
+    "word": "déchet dangereux",
+    "meaning": "un déchet demandant des précautions spécifiques"
+   }
+  ],
+  "examples": [
+   "Des papiers autorisés sont réunis au point prévu.",
+   "Les matières sont séparées selon les consignes acceptées localement.",
+   "Une filière transforme une matière acceptée."
+  ],
+  "mistake": {
+   "wrong": "Collecter signifie nécessairement transformer industriellement toute matière.",
+   "right": "collecte: le rassemblement de déchets pour leur prise en charge.",
+   "why": "La collecte rassemble ; le traitement est une autre étape."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Des papiers autorisés sont réunis au point prévu. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le rassemblement de déchets pour leur prise en charge.",
+   "La collecte rassemble ; le traitement est une autre étape."
+  ],
+  "answer": "collecte",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-47-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "collecte: le rassemblement de déchets pour leur prise en charge.",
+     "tri: la séparation des déchets selon des catégories pertinentes.",
+     "recyclage: la transformation d’une matière par une filière adaptée.",
+     "déchet dangereux: un déchet demandant des précautions spécifiques."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-47-terms"
+    }
+   },
+   {
+    "id": "cfi3-47-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Des papiers autorisés sont réunis au point prévu.",
+     "collecte: le rassemblement de déchets pour leur prise en charge."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-47-cases"
+    }
+   },
+   {
+    "id": "cfi3-47-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Collecter signifie nécessairement transformer industriellement toute matière.",
+     "La collecte rassemble ; le traitement est une autre étape."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-47-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "collecte : le rassemblement de déchets pour leur prise en charge.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : collecte désigne le rassemblement de déchets pour leur prise en charge. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "tri : la séparation des déchets selon des catégories pertinentes.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : tri désigne la séparation des déchets selon des catégories pertinentes. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "recyclage : la transformation d’une matière par une filière adaptée.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : recyclage désigne la transformation d’une matière par une filière adaptée. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "déchet dangereux : un déchet demandant des précautions spécifiques.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : déchet dangereux désigne un déchet demandant des précautions spécifiques. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Collecter signifie nécessairement transformer industriellement toute matière.",
+        "truth": "false",
+        "explain": "La collecte rassemble ; le traitement est une autre étape."
+       },
+       {
+        "text": "Un objet trié est automatiquement déjà recyclé.",
+        "truth": "false",
+        "explain": "La séparation ne prouve pas le traitement effectif."
+       },
+       {
+        "text": "Tout objet se recycle de la même manière partout.",
+        "truth": "false",
+        "explain": "Les matières acceptées et les installations varient."
+       },
+       {
+        "text": "Un déchet médical inconnu doit être touché à mains nues pour apprendre.",
+        "truth": "false",
+        "explain": "Signale l’objet et respecte les consignes du personnel compétent."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-47-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le rassemblement de déchets pour leur prise en charge ?",
+       "r": "collecte",
+       "w": [
+        "tri",
+        "recyclage",
+        "déchet dangereux"
+       ],
+       "e": [
+        "« tri » désigne la séparation des déchets selon des catégories pertinentes. Ici, cherche le rassemblement de déchets pour leur prise en charge.",
+        "« recyclage » désigne la transformation d’une matière par une filière adaptée. Ici, cherche le rassemblement de déchets pour leur prise en charge.",
+        "« déchet dangereux » désigne un déchet demandant des précautions spécifiques. Ici, cherche le rassemblement de déchets pour leur prise en charge."
+       ],
+       "y": "Le rassemblement de déchets pour leur prise en charge."
+      },
+      {
+       "q": "Quel terme désigne : la séparation des déchets selon des catégories pertinentes ?",
+       "r": "tri",
+       "w": [
+        "collecte",
+        "recyclage",
+        "déchet dangereux"
+       ],
+       "e": [
+        "« collecte » désigne le rassemblement de déchets pour leur prise en charge. Ici, cherche la séparation des déchets selon des catégories pertinentes.",
+        "« recyclage » désigne la transformation d’une matière par une filière adaptée. Ici, cherche la séparation des déchets selon des catégories pertinentes.",
+        "« déchet dangereux » désigne un déchet demandant des précautions spécifiques. Ici, cherche la séparation des déchets selon des catégories pertinentes."
+       ],
+       "y": "La séparation des déchets selon des catégories pertinentes."
+      },
+      {
+       "q": "Quel terme désigne : la transformation d’une matière par une filière adaptée ?",
+       "r": "recyclage",
+       "w": [
+        "collecte",
+        "tri",
+        "déchet dangereux"
+       ],
+       "e": [
+        "« collecte » désigne le rassemblement de déchets pour leur prise en charge. Ici, cherche la transformation d’une matière par une filière adaptée.",
+        "« tri » désigne la séparation des déchets selon des catégories pertinentes. Ici, cherche la transformation d’une matière par une filière adaptée.",
+        "« déchet dangereux » désigne un déchet demandant des précautions spécifiques. Ici, cherche la transformation d’une matière par une filière adaptée."
+       ],
+       "y": "La transformation d’une matière par une filière adaptée."
+      },
+      {
+       "q": "Quel terme désigne : un déchet demandant des précautions spécifiques ?",
+       "r": "déchet dangereux",
+       "w": [
+        "collecte",
+        "tri",
+        "recyclage"
+       ],
+       "e": [
+        "« collecte » désigne le rassemblement de déchets pour leur prise en charge. Ici, cherche un déchet demandant des précautions spécifiques.",
+        "« tri » désigne la séparation des déchets selon des catégories pertinentes. Ici, cherche un déchet demandant des précautions spécifiques.",
+        "« recyclage » désigne la transformation d’une matière par une filière adaptée. Ici, cherche un déchet demandant des précautions spécifiques."
+       ],
+       "y": "Un déchet demandant des précautions spécifiques."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-47-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Des papiers autorisés sont réunis au point prévu.\nQuel terme s’applique le mieux ?",
+       "r": "collecte",
+       "w": [
+        "tri",
+        "recyclage",
+        "déchet dangereux"
+       ],
+       "e": [
+        "« tri » concerne la séparation des déchets selon des catégories pertinentes. Le cas décrit plutôt le rassemblement de déchets pour leur prise en charge.",
+        "« recyclage » concerne la transformation d’une matière par une filière adaptée. Le cas décrit plutôt le rassemblement de déchets pour leur prise en charge.",
+        "« déchet dangereux » concerne un déchet demandant des précautions spécifiques. Le cas décrit plutôt le rassemblement de déchets pour leur prise en charge."
+       ],
+       "y": "Des papiers autorisés sont réunis au point prévu. Le rassemblement de déchets pour leur prise en charge."
+      },
+      {
+       "q": "Les matières sont séparées selon les consignes acceptées localement.\nQuel terme s’applique le mieux ?",
+       "r": "tri",
+       "w": [
+        "collecte",
+        "recyclage",
+        "déchet dangereux"
+       ],
+       "e": [
+        "« collecte » concerne le rassemblement de déchets pour leur prise en charge. Le cas décrit plutôt la séparation des déchets selon des catégories pertinentes.",
+        "« recyclage » concerne la transformation d’une matière par une filière adaptée. Le cas décrit plutôt la séparation des déchets selon des catégories pertinentes.",
+        "« déchet dangereux » concerne un déchet demandant des précautions spécifiques. Le cas décrit plutôt la séparation des déchets selon des catégories pertinentes."
+       ],
+       "y": "Les matières sont séparées selon les consignes acceptées localement. La séparation des déchets selon des catégories pertinentes."
+      },
+      {
+       "q": "Une filière transforme une matière acceptée.\nQuel terme s’applique le mieux ?",
+       "r": "recyclage",
+       "w": [
+        "collecte",
+        "tri",
+        "déchet dangereux"
+       ],
+       "e": [
+        "« collecte » concerne le rassemblement de déchets pour leur prise en charge. Le cas décrit plutôt la transformation d’une matière par une filière adaptée.",
+        "« tri » concerne la séparation des déchets selon des catégories pertinentes. Le cas décrit plutôt la transformation d’une matière par une filière adaptée.",
+        "« déchet dangereux » concerne un déchet demandant des précautions spécifiques. Le cas décrit plutôt la transformation d’une matière par une filière adaptée."
+       ],
+       "y": "Une filière transforme une matière acceptée. La transformation d’une matière par une filière adaptée."
+      },
+      {
+       "q": "Un objet coupant inconnu est signalé sans être manipulé par les élèves.\nQuel terme s’applique le mieux ?",
+       "r": "déchet dangereux",
+       "w": [
+        "collecte",
+        "tri",
+        "recyclage"
+       ],
+       "e": [
+        "« collecte » concerne le rassemblement de déchets pour leur prise en charge. Le cas décrit plutôt un déchet demandant des précautions spécifiques.",
+        "« tri » concerne la séparation des déchets selon des catégories pertinentes. Le cas décrit plutôt un déchet demandant des précautions spécifiques.",
+        "« recyclage » concerne la transformation d’une matière par une filière adaptée. Le cas décrit plutôt un déchet demandant des précautions spécifiques."
+       ],
+       "y": "Un objet coupant inconnu est signalé sans être manipulé par les élèves. Un déchet demandant des précautions spécifiques."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-47-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Des papiers autorisés sont réunis au point prévu.\nQuelle explication justifie le classement ?",
+       "r": "Le rassemblement de déchets pour leur prise en charge.",
+       "w": [
+        "La séparation des déchets selon des catégories pertinentes.",
+        "La transformation d’une matière par une filière adaptée.",
+        "Un déchet demandant des précautions spécifiques."
+       ],
+       "e": [
+        "Cette explication correspond à « tri ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « recyclage ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « déchet dangereux ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La collecte rassemble ; le traitement est une autre étape."
+      },
+      {
+       "q": "Les matières sont séparées selon les consignes acceptées localement.\nQuelle explication justifie le classement ?",
+       "r": "La séparation des déchets selon des catégories pertinentes.",
+       "w": [
+        "Le rassemblement de déchets pour leur prise en charge.",
+        "La transformation d’une matière par une filière adaptée.",
+        "Un déchet demandant des précautions spécifiques."
+       ],
+       "e": [
+        "Cette explication correspond à « collecte ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « recyclage ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « déchet dangereux ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La séparation ne prouve pas le traitement effectif."
+      },
+      {
+       "q": "Une filière transforme une matière acceptée.\nQuelle explication justifie le classement ?",
+       "r": "La transformation d’une matière par une filière adaptée.",
+       "w": [
+        "Le rassemblement de déchets pour leur prise en charge.",
+        "La séparation des déchets selon des catégories pertinentes.",
+        "Un déchet demandant des précautions spécifiques."
+       ],
+       "e": [
+        "Cette explication correspond à « collecte ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « tri ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « déchet dangereux ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les matières acceptées et les installations varient."
+      },
+      {
+       "q": "Un objet coupant inconnu est signalé sans être manipulé par les élèves.\nQuelle explication justifie le classement ?",
+       "r": "Un déchet demandant des précautions spécifiques.",
+       "w": [
+        "Le rassemblement de déchets pour leur prise en charge.",
+        "La séparation des déchets selon des catégories pertinentes.",
+        "La transformation d’une matière par une filière adaptée."
+       ],
+       "e": [
+        "Cette explication correspond à « collecte ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « tri ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « recyclage ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Signale l’objet et respecte les consignes du personnel compétent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-47-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "collecte",
+     "right": "Des papiers autorisés sont réunis au point prévu."
+    },
+    {
+     "left": "tri",
+     "right": "Les matières sont séparées selon les consignes acceptées localement."
+    },
+    {
+     "left": "recyclage",
+     "right": "Une filière transforme une matière acceptée."
+    },
+    {
+     "left": "déchet dangereux",
+     "right": "Un objet coupant inconnu est signalé sans être manipulé par les élèves."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-47-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "collecte : le rassemblement de déchets pour leur prise en charge.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : collecte désigne le rassemblement de déchets pour leur prise en charge. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "tri : la séparation des déchets selon des catégories pertinentes.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : tri désigne la séparation des déchets selon des catégories pertinentes. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "recyclage : la transformation d’une matière par une filière adaptée.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : recyclage désigne la transformation d’une matière par une filière adaptée. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "déchet dangereux : un déchet demandant des précautions spécifiques.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : déchet dangereux désigne un déchet demandant des précautions spécifiques. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Collecter signifie nécessairement transformer industriellement toute matière.",
+      "truth": "false",
+      "explain": "La collecte rassemble ; le traitement est une autre étape."
+     },
+     {
+      "text": "Un objet trié est automatiquement déjà recyclé.",
+      "truth": "false",
+      "explain": "La séparation ne prouve pas le traitement effectif."
+     },
+     {
+      "text": "Tout objet se recycle de la même manière partout.",
+      "truth": "false",
+      "explain": "Les matières acceptées et les installations varient."
+     },
+     {
+      "text": "Un déchet médical inconnu doit être touché à mains nues pour apprendre.",
+      "truth": "false",
+      "explain": "Signale l’objet et respecte les consignes du personnel compétent."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,599 @@
+{
+ "subject": "logic",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "l3-4",
+   "name": "Types of logic and reasoning"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Deductive reasoning aims at a conclusion guaranteed by its premises when the form is valid. Inductive reasoning offers support of a degree: a larger, more representative sample can improve it without making the conclusion certain. Symbolic logic represents relationships with signs; informal analysis examines arguments in ordinary language. Symbolic and informal are ways of presenting or examining reasoning, not synonyms for deductive and inductive. A claim can be symbolised without becoming true.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Deductive reasoning aims at a conclusion guaranteed by its premises when the form is valid. Inductive reasoning offers support of a degree: a larger, more representative sample can improve it without making the conclusion certain. Symbolic logic represents relationships with signs; informal analysis examines arguments in ordinary language. Symbolic and informal are ways of presenting or examining reasoning, not synonyms for deductive and inductive. A claim can be symbolised without becoming true."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Ayuk checks a club rule that applies to every member and then applies it to a named member: this can be a deduction. Ngozi samples several market stalls to estimate a wider pattern: this is induction. Either argument can be written in ordinary sentences, and some relationships can also be represented symbolically."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the kind of support being claimed. For a deduction, try to imagine true premises with a false conclusion. For an induction, ask about sample size, selection and alternative explanations. Do not mistake a sequence of impressive symbols for reliable evidence."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "deduction",
+    "meaning": "reasoning that aims to guarantee its conclusion from its premises"
+   },
+   {
+    "word": "induction",
+    "meaning": "reasoning that supports a conclusion as probable from evidence"
+   },
+   {
+    "word": "symbolic representation",
+    "meaning": "use of symbols to express logical relationships"
+   },
+   {
+    "word": "informal analysis",
+    "meaning": "assessment of reasoning expressed in ordinary language"
+   }
+  ],
+  "examples": [
+   "All cards in a hypothetical box are blue; this card is from that box; therefore it is blue.",
+   "Several sampled stalls sell plantains, so a learner predicts that many stalls in the market do.",
+   "A pupil writes P and not P to display a conflict in a claim."
+  ],
+  "mistake": {
+   "wrong": "Deduction is defined simply as moving from many cases to a generalisation.",
+   "right": "deduction: reasoning that aims to guarantee its conclusion from its premises.",
+   "why": "The defining aim is necessary support, not the number of cases mentioned."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "All cards in a hypothetical box are blue; this card is from that box; therefore it is blue. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Reasoning that aims to guarantee its conclusion from its premises.",
+   "The defining aim is necessary support, not the number of cases mentioned."
+  ],
+  "answer": "deduction",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cl3-4-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "deduction: reasoning that aims to guarantee its conclusion from its premises.",
+     "induction: reasoning that supports a conclusion as probable from evidence.",
+     "symbolic representation: use of symbols to express logical relationships.",
+     "informal analysis: assessment of reasoning expressed in ordinary language."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-4-terms"
+    }
+   },
+   {
+    "id": "cl3-4-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "All cards in a hypothetical box are blue; this card is from that box; therefore it is blue.",
+     "deduction: reasoning that aims to guarantee its conclusion from its premises."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-4-cases"
+    }
+   },
+   {
+    "id": "cl3-4-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Deduction is defined simply as moving from many cases to a generalisation.",
+     "The defining aim is necessary support, not the number of cases mentioned."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l3-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "intro-logic"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "deduction: reasoning that aims to guarantee its conclusion from its premises.",
+        "truth": "true",
+        "explain": "This statement is correct: deduction means reasoning that aims to guarantee its conclusion from its premises. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "induction: reasoning that supports a conclusion as probable from evidence.",
+        "truth": "true",
+        "explain": "This statement is correct: induction means reasoning that supports a conclusion as probable from evidence. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "symbolic representation: use of symbols to express logical relationships.",
+        "truth": "true",
+        "explain": "This statement is correct: symbolic representation means use of symbols to express logical relationships. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "informal analysis: assessment of reasoning expressed in ordinary language.",
+        "truth": "true",
+        "explain": "This statement is correct: informal analysis means assessment of reasoning expressed in ordinary language. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Deduction is defined simply as moving from many cases to a generalisation.",
+        "truth": "false",
+        "explain": "The defining aim is necessary support, not the number of cases mentioned."
+       },
+       {
+        "text": "Induction guarantees the unexamined stalls.",
+        "truth": "false",
+        "explain": "Unexamined cases may differ, so the support is probable."
+       },
+       {
+        "text": "A symbolic expression is true merely because it uses letters.",
+        "truth": "false",
+        "explain": "Symbols display relationships; they do not verify facts."
+       },
+       {
+        "text": "Informal analysis means accepting careless reasoning.",
+        "truth": "false",
+        "explain": "Ordinary language can be assessed carefully and rigorously."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l3-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: reasoning that aims to guarantee its conclusion from its premises ?",
+       "r": "deduction",
+       "w": [
+        "induction",
+        "symbolic representation",
+        "informal analysis"
+       ],
+       "e": [
+        "induction means reasoning that supports a conclusion as probable from evidence; the question instead describes reasoning that aims to guarantee its conclusion from its premises.",
+        "symbolic representation means use of symbols to express logical relationships; the question instead describes reasoning that aims to guarantee its conclusion from its premises.",
+        "informal analysis means assessment of reasoning expressed in ordinary language; the question instead describes reasoning that aims to guarantee its conclusion from its premises."
+       ],
+       "y": "Reasoning that aims to guarantee its conclusion from its premises."
+      },
+      {
+       "q": "Which term means: reasoning that supports a conclusion as probable from evidence ?",
+       "r": "induction",
+       "w": [
+        "deduction",
+        "symbolic representation",
+        "informal analysis"
+       ],
+       "e": [
+        "deduction means reasoning that aims to guarantee its conclusion from its premises; the question instead describes reasoning that supports a conclusion as probable from evidence.",
+        "symbolic representation means use of symbols to express logical relationships; the question instead describes reasoning that supports a conclusion as probable from evidence.",
+        "informal analysis means assessment of reasoning expressed in ordinary language; the question instead describes reasoning that supports a conclusion as probable from evidence."
+       ],
+       "y": "Reasoning that supports a conclusion as probable from evidence."
+      },
+      {
+       "q": "Which term means: use of symbols to express logical relationships ?",
+       "r": "symbolic representation",
+       "w": [
+        "deduction",
+        "induction",
+        "informal analysis"
+       ],
+       "e": [
+        "deduction means reasoning that aims to guarantee its conclusion from its premises; the question instead describes use of symbols to express logical relationships.",
+        "induction means reasoning that supports a conclusion as probable from evidence; the question instead describes use of symbols to express logical relationships.",
+        "informal analysis means assessment of reasoning expressed in ordinary language; the question instead describes use of symbols to express logical relationships."
+       ],
+       "y": "Use of symbols to express logical relationships."
+      },
+      {
+       "q": "Which term means: assessment of reasoning expressed in ordinary language ?",
+       "r": "informal analysis",
+       "w": [
+        "deduction",
+        "induction",
+        "symbolic representation"
+       ],
+       "e": [
+        "deduction means reasoning that aims to guarantee its conclusion from its premises; the question instead describes assessment of reasoning expressed in ordinary language.",
+        "induction means reasoning that supports a conclusion as probable from evidence; the question instead describes assessment of reasoning expressed in ordinary language.",
+        "symbolic representation means use of symbols to express logical relationships; the question instead describes assessment of reasoning expressed in ordinary language."
+       ],
+       "y": "Assessment of reasoning expressed in ordinary language."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "All cards in a hypothetical box are blue; this card is from that box; therefore it is blue.\nWhich term best fits this example?",
+       "r": "deduction",
+       "w": [
+        "induction",
+        "symbolic representation",
+        "informal analysis"
+       ],
+       "e": [
+        "induction concerns reasoning that supports a conclusion as probable from evidence. This case instead illustrates reasoning that aims to guarantee its conclusion from its premises.",
+        "symbolic representation concerns use of symbols to express logical relationships. This case instead illustrates reasoning that aims to guarantee its conclusion from its premises.",
+        "informal analysis concerns assessment of reasoning expressed in ordinary language. This case instead illustrates reasoning that aims to guarantee its conclusion from its premises."
+       ],
+       "y": "All cards in a hypothetical box are blue; this card is from that box; therefore it is blue. Reasoning that aims to guarantee its conclusion from its premises."
+      },
+      {
+       "q": "Several sampled stalls sell plantains, so a learner predicts that many stalls in the market do.\nWhich term best fits this example?",
+       "r": "induction",
+       "w": [
+        "deduction",
+        "symbolic representation",
+        "informal analysis"
+       ],
+       "e": [
+        "deduction concerns reasoning that aims to guarantee its conclusion from its premises. This case instead illustrates reasoning that supports a conclusion as probable from evidence.",
+        "symbolic representation concerns use of symbols to express logical relationships. This case instead illustrates reasoning that supports a conclusion as probable from evidence.",
+        "informal analysis concerns assessment of reasoning expressed in ordinary language. This case instead illustrates reasoning that supports a conclusion as probable from evidence."
+       ],
+       "y": "Several sampled stalls sell plantains, so a learner predicts that many stalls in the market do. Reasoning that supports a conclusion as probable from evidence."
+      },
+      {
+       "q": "A pupil writes P and not P to display a conflict in a claim.\nWhich term best fits this example?",
+       "r": "symbolic representation",
+       "w": [
+        "deduction",
+        "induction",
+        "informal analysis"
+       ],
+       "e": [
+        "deduction concerns reasoning that aims to guarantee its conclusion from its premises. This case instead illustrates use of symbols to express logical relationships.",
+        "induction concerns reasoning that supports a conclusion as probable from evidence. This case instead illustrates use of symbols to express logical relationships.",
+        "informal analysis concerns assessment of reasoning expressed in ordinary language. This case instead illustrates use of symbols to express logical relationships."
+       ],
+       "y": "A pupil writes P and not P to display a conflict in a claim. Use of symbols to express logical relationships."
+      },
+      {
+       "q": "A class checks whether a club proposal's stated reasons address the proposal.\nWhich term best fits this example?",
+       "r": "informal analysis",
+       "w": [
+        "deduction",
+        "induction",
+        "symbolic representation"
+       ],
+       "e": [
+        "deduction concerns reasoning that aims to guarantee its conclusion from its premises. This case instead illustrates assessment of reasoning expressed in ordinary language.",
+        "induction concerns reasoning that supports a conclusion as probable from evidence. This case instead illustrates assessment of reasoning expressed in ordinary language.",
+        "symbolic representation concerns use of symbols to express logical relationships. This case instead illustrates assessment of reasoning expressed in ordinary language."
+       ],
+       "y": "A class checks whether a club proposal's stated reasons address the proposal. Assessment of reasoning expressed in ordinary language."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-4-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "All cards in a hypothetical box are blue; this card is from that box; therefore it is blue.\nWhich explanation justifies the classification?",
+       "r": "Reasoning that aims to guarantee its conclusion from its premises.",
+       "w": [
+        "Reasoning that supports a conclusion as probable from evidence.",
+        "Use of symbols to express logical relationships.",
+        "Assessment of reasoning expressed in ordinary language."
+       ],
+       "e": [
+        "That explanation describes induction, rather than the relationship illustrated in this example.",
+        "That explanation describes symbolic representation, rather than the relationship illustrated in this example.",
+        "That explanation describes informal analysis, rather than the relationship illustrated in this example."
+       ],
+       "y": "The defining aim is necessary support, not the number of cases mentioned."
+      },
+      {
+       "q": "Several sampled stalls sell plantains, so a learner predicts that many stalls in the market do.\nWhich explanation justifies the classification?",
+       "r": "Reasoning that supports a conclusion as probable from evidence.",
+       "w": [
+        "Reasoning that aims to guarantee its conclusion from its premises.",
+        "Use of symbols to express logical relationships.",
+        "Assessment of reasoning expressed in ordinary language."
+       ],
+       "e": [
+        "That explanation describes deduction, rather than the relationship illustrated in this example.",
+        "That explanation describes symbolic representation, rather than the relationship illustrated in this example.",
+        "That explanation describes informal analysis, rather than the relationship illustrated in this example."
+       ],
+       "y": "Unexamined cases may differ, so the support is probable."
+      },
+      {
+       "q": "A pupil writes P and not P to display a conflict in a claim.\nWhich explanation justifies the classification?",
+       "r": "Use of symbols to express logical relationships.",
+       "w": [
+        "Reasoning that aims to guarantee its conclusion from its premises.",
+        "Reasoning that supports a conclusion as probable from evidence.",
+        "Assessment of reasoning expressed in ordinary language."
+       ],
+       "e": [
+        "That explanation describes deduction, rather than the relationship illustrated in this example.",
+        "That explanation describes induction, rather than the relationship illustrated in this example.",
+        "That explanation describes informal analysis, rather than the relationship illustrated in this example."
+       ],
+       "y": "Symbols display relationships; they do not verify facts."
+      },
+      {
+       "q": "A class checks whether a club proposal's stated reasons address the proposal.\nWhich explanation justifies the classification?",
+       "r": "Assessment of reasoning expressed in ordinary language.",
+       "w": [
+        "Reasoning that aims to guarantee its conclusion from its premises.",
+        "Reasoning that supports a conclusion as probable from evidence.",
+        "Use of symbols to express logical relationships."
+       ],
+       "e": [
+        "That explanation describes deduction, rather than the relationship illustrated in this example.",
+        "That explanation describes induction, rather than the relationship illustrated in this example.",
+        "That explanation describes symbolic representation, rather than the relationship illustrated in this example."
+       ],
+       "y": "Ordinary language can be assessed carefully and rigorously."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-4-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "deduction",
+     "right": "All cards in a hypothetical box are blue; this card is from that box; therefore it is blue."
+    },
+    {
+     "left": "induction",
+     "right": "Several sampled stalls sell plantains, so a learner predicts that many stalls in the market do."
+    },
+    {
+     "left": "symbolic representation",
+     "right": "A pupil writes P and not P to display a conflict in a claim."
+    },
+    {
+     "left": "informal analysis",
+     "right": "A class checks whether a club proposal's stated reasons address the proposal."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l3-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "deduction: reasoning that aims to guarantee its conclusion from its premises.",
+      "truth": "true",
+      "explain": "This statement is correct: deduction means reasoning that aims to guarantee its conclusion from its premises. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "induction: reasoning that supports a conclusion as probable from evidence.",
+      "truth": "true",
+      "explain": "This statement is correct: induction means reasoning that supports a conclusion as probable from evidence. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "symbolic representation: use of symbols to express logical relationships.",
+      "truth": "true",
+      "explain": "This statement is correct: symbolic representation means use of symbols to express logical relationships. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "informal analysis: assessment of reasoning expressed in ordinary language.",
+      "truth": "true",
+      "explain": "This statement is correct: informal analysis means assessment of reasoning expressed in ordinary language. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Deduction is defined simply as moving from many cases to a generalisation.",
+      "truth": "false",
+      "explain": "The defining aim is necessary support, not the number of cases mentioned."
+     },
+     {
+      "text": "Induction guarantees the unexamined stalls.",
+      "truth": "false",
+      "explain": "Unexamined cases may differ, so the support is probable."
+     },
+     {
+      "text": "A symbolic expression is true merely because it uses letters.",
+      "truth": "false",
+      "explain": "Symbols display relationships; they do not verify facts."
+     },
+     {
+      "text": "Informal analysis means accepting careless reasoning.",
+      "truth": "false",
+      "explain": "Ordinary language can be assessed carefully and rigorously."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

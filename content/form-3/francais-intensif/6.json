@@ -1,0 +1,560 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-6",
+   "name": "Le présent des verbes du premier groupe"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les verbes réguliers du premier groupe ont un infinitif en -er et des terminaisons de présent -e, -es, -e, -ons, -ez, -ent. Aller se termine aussi en -er mais appartient au troisième groupe. Le radical porte l’idée du verbe ; la terminaison varie avec le sujet. Le présent peut décrire une action actuelle ou une habitude. Le titre du spine est incomplet : cette leçon traite clairement le premier groupe, le deuxième étant étudié plus loin.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Les verbes réguliers du premier groupe ont un infinitif en -er et des terminaisons de présent -e, -es, -e, -ons, -ez, -ent. Aller se termine aussi en -er mais appartient au troisième groupe. Le radical porte l’idée du verbe ; la terminaison varie avec le sujet. Le présent peut décrire une action actuelle ou une habitude. Le titre du spine est incomplet : cette leçon traite clairement le premier groupe, le deuxième étant étudié plus loin."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Avec parler, compare {fr2With(0,fr2Present('parler',0))}, {fr2With(1,fr2Present('parler',1))}, {fr2With(4,fr2Present('parler',4))} et {fr2With(6,fr2Present('parler',6))}. Certaines formes ont une prononciation proche mais des écritures différentes. Le sujet décide de la terminaison."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Trouve l’infinitif et le sujet. Choisis la base et la terminaison propres à ce verbe, puis relis le groupe complet. Une terminaison d’un autre sujet ne convient pas uniquement parce qu’elle se prononce de façon proche. Les modèles sont calculés par les bibliothèques de conjugaison."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "infinitif",
+    "meaning": "la forme qui nomme le verbe avant sa conjugaison"
+   },
+   {
+    "word": "radical",
+    "meaning": "la base conservant l’idée du verbe régulier étudié"
+   },
+   {
+    "word": "terminaison personnelle",
+    "meaning": "la finale choisie selon le sujet"
+   },
+   {
+    "word": "exception aller",
+    "meaning": "le cas d’un verbe en -er qui ne relève pas du premier groupe"
+   }
+  ],
+  "examples": [
+   "Parler est le verbe nommé à l’infinitif.",
+   "Le radical parl- apparaît dans {fr2Present('parler',4)}.",
+   "Avec vous, on obtient {fr2Present('parler',5)}."
+  ],
+  "mistake": {
+   "wrong": "Parler est obligatoirement une forme conjuguée avec nous.",
+   "right": "infinitif: la forme qui nomme le verbe avant sa conjugaison.",
+   "why": "L’infinitif ne porte pas ici la terminaison personnelle de nous."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Parler est le verbe nommé à l’infinitif. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "La forme qui nomme le verbe avant sa conjugaison.",
+   "L’infinitif ne porte pas ici la terminaison personnelle de nous."
+  ],
+  "answer": "infinitif",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-6-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "infinitif: la forme qui nomme le verbe avant sa conjugaison.",
+     "radical: la base conservant l’idée du verbe régulier étudié.",
+     "terminaison personnelle: la finale choisie selon le sujet.",
+     "exception aller: le cas d’un verbe en -er qui ne relève pas du premier groupe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-6-terms"
+    }
+   },
+   {
+    "id": "cfi3-6-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Parler est le verbe nommé à l’infinitif.",
+     "infinitif: la forme qui nomme le verbe avant sa conjugaison."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-6-cases"
+    }
+   },
+   {
+    "id": "cfi3-6-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Parler est obligatoirement une forme conjuguée avec nous.",
+     "L’infinitif ne porte pas ici la terminaison personnelle de nous."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-6-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "infinitif : la forme qui nomme le verbe avant sa conjugaison.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : infinitif désigne la forme qui nomme le verbe avant sa conjugaison. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "radical : la base conservant l’idée du verbe régulier étudié.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : radical désigne la base conservant l’idée du verbe régulier étudié. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "terminaison personnelle : la finale choisie selon le sujet.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : terminaison personnelle désigne la finale choisie selon le sujet. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "exception aller : le cas d’un verbe en -er qui ne relève pas du premier groupe.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : exception aller désigne le cas d’un verbe en -er qui ne relève pas du premier groupe. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Parler est obligatoirement une forme conjuguée avec nous.",
+        "truth": "false",
+        "explain": "L’infinitif ne porte pas ici la terminaison personnelle de nous."
+       },
+       {
+        "text": "La base de parler est obligatoirement finiss-.",
+        "truth": "false",
+        "explain": "Finiss- appartient à un autre verbe."
+       },
+       {
+        "text": "Vous au présent de parler exige -ons.",
+        "truth": "false",
+        "explain": "Vous prend -ez dans ce modèle."
+       },
+       {
+        "text": "Tous les verbes en -er appartiennent sans exception au premier groupe.",
+        "truth": "false",
+        "explain": "Aller est une exception à cette généralisation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : la forme qui nomme le verbe avant sa conjugaison ?",
+       "r": "infinitif",
+       "w": [
+        "radical",
+        "terminaison personnelle",
+        "exception aller"
+       ],
+       "e": [
+        "« radical » désigne la base conservant l’idée du verbe régulier étudié. Ici, cherche la forme qui nomme le verbe avant sa conjugaison.",
+        "« terminaison personnelle » désigne la finale choisie selon le sujet. Ici, cherche la forme qui nomme le verbe avant sa conjugaison.",
+        "« exception aller » désigne le cas d’un verbe en -er qui ne relève pas du premier groupe. Ici, cherche la forme qui nomme le verbe avant sa conjugaison."
+       ],
+       "y": "La forme qui nomme le verbe avant sa conjugaison."
+      },
+      {
+       "q": "Quel terme désigne : la base conservant l’idée du verbe régulier étudié ?",
+       "r": "radical",
+       "w": [
+        "infinitif",
+        "terminaison personnelle",
+        "exception aller"
+       ],
+       "e": [
+        "« infinitif » désigne la forme qui nomme le verbe avant sa conjugaison. Ici, cherche la base conservant l’idée du verbe régulier étudié.",
+        "« terminaison personnelle » désigne la finale choisie selon le sujet. Ici, cherche la base conservant l’idée du verbe régulier étudié.",
+        "« exception aller » désigne le cas d’un verbe en -er qui ne relève pas du premier groupe. Ici, cherche la base conservant l’idée du verbe régulier étudié."
+       ],
+       "y": "La base conservant l’idée du verbe régulier étudié."
+      },
+      {
+       "q": "Quel terme désigne : la finale choisie selon le sujet ?",
+       "r": "terminaison personnelle",
+       "w": [
+        "infinitif",
+        "radical",
+        "exception aller"
+       ],
+       "e": [
+        "« infinitif » désigne la forme qui nomme le verbe avant sa conjugaison. Ici, cherche la finale choisie selon le sujet.",
+        "« radical » désigne la base conservant l’idée du verbe régulier étudié. Ici, cherche la finale choisie selon le sujet.",
+        "« exception aller » désigne le cas d’un verbe en -er qui ne relève pas du premier groupe. Ici, cherche la finale choisie selon le sujet."
+       ],
+       "y": "La finale choisie selon le sujet."
+      },
+      {
+       "q": "Quel terme désigne : le cas d’un verbe en -er qui ne relève pas du premier groupe ?",
+       "r": "exception aller",
+       "w": [
+        "infinitif",
+        "radical",
+        "terminaison personnelle"
+       ],
+       "e": [
+        "« infinitif » désigne la forme qui nomme le verbe avant sa conjugaison. Ici, cherche le cas d’un verbe en -er qui ne relève pas du premier groupe.",
+        "« radical » désigne la base conservant l’idée du verbe régulier étudié. Ici, cherche le cas d’un verbe en -er qui ne relève pas du premier groupe.",
+        "« terminaison personnelle » désigne la finale choisie selon le sujet. Ici, cherche le cas d’un verbe en -er qui ne relève pas du premier groupe."
+       ],
+       "y": "Le cas d’un verbe en -er qui ne relève pas du premier groupe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Parler est le verbe nommé à l’infinitif.\nQuel terme s’applique le mieux ?",
+       "r": "infinitif",
+       "w": [
+        "radical",
+        "terminaison personnelle",
+        "exception aller"
+       ],
+       "e": [
+        "« radical » concerne la base conservant l’idée du verbe régulier étudié. Le cas décrit plutôt la forme qui nomme le verbe avant sa conjugaison.",
+        "« terminaison personnelle » concerne la finale choisie selon le sujet. Le cas décrit plutôt la forme qui nomme le verbe avant sa conjugaison.",
+        "« exception aller » concerne le cas d’un verbe en -er qui ne relève pas du premier groupe. Le cas décrit plutôt la forme qui nomme le verbe avant sa conjugaison."
+       ],
+       "y": "Parler est le verbe nommé à l’infinitif. La forme qui nomme le verbe avant sa conjugaison."
+      },
+      {
+       "q": "Le radical parl- apparaît dans {fr2Present('parler',4)}.\nQuel terme s’applique le mieux ?",
+       "r": "radical",
+       "w": [
+        "infinitif",
+        "terminaison personnelle",
+        "exception aller"
+       ],
+       "e": [
+        "« infinitif » concerne la forme qui nomme le verbe avant sa conjugaison. Le cas décrit plutôt la base conservant l’idée du verbe régulier étudié.",
+        "« terminaison personnelle » concerne la finale choisie selon le sujet. Le cas décrit plutôt la base conservant l’idée du verbe régulier étudié.",
+        "« exception aller » concerne le cas d’un verbe en -er qui ne relève pas du premier groupe. Le cas décrit plutôt la base conservant l’idée du verbe régulier étudié."
+       ],
+       "y": "Le radical parl- apparaît dans {fr2Present('parler',4)}. La base conservant l’idée du verbe régulier étudié."
+      },
+      {
+       "q": "Avec vous, on obtient {fr2Present('parler',5)}.\nQuel terme s’applique le mieux ?",
+       "r": "terminaison personnelle",
+       "w": [
+        "infinitif",
+        "radical",
+        "exception aller"
+       ],
+       "e": [
+        "« infinitif » concerne la forme qui nomme le verbe avant sa conjugaison. Le cas décrit plutôt la finale choisie selon le sujet.",
+        "« radical » concerne la base conservant l’idée du verbe régulier étudié. Le cas décrit plutôt la finale choisie selon le sujet.",
+        "« exception aller » concerne le cas d’un verbe en -er qui ne relève pas du premier groupe. Le cas décrit plutôt la finale choisie selon le sujet."
+       ],
+       "y": "Avec vous, on obtient {fr2Present('parler',5)}. La finale choisie selon le sujet."
+      },
+      {
+       "q": "Aller appartient au troisième groupe.\nQuel terme s’applique le mieux ?",
+       "r": "exception aller",
+       "w": [
+        "infinitif",
+        "radical",
+        "terminaison personnelle"
+       ],
+       "e": [
+        "« infinitif » concerne la forme qui nomme le verbe avant sa conjugaison. Le cas décrit plutôt le cas d’un verbe en -er qui ne relève pas du premier groupe.",
+        "« radical » concerne la base conservant l’idée du verbe régulier étudié. Le cas décrit plutôt le cas d’un verbe en -er qui ne relève pas du premier groupe.",
+        "« terminaison personnelle » concerne la finale choisie selon le sujet. Le cas décrit plutôt le cas d’un verbe en -er qui ne relève pas du premier groupe."
+       ],
+       "y": "Aller appartient au troisième groupe. Le cas d’un verbe en -er qui ne relève pas du premier groupe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-6-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "travailler",
+      "jouer",
+      "aider"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2Present(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2Present(v,(p+1)%8))}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{fr2With(p,fr2Present(v,(p+4)%8))}",
+     "misconception": "autre"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "infinitif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette terminaison appartient à un autre sujet ; garde la personne demandée."
+    },
+    {
+     "id": "autre",
+     "explain": "Tu as appliqué la forme d’une autre personne grammaticale."
+    },
+    {
+     "id": "infinitif",
+     "explain": "Tu as conservé l’infinitif au lieu de conjuguer le verbe."
+    }
+   ],
+   "solution": [
+    "Repère le sujet {fr2Pronoun(p)} et le verbe {v}.",
+    "La forme au présent est {answer}."
+   ],
+   "where": [
+    "fr2Present(v,p) != fr2Present(v,(p+1)%8)",
+    "fr2Present(v,p) != fr2Present(v,(p+4)%8)",
+    "fr2Present(v,(p+1)%8) != fr2Present(v,(p+4)%8)"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-6-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "infinitif",
+     "right": "Parler est le verbe nommé à l’infinitif."
+    },
+    {
+     "left": "radical",
+     "right": "Le radical parl- apparaît dans {fr2Present('parler',4)}."
+    },
+    {
+     "left": "terminaison personnelle",
+     "right": "Avec vous, on obtient {fr2Present('parler',5)}."
+    },
+    {
+     "left": "exception aller",
+     "right": "Aller appartient au troisième groupe."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "infinitif : la forme qui nomme le verbe avant sa conjugaison.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : infinitif désigne la forme qui nomme le verbe avant sa conjugaison. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "radical : la base conservant l’idée du verbe régulier étudié.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : radical désigne la base conservant l’idée du verbe régulier étudié. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "terminaison personnelle : la finale choisie selon le sujet.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : terminaison personnelle désigne la finale choisie selon le sujet. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "exception aller : le cas d’un verbe en -er qui ne relève pas du premier groupe.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : exception aller désigne le cas d’un verbe en -er qui ne relève pas du premier groupe. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Parler est obligatoirement une forme conjuguée avec nous.",
+      "truth": "false",
+      "explain": "L’infinitif ne porte pas ici la terminaison personnelle de nous."
+     },
+     {
+      "text": "La base de parler est obligatoirement finiss-.",
+      "truth": "false",
+      "explain": "Finiss- appartient à un autre verbe."
+     },
+     {
+      "text": "Vous au présent de parler exige -ons.",
+      "truth": "false",
+      "explain": "Vous prend -ez dans ce modèle."
+     },
+     {
+      "text": "Tous les verbes en -er appartiennent sans exception au premier groupe.",
+      "truth": "false",
+      "explain": "Aller est une exception à cette généralisation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

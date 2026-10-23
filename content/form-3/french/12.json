@@ -1,0 +1,605 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-12",
+   "name": "Les consonnes doubles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Certaines graphies comportent une consonne doublée. Il faut apprendre les mots et leurs familles : la prononciation seule ne permet pas toujours de compter les lettres. Une double consonne n’impose pas une double syllabe. Observe la position du doublement et recopie le mot entier, puis vérifie-le dans une source linguistique. Ne généralise pas une graphie à tous les mots qui commencent de la même façon.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Certaines graphies comportent une consonne doublée. Il faut apprendre les mots et leurs familles : la prononciation seule ne permet pas toujours de compter les lettres. Une double consonne n’impose pas une double syllabe. Observe la position du doublement et recopie le mot entier, puis vérifie-le dans une source linguistique. Ne généralise pas une graphie à tous les mots qui commencent de la même façon."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Un message original contient adresse, village, personne et attention. On repère ss dans adresse, ll dans village, nn dans personne et tt dans attention. On peut masquer le modèle, écrire le mot puis comparer les lettres ; ce travail est différent d’un test d’écoute."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Relis la phrase entière avant de choisir un mot. Vérifie sa catégorie grammaticale et la nuance voulue. Une proximité de sens n’autorise pas tous les remplacements. Emploie ensuite le mot dans une phrase originale et explique ton choix."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "adresse",
+    "meaning": "un mot comportant ss dans sa graphie"
+   },
+   {
+    "word": "village",
+    "meaning": "un mot comportant ll dans sa graphie"
+   },
+   {
+    "word": "personne",
+    "meaning": "un mot comportant nn dans sa graphie"
+   },
+   {
+    "word": "attention",
+    "meaning": "un mot comportant tt dans sa graphie"
+   }
+  ],
+  "examples": [
+   "Bih relit adresse et repère ss.",
+   "Ayuk repère ll dans village.",
+   "La classe vérifie nn dans personne."
+  ],
+  "mistake": {
+   "wrong": "Adresse contient nécessairement un seul s.",
+   "right": "adresse: un mot comportant ss dans sa graphie.",
+   "why": "Le modèle comporte ss."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih relit adresse et repère ss. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un mot comportant ss dans sa graphie.",
+   "Le modèle comporte ss."
+  ],
+  "answer": "adresse",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-12-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "adresse: un mot comportant ss dans sa graphie.",
+     "village: un mot comportant ll dans sa graphie.",
+     "personne: un mot comportant nn dans sa graphie.",
+     "attention: un mot comportant tt dans sa graphie."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-12-terms"
+    }
+   },
+   {
+    "id": "cfr3-12-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Bih relit adresse et repère ss.",
+     "adresse: un mot comportant ss dans sa graphie."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-12-cases"
+    }
+   },
+   {
+    "id": "cfr3-12-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Adresse contient nécessairement un seul s.",
+     "Le modèle comporte ss."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-12-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "adresse : un mot comportant ss dans sa graphie.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : adresse désigne un mot comportant ss dans sa graphie. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "village : un mot comportant ll dans sa graphie.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : village désigne un mot comportant ll dans sa graphie. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "personne : un mot comportant nn dans sa graphie.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : personne désigne un mot comportant nn dans sa graphie. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "attention : un mot comportant tt dans sa graphie.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : attention désigne un mot comportant tt dans sa graphie. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Adresse contient nécessairement un seul s.",
+        "truth": "false",
+        "explain": "Le modèle comporte ss."
+       },
+       {
+        "text": "Village exige deux g dans ce modèle.",
+        "truth": "false",
+        "explain": "Le doublement porte sur l, pas sur g."
+       },
+       {
+        "text": "Personne s’écrit sans double consonne.",
+        "truth": "false",
+        "explain": "Le mot comporte nn."
+       },
+       {
+        "text": "Attention exige deux n à la fin.",
+        "truth": "false",
+        "explain": "Le doublement étudié porte sur t."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un mot comportant ss dans sa graphie ?",
+       "r": "adresse",
+       "w": [
+        "village",
+        "personne",
+        "attention"
+       ],
+       "e": [
+        "« village » désigne un mot comportant ll dans sa graphie. Ici, cherche un mot comportant ss dans sa graphie.",
+        "« personne » désigne un mot comportant nn dans sa graphie. Ici, cherche un mot comportant ss dans sa graphie.",
+        "« attention » désigne un mot comportant tt dans sa graphie. Ici, cherche un mot comportant ss dans sa graphie."
+       ],
+       "y": "Un mot comportant ss dans sa graphie."
+      },
+      {
+       "q": "Quel terme désigne : un mot comportant ll dans sa graphie ?",
+       "r": "village",
+       "w": [
+        "adresse",
+        "personne",
+        "attention"
+       ],
+       "e": [
+        "« adresse » désigne un mot comportant ss dans sa graphie. Ici, cherche un mot comportant ll dans sa graphie.",
+        "« personne » désigne un mot comportant nn dans sa graphie. Ici, cherche un mot comportant ll dans sa graphie.",
+        "« attention » désigne un mot comportant tt dans sa graphie. Ici, cherche un mot comportant ll dans sa graphie."
+       ],
+       "y": "Un mot comportant ll dans sa graphie."
+      },
+      {
+       "q": "Quel terme désigne : un mot comportant nn dans sa graphie ?",
+       "r": "personne",
+       "w": [
+        "adresse",
+        "village",
+        "attention"
+       ],
+       "e": [
+        "« adresse » désigne un mot comportant ss dans sa graphie. Ici, cherche un mot comportant nn dans sa graphie.",
+        "« village » désigne un mot comportant ll dans sa graphie. Ici, cherche un mot comportant nn dans sa graphie.",
+        "« attention » désigne un mot comportant tt dans sa graphie. Ici, cherche un mot comportant nn dans sa graphie."
+       ],
+       "y": "Un mot comportant nn dans sa graphie."
+      },
+      {
+       "q": "Quel terme désigne : un mot comportant tt dans sa graphie ?",
+       "r": "attention",
+       "w": [
+        "adresse",
+        "village",
+        "personne"
+       ],
+       "e": [
+        "« adresse » désigne un mot comportant ss dans sa graphie. Ici, cherche un mot comportant tt dans sa graphie.",
+        "« village » désigne un mot comportant ll dans sa graphie. Ici, cherche un mot comportant tt dans sa graphie.",
+        "« personne » désigne un mot comportant nn dans sa graphie. Ici, cherche un mot comportant tt dans sa graphie."
+       ],
+       "y": "Un mot comportant tt dans sa graphie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih relit adresse et repère ss.\nQuel terme s’applique le mieux ?",
+       "r": "adresse",
+       "w": [
+        "village",
+        "personne",
+        "attention"
+       ],
+       "e": [
+        "« village » concerne un mot comportant ll dans sa graphie. Le cas décrit plutôt un mot comportant ss dans sa graphie.",
+        "« personne » concerne un mot comportant nn dans sa graphie. Le cas décrit plutôt un mot comportant ss dans sa graphie.",
+        "« attention » concerne un mot comportant tt dans sa graphie. Le cas décrit plutôt un mot comportant ss dans sa graphie."
+       ],
+       "y": "Bih relit adresse et repère ss. Un mot comportant ss dans sa graphie."
+      },
+      {
+       "q": "Ayuk repère ll dans village.\nQuel terme s’applique le mieux ?",
+       "r": "village",
+       "w": [
+        "adresse",
+        "personne",
+        "attention"
+       ],
+       "e": [
+        "« adresse » concerne un mot comportant ss dans sa graphie. Le cas décrit plutôt un mot comportant ll dans sa graphie.",
+        "« personne » concerne un mot comportant nn dans sa graphie. Le cas décrit plutôt un mot comportant ll dans sa graphie.",
+        "« attention » concerne un mot comportant tt dans sa graphie. Le cas décrit plutôt un mot comportant ll dans sa graphie."
+       ],
+       "y": "Ayuk repère ll dans village. Un mot comportant ll dans sa graphie."
+      },
+      {
+       "q": "La classe vérifie nn dans personne.\nQuel terme s’applique le mieux ?",
+       "r": "personne",
+       "w": [
+        "adresse",
+        "village",
+        "attention"
+       ],
+       "e": [
+        "« adresse » concerne un mot comportant ss dans sa graphie. Le cas décrit plutôt un mot comportant nn dans sa graphie.",
+        "« village » concerne un mot comportant ll dans sa graphie. Le cas décrit plutôt un mot comportant nn dans sa graphie.",
+        "« attention » concerne un mot comportant tt dans sa graphie. Le cas décrit plutôt un mot comportant nn dans sa graphie."
+       ],
+       "y": "La classe vérifie nn dans personne. Un mot comportant nn dans sa graphie."
+      },
+      {
+       "q": "Le lecteur souligne tt dans attention.\nQuel terme s’applique le mieux ?",
+       "r": "attention",
+       "w": [
+        "adresse",
+        "village",
+        "personne"
+       ],
+       "e": [
+        "« adresse » concerne un mot comportant ss dans sa graphie. Le cas décrit plutôt un mot comportant tt dans sa graphie.",
+        "« village » concerne un mot comportant ll dans sa graphie. Le cas décrit plutôt un mot comportant tt dans sa graphie.",
+        "« personne » concerne un mot comportant nn dans sa graphie. Le cas décrit plutôt un mot comportant tt dans sa graphie."
+       ],
+       "y": "Le lecteur souligne tt dans attention. Un mot comportant tt dans sa graphie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-12-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih relit adresse et repère ss.\nQuelle explication justifie le classement ?",
+       "r": "Un mot comportant ss dans sa graphie.",
+       "w": [
+        "Un mot comportant ll dans sa graphie.",
+        "Un mot comportant nn dans sa graphie.",
+        "Un mot comportant tt dans sa graphie."
+       ],
+       "e": [
+        "Cette explication correspond à « village ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « personne ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « attention ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le modèle comporte ss."
+      },
+      {
+       "q": "Ayuk repère ll dans village.\nQuelle explication justifie le classement ?",
+       "r": "Un mot comportant ll dans sa graphie.",
+       "w": [
+        "Un mot comportant ss dans sa graphie.",
+        "Un mot comportant nn dans sa graphie.",
+        "Un mot comportant tt dans sa graphie."
+       ],
+       "e": [
+        "Cette explication correspond à « adresse ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « personne ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « attention ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le doublement porte sur l, pas sur g."
+      },
+      {
+       "q": "La classe vérifie nn dans personne.\nQuelle explication justifie le classement ?",
+       "r": "Un mot comportant nn dans sa graphie.",
+       "w": [
+        "Un mot comportant ss dans sa graphie.",
+        "Un mot comportant ll dans sa graphie.",
+        "Un mot comportant tt dans sa graphie."
+       ],
+       "e": [
+        "Cette explication correspond à « adresse ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « village ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « attention ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le mot comporte nn."
+      },
+      {
+       "q": "Le lecteur souligne tt dans attention.\nQuelle explication justifie le classement ?",
+       "r": "Un mot comportant tt dans sa graphie.",
+       "w": [
+        "Un mot comportant ss dans sa graphie.",
+        "Un mot comportant ll dans sa graphie.",
+        "Un mot comportant nn dans sa graphie."
+       ],
+       "e": [
+        "Cette explication correspond à « adresse ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « village ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « personne ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le doublement étudié porte sur t."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-12-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "adresse",
+     "right": "Bih relit adresse et repère ss."
+    },
+    {
+     "left": "village",
+     "right": "Ayuk repère ll dans village."
+    },
+    {
+     "left": "personne",
+     "right": "La classe vérifie nn dans personne."
+    },
+    {
+     "left": "attention",
+     "right": "Le lecteur souligne tt dans attention."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-12-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "adresse : un mot comportant ss dans sa graphie.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : adresse désigne un mot comportant ss dans sa graphie. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "village : un mot comportant ll dans sa graphie.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : village désigne un mot comportant ll dans sa graphie. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "personne : un mot comportant nn dans sa graphie.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : personne désigne un mot comportant nn dans sa graphie. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "attention : un mot comportant tt dans sa graphie.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : attention désigne un mot comportant tt dans sa graphie. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Adresse contient nécessairement un seul s.",
+      "truth": "false",
+      "explain": "Le modèle comporte ss."
+     },
+     {
+      "text": "Village exige deux g dans ce modèle.",
+      "truth": "false",
+      "explain": "Le doublement porte sur l, pas sur g."
+     },
+     {
+      "text": "Personne s’écrit sans double consonne.",
+      "truth": "false",
+      "explain": "Le mot comporte nn."
+     },
+     {
+      "text": "Attention exige deux n à la fin.",
+      "truth": "false",
+      "explain": "Le doublement étudié porte sur t."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

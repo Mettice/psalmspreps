@@ -1,0 +1,613 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-17",
+   "name": "Describing a school club's activities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A descriptive account helps the reader picture organised activities. Give the club's purpose, describe its setting and show what members do. Choose precise verbs and relevant details instead of an unconnected list. Use a consistent time frame and link the activities logically. Description can include small actions without becoming a full story about an unrelated journey. Avoid making claims about an actual school's club unless you have checked them.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A descriptive account helps the reader picture organised activities. Give the club's purpose, describe its setting and show what members do. Choose precise verbs and relevant details instead of an unconnected list. Use a consistent time frame and link the activities logically. Description can include small actions without becoming a full story about an unrelated journey. Avoid making claims about an actual school's club unless you have checked them."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Original model: Our imaginary reading club meets in a bright classroom. Members arrange the books on a long table and read in small groups. A volunteer writes new words on the board, while another records book loans. The quiet discussion helps learners explain their favourite passages. At the end, everyone returns the materials to their places."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Plan setting, participants and activities. Ask whether each detail helps the reader see the club at work. Replace vague words such as nice with a precise observation. Keep the tense and subject references consistent."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "setting",
+    "meaning": "the place and conditions in which activities occur"
+   },
+   {
+    "word": "precise verb",
+    "meaning": "a verb naming a specific action"
+   },
+   {
+    "word": "relevant detail",
+    "meaning": "an observation that develops the description's purpose"
+   },
+   {
+    "word": "consistent tense",
+    "meaning": "verb forms fitting the chosen time frame"
+   }
+  ],
+  "examples": [
+   "The club works in a bright classroom with a long table.",
+   "Members arrange books and record loans.",
+   "A volunteer writes new words for the reading discussion."
+  ],
+  "mistake": {
+   "wrong": "A setting is only the writer's signature.",
+   "right": "setting: the place and conditions in which activities occur.",
+   "why": "Setting locates the activities for the reader."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The club works in a bright classroom with a long table. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "The place and conditions in which activities occur.",
+   "Setting locates the activities for the reader."
+  ],
+  "answer": "setting",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-17-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "setting: the place and conditions in which activities occur.",
+     "precise verb: a verb naming a specific action.",
+     "relevant detail: an observation that develops the description's purpose.",
+     "consistent tense: verb forms fitting the chosen time frame."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-17-terms"
+    }
+   },
+   {
+    "id": "ce3-17-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The club works in a bright classroom with a long table.",
+     "setting: the place and conditions in which activities occur."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-17-cases"
+    }
+   },
+   {
+    "id": "ce3-17-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A setting is only the writer's signature.",
+     "Setting locates the activities for the reader."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-17-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "setting: the place and conditions in which activities occur.",
+        "truth": "true",
+        "explain": "This statement is correct: setting means the place and conditions in which activities occur. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "precise verb: a verb naming a specific action.",
+        "truth": "true",
+        "explain": "This statement is correct: precise verb means a verb naming a specific action. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "relevant detail: an observation that develops the description's purpose.",
+        "truth": "true",
+        "explain": "This statement is correct: relevant detail means an observation that develops the description's purpose. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "consistent tense: verb forms fitting the chosen time frame.",
+        "truth": "true",
+        "explain": "This statement is correct: consistent tense means verb forms fitting the chosen time frame. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A setting is only the writer's signature.",
+        "truth": "false",
+        "explain": "Setting locates the activities for the reader."
+       },
+       {
+        "text": "Do something always gives as much detail as record loans.",
+        "truth": "false",
+        "explain": "Specific verbs make the action easier to picture."
+       },
+       {
+        "text": "Any unrelated event automatically improves a description.",
+        "truth": "false",
+        "explain": "Details should help portray the club rather than distract from it."
+       },
+       {
+        "text": "Changing every verb's time at random makes a description clearer.",
+        "truth": "false",
+        "explain": "A stable time frame helps the reader follow regular activities."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-17-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: the place and conditions in which activities occur ?",
+       "r": "setting",
+       "w": [
+        "precise verb",
+        "relevant detail",
+        "consistent tense"
+       ],
+       "e": [
+        "precise verb means a verb naming a specific action; the question instead describes the place and conditions in which activities occur.",
+        "relevant detail means an observation that develops the description's purpose; the question instead describes the place and conditions in which activities occur.",
+        "consistent tense means verb forms fitting the chosen time frame; the question instead describes the place and conditions in which activities occur."
+       ],
+       "y": "The place and conditions in which activities occur."
+      },
+      {
+       "q": "Which term means: a verb naming a specific action ?",
+       "r": "precise verb",
+       "w": [
+        "setting",
+        "relevant detail",
+        "consistent tense"
+       ],
+       "e": [
+        "setting means the place and conditions in which activities occur; the question instead describes a verb naming a specific action.",
+        "relevant detail means an observation that develops the description's purpose; the question instead describes a verb naming a specific action.",
+        "consistent tense means verb forms fitting the chosen time frame; the question instead describes a verb naming a specific action."
+       ],
+       "y": "A verb naming a specific action."
+      },
+      {
+       "q": "Which term means: an observation that develops the description's purpose ?",
+       "r": "relevant detail",
+       "w": [
+        "setting",
+        "precise verb",
+        "consistent tense"
+       ],
+       "e": [
+        "setting means the place and conditions in which activities occur; the question instead describes an observation that develops the description's purpose.",
+        "precise verb means a verb naming a specific action; the question instead describes an observation that develops the description's purpose.",
+        "consistent tense means verb forms fitting the chosen time frame; the question instead describes an observation that develops the description's purpose."
+       ],
+       "y": "An observation that develops the description's purpose."
+      },
+      {
+       "q": "Which term means: verb forms fitting the chosen time frame ?",
+       "r": "consistent tense",
+       "w": [
+        "setting",
+        "precise verb",
+        "relevant detail"
+       ],
+       "e": [
+        "setting means the place and conditions in which activities occur; the question instead describes verb forms fitting the chosen time frame.",
+        "precise verb means a verb naming a specific action; the question instead describes verb forms fitting the chosen time frame.",
+        "relevant detail means an observation that develops the description's purpose; the question instead describes verb forms fitting the chosen time frame."
+       ],
+       "y": "Verb forms fitting the chosen time frame."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-17-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The club works in a bright classroom with a long table.\nWhich term best fits this example?",
+       "r": "setting",
+       "w": [
+        "precise verb",
+        "relevant detail",
+        "consistent tense"
+       ],
+       "e": [
+        "precise verb concerns a verb naming a specific action. This case instead illustrates the place and conditions in which activities occur.",
+        "relevant detail concerns an observation that develops the description's purpose. This case instead illustrates the place and conditions in which activities occur.",
+        "consistent tense concerns verb forms fitting the chosen time frame. This case instead illustrates the place and conditions in which activities occur."
+       ],
+       "y": "The club works in a bright classroom with a long table. The place and conditions in which activities occur."
+      },
+      {
+       "q": "Members arrange books and record loans.\nWhich term best fits this example?",
+       "r": "precise verb",
+       "w": [
+        "setting",
+        "relevant detail",
+        "consistent tense"
+       ],
+       "e": [
+        "setting concerns the place and conditions in which activities occur. This case instead illustrates a verb naming a specific action.",
+        "relevant detail concerns an observation that develops the description's purpose. This case instead illustrates a verb naming a specific action.",
+        "consistent tense concerns verb forms fitting the chosen time frame. This case instead illustrates a verb naming a specific action."
+       ],
+       "y": "Members arrange books and record loans. A verb naming a specific action."
+      },
+      {
+       "q": "A volunteer writes new words for the reading discussion.\nWhich term best fits this example?",
+       "r": "relevant detail",
+       "w": [
+        "setting",
+        "precise verb",
+        "consistent tense"
+       ],
+       "e": [
+        "setting concerns the place and conditions in which activities occur. This case instead illustrates an observation that develops the description's purpose.",
+        "precise verb concerns a verb naming a specific action. This case instead illustrates an observation that develops the description's purpose.",
+        "consistent tense concerns verb forms fitting the chosen time frame. This case instead illustrates an observation that develops the description's purpose."
+       ],
+       "y": "A volunteer writes new words for the reading discussion. An observation that develops the description's purpose."
+      },
+      {
+       "q": "The account describes regular meetings in the present.\nWhich term best fits this example?",
+       "r": "consistent tense",
+       "w": [
+        "setting",
+        "precise verb",
+        "relevant detail"
+       ],
+       "e": [
+        "setting concerns the place and conditions in which activities occur. This case instead illustrates verb forms fitting the chosen time frame.",
+        "precise verb concerns a verb naming a specific action. This case instead illustrates verb forms fitting the chosen time frame.",
+        "relevant detail concerns an observation that develops the description's purpose. This case instead illustrates verb forms fitting the chosen time frame."
+       ],
+       "y": "The account describes regular meetings in the present. Verb forms fitting the chosen time frame."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-17-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The club works in a bright classroom with a long table.\nWhich explanation justifies the classification?",
+       "r": "The place and conditions in which activities occur.",
+       "w": [
+        "A verb naming a specific action.",
+        "An observation that develops the description's purpose.",
+        "Verb forms fitting the chosen time frame."
+       ],
+       "e": [
+        "That explanation describes precise verb, rather than the relationship illustrated in this example.",
+        "That explanation describes relevant detail, rather than the relationship illustrated in this example.",
+        "That explanation describes consistent tense, rather than the relationship illustrated in this example."
+       ],
+       "y": "Setting locates the activities for the reader."
+      },
+      {
+       "q": "Members arrange books and record loans.\nWhich explanation justifies the classification?",
+       "r": "A verb naming a specific action.",
+       "w": [
+        "The place and conditions in which activities occur.",
+        "An observation that develops the description's purpose.",
+        "Verb forms fitting the chosen time frame."
+       ],
+       "e": [
+        "That explanation describes setting, rather than the relationship illustrated in this example.",
+        "That explanation describes relevant detail, rather than the relationship illustrated in this example.",
+        "That explanation describes consistent tense, rather than the relationship illustrated in this example."
+       ],
+       "y": "Specific verbs make the action easier to picture."
+      },
+      {
+       "q": "A volunteer writes new words for the reading discussion.\nWhich explanation justifies the classification?",
+       "r": "An observation that develops the description's purpose.",
+       "w": [
+        "The place and conditions in which activities occur.",
+        "A verb naming a specific action.",
+        "Verb forms fitting the chosen time frame."
+       ],
+       "e": [
+        "That explanation describes setting, rather than the relationship illustrated in this example.",
+        "That explanation describes precise verb, rather than the relationship illustrated in this example.",
+        "That explanation describes consistent tense, rather than the relationship illustrated in this example."
+       ],
+       "y": "Details should help portray the club rather than distract from it."
+      },
+      {
+       "q": "The account describes regular meetings in the present.\nWhich explanation justifies the classification?",
+       "r": "Verb forms fitting the chosen time frame.",
+       "w": [
+        "The place and conditions in which activities occur.",
+        "A verb naming a specific action.",
+        "An observation that develops the description's purpose."
+       ],
+       "e": [
+        "That explanation describes setting, rather than the relationship illustrated in this example.",
+        "That explanation describes precise verb, rather than the relationship illustrated in this example.",
+        "That explanation describes relevant detail, rather than the relationship illustrated in this example."
+       ],
+       "y": "A stable time frame helps the reader follow regular activities."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-17-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "setting",
+     "right": "The club works in a bright classroom with a long table."
+    },
+    {
+     "left": "precise verb",
+     "right": "Members arrange books and record loans."
+    },
+    {
+     "left": "relevant detail",
+     "right": "A volunteer writes new words for the reading discussion."
+    },
+    {
+     "left": "consistent tense",
+     "right": "The account describes regular meetings in the present."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-17-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "setting: the place and conditions in which activities occur.",
+      "truth": "true",
+      "explain": "This statement is correct: setting means the place and conditions in which activities occur. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "precise verb: a verb naming a specific action.",
+      "truth": "true",
+      "explain": "This statement is correct: precise verb means a verb naming a specific action. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "relevant detail: an observation that develops the description's purpose.",
+      "truth": "true",
+      "explain": "This statement is correct: relevant detail means an observation that develops the description's purpose. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "consistent tense: verb forms fitting the chosen time frame.",
+      "truth": "true",
+      "explain": "This statement is correct: consistent tense means verb forms fitting the chosen time frame. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A setting is only the writer's signature.",
+      "truth": "false",
+      "explain": "Setting locates the activities for the reader."
+     },
+     {
+      "text": "Do something always gives as much detail as record loans.",
+      "truth": "false",
+      "explain": "Specific verbs make the action easier to picture."
+     },
+     {
+      "text": "Any unrelated event automatically improves a description.",
+      "truth": "false",
+      "explain": "Details should help portray the club rather than distract from it."
+     },
+     {
+      "text": "Changing every verb's time at random makes a description clearer.",
+      "truth": "false",
+      "explain": "A stable time frame helps the reader follow regular activities."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Describe activities carried out by an imaginary school club. Give its setting, purpose and members' actions.",
+  "model": [
+   "Our imaginary reading club meets in a bright classroom. Members arrange the books on a long table and read in small groups. A volunteer writes new words on the board, while another records book loans. The quiet discussion helps learners explain their favourite passages. At the end, everyone returns the materials to their places."
+  ],
+  "checklist": [
+   "I describe the setting and purpose.",
+   "My verbs and details are precise and relevant.",
+   "I keep a consistent time frame."
+  ],
+  "checks": []
+ }
+}

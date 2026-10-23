@@ -1,0 +1,612 @@
+{
+ "subject": "logic",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "l3-6",
+   "name": "Laws of thought in classical logic"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Classical logic uses the laws of identity, non-contradiction and excluded middle. Identity keeps a thing or proposition itself: P is P. Non-contradiction says P and not P cannot both be true at the same time and in the same respect. Excluded middle says P or not P. It does not say that we know which is true. Changes of time or meaning can remove an apparent contradiction, so always state the conditions precisely. Other logical systems exist; this lesson uses the classical school framework.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Classical logic uses the laws of identity, non-contradiction and excluded middle. Identity keeps a thing or proposition itself: P is P. Non-contradiction says P and not P cannot both be true at the same time and in the same respect. Excluded middle says P or not P. It does not say that we know which is true. Changes of time or meaning can remove an apparent contradiction, so always state the conditions precisely. Other logical systems exist; this lesson uses the classical school framework."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A Buea classroom door can be open in the morning and closed at night without contradiction. Claiming that it is fully open and not open at the same instant, using open in the same way, is different. Calling a business bank a river bank changes meaning; it cannot support an argument that depends on keeping bank fixed."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Write one proposition clearly before negating it. Keep its subject, time and meaning fixed. Distinguish a contradiction from a mere difference or lack of knowledge. In a computed truth exercise, evaluate the relationship rather than guessing from the number of words."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "identity",
+    "meaning": "keeping a thing or proposition identical with itself in an argument"
+   },
+   {
+    "word": "non-contradiction",
+    "meaning": "excluding P and not P as both true in the same respect and time"
+   },
+   {
+    "word": "excluded middle",
+    "meaning": "the classical rule P or not P"
+   },
+   {
+    "word": "qualification",
+    "meaning": "specifying the time and respect of a claim"
+   }
+  ],
+  "examples": [
+   "A class uses library to mean the same reading room throughout its discussion.",
+   "A notice cannot truthfully say the same room is fully open and not open at the same instant.",
+   "Either the specified library light is on now or it is not on now."
+  ],
+  "mistake": {
+   "wrong": "A term may change meaning unnoticed halfway through a proof.",
+   "right": "identity: keeping a thing or proposition identical with itself in an argument.",
+   "why": "A valid comparison keeps the relevant meaning fixed."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A class uses library to mean the same reading room throughout its discussion. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Keeping a thing or proposition identical with itself in an argument.",
+   "A valid comparison keeps the relevant meaning fixed."
+  ],
+  "answer": "identity",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cl3-6-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "identity: keeping a thing or proposition identical with itself in an argument.",
+     "non-contradiction: excluding P and not P as both true in the same respect and time.",
+     "excluded middle: the classical rule P or not P.",
+     "qualification: specifying the time and respect of a claim."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-6-terms"
+    }
+   },
+   {
+    "id": "cl3-6-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A class uses library to mean the same reading room throughout its discussion.",
+     "identity: keeping a thing or proposition identical with itself in an argument."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-6-cases"
+    }
+   },
+   {
+    "id": "cl3-6-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "A term may change meaning unnoticed halfway through a proof.",
+     "A valid comparison keeps the relevant meaning fixed."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l3-6-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "intro-logic"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "identity: keeping a thing or proposition identical with itself in an argument.",
+        "truth": "true",
+        "explain": "This statement is correct: identity means keeping a thing or proposition identical with itself in an argument. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "non-contradiction: excluding P and not P as both true in the same respect and time.",
+        "truth": "true",
+        "explain": "This statement is correct: non-contradiction means excluding P and not P as both true in the same respect and time. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "excluded middle: the classical rule P or not P.",
+        "truth": "true",
+        "explain": "This statement is correct: excluded middle means the classical rule P or not P. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "qualification: specifying the time and respect of a claim.",
+        "truth": "true",
+        "explain": "This statement is correct: qualification means specifying the time and respect of a claim. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A term may change meaning unnoticed halfway through a proof.",
+        "truth": "false",
+        "explain": "A valid comparison keeps the relevant meaning fixed."
+       },
+       {
+        "text": "Open in the morning and closed at night is a contradiction.",
+        "truth": "false",
+        "explain": "The different times remove the conflict; fix time and respect before applying the law."
+       },
+       {
+        "text": "Not knowing whether a light is on defeats excluded middle.",
+        "truth": "false",
+        "explain": "The law concerns the alternatives, not our knowledge of which holds."
+       },
+       {
+        "text": "Every use of the same word has exactly the same meaning.",
+        "truth": "false",
+        "explain": "Words can be used in different senses; specify the relevant sense."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l3-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: keeping a thing or proposition identical with itself in an argument ?",
+       "r": "identity",
+       "w": [
+        "non-contradiction",
+        "excluded middle",
+        "qualification"
+       ],
+       "e": [
+        "non-contradiction means excluding P and not P as both true in the same respect and time; the question instead describes keeping a thing or proposition identical with itself in an argument.",
+        "excluded middle means the classical rule P or not P; the question instead describes keeping a thing or proposition identical with itself in an argument.",
+        "qualification means specifying the time and respect of a claim; the question instead describes keeping a thing or proposition identical with itself in an argument."
+       ],
+       "y": "Keeping a thing or proposition identical with itself in an argument."
+      },
+      {
+       "q": "Which term means: excluding P and not P as both true in the same respect and time ?",
+       "r": "non-contradiction",
+       "w": [
+        "identity",
+        "excluded middle",
+        "qualification"
+       ],
+       "e": [
+        "identity means keeping a thing or proposition identical with itself in an argument; the question instead describes excluding P and not P as both true in the same respect and time.",
+        "excluded middle means the classical rule P or not P; the question instead describes excluding P and not P as both true in the same respect and time.",
+        "qualification means specifying the time and respect of a claim; the question instead describes excluding P and not P as both true in the same respect and time."
+       ],
+       "y": "Excluding p and not p as both true in the same respect and time."
+      },
+      {
+       "q": "Which term means: the classical rule P or not P ?",
+       "r": "excluded middle",
+       "w": [
+        "identity",
+        "non-contradiction",
+        "qualification"
+       ],
+       "e": [
+        "identity means keeping a thing or proposition identical with itself in an argument; the question instead describes the classical rule P or not P.",
+        "non-contradiction means excluding P and not P as both true in the same respect and time; the question instead describes the classical rule P or not P.",
+        "qualification means specifying the time and respect of a claim; the question instead describes the classical rule P or not P."
+       ],
+       "y": "The classical rule p or not p."
+      },
+      {
+       "q": "Which term means: specifying the time and respect of a claim ?",
+       "r": "qualification",
+       "w": [
+        "identity",
+        "non-contradiction",
+        "excluded middle"
+       ],
+       "e": [
+        "identity means keeping a thing or proposition identical with itself in an argument; the question instead describes specifying the time and respect of a claim.",
+        "non-contradiction means excluding P and not P as both true in the same respect and time; the question instead describes specifying the time and respect of a claim.",
+        "excluded middle means the classical rule P or not P; the question instead describes specifying the time and respect of a claim."
+       ],
+       "y": "Specifying the time and respect of a claim."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A class uses library to mean the same reading room throughout its discussion.\nWhich term best fits this example?",
+       "r": "identity",
+       "w": [
+        "non-contradiction",
+        "excluded middle",
+        "qualification"
+       ],
+       "e": [
+        "non-contradiction concerns excluding P and not P as both true in the same respect and time. This case instead illustrates keeping a thing or proposition identical with itself in an argument.",
+        "excluded middle concerns the classical rule P or not P. This case instead illustrates keeping a thing or proposition identical with itself in an argument.",
+        "qualification concerns specifying the time and respect of a claim. This case instead illustrates keeping a thing or proposition identical with itself in an argument."
+       ],
+       "y": "A class uses library to mean the same reading room throughout its discussion. Keeping a thing or proposition identical with itself in an argument."
+      },
+      {
+       "q": "A notice cannot truthfully say the same room is fully open and not open at the same instant.\nWhich term best fits this example?",
+       "r": "non-contradiction",
+       "w": [
+        "identity",
+        "excluded middle",
+        "qualification"
+       ],
+       "e": [
+        "identity concerns keeping a thing or proposition identical with itself in an argument. This case instead illustrates excluding P and not P as both true in the same respect and time.",
+        "excluded middle concerns the classical rule P or not P. This case instead illustrates excluding P and not P as both true in the same respect and time.",
+        "qualification concerns specifying the time and respect of a claim. This case instead illustrates excluding P and not P as both true in the same respect and time."
+       ],
+       "y": "A notice cannot truthfully say the same room is fully open and not open at the same instant. Excluding p and not p as both true in the same respect and time."
+      },
+      {
+       "q": "Either the specified library light is on now or it is not on now.\nWhich term best fits this example?",
+       "r": "excluded middle",
+       "w": [
+        "identity",
+        "non-contradiction",
+        "qualification"
+       ],
+       "e": [
+        "identity concerns keeping a thing or proposition identical with itself in an argument. This case instead illustrates the classical rule P or not P.",
+        "non-contradiction concerns excluding P and not P as both true in the same respect and time. This case instead illustrates the classical rule P or not P.",
+        "qualification concerns specifying the time and respect of a claim. This case instead illustrates the classical rule P or not P."
+       ],
+       "y": "Either the specified library light is on now or it is not on now. The classical rule p or not p."
+      },
+      {
+       "q": "A learner distinguishes a heavy bag from a heavy school workload before comparing claims.\nWhich term best fits this example?",
+       "r": "qualification",
+       "w": [
+        "identity",
+        "non-contradiction",
+        "excluded middle"
+       ],
+       "e": [
+        "identity concerns keeping a thing or proposition identical with itself in an argument. This case instead illustrates specifying the time and respect of a claim.",
+        "non-contradiction concerns excluding P and not P as both true in the same respect and time. This case instead illustrates specifying the time and respect of a claim.",
+        "excluded middle concerns the classical rule P or not P. This case instead illustrates specifying the time and respect of a claim."
+       ],
+       "y": "A learner distinguishes a heavy bag from a heavy school workload before comparing claims. Specifying the time and respect of a claim."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-6-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A class uses library to mean the same reading room throughout its discussion.\nWhich explanation justifies the classification?",
+       "r": "Keeping a thing or proposition identical with itself in an argument.",
+       "w": [
+        "Excluding p and not p as both true in the same respect and time.",
+        "The classical rule p or not p.",
+        "Specifying the time and respect of a claim."
+       ],
+       "e": [
+        "That explanation describes non-contradiction, rather than the relationship illustrated in this example.",
+        "That explanation describes excluded middle, rather than the relationship illustrated in this example.",
+        "That explanation describes qualification, rather than the relationship illustrated in this example."
+       ],
+       "y": "A valid comparison keeps the relevant meaning fixed."
+      },
+      {
+       "q": "A notice cannot truthfully say the same room is fully open and not open at the same instant.\nWhich explanation justifies the classification?",
+       "r": "Excluding p and not p as both true in the same respect and time.",
+       "w": [
+        "Keeping a thing or proposition identical with itself in an argument.",
+        "The classical rule p or not p.",
+        "Specifying the time and respect of a claim."
+       ],
+       "e": [
+        "That explanation describes identity, rather than the relationship illustrated in this example.",
+        "That explanation describes excluded middle, rather than the relationship illustrated in this example.",
+        "That explanation describes qualification, rather than the relationship illustrated in this example."
+       ],
+       "y": "The different times remove the conflict; fix time and respect before applying the law."
+      },
+      {
+       "q": "Either the specified library light is on now or it is not on now.\nWhich explanation justifies the classification?",
+       "r": "The classical rule p or not p.",
+       "w": [
+        "Keeping a thing or proposition identical with itself in an argument.",
+        "Excluding p and not p as both true in the same respect and time.",
+        "Specifying the time and respect of a claim."
+       ],
+       "e": [
+        "That explanation describes identity, rather than the relationship illustrated in this example.",
+        "That explanation describes non-contradiction, rather than the relationship illustrated in this example.",
+        "That explanation describes qualification, rather than the relationship illustrated in this example."
+       ],
+       "y": "The law concerns the alternatives, not our knowledge of which holds."
+      },
+      {
+       "q": "A learner distinguishes a heavy bag from a heavy school workload before comparing claims.\nWhich explanation justifies the classification?",
+       "r": "Specifying the time and respect of a claim.",
+       "w": [
+        "Keeping a thing or proposition identical with itself in an argument.",
+        "Excluding p and not p as both true in the same respect and time.",
+        "The classical rule p or not p."
+       ],
+       "e": [
+        "That explanation describes identity, rather than the relationship illustrated in this example.",
+        "That explanation describes non-contradiction, rather than the relationship illustrated in this example.",
+        "That explanation describes excluded middle, rather than the relationship illustrated in this example."
+       ],
+       "y": "Words can be used in different senses; specify the relevant sense."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-6-truth",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      1
+     ]
+    },
+    "q": {
+     "int": [
+      0,
+      1
+     ]
+    }
+   },
+   "prompt": "In classical logic let P have value {p} and Q have value {q}, where {1} means true and {0} means false. Give the truth value of P AND Q.",
+   "answer": "p && q ? 1 : 0",
+   "misconceptions": [
+    {
+     "id": "or",
+     "wrong": "p || q ? 1 : 0",
+     "explain": "That treats AND as OR; AND requires both statements to be true.",
+     "when": "p != q"
+    },
+    {
+     "id": "opposite",
+     "wrong": "p && q ? 0 : 1",
+     "explain": "That reverses the truth value; test whether both inputs are true."
+    }
+   ],
+   "solution": [
+    "AND is true only when both statements are true.",
+    "P has value {p}; Q has value {q}; the result is {answer}."
+   ]
+  },
+  {
+   "id": "l3-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "identity: keeping a thing or proposition identical with itself in an argument.",
+      "truth": "true",
+      "explain": "This statement is correct: identity means keeping a thing or proposition identical with itself in an argument. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "non-contradiction: excluding P and not P as both true in the same respect and time.",
+      "truth": "true",
+      "explain": "This statement is correct: non-contradiction means excluding P and not P as both true in the same respect and time. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "excluded middle: the classical rule P or not P.",
+      "truth": "true",
+      "explain": "This statement is correct: excluded middle means the classical rule P or not P. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "qualification: specifying the time and respect of a claim.",
+      "truth": "true",
+      "explain": "This statement is correct: qualification means specifying the time and respect of a claim. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A term may change meaning unnoticed halfway through a proof.",
+      "truth": "false",
+      "explain": "A valid comparison keeps the relevant meaning fixed."
+     },
+     {
+      "text": "Open in the morning and closed at night is a contradiction.",
+      "truth": "false",
+      "explain": "The different times remove the conflict; fix time and respect before applying the law."
+     },
+     {
+      "text": "Not knowing whether a light is on defeats excluded middle.",
+      "truth": "false",
+      "explain": "The law concerns the alternatives, not our knowledge of which holds."
+     },
+     {
+      "text": "Every use of the same word has exactly the same meaning.",
+      "truth": "false",
+      "explain": "Words can be used in different senses; specify the relevant sense."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

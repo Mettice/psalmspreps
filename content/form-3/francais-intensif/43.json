@@ -1,0 +1,605 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 43,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-43",
+   "name": "Le lexique de la végétation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La végétation est l’ensemble des plantes présentes dans un milieu. Une forêt comporte une couverture d’arbres importante ; une savane associe une couverture herbacée à des arbres ou arbustes plus ou moins dispersés ; un arbuste est une plante ligneuse généralement de taille inférieure à un arbre ; une herbe a des tiges non ligneuses dans le modèle introductif. Les milieux varient et leurs limites ne se déduisent pas d’une photo d’un seul arbre.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "La végétation est l’ensemble des plantes présentes dans un milieu. Une forêt comporte une couverture d’arbres importante ; une savane associe une couverture herbacée à des arbres ou arbustes plus ou moins dispersés ; un arbuste est une plante ligneuse généralement de taille inférieure à un arbre ; une herbe a des tiges non ligneuses dans le modèle introductif. Les milieux varient et leurs limites ne se déduisent pas d’une photo d’un seul arbre."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Un passage original compare un couvert forestier, une étendue herbacée avec des arbres dispersés et un jardin où poussent de petits arbustes. Le lecteur distingue la formation végétale de la plante individuelle. Les mots ne prouvent pas à eux seuls la région exacte, la saison ou l’état de conservation d’un lieu."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis la phrase entière, relève les indices et compare les sens. Choisis un mot pour ce contexte, puis emploie-le dans une phrase originale. Un exemple n’autorise pas une généralisation à toutes les situations. Explique ton choix sans recopier une définition sans rapport."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "forêt",
+    "meaning": "une formation comportant une couverture importante d’arbres"
+   },
+   {
+    "word": "savane",
+    "meaning": "une formation à couverture herbacée avec des ligneux dispersés selon le milieu"
+   },
+   {
+    "word": "arbuste",
+    "meaning": "une plante ligneuse généralement plus petite qu’un arbre"
+   },
+   {
+    "word": "herbe",
+    "meaning": "une plante à tiges non ligneuses dans le modèle introductif"
+   }
+  ],
+  "examples": [
+   "Le passage décrit un couvert arboré important.",
+   "Une étendue herbacée porte des arbres dispersés dans le modèle.",
+   "Le jardin comporte un petit végétal à tiges ligneuses."
+  ],
+  "mistake": {
+   "wrong": "Un arbre isolé prouve nécessairement l’existence d’une forêt complète.",
+   "right": "forêt: une formation comportant une couverture importante d’arbres.",
+   "why": "Une formation se décrit à une échelle plus large qu’un arbre isolé."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le passage décrit un couvert arboré important. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Une formation comportant une couverture importante d’arbres.",
+   "Une formation se décrit à une échelle plus large qu’un arbre isolé."
+  ],
+  "answer": "forêt",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-43-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "forêt: une formation comportant une couverture importante d’arbres.",
+     "savane: une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+     "arbuste: une plante ligneuse généralement plus petite qu’un arbre.",
+     "herbe: une plante à tiges non ligneuses dans le modèle introductif."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-43-terms"
+    }
+   },
+   {
+    "id": "cfi3-43-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le passage décrit un couvert arboré important.",
+     "forêt: une formation comportant une couverture importante d’arbres."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-43-cases"
+    }
+   },
+   {
+    "id": "cfi3-43-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Un arbre isolé prouve nécessairement l’existence d’une forêt complète.",
+     "Une formation se décrit à une échelle plus large qu’un arbre isolé."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-43-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "forêt : une formation comportant une couverture importante d’arbres.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : forêt désigne une formation comportant une couverture importante d’arbres. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "savane : une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : savane désigne une formation à couverture herbacée avec des ligneux dispersés selon le milieu. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "arbuste : une plante ligneuse généralement plus petite qu’un arbre.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : arbuste désigne une plante ligneuse généralement plus petite qu’un arbre. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "herbe : une plante à tiges non ligneuses dans le modèle introductif.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : herbe désigne une plante à tiges non ligneuses dans le modèle introductif. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un arbre isolé prouve nécessairement l’existence d’une forêt complète.",
+        "truth": "false",
+        "explain": "Une formation se décrit à une échelle plus large qu’un arbre isolé."
+       },
+       {
+        "text": "Toute savane est nécessairement sans aucune plante herbacée.",
+        "truth": "false",
+        "explain": "La couverture herbacée est importante dans ce modèle."
+       },
+       {
+        "text": "Un arbuste n’a jamais de partie ligneuse.",
+        "truth": "false",
+        "explain": "Le caractère ligneux aide ici à le distinguer d’une herbe."
+       },
+       {
+        "text": "Herbe est obligatoirement le nom de tout grand arbre.",
+        "truth": "false",
+        "explain": "La catégorie ne se confond pas avec un arbre ligneux."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-43-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : une formation comportant une couverture importante d’arbres ?",
+       "r": "forêt",
+       "w": [
+        "savane",
+        "arbuste",
+        "herbe"
+       ],
+       "e": [
+        "« savane » désigne une formation à couverture herbacée avec des ligneux dispersés selon le milieu. Ici, cherche une formation comportant une couverture importante d’arbres.",
+        "« arbuste » désigne une plante ligneuse généralement plus petite qu’un arbre. Ici, cherche une formation comportant une couverture importante d’arbres.",
+        "« herbe » désigne une plante à tiges non ligneuses dans le modèle introductif. Ici, cherche une formation comportant une couverture importante d’arbres."
+       ],
+       "y": "Une formation comportant une couverture importante d’arbres."
+      },
+      {
+       "q": "Quel terme désigne : une formation à couverture herbacée avec des ligneux dispersés selon le milieu ?",
+       "r": "savane",
+       "w": [
+        "forêt",
+        "arbuste",
+        "herbe"
+       ],
+       "e": [
+        "« forêt » désigne une formation comportant une couverture importante d’arbres. Ici, cherche une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+        "« arbuste » désigne une plante ligneuse généralement plus petite qu’un arbre. Ici, cherche une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+        "« herbe » désigne une plante à tiges non ligneuses dans le modèle introductif. Ici, cherche une formation à couverture herbacée avec des ligneux dispersés selon le milieu."
+       ],
+       "y": "Une formation à couverture herbacée avec des ligneux dispersés selon le milieu."
+      },
+      {
+       "q": "Quel terme désigne : une plante ligneuse généralement plus petite qu’un arbre ?",
+       "r": "arbuste",
+       "w": [
+        "forêt",
+        "savane",
+        "herbe"
+       ],
+       "e": [
+        "« forêt » désigne une formation comportant une couverture importante d’arbres. Ici, cherche une plante ligneuse généralement plus petite qu’un arbre.",
+        "« savane » désigne une formation à couverture herbacée avec des ligneux dispersés selon le milieu. Ici, cherche une plante ligneuse généralement plus petite qu’un arbre.",
+        "« herbe » désigne une plante à tiges non ligneuses dans le modèle introductif. Ici, cherche une plante ligneuse généralement plus petite qu’un arbre."
+       ],
+       "y": "Une plante ligneuse généralement plus petite qu’un arbre."
+      },
+      {
+       "q": "Quel terme désigne : une plante à tiges non ligneuses dans le modèle introductif ?",
+       "r": "herbe",
+       "w": [
+        "forêt",
+        "savane",
+        "arbuste"
+       ],
+       "e": [
+        "« forêt » désigne une formation comportant une couverture importante d’arbres. Ici, cherche une plante à tiges non ligneuses dans le modèle introductif.",
+        "« savane » désigne une formation à couverture herbacée avec des ligneux dispersés selon le milieu. Ici, cherche une plante à tiges non ligneuses dans le modèle introductif.",
+        "« arbuste » désigne une plante ligneuse généralement plus petite qu’un arbre. Ici, cherche une plante à tiges non ligneuses dans le modèle introductif."
+       ],
+       "y": "Une plante à tiges non ligneuses dans le modèle introductif."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-43-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le passage décrit un couvert arboré important.\nQuel terme s’applique le mieux ?",
+       "r": "forêt",
+       "w": [
+        "savane",
+        "arbuste",
+        "herbe"
+       ],
+       "e": [
+        "« savane » concerne une formation à couverture herbacée avec des ligneux dispersés selon le milieu. Le cas décrit plutôt une formation comportant une couverture importante d’arbres.",
+        "« arbuste » concerne une plante ligneuse généralement plus petite qu’un arbre. Le cas décrit plutôt une formation comportant une couverture importante d’arbres.",
+        "« herbe » concerne une plante à tiges non ligneuses dans le modèle introductif. Le cas décrit plutôt une formation comportant une couverture importante d’arbres."
+       ],
+       "y": "Le passage décrit un couvert arboré important. Une formation comportant une couverture importante d’arbres."
+      },
+      {
+       "q": "Une étendue herbacée porte des arbres dispersés dans le modèle.\nQuel terme s’applique le mieux ?",
+       "r": "savane",
+       "w": [
+        "forêt",
+        "arbuste",
+        "herbe"
+       ],
+       "e": [
+        "« forêt » concerne une formation comportant une couverture importante d’arbres. Le cas décrit plutôt une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+        "« arbuste » concerne une plante ligneuse généralement plus petite qu’un arbre. Le cas décrit plutôt une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+        "« herbe » concerne une plante à tiges non ligneuses dans le modèle introductif. Le cas décrit plutôt une formation à couverture herbacée avec des ligneux dispersés selon le milieu."
+       ],
+       "y": "Une étendue herbacée porte des arbres dispersés dans le modèle. Une formation à couverture herbacée avec des ligneux dispersés selon le milieu."
+      },
+      {
+       "q": "Le jardin comporte un petit végétal à tiges ligneuses.\nQuel terme s’applique le mieux ?",
+       "r": "arbuste",
+       "w": [
+        "forêt",
+        "savane",
+        "herbe"
+       ],
+       "e": [
+        "« forêt » concerne une formation comportant une couverture importante d’arbres. Le cas décrit plutôt une plante ligneuse généralement plus petite qu’un arbre.",
+        "« savane » concerne une formation à couverture herbacée avec des ligneux dispersés selon le milieu. Le cas décrit plutôt une plante ligneuse généralement plus petite qu’un arbre.",
+        "« herbe » concerne une plante à tiges non ligneuses dans le modèle introductif. Le cas décrit plutôt une plante ligneuse généralement plus petite qu’un arbre."
+       ],
+       "y": "Le jardin comporte un petit végétal à tiges ligneuses. Une plante ligneuse généralement plus petite qu’un arbre."
+      },
+      {
+       "q": "Le texte distingue les tiges souples non ligneuses du bois.\nQuel terme s’applique le mieux ?",
+       "r": "herbe",
+       "w": [
+        "forêt",
+        "savane",
+        "arbuste"
+       ],
+       "e": [
+        "« forêt » concerne une formation comportant une couverture importante d’arbres. Le cas décrit plutôt une plante à tiges non ligneuses dans le modèle introductif.",
+        "« savane » concerne une formation à couverture herbacée avec des ligneux dispersés selon le milieu. Le cas décrit plutôt une plante à tiges non ligneuses dans le modèle introductif.",
+        "« arbuste » concerne une plante ligneuse généralement plus petite qu’un arbre. Le cas décrit plutôt une plante à tiges non ligneuses dans le modèle introductif."
+       ],
+       "y": "Le texte distingue les tiges souples non ligneuses du bois. Une plante à tiges non ligneuses dans le modèle introductif."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-43-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le passage décrit un couvert arboré important.\nQuelle explication justifie le classement ?",
+       "r": "Une formation comportant une couverture importante d’arbres.",
+       "w": [
+        "Une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+        "Une plante ligneuse généralement plus petite qu’un arbre.",
+        "Une plante à tiges non ligneuses dans le modèle introductif."
+       ],
+       "e": [
+        "Cette explication correspond à « savane ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « arbuste ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « herbe ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Une formation se décrit à une échelle plus large qu’un arbre isolé."
+      },
+      {
+       "q": "Une étendue herbacée porte des arbres dispersés dans le modèle.\nQuelle explication justifie le classement ?",
+       "r": "Une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+       "w": [
+        "Une formation comportant une couverture importante d’arbres.",
+        "Une plante ligneuse généralement plus petite qu’un arbre.",
+        "Une plante à tiges non ligneuses dans le modèle introductif."
+       ],
+       "e": [
+        "Cette explication correspond à « forêt ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « arbuste ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « herbe ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La couverture herbacée est importante dans ce modèle."
+      },
+      {
+       "q": "Le jardin comporte un petit végétal à tiges ligneuses.\nQuelle explication justifie le classement ?",
+       "r": "Une plante ligneuse généralement plus petite qu’un arbre.",
+       "w": [
+        "Une formation comportant une couverture importante d’arbres.",
+        "Une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+        "Une plante à tiges non ligneuses dans le modèle introductif."
+       ],
+       "e": [
+        "Cette explication correspond à « forêt ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « savane ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « herbe ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le caractère ligneux aide ici à le distinguer d’une herbe."
+      },
+      {
+       "q": "Le texte distingue les tiges souples non ligneuses du bois.\nQuelle explication justifie le classement ?",
+       "r": "Une plante à tiges non ligneuses dans le modèle introductif.",
+       "w": [
+        "Une formation comportant une couverture importante d’arbres.",
+        "Une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+        "Une plante ligneuse généralement plus petite qu’un arbre."
+       ],
+       "e": [
+        "Cette explication correspond à « forêt ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « savane ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « arbuste ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "La catégorie ne se confond pas avec un arbre ligneux."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-43-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "forêt",
+     "right": "Le passage décrit un couvert arboré important."
+    },
+    {
+     "left": "savane",
+     "right": "Une étendue herbacée porte des arbres dispersés dans le modèle."
+    },
+    {
+     "left": "arbuste",
+     "right": "Le jardin comporte un petit végétal à tiges ligneuses."
+    },
+    {
+     "left": "herbe",
+     "right": "Le texte distingue les tiges souples non ligneuses du bois."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-43-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "forêt : une formation comportant une couverture importante d’arbres.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : forêt désigne une formation comportant une couverture importante d’arbres. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "savane : une formation à couverture herbacée avec des ligneux dispersés selon le milieu.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : savane désigne une formation à couverture herbacée avec des ligneux dispersés selon le milieu. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "arbuste : une plante ligneuse généralement plus petite qu’un arbre.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : arbuste désigne une plante ligneuse généralement plus petite qu’un arbre. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "herbe : une plante à tiges non ligneuses dans le modèle introductif.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : herbe désigne une plante à tiges non ligneuses dans le modèle introductif. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un arbre isolé prouve nécessairement l’existence d’une forêt complète.",
+      "truth": "false",
+      "explain": "Une formation se décrit à une échelle plus large qu’un arbre isolé."
+     },
+     {
+      "text": "Toute savane est nécessairement sans aucune plante herbacée.",
+      "truth": "false",
+      "explain": "La couverture herbacée est importante dans ce modèle."
+     },
+     {
+      "text": "Un arbuste n’a jamais de partie ligneuse.",
+      "truth": "false",
+      "explain": "Le caractère ligneux aide ici à le distinguer d’une herbe."
+     },
+     {
+      "text": "Herbe est obligatoirement le nom de tout grand arbre.",
+      "truth": "false",
+      "explain": "La catégorie ne se confond pas avec un arbre ligneux."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-2",
+   "name": "Le passé composé : formation et emploi"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé composé associe un auxiliaire au présent et un participe passé. Il présente notamment un fait accompli. Le choix entre avoir et être dépend du verbe et parfois de son emploi. Ne remplace pas le participe par l’infinitif. Avec être, les participes des verbes non pronominaux étudiés s’accordent avec le sujet. Cette leçon introduit la construction ; les accords particuliers avec avoir ne se réduisent pas à une règle automatique avec le sujet.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Le passé composé associe un auxiliaire au présent et un participe passé. Il présente notamment un fait accompli. Le choix entre avoir et être dépend du verbe et parfois de son emploi. Ne remplace pas le participe par l’infinitif. Avec être, les participes des verbes non pronominaux étudiés s’accordent avec le sujet. Cette leçon introduit la construction ; les accords particuliers avec avoir ne se réduisent pas à une règle automatique avec le sujet."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Bih raconte une activité terminée : {fr2PasseCompose('travailler',3)}. Elle emploie avoir au présent et le participe {fr2Participle('travailler')}. Pour un déplacement accompli : {fr2PasseCompose('arriver',3)}. La forme d’arriver utilise être et l’accord féminin. Le temps composé forme un ensemble même si un adverbe s’intercale dans certains emplois."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Repère le sujet et l’infinitif, choisis l’auxiliaire, conjugue cet auxiliaire au présent et ajoute le participe. Vérifie ensuite l’accord exigé. Pour le passé composé, ne conjugue pas simultanément le verbe lexical au présent et à l’infinitif."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "auxiliaire",
+    "meaning": "le verbe avoir ou être portant personne et temps dans la construction"
+   },
+   {
+    "word": "participe passé",
+    "meaning": "la forme verbale associée à l’auxiliaire"
+   },
+   {
+    "word": "fait accompli",
+    "meaning": "une action présentée comme achevée dans le contexte"
+   },
+   {
+    "word": "accord avec être",
+    "meaning": "l’accord du participe avec le sujet pour les verbes non pronominaux étudiés"
+   }
+  ],
+  "examples": [
+   "Dans {fr2PasseCompose('travailler',3)}, avoir porte la conjugaison.",
+   "Le participe de travailler est {fr2Participle('travailler')}.",
+   "{fr2PasseCompose('finir',3)} présente ici un travail terminé."
+  ],
+  "mistake": {
+   "wrong": "Un auxiliaire ne change jamais selon le sujet.",
+   "right": "auxiliaire: le verbe avoir ou être portant personne et temps dans la construction.",
+   "why": "L’auxiliaire se conjugue avec le sujet."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans {fr2PasseCompose('travailler',3)}, avoir porte la conjugaison. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Le verbe avoir ou être portant personne et temps dans la construction.",
+   "L’auxiliaire se conjugue avec le sujet."
+  ],
+  "answer": "auxiliaire",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-2-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "auxiliaire: le verbe avoir ou être portant personne et temps dans la construction.",
+     "participe passé: la forme verbale associée à l’auxiliaire.",
+     "fait accompli: une action présentée comme achevée dans le contexte.",
+     "accord avec être: l’accord du participe avec le sujet pour les verbes non pronominaux étudiés."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-2-terms"
+    }
+   },
+   {
+    "id": "cfr3-2-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Dans {fr2PasseCompose('travailler',3)}, avoir porte la conjugaison.",
+     "auxiliaire: le verbe avoir ou être portant personne et temps dans la construction."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-2-cases"
+    }
+   },
+   {
+    "id": "cfr3-2-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Un auxiliaire ne change jamais selon le sujet.",
+     "L’auxiliaire se conjugue avec le sujet."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-2-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "auxiliaire : le verbe avoir ou être portant personne et temps dans la construction.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : auxiliaire désigne le verbe avoir ou être portant personne et temps dans la construction. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "participe passé : la forme verbale associée à l’auxiliaire.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : participe passé désigne la forme verbale associée à l’auxiliaire. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "fait accompli : une action présentée comme achevée dans le contexte.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : fait accompli désigne une action présentée comme achevée dans le contexte. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "accord avec être : l’accord du participe avec le sujet pour les verbes non pronominaux étudiés.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : accord avec être désigne l’accord du participe avec le sujet pour les verbes non pronominaux étudiés. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un auxiliaire ne change jamais selon le sujet.",
+        "truth": "false",
+        "explain": "L’auxiliaire se conjugue avec le sujet."
+       },
+       {
+        "text": "Le participe de travailler est toujours travailler.",
+        "truth": "false",
+        "explain": "Distingue l’infinitif en -er et le participe en -é."
+       },
+       {
+        "text": "Le passé composé ne peut jamais présenter une action achevée.",
+        "truth": "false",
+        "explain": "Il sert couramment à présenter un fait accompli."
+       },
+       {
+        "text": "Avec être, un sujet féminin pluriel impose toujours un participe masculin singulier.",
+        "truth": "false",
+        "explain": "Le participe prend ici les marques du féminin et du pluriel."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : le verbe avoir ou être portant personne et temps dans la construction ?",
+       "r": "auxiliaire",
+       "w": [
+        "participe passé",
+        "fait accompli",
+        "accord avec être"
+       ],
+       "e": [
+        "« participe passé » désigne la forme verbale associée à l’auxiliaire. Ici, cherche le verbe avoir ou être portant personne et temps dans la construction.",
+        "« fait accompli » désigne une action présentée comme achevée dans le contexte. Ici, cherche le verbe avoir ou être portant personne et temps dans la construction.",
+        "« accord avec être » désigne l’accord du participe avec le sujet pour les verbes non pronominaux étudiés. Ici, cherche le verbe avoir ou être portant personne et temps dans la construction."
+       ],
+       "y": "Le verbe avoir ou être portant personne et temps dans la construction."
+      },
+      {
+       "q": "Quel terme désigne : la forme verbale associée à l’auxiliaire ?",
+       "r": "participe passé",
+       "w": [
+        "auxiliaire",
+        "fait accompli",
+        "accord avec être"
+       ],
+       "e": [
+        "« auxiliaire » désigne le verbe avoir ou être portant personne et temps dans la construction. Ici, cherche la forme verbale associée à l’auxiliaire.",
+        "« fait accompli » désigne une action présentée comme achevée dans le contexte. Ici, cherche la forme verbale associée à l’auxiliaire.",
+        "« accord avec être » désigne l’accord du participe avec le sujet pour les verbes non pronominaux étudiés. Ici, cherche la forme verbale associée à l’auxiliaire."
+       ],
+       "y": "La forme verbale associée à l’auxiliaire."
+      },
+      {
+       "q": "Quel terme désigne : une action présentée comme achevée dans le contexte ?",
+       "r": "fait accompli",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "accord avec être"
+       ],
+       "e": [
+        "« auxiliaire » désigne le verbe avoir ou être portant personne et temps dans la construction. Ici, cherche une action présentée comme achevée dans le contexte.",
+        "« participe passé » désigne la forme verbale associée à l’auxiliaire. Ici, cherche une action présentée comme achevée dans le contexte.",
+        "« accord avec être » désigne l’accord du participe avec le sujet pour les verbes non pronominaux étudiés. Ici, cherche une action présentée comme achevée dans le contexte."
+       ],
+       "y": "Une action présentée comme achevée dans le contexte."
+      },
+      {
+       "q": "Quel terme désigne : l’accord du participe avec le sujet pour les verbes non pronominaux étudiés ?",
+       "r": "accord avec être",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "fait accompli"
+       ],
+       "e": [
+        "« auxiliaire » désigne le verbe avoir ou être portant personne et temps dans la construction. Ici, cherche l’accord du participe avec le sujet pour les verbes non pronominaux étudiés.",
+        "« participe passé » désigne la forme verbale associée à l’auxiliaire. Ici, cherche l’accord du participe avec le sujet pour les verbes non pronominaux étudiés.",
+        "« fait accompli » désigne une action présentée comme achevée dans le contexte. Ici, cherche l’accord du participe avec le sujet pour les verbes non pronominaux étudiés."
+       ],
+       "y": "L’accord du participe avec le sujet pour les verbes non pronominaux étudiés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans {fr2PasseCompose('travailler',3)}, avoir porte la conjugaison.\nQuel terme s’applique le mieux ?",
+       "r": "auxiliaire",
+       "w": [
+        "participe passé",
+        "fait accompli",
+        "accord avec être"
+       ],
+       "e": [
+        "« participe passé » concerne la forme verbale associée à l’auxiliaire. Le cas décrit plutôt le verbe avoir ou être portant personne et temps dans la construction.",
+        "« fait accompli » concerne une action présentée comme achevée dans le contexte. Le cas décrit plutôt le verbe avoir ou être portant personne et temps dans la construction.",
+        "« accord avec être » concerne l’accord du participe avec le sujet pour les verbes non pronominaux étudiés. Le cas décrit plutôt le verbe avoir ou être portant personne et temps dans la construction."
+       ],
+       "y": "Dans {fr2PasseCompose('travailler',3)}, avoir porte la conjugaison. Le verbe avoir ou être portant personne et temps dans la construction."
+      },
+      {
+       "q": "Le participe de travailler est {fr2Participle('travailler')}.\nQuel terme s’applique le mieux ?",
+       "r": "participe passé",
+       "w": [
+        "auxiliaire",
+        "fait accompli",
+        "accord avec être"
+       ],
+       "e": [
+        "« auxiliaire » concerne le verbe avoir ou être portant personne et temps dans la construction. Le cas décrit plutôt la forme verbale associée à l’auxiliaire.",
+        "« fait accompli » concerne une action présentée comme achevée dans le contexte. Le cas décrit plutôt la forme verbale associée à l’auxiliaire.",
+        "« accord avec être » concerne l’accord du participe avec le sujet pour les verbes non pronominaux étudiés. Le cas décrit plutôt la forme verbale associée à l’auxiliaire."
+       ],
+       "y": "Le participe de travailler est {fr2Participle('travailler')}. La forme verbale associée à l’auxiliaire."
+      },
+      {
+       "q": "{fr2PasseCompose('finir',3)} présente ici un travail terminé.\nQuel terme s’applique le mieux ?",
+       "r": "fait accompli",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "accord avec être"
+       ],
+       "e": [
+        "« auxiliaire » concerne le verbe avoir ou être portant personne et temps dans la construction. Le cas décrit plutôt une action présentée comme achevée dans le contexte.",
+        "« participe passé » concerne la forme verbale associée à l’auxiliaire. Le cas décrit plutôt une action présentée comme achevée dans le contexte.",
+        "« accord avec être » concerne l’accord du participe avec le sujet pour les verbes non pronominaux étudiés. Le cas décrit plutôt une action présentée comme achevée dans le contexte."
+       ],
+       "y": "{fr2PasseCompose('finir',3)} présente ici un travail terminé. Une action présentée comme achevée dans le contexte."
+      },
+      {
+       "q": "{fr2PasseCompose('arriver',7)} comporte un sujet féminin pluriel.\nQuel terme s’applique le mieux ?",
+       "r": "accord avec être",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "fait accompli"
+       ],
+       "e": [
+        "« auxiliaire » concerne le verbe avoir ou être portant personne et temps dans la construction. Le cas décrit plutôt l’accord du participe avec le sujet pour les verbes non pronominaux étudiés.",
+        "« participe passé » concerne la forme verbale associée à l’auxiliaire. Le cas décrit plutôt l’accord du participe avec le sujet pour les verbes non pronominaux étudiés.",
+        "« fait accompli » concerne une action présentée comme achevée dans le contexte. Le cas décrit plutôt l’accord du participe avec le sujet pour les verbes non pronominaux étudiés."
+       ],
+       "y": "{fr2PasseCompose('arriver',7)} comporte un sujet féminin pluriel. L’accord du participe avec le sujet pour les verbes non pronominaux étudiés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-2-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "travailler",
+      "finir",
+      "arriver",
+      "partir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "tense": "passé composé"
+   },
+   "prompt": "Conjugue « {v} » à {tense}, avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v,p)}",
+   "distractors": [
+    {
+     "text": "{fr2PasseCompose(v,(p+1)%8)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{fr2PasseCompose(v,(p+4)%8)}",
+     "misconception": "personne2"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "infinitif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette terminaison correspond à un autre sujet. Accorde le verbe avec {fr2Pronoun(p)}."
+    },
+    {
+     "id": "personne2",
+     "explain": "Tu as changé la personne grammaticale ; conserve le sujet demandé."
+    },
+    {
+     "id": "infinitif",
+     "explain": "L’infinitif nomme le verbe, mais ici il faut le conjuguer au temps demandé."
+    }
+   ],
+   "solution": [
+    "Repère le sujet : {fr2Pronoun(p)}.",
+    "Choisis la forme de {v} à {tense} pour ce sujet.",
+    "La forme complète est {answer}."
+   ],
+   "where": [
+    "fr2PasseCompose(v,p) != fr2PasseCompose(v,(p+1)%8)",
+    "fr2PasseCompose(v,p) != fr2PasseCompose(v,(p+4)%8)",
+    "fr2PasseCompose(v,(p+1)%8) != fr2PasseCompose(v,(p+4)%8)"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-2-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "auxiliaire",
+     "right": "Dans {fr2PasseCompose('travailler',3)}, avoir porte la conjugaison."
+    },
+    {
+     "left": "participe passé",
+     "right": "Le participe de travailler est {fr2Participle('travailler')}."
+    },
+    {
+     "left": "fait accompli",
+     "right": "{fr2PasseCompose('finir',3)} présente ici un travail terminé."
+    },
+    {
+     "left": "accord avec être",
+     "right": "{fr2PasseCompose('arriver',7)} comporte un sujet féminin pluriel."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-2-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "auxiliaire : le verbe avoir ou être portant personne et temps dans la construction.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : auxiliaire désigne le verbe avoir ou être portant personne et temps dans la construction. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "participe passé : la forme verbale associée à l’auxiliaire.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : participe passé désigne la forme verbale associée à l’auxiliaire. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "fait accompli : une action présentée comme achevée dans le contexte.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : fait accompli désigne une action présentée comme achevée dans le contexte. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "accord avec être : l’accord du participe avec le sujet pour les verbes non pronominaux étudiés.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : accord avec être désigne l’accord du participe avec le sujet pour les verbes non pronominaux étudiés. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un auxiliaire ne change jamais selon le sujet.",
+      "truth": "false",
+      "explain": "L’auxiliaire se conjugue avec le sujet."
+     },
+     {
+      "text": "Le participe de travailler est toujours travailler.",
+      "truth": "false",
+      "explain": "Distingue l’infinitif en -er et le participe en -é."
+     },
+     {
+      "text": "Le passé composé ne peut jamais présenter une action achevée.",
+      "truth": "false",
+      "explain": "Il sert couramment à présenter un fait accompli."
+     },
+     {
+      "text": "Avec être, un sujet féminin pluriel impose toujours un participe masculin singulier.",
+      "truth": "false",
+      "explain": "Le participe prend ici les marques du féminin et du pluriel."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

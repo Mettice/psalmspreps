@@ -1,0 +1,619 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 36,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-36",
+   "name": "Lire et remplir un modèle fictif de fiche de santé"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une fiche de santé peut contenir une identité, une date, un motif et des observations rédigées par une personne compétente. Lire les rubriques aide à distinguer une observation et un diagnostic. Pour l’exercice scolaire, utilise un personnage fictif et aucune donnée médicale réelle. Ne coche pas au hasard une maladie ou un traitement pour remplir une case. La forme et les champs officiels varient ; le modèle ne remplace pas un document de soins.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Une fiche de santé peut contenir une identité, une date, un motif et des observations rédigées par une personne compétente. Lire les rubriques aide à distinguer une observation et un diagnostic. Pour l’exercice scolaire, utilise un personnage fictif et aucune donnée médicale réelle. Ne coche pas au hasard une maladie ou un traitement pour remplir une case. La forme et les champs officiels varient ; le modèle ne remplace pas un document de soins."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Modèle original : FICHE FICTIVE — EXERCICE DE FRANÇAIS. Personnage : Élève imaginaire A. Objet de l’exercice : comprendre les rubriques. Observation fictive : le personnage demande à être orienté vers un professionnel. Diagnostic et traitement : non fournis dans ce modèle scolaire. Aucun renseignement sur la santé d’un élève réel n’est demandé."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Lis les intitulés et identifie qui est autorisé à compléter chaque partie. En cas d’information absente, écris non fourni pour le modèle au lieu d’inventer un diagnostic. Ne signe pas au nom d’un professionnel et ne partage pas de données réelles."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "identité fictive",
+    "meaning": "un personnage inventé pour l’exercice"
+   },
+   {
+    "word": "observation",
+    "meaning": "un renseignement décrit sans conclure à lui seul à une maladie"
+   },
+   {
+    "word": "diagnostic professionnel",
+    "meaning": "l’identification médicale relevant d’une personne compétente"
+   },
+   {
+    "word": "confidentialité",
+    "meaning": "la protection des informations personnelles de santé"
+   }
+  ],
+  "examples": [
+   "Élève imaginaire A évite une identité médicale réelle.",
+   "Le modèle rapporte seulement une demande d’orientation.",
+   "La fiche scolaire laisse le diagnostic non fourni."
+  ],
+  "mistake": {
+   "wrong": "Une activité de français exige le dossier médical réel d’un camarade.",
+   "right": "identité fictive: un personnage inventé pour l’exercice.",
+   "why": "Le modèle doit rester fictif."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Élève imaginaire A évite une identité médicale réelle. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "Un personnage inventé pour l’exercice.",
+   "Le modèle doit rester fictif."
+  ],
+  "answer": "identité fictive",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-36-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "identité fictive: un personnage inventé pour l’exercice.",
+     "observation: un renseignement décrit sans conclure à lui seul à une maladie.",
+     "diagnostic professionnel: l’identification médicale relevant d’une personne compétente.",
+     "confidentialité: la protection des informations personnelles de santé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-36-terms"
+    }
+   },
+   {
+    "id": "cfi3-36-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Élève imaginaire A évite une identité médicale réelle.",
+     "identité fictive: un personnage inventé pour l’exercice."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-36-cases"
+    }
+   },
+   {
+    "id": "cfi3-36-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Une activité de français exige le dossier médical réel d’un camarade.",
+     "Le modèle doit rester fictif."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-36-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "identité fictive : un personnage inventé pour l’exercice.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : identité fictive désigne un personnage inventé pour l’exercice. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "observation : un renseignement décrit sans conclure à lui seul à une maladie.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : observation désigne un renseignement décrit sans conclure à lui seul à une maladie. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "diagnostic professionnel : l’identification médicale relevant d’une personne compétente.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : diagnostic professionnel désigne l’identification médicale relevant d’une personne compétente. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "confidentialité : la protection des informations personnelles de santé.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : confidentialité désigne la protection des informations personnelles de santé. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une activité de français exige le dossier médical réel d’un camarade.",
+        "truth": "false",
+        "explain": "Le modèle doit rester fictif."
+       },
+       {
+        "text": "Toute observation constitue automatiquement un diagnostic certain.",
+        "truth": "false",
+        "explain": "Observer et diagnostiquer sont deux opérations distinctes."
+       },
+       {
+        "text": "L’élève doit inventer un diagnostic pour que la fiche semble complète.",
+        "truth": "false",
+        "explain": "Il ne faut pas fabriquer une information médicale."
+       },
+       {
+        "text": "Un dossier médical doit toujours être affiché à toute la classe.",
+        "truth": "false",
+        "explain": "Les informations privées doivent être protégées."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-36-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : un personnage inventé pour l’exercice ?",
+       "r": "identité fictive",
+       "w": [
+        "observation",
+        "diagnostic professionnel",
+        "confidentialité"
+       ],
+       "e": [
+        "« observation » désigne un renseignement décrit sans conclure à lui seul à une maladie. Ici, cherche un personnage inventé pour l’exercice.",
+        "« diagnostic professionnel » désigne l’identification médicale relevant d’une personne compétente. Ici, cherche un personnage inventé pour l’exercice.",
+        "« confidentialité » désigne la protection des informations personnelles de santé. Ici, cherche un personnage inventé pour l’exercice."
+       ],
+       "y": "Un personnage inventé pour l’exercice."
+      },
+      {
+       "q": "Quel terme désigne : un renseignement décrit sans conclure à lui seul à une maladie ?",
+       "r": "observation",
+       "w": [
+        "identité fictive",
+        "diagnostic professionnel",
+        "confidentialité"
+       ],
+       "e": [
+        "« identité fictive » désigne un personnage inventé pour l’exercice. Ici, cherche un renseignement décrit sans conclure à lui seul à une maladie.",
+        "« diagnostic professionnel » désigne l’identification médicale relevant d’une personne compétente. Ici, cherche un renseignement décrit sans conclure à lui seul à une maladie.",
+        "« confidentialité » désigne la protection des informations personnelles de santé. Ici, cherche un renseignement décrit sans conclure à lui seul à une maladie."
+       ],
+       "y": "Un renseignement décrit sans conclure à lui seul à une maladie."
+      },
+      {
+       "q": "Quel terme désigne : l’identification médicale relevant d’une personne compétente ?",
+       "r": "diagnostic professionnel",
+       "w": [
+        "identité fictive",
+        "observation",
+        "confidentialité"
+       ],
+       "e": [
+        "« identité fictive » désigne un personnage inventé pour l’exercice. Ici, cherche l’identification médicale relevant d’une personne compétente.",
+        "« observation » désigne un renseignement décrit sans conclure à lui seul à une maladie. Ici, cherche l’identification médicale relevant d’une personne compétente.",
+        "« confidentialité » désigne la protection des informations personnelles de santé. Ici, cherche l’identification médicale relevant d’une personne compétente."
+       ],
+       "y": "L’identification médicale relevant d’une personne compétente."
+      },
+      {
+       "q": "Quel terme désigne : la protection des informations personnelles de santé ?",
+       "r": "confidentialité",
+       "w": [
+        "identité fictive",
+        "observation",
+        "diagnostic professionnel"
+       ],
+       "e": [
+        "« identité fictive » désigne un personnage inventé pour l’exercice. Ici, cherche la protection des informations personnelles de santé.",
+        "« observation » désigne un renseignement décrit sans conclure à lui seul à une maladie. Ici, cherche la protection des informations personnelles de santé.",
+        "« diagnostic professionnel » désigne l’identification médicale relevant d’une personne compétente. Ici, cherche la protection des informations personnelles de santé."
+       ],
+       "y": "La protection des informations personnelles de santé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-36-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Élève imaginaire A évite une identité médicale réelle.\nQuel terme s’applique le mieux ?",
+       "r": "identité fictive",
+       "w": [
+        "observation",
+        "diagnostic professionnel",
+        "confidentialité"
+       ],
+       "e": [
+        "« observation » concerne un renseignement décrit sans conclure à lui seul à une maladie. Le cas décrit plutôt un personnage inventé pour l’exercice.",
+        "« diagnostic professionnel » concerne l’identification médicale relevant d’une personne compétente. Le cas décrit plutôt un personnage inventé pour l’exercice.",
+        "« confidentialité » concerne la protection des informations personnelles de santé. Le cas décrit plutôt un personnage inventé pour l’exercice."
+       ],
+       "y": "Élève imaginaire A évite une identité médicale réelle. Un personnage inventé pour l’exercice."
+      },
+      {
+       "q": "Le modèle rapporte seulement une demande d’orientation.\nQuel terme s’applique le mieux ?",
+       "r": "observation",
+       "w": [
+        "identité fictive",
+        "diagnostic professionnel",
+        "confidentialité"
+       ],
+       "e": [
+        "« identité fictive » concerne un personnage inventé pour l’exercice. Le cas décrit plutôt un renseignement décrit sans conclure à lui seul à une maladie.",
+        "« diagnostic professionnel » concerne l’identification médicale relevant d’une personne compétente. Le cas décrit plutôt un renseignement décrit sans conclure à lui seul à une maladie.",
+        "« confidentialité » concerne la protection des informations personnelles de santé. Le cas décrit plutôt un renseignement décrit sans conclure à lui seul à une maladie."
+       ],
+       "y": "Le modèle rapporte seulement une demande d’orientation. Un renseignement décrit sans conclure à lui seul à une maladie."
+      },
+      {
+       "q": "La fiche scolaire laisse le diagnostic non fourni.\nQuel terme s’applique le mieux ?",
+       "r": "diagnostic professionnel",
+       "w": [
+        "identité fictive",
+        "observation",
+        "confidentialité"
+       ],
+       "e": [
+        "« identité fictive » concerne un personnage inventé pour l’exercice. Le cas décrit plutôt l’identification médicale relevant d’une personne compétente.",
+        "« observation » concerne un renseignement décrit sans conclure à lui seul à une maladie. Le cas décrit plutôt l’identification médicale relevant d’une personne compétente.",
+        "« confidentialité » concerne la protection des informations personnelles de santé. Le cas décrit plutôt l’identification médicale relevant d’une personne compétente."
+       ],
+       "y": "La fiche scolaire laisse le diagnostic non fourni. L’identification médicale relevant d’une personne compétente."
+      },
+      {
+       "q": "L’exercice ne demande aucune donnée réelle de santé.\nQuel terme s’applique le mieux ?",
+       "r": "confidentialité",
+       "w": [
+        "identité fictive",
+        "observation",
+        "diagnostic professionnel"
+       ],
+       "e": [
+        "« identité fictive » concerne un personnage inventé pour l’exercice. Le cas décrit plutôt la protection des informations personnelles de santé.",
+        "« observation » concerne un renseignement décrit sans conclure à lui seul à une maladie. Le cas décrit plutôt la protection des informations personnelles de santé.",
+        "« diagnostic professionnel » concerne l’identification médicale relevant d’une personne compétente. Le cas décrit plutôt la protection des informations personnelles de santé."
+       ],
+       "y": "L’exercice ne demande aucune donnée réelle de santé. La protection des informations personnelles de santé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-36-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Élève imaginaire A évite une identité médicale réelle.\nQuelle explication justifie le classement ?",
+       "r": "Un personnage inventé pour l’exercice.",
+       "w": [
+        "Un renseignement décrit sans conclure à lui seul à une maladie.",
+        "L’identification médicale relevant d’une personne compétente.",
+        "La protection des informations personnelles de santé."
+       ],
+       "e": [
+        "Cette explication correspond à « observation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diagnostic professionnel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « confidentialité ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Le modèle doit rester fictif."
+      },
+      {
+       "q": "Le modèle rapporte seulement une demande d’orientation.\nQuelle explication justifie le classement ?",
+       "r": "Un renseignement décrit sans conclure à lui seul à une maladie.",
+       "w": [
+        "Un personnage inventé pour l’exercice.",
+        "L’identification médicale relevant d’une personne compétente.",
+        "La protection des informations personnelles de santé."
+       ],
+       "e": [
+        "Cette explication correspond à « identité fictive ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diagnostic professionnel ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « confidentialité ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Observer et diagnostiquer sont deux opérations distinctes."
+      },
+      {
+       "q": "La fiche scolaire laisse le diagnostic non fourni.\nQuelle explication justifie le classement ?",
+       "r": "L’identification médicale relevant d’une personne compétente.",
+       "w": [
+        "Un personnage inventé pour l’exercice.",
+        "Un renseignement décrit sans conclure à lui seul à une maladie.",
+        "La protection des informations personnelles de santé."
+       ],
+       "e": [
+        "Cette explication correspond à « identité fictive ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « observation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « confidentialité ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Il ne faut pas fabriquer une information médicale."
+      },
+      {
+       "q": "L’exercice ne demande aucune donnée réelle de santé.\nQuelle explication justifie le classement ?",
+       "r": "La protection des informations personnelles de santé.",
+       "w": [
+        "Un personnage inventé pour l’exercice.",
+        "Un renseignement décrit sans conclure à lui seul à une maladie.",
+        "L’identification médicale relevant d’une personne compétente."
+       ],
+       "e": [
+        "Cette explication correspond à « identité fictive ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « observation ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « diagnostic professionnel ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les informations privées doivent être protégées."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-36-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "identité fictive",
+     "right": "Élève imaginaire A évite une identité médicale réelle."
+    },
+    {
+     "left": "observation",
+     "right": "Le modèle rapporte seulement une demande d’orientation."
+    },
+    {
+     "left": "diagnostic professionnel",
+     "right": "La fiche scolaire laisse le diagnostic non fourni."
+    },
+    {
+     "left": "confidentialité",
+     "right": "L’exercice ne demande aucune donnée réelle de santé."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-36-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "identité fictive : un personnage inventé pour l’exercice.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : identité fictive désigne un personnage inventé pour l’exercice. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "observation : un renseignement décrit sans conclure à lui seul à une maladie.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : observation désigne un renseignement décrit sans conclure à lui seul à une maladie. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "diagnostic professionnel : l’identification médicale relevant d’une personne compétente.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : diagnostic professionnel désigne l’identification médicale relevant d’une personne compétente. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "confidentialité : la protection des informations personnelles de santé.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : confidentialité désigne la protection des informations personnelles de santé. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une activité de français exige le dossier médical réel d’un camarade.",
+      "truth": "false",
+      "explain": "Le modèle doit rester fictif."
+     },
+     {
+      "text": "Toute observation constitue automatiquement un diagnostic certain.",
+      "truth": "false",
+      "explain": "Observer et diagnostiquer sont deux opérations distinctes."
+     },
+     {
+      "text": "L’élève doit inventer un diagnostic pour que la fiche semble complète.",
+      "truth": "false",
+      "explain": "Il ne faut pas fabriquer une information médicale."
+     },
+     {
+      "text": "Un dossier médical doit toujours être affiché à toute la classe.",
+      "truth": "false",
+      "explain": "Les informations privées doivent être protégées."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Dessine une fiche entièrement fictive destinée à comprendre les rubriques. Indique personnage imaginaire, objet scolaire et observation fictive ; laisse diagnostic et traitement non fournis. Ne saisis aucune information médicale réelle.",
+  "model": [
+   "FICHE FICTIVE — EXERCICE DE FRANÇAIS. Personnage : Élève imaginaire A. Objet de l’exercice : comprendre les rubriques. Observation fictive : le personnage demande à être orienté vers un professionnel. Diagnostic et traitement : non fournis dans ce modèle scolaire. Aucun renseignement sur la santé d’un élève réel n’est demandé."
+  ],
+  "checklist": [
+   "Je distingue identité, observation et diagnostic.",
+   "Je n’invente ni traitement ni signature professionnelle.",
+   "Le modèle ne contient aucune donnée de santé réelle."
+  ],
+  "checks": []
+ }
+}

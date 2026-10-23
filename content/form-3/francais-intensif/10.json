@@ -1,0 +1,619 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 3",
+ "lesson_no": 10,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi3-10",
+   "name": "Décrire une chambre imaginaire"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une description de lieu guide le regard. Présente le lieu puis organise les détails, par exemple de l’entrée vers le fond. Les repères à gauche, près de et en face de indiquent les positions. Choisis les objets utiles à l’impression recherchée et vérifie les accords. Tu peux inventer la chambre : l’exercice ne demande ni l’adresse ni une description privée de ton domicile.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Une description de lieu guide le regard. Présente le lieu puis organise les détails, par exemple de l’entrée vers le fond. Les repères à gauche, près de et en face de indiquent les positions. Choisis les objets utiles à l’impression recherchée et vérifie les accords. Tu peux inventer la chambre : l’exercice ne demande ni l’adresse ni une description privée de ton domicile."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Modèle original : Dans une chambre imaginaire de Buea, une petite table se trouve près de la fenêtre. Le lit occupe le côté opposé. Une étagère garde les livres à portée de main et le passage reste dégagé. L’ordre de la description permet de se représenter la pièce sans accumuler des objets sans lien."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Choisis un point de départ, un parcours et une impression générale. Utilise des repères cohérents plutôt que ici et là sans référence. Vérifie que la position d’un objet ne change pas accidentellement entre les phrases."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "présentation du lieu",
+    "meaning": "l’indication de la pièce que l’on décrit"
+   },
+   {
+    "word": "repère spatial",
+    "meaning": "une expression situant un objet par rapport à un autre"
+   },
+   {
+    "word": "parcours descriptif",
+    "meaning": "un ordre guidant le regard dans le lieu"
+   },
+   {
+    "word": "impression générale",
+    "meaning": "l’effet d’ensemble soutenu par les détails choisis"
+   }
+  ],
+  "examples": [
+   "Le texte annonce une chambre imaginaire.",
+   "Près de la fenêtre situe la table.",
+   "Le texte va de l’ouverture aux meubles opposés."
+  ],
+  "mistake": {
+   "wrong": "Le lecteur doit obligatoirement deviner le lieu sans indice.",
+   "right": "présentation du lieu: l’indication de la pièce que l’on décrit.",
+   "why": "Présente assez clairement le lieu décrit."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le texte annonce une chambre imaginaire. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "L’indication de la pièce que l’on décrit.",
+   "Présente assez clairement le lieu décrit."
+  ],
+  "answer": "présentation du lieu",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfi3-10-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "présentation du lieu: l’indication de la pièce que l’on décrit.",
+     "repère spatial: une expression situant un objet par rapport à un autre.",
+     "parcours descriptif: un ordre guidant le regard dans le lieu.",
+     "impression générale: l’effet d’ensemble soutenu par les détails choisis."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-10-terms"
+    }
+   },
+   {
+    "id": "cfi3-10-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "Le texte annonce une chambre imaginaire.",
+     "présentation du lieu: l’indication de la pièce que l’on décrit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi3-10-cases"
+    }
+   },
+   {
+    "id": "cfi3-10-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Le lecteur doit obligatoirement deviner le lieu sans indice.",
+     "Présente assez clairement le lieu décrit."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi3-10-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "présentation du lieu : l’indication de la pièce que l’on décrit.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : présentation du lieu désigne l’indication de la pièce que l’on décrit. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "repère spatial : une expression situant un objet par rapport à un autre.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : repère spatial désigne une expression situant un objet par rapport à un autre. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "parcours descriptif : un ordre guidant le regard dans le lieu.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : parcours descriptif désigne un ordre guidant le regard dans le lieu. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "impression générale : l’effet d’ensemble soutenu par les détails choisis.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : impression générale désigne l’effet d’ensemble soutenu par les détails choisis. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le lecteur doit obligatoirement deviner le lieu sans indice.",
+        "truth": "false",
+        "explain": "Présente assez clairement le lieu décrit."
+       },
+       {
+        "text": "Près de indique toujours une date.",
+        "truth": "false",
+        "explain": "L’expression indique ici une position."
+       },
+       {
+        "text": "Changer d’endroit au hasard garantit une description claire.",
+        "truth": "false",
+        "explain": "Un parcours cohérent aide à se représenter l’espace."
+       },
+       {
+        "text": "Une impression ne doit avoir aucun lien avec les détails.",
+        "truth": "false",
+        "explain": "Les détails doivent soutenir l’effet annoncé."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi3-10-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : l’indication de la pièce que l’on décrit ?",
+       "r": "présentation du lieu",
+       "w": [
+        "repère spatial",
+        "parcours descriptif",
+        "impression générale"
+       ],
+       "e": [
+        "« repère spatial » désigne une expression situant un objet par rapport à un autre. Ici, cherche l’indication de la pièce que l’on décrit.",
+        "« parcours descriptif » désigne un ordre guidant le regard dans le lieu. Ici, cherche l’indication de la pièce que l’on décrit.",
+        "« impression générale » désigne l’effet d’ensemble soutenu par les détails choisis. Ici, cherche l’indication de la pièce que l’on décrit."
+       ],
+       "y": "L’indication de la pièce que l’on décrit."
+      },
+      {
+       "q": "Quel terme désigne : une expression situant un objet par rapport à un autre ?",
+       "r": "repère spatial",
+       "w": [
+        "présentation du lieu",
+        "parcours descriptif",
+        "impression générale"
+       ],
+       "e": [
+        "« présentation du lieu » désigne l’indication de la pièce que l’on décrit. Ici, cherche une expression situant un objet par rapport à un autre.",
+        "« parcours descriptif » désigne un ordre guidant le regard dans le lieu. Ici, cherche une expression situant un objet par rapport à un autre.",
+        "« impression générale » désigne l’effet d’ensemble soutenu par les détails choisis. Ici, cherche une expression situant un objet par rapport à un autre."
+       ],
+       "y": "Une expression situant un objet par rapport à un autre."
+      },
+      {
+       "q": "Quel terme désigne : un ordre guidant le regard dans le lieu ?",
+       "r": "parcours descriptif",
+       "w": [
+        "présentation du lieu",
+        "repère spatial",
+        "impression générale"
+       ],
+       "e": [
+        "« présentation du lieu » désigne l’indication de la pièce que l’on décrit. Ici, cherche un ordre guidant le regard dans le lieu.",
+        "« repère spatial » désigne une expression situant un objet par rapport à un autre. Ici, cherche un ordre guidant le regard dans le lieu.",
+        "« impression générale » désigne l’effet d’ensemble soutenu par les détails choisis. Ici, cherche un ordre guidant le regard dans le lieu."
+       ],
+       "y": "Un ordre guidant le regard dans le lieu."
+      },
+      {
+       "q": "Quel terme désigne : l’effet d’ensemble soutenu par les détails choisis ?",
+       "r": "impression générale",
+       "w": [
+        "présentation du lieu",
+        "repère spatial",
+        "parcours descriptif"
+       ],
+       "e": [
+        "« présentation du lieu » désigne l’indication de la pièce que l’on décrit. Ici, cherche l’effet d’ensemble soutenu par les détails choisis.",
+        "« repère spatial » désigne une expression situant un objet par rapport à un autre. Ici, cherche l’effet d’ensemble soutenu par les détails choisis.",
+        "« parcours descriptif » désigne un ordre guidant le regard dans le lieu. Ici, cherche l’effet d’ensemble soutenu par les détails choisis."
+       ],
+       "y": "L’effet d’ensemble soutenu par les détails choisis."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-10-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le texte annonce une chambre imaginaire.\nQuel terme s’applique le mieux ?",
+       "r": "présentation du lieu",
+       "w": [
+        "repère spatial",
+        "parcours descriptif",
+        "impression générale"
+       ],
+       "e": [
+        "« repère spatial » concerne une expression situant un objet par rapport à un autre. Le cas décrit plutôt l’indication de la pièce que l’on décrit.",
+        "« parcours descriptif » concerne un ordre guidant le regard dans le lieu. Le cas décrit plutôt l’indication de la pièce que l’on décrit.",
+        "« impression générale » concerne l’effet d’ensemble soutenu par les détails choisis. Le cas décrit plutôt l’indication de la pièce que l’on décrit."
+       ],
+       "y": "Le texte annonce une chambre imaginaire. L’indication de la pièce que l’on décrit."
+      },
+      {
+       "q": "Près de la fenêtre situe la table.\nQuel terme s’applique le mieux ?",
+       "r": "repère spatial",
+       "w": [
+        "présentation du lieu",
+        "parcours descriptif",
+        "impression générale"
+       ],
+       "e": [
+        "« présentation du lieu » concerne l’indication de la pièce que l’on décrit. Le cas décrit plutôt une expression situant un objet par rapport à un autre.",
+        "« parcours descriptif » concerne un ordre guidant le regard dans le lieu. Le cas décrit plutôt une expression situant un objet par rapport à un autre.",
+        "« impression générale » concerne l’effet d’ensemble soutenu par les détails choisis. Le cas décrit plutôt une expression situant un objet par rapport à un autre."
+       ],
+       "y": "Près de la fenêtre situe la table. Une expression situant un objet par rapport à un autre."
+      },
+      {
+       "q": "Le texte va de l’ouverture aux meubles opposés.\nQuel terme s’applique le mieux ?",
+       "r": "parcours descriptif",
+       "w": [
+        "présentation du lieu",
+        "repère spatial",
+        "impression générale"
+       ],
+       "e": [
+        "« présentation du lieu » concerne l’indication de la pièce que l’on décrit. Le cas décrit plutôt un ordre guidant le regard dans le lieu.",
+        "« repère spatial » concerne une expression situant un objet par rapport à un autre. Le cas décrit plutôt un ordre guidant le regard dans le lieu.",
+        "« impression générale » concerne l’effet d’ensemble soutenu par les détails choisis. Le cas décrit plutôt un ordre guidant le regard dans le lieu."
+       ],
+       "y": "Le texte va de l’ouverture aux meubles opposés. Un ordre guidant le regard dans le lieu."
+      },
+      {
+       "q": "Le passage dégagé soutient l’idée d’un espace organisé.\nQuel terme s’applique le mieux ?",
+       "r": "impression générale",
+       "w": [
+        "présentation du lieu",
+        "repère spatial",
+        "parcours descriptif"
+       ],
+       "e": [
+        "« présentation du lieu » concerne l’indication de la pièce que l’on décrit. Le cas décrit plutôt l’effet d’ensemble soutenu par les détails choisis.",
+        "« repère spatial » concerne une expression situant un objet par rapport à un autre. Le cas décrit plutôt l’effet d’ensemble soutenu par les détails choisis.",
+        "« parcours descriptif » concerne un ordre guidant le regard dans le lieu. Le cas décrit plutôt l’effet d’ensemble soutenu par les détails choisis."
+       ],
+       "y": "Le passage dégagé soutient l’idée d’un espace organisé. L’effet d’ensemble soutenu par les détails choisis."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-10-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le texte annonce une chambre imaginaire.\nQuelle explication justifie le classement ?",
+       "r": "L’indication de la pièce que l’on décrit.",
+       "w": [
+        "Une expression situant un objet par rapport à un autre.",
+        "Un ordre guidant le regard dans le lieu.",
+        "L’effet d’ensemble soutenu par les détails choisis."
+       ],
+       "e": [
+        "Cette explication correspond à « repère spatial ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « parcours descriptif ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impression générale ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Présente assez clairement le lieu décrit."
+      },
+      {
+       "q": "Près de la fenêtre situe la table.\nQuelle explication justifie le classement ?",
+       "r": "Une expression situant un objet par rapport à un autre.",
+       "w": [
+        "L’indication de la pièce que l’on décrit.",
+        "Un ordre guidant le regard dans le lieu.",
+        "L’effet d’ensemble soutenu par les détails choisis."
+       ],
+       "e": [
+        "Cette explication correspond à « présentation du lieu ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « parcours descriptif ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impression générale ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "L’expression indique ici une position."
+      },
+      {
+       "q": "Le texte va de l’ouverture aux meubles opposés.\nQuelle explication justifie le classement ?",
+       "r": "Un ordre guidant le regard dans le lieu.",
+       "w": [
+        "L’indication de la pièce que l’on décrit.",
+        "Une expression situant un objet par rapport à un autre.",
+        "L’effet d’ensemble soutenu par les détails choisis."
+       ],
+       "e": [
+        "Cette explication correspond à « présentation du lieu ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « repère spatial ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « impression générale ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Un parcours cohérent aide à se représenter l’espace."
+      },
+      {
+       "q": "Le passage dégagé soutient l’idée d’un espace organisé.\nQuelle explication justifie le classement ?",
+       "r": "L’effet d’ensemble soutenu par les détails choisis.",
+       "w": [
+        "L’indication de la pièce que l’on décrit.",
+        "Une expression situant un objet par rapport à un autre.",
+        "Un ordre guidant le regard dans le lieu."
+       ],
+       "e": [
+        "Cette explication correspond à « présentation du lieu ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « repère spatial ». Compare les indices du cas avec sa définition.",
+        "Cette explication correspond à « parcours descriptif ». Compare les indices du cas avec sa définition."
+       ],
+       "y": "Les détails doivent soutenir l’effet annoncé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-10-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "présentation du lieu",
+     "right": "Le texte annonce une chambre imaginaire."
+    },
+    {
+     "left": "repère spatial",
+     "right": "Près de la fenêtre situe la table."
+    },
+    {
+     "left": "parcours descriptif",
+     "right": "Le texte va de l’ouverture aux meubles opposés."
+    },
+    {
+     "left": "impression générale",
+     "right": "Le passage dégagé soutient l’idée d’un espace organisé."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi3-10-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "présentation du lieu : l’indication de la pièce que l’on décrit.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : présentation du lieu désigne l’indication de la pièce que l’on décrit. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "repère spatial : une expression situant un objet par rapport à un autre.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : repère spatial désigne une expression situant un objet par rapport à un autre. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "parcours descriptif : un ordre guidant le regard dans le lieu.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : parcours descriptif désigne un ordre guidant le regard dans le lieu. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "impression générale : l’effet d’ensemble soutenu par les détails choisis.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : impression générale désigne l’effet d’ensemble soutenu par les détails choisis. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le lecteur doit obligatoirement deviner le lieu sans indice.",
+      "truth": "false",
+      "explain": "Présente assez clairement le lieu décrit."
+     },
+     {
+      "text": "Près de indique toujours une date.",
+      "truth": "false",
+      "explain": "L’expression indique ici une position."
+     },
+     {
+      "text": "Changer d’endroit au hasard garantit une description claire.",
+      "truth": "false",
+      "explain": "Un parcours cohérent aide à se représenter l’espace."
+     },
+     {
+      "text": "Une impression ne doit avoir aucun lien avec les détails.",
+      "truth": "false",
+      "explain": "Les détails doivent soutenir l’effet annoncé."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Décris une chambre entièrement imaginaire. Guide le regard avec des repères et conserve des positions cohérentes.",
+  "model": [
+   "Dans une chambre imaginaire de Buea, une petite table se trouve près de la fenêtre. Le lit occupe le côté opposé. Une étagère garde les livres à portée de main et le passage reste dégagé. L’ordre de la description permet de se représenter la pièce sans accumuler des objets sans lien."
+  ],
+  "checklist": [
+   "Je présente le lieu sans données privées.",
+   "Mes repères permettent de situer les objets.",
+   "Je vérifie l’ordre des détails et les accords."
+  ],
+  "checks": []
+ }
+}

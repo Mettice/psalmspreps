@@ -1,0 +1,611 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-6",
+   "name": "Practical preparation: pie charts and totals"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A pie chart divides a whole into sectors. Each sector represents a share of the same total; sector angles add to a full turn. The larger the share, the larger its angle. Calculate a share by dividing the category's value by the total, then multiply by the angle of a full turn. The chart is inappropriate when the categories overlap and cannot form one whole. Keep the total and unit visible.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A pie chart divides a whole into sectors. Each sector represents a share of the same total; sector angles add to a full turn. The larger the share, the larger its angle. Calculate a share by dividing the category's value by the total, then multiply by the angle of a full turn. The chart is inappropriate when the categories overlap and cannot form one whole. Keep the total and unit visible."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A classroom record divides a fruit stall's basket sales into oranges, bananas and plantains. These categories form one counted total. The pie chart represents proportions, not the number of traders. A half share occupies half the circle. Before drawing, add all category counts and check that no basket has been counted twice.",
+    "figure": "pieFig(['oranges','bananas','plantains'],[2,3,1])"
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Add the values, calculate each fraction and convert it to an angle. Check that the angles sum to {360} degrees. Use a key to identify sectors. Do not use each separate category as its own denominator: every share refers to the common total."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sector",
+    "meaning": "a wedge representing part of a whole"
+   },
+   {
+    "word": "total",
+    "meaning": "the sum of all category values in the chart"
+   },
+   {
+    "word": "share",
+    "meaning": "a category's value divided by the common total"
+   },
+   {
+    "word": "angle",
+    "meaning": "the share multiplied by the degrees in a full turn"
+   }
+  ],
+  "examples": [
+   "The banana share occupies one labelled wedge.",
+   "A learner adds orange, banana and plantain basket counts.",
+   "Banana baskets are compared with all fruit baskets counted."
+  ],
+  "mistake": {
+   "wrong": "Every sector represents the entire whole.",
+   "right": "sector: a wedge representing part of a whole.",
+   "why": "A sector is part of the pie; all sectors together represent the whole."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The banana share occupies one labelled wedge. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A wedge representing part of a whole.",
+   "A sector is part of the pie; all sectors together represent the whole."
+  ],
+  "answer": "sector",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-6-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "sector: a wedge representing part of a whole.",
+     "total: the sum of all category values in the chart.",
+     "share: a category's value divided by the common total.",
+     "angle: the share multiplied by the degrees in a full turn."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-6-terms"
+    }
+   },
+   {
+    "id": "cn3-6-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The banana share occupies one labelled wedge.",
+     "sector: a wedge representing part of a whole."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-6-cases"
+    }
+   },
+   {
+    "id": "cn3-6-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Every sector represents the entire whole.",
+     "A sector is part of the pie; all sectors together represent the whole."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-6-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "sector: a wedge representing part of a whole.",
+        "truth": "true",
+        "explain": "This statement is correct: sector means a wedge representing part of a whole. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "total: the sum of all category values in the chart.",
+        "truth": "true",
+        "explain": "This statement is correct: total means the sum of all category values in the chart. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "share: a category's value divided by the common total.",
+        "truth": "true",
+        "explain": "This statement is correct: share means a category's value divided by the common total. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "angle: the share multiplied by the degrees in a full turn.",
+        "truth": "true",
+        "explain": "This statement is correct: angle means the share multiplied by the degrees in a full turn. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every sector represents the entire whole.",
+        "truth": "false",
+        "explain": "A sector is part of the pie; all sectors together represent the whole."
+       },
+       {
+        "text": "The total is only the largest category.",
+        "truth": "false",
+        "explain": "Add all categories to find the common denominator."
+       },
+       {
+        "text": "Each category uses a different total chosen to make its share bigger.",
+        "truth": "false",
+        "explain": "Shares of one pie use the same whole."
+       },
+       {
+        "text": "A larger share must have a smaller sector angle.",
+        "truth": "false",
+        "explain": "Sector angle increases with the share of the same total."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a wedge representing part of a whole ?",
+       "r": "sector",
+       "w": [
+        "total",
+        "share",
+        "angle"
+       ],
+       "e": [
+        "total means the sum of all category values in the chart; the question instead describes a wedge representing part of a whole.",
+        "share means a category's value divided by the common total; the question instead describes a wedge representing part of a whole.",
+        "angle means the share multiplied by the degrees in a full turn; the question instead describes a wedge representing part of a whole."
+       ],
+       "y": "A wedge representing part of a whole."
+      },
+      {
+       "q": "Which term means: the sum of all category values in the chart ?",
+       "r": "total",
+       "w": [
+        "sector",
+        "share",
+        "angle"
+       ],
+       "e": [
+        "sector means a wedge representing part of a whole; the question instead describes the sum of all category values in the chart.",
+        "share means a category's value divided by the common total; the question instead describes the sum of all category values in the chart.",
+        "angle means the share multiplied by the degrees in a full turn; the question instead describes the sum of all category values in the chart."
+       ],
+       "y": "The sum of all category values in the chart."
+      },
+      {
+       "q": "Which term means: a category's value divided by the common total ?",
+       "r": "share",
+       "w": [
+        "sector",
+        "total",
+        "angle"
+       ],
+       "e": [
+        "sector means a wedge representing part of a whole; the question instead describes a category's value divided by the common total.",
+        "total means the sum of all category values in the chart; the question instead describes a category's value divided by the common total.",
+        "angle means the share multiplied by the degrees in a full turn; the question instead describes a category's value divided by the common total."
+       ],
+       "y": "A category's value divided by the common total."
+      },
+      {
+       "q": "Which term means: the share multiplied by the degrees in a full turn ?",
+       "r": "angle",
+       "w": [
+        "sector",
+        "total",
+        "share"
+       ],
+       "e": [
+        "sector means a wedge representing part of a whole; the question instead describes the share multiplied by the degrees in a full turn.",
+        "total means the sum of all category values in the chart; the question instead describes the share multiplied by the degrees in a full turn.",
+        "share means a category's value divided by the common total; the question instead describes the share multiplied by the degrees in a full turn."
+       ],
+       "y": "The share multiplied by the degrees in a full turn."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The banana share occupies one labelled wedge.\nWhich term best fits this example?",
+       "r": "sector",
+       "w": [
+        "total",
+        "share",
+        "angle"
+       ],
+       "e": [
+        "total concerns the sum of all category values in the chart. This case instead illustrates a wedge representing part of a whole.",
+        "share concerns a category's value divided by the common total. This case instead illustrates a wedge representing part of a whole.",
+        "angle concerns the share multiplied by the degrees in a full turn. This case instead illustrates a wedge representing part of a whole."
+       ],
+       "y": "The banana share occupies one labelled wedge. A wedge representing part of a whole."
+      },
+      {
+       "q": "A learner adds orange, banana and plantain basket counts.\nWhich term best fits this example?",
+       "r": "total",
+       "w": [
+        "sector",
+        "share",
+        "angle"
+       ],
+       "e": [
+        "sector concerns a wedge representing part of a whole. This case instead illustrates the sum of all category values in the chart.",
+        "share concerns a category's value divided by the common total. This case instead illustrates the sum of all category values in the chart.",
+        "angle concerns the share multiplied by the degrees in a full turn. This case instead illustrates the sum of all category values in the chart."
+       ],
+       "y": "A learner adds orange, banana and plantain basket counts. The sum of all category values in the chart."
+      },
+      {
+       "q": "Banana baskets are compared with all fruit baskets counted.\nWhich term best fits this example?",
+       "r": "share",
+       "w": [
+        "sector",
+        "total",
+        "angle"
+       ],
+       "e": [
+        "sector concerns a wedge representing part of a whole. This case instead illustrates a category's value divided by the common total.",
+        "total concerns the sum of all category values in the chart. This case instead illustrates a category's value divided by the common total.",
+        "angle concerns the share multiplied by the degrees in a full turn. This case instead illustrates a category's value divided by the common total."
+       ],
+       "y": "Banana baskets are compared with all fruit baskets counted. A category's value divided by the common total."
+      },
+      {
+       "q": "A half share occupies half the pie.\nWhich term best fits this example?",
+       "r": "angle",
+       "w": [
+        "sector",
+        "total",
+        "share"
+       ],
+       "e": [
+        "sector concerns a wedge representing part of a whole. This case instead illustrates the share multiplied by the degrees in a full turn.",
+        "total concerns the sum of all category values in the chart. This case instead illustrates the share multiplied by the degrees in a full turn.",
+        "share concerns a category's value divided by the common total. This case instead illustrates the share multiplied by the degrees in a full turn."
+       ],
+       "y": "A half share occupies half the pie. The share multiplied by the degrees in a full turn."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-6-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The banana share occupies one labelled wedge.\nWhich explanation justifies the classification?",
+       "r": "A wedge representing part of a whole.",
+       "w": [
+        "The sum of all category values in the chart.",
+        "A category's value divided by the common total.",
+        "The share multiplied by the degrees in a full turn."
+       ],
+       "e": [
+        "That explanation describes total, rather than the relationship illustrated in this example.",
+        "That explanation describes share, rather than the relationship illustrated in this example.",
+        "That explanation describes angle, rather than the relationship illustrated in this example."
+       ],
+       "y": "A sector is part of the pie; all sectors together represent the whole."
+      },
+      {
+       "q": "A learner adds orange, banana and plantain basket counts.\nWhich explanation justifies the classification?",
+       "r": "The sum of all category values in the chart.",
+       "w": [
+        "A wedge representing part of a whole.",
+        "A category's value divided by the common total.",
+        "The share multiplied by the degrees in a full turn."
+       ],
+       "e": [
+        "That explanation describes sector, rather than the relationship illustrated in this example.",
+        "That explanation describes share, rather than the relationship illustrated in this example.",
+        "That explanation describes angle, rather than the relationship illustrated in this example."
+       ],
+       "y": "Add all categories to find the common denominator."
+      },
+      {
+       "q": "Banana baskets are compared with all fruit baskets counted.\nWhich explanation justifies the classification?",
+       "r": "A category's value divided by the common total.",
+       "w": [
+        "A wedge representing part of a whole.",
+        "The sum of all category values in the chart.",
+        "The share multiplied by the degrees in a full turn."
+       ],
+       "e": [
+        "That explanation describes sector, rather than the relationship illustrated in this example.",
+        "That explanation describes total, rather than the relationship illustrated in this example.",
+        "That explanation describes angle, rather than the relationship illustrated in this example."
+       ],
+       "y": "Shares of one pie use the same whole."
+      },
+      {
+       "q": "A half share occupies half the pie.\nWhich explanation justifies the classification?",
+       "r": "The share multiplied by the degrees in a full turn.",
+       "w": [
+        "A wedge representing part of a whole.",
+        "The sum of all category values in the chart.",
+        "A category's value divided by the common total."
+       ],
+       "e": [
+        "That explanation describes sector, rather than the relationship illustrated in this example.",
+        "That explanation describes total, rather than the relationship illustrated in this example.",
+        "That explanation describes share, rather than the relationship illustrated in this example."
+       ],
+       "y": "Sector angle increases with the share of the same total."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-6-angle",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "b": {
+     "expr": "4-a"
+    },
+    "c": 2
+   },
+   "prompt": "A fruit record contains {a} banana baskets out of {a+b+c} baskets altogether. What is the banana sector angle?",
+   "answer": "a/(a+b+c)*360",
+   "misconceptions": [
+    {
+     "id": "count",
+     "wrong": "a",
+     "explain": "You gave a basket count; convert the share to degrees."
+    },
+    {
+     "id": "full",
+     "wrong": "360",
+     "explain": "The full turn is for all baskets, not bananas alone."
+    }
+   ],
+   "solution": [
+    "Share = {a} ÷ {a+b+c}.",
+    "Angle = {a} ÷ {a+b+c} × {360} = {answer}°."
+   ],
+   "unit": "degrees"
+  },
+  {
+   "id": "n3-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "sector: a wedge representing part of a whole.",
+      "truth": "true",
+      "explain": "This statement is correct: sector means a wedge representing part of a whole. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "total: the sum of all category values in the chart.",
+      "truth": "true",
+      "explain": "This statement is correct: total means the sum of all category values in the chart. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "share: a category's value divided by the common total.",
+      "truth": "true",
+      "explain": "This statement is correct: share means a category's value divided by the common total. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "angle: the share multiplied by the degrees in a full turn.",
+      "truth": "true",
+      "explain": "This statement is correct: angle means the share multiplied by the degrees in a full turn. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every sector represents the entire whole.",
+      "truth": "false",
+      "explain": "A sector is part of the pie; all sectors together represent the whole."
+     },
+     {
+      "text": "The total is only the largest category.",
+      "truth": "false",
+      "explain": "Add all categories to find the common denominator."
+     },
+     {
+      "text": "Each category uses a different total chosen to make its share bigger.",
+      "truth": "false",
+      "explain": "Shares of one pie use the same whole."
+     },
+     {
+      "text": "A larger share must have a smaller sector angle.",
+      "truth": "false",
+      "explain": "Sector angle increases with the share of the same total."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

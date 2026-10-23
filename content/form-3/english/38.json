@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 38,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-38",
+   "name": "Spelling: endings and word families"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Spelling changes depend on the word and the ending. A consonant plus y often changes to i before certain endings: study becomes studied. A final silent e is often dropped before -ing: write becomes writing. Some short stressed verbs double a final consonant: stop becomes stopping. These are patterns with conditions, not universal rules. Use a dictionary for doubtful forms and distinguish a spelling change from a change of tense or word class.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Spelling changes depend on the word and the ending. A consonant plus y often changes to i before certain endings: study becomes studied. A final silent e is often dropped before -ing: write becomes writing. Some short stressed verbs double a final consonant: stop becomes stopping. These are patterns with conditions, not universal rules. Use a dictionary for doubtful forms and distinguish a spelling change from a change of tense or word class."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Bih revises a journal containing studied, writing and stopping. She identifies the base word and the ending before making a correction. Playing keeps the y because it follows a vowel; studied changes y after a consonant. Copying a rule without its condition can therefore create new errors."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Separate base and suffix. Check the final letters and, where needed, stress. Compare with a trusted dictionary rather than inventing a new spelling from sound alone. A correct spelling should still fit the sentence's tense and meaning."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "consonant-y change",
+    "meaning": "changing final consonant plus y before certain endings"
+   },
+   {
+    "word": "silent-e dropping",
+    "meaning": "removing final silent e before an ending such as -ing"
+   },
+   {
+    "word": "conditional doubling",
+    "meaning": "doubling a final consonant in suitable stressed short forms"
+   },
+   {
+    "word": "vowel-y retention",
+    "meaning": "keeping y after a vowel in a form such as played"
+   }
+  ],
+  "examples": [
+   "Study becomes studied.",
+   "Write becomes writing.",
+   "Stop becomes stopping."
+  ],
+  "mistake": {
+   "wrong": "Studyed is the standard past spelling.",
+   "right": "consonant-y change: changing final consonant plus y before certain endings.",
+   "why": "Final consonant plus y changes to i in studied."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Study becomes studied. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "Changing final consonant plus y before certain endings.",
+   "Final consonant plus y changes to i in studied."
+  ],
+  "answer": "consonant-y change",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-38-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "consonant-y change: changing final consonant plus y before certain endings.",
+     "silent-e dropping: removing final silent e before an ending such as -ing.",
+     "conditional doubling: doubling a final consonant in suitable stressed short forms.",
+     "vowel-y retention: keeping y after a vowel in a form such as played."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-38-terms"
+    }
+   },
+   {
+    "id": "ce3-38-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Study becomes studied.",
+     "consonant-y change: changing final consonant plus y before certain endings."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-38-cases"
+    }
+   },
+   {
+    "id": "ce3-38-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Studyed is the standard past spelling.",
+     "Final consonant plus y changes to i in studied."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-38-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "consonant-y change: changing final consonant plus y before certain endings.",
+        "truth": "true",
+        "explain": "This statement is correct: consonant-y change means changing final consonant plus y before certain endings. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "silent-e dropping: removing final silent e before an ending such as -ing.",
+        "truth": "true",
+        "explain": "This statement is correct: silent-e dropping means removing final silent e before an ending such as -ing. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "conditional doubling: doubling a final consonant in suitable stressed short forms.",
+        "truth": "true",
+        "explain": "This statement is correct: conditional doubling means doubling a final consonant in suitable stressed short forms. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "vowel-y retention: keeping y after a vowel in a form such as played.",
+        "truth": "true",
+        "explain": "This statement is correct: vowel-y retention means keeping y after a vowel in a form such as played. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Studyed is the standard past spelling.",
+        "truth": "false",
+        "explain": "Final consonant plus y changes to i in studied."
+       },
+       {
+        "text": "Writeing is the standard spelling.",
+        "truth": "false",
+        "explain": "The final silent e is dropped before -ing in writing."
+       },
+       {
+        "text": "Every word doubles its final letter before every suffix.",
+        "truth": "false",
+        "explain": "Doubling has spelling and stress conditions; it is not universal."
+       },
+       {
+        "text": "Play becomes plaied by the same rule as studied.",
+        "truth": "false",
+        "explain": "The y follows a vowel in play and is retained."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-38-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: changing final consonant plus y before certain endings ?",
+       "r": "consonant-y change",
+       "w": [
+        "silent-e dropping",
+        "conditional doubling",
+        "vowel-y retention"
+       ],
+       "e": [
+        "silent-e dropping means removing final silent e before an ending such as -ing; the question instead describes changing final consonant plus y before certain endings.",
+        "conditional doubling means doubling a final consonant in suitable stressed short forms; the question instead describes changing final consonant plus y before certain endings.",
+        "vowel-y retention means keeping y after a vowel in a form such as played; the question instead describes changing final consonant plus y before certain endings."
+       ],
+       "y": "Changing final consonant plus y before certain endings."
+      },
+      {
+       "q": "Which term means: removing final silent e before an ending such as -ing ?",
+       "r": "silent-e dropping",
+       "w": [
+        "consonant-y change",
+        "conditional doubling",
+        "vowel-y retention"
+       ],
+       "e": [
+        "consonant-y change means changing final consonant plus y before certain endings; the question instead describes removing final silent e before an ending such as -ing.",
+        "conditional doubling means doubling a final consonant in suitable stressed short forms; the question instead describes removing final silent e before an ending such as -ing.",
+        "vowel-y retention means keeping y after a vowel in a form such as played; the question instead describes removing final silent e before an ending such as -ing."
+       ],
+       "y": "Removing final silent e before an ending such as -ing."
+      },
+      {
+       "q": "Which term means: doubling a final consonant in suitable stressed short forms ?",
+       "r": "conditional doubling",
+       "w": [
+        "consonant-y change",
+        "silent-e dropping",
+        "vowel-y retention"
+       ],
+       "e": [
+        "consonant-y change means changing final consonant plus y before certain endings; the question instead describes doubling a final consonant in suitable stressed short forms.",
+        "silent-e dropping means removing final silent e before an ending such as -ing; the question instead describes doubling a final consonant in suitable stressed short forms.",
+        "vowel-y retention means keeping y after a vowel in a form such as played; the question instead describes doubling a final consonant in suitable stressed short forms."
+       ],
+       "y": "Doubling a final consonant in suitable stressed short forms."
+      },
+      {
+       "q": "Which term means: keeping y after a vowel in a form such as played ?",
+       "r": "vowel-y retention",
+       "w": [
+        "consonant-y change",
+        "silent-e dropping",
+        "conditional doubling"
+       ],
+       "e": [
+        "consonant-y change means changing final consonant plus y before certain endings; the question instead describes keeping y after a vowel in a form such as played.",
+        "silent-e dropping means removing final silent e before an ending such as -ing; the question instead describes keeping y after a vowel in a form such as played.",
+        "conditional doubling means doubling a final consonant in suitable stressed short forms; the question instead describes keeping y after a vowel in a form such as played."
+       ],
+       "y": "Keeping y after a vowel in a form such as played."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-38-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Study becomes studied.\nWhich term best fits this example?",
+       "r": "consonant-y change",
+       "w": [
+        "silent-e dropping",
+        "conditional doubling",
+        "vowel-y retention"
+       ],
+       "e": [
+        "silent-e dropping concerns removing final silent e before an ending such as -ing. This case instead illustrates changing final consonant plus y before certain endings.",
+        "conditional doubling concerns doubling a final consonant in suitable stressed short forms. This case instead illustrates changing final consonant plus y before certain endings.",
+        "vowel-y retention concerns keeping y after a vowel in a form such as played. This case instead illustrates changing final consonant plus y before certain endings."
+       ],
+       "y": "Study becomes studied. Changing final consonant plus y before certain endings."
+      },
+      {
+       "q": "Write becomes writing.\nWhich term best fits this example?",
+       "r": "silent-e dropping",
+       "w": [
+        "consonant-y change",
+        "conditional doubling",
+        "vowel-y retention"
+       ],
+       "e": [
+        "consonant-y change concerns changing final consonant plus y before certain endings. This case instead illustrates removing final silent e before an ending such as -ing.",
+        "conditional doubling concerns doubling a final consonant in suitable stressed short forms. This case instead illustrates removing final silent e before an ending such as -ing.",
+        "vowel-y retention concerns keeping y after a vowel in a form such as played. This case instead illustrates removing final silent e before an ending such as -ing."
+       ],
+       "y": "Write becomes writing. Removing final silent e before an ending such as -ing."
+      },
+      {
+       "q": "Stop becomes stopping.\nWhich term best fits this example?",
+       "r": "conditional doubling",
+       "w": [
+        "consonant-y change",
+        "silent-e dropping",
+        "vowel-y retention"
+       ],
+       "e": [
+        "consonant-y change concerns changing final consonant plus y before certain endings. This case instead illustrates doubling a final consonant in suitable stressed short forms.",
+        "silent-e dropping concerns removing final silent e before an ending such as -ing. This case instead illustrates doubling a final consonant in suitable stressed short forms.",
+        "vowel-y retention concerns keeping y after a vowel in a form such as played. This case instead illustrates doubling a final consonant in suitable stressed short forms."
+       ],
+       "y": "Stop becomes stopping. Doubling a final consonant in suitable stressed short forms."
+      },
+      {
+       "q": "Play becomes played.\nWhich term best fits this example?",
+       "r": "vowel-y retention",
+       "w": [
+        "consonant-y change",
+        "silent-e dropping",
+        "conditional doubling"
+       ],
+       "e": [
+        "consonant-y change concerns changing final consonant plus y before certain endings. This case instead illustrates keeping y after a vowel in a form such as played.",
+        "silent-e dropping concerns removing final silent e before an ending such as -ing. This case instead illustrates keeping y after a vowel in a form such as played.",
+        "conditional doubling concerns doubling a final consonant in suitable stressed short forms. This case instead illustrates keeping y after a vowel in a form such as played."
+       ],
+       "y": "Play becomes played. Keeping y after a vowel in a form such as played."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-38-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Study becomes studied.\nWhich explanation justifies the classification?",
+       "r": "Changing final consonant plus y before certain endings.",
+       "w": [
+        "Removing final silent e before an ending such as -ing.",
+        "Doubling a final consonant in suitable stressed short forms.",
+        "Keeping y after a vowel in a form such as played."
+       ],
+       "e": [
+        "That explanation describes silent-e dropping, rather than the relationship illustrated in this example.",
+        "That explanation describes conditional doubling, rather than the relationship illustrated in this example.",
+        "That explanation describes vowel-y retention, rather than the relationship illustrated in this example."
+       ],
+       "y": "Final consonant plus y changes to i in studied."
+      },
+      {
+       "q": "Write becomes writing.\nWhich explanation justifies the classification?",
+       "r": "Removing final silent e before an ending such as -ing.",
+       "w": [
+        "Changing final consonant plus y before certain endings.",
+        "Doubling a final consonant in suitable stressed short forms.",
+        "Keeping y after a vowel in a form such as played."
+       ],
+       "e": [
+        "That explanation describes consonant-y change, rather than the relationship illustrated in this example.",
+        "That explanation describes conditional doubling, rather than the relationship illustrated in this example.",
+        "That explanation describes vowel-y retention, rather than the relationship illustrated in this example."
+       ],
+       "y": "The final silent e is dropped before -ing in writing."
+      },
+      {
+       "q": "Stop becomes stopping.\nWhich explanation justifies the classification?",
+       "r": "Doubling a final consonant in suitable stressed short forms.",
+       "w": [
+        "Changing final consonant plus y before certain endings.",
+        "Removing final silent e before an ending such as -ing.",
+        "Keeping y after a vowel in a form such as played."
+       ],
+       "e": [
+        "That explanation describes consonant-y change, rather than the relationship illustrated in this example.",
+        "That explanation describes silent-e dropping, rather than the relationship illustrated in this example.",
+        "That explanation describes vowel-y retention, rather than the relationship illustrated in this example."
+       ],
+       "y": "Doubling has spelling and stress conditions; it is not universal."
+      },
+      {
+       "q": "Play becomes played.\nWhich explanation justifies the classification?",
+       "r": "Keeping y after a vowel in a form such as played.",
+       "w": [
+        "Changing final consonant plus y before certain endings.",
+        "Removing final silent e before an ending such as -ing.",
+        "Doubling a final consonant in suitable stressed short forms."
+       ],
+       "e": [
+        "That explanation describes consonant-y change, rather than the relationship illustrated in this example.",
+        "That explanation describes silent-e dropping, rather than the relationship illustrated in this example.",
+        "That explanation describes conditional doubling, rather than the relationship illustrated in this example."
+       ],
+       "y": "The y follows a vowel in play and is retained."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-38-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "consonant-y change",
+     "right": "Study becomes studied."
+    },
+    {
+     "left": "silent-e dropping",
+     "right": "Write becomes writing."
+    },
+    {
+     "left": "conditional doubling",
+     "right": "Stop becomes stopping."
+    },
+    {
+     "left": "vowel-y retention",
+     "right": "Play becomes played."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-38-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "consonant-y change: changing final consonant plus y before certain endings.",
+      "truth": "true",
+      "explain": "This statement is correct: consonant-y change means changing final consonant plus y before certain endings. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "silent-e dropping: removing final silent e before an ending such as -ing.",
+      "truth": "true",
+      "explain": "This statement is correct: silent-e dropping means removing final silent e before an ending such as -ing. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "conditional doubling: doubling a final consonant in suitable stressed short forms.",
+      "truth": "true",
+      "explain": "This statement is correct: conditional doubling means doubling a final consonant in suitable stressed short forms. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "vowel-y retention: keeping y after a vowel in a form such as played.",
+      "truth": "true",
+      "explain": "This statement is correct: vowel-y retention means keeping y after a vowel in a form such as played. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Studyed is the standard past spelling.",
+      "truth": "false",
+      "explain": "Final consonant plus y changes to i in studied."
+     },
+     {
+      "text": "Writeing is the standard spelling.",
+      "truth": "false",
+      "explain": "The final silent e is dropped before -ing in writing."
+     },
+     {
+      "text": "Every word doubles its final letter before every suffix.",
+      "truth": "false",
+      "explain": "Doubling has spelling and stress conditions; it is not universal."
+     },
+     {
+      "text": "Play becomes plaied by the same rule as studied.",
+      "truth": "false",
+      "explain": "The y follows a vowel in play and is retained."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

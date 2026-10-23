@@ -1,0 +1,599 @@
+{
+ "subject": "english-language",
+ "class": "Form 3",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3-30",
+   "name": "Future reference: will, shall and present schedules"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Will plus a base verb can express predictions, decisions or promises. Shall can occur with I and we in formal usage and in offers or suggestions, but it is not required in every first-person future sentence. The present simple can refer to an arranged timetable: the bus leaves tomorrow. Add a time expression when needed to make the future reference clear. Do not add -s after will or assume that every future event must use will.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Will plus a base verb can express predictions, decisions or promises. Shall can occur with I and we in formal usage and in offers or suggestions, but it is not required in every first-person future sentence. The present simple can refer to an arranged timetable: the bus leaves tomorrow. Add a time expression when needed to make the future reference clear. Do not add -s after will or assume that every future event must use will."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Bih says, I will bring the notebook. The club timetable says the meeting starts tomorrow afternoon. Ayuk asks, Shall we check the notice? These forms do different jobs: a promise, a scheduled event and a suggestion. The timetable example is fictional rather than a claim about a current transport service."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the intended function before choosing a form. Keep the base verb after will and shall. For present-simple schedules, check subject agreement and the future time expression. Avoid teaching shall as the only possible form with I or we."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "will + base verb",
+    "meaning": "a form used for predictions decisions or promises"
+   },
+   {
+    "word": "scheduled present",
+    "meaning": "present-simple form referring to a timetable event"
+   },
+   {
+    "word": "shall suggestion",
+    "meaning": "an offer or suggestion with shall in this context"
+   },
+   {
+    "word": "future time expression",
+    "meaning": "words locating an event after the present"
+   }
+  ],
+  "examples": [
+   "Bih will bring the notebook.",
+   "The fictional club meeting starts tomorrow.",
+   "Shall we check the notice together?"
+  ],
+  "mistake": {
+   "wrong": "Bih will brings the notebook.",
+   "right": "will + base verb: a form used for predictions decisions or promises.",
+   "why": "The verb stays in its base form after will."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih will bring the notebook. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A form used for predictions decisions or promises.",
+   "The verb stays in its base form after will."
+  ],
+  "answer": "will + base verb",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "ce3-30-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "will + base verb: a form used for predictions decisions or promises.",
+     "scheduled present: present-simple form referring to a timetable event.",
+     "shall suggestion: an offer or suggestion with shall in this context.",
+     "future time expression: words locating an event after the present."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-30-terms"
+    }
+   },
+   {
+    "id": "ce3-30-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Bih will bring the notebook.",
+     "will + base verb: a form used for predictions decisions or promises."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-30-cases"
+    }
+   },
+   {
+    "id": "ce3-30-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Bih will brings the notebook.",
+     "The verb stays in its base form after will."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e3-30-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "will + base verb: a form used for predictions decisions or promises.",
+        "truth": "true",
+        "explain": "This statement is correct: will + base verb means a form used for predictions decisions or promises. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "scheduled present: present-simple form referring to a timetable event.",
+        "truth": "true",
+        "explain": "This statement is correct: scheduled present means present-simple form referring to a timetable event. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "shall suggestion: an offer or suggestion with shall in this context.",
+        "truth": "true",
+        "explain": "This statement is correct: shall suggestion means an offer or suggestion with shall in this context. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "future time expression: words locating an event after the present.",
+        "truth": "true",
+        "explain": "This statement is correct: future time expression means words locating an event after the present. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Bih will brings the notebook.",
+        "truth": "false",
+        "explain": "The verb stays in its base form after will."
+       },
+       {
+        "text": "A present-simple form can never refer to a future schedule.",
+        "truth": "false",
+        "explain": "A timetable and future time expression can give present simple future reference."
+       },
+       {
+        "text": "Shall we here is necessarily a report about yesterday.",
+        "truth": "false",
+        "explain": "The question proposes a joint action."
+       },
+       {
+        "text": "Yesterday is a future time expression.",
+        "truth": "false",
+        "explain": "Yesterday locates past time, unlike tomorrow."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-30-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a form used for predictions decisions or promises ?",
+       "r": "will + base verb",
+       "w": [
+        "scheduled present",
+        "shall suggestion",
+        "future time expression"
+       ],
+       "e": [
+        "scheduled present means present-simple form referring to a timetable event; the question instead describes a form used for predictions decisions or promises.",
+        "shall suggestion means an offer or suggestion with shall in this context; the question instead describes a form used for predictions decisions or promises.",
+        "future time expression means words locating an event after the present; the question instead describes a form used for predictions decisions or promises."
+       ],
+       "y": "A form used for predictions decisions or promises."
+      },
+      {
+       "q": "Which term means: present-simple form referring to a timetable event ?",
+       "r": "scheduled present",
+       "w": [
+        "will + base verb",
+        "shall suggestion",
+        "future time expression"
+       ],
+       "e": [
+        "will + base verb means a form used for predictions decisions or promises; the question instead describes present-simple form referring to a timetable event.",
+        "shall suggestion means an offer or suggestion with shall in this context; the question instead describes present-simple form referring to a timetable event.",
+        "future time expression means words locating an event after the present; the question instead describes present-simple form referring to a timetable event."
+       ],
+       "y": "Present-simple form referring to a timetable event."
+      },
+      {
+       "q": "Which term means: an offer or suggestion with shall in this context ?",
+       "r": "shall suggestion",
+       "w": [
+        "will + base verb",
+        "scheduled present",
+        "future time expression"
+       ],
+       "e": [
+        "will + base verb means a form used for predictions decisions or promises; the question instead describes an offer or suggestion with shall in this context.",
+        "scheduled present means present-simple form referring to a timetable event; the question instead describes an offer or suggestion with shall in this context.",
+        "future time expression means words locating an event after the present; the question instead describes an offer or suggestion with shall in this context."
+       ],
+       "y": "An offer or suggestion with shall in this context."
+      },
+      {
+       "q": "Which term means: words locating an event after the present ?",
+       "r": "future time expression",
+       "w": [
+        "will + base verb",
+        "scheduled present",
+        "shall suggestion"
+       ],
+       "e": [
+        "will + base verb means a form used for predictions decisions or promises; the question instead describes words locating an event after the present.",
+        "scheduled present means present-simple form referring to a timetable event; the question instead describes words locating an event after the present.",
+        "shall suggestion means an offer or suggestion with shall in this context; the question instead describes words locating an event after the present."
+       ],
+       "y": "Words locating an event after the present."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-30-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih will bring the notebook.\nWhich term best fits this example?",
+       "r": "will + base verb",
+       "w": [
+        "scheduled present",
+        "shall suggestion",
+        "future time expression"
+       ],
+       "e": [
+        "scheduled present concerns present-simple form referring to a timetable event. This case instead illustrates a form used for predictions decisions or promises.",
+        "shall suggestion concerns an offer or suggestion with shall in this context. This case instead illustrates a form used for predictions decisions or promises.",
+        "future time expression concerns words locating an event after the present. This case instead illustrates a form used for predictions decisions or promises."
+       ],
+       "y": "Bih will bring the notebook. A form used for predictions decisions or promises."
+      },
+      {
+       "q": "The fictional club meeting starts tomorrow.\nWhich term best fits this example?",
+       "r": "scheduled present",
+       "w": [
+        "will + base verb",
+        "shall suggestion",
+        "future time expression"
+       ],
+       "e": [
+        "will + base verb concerns a form used for predictions decisions or promises. This case instead illustrates present-simple form referring to a timetable event.",
+        "shall suggestion concerns an offer or suggestion with shall in this context. This case instead illustrates present-simple form referring to a timetable event.",
+        "future time expression concerns words locating an event after the present. This case instead illustrates present-simple form referring to a timetable event."
+       ],
+       "y": "The fictional club meeting starts tomorrow. Present-simple form referring to a timetable event."
+      },
+      {
+       "q": "Shall we check the notice together?\nWhich term best fits this example?",
+       "r": "shall suggestion",
+       "w": [
+        "will + base verb",
+        "scheduled present",
+        "future time expression"
+       ],
+       "e": [
+        "will + base verb concerns a form used for predictions decisions or promises. This case instead illustrates an offer or suggestion with shall in this context.",
+        "scheduled present concerns present-simple form referring to a timetable event. This case instead illustrates an offer or suggestion with shall in this context.",
+        "future time expression concerns words locating an event after the present. This case instead illustrates an offer or suggestion with shall in this context."
+       ],
+       "y": "Shall we check the notice together? An offer or suggestion with shall in this context."
+      },
+      {
+       "q": "The timetable notice specifies tomorrow afternoon.\nWhich term best fits this example?",
+       "r": "future time expression",
+       "w": [
+        "will + base verb",
+        "scheduled present",
+        "shall suggestion"
+       ],
+       "e": [
+        "will + base verb concerns a form used for predictions decisions or promises. This case instead illustrates words locating an event after the present.",
+        "scheduled present concerns present-simple form referring to a timetable event. This case instead illustrates words locating an event after the present.",
+        "shall suggestion concerns an offer or suggestion with shall in this context. This case instead illustrates words locating an event after the present."
+       ],
+       "y": "The timetable notice specifies tomorrow afternoon. Words locating an event after the present."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-30-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih will bring the notebook.\nWhich explanation justifies the classification?",
+       "r": "A form used for predictions decisions or promises.",
+       "w": [
+        "Present-simple form referring to a timetable event.",
+        "An offer or suggestion with shall in this context.",
+        "Words locating an event after the present."
+       ],
+       "e": [
+        "That explanation describes scheduled present, rather than the relationship illustrated in this example.",
+        "That explanation describes shall suggestion, rather than the relationship illustrated in this example.",
+        "That explanation describes future time expression, rather than the relationship illustrated in this example."
+       ],
+       "y": "The verb stays in its base form after will."
+      },
+      {
+       "q": "The fictional club meeting starts tomorrow.\nWhich explanation justifies the classification?",
+       "r": "Present-simple form referring to a timetable event.",
+       "w": [
+        "A form used for predictions decisions or promises.",
+        "An offer or suggestion with shall in this context.",
+        "Words locating an event after the present."
+       ],
+       "e": [
+        "That explanation describes will + base verb, rather than the relationship illustrated in this example.",
+        "That explanation describes shall suggestion, rather than the relationship illustrated in this example.",
+        "That explanation describes future time expression, rather than the relationship illustrated in this example."
+       ],
+       "y": "A timetable and future time expression can give present simple future reference."
+      },
+      {
+       "q": "Shall we check the notice together?\nWhich explanation justifies the classification?",
+       "r": "An offer or suggestion with shall in this context.",
+       "w": [
+        "A form used for predictions decisions or promises.",
+        "Present-simple form referring to a timetable event.",
+        "Words locating an event after the present."
+       ],
+       "e": [
+        "That explanation describes will + base verb, rather than the relationship illustrated in this example.",
+        "That explanation describes scheduled present, rather than the relationship illustrated in this example.",
+        "That explanation describes future time expression, rather than the relationship illustrated in this example."
+       ],
+       "y": "The question proposes a joint action."
+      },
+      {
+       "q": "The timetable notice specifies tomorrow afternoon.\nWhich explanation justifies the classification?",
+       "r": "Words locating an event after the present.",
+       "w": [
+        "A form used for predictions decisions or promises.",
+        "Present-simple form referring to a timetable event.",
+        "An offer or suggestion with shall in this context."
+       ],
+       "e": [
+        "That explanation describes will + base verb, rather than the relationship illustrated in this example.",
+        "That explanation describes scheduled present, rather than the relationship illustrated in this example.",
+        "That explanation describes shall suggestion, rather than the relationship illustrated in this example."
+       ],
+       "y": "Yesterday locates past time, unlike tomorrow."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e3-30-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "will + base verb",
+     "right": "Bih will bring the notebook."
+    },
+    {
+     "left": "scheduled present",
+     "right": "The fictional club meeting starts tomorrow."
+    },
+    {
+     "left": "shall suggestion",
+     "right": "Shall we check the notice together?"
+    },
+    {
+     "left": "future time expression",
+     "right": "The timetable notice specifies tomorrow afternoon."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e3-30-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "will + base verb: a form used for predictions decisions or promises.",
+      "truth": "true",
+      "explain": "This statement is correct: will + base verb means a form used for predictions decisions or promises. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "scheduled present: present-simple form referring to a timetable event.",
+      "truth": "true",
+      "explain": "This statement is correct: scheduled present means present-simple form referring to a timetable event. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "shall suggestion: an offer or suggestion with shall in this context.",
+      "truth": "true",
+      "explain": "This statement is correct: shall suggestion means an offer or suggestion with shall in this context. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "future time expression: words locating an event after the present.",
+      "truth": "true",
+      "explain": "This statement is correct: future time expression means words locating an event after the present. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bih will brings the notebook.",
+      "truth": "false",
+      "explain": "The verb stays in its base form after will."
+     },
+     {
+      "text": "A present-simple form can never refer to a future schedule.",
+      "truth": "false",
+      "explain": "A timetable and future time expression can give present simple future reference."
+     },
+     {
+      "text": "Shall we here is necessarily a report about yesterday.",
+      "truth": "false",
+      "explain": "The question proposes a joint action."
+     },
+     {
+      "text": "Yesterday is a future time expression.",
+      "truth": "false",
+      "explain": "Yesterday locates past time, unlike tomorrow."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

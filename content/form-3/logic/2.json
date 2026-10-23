@@ -1,0 +1,599 @@
+{
+ "subject": "logic",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "l3-2",
+   "name": "The value of logic"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Logic helps us judge reasons, communicate clearly and revise beliefs when evidence changes. It does not make every belief correct or remove the need for factual investigation. Relevant evidence addresses the claim at issue. Consistent claims can hold together without contradiction in the same circumstances. A fallacy is a mistake in reasoning. The value of a conclusion should be assessed through the reasons, rather than through the speaker's status or the popularity of the claim.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Logic helps us judge reasons, communicate clearly and revise beliefs when evidence changes. It does not make every belief correct or remove the need for factual investigation. Relevant evidence addresses the claim at issue. Consistent claims can hold together without contradiction in the same circumstances. A fallacy is a mistake in reasoning. The value of a conclusion should be assessed through the reasons, rather than through the speaker's status or the popularity of the claim."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "A Douala club must choose whether to repair its reading room. A report on the leaking roof is relevant. The colour of the chairperson's shirt is not. The club can ask for evidence without attacking the speaker. If a measurement was wrong, admitting and correcting it improves the discussion rather than showing defeat."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Ask what would count as evidence and whether the offered reason concerns that issue. Check whether claims conflict under the same conditions. Challenge an inference politely; do not confuse criticism of a reason with an insult to its author. A good process can still begin with incomplete information, so remain open to correction."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "relevance",
+    "meaning": "a reason's bearing on the claim under discussion"
+   },
+   {
+    "word": "consistency",
+    "meaning": "claims being able to hold together without contradiction in the same respect"
+   },
+   {
+    "word": "evidence",
+    "meaning": "information used to support or test a factual claim"
+   },
+   {
+    "word": "fallacy",
+    "meaning": "a mistake in the reasoning offered"
+   }
+  ],
+  "examples": [
+   "A proposal to repair a roof cites water entering through holes.",
+   "The club says its door is open this afternoon and not locked this afternoon.",
+   "A learner checks a rain gauge before reporting rainfall."
+  ],
+  "mistake": {
+   "wrong": "Any interesting fact supports any conclusion.",
+   "right": "relevance: a reason's bearing on the claim under discussion.",
+   "why": "The evidence must bear on the particular conclusion; interest alone is insufficient."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A proposal to repair a roof cites water entering through holes. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A reason's bearing on the claim under discussion.",
+   "The evidence must bear on the particular conclusion; interest alone is insufficient."
+  ],
+  "answer": "relevance",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cl3-2-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "relevance: a reason's bearing on the claim under discussion.",
+     "consistency: claims being able to hold together without contradiction in the same respect.",
+     "evidence: information used to support or test a factual claim.",
+     "fallacy: a mistake in the reasoning offered."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-2-terms"
+    }
+   },
+   {
+    "id": "cl3-2-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "A proposal to repair a roof cites water entering through holes.",
+     "relevance: a reason's bearing on the claim under discussion."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l3-2-cases"
+    }
+   },
+   {
+    "id": "cl3-2-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Any interesting fact supports any conclusion.",
+     "The evidence must bear on the particular conclusion; interest alone is insufficient."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l3-2-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "intro-logic"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "relevance: a reason's bearing on the claim under discussion.",
+        "truth": "true",
+        "explain": "This statement is correct: relevance means a reason's bearing on the claim under discussion. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "consistency: claims being able to hold together without contradiction in the same respect.",
+        "truth": "true",
+        "explain": "This statement is correct: consistency means claims being able to hold together without contradiction in the same respect. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "evidence: information used to support or test a factual claim.",
+        "truth": "true",
+        "explain": "This statement is correct: evidence means information used to support or test a factual claim. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "fallacy: a mistake in the reasoning offered.",
+        "truth": "true",
+        "explain": "This statement is correct: fallacy means a mistake in the reasoning offered. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Any interesting fact supports any conclusion.",
+        "truth": "false",
+        "explain": "The evidence must bear on the particular conclusion; interest alone is insufficient."
+       },
+       {
+        "text": "Consistency means repeating words loudly.",
+        "truth": "false",
+        "explain": "Consistency concerns compatibility of claims, not loudness or repetition."
+       },
+       {
+        "text": "A rumour is conclusive evidence because many people repeat it.",
+        "truth": "false",
+        "explain": "Repetition does not establish reliability; examine the underlying observations."
+       },
+       {
+        "text": "Disliking a reporter disproves the report.",
+        "truth": "false",
+        "explain": "The reporter's shoes do not establish whether the rainfall report is correct."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l3-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a reason's bearing on the claim under discussion ?",
+       "r": "relevance",
+       "w": [
+        "consistency",
+        "evidence",
+        "fallacy"
+       ],
+       "e": [
+        "consistency means claims being able to hold together without contradiction in the same respect; the question instead describes a reason's bearing on the claim under discussion.",
+        "evidence means information used to support or test a factual claim; the question instead describes a reason's bearing on the claim under discussion.",
+        "fallacy means a mistake in the reasoning offered; the question instead describes a reason's bearing on the claim under discussion."
+       ],
+       "y": "A reason's bearing on the claim under discussion."
+      },
+      {
+       "q": "Which term means: claims being able to hold together without contradiction in the same respect ?",
+       "r": "consistency",
+       "w": [
+        "relevance",
+        "evidence",
+        "fallacy"
+       ],
+       "e": [
+        "relevance means a reason's bearing on the claim under discussion; the question instead describes claims being able to hold together without contradiction in the same respect.",
+        "evidence means information used to support or test a factual claim; the question instead describes claims being able to hold together without contradiction in the same respect.",
+        "fallacy means a mistake in the reasoning offered; the question instead describes claims being able to hold together without contradiction in the same respect."
+       ],
+       "y": "Claims being able to hold together without contradiction in the same respect."
+      },
+      {
+       "q": "Which term means: information used to support or test a factual claim ?",
+       "r": "evidence",
+       "w": [
+        "relevance",
+        "consistency",
+        "fallacy"
+       ],
+       "e": [
+        "relevance means a reason's bearing on the claim under discussion; the question instead describes information used to support or test a factual claim.",
+        "consistency means claims being able to hold together without contradiction in the same respect; the question instead describes information used to support or test a factual claim.",
+        "fallacy means a mistake in the reasoning offered; the question instead describes information used to support or test a factual claim."
+       ],
+       "y": "Information used to support or test a factual claim."
+      },
+      {
+       "q": "Which term means: a mistake in the reasoning offered ?",
+       "r": "fallacy",
+       "w": [
+        "relevance",
+        "consistency",
+        "evidence"
+       ],
+       "e": [
+        "relevance means a reason's bearing on the claim under discussion; the question instead describes a mistake in the reasoning offered.",
+        "consistency means claims being able to hold together without contradiction in the same respect; the question instead describes a mistake in the reasoning offered.",
+        "evidence means information used to support or test a factual claim; the question instead describes a mistake in the reasoning offered."
+       ],
+       "y": "A mistake in the reasoning offered."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A proposal to repair a roof cites water entering through holes.\nWhich term best fits this example?",
+       "r": "relevance",
+       "w": [
+        "consistency",
+        "evidence",
+        "fallacy"
+       ],
+       "e": [
+        "consistency concerns claims being able to hold together without contradiction in the same respect. This case instead illustrates a reason's bearing on the claim under discussion.",
+        "evidence concerns information used to support or test a factual claim. This case instead illustrates a reason's bearing on the claim under discussion.",
+        "fallacy concerns a mistake in the reasoning offered. This case instead illustrates a reason's bearing on the claim under discussion."
+       ],
+       "y": "A proposal to repair a roof cites water entering through holes. A reason's bearing on the claim under discussion."
+      },
+      {
+       "q": "The club says its door is open this afternoon and not locked this afternoon.\nWhich term best fits this example?",
+       "r": "consistency",
+       "w": [
+        "relevance",
+        "evidence",
+        "fallacy"
+       ],
+       "e": [
+        "relevance concerns a reason's bearing on the claim under discussion. This case instead illustrates claims being able to hold together without contradiction in the same respect.",
+        "evidence concerns information used to support or test a factual claim. This case instead illustrates claims being able to hold together without contradiction in the same respect.",
+        "fallacy concerns a mistake in the reasoning offered. This case instead illustrates claims being able to hold together without contradiction in the same respect."
+       ],
+       "y": "The club says its door is open this afternoon and not locked this afternoon. Claims being able to hold together without contradiction in the same respect."
+      },
+      {
+       "q": "A learner checks a rain gauge before reporting rainfall.\nWhich term best fits this example?",
+       "r": "evidence",
+       "w": [
+        "relevance",
+        "consistency",
+        "fallacy"
+       ],
+       "e": [
+        "relevance concerns a reason's bearing on the claim under discussion. This case instead illustrates information used to support or test a factual claim.",
+        "consistency concerns claims being able to hold together without contradiction in the same respect. This case instead illustrates information used to support or test a factual claim.",
+        "fallacy concerns a mistake in the reasoning offered. This case instead illustrates information used to support or test a factual claim."
+       ],
+       "y": "A learner checks a rain gauge before reporting rainfall. Information used to support or test a factual claim."
+      },
+      {
+       "q": "A learner rejects a rainfall report solely because the reporter has old shoes.\nWhich term best fits this example?",
+       "r": "fallacy",
+       "w": [
+        "relevance",
+        "consistency",
+        "evidence"
+       ],
+       "e": [
+        "relevance concerns a reason's bearing on the claim under discussion. This case instead illustrates a mistake in the reasoning offered.",
+        "consistency concerns claims being able to hold together without contradiction in the same respect. This case instead illustrates a mistake in the reasoning offered.",
+        "evidence concerns information used to support or test a factual claim. This case instead illustrates a mistake in the reasoning offered."
+       ],
+       "y": "A learner rejects a rainfall report solely because the reporter has old shoes. A mistake in the reasoning offered."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-2-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A proposal to repair a roof cites water entering through holes.\nWhich explanation justifies the classification?",
+       "r": "A reason's bearing on the claim under discussion.",
+       "w": [
+        "Claims being able to hold together without contradiction in the same respect.",
+        "Information used to support or test a factual claim.",
+        "A mistake in the reasoning offered."
+       ],
+       "e": [
+        "That explanation describes consistency, rather than the relationship illustrated in this example.",
+        "That explanation describes evidence, rather than the relationship illustrated in this example.",
+        "That explanation describes fallacy, rather than the relationship illustrated in this example."
+       ],
+       "y": "The evidence must bear on the particular conclusion; interest alone is insufficient."
+      },
+      {
+       "q": "The club says its door is open this afternoon and not locked this afternoon.\nWhich explanation justifies the classification?",
+       "r": "Claims being able to hold together without contradiction in the same respect.",
+       "w": [
+        "A reason's bearing on the claim under discussion.",
+        "Information used to support or test a factual claim.",
+        "A mistake in the reasoning offered."
+       ],
+       "e": [
+        "That explanation describes relevance, rather than the relationship illustrated in this example.",
+        "That explanation describes evidence, rather than the relationship illustrated in this example.",
+        "That explanation describes fallacy, rather than the relationship illustrated in this example."
+       ],
+       "y": "Consistency concerns compatibility of claims, not loudness or repetition."
+      },
+      {
+       "q": "A learner checks a rain gauge before reporting rainfall.\nWhich explanation justifies the classification?",
+       "r": "Information used to support or test a factual claim.",
+       "w": [
+        "A reason's bearing on the claim under discussion.",
+        "Claims being able to hold together without contradiction in the same respect.",
+        "A mistake in the reasoning offered."
+       ],
+       "e": [
+        "That explanation describes relevance, rather than the relationship illustrated in this example.",
+        "That explanation describes consistency, rather than the relationship illustrated in this example.",
+        "That explanation describes fallacy, rather than the relationship illustrated in this example."
+       ],
+       "y": "Repetition does not establish reliability; examine the underlying observations."
+      },
+      {
+       "q": "A learner rejects a rainfall report solely because the reporter has old shoes.\nWhich explanation justifies the classification?",
+       "r": "A mistake in the reasoning offered.",
+       "w": [
+        "A reason's bearing on the claim under discussion.",
+        "Claims being able to hold together without contradiction in the same respect.",
+        "Information used to support or test a factual claim."
+       ],
+       "e": [
+        "That explanation describes relevance, rather than the relationship illustrated in this example.",
+        "That explanation describes consistency, rather than the relationship illustrated in this example.",
+        "That explanation describes evidence, rather than the relationship illustrated in this example."
+       ],
+       "y": "The reporter's shoes do not establish whether the rainfall report is correct."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l3-2-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "relevance",
+     "right": "A proposal to repair a roof cites water entering through holes."
+    },
+    {
+     "left": "consistency",
+     "right": "The club says its door is open this afternoon and not locked this afternoon."
+    },
+    {
+     "left": "evidence",
+     "right": "A learner checks a rain gauge before reporting rainfall."
+    },
+    {
+     "left": "fallacy",
+     "right": "A learner rejects a rainfall report solely because the reporter has old shoes."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l3-2-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "intro-logic"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "relevance: a reason's bearing on the claim under discussion.",
+      "truth": "true",
+      "explain": "This statement is correct: relevance means a reason's bearing on the claim under discussion. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "consistency: claims being able to hold together without contradiction in the same respect.",
+      "truth": "true",
+      "explain": "This statement is correct: consistency means claims being able to hold together without contradiction in the same respect. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "evidence: information used to support or test a factual claim.",
+      "truth": "true",
+      "explain": "This statement is correct: evidence means information used to support or test a factual claim. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "fallacy: a mistake in the reasoning offered.",
+      "truth": "true",
+      "explain": "This statement is correct: fallacy means a mistake in the reasoning offered. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Any interesting fact supports any conclusion.",
+      "truth": "false",
+      "explain": "The evidence must bear on the particular conclusion; interest alone is insufficient."
+     },
+     {
+      "text": "Consistency means repeating words loudly.",
+      "truth": "false",
+      "explain": "Consistency concerns compatibility of claims, not loudness or repetition."
+     },
+     {
+      "text": "A rumour is conclusive evidence because many people repeat it.",
+      "truth": "false",
+      "explain": "Repetition does not establish reliability; examine the underlying observations."
+     },
+     {
+      "text": "Disliking a reporter disproves the report.",
+      "truth": "false",
+      "explain": "The reporter's shoes do not establish whether the rainfall report is correct."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

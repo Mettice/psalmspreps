@@ -1,0 +1,552 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-5",
+   "name": "Practical preparation: reading a bar chart"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A bar chart compares separate categories using bars of equal width and a common scale. Leave gaps between categories. The height measures the value, not the width or colour. Start a simple frequency bar chart at zero to make length comparisons fair. Always label the measured unit. In this guided practical, use the chart on screen, read the values and check them against a table in your exercise book.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A bar chart compares separate categories using bars of equal width and a common scale. Leave gaps between categories. The height measures the value, not the width or colour. Start a simple frequency bar chart at zero to make length comparisons fair. Always label the measured unit. In this guided practical, use the chart on screen, read the values and check them against a table in your exercise book."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "The chart compares basket sales by Bih, Ayuk and Ngozi. The names are categories; the vertical values count baskets. Read each bar from the same baseline. Record name and quantity in a small table, then compare the largest and smallest values. These are invented classroom data, not a survey of actual traders.",
+    "figure": "barChartFig(['Bih','Ayuk','Ngozi'],[4,6,3])"
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Write a title, category labels and the baskets unit. Plot equal-width bars at a consistent scale. To check a drawing, reread each height and compare it with the original data. A taller bar represents more baskets in this chart, not automatically a higher price or profit."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "category",
+    "meaning": "a separate group being compared"
+   },
+   {
+    "word": "bar height",
+    "meaning": "the value read against the common scale"
+   },
+   {
+    "word": "baseline",
+    "meaning": "the common starting line for the bars"
+   },
+   {
+    "word": "frequency",
+    "meaning": "the number of occurrences or items counted"
+   }
+  ],
+  "examples": [
+   "The chart has separate bars for named traders.",
+   "Bih's bar reaches a marked baskets value.",
+   "Each bar starts at the same zero line."
+  ],
+  "mistake": {
+   "wrong": "The width of a category bar is the trader's profit.",
+   "right": "category: a separate group being compared.",
+   "why": "Categories identify groups; heights show the measured quantity."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The chart has separate bars for named traders. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A separate group being compared.",
+   "Categories identify groups; heights show the measured quantity."
+  ],
+  "answer": "category",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-5-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "category: a separate group being compared.",
+     "bar height: the value read against the common scale.",
+     "baseline: the common starting line for the bars.",
+     "frequency: the number of occurrences or items counted."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-5-terms"
+    }
+   },
+   {
+    "id": "cn3-5-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "The chart has separate bars for named traders.",
+     "category: a separate group being compared."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-5-cases"
+    }
+   },
+   {
+    "id": "cn3-5-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "The width of a category bar is the trader's profit.",
+     "Categories identify groups; heights show the measured quantity."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-5-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "category: a separate group being compared.",
+        "truth": "true",
+        "explain": "This statement is correct: category means a separate group being compared. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "bar height: the value read against the common scale.",
+        "truth": "true",
+        "explain": "This statement is correct: bar height means the value read against the common scale. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "baseline: the common starting line for the bars.",
+        "truth": "true",
+        "explain": "This statement is correct: baseline means the common starting line for the bars. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "frequency: the number of occurrences or items counted.",
+        "truth": "true",
+        "explain": "This statement is correct: frequency means the number of occurrences or items counted. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The width of a category bar is the trader's profit.",
+        "truth": "false",
+        "explain": "Categories identify groups; heights show the measured quantity."
+       },
+       {
+        "text": "The colour alone gives the numerical value.",
+        "truth": "false",
+        "explain": "Read the height on the labelled scale rather than guessing from colour."
+       },
+       {
+        "text": "Each bar can start at a different value without affecting comparison.",
+        "truth": "false",
+        "explain": "Different baselines distort direct comparisons of bar length."
+       },
+       {
+        "text": "A frequency count is automatically a price.",
+        "truth": "false",
+        "explain": "Frequency counts items; prices require a monetary unit."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-5-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a separate group being compared ?",
+       "r": "category",
+       "w": [
+        "bar height",
+        "baseline",
+        "frequency"
+       ],
+       "e": [
+        "bar height means the value read against the common scale; the question instead describes a separate group being compared.",
+        "baseline means the common starting line for the bars; the question instead describes a separate group being compared.",
+        "frequency means the number of occurrences or items counted; the question instead describes a separate group being compared."
+       ],
+       "y": "A separate group being compared."
+      },
+      {
+       "q": "Which term means: the value read against the common scale ?",
+       "r": "bar height",
+       "w": [
+        "category",
+        "baseline",
+        "frequency"
+       ],
+       "e": [
+        "category means a separate group being compared; the question instead describes the value read against the common scale.",
+        "baseline means the common starting line for the bars; the question instead describes the value read against the common scale.",
+        "frequency means the number of occurrences or items counted; the question instead describes the value read against the common scale."
+       ],
+       "y": "The value read against the common scale."
+      },
+      {
+       "q": "Which term means: the common starting line for the bars ?",
+       "r": "baseline",
+       "w": [
+        "category",
+        "bar height",
+        "frequency"
+       ],
+       "e": [
+        "category means a separate group being compared; the question instead describes the common starting line for the bars.",
+        "bar height means the value read against the common scale; the question instead describes the common starting line for the bars.",
+        "frequency means the number of occurrences or items counted; the question instead describes the common starting line for the bars."
+       ],
+       "y": "The common starting line for the bars."
+      },
+      {
+       "q": "Which term means: the number of occurrences or items counted ?",
+       "r": "frequency",
+       "w": [
+        "category",
+        "bar height",
+        "baseline"
+       ],
+       "e": [
+        "category means a separate group being compared; the question instead describes the number of occurrences or items counted.",
+        "bar height means the value read against the common scale; the question instead describes the number of occurrences or items counted.",
+        "baseline means the common starting line for the bars; the question instead describes the number of occurrences or items counted."
+       ],
+       "y": "The number of occurrences or items counted."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-5-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The chart has separate bars for named traders.\nWhich term best fits this example?",
+       "r": "category",
+       "w": [
+        "bar height",
+        "baseline",
+        "frequency"
+       ],
+       "e": [
+        "bar height concerns the value read against the common scale. This case instead illustrates a separate group being compared.",
+        "baseline concerns the common starting line for the bars. This case instead illustrates a separate group being compared.",
+        "frequency concerns the number of occurrences or items counted. This case instead illustrates a separate group being compared."
+       ],
+       "y": "The chart has separate bars for named traders. A separate group being compared."
+      },
+      {
+       "q": "Bih's bar reaches a marked baskets value.\nWhich term best fits this example?",
+       "r": "bar height",
+       "w": [
+        "category",
+        "baseline",
+        "frequency"
+       ],
+       "e": [
+        "category concerns a separate group being compared. This case instead illustrates the value read against the common scale.",
+        "baseline concerns the common starting line for the bars. This case instead illustrates the value read against the common scale.",
+        "frequency concerns the number of occurrences or items counted. This case instead illustrates the value read against the common scale."
+       ],
+       "y": "Bih's bar reaches a marked baskets value. The value read against the common scale."
+      },
+      {
+       "q": "Each bar starts at the same zero line.\nWhich term best fits this example?",
+       "r": "baseline",
+       "w": [
+        "category",
+        "bar height",
+        "frequency"
+       ],
+       "e": [
+        "category concerns a separate group being compared. This case instead illustrates the common starting line for the bars.",
+        "bar height concerns the value read against the common scale. This case instead illustrates the common starting line for the bars.",
+        "frequency concerns the number of occurrences or items counted. This case instead illustrates the common starting line for the bars."
+       ],
+       "y": "Each bar starts at the same zero line. The common starting line for the bars."
+      },
+      {
+       "q": "A table counts baskets sold by each trader.\nWhich term best fits this example?",
+       "r": "frequency",
+       "w": [
+        "category",
+        "bar height",
+        "baseline"
+       ],
+       "e": [
+        "category concerns a separate group being compared. This case instead illustrates the number of occurrences or items counted.",
+        "bar height concerns the value read against the common scale. This case instead illustrates the number of occurrences or items counted.",
+        "baseline concerns the common starting line for the bars. This case instead illustrates the number of occurrences or items counted."
+       ],
+       "y": "A table counts baskets sold by each trader. The number of occurrences or items counted."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-5-chart-0",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "labels": [
+     "Bih",
+     "Ayuk",
+     "Ngozi"
+    ],
+    "a": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "values": {
+     "expr": "[a,b,c]"
+    }
+   },
+   "prompt": "Read the bar chart. How many baskets were sold by {labels[0]}?",
+   "answer": "values[0]",
+   "solution": [
+    "Find {labels[0]} on the horizontal axis.",
+    "Read its height on the baskets scale: {answer} baskets."
+   ],
+   "figure": "barChartFig(labels,values)",
+   "unit": "baskets"
+  },
+  {
+   "id": "n3-5-chart-1",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "labels": [
+     "Bih",
+     "Ayuk",
+     "Ngozi"
+    ],
+    "a": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "values": {
+     "expr": "[a,b,c]"
+    }
+   },
+   "prompt": "Read the bar chart. How many baskets were sold by {labels[1]}?",
+   "answer": "values[1]",
+   "solution": [
+    "Find {labels[1]} on the horizontal axis.",
+    "Read its height on the baskets scale: {answer} baskets."
+   ],
+   "figure": "barChartFig(labels,values)",
+   "unit": "baskets"
+  },
+  {
+   "id": "n3-5-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "category: a separate group being compared.",
+      "truth": "true",
+      "explain": "This statement is correct: category means a separate group being compared. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "bar height: the value read against the common scale.",
+      "truth": "true",
+      "explain": "This statement is correct: bar height means the value read against the common scale. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "baseline: the common starting line for the bars.",
+      "truth": "true",
+      "explain": "This statement is correct: baseline means the common starting line for the bars. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "frequency: the number of occurrences or items counted.",
+      "truth": "true",
+      "explain": "This statement is correct: frequency means the number of occurrences or items counted. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The width of a category bar is the trader's profit.",
+      "truth": "false",
+      "explain": "Categories identify groups; heights show the measured quantity."
+     },
+     {
+      "text": "The colour alone gives the numerical value.",
+      "truth": "false",
+      "explain": "Read the height on the labelled scale rather than guessing from colour."
+     },
+     {
+      "text": "Each bar can start at a different value without affecting comparison.",
+      "truth": "false",
+      "explain": "Different baselines distort direct comparisons of bar length."
+     },
+     {
+      "text": "A frequency count is automatically a price.",
+      "truth": "false",
+      "explain": "Frequency counts items; prices require a monetary unit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

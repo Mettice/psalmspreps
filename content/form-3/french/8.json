@@ -1,0 +1,562 @@
+{
+ "subject": "french",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr3-8",
+   "name": "Accord du participe passé avec être"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Avec l’auxiliaire être, le participe passé des verbes non pronominaux étudiés s’accorde en genre et en nombre avec le sujet. Le sujet peut être éloigné : il faut le retrouver. Le féminin ajoute souvent -e et le pluriel -s, sous réserve de la forme du participe. Les verbes pronominaux demandent une analyse particulière et ne sont pas tous couverts par cette règle simple. Ne confonds pas la personne de l’auxiliaire avec les marques du participe.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comprendre les notions",
+    "text": "Avec l’auxiliaire être, le participe passé des verbes non pronominaux étudiés s’accorde en genre et en nombre avec le sujet. Le sujet peut être éloigné : il faut le retrouver. Le féminin ajoute souvent -e et le pluriel -s, sous réserve de la forme du participe. Les verbes pronominaux demandent une analyse particulière et ne sont pas tous couverts par cette règle simple. Ne confonds pas la personne de l’auxiliaire avec les marques du participe."
+   },
+   {
+    "heading": "Appliquer dans une situation",
+    "text": "Pour arriver, compare {fr2PasseCompose('arriver',2)}, {fr2PasseCompose('arriver',3)}, {fr2PasseCompose('arriver',6)} et {fr2PasseCompose('arriver',7)}. La terminaison du participe indique le genre et le nombre du sujet. Le changement de sujet peut aussi modifier l’auxiliaire ; les deux vérifications sont nécessaires."
+   },
+   {
+    "heading": "Raisonner et vérifier",
+    "text": "Souligne le sujet, relève son genre et son nombre, puis vérifie auxiliaire et participe séparément. N’accorde pas le participe avec un complément de lieu. Pour nous et vous, le contexte précise le genre ; les exercices emploient des pronoms non ambigus."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "masculin singulier",
+    "meaning": "l’accord avec il dans le modèle"
+   },
+   {
+    "word": "féminin singulier",
+    "meaning": "l’accord avec elle dans le modèle"
+   },
+   {
+    "word": "masculin pluriel",
+    "meaning": "l’accord avec ils dans le modèle"
+   },
+   {
+    "word": "féminin pluriel",
+    "meaning": "l’accord avec elles dans le modèle"
+   }
+  ],
+  "examples": [
+   "{fr2PasseCompose('partir',2)} correspond à il.",
+   "{fr2PasseCompose('partir',3)} correspond à elle.",
+   "{fr2PasseCompose('partir',6)} correspond à ils."
+  ],
+  "mistake": {
+   "wrong": "Il impose toujours la marque du féminin pluriel.",
+   "right": "masculin singulier: l’accord avec il dans le modèle.",
+   "why": "Le pronom il est ici masculin singulier."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "{fr2PasseCompose('partir',2)} correspond à il. Quelle notion s’applique ?",
+  "steps": [
+   "Relève les indices.",
+   "L’accord avec il dans le modèle.",
+   "Le pronom il est ici masculin singulier."
+  ],
+  "answer": "masculin singulier",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cfr3-8-terms",
+    "status": "draft",
+    "idea": "Distingue les notions avant de les appliquer.",
+    "vars": {},
+    "example": [
+     "masculin singulier: l’accord avec il dans le modèle.",
+     "féminin singulier: l’accord avec elle dans le modèle.",
+     "masculin pluriel: l’accord avec ils dans le modèle.",
+     "féminin pluriel: l’accord avec elles dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-8-terms"
+    }
+   },
+   {
+    "id": "cfr3-8-cases",
+    "status": "draft",
+    "idea": "Classe à partir des indices, pas d’un mot isolé.",
+    "vars": {},
+    "example": [
+     "{fr2PasseCompose('partir',2)} correspond à il.",
+     "masculin singulier: l’accord avec il dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr3-8-cases"
+    }
+   },
+   {
+    "id": "cfr3-8-repair",
+    "status": "draft",
+    "idea": "Vérifie la relation entre l’affirmation et sa justification.",
+    "vars": {},
+    "example": [
+     "Il impose toujours la marque du féminin pluriel.",
+     "Le pronom il est ici masculin singulier."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr3-8-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère l’affirmation fausse.",
+     "pool": {
+      "right": [
+       {
+        "text": "masculin singulier : l’accord avec il dans le modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : masculin singulier désigne l’accord avec il dans le modèle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "féminin singulier : l’accord avec elle dans le modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : féminin singulier désigne l’accord avec elle dans le modèle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "masculin pluriel : l’accord avec ils dans le modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : masculin pluriel désigne l’accord avec ils dans le modèle. Cherche une affirmation qui contredit sa définition."
+       },
+       {
+        "text": "féminin pluriel : l’accord avec elles dans le modèle.",
+        "truth": "true",
+        "explain": "Cette affirmation est correcte : féminin pluriel désigne l’accord avec elles dans le modèle. Cherche une affirmation qui contredit sa définition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Il impose toujours la marque du féminin pluriel.",
+        "truth": "false",
+        "explain": "Le pronom il est ici masculin singulier."
+       },
+       {
+        "text": "Elle exige ici l’absence de toute marque féminine.",
+        "truth": "false",
+        "explain": "Le participe reçoit la marque du féminin singulier."
+       },
+       {
+        "text": "Ils représente toujours un sujet singulier.",
+        "truth": "false",
+        "explain": "Le participe reçoit ici le pluriel masculin."
+       },
+       {
+        "text": "Elles commande un participe masculin singulier.",
+        "truth": "false",
+        "explain": "Le participe prend ici féminin et pluriel."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr3-8-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne : l’accord avec il dans le modèle ?",
+       "r": "masculin singulier",
+       "w": [
+        "féminin singulier",
+        "masculin pluriel",
+        "féminin pluriel"
+       ],
+       "e": [
+        "« féminin singulier » désigne l’accord avec elle dans le modèle. Ici, cherche l’accord avec il dans le modèle.",
+        "« masculin pluriel » désigne l’accord avec ils dans le modèle. Ici, cherche l’accord avec il dans le modèle.",
+        "« féminin pluriel » désigne l’accord avec elles dans le modèle. Ici, cherche l’accord avec il dans le modèle."
+       ],
+       "y": "L’accord avec il dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne : l’accord avec elle dans le modèle ?",
+       "r": "féminin singulier",
+       "w": [
+        "masculin singulier",
+        "masculin pluriel",
+        "féminin pluriel"
+       ],
+       "e": [
+        "« masculin singulier » désigne l’accord avec il dans le modèle. Ici, cherche l’accord avec elle dans le modèle.",
+        "« masculin pluriel » désigne l’accord avec ils dans le modèle. Ici, cherche l’accord avec elle dans le modèle.",
+        "« féminin pluriel » désigne l’accord avec elles dans le modèle. Ici, cherche l’accord avec elle dans le modèle."
+       ],
+       "y": "L’accord avec elle dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne : l’accord avec ils dans le modèle ?",
+       "r": "masculin pluriel",
+       "w": [
+        "masculin singulier",
+        "féminin singulier",
+        "féminin pluriel"
+       ],
+       "e": [
+        "« masculin singulier » désigne l’accord avec il dans le modèle. Ici, cherche l’accord avec ils dans le modèle.",
+        "« féminin singulier » désigne l’accord avec elle dans le modèle. Ici, cherche l’accord avec ils dans le modèle.",
+        "« féminin pluriel » désigne l’accord avec elles dans le modèle. Ici, cherche l’accord avec ils dans le modèle."
+       ],
+       "y": "L’accord avec ils dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne : l’accord avec elles dans le modèle ?",
+       "r": "féminin pluriel",
+       "w": [
+        "masculin singulier",
+        "féminin singulier",
+        "masculin pluriel"
+       ],
+       "e": [
+        "« masculin singulier » désigne l’accord avec il dans le modèle. Ici, cherche l’accord avec elles dans le modèle.",
+        "« féminin singulier » désigne l’accord avec elle dans le modèle. Ici, cherche l’accord avec elles dans le modèle.",
+        "« masculin pluriel » désigne l’accord avec ils dans le modèle. Ici, cherche l’accord avec elles dans le modèle."
+       ],
+       "y": "L’accord avec elles dans le modèle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-8-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "{fr2PasseCompose('partir',2)} correspond à il.\nQuel terme s’applique le mieux ?",
+       "r": "masculin singulier",
+       "w": [
+        "féminin singulier",
+        "masculin pluriel",
+        "féminin pluriel"
+       ],
+       "e": [
+        "« féminin singulier » concerne l’accord avec elle dans le modèle. Le cas décrit plutôt l’accord avec il dans le modèle.",
+        "« masculin pluriel » concerne l’accord avec ils dans le modèle. Le cas décrit plutôt l’accord avec il dans le modèle.",
+        "« féminin pluriel » concerne l’accord avec elles dans le modèle. Le cas décrit plutôt l’accord avec il dans le modèle."
+       ],
+       "y": "{fr2PasseCompose('partir',2)} correspond à il. L’accord avec il dans le modèle."
+      },
+      {
+       "q": "{fr2PasseCompose('partir',3)} correspond à elle.\nQuel terme s’applique le mieux ?",
+       "r": "féminin singulier",
+       "w": [
+        "masculin singulier",
+        "masculin pluriel",
+        "féminin pluriel"
+       ],
+       "e": [
+        "« masculin singulier » concerne l’accord avec il dans le modèle. Le cas décrit plutôt l’accord avec elle dans le modèle.",
+        "« masculin pluriel » concerne l’accord avec ils dans le modèle. Le cas décrit plutôt l’accord avec elle dans le modèle.",
+        "« féminin pluriel » concerne l’accord avec elles dans le modèle. Le cas décrit plutôt l’accord avec elle dans le modèle."
+       ],
+       "y": "{fr2PasseCompose('partir',3)} correspond à elle. L’accord avec elle dans le modèle."
+      },
+      {
+       "q": "{fr2PasseCompose('partir',6)} correspond à ils.\nQuel terme s’applique le mieux ?",
+       "r": "masculin pluriel",
+       "w": [
+        "masculin singulier",
+        "féminin singulier",
+        "féminin pluriel"
+       ],
+       "e": [
+        "« masculin singulier » concerne l’accord avec il dans le modèle. Le cas décrit plutôt l’accord avec ils dans le modèle.",
+        "« féminin singulier » concerne l’accord avec elle dans le modèle. Le cas décrit plutôt l’accord avec ils dans le modèle.",
+        "« féminin pluriel » concerne l’accord avec elles dans le modèle. Le cas décrit plutôt l’accord avec ils dans le modèle."
+       ],
+       "y": "{fr2PasseCompose('partir',6)} correspond à ils. L’accord avec ils dans le modèle."
+      },
+      {
+       "q": "{fr2PasseCompose('partir',7)} correspond à elles.\nQuel terme s’applique le mieux ?",
+       "r": "féminin pluriel",
+       "w": [
+        "masculin singulier",
+        "féminin singulier",
+        "masculin pluriel"
+       ],
+       "e": [
+        "« masculin singulier » concerne l’accord avec il dans le modèle. Le cas décrit plutôt l’accord avec elles dans le modèle.",
+        "« féminin singulier » concerne l’accord avec elle dans le modèle. Le cas décrit plutôt l’accord avec elles dans le modèle.",
+        "« masculin pluriel » concerne l’accord avec ils dans le modèle. Le cas décrit plutôt l’accord avec elles dans le modèle."
+       ],
+       "y": "{fr2PasseCompose('partir',7)} correspond à elles. L’accord avec elles dans le modèle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-8-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "arriver",
+      "partir",
+      "venir",
+      "rester"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "tense": "passé composé"
+   },
+   "prompt": "Conjugue « {v} » à {tense}, avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v,p)}",
+   "distractors": [
+    {
+     "text": "{fr2PasseCompose(v,(p+1)%8)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{fr2PasseCompose(v,(p+4)%8)}",
+     "misconception": "personne2"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "infinitif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette terminaison correspond à un autre sujet. Accorde le verbe avec {fr2Pronoun(p)}."
+    },
+    {
+     "id": "personne2",
+     "explain": "Tu as changé la personne grammaticale ; conserve le sujet demandé."
+    },
+    {
+     "id": "infinitif",
+     "explain": "L’infinitif nomme le verbe, mais ici il faut le conjuguer au temps demandé."
+    }
+   ],
+   "solution": [
+    "Repère le sujet : {fr2Pronoun(p)}.",
+    "Choisis la forme de {v} à {tense} pour ce sujet.",
+    "La forme complète est {answer}."
+   ],
+   "where": [
+    "fr2PasseCompose(v,p) != fr2PasseCompose(v,(p+1)%8)",
+    "fr2PasseCompose(v,p) != fr2PasseCompose(v,(p+4)%8)",
+    "fr2PasseCompose(v,(p+1)%8) != fr2PasseCompose(v,(p+4)%8)"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-8-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque terme à son exemple.",
+   "pool": [
+    {
+     "left": "masculin singulier",
+     "right": "{fr2PasseCompose('partir',2)} correspond à il."
+    },
+    {
+     "left": "féminin singulier",
+     "right": "{fr2PasseCompose('partir',3)} correspond à elle."
+    },
+    {
+     "left": "masculin pluriel",
+     "right": "{fr2PasseCompose('partir',6)} correspond à ils."
+    },
+    {
+     "left": "féminin pluriel",
+     "right": "{fr2PasseCompose('partir',7)} correspond à elles."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr3-8-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère l’affirmation fausse.",
+   "pool": {
+    "right": [
+     {
+      "text": "masculin singulier : l’accord avec il dans le modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : masculin singulier désigne l’accord avec il dans le modèle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "féminin singulier : l’accord avec elle dans le modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : féminin singulier désigne l’accord avec elle dans le modèle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "masculin pluriel : l’accord avec ils dans le modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : masculin pluriel désigne l’accord avec ils dans le modèle. Cherche une affirmation qui contredit sa définition."
+     },
+     {
+      "text": "féminin pluriel : l’accord avec elles dans le modèle.",
+      "truth": "true",
+      "explain": "Cette affirmation est correcte : féminin pluriel désigne l’accord avec elles dans le modèle. Cherche une affirmation qui contredit sa définition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Il impose toujours la marque du féminin pluriel.",
+      "truth": "false",
+      "explain": "Le pronom il est ici masculin singulier."
+     },
+     {
+      "text": "Elle exige ici l’absence de toute marque féminine.",
+      "truth": "false",
+      "explain": "Le participe reçoit la marque du féminin singulier."
+     },
+     {
+      "text": "Ils représente toujours un sujet singulier.",
+      "truth": "false",
+      "explain": "Le participe reçoit ici le pluriel masculin."
+     },
+     {
+      "text": "Elles commande un participe masculin singulier.",
+      "truth": "false",
+      "explain": "Le participe prend ici féminin et pluriel."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

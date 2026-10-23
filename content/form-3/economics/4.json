@@ -1,0 +1,599 @@
+{
+ "subject": "economics",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "n3-4",
+   "name": "Tools of analysis: axes, graphs and scales"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A graph represents relationships visually. Axes must be labelled with variables and units. A scale states the value represented by equal spaces. Points show paired observations. In a conventional demand diagram, quantity is on the horizontal axis and price on the vertical axis; the convention should be stated rather than guessed. A change in a graph can be misread if an axis is truncated or intervals are unequal. Use labels before interpreting height or slope.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "A graph represents relationships visually. Axes must be labelled with variables and units. A scale states the value represented by equal spaces. Points show paired observations. In a conventional demand diagram, quantity is on the horizontal axis and price on the vertical axis; the convention should be stated rather than guessed. A change in a graph can be misread if an axis is truncated or intervals are unequal. Use labels before interpreting height or slope."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Ngozi compares weekly basket sales with a bar chart. The horizontal axis identifies the weeks and the vertical axis counts baskets. If one marked interval represents several baskets, the height must be read using that scale. A taller bar is not automatically more revenue: revenue also depends on the price charged."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Read the title, both axis labels and the scale. Follow a point or bar to the correct axis, then include the unit. Do not treat a category label as a numerical measurement. If a graph and its table disagree, identify which plotted point or label needs checking."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "horizontal axis",
+    "meaning": "the axis running across a graph"
+   },
+   {
+    "word": "vertical axis",
+    "meaning": "the upright axis of a graph"
+   },
+   {
+    "word": "scale",
+    "meaning": "the values assigned to equally spaced marks"
+   },
+   {
+    "word": "plotted point",
+    "meaning": "a position representing a pair of values"
+   }
+  ],
+  "examples": [
+   "Quantity labels are placed along the bottom of a demand diagram.",
+   "Price is labelled on the upright axis in a conventional demand diagram.",
+   "A graph key explains how many baskets each interval represents."
+  ],
+  "mistake": {
+   "wrong": "The horizontal axis is always the upright line.",
+   "right": "horizontal axis: the axis running across a graph.",
+   "why": "Horizontal runs across; vertical runs up and down."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quantity labels are placed along the bottom of a demand diagram. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "The axis running across a graph.",
+   "Horizontal runs across; vertical runs up and down."
+  ],
+  "answer": "horizontal axis",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cn3-4-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "horizontal axis: the axis running across a graph.",
+     "vertical axis: the upright axis of a graph.",
+     "scale: the values assigned to equally spaced marks.",
+     "plotted point: a position representing a pair of values."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-4-terms"
+    }
+   },
+   {
+    "id": "cn3-4-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Quantity labels are placed along the bottom of a demand diagram.",
+     "horizontal axis: the axis running across a graph."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n3-4-cases"
+    }
+   },
+   {
+    "id": "cn3-4-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "The horizontal axis is always the upright line.",
+     "Horizontal runs across; vertical runs up and down."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n3-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "foundations"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "horizontal axis: the axis running across a graph.",
+        "truth": "true",
+        "explain": "This statement is correct: horizontal axis means the axis running across a graph. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "vertical axis: the upright axis of a graph.",
+        "truth": "true",
+        "explain": "This statement is correct: vertical axis means the upright axis of a graph. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "scale: the values assigned to equally spaced marks.",
+        "truth": "true",
+        "explain": "This statement is correct: scale means the values assigned to equally spaced marks. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "plotted point: a position representing a pair of values.",
+        "truth": "true",
+        "explain": "This statement is correct: plotted point means a position representing a pair of values. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The horizontal axis is always the upright line.",
+        "truth": "false",
+        "explain": "Horizontal runs across; vertical runs up and down."
+       },
+       {
+        "text": "A demand diagram convention puts price on the bottom axis.",
+        "truth": "false",
+        "explain": "The usual school demand convention places price vertically."
+       },
+       {
+        "text": "Equal spaces can be given arbitrary unequal values without warning.",
+        "truth": "false",
+        "explain": "A linear scale uses consistent numerical intervals for equal spaces."
+       },
+       {
+        "text": "A point on a relationship graph represents no values.",
+        "truth": "false",
+        "explain": "A point is interpreted through the values on its axes."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n3-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: the axis running across a graph ?",
+       "r": "horizontal axis",
+       "w": [
+        "vertical axis",
+        "scale",
+        "plotted point"
+       ],
+       "e": [
+        "vertical axis means the upright axis of a graph; the question instead describes the axis running across a graph.",
+        "scale means the values assigned to equally spaced marks; the question instead describes the axis running across a graph.",
+        "plotted point means a position representing a pair of values; the question instead describes the axis running across a graph."
+       ],
+       "y": "The axis running across a graph."
+      },
+      {
+       "q": "Which term means: the upright axis of a graph ?",
+       "r": "vertical axis",
+       "w": [
+        "horizontal axis",
+        "scale",
+        "plotted point"
+       ],
+       "e": [
+        "horizontal axis means the axis running across a graph; the question instead describes the upright axis of a graph.",
+        "scale means the values assigned to equally spaced marks; the question instead describes the upright axis of a graph.",
+        "plotted point means a position representing a pair of values; the question instead describes the upright axis of a graph."
+       ],
+       "y": "The upright axis of a graph."
+      },
+      {
+       "q": "Which term means: the values assigned to equally spaced marks ?",
+       "r": "scale",
+       "w": [
+        "horizontal axis",
+        "vertical axis",
+        "plotted point"
+       ],
+       "e": [
+        "horizontal axis means the axis running across a graph; the question instead describes the values assigned to equally spaced marks.",
+        "vertical axis means the upright axis of a graph; the question instead describes the values assigned to equally spaced marks.",
+        "plotted point means a position representing a pair of values; the question instead describes the values assigned to equally spaced marks."
+       ],
+       "y": "The values assigned to equally spaced marks."
+      },
+      {
+       "q": "Which term means: a position representing a pair of values ?",
+       "r": "plotted point",
+       "w": [
+        "horizontal axis",
+        "vertical axis",
+        "scale"
+       ],
+       "e": [
+        "horizontal axis means the axis running across a graph; the question instead describes a position representing a pair of values.",
+        "vertical axis means the upright axis of a graph; the question instead describes a position representing a pair of values.",
+        "scale means the values assigned to equally spaced marks; the question instead describes a position representing a pair of values."
+       ],
+       "y": "A position representing a pair of values."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quantity labels are placed along the bottom of a demand diagram.\nWhich term best fits this example?",
+       "r": "horizontal axis",
+       "w": [
+        "vertical axis",
+        "scale",
+        "plotted point"
+       ],
+       "e": [
+        "vertical axis concerns the upright axis of a graph. This case instead illustrates the axis running across a graph.",
+        "scale concerns the values assigned to equally spaced marks. This case instead illustrates the axis running across a graph.",
+        "plotted point concerns a position representing a pair of values. This case instead illustrates the axis running across a graph."
+       ],
+       "y": "Quantity labels are placed along the bottom of a demand diagram. The axis running across a graph."
+      },
+      {
+       "q": "Price is labelled on the upright axis in a conventional demand diagram.\nWhich term best fits this example?",
+       "r": "vertical axis",
+       "w": [
+        "horizontal axis",
+        "scale",
+        "plotted point"
+       ],
+       "e": [
+        "horizontal axis concerns the axis running across a graph. This case instead illustrates the upright axis of a graph.",
+        "scale concerns the values assigned to equally spaced marks. This case instead illustrates the upright axis of a graph.",
+        "plotted point concerns a position representing a pair of values. This case instead illustrates the upright axis of a graph."
+       ],
+       "y": "Price is labelled on the upright axis in a conventional demand diagram. The upright axis of a graph."
+      },
+      {
+       "q": "A graph key explains how many baskets each interval represents.\nWhich term best fits this example?",
+       "r": "scale",
+       "w": [
+        "horizontal axis",
+        "vertical axis",
+        "plotted point"
+       ],
+       "e": [
+        "horizontal axis concerns the axis running across a graph. This case instead illustrates the values assigned to equally spaced marks.",
+        "vertical axis concerns the upright axis of a graph. This case instead illustrates the values assigned to equally spaced marks.",
+        "plotted point concerns a position representing a pair of values. This case instead illustrates the values assigned to equally spaced marks."
+       ],
+       "y": "A graph key explains how many baskets each interval represents. The values assigned to equally spaced marks."
+      },
+      {
+       "q": "A learner marks the position for a stated price and quantity.\nWhich term best fits this example?",
+       "r": "plotted point",
+       "w": [
+        "horizontal axis",
+        "vertical axis",
+        "scale"
+       ],
+       "e": [
+        "horizontal axis concerns the axis running across a graph. This case instead illustrates a position representing a pair of values.",
+        "vertical axis concerns the upright axis of a graph. This case instead illustrates a position representing a pair of values.",
+        "scale concerns the values assigned to equally spaced marks. This case instead illustrates a position representing a pair of values."
+       ],
+       "y": "A learner marks the position for a stated price and quantity. A position representing a pair of values."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-4-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quantity labels are placed along the bottom of a demand diagram.\nWhich explanation justifies the classification?",
+       "r": "The axis running across a graph.",
+       "w": [
+        "The upright axis of a graph.",
+        "The values assigned to equally spaced marks.",
+        "A position representing a pair of values."
+       ],
+       "e": [
+        "That explanation describes vertical axis, rather than the relationship illustrated in this example.",
+        "That explanation describes scale, rather than the relationship illustrated in this example.",
+        "That explanation describes plotted point, rather than the relationship illustrated in this example."
+       ],
+       "y": "Horizontal runs across; vertical runs up and down."
+      },
+      {
+       "q": "Price is labelled on the upright axis in a conventional demand diagram.\nWhich explanation justifies the classification?",
+       "r": "The upright axis of a graph.",
+       "w": [
+        "The axis running across a graph.",
+        "The values assigned to equally spaced marks.",
+        "A position representing a pair of values."
+       ],
+       "e": [
+        "That explanation describes horizontal axis, rather than the relationship illustrated in this example.",
+        "That explanation describes scale, rather than the relationship illustrated in this example.",
+        "That explanation describes plotted point, rather than the relationship illustrated in this example."
+       ],
+       "y": "The usual school demand convention places price vertically."
+      },
+      {
+       "q": "A graph key explains how many baskets each interval represents.\nWhich explanation justifies the classification?",
+       "r": "The values assigned to equally spaced marks.",
+       "w": [
+        "The axis running across a graph.",
+        "The upright axis of a graph.",
+        "A position representing a pair of values."
+       ],
+       "e": [
+        "That explanation describes horizontal axis, rather than the relationship illustrated in this example.",
+        "That explanation describes vertical axis, rather than the relationship illustrated in this example.",
+        "That explanation describes plotted point, rather than the relationship illustrated in this example."
+       ],
+       "y": "A linear scale uses consistent numerical intervals for equal spaces."
+      },
+      {
+       "q": "A learner marks the position for a stated price and quantity.\nWhich explanation justifies the classification?",
+       "r": "A position representing a pair of values.",
+       "w": [
+        "The axis running across a graph.",
+        "The upright axis of a graph.",
+        "The values assigned to equally spaced marks."
+       ],
+       "e": [
+        "That explanation describes horizontal axis, rather than the relationship illustrated in this example.",
+        "That explanation describes vertical axis, rather than the relationship illustrated in this example.",
+        "That explanation describes scale, rather than the relationship illustrated in this example."
+       ],
+       "y": "A point is interpreted through the values on its axes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n3-4-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "horizontal axis",
+     "right": "Quantity labels are placed along the bottom of a demand diagram."
+    },
+    {
+     "left": "vertical axis",
+     "right": "Price is labelled on the upright axis in a conventional demand diagram."
+    },
+    {
+     "left": "scale",
+     "right": "A graph key explains how many baskets each interval represents."
+    },
+    {
+     "left": "plotted point",
+     "right": "A learner marks the position for a stated price and quantity."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "n3-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "foundations"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "horizontal axis: the axis running across a graph.",
+      "truth": "true",
+      "explain": "This statement is correct: horizontal axis means the axis running across a graph. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "vertical axis: the upright axis of a graph.",
+      "truth": "true",
+      "explain": "This statement is correct: vertical axis means the upright axis of a graph. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "scale: the values assigned to equally spaced marks.",
+      "truth": "true",
+      "explain": "This statement is correct: scale means the values assigned to equally spaced marks. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "plotted point: a position representing a pair of values.",
+      "truth": "true",
+      "explain": "This statement is correct: plotted point means a position representing a pair of values. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The horizontal axis is always the upright line.",
+      "truth": "false",
+      "explain": "Horizontal runs across; vertical runs up and down."
+     },
+     {
+      "text": "A demand diagram convention puts price on the bottom axis.",
+      "truth": "false",
+      "explain": "The usual school demand convention places price vertically."
+     },
+     {
+      "text": "Equal spaces can be given arbitrary unequal values without warning.",
+      "truth": "false",
+      "explain": "A linear scale uses consistent numerical intervals for equal spaces."
+     },
+     {
+      "text": "A point on a relationship graph represents no values.",
+      "truth": "false",
+      "explain": "A point is interpreted through the values on its axes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

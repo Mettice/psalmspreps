@@ -1,0 +1,599 @@
+{
+ "subject": "geography",
+ "class": "Form 3",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g3-16",
+   "name": "Volcanicity: benefits, hazards and human responses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Volcanic areas can provide fertile weathered soils, rock materials, landscapes that attract visitors and geothermal opportunities under suitable conditions. They can also face lava, ash, gases and fast-moving hazards. A long-term resource benefit does not make an eruption safe. Risk depends on the hazard and people's exposure and vulnerability. Monitoring and official evacuation planning reduce some risks but do not guarantee precise predictions or eliminate danger.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Understand the ideas",
+    "text": "Volcanic areas can provide fertile weathered soils, rock materials, landscapes that attract visitors and geothermal opportunities under suitable conditions. They can also face lava, ash, gases and fast-moving hazards. A long-term resource benefit does not make an eruption safe. Risk depends on the hazard and people's exposure and vulnerability. Monitoring and official evacuation planning reduce some risks but do not guarantee precise predictions or eliminate danger."
+   },
+   {
+    "heading": "Apply the ideas locally",
+    "text": "Communities near Mount Cameroon may benefit from landscapes and soils while still needing to respect hazard information. Weathering can improve some soils over time; fresh lava is not instant farmland. Tourism income also depends on access, services and safety. Avoid presenting attractive scenery as a reason to disregard local warnings."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Separate the natural process, a possible resource and the conditions required to use it. Compare short-term damage with long-term benefits without cancelling one out against the other. For real events follow local authorities and trained responders rather than treating a school exercise as an operational forecast."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "soil benefit",
+    "meaning": "a possible long-term resource from weathered volcanic material"
+   },
+   {
+    "word": "volcanic hazard",
+    "meaning": "a potentially damaging volcanic process"
+   },
+   {
+    "word": "exposure",
+    "meaning": "people and assets being located where a hazard can affect them"
+   },
+   {
+    "word": "risk reduction",
+    "meaning": "actions intended to reduce losses without guaranteeing complete safety"
+   }
+  ],
+  "examples": [
+   "Farming uses a suitable soil developed over time on volcanic parent material.",
+   "Ash, gases or lava threaten an exposed settlement.",
+   "Homes are situated in an area a volcanic process may reach."
+  ],
+  "mistake": {
+   "wrong": "Fresh lava is immediately safe fertile farmland.",
+   "right": "soil benefit: a possible long-term resource from weathered volcanic material.",
+   "why": "Soil development takes time and does not remove eruption hazards."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Farming uses a suitable soil developed over time on volcanic parent material. Which concept applies?",
+  "steps": [
+   "Identify the features of the case.",
+   "A possible long-term resource from weathered volcanic material.",
+   "Soil development takes time and does not remove eruption hazards."
+  ],
+  "answer": "soil benefit",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "cg3-16-terms",
+    "status": "draft",
+    "idea": "Distinguish the lesson's concepts before applying them.",
+    "vars": {},
+    "example": [
+     "soil benefit: a possible long-term resource from weathered volcanic material.",
+     "volcanic hazard: a potentially damaging volcanic process.",
+     "exposure: people and assets being located where a hazard can affect them.",
+     "risk reduction: actions intended to reduce losses without guaranteeing complete safety."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-16-terms"
+    }
+   },
+   {
+    "id": "cg3-16-cases",
+    "status": "draft",
+    "idea": "Classify a case by its features, rather than by a familiar word alone.",
+    "vars": {},
+    "example": [
+     "Farming uses a suitable soil developed over time on volcanic parent material.",
+     "soil benefit: a possible long-term resource from weathered volcanic material."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-16-cases"
+    }
+   },
+   {
+    "id": "cg3-16-repair",
+    "status": "draft",
+    "idea": "Check that a claim agrees with the rule or definition it uses.",
+    "vars": {},
+    "example": [
+     "Fresh lava is immediately safe fertile farmland.",
+     "Soil development takes time and does not remove eruption hazards."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g3-16-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth"
+     ],
+     "prompt": "Find the incorrect claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "soil benefit: a possible long-term resource from weathered volcanic material.",
+        "truth": "true",
+        "explain": "This statement is correct: soil benefit means a possible long-term resource from weathered volcanic material. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "volcanic hazard: a potentially damaging volcanic process.",
+        "truth": "true",
+        "explain": "This statement is correct: volcanic hazard means a potentially damaging volcanic process. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "exposure: people and assets being located where a hazard can affect them.",
+        "truth": "true",
+        "explain": "This statement is correct: exposure means people and assets being located where a hazard can affect them. Look for a claim that conflicts with its definition."
+       },
+       {
+        "text": "risk reduction: actions intended to reduce losses without guaranteeing complete safety.",
+        "truth": "true",
+        "explain": "This statement is correct: risk reduction means actions intended to reduce losses without guaranteeing complete safety. Look for a claim that conflicts with its definition."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Fresh lava is immediately safe fertile farmland.",
+        "truth": "false",
+        "explain": "Soil development takes time and does not remove eruption hazards."
+       },
+       {
+        "text": "Only slow lava can be hazardous in an eruption.",
+        "truth": "false",
+        "explain": "Ash, gases and other volcanic processes can also cause harm."
+       },
+       {
+        "text": "A hazard matters only after it has already destroyed every building.",
+        "truth": "false",
+        "explain": "Exposure concerns what could be affected, not only damage already observed."
+       },
+       {
+        "text": "An evacuation plan guarantees that no volcanic harm can ever occur.",
+        "truth": "false",
+        "explain": "Preparation can reduce losses but cannot make every outcome certain."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-16-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means: a possible long-term resource from weathered volcanic material ?",
+       "r": "soil benefit",
+       "w": [
+        "volcanic hazard",
+        "exposure",
+        "risk reduction"
+       ],
+       "e": [
+        "volcanic hazard means a potentially damaging volcanic process; the question instead describes a possible long-term resource from weathered volcanic material.",
+        "exposure means people and assets being located where a hazard can affect them; the question instead describes a possible long-term resource from weathered volcanic material.",
+        "risk reduction means actions intended to reduce losses without guaranteeing complete safety; the question instead describes a possible long-term resource from weathered volcanic material."
+       ],
+       "y": "A possible long-term resource from weathered volcanic material."
+      },
+      {
+       "q": "Which term means: a potentially damaging volcanic process ?",
+       "r": "volcanic hazard",
+       "w": [
+        "soil benefit",
+        "exposure",
+        "risk reduction"
+       ],
+       "e": [
+        "soil benefit means a possible long-term resource from weathered volcanic material; the question instead describes a potentially damaging volcanic process.",
+        "exposure means people and assets being located where a hazard can affect them; the question instead describes a potentially damaging volcanic process.",
+        "risk reduction means actions intended to reduce losses without guaranteeing complete safety; the question instead describes a potentially damaging volcanic process."
+       ],
+       "y": "A potentially damaging volcanic process."
+      },
+      {
+       "q": "Which term means: people and assets being located where a hazard can affect them ?",
+       "r": "exposure",
+       "w": [
+        "soil benefit",
+        "volcanic hazard",
+        "risk reduction"
+       ],
+       "e": [
+        "soil benefit means a possible long-term resource from weathered volcanic material; the question instead describes people and assets being located where a hazard can affect them.",
+        "volcanic hazard means a potentially damaging volcanic process; the question instead describes people and assets being located where a hazard can affect them.",
+        "risk reduction means actions intended to reduce losses without guaranteeing complete safety; the question instead describes people and assets being located where a hazard can affect them."
+       ],
+       "y": "People and assets being located where a hazard can affect them."
+      },
+      {
+       "q": "Which term means: actions intended to reduce losses without guaranteeing complete safety ?",
+       "r": "risk reduction",
+       "w": [
+        "soil benefit",
+        "volcanic hazard",
+        "exposure"
+       ],
+       "e": [
+        "soil benefit means a possible long-term resource from weathered volcanic material; the question instead describes actions intended to reduce losses without guaranteeing complete safety.",
+        "volcanic hazard means a potentially damaging volcanic process; the question instead describes actions intended to reduce losses without guaranteeing complete safety.",
+        "exposure means people and assets being located where a hazard can affect them; the question instead describes actions intended to reduce losses without guaranteeing complete safety."
+       ],
+       "y": "Actions intended to reduce losses without guaranteeing complete safety."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-16-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Farming uses a suitable soil developed over time on volcanic parent material.\nWhich term best fits this example?",
+       "r": "soil benefit",
+       "w": [
+        "volcanic hazard",
+        "exposure",
+        "risk reduction"
+       ],
+       "e": [
+        "volcanic hazard concerns a potentially damaging volcanic process. This case instead illustrates a possible long-term resource from weathered volcanic material.",
+        "exposure concerns people and assets being located where a hazard can affect them. This case instead illustrates a possible long-term resource from weathered volcanic material.",
+        "risk reduction concerns actions intended to reduce losses without guaranteeing complete safety. This case instead illustrates a possible long-term resource from weathered volcanic material."
+       ],
+       "y": "Farming uses a suitable soil developed over time on volcanic parent material. A possible long-term resource from weathered volcanic material."
+      },
+      {
+       "q": "Ash, gases or lava threaten an exposed settlement.\nWhich term best fits this example?",
+       "r": "volcanic hazard",
+       "w": [
+        "soil benefit",
+        "exposure",
+        "risk reduction"
+       ],
+       "e": [
+        "soil benefit concerns a possible long-term resource from weathered volcanic material. This case instead illustrates a potentially damaging volcanic process.",
+        "exposure concerns people and assets being located where a hazard can affect them. This case instead illustrates a potentially damaging volcanic process.",
+        "risk reduction concerns actions intended to reduce losses without guaranteeing complete safety. This case instead illustrates a potentially damaging volcanic process."
+       ],
+       "y": "Ash, gases or lava threaten an exposed settlement. A potentially damaging volcanic process."
+      },
+      {
+       "q": "Homes are situated in an area a volcanic process may reach.\nWhich term best fits this example?",
+       "r": "exposure",
+       "w": [
+        "soil benefit",
+        "volcanic hazard",
+        "risk reduction"
+       ],
+       "e": [
+        "soil benefit concerns a possible long-term resource from weathered volcanic material. This case instead illustrates people and assets being located where a hazard can affect them.",
+        "volcanic hazard concerns a potentially damaging volcanic process. This case instead illustrates people and assets being located where a hazard can affect them.",
+        "risk reduction concerns actions intended to reduce losses without guaranteeing complete safety. This case instead illustrates people and assets being located where a hazard can affect them."
+       ],
+       "y": "Homes are situated in an area a volcanic process may reach. People and assets being located where a hazard can affect them."
+      },
+      {
+       "q": "A community prepares an official evacuation plan and listens to monitoring information.\nWhich term best fits this example?",
+       "r": "risk reduction",
+       "w": [
+        "soil benefit",
+        "volcanic hazard",
+        "exposure"
+       ],
+       "e": [
+        "soil benefit concerns a possible long-term resource from weathered volcanic material. This case instead illustrates actions intended to reduce losses without guaranteeing complete safety.",
+        "volcanic hazard concerns a potentially damaging volcanic process. This case instead illustrates actions intended to reduce losses without guaranteeing complete safety.",
+        "exposure concerns people and assets being located where a hazard can affect them. This case instead illustrates actions intended to reduce losses without guaranteeing complete safety."
+       ],
+       "y": "A community prepares an official evacuation plan and listens to monitoring information. Actions intended to reduce losses without guaranteeing complete safety."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-16-reason",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Farming uses a suitable soil developed over time on volcanic parent material.\nWhich explanation justifies the classification?",
+       "r": "A possible long-term resource from weathered volcanic material.",
+       "w": [
+        "A potentially damaging volcanic process.",
+        "People and assets being located where a hazard can affect them.",
+        "Actions intended to reduce losses without guaranteeing complete safety."
+       ],
+       "e": [
+        "That explanation describes volcanic hazard, rather than the relationship illustrated in this example.",
+        "That explanation describes exposure, rather than the relationship illustrated in this example.",
+        "That explanation describes risk reduction, rather than the relationship illustrated in this example."
+       ],
+       "y": "Soil development takes time and does not remove eruption hazards."
+      },
+      {
+       "q": "Ash, gases or lava threaten an exposed settlement.\nWhich explanation justifies the classification?",
+       "r": "A potentially damaging volcanic process.",
+       "w": [
+        "A possible long-term resource from weathered volcanic material.",
+        "People and assets being located where a hazard can affect them.",
+        "Actions intended to reduce losses without guaranteeing complete safety."
+       ],
+       "e": [
+        "That explanation describes soil benefit, rather than the relationship illustrated in this example.",
+        "That explanation describes exposure, rather than the relationship illustrated in this example.",
+        "That explanation describes risk reduction, rather than the relationship illustrated in this example."
+       ],
+       "y": "Ash, gases and other volcanic processes can also cause harm."
+      },
+      {
+       "q": "Homes are situated in an area a volcanic process may reach.\nWhich explanation justifies the classification?",
+       "r": "People and assets being located where a hazard can affect them.",
+       "w": [
+        "A possible long-term resource from weathered volcanic material.",
+        "A potentially damaging volcanic process.",
+        "Actions intended to reduce losses without guaranteeing complete safety."
+       ],
+       "e": [
+        "That explanation describes soil benefit, rather than the relationship illustrated in this example.",
+        "That explanation describes volcanic hazard, rather than the relationship illustrated in this example.",
+        "That explanation describes risk reduction, rather than the relationship illustrated in this example."
+       ],
+       "y": "Exposure concerns what could be affected, not only damage already observed."
+      },
+      {
+       "q": "A community prepares an official evacuation plan and listens to monitoring information.\nWhich explanation justifies the classification?",
+       "r": "Actions intended to reduce losses without guaranteeing complete safety.",
+       "w": [
+        "A possible long-term resource from weathered volcanic material.",
+        "A potentially damaging volcanic process.",
+        "People and assets being located where a hazard can affect them."
+       ],
+       "e": [
+        "That explanation describes soil benefit, rather than the relationship illustrated in this example.",
+        "That explanation describes volcanic hazard, rather than the relationship illustrated in this example.",
+        "That explanation describes exposure, rather than the relationship illustrated in this example."
+       ],
+       "y": "Preparation can reduce losses but cannot make every outcome certain."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g3-16-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "soil benefit",
+     "right": "Farming uses a suitable soil developed over time on volcanic parent material."
+    },
+    {
+     "left": "volcanic hazard",
+     "right": "Ash, gases or lava threaten an exposed settlement."
+    },
+    {
+     "left": "exposure",
+     "right": "Homes are situated in an area a volcanic process may reach."
+    },
+    {
+     "left": "risk reduction",
+     "right": "A community prepares an official evacuation plan and listens to monitoring information."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "g3-16-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth"
+   ],
+   "prompt": "Find the incorrect claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "soil benefit: a possible long-term resource from weathered volcanic material.",
+      "truth": "true",
+      "explain": "This statement is correct: soil benefit means a possible long-term resource from weathered volcanic material. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "volcanic hazard: a potentially damaging volcanic process.",
+      "truth": "true",
+      "explain": "This statement is correct: volcanic hazard means a potentially damaging volcanic process. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "exposure: people and assets being located where a hazard can affect them.",
+      "truth": "true",
+      "explain": "This statement is correct: exposure means people and assets being located where a hazard can affect them. Look for a claim that conflicts with its definition."
+     },
+     {
+      "text": "risk reduction: actions intended to reduce losses without guaranteeing complete safety.",
+      "truth": "true",
+      "explain": "This statement is correct: risk reduction means actions intended to reduce losses without guaranteeing complete safety. Look for a claim that conflicts with its definition."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Fresh lava is immediately safe fertile farmland.",
+      "truth": "false",
+      "explain": "Soil development takes time and does not remove eruption hazards."
+     },
+     {
+      "text": "Only slow lava can be hazardous in an eruption.",
+      "truth": "false",
+      "explain": "Ash, gases and other volcanic processes can also cause harm."
+     },
+     {
+      "text": "A hazard matters only after it has already destroyed every building.",
+      "truth": "false",
+      "explain": "Exposure concerns what could be affected, not only damage already observed."
+     },
+     {
+      "text": "An evacuation plan guarantees that no volcanic harm can ever occur.",
+      "truth": "false",
+      "explain": "Preparation can reduce losses but cannot make every outcome certain."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
