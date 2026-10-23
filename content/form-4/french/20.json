@@ -1,0 +1,610 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 20,
+ "language": "fr",
+ "prerequisites": [
+  13,
+  18
+ ],
+ "skills": [
+  {
+   "id": "fr4-20",
+   "name": "Les pronoms relatifs composés"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Lequel varie selon le genre et le nombre de son antécédent : lequel, laquelle, lesquels, lesquelles. Après à et de, des formes se contractent : auquel, auxquels, auxquelles ; duquel, desquels, desquelles. Au féminin singulier, on garde à laquelle et de laquelle. D’autres prépositions peuvent précéder la forme simple : avec lequel, sur laquelle. Le choix exige de retrouver le nom repris et la préposition commandée par la relation. Pour une personne, qui après préposition peut aussi convenir selon le contexte.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir lequel et ses formes contractées selon l’antécédent et la préposition. Acquis mobilisés : les compléments et la distinction entre conjonction et pronom relatif. Pour la suite : la précision des liens dans les descriptions et les lettres."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Lequel varie selon le genre et le nombre de son antécédent : lequel, laquelle, lesquels, lesquelles. Après à et de, des formes se contractent : auquel, auxquels, auxquelles ; duquel, desquels, desquelles. Au féminin singulier, on garde à laquelle et de laquelle. D’autres prépositions peuvent précéder la forme simple : avec lequel, sur laquelle. Le choix exige de retrouver le nom repris et la préposition commandée par la relation. Pour une personne, qui après préposition peut aussi convenir selon le contexte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : le livre avec lequel je travaille ; la table sur laquelle le cahier repose ; les projets auxquels elle réfléchit ; les salles près desquelles le groupe attend. Le livre et la table imposent des genres différents. Réfléchir à conserve la relation en à ; près de garde de dans sa construction."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère l’antécédent complet, son genre et son nombre, puis la préposition. Ne choisis pas une forme seulement parce qu’elle est proche du verbe. Écris une description originale avec une forme composée et vérifie que le lien obtenu garde le sens."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "antécédent",
+    "meaning": "le nom ou groupe repris par le relatif"
+   },
+   {
+    "word": "accord du relatif",
+    "meaning": "la variation en genre et nombre de lequel"
+   },
+   {
+    "word": "contraction en à",
+    "meaning": "la combinaison de à avec certaines formes de lequel"
+   },
+   {
+    "word": "contraction en de",
+    "meaning": "la combinaison de de avec certaines formes de lequel"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le relatif choisit son genre d’après un nom au hasard.",
+   "right": "le nom ou groupe repris par le relatif.",
+   "why": "L’accord se fait avec l’antécédent repris."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans le livre avec lequel, livre commande le masculin singulier. Explique le choix.",
+  "steps": [
+   "le nom ou groupe repris par le relatif.",
+   "L’accord se fait avec l’antécédent repris."
+  ],
+  "answer": "antécédent",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-20-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "antécédent : le nom ou groupe repris par le relatif.",
+     "accord du relatif : la variation en genre et nombre de lequel.",
+     "contraction en à : la combinaison de à avec certaines formes de lequel.",
+     "contraction en de : la combinaison de de avec certaines formes de lequel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-20-notions"
+    }
+   },
+   {
+    "id": "fr4-20-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Dans le livre avec lequel, livre commande le masculin singulier.",
+     "La table sur laquelle emploie le féminin singulier.",
+     "Les projets auxquels elle réfléchit conserve la préposition à.",
+     "Les salles près desquelles reprend de et le féminin pluriel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-20-cas"
+    }
+   },
+   {
+    "id": "fr4-20-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le relatif choisit son genre d’après un nom au hasard. Correction : L’accord se fait avec l’antécédent repris.",
+     "Lequel reste toujours masculin singulier. Correction : Lequel appartient à une série variable.",
+     "À lequel reste toujours écrit en deux mots. Correction : Les formes auxquelles la contraction s’applique s’écrivent en un mot.",
+     "Duquel signifie automatiquement à laquelle. Correction : La préposition et l’accord ne doivent pas être confondus."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-20-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "antécédent : le nom ou groupe repris par le relatif.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’accord se fait avec l’antécédent repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "accord du relatif : la variation en genre et nombre de lequel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Lequel appartient à une série variable. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "contraction en à : la combinaison de à avec certaines formes de lequel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les formes auxquelles la contraction s’applique s’écrivent en un mot. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "contraction en de : la combinaison de de avec certaines formes de lequel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La préposition et l’accord ne doivent pas être confondus. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le relatif choisit son genre d’après un nom au hasard.",
+        "truth": "false",
+        "explain": "L’accord se fait avec l’antécédent repris."
+       },
+       {
+        "text": "Lequel reste toujours masculin singulier.",
+        "truth": "false",
+        "explain": "Lequel appartient à une série variable."
+       },
+       {
+        "text": "À lequel reste toujours écrit en deux mots.",
+        "truth": "false",
+        "explain": "Les formes auxquelles la contraction s’applique s’écrivent en un mot."
+       },
+       {
+        "text": "Duquel signifie automatiquement à laquelle.",
+        "truth": "false",
+        "explain": "La préposition et l’accord ne doivent pas être confondus."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-20-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le nom ou groupe repris par le relatif ?",
+       "r": "antécédent",
+       "w": [
+        "accord du relatif",
+        "contraction en à",
+        "contraction en de"
+       ],
+       "e": [
+        "Cela désigne la variation en genre et nombre de lequel, plutôt que la notion demandée.",
+        "Cela désigne la combinaison de à avec certaines formes de lequel, plutôt que la notion demandée.",
+        "Cela désigne la combinaison de de avec certaines formes de lequel, plutôt que la notion demandée."
+       ],
+       "y": "L’accord se fait avec l’antécédent repris."
+      },
+      {
+       "q": "Quel terme désigne la variation en genre et nombre de lequel ?",
+       "r": "accord du relatif",
+       "w": [
+        "antécédent",
+        "contraction en à",
+        "contraction en de"
+       ],
+       "e": [
+        "Cela désigne le nom ou groupe repris par le relatif, plutôt que la notion demandée.",
+        "Cela désigne la combinaison de à avec certaines formes de lequel, plutôt que la notion demandée.",
+        "Cela désigne la combinaison de de avec certaines formes de lequel, plutôt que la notion demandée."
+       ],
+       "y": "Lequel appartient à une série variable."
+      },
+      {
+       "q": "Quel terme désigne la combinaison de à avec certaines formes de lequel ?",
+       "r": "contraction en à",
+       "w": [
+        "antécédent",
+        "accord du relatif",
+        "contraction en de"
+       ],
+       "e": [
+        "Cela désigne le nom ou groupe repris par le relatif, plutôt que la notion demandée.",
+        "Cela désigne la variation en genre et nombre de lequel, plutôt que la notion demandée.",
+        "Cela désigne la combinaison de de avec certaines formes de lequel, plutôt que la notion demandée."
+       ],
+       "y": "Les formes auxquelles la contraction s’applique s’écrivent en un mot."
+      },
+      {
+       "q": "Quel terme désigne la combinaison de de avec certaines formes de lequel ?",
+       "r": "contraction en de",
+       "w": [
+        "antécédent",
+        "accord du relatif",
+        "contraction en à"
+       ],
+       "e": [
+        "Cela désigne le nom ou groupe repris par le relatif, plutôt que la notion demandée.",
+        "Cela désigne la variation en genre et nombre de lequel, plutôt que la notion demandée.",
+        "Cela désigne la combinaison de à avec certaines formes de lequel, plutôt que la notion demandée."
+       ],
+       "y": "La préposition et l’accord ne doivent pas être confondus."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-20-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans le livre avec lequel, livre commande le masculin singulier.\nQuelle notion convient ?",
+       "r": "antécédent",
+       "w": [
+        "accord du relatif",
+        "contraction en à",
+        "contraction en de"
+       ],
+       "e": [
+        "Cela concerne la variation en genre et nombre de lequel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la combinaison de à avec certaines formes de lequel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la combinaison de de avec certaines formes de lequel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’accord se fait avec l’antécédent repris."
+      },
+      {
+       "q": "La table sur laquelle emploie le féminin singulier.\nQuelle notion convient ?",
+       "r": "accord du relatif",
+       "w": [
+        "antécédent",
+        "contraction en à",
+        "contraction en de"
+       ],
+       "e": [
+        "Cela concerne le nom ou groupe repris par le relatif. Compare cette définition avec le cas présenté.",
+        "Cela concerne la combinaison de à avec certaines formes de lequel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la combinaison de de avec certaines formes de lequel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Lequel appartient à une série variable."
+      },
+      {
+       "q": "Les projets auxquels elle réfléchit conserve la préposition à.\nQuelle notion convient ?",
+       "r": "contraction en à",
+       "w": [
+        "antécédent",
+        "accord du relatif",
+        "contraction en de"
+       ],
+       "e": [
+        "Cela concerne le nom ou groupe repris par le relatif. Compare cette définition avec le cas présenté.",
+        "Cela concerne la variation en genre et nombre de lequel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la combinaison de de avec certaines formes de lequel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les formes auxquelles la contraction s’applique s’écrivent en un mot."
+      },
+      {
+       "q": "Les salles près desquelles reprend de et le féminin pluriel.\nQuelle notion convient ?",
+       "r": "contraction en de",
+       "w": [
+        "antécédent",
+        "accord du relatif",
+        "contraction en à"
+       ],
+       "e": [
+        "Cela concerne le nom ou groupe repris par le relatif. Compare cette définition avec le cas présenté.",
+        "Cela concerne la variation en genre et nombre de lequel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la combinaison de à avec certaines formes de lequel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La préposition et l’accord ne doivent pas être confondus."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-20-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le livre avec ___ je travaille.",
+       "r": "lequel",
+       "w": [
+        "laquelle",
+        "lesquels",
+        "duquel"
+       ],
+       "e": [
+        "Livre est masculin.",
+        "Livre est singulier.",
+        "Avec n’impose pas une forme contractée en de."
+       ],
+       "y": "Accorde avec livre après avec."
+      },
+      {
+       "q": "La table sur ___ repose le cahier.",
+       "r": "laquelle",
+       "w": [
+        "lequel",
+        "lesquelles",
+        "auquel"
+       ],
+       "e": [
+        "Table est féminin.",
+        "Table est singulier.",
+        "Sur ne se remplace pas par à."
+       ],
+       "y": "Accorde avec table après sur."
+      },
+      {
+       "q": "Les projets ___ elle réfléchit.",
+       "r": "auxquels",
+       "w": [
+        "lesquels",
+        "auquel",
+        "auxquelles"
+       ],
+       "e": [
+        "Réfléchir demande ici à.",
+        "Projets est pluriel.",
+        "Projets est masculin."
+       ],
+       "y": "À plus lesquels donne auxquels."
+      },
+      {
+       "q": "Les salles près ___ le groupe attend.",
+       "r": "desquelles",
+       "w": [
+        "duquel",
+        "auxquelles",
+        "lesquelles"
+       ],
+       "e": [
+        "Salles est féminin pluriel.",
+        "Près demande ici de, non à.",
+        "Il manque la relation en de."
+       ],
+       "y": "Près de plus lesquelles donne près desquelles."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-20-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "antécédent",
+     "right": "Dans le livre avec lequel, livre commande le masculin singulier."
+    },
+    {
+     "left": "accord du relatif",
+     "right": "La table sur laquelle emploie le féminin singulier."
+    },
+    {
+     "left": "contraction en à",
+     "right": "Les projets auxquels elle réfléchit conserve la préposition à."
+    },
+    {
+     "left": "contraction en de",
+     "right": "Les salles près desquelles reprend de et le féminin pluriel."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-20-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "antécédent : le nom ou groupe repris par le relatif.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’accord se fait avec l’antécédent repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "accord du relatif : la variation en genre et nombre de lequel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Lequel appartient à une série variable. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "contraction en à : la combinaison de à avec certaines formes de lequel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les formes auxquelles la contraction s’applique s’écrivent en un mot. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "contraction en de : la combinaison de de avec certaines formes de lequel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La préposition et l’accord ne doivent pas être confondus. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le relatif choisit son genre d’après un nom au hasard.",
+      "truth": "false",
+      "explain": "L’accord se fait avec l’antécédent repris."
+     },
+     {
+      "text": "Lequel reste toujours masculin singulier.",
+      "truth": "false",
+      "explain": "Lequel appartient à une série variable."
+     },
+     {
+      "text": "À lequel reste toujours écrit en deux mots.",
+      "truth": "false",
+      "explain": "Les formes auxquelles la contraction s’applique s’écrivent en un mot."
+     },
+     {
+      "text": "Duquel signifie automatiquement à laquelle.",
+      "truth": "false",
+      "explain": "La préposition et l’accord ne doivent pas être confondus."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

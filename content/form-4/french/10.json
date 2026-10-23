@@ -1,0 +1,560 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 10,
+ "language": "fr",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "fr4-10",
+   "name": "Le passé composé"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé composé associe avoir ou être au présent à un participe passé. Il présente notamment un événement accompli dans un récit ou un échange. Le choix de l’auxiliaire dépend du verbe et parfois de son emploi. Avec être, les participes non pronominaux étudiés s’accordent avec le sujet. Avec avoir, ils ne s’accordent pas simplement avec le sujet ; les cas du complément direct placé avant demandent une analyse supplémentaire. Ne remplace pas le participe par l’infinitif.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former une forme active au passé composé et choisir l’auxiliaire et l’accord du modèle. Acquis mobilisés : les événements narratifs et les participes déjà rencontrés. Pour la suite : la traduction et la comparaison des temps du récit."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le passé composé associe avoir ou être au présent à un participe passé. Il présente notamment un événement accompli dans un récit ou un échange. Le choix de l’auxiliaire dépend du verbe et parfois de son emploi. Avec être, les participes non pronominaux étudiés s’accordent avec le sujet. Avec avoir, ils ne s’accordent pas simplement avec le sujet ; les cas du complément direct placé avant demandent une analyse supplémentaire. Ne remplace pas le participe par l’infinitif."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : {fr2PasseCompose(\"aider\",3)} une voisine. Puis {fr2PasseCompose(\"arriver\",3)} au club. Dans la première forme, avoir porte la personne et le participe ne reçoit pas l’accord du sujet. Dans la seconde, être accompagne arriver et le féminin apparaît. Compare aussi {fr2PasseCompose(\"partir\",7)} : le sujet féminin pluriel commande ici l’accord."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Retrouve le sujet, le verbe et son emploi. Conjugue l’auxiliaire au présent, ajoute le participe, puis examine l’accord nécessaire. Garde la voix active demandée : une autre construction grammaticale ne répond pas forcément à cette consigne."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "auxiliaire",
+    "meaning": "avoir ou être portant la conjugaison du temps composé"
+   },
+   {
+    "word": "participe passé",
+    "meaning": "la forme verbale associée à l’auxiliaire"
+   },
+   {
+    "word": "accord avec être",
+    "meaning": "l’accord avec le sujet pour les verbes non pronominaux étudiés"
+   },
+   {
+    "word": "voix active demandée",
+    "meaning": "une construction où le sujet est présenté comme agent dans le modèle"
+   }
+  ],
+  "mistake": {
+   "wrong": "L’auxiliaire doit toujours rester à l’infinitif.",
+   "right": "avoir ou être portant la conjugaison du temps composé.",
+   "why": "La personne et le temps sont portés par l’auxiliaire conjugué."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans {fr2PasseCompose(\"aider\",3)}, l’auxiliaire est conjugué au présent. Explique le choix.",
+  "steps": [
+   "avoir ou être portant la conjugaison du temps composé.",
+   "La personne et le temps sont portés par l’auxiliaire conjugué."
+  ],
+  "answer": "auxiliaire",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-10-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "auxiliaire : avoir ou être portant la conjugaison du temps composé.",
+     "participe passé : la forme verbale associée à l’auxiliaire.",
+     "accord avec être : l’accord avec le sujet pour les verbes non pronominaux étudiés.",
+     "voix active demandée : une construction où le sujet est présenté comme agent dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-10-notions"
+    }
+   },
+   {
+    "id": "fr4-10-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Dans {fr2PasseCompose(\"aider\",3)}, l’auxiliaire est conjugué au présent.",
+     "Le participe de finir est {fr2Participle(\"finir\")}.",
+     "{fr2PasseCompose(\"arriver\",7)} comporte les marques du féminin pluriel.",
+     "{fr2PasseCompose(\"aider\",0)} une amie ne se confond pas avec une construction passive."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-10-cas"
+    }
+   },
+   {
+    "id": "fr4-10-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "L’auxiliaire doit toujours rester à l’infinitif. Correction : La personne et le temps sont portés par l’auxiliaire conjugué.",
+     "Après a, le verbe doit toujours rester finir. Correction : Le participe diffère de l’infinitif dans ce modèle.",
+     "Avec être, les participes étudiés restent toujours masculins singuliers. Correction : Le sujet commande ici le genre et le nombre du participe.",
+     "Changer de voix ne peut jamais changer le sens. Correction : Le rôle du sujet et la construction doivent rester conformes à la demande."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-10-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "auxiliaire : avoir ou être portant la conjugaison du temps composé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La personne et le temps sont portés par l’auxiliaire conjugué. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "participe passé : la forme verbale associée à l’auxiliaire.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le participe diffère de l’infinitif dans ce modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "accord avec être : l’accord avec le sujet pour les verbes non pronominaux étudiés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet commande ici le genre et le nombre du participe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "voix active demandée : une construction où le sujet est présenté comme agent dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le rôle du sujet et la construction doivent rester conformes à la demande. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’auxiliaire doit toujours rester à l’infinitif.",
+        "truth": "false",
+        "explain": "La personne et le temps sont portés par l’auxiliaire conjugué."
+       },
+       {
+        "text": "Après a, le verbe doit toujours rester finir.",
+        "truth": "false",
+        "explain": "Le participe diffère de l’infinitif dans ce modèle."
+       },
+       {
+        "text": "Avec être, les participes étudiés restent toujours masculins singuliers.",
+        "truth": "false",
+        "explain": "Le sujet commande ici le genre et le nombre du participe."
+       },
+       {
+        "text": "Changer de voix ne peut jamais changer le sens.",
+        "truth": "false",
+        "explain": "Le rôle du sujet et la construction doivent rester conformes à la demande."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-10-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne avoir ou être portant la conjugaison du temps composé ?",
+       "r": "auxiliaire",
+       "w": [
+        "participe passé",
+        "accord avec être",
+        "voix active demandée"
+       ],
+       "e": [
+        "Cela désigne la forme verbale associée à l’auxiliaire, plutôt que la notion demandée.",
+        "Cela désigne l’accord avec le sujet pour les verbes non pronominaux étudiés, plutôt que la notion demandée.",
+        "Cela désigne une construction où le sujet est présenté comme agent dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "La personne et le temps sont portés par l’auxiliaire conjugué."
+      },
+      {
+       "q": "Quel terme désigne la forme verbale associée à l’auxiliaire ?",
+       "r": "participe passé",
+       "w": [
+        "auxiliaire",
+        "accord avec être",
+        "voix active demandée"
+       ],
+       "e": [
+        "Cela désigne avoir ou être portant la conjugaison du temps composé, plutôt que la notion demandée.",
+        "Cela désigne l’accord avec le sujet pour les verbes non pronominaux étudiés, plutôt que la notion demandée.",
+        "Cela désigne une construction où le sujet est présenté comme agent dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Le participe diffère de l’infinitif dans ce modèle."
+      },
+      {
+       "q": "Quel terme désigne l’accord avec le sujet pour les verbes non pronominaux étudiés ?",
+       "r": "accord avec être",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "voix active demandée"
+       ],
+       "e": [
+        "Cela désigne avoir ou être portant la conjugaison du temps composé, plutôt que la notion demandée.",
+        "Cela désigne la forme verbale associée à l’auxiliaire, plutôt que la notion demandée.",
+        "Cela désigne une construction où le sujet est présenté comme agent dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet commande ici le genre et le nombre du participe."
+      },
+      {
+       "q": "Quel terme désigne une construction où le sujet est présenté comme agent dans le modèle ?",
+       "r": "voix active demandée",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "accord avec être"
+       ],
+       "e": [
+        "Cela désigne avoir ou être portant la conjugaison du temps composé, plutôt que la notion demandée.",
+        "Cela désigne la forme verbale associée à l’auxiliaire, plutôt que la notion demandée.",
+        "Cela désigne l’accord avec le sujet pour les verbes non pronominaux étudiés, plutôt que la notion demandée."
+       ],
+       "y": "Le rôle du sujet et la construction doivent rester conformes à la demande."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-10-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans {fr2PasseCompose(\"aider\",3)}, l’auxiliaire est conjugué au présent.\nQuelle notion convient ?",
+       "r": "auxiliaire",
+       "w": [
+        "participe passé",
+        "accord avec être",
+        "voix active demandée"
+       ],
+       "e": [
+        "Cela concerne la forme verbale associée à l’auxiliaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord avec le sujet pour les verbes non pronominaux étudiés. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction où le sujet est présenté comme agent dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La personne et le temps sont portés par l’auxiliaire conjugué."
+      },
+      {
+       "q": "Le participe de finir est {fr2Participle(\"finir\")}.\nQuelle notion convient ?",
+       "r": "participe passé",
+       "w": [
+        "auxiliaire",
+        "accord avec être",
+        "voix active demandée"
+       ],
+       "e": [
+        "Cela concerne avoir ou être portant la conjugaison du temps composé. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord avec le sujet pour les verbes non pronominaux étudiés. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction où le sujet est présenté comme agent dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le participe diffère de l’infinitif dans ce modèle."
+      },
+      {
+       "q": "{fr2PasseCompose(\"arriver\",7)} comporte les marques du féminin pluriel.\nQuelle notion convient ?",
+       "r": "accord avec être",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "voix active demandée"
+       ],
+       "e": [
+        "Cela concerne avoir ou être portant la conjugaison du temps composé. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme verbale associée à l’auxiliaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction où le sujet est présenté comme agent dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet commande ici le genre et le nombre du participe."
+      },
+      {
+       "q": "{fr2PasseCompose(\"aider\",0)} une amie ne se confond pas avec une construction passive.\nQuelle notion convient ?",
+       "r": "voix active demandée",
+       "w": [
+        "auxiliaire",
+        "participe passé",
+        "accord avec être"
+       ],
+       "e": [
+        "Cela concerne avoir ou être portant la conjugaison du temps composé. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme verbale associée à l’auxiliaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’accord avec le sujet pour les verbes non pronominaux étudiés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le rôle du sujet et la construction doivent rester conformes à la demande."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-10-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aider",
+      "finir",
+      "arriver",
+      "partir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "temps": "passé composé"
+   },
+   "prompt": "Conjugue « {v} » à l’indicatif {temps}, à la voix active, avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v,p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcOtherAux(v,p)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{fr2PcInfinitive(v,p)}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2With(p,fr2Present(v,p))}",
+     "misconception": "temps"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "aux",
+     "explain": "Ce choix remplace l’auxiliaire de la forme active demandée."
+    },
+    {
+     "id": "inf",
+     "explain": "Après l’auxiliaire, emploie le participe passé, non l’infinitif."
+    },
+    {
+     "id": "temps",
+     "explain": "Cette forme est au présent simple, non au temps composé demandé."
+    }
+   ],
+   "solution": [
+    "Repère le sujet et le temps demandé.",
+    "La forme complète est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-10-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "auxiliaire",
+     "right": "Dans {fr2PasseCompose(\"aider\",3)}, l’auxiliaire est conjugué au présent."
+    },
+    {
+     "left": "participe passé",
+     "right": "Le participe de finir est {fr2Participle(\"finir\")}."
+    },
+    {
+     "left": "accord avec être",
+     "right": "{fr2PasseCompose(\"arriver\",7)} comporte les marques du féminin pluriel."
+    },
+    {
+     "left": "voix active demandée",
+     "right": "{fr2PasseCompose(\"aider\",0)} une amie ne se confond pas avec une construction passive."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-10-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "auxiliaire : avoir ou être portant la conjugaison du temps composé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La personne et le temps sont portés par l’auxiliaire conjugué. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "participe passé : la forme verbale associée à l’auxiliaire.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le participe diffère de l’infinitif dans ce modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "accord avec être : l’accord avec le sujet pour les verbes non pronominaux étudiés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet commande ici le genre et le nombre du participe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "voix active demandée : une construction où le sujet est présenté comme agent dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le rôle du sujet et la construction doivent rester conformes à la demande. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’auxiliaire doit toujours rester à l’infinitif.",
+      "truth": "false",
+      "explain": "La personne et le temps sont portés par l’auxiliaire conjugué."
+     },
+     {
+      "text": "Après a, le verbe doit toujours rester finir.",
+      "truth": "false",
+      "explain": "Le participe diffère de l’infinitif dans ce modèle."
+     },
+     {
+      "text": "Avec être, les participes étudiés restent toujours masculins singuliers.",
+      "truth": "false",
+      "explain": "Le sujet commande ici le genre et le nombre du participe."
+     },
+     {
+      "text": "Changer de voix ne peut jamais changer le sens.",
+      "truth": "false",
+      "explain": "Le rôle du sujet et la construction doivent rester conformes à la demande."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

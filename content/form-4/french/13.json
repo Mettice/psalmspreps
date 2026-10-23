@@ -1,0 +1,610 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 13,
+ "language": "fr",
+ "prerequisites": [
+  3,
+  10
+ ],
+ "skills": [
+  {
+   "id": "fr4-13",
+   "name": "La phrase complexe introduite par que"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une phrase complexe comporte plusieurs propositions. La conjonction de subordination que peut introduire une proposition complétant un verbe : Bih dit que la réunion commence. La proposition introduite dépend de la principale. Dans cette construction, que n’occupe pas lui-même la fonction de COD à l’intérieur de la subordonnée. Compare le livre que Bih lit : ici que est un pronom relatif reprenant livre et jouant un rôle dans sa proposition. La présence du même mot ne suffit donc pas à décider de l’analyse ou du mode.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras repérer une subordonnée complétive et distinguer que conjonction de que pronom relatif. Acquis mobilisés : les phrases simples et les verbes de parole ou de pensée. Pour la suite : le subjonctif et les pronoms relatifs composés."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une phrase complexe comporte plusieurs propositions. La conjonction de subordination que peut introduire une proposition complétant un verbe : Bih dit que la réunion commence. La proposition introduite dépend de la principale. Dans cette construction, que n’occupe pas lui-même la fonction de COD à l’intérieur de la subordonnée. Compare le livre que Bih lit : ici que est un pronom relatif reprenant livre et jouant un rôle dans sa proposition. La présence du même mot ne suffit donc pas à décider de l’analyse ou du mode."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Ayuk affirme que le groupe est prêt. Ayuk affirme constitue la principale ; que le groupe est prêt complète le verbe. Dans le livre que Bih lit, que reprend un nom antécédent. Enfin, il faut que le groupe soit prêt n’emploie pas le même mode que un constat : c’est la construction complète qui guide le choix."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère les verbes conjugués, les limites des propositions et ce que la subordonnée complète. Cherche si que reprend un antécédent et occupe une fonction interne. Garde le sens lorsque tu réunis des phrases ; ne suppose pas que chaque que exige le subjonctif."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "principale",
+    "meaning": "la proposition dont dépend la subordonnée dans le modèle"
+   },
+   {
+    "word": "complétive",
+    "meaning": "une proposition complétant notamment un verbe dans le modèle étudié"
+   },
+   {
+    "word": "que conjonction",
+    "meaning": "un mot de subordination ne reprenant pas un nom dans le modèle"
+   },
+   {
+    "word": "que relatif",
+    "meaning": "un pronom reprenant un antécédent et jouant un rôle dans sa proposition"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le dernier groupe de mots est toujours la principale.",
+   "right": "la proposition dont dépend la subordonnée dans le modèle.",
+   "why": "La dépendance grammaticale, non la seule position, décide."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans Bih dit que le club ouvre, Bih dit porte le verbe principal. Explique le choix.",
+  "steps": [
+   "la proposition dont dépend la subordonnée dans le modèle.",
+   "La dépendance grammaticale, non la seule position, décide."
+  ],
+  "answer": "principale",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-13-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "principale : la proposition dont dépend la subordonnée dans le modèle.",
+     "complétive : une proposition complétant notamment un verbe dans le modèle étudié.",
+     "que conjonction : un mot de subordination ne reprenant pas un nom dans le modèle.",
+     "que relatif : un pronom reprenant un antécédent et jouant un rôle dans sa proposition."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-13-notions"
+    }
+   },
+   {
+    "id": "fr4-13-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Dans Bih dit que le club ouvre, Bih dit porte le verbe principal.",
+     "Que la salle est prête complète elle affirme.",
+     "Je pense que la salle est ouverte introduit le contenu pensé.",
+     "Le livre que Bih lit contient que reprenant livre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-13-cas"
+    }
+   },
+   {
+    "id": "fr4-13-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le dernier groupe de mots est toujours la principale. Correction : La dépendance grammaticale, non la seule position, décide.",
+     "Une complétive doit toujours être une proposition indépendante sans lien. Correction : Elle dépend ici du verbe qu’elle complète.",
+     "Que conjonction reprend toujours le nom salle placé avant lui. Correction : Il introduit ici une proposition, sans antécédent nominal repris.",
+     "Que a forcément la même nature dans toutes les phrases. Correction : Compare reprise d’un antécédent et simple subordination."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-13-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "principale : la proposition dont dépend la subordonnée dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La dépendance grammaticale, non la seule position, décide. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "complétive : une proposition complétant notamment un verbe dans le modèle étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle dépend ici du verbe qu’elle complète. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "que conjonction : un mot de subordination ne reprenant pas un nom dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il introduit ici une proposition, sans antécédent nominal repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "que relatif : un pronom reprenant un antécédent et jouant un rôle dans sa proposition.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Compare reprise d’un antécédent et simple subordination. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le dernier groupe de mots est toujours la principale.",
+        "truth": "false",
+        "explain": "La dépendance grammaticale, non la seule position, décide."
+       },
+       {
+        "text": "Une complétive doit toujours être une proposition indépendante sans lien.",
+        "truth": "false",
+        "explain": "Elle dépend ici du verbe qu’elle complète."
+       },
+       {
+        "text": "Que conjonction reprend toujours le nom salle placé avant lui.",
+        "truth": "false",
+        "explain": "Il introduit ici une proposition, sans antécédent nominal repris."
+       },
+       {
+        "text": "Que a forcément la même nature dans toutes les phrases.",
+        "truth": "false",
+        "explain": "Compare reprise d’un antécédent et simple subordination."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-13-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la proposition dont dépend la subordonnée dans le modèle ?",
+       "r": "principale",
+       "w": [
+        "complétive",
+        "que conjonction",
+        "que relatif"
+       ],
+       "e": [
+        "Cela désigne une proposition complétant notamment un verbe dans le modèle étudié, plutôt que la notion demandée.",
+        "Cela désigne un mot de subordination ne reprenant pas un nom dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant un antécédent et jouant un rôle dans sa proposition, plutôt que la notion demandée."
+       ],
+       "y": "La dépendance grammaticale, non la seule position, décide."
+      },
+      {
+       "q": "Quel terme désigne une proposition complétant notamment un verbe dans le modèle étudié ?",
+       "r": "complétive",
+       "w": [
+        "principale",
+        "que conjonction",
+        "que relatif"
+       ],
+       "e": [
+        "Cela désigne la proposition dont dépend la subordonnée dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un mot de subordination ne reprenant pas un nom dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant un antécédent et jouant un rôle dans sa proposition, plutôt que la notion demandée."
+       ],
+       "y": "Elle dépend ici du verbe qu’elle complète."
+      },
+      {
+       "q": "Quel terme désigne un mot de subordination ne reprenant pas un nom dans le modèle ?",
+       "r": "que conjonction",
+       "w": [
+        "principale",
+        "complétive",
+        "que relatif"
+       ],
+       "e": [
+        "Cela désigne la proposition dont dépend la subordonnée dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une proposition complétant notamment un verbe dans le modèle étudié, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant un antécédent et jouant un rôle dans sa proposition, plutôt que la notion demandée."
+       ],
+       "y": "Il introduit ici une proposition, sans antécédent nominal repris."
+      },
+      {
+       "q": "Quel terme désigne un pronom reprenant un antécédent et jouant un rôle dans sa proposition ?",
+       "r": "que relatif",
+       "w": [
+        "principale",
+        "complétive",
+        "que conjonction"
+       ],
+       "e": [
+        "Cela désigne la proposition dont dépend la subordonnée dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une proposition complétant notamment un verbe dans le modèle étudié, plutôt que la notion demandée.",
+        "Cela désigne un mot de subordination ne reprenant pas un nom dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Compare reprise d’un antécédent et simple subordination."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-13-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans Bih dit que le club ouvre, Bih dit porte le verbe principal.\nQuelle notion convient ?",
+       "r": "principale",
+       "w": [
+        "complétive",
+        "que conjonction",
+        "que relatif"
+       ],
+       "e": [
+        "Cela concerne une proposition complétant notamment un verbe dans le modèle étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot de subordination ne reprenant pas un nom dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant un antécédent et jouant un rôle dans sa proposition. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La dépendance grammaticale, non la seule position, décide."
+      },
+      {
+       "q": "Que la salle est prête complète elle affirme.\nQuelle notion convient ?",
+       "r": "complétive",
+       "w": [
+        "principale",
+        "que conjonction",
+        "que relatif"
+       ],
+       "e": [
+        "Cela concerne la proposition dont dépend la subordonnée dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot de subordination ne reprenant pas un nom dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant un antécédent et jouant un rôle dans sa proposition. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle dépend ici du verbe qu’elle complète."
+      },
+      {
+       "q": "Je pense que la salle est ouverte introduit le contenu pensé.\nQuelle notion convient ?",
+       "r": "que conjonction",
+       "w": [
+        "principale",
+        "complétive",
+        "que relatif"
+       ],
+       "e": [
+        "Cela concerne la proposition dont dépend la subordonnée dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une proposition complétant notamment un verbe dans le modèle étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant un antécédent et jouant un rôle dans sa proposition. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il introduit ici une proposition, sans antécédent nominal repris."
+      },
+      {
+       "q": "Le livre que Bih lit contient que reprenant livre.\nQuelle notion convient ?",
+       "r": "que relatif",
+       "w": [
+        "principale",
+        "complétive",
+        "que conjonction"
+       ],
+       "e": [
+        "Cela concerne la proposition dont dépend la subordonnée dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une proposition complétant notamment un verbe dans le modèle étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot de subordination ne reprenant pas un nom dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Compare reprise d’un antécédent et simple subordination."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-13-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle suite complète le contenu de Bih affirme dans Bih affirme que la salle est prête ?",
+       "r": "que la salle est prête",
+       "w": [
+        "Bih seule",
+        "la seule salle",
+        "affirme sans aucun complément"
+       ],
+       "e": [
+        "Le sujet seul ne fournit pas le contenu affirmé.",
+        "Cela ne reprend pas la proposition complète.",
+        "Le verbe isolé omet le contenu demandé."
+       ],
+       "y": "La proposition introduite par que exprime ce qui est affirmé."
+      },
+      {
+       "q": "Dans le livre que Bih lit, que reprend quel antécédent ?",
+       "r": "le livre",
+       "w": [
+        "Bih",
+        "aucun nom : c’est nécessairement une conjonction",
+        "la phrase entière sans distinction"
+       ],
+       "e": [
+        "Bih est le sujet de lit.",
+        "Ici que reprend bien un groupe nominal.",
+        "Le référent demandé est le nom repris."
+       ],
+       "y": "Que est ici relatif."
+      },
+      {
+       "q": "Quel énoncé garde une complétive après un verbe de pensée ?",
+       "r": "Je pense que le groupe est prêt.",
+       "w": [
+        "Le groupe, dont je parle.",
+        "Le livre que Bih lit.",
+        "Le groupe et la salle."
+       ],
+       "e": [
+        "Ce fragment ne fournit pas le modèle demandé.",
+        "Il s’agit d’une relative rattachée au livre.",
+        "Une coordination de noms ne constitue pas cette complétive."
+       ],
+       "y": "Le contenu pensé est une proposition dépendante."
+      },
+      {
+       "q": "Pourquoi le mode ne dépend-il pas seulement de que ?",
+       "r": "La construction et le sens, par exemple constat ou nécessité, comptent.",
+       "w": [
+        "Tous les que sont des verbes.",
+        "Toute phrase avec que est sans verbe.",
+        "Chaque que oblige à mettre le même temps."
+       ],
+       "e": [
+        "Que n’est pas le verbe de la proposition.",
+        "Les propositions contiennent des verbes conjugués.",
+        "Les constructions n’imposent pas toutes le même mode ou temps."
+       ],
+       "y": "Il faut analyser l’expression qui commande la subordonnée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-13-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "principale",
+     "right": "Dans Bih dit que le club ouvre, Bih dit porte le verbe principal."
+    },
+    {
+     "left": "complétive",
+     "right": "Que la salle est prête complète elle affirme."
+    },
+    {
+     "left": "que conjonction",
+     "right": "Je pense que la salle est ouverte introduit le contenu pensé."
+    },
+    {
+     "left": "que relatif",
+     "right": "Le livre que Bih lit contient que reprenant livre."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-13-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "principale : la proposition dont dépend la subordonnée dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La dépendance grammaticale, non la seule position, décide. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "complétive : une proposition complétant notamment un verbe dans le modèle étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle dépend ici du verbe qu’elle complète. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "que conjonction : un mot de subordination ne reprenant pas un nom dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il introduit ici une proposition, sans antécédent nominal repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "que relatif : un pronom reprenant un antécédent et jouant un rôle dans sa proposition.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Compare reprise d’un antécédent et simple subordination. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le dernier groupe de mots est toujours la principale.",
+      "truth": "false",
+      "explain": "La dépendance grammaticale, non la seule position, décide."
+     },
+     {
+      "text": "Une complétive doit toujours être une proposition indépendante sans lien.",
+      "truth": "false",
+      "explain": "Elle dépend ici du verbe qu’elle complète."
+     },
+     {
+      "text": "Que conjonction reprend toujours le nom salle placé avant lui.",
+      "truth": "false",
+      "explain": "Il introduit ici une proposition, sans antécédent nominal repris."
+     },
+     {
+      "text": "Que a forcément la même nature dans toutes les phrases.",
+      "truth": "false",
+      "explain": "Compare reprise d’un antécédent et simple subordination."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

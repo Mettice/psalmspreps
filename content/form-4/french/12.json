@@ -1,0 +1,626 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 12,
+ "language": "fr",
+ "prerequisites": [
+  7,
+  10,
+  11
+ ],
+ "skills": [
+  {
+   "id": "fr4-12",
+   "name": "Les liaisons : préparation écrite"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une liaison fait entendre, dans certains contextes, une consonne finale habituellement muette devant une voyelle initiale ou un h muet. Les modèles les amis, un ami et un petit ami illustrent des sons de liaison différents. On ne fait pas la liaison après et ni devant un h aspiré comme dans héros. D’autres liaisons sont facultatives selon le contexte et le registre. L’enchaînement d’une consonne déjà prononcée, comme dans avec elle, n’est pas le même mécanisme. La graphie seule ne règle pas tous les cas.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras repérer des liaisons obligatoires et interdites dans des groupes écrits et les distinguer de l’enchaînement. Acquis mobilisés : les sons, les mots et la lecture en groupes. Pour la suite : les constructions complexes et une pratique orale guidée."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une liaison fait entendre, dans certains contextes, une consonne finale habituellement muette devant une voyelle initiale ou un h muet. Les modèles les amis, un ami et un petit ami illustrent des sons de liaison différents. On ne fait pas la liaison après et ni devant un h aspiré comme dans héros. D’autres liaisons sont facultatives selon le contexte et le registre. L’enchaînement d’une consonne déjà prononcée, comme dans avec elle, n’est pas le même mécanisme. La graphie seule ne règle pas tous les cas."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles écrits : les amis → [z] entre les mots ; un ami → [n] ; un petit ami → [t]. Et elle et les héros n’ajoutent pas de consonne de liaison aux endroits étudiés. Ce sont des indications à vérifier avec un professeur ou un enregistrement fiable. L’écran ne fournit pas de son et ne peut pas évaluer ta propre réalisation."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère la limite des mots et le contexte grammatical. Consulte la prononciation des mots à h aspiré au lieu de deviner. Ne lis pas chaque consonne finale comme si toute frontière imposait une liaison. Prépare un groupe écrit, puis pratique réellement avec un modèle oral."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "liaison obligatoire",
+    "meaning": "une liaison attendue dans les contextes de référence étudiés"
+   },
+   {
+    "word": "liaison interdite",
+    "meaning": "une liaison non réalisée dans les modèles comme et elle"
+   },
+   {
+    "word": "h aspiré",
+    "meaning": "un début de mot bloquant notamment la liaison dans les modèles étudiés"
+   },
+   {
+    "word": "enchaînement",
+    "meaning": "la jonction orale impliquant une consonne déjà prononcée"
+   }
+  ],
+  "mistake": {
+   "wrong": "Les amis demande ici une liaison [t].",
+   "right": "une liaison attendue dans les contextes de référence étudiés.",
+   "why": "La consonne de liaison dépend de la forme et du contexte."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Les amis comporte une liaison [z] entre déterminant et nom. Explique le choix.",
+  "steps": [
+   "une liaison attendue dans les contextes de référence étudiés.",
+   "La consonne de liaison dépend de la forme et du contexte."
+  ],
+  "answer": "liaison obligatoire",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-12-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "liaison obligatoire : une liaison attendue dans les contextes de référence étudiés.",
+     "liaison interdite : une liaison non réalisée dans les modèles comme et elle.",
+     "h aspiré : un début de mot bloquant notamment la liaison dans les modèles étudiés.",
+     "enchaînement : la jonction orale impliquant une consonne déjà prononcée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-12-notions"
+    }
+   },
+   {
+    "id": "fr4-12-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Les amis comporte une liaison [z] entre déterminant et nom.",
+     "On n’ajoute pas de liaison après et dans et elle.",
+     "Les héros ne comporte pas de liaison [z] avant héros.",
+     "Le son final de avec reste prononcé dans avec elle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-12-cas"
+    }
+   },
+   {
+    "id": "fr4-12-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Les amis demande ici une liaison [t]. Correction : La consonne de liaison dépend de la forme et du contexte.",
+     "Et impose toujours une liaison [t] avec le mot suivant. Correction : La conjonction et ne donne pas cette liaison.",
+     "Tous les mots écrits avec h permettent exactement les mêmes liaisons. Correction : Il faut distinguer h aspiré et h muet.",
+     "Toute consonne entendue entre deux mots est forcément ajoutée par liaison. Correction : Une consonne déjà prononcée relève d’un autre mécanisme."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-12-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "liaison obligatoire : une liaison attendue dans les contextes de référence étudiés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La consonne de liaison dépend de la forme et du contexte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "liaison interdite : une liaison non réalisée dans les modèles comme et elle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La conjonction et ne donne pas cette liaison. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "h aspiré : un début de mot bloquant notamment la liaison dans les modèles étudiés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut distinguer h aspiré et h muet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "enchaînement : la jonction orale impliquant une consonne déjà prononcée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une consonne déjà prononcée relève d’un autre mécanisme. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Les amis demande ici une liaison [t].",
+        "truth": "false",
+        "explain": "La consonne de liaison dépend de la forme et du contexte."
+       },
+       {
+        "text": "Et impose toujours une liaison [t] avec le mot suivant.",
+        "truth": "false",
+        "explain": "La conjonction et ne donne pas cette liaison."
+       },
+       {
+        "text": "Tous les mots écrits avec h permettent exactement les mêmes liaisons.",
+        "truth": "false",
+        "explain": "Il faut distinguer h aspiré et h muet."
+       },
+       {
+        "text": "Toute consonne entendue entre deux mots est forcément ajoutée par liaison.",
+        "truth": "false",
+        "explain": "Une consonne déjà prononcée relève d’un autre mécanisme."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-12-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une liaison attendue dans les contextes de référence étudiés ?",
+       "r": "liaison obligatoire",
+       "w": [
+        "liaison interdite",
+        "h aspiré",
+        "enchaînement"
+       ],
+       "e": [
+        "Cela désigne une liaison non réalisée dans les modèles comme et elle, plutôt que la notion demandée.",
+        "Cela désigne un début de mot bloquant notamment la liaison dans les modèles étudiés, plutôt que la notion demandée.",
+        "Cela désigne la jonction orale impliquant une consonne déjà prononcée, plutôt que la notion demandée."
+       ],
+       "y": "La consonne de liaison dépend de la forme et du contexte."
+      },
+      {
+       "q": "Quel terme désigne une liaison non réalisée dans les modèles comme et elle ?",
+       "r": "liaison interdite",
+       "w": [
+        "liaison obligatoire",
+        "h aspiré",
+        "enchaînement"
+       ],
+       "e": [
+        "Cela désigne une liaison attendue dans les contextes de référence étudiés, plutôt que la notion demandée.",
+        "Cela désigne un début de mot bloquant notamment la liaison dans les modèles étudiés, plutôt que la notion demandée.",
+        "Cela désigne la jonction orale impliquant une consonne déjà prononcée, plutôt que la notion demandée."
+       ],
+       "y": "La conjonction et ne donne pas cette liaison."
+      },
+      {
+       "q": "Quel terme désigne un début de mot bloquant notamment la liaison dans les modèles étudiés ?",
+       "r": "h aspiré",
+       "w": [
+        "liaison obligatoire",
+        "liaison interdite",
+        "enchaînement"
+       ],
+       "e": [
+        "Cela désigne une liaison attendue dans les contextes de référence étudiés, plutôt que la notion demandée.",
+        "Cela désigne une liaison non réalisée dans les modèles comme et elle, plutôt que la notion demandée.",
+        "Cela désigne la jonction orale impliquant une consonne déjà prononcée, plutôt que la notion demandée."
+       ],
+       "y": "Il faut distinguer h aspiré et h muet."
+      },
+      {
+       "q": "Quel terme désigne la jonction orale impliquant une consonne déjà prononcée ?",
+       "r": "enchaînement",
+       "w": [
+        "liaison obligatoire",
+        "liaison interdite",
+        "h aspiré"
+       ],
+       "e": [
+        "Cela désigne une liaison attendue dans les contextes de référence étudiés, plutôt que la notion demandée.",
+        "Cela désigne une liaison non réalisée dans les modèles comme et elle, plutôt que la notion demandée.",
+        "Cela désigne un début de mot bloquant notamment la liaison dans les modèles étudiés, plutôt que la notion demandée."
+       ],
+       "y": "Une consonne déjà prononcée relève d’un autre mécanisme."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-12-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Les amis comporte une liaison [z] entre déterminant et nom.\nQuelle notion convient ?",
+       "r": "liaison obligatoire",
+       "w": [
+        "liaison interdite",
+        "h aspiré",
+        "enchaînement"
+       ],
+       "e": [
+        "Cela concerne une liaison non réalisée dans les modèles comme et elle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un début de mot bloquant notamment la liaison dans les modèles étudiés. Compare cette définition avec le cas présenté.",
+        "Cela concerne la jonction orale impliquant une consonne déjà prononcée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La consonne de liaison dépend de la forme et du contexte."
+      },
+      {
+       "q": "On n’ajoute pas de liaison après et dans et elle.\nQuelle notion convient ?",
+       "r": "liaison interdite",
+       "w": [
+        "liaison obligatoire",
+        "h aspiré",
+        "enchaînement"
+       ],
+       "e": [
+        "Cela concerne une liaison attendue dans les contextes de référence étudiés. Compare cette définition avec le cas présenté.",
+        "Cela concerne un début de mot bloquant notamment la liaison dans les modèles étudiés. Compare cette définition avec le cas présenté.",
+        "Cela concerne la jonction orale impliquant une consonne déjà prononcée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La conjonction et ne donne pas cette liaison."
+      },
+      {
+       "q": "Les héros ne comporte pas de liaison [z] avant héros.\nQuelle notion convient ?",
+       "r": "h aspiré",
+       "w": [
+        "liaison obligatoire",
+        "liaison interdite",
+        "enchaînement"
+       ],
+       "e": [
+        "Cela concerne une liaison attendue dans les contextes de référence étudiés. Compare cette définition avec le cas présenté.",
+        "Cela concerne une liaison non réalisée dans les modèles comme et elle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la jonction orale impliquant une consonne déjà prononcée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut distinguer h aspiré et h muet."
+      },
+      {
+       "q": "Le son final de avec reste prononcé dans avec elle.\nQuelle notion convient ?",
+       "r": "enchaînement",
+       "w": [
+        "liaison obligatoire",
+        "liaison interdite",
+        "h aspiré"
+       ],
+       "e": [
+        "Cela concerne une liaison attendue dans les contextes de référence étudiés. Compare cette définition avec le cas présenté.",
+        "Cela concerne une liaison non réalisée dans les modèles comme et elle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un début de mot bloquant notamment la liaison dans les modèles étudiés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une consonne déjà prononcée relève d’un autre mécanisme."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-12-liaison",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Modèle écrit à préparer avec un professeur : « les amis ». Choisis l’indication à l’endroit étudié.",
+       "r": "liaison [z]",
+       "w": [
+        "liaison [n]",
+        "liaison [t]",
+        "aucune liaison à cet endroit"
+       ],
+       "e": [
+        "Le son [n] ne correspond pas à la consonne de liaison de les amis ; ce modèle demande [z].",
+        "Le son [t] ne correspond pas à la consonne de liaison de les amis ; ce modèle demande [z].",
+        "Ce choix supprime une liaison attendue dans ce groupe nominal ; la consonne de liaison est [z]."
+       ],
+       "y": "la liaison entre les et amis dans ce groupe nominal."
+      },
+      {
+       "q": "Modèle écrit à préparer avec un professeur : « un ami ». Choisis l’indication à l’endroit étudié.",
+       "r": "liaison [n]",
+       "w": [
+        "liaison [z]",
+        "liaison [t]",
+        "aucune liaison à cet endroit"
+       ],
+       "e": [
+        "Le son [z] ne correspond pas à la consonne de liaison de un ami ; ce modèle demande [n].",
+        "Le son [t] ne correspond pas à la consonne de liaison de un ami ; ce modèle demande [n].",
+        "Ce choix supprime une liaison attendue dans ce groupe nominal ; la consonne de liaison est [n]."
+       ],
+       "y": "la liaison entre un et ami dans ce groupe nominal."
+      },
+      {
+       "q": "Modèle écrit à préparer avec un professeur : « un petit ami ». Choisis l’indication à l’endroit étudié.",
+       "r": "liaison [t]",
+       "w": [
+        "liaison [z]",
+        "liaison [n]",
+        "aucune liaison à cet endroit"
+       ],
+       "e": [
+        "Le son [z] ne correspond pas à la consonne de liaison de un petit ami ; ce modèle demande [t].",
+        "Le son [n] ne correspond pas à la consonne de liaison de un petit ami ; ce modèle demande [t].",
+        "Ce choix supprime une liaison attendue dans ce groupe nominal ; la consonne de liaison est [t]."
+       ],
+       "y": "la liaison de petit avec ami dans ce groupe nominal."
+      },
+      {
+       "q": "Modèle écrit à préparer avec un professeur : « et elle ». Choisis l’indication à l’endroit étudié.",
+       "r": "aucune liaison à cet endroit",
+       "w": [
+        "liaison [z]",
+        "liaison [n]",
+        "liaison [t]"
+       ],
+       "e": [
+        "Le son [z] ajouterait une liaison interdite après la conjonction et.",
+        "Le son [n] ajouterait une liaison interdite après la conjonction et.",
+        "Le son [t] ajouterait une liaison interdite après la conjonction et."
+       ],
+       "y": "l’absence de liaison après et."
+      },
+      {
+       "q": "Modèle écrit à préparer avec un professeur : « les héros ». Choisis l’indication à l’endroit étudié.",
+       "r": "aucune liaison à cet endroit",
+       "w": [
+        "liaison [z]",
+        "liaison [n]",
+        "liaison [t]"
+       ],
+       "e": [
+        "Le son [z] ajouterait une liaison interdite devant le h aspiré de héros.",
+        "Le son [n] ajouterait une liaison interdite devant le h aspiré de héros.",
+        "Le son [t] ajouterait une liaison interdite devant le h aspiré de héros."
+       ],
+       "y": "l’absence de liaison devant le h aspiré de héros."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-12-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "liaison obligatoire",
+     "right": "Les amis comporte une liaison [z] entre déterminant et nom."
+    },
+    {
+     "left": "liaison interdite",
+     "right": "On n’ajoute pas de liaison après et dans et elle."
+    },
+    {
+     "left": "h aspiré",
+     "right": "Les héros ne comporte pas de liaison [z] avant héros."
+    },
+    {
+     "left": "enchaînement",
+     "right": "Le son final de avec reste prononcé dans avec elle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-12-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "liaison obligatoire : une liaison attendue dans les contextes de référence étudiés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La consonne de liaison dépend de la forme et du contexte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "liaison interdite : une liaison non réalisée dans les modèles comme et elle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La conjonction et ne donne pas cette liaison. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "h aspiré : un début de mot bloquant notamment la liaison dans les modèles étudiés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut distinguer h aspiré et h muet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "enchaînement : la jonction orale impliquant une consonne déjà prononcée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une consonne déjà prononcée relève d’un autre mécanisme. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Les amis demande ici une liaison [t].",
+      "truth": "false",
+      "explain": "La consonne de liaison dépend de la forme et du contexte."
+     },
+     {
+      "text": "Et impose toujours une liaison [t] avec le mot suivant.",
+      "truth": "false",
+      "explain": "La conjonction et ne donne pas cette liaison."
+     },
+     {
+      "text": "Tous les mots écrits avec h permettent exactement les mêmes liaisons.",
+      "truth": "false",
+      "explain": "Il faut distinguer h aspiré et h muet."
+     },
+     {
+      "text": "Toute consonne entendue entre deux mots est forcément ajoutée par liaison.",
+      "truth": "false",
+      "explain": "Une consonne déjà prononcée relève d’un autre mécanisme."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

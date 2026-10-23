@@ -42,7 +42,7 @@ and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the
 
 ## Form 4 continuation and next classes
 
-- **Codex: Form 4 Term 1 Logic, Economics, English, History and Geography**, authorised by Dion on 2026-10-23 after the available Form 3 rows and the requests to continue to the next subject.
+- **Codex: Form 4 Term 1 Logic, Economics, English, History, Geography and French**, authorised by Dion on 2026-10-23 after the available Form 3 rows and the requests to continue to the next subject.
   Continue in `C:\Users\efuet\preps-codex` on `f3-codex`; generators belong in `tools/authoring/form4/`.
   Keep the established lesson sequence and add a visible measurable end goal, earlier knowledge and next-topic
   connection to each opening Learn screen. See `content/form-4/logic/LEARNING-PATH.md`.

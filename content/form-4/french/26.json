@@ -1,0 +1,626 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 26,
+ "language": "fr",
+ "prerequisites": [
+  7,
+  22,
+  24
+ ],
+ "skills": [
+  {
+   "id": "fr4-26",
+   "name": "Les homophones : soit, soient, soie, soi, sois"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Soit, soient et sois peuvent être des formes de être ; la personne et la construction commandent l’écriture. Après il faut qu’il, on trouve soit ; après il faut qu’ils, soient. Sois peut être une forme de tu au subjonctif ou un impératif. Soie est un nom de matière ; soi est un pronom tonique, notamment dans un emploi général avec on. Certains mots, comme soit, ont d’autres fonctions : on se limite ici aux contextes explicitement présentés. Le son seul ne décide pas de la graphie.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir entre les graphies en reliant forme verbale nom ou pronom au contexte. Acquis mobilisés : les homophones, le subjonctif et la syntaxe des sujets. Pour la suite : la traduction et la relecture des productions."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Soit, soient et sois peuvent être des formes de être ; la personne et la construction commandent l’écriture. Après il faut qu’il, on trouve soit ; après il faut qu’ils, soient. Sois peut être une forme de tu au subjonctif ou un impératif. Soie est un nom de matière ; soi est un pronom tonique, notamment dans un emploi général avec on. Certains mots, comme soit, ont d’autres fonctions : on se limite ici aux contextes explicitement présentés. Le son seul ne décide pas de la graphie."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Il faut {fr2Que(2,fr2Subjonctif(\"être\",2))} prêt et {fr2Que(6,fr2Subjonctif(\"être\",6))} prêts. Le tissu est en soie. On garde confiance en soi. {fr2Imperatif(\"être\",0)} prudent ! La valeur de conseil diffère de la matière et du pronom, même si les graphies se ressemblent à l’oral."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le sujet du verbe éventuel et l’expression qui le commande. Cherche ensuite si la place exige un nom de matière ou un pronom. Vérifie les marques écrites que l’oral ne distingue pas forcément. Réemploie un modèle dans une phrase originale."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "forme verbale singulière",
+    "meaning": "une forme de être correspondant au sujet singulier et à la construction"
+   },
+   {
+    "word": "forme verbale plurielle",
+    "meaning": "la forme soient dans le modèle avec ils"
+   },
+   {
+    "word": "nom de matière",
+    "meaning": "la catégorie de soie dans le groupe en soie"
+   },
+   {
+    "word": "pronom tonique",
+    "meaning": "la catégorie de soi dans un emploi général comme confiance en soi"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le sujet il impose ici soient.",
+   "right": "une forme de être correspondant au sujet singulier et à la construction.",
+   "why": "Au subjonctif présent, il et ils n’ont pas la même graphie."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Il faut {fr2Que(2,fr2Subjonctif(\"être\",2))} prêt. Explique le choix.",
+  "steps": [
+   "une forme de être correspondant au sujet singulier et à la construction.",
+   "Au subjonctif présent, il et ils n’ont pas la même graphie."
+  ],
+  "answer": "forme verbale singulière",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-26-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "forme verbale singulière : une forme de être correspondant au sujet singulier et à la construction.",
+     "forme verbale plurielle : la forme soient dans le modèle avec ils.",
+     "nom de matière : la catégorie de soie dans le groupe en soie.",
+     "pronom tonique : la catégorie de soi dans un emploi général comme confiance en soi."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-26-notions"
+    }
+   },
+   {
+    "id": "fr4-26-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Il faut {fr2Que(2,fr2Subjonctif(\"être\",2))} prêt.",
+     "Il faut {fr2Que(6,fr2Subjonctif(\"être\",6))} prêts.",
+     "Un tissu en soie contient un nom.",
+     "On garde confiance en soi."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-26-cas"
+    }
+   },
+   {
+    "id": "fr4-26-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le sujet il impose ici soient. Correction : Au subjonctif présent, il et ils n’ont pas la même graphie.",
+     "Le sujet ils impose ici la graphie soie. Correction : Soie est un nom de matière, pas la forme verbale demandée.",
+     "Soie est toujours un pronom reprenant on. Correction : Le contexte du tissu demande la matière.",
+     "Soi est le nom d’un tissu dans cette phrase. Correction : Le pronom renvoie au sujet dans cette construction générale."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-26-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "forme verbale singulière : une forme de être correspondant au sujet singulier et à la construction.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Au subjonctif présent, il et ils n’ont pas la même graphie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "forme verbale plurielle : la forme soient dans le modèle avec ils.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Soie est un nom de matière, pas la forme verbale demandée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "nom de matière : la catégorie de soie dans le groupe en soie.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le contexte du tissu demande la matière. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "pronom tonique : la catégorie de soi dans un emploi général comme confiance en soi.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le pronom renvoie au sujet dans cette construction générale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le sujet il impose ici soient.",
+        "truth": "false",
+        "explain": "Au subjonctif présent, il et ils n’ont pas la même graphie."
+       },
+       {
+        "text": "Le sujet ils impose ici la graphie soie.",
+        "truth": "false",
+        "explain": "Soie est un nom de matière, pas la forme verbale demandée."
+       },
+       {
+        "text": "Soie est toujours un pronom reprenant on.",
+        "truth": "false",
+        "explain": "Le contexte du tissu demande la matière."
+       },
+       {
+        "text": "Soi est le nom d’un tissu dans cette phrase.",
+        "truth": "false",
+        "explain": "Le pronom renvoie au sujet dans cette construction générale."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-26-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une forme de être correspondant au sujet singulier et à la construction ?",
+       "r": "forme verbale singulière",
+       "w": [
+        "forme verbale plurielle",
+        "nom de matière",
+        "pronom tonique"
+       ],
+       "e": [
+        "Cela désigne la forme soient dans le modèle avec ils, plutôt que la notion demandée.",
+        "Cela désigne la catégorie de soie dans le groupe en soie, plutôt que la notion demandée.",
+        "Cela désigne la catégorie de soi dans un emploi général comme confiance en soi, plutôt que la notion demandée."
+       ],
+       "y": "Au subjonctif présent, il et ils n’ont pas la même graphie."
+      },
+      {
+       "q": "Quel terme désigne la forme soient dans le modèle avec ils ?",
+       "r": "forme verbale plurielle",
+       "w": [
+        "forme verbale singulière",
+        "nom de matière",
+        "pronom tonique"
+       ],
+       "e": [
+        "Cela désigne une forme de être correspondant au sujet singulier et à la construction, plutôt que la notion demandée.",
+        "Cela désigne la catégorie de soie dans le groupe en soie, plutôt que la notion demandée.",
+        "Cela désigne la catégorie de soi dans un emploi général comme confiance en soi, plutôt que la notion demandée."
+       ],
+       "y": "Soie est un nom de matière, pas la forme verbale demandée."
+      },
+      {
+       "q": "Quel terme désigne la catégorie de soie dans le groupe en soie ?",
+       "r": "nom de matière",
+       "w": [
+        "forme verbale singulière",
+        "forme verbale plurielle",
+        "pronom tonique"
+       ],
+       "e": [
+        "Cela désigne une forme de être correspondant au sujet singulier et à la construction, plutôt que la notion demandée.",
+        "Cela désigne la forme soient dans le modèle avec ils, plutôt que la notion demandée.",
+        "Cela désigne la catégorie de soi dans un emploi général comme confiance en soi, plutôt que la notion demandée."
+       ],
+       "y": "Le contexte du tissu demande la matière."
+      },
+      {
+       "q": "Quel terme désigne la catégorie de soi dans un emploi général comme confiance en soi ?",
+       "r": "pronom tonique",
+       "w": [
+        "forme verbale singulière",
+        "forme verbale plurielle",
+        "nom de matière"
+       ],
+       "e": [
+        "Cela désigne une forme de être correspondant au sujet singulier et à la construction, plutôt que la notion demandée.",
+        "Cela désigne la forme soient dans le modèle avec ils, plutôt que la notion demandée.",
+        "Cela désigne la catégorie de soie dans le groupe en soie, plutôt que la notion demandée."
+       ],
+       "y": "Le pronom renvoie au sujet dans cette construction générale."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-26-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Il faut {fr2Que(2,fr2Subjonctif(\"être\",2))} prêt.\nQuelle notion convient ?",
+       "r": "forme verbale singulière",
+       "w": [
+        "forme verbale plurielle",
+        "nom de matière",
+        "pronom tonique"
+       ],
+       "e": [
+        "Cela concerne la forme soient dans le modèle avec ils. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie de soie dans le groupe en soie. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie de soi dans un emploi général comme confiance en soi. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Au subjonctif présent, il et ils n’ont pas la même graphie."
+      },
+      {
+       "q": "Il faut {fr2Que(6,fr2Subjonctif(\"être\",6))} prêts.\nQuelle notion convient ?",
+       "r": "forme verbale plurielle",
+       "w": [
+        "forme verbale singulière",
+        "nom de matière",
+        "pronom tonique"
+       ],
+       "e": [
+        "Cela concerne une forme de être correspondant au sujet singulier et à la construction. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie de soie dans le groupe en soie. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie de soi dans un emploi général comme confiance en soi. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Soie est un nom de matière, pas la forme verbale demandée."
+      },
+      {
+       "q": "Un tissu en soie contient un nom.\nQuelle notion convient ?",
+       "r": "nom de matière",
+       "w": [
+        "forme verbale singulière",
+        "forme verbale plurielle",
+        "pronom tonique"
+       ],
+       "e": [
+        "Cela concerne une forme de être correspondant au sujet singulier et à la construction. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme soient dans le modèle avec ils. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie de soi dans un emploi général comme confiance en soi. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le contexte du tissu demande la matière."
+      },
+      {
+       "q": "On garde confiance en soi.\nQuelle notion convient ?",
+       "r": "pronom tonique",
+       "w": [
+        "forme verbale singulière",
+        "forme verbale plurielle",
+        "nom de matière"
+       ],
+       "e": [
+        "Cela concerne une forme de être correspondant au sujet singulier et à la construction. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme soient dans le modèle avec ils. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie de soie dans le groupe en soie. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le pronom renvoie au sujet dans cette construction générale."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-26-graphie",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Il faut qu’il ___ prêt.",
+       "r": "{fr2Subjonctif(\"être\",2)}",
+       "w": [
+        "{fr2Subjonctif(\"être\",6)}",
+        "soie",
+        "soi"
+       ],
+       "e": [
+        "Cette graphie correspond ici à la forme de être au subjonctif avec ils, pas à la construction demandée.",
+        "Cette graphie correspond ici à un nom de matière, pas à la construction demandée.",
+        "Cette graphie correspond ici à un pronom tonique, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande la forme de être au subjonctif avec il."
+      },
+      {
+       "q": "Il faut qu’ils ___ prêts.",
+       "r": "{fr2Subjonctif(\"être\",6)}",
+       "w": [
+        "{fr2Subjonctif(\"être\",2)}",
+        "soie",
+        "soi"
+       ],
+       "e": [
+        "Cette graphie correspond ici à la forme de être au subjonctif avec il, pas à la construction demandée.",
+        "Cette graphie correspond ici à un nom de matière, pas à la construction demandée.",
+        "Cette graphie correspond ici à un pronom tonique, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande la forme de être au subjonctif avec ils."
+      },
+      {
+       "q": "Ce tissu est en ___.",
+       "r": "soie",
+       "w": [
+        "{fr2Subjonctif(\"être\",2)}",
+        "{fr2Subjonctif(\"être\",6)}",
+        "soi"
+       ],
+       "e": [
+        "Cette graphie correspond ici à la forme de être au subjonctif avec il, pas à la construction demandée.",
+        "Cette graphie correspond ici à la forme de être au subjonctif avec ils, pas à la construction demandée.",
+        "Cette graphie correspond ici à un pronom tonique, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande un nom de matière."
+      },
+      {
+       "q": "On garde confiance en ___.",
+       "r": "soi",
+       "w": [
+        "{fr2Subjonctif(\"être\",2)}",
+        "{fr2Subjonctif(\"être\",6)}",
+        "soie"
+       ],
+       "e": [
+        "Cette graphie correspond ici à la forme de être au subjonctif avec il, pas à la construction demandée.",
+        "Cette graphie correspond ici à la forme de être au subjonctif avec ils, pas à la construction demandée.",
+        "Cette graphie correspond ici à un nom de matière, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande un pronom tonique."
+      },
+      {
+       "q": "___ prudent ! On donne un conseil à tu.",
+       "r": "{fr2Imperatif(\"être\",0)}",
+       "w": [
+        "{fr2Subjonctif(\"être\",2)}",
+        "{fr2Subjonctif(\"être\",6)}",
+        "soie"
+       ],
+       "e": [
+        "Cette graphie correspond ici à la forme de être au subjonctif avec il, pas à la construction demandée.",
+        "Cette graphie correspond ici à la forme de être au subjonctif avec ils, pas à la construction demandée.",
+        "Cette graphie correspond ici à un nom de matière, pas à la construction demandée."
+       ],
+       "y": "Le contexte demande l’impératif de être à la personne de tu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-26-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "forme verbale singulière",
+     "right": "Il faut {fr2Que(2,fr2Subjonctif(\"être\",2))} prêt."
+    },
+    {
+     "left": "forme verbale plurielle",
+     "right": "Il faut {fr2Que(6,fr2Subjonctif(\"être\",6))} prêts."
+    },
+    {
+     "left": "nom de matière",
+     "right": "Un tissu en soie contient un nom."
+    },
+    {
+     "left": "pronom tonique",
+     "right": "On garde confiance en soi."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-26-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "forme verbale singulière : une forme de être correspondant au sujet singulier et à la construction.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Au subjonctif présent, il et ils n’ont pas la même graphie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "forme verbale plurielle : la forme soient dans le modèle avec ils.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Soie est un nom de matière, pas la forme verbale demandée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "nom de matière : la catégorie de soie dans le groupe en soie.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le contexte du tissu demande la matière. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "pronom tonique : la catégorie de soi dans un emploi général comme confiance en soi.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le pronom renvoie au sujet dans cette construction générale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le sujet il impose ici soient.",
+      "truth": "false",
+      "explain": "Au subjonctif présent, il et ils n’ont pas la même graphie."
+     },
+     {
+      "text": "Le sujet ils impose ici la graphie soie.",
+      "truth": "false",
+      "explain": "Soie est un nom de matière, pas la forme verbale demandée."
+     },
+     {
+      "text": "Soie est toujours un pronom reprenant on.",
+      "truth": "false",
+      "explain": "Le contexte du tissu demande la matière."
+     },
+     {
+      "text": "Soi est le nom d’un tissu dans cette phrase.",
+      "truth": "false",
+      "explain": "Le pronom renvoie au sujet dans cette construction générale."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

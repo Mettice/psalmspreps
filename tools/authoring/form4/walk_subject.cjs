@@ -39,7 +39,8 @@ const root = path.resolve(__dirname, '../../..');
     for (const n of await page.evaluate((id) => LESSONS[id], subject)) {
       await page.evaluate(({ id, n }) => openLesson(id, n), { id: subject, n });
       const text = await page.locator('body').innerText();
-      for (const label of ['Your goal and connections', 'By the end', 'Builds on:', 'Leads to:']) {
+      const labels = subject === 'f4-french' ? ['Ton objectif et les liens', 'À la fin', 'Acquis mobilisés :', 'Pour la suite :'] : ['Your goal and connections', 'By the end', 'Builds on:', 'Leads to:'];
+      for (const label of labels) {
         if (!text.includes(label)) throw Error(`${subject}:${n}: missing visible ${label}`);
       }
     }
@@ -47,6 +48,15 @@ const root = path.resolve(__dirname, '../../..');
     const shot = path.join(os.tmpdir(), `${subject}-goal.png`);
     await page.screenshot({ path: shot, fullPage: true });
     console.log('Goal screenshot: ' + shot);
+    if (subject === 'f4-french') {
+      await page.evaluate((id) => openLesson(id, 4), subject);
+      await page.getByRole('button', { name: 'Suivant', exact: true }).click();
+      await page.getByRole('button', { name: 'Suivant', exact: true }).click();
+      if (await page.getByRole('img', { name: /Scène scolaire inventée/ }).count() !== 1) throw Error('Missing French classroom scene');
+      const sceneShot = path.join(os.tmpdir(), `${subject}-scene.png`);
+      await page.screenshot({ path: sceneShot, fullPage: true });
+      console.log('Scene screenshot: ' + sceneShot);
+    }
     if (subject === 'f4-geography') {
       for (const [n, name, suffix] of [[3, /Illustrative soil profile/, 'profile'], [5, /Classroom erosion priority map/, 'erosion'], [11, /Invented monthly rainfall chart/, 'rainfall']]) {
         await page.evaluate(({id,n}) => openLesson(id,n), {id:subject,n});

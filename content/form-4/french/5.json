@@ -1,0 +1,609 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 5,
+ "language": "fr",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "fr4-5",
+   "name": "L’emploi conjoint des pronoms COD et COI"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Avant un verbe conjugué, me, te, se, nous et vous précèdent généralement le, la, les ; le, la, les précèdent lui et leur dans les combinaisons étudiées. Y et en occupent des places particulières. Toutes les combinaisons ne sont pas possibles. À l’impératif affirmatif, le verbe précède les pronoms avec des traits d’union : envoie-le-moi. Au négatif, les pronoms reviennent avant le verbe : ne me l’envoie pas. Me et te peuvent devenir moi et toi ou s’élider selon leur place et le contexte.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras ordonner les pronoms dans les modèles déclaratifs et impératifs sans modifier leurs référents. Acquis mobilisés : lui, leur, y et en et l’identification des compléments. Pour la suite : l’impératif et la précision des reprises dans un récit."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Avant un verbe conjugué, me, te, se, nous et vous précèdent généralement le, la, les ; le, la, les précèdent lui et leur dans les combinaisons étudiées. Y et en occupent des places particulières. Toutes les combinaisons ne sont pas possibles. À l’impératif affirmatif, le verbe précède les pronoms avec des traits d’union : envoie-le-moi. Au négatif, les pronoms reviennent avant le verbe : ne me l’envoie pas. Me et te peuvent devenir moi et toi ou s’élider selon leur place et le contexte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Je le lui {fr2Present(\"envoyer\",0)} reprend le message et à Bih. Elle me l’{fr2Present(\"envoyer\",3)} reprend un objet déjà identifié. À l’affirmatif : {fr2Imperatif(\"envoyer\",0)}-le-moi. Au négatif : ne me l’{fr2Imperatif(\"envoyer\",0)} pas. Il faut analyser les deux compléments avant de déplacer les mots."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie ce qui est envoyé et à qui. Choisis les pronoms, vérifie la construction affirmative ou négative, puis l’ordre, l’élision et les traits d’union. Une suite mémorisée ne remplace pas l’analyse du sens. Réemploie le modèle dans un court dialogue original."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "COD repris",
+    "meaning": "l’objet directement rattaché au verbe dans les modèles"
+   },
+   {
+    "word": "COI repris",
+    "meaning": "le destinataire introduit par à dans les modèles"
+   },
+   {
+    "word": "ordre avant le verbe",
+    "meaning": "la succession des pronoms dans une construction déclarative étudiée"
+   },
+   {
+    "word": "impératif affirmatif",
+    "meaning": "la construction plaçant les pronoms après le verbe avec des traits d’union"
+   }
+  ],
+  "mistake": {
+   "wrong": "Lui remplace nécessairement le message envoyé.",
+   "right": "l’objet directement rattaché au verbe dans les modèles.",
+   "why": "Le reprend ici l’objet ; lui reprend le destinataire."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le message devient le dans je le lui envoie. Explique le choix.",
+  "steps": [
+   "l’objet directement rattaché au verbe dans les modèles.",
+   "Le reprend ici l’objet ; lui reprend le destinataire."
+  ],
+  "answer": "COD repris",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-5-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "COD repris : l’objet directement rattaché au verbe dans les modèles.",
+     "COI repris : le destinataire introduit par à dans les modèles.",
+     "ordre avant le verbe : la succession des pronoms dans une construction déclarative étudiée.",
+     "impératif affirmatif : la construction plaçant les pronoms après le verbe avec des traits d’union."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-5-notions"
+    }
+   },
+   {
+    "id": "fr4-5-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le message devient le dans je le lui envoie.",
+     "À Bih devient lui dans je le lui envoie.",
+     "Elle me l’envoie place me avant le pronom objet élidé.",
+     "Envoie-le-moi se distingue de ne me l’envoie pas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-5-cas"
+    }
+   },
+   {
+    "id": "fr4-5-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Lui remplace nécessairement le message envoyé. Correction : Le reprend ici l’objet ; lui reprend le destinataire.",
+     "Le COD et le destinataire sont toujours la même information. Correction : Ils remplissent des rôles distincts dans le modèle.",
+     "Elle le me envoie est le modèle écrit attendu. Correction : Me précède le pronom COD dans cette combinaison.",
+     "Une phrase négative conserve forcément envoie-le-moi pas. Correction : La négation change la position et certaines formes des pronoms."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-5-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "COD repris : l’objet directement rattaché au verbe dans les modèles.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le reprend ici l’objet ; lui reprend le destinataire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "COI repris : le destinataire introduit par à dans les modèles.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ils remplissent des rôles distincts dans le modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "ordre avant le verbe : la succession des pronoms dans une construction déclarative étudiée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Me précède le pronom COD dans cette combinaison. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "impératif affirmatif : la construction plaçant les pronoms après le verbe avec des traits d’union.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La négation change la position et certaines formes des pronoms. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Lui remplace nécessairement le message envoyé.",
+        "truth": "false",
+        "explain": "Le reprend ici l’objet ; lui reprend le destinataire."
+       },
+       {
+        "text": "Le COD et le destinataire sont toujours la même information.",
+        "truth": "false",
+        "explain": "Ils remplissent des rôles distincts dans le modèle."
+       },
+       {
+        "text": "Elle le me envoie est le modèle écrit attendu.",
+        "truth": "false",
+        "explain": "Me précède le pronom COD dans cette combinaison."
+       },
+       {
+        "text": "Une phrase négative conserve forcément envoie-le-moi pas.",
+        "truth": "false",
+        "explain": "La négation change la position et certaines formes des pronoms."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-5-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne l’objet directement rattaché au verbe dans les modèles ?",
+       "r": "COD repris",
+       "w": [
+        "COI repris",
+        "ordre avant le verbe",
+        "impératif affirmatif"
+       ],
+       "e": [
+        "Cela désigne le destinataire introduit par à dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne la succession des pronoms dans une construction déclarative étudiée, plutôt que la notion demandée.",
+        "Cela désigne la construction plaçant les pronoms après le verbe avec des traits d’union, plutôt que la notion demandée."
+       ],
+       "y": "Le reprend ici l’objet ; lui reprend le destinataire."
+      },
+      {
+       "q": "Quel terme désigne le destinataire introduit par à dans les modèles ?",
+       "r": "COI repris",
+       "w": [
+        "COD repris",
+        "ordre avant le verbe",
+        "impératif affirmatif"
+       ],
+       "e": [
+        "Cela désigne l’objet directement rattaché au verbe dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne la succession des pronoms dans une construction déclarative étudiée, plutôt que la notion demandée.",
+        "Cela désigne la construction plaçant les pronoms après le verbe avec des traits d’union, plutôt que la notion demandée."
+       ],
+       "y": "Ils remplissent des rôles distincts dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne la succession des pronoms dans une construction déclarative étudiée ?",
+       "r": "ordre avant le verbe",
+       "w": [
+        "COD repris",
+        "COI repris",
+        "impératif affirmatif"
+       ],
+       "e": [
+        "Cela désigne l’objet directement rattaché au verbe dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne le destinataire introduit par à dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne la construction plaçant les pronoms après le verbe avec des traits d’union, plutôt que la notion demandée."
+       ],
+       "y": "Me précède le pronom COD dans cette combinaison."
+      },
+      {
+       "q": "Quel terme désigne la construction plaçant les pronoms après le verbe avec des traits d’union ?",
+       "r": "impératif affirmatif",
+       "w": [
+        "COD repris",
+        "COI repris",
+        "ordre avant le verbe"
+       ],
+       "e": [
+        "Cela désigne l’objet directement rattaché au verbe dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne le destinataire introduit par à dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne la succession des pronoms dans une construction déclarative étudiée, plutôt que la notion demandée."
+       ],
+       "y": "La négation change la position et certaines formes des pronoms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-5-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le message devient le dans je le lui envoie.\nQuelle notion convient ?",
+       "r": "COD repris",
+       "w": [
+        "COI repris",
+        "ordre avant le verbe",
+        "impératif affirmatif"
+       ],
+       "e": [
+        "Cela concerne le destinataire introduit par à dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne la succession des pronoms dans une construction déclarative étudiée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la construction plaçant les pronoms après le verbe avec des traits d’union. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le reprend ici l’objet ; lui reprend le destinataire."
+      },
+      {
+       "q": "À Bih devient lui dans je le lui envoie.\nQuelle notion convient ?",
+       "r": "COI repris",
+       "w": [
+        "COD repris",
+        "ordre avant le verbe",
+        "impératif affirmatif"
+       ],
+       "e": [
+        "Cela concerne l’objet directement rattaché au verbe dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne la succession des pronoms dans une construction déclarative étudiée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la construction plaçant les pronoms après le verbe avec des traits d’union. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ils remplissent des rôles distincts dans le modèle."
+      },
+      {
+       "q": "Elle me l’envoie place me avant le pronom objet élidé.\nQuelle notion convient ?",
+       "r": "ordre avant le verbe",
+       "w": [
+        "COD repris",
+        "COI repris",
+        "impératif affirmatif"
+       ],
+       "e": [
+        "Cela concerne l’objet directement rattaché au verbe dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne le destinataire introduit par à dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne la construction plaçant les pronoms après le verbe avec des traits d’union. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Me précède le pronom COD dans cette combinaison."
+      },
+      {
+       "q": "Envoie-le-moi se distingue de ne me l’envoie pas.\nQuelle notion convient ?",
+       "r": "impératif affirmatif",
+       "w": [
+        "COD repris",
+        "COI repris",
+        "ordre avant le verbe"
+       ],
+       "e": [
+        "Cela concerne l’objet directement rattaché au verbe dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne le destinataire introduit par à dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne la succession des pronoms dans une construction déclarative étudiée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La négation change la position et certaines formes des pronoms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-5-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Remplace le message et à Bih dans Je transmets le message à Bih, avec envoyer au présent.",
+       "r": "Je le lui {fr2Present(\"envoyer\",0)}.",
+       "w": [
+        "Je lui le {fr2Present(\"envoyer\",0)}.",
+        "Je le leur {fr2Present(\"envoyer\",0)}.",
+        "Je lui {fr2Present(\"envoyer\",0)}."
+       ],
+       "e": [
+        "Le pronom COD précède lui dans ce modèle.",
+        "Le destinataire annoncé est singulier.",
+        "Le message demandé n’est pas repris."
+       ],
+       "y": "Les deux reprises restent explicites."
+      },
+      {
+       "q": "Remplace la lettre et aux voisines dans Elle envoie la lettre aux voisines.",
+       "r": "Elle la leur {fr2Present(\"envoyer\",3)}.",
+       "w": [
+        "Elle leur la {fr2Present(\"envoyer\",3)}.",
+        "Elle le leur {fr2Present(\"envoyer\",3)}.",
+        "Elle la lui {fr2Present(\"envoyer\",3)}."
+       ],
+       "e": [
+        "La précède leur.",
+        "Lettre exige la dans cette reprise.",
+        "Les destinataires sont pluriels."
+       ],
+       "y": "Conserve genre de l’objet et nombre des destinataires."
+      },
+      {
+       "q": "Donne un ordre affirmatif à tu : envoyer le message à moi.",
+       "r": "{fr2Imperatif(\"envoyer\",0)}-le-moi.",
+       "w": [
+        "{fr2Imperatif(\"envoyer\",0)}-moi-le.",
+        "Me le {fr2Imperatif(\"envoyer\",0)}.",
+        "{fr2Imperatif(\"envoyer\",0)} le moi."
+       ],
+       "e": [
+        "Le COD précède moi dans ce modèle.",
+        "À l’affirmatif les compléments suivent le verbe.",
+        "Les traits d’union sont nécessaires."
+       ],
+       "y": "Le modèle écrit est verbe-COD-moi."
+      },
+      {
+       "q": "Donne l’ordre négatif correspondant à envoie-le-moi.",
+       "r": "Ne me l’{fr2Imperatif(\"envoyer\",0)} pas.",
+       "w": [
+        "Ne {fr2Imperatif(\"envoyer\",0)}-le-moi pas.",
+        "Ne moi le {fr2Imperatif(\"envoyer\",0)} pas.",
+        "Ne le me {fr2Imperatif(\"envoyer\",0)} pas."
+       ],
+       "e": [
+        "Au négatif les pronoms précèdent le verbe.",
+        "On emploie me avant le verbe.",
+        "Me précède le COD, qui s’élide devant envoie."
+       ],
+       "y": "La négation exige ici ne me l’envoie pas."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-5-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "COD repris",
+     "right": "Le message devient le dans je le lui envoie."
+    },
+    {
+     "left": "COI repris",
+     "right": "À Bih devient lui dans je le lui envoie."
+    },
+    {
+     "left": "ordre avant le verbe",
+     "right": "Elle me l’envoie place me avant le pronom objet élidé."
+    },
+    {
+     "left": "impératif affirmatif",
+     "right": "Envoie-le-moi se distingue de ne me l’envoie pas."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-5-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "COD repris : l’objet directement rattaché au verbe dans les modèles.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le reprend ici l’objet ; lui reprend le destinataire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "COI repris : le destinataire introduit par à dans les modèles.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ils remplissent des rôles distincts dans le modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "ordre avant le verbe : la succession des pronoms dans une construction déclarative étudiée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Me précède le pronom COD dans cette combinaison. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "impératif affirmatif : la construction plaçant les pronoms après le verbe avec des traits d’union.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La négation change la position et certaines formes des pronoms. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Lui remplace nécessairement le message envoyé.",
+      "truth": "false",
+      "explain": "Le reprend ici l’objet ; lui reprend le destinataire."
+     },
+     {
+      "text": "Le COD et le destinataire sont toujours la même information.",
+      "truth": "false",
+      "explain": "Ils remplissent des rôles distincts dans le modèle."
+     },
+     {
+      "text": "Elle le me envoie est le modèle écrit attendu.",
+      "truth": "false",
+      "explain": "Me précède le pronom COD dans cette combinaison."
+     },
+     {
+      "text": "Une phrase négative conserve forcément envoie-le-moi pas.",
+      "truth": "false",
+      "explain": "La négation change la position et certaines formes des pronoms."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

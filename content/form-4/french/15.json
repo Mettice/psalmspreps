@@ -1,0 +1,562 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 15,
+ "language": "fr",
+ "prerequisites": [
+  6,
+  9,
+  10
+ ],
+ "skills": [
+  {
+   "id": "fr4-15",
+   "name": "L’imparfait dans la narration"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’imparfait de l’indicatif présente notamment un état, une habitude ou une action envisagée dans son déroulement passé. Il ne signifie pas automatiquement qu’une action a réellement duré longtemps. Sa formation part généralement de la forme de nous au présent, sans -ons, puis ajoute -ais, -ais, -ait, -ions, -iez, -aient. Être a le radical ét-. Des ajustements orthographiques préservent certains sons. Le choix entre temps dépend du point de vue narratif et du contexte, pas seulement d’un mot isolé.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former l’imparfait et justifier son emploi dans un décor ou une habitude passée. Acquis mobilisés : passé simple, passé composé et identification du sujet. Pour la suite : la narration cohérente et les constructions de la suite du programme."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "L’imparfait de l’indicatif présente notamment un état, une habitude ou une action envisagée dans son déroulement passé. Il ne signifie pas automatiquement qu’une action a réellement duré longtemps. Sa formation part généralement de la forme de nous au présent, sans -ons, puis ajoute -ais, -ais, -ait, -ions, -iez, -aient. Être a le radical ét-. Des ajustements orthographiques préservent certains sons. Le choix entre temps dépend du point de vue narratif et du contexte, pas seulement d’un mot isolé."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Chaque soir, Bih {fr2Imparfait(\"aider\",3)} son frère. La cour était calme. Un jour, elle {fr2PasseSimple(\"finir\",3)} plus tôt. Le premier verbe présente une habitude ; le dernier présente l’événement achevé choisi par le récit. Compare {fr2With(4,fr2Imparfait(\"manger\",4))} et {fr2With(0,fr2Imparfait(\"manger\",0))} pour observer l’orthographe."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie la personne et le rôle du passage. Forme le radical puis la terminaison, sans oublier les changements nécessaires. Réemploie une forme dans une phrase originale et explique ce qu’elle présente comme arrière-plan ou habitude."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "habitude passée",
+    "meaning": "une action répétée dans un cadre passé"
+   },
+   {
+    "word": "état descriptif",
+    "meaning": "une situation servant de cadre au récit"
+   },
+   {
+    "word": "formation personnelle",
+    "meaning": "l’association d’un radical et de la terminaison exigée par le sujet"
+   },
+   {
+    "word": "point de vue narratif",
+    "meaning": "la manière de présenter un procès comme déroulement ou événement achevé"
+   }
+  ],
+  "mistake": {
+   "wrong": "L’imparfait ne peut jamais exprimer une répétition passée.",
+   "right": "une action répétée dans un cadre passé.",
+   "why": "Le contexte chaque soir présente ici une habitude."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Chaque soir, elle {fr2Imparfait(\"aider\",3)} son frère. Explique le choix.",
+  "steps": [
+   "une action répétée dans un cadre passé.",
+   "Le contexte chaque soir présente ici une habitude."
+  ],
+  "answer": "habitude passée",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-15-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "habitude passée : une action répétée dans un cadre passé.",
+     "état descriptif : une situation servant de cadre au récit.",
+     "formation personnelle : l’association d’un radical et de la terminaison exigée par le sujet.",
+     "point de vue narratif : la manière de présenter un procès comme déroulement ou événement achevé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-15-notions"
+    }
+   },
+   {
+    "id": "fr4-15-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Chaque soir, elle {fr2Imparfait(\"aider\",3)} son frère.",
+     "La cour était calme installe la scène.",
+     "{fr2With(5,fr2Imparfait(\"finir\",5))} porte la terminaison de vous.",
+     "Le même récit combine décor à l’imparfait et événement au passé simple."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-15-cas"
+    }
+   },
+   {
+    "id": "fr4-15-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "L’imparfait ne peut jamais exprimer une répétition passée. Correction : Le contexte chaque soir présente ici une habitude.",
+     "Toute description est forcément un événement soudain au passé simple. Correction : Un état peut fournir l’arrière-plan de la narration.",
+     "La terminaison reste toujours celle de je. Correction : Le sujet commande la marque personnelle.",
+     "La durée réelle suffit toujours à choisir mécaniquement un temps. Correction : Le contexte et la manière de présenter le fait comptent aussi."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-15-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "habitude passée : une action répétée dans un cadre passé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le contexte chaque soir présente ici une habitude. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "état descriptif : une situation servant de cadre au récit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un état peut fournir l’arrière-plan de la narration. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "formation personnelle : l’association d’un radical et de la terminaison exigée par le sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet commande la marque personnelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "point de vue narratif : la manière de présenter un procès comme déroulement ou événement achevé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le contexte et la manière de présenter le fait comptent aussi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’imparfait ne peut jamais exprimer une répétition passée.",
+        "truth": "false",
+        "explain": "Le contexte chaque soir présente ici une habitude."
+       },
+       {
+        "text": "Toute description est forcément un événement soudain au passé simple.",
+        "truth": "false",
+        "explain": "Un état peut fournir l’arrière-plan de la narration."
+       },
+       {
+        "text": "La terminaison reste toujours celle de je.",
+        "truth": "false",
+        "explain": "Le sujet commande la marque personnelle."
+       },
+       {
+        "text": "La durée réelle suffit toujours à choisir mécaniquement un temps.",
+        "truth": "false",
+        "explain": "Le contexte et la manière de présenter le fait comptent aussi."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-15-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une action répétée dans un cadre passé ?",
+       "r": "habitude passée",
+       "w": [
+        "état descriptif",
+        "formation personnelle",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela désigne une situation servant de cadre au récit, plutôt que la notion demandée.",
+        "Cela désigne l’association d’un radical et de la terminaison exigée par le sujet, plutôt que la notion demandée.",
+        "Cela désigne la manière de présenter un procès comme déroulement ou événement achevé, plutôt que la notion demandée."
+       ],
+       "y": "Le contexte chaque soir présente ici une habitude."
+      },
+      {
+       "q": "Quel terme désigne une situation servant de cadre au récit ?",
+       "r": "état descriptif",
+       "w": [
+        "habitude passée",
+        "formation personnelle",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela désigne une action répétée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne l’association d’un radical et de la terminaison exigée par le sujet, plutôt que la notion demandée.",
+        "Cela désigne la manière de présenter un procès comme déroulement ou événement achevé, plutôt que la notion demandée."
+       ],
+       "y": "Un état peut fournir l’arrière-plan de la narration."
+      },
+      {
+       "q": "Quel terme désigne l’association d’un radical et de la terminaison exigée par le sujet ?",
+       "r": "formation personnelle",
+       "w": [
+        "habitude passée",
+        "état descriptif",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela désigne une action répétée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne une situation servant de cadre au récit, plutôt que la notion demandée.",
+        "Cela désigne la manière de présenter un procès comme déroulement ou événement achevé, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet commande la marque personnelle."
+      },
+      {
+       "q": "Quel terme désigne la manière de présenter un procès comme déroulement ou événement achevé ?",
+       "r": "point de vue narratif",
+       "w": [
+        "habitude passée",
+        "état descriptif",
+        "formation personnelle"
+       ],
+       "e": [
+        "Cela désigne une action répétée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne une situation servant de cadre au récit, plutôt que la notion demandée.",
+        "Cela désigne l’association d’un radical et de la terminaison exigée par le sujet, plutôt que la notion demandée."
+       ],
+       "y": "Le contexte et la manière de présenter le fait comptent aussi."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-15-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chaque soir, elle {fr2Imparfait(\"aider\",3)} son frère.\nQuelle notion convient ?",
+       "r": "habitude passée",
+       "w": [
+        "état descriptif",
+        "formation personnelle",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela concerne une situation servant de cadre au récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’un radical et de la terminaison exigée par le sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de présenter un procès comme déroulement ou événement achevé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le contexte chaque soir présente ici une habitude."
+      },
+      {
+       "q": "La cour était calme installe la scène.\nQuelle notion convient ?",
+       "r": "état descriptif",
+       "w": [
+        "habitude passée",
+        "formation personnelle",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela concerne une action répétée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’un radical et de la terminaison exigée par le sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de présenter un procès comme déroulement ou événement achevé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un état peut fournir l’arrière-plan de la narration."
+      },
+      {
+       "q": "{fr2With(5,fr2Imparfait(\"finir\",5))} porte la terminaison de vous.\nQuelle notion convient ?",
+       "r": "formation personnelle",
+       "w": [
+        "habitude passée",
+        "état descriptif",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela concerne une action répétée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une situation servant de cadre au récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de présenter un procès comme déroulement ou événement achevé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet commande la marque personnelle."
+      },
+      {
+       "q": "Le même récit combine décor à l’imparfait et événement au passé simple.\nQuelle notion convient ?",
+       "r": "point de vue narratif",
+       "w": [
+        "habitude passée",
+        "état descriptif",
+        "formation personnelle"
+       ],
+       "e": [
+        "Cela concerne une action répétée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une situation servant de cadre au récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’un radical et de la terminaison exigée par le sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le contexte et la manière de présenter le fait comptent aussi."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-15-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aider",
+      "finir",
+      "manger",
+      "être"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "temps": "imparfait"
+   },
+   "prompt": "Conjugue « {v} » à l’indicatif {temps}, à la voix active, avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2Imparfait(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2PasseSimple(v,p))}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2PasseCompose(v,p)}",
+     "misconception": "compose"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette terminaison appartient à un autre temps ; conserve le temps demandé."
+    },
+    {
+     "id": "compose",
+     "explain": "Tu as choisi un temps composé au lieu de la forme simple demandée."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne porte pas l’accord personnel nécessaire ici."
+    }
+   ],
+   "solution": [
+    "Repère le sujet et le temps demandé.",
+    "La forme complète est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-15-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "habitude passée",
+     "right": "Chaque soir, elle {fr2Imparfait(\"aider\",3)} son frère."
+    },
+    {
+     "left": "état descriptif",
+     "right": "La cour était calme installe la scène."
+    },
+    {
+     "left": "formation personnelle",
+     "right": "{fr2With(5,fr2Imparfait(\"finir\",5))} porte la terminaison de vous."
+    },
+    {
+     "left": "point de vue narratif",
+     "right": "Le même récit combine décor à l’imparfait et événement au passé simple."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-15-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "habitude passée : une action répétée dans un cadre passé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le contexte chaque soir présente ici une habitude. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "état descriptif : une situation servant de cadre au récit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un état peut fournir l’arrière-plan de la narration. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "formation personnelle : l’association d’un radical et de la terminaison exigée par le sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet commande la marque personnelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "point de vue narratif : la manière de présenter un procès comme déroulement ou événement achevé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le contexte et la manière de présenter le fait comptent aussi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’imparfait ne peut jamais exprimer une répétition passée.",
+      "truth": "false",
+      "explain": "Le contexte chaque soir présente ici une habitude."
+     },
+     {
+      "text": "Toute description est forcément un événement soudain au passé simple.",
+      "truth": "false",
+      "explain": "Un état peut fournir l’arrière-plan de la narration."
+     },
+     {
+      "text": "La terminaison reste toujours celle de je.",
+      "truth": "false",
+      "explain": "Le sujet commande la marque personnelle."
+     },
+     {
+      "text": "La durée réelle suffit toujours à choisir mécaniquement un temps.",
+      "truth": "false",
+      "explain": "Le contexte et la manière de présenter le fait comptent aussi."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

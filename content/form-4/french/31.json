@@ -1,0 +1,558 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 31,
+ "language": "fr",
+ "prerequisites": [
+  9,
+  15,
+  28,
+  30
+ ],
+ "skills": [
+  {
+   "id": "fr4-31",
+   "name": "Rédiger une lettre informelle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une lettre informelle s’adresse à une personne connue. Elle comporte un lieu et une date adaptés à la consigne, une formule d’appel, des paragraphes, une formule finale et une signature. Le ton peut être personnel tout en restant clair et respectueux. Précise pourquoi tu écris, développe les nouvelles et indique la réponse souhaitée. Les conventions exactes de présentation doivent suivre celles de la classe. Utilise une adresse et des détails fictifs si nécessaire ; une lettre d’exercice ne doit pas exposer de coordonnées privées.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras écrire une lettre personnelle organisée qui raconte une activité et demande une réponse. Acquis mobilisés : la narration, les reprises et l’accord sujet-verbe. Pour la suite : les productions autonomes destinées à un lecteur précis."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une lettre informelle s’adresse à une personne connue. Elle comporte un lieu et une date adaptés à la consigne, une formule d’appel, des paragraphes, une formule finale et une signature. Le ton peut être personnel tout en restant clair et respectueux. Précise pourquoi tu écris, développe les nouvelles et indique la réponse souhaitée. Les conventions exactes de présentation doivent suivre celles de la classe. Utilise une adresse et des détails fictifs si nécessaire ; une lettre d’exercice ne doit pas exposer de coordonnées privées."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Buea, lundi Chère Amina, Je t’écris pour raconter la préparation de notre club fictif. Nous avons choisi une lecture commune et réparti les tâches. Je préparais l’affiche pendant qu’Ayuk vérifiait les livres. Ensuite, nous avons relu les consignes ensemble. J’aimerais connaître ton idée pour une prochaine activité. Quel récit voudrais-tu proposer ? Écris-moi quand tu le pourras. À bientôt, Ton amie Bih"
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le destinataire et l’intention. Prépare les paragraphes avant d’ajouter les formules. Vérifie les accords, les pronoms et la cohérence du récit, puis la demande finale. Une bonne formule de politesse ne compense pas des nouvelles ou une demande absentes."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "formule d’appel",
+    "meaning": "une ouverture adaptée au destinataire"
+   },
+   {
+    "word": "paragraphes",
+    "meaning": "des unités organisant les nouvelles et la demande"
+   },
+   {
+    "word": "réponse souhaitée",
+    "meaning": "ce que la lettre demande au destinataire"
+   },
+   {
+    "word": "signature",
+    "meaning": "l’identification choisie pour la personne qui écrit"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une lettre amicale commence obligatoirement par une accusation.",
+   "right": "une ouverture adaptée au destinataire.",
+   "why": "L’appel établit la relation avec le lecteur."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Chère Amina ouvre une lettre personnelle fictive. Explique le choix.",
+  "steps": [
+   "une ouverture adaptée au destinataire.",
+   "L’appel établit la relation avec le lecteur."
+  ],
+  "answer": "formule d’appel",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-31-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "formule d’appel : une ouverture adaptée au destinataire.",
+     "paragraphes : des unités organisant les nouvelles et la demande.",
+     "réponse souhaitée : ce que la lettre demande au destinataire.",
+     "signature : l’identification choisie pour la personne qui écrit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-31-notions"
+    }
+   },
+   {
+    "id": "fr4-31-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Chère Amina ouvre une lettre personnelle fictive.",
+     "La lettre distingue récit de l’activité et question à l’amie.",
+     "Bih demande une idée de récit pour une activité.",
+     "Ton amie Bih ferme le modèle fictif."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-31-cas"
+    }
+   },
+   {
+    "id": "fr4-31-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une lettre amicale commence obligatoirement par une accusation. Correction : L’appel établit la relation avec le lecteur.",
+     "Tout mélanger sans limites rend toujours le texte plus clair. Correction : L’organisation aide le lecteur à suivre les intentions.",
+     "Une lettre qui pose une question interdit toute réponse. Correction : La demande guide ce que le lecteur peut répondre.",
+     "La signature doit toujours être une donnée privée réelle. Correction : Une production de classe peut utiliser une identité fictive."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-31-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "formule d’appel : une ouverture adaptée au destinataire.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’appel établit la relation avec le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "paragraphes : des unités organisant les nouvelles et la demande.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’organisation aide le lecteur à suivre les intentions. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "réponse souhaitée : ce que la lettre demande au destinataire.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La demande guide ce que le lecteur peut répondre. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "signature : l’identification choisie pour la personne qui écrit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une production de classe peut utiliser une identité fictive. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une lettre amicale commence obligatoirement par une accusation.",
+        "truth": "false",
+        "explain": "L’appel établit la relation avec le lecteur."
+       },
+       {
+        "text": "Tout mélanger sans limites rend toujours le texte plus clair.",
+        "truth": "false",
+        "explain": "L’organisation aide le lecteur à suivre les intentions."
+       },
+       {
+        "text": "Une lettre qui pose une question interdit toute réponse.",
+        "truth": "false",
+        "explain": "La demande guide ce que le lecteur peut répondre."
+       },
+       {
+        "text": "La signature doit toujours être une donnée privée réelle.",
+        "truth": "false",
+        "explain": "Une production de classe peut utiliser une identité fictive."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-31-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une ouverture adaptée au destinataire ?",
+       "r": "formule d’appel",
+       "w": [
+        "paragraphes",
+        "réponse souhaitée",
+        "signature"
+       ],
+       "e": [
+        "Cela désigne des unités organisant les nouvelles et la demande, plutôt que la notion demandée.",
+        "Cela désigne ce que la lettre demande au destinataire, plutôt que la notion demandée.",
+        "Cela désigne l’identification choisie pour la personne qui écrit, plutôt que la notion demandée."
+       ],
+       "y": "L’appel établit la relation avec le lecteur."
+      },
+      {
+       "q": "Quel terme désigne des unités organisant les nouvelles et la demande ?",
+       "r": "paragraphes",
+       "w": [
+        "formule d’appel",
+        "réponse souhaitée",
+        "signature"
+       ],
+       "e": [
+        "Cela désigne une ouverture adaptée au destinataire, plutôt que la notion demandée.",
+        "Cela désigne ce que la lettre demande au destinataire, plutôt que la notion demandée.",
+        "Cela désigne l’identification choisie pour la personne qui écrit, plutôt que la notion demandée."
+       ],
+       "y": "L’organisation aide le lecteur à suivre les intentions."
+      },
+      {
+       "q": "Quel terme désigne ce que la lettre demande au destinataire ?",
+       "r": "réponse souhaitée",
+       "w": [
+        "formule d’appel",
+        "paragraphes",
+        "signature"
+       ],
+       "e": [
+        "Cela désigne une ouverture adaptée au destinataire, plutôt que la notion demandée.",
+        "Cela désigne des unités organisant les nouvelles et la demande, plutôt que la notion demandée.",
+        "Cela désigne l’identification choisie pour la personne qui écrit, plutôt que la notion demandée."
+       ],
+       "y": "La demande guide ce que le lecteur peut répondre."
+      },
+      {
+       "q": "Quel terme désigne l’identification choisie pour la personne qui écrit ?",
+       "r": "signature",
+       "w": [
+        "formule d’appel",
+        "paragraphes",
+        "réponse souhaitée"
+       ],
+       "e": [
+        "Cela désigne une ouverture adaptée au destinataire, plutôt que la notion demandée.",
+        "Cela désigne des unités organisant les nouvelles et la demande, plutôt que la notion demandée.",
+        "Cela désigne ce que la lettre demande au destinataire, plutôt que la notion demandée."
+       ],
+       "y": "Une production de classe peut utiliser une identité fictive."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-31-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chère Amina ouvre une lettre personnelle fictive.\nQuelle notion convient ?",
+       "r": "formule d’appel",
+       "w": [
+        "paragraphes",
+        "réponse souhaitée",
+        "signature"
+       ],
+       "e": [
+        "Cela concerne des unités organisant les nouvelles et la demande. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que la lettre demande au destinataire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’identification choisie pour la personne qui écrit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’appel établit la relation avec le lecteur."
+      },
+      {
+       "q": "La lettre distingue récit de l’activité et question à l’amie.\nQuelle notion convient ?",
+       "r": "paragraphes",
+       "w": [
+        "formule d’appel",
+        "réponse souhaitée",
+        "signature"
+       ],
+       "e": [
+        "Cela concerne une ouverture adaptée au destinataire. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que la lettre demande au destinataire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’identification choisie pour la personne qui écrit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’organisation aide le lecteur à suivre les intentions."
+      },
+      {
+       "q": "Bih demande une idée de récit pour une activité.\nQuelle notion convient ?",
+       "r": "réponse souhaitée",
+       "w": [
+        "formule d’appel",
+        "paragraphes",
+        "signature"
+       ],
+       "e": [
+        "Cela concerne une ouverture adaptée au destinataire. Compare cette définition avec le cas présenté.",
+        "Cela concerne des unités organisant les nouvelles et la demande. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’identification choisie pour la personne qui écrit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La demande guide ce que le lecteur peut répondre."
+      },
+      {
+       "q": "Ton amie Bih ferme le modèle fictif.\nQuelle notion convient ?",
+       "r": "signature",
+       "w": [
+        "formule d’appel",
+        "paragraphes",
+        "réponse souhaitée"
+       ],
+       "e": [
+        "Cela concerne une ouverture adaptée au destinataire. Compare cette définition avec le cas présenté.",
+        "Cela concerne des unités organisant les nouvelles et la demande. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que la lettre demande au destinataire. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une production de classe peut utiliser une identité fictive."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-31-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Je prépare un texte adapté au destinataire.",
+       "b": "Je prépare un texte adapté au destinataire."
+      },
+      {
+       "a": "Un paragraphe développe une idée claire.",
+       "b": "Un paragraphe développe une idée claire."
+      },
+      {
+       "a": "Les liens rendent le texte compréhensible.",
+       "b": "Les liens rendent le texte compréhensible."
+      },
+      {
+       "a": "Je relis les accords avant de terminer.",
+       "b": "Je relis les accords avant de terminer."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-31-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "formule d’appel",
+     "right": "Chère Amina ouvre une lettre personnelle fictive."
+    },
+    {
+     "left": "paragraphes",
+     "right": "La lettre distingue récit de l’activité et question à l’amie."
+    },
+    {
+     "left": "réponse souhaitée",
+     "right": "Bih demande une idée de récit pour une activité."
+    },
+    {
+     "left": "signature",
+     "right": "Ton amie Bih ferme le modèle fictif."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-31-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "formule d’appel : une ouverture adaptée au destinataire.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’appel établit la relation avec le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "paragraphes : des unités organisant les nouvelles et la demande.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’organisation aide le lecteur à suivre les intentions. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "réponse souhaitée : ce que la lettre demande au destinataire.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La demande guide ce que le lecteur peut répondre. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "signature : l’identification choisie pour la personne qui écrit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une production de classe peut utiliser une identité fictive. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une lettre amicale commence obligatoirement par une accusation.",
+      "truth": "false",
+      "explain": "L’appel établit la relation avec le lecteur."
+     },
+     {
+      "text": "Tout mélanger sans limites rend toujours le texte plus clair.",
+      "truth": "false",
+      "explain": "L’organisation aide le lecteur à suivre les intentions."
+     },
+     {
+      "text": "Une lettre qui pose une question interdit toute réponse.",
+      "truth": "false",
+      "explain": "La demande guide ce que le lecteur peut répondre."
+     },
+     {
+      "text": "La signature doit toujours être une donnée privée réelle.",
+      "truth": "false",
+      "explain": "Une production de classe peut utiliser une identité fictive."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Écris une lettre informelle à une amie ou un ami fictif. Raconte une activité scolaire ou communautaire, précise un détail intéressant et demande une réponse. Ajoute les éléments de présentation attendus en classe, avec des données imaginaires.",
+  "model": [
+   "Buea, lundi",
+   "Chère Amina,",
+   "Je t’écris pour raconter la préparation de notre club fictif. Nous avons choisi une lecture commune et réparti les tâches. Je préparais l’affiche pendant qu’Ayuk vérifiait les livres. Ensuite, nous avons relu les consignes ensemble.",
+   "J’aimerais connaître ton idée pour une prochaine activité. Quel récit voudrais-tu proposer ? Écris-moi quand tu le pourras.",
+   "À bientôt,",
+   "Ton amie Bih"
+  ],
+  "checklist": [
+   "Mon appel, mon ton et ma fin conviennent au destinataire.",
+   "Mes paragraphes racontent clairement l’activité et formulent la demande.",
+   "Je vérifie accords, temps, reprises et présentation sans utiliser de coordonnées privées."
+  ]
+ }
+}

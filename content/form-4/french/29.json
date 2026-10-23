@@ -1,0 +1,562 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 29,
+ "language": "fr",
+ "prerequisites": [
+  4,
+  5,
+  19,
+  22
+ ],
+ "skills": [
+  {
+   "id": "fr4-29",
+   "name": "L’impératif présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’impératif peut exprimer un ordre, un conseil ou une invitation. Il comporte les personnes correspondant à tu, nous et vous, sans pronom sujet exprimé. Les verbes en -er perdent normalement le -s à la personne de tu ; devant en ou y directement liés au verbe, un -s euphonique peut apparaître. Être et avoir ont des formes particulières. À l’affirmatif, les pronoms compléments suivent généralement le verbe avec des traits d’union ; au négatif, ils le précèdent.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former une consigne ou un conseil à la personne demandée sans ajouter de sujet exprimé. Acquis mobilisés : les consignes, les pronoms conjoints et le présent. Pour la suite : l’accord du verbe et la lettre personnelle."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "L’impératif peut exprimer un ordre, un conseil ou une invitation. Il comporte les personnes correspondant à tu, nous et vous, sans pronom sujet exprimé. Les verbes en -er perdent normalement le -s à la personne de tu ; devant en ou y directement liés au verbe, un -s euphonique peut apparaître. Être et avoir ont des formes particulières. À l’affirmatif, les pronoms compléments suivent généralement le verbe avec des traits d’union ; au négatif, ils le précèdent."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : {fr2Imperatif(\"parler\",0)} calmement. {fr2Imperatif(\"finir\",2)} la phrase. {fr2Imperatif(\"être\",0)} attentif. Compare une invitation adressée au groupe et une demande à un interlocuteur. Ne me le dis pas place les pronoms avant le verbe ; dis-le-moi les place après. Ces modèles écrits préparent une pratique orale avec un partenaire."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le destinataire et la personne grammaticale. Choisis l’impératif, puis vérifie l’orthographe et la place des compléments. Ne confonds pas une forme impérative avec une phrase déclarative comportant tu. Écris enfin une consigne originale adaptée à une situation de classe."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "destinataire",
+    "meaning": "la personne ou le groupe auquel s’adresse la consigne"
+   },
+   {
+    "word": "sujet non exprimé",
+    "meaning": "l’absence de pronom sujet devant l’impératif"
+   },
+   {
+    "word": "forme particulière",
+    "meaning": "un impératif à apprendre pour certains verbes"
+   },
+   {
+    "word": "place des compléments",
+    "meaning": "un ordre dépendant notamment de l’affirmation ou de la négation"
+   }
+  ],
+  "mistake": {
+   "wrong": "Toutes les consignes s’adressent grammaticalement à tu.",
+   "right": "la personne ou le groupe auquel s’adresse la consigne.",
+   "why": "La personne dépend du destinataire visé."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "{fr2Imperatif(\"finir\",2)} convient à la personne de vous. Explique le choix.",
+  "steps": [
+   "la personne ou le groupe auquel s’adresse la consigne.",
+   "La personne dépend du destinataire visé."
+  ],
+  "answer": "destinataire",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-29-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "destinataire : la personne ou le groupe auquel s’adresse la consigne.",
+     "sujet non exprimé : l’absence de pronom sujet devant l’impératif.",
+     "forme particulière : un impératif à apprendre pour certains verbes.",
+     "place des compléments : un ordre dépendant notamment de l’affirmation ou de la négation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-29-notions"
+    }
+   },
+   {
+    "id": "fr4-29-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "{fr2Imperatif(\"finir\",2)} convient à la personne de vous.",
+     "{fr2Imperatif(\"parler\",0)} calmement forme une consigne sans tu.",
+     "{fr2Imperatif(\"être\",0)} est l’impératif de être à la personne visée.",
+     "Dis-le-moi se compare à ne me le dis pas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-29-cas"
+    }
+   },
+   {
+    "id": "fr4-29-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Toutes les consignes s’adressent grammaticalement à tu. Correction : La personne dépend du destinataire visé.",
+     "Toute forme impérative doit commencer par un pronom sujet. Correction : Le sujet n’est pas exprimé dans le modèle impératif.",
+     "Être suit toujours exactement le modèle de parler. Correction : Certaines formes sont irrégulières.",
+     "L’ordre des pronoms ne change jamais selon la construction. Correction : Il faut examiner la forme affirmative ou négative et les pronoms employés."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-29-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "destinataire : la personne ou le groupe auquel s’adresse la consigne.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La personne dépend du destinataire visé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "sujet non exprimé : l’absence de pronom sujet devant l’impératif.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet n’est pas exprimé dans le modèle impératif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "forme particulière : un impératif à apprendre pour certains verbes.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Certaines formes sont irrégulières. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "place des compléments : un ordre dépendant notamment de l’affirmation ou de la négation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut examiner la forme affirmative ou négative et les pronoms employés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Toutes les consignes s’adressent grammaticalement à tu.",
+        "truth": "false",
+        "explain": "La personne dépend du destinataire visé."
+       },
+       {
+        "text": "Toute forme impérative doit commencer par un pronom sujet.",
+        "truth": "false",
+        "explain": "Le sujet n’est pas exprimé dans le modèle impératif."
+       },
+       {
+        "text": "Être suit toujours exactement le modèle de parler.",
+        "truth": "false",
+        "explain": "Certaines formes sont irrégulières."
+       },
+       {
+        "text": "L’ordre des pronoms ne change jamais selon la construction.",
+        "truth": "false",
+        "explain": "Il faut examiner la forme affirmative ou négative et les pronoms employés."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-29-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la personne ou le groupe auquel s’adresse la consigne ?",
+       "r": "destinataire",
+       "w": [
+        "sujet non exprimé",
+        "forme particulière",
+        "place des compléments"
+       ],
+       "e": [
+        "Cela désigne l’absence de pronom sujet devant l’impératif, plutôt que la notion demandée.",
+        "Cela désigne un impératif à apprendre pour certains verbes, plutôt que la notion demandée.",
+        "Cela désigne un ordre dépendant notamment de l’affirmation ou de la négation, plutôt que la notion demandée."
+       ],
+       "y": "La personne dépend du destinataire visé."
+      },
+      {
+       "q": "Quel terme désigne l’absence de pronom sujet devant l’impératif ?",
+       "r": "sujet non exprimé",
+       "w": [
+        "destinataire",
+        "forme particulière",
+        "place des compléments"
+       ],
+       "e": [
+        "Cela désigne la personne ou le groupe auquel s’adresse la consigne, plutôt que la notion demandée.",
+        "Cela désigne un impératif à apprendre pour certains verbes, plutôt que la notion demandée.",
+        "Cela désigne un ordre dépendant notamment de l’affirmation ou de la négation, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet n’est pas exprimé dans le modèle impératif."
+      },
+      {
+       "q": "Quel terme désigne un impératif à apprendre pour certains verbes ?",
+       "r": "forme particulière",
+       "w": [
+        "destinataire",
+        "sujet non exprimé",
+        "place des compléments"
+       ],
+       "e": [
+        "Cela désigne la personne ou le groupe auquel s’adresse la consigne, plutôt que la notion demandée.",
+        "Cela désigne l’absence de pronom sujet devant l’impératif, plutôt que la notion demandée.",
+        "Cela désigne un ordre dépendant notamment de l’affirmation ou de la négation, plutôt que la notion demandée."
+       ],
+       "y": "Certaines formes sont irrégulières."
+      },
+      {
+       "q": "Quel terme désigne un ordre dépendant notamment de l’affirmation ou de la négation ?",
+       "r": "place des compléments",
+       "w": [
+        "destinataire",
+        "sujet non exprimé",
+        "forme particulière"
+       ],
+       "e": [
+        "Cela désigne la personne ou le groupe auquel s’adresse la consigne, plutôt que la notion demandée.",
+        "Cela désigne l’absence de pronom sujet devant l’impératif, plutôt que la notion demandée.",
+        "Cela désigne un impératif à apprendre pour certains verbes, plutôt que la notion demandée."
+       ],
+       "y": "Il faut examiner la forme affirmative ou négative et les pronoms employés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-29-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "{fr2Imperatif(\"finir\",2)} convient à la personne de vous.\nQuelle notion convient ?",
+       "r": "destinataire",
+       "w": [
+        "sujet non exprimé",
+        "forme particulière",
+        "place des compléments"
+       ],
+       "e": [
+        "Cela concerne l’absence de pronom sujet devant l’impératif. Compare cette définition avec le cas présenté.",
+        "Cela concerne un impératif à apprendre pour certains verbes. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ordre dépendant notamment de l’affirmation ou de la négation. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La personne dépend du destinataire visé."
+      },
+      {
+       "q": "{fr2Imperatif(\"parler\",0)} calmement forme une consigne sans tu.\nQuelle notion convient ?",
+       "r": "sujet non exprimé",
+       "w": [
+        "destinataire",
+        "forme particulière",
+        "place des compléments"
+       ],
+       "e": [
+        "Cela concerne la personne ou le groupe auquel s’adresse la consigne. Compare cette définition avec le cas présenté.",
+        "Cela concerne un impératif à apprendre pour certains verbes. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ordre dépendant notamment de l’affirmation ou de la négation. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet n’est pas exprimé dans le modèle impératif."
+      },
+      {
+       "q": "{fr2Imperatif(\"être\",0)} est l’impératif de être à la personne visée.\nQuelle notion convient ?",
+       "r": "forme particulière",
+       "w": [
+        "destinataire",
+        "sujet non exprimé",
+        "place des compléments"
+       ],
+       "e": [
+        "Cela concerne la personne ou le groupe auquel s’adresse la consigne. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’absence de pronom sujet devant l’impératif. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ordre dépendant notamment de l’affirmation ou de la négation. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Certaines formes sont irrégulières."
+      },
+      {
+       "q": "Dis-le-moi se compare à ne me le dis pas.\nQuelle notion convient ?",
+       "r": "place des compléments",
+       "w": [
+        "destinataire",
+        "sujet non exprimé",
+        "forme particulière"
+       ],
+       "e": [
+        "Cela concerne la personne ou le groupe auquel s’adresse la consigne. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’absence de pronom sujet devant l’impératif. Compare cette définition avec le cas présenté.",
+        "Cela concerne un impératif à apprendre pour certains verbes. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut examiner la forme affirmative ou négative et les pronoms employés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-29-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "finir",
+      "être",
+      "avoir"
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      2
+     ]
+    }
+   },
+   "prompt": "Forme l’impératif présent de « {v} », à la personne correspondant à « {fr2ImperPerson(k)} », sans pronom sujet.",
+   "correct": "{fr2Imperatif(v,k)}",
+   "distractors": [
+    {
+     "text": "{fr2Imperatif(v,(k+1)%3)}",
+     "misconception": "autre"
+    },
+    {
+     "text": "{fr2Imperatif(v,(k+2)%3)}",
+     "misconception": "autre2"
+    },
+    {
+     "text": "{v}",
+     "misconception": "infinitif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "autre",
+     "explain": "Cette forme s’adresse à une autre personne grammaticale."
+    },
+    {
+     "id": "autre2",
+     "explain": "La personne ne correspond pas à la consigne."
+    },
+    {
+     "id": "infinitif",
+     "explain": "L’infinitif peut figurer sur certaines consignes, mais on demande ici l’impératif conjugué."
+    }
+   ],
+   "solution": [
+    "Retrouve la personne visée par l’ordre ou le conseil.",
+    "La forme attendue est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-29-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "destinataire",
+     "right": "{fr2Imperatif(\"finir\",2)} convient à la personne de vous."
+    },
+    {
+     "left": "sujet non exprimé",
+     "right": "{fr2Imperatif(\"parler\",0)} calmement forme une consigne sans tu."
+    },
+    {
+     "left": "forme particulière",
+     "right": "{fr2Imperatif(\"être\",0)} est l’impératif de être à la personne visée."
+    },
+    {
+     "left": "place des compléments",
+     "right": "Dis-le-moi se compare à ne me le dis pas."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-29-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "destinataire : la personne ou le groupe auquel s’adresse la consigne.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La personne dépend du destinataire visé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "sujet non exprimé : l’absence de pronom sujet devant l’impératif.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet n’est pas exprimé dans le modèle impératif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "forme particulière : un impératif à apprendre pour certains verbes.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Certaines formes sont irrégulières. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "place des compléments : un ordre dépendant notamment de l’affirmation ou de la négation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut examiner la forme affirmative ou négative et les pronoms employés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Toutes les consignes s’adressent grammaticalement à tu.",
+      "truth": "false",
+      "explain": "La personne dépend du destinataire visé."
+     },
+     {
+      "text": "Toute forme impérative doit commencer par un pronom sujet.",
+      "truth": "false",
+      "explain": "Le sujet n’est pas exprimé dans le modèle impératif."
+     },
+     {
+      "text": "Être suit toujours exactement le modèle de parler.",
+      "truth": "false",
+      "explain": "Certaines formes sont irrégulières."
+     },
+     {
+      "text": "L’ordre des pronoms ne change jamais selon la construction.",
+      "truth": "false",
+      "explain": "Il faut examiner la forme affirmative ou négative et les pronoms employés."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

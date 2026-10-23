@@ -1,0 +1,610 @@
+{
+ "subject": "french",
+ "class": "Form 4",
+ "lesson_no": 8,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  7
+ ],
+ "skills": [
+  {
+   "id": "fr4-8",
+   "name": "L’affixation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’affixation forme des mots en ajoutant un préfixe ou un suffixe à une base. Un préfixe se place avant la base ; un suffixe après. Re- peut exprimer une répétition dans revoir ; -eur peut désigner une personne dans chanteur. Le sens dépend du mot complet : une suite de lettres ressemblante n’est pas automatiquement un affixe. Un suffixe peut changer la catégorie grammaticale, mais toutes les combinaisons imaginables ne produisent pas un mot employé. Vérifie le sens et l’existence du mot.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras repérer un préfixe ou un suffixe et expliquer le changement de sens ou de catégorie dans les modèles. Acquis mobilisés : le vocabulaire en contexte et l’orthographe des mots. Pour la suite : les familles de mots et l’enrichissement du récit."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "L’affixation forme des mots en ajoutant un préfixe ou un suffixe à une base. Un préfixe se place avant la base ; un suffixe après. Re- peut exprimer une répétition dans revoir ; -eur peut désigner une personne dans chanteur. Le sens dépend du mot complet : une suite de lettres ressemblante n’est pas automatiquement un affixe. Un suffixe peut changer la catégorie grammaticale, mais toutes les combinaisons imaginables ne produisent pas un mot employé. Vérifie le sens et l’existence du mot."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : revoir associe re- et voir ; chanteur est lié à chanter ; rapidement est un adverbe construit sur rapide. La famille conserve un lien de sens, parfois avec un ajustement de la base. À Buea, Bih relit une annonce : relire signifie ici lire de nouveau, sans changer le contenu du message par hasard."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Sépare les éléments seulement si le sens et la formation le permettent. Explique ce que l’ajout apporte, puis vérifie la catégorie obtenue. Réemploie un mot dérivé dans une phrase originale sans fabriquer une forme non attestée."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "préfixe",
+    "meaning": "un élément ajouté avant une base"
+   },
+   {
+    "word": "suffixe",
+    "meaning": "un élément ajouté après une base"
+   },
+   {
+    "word": "base",
+    "meaning": "l’élément sur lequel s’effectue l’ajout étudié"
+   },
+   {
+    "word": "dérivation",
+    "meaning": "la formation d’un mot à partir d’une base avec un lien de sens"
+   }
+  ],
+  "mistake": {
+   "wrong": "Un préfixe se place obligatoirement après la base.",
+   "right": "un élément ajouté avant une base.",
+   "why": "Sa position se situe avant la base."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Re- précède voir dans le modèle revoir. Explique le choix.",
+  "steps": [
+   "un élément ajouté avant une base.",
+   "Sa position se situe avant la base."
+  ],
+  "answer": "préfixe",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr4-8-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "préfixe : un élément ajouté avant une base.",
+     "suffixe : un élément ajouté après une base.",
+     "base : l’élément sur lequel s’effectue l’ajout étudié.",
+     "dérivation : la formation d’un mot à partir d’une base avec un lien de sens."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-8-notions"
+    }
+   },
+   {
+    "id": "fr4-8-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Re- précède voir dans le modèle revoir.",
+     "Le suffixe -eur contribue à former chanteur.",
+     "Voir sert de base au modèle revoir.",
+     "Rapide et rapidement sont liés par une formation dérivée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr4-8-cas"
+    }
+   },
+   {
+    "id": "fr4-8-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Un préfixe se place obligatoirement après la base. Correction : Sa position se situe avant la base.",
+     "Un suffixe est toujours un mot entièrement indépendant placé avant. Correction : Il s’ajoute après la base dans le modèle.",
+     "La base est forcément le dernier signe de ponctuation. Correction : La base appartient à la formation du mot, non à la ponctuation.",
+     "Toute suite de lettres ajoutée crée nécessairement un mot correct. Correction : L’existence et le sens du mot doivent être vérifiés."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr4-8-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "préfixe : un élément ajouté avant une base.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Sa position se situe avant la base. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "suffixe : un élément ajouté après une base.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il s’ajoute après la base dans le modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "base : l’élément sur lequel s’effectue l’ajout étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La base appartient à la formation du mot, non à la ponctuation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "dérivation : la formation d’un mot à partir d’une base avec un lien de sens.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’existence et le sens du mot doivent être vérifiés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un préfixe se place obligatoirement après la base.",
+        "truth": "false",
+        "explain": "Sa position se situe avant la base."
+       },
+       {
+        "text": "Un suffixe est toujours un mot entièrement indépendant placé avant.",
+        "truth": "false",
+        "explain": "Il s’ajoute après la base dans le modèle."
+       },
+       {
+        "text": "La base est forcément le dernier signe de ponctuation.",
+        "truth": "false",
+        "explain": "La base appartient à la formation du mot, non à la ponctuation."
+       },
+       {
+        "text": "Toute suite de lettres ajoutée crée nécessairement un mot correct.",
+        "truth": "false",
+        "explain": "L’existence et le sens du mot doivent être vérifiés."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr4-8-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un élément ajouté avant une base ?",
+       "r": "préfixe",
+       "w": [
+        "suffixe",
+        "base",
+        "dérivation"
+       ],
+       "e": [
+        "Cela désigne un élément ajouté après une base, plutôt que la notion demandée.",
+        "Cela désigne l’élément sur lequel s’effectue l’ajout étudié, plutôt que la notion demandée.",
+        "Cela désigne la formation d’un mot à partir d’une base avec un lien de sens, plutôt que la notion demandée."
+       ],
+       "y": "Sa position se situe avant la base."
+      },
+      {
+       "q": "Quel terme désigne un élément ajouté après une base ?",
+       "r": "suffixe",
+       "w": [
+        "préfixe",
+        "base",
+        "dérivation"
+       ],
+       "e": [
+        "Cela désigne un élément ajouté avant une base, plutôt que la notion demandée.",
+        "Cela désigne l’élément sur lequel s’effectue l’ajout étudié, plutôt que la notion demandée.",
+        "Cela désigne la formation d’un mot à partir d’une base avec un lien de sens, plutôt que la notion demandée."
+       ],
+       "y": "Il s’ajoute après la base dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne l’élément sur lequel s’effectue l’ajout étudié ?",
+       "r": "base",
+       "w": [
+        "préfixe",
+        "suffixe",
+        "dérivation"
+       ],
+       "e": [
+        "Cela désigne un élément ajouté avant une base, plutôt que la notion demandée.",
+        "Cela désigne un élément ajouté après une base, plutôt que la notion demandée.",
+        "Cela désigne la formation d’un mot à partir d’une base avec un lien de sens, plutôt que la notion demandée."
+       ],
+       "y": "La base appartient à la formation du mot, non à la ponctuation."
+      },
+      {
+       "q": "Quel terme désigne la formation d’un mot à partir d’une base avec un lien de sens ?",
+       "r": "dérivation",
+       "w": [
+        "préfixe",
+        "suffixe",
+        "base"
+       ],
+       "e": [
+        "Cela désigne un élément ajouté avant une base, plutôt que la notion demandée.",
+        "Cela désigne un élément ajouté après une base, plutôt que la notion demandée.",
+        "Cela désigne l’élément sur lequel s’effectue l’ajout étudié, plutôt que la notion demandée."
+       ],
+       "y": "L’existence et le sens du mot doivent être vérifiés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-8-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Re- précède voir dans le modèle revoir.\nQuelle notion convient ?",
+       "r": "préfixe",
+       "w": [
+        "suffixe",
+        "base",
+        "dérivation"
+       ],
+       "e": [
+        "Cela concerne un élément ajouté après une base. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément sur lequel s’effectue l’ajout étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la formation d’un mot à partir d’une base avec un lien de sens. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Sa position se situe avant la base."
+      },
+      {
+       "q": "Le suffixe -eur contribue à former chanteur.\nQuelle notion convient ?",
+       "r": "suffixe",
+       "w": [
+        "préfixe",
+        "base",
+        "dérivation"
+       ],
+       "e": [
+        "Cela concerne un élément ajouté avant une base. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément sur lequel s’effectue l’ajout étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la formation d’un mot à partir d’une base avec un lien de sens. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il s’ajoute après la base dans le modèle."
+      },
+      {
+       "q": "Voir sert de base au modèle revoir.\nQuelle notion convient ?",
+       "r": "base",
+       "w": [
+        "préfixe",
+        "suffixe",
+        "dérivation"
+       ],
+       "e": [
+        "Cela concerne un élément ajouté avant une base. Compare cette définition avec le cas présenté.",
+        "Cela concerne un élément ajouté après une base. Compare cette définition avec le cas présenté.",
+        "Cela concerne la formation d’un mot à partir d’une base avec un lien de sens. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La base appartient à la formation du mot, non à la ponctuation."
+      },
+      {
+       "q": "Rapide et rapidement sont liés par une formation dérivée.\nQuelle notion convient ?",
+       "r": "dérivation",
+       "w": [
+        "préfixe",
+        "suffixe",
+        "base"
+       ],
+       "e": [
+        "Cela concerne un élément ajouté avant une base. Compare cette définition avec le cas présenté.",
+        "Cela concerne un élément ajouté après une base. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément sur lequel s’effectue l’ajout étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’existence et le sens du mot doivent être vérifiés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-8-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel élément est préfixé dans revoir ?",
+       "r": "re-",
+       "w": [
+        "-eur",
+        "voir",
+        "-ment"
+       ],
+       "e": [
+        "-eur est un suffixe comme dans chanteur ; il ne figure pas dans revoir.",
+        "Voir est la base, pas l’élément ajouté avant elle.",
+        "-ment est un suffixe comme dans rapidement ; il ne figure pas dans revoir."
+       ],
+       "y": "Re- précède voir."
+      },
+      {
+       "q": "Quel mot est lié à chanter par suffixation ?",
+       "r": "chanteur",
+       "w": [
+        "revoir",
+        "table",
+        "demain"
+       ],
+       "e": [
+        "Ce mot relève d’une autre formation.",
+        "Le sens et la base ne correspondent pas.",
+        "Le mot ne se forme pas sur chanter."
+       ],
+       "y": "Le lien de forme et de sens est conservé."
+      },
+      {
+       "q": "Quelle catégorie convient à rapidement dans elle avance rapidement ?",
+       "r": "adverbe",
+       "w": [
+        "nom de personne",
+        "pronom sujet",
+        "préposition de lieu"
+       ],
+       "e": [
+        "Il ne nomme pas une personne.",
+        "Elle est le sujet, non rapidement.",
+        "Il exprime la manière, pas cette relation de lieu."
+       ],
+       "y": "Le suffixe contribue ici à une forme adverbiale."
+      },
+      {
+       "q": "Pourquoi ne suffit-il pas de découper des lettres identiques ?",
+       "r": "Il faut un lien de formation et de sens.",
+       "w": [
+        "Tous les mots ont le même préfixe.",
+        "Chaque lettre est un suffixe.",
+        "Le sens n’intervient jamais."
+       ],
+       "e": [
+        "Les formations varient.",
+        "Un suffixe n’est pas n’importe quelle lettre.",
+        "Le sens fait partie de l’analyse."
+       ],
+       "y": "La ressemblance visuelle seule peut tromper."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-8-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "préfixe",
+     "right": "Re- précède voir dans le modèle revoir."
+    },
+    {
+     "left": "suffixe",
+     "right": "Le suffixe -eur contribue à former chanteur."
+    },
+    {
+     "left": "base",
+     "right": "Voir sert de base au modèle revoir."
+    },
+    {
+     "left": "dérivation",
+     "right": "Rapide et rapidement sont liés par une formation dérivée."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr4-8-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "préfixe : un élément ajouté avant une base.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Sa position se situe avant la base. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "suffixe : un élément ajouté après une base.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il s’ajoute après la base dans le modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "base : l’élément sur lequel s’effectue l’ajout étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La base appartient à la formation du mot, non à la ponctuation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "dérivation : la formation d’un mot à partir d’une base avec un lien de sens.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’existence et le sens du mot doivent être vérifiés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un préfixe se place obligatoirement après la base.",
+      "truth": "false",
+      "explain": "Sa position se situe avant la base."
+     },
+     {
+      "text": "Un suffixe est toujours un mot entièrement indépendant placé avant.",
+      "truth": "false",
+      "explain": "Il s’ajoute après la base dans le modèle."
+     },
+     {
+      "text": "La base est forcément le dernier signe de ponctuation.",
+      "truth": "false",
+      "explain": "La base appartient à la formation du mot, non à la ponctuation."
+     },
+     {
+      "text": "Toute suite de lettres ajoutée crée nécessairement un mot correct.",
+      "truth": "false",
+      "explain": "L’existence et le sens du mot doivent être vérifiés."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}
