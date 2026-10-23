@@ -38,6 +38,9 @@ Rules the computed answers use are listed in the subject’s library tests; ever
 | 24 | `m3-26-incl-card` (card c3m26-2) | 26 | multiple choice, 1 | congruence |
 | 25 | `m3-27-which` | 27 | multiple choice, 2 | similarity |
 | 26 | `m3-27-which-card` (card c3m27-3) | 27 | multiple choice, 1 | similarity |
+| 27 | `m3-33-ten` | 33 | number, 1 | indices-logs |
+| 28 | `m3-33-pow` | 33 | number, 3 | indices-logs |
+| 29 | `m3-33-pow-card` (card c3m33-3) | 33 | number, 1 | indices-logs |
 
 ### `m3-13-lin` · Lesson 13 · multiple choice, level 1
 
@@ -1773,4 +1776,148 @@ Full working after a second miss:
 > So the answer is Any two squares.  
 
 Sources: similarity (Form 3 Mathematics syllabus, Term 1: similar figures, scale factor, areas and volumes of similar figures, Thales property and its converse, applications (maps, models))
+
+### `m3-33-ten` · Lesson 33 · number, level 1
+
+Prompt: Find log {X.s} (base {10}).
+Right answer: `X.v`
+
+Table `X` (one row is picked each time):
+
+| s | w | v |
+|---|---|---|
+| 1000 | 10³ = 1000 | 3 |
+| 100 000 | 10⁵ = 100 000 | 5 |
+| 0.01 | 10⁻² = 1/100 = 0.01 | -2 |
+| 1 | 10⁰ = 1 | 0 |
+| 0.001 | 10⁻³ = 0.001 | -3 |
+| 10 | 10¹ = 10 | 1 |
+
+
+Three generated variants:
+
+> Find log 100 000 (base 10).
+
+Answer: **5**
+
+Full working after a second miss:
+
+> 10⁵ = 100 000  
+> So log 100 000 = 5.  
+
+> Find log 10 (base 10).
+
+Answer: **1**
+
+Full working after a second miss:
+
+> 10¹ = 10  
+> So log 10 = 1.  
+
+> Find log 0.001 (base 10).
+
+Answer: **−3**
+
+Full working after a second miss:
+
+> 10⁻³ = 0.001  
+> So log 0.001 = −3.  
+
+Sources: indices-logs (Form 3 Mathematics syllabus, Term 1: laws of indices (zero, negative, fractional), simple exponential equations, laws of logarithms, simple logarithmic equations)
+
+### `m3-33-pow` · Lesson 33 · number, level 3
+
+Prompt: Given that log {2} ≈ {'0.3010'}, find log {X.n} to {4} decimal places without a calculator.
+Right answer: `roundTo(X.k * 0.3010 + X.c, 0.0001)`
+
+Table `X` (one row is picked each time):
+
+| n | s | k | c |
+|---|---|---|---|
+| 8 | log 8 = log 2³ = 3 log 2 = 3 × 0.3010 | 3 | 0 |
+| 16 | log 16 = log 2⁴ = 4 log 2 = 4 × 0.3010 | 4 | 0 |
+| 20 | log 20 = log 2 + log 10 = 0.3010 + 1 | 1 | 1 |
+| 5 | log 5 = log 10 − log 2 = 1 − 0.3010 | -1 | 1 |
+| 200 | log 200 = log 2 + log 100 = 0.3010 + 2 | 1 | 2 |
+| 32 | log 32 = log 2⁵ = 5 log 2 = 5 × 0.3010 | 5 | 0 |
+
+
+Three generated variants:
+
+> Given that log 2 ≈ 0.3010, find log 200 to 4 decimal places without a calculator.
+
+Answer: **2.301**
+
+Full working after a second miss:
+
+> log 200 = log 2 + log 100 = 0.3010 + 2  
+> ≈ 2.301.  
+
+> Given that log 2 ≈ 0.3010, find log 20 to 4 decimal places without a calculator.
+
+Answer: **1.301**
+
+Full working after a second miss:
+
+> log 20 = log 2 + log 10 = 0.3010 + 1  
+> ≈ 1.301.  
+
+> Given that log 2 ≈ 0.3010, find log 32 to 4 decimal places without a calculator.
+
+Answer: **1.505**
+
+Full working after a second miss:
+
+> log 32 = log 2⁵ = 5 log 2 = 5 × 0.3010  
+> ≈ 1.505.  
+
+Sources: indices-logs (Form 3 Mathematics syllabus, Term 1: laws of indices (zero, negative, fractional), simple exponential equations, laws of logarithms, simple logarithmic equations)
+
+### `m3-33-pow-card` · Lesson 33 · number, level 1
+
+Prompt: Given that log {2} ≈ {'0.3010'}, find log {X.n} to {4} decimal places without a calculator.
+Right answer: `roundTo(X.k * 0.3010 + X.c, 0.0001)`
+
+Table `X` (one row is picked each time):
+
+| n | s | k | c |
+|---|---|---|---|
+| 8 | log 8 = log 2³ = 3 log 2 = 3 × 0.3010 | 3 | 0 |
+| 16 | log 16 = log 2⁴ = 4 log 2 = 4 × 0.3010 | 4 | 0 |
+| 20 | log 20 = log 2 + log 10 = 0.3010 + 1 | 1 | 1 |
+| 5 | log 5 = log 10 − log 2 = 1 − 0.3010 | -1 | 1 |
+| 200 | log 200 = log 2 + log 100 = 0.3010 + 2 | 1 | 2 |
+| 32 | log 32 = log 2⁵ = 5 log 2 = 5 × 0.3010 | 5 | 0 |
+
+
+Three generated variants:
+
+> Given that log 2 ≈ 0.3010, find log 5 to 4 decimal places without a calculator.
+
+Answer: **0.699**
+
+Full working after a second miss:
+
+> log 5 = log 10 − log 2 = 1 − 0.3010  
+> ≈ 0.699.  
+
+> Given that log 2 ≈ 0.3010, find log 200 to 4 decimal places without a calculator.
+
+Answer: **2.301**
+
+Full working after a second miss:
+
+> log 200 = log 2 + log 100 = 0.3010 + 2  
+> ≈ 2.301.  
+
+> Given that log 2 ≈ 0.3010, find log 8 to 4 decimal places without a calculator.
+
+Answer: **0.903**
+
+Full working after a second miss:
+
+> log 8 = log 2³ = 3 log 2 = 3 × 0.3010  
+> ≈ 0.903.  
+
+Sources: indices-logs (Form 3 Mathematics syllabus, Term 1: laws of indices (zero, negative, fractional), simple exponential equations, laws of logarithms, simple logarithmic equations)
 

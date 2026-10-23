@@ -8,3 +8,14 @@
 - content/classes.json + tools/classes.mjs: Form 3 subjects; lessons found from files; generic tests and review.
 - Form 3 Maths row 2 (reference lesson). Spines for Forms 4, 5, Lower and Upper Sixth.
 - Not checked: the new spines against the sheets by eye (see each issues.md).
+
+## 2026-10-23 (afternoon), branch f3-claude
+
+- Form 3 Maths Term 1 complete: rows 2–34 (33 lessons; row 1 is "contact and diagnostic", not a lesson). Every lesson has
+  Learn screens, 3 cards, a worked example and 5 practice questions with levels 1–3. 209 content tests pass (1000 seeds per
+  question); the browser walk is 33/33 clean, with width checked at 360 px on every screen.
+- maths2.js additions (tested): sinD/cosD/tanD and their inverses, log10, logb, 2 × 2 matrix operations, matStr, matFig,
+  trigFig, thalesFig.
+- Found and fixed my own bug before committing: roundTo(x, 2) rounds to the nearest 2, not to 2 decimal places. The unit form
+  roundTo(x, 0.01) is correct, and no earlier content had the mistake.
+- Not checked: none of this has had a subject teacher's review (see content/form-3/maths/TEACHER-REVIEW.md, TR-M3-1 to TR-M3-13).

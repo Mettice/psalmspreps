@@ -1,0 +1,403 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  31
+ ],
+ "skills": [
+  {
+   "id": "m3-32",
+   "name": "Solve simple exponential equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An exponential equation has the unknown in the index: 2ˣ = 32.\n• Write both sides as powers of the same base: 2ˣ = 2⁵.\n• If the bases are equal, the indices are equal: x = 5.\n• 3^(x + 1) = 81 = 3⁴ → x + 1 = 4 → x = 3.\n• Different bases: 4ˣ = 8 → (2²)ˣ = 2³ → 2x = 3 → x = 3/2.\n• Fractions: 5ˣ = 1/25 = 5⁻² → x = −2.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The unknown in the index",
+    "text": "In {2}ˣ = {32}, x tells how many {2}s are multiplied. Count: {2}, {4}, {8}, {16}, {32}: five of them, so x = {5}.\nIn general: write both sides as powers of the same base. If {2}ˣ = {pw(2, 5)}, the bases are the same, so the indices must be equal: x = {5}."
+   },
+   {
+    "heading": "When the index is an expression",
+    "text": "{3}^(x + {1}) = {81}. Write {81} = {pw(3, 4)}, so x + {1} = {4} and x = {3}.\nWith a different base, look for a common base: {4}ˣ = {8}. Both are powers of {2}: {4} = {pw(2, 2)} and {8} = {pw(2, 3)}.\nSo {2}^({2}x) = {pw(2, 3)}, {mono(2, 'x')} = {3} and x = {frac(3, 2)}."
+   },
+   {
+    "heading": "Fractions and negative answers",
+    "text": "If the right-hand side is a fraction with a power on the bottom, use a negative index:\n{5}ˣ = {frac(1, 125)} = {5}⁻{sup(3)}, so x = {-3}.\nAnd {7}ˣ = {1} gives x = {0}, because any base to the power zero is {1}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "exponential equation",
+    "meaning": "an equation with the unknown in the index"
+   },
+   {
+    "word": "common base",
+    "meaning": "a number of which both sides are powers"
+   }
+  ],
+  "examples": [
+   "{10}ˣ = {1000} → x = {3}",
+   "{9}ˣ = {27} → x = {frac(3, 2)}",
+   "{2}ˣ = {frac(1, 8)} → x = {-3}"
+  ],
+  "mistake": {
+   "wrong": "{2}ˣ = {16} → x = {8}",
+   "right": "{16} = {pw(2, 4)}, so x = {4}",
+   "why": "x is the number of {2}s multiplied together, not {16} ÷ {2}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 2,
+   "m": 2,
+   "n": 3
+  },
+  "problem": "Solve {p ^ m}ˣ = {p ^ n}.",
+  "steps": [
+   "Write both as powers of {p}: {p ^ m} = {p}{sup(m)} and {p ^ n} = {p}{sup(n)}.",
+   "({p}{sup(m)})ˣ = {p}{sup(n)}, so {p}^({m}x) = {p}{sup(n)}.",
+   "Equal bases, equal indices: {mono(m, 'x')} = {n}, so x = {frac(n, m)}."
+  ],
+  "answer": "x = {frac(n, m)}",
+  "checks": [
+   "n / m == 1.5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m32-1",
+    "status": "draft",
+    "idea": "Write both sides as powers of the same base, then set the indices equal.",
+    "vars": {},
+    "example": [
+     "{2}ˣ = {32} = {pw(2, 5)} → x = {5}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-32-same"
+    }
+   },
+   {
+    "id": "c3m32-2",
+    "status": "draft",
+    "idea": "If the index is an expression, solve the equation it gives.",
+    "vars": {},
+    "example": [
+     "{3}^(x + {1}) = {81} = {pw(3, 4)} → x + {1} = {4} → x = {3}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-32-shift"
+    }
+   },
+   {
+    "id": "c3m32-3",
+    "status": "draft",
+    "idea": "One over a power is a negative index.",
+    "vars": {},
+    "example": [
+     "{5}ˣ = {frac(1, 25)} = {5}⁻{sup(2)} → x = {-2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-32-neg-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "indices-logs"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        2,
+        5
+       ]
+      },
+      "n": {
+       "int": [
+        1,
+        4
+       ]
+      }
+     },
+     "prompt": "Solve {b}ˣ = {frac(1, b ^ n)}.",
+     "answer": "-n",
+     "misconceptions": [
+      {
+       "id": "pos",
+       "wrong": "n",
+       "explain": "One over a power is a negative index: x = {-n}."
+      },
+      {
+       "id": "frac",
+       "wrong": "1 / n",
+       "explain": "x is the index: {frac(1, b ^ n)} = {b}⁻{sup(n)}."
+      }
+     ],
+     "solution": [
+      "{frac(1, b ^ n)} = {1}/{b}{sup(n)} = {b}⁻{sup(n)}.",
+      "So x = {answer}."
+     ],
+     "where": [
+      "b ^ n <= 625",
+      "1 / n != -n"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-32-same",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "Solve {b}ˣ = {b ^ n}.",
+   "answer": "n",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "b ^ n / b",
+     "explain": "x is the index: count how many {b}s multiply to {b ^ n}."
+    }
+   ],
+   "solution": [
+    "{b ^ n} = {b}{sup(n)}.",
+    "So {b}ˣ = {b}{sup(n)} and x = {answer}."
+   ],
+   "where": [
+    "b ^ n <= 3125",
+    "b ^ n / b != n"
+   ]
+  },
+  {
+   "id": "m3-32-shift",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "Solve {b}^(x + {k}) = {b ^ n}.",
+   "answer": "n - k",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "n + k",
+     "explain": "x + {k} = {n} gives x = {n} − {k}."
+    },
+    {
+     "id": "nok",
+     "wrong": "n",
+     "explain": "{n} is x + {k}. Subtract {k}."
+    }
+   ],
+   "solution": [
+    "{b ^ n} = {b}{sup(n)}, so x + {k} = {n}.",
+    "x = {n} − {k} = {answer}."
+   ],
+   "where": [
+    "b ^ n <= 3125",
+    "n != k"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-32-diff",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "Solve {p ^ m}ˣ = {p ^ n}. Give x as a fraction if it is not whole.",
+   "answer": "frac(n, m)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "frac(m, n)",
+     "explain": "From {mono(m, 'x')} = {n}, x = {n} ÷ {m}, not {m} ÷ {n}."
+    }
+   ],
+   "solution": [
+    "Both are powers of {p}: ({p}{sup(m)})ˣ = {p}{sup(n)}.",
+    "{mono(m, 'x')} = {n}, so x = {answer}."
+   ],
+   "answer_kind": "fraction",
+   "where": [
+    "m != n",
+    "p ^ n <= 243",
+    "n % m != 0"
+   ]
+  },
+  {
+   "id": "m3-32-lin",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "Solve {b}^({mono(c, 'x')} − {k}) = {b ^ n}.",
+   "answer": "(n + k) / c",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "(n - k) / c",
+     "explain": "Add {k} to both sides: {mono(c, 'x')} = {n} + {k}."
+    }
+   ],
+   "solution": [
+    "{b ^ n} = {b}{sup(n)}, so {mono(c, 'x')} − {k} = {n}.",
+    "{mono(c, 'x')} = {n + k}, x = {answer}."
+   ],
+   "where": [
+    "(n + k) % c == 0",
+    "b ^ n <= 1024",
+    "n != k"
+   ]
+  },
+  {
+   "id": "m3-32-neg",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "Solve {b}ˣ = {frac(1, b ^ n)}.",
+   "answer": "-n",
+   "misconceptions": [
+    {
+     "id": "pos",
+     "wrong": "n",
+     "explain": "One over a power is a negative index: x = {-n}."
+    },
+    {
+     "id": "frac",
+     "wrong": "1 / n",
+     "explain": "x is the index: {frac(1, b ^ n)} = {b}⁻{sup(n)}."
+    }
+   ],
+   "solution": [
+    "{frac(1, b ^ n)} = {1}/{b}{sup(n)} = {b}⁻{sup(n)}.",
+    "So x = {answer}."
+   ],
+   "where": [
+    "b ^ n <= 625",
+    "1 / n != -n"
+   ],
+   "signed": true
+  }
+ ]
+}

@@ -29,3 +29,6 @@ and the wording. Open items:
   taught as "not tests".
 - **TR-M3-12 (rows 27–30).** Thales is taught as AD/AB = AE/AC = DE/BC and AD/DB = AE/EC, with its converse. The contexts (map of a farm
   near Kumba, river width, groundnut-oil tins priced in FCFA, minibus model) need a quick check that they are realistic.
+- **TR-M3-13 (rows 31–34).** A fractional index is written a^(2/3) because a phone screen cannot show a superscript fraction. The
+  lesson explains this notation. log means base 10. The given value log 2 ≈ 0.3010 and the powers of ten are written by hand.
+  Logarithmic equations reject roots that would need the log of a negative number.

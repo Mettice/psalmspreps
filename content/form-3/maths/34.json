@@ -1,0 +1,393 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 34,
+ "language": "en",
+ "prerequisites": [
+  32,
+  33
+ ],
+ "skills": [
+  {
+   "id": "m3-34",
+   "name": "Solve simple logarithmic equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To solve a logarithmic equation, change it to index form, or combine the logs into one first.\n• log₂ x = 5 → x = 2⁵ = 32.\n• log_x 81 = 4 → x⁴ = 81 → x = 3.\n• log x + log 4 = log 20 → log 4x = log 20 → 4x = 20 → x = 5.\n• log₂ (x − 3) = 4 → x − 3 = 16 → x = 19.\nCheck every answer: you cannot take the log of zero or of a negative number, so reject such solutions.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Index form",
+    "text": "Every log statement is an index statement in disguise: log_b x = n means x = bⁿ.\nSo log₂ x = {5} gives x = {pw(2, 5)} = {32}, and logₓ {49} = {2} gives x² = {49}, so x = {7} (a base must be positive).\nWhen the unknown is inside a bracket, log₃ (x + {1}) = {2} gives x + {1} = {9}, so x = {8}."
+   },
+   {
+    "heading": "Combining logs",
+    "text": "If there are several logs, use the laws to make one log on each side:\nlog x + log {4} = log {20} → log ({4}x) = log {20} → {mono(4, 'x')} = {20} → x = {5}.\nWhen both sides are a single log of the same base, the insides must be equal."
+   },
+   {
+    "heading": "Checking answers",
+    "text": "Logs exist only for positive numbers. In log₂ x + log₂ (x − {2}) = log₂ {15}, you get x(x − {2}) = {15}, so x = {5} or x = {-3}.\nx = {-3} would need log₂ ({-3}), which does not exist, so the only solution is x = {5}.\nAlways substitute back to check."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "index form",
+    "meaning": "writing log_b x = n as bⁿ = x"
+   },
+   {
+    "word": "logarithmic equation",
+    "meaning": "an equation with the unknown inside a log"
+   },
+   {
+    "word": "reject",
+    "meaning": "discard a solution that does not fit the original equation"
+   }
+  ],
+  "examples": [
+   "log₃ x = {4} → x = {81}",
+   "log x − log {3} = log {5} → x = {15}",
+   "log₅ (x + {2}) = {2} → x = {23}"
+  ],
+  "mistake": {
+   "wrong": "log₂ x = {3} → x = {6}",
+   "right": "log₂ x = {3} → x = {pw(2, 3)} = {8}",
+   "why": "The log is the index: x is {2} raised to the power {3}, not {2} × {3}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "r": 5,
+   "b": 15
+  },
+  "problem": "Solve log₃ x + log₃ (x − {a}) = log₃ {b}.",
+  "steps": [
+   "Combine: log₃ [x(x − {a})] = log₃ {b}, so x(x − {a}) = {b}.",
+   "{poly([1, 'x²'], [-a, 'x'], [-b, ''])} = {0} → (x − {r})(x + {r - a}) = {0}.",
+   "x = {r} or x = {a - r}. x − {a} must be positive, so reject x = {a - r}."
+  ],
+  "answer": "x = {r}",
+  "checks": [
+   "r * (r - a) == b"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m34-1",
+    "status": "draft",
+    "idea": "Change to index form: log_b x = n means x = bⁿ.",
+    "vars": {},
+    "example": [
+     "log₂ x = {5} → x = {pw(2, 5)} = {32}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-34-index"
+    }
+   },
+   {
+    "id": "c3m34-2",
+    "status": "draft",
+    "idea": "Combine logs with the laws, then remove the log from both sides.",
+    "vars": {},
+    "example": [
+     "log x + log {4} = log {20} → {mono(4, 'x')} = {20} → x = {5}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-34-comb-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "indices-logs"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        15
+       ]
+      }
+     },
+     "prompt": "Solve log x + log {a} = log {a * k}.",
+     "answer": "k",
+     "misconceptions": [
+      {
+       "id": "sub",
+       "wrong": "a * k - a",
+       "explain": "log x + log {a} = log ({a}x): the {a} multiplies x, it is not added."
+      }
+     ],
+     "solution": [
+      "log x + log {a} = log ({a}x).",
+      "So {mono(a, 'x')} = {a * k} and x = {answer}."
+     ],
+     "where": [
+      "a * k - a != k"
+     ]
+    }
+   },
+   {
+    "id": "c3m34-3",
+    "status": "draft",
+    "idea": "Reject any answer that makes you take the log of zero or a negative number.",
+    "vars": {},
+    "example": [
+     "log (x − {2}) needs x > {2}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-34-base"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-34-index",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "{'log' + sub(b)} x = {n}. Find x.",
+   "answer": "b ^ n",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "b * n",
+     "explain": "x = {b}{sup(n)}, a power, not {b} × {n}."
+    },
+    {
+     "id": "rev",
+     "wrong": "n ^ b",
+     "explain": "The base is {b}: x = {b}{sup(n)}, not {n}{sup(b)}."
+    }
+   ],
+   "solution": [
+    "Index form: x = {b}{sup(n)}.",
+    "x = {answer}."
+   ],
+   "where": [
+    "b ^ n <= 1024",
+    "b * n != b ^ n",
+    "n ^ b != b ^ n"
+   ]
+  },
+  {
+   "id": "m3-34-base",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "Solve logₓ {r ^ n} = {n}.",
+   "answer": "r",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "r ^ n / n",
+     "explain": "x{sup(n)} = {r ^ n}: take the root, do not divide by {n}."
+    }
+   ],
+   "solution": [
+    "Index form: x{sup(n)} = {r ^ n}.",
+    "x = the {n == 2 ? 'square' : n == 3 ? 'cube' : 'fourth'} root of {r ^ n} = {answer}."
+   ],
+   "where": [
+    "r ^ n <= 1296",
+    "r ^ n / n != r"
+   ]
+  },
+  {
+   "id": "m3-34-comb",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "Solve log x + log {a} = log {a * k}.",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "a * k - a",
+     "explain": "log x + log {a} = log ({a}x): the {a} multiplies x, it is not added."
+    }
+   ],
+   "solution": [
+    "log x + log {a} = log ({a}x).",
+    "So {mono(a, 'x')} = {a * k} and x = {answer}."
+   ],
+   "where": [
+    "a * k - a != k"
+   ]
+  },
+  {
+   "id": "m3-34-shift",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "a": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "{'log' + sub(b)} (x − {a}) = {n}. Find x.",
+   "answer": "b ^ n + a",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "b ^ n - a",
+     "explain": "x − {a} = {b ^ n}, so add {a}: x = {b ^ n} + {a}."
+    },
+    {
+     "id": "noexp",
+     "wrong": "n + a",
+     "explain": "Change to index form first: x − {a} = {b}{sup(n)}."
+    }
+   ],
+   "solution": [
+    "Index form: x − {a} = {b}{sup(n)} = {b ^ n}.",
+    "x = {b ^ n} + {a} = {answer}."
+   ],
+   "where": [
+    "b ^ n <= 243",
+    "b ^ n - a != n + a"
+   ]
+  },
+  {
+   "id": "m3-34-quad",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      10
+     ]
+    },
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "r": {
+     "int": [
+      3,
+      10
+     ]
+    }
+   },
+   "prompt": "Solve {'log' + sub(b)} x + {'log' + sub(b)} (x − {a}) = {'log' + sub(b)} {r * (r - a)}.",
+   "answer": "r",
+   "misconceptions": [
+    {
+     "id": "neg",
+     "wrong": "a - r",
+     "explain": "x = {a - r} would make you take the log of a negative number: reject it."
+    },
+    {
+     "id": "lin",
+     "wrong": "r * (r - a) / a + 0",
+     "explain": "x(x − {a}) is not {a}x: expand and solve the quadratic."
+    }
+   ],
+   "solution": [
+    "Combine: x(x − {a}) = {r * (r - a)}, so {poly([1, 'x²'], [-a, 'x'], [-r * (r - a), ''])} = {0}.",
+    "(x − {r})(x + {r - a}) = {0}: x = {r} or x = {a - r}.",
+    "x − {a} must be positive, so x = {answer}."
+   ],
+   "where": [
+    "r > a",
+    "a - r != r",
+    "r * (r - a) / a != r"
+   ],
+   "signed": true
+  }
+ ]
+}
