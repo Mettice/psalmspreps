@@ -1,0 +1,614 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "s3-15",
+   "name": "Data capture technologies: automatic input devices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Data capture means getting data into a computer system. Automatic (direct) methods are fast and reduce typing errors:\n• Barcode reader: reads product codes at supermarket tills. • QR code: square code read by phone cameras (payments, links).\n• OCR (optical character recognition): turns scanned printed text into editable text. • OMR (optical mark recognition): reads pencil marks on multiple-choice answer sheets and forms.\n• MICR (magnetic ink character recognition): reads the numbers printed in magnetic ink on cheques.\n• Magnetic stripe and chip cards (with PIN): bank and ID cards. • RFID: radio tags read without contact (tickets, livestock, toll cards).\n• Biometrics: fingerprints, face or iris to identify people. • Sensors: temperature, light, pressure for automatic monitoring.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Getting data in automatically",
+    "text": "Typing data by hand is slow and causes mistakes. Data capture technologies read data straight into the computer.\n• Barcode readers scan the striped codes on products at supermarket tills.\n• QR codes are square patterns read by phone cameras, used for mobile payments and links.\n• Magnetic stripe and chip cards (with a PIN) are used by banks and for ID."
+   },
+   {
+    "heading": "Reading paper",
+    "text": "• OMR (optical mark recognition) detects where pencil marks are on a form: multiple-choice answer sheets, lottery tickets, surveys.\n• OCR (optical character recognition) turns scanned printed text into text you can edit.\n• MICR (magnetic ink character recognition) reads the special numbers on cheques, printed in magnetic ink that is hard to forge."
+   },
+   {
+    "heading": "Radio, bodies and sensors",
+    "text": "• RFID (radio frequency identification) reads tags without contact: transport cards, library books, livestock ear tags, toll gates.\n• Biometrics identify people by fingerprint, face or iris: phone unlocking, staff attendance, ID cards.\n• Sensors measure temperature, light, pressure or movement automatically.\nChoose the method that is fastest and most accurate for the job, and protect any personal data collected."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "data capture",
+    "meaning": "getting data into a computer system"
+   },
+   {
+    "word": "OMR",
+    "meaning": "optical mark recognition"
+   },
+   {
+    "word": "OCR",
+    "meaning": "optical character recognition"
+   },
+   {
+    "word": "MICR",
+    "meaning": "magnetic ink character recognition"
+   },
+   {
+    "word": "RFID",
+    "meaning": "radio frequency identification"
+   },
+   {
+    "word": "biometrics",
+    "meaning": "identifying people by body features"
+   }
+  ],
+  "examples": [
+   "Till: barcode",
+   "Exam sheets: OMR",
+   "Cheques: MICR",
+   "Toll gate: RFID"
+  ],
+  "mistake": {
+   "wrong": "OCR reads the pencil marks on multiple-choice answer sheets",
+   "right": "OMR reads the marks; OCR reads printed characters",
+   "why": "Marks → OMR; characters → OCR."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Which data capture method is best for marking {2000} multiple-choice answer sheets for a mock exam, and why?",
+  "steps": [
+   "The pupils shade boxes with a pencil.",
+   "OMR reads the position of the marks automatically.",
+   "It is fast and accurate for large numbers of sheets."
+  ],
+  "answer": "OMR (optical mark recognition)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s15-1",
+    "status": "draft",
+    "idea": "Barcodes and QR codes are read by scanners or cameras.",
+    "vars": {},
+    "example": [
+     "Supermarket tills scan barcodes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-15-match"
+    }
+   },
+   {
+    "id": "c3s15-2",
+    "status": "draft",
+    "idea": "OMR reads marks; OCR reads printed characters.",
+    "vars": {},
+    "example": [
+     "Exam answer sheets: OMR. Scanned letters: OCR."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-15-omr"
+    }
+   },
+   {
+    "id": "c3s15-3",
+    "status": "draft",
+    "idea": "Automatic capture is faster and has fewer typing errors.",
+    "vars": {},
+    "example": [
+     "Scanning a barcode beats typing a {13}-digit number."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-15-why-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "data-capture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is scanning barcodes better than typing product codes at a till?",
+         "r": "It is faster and reduces typing errors",
+         "w": [
+          "It is slower but prettier",
+          "It needs no computer",
+          "It works without electricity"
+         ],
+         "e": [
+          "It is faster.",
+          "A computer looks up the price.",
+          "Scanners need power."
+         ],
+         "y": "Automatic capture is quick and accurate."
+        },
+        {
+         "q": "Which is a disadvantage of biometric attendance systems?",
+         "r": "They store personal data that must be protected and can fail with dirty or injured fingers",
+         "w": [
+          "They are always slower than paper",
+          "They never need power",
+          "They cannot identify anyone"
+         ],
+         "e": [
+          "They are usually faster.",
+          "They need power.",
+          "They identify people well."
+         ],
+         "y": "Privacy and reliability must be considered."
+        },
+        {
+         "q": "Why do banks use chip-and-PIN cards instead of only magnetic stripes?",
+         "r": "The chip is harder to copy, and the PIN proves the user",
+         "w": [
+          "Chips are cheaper than paper",
+          "Stripes hold more money",
+          "PINs make cards heavier"
+         ],
+         "e": [
+          "Cost is not the reason.",
+          "Cards do not hold money physically.",
+          "Weight is irrelevant."
+         ],
+         "y": "Better security against fraud."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-15-match",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-capture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A cashier scans the striped code on a tin of milk.",
+       "r": "barcode reader",
+       "w": [
+        "OMR",
+        "MICR",
+        "biometrics"
+       ],
+       "e": [
+        "OMR reads pencil marks.",
+        "MICR reads magnetic ink on cheques.",
+        "Biometrics identify people."
+       ],
+       "y": "Barcodes identify products."
+      },
+      {
+       "q": "A bank reads the special numbers at the bottom of a cheque.",
+       "r": "MICR",
+       "w": [
+        "OCR",
+        "RFID",
+        "QR code"
+       ],
+       "e": [
+        "OCR reads ordinary print.",
+        "RFID uses radio tags.",
+        "QR codes are square patterns."
+       ],
+       "y": "Magnetic ink is hard to forge."
+      },
+      {
+       "q": "A phone camera reads a square pattern to pay for goods.",
+       "r": "QR code",
+       "w": [
+        "barcode",
+        "OMR",
+        "magnetic stripe"
+       ],
+       "e": [
+        "Barcodes are lines.",
+        "OMR reads marks on forms.",
+        "A stripe is swiped."
+       ],
+       "y": "QR codes are two-dimensional and read by cameras."
+      },
+      {
+       "q": "A worker's attendance is recorded by placing a finger on a scanner.",
+       "r": "biometrics",
+       "w": [
+        "RFID",
+        "OCR",
+        "barcode reader"
+       ],
+       "e": [
+        "RFID uses a tag.",
+        "OCR reads text.",
+        "A barcode is printed."
+       ],
+       "y": "Fingerprints are unique to each person."
+      }
+     ]
+    }
+   },
+   "prompt": "Which data capture method is used? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-15-omr",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-capture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the difference between OMR and OCR?",
+       "r": "OMR reads the position of marks; OCR reads printed letters and numbers",
+       "w": [
+        "They are exactly the same",
+        "OMR reads magnetic ink; OCR reads barcodes",
+        "OCR reads pencil marks only"
+       ],
+       "e": [
+        "They do different jobs.",
+        "Magnetic ink is MICR; barcodes have their own readers.",
+        "OCR reads characters, not just marks."
+       ],
+       "y": "Marks vs characters."
+      },
+      {
+       "q": "Which method turns a scanned printed page into text you can edit?",
+       "r": "OCR",
+       "w": [
+        "OMR",
+        "MICR",
+        "RFID"
+       ],
+       "e": [
+        "OMR reads marks.",
+        "MICR reads magnetic ink.",
+        "RFID reads radio tags."
+       ],
+       "y": "Optical character recognition."
+      },
+      {
+       "q": "Which method reads a tag on a cow's ear without touching it?",
+       "r": "RFID",
+       "w": [
+        "OMR",
+        "barcode reader",
+        "MICR"
+       ],
+       "e": [
+        "OMR needs a paper form.",
+        "Barcodes need line of sight and can get dirty.",
+        "MICR is for cheques."
+       ],
+       "y": "Radio waves read the tag from a distance."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-15-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "data-capture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is scanning barcodes better than typing product codes at a till?",
+       "r": "It is faster and reduces typing errors",
+       "w": [
+        "It is slower but prettier",
+        "It needs no computer",
+        "It works without electricity"
+       ],
+       "e": [
+        "It is faster.",
+        "A computer looks up the price.",
+        "Scanners need power."
+       ],
+       "y": "Automatic capture is quick and accurate."
+      },
+      {
+       "q": "Which is a disadvantage of biometric attendance systems?",
+       "r": "They store personal data that must be protected and can fail with dirty or injured fingers",
+       "w": [
+        "They are always slower than paper",
+        "They never need power",
+        "They cannot identify anyone"
+       ],
+       "e": [
+        "They are usually faster.",
+        "They need power.",
+        "They identify people well."
+       ],
+       "y": "Privacy and reliability must be considered."
+      },
+      {
+       "q": "Why do banks use chip-and-PIN cards instead of only magnetic stripes?",
+       "r": "The chip is harder to copy, and the PIN proves the user",
+       "w": [
+        "Chips are cheaper than paper",
+        "Stripes hold more money",
+        "PINs make cards heavier"
+       ],
+       "e": [
+        "Cost is not the reason.",
+        "Cards do not hold money physically.",
+        "Weight is irrelevant."
+       ],
+       "y": "Better security against fraud."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-15-best",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "data-capture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Recording the temperature of a vaccine fridge every 10 minutes, day and night",
+       "r": "a temperature sensor with data logging",
+       "w": [
+        "a person writing it down",
+        "OMR forms",
+        "a barcode reader"
+       ],
+       "e": [
+        "A person cannot do it all night reliably.",
+        "OMR is for marked forms.",
+        "Barcodes identify products."
+       ],
+       "y": "Sensors record automatically and continuously."
+      },
+      {
+       "q": "Charging motorists at a toll gate without stopping",
+       "r": "RFID tags on the vehicles",
+       "w": [
+        "MICR",
+        "OCR of handwritten notes",
+        "OMR sheets"
+       ],
+       "e": [
+        "MICR is for cheques.",
+        "Handwriting is slow and unreliable.",
+        "OMR needs forms."
+       ],
+       "y": "RFID is read at a distance."
+      },
+      {
+       "q": "Turning an old printed school register into a computer document",
+       "r": "scanning with OCR",
+       "w": [
+        "RFID",
+        "biometrics",
+        "MICR"
+       ],
+       "e": [
+        "RFID reads tags.",
+        "Biometrics identify people.",
+        "MICR reads magnetic ink."
+       ],
+       "y": "OCR converts printed text."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method is best? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

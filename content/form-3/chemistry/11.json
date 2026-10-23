@@ -1,0 +1,484 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "k3-11",
+   "name": "Valence electrons and the Periodic Table"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Valence electrons are the electrons in the outer shell.\nIn the Periodic Table:\n• the group number = the number of valence electrons (groups I to VII; group VIII or 0 = noble gases, with a full outer shell);\n• the period number = the number of shells containing electrons.\nElements in the same group have the same number of valence electrons, so they have similar chemical properties.\nFamilies: group I alkali metals, group II alkaline earth metals, group VII halogens, group VIII (0) noble gases.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Outer electrons decide the group",
+    "text": "The electrons in the outer shell are called valence electrons. They are the ones used in reactions.\nIn the Periodic Table, the group (column) number tells you the number of valence electrons: group I has {1}, group II has {2}, … group VII has {7}.\nGroup VIII (also called group {0}) holds the noble gases, whose outer shells are full."
+   },
+   {
+    "heading": "Shells decide the period",
+    "text": "The period (row) number tells you how many shells contain electrons. Lithium ({2}, {1}) has {2} shells, so it is in period {2}; sodium ({2}, {8}, {1}) is in period {3}.\nSo from the configuration you can place any of the first {20} elements: chlorine ({2}, {8}, {7}) is group VII, period {3}."
+   },
+   {
+    "heading": "Families with similar chemistry",
+    "text": "Elements in the same group have the same number of valence electrons, so they react in similar ways:\n• group I: alkali metals (Li, Na, K);\n• group II: alkaline earth metals (Be, Mg, Ca);\n• group VII: halogens (F, Cl, Br, I);\n• group VIII ({0}): noble gases (He, Ne, Ar).\nGoing down a group, the number of shells increases."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "valence electrons",
+    "meaning": "electrons in the outer shell"
+   },
+   {
+    "word": "group",
+    "meaning": "a column of the Periodic Table: same number of valence electrons"
+   },
+   {
+    "word": "period",
+    "meaning": "a row of the Periodic Table: same number of shells"
+   }
+  ],
+  "examples": [
+   "Magnesium {2},{8},{2}: group II, period {3}",
+   "Oxygen {2},{6}: group VI, period {2}",
+   "Potassium {2},{8},{8},{1}: group I, period {4}"
+  ],
+  "mistake": {
+   "wrong": "Chlorine ({2}, {8}, {7}) is in group {3}",
+   "right": "Chlorine is in group VII (seven outer electrons) and period {3}",
+   "why": "The group counts outer electrons; the period counts shells."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 16
+  },
+  "problem": "Sulphur has atomic number {z}. Find its group and period.",
+  "steps": [
+   "Configuration: {shells(z)}.",
+   "Valence electrons: {outerElectrons(z)}, so group {groupOf(z)}.",
+   "Shells: {periodOf(z)}, so period {periodOf(z)}."
+  ],
+  "answer": "Group {groupOf(z)}, period {periodOf(z)}",
+  "checks": [
+   "groupOf(z) == 6"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k11-1",
+    "status": "draft",
+    "idea": "Group = number of outer (valence) electrons.",
+    "vars": {},
+    "example": [
+     "Chlorine {2}, {8}, {7}: group {7}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-11-group"
+    }
+   },
+   {
+    "id": "c3k11-2",
+    "status": "draft",
+    "idea": "Period = number of shells.",
+    "vars": {},
+    "example": [
+     "Chlorine has {3} shells: period {3}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-11-period"
+    }
+   },
+   {
+    "id": "c3k11-3",
+    "status": "draft",
+    "idea": "Same group, same number of valence electrons, similar chemistry.",
+    "vars": {},
+    "example": [
+     "Li, Na and K are all in group {1}: alkali metals."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-11-family-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "electrons"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        "Li",
+        "Na",
+        "K",
+        "Be",
+        "Mg",
+        "Ca",
+        "F",
+        "Cl",
+        "He",
+        "Ne",
+        "Ar"
+       ]
+      },
+      "z": {
+       "expr": "atomicNumber(X)"
+      }
+     },
+     "prompt": "{nameOf(X)} (atomic number {z}) belongs to which family?",
+     "correct": "{familyOf(z)}",
+     "distractors": [
+      {
+       "text": "{familyOf(z) == 'alkali metals' ? 'halogens' : 'alkali metals'}",
+       "misconception": "f1"
+      },
+      {
+       "text": "{familyOf(z) == 'noble gases' ? 'halogens' : 'noble gases'}",
+       "misconception": "f2"
+      },
+      {
+       "text": "{familyOf(z) == 'alkaline earth metals' ? 'halogens' : 'alkaline earth metals'}",
+       "misconception": "f3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "f1",
+       "explain": "Group {groupOf(z)}: {familyOf(z)}. Alkali metals are group {1}, halogens group {7}."
+      },
+      {
+       "id": "f2",
+       "explain": "Group {groupOf(z)}: {familyOf(z)}. Noble gases have a full outer shell."
+      },
+      {
+       "id": "f3",
+       "explain": "Group {groupOf(z)}: {familyOf(z)}. {familyOf(z) == 'alkaline earth metals' ? 'Halogens are group ' + 7 + '.' : 'Alkaline earth metals are group ' + 2 + '.'}"
+      }
+     ],
+     "solution": [
+      "Configuration {shells(z)}: group {groupOf(z)}.",
+      "Group {groupOf(z)} is the {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-11-group",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "{nameOf(X)} has atomic number {z}. Which group is it in?",
+   "answer": "groupOf(z)",
+   "misconceptions": [
+    {
+     "id": "period",
+     "wrong": "periodOf(z)",
+     "explain": "That is the period (number of shells). The group is the number of outer electrons."
+    }
+   ],
+   "solution": [
+    "Configuration: {shells(z)}.",
+    "{z == 2 ? 'Helium has a full outer shell: it is a noble gas, group 8 (0).' : 'Valence electrons: ' + outerElectrons(z) + '.'} Group {answer}."
+   ],
+   "where": [
+    "groupOf(z) != periodOf(z)"
+   ]
+  },
+  {
+   "id": "k3-11-period",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "{nameOf(X)} has atomic number {z}. Which period is it in?",
+   "answer": "periodOf(z)",
+   "misconceptions": [
+    {
+     "id": "group",
+     "wrong": "groupOf(z)",
+     "explain": "That is the group. The period is the number of shells."
+    }
+   ],
+   "solution": [
+    "Configuration: {shells(z)}.",
+    "Number of shells: {answer}, so period {answer}."
+   ],
+   "where": [
+    "groupOf(z) != periodOf(z)"
+   ]
+  },
+  {
+   "id": "k3-11-family",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Na",
+      "K",
+      "Be",
+      "Mg",
+      "Ca",
+      "F",
+      "Cl",
+      "He",
+      "Ne",
+      "Ar"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "{nameOf(X)} (atomic number {z}) belongs to which family?",
+   "correct": "{familyOf(z)}",
+   "distractors": [
+    {
+     "text": "{familyOf(z) == 'alkali metals' ? 'halogens' : 'alkali metals'}",
+     "misconception": "f1"
+    },
+    {
+     "text": "{familyOf(z) == 'noble gases' ? 'halogens' : 'noble gases'}",
+     "misconception": "f2"
+    },
+    {
+     "text": "{familyOf(z) == 'alkaline earth metals' ? 'halogens' : 'alkaline earth metals'}",
+     "misconception": "f3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "f1",
+     "explain": "Group {groupOf(z)}: {familyOf(z)}. Alkali metals are group {1}, halogens group {7}."
+    },
+    {
+     "id": "f2",
+     "explain": "Group {groupOf(z)}: {familyOf(z)}. Noble gases have a full outer shell."
+    },
+    {
+     "id": "f3",
+     "explain": "Group {groupOf(z)}: {familyOf(z)}. {familyOf(z) == 'alkaline earth metals' ? 'Halogens are group ' + 7 + '.' : 'Alkaline earth metals are group ' + 2 + '.'}"
+    }
+   ],
+   "solution": [
+    "Configuration {shells(z)}: group {groupOf(z)}.",
+    "Group {groupOf(z)} is the {answer}."
+   ]
+  },
+  {
+   "id": "k3-11-z",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "z": {
+     "int": [
+      3,
+      20
+     ]
+    },
+    "g": {
+     "expr": "groupOf(z)"
+    },
+    "p": {
+     "expr": "periodOf(z)"
+    }
+   },
+   "prompt": "An element is in group {g} and period {p}. What is its atomic number?",
+   "answer": "z",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "g + p",
+     "explain": "Build the configuration and add all the electrons, not just the group and period numbers."
+    }
+   ],
+   "solution": [
+    "Period {p}: {p} shells; group {g}: {g} electron(s) in the outer shell.",
+    "Configuration {shells(z)}, so the atomic number is {answer}."
+   ],
+   "where": [
+    "g + p != z",
+    "g != 8"
+   ]
+  },
+  {
+   "id": "k3-11-same",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do sodium and potassium react in a similar way?",
+       "r": "Both have one electron in the outer shell",
+       "w": [
+        "Both have the same number of shells",
+        "Both have the same atomic number",
+        "Both are gases"
+       ],
+       "e": [
+        "Sodium has 3 shells, potassium 4.",
+        "Their atomic numbers are 11 and 19.",
+        "Both are solid metals."
+       ],
+       "y": "Same group: same number of valence electrons."
+      },
+      {
+       "q": "Which pair of elements are in the same period?",
+       "r": "sodium and chlorine",
+       "w": [
+        "sodium and potassium",
+        "fluorine and chlorine",
+        "helium and neon"
+       ],
+       "e": [
+        "Same group (I), different periods.",
+        "Same group (VII), different periods.",
+        "Both noble gases, different periods."
+       ],
+       "y": "Na (2,8,1) and Cl (2,8,7) both have 3 shells."
+      },
+      {
+       "q": "Why are the noble gases very unreactive?",
+       "r": "Their outer shells are full",
+       "w": [
+        "They have no electrons",
+        "They are very heavy",
+        "They have one outer electron"
+       ],
+       "e": [
+        "They have electrons; their outer shell is full.",
+        "Mass does not explain it.",
+        "That describes group I."
+       ],
+       "y": "A full outer shell is a stable arrangement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

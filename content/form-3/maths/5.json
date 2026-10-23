@@ -1,0 +1,465 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  3,
+  4
+ ],
+ "skills": [
+  {
+   "id": "m3-5",
+   "name": "Factorise quadratic trinomials"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A quadratic trinomial x² + bx + c factorises as (x + p)(x + q), where p + q = b and p × q = c.\n• List the factor pairs of c and choose the pair that adds to b.\n• Signs: c positive → p and q have the same sign as b; c negative → one is positive and one negative.\n• When the coefficient of x² is not 1 (ax² + bx + c), try factor pairs of a and of c until the middle term is right.\n• Always check by expanding.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Reading the pattern",
+    "text": "Expand {'(' + poly([1, 'x'], [2, '']) + ')' + '(' + poly([1, 'x'], [5, '']) + ')'}: you get {poly([1, 'x²'], [7, 'x'], [10, ''])}. Look where the numbers went:\n• {7} is {2} + {5}, the sum;\n• {10} is {2} × {5}, the product.\nSo to factorise x² + bx + c, look for two numbers that multiply to c and add to b. Then x² + bx + c = (x + first)(x + second)."
+   },
+   {
+    "heading": "Finding the two numbers",
+    "text": "Factorise {poly([1, 'x²'], [-1, 'x'], [-12, ''])}. Product {-12}, sum {-1}.\nThe product is negative, so one number is negative. List the pairs for {12}: {1} and {12}, {2} and {6}, {3} and {4}.\nWhich pair, with one negative, adds to {-1}? {3} and {-4}.\nAnswer: {'(' + poly([1, 'x'], [3, '']) + ')' + '(' + poly([1, 'x'], [-4, '']) + ')'}.\nSign guide: c positive and b positive → both positive; c positive and b negative → both negative; c negative → different signs."
+   },
+   {
+    "heading": "When x² has a coefficient",
+    "text": "For {poly([2, 'x²'], [7, 'x'], [3, ''])} the first terms of the brackets must multiply to {mono(2, 'x²')}: so ({mono(2, 'x')} …)(x …).\nThe last terms must multiply to {3}: try {1} and {3}.\n{'(' + poly([2, 'x'], [1, '']) + ')' + '(' + poly([1, 'x'], [3, '']) + ')'} gives {mono(6, 'x')} + x = {mono(7, 'x')}. ✓\nIf the middle term is wrong, swap the numbers and try again. Expanding is the check."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "trinomial",
+    "meaning": "an expression with three terms"
+   },
+   {
+    "word": "quadratic",
+    "meaning": "the highest power of x is x²"
+   },
+   {
+    "word": "factor pair",
+    "meaning": "two numbers that multiply to a given number"
+   }
+  ],
+  "examples": [
+   "{poly([1, 'x²'], [5, 'x'], [6, ''])} = {'(' + poly([1, 'x'], [2, '']) + ')' + '(' + poly([1, 'x'], [3, '']) + ')'}",
+   "{poly([1, 'x²'], [-6, 'x'], [8, ''])} = {'(' + poly([1, 'x'], [-2, '']) + ')' + '(' + poly([1, 'x'], [-4, '']) + ')'}",
+   "{poly([1, 'x²'], [3, 'x'], [-10, ''])} = {'(' + poly([1, 'x'], [5, '']) + ')' + '(' + poly([1, 'x'], [-2, '']) + ')'}"
+  ],
+  "mistake": {
+   "wrong": "{poly([1, 'x²'], [2, 'x'], [-8, ''])} = {'(' + poly([1, 'x'], [-4, '']) + ')' + '(' + poly([1, 'x'], [2, '']) + ')'}",
+   "right": "{poly([1, 'x²'], [2, 'x'], [-8, ''])} = {'(' + poly([1, 'x'], [4, '']) + ')' + '(' + poly([1, 'x'], [-2, '']) + ')'}",
+   "why": "Both pairs multiply to {-8}, but only {4} and {-2} add to {2}. Always check the sum."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 5,
+   "q": -2
+  },
+  "problem": "Factorise {poly([1, 'x²'], [p + q, 'x'], [p * q, ''])}.",
+  "steps": [
+   "We need two numbers with product {p * q} and sum {p + q}.",
+   "The product is negative, so one number is negative. Pairs for {abs(p * q)}: {1} and {10}, {2} and {5}.",
+   "{p} + {br(q)} = {p + q}: the numbers are {p} and {q}.",
+   "Check: {'(' + poly([1, 'x'], [p, '']) + ')' + '(' + poly([1, 'x'], [q, '']) + ')'} = {poly([1, 'x²'], [p + q, 'x'], [p * q, ''])}."
+  ],
+  "answer": "{'(' + poly([1, 'x'], [p, '']) + ')' + '(' + poly([1, 'x'], [q, '']) + ')'}",
+  "checks": [
+   "p * q == -10"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m5-1",
+    "status": "draft",
+    "idea": "x² + bx + c = (x + p)(x + q) when p + q = b and p × q = c.",
+    "vars": {},
+    "example": [
+     "{poly([1, 'x²'], [7, 'x'], [12, ''])}: {3} + {4} = {7} and {3} × {4} = {12}, so {'(' + poly([1, 'x'], [3, '']) + ')' + '(' + poly([1, 'x'], [4, '']) + ')'}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-5-pos"
+    }
+   },
+   {
+    "id": "c3m5-2",
+    "status": "draft",
+    "idea": "If c is negative, one number is negative and one positive.",
+    "vars": {},
+    "example": [
+     "{poly([1, 'x²'], [2, 'x'], [-15, ''])} = {'(' + poly([1, 'x'], [5, '']) + ')' + '(' + poly([1, 'x'], [-3, '']) + ')'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-5-neg-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-factorise"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "q": {
+       "int": [
+        -9,
+        -1
+       ]
+      }
+     },
+     "prompt": "Factorise {poly([1, 'x²'], [p + q, 'x'], [p * q, ''])}.",
+     "correct": "{'(' + poly([1, 'x'], [p, '']) + ')' + '(' + poly([1, 'x'], [q, '']) + ')'}",
+     "distractors": [
+      {
+       "text": "{'(' + poly([1, 'x'], [-p, '']) + ')' + '(' + poly([1, 'x'], [-q, '']) + ')'}",
+       "misconception": "swap"
+      },
+      {
+       "text": "{'(' + poly([1, 'x'], [p, '']) + ')' + '(' + poly([1, 'x'], [-q, '']) + ')'}",
+       "misconception": "bothpos"
+      },
+      {
+       "text": "{'(' + poly([1, 'x'], [-p, '']) + ')' + '(' + poly([1, 'x'], [q, '']) + ')'}",
+       "misconception": "bothneg"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "swap",
+       "explain": "Expand it: the middle term would be {mono(-p - q, 'x')}; the signs are the wrong way round."
+      },
+      {
+       "id": "bothpos",
+       "explain": "Expand it: the last term would be {p * -q}, positive; we need {p * q}."
+      },
+      {
+       "id": "bothneg",
+       "explain": "Expand it: the last term would be {-p * q}, positive; we need {p * q}."
+      }
+     ],
+     "solution": [
+      "Product {p * q} is negative, so one number is negative; their sum is {p + q}.",
+      "{p} + {br(q)} = {p + q} and {p} × {br(q)} = {p * q}, so the answer is {answer}."
+     ],
+     "where": [
+      "p + q != 0",
+      "p != -q"
+     ]
+    }
+   },
+   {
+    "id": "c3m5-3",
+    "status": "draft",
+    "idea": "Check a factorisation by expanding it.",
+    "vars": {},
+    "example": [
+     "{'(' + poly([1, 'x'], [4, '']) + ')' + '(' + poly([1, 'x'], [-1, '']) + ')'} = {poly([1, 'x²'], [3, 'x'], [-4, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-5-pair"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-5-pos",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([1, 'x²'], [p + q, 'x'], [p * q, ''])}.",
+   "correct": "{'(' + poly([1, 'x'], [p, '']) + ')' + '(' + poly([1, 'x'], [q, '']) + ')'}",
+   "distractors": [
+    {
+     "text": "{'(' + poly([1, 'x'], [p * q, '']) + ')' + '(' + poly([1, 'x'], [1, '']) + ')'}",
+     "misconception": "prod"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [-p, '']) + ')' + '(' + poly([1, 'x'], [-q, '']) + ')'}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [p + q, '']) + ')' + '(' + poly([1, 'x'], [p * q, '']) + ')'}",
+     "misconception": "both"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "prod",
+     "explain": "Expand it: the middle term would be {mono(p * q + 1, 'x')}. The numbers must also add to {p + q}."
+    },
+    {
+     "id": "sign",
+     "explain": "With these signs the middle term is {mono(-p - q, 'x')}; we need {mono(p + q, 'x')}."
+    },
+    {
+     "id": "both",
+     "explain": "Those are the sum and the product themselves; find two numbers that give them."
+    }
+   ],
+   "solution": [
+    "Two numbers with sum {p + q} and product {p * q}: {p} and {q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p < q",
+    "p * q + 1 != p + q"
+   ]
+  },
+  {
+   "id": "m3-5-pair",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Find two numbers whose sum is {p + q} and whose product is {p * q}. Give the larger one.",
+   "answer": "max(p, q)",
+   "misconceptions": [
+    {
+     "id": "small",
+     "wrong": "min(p, q)",
+     "explain": "That is the smaller of the two numbers: {min(p, q)} and {max(p, q)}."
+    }
+   ],
+   "solution": [
+    "Try factor pairs of {p * q}: {p} × {q} = {p * q} and {p} + {br(q)} = {p + q}.",
+    "The larger one is {answer}."
+   ],
+   "where": [
+    "p != q",
+    "p != 0 && q != 0",
+    "abs(p) != 1 || abs(q) != 1"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-5-neg",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      -1
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([1, 'x²'], [p + q, 'x'], [p * q, ''])}.",
+   "correct": "{'(' + poly([1, 'x'], [p, '']) + ')' + '(' + poly([1, 'x'], [q, '']) + ')'}",
+   "distractors": [
+    {
+     "text": "{'(' + poly([1, 'x'], [-p, '']) + ')' + '(' + poly([1, 'x'], [-q, '']) + ')'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [p, '']) + ')' + '(' + poly([1, 'x'], [-q, '']) + ')'}",
+     "misconception": "bothpos"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [-p, '']) + ')' + '(' + poly([1, 'x'], [q, '']) + ')'}",
+     "misconception": "bothneg"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Expand it: the middle term would be {mono(-p - q, 'x')}; the signs are the wrong way round."
+    },
+    {
+     "id": "bothpos",
+     "explain": "Expand it: the last term would be {p * -q}, positive; we need {p * q}."
+    },
+    {
+     "id": "bothneg",
+     "explain": "Expand it: the last term would be {-p * q}, positive; we need {p * q}."
+    }
+   ],
+   "solution": [
+    "Product {p * q} is negative, so one number is negative; their sum is {p + q}.",
+    "{p} + {br(q)} = {p + q} and {p} × {br(q)} = {p * q}, so the answer is {answer}."
+   ],
+   "where": [
+    "p + q != 0",
+    "p != -q"
+   ]
+  },
+  {
+   "id": "m3-5-k",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "{poly([1, 'x²'], [p + q, 'x'], [p * q, ''])} = {'(' + poly([1, 'x'], [p, '']) + ')'}(x + k). Find k.",
+   "answer": "q",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "p + q",
+     "explain": "{p + q} is the sum; k must multiply with {p} to give {p * q}."
+    },
+    {
+     "id": "sgn",
+     "wrong": "-q",
+     "explain": "Check the sign: {p} × {br(-q)} = {-p * q}, not {p * q}."
+    }
+   ],
+   "solution": [
+    "{p} × k = {p * q}, so k = {p * q} ÷ {p} = {q}.",
+    "Check the sum: {p} + {br(q)} = {p + q}. k = {answer}."
+   ],
+   "where": [
+    "p != 0 && q != 0",
+    "p + q != 0",
+    "p != q",
+    "abs(p) != 1"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-5-a",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "m": {
+     "int": [
+      1,
+      7
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      7
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([a, 'x²'], [a * n + m, 'x'], [m * n, ''])}.",
+   "correct": "{'(' + poly([a, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [n, '']) + ')'}",
+   "distractors": [
+    {
+     "text": "{'(' + poly([a, 'x'], [n, '']) + ')' + '(' + poly([1, 'x'], [m, '']) + ')'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [n, '']) + ')'}",
+     "misconception": "noa"
+    },
+    {
+     "text": "{'(' + poly([a, 'x'], [m * n, '']) + ')' + '(' + poly([1, 'x'], [1, '']) + ')'}",
+     "misconception": "prod"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Expand it: the middle term would be {mono(a * m + n, 'x')}, not {mono(a * n + m, 'x')}."
+    },
+    {
+     "id": "noa",
+     "explain": "Expand it: the x² term would be x², not {mono(a, 'x²')}."
+    },
+    {
+     "id": "prod",
+     "explain": "Expand it: the middle term would be {mono(a + m * n, 'x')}, not {mono(a * n + m, 'x')}."
+    }
+   ],
+   "solution": [
+    "Try {'(' + poly([a, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [n, '']) + ')'}: {mono(a, 'x')} × {n} + {m} × x = {mono(a * n + m, 'x')}. ✓",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "m != n",
+    "a * m + n != a * n + m",
+    "a + m * n != a * n + m",
+    "hcf(a, m) == 1"
+   ]
+  }
+ ]
+}

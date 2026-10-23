@@ -81,6 +81,8 @@ export function subjectSuite({ subject, spine, lib, batch, prefix, numbering = "
     for (const l of TAUGHT) {
       assert.equal(l.note.status, "draft");
       assert.ok(words(l.note.text) <= 150, `lesson ${l.lesson_no} note has ${words(l.note.text)} words`);
+      // The summary screen shows the note as written: a {1884} or {'B3'} field would appear with its braces.
+      assert.ok(!/\{(\d+|'[^']*')\}/.test(l.note.text), `lesson ${l.lesson_no} note has a {…} field: ${l.note.text.match(/.{0,20}\{(\d+|'[^']*')\}/)?.[0]}`);
     }
   });
 

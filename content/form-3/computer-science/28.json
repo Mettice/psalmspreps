@@ -1,0 +1,591 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s3-28",
+   "name": "Protection of intellectual property"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Intellectual property (IP) is a creation of the mind: inventions, books, music, films, software, designs, brand names.\nProtection:\n• Copyright protects creative works (books, music, software code) automatically; copying or sharing without permission is illegal.\n• Patents protect inventions for a number of years.\n• Trademarks protect brand names and logos.\nBreaking IP rights: software piracy (illegal copies), plagiarism (presenting others' work as yours), counterfeiting.\nIn Cameroon, copyright is protected by law and organisations such as SOCAM (music); OAPI handles patents and trademarks for member states.\nRespect IP: buy or use licensed software, cite your sources, ask permission.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ideas can be owned",
+    "text": "Intellectual property (IP) means creations of the mind: inventions, books, songs, films, photographs, software and brand names. Creators have rights over how their work is used.\nProtecting IP rewards people for their creativity and encourages them to keep creating."
+   },
+   {
+    "heading": "Kinds of protection",
+    "text": "• Copyright: protects creative works (books, music, films, software code). It exists as soon as the work is made.\n• Patent: protects an invention, such as a new machine, for a number of years.\n• Trademark: protects brand names and logos.\nIn Cameroon, copyright is protected by law; OAPI, based in Yaoundé, handles patents and trademarks for its member states."
+   },
+   {
+    "heading": "Respecting IP",
+    "text": "• Software piracy (using unlicensed copies) and selling copied films or music are illegal and harm creators.\n• Plagiarism means presenting someone else's work as yours. Quote with quotation marks and give the source, or explain in your own words and cite where it came from.\n• Use licensed or free open-source software, and ask permission before using others' photos or music."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "intellectual property",
+    "meaning": "creations of the mind that belong to their creators"
+   },
+   {
+    "word": "copyright",
+    "meaning": "the right that protects creative works"
+   },
+   {
+    "word": "patent",
+    "meaning": "protection for an invention"
+   },
+   {
+    "word": "trademark",
+    "meaning": "protection for a brand name or logo"
+   },
+   {
+    "word": "piracy",
+    "meaning": "illegal copying or use of protected work"
+   }
+  ],
+  "examples": [
+   "Song: copyright",
+   "New pump design: patent",
+   "Company logo: trademark"
+  ],
+  "mistake": {
+   "wrong": "Anything on the internet is free to copy",
+   "right": "Most online content is protected by copyright",
+   "why": "Being easy to copy does not make it free to copy."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Kum copies a paragraph from a website into his project without saying where it came from. What has he done, and what should he do?",
+  "steps": [
+   "Using someone else's words as if they were his own is plagiarism.",
+   "He should put the words in quotation marks and give the source, or write the idea in his own words and cite the source."
+  ],
+  "answer": "Plagiarism; he should quote and cite the source",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s28-1",
+    "status": "draft",
+    "idea": "Copyright protects creative works such as music and software.",
+    "vars": {},
+    "example": [
+     "Copying a film to sell is illegal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-28-type"
+    }
+   },
+   {
+    "id": "c3s28-2",
+    "status": "draft",
+    "idea": "Patents protect inventions; trademarks protect brand names and logos.",
+    "vars": {},
+    "example": [
+     "A company logo is a trademark."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-28-which"
+    }
+   },
+   {
+    "id": "c3s28-3",
+    "status": "draft",
+    "idea": "Always cite your sources to avoid plagiarism.",
+    "vars": {},
+    "example": [
+     "Write where the information came from."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-28-ethic-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which action respects intellectual property?",
+         "r": "Quoting a text and naming the author and source",
+         "w": [
+          "Copying a classmate's homework",
+          "Downloading a film from an illegal site",
+          "Selling copied CDs"
+         ],
+         "e": [
+          "That is plagiarism.",
+          "That is piracy.",
+          "That is piracy and counterfeiting."
+         ],
+         "y": "Citing gives credit to the creator."
+        },
+        {
+         "q": "What is plagiarism?",
+         "r": "Presenting someone else's work as your own",
+         "w": [
+          "Writing a story yourself",
+          "Asking a teacher for help",
+          "Reading a library book"
+         ],
+         "e": [
+          "That is original work.",
+          "Asking for help is fine.",
+          "Reading is fine."
+         ],
+         "y": "Always credit your sources."
+        },
+        {
+         "q": "Why does IP protection matter?",
+         "r": "It rewards creators so they keep inventing and creating",
+         "w": [
+          "It stops all sharing of ideas",
+          "It makes software free for everyone",
+          "It protects only rich people"
+         ],
+         "e": [
+          "Sharing with permission is allowed.",
+          "Creators may charge for their work.",
+          "It protects all creators."
+         ],
+         "y": "Creators earn from their work."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-28-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is intellectual property?",
+       "r": "A creation of the mind, such as an invention, song or program",
+       "w": [
+        "Land owned by a school",
+        "A computer's hard disk",
+        "Money in a bank"
+       ],
+       "e": [
+        "That is physical property.",
+        "That is hardware.",
+        "That is money."
+       ],
+       "y": "Ideas and creative works can belong to their creators."
+      },
+      {
+       "q": "Which protects a new song?",
+       "r": "copyright",
+       "w": [
+        "a patent",
+        "a trademark",
+        "a warranty"
+       ],
+       "e": [
+        "Patents protect inventions.",
+        "Trademarks protect brands.",
+        "Warranties cover faulty products."
+       ],
+       "y": "Creative works are protected by copyright."
+      },
+      {
+       "q": "What is software piracy?",
+       "r": "Copying or using software without a licence",
+       "w": [
+        "Buying software legally",
+        "Writing your own program",
+        "Updating your software"
+       ],
+       "e": [
+        "That respects copyright.",
+        "That creates new IP.",
+        "That is maintenance."
+       ],
+       "y": "It is illegal and can spread malware."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-28-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A new design of solar water pump",
+       "r": "patent",
+       "w": [
+        "trademark",
+        "copyright of a song",
+        "nothing is needed"
+       ],
+       "e": [
+        "A trademark protects a brand.",
+        "It is not a creative work like a song.",
+        "Inventions can be protected."
+       ],
+       "y": "Inventions are protected by patents."
+      },
+      {
+       "q": "The name and logo of a drink company",
+       "r": "trademark",
+       "w": [
+        "patent",
+        "copyright",
+        "warranty"
+       ],
+       "e": [
+        "It is not an invention.",
+        "Brand names are trademarks.",
+        "A warranty is a promise about quality."
+       ],
+       "y": "Trademarks protect brand identity."
+      },
+      {
+       "q": "The code of a mobile app",
+       "r": "copyright",
+       "w": [
+        "trademark",
+        "patent only",
+        "nothing"
+       ],
+       "e": [
+        "The app's name may be a trademark, but the code is copyright.",
+        "Code is usually protected by copyright.",
+        "It is protected."
+       ],
+       "y": "Software code is a creative work."
+      }
+     ]
+    }
+   },
+   "prompt": "Which kind of protection fits? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-28-ethic",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which action respects intellectual property?",
+       "r": "Quoting a text and naming the author and source",
+       "w": [
+        "Copying a classmate's homework",
+        "Downloading a film from an illegal site",
+        "Selling copied CDs"
+       ],
+       "e": [
+        "That is plagiarism.",
+        "That is piracy.",
+        "That is piracy and counterfeiting."
+       ],
+       "y": "Citing gives credit to the creator."
+      },
+      {
+       "q": "What is plagiarism?",
+       "r": "Presenting someone else's work as your own",
+       "w": [
+        "Writing a story yourself",
+        "Asking a teacher for help",
+        "Reading a library book"
+       ],
+       "e": [
+        "That is original work.",
+        "Asking for help is fine.",
+        "Reading is fine."
+       ],
+       "y": "Always credit your sources."
+      },
+      {
+       "q": "Why does IP protection matter?",
+       "r": "It rewards creators so they keep inventing and creating",
+       "w": [
+        "It stops all sharing of ideas",
+        "It makes software free for everyone",
+        "It protects only rich people"
+       ],
+       "e": [
+        "Sharing with permission is allowed.",
+        "Creators may charge for their work.",
+        "It protects all creators."
+       ],
+       "y": "Creators earn from their work."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-28-case",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A street seller in Douala sells copied DVDs of Nollywood films. What is the problem?",
+       "r": "It is piracy: the film makers lose money and it breaks copyright law",
+       "w": [
+        "Nothing, films are free",
+        "It is legal if the price is low",
+        "Only the buyer breaks the law"
+       ],
+       "e": [
+        "Films are protected by copyright.",
+        "Price does not make it legal.",
+        "Selling pirated copies is illegal."
+       ],
+       "y": "Copyright protects the creators' income."
+      },
+      {
+       "q": "A school wants to install software on 30 computers but bought one licence. What should it do?",
+       "r": "Buy enough licences or use free open-source software",
+       "w": [
+        "Copy the one licence to all computers",
+        "Install it and hide the computers",
+        "Use a pirated version"
+       ],
+       "e": [
+        "That breaks the licence.",
+        "Hiding does not make it legal.",
+        "That is piracy."
+       ],
+       "y": "Use software within its licence terms."
+      },
+      {
+       "q": "Which organisation helps protect patents and trademarks for Cameroon and other member states?",
+       "r": "OAPI (African Intellectual Property Organisation)",
+       "w": [
+        "FIFA",
+        "the World Health Organisation",
+        "MTN"
+       ],
+       "e": [
+        "FIFA governs football.",
+        "WHO works on health.",
+        "MTN is a telecom company."
+       ],
+       "y": "OAPI is based in Yaoundé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

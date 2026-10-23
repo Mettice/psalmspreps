@@ -1,0 +1,590 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "s3-4",
+   "name": "Writing appropriate prompts for AI tools"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A prompt is the instruction or question you give to an AI tool. Better prompts give better answers.\nA good prompt is:\n• clear and specific about the task;\n• gives context (who you are, what level, what for);\n• says the format you want (a list, a table, 100 words, steps);\n• may give an example or a role ('Explain as a Form 3 teacher…').\nImprove by iterating: read the answer, then refine the prompt.\nNever put passwords or private information in a prompt, and always check the answer.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "What a prompt is",
+    "text": "When you use a chatbot or other AI tool, the instruction you type is the prompt. The AI's answer can only be as good as the prompt allows.\n'Erosion' alone could mean many things. 'List three causes of soil erosion on farms in the North West region, with one way to prevent each' gets a useful answer."
+   },
+   {
+    "heading": "Parts of a good prompt",
+    "text": "• Task: a clear verb, such as explain, list, compare or summarise.\n• Context: who you are and why ('I am a Form {3} student revising').\n• Format and length: bullet points, a table, {100} words, steps.\n• Role or example: 'Answer as a patient teacher', or show the style you want.\nIf the answer is not right, iterate: change the prompt and try again."
+   },
+   {
+    "heading": "Safe and honest prompting",
+    "text": "• Never type passwords, PINs, ID numbers or other people's private details.\n• Check answers: AI can invent facts.\n• Use AI to learn and practise, not to do your work for you. Handing in AI-written work as your own is dishonest."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "prompt",
+    "meaning": "the instruction or question given to an AI tool"
+   },
+   {
+    "word": "context",
+    "meaning": "background information that guides the answer"
+   },
+   {
+    "word": "iterate",
+    "meaning": "improve step by step"
+   },
+   {
+    "word": "plagiarism",
+    "meaning": "presenting someone else's (or an AI's) work as your own"
+   }
+  ],
+  "examples": [
+   "'Summarise in {50} words'",
+   "'Explain for Form {3}'",
+   "'Give the answer as a table'"
+  ],
+  "mistake": {
+   "wrong": "Typing one word and expecting a perfect answer",
+   "right": "Write a clear task with context and format",
+   "why": "The AI cannot guess what you need; tell it."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Improve this prompt: 'tell me about photosynthesis'.",
+  "steps": [
+   "Add the level and purpose: 'I am a Form {3} student revising for a test.'",
+   "Make the task specific: 'Explain photosynthesis in simple words.'",
+   "Give the format: 'Use five bullet points and include the word equation.'"
+  ],
+  "answer": "'I am a Form {3} student revising for a test. Explain photosynthesis in simple words in five bullet points, including the word equation.'",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s4-1",
+    "status": "draft",
+    "idea": "Be clear and specific about the task.",
+    "vars": {},
+    "example": [
+     "'List three causes of soil erosion' beats 'erosion'."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-4-best"
+    }
+   },
+   {
+    "id": "c3s4-2",
+    "status": "draft",
+    "idea": "Give context and the format you want.",
+    "vars": {},
+    "example": [
+     "'For Form {3}, in a table with two columns'"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-4-part"
+    }
+   },
+   {
+    "id": "c3s4-3",
+    "status": "draft",
+    "idea": "Never include passwords or private data in a prompt.",
+    "vars": {},
+    "example": [
+     "Do not paste your mobile-money PIN."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-4-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computing-society"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which should you NEVER put in a prompt?",
+         "r": "your password or PIN",
+         "w": [
+          "the topic you are studying",
+          "the format you want",
+          "your class level"
+         ],
+         "e": [
+          "Topics are fine.",
+          "Format is fine.",
+          "Class level is fine."
+         ],
+         "y": "Prompts may be stored and seen by others."
+        },
+        {
+         "q": "An AI tool gives a date for an event in history. What should you do?",
+         "r": "Check it in your textbook or another reliable source",
+         "w": [
+          "Trust it completely",
+          "Ignore your textbook",
+          "Share it without reading"
+         ],
+         "e": [
+          "AI can be wrong.",
+          "Your textbook is a reliable source.",
+          "Read and check first."
+         ],
+         "y": "Verify important facts."
+        },
+        {
+         "q": "Is it honest to hand in an AI-written essay as your own?",
+         "r": "No: it is plagiarism; use AI to learn, then write yourself",
+         "w": [
+          "Yes, the AI does not mind",
+          "Yes, if you change one word",
+          "Yes, if no one finds out"
+         ],
+         "e": [
+          "Honesty is about your work, not the AI's feelings.",
+          "Still not your work.",
+          "Being caught is not the point."
+         ],
+         "y": "Present only your own work as yours."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-4-best",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "(You want help revising the water cycle.)",
+       "r": "Explain the water cycle for a Form 3 student in four short steps.",
+       "w": [
+        "water",
+        "Tell me everything.",
+        "Do my homework."
+       ],
+       "e": [
+        "One word gives no task.",
+        "Too vague: no topic.",
+        "That is not a learning task and is dishonest."
+       ],
+       "y": "Clear task, level and format."
+      },
+      {
+       "q": "(You want a short summary of a story.)",
+       "r": "Summarise this story in 50 words for a classmate.",
+       "w": [
+        "story",
+        "Write something.",
+        "Make it long."
+       ],
+       "e": [
+        "No task.",
+        "Too vague.",
+        "That is the opposite of a summary."
+       ],
+       "y": "Task, length and audience are given."
+      },
+      {
+       "q": "(You want practice questions on fractions.)",
+       "r": "Give me five practice questions on adding fractions, with answers at the end.",
+       "w": [
+        "maths",
+        "Questions.",
+        "Fractions are hard."
+       ],
+       "e": [
+        "No task.",
+        "Not specific.",
+        "That is a comment, not a request."
+       ],
+       "y": "Topic, number and format are clear."
+      }
+     ]
+    }
+   },
+   "prompt": "Which prompt is best? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-4-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part of a prompt gives context?",
+       "r": "'I am a Form 3 student preparing for a test'",
+       "w": [
+        "'in a table'",
+        "'five points'",
+        "'Explain'"
+       ],
+       "e": [
+        "That gives the format.",
+        "That gives the length.",
+        "That is the task verb."
+       ],
+       "y": "Context tells the AI who you are and why."
+      },
+      {
+       "q": "Which part of a prompt sets the format?",
+       "r": "'as a numbered list'",
+       "w": [
+        "'I am a teacher'",
+        "'about volcanoes'",
+        "'please'"
+       ],
+       "e": [
+        "That is context.",
+        "That is the topic.",
+        "That is politeness."
+       ],
+       "y": "Format tells the AI how to present the answer."
+      },
+      {
+       "q": "What does it mean to iterate a prompt?",
+       "r": "Read the answer and improve the prompt to get a better result",
+       "w": [
+        "Type the same prompt again and again",
+        "Delete the answer",
+        "Use capital letters"
+       ],
+       "e": [
+        "Repeating unchanged rarely helps.",
+        "Deleting does not improve.",
+        "Capitals do not help."
+       ],
+       "y": "Refining step by step improves the output."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-4-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which should you NEVER put in a prompt?",
+       "r": "your password or PIN",
+       "w": [
+        "the topic you are studying",
+        "the format you want",
+        "your class level"
+       ],
+       "e": [
+        "Topics are fine.",
+        "Format is fine.",
+        "Class level is fine."
+       ],
+       "y": "Prompts may be stored and seen by others."
+      },
+      {
+       "q": "An AI tool gives a date for an event in history. What should you do?",
+       "r": "Check it in your textbook or another reliable source",
+       "w": [
+        "Trust it completely",
+        "Ignore your textbook",
+        "Share it without reading"
+       ],
+       "e": [
+        "AI can be wrong.",
+        "Your textbook is a reliable source.",
+        "Read and check first."
+       ],
+       "y": "Verify important facts."
+      },
+      {
+       "q": "Is it honest to hand in an AI-written essay as your own?",
+       "r": "No: it is plagiarism; use AI to learn, then write yourself",
+       "w": [
+        "Yes, the AI does not mind",
+        "Yes, if you change one word",
+        "Yes, if no one finds out"
+       ],
+       "e": [
+        "Honesty is about your work, not the AI's feelings.",
+        "Still not your work.",
+        "Being caught is not the point."
+       ],
+       "y": "Present only your own work as yours."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-4-improve",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "'Write about Cameroon.'",
+       "r": "'Write 100 words about the main rivers of Cameroon for a Form 3 geography lesson.'",
+       "w": [
+        "'WRITE ABOUT CAMEROON!'",
+        "'Write about Cameroon please.'",
+        "'Cameroon.'"
+       ],
+       "e": [
+        "Capitals do not add detail.",
+        "Politeness does not add detail.",
+        "Less detail is worse."
+       ],
+       "y": "Topic, length, level and purpose are now clear."
+      },
+      {
+       "q": "'Help me with maths.'",
+       "r": "'Show me step by step how to solve 3x + 5 = 20, then give me two similar questions.'",
+       "w": [
+        "'Help me with maths now.'",
+        "'Maths is difficult.'",
+        "'Help.'"
+       ],
+       "e": [
+        "Urgency adds no detail.",
+        "That is a comment.",
+        "Less detail is worse."
+       ],
+       "y": "A specific task and a clear format."
+      },
+      {
+       "q": "'Explain computers.'",
+       "r": "'Explain, for a Form 3 student, the job of the CPU, RAM and hard disk, in a short table.'",
+       "w": [
+        "'Explain computers again.'",
+        "'Explain computers in English.'",
+        "'Computers?'"
+       ],
+       "e": [
+        "Repeating adds nothing.",
+        "Language alone does not narrow the task.",
+        "Less detail is worse."
+       ],
+       "y": "Specific topic, level and format."
+      }
+     ]
+    }
+   },
+   "prompt": "Which change improves this prompt most? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

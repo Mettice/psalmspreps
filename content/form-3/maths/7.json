@@ -1,0 +1,500 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "m3-7",
+   "name": "Solve linear equations, with brackets, unknowns on both sides and fractions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An equation stays true if you do the same thing to both sides.\n• Undo additions and subtractions first, then multiplications and divisions: 3x + 5 = 20 → 3x = 15 → x = 5.\n• Brackets: expand first. 4(x − 2) = 12 → 4x − 8 = 12 → x = 5.\n• Unknown on both sides: collect the x terms on one side and numbers on the other: 5x + 3 = 2x + 15 → 3x = 12 → x = 4.\n• Fractions: multiply both sides by the LCM of the denominators.\n• Check by substituting the answer into the original equation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The balance rule",
+    "text": "An equation is like a balance: both sides weigh the same. Whatever you do to one side, do to the other, and it stays balanced.\nTo find x, undo what has been done to it, in reverse order. In {poly([3, 'x'], [5, ''])} = {20}, x was multiplied by {3}, then {5} was added. So:\n• subtract {5} from both sides: {mono(3, 'x')} = {15};\n• divide both sides by {3}: x = {5}.\nCheck: {3} × {5} + {5} = {20}. ✓"
+   },
+   {
+    "heading": "Brackets and x on both sides",
+    "text": "Expand brackets first: {bracket(4, [1, 'x'], [-2, ''])} = {12} becomes {poly([4, 'x'], [-8, ''])} = {12}, so {mono(4, 'x')} = {20} and x = {5}.\nIf x is on both sides, gather the x terms on the side with more x:\n{poly([5, 'x'], [3, ''])} = {poly([2, 'x'], [15, ''])}: subtract {mono(2, 'x')} from both sides → {poly([3, 'x'], [3, ''])} = {15} → {mono(3, 'x')} = {12} → x = {4}."
+   },
+   {
+    "heading": "Fractions",
+    "text": "Clear fractions by multiplying every term by the LCM of the denominators.\nx ÷ {2} + x ÷ {3} = {10}: the LCM of {2} and {3} is {6}.\n{6} × x ÷ {2} = {mono(3, 'x')}, {6} × x ÷ {3} = {mono(2, 'x')}, {6} × {10} = {60}.\nSo {mono(5, 'x')} = {60} and x = {12}. Multiply every term, including the number on the right."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "equation",
+    "meaning": "a statement that two expressions are equal"
+   },
+   {
+    "word": "solve",
+    "meaning": "find the value of the unknown that makes it true"
+   },
+   {
+    "word": "unknown",
+    "meaning": "the letter whose value we look for"
+   },
+   {
+    "word": "LCM",
+    "meaning": "lowest common multiple of the denominators"
+   }
+  ],
+  "examples": [
+   "{poly([7, 'x'], [-4, ''])} = {31} → x = {5}",
+   "{bracket(2, [1, 'x'], [3, ''])} = {poly([1, 'x'], [10, ''])} → x = {4}",
+   "x ÷ {4} = {6} → x = {24}"
+  ],
+  "mistake": {
+   "wrong": "{poly([3, 'x'], [4, ''])} = {19} → {mono(3, 'x')} = {23}",
+   "right": "{poly([3, 'x'], [4, ''])} = {19} → {mono(3, 'x')} = {15} → x = {5}",
+   "why": "To remove + {4} you subtract {4} from both sides. Doing the opposite operation is what keeps the balance."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 5,
+   "b": 3,
+   "c": 2,
+   "s": 4
+  },
+  "problem": "Solve {poly([a, 'x'], [b, ''])} = {poly([c, 'x'], [(a - c) * s + b, ''])}.",
+  "steps": [
+   "Subtract {mono(c, 'x')} from both sides: {poly([a - c, 'x'], [b, ''])} = {(a - c) * s + b}.",
+   "Subtract {b} from both sides: {mono(a - c, 'x')} = {(a - c) * s}.",
+   "Divide both sides by {a - c}: x = {s}.",
+   "Check: {a} × {s} + {b} = {a * s + b} and {c} × {s} + {(a - c) * s + b} = {a * s + b}. ✓"
+  ],
+  "answer": "x = {s}",
+  "checks": [
+   "s == 4"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m7-1",
+    "status": "draft",
+    "idea": "Do the same to both sides. Undo + and − first, then × and ÷.",
+    "vars": {},
+    "example": [
+     "{poly([3, 'x'], [5, ''])} = {20} → {mono(3, 'x')} = {15} → x = {5}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-7-one"
+    }
+   },
+   {
+    "id": "c3m7-2",
+    "status": "draft",
+    "idea": "With x on both sides, move the x terms to one side and the numbers to the other.",
+    "vars": {},
+    "example": [
+     "{poly([5, 'x'], [3, ''])} = {poly([2, 'x'], [15, ''])} → {mono(3, 'x')} = {12} → x = {4}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-7-both-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-equations"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        3,
+        9
+       ]
+      },
+      "c": {
+       "int": [
+        1,
+        8
+       ]
+      },
+      "b": {
+       "int": [
+        -15,
+        15
+       ]
+      },
+      "s": {
+       "int": [
+        -8,
+        10
+       ]
+      }
+     },
+     "prompt": "Solve {poly([a, 'x'], [b, ''])} = {poly([c, 'x'], [(a - c) * s + b, ''])}.",
+     "answer": "s",
+     "misconceptions": [
+      {
+       "id": "addc",
+       "wrong": "((a - c) * s + 2 * b) / (a - c)",
+       "explain": "{b < 0 ? 'Add ' + (0 - b) : 'Subtract ' + b} on both sides, do not {b < 0 ? 'subtract ' + (0 - b) : 'add ' + b}."
+      },
+      {
+       "id": "sumx",
+       "wrong": "((a - c) * s) / (a + c)",
+       "explain": "Moving {mono(c, 'x')} to the left subtracts it: {a} − {c} = {a - c}."
+      }
+     ],
+     "solution": [
+      "Subtract {mono(c, 'x')} from both sides: {poly([a - c, 'x'], [b, ''])} = {(a - c) * s + b}.",
+      "{b < 0 ? 'Add ' + (0 - b) : 'Subtract ' + b} on both sides: {mono(a - c, 'x')} = {(a - c) * s}. Divide by {a - c}: x = {answer}."
+     ],
+     "where": [
+      "a > c",
+      "b != 0",
+      "s != 0",
+      "((a - c) * s + 2 * b) / (a - c) != s"
+     ],
+     "signed": true
+    }
+   },
+   {
+    "id": "c3m7-3",
+    "status": "draft",
+    "idea": "Fractions: multiply every term by the LCM of the denominators.",
+    "vars": {},
+    "example": [
+     "x ÷ {2} + x ÷ {3} = {5} → ×{6}: {mono(3, 'x')} + {mono(2, 'x')} = {30} → x = {6}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-7-frac-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-equations"
+     ],
+     "vars": {
+      "m": {
+       "pick": [
+        2,
+        3,
+        4,
+        5
+       ]
+      },
+      "n": {
+       "pick": [
+        3,
+        5,
+        7
+       ]
+      },
+      "t": {
+       "int": [
+        1,
+        4
+       ]
+      }
+     },
+     "prompt": "Solve x ÷ {m} + x ÷ {n} = {(m + n) * t}.",
+     "answer": "m * n * t",
+     "misconceptions": [
+      {
+       "id": "one",
+       "wrong": "(m + n) * t * n",
+       "explain": "Multiply every term by the LCM {m * n}, not just one term."
+      }
+     ],
+     "solution": [
+      "Multiply every term by {m * n}: {mono(n, 'x')} + {mono(m, 'x')} = {(m + n) * t * m * n}.",
+      "{mono(m + n, 'x')} = {(m + n) * t * m * n}, so x = {answer}."
+     ],
+     "where": [
+      "m != n",
+      "hcf(m, n) == 1"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-7-one",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -20,
+      20
+     ]
+    },
+    "s": {
+     "int": [
+      -9,
+      12
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, ''])} = {a * s + b}.",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "(a * s + 2 * b) / a",
+     "explain": "Do the opposite on both sides: {b < 0 ? 'add ' + (0 - b) : 'subtract ' + b}, not {b < 0 ? 'subtract ' + (0 - b) : 'add ' + b}."
+    },
+    {
+     "id": "mul",
+     "wrong": "a * (a * s + b) - b",
+     "explain": "Divide by {a} to undo multiplying by {a}."
+    }
+   ],
+   "solution": [
+    "{b < 0 ? 'Add ' + (0 - b) : 'Subtract ' + b} on both sides: {mono(a, 'x')} = {a * s}.",
+    "Divide by {a}: x = {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "s != 0",
+    "(a * s + 2 * b) / a != s"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-7-br",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "s": {
+     "int": [
+      -5,
+      15
+     ]
+    }
+   },
+   "prompt": "Solve {bracket(a, [1, 'x'], [-b, ''])} = {a * (s - b)}.",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "once",
+     "wrong": "(a * (s - b) + b) / a",
+     "explain": "Expand the bracket fully: {a} × {br(-b)} = {-a * b}."
+    }
+   ],
+   "solution": [
+    "Expand: {poly([a, 'x'], [-a * b, ''])} = {a * (s - b)}.",
+    "Add {a * b}: {mono(a, 'x')} = {a * s}. Divide by {a}: x = {answer}."
+   ],
+   "where": [
+    "s != b",
+    "(a * (s - b) + b) / a != s"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-7-both",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      8
+     ]
+    },
+    "b": {
+     "int": [
+      -15,
+      15
+     ]
+    },
+    "s": {
+     "int": [
+      -8,
+      10
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, ''])} = {poly([c, 'x'], [(a - c) * s + b, ''])}.",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "addc",
+     "wrong": "((a - c) * s + 2 * b) / (a - c)",
+     "explain": "{b < 0 ? 'Add ' + (0 - b) : 'Subtract ' + b} on both sides, do not {b < 0 ? 'subtract ' + (0 - b) : 'add ' + b}."
+    },
+    {
+     "id": "sumx",
+     "wrong": "((a - c) * s) / (a + c)",
+     "explain": "Moving {mono(c, 'x')} to the left subtracts it: {a} − {c} = {a - c}."
+    }
+   ],
+   "solution": [
+    "Subtract {mono(c, 'x')} from both sides: {poly([a - c, 'x'], [b, ''])} = {(a - c) * s + b}.",
+    "{b < 0 ? 'Add ' + (0 - b) : 'Subtract ' + b} on both sides: {mono(a - c, 'x')} = {(a - c) * s}. Divide by {a - c}: x = {answer}."
+   ],
+   "where": [
+    "a > c",
+    "b != 0",
+    "s != 0",
+    "((a - c) * s + 2 * b) / (a - c) != s"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-7-frac",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-equations"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "n": {
+     "pick": [
+      3,
+      5,
+      7
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "Solve x ÷ {m} + x ÷ {n} = {(m + n) * t}.",
+   "answer": "m * n * t",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "(m + n) * t * n",
+     "explain": "Multiply every term by the LCM {m * n}, not just one term."
+    }
+   ],
+   "solution": [
+    "Multiply every term by {m * n}: {mono(n, 'x')} + {mono(m, 'x')} = {(m + n) * t * m * n}.",
+    "{mono(m + n, 'x')} = {(m + n) * t * m * n}, so x = {answer}."
+   ],
+   "where": [
+    "m != n",
+    "hcf(m, n) == 1"
+   ]
+  },
+  {
+   "id": "m3-7-fracbr",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-equations"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "s": {
+     "int": [
+      -6,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {'(' + poly([1, 'x'], [m * t - s, '']) + ')'} ÷ {m} = {'(' + poly([1, 'x'], [n * t - s, '']) + ')'} ÷ {n}.",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "nocross",
+     "wrong": "(m * (n * t - s) - (m * t - s)) / (n - m)",
+     "explain": "Multiply the whole bracket by {n}, every term inside."
+    }
+   ],
+   "solution": [
+    "Multiply both sides by {m * n}: {n}{'(' + poly([1, 'x'], [m * t - s, '']) + ')'} = {m}{'(' + poly([1, 'x'], [n * t - s, '']) + ')'}.",
+    "Expand: {poly([n, 'x'], [n * (m * t - s), ''])} = {poly([m, 'x'], [m * (n * t - s), ''])}.",
+    "Collect: {mono(n - m, 'x')} = {m * (n * t - s) - n * (m * t - s)}, so x = {answer}."
+   ],
+   "where": [
+    "m != n",
+    "m * t - s != 0",
+    "n * t - s != 0",
+    "s != 0",
+    "(m * (n * t - s) - (m * t - s)) / (n - m) != s"
+   ],
+   "signed": true
+  }
+ ]
+}

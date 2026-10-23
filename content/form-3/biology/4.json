@@ -1,0 +1,442 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "b3-4",
+   "name": "Water and its importance to living organisms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Water makes up about 60–70% of the human body and up to 90% of some plants and jellyfish.\nImportance:\n• Solvent: many substances dissolve in it, so reactions can happen in cells.\n• Transport: blood plasma, xylem and phloem carry dissolved substances.\n• Temperature control: sweating and transpiration cool organisms.\n• Raw material for photosynthesis; product of respiration.\n• Support: water keeps plant cells turgid; it also forms a habitat for aquatic organisms.\n• Lubrication (tears, joints) and removal of wastes (urine).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Life depends on water",
+    "text": "Water is the most common substance in living things: about {60}–{70}% of your body, about {90}% of a ripe pawpaw or a leaf of lettuce, even more in a jellyfish.\nAll the chemical reactions of life happen in water solutions inside cells."
+   },
+   {
+    "heading": "Jobs that water does",
+    "text": "• Solvent: salts, sugars and gases dissolve in it.\n• Transport: blood plasma, lymph, xylem and phloem are mostly water.\n• Reactant: photosynthesis uses water; digestion splits food using water.\n• Cooling: sweating and transpiration take heat away as water evaporates.\n• Support: water keeps plant cells firm and stems upright.\n• Lubrication and removal of wastes: tears, mucus, joint fluid, urine."
+   },
+   {
+    "heading": "Measuring water content",
+    "text": "Weigh a fresh sample, dry it slowly in an oven until the mass stops changing, and weigh it again.\nWater lost = fresh mass − dry mass, and percentage of water = water lost ÷ fresh mass × {100}.\nA {100} g piece of pawpaw that dries to {10} g was {90}% water."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "solvent",
+    "meaning": "a liquid that dissolves other substances"
+   },
+   {
+    "word": "turgid",
+    "meaning": "swollen and firm because full of water"
+   },
+   {
+    "word": "plasma",
+    "meaning": "the liquid part of the blood"
+   }
+  ],
+  "examples": [
+   "Water in a {50} kg person at {65}%: {32.5} kg",
+   "Transpiration cools leaves",
+   "Water is a product of respiration"
+  ],
+  "mistake": {
+   "wrong": "Percentage of water = dry mass ÷ fresh mass × {100}",
+   "right": "Percentage of water = (fresh − dry) ÷ fresh × {100}",
+   "why": "The water is the mass that was lost on drying."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 50,
+   "p": 65
+  },
+  "problem": "About {p}% of Ayuk's body mass is water. His mass is {m} kg. What mass of water is in his body?",
+  "steps": [
+   "Mass of water = {p}% of {m} kg.",
+   "= {p} ÷ {100} × {m} = {p * m / 100} kg."
+  ],
+  "answer": "{p * m / 100} kg",
+  "checks": [
+   "p * m / 100 == 32.5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b4-1",
+    "status": "draft",
+    "idea": "Water is a solvent: reactions in cells happen in solution.",
+    "vars": {},
+    "example": [
+     "Sugar and salts dissolve in the cytoplasm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-4-role"
+    }
+   },
+   {
+    "id": "c3b4-2",
+    "status": "draft",
+    "idea": "Water carries substances: in blood plasma and in xylem.",
+    "vars": {},
+    "example": [
+     "Glucose travels dissolved in plasma."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-4-transport"
+    }
+   },
+   {
+    "id": "c3b4-3",
+    "status": "draft",
+    "idea": "Evaporation of water (sweat) cools the body.",
+    "vars": {},
+    "example": [
+     "You sweat on a hot afternoon in Garoua."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-4-pct-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "water"
+     ],
+     "vars": {
+      "m": {
+       "int": [
+        30,
+        80
+       ]
+      },
+      "p": {
+       "pick": [
+        60,
+        65,
+        70
+       ]
+      }
+     },
+     "prompt": "A person of mass {m} kg is about {p}% water. Find the mass of water in the body (kg).",
+     "answer": "p * m / 100",
+     "misconceptions": [
+      {
+       "id": "other",
+       "wrong": "(100 - p) * m / 100",
+       "explain": "That is the mass of everything else. Water is {p}%."
+      },
+      {
+       "id": "noper",
+       "wrong": "p * m",
+       "explain": "Divide by {100}: {p}% means {p} out of {100}."
+      }
+     ],
+     "solution": [
+      "Mass of water = {p} ÷ {100} × {m}.",
+      "= {answer} kg."
+     ],
+     "unit": "kg"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-4-role",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is water called a good solvent?",
+       "r": "Many substances dissolve in it",
+       "w": [
+        "It is colourless",
+        "It boils at 100 °C",
+        "It is found in rivers"
+       ],
+       "e": [
+        "Colour does not make a solvent.",
+        "Boiling point is a different property.",
+        "Where it is found does not matter."
+       ],
+       "y": "Reactions in cells happen in water solutions."
+      },
+      {
+       "q": "How does water help plants stay upright?",
+       "r": "It keeps cells firm (turgid)",
+       "w": [
+        "It makes the stem heavier",
+        "It dissolves the cell walls",
+        "It produces oxygen"
+       ],
+       "e": [
+        "Weight does not support a plant.",
+        "Cell walls do not dissolve.",
+        "Oxygen production is photosynthesis."
+       ],
+       "y": "Turgid cells press against each other and support soft parts."
+      },
+      {
+       "q": "In which process is water a raw material?",
+       "r": "photosynthesis",
+       "w": [
+        "respiration",
+        "excretion of urea",
+        "digestion of fats only"
+       ],
+       "e": [
+        "Water is a product of aerobic respiration.",
+        "Urea removal uses water but it is not a raw material.",
+        "Water is used in all digestion (hydrolysis), not fats only."
+       ],
+       "y": "Carbon dioxide + water → glucose + oxygen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-4-transport",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part of the blood carries dissolved food and wastes?",
+       "r": "plasma (mostly water)",
+       "w": [
+        "red blood cells",
+        "platelets",
+        "white blood cells"
+       ],
+       "e": [
+        "Red cells carry oxygen.",
+        "Platelets help clotting.",
+        "White cells fight infection."
+       ],
+       "y": "Plasma is about 90% water."
+      },
+      {
+       "q": "Which plant tissue carries water from the roots to the leaves?",
+       "r": "xylem",
+       "w": [
+        "phloem",
+        "epidermis",
+        "cambium"
+       ],
+       "e": [
+        "Phloem carries food (sugars).",
+        "Epidermis is a covering layer.",
+        "Cambium makes new cells."
+       ],
+       "y": "Xylem vessels carry water and minerals upwards."
+      },
+      {
+       "q": "How does sweating cool the body?",
+       "r": "Heat is taken from the skin to evaporate the sweat",
+       "w": [
+        "Sweat is cold",
+        "Sweat blocks the sun",
+        "Sweat contains ice"
+       ],
+       "e": [
+        "Sweat is at body temperature.",
+        "It does not block sunlight.",
+        "Sweat is liquid."
+       ],
+       "y": "Evaporation uses heat energy from the skin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-4-pct",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "water"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      30,
+      80
+     ]
+    },
+    "p": {
+     "pick": [
+      60,
+      65,
+      70
+     ]
+    }
+   },
+   "prompt": "A person of mass {m} kg is about {p}% water. Find the mass of water in the body (kg).",
+   "answer": "p * m / 100",
+   "misconceptions": [
+    {
+     "id": "other",
+     "wrong": "(100 - p) * m / 100",
+     "explain": "That is the mass of everything else. Water is {p}%."
+    },
+    {
+     "id": "noper",
+     "wrong": "p * m",
+     "explain": "Divide by {100}: {p}% means {p} out of {100}."
+    }
+   ],
+   "solution": [
+    "Mass of water = {p} ÷ {100} × {m}.",
+    "= {answer} kg."
+   ],
+   "unit": "kg"
+  },
+  {
+   "id": "b3-4-dry",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "water"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      50,
+      80,
+      100,
+      120,
+      200
+     ]
+    },
+    "q": {
+     "int": [
+      5,
+      15
+     ]
+    },
+    "d": {
+     "expr": "f * q / 100"
+    }
+   },
+   "prompt": "A {f} g piece of pawpaw is dried in an oven until its mass stops changing at {d} g. What percentage of the fresh mass was water?",
+   "answer": "roundTo((f - d) / f * 100, 0.1)",
+   "misconceptions": [
+    {
+     "id": "dry",
+     "wrong": "roundTo(d / f * 100, 0.1)",
+     "explain": "That is the dry matter. Water = fresh mass − dry mass."
+    },
+    {
+     "id": "ofdry",
+     "wrong": "roundTo((f - d) / d * 100, 0.1)",
+     "explain": "Divide by the fresh mass, not the dry mass."
+    }
+   ],
+   "solution": [
+    "Water lost = {f} − {d} = {f - d} g.",
+    "Percentage = {f - d} ÷ {f} × {100} = {answer}%."
+   ],
+   "unit": "%"
+  }
+ ]
+}

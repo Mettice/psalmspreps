@@ -1,0 +1,446 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b3-1",
+   "name": "Cells: prokaryotic and eukaryotic cells; the cell theory"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The cell is the basic unit of structure and function of all living things.\nCell theory: (1) all living things are made of one or more cells; (2) the cell is the basic unit of life; (3) all cells come from pre-existing cells.\nTwo types of cell:\n• Prokaryotic (bacteria): small (about 1–10 µm), no true nucleus (DNA lies free in the cytoplasm), no membrane-bound organelles, small ribosomes.\n• Eukaryotic (plants, animals, fungi, protoctists): larger (10–100 µm), a true nucleus with a nuclear membrane, membrane-bound organelles such as mitochondria.\nSizes: 1 mm = 1000 µm. Real size = image size ÷ magnification.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The unit of life",
+    "text": "Every living thing, from a bacterium to a mango tree to you, is made of cells. Some organisms, like bacteria and Amoeba, are a single cell; you are made of millions of millions.\nThe cell theory sums this up:\n• all living things are made of cells;\n• the cell is the basic unit of structure and function;\n• all cells come from pre-existing cells by division."
+   },
+   {
+    "heading": "Two kinds of cell",
+    "text": "• Prokaryotic cells (bacteria) are small. Their DNA lies free in the cytoplasm: there is no true nucleus. They have no membrane-bound organelles.\n• Eukaryotic cells (plants, animals, fungi, protoctists) are larger. Their DNA is inside a nucleus surrounded by a nuclear membrane, and they contain organelles such as mitochondria.\n'Pro' means before and 'karyon' means nucleus: prokaryotes came before the nucleus."
+   },
+   {
+    "heading": "How big are cells?",
+    "text": "Cells are measured in micrometres: {1} mm = {1000} µm. Most bacteria are {1}–{10} µm long; most plant and animal cells {10}–{100} µm.\nIn a drawing or photograph: real size = image size ÷ magnification. A cell drawn {50} mm long at ×{400} is really {0.125} mm = {125} µm long."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cell",
+    "meaning": "the basic unit of life"
+   },
+   {
+    "word": "prokaryote",
+    "meaning": "an organism whose cells have no true nucleus (bacteria)"
+   },
+   {
+    "word": "eukaryote",
+    "meaning": "an organism whose cells have a nucleus"
+   },
+   {
+    "word": "micrometre (µm)",
+    "meaning": "one thousandth of a millimetre"
+   }
+  ],
+  "examples": [
+   "Bacterium: prokaryote, about {2} µm",
+   "Onion epidermis cell: eukaryote, about {100} µm",
+   "Real size = {20} mm ÷ {100} = {0.2} mm"
+  ],
+  "mistake": {
+   "wrong": "Real size = image size × magnification",
+   "right": "Real size = image size ÷ magnification",
+   "why": "The drawing is magnified, so the real cell is smaller: divide."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "img": 50,
+   "mag": 400
+  },
+  "problem": "A drawing of a cheek cell is {img} mm long at a magnification of ×{mag}. Find the real length of the cell in µm.",
+  "steps": [
+   "Real size = image size ÷ magnification = {img} ÷ {mag} = {realSize(img, mag)} mm.",
+   "{1} mm = {1000} µm, so the cell is {realSize(img, mag) * 1000} µm long."
+  ],
+  "answer": "{realSize(img, mag) * 1000} µm",
+  "checks": [
+   "realSize(img, mag) * 1000 == 125"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b1-1",
+    "status": "draft",
+    "idea": "All living things are made of cells, and cells come from other cells.",
+    "vars": {},
+    "example": [
+     "A new skin cell forms when an old one divides."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-1-theory"
+    }
+   },
+   {
+    "id": "c3b1-2",
+    "status": "draft",
+    "idea": "Prokaryotic cells have no true nucleus; eukaryotic cells do.",
+    "vars": {},
+    "example": [
+     "Bacteria are prokaryotes; you are made of eukaryotic cells."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-1-type"
+    }
+   },
+   {
+    "id": "c3b1-3",
+    "status": "draft",
+    "idea": "Real size = image size ÷ magnification.",
+    "vars": {},
+    "example": [
+     "Image {20} mm at ×{100}: real size {0.2} mm = {200} µm"
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-1-size-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "cells"
+     ],
+     "vars": {
+      "mag": {
+       "pick": [
+        40,
+        100,
+        400
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        20
+       ]
+      },
+      "img": {
+       "expr": "k * mag / 200"
+      }
+     },
+     "prompt": "A cell's image is {img} mm long at magnification ×{mag}. What is its real length in micrometres (µm)?",
+     "answer": "realSize(img, mag) * 1000",
+     "misconceptions": [
+      {
+       "id": "mm",
+       "wrong": "realSize(img, mag)",
+       "explain": "That is in millimetres. {1} mm = {1000} µm."
+      },
+      {
+       "id": "times",
+       "wrong": "img * mag",
+       "explain": "Divide by the magnification: the real cell is smaller than the drawing."
+      }
+     ],
+     "solution": [
+      "Real size = {img} ÷ {mag} = {realSize(img, mag)} mm.",
+      "× {1000} for µm: {answer} µm."
+     ],
+     "unit": "µm"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-1-theory",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a statement of the cell theory?",
+       "r": "All cells come from pre-existing cells",
+       "w": [
+        "Cells can form from non-living matter",
+        "Only animals are made of cells",
+        "Viruses are the smallest cells"
+       ],
+       "e": [
+        "The theory says new cells come only from dividing cells.",
+        "Plants, fungi and bacteria are made of cells too.",
+        "Viruses are not cells."
+       ],
+       "y": "Cells arise only from other cells by division."
+      },
+      {
+       "q": "What is the basic unit of structure and function in living things?",
+       "r": "the cell",
+       "w": [
+        "the organ",
+        "the tissue",
+        "the atom"
+       ],
+       "e": [
+        "Organs are made of many cells.",
+        "Tissues are groups of cells.",
+        "Atoms are not alive."
+       ],
+       "y": "Every living thing is made of one or more cells."
+      },
+      {
+       "q": "Who first named 'cells' after looking at cork?",
+       "r": "Robert Hooke",
+       "w": [
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Isaac Newton"
+       ],
+       "e": [
+        "Darwin is known for evolution.",
+        "Pasteur worked on germs and vaccines.",
+        "Newton worked on forces and light."
+       ],
+       "y": "Hooke looked at cork in 1665."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-1-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which feature is found only in eukaryotic cells?",
+       "r": "a nucleus with a nuclear membrane",
+       "w": [
+        "a cell membrane",
+        "cytoplasm",
+        "ribosomes"
+       ],
+       "e": [
+        "All cells have a cell membrane.",
+        "All cells have cytoplasm.",
+        "Prokaryotes have (smaller) ribosomes too."
+       ],
+       "y": "Prokaryotes have DNA free in the cytoplasm, not in a nucleus."
+      },
+      {
+       "q": "Which organism is made of prokaryotic cells?",
+       "r": "a bacterium",
+       "w": [
+        "a maize plant",
+        "a mushroom",
+        "an amoeba"
+       ],
+       "e": [
+        "Plants are eukaryotes.",
+        "Fungi are eukaryotes.",
+        "Protoctists like Amoeba are eukaryotes."
+       ],
+       "y": "Bacteria are the prokaryotes."
+      },
+      {
+       "q": "Which statement about prokaryotic cells is true?",
+       "r": "They have no membrane-bound organelles such as mitochondria",
+       "w": [
+        "They are larger than eukaryotic cells",
+        "They have a true nucleus",
+        "They are found only in animals"
+       ],
+       "e": [
+        "They are usually much smaller.",
+        "They have no true nucleus.",
+        "Bacteria are not animals."
+       ],
+       "y": "Prokaryotes lack a nucleus and membrane-bound organelles."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-1-size",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "mag": {
+     "pick": [
+      40,
+      100,
+      400
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "img": {
+     "expr": "k * mag / 200"
+    }
+   },
+   "prompt": "A cell's image is {img} mm long at magnification ×{mag}. What is its real length in micrometres (µm)?",
+   "answer": "realSize(img, mag) * 1000",
+   "misconceptions": [
+    {
+     "id": "mm",
+     "wrong": "realSize(img, mag)",
+     "explain": "That is in millimetres. {1} mm = {1000} µm."
+    },
+    {
+     "id": "times",
+     "wrong": "img * mag",
+     "explain": "Divide by the magnification: the real cell is smaller than the drawing."
+    }
+   ],
+   "solution": [
+    "Real size = {img} ÷ {mag} = {realSize(img, mag)} mm.",
+    "× {1000} for µm: {answer} µm."
+   ],
+   "unit": "µm"
+  },
+  {
+   "id": "b3-1-mag",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      1,
+      2,
+      4,
+      5
+     ]
+    },
+    "d": {
+     "int": [
+      10,
+      40
+     ],
+     "step": 2
+    }
+   },
+   "prompt": "A bacterium {r} µm long is drawn {d} mm long. What is the magnification of the drawing?",
+   "answer": "d * 1000 / r",
+   "misconceptions": [
+    {
+     "id": "units",
+     "wrong": "d / r",
+     "explain": "Change the image size to µm first (× {1000})."
+    },
+    {
+     "id": "flip",
+     "wrong": "r / (d * 1000)",
+     "explain": "Magnification = image size ÷ real size."
+    }
+   ],
+   "solution": [
+    "Same units: {d} mm = {d * 1000} µm.",
+    "Magnification = image ÷ real = {d * 1000} ÷ {r} = ×{answer}."
+   ]
+  }
+ ]
+}

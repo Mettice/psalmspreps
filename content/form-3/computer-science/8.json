@@ -1,0 +1,504 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s3-8",
+   "name": "The processor (CPU): parts and performance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The central processing unit (CPU, processor) carries out the instructions of programs. Main parts:\n• Control unit (CU): fetches instructions, decodes them and directs the other parts.\n• Arithmetic and logic unit (ALU): does calculations and comparisons.\n• Registers: tiny, very fast memory locations inside the CPU (e.g. program counter, accumulator).\n• Cache: small fast memory holding data the CPU uses often.\nPerformance depends on: clock speed (in GHz: 1 GHz = 1 000 000 000 cycles per second), the number of cores (each core can process instructions at the same time), and cache size.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The brain of the computer",
+    "text": "The central processing unit (CPU), or processor, carries out the instructions of every program. It is a chip on the motherboard, usually under a fan and heat sink because it gets hot.\nIts main parts:\n• Control unit (CU): fetches each instruction from memory, decodes it, and directs the rest.\n• Arithmetic and logic unit (ALU): does calculations and comparisons.\n• Registers: tiny stores inside the CPU for the data being worked on now.\n• Cache: small, fast memory close to the CPU for data used often."
+   },
+   {
+    "heading": "Clock speed",
+    "text": "The CPU works in steps timed by a clock. Clock speed is measured in hertz (cycles per second): {1} GHz (gigahertz) = {1000} MHz = {1000000000} cycles per second.\nA {3} GHz processor has three billion clock cycles each second. A higher clock speed usually means faster processing."
+   },
+   {
+    "heading": "Cores and cache",
+    "text": "Modern processors have several cores, each able to process instructions at the same time: dual-core ({2}), quad-core ({4}), octa-core ({8}).\nMore cores help when running many programs at once. A bigger cache means the CPU waits less for data from RAM.\nSo performance depends on clock speed, number of cores and cache size together."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "CPU",
+    "meaning": "the central processing unit, which carries out instructions"
+   },
+   {
+    "word": "ALU",
+    "meaning": "arithmetic and logic unit"
+   },
+   {
+    "word": "control unit",
+    "meaning": "part that fetches, decodes and directs"
+   },
+   {
+    "word": "clock speed",
+    "meaning": "number of cycles per second, in GHz"
+   },
+   {
+    "word": "core",
+    "meaning": "a processing unit inside the CPU"
+   }
+  ],
+  "examples": [
+   "{2.4} GHz = {2400} MHz",
+   "Quad-core: {4} cores",
+   "ALU compares two numbers"
+  ],
+  "mistake": {
+   "wrong": "The CPU stores all your files",
+   "right": "Files are kept in secondary storage; the CPU processes instructions",
+   "why": "Registers and cache are tiny; long-term storage is on disks."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "g": 2.5,
+   "c": 4
+  },
+  "problem": "A laptop has a {c}-core processor running at {g} GHz. How many clock cycles does each core make in one second?",
+  "steps": [
+   "{1} GHz = {1000000000} cycles per second.",
+   "{g} GHz = {g} × {1000000000} = {g * 1000000000} cycles per second for each core."
+  ],
+  "answer": "{g * 1000000000} cycles per second",
+  "checks": [
+   "g * 1000000000 == 2500000000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s8-1",
+    "status": "draft",
+    "idea": "The CU directs; the ALU calculates and compares.",
+    "vars": {},
+    "example": [
+     "Adding two numbers is done in the ALU."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-8-part"
+    }
+   },
+   {
+    "id": "c3s8-2",
+    "status": "draft",
+    "idea": "Clock speed is measured in GHz: billions of cycles per second.",
+    "vars": {},
+    "example": [
+     "{3} GHz = {3000000000} cycles each second"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-8-ghz"
+    }
+   },
+   {
+    "id": "c3s8-3",
+    "status": "draft",
+    "idea": "More cores and more cache can make a computer faster.",
+    "vars": {},
+    "example": [
+     "A quad-core processor has {4} cores."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-8-perf-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hardware"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which change would most likely make a computer run programs faster?",
+         "r": "a processor with a higher clock speed and more cores",
+         "w": [
+          "a bigger monitor",
+          "a louder speaker",
+          "a longer cable"
+         ],
+         "e": [
+          "Screen size does not affect processing speed.",
+          "Speakers are output devices.",
+          "Cable length is irrelevant."
+         ],
+         "y": "More cycles and more cores process more instructions."
+        },
+        {
+         "q": "What is cache memory?",
+         "r": "small, fast memory that holds data the CPU uses often",
+         "w": [
+          "the main storage for all files",
+          "a type of printer",
+          "the computer's case"
+         ],
+         "e": [
+          "That is secondary storage.",
+          "Printers are output devices.",
+          "The case holds the parts."
+         ],
+         "y": "Cache saves time fetching from RAM."
+        },
+        {
+         "q": "A dual-core processor has…",
+         "r": "two cores that can process instructions at the same time",
+         "w": [
+          "two screens",
+          "two keyboards",
+          "double the RAM"
+         ],
+         "e": [
+          "Cores are inside the CPU.",
+          "Cores are inside the CPU.",
+          "RAM is separate."
+         ],
+         "y": "Dual means two."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-8-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "It carries out calculations and comparisons.",
+       "r": "the arithmetic and logic unit (ALU)",
+       "w": [
+        "the control unit",
+        "the hard disk",
+        "the monitor"
+       ],
+       "e": [
+        "The CU directs; it does not calculate.",
+        "The hard disk stores data.",
+        "The monitor is an output device."
+       ],
+       "y": "ALU: arithmetic (add, subtract) and logic (compare)."
+      },
+      {
+       "q": "It fetches and decodes instructions and directs the other parts.",
+       "r": "the control unit (CU)",
+       "w": [
+        "the ALU",
+        "the cache",
+        "the keyboard"
+       ],
+       "e": [
+        "The ALU calculates.",
+        "Cache stores data.",
+        "The keyboard is an input device."
+       ],
+       "y": "The CU is like a manager."
+      },
+      {
+       "q": "They are tiny, very fast storage locations inside the CPU.",
+       "r": "registers",
+       "w": [
+        "RAM chips",
+        "USB drives",
+        "hard disks"
+       ],
+       "e": [
+        "RAM is outside the CPU.",
+        "USB drives are external storage.",
+        "Hard disks are slow secondary storage."
+       ],
+       "y": "Registers hold the data being worked on right now."
+      }
+     ]
+    }
+   },
+   "prompt": "Which part of the CPU does this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-8-ghz",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      10,
+      45
+     ]
+    },
+    "g": {
+     "expr": "k / 10"
+    }
+   },
+   "prompt": "A processor runs at {g} GHz. How many clock cycles does it make each second? (Give the number in millions of cycles, MHz.)",
+   "answer": "g * 1000",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "g / 1000",
+     "explain": "GHz is bigger than MHz: multiply by {1000}."
+    }
+   ],
+   "solution": [
+    "{1} GHz = {1000} MHz.",
+    "{g} GHz = {g} × {1000} = {answer} MHz (million cycles per second)."
+   ],
+   "unit": "MHz"
+  },
+  {
+   "id": "s3-8-perf",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which change would most likely make a computer run programs faster?",
+       "r": "a processor with a higher clock speed and more cores",
+       "w": [
+        "a bigger monitor",
+        "a louder speaker",
+        "a longer cable"
+       ],
+       "e": [
+        "Screen size does not affect processing speed.",
+        "Speakers are output devices.",
+        "Cable length is irrelevant."
+       ],
+       "y": "More cycles and more cores process more instructions."
+      },
+      {
+       "q": "What is cache memory?",
+       "r": "small, fast memory that holds data the CPU uses often",
+       "w": [
+        "the main storage for all files",
+        "a type of printer",
+        "the computer's case"
+       ],
+       "e": [
+        "That is secondary storage.",
+        "Printers are output devices.",
+        "The case holds the parts."
+       ],
+       "y": "Cache saves time fetching from RAM."
+      },
+      {
+       "q": "A dual-core processor has…",
+       "r": "two cores that can process instructions at the same time",
+       "w": [
+        "two screens",
+        "two keyboards",
+        "double the RAM"
+       ],
+       "e": [
+        "Cores are inside the CPU.",
+        "Cores are inside the CPU.",
+        "RAM is separate."
+       ],
+       "y": "Dual means two."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-8-compare",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "ka": {
+     "int": [
+      15,
+      40
+     ]
+    },
+    "kb": {
+     "int": [
+      15,
+      40
+     ]
+    },
+    "a": {
+     "expr": "ka / 10"
+    },
+    "b": {
+     "expr": "kb / 10"
+    },
+    "ca": {
+     "pick": [
+      2,
+      4,
+      8
+     ]
+    },
+    "cb": {
+     "pick": [
+      2,
+      4,
+      8
+     ]
+    }
+   },
+   "prompt": "Processor A runs at {a} GHz with {ca} cores; processor B at {b} GHz with {cb} cores. Assuming each core does one instruction per cycle, how many more billion instructions per second can the faster one do?",
+   "answer": "abs(roundTo(a * ca - b * cb, 0.01))",
+   "misconceptions": [
+    {
+     "id": "speed",
+     "wrong": "abs(roundTo(a - b, 0.01))",
+     "explain": "Multiply each clock speed by its number of cores first."
+    }
+   ],
+   "solution": [
+    "A: {a} × {ca} = {roundTo(a * ca, 0.01)} billion per second.",
+    "B: {b} × {cb} = {roundTo(b * cb, 0.01)} billion per second.",
+    "Difference = {answer} billion."
+   ],
+   "where": [
+    "roundTo(a * ca, 0.01) != roundTo(b * cb, 0.01)",
+    "ca != cb",
+    "abs(roundTo(a - b, 0.01)) != abs(roundTo(a * ca - b * cb, 0.01))"
+   ]
+  }
+ ]
+}

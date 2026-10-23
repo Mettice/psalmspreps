@@ -1,0 +1,515 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k3-1",
+   "name": "Review: the simple structure of the atom"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "All matter is made of tiny particles called atoms. An atom has:\n• a very small, dense nucleus at the centre, containing protons (positive) and neutrons (no charge);\n• electrons (negative) moving around the nucleus in shells (energy levels).\nAn atom is electrically neutral: number of protons = number of electrons.\nThe number of protons is the atomic number (Z); protons + neutrons is the mass number (A). Neutrons = A − Z.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Inside an atom",
+    "text": "Everything around you, the air, water, the wood of your desk, is made of atoms. They are far too small to see: millions of them would fit across the full stop at the end of this sentence.\nAn atom has a tiny, heavy centre called the nucleus. Around it, much lighter particles called electrons move in shells (energy levels).",
+    "figure": "bohr(6)"
+   },
+   {
+    "heading": "Three particles",
+    "text": "• Protons: in the nucleus, positive charge.\n• Neutrons: in the nucleus, no charge.\n• Electrons: in the shells, negative charge, very light.\nAn atom has the same number of electrons as protons, so the charges cancel: the atom is neutral.\nAlmost all the mass of an atom is in the nucleus, but almost all its volume is the space where the electrons move."
+   },
+   {
+    "heading": "Atomic number and mass number",
+    "text": "The atomic number (Z) is the number of protons. It decides which element the atom is: every atom with {6} protons is carbon.\nThe mass number (A) is the number of protons plus neutrons.\nSo neutrons = A − Z. A sodium atom (Z = {11}, A = {23}) has {11} protons, {11} electrons and {12} neutrons."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "nucleus",
+    "meaning": "the small, dense centre of an atom"
+   },
+   {
+    "word": "proton",
+    "meaning": "positive particle in the nucleus"
+   },
+   {
+    "word": "neutron",
+    "meaning": "neutral particle in the nucleus"
+   },
+   {
+    "word": "electron",
+    "meaning": "negative particle moving around the nucleus"
+   }
+  ],
+  "examples": [
+   "Hydrogen: {1} proton, {1} electron, no neutron",
+   "Oxygen (Z = {8}, A = {16}): {8} neutrons",
+   "Calcium (Z = {20}): {20} electrons"
+  ],
+  "mistake": {
+   "wrong": "Electrons = mass number",
+   "right": "Electrons = protons = atomic number (in a neutral atom)",
+   "why": "The mass number counts protons and neutrons together."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "X": "Na"
+  },
+  "problem": "A sodium atom has atomic number {atomicNumber(X)} and mass number {massNumber(X)}. How many protons, electrons and neutrons does it have?",
+  "steps": [
+   "Protons = atomic number = {atomicNumber(X)}.",
+   "The atom is neutral, so electrons = protons = {atomicNumber(X)}.",
+   "Neutrons = mass number − atomic number = {massNumber(X)} − {atomicNumber(X)} = {neutrons(X)}."
+  ],
+  "answer": "{atomicNumber(X)} protons, {atomicNumber(X)} electrons, {neutrons(X)} neutrons",
+  "checks": [
+   "neutrons(X) == 12"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k1-1",
+    "status": "draft",
+    "idea": "Protons and neutrons are in the nucleus; electrons move around it in shells.",
+    "vars": {},
+    "example": [
+     "Hydrogen has {1} proton and {1} electron and no neutron."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-1-where"
+    }
+   },
+   {
+    "id": "c3k1-2",
+    "status": "draft",
+    "idea": "In a neutral atom, the number of electrons equals the number of protons.",
+    "vars": {},
+    "example": [
+     "Oxygen: {8} protons, so {8} electrons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-1-e"
+    }
+   },
+   {
+    "id": "c3k1-3",
+    "status": "draft",
+    "idea": "Neutrons = mass number − atomic number.",
+    "vars": {},
+    "example": [
+     "Carbon: {12} − {6} = {6} neutrons."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-1-n-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "atoms"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        "H",
+        "He",
+        "Li",
+        "Be",
+        "B",
+        "C",
+        "N",
+        "O",
+        "F",
+        "Ne",
+        "Na",
+        "Mg",
+        "Al",
+        "Si",
+        "P",
+        "S",
+        "Cl",
+        "Ar",
+        "K",
+        "Ca"
+       ]
+      }
+     },
+     "prompt": "An atom of {nameOf(X)} has atomic number {atomicNumber(X)} and mass number {massNumber(X)}. How many neutrons does it have?",
+     "answer": "neutrons(X)",
+     "misconceptions": [
+      {
+       "id": "sum",
+       "wrong": "massNumber(X) + atomicNumber(X)",
+       "explain": "Subtract the atomic number from the mass number."
+      },
+      {
+       "id": "z",
+       "wrong": "atomicNumber(X)",
+       "explain": "That is the number of protons."
+      }
+     ],
+     "solution": [
+      "Neutrons = mass number − atomic number.",
+      "= {massNumber(X)} − {atomicNumber(X)} = {answer}."
+     ],
+     "where": [
+      "X != 'H'",
+      "neutrons(X) != atomicNumber(X)"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-1-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where are the protons in an atom?",
+       "r": "in the nucleus",
+       "w": [
+        "in the shells around the nucleus",
+        "spread evenly through the atom",
+        "outside the atom"
+       ],
+       "e": [
+        "Electrons are in the shells.",
+        "The nucleus is a tiny dense centre.",
+        "All particles of an atom are inside it."
+       ],
+       "y": "Protons and neutrons make up the nucleus."
+      },
+      {
+       "q": "Which particle moves around the nucleus?",
+       "r": "the electron",
+       "w": [
+        "the proton",
+        "the neutron",
+        "the nucleus"
+       ],
+       "e": [
+        "Protons stay in the nucleus.",
+        "Neutrons stay in the nucleus.",
+        "The nucleus is the centre itself."
+       ],
+       "y": "Electrons move in shells around the nucleus."
+      },
+      {
+       "q": "Why is an atom electrically neutral?",
+       "r": "It has equal numbers of protons and electrons",
+       "w": [
+        "It has no particles with charge",
+        "It has equal numbers of protons and neutrons",
+        "Its neutrons cancel the charges"
+       ],
+       "e": [
+        "Protons and electrons are charged.",
+        "Neutrons have no charge, so they do not balance anything.",
+        "Neutrons have no charge."
+       ],
+       "y": "Each proton's + charge is balanced by an electron's − charge."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-1-e",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "An atom of {nameOf(X)} has atomic number {atomicNumber(X)}. How many electrons does it have?",
+   "answer": "atomicNumber(X)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "massNumber(X)",
+     "explain": "The mass number counts protons and neutrons. Electrons = atomic number."
+    }
+   ],
+   "solution": [
+    "The atom is neutral: electrons = protons = atomic number.",
+    "So it has {answer} electrons."
+   ],
+   "where": [
+    "massNumber(X) != atomicNumber(X)"
+   ]
+  },
+  {
+   "id": "k3-1-n",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "An atom of {nameOf(X)} has atomic number {atomicNumber(X)} and mass number {massNumber(X)}. How many neutrons does it have?",
+   "answer": "neutrons(X)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "massNumber(X) + atomicNumber(X)",
+     "explain": "Subtract the atomic number from the mass number."
+    },
+    {
+     "id": "z",
+     "wrong": "atomicNumber(X)",
+     "explain": "That is the number of protons."
+    }
+   ],
+   "solution": [
+    "Neutrons = mass number − atomic number.",
+    "= {massNumber(X)} − {atomicNumber(X)} = {answer}."
+   ],
+   "where": [
+    "X != 'H'",
+    "neutrons(X) != atomicNumber(X)"
+   ]
+  },
+  {
+   "id": "k3-1-a",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      3,
+      20
+     ]
+    },
+    "n": {
+     "int": [
+      3,
+      22
+     ]
+    }
+   },
+   "prompt": "An atom has {p} protons and {n} neutrons. What is its mass number?",
+   "answer": "p + n",
+   "misconceptions": [
+    {
+     "id": "diff",
+     "wrong": "abs(n - p)",
+     "explain": "Add protons and neutrons: both are in the nucleus."
+    }
+   ],
+   "solution": [
+    "Mass number = protons + neutrons.",
+    "= {p} + {n} = {answer}."
+   ],
+   "where": [
+    "n != p"
+   ]
+  },
+  {
+   "id": "k3-1-model",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Most of the mass of an atom is in…",
+       "r": "the nucleus",
+       "w": [
+        "the electrons",
+        "the empty space",
+        "the outer shell"
+       ],
+       "e": [
+        "Electrons are very light (about 1/1840 of a proton).",
+        "Space has no mass.",
+        "The outer shell holds only light electrons."
+       ],
+       "y": "Protons and neutrons are much heavier than electrons."
+      },
+      {
+       "q": "Most of the volume of an atom is…",
+       "r": "empty space around the nucleus",
+       "w": [
+        "filled by the nucleus",
+        "filled with neutrons",
+        "filled with protons"
+       ],
+       "e": [
+        "The nucleus is tiny compared with the atom.",
+        "Neutrons are in the tiny nucleus.",
+        "Protons are in the tiny nucleus."
+       ],
+       "y": "Electrons move in a large space around a tiny nucleus."
+      },
+      {
+       "q": "Which statement about the nucleus is correct?",
+       "r": "It is positively charged",
+       "w": [
+        "It is negatively charged",
+        "It has no charge",
+        "It contains the electrons"
+       ],
+       "e": [
+        "It holds protons (positive) and neutrons (none).",
+        "The protons give it a positive charge.",
+        "Electrons are outside it."
+       ],
+       "y": "Protons give the nucleus its positive charge."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

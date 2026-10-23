@@ -1,0 +1,560 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "m3-15",
+   "name": "Joint and partial variation, and variation graphs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Joint variation: one quantity varies as two or more others together.\n• z varies jointly as x and y: z = kxy.\n• z varies directly as x and inversely as y: z = kx ÷ y.\nFind k from one set of values, then use the formula.\nGraphs: y = kx is a straight line through the origin; y = k ÷ x is a curve (hyperbola) that never meets the axes; y = kx² is a parabola through the origin.\nEffect of changes: if y ∝ x², multiplying x by n multiplies y by n².",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "More than one cause",
+    "text": "The cost of fuel for a trip depends on the distance and on the price per litre. Double either one and the cost doubles. We say the cost varies jointly as distance and price: C = kdp.\nJoint variation multiplies the quantities. When one quantity varies inversely, it goes on the bottom: z varies directly as x and inversely as y means z = kx ÷ y."
+   },
+   {
+    "heading": "Finding k and using it",
+    "text": "z varies jointly as x and y, and z = {24} when x = {2} and y = {4}.\n{24} = k × {2} × {4} = {mono(8, 'k')}, so k = {3} and z = {mono(3, 'xy')}.\nWhen x = {5} and y = {2}: z = {3} × {5} × {2} = {30}.\nThe method is always: write the formula with k, find k, then use the formula."
+   },
+   {
+    "heading": "Pictures of variation",
+    "text": "• y = kx: a straight line through the origin. Equal steps in x give equal steps in y.\n• y = k ÷ x: a curve. As x gets bigger, y gets smaller, but it never reaches zero.\n• y = kx²: a U-shaped curve, the parabola. If x doubles, y becomes four times as big.\nReading a graph tells you which type of variation the data follow."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "joint variation",
+    "meaning": "one quantity varies as the product of others: z = kxy"
+   },
+   {
+    "word": "hyperbola",
+    "meaning": "the curve of y = k ÷ x"
+   },
+   {
+    "word": "parabola",
+    "meaning": "the U-shaped curve of y = kx²"
+   }
+  ],
+  "examples": [
+   "Area of a rectangle varies jointly as its length and width (k = {1}).",
+   "Pressure ∝ force ÷ area",
+   "y ∝ x²: x × {3} gives y × {9}"
+  ],
+  "mistake": {
+   "wrong": "z varies jointly as x and y: z = k(x + y)",
+   "right": "z = kxy",
+   "why": "Jointly means the quantities are multiplied together, not added."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 3,
+   "x": 4,
+   "y": 6,
+   "X": 5,
+   "Y": 2
+  },
+  "problem": "z varies jointly as x and y. z = {k * x * y} when x = {x} and y = {y}. Find z when x = {X} and y = {Y}.",
+  "steps": [
+   "z = kxy.",
+   "{k * x * y} = k × {x} × {y}, so k = {k}.",
+   "z = {k} × {X} × {Y} = {k * X * Y}."
+  ],
+  "answer": "z = {k * X * Y}",
+  "checks": [
+   "k == 3"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m15-1",
+    "status": "draft",
+    "idea": "Jointly as x and y: z = kxy.",
+    "vars": {},
+    "example": [
+     "z = {24} when x = {2}, y = {4}: k = {3}, so z = {mono(3, 'xy')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-15-form"
+    }
+   },
+   {
+    "id": "c3m15-2",
+    "status": "draft",
+    "idea": "Directly as x and inversely as y: z = kx ÷ y.",
+    "vars": {},
+    "example": [
+     "z = {10} when x = {5}, y = {2}: k = {4}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-15-k"
+    }
+   },
+   {
+    "id": "c3m15-3",
+    "status": "draft",
+    "idea": "The graph of y = kx is a straight line through the origin; y = k ÷ x is a curve.",
+    "vars": {},
+    "example": [
+     "Doubling x doubles y on the line, halves y on the curve."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-15-graph-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "variation"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does the graph of y = kx (k > 0) look like?",
+         "r": "A straight line through the origin",
+         "w": [
+          "A curve that never meets the axes",
+          "A straight line that does not pass through the origin",
+          "A U-shaped curve"
+         ],
+         "e": [
+          "That is y = k ÷ x.",
+          "When x = 0, y = k × 0 = 0: the line passes through the origin.",
+          "That is y = kx²."
+         ],
+         "y": "y = kx is a straight line; x = 0 gives y = 0."
+        },
+        {
+         "q": "What does the graph of y = k ÷ x (k > 0, x > 0) look like?",
+         "r": "A curve that gets closer to both axes but never meets them",
+         "w": [
+          "A straight line through the origin",
+          "A U-shaped curve through the origin",
+          "A straight line sloping down to the x-axis"
+         ],
+         "e": [
+          "That is direct variation, y = kx.",
+          "That is y = kx².",
+          "y = k ÷ x is never zero, so it never reaches the x-axis."
+         ],
+         "y": "y = k ÷ x: as x grows, y shrinks towards zero but never reaches it."
+        },
+        {
+         "q": "What does the graph of y = kx² (k > 0) look like?",
+         "r": "A U-shaped curve (parabola) through the origin",
+         "w": [
+          "A straight line through the origin",
+          "A curve that never meets the axes",
+          "A straight line that does not pass through the origin"
+         ],
+         "e": [
+          "y doubles when x doubles only for y = kx; here y is four times as big.",
+          "That is y = k ÷ x.",
+          "x = 0 gives y = 0: it passes through the origin."
+         ],
+         "y": "y = kx² is a parabola with its lowest point at the origin."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-15-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "z varies jointly as x and y. Which formula is right?",
+       "r": "z = kxy",
+       "w": [
+        "z = k(x + y)",
+        "z = kx ÷ y",
+        "z = xy"
+       ],
+       "e": [
+        "Jointly means multiply, not add.",
+        "kx ÷ y means inversely as y.",
+        "There must be a constant k."
+       ],
+       "y": "Jointly: z = kxy."
+      },
+      {
+       "q": "z varies directly as x and inversely as y. Which formula is right?",
+       "r": "z = kx ÷ y",
+       "w": [
+        "z = kxy",
+        "z = ky ÷ x",
+        "z = k(x − y)"
+       ],
+       "e": [
+        "That is jointly as x and y.",
+        "x and y are the wrong way round.",
+        "Variation uses multiplying or dividing."
+       ],
+       "y": "Directly as x (top), inversely as y (bottom)."
+      },
+      {
+       "q": "P varies directly as the square of v and inversely as r. Which formula is right?",
+       "r": "P = kv² ÷ r",
+       "w": [
+        "P = kvr²",
+        "P = kr ÷ v²",
+        "P = k(v² − r)"
+       ],
+       "e": [
+        "r should divide, not multiply.",
+        "v² goes on top, r at the bottom.",
+        "Variation uses multiplying and dividing."
+       ],
+       "y": "P = kv² ÷ r."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-15-k",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "x": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "y": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "z varies jointly as x and y, and z = {k * x * y} when x = {x} and y = {y}. Find k.",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "k * y",
+     "explain": "Divide by both x and y: {x} × {y} = {x * y}."
+    }
+   ],
+   "solution": [
+    "z = kxy: {k * x * y} = k × {x * y}.",
+    "k = {k * x * y} ÷ {x * y} = {answer}."
+   ],
+   "where": [
+    "x != y",
+    "k * y != k"
+   ]
+  },
+  {
+   "id": "m3-15-zxy",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      6,
+      12,
+      24,
+      36
+     ]
+    },
+    "x": {
+     "pick": [
+      2,
+      3,
+      4
+     ]
+    },
+    "y": {
+     "pick": [
+      2,
+      3,
+      4,
+      6
+     ]
+    },
+    "X": {
+     "pick": [
+      2,
+      4,
+      5,
+      6,
+      8
+     ]
+    },
+    "Y": {
+     "pick": [
+      2,
+      3,
+      4,
+      6
+     ]
+    }
+   },
+   "prompt": "z varies directly as x and inversely as y. z = {k * x / y} when x = {x} and y = {y}. Find z when x = {X} and y = {Y}.",
+   "answer": "k * X / Y",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "k * Y / X",
+     "explain": "x is on top (direct) and y at the bottom (inverse): z = {k} × {X} ÷ {Y}."
+    }
+   ],
+   "solution": [
+    "z = kx ÷ y: {k * x / y} = k × {x} ÷ {y}, so k = {k}.",
+    "z = {k} × {X} ÷ {Y} = {answer}."
+   ],
+   "where": [
+    "(k * x) % y == 0",
+    "(k * X) % Y == 0",
+    "X != x || Y != y",
+    "k * Y / X != k * X / Y"
+   ]
+  },
+  {
+   "id": "m3-15-graph",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the graph of y = kx (k > 0) look like?",
+       "r": "A straight line through the origin",
+       "w": [
+        "A curve that never meets the axes",
+        "A straight line that does not pass through the origin",
+        "A U-shaped curve"
+       ],
+       "e": [
+        "That is y = k ÷ x.",
+        "When x = 0, y = k × 0 = 0: the line passes through the origin.",
+        "That is y = kx²."
+       ],
+       "y": "y = kx is a straight line; x = 0 gives y = 0."
+      },
+      {
+       "q": "What does the graph of y = k ÷ x (k > 0, x > 0) look like?",
+       "r": "A curve that gets closer to both axes but never meets them",
+       "w": [
+        "A straight line through the origin",
+        "A U-shaped curve through the origin",
+        "A straight line sloping down to the x-axis"
+       ],
+       "e": [
+        "That is direct variation, y = kx.",
+        "That is y = kx².",
+        "y = k ÷ x is never zero, so it never reaches the x-axis."
+       ],
+       "y": "y = k ÷ x: as x grows, y shrinks towards zero but never reaches it."
+      },
+      {
+       "q": "What does the graph of y = kx² (k > 0) look like?",
+       "r": "A U-shaped curve (parabola) through the origin",
+       "w": [
+        "A straight line through the origin",
+        "A curve that never meets the axes",
+        "A straight line that does not pass through the origin"
+       ],
+       "e": [
+        "y doubles when x doubles only for y = kx; here y is four times as big.",
+        "That is y = k ÷ x.",
+        "x = 0 gives y = 0: it passes through the origin."
+       ],
+       "y": "y = kx² is a parabola with its lowest point at the origin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-15-scale",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "y varies directly as x². By what number is y multiplied when x is multiplied by {n}?",
+   "answer": "n * n",
+   "misconceptions": [
+    {
+     "id": "lin",
+     "wrong": "n",
+     "explain": "y varies as the square: ({n})² = {n * n}, not {n}."
+    },
+    {
+     "id": "double",
+     "wrong": "2 * n",
+     "explain": "Square {n}: {n} × {n} = {n * n}."
+    }
+   ],
+   "solution": [
+    "y = kx². Replace x by {n}x: y = k({n}x)² = {n * n}kx².",
+    "y is multiplied by {answer}."
+   ],
+   "where": [
+    "2 * n != n * n"
+   ]
+  }
+ ]
+}

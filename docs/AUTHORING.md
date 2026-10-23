@@ -43,7 +43,12 @@ The yearly sheets are parsed into **spines**: `data/spine/<class>/<subject>.json
 3. **Worked example** (`worked_example`) — one problem solved step by step.
 4. **Practice** (`questions`) — levels 1, 2 and 3; each wrong answer gets feedback, a second try on a fresh
    variant, then the full working.
-5. **Summary** (`note`) — at most 150 words, the lesson in brief.
+5. **Summary** (`note`) — at most 150 words, the lesson in brief. Shown as written: plain text, no `{…}` fields.
+
+From Form 4 on (Dion, 2026-10-23), the first Learn section is **"Your goal and connections"**: "By the end, you
+should be able to …" (one measurable goal), "Builds on: …" (the earlier lesson or class), "Leads to: …" (the next
+topic). It counts towards the four sections. Each subject also gets a `LEARNING-PATH.md` (example:
+`content/form-4/logic/LEARNING-PATH.md`).
 
 Writing lessons (essays, letters, compositions) replace practice with a `paper_task`: prompt, model answer, self-check list.
 

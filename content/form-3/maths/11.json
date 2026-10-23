@@ -1,0 +1,439 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  5,
+  6
+ ],
+ "skills": [
+  {
+   "id": "m3-11",
+   "name": "Solve quadratic equations by factorisation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A quadratic equation has x² as its highest power: x² − 5x + 6 = 0.\n• Make one side zero.\n• Factorise the other side: (x − 2)(x − 3) = 0.\n• If a product is zero, one of the factors is zero: x − 2 = 0 or x − 3 = 0.\n• So x = 2 or x = 3. A quadratic usually has two solutions (roots).\n• x² = 5x: do not divide by x (you would lose x = 0). Write x² − 5x = 0, x(x − 5) = 0, so x = 0 or x = 5.\n• Check each root in the original equation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The zero product rule",
+    "text": "If two numbers multiply to give zero, at least one of them is zero. ({3} × {0} = {0}; but {3} × {2} is never {0}.)\nSo if (x − {2})(x − {3}) = {0}, either x − {2} = {0} or x − {3} = {0}. That gives x = {2} or x = {3}.\nThis only works with zero. If (x − {2})(x − {3}) = {6}, you cannot say x − {2} = {6}: first expand, make one side zero, and factorise again."
+   },
+   {
+    "heading": "The method",
+    "text": "Solve x² + {mono(2, 'x')} = {15}.\n• Make one side zero: {poly([1, 'x²'], [2, 'x'], [-15, ''])} = {0}.\n• Factorise: {'(' + poly([1, 'x'], [5, '']) + ')' + '(' + poly([1, 'x'], [-3, '']) + ')'} = {0}.\n• Each factor zero: x = {-5} or x = {3}.\n• Check: ({3})² + {2} × {3} = {15}. ✓ and ({-5})² + {2} × ({-5}) = {15}. ✓\nNotice the sign change: the bracket (x + {5}) gives the root x = {-5}."
+   },
+   {
+    "heading": "Roots that make sense",
+    "text": "In real problems, a quadratic may give one root that cannot be right, such as a negative length or a fraction of a person. State both roots, then reject the impossible one with a reason: \"x = {-8} is rejected because a width cannot be negative.\"\nAnd remember: never divide both sides by x. In x² = {mono(6, 'x')}, factorise x(x − {6}) = {0}: the roots are {0} and {6}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quadratic equation",
+    "meaning": "an equation whose highest power of x is x²"
+   },
+   {
+    "word": "root",
+    "meaning": "a value of x that makes the equation true"
+   },
+   {
+    "word": "zero product rule",
+    "meaning": "if A × B = {0} then A = {0} or B = {0}"
+   }
+  ],
+  "examples": [
+   "{poly([1, 'x²'], [-7, 'x'], [12, ''])} = {0} → x = {3} or x = {4}",
+   "{poly([1, 'x²'], [-25, ''])} = {0} → x = {5} or x = {-5}",
+   "{poly([2, 'x²'], [-8, 'x'])} = {0} → {mono(2, 'x')}(x − {4}) = {0} → x = {0} or x = {4}"
+  ],
+  "mistake": {
+   "wrong": "x² = {mono(3, 'x')} → divide by x → x = {3}",
+   "right": "x² − {mono(3, 'x')} = {0} → x(x − {3}) = {0} → x = {0} or x = {3}",
+   "why": "Dividing by x throws away the root x = {0}. Make one side zero and factorise instead."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 2,
+   "q": -5
+  },
+  "problem": "Solve {poly([1, 'x²'], [-(p + q), 'x'], [p * q, ''])} = {0}.",
+  "steps": [
+   "Two numbers with product {p * q} and sum {-(p + q)}: {-p} and {-q}.",
+   "So {'(' + poly([1, 'x'], [-p, '']) + ')' + '(' + poly([1, 'x'], [-q, '']) + ')'} = {0}.",
+   "Either x − {p} = {0}, so x = {p}; or x + {-q} = {0}, so x = {q}."
+  ],
+  "answer": "x = {p} or x = {q}",
+  "checks": [
+   "p * q == -10"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m11-1",
+    "status": "draft",
+    "idea": "If a product is zero, one of the factors must be zero.",
+    "vars": {},
+    "example": [
+     "{'(' + poly([1, 'x'], [-3, '']) + ')' + '(' + poly([1, 'x'], [4, '']) + ')'} = {0} → x = {3} or x = {-4}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-11-roots"
+    }
+   },
+   {
+    "id": "c3m11-2",
+    "status": "draft",
+    "idea": "Make one side zero and factorise the other.",
+    "vars": {},
+    "example": [
+     "x² + {mono(2, 'x')} = {15} → {poly([1, 'x²'], [2, 'x'], [-15, ''])} = {0} → {'(' + poly([1, 'x'], [5, '']) + ')' + '(' + poly([1, 'x'], [-3, '']) + ')'} = {0}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-11-solve"
+    }
+   },
+   {
+    "id": "c3m11-3",
+    "status": "draft",
+    "idea": "Never divide by x: you would lose the root x = {0}.",
+    "vars": {},
+    "example": [
+     "x² = {mono(4, 'x')} → x(x − {4}) = {0} → x = {0} or x = {4}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-11-zero-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "quadratic-equations"
+     ],
+     "vars": {
+      "k": {
+       "pick": [
+        4,
+        9,
+        16,
+        25,
+        36
+       ]
+      }
+     },
+     "prompt": "Solve x² = {mono(k, 'x')}.",
+     "correct": "{'x = 0 or x = ' + k}",
+     "distractors": [
+      {
+       "text": "{'x = ' + k}",
+       "misconception": "lost"
+      },
+      {
+       "text": "{'x = ' + fmt(sqrt(k))}",
+       "misconception": "sqrt"
+      },
+      {
+       "text": "{'x = 0 or x = ' + fmt(-k)}",
+       "misconception": "sign"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "lost",
+       "explain": "Dividing by x loses the root x = {0}. Factorise x(x − {k}) = {0} instead."
+      },
+      {
+       "id": "sqrt",
+       "explain": "x² = {mono(k, 'x')} is not x² = {k}: factorise x(x − {k}) = {0}."
+      },
+      {
+       "id": "sign",
+       "explain": "x − {k} = {0} gives x = {k}, positive."
+      }
+     ],
+     "solution": [
+      "Make one side zero: x² − {mono(k, 'x')} = {0}.",
+      "Factorise: x(x − {k}) = {0}, so {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-11-roots",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {'(' + poly([1, 'x'], [-p, '']) + ')' + '(' + poly([1, 'x'], [-q, '']) + ')'} = {0}.",
+   "correct": "{'x = ' + fmt(p) + ' or x = ' + fmt(q)}",
+   "distractors": [
+    {
+     "text": "{'x = ' + fmt(-p) + ' or x = ' + fmt(-q)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{'x = ' + fmt(p * q)}",
+     "misconception": "prod"
+    },
+    {
+     "text": "{'x = ' + fmt(p + q)}",
+     "misconception": "sum"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "x − {br(p)} = {0} means x = {p}: the root has the opposite sign to the number in the bracket."
+    },
+    {
+     "id": "prod",
+     "explain": "Set each bracket equal to zero separately: there are two roots."
+    },
+    {
+     "id": "sum",
+     "explain": "Set each bracket equal to zero separately: there are two roots."
+    }
+   ],
+   "solution": [
+    "Either x − {br(p)} = {0} or x − {br(q)} = {0}.",
+    "So {answer}."
+   ],
+   "where": [
+    "p != q",
+    "p != 0 && q != 0",
+    "p != -q",
+    "p * q != p + q",
+    "p * q != -p && p * q != -q",
+    "p + q != -p && p + q != -q"
+   ]
+  },
+  {
+   "id": "m3-11-solve",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {poly([1, 'x²'], [-(p + q), 'x'], [p * q, ''])} = {0}. Give the larger root.",
+   "answer": "max(p, q)",
+   "misconceptions": [
+    {
+     "id": "small",
+     "wrong": "min(p, q)",
+     "explain": "That is the smaller root."
+    },
+    {
+     "id": "sign",
+     "wrong": "-max(p, q)",
+     "explain": "x − {br(max(p, q))} = {0} gives x = {max(p, q)}: watch the sign."
+    }
+   ],
+   "solution": [
+    "Factorise: {'(' + poly([1, 'x'], [-p, '']) + ')' + '(' + poly([1, 'x'], [-q, '']) + ')'} = {0}.",
+    "x = {p} or x = {q}. The larger is {answer}."
+   ],
+   "where": [
+    "p != q",
+    "p != 0 && q != 0",
+    "p != -q",
+    "-max(p, q) != min(p, q)"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-11-zero",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      4,
+      9,
+      16,
+      25,
+      36
+     ]
+    }
+   },
+   "prompt": "Solve x² = {mono(k, 'x')}.",
+   "correct": "{'x = 0 or x = ' + k}",
+   "distractors": [
+    {
+     "text": "{'x = ' + k}",
+     "misconception": "lost"
+    },
+    {
+     "text": "{'x = ' + fmt(sqrt(k))}",
+     "misconception": "sqrt"
+    },
+    {
+     "text": "{'x = 0 or x = ' + fmt(-k)}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "lost",
+     "explain": "Dividing by x loses the root x = {0}. Factorise x(x − {k}) = {0} instead."
+    },
+    {
+     "id": "sqrt",
+     "explain": "x² = {mono(k, 'x')} is not x² = {k}: factorise x(x − {k}) = {0}."
+    },
+    {
+     "id": "sign",
+     "explain": "x − {k} = {0} gives x = {k}, positive."
+    }
+   ],
+   "solution": [
+    "Make one side zero: x² − {mono(k, 'x')} = {0}.",
+    "Factorise: x(x − {k}) = {0}, so {answer}."
+   ]
+  },
+  {
+   "id": "m3-11-a",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "m": {
+     "int": [
+      1,
+      7
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      7
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x²'], [a * n + m, 'x'], [m * n, ''])} = {0}. One root is a whole number: give it.",
+   "answer": "-n",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "n",
+     "explain": "x + {n} = {0} gives x = {-n}, negative."
+    },
+    {
+     "id": "m",
+     "wrong": "-m",
+     "explain": "{mono(a, 'x')} + {m} = {0} gives x = {-m} ÷ {a}, not a whole number."
+    }
+   ],
+   "solution": [
+    "Factorise: {'(' + poly([a, 'x'], [m, '']) + ')' + '(' + poly([1, 'x'], [n, '']) + ')'} = {0}.",
+    "{mono(a, 'x')} + {m} = {0} gives x = {-m} ÷ {a}; x + {n} = {0} gives x = {answer}."
+   ],
+   "where": [
+    "m % a != 0",
+    "hcf(a, m) == 1",
+    "m != n"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-11-area",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "w": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "A rectangular plot in Bamenda is {k} m longer than it is wide. Its area is {w * (w + k)} m². Find its width in metres.",
+   "answer": "w",
+   "misconceptions": [
+    {
+     "id": "neg",
+     "wrong": "-(w + k)",
+     "explain": "A width cannot be negative: reject x = {-(w + k)}."
+    },
+    {
+     "id": "len",
+     "wrong": "w + k",
+     "explain": "{w + k} m is the length; the question asks for the width."
+    }
+   ],
+   "solution": [
+    "Let the width be x m: x(x + {k}) = {w * (w + k)}.",
+    "{poly([1, 'x²'], [k, 'x'], [-w * (w + k), ''])} = {0} → {'(' + poly([1, 'x'], [-w, '']) + ')' + '(' + poly([1, 'x'], [w + k, '']) + ')'} = {0}.",
+    "x = {w} or x = {-(w + k)}. A width cannot be negative, so the width is {answer} m."
+   ],
+   "unit": "m"
+  }
+ ]
+}

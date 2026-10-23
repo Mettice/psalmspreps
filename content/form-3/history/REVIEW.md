@@ -784,7 +784,7 @@ Prerequisites: none · Skill: y3-3 (The European scramble for Cameroon)
 
 **Note** (draft)
 
-> The scramble for Cameroon involved competing commercial and imperial ambitions, local negotiations and unequal power. German firms encouraged official protection of their interests. Some coastal rulers had previously sought British protection, while British official responses did not secure control before the German action. In July {1884}, treaties and a German flag ceremony marked the coastal claim. This was a beginning of colonial expansion, not proof that every inland community had agreed or that all resistance had ended.
+> The scramble for Cameroon involved competing commercial and imperial ambitions, local negotiations and unequal power. German firms encouraged official protection of their interests. Some coastal rulers had previously sought British protection, while British official responses did not secure control before the German action. In July 1884, treaties and a German flag ceremony marked the coastal claim. This was a beginning of colonial expansion, not proof that every inland community had agreed or that all resistance had ended.
 
 **Learn: Understand the ideas** (draft)
 
@@ -1633,7 +1633,7 @@ Prerequisites: none · Skill: y3-6 (How Germany established its Cameroon claim)
 
 **Note** (draft)
 
-> German firms helped prepare coastal agreements and encouraged imperial action. Gustav Nachtigal acted as the imperial commissioner. The German-Duala treaty conventionally dated {12} July {1884} preceded the flag ceremony on {14} July. British Consul Edward Hewett arrived after the German claim. Timing, commercial preparation and diplomatic action mattered, but a coastal assertion was not immediate control of all Cameroon. Later expansion involved further agreements and violence, and local opposition continued.
+> German firms helped prepare coastal agreements and encouraged imperial action. Gustav Nachtigal acted as the imperial commissioner. The German-Duala treaty conventionally dated 12 July 1884 preceded the flag ceremony on 14 July. British Consul Edward Hewett arrived after the German claim. Timing, commercial preparation and diplomatic action mattered, but a coastal assertion was not immediate control of all Cameroon. Later expansion involved further agreements and violence, and local opposition continued.
 
 **Learn: Understand the ideas** (draft)
 
@@ -2199,7 +2199,7 @@ Prerequisites: none · Skill: y3-8 (The Berlin West Africa Conference)
 
 **Note** (draft)
 
-> The Berlin Conference met from November {1884} to February {1885}, hosted by Bismarck. Participating powers addressed trade and navigation and rules for colonial claims, including notification and effective occupation in the relevant provisions. African rulers did not participate as equal decision makers. The conference helped regulate imperial rivalry; it did not draw every present African boundary at one sitting. Germany's initial Cameroon claim preceded the meeting. Distinguish the General Act from later treaties, conquests and border negotiations.
+> The Berlin Conference met from November 1884 to February 1885, hosted by Bismarck. Participating powers addressed trade and navigation and rules for colonial claims, including notification and effective occupation in the relevant provisions. African rulers did not participate as equal decision makers. The conference helped regulate imperial rivalry; it did not draw every present African boundary at one sitting. Germany's initial Cameroon claim preceded the meeting. Distinguish the General Act from later treaties, conquests and border negotiations.
 
 **Learn: Understand the ideas** (draft)
 
@@ -3620,7 +3620,7 @@ Prerequisites: none · Skill: y3-13 (Methods of acquiring colonial territory)
 
 **Note** (draft)
 
-> Imperial acquisition used treaties, protectorate claims, annexation, concessions and military conquest, often in combination. A concession granted specified rights, not automatically full sovereignty over a whole region. A protectorate claim asserted outside control under a language of protection; annexation claimed incorporation. Military conquest imposed control through force. Mandates belonged to the post-First World War framework and should not be placed before the Cameroon claim in {1884}. The historical label does not settle the legitimacy or fairness of the process.
+> Imperial acquisition used treaties, protectorate claims, annexation, concessions and military conquest, often in combination. A concession granted specified rights, not automatically full sovereignty over a whole region. A protectorate claim asserted outside control under a language of protection; annexation claimed incorporation. Military conquest imposed control through force. Mandates belonged to the post-First World War framework and should not be placed before the Cameroon claim in 1884. The historical label does not settle the legitimacy or fairness of the process.
 
 **Learn: Understand the ideas** (draft)
 
@@ -4469,7 +4469,7 @@ Prerequisites: none · Skill: y3-17 (Abyssinian resistance: Adwa)
 
 **Note** (draft)
 
-> Ethiopian forces defeated an invading Italian army at Adwa in {1896}, under Menelik II's leadership with important roles for Ethiopian commanders and Empress Taytu. Disputes over Italian claims and the Wuchale treaty formed part of the background. Mobilisation, arms, leadership and local knowledge contributed to the outcome. The victory preserved independence against that invasion and became a wider symbol of resistance. It does not mean Ethiopia was never later invaded: the Italian assault in the twentieth century was a separate episode.
+> Ethiopian forces defeated an invading Italian army at Adwa in 1896, under Menelik II's leadership with important roles for Ethiopian commanders and Empress Taytu. Disputes over Italian claims and the Wuchale treaty formed part of the background. Mobilisation, arms, leadership and local knowledge contributed to the outcome. The victory preserved independence against that invasion and became a wider symbol of resistance. It does not mean Ethiopia was never later invaded: the Italian assault in the twentieth century was a separate episode.
 
 **Learn: Understand the ideas** (draft)
 
@@ -4752,7 +4752,7 @@ Prerequisites: none · Skill: y3-18 (Features of European colonial policies)
 
 **Note** (draft)
 
-> European colonial policies between {1900} and {1945} shared unequal imperial authority but differed across powers, regions and periods. Administration could rely more directly on officials or work through subordinated local rulers. Economic policies often sought revenue, labour and export production. Assimilation claimed incorporation into the coloniser's institutions and culture; association emphasised governing through distinctions and selected local arrangements. Neither label should be taken as a complete description of every colonial practice or as proof of equal rights.
+> European colonial policies between 1900 and 1945 shared unequal imperial authority but differed across powers, regions and periods. Administration could rely more directly on officials or work through subordinated local rulers. Economic policies often sought revenue, labour and export production. Assimilation claimed incorporation into the coloniser's institutions and culture; association emphasised governing through distinctions and selected local arrangements. Neither label should be taken as a complete description of every colonial practice or as proof of equal rights.
 
 **Learn: Understand the ideas** (draft)
 

@@ -14,7 +14,7 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Spreadsheets solve everyday problems: class marks and averages, a shopping list with costs, a budget, sales records, a timetable.\nSteps:\n1. Type headings (labels) in the first row: Item, Quantity, Unit price, Total.\n2. Enter the data.\n3. Enter a formula in the first Total cell, for example =B{2}*C{2}.\n4. Copy (fill) the formula down: it changes automatically to =B{3}*C{3}, =B{4}*C{4} (relative references).\n5. Use =SUM(D{2}:D{6}) for the grand total.\n6. Format the cells (currency FCFA, bold headings), sort the data, and make a chart (column, bar, pie, line).\nWhen data changes, the results update automatically.",
+  "text": "Spreadsheets solve everyday problems: class marks and averages, a shopping list with costs, a budget, sales records, a timetable.\nSteps:\n1. Type headings (labels) in the first row: Item, Quantity, Unit price, Total.\n2. Enter the data.\n3. Enter a formula in the first Total cell, for example =B2*C2.\n4. Copy (fill) the formula down: it changes automatically to =B3*C3, =B4*C4 (relative references).\n5. Use =SUM(D2:D6) for the grand total.\n6. Format the cells (currency FCFA, bold headings), sort the data, and make a chart (column, bar, pie, line).\nWhen data changes, the results update automatically.",
   "checks": []
  },
  "worked_example": {

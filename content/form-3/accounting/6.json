@@ -1,0 +1,384 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "a3-6",
+   "name": "Accounting for trading transactions: purchases and sales"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Trading transactions are the buying and selling of goods.\n• Purchase on credit: debit 601 Purchases of goods (HT), debit 445 VAT recoverable, credit 401 Suppliers (TTC).\n• Sale on credit: debit 411 Customers (TTC), credit 701 Sales of goods (HT), credit 443 VAT invoiced.\n• Cash sale or purchase: use 571 Cash (or 521 Bank) instead of 411 or 401.\n• Trade discount (rabais, remise): a reduction on the invoice; VAT is calculated on the net amount after discount.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Buying goods",
+    "text": "Goods bought for resale go to {'601 Purchases of goods'} (amount excluding tax). The VAT paid goes to {'445 VAT recoverable'}.\nIf bought on credit, the supplier is owed the total: credit {'401 Suppliers'} with the amount including tax. If paid at once, credit {'571 Cash'} or {'521 Bank'}."
+   },
+   {
+    "heading": "Selling goods",
+    "text": "Sales of goods are income: credit {'701 Sales of goods'} with the amount excluding tax and {'443 VAT invoiced'} with the VAT.\nOn credit, debit {'411 Customers'} with the total including tax; for cash, debit {'571 Cash'}.\nA sale of {200000} FCFA HT: {'Dr 411'} {238500}, {'Cr 701'} {200000}, {'Cr 443'} {38500}."
+   },
+   {
+    "heading": "Trade discounts",
+    "text": "A trade discount (rabais, remise) reduces the price on the invoice, for example for a regular customer or a large order.\nWork out the net amount first: list price − discount. Then calculate VAT on the net amount.\n{200000} FCFA less {10}%: net {180000}, VAT {34650}, total {214650} FCFA."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "purchases of goods",
+    "meaning": "account {'601'}: goods bought to resell"
+   },
+   {
+    "word": "sales of goods",
+    "meaning": "account {'701'}: income from selling goods"
+   },
+   {
+    "word": "trade discount",
+    "meaning": "a price reduction shown on the invoice"
+   },
+   {
+    "word": "credit transaction",
+    "meaning": "paid later, not at once"
+   }
+  ],
+  "examples": [
+   "{'Dr 601 / Cr 401'} (credit purchase)",
+   "{'Dr 411 / Cr 701, 443'} (credit sale)",
+   "{'Dr 571 / Cr 701, 443'} (cash sale)"
+  ],
+  "mistake": {
+   "wrong": "VAT is calculated on the list price before the discount",
+   "right": "VAT is calculated on the net price after the discount",
+   "why": "Tax is charged only on what the customer actually pays for the goods."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "g": 200000,
+   "d": 10
+  },
+  "problem": "Goods listed at {g} FCFA are sold on credit with a {d}% trade discount (VAT {19.25}%). Find the net, the VAT and the total the customer owes.",
+  "steps": [
+   "Discount = {d}% × {g} = {g * d / 100}; net HT = {g} − {g * d / 100} = {g * (100 - d) / 100} FCFA.",
+   "VAT = {19.25}% × {g * (100 - d) / 100} = {g * (100 - d) / 100 * 0.1925} FCFA.",
+   "TTC = {g * (100 - d) / 100 * 1.1925} FCFA, debited to {'411 Customers'}."
+  ],
+  "answer": "Net {g * (100 - d) / 100}; VAT {g * (100 - d) / 100 * 0.1925}; TTC {g * (100 - d) / 100 * 1.1925} FCFA",
+  "checks": [
+   "g * (100 - d) / 100 * 0.1925 == 34650"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a6-1",
+    "status": "draft",
+    "idea": "Purchases: debit Purchases and VAT recoverable; credit Suppliers.",
+    "vars": {},
+    "example": [
+     "{'Dr 601, Dr 445 / Cr 401'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-6-entry"
+    }
+   },
+   {
+    "id": "c3a6-2",
+    "status": "draft",
+    "idea": "Sales: debit Customers; credit Sales and VAT invoiced.",
+    "vars": {},
+    "example": [
+     "{'Dr 411 / Cr 701, Cr 443'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-6-ttc"
+    }
+   },
+   {
+    "id": "c3a6-3",
+    "status": "draft",
+    "idea": "VAT is calculated after any trade discount.",
+    "vars": {},
+    "example": [
+     "Net HT first, then VAT."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-6-disc-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada-transactions"
+     ],
+     "vars": {
+      "g": {
+       "int": [
+        20000,
+        500000
+       ],
+       "step": 20000
+      },
+      "d": {
+       "pick": [
+        5,
+        10,
+        15,
+        20
+       ]
+      }
+     },
+     "prompt": "Goods listed at {g} FCFA are sold with a {d}% trade discount. What is the net amount excluding tax (FCFA)?",
+     "answer": "g * (100 - d) / 100",
+     "misconceptions": [
+      {
+       "id": "disc",
+       "wrong": "g * d / 100",
+       "explain": "That is the discount; subtract it from the list price."
+      }
+     ],
+     "solution": [
+      "Discount = {d}% × {g} = {g * d / 100} FCFA.",
+      "Net = {g} − {g * d / 100} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-6-entry",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Goods are bought on credit for 100 000 FCFA HT (VAT 19 250).",
+       "r": "Dr 601 Purchases 100 000; Dr 445 VAT recoverable 19 250 / Cr 401 Suppliers 119 250",
+       "w": [
+        "Dr 401 Suppliers 119 250 / Cr 601 Purchases 119 250",
+        "Dr 601 Purchases 119 250 / Cr 571 Cash 119 250",
+        "Dr 411 Customers 119 250 / Cr 701 Sales 119 250"
+       ],
+       "e": [
+        "Reversed.",
+        "It is on credit, and the VAT is recorded separately.",
+        "That is a sale."
+       ],
+       "y": "Purchases and recoverable VAT debited; the supplier credited TTC."
+      },
+      {
+       "q": "Goods are sold on credit for 200 000 FCFA HT (VAT 38 500).",
+       "r": "Dr 411 Customers 238 500 / Cr 701 Sales 200 000; Cr 443 VAT invoiced 38 500",
+       "w": [
+        "Dr 701 Sales 238 500 / Cr 411 Customers 238 500",
+        "Dr 571 Cash 238 500 / Cr 701 Sales 238 500",
+        "Dr 411 Customers 200 000 / Cr 701 Sales 200 000"
+       ],
+       "e": [
+        "Reversed.",
+        "It is a credit sale, and VAT must be shown separately.",
+        "The VAT is missing."
+       ],
+       "y": "The customer owes the TTC amount."
+      },
+      {
+       "q": "Goods are sold for cash: 50 000 FCFA HT (VAT 9 625).",
+       "r": "Dr 571 Cash 59 625 / Cr 701 Sales 50 000; Cr 443 VAT invoiced 9 625",
+       "w": [
+        "Dr 411 Customers 59 625 / Cr 701 Sales 59 625",
+        "Dr 601 Purchases 59 625 / Cr 571 Cash 59 625",
+        "Dr 571 Cash 50 000 / Cr 701 Sales 50 000"
+       ],
+       "e": [
+        "It is a cash sale, not on credit.",
+        "That is a purchase.",
+        "The VAT collected must be recorded."
+       ],
+       "y": "Cash comes in for the full TTC."
+      }
+     ]
+    }
+   },
+   "prompt": "Which entry records this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-6-ttc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      50
+     ]
+    },
+    "ht": {
+     "expr": "k * 4000"
+    },
+    "vat": {
+     "expr": "k * 770"
+    }
+   },
+   "prompt": "Goods are bought on credit for {ht} FCFA HT (VAT {19.25}%). What amount is credited to {'401'} Suppliers (FCFA)?",
+   "answer": "ht + vat",
+   "misconceptions": [
+    {
+     "id": "ht",
+     "wrong": "ht",
+     "explain": "The supplier is owed the amount including VAT."
+    }
+   ],
+   "solution": [
+    "VAT = {vat} FCFA.",
+    "TTC = {ht} + {vat} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a3-6-disc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "g": {
+     "int": [
+      20000,
+      500000
+     ],
+     "step": 20000
+    },
+    "d": {
+     "pick": [
+      5,
+      10,
+      15,
+      20
+     ]
+    }
+   },
+   "prompt": "Goods listed at {g} FCFA are sold with a {d}% trade discount. What is the net amount excluding tax (FCFA)?",
+   "answer": "g * (100 - d) / 100",
+   "misconceptions": [
+    {
+     "id": "disc",
+     "wrong": "g * d / 100",
+     "explain": "That is the discount; subtract it from the list price."
+    }
+   ],
+   "solution": [
+    "Discount = {d}% × {g} = {g * d / 100} FCFA.",
+    "Net = {g} − {g * d / 100} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a3-6-total",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "q": {
+     "int": [
+      1,
+      25
+     ]
+    },
+    "d": {
+     "pick": [
+      10,
+      20
+     ]
+    },
+    "g": {
+     "expr": "q * 40000"
+    }
+   },
+   "prompt": "Goods listed at {g} FCFA are sold on credit with a {d}% trade discount (VAT {19.25}%). What amount is debited to {'411'} Customers (FCFA)?",
+   "answer": "g * (100 - d) / 100 * 1.1925",
+   "misconceptions": [
+    {
+     "id": "vatfirst",
+     "wrong": "g * 1.1925",
+     "explain": "Apply the discount first, then add VAT on the net amount."
+    },
+    {
+     "id": "novat",
+     "wrong": "g * (100 - d) / 100",
+     "explain": "Add the VAT: the customer pays TTC."
+    }
+   ],
+   "solution": [
+    "Net HT = {g} × {(100 - d) / 100} = {g * (100 - d) / 100} FCFA.",
+    "VAT = {g * (100 - d) / 100 * 0.1925}; TTC = {answer} FCFA."
+   ],
+   "unit": "FCFA",
+   "where": [
+    "(g * (100 - d) / 100 * 0.1925) % 1 == 0"
+   ]
+  }
+ ]
+}

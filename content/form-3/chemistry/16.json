@@ -1,0 +1,620 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "k3-16",
+   "name": "Chemical bonds and the octet rule: ionic, covalent and metallic"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A chemical bond holds atoms together. Atoms form bonds to reach a stable, full outer shell.\n• Ionic bond: a metal transfers electrons to a non-metal; the oppositely charged ions attract (NaCl).\n• Covalent bond: two non-metal atoms share a pair of electrons (H₂, H₂O, CH₄).\n• Metallic bond: metal atoms lose their outer electrons into a 'sea' of electrons shared by all the positive ions (copper, iron).\nQuick guide: metal + non-metal → ionic; non-metal + non-metal → covalent; metal alone → metallic.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Why atoms bond",
+    "text": "Most atoms do not have a full outer shell, so they are not stable on their own. By bonding with other atoms they can reach a full shell, like a noble gas.\nThere are three main ways: transferring electrons, sharing electrons, and pooling electrons."
+   },
+   {
+    "heading": "Three types of bond",
+    "text": "• Ionic: between a metal and a non-metal. The metal gives its outer electrons to the non-metal; the positive and negative ions attract strongly. Example: sodium chloride (table salt).\n• Covalent: between non-metals. Atoms share pairs of electrons. Examples: water, methane, oxygen gas.\n• Metallic: in metals. Atoms release their outer electrons into a sea of electrons that moves through a lattice of positive ions. Examples: copper, iron, aluminium."
+   },
+   {
+    "heading": "Telling them apart",
+    "text": "Look at the elements:\n• metal + non-metal → ionic;\n• non-metal + non-metal → covalent;\n• a metal element (or alloy) → metallic.\nThe type of bond explains many properties, such as melting point and electrical conductivity, which you will meet in the next lessons."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "chemical bond",
+    "meaning": "a force holding atoms or ions together"
+   },
+   {
+    "word": "ionic bond",
+    "meaning": "attraction between oppositely charged ions"
+   },
+   {
+    "word": "covalent bond",
+    "meaning": "a shared pair of electrons"
+   },
+   {
+    "word": "metallic bond",
+    "meaning": "attraction between metal ions and a sea of electrons"
+   }
+  ],
+  "examples": [
+   "KCl: ionic",
+   "NH₃: covalent",
+   "Brass (an alloy): metallic"
+  ],
+  "mistake": {
+   "wrong": "Water is ionic because it has two elements",
+   "right": "Water is covalent: hydrogen and oxygen are both non-metals",
+   "why": "It is the kind of element (metal or non-metal), not the number of elements, that decides."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "State the type of bonding in sodium chloride, water and copper.",
+  "steps": [
+   "Sodium chloride: metal + non-metal → ionic.",
+   "Water: hydrogen and oxygen, both non-metals → covalent.",
+   "Copper: a metal element → metallic."
+  ],
+  "answer": "ionic, covalent, metallic",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k16-1",
+    "status": "draft",
+    "idea": "Metal + non-metal: electrons are transferred (ionic bond).",
+    "vars": {},
+    "example": [
+     "Sodium + chlorine → sodium chloride"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-16-type"
+    }
+   },
+   {
+    "id": "c3k16-2",
+    "status": "draft",
+    "idea": "Non-metal + non-metal: electrons are shared (covalent bond).",
+    "vars": {},
+    "example": [
+     "Hydrogen + oxygen → water"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-16-pair"
+    }
+   },
+   {
+    "id": "c3k16-3",
+    "status": "draft",
+    "idea": "In a metal, positive ions sit in a sea of shared electrons (metallic bond).",
+    "vars": {},
+    "example": [
+     "Iron, copper, aluminium"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-16-metal-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What holds the atoms together in a piece of iron?",
+         "r": "Attraction between positive ions and a sea of moving electrons",
+         "w": [
+          "Shared pairs of electrons between two atoms",
+          "Attraction between positive and negative ions",
+          "Nothing: the atoms are separate"
+         ],
+         "e": [
+          "That is a covalent bond.",
+          "There are no negative ions in a pure metal.",
+          "The atoms are held together strongly."
+         ],
+         "y": "Metallic bonding: delocalised electrons around positive ions."
+        },
+        {
+         "q": "Why do atoms form chemical bonds?",
+         "r": "To reach a stable, full outer shell",
+         "w": [
+          "To lose their protons",
+          "To become heavier",
+          "To change into another element"
+         ],
+         "e": [
+          "Protons never change in a reaction.",
+          "Mass is not the reason.",
+          "The element does not change."
+         ],
+         "y": "Losing, gaining or sharing electrons gives full outer shells."
+        },
+        {
+         "q": "Which substance has metallic bonding?",
+         "r": "aluminium foil",
+         "w": [
+          "table salt",
+          "sugar",
+          "carbon dioxide"
+         ],
+         "e": [
+          "Salt is ionic.",
+          "Sugar is covalent.",
+          "Carbon dioxide is covalent."
+         ],
+         "y": "Aluminium is a metal."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-16-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "sodium chloride, NaCl",
+       "r": "ionic",
+       "w": [
+        "covalent",
+        "metallic",
+        "no bonding"
+       ],
+       "e": [
+        "Sodium is a metal and chlorine a non-metal: electrons are transferred.",
+        "Only one of the elements is a metal.",
+        "The atoms are bonded."
+       ],
+       "y": "Metal + non-metal: ionic."
+      },
+      {
+       "q": "water, H₂O",
+       "r": "covalent",
+       "w": [
+        "ionic",
+        "metallic",
+        "no bonding"
+       ],
+       "e": [
+        "Hydrogen and oxygen are both non-metals: they share electrons.",
+        "There is no metal.",
+        "The atoms are bonded."
+       ],
+       "y": "Non-metal + non-metal: covalent."
+      },
+      {
+       "q": "a copper wire",
+       "r": "metallic",
+       "w": [
+        "ionic",
+        "covalent",
+        "no bonding"
+       ],
+       "e": [
+        "There is no non-metal to accept electrons.",
+        "Metals do not share pairs of electrons like non-metals.",
+        "The atoms are bonded."
+       ],
+       "y": "A metal element: metallic bonding."
+      },
+      {
+       "q": "methane, CH₄",
+       "r": "covalent",
+       "w": [
+        "ionic",
+        "metallic",
+        "no bonding"
+       ],
+       "e": [
+        "Carbon and hydrogen are both non-metals.",
+        "There is no metal.",
+        "The atoms are bonded."
+       ],
+       "y": "Non-metals share electrons."
+      },
+      {
+       "q": "magnesium oxide, MgO",
+       "r": "ionic",
+       "w": [
+        "covalent",
+        "metallic",
+        "no bonding"
+       ],
+       "e": [
+        "Magnesium is a metal: it transfers electrons to oxygen.",
+        "Oxygen is a non-metal.",
+        "The atoms are bonded."
+       ],
+       "y": "Metal + non-metal: ionic."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of bonding is in {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-16-pair",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which pair of elements will form an ionic compound?",
+       "r": "potassium and fluorine",
+       "w": [
+        "carbon and oxygen",
+        "nitrogen and hydrogen",
+        "chlorine and chlorine"
+       ],
+       "e": [
+        "Both are non-metals: covalent.",
+        "Both are non-metals: covalent.",
+        "Two identical non-metals share electrons."
+       ],
+       "y": "A metal and a non-metal: ionic."
+      },
+      {
+       "q": "Which pair of elements will form a covalent compound?",
+       "r": "hydrogen and chlorine",
+       "w": [
+        "sodium and chlorine",
+        "calcium and oxygen",
+        "magnesium and sulphur"
+       ],
+       "e": [
+        "Sodium is a metal: ionic.",
+        "Calcium is a metal: ionic.",
+        "Magnesium is a metal: ionic."
+       ],
+       "y": "Two non-metals share electrons."
+      },
+      {
+       "q": "In an ionic bond, what happens to the electrons?",
+       "r": "They are transferred from the metal to the non-metal",
+       "w": [
+        "They are shared equally",
+        "They are destroyed",
+        "They move from the non-metal to the metal"
+       ],
+       "e": [
+        "Sharing is covalent bonding.",
+        "Electrons are never destroyed.",
+        "The metal loses electrons; the non-metal gains them."
+       ],
+       "y": "The metal becomes a positive ion and the non-metal a negative ion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-16-metal",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What holds the atoms together in a piece of iron?",
+       "r": "Attraction between positive ions and a sea of moving electrons",
+       "w": [
+        "Shared pairs of electrons between two atoms",
+        "Attraction between positive and negative ions",
+        "Nothing: the atoms are separate"
+       ],
+       "e": [
+        "That is a covalent bond.",
+        "There are no negative ions in a pure metal.",
+        "The atoms are held together strongly."
+       ],
+       "y": "Metallic bonding: delocalised electrons around positive ions."
+      },
+      {
+       "q": "Why do atoms form chemical bonds?",
+       "r": "To reach a stable, full outer shell",
+       "w": [
+        "To lose their protons",
+        "To become heavier",
+        "To change into another element"
+       ],
+       "e": [
+        "Protons never change in a reaction.",
+        "Mass is not the reason.",
+        "The element does not change."
+       ],
+       "y": "Losing, gaining or sharing electrons gives full outer shells."
+      },
+      {
+       "q": "Which substance has metallic bonding?",
+       "r": "aluminium foil",
+       "w": [
+        "table salt",
+        "sugar",
+        "carbon dioxide"
+       ],
+       "e": [
+        "Salt is ionic.",
+        "Sugar is covalent.",
+        "Carbon dioxide is covalent."
+       ],
+       "y": "Aluminium is a metal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-16-octet",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In water, how does the oxygen atom complete its octet?",
+       "r": "It shares one pair of electrons with each of two hydrogen atoms",
+       "w": [
+        "It gains two electrons from hydrogen ions",
+        "It loses six electrons",
+        "It shares electrons with another oxygen atom"
+       ],
+       "e": [
+        "Hydrogen and oxygen are both non-metals: they share.",
+        "Losing six is far too hard.",
+        "Water has one oxygen atom."
+       ],
+       "y": "Two shared pairs give oxygen 8 and each hydrogen 2."
+      },
+      {
+       "q": "How does magnesium oxide form?",
+       "r": "Magnesium transfers two electrons to oxygen",
+       "w": [
+        "Magnesium and oxygen share two pairs of electrons",
+        "Oxygen transfers two electrons to magnesium",
+        "Magnesium and oxygen share a sea of electrons"
+       ],
+       "e": [
+        "A metal and a non-metal transfer electrons.",
+        "The metal loses; the non-metal gains.",
+        "That is metallic bonding."
+       ],
+       "y": "Mg²⁺ and O²⁻ form, both with a full shell."
+      },
+      {
+       "q": "Two chlorine atoms form a Cl₂ molecule. How?",
+       "r": "They share one pair of electrons",
+       "w": [
+        "One gives an electron to the other",
+        "They share a sea of electrons",
+        "They do not bond"
+       ],
+       "e": [
+        "Identical atoms cannot easily transfer electrons.",
+        "That is metallic bonding.",
+        "Chlorine exists as Cl₂ molecules."
+       ],
+       "y": "Each gets eight outer electrons by sharing one pair."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

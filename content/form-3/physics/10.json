@@ -1,0 +1,442 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "p3-10",
+   "name": "Pressure: definition, calculation and units; pressure in solids"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pressure is the force acting normally (at right angles) on unit area: P = F ÷ A.\n• Unit: the pascal, 1 Pa = 1 N/m². Also N/cm² and kPa (1 kPa = 1000 Pa).\n• The same force on a smaller area gives a larger pressure; on a larger area, a smaller pressure.\n• Applications: knives and needles are sharp (small area, high pressure); lorries have many wide tyres, tractors have wide tracks, and building foundations are wide (large area, low pressure).\n• Change cm² to m² by dividing by 10 000.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Force and area",
+    "text": "Push a drawing pin into a board: the sharp point goes in easily, but the flat head would not. The force is the same; what changes is the area.\nPressure measures how concentrated a force is: P = F ÷ A, where F is the force acting at right angles to the surface and A is the area.\nThe unit is the pascal: {1} Pa = {1} N/m². Pressures are often large, so kPa ({1000} Pa) is also used."
+   },
+   {
+    "heading": "Small area, large pressure",
+    "text": "• Knives, axes, needles and nails have thin edges or points: tiny area, huge pressure, so they cut or pierce easily.\n• Football boots have studs to grip the ground.\n• A woman's narrow heel can damage a soft floor because her weight acts on a tiny area."
+   },
+   {
+    "heading": "Large area, small pressure",
+    "text": "• Lorries have many wide tyres; tractors and bulldozers have wide tracks, so they do not sink into mud.\n• Buildings stand on wide foundations so the soil is not overloaded.\n• Carrying a load on a flat pad on the head is more comfortable than on a narrow strap.\nRemember to change cm² to m² (divide by {10000}) before working out pascals."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "pressure",
+    "meaning": "force per unit area, P = F ÷ A"
+   },
+   {
+    "word": "pascal (Pa)",
+    "meaning": "{1} newton per square metre"
+   },
+   {
+    "word": "normal force",
+    "meaning": "a force at right angles to a surface"
+   }
+  ],
+  "examples": [
+   "{600} N on {0.04} m² gives {15000} Pa",
+   "{50} N on {1} cm² ({0.0001} m²) gives {500000} Pa"
+  ],
+  "mistake": {
+   "wrong": "P = {600} N ÷ {200} cm² = {3} Pa",
+   "right": "{200} cm² = {0.02} m², so P = {30000} Pa",
+   "why": "The pascal is N per square metre: change cm² to m² first."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "F": 600,
+   "A": 0.04
+  },
+  "problem": "A man weighing {F} N stands on both feet. The total area of his soles is {A} m². Find the pressure on the floor.",
+  "steps": [
+   "P = F ÷ A.",
+   "P = {F} ÷ {A} = {pressure(F, A)} Pa."
+  ],
+  "answer": "{pressure(F, A)} Pa",
+  "checks": [
+   "pressure(F, A) == 15000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p10-1",
+    "status": "draft",
+    "idea": "Pressure = force ÷ area, in pascals (N/m²).",
+    "vars": {},
+    "example": [
+     "{100} N on {2} m²: P = {50} Pa"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-10-p"
+    }
+   },
+   {
+    "id": "c3p10-2",
+    "status": "draft",
+    "idea": "A smaller area gives a bigger pressure for the same force.",
+    "vars": {},
+    "example": [
+     "A sharp knife cuts because its edge has a tiny area."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-10-app"
+    }
+   },
+   {
+    "id": "c3p10-3",
+    "status": "draft",
+    "idea": "Change cm² to m²: divide by {10000}.",
+    "vars": {},
+    "example": [
+     "{200} cm² = {0.02} m²"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-10-cm-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "pressure"
+     ],
+     "vars": {
+      "W": {
+       "int": [
+        500,
+        700
+       ],
+       "step": 50
+      },
+      "a": {
+       "pick": [
+        1,
+        2,
+        4,
+        5
+       ]
+      }
+     },
+     "prompt": "A woman of weight {W} N stands on one heel of area {a} cm². Find the pressure on the floor (Pa).",
+     "answer": "W / (a / 10000)",
+     "misconceptions": [
+      {
+       "id": "nocm",
+       "wrong": "W / a",
+       "explain": "That is in N/cm². Change cm² to m² first (÷ {10000})."
+      },
+      {
+       "id": "mult",
+       "wrong": "W * a / 10000",
+       "explain": "Divide the force by the area."
+      }
+     ],
+     "solution": [
+      "Area = {a} cm² = {a / 10000} m².",
+      "P = {W} ÷ {a / 10000} = {answer} Pa."
+     ],
+     "unit": "Pa"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-10-p",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      0.5,
+      2,
+      4,
+      5,
+      10,
+      20
+     ]
+    },
+    "k": {
+     "int": [
+      5,
+      90
+     ]
+    },
+    "F": {
+     "expr": "A * k * 10"
+    }
+   },
+   "prompt": "A force of {F} N acts on an area of {A} m². Find the pressure (Pa).",
+   "answer": "pressure(F, A)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "F * A",
+     "explain": "Pressure is force divided by area."
+    },
+    {
+     "id": "flip",
+     "wrong": "pressure(A, F)",
+     "explain": "Force on top, area underneath: P = F ÷ A."
+    }
+   ],
+   "solution": [
+    "P = F ÷ A = {F} ÷ {A}.",
+    "P = {answer} Pa."
+   ],
+   "unit": "Pa"
+  },
+  {
+   "id": "p3-10-app",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is a kitchen knife sharpened?",
+       "r": "A thin edge has a small area, so the pressure is large",
+       "w": [
+        "A thin edge has a large area",
+        "Sharpening makes the knife heavier",
+        "Sharpening reduces the force needed to lift it"
+       ],
+       "e": [
+        "A thin edge has a small area.",
+        "Sharpening removes metal; it is lighter.",
+        "Lifting has nothing to do with cutting."
+       ],
+       "y": "The same push over a smaller area gives a bigger pressure."
+      },
+      {
+       "q": "Why do heavy lorries have many wide tyres?",
+       "r": "To spread the weight over a large area and reduce the pressure on the road",
+       "w": [
+        "To increase the pressure on the road",
+        "To make the lorry go faster",
+        "To reduce the weight of the lorry"
+       ],
+       "e": [
+        "Large pressure would damage the road and sink into soft ground.",
+        "Tyre width is about pressure, not speed.",
+        "The weight stays the same."
+       ],
+       "y": "A large area reduces the pressure."
+      },
+      {
+       "q": "Why are the foundations of a building made wide?",
+       "r": "To reduce the pressure on the ground so the building does not sink",
+       "w": [
+        "To increase the pressure on the ground",
+        "To make the walls stronger",
+        "To make the building lighter"
+       ],
+       "e": [
+        "High pressure would make the building sink.",
+        "Width of the foundation is about pressure on the soil.",
+        "The weight is not reduced."
+       ],
+       "y": "A wide base spreads the weight over a large area."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-10-f",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "P": {
+     "int": [
+      200,
+      5000
+     ],
+     "step": 100
+    },
+    "A": {
+     "pick": [
+      0.2,
+      0.5,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "prompt": "A pressure of {P} Pa acts on an area of {A} m². Find the force (N).",
+   "answer": "P * A",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(P / A, 0.01)",
+     "explain": "F = P × A: multiply."
+    }
+   ],
+   "solution": [
+    "F = P × A.",
+    "F = {P} × {A} = {answer} N."
+   ],
+   "unit": "N"
+  },
+  {
+   "id": "p3-10-cm",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "W": {
+     "int": [
+      500,
+      700
+     ],
+     "step": 50
+    },
+    "a": {
+     "pick": [
+      1,
+      2,
+      4,
+      5
+     ]
+    }
+   },
+   "prompt": "A woman of weight {W} N stands on one heel of area {a} cm². Find the pressure on the floor (Pa).",
+   "answer": "W / (a / 10000)",
+   "misconceptions": [
+    {
+     "id": "nocm",
+     "wrong": "W / a",
+     "explain": "That is in N/cm². Change cm² to m² first (÷ {10000})."
+    },
+    {
+     "id": "mult",
+     "wrong": "W * a / 10000",
+     "explain": "Divide the force by the area."
+    }
+   ],
+   "solution": [
+    "Area = {a} cm² = {a / 10000} m².",
+    "P = {W} ÷ {a / 10000} = {answer} Pa."
+   ],
+   "unit": "Pa"
+  },
+  {
+   "id": "p3-10-brick",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "W": {
+     "int": [
+      20,
+      40
+     ]
+    },
+    "l": {
+     "pick": [
+      0.2,
+      0.25
+     ]
+    },
+    "w": {
+     "pick": [
+      0.1,
+      0.12
+     ]
+    },
+    "h": {
+     "pick": [
+      0.05,
+      0.06
+     ]
+    }
+   },
+   "prompt": "A brick of weight {W} N measures {l} m × {w} m × {h} m. What is the greatest pressure it can exert when standing on a table (Pa)?",
+   "answer": "roundTo(W / (w * h), 1)",
+   "misconceptions": [
+    {
+     "id": "big",
+     "wrong": "roundTo(W / (l * w), 1)",
+     "explain": "That is the pressure on the largest face, the smallest pressure. Use the smallest area for the greatest pressure."
+    }
+   ],
+   "solution": [
+    "The greatest pressure is on the smallest face: {w} m × {h} m = {roundTo(w * h, 0.0001)} m².",
+    "P = {W} ÷ {roundTo(w * h, 0.0001)} = {answer} Pa."
+   ],
+   "unit": "Pa"
+  }
+ ]
+}

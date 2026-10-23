@@ -1,0 +1,603 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "m3-13",
+   "name": "Change the subject of a formula"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The subject of a formula is the letter on its own on one side: in v = u + at, v is the subject.\nTo make another letter the subject, treat the formula like an equation: do the same to both sides, undoing operations in reverse order.\n• v = u + at → v − u = at → t = (v − u) ÷ a.\n• A = πr² → r² = A ÷ π → r = √(A ÷ π).\n• If the new subject appears twice, collect those terms on one side and factorise it out.\nAfter rearranging, you can substitute values to find the new subject.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "What the subject is",
+    "text": "In the formula for the area of a rectangle, A = lw, A is the subject: it is alone on one side, and the formula tells you how to find it.\nSometimes you know A and w and want l. Then you rearrange the formula so that l is the subject: l = A ÷ w.\nRearranging is called changing the subject or transposing the formula."
+   },
+   {
+    "heading": "Undo in reverse order",
+    "text": "Look at how the new subject was built. In v = u + at, start from t: multiply by a, then add u.\nTo get t back, undo those steps in reverse order, on both sides:\n• subtract u: v − u = at;\n• divide by a: t = (v − u) ÷ a.\nKeep brackets where you divide a whole expression. Squares are undone with square roots: A = πr² gives r = √(A ÷ π)."
+   },
+   {
+    "heading": "When the subject appears twice",
+    "text": "In ax + b = cx + d, x appears on both sides. Collect the x terms on one side and the rest on the other: ax − cx = d − b.\nNow take x out as a common factor: x(a − c) = d − b.\nDivide by the bracket: x = (d − b) ÷ (a − c). Factorising is the key step."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "subject",
+    "meaning": "the letter on its own on one side of a formula"
+   },
+   {
+    "word": "transpose",
+    "meaning": "rearrange a formula to change its subject"
+   },
+   {
+    "word": "inverse operation",
+    "meaning": "the operation that undoes another: + and −, × and ÷, squaring and square root"
+   }
+  ],
+  "examples": [
+   "C = πd → d = C ÷ π",
+   "y = {mono(3, 'x')} − {4} → x = (y + {4}) ÷ {3}",
+   "V = lwh → h = V ÷ (lw)"
+  ],
+  "mistake": {
+   "wrong": "v = u + at → t = v − u − a",
+   "right": "v = u + at → t = (v − u) ÷ a",
+   "why": "a multiplies t, so undo it by dividing by a. Subtracting a would undo an addition."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": 30,
+   "u": 6,
+   "a": 4
+  },
+  "problem": "Make t the subject of v = u + at, then find t when v = {v}, u = {u} and a = {a}.",
+  "steps": [
+   "Subtract u from both sides: v − u = at.",
+   "Divide both sides by a: t = (v − u) ÷ a.",
+   "Substitute: t = ({v} − {u}) ÷ {a} = {(v - u) / a}."
+  ],
+  "answer": "t = (v − u) ÷ a = {(v - u) / a}",
+  "checks": [
+   "(v - u) / a == 6"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m13-1",
+    "status": "draft",
+    "idea": "Undo the operations on the new subject in reverse order, doing the same to both sides.",
+    "vars": {},
+    "example": [
+     "P = {2}(l + w) → P ÷ {2} = l + w → l = P ÷ {2} − w"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-13-lin"
+    }
+   },
+   {
+    "id": "c3m13-2",
+    "status": "draft",
+    "idea": "To undo a square, take the square root.",
+    "vars": {},
+    "example": [
+     "A = πr² → r = √(A ÷ π)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-13-sq-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "formulae"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Make r the subject of A = πr².",
+         "r": "r = √(A ÷ π)",
+         "w": [
+          "r = A ÷ π²",
+          "r = √A ÷ π",
+          "r = (A ÷ π)²"
+         ],
+         "e": [
+          "Only r is squared: divide by π, then take the square root.",
+          "Take the square root of the whole of A ÷ π.",
+          "To undo a square, take the square root, do not square."
+         ],
+         "y": "Divide by π, then take the square root."
+        },
+        {
+         "q": "Make v the subject of E = ½mv².",
+         "r": "v = √(2E ÷ m)",
+         "w": [
+          "v = 2E ÷ m²",
+          "v = √(E ÷ 2m)",
+          "v = (2E ÷ m)²"
+         ],
+         "e": [
+          "Only v is squared: undo it with a square root at the end.",
+          "Multiply by 2 to undo ½, do not divide.",
+          "To undo a square, take the square root."
+         ],
+         "y": "Multiply by 2, divide by m, then take the square root."
+        },
+        {
+         "q": "Make x the subject of y = x² − k.",
+         "r": "x = √(y + k)",
+         "w": [
+          "x = √y − k",
+          "x = (y + k)²",
+          "x = √(y − k)"
+         ],
+         "e": [
+          "Add k first, then take the square root of the whole of y + k.",
+          "To undo a square, take the square root.",
+          "k is subtracted: add it to both sides."
+         ],
+         "y": "Add k to both sides, then take the square root."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c3m13-3",
+    "status": "draft",
+    "idea": "After rearranging, substitute the values to find the new subject.",
+    "vars": {},
+    "example": [
+     "v = u + at with v = {20}, u = {5}, a = {3}: t = ({20} − {5}) ÷ {3} = {5}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-13-sub"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-13-lin",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "formulae"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Make t the subject of v = u + at.",
+       "r": "t = (v − u) ÷ a",
+       "w": [
+        "t = v − u − a",
+        "t = (v + u) ÷ a",
+        "t = v ÷ a − u"
+       ],
+       "e": [
+        "a multiplies t: divide by a, do not subtract it.",
+        "u is added on the right: subtract it, do not add.",
+        "Subtract u first (it is added last), then divide by a."
+       ],
+       "y": "Subtract u from both sides, then divide by a."
+      },
+      {
+       "q": "Make w the subject of P = 2l + 2w.",
+       "r": "w = (P − 2l) ÷ 2",
+       "w": [
+        "w = P − 2l − 2",
+        "w = (P + 2l) ÷ 2",
+        "w = P ÷ 2 − 2l"
+       ],
+       "e": [
+        "2 multiplies w: divide by 2, do not subtract it.",
+        "2l is added: subtract it from both sides.",
+        "Divide the whole of P − 2l by 2."
+       ],
+       "y": "Subtract 2l, then divide by 2."
+      },
+      {
+       "q": "Make x the subject of y = mx + c.",
+       "r": "x = (y − c) ÷ m",
+       "w": [
+        "x = y − c − m",
+        "x = (y + c) ÷ m",
+        "x = y ÷ m − c"
+       ],
+       "e": [
+        "m multiplies x: divide by m.",
+        "c is added: subtract it.",
+        "Subtract c first, then divide the whole of y − c by m."
+       ],
+       "y": "Subtract c, then divide by m."
+      },
+      {
+       "q": "Make b the subject of A = ½(a + b)h.",
+       "r": "b = 2A ÷ h − a",
+       "w": [
+        "b = A ÷ 2h − a",
+        "b = 2A − h − a",
+        "b = 2Ah − a"
+       ],
+       "e": [
+        "Multiply by 2 to undo ½: 2A, then divide by h.",
+        "h multiplies the bracket: divide by h, do not subtract.",
+        "Divide by h, do not multiply."
+       ],
+       "y": "Multiply by 2, divide by h, then subtract a."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-13-sub",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "formulae"
+   ],
+   "vars": {
+    "u": {
+     "int": [
+      0,
+      20
+     ]
+    },
+    "a": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "t": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "v = u + at. Find t when v = {u + a * t}, u = {u} and a = {a}.",
+   "answer": "t",
+   "misconceptions": [
+    {
+     "id": "nodiv",
+     "wrong": "a * t",
+     "explain": "That is v − u = at. Divide by a = {a} to find t."
+    },
+    {
+     "id": "add",
+     "wrong": "(2 * u + a * t) / a",
+     "explain": "Subtract u, do not add it."
+    }
+   ],
+   "solution": [
+    "t = (v − u) ÷ a.",
+    "t = ({u + a * t} − {u}) ÷ {a} = {answer}."
+   ],
+   "where": [
+    "u != 0",
+    "(2 * u + a * t) / a != t"
+   ]
+  },
+  {
+   "id": "m3-13-sq",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "formulae"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Make r the subject of A = πr².",
+       "r": "r = √(A ÷ π)",
+       "w": [
+        "r = A ÷ π²",
+        "r = √A ÷ π",
+        "r = (A ÷ π)²"
+       ],
+       "e": [
+        "Only r is squared: divide by π, then take the square root.",
+        "Take the square root of the whole of A ÷ π.",
+        "To undo a square, take the square root, do not square."
+       ],
+       "y": "Divide by π, then take the square root."
+      },
+      {
+       "q": "Make v the subject of E = ½mv².",
+       "r": "v = √(2E ÷ m)",
+       "w": [
+        "v = 2E ÷ m²",
+        "v = √(E ÷ 2m)",
+        "v = (2E ÷ m)²"
+       ],
+       "e": [
+        "Only v is squared: undo it with a square root at the end.",
+        "Multiply by 2 to undo ½, do not divide.",
+        "To undo a square, take the square root."
+       ],
+       "y": "Multiply by 2, divide by m, then take the square root."
+      },
+      {
+       "q": "Make x the subject of y = x² − k.",
+       "r": "x = √(y + k)",
+       "w": [
+        "x = √y − k",
+        "x = (y + k)²",
+        "x = √(y − k)"
+       ],
+       "e": [
+        "Add k first, then take the square root of the whole of y + k.",
+        "To undo a square, take the square root.",
+        "k is subtracted: add it to both sides."
+       ],
+       "y": "Add k to both sides, then take the square root."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-13-temp",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "formulae"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      -4,
+      20
+     ]
+    }
+   },
+   "prompt": "F = {9} ÷ {5} × C + {32}. Make C the subject and find C when F = {9 * n + 32}.",
+   "answer": "5 * n",
+   "misconceptions": [
+    {
+     "id": "order",
+     "wrong": "(9 * n + 32) * 5 / 9 - 32",
+     "explain": "Subtract {32} first, then multiply by {5} ÷ {9}: undo in reverse order."
+    },
+    {
+     "id": "frac",
+     "wrong": "9 * n * 9 / 5",
+     "explain": "Undo × {9} ÷ {5} by multiplying by {5} ÷ {9}."
+    }
+   ],
+   "solution": [
+    "C = {5} × (F − {32}) ÷ {9}.",
+    "C = {5} × ({9 * n + 32} − {32}) ÷ {9} = {5} × {9 * n} ÷ {9} = {answer}."
+   ],
+   "where": [
+    "n != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-13-twice",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "formulae"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Make x the subject of ax + b = cx + d.",
+       "r": "x = (d − b) ÷ (a − c)",
+       "w": [
+        "x = (d + b) ÷ (a + c)",
+        "x = (d − b) ÷ a − c",
+        "x = d − b − a + c"
+       ],
+       "e": [
+        "Move cx by subtracting it and b by subtracting it: signs change.",
+        "Factorise x(a − c), then divide by the whole bracket.",
+        "x is multiplied by (a − c): divide, do not subtract."
+       ],
+       "y": "Collect x terms: ax − cx = d − b, factorise x(a − c) = d − b, then divide."
+      },
+      {
+       "q": "Make x the subject of y = (x + 1) ÷ (x − 1).",
+       "r": "x = (y + 1) ÷ (y − 1)",
+       "w": [
+        "x = (y − 1) ÷ (y + 1)",
+        "x = y + 1 − y + 1",
+        "x = (1 − y) ÷ (y + 1)"
+       ],
+       "e": [
+        "Check with y = 3: x = 2 gives (2 + 1) ÷ (2 − 1) = 3, so x = (y + 1) ÷ (y − 1).",
+        "x is a factor: factorise x(y − 1), then divide.",
+        "From xy − x = y + 1, x(y − 1) = y + 1: the signs are as in the answer."
+       ],
+       "y": "Multiply by (x − 1): xy − y = x + 1. Collect: xy − x = y + 1, so x(y − 1) = y + 1."
+      },
+      {
+       "q": "Make a the subject of p = (a + b) ÷ a.",
+       "r": "a = b ÷ (p − 1)",
+       "w": [
+        "a = b ÷ p − 1",
+        "a = (b − 1) ÷ p",
+        "a = b ÷ (p + 1)"
+       ],
+       "e": [
+        "Divide b by the whole of (p − 1).",
+        "From pa = a + b: pa − a = b, so a(p − 1) = b.",
+        "Moving a to the left subtracts it: p − 1, not p + 1."
+       ],
+       "y": "Multiply by a: pa = a + b. Collect: pa − a = b, a(p − 1) = b."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

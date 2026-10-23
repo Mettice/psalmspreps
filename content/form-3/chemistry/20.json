@@ -1,0 +1,586 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "k3-20",
+   "name": "Properties of covalent (molecular) compounds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Simple covalent substances are made of small molecules. The bonds inside each molecule are strong, but the forces between molecules are weak. So they:\n• have low melting and boiling points; many are gases or liquids at room temperature (O₂, CO₂, H₂O, ethanol);\n• do not conduct electricity in any state (no ions or free electrons);\n• are often insoluble in water but soluble in organic solvents (kerosene, ethanol), though some (sugar, ethanol, ammonia) dissolve in water;\n• solids are soft (iodine, wax, sugar).\nException: giant covalent structures (diamond, graphite, sand) have very high melting points.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Strong inside, weak outside",
+    "text": "In a simple covalent substance, each molecule is held together by strong covalent bonds. But the molecules attract one another only weakly.\nWhen the substance melts or boils, only these weak forces between molecules are overcome; the molecules themselves stay whole.\nSo little energy is needed: oxygen, carbon dioxide and methane are gases; water and ethanol are liquids; wax, sugar and iodine are soft solids."
+   },
+   {
+    "heading": "No conduction",
+    "text": "To conduct, a substance needs charged particles that can move. Molecular substances have neither ions nor free electrons, so they do not conduct when solid, liquid or dissolved.\nThat is why plastics, which are covalent, are used to insulate electric wires."
+   },
+   {
+    "heading": "Solubility, and an important exception",
+    "text": "Many covalent substances do not dissolve in water but do dissolve in organic solvents such as kerosene, petrol or ethanol (grease on hands is removed with kerosene). Some, like sugar and ethanol, dissolve in water.\nNot all covalent substances are molecular: diamond, graphite and sand (silicon dioxide) are giant covalent structures with very high melting points. You will meet them in a later lesson."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "molecular (simple covalent) substance",
+    "meaning": "made of separate small molecules"
+   },
+   {
+    "word": "intermolecular forces",
+    "meaning": "the weak forces between molecules"
+   },
+   {
+    "word": "organic solvent",
+    "meaning": "a carbon-based liquid such as kerosene or ethanol"
+   }
+  ],
+  "examples": [
+   "Water: b.p. {100} °C, does not conduct",
+   "Iodine: soft, turns to vapour easily",
+   "Sugar: dissolves in water, solution does not conduct"
+  ],
+  "mistake": {
+   "wrong": "When water boils, the O–H bonds break",
+   "right": "When water boils, the molecules separate; the O–H bonds stay",
+   "why": "Steam is still H₂O: only the weak forces between molecules are overcome."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain why water boils at {100} °C while sodium chloride boils at about {1400} °C.",
+  "steps": [
+   "Boiling water only separates the molecules from one another; the forces between molecules are weak.",
+   "Boiling salt means separating ions held by strong ionic bonds throughout the lattice.",
+   "Much less energy is needed for water."
+  ],
+  "answer": "Weak forces between water molecules; strong ionic bonds in salt",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k20-1",
+    "status": "draft",
+    "idea": "Weak forces between molecules: low melting and boiling points.",
+    "vars": {},
+    "example": [
+     "Carbon dioxide is a gas at room temperature."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-20-mp"
+    }
+   },
+   {
+    "id": "c3k20-2",
+    "status": "draft",
+    "idea": "Molecular substances do not conduct: there are no free charged particles.",
+    "vars": {},
+    "example": [
+     "Pure water and sugar solution conduct very poorly."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-20-cond"
+    }
+   },
+   {
+    "id": "c3k20-3",
+    "status": "draft",
+    "idea": "Many dissolve in organic solvents rather than water.",
+    "vars": {},
+    "example": [
+     "Candle wax dissolves in kerosene, not in water."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-20-sol-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Candle wax is put in kerosene and in water. Where does it dissolve?",
+         "r": "in kerosene",
+         "w": [
+          "in water",
+          "in both",
+          "in neither"
+         ],
+         "e": [
+          "Wax is covalent and insoluble in water.",
+          "It does not dissolve in water.",
+          "It dissolves in kerosene."
+         ],
+         "y": "Covalent substances often dissolve in organic solvents."
+        },
+        {
+         "q": "Which covalent substance dissolves well in water?",
+         "r": "sugar",
+         "w": [
+          "wax",
+          "iodine",
+          "petrol"
+         ],
+         "e": [
+          "Wax is insoluble in water.",
+          "Iodine hardly dissolves in water.",
+          "Petrol floats on water."
+         ],
+         "y": "Some covalent molecules, such as sugar and ethanol, dissolve in water."
+        },
+        {
+         "q": "Iodine crystals are soft and turn into vapour on gentle heating. This shows that…",
+         "r": "the forces between iodine molecules are weak",
+         "w": [
+          "iodine is ionic",
+          "iodine is a metal",
+          "the I–I bond is weak"
+         ],
+         "e": [
+          "Ionic solids are hard with high melting points.",
+          "Iodine is a non-metal.",
+          "The molecules stay as I₂; it is the forces between them that are weak."
+         ],
+         "y": "Little energy is needed to separate the molecules."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-20-mp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does carbon dioxide have a low boiling point?",
+       "r": "The forces between its molecules are weak",
+       "w": [
+        "The bonds inside the molecule are weak",
+        "It is an ionic compound",
+        "It contains a metal"
+       ],
+       "e": [
+        "The covalent bonds inside are strong; they do not break when it boils.",
+        "It is covalent.",
+        "Carbon and oxygen are non-metals."
+       ],
+       "y": "Boiling separates molecules, which are weakly attracted."
+      },
+      {
+       "q": "Which is most likely a simple covalent substance?",
+       "r": "a liquid that boils at 78 °C",
+       "w": [
+        "a solid that melts at 801 °C",
+        "a shiny solid that conducts",
+        "a solid that conducts when molten"
+       ],
+       "e": [
+        "That is typical of an ionic compound.",
+        "That is a metal.",
+        "That is ionic."
+       ],
+       "y": "Low boiling point: weak forces between molecules (ethanol)."
+      },
+      {
+       "q": "When ice melts, what is broken?",
+       "r": "the weak forces between water molecules",
+       "w": [
+        "the O–H covalent bonds",
+        "ionic bonds",
+        "the nuclei of the atoms"
+       ],
+       "e": [
+        "The molecules stay whole: still H₂O.",
+        "Water is not ionic.",
+        "Nuclei are never broken in melting."
+       ],
+       "y": "Melting separates molecules, not atoms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-20-cond",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does sugar solution not conduct electricity?",
+       "r": "Sugar is made of molecules with no charge",
+       "w": [
+        "Sugar is ionic",
+        "Water blocks the current",
+        "Sugar contains free electrons"
+       ],
+       "e": [
+        "Sugar is covalent.",
+        "Salt water conducts, so water is not the problem.",
+        "Free electrons would make it conduct."
+       ],
+       "y": "No ions are formed when sugar dissolves."
+      },
+      {
+       "q": "Which substance does not conduct electricity when molten?",
+       "r": "wax (covalent)",
+       "w": [
+        "sodium chloride",
+        "copper",
+        "potassium bromide"
+       ],
+       "e": [
+        "Molten NaCl conducts (ions).",
+        "Copper conducts (free electrons).",
+        "Molten KBr conducts (ions)."
+       ],
+       "y": "Wax has neither ions nor free electrons."
+      },
+      {
+       "q": "Pure water conducts very poorly. Why?",
+       "r": "It is made of covalent molecules with almost no ions",
+       "w": [
+        "It is a metal",
+        "It is ionic",
+        "It is a gas"
+       ],
+       "e": [
+        "Water is not a metal.",
+        "Water is covalent.",
+        "Water is a liquid at room temperature."
+       ],
+       "y": "Without moving ions there is almost no current."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-20-sol",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Candle wax is put in kerosene and in water. Where does it dissolve?",
+       "r": "in kerosene",
+       "w": [
+        "in water",
+        "in both",
+        "in neither"
+       ],
+       "e": [
+        "Wax is covalent and insoluble in water.",
+        "It does not dissolve in water.",
+        "It dissolves in kerosene."
+       ],
+       "y": "Covalent substances often dissolve in organic solvents."
+      },
+      {
+       "q": "Which covalent substance dissolves well in water?",
+       "r": "sugar",
+       "w": [
+        "wax",
+        "iodine",
+        "petrol"
+       ],
+       "e": [
+        "Wax is insoluble in water.",
+        "Iodine hardly dissolves in water.",
+        "Petrol floats on water."
+       ],
+       "y": "Some covalent molecules, such as sugar and ethanol, dissolve in water."
+      },
+      {
+       "q": "Iodine crystals are soft and turn into vapour on gentle heating. This shows that…",
+       "r": "the forces between iodine molecules are weak",
+       "w": [
+        "iodine is ionic",
+        "iodine is a metal",
+        "the I–I bond is weak"
+       ],
+       "e": [
+        "Ionic solids are hard with high melting points.",
+        "Iodine is a non-metal.",
+        "The molecules stay as I₂; it is the forces between them that are weak."
+       ],
+       "y": "Little energy is needed to separate the molecules."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-20-compare",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Substance A melts at 801 °C and conducts when molten. Substance B melts at 0 °C and does not conduct. Which is covalent?",
+       "r": "B",
+       "w": [
+        "A",
+        "both",
+        "neither"
+       ],
+       "e": [
+        "A is ionic.",
+        "A conducts when molten, so it is ionic.",
+        "B has the properties of a molecular substance."
+       ],
+       "y": "Low melting point and no conduction: covalent molecules."
+      },
+      {
+       "q": "Sand (silicon dioxide) is covalent but melts at about 1700 °C. Why?",
+       "r": "It is a giant covalent structure: many strong bonds must break",
+       "w": [
+        "It is ionic",
+        "It is made of small molecules",
+        "It contains a metal"
+       ],
+       "e": [
+        "Silicon and oxygen are non-metals.",
+        "Small molecules would melt easily.",
+        "Silicon is a non-metal (metalloid)."
+       ],
+       "y": "Giant covalent lattices have very high melting points."
+      },
+      {
+       "q": "Which statement about simple covalent substances is FALSE?",
+       "r": "They conduct electricity when molten",
+       "w": [
+        "They have low melting points",
+        "Many are gases or liquids",
+        "Their molecules contain strong bonds"
+       ],
+       "e": [
+        "True: weak forces between molecules.",
+        "True: oxygen, water, ethanol.",
+        "True: the covalent bonds themselves are strong."
+       ],
+       "y": "They have no ions or free electrons, so they do not conduct."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

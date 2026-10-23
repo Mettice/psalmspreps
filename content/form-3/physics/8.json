@@ -1,0 +1,376 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "p3-8",
+   "name": "Measure the density of regular and irregular solids"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Regular solid: measure its sides with a ruler (or vernier calipers), calculate the volume, find its mass on a balance, then ρ = m ÷ V.\nIrregular solid: find its mass on a balance; find its volume by displacement (measuring cylinder or overflow can); then ρ = m ÷ V.\nSources of error: air bubbles on the stone, splashing, reading the meniscus from the side, water clinging to the stone if weighed after.\nWeigh the solid before putting it in water.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Regular solids",
+    "text": "For a block, cube or cylinder, find the volume by measuring and calculating, then weigh it.\nA block {4} cm × {3} cm × {2} cm has V = {24} cm³. If its mass is {48} g, ρ = {48} ÷ {24} = {2} g/cm³.\nMeasure each side carefully: a small error in a length makes a bigger error in the volume."
+   },
+   {
+    "heading": "Irregular solids",
+    "text": "A stone has no simple shape, so find its volume by displacement:\n• weigh the dry stone first;\n• read the water level in a measuring cylinder;\n• lower the stone in on a thread and read the new level;\n• the rise is the stone's volume.\nFor a large stone, use an overflow (eureka) can and collect the water that comes out.",
+    "figure": "displacement(50, 60)"
+   },
+   {
+    "heading": "Good practice",
+    "text": "• Weigh before wetting the stone.\n• Lower it gently so water does not splash out.\n• Shake off air bubbles: they add to the volume.\n• Read the meniscus at eye level.\nRepeat and take the mean to reduce errors."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "regular solid",
+    "meaning": "a solid with a simple shape whose volume can be calculated"
+   },
+   {
+    "word": "irregular solid",
+    "meaning": "a solid with no simple shape"
+   },
+   {
+    "word": "overflow (eureka) can",
+    "meaning": "a can with a spout to collect the water an object displaces"
+   }
+  ],
+  "examples": [
+   "Brass key {85} g, {10} cm³: {8.5} g/cm³",
+   "Stone {78} g raises water {50} → {60} mL: {7.8} g/cm³"
+  ],
+  "mistake": {
+   "wrong": "Volume of the stone = final reading {60} mL",
+   "right": "Volume = {60} − {50} = {10} cm³",
+   "why": "The water was already there; only the rise is due to the stone."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 78,
+   "b": 50,
+   "a": 60
+  },
+  "problem": "A stone has mass {m} g. Water in a measuring cylinder rises from {b} mL to {a} mL when the stone is put in. Find the density of the stone.",
+  "steps": [
+   "Volume = {a} − {b} = {a - b} cm³.",
+   "ρ = m ÷ V = {m} ÷ {a - b} = {m / (a - b)} g/cm³."
+  ],
+  "answer": "{m / (a - b)} g/cm³",
+  "checks": [
+   "m / (a - b) == 7.8"
+  ],
+  "figure": "displacement(b, a)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p8-1",
+    "status": "draft",
+    "idea": "Regular solid: volume from its measurements, mass from a balance.",
+    "vars": {},
+    "example": [
+     "{4} cm × {3} cm × {2} cm = {24} cm³; {48} g → {2} g/cm³"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-8-reg"
+    }
+   },
+   {
+    "id": "c3p8-2",
+    "status": "draft",
+    "idea": "Irregular solid: volume by displacement.",
+    "vars": {},
+    "example": [
+     "{50} mL → {60} mL: V = {10} cm³"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-8-irr-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "density"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        15,
+        30
+       ]
+      },
+      "d": {
+       "int": [
+        4,
+        12
+       ]
+      },
+      "k": {
+       "int": [
+        20,
+        40
+       ]
+      },
+      "m": {
+       "expr": "2 * d * k / 10"
+      }
+     },
+     "prompt": "A stone of mass {m} g is lowered into the cylinder shown. Find its density (g/cm³).",
+     "answer": "roundTo(m / (2 * d), 0.01)",
+     "misconceptions": [
+      {
+       "id": "level",
+       "wrong": "roundTo(m / (2 * b + 2 * d), 0.01)",
+       "explain": "Use the rise in level, not the final reading, as the volume."
+      }
+     ],
+     "solution": [
+      "Volume = {2 * b + 2 * d} − {2 * b} = {2 * d} cm³.",
+      "ρ = {m} ÷ {2 * d} = {answer} g/cm³."
+     ],
+     "unit": "g/cm³",
+     "figure": "displacement(2 * b, 2 * b + 2 * d)"
+    }
+   },
+   {
+    "id": "c3p8-3",
+    "status": "draft",
+    "idea": "Do the steps in a sensible order: weigh first, then put it in water.",
+    "vars": {},
+    "example": [
+     "A wet stone gives a wrong mass."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-8-order"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-8-reg",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "k": {
+     "int": [
+      5,
+      90
+     ]
+    }
+   },
+   "prompt": "A rectangular block is {l} cm × {w} cm × {h} cm and has mass {l * w * h * k / 10} g. Find its density (g/cm³).",
+   "answer": "k / 10",
+   "misconceptions": [
+    {
+     "id": "nov",
+     "wrong": "l * w * h * k / 10",
+     "explain": "That is the mass. Divide it by the volume."
+    },
+    {
+     "id": "area",
+     "wrong": "roundTo(l * w * h * k / 10 / (l * w), 0.01)",
+     "explain": "Use the volume (l × w × h), not the area of one face."
+    }
+   ],
+   "solution": [
+    "V = {l} × {w} × {h} = {l * w * h} cm³.",
+    "ρ = {l * w * h * k / 10} ÷ {l * w * h} = {answer} g/cm³."
+   ],
+   "unit": "g/cm³"
+  },
+  {
+   "id": "p3-8-irr",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      15,
+      30
+     ]
+    },
+    "d": {
+     "int": [
+      4,
+      12
+     ]
+    },
+    "k": {
+     "int": [
+      20,
+      40
+     ]
+    },
+    "m": {
+     "expr": "2 * d * k / 10"
+    }
+   },
+   "prompt": "A stone of mass {m} g is lowered into the cylinder shown. Find its density (g/cm³).",
+   "answer": "roundTo(m / (2 * d), 0.01)",
+   "misconceptions": [
+    {
+     "id": "level",
+     "wrong": "roundTo(m / (2 * b + 2 * d), 0.01)",
+     "explain": "Use the rise in level, not the final reading, as the volume."
+    }
+   ],
+   "solution": [
+    "Volume = {2 * b + 2 * d} − {2 * b} = {2 * d} cm³.",
+    "ρ = {m} ÷ {2 * d} = {answer} g/cm³."
+   ],
+   "unit": "g/cm³",
+   "figure": "displacement(2 * b, 2 * b + 2 * d)"
+  },
+  {
+   "id": "p3-8-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      8,
+      8.5
+     ]
+    },
+    "V": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "A brass key has a density of {r} g/cm³ and a mass of {r * V} g. What volume of water will it displace (cm³)?",
+   "answer": "V",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "r * r * V",
+     "explain": "Volume = mass ÷ density: divide."
+    }
+   ],
+   "solution": [
+    "V = m ÷ ρ.",
+    "V = {r * V} ÷ {r} = {answer} cm³."
+   ],
+   "unit": "cm³"
+  },
+  {
+   "id": "p3-8-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "density"
+   ],
+   "prompt": "Put the steps for finding the density of a stone in order.",
+   "items": [
+    {
+     "text": "Find the mass of the dry stone on a balance."
+    },
+    {
+     "text": "Pour water into a measuring cylinder and read the volume."
+    },
+    {
+     "text": "Lower the stone in gently on a thread and read the new volume."
+    },
+    {
+     "text": "Subtract the readings to get the volume of the stone."
+    },
+    {
+     "text": "Divide the mass by the volume."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Weigh the stone while it is still dry."
+  },
+  {
+   "id": "p3-8-eureka",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      20,
+      80
+     ]
+    },
+    "k": {
+     "int": [
+      20,
+      35
+     ]
+    },
+    "m": {
+     "expr": "roundTo(v * k / 10, 1)"
+    }
+   },
+   "prompt": "A stone of mass {m} g is lowered into a full overflow can. The water that overflows has mass {v} g. Find the density of the stone (g/cm³).",
+   "answer": "roundTo(m / v, 0.01)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "roundTo(v / m, 0.01)",
+     "explain": "Density is the stone's mass divided by its volume."
+    }
+   ],
+   "solution": [
+    "The overflow water has the same volume as the stone. Water has {1} g in each cm³, so V = {v} cm³.",
+    "ρ = {m} ÷ {v} = {answer} g/cm³."
+   ],
+   "unit": "g/cm³"
+  }
+ ]
+}

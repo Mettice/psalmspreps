@@ -1,0 +1,454 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "k3-9",
+   "name": "Structure of the atom: the nucleus and electron shells"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Electrons are arranged in shells (energy levels) around the nucleus.\n• The first shell, nearest the nucleus, holds at most 2 electrons; the second at most 8; for the first 20 elements the third holds 8 before the fourth starts.\n• Shells fill from the inside out: inner shells first.\n• Electrons in shells further out have more energy and are held less strongly.\nA Bohr (shell) diagram shows the nucleus and each shell with its electrons as dots or crosses.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Electrons live in shells",
+    "text": "Electrons do not move anywhere they like around the nucleus. They are found in shells (energy levels) at different distances from it.\nThe first shell is closest to the nucleus. Electrons there have the least energy and are held most strongly.\nA shell diagram (Bohr diagram) shows the nucleus as a small circle and each shell as a ring with its electrons.",
+    "figure": "bohr(11)"
+   },
+   {
+    "heading": "How many in each shell?",
+    "text": "For the first {20} elements:\n• first shell: at most {2};\n• second shell: at most {8};\n• third shell: {8} before the fourth shell starts.\nFill from the inside out. Sodium has {11} electrons: {2} in the first shell, {8} in the second, {1} in the third: written {2}, {8}, {1}."
+   },
+   {
+    "heading": "Outer electrons matter",
+    "text": "The electrons in the outer shell are furthest from the nucleus and held least strongly. They take part in chemical reactions.\nThat is why the next lessons count outer electrons so carefully: they explain the Periodic Table and how atoms bond."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "shell (energy level)",
+    "meaning": "a region around the nucleus where electrons are found"
+   },
+   {
+    "word": "Bohr diagram",
+    "meaning": "a drawing of the nucleus and electron shells"
+   },
+   {
+    "word": "outer shell",
+    "meaning": "the last shell that contains electrons"
+   }
+  ],
+  "examples": [
+   "Carbon ({6}): {2}, {4}",
+   "Chlorine ({17}): {2}, {8}, {7}",
+   "Calcium ({20}): {2}, {8}, {8}, {2}"
+  ],
+  "mistake": {
+   "wrong": "Sodium ({11}): {2}, {9}",
+   "right": "Sodium: {2}, {8}, {1}",
+   "why": "The second shell is full at {8}; the next electron starts the third shell."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 12
+  },
+  "problem": "Draw the shells of a magnesium atom (atomic number {z}) and state how many electrons are in each.",
+  "steps": [
+   "{z} electrons to place.",
+   "First shell: {2}; second shell: {8}; that makes {10}.",
+   "The remaining {z - 10} go into the third shell."
+  ],
+  "answer": "{shells(z)}",
+  "checks": [
+   "shells(z) == '2, 8, 2'"
+  ],
+  "figure": "bohr(z)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k9-1",
+    "status": "draft",
+    "idea": "Shell capacities for the first {20} elements: {2}, then {8}, then {8}.",
+    "vars": {},
+    "example": [
+     "Sodium ({11}): {2}, {8}, {1}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-9-cap"
+    }
+   },
+   {
+    "id": "c3k9-2",
+    "status": "draft",
+    "idea": "Fill the inner shells first.",
+    "vars": {},
+    "example": [
+     "Oxygen ({8}): {2}, {6}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-9-count"
+    }
+   },
+   {
+    "id": "c3k9-3",
+    "status": "draft",
+    "idea": "Outer electrons are further from the nucleus and held less tightly.",
+    "vars": {},
+    "example": [
+     "Potassium's outer electron is easy to remove."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-9-fig-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "electrons"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        "Li",
+        "Be",
+        "B",
+        "C",
+        "N",
+        "O",
+        "F",
+        "Ne",
+        "Na",
+        "Mg",
+        "Al",
+        "Si",
+        "P",
+        "S",
+        "Cl",
+        "Ar",
+        "K",
+        "Ca"
+       ]
+      },
+      "z": {
+       "expr": "atomicNumber(X)"
+      }
+     },
+     "prompt": "The diagram shows the shells of an atom. What is its atomic number?",
+     "answer": "z",
+     "misconceptions": [
+      {
+       "id": "outer",
+       "wrong": "outerElectrons(z)",
+       "explain": "Count the electrons in every shell, not only the outer one."
+      }
+     ],
+     "solution": [
+      "Count all the electrons: {shells(z)}.",
+      "Total = {answer}, so the atomic number is {answer}."
+     ],
+     "figure": "bohr(z)",
+     "where": [
+      "outerElectrons(z) != z"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-9-cap",
+   "type": "numeric",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "first",
+       "c": 2
+      },
+      {
+       "n": "second",
+       "c": 8
+      },
+      {
+       "n": "third",
+       "c": 8
+      }
+     ]
+    }
+   },
+   "prompt": "What is the greatest number of electrons the {X.n} shell can hold (for the first {20} elements)?",
+   "answer": "X.c",
+   "misconceptions": [
+    {
+     "id": "eighteen",
+     "wrong": "18",
+     "explain": "For the first {20} elements, the third shell takes {8} before the fourth starts."
+    }
+   ],
+   "solution": [
+    "Shell capacities: first {2}, second {8}, third {8} (before the fourth starts).",
+    "So the {X.n} shell holds {answer}."
+   ]
+  },
+  {
+   "id": "k3-9-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "How many shells contain electrons in an atom of {nameOf(X)} (atomic number {z})?",
+   "answer": "periodOf(z)",
+   "misconceptions": [
+    {
+     "id": "outer",
+     "wrong": "outerElectrons(z)",
+     "explain": "That is the number of electrons in the outer shell. Count the shells."
+    }
+   ],
+   "solution": [
+    "Arrangement: {shells(z)}.",
+    "That is {answer} shell(s)."
+   ],
+   "where": [
+    "outerElectrons(z) != periodOf(z)"
+   ]
+  },
+  {
+   "id": "k3-9-fig",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "The diagram shows the shells of an atom. What is its atomic number?",
+   "answer": "z",
+   "misconceptions": [
+    {
+     "id": "outer",
+     "wrong": "outerElectrons(z)",
+     "explain": "Count the electrons in every shell, not only the outer one."
+    }
+   ],
+   "solution": [
+    "Count all the electrons: {shells(z)}.",
+    "Total = {answer}, so the atomic number is {answer}."
+   ],
+   "figure": "bohr(z)",
+   "where": [
+    "outerElectrons(z) != z"
+   ]
+  },
+  {
+   "id": "k3-9-energy",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which electrons are held most strongly by the nucleus?",
+       "r": "those in the first (innermost) shell",
+       "w": [
+        "those in the outer shell",
+        "all electrons equally",
+        "those furthest away"
+       ],
+       "e": [
+        "Outer electrons are further away and held less strongly.",
+        "Distance makes a difference.",
+        "Further electrons are held less strongly."
+       ],
+       "y": "The closer to the nucleus, the stronger the attraction."
+      },
+      {
+       "q": "Why does the third shell of argon hold 8 electrons and potassium's 19th electron go into a fourth shell?",
+       "r": "For the first 20 elements the third shell is full with 8 before the fourth starts",
+       "w": [
+        "The third shell can never hold more than 2",
+        "Potassium has no third shell",
+        "The fourth shell fills first"
+       ],
+       "e": [
+        "The third shell holds 8 here.",
+        "Potassium's third shell has 8 electrons.",
+        "Inner shells fill first."
+       ],
+       "y": "Arrangement 2, 8, 8, 1 for potassium."
+      },
+      {
+       "q": "In which order do shells fill?",
+       "r": "from the nucleus outwards",
+       "w": [
+        "from the outside inwards",
+        "all at the same time",
+        "at random"
+       ],
+       "e": [
+        "Inner shells fill first.",
+        "One shell fills before the next.",
+        "There is a fixed order."
+       ],
+       "y": "Electrons occupy the lowest energy levels first."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-9-left",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "z": {
+     "int": [
+      3,
+      20
+     ]
+    }
+   },
+   "prompt": "An atom has {z} electrons. How many electrons are in its outer shell?",
+   "answer": "outerElectrons(z)",
+   "misconceptions": [
+    {
+     "id": "mod",
+     "wrong": "z - 2",
+     "explain": "Fill the second shell (up to {8}) before the third."
+    },
+    {
+     "id": "all",
+     "wrong": "z",
+     "explain": "Only the outermost shell counts."
+    }
+   ],
+   "solution": [
+    "Fill the shells: {shells(z)}.",
+    "The outer shell has {answer}."
+   ],
+   "where": [
+    "z - 2 != outerElectrons(z)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "b3-17",
+   "name": "Kingdom Fungi: characteristics; mould: structure and mode of life"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Fungi are eukaryotes with no chlorophyll, so they cannot photosynthesise. Most are made of thread-like hyphae forming a network (mycelium); yeast is single-celled. Their cell walls contain chitin.\nNutrition: saprophytic (feeding on dead matter by releasing enzymes and absorbing the products) or parasitic.\nReproduction: mainly by spores, carried by air or water.\nBread mould (Mucor / Rhizopus): white hyphae spreading over damp bread; vertical hyphae carry black sporangia full of spores; rhizoids anchor it. It grows best where it is warm, damp and dark, with food.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "A kingdom of absorbers",
+    "text": "Fungi include moulds, mushrooms, toadstools and yeast. They have nuclei but no chlorophyll, so they cannot make food. Their cell walls are made of chitin, not cellulose.\nMost are built from fine threads called hyphae, which branch into a network called a mycelium. Yeast is an exception: it is single-celled."
+   },
+   {
+    "heading": "How fungi feed",
+    "text": "Most fungi are saprophytes: they feed on dead plants and animals, rotting fruit, leaves and bread. Their hyphae release enzymes that digest the food outside the fungus; the dissolved products are then absorbed.\nSome are parasites, living on living hosts: ringworm on skin, black pod disease on cocoa."
+   },
+   {
+    "heading": "Bread mould",
+    "text": "Leave damp bread in a warm, dark place and white fluffy threads appear: the hyphae of Mucor or Rhizopus. Rhizoids anchor it; upright hyphae carry black round sporangia.\nEach sporangium releases thousands of tiny spores into the air. When a spore lands on suitable food, it grows a new hypha. Keeping food cool, dry and covered slows mould."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "hypha",
+    "meaning": "a thread of a fungus (plural hyphae)"
+   },
+   {
+    "word": "mycelium",
+    "meaning": "a network of hyphae"
+   },
+   {
+    "word": "sporangium",
+    "meaning": "a structure that makes spores"
+   },
+   {
+    "word": "saprophyte",
+    "meaning": "an organism that feeds on dead organic matter"
+   }
+  ],
+  "examples": [
+   "Bread mould: Mucor, Rhizopus",
+   "Black pod of cocoa: parasitic fungus",
+   "Mushrooms: saprophytes"
+  ],
+  "mistake": {
+   "wrong": "Fungi are plants",
+   "right": "Fungi are a separate kingdom",
+   "why": "They have no chlorophyll and their walls are made of chitin, not cellulose."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain how bread mould feeds.",
+  "steps": [
+   "The hyphae grow over and into the bread.",
+   "They release digestive enzymes that break down starch into sugars outside the mould.",
+   "The hyphae absorb the dissolved products."
+  ],
+  "answer": "Saprophytic: external digestion by enzymes, then absorption",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b17-1",
+    "status": "draft",
+    "idea": "Fungi have no chlorophyll and feed by absorbing food.",
+    "vars": {},
+    "example": [
+     "Mushrooms do not need light."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-17-char"
+    }
+   },
+   {
+    "id": "c3b17-2",
+    "status": "draft",
+    "idea": "Most fungi are made of hyphae forming a mycelium.",
+    "vars": {},
+    "example": [
+     "White threads of mould on old bread"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-17-part"
+    }
+   },
+   {
+    "id": "c3b17-3",
+    "status": "draft",
+    "idea": "Fungi reproduce by spores.",
+    "vars": {},
+    "example": [
+     "The black dots on mould are sporangia full of spores."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-17-cond-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Under which conditions does bread mould grow fastest?",
+         "r": "warm, damp and dark",
+         "w": [
+          "cold and dry",
+          "in a hot oven",
+          "in a fridge"
+         ],
+         "e": [
+          "Cold and dry slow it.",
+          "Very high heat kills it.",
+          "Cold slows it."
+         ],
+         "y": "Warmth and moisture help enzymes and growth."
+        },
+        {
+         "q": "Why does keeping bread dry help stop mould?",
+         "r": "Mould needs moisture to grow and digest food",
+         "w": [
+          "Dry bread has no food",
+          "Spores cannot fly in dry air",
+          "Dry bread is too hard to see"
+         ],
+         "e": [
+          "Dry bread still contains starch.",
+          "Spores travel well in dry air.",
+          "That is not a reason."
+         ],
+         "y": "No water, little growth."
+        },
+        {
+         "q": "How do mould spores reach new bread?",
+         "r": "They are carried by air currents",
+         "w": [
+          "The mould walks there",
+          "They grow from the flour",
+          "They are made by the bread"
+         ],
+         "e": [
+          "Moulds do not move.",
+          "Spores come from outside.",
+          "Bread does not make spores."
+         ],
+         "y": "Light spores float in the air everywhere."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-17-char",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why can fungi not make their own food?",
+       "r": "They have no chlorophyll",
+       "w": [
+        "They have no cells",
+        "They live in the dark",
+        "They have no nucleus"
+       ],
+       "e": [
+        "They are made of cells.",
+        "Some grow in light; the reason is chlorophyll.",
+        "They have nuclei."
+       ],
+       "y": "Without chlorophyll there is no photosynthesis."
+      },
+      {
+       "q": "What are fungal cell walls made of?",
+       "r": "chitin",
+       "w": [
+        "cellulose",
+        "protein only",
+        "no wall at all"
+       ],
+       "e": [
+        "Cellulose is in plant walls.",
+        "Chitin is a carbohydrate.",
+        "Fungi do have walls."
+       ],
+       "y": "Chitin is also found in insect skeletons."
+      },
+      {
+       "q": "What is saprophytic nutrition?",
+       "r": "Feeding on dead organic matter by digesting it outside the body and absorbing the products",
+       "w": [
+        "Making food by photosynthesis",
+        "Swallowing food whole",
+        "Living inside a living host"
+       ],
+       "e": [
+        "That is plant nutrition.",
+        "Fungi do not swallow.",
+        "That is parasitism."
+       ],
+       "y": "Saprophytes are decomposers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-17-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a hypha?",
+       "r": "one thread of a fungus",
+       "w": [
+        "a spore case",
+        "a root of a plant",
+        "a single bacterium"
+       ],
+       "e": [
+        "That is a sporangium.",
+        "Fungi have no roots; they have rhizoids.",
+        "Bacteria are a different kingdom."
+       ],
+       "y": "Many hyphae make a mycelium."
+      },
+      {
+       "q": "What is the job of the sporangium of bread mould?",
+       "r": "to produce and release spores",
+       "w": [
+        "to anchor the mould",
+        "to digest the bread",
+        "to photosynthesise"
+       ],
+       "e": [
+        "Rhizoids anchor it.",
+        "Hyphae release enzymes.",
+        "Moulds cannot photosynthesise."
+       ],
+       "y": "The black dots release thousands of spores."
+      },
+      {
+       "q": "What anchors bread mould to the bread?",
+       "r": "rhizoids",
+       "w": [
+        "sporangia",
+        "chloroplasts",
+        "flagella"
+       ],
+       "e": [
+        "Sporangia make spores.",
+        "Moulds have none.",
+        "Moulds do not swim."
+       ],
+       "y": "Rhizoids are root-like hyphae."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-17-cond",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Under which conditions does bread mould grow fastest?",
+       "r": "warm, damp and dark",
+       "w": [
+        "cold and dry",
+        "in a hot oven",
+        "in a fridge"
+       ],
+       "e": [
+        "Cold and dry slow it.",
+        "Very high heat kills it.",
+        "Cold slows it."
+       ],
+       "y": "Warmth and moisture help enzymes and growth."
+      },
+      {
+       "q": "Why does keeping bread dry help stop mould?",
+       "r": "Mould needs moisture to grow and digest food",
+       "w": [
+        "Dry bread has no food",
+        "Spores cannot fly in dry air",
+        "Dry bread is too hard to see"
+       ],
+       "e": [
+        "Dry bread still contains starch.",
+        "Spores travel well in dry air.",
+        "That is not a reason."
+       ],
+       "y": "No water, little growth."
+      },
+      {
+       "q": "How do mould spores reach new bread?",
+       "r": "They are carried by air currents",
+       "w": [
+        "The mould walks there",
+        "They grow from the flour",
+        "They are made by the bread"
+       ],
+       "e": [
+        "Moulds do not move.",
+        "Spores come from outside.",
+        "Bread does not make spores."
+       ],
+       "y": "Light spores float in the air everywhere."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-17-grow",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "prompt": "Put the growth of mould on bread in order.",
+   "items": [
+    {
+     "text": "A spore lands on damp bread."
+    },
+    {
+     "text": "It germinates and a hypha grows."
+    },
+    {
+     "text": "Hyphae branch to form a mycelium and digest the bread."
+    },
+    {
+     "text": "Upright hyphae form sporangia."
+    },
+    {
+     "text": "Sporangia burst and release new spores."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Spore, hypha, mycelium, sporangia, spores."
+  }
+ ]
+}

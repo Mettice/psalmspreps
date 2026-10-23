@@ -1,0 +1,716 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "m3-22",
+   "name": "Multiply matrices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To multiply AB, multiply each row of A by each column of B: multiply the pairs of elements and add.\n• Row 1 of A × column 1 of B gives the element in row 1, column 1 of AB, and so on.\n• AB exists only if the number of columns of A equals the number of rows of B. An m × n matrix times an n × p matrix gives an m × p matrix.\n• In general AB ≠ BA: the order of multiplication matters.\n• The identity matrix leaves a matrix unchanged: AI = IA = A.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Row times column",
+    "text": "Matrix multiplication is not done element by element. Each element of AB comes from a row of A and a column of B:\nmultiply the first elements, multiply the second elements, and add.\nFor A = {matStr([[2, 1], [3, 4]])} and B = {matStr([[1, 5], [2, 0]])}: row {1} of A is ({2}, {1}) and column {1} of B is ({1}, {2}), so the top-left element of AB is {2} × {1} + {1} × {2} = {4}."
+   },
+   {
+    "heading": "When can we multiply?",
+    "text": "Each row of A must have as many elements as each column of B. So the number of columns of A must equal the number of rows of B.\nWrite the orders side by side: ({2} × {3})({3} × {1}). The inside numbers match ({3} and {3}), so AB exists, and its order is the outside numbers: {2} × {1}.\nIf the inside numbers differ, AB cannot be found."
+   },
+   {
+    "heading": "Order matters",
+    "text": "With numbers, {3} × {5} = {5} × {3}. With matrices, AB and BA are usually different, and one of them may not even exist.\nThe identity matrix I = {matStr([[1, 0], [0, 1]])} is special: AI = IA = A for any {2} × {2} matrix A.\nA² means A × A, row times column, not each element squared."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "product AB",
+    "meaning": "rows of A times columns of B"
+   },
+   {
+    "word": "compatible",
+    "meaning": "columns of the first = rows of the second"
+   },
+   {
+    "word": "identity matrix",
+    "meaning": "I: AI = IA = A"
+   }
+  ],
+  "examples": [
+   "{matStr([[1, 2]])} × {matStr([[3], [4]])} = {matStr([[11]])}",
+   "({3} × {2})({2} × {2}) gives a {3} × {2} matrix"
+  ],
+  "mistake": {
+   "wrong": "{matStr([[1, 2], [3, 4]])} × {matStr([[5, 0], [1, 2]])} = {matStr([[5, 0], [3, 8]])}",
+   "right": "= {matStr(matMul([[1, 2], [3, 4]], [[5, 0], [1, 2]]))}",
+   "why": "Do not multiply element by element. Each element is a row of the first times a column of the second, added up."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "A": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "B": [
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     0
+    ]
+   ]
+  },
+  "problem": "Find AB for A and B in the figure.",
+  "steps": [
+   "Row {1} × column {1}: {A[0][0]} × {B[0][0]} + {A[0][1]} × {B[1][0]} = {matMul(A, B)[0][0]}.",
+   "Row {1} × column {2}: {A[0][0]} × {B[0][1]} + {A[0][1]} × {B[1][1]} = {matMul(A, B)[0][1]}.",
+   "Row {2} × column {1}: {A[1][0]} × {B[0][0]} + {A[1][1]} × {B[1][0]} = {matMul(A, B)[1][0]}.",
+   "Row {2} × column {2}: {A[1][0]} × {B[0][1]} + {A[1][1]} × {B[1][1]} = {matMul(A, B)[1][1]}."
+  ],
+  "answer": "AB = {matStr(matMul(A, B))}",
+  "checks": [
+   "matMul(A, B)[1][0] == 11"
+  ],
+  "figure": "matFig([['A', A], ['B', B]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m22-1",
+    "status": "draft",
+    "idea": "Each element of AB is a row of A times a column of B: multiply pairs and add.",
+    "vars": {},
+    "example": [
+     "Row ({2}, {1}) × column ({1}, {2}): {2} × {1} + {1} × {2} = {4}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-22-first"
+    }
+   },
+   {
+    "id": "c3m22-2",
+    "status": "draft",
+    "idea": "An m × n matrix times an n × p matrix gives an m × p matrix; the inside numbers must match.",
+    "vars": {},
+    "example": [
+     "({2} × {3}) × ({3} × {1}) gives {2} × {1}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-22-order"
+    }
+   },
+   {
+    "id": "c3m22-3",
+    "status": "draft",
+    "idea": "The order matters: AB is usually not equal to BA.",
+    "vars": {},
+    "example": [
+     "Always multiply rows of the first by columns of the second."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-22-full-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "matrices"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "c": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "d": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "e": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "f": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "g": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "h": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "A": {
+       "expr": "[[a, b], [c, d]]"
+      },
+      "B": {
+       "expr": "[[e, f], [g, h]]"
+      }
+     },
+     "prompt": "Find AB.",
+     "correct": "{matStr(matMul(A, B))}",
+     "distractors": [
+      {
+       "text": "{matStr(matMul(B, A))}",
+       "misconception": "ba"
+      },
+      {
+       "text": "{matStr([[a * e, b * f], [c * g, d * h]])}",
+       "misconception": "elementwise"
+      },
+      {
+       "text": "{matStr(matMul(A, matT(B)))}",
+       "misconception": "rows"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "ba",
+       "explain": "That is BA. The order matters: rows of A, columns of B."
+      },
+      {
+       "id": "elementwise",
+       "explain": "Multiplying element by element is not matrix multiplication."
+      },
+      {
+       "id": "rows",
+       "explain": "That multiplies rows of A by rows of B. Use the columns of B."
+      }
+     ],
+     "solution": [
+      "Each element is a row of A times a column of B.",
+      "AB = {answer}."
+     ],
+     "figure": "matFig([['A', A], ['B', B]])",
+     "where": [
+      "matStr(matMul(A, B)) != matStr(matMul(B, A))",
+      "f != g",
+      "matStr(matMul(A, B)) != matStr([[a * e, b * f], [c * g, d * h]])",
+      "matStr(matMul(B, A)) != matStr([[a * e, b * f], [c * g, d * h]])",
+      "matStr(matMul(A, matT(B))) != matStr(matMul(B, A))",
+      "matStr(matMul(A, matT(B))) != matStr([[a * e, b * f], [c * g, d * h]])"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-22-first",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    }
+   },
+   "prompt": "Find the element in row {1}, column {1} of AB.",
+   "answer": "a * e + b * g",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "a * e + b * f",
+     "explain": "Use column {1} of B, going down: {e} and {g}."
+    },
+    {
+     "id": "each",
+     "wrong": "a * e",
+     "explain": "Multiply each pair and add both products."
+    }
+   ],
+   "solution": [
+    "Row {1} of A is ({a}, {b}); column {1} of B is ({e}, {g}).",
+    "{a} × {br(e)} + {b} × {br(g)} = {answer}."
+   ],
+   "figure": "matFig([['A', A], ['B', B]])",
+   "where": [
+    "f != g",
+    "b != 0",
+    "a * e + b * f != a * e + b * g",
+    "a * e != a * e + b * g"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-22-order",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "p": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "A is a {m} × {n} matrix and B is a {p} × {q} matrix. What can you say about AB?",
+   "correct": "{n == p ? 'AB is a ' + m + ' × ' + q + ' matrix' : 'AB cannot be found'}",
+   "distractors": [
+    {
+     "text": "{n == p ? 'AB is a ' + n + ' × ' + p + ' matrix' : 'AB is a ' + m + ' × ' + q + ' matrix'}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{n == p ? 'AB cannot be found' : 'AB is a ' + n + ' × ' + p + ' matrix'}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{'AB is a ' + (m + p) + ' × ' + (n + q) + ' matrix'}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{n == p ? 'The order of AB is (rows of A) × (columns of B): ' + m + ' × ' + q + '.' : 'Columns of A (' + n + ') must equal rows of B (' + p + '): they do not.'}"
+    },
+    {
+     "id": "w2",
+     "explain": "{n == p ? 'Columns of A (' + n + ') equal rows of B (' + p + '), so AB exists.' : 'AB does not exist, so it has no order.'}"
+    },
+    {
+     "id": "w3",
+     "explain": "Orders are not added. Check whether the inside numbers match."
+    }
+   ],
+   "solution": [
+    "AB needs the columns of A ({n}) to equal the rows of B ({p}).",
+    "{n == p ? 'They match, and the order of AB is rows of A × columns of B.' : 'They do not match.'} So: {answer}."
+   ],
+   "where": [
+    "!(n == p && m == n && p == q)",
+    "!(n != p && m == n && q == p)"
+   ]
+  },
+  {
+   "id": "m3-22-elem",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    },
+    "r": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "Find the element in row {r}, column {s} of AB.",
+   "answer": "matMul(A, B)[r - 1][s - 1]",
+   "misconceptions": [
+    {
+     "id": "ba",
+     "wrong": "matMul(B, A)[r - 1][s - 1]",
+     "explain": "That is the element of BA. AB uses rows of A and columns of B."
+    },
+    {
+     "id": "elementwise",
+     "wrong": "A[r - 1][s - 1] * B[r - 1][s - 1]",
+     "explain": "Matrices are not multiplied element by element: use row × column."
+    }
+   ],
+   "solution": [
+    "Row {r} of A: ({A[r - 1][0]}, {A[r - 1][1]}). Column {s} of B: ({B[0][s - 1]}, {B[1][s - 1]}).",
+    "{A[r - 1][0]} × {br(B[0][s - 1])} + {A[r - 1][1]} × {br(B[1][s - 1])} = {answer}."
+   ],
+   "figure": "matFig([['A', A], ['B', B]])",
+   "where": [
+    "matMul(B, A)[r - 1][s - 1] != matMul(A, B)[r - 1][s - 1]",
+    "A[r - 1][s - 1] * B[r - 1][s - 1] != matMul(A, B)[r - 1][s - 1]"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-22-full",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    }
+   },
+   "prompt": "Find AB.",
+   "correct": "{matStr(matMul(A, B))}",
+   "distractors": [
+    {
+     "text": "{matStr(matMul(B, A))}",
+     "misconception": "ba"
+    },
+    {
+     "text": "{matStr([[a * e, b * f], [c * g, d * h]])}",
+     "misconception": "elementwise"
+    },
+    {
+     "text": "{matStr(matMul(A, matT(B)))}",
+     "misconception": "rows"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ba",
+     "explain": "That is BA. The order matters: rows of A, columns of B."
+    },
+    {
+     "id": "elementwise",
+     "explain": "Multiplying element by element is not matrix multiplication."
+    },
+    {
+     "id": "rows",
+     "explain": "That multiplies rows of A by rows of B. Use the columns of B."
+    }
+   ],
+   "solution": [
+    "Each element is a row of A times a column of B.",
+    "AB = {answer}."
+   ],
+   "figure": "matFig([['A', A], ['B', B]])",
+   "where": [
+    "matStr(matMul(A, B)) != matStr(matMul(B, A))",
+    "f != g",
+    "matStr(matMul(A, B)) != matStr([[a * e, b * f], [c * g, d * h]])",
+    "matStr(matMul(B, A)) != matStr([[a * e, b * f], [c * g, d * h]])",
+    "matStr(matMul(A, matT(B))) != matStr(matMul(B, A))",
+    "matStr(matMul(A, matT(B))) != matStr([[a * e, b * f], [c * g, d * h]])"
+   ]
+  },
+  {
+   "id": "m3-22-square",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    },
+    "r": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "Find the element in row {r}, column {s} of A² (that is, A × A).",
+   "answer": "matMul(A, A)[r - 1][s - 1]",
+   "misconceptions": [
+    {
+     "id": "sq",
+     "wrong": "A[r - 1][s - 1] * A[r - 1][s - 1]",
+     "explain": "A² is not found by squaring each element: multiply A by A, row × column."
+    }
+   ],
+   "solution": [
+    "A² = A × A. Row {r} of A: ({A[r - 1][0]}, {A[r - 1][1]}); column {s} of A: ({A[0][s - 1]}, {A[1][s - 1]}).",
+    "{A[r - 1][0]} × {br(A[0][s - 1])} + {A[r - 1][1]} × {br(A[1][s - 1])} = {answer}."
+   ],
+   "figure": "matFig([['A', A]])",
+   "where": [
+    "A[r - 1][s - 1] * A[r - 1][s - 1] != matMul(A, A)[r - 1][s - 1]"
+   ],
+   "signed": true
+  }
+ ]
+}

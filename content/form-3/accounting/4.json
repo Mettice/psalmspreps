@@ -1,0 +1,463 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1,
+  2
+ ],
+ "skills": [
+  {
+   "id": "a3-4",
+   "name": "Accounting for financing transactions: capital and loans"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Financing transactions bring long-term money into the enterprise.\n• Capital contributed by the owner: debit 521 Bank (or 571 Cash, or the asset given), credit 101 Capital.\n• Loan received from a bank: debit 521 Bank, credit 162 Loans from credit institutions.\n• Repayment of the loan: debit 162 Loans, credit 521 Bank. Interest paid is an expense: debit 671 Interest, credit 521 Bank.\nCapital and loans are resources (class 1); the money received is in treasury (class 5).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Where the money comes from",
+    "text": "A new business needs money to start. The two main long-term sources are the owner's capital and loans.\nBoth are resources recorded in class {1}: {'101 Capital'} for what the owner puts in, {'162 Loans from credit institutions'} for money borrowed from a bank."
+   },
+   {
+    "heading": "The entries",
+    "text": "• Capital paid into the bank: debit {'521 Bank'}, credit {'101 Capital'}. Paid in cash: debit {'571 Cash'}. If the owner brings a car, debit {'245 Transport equipment'}.\n• Loan received: debit {'521 Bank'}, credit {'162 Loans'}.\n• Loan repaid: debit {'162 Loans'}, credit {'521 Bank'}.\n• Interest paid: debit {'671 Interest'} (an expense), credit {'521 Bank'}."
+   },
+   {
+    "heading": "Following the bank balance",
+    "text": "Each financing transaction changes the bank balance: capital and loans add to it; repayments and interest take from it.\nCapital {2000000} + loan {1500000} − repayment {300000} leaves {3200000} FCFA in the bank, and the loan account shows {1200000} FCFA still owed."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "capital",
+    "meaning": "money or assets contributed by the owner"
+   },
+   {
+    "word": "loan",
+    "meaning": "money borrowed that must be repaid"
+   },
+   {
+    "word": "interest",
+    "meaning": "the cost of borrowing, an expense"
+   },
+   {
+    "word": "financing transaction",
+    "meaning": "a transaction that brings long-term funds"
+   }
+  ],
+  "examples": [
+   "{'Dr 521 Bank / Cr 101 Capital'}",
+   "{'Dr 521 Bank / Cr 162 Loans'}",
+   "{'Dr 671 Interest / Cr 521 Bank'}"
+  ],
+  "mistake": {
+   "wrong": "A loan is credited to Capital",
+   "right": "A loan is credited to {'162'} Loans",
+   "why": "The loan belongs to the bank and must be repaid; capital belongs to the owner."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 2000000,
+   "l": 1500000
+  },
+  "problem": "Ms Ngozi starts a business: she pays {c} FCFA into the business bank account and the bank lends the business {l} FCFA. Give the entries and the bank balance.",
+  "steps": [
+   "Capital: debit {'521 Bank'} {c}; credit {'101 Capital'} {c}.",
+   "Loan: debit {'521 Bank'} {l}; credit {'162 Loans'} {l}.",
+   "Bank balance = {c} + {l} = {c + l} FCFA."
+  ],
+  "answer": "Bank {c + l} FCFA",
+  "checks": [
+   "c + l == 3500000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a4-1",
+    "status": "draft",
+    "idea": "The owner's contribution is credited to Capital.",
+    "vars": {},
+    "example": [
+     "{'Dr 521 Bank / Cr 101 Capital'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-4-cap"
+    }
+   },
+   {
+    "id": "c3a4-2",
+    "status": "draft",
+    "idea": "A bank loan is credited to Loans.",
+    "vars": {},
+    "example": [
+     "{'Dr 521 Bank / Cr 162 Loans'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-4-loan"
+    }
+   },
+   {
+    "id": "c3a4-3",
+    "status": "draft",
+    "idea": "Repaying the loan reduces both Loans and Bank.",
+    "vars": {},
+    "example": [
+     "{'Dr 162 Loans / Cr 521 Bank'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-4-bank-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada-transactions"
+     ],
+     "vars": {
+      "c": {
+       "int": [
+        500000,
+        3000000
+       ],
+       "step": 100000
+      },
+      "l": {
+       "int": [
+        500000,
+        3000000
+       ],
+       "step": 100000
+      },
+      "r": {
+       "int": [
+        100000,
+        500000
+       ],
+       "step": 50000
+      }
+     },
+     "prompt": "A business receives capital of {c} FCFA and a loan of {l} FCFA into its bank account, then repays {r} FCFA of the loan. What is the bank balance (FCFA)?",
+     "answer": "c + l - r",
+     "misconceptions": [
+      {
+       "id": "norepay",
+       "wrong": "c + l",
+       "explain": "The repayment reduces the bank balance."
+      },
+      {
+       "id": "noloan",
+       "wrong": "c - r",
+       "explain": "The loan received also adds to the bank."
+      }
+     ],
+     "solution": [
+      "Bank: + {c} (capital) + {l} (loan) − {r} (repayment).",
+      "= {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-4-cap",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The owner pays 1 000 000 FCFA into the business bank account.",
+       "r": "Dr 521 Bank / Cr 101 Capital",
+       "w": [
+        "Dr 101 Capital / Cr 521 Bank",
+        "Dr 521 Bank / Cr 162 Loans",
+        "Dr 571 Cash / Cr 701 Sales"
+       ],
+       "e": [
+        "Reversed: money comes into the bank, so Bank is debited.",
+        "It is the owner's money, not a loan.",
+        "It is not a sale."
+       ],
+       "y": "Bank increases (debit); Capital increases (credit)."
+      },
+      {
+       "q": "The owner brings 300 000 FCFA in cash to start the business.",
+       "r": "Dr 571 Cash / Cr 101 Capital",
+       "w": [
+        "Dr 101 Capital / Cr 571 Cash",
+        "Dr 571 Cash / Cr 162 Loans",
+        "Dr 601 Purchases / Cr 571 Cash"
+       ],
+       "e": [
+        "Reversed.",
+        "Not a loan.",
+        "Not a purchase."
+       ],
+       "y": "Cash comes in from the owner."
+      },
+      {
+       "q": "The owner contributes a car worth 2 500 000 FCFA to the business.",
+       "r": "Dr 245 Transport equipment / Cr 101 Capital",
+       "w": [
+        "Dr 101 Capital / Cr 245 Transport equipment",
+        "Dr 521 Bank / Cr 101 Capital",
+        "Dr 245 Transport equipment / Cr 162 Loans"
+       ],
+       "e": [
+        "Reversed.",
+        "No money moves through the bank.",
+        "It is the owner's contribution, not a loan."
+       ],
+       "y": "The asset received is debited; capital is credited."
+      }
+     ]
+    }
+   },
+   "prompt": "Which entry records this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-4-loan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The business receives a bank loan of 5 000 000 FCFA into its account.",
+       "r": "Dr 521 Bank / Cr 162 Loans",
+       "w": [
+        "Dr 162 Loans / Cr 521 Bank",
+        "Dr 521 Bank / Cr 101 Capital",
+        "Dr 671 Interest / Cr 521 Bank"
+       ],
+       "e": [
+        "That is a repayment.",
+        "A loan is not the owner's capital.",
+        "Interest is an expense paid later."
+       ],
+       "y": "Bank increases; the debt (Loans) increases."
+      },
+      {
+       "q": "The business repays 500 000 FCFA of its loan by bank transfer.",
+       "r": "Dr 162 Loans / Cr 521 Bank",
+       "w": [
+        "Dr 521 Bank / Cr 162 Loans",
+        "Dr 101 Capital / Cr 521 Bank",
+        "Dr 162 Loans / Cr 101 Capital"
+       ],
+       "e": [
+        "That is receiving a loan.",
+        "Capital is not repaid here.",
+        "The money leaves the bank."
+       ],
+       "y": "The debt falls (debit Loans); Bank falls (credit)."
+      },
+      {
+       "q": "The business pays 60 000 FCFA interest on its loan by bank.",
+       "r": "Dr 671 Interest / Cr 521 Bank",
+       "w": [
+        "Dr 162 Loans / Cr 521 Bank",
+        "Dr 521 Bank / Cr 671 Interest",
+        "Dr 671 Interest / Cr 101 Capital"
+       ],
+       "e": [
+        "Interest does not reduce the loan itself.",
+        "Reversed.",
+        "It is paid from the bank."
+       ],
+       "y": "Interest is an expense (class 6)."
+      }
+     ]
+    }
+   },
+   "prompt": "Which entry records this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-4-bank",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "c": {
+     "int": [
+      500000,
+      3000000
+     ],
+     "step": 100000
+    },
+    "l": {
+     "int": [
+      500000,
+      3000000
+     ],
+     "step": 100000
+    },
+    "r": {
+     "int": [
+      100000,
+      500000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "A business receives capital of {c} FCFA and a loan of {l} FCFA into its bank account, then repays {r} FCFA of the loan. What is the bank balance (FCFA)?",
+   "answer": "c + l - r",
+   "misconceptions": [
+    {
+     "id": "norepay",
+     "wrong": "c + l",
+     "explain": "The repayment reduces the bank balance."
+    },
+    {
+     "id": "noloan",
+     "wrong": "c - r",
+     "explain": "The loan received also adds to the bank."
+    }
+   ],
+   "solution": [
+    "Bank: + {c} (capital) + {l} (loan) − {r} (repayment).",
+    "= {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a3-4-left",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      100000,
+      500000
+     ],
+     "step": 50000
+    },
+    "m": {
+     "int": [
+      4,
+      10
+     ]
+    },
+    "l": {
+     "expr": "i * m"
+    },
+    "n": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "prompt": "A loan of {l} FCFA is repaid in equal yearly instalments of {i} FCFA. How much is still owed after {n} instalments (FCFA)?",
+   "answer": "l - i * n",
+   "misconceptions": [
+    {
+     "id": "paid",
+     "wrong": "i * n",
+     "explain": "That is the amount repaid. The question asks what is still owed."
+    }
+   ],
+   "solution": [
+    "Repaid so far = {i} × {n} = {i * n} FCFA.",
+    "Still owed = {l} − {i * n} = {answer} FCFA (the balance of {'162'} Loans)."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

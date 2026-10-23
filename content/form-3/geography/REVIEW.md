@@ -187,7 +187,7 @@ Full working after a second miss:
 
 **Summary (the note)**
 
-> Earth is approximately spherical, with a slight equatorial bulge and flattening at the poles. Its mean radius is about {6371} km; its equatorial diameter is about {12756} km. A globe models this shape; a flat map represents selected features with some distortion. Evidence includes observations from space, a curved shadow during a lunar eclipse and changes in visible stars with latitude. A single local horizon observation needs careful interpretation because hills and atmospheric effects matter. Circumnavigation is consistent with the shape, but modern direct observation gives stronger evidence than an isolated travel story.
+> Earth is approximately spherical, with a slight equatorial bulge and flattening at the poles. Its mean radius is about 6371 km; its equatorial diameter is about 12756 km. A globe models this shape; a flat map represents selected features with some distortion. Evidence includes observations from space, a curved shadow during a lunar eclipse and changes in visible stars with latitude. A single local horizon observation needs careful interpretation because hills and atmospheric effects matter. Circumnavigation is consistent with the shape, but modern direct observation gives stronger evidence than an isolated travel story.
 
 ## All drafts
 
@@ -216,7 +216,7 @@ Prerequisites: none · Skill: g3-1 (Earth: shape, size and evidence)
 
 **Note** (draft)
 
-> Earth is approximately spherical, with a slight equatorial bulge and flattening at the poles. Its mean radius is about {6371} km; its equatorial diameter is about {12756} km. A globe models this shape; a flat map represents selected features with some distortion. Evidence includes observations from space, a curved shadow during a lunar eclipse and changes in visible stars with latitude. A single local horizon observation needs careful interpretation because hills and atmospheric effects matter. Circumnavigation is consistent with the shape, but modern direct observation gives stronger evidence than an isolated travel story.
+> Earth is approximately spherical, with a slight equatorial bulge and flattening at the poles. Its mean radius is about 6371 km; its equatorial diameter is about 12756 km. A globe models this shape; a flat map represents selected features with some distortion. Evidence includes observations from space, a curved shadow during a lunar eclipse and changes in visible stars with latitude. A single local horizon observation needs careful interpretation because hills and atmospheric effects matter. Circumnavigation is consistent with the shape, but modern direct observation gives stronger evidence than an isolated travel story.
 
 **Learn: Understand the ideas** (draft)
 
@@ -1599,7 +1599,7 @@ Prerequisites: none · Skill: g3-7 (Local time, standard time and zones)
 
 **Note** (draft)
 
-> Longitude affects local solar time because Earth rotates. Places farther east are ahead of places farther west in the ideal longitude calculation. Earth turns through {360} degrees in about {24} hours, so {15} degrees corresponds to {1} hour and {1} degree to {4} minutes. Standard time is an adopted common time for a region, rather than a different clock for every meridian. Real civil zones follow political decisions and may differ from ideal equal-width zones.
+> Longitude affects local solar time because Earth rotates. Places farther east are ahead of places farther west in the ideal longitude calculation. Earth turns through 360 degrees in about 24 hours, so 15 degrees corresponds to 1 hour and 1 degree to 4 minutes. Standard time is an adopted common time for a region, rather than a different clock for every meridian. Real civil zones follow political decisions and may differ from ideal equal-width zones.
 
 **Learn: Understand the ideas** (draft)
 

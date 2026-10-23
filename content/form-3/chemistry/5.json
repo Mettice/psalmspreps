@@ -1,0 +1,589 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "k3-5",
+   "name": "Isotopes and calculating relative atomic mass"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Isotopes are atoms of the same element (same number of protons) with different numbers of neutrons, so different mass numbers: ³⁵Cl and ³⁷Cl; ¹²C and ¹⁴C.\nIsotopes of an element have the same chemical properties (same electrons) but slightly different physical properties (mass, density).\nRelative atomic mass (RAM, Ar) is the average mass of the atoms of an element compared with 1/12 of the mass of a carbon-12 atom. It takes account of the abundance (percentage) of each isotope:\nRAM = (mass₁ × %₁ + mass₂ × %₂) ÷ 100. For chlorine: (35 × 75 + 37 × 25) ÷ 100 = 35.5.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Same element, different masses",
+    "text": "All chlorine atoms have {17} protons, but not all have the same number of neutrons. About three in four have {18} neutrons (mass {35}); about one in four has {20} neutrons (mass {37}).\nAtoms of the same element with different numbers of neutrons are isotopes. They are written ³⁵Cl and ³⁷Cl, or chlorine-{35} and chlorine-{37}.\nCarbon has ¹²C (common) and ¹⁴C (rare, used to date old objects)."
+   },
+   {
+    "heading": "Same chemistry",
+    "text": "Chemical reactions depend on electrons. Isotopes of an element have the same number of protons and therefore the same number of electrons, so they react in exactly the same way.\nThey differ only in mass, which slightly changes physical properties such as density."
+   },
+   {
+    "heading": "Relative atomic mass",
+    "text": "A sample of an element contains a mixture of its isotopes, so its average atomic mass is not a whole number. We compare it with {1}/{12} of the mass of a carbon-{12} atom.\nRAM = (mass × percentage for each isotope, added up) ÷ {100}.\nChlorine: ({35} × {75} + {37} × {25}) ÷ {100} = ({2625} + {925}) ÷ {100} = {35.5}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "isotopes",
+    "meaning": "atoms with the same atomic number but different mass numbers"
+   },
+   {
+    "word": "abundance",
+    "meaning": "the percentage of each isotope in the element"
+   },
+   {
+    "word": "relative atomic mass (Ar)",
+    "meaning": "the average mass of an element's atoms compared with {1}/{12} of carbon-{12}"
+   }
+  ],
+  "examples": [
+   "Boron: {20}% ¹⁰B, {80}% ¹¹B → RAM {10.8}",
+   "Hydrogen isotopes: ¹H, ²H (deuterium), ³H (tritium)"
+  ],
+  "mistake": {
+   "wrong": "RAM of chlorine = ({35} + {37}) ÷ {2} = {36}",
+   "right": "RAM = ({35} × {75} + {37} × {25}) ÷ {100} = {35.5}",
+   "why": "The commoner isotope counts more: use the percentages, not a simple average."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m1": 35,
+   "p1": 75,
+   "m2": 37
+  },
+  "problem": "Chlorine is {p1}% ³⁵Cl and {100 - p1}% ³⁷Cl. Calculate its relative atomic mass.",
+  "steps": [
+   "RAM = (mass × % for each isotope, added) ÷ {100}.",
+   "= ({m1} × {p1} + {m2} × {100 - p1}) ÷ {100} = ({m1 * p1} + {m2 * (100 - p1)}) ÷ {100}.",
+   "= {(m1 * p1 + m2 * (100 - p1)) / 100}."
+  ],
+  "answer": "{(m1 * p1 + m2 * (100 - p1)) / 100}",
+  "checks": [
+   "(m1 * p1 + m2 * (100 - p1)) / 100 == 35.5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k5-1",
+    "status": "draft",
+    "idea": "Isotopes: same protons, different neutrons.",
+    "vars": {},
+    "example": [
+     "¹²C and ¹⁴C both have {6} protons; ¹⁴C has {2} more neutrons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-5-def"
+    }
+   },
+   {
+    "id": "c3k5-2",
+    "status": "draft",
+    "idea": "RAM is the average of the isotope masses, weighted by abundance.",
+    "vars": {},
+    "example": [
+     "({35} × {75} + {37} × {25}) ÷ {100} = {35.5}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-5-ram-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "isotopes"
+     ],
+     "vars": {
+      "m": {
+       "int": [
+        6,
+        79
+       ]
+      },
+      "p": {
+       "int": [
+        10,
+        90
+       ],
+       "step": 5
+      }
+     },
+     "prompt": "An element has two isotopes: mass {m} ({p}%) and mass {m + 2} ({100 - p}%). Calculate its relative atomic mass.",
+     "answer": "(m * p + (m + 2) * (100 - p)) / 100",
+     "misconceptions": [
+      {
+       "id": "plain",
+       "wrong": "m + 1",
+       "explain": "That is the simple average. Use the percentages: the commoner isotope counts more."
+      },
+      {
+       "id": "swap",
+       "wrong": "(m * (100 - p) + (m + 2) * p) / 100",
+       "explain": "Each mass goes with its own percentage: {m} with {p}%."
+      }
+     ],
+     "solution": [
+      "RAM = ({m} × {p} + {m + 2} × {100 - p}) ÷ {100}.",
+      "= ({m * p} + {(m + 2) * (100 - p)}) ÷ {100} = {answer}."
+     ],
+     "where": [
+      "p != 50"
+     ]
+    }
+   },
+   {
+    "id": "c3k5-3",
+    "status": "draft",
+    "idea": "Isotopes react in the same way because they have the same electrons.",
+    "vars": {},
+    "example": [
+     "³⁵Cl and ³⁷Cl both form Cl⁻."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-5-prop-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "isotopes"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why do ³⁵Cl and ³⁷Cl have the same chemical properties?",
+         "r": "They have the same number of electrons",
+         "w": [
+          "They have the same mass number",
+          "They have the same number of neutrons",
+          "They are different elements"
+         ],
+         "e": [
+          "Their mass numbers differ.",
+          "Their neutrons differ.",
+          "Both are chlorine."
+         ],
+         "y": "Chemical reactions involve electrons, which are the same."
+        },
+        {
+         "q": "Which property differs between two isotopes of the same element?",
+         "r": "their mass",
+         "w": [
+          "their number of protons",
+          "their chemical reactions",
+          "their atomic number"
+         ],
+         "e": [
+          "Protons are the same.",
+          "Reactions are the same.",
+          "The atomic number is the same."
+         ],
+         "y": "Different numbers of neutrons give different masses."
+        },
+        {
+         "q": "Why is the RAM of chlorine 35.5 and not a whole number?",
+         "r": "It is an average of isotopes of mass 35 and 37",
+         "w": [
+          "A chlorine atom has half a neutron",
+          "It has 35.5 protons",
+          "It was measured wrongly"
+         ],
+         "e": [
+          "Particles are not split.",
+          "Chlorine has 17 protons.",
+          "It is an exact average."
+         ],
+         "y": "The weighted average of 35 (75%) and 37 (25%) is 35.5."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-5-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "isotopes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are isotopes?",
+       "r": "Atoms of the same element with different numbers of neutrons",
+       "w": [
+        "Atoms of different elements with the same mass number",
+        "Atoms with different numbers of protons",
+        "Atoms with different numbers of electrons only"
+       ],
+       "e": [
+        "Different elements have different numbers of protons.",
+        "Changing the protons changes the element.",
+        "That describes ions."
+       ],
+       "y": "Same Z, different A."
+      },
+      {
+       "q": "¹²₆C and ¹⁴₆C are isotopes. How do they differ?",
+       "r": "¹⁴C has two more neutrons",
+       "w": [
+        "¹⁴C has two more protons",
+        "¹⁴C has two more electrons",
+        "They are different elements"
+       ],
+       "e": [
+        "Both have 6 protons.",
+        "Both neutral atoms have 6 electrons.",
+        "Both are carbon (Z = 6)."
+       ],
+       "y": "Mass numbers differ by 2, protons are equal, so neutrons differ by 2."
+      },
+      {
+       "q": "Which pair are isotopes?",
+       "r": "³⁵₁₇Cl and ³⁷₁₇Cl",
+       "w": [
+        "⁴⁰₁₈Ar and ⁴⁰₂₀Ca",
+        "²³₁₁Na and ²⁴₁₂Mg",
+        "¹⁶₈O and ¹⁴₇N"
+       ],
+       "e": [
+        "Same mass number but different elements (different Z).",
+        "Different elements.",
+        "Different elements."
+       ],
+       "y": "Same atomic number (17), different mass numbers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-5-ram",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "isotopes"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      6,
+      79
+     ]
+    },
+    "p": {
+     "int": [
+      10,
+      90
+     ],
+     "step": 5
+    }
+   },
+   "prompt": "An element has two isotopes: mass {m} ({p}%) and mass {m + 2} ({100 - p}%). Calculate its relative atomic mass.",
+   "answer": "(m * p + (m + 2) * (100 - p)) / 100",
+   "misconceptions": [
+    {
+     "id": "plain",
+     "wrong": "m + 1",
+     "explain": "That is the simple average. Use the percentages: the commoner isotope counts more."
+    },
+    {
+     "id": "swap",
+     "wrong": "(m * (100 - p) + (m + 2) * p) / 100",
+     "explain": "Each mass goes with its own percentage: {m} with {p}%."
+    }
+   ],
+   "solution": [
+    "RAM = ({m} × {p} + {m + 2} × {100 - p}) ÷ {100}.",
+    "= ({m * p} + {(m + 2) * (100 - p)}) ÷ {100} = {answer}."
+   ],
+   "where": [
+    "p != 50"
+   ]
+  },
+  {
+   "id": "k3-5-real",
+   "type": "numeric",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "isotopes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "Chlorine",
+       "a": "75% ³⁵Cl and 25% ³⁷Cl",
+       "s": "(35 × 75 + 37 × 25) ÷ 100 = 35.5",
+       "v": 35.5
+      },
+      {
+       "n": "Copper",
+       "a": "69% ⁶³Cu and 31% ⁶⁵Cu",
+       "s": "(63 × 69 + 65 × 31) ÷ 100 = 63.62",
+       "v": 63.62
+      },
+      {
+       "n": "Boron",
+       "a": "20% ¹⁰B and 80% ¹¹B",
+       "s": "(10 × 20 + 11 × 80) ÷ 100 = 10.8",
+       "v": 10.8
+      },
+      {
+       "n": "Neon",
+       "a": "90% ²⁰Ne and 10% ²²Ne",
+       "s": "(20 × 90 + 22 × 10) ÷ 100 = 20.2",
+       "v": 20.2
+      },
+      {
+       "n": "Bromine",
+       "a": "50% ⁷⁹Br and 50% ⁸¹Br",
+       "s": "(79 × 50 + 81 × 50) ÷ 100 = 80",
+       "v": 80
+      }
+     ]
+    }
+   },
+   "prompt": "{X.n}: {X.a}. Calculate the relative atomic mass of {X.n} to {1} decimal place.",
+   "answer": "roundTo(X.v, 0.1)",
+   "solution": [
+    "{X.s}",
+    "≈ {answer}."
+   ]
+  },
+  {
+   "id": "k3-5-prop",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "isotopes"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do ³⁵Cl and ³⁷Cl have the same chemical properties?",
+       "r": "They have the same number of electrons",
+       "w": [
+        "They have the same mass number",
+        "They have the same number of neutrons",
+        "They are different elements"
+       ],
+       "e": [
+        "Their mass numbers differ.",
+        "Their neutrons differ.",
+        "Both are chlorine."
+       ],
+       "y": "Chemical reactions involve electrons, which are the same."
+      },
+      {
+       "q": "Which property differs between two isotopes of the same element?",
+       "r": "their mass",
+       "w": [
+        "their number of protons",
+        "their chemical reactions",
+        "their atomic number"
+       ],
+       "e": [
+        "Protons are the same.",
+        "Reactions are the same.",
+        "The atomic number is the same."
+       ],
+       "y": "Different numbers of neutrons give different masses."
+      },
+      {
+       "q": "Why is the RAM of chlorine 35.5 and not a whole number?",
+       "r": "It is an average of isotopes of mass 35 and 37",
+       "w": [
+        "A chlorine atom has half a neutron",
+        "It has 35.5 protons",
+        "It was measured wrongly"
+       ],
+       "e": [
+        "Particles are not split.",
+        "Chlorine has 17 protons.",
+        "It is an exact average."
+       ],
+       "y": "The weighted average of 35 (75%) and 37 (25%) is 35.5."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-5-pct",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "isotopes"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      10,
+      60
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "R": {
+     "expr": "m + q / 5"
+    }
+   },
+   "prompt": "An element has RAM {R} and two isotopes of mass {m} and {m + 2}. What percentage is the isotope of mass {m}?",
+   "answer": "100 - (R - m) * 50",
+   "misconceptions": [
+    {
+     "id": "other",
+     "wrong": "(R - m) * 50",
+     "explain": "That is the percentage of the heavier isotope."
+    },
+    {
+     "id": "half",
+     "wrong": "50",
+     "explain": "Work it out from the RAM; it is not always half."
+    }
+   ],
+   "solution": [
+    "Let x% be mass {m}: ({m}x + {m + 2}({100} − x)) ÷ {100} = {R}.",
+    "{m}x + {(m + 2) * 100} − {m + 2}x = {R * 100}, so {2}x = {(m + 2) * 100 - R * 100}, x = {answer}%."
+   ],
+   "unit": "%",
+   "where": [
+    "q != 5"
+   ]
+  }
+ ]
+}

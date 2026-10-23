@@ -1,0 +1,663 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [
+  22
+ ],
+ "skills": [
+  {
+   "id": "m3-23",
+   "name": "Transpose, determinant and adjoint of a matrix"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• The transpose Aᵀ turns rows into columns: the first row of A becomes the first column of Aᵀ. A 2 × 3 matrix has a 3 × 2 transpose.\n• For A = (a b ; c d), the determinant is |A| = ad − bc (leading diagonal product minus the other diagonal product).\n• A matrix with determinant 0 is singular; otherwise it is non-singular.\n• The adjoint of (a b ; c d) is (d −b ; −c a): swap the elements of the leading diagonal and change the signs of the other two.\n• A × adj A = |A| × I.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The transpose",
+    "text": "Write the rows of A as columns and you get its transpose, Aᵀ. A {2} × {3} matrix becomes {3} × {2}:\nA = {matStr([[1, 2, 3], [4, 5, 6]])} gives Aᵀ = {matStr([[1, 4], [2, 5], [3, 6]])}.\nThe element in row i, column j of A moves to row j, column i."
+   },
+   {
+    "heading": "The determinant",
+    "text": "Every square matrix has a number called its determinant. For a {2} × {2} matrix A = (a b ; c d):\n|A| = ad − bc: the product of the leading diagonal minus the product of the other diagonal.\n|{matStr([[3, 1], [4, 2]])}| = {3} × {2} − {1} × {4} = {2}.\nIf |A| = {0}, A is called singular. You will see next lesson that a singular matrix has no inverse."
+   },
+   {
+    "heading": "The adjoint",
+    "text": "The adjoint of A = (a b ; c d) is adj A = (d −b ; −c a): swap a and d, and change the signs of b and c.\nadj {matStr([[3, 1], [4, 2]])} = {matStr([[2, -1], [-4, 3]])}.\nCheck: A × adj A = {matStr(matMul([[3, 1], [4, 2]], [[2, -1], [-4, 3]]))} = |A| × I. This fact gives the inverse."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "transpose",
+    "meaning": "Aᵀ: rows written as columns"
+   },
+   {
+    "word": "determinant",
+    "meaning": "|A| = ad − bc for a {2} × {2} matrix"
+   },
+   {
+    "word": "singular",
+    "meaning": "having determinant {0}"
+   },
+   {
+    "word": "adjoint",
+    "meaning": "adj A = (d −b ; −c a)"
+   }
+  ],
+  "examples": [
+   "|{matStr([[5, 2], [3, 1]])}| = {5} − {6} = {-1}",
+   "adj {matStr([[1, 4], [2, 7]])} = {matStr([[7, -4], [-2, 1]])}"
+  ],
+  "mistake": {
+   "wrong": "|{matStr([[3, 1], [4, 2]])}| = {3} × {2} + {1} × {4} = {10}",
+   "right": "|A| = {3} × {2} − {1} × {4} = {2}",
+   "why": "The determinant is a difference: ad minus bc."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "A": [
+    [
+     4,
+     3
+    ],
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  "problem": "For A in the figure, find |A| and adj A.",
+  "steps": [
+   "|A| = {A[0][0]} × {A[1][1]} − {A[0][1]} × {A[1][0]} = {A[0][0] * A[1][1]} − {A[0][1] * A[1][0]} = {det2(A)}.",
+   "adj A: swap {A[0][0]} and {A[1][1]}, change the signs of {A[0][1]} and {A[1][0]}.",
+   "adj A = {matStr(adj2(A))}."
+  ],
+  "answer": "|A| = {det2(A)}, adj A = {matStr(adj2(A))}",
+  "checks": [
+   "det2(A) == 14"
+  ],
+  "figure": "matFig([['A', A]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m23-1",
+    "status": "draft",
+    "idea": "The transpose turns rows into columns.",
+    "vars": {},
+    "example": [
+     "A = {matStr([[1, 2, 3], [4, 5, 6]])}, Aᵀ = {matStr([[1, 4], [2, 5], [3, 6]])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-23-t"
+    }
+   },
+   {
+    "id": "c3m23-2",
+    "status": "draft",
+    "idea": "|A| = ad − bc for A = (a b ; c d).",
+    "vars": {},
+    "example": [
+     "|{matStr([[3, 1], [4, 2]])}| = {6} − {4} = {2}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-23-det"
+    }
+   },
+   {
+    "id": "c3m23-3",
+    "status": "draft",
+    "idea": "Adjoint: swap a and d, change the signs of b and c.",
+    "vars": {},
+    "example": [
+     "adj {matStr([[3, 1], [4, 2]])} = {matStr([[2, -1], [-4, 3]])}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-23-adj-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "matrices"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "c": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "d": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "e": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "f": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "g": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "h": {
+       "int": [
+        -5,
+        9
+       ]
+      },
+      "A": {
+       "expr": "[[a, b], [c, d]]"
+      },
+      "B": {
+       "expr": "[[e, f], [g, h]]"
+      }
+     },
+     "prompt": "Find the adjoint of A.",
+     "correct": "{matStr(adj2(A))}",
+     "distractors": [
+      {
+       "text": "{matStr([[d, b], [c, a]])}",
+       "misconception": "nosign"
+      },
+      {
+       "text": "{matStr([[a, -b], [-c, d]])}",
+       "misconception": "noswap"
+      },
+      {
+       "text": "{matStr([[-d, b], [c, -a]])}",
+       "misconception": "wrongsigns"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "nosign",
+       "explain": "Change the signs of b and c as well."
+      },
+      {
+       "id": "noswap",
+       "explain": "Swap a and d as well."
+      },
+      {
+       "id": "wrongsigns",
+       "explain": "The leading diagonal keeps its signs; it is b and c that change sign."
+      }
+     ],
+     "solution": [
+      "Swap the leading diagonal: {a} and {d}.",
+      "Change the signs of the other two: {b} → {-b}, {c} → {-c}.",
+      "adj A = {answer}."
+     ],
+     "figure": "matFig([['A', A]])",
+     "where": [
+      "a != d",
+      "b != 0 && c != 0",
+      "a != -d",
+      "a != 0 && d != 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-23-t",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "u": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "v": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "w": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "z": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "M": {
+     "expr": "[[p, q, u], [v, w, z]]"
+    }
+   },
+   "prompt": "Find the transpose of M.",
+   "correct": "{matStr(matT(M))}",
+   "distractors": [
+    {
+     "text": "{matStr(M)}",
+     "misconception": "same"
+    },
+    {
+     "text": "{matStr([M[1], M[0]])}",
+     "misconception": "swaprows"
+    },
+    {
+     "text": "{matStr(matT([M[1], M[0]]))}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "same",
+     "explain": "That is M itself. The transpose turns rows into columns."
+    },
+    {
+     "id": "swaprows",
+     "explain": "Swapping the rows is not the transpose: rows become columns."
+    },
+    {
+     "id": "flip",
+     "explain": "Row {1} of M must become column {1}: the first column starts {M[0][0]}."
+    }
+   ],
+   "solution": [
+    "The first row ({M[0][0]}, {M[0][1]}, {M[0][2]}) becomes the first column; the second row becomes the second column.",
+    "Mᵀ = {answer}."
+   ],
+   "figure": "matFig([['M', M]])",
+   "where": [
+    "p != v",
+    "q != w || u != z"
+   ]
+  },
+  {
+   "id": "m3-23-det",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    }
+   },
+   "prompt": "Find the determinant of A.",
+   "answer": "det2(A)",
+   "misconceptions": [
+    {
+     "id": "plus",
+     "wrong": "a * d + b * c",
+     "explain": "Subtract the second product: ad − bc."
+    },
+    {
+     "id": "other",
+     "wrong": "b * c - a * d",
+     "explain": "Start with the leading diagonal (top left × bottom right): ad − bc."
+    }
+   ],
+   "solution": [
+    "|A| = ad − bc = {a} × {br(d)} − {b} × {br(c)}.",
+    "= {a * d} − {br(b * c)} = {answer}."
+   ],
+   "figure": "matFig([['A', A]])",
+   "where": [
+    "b * c != 0",
+    "a * d != 0",
+    "a * d - b * c != 0",
+    "a * d + b * c != a * d - b * c",
+    "a * d + b * c != b * c - a * d"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-23-adj",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    }
+   },
+   "prompt": "Find the adjoint of A.",
+   "correct": "{matStr(adj2(A))}",
+   "distractors": [
+    {
+     "text": "{matStr([[d, b], [c, a]])}",
+     "misconception": "nosign"
+    },
+    {
+     "text": "{matStr([[a, -b], [-c, d]])}",
+     "misconception": "noswap"
+    },
+    {
+     "text": "{matStr([[-d, b], [c, -a]])}",
+     "misconception": "wrongsigns"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nosign",
+     "explain": "Change the signs of b and c as well."
+    },
+    {
+     "id": "noswap",
+     "explain": "Swap a and d as well."
+    },
+    {
+     "id": "wrongsigns",
+     "explain": "The leading diagonal keeps its signs; it is b and c that change sign."
+    }
+   ],
+   "solution": [
+    "Swap the leading diagonal: {a} and {d}.",
+    "Change the signs of the other two: {b} → {-b}, {c} → {-c}.",
+    "adj A = {answer}."
+   ],
+   "figure": "matFig([['A', A]])",
+   "where": [
+    "a != d",
+    "b != 0 && c != 0",
+    "a != -d",
+    "a != 0 && d != 0"
+   ]
+  },
+  {
+   "id": "m3-23-sing",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -6,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[['k', b], [c, d]]"
+    }
+   },
+   "prompt": "The matrix A in the figure is singular. Find k.",
+   "answer": "b * c / d",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "-b * c / d",
+     "explain": "kd − bc = {0} gives k = bc ÷ d = {b * c} ÷ {d}."
+    }
+   ],
+   "solution": [
+    "Singular: |A| = {0}, so k × {d} − {b} × {br(c)} = {0}.",
+    "k × {d} = {b * c}, so k = {answer}."
+   ],
+   "figure": "matFig([['A', A]])",
+   "where": [
+    "(b * c) % d == 0",
+    "b * c != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-23-prod",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    }
+   },
+   "prompt": "Find |AB| for A and B in the figure (use |AB| = |A| × |B|, or work out AB first).",
+   "answer": "det2(A) * det2(B)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "det2(A) + det2(B)",
+     "explain": "|AB| = |A| × |B|: multiply the determinants."
+    }
+   ],
+   "solution": [
+    "|A| = {a * d} − {br(b * c)} = {det2(A)}; |B| = {e * h} − {br(f * g)} = {det2(B)}.",
+    "|AB| = {det2(A)} × {br(det2(B))} = {answer}."
+   ],
+   "figure": "matFig([['A', A], ['B', B]])",
+   "where": [
+    "det2(A) != 0 && det2(B) != 0",
+    "det2(A) * det2(B) != det2(A) + det2(B)"
+   ],
+   "signed": true
+  }
+ ]
+}

@@ -1,0 +1,634 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m3-20",
+   "name": "Matrices: order, elements and types"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A matrix is a rectangular array of numbers in rows and columns, written in brackets.\n• Its order is (number of rows) × (number of columns): a matrix with 2 rows and 3 columns is 2 × 3.\n• Each number is an element; aᵢⱼ is the element in row i, column j.\n• Types: row matrix (one row), column matrix (one column), square matrix (rows = columns), zero matrix (all zeros), diagonal matrix (zeros off the leading diagonal), identity matrix I (ones on the leading diagonal, zeros elsewhere).\n• Two matrices are equal when they have the same order and equal corresponding elements.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "What a matrix is",
+    "text": "A matrix is a table of numbers in rows and columns, written inside brackets. A shop in Limbe might record sales of bread and milk on Monday and Tuesday in a matrix: each row a day, each column a product.\nRows go across (left to right). Columns go down (top to bottom).",
+    "figure": "matFig([['S', [[12, 5], [9, 8]]]])"
+   },
+   {
+    "heading": "Order and elements",
+    "text": "The order of a matrix is rows × columns, always rows first. A matrix with {2} rows and {3} columns has order {2} × {3} and {6} elements.\nEach number is an element. We name it by its row and column: a₁₂ is the element in row {1}, column {2}.\nIn S above, s₂₁ = {9}: row {2} (Tuesday), column {1} (bread)."
+   },
+   {
+    "heading": "Special matrices",
+    "text": "• Row matrix: one row, like {matStr([[3, 1, 4]])}.\n• Column matrix: one column.\n• Square matrix: as many rows as columns.\n• Zero matrix: every element {0}.\n• Diagonal matrix: square, zero except on the leading diagonal (top left to bottom right).\n• Identity matrix I: diagonal with every diagonal element {1}, like {matStr([[1, 0], [0, 1]])}. It behaves like the number {1} in multiplication."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "matrix",
+    "meaning": "a rectangular array of numbers in rows and columns"
+   },
+   {
+    "word": "order",
+    "meaning": "rows × columns"
+   },
+   {
+    "word": "element",
+    "meaning": "one number in a matrix"
+   },
+   {
+    "word": "leading diagonal",
+    "meaning": "from the top left to the bottom right of a square matrix"
+   }
+  ],
+  "examples": [
+   "{matStr([[2, 5, 1], [0, 3, 7]])} has order {2} × {3}",
+   "{matStr([[6], [1]])} is a {2} × {1} column matrix",
+   "{matStr([[1, 0], [0, 1]])} is the identity I"
+  ],
+  "mistake": {
+   "wrong": "{matStr([[2, 5, 1], [0, 3, 7]])} has order {3} × {2}",
+   "right": "its order is {2} × {3}",
+   "why": "Rows come first in the order. This matrix has {2} rows and {3} columns."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "M": [
+    [
+     2,
+     -1,
+     5
+    ],
+    [
+     0,
+     4,
+     3
+    ]
+   ]
+  },
+  "problem": "For the matrix A in the figure, give its order and the element in row {2}, column {3}.",
+  "steps": [
+   "Count the rows: {len(M)}. Count the columns: {len(M[0])}.",
+   "The order is {len(M)} × {len(M[0])}.",
+   "Row {2}: {M[1][0]}, {M[1][1]}, {M[1][2]}. The third element is {M[1][2]}."
+  ],
+  "answer": "Order {len(M)} × {len(M[0])}; a₂₃ = {M[1][2]}",
+  "checks": [
+   "M[1][2] == 3"
+  ],
+  "figure": "matFig([['A', M]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m20-1",
+    "status": "draft",
+    "idea": "The order is rows × columns, rows first.",
+    "vars": {},
+    "example": [
+     "A matrix with {2} rows and {3} columns has order {2} × {3}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-20-order"
+    }
+   },
+   {
+    "id": "c3m20-2",
+    "status": "draft",
+    "idea": "The element in row i, column j is written aᵢⱼ.",
+    "vars": {},
+    "example": [
+     "In {matStr([[4, 7], [1, 9]])}, the element in row {1}, column {2} is {7}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-20-elem"
+    }
+   },
+   {
+    "id": "c3m20-3",
+    "status": "draft",
+    "idea": "A square matrix with ones on the leading diagonal and zeros elsewhere is the identity matrix I.",
+    "vars": {},
+    "example": [
+     "I = {matStr([[1, 0], [0, 1]])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-20-type"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-20-order",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "M": {
+     "pick": [
+      [
+       [
+        2,
+        -1,
+        5
+       ],
+       [
+        0,
+        4,
+        3
+       ]
+      ],
+      [
+       [
+        7
+       ],
+       [
+        -2
+       ],
+       [
+        4
+       ]
+      ],
+      [
+       [
+        1,
+        6,
+        0,
+        3
+       ]
+      ],
+      [
+       [
+        3,
+        1
+       ],
+       [
+        5,
+        -2
+       ],
+       [
+        0,
+        8
+       ]
+      ],
+      [
+       [
+        9,
+        2,
+        4
+       ],
+       [
+        1,
+        0,
+        7
+       ],
+       [
+        6,
+        5,
+        2
+       ],
+       [
+        3,
+        3,
+        1
+       ]
+      ],
+      [
+       [
+        4,
+        0,
+        1,
+        2
+       ],
+       [
+        5,
+        6,
+        7,
+        8
+       ]
+      ]
+     ]
+    }
+   },
+   "prompt": "What is the order of matrix A?",
+   "correct": "{len(M) + ' × ' + len(M[0])}",
+   "distractors": [
+    {
+     "text": "{len(M[0]) + ' × ' + len(M)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{str(len(M) * len(M[0]))}",
+     "misconception": "count"
+    },
+    {
+     "text": "{len(M) + ' × ' + len(M)}",
+     "misconception": "rows"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Count the rows first ({len(M)}), then the columns ({len(M[0])})."
+    },
+    {
+     "id": "count",
+     "explain": "{len(M) * len(M[0])} is the number of elements. The order is written rows × columns."
+    },
+    {
+     "id": "rows",
+     "explain": "Count the columns too: there are {len(M[0])}."
+    }
+   ],
+   "solution": [
+    "A has {len(M)} rows and {len(M[0])} columns.",
+    "Order = rows × columns = {answer}."
+   ],
+   "figure": "matFig([['A', M]])"
+  },
+  {
+   "id": "m3-20-elem",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    },
+    "r": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What is the element in row {r}, column {s} of A?",
+   "answer": "A[r - 1][s - 1]",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "A[s - 1][r - 1]",
+     "explain": "Rows go across and columns go down: row {r} first, then column {s}."
+    }
+   ],
+   "solution": [
+    "Row {r} of A: {A[r - 1][0]}, {A[r - 1][1]}.",
+    "Column {s} of that row: {answer}."
+   ],
+   "figure": "matFig([['A', A]])",
+   "where": [
+    "r != s",
+    "A[s - 1][r - 1] != A[r - 1][s - 1]"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-20-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "m": [
+        [
+         1,
+         0
+        ],
+        [
+         0,
+         1
+        ]
+       ],
+       "r": "Identity matrix",
+       "w": [
+        "Zero matrix",
+        "Row matrix",
+        "Column matrix"
+       ],
+       "e": [
+        "A zero matrix has every element 0.",
+        "A row matrix has only one row.",
+        "A column matrix has only one column."
+       ],
+       "y": "Ones on the leading diagonal, zeros elsewhere: the identity matrix I."
+      },
+      {
+       "m": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         0
+        ]
+       ],
+       "r": "Zero matrix",
+       "w": [
+        "Identity matrix",
+        "Diagonal matrix with ones",
+        "Row matrix"
+       ],
+       "e": [
+        "The identity has ones on the leading diagonal.",
+        "Every element here is zero.",
+        "It has two rows."
+       ],
+       "y": "Every element is 0: the zero (null) matrix."
+      },
+      {
+       "m": [
+        [
+         5,
+         -2,
+         7
+        ]
+       ],
+       "r": "Row matrix",
+       "w": [
+        "Column matrix",
+        "Square matrix",
+        "Identity matrix"
+       ],
+       "e": [
+        "A column matrix has one column; this has one row.",
+        "A square matrix has as many rows as columns: this is 1 × 3.",
+        "The identity is square with ones on the diagonal."
+       ],
+       "y": "One row: a row matrix (order 1 × 3)."
+      },
+      {
+       "m": [
+        [
+         4
+        ],
+        [
+         0
+        ],
+        [
+         -3
+        ]
+       ],
+       "r": "Column matrix",
+       "w": [
+        "Row matrix",
+        "Square matrix",
+        "Zero matrix"
+       ],
+       "e": [
+        "It has one column, not one row.",
+        "It is 3 × 1, not square.",
+        "Not every element is 0."
+       ],
+       "y": "One column: a column matrix (order 3 × 1)."
+      },
+      {
+       "m": [
+        [
+         3,
+         0
+        ],
+        [
+         0,
+         -2
+        ]
+       ],
+       "r": "Diagonal matrix",
+       "w": [
+        "Identity matrix",
+        "Zero matrix",
+        "Row matrix"
+       ],
+       "e": [
+        "The identity has ones on the diagonal; here they are 3 and −2.",
+        "Not every element is 0.",
+        "It has two rows."
+       ],
+       "y": "Zeros everywhere except the leading diagonal: a diagonal matrix."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of matrix is A?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ],
+   "figure": "matFig([['A', X.m]])"
+  },
+  {
+   "id": "m3-20-equal",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      15
+     ]
+    },
+    "p": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      9
+     ]
+    }
+   },
+   "prompt": "Matrices P and Q are equal. Find x.",
+   "answer": "a - p",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "a + p",
+     "explain": "Subtract {p} from both sides: x = {a} − {p}."
+    }
+   ],
+   "solution": [
+    "Equal matrices have equal corresponding elements.",
+    "x + {p} = {a}, so x = {a} − {p} = {answer}."
+   ],
+   "figure": "matFig([['P', [['x + ' + p, b], [c, 'y']]], ['Q', [[a, b], [c, y]]]])",
+   "signed": true
+  },
+  {
+   "id": "m3-20-count",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      6
+     ]
+    }
+   },
+   "prompt": "A matrix has {m * n} elements arranged in {m} rows. How many columns does it have?",
+   "answer": "n",
+   "misconceptions": [
+    {
+     "id": "rows",
+     "wrong": "m",
+     "explain": "{m} is the number of rows. Divide the elements by the rows."
+    },
+    {
+     "id": "count",
+     "wrong": "m * n",
+     "explain": "{m * n} is the number of elements."
+    }
+   ],
+   "solution": [
+    "Number of elements = rows × columns.",
+    "{m * n} = {m} × columns, so there are {answer} columns. Its order is {m} × {n}."
+   ],
+   "where": [
+    "m != n",
+    "m * n != n"
+   ]
+  }
+ ]
+}

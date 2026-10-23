@@ -1,0 +1,460 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "b3-16",
+   "name": "Spirogyra; Plasmodium and the control of malaria"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Spirogyra: a green alga of ponds and slow streams. Unbranched filaments of cylindrical cells, each with a cellulose wall, a large vacuole, a central nucleus and one or more spiral (ribbon-shaped) chloroplasts with pyrenoids (starch stores). It photosynthesises, and reproduces by fragmentation and by conjugation.\nPlasmodium: the protoctist that causes malaria. It lives in two hosts: the female Anopheles mosquito and humans.\nSimplified cycle: an infected mosquito bites and injects sporozoites → they multiply in the liver → they invade red blood cells, multiply and burst them (fever every 48–72 hours) → some form gametocytes → a mosquito biting the person takes them up and the cycle continues in the mosquito.\nControl: sleep under insecticide-treated nets; drain stagnant water and clear bushes; spray insecticides; take antimalarial drugs; quick testing and treatment.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Spirogyra: a green filament",
+    "text": "Spirogyra forms slimy green threads in ponds and slow streams. Each thread is a row of cylindrical cells joined end to end.\nEach cell has a cellulose wall, a large vacuole, a nucleus held in the centre, and one or more ribbon-shaped chloroplasts coiled in a spiral, with pyrenoids that store starch.\nIt makes its own food by photosynthesis and reproduces by breaking into pieces (fragmentation) and by conjugation between two filaments."
+   },
+   {
+    "heading": "Plasmodium: the malaria parasite",
+    "text": "Malaria is caused by Plasmodium, a protoctist, and carried by female Anopheles mosquitoes (the vector).\n• An infected mosquito bites and injects sporozoites.\n• They multiply in the liver.\n• They enter red blood cells, multiply and burst them: every {48} to {72} hours the patient has fever, chills and sweating.\n• Some parasites become gametocytes; a mosquito drinking the blood takes them up, and they develop inside it."
+   },
+   {
+    "heading": "Breaking the cycle",
+    "text": "Malaria can be controlled at every stage:\n• sleep under insecticide-treated nets; use repellents and window screens;\n• drain, cover or treat stagnant water and clear bushes near homes;\n• spray insecticides indoors;\n• get tested quickly and take the full course of antimalarial drugs; pregnant women and young children may get preventive treatment."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "filament",
+    "meaning": "a thread of cells joined end to end"
+   },
+   {
+    "word": "pyrenoid",
+    "meaning": "a starch-storing body on a chloroplast"
+   },
+   {
+    "word": "vector",
+    "meaning": "an organism that carries a pathogen between hosts"
+   },
+   {
+    "word": "sporozoite",
+    "meaning": "the stage of Plasmodium injected by the mosquito"
+   }
+  ],
+  "examples": [
+   "Spirogyra: spiral chloroplasts",
+   "Plasmodium: two hosts, human and mosquito",
+   "Treated nets: protect while sleeping"
+  ],
+  "mistake": {
+   "wrong": "The mosquito causes malaria",
+   "right": "Plasmodium causes malaria; the mosquito carries it",
+   "why": "The mosquito is the vector, not the pathogen."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain how sleeping under an insecticide-treated net reduces malaria.",
+  "steps": [
+   "Female Anopheles mosquitoes bite mostly at night.",
+   "The net stops them biting, so Plasmodium is not injected.",
+   "The insecticide also kills mosquitoes that land on it, reducing their numbers."
+  ],
+  "answer": "It stops infected mosquitoes biting, and kills them",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b16-1",
+    "status": "draft",
+    "idea": "Spirogyra: green filaments with spiral chloroplasts.",
+    "vars": {},
+    "example": [
+     "Common in still ponds"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-16-spiro"
+    }
+   },
+   {
+    "id": "c3b16-2",
+    "status": "draft",
+    "idea": "Plasmodium is carried by the female Anopheles mosquito.",
+    "vars": {},
+    "example": [
+     "Only the female sucks blood."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-16-cycle-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "prompt": "Put the stages of the life cycle of Plasmodium in order, starting with the bite.",
+     "items": [
+      {
+       "text": "An infected female Anopheles mosquito bites a person and injects sporozoites."
+      },
+      {
+       "text": "The parasites multiply in the liver."
+      },
+      {
+       "text": "They invade red blood cells, multiply and burst them, causing fever."
+      },
+      {
+       "text": "Some form gametocytes in the blood."
+      },
+      {
+       "text": "A mosquito biting the person takes up the gametocytes."
+      }
+     ],
+     "order": "as_written",
+     "hint": "Bite, liver, blood, gametocytes, mosquito."
+    }
+   },
+   {
+    "id": "c3b16-3",
+    "status": "draft",
+    "idea": "Control malaria by breaking the cycle: nets, draining water, drugs.",
+    "vars": {},
+    "example": [
+     "No stagnant water, fewer mosquito larvae."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-16-control"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-16-spiro",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What shape are the chloroplasts of Spirogyra?",
+       "r": "spiral ribbons",
+       "w": [
+        "small round discs",
+        "star shapes",
+        "it has none"
+       ],
+       "e": [
+        "That describes most plant cells.",
+        "Star-shaped chloroplasts belong to other algae.",
+        "Spirogyra photosynthesises, so it has chloroplasts."
+       ],
+       "y": "Its name comes from the spiral chloroplasts."
+      },
+      {
+       "q": "What are pyrenoids in Spirogyra?",
+       "r": "starch stores on the chloroplasts",
+       "w": [
+        "the nucleus",
+        "the cell wall",
+        "pores in the membrane"
+       ],
+       "e": [
+        "The nucleus is in the centre of the cell.",
+        "The wall is outside.",
+        "They are not pores."
+       ],
+       "y": "Starch from photosynthesis is stored round them."
+      },
+      {
+       "q": "How does Spirogyra feed?",
+       "r": "by photosynthesis",
+       "w": [
+        "by engulfing food",
+        "by absorbing digested food from a host",
+        "by sucking blood"
+       ],
+       "e": [
+        "That is Amoeba.",
+        "That is a parasite like Plasmodium.",
+        "That is a mosquito."
+       ],
+       "y": "It has chloroplasts and makes its own food."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-16-cycle",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "prompt": "Put the stages of the life cycle of Plasmodium in order, starting with the bite.",
+   "items": [
+    {
+     "text": "An infected female Anopheles mosquito bites a person and injects sporozoites."
+    },
+    {
+     "text": "The parasites multiply in the liver."
+    },
+    {
+     "text": "They invade red blood cells, multiply and burst them, causing fever."
+    },
+    {
+     "text": "Some form gametocytes in the blood."
+    },
+    {
+     "text": "A mosquito biting the person takes up the gametocytes."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Bite, liver, blood, gametocytes, mosquito."
+  },
+  {
+   "id": "b3-16-control",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which measure kills the larvae of mosquitoes?",
+       "r": "draining or covering stagnant water",
+       "w": [
+        "sleeping under a net",
+        "taking antimalarial drugs",
+        "wearing light clothes"
+       ],
+       "e": [
+        "Nets protect people from adults.",
+        "Drugs treat people.",
+        "Clothes protect from bites only."
+       ],
+       "y": "Larvae develop in still water."
+      },
+      {
+       "q": "Which organism causes malaria?",
+       "r": "Plasmodium (a protoctist)",
+       "w": [
+        "the Anopheles mosquito itself",
+        "a virus",
+        "a bacterium"
+       ],
+       "e": [
+        "The mosquito carries the parasite (it is the vector).",
+        "Malaria is not viral.",
+        "Malaria is not bacterial."
+       ],
+       "y": "The mosquito is the vector; Plasmodium is the cause."
+      },
+      {
+       "q": "Why does a malaria patient have fever every two or three days?",
+       "r": "Parasites burst out of red blood cells at regular intervals",
+       "w": [
+        "The mosquito bites every two days",
+        "The liver stops working",
+        "The patient drinks dirty water"
+       ],
+       "e": [
+        "The fever comes from inside the body.",
+        "Liver stage causes no fever.",
+        "Water does not spread malaria."
+       ],
+       "y": "Each burst releases parasites and toxins."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-16-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is the female Anopheles called the vector of malaria?",
+       "r": "It carries Plasmodium from one person to another",
+       "w": [
+        "It causes the disease itself",
+        "It cures malaria",
+        "It lives in red blood cells"
+       ],
+       "e": [
+        "Plasmodium causes the disease.",
+        "It spreads the disease.",
+        "Plasmodium lives in red blood cells."
+       ],
+       "y": "A vector transmits a pathogen without being the pathogen."
+      },
+      {
+       "q": "Clearing bushes around houses helps reduce malaria. Why?",
+       "r": "Adult mosquitoes rest in bushes during the day",
+       "w": [
+        "Bushes produce Plasmodium",
+        "Bushes make the air hot",
+        "It removes the liver stage"
+       ],
+       "e": [
+        "Plasmodium needs a host, not bushes.",
+        "Temperature is not the main reason.",
+        "The liver stage is in people."
+       ],
+       "y": "Fewer resting places, fewer mosquitoes."
+      },
+      {
+       "q": "A person living in Douala has fever, chills and headache every two days. What should be done first?",
+       "r": "Go to a health centre for a malaria test and correct treatment",
+       "w": [
+        "Take any antibiotic at home",
+        "Wait for it to pass",
+        "Drink salty water"
+       ],
+       "e": [
+        "Antibiotics do not cure malaria.",
+        "Untreated malaria can kill.",
+        "Salt water does not treat malaria."
+       ],
+       "y": "Quick testing and proper antimalarials save lives."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

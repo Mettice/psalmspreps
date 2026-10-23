@@ -1,0 +1,486 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "p3-14",
+   "name": "Elasticity and Hooke's law"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A material is elastic if it returns to its original shape when the force is removed (rubber, a steel spring). Plastic materials keep the new shape (clay, plasticine).\nExtension = stretched length − original length.\nHooke's law: the extension of a spring is directly proportional to the load (force), provided the elastic limit is not exceeded: F = ke, where k is the spring constant (N/m or N/cm).\nBeyond the elastic limit, the spring is permanently stretched and the law no longer holds.\nTo verify: hang loads on a spring, measure the extension for each, and plot force against extension: a straight line through the origin.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Elastic and plastic",
+    "text": "Stretch a rubber band and let go: it returns to its original shape. Materials that do this are elastic: rubber, steel springs, the strings of a guitar.\nSqueeze modelling clay: it keeps its new shape. Such materials are plastic.\nEven an elastic material has a limit. Pull a spring too hard and it stays longer: you have passed its elastic limit."
+   },
+   {
+    "heading": "Hooke's law",
+    "text": "Robert Hooke found that, for a spring, the extension e is directly proportional to the stretching force F: double the load, double the extension.\nF = ke, where k is the spring constant (stiffness), in N/m or N/cm.\nExtension means the increase in length: stretched length − original length. A spring {10} cm long that stretches to {15} cm has an extension of {5} cm."
+   },
+   {
+    "heading": "Checking it in the laboratory",
+    "text": "• Hang the spring from a clamp next to a metre rule and read its length.\n• Add loads one at a time and read the length each time.\n• Work out each extension and plot load (N) against extension (cm).\nUp to the limit the points lie on a straight line through the origin; after it, the line curves."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "elastic",
+    "meaning": "returns to its original shape when the force is removed"
+   },
+   {
+    "word": "extension",
+    "meaning": "the increase in length"
+   },
+   {
+    "word": "spring constant k",
+    "meaning": "force per unit extension"
+   },
+   {
+    "word": "elastic limit",
+    "meaning": "the largest load after which the spring still returns to its length"
+   }
+  ],
+  "examples": [
+   "{4} N stretches a spring {2} cm: k = {2} N/cm",
+   "{6} N then stretches it {3} cm"
+  ],
+  "mistake": {
+   "wrong": "Extension = the stretched length, {15} cm",
+   "right": "Extension = {15} − {10} = {5} cm",
+   "why": "Hooke's law is about the increase in length, not the total length."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "o": 12,
+   "n": 18,
+   "F": 3
+  },
+  "problem": "A spring is {o} cm long. With a load of {F} N it is {n} cm long. Find the extension and the spring constant (N/cm).",
+  "steps": [
+   "Extension e = {n} − {o} = {n - o} cm.",
+   "k = F ÷ e = {F} ÷ {n - o} = {F / (n - o)} N/cm."
+  ],
+  "answer": "e = {n - o} cm, k = {F / (n - o)} N/cm",
+  "checks": [
+   "F / (n - o) == 0.5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p14-1",
+    "status": "draft",
+    "idea": "Extension = stretched length − original length.",
+    "vars": {},
+    "example": [
+     "{15} cm − {10} cm = {5} cm"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-14-ext"
+    }
+   },
+   {
+    "id": "c3p14-2",
+    "status": "draft",
+    "idea": "Hooke's law: F = ke, as long as the elastic limit is not passed.",
+    "vars": {},
+    "example": [
+     "k = {2} N/cm, e = {3} cm: F = {6} N"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-14-f"
+    }
+   },
+   {
+    "id": "c3p14-3",
+    "status": "draft",
+    "idea": "Beyond the elastic limit the spring does not go back to its length.",
+    "vars": {},
+    "example": [
+     "A spring overloaded in a game stays longer."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-14-limit-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "elasticity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A spring is loaded beyond its elastic limit, then the load is removed. What happens?",
+         "r": "It stays longer than its original length",
+         "w": [
+          "It returns exactly to its original length",
+          "It becomes shorter than before",
+          "Its extension doubles"
+         ],
+         "e": [
+          "Only within the elastic limit does it return.",
+          "It is permanently stretched, not shortened.",
+          "There is no such rule."
+         ],
+         "y": "Beyond the elastic limit the deformation is permanent."
+        },
+        {
+         "q": "Which material is plastic rather than elastic?",
+         "r": "modelling clay",
+         "w": [
+          "a rubber band",
+          "a steel spring",
+          "a tennis ball"
+         ],
+         "e": [
+          "A rubber band springs back.",
+          "A steel spring springs back within its limit.",
+          "A tennis ball regains its shape."
+         ],
+         "y": "Clay keeps the new shape."
+        },
+        {
+         "q": "Hooke's law says the extension is proportional to the load…",
+         "r": "provided the elastic limit is not exceeded",
+         "w": [
+          "for any load",
+          "only for rubber",
+          "only when the spring is horizontal"
+         ],
+         "e": [
+          "Beyond the limit the graph curves.",
+          "It applies to springs and wires too.",
+          "Direction does not matter."
+         ],
+         "y": "The law holds only up to the limit of proportionality."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-14-ext",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "o": {
+     "int": [
+      8,
+      25
+     ]
+    },
+    "e": {
+     "int": [
+      1,
+      12
+     ]
+    }
+   },
+   "prompt": "A spring is {o} cm long. With a load it is {o + e} cm long. Find the extension (cm).",
+   "answer": "e",
+   "misconceptions": [
+    {
+     "id": "new",
+     "wrong": "o + e",
+     "explain": "That is the new length. Extension is the increase."
+    },
+    {
+     "id": "add",
+     "wrong": "2 * o + e",
+     "explain": "Subtract the original length."
+    }
+   ],
+   "solution": [
+    "Extension = stretched length − original length.",
+    "= {o + e} − {o} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "p3-14-f",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      2,
+      10
+     ]
+    }
+   },
+   "prompt": "A spring has spring constant {k} N/cm. What load gives an extension of {e} cm (N)?",
+   "answer": "k * e",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(e / k, 0.01)",
+     "explain": "F = k × e: multiply."
+    }
+   ],
+   "solution": [
+    "F = ke.",
+    "F = {k} × {e} = {answer} N."
+   ],
+   "unit": "N",
+   "where": [
+    "k != e"
+   ]
+  },
+  {
+   "id": "p3-14-prop",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "F1": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "e1": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "F2": {
+     "int": [
+      3,
+      12
+     ]
+    }
+   },
+   "prompt": "A load of {F1} N stretches a spring by {e1} cm. What extension will a load of {F2} N give (cm), within the elastic limit?",
+   "answer": "e1 * F2 / F1",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "e1 + F2 - F1",
+     "explain": "Hooke's law is about proportion: multiply by {F2} ÷ {F1}."
+    }
+   ],
+   "solution": [
+    "Extension is proportional to load.",
+    "e = {e1} × {F2} ÷ {F1} = {answer} cm."
+   ],
+   "unit": "cm",
+   "where": [
+    "F1 != F2",
+    "(e1 * F2) % F1 == 0",
+    "e1 + F2 - F1 != e1 * F2 / F1"
+   ]
+  },
+  {
+   "id": "p3-14-k",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "F": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "c": {
+     "pick": [
+      2,
+      4,
+      5,
+      20
+     ]
+    }
+   },
+   "prompt": "A load of {F} N stretches a spring by {c} cm. Find the spring constant in N/m.",
+   "answer": "F / (c / 100)",
+   "misconceptions": [
+    {
+     "id": "cm",
+     "wrong": "F / c",
+     "explain": "That is in N/cm. Change cm to m first."
+    },
+    {
+     "id": "mult",
+     "wrong": "F * c / 100",
+     "explain": "k = F ÷ e: divide."
+    }
+   ],
+   "solution": [
+    "e = {c} cm = {c / 100} m.",
+    "k = F ÷ e = {F} ÷ {c / 100} = {answer} N/m."
+   ],
+   "unit": "N/m"
+  },
+  {
+   "id": "p3-14-limit",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "elasticity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A spring is loaded beyond its elastic limit, then the load is removed. What happens?",
+       "r": "It stays longer than its original length",
+       "w": [
+        "It returns exactly to its original length",
+        "It becomes shorter than before",
+        "Its extension doubles"
+       ],
+       "e": [
+        "Only within the elastic limit does it return.",
+        "It is permanently stretched, not shortened.",
+        "There is no such rule."
+       ],
+       "y": "Beyond the elastic limit the deformation is permanent."
+      },
+      {
+       "q": "Which material is plastic rather than elastic?",
+       "r": "modelling clay",
+       "w": [
+        "a rubber band",
+        "a steel spring",
+        "a tennis ball"
+       ],
+       "e": [
+        "A rubber band springs back.",
+        "A steel spring springs back within its limit.",
+        "A tennis ball regains its shape."
+       ],
+       "y": "Clay keeps the new shape."
+      },
+      {
+       "q": "Hooke's law says the extension is proportional to the load…",
+       "r": "provided the elastic limit is not exceeded",
+       "w": [
+        "for any load",
+        "only for rubber",
+        "only when the spring is horizontal"
+       ],
+       "e": [
+        "Beyond the limit the graph curves.",
+        "It applies to springs and wires too.",
+        "Direction does not matter."
+       ],
+       "y": "The law holds only up to the limit of proportionality."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

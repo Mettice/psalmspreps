@@ -1,0 +1,500 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "s3-10",
+   "name": "Primary storage: RAM and ROM; storage units"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Primary (main) storage is directly accessed by the CPU.\n• RAM (random access memory): holds the programs and data in use; it can be read and written; it is volatile (contents lost when power goes off). More RAM lets more programs run smoothly.\n• ROM (read-only memory): holds the start-up instructions (BIOS/firmware); it can only be read; it is non-volatile.\nUnits: 8 bits = 1 byte; 1 KB = 1024 bytes; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Memory the CPU uses directly",
+    "text": "Primary storage is memory the CPU can access directly. There are two kinds.\n• RAM (random access memory) holds the programs and data you are using now: the document you are typing, the browser, the game. It can be read and written. It is volatile: when the power goes off, its contents are lost.\n• ROM (read-only memory) holds instructions needed to start the computer (BIOS/firmware). It can only be read, and it is non-volatile."
+   },
+   {
+    "heading": "Storage units",
+    "text": "• {8} bits = {1} byte (enough for one character).\n• {1} kilobyte (KB) = {1024} bytes.\n• {1} megabyte (MB) = {1024} KB.\n• {1} gigabyte (GB) = {1024} MB.\n• {1} terabyte (TB) = {1024} GB.\nEach unit is {1024} ({2} to the power {10}) times the one before, because computers count in binary."
+   },
+   {
+    "heading": "How much RAM?",
+    "text": "If RAM is full, the computer moves data to the much slower disk, and everything slows down. More RAM lets more programs run at once smoothly.\nA phone might have {4} GB of RAM; a laptop {8} GB or more.\nAlways save your work: unsaved work in RAM is lost in a power cut."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "RAM",
+    "meaning": "volatile read-write memory for programs and data in use"
+   },
+   {
+    "word": "ROM",
+    "meaning": "non-volatile read-only memory for start-up instructions"
+   },
+   {
+    "word": "volatile",
+    "meaning": "loses its contents when the power is off"
+   },
+   {
+    "word": "byte",
+    "meaning": "{8} bits"
+   }
+  ],
+  "examples": [
+   "{2} GB = {2048} MB",
+   "{3} bytes = {24} bits",
+   "Power cut: unsaved RAM data lost"
+  ],
+  "mistake": {
+   "wrong": "{1} MB = {1000} KB",
+   "right": "{1} MB = {1024} KB",
+   "why": "Computer storage units go up in powers of {2}: {1024} = {2} to the power {10}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": 4
+  },
+  "problem": "How many megabytes are in {v} GB of RAM?",
+  "steps": [
+   "{1} GB = {1024} MB.",
+   "{v} GB = {v} × {1024} = {storageConvert(v, 'GB', 'MB')} MB."
+  ],
+  "answer": "{storageConvert(v, 'GB', 'MB')} MB",
+  "checks": [
+   "storageConvert(v, 'GB', 'MB') == 4096"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s10-1",
+    "status": "draft",
+    "idea": "RAM is volatile and holds programs in use; ROM is non-volatile and read-only.",
+    "vars": {},
+    "example": [
+     "A power cut erases unsaved work in RAM."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-10-rr"
+    }
+   },
+   {
+    "id": "c3s10-2",
+    "status": "draft",
+    "idea": "{8} bits = {1} byte; each larger unit is {1024} times the previous.",
+    "vars": {},
+    "example": [
+     "{1} KB = {1024} bytes"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-10-units"
+    }
+   },
+   {
+    "id": "c3s10-3",
+    "status": "draft",
+    "idea": "More RAM lets more programs run at once without slowing down.",
+    "vars": {},
+    "example": [
+     "{8} GB RAM vs {2} GB RAM"
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-10-more-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hardware"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A computer becomes very slow when many programs are open. Which upgrade helps most?",
+         "r": "more RAM",
+         "w": [
+          "a bigger screen",
+          "more ROM",
+          "a new mouse"
+         ],
+         "e": [
+          "Screen size does not affect speed.",
+          "ROM holds start-up code only.",
+          "A mouse is an input device."
+         ],
+         "y": "More RAM holds more programs and data at once."
+        },
+        {
+         "q": "Why is ROM needed at all, if RAM is faster to change?",
+         "r": "The computer needs instructions that survive power-off to start up",
+         "w": [
+          "ROM stores games",
+          "ROM is bigger than the hard disk",
+          "RAM cannot be read"
+         ],
+         "e": [
+          "Games are stored on disks.",
+          "ROM is small.",
+          "RAM can be read and written."
+         ],
+         "y": "Non-volatile start-up code."
+        },
+        {
+         "q": "Why is primary storage called 'primary'?",
+         "r": "The CPU accesses it directly",
+         "w": [
+          "It is the largest storage",
+          "It is the cheapest",
+          "It is used only first thing in the morning"
+         ],
+         "e": [
+          "Secondary storage is larger.",
+          "It is relatively expensive.",
+          "Not related to time of day."
+         ],
+         "y": "Data must be in primary storage for the CPU to use it."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-10-rr",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What happens to the contents of RAM when the computer is switched off?",
+       "r": "They are lost (RAM is volatile)",
+       "w": [
+        "They are saved forever",
+        "They move to ROM",
+        "They are printed"
+       ],
+       "e": [
+        "RAM needs power to keep data.",
+        "ROM cannot be written to.",
+        "Nothing is printed."
+       ],
+       "y": "Save your work to secondary storage."
+      },
+      {
+       "q": "What is stored in ROM?",
+       "r": "the start-up instructions (BIOS/firmware)",
+       "w": [
+        "the document you are typing",
+        "your photos",
+        "the web page you are viewing"
+       ],
+       "e": [
+        "That is in RAM while you type.",
+        "Photos are in secondary storage.",
+        "That is in RAM."
+       ],
+       "y": "ROM holds instructions needed to start the computer."
+      },
+      {
+       "q": "Which memory can the user's programs both read and write?",
+       "r": "RAM",
+       "w": [
+        "ROM",
+        "a CD-ROM",
+        "the BIOS chip"
+       ],
+       "e": [
+        "ROM is read-only.",
+        "A CD-ROM is read-only.",
+        "The BIOS is in ROM."
+       ],
+       "y": "RAM is read-write memory."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-10-units",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      2,
+      16
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "f": "KB",
+       "t": "byte"
+      },
+      {
+       "f": "MB",
+       "t": "KB"
+      },
+      {
+       "f": "GB",
+       "t": "MB"
+      },
+      {
+       "f": "TB",
+       "t": "GB"
+      },
+      {
+       "f": "byte",
+       "t": "bit"
+      }
+     ]
+    }
+   },
+   "prompt": "Convert {v} {X.f} to {X.t}.",
+   "answer": "storageConvert(v, X.f, X.t)",
+   "misconceptions": [
+    {
+     "id": "thousand",
+     "wrong": "X.f == 'byte' ? v * 10 : v * 1000",
+     "explain": "{X.f == 'byte' ? 'One byte has ' + 8 + ' bits.' : 'Storage units go up in steps of ' + 1024 + ', not ' + 1000 + '.'}"
+    }
+   ],
+   "solution": [
+    "{1} {X.f} = {storageFactor(X.f, X.t)} {X.t}.",
+    "{v} {X.f} = {answer} {X.t}."
+   ]
+  },
+  {
+   "id": "s3-10-files",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      1,
+      2,
+      4,
+      8
+     ]
+    },
+    "s": {
+     "int": [
+      3,
+      9
+     ]
+    }
+   },
+   "prompt": "A song file is {s} MB. How many such songs fit in {v} GB?",
+   "answer": "floor(v * 1024 / s)",
+   "misconceptions": [
+    {
+     "id": "thousand",
+     "wrong": "floor(v * 1000 / s)",
+     "explain": "{1} GB = {1024} MB, not {1000}."
+    }
+   ],
+   "solution": [
+    "{v} GB = {v} × {1024} = {v * 1024} MB.",
+    "{v * 1024} ÷ {s} = {roundTo(v * 1024 / s, 0.01)}, so {answer} whole songs fit."
+   ],
+   "where": [
+    "(v * 1024) % s != 0"
+   ]
+  },
+  {
+   "id": "s3-10-more",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A computer becomes very slow when many programs are open. Which upgrade helps most?",
+       "r": "more RAM",
+       "w": [
+        "a bigger screen",
+        "more ROM",
+        "a new mouse"
+       ],
+       "e": [
+        "Screen size does not affect speed.",
+        "ROM holds start-up code only.",
+        "A mouse is an input device."
+       ],
+       "y": "More RAM holds more programs and data at once."
+      },
+      {
+       "q": "Why is ROM needed at all, if RAM is faster to change?",
+       "r": "The computer needs instructions that survive power-off to start up",
+       "w": [
+        "ROM stores games",
+        "ROM is bigger than the hard disk",
+        "RAM cannot be read"
+       ],
+       "e": [
+        "Games are stored on disks.",
+        "ROM is small.",
+        "RAM can be read and written."
+       ],
+       "y": "Non-volatile start-up code."
+      },
+      {
+       "q": "Why is primary storage called 'primary'?",
+       "r": "The CPU accesses it directly",
+       "w": [
+        "It is the largest storage",
+        "It is the cheapest",
+        "It is used only first thing in the morning"
+       ],
+       "e": [
+        "Secondary storage is larger.",
+        "It is relatively expensive.",
+        "Not related to time of day."
+       ],
+       "y": "Data must be in primary storage for the CPU to use it."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

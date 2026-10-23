@@ -1,0 +1,605 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "s3-30",
+   "name": "Creative Commons licences"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Creative Commons (CC) licences let creators share their work while keeping some rights. Others may use it if they follow the conditions:\n• BY (Attribution): give credit to the creator. • SA (ShareAlike): share new works under the same licence.\n• NC (NonCommercial): no use to make money. • ND (NoDerivatives): no changes; share only as it is.\nLicences combine these, e.g. CC BY-SA, CC BY-NC-ND. CC0 means 'no rights reserved' (public domain).\nMany images on Wikipedia and many free educational resources use CC licences.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Sharing with conditions",
+    "text": "Normally, copyright means 'all rights reserved': you need permission to reuse a work. Creative Commons (CC) licences let creators say in advance 'you may use this, if…'.\nThis makes it easy for teachers, students and artists to share and reuse legally."
+   },
+   {
+    "heading": "The building blocks",
+    "text": "• BY (Attribution): give credit to the creator.\n• SA (ShareAlike): if you adapt it, share your version under the same licence.\n• NC (NonCommercial): do not use it to make money.\n• ND (NoDerivatives): share it only as it is; no changes.\nThey combine: CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND (the strictest)."
+   },
+   {
+    "heading": "Public domain and practice",
+    "text": "{'CC0'} means 'no rights reserved': the creator gives the work to the public domain for any use.\nWhen you use a CC work, write the title, creator, source and licence, e.g. 'Photo: Mount Cameroon by A. Tabe, CC BY-SA, Wikimedia Commons'.\nCheck the conditions before changing a work or using it for business."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "Creative Commons",
+    "meaning": "licences that let creators share work with conditions"
+   },
+   {
+    "word": "attribution",
+    "meaning": "giving credit to the creator"
+   },
+   {
+    "word": "non-commercial",
+    "meaning": "not used to make money"
+   },
+   {
+    "word": "public domain",
+    "meaning": "free for anyone to use"
+   }
+  ],
+  "examples": [
+   "CC BY: any use with credit",
+   "CC BY-NC: not for sale",
+   "{'CC0'}: no rights reserved"
+  ],
+  "mistake": {
+   "wrong": "A CC licence means you can do anything without credit",
+   "right": "Most CC licences require credit (BY) and may forbid changes or sale",
+   "why": "Always read the letters of the licence."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A photo is licensed CC BY-NC. Can a school use it on a free poster? Can a shop use it in a paid advert?",
+  "steps": [
+   "BY: give credit to the photographer.",
+   "NC: no commercial use.",
+   "The free school poster is allowed with credit; the shop's paid advert is not allowed without permission."
+  ],
+  "answer": "School poster: yes, with credit; shop advert: no",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s30-1",
+    "status": "draft",
+    "idea": "BY: always credit the creator.",
+    "vars": {},
+    "example": [
+     "'Photo: A. Tabe, CC BY'"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-30-term"
+    }
+   },
+   {
+    "id": "c3s30-2",
+    "status": "draft",
+    "idea": "NC: no commercial use; ND: no changes; SA: share alike.",
+    "vars": {},
+    "example": [
+     "CC BY-NC-ND is the strictest combination."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-30-can-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Using a CC BY-ND photo, with credit, unchanged, in a school magazine",
+         "r": "Yes",
+         "w": [
+          "No, CC works can never be used",
+          "No, credit is not allowed",
+          "Only if you change the photo"
+         ],
+         "e": [
+          "CC licences allow use under conditions.",
+          "Credit is required (BY).",
+          "ND forbids changes."
+         ],
+         "y": "Credit given and no changes: allowed."
+        },
+        {
+         "q": "Cropping and colouring a CC BY-ND drawing for a poster",
+         "r": "No",
+         "w": [
+          "Yes, always",
+          "Yes, if you do not give credit",
+          "Yes, if the poster is pink"
+         ],
+         "e": [
+          "ND forbids changes.",
+          "Credit is still required, and changes are still forbidden.",
+          "Colour is irrelevant."
+         ],
+         "y": "ND means no derivatives."
+        },
+        {
+         "q": "Selling T-shirts printed with a CC BY-NC image",
+         "r": "No (without the creator's permission)",
+         "w": [
+          "Yes, always",
+          "Yes, if you give credit",
+          "Yes, if sold cheaply"
+         ],
+         "e": [
+          "NC forbids commercial use.",
+          "Credit does not remove the NC condition.",
+          "Any sale is commercial."
+         ],
+         "y": "Commercial use needs permission."
+        }
+       ]
+      }
+     },
+     "prompt": "Is this use allowed? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c3s30-3",
+    "status": "draft",
+    "idea": "{'CC0'} means the work is free for any use.",
+    "vars": {},
+    "example": [
+     "Public-domain images"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-30-cc0"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-30-term",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "BY",
+       "r": "Attribution: give credit to the creator",
+       "w": [
+        "Buy before using",
+        "No changes allowed",
+        "No commercial use"
+       ],
+       "e": [
+        "CC licences do not require buying.",
+        "That is ND.",
+        "That is NC."
+       ],
+       "y": "Every CC licence except {'CC0'} needs attribution."
+      },
+      {
+       "q": "NC",
+       "r": "NonCommercial: not for making money",
+       "w": [
+        "No credit needed",
+        "New copies only",
+        "No changes allowed"
+       ],
+       "e": [
+        "Credit is BY.",
+        "Not a CC term.",
+        "That is ND."
+       ],
+       "y": "Use only for non-commercial purposes."
+      },
+      {
+       "q": "ND",
+       "r": "NoDerivatives: share only as it is, without changes",
+       "w": [
+        "No downloading",
+        "No credit",
+        "No sharing at all"
+       ],
+       "e": [
+        "Downloading is allowed.",
+        "Credit is still needed (BY).",
+        "Sharing is allowed."
+       ],
+       "y": "You may not adapt or remix it."
+      },
+      {
+       "q": "SA",
+       "r": "ShareAlike: share new versions under the same licence",
+       "w": [
+        "Sell anywhere",
+        "Secret access",
+        "Same author only"
+       ],
+       "e": [
+        "Not a CC term.",
+        "Not a CC term.",
+        "Not a CC term."
+       ],
+       "y": "Adaptations keep the same freedoms."
+      }
+     ]
+    }
+   },
+   "prompt": "What does this Creative Commons term mean? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-30-can",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Using a CC BY-ND photo, with credit, unchanged, in a school magazine",
+       "r": "Yes",
+       "w": [
+        "No, CC works can never be used",
+        "No, credit is not allowed",
+        "Only if you change the photo"
+       ],
+       "e": [
+        "CC licences allow use under conditions.",
+        "Credit is required (BY).",
+        "ND forbids changes."
+       ],
+       "y": "Credit given and no changes: allowed."
+      },
+      {
+       "q": "Cropping and colouring a CC BY-ND drawing for a poster",
+       "r": "No",
+       "w": [
+        "Yes, always",
+        "Yes, if you do not give credit",
+        "Yes, if the poster is pink"
+       ],
+       "e": [
+        "ND forbids changes.",
+        "Credit is still required, and changes are still forbidden.",
+        "Colour is irrelevant."
+       ],
+       "y": "ND means no derivatives."
+      },
+      {
+       "q": "Selling T-shirts printed with a CC BY-NC image",
+       "r": "No (without the creator's permission)",
+       "w": [
+        "Yes, always",
+        "Yes, if you give credit",
+        "Yes, if sold cheaply"
+       ],
+       "e": [
+        "NC forbids commercial use.",
+        "Credit does not remove the NC condition.",
+        "Any sale is commercial."
+       ],
+       "y": "Commercial use needs permission."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this use allowed? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-30-cc0",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does {'CC0'} mean?",
+       "r": "No rights reserved: anyone may use it for any purpose",
+       "w": [
+        "Copyright zero years",
+        "Cannot copy at all",
+        "Credit required on page 0"
+       ],
+       "e": [
+        "It means the creator gives up rights.",
+        "The opposite.",
+        "No such rule."
+       ],
+       "y": "{'CC0'} places work in the public domain."
+      },
+      {
+       "q": "Why do creators use Creative Commons licences?",
+       "r": "To share their work while keeping some rights",
+       "w": [
+        "To stop anyone using it",
+        "To make it illegal to share",
+        "To earn money from every use automatically"
+       ],
+       "e": [
+        "All rights reserved would do that.",
+        "CC encourages sharing.",
+        "CC does not collect payments."
+       ],
+       "y": "Easy, clear permission to reuse."
+      },
+      {
+       "q": "Where are many CC-licensed images found?",
+       "r": "Wikipedia and Wikimedia Commons",
+       "w": [
+        "Only in paid magazines",
+        "Inside computer processors",
+        "On bank cards"
+       ],
+       "e": [
+        "Paid magazines are usually all rights reserved.",
+        "Not relevant.",
+        "Not relevant."
+       ],
+       "y": "Their licence is shown with each file."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-30-choose",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk wants anyone to use and change his photos, even for business, as long as he is credited.",
+       "r": "CC BY",
+       "w": [
+        "CC BY-NC-ND",
+        "all rights reserved",
+        "CC BY-ND"
+       ],
+       "e": [
+        "That forbids business use and changes.",
+        "That forbids reuse without permission.",
+        "That forbids changes."
+       ],
+       "y": "BY alone allows any use with credit."
+      },
+      {
+       "q": "A teacher wants other teachers to adapt her worksheets for free, and share their versions the same way, but not sell them.",
+       "r": "CC BY-NC-SA",
+       "w": [
+        "{'CC0'}",
+        "CC BY-ND",
+        "all rights reserved"
+       ],
+       "e": [
+        "{'CC0'} would allow selling.",
+        "ND forbids adapting.",
+        "That forbids reuse."
+       ],
+       "y": "Credit, non-commercial, share alike."
+      },
+      {
+       "q": "A photographer wants people to share his photos unchanged and never use them for business.",
+       "r": "CC BY-NC-ND",
+       "w": [
+        "CC BY",
+        "CC BY-SA",
+        "{'CC0'}"
+       ],
+       "e": [
+        "That allows business use and changes.",
+        "That allows changes and business use.",
+        "That gives up all rights."
+       ],
+       "y": "The strictest Creative Commons licence."
+      }
+     ]
+    }
+   },
+   "prompt": "Which licence should the creator choose? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

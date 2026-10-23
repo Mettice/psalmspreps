@@ -47,8 +47,14 @@ and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the
   Keep the established lesson sequence and add a visible measurable end goal, earlier knowledge and next-topic
   connection to each opening Learn screen. See `content/form-4/logic/LEARNING-PATH.md`.
 
-- Remaining Form 4 subjects and Forms 5, Lower and Upper Sixth Term 1: listed in `content/classes.json`
-  (cinema subjects excepted); subject ownership is still to be split. Sheet errors in each class's `issues.md`
+- **Claude: Form 4 Term 1 Maths (35), Additional Maths (57), Physics (15), Chemistry (27), Biology (31),
+  Human Biology (30), Geology (28), Computer Science (27), Accounting (9), Food and Nutrition (9)**: the same split
+  as Form 3 (numbers and sciences), set 2026-10-23 once Form 3 Term 1 was merged into `form-2`. Branch `f3-claude`
+  in `C:\Users\efuet\preps`; generators in `tools/authoring/form4/`; the same opening goal screen as Codex's.
+- **Codex: the other Form 4 subjects** (English, French, Français intensif, History, Geography; Literature waits
+  for the set books, AUTHORING section 6). Dion can move any subject between authors.
+- Forms 5, Lower and Upper Sixth Term 1: listed in `content/classes.json` (cinema subjects excepted); subject
+  ownership is still to be split. Sheet errors in each class's `issues.md`
   need Dion's decisions first.
 - Codex: bring Form 2 Term 3 French (70–81) and Français intensif (104–128) up to the quality bar (4+ questions,
   specific feedback, 3+ variants, Learn screens) when Form 3 is done.

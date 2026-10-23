@@ -1,0 +1,396 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  17,
+  18
+ ],
+ "skills": [
+  {
+   "id": "m3-19",
+   "name": "Solve right-angled triangles: find missing sides and angles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To solve a right-angled triangle is to find all its sides and angles.\n• Label the sides from the known (or wanted) angle: opposite, adjacent, hypotenuse.\n• Choose the ratio that uses the two sides involved (SOH CAH TOA).\n• Unknown side on top: multiply (x = 10 × sin 30°). Unknown side at the bottom: divide (x = 10 ÷ tan 30°).\n• Unknown angle: use the inverse key (θ = tan⁻¹(5/12)).\n• The two acute angles add up to 90°, and Pythagoras gives the third side.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Which ratio?",
+    "text": "Mark the angle. Label the sides you know and the side you want: opposite, adjacent or hypotenuse. Then pick the ratio that links those two:\n• opposite and hypotenuse → sin;\n• adjacent and hypotenuse → cos;\n• opposite and adjacent → tan.\nWrite the ratio as an equation, for example sin {35}° = x ÷ {12}."
+   },
+   {
+    "heading": "Solving the equation",
+    "text": "• If x is on top: multiply. sin {35}° = x ÷ {12} gives x = {12} × sin {35}° ≈ {roundTo(12 * sinD(35), 0.1)}.\n• If x is at the bottom: divide. tan {35}° = {8} ÷ x gives x = {8} ÷ tan {35}° ≈ {roundTo(8 / tanD(35), 0.1)}.\n• For an angle: tan θ = {5} ÷ {12} gives θ = tan⁻¹({5} ÷ {12}) ≈ {roundTo(atanD(5 / 12), 0.1)}°.\nA quick check: the hypotenuse must be the longest side."
+   },
+   {
+    "heading": "Elevation and depression",
+    "text": "From the top of a cliff, you look down at a canoe: the angle between the horizontal and your line of sight is the angle of depression. Because the horizontal at the top is parallel to the sea, it equals the angle of elevation from the canoe up to you.\nSo the triangle at the foot of the cliff has that angle, the cliff height opposite it and the distance along the sea adjacent to it: use tan."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "solve a triangle",
+    "meaning": "find all its unknown sides and angles"
+   },
+   {
+    "word": "angle of depression",
+    "meaning": "the angle looking down from the horizontal"
+   },
+   {
+    "word": "inverse key",
+    "meaning": "sin⁻¹, cos⁻¹, tan⁻¹ on a calculator"
+   }
+  ],
+  "examples": [
+   "Hypotenuse {10}, θ = {30}°: opposite = {10} × sin {30}° = {5}",
+   "Opposite {6}, adjacent {6}: θ = tan⁻¹({1}) = {45}°"
+  ],
+  "mistake": {
+   "wrong": "sin {40}° = {6} ÷ x → x = {6} × sin {40}°",
+   "right": "x = {6} ÷ sin {40}° ≈ {roundTo(6 / sinD(40), 0.1)}",
+   "why": "When x is at the bottom of the fraction, divide. The hypotenuse must come out longer than {6}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "o": 5,
+   "a": 12
+  },
+  "problem": "In a right-angled triangle the side opposite θ is {o} cm and the adjacent side is {a} cm. Find θ to {1} decimal place.",
+  "steps": [
+   "Opposite and adjacent: use tan.",
+   "tan θ = {o} ÷ {a}.",
+   "θ = tan⁻¹({o} ÷ {a}) ≈ {roundTo(atanD(o / a), 0.1)}°."
+  ],
+  "answer": "θ ≈ {roundTo(atanD(o / a), 0.1)}°",
+  "checks": [
+   "roundTo(atanD(o / a), 0.1) == 22.6"
+  ],
+  "figure": "trigFig(a, o, '')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m19-1",
+    "status": "draft",
+    "idea": "Pick the ratio with the two sides you know or want.",
+    "vars": {},
+    "example": [
+     "Opposite and hypotenuse → sin; adjacent and hypotenuse → cos; opposite and adjacent → tan."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-19-angle"
+    }
+   },
+   {
+    "id": "c3m19-2",
+    "status": "draft",
+    "idea": "Unknown side on top of the ratio: multiply. At the bottom: divide.",
+    "vars": {},
+    "example": [
+     "sin {30}° = x ÷ {10} → x = {10} × sin {30}° = {5}",
+     "tan {45}° = {7} ÷ x → x = {7} ÷ tan {45}° = {7}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-19-adj"
+    }
+   },
+   {
+    "id": "c3m19-3",
+    "status": "draft",
+    "idea": "Find an angle with the inverse key.",
+    "vars": {},
+    "example": [
+     "cos θ = {frac(1, 2)} → θ = cos⁻¹({0.5}) = {60}°"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-19-hyp-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "trigonometry"
+     ],
+     "vars": {
+      "o": {
+       "int": [
+        3,
+        20
+       ]
+      },
+      "A": {
+       "int": [
+        15,
+        75
+       ]
+      }
+     },
+     "prompt": "The side opposite θ is {o} cm and θ = {A}°. Find the hypotenuse, to {1} decimal place.",
+     "answer": "roundTo(o / sinD(A), 0.1)",
+     "misconceptions": [
+      {
+       "id": "mult",
+       "wrong": "roundTo(o * sinD(A), 0.1)",
+       "explain": "x is at the bottom of the ratio: divide, x = {o} ÷ sin {A}°. The hypotenuse must be the longest side."
+      },
+      {
+       "id": "cos",
+       "wrong": "roundTo(o / cosD(A), 0.1)",
+       "explain": "{o} cm is opposite θ: use sin."
+      }
+     ],
+     "solution": [
+      "Opposite and hypotenuse: sin {A}° = {o} ÷ x.",
+      "x is at the bottom: x = {o} ÷ sin {A}° ≈ {answer} cm."
+     ],
+     "unit": "cm",
+     "figure": "trigFig('', o, 'x', A)",
+     "where": [
+      "A != 45"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-19-angle",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "o": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "a": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "In a right-angled triangle the side opposite θ is {o} cm and the adjacent side is {a} cm. Find θ to {1} decimal place.",
+   "answer": "roundTo(atanD(o / a), 0.1)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "roundTo(atanD(a / o), 0.1)",
+     "explain": "tan θ = opposite ÷ adjacent = {o} ÷ {a}, not {a} ÷ {o}."
+    }
+   ],
+   "solution": [
+    "Opposite and adjacent: tan θ = {o} ÷ {a}.",
+    "θ = tan⁻¹({o} ÷ {a}) ≈ {answer}°."
+   ],
+   "unit": "°",
+   "figure": "trigFig(a, o, '')",
+   "where": [
+    "o != a"
+   ]
+  },
+  {
+   "id": "m3-19-adj",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      5,
+      25
+     ]
+    },
+    "A": {
+     "int": [
+      15,
+      75
+     ]
+    }
+   },
+   "prompt": "The hypotenuse is {h} cm and θ = {A}°. Find the side adjacent to θ, to {1} decimal place.",
+   "answer": "roundTo(h * cosD(A), 0.1)",
+   "misconceptions": [
+    {
+     "id": "sin",
+     "wrong": "roundTo(h * sinD(A), 0.1)",
+     "explain": "That is the opposite side. The adjacent side uses cos."
+    },
+    {
+     "id": "div",
+     "wrong": "roundTo(h / cosD(A), 0.1)",
+     "explain": "x is on top of the ratio: multiply, x = {h} × cos {A}°."
+    }
+   ],
+   "solution": [
+    "Adjacent and hypotenuse: cos {A}° = x ÷ {h}.",
+    "x = {h} × cos {A}° ≈ {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "trigFig('x', '', h, A)",
+   "where": [
+    "A != 45"
+   ]
+  },
+  {
+   "id": "m3-19-hyp",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "o": {
+     "int": [
+      3,
+      20
+     ]
+    },
+    "A": {
+     "int": [
+      15,
+      75
+     ]
+    }
+   },
+   "prompt": "The side opposite θ is {o} cm and θ = {A}°. Find the hypotenuse, to {1} decimal place.",
+   "answer": "roundTo(o / sinD(A), 0.1)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "roundTo(o * sinD(A), 0.1)",
+     "explain": "x is at the bottom of the ratio: divide, x = {o} ÷ sin {A}°. The hypotenuse must be the longest side."
+    },
+    {
+     "id": "cos",
+     "wrong": "roundTo(o / cosD(A), 0.1)",
+     "explain": "{o} cm is opposite θ: use sin."
+    }
+   ],
+   "solution": [
+    "Opposite and hypotenuse: sin {A}° = {o} ÷ x.",
+    "x is at the bottom: x = {o} ÷ sin {A}° ≈ {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "trigFig('', o, 'x', A)",
+   "where": [
+    "A != 45"
+   ]
+  },
+  {
+   "id": "m3-19-sinangle",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "o": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "h": {
+     "int": [
+      5,
+      25
+     ]
+    }
+   },
+   "prompt": "The side opposite θ is {o} cm and the hypotenuse is {h} cm. Find θ to {1} decimal place.",
+   "answer": "roundTo(asinD(o / h), 0.1)",
+   "misconceptions": [
+    {
+     "id": "cos",
+     "wrong": "roundTo(acosD(o / h), 0.1)",
+     "explain": "{o} cm is opposite θ: use sin⁻¹, not cos⁻¹."
+    },
+    {
+     "id": "tan",
+     "wrong": "roundTo(atanD(o / h), 0.1)",
+     "explain": "{h} cm is the hypotenuse: use sin, not tan."
+    }
+   ],
+   "solution": [
+    "Opposite and hypotenuse: sin θ = {o} ÷ {h}.",
+    "θ = sin⁻¹({o} ÷ {h}) ≈ {answer}°."
+   ],
+   "unit": "°",
+   "figure": "trigFig('', o, h)",
+   "where": [
+    "o < h",
+    "o * 2 != h"
+   ]
+  },
+  {
+   "id": "m3-19-cliff",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "trigonometry"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      20,
+      120
+     ]
+    },
+    "A": {
+     "int": [
+      15,
+      60
+     ]
+    }
+   },
+   "prompt": "From the top of a cliff {h} m high, the angle of depression of a canoe on the sea is {A}°. How far is the canoe from the foot of the cliff, to the nearest metre?",
+   "answer": "roundTo(h / tanD(A), 1)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "roundTo(h * tanD(A), 1)",
+     "explain": "d is at the bottom of tan {A}° = {h} ÷ d: divide."
+    },
+    {
+     "id": "sin",
+     "wrong": "roundTo(h / sinD(A), 1)",
+     "explain": "That is the line of sight (the hypotenuse). The distance along the sea uses tan."
+    }
+   ],
+   "solution": [
+    "The angle of depression equals the angle of elevation from the canoe to the top: {A}°.",
+    "From the canoe: tan {A}° = {h} ÷ d, so d = {h} ÷ tan {A}°.",
+    "d ≈ {h} ÷ {roundTo(tanD(A), 0.0001)} ≈ {answer} m."
+   ],
+   "unit": "m",
+   "figure": "trigFig('d', h, '', A, 'm')",
+   "where": [
+    "A != 45"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,566 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "k3-10",
+   "name": "Electronic configuration of the first 20 elements"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The electronic configuration lists the electrons in each shell, inner to outer: 2, 8, 1 for sodium.\nRule for the first 20: fill 2, then 8, then 8, then the rest.\n• H 1 · He 2 · Li 2,1 · Be 2,2 · B 2,3 · C 2,4 · N 2,5 · O 2,6 · F 2,7 · Ne 2,8\n• Na 2,8,1 · Mg 2,8,2 · Al 2,8,3 · Si 2,8,4 · P 2,8,5 · S 2,8,6 · Cl 2,8,7 · Ar 2,8,8 · K 2,8,8,1 · Ca 2,8,8,2\nThe total of the numbers equals the atomic number.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Writing configurations",
+    "text": "The electronic configuration lists the number of electrons in each shell from the nucleus outwards, separated by commas.\nMethod: start with the atomic number, put {2} in the first shell, up to {8} in the second, up to {8} in the third, and the rest in the fourth.\nPhosphorus ({15}): {2}, {8}, {5}. Check: {2} + {8} + {5} = {15}."
+   },
+   {
+    "heading": "The first twenty",
+    "text": "• H {1} · He {2}\n• Li {2},{1} · Be {2},{2} · B {2},{3} · C {2},{4} · N {2},{5} · O {2},{6} · F {2},{7} · Ne {2},{8}\n• Na {2},{8},{1} · Mg {2},{8},{2} · Al {2},{8},{3} · Si {2},{8},{4} · P {2},{8},{5} · S {2},{8},{6} · Cl {2},{8},{7} · Ar {2},{8},{8}\n• K {2},{8},{8},{1} · Ca {2},{8},{8},{2}\nNotice the pattern repeating in each row."
+   },
+   {
+    "heading": "Configurations of ions",
+    "text": "When an atom becomes an ion, only the electrons change.\n• Na ({2},{8},{1}) loses {1} → Na⁺ {2},{8}.\n• Cl ({2},{8},{7}) gains {1} → Cl⁻ {2},{8},{8}.\nBoth ions end up with a full outer shell, like a noble gas. This is the key to chemical bonding."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "electronic configuration",
+    "meaning": "the number of electrons in each shell, e.g. {2}, {8}, {1}"
+   },
+   {
+    "word": "noble gas configuration",
+    "meaning": "a full outer shell, like He, Ne or Ar"
+   }
+  ],
+  "examples": [
+   "Nitrogen ({7}): {2}, {5}",
+   "Silicon ({14}): {2}, {8}, {4}",
+   "Mg²⁺: {2}, {8}"
+  ],
+  "mistake": {
+   "wrong": "Potassium ({19}): {2}, {8}, {9}",
+   "right": "Potassium: {2}, {8}, {8}, {1}",
+   "why": "For the first {20} elements the third shell holds {8} before the fourth starts."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 17
+  },
+  "problem": "Write the electronic configuration of chlorine (atomic number {z}).",
+  "steps": [
+   "First shell: {2} (leaves {z - 2}).",
+   "Second shell: {8} (leaves {z - 10}).",
+   "Third shell: the remaining {z - 10}."
+  ],
+  "answer": "{shells(z)}",
+  "checks": [
+   "shells(z) == '2, 8, 7'"
+  ],
+  "figure": "bohr(z)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k10-1",
+    "status": "draft",
+    "idea": "Write the electrons shell by shell: {2}, then {8}, then {8}.",
+    "vars": {},
+    "example": [
+     "Aluminium ({13}): {2}, {8}, {3}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-10-write"
+    }
+   },
+   {
+    "id": "c3k10-2",
+    "status": "draft",
+    "idea": "The numbers in a configuration add up to the atomic number.",
+    "vars": {},
+    "example": [
+     "{2} + {8} + {6} = {16}: sulphur"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-10-which"
+    }
+   },
+   {
+    "id": "c3k10-3",
+    "status": "draft",
+    "idea": "Potassium and calcium start a fourth shell.",
+    "vars": {},
+    "example": [
+     "K: {2}, {8}, {8}, {1}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-10-k-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "electrons"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is the electronic configuration of potassium (atomic number 19)?",
+         "r": "2, 8, 8, 1",
+         "w": [
+          "2, 8, 9",
+          "2, 9, 8",
+          "2, 8, 1, 8"
+         ],
+         "e": [
+          "The third shell takes 8, then the fourth starts.",
+          "The second shell holds at most 8.",
+          "Shells fill from the inside out."
+         ],
+         "y": "2 + 8 + 8 = 18, then 1 in the fourth shell."
+        },
+        {
+         "q": "What is the electronic configuration of calcium (atomic number 20)?",
+         "r": "2, 8, 8, 2",
+         "w": [
+          "2, 8, 10",
+          "2, 10, 8",
+          "2, 8, 2, 8"
+         ],
+         "e": [
+          "The third shell takes 8, then the fourth starts.",
+          "The second shell holds at most 8.",
+          "Shells fill from the inside out."
+         ],
+         "y": "2, 8, 8, then 2 in the fourth shell."
+        },
+        {
+         "q": "Which element has the configuration 2, 8, 8?",
+         "r": "argon (18)",
+         "w": [
+          "calcium (20)",
+          "neon (10)",
+          "chlorine (17)"
+         ],
+         "e": [
+          "Calcium is 2, 8, 8, 2.",
+          "Neon is 2, 8.",
+          "Chlorine is 2, 8, 7."
+         ],
+         "y": "2 + 8 + 8 = 18: argon."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-10-write",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "What is the electronic configuration of {nameOf(X)} (atomic number {z})?",
+   "correct": "{shells(z)}",
+   "distractors": [
+    {
+     "text": "{shells(z - 1)}",
+     "misconception": "minus"
+    },
+    {
+     "text": "{shells(z + 1)}",
+     "misconception": "plus"
+    },
+    {
+     "text": "{z <= 10 ? (z > 2 ? '2, 8, ' + (z - 2) : '2, ' + z) : '2, ' + (z - 2)}",
+     "misconception": "fill"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "minus",
+     "explain": "Count again: those numbers add up to {z - 1}, not {z}."
+    },
+    {
+     "id": "plus",
+     "explain": "Count again: those numbers add up to {z + 1}, not {z}."
+    },
+    {
+     "id": "fill",
+     "explain": "The second shell holds at most {8}: {z > 10 ? 'go on to the next shell' : 'there are not enough electrons to fill it'}."
+    }
+   ],
+   "solution": [
+    "Fill {2}, then {8}, then {8}.",
+    "{z} electrons: {answer}."
+   ],
+   "where": [
+    "X != 'Ca'",
+    "(z <= 10 ? (z > 2 ? '2, 8, ' + (z - 2) : '2, ' + z) : '2, ' + (z - 2)) != shells(z)"
+   ]
+  },
+  {
+   "id": "k3-10-which",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "An atom has the configuration {shells(z)}. What is its atomic number?",
+   "answer": "z",
+   "misconceptions": [
+    {
+     "id": "outer",
+     "wrong": "outerElectrons(z)",
+     "explain": "Add all the shells, not just the last."
+    },
+    {
+     "id": "shells",
+     "wrong": "periodOf(z)",
+     "explain": "That is the number of shells. Add the electrons."
+    }
+   ],
+   "solution": [
+    "Add the electrons: {shells(z)}.",
+    "Total = {answer}."
+   ],
+   "where": [
+    "outerElectrons(z) != z",
+    "periodOf(z) != outerElectrons(z)"
+   ]
+  },
+  {
+   "id": "k3-10-k",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the electronic configuration of potassium (atomic number 19)?",
+       "r": "2, 8, 8, 1",
+       "w": [
+        "2, 8, 9",
+        "2, 9, 8",
+        "2, 8, 1, 8"
+       ],
+       "e": [
+        "The third shell takes 8, then the fourth starts.",
+        "The second shell holds at most 8.",
+        "Shells fill from the inside out."
+       ],
+       "y": "2 + 8 + 8 = 18, then 1 in the fourth shell."
+      },
+      {
+       "q": "What is the electronic configuration of calcium (atomic number 20)?",
+       "r": "2, 8, 8, 2",
+       "w": [
+        "2, 8, 10",
+        "2, 10, 8",
+        "2, 8, 2, 8"
+       ],
+       "e": [
+        "The third shell takes 8, then the fourth starts.",
+        "The second shell holds at most 8.",
+        "Shells fill from the inside out."
+       ],
+       "y": "2, 8, 8, then 2 in the fourth shell."
+      },
+      {
+       "q": "Which element has the configuration 2, 8, 8?",
+       "r": "argon (18)",
+       "w": [
+        "calcium (20)",
+        "neon (10)",
+        "chlorine (17)"
+       ],
+       "e": [
+        "Calcium is 2, 8, 8, 2.",
+        "Neon is 2, 8.",
+        "Chlorine is 2, 8, 7."
+       ],
+       "y": "2 + 8 + 8 = 18: argon."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-10-ion",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Na⁺",
+       "e": "Na",
+       "q": 1
+      },
+      {
+       "s": "Mg²⁺",
+       "e": "Mg",
+       "q": 2
+      },
+      {
+       "s": "Cl⁻",
+       "e": "Cl",
+       "q": -1
+      },
+      {
+       "s": "O²⁻",
+       "e": "O",
+       "q": -2
+      },
+      {
+       "s": "Al³⁺",
+       "e": "Al",
+       "q": 3
+      },
+      {
+       "s": "S²⁻",
+       "e": "S",
+       "q": -2
+      },
+      {
+       "s": "K⁺",
+       "e": "K",
+       "q": 1
+      },
+      {
+       "s": "F⁻",
+       "e": "F",
+       "q": -1
+      }
+     ]
+    }
+   },
+   "prompt": "Write the configuration of the ion {X.s}. How many electrons are in its outer shell?",
+   "answer": "8",
+   "misconceptions": [
+    {
+     "id": "atom",
+     "wrong": "outerElectrons(atomicNumber(X.e))",
+     "explain": "That is the neutral atom. The ion has {X.q > 0 ? 'lost' : 'gained'} electrons."
+    }
+   ],
+   "solution": [
+    "{X.s} has {atomicNumber(X.e) - X.q} electrons.",
+    "Configuration: {shells(atomicNumber(X.e) - X.q)}: outer shell {answer}."
+   ]
+  },
+  {
+   "id": "k3-10-pick",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "electrons"
+   ],
+   "vars": {
+    "z": {
+     "int": [
+      3,
+      18
+     ]
+    },
+    "o": {
+     "expr": "outerElectrons(z)"
+    },
+    "p": {
+     "expr": "periodOf(z)"
+    }
+   },
+   "prompt": "Which configuration belongs to an element with {o} electrons in its outer shell and {p} shells?",
+   "correct": "{shells(z)}",
+   "distractors": [
+    {
+     "text": "{shells(z + 1)}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{shells(z - 1)}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{shells(z <= 10 ? z + 8 : z - 8)}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "That has {outerElectrons(z + 1)} outer electron(s) and {periodOf(z + 1)} shell(s)."
+    },
+    {
+     "id": "w2",
+     "explain": "That has {outerElectrons(z - 1)} outer electron(s) and {periodOf(z - 1)} shell(s)."
+    },
+    {
+     "id": "w3",
+     "explain": "That has {periodOf(z <= 10 ? z + 8 : z - 8)} shells, not {p}."
+    }
+   ],
+   "solution": [
+    "{p} shells, with {o} in the last: {answer}.",
+    "That is element number {z}."
+   ],
+   "where": [
+    "z != 10 && z != 11 && z != 18",
+    "z != 3"
+   ]
+  }
+ ]
+}

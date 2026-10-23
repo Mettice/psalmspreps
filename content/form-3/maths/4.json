@@ -1,0 +1,563 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "m3-4",
+   "name": "Factorise by a common factor and by grouping"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Factorising is the reverse of expanding: write the expression as a product.\n• Common factor: find the highest common factor (HCF) of all the terms, numbers and letters, and take it outside a bracket: 6x + 9 = 3(2x + 3); 4x² − 10x = 2x(2x − 5).\n• Check by expanding: the bracket must give back the original expression.\n• Fully factorised: nothing more can be taken out of the bracket.\n• Grouping (four terms): factorise pairs, then take out the common bracket: ax + ay + bx + by = a(x + y) + b(x + y) = (a + b)(x + y).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Factorising undoes expanding",
+    "text": "Expanding turns a product into a sum: {bracket(3, [2, 'x'], [5, ''])} = {poly([6, 'x'], [15, ''])}.\nFactorising goes back: from {poly([6, 'x'], [15, ''])} we find {bracket(3, [2, 'x'], [5, ''])}.\nStep one is the highest common factor (HCF) of all the terms. {3} divides both {6} and {15}, and nothing bigger does. Write the HCF outside, and inside the bracket write each term divided by it.\nAlways check by expanding your answer: you must get the original expression back."
+   },
+   {
+    "heading": "Letters can be common factors",
+    "text": "Look at the letters as well as the numbers. In {poly([8, 'x²'], [12, 'x'])}:\n• numbers: the HCF of {8} and {12} is {4};\n• letters: x² = x × x, so x is in both terms.\nThe HCF is {mono(4, 'x')}, so {poly([8, 'x²'], [12, 'x'])} = {mono(4, 'x') + '(' + poly([2, 'x'], [3, '']) + ')'}.\nIf you take out only {4} or only x, the answer is factorised but not fully factorised: something common is still inside."
+   },
+   {
+    "heading": "Four terms: grouping",
+    "text": "Sometimes no factor is common to all four terms, as in {poly([1, 'x²'], [3, 'x'], [2, 'x'], [6, ''])}.\nGroup the terms in pairs and factorise each pair: x{'(' + poly([1, 'x'], [3, '']) + ')'} + {2}{'(' + poly([1, 'x'], [3, '']) + ')'}.\nNow the bracket {'(' + poly([1, 'x'], [3, '']) + ')'} is common, so take it out: {'(' + poly([1, 'x'], [3, '']) + ')' + '(' + poly([1, 'x'], [2, '']) + ')'}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "factorise",
+    "meaning": "write as a product of factors"
+   },
+   {
+    "word": "factor",
+    "meaning": "a number or expression that divides exactly"
+   },
+   {
+    "word": "HCF",
+    "meaning": "highest common factor: the biggest factor shared by all the terms"
+   },
+   {
+    "word": "fully factorised",
+    "meaning": "no common factor is left inside the bracket"
+   }
+  ],
+  "examples": [
+   "{poly([5, 'a'], [20, ''])} = {bracket(5, [1, 'a'], [4, ''])}",
+   "{poly([9, 'y²'], [-6, 'y'])} = {mono(3, 'y') + '(' + poly([3, 'y'], [-2, '']) + ')'}",
+   "{poly([1, 'a'], [1, 'b'])} times two: {poly([2, 'a'], [2, 'b'])} = {bracket(2, [1, 'a'], [1, 'b'])}"
+  ],
+  "mistake": {
+   "wrong": "{poly([6, 'x²'], [9, 'x'])} = {bracket(3, [2, 'x²'], [3, 'x'])}",
+   "right": "{poly([6, 'x²'], [9, 'x'])} = {mono(3, 'x') + '(' + poly([2, 'x'], [3, '']) + ')'}",
+   "why": "The first answer is not fully factorised: x is still common to both terms in the bracket."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "g": 3,
+   "m": 2,
+   "n": 5
+  },
+  "problem": "Factorise fully {poly([g * m, 'x²'], [g * n, 'x'])}.",
+  "steps": [
+   "HCF of the numbers {g * m} and {g * n} is {g}.",
+   "Both terms contain x, so x is common too: the HCF is {mono(g, 'x')}.",
+   "{mono(g * m, 'x²')} ÷ {mono(g, 'x')} = {mono(m, 'x')} and {mono(g * n, 'x')} ÷ {mono(g, 'x')} = {n}.",
+   "Check: {mono(g, 'x')} × {mono(m, 'x')} + {mono(g, 'x')} × {n} gives back the expression."
+  ],
+  "answer": "{mono(g, 'x') + '(' + poly([m, 'x'], [n, '']) + ')'}",
+  "checks": [
+   "hcf(m, n) == 1"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m4-1",
+    "status": "draft",
+    "idea": "Take the highest common factor outside the bracket and divide each term by it.",
+    "vars": {},
+    "example": [
+     "{poly([6, 'x'], [9, ''])} = {bracket(3, [2, 'x'], [3, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-4-hcf"
+    }
+   },
+   {
+    "id": "c3m4-2",
+    "status": "draft",
+    "idea": "Letters can be common factors too: x is a factor of x² and of x.",
+    "vars": {},
+    "example": [
+     "{poly([4, 'x²'], [-10, 'x'])} = {mono(2, 'x') + '(' + poly([2, 'x'], [-5, '']) + ')'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-4-letter-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-factorise"
+     ],
+     "vars": {
+      "g": {
+       "int": [
+        2,
+        7
+       ]
+      },
+      "m": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "n": {
+       "int": [
+        -9,
+        9
+       ]
+      }
+     },
+     "prompt": "Factorise fully {poly([g * m, 'x²'], [g * n, 'x'])}.",
+     "correct": "{mono(g, 'x') + '(' + poly([m, 'x'], [n, '']) + ')'}",
+     "distractors": [
+      {
+       "text": "{bracket(g, [m, 'x²'], [n, 'x'])}",
+       "misconception": "noletter"
+      },
+      {
+       "text": "{'x(' + poly([g * m, 'x'], [g * n, '']) + ')'}",
+       "misconception": "nonumber"
+      },
+      {
+       "text": "{mono(g, 'x') + '(' + poly([m, 'x²'], [n, 'x']) + ')'}",
+       "misconception": "nodivide"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "noletter",
+       "explain": "Not fully factorised: x is also common to both terms."
+      },
+      {
+       "id": "nonumber",
+       "explain": "Not fully factorised: {g} is also common to both terms."
+      },
+      {
+       "id": "nodivide",
+       "explain": "Divide each term by {mono(g, 'x')}: {mono(g * m, 'x²')} ÷ {mono(g, 'x')} = {mono(m, 'x')}."
+      }
+     ],
+     "solution": [
+      "The HCF is {mono(g, 'x')}: {g} divides both numbers and x is in both terms.",
+      "{mono(g * m, 'x²')} ÷ {mono(g, 'x')} = {mono(m, 'x')}; {mono(g * n, 'x')} ÷ {mono(g, 'x')} = {n}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "n != 0",
+      "hcf(m, abs(n)) == 1"
+     ]
+    }
+   },
+   {
+    "id": "c3m4-3",
+    "status": "draft",
+    "idea": "With four terms, factorise in pairs, then take out the common bracket.",
+    "vars": {},
+    "example": [
+     "{poly([1, 'x²'], [3, 'x'], [2, 'x'], [6, ''])} = x{'(' + poly([1, 'x'], [3, '']) + ')'} + {2}{'(' + poly([1, 'x'], [3, '']) + ')'} = {'(' + poly([1, 'x'], [3, '']) + ')' + '(' + poly([1, 'x'], [2, '']) + ')'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-4-group-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-factorise"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        9
+       ]
+      }
+     },
+     "prompt": "Factorise {poly([1, 'x²'], [a, 'x'], [b, 'x'], [a * b, ''])} by grouping.",
+     "correct": "{'(' + poly([1, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [b, '']) + ')'}",
+     "distractors": [
+      {
+       "text": "{'x' + '(' + poly([1, 'x'], [a, '']) + ')' + ' + ' + b + '(' + poly([1, 'x'], [a, '']) + ')'}",
+       "misconception": "unfinished"
+      },
+      {
+       "text": "{'(' + poly([1, 'x'], [a * b, '']) + ')' + '(' + poly([1, 'x'], [1, '']) + ')'}",
+       "misconception": "product"
+      },
+      {
+       "text": "{'(' + poly([1, 'x'], [-a, '']) + ')' + '(' + poly([1, 'x'], [-b, '']) + ')'}",
+       "misconception": "signs"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "unfinished",
+       "explain": "Not finished: {'(' + poly([1, 'x'], [a, '']) + ')'} is common to both parts; take it out."
+      },
+      {
+       "id": "product",
+       "explain": "Check by expanding: that gives a middle term {mono(a * b + 1, 'x')}, not {mono(a + b, 'x')}."
+      },
+      {
+       "id": "signs",
+       "explain": "Check by expanding: that gives {mono(-a - b, 'x')}, but the expression has {mono(a + b, 'x')}."
+      }
+     ],
+     "solution": [
+      "Group in pairs: x{'(' + poly([1, 'x'], [a, '']) + ')'} + {b}{'(' + poly([1, 'x'], [a, '']) + ')'}.",
+      "Take out the common bracket {'(' + poly([1, 'x'], [a, '']) + ')'}: the answer is {answer}."
+     ],
+     "where": [
+      "a != b"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-4-hcf",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([k * m, 'x'], [k * n, ''])}.",
+   "correct": "{bracket(k, [m, 'x'], [n, ''])}",
+   "distractors": [
+    {
+     "text": "{bracket(k, [m, 'x'], [k * n, ''])}",
+     "misconception": "one"
+    },
+    {
+     "text": "{bracket(m, [k, 'x'], [k * n / m, ''])}",
+     "misconception": "wrongf"
+    },
+    {
+     "text": "{mono(k, 'x') + '(' + poly([m, ''], [n, '']) + ')'}",
+     "misconception": "xout"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "one",
+     "explain": "Divide every term by {k}: {k * n} ÷ {k} = {n}."
+    },
+    {
+     "id": "wrongf",
+     "explain": "Not fully factorised: the bracket still has a common factor. Take out the highest common factor, {k}."
+    },
+    {
+     "id": "xout",
+     "explain": "x is only in one term, so it cannot be taken out."
+    }
+   ],
+   "solution": [
+    "The HCF of {k * m} and {k * n} is {k}.",
+    "{k * m} ÷ {k} = {m} and {k * n} ÷ {k} = {n}, so the answer is {answer}."
+   ],
+   "where": [
+    "hcf(m, n) == 1",
+    "m != k",
+    "(k * n) % m == 0 ? true : false",
+    "n != m"
+   ]
+  },
+  {
+   "id": "m3-4-which",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "{poly([k * m, 'x'], [k * n, 'y'])} = k(…). What is the number k taken out (the highest common factor)?",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "prod",
+     "wrong": "k * m * n",
+     "explain": "{k * m * n} is too big: it does not divide {k * m}."
+    }
+   ],
+   "solution": [
+    "The HCF of {k * m} and {k * n} is {k}: {k * m} = {k} × {m} and {k * n} = {k} × {n}.",
+    "So k = {answer}."
+   ],
+   "where": [
+    "hcf(m, n) == 1",
+    "m != n"
+   ]
+  },
+  {
+   "id": "m3-4-letter",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "g": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "m": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise fully {poly([g * m, 'x²'], [g * n, 'x'])}.",
+   "correct": "{mono(g, 'x') + '(' + poly([m, 'x'], [n, '']) + ')'}",
+   "distractors": [
+    {
+     "text": "{bracket(g, [m, 'x²'], [n, 'x'])}",
+     "misconception": "noletter"
+    },
+    {
+     "text": "{'x(' + poly([g * m, 'x'], [g * n, '']) + ')'}",
+     "misconception": "nonumber"
+    },
+    {
+     "text": "{mono(g, 'x') + '(' + poly([m, 'x²'], [n, 'x']) + ')'}",
+     "misconception": "nodivide"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "noletter",
+     "explain": "Not fully factorised: x is also common to both terms."
+    },
+    {
+     "id": "nonumber",
+     "explain": "Not fully factorised: {g} is also common to both terms."
+    },
+    {
+     "id": "nodivide",
+     "explain": "Divide each term by {mono(g, 'x')}: {mono(g * m, 'x²')} ÷ {mono(g, 'x')} = {mono(m, 'x')}."
+    }
+   ],
+   "solution": [
+    "The HCF is {mono(g, 'x')}: {g} divides both numbers and x is in both terms.",
+    "{mono(g * m, 'x²')} ÷ {mono(g, 'x')} = {mono(m, 'x')}; {mono(g * n, 'x')} ÷ {mono(g, 'x')} = {n}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "n != 0",
+    "hcf(m, abs(n)) == 1"
+   ]
+  },
+  {
+   "id": "m3-4-group",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise {poly([1, 'x²'], [a, 'x'], [b, 'x'], [a * b, ''])} by grouping.",
+   "correct": "{'(' + poly([1, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [b, '']) + ')'}",
+   "distractors": [
+    {
+     "text": "{'x' + '(' + poly([1, 'x'], [a, '']) + ')' + ' + ' + b + '(' + poly([1, 'x'], [a, '']) + ')'}",
+     "misconception": "unfinished"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [a * b, '']) + ')' + '(' + poly([1, 'x'], [1, '']) + ')'}",
+     "misconception": "product"
+    },
+    {
+     "text": "{'(' + poly([1, 'x'], [-a, '']) + ')' + '(' + poly([1, 'x'], [-b, '']) + ')'}",
+     "misconception": "signs"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "unfinished",
+     "explain": "Not finished: {'(' + poly([1, 'x'], [a, '']) + ')'} is common to both parts; take it out."
+    },
+    {
+     "id": "product",
+     "explain": "Check by expanding: that gives a middle term {mono(a * b + 1, 'x')}, not {mono(a + b, 'x')}."
+    },
+    {
+     "id": "signs",
+     "explain": "Check by expanding: that gives {mono(-a - b, 'x')}, but the expression has {mono(a + b, 'x')}."
+    }
+   ],
+   "solution": [
+    "Group in pairs: x{'(' + poly([1, 'x'], [a, '']) + ')'} + {b}{'(' + poly([1, 'x'], [a, '']) + ')'}.",
+    "Take out the common bracket {'(' + poly([1, 'x'], [a, '']) + ')'}: the answer is {answer}."
+   ],
+   "where": [
+    "a != b"
+   ]
+  },
+  {
+   "id": "m3-4-full",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "g": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "m": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise fully {poly([g * m, 'x²y'], [g * n, 'xy²'])}.",
+   "correct": "{mono(g, 'xy') + '(' + poly([m, 'x'], [n, 'y']) + ')'}",
+   "distractors": [
+    {
+     "text": "{bracket(g, [m, 'x²y'], [n, 'xy²'])}",
+     "misconception": "num"
+    },
+    {
+     "text": "{'xy(' + poly([g * m, 'x'], [g * n, 'y']) + ')'}",
+     "misconception": "let"
+    },
+    {
+     "text": "{mono(g, 'x') + '(' + poly([m, 'xy'], [n, 'y²']) + ')'}",
+     "misconception": "half"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "num",
+     "explain": "Not fully factorised: x and y are common to both terms too."
+    },
+    {
+     "id": "let",
+     "explain": "Not fully factorised: {g} is also a common factor."
+    },
+    {
+     "id": "half",
+     "explain": "Not fully factorised: y is also in both terms."
+    }
+   ],
+   "solution": [
+    "Numbers: HCF of {g * m} and {g * n} is {g}. Letters: both terms contain x and y, so xy is common.",
+    "Divide: {mono(g * m, 'x²y')} ÷ {mono(g, 'xy')} = {mono(m, 'x')}; {mono(g * n, 'xy²')} ÷ {mono(g, 'xy')} = {mono(n, 'y')}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "hcf(m, n) == 1",
+    "m != n"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,428 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  7,
+  8
+ ],
+ "skills": [
+  {
+   "id": "m3-10",
+   "name": "Build and solve equations from real-life problems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To solve a word problem with algebra:\n1. Choose a letter for the unknown and say what it means (let x be Bih's age in years).\n2. Write every other quantity in terms of it (her brother: x + 3).\n3. Use the fact in the problem to write an equation (x + x + 3 = 25).\n4. Solve it, and answer the question in words with units.\n5. Check the answer makes sense (an age cannot be negative, a price is in FCFA).\nTwo unknowns need two facts: write two equations and solve them simultaneously.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "From words to algebra",
+    "text": "Many everyday problems hide an equation. The skill is to translate the words.\n• \"{3} more than x\" is x + {3}; \"{3} less than x\" is x − {3}.\n• \"twice x\" is {mono(2, 'x')}; \"half of x\" is x ÷ {2}.\n• \"together\" or \"in total\" means add; \"is\" or \"equals\" gives the equals sign.\nStart by writing \"Let x be …\" with the quantity and its unit. It keeps your work clear and earns marks in exams."
+   },
+   {
+    "heading": "A worked story",
+    "text": "Ngozi and Tabe share {5000} FCFA. Tabe gets {1000} FCFA more than Ngozi. How much does Ngozi get?\nLet Ngozi's share be x FCFA. Tabe's is x + {1000}.\nTogether: x + x + {1000} = {5000}, so {mono(2, 'x')} = {4000} and x = {2000}.\nNgozi gets {2000} FCFA and Tabe {3000} FCFA. Check: {2000} + {3000} = {5000}. ✓"
+   },
+   {
+    "heading": "Two unknowns",
+    "text": "When two quantities are unknown, such as the price of a pen and of a book, give each a letter and look for two facts.\n{2} pens and {1} book cost {700} FCFA; {1} pen and {1} book cost {500} FCFA.\n{poly([2, 'x'], [1, 'y'])} = {700} and {poly([1, 'x'], [1, 'y'])} = {500}. Subtract: x = {200}, so y = {300}.\nA pen costs {200} FCFA and a book {300} FCFA."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "unknown",
+    "meaning": "the quantity you are looking for, given a letter"
+   },
+   {
+    "word": "consecutive",
+    "meaning": "following one after another: {5}, {6}, {7}"
+   },
+   {
+    "word": "perimeter",
+    "meaning": "the distance all the way round a shape"
+   }
+  ],
+  "examples": [
+   "Two consecutive numbers add to {41}: x + x + {1} = {41}, x = {20}",
+   "A number doubled plus {7} is {31}: {mono(2, 'x')} + {7} = {31}, x = {12}"
+  ],
+  "mistake": {
+   "wrong": "\"{4} less than x\" written as {4} − x",
+   "right": "\"{4} less than x\" is x − {4}",
+   "why": "Start from x and take {4} away. {4} − x is a different number (try x = {10}: {6} or {-6})."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "w": 6,
+   "k": 4
+  },
+  "problem": "A rectangular garden in Buea is {k} m longer than it is wide. Its perimeter is {4 * w + 2 * k} m. Find its width.",
+  "steps": [
+   "Let the width be x m. Then the length is (x + {k}) m.",
+   "Perimeter: {2}(x + x + {k}) = {4 * w + 2 * k}, so {poly([4, 'x'], [2 * k, ''])} = {4 * w + 2 * k}.",
+   "{mono(4, 'x')} = {4 * w}, so x = {w}.",
+   "Check: width {w} m, length {w + k} m, perimeter {2} × ({w} + {w + k}) = {4 * w + 2 * k} m. ✓"
+  ],
+  "answer": "The width is {w} m.",
+  "checks": [
+   "w == 6"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m10-1",
+    "status": "draft",
+    "idea": "Say what the letter stands for, then write the other quantities with it.",
+    "vars": {},
+    "example": [
+     "Let x be Bih's age. Her brother is {3} years older: x + {3}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-10-model"
+    }
+   },
+   {
+    "id": "c3m10-2",
+    "status": "draft",
+    "idea": "The fact in the problem becomes the equation.",
+    "vars": {},
+    "example": [
+     "Together they are {25}: x + x + {3} = {25}, so x = {11}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-10-consec"
+    }
+   },
+   {
+    "id": "c3m10-3",
+    "status": "draft",
+    "idea": "Answer in words, with units, and check it makes sense.",
+    "vars": {},
+    "example": [
+     "Bih is {11} years old and her brother {14}: {11} + {14} = {25}. ✓"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-10-rect-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "word-problems"
+     ],
+     "vars": {
+      "w": {
+       "int": [
+        3,
+        15
+       ]
+      },
+      "k": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "prompt": "A rectangular classroom floor is {k} m longer than it is wide. Its perimeter is {4 * w + 2 * k} m. What is its width in metres?",
+     "answer": "w",
+     "misconceptions": [
+      {
+       "id": "len",
+       "wrong": "w + k",
+       "explain": "{w + k} m is the length. The question asks for the width."
+      },
+      {
+       "id": "half",
+       "wrong": "(4 * w + 2 * k - k) / 2",
+       "explain": "The perimeter goes round all four sides: {2}(x + x + {k})."
+      }
+     ],
+     "solution": [
+      "Let the width be x m; the length is (x + {k}) m.",
+      "{2}(x + x + {k}) = {4 * w + 2 * k} → {mono(4, 'x')} + {2 * k} = {4 * w + 2 * k} → x = {answer}."
+     ],
+     "unit": "m",
+     "where": [
+      "(4 * w + 2 * k - k) / 2 != w"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-10-model",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "word-problems"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "x0": {
+     "int": [
+      8,
+      16
+     ]
+    }
+   },
+   "prompt": "Bih is x years old. Her brother is {d} years older. Together their ages add up to {2 * x0 + d}. Which equation is right?",
+   "correct": "{'x + (x + ' + d + ') = ' + (2 * x0 + d)}",
+   "distractors": [
+    {
+     "text": "{'x + ' + d + ' = ' + (2 * x0 + d)}",
+     "misconception": "one"
+    },
+    {
+     "text": "{'x(x + ' + d + ') = ' + (2 * x0 + d)}",
+     "misconception": "times"
+    },
+    {
+     "text": "{'x + (x − ' + d + ') = ' + (2 * x0 + d)}",
+     "misconception": "minus"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "one",
+     "explain": "x + {d} is only the brother's age. Add Bih's age x too."
+    },
+    {
+     "id": "times",
+     "explain": "\"Together\" means add the ages, not multiply them."
+    },
+    {
+     "id": "minus",
+     "explain": "Older means more years: the brother's age is x + {d}."
+    }
+   ],
+   "solution": [
+    "Bih: x. Her brother is {d} years older: x + {d}.",
+    "Together: {answer}."
+   ]
+  },
+  {
+   "id": "m3-10-consec",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "word-problems"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      5,
+      60
+     ]
+    }
+   },
+   "prompt": "Three consecutive whole numbers add up to {3 * n + 3}. What is the smallest?",
+   "answer": "n",
+   "misconceptions": [
+    {
+     "id": "mid",
+     "wrong": "n + 1",
+     "explain": "{n + 1} is the middle number. The smallest is {n}."
+    },
+    {
+     "id": "third",
+     "wrong": "n + 2",
+     "explain": "{n + 2} is the largest of the three numbers."
+    }
+   ],
+   "solution": [
+    "Let the smallest be x. The numbers are x, x + {1}, x + {2}.",
+    "{mono(3, 'x')} + {3} = {3 * n + 3}, so x = {answer}."
+   ]
+  },
+  {
+   "id": "m3-10-rect",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "word-problems"
+   ],
+   "vars": {
+    "w": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "A rectangular classroom floor is {k} m longer than it is wide. Its perimeter is {4 * w + 2 * k} m. What is its width in metres?",
+   "answer": "w",
+   "misconceptions": [
+    {
+     "id": "len",
+     "wrong": "w + k",
+     "explain": "{w + k} m is the length. The question asks for the width."
+    },
+    {
+     "id": "half",
+     "wrong": "(4 * w + 2 * k - k) / 2",
+     "explain": "The perimeter goes round all four sides: {2}(x + x + {k})."
+    }
+   ],
+   "solution": [
+    "Let the width be x m; the length is (x + {k}) m.",
+    "{2}(x + x + {k}) = {4 * w + 2 * k} → {mono(4, 'x')} + {2 * k} = {4 * w + 2 * k} → x = {answer}."
+   ],
+   "unit": "m",
+   "where": [
+    "(4 * w + 2 * k - k) / 2 != w"
+   ]
+  },
+  {
+   "id": "m3-10-shop",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "word-problems"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "p": {
+     "int": [
+      100,
+      400
+     ],
+     "step": 50
+    },
+    "q": {
+     "int": [
+      150,
+      600
+     ],
+     "step": 50
+    }
+   },
+   "prompt": "At Mile 17 market, {a} pens and {b} exercise books cost {a * p + b * q} FCFA. {c} pens and {d} exercise books cost {c * p + d * q} FCFA. What does one exercise book cost (FCFA)?",
+   "answer": "q",
+   "misconceptions": [
+    {
+     "id": "pen",
+     "wrong": "p",
+     "explain": "That is the price of a pen. The question asks for an exercise book."
+    }
+   ],
+   "solution": [
+    "Let a pen cost x FCFA and a book y FCFA: {poly([a, 'x'], [b, 'y'])} = {a * p + b * q} and {poly([c, 'x'], [d, 'y'])} = {c * p + d * q}.",
+    "Eliminate x: multiply the first by {c} and the second by {a}, then subtract: {mono(b * c - a * d, 'y')} = {c * (a * p + b * q) - a * (c * p + d * q)}.",
+    "y = {answer} FCFA."
+   ],
+   "where": [
+    "a * d != b * c",
+    "p != q"
+   ]
+  },
+  {
+   "id": "m3-10-age",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "word-problems"
+   ],
+   "vars": {
+    "s": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "m": {
+     "int": [
+      3,
+      7
+     ]
+    },
+    "y": {
+     "int": [
+      2,
+      24
+     ]
+    },
+    "k": {
+     "expr": "(m * s + y) / (s + y)"
+    }
+   },
+   "prompt": "A father is {m} times as old as his son. In {y} years' time he will be {k} times as old as his son. How old is the son now?",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "father",
+     "wrong": "m * s",
+     "explain": "{m * s} is the father's age. The question asks for the son's."
+    },
+    {
+     "id": "future",
+     "wrong": "s + y",
+     "explain": "That is the son's age in {y} years. The question asks for his age now."
+    }
+   ],
+   "solution": [
+    "Let the son be x years old; the father is {mono(m, 'x')}.",
+    "In {y} years: {mono(m, 'x')} + {y} = {k}(x + {y}).",
+    "{poly([m, 'x'], [y, ''])} = {poly([k, 'x'], [k * y, ''])} → {mono(m - k, 'x')} = {k * y - y} → x = {answer}."
+   ],
+   "unit": "years",
+   "where": [
+    "isInt(k)",
+    "k > 1",
+    "k < m"
+   ]
+  }
+ ]
+}

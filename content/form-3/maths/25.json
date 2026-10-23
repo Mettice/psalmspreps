@@ -1,0 +1,609 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m3-25",
+   "name": "Congruent plane figures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Two figures are congruent if they have exactly the same shape and the same size: one fits exactly on top of the other.\n• Corresponding sides are equal and corresponding angles are equal.\n• We write ΔABC ≅ ΔPQR. The order of the letters shows which vertices correspond: A ↔ P, B ↔ Q, C ↔ R, so AB = PQ, BC = QR, CA = RP.\n• Translations, rotations and reflections give congruent images; an enlargement (scale factor not 1) does not.\n• Similar figures have the same shape but may differ in size.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Same shape, same size",
+    "text": "Two figures are congruent if one can be placed exactly on top of the other. Their corresponding sides are equal and their corresponding angles are equal.\nTwo {500} FCFA coins are congruent. A large and a small photo of the same picture are not: they have the same shape but different sizes. Those are similar."
+   },
+   {
+    "heading": "Naming the matching parts",
+    "text": "When we write ΔABC ≅ ΔPQR, the order of the letters tells us which vertices match: A ↔ P, B ↔ Q, C ↔ R.\nSo AB = PQ, BC = QR and CA = RP, and angle A = angle P, angle B = angle Q, angle C = angle R.\nAlways match the letters in order; do not just look at the picture."
+   },
+   {
+    "heading": "Moving without changing",
+    "text": "Translation (sliding), rotation (turning) and reflection (flipping) move a figure without changing its lengths or angles, so the image is congruent to the object.\nAn enlargement with a scale factor other than {1} changes the size: the image is similar, not congruent."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "congruent",
+    "meaning": "same shape and same size (≅)"
+   },
+   {
+    "word": "corresponding",
+    "meaning": "in the matching position"
+   },
+   {
+    "word": "similar",
+    "meaning": "same shape, possibly a different size"
+   }
+  ],
+  "examples": [
+   "ΔABC ≅ ΔDEF: AB = DE, angle C = angle F",
+   "A reflected triangle is congruent to the original."
+  ],
+  "mistake": {
+   "wrong": "ΔABC ≅ ΔPQR, so BC = PR",
+   "right": "BC = QR",
+   "why": "Match the letters in order: B ↔ Q and C ↔ R."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 5,
+   "q": 7,
+   "r": 6,
+   "x": 48,
+   "y": 70
+  },
+  "problem": "ΔABC ≅ ΔPQR. AB = {p} cm, BC = {q} cm, CA = {r} cm, angle A = {x}° and angle B = {y}°. Find QR and angle R.",
+  "steps": [
+   "The letters match in order: A ↔ P, B ↔ Q, C ↔ R.",
+   "QR corresponds to BC, so QR = {q} cm.",
+   "Angle R corresponds to angle C = {180} − {x} − {y} = {180 - x - y}°."
+  ],
+  "answer": "QR = {q} cm, angle R = {180 - x - y}°",
+  "checks": [
+   "180 - x - y == 62"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m25-1",
+    "status": "draft",
+    "idea": "Congruent figures have the same shape and the same size.",
+    "vars": {},
+    "example": [
+     "Two copies of the same exercise book cover are congruent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-25-def"
+    }
+   },
+   {
+    "id": "c3m25-2",
+    "status": "draft",
+    "idea": "In ΔABC ≅ ΔPQR the letters match in order: AB = PQ, BC = QR, CA = RP.",
+    "vars": {},
+    "example": [
+     "Angle B = angle Q."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-25-side"
+    }
+   },
+   {
+    "id": "c3m25-3",
+    "status": "draft",
+    "idea": "Translations, rotations and reflections keep the size: the image is congruent.",
+    "vars": {},
+    "example": [
+     "An enlargement changes the size: the image is only similar."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-25-move-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "congruence"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which transformation always gives an image congruent to the object?",
+         "r": "A rotation",
+         "w": [
+          "An enlargement with scale factor 2",
+          "An enlargement with scale factor ½",
+          "A stretch in one direction"
+         ],
+         "e": [
+          "Scale factor 2 doubles the lengths: similar, not congruent.",
+          "Scale factor ½ halves the lengths.",
+          "A stretch changes the shape."
+         ],
+         "y": "Rotations keep lengths and angles."
+        },
+        {
+         "q": "A triangle is reflected in a line. The image is…",
+         "r": "congruent to the triangle",
+         "w": [
+          "larger than the triangle",
+          "similar but smaller",
+          "a different shape"
+         ],
+         "e": [
+          "A reflection keeps every length.",
+          "A reflection keeps the size.",
+          "A reflection keeps the shape."
+         ],
+         "y": "Reflections keep lengths and angles: the image is congruent."
+        },
+        {
+         "q": "Which of these does NOT give a congruent image?",
+         "r": "An enlargement with scale factor 3",
+         "w": [
+          "A translation",
+          "A rotation of 90°",
+          "A reflection"
+         ],
+         "e": [
+          "A translation slides the shape without changing it.",
+          "A rotation turns the shape without changing it.",
+          "A reflection flips the shape without changing its size."
+         ],
+         "y": "An enlargement changes the size."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-25-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "congruence"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does it mean for two figures to be congruent?",
+       "r": "Same shape and same size",
+       "w": [
+        "Same shape, possibly a different size",
+        "Same area only",
+        "Same perimeter only"
+       ],
+       "e": [
+        "That describes similar figures.",
+        "Different shapes can have the same area.",
+        "Different shapes can have the same perimeter."
+       ],
+       "y": "Congruent figures fit exactly on top of each other."
+      },
+      {
+       "q": "Two triangles have the same angles but one is twice as big. They are…",
+       "r": "similar, not congruent",
+       "w": [
+        "congruent",
+        "neither similar nor congruent",
+        "congruent and similar"
+       ],
+       "e": [
+        "Congruent figures must also be the same size.",
+        "Equal angles make them similar.",
+        "Different sizes: not congruent."
+       ],
+       "y": "Same shape, different size: similar."
+      },
+      {
+       "q": "Which pair is always congruent?",
+       "r": "Two squares with sides of 5 cm",
+       "w": [
+        "Two squares",
+        "Two rectangles with the same area",
+        "Two triangles with the same angles"
+       ],
+       "e": [
+        "Squares of different sizes are only similar.",
+        "A 2 × 8 and a 4 × 4 rectangle have the same area but different shapes.",
+        "Equal angles give similar triangles; they can differ in size."
+       ],
+       "y": "Same shape and the same side length: congruent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-25-side",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "congruence"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "q": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "r": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "n": "PQ",
+       "m": "AB",
+       "v": "p"
+      },
+      {
+       "n": "QR",
+       "m": "BC",
+       "v": "q"
+      },
+      {
+       "n": "RP",
+       "m": "CA",
+       "v": "r"
+      }
+     ]
+    }
+   },
+   "prompt": "ΔABC ≅ ΔPQR. AB = {p} cm, BC = {q} cm and CA = {r} cm. Find {X.n}.",
+   "answer": "X.v == 'p' ? p : X.v == 'q' ? q : r",
+   "misconceptions": [
+    {
+     "id": "next",
+     "wrong": "X.v == 'p' ? q : X.v == 'q' ? r : p",
+     "explain": "Match the letters in order: {X.n} goes with {X.m}."
+    }
+   ],
+   "solution": [
+    "The letters match in order: A ↔ P, B ↔ Q, C ↔ R.",
+    "{X.n} corresponds to {X.m}, so {X.n} = {answer} cm."
+   ],
+   "unit": "cm",
+   "where": [
+    "p != q && q != r && p != r",
+    "p + q > r && q + r > p && p + r > q"
+   ]
+  },
+  {
+   "id": "m3-25-angle",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "congruence"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      30,
+      80
+     ]
+    },
+    "y": {
+     "int": [
+      30,
+      80
+     ]
+    }
+   },
+   "prompt": "ΔABC ≅ ΔDEF. Angle A = {x}° and angle B = {y}°. Find angle F.",
+   "answer": "180 - x - y",
+   "misconceptions": [
+    {
+     "id": "a",
+     "wrong": "x",
+     "explain": "F matches C, not A: the third letters correspond."
+    },
+    {
+     "id": "b",
+     "wrong": "y",
+     "explain": "F matches C, not B."
+    }
+   ],
+   "solution": [
+    "F corresponds to C.",
+    "Angle C = {180} − {x} − {y} = {answer}°, so angle F = {answer}°."
+   ],
+   "unit": "°",
+   "where": [
+    "x != y",
+    "180 - x - y != x && 180 - x - y != y"
+   ]
+  },
+  {
+   "id": "m3-25-move",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "congruence"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which transformation always gives an image congruent to the object?",
+       "r": "A rotation",
+       "w": [
+        "An enlargement with scale factor 2",
+        "An enlargement with scale factor ½",
+        "A stretch in one direction"
+       ],
+       "e": [
+        "Scale factor 2 doubles the lengths: similar, not congruent.",
+        "Scale factor ½ halves the lengths.",
+        "A stretch changes the shape."
+       ],
+       "y": "Rotations keep lengths and angles."
+      },
+      {
+       "q": "A triangle is reflected in a line. The image is…",
+       "r": "congruent to the triangle",
+       "w": [
+        "larger than the triangle",
+        "similar but smaller",
+        "a different shape"
+       ],
+       "e": [
+        "A reflection keeps every length.",
+        "A reflection keeps the size.",
+        "A reflection keeps the shape."
+       ],
+       "y": "Reflections keep lengths and angles: the image is congruent."
+      },
+      {
+       "q": "Which of these does NOT give a congruent image?",
+       "r": "An enlargement with scale factor 3",
+       "w": [
+        "A translation",
+        "A rotation of 90°",
+        "A reflection"
+       ],
+       "e": [
+        "A translation slides the shape without changing it.",
+        "A rotation turns the shape without changing it.",
+        "A reflection flips the shape without changing its size."
+       ],
+       "y": "An enlargement changes the size."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-25-match",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "congruence"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "ΔKLM ≅ ΔXYZ. Which side equals LM?",
+       "r": "YZ",
+       "w": [
+        "XY",
+        "XZ",
+        "LZ"
+       ],
+       "e": [
+        "XY matches KL.",
+        "XZ matches KM.",
+        "Sides are named within one triangle."
+       ],
+       "y": "L ↔ Y and M ↔ Z, so LM = YZ."
+      },
+      {
+       "q": "ΔABC ≅ ΔRTS. Which angle equals angle C?",
+       "r": "Angle S",
+       "w": [
+        "Angle T",
+        "Angle R",
+        "Angle C is not matched"
+       ],
+       "e": [
+        "T matches B.",
+        "R matches A.",
+        "Every angle has a partner."
+       ],
+       "y": "The third letters correspond: C ↔ S."
+      },
+      {
+       "q": "ΔPQR ≅ ΔMNO. Which side equals RP?",
+       "r": "OM",
+       "w": [
+        "MN",
+        "NO",
+        "PO"
+       ],
+       "e": [
+        "MN matches PQ.",
+        "NO matches QR.",
+        "Sides are named within one triangle."
+       ],
+       "y": "R ↔ O and P ↔ M, so RP = OM."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

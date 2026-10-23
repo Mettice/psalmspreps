@@ -1,0 +1,441 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "a3-10",
+   "name": "Accounting for transactions with trade bills"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A trade bill (effet de commerce), such as a bill of exchange or a promissory note, is a written promise or order to pay a sum on a fixed date (maturity).\nSeller (drawer) who draws a bill on a customer:\n• Bill accepted: debit 412 Customers, bills receivable; credit 411 Customers.\n• Bill paid at maturity: debit 521 Bank; credit 412.\nBuyer who accepts a bill: debit 401 Suppliers; credit 402 Suppliers, bills payable. Paying it at maturity: debit 402; credit 521 Bank.\nAdvantages: a clear date and legal proof of the debt; the seller can get cash earlier by discounting the bill at a bank.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Paying later, in writing",
+    "text": "When a customer cannot pay at once, the seller may ask for a trade bill (effet de commerce): a document in which the customer promises, or is ordered, to pay a sum on a fixed date, the maturity date.\nBills of exchange and promissory notes are common trade bills. They give legal proof of the debt and a clear payment date."
+   },
+   {
+    "heading": "The seller's entries",
+    "text": "• When the customer accepts the bill, the debt changes form: debit {'412 Customers, bills receivable'}, credit {'411 Customers'}.\n• At maturity, when the bill is paid: debit {'521 Bank'}, credit {'412'}.\nIf the seller needs cash before maturity, it can discount the bill at a bank and receive the amount less interest."
+   },
+   {
+    "heading": "The buyer's entries",
+    "text": "• Accepting a bill drawn by a supplier: debit {'401 Suppliers'}, credit {'402 Suppliers, bills payable'}.\n• Paying it at maturity: debit {'402'}, credit {'521 Bank'}.\nEach side moves the debt from the ordinary account ({'411'} or {'401'}) to the bills account ({'412'} or {'402'})."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "trade bill",
+    "meaning": "a written promise or order to pay on a fixed date"
+   },
+   {
+    "word": "maturity",
+    "meaning": "the date payment is due"
+   },
+   {
+    "word": "bills receivable",
+    "meaning": "account {'412'}: bills the business will collect"
+   },
+   {
+    "word": "bills payable",
+    "meaning": "account {'402'}: bills the business must pay"
+   }
+  ],
+  "examples": [
+   "{'Dr 412 / Cr 411'} (seller: bill accepted)",
+   "{'Dr 521 / Cr 412'} (seller: bill paid)",
+   "{'Dr 401 / Cr 402'} (buyer: bill accepted)"
+  ],
+  "mistake": {
+   "wrong": "The seller records a new sale when the bill is accepted",
+   "right": "Accepting a bill only changes the form of the existing debt: Dr {'412'} / Cr {'411'}",
+   "why": "The sale was recorded earlier; the bill is just a new way of owing."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 400000
+  },
+  "problem": "A customer owes {t} FCFA and accepts a bill of exchange for this amount, due in {60} days. Give the seller's entries now and at maturity.",
+  "steps": [
+   "Bill accepted: debit {'412 Customers, bills receivable'} {t}; credit {'411 Customers'} {t}.",
+   "At maturity, when paid: debit {'521 Bank'} {t}; credit {'412'} {t}."
+  ],
+  "answer": "Dr {'412'} / Cr {'411'}, then Dr {'521'} / Cr {'412'}",
+  "checks": [
+   "t == 400000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a10-1",
+    "status": "draft",
+    "idea": "A trade bill is a written promise or order to pay on a fixed date.",
+    "vars": {},
+    "example": [
+     "A bill of exchange due in {90} days"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-10-def"
+    }
+   },
+   {
+    "id": "c3a10-2",
+    "status": "draft",
+    "idea": "The seller moves the debt from {'411'} to {'412'} Bills receivable.",
+    "vars": {},
+    "example": [
+     "{'Dr 412 / Cr 411'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-10-entry"
+    }
+   },
+   {
+    "id": "c3a10-3",
+    "status": "draft",
+    "idea": "The buyer moves the debt from {'401'} to {'402'} Bills payable.",
+    "vars": {},
+    "example": [
+     "{'Dr 401 / Cr 402'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-10-bal-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada-transactions"
+     ],
+     "vars": {
+      "o": {
+       "int": [
+        100000,
+        600000
+       ],
+       "step": 50000
+      },
+      "a": {
+       "int": [
+        100000,
+        500000
+       ],
+       "step": 50000
+      },
+      "p": {
+       "int": [
+        100000,
+        400000
+       ],
+       "step": 50000
+      }
+     },
+     "prompt": "At the start of the month, {'412'} Bills receivable has a balance of {o} FCFA. Bills of {a} FCFA are accepted by customers and bills of {p} FCFA are paid. What is the closing balance (FCFA)?",
+     "answer": "o + a - p",
+     "misconceptions": [
+      {
+       "id": "swap",
+       "wrong": "o - a + p",
+       "explain": "Accepted bills increase the balance; paid bills decrease it."
+      }
+     ],
+     "solution": [
+      "New bills increase {'412'}: {o} + {a} = {o + a}.",
+      "Bills paid decrease it: {o + a} − {p} = {answer} FCFA."
+     ],
+     "unit": "FCFA",
+     "where": [
+      "o + a - p > 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-10-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a trade bill?",
+       "r": "A written promise or order to pay a sum on a fixed date",
+       "w": [
+        "A receipt for cash already paid",
+        "A list of prices",
+        "A bank statement"
+       ],
+       "e": [
+        "It is about a future payment.",
+        "Not a price list.",
+        "Not a bank statement."
+       ],
+       "y": "Bills of exchange and promissory notes are trade bills."
+      },
+      {
+       "q": "What is the maturity date of a bill?",
+       "r": "the date on which it must be paid",
+       "w": [
+        "the date it was printed",
+        "the date the goods were made",
+        "the owner's birthday"
+       ],
+       "e": [
+        "Printing date is not relevant.",
+        "Not related.",
+        "Not related."
+       ],
+       "y": "The bill is payable on its due date."
+      },
+      {
+       "q": "Which is an advantage of a trade bill for the seller?",
+       "r": "It is legal proof of the debt and can be discounted at a bank for cash",
+       "w": [
+        "The customer never has to pay",
+        "It removes VAT",
+        "It is a sale of the business"
+       ],
+       "e": [
+        "The customer must pay at maturity.",
+        "VAT is not affected.",
+        "Not related."
+       ],
+       "y": "It gives security and access to cash."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-10-entry",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "SELLER: a customer accepts a bill of 300 000 FCFA for what he owes.",
+       "r": "Dr 412 Customers, bills receivable / Cr 411 Customers",
+       "w": [
+        "Dr 411 / Cr 412",
+        "Dr 521 Bank / Cr 411",
+        "Dr 401 / Cr 402"
+       ],
+       "e": [
+        "Reversed.",
+        "No money has been received yet.",
+        "Those are the buyer's accounts."
+       ],
+       "y": "The debt becomes a bill receivable."
+      },
+      {
+       "q": "SELLER: the bill of 300 000 FCFA is paid at maturity into the bank.",
+       "r": "Dr 521 Bank / Cr 412 Customers, bills receivable",
+       "w": [
+        "Dr 412 / Cr 521",
+        "Dr 521 / Cr 411",
+        "Dr 521 / Cr 701 Sales"
+       ],
+       "e": [
+        "Reversed.",
+        "The debt was already moved to 412.",
+        "Not a new sale."
+       ],
+       "y": "The bill receivable is settled."
+      },
+      {
+       "q": "BUYER: the business accepts a bill of 250 000 FCFA drawn by its supplier.",
+       "r": "Dr 401 Suppliers / Cr 402 Suppliers, bills payable",
+       "w": [
+        "Dr 402 / Cr 401",
+        "Dr 401 / Cr 521 Bank",
+        "Dr 412 / Cr 411"
+       ],
+       "e": [
+        "Reversed.",
+        "Nothing is paid yet.",
+        "Those are the seller's accounts."
+       ],
+       "y": "The debt becomes a bill payable."
+      }
+     ]
+    }
+   },
+   "prompt": "Which entry records this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-10-bal",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "o": {
+     "int": [
+      100000,
+      600000
+     ],
+     "step": 50000
+    },
+    "a": {
+     "int": [
+      100000,
+      500000
+     ],
+     "step": 50000
+    },
+    "p": {
+     "int": [
+      100000,
+      400000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "At the start of the month, {'412'} Bills receivable has a balance of {o} FCFA. Bills of {a} FCFA are accepted by customers and bills of {p} FCFA are paid. What is the closing balance (FCFA)?",
+   "answer": "o + a - p",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "o - a + p",
+     "explain": "Accepted bills increase the balance; paid bills decrease it."
+    }
+   ],
+   "solution": [
+    "New bills increase {'412'}: {o} + {a} = {o + a}.",
+    "Bills paid decrease it: {o + a} − {p} = {answer} FCFA."
+   ],
+   "unit": "FCFA",
+   "where": [
+    "o + a - p > 0"
+   ]
+  },
+  {
+   "id": "a3-10-days",
+   "type": "numeric",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      30,
+      45,
+      60,
+      90
+     ]
+    }
+   },
+   "prompt": "A bill dated 1 March (non-leap year) is payable {n} days later. Counting 1 January as day 1, what is the day number of its due date?",
+   "answer": "60 + n",
+   "misconceptions": [
+    {
+     "id": "nojan",
+     "wrong": "n",
+     "explain": "Count the days in January and February too: {1} March is day {60}."
+    }
+   ],
+   "solution": [
+    "1 March is day {60} of a non-leap year ({31} + {28} + {1}).",
+    "Due date = day {60} + {n} = day {answer}."
+   ]
+  }
+ ]
+}

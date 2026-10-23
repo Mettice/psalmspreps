@@ -1,0 +1,496 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "k3-3",
+   "name": "Characteristics of protons, neutrons and electrons"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Particle — relative mass — relative charge — where:\n• proton — 1 — +1 — nucleus\n• neutron — 1 — 0 — nucleus\n• electron — 1/1840 (almost 0) — −1 — shells\nIons: an atom that loses electrons becomes a positive ion (Na → Na⁺); one that gains electrons becomes a negative ion (Cl → Cl⁻).\nElectrons in an ion = protons − charge: Na⁺ has 11 − 1 = 10 electrons; Cl⁻ has 17 + 1 = 18.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Comparing the particles",
+    "text": "• Proton: relative mass {1}, charge +{1}, in the nucleus.\n• Neutron: relative mass {1}, charge {0}, in the nucleus.\n• Electron: relative mass about {1} ÷ {1840}, charge −{1}, in the shells.\nBecause electrons are so light, the mass of an atom is practically the mass of its protons and neutrons."
+   },
+   {
+    "heading": "Ions",
+    "text": "Atoms can lose or gain electrons in chemical reactions, but never protons. Then the charges no longer balance and the particle is an ion.\n• Lose electrons → more protons than electrons → positive ion. Sodium loses {1}: Na⁺.\n• Gain electrons → more electrons than protons → negative ion. Chlorine gains {1}: Cl⁻.\nMetals usually form positive ions; non-metals form negative ions."
+   },
+   {
+    "heading": "Counting electrons in an ion",
+    "text": "Electrons = protons − charge.\n• Na⁺: {11} − {1} = {10} electrons.\n• Mg²⁺: {12} − {2} = {10}.\n• O²⁻: {8} + {2} = {10}.\nInteresting: these ions all have {10} electrons, like the noble gas neon. You will see why in the lessons on bonding."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "relative mass",
+    "meaning": "mass compared with a proton (proton = {1})"
+   },
+   {
+    "word": "ion",
+    "meaning": "a charged particle formed when an atom loses or gains electrons"
+   },
+   {
+    "word": "cation",
+    "meaning": "a positive ion"
+   },
+   {
+    "word": "anion",
+    "meaning": "a negative ion"
+   }
+  ],
+  "examples": [
+   "K⁺: {19} protons, {18} electrons",
+   "F⁻: {9} protons, {10} electrons",
+   "Al³⁺: {13} protons, {10} electrons"
+  ],
+  "mistake": {
+   "wrong": "Na⁺ has {12} electrons because it is positive",
+   "right": "Na⁺ has {10} electrons: it lost one",
+   "why": "A positive charge means electrons were lost, so there are fewer of them."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "X": "Mg",
+   "q": 2
+  },
+  "problem": "How many protons and electrons are in a magnesium ion, Mg²⁺ (atomic number {atomicNumber(X)})?",
+  "steps": [
+   "Protons = atomic number = {atomicNumber(X)} (the nucleus does not change).",
+   "The ion has lost {q} electrons: {atomicNumber(X)} − {q} = {atomicNumber(X) - q} electrons."
+  ],
+  "answer": "{atomicNumber(X)} protons, {atomicNumber(X) - q} electrons",
+  "checks": [
+   "atomicNumber(X) - q == 10"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k3-1",
+    "status": "draft",
+    "idea": "Proton: mass {1}, charge +{1}. Neutron: mass {1}, charge {0}. Electron: mass almost {0}, charge −{1}.",
+    "vars": {},
+    "example": [
+     "The electron is about {1840} times lighter than a proton."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-3-table"
+    }
+   },
+   {
+    "id": "c3k3-2",
+    "status": "draft",
+    "idea": "A positive ion has lost electrons; a negative ion has gained them.",
+    "vars": {},
+    "example": [
+     "Na⁺: {11} protons, {10} electrons"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-3-ion"
+    }
+   },
+   {
+    "id": "c3k3-3",
+    "status": "draft",
+    "idea": "The number of protons never changes when an ion forms.",
+    "vars": {},
+    "example": [
+     "Cl⁻ still has {17} protons."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-3-p-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "atoms"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Na⁺",
+         "e": "Na",
+         "q": 1
+        },
+        {
+         "s": "Mg²⁺",
+         "e": "Mg",
+         "q": 2
+        },
+        {
+         "s": "Cl⁻",
+         "e": "Cl",
+         "q": -1
+        },
+        {
+         "s": "O²⁻",
+         "e": "O",
+         "q": -2
+        },
+        {
+         "s": "Al³⁺",
+         "e": "Al",
+         "q": 3
+        }
+       ]
+      }
+     },
+     "prompt": "How many protons are in the ion {X.s}? (atomic number {atomicNumber(X.e)})",
+     "answer": "atomicNumber(X.e)",
+     "misconceptions": [
+      {
+       "id": "e",
+       "wrong": "atomicNumber(X.e) - X.q",
+       "explain": "That is the number of electrons. Protons do not change."
+      }
+     ],
+     "solution": [
+      "Forming an ion changes only the electrons.",
+      "Protons = atomic number = {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-3-table",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the relative charge of a neutron?",
+       "r": "0",
+       "w": [
+        "+1",
+        "−1",
+        "+2"
+       ],
+       "e": [
+        "+1 is the proton.",
+        "−1 is the electron.",
+        "No subatomic particle has +2."
+       ],
+       "y": "Neutrons are neutral."
+      },
+      {
+       "q": "Which particle has a relative mass of about 1/1840?",
+       "r": "the electron",
+       "w": [
+        "the proton",
+        "the neutron",
+        "the nucleus"
+       ],
+       "e": [
+        "A proton has relative mass 1.",
+        "A neutron has relative mass 1.",
+        "The nucleus is the heaviest part."
+       ],
+       "y": "Electrons are about 1840 times lighter than protons."
+      },
+      {
+       "q": "What is the relative charge of a proton?",
+       "r": "+1",
+       "w": [
+        "−1",
+        "0",
+        "+1840"
+       ],
+       "e": [
+        "−1 is the electron.",
+        "0 is the neutron.",
+        "1840 compares masses, not charges."
+       ],
+       "y": "Protons carry one positive charge each."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-3-ion",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Na⁺",
+       "e": "Na",
+       "q": 1
+      },
+      {
+       "s": "Mg²⁺",
+       "e": "Mg",
+       "q": 2
+      },
+      {
+       "s": "Al³⁺",
+       "e": "Al",
+       "q": 3
+      },
+      {
+       "s": "Cl⁻",
+       "e": "Cl",
+       "q": -1
+      },
+      {
+       "s": "O²⁻",
+       "e": "O",
+       "q": -2
+      },
+      {
+       "s": "K⁺",
+       "e": "K",
+       "q": 1
+      },
+      {
+       "s": "Ca²⁺",
+       "e": "Ca",
+       "q": 2
+      },
+      {
+       "s": "F⁻",
+       "e": "F",
+       "q": -1
+      },
+      {
+       "s": "S²⁻",
+       "e": "S",
+       "q": -2
+      }
+     ]
+    }
+   },
+   "prompt": "How many electrons are in the ion {X.s} (atomic number {atomicNumber(X.e)})?",
+   "answer": "atomicNumber(X.e) - X.q",
+   "misconceptions": [
+    {
+     "id": "atom",
+     "wrong": "atomicNumber(X.e)",
+     "explain": "That is the neutral atom. The ion has {X.q > 0 ? 'lost' : 'gained'} {abs(X.q)} electron(s)."
+    },
+    {
+     "id": "sign",
+     "wrong": "atomicNumber(X.e) + X.q",
+     "explain": "{X.q > 0 ? 'A positive ion has fewer electrons than protons.' : 'A negative ion has more electrons than protons.'}"
+    }
+   ],
+   "solution": [
+    "Protons = {atomicNumber(X.e)}.",
+    "{X.q > 0 ? 'Lost ' + X.q : 'Gained ' + (0 - X.q)} electron(s): {atomicNumber(X.e)} {X.q > 0 ? '−' : '+'} {abs(X.q)} = {answer}."
+   ]
+  },
+  {
+   "id": "k3-3-p",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Na⁺",
+       "e": "Na",
+       "q": 1
+      },
+      {
+       "s": "Mg²⁺",
+       "e": "Mg",
+       "q": 2
+      },
+      {
+       "s": "Cl⁻",
+       "e": "Cl",
+       "q": -1
+      },
+      {
+       "s": "O²⁻",
+       "e": "O",
+       "q": -2
+      },
+      {
+       "s": "Al³⁺",
+       "e": "Al",
+       "q": 3
+      }
+     ]
+    }
+   },
+   "prompt": "How many protons are in the ion {X.s}? (atomic number {atomicNumber(X.e)})",
+   "answer": "atomicNumber(X.e)",
+   "misconceptions": [
+    {
+     "id": "e",
+     "wrong": "atomicNumber(X.e) - X.q",
+     "explain": "That is the number of electrons. Protons do not change."
+    }
+   ],
+   "solution": [
+    "Forming an ion changes only the electrons.",
+    "Protons = atomic number = {answer}."
+   ]
+  },
+  {
+   "id": "k3-3-charge",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An atom loses two electrons. What is the charge of the ion?",
+       "r": "2+",
+       "w": [
+        "2−",
+        "0",
+        "1+"
+       ],
+       "e": [
+        "Losing negative electrons leaves extra positive charge.",
+        "It now has more protons than electrons.",
+        "It lost two, not one."
+       ],
+       "y": "Two more protons than electrons: 2+."
+      },
+      {
+       "q": "An ion has 17 protons and 18 electrons. What is its charge?",
+       "r": "1−",
+       "w": [
+        "1+",
+        "0",
+        "35−"
+       ],
+       "e": [
+        "It has more electrons than protons.",
+        "The numbers are not equal.",
+        "Charge = protons − electrons = −1."
+       ],
+       "y": "One extra electron: 1−."
+      },
+      {
+       "q": "An ion has 12 protons and 10 electrons. What is its charge?",
+       "r": "2+",
+       "w": [
+        "2−",
+        "22+",
+        "0"
+       ],
+       "e": [
+        "It has fewer electrons than protons.",
+        "Charge is the difference, not the sum.",
+        "The numbers are not equal."
+       ],
+       "y": "12 − 10 = 2 more protons: 2+."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

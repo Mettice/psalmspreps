@@ -1,0 +1,540 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "b3-15",
+   "name": "Kingdom Protoctista; Amoeba: structure and mode of life"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Protoctista are mostly single-celled eukaryotes (they have a nucleus). Some are animal-like (Amoeba, Plasmodium), some plant-like with chloroplasts (Spirogyra, Chlamydomonas).\nAmoeba lives in fresh water and mud. Structure: cell membrane, granular cytoplasm, nucleus, food vacuoles, contractile vacuole, pseudopodia ('false feet').\nMode of life:\n• Movement: by pushing out pseudopodia.\n• Feeding: surrounds food with pseudopodia (phagocytosis), forming a food vacuole where it is digested.\n• Gas exchange and excretion: by diffusion through the membrane.\n• Osmoregulation: the contractile vacuole collects excess water and pumps it out.\n• Reproduction: binary fission.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "A kingdom of simple eukaryotes",
+    "text": "Protoctista is a mixed kingdom of mostly single-celled organisms that have a nucleus. Some behave like tiny animals (Amoeba, Paramecium, Plasmodium), others like tiny plants with chloroplasts (Chlamydomonas, Spirogyra).\nThey live in water, damp soil or inside other organisms."
+   },
+   {
+    "heading": "Amoeba: one cell doing everything",
+    "text": "Amoeba lives in ponds and mud. It is a single cell with a flexible membrane, granular cytoplasm and a nucleus.\n• It moves by pushing out pseudopodia ('false feet') and flowing into them.\n• It feeds by surrounding food with pseudopodia, trapping it in a food vacuole, digesting it with enzymes and absorbing the products.\n• Oxygen and carbon dioxide diffuse through the membrane."
+   },
+   {
+    "heading": "Keeping water balance",
+    "text": "Fresh water is more dilute than the amoeba's cytoplasm, so water constantly enters by osmosis. A contractile vacuole collects the extra water and squeezes it out, so the amoeba does not swell and burst.\nWhen conditions are good, the amoeba reproduces by binary fission: the nucleus divides, then the cytoplasm."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "pseudopodium",
+    "meaning": "a temporary 'false foot' of cytoplasm"
+   },
+   {
+    "word": "food vacuole",
+    "meaning": "a vacuole where captured food is digested"
+   },
+   {
+    "word": "contractile vacuole",
+    "meaning": "a vacuole that collects and expels excess water"
+   },
+   {
+    "word": "phagocytosis",
+    "meaning": "engulfing food particles"
+   }
+  ],
+  "examples": [
+   "Amoeba: animal-like protoctist",
+   "Chlamydomonas: plant-like protoctist",
+   "Contractile vacuole: osmoregulation"
+  ],
+  "mistake": {
+   "wrong": "The contractile vacuole digests food",
+   "right": "The contractile vacuole removes excess water; food is digested in food vacuoles",
+   "why": "Each vacuole has its own job."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain why an amoeba in fresh water needs a contractile vacuole.",
+  "steps": [
+   "Pond water is more dilute than the amoeba's cytoplasm.",
+   "Water keeps entering the amoeba by osmosis.",
+   "The contractile vacuole collects the extra water and expels it, so the amoeba does not burst."
+  ],
+  "answer": "To remove water that enters by osmosis, so it does not burst",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b15-1",
+    "status": "draft",
+    "idea": "Protoctists are mostly single-celled organisms with a nucleus.",
+    "vars": {},
+    "example": [
+     "Amoeba, Spirogyra, Plasmodium"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-15-king"
+    }
+   },
+   {
+    "id": "c3b15-2",
+    "status": "draft",
+    "idea": "Amoeba moves and feeds using pseudopodia.",
+    "vars": {},
+    "example": [
+     "Food is enclosed in a food vacuole and digested."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-15-part"
+    }
+   },
+   {
+    "id": "c3b15-3",
+    "status": "draft",
+    "idea": "The contractile vacuole removes excess water.",
+    "vars": {},
+    "example": [
+     "It fills and empties every few seconds."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-15-life-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How does an amoeba obtain oxygen?",
+         "r": "By diffusion through its cell membrane",
+         "w": [
+          "Through lungs",
+          "Through gills",
+          "Through the contractile vacuole"
+         ],
+         "e": [
+          "It is a single cell.",
+          "It is a single cell.",
+          "That removes water."
+         ],
+         "y": "Its large surface area to volume ratio makes diffusion enough."
+        },
+        {
+         "q": "An amoeba is moved into sea water (more concentrated than its cytoplasm). What happens to its contractile vacuole?",
+         "r": "It works less often, because less water enters",
+         "w": [
+          "It works faster",
+          "It bursts",
+          "It turns into a food vacuole"
+         ],
+         "e": [
+          "Less water enters in a concentrated solution.",
+          "Vacuoles do not burst from this.",
+          "They have different jobs."
+         ],
+         "y": "Osmosis brings in less water."
+        },
+        {
+         "q": "How does an amoeba reproduce?",
+         "r": "By binary fission: the nucleus divides, then the cytoplasm",
+         "w": [
+          "By laying eggs",
+          "By spores only",
+          "By budding from a flower"
+         ],
+         "e": [
+          "Amoeba does not lay eggs.",
+          "It mainly uses binary fission.",
+          "It has no flowers."
+         ],
+         "y": "One cell becomes two identical cells."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-15-king",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which feature do all protoctists have?",
+       "r": "cells with a true nucleus",
+       "w": [
+        "chloroplasts",
+        "many cells",
+        "a cell wall of chitin"
+       ],
+       "e": [
+        "Only plant-like protoctists have chloroplasts.",
+        "Most are single-celled.",
+        "Chitin walls are typical of fungi."
+       ],
+       "y": "Protoctists are eukaryotes."
+      },
+      {
+       "q": "Which organism is a protoctist?",
+       "r": "Amoeba",
+       "w": [
+        "a mushroom",
+        "a bacterium",
+        "a mosquito"
+       ],
+       "e": [
+        "Mushrooms are fungi.",
+        "Bacteria are prokaryotes.",
+        "Mosquitoes are animals."
+       ],
+       "y": "Amoeba is a single eukaryotic cell."
+      },
+      {
+       "q": "Spirogyra is placed in Protoctista, not Plantae. Why?",
+       "r": "It is a simple filament of similar cells, not a plant with organs",
+       "w": [
+        "It has no chloroplasts",
+        "It has no nucleus",
+        "It is an animal"
+       ],
+       "e": [
+        "Spirogyra has spiral chloroplasts.",
+        "It has a nucleus.",
+        "It photosynthesises."
+       ],
+       "y": "Simple eukaryotes are protoctists."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-15-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Pseudopodium",
+       "r": "movement and capturing food",
+       "w": [
+        "removing excess water",
+        "controlling the cell",
+        "digesting food"
+       ],
+       "e": [
+        "That is the contractile vacuole.",
+        "That is the nucleus.",
+        "That happens in the food vacuole."
+       ],
+       "y": "'False foot': cytoplasm flows into it."
+      },
+      {
+       "q": "Contractile vacuole",
+       "r": "removing excess water",
+       "w": [
+        "digesting food",
+        "movement",
+        "reproduction"
+       ],
+       "e": [
+        "That is the food vacuole.",
+        "That is the pseudopodia.",
+        "Reproduction is binary fission controlled by the nucleus."
+       ],
+       "y": "It pumps out water that enters by osmosis."
+      },
+      {
+       "q": "Food vacuole",
+       "r": "digesting food",
+       "w": [
+        "removing water",
+        "movement",
+        "gas exchange"
+       ],
+       "e": [
+        "That is the contractile vacuole.",
+        "That is the pseudopodia.",
+        "Gases diffuse through the membrane."
+       ],
+       "y": "Enzymes digest the captured food inside it."
+      },
+      {
+       "q": "Nucleus",
+       "r": "controlling the cell's activities and division",
+       "w": [
+        "movement",
+        "digesting food",
+        "removing water"
+       ],
+       "e": [
+        "That is the pseudopodia.",
+        "That is the food vacuole.",
+        "That is the contractile vacuole."
+       ],
+       "y": "The nucleus holds the DNA."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the function of this part of an amoeba? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-15-feed",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "prompt": "Put the steps of feeding in Amoeba in order.",
+   "items": [
+    {
+     "text": "Amoeba senses a food particle."
+    },
+    {
+     "text": "Pseudopodia flow round the particle."
+    },
+    {
+     "text": "The food is enclosed in a food vacuole."
+    },
+    {
+     "text": "Enzymes digest the food."
+    },
+    {
+     "text": "Digested food diffuses into the cytoplasm; waste is left behind."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Surround, enclose, digest, absorb."
+  },
+  {
+   "id": "b3-15-life",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does an amoeba obtain oxygen?",
+       "r": "By diffusion through its cell membrane",
+       "w": [
+        "Through lungs",
+        "Through gills",
+        "Through the contractile vacuole"
+       ],
+       "e": [
+        "It is a single cell.",
+        "It is a single cell.",
+        "That removes water."
+       ],
+       "y": "Its large surface area to volume ratio makes diffusion enough."
+      },
+      {
+       "q": "An amoeba is moved into sea water (more concentrated than its cytoplasm). What happens to its contractile vacuole?",
+       "r": "It works less often, because less water enters",
+       "w": [
+        "It works faster",
+        "It bursts",
+        "It turns into a food vacuole"
+       ],
+       "e": [
+        "Less water enters in a concentrated solution.",
+        "Vacuoles do not burst from this.",
+        "They have different jobs."
+       ],
+       "y": "Osmosis brings in less water."
+      },
+      {
+       "q": "How does an amoeba reproduce?",
+       "r": "By binary fission: the nucleus divides, then the cytoplasm",
+       "w": [
+        "By laying eggs",
+        "By spores only",
+        "By budding from a flower"
+       ],
+       "e": [
+        "Amoeba does not lay eggs.",
+        "It mainly uses binary fission.",
+        "It has no flowers."
+       ],
+       "y": "One cell becomes two identical cells."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

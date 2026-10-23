@@ -1,0 +1,605 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "b3-20",
+   "name": "Dicotyledons: the bean plant, and differences from monocotyledons"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A bean plant (dicot): taproot with lateral roots and root nodules (nitrogen-fixing bacteria); stem carrying leaves, flowers and pods; broad leaves with net (reticulate) veins; seeds with two cotyledons.\nFunctions: roots anchor the plant and absorb water and minerals; the stem supports and transports; leaves photosynthesise; flowers make seeds; pods protect and spread seeds.\nMonocot vs dicot:\n• seed leaves: one vs two; • leaf veins: parallel vs net;\n• roots: fibrous vs taproot; • flower parts: in threes vs in fours or fives;\n• vascular bundles in the stem: scattered vs in a ring.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The bean plant",
+    "text": "A bean plant is a typical dicot. It has:\n• a taproot with side roots and small swellings (nodules) holding nitrogen-fixing bacteria;\n• a stem that holds up the leaves and flowers and carries water and food;\n• broad leaves with a network of veins, where photosynthesis happens;\n• flowers that develop into pods (fruits) containing seeds, each seed with two cotyledons."
+   },
+   {
+    "heading": "Monocots and dicots compared",
+    "text": "• Seed leaves: one (monocot) vs two (dicot).\n• Leaf veins: parallel vs net.\n• Leaf shape: often long and narrow vs broad.\n• Roots: fibrous vs taproot.\n• Flower parts: in threes vs in fours or fives.\n• Vascular bundles in the stem: scattered vs in a ring.\nMaize, rice and palm are monocots; beans, mango and cocoa are dicots."
+   },
+   {
+    "heading": "Why it matters on the farm",
+    "text": "Knowing the group helps farmers. Legumes (beans, groundnuts, soya) are dicots whose nodules add nitrogen to the soil, so they are rotated or intercropped with maize.\nSome weedkillers kill broad-leaved dicot weeds but not monocot grasses like maize: knowing the difference avoids killing the crop."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "taproot",
+    "meaning": "one main root with side roots"
+   },
+   {
+    "word": "fibrous roots",
+    "meaning": "many similar thin roots"
+   },
+   {
+    "word": "net venation",
+    "meaning": "a branching network of veins"
+   },
+   {
+    "word": "legume",
+    "meaning": "a plant of the bean family with nitrogen-fixing nodules"
+   }
+  ],
+  "examples": [
+   "Bean: dicot, taproot, net veins",
+   "Maize: monocot, fibrous roots, parallel veins",
+   "Hibiscus: {5} petals, dicot"
+  ],
+  "mistake": {
+   "wrong": "Maize has net veins like beans",
+   "right": "Maize has parallel veins",
+   "why": "Parallel veins are a monocot feature; maize is a monocot."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A plant has broad leaves with net veins, a taproot and flowers with five petals. Is it a monocot or a dicot?",
+  "steps": [
+   "Net veins → dicot.",
+   "Taproot → dicot.",
+   "Flower parts in fives → dicot."
+  ],
+  "answer": "Dicotyledon",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b20-1",
+    "status": "draft",
+    "idea": "Each part of the bean plant has a job.",
+    "vars": {},
+    "example": [
+     "Root nodules contain nitrogen-fixing bacteria."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-20-func"
+    }
+   },
+   {
+    "id": "c3b20-2",
+    "status": "draft",
+    "idea": "Dicots have net veins and taproots; monocots parallel veins and fibrous roots.",
+    "vars": {},
+    "example": [
+     "Bean: net veins. Maize: parallel veins."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-20-diff"
+    }
+   },
+   {
+    "id": "c3b20-3",
+    "status": "draft",
+    "idea": "Dicot flower parts are in fours or fives; monocot parts in threes.",
+    "vars": {},
+    "example": [
+     "Hibiscus has {5} petals."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-20-id-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Long narrow leaves with parallel veins and fibrous roots",
+         "r": "monocotyledon",
+         "w": [
+          "dicotyledon",
+          "fern",
+          "conifer"
+         ],
+         "e": [
+          "Dicots have net veins and taproots.",
+          "Ferns do not have these features.",
+          "Conifers have needles."
+         ],
+         "y": "Parallel veins and fibrous roots: monocot."
+        },
+        {
+         "q": "A flower with 5 petals and leaves with a network of veins",
+         "r": "dicotyledon",
+         "w": [
+          "monocotyledon",
+          "moss",
+          "fern"
+         ],
+         "e": [
+          "Monocot flowers are in threes, with parallel veins.",
+          "Mosses have no flowers.",
+          "Ferns have no flowers."
+         ],
+         "y": "Five petals and net veins: dicot."
+        },
+        {
+         "q": "A stem with vascular bundles scattered all through it",
+         "r": "monocotyledon",
+         "w": [
+          "dicotyledon",
+          "conifer",
+          "moss"
+         ],
+         "e": [
+          "Dicot bundles are in a ring.",
+          "Conifers have bundles in a ring.",
+          "Mosses have no vascular bundles."
+         ],
+         "y": "Scattered bundles: monocot."
+        }
+       ]
+      }
+     },
+     "prompt": "Monocot or dicot? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-20-func",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Root",
+       "r": "anchoring the plant and absorbing water and minerals",
+       "w": [
+        "making food",
+        "producing seeds",
+        "carrying out gas exchange only"
+       ],
+       "e": [
+        "Leaves make food.",
+        "Flowers produce seeds.",
+        "Leaves are the main site of gas exchange."
+       ],
+       "y": "Roots hold the plant and take in water."
+      },
+      {
+       "q": "Leaf",
+       "r": "photosynthesis",
+       "w": [
+        "absorbing water from soil",
+        "anchoring the plant",
+        "storing seeds"
+       ],
+       "e": [
+        "Roots absorb water.",
+        "Roots anchor.",
+        "Pods hold seeds."
+       ],
+       "y": "Leaves have the most chloroplasts."
+      },
+      {
+       "q": "Root nodule",
+       "r": "housing nitrogen-fixing bacteria",
+       "w": [
+        "storing water",
+        "making flowers",
+        "photosynthesis"
+       ],
+       "e": [
+        "Nodules are not water stores.",
+        "Flowers form on the stem.",
+        "Nodules are underground."
+       ],
+       "y": "The bacteria make nitrogen compounds for the plant."
+      },
+      {
+       "q": "Pod",
+       "r": "protecting the seeds and helping to disperse them",
+       "w": [
+        "absorbing water",
+        "photosynthesis only",
+        "anchoring the plant"
+       ],
+       "e": [
+        "Roots absorb water.",
+        "Leaves are the main photosynthetic organs.",
+        "Roots anchor."
+       ],
+       "y": "The pod is the fruit; it splits to release seeds."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the main function of this part of a bean plant? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-20-diff",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What kind of veins does a dicot leaf have?",
+       "r": "a network of branching veins",
+       "w": [
+        "parallel veins",
+        "no veins",
+        "veins only at the edge"
+       ],
+       "e": [
+        "Parallel veins are monocot.",
+        "All leaves have veins.",
+        "Veins run through the whole leaf."
+       ],
+       "y": "Net (reticulate) venation."
+      },
+      {
+       "q": "What kind of root system does maize have?",
+       "r": "fibrous roots",
+       "w": [
+        "a taproot",
+        "root nodules",
+        "no roots"
+       ],
+       "e": [
+        "Taproots are dicot.",
+        "Nodules are typical of legumes.",
+        "Maize has roots."
+       ],
+       "y": "Monocots have many similar fibrous roots."
+      },
+      {
+       "q": "In which plants are the flower parts usually in threes?",
+       "r": "monocotyledons",
+       "w": [
+        "dicotyledons",
+        "ferns",
+        "mosses"
+       ],
+       "e": [
+        "Dicot flowers have parts in fours or fives.",
+        "Ferns have no flowers.",
+        "Mosses have no flowers."
+       ],
+       "y": "Lilies and onions: parts in threes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-20-id",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Long narrow leaves with parallel veins and fibrous roots",
+       "r": "monocotyledon",
+       "w": [
+        "dicotyledon",
+        "fern",
+        "conifer"
+       ],
+       "e": [
+        "Dicots have net veins and taproots.",
+        "Ferns do not have these features.",
+        "Conifers have needles."
+       ],
+       "y": "Parallel veins and fibrous roots: monocot."
+      },
+      {
+       "q": "A flower with 5 petals and leaves with a network of veins",
+       "r": "dicotyledon",
+       "w": [
+        "monocotyledon",
+        "moss",
+        "fern"
+       ],
+       "e": [
+        "Monocot flowers are in threes, with parallel veins.",
+        "Mosses have no flowers.",
+        "Ferns have no flowers."
+       ],
+       "y": "Five petals and net veins: dicot."
+      },
+      {
+       "q": "A stem with vascular bundles scattered all through it",
+       "r": "monocotyledon",
+       "w": [
+        "dicotyledon",
+        "conifer",
+        "moss"
+       ],
+       "e": [
+        "Dicot bundles are in a ring.",
+        "Conifers have bundles in a ring.",
+        "Mosses have no vascular bundles."
+       ],
+       "y": "Scattered bundles: monocot."
+      }
+     ]
+    }
+   },
+   "prompt": "Monocot or dicot? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-20-compare",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do farmers often plant beans or groundnuts between rows of maize?",
+       "r": "Their root nodules add nitrogen to the soil",
+       "w": [
+        "They shade out weeds completely",
+        "They make the maize grow faster by photosynthesis",
+        "They repel all insects"
+       ],
+       "e": [
+        "Shading is a small benefit, not the main one.",
+        "They do not photosynthesise for maize.",
+        "They do not repel all insects."
+       ],
+       "y": "Legumes improve soil fertility."
+      },
+      {
+       "q": "Which pair shows one monocot feature and one dicot feature?",
+       "r": "parallel veins (monocot); taproot (dicot)",
+       "w": [
+        "net veins (monocot); fibrous roots (dicot)",
+        "one cotyledon (dicot); two cotyledons (monocot)",
+        "parts in threes (dicot); parts in fives (monocot)"
+       ],
+       "e": [
+        "Net veins are dicot; fibrous roots are monocot.",
+        "Monocots have one cotyledon; dicots two.",
+        "Threes are monocot; fives are dicot."
+       ],
+       "y": "Match each feature to its group."
+      },
+      {
+       "q": "A seed splits easily into two halves. What does this tell you?",
+       "r": "It is a dicot seed with two cotyledons",
+       "w": [
+        "It is a monocot seed",
+        "It is a spore",
+        "It has no embryo"
+       ],
+       "e": [
+        "Monocot seeds have one cotyledon.",
+        "Spores are tiny single cells.",
+        "The embryo lies between the halves."
+       ],
+       "y": "The two halves are the two cotyledons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

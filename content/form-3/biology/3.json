@@ -1,0 +1,440 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1,
+  2
+ ],
+ "skills": [
+  {
+   "id": "b3-3",
+   "name": "Practical: observing plant and animal cells under the microscope"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Onion epidermis (plant cells): peel a thin layer from the inside of an onion scale, lay it flat in a drop of water or iodine solution on a slide, lower a cover slip at an angle to avoid air bubbles, observe at low then high power.\nCheek cells (animal cells): gently scrape the inside of your cheek with a clean spatula, smear on a slide, add a drop of methylene blue, cover and observe.\nStains make parts visible: iodine stains the nucleus and starch; methylene blue stains the nucleus.\nBiological drawings: pencil, clear single lines, no shading, label lines ruled and not crossing, state the magnification.\nTotal magnification = eyepiece × objective.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Preparing an onion slide",
+    "text": "• Peel a thin, almost transparent layer (epidermis) from the inside of an onion scale with forceps.\n• Lay it flat in a drop of iodine solution on a clean slide.\n• Lower a cover slip at an angle, using a mounted needle, so no air bubbles are trapped.\n• Observe under low power first, then high power.\nYou will see a brick-like pattern of cells, each with a cell wall and a dark nucleus."
+   },
+   {
+    "heading": "Preparing cheek cells",
+    "text": "• Gently scrape the inside of your cheek with a clean spatula (or the flat end of a clean toothpick).\n• Smear the scrapings on a slide, add a drop of methylene blue and cover.\n• Throw used spatulas into disinfectant.\nThe cells are irregular in shape, with a blue nucleus and no cell wall."
+   },
+   {
+    "heading": "Microscope and drawings",
+    "text": "Total magnification = eyepiece × objective: ×{10} and ×{40} give ×{400}.\nDraw what you see, not what you expect: sharp pencil, clear single lines, no shading, ruled label lines that do not cross, a title and the magnification.\nThen you can work out real sizes: real size = drawing size ÷ magnification."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "epidermis",
+    "meaning": "a thin outer layer of cells"
+   },
+   {
+    "word": "stain",
+    "meaning": "a dye that makes cell parts visible"
+   },
+   {
+    "word": "cover slip",
+    "meaning": "a thin square of glass placed over the specimen"
+   }
+  ],
+  "examples": [
+   "×{10} × ×{40} = ×{400}",
+   "Onion: iodine stain, cell wall visible",
+   "Cheek: methylene blue, no cell wall"
+  ],
+  "mistake": {
+   "wrong": "Total magnification = {10} + {40} = {50}",
+   "right": "Total magnification = {10} × {40} = {400}",
+   "why": "The two lenses multiply the magnification."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": 10,
+   "o": 40
+  },
+  "problem": "A student uses a ×{e} eyepiece and a ×{o} objective lens. What is the total magnification?",
+  "steps": [
+   "Total magnification = eyepiece × objective.",
+   "= {e} × {o} = ×{magnification(e, o)}."
+  ],
+  "answer": "×{magnification(e, o)}",
+  "checks": [
+   "magnification(e, o) == 400"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b3-1",
+    "status": "draft",
+    "idea": "Total magnification = eyepiece × objective.",
+    "vars": {},
+    "example": [
+     "×{10} eyepiece and ×{10} objective: ×{100}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-3-mag"
+    }
+   },
+   {
+    "id": "c3b3-2",
+    "status": "draft",
+    "idea": "Stains make cell parts easier to see.",
+    "vars": {},
+    "example": [
+     "Iodine for onion cells; methylene blue for cheek cells."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-3-stain"
+    }
+   },
+   {
+    "id": "c3b3-3",
+    "status": "draft",
+    "idea": "Lower the cover slip at an angle to avoid air bubbles.",
+    "vars": {},
+    "example": [
+     "Air bubbles look like black-edged circles."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-3-steps-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "practicals"
+     ],
+     "prompt": "Put the steps for preparing an onion slide in order.",
+     "items": [
+      {
+       "text": "Peel a thin layer of epidermis from an onion scale."
+      },
+      {
+       "text": "Lay it flat in a drop of iodine solution on a clean slide."
+      },
+      {
+       "text": "Lower a cover slip at an angle with a mounted needle."
+      },
+      {
+       "text": "Observe first under low power, then under high power."
+      }
+     ],
+     "order": "as_written",
+     "hint": "Prepare the specimen before covering and viewing it."
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-3-mag",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "practicals"
+   ],
+   "vars": {
+    "e": {
+     "pick": [
+      5,
+      10,
+      15
+     ]
+    },
+    "o": {
+     "pick": [
+      4,
+      10,
+      40,
+      100
+     ]
+    }
+   },
+   "prompt": "What is the total magnification with a ×{e} eyepiece and a ×{o} objective?",
+   "answer": "magnification(e, o)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "e + o",
+     "explain": "Multiply the two magnifications, do not add them."
+    }
+   ],
+   "solution": [
+    "Total = eyepiece × objective = {e} × {o}.",
+    "= ×{answer}."
+   ]
+  },
+  {
+   "id": "b3-3-stain",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "practicals"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which stain is used for onion epidermis cells?",
+       "r": "iodine solution",
+       "w": [
+        "methylene blue only",
+        "ink",
+        "salt solution"
+       ],
+       "e": [
+        "Methylene blue is usually used for cheek cells.",
+        "Ink is not a laboratory stain.",
+        "Salt solution does not stain."
+       ],
+       "y": "Iodine stains the nucleus and any starch."
+      },
+      {
+       "q": "Why is a stain added to cheek cells?",
+       "r": "To make the nucleus and other parts visible",
+       "w": [
+        "To kill bacteria",
+        "To make the cells larger",
+        "To dissolve the membrane"
+       ],
+       "e": [
+        "That is not its purpose.",
+        "Stains do not change size.",
+        "The membrane stays."
+       ],
+       "y": "Cells are almost transparent without stain."
+      },
+      {
+       "q": "Which structure can be seen in onion cells but not in cheek cells?",
+       "r": "a cell wall",
+       "w": [
+        "a nucleus",
+        "cytoplasm",
+        "a cell membrane"
+       ],
+       "e": [
+        "Both have a nucleus.",
+        "Both have cytoplasm.",
+        "Both have a membrane."
+       ],
+       "y": "Plant cells have a cellulose wall."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-3-steps",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "practicals"
+   ],
+   "prompt": "Put the steps for preparing an onion slide in order.",
+   "items": [
+    {
+     "text": "Peel a thin layer of epidermis from an onion scale."
+    },
+    {
+     "text": "Lay it flat in a drop of iodine solution on a clean slide."
+    },
+    {
+     "text": "Lower a cover slip at an angle with a mounted needle."
+    },
+    {
+     "text": "Observe first under low power, then under high power."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Prepare the specimen before covering and viewing it."
+  },
+  {
+   "id": "b3-3-draw",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "practicals"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a rule for biological drawings?",
+       "r": "Use a sharp pencil and clear single lines without shading",
+       "w": [
+        "Use a pen and colour the drawing",
+        "Draw label lines with arrow heads that cross",
+        "Shade the nucleus darkly"
+       ],
+       "e": [
+        "Pencil, not pen; no colour.",
+        "Label lines are ruled, without arrows, and must not cross.",
+        "No shading."
+       ],
+       "y": "Clear, accurate pencil outlines are easiest to read."
+      },
+      {
+       "q": "A drawing should also include…",
+       "r": "a title and the magnification",
+       "w": [
+        "the student's favourite colour",
+        "a background picture",
+        "shading to show depth"
+       ],
+       "e": [
+        "That is not needed.",
+        "Only the specimen is drawn.",
+        "Shading is not used."
+       ],
+       "y": "The title and magnification tell the reader what and how big."
+      },
+      {
+       "q": "You see black-edged circles on your slide. What are they most likely to be?",
+       "r": "air bubbles",
+       "w": [
+        "nuclei",
+        "chloroplasts",
+        "bacteria"
+       ],
+       "e": [
+        "Nuclei are inside cells and stain.",
+        "Onion epidermis has no chloroplasts.",
+        "Bacteria are far smaller."
+       ],
+       "y": "Lowering the cover slip carelessly traps air."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-3-real",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "practicals"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      40,
+      100
+     ]
+    },
+    "k": {
+     "int": [
+      4,
+      30
+     ]
+    },
+    "img": {
+     "expr": "k * m / 400"
+    }
+   },
+   "prompt": "Under ×{m} total magnification, an onion cell appears {img} mm long in your drawing. What is its real length (µm)?",
+   "answer": "realSize(img, m) * 1000",
+   "misconceptions": [
+    {
+     "id": "mm",
+     "wrong": "realSize(img, m)",
+     "explain": "That is in mm; × {1000} for µm."
+    }
+   ],
+   "solution": [
+    "Real = image ÷ magnification = {img} ÷ {m} = {realSize(img, m)} mm.",
+    "= {answer} µm."
+   ],
+   "unit": "µm"
+  }
+ ]
+}

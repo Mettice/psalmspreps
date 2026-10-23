@@ -1,0 +1,578 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  23
+ ],
+ "skills": [
+  {
+   "id": "m3-24",
+   "name": "Find and use the inverse of a 2 × 2 matrix"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The inverse A⁻¹ of a square matrix A satisfies AA⁻¹ = A⁻¹A = I.\nFor a 2 × 2 matrix: A⁻¹ = (1 ÷ |A|) × adj A. For A = (a b ; c d), A⁻¹ = 1/(ad − bc) × (d −b ; −c a).\n• If |A| = 0 (A singular), A has no inverse.\n• Check: AA⁻¹ = I.\n• Simultaneous equations ax + by = p, cx + dy = q can be written A(x ; y) = (p ; q), so (x ; y) = A⁻¹(p ; q).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Undoing a matrix",
+    "text": "For numbers, {5} × {frac(1, 5)} = {1}: {frac(1, 5)} is the inverse of {5}. For matrices, the identity I plays the part of {1}.\nThe inverse of A is the matrix A⁻¹ with AA⁻¹ = A⁻¹A = I.\nFrom the last lesson, A × adj A = |A| × I. Divide by |A|: A⁻¹ = ({1} ÷ |A|) × adj A."
+   },
+   {
+    "heading": "Finding it",
+    "text": "A = {matStr([[5, 2], [7, 3]])}.\n• |A| = {15} − {14} = {1}.\n• adj A = {matStr([[3, -2], [-7, 5]])}.\n• A⁻¹ = ({1} ÷ {1}) × adj A = {matStr([[3, -2], [-7, 5]])}.\nIf |A| is, say, {2}, every element of the adjoint is divided by {2}. If |A| = {0}, you cannot divide: a singular matrix has no inverse."
+   },
+   {
+    "heading": "Solving equations",
+    "text": "{poly([5, 'x'], [2, 'y'])} = {16} and {poly([7, 'x'], [3, 'y'])} = {23} can be written A(x ; y) = ({16} ; {23}).\nMultiply both sides by A⁻¹: (x ; y) = A⁻¹({16} ; {23}).\nx = {3} × {16} + ({-2}) × {23} = {2}; y = ({-7}) × {16} + {5} × {23} = {3}.\nCheck: {5} × {2} + {2} × {3} = {16}. ✓"
+   }
+  ],
+  "key_words": [
+   {
+    "word": "inverse matrix",
+    "meaning": "A⁻¹, with AA⁻¹ = I"
+   },
+   {
+    "word": "non-singular",
+    "meaning": "determinant not {0}: the inverse exists"
+   },
+   {
+    "word": "identity matrix",
+    "meaning": "I = {matStr([[1, 0], [0, 1]])}"
+   }
+  ],
+  "examples": [
+   "{matStr([[2, 1], [1, 1]])}⁻¹ = {matStr([[1, -1], [-1, 2]])} (determinant {1})",
+   "{matStr([[4, 2], [2, 1]])} has no inverse (determinant {0})"
+  ],
+  "mistake": {
+   "wrong": "A⁻¹ = |A| × adj A",
+   "right": "A⁻¹ = ({1} ÷ |A|) × adj A",
+   "why": "You divide by the determinant. Check by multiplying: AA⁻¹ must give I."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "A": [
+    [
+     5,
+     2
+    ],
+    [
+     7,
+     3
+    ]
+   ]
+  },
+  "problem": "Find the inverse of A in the figure.",
+  "steps": [
+   "|A| = {A[0][0]} × {A[1][1]} − {A[0][1]} × {A[1][0]} = {A[0][0] * A[1][1]} − {A[0][1] * A[1][0]} = {det2(A)}.",
+   "adj A = {matStr(adj2(A))}.",
+   "A⁻¹ = ({1} ÷ {det2(A)}) × adj A = {matStr(adj2(A))}.",
+   "Check: A × A⁻¹ = {matStr(matMul(A, adj2(A)))} = I. ✓"
+  ],
+  "answer": "A⁻¹ = {matStr(adj2(A))}",
+  "checks": [
+   "det2(A) == 1"
+  ],
+  "figure": "matFig([['A', A]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m24-1",
+    "status": "draft",
+    "idea": "A⁻¹ = ({1} ÷ |A|) × adj A; a matrix with |A| = {0} has no inverse.",
+    "vars": {},
+    "example": [
+     "|{matStr([[2, 4], [1, 2]])}| = {0}: no inverse."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-24-exists"
+    }
+   },
+   {
+    "id": "c3m24-2",
+    "status": "draft",
+    "idea": "When |A| = {1}, the inverse is just the adjoint.",
+    "vars": {},
+    "example": [
+     "A = {matStr([[3, 5], [1, 2]])}: |A| = {1}, A⁻¹ = {matStr([[2, -5], [-1, 3]])}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-24-one"
+    }
+   },
+   {
+    "id": "c3m24-3",
+    "status": "draft",
+    "idea": "Use A⁻¹ to solve simultaneous equations: (x ; y) = A⁻¹(p ; q).",
+    "vars": {},
+    "example": [
+     "Write the coefficients as A and the right-hand sides as a column."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-24-solve-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "matrices"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        1,
+        4
+       ]
+      },
+      "q": {
+       "int": [
+        1,
+        4
+       ]
+      },
+      "x": {
+       "int": [
+        -5,
+        8
+       ]
+      },
+      "y": {
+       "int": [
+        -5,
+        8
+       ]
+      }
+     },
+     "prompt": "Use the inverse matrix to solve {poly([p * q + 1, 'x'], [p, 'y'])} = {(p * q + 1) * x + p * y} and {poly([q, 'x'], [1, 'y'])} = {q * x + y}. What is x?",
+     "answer": "x",
+     "misconceptions": [
+      {
+       "id": "y",
+       "wrong": "y",
+       "explain": "That is y. x comes from the first row of A⁻¹."
+      }
+     ],
+     "solution": [
+      "A = {matStr([[p * q + 1, p], [q, 1]])}, |A| = {1}, A⁻¹ = {matStr([[1, -p], [-q, p * q + 1]])}.",
+      "x = {1} × {(p * q + 1) * x + p * y} + {br(-p)} × {q * x + y} = {answer}."
+     ],
+     "where": [
+      "x != y"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-24-exists",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "t": {
+     "pick": [
+      0,
+      0,
+      1,
+      2,
+      -1
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [k * a, k * b + t]]"
+    }
+   },
+   "prompt": "Does the matrix A in the figure have an inverse?",
+   "correct": "{det2(A) == 0 ? 'No: |A| = 0' : 'Yes: |A| = ' + fmt(det2(A))}",
+   "distractors": [
+    {
+     "text": "{det2(A) == 0 ? 'Yes: |A| = ' + fmt(a * (k * b) + b * (k * a)) : 'No: |A| = 0'}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{'Yes: every square matrix has an inverse'}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{'No: only the identity has an inverse'}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "Work out ad − bc carefully: {a} × {br(k * b + t)} − {b} × {br(k * a)} = {det2(A)}."
+    },
+    {
+     "id": "w2",
+     "explain": "A matrix with determinant {0} has no inverse."
+    },
+    {
+     "id": "w3",
+     "explain": "Any matrix with a non-zero determinant has an inverse."
+    }
+   ],
+   "solution": [
+    "|A| = {a} × {br(k * b + t)} − {b} × {br(k * a)} = {det2(A)}.",
+    "{det2(A) == 0 ? 'A singular matrix has no inverse.' : 'The determinant is not zero, so A⁻¹ exists.'} So: {answer}."
+   ],
+   "figure": "matFig([['A', A]])",
+   "where": []
+  },
+  {
+   "id": "m3-24-one",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "p": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "A": {
+     "expr": "[[p * q + 1, p], [q, 1]]"
+    }
+   },
+   "prompt": "|A| = {1}. Find the element in row {r}, column {s} of A⁻¹.",
+   "answer": "adj2(A)[r - 1][s - 1]",
+   "misconceptions": [
+    {
+     "id": "orig",
+     "wrong": "A[r - 1][s - 1]",
+     "explain": "That is the element of A. The inverse here is the adjoint: swap a and d, and change the signs of b and c."
+    }
+   ],
+   "solution": [
+    "|A| = {det2(A)}, so A⁻¹ = adj A = {matStr(adj2(A))}.",
+    "The element in row {r}, column {s} is {answer}."
+   ],
+   "figure": "matFig([['A', A]])",
+   "where": [
+    "r != s"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-24-frac",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    },
+    "r": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "Find the element in row {r}, column {s} of A⁻¹. Give it as a fraction in its simplest form.",
+   "answer": "frac(adj2(A)[r - 1][s - 1], det2(A))",
+   "misconceptions": [
+    {
+     "id": "nodet",
+     "wrong": "adj2(A)[r - 1][s - 1]",
+     "explain": "Divide the adjoint by the determinant {det2(A)}."
+    },
+    {
+     "id": "orig",
+     "wrong": "frac(A[r - 1][s - 1], det2(A))",
+     "explain": "Use the adjoint, not A itself."
+    }
+   ],
+   "solution": [
+    "|A| = {a * d} − {br(b * c)} = {det2(A)}; adj A = {matStr(adj2(A))}.",
+    "A⁻¹ = adj A ÷ {det2(A)}: the element is {adj2(A)[r - 1][s - 1]} ÷ {det2(A)} = {answer}."
+   ],
+   "answer_kind": "fraction",
+   "figure": "matFig([['A', A]])",
+   "where": [
+    "abs(det2(A)) > 1",
+    "adj2(A)[r - 1][s - 1] % det2(A) != 0",
+    "A[r - 1][s - 1] != adj2(A)[r - 1][s - 1]",
+    "frac(A[r - 1][s - 1], det2(A)) != frac(adj2(A)[r - 1][s - 1], det2(A))"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-24-solve",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "x": {
+     "int": [
+      -5,
+      8
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      8
+     ]
+    }
+   },
+   "prompt": "Use the inverse matrix to solve {poly([p * q + 1, 'x'], [p, 'y'])} = {(p * q + 1) * x + p * y} and {poly([q, 'x'], [1, 'y'])} = {q * x + y}. What is x?",
+   "answer": "x",
+   "misconceptions": [
+    {
+     "id": "y",
+     "wrong": "y",
+     "explain": "That is y. x comes from the first row of A⁻¹."
+    }
+   ],
+   "solution": [
+    "A = {matStr([[p * q + 1, p], [q, 1]])}, |A| = {1}, A⁻¹ = {matStr([[1, -p], [-q, p * q + 1]])}.",
+    "x = {1} × {(p * q + 1) * x + p * y} + {br(-p)} × {q * x + y} = {answer}."
+   ],
+   "where": [
+    "x != y"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-24-inv",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "g": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "A": {
+     "expr": "[[a, b], [c, d]]"
+    },
+    "B": {
+     "expr": "[[e, f], [g, h]]"
+    }
+   },
+   "prompt": "Find the inverse of A.",
+   "correct": "{frac(1, det2(A)) + ' × ' + matStr(adj2(A))}",
+   "distractors": [
+    {
+     "text": "{frac(1, det2(A)) + ' × ' + matStr(A)}",
+     "misconception": "noadj"
+    },
+    {
+     "text": "{fmt(det2(A)) + ' × ' + matStr(adj2(A))}",
+     "misconception": "times"
+    },
+    {
+     "text": "{frac(1, det2(A)) + ' × ' + matStr(matT(A))}",
+     "misconception": "transpose"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "noadj",
+     "explain": "Use the adjoint (swap a and d, change the signs of b and c), not A."
+    },
+    {
+     "id": "times",
+     "explain": "Divide by the determinant: multiply by {1} ÷ |A|."
+    },
+    {
+     "id": "transpose",
+     "explain": "The transpose is not the adjoint: swap a and d and change the signs of b and c."
+    }
+   ],
+   "solution": [
+    "|A| = {a * d} − {br(b * c)} = {det2(A)}.",
+    "adj A = {matStr(adj2(A))}.",
+    "A⁻¹ = ({1} ÷ |A|) × adj A = {answer}."
+   ],
+   "figure": "matFig([['A', A]])",
+   "where": [
+    "abs(det2(A)) > 1",
+    "b != c",
+    "a != d",
+    "b != 0 && c != 0"
+   ]
+  }
+ ]
+}

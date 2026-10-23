@@ -1,0 +1,364 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "m3-30",
+   "name": "Use similarity: maps, models, areas and volumes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Scale drawings, maps and models are similar to the real objects.\n• A map scale 1 : n means 1 cm on the map is n cm on the ground. Lengths × n; areas × n².\n• Convert units carefully: 100 000 cm = 1 km, so 1 cm² on a 1 : 100 000 map is 1 km².\n• Models: a model car on a scale 1 : 20 is 20 times shorter, 400 times smaller in area, 8000 times smaller in volume.\n• Costs that depend on area (paint) scale by k²; those that depend on volume (contents, mass) by k³.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Maps and scale",
+    "text": "A map is a similar copy of the land, shrunk by its scale. A scale of {1} : {50000} means {1} cm on the map stands for {50000} cm on the ground, which is {500} m.\nLengths: multiply by {50000}. Areas: multiply by {50000}² because area uses two lengths.\nChange units at the end: {100} cm = {1} m, {100000} cm = {1} km, {10000} m² = {1} hectare."
+   },
+   {
+    "heading": "Models",
+    "text": "A model built on a scale of {1} : {20} has every length {20} times smaller than the real thing.\n• Its surface area is {20}² = {400} times smaller.\n• Its volume is {20}³ = {8000} times smaller.\nA model car may look the same, but it would hold only a tiny amount of fuel."
+   },
+   {
+    "heading": "Paying for area or volume",
+    "text": "Ask what the quantity depends on.\n• Paint, cloth, tiles: area, so factor k².\n• Contents, mass, amount of oil or water: volume, so factor k³.\nA tin twice as tall (and similar) holds {8} times as much oil, so it should cost about {8} times as much, not twice."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "map scale",
+    "meaning": "{1} : n, one map unit for n real units"
+   },
+   {
+    "word": "hectare",
+    "meaning": "{10000} m²"
+   },
+   {
+    "word": "model",
+    "meaning": "a similar copy, usually smaller"
+   }
+  ],
+  "examples": [
+   "{1} : {1000}, {3} cm → {30} m",
+   "{1} : {100000}, {5} cm² → {5} km²"
+  ],
+  "mistake": {
+   "wrong": "Map {1} : {1000}: {4} cm² on the map is {4000} cm² on the ground",
+   "right": "{4} × {1000}² = {4000000} cm² = {400} m²",
+   "why": "Areas scale by the square of the map scale."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 50000,
+   "A": 6
+  },
+  "problem": "A map of a farm near Kumba has scale {1} : {n}. A field has area {A} cm² on the map. Find its real area in hectares ({1} ha = {10000} m²).",
+  "steps": [
+   "{1} cm on the map = {n} cm = {n / 100} m on the ground.",
+   "{1} cm² on the map = {n / 100} × {n / 100} = {n * n / 10000} m².",
+   "{A} cm² → {A} × {n * n / 10000} = {A * n * n / 10000} m² = {A * n * n / 100000000} ha."
+  ],
+  "answer": "{A * n * n / 100000000} ha",
+  "checks": [
+   "A * n * n / 100000000 == 150"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m30-1",
+    "status": "draft",
+    "idea": "On a map {1} : n, lengths are multiplied by n and areas by n².",
+    "vars": {},
+    "example": [
+     "{1} : {1000}: {2} cm → {2000} cm = {20} m."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-30-map"
+    }
+   },
+   {
+    "id": "c3m30-2",
+    "status": "draft",
+    "idea": "Convert units at the end: {1} km = {100000} cm.",
+    "vars": {},
+    "example": [
+     "{1} : {100000}: {1} cm² represents {1} km²."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-30-km"
+    }
+   },
+   {
+    "id": "c3m30-3",
+    "status": "draft",
+    "idea": "Paint depends on area (k²); contents and mass depend on volume (k³).",
+    "vars": {},
+    "example": [
+     "A tank twice as wide, long and high needs {4} times the paint and holds {8} times the water."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-30-paint-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "similarity"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        9
+       ]
+      }
+     },
+     "prompt": "A tin of paint covers a small model water tank. A similar real tank is {k} times as long. How many tins are needed for the real tank?",
+     "answer": "k * k",
+     "misconceptions": [
+      {
+       "id": "lin",
+       "wrong": "k",
+       "explain": "Paint depends on area: use k², not k."
+      },
+      {
+       "id": "cube",
+       "wrong": "k * k * k",
+       "explain": "k³ would be for the water it holds; paint covers area."
+      }
+     ],
+     "solution": [
+      "Paint covers area: area factor = {k}² = {k * k}.",
+      "Tins needed = {answer}."
+     ],
+     "unit": "tins"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-30-map",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      500,
+      1000,
+      2000,
+      5000
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "A map has scale {1} : {n}. A road is {d} cm long on the map. How long is it in real life, in metres?",
+   "answer": "d * n / 100",
+   "misconceptions": [
+    {
+     "id": "cm",
+     "wrong": "d * n",
+     "explain": "That is in centimetres. Divide by {100} for metres."
+    },
+    {
+     "id": "div",
+     "wrong": "d / n",
+     "explain": "Multiply by the scale number: the real road is longer."
+    }
+   ],
+   "solution": [
+    "Real length = {d} × {n} = {d * n} cm.",
+    "{d * n} cm ÷ {100} = {answer} m."
+   ],
+   "unit": "m"
+  },
+  {
+   "id": "m3-30-km",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "A": {
+     "int": [
+      2,
+      30
+     ]
+    }
+   },
+   "prompt": "On a map of scale {1} : {100000}, a lake covers {A} cm². What is its real area in km²?",
+   "answer": "A",
+   "misconceptions": [
+    {
+     "id": "big",
+     "wrong": "A * 100000",
+     "explain": "Convert: {100000} cm is {1} km, so each cm² is {1} km²."
+    }
+   ],
+   "solution": [
+    "{1} cm on the map = {100000} cm = {1} km.",
+    "So {1} cm² on the map = {1} km², and {A} cm² = {answer} km²."
+   ],
+   "unit": "km²"
+  },
+  {
+   "id": "m3-30-model",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      10,
+      20,
+      25,
+      50
+     ]
+    },
+    "F": {
+     "int": [
+      5,
+      12
+     ]
+    }
+   },
+   "prompt": "A model of a minibus is made on a scale of {1} : {k}. The real minibus has a floor area of {F} m². What is the floor area of the model, in cm²?",
+   "answer": "F * 10000 / (k * k)",
+   "misconceptions": [
+    {
+     "id": "lin",
+     "wrong": "F * 10000 / k",
+     "explain": "Areas scale by k², not k."
+    },
+    {
+     "id": "units",
+     "wrong": "F / (k * k)",
+     "explain": "Convert m² to cm²: {1} m² = {10000} cm²."
+    }
+   ],
+   "solution": [
+    "Area scale factor = {k}² = {k * k}.",
+    "Real floor = {F} m² = {F * 10000} cm².",
+    "Model = {F * 10000} ÷ {k * k} = {answer} cm²."
+   ],
+   "unit": "cm²",
+   "where": [
+    "(F * 10000) % (k * k) == 0"
+   ]
+  },
+  {
+   "id": "m3-30-paint",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "A tin of paint covers a small model water tank. A similar real tank is {k} times as long. How many tins are needed for the real tank?",
+   "answer": "k * k",
+   "misconceptions": [
+    {
+     "id": "lin",
+     "wrong": "k",
+     "explain": "Paint depends on area: use k², not k."
+    },
+    {
+     "id": "cube",
+     "wrong": "k * k * k",
+     "explain": "k³ would be for the water it holds; paint covers area."
+    }
+   ],
+   "solution": [
+    "Paint covers area: area factor = {k}² = {k * k}.",
+    "Tins needed = {answer}."
+   ],
+   "unit": "tins"
+  },
+  {
+   "id": "m3-30-cost",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      5,
+      10
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "c": {
+     "int": [
+      150,
+      600
+     ],
+     "step": 50
+    }
+   },
+   "prompt": "A small tin of groundnut oil, {h} cm tall, costs {c} FCFA. A similar large tin is {h * k} cm tall. If the price is proportional to the amount of oil, what does the large tin cost (FCFA)?",
+   "answer": "c * k * k * k",
+   "misconceptions": [
+    {
+     "id": "sq",
+     "wrong": "c * k * k",
+     "explain": "Oil fills the volume: use k³, not k²."
+    },
+    {
+     "id": "lin",
+     "wrong": "c * k",
+     "explain": "Use k³ for volume."
+    }
+   ],
+   "solution": [
+    "k = {h * k} ÷ {h} = {k}; the amount of oil goes with volume, factor {k}³ = {k * k * k}.",
+    "Price = {c} × {k * k * k} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

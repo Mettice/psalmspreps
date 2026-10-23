@@ -1,0 +1,522 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "a3-2",
+   "name": "The accounting cycle: journal, ledger and trial balance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Accounting cycle: source documents (invoices, receipts) → journal → ledger → trial balance → financial statements.\n• Journal: transactions recorded in date order, each with the accounts debited and credited, amounts and a short explanation.\n• Ledger: each account on its own page (T-account); journal amounts are posted to the debit or credit side.\n• Balance of an account = difference between its debit total and credit total (debit balance if debits are bigger).\n• Trial balance: a list of all account balances; total debit balances must equal total credit balances. If not, there is an error.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "From documents to statements",
+    "text": "Every transaction starts with a source document: an invoice, a receipt, a bank statement. The accounting cycle then follows:\nsource documents → journal → ledger → trial balance → financial statements (balance sheet and income statement)."
+   },
+   {
+    "heading": "Journal and ledger",
+    "text": "The journal records transactions in date order. Each entry gives the date, the account(s) debited and credited, the amounts and a short description; the debits equal the credits.\nThe ledger has one page (a T-account) for each account. Posting means copying each journal amount to the same side of the right ledger account.\nThe balance of an account is the difference between its two sides: a debit balance if the debits are bigger, a credit balance if the credits are bigger."
+   },
+   {
+    "heading": "Trial balance",
+    "text": "A trial balance lists every account with its balance, debit balances in one column and credit balances in the other. The two totals must be equal.\nIf they differ, there is an error (a one-sided posting, a wrong addition). But equal totals do not prove everything is right: an entry left out completely, or posted to the wrong account on the correct side, does not show up."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "journal",
+    "meaning": "book of first entry, in date order"
+   },
+   {
+    "word": "ledger",
+    "meaning": "book of accounts, one page per account"
+   },
+   {
+    "word": "posting",
+    "meaning": "copying journal amounts to the ledger"
+   },
+   {
+    "word": "trial balance",
+    "meaning": "list of balances to check that debits equal credits"
+   }
+  ],
+  "examples": [
+   "Debits {500000}, credits {120000}: debit balance {380000}",
+   "Trial balance totals {950000} = {950000}: agrees"
+  ],
+  "mistake": {
+   "wrong": "Balance = debits + credits",
+   "right": "Balance = the larger side − the smaller side",
+   "why": "A balance is the difference between the two sides."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 500000,
+   "b": 120000,
+   "c": 80000
+  },
+  "problem": "The Bank account has debits of {a} FCFA and {b} FCFA and a credit of {c} FCFA. Find its balance.",
+  "steps": [
+   "Total debits = {a} + {b} = {a + b} FCFA.",
+   "Total credits = {c} FCFA.",
+   "Balance = {a + b} − {c} = {a + b - c} FCFA (a debit balance)."
+  ],
+  "answer": "{a + b - c} FCFA debit balance",
+  "checks": [
+   "a + b - c == 540000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a2-1",
+    "status": "draft",
+    "idea": "Journal → ledger → trial balance.",
+    "vars": {},
+    "example": [
+     "Record, post, check."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-2-order"
+    }
+   },
+   {
+    "id": "c3a2-2",
+    "status": "draft",
+    "idea": "The balance is the difference between the two sides of an account.",
+    "vars": {},
+    "example": [
+     "Debits {300000}, credits {100000}: debit balance {200000}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-2-bal"
+    }
+   },
+   {
+    "id": "c3a2-3",
+    "status": "draft",
+    "idea": "In a trial balance, debit and credit totals must agree.",
+    "vars": {},
+    "example": [
+     "If they differ, look for an error."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-2-tb-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada"
+     ],
+     "vars": {
+      "x": {
+       "int": [
+        100000,
+        500000
+       ],
+       "step": 10000
+      },
+      "y": {
+       "int": [
+        50000,
+        300000
+       ],
+       "step": 10000
+      },
+      "z": {
+       "int": [
+        20000,
+        200000
+       ],
+       "step": 10000
+      },
+      "u": {
+       "int": [
+        100000,
+        600000
+       ],
+       "step": 10000
+      },
+      "e": {
+       "pick": [
+        0,
+        0,
+        10000,
+        20000,
+        50000
+       ]
+      },
+      "v": {
+       "expr": "x + y + z - u + e"
+      }
+     },
+     "prompt": "A trial balance shows debit balances of {x}, {y} and {z} FCFA and credit balances of {u} and {v} FCFA. By how much do the totals differ (FCFA)? (0 if they agree)",
+     "answer": "abs(x + y + z - u - v)",
+     "misconceptions": [
+      {
+       "id": "total",
+       "wrong": "x + y + z",
+       "explain": "That is the debit total. Compare it with the credit total."
+      }
+     ],
+     "solution": [
+      "Debit total = {x} + {y} + {z} = {x + y + z}.",
+      "Credit total = {u} + {v} = {u + v}.",
+      "Difference = {answer} FCFA."
+     ],
+     "unit": "FCFA",
+     "where": [
+      "v > 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-2-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "prompt": "Put the stages of the accounting cycle in order.",
+   "items": [
+    {
+     "text": "Source documents"
+    },
+    {
+     "text": "Journal"
+    },
+    {
+     "text": "Ledger"
+    },
+    {
+     "text": "Trial balance"
+    },
+    {
+     "text": "Financial statements"
+    }
+   ],
+   "order": "as_written",
+   "hint": "Documents first, statements last."
+  },
+  {
+   "id": "a3-2-bal",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      100000,
+      900000
+     ],
+     "step": 10000
+    },
+    "c": {
+     "int": [
+      50000,
+      800000
+     ],
+     "step": 10000
+    }
+   },
+   "prompt": "An account has debits totalling {d} FCFA and credits totalling {c} FCFA. What is the size of its balance (FCFA)?",
+   "answer": "abs(d - c)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "d + c",
+     "explain": "The balance is the difference between the sides, not their sum."
+    }
+   ],
+   "solution": [
+    "Balance = larger side − smaller side.",
+    "|{d} − {c}| = {answer} FCFA ({d > c ? 'debit' : 'credit'} balance)."
+   ],
+   "unit": "FCFA",
+   "where": [
+    "d != c"
+   ]
+  },
+  {
+   "id": "a3-2-tb",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      100000,
+      500000
+     ],
+     "step": 10000
+    },
+    "y": {
+     "int": [
+      50000,
+      300000
+     ],
+     "step": 10000
+    },
+    "z": {
+     "int": [
+      20000,
+      200000
+     ],
+     "step": 10000
+    },
+    "u": {
+     "int": [
+      100000,
+      600000
+     ],
+     "step": 10000
+    },
+    "e": {
+     "pick": [
+      0,
+      0,
+      10000,
+      20000,
+      50000
+     ]
+    },
+    "v": {
+     "expr": "x + y + z - u + e"
+    }
+   },
+   "prompt": "A trial balance shows debit balances of {x}, {y} and {z} FCFA and credit balances of {u} and {v} FCFA. By how much do the totals differ (FCFA)? (0 if they agree)",
+   "answer": "abs(x + y + z - u - v)",
+   "misconceptions": [
+    {
+     "id": "total",
+     "wrong": "x + y + z",
+     "explain": "That is the debit total. Compare it with the credit total."
+    }
+   ],
+   "solution": [
+    "Debit total = {x} + {y} + {z} = {x + y + z}.",
+    "Credit total = {u} + {v} = {u + v}.",
+    "Difference = {answer} FCFA."
+   ],
+   "unit": "FCFA",
+   "where": [
+    "v > 0"
+   ]
+  },
+  {
+   "id": "a3-2-post",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is posting?",
+       "r": "Transferring journal amounts to the ledger accounts",
+       "w": [
+        "Sending letters to customers",
+        "Adding up the trial balance",
+        "Paying suppliers"
+       ],
+       "e": [
+        "That is correspondence.",
+        "That comes after posting.",
+        "That is a transaction, not posting."
+       ],
+       "y": "Each journal line goes to its ledger account."
+      },
+      {
+       "q": "A journal entry debits 571 Cash and credits 701 Sales with 25 000 FCFA. How is it posted?",
+       "r": "25 000 on the debit side of Cash and on the credit side of Sales",
+       "w": [
+        "25 000 on the credit side of Cash",
+        "50 000 in Cash only",
+        "25 000 on the debit side of Sales"
+       ],
+       "e": [
+        "Cash is debited.",
+        "Each account gets the amount once, on its own side.",
+        "Sales is credited."
+       ],
+       "y": "Post each amount to the same side as in the journal."
+      },
+      {
+       "q": "Which document is the starting point of the accounting cycle?",
+       "r": "source documents such as invoices and receipts",
+       "w": [
+        "the trial balance",
+        "the balance sheet",
+        "the ledger"
+       ],
+       "e": [
+        "That comes later.",
+        "That comes at the end.",
+        "The ledger comes after the journal."
+       ],
+       "y": "Every entry must be supported by a document."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-2-err",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A trial balance agrees. Does that prove there are no errors?",
+       "r": "No: some errors (such as a wrong account or a missing entry) do not affect the totals",
+       "w": [
+        "Yes, always",
+        "Yes, if it is typed",
+        "No, a trial balance never agrees"
+       ],
+       "e": [
+        "Some errors are hidden.",
+        "Typing does not matter.",
+        "A correct trial balance agrees."
+       ],
+       "y": "Errors of omission or of principle leave the totals equal."
+      },
+      {
+       "q": "Rent of 50 000 FCFA was paid in cash but posted only to the Rent account. What happens to the trial balance?",
+       "r": "It does not agree: debits exceed credits by 50 000",
+       "w": [
+        "It agrees",
+        "Credits exceed debits by 50 000",
+        "It doubles"
+       ],
+       "e": [
+        "One side is missing.",
+        "The debit was posted, the credit was not.",
+        "Nothing doubles."
+       ],
+       "y": "Only one side was posted."
+      },
+      {
+       "q": "Why do debit and credit totals agree in a correct trial balance?",
+       "r": "Every transaction was recorded with equal debits and credits",
+       "w": [
+        "The accountant chooses the totals",
+        "Because Cash is always the largest account",
+        "Because there are always ten accounts"
+       ],
+       "e": [
+        "Totals come from the entries.",
+        "Not related.",
+        "Any number of accounts."
+       ],
+       "y": "Double entry keeps the books in balance."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

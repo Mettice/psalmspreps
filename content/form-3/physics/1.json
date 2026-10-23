@@ -1,0 +1,477 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p3-1",
+   "name": "Physical quantities, SI units, prefixes and standard form"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A physical quantity can be measured and has a number and a unit: 25 kg, 3.5 m.\nBase quantities and SI units: length (metre, m), mass (kilogram, kg), time (second, s), temperature (kelvin, K), electric current (ampere, A).\nDerived quantities come from base ones: area (m²), volume (m³), density (kg/m³), speed (m/s).\nPrefixes: mega M = 1 000 000, kilo k = 1000, centi c = 1/100, milli m = 1/1000, micro µ = 1/1 000 000.\nStandard form: a × 10ⁿ with 1 ≤ a < 10, e.g. 340 000 m = 3.4 × 10⁵ m; 0.0025 s = 2.5 × 10⁻³ s.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "What a physical quantity is",
+    "text": "Anything we can measure is a physical quantity: the length of a desk, the mass of a bag of rice, the time of a race.\nA measurement always has two parts, a number and a unit: {25} kg. Without the unit, \"{25}\" means nothing.\nScientists everywhere use the SI system so that results can be shared. Its base quantities are length (m), mass (kg), time (s), temperature (K) and electric current (A). All others, such as area, volume, speed and density, are derived from these."
+   },
+   {
+    "heading": "Prefixes",
+    "text": "Prefixes make big and small numbers easier:\n• mega (M) = {1000000}\n• kilo (k) = {1000}\n• centi (c) = {1} ÷ {100}\n• milli (m) = {1} ÷ {1000}\n• micro (µ) = {1} ÷ {1000000}\nSo {3.2} km = {3200} m, and {450} mm = {0.45} m. To change to a smaller unit the number gets bigger, and the other way round."
+   },
+   {
+    "heading": "Standard form",
+    "text": "Very large or very small values are written a × {10}ⁿ, with a between {1} and {10}.\n• {340000} m = {3.4} × {10}{sup(5)} m (the point moves {5} places left).\n• {0.0025} s = {2.5} × {10}⁻{sup(3)} s (the point moves {3} places right, so the power is negative).\nThe distance from the Earth to the Sun is about {1.5} × {10}{sup(11)} m."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "physical quantity",
+    "meaning": "something that can be measured, with a number and a unit"
+   },
+   {
+    "word": "SI unit",
+    "meaning": "the international standard unit"
+   },
+   {
+    "word": "prefix",
+    "meaning": "a word in front of a unit that multiplies it, like kilo"
+   },
+   {
+    "word": "standard form",
+    "meaning": "a × {10}ⁿ with {1} ≤ a < {10}"
+   }
+  ],
+  "examples": [
+   "{2.5} kg = {2500} g",
+   "{0.00034} m = {3.4} × {10}⁻{sup(4)} m",
+   "{6} MW = {6000000} W"
+  ],
+  "mistake": {
+   "wrong": "{3.4} × {10}{sup(5)} written as {34} × {10}{sup(4)}",
+   "right": "{3.4} × {10}{sup(5)}",
+   "why": "In standard form the first number must be between {1} and {10}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 4.7,
+   "n": 4
+  },
+  "problem": "Write {a * 10 ^ n} m in standard form.",
+  "steps": [
+   "Move the decimal point to get a number between {1} and {10}: {a}.",
+   "The point moved {n} places to the left, so the power is {n}.",
+   "{a * 10 ^ n} = {a} × {10}{sup(n)}."
+  ],
+  "answer": "{a} × {10}{sup(n)} m",
+  "checks": [
+   "a * 10 ^ n == 47000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p1-1",
+    "status": "draft",
+    "idea": "Every measurement has a number and a unit; the SI unit of mass is the kilogram.",
+    "vars": {},
+    "example": [
+     "Length: metre (m). Time: second (s). Temperature: kelvin (K)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-1-si"
+    }
+   },
+   {
+    "id": "c3p1-2",
+    "status": "draft",
+    "idea": "Prefixes are multipliers: kilo = {1000}, milli = {1} ÷ {1000}.",
+    "vars": {},
+    "example": [
+     "{3.2} km = {3200} m;  {450} mm = {0.45} m"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-1-prefix"
+    }
+   },
+   {
+    "id": "c3p1-3",
+    "status": "draft",
+    "idea": "Standard form: a × {10}ⁿ with a between {1} and {10}.",
+    "vars": {},
+    "example": [
+     "{340000} = {3.4} × {10}{sup(5)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-1-std-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "measurement"
+     ],
+     "vars": {
+      "m": {
+       "int": [
+        11,
+        99
+       ]
+      },
+      "a": {
+       "expr": "m / 10"
+      },
+      "n": {
+       "int": [
+        3,
+        8
+       ]
+      }
+     },
+     "prompt": "Write {a * 10 ^ n} in standard form, a × {10}ⁿ. What is n?",
+     "answer": "n",
+     "misconceptions": [
+      {
+       "id": "digits",
+       "wrong": "n + 1",
+       "explain": "Count the places the point moves, not the number of digits: {a * 10 ^ n} = {a} × {10}{sup(n)}."
+      }
+     ],
+     "solution": [
+      "a must be between {1} and {10}: a = {a}.",
+      "The decimal point moves {n} places, so n = {answer}."
+     ],
+     "where": [
+      "m % 10 != 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-1-si",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the SI unit of mass?",
+       "r": "kilogram (kg)",
+       "w": [
+        "gram (g)",
+        "newton (N)",
+        "litre (L)"
+       ],
+       "e": [
+        "The gram is a smaller unit; the SI base unit is the kilogram.",
+        "The newton is the unit of force (weight).",
+        "The litre measures volume."
+       ],
+       "y": "Mass is measured in kilograms in SI."
+      },
+      {
+       "q": "What is the SI unit of temperature?",
+       "r": "kelvin (K)",
+       "w": [
+        "degree Celsius (°C)",
+        "joule (J)",
+        "degree Fahrenheit (°F)"
+       ],
+       "e": [
+        "°C is used every day, but the SI unit is the kelvin.",
+        "The joule is the unit of energy.",
+        "°F is not an SI unit."
+       ],
+       "y": "The SI unit of temperature is the kelvin."
+      },
+      {
+       "q": "Which is a base quantity (not derived)?",
+       "r": "time",
+       "w": [
+        "speed",
+        "area",
+        "density"
+       ],
+       "e": [
+        "Speed = distance ÷ time: derived.",
+        "Area = length × length: derived.",
+        "Density = mass ÷ volume: derived."
+       ],
+       "y": "Time is one of the base quantities; its unit is the second."
+      },
+      {
+       "q": "What is the SI unit of electric current?",
+       "r": "ampere (A)",
+       "w": [
+        "volt (V)",
+        "watt (W)",
+        "ohm (Ω)"
+       ],
+       "e": [
+        "The volt measures voltage.",
+        "The watt measures power.",
+        "The ohm measures resistance."
+       ],
+       "y": "Current is a base quantity measured in amperes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-1-prefix",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      2,
+      95
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "f": "km",
+       "t": "m"
+      },
+      {
+       "f": "m",
+       "t": "cm"
+      },
+      {
+       "f": "mm",
+       "t": "m"
+      },
+      {
+       "f": "cm",
+       "t": "m"
+      },
+      {
+       "f": "kg",
+       "t": "g"
+      },
+      {
+       "f": "g",
+       "t": "kg"
+      },
+      {
+       "f": "mg",
+       "t": "g"
+      }
+     ]
+    }
+   },
+   "prompt": "Convert {v} {X.f} to {X.t}.",
+   "answer": "convertUnit(v, X.f, X.t)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "convertUnit(v, X.t, X.f)",
+     "explain": "Check the direction: a {X.f} is {factor(X.f, X.t) > 1 ? 'bigger' : 'smaller'} than a {X.t}, so the number gets {factor(X.f, X.t) > 1 ? 'bigger' : 'smaller'}."
+    }
+   ],
+   "solution": [
+    "{1} {X.f} = {factor(X.f, X.t)} {X.t}.",
+    "{v} × {factor(X.f, X.t)} = {answer} {X.t}."
+   ]
+  },
+  {
+   "id": "p3-1-std",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "a": {
+     "expr": "m / 10"
+    },
+    "n": {
+     "int": [
+      3,
+      8
+     ]
+    }
+   },
+   "prompt": "Write {a * 10 ^ n} in standard form, a × {10}ⁿ. What is n?",
+   "answer": "n",
+   "misconceptions": [
+    {
+     "id": "digits",
+     "wrong": "n + 1",
+     "explain": "Count the places the point moves, not the number of digits: {a * 10 ^ n} = {a} × {10}{sup(n)}."
+    }
+   ],
+   "solution": [
+    "a must be between {1} and {10}: a = {a}.",
+    "The decimal point moves {n} places, so n = {answer}."
+   ],
+   "where": [
+    "m % 10 != 0"
+   ]
+  },
+  {
+   "id": "p3-1-small",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "a": {
+     "expr": "m / 10"
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "Write {a / 10 ^ n} in standard form.",
+   "correct": "{a + ' × 10⁻' + sup(n)}",
+   "distractors": [
+    {
+     "text": "{a * 10 + ' × 10⁻' + sup(n + 1)}",
+     "misconception": "big"
+    },
+    {
+     "text": "{a + ' × 10' + sup(n)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{a / 10 + ' × 10⁻' + sup(n - 1)}",
+     "misconception": "small"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "big",
+     "explain": "{a * 10} is not between {1} and {10}."
+    },
+    {
+     "id": "sign",
+     "explain": "A small number (less than {1}) has a negative power of {10}."
+    },
+    {
+     "id": "small",
+     "explain": "{a / 10} is less than {1}: a must be at least {1}."
+    }
+   ],
+   "solution": [
+    "Move the point right until the number is between {1} and {10}: {a}.",
+    "It moved {n} places to the right, so the power is −{n}: {answer}."
+   ],
+   "where": [
+    "m % 10 != 0"
+   ]
+  },
+  {
+   "id": "p3-1-micro",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      40,
+      120
+     ]
+    }
+   },
+   "prompt": "A hair is {d} µm thick. What is this in millimetres?",
+   "answer": "d / 1000",
+   "misconceptions": [
+    {
+     "id": "m",
+     "wrong": "d / 1000000",
+     "explain": "That is in metres. {1} mm = {1000} µm, so divide by {1000}."
+    },
+    {
+     "id": "mult",
+     "wrong": "d * 1000",
+     "explain": "Millimetres are bigger than micrometres: the number gets smaller."
+    }
+   ],
+   "solution": [
+    "{1} µm = {1} ÷ {1000000} m and {1} mm = {1} ÷ {1000} m, so {1} µm = {0.001} mm.",
+    "{d} µm = {d} ÷ {1000} = {answer} mm."
+   ],
+   "unit": "mm"
+  }
+ ]
+}

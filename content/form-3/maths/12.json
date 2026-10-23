@@ -1,0 +1,521 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "m3-12",
+   "name": "Solve quadratic equations with the quadratic formula"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For ax² + bx + c = 0 (a ≠ 0), the solutions are x = (−b ± √(b² − 4ac)) ÷ 2a.\n• Write the equation with zero on one side and read a, b, c with their signs.\n• Work out the discriminant D = b² − 4ac first.\n• D > 0: two different roots; D = 0: one repeated root; D < 0: no real roots.\n• The formula works even when the quadratic does not factorise; give roots to the accuracy asked (often 2 decimal places).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "When factorising fails",
+    "text": "Some quadratics, such as {poly([1, 'x²'], [3, 'x'], [-1, ''])} = {0}, have no whole-number factors. The quadratic formula always works:\nx = (−b ± √(b² − {4}ac)) ÷ {2}a\nHere a is the coefficient of x², b of x, and c is the number term, each read with its sign after making one side zero.\nThe ± means: do it once with + and once with −. That gives the two roots."
+   },
+   {
+    "heading": "Step by step",
+    "text": "Solve {poly([2, 'x²'], [-3, 'x'], [-4, ''])} = {0}. a = {2}, b = {-3}, c = {-4}.\n• Discriminant: D = ({-3})² − {4} × {2} × ({-4}) = {9} + {32} = {41}.\n• x = ({3} ± √{41}) ÷ {4}, and √{41} ≈ {6.4031}.\n• x ≈ ({3} + {6.4031}) ÷ {4} ≈ {2.35} or x ≈ ({3} − {6.4031}) ÷ {4} ≈ {-0.85}.\nCareful with −b: if b is negative, −b is positive."
+   },
+   {
+    "heading": "What the discriminant tells you",
+    "text": "D = b² − {4}ac is under the square root.\n• D positive: two different real roots.\n• D zero: √{0} = {0}, so both roots are the same (one repeated root).\n• D negative: there is no real square root, so no real roots.\nCheck D first: it tells you what to expect before you finish the calculation."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quadratic formula",
+    "meaning": "x = (−b ± √(b² − {4}ac)) ÷ {2}a"
+   },
+   {
+    "word": "discriminant",
+    "meaning": "D = b² − {4}ac, the part under the square root"
+   },
+   {
+    "word": "decimal places",
+    "meaning": "digits after the decimal point"
+   }
+  ],
+  "examples": [
+   "{poly([1, 'x²'], [-6, 'x'], [9, ''])} = {0}: D = {0}, one root x = {3}",
+   "{poly([1, 'x²'], [1, 'x'], [1, ''])} = {0}: D = {-3}, no real roots"
+  ],
+  "mistake": {
+   "wrong": "For {poly([1, 'x²'], [-5, 'x'], [2, ''])} = {0}: x = ({-5} ± √{17}) ÷ {2}",
+   "right": "x = ({5} ± √{17}) ÷ {2}",
+   "why": "The formula starts with −b. Here b = {-5}, so −b = {5}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "b": -3,
+   "c": -4
+  },
+  "problem": "Solve {poly([a, 'x²'], [b, 'x'], [c, ''])} = {0}, giving the roots to {2} decimal places.",
+  "steps": [
+   "a = {a}, b = {b}, c = {c}.",
+   "D = b² − {4}ac = {br(b)}² − {4} × {a} × {br(c)} = {b * b - 4 * a * c}.",
+   "x = ({-b} ± √{b * b - 4 * a * c}) ÷ {2 * a}, and √{b * b - 4 * a * c} ≈ {roundTo(sqrt(b * b - 4 * a * c), 0.0001)}.",
+   "x ≈ {roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)} or x ≈ {roundTo((-b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)}."
+  ],
+  "answer": "x ≈ {roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)} or x ≈ {roundTo((-b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)}",
+  "checks": [
+   "b * b - 4 * a * c == 41"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m12-1",
+    "status": "draft",
+    "idea": "Read a, b and c with their signs from ax² + bx + c = {0}.",
+    "vars": {},
+    "example": [
+     "{poly([3, 'x²'], [-5, 'x'], [-2, ''])} = {0}: a = {3}, b = {-5}, c = {-2}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-12-abc"
+    }
+   },
+   {
+    "id": "c3m12-2",
+    "status": "draft",
+    "idea": "Work out the discriminant D = b² − {4}ac first.",
+    "vars": {},
+    "example": [
+     "a = {1}, b = {5}, c = {3}: D = {25} − {12} = {13}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-12-disc"
+    }
+   },
+   {
+    "id": "c3m12-3",
+    "status": "draft",
+    "idea": "The sign of D tells you how many real roots there are.",
+    "vars": {},
+    "example": [
+     "D = {13} > {0}: two roots.  D = {0}: one root.  D = {-7}: none."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-12-count-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "quadratic-equations"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        1,
+        4
+       ]
+      },
+      "K": {
+       "pick": [
+        {
+         "b": 6,
+         "c": 9
+        },
+        {
+         "b": 4,
+         "c": 4
+        },
+        {
+         "b": 2,
+         "c": 5
+        },
+        {
+         "b": 3,
+         "c": 1
+        },
+        {
+         "b": -5,
+         "c": 2
+        },
+        {
+         "b": 1,
+         "c": 3
+        },
+        {
+         "b": -4,
+         "c": 1
+        }
+       ]
+      },
+      "b": {
+       "expr": "K.b * a"
+      },
+      "c": {
+       "expr": "K.c * a"
+      }
+     },
+     "prompt": "How many real roots does {poly([a, 'x²'], [b, 'x'], [c, ''])} = {0} have?",
+     "correct": "{b * b - 4 * a * c > 0 ? 'Two different roots' : b * b - 4 * a * c == 0 ? 'One repeated root' : 'No real roots'}",
+     "distractors": [
+      {
+       "text": "{b * b - 4 * a * c > 0 ? 'One repeated root' : 'Two different roots'}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{b * b - 4 * a * c < 0 ? 'One repeated root' : 'No real roots'}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{'It depends on the value of x'}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "Use D = b² − {4}ac = {b * b - 4 * a * c}: positive gives two roots, zero one, negative none."
+      },
+      {
+       "id": "w2",
+       "explain": "Use D = b² − {4}ac = {b * b - 4 * a * c}: positive gives two roots, zero one, negative none."
+      },
+      {
+       "id": "w3",
+       "explain": "The number of roots is fixed by a, b and c through D = b² − {4}ac, not by x."
+      }
+     ],
+     "solution": [
+      "D = b² − {4}ac = {b * b} − {4 * a * c} = {b * b - 4 * a * c}.",
+      "{b * b - 4 * a * c > 0 ? 'D > 0' : b * b - 4 * a * c == 0 ? 'D = 0' : 'D < 0'}, so: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-12-abc",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      -1
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      -1
+     ]
+    }
+   },
+   "prompt": "For {poly([a, 'x²'], [b, 'x'], [c, ''])} = {0}, what are a, b and c?",
+   "correct": "{'a = ' + fmt(a) + ', b = ' + fmt(b) + ', c = ' + fmt(c)}",
+   "distractors": [
+    {
+     "text": "{'a = ' + fmt(a) + ', b = ' + fmt(abs(b)) + ', c = ' + fmt(abs(c))}",
+     "misconception": "signs"
+    },
+    {
+     "text": "{'a = ' + fmt(c) + ', b = ' + fmt(b) + ', c = ' + fmt(a)}",
+     "misconception": "order"
+    },
+    {
+     "text": "{'a = ' + fmt(a) + ', b = ' + fmt(c) + ', c = ' + fmt(b)}",
+     "misconception": "bc"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "signs",
+     "explain": "Keep the signs: b = {b} and c = {c} are negative."
+    },
+    {
+     "id": "order",
+     "explain": "a goes with x², c is the number term."
+    },
+    {
+     "id": "bc",
+     "explain": "b goes with x and c is the number term."
+    }
+   ],
+   "solution": [
+    "a is the coefficient of x², b of x, and c is the number term, each with its sign.",
+    "So {answer}."
+   ],
+   "where": [
+    "a != c",
+    "b != c"
+   ]
+  },
+  {
+   "id": "m3-12-disc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Work out the discriminant b² − 4ac for {poly([a, 'x²'], [b, 'x'], [c, ''])} = {0}.",
+   "answer": "b * b - 4 * a * c",
+   "misconceptions": [
+    {
+     "id": "csign",
+     "wrong": "b * b + 4 * a * c",
+     "explain": "Keep the sign of c: {4} × {a} × {br(c)} = {4 * a * c}."
+    },
+    {
+     "id": "bsq",
+     "wrong": "-b * b - 4 * a * c",
+     "explain": "b² is never negative: {br(b)}² = {b * b}."
+    }
+   ],
+   "solution": [
+    "a = {a}, b = {b}, c = {c}.",
+    "b² − {4}ac = {b * b} − {4} × {a} × {br(c)} = {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "c != 0",
+    "b * b - 4 * a * c != b * b + 4 * a * c",
+    "b * b - 4 * a * c != -b * b - 4 * a * c"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-12-big",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      -1
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x²'], [b, 'x'], [c, ''])} = {0} with the formula. Give the larger root to {2} decimal places.",
+   "answer": "roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "roundTo(-b + sqrt(b * b - 4 * a * c), 0.01)",
+     "explain": "Divide the whole top by {2 * a}."
+    },
+    {
+     "id": "bsign",
+     "wrong": "roundTo((b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+     "explain": "The formula starts with −b = {-b}, not {b}."
+    }
+   ],
+   "solution": [
+    "D = {br(b)}² − {4} × {a} × {br(c)} = {b * b - 4 * a * c}.",
+    "x = ({-b} + √{b * b - 4 * a * c}) ÷ {2 * a} ≈ ({-b} + {roundTo(sqrt(b * b - 4 * a * c), 0.0001)}) ÷ {2 * a} ≈ {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "!isPerfectSquare(b * b - 4 * a * c)",
+    "roundTo(-b + sqrt(b * b - 4 * a * c), 0.01) != roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-12-small",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      -1
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x²'], [b, 'x'], [c, ''])} = {0} with the formula. Give the smaller root to {2} decimal places.",
+   "answer": "roundTo((-b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+   "misconceptions": [
+    {
+     "id": "plus",
+     "wrong": "roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+     "explain": "That is the larger root (with +). The smaller one uses −√D."
+    }
+   ],
+   "solution": [
+    "D = {b * b - 4 * a * c}, √D ≈ {roundTo(sqrt(b * b - 4 * a * c), 0.0001)}.",
+    "The smaller root uses minus: x = ({-b} − √{b * b - 4 * a * c}) ÷ {2 * a} ≈ {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "!isPerfectSquare(b * b - 4 * a * c)"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-12-count",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "K": {
+     "pick": [
+      {
+       "b": 6,
+       "c": 9
+      },
+      {
+       "b": 4,
+       "c": 4
+      },
+      {
+       "b": 2,
+       "c": 5
+      },
+      {
+       "b": 3,
+       "c": 1
+      },
+      {
+       "b": -5,
+       "c": 2
+      },
+      {
+       "b": 1,
+       "c": 3
+      },
+      {
+       "b": -4,
+       "c": 1
+      }
+     ]
+    },
+    "b": {
+     "expr": "K.b * a"
+    },
+    "c": {
+     "expr": "K.c * a"
+    }
+   },
+   "prompt": "How many real roots does {poly([a, 'x²'], [b, 'x'], [c, ''])} = {0} have?",
+   "correct": "{b * b - 4 * a * c > 0 ? 'Two different roots' : b * b - 4 * a * c == 0 ? 'One repeated root' : 'No real roots'}",
+   "distractors": [
+    {
+     "text": "{b * b - 4 * a * c > 0 ? 'One repeated root' : 'Two different roots'}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{b * b - 4 * a * c < 0 ? 'One repeated root' : 'No real roots'}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{'It depends on the value of x'}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "Use D = b² − {4}ac = {b * b - 4 * a * c}: positive gives two roots, zero one, negative none."
+    },
+    {
+     "id": "w2",
+     "explain": "Use D = b² − {4}ac = {b * b - 4 * a * c}: positive gives two roots, zero one, negative none."
+    },
+    {
+     "id": "w3",
+     "explain": "The number of roots is fixed by a, b and c through D = b² − {4}ac, not by x."
+    }
+   ],
+   "solution": [
+    "D = b² − {4}ac = {b * b} − {4 * a * c} = {b * b - 4 * a * c}.",
+    "{b * b - 4 * a * c > 0 ? 'D > 0' : b * b - 4 * a * c == 0 ? 'D = 0' : 'D < 0'}, so: {answer}."
+   ]
+  }
+ ]
+}

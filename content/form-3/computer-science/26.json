@@ -1,0 +1,590 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  24,
+  25
+ ],
+ "skills": [
+  {
+   "id": "s3-26",
+   "name": "Common application software 3: graphics, multimedia, communication and utilities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Other common applications:\n• Graphics: drawing and photo editing (Paint, GIMP, Photoshop); design (Canva, Publisher) for posters and flyers.\n• Multimedia: playing and editing audio and video (VLC, Audacity, video editors).\n• Web browsers (Chrome, Firefox, Edge) to view websites; search engines to find information.\n• Communication: e-mail, messaging (WhatsApp), video calls (Zoom, Google Meet).\n• Utilities (system tools): antivirus, file compression (zip), backup, disk clean-up.\nGeneral-purpose software does many tasks (a word processor); specialist software does one job (accounting or hospital software).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Images, sound and video",
+    "text": "• Graphics software: drawing (Paint), photo editing (GIMP, Photoshop) and design (Canva, Publisher) for posters, flyers and certificates.\n• Multimedia software: playing and editing music and video (VLC, Audacity, video editors) for school events, music and adverts."
+   },
+   {
+    "heading": "Internet and communication",
+    "text": "• Web browsers (Chrome, Firefox, Edge) display websites; search engines find them.\n• E-mail sends letters and files.\n• Messaging apps (WhatsApp) and video-call software (Zoom, Google Meet) let people talk and share instantly.\nUse them responsibly: protect personal data and think before sharing."
+   },
+   {
+    "heading": "Utilities and choosing software",
+    "text": "Utilities look after the computer: antivirus (removes malware), compression (zip files smaller), backup (copies of files), disk clean-up.\nGeneral-purpose software can do many jobs (word processors, spreadsheets); specialist software does one job (hospital, banking or school-fees software).\nChoose software by the task, cost, ease of use and the files it must open. Free open-source programs such as LibreOffice and GIMP can save money."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "utility",
+    "meaning": "a program that maintains or protects the computer"
+   },
+   {
+    "word": "multimedia",
+    "meaning": "combining text, sound, images and video"
+   },
+   {
+    "word": "general-purpose software",
+    "meaning": "software for many kinds of task"
+   },
+   {
+    "word": "specialist software",
+    "meaning": "software for one particular job"
+   }
+  ],
+  "examples": [
+   "Poster: Canva",
+   "Antivirus: utility",
+   "Hospital records: specialist software"
+  ],
+  "mistake": {
+   "wrong": "Antivirus is an application for writing letters",
+   "right": "Antivirus is a utility that protects against malware",
+   "why": "Utilities look after the computer; applications do users' tasks."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A youth club in Buea wants to make a colourful poster and share it with members by phone. Which software would they use?",
+  "steps": [
+   "To design the poster: graphics/desktop publishing software (e.g. Canva or Publisher).",
+   "To share it: a messaging app such as WhatsApp, or e-mail."
+  ],
+  "answer": "Design software, then a messaging or e-mail app",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s26-1",
+    "status": "draft",
+    "idea": "Graphics software edits images and designs posters.",
+    "vars": {},
+    "example": [
+     "Removing red-eye from a photo"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-26-which"
+    }
+   },
+   {
+    "id": "c3s26-2",
+    "status": "draft",
+    "idea": "Utilities look after the computer: antivirus, backup, compression.",
+    "vars": {},
+    "example": [
+     "Zipping a folder before e-mailing it"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-26-util"
+    }
+   },
+   {
+    "id": "c3s26-3",
+    "status": "draft",
+    "idea": "General-purpose software does many tasks; specialist software does one.",
+    "vars": {},
+    "example": [
+     "Hospital patient software is specialist."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-26-type-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is specialist software?",
+         "r": "software for managing patients in a hospital",
+         "w": [
+          "a word processor",
+          "a spreadsheet",
+          "a web browser"
+         ],
+         "e": [
+          "A word processor is general-purpose.",
+          "A spreadsheet is general-purpose.",
+          "A browser is general-purpose."
+         ],
+         "y": "It is made for one particular job."
+        },
+        {
+         "q": "Which is general-purpose software?",
+         "r": "a spreadsheet",
+         "w": [
+          "a school timetabling program",
+          "payroll software for one company",
+          "airline booking software"
+         ],
+         "e": [
+          "That does one specific job.",
+          "That does one specific job.",
+          "That does one specific job."
+         ],
+         "y": "Spreadsheets can be used for many tasks."
+        },
+        {
+         "q": "A photographer wants to brighten and crop photos. Which kind of software?",
+         "r": "photo-editing (graphics) software",
+         "w": [
+          "database software",
+          "accounting software",
+          "an e-mail program"
+         ],
+         "e": [
+          "Databases store records.",
+          "Accounting software keeps accounts.",
+          "E-mail sends messages."
+         ],
+         "y": "Graphics software changes images."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-26-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Cutting and joining clips for a school video",
+       "r": "video editing software",
+       "w": [
+        "spreadsheet",
+        "database",
+        "antivirus"
+       ],
+       "e": [
+        "Spreadsheets calculate.",
+        "Databases store records.",
+        "Antivirus protects."
+       ],
+       "y": "Multimedia software edits audio and video."
+      },
+      {
+       "q": "Finding information about volcanoes online",
+       "r": "a web browser with a search engine",
+       "w": [
+        "a word processor",
+        "a photo editor",
+        "a compression utility"
+       ],
+       "e": [
+        "Word processors write documents.",
+        "Photo editors change images.",
+        "Zip tools shrink files."
+       ],
+       "y": "Browsers display web pages; search engines find them."
+      },
+      {
+       "q": "Holding a lesson by video call with pupils at home",
+       "r": "video-conferencing software (e.g. Zoom, Google Meet)",
+       "w": [
+        "a spreadsheet",
+        "a drawing program",
+        "a database"
+       ],
+       "e": [
+        "Not for calls.",
+        "Not for calls.",
+        "Not for calls."
+       ],
+       "y": "Communication software connects people live."
+      }
+     ]
+    }
+   },
+   "prompt": "Which software is best? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-26-util",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does antivirus software do?",
+       "r": "detects and removes malicious software",
+       "w": [
+        "edits photos",
+        "writes letters",
+        "speeds up the internet connection"
+       ],
+       "e": [
+        "That is graphics software.",
+        "That is a word processor.",
+        "It does not change the connection speed."
+       ],
+       "y": "A utility that protects the system."
+      },
+      {
+       "q": "Why compress (zip) a folder before e-mailing it?",
+       "r": "To make the file smaller and send it as one file",
+       "w": [
+        "To make it bigger",
+        "To delete it",
+        "To print it"
+       ],
+       "e": [
+        "Compression reduces size.",
+        "The data is kept.",
+        "Printing is separate."
+       ],
+       "y": "Smaller files send faster."
+      },
+      {
+       "q": "Which is a utility program?",
+       "r": "backup software",
+       "w": [
+        "a game",
+        "a web browser",
+        "a presentation program"
+       ],
+       "e": [
+        "Games are entertainment.",
+        "Browsers are applications.",
+        "Presentations are applications."
+       ],
+       "y": "Utilities maintain and protect the computer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-26-type",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is specialist software?",
+       "r": "software for managing patients in a hospital",
+       "w": [
+        "a word processor",
+        "a spreadsheet",
+        "a web browser"
+       ],
+       "e": [
+        "A word processor is general-purpose.",
+        "A spreadsheet is general-purpose.",
+        "A browser is general-purpose."
+       ],
+       "y": "It is made for one particular job."
+      },
+      {
+       "q": "Which is general-purpose software?",
+       "r": "a spreadsheet",
+       "w": [
+        "a school timetabling program",
+        "payroll software for one company",
+        "airline booking software"
+       ],
+       "e": [
+        "That does one specific job.",
+        "That does one specific job.",
+        "That does one specific job."
+       ],
+       "y": "Spreadsheets can be used for many tasks."
+      },
+      {
+       "q": "A photographer wants to brighten and crop photos. Which kind of software?",
+       "r": "photo-editing (graphics) software",
+       "w": [
+        "database software",
+        "accounting software",
+        "an e-mail program"
+       ],
+       "e": [
+        "Databases store records.",
+        "Accounting software keeps accounts.",
+        "E-mail sends messages."
+       ],
+       "y": "Graphics software changes images."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-26-choose",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A small business sells clothes in Bafoussam market. Which pair of software would help it most?",
+       "r": "a spreadsheet for sales and stock, and a messaging app for customers",
+       "w": [
+        "a video game and a photo editor",
+        "a flight simulator and a database of stars",
+        "only an antivirus"
+       ],
+       "e": [
+        "Not useful for running the shop.",
+        "Not relevant.",
+        "Protection alone does not run the business."
+       ],
+       "y": "Choose software that matches the tasks."
+      },
+      {
+       "q": "Why should you keep antivirus software updated?",
+       "r": "New viruses appear all the time and updates help detect them",
+       "w": [
+        "Updates make the screen brighter",
+        "Old versions are faster",
+        "Updates delete your files"
+       ],
+       "e": [
+        "Not related.",
+        "Speed is not the reason.",
+        "They should not delete your files."
+       ],
+       "y": "Up-to-date definitions recognise new threats."
+      },
+      {
+       "q": "Why might a school choose free open-source software like LibreOffice?",
+       "r": "It does the same everyday tasks without licence fees",
+       "w": [
+        "It cannot open any files",
+        "It needs no computer",
+        "It is illegal"
+       ],
+       "e": [
+        "It opens common file types.",
+        "It runs on a computer.",
+        "It is legal and free."
+       ],
+       "y": "Saves money on licences."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}
