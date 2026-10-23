@@ -1,0 +1,453 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "p3-17",
+   "name": "Conservation of energy, transducers, energy flow and simple calculations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Law of conservation of energy: energy cannot be created or destroyed; it only changes from one form to another. The total stays the same.\nA transducer changes one form of energy into another: microphone (sound → electrical), loudspeaker (electrical → sound), solar cell (light → electrical), dynamo (kinetic → electrical), electric motor (electrical → kinetic), bulb (electrical → light + heat).\nEnergy flow (Sankey) diagrams show input = useful output + wasted output.\nCalculations: gravitational potential energy PE = mgh; kinetic energy KE = ½mv²; efficiency = useful output ÷ total input × 100%.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Energy is conserved",
+    "text": "The law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another.\nWhen a coconut falls, its gravitational potential energy changes into kinetic energy; when it hits the ground, into sound and heat. The total amount of energy stays the same.\nWhen we say energy is 'wasted', we mean it has gone into a form we did not want, usually heat."
+   },
+   {
+    "heading": "Transducers and energy flow",
+    "text": "Devices that change energy from one form to another are transducers:\n• microphone: sound → electrical; loudspeaker: electrical → sound;\n• solar cell: light → electrical; bulb: electrical → light and heat;\n• dynamo: kinetic → electrical; motor: electrical → kinetic; battery: chemical → electrical.\nAn energy flow (Sankey) diagram shows the input split into useful and wasted outputs; the arrows add up to the input."
+   },
+   {
+    "heading": "Working it out",
+    "text": "• Gravitational potential energy: PE = mgh. A {50} kg bag lifted {2} m gains {50} × {10} × {2} = {1000} J.\n• Kinetic energy: KE = ½mv². A {100} kg motorbike at {10} m/s has {5000} J.\n• Efficiency = useful output ÷ total input × {100}%. A bulb giving {20} J of light from {100} J is {20}% efficient; the other {80} J become heat."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "conservation of energy",
+    "meaning": "energy is not created or destroyed, only changed"
+   },
+   {
+    "word": "transducer",
+    "meaning": "a device that changes energy from one form to another"
+   },
+   {
+    "word": "efficiency",
+    "meaning": "useful output ÷ total input × {100}%"
+   },
+   {
+    "word": "Sankey diagram",
+    "meaning": "a diagram showing how energy input divides into outputs"
+   }
+  ],
+  "examples": [
+   "Loudspeaker: electrical → sound",
+   "PE of {3} kg at {4} m: {120} J",
+   "KE of {2} kg at {3} m/s: {9} J"
+  ],
+  "mistake": {
+   "wrong": "Energy is used up when a bulb is switched on",
+   "right": "Electrical energy is changed into light and heat; the total is the same",
+   "why": "Energy is never destroyed; it only changes form."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 2,
+   "h": 5
+  },
+  "problem": "A {m} kg coconut falls from a height of {h} m. Find its potential energy at the top and its speed just before it hits the ground (ignore air resistance).",
+  "steps": [
+   "PE = mgh = {m} × {10} × {h} = {m * 10 * h} J.",
+   "All of it becomes kinetic energy: ½mv² = {m * 10 * h}, so v² = {2 * 10 * h}.",
+   "v = √{2 * 10 * h} = {sqrt(2 * 10 * h)} m/s."
+  ],
+  "answer": "PE = {m * 10 * h} J, v = {sqrt(2 * 10 * h)} m/s",
+  "checks": [
+   "sqrt(2 * 10 * h) == 10"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p17-1",
+    "status": "draft",
+    "idea": "Energy is never lost: it changes form, and the total stays the same.",
+    "vars": {},
+    "example": [
+     "A bulb: electrical in = light out + heat out"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-17-trans"
+    }
+   },
+   {
+    "id": "c3p17-2",
+    "status": "draft",
+    "idea": "Potential energy PE = mgh; kinetic energy KE = ½mv².",
+    "vars": {},
+    "example": [
+     "{2} kg at {5} m: PE = {100} J"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-17-pe"
+    }
+   },
+   {
+    "id": "c3p17-3",
+    "status": "draft",
+    "idea": "Efficiency = useful output ÷ total input × {100}%.",
+    "vars": {},
+    "example": [
+     "{100} J in, {20} J of light out: {20}%"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-17-eff-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "energy"
+     ],
+     "vars": {
+      "E": {
+       "pick": [
+        100,
+        200,
+        400,
+        500,
+        1000
+       ]
+      },
+      "U": {
+       "int": [
+        5,
+        90
+       ],
+       "step": 5
+      }
+     },
+     "prompt": "A bulb uses {E} J of electrical energy and gives out {U} J of light. Find its efficiency (%).",
+     "answer": "U / E * 100",
+     "misconceptions": [
+      {
+       "id": "waste",
+       "wrong": "100 - U / E * 100",
+       "explain": "That is the percentage wasted as heat. Efficiency uses the useful output."
+      },
+      {
+       "id": "noper",
+       "wrong": "U / E",
+       "explain": "Multiply by {100} to get a percentage."
+      }
+     ],
+     "solution": [
+      "Efficiency = useful ÷ total × {100}%.",
+      "= {U} ÷ {E} × {100} = {answer}%."
+     ],
+     "unit": "%",
+     "where": [
+      "U < E"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-17-trans",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "energy"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What energy change happens in a microphone?",
+       "r": "sound → electrical",
+       "w": [
+        "electrical → sound",
+        "light → electrical",
+        "kinetic → light"
+       ],
+       "e": [
+        "That is a loudspeaker.",
+        "That is a solar cell.",
+        "No light is produced."
+       ],
+       "y": "A microphone turns sound waves into electrical signals."
+      },
+      {
+       "q": "What energy change happens in a solar cell?",
+       "r": "light → electrical",
+       "w": [
+        "electrical → light",
+        "chemical → electrical",
+        "heat → sound"
+       ],
+       "e": [
+        "That is a lamp.",
+        "That is a battery.",
+        "That is not what a solar cell does."
+       ],
+       "y": "Sunlight falling on the cell produces electricity."
+      },
+      {
+       "q": "Which device changes electrical energy into kinetic energy?",
+       "r": "an electric motor",
+       "w": [
+        "a dynamo",
+        "a microphone",
+        "a solar cell"
+       ],
+       "e": [
+        "A dynamo does the opposite (kinetic → electrical).",
+        "A microphone gives electrical energy from sound.",
+        "A solar cell gives electrical energy from light."
+       ],
+       "y": "A motor turns electricity into motion, as in a fan."
+      },
+      {
+       "q": "A bicycle dynamo lights a lamp. What is the energy change in the dynamo?",
+       "r": "kinetic → electrical",
+       "w": [
+        "electrical → kinetic",
+        "chemical → light",
+        "sound → electrical"
+       ],
+       "e": [
+        "That is a motor.",
+        "The dynamo uses motion, not chemicals.",
+        "That is a microphone."
+       ],
+       "y": "The turning wheel drives the dynamo, which produces electricity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-17-pe",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "energy"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      5,
+      50
+     ],
+     "step": 5
+    },
+    "h": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "prompt": "A {m} kg bag of cement is lifted {h} m onto a lorry. Find the gain in potential energy (J). (g = {10} N/kg)",
+   "answer": "m * 10 * h",
+   "misconceptions": [
+    {
+     "id": "nog",
+     "wrong": "m * h",
+     "explain": "Include g = {10} N/kg: PE = mgh."
+    }
+   ],
+   "solution": [
+    "PE = mgh = {m} × {10} × {h}.",
+    "PE = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p3-17-ke",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "energy"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      100,
+      300
+     ],
+     "step": 20
+    },
+    "v": {
+     "int": [
+      4,
+      20
+     ]
+    }
+   },
+   "prompt": "A motorbike of mass {m} kg moves at {v} m/s. Find its kinetic energy (J).",
+   "answer": "m * v * v / 2",
+   "misconceptions": [
+    {
+     "id": "nosq",
+     "wrong": "m * v / 2",
+     "explain": "Square the speed: v² = {v * v}."
+    },
+    {
+     "id": "nohalf",
+     "wrong": "m * v * v",
+     "explain": "KE has a half: ½mv²."
+    }
+   ],
+   "solution": [
+    "KE = ½mv² = ½ × {m} × {v}².",
+    "= ½ × {m} × {v * v} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p3-17-eff",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "energy"
+   ],
+   "vars": {
+    "E": {
+     "pick": [
+      100,
+      200,
+      400,
+      500,
+      1000
+     ]
+    },
+    "U": {
+     "int": [
+      5,
+      90
+     ],
+     "step": 5
+    }
+   },
+   "prompt": "A bulb uses {E} J of electrical energy and gives out {U} J of light. Find its efficiency (%).",
+   "answer": "U / E * 100",
+   "misconceptions": [
+    {
+     "id": "waste",
+     "wrong": "100 - U / E * 100",
+     "explain": "That is the percentage wasted as heat. Efficiency uses the useful output."
+    },
+    {
+     "id": "noper",
+     "wrong": "U / E",
+     "explain": "Multiply by {100} to get a percentage."
+    }
+   ],
+   "solution": [
+    "Efficiency = useful ÷ total × {100}%.",
+    "= {U} ÷ {E} × {100} = {answer}%."
+   ],
+   "unit": "%",
+   "where": [
+    "U < E"
+   ]
+  },
+  {
+   "id": "p3-17-fall",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "energy"
+   ],
+   "vars": {
+    "h": {
+     "pick": [
+      5,
+      20,
+      45,
+      80,
+      125,
+      180
+     ]
+    }
+   },
+   "prompt": "A stone falls from a height of {h} m. Ignoring air resistance, find its speed just before it reaches the ground (m/s). (g = {10} N/kg)",
+   "answer": "sqrt(20 * h)",
+   "misconceptions": [
+    {
+     "id": "nosqrt",
+     "wrong": "20 * h",
+     "explain": "That is v². Take the square root."
+    },
+    {
+     "id": "noh2",
+     "wrong": "10 * h",
+     "explain": "v² = {2}gh: remember the {2}."
+    }
+   ],
+   "solution": [
+    "PE at the top = KE at the bottom: mgh = ½mv², so v² = {2}gh.",
+    "v² = {2} × {10} × {h} = {20 * h}, so v = {answer} m/s."
+   ],
+   "unit": "m/s"
+  }
+ ]
+}

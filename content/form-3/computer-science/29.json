@@ -1,0 +1,590 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "s3-29",
+   "name": "Digital rights management (DRM)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Digital rights management (DRM) is technology that controls how digital content (music, films, e-books, software, games) can be used, to protect copyright.\nExamples:\n• Licence keys and product activation for software.\n• Streaming services that let you watch but not download, or only on registered devices.\n• E-books that cannot be copied or printed; encrypted DVDs; region codes.\n• Watermarks that identify the owner.\nAdvantages: protects creators' income, reduces piracy. Disadvantages: can stop fair uses, may need internet to check licences, content may become unusable if the service closes.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Protecting digital content",
+    "text": "Digital files can be copied perfectly in seconds. Digital rights management (DRM) is technology that controls how music, films, e-books, games and software may be used, so copyright holders are paid."
+   },
+   {
+    "heading": "How DRM works",
+    "text": "• Licence keys and activation: a code proves you bought the software.\n• Streaming limits: watch or listen online, often without downloading, on a limited number of devices.\n• Copy and print restrictions on e-books; encryption on DVDs; region codes.\n• Watermarks: visible or hidden marks showing who owns or bought the content."
+   },
+   {
+    "heading": "For and against",
+    "text": "For: it reduces piracy and protects the income of musicians, film makers and programmers.\nAgainst: it can stop honest uses (moving a song you bought to a new phone), may need the internet to check licences, and content can become unusable if the service closes.\nAvoid 'cracked' software that removes DRM: it is illegal and often carries malware."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "DRM",
+    "meaning": "digital rights management: technology controlling use of digital content"
+   },
+   {
+    "word": "licence key",
+    "meaning": "a code that activates paid software"
+   },
+   {
+    "word": "watermark",
+    "meaning": "a mark showing ownership"
+   },
+   {
+    "word": "encryption",
+    "meaning": "scrambling data so only authorised users can read it"
+   }
+  ],
+  "examples": [
+   "Streaming film: watch only",
+   "Software activation key",
+   "E-book: no copying"
+  ],
+  "mistake": {
+   "wrong": "DRM makes content free to copy",
+   "right": "DRM controls and limits copying",
+   "why": "Its purpose is to protect copyright."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih buys a film on a streaming app. She can watch it on her phone but cannot copy it to her friend's laptop. Why?",
+  "steps": [
+   "The film is protected by DRM.",
+   "The licence allows viewing only on her registered account or device.",
+   "This stops unlicensed copies being shared."
+  ],
+  "answer": "DRM limits copying to protect the film's copyright",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s29-1",
+    "status": "draft",
+    "idea": "DRM controls how digital content can be used.",
+    "vars": {},
+    "example": [
+     "Licence keys, encryption, watermarks"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-29-def"
+    }
+   },
+   {
+    "id": "c3s29-2",
+    "status": "draft",
+    "idea": "DRM protects creators but can limit users.",
+    "vars": {},
+    "example": [
+     "You may need the internet to activate software."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-29-pro-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is an advantage of DRM for a musician?",
+         "r": "It helps stop illegal copies, protecting income",
+         "w": [
+          "It makes all music free",
+          "It improves the sound quality",
+          "It removes the need for a licence"
+         ],
+         "e": [
+          "It controls, not frees, use.",
+          "It does not change the sound.",
+          "It enforces the licence."
+         ],
+         "y": "Less piracy, more sales."
+        },
+        {
+         "q": "Which is a disadvantage of DRM for users?",
+         "r": "Content may stop working if the service closes or there is no internet to check the licence",
+         "w": [
+          "It makes films longer",
+          "It adds viruses",
+          "It always costs nothing"
+         ],
+         "e": [
+          "It does not change length.",
+          "It is not malware.",
+          "That is not a disadvantage."
+         ],
+         "y": "Users depend on the provider."
+        },
+        {
+         "q": "Why do some people say DRM is too strict?",
+         "r": "It can stop legal uses, like moving a song you bought to a new device",
+         "w": [
+          "It allows unlimited copying",
+          "It is never used",
+          "It makes files smaller"
+         ],
+         "e": [
+          "It restricts copying.",
+          "It is widely used.",
+          "Not related."
+         ],
+         "y": "Strict controls can affect honest buyers."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c3s29-3",
+    "status": "draft",
+    "idea": "A licence key proves software was paid for.",
+    "vars": {},
+    "example": [
+     "A code typed in during installation"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-29-ex"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-29-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is DRM?",
+       "r": "Technology that controls how digital content can be used and copied",
+       "w": [
+        "A kind of computer virus",
+        "A type of printer",
+        "A way to make files bigger"
+       ],
+       "e": [
+        "It protects content; it is not malware.",
+        "Not hardware.",
+        "Not about size."
+       ],
+       "y": "Digital rights management protects copyright."
+      },
+      {
+       "q": "What is the main purpose of DRM?",
+       "r": "to protect copyright and reduce piracy",
+       "w": [
+        "to speed up downloads",
+        "to fix spelling",
+        "to cool the computer"
+       ],
+       "e": [
+        "Not about speed.",
+        "Not about spelling.",
+        "Not hardware."
+       ],
+       "y": "Creators control how their work is used."
+      },
+      {
+       "q": "Which content commonly uses DRM?",
+       "r": "films on streaming services",
+       "w": [
+        "a handwritten letter",
+        "a chalkboard lesson",
+        "a paper newspaper"
+       ],
+       "e": [
+        "Not digital.",
+        "Not digital.",
+        "Not digital."
+       ],
+       "y": "DRM applies to digital content."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-29-ex",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A code must be typed in before a program can be used.",
+       "r": "licence key / product activation",
+       "w": [
+        "watermark",
+        "region code",
+        "a strong password for your e-mail"
+       ],
+       "e": [
+        "A watermark marks content.",
+        "Region codes limit where discs play.",
+        "That protects an account, not a product licence."
+       ],
+       "y": "The key proves the copy is licensed."
+      },
+      {
+       "q": "A faint logo is printed across a photo.",
+       "r": "watermark",
+       "w": [
+        "licence key",
+        "encryption",
+        "region code"
+       ],
+       "e": [
+        "Keys unlock software.",
+        "Encryption scrambles data.",
+        "Region codes restrict playback by region."
+       ],
+       "y": "Watermarks show ownership."
+      },
+      {
+       "q": "An e-book can be read in its app but cannot be copied or printed.",
+       "r": "copy and print restrictions",
+       "w": [
+        "a patent",
+        "a virus",
+        "a backup"
+       ],
+       "e": [
+        "Patents protect inventions.",
+        "Not malware.",
+        "A backup is a copy, the opposite."
+       ],
+       "y": "The app enforces the licence."
+      }
+     ]
+    }
+   },
+   "prompt": "Which DRM method is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-29-pro",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of DRM for a musician?",
+       "r": "It helps stop illegal copies, protecting income",
+       "w": [
+        "It makes all music free",
+        "It improves the sound quality",
+        "It removes the need for a licence"
+       ],
+       "e": [
+        "It controls, not frees, use.",
+        "It does not change the sound.",
+        "It enforces the licence."
+       ],
+       "y": "Less piracy, more sales."
+      },
+      {
+       "q": "Which is a disadvantage of DRM for users?",
+       "r": "Content may stop working if the service closes or there is no internet to check the licence",
+       "w": [
+        "It makes films longer",
+        "It adds viruses",
+        "It always costs nothing"
+       ],
+       "e": [
+        "It does not change length.",
+        "It is not malware.",
+        "That is not a disadvantage."
+       ],
+       "y": "Users depend on the provider."
+      },
+      {
+       "q": "Why do some people say DRM is too strict?",
+       "r": "It can stop legal uses, like moving a song you bought to a new device",
+       "w": [
+        "It allows unlimited copying",
+        "It is never used",
+        "It makes files smaller"
+       ],
+       "e": [
+        "It restricts copying.",
+        "It is widely used.",
+        "Not related."
+       ],
+       "y": "Strict controls can affect honest buyers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-29-case",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A friend offers a 'cracked' version of a paid game that removes the licence check. What should you do?",
+       "r": "Refuse: it breaks copyright and may contain malware",
+       "w": [
+        "Install it, it is free",
+        "Share it with the class",
+        "Sell copies"
+       ],
+       "e": [
+        "Free does not make it legal.",
+        "That spreads piracy.",
+        "That is illegal."
+       ],
+       "y": "Cracked software is illegal and risky."
+      },
+      {
+       "q": "Why do streaming apps limit the number of devices per account?",
+       "r": "To stop one paid account being shared by many people",
+       "w": [
+        "To save battery",
+        "To make videos clearer",
+        "Because phones cannot play videos"
+       ],
+       "e": [
+        "Not the reason.",
+        "Not related.",
+        "Phones can play videos."
+       ],
+       "y": "The licence is for the subscriber."
+      },
+      {
+       "q": "Which is a fair balance between creators and users?",
+       "r": "Paying for content while having reasonable rights to use what you bought",
+       "w": [
+        "All content always free",
+        "Users have no rights at all",
+        "Copying everything for friends"
+       ],
+       "e": [
+        "Creators need income.",
+        "Buyers deserve fair use.",
+        "That is piracy."
+       ],
+       "y": "Both creators' and users' interests matter."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

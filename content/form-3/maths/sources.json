@@ -1,4 +1,63 @@
 {
  "_note": "Sources for Form 3 Maths (content/classes.json, form-3). Rules are computed by src/engine/lib/maths.js and maths2.js (poly, mono, bracket, br).",
- "algebra-simplify": {"ref": "Form 3 Mathematics syllabus, Term 1: algebraic expressions (simplification, expansion); standard algebra conventions (like terms, laws of indices for products and quotients of terms, distributive law)", "checked": "Answers computed by the engine from the distributive law and index laws; checked by 1000-seed tests."}
+ "algebra-simplify": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: algebraic expressions (simplification, expansion); standard algebra conventions (like terms, laws of indices for products and quotients of terms, distributive law)",
+  "checked": "Answers computed by the engine from the distributive law and index laws; checked by 1000-seed tests."
+ },
+ "algebra-expand": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: expansion of algebraic expressions; identities (a + b)², (a − b)², (a + b)(a − b)",
+  "checked": "Answers computed by the engine from the distributive law; checked by 1000-seed tests."
+ },
+ "algebra-factorise": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: factorisation (common factor, grouping, quadratic trinomials, difference of two squares)",
+  "checked": "Every factorised answer is generated from its factors and its expansion is checked by the tests (1000 seeds)."
+ },
+ "algebra-equations": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: solving linear equations (brackets, unknowns on both sides, fractions)",
+  "checked": "Equations are built from a chosen integer solution; the engine verifies each answer."
+ },
+ "simultaneous": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: simultaneous linear equations (elimination, substitution, graphical meaning)",
+  "checked": "Each pair of equations is built from a chosen integer solution; the engine checks it in both equations."
+ },
+ "word-problems": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: building and solving equations from real-life problems",
+  "checked": "Problems are generated from their solution; answers verified by the engine (1000 seeds)."
+ },
+ "quadratic-equations": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: quadratic equations by factorisation and by the quadratic formula; discriminant",
+  "checked": "Roots computed from the factors or the formula; tests check every variant."
+ },
+ "formulae": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: transposition of formulae (change of subject)",
+  "checked": "Rearranged formulae are authored (each wrong option explained); numerical substitutions are computed by the engine."
+ },
+ "variation": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: direct, inverse, joint and partial variation; graphs",
+  "checked": "Constants of variation and answers computed from the given pairs; formula choices authored."
+ },
+ "pythagoras": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: right-angled triangles and Pythagoras' theorem and its converse",
+  "checked": "Sides from integral Pythagorean triples (maths2.js TRIPLES) or computed square roots."
+ },
+ "trigonometry": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: trigonometric ratios of acute angles, complementary angles, special angles (30°, 45°, 60°), calculators, solving right-angled triangles, elevation and depression",
+  "checked": "Ratios and angles computed with sinD/cosD/tanD and their inverses (maths2.js, tested); exact values authored."
+ },
+ "matrices": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: matrices (definition, types, addition, subtraction, scalar and matrix multiplication, transpose, determinant, adjoint, inverse of a 2 × 2 matrix)",
+  "checked": "All results computed by maths2.js (matAdd, matMul, det2, adj2, matT; tested); matrix types authored."
+ },
+ "congruence": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: congruency, congruent plane figures, congruency in triangles (SSS, SAS, ASA, RHS)",
+  "checked": "Definitions, tests and proof reasons authored (each wrong option explained); lengths and angles computed."
+ },
+ "similarity": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: similar figures, scale factor, areas and volumes of similar figures, Thales property and its converse, applications (maps, models)",
+  "checked": "Lengths, areas (k²) and volumes (k³) computed by the engine; similarity facts authored."
+ },
+ "indices-logs": {
+  "ref": "Form 3 Mathematics syllabus, Term 1: laws of indices (zero, negative, fractional), simple exponential equations, laws of logarithms, simple logarithmic equations",
+  "checked": "Powers and logarithms computed by the engine (^, logb in maths2.js, tested); log 2 ≈ 0.3010 and the powers of ten in the log tables are authored."
+ }
 }

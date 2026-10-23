@@ -1,0 +1,692 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "k3-6",
+   "name": "Relative atomic mass and the mole of atoms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Chemists count atoms by weighing them. A mole (mol) of atoms of an element is its relative atomic mass in grams:\n• 1 mol of carbon (C = 12) has a mass of 12 g; 1 mol of magnesium (Mg = 24) has a mass of 24 g.\n• This mass per mole is the molar mass, in g/mol.\nFormulas: number of moles = mass ÷ molar mass; mass = moles × molar mass.\nExample: 48 g of magnesium = 48 ÷ 24 = 2 mol.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Counting by weighing",
+    "text": "Atoms are far too small to count one by one. Market traders in Mokolo sell rice by the cup or the bag, not grain by grain; chemists count atoms by weighing them.\nThe unit chemists use for 'a certain number of particles' is the mole (mol)."
+   },
+   {
+    "heading": "What a mole of atoms weighs",
+    "text": "One mole of atoms of an element has a mass equal to its relative atomic mass in grams.\n• C = {12}: {1} mol of carbon atoms is {12} g.\n• Mg = {24}: {1} mol is {24} g.\n• Fe = {56}: {1} mol is {56} g.\nThis mass per mole is the molar mass (g/mol). One mole of any element contains the same number of atoms."
+   },
+   {
+    "heading": "Two formulas",
+    "text": "• moles = mass ÷ molar mass: {48} g of magnesium is {48} ÷ {24} = {2} mol.\n• mass = moles × molar mass: {0.5} mol of iron is {0.5} × {56} = {28} g.\nTo compare numbers of atoms in two samples, compare their moles, not their masses: {12} g of carbon has more atoms than {32} g of sulphur? Both are {1} mol, so they have the same number."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "mole (mol)",
+    "meaning": "the chemist's unit for an amount of particles"
+   },
+   {
+    "word": "molar mass",
+    "meaning": "the mass of {1} mol, in g/mol: the RAM in grams"
+   }
+  ],
+  "examples": [
+   "{36} g of carbon = {3} mol",
+   "{0.25} mol of calcium = {10} g",
+   "{56} g of iron and {12} g of carbon: both {1} mol"
+  ],
+  "mistake": {
+   "wrong": "{48} g of Mg = {48} × {24} mol",
+   "right": "{48} g of Mg = {48} ÷ {24} = {2} mol",
+   "why": "Divide the mass by the molar mass to get moles."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": 24,
+   "m": 60
+  },
+  "problem": "How many moles of magnesium atoms are in {m} g of magnesium? (Mg = {r})",
+  "steps": [
+   "Molar mass of Mg = {r} g/mol.",
+   "Moles = mass ÷ molar mass = {m} ÷ {r} = {m / r} mol."
+  ],
+  "answer": "{m / r} mol",
+  "checks": [
+   "m / r == 2.5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k6-1",
+    "status": "draft",
+    "idea": "One mole of an element has a mass equal to its RAM in grams.",
+    "vars": {},
+    "example": [
+     "C = {12}: {1} mol of carbon is {12} g."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-6-molar"
+    }
+   },
+   {
+    "id": "c3k6-2",
+    "status": "draft",
+    "idea": "Moles = mass ÷ molar mass.",
+    "vars": {},
+    "example": [
+     "{48} g of Mg (Mg = {24}): {2} mol"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-6-n"
+    }
+   },
+   {
+    "id": "c3k6-3",
+    "status": "draft",
+    "idea": "Mass = moles × molar mass.",
+    "vars": {},
+    "example": [
+     "{3} mol of O atoms (O = {16}): {48} g"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-6-m-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "mole"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "C",
+         "n": "carbon",
+         "r": 12
+        },
+        {
+         "s": "O",
+         "n": "oxygen",
+         "r": 16
+        },
+        {
+         "s": "Na",
+         "n": "sodium",
+         "r": 23
+        },
+        {
+         "s": "Mg",
+         "n": "magnesium",
+         "r": 24
+        },
+        {
+         "s": "Al",
+         "n": "aluminium",
+         "r": 27
+        },
+        {
+         "s": "S",
+         "n": "sulphur",
+         "r": 32
+        },
+        {
+         "s": "Ca",
+         "n": "calcium",
+         "r": 40
+        },
+        {
+         "s": "Fe",
+         "n": "iron",
+         "r": 56
+        },
+        {
+         "s": "Cu",
+         "n": "copper",
+         "r": 64
+        },
+        {
+         "s": "Zn",
+         "n": "zinc",
+         "r": 65
+        },
+        {
+         "s": "N",
+         "n": "nitrogen",
+         "r": 14
+        }
+       ]
+      },
+      "k": {
+       "int": [
+        1,
+        12
+       ]
+      },
+      "n": {
+       "expr": "k / 4"
+      }
+     },
+     "prompt": "Find the mass of {n} mol of {X.n} atoms (g). ({X.s} = {X.r})",
+     "answer": "roundTo(n * X.r, 0.01)",
+     "misconceptions": [
+      {
+       "id": "div",
+       "wrong": "roundTo(X.r / n, 0.01)",
+       "explain": "Mass = moles × molar mass: multiply."
+      }
+     ],
+     "solution": [
+      "Mass = moles × molar mass = {n} × {X.r}.",
+      "= {answer} g."
+     ],
+     "unit": "g",
+     "where": [
+      "k != 4"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-6-molar",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "C",
+       "n": "carbon",
+       "r": 12
+      },
+      {
+       "s": "O",
+       "n": "oxygen",
+       "r": 16
+      },
+      {
+       "s": "Na",
+       "n": "sodium",
+       "r": 23
+      },
+      {
+       "s": "Mg",
+       "n": "magnesium",
+       "r": 24
+      },
+      {
+       "s": "Al",
+       "n": "aluminium",
+       "r": 27
+      },
+      {
+       "s": "S",
+       "n": "sulphur",
+       "r": 32
+      },
+      {
+       "s": "Ca",
+       "n": "calcium",
+       "r": 40
+      },
+      {
+       "s": "Fe",
+       "n": "iron",
+       "r": 56
+      },
+      {
+       "s": "Cu",
+       "n": "copper",
+       "r": 64
+      },
+      {
+       "s": "Zn",
+       "n": "zinc",
+       "r": 65
+      },
+      {
+       "s": "N",
+       "n": "nitrogen",
+       "r": 14
+      }
+     ]
+    }
+   },
+   "prompt": "What is the mass of {1} mole of {X.n} atoms (g)? ({X.s} = {X.r})",
+   "answer": "X.r",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "A mole is not {1} g: it is the RAM in grams."
+    }
+   ],
+   "solution": [
+    "The mass of {1} mol is the RAM in grams.",
+    "{1} mol of {X.n} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k3-6-n",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "C",
+       "n": "carbon",
+       "r": 12
+      },
+      {
+       "s": "O",
+       "n": "oxygen",
+       "r": 16
+      },
+      {
+       "s": "Na",
+       "n": "sodium",
+       "r": 23
+      },
+      {
+       "s": "Mg",
+       "n": "magnesium",
+       "r": 24
+      },
+      {
+       "s": "Al",
+       "n": "aluminium",
+       "r": 27
+      },
+      {
+       "s": "S",
+       "n": "sulphur",
+       "r": 32
+      },
+      {
+       "s": "Ca",
+       "n": "calcium",
+       "r": 40
+      },
+      {
+       "s": "Fe",
+       "n": "iron",
+       "r": 56
+      },
+      {
+       "s": "Cu",
+       "n": "copper",
+       "r": 64
+      },
+      {
+       "s": "Zn",
+       "n": "zinc",
+       "r": 65
+      },
+      {
+       "s": "N",
+       "n": "nitrogen",
+       "r": 14
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      8
+     ]
+    }
+   },
+   "prompt": "How many moles of atoms are in {X.r * k} g of {X.n}? ({X.s} = {X.r})",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "X.r * k * X.r",
+     "explain": "Divide the mass by the molar mass."
+    },
+    {
+     "id": "flip",
+     "wrong": "roundTo(1 / k, 0.0001)",
+     "explain": "Moles = mass ÷ molar mass, not molar mass ÷ mass."
+    }
+   ],
+   "solution": [
+    "Moles = mass ÷ molar mass = {X.r * k} ÷ {X.r}.",
+    "= {answer} mol."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k3-6-m",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "C",
+       "n": "carbon",
+       "r": 12
+      },
+      {
+       "s": "O",
+       "n": "oxygen",
+       "r": 16
+      },
+      {
+       "s": "Na",
+       "n": "sodium",
+       "r": 23
+      },
+      {
+       "s": "Mg",
+       "n": "magnesium",
+       "r": 24
+      },
+      {
+       "s": "Al",
+       "n": "aluminium",
+       "r": 27
+      },
+      {
+       "s": "S",
+       "n": "sulphur",
+       "r": 32
+      },
+      {
+       "s": "Ca",
+       "n": "calcium",
+       "r": 40
+      },
+      {
+       "s": "Fe",
+       "n": "iron",
+       "r": 56
+      },
+      {
+       "s": "Cu",
+       "n": "copper",
+       "r": 64
+      },
+      {
+       "s": "Zn",
+       "n": "zinc",
+       "r": 65
+      },
+      {
+       "s": "N",
+       "n": "nitrogen",
+       "r": 14
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "n": {
+     "expr": "k / 4"
+    }
+   },
+   "prompt": "Find the mass of {n} mol of {X.n} atoms (g). ({X.s} = {X.r})",
+   "answer": "roundTo(n * X.r, 0.01)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(X.r / n, 0.01)",
+     "explain": "Mass = moles × molar mass: multiply."
+    }
+   ],
+   "solution": [
+    "Mass = moles × molar mass = {n} × {X.r}.",
+    "= {answer} g."
+   ],
+   "unit": "g",
+   "where": [
+    "k != 4"
+   ]
+  },
+  {
+   "id": "k3-6-frac",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "C",
+       "n": "carbon",
+       "r": 12
+      },
+      {
+       "s": "O",
+       "n": "oxygen",
+       "r": 16
+      },
+      {
+       "s": "Na",
+       "n": "sodium",
+       "r": 23
+      },
+      {
+       "s": "Mg",
+       "n": "magnesium",
+       "r": 24
+      },
+      {
+       "s": "Al",
+       "n": "aluminium",
+       "r": 27
+      },
+      {
+       "s": "S",
+       "n": "sulphur",
+       "r": 32
+      },
+      {
+       "s": "Ca",
+       "n": "calcium",
+       "r": 40
+      },
+      {
+       "s": "Fe",
+       "n": "iron",
+       "r": 56
+      },
+      {
+       "s": "Cu",
+       "n": "copper",
+       "r": 64
+      },
+      {
+       "s": "Zn",
+       "n": "zinc",
+       "r": 65
+      },
+      {
+       "s": "N",
+       "n": "nitrogen",
+       "r": 14
+      }
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      30
+     ]
+    }
+   },
+   "prompt": "How many moles of atoms are in {m} g of {X.n}? ({X.s} = {X.r}) Give the answer to {2} decimal places.",
+   "answer": "roundTo(m / X.r, 0.01)",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "m * X.r",
+     "explain": "Divide the mass by the molar mass."
+    }
+   ],
+   "solution": [
+    "Moles = {m} ÷ {X.r}.",
+    "= {answer} mol."
+   ],
+   "unit": "mol",
+   "where": [
+    "m % X.r != 0"
+   ]
+  },
+  {
+   "id": "k3-6-compare",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "C",
+       "n": "carbon",
+       "r": 12
+      },
+      {
+       "s": "O",
+       "n": "oxygen",
+       "r": 16
+      },
+      {
+       "s": "Na",
+       "n": "sodium",
+       "r": 23
+      },
+      {
+       "s": "Mg",
+       "n": "magnesium",
+       "r": 24
+      },
+      {
+       "s": "Al",
+       "n": "aluminium",
+       "r": 27
+      }
+     ]
+    },
+    "Y": {
+     "pick": [
+      {
+       "s": "S",
+       "n": "sulphur",
+       "r": 32
+      },
+      {
+       "s": "Ca",
+       "n": "calcium",
+       "r": 40
+      },
+      {
+       "s": "Fe",
+       "n": "iron",
+       "r": 56
+      },
+      {
+       "s": "Cu",
+       "n": "copper",
+       "r": 64
+      },
+      {
+       "s": "Zn",
+       "n": "zinc",
+       "r": 65
+      },
+      {
+       "s": "N",
+       "n": "nitrogen",
+       "r": 14
+      }
+     ]
+    },
+    "a": {
+     "int": [
+      10,
+      60
+     ],
+     "step": 2
+    },
+    "b": {
+     "int": [
+      10,
+      60
+     ],
+     "step": 2
+    }
+   },
+   "prompt": "Which contains more atoms: {a} g of {X.n} ({X.s} = {X.r}) or {b} g of {Y.n} ({Y.s} = {Y.r})? Give the number of moles of atoms in the one with more, to {2} decimal places.",
+   "answer": "roundTo(max(a / X.r, b / Y.r), 0.01)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "max(a, b)",
+     "explain": "More grams does not mean more atoms: compare moles."
+    },
+    {
+     "id": "min",
+     "wrong": "roundTo(min(a / X.r, b / Y.r), 0.01)",
+     "explain": "That is the one with fewer atoms."
+    }
+   ],
+   "solution": [
+    "{X.n}: {a} ÷ {X.r} = {roundTo(a / X.r, 0.01)} mol.",
+    "{Y.n}: {b} ÷ {Y.r} = {roundTo(b / Y.r, 0.01)} mol.",
+    "More moles means more atoms: {answer} mol."
+   ],
+   "unit": "mol",
+   "where": [
+    "roundTo(a / X.r, 0.01) != roundTo(b / Y.r, 0.01)",
+    "(a > b) != (a / X.r > b / Y.r)"
+   ]
+  }
+ ]
+}

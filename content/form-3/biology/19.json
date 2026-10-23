@@ -1,0 +1,621 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "b3-19",
+   "name": "Kingdom Plantae: characteristics and classification"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Plants are multicellular eukaryotes with cellulose cell walls and chlorophyll; they make food by photosynthesis and store it as starch.\nMain groups:\n• Non-flowering plants: mosses (no true roots, damp places), ferns (roots, stems, leaves; spores under the leaves), conifers (cones, needle leaves, seeds not in fruits).\n• Flowering plants (angiosperms): reproduce by flowers and seeds enclosed in fruits. Two classes:\n  monocotyledons (one seed leaf; e.g. maize, rice, grasses, palms, bananas) and dicotyledons (two seed leaves; e.g. beans, groundnuts, mango, cocoa, hibiscus).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "What makes a plant",
+    "text": "Plants are multicellular organisms whose cells have nuclei, cellulose walls and chloroplasts. They make their own food by photosynthesis and store it as starch: think of cassava roots, yam tubers and maize grains.\nThey are fixed in one place and grow throughout their lives."
+   },
+   {
+    "heading": "Plants without flowers",
+    "text": "• Mosses: small, soft plants of damp walls and tree trunks; no true roots (only rhizoids), no flowers, reproduce by spores.\n• Ferns: true roots, stems and leaves (fronds); brown spore patches under the fronds; no flowers or seeds.\n• Conifers: trees with needle-like leaves; seeds are carried in cones, not inside fruits."
+   },
+   {
+    "heading": "Flowering plants",
+    "text": "Flowering plants reproduce with flowers, and their seeds are enclosed in fruits. They are divided by the number of seed leaves (cotyledons) in the seed:\n• monocotyledons, one: maize, rice, sorghum, grasses, oil palm, banana, onion;\n• dicotyledons, two: beans, groundnuts, mango, cocoa, coffee, hibiscus.\nNext lesson compares them in detail."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cotyledon",
+    "meaning": "a seed leaf"
+   },
+   {
+    "word": "monocotyledon",
+    "meaning": "flowering plant with one seed leaf"
+   },
+   {
+    "word": "dicotyledon",
+    "meaning": "flowering plant with two seed leaves"
+   },
+   {
+    "word": "angiosperm",
+    "meaning": "a flowering plant with seeds in fruits"
+   }
+  ],
+  "examples": [
+   "Moss: damp walls",
+   "Fern: spores under fronds",
+   "Maize: monocot",
+   "Mango: dicot"
+  ],
+  "mistake": {
+   "wrong": "Ferns reproduce by seeds",
+   "right": "Ferns reproduce by spores",
+   "why": "Ferns have no flowers and no seeds; spores form under their fronds."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Classify maize, a fern and a mango tree.",
+  "steps": [
+   "Maize: flowering plant with one seed leaf → monocotyledon.",
+   "Fern: no flowers or seeds; spores under its leaves → non-flowering (fern).",
+   "Mango: flowering plant with two seed leaves → dicotyledon."
+  ],
+  "answer": "Maize: monocot; fern: non-flowering; mango: dicot",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b19-1",
+    "status": "draft",
+    "idea": "Plants photosynthesise and have cellulose cell walls.",
+    "vars": {},
+    "example": [
+     "All green plants make their own food."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-19-char"
+    }
+   },
+   {
+    "id": "c3b19-2",
+    "status": "draft",
+    "idea": "Non-flowering plants: mosses, ferns, conifers.",
+    "vars": {},
+    "example": [
+     "Ferns have spores under their leaves."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-19-group"
+    }
+   },
+   {
+    "id": "c3b19-3",
+    "status": "draft",
+    "idea": "Flowering plants are monocots (one seed leaf) or dicots (two).",
+    "vars": {},
+    "example": [
+     "Maize: monocot. Bean: dicot."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-19-mono-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "maize",
+         "r": "monocotyledon",
+         "w": [
+          "dicotyledon",
+          "fern",
+          "conifer"
+         ],
+         "e": [
+          "Maize has one seed leaf.",
+          "Maize has flowers and seeds.",
+          "Maize has no cones."
+         ],
+         "y": "Grasses and cereals are monocots."
+        },
+        {
+         "q": "groundnut",
+         "r": "dicotyledon",
+         "w": [
+          "monocotyledon",
+          "moss",
+          "fern"
+         ],
+         "e": [
+          "The groundnut seed splits into two halves: two seed leaves.",
+          "It has flowers.",
+          "It has flowers and seeds."
+         ],
+         "y": "Beans and groundnuts are dicots."
+        },
+        {
+         "q": "oil palm",
+         "r": "monocotyledon",
+         "w": [
+          "dicotyledon",
+          "conifer",
+          "fern"
+         ],
+         "e": [
+          "Palms have one seed leaf and parallel-veined leaves.",
+          "Palms have fruits, not cones.",
+          "Palms have flowers and seeds."
+         ],
+         "y": "Palms are monocots."
+        },
+        {
+         "q": "cocoa",
+         "r": "dicotyledon",
+         "w": [
+          "monocotyledon",
+          "fern",
+          "moss"
+         ],
+         "e": [
+          "Cocoa beans have two seed leaves.",
+          "Cocoa flowers.",
+          "Cocoa is a tree with seeds."
+         ],
+         "y": "Cocoa is a dicot tree."
+        }
+       ]
+      }
+     },
+     "prompt": "Is this plant a monocot or a dicot? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-19-char",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which feature do all plants share?",
+       "r": "cellulose cell walls and chlorophyll",
+       "w": [
+        "flowers",
+        "seeds",
+        "woody stems"
+       ],
+       "e": [
+        "Mosses and ferns have no flowers.",
+        "Mosses and ferns have no seeds.",
+        "Many plants are not woody."
+       ],
+       "y": "All plants photosynthesise."
+      },
+      {
+       "q": "How do plants store food?",
+       "r": "mainly as starch",
+       "w": [
+        "mainly as glycogen",
+        "as chitin",
+        "they cannot store food"
+       ],
+       "e": [
+        "Glycogen is stored by animals and fungi.",
+        "Chitin is a fungal wall material.",
+        "Cassava roots and maize grains are full of starch."
+       ],
+       "y": "Starch is the plant storage carbohydrate."
+      },
+      {
+       "q": "How are plants different from fungi?",
+       "r": "Plants have chlorophyll and make their own food",
+       "w": [
+        "Plants have no cell walls",
+        "Fungi have chlorophyll",
+        "Plants are single-celled"
+       ],
+       "e": [
+        "Plants have cellulose walls.",
+        "Fungi have none.",
+        "Plants are multicellular."
+       ],
+       "y": "Photosynthesis is the key difference."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-19-group",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "It has fronds with brown spore patches underneath and no flowers.",
+       "r": "ferns",
+       "w": [
+        "mosses",
+        "monocotyledons",
+        "dicotyledons"
+       ],
+       "e": [
+        "Mosses are tiny with no true roots or fronds.",
+        "Monocots have flowers.",
+        "Dicots have flowers."
+       ],
+       "y": "Ferns reproduce by spores under their leaves."
+      },
+      {
+       "q": "It is a small, soft green plant of damp walls, with no true roots.",
+       "r": "mosses",
+       "w": [
+        "ferns",
+        "conifers",
+        "monocotyledons"
+       ],
+       "e": [
+        "Ferns have true roots.",
+        "Conifers are trees.",
+        "Monocots have flowers and roots."
+       ],
+       "y": "Mosses have rhizoids, not true roots."
+      },
+      {
+       "q": "It has needle-shaped leaves and seeds in cones.",
+       "r": "conifers",
+       "w": [
+        "ferns",
+        "mosses",
+        "monocotyledons"
+       ],
+       "e": [
+        "Ferns have no seeds.",
+        "Mosses have no seeds.",
+        "Monocots make seeds in fruits."
+       ],
+       "y": "Conifers bear naked seeds in cones."
+      }
+     ]
+    }
+   },
+   "prompt": "To which group does this plant belong? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-19-mono",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "maize",
+       "r": "monocotyledon",
+       "w": [
+        "dicotyledon",
+        "fern",
+        "conifer"
+       ],
+       "e": [
+        "Maize has one seed leaf.",
+        "Maize has flowers and seeds.",
+        "Maize has no cones."
+       ],
+       "y": "Grasses and cereals are monocots."
+      },
+      {
+       "q": "groundnut",
+       "r": "dicotyledon",
+       "w": [
+        "monocotyledon",
+        "moss",
+        "fern"
+       ],
+       "e": [
+        "The groundnut seed splits into two halves: two seed leaves.",
+        "It has flowers.",
+        "It has flowers and seeds."
+       ],
+       "y": "Beans and groundnuts are dicots."
+      },
+      {
+       "q": "oil palm",
+       "r": "monocotyledon",
+       "w": [
+        "dicotyledon",
+        "conifer",
+        "fern"
+       ],
+       "e": [
+        "Palms have one seed leaf and parallel-veined leaves.",
+        "Palms have fruits, not cones.",
+        "Palms have flowers and seeds."
+       ],
+       "y": "Palms are monocots."
+      },
+      {
+       "q": "cocoa",
+       "r": "dicotyledon",
+       "w": [
+        "monocotyledon",
+        "fern",
+        "moss"
+       ],
+       "e": [
+        "Cocoa beans have two seed leaves.",
+        "Cocoa flowers.",
+        "Cocoa is a tree with seeds."
+       ],
+       "y": "Cocoa is a dicot tree."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this plant a monocot or a dicot? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-19-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why can mosses grow only in damp places?",
+       "r": "They have no true roots or water-carrying tissue and need water for reproduction",
+       "w": [
+        "They need darkness",
+        "They are fungi",
+        "They have large roots that need mud"
+       ],
+       "e": [
+        "Light is not the reason.",
+        "Mosses are plants.",
+        "They have no true roots."
+       ],
+       "y": "Water must be close at hand."
+      },
+      {
+       "q": "What makes flowering plants different from conifers?",
+       "r": "Their seeds are enclosed in fruits",
+       "w": [
+        "They have no seeds",
+        "They have no leaves",
+        "They reproduce only by spores"
+       ],
+       "e": [
+        "Both have seeds.",
+        "Both have leaves.",
+        "Both make seeds."
+       ],
+       "y": "Angiosperm means 'seed in a vessel'."
+      },
+      {
+       "q": "Which is the best evidence that a plant is a monocot?",
+       "r": "its seed has only one cotyledon",
+       "w": [
+        "it is tall",
+        "it has green leaves",
+        "it grows near water"
+       ],
+       "e": [
+        "Height does not decide it.",
+        "All plants have green leaves.",
+        "Habitat does not decide it."
+       ],
+       "y": "Monocot means one seed leaf."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

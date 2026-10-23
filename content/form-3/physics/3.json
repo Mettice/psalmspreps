@@ -1,0 +1,511 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "p3-3",
+   "name": "Mass and weight; safety in the laboratory"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mass is the amount of matter in a body; it is measured in kg with a balance and does not change from place to place.\nWeight is the force of gravity on the body; it is measured in N with a newton meter and depends on the gravitational field strength g.\nW = m × g. On Earth g ≈ 10 N/kg; on the Moon g ≈ 1.6 N/kg.\nSafety: follow the teacher's instructions, wear goggles when needed, never taste chemicals, report breakages, keep the bench tidy, do not overload springs or balances.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Mass: how much matter",
+    "text": "Mass measures how much matter is in a body. A {50} kg bag of cement has the same mass in Douala, on Mount Cameroon or on the Moon.\nIts SI unit is the kilogram (kg), and it is measured with a balance (beam balance, electronic balance)."
+   },
+   {
+    "heading": "Weight: the pull of gravity",
+    "text": "Weight is the force with which gravity pulls a body towards the Earth. Being a force, it is measured in newtons (N) with a newton meter.\nWeight = mass × gravitational field strength: W = mg. On Earth g ≈ {10} N/kg, so a {5} kg mass weighs {50} N.\nOn the Moon g ≈ {1.6} N/kg, so the same mass weighs only {8} N. That is why astronauts can jump so high there."
+   },
+   {
+    "heading": "Working safely",
+    "text": "Physics practicals use glassware, heaters, springs and electricity.\n• Follow the teacher's instructions and read the steps first.\n• Wear goggles when heating or when something can splash.\n• Never taste or directly smell chemicals.\n• Report breakages and spills at once (mercury is poisonous).\n• Do not overload springs and balances; keep the bench tidy."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "mass",
+    "meaning": "the amount of matter in a body (kg)"
+   },
+   {
+    "word": "weight",
+    "meaning": "the force of gravity on a body (N)"
+   },
+   {
+    "word": "gravitational field strength",
+    "meaning": "g, the weight of each kilogram ({10} N/kg on Earth)"
+   }
+  ],
+  "examples": [
+   "{2} kg of sugar weighs {20} N on Earth",
+   "{600} g weighs {6} N",
+   "{60} kg on the Moon weighs {96} N"
+  ],
+  "mistake": {
+   "wrong": "\"My weight is {55} kg\"",
+   "right": "\"My mass is {55} kg; my weight is {550} N\"",
+   "why": "Kilograms measure mass. Weight is a force, measured in newtons."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 45,
+   "g": 10
+  },
+  "problem": "Ngozi has a mass of {m} kg. Find her weight on Earth (g = {g} N/kg).",
+  "steps": [
+   "W = m × g.",
+   "W = {m} × {g} = {weight(m, g)} N."
+  ],
+  "answer": "{weight(m, g)} N",
+  "checks": [
+   "weight(m, g) == 450"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p3-1",
+    "status": "draft",
+    "idea": "Weight = mass × g; on Earth g = {10} N/kg.",
+    "vars": {},
+    "example": [
+     "{5} kg weighs {5} × {10} = {50} N."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-3-w"
+    }
+   },
+   {
+    "id": "c3p3-2",
+    "status": "draft",
+    "idea": "Mass stays the same everywhere; weight changes with g.",
+    "vars": {},
+    "example": [
+     "On the Moon the same {5} kg weighs only {8} N."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-3-diff"
+    }
+   },
+   {
+    "id": "c3p3-3",
+    "status": "draft",
+    "idea": "Safety first: follow instructions and report accidents at once.",
+    "vars": {},
+    "example": [
+     "Never taste or smell chemicals directly."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-3-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "forces"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A thermometer breaks and mercury spills on the bench. What should you do first?",
+         "r": "Tell the teacher at once and keep away from the mercury",
+         "w": [
+          "Pick up the mercury with your fingers",
+          "Wipe it into the sink with water",
+          "Carry on with the experiment"
+         ],
+         "e": [
+          "Mercury is poisonous: never touch it.",
+          "Mercury must not go down the drain.",
+          "Spills must be reported straight away."
+         ],
+         "y": "Report accidents immediately; some substances are dangerous."
+        },
+        {
+         "q": "Which is a safe practice in the laboratory?",
+         "r": "Wearing goggles when heating liquids",
+         "w": [
+          "Tasting a solution to identify it",
+          "Running between benches",
+          "Hanging a heavy load on a small spring balance"
+         ],
+         "e": [
+          "Never taste chemicals.",
+          "Running causes accidents.",
+          "Overloading damages the spring and the load may fall."
+         ],
+         "y": "Goggles protect your eyes from splashes."
+        },
+        {
+         "q": "Why must you not overload a spring balance?",
+         "r": "The spring can be stretched past its limit and be damaged",
+         "w": [
+          "It makes the reading in kilograms",
+          "It changes the value of g",
+          "It makes the spring lighter"
+         ],
+         "e": [
+          "A spring balance reads newtons.",
+          "g depends on the planet, not on the balance.",
+          "Mass of the spring does not change."
+         ],
+         "y": "Beyond its elastic limit a spring does not return to its shape."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-3-w",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      2,
+      60
+     ]
+    }
+   },
+   "prompt": "Find the weight of a {m} kg bag of rice on Earth (g = {10} N/kg).",
+   "answer": "weight(m)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "m",
+     "explain": "{m} kg is the mass. Weight is a force: multiply by g = {10} N/kg."
+    },
+    {
+     "id": "div",
+     "wrong": "m / 10",
+     "explain": "Multiply by g, do not divide."
+    }
+   ],
+   "solution": [
+    "W = m × g = {m} × {10}.",
+    "W = {answer} N."
+   ],
+   "unit": "N"
+  },
+  {
+   "id": "p3-3-diff",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which statement about mass is true?",
+       "r": "It is the same on the Earth and on the Moon",
+       "w": [
+        "It is measured in newtons",
+        "It is smaller on the Moon",
+        "It is measured with a newton meter"
+       ],
+       "e": [
+        "Mass is measured in kilograms.",
+        "The amount of matter does not change.",
+        "A newton meter measures force (weight)."
+       ],
+       "y": "Mass is the amount of matter: it does not depend on place."
+      },
+      {
+       "q": "Which statement about weight is true?",
+       "r": "It is a force measured in newtons",
+       "w": [
+        "It is measured in kilograms",
+        "It is the same everywhere",
+        "It is a scalar"
+       ],
+       "e": [
+        "Kilograms measure mass.",
+        "Weight depends on g, which changes from place to place.",
+        "Weight has a direction (down): it is a vector."
+       ],
+       "y": "Weight is the pull of gravity, a force."
+      },
+      {
+       "q": "An astronaut goes to the Moon. What happens?",
+       "r": "Her weight decreases but her mass stays the same",
+       "w": [
+        "Her mass decreases but her weight stays the same",
+        "Both decrease",
+        "Both stay the same"
+       ],
+       "e": [
+        "Mass does not change with place.",
+        "Mass does not change with place.",
+        "Weight changes because g is smaller on the Moon."
+       ],
+       "y": "g is smaller on the Moon, so W = mg is smaller; m is unchanged."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-3-grams",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      100,
+      900
+     ],
+     "step": 50
+    }
+   },
+   "prompt": "A tin of tomato paste has a mass of {m} g. Find its weight on Earth (N).",
+   "answer": "weight(m / 1000)",
+   "misconceptions": [
+    {
+     "id": "nog",
+     "wrong": "m * 10",
+     "explain": "Change grams to kilograms first: divide by {1000}."
+    },
+    {
+     "id": "mass",
+     "wrong": "m / 1000",
+     "explain": "That is the mass in kg. Multiply by g = {10} N/kg."
+    }
+   ],
+   "solution": [
+    "Change the mass to kilograms: {m} g = {m / 1000} kg.",
+    "W = {m / 1000} × {10} = {answer} N."
+   ],
+   "unit": "N"
+  },
+  {
+   "id": "p3-3-moon",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      2,
+      50
+     ]
+    }
+   },
+   "prompt": "A rock has a mass of {m} kg. What is its weight on the Moon, where g = {1.6} N/kg?",
+   "answer": "weight(m, 1.6)",
+   "misconceptions": [
+    {
+     "id": "earth",
+     "wrong": "weight(m)",
+     "explain": "That is its weight on Earth. On the Moon g = {1.6} N/kg."
+    },
+    {
+     "id": "div",
+     "wrong": "m / 1.6",
+     "explain": "Multiply the mass by g, do not divide."
+    }
+   ],
+   "solution": [
+    "W = m × g = {m} × {1.6}.",
+    "W = {answer} N."
+   ],
+   "unit": "N"
+  },
+  {
+   "id": "p3-3-safe",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "forces"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A thermometer breaks and mercury spills on the bench. What should you do first?",
+       "r": "Tell the teacher at once and keep away from the mercury",
+       "w": [
+        "Pick up the mercury with your fingers",
+        "Wipe it into the sink with water",
+        "Carry on with the experiment"
+       ],
+       "e": [
+        "Mercury is poisonous: never touch it.",
+        "Mercury must not go down the drain.",
+        "Spills must be reported straight away."
+       ],
+       "y": "Report accidents immediately; some substances are dangerous."
+      },
+      {
+       "q": "Which is a safe practice in the laboratory?",
+       "r": "Wearing goggles when heating liquids",
+       "w": [
+        "Tasting a solution to identify it",
+        "Running between benches",
+        "Hanging a heavy load on a small spring balance"
+       ],
+       "e": [
+        "Never taste chemicals.",
+        "Running causes accidents.",
+        "Overloading damages the spring and the load may fall."
+       ],
+       "y": "Goggles protect your eyes from splashes."
+      },
+      {
+       "q": "Why must you not overload a spring balance?",
+       "r": "The spring can be stretched past its limit and be damaged",
+       "w": [
+        "It makes the reading in kilograms",
+        "It changes the value of g",
+        "It makes the spring lighter"
+       ],
+       "e": [
+        "A spring balance reads newtons.",
+        "g depends on the planet, not on the balance.",
+        "Mass of the spring does not change."
+       ],
+       "y": "Beyond its elastic limit a spring does not return to its shape."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

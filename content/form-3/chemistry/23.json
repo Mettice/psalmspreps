@@ -1,0 +1,590 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [
+  22
+ ],
+ "skills": [
+  {
+   "id": "k3-23",
+   "name": "Properties of metals explained by metallic bonding"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Metallic bonding explains the properties of metals:\n• Good conductors of electricity: delocalised electrons move through the metal and carry the current.\n• Good conductors of heat: free electrons and vibrating ions pass on energy.\n• Malleable (can be hammered into shape) and ductile (can be drawn into wires): layers of ions can slide over each other without breaking the bond, because the electron sea moves with them.\n• Usually high melting points and high density; shiny (lustrous) when freshly cut; sonorous (ring when struck).\nUses: copper for wires, aluminium for cooking pots and power cables, iron (steel) for building.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Conducting electricity and heat",
+    "text": "The delocalised electrons in a metal are free to move. When a battery is connected, they drift through the metal: that is an electric current. So metals conduct electricity even when solid.\nThey also carry heat energy quickly from hot parts to cold parts, together with the vibrating ions. That is why a metal spoon in hot tea soon feels hot."
+   },
+   {
+    "heading": "Bending without breaking",
+    "text": "When a metal is hammered, the layers of ions slide over each other. The sea of electrons moves with them, so the bonding is not broken.\nSo metals are malleable (can be hammered into sheets, such as roofing sheets) and ductile (can be drawn into wires, such as copper wire).\nCompare an ionic crystal: when its layers shift, like charges meet, repel, and it shatters."
+   },
+   {
+    "heading": "Other properties and uses",
+    "text": "• Shiny when freshly cut (lustrous) and ringing when struck (sonorous).\n• Usually high melting points and high densities (but sodium and potassium are soft, light and low-melting).\nUses follow from properties: copper wires (conducts, ductile), aluminium pots and cables (conducts heat and electricity, light), iron and steel for building (strong)."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "malleable",
+    "meaning": "can be hammered into shape"
+   },
+   {
+    "word": "ductile",
+    "meaning": "can be drawn into wires"
+   },
+   {
+    "word": "lustrous",
+    "meaning": "shiny"
+   },
+   {
+    "word": "conductor",
+    "meaning": "a material that lets electricity or heat pass through easily"
+   }
+  ],
+  "examples": [
+   "Copper: electric wires",
+   "Aluminium: pots and overhead cables",
+   "Steel: bridges and roofing"
+  ],
+  "mistake": {
+   "wrong": "Metals conduct because their ions move",
+   "right": "Metals conduct because their delocalised electrons move",
+   "why": "In a solid metal the ions stay in place; only the electrons move freely."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain why copper is used for electric wires.",
+  "steps": [
+   "Copper has metallic bonding with many delocalised electrons.",
+   "These electrons can move through the metal, carrying an electric current.",
+   "Copper is also ductile, so it can be drawn into thin wires."
+  ],
+  "answer": "It conducts well (free electrons) and is ductile",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k23-1",
+    "status": "draft",
+    "idea": "Free electrons carry electric current through a metal.",
+    "vars": {},
+    "example": [
+     "Copper and aluminium cables"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-23-cond"
+    }
+   },
+   {
+    "id": "c3k23-2",
+    "status": "draft",
+    "idea": "Layers of ions slide without breaking the bond: malleable and ductile.",
+    "vars": {},
+    "example": [
+     "Gold can be beaten into very thin sheets."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-23-mall"
+    }
+   },
+   {
+    "id": "c3k23-3",
+    "status": "draft",
+    "idea": "Each property suits a use.",
+    "vars": {},
+    "example": [
+     "Aluminium pots conduct heat well and do not rust."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-23-use-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Aluminium is used to make cooking pots.",
+         "r": "good conductor of heat",
+         "w": [
+          "high density",
+          "magnetic",
+          "low melting point"
+         ],
+         "e": [
+          "Aluminium is light, not dense.",
+          "Aluminium is not magnetic.",
+          "Its melting point is high enough for cooking."
+         ],
+         "y": "Heat passes quickly from the fire to the food."
+        },
+        {
+         "q": "Iron sheets are used for roofing in Bamenda.",
+         "r": "strong and malleable (can be pressed into corrugated sheets)",
+         "w": [
+          "good conductor of electricity",
+          "low density",
+          "shiny when cut"
+         ],
+         "e": [
+          "Conductivity is not why it is used for roofs.",
+          "Iron is fairly dense.",
+          "Roofing is painted or galvanised, not chosen for shine."
+         ],
+         "y": "It can be shaped and is strong."
+        },
+        {
+         "q": "Gold is used in jewellery.",
+         "r": "shiny (lustrous) and does not corrode",
+         "w": [
+          "good conductor of heat",
+          "high density",
+          "brittle"
+         ],
+         "e": [
+          "Conductivity is not why jewellery is gold.",
+          "Density is not the reason.",
+          "Gold is malleable, not brittle."
+         ],
+         "y": "It stays bright and attractive."
+        }
+       ]
+      }
+     },
+     "prompt": "Which property of the metal explains this use? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-23-cond",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do metals conduct electricity when solid?",
+       "r": "Their delocalised electrons can move",
+       "w": [
+        "Their ions can move",
+        "They contain water",
+        "Their atoms share pairs of electrons"
+       ],
+       "e": [
+        "In a solid metal the ions stay in place.",
+        "Metals conduct when dry.",
+        "Shared pairs are fixed; they cannot carry current."
+       ],
+       "y": "Moving free electrons carry the current."
+      },
+      {
+       "q": "Why do metals conduct heat well?",
+       "r": "Free electrons and vibrating ions pass on energy quickly",
+       "w": [
+        "Metals are always hot",
+        "Metals contain air",
+        "Metals have no electrons"
+       ],
+       "e": [
+        "Metals are not always hot.",
+        "Metals are dense, not airy.",
+        "Metals have many free electrons."
+       ],
+       "y": "That is why cooking pots are made of metal."
+      },
+      {
+       "q": "Which material is best for an electric cable?",
+       "r": "copper",
+       "w": [
+        "glass",
+        "plastic",
+        "rubber"
+       ],
+       "e": [
+        "Glass is an insulator.",
+        "Plastic is used to insulate the cable.",
+        "Rubber is an insulator."
+       ],
+       "y": "Copper has many free electrons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-23-mall",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does 'malleable' mean?",
+       "r": "can be hammered into shape without breaking",
+       "w": [
+        "can be drawn into wires",
+        "breaks easily",
+        "conducts heat"
+       ],
+       "e": [
+        "That is ductile.",
+        "That is brittle.",
+        "That is thermal conductivity."
+       ],
+       "y": "Blacksmiths hammer iron into tools."
+      },
+      {
+       "q": "Why can metals be bent without breaking?",
+       "r": "Layers of ions slide over each other and the electron sea keeps them bonded",
+       "w": [
+        "Metals have no bonds",
+        "Metals are made of molecules",
+        "The ions repel when moved"
+       ],
+       "e": [
+        "Metals have strong bonds.",
+        "Metals are not molecular.",
+        "The sea of electrons stops the ions repelling apart."
+       ],
+       "y": "The bonding is not fixed between particular atoms."
+      },
+      {
+       "q": "What does 'ductile' mean?",
+       "r": "can be drawn out into a wire",
+       "w": [
+        "can be hammered flat",
+        "is shiny",
+        "rings when struck"
+       ],
+       "e": [
+        "That is malleable.",
+        "That is lustrous.",
+        "That is sonorous."
+       ],
+       "y": "Copper is drawn into thin wires."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-23-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Aluminium is used to make cooking pots.",
+       "r": "good conductor of heat",
+       "w": [
+        "high density",
+        "magnetic",
+        "low melting point"
+       ],
+       "e": [
+        "Aluminium is light, not dense.",
+        "Aluminium is not magnetic.",
+        "Its melting point is high enough for cooking."
+       ],
+       "y": "Heat passes quickly from the fire to the food."
+      },
+      {
+       "q": "Iron sheets are used for roofing in Bamenda.",
+       "r": "strong and malleable (can be pressed into corrugated sheets)",
+       "w": [
+        "good conductor of electricity",
+        "low density",
+        "shiny when cut"
+       ],
+       "e": [
+        "Conductivity is not why it is used for roofs.",
+        "Iron is fairly dense.",
+        "Roofing is painted or galvanised, not chosen for shine."
+       ],
+       "y": "It can be shaped and is strong."
+      },
+      {
+       "q": "Gold is used in jewellery.",
+       "r": "shiny (lustrous) and does not corrode",
+       "w": [
+        "good conductor of heat",
+        "high density",
+        "brittle"
+       ],
+       "e": [
+        "Conductivity is not why jewellery is gold.",
+        "Density is not the reason.",
+        "Gold is malleable, not brittle."
+       ],
+       "y": "It stays bright and attractive."
+      }
+     ]
+    }
+   },
+   "prompt": "Which property of the metal explains this use? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-23-compare",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A sheet of metal is hammered and bends; a crystal of salt is hammered and shatters. Why the difference?",
+       "r": "In salt, shifting layers brings like charges together; in a metal the electron sea keeps the ions bonded",
+       "w": [
+        "Salt is a metal",
+        "Metals have no bonds",
+        "Salt has free electrons"
+       ],
+       "e": [
+        "Salt is ionic.",
+        "Metals have strong metallic bonds.",
+        "Salt has no free electrons."
+       ],
+       "y": "Ionic lattices are brittle; metallic lattices are malleable."
+      },
+      {
+       "q": "Which property of metals is NOT explained by free electrons?",
+       "r": "high density",
+       "w": [
+        "electrical conductivity",
+        "thermal conductivity",
+        "shininess"
+       ],
+       "e": [
+        "Free electrons carry current.",
+        "Free electrons carry heat.",
+        "Free electrons reflect light, making metals shiny."
+       ],
+       "y": "Density depends on how heavy the ions are and how closely they pack."
+      },
+      {
+       "q": "Why is aluminium, not copper, used for overhead power cables?",
+       "r": "It conducts well and is much less dense, so the cables are lighter",
+       "w": [
+        "It conducts better than copper",
+        "It is more dense",
+        "It is an insulator"
+       ],
+       "e": [
+        "Copper conducts slightly better.",
+        "It is less dense.",
+        "Aluminium is a conductor."
+       ],
+       "y": "Light cables need fewer, cheaper pylons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

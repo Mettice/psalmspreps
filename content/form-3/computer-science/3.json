@@ -1,0 +1,589 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "s3-3",
+   "name": "Societal impact and challenges of applied AI"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Benefits of AI: faster diagnosis, better crop yields, help for disabled people (speech-to-text), saving time on routine work, new jobs (data scientists, AI trainers).\nChallenges:\n• Jobs: some routine jobs may be replaced; workers need new skills.\n• Privacy: AI uses large amounts of personal data, which can be misused.\n• Bias and fairness: AI trained on biased data can treat groups unfairly.\n• Misinformation: AI can create fake images, voices and videos (deepfakes) and convincing false text.\n• Over-dependence and errors: people may trust wrong answers; AI uses a lot of energy.\nResponsible use: protect personal data, check AI outputs, keep humans responsible for important decisions, follow laws and school rules.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The good side",
+    "text": "AI can save time and lives: it helps doctors detect disease early, farmers protect crops, banks stop fraud, and people with disabilities use phones and computers (speech-to-text, text-to-speech, image description).\nIt also creates new jobs, such as data scientists and people who train and check AI systems."
+   },
+   {
+    "heading": "The challenges",
+    "text": "• Jobs: some routine jobs may disappear or change; workers need to learn new skills.\n• Privacy: AI needs lots of data, often personal; it can be leaked, sold or misused.\n• Bias: AI trained on unbalanced data may treat some groups unfairly.\n• Fake content: deepfake videos, cloned voices and false articles can spread quickly.\n• Over-trust: AI can be confidently wrong; and big AI systems use a lot of electricity."
+   },
+   {
+    "heading": "Using AI responsibly",
+    "text": "• Protect personal information: yours and other people's.\n• Check AI answers against reliable sources.\n• Do not present AI work as your own.\n• Verify shocking videos before sharing them.\n• Keep humans responsible for important decisions about people."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "privacy",
+    "meaning": "the right to control your personal information"
+   },
+   {
+    "word": "bias",
+    "meaning": "unfair treatment caused by unbalanced data or design"
+   },
+   {
+    "word": "deepfake",
+    "meaning": "fake media made with AI to look real"
+   },
+   {
+    "word": "automation",
+    "meaning": "machines doing work that people used to do"
+   }
+  ],
+  "examples": [
+   "Benefit: speech-to-text",
+   "Risk: deepfake videos",
+   "Responsible: verifying before sharing"
+  ],
+  "mistake": {
+   "wrong": "AI is always neutral and fair",
+   "right": "AI can be biased if its data is biased",
+   "why": "AI learns patterns from data, including unfair ones."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give one benefit and one risk of using AI face recognition at the entrance of a school.",
+  "steps": [
+   "Benefit: it can quickly check who enters, improving security.",
+   "Risk: it stores pupils' faces (personal data), which could be stolen or misused, and it may make mistakes with some faces."
+  ],
+  "answer": "Benefit: security; risk: privacy and errors",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s3-1",
+    "status": "draft",
+    "idea": "AI brings benefits such as faster diagnosis and help for disabled people.",
+    "vars": {},
+    "example": [
+     "Speech-to-text helps people who cannot type."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-3-benefit"
+    }
+   },
+   {
+    "id": "c3s3-2",
+    "status": "draft",
+    "idea": "AI raises challenges: jobs, privacy, bias and fake content.",
+    "vars": {},
+    "example": [
+     "Deepfake videos can spread lies."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-3-risk"
+    }
+   },
+   {
+    "id": "c3s3-3",
+    "status": "draft",
+    "idea": "Use AI responsibly: protect data and check results.",
+    "vars": {},
+    "example": [
+     "Do not upload other people's photos without permission."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-3-resp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computing-society"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is responsible use of AI tools by a student?",
+         "r": "Using AI to explain a topic, then checking and writing in your own words",
+         "w": [
+          "Copying an AI essay and handing it in as your own",
+          "Sharing classmates' private photos with an AI app",
+          "Believing every AI answer without checking"
+         ],
+         "e": [
+          "That is cheating.",
+          "That breaks others' privacy.",
+          "AI can be wrong."
+         ],
+         "y": "Use AI as a helper, honestly, and verify."
+        },
+        {
+         "q": "A video of a politician saying shocking things spreads on WhatsApp. What should you do?",
+         "r": "Check reliable news sources before sharing; it may be a deepfake",
+         "w": [
+          "Share it at once",
+          "Believe it because it looks real",
+          "Edit it to make it funnier"
+         ],
+         "e": [
+          "Sharing fakes spreads lies.",
+          "Deepfakes look real.",
+          "That spreads it further."
+         ],
+         "y": "Verify before you share."
+        },
+        {
+         "q": "Why should humans stay responsible for important AI decisions, such as who gets a loan?",
+         "r": "AI can be biased or wrong, and people must be accountable",
+         "w": [
+          "Humans are always faster",
+          "AI cannot read numbers",
+          "Loans are not important"
+         ],
+         "e": [
+          "Speed is not the point.",
+          "AI reads numbers well.",
+          "Loans matter to people's lives."
+         ],
+         "y": "Accountability and fairness need human oversight."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-3-benefit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a benefit of AI to society?",
+       "r": "Helping doctors detect diseases earlier",
+       "w": [
+        "Spreading fake videos",
+        "Collecting private data without permission",
+        "Replacing all teachers"
+       ],
+       "e": [
+        "That is a harm.",
+        "That is a harm.",
+        "That is not a benefit, nor realistic."
+       ],
+       "y": "Early diagnosis saves lives."
+      },
+      {
+       "q": "How can AI help a blind person?",
+       "r": "By reading text aloud and describing images",
+       "w": [
+        "By making screens brighter",
+        "By removing all sounds",
+        "By deleting e-mails"
+       ],
+       "e": [
+        "Brightness does not help a blind person.",
+        "Sound is what helps.",
+        "That does not help."
+       ],
+       "y": "Text-to-speech and image description give access."
+      },
+      {
+       "q": "Which new job has grown because of AI?",
+       "r": "data scientist",
+       "w": [
+        "typewriter repairer",
+        "telegram operator",
+        "lamplighter"
+       ],
+       "e": [
+        "Typewriters are rarely used.",
+        "Telegrams have almost disappeared.",
+        "Street lamps are electric."
+       ],
+       "y": "People who prepare data and build models are in demand."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-3-risk",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a deepfake?",
+       "r": "A fake video, image or voice made with AI to look real",
+       "w": [
+        "A very deep swimming pool",
+        "A computer virus",
+        "A broken hard disk"
+       ],
+       "e": [
+        "Not a pool.",
+        "A virus is malicious software, not fake media.",
+        "Not hardware."
+       ],
+       "y": "Deepfakes can spread misinformation."
+      },
+      {
+       "q": "Why is privacy a concern with AI?",
+       "r": "AI systems collect and use large amounts of personal data",
+       "w": [
+        "AI makes computers slower",
+        "AI uses no data",
+        "AI only works offline"
+       ],
+       "e": [
+        "Speed is not the issue.",
+        "AI depends on data.",
+        "Many AI services run online."
+       ],
+       "y": "Personal data can be leaked or misused."
+      },
+      {
+       "q": "Which workers are most likely to be affected by automation with AI?",
+       "r": "those doing routine, repetitive tasks",
+       "w": [
+        "no one",
+        "only artists",
+        "only farmers"
+       ],
+       "e": [
+        "Some jobs do change.",
+        "Routine work is most affected.",
+        "Routine work in many sectors is affected."
+       ],
+       "y": "Learning new skills helps workers adapt."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-3-resp",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is responsible use of AI tools by a student?",
+       "r": "Using AI to explain a topic, then checking and writing in your own words",
+       "w": [
+        "Copying an AI essay and handing it in as your own",
+        "Sharing classmates' private photos with an AI app",
+        "Believing every AI answer without checking"
+       ],
+       "e": [
+        "That is cheating.",
+        "That breaks others' privacy.",
+        "AI can be wrong."
+       ],
+       "y": "Use AI as a helper, honestly, and verify."
+      },
+      {
+       "q": "A video of a politician saying shocking things spreads on WhatsApp. What should you do?",
+       "r": "Check reliable news sources before sharing; it may be a deepfake",
+       "w": [
+        "Share it at once",
+        "Believe it because it looks real",
+        "Edit it to make it funnier"
+       ],
+       "e": [
+        "Sharing fakes spreads lies.",
+        "Deepfakes look real.",
+        "That spreads it further."
+       ],
+       "y": "Verify before you share."
+      },
+      {
+       "q": "Why should humans stay responsible for important AI decisions, such as who gets a loan?",
+       "r": "AI can be biased or wrong, and people must be accountable",
+       "w": [
+        "Humans are always faster",
+        "AI cannot read numbers",
+        "Loans are not important"
+       ],
+       "e": [
+        "Speed is not the point.",
+        "AI reads numbers well.",
+        "Loans matter to people's lives."
+       ],
+       "y": "Accountability and fairness need human oversight."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-3-bias",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computing-society"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A face-recognition system works well for some groups of people but often fails for others. What is the most likely cause?",
+       "r": "It was trained mostly on photos of some groups",
+       "w": [
+        "The camera is too new",
+        "Faces cannot be recognised",
+        "The system is too fast"
+       ],
+       "e": [
+        "Newness is not the cause.",
+        "It works for some faces.",
+        "Speed does not cause unfairness."
+       ],
+       "y": "Unbalanced training data gives biased results."
+      },
+      {
+       "q": "How can AI bias be reduced?",
+       "r": "Train it on fair, balanced data and test it on many groups",
+       "w": [
+        "Use less data from fewer people",
+        "Never test it",
+        "Hide how it works from everyone"
+       ],
+       "e": [
+        "Less varied data increases bias.",
+        "Testing finds bias.",
+        "Openness helps find problems."
+       ],
+       "y": "Balanced data and careful testing."
+      },
+      {
+       "q": "Which law-related step protects people when AI uses their data?",
+       "r": "Asking for permission and keeping the data secure",
+       "w": [
+        "Selling the data",
+        "Publishing everyone's data",
+        "Keeping data forever without reason"
+       ],
+       "e": [
+        "Selling without consent is misuse.",
+        "That breaks privacy.",
+        "Data should be kept only as needed."
+       ],
+       "y": "Consent and security protect privacy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "k3-21",
+   "name": "Shapes of simple covalent molecules (VSEPR)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "VSEPR (valence shell electron pair repulsion): pairs of electrons around the central atom repel each other and get as far apart as possible.\n• 2 bonding groups: linear, 180° (CO₂, BeCl₂).\n• 3 bonding pairs: trigonal planar, 120° (BF₃).\n• 4 bonding pairs: tetrahedral, 109.5° (CH₄).\n• Lone pairs repel more than bonding pairs, squeezing the bonds closer:\n  NH₃ (3 bonding, 1 lone pair): pyramidal, about 107°; H₂O (2 bonding, 2 lone pairs): bent, about 104.5°.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Electron pairs push apart",
+    "text": "Electron pairs are all negatively charged, so they repel. Around a central atom they arrange themselves to be as far apart as possible.\nThis idea is VSEPR: valence shell electron pair repulsion. It lets us predict the shape of a molecule from the number of electron pairs around the centre."
+   },
+   {
+    "heading": "The basic shapes",
+    "text": "• Two groups (CO₂, BeCl₂): opposite sides, linear, {180}°.\n• Three pairs (BF₃): flat triangle, trigonal planar, {120}°.\n• Four pairs (CH₄): pointing to the corners of a tetrahedron, {109.5}°. A tetrahedron is a pyramid with a triangular base: the molecule is three-dimensional.\nA double bond counts as one group when predicting shape."
+   },
+   {
+    "heading": "Lone pairs squeeze the angle",
+    "text": "Lone pairs repel more strongly than bonding pairs.\n• Ammonia, NH₃: three bonding pairs and one lone pair → pyramidal, about {107}°.\n• Water, H₂O: two bonding pairs and two lone pairs → bent (V-shaped), about {104.5}°.\nThe shape of water molecules explains many of its special properties."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "VSEPR",
+    "meaning": "electron pairs repel and spread as far apart as possible"
+   },
+   {
+    "word": "bond angle",
+    "meaning": "the angle between two bonds at the central atom"
+   },
+   {
+    "word": "tetrahedral",
+    "meaning": "four pairs pointing to the corners of a tetrahedron"
+   },
+   {
+    "word": "lone pair",
+    "meaning": "a non-bonding pair that still takes up space"
+   }
+  ],
+  "examples": [
+   "CH₄: tetrahedral, {109.5}°",
+   "NH₃: pyramidal, {107}°",
+   "H₂O: bent, {104.5}°",
+   "CO₂: linear, {180}°"
+  ],
+  "mistake": {
+   "wrong": "Water is linear like carbon dioxide",
+   "right": "Water is bent (about {104.5}°) because of its two lone pairs",
+   "why": "The lone pairs on oxygen push the two O–H bonds together."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Predict the shape and bond angle of methane, CH₄.",
+  "steps": [
+   "Carbon has {4} bonding pairs and no lone pairs.",
+   "Four pairs get furthest apart pointing to the corners of a tetrahedron.",
+   "The bond angle is {109.5}°."
+  ],
+  "answer": "Tetrahedral, {109.5}°",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k21-1",
+    "status": "draft",
+    "idea": "Electron pairs around a central atom repel and spread out as far as possible.",
+    "vars": {},
+    "example": [
+     "Four pairs → tetrahedral, {109.5}°"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-21-shape"
+    }
+   },
+   {
+    "id": "c3k21-2",
+    "status": "draft",
+    "idea": "Lone pairs repel more strongly than bonding pairs.",
+    "vars": {},
+    "example": [
+     "NH₃: {107}°; H₂O: {104.5}°"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-21-angle-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "f": "CH₄",
+         "n": "methane",
+         "s": "tetrahedral",
+         "a": 109.5,
+         "bp": 4,
+         "lp": 0
+        },
+        {
+         "f": "NH₃",
+         "n": "ammonia",
+         "s": "pyramidal",
+         "a": 107,
+         "bp": 3,
+         "lp": 1
+        },
+        {
+         "f": "H₂O",
+         "n": "water",
+         "s": "bent (V-shaped)",
+         "a": 104.5,
+         "bp": 2,
+         "lp": 2
+        },
+        {
+         "f": "CO₂",
+         "n": "carbon dioxide",
+         "s": "linear",
+         "a": 180,
+         "bp": 2,
+         "lp": 0
+        },
+        {
+         "f": "BF₃",
+         "n": "boron trifluoride",
+         "s": "trigonal planar",
+         "a": 120,
+         "bp": 3,
+         "lp": 0
+        }
+       ]
+      }
+     },
+     "prompt": "What is the bond angle in a molecule of {X.n}, {X.f} (degrees)?",
+     "answer": "X.a",
+     "misconceptions": [
+      {
+       "id": "tet",
+       "wrong": "109.5",
+       "explain": "That is the tetrahedral angle. Lone pairs or fewer pairs change it."
+      }
+     ],
+     "solution": [
+      "Shape: {X.s} ({X.bp} bonding pair(s), {X.lp} lone pair(s)).",
+      "Bond angle: {answer}°."
+     ],
+     "unit": "°",
+     "where": [
+      "X.a != 109.5"
+     ]
+    }
+   },
+   {
+    "id": "c3k21-3",
+    "status": "draft",
+    "idea": "Two bonding groups with no lone pairs give a straight (linear) molecule.",
+    "vars": {},
+    "example": [
+     "{'O=C=O'}: {180}°"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-21-pairs"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-21-shape",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "f": "CH₄",
+       "n": "methane",
+       "s": "tetrahedral",
+       "a": 109.5,
+       "bp": 4,
+       "lp": 0
+      },
+      {
+       "f": "NH₃",
+       "n": "ammonia",
+       "s": "pyramidal",
+       "a": 107,
+       "bp": 3,
+       "lp": 1
+      },
+      {
+       "f": "H₂O",
+       "n": "water",
+       "s": "bent (V-shaped)",
+       "a": 104.5,
+       "bp": 2,
+       "lp": 2
+      },
+      {
+       "f": "CO₂",
+       "n": "carbon dioxide",
+       "s": "linear",
+       "a": 180,
+       "bp": 2,
+       "lp": 0
+      },
+      {
+       "f": "BF₃",
+       "n": "boron trifluoride",
+       "s": "trigonal planar",
+       "a": 120,
+       "bp": 3,
+       "lp": 0
+      },
+      {
+       "f": "BeCl₂",
+       "n": "beryllium chloride",
+       "s": "linear",
+       "a": 180,
+       "bp": 2,
+       "lp": 0
+      }
+     ]
+    }
+   },
+   "prompt": "What is the shape of a molecule of {X.n}, {X.f}?",
+   "correct": "{X.s}",
+   "distractors": [
+    {
+     "text": "{X.s == 'tetrahedral' ? 'trigonal planar' : 'tetrahedral'}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.s == 'linear' ? 'bent (V-shaped)' : 'linear'}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{X.s == 'pyramidal' ? 'bent (V-shaped)' : 'pyramidal'}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "Count the electron pairs round the centre: {X.bp} bonding and {X.lp} lone."
+    },
+    {
+     "id": "w2",
+     "explain": "Count the pairs: {X.bp} bonding and {X.lp} lone pair(s)."
+    },
+    {
+     "id": "w3",
+     "explain": "Count the pairs: {X.bp} bonding and {X.lp} lone pair(s)."
+    }
+   ],
+   "solution": [
+    "The central atom has {X.bp} bonding group(s) and {X.lp} lone pair(s).",
+    "So the shape is {answer}."
+   ]
+  },
+  {
+   "id": "k3-21-angle",
+   "type": "numeric",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "f": "CH₄",
+       "n": "methane",
+       "s": "tetrahedral",
+       "a": 109.5,
+       "bp": 4,
+       "lp": 0
+      },
+      {
+       "f": "NH₃",
+       "n": "ammonia",
+       "s": "pyramidal",
+       "a": 107,
+       "bp": 3,
+       "lp": 1
+      },
+      {
+       "f": "H₂O",
+       "n": "water",
+       "s": "bent (V-shaped)",
+       "a": 104.5,
+       "bp": 2,
+       "lp": 2
+      },
+      {
+       "f": "CO₂",
+       "n": "carbon dioxide",
+       "s": "linear",
+       "a": 180,
+       "bp": 2,
+       "lp": 0
+      },
+      {
+       "f": "BF₃",
+       "n": "boron trifluoride",
+       "s": "trigonal planar",
+       "a": 120,
+       "bp": 3,
+       "lp": 0
+      }
+     ]
+    }
+   },
+   "prompt": "What is the bond angle in a molecule of {X.n}, {X.f} (degrees)?",
+   "answer": "X.a",
+   "misconceptions": [
+    {
+     "id": "tet",
+     "wrong": "109.5",
+     "explain": "That is the tetrahedral angle. Lone pairs or fewer pairs change it."
+    }
+   ],
+   "solution": [
+    "Shape: {X.s} ({X.bp} bonding pair(s), {X.lp} lone pair(s)).",
+    "Bond angle: {answer}°."
+   ],
+   "unit": "°",
+   "where": [
+    "X.a != 109.5"
+   ]
+  },
+  {
+   "id": "k3-21-pairs",
+   "type": "numeric",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "f": "CH₄",
+       "n": "methane",
+       "s": "tetrahedral",
+       "a": 109.5,
+       "bp": 4,
+       "lp": 0
+      },
+      {
+       "f": "NH₃",
+       "n": "ammonia",
+       "s": "pyramidal",
+       "a": 107,
+       "bp": 3,
+       "lp": 1
+      },
+      {
+       "f": "H₂O",
+       "n": "water",
+       "s": "bent (V-shaped)",
+       "a": 104.5,
+       "bp": 2,
+       "lp": 2
+      },
+      {
+       "f": "CO₂",
+       "n": "carbon dioxide",
+       "s": "linear",
+       "a": 180,
+       "bp": 2,
+       "lp": 0
+      }
+     ]
+    }
+   },
+   "prompt": "How many lone pairs are on the central atom of {X.n}, {X.f}?",
+   "answer": "X.lp",
+   "misconceptions": [
+    {
+     "id": "bp",
+     "wrong": "X.bp",
+     "explain": "That is the number of bonding pairs. Lone pairs are not used in bonds."
+    }
+   ],
+   "solution": [
+    "Central atom: {X.bp} bonding pair(s).",
+    "Lone pairs: {answer}."
+   ],
+   "where": [
+    "X.bp != X.lp"
+   ]
+  },
+  {
+   "id": "k3-21-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is the bond angle in water (104.5°) smaller than in methane (109.5°)?",
+       "r": "Water's two lone pairs repel the bonding pairs more strongly",
+       "w": [
+        "Water has more bonds than methane",
+        "Oxygen is smaller than hydrogen",
+        "Water is ionic"
+       ],
+       "e": [
+        "Water has two bonds; methane has four.",
+        "Size is not the reason here.",
+        "Water is covalent."
+       ],
+       "y": "Lone pairs push the O–H bonds closer together."
+      },
+      {
+       "q": "Why is carbon dioxide linear?",
+       "r": "The two double bonds repel each other and get as far apart as possible: 180°",
+       "w": [
+        "Carbon has two lone pairs",
+        "Oxygen atoms attract each other",
+        "It has four bonds in a square"
+       ],
+       "e": [
+        "Carbon has no lone pairs in CO₂.",
+        "Like electron groups repel; that makes it straight.",
+        "The two groups point opposite ways."
+       ],
+       "y": "Two groups of electrons, no lone pairs: linear."
+      },
+      {
+       "q": "BF₃ is trigonal planar but NH₃ is pyramidal. Why?",
+       "r": "Nitrogen has a lone pair; boron has none",
+       "w": [
+        "Boron has a lone pair",
+        "NH₃ has four bonds",
+        "Fluorine is larger than hydrogen"
+       ],
+       "e": [
+        "Boron has no lone pair in BF₃.",
+        "NH₃ has three bonds.",
+        "Atom size does not explain the shape."
+       ],
+       "y": "The lone pair on nitrogen pushes the three bonds down into a pyramid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

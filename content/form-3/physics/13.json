@@ -1,0 +1,517 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "p3-13",
+   "name": "Effects of atmospheric pressure on boiling points and on health"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Atmospheric pressure decreases with altitude: there is less air above you.\nBoiling point depends on pressure: a liquid boils when its vapour pressure equals the pressure above it.\n• Lower pressure (high places such as Mount Cameroon) → water boils below 100 °C, so food takes longer to cook.\n• Higher pressure (pressure cooker) → water boils above 100 °C, so food cooks faster.\nHealth: at high altitude there is less oxygen per breath (altitude sickness, headaches, breathlessness); ears 'pop' when pressure changes quickly; divers who rise too fast suffer the bends. Aircraft cabins are pressurised.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Less air higher up",
+    "text": "The higher you go, the less air there is above you, so the atmospheric pressure is lower. At the top of Mount Cameroon (about {4000} m) it is roughly two-thirds of the pressure in Douala.\nPressure changes affect boiling, breathing and our ears."
+   },
+   {
+    "heading": "Boiling and pressure",
+    "text": "Water boils when its vapour can push back against the pressure of the air above it. With less air pressure, this happens at a lower temperature.\nSo on a high mountain water may boil at about {90} °C, and food takes longer to cook.\nA pressure cooker does the opposite: it traps steam, raises the pressure and makes water boil at about {120} °C, so beans and meat cook much faster. Its safety valve releases steam if the pressure gets too high."
+   },
+   {
+    "heading": "Pressure and health",
+    "text": "• At high altitude each breath holds less oxygen: climbers can get headaches, dizziness and breathlessness (altitude sickness).\n• Quick changes of pressure, in a plane or a car going down a hill, make your ears 'pop'; swallowing helps.\n• Divers who come up too fast can get the bends. Aircraft cabins are pressurised so passengers breathe comfortably."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "altitude",
+    "meaning": "height above sea level"
+   },
+   {
+    "word": "boiling point",
+    "meaning": "the temperature at which a liquid boils; it depends on pressure"
+   },
+   {
+    "word": "pressure cooker",
+    "meaning": "a sealed pan that raises the pressure and the boiling point"
+   }
+  ],
+  "examples": [
+   "Mountain top: water boils below {100} °C",
+   "Pressure cooker: water boils at about {120} °C"
+  ],
+  "mistake": {
+   "wrong": "Water always boils at {100} °C",
+   "right": "{100} °C is the boiling point only at normal sea-level pressure",
+   "why": "Lower pressure lowers the boiling point; higher pressure raises it."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why do climbers on Mount Cameroon find that rice cooks slowly near the summit?",
+  "steps": [
+   "The air pressure is lower high up.",
+   "Lower pressure lowers the boiling point of water below {100} °C.",
+   "The water boils at a lower temperature, so the rice cooks more slowly."
+  ],
+  "answer": "Lower pressure, lower boiling point, slower cooking",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p13-1",
+    "status": "draft",
+    "idea": "Higher altitude → lower air pressure → lower boiling point.",
+    "vars": {},
+    "example": [
+     "High on a mountain, water may boil at about {90} °C."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-13-boil"
+    }
+   },
+   {
+    "id": "c3p13-2",
+    "status": "draft",
+    "idea": "A pressure cooker raises the pressure, so water boils above {100} °C.",
+    "vars": {},
+    "example": [
+     "Beans cook faster in a pressure cooker."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-13-cooker"
+    }
+   },
+   {
+    "id": "c3p13-3",
+    "status": "draft",
+    "idea": "Low pressure at altitude means less oxygen per breath.",
+    "vars": {},
+    "example": [
+     "Climbers may feel dizzy and breathless."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-13-health-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "pressure"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why do some climbers feel dizzy near the summit of a high mountain?",
+         "r": "The low air pressure means less oxygen in each breath",
+         "w": [
+          "The air contains more oxygen",
+          "Their blood becomes heavier",
+          "The sun is closer"
+         ],
+         "e": [
+          "There is less oxygen per breath.",
+          "Blood density does not change.",
+          "Distance to the sun is not the cause."
+         ],
+         "y": "Altitude sickness comes from low pressure and less oxygen."
+        },
+        {
+         "q": "Why do your ears 'pop' when a plane takes off?",
+         "r": "The outside pressure changes quickly and the pressure in the middle ear adjusts",
+         "w": [
+          "The engine noise is too loud",
+          "The ears freeze",
+          "Oxygen fills the ears"
+         ],
+         "e": [
+          "Noise does not cause popping.",
+          "Cabins are warm.",
+          "It is about pressure, not oxygen."
+         ],
+         "y": "Swallowing lets air in or out to balance the pressure on the eardrum."
+        },
+        {
+         "q": "Why are aircraft cabins pressurised?",
+         "r": "At cruising height the air pressure is too low for people to breathe comfortably",
+         "w": [
+          "To make the plane heavier",
+          "To keep the plane warm",
+          "To make the engines work"
+         ],
+         "e": [
+          "Pressurising does not add useful weight.",
+          "Heating is a separate system.",
+          "Engines take in outside air."
+         ],
+         "y": "High up, the outside pressure is too low for healthy breathing."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-13-boil",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does the boiling point of water change as you climb a mountain?",
+       "r": "It goes down",
+       "w": [
+        "It goes up",
+        "It stays at 100 °C",
+        "Water cannot boil there"
+       ],
+       "e": [
+        "Higher up the pressure is lower, which lowers the boiling point.",
+        "100 °C is the boiling point only at normal sea-level pressure.",
+        "It boils, but at a lower temperature."
+       ],
+       "y": "Lower air pressure, lower boiling point."
+      },
+      {
+       "q": "Why does food take longer to cook at high altitude?",
+       "r": "Water boils at a lower temperature there",
+       "w": [
+        "Water boils at a higher temperature there",
+        "Fire burns hotter there",
+        "Food is heavier there"
+       ],
+       "e": [
+        "Lower pressure means a lower boiling point.",
+        "Less oxygen makes fires burn less well, not hotter.",
+        "The weight of food has nothing to do with cooking time."
+       ],
+       "y": "Boiling water is cooler, so cooking is slower."
+      },
+      {
+       "q": "What happens to atmospheric pressure as altitude increases?",
+       "r": "It decreases",
+       "w": [
+        "It increases",
+        "It stays the same",
+        "It becomes zero at once"
+       ],
+       "e": [
+        "There is less air above you higher up.",
+        "There is less air above you higher up.",
+        "It falls gradually."
+       ],
+       "y": "Less air above, less weight, lower pressure."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-13-cooker",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does a pressure cooker cook food faster?",
+       "r": "It raises the pressure, so water boils above 100 °C",
+       "w": [
+        "It lowers the boiling point",
+        "It removes the air so food cooks in a vacuum",
+        "It makes the flame hotter"
+       ],
+       "e": [
+        "It raises the boiling point.",
+        "It traps steam, raising the pressure.",
+        "The flame is the same."
+       ],
+       "y": "Hotter boiling water cooks food faster."
+      },
+      {
+       "q": "Why must a pressure cooker have a safety valve?",
+       "r": "To let steam out if the pressure gets dangerously high",
+       "w": [
+        "To let air in",
+        "To make the food taste better",
+        "To measure the temperature"
+       ],
+       "e": [
+        "The valve releases pressure, it does not let air in.",
+        "Taste has nothing to do with it.",
+        "It does not measure temperature."
+       ],
+       "y": "Too much pressure could burst the cooker."
+      },
+      {
+       "q": "Water in a sealed pressure cooker boils at about…",
+       "r": "120 °C",
+       "w": [
+        "80 °C",
+        "100 °C exactly",
+        "0 °C"
+       ],
+       "e": [
+        "Higher pressure raises the boiling point above 100 °C.",
+        "100 °C is the boiling point at normal pressure.",
+        "0 °C is the freezing point."
+       ],
+       "y": "The higher pressure raises the boiling point to about 120 °C."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-13-health",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do some climbers feel dizzy near the summit of a high mountain?",
+       "r": "The low air pressure means less oxygen in each breath",
+       "w": [
+        "The air contains more oxygen",
+        "Their blood becomes heavier",
+        "The sun is closer"
+       ],
+       "e": [
+        "There is less oxygen per breath.",
+        "Blood density does not change.",
+        "Distance to the sun is not the cause."
+       ],
+       "y": "Altitude sickness comes from low pressure and less oxygen."
+      },
+      {
+       "q": "Why do your ears 'pop' when a plane takes off?",
+       "r": "The outside pressure changes quickly and the pressure in the middle ear adjusts",
+       "w": [
+        "The engine noise is too loud",
+        "The ears freeze",
+        "Oxygen fills the ears"
+       ],
+       "e": [
+        "Noise does not cause popping.",
+        "Cabins are warm.",
+        "It is about pressure, not oxygen."
+       ],
+       "y": "Swallowing lets air in or out to balance the pressure on the eardrum."
+      },
+      {
+       "q": "Why are aircraft cabins pressurised?",
+       "r": "At cruising height the air pressure is too low for people to breathe comfortably",
+       "w": [
+        "To make the plane heavier",
+        "To keep the plane warm",
+        "To make the engines work"
+       ],
+       "e": [
+        "Pressurising does not add useful weight.",
+        "Heating is a separate system.",
+        "Engines take in outside air."
+       ],
+       "y": "High up, the outside pressure is too low for healthy breathing."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-13-chain",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "pressure"
+   ],
+   "prompt": "Put the explanation in order: why does rice cook slowly near the top of Mount Cameroon?",
+   "items": [
+    {
+     "text": "The climber is very high up."
+    },
+    {
+     "text": "There is less air above, so the air pressure is lower."
+    },
+    {
+     "text": "Water boils at a temperature below 100 °C."
+    },
+    {
+     "text": "The boiling water is not as hot, so the rice cooks more slowly."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Start from the height and end with the cooking."
+  }
+ ]
+}

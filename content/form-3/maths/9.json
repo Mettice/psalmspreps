@@ -1,0 +1,499 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "m3-9",
+   "name": "Solve simultaneous linear equations by substitution"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Substitution method:\n• Make one unknown the subject of one equation (choose one with a coefficient of 1 if you can): y = 2x − 1.\n• Substitute that expression into the other equation, in brackets: 3x + 2(2x − 1) = 12.\n• Solve for the remaining unknown, then substitute back to find the other.\nSubstitution is easiest when one equation already gives y = … or x = …. Both methods give the same answer.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Using what one equation tells you",
+    "text": "If one equation already says what y is, for example y = {poly([2, 'x'], [1, ''])}, you can replace y in the other equation by that expression.\nTake {poly([1, 'x'], [1, 'y'])} = {7}. Replace y: x + {'(' + poly([2, 'x'], [1, '']) + ')'} = {7}.\nNow there is only one unknown: {poly([3, 'x'], [1, ''])} = {7}, so x = {2}. Then y = {2} × {2} + {1} = {5}.\nAlways put the expression in brackets, so that every term is multiplied correctly."
+   },
+   {
+    "heading": "Making a subject first",
+    "text": "If neither equation starts with y = or x =, rearrange one. Choose the unknown whose coefficient is {1}.\nFrom x + {mono(3, 'y')} = {10}, subtract {mono(3, 'y')} from both sides: x = {10} − {mono(3, 'y')}.\nThen substitute that into the other equation, solve for y, and come back for x."
+   },
+   {
+    "heading": "Where two lines meet",
+    "text": "Each linear equation is a straight line. The solution of the pair is the point where the lines cross.\nIf y = {poly([2, 'x'], [1, ''])} and y = {poly([-1, 'x'], [7, ''])}, both y values are equal there: {poly([2, 'x'], [1, ''])} = {poly([-1, 'x'], [7, ''])}, so {mono(3, 'x')} = {6} and x = {2}.\nThen y = {5}: the lines meet at ({2}, {5})."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "substitute",
+    "meaning": "replace a letter by a value or an expression"
+   },
+   {
+    "word": "subject",
+    "meaning": "the letter on its own on one side, as y in y = …"
+   },
+   {
+    "word": "point of intersection",
+    "meaning": "where two lines cross: the solution of their equations"
+   }
+  ],
+  "examples": [
+   "y = x + {3} and {poly([2, 'x'], [1, 'y'])} = {12}: {mono(2, 'x')} + x + {3} = {12}, x = {3}, y = {6}",
+   "x = {mono(2, 'y')} and {poly([1, 'x'], [1, 'y'])} = {9}: {mono(3, 'y')} = {9}, y = {3}, x = {6}"
+  ],
+  "mistake": {
+   "wrong": "y = x − {2} into {poly([3, 'x'], [-1, 'y'])} = {10}: {mono(3, 'x')} − x − {2} = {10}",
+   "right": "{mono(3, 'x')} − (x − {2}) = {10}, so {mono(2, 'x')} + {2} = {10}",
+   "why": "Without brackets the sign of {2} is wrong: subtracting (x − {2}) gives − x + {2}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 2,
+   "c": -1,
+   "a": 3,
+   "b": 2,
+   "s": 2
+  },
+  "problem": "Solve y = {poly([m, 'x'], [c, ''])} and {poly([a, 'x'], [b, 'y'])} = {a * s + b * (m * s + c)}.",
+  "steps": [
+   "Substitute y = {poly([m, 'x'], [c, ''])} into the second equation: {mono(a, 'x')} + {b}{'(' + poly([m, 'x'], [c, '']) + ')'} = {a * s + b * (m * s + c)}.",
+   "Expand: {poly([a + b * m, 'x'], [b * c, ''])} = {a * s + b * (m * s + c)}, so {mono(a + b * m, 'x')} = {(a + b * m) * s} and x = {s}.",
+   "Back-substitute: y = {m} × {s} + {br(c)} = {m * s + c}."
+  ],
+  "answer": "{'x = ' + fmt(s) + ', y = ' + fmt(m * s + c)}",
+  "checks": [
+   "a + b * m == 7"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m9-1",
+    "status": "draft",
+    "idea": "Substitute the expression for y into the other equation, in brackets.",
+    "vars": {},
+    "example": [
+     "y = {poly([2, 'x'], [1, ''])} into {poly([1, 'x'], [1, 'y'])} = {7}: x + {'(' + poly([2, 'x'], [1, '']) + ')'} = {7}, so {mono(3, 'x')} = {6}, x = {2}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-9-x"
+    }
+   },
+   {
+    "id": "c3m9-2",
+    "status": "draft",
+    "idea": "Make a letter the subject first if neither equation gives it.",
+    "vars": {},
+    "example": [
+     "x + {mono(3, 'y')} = {10} → x = {10} − {mono(3, 'y')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-9-subject"
+    }
+   },
+   {
+    "id": "c3m9-3",
+    "status": "draft",
+    "idea": "After finding one unknown, substitute back to find the other.",
+    "vars": {},
+    "example": [
+     "x = {2} in y = {poly([3, 'x'], [-1, ''])}: y = {6} − {1} = {5}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-9-y-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "simultaneous"
+     ],
+     "vars": {
+      "m": {
+       "int": [
+        -3,
+        4
+       ]
+      },
+      "c": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "a": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        4
+       ]
+      },
+      "s": {
+       "int": [
+        -5,
+        6
+       ]
+      }
+     },
+     "prompt": "Solve y = {poly([m, 'x'], [c, ''])} and {poly([a, 'x'], [b, 'y'])} = {a * s + b * (m * s + c)}. What is y?",
+     "answer": "m * s + c",
+     "misconceptions": [
+      {
+       "id": "x",
+       "wrong": "s",
+       "explain": "That is x. Substitute it back into y = {poly([m, 'x'], [c, ''])} to find y."
+      }
+     ],
+     "solution": [
+      "Substitute: {mono(a, 'x')} + {b}{'(' + poly([m, 'x'], [c, '']) + ')'} = {a * s + b * (m * s + c)}.",
+      "{poly([a + b * m, 'x'], [b * c, ''])} = {a * s + b * (m * s + c)}, so x = {s}.",
+      "y = {m} × {br(s)} + {br(c)} = {answer}."
+     ],
+     "where": [
+      "m != 0",
+      "c != 0",
+      "a + b * m != 0",
+      "m * s + c != s"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-9-x",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "s": {
+     "int": [
+      -5,
+      8
+     ]
+    }
+   },
+   "prompt": "Solve y = {poly([m, 'x'], [c, ''])} and {poly([a, 'x'], [1, 'y'])} = {a * s + m * s + c}. What is x?",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "y",
+     "wrong": "m * s + c",
+     "explain": "That is y. Find x first: substitute y into the second equation."
+    }
+   ],
+   "solution": [
+    "Substitute: {mono(a, 'x')} + {'(' + poly([m, 'x'], [c, '']) + ')'} = {a * s + m * s + c}.",
+    "{mono(a + m, 'x')} = {(a + m) * s}, so x = {answer}."
+   ],
+   "where": [
+    "c != 0",
+    "s != 0",
+    "m * s + c != s"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-9-subject",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      3,
+      30
+     ]
+    }
+   },
+   "prompt": "Make x the subject of {poly([1, 'x'], [b, 'y'])} = {c}.",
+   "correct": "{'x = ' + c + ' − ' + mono(b, 'y')}",
+   "distractors": [
+    {
+     "text": "{'x = ' + c + ' + ' + mono(b, 'y')}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{'x = ' + mono(b, 'y') + ' − ' + c}",
+     "misconception": "order"
+    },
+    {
+     "text": "{'x = ' + c + ' − y'}",
+     "misconception": "coef"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "{mono(b, 'y')} is added on the left, so subtract it from both sides."
+    },
+    {
+     "id": "order",
+     "explain": "Check with y = {0}: x would be {-c}, but the equation gives x = {c}."
+    },
+    {
+     "id": "coef",
+     "explain": "Subtract the whole term {mono(b, 'y')}, not just y."
+    }
+   ],
+   "solution": [
+    "Subtract {mono(b, 'y')} from both sides.",
+    "So {answer}."
+   ]
+  },
+  {
+   "id": "m3-9-y",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      -3,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "s": {
+     "int": [
+      -5,
+      6
+     ]
+    }
+   },
+   "prompt": "Solve y = {poly([m, 'x'], [c, ''])} and {poly([a, 'x'], [b, 'y'])} = {a * s + b * (m * s + c)}. What is y?",
+   "answer": "m * s + c",
+   "misconceptions": [
+    {
+     "id": "x",
+     "wrong": "s",
+     "explain": "That is x. Substitute it back into y = {poly([m, 'x'], [c, ''])} to find y."
+    }
+   ],
+   "solution": [
+    "Substitute: {mono(a, 'x')} + {b}{'(' + poly([m, 'x'], [c, '']) + ')'} = {a * s + b * (m * s + c)}.",
+    "{poly([a + b * m, 'x'], [b * c, ''])} = {a * s + b * (m * s + c)}, so x = {s}.",
+    "y = {m} × {br(s)} + {br(c)} = {answer}."
+   ],
+   "where": [
+    "m != 0",
+    "c != 0",
+    "a + b * m != 0",
+    "m * s + c != s"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-9-xsub",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "q": {
+     "int": [
+      -8,
+      8
+     ]
+    },
+    "a": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "t": {
+     "int": [
+      -5,
+      7
+     ]
+    }
+   },
+   "prompt": "Solve x = {poly([p, 'y'], [q, ''])} and {poly([a, 'x'], [b, 'y'])} = {a * (p * t + q) + b * t}. What is y?",
+   "answer": "t",
+   "misconceptions": [
+    {
+     "id": "noexp",
+     "wrong": "(a * (p * t + q) + b * t - q) / (p + b)",
+     "explain": "Multiply the whole bracket by {a}: {a} × {br(q)} = {a * q}."
+    }
+   ],
+   "solution": [
+    "Substitute: {a}{'(' + poly([p, 'y'], [q, '']) + ')'} + {mono(b, 'y')} = {a * (p * t + q) + b * t}.",
+    "{poly([a * p + b, 'y'], [a * q, ''])} = {a * (p * t + q) + b * t}, so {mono(a * p + b, 'y')} = {(a * p + b) * t} and y = {answer}."
+   ],
+   "where": [
+    "q != 0",
+    "t != 0",
+    "(a * (p * t + q) + b * t - q) / (p + b) != t"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-9-meet",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "simultaneous"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "s": {
+     "int": [
+      -5,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "d": {
+     "expr": "c + (m - n) * s"
+    }
+   },
+   "prompt": "The lines y = {poly([m, 'x'], [c, ''])} and y = {poly([n, 'x'], [d, ''])} meet at one point. Find it.",
+   "correct": "{'x = ' + fmt(s) + ', y = ' + fmt(m * s + c)}",
+   "distractors": [
+    {
+     "text": "{'x = ' + fmt(m * s + c) + ', y = ' + fmt(s)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{'x = ' + fmt(s) + ', y = ' + fmt(n * s + c)}",
+     "misconception": "mix"
+    },
+    {
+     "text": "{'x = ' + fmt(-s) + ', y = ' + fmt(m * s + c)}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "x comes first in a coordinate pair: the point has x = {s}."
+    },
+    {
+     "id": "mix",
+     "explain": "Substitute x = {s} into one whole equation: y = {m} × {br(s)} + {br(c)} = {m * s + c}."
+    },
+    {
+     "id": "sign",
+     "explain": "Check the sign: dividing {d - c} by {m - n} gives x = {s}, not {-s}."
+    }
+   ],
+   "solution": [
+    "At the meeting point both y values are equal: {poly([m, 'x'], [c, ''])} = {poly([n, 'x'], [d, ''])}.",
+    "{mono(m - n, 'x')} = {d - c}, so x = {s}; y = {m} × {br(s)} + {br(c)} = {m * s + c}.",
+    "The point is {answer}."
+   ],
+   "where": [
+    "m != n",
+    "m != 0 && n != 0",
+    "s != 0",
+    "m * s + c != s",
+    "n * s + c != m * s + c",
+    "c != d"
+   ]
+  }
+ ]
+}

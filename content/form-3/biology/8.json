@@ -1,0 +1,438 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  6,
+  7
+ ],
+ "skills": [
+  {
+   "id": "b3-8",
+   "name": "Practical: diffusion and osmosis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Diffusion: drop a crystal of potassium permanganate into still water in a beaker and watch the purple colour spread; repeat in warm water: it spreads faster.\nOsmosis with potato: cut equal cylinders with a cork borer, blot and weigh each, place them in sugar (or salt) solutions of different concentrations for 30 minutes, blot and weigh again.\nCalculate the percentage change in mass for each, plot it against concentration, and read where the line crosses zero: there the solution has the same water concentration as the potato cells.\nOsmosis with Visking tubing: tie sugar solution inside, stand it in water; the tubing swells and the liquid rises in an attached capillary.\nControl variables: same size of cylinder, same time, same temperature, blot the same way.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Seeing diffusion",
+    "text": "Drop a crystal of potassium permanganate into a beaker of still water. Over time, purple colour spreads through all the water: the particles diffuse from where they are concentrated to where they are not.\nRepeat in warm water: the colour spreads faster, because particles move faster when warmer."
+   },
+   {
+    "heading": "Osmosis with potato cylinders",
+    "text": "• Cut equal cylinders of potato with a cork borer; blot and weigh each.\n• Put each into a sugar solution of a different concentration (including pure water) for the same time.\n• Blot and weigh again; work out the percentage change in mass.\nGains show water entered (the solution was more dilute than the sap); losses show water left (it was more concentrated)."
+   },
+   {
+    "heading": "Finding the sap concentration",
+    "text": "Plot percentage change in mass against concentration. The line crosses {0}% where the solution has the same water concentration as the potato cells: no net osmosis.\nKeep the test fair: same size of cylinder, same time, same temperature, and blot each the same way.\nVisking tubing (an artificial partially permeable membrane) filled with sugar solution and placed in water swells as water enters by osmosis."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cork borer",
+    "meaning": "a metal tube for cutting equal cylinders"
+   },
+   {
+    "word": "control variable",
+    "meaning": "something kept the same so the test is fair"
+   },
+   {
+    "word": "Visking tubing",
+    "meaning": "an artificial partially permeable membrane"
+   }
+  ],
+  "examples": [
+   "Cylinder {4} g → {4.4} g: +{10}%",
+   "Cylinder {5} g → {4.5} g: −{10}%",
+   "No change between {0.2} M and {0.4} M solutions"
+  ],
+  "mistake": {
+   "wrong": "A mass loss means water went into the potato",
+   "right": "A mass loss means water left the potato by osmosis",
+   "why": "The potato gets lighter when water moves out."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "q1": 8,
+   "q2": -6
+  },
+  "problem": "Potato cylinders gained {q1}% of their mass in {0.2} M sugar solution and lost {abs(q2)}% in {0.4} M. Between which concentrations is the potato's own sap concentration?",
+  "steps": [
+   "A gain means water entered: the solution was more dilute than the sap.",
+   "A loss means water left: the solution was more concentrated than the sap.",
+   "So the sap concentration lies between the two."
+  ],
+  "answer": "Between the two solutions ({0.2} M and {0.4} M)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b8-1",
+    "status": "draft",
+    "idea": "Keep everything the same except the concentration (control variables).",
+    "vars": {},
+    "example": [
+     "Same size, same time, same temperature."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-8-fair"
+    }
+   },
+   {
+    "id": "c3b8-2",
+    "status": "draft",
+    "idea": "Percentage change in mass shows the direction of osmosis.",
+    "vars": {},
+    "example": [
+     "Gain: water in. Loss: water out."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-8-calc-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "practicals"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        2,
+        2.5,
+        4,
+        5
+       ]
+      },
+      "q": {
+       "int": [
+        -25,
+        25
+       ],
+       "step": 5
+      },
+      "b": {
+       "expr": "roundTo(a * (1 + q / 100), 0.01)"
+      }
+     },
+     "prompt": "A potato cylinder had mass {a} g before and {b} g after 30 minutes in a solution. Find the percentage change in mass (use − for a loss).",
+     "answer": "roundTo((b - a) / a * 100, 0.1)",
+     "misconceptions": [
+      {
+       "id": "final",
+       "wrong": "roundTo((b - a) / b * 100, 0.1)",
+       "explain": "Divide by the starting mass {a} g."
+      }
+     ],
+     "solution": [
+      "Change = {b} − {a} = {roundTo(b - a, 0.01)} g.",
+      "Percentage change = {roundTo(b - a, 0.01)} ÷ {a} × {100} = {answer}%."
+     ],
+     "unit": "%",
+     "where": [
+      "q != 0"
+     ],
+     "signed": true
+    }
+   },
+   {
+    "id": "c3b8-3",
+    "status": "draft",
+    "idea": "Where there is no change, the solution matches the cell sap.",
+    "vars": {},
+    "example": [
+     "Read the concentration where the graph crosses {0}%."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-8-zero-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "practicals"
+     ],
+     "vars": {
+      "c1": {
+       "pick": [
+        0.2,
+        0.3
+       ]
+      },
+      "c2": {
+       "pick": [
+        0.4,
+        0.5
+       ]
+      },
+      "u": {
+       "int": [
+        2,
+        12
+       ]
+      },
+      "v": {
+       "int": [
+        2,
+        12
+       ]
+      }
+     },
+     "prompt": "The percentage change in mass is +{u}% in {c1} M sugar and −{v}% in {c2} M. Assuming a straight line between them, at what concentration (M) is there no change? Give 2 decimal places.",
+     "answer": "roundTo(c1 + (c2 - c1) * u / (u + v), 0.01)",
+     "misconceptions": [
+      {
+       "id": "mid",
+       "wrong": "roundTo((c1 + c2) / 2, 0.01)",
+       "explain": "The zero is not always half-way: it is nearer the solution with the smaller change."
+      }
+     ],
+     "solution": [
+      "Zero lies {u} ÷ ({u} + {v}) of the way from {c1} to {c2}.",
+      "c = {c1} + ({c2} − {c1}) × {u} ÷ {u + v} = {answer} M."
+     ],
+     "unit": "M",
+     "where": [
+      "u != v"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-8-fair",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "practicals"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are all the potato cylinders cut to the same size?",
+       "r": "To make it a fair test: only the concentration should differ",
+       "w": [
+        "To make them look nice",
+        "To make them heavier",
+        "Because small cylinders do not take in water"
+       ],
+       "e": [
+        "Appearance does not matter.",
+        "Mass is measured, not chosen.",
+        "All sizes take in water; size changes the rate."
+       ],
+       "y": "Controlled variables must be kept the same."
+      },
+      {
+       "q": "Why are the cylinders blotted dry before weighing?",
+       "r": "To remove surface liquid that would add to the mass",
+       "w": [
+        "To kill the cells",
+        "To add water",
+        "To make them float"
+       ],
+       "e": [
+        "Blotting does not kill them.",
+        "It removes water.",
+        "Floating does not matter."
+       ],
+       "y": "Only water inside the cells should be measured."
+      },
+      {
+       "q": "In the permanganate experiment, why does the colour spread faster in warm water?",
+       "r": "Particles move faster at higher temperature",
+       "w": [
+        "Warm water is purple",
+        "The crystal is bigger in warm water",
+        "Cold water stops diffusion completely"
+       ],
+       "e": [
+        "The colour comes from the crystal.",
+        "The crystal is the same.",
+        "Diffusion still happens in cold water, more slowly."
+       ],
+       "y": "More kinetic energy, faster diffusion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-8-calc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "practicals"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      2,
+      2.5,
+      4,
+      5
+     ]
+    },
+    "q": {
+     "int": [
+      -25,
+      25
+     ],
+     "step": 5
+    },
+    "b": {
+     "expr": "roundTo(a * (1 + q / 100), 0.01)"
+    }
+   },
+   "prompt": "A potato cylinder had mass {a} g before and {b} g after 30 minutes in a solution. Find the percentage change in mass (use − for a loss).",
+   "answer": "roundTo((b - a) / a * 100, 0.1)",
+   "misconceptions": [
+    {
+     "id": "final",
+     "wrong": "roundTo((b - a) / b * 100, 0.1)",
+     "explain": "Divide by the starting mass {a} g."
+    }
+   ],
+   "solution": [
+    "Change = {b} − {a} = {roundTo(b - a, 0.01)} g.",
+    "Percentage change = {roundTo(b - a, 0.01)} ÷ {a} × {100} = {answer}%."
+   ],
+   "unit": "%",
+   "where": [
+    "q != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "b3-8-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "practicals"
+   ],
+   "prompt": "Put the potato osmosis method in order.",
+   "items": [
+    {
+     "text": "Cut equal potato cylinders with a cork borer."
+    },
+    {
+     "text": "Blot and weigh each cylinder."
+    },
+    {
+     "text": "Place each in a different sugar solution for 30 minutes."
+    },
+    {
+     "text": "Remove, blot and weigh again."
+    },
+    {
+     "text": "Calculate the percentage change in mass."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Weigh before and after."
+  },
+  {
+   "id": "b3-8-zero",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "practicals"
+   ],
+   "vars": {
+    "c1": {
+     "pick": [
+      0.2,
+      0.3
+     ]
+    },
+    "c2": {
+     "pick": [
+      0.4,
+      0.5
+     ]
+    },
+    "u": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "The percentage change in mass is +{u}% in {c1} M sugar and −{v}% in {c2} M. Assuming a straight line between them, at what concentration (M) is there no change? Give 2 decimal places.",
+   "answer": "roundTo(c1 + (c2 - c1) * u / (u + v), 0.01)",
+   "misconceptions": [
+    {
+     "id": "mid",
+     "wrong": "roundTo((c1 + c2) / 2, 0.01)",
+     "explain": "The zero is not always half-way: it is nearer the solution with the smaller change."
+    }
+   ],
+   "solution": [
+    "Zero lies {u} ÷ ({u} + {v}) of the way from {c1} to {c2}.",
+    "c = {c1} + ({c2} − {c1}) × {u} ÷ {u + v} = {answer} M."
+   ],
+   "unit": "M",
+   "where": [
+    "u != v"
+   ]
+  }
+ ]
+}

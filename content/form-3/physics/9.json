@@ -1,0 +1,458 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  7,
+  8
+ ],
+ "skills": [
+  {
+   "id": "p3-9",
+   "name": "Applications of density in engineering and daily life"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Engineers choose materials partly by density:\n• Aircraft and bicycles: aluminium alloys (low density, strong).\n• Ships: steel hulls are hollow, so the ship's average density is less than water's and it floats.\n• Hot-air balloons rise because hot air is less dense than cold air.\n• Life jackets use low-density foam.\n• Builders estimate loads: mass = density × volume (concrete ≈ 2400 kg/m³).\n• Oil spills float on the sea because oil is less dense than water.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Floating and sinking",
+    "text": "An object floats if its average density is less than that of the liquid. A solid steel bar sinks, but a steel ship is mostly air inside, so its average density is less than water's.\nHot air is less dense than cold air, so a hot-air balloon rises. Oil is less dense than water, so an oil spill floats on the sea and can be scooped off."
+   },
+   {
+    "heading": "Choosing materials",
+    "text": "• Aircraft, bicycles and car parts: aluminium alloys, strong but light ({2.7} g/cm³ against {7.9} g/cm³ for steel).\n• Life jackets and floats: foams of very low density.\n• Fishing weights and sinkers: lead, very dense, so a small piece is heavy.\n• Boats are built so that they float even when loaded."
+   },
+   {
+    "heading": "Estimating loads",
+    "text": "Builders and engineers use m = ρV to know how heavy a structure will be.\nA concrete slab {3} m × {2} m × {0.15} m has V = {0.9} m³; at {2400} kg/m³ its mass is {2160} kg.\nA {1000} L water tank on a roof adds about {1000} kg: the roof must be designed for that load."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "average density",
+    "meaning": "total mass ÷ total volume of an object made of several materials"
+   },
+   {
+    "word": "alloy",
+    "meaning": "a mixture of metals, such as aluminium alloy"
+   },
+   {
+    "word": "load",
+    "meaning": "the weight a structure must support"
+   }
+  ],
+  "examples": [
+   "Ship: hollow hull floats",
+   "Life jacket: low-density foam",
+   "{2} m³ of concrete ≈ {4800} kg"
+  ],
+  "mistake": {
+   "wrong": "A ship floats because steel is light",
+   "right": "A ship floats because its average density, with the air inside, is less than water's",
+   "why": "Steel is much denser than water. The shape of the hull, full of air, makes the difference."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "l": 3,
+   "w": 2,
+   "h": 0.15,
+   "r": 2400
+  },
+  "problem": "A concrete slab for a house in Bafoussam is {l} m × {w} m × {h} m. Concrete has density {r} kg/m³. Find its mass.",
+  "steps": [
+   "V = {l} × {w} × {h} = {roundTo(l * w * h, 0.001)} m³.",
+   "m = ρV = {r} × {roundTo(l * w * h, 0.001)} = {roundTo(r * l * w * h, 1)} kg."
+  ],
+  "answer": "{roundTo(r * l * w * h, 1)} kg",
+  "checks": [
+   "roundTo(r * l * w * h, 1) == 2160"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p9-1",
+    "status": "draft",
+    "idea": "A ship floats because its average density (steel + air inside) is less than water's.",
+    "vars": {},
+    "example": [
+     "A solid steel bar sinks; a hollow steel hull floats."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-9-ship"
+    }
+   },
+   {
+    "id": "c3p9-2",
+    "status": "draft",
+    "idea": "Low-density materials keep vehicles light: aluminium for aircraft.",
+    "vars": {},
+    "example": [
+     "Aluminium {2.7} g/cm³; steel {7.9} g/cm³"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-9-choose"
+    }
+   },
+   {
+    "id": "c3p9-3",
+    "status": "draft",
+    "idea": "Builders use m = ρV to estimate loads.",
+    "vars": {},
+    "example": [
+     "{1} m³ of concrete ≈ {2400} kg"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-9-load-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "density"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        30
+       ]
+      },
+      "V": {
+       "expr": "k / 10"
+      }
+     },
+     "prompt": "A concrete pillar has a volume of {V} m³. Concrete has a density of {2400} kg/m³. Find its mass (kg).",
+     "answer": "roundTo(2400 * V, 1)",
+     "misconceptions": [
+      {
+       "id": "div",
+       "wrong": "roundTo(2400 / V, 0.01)",
+       "explain": "Mass = density × volume: multiply."
+      }
+     ],
+     "solution": [
+      "m = ρV = {2400} × {V}.",
+      "m = {answer} kg."
+     ],
+     "unit": "kg"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-9-ship",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does a large steel ship float when a steel nail sinks?",
+       "r": "The hollow hull makes the ship's average density less than water's",
+       "w": [
+        "Steel is less dense than water",
+        "The ship is lighter than the nail",
+        "Sea water has no density"
+       ],
+       "e": [
+        "Steel (7.9 g/cm³) is much denser than water.",
+        "The ship is far heavier than the nail.",
+        "Sea water is slightly denser than fresh water."
+       ],
+       "y": "The air inside the hull lowers the average density."
+      },
+      {
+       "q": "Why does a hot-air balloon rise?",
+       "r": "Hot air is less dense than the cold air around it",
+       "w": [
+        "Hot air has no mass",
+        "The basket is lighter than air",
+        "Fire pushes the balloon up"
+       ],
+       "e": [
+        "Hot air still has mass, just less per cubic metre.",
+        "The basket is denser than air; the hot air carries it.",
+        "The flame heats the air; it does not push the balloon."
+       ],
+       "y": "Less dense air rises through denser air."
+      },
+      {
+       "q": "After an oil spill, the oil spreads on top of the sea. Why?",
+       "r": "Oil is less dense than sea water",
+       "w": [
+        "Oil is denser than sea water",
+        "Oil is a gas",
+        "The wind pushes it up"
+       ],
+       "e": [
+        "Denser oil would sink.",
+        "Oil is a liquid.",
+        "It floats because of density, even on a calm day."
+       ],
+       "y": "Less dense liquids float on denser ones."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-9-choose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is aluminium used to make aircraft bodies?",
+       "r": "It is strong and has a low density",
+       "w": [
+        "It is the densest metal",
+        "It is magnetic",
+        "It melts easily"
+       ],
+       "e": [
+        "A dense metal would make the aircraft too heavy.",
+        "Magnetism is not why it is chosen.",
+        "A low melting point would be a problem, not an advantage."
+       ],
+       "y": "Strength with low density keeps the aircraft light."
+      },
+      {
+       "q": "Which material is best for a life jacket?",
+       "r": "Foam of very low density",
+       "w": [
+        "Iron",
+        "Concrete",
+        "Lead"
+       ],
+       "e": [
+        "Iron is very dense: it sinks.",
+        "Concrete sinks.",
+        "Lead is very dense: it sinks."
+       ],
+       "y": "A low-density material floats and helps you float."
+      },
+      {
+       "q": "Fishermen in Limbe tie lead weights to their nets. Why lead?",
+       "r": "Lead is very dense, so a small piece pulls the net down",
+       "w": [
+        "Lead floats",
+        "Lead is light",
+        "Lead dissolves in water"
+       ],
+       "e": [
+        "Lead sinks: it is denser than water.",
+        "Lead is very dense.",
+        "Lead does not dissolve; it is chosen for its density."
+       ],
+       "y": "High density: a small volume has a large mass."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-9-load",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      30
+     ]
+    },
+    "V": {
+     "expr": "k / 10"
+    }
+   },
+   "prompt": "A concrete pillar has a volume of {V} m³. Concrete has a density of {2400} kg/m³. Find its mass (kg).",
+   "answer": "roundTo(2400 * V, 1)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(2400 / V, 0.01)",
+     "explain": "Mass = density × volume: multiply."
+    }
+   ],
+   "solution": [
+    "m = ρV = {2400} × {V}.",
+    "m = {answer} kg."
+   ],
+   "unit": "kg"
+  },
+  {
+   "id": "p3-9-avg",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "V": {
+     "int": [
+      300,
+      900
+     ],
+     "step": 50
+    },
+    "m": {
+     "int": [
+      60,
+      400
+     ],
+     "step": 20
+    }
+   },
+   "prompt": "A closed hollow tin can has mass {m} g and volume {V} cm³. Find its average density (g/cm³).",
+   "answer": "roundTo(m / V, 0.01)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "roundTo(V / m, 0.01)",
+     "explain": "Density is mass ÷ volume."
+    }
+   ],
+   "solution": [
+    "Average density = total mass ÷ total volume.",
+    "= {m} ÷ {V} = {answer} g/cm³, {m / V < 1 ? 'less than water, so it floats' : 'more than water, so it sinks'}."
+   ],
+   "unit": "g/cm³",
+   "where": [
+    "m < V"
+   ]
+  },
+  {
+   "id": "p3-9-tank",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "L": {
+     "int": [
+      500,
+      3000
+     ],
+     "step": 250
+    }
+   },
+   "prompt": "A water tank on a roof holds {L} litres. Water has density {1000} kg/m³. What extra mass does the full tank put on the roof (kg)?",
+   "answer": "L",
+   "misconceptions": [
+    {
+     "id": "m3",
+     "wrong": "L / 1000",
+     "explain": "That is the volume in m³. Multiply by the density {1000} kg/m³."
+    },
+    {
+     "id": "big",
+     "wrong": "L * 1000",
+     "explain": "Change litres to m³ first: divide by {1000}."
+    }
+   ],
+   "solution": [
+    "{L} L = {L / 1000} m³.",
+    "m = {1000} × {L / 1000} = {answer} kg (each litre of water has a mass of about {1} kg)."
+   ],
+   "unit": "kg"
+  }
+ ]
+}

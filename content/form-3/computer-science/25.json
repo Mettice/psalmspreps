@@ -1,0 +1,544 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  24
+ ],
+ "skills": [
+  {
+   "id": "s3-25",
+   "name": "Common application software 2: presentations and databases"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Presentation software (e.g. Microsoft PowerPoint, LibreOffice Impress): slides with text, pictures, charts, animations and transitions, for talks and lessons. Good slides: few words, large clear text, relevant images.\n• Database management software (e.g. Microsoft Access): stores large amounts of organised data so it can be searched, sorted and reported.\nDatabase terms: a table holds data about one kind of thing; a record is one row (one pupil); a field is one column (Surname); a key field (primary key) is unique for each record (Pupil ID).\nQueries find records that match conditions (e.g. Class = 'Form 3' AND Mark > 15).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Presentation software",
+    "text": "PowerPoint, LibreOffice Impress and Google Slides make slides for talks, lessons and meetings. You can add text, pictures, charts, video, animations and transitions.\nGood slides use few words, big clear text, good contrast and relevant pictures. The speaker explains; the slides support."
+   },
+   {
+    "heading": "Databases",
+    "text": "A database stores large amounts of organised data so it can be searched, sorted and reported. Schools, hospitals and banks use them.\n• A table holds data about one kind of thing (pupils).\n• A record is one row: everything about one pupil.\n• A field is one column: Surname, Class, Fee balance.\n• The key field (primary key) is unique for each record, such as Pupil ID."
+   },
+   {
+    "heading": "Queries and reports",
+    "text": "A query asks the database for records that match conditions: Class = 'Form {3}' AND Fee balance > {0} finds Form {3} pupils who still owe fees.\nRemember: > means 'greater than', so a mark equal to the limit is not included; >= includes it.\nReports present the results neatly for printing."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "presentation software",
+    "meaning": "software for making slide shows"
+   },
+   {
+    "word": "database",
+    "meaning": "an organised collection of data that can be searched"
+   },
+   {
+    "word": "record",
+    "meaning": "one row of data about one item"
+   },
+   {
+    "word": "field",
+    "meaning": "one column of data"
+   },
+   {
+    "word": "key field",
+    "meaning": "a field unique for each record"
+   }
+  ],
+  "examples": [
+   "Science fair: slides",
+   "School register: database",
+   "Query: Mark > {15}"
+  ],
+  "mistake": {
+   "wrong": "A field is all the data about one pupil",
+   "right": "That is a record; a field is one column",
+   "why": "Records are rows; fields are columns."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A school database table holds pupils' ID, name, class and fee balance. Name the key field and explain why.",
+  "steps": [
+   "Names can be repeated (two pupils called Ngozi).",
+   "The ID is different for every pupil.",
+   "So Pupil ID is the key field: it identifies each record uniquely."
+  ],
+  "answer": "Pupil ID (unique for each pupil)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s25-1",
+    "status": "draft",
+    "idea": "Presentation software makes slides for talks.",
+    "vars": {},
+    "example": [
+     "A science fair presentation"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-25-which"
+    }
+   },
+   {
+    "id": "c3s25-2",
+    "status": "draft",
+    "idea": "A record is a row; a field is a column; the key field is unique.",
+    "vars": {},
+    "example": [
+     "Record: one pupil. Field: Class."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-25-term"
+    }
+   },
+   {
+    "id": "c3s25-3",
+    "status": "draft",
+    "idea": "A query finds the records that match conditions.",
+    "vars": {},
+    "example": [
+     "Mark > {15}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-25-query-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "software"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        5,
+        20
+       ]
+      },
+      "b": {
+       "int": [
+        5,
+        20
+       ]
+      },
+      "c": {
+       "int": [
+        5,
+        20
+       ]
+      },
+      "d": {
+       "int": [
+        5,
+        20
+       ]
+      },
+      "e": {
+       "int": [
+        5,
+        20
+       ]
+      },
+      "f": {
+       "int": [
+        5,
+        20
+       ]
+      },
+      "k": {
+       "int": [
+        10,
+        15
+       ]
+      }
+     },
+     "prompt": "A table has these marks: {a}, {b}, {c}, {d}, {e}, {f}. A query selects records with Mark > {k}. How many records are found?",
+     "answer": "(a > k ? 1 : 0) + (b > k ? 1 : 0) + (c > k ? 1 : 0) + (d > k ? 1 : 0) + (e > k ? 1 : 0) + (f > k ? 1 : 0)",
+     "misconceptions": [
+      {
+       "id": "ge",
+       "wrong": "(a >= k ? 1 : 0) + (b >= k ? 1 : 0) + (c >= k ? 1 : 0) + (d >= k ? 1 : 0) + (e >= k ? 1 : 0) + (f >= k ? 1 : 0)",
+       "explain": "> means greater than: a mark equal to {k} is not selected."
+      }
+     ],
+     "solution": [
+      "Check each mark against > {k}.",
+      "Records found: {answer}."
+     ],
+     "where": [
+      "a == k || b == k || c == k || d == k || e == k || f == k"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-25-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Showing slides at a school science fair",
+       "r": "presentation software",
+       "w": [
+        "database software",
+        "spreadsheet",
+        "antivirus"
+       ],
+       "e": [
+        "Databases store and search data.",
+        "Spreadsheets calculate.",
+        "Antivirus protects."
+       ],
+       "y": "Slides with pictures and animation."
+      },
+      {
+       "q": "Storing and searching the records of 1500 pupils",
+       "r": "database software",
+       "w": [
+        "presentation software",
+        "word processor",
+        "drawing program"
+       ],
+       "e": [
+        "Presentations are for showing slides.",
+        "Hard to search many records.",
+        "Not for records."
+       ],
+       "y": "Databases search and sort large data sets."
+      },
+      {
+       "q": "Finding all pupils who still owe fees",
+       "r": "a database query",
+       "w": [
+        "a slide transition",
+        "a word count",
+        "a spell check"
+       ],
+       "e": [
+        "Transitions are for slides.",
+        "Word count is for documents.",
+        "Spell check is for text."
+       ],
+       "y": "Queries select matching records."
+      }
+     ]
+    }
+   },
+   "prompt": "Which software is best? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-25-term",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In a database table of pupils, what is a record?",
+       "r": "all the data about one pupil (one row)",
+       "w": [
+        "one column, such as Surname",
+        "the whole database",
+        "a printed report"
+       ],
+       "e": [
+        "That is a field.",
+        "A database can have many tables.",
+        "A report is output."
+       ],
+       "y": "Each row is a record."
+      },
+      {
+       "q": "What is a field?",
+       "r": "one category of data, such as Date of birth (a column)",
+       "w": [
+        "one pupil's data",
+        "a slide",
+        "a formula"
+       ],
+       "e": [
+        "That is a record.",
+        "Slides are for presentations.",
+        "Formulas are for spreadsheets."
+       ],
+       "y": "Each column is a field."
+      },
+      {
+       "q": "Why is Pupil ID used as the key field rather than Surname?",
+       "r": "IDs are unique; surnames can be repeated",
+       "w": [
+        "Surnames are too long",
+        "IDs are always numbers less than 10",
+        "Key fields must be names"
+       ],
+       "e": [
+        "Length is not the reason.",
+        "IDs can be any length.",
+        "Key fields must be unique."
+       ],
+       "y": "A primary key identifies each record."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-25-query",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "b": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "c": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "d": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "e": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "f": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "k": {
+     "int": [
+      10,
+      15
+     ]
+    }
+   },
+   "prompt": "A table has these marks: {a}, {b}, {c}, {d}, {e}, {f}. A query selects records with Mark > {k}. How many records are found?",
+   "answer": "(a > k ? 1 : 0) + (b > k ? 1 : 0) + (c > k ? 1 : 0) + (d > k ? 1 : 0) + (e > k ? 1 : 0) + (f > k ? 1 : 0)",
+   "misconceptions": [
+    {
+     "id": "ge",
+     "wrong": "(a >= k ? 1 : 0) + (b >= k ? 1 : 0) + (c >= k ? 1 : 0) + (d >= k ? 1 : 0) + (e >= k ? 1 : 0) + (f >= k ? 1 : 0)",
+     "explain": "> means greater than: a mark equal to {k} is not selected."
+    }
+   ],
+   "solution": [
+    "Check each mark against > {k}.",
+    "Records found: {answer}."
+   ],
+   "where": [
+    "a == k || b == k || c == k || d == k || e == k || f == k"
+   ]
+  },
+  {
+   "id": "s3-25-slides",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is good advice for presentation slides?",
+       "r": "Use few words, large clear text and relevant pictures",
+       "w": [
+        "Fill every slide with long paragraphs",
+        "Use tiny text to fit more",
+        "Add as many animations as possible"
+       ],
+       "e": [
+        "Audiences cannot read long paragraphs while listening.",
+        "Tiny text cannot be read from the back.",
+        "Too many animations distract."
+       ],
+       "y": "Slides support the speaker; they do not replace the talk."
+      },
+      {
+       "q": "What is a slide transition?",
+       "r": "the visual effect when moving from one slide to the next",
+       "w": [
+        "a type of database",
+        "a spreadsheet formula",
+        "a printer setting"
+       ],
+       "e": [
+        "Not a database.",
+        "Not a formula.",
+        "Not a printer setting."
+       ],
+       "y": "Transitions are applied between slides."
+      },
+      {
+       "q": "Why is a database better than a word-processed list for 1500 pupils' records?",
+       "r": "It can quickly search, sort and report on the data",
+       "w": [
+        "It makes the text bold",
+        "It checks spelling",
+        "It adds animations"
+       ],
+       "e": [
+        "Formatting is a word-processing feature.",
+        "That is not the main benefit.",
+        "That is presentation software."
+       ],
+       "y": "Databases manage large, structured data."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

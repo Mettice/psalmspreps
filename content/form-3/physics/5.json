@@ -1,0 +1,380 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p3-5",
+   "name": "Measure the volume of liquids, regular and irregular solids"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Volume is the space an object occupies. SI unit: m³; also cm³ and litres (1 L = 1000 cm³ = 1 dm³; 1 mL = 1 cm³; 1 m³ = 1000 L).\n• Liquids: measuring cylinder, burette, pipette. Read at the bottom of the meniscus with the eye level with it.\n• Regular solids: calculate (cuboid: l × w × h; cylinder: πr²h).\n• Irregular solids: displacement. Volume = (reading with the object) − (reading without it), or use an overflow (eureka) can.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Volume and its units",
+    "text": "Volume is the amount of space something takes up. The SI unit is the cubic metre (m³), but for small amounts we use cm³ and litres.\n• {1} L = {1000} cm³ = {1} dm³\n• {1} mL = {1} cm³\n• {1} m³ = {1000} L\nA water tank at home may hold {1000} L, which is {1} m³."
+   },
+   {
+    "heading": "Reading a measuring cylinder",
+    "text": "Water in a narrow tube curves at the surface: this curve is the meniscus. Read the scale at the bottom of the meniscus, with your eye level with it.\nLooking from above or below gives a wrong reading (parallax error).\nFirst work out what each small mark is worth: on a {100} mL cylinder with ten small marks between labels, each mark is {1} mL or {2} mL.",
+    "figure": "cylinder(46)"
+   },
+   {
+    "heading": "Regular and irregular solids",
+    "text": "For a regular shape, measure and calculate: a cuboid is length × width × height.\nFor an irregular shape like a stone, use displacement. Read the water level, lower the stone in gently on a thread, and read again. The rise in level is the volume of the stone.\nFor a large stone use an overflow (eureka) can and measure the water that overflows."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "volume",
+    "meaning": "the space an object takes up"
+   },
+   {
+    "word": "meniscus",
+    "meaning": "the curved surface of a liquid in a tube"
+   },
+   {
+    "word": "displacement",
+    "meaning": "the liquid pushed aside by an object put into it"
+   },
+   {
+    "word": "parallax error",
+    "meaning": "a wrong reading from looking at a scale from the side"
+   }
+  ],
+  "examples": [
+   "{2.5} L = {2500} cm³",
+   "Cuboid {10} cm × {5} cm × {4} cm = {200} cm³",
+   "Water {40} mL → {52} mL: stone {12} cm³"
+  ],
+  "mistake": {
+   "wrong": "Stone: water rises from {40} mL to {52} mL, so the stone is {52} cm³",
+   "right": "The stone is {52} − {40} = {12} cm³",
+   "why": "Only the rise in level is due to the stone."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 42,
+   "a": 58
+  },
+  "problem": "Water in a measuring cylinder reads {b} mL. A stone is lowered in and the level rises to {a} mL. Find the volume of the stone.",
+  "steps": [
+   "The stone pushes aside (displaces) its own volume of water.",
+   "Volume = {a} − {b} = {a - b} mL = {a - b} cm³."
+  ],
+  "answer": "{a - b} cm³",
+  "checks": [
+   "a - b == 16"
+  ],
+  "figure": "displacement(b, a)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p5-1",
+    "status": "draft",
+    "idea": "Read a measuring cylinder at the bottom of the meniscus, eye level with it.",
+    "vars": {},
+    "example": [
+     "Each small mark is {2} mL on a {100} mL cylinder."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-5-read"
+    }
+   },
+   {
+    "id": "c3p5-2",
+    "status": "draft",
+    "idea": "Volume of a cuboid = length × width × height.",
+    "vars": {},
+    "example": [
+     "{5} cm × {4} cm × {2} cm = {40} cm³"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-5-box"
+    }
+   },
+   {
+    "id": "c3p5-3",
+    "status": "draft",
+    "idea": "Volume of an irregular solid = rise in the water level.",
+    "vars": {},
+    "example": [
+     "{50} mL → {65} mL: the stone is {15} cm³."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-5-disp-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "measurement"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        15,
+        30
+       ]
+      },
+      "d": {
+       "int": [
+        3,
+        15
+       ]
+      }
+     },
+     "prompt": "What is the volume of the stone (cm³)?",
+     "answer": "2 * d",
+     "misconceptions": [
+      {
+       "id": "after",
+       "wrong": "2 * b + 2 * d",
+       "explain": "That is the reading with the stone. Subtract the reading before."
+      }
+     ],
+     "solution": [
+      "Volume of stone = rise in the water level.",
+      "{2 * b + 2 * d} − {2 * b} = {answer} mL = {answer} cm³."
+     ],
+     "unit": "cm³",
+     "figure": "displacement(2 * b, 2 * b + 2 * d)"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-5-read",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      6,
+      48
+     ]
+    }
+   },
+   "prompt": "How much water is in the measuring cylinder (mL)?",
+   "answer": "2 * v",
+   "misconceptions": [
+    {
+     "id": "top",
+     "wrong": "2 * v + 2",
+     "explain": "Read at the bottom of the curved surface, not at the edges."
+    }
+   ],
+   "solution": [
+    "Each small mark is {2} mL.",
+    "The bottom of the meniscus is at {answer} mL."
+   ],
+   "unit": "mL",
+   "figure": "cylinder(2 * v)"
+  },
+  {
+   "id": "p3-5-box",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      8
+     ]
+    }
+   },
+   "prompt": "A wooden block is {l} cm long, {w} cm wide and {h} cm high. Find its volume (cm³).",
+   "answer": "l * w * h",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "l + w + h",
+     "explain": "Volume multiplies the three measurements."
+    },
+    {
+     "id": "area",
+     "wrong": "l * w",
+     "explain": "That is the area of the base. Multiply by the height too."
+    }
+   ],
+   "solution": [
+    "V = l × w × h.",
+    "V = {l} × {w} × {h} = {answer} cm³."
+   ],
+   "unit": "cm³"
+  },
+  {
+   "id": "p3-5-disp",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      15,
+      30
+     ]
+    },
+    "d": {
+     "int": [
+      3,
+      15
+     ]
+    }
+   },
+   "prompt": "What is the volume of the stone (cm³)?",
+   "answer": "2 * d",
+   "misconceptions": [
+    {
+     "id": "after",
+     "wrong": "2 * b + 2 * d",
+     "explain": "That is the reading with the stone. Subtract the reading before."
+    }
+   ],
+   "solution": [
+    "Volume of stone = rise in the water level.",
+    "{2 * b + 2 * d} − {2 * b} = {answer} mL = {answer} cm³."
+   ],
+   "unit": "cm³",
+   "figure": "displacement(2 * b, 2 * b + 2 * d)"
+  },
+  {
+   "id": "p3-5-conv",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      2,
+      90
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "f": "L",
+       "t": "cm³"
+      },
+      {
+       "f": "cm³",
+       "t": "L"
+      },
+      {
+       "f": "m³",
+       "t": "L"
+      },
+      {
+       "f": "mL",
+       "t": "L"
+      },
+      {
+       "f": "L",
+       "t": "mL"
+      }
+     ]
+    }
+   },
+   "prompt": "Convert {v} {X.f} to {X.t}.",
+   "answer": "convertUnit(v, X.f, X.t)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "convertUnit(v, X.t, X.f)",
+     "explain": "Check the direction: {1} {X.f} = {factor(X.f, X.t)} {X.t}."
+    }
+   ],
+   "solution": [
+    "{1} {X.f} = {factor(X.f, X.t)} {X.t}.",
+    "{v} {X.f} = {answer} {X.t}."
+   ]
+  },
+  {
+   "id": "p3-5-cyl",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      0.5,
+      1,
+      1.5,
+      2
+     ]
+    },
+    "h": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "prompt": "A cylindrical water tank has radius {r} m and height {h} m. Find its volume in litres (π = {3.14}).",
+   "answer": "roundTo(3.14 * r * r * h * 1000, 1)",
+   "misconceptions": [
+    {
+     "id": "m3",
+     "wrong": "roundTo(3.14 * r * r * h, 0.001)",
+     "explain": "That is in m³. Multiply by {1000} for litres."
+    },
+    {
+     "id": "nosq",
+     "wrong": "roundTo(3.14 * r * h * 1000, 1)",
+     "explain": "Square the radius: r² = {r * r}."
+    }
+   ],
+   "solution": [
+    "V = πr²h = {3.14} × {r}² × {h} = {roundTo(3.14 * r * r * h, 0.001)} m³.",
+    "{1} m³ = {1000} L, so V = {answer} L."
+   ],
+   "unit": "L"
+  }
+ ]
+}

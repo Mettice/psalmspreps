@@ -1,0 +1,509 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "b3-7",
+   "name": "Osmosis: meaning, experiments and importance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Osmosis is the net movement of water molecules from a region of higher water concentration (dilute solution) to a region of lower water concentration (concentrated solution) through a partially permeable membrane.\n• Plant cell in pure water or a dilute solution: water enters, the cell becomes turgid (firm). In a concentrated solution: water leaves, the cell becomes flaccid, then plasmolysed (membrane pulls away from the wall).\n• Animal cell (red blood cell) in water: swells and bursts (no wall). In a concentrated solution: shrinks (crenated).\nImportance: water uptake by root hairs; support (turgor); opening of stomata. Salting fish and adding sugar to jam preserve food by drawing water out of microbes.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "A special kind of diffusion",
+    "text": "Osmosis is the diffusion of water through a partially permeable membrane, which lets water molecules through but holds back larger dissolved particles such as sugar.\nWater moves from where it is more concentrated (a dilute solution) to where it is less concentrated (a concentrated solution).\nRemember: a dilute solution has a lot of water; a concentrated solution has less."
+   },
+   {
+    "heading": "Plant and animal cells",
+    "text": "• Plant cell in water: water enters, the vacuole swells and the cell presses on its wall: turgid. The wall stops it bursting.\n• Plant cell in a strong solution: water leaves, the cell becomes flaccid, and the membrane may pull away from the wall: plasmolysis.\n• Red blood cell in water: it swells and bursts, because it has no wall. In a strong solution it shrinks and becomes crenated."
+   },
+   {
+    "heading": "Measuring osmosis and using it",
+    "text": "Put equal potato cylinders into solutions of different concentration, weigh them before and after, and work out the percentage change in mass:\nchange ÷ starting mass × {100}. A gain means water went in; a loss means water came out.\nOsmosis lets roots absorb water and keeps plants upright; salting fish and making jam preserve food by drawing water out of microbes."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "osmosis",
+    "meaning": "movement of water through a partially permeable membrane from dilute to concentrated solution"
+   },
+   {
+    "word": "turgid",
+    "meaning": "firm, full of water"
+   },
+   {
+    "word": "plasmolysis",
+    "meaning": "membrane pulling away from the cell wall after water loss"
+   },
+   {
+    "word": "flaccid",
+    "meaning": "soft, having lost water"
+   }
+  ],
+  "examples": [
+   "Soaked raisins swell",
+   "Salted fish keeps",
+   "Potato {5} g → {5.6} g: +{12}%"
+  ],
+  "mistake": {
+   "wrong": "Water moves from the concentrated to the dilute solution",
+   "right": "Water moves from the dilute to the concentrated solution",
+   "why": "Think of water: it moves from where there is more water to where there is less."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 5.0,
+   "b": 5.6
+  },
+  "problem": "A potato cylinder of mass {a} g is left in pure water. Its mass becomes {b} g. Find the percentage change in mass and explain it.",
+  "steps": [
+   "Change = {b} − {a} = {roundTo(b - a, 0.01)} g.",
+   "Percentage change = {roundTo(b - a, 0.01)} ÷ {a} × {100} = {roundTo((b - a) / a * 100, 0.1)}%.",
+   "Water moved into the potato cells by osmosis because pure water has a higher water concentration than the cell sap."
+  ],
+  "answer": "+{roundTo((b - a) / a * 100, 0.1)}%: water entered by osmosis",
+  "checks": [
+   "roundTo((b - a) / a * 100, 0.1) == 12"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b7-1",
+    "status": "draft",
+    "idea": "Osmosis: water moves from dilute to concentrated through a partially permeable membrane.",
+    "vars": {},
+    "example": [
+     "Raisins swell when soaked in water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-7-def"
+    }
+   },
+   {
+    "id": "c3b7-2",
+    "status": "draft",
+    "idea": "Plant cells become turgid in water and plasmolysed in strong solutions.",
+    "vars": {},
+    "example": [
+     "Wilted vegetables recover in fresh water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-7-plant"
+    }
+   },
+   {
+    "id": "c3b7-3",
+    "status": "draft",
+    "idea": "Percentage change = change ÷ starting mass × {100}.",
+    "vars": {},
+    "example": [
+     "{4}.{0} g → {4}.{4} g: +{10}%"
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-7-pct-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        4,
+        5,
+        8,
+        10
+       ]
+      },
+      "q": {
+       "int": [
+        -20,
+        20
+       ]
+      },
+      "b": {
+       "expr": "roundTo(a * (1 + q / 100), 0.01)"
+      }
+     },
+     "prompt": "A potato cylinder of mass {a} g is left in a sugar solution. Its mass becomes {b} g. Find the percentage change in mass (use − for a loss).",
+     "answer": "roundTo((b - a) / a * 100, 0.1)",
+     "misconceptions": [
+      {
+       "id": "final",
+       "wrong": "roundTo((b - a) / b * 100, 0.1)",
+       "explain": "Divide the change by the starting mass {a} g, not the final mass."
+      },
+      {
+       "id": "abs",
+       "wrong": "roundTo(abs(b - a), 0.01)",
+       "explain": "That is the change in grams. Divide by {a} and multiply by {100}."
+      }
+     ],
+     "solution": [
+      "Change = {b} − {a} = {roundTo(b - a, 0.01)} g.",
+      "Percentage change = {roundTo(b - a, 0.01)} ÷ {a} × {100} = {answer}%."
+     ],
+     "unit": "%",
+     "where": [
+      "q != 0"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-7-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is osmosis?",
+       "r": "Movement of water from a dilute to a concentrated solution through a partially permeable membrane",
+       "w": [
+        "Movement of salt from a concentrated to a dilute solution",
+        "Movement of any particle down a gradient",
+        "Movement of water using energy"
+       ],
+       "e": [
+        "Osmosis is about water, not salt.",
+        "That is diffusion in general.",
+        "Osmosis is passive."
+       ],
+       "y": "It is a special case of diffusion: water through a membrane."
+      },
+      {
+       "q": "Which way does water move by osmosis?",
+       "r": "from a dilute solution to a concentrated solution",
+       "w": [
+        "from a concentrated solution to a dilute solution",
+        "always into cells",
+        "always out of cells"
+       ],
+       "e": [
+        "Water moves to where there is less water.",
+        "It depends on the solutions.",
+        "It depends on the solutions."
+       ],
+       "y": "A dilute solution has more water molecules."
+      },
+      {
+       "q": "Why must the membrane be partially permeable for osmosis?",
+       "r": "Water molecules pass through but larger solute molecules cannot",
+       "w": [
+        "Nothing must pass through",
+        "Everything must pass through",
+        "Only salt must pass through"
+       ],
+       "e": [
+        "Water passes.",
+        "If solutes passed, they would just diffuse.",
+        "Salt is held back."
+       ],
+       "y": "Only water can cross, so water moves."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-7-plant",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A plant cell is placed in pure water. It becomes…",
+       "r": "turgid",
+       "w": [
+        "plasmolysed",
+        "burst",
+        "crenated"
+       ],
+       "e": [
+        "That happens in strong solutions.",
+        "The cell wall stops it bursting.",
+        "Crenation is for animal cells in strong solutions."
+       ],
+       "y": "Water enters, the vacuole swells, the cell becomes firm."
+      },
+      {
+       "q": "A red blood cell is placed in pure water. What happens?",
+       "r": "It swells and bursts",
+       "w": [
+        "It becomes turgid and safe",
+        "It shrinks",
+        "Nothing happens"
+       ],
+       "e": [
+        "Animal cells have no wall to stop bursting.",
+        "It gains water, not loses.",
+        "Water moves in by osmosis."
+       ],
+       "y": "No cell wall, so it bursts (haemolysis)."
+      },
+      {
+       "q": "Salt is sprinkled on fresh fish to preserve it. Why does it work?",
+       "r": "Water leaves bacteria by osmosis, so they cannot grow",
+       "w": [
+        "Salt feeds the bacteria",
+        "Salt adds water",
+        "Salt kills fish cells by heat"
+       ],
+       "e": [
+        "Salt does not feed them.",
+        "It draws water out.",
+        "There is no heating."
+       ],
+       "y": "The concentrated salt draws water out of microbes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-7-pct",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      4,
+      5,
+      8,
+      10
+     ]
+    },
+    "q": {
+     "int": [
+      -20,
+      20
+     ]
+    },
+    "b": {
+     "expr": "roundTo(a * (1 + q / 100), 0.01)"
+    }
+   },
+   "prompt": "A potato cylinder of mass {a} g is left in a sugar solution. Its mass becomes {b} g. Find the percentage change in mass (use − for a loss).",
+   "answer": "roundTo((b - a) / a * 100, 0.1)",
+   "misconceptions": [
+    {
+     "id": "final",
+     "wrong": "roundTo((b - a) / b * 100, 0.1)",
+     "explain": "Divide the change by the starting mass {a} g, not the final mass."
+    },
+    {
+     "id": "abs",
+     "wrong": "roundTo(abs(b - a), 0.01)",
+     "explain": "That is the change in grams. Divide by {a} and multiply by {100}."
+    }
+   ],
+   "solution": [
+    "Change = {b} − {a} = {roundTo(b - a, 0.01)} g.",
+    "Percentage change = {roundTo(b - a, 0.01)} ÷ {a} × {100} = {answer}%."
+   ],
+   "unit": "%",
+   "where": [
+    "q != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "b3-7-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Leaves of a plant wilt on a hot afternoon. Why?",
+       "r": "The cells lose more water than they take in and become flaccid",
+       "w": [
+        "The cells gain too much water",
+        "The leaves are too heavy",
+        "The sun melts the cells"
+       ],
+       "e": [
+        "They lose water.",
+        "Weight is not the cause.",
+        "Cells do not melt."
+       ],
+       "y": "Flaccid cells cannot support the leaf."
+      },
+      {
+       "q": "A farmer adds too much fertiliser near seedlings and they die. Why?",
+       "r": "The soil water becomes more concentrated than root sap, so water leaves the roots",
+       "w": [
+        "Fertiliser is too heavy",
+        "The roots get too much water",
+        "Fertiliser blocks the sun"
+       ],
+       "e": [
+        "Weight is not the reason.",
+        "The roots lose water.",
+        "Fertiliser does not block light."
+       ],
+       "y": "Water moves out of the roots by osmosis."
+      },
+      {
+       "q": "How do root hairs take in water from the soil?",
+       "r": "By osmosis, because the cell sap is more concentrated than soil water",
+       "w": [
+        "By active transport of water",
+        "By the root pulling water in",
+        "By photosynthesis"
+       ],
+       "e": [
+        "Water enters by osmosis; ions use active transport.",
+        "There is no pulling.",
+        "Photosynthesis happens in leaves."
+       ],
+       "y": "Water moves from the dilute soil water to the concentrated sap."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

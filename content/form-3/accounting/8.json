@@ -1,0 +1,500 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "a3-8",
+   "name": "Accounting for cash settlement transactions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Settlement transactions pay or receive money owed:\n• Customer pays by cheque or transfer: debit 521 Bank, credit 411 Customers. In cash: debit 571 Cash.\n• Business pays a supplier: debit 401 Suppliers, credit 521 Bank (or 571 Cash).\n• Moving money between cash and bank: cash paid into the bank: debit 521 Bank, credit 571 Cash (often through 585 Transfers of funds).\n• Cash discount (escompte) for early payment: the seller records it as an expense (673 Discounts granted); the customer pays less.\nThe cash and bank accounts must never show impossible balances; cash in hand cannot be negative.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Settling debts",
+    "text": "After a credit sale or purchase, someone still owes money. Settlement transactions pay these debts:\n• A customer pays: debit {'521 Bank'} (cheque, transfer, mobile money to the business account) or {'571 Cash'}; credit {'411 Customers'}.\n• The business pays a supplier: debit {'401 Suppliers'}; credit {'521 Bank'} or {'571 Cash'}."
+   },
+   {
+    "heading": "Moving money and keeping it safe",
+    "text": "Cash paid into the bank: debit {'521 Bank'}, credit {'571 Cash'}. Cash withdrawn from the bank: the reverse. Many businesses use a transfer account ({'585'}) between the two.\nKeep track of the cash balance: opening cash + receipts − payments. It can never be negative: a credit balance on Cash shows an error."
+   },
+   {
+    "heading": "Cash discounts",
+    "text": "To be paid sooner, a seller may offer a cash discount (escompte): for example {2}% off if the customer pays within {10} days.\nThe customer pays less; the seller records the discount as an expense ({'673 Discounts granted'}), and the customer as income.\n{100000} FCFA with a {2}% discount: the customer pays {98000} FCFA."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "settlement",
+    "meaning": "paying or receiving money owed"
+   },
+   {
+    "word": "cash discount",
+    "meaning": "reduction for paying early"
+   },
+   {
+    "word": "cash balance",
+    "meaning": "opening cash + receipts − payments"
+   }
+  ],
+  "examples": [
+   "{'Dr 521 / Cr 411'} (customer pays by cheque)",
+   "{'Dr 401 / Cr 571'} (supplier paid in cash)",
+   "{'Dr 521 / Cr 571'} (cash banked)"
+  ],
+  "mistake": {
+   "wrong": "When a customer pays, credit Sales again",
+   "right": "Credit {'411'} Customers: the sale was already recorded",
+   "why": "Payment settles the debt; it is not a new sale."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "open": 150000,
+   "rec": 80000,
+   "pay": 60000
+  },
+  "problem": "Cash in hand is {open} FCFA. A customer pays {rec} FCFA in cash and a supplier is paid {pay} FCFA in cash. Find the new cash balance.",
+  "steps": [
+   "Receipts increase cash: {open} + {rec} = {open + rec}.",
+   "Payments decrease it: {open + rec} − {pay} = {open + rec - pay} FCFA."
+  ],
+  "answer": "{open + rec - pay} FCFA",
+  "checks": [
+   "open + rec - pay == 170000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a8-1",
+    "status": "draft",
+    "idea": "Money received from a customer: debit Bank or Cash, credit Customers.",
+    "vars": {},
+    "example": [
+     "{'Dr 521 / Cr 411'}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-8-entry"
+    }
+   },
+   {
+    "id": "c3a8-2",
+    "status": "draft",
+    "idea": "Paying a supplier: debit Suppliers, credit Bank or Cash.",
+    "vars": {},
+    "example": [
+     "{'Dr 401 / Cr 521'}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-8-bal-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada-transactions"
+     ],
+     "vars": {
+      "o": {
+       "int": [
+        100000,
+        300000
+       ],
+       "step": 10000
+      },
+      "a": {
+       "int": [
+        50000,
+        200000
+       ],
+       "step": 5000
+      },
+      "b": {
+       "int": [
+        20000,
+        100000
+       ],
+       "step": 5000
+      },
+      "c": {
+       "int": [
+        50000,
+        150000
+       ],
+       "step": 10000
+      }
+     },
+     "prompt": "Cash in hand is {o} FCFA. During the day: cash sales {a} FCFA, a supplier paid {b} FCFA, {c} FCFA paid into the bank. What is the cash balance (FCFA)?",
+     "answer": "o + a - b - c",
+     "misconceptions": [
+      {
+       "id": "bank",
+       "wrong": "o + a - b + c",
+       "explain": "Money paid into the bank leaves the cash box: subtract it."
+      }
+     ],
+     "solution": [
+      "Receipts: {o} + {a} = {o + a}.",
+      "Payments: {b} + {c} = {b + c}.",
+      "Balance = {o + a} − {b + c} = {answer} FCFA."
+     ],
+     "unit": "FCFA",
+     "where": [
+      "o + a - b - c > 0"
+     ]
+    }
+   },
+   {
+    "id": "c3a8-3",
+    "status": "draft",
+    "idea": "A cash discount for early payment is an expense for the seller.",
+    "vars": {},
+    "example": [
+     "{2}% off for paying within {10} days"
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-8-disc-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "ohada-transactions"
+     ],
+     "vars": {
+      "t": {
+       "int": [
+        50000,
+        500000
+       ],
+       "step": 50000
+      },
+      "d": {
+       "pick": [
+        1,
+        2,
+        3,
+        5
+       ]
+      }
+     },
+     "prompt": "A customer owes {t} FCFA and pays early with a {d}% cash discount. How much does he pay (FCFA)?",
+     "answer": "t * (100 - d) / 100",
+     "misconceptions": [
+      {
+       "id": "disc",
+       "wrong": "t * d / 100",
+       "explain": "That is the discount, not the payment."
+      }
+     ],
+     "solution": [
+      "Discount = {d}% × {t} = {t * d / 100} FCFA.",
+      "Payment = {t} − {t * d / 100} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-8-entry",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A customer pays 150 000 FCFA by cheque, paid into the bank.",
+       "r": "Dr 521 Bank / Cr 411 Customers",
+       "w": [
+        "Dr 411 Customers / Cr 521 Bank",
+        "Dr 521 Bank / Cr 701 Sales",
+        "Dr 571 Cash / Cr 401 Suppliers"
+       ],
+       "e": [
+        "Reversed.",
+        "The sale was already recorded; now the debt is settled.",
+        "Not cash and not a supplier."
+       ],
+       "y": "Bank increases; the customer owes less."
+      },
+      {
+       "q": "The business pays a supplier 90 000 FCFA by bank transfer.",
+       "r": "Dr 401 Suppliers / Cr 521 Bank",
+       "w": [
+        "Dr 521 Bank / Cr 401 Suppliers",
+        "Dr 601 Purchases / Cr 521 Bank",
+        "Dr 401 Suppliers / Cr 701 Sales"
+       ],
+       "e": [
+        "Reversed.",
+        "The purchase was already recorded; now the debt is paid.",
+        "No sale."
+       ],
+       "y": "The debt falls; the bank falls."
+      },
+      {
+       "q": "200 000 FCFA cash is paid into the bank.",
+       "r": "Dr 521 Bank / Cr 571 Cash",
+       "w": [
+        "Dr 571 Cash / Cr 521 Bank",
+        "Dr 521 Bank / Cr 101 Capital",
+        "Dr 521 Bank / Cr 701 Sales"
+       ],
+       "e": [
+        "That is withdrawing cash from the bank.",
+        "It is not new capital.",
+        "It is not a sale."
+       ],
+       "y": "Money moves from the till to the bank."
+      }
+     ]
+    }
+   },
+   "prompt": "Which entry records this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-8-bal",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "o": {
+     "int": [
+      100000,
+      300000
+     ],
+     "step": 10000
+    },
+    "a": {
+     "int": [
+      50000,
+      200000
+     ],
+     "step": 5000
+    },
+    "b": {
+     "int": [
+      20000,
+      100000
+     ],
+     "step": 5000
+    },
+    "c": {
+     "int": [
+      50000,
+      150000
+     ],
+     "step": 10000
+    }
+   },
+   "prompt": "Cash in hand is {o} FCFA. During the day: cash sales {a} FCFA, a supplier paid {b} FCFA, {c} FCFA paid into the bank. What is the cash balance (FCFA)?",
+   "answer": "o + a - b - c",
+   "misconceptions": [
+    {
+     "id": "bank",
+     "wrong": "o + a - b + c",
+     "explain": "Money paid into the bank leaves the cash box: subtract it."
+    }
+   ],
+   "solution": [
+    "Receipts: {o} + {a} = {o + a}.",
+    "Payments: {b} + {c} = {b + c}.",
+    "Balance = {o + a} − {b + c} = {answer} FCFA."
+   ],
+   "unit": "FCFA",
+   "where": [
+    "o + a - b - c > 0"
+   ]
+  },
+  {
+   "id": "a3-8-disc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      50000,
+      500000
+     ],
+     "step": 50000
+    },
+    "d": {
+     "pick": [
+      1,
+      2,
+      3,
+      5
+     ]
+    }
+   },
+   "prompt": "A customer owes {t} FCFA and pays early with a {d}% cash discount. How much does he pay (FCFA)?",
+   "answer": "t * (100 - d) / 100",
+   "misconceptions": [
+    {
+     "id": "disc",
+     "wrong": "t * d / 100",
+     "explain": "That is the discount, not the payment."
+    }
+   ],
+   "solution": [
+    "Discount = {d}% × {t} = {t * d / 100} FCFA.",
+    "Payment = {t} − {t * d / 100} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a3-8-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ohada-transactions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why can the cash account never have a credit balance?",
+       "r": "You cannot pay out more cash than is in the till",
+       "w": [
+        "Cash is always a liability",
+        "Cash is in class 7",
+        "Credits are not allowed in accounting"
+       ],
+       "e": [
+        "Cash is an asset.",
+        "Cash is in class 5.",
+        "Credits are normal."
+       ],
+       "y": "A credit balance on Cash means an error."
+      },
+      {
+       "q": "Why do sellers offer cash discounts?",
+       "r": "To encourage customers to pay early",
+       "w": [
+        "To increase VAT",
+        "To reduce their bank balance",
+        "Because the law requires it"
+       ],
+       "e": [
+        "Discounts reduce the amount.",
+        "They receive money sooner.",
+        "It is a business choice."
+       ],
+       "y": "Early payment improves the seller's cash flow."
+      },
+      {
+       "q": "A cheque from a customer bounces (is unpaid). What should happen in the accounts?",
+       "r": "The entry is reversed: Dr 411 Customers / Cr 521 Bank",
+       "w": [
+        "Nothing changes",
+        "Dr 521 Bank / Cr 411 Customers again",
+        "Dr 701 Sales / Cr 411"
+       ],
+       "e": [
+        "The bank did not receive the money.",
+        "That records it as received again.",
+        "Sales are not changed."
+       ],
+       "y": "The customer still owes the money."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

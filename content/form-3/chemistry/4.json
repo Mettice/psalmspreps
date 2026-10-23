@@ -1,0 +1,449 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1,
+  3
+ ],
+ "skills": [
+  {
+   "id": "k3-4",
+   "name": "Atomic number, mass number and nuclide notation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Atomic number Z = number of protons (also the number of electrons in a neutral atom). It identifies the element.\nMass number A = number of protons + number of neutrons.\nNuclide notation: the mass number is written at the top left and the atomic number at the bottom left of the symbol, e.g. ²³₁₁Na.\nSo: protons = Z, electrons = Z (neutral atom), neutrons = A − Z.\nElements are arranged in the Periodic Table in order of atomic number.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Two numbers describe a nucleus",
+    "text": "The atomic number Z is the number of protons. It is the identity of the element: {1} proton is hydrogen, {6} is carbon, {8} is oxygen, {11} is sodium.\nThe mass number A is the total number of protons and neutrons, the heavy particles in the nucleus.\nIn a neutral atom the number of electrons equals Z."
+   },
+   {
+    "heading": "Nuclide notation",
+    "text": "We write the mass number at the top left and the atomic number at the bottom left of the symbol: {sup(23)}{sub(11)}Na.\nFrom this you can read everything:\n• protons = {11}\n• electrons = {11}\n• neutrons = {23} − {11} = {12}\nThe bigger number is always the mass number."
+   },
+   {
+    "heading": "Order in the Periodic Table",
+    "text": "The Periodic Table lists the elements in order of increasing atomic number: H ({1}), He ({2}), Li ({3}), … Ca ({20}).\nKnowing the first {20} elements and their atomic numbers will help you in every chemistry lesson this year."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "atomic number (Z)",
+    "meaning": "the number of protons"
+   },
+   {
+    "word": "mass number (A)",
+    "meaning": "protons + neutrons"
+   },
+   {
+    "word": "nuclide notation",
+    "meaning": "ᴬ_Z X: A on top, Z below"
+   }
+  ],
+  "examples": [
+   "{sup(35)}{sub(17)}Cl: {17} p, {18} n, {17} e",
+   "{sup(40)}{sub(20)}Ca: {20} p, {20} n, {20} e",
+   "{sup(4)}{sub(2)}He: {2} p, {2} n, {2} e"
+  ],
+  "mistake": {
+   "wrong": "{sup(23)}{sub(11)}Na has {23} neutrons",
+   "right": "{23} − {11} = {12} neutrons",
+   "why": "The top number counts protons and neutrons together."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "X": "Al"
+  },
+  "problem": "For ²⁷₁₃Al, give the number of protons, neutrons and electrons.",
+  "steps": [
+   "Bottom number (Z) = {atomicNumber(X)}: {atomicNumber(X)} protons and {atomicNumber(X)} electrons.",
+   "Top number (A) = {massNumber(X)}: neutrons = {massNumber(X)} − {atomicNumber(X)} = {neutrons(X)}."
+  ],
+  "answer": "{atomicNumber(X)} protons, {neutrons(X)} neutrons, {atomicNumber(X)} electrons",
+  "checks": [
+   "neutrons(X) == 14"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k4-1",
+    "status": "draft",
+    "idea": "Z (bottom) = protons; A (top) = protons + neutrons.",
+    "vars": {},
+    "example": [
+     "¹⁶₈O: {8} protons, {8} neutrons"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-4-read"
+    }
+   },
+   {
+    "id": "c3k4-2",
+    "status": "draft",
+    "idea": "The atomic number identifies the element.",
+    "vars": {},
+    "example": [
+     "Every atom with {6} protons is carbon."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-4-which"
+    }
+   },
+   {
+    "id": "c3k4-3",
+    "status": "draft",
+    "idea": "Neutrons = A − Z.",
+    "vars": {},
+    "example": [
+     "³⁹₁₉K: {39} − {19} = {20} neutrons"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-4-n-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "atoms"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        "H",
+        "He",
+        "Li",
+        "Be",
+        "B",
+        "C",
+        "N",
+        "O",
+        "F",
+        "Ne",
+        "Na",
+        "Mg",
+        "Al",
+        "Si",
+        "P",
+        "S",
+        "Cl",
+        "Ar",
+        "K",
+        "Ca"
+       ]
+      }
+     },
+     "prompt": "How many neutrons are in {sup(massNumber(X))}{sub(atomicNumber(X))}{X}?",
+     "answer": "neutrons(X)",
+     "misconceptions": [
+      {
+       "id": "a",
+       "wrong": "massNumber(X)",
+       "explain": "Subtract the atomic number from the mass number."
+      },
+      {
+       "id": "sum",
+       "wrong": "massNumber(X) + atomicNumber(X)",
+       "explain": "Neutrons = A − Z: subtract."
+      }
+     ],
+     "solution": [
+      "Neutrons = A − Z = {massNumber(X)} − {atomicNumber(X)}.",
+      "= {answer}."
+     ],
+     "where": [
+      "X != 'H'",
+      "neutrons(X) != atomicNumber(X)"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-4-read",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "In the notation {sup(massNumber(X))}{sub(atomicNumber(X))}{X}, how many protons are there?",
+   "answer": "atomicNumber(X)",
+   "misconceptions": [
+    {
+     "id": "top",
+     "wrong": "massNumber(X)",
+     "explain": "The top number is the mass number (protons + neutrons). Protons = the bottom number."
+    }
+   ],
+   "solution": [
+    "The bottom number is the atomic number = number of protons.",
+    "So there are {answer} protons."
+   ],
+   "where": [
+    "X != 'H'"
+   ]
+  },
+  {
+   "id": "k3-4-which",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "An atom has {atomicNumber(X)} protons. Which element is it? Give its atomic number.",
+   "answer": "atomicNumber(X)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "massNumber(X)",
+     "explain": "The number of protons is the atomic number, not the mass number."
+    }
+   ],
+   "solution": [
+    "The number of protons is the atomic number: {answer}.",
+    "Atomic number {answer} is {nameOf(X)} ({X})."
+   ],
+   "where": [
+    "X != 'H'"
+   ]
+  },
+  {
+   "id": "k3-4-n",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "How many neutrons are in {sup(massNumber(X))}{sub(atomicNumber(X))}{X}?",
+   "answer": "neutrons(X)",
+   "misconceptions": [
+    {
+     "id": "a",
+     "wrong": "massNumber(X)",
+     "explain": "Subtract the atomic number from the mass number."
+    },
+    {
+     "id": "sum",
+     "wrong": "massNumber(X) + atomicNumber(X)",
+     "explain": "Neutrons = A − Z: subtract."
+    }
+   ],
+   "solution": [
+    "Neutrons = A − Z = {massNumber(X)} − {atomicNumber(X)}.",
+    "= {answer}."
+   ],
+   "where": [
+    "X != 'H'",
+    "neutrons(X) != atomicNumber(X)"
+   ]
+  },
+  {
+   "id": "k3-4-write",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "An atom of {nameOf(X)} has {atomicNumber(X)} protons and {neutrons(X)} neutrons. How is it written in nuclide notation?",
+   "correct": "{sup(massNumber(X)) + sub(atomicNumber(X)) + X}",
+   "distractors": [
+    {
+     "text": "{sup(atomicNumber(X)) + sub(massNumber(X)) + X}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{sup(neutrons(X)) + sub(atomicNumber(X)) + X}",
+     "misconception": "neut"
+    },
+    {
+     "text": "{sup(massNumber(X) + atomicNumber(X)) + sub(atomicNumber(X)) + X}",
+     "misconception": "add"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "The mass number (bigger) goes on top; the atomic number at the bottom."
+    },
+    {
+     "id": "neut",
+     "explain": "The top number is protons + neutrons, not neutrons alone."
+    },
+    {
+     "id": "add",
+     "explain": "The mass number is protons + neutrons = {massNumber(X)}."
+    }
+   ],
+   "solution": [
+    "Mass number = {atomicNumber(X)} + {neutrons(X)} = {massNumber(X)} (top).",
+    "Atomic number = {atomicNumber(X)} (bottom). So: {answer}."
+   ],
+   "where": [
+    "X != 'H'",
+    "neutrons(X) != atomicNumber(X)",
+    "neutrons(X) != massNumber(X)"
+   ]
+  },
+  {
+   "id": "k3-4-a",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "e": {
+     "int": [
+      3,
+      20
+     ]
+    },
+    "d": {
+     "int": [
+      0,
+      2
+     ]
+    },
+    "n": {
+     "expr": "e + d"
+    }
+   },
+   "prompt": "An atom has {e} electrons and {n} neutrons. What is its mass number?",
+   "answer": "e + n",
+   "misconceptions": [
+    {
+     "id": "e",
+     "wrong": "e + e + n",
+     "explain": "Electrons do not count in the mass number: A = protons + neutrons."
+    }
+   ],
+   "solution": [
+    "Neutral atom: protons = electrons = {e}.",
+    "Mass number = protons + neutrons = {e} + {n} = {answer}."
+   ]
+  }
+ ]
+}

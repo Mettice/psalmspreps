@@ -1,0 +1,375 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "k3-15",
+   "name": "The octet rule: noble gas configuration"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Noble gases (He, Ne, Ar) are very unreactive because their outer shell is full: 2 for helium, 8 for the others (an octet).\nOctet rule: atoms react by losing, gaining or sharing electrons so that they end up with a full outer shell like the nearest noble gas.\n• Metals with 1, 2 or 3 outer electrons lose them: Na (2,8,1) → Na⁺ (2,8), like neon.\n• Non-metals with 5, 6 or 7 outer electrons gain 3, 2 or 1: O (2,6) → O²⁻ (2,8), like neon.\n• Non-metals can also share electrons to complete their octets (covalent bonds).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Why noble gases are special",
+    "text": "Helium, neon and argon hardly react at all. Their outer shells are full: {2} electrons for helium, {8} for neon and argon.\nA full outer shell is a very stable arrangement. Eight outer electrons is called an octet."
+   },
+   {
+    "heading": "The octet rule",
+    "text": "Other atoms react in ways that give them a full outer shell, like the nearest noble gas.\n• Metals have {1}, {2} or {3} outer electrons. It is easiest to lose them: sodium ({2}, {8}, {1}) becomes Na⁺ ({2}, {8}).\n• Non-metals have {5}, {6} or {7}. It is easiest to gain the few that are missing: chlorine ({2}, {8}, {7}) becomes Cl⁻ ({2}, {8}, {8}).\n• Two non-metals can also share electrons so that both complete their octets."
+   },
+   {
+    "heading": "Predicting the charge",
+    "text": "Losing electrons gives a positive ion; gaining gives a negative ion:\n• group I → +{1}; group II → +{2}; group III → +{3};\n• group V → −{3}; group VI → −{2}; group VII → −{1}.\nSo aluminium forms Al³⁺ and oxygen forms O²⁻."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "octet",
+    "meaning": "eight electrons in the outer shell"
+   },
+   {
+    "word": "noble gas configuration",
+    "meaning": "a full outer shell like He, Ne or Ar"
+   },
+   {
+    "word": "stable",
+    "meaning": "unlikely to react"
+   }
+  ],
+  "examples": [
+   "K ({2},{8},{8},{1}) → K⁺ ({2},{8},{8})",
+   "N ({2},{5}) gains {3} → N³⁻ ({2},{8})",
+   "Ca loses {2} → Ca²⁺"
+  ],
+  "mistake": {
+   "wrong": "Chlorine loses {7} electrons to empty its outer shell",
+   "right": "Chlorine gains {1} electron to complete its octet",
+   "why": "Gaining one electron is far easier than losing seven."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 16
+  },
+  "problem": "Sulphur has atomic number {z}. How does it reach a noble gas configuration, and what ion forms?",
+  "steps": [
+   "Configuration: {shells(z)}: {outerElectrons(z)} outer electrons.",
+   "Gaining {8 - outerElectrons(z)} is easier than losing {outerElectrons(z)}.",
+   "It gains {8 - outerElectrons(z)} electrons: {shells(z + 8 - outerElectrons(z))}, like argon. The ion is S²⁻."
+  ],
+  "answer": "It gains {8 - outerElectrons(z)} electrons to form S²⁻",
+  "checks": [
+   "8 - outerElectrons(z) == 2"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k15-1",
+    "status": "draft",
+    "idea": "A full outer shell (an octet, or {2} for helium) is stable.",
+    "vars": {},
+    "example": [
+     "Neon {2}, {8} and argon {2}, {8}, {8} do not react."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-15-why"
+    }
+   },
+   {
+    "id": "c3k15-2",
+    "status": "draft",
+    "idea": "Metals lose their {1}, {2} or {3} outer electrons.",
+    "vars": {},
+    "example": [
+     "Mg ({2}, {8}, {2}) → Mg²⁺ ({2}, {8})"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-15-lose"
+    }
+   },
+   {
+    "id": "c3k15-3",
+    "status": "draft",
+    "idea": "Non-metals gain electrons to make {8}.",
+    "vars": {},
+    "example": [
+     "Cl ({2}, {8}, {7}) → Cl⁻ ({2}, {8}, {8})"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-15-gain-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        "N",
+        "O",
+        "F",
+        "P",
+        "S",
+        "Cl"
+       ]
+      },
+      "z": {
+       "expr": "atomicNumber(X)"
+      }
+     },
+     "prompt": "How many electrons does {nameOf(X)} (atomic number {z}) gain to reach a noble gas configuration?",
+     "answer": "8 - outerElectrons(z)",
+     "misconceptions": [
+      {
+       "id": "lose",
+       "wrong": "outerElectrons(z)",
+       "explain": "Non-metals with {outerElectrons(z)} outer electrons gain electrons rather than losing so many."
+      }
+     ],
+     "solution": [
+      "Configuration {shells(z)}: {outerElectrons(z)} outer electrons.",
+      "It needs {8} − {outerElectrons(z)} = {answer} more to complete the octet."
+     ],
+     "where": [
+      "8 - outerElectrons(z) != outerElectrons(z)"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-15-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are the noble gases unreactive?",
+       "r": "Their outer shells are full",
+       "w": [
+        "They have no electrons",
+        "They are too heavy to react",
+        "They have only one shell"
+       ],
+       "e": [
+        "They have electrons in full shells.",
+        "Mass does not decide reactivity.",
+        "Argon has three shells."
+       ],
+       "y": "A full outer shell is a stable arrangement."
+      },
+      {
+       "q": "What does the octet rule say?",
+       "r": "Atoms tend to gain, lose or share electrons to get eight in the outer shell",
+       "w": [
+        "Atoms always have eight electrons",
+        "Every atom has eight shells",
+        "Atoms always gain eight electrons"
+       ],
+       "e": [
+        "Most atoms do not have eight outer electrons to start with.",
+        "Shells, not eight of them.",
+        "They gain or lose only what they need."
+       ],
+       "y": "Eight outer electrons, like a noble gas, is stable."
+      },
+      {
+       "q": "Which ion has the same electron arrangement as neon (2, 8)?",
+       "r": "Na⁺",
+       "w": [
+        "Na",
+        "Cl⁻",
+        "K⁺"
+       ],
+       "e": [
+        "The sodium atom is 2, 8, 1.",
+        "Cl⁻ is 2, 8, 8 like argon.",
+        "K⁺ is 2, 8, 8 like argon."
+       ],
+       "y": "Na⁺ has 10 electrons: 2, 8."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-15-lose",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Na",
+      "K",
+      "Be",
+      "Mg",
+      "Ca",
+      "Al"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "How many electrons does {nameOf(X)} (atomic number {z}) lose to reach a noble gas configuration?",
+   "answer": "outerElectrons(z)",
+   "misconceptions": [
+    {
+     "id": "gain",
+     "wrong": "8 - outerElectrons(z)",
+     "explain": "Metals lose their few outer electrons rather than gaining many."
+    }
+   ],
+   "solution": [
+    "Configuration {shells(z)}: {outerElectrons(z)} outer electron(s).",
+    "It loses all {answer} to leave a full shell."
+   ]
+  },
+  {
+   "id": "k3-15-gain",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "N",
+      "O",
+      "F",
+      "P",
+      "S",
+      "Cl"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "How many electrons does {nameOf(X)} (atomic number {z}) gain to reach a noble gas configuration?",
+   "answer": "8 - outerElectrons(z)",
+   "misconceptions": [
+    {
+     "id": "lose",
+     "wrong": "outerElectrons(z)",
+     "explain": "Non-metals with {outerElectrons(z)} outer electrons gain electrons rather than losing so many."
+    }
+   ],
+   "solution": [
+    "Configuration {shells(z)}: {outerElectrons(z)} outer electrons.",
+    "It needs {8} − {outerElectrons(z)} = {answer} more to complete the octet."
+   ],
+   "where": [
+    "8 - outerElectrons(z) != outerElectrons(z)"
+   ]
+  },
+  {
+   "id": "k3-15-charge",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      "Li",
+      "Na",
+      "K",
+      "Mg",
+      "Ca",
+      "Al",
+      "N",
+      "O",
+      "F",
+      "S",
+      "Cl"
+     ]
+    },
+    "z": {
+     "expr": "atomicNumber(X)"
+    }
+   },
+   "prompt": "What is the charge of the ion formed by {nameOf(X)} (atomic number {z})? Give a signed number, e.g. −1.",
+   "answer": "outerElectrons(z) <= 3 ? outerElectrons(z) : outerElectrons(z) - 8",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "outerElectrons(z) <= 3 ? 0 - outerElectrons(z) : 8 - outerElectrons(z)",
+     "explain": "Losing electrons gives a positive ion; gaining gives a negative ion."
+    }
+   ],
+   "solution": [
+    "Configuration {shells(z)}.",
+    "{outerElectrons(z) <= 3 ? 'It loses ' + outerElectrons(z) + ' electron(s), so the ion is positive.' : 'It gains ' + (8 - outerElectrons(z)) + ' electron(s), so the ion is negative.'} Charge {answer}."
+   ],
+   "signed": true
+  }
+ ]
+}

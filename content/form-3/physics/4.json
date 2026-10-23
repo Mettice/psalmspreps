@@ -1,0 +1,423 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "p3-4",
+   "name": "Measure mass and convert between units of mass"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mass is measured with a beam balance, a lever arm balance or an electronic (top-pan) balance.\nBefore weighing, check the balance reads zero (adjust or press 'tare').\nUnits: 1 t = 1000 kg, 1 kg = 1000 g, 1 g = 1000 mg.\nMass of a liquid by difference: weigh the empty container, then container + liquid, and subtract.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Balances",
+    "text": "In the laboratory, mass is measured with a balance. A beam balance compares the object with standard masses; an electronic (top-pan) balance shows the mass directly.\nAlways check the reading is {0} before you start. If it shows, say, {3} g with nothing on it, the balance has a zero error: press 'tare' or subtract {3} g from every reading."
+   },
+   {
+    "heading": "Units of mass",
+    "text": "• {1} tonne (t) = {1000} kg\n• {1} kg = {1000} g\n• {1} g = {1000} mg\nA lorry of cocoa might carry {10} t; a bag of rice {50} kg; a packet of seasoning {10} g.\nTo add masses, first change them to the same unit: {2} kg + {500} g = {2.5} kg."
+   },
+   {
+    "heading": "Mass by difference",
+    "text": "A liquid has to be weighed in a container. Weigh the empty container, then the container with the liquid, and subtract:\nmass of liquid = (container + liquid) − container.\nIf an empty beaker is {85} g and with palm oil it is {233} g, the oil has a mass of {148} g."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "balance",
+    "meaning": "an instrument for measuring mass"
+   },
+   {
+    "word": "tare",
+    "meaning": "set the balance to zero"
+   },
+   {
+    "word": "zero error",
+    "meaning": "a reading when nothing is being measured"
+   }
+  ],
+  "examples": [
+   "{3500} g = {3.5} kg",
+   "{0.25} t = {250} kg",
+   "{750} mg = {0.75} g"
+  ],
+  "mistake": {
+   "wrong": "{2} kg + {300} g = {302} kg",
+   "right": "{2} kg + {0.3} kg = {2.3} kg",
+   "why": "Change both to the same unit before adding."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": 85,
+   "f": 233
+  },
+  "problem": "An empty beaker has a mass of {e} g. With some palm oil in it, the mass is {f} g. Find the mass of the oil.",
+  "steps": [
+   "Mass of oil = (beaker + oil) − beaker.",
+   "= {f} − {e} = {f - e} g."
+  ],
+  "answer": "{f - e} g",
+  "checks": [
+   "f - e == 148"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p4-1",
+    "status": "draft",
+    "idea": "Zero the balance first, then read the mass.",
+    "vars": {},
+    "example": [
+     "An electronic balance with a beaker on it: press tare to read {0}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-4-tool"
+    }
+   },
+   {
+    "id": "c3p4-2",
+    "status": "draft",
+    "idea": "Convert: {1} kg = {1000} g; {1} t = {1000} kg.",
+    "vars": {},
+    "example": [
+     "{2.5} kg = {2500} g"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-4-conv"
+    }
+   },
+   {
+    "id": "c3p4-3",
+    "status": "draft",
+    "idea": "Mass of a liquid = (container + liquid) − empty container.",
+    "vars": {},
+    "example": [
+     "{250} g − {90} g = {160} g"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-4-diff-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "measurement"
+     ],
+     "vars": {
+      "e": {
+       "int": [
+        150,
+        400
+       ]
+      },
+      "w": {
+       "int": [
+        200,
+        1000
+       ],
+       "step": 10
+      }
+     },
+     "prompt": "An empty bottle has a mass of {e} g. Filled with water, its mass is {e + w} g. Find the mass of the water (g).",
+     "answer": "w",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "2 * e + w",
+       "explain": "Subtract the empty bottle, do not add it."
+      }
+     ],
+     "solution": [
+      "Mass of water = (bottle + water) − bottle.",
+      "= {e + w} − {e} = {answer} g."
+     ],
+     "unit": "g"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-4-tool",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Before weighing on an electronic balance, what should you do?",
+       "r": "Check that it reads zero (tare it)",
+       "w": [
+        "Put the object on it first",
+        "Shake it",
+        "Add a known mass"
+       ],
+       "e": [
+        "Zero the balance before adding the object.",
+        "Shaking gives false readings.",
+        "That would add to the reading."
+       ],
+       "y": "A balance that does not start at zero gives a zero error."
+      },
+      {
+       "q": "Which instrument is used to measure mass in the laboratory?",
+       "r": "a beam balance",
+       "w": [
+        "a newton meter",
+        "a measuring cylinder",
+        "a vernier caliper"
+       ],
+       "e": [
+        "A newton meter measures force.",
+        "A measuring cylinder measures volume.",
+        "Calipers measure length."
+       ],
+       "y": "Balances measure mass."
+      },
+      {
+       "q": "A balance reads {5} g with nothing on it. What is this called?",
+       "r": "a zero error",
+       "w": [
+        "the mass of the air",
+        "the tare",
+        "a parallax error"
+       ],
+       "e": [
+        "The balance should read {0} with nothing on it.",
+        "Taring is how you remove the error.",
+        "Parallax is about reading a scale from the side."
+       ],
+       "y": "Subtract {5} g from every reading, or tare the balance."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-4-conv",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      2,
+      90
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "f": "kg",
+       "t": "g"
+      },
+      {
+       "f": "g",
+       "t": "kg"
+      },
+      {
+       "f": "t",
+       "t": "kg"
+      },
+      {
+       "f": "kg",
+       "t": "t"
+      },
+      {
+       "f": "g",
+       "t": "mg"
+      },
+      {
+       "f": "mg",
+       "t": "g"
+      }
+     ]
+    }
+   },
+   "prompt": "Convert {v} {X.f} to {X.t}.",
+   "answer": "convertUnit(v, X.f, X.t)",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "convertUnit(v, X.t, X.f)",
+     "explain": "Check the direction: {1} {X.f} = {factor(X.f, X.t)} {X.t}."
+    }
+   ],
+   "solution": [
+    "{1} {X.f} = {factor(X.f, X.t)} {X.t}.",
+    "{v} {X.f} = {answer} {X.t}."
+   ]
+  },
+  {
+   "id": "p3-4-sum",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      50
+     ]
+    },
+    "b": {
+     "int": [
+      100,
+      950
+     ],
+     "step": 50
+    }
+   },
+   "prompt": "A trader at Bonaberi market has a {a} kg bag of beans and a {b} g packet. Find the total mass in kilograms.",
+   "answer": "a + b / 1000",
+   "misconceptions": [
+    {
+     "id": "nounit",
+     "wrong": "a + b",
+     "explain": "Grams and kilograms cannot be added directly: change {b} g to kg first."
+    }
+   ],
+   "solution": [
+    "Change to the same unit: {b} g = {b / 1000} kg.",
+    "Total = {a} + {b / 1000} = {answer} kg."
+   ],
+   "unit": "kg"
+  },
+  {
+   "id": "p3-4-diff",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "e": {
+     "int": [
+      150,
+      400
+     ]
+    },
+    "w": {
+     "int": [
+      200,
+      1000
+     ],
+     "step": 10
+    }
+   },
+   "prompt": "An empty bottle has a mass of {e} g. Filled with water, its mass is {e + w} g. Find the mass of the water (g).",
+   "answer": "w",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "2 * e + w",
+     "explain": "Subtract the empty bottle, do not add it."
+    }
+   ],
+   "solution": [
+    "Mass of water = (bottle + water) − bottle.",
+    "= {e + w} − {e} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "p3-4-zero",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "z": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "r": {
+     "int": [
+      150,
+      900
+     ]
+    }
+   },
+   "prompt": "A balance has a zero error of +{z} g (it reads {z} g with nothing on it). A bag of salt reads {r} g. What is its true mass (g)?",
+   "answer": "r - z",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "r + z",
+     "explain": "The balance reads too much: subtract the zero error."
+    }
+   ],
+   "solution": [
+    "The balance reads {z} g too much.",
+    "True mass = {r} − {z} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

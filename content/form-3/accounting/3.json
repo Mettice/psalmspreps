@@ -1,0 +1,429 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "a3-3",
+   "name": "Value added tax (VAT): calculation and accounting entries"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "VAT in Cameroon is 19.25% of the price excluding tax (HT): 17.5% VAT plus 10% of that as council tax (17.5% × 1.1 = 19.25%).\n• Amount including tax (TTC) = HT + VAT = HT × 1.1925.\n• On sales, the enterprise charges VAT: credit 443 VAT invoiced (collected).\n• On purchases, it pays VAT it can recover: debit 445 VAT recoverable.\n• VAT payable to the State = VAT invoiced − VAT recoverable (account 4441). If recoverable is bigger, the difference is a VAT credit (4449), carried forward.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "A tax on added value",
+    "text": "Value added tax (VAT) is a tax on consumption. Each enterprise charges VAT on its sales and deducts the VAT it paid on its purchases, so in the end the final consumer bears the tax.\nIn Cameroon the rate is {19.25}%: {17.5}% VAT plus council tax of {10}% of it ({17.5}% × {1.1} = {19.25}%)."
+   },
+   {
+    "heading": "Calculating",
+    "text": "• HT (hors taxes): price excluding tax.\n• VAT = {19.25}% × HT.\n• TTC (toutes taxes comprises): HT + VAT = HT × {1.1925}.\nFor {200000} FCFA HT: VAT = {38500} FCFA and TTC = {238500} FCFA.\nTo go back from TTC to HT, divide by {1.1925}."
+   },
+   {
+    "heading": "Recording and paying",
+    "text": "• Sales: debit {'411'} Customers with TTC; credit {'701'} Sales with HT and {'443'} VAT invoiced with the VAT.\n• Purchases: debit {'601'} Purchases with HT and {'445'} VAT recoverable with the VAT; credit {'401'} Suppliers with TTC.\n• At the end of the month, VAT payable ({'4441'}) = VAT invoiced − VAT recoverable, paid to the State. If recoverable is bigger, the difference is a VAT credit ({'4449'}) carried to the next month."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "VAT",
+    "meaning": "value added tax, {19.25}% in Cameroon"
+   },
+   {
+    "word": "HT",
+    "meaning": "amount excluding tax"
+   },
+   {
+    "word": "TTC",
+    "meaning": "amount including all taxes"
+   },
+   {
+    "word": "VAT credit",
+    "meaning": "recoverable VAT larger than invoiced VAT, carried forward"
+   }
+  ],
+  "examples": [
+   "HT {80000}: VAT {15400}, TTC {95400}",
+   "Invoiced {50000} − recoverable {30000} = {20000} to pay"
+  ],
+  "mistake": {
+   "wrong": "VAT = {19.25}% of the TTC amount",
+   "right": "VAT = {19.25}% of the HT amount",
+   "why": "VAT is calculated on the price before tax."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "ht": 200000
+  },
+  "problem": "Goods are sold for {ht} FCFA HT. Find the VAT and the amount including tax.",
+  "steps": [
+   "VAT = {19.25}% × {ht} = {ht * 0.1925} FCFA.",
+   "TTC = {ht} + {ht * 0.1925} = {ht * 1.1925} FCFA."
+  ],
+  "answer": "VAT {ht * 0.1925} FCFA; TTC {ht * 1.1925} FCFA",
+  "checks": [
+   "ht * 0.1925 == 38500"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a3-1",
+    "status": "draft",
+    "idea": "VAT = {19.25}% of the price excluding tax.",
+    "vars": {},
+    "example": [
+     "{100000} HT: VAT {19250}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-3-vat"
+    }
+   },
+   {
+    "id": "c3a3-2",
+    "status": "draft",
+    "idea": "TTC = HT + VAT.",
+    "vars": {},
+    "example": [
+     "{100000} + {19250} = {119250}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-3-ttc"
+    }
+   },
+   {
+    "id": "c3a3-3",
+    "status": "draft",
+    "idea": "VAT payable = VAT invoiced − VAT recoverable.",
+    "vars": {},
+    "example": [
+     "{60000} − {45000} = {15000} to pay"
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-3-pay-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "vat"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        10,
+        80
+       ]
+      },
+      "b": {
+       "int": [
+        5,
+        70
+       ]
+      },
+      "inv": {
+       "expr": "a * 770"
+      },
+      "rec": {
+       "expr": "b * 770"
+      }
+     },
+     "prompt": "In a month, VAT invoiced on sales is {inv} FCFA and VAT recoverable on purchases is {rec} FCFA. What VAT must be paid to the State (FCFA)? (0 if there is a credit)",
+     "answer": "max(inv - rec, 0)",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "inv + rec",
+       "explain": "Subtract the recoverable VAT from the invoiced VAT."
+      }
+     ],
+     "solution": [
+      "VAT payable = invoiced − recoverable = {inv} − {rec}.",
+      "{inv > rec ? 'Payable: ' + fmt(inv - rec) + ' FCFA.' : 'Recoverable is bigger: no VAT to pay; credit of ' + fmt(rec - inv) + ' FCFA.'}"
+     ],
+     "unit": "FCFA",
+     "where": [
+      "a != b",
+      "inv + rec != max(inv - rec, 0)"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-3-vat",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "vat"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      50
+     ]
+    },
+    "ht": {
+     "expr": "k * 4000"
+    },
+    "vat": {
+     "expr": "k * 770"
+    }
+   },
+   "prompt": "Goods worth {ht} FCFA HT are sold. Find the VAT at {19.25}% (FCFA).",
+   "answer": "vat",
+   "misconceptions": [
+    {
+     "id": "ttc",
+     "wrong": "ht + vat",
+     "explain": "That is the amount including tax. VAT is only the tax part."
+    },
+    {
+     "id": "rate",
+     "wrong": "ht * 0.175",
+     "explain": "The rate in Cameroon is {19.25}% ({17.5}% plus council tax)."
+    }
+   ],
+   "solution": [
+    "VAT = {19.25} ÷ {100} × {ht}.",
+    "= {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a3-3-ttc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "vat"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      50
+     ]
+    },
+    "ht": {
+     "expr": "k * 4000"
+    },
+    "vat": {
+     "expr": "k * 770"
+    }
+   },
+   "prompt": "Find the amount including tax (TTC) for a sale of {ht} FCFA HT (VAT {19.25}%).",
+   "answer": "ht + vat",
+   "misconceptions": [
+    {
+     "id": "vat",
+     "wrong": "vat",
+     "explain": "That is the VAT only; add it to the HT amount."
+    }
+   ],
+   "solution": [
+    "VAT = {vat} FCFA.",
+    "TTC = {ht} + {vat} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a3-3-pay",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "vat"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      10,
+      80
+     ]
+    },
+    "b": {
+     "int": [
+      5,
+      70
+     ]
+    },
+    "inv": {
+     "expr": "a * 770"
+    },
+    "rec": {
+     "expr": "b * 770"
+    }
+   },
+   "prompt": "In a month, VAT invoiced on sales is {inv} FCFA and VAT recoverable on purchases is {rec} FCFA. What VAT must be paid to the State (FCFA)? (0 if there is a credit)",
+   "answer": "max(inv - rec, 0)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "inv + rec",
+     "explain": "Subtract the recoverable VAT from the invoiced VAT."
+    }
+   ],
+   "solution": [
+    "VAT payable = invoiced − recoverable = {inv} − {rec}.",
+    "{inv > rec ? 'Payable: ' + fmt(inv - rec) + ' FCFA.' : 'Recoverable is bigger: no VAT to pay; credit of ' + fmt(rec - inv) + ' FCFA.'}"
+   ],
+   "unit": "FCFA",
+   "where": [
+    "a != b",
+    "inv + rec != max(inv - rec, 0)"
+   ]
+  },
+  {
+   "id": "a3-3-entry",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vat"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In a credit sale, which account records the VAT charged to the customer?",
+       "r": "443 VAT invoiced (credit)",
+       "w": [
+        "445 VAT recoverable (debit)",
+        "601 Purchases (debit)",
+        "571 Cash (credit)"
+       ],
+       "e": [
+        "That is VAT on purchases.",
+        "Not a sale.",
+        "Cash is not involved in a credit sale."
+       ],
+       "y": "VAT charged on sales is owed to the State."
+      },
+      {
+       "q": "In a credit purchase of goods, which account records the VAT paid to the supplier?",
+       "r": "445 VAT recoverable (debit)",
+       "w": [
+        "443 VAT invoiced (credit)",
+        "701 Sales (credit)",
+        "101 Capital (credit)"
+       ],
+       "e": [
+        "That is VAT on sales.",
+        "Not a sale.",
+        "Not a financing transaction."
+       ],
+       "y": "The enterprise can deduct this VAT."
+      },
+      {
+       "q": "Which account is debited when goods are sold on credit for an amount including tax?",
+       "r": "411 Customers (with the TTC amount)",
+       "w": [
+        "701 Sales",
+        "443 VAT invoiced",
+        "401 Suppliers"
+       ],
+       "e": [
+        "Sales is credited with the HT amount.",
+        "VAT invoiced is credited.",
+        "Suppliers are for purchases."
+       ],
+       "y": "The customer owes the full TTC amount."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-3-ht",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "vat"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      50
+     ]
+    },
+    "ht": {
+     "expr": "k * 4000"
+    },
+    "vat": {
+     "expr": "k * 770"
+    },
+    "ttc": {
+     "expr": "ht + vat"
+    }
+   },
+   "prompt": "An invoice shows a total including tax of {ttc} FCFA (VAT {19.25}%). Find the amount excluding tax (FCFA).",
+   "answer": "ht",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "ttc - roundTo(ttc * 0.1925, 1)",
+     "explain": "Taking {19.25}% of the TTC is wrong: VAT is {19.25}% of the HT. Divide by {1.1925}."
+    }
+   ],
+   "solution": [
+    "TTC = HT × {1.1925}.",
+    "HT = {ttc} ÷ {1.1925} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

@@ -1,0 +1,586 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "s3-32",
+   "name": "Off-the-shelf and bespoke (custom) software"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Off-the-shelf (packaged) software is ready-made for many users (word processors, accounting packages, antivirus). Advantages: cheaper, available at once, well tested, lots of help and training. Disadvantages: may have features you do not need or lack ones you do; you cannot change it.\n• Bespoke (custom-written) software is made for one organisation's exact needs (a hospital's patient system, a bank's mobile-money platform). Advantages: fits exactly, can be changed, can give a business advantage. Disadvantages: expensive, takes time to develop, may have more bugs at first, depends on the developers for support.\nChoose by cost, time, how special the needs are, and support.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ready-made software",
+    "text": "Off-the-shelf (packaged) software is written once and sold or given to many users: word processors, spreadsheets, antivirus, accounting packages.\nAdvantages: cheaper (the cost is shared), available at once, well tested, with plenty of manuals, videos and help.\nDisadvantages: it may not do exactly what you need, may have many features you never use, and you cannot change its code."
+   },
+   {
+    "heading": "Made to measure",
+    "text": "Bespoke (custom-written) software is made for one organisation's exact needs: a hospital's patient system, a university's results system, a mobile-money platform.\nAdvantages: it fits the way the organisation works, can be changed later, and can give an advantage over competitors.\nDisadvantages: expensive, slow to develop, may have bugs at first, and depends on the developers for support."
+   },
+   {
+    "heading": "Choosing",
+    "text": "Ask: Are our needs common or special? How much money and time do we have? Who will support it?\nCommon needs and small budgets → off-the-shelf. Unique, large-scale needs → bespoke, or customised off-the-shelf software as a middle way."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "off-the-shelf software",
+    "meaning": "ready-made software sold to many users"
+   },
+   {
+    "word": "bespoke software",
+    "meaning": "software written for one organisation"
+   },
+   {
+    "word": "customised software",
+    "meaning": "packaged software adjusted for one user's needs"
+   }
+  ],
+  "examples": [
+   "LibreOffice: off-the-shelf",
+   "Hospital records system: bespoke",
+   "Accounting package with add-ons: customised"
+  ],
+  "mistake": {
+   "wrong": "Bespoke software is always the best choice",
+   "right": "It is best only when needs are special and the budget allows",
+   "why": "For common needs, off-the-shelf software is cheaper, faster and well tested."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A small shop in Kumba needs to keep its accounts. Should it buy off-the-shelf software or pay for bespoke software? Explain.",
+  "steps": [
+   "Its needs are common to many shops.",
+   "Off-the-shelf accounting software already does this, is cheaper and available at once.",
+   "Bespoke software would cost much more and take time."
+  ],
+  "answer": "Off-the-shelf: cheaper, ready now, and the needs are standard",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s32-1",
+    "status": "draft",
+    "idea": "Off-the-shelf software is ready-made for many users.",
+    "vars": {},
+    "example": [
+     "A word processor bought from a shop or online"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-32-which"
+    }
+   },
+   {
+    "id": "c3s32-2",
+    "status": "draft",
+    "idea": "Bespoke software is written for one organisation.",
+    "vars": {},
+    "example": [
+     "A bank's own mobile-money platform"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-32-adv"
+    }
+   },
+   {
+    "id": "c3s32-3",
+    "status": "draft",
+    "idea": "Choose by cost, time and how special the needs are.",
+    "vars": {},
+    "example": [
+     "Common needs: off-the-shelf. Unique needs: bespoke."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-32-choose-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A student needs software to type assignments.",
+         "r": "off-the-shelf word processor",
+         "w": [
+          "bespoke software built for her",
+          "a custom bank system",
+          "no software at all"
+         ],
+         "e": [
+          "Far too costly for a common need.",
+          "Not relevant.",
+          "She needs a word processor."
+         ],
+         "y": "Common needs are met by packaged software."
+        },
+        {
+         "q": "A national electricity company needs to bill millions of customers with its own tariffs and meters.",
+         "r": "bespoke software (or heavily customised)",
+         "w": [
+          "a simple word processor",
+          "a free game",
+          "a photo editor"
+         ],
+         "e": [
+          "Not suitable for billing millions.",
+          "Not relevant.",
+          "Not relevant."
+         ],
+         "y": "Unique, large-scale needs justify custom software."
+        },
+        {
+         "q": "A new business must start next week with standard needs and little money.",
+         "r": "off-the-shelf software",
+         "w": [
+          "bespoke software",
+          "wait two years for custom software",
+          "write code by hand on paper"
+         ],
+         "e": [
+          "It takes too long and costs too much.",
+          "The business cannot wait.",
+          "Not practical."
+         ],
+         "y": "Fast and cheap."
+        }
+       ]
+      }
+     },
+     "prompt": "Which should they choose? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-32-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A school buys LibreOffice for its computers.",
+       "r": "off-the-shelf",
+       "w": [
+        "bespoke",
+        "hardware",
+        "a utility only"
+       ],
+       "e": [
+        "It was not written specially for the school.",
+        "It is software.",
+        "It is an office suite, not just a utility."
+       ],
+       "y": "Ready-made for many users."
+      },
+      {
+       "q": "A hospital pays programmers to build a system for its own patient records.",
+       "r": "bespoke",
+       "w": [
+        "off-the-shelf",
+        "open-source game",
+        "an antivirus"
+       ],
+       "e": [
+        "It is made for one client.",
+        "It is not a game.",
+        "It is not a security utility."
+       ],
+       "y": "Custom-written for one organisation."
+      },
+      {
+       "q": "A family installs a popular antivirus program.",
+       "r": "off-the-shelf",
+       "w": [
+        "bespoke",
+        "firmware",
+        "a database"
+       ],
+       "e": [
+        "Millions use the same program.",
+        "Firmware is built into hardware.",
+        "It is a utility."
+       ],
+       "y": "Packaged for many users."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this off-the-shelf or bespoke? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-32-adv",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of off-the-shelf software?",
+       "r": "It is cheaper and available immediately",
+       "w": [
+        "It is made exactly for one user",
+        "Only one company can use it",
+        "It never needs updates"
+       ],
+       "e": [
+        "That is bespoke.",
+        "Many can use it.",
+        "It is updated often."
+       ],
+       "y": "Costs are shared among many buyers."
+      },
+      {
+       "q": "Which is an advantage of bespoke software?",
+       "r": "It does exactly what the organisation needs",
+       "w": [
+        "It is always cheaper",
+        "It is ready at once",
+        "It has many unused features"
+       ],
+       "e": [
+        "It is usually more expensive.",
+        "It takes time to develop.",
+        "It is built to need."
+       ],
+       "y": "Designed around the user's processes."
+      },
+      {
+       "q": "Which is a disadvantage of bespoke software?",
+       "r": "It is expensive and takes a long time to develop",
+       "w": [
+        "It cannot be changed",
+        "It is used by millions",
+        "It has lots of online tutorials"
+       ],
+       "e": [
+        "It can be changed by the developers.",
+        "It is for one organisation.",
+        "Help may be limited."
+       ],
+       "y": "Paying developers for months costs a lot."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-32-choose",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A student needs software to type assignments.",
+       "r": "off-the-shelf word processor",
+       "w": [
+        "bespoke software built for her",
+        "a custom bank system",
+        "no software at all"
+       ],
+       "e": [
+        "Far too costly for a common need.",
+        "Not relevant.",
+        "She needs a word processor."
+       ],
+       "y": "Common needs are met by packaged software."
+      },
+      {
+       "q": "A national electricity company needs to bill millions of customers with its own tariffs and meters.",
+       "r": "bespoke software (or heavily customised)",
+       "w": [
+        "a simple word processor",
+        "a free game",
+        "a photo editor"
+       ],
+       "e": [
+        "Not suitable for billing millions.",
+        "Not relevant.",
+        "Not relevant."
+       ],
+       "y": "Unique, large-scale needs justify custom software."
+      },
+      {
+       "q": "A new business must start next week with standard needs and little money.",
+       "r": "off-the-shelf software",
+       "w": [
+        "bespoke software",
+        "wait two years for custom software",
+        "write code by hand on paper"
+       ],
+       "e": [
+        "It takes too long and costs too much.",
+        "The business cannot wait.",
+        "Not practical."
+       ],
+       "y": "Fast and cheap."
+      }
+     ]
+    }
+   },
+   "prompt": "Which should they choose? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-32-compare",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why might off-the-shelf software be more reliable than new bespoke software?",
+       "r": "Many users have already tested it and bugs have been fixed",
+       "w": [
+        "It is written by one person",
+        "It is never updated",
+        "It has no users"
+       ],
+       "e": [
+        "Big teams usually make it.",
+        "It is updated often.",
+        "It has many users."
+       ],
+       "y": "Wide use finds and fixes bugs."
+      },
+      {
+       "q": "A company using bespoke software finds its developer has closed down. What is the main risk?",
+       "r": "No one may be able to fix or update the software",
+       "w": [
+        "The software becomes free",
+        "The computer stops working",
+        "Nothing changes"
+       ],
+       "e": [
+        "Price is not the issue.",
+        "Hardware is not affected.",
+        "Support is lost."
+       ],
+       "y": "Bespoke software depends on its developers."
+      },
+      {
+       "q": "What is customised off-the-shelf software?",
+       "r": "Packaged software whose settings or add-ons are adjusted for one organisation",
+       "w": [
+        "Software written from nothing",
+        "A computer virus",
+        "Hardware only"
+       ],
+       "e": [
+        "That is fully bespoke.",
+        "Not malware.",
+        "It is software."
+       ],
+       "y": "A middle way: cheaper than bespoke, closer to needs than plain packaged software."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

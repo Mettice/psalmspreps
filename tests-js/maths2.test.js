@@ -135,3 +135,19 @@ test("Term 3: prisms, pyramids, spheres and averages", () => {
   for (const n of [3, 4, 5, 6]) assert.match(m.prismFig(n) + m.pyramidFig(n), /^<svg/);
   assert.match(m.barChartFig(["A", "B"], [3, 7]) + m.pieFig(["A", "B"], [1, 3]) + m.sphereFig(5), /role="img"/);
 });
+
+test("Form 3: trigonometry in degrees, logarithms, 2 × 2 matrices and their drawings", () => {
+  const near = (a, b) => assert.ok(Math.abs(a - b) < 1e-9, `${a} vs ${b}`);
+  near(m.sinD(30), 0.5); near(m.cosD(60), 0.5); near(m.tanD(45), 1); near(m.asinD(0.5), 30); near(m.acosD(0.5), 60); near(m.atanD(1), 45);
+  assert.equal(m.logb(2, 8), 3); assert.equal(m.logb(10, 1000), 3); assert.equal(m.logb(3, 1 / 9), -2); near(m.log10(2), 0.3010299956639812);
+  const A = [[2, 3], [1, 4]], B = [[0, -1], [5, 2]];
+  assert.equal(m.det2(A), 5);
+  assert.deepEqual(m.matAdd(A, B), [[2, 2], [6, 6]]); assert.deepEqual(m.matSub(A, B), [[2, 4], [-4, 2]]);
+  assert.deepEqual(m.matScale(3, A), [[6, 9], [3, 12]]); assert.deepEqual(m.matMul(A, B), [[15, 4], [20, 7]]);
+  assert.deepEqual(m.matT(A), [[2, 1], [3, 4]]); assert.deepEqual(m.adj2(A), [[4, -3], [-1, 2]]);
+  assert.deepEqual(m.matMul(A, m.adj2(A)), [[5, 0], [0, 5]], "A × adj A = det A × I");
+  assert.equal(m.matStr([[2, -3], [1, 4]]), "(2  −3 ; 1  4)");
+  for (const f of [m.matFig([["A", A], ["B", B]]), m.trigFig(12, 5, "x", 30), m.trigFig("adj", "opp", "hyp"), m.thalesFig(4, 6, "x", 9, "", 15)]) {
+    assert.match(f, /^<svg [^>]*role="img"/); assert.doesNotMatch(f, /NaN|undefined/);
+  }
+});

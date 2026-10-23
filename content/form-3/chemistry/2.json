@@ -1,0 +1,609 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "k3-2",
+   "name": "Diffusion and Brownian motion: evidence for moving particles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Diffusion is the spreading of particles from a region of high concentration to a region of low concentration until they are evenly mixed.\n• Smell of food spreading through a house; a crystal of potassium permanganate colouring still water.\n• Ammonia and hydrogen chloride from the two ends of a tube meet and form a white ring of ammonium chloride nearer the hydrogen chloride end: lighter particles (ammonia) diffuse faster.\n• Gases diffuse faster than liquids; diffusion is faster when hot.\nBrownian motion: under a microscope, smoke or pollen particles move in a jerky, random way because invisible air or water particles keep hitting them.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Particles on the move",
+    "text": "When someone cooks ndolé, you can smell it in another room. Particles of the smell travel through the air, spreading from where there are many of them to where there are few.\nThis spreading is diffusion: movement from high concentration to low concentration until the particles are evenly mixed. It happens because particles move all the time, at random."
+   },
+   {
+    "heading": "Fast and slow diffusion",
+    "text": "• Gases diffuse faster than liquids; solids hardly at all.\n• Heat makes particles move faster, so diffusion speeds up.\n• Lighter particles diffuse faster than heavier ones.\nIn a long tube with ammonia at one end and hydrogen chloride at the other, a white ring of ammonium chloride forms nearer the hydrogen chloride: ammonia (lighter) travelled further."
+   },
+   {
+    "heading": "Brownian motion",
+    "text": "Look at smoke in a small glass cell under a microscope: the bright specks dance about in a jerky, random way. The same happens to pollen grains in water.\nThe specks are being hit by air (or water) molecules, which are far too small to see. Because the hits are uneven, the specks are pushed one way, then another.\nThis is strong evidence that matter is made of tiny, constantly moving particles."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "diffusion",
+    "meaning": "spreading of particles from high to low concentration"
+   },
+   {
+    "word": "concentration",
+    "meaning": "how many particles are in a given space"
+   },
+   {
+    "word": "Brownian motion",
+    "meaning": "the random movement of small visible particles caused by invisible moving molecules"
+   }
+  ],
+  "examples": [
+   "Perfume spreading across a classroom",
+   "Purple colour spreading from a permanganate crystal",
+   "Smoke specks jiggling under a microscope"
+  ],
+  "mistake": {
+   "wrong": "Heavier gases diffuse faster",
+   "right": "Lighter gases diffuse faster",
+   "why": "Lighter particles move faster at the same temperature."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Cotton wool soaked in ammonia is put at one end of a long glass tube and cotton wool soaked in hydrochloric acid at the other. A white ring forms nearer the acid end. Explain.",
+  "steps": [
+   "Both gases diffuse along the tube; where they meet they react to make white ammonium chloride.",
+   "The ring is nearer the acid, so the ammonia travelled further in the same time.",
+   "Ammonia particles are lighter, so they diffuse faster."
+  ],
+  "answer": "Ammonia is lighter and diffuses faster",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k2-1",
+    "status": "draft",
+    "idea": "Diffusion: particles spread from high to low concentration.",
+    "vars": {},
+    "example": [
+     "The smell of ndolé cooking spreads through the house."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-2-def"
+    }
+   },
+   {
+    "id": "c3k2-2",
+    "status": "draft",
+    "idea": "Lighter particles diffuse faster; heat speeds diffusion.",
+    "vars": {},
+    "example": [
+     "Ammonia diffuses faster than hydrogen chloride."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-2-ring-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "atoms"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "In the ammonia / hydrogen chloride tube experiment, why does the white ring form nearer the hydrogen chloride end?",
+         "r": "Ammonia particles are lighter and diffuse faster",
+         "w": [
+          "Hydrogen chloride is lighter",
+          "Ammonia was put in first",
+          "The ring always forms in the middle"
+         ],
+         "e": [
+          "Hydrogen chloride (36.5) is heavier than ammonia (17).",
+          "Both are put in at the same time.",
+          "Then the ring would be in the middle."
+         ],
+         "y": "The faster gas travels further before they meet."
+        },
+        {
+         "q": "Which gas diffuses fastest?",
+         "r": "hydrogen (the lightest gas)",
+         "w": [
+          "carbon dioxide",
+          "chlorine",
+          "oxygen"
+         ],
+         "e": [
+          "Carbon dioxide is heavier.",
+          "Chlorine is very heavy.",
+          "Oxygen is heavier than hydrogen."
+         ],
+         "y": "Lighter particles move faster."
+        },
+        {
+         "q": "How does temperature affect diffusion?",
+         "r": "Diffusion is faster at higher temperature",
+         "w": [
+          "Diffusion is slower at higher temperature",
+          "Temperature has no effect",
+          "Diffusion stops above 50 °C"
+         ],
+         "e": [
+          "Heat makes particles move faster.",
+          "Faster particles spread faster.",
+          "It does not stop."
+         ],
+         "y": "Particles have more energy when hot."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c3k2-3",
+    "status": "draft",
+    "idea": "Brownian motion: tiny visible particles jiggle because invisible particles hit them.",
+    "vars": {},
+    "example": [
+     "Smoke particles seen under a microscope move randomly."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-2-brown-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "atoms"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is seen in Brownian motion?",
+         "r": "Small particles such as smoke moving in a jerky, random way",
+         "w": [
+          "Atoms seen directly under a microscope",
+          "Particles moving in straight lines only",
+          "Particles standing still"
+         ],
+         "e": [
+          "Atoms are far too small to see; we see the smoke specks they hit.",
+          "The motion is zig-zag.",
+          "They keep moving."
+         ],
+         "y": "Invisible air particles knock the visible specks about."
+        },
+        {
+         "q": "What causes Brownian motion of pollen grains in water?",
+         "r": "Water molecules hitting the grains unevenly",
+         "w": [
+          "The grains are alive and swimming",
+          "Light pushing the grains",
+          "Magnetism"
+         ],
+         "e": [
+          "Dead pollen and dust move too.",
+          "Light is not the cause.",
+          "There is no magnet."
+         ],
+         "y": "Uneven bombardment by moving water molecules."
+        },
+        {
+         "q": "Brownian motion is evidence that…",
+         "r": "the particles of liquids and gases are always moving",
+         "w": [
+          "solids do not contain particles",
+          "particles are larger than smoke specks",
+          "air has no mass"
+         ],
+         "e": [
+          "It says nothing about solids.",
+          "The particles are much smaller.",
+          "Air particles have mass; that is why they can push."
+         ],
+         "y": "Only moving particles could keep jostling the specks."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-2-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is diffusion?",
+       "r": "The spreading of particles from high to low concentration",
+       "w": [
+        "The melting of a solid",
+        "The movement of particles from low to high concentration",
+        "The dissolving of a gas in a liquid only"
+       ],
+       "e": [
+        "Melting is a change of state.",
+        "Particles spread from where there are many to where there are few.",
+        "Diffusion happens in gases and liquids generally."
+       ],
+       "y": "Random motion spreads particles out evenly."
+      },
+      {
+       "q": "A crystal of potassium permanganate is dropped into still water. After some hours…",
+       "r": "the purple colour spreads through all the water",
+       "w": [
+        "the colour stays around the crystal",
+        "the water turns solid",
+        "the colour moves to the top only"
+       ],
+       "e": [
+        "The particles move and spread out.",
+        "Nothing freezes.",
+        "They spread in all directions."
+       ],
+       "y": "The coloured particles diffuse until evenly spread."
+      },
+      {
+       "q": "Which shows diffusion?",
+       "r": "The smell of perfume spreading across a room",
+       "w": [
+        "Water freezing in a fridge",
+        "A stone sinking in water",
+        "Ice melting in the sun"
+       ],
+       "e": [
+        "That is freezing.",
+        "That is sinking (density).",
+        "That is melting."
+       ],
+       "y": "Perfume particles spread through the air."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-2-ring",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In the ammonia / hydrogen chloride tube experiment, why does the white ring form nearer the hydrogen chloride end?",
+       "r": "Ammonia particles are lighter and diffuse faster",
+       "w": [
+        "Hydrogen chloride is lighter",
+        "Ammonia was put in first",
+        "The ring always forms in the middle"
+       ],
+       "e": [
+        "Hydrogen chloride (36.5) is heavier than ammonia (17).",
+        "Both are put in at the same time.",
+        "Then the ring would be in the middle."
+       ],
+       "y": "The faster gas travels further before they meet."
+      },
+      {
+       "q": "Which gas diffuses fastest?",
+       "r": "hydrogen (the lightest gas)",
+       "w": [
+        "carbon dioxide",
+        "chlorine",
+        "oxygen"
+       ],
+       "e": [
+        "Carbon dioxide is heavier.",
+        "Chlorine is very heavy.",
+        "Oxygen is heavier than hydrogen."
+       ],
+       "y": "Lighter particles move faster."
+      },
+      {
+       "q": "How does temperature affect diffusion?",
+       "r": "Diffusion is faster at higher temperature",
+       "w": [
+        "Diffusion is slower at higher temperature",
+        "Temperature has no effect",
+        "Diffusion stops above 50 °C"
+       ],
+       "e": [
+        "Heat makes particles move faster.",
+        "Faster particles spread faster.",
+        "It does not stop."
+       ],
+       "y": "Particles have more energy when hot."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-2-brown",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "atoms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is seen in Brownian motion?",
+       "r": "Small particles such as smoke moving in a jerky, random way",
+       "w": [
+        "Atoms seen directly under a microscope",
+        "Particles moving in straight lines only",
+        "Particles standing still"
+       ],
+       "e": [
+        "Atoms are far too small to see; we see the smoke specks they hit.",
+        "The motion is zig-zag.",
+        "They keep moving."
+       ],
+       "y": "Invisible air particles knock the visible specks about."
+      },
+      {
+       "q": "What causes Brownian motion of pollen grains in water?",
+       "r": "Water molecules hitting the grains unevenly",
+       "w": [
+        "The grains are alive and swimming",
+        "Light pushing the grains",
+        "Magnetism"
+       ],
+       "e": [
+        "Dead pollen and dust move too.",
+        "Light is not the cause.",
+        "There is no magnet."
+       ],
+       "y": "Uneven bombardment by moving water molecules."
+      },
+      {
+       "q": "Brownian motion is evidence that…",
+       "r": "the particles of liquids and gases are always moving",
+       "w": [
+        "solids do not contain particles",
+        "particles are larger than smoke specks",
+        "air has no mass"
+       ],
+       "e": [
+        "It says nothing about solids.",
+        "The particles are much smaller.",
+        "Air particles have mass; that is why they can push."
+       ],
+       "y": "Only moving particles could keep jostling the specks."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-2-order",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "atoms"
+   ],
+   "prompt": "Put the explanation of the white ring in the ammonia / hydrogen chloride tube in order.",
+   "items": [
+    {
+     "text": "Ammonia and hydrogen chloride particles move along the tube by diffusion."
+    },
+    {
+     "text": "Ammonia particles are lighter, so they move faster."
+    },
+    {
+     "text": "The two gases meet nearer the hydrogen chloride end."
+    },
+    {
+     "text": "They react to form a white ring of solid ammonium chloride."
+    }
+   ],
+   "order": "as_written",
+   "hint": "Start with the particles moving."
+  }
+ ]
+}

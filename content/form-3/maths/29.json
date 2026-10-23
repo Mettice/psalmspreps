@@ -1,0 +1,486 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [
+  27
+ ],
+ "skills": [
+  {
+   "id": "m3-29",
+   "name": "The Thales (intercept) property and its converse"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Thales property: in triangle ABC, if D is on AB and E is on AC with DE parallel to BC, then\nAD/AB = AE/AC = DE/BC (triangle ADE is similar to triangle ABC), and also AD/DB = AE/EC.\nConverse: if AD/AB = AE/AC (or AD/DB = AE/EC), then DE is parallel to BC.\nUse it to find lengths: write the equal ratios, then cross-multiply.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "A line parallel to a side",
+    "text": "Draw triangle ABC and a line DE parallel to BC, with D on AB and E on AC. The small triangle ADE has the same angles as ABC (corresponding angles), so it is similar to ABC.\nTherefore AD/AB = AE/AC = DE/BC.\nThis is the Thales (intercept) property. It also gives AD/DB = AE/EC: the parallel line cuts the two sides in the same ratio.",
+    "figure": "thalesFig('AD', 'DB', 'AE', 'EC', 'DE', 'BC', '')"
+   },
+   {
+    "heading": "Finding a length",
+    "text": "If AD = {4} cm, DB = {6} cm and AE = {5} cm, then {4}/{6} = {5}/EC.\nCross-multiply: {mono(4, 'EC')} = {30}, so EC = {7.5} cm.\nFor DE use the whole sides: DE/BC = AD/AB, with AB = AD + DB. Mixing AD/DB with DE/BC is a common error."
+   },
+   {
+    "heading": "The converse",
+    "text": "Thales works backwards too: if D and E cut AB and AC in the same ratio, then DE is parallel to BC.\nAD = {2}, DB = {3}, AE = {4}, EC = {6}: {2}/{3} = {4}/{6}, so DE ∥ BC.\nIf the ratios differ, the lines are not parallel."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "parallel",
+    "meaning": "lines that never meet (∥)"
+   },
+   {
+    "word": "ratio",
+    "meaning": "a comparison by division, such as AD/DB"
+   },
+   {
+    "word": "converse",
+    "meaning": "the statement turned round: equal ratios give parallel lines"
+   }
+  ],
+  "examples": [
+   "AD = {3}, AB = {9}, BC = {12}: DE = {4}",
+   "AD/DB = AE/EC = {frac(2, 3)}: DE ∥ BC"
+  ],
+  "mistake": {
+   "wrong": "DE/BC = AD/DB",
+   "right": "DE/BC = AD/AB",
+   "why": "DE and BC are sides of the small and the large triangles, so compare them with AD and the whole side AB."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "ad": 4,
+   "db": 6,
+   "ae": 5
+  },
+  "problem": "In the figure DE ∥ BC, AD = {ad} cm, DB = {db} cm and AE = {ae} cm. Find EC.",
+  "steps": [
+   "Thales: AD/DB = AE/EC.",
+   "{ad}/{db} = {ae}/EC.",
+   "EC = {ae} × {db} ÷ {ad} = {ae * db / ad} cm."
+  ],
+  "answer": "EC = {ae * db / ad} cm",
+  "checks": [
+   "ae * db / ad == 7.5"
+  ],
+  "figure": "thalesFig(ad, db, ae, 'EC', '', '')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m29-1",
+    "status": "draft",
+    "idea": "If DE ∥ BC, then AD/DB = AE/EC.",
+    "vars": {},
+    "example": [
+     "AD = {2}, DB = {4}, AE = {3}: EC = {6}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-29-ec"
+    }
+   },
+   {
+    "id": "c3m29-2",
+    "status": "draft",
+    "idea": "Triangle ADE is similar to ABC: DE/BC = AD/AB.",
+    "vars": {},
+    "example": [
+     "AD = {3}, AB = {9}, BC = {12}: DE = {4}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-29-de"
+    }
+   },
+   {
+    "id": "c3m29-3",
+    "status": "draft",
+    "idea": "Converse: if AD/DB = AE/EC, then DE ∥ BC.",
+    "vars": {},
+    "example": [
+     "{2}/{3} = {4}/{6}: parallel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-29-conv-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "similarity"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "q": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "m": {
+       "int": [
+        1,
+        3
+       ]
+      },
+      "w": {
+       "pick": [
+        0,
+        0,
+        1
+       ]
+      },
+      "r": {
+       "expr": "p * m + w"
+      },
+      "s": {
+       "expr": "q * m"
+      }
+     },
+     "prompt": "In triangle ABC, D is on AB and E is on AC. AD = {p} cm, DB = {q} cm, AE = {r} cm and EC = {s} cm. Is DE parallel to BC?",
+     "correct": "{p * s == q * r ? 'Yes: AD/DB = AE/EC = ' + frac(p, q) : 'No: AD/DB = ' + frac(p, q) + ' but AE/EC = ' + frac(r, s)}",
+     "distractors": [
+      {
+       "text": "{p * s == q * r ? 'No: AD/DB = ' + frac(p, q) + ' but AE/EC = ' + frac(r, s + 1) : 'Yes: AD/DB = AE/EC = ' + frac(p, q)}",
+       "misconception": "flip"
+      },
+      {
+       "text": "{'Yes: AD + DB = ' + (p + q) + ' cm'}",
+       "misconception": "sum"
+      },
+      {
+       "text": "{'It cannot be decided without measuring the angles'}",
+       "misconception": "angles"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "flip",
+       "explain": "Work out both ratios: {frac(p, q)} and {frac(r, s)}."
+      },
+      {
+       "id": "sum",
+       "explain": "Adding the lengths says nothing about parallel lines: compare the ratios."
+      },
+      {
+       "id": "angles",
+       "explain": "The converse of Thales decides it from the lengths alone."
+      }
+     ],
+     "solution": [
+      "Compare the ratios: AD/DB = {p}/{q} = {frac(p, q)} and AE/EC = {r}/{s} = {frac(r, s)}.",
+      "So: {answer}."
+     ],
+     "figure": "thalesFig(p, q, r, s, '', '')",
+     "where": [
+      "p != q"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-29-ec",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "ad": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "db": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "ae": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "In the figure DE ∥ BC. AD = {ad} cm, DB = {db} cm and AE = {ae} cm. Find EC (cm).",
+   "answer": "ae * db / ad",
+   "misconceptions": [
+    {
+     "id": "flip",
+     "wrong": "ae * ad / db",
+     "explain": "Keep the same order on both sides: AD/DB = AE/EC."
+    },
+    {
+     "id": "diff",
+     "wrong": "ae + db - ad",
+     "explain": "Thales uses equal ratios, not equal differences."
+    }
+   ],
+   "solution": [
+    "AD/DB = AE/EC: {ad}/{db} = {ae}/EC.",
+    "EC = {ae} × {db} ÷ {ad} = {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "thalesFig(ad, db, ae, 'EC', '', '')",
+   "where": [
+    "ad != db",
+    "(ae * db) % ad == 0",
+    "ae * ad / db != ae * db / ad",
+    "ae + db - ad != ae * db / ad"
+   ]
+  },
+  {
+   "id": "m3-29-de",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "ad": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "db": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "bc": {
+     "int": [
+      5,
+      30
+     ]
+    }
+   },
+   "prompt": "In the figure DE ∥ BC. AD = {ad} cm, DB = {db} cm and BC = {bc} cm. Find DE (cm).",
+   "answer": "bc * ad / (ad + db)",
+   "misconceptions": [
+    {
+     "id": "db",
+     "wrong": "bc * ad / db",
+     "explain": "Compare with the whole side: DE/BC = AD/AB, and AB = AD + DB = {ad + db}."
+    }
+   ],
+   "solution": [
+    "AB = {ad} + {db} = {ad + db} cm.",
+    "DE/BC = AD/AB, so DE = {bc} × {ad} ÷ {ad + db} = {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "thalesFig(ad, db, '', '', 'DE', bc)",
+   "where": [
+    "(bc * ad) % (ad + db) == 0",
+    "bc * ad / db != bc * ad / (ad + db)"
+   ]
+  },
+  {
+   "id": "m3-29-ae",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "ad": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "db": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "t": {
+     "int": [
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "In the figure DE ∥ BC. AD = {ad} cm, AB = {ad + db} cm and AC = {(ad + db) * t} cm. Find AE (cm).",
+   "answer": "ad * t",
+   "misconceptions": [
+    {
+     "id": "ec",
+     "wrong": "db * t",
+     "explain": "That is EC. AE goes with AD."
+    }
+   ],
+   "solution": [
+    "AD/AB = AE/AC: {ad}/{ad + db} = AE/{(ad + db) * t}.",
+    "AE = {(ad + db) * t} × {ad} ÷ {ad + db} = {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "thalesFig(ad, '', 'AE', '', '', '')",
+   "where": [
+    "ad != db"
+   ]
+  },
+  {
+   "id": "m3-29-conv",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "m": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "w": {
+     "pick": [
+      0,
+      0,
+      1
+     ]
+    },
+    "r": {
+     "expr": "p * m + w"
+    },
+    "s": {
+     "expr": "q * m"
+    }
+   },
+   "prompt": "In triangle ABC, D is on AB and E is on AC. AD = {p} cm, DB = {q} cm, AE = {r} cm and EC = {s} cm. Is DE parallel to BC?",
+   "correct": "{p * s == q * r ? 'Yes: AD/DB = AE/EC = ' + frac(p, q) : 'No: AD/DB = ' + frac(p, q) + ' but AE/EC = ' + frac(r, s)}",
+   "distractors": [
+    {
+     "text": "{p * s == q * r ? 'No: AD/DB = ' + frac(p, q) + ' but AE/EC = ' + frac(r, s + 1) : 'Yes: AD/DB = AE/EC = ' + frac(p, q)}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{'Yes: AD + DB = ' + (p + q) + ' cm'}",
+     "misconception": "sum"
+    },
+    {
+     "text": "{'It cannot be decided without measuring the angles'}",
+     "misconception": "angles"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Work out both ratios: {frac(p, q)} and {frac(r, s)}."
+    },
+    {
+     "id": "sum",
+     "explain": "Adding the lengths says nothing about parallel lines: compare the ratios."
+    },
+    {
+     "id": "angles",
+     "explain": "The converse of Thales decides it from the lengths alone."
+    }
+   ],
+   "solution": [
+    "Compare the ratios: AD/DB = {p}/{q} = {frac(p, q)} and AE/EC = {r}/{s} = {frac(r, s)}.",
+    "So: {answer}."
+   ],
+   "figure": "thalesFig(p, q, r, s, '', '')",
+   "where": [
+    "p != q"
+   ]
+  },
+  {
+   "id": "m3-29-river",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "ad": {
+     "int": [
+      4,
+      20
+     ]
+    },
+    "de": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "bc": {
+     "int": [
+      5,
+      30
+     ]
+    }
+   },
+   "prompt": "To measure a river, Tabe marks points so that triangles ADE and ABC are similar (DE ∥ BC). AD = {ad} m, DB (the river width) is unknown, DE = {de} m and BC = {bc} m. Find the width DB (m).",
+   "answer": "ad * bc / de - ad",
+   "misconceptions": [
+    {
+     "id": "ab",
+     "wrong": "ad * bc / de",
+     "explain": "That is AB, the whole side. The width is AB − AD."
+    },
+    {
+     "id": "flip",
+     "wrong": "ad * de / bc",
+     "explain": "AB is longer than AD: multiply by {bc} ÷ {de}."
+    }
+   ],
+   "solution": [
+    "DE/BC = AD/AB, so AB = {ad} × {bc} ÷ {de} = {ad * bc / de} m.",
+    "DB = AB − AD = {ad * bc / de} − {ad} = {answer} m."
+   ],
+   "unit": "m",
+   "figure": "thalesFig(ad, 'width', '', '', de, bc, 'm')",
+   "where": [
+    "bc > de",
+    "(ad * bc) % de == 0"
+   ]
+  }
+ ]
+}

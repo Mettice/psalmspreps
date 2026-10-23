@@ -1,0 +1,586 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "s3-11",
+   "name": "Secondary storage: types and choosing a device"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Secondary storage keeps programs and data permanently (non-volatile), even when the computer is off.\n• Magnetic: hard disk drive (HDD) — large capacity, cheap per GB, has moving parts.\n• Solid state: SSD, USB flash drive, memory card — no moving parts, fast, robust, more expensive per GB.\n• Optical: CD (about 700 MB), DVD (about 4.7 GB), Blu-ray (25 GB or more) — read by a laser.\n• Cloud storage: files kept on remote servers, reached through the internet.\nChoose by capacity, speed, cost, portability, durability and reliability.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Keeping data for later",
+    "text": "RAM forgets everything when the power goes off, so computers also need secondary storage: devices that keep programs and files permanently (non-volatile). Your installed programs, documents, photos and videos live there."
+   },
+   {
+    "heading": "Types of secondary storage",
+    "text": "• Magnetic: the hard disk drive (HDD) stores data on spinning platters. Large and cheap, but has moving parts that can break if dropped.\n• Solid state: SSDs, USB flash drives and memory cards use chips with no moving parts. Fast, light and robust, but cost more per GB.\n• Optical: CDs (about {700} MB), DVDs (about {4.7} GB) and Blu-ray discs are read by a laser.\n• Cloud: files stored on remote servers, reached through the internet."
+   },
+   {
+    "heading": "Choosing a device",
+    "text": "Ask: How much must it hold (capacity)? How fast? How much does it cost? Does it need to be carried (portability)? Will it survive knocks (durability)?\n• Homework between home and school: a USB flash drive.\n• Big family photo backup: an external hard disk.\n• Sharing with others anywhere: the cloud (if the internet is good)."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "secondary storage",
+    "meaning": "non-volatile storage for programs and data"
+   },
+   {
+    "word": "HDD",
+    "meaning": "hard disk drive, magnetic"
+   },
+   {
+    "word": "SSD",
+    "meaning": "solid-state drive, flash chips"
+   },
+   {
+    "word": "cloud storage",
+    "meaning": "storage on remote servers reached online"
+   },
+   {
+    "word": "capacity",
+    "meaning": "how much data a device can hold"
+   }
+  ],
+  "examples": [
+   "USB drive: solid state, portable",
+   "DVD: optical, about {4.7} GB",
+   "External HDD: cheap backup"
+  ],
+  "mistake": {
+   "wrong": "A CD can store {100} GB of videos",
+   "right": "A CD holds about {700} MB",
+   "why": "Optical discs are small in capacity compared with hard disks."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": 650,
+   "n": 12
+  },
+  "problem": "A school wants to give each of {n} pupils a {f} MB video. Will one {4.7} GB DVD hold a copy for all of them?",
+  "steps": [
+   "Total = {n} × {f} = {n * f} MB.",
+   "{4.7} GB = {4.7} × {1024} ≈ {roundTo(4.7 * 1024, 1)} MB.",
+   "{n * f} MB is more than {roundTo(4.7 * 1024, 1)} MB, so one DVD is not enough."
+  ],
+  "answer": "No: {n * f} MB > {roundTo(4.7 * 1024, 1)} MB",
+  "checks": [
+   "n * f > 4.7 * 1024"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s11-1",
+    "status": "draft",
+    "idea": "Secondary storage is permanent (non-volatile).",
+    "vars": {},
+    "example": [
+     "Files on a USB drive stay after unplugging."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-11-type"
+    }
+   },
+   {
+    "id": "c3s11-2",
+    "status": "draft",
+    "idea": "Magnetic, solid state, optical and cloud are the main types.",
+    "vars": {},
+    "example": [
+     "HDD: magnetic; SSD: solid state; DVD: optical"
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-11-fit-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "hardware"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        2,
+        4,
+        8,
+        16
+       ]
+      },
+      "f": {
+       "int": [
+        3,
+        7
+       ]
+      }
+     },
+     "prompt": "How many {f} MB photos can be stored on a {v} GB memory card?",
+     "answer": "floor(v * 1024 / f)",
+     "misconceptions": [
+      {
+       "id": "thousand",
+       "wrong": "floor(v * 1000 / f)",
+       "explain": "{1} GB = {1024} MB."
+      }
+     ],
+     "solution": [
+      "{v} GB = {v * 1024} MB.",
+      "{v * 1024} ÷ {f} = {roundTo(v * 1024 / f, 0.01)}: {answer} whole photos."
+     ],
+     "where": [
+      "(v * 1024) % f != 0",
+      "floor(v * 1000 / f) != floor(v * 1024 / f)"
+     ]
+    }
+   },
+   {
+    "id": "c3s11-3",
+    "status": "draft",
+    "idea": "Choose a device by capacity, speed, cost and portability.",
+    "vars": {},
+    "example": [
+     "Backing up many photos: an external hard disk"
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-11-choose-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hardware"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Carrying homework between home and school every day",
+         "r": "a USB flash drive",
+         "w": [
+          "a desktop hard disk",
+          "a stack of DVDs",
+          "ROM"
+         ],
+         "e": [
+          "Too big to carry daily.",
+          "DVDs are slow to write and scratch easily.",
+          "ROM cannot be written."
+         ],
+         "y": "Small, light, robust, rewritable."
+        },
+        {
+         "q": "Backing up thousands of family photos cheaply",
+         "r": "an external hard disk",
+         "w": [
+          "a single CD",
+          "RAM",
+          "the CPU cache"
+         ],
+         "e": [
+          "A CD holds only about 700 MB.",
+          "RAM is volatile.",
+          "Cache is tiny and volatile."
+         ],
+         "y": "Large capacity at low cost per GB."
+        },
+        {
+         "q": "Opening files from any computer in the world with internet",
+         "r": "cloud storage",
+         "w": [
+          "a hard disk inside one PC",
+          "a CD in a drawer",
+          "ROM"
+         ],
+         "e": [
+          "It stays in one computer.",
+          "It must be carried.",
+          "ROM is read-only."
+         ],
+         "y": "Files are on remote servers reached online."
+        }
+       ]
+      }
+     },
+     "prompt": "Which storage is best? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-11-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a USB flash drive",
+       "r": "solid state",
+       "w": [
+        "magnetic",
+        "optical",
+        "primary (RAM)"
+       ],
+       "e": [
+        "It has no magnetic disk.",
+        "No laser reads it.",
+        "It keeps data without power."
+       ],
+       "y": "Flash memory chips: solid state."
+      },
+      {
+       "q": "a DVD",
+       "r": "optical",
+       "w": [
+        "magnetic",
+        "solid state",
+        "primary (ROM)"
+       ],
+       "e": [
+        "No magnetism is used.",
+        "It has no chips.",
+        "It is removable secondary storage."
+       ],
+       "y": "A laser reads pits on the disc."
+      },
+      {
+       "q": "a hard disk drive (HDD)",
+       "r": "magnetic",
+       "w": [
+        "optical",
+        "solid state",
+        "cloud"
+       ],
+       "e": [
+        "No laser is used.",
+        "It has spinning platters.",
+        "It is inside or attached to the computer."
+       ],
+       "y": "Data is stored magnetically on spinning platters."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of storage is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-11-fit",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      2,
+      4,
+      8,
+      16
+     ]
+    },
+    "f": {
+     "int": [
+      3,
+      7
+     ]
+    }
+   },
+   "prompt": "How many {f} MB photos can be stored on a {v} GB memory card?",
+   "answer": "floor(v * 1024 / f)",
+   "misconceptions": [
+    {
+     "id": "thousand",
+     "wrong": "floor(v * 1000 / f)",
+     "explain": "{1} GB = {1024} MB."
+    }
+   ],
+   "solution": [
+    "{v} GB = {v * 1024} MB.",
+    "{v * 1024} ÷ {f} = {roundTo(v * 1024 / f, 0.01)}: {answer} whole photos."
+   ],
+   "where": [
+    "(v * 1024) % f != 0",
+    "floor(v * 1000 / f) != floor(v * 1024 / f)"
+   ]
+  },
+  {
+   "id": "s3-11-choose",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Carrying homework between home and school every day",
+       "r": "a USB flash drive",
+       "w": [
+        "a desktop hard disk",
+        "a stack of DVDs",
+        "ROM"
+       ],
+       "e": [
+        "Too big to carry daily.",
+        "DVDs are slow to write and scratch easily.",
+        "ROM cannot be written."
+       ],
+       "y": "Small, light, robust, rewritable."
+      },
+      {
+       "q": "Backing up thousands of family photos cheaply",
+       "r": "an external hard disk",
+       "w": [
+        "a single CD",
+        "RAM",
+        "the CPU cache"
+       ],
+       "e": [
+        "A CD holds only about 700 MB.",
+        "RAM is volatile.",
+        "Cache is tiny and volatile."
+       ],
+       "y": "Large capacity at low cost per GB."
+      },
+      {
+       "q": "Opening files from any computer in the world with internet",
+       "r": "cloud storage",
+       "w": [
+        "a hard disk inside one PC",
+        "a CD in a drawer",
+        "ROM"
+       ],
+       "e": [
+        "It stays in one computer.",
+        "It must be carried.",
+        "ROM is read-only."
+       ],
+       "y": "Files are on remote servers reached online."
+      }
+     ]
+    }
+   },
+   "prompt": "Which storage is best? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-11-compare",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do many new laptops use an SSD instead of an HDD?",
+       "r": "An SSD is faster and has no moving parts, so it is more robust",
+       "w": [
+        "An SSD is always cheaper per GB",
+        "An SSD holds data only while switched on",
+        "An HDD cannot store files"
+       ],
+       "e": [
+        "SSDs usually cost more per GB.",
+        "SSDs are non-volatile.",
+        "HDDs store files well."
+       ],
+       "y": "Speed and durability."
+      },
+      {
+       "q": "Which is a disadvantage of cloud storage in places with poor internet?",
+       "r": "Files may be slow or impossible to reach without a connection",
+       "w": [
+        "It cannot store photos",
+        "It is volatile",
+        "It is made of magnetic tape"
+       ],
+       "e": [
+        "It stores any files.",
+        "Cloud data is kept permanently.",
+        "Users do not see the hardware."
+       ],
+       "y": "Cloud needs a reliable internet connection."
+      },
+      {
+       "q": "Why is a DVD a poor choice for daily backups?",
+       "r": "It holds little, is slow to write and many cannot be rewritten",
+       "w": [
+        "It holds more than a hard disk",
+        "It loses data without power",
+        "It cannot be read by a laser"
+       ],
+       "e": [
+        "It holds much less.",
+        "Optical discs are non-volatile.",
+        "That is exactly how it is read."
+       ],
+       "y": "Capacity and convenience matter for backups."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

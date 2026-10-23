@@ -1,0 +1,384 @@
+{
+ "subject": "physics",
+ "class": "Form 3",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "p3-11",
+   "name": "Pressure in liquids"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pressure in a liquid:\n• increases with depth;\n• increases with the density of the liquid;\n• acts equally in all directions at a given depth;\n• does not depend on the shape or width of the container.\nFormula: p = ρgh (ρ in kg/m³, g = 10 N/kg, h = depth in m, p in Pa).\nApplications: dams are thicker at the bottom; water tanks are placed high so taps have good pressure; divers feel more pressure deeper down.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Deeper means more pressure",
+    "text": "Water has weight. The deeper you go, the more water there is above you pressing down, so the pressure increases with depth.\nFill a tin with water and make three holes at different heights: the jet from the lowest hole goes furthest.\nDivers feel the pressure on their ears a few metres down; at the bottom of a deep lake it is very large."
+   },
+   {
+    "heading": "Three more facts",
+    "text": "• At a given depth the pressure acts equally in all directions: up, down and sideways.\n• A denser liquid gives a larger pressure at the same depth (sea water more than fresh water).\n• The shape of the container does not matter. A narrow pipe and a wide tank filled to the same depth have the same pressure at the bottom.\nThat is why dams, like those at Edéa and Song Loulou, are thickest at the bottom."
+   },
+   {
+    "heading": "Calculating it",
+    "text": "p = ρgh, with ρ the density in kg/m³, g = {10} N/kg and h the depth in metres.\nAt {5} m in water: p = {1000} × {10} × {5} = {50000} Pa.\nThis is the pressure due to the liquid. The air also presses on the surface, so the total pressure is atmospheric pressure + ρgh."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "depth",
+    "meaning": "distance below the surface of the liquid"
+   },
+   {
+    "word": "ρgh",
+    "meaning": "pressure due to a liquid column"
+   },
+   {
+    "word": "dam",
+    "meaning": "a wall that holds back water"
+   }
+  ],
+  "examples": [
+   "{10} m of water: {100000} Pa",
+   "Mercury ({13600} kg/m³), {0.76} m: about {103360} Pa"
+  ],
+  "mistake": {
+   "wrong": "A wide tank has more pressure at the bottom than a narrow one of the same depth",
+   "right": "The pressures are equal: only depth (and density) matter",
+   "why": "p = ρgh has no area in it, so the width of the container does not matter."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": 1000,
+   "h": 12
+  },
+  "problem": "Find the pressure due to the water at the bottom of a well {h} m deep (density of water {r} kg/m³, g = {10} N/kg).",
+  "steps": [
+   "p = ρgh.",
+   "p = {r} × {10} × {h} = {liquidPressure(r, h)} Pa."
+  ],
+  "answer": "{liquidPressure(r, h)} Pa",
+  "checks": [
+   "liquidPressure(r, h) == 120000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3p11-1",
+    "status": "draft",
+    "idea": "Liquid pressure p = ρgh.",
+    "vars": {},
+    "example": [
+     "Water {5} m deep: p = {1000} × {10} × {5} = {50000} Pa"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-11-p"
+    }
+   },
+   {
+    "id": "c3p11-2",
+    "status": "draft",
+    "idea": "Pressure increases with depth and acts in all directions.",
+    "vars": {},
+    "example": [
+     "Water squirts furthest from the lowest hole in a can."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-11-char"
+    }
+   },
+   {
+    "id": "c3p11-3",
+    "status": "draft",
+    "idea": "The shape of the container does not matter, only the depth.",
+    "vars": {},
+    "example": [
+     "A wide and a narrow tank of the same depth have the same pressure at the bottom."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p3-11-h-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "pressure"
+     ],
+     "vars": {
+      "d": {
+       "int": [
+        2,
+        30
+       ]
+      },
+      "p": {
+       "expr": "1030 * 10 * d"
+      }
+     },
+     "prompt": "The pressure due to sea water (density {1030} kg/m³) on a diver is {p} Pa. How deep is the diver (m)?",
+     "answer": "d",
+     "misconceptions": [
+      {
+       "id": "nog",
+       "wrong": "d * 10",
+       "explain": "Divide by both ρ and g: ρg = {10300}."
+      }
+     ],
+     "solution": [
+      "h = p ÷ (ρg) = {p} ÷ ({1030} × {10}).",
+      "h = {answer} m."
+     ],
+     "unit": "m"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-11-p",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      2,
+      40
+     ]
+    }
+   },
+   "prompt": "Find the pressure due to water at a depth of {h} m (density {1000} kg/m³, g = {10} N/kg).",
+   "answer": "liquidPressure(1000, h)",
+   "misconceptions": [
+    {
+     "id": "nog",
+     "wrong": "1000 * h",
+     "explain": "Include g = {10} N/kg: p = ρgh."
+    },
+    {
+     "id": "noh",
+     "wrong": "10000",
+     "explain": "Multiply by the depth h = {h} m too."
+    }
+   ],
+   "solution": [
+    "p = ρgh = {1000} × {10} × {h}.",
+    "p = {answer} Pa."
+   ],
+   "unit": "Pa"
+  },
+  {
+   "id": "p3-11-char",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A tin has three holes at different heights and is filled with water. Water squirts furthest from…",
+       "r": "the lowest hole",
+       "w": [
+        "the highest hole",
+        "the middle hole",
+        "all holes equally"
+       ],
+       "e": [
+        "Near the top the depth, and so the pressure, is small.",
+        "The lowest hole is deepest.",
+        "Pressure increases with depth, so the jets differ."
+       ],
+       "y": "The deepest point has the greatest pressure."
+      },
+      {
+       "q": "Why is a dam built thicker at the bottom than at the top?",
+       "r": "Water pressure increases with depth",
+       "w": [
+        "Water is denser at the top",
+        "The top must hold more water",
+        "Pressure is greatest at the surface"
+       ],
+       "e": [
+        "The density is the same throughout.",
+        "The deeper water pushes harder.",
+        "Pressure is smallest at the surface."
+       ],
+       "y": "The wall must resist the large pressure near the bottom."
+      },
+      {
+       "q": "At the same depth in a liquid, the pressure acts…",
+       "r": "equally in all directions",
+       "w": [
+        "only downwards",
+        "only sideways",
+        "only upwards"
+       ],
+       "e": [
+        "Liquid pressure also pushes sideways and upwards.",
+        "It also pushes down and up.",
+        "It also pushes down and sideways."
+       ],
+       "y": "Liquid pressure at a point is the same in every direction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p3-11-h",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      2,
+      30
+     ]
+    },
+    "p": {
+     "expr": "1030 * 10 * d"
+    }
+   },
+   "prompt": "The pressure due to sea water (density {1030} kg/m³) on a diver is {p} Pa. How deep is the diver (m)?",
+   "answer": "d",
+   "misconceptions": [
+    {
+     "id": "nog",
+     "wrong": "d * 10",
+     "explain": "Divide by both ρ and g: ρg = {10300}."
+    }
+   ],
+   "solution": [
+    "h = p ÷ (ρg) = {p} ÷ ({1030} × {10}).",
+    "h = {answer} m."
+   ],
+   "unit": "m"
+  },
+  {
+   "id": "p3-11-diff",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "H": {
+     "int": [
+      3,
+      25
+     ]
+    }
+   },
+   "prompt": "A water tank in Bamenda is {H} m above a tap. Find the extra pressure at the tap due to the water (kPa).",
+   "answer": "liquidPressure(1000, H) / 1000",
+   "misconceptions": [
+    {
+     "id": "pa",
+     "wrong": "liquidPressure(1000, H)",
+     "explain": "That is in Pa. Divide by {1000} for kPa."
+    }
+   ],
+   "solution": [
+    "p = ρgh = {1000} × {10} × {H} = {liquidPressure(1000, H)} Pa.",
+    "In kPa: {liquidPressure(1000, H)} ÷ {1000} = {answer} kPa."
+   ],
+   "unit": "kPa"
+  },
+  {
+   "id": "p3-11-total",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "pressure"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      2,
+      30
+     ]
+    }
+   },
+   "prompt": "Atmospheric pressure is {100000} Pa. Find the total pressure on a fish {h} m below the surface of a lake (Pa).",
+   "answer": "100000 + liquidPressure(1000, h)",
+   "misconceptions": [
+    {
+     "id": "water",
+     "wrong": "liquidPressure(1000, h)",
+     "explain": "Add the atmospheric pressure pressing on the surface too."
+    },
+    {
+     "id": "air",
+     "wrong": "100000",
+     "explain": "The water adds ρgh to the atmospheric pressure."
+    }
+   ],
+   "solution": [
+    "Water pressure = ρgh = {1000} × {10} × {h} = {liquidPressure(1000, h)} Pa.",
+    "Total = {100000} + {liquidPressure(1000, h)} = {answer} Pa."
+   ],
+   "unit": "Pa"
+  }
+ ]
+}

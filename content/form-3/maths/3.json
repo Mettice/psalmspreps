@@ -1,0 +1,504 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "m3-3",
+   "name": "Expand products of brackets and the special products"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To expand (x + a)(x + b), multiply each term of the first bracket by each term of the second, then collect like terms:\n(x + a)(x + b) = x² + bx + ax + ab = x² + (a + b)x + ab.\nSpecial products (learn them):\n• (a + b)² = a² + 2ab + b²\n• (a − b)² = a² − 2ab + b²\n• (a + b)(a − b) = a² − b²\nA square is not the square of each term: (x + 3)² is x² + 6x + 9, not x² + 9.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Every term times every term",
+    "text": "To expand means to remove the brackets. In {'(x + ' + 2 + ')(x + ' + 5 + ')'} each term of the first bracket multiplies each term of the second:\n• x × x = x²\n• x × {5} = {mono(5, 'x')}\n• {2} × x = {mono(2, 'x')}\n• {2} × {5} = {10}\nFour products. Then collect the like terms: {poly([1, 'x²'], [7, 'x'], [10, ''])}.\nSigns come with their terms: in {'(x + ' + 3 + ')(x − ' + 4 + ')'} the products are x², {mono(-4, 'x')}, {mono(3, 'x')} and {-12}, giving {poly([1, 'x²'], [-1, 'x'], [-12, ''])}."
+   },
+   {
+    "heading": "Squares of brackets",
+    "text": "{'(x + ' + 3 + ')²'} means {'(x + ' + 3 + ')(x + ' + 3 + ')'}. Expand it like any product: x² + {mono(3, 'x')} + {mono(3, 'x')} + {9} = {poly([1, 'x²'], [6, 'x'], [9, ''])}.\nThe pattern is always: first squared, twice the product, last squared.\n• (a + b)² = a² + {2}ab + b²\n• (a − b)² = a² − {2}ab + b²\nA common mistake is to write only x² + {9}: the middle term {mono(6, 'x')} is missing."
+   },
+   {
+    "heading": "Sum times difference",
+    "text": "When the brackets differ only in the sign, the middle terms cancel:\n{'(x + ' + 5 + ')(x − ' + 5 + ')'} = x² − {mono(5, 'x')} + {mono(5, 'x')} − {25} = {poly([1, 'x²'], [-25, ''])}.\nSo (a + b)(a − b) = a² − b², the difference of two squares. You will use it backwards to factorise."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "expand",
+    "meaning": "remove the brackets by multiplying out"
+   },
+   {
+    "word": "product",
+    "meaning": "the result of a multiplication"
+   },
+   {
+    "word": "like terms",
+    "meaning": "terms with the same letters and powers, which can be added"
+   },
+   {
+    "word": "perfect square",
+    "meaning": "an expression like (a + b)², a bracket multiplied by itself"
+   }
+  ],
+  "examples": [
+   "{'(x + ' + 1 + ')(x + ' + 6 + ')'} = {poly([1, 'x²'], [7, 'x'], [6, ''])}",
+   "{'(x − ' + 2 + ')²'} = {poly([1, 'x²'], [-4, 'x'], [4, ''])}",
+   "{'(y + ' + 4 + ')(y − ' + 4 + ')'} = {poly([1, 'y²'], [-16, ''])}"
+  ],
+  "mistake": {
+   "wrong": "{'(x + ' + 4 + ')²'} = {poly([1, 'x²'], [16, ''])}",
+   "right": "{'(x + ' + 4 + ')²'} = {poly([1, 'x²'], [8, 'x'], [16, ''])}",
+   "why": "A square is the bracket times itself. The two middle products x × {4} and {4} × x give {mono(8, 'x')}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 2,
+   "a": 3,
+   "b": -4
+  },
+  "problem": "Expand and simplify {'(' + poly([p, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [b, '']) + ')'}.",
+  "steps": [
+   "Multiply each term of the first bracket by each term of the second.",
+   "{mono(p, 'x')} × x = {mono(p, 'x²')};  {mono(p, 'x')} × {br(b)} = {mono(p * b, 'x')};  {a} × x = {mono(a, 'x')};  {a} × {br(b)} = {a * b}.",
+   "Collect the x terms: {p * b} + {a} = {p * b + a}."
+  ],
+  "answer": "{poly([p, 'x²'], [p * b + a, 'x'], [a * b, ''])}",
+  "checks": [
+   "p * b + a == -5",
+   "a * b == -12"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m3-1",
+    "status": "draft",
+    "idea": "Multiply every term of the first bracket by every term of the second: four products, then collect.",
+    "vars": {},
+    "example": [
+     "{'(x + ' + 2 + ')(x + ' + 5 + ')'} = {poly([1, 'x²'], [5, 'x'], [2, 'x'], [10, ''])} = {poly([1, 'x²'], [7, 'x'], [10, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-3-pair"
+    }
+   },
+   {
+    "id": "c3m3-2",
+    "status": "draft",
+    "idea": "The square of a sum has a middle term: (a + b)² = a² + {2}ab + b².",
+    "vars": {},
+    "example": [
+     "{'(x + ' + 3 + ')²'} = {poly([1, 'x²'], [6, 'x'], [9, ''])}, not {poly([1, 'x²'], [9, ''])}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-3-square-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-expand"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -9,
+        9
+       ]
+      }
+     },
+     "prompt": "Expand {'(' + poly([1, 'x'], [a, '']) + ')' + '²'}.",
+     "correct": "{poly([1, 'x²'], [2 * a, 'x'], [a * a, ''])}",
+     "distractors": [
+      {
+       "text": "{poly([1, 'x²'], [a * a, ''])}",
+       "misconception": "noterm"
+      },
+      {
+       "text": "{poly([1, 'x²'], [a, 'x'], [a * a, ''])}",
+       "misconception": "once"
+      },
+      {
+       "text": "{poly([1, 'x²'], [2 * a, 'x'], [2 * a, ''])}",
+       "misconception": "double"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "noterm",
+       "explain": "Squaring a bracket is not squaring each term: write it twice and expand; there is a middle term {mono(2 * a, 'x')}."
+      },
+      {
+       "id": "once",
+       "explain": "The middle term appears twice: {mono(a, 'x')} + {mono(a, 'x')} = {mono(2 * a, 'x')}."
+      },
+      {
+       "id": "double",
+       "explain": "The last term is {br(a)} × {br(a)} = {a * a}, not {2 * a}."
+      }
+     ],
+     "solution": [
+      "{'(' + poly([1, 'x'], [a, '']) + ')' + '²'} = {'(' + poly([1, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [a, '']) + ')'}.",
+      "x² + {mono(a, 'x')} + {mono(a, 'x')} + {a * a} = {answer}."
+     ],
+     "where": [
+      "a != 0",
+      "abs(a) != 1",
+      "abs(a) != 2"
+     ]
+    }
+   },
+   {
+    "id": "c3m3-3",
+    "status": "draft",
+    "idea": "Sum times difference: (a + b)(a − b) = a² − b². The middle terms cancel.",
+    "vars": {},
+    "example": [
+     "{'(x + ' + 5 + ')(x − ' + 5 + ')'} = {poly([1, 'x²'], [-25, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-3-diff-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-expand"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        12
+       ]
+      }
+     },
+     "prompt": "Expand {'(' + poly([1, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [-a, '']) + ')'}.",
+     "correct": "{poly([1, 'x²'], [-a * a, ''])}",
+     "distractors": [
+      {
+       "text": "{poly([1, 'x²'], [a * a, ''])}",
+       "misconception": "plus"
+      },
+      {
+       "text": "{poly([1, 'x²'], [-2 * a, 'x'], [-a * a, ''])}",
+       "misconception": "middle"
+      },
+      {
+       "text": "{poly([1, 'x²'], [-2 * a, ''])}",
+       "misconception": "twice"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "plus",
+       "explain": "{a} × {br(-a)} is negative: the last term is {-a * a}."
+      },
+      {
+       "id": "middle",
+       "explain": "The x terms {mono(-a, 'x')} and {mono(a, 'x')} cancel: there is no middle term."
+      },
+      {
+       "id": "twice",
+       "explain": "The last term is {a} × {br(-a)} = {-a * a}, a product, not {-2 * a}."
+      }
+     ],
+     "solution": [
+      "The middle terms cancel: {mono(-a, 'x')} + {mono(a, 'x')} = {0}.",
+      "{a} × {br(-a)} = {-a * a}, so the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-3-pair",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand {'(' + poly([1, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [b, '']) + ')'}.",
+   "correct": "{poly([1, 'x²'], [a + b, 'x'], [a * b, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([1, 'x²'], [a * b, ''])}",
+     "misconception": "middle"
+    },
+    {
+     "text": "{poly([1, 'x²'], [a + b, 'x'], [a + b, ''])}",
+     "misconception": "addconst"
+    },
+    {
+     "text": "{poly([1, 'x²'], [a * b, 'x'], [a * b, ''])}",
+     "misconception": "mulx"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "middle",
+     "explain": "There are four products: x × {br(b)} and {a} × x make the middle term {mono(a + b, 'x')}."
+    },
+    {
+     "id": "addconst",
+     "explain": "The last term is a product: {a} × {br(b)} = {a * b}, not a sum."
+    },
+    {
+     "id": "mulx",
+     "explain": "The x terms are added: {mono(b, 'x')} + {mono(a, 'x')} = {mono(a + b, 'x')}."
+    }
+   ],
+   "solution": [
+    "x × x = x²; x × {br(b)} + {a} × x gives {mono(a + b, 'x')}; {a} × {br(b)} = {a * b}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "a + b != 0",
+    "a * b != a + b",
+    "a != b",
+    "a + b != a * b"
+   ]
+  },
+  {
+   "id": "m3-3-coef",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand {'(' + poly([1, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [b, '']) + ')'}. What is the coefficient of x?",
+   "answer": "a + b",
+   "misconceptions": [
+    {
+     "id": "prod",
+     "wrong": "a * b",
+     "explain": "{a * b} is the number term (the product). The x terms come from x × {br(b)} and {a} × x."
+    }
+   ],
+   "solution": [
+    "x × {br(b)} = {mono(b, 'x')} and {a} × x = {mono(a, 'x')}.",
+    "{a} + {br(b)} = {answer}."
+   ],
+   "where": [
+    "a != 0 && b != 0",
+    "a + b != 0",
+    "a * b != a + b"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-3-square",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand {'(' + poly([1, 'x'], [a, '']) + ')' + '²'}.",
+   "correct": "{poly([1, 'x²'], [2 * a, 'x'], [a * a, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([1, 'x²'], [a * a, ''])}",
+     "misconception": "noterm"
+    },
+    {
+     "text": "{poly([1, 'x²'], [a, 'x'], [a * a, ''])}",
+     "misconception": "once"
+    },
+    {
+     "text": "{poly([1, 'x²'], [2 * a, 'x'], [2 * a, ''])}",
+     "misconception": "double"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "noterm",
+     "explain": "Squaring a bracket is not squaring each term: write it twice and expand; there is a middle term {mono(2 * a, 'x')}."
+    },
+    {
+     "id": "once",
+     "explain": "The middle term appears twice: {mono(a, 'x')} + {mono(a, 'x')} = {mono(2 * a, 'x')}."
+    },
+    {
+     "id": "double",
+     "explain": "The last term is {br(a)} × {br(a)} = {a * a}, not {2 * a}."
+    }
+   ],
+   "solution": [
+    "{'(' + poly([1, 'x'], [a, '']) + ')' + '²'} = {'(' + poly([1, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [a, '']) + ')'}.",
+    "x² + {mono(a, 'x')} + {mono(a, 'x')} + {a * a} = {answer}."
+   ],
+   "where": [
+    "a != 0",
+    "abs(a) != 1",
+    "abs(a) != 2"
+   ]
+  },
+  {
+   "id": "m3-3-two",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand {'(' + poly([p, 'x'], [a, '']) + ')' + '(' + poly([q, 'x'], [b, '']) + ')'}. What is the coefficient of x?",
+   "answer": "p * b + q * a",
+   "misconceptions": [
+    {
+     "id": "pq",
+     "wrong": "p * q",
+     "explain": "{p * q} is the coefficient of x² ({mono(p, 'x')} × {mono(q, 'x')})."
+    },
+    {
+     "id": "plain",
+     "wrong": "a + b",
+     "explain": "Multiply first: the x terms are {mono(p, 'x')} × {br(b)} and {a} × {mono(q, 'x')}."
+    }
+   ],
+   "solution": [
+    "{mono(p, 'x')} × {br(b)} = {mono(p * b, 'x')} and {a} × {mono(q, 'x')} = {mono(q * a, 'x')}.",
+    "{p * b} + {br(q * a)} = {answer}."
+   ],
+   "where": [
+    "a != 0 && b != 0",
+    "p * b + q * a != 0",
+    "p * b + q * a != a + b",
+    "p * b + q * a != p * q"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-3-diff",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Expand {'(' + poly([1, 'x'], [a, '']) + ')' + '(' + poly([1, 'x'], [-a, '']) + ')'}.",
+   "correct": "{poly([1, 'x²'], [-a * a, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([1, 'x²'], [a * a, ''])}",
+     "misconception": "plus"
+    },
+    {
+     "text": "{poly([1, 'x²'], [-2 * a, 'x'], [-a * a, ''])}",
+     "misconception": "middle"
+    },
+    {
+     "text": "{poly([1, 'x²'], [-2 * a, ''])}",
+     "misconception": "twice"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "plus",
+     "explain": "{a} × {br(-a)} is negative: the last term is {-a * a}."
+    },
+    {
+     "id": "middle",
+     "explain": "The x terms {mono(-a, 'x')} and {mono(a, 'x')} cancel: there is no middle term."
+    },
+    {
+     "id": "twice",
+     "explain": "The last term is {a} × {br(-a)} = {-a * a}, a product, not {-2 * a}."
+    }
+   ],
+   "solution": [
+    "The middle terms cancel: {mono(-a, 'x')} + {mono(a, 'x')} = {0}.",
+    "{a} × {br(-a)} = {-a * a}, so the answer is {answer}."
+   ]
+  }
+ ]
+}

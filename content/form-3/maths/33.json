@@ -1,0 +1,516 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [
+  31
+ ],
+ "skills": [
+  {
+   "id": "m3-33",
+   "name": "Logarithms and the laws of logarithms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A logarithm is an index: log_b x = n means bⁿ = x. So log₂ 8 = 3 because 2³ = 8.\nlog without a base means base 10: log 1000 = 3.\n• log_b b = 1 and log_b 1 = 0.\nLaws (same base):\n• log a + log b = log (ab)\n• log a − log b = log (a ÷ b)\n• log (aⁿ) = n log a\nExample: log 2 + log 5 = log 10 = 1.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "A logarithm is an index",
+    "text": "We know {pw(2, 3)} = {8}. The logarithm turns this round: log₂ {8} = {3}, read \"log to base {2} of {8} is {3}\".\nlog_b x asks: what power of b gives x?\n• log₃ {81} = {4} because {pw(3, 4)} = {81};\n• log₅ {1} = {0} because {5}{sup(0)} = {1};\n• log b to base b is always {1}.\nWithout a base written, log means base {10}: log {1000} = {3}."
+   },
+   {
+    "heading": "The laws come from the index laws",
+    "text": "Since multiplying powers adds indices, logs turn multiplication into addition:\n• log a + log b = log (ab)\n• log a − log b = log (a ÷ b)\n• log aⁿ = n log a\nExample: log {4} + log {25} = log {100} = {2}.\nBefore calculators, people used log tables and these laws to multiply large numbers by adding."
+   },
+   {
+    "heading": "Using a known value",
+    "text": "If you know log {2} ≈ {'0.3010'}, you can find others:\n• log {8} = log {pw(2, 3)} = {3} log {2} ≈ {0.9030}\n• log {5} = log ({10} ÷ {2}) = {1} − {0.3010} = {0.6990}\nCareful: log (a + b) is not log a + log b. log ({2} + {8}) = log {10} = {1}, but log {2} + log {8} = log {16}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "logarithm",
+    "meaning": "log_b x is the power of b that gives x"
+   },
+   {
+    "word": "base",
+    "meaning": "the number being raised to the power"
+   },
+   {
+    "word": "common logarithm",
+    "meaning": "log to base {10}, written log"
+   }
+  ],
+  "examples": [
+   "log₂ {64} = {6}",
+   "log {0.1} = {-1}",
+   "log {3} + log {4} = log {12}",
+   "log {pw(5, 3)} = {3} log {5}"
+  ],
+  "mistake": {
+   "wrong": "log {3} + log {4} = log {7}",
+   "right": "log {3} + log {4} = log {12}",
+   "why": "Adding logarithms multiplies the numbers inside."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 4,
+   "q": 25
+  },
+  "problem": "Without a calculator, find log {p} + log {q}.",
+  "steps": [
+   "log {p} + log {q} = log ({p} × {q}).",
+   "= log {p * q} = log {10}² = {2}."
+  ],
+  "answer": "{2}",
+  "checks": [
+   "p * q == 100"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m33-1",
+    "status": "draft",
+    "idea": "log_b x = n means bⁿ = x: a logarithm is an index.",
+    "vars": {},
+    "example": [
+     "log₂ {32} = {5} because {pw(2, 5)} = {32}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-33-eval"
+    }
+   },
+   {
+    "id": "c3m33-2",
+    "status": "draft",
+    "idea": "Adding logs multiplies the numbers; subtracting divides them.",
+    "vars": {},
+    "example": [
+     "log {2} + log {5} = log {10} = {1}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-33-law-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "indices-logs"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        2,
+        12
+       ]
+      },
+      "q": {
+       "int": [
+        2,
+        12
+       ]
+      },
+      "r": {
+       "int": [
+        2,
+        6
+       ]
+      }
+     },
+     "prompt": "Write as a single logarithm: log {p} + log {q} − log {r}.",
+     "correct": "{'log ' + fmt(p * q / r)}",
+     "distractors": [
+      {
+       "text": "{'log ' + fmt(p + q - r)}",
+       "misconception": "add"
+      },
+      {
+       "text": "{'log ' + fmt(p * q - r)}",
+       "misconception": "sub"
+      },
+      {
+       "text": "{'log ' + fmt(p * q * r)}",
+       "misconception": "mult"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "add",
+       "explain": "log a + log b is log (ab), not log (a + b)."
+      },
+      {
+       "id": "sub",
+       "explain": "log a − log b is log (a ÷ b): divide by {r}."
+      },
+      {
+       "id": "mult",
+       "explain": "Subtracting a log divides by the number: ÷ {r}, not × {r}."
+      }
+     ],
+     "solution": [
+      "Adding logs multiplies: log {p} + log {q} = log {p * q}.",
+      "Subtracting divides: log {p * q} − log {r} = log ({p * q} ÷ {r}) = {answer}."
+     ],
+     "where": [
+      "(p * q) % r == 0",
+      "p * q / r != p + q - r",
+      "p * q / r != p * q - r",
+      "p + q - r > 0",
+      "p * q - r != p + q - r"
+     ]
+    }
+   },
+   {
+    "id": "c3m33-3",
+    "status": "draft",
+    "idea": "A power inside a log comes out in front: log aⁿ = n log a.",
+    "vars": {},
+    "example": [
+     "log {8} = log {pw(2, 3)} = {3} log {2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-33-pow-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "indices-logs"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "n": 8,
+         "s": "log 8 = log 2³ = 3 log 2 = 3 × 0.3010",
+         "k": 3,
+         "c": 0
+        },
+        {
+         "n": 16,
+         "s": "log 16 = log 2⁴ = 4 log 2 = 4 × 0.3010",
+         "k": 4,
+         "c": 0
+        },
+        {
+         "n": 20,
+         "s": "log 20 = log 2 + log 10 = 0.3010 + 1",
+         "k": 1,
+         "c": 1
+        },
+        {
+         "n": 5,
+         "s": "log 5 = log 10 − log 2 = 1 − 0.3010",
+         "k": -1,
+         "c": 1
+        },
+        {
+         "n": 200,
+         "s": "log 200 = log 2 + log 100 = 0.3010 + 2",
+         "k": 1,
+         "c": 2
+        },
+        {
+         "n": 32,
+         "s": "log 32 = log 2⁵ = 5 log 2 = 5 × 0.3010",
+         "k": 5,
+         "c": 0
+        }
+       ]
+      }
+     },
+     "prompt": "Given that log {2} ≈ {'0.3010'}, find log {X.n} to {4} decimal places without a calculator.",
+     "answer": "roundTo(X.k * 0.3010 + X.c, 0.0001)",
+     "solution": [
+      "{X.s}",
+      "≈ {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-33-eval",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "Find {'log' + sub(b)} {b ^ n}.",
+   "answer": "n",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "b ^ n / b",
+     "explain": "A logarithm is the index: the power of {b} that gives {b ^ n}."
+    }
+   ],
+   "solution": [
+    "{b}{sup(n)} = {b ^ n}.",
+    "So {'log' + sub(b)} {b ^ n} = {answer}."
+   ],
+   "where": [
+    "b ^ n <= 625",
+    "b ^ n / b != n"
+   ]
+  },
+  {
+   "id": "m3-33-ten",
+   "type": "numeric",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "1000",
+       "w": "10³ = 1000",
+       "v": 3
+      },
+      {
+       "s": "100 000",
+       "w": "10⁵ = 100 000",
+       "v": 5
+      },
+      {
+       "s": "0.01",
+       "w": "10⁻² = 1/100 = 0.01",
+       "v": -2
+      },
+      {
+       "s": "1",
+       "w": "10⁰ = 1",
+       "v": 0
+      },
+      {
+       "s": "0.001",
+       "w": "10⁻³ = 0.001",
+       "v": -3
+      },
+      {
+       "s": "10",
+       "w": "10¹ = 10",
+       "v": 1
+      }
+     ]
+    }
+   },
+   "prompt": "Find log {X.s} (base {10}).",
+   "answer": "X.v",
+   "solution": [
+    "{X.w}",
+    "So log {X.s} = {answer}."
+   ],
+   "signed": true
+  },
+  {
+   "id": "m3-33-law",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "r": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "Write as a single logarithm: log {p} + log {q} − log {r}.",
+   "correct": "{'log ' + fmt(p * q / r)}",
+   "distractors": [
+    {
+     "text": "{'log ' + fmt(p + q - r)}",
+     "misconception": "add"
+    },
+    {
+     "text": "{'log ' + fmt(p * q - r)}",
+     "misconception": "sub"
+    },
+    {
+     "text": "{'log ' + fmt(p * q * r)}",
+     "misconception": "mult"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "add",
+     "explain": "log a + log b is log (ab), not log (a + b)."
+    },
+    {
+     "id": "sub",
+     "explain": "log a − log b is log (a ÷ b): divide by {r}."
+    },
+    {
+     "id": "mult",
+     "explain": "Subtracting a log divides by the number: ÷ {r}, not × {r}."
+    }
+   ],
+   "solution": [
+    "Adding logs multiplies: log {p} + log {q} = log {p * q}.",
+    "Subtracting divides: log {p * q} − log {r} = log ({p * q} ÷ {r}) = {answer}."
+   ],
+   "where": [
+    "(p * q) % r == 0",
+    "p * q / r != p + q - r",
+    "p * q / r != p * q - r",
+    "p + q - r > 0",
+    "p * q - r != p + q - r"
+   ]
+  },
+  {
+   "id": "m3-33-sum",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3
+     ]
+    },
+    "i": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "j": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "x": {
+     "expr": "b ^ i * 1"
+    },
+    "y": {
+     "expr": "b ^ j"
+    }
+   },
+   "prompt": "{'log' + sub(b)} {x} + {'log' + sub(b)} {y}: find the value.",
+   "answer": "logb(b, x * y)",
+   "misconceptions": [
+    {
+     "id": "prod",
+     "wrong": "i * j",
+     "explain": "Adding logs multiplies the numbers, so the indices add: {i} + {j}."
+    }
+   ],
+   "solution": [
+    "{'log' + sub(b)} {x} + {'log' + sub(b)} {y} = {'log' + sub(b)} ({x} × {y}) = {'log' + sub(b)} {x * y}.",
+    "{b}{sup(logb(b, x * y))} = {x * y}, so the value is {answer}."
+   ],
+   "where": [
+    "i * j != i + j",
+    "x != y || i == j"
+   ]
+  },
+  {
+   "id": "m3-33-pow",
+   "type": "numeric",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": 8,
+       "s": "log 8 = log 2³ = 3 log 2 = 3 × 0.3010",
+       "k": 3,
+       "c": 0
+      },
+      {
+       "n": 16,
+       "s": "log 16 = log 2⁴ = 4 log 2 = 4 × 0.3010",
+       "k": 4,
+       "c": 0
+      },
+      {
+       "n": 20,
+       "s": "log 20 = log 2 + log 10 = 0.3010 + 1",
+       "k": 1,
+       "c": 1
+      },
+      {
+       "n": 5,
+       "s": "log 5 = log 10 − log 2 = 1 − 0.3010",
+       "k": -1,
+       "c": 1
+      },
+      {
+       "n": 200,
+       "s": "log 200 = log 2 + log 100 = 0.3010 + 2",
+       "k": 1,
+       "c": 2
+      },
+      {
+       "n": 32,
+       "s": "log 32 = log 2⁵ = 5 log 2 = 5 × 0.3010",
+       "k": 5,
+       "c": 0
+      }
+     ]
+    }
+   },
+   "prompt": "Given that log {2} ≈ {'0.3010'}, find log {X.n} to {4} decimal places without a calculator.",
+   "answer": "roundTo(X.k * 0.3010 + X.c, 0.0001)",
+   "solution": [
+    "{X.s}",
+    "≈ {answer}."
+   ]
+  }
+ ]
+}

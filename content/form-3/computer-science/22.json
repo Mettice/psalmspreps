@@ -1,0 +1,485 @@
+{
+ "subject": "computer-science",
+ "class": "Form 3",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "s3-22",
+   "name": "Flowcharts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A flowchart shows an algorithm as a diagram. Standard symbols:\n• Oval (terminal): Start and Stop.\n• Parallelogram: input or output.\n• Rectangle: process (calculation, assignment).\n• Diamond: decision (a yes/no question), with two exits.\n• Arrows (flow lines): show the order of steps.\nA loop is drawn as an arrow going back to an earlier step. Every flowchart has one Start and at least one Stop.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Algorithms as diagrams",
+    "text": "A flowchart shows the steps of an algorithm with standard shapes joined by arrows. It makes the order of steps and the decisions easy to see.\n• Oval (terminal): Start and Stop.\n• Parallelogram: input or output (Read mark, Print result).\n• Rectangle: process (total ← total + mark).\n• Diamond: decision, a yes/no question with two exits.\n• Arrows (flow lines): the order to follow."
+   },
+   {
+    "heading": "Decisions and loops",
+    "text": "A decision diamond asks a question such as 'Is mark ≥ {10}?'. One arrow leaves for Yes and another for No.\nA loop is made by an arrow that goes back to an earlier step: for example, 'Is the PIN correct?' No → back to 'Input PIN'.\nMake sure every loop can end, or the algorithm will run forever."
+   },
+   {
+    "heading": "Reading a flowchart",
+    "text": "Follow the arrows from Start with the given values, writing down each variable as it changes, until you reach Stop.\nStart → Input L, W → A ← L × W → Output A → Stop. With L = {6} and W = {4}, the output is {24}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "flowchart",
+    "meaning": "a diagram of an algorithm using standard symbols"
+   },
+   {
+    "word": "terminal",
+    "meaning": "Start or Stop (oval)"
+   },
+   {
+    "word": "decision",
+    "meaning": "a yes/no question (diamond)"
+   },
+   {
+    "word": "process",
+    "meaning": "a calculation or assignment (rectangle)"
+   },
+   {
+    "word": "flow line",
+    "meaning": "an arrow showing the order of steps"
+   }
+  ],
+  "examples": [
+   "Diamond: 'Is age ≥ {18}?'",
+   "Parallelogram: 'Input name'",
+   "Rectangle: 'A ← L × W'"
+  ],
+  "mistake": {
+   "wrong": "Using a rectangle for a yes/no question",
+   "right": "Use a diamond for every decision",
+   "why": "Diamonds have two exits for the two answers."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "l": 6,
+   "w": 4
+  },
+  "problem": "A flowchart: Start → Input L, W → A ← L × W → Output A → Stop. What is output when L = {l} and W = {w}?",
+  "steps": [
+   "Input: L = {l}, W = {w}.",
+   "Process: A = {l} × {w} = {l * w}.",
+   "Output: {l * w}."
+  ],
+  "answer": "{l * w}",
+  "checks": [
+   "l * w == 24"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3s22-1",
+    "status": "draft",
+    "idea": "Diamond = decision; rectangle = process; parallelogram = input/output; oval = start/stop.",
+    "vars": {},
+    "example": [
+     "'Is mark >= {10}?' goes in a diamond."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-22-symbol"
+    }
+   },
+   {
+    "id": "c3s22-2",
+    "status": "draft",
+    "idea": "Arrows show the order; an arrow going back makes a loop.",
+    "vars": {},
+    "example": [
+     "Repeat until a correct PIN is entered."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s3-22-trace-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algorithms"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        5,
+        15
+       ]
+      },
+      "d": {
+       "int": [
+        2,
+        5
+       ]
+      },
+      "j": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "r": {
+       "int": [
+        1,
+        "d - 1"
+       ]
+      },
+      "n": {
+       "expr": "k + d * j + r"
+      }
+     },
+     "prompt": "Flowchart: Start → Input n → Is n > {k}? Yes → n ← n − {d}, then go back to the question; No → Output n → Stop. What is output when n = {n}?",
+     "answer": "k + r - d",
+     "misconceptions": [
+      {
+       "id": "once",
+       "wrong": "n - d",
+       "explain": "The arrow goes back: keep subtracting while n > {k}."
+      },
+      {
+       "id": "k",
+       "wrong": "k",
+       "explain": "{k} is never reached exactly here: list the values {n}, {n - d}, … until one is not greater than {k}."
+      }
+     ],
+     "solution": [
+      "While n > {k}, subtract {d}: {n} goes down in steps of {d}.",
+      "The first value that is not greater than {k} is {k + r - d}.",
+      "Output: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c3s22-3",
+    "status": "draft",
+    "idea": "A decision has two exits: Yes and No.",
+    "vars": {},
+    "example": [
+     "Yes → 'Pass'; No → 'Fail'"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s3-22-dec"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s3-22-symbol",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "'Is the number greater than 50?'",
+       "r": "diamond (decision)",
+       "w": [
+        "rectangle (process)",
+        "parallelogram (input/output)",
+        "oval (terminal)"
+       ],
+       "e": [
+        "A process does a calculation.",
+        "Input/output reads or shows data.",
+        "Terminals are Start and Stop."
+       ],
+       "y": "A yes/no question is a decision."
+      },
+      {
+       "q": "'Read the price'",
+       "r": "parallelogram (input/output)",
+       "w": [
+        "diamond (decision)",
+        "rectangle (process)",
+        "oval (terminal)"
+       ],
+       "e": [
+        "No question is asked.",
+        "Reading data is input.",
+        "It is not Start or Stop."
+       ],
+       "y": "Input and output use parallelograms."
+      },
+      {
+       "q": "'total ← price × quantity'",
+       "r": "rectangle (process)",
+       "w": [
+        "parallelogram (input/output)",
+        "diamond (decision)",
+        "oval (terminal)"
+       ],
+       "e": [
+        "Nothing is read or shown.",
+        "No question is asked.",
+        "It is not Start or Stop."
+       ],
+       "y": "Calculations are processes."
+      },
+      {
+       "q": "'Start'",
+       "r": "oval (terminal)",
+       "w": [
+        "rectangle (process)",
+        "diamond (decision)",
+        "parallelogram (input/output)"
+       ],
+       "e": [
+        "Not a calculation.",
+        "Not a question.",
+        "Not input or output."
+       ],
+       "y": "Start and Stop are terminals."
+      }
+     ]
+    }
+   },
+   "prompt": "Which flowchart symbol is used for this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-22-trace",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      5,
+      15
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "j": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "r": {
+     "int": [
+      1,
+      "d - 1"
+     ]
+    },
+    "n": {
+     "expr": "k + d * j + r"
+    }
+   },
+   "prompt": "Flowchart: Start → Input n → Is n > {k}? Yes → n ← n − {d}, then go back to the question; No → Output n → Stop. What is output when n = {n}?",
+   "answer": "k + r - d",
+   "misconceptions": [
+    {
+     "id": "once",
+     "wrong": "n - d",
+     "explain": "The arrow goes back: keep subtracting while n > {k}."
+    },
+    {
+     "id": "k",
+     "wrong": "k",
+     "explain": "{k} is never reached exactly here: list the values {n}, {n - d}, … until one is not greater than {k}."
+    }
+   ],
+   "solution": [
+    "While n > {k}, subtract {d}: {n} goes down in steps of {d}.",
+    "The first value that is not greater than {k} is {k + r - d}.",
+    "Output: {answer}."
+   ]
+  },
+  {
+   "id": "s3-22-dec",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How many exits does a decision symbol have?",
+       "r": "two (Yes and No)",
+       "w": [
+        "one",
+        "none",
+        "four"
+       ],
+       "e": [
+        "A decision chooses between two paths.",
+        "It must lead somewhere.",
+        "Only two answers to a yes/no question."
+       ],
+       "y": "One path for Yes, one for No."
+      },
+      {
+       "q": "How is a loop shown on a flowchart?",
+       "r": "by an arrow going back to an earlier step",
+       "w": [
+        "by a double oval",
+        "by a red rectangle",
+        "it cannot be shown"
+       ],
+       "e": [
+        "Not a standard symbol.",
+        "Colour does not mean anything.",
+        "Loops are common in flowcharts."
+       ],
+       "y": "Flow returns to repeat steps."
+      },
+      {
+       "q": "Which symbol starts every flowchart?",
+       "r": "an oval labelled Start",
+       "w": [
+        "a diamond",
+        "a parallelogram",
+        "a rectangle"
+       ],
+       "e": [
+        "Diamonds are decisions.",
+        "Parallelograms are input/output.",
+        "Rectangles are processes."
+       ],
+       "y": "Terminals mark the beginning and end."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "s3-22-max",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      50
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      50
+     ]
+    }
+   },
+   "prompt": "Flowchart: Start → Input a, b → Is a > b? Yes → Output a; No → Output b → Stop. What is output when a = {a} and b = {b}?",
+   "answer": "max(a, b)",
+   "misconceptions": [
+    {
+     "id": "min",
+     "wrong": "min(a, b)",
+     "explain": "The Yes branch outputs a only when a is bigger; this flowchart outputs the larger number."
+    }
+   ],
+   "solution": [
+    "Is {a} > {b}? {a > b ? 'Yes' : 'No'}.",
+    "So {answer} is output: the larger number."
+   ],
+   "where": [
+    "a != b"
+   ]
+  }
+ ]
+}

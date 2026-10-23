@@ -1,0 +1,510 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "m3-27",
+   "name": "Similar figures and the scale factor"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Similar figures have the same shape: corresponding angles are equal and corresponding sides are in the same ratio.\n• The scale factor (constant of proportionality) k = a side of the image ÷ the corresponding side of the object.\n• Every length of the image = k × the matching length of the object.\n• Two triangles with equal angles are always similar.\n• All squares, all circles and all equilateral triangles are similar; rectangles in general are not.\nShadows: at the same time of day, heights are proportional to shadow lengths.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Same shape, different size",
+    "text": "A photo printed small and large shows the same picture: the shape is the same, only the size changes. Such figures are similar.\nIn similar figures:\n• corresponding angles are equal;\n• corresponding sides are in the same ratio.\nThat common ratio is the scale factor k (also called the constant of proportionality)."
+   },
+   {
+    "heading": "Finding lengths",
+    "text": "Find k from one pair of matching sides: k = side in the image ÷ matching side in the object.\nIf a {4} cm side becomes {6} cm, k = {6} ÷ {4} = {1.5}. Then a {10} cm side becomes {1.5} × {10} = {15} cm.\nMatch short with short and long with long. If k is less than {1}, the image is smaller."
+   },
+   {
+    "heading": "Shadows and heights",
+    "text": "At the same moment, the sun's rays hit all objects at the same angle. A pole and a tree with their shadows form similar right-angled triangles.\nIf a {2} m pole has a {3} m shadow and a tree has a {15} m shadow, the scale factor is {5}, so the tree is {5} × {2} = {10} m tall."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "similar",
+    "meaning": "same shape: equal angles, sides in the same ratio"
+   },
+   {
+    "word": "scale factor",
+    "meaning": "k = image length ÷ object length"
+   },
+   {
+    "word": "corresponding sides",
+    "meaning": "sides in matching positions"
+   }
+  ],
+  "examples": [
+   "k = {3}: a {2} cm side becomes {6} cm",
+   "All equilateral triangles are similar."
+  ],
+  "mistake": {
+   "wrong": "A {4} cm by {6} cm rectangle grows to {8} cm by {10} cm (add {4})",
+   "right": "{8} cm by {12} cm (multiply by {2})",
+   "why": "Similar figures are enlarged by multiplying, not by adding the same amount."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 4,
+   "b": 6,
+   "c": 10
+  },
+  "problem": "Two similar triangles: a side of {a} cm in the small one matches {b} cm in the large one. Another side of the small triangle is {c} cm. Find the matching side of the large one.",
+  "steps": [
+   "Scale factor k = {b} ÷ {a} = {b / a}.",
+   "Large side = {b / a} × {c} = {b / a * c} cm."
+  ],
+  "answer": "{b / a * c} cm",
+  "checks": [
+   "b / a * c == 15"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m27-1",
+    "status": "draft",
+    "idea": "Scale factor k = image side ÷ matching object side.",
+    "vars": {},
+    "example": [
+     "{3} cm becomes {12} cm: k = {4}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-27-k"
+    }
+   },
+   {
+    "id": "c3m27-2",
+    "status": "draft",
+    "idea": "Multiply every length by k to get the matching length.",
+    "vars": {},
+    "example": [
+     "k = {4}: a {5} cm side becomes {20} cm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-27-side"
+    }
+   },
+   {
+    "id": "c3m27-3",
+    "status": "draft",
+    "idea": "Similar means the same shape: equal angles, sides in the same ratio.",
+    "vars": {},
+    "example": [
+     "All circles are similar; not all rectangles are."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-27-which-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "similarity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which pair of figures is always similar?",
+         "r": "Any two circles",
+         "w": [
+          "Any two rectangles",
+          "Any two isosceles triangles",
+          "Any two right-angled triangles"
+         ],
+         "e": [
+          "A long thin rectangle is not the same shape as a square-like one.",
+          "Isosceles triangles can have different angles.",
+          "Right-angled triangles can have different other angles."
+         ],
+         "y": "Every circle is an enlargement of every other circle."
+        },
+        {
+         "q": "Which pair of figures is always similar?",
+         "r": "Any two squares",
+         "w": [
+          "Any two rhombuses",
+          "Any two parallelograms",
+          "Any two trapeziums"
+         ],
+         "e": [
+          "Rhombuses can have different angles.",
+          "Parallelograms can have different angles and side ratios.",
+          "Trapeziums can have many shapes."
+         ],
+         "y": "All angles are 90° and all sides are equal: squares differ only in size."
+        },
+        {
+         "q": "Two triangles have angles 50°, 60°, 70° and 70°, 50°, 60°. They are…",
+         "r": "similar",
+         "w": [
+          "congruent",
+          "neither similar nor congruent",
+          "similar only if they are right-angled"
+         ],
+         "e": [
+          "Equal angles do not fix the size.",
+          "Equal angles always make triangles similar.",
+          "Any triangles with equal angles are similar."
+         ],
+         "y": "Equal corresponding angles: similar triangles."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-27-k",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "A side of {a} cm in one figure matches a side of {a * k} cm in a similar, larger figure. What is the scale factor?",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "diff",
+     "wrong": "a * k - a",
+     "explain": "The scale factor multiplies: divide, do not subtract."
+    },
+    {
+     "id": "inv",
+     "wrong": "1 / k",
+     "explain": "Divide the larger by the smaller to enlarge: {a * k} ÷ {a}."
+    }
+   ],
+   "solution": [
+    "k = {a * k} ÷ {a} = {answer}."
+   ],
+   "where": [
+    "a * k - a != k"
+   ]
+  },
+  {
+   "id": "m3-27-side",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "x": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "Triangle PQR is similar to triangle ABC with scale factor {k}. AB = {x} cm. Find PQ.",
+   "answer": "k * x",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "k + x",
+     "explain": "Scale factors multiply lengths, they do not add to them."
+    }
+   ],
+   "solution": [
+    "PQ matches AB.",
+    "PQ = {k} × {x} = {answer} cm."
+   ],
+   "unit": "cm",
+   "where": [
+    "k + x != k * x"
+   ]
+  },
+  {
+   "id": "m3-27-ratio",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "c": {
+     "int": [
+      4,
+      30
+     ]
+    }
+   },
+   "prompt": "Two similar rectangles: the small one is {a} cm by {b} cm. The long side of the large one is {c} cm. Find its short side.",
+   "answer": "a * c / b",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "a + c - b",
+     "explain": "Similar figures are in proportion: multiply by the scale factor, do not add the difference."
+    },
+    {
+     "id": "wrongpair",
+     "wrong": "b * c / a",
+     "explain": "Match short with short and long with long."
+    }
+   ],
+   "solution": [
+    "Long sides: k = {c} ÷ {b} = {c / b}.",
+    "Short side = {c / b} × {a} = {answer} cm."
+   ],
+   "unit": "cm",
+   "where": [
+    "a < b",
+    "c > b",
+    "(a * c) % b == 0",
+    "a + c - b != a * c / b"
+   ]
+  },
+  {
+   "id": "m3-27-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which pair of figures is always similar?",
+       "r": "Any two circles",
+       "w": [
+        "Any two rectangles",
+        "Any two isosceles triangles",
+        "Any two right-angled triangles"
+       ],
+       "e": [
+        "A long thin rectangle is not the same shape as a square-like one.",
+        "Isosceles triangles can have different angles.",
+        "Right-angled triangles can have different other angles."
+       ],
+       "y": "Every circle is an enlargement of every other circle."
+      },
+      {
+       "q": "Which pair of figures is always similar?",
+       "r": "Any two squares",
+       "w": [
+        "Any two rhombuses",
+        "Any two parallelograms",
+        "Any two trapeziums"
+       ],
+       "e": [
+        "Rhombuses can have different angles.",
+        "Parallelograms can have different angles and side ratios.",
+        "Trapeziums can have many shapes."
+       ],
+       "y": "All angles are 90° and all sides are equal: squares differ only in size."
+      },
+      {
+       "q": "Two triangles have angles 50°, 60°, 70° and 70°, 50°, 60°. They are…",
+       "r": "similar",
+       "w": [
+        "congruent",
+        "neither similar nor congruent",
+        "similar only if they are right-angled"
+       ],
+       "e": [
+        "Equal angles do not fix the size.",
+        "Equal angles always make triangles similar.",
+        "Any triangles with equal angles are similar."
+       ],
+       "y": "Equal corresponding angles: similar triangles."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-27-shadow",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "similarity"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "s": {
+     "int": [
+      3,
+      6
+     ]
+    },
+    "m": {
+     "int": [
+      3,
+      8
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "t": "10 a.m."
+      },
+      {
+       "t": "3 p.m."
+      },
+      {
+       "t": "4 p.m."
+      }
+     ]
+    }
+   },
+   "prompt": "At {X.t}, a {h} m pole in Bamenda casts a shadow {s} m long. At the same time a tree casts a shadow {s * m} m long. How tall is the tree (m)?",
+   "answer": "h * m",
+   "misconceptions": [
+    {
+     "id": "inv",
+     "wrong": "s * m * s / h",
+     "explain": "Height ÷ shadow is the same for both: tree = {h} ÷ {s} × {s * m}."
+    },
+    {
+     "id": "add",
+     "wrong": "h + s * m - s",
+     "explain": "Use the ratio, not the difference."
+    }
+   ],
+   "solution": [
+    "The sun's rays make similar triangles: height ÷ shadow is the same.",
+    "Scale factor = {s * m} ÷ {s} = {m}.",
+    "Tree = {m} × {h} = {answer} m."
+   ],
+   "unit": "m",
+   "where": [
+    "h != s"
+   ]
+  }
+ ]
+}

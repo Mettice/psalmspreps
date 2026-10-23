@@ -1,0 +1,587 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  24
+ ],
+ "skills": [
+  {
+   "id": "k3-25",
+   "name": "Properties of substances related to bond type and structure"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Bond type and structure decide physical properties:\n• Ionic lattice: high m.p.; conducts when molten or dissolved; often soluble in water; brittle.\n• Simple molecular: low m.p./b.p.; does not conduct; often insoluble in water, soluble in organic solvents.\n• Giant covalent: very high m.p.; hard (diamond) or slippery (graphite); does not conduct (except graphite); insoluble.\n• Metallic: high m.p. (usually); conducts when solid and liquid; malleable and ductile; insoluble.\nUse test results (melting point, conductivity, solubility) to identify the structure of an unknown substance.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Structure explains properties",
+    "text": "Every property you test in the laboratory comes back to the particles and the forces between them.\n• Strong forces throughout a giant structure → high melting point.\n• Weak forces between small molecules → low melting point.\n• Charged particles that can move → electrical conductivity."
+   },
+   {
+    "heading": "The four patterns",
+    "text": "• Ionic: high m.p.; conducts only when molten or dissolved; often soluble in water; brittle.\n• Simple molecular: low m.p.; never conducts; often insoluble in water but soluble in organic solvents.\n• Giant covalent: very high m.p.; insoluble; does not conduct (graphite is the exception).\n• Metallic: usually high m.p.; conducts as solid and liquid; malleable and ductile; insoluble."
+   },
+   {
+    "heading": "Identifying an unknown",
+    "text": "Test three things: melting point, conductivity (solid, molten, in solution) and solubility.\nConducts when solid → metallic (or graphite). Conducts only when molten or dissolved → ionic. Low melting point and never conducts → simple molecular. Very high melting point, insoluble, does not conduct → giant covalent."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "melting point",
+    "meaning": "the temperature at which a solid becomes a liquid"
+   },
+   {
+    "word": "conductivity",
+    "meaning": "how well a substance lets electricity through"
+   },
+   {
+    "word": "solubility",
+    "meaning": "how well a substance dissolves"
+   }
+  ],
+  "examples": [
+   "Salt: ionic",
+   "Candle wax: molecular",
+   "Sand: giant covalent",
+   "Iron: metallic"
+  ],
+  "mistake": {
+   "wrong": "All substances with high melting points are ionic",
+   "right": "Giant covalent and metallic substances also have high melting points",
+   "why": "Use conductivity too: it separates ionic, metallic and giant covalent substances."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Substance X melts at {1083} °C, conducts electricity as a solid and is ductile. Identify its structure.",
+  "steps": [
+   "Conducts as a solid: only metals (and graphite) do this.",
+   "Ductile: metals can be drawn into wires.",
+   "So X is metallic (it is copper)."
+  ],
+  "answer": "Metallic",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k25-1",
+    "status": "draft",
+    "idea": "Conducts when solid: metallic (or graphite).",
+    "vars": {},
+    "example": [
+     "Copper and graphite conduct as solids."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-25-cond"
+    }
+   },
+   {
+    "id": "c3k25-2",
+    "status": "draft",
+    "idea": "Conducts only when molten or dissolved: ionic.",
+    "vars": {},
+    "example": [
+     "Molten salt conducts; solid salt does not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-25-ionic"
+    }
+   },
+   {
+    "id": "c3k25-3",
+    "status": "draft",
+    "idea": "Low melting point and no conduction: simple molecular.",
+    "vars": {},
+    "example": [
+     "Wax, sugar, iodine"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-25-mol-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A white solid melts at 186 °C, does not conduct and dissolves in water. It is most likely…",
+         "r": "simple molecular (sugar)",
+         "w": [
+          "ionic",
+          "metallic",
+          "giant covalent"
+         ],
+         "e": [
+          "An ionic solution would conduct.",
+          "Metals conduct.",
+          "Giant covalent substances melt much higher and are insoluble."
+         ],
+         "y": "Low melting point and no conduction: molecular."
+        },
+        {
+         "q": "Which substance has the lowest melting point?",
+         "r": "methane (simple molecular)",
+         "w": [
+          "sodium chloride (ionic)",
+          "iron (metallic)",
+          "diamond (giant covalent)"
+         ],
+         "e": [
+          "Ionic bonds are strong.",
+          "Metallic bonds are strong.",
+          "Diamond has very strong covalent bonds throughout."
+         ],
+         "y": "Only weak forces hold methane molecules together."
+        },
+        {
+         "q": "Why does sulphur not conduct electricity, even when molten?",
+         "r": "It is made of molecules with no ions or free electrons",
+         "w": [
+          "It is a metal",
+          "Its ions are fixed",
+          "It is a gas"
+         ],
+         "e": [
+          "Sulphur is a non-metal.",
+          "Sulphur has no ions.",
+          "It is a solid at room temperature."
+         ],
+         "y": "No charged particles can move."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-25-cond",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which substance conducts electricity when solid?",
+       "r": "copper",
+       "w": [
+        "sodium chloride",
+        "sugar",
+        "diamond"
+       ],
+       "e": [
+        "Solid salt has fixed ions.",
+        "Sugar is molecular.",
+        "Diamond has no free electrons."
+       ],
+       "y": "Metals have delocalised electrons."
+      },
+      {
+       "q": "Which non-metal conducts electricity?",
+       "r": "graphite",
+       "w": [
+        "diamond",
+        "sulphur",
+        "iodine"
+       ],
+       "e": [
+        "All of diamond's electrons are in bonds.",
+        "Sulphur is a molecular insulator.",
+        "Iodine is a molecular insulator."
+       ],
+       "y": "Graphite has one free electron per carbon atom."
+      },
+      {
+       "q": "A substance conducts both when solid and when molten. It is most likely…",
+       "r": "a metal",
+       "w": [
+        "an ionic compound",
+        "a molecular compound",
+        "diamond"
+       ],
+       "e": [
+        "Solid ionic compounds do not conduct.",
+        "Molecular compounds never conduct.",
+        "Diamond does not conduct."
+       ],
+       "y": "Free electrons conduct in both states."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-25-ionic",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which result shows that a substance is ionic?",
+       "r": "It conducts when molten but not when solid",
+       "w": [
+        "It conducts when solid",
+        "It never conducts",
+        "It melts below 100 °C"
+       ],
+       "e": [
+        "That suggests a metal.",
+        "That suggests a covalent substance.",
+        "Ionic compounds melt at high temperatures."
+       ],
+       "y": "Ions are free to move only in the melt or solution."
+      },
+      {
+       "q": "Potassium iodide dissolves in water and the solution conducts. KI is…",
+       "r": "ionic",
+       "w": [
+        "metallic",
+        "simple molecular",
+        "giant covalent"
+       ],
+       "e": [
+        "It is a compound of a metal and a non-metal; it dissolves, unlike metals.",
+        "Its solution conducts, so it has ions.",
+        "Giant covalent substances are insoluble."
+       ],
+       "y": "A metal + non-metal compound that conducts in solution."
+      },
+      {
+       "q": "Why is magnesium oxide used to line furnaces?",
+       "r": "Its ionic lattice gives a very high melting point",
+       "w": [
+        "It conducts electricity",
+        "It is a gas",
+        "It is soft"
+       ],
+       "e": [
+        "Conductivity is not the reason.",
+        "It is a solid.",
+        "Hardness and high melting point are needed."
+       ],
+       "y": "Strong ionic bonds withstand the heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-25-mol",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A white solid melts at 186 °C, does not conduct and dissolves in water. It is most likely…",
+       "r": "simple molecular (sugar)",
+       "w": [
+        "ionic",
+        "metallic",
+        "giant covalent"
+       ],
+       "e": [
+        "An ionic solution would conduct.",
+        "Metals conduct.",
+        "Giant covalent substances melt much higher and are insoluble."
+       ],
+       "y": "Low melting point and no conduction: molecular."
+      },
+      {
+       "q": "Which substance has the lowest melting point?",
+       "r": "methane (simple molecular)",
+       "w": [
+        "sodium chloride (ionic)",
+        "iron (metallic)",
+        "diamond (giant covalent)"
+       ],
+       "e": [
+        "Ionic bonds are strong.",
+        "Metallic bonds are strong.",
+        "Diamond has very strong covalent bonds throughout."
+       ],
+       "y": "Only weak forces hold methane molecules together."
+      },
+      {
+       "q": "Why does sulphur not conduct electricity, even when molten?",
+       "r": "It is made of molecules with no ions or free electrons",
+       "w": [
+        "It is a metal",
+        "Its ions are fixed",
+        "It is a gas"
+       ],
+       "e": [
+        "Sulphur is a non-metal.",
+        "Sulphur has no ions.",
+        "It is a solid at room temperature."
+       ],
+       "y": "No charged particles can move."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-25-table",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which set of properties fits an ionic compound?",
+       "r": "high m.p., soluble in water, conducts in solution",
+       "w": [
+        "low m.p., insoluble, no conduction",
+        "high m.p., conducts as a solid, malleable",
+        "very high m.p., insoluble, never conducts"
+       ],
+       "e": [
+        "That fits a simple molecular substance.",
+        "That fits a metal.",
+        "That fits a giant covalent substance such as diamond."
+       ],
+       "y": "Ionic: strong bonds, ions free in solution."
+      },
+      {
+       "q": "Which set of properties fits a giant covalent substance like sand?",
+       "r": "very high m.p., insoluble, does not conduct",
+       "w": [
+        "low m.p., soluble in kerosene",
+        "conducts as a solid, malleable",
+        "conducts when molten only"
+       ],
+       "e": [
+        "That is molecular.",
+        "That is metallic.",
+        "That is ionic."
+       ],
+       "y": "Many strong covalent bonds and no free charges."
+      },
+      {
+       "q": "Which set of properties fits a metal?",
+       "r": "conducts as a solid, malleable, usually high m.p.",
+       "w": [
+        "brittle, conducts when molten only",
+        "low m.p., does not conduct",
+        "very hard, does not conduct"
+       ],
+       "e": [
+        "That is ionic.",
+        "That is molecular.",
+        "That is diamond-like."
+       ],
+       "y": "Free electrons and sliding layers."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

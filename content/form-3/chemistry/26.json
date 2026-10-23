@@ -1,0 +1,530 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  24,
+  25
+ ],
+ "skills": [
+  {
+   "id": "k3-26",
+   "name": "Giant covalent structures: diamond and graphite"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Diamond and graphite are both pure carbon (allotropes) but have different structures.\n• Diamond: each carbon is covalently bonded to 4 others in a rigid 3-D tetrahedral network. Very hard, very high m.p., does not conduct (no free electrons). Uses: cutting and drilling tools, jewellery.\n• Graphite: each carbon bonded to 3 others in flat hexagonal layers; the fourth electron is delocalised. Layers are held by weak forces and slide over each other. Soft and slippery, conducts electricity, high m.p. Uses: pencil 'lead', lubricant, electrodes.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Same element, two structures",
+    "text": "Diamond and graphite are both made only of carbon atoms. Different forms of the same element are called allotropes.\nTheir properties are very different because their atoms are joined in different ways. Both are giant covalent structures: no small molecules, just huge networks of bonded atoms."
+   },
+   {
+    "heading": "Diamond",
+    "text": "Each carbon atom forms {4} covalent bonds to four other carbon atoms, arranged as a tetrahedron. This makes a rigid three-dimensional network.\n• Extremely hard: used on drill tips and cutting tools.\n• Very high melting point.\n• Does not conduct: all outer electrons are in bonds.\n• Sparkles when cut: used in jewellery."
+   },
+   {
+    "heading": "Graphite",
+    "text": "Each carbon atom bonds to only {3} others, forming flat layers of hexagons. The fourth outer electron of each atom is delocalised, free to move along the layer.\n• Layers held by weak forces slide easily: soft and slippery, used in pencils and as a lubricant.\n• Conducts electricity: used for electrodes and in batteries.\n• High melting point, like diamond."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "allotropes",
+    "meaning": "different forms of the same element"
+   },
+   {
+    "word": "giant covalent structure",
+    "meaning": "a huge network of atoms joined by covalent bonds"
+   },
+   {
+    "word": "delocalised electron",
+    "meaning": "an electron free to move, not tied to one bond"
+   }
+  ],
+  "examples": [
+   "Diamond: drill tips, jewellery",
+   "Graphite: pencils, lubricants, electrodes"
+  ],
+  "mistake": {
+   "wrong": "Graphite is soft because its covalent bonds are weak",
+   "right": "Graphite is soft because the forces between its layers are weak",
+   "why": "The bonds within each layer are strong; it is the layers that slide."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain why graphite conducts electricity but diamond does not.",
+  "steps": [
+   "In diamond, all four outer electrons of each carbon are used in covalent bonds: none are free.",
+   "In graphite, each carbon uses only {3} electrons in bonds; the {4}th is delocalised along the layers.",
+   "These free electrons carry the current."
+  ],
+  "answer": "Graphite has one free electron per carbon atom; diamond has none",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k26-1",
+    "status": "draft",
+    "idea": "Diamond: each carbon bonded to {4} others in a rigid network.",
+    "vars": {},
+    "example": [
+     "The hardest natural substance"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-26-bonds"
+    }
+   },
+   {
+    "id": "c3k26-2",
+    "status": "draft",
+    "idea": "Graphite: layers of carbon (each bonded to {3}) that slide over each other.",
+    "vars": {},
+    "example": [
+     "Pencil marks are layers of graphite left on paper."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-26-prop"
+    }
+   },
+   {
+    "id": "c3k26-3",
+    "status": "draft",
+    "idea": "Graphite conducts because each carbon has {1} free electron.",
+    "vars": {},
+    "example": [
+     "Graphite electrodes are used in electrolysis."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-26-use-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Diamond is used on the tips of drills for drilling wells.",
+         "r": "it is extremely hard",
+         "w": [
+          "it conducts electricity",
+          "it is slippery",
+          "it is shiny"
+         ],
+         "e": [
+          "Diamond does not conduct.",
+          "Diamond is not slippery.",
+          "Shine is not why it is used for drilling."
+         ],
+         "y": "Only something very hard can cut through rock."
+        },
+        {
+         "q": "Graphite is used as a lubricant in machines.",
+         "r": "its layers slide over each other easily",
+         "w": [
+          "it is very hard",
+          "it is transparent",
+          "it dissolves in oil"
+         ],
+         "e": [
+          "Graphite is soft.",
+          "Graphite is black.",
+          "It is insoluble; it works because it is slippery."
+         ],
+         "y": "Sliding layers reduce friction."
+        },
+        {
+         "q": "Graphite is used for electrodes in electrolysis.",
+         "r": "it conducts electricity and has a high melting point",
+         "w": [
+          "it is very hard",
+          "it is a good insulator",
+          "it dissolves in water"
+         ],
+         "e": [
+          "Hardness is not needed for an electrode.",
+          "An electrode must conduct.",
+          "Graphite is insoluble."
+         ],
+         "y": "Free electrons carry current; the high m.p. resists heat."
+        }
+       ]
+      }
+     },
+     "prompt": "Which property explains this use? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-26-bonds",
+   "type": "numeric",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "diamond",
+       "k": 4,
+       "s": "In diamond all four outer electrons form bonds in a 3-D network."
+      },
+      {
+       "n": "graphite",
+       "k": 3,
+       "s": "In graphite three electrons form bonds in a flat layer; the fourth is free."
+      }
+     ]
+    }
+   },
+   "prompt": "In {X.n}, to how many other carbon atoms is each carbon atom covalently bonded?",
+   "answer": "X.k",
+   "misconceptions": [
+    {
+     "id": "other",
+     "wrong": "7 - X.k",
+     "explain": "{X.n == 'diamond' ? 'That is graphite. In diamond all four outer electrons bond.' : 'That is diamond. In graphite one electron per carbon is free.'}"
+    }
+   ],
+   "solution": [
+    "{X.s}",
+    "So each carbon is bonded to {answer} others."
+   ]
+  },
+  {
+   "id": "k3-26-prop",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is diamond very hard?",
+       "r": "Each carbon is held by four strong covalent bonds in a rigid 3-D network",
+       "w": [
+        "It has free electrons",
+        "Its layers slide easily",
+        "It is ionic"
+       ],
+       "e": [
+        "Diamond has no free electrons.",
+        "That describes graphite.",
+        "Diamond is covalent."
+       ],
+       "y": "Breaking it means breaking many strong bonds."
+      },
+      {
+       "q": "Why is graphite soft and slippery?",
+       "r": "Its layers are held only by weak forces and slide over each other",
+       "w": [
+        "It has no covalent bonds",
+        "It is a metal",
+        "Its atoms are not bonded"
+       ],
+       "e": [
+        "The bonds within each layer are strong covalent bonds.",
+        "Graphite is a non-metal.",
+        "Atoms within a layer are strongly bonded."
+       ],
+       "y": "Weak forces between layers."
+      },
+      {
+       "q": "What are diamond and graphite?",
+       "r": "two forms (allotropes) of pure carbon",
+       "w": [
+        "two compounds of carbon and oxygen",
+        "a metal and a non-metal",
+        "two different elements"
+       ],
+       "e": [
+        "Both are pure carbon.",
+        "Both are forms of the non-metal carbon.",
+        "Both are the element carbon."
+       ],
+       "y": "Same element, different structures."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-26-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Diamond is used on the tips of drills for drilling wells.",
+       "r": "it is extremely hard",
+       "w": [
+        "it conducts electricity",
+        "it is slippery",
+        "it is shiny"
+       ],
+       "e": [
+        "Diamond does not conduct.",
+        "Diamond is not slippery.",
+        "Shine is not why it is used for drilling."
+       ],
+       "y": "Only something very hard can cut through rock."
+      },
+      {
+       "q": "Graphite is used as a lubricant in machines.",
+       "r": "its layers slide over each other easily",
+       "w": [
+        "it is very hard",
+        "it is transparent",
+        "it dissolves in oil"
+       ],
+       "e": [
+        "Graphite is soft.",
+        "Graphite is black.",
+        "It is insoluble; it works because it is slippery."
+       ],
+       "y": "Sliding layers reduce friction."
+      },
+      {
+       "q": "Graphite is used for electrodes in electrolysis.",
+       "r": "it conducts electricity and has a high melting point",
+       "w": [
+        "it is very hard",
+        "it is a good insulator",
+        "it dissolves in water"
+       ],
+       "e": [
+        "Hardness is not needed for an electrode.",
+        "An electrode must conduct.",
+        "Graphite is insoluble."
+       ],
+       "y": "Free electrons carry current; the high m.p. resists heat."
+      }
+     ]
+    }
+   },
+   "prompt": "Which property explains this use? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-26-explain",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Both diamond and graphite have very high melting points. Why?",
+       "r": "Both are giant structures with many strong covalent bonds to break",
+       "w": [
+        "Both have free electrons",
+        "Both are ionic",
+        "Both are made of small molecules"
+       ],
+       "e": [
+        "Only graphite has free electrons.",
+        "Both are covalent.",
+        "Small molecules would melt easily."
+       ],
+       "y": "Melting means breaking strong covalent bonds throughout."
+      },
+      {
+       "q": "Pencil 'lead' leaves a mark on paper. Why?",
+       "r": "Layers of graphite slide off onto the paper",
+       "w": [
+        "Lead metal rubs off",
+        "Diamond scratches the paper",
+        "The carbon melts"
+       ],
+       "e": [
+        "Pencils contain graphite, not lead metal.",
+        "Pencils contain graphite.",
+        "Graphite does not melt at room temperature."
+       ],
+       "y": "Weak forces between layers let them flake off."
+      },
+      {
+       "q": "Why does diamond not conduct electricity although it is carbon like graphite?",
+       "r": "All its outer electrons are used in bonds, so none are free",
+       "w": [
+        "It is a metal",
+        "Its ions are fixed",
+        "It contains water"
+       ],
+       "e": [
+        "Diamond is a non-metal.",
+        "Diamond has no ions.",
+        "Diamond is dry."
+       ],
+       "y": "Conduction needs free electrons; diamond has none."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

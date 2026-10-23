@@ -1,0 +1,585 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "k3-18",
+   "name": "Properties of ionic compounds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ionic compounds form giant lattices of ions held by strong electrostatic forces. So they:\n• have high melting and boiling points (much energy is needed to separate the ions), e.g. NaCl melts at 801 °C;\n• are hard but brittle crystalline solids at room temperature;\n• are often soluble in water but insoluble in organic solvents (petrol, kerosene);\n• do not conduct electricity when solid (ions cannot move) but do conduct when molten or dissolved in water (ions free to move).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "A giant lattice of ions",
+    "text": "An ionic compound is not made of separate molecules. Millions of positive and negative ions are packed in a regular three-dimensional pattern called a giant ionic lattice.\nEvery ion is attracted strongly by the oppositely charged ions around it. These strong forces explain the properties."
+   },
+   {
+    "heading": "High melting points, brittle crystals",
+    "text": "Melting means freeing the ions, which needs a lot of energy: salt melts at about {801} °C, magnesium oxide at about {2800} °C.\nIonic compounds are hard crystals, but brittle: a sharp blow shifts the layers so that ions of the same charge meet, they repel, and the crystal shatters."
+   },
+   {
+    "heading": "Dissolving and conducting",
+    "text": "Many ionic compounds dissolve in water, because water molecules attract the ions and pull them apart; they do not dissolve in kerosene or petrol.\nTo conduct electricity, charged particles must move. In the solid the ions are fixed, so it does not conduct. Molten or dissolved, the ions move freely, so it conducts."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "giant ionic lattice",
+    "meaning": "a huge regular arrangement of ions"
+   },
+   {
+    "word": "brittle",
+    "meaning": "breaks into pieces when hit"
+   },
+   {
+    "word": "electrolyte",
+    "meaning": "a molten or dissolved ionic compound that conducts"
+   }
+  ],
+  "examples": [
+   "NaCl: m.p. {801} °C, soluble, conducts in solution",
+   "MgO: very high m.p., used to line furnaces"
+  ],
+  "mistake": {
+   "wrong": "Solid salt conducts because it contains ions",
+   "right": "Solid salt does not conduct: its ions cannot move",
+   "why": "Ions must be free to move to carry a current."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain why solid salt does not conduct electricity but salt water does.",
+  "steps": [
+   "Electricity needs charged particles that can move.",
+   "In solid salt the ions are held in fixed positions in the lattice.",
+   "When salt dissolves, the ions separate and move freely, so the solution conducts."
+  ],
+  "answer": "The ions can move only when dissolved (or molten)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k18-1",
+    "status": "draft",
+    "idea": "Strong forces between ions: high melting points.",
+    "vars": {},
+    "example": [
+     "Salt melts at about {801} °C."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-18-mp"
+    }
+   },
+   {
+    "id": "c3k18-2",
+    "status": "draft",
+    "idea": "Ionic compounds conduct only when molten or dissolved.",
+    "vars": {},
+    "example": [
+     "The ions must be free to move."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-18-cond"
+    }
+   },
+   {
+    "id": "c3k18-3",
+    "status": "draft",
+    "idea": "Many ionic compounds dissolve in water, not in kerosene.",
+    "vars": {},
+    "example": [
+     "Salt dissolves in water; it does not dissolve in kerosene."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-18-sol-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "bonding"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Common salt is mixed with kerosene. What happens?",
+         "r": "It does not dissolve",
+         "w": [
+          "It dissolves quickly",
+          "It melts",
+          "It burns"
+         ],
+         "e": [
+          "Ionic compounds dissolve in water, not organic solvents.",
+          "Salt melts at 801 °C.",
+          "Salt does not burn."
+         ],
+         "y": "Ionic compounds are generally insoluble in organic solvents."
+        },
+        {
+         "q": "Which property is typical of an ionic compound?",
+         "r": "brittle: it shatters when hit",
+         "w": [
+          "bends easily",
+          "low boiling point",
+          "conducts when solid"
+         ],
+         "e": [
+          "Metals bend; ionic crystals break.",
+          "Ionic compounds have high boiling points.",
+          "Solid ionic compounds do not conduct."
+         ],
+         "y": "Shifting the layers brings like charges together, so the crystal splits."
+        },
+        {
+         "q": "Why do many ionic compounds dissolve in water?",
+         "r": "Water molecules attract and separate the ions",
+         "w": [
+          "Water melts them",
+          "They react to form gases",
+          "Water contains free electrons"
+         ],
+         "e": [
+          "Dissolving is not melting.",
+          "No gas is formed.",
+          "Water has no free electrons."
+         ],
+         "y": "The ions spread out among the water molecules."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-18-mp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does sodium chloride have a high melting point?",
+       "r": "Strong forces hold the ions together in a giant lattice",
+       "w": [
+        "Its molecules are very heavy",
+        "It contains a metal that is hard to melt",
+        "Weak forces between molecules"
+       ],
+       "e": [
+        "It has no separate molecules; it is a lattice of ions.",
+        "It is the ionic bonding, not the metal, that matters.",
+        "Weak forces would give a low melting point."
+       ],
+       "y": "Much energy is needed to break the many strong ionic bonds."
+      },
+      {
+       "q": "At room temperature, ionic compounds are usually…",
+       "r": "crystalline solids",
+       "w": [
+        "gases",
+        "liquids",
+        "soft waxy solids"
+       ],
+       "e": [
+        "Strong bonds keep them solid.",
+        "Their melting points are high.",
+        "They are hard and brittle."
+       ],
+       "y": "High melting points: solid at room temperature."
+      },
+      {
+       "q": "Which has the highest melting point?",
+       "r": "magnesium oxide (ionic)",
+       "w": [
+        "water (covalent)",
+        "methane (covalent)",
+        "oxygen (covalent)"
+       ],
+       "e": [
+        "Water melts at 0 °C.",
+        "Methane is a gas.",
+        "Oxygen is a gas."
+       ],
+       "y": "Ionic lattices have high melting points."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-18-cond",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When does an ionic compound conduct electricity?",
+       "r": "when molten or dissolved in water",
+       "w": [
+        "when solid",
+        "never",
+        "only when frozen"
+       ],
+       "e": [
+        "In the solid the ions cannot move.",
+        "It does conduct when the ions are free.",
+        "Frozen means solid: no movement."
+       ],
+       "y": "Moving ions carry the current."
+      },
+      {
+       "q": "What carries the current in molten sodium chloride?",
+       "r": "moving Na⁺ and Cl⁻ ions",
+       "w": [
+        "free electrons",
+        "water molecules",
+        "protons"
+       ],
+       "e": [
+        "Free electrons carry current in metals.",
+        "There is no water in the melt.",
+        "Protons stay in the nuclei."
+       ],
+       "y": "In ionic liquids, ions carry the current."
+      },
+      {
+       "q": "Why does solid potassium chloride not conduct electricity?",
+       "r": "Its ions are fixed in place",
+       "w": [
+        "It has no ions",
+        "It contains no metal",
+        "Its electrons are free"
+       ],
+       "e": [
+        "It is made of ions.",
+        "Potassium is a metal.",
+        "Free electrons would make it conduct."
+       ],
+       "y": "Charged particles must move to carry current."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-18-sol",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Common salt is mixed with kerosene. What happens?",
+       "r": "It does not dissolve",
+       "w": [
+        "It dissolves quickly",
+        "It melts",
+        "It burns"
+       ],
+       "e": [
+        "Ionic compounds dissolve in water, not organic solvents.",
+        "Salt melts at 801 °C.",
+        "Salt does not burn."
+       ],
+       "y": "Ionic compounds are generally insoluble in organic solvents."
+      },
+      {
+       "q": "Which property is typical of an ionic compound?",
+       "r": "brittle: it shatters when hit",
+       "w": [
+        "bends easily",
+        "low boiling point",
+        "conducts when solid"
+       ],
+       "e": [
+        "Metals bend; ionic crystals break.",
+        "Ionic compounds have high boiling points.",
+        "Solid ionic compounds do not conduct."
+       ],
+       "y": "Shifting the layers brings like charges together, so the crystal splits."
+      },
+      {
+       "q": "Why do many ionic compounds dissolve in water?",
+       "r": "Water molecules attract and separate the ions",
+       "w": [
+        "Water melts them",
+        "They react to form gases",
+        "Water contains free electrons"
+       ],
+       "e": [
+        "Dissolving is not melting.",
+        "No gas is formed.",
+        "Water has no free electrons."
+       ],
+       "y": "The ions spread out among the water molecules."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-18-ident",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "bonding"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A white solid melts at 770 °C, dissolves in water, and its solution conducts electricity. What type of substance is it?",
+       "r": "ionic",
+       "w": [
+        "simple covalent",
+        "metallic",
+        "a noble gas"
+       ],
+       "e": [
+        "Simple covalent substances have low melting points and do not conduct.",
+        "Metals conduct as solids and do not dissolve in water.",
+        "Noble gases are gases."
+       ],
+       "y": "High melting point, soluble, conducts in solution: ionic."
+      },
+      {
+       "q": "Which result shows a substance is NOT ionic?",
+       "r": "It melts at 45 °C",
+       "w": [
+        "It dissolves in water",
+        "Its melt conducts electricity",
+        "It is a hard crystal"
+       ],
+       "e": [
+        "Many ionic compounds dissolve in water.",
+        "Molten ionic compounds conduct.",
+        "Ionic compounds are hard crystals."
+       ],
+       "y": "A low melting point means weak forces: not ionic."
+      },
+      {
+       "q": "A compound conducts when molten but not when solid. Its bonding is…",
+       "r": "ionic",
+       "w": [
+        "metallic",
+        "covalent",
+        "none"
+       ],
+       "e": [
+        "Metals conduct when solid too.",
+        "Covalent compounds do not conduct when molten.",
+        "It must be bonded."
+       ],
+       "y": "Ions become free to move when it melts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

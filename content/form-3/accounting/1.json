@@ -1,0 +1,545 @@
+{
+ "subject": "accounting",
+ "class": "Form 3",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "a3-1",
+   "name": "OHADA, the chart of accounts, enterprises and double entry"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "OHADA (Organisation for the Harmonisation of Business Law in Africa) was created by a treaty signed in Port Louis in 1993; Cameroon is a member. Its accounting law, SYSCOHADA (revised in 2017), gives member states the same accounting rules.\nThe chart of accounts groups accounts in classes by their first digit:\n1 equity and long-term liabilities (101 Capital, 162 Loans) · 2 fixed assets (231 Buildings, 245 Transport equipment) · 3 stocks (311 Goods) · 4 third parties (401 Suppliers, 411 Customers, 443 VAT invoiced) · 5 treasury (521 Bank, 571 Cash) · 6 expenses (601 Purchases of goods, 661 Salaries) · 7 income (701 Sales of goods) · 8 other income and expenses.\nEnterprises: sole traders, partnerships and companies (SARL, SA) in trade, industry or services.\nDouble entry: every transaction affects at least two accounts; total debits = total credits.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "OHADA and SYSCOHADA",
+    "text": "OHADA is the Organisation for the Harmonisation of Business Law in Africa. Its treaty was signed in Port Louis in {1993}, and Cameroon is one of its member states.\nOHADA makes 'uniform acts' that apply in all member states. The accounting one is SYSCOHADA (revised in {2017}): the same accounts and rules from Douala to Dakar, so accounts can be understood across borders."
+   },
+   {
+    "heading": "The chart of accounts",
+    "text": "Each account has a number; its first digit gives its class:\n• {1} equity and long-term liabilities (Capital, Loans)\n• {2} fixed assets (Buildings, Equipment, Vehicles)\n• {3} stocks (Goods, Raw materials)\n• {4} third parties (Suppliers, Customers, Staff, State/VAT)\n• {5} treasury (Bank, Cash)\n• {6} expenses (Purchases, Salaries, Electricity)\n• {7} income (Sales, Services)\n• {8} other income and expenses."
+   },
+   {
+    "heading": "Enterprises and double entry",
+    "text": "Enterprises may be sole traders, partnerships or companies (SARL, SA), working in trade, industry or services.\nEvery transaction has two sides. In double entry each transaction is recorded in at least two accounts: one debited and one credited for the same amount. So total debits always equal total credits.\nA cash sale: debit Cash (money comes in), credit Sales (income earned)."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "OHADA",
+    "meaning": "organisation harmonising business law in member African states"
+   },
+   {
+    "word": "SYSCOHADA",
+    "meaning": "the OHADA accounting system"
+   },
+   {
+    "word": "chart of accounts",
+    "meaning": "the numbered list of accounts grouped in classes"
+   },
+   {
+    "word": "double entry",
+    "meaning": "recording each transaction as an equal debit and credit"
+   }
+  ],
+  "examples": [
+   "{'101 Capital'}: class {1}",
+   "{'601 Purchases of goods'}: class {6}",
+   "{'411 Customers'}: class {4}"
+  ],
+  "mistake": {
+   "wrong": "Sales ({'701'}) is an expense account",
+   "right": "Sales is an income account in class {7}",
+   "why": "Class {6} holds expenses; class {7} holds income."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In which class are these accounts: {'571 Cash'}, {'601 Purchases of goods'}, {'101 Capital'}?",
+  "steps": [
+   "The first digit gives the class.",
+   "{'571'} → class {5} (treasury); {'601'} → class {6} (expenses); {'101'} → class {1} (equity)."
+  ],
+  "answer": "Class {5}, class {6} and class {1}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3a1-1",
+    "status": "draft",
+    "idea": "OHADA gives member states one set of business and accounting rules (SYSCOHADA).",
+    "vars": {},
+    "example": [
+     "Cameroon, Senegal, Côte d'Ivoire and others"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-1-ohada"
+    }
+   },
+   {
+    "id": "c3a1-2",
+    "status": "draft",
+    "idea": "The first digit of an account number gives its class.",
+    "vars": {},
+    "example": [
+     "{'521 Bank'} is in class {5}: treasury."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a3-1-class"
+    }
+   },
+   {
+    "id": "c3a1-3",
+    "status": "draft",
+    "idea": "Double entry: every debit has an equal credit.",
+    "vars": {},
+    "example": [
+     "Cash sale: debit Cash, credit Sales."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a3-1-double-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ohada"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does double entry mean?",
+         "r": "Every transaction is recorded in at least two accounts, with equal debits and credits",
+         "w": [
+          "Every transaction is written twice in the same account",
+          "Only cash transactions are recorded",
+          "Debits are always bigger than credits"
+         ],
+         "e": [
+          "It uses two (or more) different accounts.",
+          "All transactions are recorded.",
+          "Debits always equal credits."
+         ],
+         "y": "Each transaction has a giving and a receiving side."
+        },
+        {
+         "q": "A trader sells goods for cash. Which accounts are affected?",
+         "r": "571 Cash (debit) and 701 Sales (credit)",
+         "w": [
+          "571 Cash only",
+          "601 Purchases and 401 Suppliers",
+          "101 Capital and 162 Loans"
+         ],
+         "e": [
+          "Double entry needs two accounts.",
+          "Those are for buying on credit.",
+          "Those are financing accounts."
+         ],
+         "y": "Cash comes in; sales income is earned."
+        },
+        {
+         "q": "Which type of enterprise is owned by one person?",
+         "r": "a sole trader",
+         "w": [
+          "a public limited company (SA)",
+          "a partnership",
+          "a cooperative"
+         ],
+         "e": [
+          "An SA has many shareholders.",
+          "A partnership has two or more partners.",
+          "A cooperative has many members."
+         ],
+         "y": "Many small shops are sole traders."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a3-1-ohada",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is OHADA?",
+       "r": "An organisation that harmonises business law, including accounting, in member African states",
+       "w": [
+        "A bank in Douala",
+        "A tax paid on sales",
+        "A type of company"
+       ],
+       "e": [
+        "It is not a bank.",
+        "That is VAT.",
+        "Companies are SARL, SA and others."
+       ],
+       "y": "Its uniform acts apply in all member states."
+      },
+      {
+       "q": "What is SYSCOHADA?",
+       "r": "The OHADA accounting system and chart of accounts",
+       "w": [
+        "A Cameroonian bank",
+        "A spreadsheet program",
+        "A customs form"
+       ],
+       "e": [
+        "It is not a bank.",
+        "It is a set of rules, not software.",
+        "It is not a customs document."
+       ],
+       "y": "It sets out the accounts and how to keep them."
+      },
+      {
+       "q": "Where and when was the OHADA treaty signed?",
+       "r": "Port Louis, 1993",
+       "w": [
+        "Yaoundé, 1960",
+        "Paris, 2017",
+        "Douala, 2000"
+       ],
+       "e": [
+        "1960 is Cameroon's independence.",
+        "2017 is the revision of SYSCOHADA.",
+        "Not the treaty date."
+       ],
+       "y": "Signed in Port Louis (Mauritius) in 1993."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-1-class",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "571 Cash",
+       "r": "class 5 (treasury)",
+       "w": [
+        "class 7 (income)",
+        "class 1 (equity)",
+        "class 6 (expenses)"
+       ],
+       "e": [
+        "Income accounts start with 7.",
+        "Equity starts with 1.",
+        "Expenses start with 6."
+       ],
+       "y": "The first digit is 5."
+      },
+      {
+       "q": "701 Sales of goods",
+       "r": "class 7 (income)",
+       "w": [
+        "class 6 (expenses)",
+        "class 4 (third parties)",
+        "class 2 (fixed assets)"
+       ],
+       "e": [
+        "Sales are income, not expenses.",
+        "Third parties start with 4.",
+        "Fixed assets start with 2."
+       ],
+       "y": "The first digit is 7."
+      },
+      {
+       "q": "245 Transport equipment",
+       "r": "class 2 (fixed assets)",
+       "w": [
+        "class 3 (stocks)",
+        "class 5 (treasury)",
+        "class 6 (expenses)"
+       ],
+       "e": [
+        "Stocks start with 3.",
+        "Treasury starts with 5.",
+        "Expenses start with 6."
+       ],
+       "y": "A vehicle used for years is a fixed asset."
+      },
+      {
+       "q": "401 Suppliers",
+       "r": "class 4 (third parties)",
+       "w": [
+        "class 1 (equity)",
+        "class 6 (expenses)",
+        "class 5 (treasury)"
+       ],
+       "e": [
+        "Equity starts with 1.",
+        "Expenses start with 6.",
+        "Treasury starts with 5."
+       ],
+       "y": "Suppliers and customers are third parties."
+      }
+     ]
+    }
+   },
+   "prompt": "In which class is this account? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-1-double",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does double entry mean?",
+       "r": "Every transaction is recorded in at least two accounts, with equal debits and credits",
+       "w": [
+        "Every transaction is written twice in the same account",
+        "Only cash transactions are recorded",
+        "Debits are always bigger than credits"
+       ],
+       "e": [
+        "It uses two (or more) different accounts.",
+        "All transactions are recorded.",
+        "Debits always equal credits."
+       ],
+       "y": "Each transaction has a giving and a receiving side."
+      },
+      {
+       "q": "A trader sells goods for cash. Which accounts are affected?",
+       "r": "571 Cash (debit) and 701 Sales (credit)",
+       "w": [
+        "571 Cash only",
+        "601 Purchases and 401 Suppliers",
+        "101 Capital and 162 Loans"
+       ],
+       "e": [
+        "Double entry needs two accounts.",
+        "Those are for buying on credit.",
+        "Those are financing accounts."
+       ],
+       "y": "Cash comes in; sales income is earned."
+      },
+      {
+       "q": "Which type of enterprise is owned by one person?",
+       "r": "a sole trader",
+       "w": [
+        "a public limited company (SA)",
+        "a partnership",
+        "a cooperative"
+       ],
+       "e": [
+        "An SA has many shareholders.",
+        "A partnership has two or more partners.",
+        "A cooperative has many members."
+       ],
+       "y": "Many small shops are sole traders."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "a3-1-num",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "ohada"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      50000,
+      900000
+     ],
+     "step": 5000
+    }
+   },
+   "prompt": "Total debits in a journal are {d} FCFA. Every entry is balanced. What are the total credits (FCFA)?",
+   "answer": "d",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "d / 2",
+     "explain": "Debits and credits are equal in total; nothing is halved."
+    },
+    {
+     "id": "double",
+     "wrong": "2 * d",
+     "explain": "They are equal, not double."
+    }
+   ],
+   "solution": [
+    "In double entry, total debits always equal total credits.",
+    "Total credits = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

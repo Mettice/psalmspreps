@@ -1,0 +1,481 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "m3-14",
+   "name": "Direct and inverse variation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "y varies directly as x (y ∝ x) means y = kx for a constant k: when x doubles, y doubles.\ny varies inversely as x (y ∝ 1/x) means y = k ÷ x: when x doubles, y halves.\nVariation can be with a power: y ∝ x² means y = kx²; y ∝ √x means y = k√x.\nMethod: write the equation with k, use the given pair of values to find k, write the full formula, then use it.\nExample: y ∝ x and y = 12 when x = 4: k = 3, so y = 3x; when x = 10, y = 30.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Things that grow together",
+    "text": "At a market, Bih buys tomatoes at a fixed price per heap. Twice as many heaps cost twice as much: the cost varies directly as the number of heaps.\nIn symbols: cost ∝ heaps, or cost = k × heaps, where k is the price of one heap (the constant of variation).\nAny direct variation y = kx has a straight-line graph through the origin."
+   },
+   {
+    "heading": "Things that go opposite ways",
+    "text": "A journey of {120} km: at {60} km/h it takes {2} hours, at {40} km/h it takes {3} hours. Faster speed, less time: time varies inversely as speed.\nIn symbols: t = k ÷ v, and here k = {120}. Multiply the two quantities and you always get k.\nWhen one doubles, the other halves."
+   },
+   {
+    "heading": "The method",
+    "text": "• Write the variation with k: y = kx, y = k ÷ x, y = kx², …\n• Put in the pair of values you are given and solve for k.\n• Write the formula with the value of k.\n• Use it to answer the question.\nExample: y ∝ x², and y = {50} when x = {5}: {50} = k × {25}, so k = {2} and y = {mono(2, 'x²')}. When x = {3}, y = {18}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "direct variation",
+    "meaning": "y = kx: both increase in the same ratio"
+   },
+   {
+    "word": "inverse variation",
+    "meaning": "y = k ÷ x: one doubles, the other halves"
+   },
+   {
+    "word": "constant of variation",
+    "meaning": "the fixed number k"
+   }
+  ],
+  "examples": [
+   "Cost of exercise books ∝ number of books",
+   "Time for a journey ∝ {1} ÷ speed",
+   "Area of a circle ∝ r²"
+  ],
+  "mistake": {
+   "wrong": "y ∝ x², y = {12} when x = {2}: k = {6}",
+   "right": "{12} = k × {2}² = {mono(4, 'k')}, so k = {3}",
+   "why": "Put the square into the equation before finding k: y = kx² means k = y ÷ x²."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x1": 4,
+   "y1": 12,
+   "x2": 10
+  },
+  "problem": "y varies directly as x, and y = {y1} when x = {x1}. Find y when x = {x2}.",
+  "steps": [
+   "y = kx.",
+   "{y1} = k × {x1}, so k = {y1 / x1}.",
+   "The formula is y = {mono(y1 / x1, 'x')}.",
+   "When x = {x2}: y = {y1 / x1} × {x2} = {y1 / x1 * x2}."
+  ],
+  "answer": "y = {y1 / x1 * x2}",
+  "checks": [
+   "y1 / x1 == 3"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m14-1",
+    "status": "draft",
+    "idea": "Direct variation: y = kx. Find k from one pair of values.",
+    "vars": {},
+    "example": [
+     "y = {12} when x = {4}: k = {3}, so y = {mono(3, 'x')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-14-direct"
+    }
+   },
+   {
+    "id": "c3m14-2",
+    "status": "draft",
+    "idea": "Inverse variation: y = k ÷ x. As x increases, y decreases.",
+    "vars": {},
+    "example": [
+     "y = {6} when x = {4}: k = {24}, so y = {24} ÷ x; when x = {8}, y = {3}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-14-form"
+    }
+   },
+   {
+    "id": "c3m14-3",
+    "status": "draft",
+    "idea": "With a square: y = kx². If x doubles, y is multiplied by four.",
+    "vars": {},
+    "example": [
+     "y = {mono(2, 'x²')}: x = {3} gives y = {18}; x = {6} gives y = {72}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-14-square-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "variation"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        5
+       ]
+      },
+      "x1": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "x2": {
+       "int": [
+        2,
+        10
+       ]
+      }
+     },
+     "prompt": "y varies directly as x², and y = {k * x1 * x1} when x = {x1}. Find y when x = {x2}.",
+     "answer": "k * x2 * x2",
+     "misconceptions": [
+      {
+       "id": "lin",
+       "wrong": "k * x1 * x1 / x1 * x2",
+       "explain": "That treats it as y = kx. Here y = kx²: square x = {x2}."
+      },
+      {
+       "id": "nosq",
+       "wrong": "k * x2",
+       "explain": "Square x first: {x2}² = {x2 * x2}."
+      }
+     ],
+     "solution": [
+      "y = kx²: {k * x1 * x1} = k × {x1 * x1}, so k = {k}.",
+      "y = {k} × {x2}² = {k} × {x2 * x2} = {answer}."
+     ],
+     "where": [
+      "x1 != x2",
+      "x2 != 1"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-14-direct",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "x1": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "x2": {
+     "int": [
+      2,
+      20
+     ]
+    }
+   },
+   "prompt": "y varies directly as x, and y = {k * x1} when x = {x1}. Find y when x = {x2}.",
+   "answer": "k * x2",
+   "misconceptions": [
+    {
+     "id": "inv",
+     "wrong": "k * x1 * x1 / x2",
+     "explain": "That uses inverse variation. Direct: y = kx, so y grows with x."
+    },
+    {
+     "id": "k",
+     "wrong": "k",
+     "explain": "{k} is the constant k. Now use y = {mono(k, 'x')} with x = {x2}."
+    }
+   ],
+   "solution": [
+    "y = kx: {k * x1} = k × {x1}, so k = {k}.",
+    "y = {k} × {x2} = {answer}."
+   ],
+   "where": [
+    "x1 != x2",
+    "k * x1 * x1 / x2 != k * x2"
+   ]
+  },
+  {
+   "id": "m3-14-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "y varies inversely as x. Which formula is right?",
+       "r": "y = k ÷ x",
+       "w": [
+        "y = kx",
+        "y = k + x",
+        "y = kx²"
+       ],
+       "e": [
+        "y = kx is direct variation.",
+        "Variation uses multiplying or dividing by k, not adding.",
+        "y = kx² is direct variation with the square of x."
+       ],
+       "y": "Inverse variation: y = k ÷ x."
+      },
+      {
+       "q": "y varies directly as the square of x. Which formula is right?",
+       "r": "y = kx²",
+       "w": [
+        "y = k ÷ x²",
+        "y = (kx)²",
+        "y = kx"
+       ],
+       "e": [
+        "Dividing by x² is inverse variation.",
+        "Only x is squared; k is not.",
+        "That is direct variation with x, not x²."
+       ],
+       "y": "Directly as the square: y = kx²."
+      },
+      {
+       "q": "y varies inversely as the square root of x. Which formula is right?",
+       "r": "y = k ÷ √x",
+       "w": [
+        "y = k√x",
+        "y = √(k ÷ x)",
+        "y = k ÷ x²"
+       ],
+       "e": [
+        "k√x is direct variation with √x.",
+        "k is not under the root.",
+        "That is the square, not the square root."
+       ],
+       "y": "Inversely as √x: y = k ÷ √x."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m3-14-inv",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "K": {
+     "pick": [
+      24,
+      36,
+      48,
+      60,
+      72,
+      120
+     ]
+    },
+    "x1": {
+     "pick": [
+      2,
+      3,
+      4,
+      6
+     ]
+    },
+    "x2": {
+     "pick": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      12
+     ]
+    }
+   },
+   "prompt": "y varies inversely as x, and y = {K / x1} when x = {x1}. Find y when x = {x2}.",
+   "answer": "K / x2",
+   "misconceptions": [
+    {
+     "id": "dir",
+     "wrong": "K / x1 / x1 * x2",
+     "explain": "That uses direct variation. Inverse: as x grows, y gets smaller."
+    },
+    {
+     "id": "k",
+     "wrong": "K",
+     "explain": "{K} is the constant k. Now y = {K} ÷ {x2}."
+    }
+   ],
+   "solution": [
+    "y = k ÷ x: {K / x1} = k ÷ {x1}, so k = {K}.",
+    "y = {K} ÷ {x2} = {answer}."
+   ],
+   "where": [
+    "x1 != x2",
+    "K % x2 == 0",
+    "K / x1 / x1 * x2 != K / x2",
+    "K / x1 / x1 * x2 != K"
+   ]
+  },
+  {
+   "id": "m3-14-square",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "x1": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "x2": {
+     "int": [
+      2,
+      10
+     ]
+    }
+   },
+   "prompt": "y varies directly as x², and y = {k * x1 * x1} when x = {x1}. Find y when x = {x2}.",
+   "answer": "k * x2 * x2",
+   "misconceptions": [
+    {
+     "id": "lin",
+     "wrong": "k * x1 * x1 / x1 * x2",
+     "explain": "That treats it as y = kx. Here y = kx²: square x = {x2}."
+    },
+    {
+     "id": "nosq",
+     "wrong": "k * x2",
+     "explain": "Square x first: {x2}² = {x2 * x2}."
+    }
+   ],
+   "solution": [
+    "y = kx²: {k * x1 * x1} = k × {x1 * x1}, so k = {k}.",
+    "y = {k} × {x2}² = {k} × {x2 * x2} = {answer}."
+   ],
+   "where": [
+    "x1 != x2",
+    "x2 != 1"
+   ]
+  },
+  {
+   "id": "m3-14-work",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "variation"
+   ],
+   "vars": {
+    "w1": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "d1": {
+     "int": [
+      3,
+      20
+     ]
+    },
+    "w2": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "{w1} workers can build a classroom wall in {d1} days. Working at the same rate, how many days would {w2} workers take?",
+   "answer": "w1 * d1 / w2",
+   "misconceptions": [
+    {
+     "id": "dir",
+     "wrong": "d1 * w2 / w1",
+     "explain": "With more workers the wall takes fewer days: this is inverse variation, not direct."
+    }
+   ],
+   "solution": [
+    "More workers, fewer days: days vary inversely as workers. days = k ÷ workers.",
+    "k = {w1} × {d1} = {w1 * d1}; days = {w1 * d1} ÷ {w2} = {answer}."
+   ],
+   "unit": "days",
+   "where": [
+    "w1 != w2",
+    "(w1 * d1) % w2 == 0",
+    "d1 * w2 / w1 != w1 * d1 / w2"
+   ]
+  }
+ ]
+}

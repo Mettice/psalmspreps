@@ -1,0 +1,506 @@
+{
+ "subject": "chemistry",
+ "class": "Form 3",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "k3-7",
+   "name": "A mole of atoms and the Avogadro constant"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "One mole of any substance contains 6.02 × 10²³ particles (atoms, molecules or ions). This number is the Avogadro constant, L or Nₐ.\n• Number of particles = moles × 6.02 × 10²³.\n• Moles = number of particles ÷ 6.02 × 10²³.\n• 12 g of carbon (1 mol) and 24 g of magnesium (1 mol) contain the same number of atoms: 6.02 × 10²³.\nCombine with mass: atoms = (mass ÷ molar mass) × 6.02 × 10²³.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "How many in a mole?",
+    "text": "A dozen means {12}; a ream of paper means {500} sheets. A mole means {6.02} × {10}{sup(23)} particles.\nThis huge number is the Avogadro constant (L). It was chosen so that {12} g of carbon-{12} contains exactly one mole of atoms.\n{6.02} × {10}{sup(23)} is {602000} million million million: if you counted one atom every second, it would take far longer than the age of the universe."
+   },
+   {
+    "heading": "Particles and moles",
+    "text": "• particles = moles × {6.02} × {10}{sup(23)}\n• moles = particles ÷ ({6.02} × {10}{sup(23)})\n{2} mol of copper contains {2} × {6.02} × {10}{sup(23)} = {12.04} × {10}{sup(23)} = {1.204} × {10}{sup(24)} atoms.\n{3.01} × {10}{sup(23)} atoms is half a mole."
+   },
+   {
+    "heading": "From grams to atoms",
+    "text": "Go through moles:\n• grams → moles: divide by the molar mass;\n• moles → atoms: multiply by {6.02} × {10}{sup(23)}.\n{46} g of sodium (Na = {23}) is {2} mol, which is {12.04} × {10}{sup(23)} atoms. Equal numbers of moles always contain equal numbers of particles."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "Avogadro constant",
+    "meaning": "{6.02} × {10}{sup(23)} particles per mole"
+   },
+   {
+    "word": "particle",
+    "meaning": "an atom, molecule or ion"
+   },
+   {
+    "word": "standard form",
+    "meaning": "a × {10}ⁿ with {1} ≤ a < {10}"
+   }
+  ],
+  "examples": [
+   "{0.5} mol = {3.01} × {10}{sup(23)} atoms",
+   "{3} mol = {1.806} × {10}{sup(24)} atoms",
+   "{64} g of copper (Cu = {64}) = {6.02} × {10}{sup(23)} atoms"
+  ],
+  "mistake": {
+   "wrong": "{2} mol = {6.02} × {10}{sup(23)} atoms",
+   "right": "{2} mol = {2} × {6.02} × {10}{sup(23)} = {1.204} × {10}{sup(24)} atoms",
+   "why": "Each mole contains {6.02} × {10}{sup(23)} particles; multiply by the number of moles."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 2
+  },
+  "problem": "How many atoms are in {n} mol of copper? Give the answer in standard form.",
+  "steps": [
+   "Atoms = moles × {6.02} × {10}{sup(23)}.",
+   "= {n} × {6.02} × {10}{sup(23)} = {n * 6.02} × {10}{sup(23)}.",
+   "In standard form: {n * 0.602} × {10}{sup(24)}."
+  ],
+  "answer": "{n * 0.602} × {10}{sup(24)} atoms",
+  "checks": [
+   "n * 0.602 == 1.204"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3k7-1",
+    "status": "draft",
+    "idea": "One mole contains {6.02} × {10}{sup(23)} particles: the Avogadro constant.",
+    "vars": {},
+    "example": [
+     "{1} mol of carbon atoms: {6.02} × {10}{sup(23)} atoms"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-7-L"
+    }
+   },
+   {
+    "id": "c3k7-2",
+    "status": "draft",
+    "idea": "Particles = moles × {6.02} × {10}{sup(23)}.",
+    "vars": {},
+    "example": [
+     "{0.5} mol: {3.01} × {10}{sup(23)} atoms"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k3-7-count"
+    }
+   },
+   {
+    "id": "c3k7-3",
+    "status": "draft",
+    "idea": "Moles = particles ÷ {6.02} × {10}{sup(23)}.",
+    "vars": {},
+    "example": [
+     "{12.04} × {10}{sup(23)} atoms = {2} mol"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k3-7-back-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "mole"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        1,
+        10
+       ]
+      },
+      "a": {
+       "expr": "roundTo(k * 6.02 / 2, 0.01)"
+      }
+     },
+     "prompt": "A sample contains {a} × {10}{sup(23)} atoms. How many moles is that?",
+     "answer": "roundTo(a / 6.02, 0.01)",
+     "misconceptions": [
+      {
+       "id": "times",
+       "wrong": "roundTo(a * 6.02, 0.01)",
+       "explain": "Divide the number of atoms by the Avogadro constant."
+      }
+     ],
+     "solution": [
+      "Moles = atoms ÷ {6.02} × {10}{sup(23)}.",
+      "= {a} ÷ {6.02} = {answer} mol."
+     ],
+     "unit": "mol"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k3-7-L",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the Avogadro constant?",
+       "r": "6.02 × 10²³ particles per mole",
+       "w": [
+        "6.02 × 10²³ grams",
+        "12 g of carbon",
+        "1840"
+       ],
+       "e": [
+        "It is a number of particles, not a mass.",
+        "12 g of carbon is one mole; it contains 6.02 × 10²³ atoms.",
+        "1840 compares the masses of a proton and an electron."
+       ],
+       "y": "The number of particles in one mole."
+      },
+      {
+       "q": "Which contains 6.02 × 10²³ atoms?",
+       "r": "24 g of magnesium (Mg = 24)",
+       "w": [
+        "1 g of magnesium",
+        "12 g of magnesium",
+        "6.02 g of magnesium"
+       ],
+       "e": [
+        "1 g is 1/24 mol.",
+        "12 g is 0.5 mol.",
+        "The number 6.02 is not a mass."
+       ],
+       "y": "24 g of magnesium is 1 mol."
+      },
+      {
+       "q": "12 g of carbon and 32 g of sulphur (C = 12, S = 32). Which has more atoms?",
+       "r": "They have the same number",
+       "w": [
+        "The sulphur",
+        "The carbon",
+        "It cannot be told"
+       ],
+       "e": [
+        "32 g of S is only 1 mol.",
+        "12 g of C is only 1 mol.",
+        "Both are 1 mol, so the numbers can be compared."
+       ],
+       "y": "1 mol of each: 6.02 × 10²³ atoms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k3-7-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1,
+      8
+     ]
+    },
+    "n": {
+     "expr": "k / 4"
+    }
+   },
+   "prompt": "How many atoms are in {n} mol of an element? Write the answer as a × {10}{sup(23)}; give a.",
+   "answer": "roundTo(n * 6.02, 0.001)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(6.02 / n, 0.01)",
+     "explain": "Multiply the moles by the Avogadro constant."
+    }
+   ],
+   "solution": [
+    "Atoms = moles × {6.02} × {10}{sup(23)}.",
+    "= {n} × {6.02} × {10}{sup(23)} = {answer} × {10}{sup(23)}."
+   ],
+   "where": [
+    "k != 4"
+   ]
+  },
+  {
+   "id": "k3-7-back",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1,
+      10
+     ]
+    },
+    "a": {
+     "expr": "roundTo(k * 6.02 / 2, 0.01)"
+    }
+   },
+   "prompt": "A sample contains {a} × {10}{sup(23)} atoms. How many moles is that?",
+   "answer": "roundTo(a / 6.02, 0.01)",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "roundTo(a * 6.02, 0.01)",
+     "explain": "Divide the number of atoms by the Avogadro constant."
+    }
+   ],
+   "solution": [
+    "Moles = atoms ÷ {6.02} × {10}{sup(23)}.",
+    "= {a} ÷ {6.02} = {answer} mol."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k3-7-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "C",
+       "n": "carbon",
+       "r": 12
+      },
+      {
+       "s": "O",
+       "n": "oxygen",
+       "r": 16
+      },
+      {
+       "s": "Na",
+       "n": "sodium",
+       "r": 23
+      },
+      {
+       "s": "Mg",
+       "n": "magnesium",
+       "r": 24
+      },
+      {
+       "s": "Al",
+       "n": "aluminium",
+       "r": 27
+      },
+      {
+       "s": "S",
+       "n": "sulphur",
+       "r": 32
+      },
+      {
+       "s": "Ca",
+       "n": "calcium",
+       "r": 40
+      },
+      {
+       "s": "Fe",
+       "n": "iron",
+       "r": 56
+      },
+      {
+       "s": "Cu",
+       "n": "copper",
+       "r": 64
+      },
+      {
+       "s": "Zn",
+       "n": "zinc",
+       "r": 65
+      },
+      {
+       "s": "N",
+       "n": "nitrogen",
+       "r": 14
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "How many atoms are in {X.r * k} g of {X.n} ({X.s} = {X.r})? Write the answer as a × {10}{sup(23)}; give a.",
+   "answer": "roundTo(k * 6.02, 0.01)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "roundTo(X.r * k * 6.02, 0.01)",
+     "explain": "Change the mass to moles first (÷ {X.r})."
+    },
+    {
+     "id": "one",
+     "wrong": "6.02",
+     "explain": "That is for {1} mol; there are {k} mol."
+    }
+   ],
+   "solution": [
+    "Moles = {X.r * k} ÷ {X.r} = {k} mol.",
+    "Atoms = {k} × {6.02} × {10}{sup(23)} = {answer} × {10}{sup(23)}."
+   ]
+  },
+  {
+   "id": "k3-7-std",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "mole"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "C",
+       "n": "carbon",
+       "r": 12
+      },
+      {
+       "s": "O",
+       "n": "oxygen",
+       "r": 16
+      },
+      {
+       "s": "Na",
+       "n": "sodium",
+       "r": 23
+      },
+      {
+       "s": "Mg",
+       "n": "magnesium",
+       "r": 24
+      },
+      {
+       "s": "Al",
+       "n": "aluminium",
+       "r": 27
+      },
+      {
+       "s": "S",
+       "n": "sulphur",
+       "r": 32
+      },
+      {
+       "s": "Ca",
+       "n": "calcium",
+       "r": 40
+      },
+      {
+       "s": "Fe",
+       "n": "iron",
+       "r": 56
+      },
+      {
+       "s": "Cu",
+       "n": "copper",
+       "r": 64
+      },
+      {
+       "s": "Zn",
+       "n": "zinc",
+       "r": 65
+      },
+      {
+       "s": "N",
+       "n": "nitrogen",
+       "r": 14
+      }
+     ]
+    },
+    "m": {
+     "int": [
+      3,
+      100
+     ]
+    }
+   },
+   "prompt": "How many atoms are in {m} g of {X.n} ({X.s} = {X.r})? Write the answer in standard form a × {10}ⁿ; give a to {2} decimal places.",
+   "answer": "roundTo(m / X.r * 6.02 / (m / X.r * 6.02 >= 10 ? 10 : 1), 0.01)",
+   "misconceptions": [
+    {
+     "id": "nostd",
+     "wrong": "roundTo(m / X.r * 6.02, 0.01)",
+     "explain": "That number is not between {1} and {10}: move the decimal point."
+    }
+   ],
+   "solution": [
+    "Moles = {m} ÷ {X.r} = {roundTo(m / X.r, 0.0001)} mol.",
+    "Atoms = {roundTo(m / X.r, 0.0001)} × {6.02} × {10}{sup(23)} = {roundTo(m / X.r * 6.02, 0.01)} × {10}{sup(23)}.",
+    "In standard form a = {answer}."
+   ],
+   "where": [
+    "m / X.r * 6.02 >= 10",
+    "m / X.r * 6.02 < 100"
+   ]
+  }
+ ]
+}

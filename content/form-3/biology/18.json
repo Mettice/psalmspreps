@@ -1,0 +1,590 @@
+{
+ "subject": "biology",
+ "class": "Form 3",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "b3-18",
+   "name": "Mushroom and yeast: structure, mode of life and importance of fungi"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mushroom: the part above ground is the fruiting body: a stalk (stipe) and a cap (pileus) with gills underneath, where spores are made. Most of the mushroom is an underground mycelium feeding saprophytically on dead matter.\nYeast: single oval cells; reproduces by budding. It respires anaerobically in sugar solution (fermentation): glucose → ethanol (alcohol) + carbon dioxide + energy.\nImportance of fungi:\n• Useful: food (mushrooms), yeast in bread (CO₂ makes dough rise) and in brewing; antibiotics (penicillin from Penicillium); decomposers that recycle nutrients.\n• Harmful: diseases of people (ringworm, athlete's foot, thrush), of crops (black pod of cocoa, maize smut), food spoilage, and poisonous mushrooms.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "The mushroom",
+    "text": "What we call a mushroom is only the fruiting body. It has a stalk and a cap; under the cap are thin gills where millions of spores form and drop into the wind.\nThe main body of the fungus is a mycelium of hyphae spread through the soil or rotting wood, feeding on dead matter as a saprophyte."
+   },
+   {
+    "heading": "Yeast",
+    "text": "Yeast is a single-celled fungus with oval cells. It reproduces by budding: a small bud grows out and breaks off.\nIn sugar solution without oxygen it ferments: glucose → ethanol + carbon dioxide + energy.\nBakers use the carbon dioxide to make dough rise; brewers and palm wine tappers rely on the alcohol."
+   },
+   {
+    "heading": "Friends and foes",
+    "text": "Useful fungi: edible mushrooms; yeast for bread and fermentation; Penicillium, which gives the antibiotic penicillin; decomposers that recycle nutrients.\nHarmful fungi: ringworm, athlete's foot and thrush in people; black pod of cocoa and smuts of maize; moulds that spoil food; poisonous mushrooms."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fruiting body",
+    "meaning": "the part of a fungus that produces spores"
+   },
+   {
+    "word": "budding",
+    "meaning": "reproduction by a small outgrowth that breaks off"
+   },
+   {
+    "word": "fermentation",
+    "meaning": "anaerobic respiration of sugar by yeast"
+   },
+   {
+    "word": "antibiotic",
+    "meaning": "a substance from a microbe that kills bacteria"
+   }
+  ],
+  "examples": [
+   "Bread: yeast makes CO₂",
+   "Penicillin: from Penicillium mould",
+   "Black pod: fungal disease of cocoa"
+  ],
+  "mistake": {
+   "wrong": "Yeast makes bread rise by producing oxygen",
+   "right": "Yeast makes bread rise by producing carbon dioxide",
+   "why": "Fermentation releases carbon dioxide, which is trapped in the dough."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain why yeast makes bread dough rise.",
+  "steps": [
+   "Yeast respires the sugar in the dough.",
+   "It produces carbon dioxide gas.",
+   "The gas bubbles are trapped in the dough, so it swells; baking kills the yeast and sets the bread."
+  ],
+  "answer": "Carbon dioxide from yeast respiration is trapped in the dough",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3b18-1",
+    "status": "draft",
+    "idea": "A mushroom is the fruiting body; spores form on the gills.",
+    "vars": {},
+    "example": [
+     "Cap, gills and stalk above ground; mycelium below"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-18-part"
+    }
+   },
+   {
+    "id": "c3b18-2",
+    "status": "draft",
+    "idea": "Yeast ferments sugar to alcohol and carbon dioxide.",
+    "vars": {},
+    "example": [
+     "Used in bread and in palm wine fermentation"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-18-yeast"
+    }
+   },
+   {
+    "id": "c3b18-3",
+    "status": "draft",
+    "idea": "Fungi can be useful or harmful.",
+    "vars": {},
+    "example": [
+     "Penicillin (useful); black pod of cocoa (harmful)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "b3-18-imp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "classification"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a useful fungus?",
+         "r": "Penicillium, which produces the antibiotic penicillin",
+         "w": [
+          "the fungus causing ringworm",
+          "the fungus causing black pod of cocoa",
+          "a poisonous toadstool"
+         ],
+         "e": [
+          "Ringworm is a disease.",
+          "Black pod destroys cocoa harvests.",
+          "Poisonous fungi are harmful."
+         ],
+         "y": "Penicillin saves lives by killing bacteria."
+        },
+        {
+         "q": "Which disease of cocoa in Cameroon is caused by a fungus?",
+         "r": "black pod disease",
+         "w": [
+          "malaria",
+          "cholera",
+          "measles"
+         ],
+         "e": [
+          "Malaria is a human disease caused by a protoctist.",
+          "Cholera is a bacterial human disease.",
+          "Measles is a viral human disease."
+         ],
+         "y": "Black pod rots cocoa pods; farmers spray fungicides."
+        },
+        {
+         "q": "How do fungi help keep soils fertile?",
+         "r": "As decomposers they break down dead matter and release nutrients",
+         "w": [
+          "They photosynthesise",
+          "They fix nitrogen in root nodules",
+          "They eat insects"
+         ],
+         "e": [
+          "Fungi do not photosynthesise.",
+          "That is done by bacteria.",
+          "Most fungi do not eat insects."
+         ],
+         "y": "Recycling nutrients for plants."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-18-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where are the spores of a mushroom produced?",
+       "r": "on the gills under the cap",
+       "w": [
+        "in the stalk",
+        "in the soil only",
+        "in the leaves"
+       ],
+       "e": [
+        "The stalk holds the cap up.",
+        "Spores form above ground on the gills.",
+        "Mushrooms have no leaves."
+       ],
+       "y": "Gills release spores into the air."
+      },
+      {
+       "q": "Most of a mushroom's body is…",
+       "r": "an underground mycelium",
+       "w": [
+        "the cap",
+        "the gills",
+        "the roots"
+       ],
+       "e": [
+        "The cap is only the fruiting body.",
+        "Gills are only part of the cap.",
+        "Fungi have no roots."
+       ],
+       "y": "The visible part is just for spreading spores."
+      },
+      {
+       "q": "How does yeast reproduce?",
+       "r": "by budding",
+       "w": [
+        "by seeds",
+        "by binary fission only",
+        "by pollination"
+       ],
+       "e": [
+        "Fungi have no seeds.",
+        "Yeast mainly buds.",
+        "Fungi have no flowers."
+       ],
+       "y": "A small bud grows from the parent cell and breaks off."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-18-yeast",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are the products of fermentation by yeast?",
+       "r": "ethanol (alcohol) and carbon dioxide",
+       "w": [
+        "oxygen and water",
+        "lactic acid only",
+        "glucose and oxygen"
+       ],
+       "e": [
+        "Those are not products of fermentation.",
+        "That is muscle anaerobic respiration.",
+        "Glucose is the starting material."
+       ],
+       "y": "Glucose → ethanol + carbon dioxide + energy."
+      },
+      {
+       "q": "Which gas makes bread dough rise?",
+       "r": "carbon dioxide",
+       "w": [
+        "oxygen",
+        "nitrogen",
+        "hydrogen"
+       ],
+       "e": [
+        "Yeast uses oxygen if available but does not release it.",
+        "Nitrogen is not produced.",
+        "Hydrogen is not produced."
+       ],
+       "y": "Yeast releases CO₂ that is trapped in the dough."
+      },
+      {
+       "q": "Why is palm wine sweet when freshly tapped but becomes alcoholic after a day?",
+       "r": "Yeasts ferment its sugar into alcohol",
+       "w": [
+        "The sun turns sugar into alcohol",
+        "Water evaporates and leaves alcohol",
+        "Bacteria add alcohol from the air"
+       ],
+       "e": [
+        "Fermentation is done by microbes.",
+        "Evaporation does not make alcohol.",
+        "Yeasts, not added alcohol, are the cause."
+       ],
+       "y": "Natural yeasts carry out fermentation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-18-imp",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a useful fungus?",
+       "r": "Penicillium, which produces the antibiotic penicillin",
+       "w": [
+        "the fungus causing ringworm",
+        "the fungus causing black pod of cocoa",
+        "a poisonous toadstool"
+       ],
+       "e": [
+        "Ringworm is a disease.",
+        "Black pod destroys cocoa harvests.",
+        "Poisonous fungi are harmful."
+       ],
+       "y": "Penicillin saves lives by killing bacteria."
+      },
+      {
+       "q": "Which disease of cocoa in Cameroon is caused by a fungus?",
+       "r": "black pod disease",
+       "w": [
+        "malaria",
+        "cholera",
+        "measles"
+       ],
+       "e": [
+        "Malaria is a human disease caused by a protoctist.",
+        "Cholera is a bacterial human disease.",
+        "Measles is a viral human disease."
+       ],
+       "y": "Black pod rots cocoa pods; farmers spray fungicides."
+      },
+      {
+       "q": "How do fungi help keep soils fertile?",
+       "r": "As decomposers they break down dead matter and release nutrients",
+       "w": [
+        "They photosynthesise",
+        "They fix nitrogen in root nodules",
+        "They eat insects"
+       ],
+       "e": [
+        "Fungi do not photosynthesise.",
+        "That is done by bacteria.",
+        "Most fungi do not eat insects."
+       ],
+       "y": "Recycling nutrients for plants."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "b3-18-safety",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "classification"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should you not eat wild mushrooms you cannot identify?",
+       "r": "Some are poisonous and can kill",
+       "w": [
+        "All mushrooms are poisonous",
+        "Mushrooms have no food value",
+        "They are always bitter"
+       ],
+       "e": [
+        "Many are edible.",
+        "Edible mushrooms are nutritious.",
+        "Taste is no guide to safety."
+       ],
+       "y": "Poisonous and edible species can look alike."
+      },
+      {
+       "q": "Athlete's foot grows between the toes. Which advice helps prevent it?",
+       "r": "Keep feet clean and dry and do not share towels",
+       "w": [
+        "Keep feet warm and damp",
+        "Take antibiotics daily",
+        "Wear the same wet socks"
+       ],
+       "e": [
+        "Damp warmth helps the fungus.",
+        "Antibiotics do not treat fungi.",
+        "Wet socks help the fungus."
+       ],
+       "y": "Fungi need moisture to grow."
+      },
+      {
+       "q": "Why is yeast added to bread dough with a little sugar and warm (not hot) water?",
+       "r": "Warmth and sugar let yeast respire quickly; very hot water would kill it",
+       "w": [
+        "Hot water makes yeast grow faster",
+        "Sugar kills yeast",
+        "Yeast needs cold water"
+       ],
+       "e": [
+        "Too hot kills yeast.",
+        "Sugar is its food.",
+        "Cold slows yeast."
+       ],
+       "y": "Yeast enzymes work best at warm temperatures."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}
