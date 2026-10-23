@@ -1,0 +1,442 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "m4-10",
+   "name": "Solve quadratic equations using the quadratic formula"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The quadratic formula solves any quadratic equation ax² + bx + c = 0:\nx = (−b ± √(b² − 4ac)) / 2a.\nSteps: rearrange to ax² + bx + c = 0; write down a, b, c with signs; work out b² − 4ac; take its square root; work out the two roots, one with + and one with −; round at the end.\nExample: 2x² + 3x − 4 = 0: b² − 4ac = 9 + 32 = 41, so x = (−3 ± √41)/4, x ≈ 0.85 or x ≈ −2.35.\nDivide the whole top by 2a, not just the square root.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to solve any quadratic equation with the formula, giving exact roots or roots to {2} decimal places.\nBuilds on: Lesson {9} (where the formula comes from) and Lesson {7} (rearranging and rejecting roots).\nLeads to: the discriminant and the nature of roots, and solving word problems in physics and business."
+   },
+   {
+    "heading": "The method",
+    "text": "Solve {quad(2, 3, -4)} = {0}.\n• a = {2}, b = {3}, c = {-4}.\n• b² − {4}ac = {9} − {4} × {2} × {br(-4)} = {9} + {32} = {41}.\n• x = ({-3} ± √{41}) / {4}.\n• √{41} ≈ {roundTo(sqrt(41), 0.0001)}, so x ≈ ({-3} + {roundTo(sqrt(41), 0.0001)})/{4} ≈ {roundTo((-3 + sqrt(41)) / 4, 0.01)} or x ≈ ({-3} − {roundTo(sqrt(41), 0.0001)})/{4} ≈ {roundTo((-3 - sqrt(41)) / 4, 0.01)}.\nKeep all the calculator digits until the last step, then round."
+   },
+   {
+    "heading": "Traps to avoid",
+    "text": "• −b changes the sign of b: if b = {-6}, then −b = {6}.\n• −{4}ac with a negative c becomes a plus: c = {-4} gives −{4} × {2} × {br(-4)} = +{32}.\n• The whole top is divided by {2}a: ({-3} + √{41})/{4}, not {-3} + √{41}/{4}.\n• Rearrange first: x(x + {3}) = {5} is {quad(1, 3, -5)} = {0}, so c = {-5}.\nIf b² − {4}ac is negative there are no real roots: the calculator gives an error for the square root."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quadratic formula",
+    "meaning": "x = (−b ± √(b² − {4}ac)) / {2}a"
+   },
+   {
+    "word": "decimal places",
+    "meaning": "digits after the decimal point; {2} d.p. means hundredths"
+   },
+   {
+    "word": "exact",
+    "meaning": "left as a surd or fraction, not rounded"
+   }
+  ],
+  "examples": [
+   "{quad(1, -6, 4)} = {0} → x = {3} ± √{5} ≈ {roundTo(3 + sqrt(5), 0.01)} or {roundTo(3 - sqrt(5), 0.01)}",
+   "{quad(1, -1, -6)} = {0} → x = ({1} ± {5})/{2} = {3} or {-2}"
+  ],
+  "mistake": {
+   "wrong": "x = {-3} + √{41}/{4}",
+   "right": "x = ({-3} + √{41})/{4}",
+   "why": "The fraction line goes under the whole top. Work out {-3} + √{41} first, then divide by {4}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "b": 3,
+   "c": -4
+  },
+  "problem": "Solve {quad(a, b, c)} = {0}, giving the roots to {2} decimal places.",
+  "steps": [
+   "a = {a}, b = {b}, c = {c}.",
+   "b² − {4}ac = {b * b} − {4} × {a} × {br(c)} = {b * b - 4 * a * c}; √{b * b - 4 * a * c} ≈ {roundTo(sqrt(b * b - 4 * a * c), 0.0001)}.",
+   "x = ({-b} + {roundTo(sqrt(b * b - 4 * a * c), 0.0001)}) / {2 * a} ≈ {roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)}.",
+   "x = ({-b} − {roundTo(sqrt(b * b - 4 * a * c), 0.0001)}) / {2 * a} ≈ {roundTo((-b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)}."
+  ],
+  "answer": "x ≈ {roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)} or x ≈ {roundTo((-b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)}",
+  "checks": [
+   "b * b - 4 * a * c == 41"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m10-1",
+    "status": "draft",
+    "idea": "When b² − {4}ac is a square number, the roots are exact.",
+    "vars": {},
+    "example": [
+     "{quad(1, -2, -15)} = {0}: b² − {4}ac = {64}, √{64} = {8}, x = ({2} ± {8})/{2} = {5} or {-3}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-10-exact"
+    }
+   },
+   {
+    "id": "c4m10-2",
+    "status": "draft",
+    "idea": "Otherwise use a calculator for the square root and round only at the end.",
+    "vars": {},
+    "example": [
+     "{quad(1, 4, 1)} = {0}: x = ({-4} ± √{12})/{2} ≈ {roundTo((-4 + sqrt(12)) / 2, 0.01)} or {roundTo((-4 - sqrt(12)) / 2, 0.01)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-10-dp"
+    }
+   },
+   {
+    "id": "c4m10-3",
+    "status": "draft",
+    "idea": "Divide the whole top by {2}a, not only the square root.",
+    "vars": {},
+    "example": [
+     "({-4} + √{12})/{2} = {-2} + √{3}, not {-4} + √{12}/{2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-10-small-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "quadratic-equations"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        1,
+        4
+       ]
+      },
+      "b": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "c": {
+       "int": [
+        -9,
+        9
+       ]
+      }
+     },
+     "prompt": "Solve {quad(a, b, c)} = {0}. Give the smaller root to {2} decimal places.",
+     "answer": "roundTo((-b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+     "misconceptions": [
+      {
+       "id": "big",
+       "wrong": "roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+       "explain": "That is the larger root (with +). The smaller one uses −."
+      },
+      {
+       "id": "plusb",
+       "wrong": "roundTo((b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+       "explain": "The formula starts with −b = {-b}."
+      },
+      {
+       "id": "ona",
+       "wrong": "roundTo((-b - sqrt(b * b - 4 * a * c)) / a, 0.01)",
+       "explain": "Divide by {2}a = {2 * a}, not by a."
+      }
+     ],
+     "solution": [
+      "b² − {4}ac = {b * b - 4 * a * c}.",
+      "The smaller root uses −: x = ({-b} − √{b * b - 4 * a * c}) / {2 * a}.",
+      "x ≈ {answer}."
+     ],
+     "where": [
+      "b != 0 && c != 0",
+      "b * b - 4 * a * c > 0",
+      "!isPerfectSquare(b * b - 4 * a * c)",
+      "abs((-b - sqrt(b * b - 4 * a * c)) / (2 * a) * 1000 - round((-b - sqrt(b * b - 4 * a * c)) / (2 * a) * 1000)) > 0.01 || abs(round((-b - sqrt(b * b - 4 * a * c)) / (2 * a) * 1000)) % 10 != 5"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-10-exact",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Use the quadratic formula to solve {quad(1, -(p + q), p * q)} = {0}. Give the larger root.",
+   "answer": "max(p, q)",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "p + q + abs(p - q)",
+     "explain": "Divide the whole top by {2}a = {2}: ({p + q} + {abs(p - q)}) / {2}."
+    },
+    {
+     "id": "minusb",
+     "wrong": "max(-p, -q)",
+     "explain": "−b = {p + q}, not {-(p + q)}: the sign of b changes."
+    }
+   ],
+   "solution": [
+    "b² − {4}ac = {(p + q) * (p + q)} − {4 * p * q} = {(p - q) * (p - q)}, and its square root is {abs(p - q)}.",
+    "x = ({p + q} ± {abs(p - q)}) / {2}.",
+    "The larger root is ({p + q} + {abs(p - q)}) / {2} = {answer}."
+   ],
+   "where": [
+    "p != q",
+    "p + q != 0",
+    "p * q != 0",
+    "max(-p, -q) != max(p, q)"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-10-dp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {quad(a, b, c)} = {0}. Give the larger root to {2} decimal places.",
+   "answer": "roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+   "misconceptions": [
+    {
+     "id": "plusb",
+     "wrong": "roundTo((b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+     "explain": "The formula starts with −b = {-b}."
+    },
+    {
+     "id": "rootonly",
+     "wrong": "roundTo(-b + sqrt(b * b - 4 * a * c) / (2 * a), 0.01)",
+     "explain": "Divide the whole top, ({-b} + √{b * b - 4 * a * c}), by {2 * a}."
+    },
+    {
+     "id": "ona",
+     "wrong": "roundTo((-b + sqrt(b * b - 4 * a * c)) / a, 0.01)",
+     "explain": "Divide by {2}a = {2 * a}, not by a."
+    }
+   ],
+   "solution": [
+    "b² − {4}ac = {b * b - 4 * a * c}.",
+    "x = ({-b} + √{b * b - 4 * a * c}) / {2 * a}.",
+    "x ≈ {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "b * b - 4 * a * c > 0",
+    "!isPerfectSquare(b * b - 4 * a * c)",
+    "abs((-b + sqrt(b * b - 4 * a * c)) / (2 * a) * 1000 - round((-b + sqrt(b * b - 4 * a * c)) / (2 * a) * 1000)) > 0.01 || abs(round((-b + sqrt(b * b - 4 * a * c)) / (2 * a) * 1000)) % 10 != 5"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-10-small",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve {quad(a, b, c)} = {0}. Give the smaller root to {2} decimal places.",
+   "answer": "roundTo((-b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+   "misconceptions": [
+    {
+     "id": "big",
+     "wrong": "roundTo((-b + sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+     "explain": "That is the larger root (with +). The smaller one uses −."
+    },
+    {
+     "id": "plusb",
+     "wrong": "roundTo((b - sqrt(b * b - 4 * a * c)) / (2 * a), 0.01)",
+     "explain": "The formula starts with −b = {-b}."
+    },
+    {
+     "id": "ona",
+     "wrong": "roundTo((-b - sqrt(b * b - 4 * a * c)) / a, 0.01)",
+     "explain": "Divide by {2}a = {2 * a}, not by a."
+    }
+   ],
+   "solution": [
+    "b² − {4}ac = {b * b - 4 * a * c}.",
+    "The smaller root uses −: x = ({-b} − √{b * b - 4 * a * c}) / {2 * a}.",
+    "x ≈ {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "b * b - 4 * a * c > 0",
+    "!isPerfectSquare(b * b - 4 * a * c)",
+    "abs((-b - sqrt(b * b - 4 * a * c)) / (2 * a) * 1000 - round((-b - sqrt(b * b - 4 * a * c)) / (2 * a) * 1000)) > 0.01 || abs(round((-b - sqrt(b * b - 4 * a * c)) / (2 * a) * 1000)) % 10 != 5"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-10-rearrange",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -7,
+      7
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      20
+     ]
+    }
+   },
+   "prompt": "Solve x({poly([1, 'x'], [b, ''])}) = {k}. Give the positive root to {2} decimal places.",
+   "answer": "roundTo((-b + sqrt(b * b + 4 * k)) / 2, 0.01)",
+   "misconceptions": [
+    {
+     "id": "csign",
+     "wrong": "roundTo((-b + sqrt(b * b - 4 * k)) / 2, 0.01)",
+     "explain": "Moving {k} to the left makes c = {-k}, so −{4}ac = +{4 * k}.",
+     "when": "b * b - 4 * k > 0"
+    }
+   ],
+   "solution": [
+    "Expand and make one side {0}: {quad(1, b, -k)} = {0}.",
+    "a = {1}, b = {b}, c = {-k}: b² − {4}ac = {b * b + 4 * k}.",
+    "x = ({-b} + √{b * b + 4 * k}) / {2} ≈ {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "!isPerfectSquare(b * b + 4 * k)",
+    "abs((-b + sqrt(b * b + 4 * k)) / 2 * 1000 - round((-b + sqrt(b * b + 4 * k)) / 2 * 1000)) > 0.01 || abs(round((-b + sqrt(b * b + 4 * k)) / 2 * 1000)) % 10 != 5"
+   ]
+  },
+  {
+   "id": "m4-10-word",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "u": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "s": {
+     "int": [
+      10,
+      60
+     ]
+    }
+   },
+   "prompt": "A ball is thrown up from a cliff. After t seconds its height above the sea is h = {u}t − {5}t² + {s} metres. Use the quadratic formula to find when it reaches the sea (h = {0}). Give t to {2} decimal places.",
+   "answer": "roundTo((u + sqrt(u * u + 20 * s)) / 10, 0.01)",
+   "misconceptions": [
+    {
+     "id": "neg",
+     "wrong": "roundTo((u - sqrt(u * u + 20 * s)) / 10, 0.01)",
+     "explain": "That root is negative: the ball cannot reach the sea before it is thrown."
+    },
+    {
+     "id": "five",
+     "wrong": "roundTo((u + sqrt(u * u + 20 * s)) / 5, 0.01)",
+     "explain": "Divide by {2}a = {10}, not by {5}."
+    }
+   ],
+   "solution": [
+    "Set h = {0}: {quad(-5, u, s, 't')} = {0}, or {quad(5, -u, -s, 't')} = {0}.",
+    "a = {5}, b = {-u}, c = {-s}: b² − {4}ac = {u * u} + {20 * s} = {u * u + 20 * s}.",
+    "t = ({u} ± √{u * u + 20 * s}) / {10}. Time cannot be negative, so take +.",
+    "t ≈ {answer} s."
+   ],
+   "unit": "s",
+   "where": [
+    "!isPerfectSquare(u * u + 20 * s)",
+    "abs((u + sqrt(u * u + 20 * s)) / 10 * 1000 - round((u + sqrt(u * u + 20 * s)) / 10 * 1000)) > 0.01 || abs(round((u + sqrt(u * u + 20 * s)) / 10 * 1000)) % 10 != 5"
+   ]
+  }
+ ]
+}

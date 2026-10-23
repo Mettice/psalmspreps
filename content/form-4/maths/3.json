@@ -1,0 +1,465 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "m4-3",
+   "name": "Factorise by grouping and as a difference of two squares"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Factorising is expanding backwards: write an expression as a product.\n• Grouping, for four terms: pair them, take a common factor from each pair, then take out the common bracket. ax + ay + bx + by = a(x + y) + b(x + y) = (a + b)(x + y).\n• Difference of two squares: a² − b² = (a + b)(a − b). For example x² − 49 = (x + 7)(x − 7) and 9x² − 4 = (3x + 2)(3x − 2).\nAlways take out a common number factor first: 2x² − 18 = 2(x² − 9) = 2(x + 3)(x − 3).\nA sum of two squares, such as x² + 9, does not factorise this way.\nCheck any factorisation by expanding it again.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to factorise four-term expressions by grouping and any difference of two squares, taking out common factors first.\nBuilds on: Lesson {2} (expansion and the product (a + b)(a − b)); Form Three common factors.\nLeads to: factorising quadratic trinomials and solving quadratic equations by factorisation."
+   },
+   {
+    "heading": "Grouping four terms",
+    "text": "Some expressions have four terms and no factor common to all of them, such as xy + {mono(3, 'x')} + {mono(5, 'y')} + {15}.\n• Pair the terms: (xy + {mono(3, 'x')}) + ({mono(5, 'y')} + {15}).\n• Take a factor out of each pair: x(y + {3}) + {5}(y + {3}).\n• Both parts now share the bracket (y + {3}). Take it out: (x + {5})(y + {3}).\nIf the brackets do not match, try pairing the terms differently. Expand your answer to check it."
+   },
+   {
+    "heading": "The difference of two squares",
+    "text": "Lesson {2} showed that (a + b)(a − b) = a² − b². Read backwards, this factorises any difference of two squares.\n• {quad(1, 0, -64)} = x² − {8}² = {lin2(1, 8, 1, -8)}\n• {quad(9, 0, -4)} = ({mono(3, 'x')})² − {2}² = {lin2(3, 2, 3, -2)}\nAlways look for a common factor first: {quad(5, 0, -45)} = {5}({quad(1, 0, -9)}) = {5}{lin2(1, 3, 1, -3)}.\nA sum such as {quad(1, 0, 9)} has no factors of this kind."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "factorise",
+    "meaning": "write an expression as a product of factors"
+   },
+   {
+    "word": "common factor",
+    "meaning": "a number or letter that divides every term"
+   },
+   {
+    "word": "grouping",
+    "meaning": "pairing terms so that each pair has a common factor and the pairs share a bracket"
+   },
+   {
+    "word": "factorise completely",
+    "meaning": "go on until no factor can be split further"
+   }
+  ],
+  "examples": [
+   "{quad(1, 0, -100)} = {lin2(1, 10, 1, -10)}",
+   "{mono(1, 'ab')} + {mono(4, 'a')} + {mono(2, 'b')} + {8} = (a + {2})(b + {4})",
+   "{quad(2, 0, -50)} = {2}{lin2(1, 5, 1, -5)}"
+  ],
+  "mistake": {
+   "wrong": "{quad(1, 0, -25)} = ({poly([1, 'x'], [-5, ''])})²",
+   "right": "{quad(1, 0, -25)} = {lin2(1, 5, 1, -5)}",
+   "why": "({poly([1, 'x'], [-5, ''])})² expands to {quad(1, -10, 25)}. A difference of two squares needs one plus and one minus bracket."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 3,
+   "q": 5
+  },
+  "problem": "Factorise xy + {p}x + {q}y + {p * q}.",
+  "steps": [
+   "Group the terms in pairs: (xy + {mono(p, 'x')}) + ({mono(q, 'y')} + {p * q}).",
+   "Take x out of the first pair and {q} out of the second: x({poly([1, 'y'], [p, ''])}) + {q}({poly([1, 'y'], [p, ''])}).",
+   "The bracket ({poly([1, 'y'], [p, ''])}) is common to both: take it out.",
+   "Check: ({poly([1, 'x'], [q, ''])})({poly([1, 'y'], [p, ''])}) = xy + {mono(p, 'x')} + {mono(q, 'y')} + {p * q}."
+  ],
+  "answer": "({poly([1, 'x'], [q, ''])})({poly([1, 'y'], [p, ''])})",
+  "checks": [
+   "p * q == 15"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m3-1",
+    "status": "draft",
+    "idea": "Grouping: pair the four terms, take a common factor out of each pair, then take out the bracket they share.",
+    "vars": {},
+    "example": [
+     "{mono(1, 'ax')} + {mono(1, 'ay')} + {mono(2, 'x')} + {mono(2, 'y')} = a(x + y) + {2}(x + y) = (a + {2})(x + y)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-3-group"
+    }
+   },
+   {
+    "id": "c4m3-2",
+    "status": "draft",
+    "idea": "A difference of two squares factorises as (first + second)(first − second), where first and second are the square roots.",
+    "vars": {},
+    "example": [
+     "{quad(1, 0, -36)} = {lin2(1, 6, 1, -6)}",
+     "{quad(25, 0, -1)} = {lin2(5, 1, 5, -1)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-3-dos"
+    }
+   },
+   {
+    "id": "c4m3-3",
+    "status": "draft",
+    "idea": "Look for a common number factor first. What is left is often a difference of two squares.",
+    "vars": {},
+    "example": [
+     "{quad(3, 0, -12)} = {3}({quad(1, 0, -4)}) = {3}{lin2(1, 2, 1, -2)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-3-common-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-factorise"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        7
+       ]
+      },
+      "a": {
+       "int": [
+        2,
+        9
+       ]
+      }
+     },
+     "prompt": "Factorise completely {quad(k, 0, -k * a * a)}.",
+     "correct": "{k}{lin2(1, a, 1, -a)}",
+     "distractors": [
+      {
+       "text": "{k}({quad(1, 0, -a * a)})",
+       "misconception": "stop"
+      },
+      {
+       "text": "{lin2(k, a, 1, -a)}",
+       "misconception": "onebr"
+      },
+      {
+       "text": "{k}({poly([1, 'x'], [-a, ''])})²",
+       "misconception": "square"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "stop",
+       "explain": "'Completely' means keep going: x² − {a * a} still factorises as {lin2(1, a, 1, -a)}."
+      },
+      {
+       "id": "onebr",
+       "explain": "Expand it: {lin2(k, a, 1, -a)} has a middle term. Take {k} out in front instead."
+      },
+      {
+       "id": "square",
+       "explain": "{k}({poly([1, 'x'], [-a, ''])})² = {k}({quad(1, -2 * a, a * a)}): that has a middle term."
+      }
+     ],
+     "solution": [
+      "Take out the common factor {k}: {k}({quad(1, 0, -a * a)}).",
+      "x² − {a * a} is a difference of two squares: {lin2(1, a, 1, -a)}.",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-3-dos",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Factorise {quad(1, 0, -a * a)}.",
+   "correct": "{lin2(1, a, 1, -a)}",
+   "distractors": [
+    {
+     "text": "({poly([1, 'x'], [-a, ''])})²",
+     "misconception": "square"
+    },
+    {
+     "text": "{lin2(1, a * a, 1, -1)}",
+     "misconception": "noroot"
+    },
+    {
+     "text": "x({poly([1, 'x'], [-a * a, ''])})",
+     "misconception": "commonx"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "square",
+     "explain": "({poly([1, 'x'], [-a, ''])})² = {quad(1, -2 * a, a * a)}: it has a middle term and a plus sign at the end."
+    },
+    {
+     "id": "noroot",
+     "explain": "Use the square root of {a * a}, which is {a}: {lin2(1, a, 1, -a)}."
+    },
+    {
+     "id": "commonx",
+     "explain": "{a * a} has no x, so x is not a common factor."
+    }
+   ],
+   "solution": [
+    "{a * a} = {a}², so {quad(1, 0, -a * a)} = x² − {a}².",
+    "a² − b² = (a + b)(a − b).",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m4-3-group",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise {mono(1, 'ax')} + {mono(p, 'a')} + {mono(q, 'x')} + {p * q}.",
+   "correct": "({poly([1, 'a'], [q, ''])})({poly([1, 'x'], [p, ''])})",
+   "distractors": [
+    {
+     "text": "({poly([1, 'a'], [p, ''])})({poly([1, 'x'], [q, ''])})",
+     "misconception": "swap"
+    },
+    {
+     "text": "a({poly([1, 'x'], [p, ''])}) + {q}",
+     "misconception": "half"
+    },
+    {
+     "text": "({poly([1, 'a'], [q, ''])})({poly([1, 'x'], [p * q, ''])})",
+     "misconception": "keep"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Expand it: (a + {p})(x + {q}) gives {mono(q, 'a')} + {mono(p, 'x')}, not {mono(p, 'a')} + {mono(q, 'x')}."
+    },
+    {
+     "id": "half",
+     "explain": "That is only part way: {q}(x + {p}) also has the bracket (x + {p}), so take it out of both."
+    },
+    {
+     "id": "keep",
+     "explain": "Taking {q} out of {mono(q, 'x')} + {p * q} leaves x + {p}, not x + {p * q}."
+    }
+   ],
+   "solution": [
+    "Group: a(x + {p}) + {q}(x + {p}).",
+    "Take out the common bracket (x + {p}).",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != q"
+   ]
+  },
+  {
+   "id": "m4-3-squares",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise {quad(a * a, 0, -b * b)}.",
+   "correct": "{lin2(a, b, a, -b)}",
+   "distractors": [
+    {
+     "text": "{lin2(a * a, b, 1, -b)}",
+     "misconception": "half"
+    },
+    {
+     "text": "{lin2(a, b * b, a, -1)}",
+     "misconception": "noroot"
+    },
+    {
+     "text": "{lin2(a, b, a, b)}",
+     "misconception": "signs"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "half",
+     "explain": "Take the square root of the whole term {mono(a * a, 'x²')}: it is {mono(a, 'x')}, in both brackets."
+    },
+    {
+     "id": "noroot",
+     "explain": "Use {b}, the square root of {b * b}, in both brackets."
+    },
+    {
+     "id": "signs",
+     "explain": "{lin2(a, b, a, b)} = ({poly([a, 'x'], [b, ''])})², which ends with +{b * b}. One bracket needs a minus sign."
+    }
+   ],
+   "solution": [
+    "{mono(a * a, 'x²')} = ({mono(a, 'x')})² and {b * b} = {b}².",
+    "a² − b² = (a + b)(a − b) with a = {mono(a, 'x')} and b = {b}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "hcf(a, b) == 1"
+   ]
+  },
+  {
+   "id": "m4-3-common",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Factorise completely {quad(k, 0, -k * a * a)}.",
+   "correct": "{k}{lin2(1, a, 1, -a)}",
+   "distractors": [
+    {
+     "text": "{k}({quad(1, 0, -a * a)})",
+     "misconception": "stop"
+    },
+    {
+     "text": "{lin2(k, a, 1, -a)}",
+     "misconception": "onebr"
+    },
+    {
+     "text": "{k}({poly([1, 'x'], [-a, ''])})²",
+     "misconception": "square"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "stop",
+     "explain": "'Completely' means keep going: x² − {a * a} still factorises as {lin2(1, a, 1, -a)}."
+    },
+    {
+     "id": "onebr",
+     "explain": "Expand it: {lin2(k, a, 1, -a)} has a middle term. Take {k} out in front instead."
+    },
+    {
+     "id": "square",
+     "explain": "{k}({poly([1, 'x'], [-a, ''])})² = {k}({quad(1, -2 * a, a * a)}): that has a middle term."
+    }
+   ],
+   "solution": [
+    "Take out the common factor {k}: {k}({quad(1, 0, -a * a)}).",
+    "x² − {a * a} is a difference of two squares: {lin2(1, a, 1, -a)}.",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m4-3-calc",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-factorise"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      51,
+      99
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "m": {
+     "expr": "n - d"
+    }
+   },
+   "prompt": "Use a difference of two squares to calculate {n}² − {m}² without squaring the large numbers.",
+   "answer": "(n + m) * (n - m)",
+   "misconceptions": [
+    {
+     "id": "diffsq",
+     "wrong": "(n - m) * (n - m)",
+     "explain": "a² − b² is not (a − b)². Use ({n} + {m})({n} − {m})."
+    },
+    {
+     "id": "sub",
+     "wrong": "n - m",
+     "explain": "{n}² − {m}² is not {n} − {m}. Multiply the sum by the difference: {n + m} × {n - m}."
+    }
+   ],
+   "solution": [
+    "{n}² − {m}² = ({n} + {m})({n} − {m}).",
+    "= {n + m} × {n - m}.",
+    "= {answer}."
+   ],
+   "where": [
+    "d > 1"
+   ]
+  }
+ ]
+}

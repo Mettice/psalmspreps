@@ -1,0 +1,581 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "m4-9",
+   "name": "Develop the quadratic formula by completing the square"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Completing the square on ax² + bx + c = 0 gives the quadratic formula:\nx = (−b ± √(b² − 4ac)) / 2a.\nSteps: divide by a; move c/a; add (b/2a)² to both sides; write the left side as (x + b/2a)²; take the square root with ±; subtract b/2a.\nIdentify a, b and c with their signs: in 3x² − 5x + 2 = 0, a = 3, b = −5, c = 2.\nb² − 4ac is called the discriminant. In 3x² − 5x + 2 = 0 it is 25 − 24 = 1.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain each step that turns ax² + bx + c = {0} into the quadratic formula, and put the numbers of an equation into it.\nBuilds on: Lesson {8} (completing the square, with the ± root).\nLeads to: Lesson {10} (solving any quadratic with the formula) and later the discriminant and the nature of roots."
+   },
+   {
+    "heading": "Completing the square on letters",
+    "text": "Do on ax² + bx + c = {0} what Lesson {8} did with numbers.\n• Divide by a: x² + (b/a)x + c/a = {0}.\n• Move c/a: x² + (b/a)x = −c/a.\n• Add (b/{2}a)², the square of half the x coefficient: (x + b/{2}a)² = b²/{4}a² − c/a = (b² − {4}ac)/{4}a².\n• Square root with ±: x + b/{2}a = ±√(b² − {4}ac)/{2}a.\n• Subtract b/{2}a: x = (−b ± √(b² − {4}ac)) / {2}a."
+   },
+   {
+    "heading": "Reading a, b and c",
+    "text": "Write the equation as ax² + bx + c = {0} first, then read each number with its sign.\n• {quad(3, -5, 2)} = {0}: a = {3}, b = {-5}, c = {2}.\n• {quad(1, 4, -7)} = {0}: a = {1}, b = {4}, c = {-7}.\n• {quad(2, 0, -9)} = {0}: a = {2}, b = {0}, c = {-9}.\nThe number under the root, b² − {4}ac, is the discriminant. For {quad(3, -5, 2)} it is {25} − {24} = {1}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quadratic formula",
+    "meaning": "x = (−b ± √(b² − {4}ac)) / {2}a"
+   },
+   {
+    "word": "discriminant",
+    "meaning": "b² − {4}ac, the number under the square root"
+   },
+   {
+    "word": "derive",
+    "meaning": "show where a formula comes from, step by step"
+   }
+  ],
+  "examples": [
+   "{quad(1, 3, -4)} = {0}: a = {1}, b = {3}, c = {-4}, discriminant {9} + {16} = {25}",
+   "{quad(2, -1, -6)} = {0}: discriminant {1} + {48} = {49}"
+  ],
+  "mistake": {
+   "wrong": "{quad(1, -5, 6)} = {0}: b = {5}",
+   "right": "b = {-5}",
+   "why": "The sign in front of a term belongs to its coefficient. Here −b = {5} in the formula."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "b": 3,
+   "c": -5
+  },
+  "problem": "Write the quadratic formula with the numbers of {quad(a, b, c)} = {0} put in.",
+  "steps": [
+   "Read off a = {a}, b = {b}, c = {c}, with their signs.",
+   "b² − {4}ac = {b * b} − {4} × {a} × {br(c)} = {b * b - 4 * a * c}.",
+   "{2}a = {2 * a} and −b = {-b}."
+  ],
+  "answer": "x = ({-b} ± √{b * b - 4 * a * c}) / {2 * a}",
+  "checks": [
+   "b * b - 4 * a * c == 49"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m9-1",
+    "status": "draft",
+    "idea": "Read a, b and c with their signs from ax² + bx + c = {0}.",
+    "vars": {},
+    "example": [
+     "{quad(3, -5, 2)} = {0}: a = {3}, b = {-5}, c = {2}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-9-abc"
+    }
+   },
+   {
+    "id": "c4m9-2",
+    "status": "draft",
+    "idea": "b² − {4}ac is the discriminant: the number under the square root in the formula.",
+    "vars": {},
+    "example": [
+     "{quad(3, -5, 2)}: b² − {4}ac = {25} − {24} = {1}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-9-disc"
+    }
+   },
+   {
+    "id": "c4m9-3",
+    "status": "draft",
+    "idea": "The formula comes from completing the square on ax² + bx + c = {0}.",
+    "vars": {},
+    "example": [
+     "divide by a → add (b/{2}a)² → take ± square root → x = (−b ± √(b² − {4}ac))/{2}a"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-9-step-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "quadratic-equations"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Deriving the formula from ax² + bx + c = {0}, what is the first step?",
+         "r": "Divide every term by a",
+         "w": [
+          "Take the square root of both sides",
+          "Subtract b from both sides",
+          "Multiply every term by c"
+         ],
+         "e": [
+          "There is no square yet to take the root of; first make the x² coefficient {1}.",
+          "bx is a term with x; subtracting b alone does not keep the equation balanced.",
+          "Multiplying by c does not help; the aim is x² with coefficient {1}."
+         ],
+         "y": "Dividing by a gives x² + (b/a)x + c/a = {0}, ready for completing the square."
+        },
+        {
+         "q": "After dividing by a and moving c/a, we have x² + (b/a)x = −c/a. What is added to both sides?",
+         "r": "(b/{2}a)²",
+         "w": [
+          "(b/a)²",
+          "b/{2}a",
+          "c/a"
+         ],
+         "e": [
+          "Half of the coefficient b/a is b/{2}a; square that, not b/a.",
+          "b/{2}a must be squared to complete the square.",
+          "c/a is already used; the added term comes from the x coefficient."
+         ],
+         "y": "Half of b/a is b/{2}a; adding (b/{2}a)² makes the left side (x + b/{2}a)²."
+        },
+        {
+         "q": "The completed square is (x + b/{2}a)² = (b² − {4}ac)/{4}a². What is the next step?",
+         "r": "Take the square root of both sides, with ±",
+         "w": [
+          "Divide both sides by {4}a²",
+          "Square both sides",
+          "Take the square root with + only"
+         ],
+         "e": [
+          "{4}a² is inside the fraction; the next step removes the square on the left.",
+          "Squaring makes it more complicated; we need to undo the square.",
+          "Both signs give roots; the ± is the reason a quadratic can have two roots."
+         ],
+         "y": "x + b/{2}a = ±√(b² − {4}ac)/{2}a, then subtract b/{2}a."
+        },
+        {
+         "q": "Which expression decides how many real roots ax² + bx + c = {0} has?",
+         "r": "b² − {4}ac",
+         "w": [
+          "b² + {4}ac",
+          "{2}a",
+          "−b"
+         ],
+         "e": [
+          "The formula has b² minus {4}ac under the root.",
+          "{2}a is the denominator; it never changes the number of roots.",
+          "−b only shifts both roots together."
+         ],
+         "y": "b² − {4}ac is under the square root: positive gives two roots, zero one, negative none."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-9-abc",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "In {quad(a, b, c)} = {0}, what are a, b and c?",
+   "correct": "a = {a}, b = {b}, c = {c}",
+   "distractors": [
+    {
+     "text": "a = {a}, b = {-b}, c = {c}",
+     "misconception": "bsign"
+    },
+    {
+     "text": "a = {a}, b = {b}, c = {-c}",
+     "misconception": "csign"
+    },
+    {
+     "text": "a = {c}, b = {b}, c = {a}",
+     "misconception": "swap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "bsign",
+     "explain": "The sign in front of the x term belongs to b: b = {b}."
+    },
+    {
+     "id": "csign",
+     "explain": "The sign in front of the number belongs to c: c = {c}."
+    },
+    {
+     "id": "swap",
+     "explain": "a goes with x² and c is the number term."
+    }
+   ],
+   "solution": [
+    "a is the coefficient of x², b of x, c is the number term, each with its sign.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "a != c",
+    "a != abs(c)"
+   ]
+  },
+  {
+   "id": "m4-9-disc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Find the discriminant b² − {4}ac of {quad(a, b, c)} = {0}.",
+   "answer": "b * b - 4 * a * c",
+   "misconceptions": [
+    {
+     "id": "plus",
+     "wrong": "b * b + 4 * a * c",
+     "explain": "It is b² minus {4}ac: {b * b} − {br(4 * a * c)}."
+    },
+    {
+     "id": "bsign",
+     "wrong": "-(b * b) - 4 * a * c",
+     "explain": "b² is always positive: ({b})² = {b * b}."
+    },
+    {
+     "id": "twoac",
+     "wrong": "b * b - 2 * a * c",
+     "explain": "Use {4}ac, not {2}ac: {4} × {a} × {br(c)} = {4 * a * c}."
+    }
+   ],
+   "solution": [
+    "b² = {b * b}.",
+    "{4}ac = {4} × {a} × {br(c)} = {4 * a * c}.",
+    "b² − {4}ac = {b * b} − {br(4 * a * c)} = {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "b * b - 4 * a * c != b * b + 4 * a * c"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-9-step",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Deriving the formula from ax² + bx + c = {0}, what is the first step?",
+       "r": "Divide every term by a",
+       "w": [
+        "Take the square root of both sides",
+        "Subtract b from both sides",
+        "Multiply every term by c"
+       ],
+       "e": [
+        "There is no square yet to take the root of; first make the x² coefficient {1}.",
+        "bx is a term with x; subtracting b alone does not keep the equation balanced.",
+        "Multiplying by c does not help; the aim is x² with coefficient {1}."
+       ],
+       "y": "Dividing by a gives x² + (b/a)x + c/a = {0}, ready for completing the square."
+      },
+      {
+       "q": "After dividing by a and moving c/a, we have x² + (b/a)x = −c/a. What is added to both sides?",
+       "r": "(b/{2}a)²",
+       "w": [
+        "(b/a)²",
+        "b/{2}a",
+        "c/a"
+       ],
+       "e": [
+        "Half of the coefficient b/a is b/{2}a; square that, not b/a.",
+        "b/{2}a must be squared to complete the square.",
+        "c/a is already used; the added term comes from the x coefficient."
+       ],
+       "y": "Half of b/a is b/{2}a; adding (b/{2}a)² makes the left side (x + b/{2}a)²."
+      },
+      {
+       "q": "The completed square is (x + b/{2}a)² = (b² − {4}ac)/{4}a². What is the next step?",
+       "r": "Take the square root of both sides, with ±",
+       "w": [
+        "Divide both sides by {4}a²",
+        "Square both sides",
+        "Take the square root with + only"
+       ],
+       "e": [
+        "{4}a² is inside the fraction; the next step removes the square on the left.",
+        "Squaring makes it more complicated; we need to undo the square.",
+        "Both signs give roots; the ± is the reason a quadratic can have two roots."
+       ],
+       "y": "x + b/{2}a = ±√(b² − {4}ac)/{2}a, then subtract b/{2}a."
+      },
+      {
+       "q": "Which expression decides how many real roots ax² + bx + c = {0} has?",
+       "r": "b² − {4}ac",
+       "w": [
+        "b² + {4}ac",
+        "{2}a",
+        "−b"
+       ],
+       "e": [
+        "The formula has b² minus {4}ac under the root.",
+        "{2}a is the denominator; it never changes the number of roots.",
+        "−b only shifts both roots together."
+       ],
+       "y": "b² − {4}ac is under the square root: positive gives two roots, zero one, negative none."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m4-9-sub",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Which is the quadratic formula with the numbers of {quad(a, b, c)} = {0} put in?",
+   "correct": "x = ({-b} ± √{b * b - 4 * a * c}) / {2 * a}",
+   "distractors": [
+    {
+     "text": "x = ({b} ± √{b * b - 4 * a * c}) / {2 * a}",
+     "misconception": "minusb"
+    },
+    {
+     "text": "x = ({-b} ± √{b * b + 4 * a * c}) / {2 * a}",
+     "misconception": "plus"
+    },
+    {
+     "text": "x = ({-b} ± √{b * b - 4 * a * c}) / {a}",
+     "misconception": "twoa"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "minusb",
+     "explain": "The formula starts with −b: −({b}) = {-b}."
+    },
+    {
+     "id": "plus",
+     "explain": "Under the root it is b² minus {4}ac: {b * b} − {br(4 * a * c)} = {b * b - 4 * a * c}."
+    },
+    {
+     "id": "twoa",
+     "explain": "Divide by {2}a = {2 * a}, not by a."
+    }
+   ],
+   "solution": [
+    "a = {a}, b = {b}, c = {c}.",
+    "−b = {-b}; b² − {4}ac = {b * b - 4 * a * c}; {2}a = {2 * a}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "b * b - 4 * a * c > 0",
+    "b * b + 4 * a * c != b * b - 4 * a * c",
+    "a != 2 * a"
+   ]
+  },
+  {
+   "id": "m4-9-nature",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "quadratic-equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -8,
+      8
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "For {quad(a, b, c)} = {0}, the discriminant is {b * b - 4 * a * c}. How many real roots does the equation have? (Type 0, 1 or 2.)",
+   "answer": "b * b - 4 * a * c > 0 ? 2 : b * b - 4 * a * c == 0 ? 1 : 0",
+   "misconceptions": [
+    {
+     "id": "always2",
+     "wrong": "b * b - 4 * a * c > 0 ? 1 : 2",
+     "explain": "Look at the sign of {b * b - 4 * a * c}: positive gives {2}, zero {1}, negative {0}."
+    }
+   ],
+   "solution": [
+    "Under the square root is b² − {4}ac = {b * b - 4 * a * c}.",
+    "Positive: two roots (±). Zero: one repeated root. Negative: no real square root, so no real roots.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "c != 0"
+   ]
+  }
+ ]
+}

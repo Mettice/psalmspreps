@@ -1,0 +1,15 @@
+{
+ "_note": "Sources for Form 4 Maths (content/classes.json, form-4). Rules are computed by src/engine/lib/maths.js and maths2.js (poly, mono, quad, lin2, surd).",
+ "algebra-expand": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Algebraic processes: expansion of expressions; identities (a ± b)², (a + b)(a − b)",
+  "checked": "Answers computed by the engine from the distributive law; checked by 1000-seed tests."
+ },
+ "algebra-factorise": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Algebraic processes: factorisation by grouping, difference of two squares, sum and difference of two cubes, quadratic trinomials",
+  "checked": "Answers computed by the engine; every factorisation is the expansion of the answer, checked by 1000-seed tests."
+ },
+ "quadratic-equations": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Algebraic processes: solving quadratic equations by factorisation, completing the square and the quadratic formula; forming equations from roots",
+  "checked": "Roots computed by the engine (factors, completed square, formula); every root is substituted back by the 1000-seed tests."
+ }
+}

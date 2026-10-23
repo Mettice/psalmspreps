@@ -1,0 +1,494 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m4-2",
+   "name": "Expand products of brackets, including the special products"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To expand a product of brackets, multiply every term in one bracket by every term in the other, then collect like terms.\n• (x + 3)(x + 5) = x² + 5x + 3x + 15 = x² + 8x + 15.\n• (2x + 3)(x − 4) = 2x² − 8x + 3x − 12 = 2x² − 5x − 12.\nThree special products are worth knowing by heart:\n• (a + b)² = a² + 2ab + b²\n• (a − b)² = a² − 2ab + b²\n• (a + b)(a − b) = a² − b²\nA common mistake is (x + 3)² = x² + 9: the middle term 2 × 3 × x = 6x is missing.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to expand any product of two brackets and spot the three special products on sight.\nBuilds on: Form Three expansion of a(b + c) and of (x + a)(x + b); collecting like terms.\nLeads to: factorisation (the next lessons undo expansion) and solving quadratic equations."
+   },
+   {
+    "heading": "Every term times every term",
+    "text": "To expand ({poly([2, 'x'], [3, ''])})({poly([1, 'x'], [-4, ''])}), multiply each term of the first bracket by each term of the second.\n• {mono(2, 'x')} × x = {mono(2, 'x²')}\n• {mono(2, 'x')} × {br(-4)} = {mono(-8, 'x')}\n• {3} × x = {mono(3, 'x')}\n• {3} × {br(-4)} = {-12}\nTwo terms times two terms always make four products. Then collect the like terms: {mono(-8, 'x')} + {mono(3, 'x')} = {mono(-5, 'x')}, so the answer is {quad(2, -5, -12)}."
+   },
+   {
+    "heading": "Three special products",
+    "text": "Some products appear so often that it is worth knowing them by heart.\n• (a + b)² = a² + {2}ab + b²: for example ({poly([1, 'x'], [5, ''])})² = {quad(1, 10, 25)}.\n• (a − b)² = a² − {2}ab + b²: for example ({poly([1, 'x'], [-3, ''])})² = {quad(1, -6, 9)}.\n• (a + b)(a − b) = a² − b²: for example {lin2(1, 7, 1, -7)} = {quad(1, 0, -49)}.\nIn the last one the middle terms cancel. This is called the difference of two squares, and the next lesson uses it backwards."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "expand",
+    "meaning": "remove the brackets by multiplying every term inside"
+   },
+   {
+    "word": "product",
+    "meaning": "the result of a multiplication"
+   },
+   {
+    "word": "perfect square",
+    "meaning": "a bracket times itself, such as ({poly([1, 'x'], [5, ''])})²"
+   },
+   {
+    "word": "difference of two squares",
+    "meaning": "an expression a² − b², which equals (a + b)(a − b)"
+   }
+  ],
+  "examples": [
+   "{lin2(1, 2, 1, 6)} = {quad(1, 8, 12)}",
+   "({poly([3, 'x'], [-1, ''])})² = {quad(9, -6, 1)}",
+   "{lin2(2, 5, 2, -5)} = {quad(4, 0, -25)}"
+  ],
+  "mistake": {
+   "wrong": "({poly([1, 'x'], [3, ''])})² = {quad(1, 0, 9)}",
+   "right": "({poly([1, 'x'], [3, ''])})² = {quad(1, 6, 9)}",
+   "why": "Squaring a bracket means multiplying it by itself. The two middle products {mono(3, 'x')} + {mono(3, 'x')} give {mono(6, 'x')}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "b": 3,
+   "c": 1,
+   "d": -4
+  },
+  "problem": "Expand and simplify {lin2(a, b, c, d)}.",
+  "steps": [
+   "Multiply each term of the first bracket by each term of the second.",
+   "{mono(a, 'x')} × {mono(c, 'x')} = {mono(a * c, 'x²')} and {mono(a, 'x')} × {br(d)} = {mono(a * d, 'x')}.",
+   "{b} × {mono(c, 'x')} = {mono(b * c, 'x')} and {b} × {br(d)} = {b * d}.",
+   "Collect the x terms: {a * d} + {b * c} = {a * d + b * c}."
+  ],
+  "answer": "{quad(a * c, a * d + b * c, b * d)}",
+  "checks": [
+   "a * c == 2",
+   "a * d + b * c == -5",
+   "b * d == -12"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m2-1",
+    "status": "draft",
+    "idea": "Every term in one bracket multiplies every term in the other. Two terms times two terms make four products.",
+    "vars": {},
+    "example": [
+     "{lin2(1, 3, 1, 5)} = {poly([1, 'x²'], [5, 'x'], [3, 'x'], [15, ''])} = {quad(1, 8, 15)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-2-xpq"
+    }
+   },
+   {
+    "id": "c4m2-2",
+    "status": "draft",
+    "idea": "A square of a bracket is the bracket times itself, so it has a middle term: twice the product of the two terms.",
+    "vars": {},
+    "example": [
+     "{lin2(1, 3, 1, 3)} = {quad(1, 6, 9)}, not {quad(1, 0, 9)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-2-square"
+    }
+   },
+   {
+    "id": "c4m2-3",
+    "status": "draft",
+    "idea": "When the brackets differ only by a sign, the middle terms cancel: the answer is a difference of two squares.",
+    "vars": {},
+    "example": [
+     "{lin2(1, 4, 1, -4)} = {quad(1, 4, 0)} − {mono(4, 'x')} − {16} = {quad(1, 0, -16)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-2-dos-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-expand"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        1,
+        6
+       ]
+      },
+      "q": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "prompt": "Expand {lin2(p, q, p, -q)}.",
+     "correct": "{quad(p * p, 0, -q * q)}",
+     "distractors": [
+      {
+       "text": "{quad(p * p, 0, q * q)}",
+       "misconception": "plus"
+      },
+      {
+       "text": "{quad(p * p, -2 * p * q, -q * q)}",
+       "misconception": "mid"
+      },
+      {
+       "text": "{quad(p, 0, -q * q)}",
+       "misconception": "nosq"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "plus",
+       "explain": "The last product is {q} × {br(-q)}: a positive times a negative is negative, so {-q * q}."
+      },
+      {
+       "id": "mid",
+       "explain": "The middle products are {mono(-p * q, 'x')} and {mono(p * q, 'x')}: they cancel to zero."
+      },
+      {
+       "id": "nosq",
+       "explain": "{mono(p, 'x')} × {mono(p, 'x')} = {mono(p * p, 'x²')}: the {p} is squared too."
+      }
+     ],
+     "solution": [
+      "The middle products are {mono(-p * q, 'x')} and {mono(p * q, 'x')}: they cancel.",
+      "First: {mono(p, 'x')} × {mono(p, 'x')} = {mono(p * p, 'x²')}. Last: {q} × {br(-q)} = {-q * q}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "p != 1"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-2-xpq",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand {lin2(1, p, 1, q)}.",
+   "correct": "{quad(1, p + q, p * q)}",
+   "distractors": [
+    {
+     "text": "{quad(1, 0, p * q)}",
+     "misconception": "nomid"
+    },
+    {
+     "text": "{quad(1, p + q, p + q)}",
+     "misconception": "addend"
+    },
+    {
+     "text": "{quad(1, p * q, p + q)}",
+     "misconception": "swap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nomid",
+     "explain": "Two products are missing: x × {br(q)} and {br(p)} × x. Together they give {mono(p + q, 'x')}."
+    },
+    {
+     "id": "addend",
+     "explain": "The last term is a product: {br(p)} × {br(q)} = {p * q}, not a sum."
+    },
+    {
+     "id": "swap",
+     "explain": "The x term comes from adding: {p} + {br(q)} = {p + q}. The number term comes from multiplying: {p * q}."
+    }
+   ],
+   "solution": [
+    "x × x = x²; x × {br(q)} and {br(p)} × x give {p} + {br(q)} = {p + q} lots of x.",
+    "{br(p)} × {br(q)} = {p * q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != 0 && q != 0",
+    "p + q != 0",
+    "p * q != p + q",
+    "p != q"
+   ]
+  },
+  {
+   "id": "m4-2-square",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand {lin2(1, a, 1, a)}, that is ({poly([1, 'x'], [a, ''])})². What is the coefficient of x?",
+   "answer": "2 * a",
+   "misconceptions": [
+    {
+     "id": "once",
+     "wrong": "a",
+     "explain": "There are two middle products, x × {br(a)} and {br(a)} × x: {a} + {br(a)} = {2 * a}."
+    },
+    {
+     "id": "square",
+     "wrong": "a * a",
+     "explain": "{a * a} is the number term ({br(a)} × {br(a)}). The x term is {2 * a}x."
+    }
+   ],
+   "solution": [
+    "({poly([1, 'x'], [a, ''])})² = ({poly([1, 'x'], [a, ''])})({poly([1, 'x'], [a, ''])}).",
+    "The two middle products are {br(a)} × x and x × {br(a)}: together {mono(2 * a, 'x')}.",
+    "So the coefficient of x is {answer}."
+   ],
+   "where": [
+    "a != 0 && a != 2 && a != -2",
+    "a * a != 2 * a"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-2-pair",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "d": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand and simplify {lin2(a, b, c, d)}.",
+   "correct": "{quad(a * c, a * d + b * c, b * d)}",
+   "distractors": [
+    {
+     "text": "{quad(a * c, a * b + c * d, b * d)}",
+     "misconception": "cross"
+    },
+    {
+     "text": "{quad(a * c, 0, b * d)}",
+     "misconception": "nomid"
+    },
+    {
+     "text": "{quad(a + c, a * d + b * c, b + d)}",
+     "misconception": "add"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "cross",
+     "explain": "Multiply a term of the first bracket by a term of the second: {mono(a, 'x')} × {br(d)} and {b} × {mono(c, 'x')}."
+    },
+    {
+     "id": "nomid",
+     "explain": "The two middle products are missing: {mono(a * d, 'x')} and {mono(b * c, 'x')}."
+    },
+    {
+     "id": "add",
+     "explain": "Terms are multiplied, not added: {mono(a, 'x')} × {mono(c, 'x')} = {mono(a * c, 'x²')} and {b} × {br(d)} = {b * d}."
+    }
+   ],
+   "solution": [
+    "{mono(a, 'x')} × {mono(c, 'x')} = {mono(a * c, 'x²')}.",
+    "Middle: {mono(a, 'x')} × {br(d)} + {b} × {mono(c, 'x')} = {mono(a * d, 'x')} + {mono(b * c, 'x')} = {mono(a * d + b * c, 'x')}.",
+    "Last: {b} × {br(d)} = {b * d}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "d != 0",
+    "a * d + b * c != 0",
+    "a * b + c * d != a * d + b * c",
+    "a + c != a * c",
+    "b + d != b * d"
+   ]
+  },
+  {
+   "id": "m4-2-dos",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand {lin2(p, q, p, -q)}.",
+   "correct": "{quad(p * p, 0, -q * q)}",
+   "distractors": [
+    {
+     "text": "{quad(p * p, 0, q * q)}",
+     "misconception": "plus"
+    },
+    {
+     "text": "{quad(p * p, -2 * p * q, -q * q)}",
+     "misconception": "mid"
+    },
+    {
+     "text": "{quad(p, 0, -q * q)}",
+     "misconception": "nosq"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "plus",
+     "explain": "The last product is {q} × {br(-q)}: a positive times a negative is negative, so {-q * q}."
+    },
+    {
+     "id": "mid",
+     "explain": "The middle products are {mono(-p * q, 'x')} and {mono(p * q, 'x')}: they cancel to zero."
+    },
+    {
+     "id": "nosq",
+     "explain": "{mono(p, 'x')} × {mono(p, 'x')} = {mono(p * p, 'x²')}: the {p} is squared too."
+    }
+   ],
+   "solution": [
+    "The middle products are {mono(-p * q, 'x')} and {mono(p * q, 'x')}: they cancel.",
+    "First: {mono(p, 'x')} × {mono(p, 'x')} = {mono(p * p, 'x²')}. Last: {q} × {br(-q)} = {-q * q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != 1"
+   ]
+  },
+  {
+   "id": "m4-2-three",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-expand"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand ({poly([1, 'x'], [a, ''])})({quad(1, b, c)}). What is the coefficient of x?",
+   "answer": "c + a * b",
+   "misconceptions": [
+    {
+     "id": "onlyc",
+     "wrong": "c",
+     "explain": "There is a second x term: {br(a)} × {mono(b, 'x')} = {mono(a * b, 'x')}."
+    },
+    {
+     "id": "onlyab",
+     "wrong": "a * b",
+     "explain": "There is a second x term: x × {br(c)} = {mono(c, 'x')}."
+    },
+    {
+     "id": "x2",
+     "wrong": "b + a",
+     "explain": "{b} + {br(a)} is the coefficient of x². For x add {c} and {a} × {br(b)}."
+    }
+   ],
+   "solution": [
+    "The x terms come from x × {br(c)} and {br(a)} × {mono(b, 'x')}.",
+    "That gives {mono(c, 'x')} and {mono(a * b, 'x')}.",
+    "So the coefficient of x is {c} + {br(a * b)} = {answer}."
+   ],
+   "where": [
+    "a != 0 && b != 0 && c != 0",
+    "c + a * b != 0",
+    "a * b != c + a * b",
+    "b + a != c + a * b",
+    "c != c + a * b"
+   ],
+   "signed": true
+  }
+ ]
+}
