@@ -1,0 +1,23 @@
+{
+ "_note": "Classes from Form 3 on (2026-10-23). Forms 1 and 2 are still configured in tools/prototype/build.mjs. A subject here is built, tested (tests-js/classes-content.test.js) and rendered for review (npm run review -- <id>) from the lesson files present in content/<class>/<dir>/: no per-batch list to edit. Subject id = <prefix>-<dir>. lesson_subject: the `subject` field of its lessons; ids: the start of every template, card-check and skill id; libs: src/engine/lib modules (in order); lang: fr for lessons in French.",
+ "form-3": {
+  "name": "Form Three",
+  "cls": "Form 3",
+  "prefix": "f3",
+  "subjects": {
+   "maths": { "name": "Maths", "spine": "mathematics", "lesson_subject": "mathematics", "ids": "m3-", "libs": ["maths", "maths2"] },
+   "english": { "name": "English", "spine": "english-language", "lesson_subject": "english-language", "ids": "e3-", "libs": ["maths", "english"] },
+   "physics": { "name": "Physics", "spine": "physics", "lesson_subject": "physics", "ids": "p3-", "libs": ["maths", "english", "physics", "chemistry", "biology", "maths2", "science2"] },
+   "chemistry": { "name": "Chemistry", "spine": "chemistry", "lesson_subject": "chemistry", "ids": "k3-", "libs": ["maths", "english", "physics", "chemistry", "biology", "maths2", "science2"] },
+   "biology": { "name": "Biology", "spine": "biology", "lesson_subject": "biology", "ids": "b3-", "libs": ["maths", "english", "physics", "chemistry", "biology", "maths2", "science2"] },
+   "computer-science": { "name": "Computer Science", "spine": "computer-science", "lesson_subject": "computer-science", "ids": "s3-", "libs": ["maths", "english", "computerscience", "maths2", "science2"] },
+   "geography": { "name": "Geography", "spine": "geography", "lesson_subject": "geography", "ids": "g3-", "libs": ["maths", "english", "geography", "maths2"] },
+   "history": { "name": "History", "spine": "history", "lesson_subject": "history", "ids": "y3-", "libs": ["maths", "english", "history"] },
+   "economics": { "name": "Economics", "spine": "economics", "lesson_subject": "economics", "ids": "n3-", "libs": ["maths", "english", "maths2"] },
+   "accounting": { "name": "Accounting", "spine": "accounting", "lesson_subject": "accounting", "ids": "a3-", "libs": ["maths", "english", "maths2"] },
+   "logic": { "name": "Logic", "spine": "logic", "lesson_subject": "logic", "ids": "l3-", "libs": ["maths", "english"] },
+   "french": { "name": "French", "spine": "french", "lesson_subject": "french", "ids": "fr3-", "libs": ["maths", "english", "french", "french2"], "lang": "fr" },
+   "francais-intensif": { "name": "Français intensif", "spine": "francais-intensif", "lesson_subject": "francais-intensif", "ids": "fi3-", "libs": ["maths", "english", "french", "french2"], "lang": "fr" }
+  }
+ }
+}

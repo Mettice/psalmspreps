@@ -23,6 +23,11 @@ import { instantiate, renderWorked } from "../../src/engine/template.js";
 import { renderCard, cardCheckTemplate, practicePlan, renderPaper, renderLearn, isDeferred } from "../../src/engine/teach.js";
 
 const SUBJECT = process.argv[2];
+// Form 3 on (2026-10-23): content/classes.json, lessons = the files present (npm run review -- f3-maths).
+const { registrySubjects, libOf } = await import("../classes.mjs");
+const REG = registrySubjects().find((r) => r.id === SUBJECT);
+const fromRegistry = async (r) => r && r.lessons.length ? { name: r.name, cls: r.clsLabel, dir: r.dir, batch: `${r.className} ${r.name}`, spine: r.spine,
+  lib: await libOf(r), sample: r.lessons[0], lessons: `${r.lessons.length} lessons (${r.lessons[0]}–${r.lessons[r.lessons.length - 1]})`, bySeq: true } : null;
 const CONF = {
   english: { name: "English", batch: "Batch E1", spine: "english-language", lib: { ...maths, ...english }, sample: 3, lessons: "1–16" },
   physics: { name: "Physics", batch: "Batch P1", spine: "physics", lib: { ...maths, ...english, ...physics }, sample: 16, lessons: "1–19" },
@@ -47,7 +52,7 @@ const CONF = {
   "f2-chemistry": { name: "Chemistry", cls: "Form 2", dir: "form-2/chemistry", batch: "Batches C2-1, C2-2, C2-3", spine: "form-2/chemistry", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 10, lessons: "1–4, 6–11, 13–17, 20–27, 29–38, 40–45, 47–52, 55–59, Terms 1–3", bySeq: true },
   "f2-biology": { name: "Biology", cls: "Form 2", dir: "form-2/biology", batch: "Batches B2-1, B2-2, B2-3", spine: "form-2/biology", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 13–21, 25–33, 37–46, 50–52, Terms 1–3", bySeq: true },
   "f2-english": { name: "English", cls: "Form 2", dir: "form-2/english", batch: "Batches E2-1, E2-2, E2-3", spine: "form-2/english-language", lib: { ...maths, ...english }, sample: 3, lessons: "1–104, Terms 1–3", bySeq: true },
-}[SUBJECT];
+}[SUBJECT] || await fromRegistry(REG);
 if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science|french|f2-maths|f2-english|f2-physics|f2-chemistry|f2-biology|f2-home-economics|f2-geography|f2-history|f2-computer-science|f2-accounting|f2-french|f2-francais-intensif");
 const lib = CONF.lib;
 const FOLDER = CONF.dir || SUBJECT, CLS = CONF.cls || "Form 1";
@@ -281,7 +286,7 @@ const A = [`# ${CONF.name} ${CLS}, ${CONF.batch}: authored answers for review`, 
   "Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.",
   "Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.",
   `Regenerate with \`npm run review:${SUBJECT}\`. Item IDs (TR-…) match \`docs/teacher-review.md\`.`, "",
-  ...PART1(),
+  ...(PART1 ? PART1() : ["## Part 1", "", "Rules the computed answers use are listed in the subject’s library tests; every authored answer is in Part 2.", ""]),
   "## Part 2: authored question templates", "",
   "| # | Template | Lesson | Type, level | Sources |", "|---|---|---|---|---|"];
 const authored = lessons.filter((l) => !isDeferred(l)).flatMap((l) => [...l.questions, ...(l.activity?.stages || []).map((s) => s.question), ...l.teach.cards.filter((c) => !c.check.ref).map((c) => ({ ...c.check, card: c.id }))]

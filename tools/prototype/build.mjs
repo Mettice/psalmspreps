@@ -38,6 +38,14 @@ const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry
   "f2-french": [...upTo(15), ...Array.from({ length: 15 }, (_, i) => i + 18), ...Array.from({ length: 17 }, (_, i) => i + 36), ...Array.from({ length: 15 }, (_, i) => i + 54), ...Array.from({ length: 12 }, (_, i) => i + 70)], "f2-francais-intensif": [...upTo(25), ...Array.from({ length: 25 }, (_, i) => i + 27), ...Array.from({ length: 24 }, (_, i) => i + 53), ...Array.from({ length: 25 }, (_, i) => i + 78), ...Array.from({ length: 25 }, (_, i) => i + 104)] };  // Form 2 sciences: integration, evaluation, remediation and review rows are not lessons  // released lessons per subject (Form 2: Term 1, Batches M2-1 and E2-1)
 // Geography is numbered by place in the year (spine seq): its practicals have no lesson number (TR-G14).
 const BY_SEQ = new Set(["geography", "history", "biology", "f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-biology", "f2-home-economics", "f2-geography", "f2-history", "f2-computer-science", "f2-french", "f2-francais-intensif", "f2-accounting"]);  // biology: practicals have kind "practical" (numbers equal the rows); every Form 2 subject (proposal G1)
+// Form 3 on (2026-10-23): content/classes.json. A subject's lessons are the files in its folder (tools/classes.mjs),
+// so a new batch needs no edit here, and two people can work on different subjects without touching this file.
+const { registrySubjects } = await import("../classes.mjs");
+const REG = registrySubjects();
+for (const r of REG) {
+  SUBJECTS[r.id] = r.name; CLASSES[r.cls] = r.className; CLASS_OF[r.id] = r.cls; DIR[r.id] = r.dir; SPINE[r.id] = r.spine;
+  BATCH[r.id] = r.lessons; BY_SEQ.add(r.id);
+}
 
 // The names each engine module really exports (Node imports it), to check the bundled copy below: a declaration like
 // "export const a = …, b = …" once bundled only a, and the page failed while every Node test passed (2026-10-21).
@@ -69,7 +77,7 @@ const tidy = (t) => t
   .replace(/^((?:Speaking|Reading|Writing|Vocabulary|Grammar|Listening)(?: and (?:Speaking|Reading|Writing|Listening))?)\s*[-:]?\s*/, "$1: ")  // "Speaking and Reading- Talking …" (Form 2) → "Speaking and Reading: Talking …"
   .replace(/\s*\.?\s*-\s+/g, ": ").replace(/\s*:\s*/g, ": ").replace(/[;\s]+$/, "").replace(/\s+/g, " ").trim();
 // Form Two French titles keep French typography (a space before the colon); Form One titles are unchanged.
-const FR_TITLES = new Set(["f2-french", "f2-francais-intensif"]);
+const FR_TITLES = new Set(["f2-french", "f2-francais-intensif", ...REG.filter((r) => r.lang === "fr").map((r) => r.id)]);
 const frSpace = (t) => t
   .replace(/(^|[:;.]\s*)-\s*/g, "$1").replace(/\s-(?=\p{Lu})/gu, ", ")    // the sheet's list dashes: "Ecoute :-Textes", ". -Texte"
   .replace(/\s*;\s*/g, " ; ").replace(/\s+,/g, ",").replace(/(\S)\(\s*/g, "$1 (")  // French spacing around ; , (
@@ -90,6 +98,8 @@ for (const s of Object.keys(SUBJECTS)) {
 }
 // A subject with no released lesson yet is left out of the app.
 for (const s of Object.keys(SUBJECTS)) if (!lessons[s].length) for (const x of [SUBJECTS, CLASS_OF, titles, content, lessons, termOf]) delete x[s];
+// …and so is a class with none (Form 3 until its first lessons, 2026-10-23).
+for (const c of Object.keys(CLASSES)) if (c !== "form-1" && !Object.values(CLASS_OF).includes(c)) delete CLASSES[c];
 const build = new Date().toISOString().slice(0, 10);
 const safeJson = (x) => JSON.stringify(x).replace(/</g, "\\u003c");
 
@@ -281,6 +291,7 @@ const paper = Object.fromEntries(Object.entries(content).map(([s, ls]) => [s, Ob
 // shareable file must not grow when another class adds a library (Form One's file stays as it was).
 const LIB_ENTRIES = Object.fromEntries([...ENGINE_LIBS.matchAll(/(?:"([a-z0-9-]+)"|\b([a-z][a-z0-9]*)): (\{[^{}]*\}|__mods\["[^"]+"\])/g)]
   .map((m) => [m[1] || m[2], m[3]]).filter(([k]) => k !== "libs"));
+for (const r of REG) LIB_ENTRIES[r.id] = `{ ${r.libs.map((m) => `...__mods["lib/${m}.js"]`).join(", ")} }`;
 function libsFor(only) {
   const need = new Set(only.flatMap((s) => [...(LIB_ENTRIES[s] || "").matchAll(/lib\/[a-z0-9]+\.js/g)].map((m) => m[0])));
   for (let grew = true; grew;) {
@@ -303,7 +314,7 @@ const page = ({ mode, contentJs, only = Object.keys(SUBJECTS), libsInCore = true
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1f6f4a">
-<title>${only.every((s) => CLASS_OF[s] === "form-2") ? "Form Two Lessons" : "Form One Lessons"}${term ? ` · Term ${term}` : ""}</title>
+<title>${CLASSES[CLASS_OF[only[0]]] && only.every((s) => CLASS_OF[s] === CLASS_OF[only[0]]) ? CLASSES[CLASS_OF[only[0]]] : "Form One"} Lessons${term ? ` · Term ${term}` : ""}</title>
 ${head}<style>${css}</style>
 </head>
 <body>

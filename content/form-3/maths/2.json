@@ -1,0 +1,590 @@
+{
+ "subject": "mathematics",
+ "class": "Form 3",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m3-2",
+   "name": "Simplify algebraic expressions: powers, products, quotients and brackets"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To simplify an expression, write it with as few terms as possible.\n• Like terms have exactly the same letters and powers: 3x² and −5x² are like; 3x² and 3x are not.\n• Add or subtract like terms by their coefficients: 4x² + 2x² = 6x².\n• Multiply terms: multiply the numbers, then the letters; the same letter adds its powers: 2x × 3x = 6x², 2x × 5y = 10xy.\n• Divide terms: divide the numbers, then cancel letters: 12x²y ÷ 4x = 3xy.\n• Brackets: multiply every term inside by the number outside, sign included: −2(x − 3) = −2x + 6. Then collect like terms.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Like terms, now with powers",
+    "text": "Last year you collected like terms such as {mono(3, 'x')} + {mono(5, 'x')}. Now the terms can have powers. Two terms are like terms only if they have exactly the same letters with exactly the same powers.\n• {mono(3, 'x²')} and {mono(-5, 'x²')} are like terms: {mono(3, 'x²')} − {mono(5, 'x²')} = {mono(-2, 'x²')}.\n• {mono(3, 'x²')} and {mono(3, 'x')} are not like terms: x² means x × x, a different quantity from x.\n• {mono(4, 'xy')} and {mono(2, 'yx')} are like terms, because xy = yx.\nAdding like terms changes only the coefficient, never the letters or the power."
+   },
+   {
+    "heading": "Multiplying and dividing terms",
+    "text": "Multiplying is different from adding: any two terms can be multiplied, like or not.\nMultiply the numbers, then put the letters together. The same letter twice makes a square.\n• {mono(4, 'x')} × {mono(3, 'y')} = {mono(12, 'xy')}\n• {mono(2, 'x')} × {mono(5, 'x')} = {mono(10, 'x²')}\nDividing works backwards: divide the numbers, then cancel the letters that appear above and below.\n• {mono(12, 'x²y')} ÷ {mono(4, 'x')} = {mono(3, 'xy')}, because x² ÷ x = x."
+   },
+   {
+    "heading": "Brackets with a minus sign",
+    "text": "The number in front of a bracket multiplies every term inside it, and its sign comes too.\n{bracket(-3, [1, 'x'], [-4, ''])} = {-3} × x + {br(-3)} × {br(-4)} = {poly([-3, 'x'], [12, ''])}.\nRemember: a negative times a negative is positive.\nAfter opening all brackets, collect the like terms to finish:\n{bracket(2, [1, 'x'], [5, ''])} − {bracket(3, [1, 'x'], [-1, ''])} = {poly([2, 'x'], [10, ''], [-3, 'x'], [3, ''])} = {poly([-1, 'x'], [13, ''])}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "like terms",
+    "meaning": "terms with the same letters and the same powers"
+   },
+   {
+    "word": "coefficient",
+    "meaning": "the number in front of the letters, with its sign"
+   },
+   {
+    "word": "expand",
+    "meaning": "remove the brackets by multiplying every term inside"
+   },
+   {
+    "word": "simplify",
+    "meaning": "write with as few terms as possible"
+   }
+  ],
+  "examples": [
+   "{mono(7, 'a²')} − {mono(2, 'a²')} + {mono(3, 'a')} = {poly([5, 'a²'], [3, 'a'])}",
+   "{mono(6, 'p')} × {mono(2, 'q')} = {mono(12, 'pq')}",
+   "{mono(15, 'm²n')} ÷ {mono(5, 'm')} = {mono(3, 'mn')}"
+  ],
+  "mistake": {
+   "wrong": "{mono(5, 'x²')} + {mono(3, 'x')} = {mono(8, 'x³')}",
+   "right": "{poly([5, 'x²'], [3, 'x'])} cannot be simplified",
+   "why": "x² and x are unlike terms. Only like terms can be added, and adding never changes the power."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": 2,
+   "c": 1,
+   "d": 2,
+   "e": 4
+  },
+  "problem": "Simplify {bracket(a, [b, 'x'], [-c, ''])} − {bracket(d, [1, 'x'], [-e, ''])}.",
+  "steps": [
+   "Open the first bracket: {a} × {mono(b, 'x')} = {mono(a * b, 'x')} and {a} × {br(-c)} = {-a * c}.",
+   "Open the second bracket with −{d}: −{d} × x = {mono(-d, 'x')} and −{d} × {br(-e)} = +{d * e}.",
+   "Now {poly([a * b, 'x'], [-a * c, ''], [-d, 'x'], [d * e, ''])}.",
+   "Collect: x terms {a * b} − {d} = {a * b - d}; numbers {br(-a * c)} + {d * e} = {d * e - a * c}."
+  ],
+  "answer": "{poly([a * b - d, 'x'], [d * e - a * c, ''])}",
+  "checks": [
+   "a * b - d == 4",
+   "d * e - a * c == 5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3m2-1",
+    "status": "draft",
+    "idea": "Like terms have the same letters with the same powers. Only like terms can be added.",
+    "vars": {},
+    "example": [
+     "{mono(4, 'x²')} + {mono(2, 'x²')} = {mono(6, 'x²')}, but {mono(4, 'x²')} + {mono(2, 'x')} stays as it is."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-2-powers"
+    }
+   },
+   {
+    "id": "c3m2-2",
+    "status": "draft",
+    "idea": "To multiply terms, multiply the numbers, then the letters. The same letter twice gives a square.",
+    "vars": {},
+    "example": [
+     "{mono(2, 'x')} × {mono(3, 'x')} = {mono(6, 'x²')}",
+     "{mono(2, 'x')} × {mono(5, 'y')} = {mono(10, 'xy')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m3-2-times"
+    }
+   },
+   {
+    "id": "c3m2-3",
+    "status": "draft",
+    "idea": "A number outside a bracket multiplies every term inside, with its sign.",
+    "vars": {},
+    "example": [
+     "{bracket(-2, [1, 'x'], [-3, ''])} = {poly([-2, 'x'], [6, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m3-2-minus-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-simplify"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "c": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "d": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "prompt": "Expand and simplify {bracket(a, [1, 'x'], [b, ''])} − {bracket(c, [1, 'x'], [-d, ''])}.",
+     "correct": "{poly([a - c, 'x'], [a * b + c * d, ''])}",
+     "distractors": [
+      {
+       "text": "{poly([a - c, 'x'], [a * b - c * d, ''])}",
+       "misconception": "sign"
+      },
+      {
+       "text": "{poly([a - c, 'x'], [a * b + d, ''])}",
+       "misconception": "once"
+      },
+      {
+       "text": "{poly([a + c, 'x'], [a * b + c * d, ''])}",
+       "misconception": "xsign"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "sign",
+       "explain": "−{c} × −{d} = +{c * d}: two negatives give a positive."
+      },
+      {
+       "id": "once",
+       "explain": "Multiply every term in the bracket by {c}: −{c} × {br(-d)} = +{c * d}, not +{d}."
+      },
+      {
+       "id": "xsign",
+       "explain": "The second bracket is subtracted: −{c} × x = {mono(-c, 'x')}."
+      }
+     ],
+     "solution": [
+      "Open the brackets: {poly([a, 'x'], [a * b, ''])} and −{c} × x = {mono(-c, 'x')}, −{c} × {br(-d)} = +{c * d}.",
+      "x terms: {a} − {c} = {a - c}; numbers: {a * b} + {c * d} = {a * b + c * d}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "a != c",
+      "d != 1",
+      "c * d != d",
+      "a * b - c * d != a * b + d"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m3-2-powers",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "d": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "Simplify {poly([a, 'x²'], [b, 'x'], [c, 'x²'], [d, 'x'])}.",
+   "correct": "{poly([a + c, 'x²'], [b + d, 'x'])}",
+   "distractors": [
+    {
+     "text": "{mono(a + b + c + d, 'x³')}",
+     "misconception": "join"
+    },
+    {
+     "text": "{poly([a + c, 'x⁴'], [b + d, 'x²'])}",
+     "misconception": "addpow"
+    },
+    {
+     "text": "{poly([a + b, 'x²'], [c + d, 'x'])}",
+     "misconception": "mix"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "join",
+     "explain": "x² and x are unlike terms: they stay separate."
+    },
+    {
+     "id": "addpow",
+     "explain": "Adding like terms does not change the power: x² stays x²."
+    },
+    {
+     "id": "mix",
+     "explain": "Add x² terms to x² terms and x terms to x terms only."
+    }
+   ],
+   "solution": [
+    "x² terms: {a} + {br(c)} = {a + c}.",
+    "x terms: {b} + {br(d)} = {b + d}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "c != 0 && d != 0",
+    "a + c != 0 && b + d != 0",
+    "a + b != a + c",
+    "c < 0 || d < 0"
+   ]
+  },
+  {
+   "id": "m3-2-times",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "V": {
+     "pick": [
+      [
+       "x",
+       "y"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "m",
+       "n"
+      ],
+      [
+       "p",
+       "q"
+      ]
+     ]
+    }
+   },
+   "prompt": "Simplify {mono(a, V[0])} × {mono(b, V[1])}.",
+   "correct": "{mono(a * b, V[0] + V[1])}",
+   "distractors": [
+    {
+     "text": "{mono(a + b, V[0] + V[1])}",
+     "misconception": "add"
+    },
+    {
+     "text": "{poly([a * b, V[0]], [1, V[1]])}",
+     "misconception": "split"
+    },
+    {
+     "text": "{mono(a * b, V[0] + '²' + V[1])}",
+     "misconception": "square"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "add",
+     "explain": "Multiply the numbers, do not add them: {a} × {b} = {a * b}."
+    },
+    {
+     "id": "split",
+     "explain": "The product of two letters is one term, {V[0]}{V[1]}, not a sum."
+    },
+    {
+     "id": "square",
+     "explain": "Only the same letter twice gives a square; {V[0]} × {V[1]} = {V[0]}{V[1]}."
+    }
+   ],
+   "solution": [
+    "Multiply the numbers: {a} × {b} = {a * b}.",
+    "Multiply the letters: {V[0]} × {V[1]} = {V[0]}{V[1]}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a != b",
+    "a * b != a + b"
+   ]
+  },
+  {
+   "id": "m3-2-minus",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand and simplify {bracket(a, [1, 'x'], [b, ''])} − {bracket(c, [1, 'x'], [-d, ''])}.",
+   "correct": "{poly([a - c, 'x'], [a * b + c * d, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([a - c, 'x'], [a * b - c * d, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{poly([a - c, 'x'], [a * b + d, ''])}",
+     "misconception": "once"
+    },
+    {
+     "text": "{poly([a + c, 'x'], [a * b + c * d, ''])}",
+     "misconception": "xsign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "−{c} × −{d} = +{c * d}: two negatives give a positive."
+    },
+    {
+     "id": "once",
+     "explain": "Multiply every term in the bracket by {c}: −{c} × {br(-d)} = +{c * d}, not +{d}."
+    },
+    {
+     "id": "xsign",
+     "explain": "The second bracket is subtracted: −{c} × x = {mono(-c, 'x')}."
+    }
+   ],
+   "solution": [
+    "Open the brackets: {poly([a, 'x'], [a * b, ''])} and −{c} × x = {mono(-c, 'x')}, −{c} × {br(-d)} = +{c * d}.",
+    "x terms: {a} − {c} = {a - c}; numbers: {a * b} + {c * d} = {a * b + c * d}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a != c",
+    "d != 1",
+    "c * d != d",
+    "a * b - c * d != a * b + d"
+   ]
+  },
+  {
+   "id": "m3-2-coef",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "e": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "f": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand and simplify {bracket(a, [b, 'x'], [c, ''])} + {bracket(d, [e, 'x'], [-f, ''])}. What is the coefficient of x?",
+   "answer": "a * b + d * e",
+   "misconceptions": [
+    {
+     "id": "nomult",
+     "wrong": "b + e",
+     "explain": "Multiply each x term by the number outside its bracket first: {a} × {b} and {d} × {e}."
+    },
+    {
+     "id": "const",
+     "wrong": "a * b + d * e + a * c - d * f",
+     "explain": "That adds the numbers too; the coefficient of x counts only the x terms."
+    }
+   ],
+   "solution": [
+    "{a} × {mono(b, 'x')} = {mono(a * b, 'x')} and {d} × {mono(e, 'x')} = {mono(d * e, 'x')}.",
+    "Add the x terms: {a * b} + {d * e} = {answer}."
+   ],
+   "where": [
+    "a * b + d * e != b + e",
+    "a * c != d * f"
+   ]
+  },
+  {
+   "id": "m3-2-divide",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "V": {
+     "pick": [
+      [
+       "x",
+       "y"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "m",
+       "n"
+      ],
+      [
+       "p",
+       "q"
+      ]
+     ]
+    }
+   },
+   "prompt": "Simplify {mono(a * b, V[0] + '²' + V[1])} ÷ {mono(a, V[0])}.",
+   "correct": "{mono(b, V[0] + V[1])}",
+   "distractors": [
+    {
+     "text": "{mono(b, V[0] + '²' + V[1])}",
+     "misconception": "keep"
+    },
+    {
+     "text": "{mono(b, V[1])}",
+     "misconception": "all"
+    },
+    {
+     "text": "{mono(a * b - a, V[0] + V[1])}",
+     "misconception": "subtract"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "keep",
+     "explain": "Dividing by {V[0]} removes one {V[0]}: {V[0]}² ÷ {V[0]} = {V[0]}."
+    },
+    {
+     "id": "all",
+     "explain": "{V[0]}² is {V[0]} × {V[0]}: dividing by {V[0]} leaves one {V[0]}."
+    },
+    {
+     "id": "subtract",
+     "explain": "Divide the numbers, do not subtract them: {a * b} ÷ {a} = {b}."
+    }
+   ],
+   "solution": [
+    "Divide the numbers: {a * b} ÷ {a} = {b}.",
+    "{V[0]}² ÷ {V[0]} = {V[0]}; {V[1]} stays.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 1",
+    "a * b - a != b"
+   ]
+  }
+ ]
+}

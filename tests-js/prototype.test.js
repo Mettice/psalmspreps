@@ -11,6 +11,8 @@ const FILE = new URL("tools/prototype/form1.html", ROOT);
 const page = () => readFileSync(FILE, "utf8");
 const constant = (html, name) => JSON.parse(html.match(new RegExp(`const ${name} = (.*);\\n`))[1]);
 const FORM1 = ["maths", "english", "physics", "chemistry", "geography", "home-economics", "history", "biology", "computer-science", "french"];
+// Form 3 on: content/classes.json, the subjects with at least one lesson (2026-10-23)
+const LATER = (await import("../tools/classes.mjs")).registrySubjects().filter((r) => r.lessons.length);
 const FORM2 = ["f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-geography", "f2-home-economics", "f2-history", "f2-biology", "f2-computer-science", "f2-french", "f2-francais-intensif", "f2-accounting"];
 
 test("prototype: builds under 1.5 MB, no external resources, engine runs", () => {
@@ -126,7 +128,9 @@ test("prototype: motion off under prefers-reduced-motion; 48px tap targets; text
 test("prototype: inside French lessons the pupil's labels are French; elsewhere English", () => {
   const html = page();
   assert.ok(html.includes("const T = (text, v = {}) => ((inFrench(S) && FR[text]) || text)"), "the label helper is in the page");
-  assert.ok(html.includes(`const inFrench = (s) => s === "french" || s === "f2-french" || s === "f2-francais-intensif";`), "Form Two French lessons use the French labels too");
+  const inFrench = new Function(`${html.match(/const inFrench = [^;\n]*;/)[0]} return inFrench;`)();
+  for (const s of ["french", "f2-french", "f2-francais-intensif", "f3-french", "f3-francais-intensif"]) assert.ok(inFrench(s), `${s} uses the French labels`);
+  for (const s of ["maths", "f2-english", "f3-physics", "frenchy"]) assert.ok(!inFrench(s), `${s} stays English`);
   for (const fr of ["Vérifier", "Je ne sais pas", "Retour aux leçons", "Leçon {n} · Idée {a} sur {b}", "Bravo !"]) assert.ok(html.includes(fr), fr);
   for (const en of ['button("Check"', "button(\"I don't know\"", '{}, "Correct!")']) assert.ok(!html.includes(en), `still hard-coded: ${en}`);
 });
@@ -166,7 +170,7 @@ test("installable app: the core page has the engine and screens but no lesson co
   assert.doesNotMatch(core, /__mods\["lib\//, "no subject library in the core page (2026-10-23)");
   assert.doesNotMatch(core, /https?:\/\/(?!www\.w3\.org)/, "loads nothing from other sites");
   const lessons = constant(core, "LESSONS"), titles = constant(core, "TITLES");
-  assert.deepEqual(Object.keys(lessons), [...FORM1, ...FORM2]);
+  assert.deepEqual(Object.keys(lessons), [...FORM1, ...FORM2, ...LATER.map((r) => r.id)]);
   for (const s of Object.keys(lessons)) for (const n of lessons[s]) assert.ok(titles[s][n], `${s} ${n} title in the core page`);
 });
 
@@ -234,7 +238,8 @@ test("classes: Form One stays the default; Form Two has its own subjects, file a
   const classOf = constant(core, "CLASS_OF");
   for (const s of FORM1) assert.equal(classOf[s], "form-1");
   for (const s of FORM2) assert.equal(classOf[s], "form-2");
-  assert.deepEqual(constant(core, "CLASSES"), { "form-1": "Form One", "form-2": "Form Two" });
+  for (const r of LATER) assert.equal(classOf[r.id], r.cls);
+  assert.deepEqual(constant(core, "CLASSES"), { "form-1": "Form One", "form-2": "Form Two", ...Object.fromEntries(LATER.map((r) => [r.cls, r.className])) });
   const app = readFileSync(new URL("tools/prototype/app.js", ROOT), "utf8");
   assert.ok(app.includes("const form = () => (classesHere().includes(state.form) ? state.form : classesHere()[0]);"), "no saved class: the first class, Form One");
   assert.ok(app.includes('classesHere().length > 1 ? el("div", { class: "subjects class-switch"'), "the switch shows only when there are two classes");
